@@ -674,3 +674,110 @@ BOOL CEntity::IsStationary()
 
 //-----------------------------------------------------------
 
+
+// Symbolic GTA matrix ABI bridge; full R5 body at 0x9F8F0.
+void CEntity::GetEulerAngles(float *x, float *y, float *z)
+{
+ if(!m_pEntity) return;
+ DWORD matrix=(DWORD)m_pEntity->mat;
+ if(matrix) {
+  _asm push 0x15
+  _asm push z
+  _asm push y
+  _asm push x
+  _asm mov ecx, matrix
+  _asm mov eax, 0x59A840
+  _asm call eax
+ }
+ *x = *x * 57.295776f * -1.0f;
+ *y = *y * 57.295776f * -1.0f;
+ *z = *z * 57.295776f * -1.0f;
+}
+
+// Symbolic GTA physical-force ABI bridge; full R5 body at 0x9F9D0.
+void CEntity::ApplyForce(float x, float y, float z, float px, float py, float pz)
+{
+ DWORD entity=(DWORD)m_pEntity;
+ if(!entity) return;
+ _asm push pz
+ _asm push py
+ _asm push px
+ _asm push z
+ _asm push y
+ _asm push x
+ _asm mov eax, 0x542A50
+ _asm mov ecx, entity
+ _asm call eax
+}
+
+// Native audio event bridge; exact target ABI includes the zero second argument.
+void CEntity::PlayAudio(int event)
+{
+ DWORD entity=(DWORD)m_pEntity;
+ if(!entity) return;
+ _asm push 0
+ _asm push event
+ _asm mov edx, entity
+ _asm lea ecx, [edx+0x138]
+ _asm mov edx, 0x4F6420
+ _asm call edx
+}
+
+PDWORD CEntity::GetRwObject()
+{
+ if(!m_pEntity) return NULL;
+ return m_pEntity->pdwRenderWare;
+}
+
+BYTE CEntity::IsNativeTarget()
+{
+ if(m_pEntity && m_pEntity == *(ENTITY_TYPE **)0xB7CD68) return 1;
+ return 0;
+}
+
+// Symbolic native virtual DeleteRwObject ABI bridge.
+void CEntity::DeleteRwObject()
+{
+ if(!m_pEntity || !m_pEntity->pdwRenderWare) return;
+ DWORD entity=(DWORD)m_pEntity;
+ _asm mov ecx, entity
+ _asm mov eax, [ecx]
+ _asm call dword ptr [eax+0x20]
+}
+
+// Symbolic native virtual ProcessControl ABI bridge.
+void CEntity::ProcessControl()
+{
+ DWORD vtable=m_pEntity->vtable;
+ DWORD entity=(DWORD)m_pEntity;
+ _asm mov eax, vtable
+ _asm mov ecx, entity
+ _asm call dword ptr [eax+0x28]
+}
+
+void CEntity::SetMatrixAndUpdate(MATRIX4X4 matrix)
+{
+ if(!m_pEntity || !m_pEntity->mat) return;
+ DWORD entity=(DWORD)m_pEntity;
+ DWORD vtable=*(PDWORD)entity;
+ _asm mov eax, vtable
+ _asm mov ecx, entity
+ _asm call dword ptr [eax+0x0C]
+ SetMatrix(matrix);
+ FUNC_1009EC80();
+ _asm mov eax, vtable
+ _asm mov ecx, entity
+ _asm call dword ptr [eax+0x08]
+}
+
+void CEntity::AdvancePosition()
+{
+ if(!m_pEntity) return;
+ float step=*(float*)0xB7CB5C;
+ MATRIX4X4 matrix;
+ GetMatrix(&matrix);
+ matrix.pos.X+=step*m_pEntity->vecMoveSpeed.X;
+ matrix.pos.Y+=step*m_pEntity->vecMoveSpeed.Y;
+ matrix.pos.Z+=step*m_pEntity->vecMoveSpeed.Z;
+ SetMatrixAndUpdate(matrix);
+}

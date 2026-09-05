@@ -156,3 +156,57 @@ sous-systèmes voisins. Les distances au joueur local ont une forme de code
 candidate exacte mais leur chaîne de dépendances est plus large et reste hors
 couverture. AddEntry et PushBack diffèrent toujours. Le checkpoint 3.2 et la
 DLL entière restent incomplets.
+
+
+## Suite Entity — huit fonctions supplémentaires acceptées
+
+`cp32-entity-tail-linked`, contrat `entity-tail-contract.json` : 124 régions,
+85 fonctions complètes, 5 903 octets de code. Gain unique **386 octets**, cumul
+**29 955 / 930 756 = 3,2184 %**. Les contrats/proofs précédents sont conservés.
+Fonctions nouvelles : ApplyForce (48), PlayAudio (41), GetRwObject (12),
+DeleteRwObject (33), ProcessControl (30), IsNativeTarget (21), AdvancePosition
+(113), IsStationary (88). BYTE, et non bool, reproduit le retour AL de
+IsNativeTarget. Les noms des nouvelles fonctions sont descriptifs ; les
+identités sont ancrées dans les RVAs et les corps complets.
+
+Les relocations d'AdvancePosition ciblent GetMatrix et SetMatrixAndUpdate.
+Ce dernier est implémenté mais nonmatching : il ne compte pas dans la
+couverture, tout comme son pont FUNC_1009EC80. Les 113 octets acceptés ne
+prouvent donc pas une chaîne de mise à jour entièrement exacte. Les trois
+références au zéro flottant d'IsStationary sont également vérifiées.
+
+Le test ciblé ajoute les ABI force/audio aux deux images : six flottants dans
+l'ordre natif pour 542A50, event + zéro pour 4F6420 sur l'objet natif +138.
+Pile et registres non volatils restaurés ; seuls les appels moteur sont
+interceptés. Les six contrôles négatifs existants passent. Pas de double build
+ni de régression générale. Les ajouts au header ont renuméroté les labels EH
+privés du compilateur ; leurs hashes et leurs cibles originales sont inchangés
+et contrôlés avant la revue du nouveau contrat.
+
+### Essais non adoptés à ne pas recommencer à l'identique
+
+Les snapshots `cp32-motion-ob2`, `cp32-motion2-ob2` à `cp32-motion9-ob2`,
+`cp32-motion-precise`, `cp32-bridges-ob2` sont conservés dans build/.
+La routine 9ED40 attend 225 octets ; les variantes ont produit :
+- VECTOR local + SetMoveSpeedVector : 275 ;
+- accumulation dans trois paramètres scalaires : 150 ; avec boucle : 165 ;
+- VECTOR local + écritures directes : 231 ;
+- alias VECTOR sur &fX : 227, avec aliasage incorrect des paramètres (rejeté) ;
+- VECTOR passé par valeur + initialisation champ par champ : 225 mais
+  53 différences hors fixups ;
+- affectation agrégée initiale : 233, puis variante 228.
+La signature par valeur est une piste, pas une identité prouvée. La définition
+amont et sa signature initiale sont restaurées ; aucune variante ne compte.
+
+GetEulerAngles : littéraux float donnent 87 octets (multiplications fusionnées),
+-1.0 double donne 105 mais trois opcodes FMUL qword au lieu de dword ; constante
+extern séparée donne 111 ou 105 avec réordonnancement différent. Les pragmas p
+on/off et /Op testés n'ont pas réglé l'écart dans ces essais. Aucun pragma ou
+constante artificielle n'est conservé. Le probe expose /Op pour les essais,
+mais le gate n'accepte toujours que les profils revus précédemment.
+
+Les régions manquantes prioritaires restent 9EC80 (80/82), 9ED40 (146/225 dans
+la source amont), GetEulerAngles (87/105) et SetMatrixAndUpdate (89/91). Les
+fonctions autour de 9EF50 (modèle) dépendent du lookup A7A40/B45A0 et de sa
+mémoire de modèles relocalisée ; les distances joueur dépendent de FindPlayerPed.
+Élargir aussi les lots voisins plutôt que répéter longtemps les mêmes variantes.

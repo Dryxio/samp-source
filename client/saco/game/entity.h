@@ -48,6 +48,16 @@ public:
 	void  SetClumpAlpha(int iAlpha);
 	DWORD GetWorldBoundRadius();
 	void  SetEulerAngles(float fX, float fY, float fZ);
+	void  GetEulerAngles(float *x, float *y, float *z);
+	void  ApplyForce(float x, float y, float z, float px, float py, float pz);
+
+	void PlayAudio(int event);
+	PDWORD GetRwObject();
+	BYTE IsNativeTarget();
+	void DeleteRwObject();
+	void ProcessControl();
+	void SetMatrixAndUpdate(MATRIX4X4 matrix);
+	void AdvancePosition();
 
 	virtual void  Add();
 	virtual void  Remove();
