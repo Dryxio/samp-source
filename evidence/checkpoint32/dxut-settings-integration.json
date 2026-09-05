@@ -1,0 +1,36 @@
+{
+  "status": "ACCEPTED_AFTER_COMPLETE_LINK_REVIEW",
+  "run": "cp32-dxut-settings-linked",
+  "ob1": "cp32-dxut-settings-ob1",
+  "ob2": "cp32-ime-ob2",
+  "new_unique_code_bytes": 3321,
+  "accepted_direct_025_credit": 0,
+  "reference_comparisons": [
+    {
+      "function": "DXUTBuildOptimalDeviceSettings",
+      "identical_to_025": true
+    },
+    {
+      "function": "DXUTBuildValidDeviceSettings",
+      "identical_to_025": true
+    },
+    {
+      "function": "DXUTFindValidResolution",
+      "identical_to_025": true
+    },
+    {
+      "function": "SortModesCallback",
+      "identical_to_025": true
+    },
+    {
+      "function": "DXUTGetEnumeration",
+      "identical_to_025": true
+    },
+    {
+      "function": "CD3DEnumeration::Enumerate",
+      "identical_to_025": true
+    }
+  ],
+  "source_adaptations": "Whole original definitions only, minimal extraction includes/prototypes. Existing enumeration generator extended with complete Enumerate, singleton and SortModesCallback; state singleton reused unchanged.",
+  "verification": "1384 complete regions, all original/linked target and PE relocation checks,10 negative controls and existing ABI pass. Actual resolution296 source provider added but already CP3.1 covered and not counted again. Both36-byte EH records and full cleanup code21/18 plus singleton guard4/object93 validated. Original scalar construction and pinned LIBCMT qsort/stricmp checked. No new missing dependency;8 earlier pending providers unchanged. No actual graphics enumeration/callback execution or exception unwinding."
+}

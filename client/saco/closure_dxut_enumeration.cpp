@@ -1,5 +1,170 @@
 // Complete pinned DXUT enumeration methods.
 #include "d3d9/common/dxstdafx.h"
+static int __cdecl SortModesCallback( const void* arg1, const void* arg2 )
+{
+    D3DDISPLAYMODE* pdm1 = (D3DDISPLAYMODE*)arg1;
+    D3DDISPLAYMODE* pdm2 = (D3DDISPLAYMODE*)arg2;
+
+    if (pdm1->Width > pdm2->Width)
+        return 1;
+    if (pdm1->Width < pdm2->Width)
+        return -1;
+    if (pdm1->Height > pdm2->Height)
+        return 1;
+    if (pdm1->Height < pdm2->Height)
+        return -1;
+    if (pdm1->Format > pdm2->Format)
+        return 1;
+    if (pdm1->Format < pdm2->Format)
+        return -1;
+    if (pdm1->RefreshRate > pdm2->RefreshRate)
+        return 1;
+    if (pdm1->RefreshRate < pdm2->RefreshRate)
+        return -1;
+    return 0;
+}
+CD3DEnumeration* DXUTGetEnumeration()
+{
+    // Using an accessor function gives control of the construction order
+    static CD3DEnumeration d3denum;
+    return &d3denum;
+}
+HRESULT CD3DEnumeration::Enumerate( IDirect3D9* pD3D,
+                                    LPDXUTCALLBACKISDEVICEACCEPTABLE IsDeviceAcceptableFunc,
+                                    void* pIsDeviceAcceptableFuncUserContext )
+{
+    if( pD3D == NULL )
+    {
+        pD3D = DXUTGetD3DObject();
+        if( pD3D == NULL )
+            return DXUTERR_NODIRECT3D;
+    }
+
+    m_pD3D = pD3D;
+    m_IsDeviceAcceptableFunc = IsDeviceAcceptableFunc;
+    m_pIsDeviceAcceptableFuncUserContext = pIsDeviceAcceptableFuncUserContext;
+
+    HRESULT hr;
+    ClearAdapterInfoList();
+    CGrowableArray<D3DFORMAT> adapterFormatList;
+
+    const D3DFORMAT allowedAdapterFormatArray[] = 
+    {   
+        D3DFMT_X8R8G8B8, 
+        D3DFMT_X1R5G5B5, 
+        D3DFMT_R5G6B5, 
+        D3DFMT_A2R10G10B10
+    };
+    const UINT allowedAdapterFormatArrayCount  = sizeof(allowedAdapterFormatArray) / sizeof(allowedAdapterFormatArray[0]);
+
+    UINT numAdapters = pD3D->GetAdapterCount();
+    for (UINT adapterOrdinal = 0; adapterOrdinal < numAdapters; adapterOrdinal++)
+    {
+        CD3DEnumAdapterInfo* pAdapterInfo = new CD3DEnumAdapterInfo;
+        if( pAdapterInfo == NULL )
+            return E_OUTOFMEMORY;
+
+        pAdapterInfo->AdapterOrdinal = adapterOrdinal;
+        pD3D->GetAdapterIdentifier(adapterOrdinal, 0, &pAdapterInfo->AdapterIdentifier);
+
+        // Get list of all display modes on this adapter.  
+        // Also build a temporary list of all display adapter formats.
+        adapterFormatList.RemoveAll();
+
+        for( UINT iFormatList = 0; iFormatList < allowedAdapterFormatArrayCount; iFormatList++ )
+        {
+            D3DFORMAT allowedAdapterFormat = allowedAdapterFormatArray[iFormatList];
+            UINT numAdapterModes = pD3D->GetAdapterModeCount( adapterOrdinal, allowedAdapterFormat );
+            for (UINT mode = 0; mode < numAdapterModes; mode++)
+            {
+                D3DDISPLAYMODE displayMode;
+                pD3D->EnumAdapterModes( adapterOrdinal, allowedAdapterFormat, mode, &displayMode );
+
+                if( displayMode.Width < m_nMinWidth ||
+                    displayMode.Height < m_nMinHeight || 
+                    displayMode.Width > m_nMaxWidth ||
+                    displayMode.Height > m_nMaxHeight || 
+                    displayMode.RefreshRate < m_nRefreshMin ||
+                    displayMode.RefreshRate > m_nRefreshMax )
+                {
+                    continue;
+                }
+
+                pAdapterInfo->displayModeList.Add( displayMode );
+                
+                if( !adapterFormatList.Contains(displayMode.Format) )
+                    adapterFormatList.Add( displayMode.Format );
+            }
+
+        }
+
+        D3DDISPLAYMODE displayMode;
+        pD3D->GetAdapterDisplayMode( adapterOrdinal, &displayMode );
+        if( !adapterFormatList.Contains(displayMode.Format) )
+            adapterFormatList.Add( displayMode.Format );
+
+        // Sort displaymode list
+        qsort( pAdapterInfo->displayModeList.GetData(), 
+               pAdapterInfo->displayModeList.GetSize(), sizeof( D3DDISPLAYMODE ),
+               SortModesCallback );
+
+        // Get info for each device on this adapter
+        if( FAILED( EnumerateDevices( pAdapterInfo, &adapterFormatList ) ) )
+        {
+            delete pAdapterInfo;
+            continue;
+        }
+
+        // If at least one device on this adapter is available and compatible
+        // with the app, add the adapterInfo to the list
+        if( pAdapterInfo->deviceInfoList.GetSize() > 0 )
+        {
+            hr = m_AdapterInfoList.Add( pAdapterInfo );
+            if( FAILED(hr) )
+                return hr;
+        } else
+            delete pAdapterInfo;
+    }
+
+    bool bUniqueDesc = true;
+    CD3DEnumAdapterInfo* pAdapterInfo;
+    for( int i=0; i<m_AdapterInfoList.GetSize(); i++ )
+    {
+        CD3DEnumAdapterInfo* pAdapterInfo1 = m_AdapterInfoList.GetAt(i);
+
+        for( int j=i+1; j<m_AdapterInfoList.GetSize(); j++ )
+        {
+            CD3DEnumAdapterInfo* pAdapterInfo2 = m_AdapterInfoList.GetAt(j);
+            if( _stricmp( pAdapterInfo1->AdapterIdentifier.Description, 
+                          pAdapterInfo2->AdapterIdentifier.Description ) == 0 )
+            {
+                bUniqueDesc = false;
+                break;
+            }
+        }
+
+        if( !bUniqueDesc )
+            break;
+    }
+
+    for( int i=0; i<m_AdapterInfoList.GetSize(); i++ )
+    {
+        pAdapterInfo = m_AdapterInfoList.GetAt(i);
+
+        strcpy(pAdapterInfo->szUniqueDescription,pAdapterInfo->AdapterIdentifier.Description);
+        pAdapterInfo->szUniqueDescription[100] = 0;
+
+        if( !bUniqueDesc )
+        {
+            TCHAR sz[100];
+            StringCchPrintf( sz, 100, " (#%d)", pAdapterInfo->AdapterOrdinal );
+            StringCchCat( pAdapterInfo->szUniqueDescription, 256, sz );
+
+        }
+    }
+
+    return S_OK;
+}
 CD3DEnumeration::CD3DEnumeration()
 {
     m_pD3D = NULL;
