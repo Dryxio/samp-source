@@ -1,0 +1,172 @@
+{
+  "status": "UNCOMPILED_PROPOSAL_NO_ACCEPTED_CREDIT",
+  "source": "eval_playerped_lifetime2.cpp",
+  "header_delta": "playerped-lifetime-header-proposal.txt",
+  "baseline_union": 197750,
+  "functions": [
+    {
+      "rva": "0x1010",
+      "size": 94,
+      "new_unique": 94
+    },
+    {
+      "rva": "0xaba70",
+      "size": 308,
+      "new_unique": 308
+    },
+    {
+      "rva": "0xb13d0",
+      "size": 30,
+      "new_unique": 30
+    },
+    {
+      "rva": "0xb12a0",
+      "size": 70,
+      "new_unique": 70
+    },
+    {
+      "rva": "0xb0fa0",
+      "size": 312,
+      "new_unique": 312
+    },
+    {
+      "rva": "0xaee30",
+      "size": 28,
+      "new_unique": 28
+    },
+    {
+      "rva": "0xb0ab0",
+      "size": 86,
+      "new_unique": 86
+    },
+    {
+      "rva": "0xadc00",
+      "size": 141,
+      "new_unique": 141
+    }
+  ],
+  "EH": [
+    {
+      "parent_rva": "0x1010",
+      "cleanup": "0xdfe80",
+      "handler": "0xdfe8b",
+      "size": 21,
+      "FuncInfo": {
+        "rva": "0xf7618",
+        "size": 28,
+        "hex": "200593190100000010760f1000000000000000000000000000000000"
+      },
+      "UnwindMap": {
+        "rva": "0xf7610",
+        "size": 8,
+        "hex": "ffffffff80fe0d10"
+      }
+    },
+    {
+      "parent_rva": "0xaba70",
+      "cleanup": "0xe3ef0",
+      "handler": "0xe3ef8",
+      "size": 18,
+      "FuncInfo": {
+        "rva": "0xfbe48",
+        "size": 28,
+        "hex": "200593190100000040be0f1000000000000000000000000000000000"
+      },
+      "UnwindMap": {
+        "rva": "0xfbe40",
+        "size": 8,
+        "hex": "fffffffff03e0e10"
+      }
+    },
+    {
+      "parent_rva": "0xb12a0",
+      "cleanup": "0xe3f70",
+      "handler": "0xe3f78",
+      "size": 18,
+      "FuncInfo": {
+        "rva": "0xfbed8",
+        "size": 28,
+        "hex": "2005931901000000d0be0f1000000000000000000000000000000000"
+      },
+      "UnwindMap": {
+        "rva": "0xfbed0",
+        "size": 8,
+        "hex": "ffffffff703f0e10"
+      }
+    }
+  ],
+  "total_main": 1069,
+  "total_EH": 57,
+  "sizeof_evidence": {
+    "original_allocation": "1030 push32D ->operatornewC627A, ctorABA70, stored CGame+8 at1058",
+    "source_layout": "Existing CPlayerPed final byte array gap2FD[48] ends32D, /Zp1 x86; baseCEntity48. Header adds only virtual dtor override and methods, no fields or new vptr because base alreadyvirtual.",
+    "compile_assertions": "sizeof32D,base48, offsets4C/74/27C/2A4/2B0, slot52 are compile-time checked in proposal"
+  },
+  "ownership": {
+    "CGame": "FindPlayerPed caches separately allocated wrapper in CGame+8; nativePed pointer comesGamePool_FindPlayerPed, not wrapper allocation.",
+    "attached_objects": "B0B10 invokes A9110 atB0C58 and stores return atB0C69 into field27C[index]. A9110 writesECD74. RemoveAll uses virtual slot0 flags1 and clears pointer only when nonnull; clears data52 and active-slot marker.",
+    "native_ped": "Destroy native assembly calls GTA native vtable slot0 flags1 after removing ancillary objects and vehicle association. This is existing native boundary and source025 protocol, not reconstructed SAMP CPlayerPed dtor recursion.",
+    "object_requirement": "ECD74 virtual targets AA100/A7DB0/A7E00 must be accepted under genuine class identity first. Parent has exact candidates; no new complete CObject allocations introduced."
+  },
+  "vtable": {
+    "rva": "ED140",
+    "size": 12,
+    "hex": "d0130b1000f3091000f40910",
+    "targets": [
+      "B13D0 newlygenerated deletingdtor",
+      "9F300 accepted CEntity::Add",
+      "9F400 accepted CEntity::Remove"
+    ]
+  },
+  "source025": "Destroy312 adapted from actual025 Destroy with R5 attached-object cleanup, flags and ancillary fields; ctor308 already base with stale m_iPissingState renamed existingfield2F2. Empty025 destructor must NOT be reused; R5dtor70 callsDestroy. FindPlayerPed94 alreadybase. Helpers reconstructedR5, no wholehelper025 credit.",
+  "total_candidate_code": 1126,
+  "object_class_declaration_audit": {
+    "result": "NO_DUPLICATE_DECLARATION",
+    "explanation": "lifetime2 names R5ObjectDestructionView only in comment; actual delete casts to complete CEntity from game/entity.h, identical true base of destructor view. Therefore no differing R5ObjectDestructionView class definitions or private-layout copies in player TU."
+  },
+  "ctor_dependencies": {
+    "accepted_code": [
+      {
+        "rva": "B3C60",
+        "unit": "closure_util",
+        "symbol": "?GamePool_FindPlayerPed@@YGPAU_PED_TYPE@@XZ",
+        "size": 6
+      },
+      {
+        "rva": "B4320",
+        "unit": "closure_player_records",
+        "symbol": "?SetPlayerPedPtrRecord@@YGXEK@Z",
+        "size": 40
+      },
+      {
+        "rva": "B2310",
+        "unit": "game_scripting",
+        "symbol": "?ScriptCommand@@YAHPBUSCRIPT_COMMAND@@ZZ",
+        "size": 565
+      },
+      {
+        "rva": "9C280",
+        "unit": "game_actorped",
+        "symbol": "??1CEntity@@UAE@XZ",
+        "size": 7
+      }
+    ],
+    "missing_external_code": [],
+    "own_pending_virtual_chain": "ED140 slot0 ->B13D0 ->B12A0 ->B0FA0 ->AEE30/B0AB0/ADC00, all proposed. Slots1/2 use accepted9F300/9F400.",
+    "complete_static_descriptors": [
+      {
+        "symbol": "_set_actor_weapon_droppable",
+        "rva": "ECFC4",
+        "size": 18,
+        "hex": "7e0869690000000000000000000000000000"
+      },
+      {
+        "symbol": "_set_actor_can_be_decapitated",
+        "rva": "ECE84",
+        "size": 18,
+        "hex": "460469690000000000000000000000000000",
+        "distinct_static_owner": "ActorPed same descriptor already accepted atEC280. Do not remap old owner."
+      }
+    ]
+  }
+}

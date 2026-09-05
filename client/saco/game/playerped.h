@@ -104,6 +104,11 @@ void SetWeaponModelIndex(int iWeapon);
 	BOOL IsPerformingAnimation(char *szAnimName);
 
 	CPlayerPed();
+	virtual ~CPlayerPed();
+	void Destroy();
+	int HasObjectAttached();
+	void RemoveAllAttachedObjects();
+	void StopCarrying();
 
 	void		ProcessVehicleHorn();
 

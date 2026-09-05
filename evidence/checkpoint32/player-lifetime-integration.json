@@ -1,0 +1,86 @@
+{
+  "status": "ACCEPTED_AFTER_COMPLETE_LINK_REVIEW",
+  "run": "cp32-player-lifetime-linked",
+  "ob1": "cp32-player-lifetime-ob1",
+  "ob2": "cp32-player-lifetime-ob2",
+  "new_unique_code_bytes": 1126,
+  "direct_025_accepted_bytes": 312,
+  "total_direct_025_accepted_bytes": 15852,
+  "symbolic_exception_bytes": 86,
+  "verification": "2480 complete regions, eight whole principals1069 plus57EH, vtable12, five full18-byte descriptors and three36-byte unwind objects. Full gate, ten negative controls and actor ABI pass. Header has only5 method declarations, exact32D/layout assertions pass.",
+  "alias_provider_evidence": {
+    "run": "cp32-player-lifetime-linked",
+    "aliases": [
+      {
+        "alias": "_r5_rw_OperatorNew",
+        "canonical": "??2@YAPAXI@Z",
+        "actual_va": 268634922,
+        "owner": "libcpmt:newop.obj",
+        "reference_rva": "0xc627a",
+        "wrapper_bytes": 0
+      },
+      {
+        "alias": "_r5_rw_Read_thiscall_assembly_only",
+        "canonical": "?Read@R5MemoryReaderView@@QAEIPAXI@Z",
+        "actual_va": 268623968,
+        "owner": "closure_memory_reader.obj",
+        "reference_rva": "0xba7d0",
+        "wrapper_bytes": 0
+      }
+    ],
+    "calls": [
+      {
+        "function": "?ReadChunk@R5RwFrameParserView@@QAEPAUR5RwChunk@@PAUR5RwReaderStorage@@@Z",
+        "offset": 31,
+        "alias": "_r5_rw_OperatorNew",
+        "actual_target": 268634922
+      },
+      {
+        "function": "?ReadChunk@R5RwFrameParserView@@QAEPAUR5RwChunk@@PAUR5RwReaderStorage@@@Z",
+        "offset": 103,
+        "alias": "_r5_rw_Read_thiscall_assembly_only",
+        "actual_target": 268623968
+      },
+      {
+        "function": "?ReadChunk@R5RwFrameParserView@@QAEPAUR5RwChunk@@PAUR5RwReaderStorage@@@Z",
+        "offset": 127,
+        "alias": "_r5_rw_Read_thiscall_assembly_only",
+        "actual_target": 268623968
+      },
+      {
+        "function": "?ReadChunk@R5RwFrameParserView@@QAEPAUR5RwChunk@@PAUR5RwReaderStorage@@@Z",
+        "offset": 152,
+        "alias": "_r5_rw_Read_thiscall_assembly_only",
+        "actual_target": 268623968
+      },
+      {
+        "function": "?ReadChunk@R5RwFrameParserView@@QAEPAUR5RwChunk@@PAUR5RwReaderStorage@@@Z",
+        "offset": 179,
+        "alias": "_r5_rw_Read_thiscall_assembly_only",
+        "actual_target": 268623968
+      },
+      {
+        "function": "?ValidateFrameExtensions@R5RwFrameParserView@@QAEHPAUR5RwChunk@@@Z",
+        "offset": 42,
+        "alias": "_r5_rw_Read_thiscall_assembly_only",
+        "actual_target": 268623968
+      }
+    ]
+  },
+  "throughput": {
+    "start": {
+      "start_utc": "2026-09-05T20:11:21Z",
+      "accepted_code_bytes": 173141,
+      "proof": "evidence/checkpoint32/dxut-state-extra-acceptance.json",
+      "agents": 3,
+      "coordination_included": true
+    },
+    "measured_at": "2026-09-05T23:33:31.071576+00:00",
+    "elapsed_seconds": 12130.071576,
+    "new_unique_accepted_bytes": 27418,
+    "bytes_per_hour": 8137.19848078166,
+    "coordination_included": true,
+    "direct_025_baseline": 1523,
+    "new_direct_025_accepted_bytes": 14329
+  }
+}

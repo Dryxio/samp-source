@@ -1,0 +1,37 @@
+{
+  "status": "SYMBOLIC_EXCEPTION_AUTHORIZED_SINGLE_PROBE_UNCOMPILED",
+  "rva": "B0AB0",
+  "size": 86,
+  "symbol": "?RemoveAllAttachedObjects@CPlayerPed@@QAEXXZ",
+  "source": "build/agent-independent/eval_remove_attached_symbolic.cpp",
+  "sha256": "148f932f3c879e6755904166cd4bb0d3947154d6cf1c650801906ded911f0ec1",
+  "reason": "Three bounded normal-C++ attempts retain object-array induction base rather than R5 active-array induction base. This proposal expresses same observed algorithm symbolically, with field offsets and strides sourced from actual CPlayerPed declaration.",
+  "normal_cpp_trials": [
+    {
+      "trial": "cp32-player-lifetime-trial1",
+      "status": "same86 mismatch induction base ESI=field27C instead4C"
+    },
+    {
+      "trial": "cp32-player-lifetime-trial2",
+      "status": "positive nested bounds/activity checks; parent reported same86 induction mismatch"
+    },
+    {
+      "trial": "cp32-player-lifetime-trial3b",
+      "status": "int& active compiled86; same induction mismatch. Prior DWORD& attempt rejected because actual field4C element is int; not counted as byte comparison."
+    }
+  ],
+  "scope": "Only RemoveAllAttachedObjects, remaining seven lifetime bodies stay normalC++ exact. No new providers or owner allocations.",
+  "source_invariants": [
+    "offsetof real CPlayerPed field4C/74/27C",
+    "sizeof actual struc97 for clear count and stride",
+    "sizeof actual field4C element for induction stride",
+    "virtual CEntity deleting destructor slot0 with flags1, targets AA100\u2192A9430 provenance established",
+    "ALIGN16 requests compiler padding; no byte literal, emit, incbin, mask or byte-copy"
+  ],
+  "verification_needed": [
+    "Compile isolated replacement, reject whole length other than86 or any differing instruction byte including ALIGN padding",
+    "Validate targetless virtual call binding through ECD74 accepted object destructor closure",
+    "Compare all86 bytes; compiler enum operands should be constants, not unresolved invented external addresses",
+    "Preserve failed normalC++ source/objects and accepted C++ outputs; no duplicate member definitions in link"
+  ]
+}

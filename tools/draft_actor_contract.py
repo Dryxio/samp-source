@@ -57,6 +57,8 @@ def draft(run, extra_seeds=None):
             offset=symbol['value'];size=18;kind='script-command'
         if unit=='closure_object_release' and kind=='data' and symbol['name'] in ('_is_model_available', '_rpc_release_model'):
             offset=symbol['value'];size=18;kind='script-command'
+        if unit=='closure_player_lifetime' and kind=='data' and symbol['name'] in ('_set_actor_weapon_droppable', '_set_actor_can_be_decapitated', '_rpc_ped_disassociate_object', '_rpc_ped_destroy_object_with_fade', '_rpc_ped_carry_object'):
+            offset=symbol['value'];size=18;kind='script-command'
         if unit=='closure_state':
             offset=symbol['value'];size=2 if symbol['name']=='?wVehicleComponentDebug@@3GA' else 4;kind='zero-object'
         base=rva-symbol['value']+offset;key=(unit,index,offset,size)
