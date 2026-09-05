@@ -1,0 +1,1654 @@
+{
+  "status": "DISCOVERY_ONLY_NOT_ACCEPTED",
+  "run": "cp32-gui-full-scan",
+  "source": "client/saco/eval_gui_full.cpp",
+  "source_sha256": "9ace91643859a8e5b9cd33d21e492311be9b98900464f8b856758549f5c26d15",
+  "raw_discovery_sha256": "2c7edeff9d45fb77c11fd4373acd0d80980585de7fcaa011aa0e1188153ec254",
+  "compiled_functions": 434,
+  "functions_with_any_candidate": 380,
+  "single_candidate_functions_with_new_bytes": 143,
+  "potential_union_bytes_after_prior_coverage": 23963,
+  "accepted_new_bytes": 0,
+  "rows": [
+    {
+      "symbol": "?InitDefaultElements@CDXUTDialog@@AAEXXZ",
+      "rva": 579456,
+      "size": 2745,
+      "potential_new_bytes": 2745,
+      "inferred_targets": {
+        "??_C@_0M@KEKAENHG@sampgui?4png?$AA@": 269398828,
+        "?SetTexture@CDXUTDialog@@QAEJIPBD@Z": 269000208,
+        "?UpdateFont@CDXUTDialog@@QAEXXZ": 269014848,
+        "?SetFont@CDXUTElement@@QAEXIKK@Z": 268985824,
+        "__imp__SetRect@20": 269374208,
+        "?SetTexture@CDXUTElement@@QAEXIPAUtagRECT@@K@Z": 268985744,
+        "?Blend@DXUTBlendColor@@QAEXIMM@Z": 268985536,
+        "?SetDefaultElement@CDXUTDialog@@QAEJIIPAVCDXUTElement@@@Z": 269001264,
+        "?Init@DXUTBlendColor@@QAEXKKK@Z": 268985360
+      }
+    },
+    {
+      "symbol": "?RenderComposition@CDXUTIMEEditBox@@UAEXPAUIDirect3DDevice9@@M@Z",
+      "rva": 589856,
+      "size": 1594,
+      "potential_new_bytes": 1594,
+      "inferred_targets": {
+        "?CPtoX@CUniBuffer@@QAEJHHPAH@Z": 269073648,
+        "?s_CompString@CDXUTIMEEditBox@@1VCUniBuffer@@A": 269756316,
+        "?CalcTextRect@CDXUTDialog@@QAEJPBGPAVCDXUTElement@@PAUtagRECT@@H@Z": 268990432,
+        "__imp__OffsetRect@12": 269374288,
+        "?s_ptCompString@CDXUTIMEEditBox@@1UtagPOINT@@A": 269752332,
+        "__real@3b808081": 269377852,
+        "__imp__lstrlenW@4": 269373888,
+        "?XtoCP@CUniBuffer@@QAEJHPAH0@Z": 269073712,
+        "?s_hklCurrent@CDXUTIMEEditBox@@1PAUHKL__@@A": 269756272,
+        "?DrawRect@CDXUTDialog@@QAEJPAUtagRECT@@K@Z": 268978800,
+        "?DrawTextA@CDXUTDialog@@QAEJPBGPAVCDXUTElement@@PAUtagRECT@@_NH@Z": 269013968,
+        "?s_nFirstTargetConv@CDXUTIMEEditBox@@1HA": 269752348,
+        "?s_abCompStringAttr@CDXUTIMEEditBox@@1PAEA": 269752360,
+        "?s_nCompCaret@CDXUTIMEEditBox@@1HA": 269752320
+      }
+    },
+    {
+      "symbol": "?Render@CDXUTComboBox@@UAEXPAUIDirect3DDevice9@@M@Z",
+      "rva": 583760,
+      "size": 1036,
+      "potential_new_bytes": 1036,
+      "inferred_targets": {
+        "?bSBInit@?3??Render@CDXUTComboBox@@UAEXPAUIDirect3DDevice9@@M@Z@4_NA": 269761540,
+        "?Cap@CDXUTScrollBar@@IAEXXZ": 268981248,
+        "?UpdateThumbRect@CDXUTScrollBar@@IAEXXZ": 268981024,
+        "?Blend@DXUTBlendColor@@QAEXIMM@Z": 268985536,
+        "?DrawSprite@CDXUTDialog@@QAEJPAVCDXUTElement@@PAUtagRECT@@@Z": 268989344,
+        "__real@3b808081": 269377852,
+        "?GetFont@CDXUTDialog@@QAEPAUDXUTFontNode@@I@Z": 268988608,
+        "__imp__SetRect@20": 269374208,
+        "?DrawTextA@CDXUTDialog@@QAEJPBDPAVCDXUTElement@@PAUtagRECT@@_NH@Z": 269013088,
+        "__imp__OffsetRect@12": 269374288
+      }
+    },
+    {
+      "symbol": "?DrawTextA@CDXUTDialog@@QAEJPBDPAVCDXUTElement@@PAUtagRECT@@_NH@Z",
+      "rva": 577632,
+      "size": 878,
+      "potential_new_bytes": 878,
+      "inferred_targets": {
+        "__real@00000000": 269375808,
+        "__imp__OffsetRect@12": 269374288,
+        "?GetFont@CDXUTDialog@@QAEPAUDXUTFontNode@@I@Z": 268988608,
+        "__real@437f0000": 269375708,
+        "__ftol2": 269251652,
+        "?CreateFontA@CDXUTDialogResourceManager@@QAEJI@Z": 269010672,
+        "__real@3f800000": 269376300,
+        "__real@3f000000": 269375508
+      }
+    },
+    {
+      "symbol": "?DrawTextA@CDXUTDialog@@QAEJPBGPAVCDXUTElement@@PAUtagRECT@@_NH@Z",
+      "rva": 578512,
+      "size": 878,
+      "potential_new_bytes": 878,
+      "inferred_targets": {
+        "__real@00000000": 269375808,
+        "__imp__OffsetRect@12": 269374288,
+        "?GetFont@CDXUTDialog@@QAEPAUDXUTFontNode@@I@Z": 268988608,
+        "__real@437f0000": 269375708,
+        "__ftol2": 269251652,
+        "?CreateFontA@CDXUTDialogResourceManager@@QAEJI@Z": 269010672,
+        "__real@3f800000": 269376300,
+        "__real@3f000000": 269375508
+      }
+    },
+    {
+      "symbol": "?Initialize@CDXUTIMEEditBox@@SAXXZ",
+      "rva": 574016,
+      "size": 774,
+      "potential_new_bytes": 774,
+      "inferred_targets": {
+        "?s_hDllImm32@CDXUTIMEEditBox@@1PAUHINSTANCE__@@A": 269756276,
+        "__imp__GetTickCount@0": 269374008,
+        "?s_CompString@CDXUTIMEEditBox@@1VCUniBuffer@@A": 269756316,
+        "?dwImeWaitTick@@3KA": 269752328,
+        "?SetBufferSize@CUniBuffer@@QAE_NH@Z": 269072320,
+        "__imp__GetSystemDirectoryA@8": 269373896,
+        "??_C@_0L@LPOFADGE@?2imm32?4dll?$AA@": 269398748,
+        "?StringCopyWorkerA@@YGJPADIPBD@Z": 268927248,
+        "__imp__LoadLibraryA@4": 269373916,
+        "__imp__GetProcAddress@8": 269373960,
+        "??_C@_0L@JGAMEFKO@ImmLockIMC?$AA@": 269398736,
+        "?_ImmLockIMC@CDXUTIMEEditBox@@1P6GPAU__MIDL___MIDL_itf_dimm_0000_0012@@PAUHIMC__@@@ZA": 269495344,
+        "??_C@_0N@PDIACEGP@ImmUnlockIMC?$AA@": 269398720,
+        "?_ImmUnlockIMC@CDXUTIMEEditBox@@1P6GHPAUHIMC__@@@ZA": 269495348,
+        "??_C@_0M@OKKMJOGM@ImmLockIMCC?$AA@": 269398708,
+        "?_ImmLockIMCC@CDXUTIMEEditBox@@1P6GPAXPAUHIMCC__@@@ZA": 269495352,
+        "??_C@_0O@GKKOACL@ImmUnlockIMCC?$AA@": 269398692,
+        "?_ImmUnlockIMCC@CDXUTIMEEditBox@@1P6GHPAUHIMCC__@@@ZA": 269495356,
+        "??_C@_0BL@MBEANDFB@ImmDisableTextFrameService?$AA@": 269398664,
+        "?_ImmDisableTextFrameService@CDXUTIMEEditBox@@1P6GHK@ZA": 269495360,
+        "??_C@_0BJ@BIPOEMOA@ImmGetCompositionStringW?$AA@": 269398636,
+        "?_ImmGetCompositionStringW@CDXUTIMEEditBox@@1P6GJPAUHIMC__@@KPAXK@ZA": 269495364,
+        "??_C@_0BF@INEDHPDK@ImmGetCandidateListW?$AA@": 269398612,
+        "?_ImmGetCandidateListW@CDXUTIMEEditBox@@1P6GKPAUHIMC__@@KPAUtagCANDIDATELIST@@K@ZA": 269495368,
+        "??_C@_0O@KCHCFLMC@ImmGetContext?$AA@": 269398596,
+        "?_ImmGetContext@CDXUTIMEEditBox@@1P6GPAUHIMC__@@PAUHWND__@@@ZA": 269495372,
+        "??_C@_0BC@OCDKEPCD@ImmReleaseContext?$AA@": 269398576,
+        "?_ImmReleaseContext@CDXUTIMEEditBox@@1P6GHPAUHWND__@@PAUHIMC__@@@ZA": 269495376,
+        "??_C@_0BE@BDEIBNIK@ImmAssociateContext?$AA@": 269398556,
+        "?_ImmAssociateContext@CDXUTIMEEditBox@@1P6GPAUHIMC__@@PAUHWND__@@PAU2@@ZA": 269495380,
+        "??_C@_0BB@GAPKNCDL@ImmGetOpenStatus?$AA@": 269398536,
+        "?_ImmGetOpenStatus@CDXUTIMEEditBox@@1P6GHPAUHIMC__@@@ZA": 269495384,
+        "??_C@_0BB@BPOEGBEM@ImmSetOpenStatus?$AA@": 269398516,
+        "?_ImmSetOpenStatus@CDXUTIMEEditBox@@1P6GHPAUHIMC__@@H@ZA": 269495388,
+        "??_C@_0BH@GMNMAKPF@ImmGetConversionStatus?$AA@": 269398492,
+        "?_ImmGetConversionStatus@CDXUTIMEEditBox@@1P6GHPAUHIMC__@@PAK1@ZA": 269495392,
+        "??_C@_0BE@LPNAGBML@ImmGetDefaultIMEWnd?$AA@": 269398472,
+        "?_ImmGetDefaultIMEWnd@CDXUTIMEEditBox@@1P6GPAUHWND__@@PAU2@@ZA": 269495396,
+        "??_C@_0BD@GDCNBOJF@ImmGetIMEFileNameA?$AA@": 269398452,
+        "?_ImmGetIMEFileNameA@CDXUTIMEEditBox@@1P6GIPAUHKL__@@PADI@ZA": 269495400,
+        "??_C@_0BB@CEHHIDO@ImmGetVirtualKey?$AA@": 269398432,
+        "?_ImmGetVirtualKey@CDXUTIMEEditBox@@1P6GIPAUHWND__@@@ZA": 269495404,
+        "??_C@_0N@OLIMKHEA@ImmNotifyIME?$AA@": 269398416,
+        "?_ImmNotifyIME@CDXUTIMEEditBox@@1P6GHPAUHIMC__@@KKK@ZA": 269495408,
+        "??_C@_0BH@MCPHEKIJ@ImmSetConversionStatus?$AA@": 269398392,
+        "?_ImmSetConversionStatus@CDXUTIMEEditBox@@1P6GHPAUHIMC__@@KK@ZA": 269495412,
+        "??_C@_0BC@OMCMFCHK@ImmSimulateHotKey?$AA@": 269398372,
+        "?_ImmSimulateHotKey@CDXUTIMEEditBox@@1P6GHPAUHWND__@@K@ZA": 269495416,
+        "??_C@_08EPDNLFJN@ImmIsIME?$AA@": 269398360,
+        "?_ImmIsIME@CDXUTIMEEditBox@@1P6GHPAUHKL__@@@ZA": 269495420,
+        "??_C@_0N@HAEJINEE@?2version?4dll?$AA@": 269398344,
+        "?s_hDllVer@CDXUTIMEEditBox@@1PAUHINSTANCE__@@A": 269752340,
+        "??_C@_0P@EGBPEC@VerQueryValueA?$AA@": 269398328,
+        "?_VerQueryValueA@CDXUTIMEEditBox@@1P6GHQAXPADPAPAXPAI@ZA": 269495432,
+        "??_C@_0BE@JIHADGJK@GetFileVersionInfoA?$AA@": 269398308,
+        "?_GetFileVersionInfoA@CDXUTIMEEditBox@@1P6GHPADKKPAX@ZA": 269495436,
+        "??_C@_0BI@FKDAHLLJ@GetFileVersionInfoSizeA?$AA@": 269398284,
+        "?_GetFileVersionInfoSizeA@CDXUTIMEEditBox@@1P6GKPADPAK@ZA": 269495440
+      }
+    },
+    {
+      "symbol": "?DrawSprite@CDXUTDialog@@QAEJPAVCDXUTElement@@PAUtagRECT@@@Z",
+      "rva": 553888,
+      "size": 691,
+      "potential_new_bytes": 691,
+      "inferred_targets": {
+        "__real@00000000": 269375808,
+        "__imp__OffsetRect@12": 269374288,
+        "?GetTexture@CDXUTDialog@@QAEPAUDXUTTextureNode@@I@Z": 268988656,
+        "_D3DXMatrixScaling@16": 269245622,
+        "__real@3f800000": 269376300,
+        "__real@437f0000": 269375708,
+        "__real@3f000000": 269375508,
+        "__ftol2": 269251652
+      }
+    },
+    {
+      "symbol": "?UpdateRects@CDXUTComboBox@@UAEXXZ",
+      "rva": 556384,
+      "size": 526,
+      "potential_new_bytes": 526,
+      "inferred_targets": {
+        "?UpdateRects@CDXUTControl@@MAEXXZ": 268979744,
+        "__real@3f666666": 269397512,
+        "__ftol2": 269251652,
+        "__imp__OffsetRect@12": 269374288,
+        "__real@3dcccccd": 269377820,
+        "__real@bdcccccd": 269395520,
+        "?Cap@CDXUTScrollBar@@IAEXXZ": 268981248,
+        "?UpdateThumbRect@CDXUTScrollBar@@IAEXXZ": 268981024,
+        "?ShowItem@CDXUTScrollBar@@QAEXH@Z": 268981168
+      }
+    },
+    {
+      "symbol": "?Render@CDXUTScrollBar@@UAEXPAUIDirect3DDevice9@@M@Z",
+      "rva": 559696,
+      "size": 507,
+      "potential_new_bytes": 507,
+      "inferred_targets": {
+        "?DXUTGetTime@@YANXZ": 268949968,
+        "__imp__PtInRect@12": 269374416,
+        "__real@3fa999999999999a": 269377856,
+        "?Scroll@CDXUTScrollBar@@QAEXH@Z": 268994480,
+        "__real@3fd51eb851eb851f": 269398176,
+        "?Blend@DXUTBlendColor@@QAEXIMM@Z": 268985536,
+        "?DrawSprite@CDXUTDialog@@QAEJPAVCDXUTElement@@PAUtagRECT@@@Z": 268989344
+      }
+    },
+    {
+      "symbol": "?DrawRect@CDXUTDialog@@QAEJPAUtagRECT@@K@Z",
+      "rva": 543344,
+      "size": 505,
+      "potential_new_bytes": 505,
+      "inferred_targets": {
+        "__imp__OffsetRect@12": 269374288,
+        "__real@3f000000": 269375508,
+        "?FVF@DXUT_SCREEN_VERTEX@@2KA": 269495312
+      }
+    },
+    {
+      "symbol": "?CalcTextRect@CDXUTDialog@@QAEJPBDPAVCDXUTElement@@PAUtagRECT@@H@Z",
+      "rva": 554592,
+      "size": 378,
+      "potential_new_bytes": 378,
+      "inferred_targets": {
+        "?GetFont@CDXUTDialog@@QAEPAUDXUTFontNode@@I@Z": 268988608,
+        "__real@3f800000": 269376300,
+        "__real@00000000": 269375808,
+        "__real@437f0000": 269375708,
+        "__real@3f000000": 269375508,
+        "__ftol2": 269251652
+      }
+    },
+    {
+      "symbol": "?CalcTextRect@CDXUTDialog@@QAEJPBGPAVCDXUTElement@@PAUtagRECT@@H@Z",
+      "rva": 554976,
+      "size": 378,
+      "potential_new_bytes": 378,
+      "inferred_targets": {
+        "?GetFont@CDXUTDialog@@QAEPAUDXUTFontNode@@I@Z": 268988608,
+        "__real@3f800000": 269376300,
+        "__real@00000000": 269375808,
+        "__real@437f0000": 269375708,
+        "__real@3f000000": 269375508,
+        "__ftol2": 269251652
+      }
+    },
+    {
+      "symbol": "?GetReadingWindowOrientation@CDXUTIMEEditBox@@KAXK@Z",
+      "rva": 569840,
+      "size": 349,
+      "potential_new_bytes": 349,
+      "inferred_targets": {
+        "?s_hklCurrent@CDXUTIMEEditBox@@1PAUHKL__@@A": 269756272,
+        "?s_bHorizontalReading@CDXUTIMEEditBox@@1_NA": 269755690,
+        "??_C@_0CL@PCFEMFCF@software?2microsoft?2windows?2curre@": 269398232,
+        "??_C@_07DEJAPC@MSTCIPH?$AA@": 269398224,
+        "??_C@_08LMKCILHO@TINTLGNT?$AA@": 269398212,
+        "?StringCopyWorkerA@@YGJPADIPBD@Z": 268927248,
+        "__imp__RegOpenKeyExA@20": 269373444,
+        "??_C@_0BB@KFOMJFEN@Keyboard?5Mapping?$AA@": 269398192,
+        "__imp__RegQueryValueExA@24": 269373448,
+        "__imp__RegCloseKey@4": 269373452
+      }
+    },
+    {
+      "symbol": "?RenderIndicator@CDXUTIMEEditBox@@UAEXPAUIDirect3DDevice9@@M@Z",
+      "rva": 591456,
+      "size": 332,
+      "potential_new_bytes": 332,
+      "inferred_targets": {
+        "?Blend@DXUTBlendColor@@QAEXIMM@Z": 268985536,
+        "?DrawSprite@CDXUTDialog@@QAEJPAVCDXUTElement@@PAUtagRECT@@@Z": 268989344,
+        "__imp__InflateRect@12": 269374176,
+        "?s_ImeState@CDXUTIMEEditBox@@1W4IMESTATE@1@A": 269756300,
+        "?s_bEnableImeSystem@CDXUTIMEEditBox@@1_NA": 269752352,
+        "__real@3b808081": 269377852,
+        "?s_wszCurrIndicator@CDXUTIMEEditBox@@1PAGA": 269495476,
+        "?s_aszIndicator@CDXUTIMEEditBox@@1PAY02GA": 269495444,
+        "?CalcTextRect@CDXUTDialog@@QAEJPBGPAVCDXUTElement@@PAUtagRECT@@H@Z": 268990432,
+        "?DrawTextA@CDXUTDialog@@QAEJPBGPAVCDXUTElement@@PAUtagRECT@@_NH@Z": 269013968
+      }
+    },
+    {
+      "symbol": "?Uninitialize@CDXUTIMEEditBox@@SAXXZ",
+      "rva": 549520,
+      "size": 329,
+      "potential_new_bytes": 329,
+      "inferred_targets": {
+        "?s_hDllImm32@CDXUTIMEEditBox@@1PAUHINSTANCE__@@A": 269756276,
+        "__imp__FreeLibrary@4": 269373920,
+        "?_ImmLockIMC@CDXUTIMEEditBox@@1P6GPAU__MIDL___MIDL_itf_dimm_0000_0012@@PAUHIMC__@@@ZA": 269495344,
+        "?Dummy_ImmLockIMC@CDXUTIMEEditBox@@KGPAU__MIDL___MIDL_itf_dimm_0000_0012@@PAUHIMC__@@@Z": 268978128,
+        "?_ImmUnlockIMC@CDXUTIMEEditBox@@1P6GHPAUHIMC__@@@ZA": 269495348,
+        "?Dummy_ImmUnlockIMC@CDXUTIMEEditBox@@KGHPAUHIMC__@@@Z": 268978144,
+        "?_ImmLockIMCC@CDXUTIMEEditBox@@1P6GPAXPAUHIMCC__@@@ZA": 269495352,
+        "?Dummy_ImmLockIMCC@CDXUTIMEEditBox@@KGPAXPAUHIMCC__@@@Z": 268978160,
+        "?_ImmUnlockIMCC@CDXUTIMEEditBox@@1P6GHPAUHIMCC__@@@ZA": 269495356,
+        "?Dummy_ImmUnlockIMCC@CDXUTIMEEditBox@@KGHPAUHIMCC__@@@Z": 268978176,
+        "?_ImmDisableTextFrameService@CDXUTIMEEditBox@@1P6GHK@ZA": 269495360,
+        "?Dummy_ImmDisableTextFrameService@CDXUTIMEEditBox@@KGHK@Z": 268978192,
+        "?_ImmGetCompositionStringW@CDXUTIMEEditBox@@1P6GJPAUHIMC__@@KPAXK@ZA": 269495364,
+        "?Dummy_ImmGetCompositionStringW@CDXUTIMEEditBox@@KGJPAUHIMC__@@KPAXK@Z": 268978208,
+        "?_ImmGetCandidateListW@CDXUTIMEEditBox@@1P6GKPAUHIMC__@@KPAUtagCANDIDATELIST@@K@ZA": 269495368,
+        "?Dummy_ImmGetCandidateListW@CDXUTIMEEditBox@@KGKPAUHIMC__@@KPAUtagCANDIDATELIST@@K@Z": 268978224,
+        "?_ImmGetContext@CDXUTIMEEditBox@@1P6GPAUHIMC__@@PAUHWND__@@@ZA": 269495372,
+        "?Dummy_ImmGetContext@CDXUTIMEEditBox@@KGPAUHIMC__@@PAUHWND__@@@Z": 268978240,
+        "?_ImmReleaseContext@CDXUTIMEEditBox@@1P6GHPAUHWND__@@PAUHIMC__@@@ZA": 269495376,
+        "?Dummy_ImmReleaseContext@CDXUTIMEEditBox@@KGHPAUHWND__@@PAUHIMC__@@@Z": 268978256,
+        "?_ImmAssociateContext@CDXUTIMEEditBox@@1P6GPAUHIMC__@@PAUHWND__@@PAU2@@ZA": 269495380,
+        "?Dummy_ImmAssociateContext@CDXUTIMEEditBox@@KGPAUHIMC__@@PAUHWND__@@PAU2@@Z": 268978272,
+        "?_ImmGetOpenStatus@CDXUTIMEEditBox@@1P6GHPAUHIMC__@@@ZA": 269495384,
+        "?Dummy_ImmGetOpenStatus@CDXUTIMEEditBox@@KGHPAUHIMC__@@@Z": 268978288,
+        "?_ImmSetOpenStatus@CDXUTIMEEditBox@@1P6GHPAUHIMC__@@H@ZA": 269495388,
+        "?Dummy_ImmSetOpenStatus@CDXUTIMEEditBox@@KGHPAUHIMC__@@H@Z": 268978304,
+        "?_ImmGetConversionStatus@CDXUTIMEEditBox@@1P6GHPAUHIMC__@@PAK1@ZA": 269495392,
+        "?Dummy_ImmGetConversionStatus@CDXUTIMEEditBox@@KGHPAUHIMC__@@PAK1@Z": 268978320,
+        "?_ImmGetDefaultIMEWnd@CDXUTIMEEditBox@@1P6GPAUHWND__@@PAU2@@ZA": 269495396,
+        "?Dummy_ImmGetDefaultIMEWnd@CDXUTIMEEditBox@@KGPAUHWND__@@PAU2@@Z": 268978336,
+        "?_ImmGetIMEFileNameA@CDXUTIMEEditBox@@1P6GIPAUHKL__@@PADI@ZA": 269495400,
+        "?Dummy_ImmGetIMEFileNameA@CDXUTIMEEditBox@@KGIPAUHKL__@@PADI@Z": 268978352,
+        "?_ImmGetVirtualKey@CDXUTIMEEditBox@@1P6GIPAUHWND__@@@ZA": 269495404,
+        "?Dummy_ImmGetVirtualKey@CDXUTIMEEditBox@@KGIPAUHWND__@@@Z": 268978368,
+        "?_ImmNotifyIME@CDXUTIMEEditBox@@1P6GHPAUHIMC__@@KKK@ZA": 269495408,
+        "?Dummy_ImmNotifyIME@CDXUTIMEEditBox@@KGHPAUHIMC__@@KKK@Z": 268978384,
+        "?_ImmSetConversionStatus@CDXUTIMEEditBox@@1P6GHPAUHIMC__@@KK@ZA": 269495412,
+        "?Dummy_ImmSetConversionStatus@CDXUTIMEEditBox@@KGHPAUHIMC__@@KK@Z": 268978400,
+        "?_ImmSimulateHotKey@CDXUTIMEEditBox@@1P6GHPAUHWND__@@K@ZA": 269495416,
+        "?Dummy_ImmSimulateHotKey@CDXUTIMEEditBox@@KGHPAUHWND__@@K@Z": 268978416,
+        "?_ImmIsIME@CDXUTIMEEditBox@@1P6GHPAUHKL__@@@ZA": 269495420,
+        "?Dummy_ImmIsIME@CDXUTIMEEditBox@@KGHPAUHKL__@@@Z": 268978432,
+        "?s_hDllIme@CDXUTIMEEditBox@@1PAUHINSTANCE__@@A": 269752356,
+        "?_GetReadingString@CDXUTIMEEditBox@@1P6GIPAUHIMC__@@IPADPAH2PAI@ZA": 269495424,
+        "?Dummy_GetReadingString@CDXUTIMEEditBox@@KGIPAUHIMC__@@IPADPAH2PAI@Z": 268978448,
+        "?_ShowReadingWindow@CDXUTIMEEditBox@@1P6GHPAUHIMC__@@H@ZA": 269495428,
+        "?Dummy_ShowReadingWindow@CDXUTIMEEditBox@@KGHPAUHIMC__@@H@Z": 268978464,
+        "?s_hDllVer@CDXUTIMEEditBox@@1PAUHINSTANCE__@@A": 269752340,
+        "?_VerQueryValueA@CDXUTIMEEditBox@@1P6GHQAXPADPAPAXPAI@ZA": 269495432,
+        "?Dummy_VerQueryValueA@CDXUTIMEEditBox@@KGHQAXPADPAPAXPAI@Z": 268978480,
+        "?_GetFileVersionInfoA@CDXUTIMEEditBox@@1P6GHPADKKPAX@ZA": 269495436,
+        "?Dummy_GetFileVersionInfoA@CDXUTIMEEditBox@@KGHPADKKPAX@Z": 268978496,
+        "?_GetFileVersionInfoSizeA@CDXUTIMEEditBox@@1P6GKPADPAK@ZA": 269495440,
+        "?Dummy_GetFileVersionInfoSizeA@CDXUTIMEEditBox@@KGKPADPAK@Z": 268978512
+      }
+    },
+    {
+      "symbol": "?Render@CDXUTButton@@UAEXPAUIDirect3DDevice9@@M@Z",
+      "rva": 582992,
+      "size": 325,
+      "potential_new_bytes": 325,
+      "inferred_targets": {
+        "__imp__OffsetRect@12": 269374288,
+        "?Blend@DXUTBlendColor@@QAEXIMM@Z": 268985536,
+        "?DrawSprite@CDXUTDialog@@QAEJPAVCDXUTElement@@PAUtagRECT@@@Z": 268989344,
+        "?DrawTextA@CDXUTDialog@@QAEJPBDPAVCDXUTElement@@PAUtagRECT@@_NH@Z": 269013088
+      }
+    },
+    {
+      "symbol": "??BD3DXCOLOR@@QBEKXZ",
+      "rva": 541584,
+      "size": 317,
+      "potential_new_bytes": 317,
+      "inferred_targets": {
+        "__real@3f800000": 269376300,
+        "__real@00000000": 269375808,
+        "__real@437f0000": 269375708,
+        "__real@3f000000": 269375508,
+        "__ftol2": 269251652
+      }
+    },
+    {
+      "symbol": "?UpdateRects@CDXUTEditBox@@UAEXXZ",
+      "rva": 546480,
+      "size": 304,
+      "potential_new_bytes": 304,
+      "inferred_targets": {
+        "?UpdateRects@CDXUTControl@@MAEXXZ": 268979744,
+        "__imp__InflateRect@12": 269374176,
+        "__imp__SetRect@20": 269374208
+      }
+    },
+    {
+      "symbol": "?DrawPolyLine@CDXUTDialog@@QAEJPAUtagPOINT@@IK@Z",
+      "rva": 543856,
+      "size": 293,
+      "potential_new_bytes": 293,
+      "inferred_targets": {
+        "??2@YAPAXI@Z": 269247436,
+        "?FVF@DXUT_SCREEN_VERTEX@@2KA": 269495312,
+        "??3@YAXPAX@Z": 269265705
+      }
+    },
+    {
+      "symbol": "?TruncateCompString@CDXUTIMEEditBox@@IAEX_NH@Z",
+      "rva": 548752,
+      "size": 271,
+      "potential_new_bytes": 271,
+      "inferred_targets": {
+        "?s_bInsertOnType@CDXUTIMEEditBox@@1_NA": 269752325,
+        "?s_CompString@CDXUTIMEEditBox@@1VCUniBuffer@@A": 269756316,
+        "__imp__lstrlenW@4": 269373888,
+        "?s_nCompCaret@CDXUTIMEEditBox@@1HA": 269752320,
+        "__imp__SendMessageA@16": 269374272,
+        "__imp__SendMessageW@16": 269374144
+      }
+    },
+    {
+      "symbol": "??0CDXUTEditBox@@QAE@PAVCDXUTDialog@@@Z",
+      "rva": 586368,
+      "size": 256,
+      "potential_new_bytes": 256,
+      "inferred_targets": {
+        "__ehhandler$??0CDXUTEditBox@@QAE@PAVCDXUTDialog@@@Z": 269368435,
+        "__except_list": 0,
+        "??0CDXUTControl@@QAE@PAVCDXUTDialog@@@Z": 269017664,
+        "??_7CDXUTEditBox@@6B@": 269399496,
+        "??0CUniBuffer@@QAE@H@Z": 269074736,
+        "__imp__GetCaretBlinkTime@0": 269374112,
+        "__real@4f800000": 269387548,
+        "__real@3a83126f": 269377700,
+        "?DXUTGetGlobalTimer@@YAPAVCDXUTTimer@@XZ": 269050800,
+        "?GetAbsoluteTime@CDXUTTimer@@QAENXZ": 269039312,
+        "?s_bHideCaret@CDXUTEditBox@@1_NA": 269752324
+      }
+    },
+    {
+      "symbol": "??0CDXUTIMEEditBox@@QAE@PAVCDXUTDialog@@@Z",
+      "rva": 588016,
+      "size": 256,
+      "potential_new_bytes": 256,
+      "inferred_targets": {
+        "__ehhandler$??0CDXUTIMEEditBox@@QAE@PAVCDXUTDialog@@@Z": 269368488,
+        "__except_list": 0,
+        "??0CDXUTEditBox@@QAE@PAVCDXUTDialog@@@Z": 269021824,
+        "??_7CDXUTIMEEditBox@@6B@": 269399576,
+        "?Initialize@CDXUTIMEEditBox@@SAXXZ": 269009472,
+        "?s_bEnableImeSystem@CDXUTIMEEditBox@@1_NA": 269752352
+      }
+    },
+    {
+      "symbol": "?Refresh@CDXUTElement@@QAEXXZ",
+      "rva": 550416,
+      "size": 245,
+      "potential_new_bytes": 245,
+      "inferred_targets": {
+        "__real@3b808081": 269377852
+      }
+    },
+    {
+      "symbol": "?Render@CDXUTCheckBox@@UAEXPAUIDirect3DDevice9@@M@Z",
+      "rva": 583440,
+      "size": 240,
+      "potential_new_bytes": 240,
+      "inferred_targets": {
+        "?Blend@DXUTBlendColor@@QAEXIMM@Z": 268985536,
+        "?DrawSprite@CDXUTDialog@@QAEJPAVCDXUTElement@@PAUtagRECT@@@Z": 268989344,
+        "?DrawTextA@CDXUTDialog@@QAEJPBDPAVCDXUTElement@@PAUtagRECT@@_NH@Z": 269013088
+      }
+    },
+    {
+      "symbol": "?AddFont@CDXUTDialogResourceManager@@QAEHPBDJJ@Z",
+      "rva": 577136,
+      "size": 233,
+      "potential_new_bytes": 233,
+      "inferred_targets": {
+        "__strnicmp": 269255886,
+        "??2@YAPAXI@Z": 269247098,
+        "?Add@?$CGrowableArray@PAUDXUTFontNode@@@@QAEJABQAUDXUTFontNode@@@Z": 268999376,
+        "?CreateFontA@CDXUTDialogResourceManager@@QAEJI@Z": 269010672
+      }
+    },
+    {
+      "symbol": "?SetTextFloatArray@CDXUTEditBox@@QAEXPBMH@Z",
+      "rva": 569600,
+      "size": 230,
+      "potential_new_bytes": 230,
+      "inferred_targets": {
+        "??_C@_05MBDKKHHK@?$CF?44f?5?$AA@": 269398184,
+        "?StringCchPrintfA@@YAJPADIPBDZZ": 268943872,
+        "?StringCopyWorkerA@@YGJPADIPBD@Z": 268927248,
+        "?SetText@CDXUTEditBox@@QAEXPBD_N@Z": 268981632
+      }
+    },
+    {
+      "symbol": "?AddEditBox@CDXUTDialog@@QAEJHPBDHHHH_NPAPAVCDXUTEditBox@@@Z",
+      "rva": 593872,
+      "size": 222,
+      "potential_new_bytes": 222,
+      "inferred_targets": {
+        "__ehhandler$?AddEditBox@CDXUTDialog@@QAEJHPBDHHHH_NPAPAVCDXUTEditBox@@@Z": 269368523,
+        "__except_list": 0,
+        "??2@YAPAXI@Z": 269247098,
+        "??0CDXUTEditBox@@QAE@PAVCDXUTDialog@@@Z": 269021824,
+        "?AddControl@CDXUTDialog@@QAEJPAVCDXUTControl@@@Z": 269010624,
+        "?SetText@CDXUTEditBox@@QAEXPBD_N@Z": 268981632
+      }
+    },
+    {
+      "symbol": "?AddIMEEditBox@CDXUTDialog@@QAEJHPBDHHHH_NPAPAVCDXUTIMEEditBox@@@Z",
+      "rva": 594096,
+      "size": 222,
+      "potential_new_bytes": 222,
+      "inferred_targets": {
+        "__ehhandler$?AddIMEEditBox@CDXUTDialog@@QAEJHPBDHHHH_NPAPAVCDXUTIMEEditBox@@@Z": 269368555,
+        "__except_list": 0,
+        "??2@YAPAXI@Z": 269247098,
+        "??0CDXUTIMEEditBox@@QAE@PAVCDXUTDialog@@@Z": 269023472,
+        "?AddControl@CDXUTDialog@@QAEJPAVCDXUTControl@@@Z": 269010624,
+        "?SetText@CDXUTEditBox@@QAEXPBD_N@Z": 268981632
+      }
+    },
+    {
+      "symbol": "?Render@CDXUTSlider@@UAEXPAUIDirect3DDevice9@@M@Z",
+      "rva": 558672,
+      "size": 219,
+      "potential_new_bytes": 219,
+      "inferred_targets": {
+        "?Blend@DXUTBlendColor@@QAEXIMM@Z": 268985536,
+        "?DrawSprite@CDXUTDialog@@QAEJPAVCDXUTElement@@PAUtagRECT@@@Z": 268989344
+      }
+    },
+    {
+      "symbol": "??0CDXUTDialog@@QAE@XZ",
+      "rva": 576352,
+      "size": 206,
+      "potential_new_bytes": 206,
+      "inferred_targets": {
+        "__real@0000000000000000": 269389272
+      }
+    },
+    {
+      "symbol": "??1CDXUTDialog@@QAE@XZ",
+      "rva": 576560,
+      "size": 203,
+      "potential_new_bytes": 203,
+      "inferred_targets": {
+        "__ehhandler$??1CDXUTDialog@@QAE@XZ": 269368360,
+        "__except_list": 0,
+        "?RemoveAllControls@CDXUTDialog@@QAEXXZ": 269010384,
+        "?SetSize@?$CGrowableArray@H@@QAEJH@Z": 268945440,
+        "??3@YAXPAX@Z": 269247626,
+        "?SetSize@?$CGrowableArray@PAUDXUTElementHolder@@@@QAEJH@Z": 268999232,
+        "?SetSize@?$CGrowableArray@PAVCDXUTControl@@@@QAEJH@Z": 268999168
+      }
+    },
+    {
+      "symbol": "?Blend@DXUTBlendColor@@QAEXIMM@Z",
+      "rva": 550080,
+      "size": 201,
+      "potential_new_bytes": 201,
+      "inferred_targets": {
+        "__real@3b808081": 269377852,
+        "__real@41f00000": 269375496,
+        "__CIpow": 269265008,
+        "__real@3f800000": 269376300
+      }
+    },
+    {
+      "symbol": "?HandleMouse@CDXUTRadioButton@@UAE_NIUtagPOINT@@IJ@Z",
+      "rva": 556064,
+      "size": 200,
+      "potential_new_bytes": 200,
+      "inferred_targets": {
+        "__imp__ReleaseCapture@0": 269374448,
+        "?ClearRadioButtonGroup@CDXUTDialog@@QAEXI@Z": 268989248,
+        "?SendEvent@CDXUTDialog@@QAEXI_NPAVCDXUTControl@@@Z": 268978656,
+        "?DXUTGetHWND@@YAPAUHWND__@@XZ": 268944464,
+        "__imp__SetCapture@4": 269374440,
+        "?RequestFocus@CDXUTDialog@@QAEXPAVCDXUTControl@@@Z": 268978736
+      }
+    },
+    {
+      "symbol": "?GetNextItemPos@CUniBuffer@@QAEXHPAH@Z",
+      "rva": 638544,
+      "size": 200,
+      "potential_new_bytes": 200,
+      "inferred_targets": {
+        "?Analyse@CUniBuffer@@AAEJXZ": 269072528,
+        "?_ScriptString_pLogAttr@CUniBuffer@@0P6GPBUtag_SCRIPT_LOGATTR@@PAX@ZA": 269495336,
+        "?_ScriptString_pcOutChars@CUniBuffer@@0P6GPBHPAX@ZA": 269495340
+      }
+    },
+    {
+      "symbol": "?AddItem@CDXUTComboBox@@QAEJPBDPAX@Z",
+      "rva": 566944,
+      "size": 196,
+      "potential_new_bytes": 196,
+      "inferred_targets": {
+        "??2@YAPAXI@Z": 269247098,
+        "?Add@?$CGrowableArray@PAUDXUTComboBoxItem@@@@QAEJABQAUDXUTComboBoxItem@@@Z": 268999664,
+        "?SetTrackRange@CDXUTScrollBar@@QAEXHH@Z": 268995664,
+        "?SendEvent@CDXUTDialog@@QAEXI_NPAVCDXUTControl@@@Z": 268978656
+      }
+    },
+    {
+      "symbol": "?AddTexture@CDXUTDialogResourceManager@@QAEHPBD@Z",
+      "rva": 564560,
+      "size": 185,
+      "potential_new_bytes": 185,
+      "inferred_targets": {
+        "__strnicmp": 269255886,
+        "??2@YAPAXI@Z": 269247098,
+        "?Add@?$CGrowableArray@PAUDXUTTextureNode@@@@QAEJABQAUDXUTTextureNode@@@Z": 268999312,
+        "?CreateTexture@CDXUTDialogResourceManager@@QAEJI@Z": 268991024
+      }
+    },
+    {
+      "symbol": "??1CDXUTDialogResourceManager@@QAE@XZ",
+      "rva": 576800,
+      "size": 181,
+      "potential_new_bytes": 181,
+      "inferred_targets": {
+        "__ehhandler$??1CDXUTDialogResourceManager@@QAE@XZ": 269368406,
+        "__except_list": 0,
+        "??3@YAXPAX@Z": 269247626,
+        "?SetSize@?$CGrowableArray@PAUDXUTFontNode@@@@QAEJH@Z": 268999360,
+        "?SetSize@?$CGrowableArray@PAUDXUTTextureNode@@@@QAEJH@Z": 268999296,
+        "?Uninitialize@CUniBuffer@@SAXXZ": 269072208,
+        "?Uninitialize@CDXUTIMEEditBox@@SAXXZ": 268984976
+      }
+    },
+    {
+      "symbol": "?InsertChar@CUniBuffer@@QAE_NHD@Z",
+      "rva": 637600,
+      "size": 175,
+      "potential_new_bytes": 175,
+      "inferred_targets": {
+        "__imp__MultiByteToWideChar@24": 269373952,
+        "?InsertChar@CUniBuffer@@QAE_NHG@Z": 269072912,
+        "__imp__IsDBCSLeadByteEx@8": 269373848
+      }
+    },
+    {
+      "symbol": "?HandleMouse@CDXUTCheckBox@@UAE_NIUtagPOINT@@IJ@Z",
+      "rva": 544752,
+      "size": 173,
+      "potential_new_bytes": 173,
+      "inferred_targets": {
+        "__imp__ReleaseCapture@0": 269374448,
+        "?DXUTGetHWND@@YAPAUHWND__@@XZ": 268944464,
+        "__imp__SetCapture@4": 269374440,
+        "?RequestFocus@CDXUTDialog@@QAEXPAVCDXUTControl@@@Z": 268978736
+      }
+    },
+    {
+      "symbol": "?ParseFloatArray@CDXUTEditBox@@QAEXPAMH@Z",
+      "rva": 562560,
+      "size": 171,
+      "potential_new_bytes": 171,
+      "inferred_targets": {
+        "?StringCopyWorkerW@@YGJPAGIPBG@Z": 268977440,
+        "_wcstod": 269265904
+      }
+    },
+    {
+      "symbol": "?Init@DXUTBlendColor@@QAEXKKK@Z",
+      "rva": 549904,
+      "size": 166,
+      "potential_new_bytes": 166,
+      "inferred_targets": {
+        "__real@3b808081": 269377852
+      }
+    },
+    {
+      "symbol": "??0CDXUTScrollBar@@QAE@PAVCDXUTDialog@@@Z",
+      "rva": 584912,
+      "size": 166,
+      "potential_new_bytes": 166,
+      "inferred_targets": {
+        "??0CDXUTControl@@QAE@PAVCDXUTDialog@@@Z": 269017664,
+        "__imp__SetRect@20": 269374208,
+        "??_7CDXUTScrollBar@@6B@": 269399336,
+        "__real@0000000000000000": 269389272
+      }
+    },
+    {
+      "symbol": "?AddSlider@CDXUTDialog@@QAEJHHHHHHHH_NPAPAVCDXUTSlider@@@Z",
+      "rva": 593696,
+      "size": 165,
+      "potential_new_bytes": 165,
+      "inferred_targets": {
+        "??2@YAPAXI@Z": 269247098,
+        "??0CDXUTSlider@@QAE@PAVCDXUTDialog@@@Z": 269020256,
+        "?AddControl@CDXUTDialog@@QAEJPAVCDXUTControl@@@Z": 269010624,
+        "?SetRange@CDXUTSlider@@QAEXHH@Z": 268994080,
+        "?SetValueInternal@CDXUTSlider@@IAEXH_N@Z": 268980960
+      }
+    },
+    {
+      "symbol": "?CreateFontA@CDXUTDialogResourceManager@@QAEJI@Z",
+      "rva": 575216,
+      "size": 159,
+      "potential_new_bytes": 159,
+      "inferred_targets": {
+        "_D3DXCreateFontA@48": 269245562,
+        "??2@YAPAXI@Z": 269247098,
+        "??_7ID3DXFontHook@@6B@": 269394960,
+        "??_C@_0ED@DGBEKJDD@CDXUTDialogResourceManager?3?3Crea@": 269398760,
+        "_sprintf": 269251411
+      }
+    },
+    {
+      "symbol": "?UpdateRects@CDXUTSlider@@UAEXXZ",
+      "rva": 545264,
+      "size": 149,
+      "potential_new_bytes": 149,
+      "inferred_targets": {
+        "?UpdateRects@CDXUTControl@@MAEXXZ": 268979744,
+        "__imp__OffsetRect@12": 269374288,
+        "__ftol2": 269251652
+      }
+    },
+    {
+      "symbol": "?SetDefaultElement@CDXUTDialog@@QAEJIIPAVCDXUTElement@@@Z",
+      "rva": 565808,
+      "size": 148,
+      "potential_new_bytes": 148,
+      "inferred_targets": {
+        "??2@YAPAXI@Z": 269247098,
+        "?Add@?$CGrowableArray@PAUDXUTElementHolder@@@@QAEJABQAUDXUTElementHolder@@@Z": 268999248
+      }
+    },
+    {
+      "symbol": "?SetElement@CDXUTControl@@QAEJIPAVCDXUTElement@@@Z",
+      "rva": 565968,
+      "size": 147,
+      "potential_new_bytes": 147,
+      "inferred_targets": {
+        "??2@YAPAXI@Z": 269247098,
+        "?Add@?$CGrowableArray@PAVCDXUTElement@@@@QAEJABQAVCDXUTElement@@@Z": 268999440,
+        "??3@YAXPAX@Z": 269247626
+      }
+    },
+    {
+      "symbol": "?InsertChar@CUniBuffer@@QAE_NHG@Z",
+      "rva": 637456,
+      "size": 143,
+      "potential_new_bytes": 143,
+      "inferred_targets": {
+        "__imp__lstrlenW@4": 269373888,
+        "?SetBufferSize@CUniBuffer@@QAE_NH@Z": 269072320
+      }
+    },
+    {
+      "symbol": "?GetPriorItemPos@CUniBuffer@@QAEXHPAH@Z",
+      "rva": 638400,
+      "size": 143,
+      "potential_new_bytes": 143,
+      "inferred_targets": {
+        "?Analyse@CUniBuffer@@AAEJXZ": 269072528,
+        "?_ScriptString_pLogAttr@CUniBuffer@@0P6GPBUtag_SCRIPT_LOGATTR@@PAX@ZA": 269495336,
+        "?_ScriptString_pcOutChars@CUniBuffer@@0P6GPBHPAX@ZA": 269495340
+      }
+    },
+    {
+      "symbol": "?OnCycleFocus@CDXUTDialog@@AAE_N_N@Z",
+      "rva": 555424,
+      "size": 142,
+      "potential_new_bytes": 142,
+      "inferred_targets": {
+        "?s_pControlFocus@CDXUTDialog@@0PAVCDXUTControl@@A": 269756288,
+        "?GetNextControl@CDXUTDialog@@SAPAVCDXUTControl@@PAV2@@Z": 268989104,
+        "?GetPrevControl@CDXUTDialog@@SAPAVCDXUTControl@@PAV2@@Z": 268989184
+      }
+    },
+    {
+      "symbol": "?AddListBox@CDXUTDialog@@QAEJHHHHHKPAPAVCDXUTListBox@@@Z",
+      "rva": 594320,
+      "size": 137,
+      "potential_new_bytes": 137,
+      "inferred_targets": {
+        "??2@YAPAXI@Z": 269247098,
+        "??0CDXUTListBox@@QAE@PAVCDXUTDialog@@@Z": 269020560,
+        "?AddControl@CDXUTDialog@@QAEJPAVCDXUTControl@@@Z": 269010624
+      }
+    },
+    {
+      "symbol": "?CreateTexture@CDXUTDialogResourceManager@@QAEJI@Z",
+      "rva": 555568,
+      "size": 134,
+      "potential_new_bytes": 134,
+      "inferred_targets": {
+        "?DXUTFindDXSDKMediaFileCch@@YAJPADHPBD@Z": 269056048,
+        "_D3DXCreateTextureFromFileExA@56": 269245580
+      }
+    },
+    {
+      "symbol": "?HandleKeyboard@CDXUTRadioButton@@UAE_NIIJ@Z",
+      "rva": 555920,
+      "size": 134,
+      "potential_new_bytes": 134,
+      "inferred_targets": {
+        "?ClearRadioButtonGroup@CDXUTDialog@@QAEXI@Z": 268989248,
+        "?SendEvent@CDXUTDialog@@QAEXI_NPAVCDXUTControl@@@Z": 268978656
+      }
+    },
+    {
+      "symbol": "?UpdateRects@CDXUTCheckBox@@UAEXXZ",
+      "rva": 545040,
+      "size": 131,
+      "potential_new_bytes": 131,
+      "inferred_targets": {
+        "?UpdateRects@CDXUTControl@@MAEXXZ": 268979744,
+        "__real@3fa00000": 269398048,
+        "__ftol2": 269251652
+      }
+    },
+    {
+      "symbol": "?RemoveControl@CDXUTDialog@@QAEXH@Z",
+      "rva": 552688,
+      "size": 130,
+      "potential_new_bytes": 130,
+      "inferred_targets": {
+        "?ClearFocus@CDXUTDialog@@SAXXZ": 268979712,
+        "?s_pControlFocus@CDXUTDialog@@0PAVCDXUTControl@@A": 269756288,
+        "?s_pControlPressed@CDXUTDialog@@0PAVCDXUTControl@@A": 269756292,
+        "?Remove@?$CGrowableArray@PAVCDXUTControl@@@@QAEJH@Z": 268986528
+      }
+    },
+    {
+      "symbol": "?RemoveAllControls@CDXUTDialog@@QAEXXZ",
+      "rva": 574928,
+      "size": 126,
+      "potential_new_bytes": 126,
+      "inferred_targets": {
+        "?s_pControlFocus@CDXUTDialog@@0PAVCDXUTControl@@A": 269756288,
+        "?s_pControlPressed@CDXUTDialog@@0PAVCDXUTControl@@A": 269756292,
+        "?SetSize@?$CGrowableArray@PAVCDXUTControl@@@@QAEJH@Z": 268999168
+      }
+    },
+    {
+      "symbol": "?Refresh@CDXUTDialog@@QAEXXZ",
+      "rva": 564432,
+      "size": 123,
+      "potential_new_bytes": 123,
+      "inferred_targets": {
+        "?s_pControlFocus@CDXUTDialog@@0PAVCDXUTControl@@A": 269756288,
+        "?s_pControlPressed@CDXUTDialog@@0PAVCDXUTControl@@A": 269756292,
+        "?FocusDefaultControl@CDXUTDialog@@QAEXXZ": 268990816
+      }
+    },
+    {
+      "symbol": "?UpdateRects@CDXUTScrollBar@@UAEXXZ",
+      "rva": 558896,
+      "size": 116,
+      "potential_new_bytes": 116,
+      "inferred_targets": {
+        "?UpdateRects@CDXUTControl@@MAEXXZ": 268979744,
+        "__imp__SetRect@20": 269374208,
+        "?UpdateThumbRect@CDXUTScrollBar@@IAEXXZ": 268981024
+      }
+    },
+    {
+      "symbol": "??0CDXUTComboBox@@QAE@PAVCDXUTDialog@@@Z",
+      "rva": 594640,
+      "size": 112,
+      "potential_new_bytes": 112,
+      "inferred_targets": {
+        "??0CDXUTButton@@QAE@PAVCDXUTDialog@@@Z": 269018272,
+        "??_7CDXUTComboBox@@6B@": 269399672,
+        "??0CDXUTScrollBar@@QAE@PAVCDXUTDialog@@@Z": 269020368
+      }
+    },
+    {
+      "symbol": "?SetFont@CDXUTDialog@@QAEJIPBDJJ@Z",
+      "rva": 577488,
+      "size": 110,
+      "potential_new_bytes": 110,
+      "inferred_targets": {
+        "?Add@?$CGrowableArray@H@@QAEJABH@Z": 268945456,
+        "?AddFont@CDXUTDialogResourceManager@@QAEHPBDJJ@Z": 269012592,
+        "?SetAt@?$CGrowableArray@H@@QAEJHABH@Z": 268943424
+      }
+    },
+    {
+      "symbol": "?SetSelectedByData@CDXUTComboBox@@QAEJPAX@Z",
+      "rva": 557968,
+      "size": 101,
+      "potential_new_bytes": 101,
+      "inferred_targets": {
+        "?SendEvent@CDXUTDialog@@QAEXI_NPAVCDXUTControl@@@Z": 268978656
+      }
+    },
+    {
+      "symbol": "?SetTexture@CDXUTDialog@@QAEJIPBD@Z",
+      "rva": 564752,
+      "size": 100,
+      "potential_new_bytes": 100,
+      "inferred_targets": {
+        "?Add@?$CGrowableArray@H@@QAEJABH@Z": 268945456,
+        "?AddTexture@CDXUTDialogResourceManager@@QAEHPBD@Z": 269000016,
+        "?SetAt@?$CGrowableArray@H@@QAEJHABH@Z": 268943424
+      }
+    },
+    {
+      "symbol": "??0D3DXCOLOR@@QAE@K@Z",
+      "rva": 464288,
+      "size": 98,
+      "potential_new_bytes": 98,
+      "inferred_targets": {
+        "__real@3b808081": 269377852
+      }
+    },
+    {
+      "symbol": "?InitControl@CDXUTDialog@@QAEJPAVCDXUTControl@@@Z",
+      "rva": 575056,
+      "size": 98,
+      "potential_new_bytes": 98,
+      "inferred_targets": {
+        "?SetElement@CDXUTControl@@QAEJIPAVCDXUTElement@@@Z": 269001424
+      }
+    },
+    {
+      "symbol": "?OnCreateDevice@CDXUTDialogResourceManager@@QAEJPAUIDirect3DDevice9@@@Z",
+      "rva": 576992,
+      "size": 97,
+      "potential_new_bytes": 97,
+      "inferred_targets": {
+        "?CreateFontA@CDXUTDialogResourceManager@@QAEJI@Z": 269010672,
+        "?CreateTexture@CDXUTDialogResourceManager@@QAEJI@Z": 268991024,
+        "_D3DXCreateSprite@8": 269245556,
+        "?StaticOnCreateDevice@CDXUTIMEEditBox@@SAJXZ": 268982752
+      }
+    },
+    {
+      "symbol": "?Uninitialize@CUniBuffer@@SAXXZ",
+      "rva": 636752,
+      "size": 97,
+      "potential_new_bytes": 97,
+      "inferred_targets": {
+        "?s_hDll@CUniBuffer@@0PAUHINSTANCE__@@A": 269756296,
+        "?_ScriptApplyDigitSubstitution@CUniBuffer@@0P6GJPBUtag_SCRIPT_DIGITSUBSTITUTE@@PAUtag_SCRIPT_CONTROL@@PAUtag_SCRIPT_STATE@@@ZA": 269495316,
+        "?Dummy_ScriptApplyDigitSubstitution@CUniBuffer@@CGJPBUtag_SCRIPT_DIGITSUBSTITUTE@@PAUtag_SCRIPT_CONTROL@@PAUtag_SCRIPT_STATE@@@Z": 268978016,
+        "?_ScriptStringAnalyse@CUniBuffer@@0P6GJPAUHDC__@@PBXHHHKHPAUtag_SCRIPT_CONTROL@@PAUtag_SCRIPT_STATE@@PBHPAUtag_SCRIPT_TABDEF@@PBEPAPAX@ZA": 269495320,
+        "?Dummy_ScriptStringAnalyse@CUniBuffer@@CGJPAUHDC__@@PBXHHHKHPAUtag_SCRIPT_CONTROL@@PAUtag_SCRIPT_STATE@@PBHPAUtag_SCRIPT_TABDEF@@PBEPAPAX@Z": 268978032,
+        "?_ScriptStringCPtoX@CUniBuffer@@0P6GJPAXHHPAH@ZA": 269495324,
+        "?Dummy_ScriptStringCPtoX@CUniBuffer@@CGJPAXHHPAH@Z": 268978048,
+        "?_ScriptStringXtoCP@CUniBuffer@@0P6GJPAXHPAH1@ZA": 269495328,
+        "?Dummy_ScriptStringXtoCP@CUniBuffer@@CGJPAXHPAH1@Z": 268978064,
+        "?_ScriptStringFree@CUniBuffer@@0P6GJPAPAX@ZA": 269495332,
+        "?Dummy_ScriptStringFree@CUniBuffer@@CGJPAPAX@Z": 268978080,
+        "?_ScriptString_pLogAttr@CUniBuffer@@0P6GPBUtag_SCRIPT_LOGATTR@@PAX@ZA": 269495336,
+        "?Dummy_ScriptString_pLogAttr@CUniBuffer@@CGPBUtag_SCRIPT_LOGATTR@@PAX@Z": 268978096,
+        "?_ScriptString_pcOutChars@CUniBuffer@@0P6GPBHPAX@ZA": 269495340,
+        "?Dummy_ScriptString_pcOutChars@CUniBuffer@@CGPBHPAX@Z": 268978112,
+        "__imp__FreeLibrary@4": 269373920
+      }
+    },
+    {
+      "symbol": "?HandleKeyboard@CDXUTButton@@UAE_NIIJ@Z",
+      "rva": 544336,
+      "size": 96,
+      "potential_new_bytes": 96,
+      "inferred_targets": {
+        "?SendEvent@CDXUTDialog@@QAEXI_NPAVCDXUTControl@@@Z": 268978656
+      }
+    },
+    {
+      "symbol": "?OnHotkey@CDXUTComboBox@@UAEXXZ",
+      "rva": 557424,
+      "size": 96,
+      "potential_new_bytes": 96,
+      "inferred_targets": {
+        "?RequestFocus@CDXUTDialog@@QAEXPAVCDXUTControl@@@Z": 268978736,
+        "?SendEvent@CDXUTDialog@@QAEXI_NPAVCDXUTControl@@@Z": 268978656
+      }
+    },
+    {
+      "symbol": "?RemoveAllItems@CDXUTComboBox@@QAEXXZ",
+      "rva": 575376,
+      "size": 95,
+      "potential_new_bytes": 95,
+      "inferred_targets": {
+        "??3@YAXPAX@Z": 269247626,
+        "?SetSize@?$CGrowableArray@PAUDXUTComboBoxItem@@@@QAEJH@Z": 268999648,
+        "?SetTrackRange@CDXUTScrollBar@@QAEXHH@Z": 268995664
+      }
+    },
+    {
+      "symbol": "?Insert@?$CGrowableArray@PAUDXUTListBoxItem@@@@QAEJHABQAUDXUTListBoxItem@@@Z",
+      "rva": 564096,
+      "size": 92,
+      "potential_new_bytes": 92,
+      "inferred_targets": {
+        "?SetSizeInternal@?$CGrowableArray@PAUDXUTListBoxItem@@@@IAEJH@Z": 268987488,
+        "_memmove": 269250016
+      }
+    },
+    {
+      "symbol": "?RemoveItem@CDXUTComboBox@@QAEXI@Z",
+      "rva": 567152,
+      "size": 92,
+      "potential_new_bytes": 92,
+      "inferred_targets": {
+        "??3@YAXPAX@Z": 269247626,
+        "?Remove@?$CGrowableArray@PAUDXUTComboBoxItem@@@@QAEJH@Z": 268986688,
+        "?SetTrackRange@CDXUTScrollBar@@QAEXHH@Z": 268995664
+      }
+    },
+    {
+      "symbol": "?StringVPrintfWorkerA@@YGJPADIPBD0@Z",
+      "rva": 491872,
+      "size": 86,
+      "potential_new_bytes": 86,
+      "inferred_targets": {
+        "__vsnprintf": 269257167
+      }
+    },
+    {
+      "symbol": "?StringCatWorkerA@@YGJPADIPBD@Z",
+      "rva": 508464,
+      "size": 84,
+      "potential_new_bytes": 84,
+      "inferred_targets": {
+        "?StringCopyWorkerA@@YGJPADIPBD@Z": 268927248
+      }
+    },
+    {
+      "symbol": "??0CDXUTControl@@QAE@PAVCDXUTDialog@@@Z",
+      "rva": 582208,
+      "size": 80,
+      "potential_new_bytes": 80,
+      "inferred_targets": {
+        "??_7CDXUTControl@@6B@": 269398840
+      }
+    },
+    {
+      "symbol": "?DeleteSelectionText@CDXUTEditBox@@IAEXXZ",
+      "rva": 546400,
+      "size": 79,
+      "potential_new_bytes": 79,
+      "inferred_targets": {
+        "?PlaceCaret@CDXUTEditBox@@IAEXH@Z": 268981360,
+        "?RemoveChar@CUniBuffer@@QAE_NH@Z": 269073232
+      }
+    },
+    {
+      "symbol": "?SendCompString@CDXUTIMEEditBox@@IAEXXZ",
+      "rva": 549024,
+      "size": 79,
+      "potential_new_bytes": 79,
+      "inferred_targets": {
+        "?s_CompString@CDXUTIMEEditBox@@1VCUniBuffer@@A": 269756316,
+        "__imp__lstrlenW@4": 269373888,
+        "??ACUniBuffer@@QAEAAGH@Z": 269072880
+      }
+    },
+    {
+      "symbol": "?SetSelectedByText@CDXUTComboBox@@QAEJPBD@Z",
+      "rva": 557888,
+      "size": 78,
+      "potential_new_bytes": 78,
+      "inferred_targets": {
+        "?FindItem@CDXUTComboBox@@QAEHPBDI@Z": 268992976,
+        "?SendEvent@CDXUTDialog@@QAEXI_NPAVCDXUTControl@@@Z": 268978656
+      }
+    },
+    {
+      "symbol": "?SetTexture@CDXUTElement@@QAEXIPAUtagRECT@@K@Z",
+      "rva": 550288,
+      "size": 75,
+      "potential_new_bytes": 75,
+      "inferred_targets": {
+        "__imp__SetRectEmpty@4": 269374132,
+        "?Init@DXUTBlendColor@@QAEXKKK@Z": 268985360
+      }
+    },
+    {
+      "symbol": "?Render@CDXUTStatic@@UAEXPAUIDirect3DDevice9@@M@Z",
+      "rva": 582736,
+      "size": 75,
+      "potential_new_bytes": 75,
+      "inferred_targets": {
+        "?Blend@DXUTBlendColor@@QAEXIMM@Z": 268985536,
+        "?DrawTextA@CDXUTDialog@@QAEJPBDPAVCDXUTElement@@PAUtagRECT@@_NH@Z": 269013088
+      }
+    },
+    {
+      "symbol": "?ValueFromPos@CDXUTSlider@@IAEHH@Z",
+      "rva": 545424,
+      "size": 73,
+      "potential_new_bytes": 73,
+      "inferred_targets": {
+        "__real@3f000000": 269375508,
+        "__ftol2": 269251652
+      }
+    },
+    {
+      "symbol": "?ContainsPoint@CDXUTCheckBox@@UAEHUtagPOINT@@@Z",
+      "rva": 544960,
+      "size": 66,
+      "potential_new_bytes": 66,
+      "inferred_targets": {
+        "__imp__PtInRect@12": 269374416
+      }
+    },
+    {
+      "symbol": "?SetCheckedInternal@CDXUTRadioButton@@MAEX_N00@Z",
+      "rva": 556272,
+      "size": 65,
+      "potential_new_bytes": 65,
+      "inferred_targets": {
+        "?ClearRadioButtonGroup@CDXUTDialog@@QAEXI@Z": 268989248,
+        "?SendEvent@CDXUTDialog@@QAEXI_NPAVCDXUTControl@@@Z": 268978656
+      }
+    },
+    {
+      "symbol": "??0CDXUTSlider@@QAE@PAVCDXUTDialog@@@Z",
+      "rva": 584800,
+      "size": 65,
+      "potential_new_bytes": 65,
+      "inferred_targets": {
+        "??0CDXUTControl@@QAE@PAVCDXUTDialog@@@Z": 269017664,
+        "??_7CDXUTSlider@@6B@": 269399256
+      }
+    },
+    {
+      "symbol": "?ShowItem@CDXUTScrollBar@@QAEXH@Z",
+      "rva": 545712,
+      "size": 64,
+      "potential_new_bytes": 64,
+      "inferred_targets": {
+        "?UpdateThumbRect@CDXUTScrollBar@@IAEXXZ": 268981024
+      }
+    },
+    {
+      "symbol": "?ContainsPoint@CDXUTSlider@@UAEHUtagPOINT@@@Z",
+      "rva": 545200,
+      "size": 63,
+      "potential_new_bytes": 63,
+      "inferred_targets": {
+        "__imp__PtInRect@12": 269374416
+      }
+    },
+    {
+      "symbol": "?SetValueInternal@CDXUTSlider@@IAEXH_N@Z",
+      "rva": 545504,
+      "size": 63,
+      "potential_new_bytes": 63,
+      "inferred_targets": {
+        "?SendEvent@CDXUTDialog@@QAEXI_NPAVCDXUTControl@@@Z": 268978656
+      }
+    },
+    {
+      "symbol": "?FocusDefaultControl@CDXUTDialog@@QAEXXZ",
+      "rva": 555360,
+      "size": 60,
+      "potential_new_bytes": 60,
+      "inferred_targets": {
+        "?ClearFocus@CDXUTDialog@@SAXXZ": 268979712,
+        "?s_pControlFocus@CDXUTDialog@@0PAVCDXUTControl@@A": 269756288
+      }
+    },
+    {
+      "symbol": "?UpdateFont@CDXUTDialog@@QAEXXZ",
+      "rva": 579392,
+      "size": 60,
+      "potential_new_bytes": 60,
+      "inferred_targets": {
+        "?GetUIFontSize@@YAHXZ": 269243168,
+        "?GetFontWeight@@YAHXZ": 269243200,
+        "?GetFontFace@@YAPADXZ": 269243248,
+        "?SetFont@CDXUTDialog@@QAEJIPBDJJ@Z": 269012944
+      }
+    },
+    {
+      "symbol": "?OnMouseMove@CDXUTDialog@@AAEXUtagPOINT@@@Z",
+      "rva": 553376,
+      "size": 58,
+      "potential_new_bytes": 58,
+      "inferred_targets": {
+        "?GetControlAtPoint@CDXUTDialog@@QAEPAVCDXUTControl@@UtagPOINT@@@Z": 268988704
+      }
+    },
+    {
+      "symbol": "?SetSelectedByIndex@CDXUTComboBox@@QAEJI@Z",
+      "rva": 557824,
+      "size": 53,
+      "potential_new_bytes": 53,
+      "inferred_targets": {
+        "?SendEvent@CDXUTDialog@@QAEXI_NPAVCDXUTControl@@@Z": 268978656
+      }
+    },
+    {
+      "symbol": "??0CDXUTButton@@QAE@PAVCDXUTDialog@@@Z",
+      "rva": 582816,
+      "size": 50,
+      "potential_new_bytes": 50,
+      "inferred_targets": {
+        "??0CDXUTStatic@@QAE@PAVCDXUTDialog@@@Z": 269018064,
+        "??_7CDXUTButton@@6B@": 269399000
+      }
+    },
+    {
+      "symbol": "?GetItemData@CDXUTComboBox@@QAEPAXPBD@Z",
+      "rva": 557712,
+      "size": 49,
+      "potential_new_bytes": 49,
+      "inferred_targets": {
+        "?FindItem@CDXUTComboBox@@QAEHPBDI@Z": 268992976
+      }
+    },
+    {
+      "symbol": "?GetTextCopy@CDXUTStatic@@QAEJPADI@Z",
+      "rva": 555792,
+      "size": 47,
+      "potential_new_bytes": 47,
+      "inferred_targets": {
+        "?StringCopyWorkerA@@YGJPADIPBD@Z": 268927248
+      }
+    },
+    {
+      "symbol": "?AddControl@CDXUTDialog@@QAEJPAVCDXUTControl@@@Z",
+      "rva": 575168,
+      "size": 47,
+      "potential_new_bytes": 47,
+      "inferred_targets": {
+        "?InitControl@CDXUTDialog@@QAEJPAVCDXUTControl@@@Z": 269010512,
+        "?Add@?$CGrowableArray@PAVCDXUTControl@@@@QAEJABQAVCDXUTControl@@@Z": 268999184
+      }
+    },
+    {
+      "symbol": "?Refresh@CDXUTControl@@UAEXXZ",
+      "rva": 555744,
+      "size": 43,
+      "potential_new_bytes": 43,
+      "inferred_targets": {
+        "?Refresh@CDXUTElement@@QAEXXZ": 268985872
+      }
+    },
+    {
+      "symbol": "??0CDXUTCheckBox@@QAE@PAVCDXUTDialog@@@Z",
+      "rva": 583328,
+      "size": 43,
+      "potential_new_bytes": 43,
+      "inferred_targets": {
+        "??0CDXUTButton@@QAE@PAVCDXUTDialog@@@Z": 269018272,
+        "??_7CDXUTCheckBox@@6B@": 269399080
+      }
+    },
+    {
+      "symbol": "?ClearText@CDXUTEditBox@@QAEXXZ",
+      "rva": 546128,
+      "size": 42,
+      "potential_new_bytes": 42,
+      "inferred_targets": {
+        "?Clear@CUniBuffer@@QAEXXZ": 269072896,
+        "?PlaceCaret@CDXUTEditBox@@IAEXH@Z": 268981360
+      }
+    },
+    {
+      "symbol": "?StaticOnCreateDevice@CDXUTIMEEditBox@@SAJXZ",
+      "rva": 547296,
+      "size": 41,
+      "potential_new_bytes": 41,
+      "inferred_targets": {
+        "?_ImmDisableTextFrameService@CDXUTIMEEditBox@@1P6GHK@ZA": 269495360,
+        "?_ImmGetContext@CDXUTIMEEditBox@@1P6GPAUHIMC__@@PAUHWND__@@@ZA": 269495372,
+        "?s_hImcDef@CDXUTIMEEditBox@@1PAUHIMC__@@A": 269752344,
+        "?_ImmReleaseContext@CDXUTIMEEditBox@@1P6GHPAUHWND__@@PAUHIMC__@@@ZA": 269495376
+      }
+    },
+    {
+      "symbol": "?SetFont@CDXUTElement@@QAEXIKK@Z",
+      "rva": 550368,
+      "size": 37,
+      "potential_new_bytes": 37,
+      "inferred_targets": {
+        "?Init@DXUTBlendColor@@QAEXKKK@Z": 268985360
+      }
+    },
+    {
+      "symbol": "??0CDXUTRadioButton@@QAE@PAVCDXUTDialog@@@Z",
+      "rva": 583680,
+      "size": 36,
+      "potential_new_bytes": 36,
+      "inferred_targets": {
+        "??0CDXUTCheckBox@@QAE@PAVCDXUTDialog@@@Z": 269018784,
+        "??_7CDXUTRadioButton@@6B@": 269399168
+      }
+    },
+    {
+      "symbol": "?OnHotkey@CDXUTCheckBox@@UAEXXZ",
+      "rva": 583376,
+      "size": 35,
+      "potential_new_bytes": 35,
+      "inferred_targets": {
+        "?RequestFocus@CDXUTDialog@@QAEXPAVCDXUTControl@@@Z": 268978736
+      }
+    },
+    {
+      "symbol": "?SetRange@CDXUTSlider@@QAEXHH@Z",
+      "rva": 558624,
+      "size": 34,
+      "potential_new_bytes": 34,
+      "inferred_targets": {
+        "?SetValueInternal@CDXUTSlider@@IAEXH_N@Z": 268980960
+      }
+    },
+    {
+      "symbol": "?UpdateRects@CDXUTControl@@MAEXXZ",
+      "rva": 544288,
+      "size": 33,
+      "potential_new_bytes": 33,
+      "inferred_targets": {
+        "__imp__SetRect@20": 269374208
+      }
+    },
+    {
+      "symbol": "?SendKey@CDXUTIMEEditBox@@KAXE@Z",
+      "rva": 547248,
+      "size": 33,
+      "potential_new_bytes": 33,
+      "inferred_targets": {
+        "__imp__keybd_event@16": 269374152
+      }
+    },
+    {
+      "symbol": "?SetTrackRange@CDXUTScrollBar@@QAEXHH@Z",
+      "rva": 560208,
+      "size": 33,
+      "potential_new_bytes": 33,
+      "inferred_targets": {
+        "?Cap@CDXUTScrollBar@@IAEXXZ": 268981248,
+        "?UpdateThumbRect@CDXUTScrollBar@@IAEXXZ": 268981024
+      }
+    },
+    {
+      "symbol": "?SetCheckedInternal@CDXUTCheckBox@@MAEX_N0@Z",
+      "rva": 544928,
+      "size": 32,
+      "potential_new_bytes": 32,
+      "inferred_targets": {
+        "?SendEvent@CDXUTDialog@@QAEXI_NPAVCDXUTControl@@@Z": 268978656
+      }
+    },
+    {
+      "symbol": "?ClearFocus@CDXUTDialog@@SAXXZ",
+      "rva": 544256,
+      "size": 31,
+      "potential_new_bytes": 31,
+      "inferred_targets": {
+        "?s_pControlFocus@CDXUTDialog@@0PAVCDXUTControl@@A": 269756288,
+        "__imp__ReleaseCapture@0": 269374448
+      }
+    },
+    {
+      "symbol": "?Scroll@CDXUTScrollBar@@QAEXH@Z",
+      "rva": 559024,
+      "size": 31,
+      "potential_new_bytes": 31,
+      "inferred_targets": {
+        "?Cap@CDXUTScrollBar@@IAEXXZ": 268981248,
+        "?UpdateThumbRect@CDXUTScrollBar@@IAEXXZ": 268981024
+      }
+    },
+    {
+      "symbol": "?GetTextCopy@CDXUTEditBox@@QAEJPAGI@Z",
+      "rva": 560848,
+      "size": 31,
+      "potential_new_bytes": 31,
+      "inferred_targets": {
+        "?StringCopyWorkerW@@YGJPAGIPBG@Z": 268977440
+      }
+    },
+    {
+      "symbol": "?MsgProc@CDXUTDialogResourceManager@@QAE_NPAUHWND__@@IIJ@Z",
+      "rva": 577104,
+      "size": 31,
+      "potential_new_bytes": 31,
+      "inferred_targets": {
+        "?StaticMsgProc@CDXUTIMEEditBox@@SA_NIIJ@Z": 269011008
+      }
+    },
+    {
+      "symbol": "?ResetCaretBlink@CDXUTEditBox@@IAEXXZ",
+      "rva": 549488,
+      "size": 30,
+      "potential_new_bytes": 30,
+      "inferred_targets": {
+        "?DXUTGetGlobalTimer@@YAPAVCDXUTTimer@@XZ": 269050800,
+        "?GetAbsoluteTime@CDXUTTimer@@QAENXZ": 269039312
+      }
+    },
+    {
+      "symbol": "?OnHotkey@CDXUTButton@@UAEXXZ",
+      "rva": 582944,
+      "size": 30,
+      "potential_new_bytes": 30,
+      "inferred_targets": {
+        "?RequestFocus@CDXUTDialog@@QAEXPAVCDXUTControl@@@Z": 268978736,
+        "?SendEvent@CDXUTDialog@@QAEXI_NPAVCDXUTControl@@@Z": 268978656
+      }
+    },
+    {
+      "symbol": "?GetControlEnabled@CDXUTDialog@@QAE_NH@Z",
+      "rva": 565744,
+      "size": 29,
+      "potential_new_bytes": 29,
+      "inferred_targets": {
+        "?GetControl@CDXUTDialog@@QAEPAVCDXUTControl@@H@Z": 268988992
+      }
+    },
+    {
+      "symbol": "?SetControlEnabled@CDXUTDialog@@QAEXH_N@Z",
+      "rva": 565776,
+      "size": 29,
+      "potential_new_bytes": 29,
+      "inferred_targets": {
+        "?GetControl@CDXUTDialog@@QAEPAVCDXUTControl@@H@Z": 268988992
+      }
+    },
+    {
+      "symbol": "?ContainsItem@CDXUTComboBox@@QAE_NPBDI@Z",
+      "rva": 567248,
+      "size": 28,
+      "potential_new_bytes": 28,
+      "inferred_targets": {
+        "?FindItem@CDXUTComboBox@@QAEHPBDI@Z": 268992976
+      }
+    },
+    {
+      "symbol": "?OnHotkey@CDXUTRadioButton@@UAEXXZ",
+      "rva": 583728,
+      "size": 27,
+      "potential_new_bytes": 27,
+      "inferred_targets": {
+        "?RequestFocus@CDXUTDialog@@QAEXPAVCDXUTControl@@@Z": 268978736
+      }
+    },
+    {
+      "symbol": "?ClearComboBox@CDXUTDialog@@QAEXH@Z",
+      "rva": 577600,
+      "size": 26,
+      "potential_new_bytes": 26,
+      "inferred_targets": {
+        "?GetControl@CDXUTDialog@@QAEPAVCDXUTControl@@HI@Z": 268989040,
+        "?RemoveAllItems@CDXUTComboBox@@QAEXXZ": 269010832
+      }
+    },
+    {
+      "symbol": "?Init@CDXUTDialog@@QAEXPAVCDXUTDialogResourceManager@@@Z",
+      "rva": 592064,
+      "size": 18,
+      "potential_new_bytes": 18,
+      "inferred_targets": {
+        "?InitDefaultElements@CDXUTDialog@@AAEXXZ": 269014912
+      }
+    },
+    {
+      "symbol": "?OnInit@CDXUTComboBox@@UAEJXZ",
+      "rva": 594784,
+      "size": 16,
+      "potential_new_bytes": 16,
+      "inferred_targets": {
+        "?InitControl@CDXUTDialog@@QAEJPAVCDXUTControl@@@Z": 269010512
+      }
+    },
+    {
+      "symbol": "?GetComboBox@CDXUTDialog@@QAEPAVCDXUTComboBox@@H@Z",
+      "rva": 564416,
+      "size": 15,
+      "potential_new_bytes": 15,
+      "inferred_targets": {
+        "?GetControl@CDXUTDialog@@QAEPAVCDXUTControl@@HI@Z": 268989040
+      }
+    },
+    {
+      "symbol": "_powf",
+      "rva": 541536,
+      "size": 14,
+      "potential_new_bytes": 14,
+      "inferred_targets": {
+        "__CIpow": 269265008
+      }
+    },
+    {
+      "symbol": "?OnMouseUp@CDXUTDialog@@AAEXUtagPOINT@@@Z",
+      "rva": 543264,
+      "size": 13,
+      "potential_new_bytes": 13,
+      "inferred_targets": {
+        "?s_pControlPressed@CDXUTDialog@@0PAVCDXUTControl@@A": 269756292
+      }
+    },
+    {
+      "symbol": "?GetPrimaryLanguage@CDXUTIMEEditBox@@KAGXZ",
+      "rva": 543088,
+      "size": 11,
+      "potential_new_bytes": 11,
+      "inferred_targets": {
+        "?s_hklCurrent@CDXUTIMEEditBox@@1PAUHKL__@@A": 269756272
+      }
+    },
+    {
+      "symbol": "?GetSubLanguage@CDXUTIMEEditBox@@KAGXZ",
+      "rva": 543104,
+      "size": 11,
+      "potential_new_bytes": 11,
+      "inferred_targets": {
+        "?s_hklCurrent@CDXUTIMEEditBox@@1PAUHKL__@@A": 269756272
+      }
+    },
+    {
+      "symbol": "?GetTextSize@CUniBuffer@@QAEHXZ",
+      "rva": 542512,
+      "size": 10,
+      "potential_new_bytes": 10,
+      "inferred_targets": {
+        "__imp__lstrlenW@4": 269373888
+      }
+    },
+    {
+      "symbol": "?OnFocusIn@CDXUTEditBox@@UAEXXZ",
+      "rva": 561936,
+      "size": 9,
+      "potential_new_bytes": 9,
+      "inferred_targets": {
+        "?ResetCaretBlink@CDXUTEditBox@@IAEXXZ": 268984944
+      }
+    },
+    {
+      "symbol": "?GetWidth@CDXUTDialog@@QAEHXZ",
+      "rva": 11440,
+      "size": 7,
+      "potential_new_bytes": 7,
+      "inferred_targets": {}
+    },
+    {
+      "symbol": "?GetHeight@CDXUTDialog@@QAEHXZ",
+      "rva": 11456,
+      "size": 7,
+      "potential_new_bytes": 7,
+      "inferred_targets": {}
+    },
+    {
+      "symbol": "?GetTrackPos@CDXUTScrollBar@@QAEHXZ",
+      "rva": 422096,
+      "size": 7,
+      "potential_new_bytes": 7,
+      "inferred_targets": {}
+    },
+    {
+      "symbol": "?GetManager@CDXUTDialog@@QAEPAVCDXUTDialogResourceManager@@XZ",
+      "rva": 542256,
+      "size": 7,
+      "potential_new_bytes": 7,
+      "inferred_targets": {}
+    },
+    {
+      "symbol": "?GetButtonGroup@CDXUTRadioButton@@QAEIXZ",
+      "rva": 542464,
+      "size": 7,
+      "potential_new_bytes": 7,
+      "inferred_targets": {}
+    },
+    {
+      "symbol": "?GetPageSize@CDXUTScrollBar@@QAEHXZ",
+      "rva": 542480,
+      "size": 7,
+      "potential_new_bytes": 7,
+      "inferred_targets": {}
+    },
+    {
+      "symbol": "?GetNumItems@CDXUTComboBox@@QAEIXZ",
+      "rva": 552640,
+      "size": 7,
+      "potential_new_bytes": 7,
+      "inferred_targets": {}
+    },
+    {
+      "symbol": "??2@YAPAXIPAX@Z",
+      "rva": 491760,
+      "size": 5,
+      "potential_new_bytes": 5,
+      "inferred_targets": {}
+    },
+    {
+      "symbol": "?OnFocusIn@CDXUTControl@@UAEXXZ",
+      "rva": 542288,
+      "size": 5,
+      "potential_new_bytes": 5,
+      "inferred_targets": {}
+    },
+    {
+      "symbol": "?OnFocusOut@CDXUTControl@@UAEXXZ",
+      "rva": 542304,
+      "size": 5,
+      "potential_new_bytes": 5,
+      "inferred_targets": {}
+    },
+    {
+      "symbol": "?HandleMouse@CDXUTControl@@UAE_NIUtagPOINT@@IJ@Z",
+      "rva": 582352,
+      "size": 5,
+      "potential_new_bytes": 5,
+      "inferred_targets": {}
+    },
+    {
+      "symbol": "?OnMouseEnter@CDXUTControl@@UAEXXZ",
+      "rva": 582384,
+      "size": 5,
+      "potential_new_bytes": 5,
+      "inferred_targets": {}
+    },
+    {
+      "symbol": "?OnMouseLeave@CDXUTControl@@UAEXXZ",
+      "rva": 582400,
+      "size": 5,
+      "potential_new_bytes": 5,
+      "inferred_targets": {}
+    },
+    {
+      "symbol": "?GetD3DDevice@CDXUTDialogResourceManager@@QAEPAUIDirect3DDevice9@@XZ",
+      "rva": 542272,
+      "size": 4,
+      "potential_new_bytes": 4,
+      "inferred_targets": {}
+    },
+    {
+      "symbol": "?GetID@CDXUTControl@@QBEHXZ",
+      "rva": 542336,
+      "size": 4,
+      "potential_new_bytes": 4,
+      "inferred_targets": {}
+    },
+    {
+      "symbol": "?GetHotkey@CDXUTControl@@QAEIXZ",
+      "rva": 542384,
+      "size": 4,
+      "potential_new_bytes": 4,
+      "inferred_targets": {}
+    },
+    {
+      "symbol": "?GetEnabled@CDXUTControl@@UAE_NXZ",
+      "rva": 582480,
+      "size": 4,
+      "potential_new_bytes": 4,
+      "inferred_targets": {}
+    }
+  ],
+  "limits": [
+    "Only include paths changed from pinned DXUTgui.cpp. Prior accepted R5 adaptations remain in their separate authoritative closures.",
+    "Discovery does not establish reviewed target identity, dependencies, full attached tables or linked acceptance. Ambiguous boilerplate is omitted from this ranked list, not accepted.",
+    "Do not link this whole object blindly over existing providers; extract coherent complete method/data families and preserve prior proofs."
+  ]
+}
