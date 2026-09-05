@@ -1,0 +1,43 @@
+{
+  "status": "ACCEPTED_AFTER_COMPLETE_LINK_REVIEW",
+  "accepted_link": "cp32-gui-ime-render-linked",
+  "ob1": "cp32-gui-ime-render-game-ob1",
+  "ob2": "cp32-ime-ob2",
+  "new_unique_code_bytes": 3300,
+  "accepted_direct_025_credit": 0,
+  "reference_025": "/Users/salimtrouve/Documents/GitHub/samp-r5-preservation/references/michael-fa-samp/client/d3d9/common/DXUTgui.cpp",
+  "reference_025_sha256": "8fbb6ca52e14f973da4b66a8937e0eb524a7053598279b09c36888a26ed9975d",
+  "reference_comparisons": [
+    {
+      "function": "Initialize",
+      "identical": false,
+      "adaptations": "--- 0.2.5\n\n+++ current base\n\n@@ -6,2 +6,4 @@\n\n     FARPROC Temp;\n+\n+\tdwImeWaitTick = GetTickCount();\n "
+    },
+    {
+      "function": "Uninitialize",
+      "identical": true,
+      "adaptations": ""
+    },
+    {
+      "function": "RenderComposition",
+      "identical": false,
+      "adaptations": "--- 0.2.5\n\n+++ current base\n\n@@ -29,3 +29,3 @@\n\n     pElement->FontColor.Current = TextColor;\n-    const TCHAR *pwszComp = s_CompString.GetBuffer();\n+    const WCHAR *pwszComp = s_CompString.GetBuffer();\n     int nCharLeft = s_CompString.GetTextSize();\n@@ -86,3 +86,3 @@\n\n     BYTE *pAttr;\n-    const TCHAR *pcComp;\n+    const WCHAR *pcComp;\n     for( pcComp = s_CompString.GetBuffer(), pAttr = s_abCompStringAttr;"
+    },
+    {
+      "function": "RenderIndicator",
+      "identical": false,
+      "adaptations": "--- 0.2.5\n\n+++ current base\n\n@@ -11,3 +11,3 @@\n\n     // If IME system is off, draw English indicator.\n-    TCHAR *pwszIndicator = s_bEnableImeSystem ? s_wszCurrIndicator : s_aszIndicator[0];\n+    WCHAR *pwszIndicator = s_bEnableImeSystem ? s_wszCurrIndicator : s_aszIndicator[0];\n "
+    },
+    {
+      "function": "TruncateCompString",
+      "identical": false,
+      "adaptations": "--- 0.2.5\n\n+++ current base\n\n@@ -5,3 +5,3 @@\n\n \n-    int cc = (int) strlen( s_CompString.GetBuffer() );\n+    int cc = (int) lstrlenW( s_CompString.GetBuffer() );\n     assert( iNewStrLen == 0 || iNewStrLen >= cc );\n@@ -11,4 +11,4 @@\n\n     for (int i = 0; i < cc - s_nCompCaret; ++i )\n-        SendMessage( DXUTGetHWND(), WM_KEYDOWN, VK_RIGHT, 0 );\n-    SendMessage( DXUTGetHWND(), WM_KEYUP, VK_RIGHT, 0 );\n+\t\tSendMessage( pGame->GetMainWindowHwnd(), WM_KEYDOWN, VK_RIGHT, 0 );\n+    SendMessage( pGame->GetMainWindowHwnd(), WM_KEYUP, VK_RIGHT, 0 );\n \n@@ -28,6 +28,6 @@\n\n         {\n-            SendMessage( DXUTGetHWND(), WM_KEYDOWN, VK_BACK, 0 );  // Backspace character\n-            SendMessageW( DXUTGetHWND(), WM_CHAR, VK_BACK, 0 );\n+            SendMessage( pGame->GetMainWindowHwnd(), WM_KEYDOWN, VK_BACK, 0 );  // Backspace character\n+            SendMessageW( pGame->GetMainWindowHwnd(), WM_CHAR, VK_BACK, 0 );\n         }\n-        SendMessage( DXUTGetHWND(), WM_KEYUP, VK_BACK, 0 );\n+        SendMessage( pGame->GetMainWindowHwnd(), WM_KEYUP, VK_BACK, 0 );\n     }\n@@ -38,4 +38,4 @@\n\n     for (int i = 0; i < iNewStrLen; ++i )\n-        SendMessage( DXUTGetHWND(), WM_KEYDOWN, VK_LEFT, 0 );\n-    SendMessage( DXUTGetHWND(), WM_KEYUP, VK_LEFT, 0 );\n+        SendMessage( pGame->GetMainWindowHwnd(), WM_KEYDOWN, VK_LEFT, 0 );\n+    SendMessage( pGame->GetMainWindowHwnd(), WM_KEYUP, VK_LEFT, 0 );\n }"
+    }
+  ],
+  "source_adaptations": "Extraction headers only. Existing base already contains explicit wide-character and native-window adaptations plus original wait-tick initialization.",
+  "failed_attempt": {
+    "run": "cp32-gui-ime-render-ob1",
+    "result": "Compilation failed because minimal SDK headers lacked pGame declaration/type used by TruncateCompString. Added main.h and extern CGame *pGame; no shared header edits."
+  },
+  "verification": "Full1140 regions, all target and PE relocation checks,9 negative controls and existing ABI passed. DLL bodies excluded; no DLL loading or game execution. Existing callback bodies/StringCopyWorker deduplicated. Eight old pending providers unchanged."
+}
