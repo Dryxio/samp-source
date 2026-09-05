@@ -7,6 +7,16 @@ extern CAMERA_AIM caRemotePlayerAim[PLAYER_PED_SLOTS];
 extern float *pfStats;
 extern float fLocalWeaponSkill[11];
 extern float fWeaponSkill[PLAYER_PED_SLOTS][11];
+extern CAMERA_AIM *pcaInternalAim;
+extern CAMERA_AIM caLocalPlayerAim;
+extern BYTE *pbyteCameraMode;
+extern float *pfAspectRatio;
+extern float *pfCameraExtZoom;
+extern float fCameraExtZoom[PLAYER_PED_SLOTS];
+extern float fLocalCameraExtZoom;
+extern BYTE byteCameraMode[PLAYER_PED_SLOTS];
+extern float fLocalAspectRatio;
+extern float fAspectRatio[PLAYER_PED_SLOTS];
 
 
 void __stdcall GameStoreRemotePlayerAim(int iPlayer, CAMERA_AIM * caAim)
@@ -72,4 +82,112 @@ void __stdcall GameSetRemotePlayerWeaponSkills(int iPlayer)
 	pfStats[77] = fWeaponSkill[iPlayer][8]; // ak47
 	pfStats[78] = fWeaponSkill[iPlayer][9]; // m4
 	pfStats[79] = fWeaponSkill[iPlayer][10]; // sniper
+}
+
+void __stdcall GameStoreLocalPlayerCameraExtZoom()
+{
+	fLocalCameraExtZoom = *pfCameraExtZoom;
+	fLocalAspectRatio = *pfAspectRatio;
+}
+
+void __stdcall GameSetLocalPlayerCameraExtZoom()
+{
+	*pfCameraExtZoom = fLocalCameraExtZoom;
+	*pfAspectRatio = fLocalAspectRatio;
+}
+
+void __stdcall GameSetPlayerCameraExtZoom(BYTE bytePlayerID, float fZoom, float fRatio)
+{
+	fCameraExtZoom[bytePlayerID] = fZoom;
+	fAspectRatio[bytePlayerID] = fRatio;
+}
+
+float __stdcall GameGetLocalPlayerAspectRatio()
+{
+	float value = (*pfAspectRatio) - 1.0f;
+	return value;
+}
+
+float __stdcall GameGetLocalPlayerCameraExtZoom()
+{
+	float value = ((*pfCameraExtZoom) - 35.0f) / 35.0f;	// normalize for 35.0 to 70.0
+	return value;
+}
+
+void __stdcall GameSetRemotePlayerCameraExtZoom(BYTE bytePlayerID)
+{
+	float fZoom = fCameraExtZoom[bytePlayerID];
+	float fValue = (fZoom * 35.0f) + 35.0f; // unnormalize for 35.0 to 70.0
+	*pfCameraExtZoom = fValue;
+
+	float fRatio = fAspectRatio[bytePlayerID];
+	float fRatioValue = fRatio + 1.0f;
+	*pfAspectRatio = fRatioValue;
+}
+
+void __stdcall GameSetPlayerCameraMode(BYTE byteMode, BYTE bytePlayerID)
+{
+	byteCameraMode[bytePlayerID] = byteMode;
+}
+
+BYTE __stdcall GameGetPlayerCameraMode(BYTE bytePlayerID)
+{
+	return byteCameraMode[bytePlayerID];
+}
+
+BYTE __stdcall GameGetLocalPlayerCameraMode()
+{
+	return *pbyteCameraMode;
+}
+
+void __stdcall GameAimSyncInit()
+{
+	memset(&caLocalPlayerAim,0,sizeof(CAMERA_AIM));
+	memset(caRemotePlayerAim,0,sizeof(CAMERA_AIM) * PLAYER_PED_SLOTS);
+	memset(byteCameraMode,4,PLAYER_PED_SLOTS);
+	for(int i=0; i<PLAYER_PED_SLOTS; i++)
+		for(int j=0; j<11; j++)
+			fWeaponSkill[i][j] = 999.0f;
+	for(int i=0; i<PLAYER_PED_SLOTS; i++)
+		fAspectRatio[i] = 0.333333f;
+	for(int i=0; i<PLAYER_PED_SLOTS; i++)
+		fCameraExtZoom[i] = 1.0f;
+}
+
+void __stdcall GameStoreLocalPlayerAim()
+{
+	memcpy(&caLocalPlayerAim,pcaInternalAim,sizeof(CAMERA_AIM));
+}
+
+void __stdcall GameSetLocalPlayerAim()
+{
+	memcpy(pcaInternalAim,&caLocalPlayerAim,sizeof(CAMERA_AIM));
+	//memcpy(pInternalCamera,&SavedCam,sizeof(MATRIX4X4));
+}
+
+void __stdcall GameSetRemotePlayerAim(int iPlayer)
+{
+	memcpy(pcaInternalAim,&caRemotePlayerAim[iPlayer],sizeof(CAMERA_AIM));
+}
+
+CAMERA_AIM * __stdcall GameGetRemotePlayerAim(int iPlayer)
+{
+    return &caRemotePlayerAim[iPlayer];
+}
+
+void __stdcall GameResetLocalPlayerWeaponSkills()
+{
+	pfStats[69] = 999.0f; // pistol
+	pfStats[70] = 999.0f; // silenced pistol
+	pfStats[71] = 999.0f; // desert eagle
+	pfStats[72] = 999.0f; // shotgun
+	pfStats[73] = 999.0f; // sawnoff
+	pfStats[74] = 999.0f; // spas12
+	pfStats[75] = 999.0f; // micro uzi
+	pfStats[76] = 999.0f; // mp5
+	pfStats[77] = 999.0f; // ak47
+	pfStats[78] = 999.0f; // m4
+	pfStats[79] = 999.0f; // sniper
+
+	GameStoreLocalPlayerWeaponSkills();
 }

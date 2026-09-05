@@ -876,12 +876,33 @@
       },
       {
         "name": "GameGetPlayerKeys"
+      },
+      {
+        "name": "GameKeyStatesInit"
+      },
+      {
+        "name": "GameStoreLocalPlayerKeys"
+      },
+      {
+        "name": "GameSetLocalPlayerKeys"
+      },
+      {
+        "name": "GameStoreRemotePlayerKeys"
+      },
+      {
+        "name": "GameSetRemotePlayerKeys"
+      },
+      {
+        "name": "GameResetPlayerKeys"
       }
     ],
     "declarations": [
       "#include \"game/keystuff.h\"",
       "extern GTA_CONTROLSET *pGcsInternalKeys;",
-      "extern GTA_CONTROLSET GcsRemotePlayerKeys[PLAYER_PED_SLOTS];"
+      "extern GTA_CONTROLSET GcsRemotePlayerKeys[PLAYER_PED_SLOTS];",
+      "extern GTA_CONTROLSET GcsLocalPlayerKeys;",
+      "extern BYTE byteSaveDriveByLeft, byteSaveDriveByRight;",
+      "extern BYTE *pbyteDriveByLeft, *pbyteDriveByRight;"
     ]
   },
   "closure_player_skills": {
@@ -905,13 +926,68 @@
       },
       {
         "name": "GameSetRemotePlayerWeaponSkills"
+      },
+      {
+        "name": "GameStoreLocalPlayerCameraExtZoom"
+      },
+      {
+        "name": "GameSetLocalPlayerCameraExtZoom"
+      },
+      {
+        "name": "GameSetPlayerCameraExtZoom"
+      },
+      {
+        "name": "GameGetLocalPlayerAspectRatio"
+      },
+      {
+        "name": "GameGetLocalPlayerCameraExtZoom"
+      },
+      {
+        "name": "GameSetRemotePlayerCameraExtZoom"
+      },
+      {
+        "name": "GameSetPlayerCameraMode"
+      },
+      {
+        "name": "GameGetPlayerCameraMode"
+      },
+      {
+        "name": "GameGetLocalPlayerCameraMode"
+      },
+      {
+        "name": "GameAimSyncInit"
+      },
+      {
+        "name": "GameStoreLocalPlayerAim"
+      },
+      {
+        "name": "GameSetLocalPlayerAim"
+      },
+      {
+        "name": "GameSetRemotePlayerAim"
+      },
+      {
+        "name": "GameGetRemotePlayerAim"
+      },
+      {
+        "name": "GameResetLocalPlayerWeaponSkills"
       }
     ],
     "declarations": [
       "extern CAMERA_AIM caRemotePlayerAim[PLAYER_PED_SLOTS];",
       "extern float *pfStats;",
       "extern float fLocalWeaponSkill[11];",
-      "extern float fWeaponSkill[PLAYER_PED_SLOTS][11];"
+      "extern float fWeaponSkill[PLAYER_PED_SLOTS][11];",
+      "extern CAMERA_AIM *pcaInternalAim;",
+      "extern CAMERA_AIM caLocalPlayerAim;",
+      "extern BYTE *pbyteCameraMode;",
+      "extern float *pfAspectRatio;",
+      "extern float *pfCameraExtZoom;",
+      "extern float fCameraExtZoom[PLAYER_PED_SLOTS];",
+      "extern float fLocalCameraExtZoom;",
+      "extern BYTE byteCameraMode[PLAYER_PED_SLOTS];",
+      "extern float fLocalAspectRatio;",
+      "extern float fAspectRatio[PLAYER_PED_SLOTS];"
     ]
   },
   "closure_store_current_player": {
@@ -1074,5 +1150,218 @@
     "storage_includes": [
       "\"game/common.h\""
     ]
+  },
+  "closure_store_internal_aim": {
+    "source": "game/aimstuff.cpp",
+    "cls": null,
+    "definitions": [],
+    "storage_includes": [
+      "\"game/common.h\"",
+      "\"game/aimstuff.h\""
+    ],
+    "storage": {
+      "source_declaration": "CAMERA_AIM * pcaInternalAim = (CAMERA_AIM *)0xB6F32C;",
+      "declaration": "CAMERA_AIM * pcaInternalAim = (CAMERA_AIM *)0xB6F32C;",
+      "symbol": "pcaInternalAim",
+      "size": 4
+    }
+  },
+  "closure_store_local_aim": {
+    "source": "game/aimstuff.cpp",
+    "cls": null,
+    "definitions": [],
+    "storage_includes": [
+      "\"game/common.h\"",
+      "\"game/aimstuff.h\""
+    ],
+    "storage": {
+      "source_declaration": "CAMERA_AIM caLocalPlayerAim;",
+      "declaration": "CAMERA_AIM caLocalPlayerAim;",
+      "symbol": "caLocalPlayerAim",
+      "size": 48
+    }
+  },
+  "closure_store_camera_mode_pointer": {
+    "source": "game/hooks.cpp",
+    "cls": null,
+    "definitions": [],
+    "storage_includes": [
+      "\"game/common.h\""
+    ],
+    "storage": {
+      "source_declaration": "BYTE\t*pbyteCameraMode = (BYTE *)0xB6F1A8;",
+      "declaration": "BYTE\t*pbyteCameraMode = (BYTE *)0xB6F1A8;",
+      "symbol": "pbyteCameraMode",
+      "size": 4
+    }
+  },
+  "closure_store_aspect_pointer": {
+    "source": "game/aimstuff.cpp",
+    "cls": null,
+    "definitions": [],
+    "storage_includes": [
+      "\"game/common.h\""
+    ],
+    "storage": {
+      "source_declaration": "float * pfAspectRatio = (float*)0xC3EFA4;",
+      "declaration": "float * pfAspectRatio = (float*)0xC3EFA4;",
+      "symbol": "pfAspectRatio",
+      "size": 4
+    }
+  },
+  "closure_store_zoom_pointer": {
+    "source": "game/aimstuff.cpp",
+    "cls": null,
+    "definitions": [],
+    "storage_includes": [
+      "\"game/common.h\""
+    ],
+    "storage": {
+      "source_declaration": "float * pfCameraExtZoom = (float *)0xB6F250;",
+      "declaration": "float * pfCameraExtZoom = (float *)0xB6F250;",
+      "symbol": "pfCameraExtZoom",
+      "size": 4
+    }
+  },
+  "closure_store_remote_zoom": {
+    "source": "game/aimstuff.cpp",
+    "cls": null,
+    "definitions": [],
+    "storage_includes": [
+      "\"game/common.h\""
+    ],
+    "storage": {
+      "source_declaration": "float fCameraExtZoom[PLAYER_PED_SLOTS];\t\t// stored as a normalized multiplier float",
+      "declaration": "float fCameraExtZoom[PLAYER_PED_SLOTS];\t\t// stored as a normalized multiplier float",
+      "symbol": "fCameraExtZoom",
+      "size": 840
+    }
+  },
+  "closure_store_local_zoom": {
+    "source": "game/aimstuff.cpp",
+    "cls": null,
+    "definitions": [],
+    "storage_includes": [
+      "\"game/common.h\""
+    ],
+    "storage": {
+      "source_declaration": "float fLocalCameraExtZoom;",
+      "declaration": "float fLocalCameraExtZoom;",
+      "symbol": "fLocalCameraExtZoom",
+      "size": 4
+    }
+  },
+  "closure_store_camera_modes": {
+    "source": "game/aimstuff.cpp",
+    "cls": null,
+    "definitions": [],
+    "storage_includes": [
+      "\"game/common.h\""
+    ],
+    "storage": {
+      "source_declaration": "BYTE byteCameraMode[PLAYER_PED_SLOTS];",
+      "declaration": "BYTE byteCameraMode[PLAYER_PED_SLOTS];",
+      "symbol": "byteCameraMode",
+      "size": 210
+    }
+  },
+  "closure_store_local_aspect": {
+    "source": "game/aimstuff.cpp",
+    "cls": null,
+    "definitions": [],
+    "storage_includes": [
+      "\"game/common.h\""
+    ],
+    "storage": {
+      "source_declaration": "float fLocalAspectRatio;",
+      "declaration": "float fLocalAspectRatio;",
+      "symbol": "fLocalAspectRatio",
+      "size": 4
+    }
+  },
+  "closure_store_remote_aspect": {
+    "source": "game/aimstuff.cpp",
+    "cls": null,
+    "definitions": [],
+    "storage_includes": [
+      "\"game/common.h\""
+    ],
+    "storage": {
+      "source_declaration": "float fAspectRatio[PLAYER_PED_SLOTS];",
+      "declaration": "float fAspectRatio[PLAYER_PED_SLOTS];",
+      "symbol": "fAspectRatio",
+      "size": 840
+    }
+  },
+  "closure_store_local_keys": {
+    "source": "game/keystuff.cpp",
+    "cls": null,
+    "definitions": [],
+    "storage_includes": [
+      "\"game/common.h\"",
+      "\"game/keystuff.h\""
+    ],
+    "storage": {
+      "source_declaration": "GTA_CONTROLSET GcsLocalPlayerKeys;",
+      "declaration": "GTA_CONTROLSET GcsLocalPlayerKeys;",
+      "symbol": "GcsLocalPlayerKeys",
+      "size": 308
+    }
+  },
+  "closure_store_driveby_left": {
+    "source": "game/keystuff.cpp",
+    "cls": null,
+    "definitions": [],
+    "storage_includes": [
+      "\"game/common.h\""
+    ],
+    "storage": {
+      "source_declaration": "BYTE\tbyteSaveDriveByLeft;",
+      "declaration": "BYTE\tbyteSaveDriveByLeft;",
+      "symbol": "byteSaveDriveByLeft",
+      "size": 1
+    }
+  },
+  "closure_store_driveby_right": {
+    "source": "game/keystuff.cpp",
+    "cls": null,
+    "definitions": [],
+    "storage_includes": [
+      "\"game/common.h\""
+    ],
+    "storage": {
+      "source_declaration": "BYTE\tbyteSaveDriveByRight;",
+      "declaration": "BYTE\tbyteSaveDriveByRight;",
+      "symbol": "byteSaveDriveByRight",
+      "size": 1
+    }
+  },
+  "closure_store_driveby_left_pointer": {
+    "source": "game/keystuff.cpp",
+    "cls": null,
+    "definitions": [],
+    "storage_includes": [
+      "\"game/common.h\""
+    ],
+    "storage": {
+      "source_declaration": "BYTE   *pbyteDriveByLeft =  (BYTE *)0xB6F1A4;",
+      "declaration": "BYTE   *pbyteDriveByLeft =  (BYTE *)0xB6F1A4;",
+      "symbol": "pbyteDriveByLeft",
+      "size": 4
+    }
+  },
+  "closure_store_driveby_right_pointer": {
+    "source": "game/keystuff.cpp",
+    "cls": null,
+    "definitions": [],
+    "storage_includes": [
+      "\"game/common.h\""
+    ],
+    "storage": {
+      "source_declaration": "BYTE   *pbyteDriveByRight = (BYTE *)0xB6F1A5;",
+      "declaration": "BYTE   *pbyteDriveByRight = (BYTE *)0xB6F1A5;",
+      "symbol": "pbyteDriveByRight",
+      "size": 4
+    }
   }
 }
