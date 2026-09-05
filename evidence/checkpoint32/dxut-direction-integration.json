@@ -1,0 +1,14 @@
+{
+  "status": "ACCEPTED_AFTER_COMPLETE_LINK_REVIEW",
+  "run": "cp32-dxut-direction-linked",
+  "ob1": "cp32-dxut-direction-ob1",
+  "ob2": "cp32-ime-ob2",
+  "new_unique_code_bytes": 1962,
+  "accepted_direct_025_credit": 0,
+  "reference_comparison": {
+    "scope": "Complete CDXUTDirectionWidget source block",
+    "difference": "0.2.5 comments out unused HRESULT hr in StaticOnCreateDevice; otherwise identical to base."
+  },
+  "source_adaptations": "None; original complete source and original static owners.",
+  "verification": "1820 whole regions, every actual target/PE relocation,10 negative controls and existing ABI pass. Eight complete methods including289-byte HandleMessages COMDAT (261 code).12-byte device/effect/mesh pointer storage and4 complete source strings verified. Three actual D3DX25 relays (LoadMeshFromXA,MatrixRotationX,Vec3TransformNormal) verified via DLL/API/IAT and pinned SDK MAP owner. Existing effect creation/media/camera providers reused; vendor code excluded. Eight old pending unchanged. Only new unit compiled once. No graphics execution, push or deployment."
+}
