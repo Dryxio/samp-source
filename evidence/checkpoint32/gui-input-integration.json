@@ -1,0 +1,46 @@
+{
+  "status": "ACCEPTED_AFTER_COMPLETE_LINK_REVIEW",
+  "run": "cp32-gui-input-wide-linked",
+  "ob1": "cp32-gui-input-wide-ob1",
+  "ob2": "cp32-ime-ob2",
+  "new_unique_code_bytes": 4398,
+  "accepted_direct_025_credit": 0,
+  "reference_comparison": {
+    "CDXUTComboBox::HandleKeyboard": true,
+    "CDXUTComboBox::HandleMouse": true,
+    "CDXUTSlider::HandleKeyboard": true,
+    "CDXUTSlider::HandleMouse": false,
+    "CDXUTScrollBar::HandleMouse": true,
+    "CDXUTEditBox::HandleKeyboard": true,
+    "CDXUTEditBox::HandleMouse": true,
+    "CDXUTDialog::SendEvent": true,
+    "CDXUTDialog::ClearFocus": true,
+    "CDXUTSlider::SetValueInternal": true,
+    "CDXUTSlider::ValueFromPos": true,
+    "CDXUTEditBox::ResetCaretBlink": true,
+    "CDXUTEditBox::CopyToClipboard": false,
+    "CDXUTEditBox::PasteFromClipboard": false,
+    "CDXUTEditBox::DeleteSelectionText": true,
+    "CUniBuffer::RemoveChar": false,
+    "CUniBuffer::GetPriorItemPos": true,
+    "CUniBuffer::GetNextItemPos": true,
+    "CUniBuffer::InsertString": false
+  },
+  "reference_findings": "14 of19 extracted bodies identical.0.2.5 corroborates CF_UNICODETEXT, but uses ANSI operations where R5 requires lstrlenW/two-byte buffers, and omits slider SetValueInternal(0,false) on release that R5 retains. Existing base preserved; no new direct whole-function transfer credit.",
+  "source_adaptations": "Restore original WHEEL_DELTA120 and DXUT_MAX_EDITBOXLENGTH0xFFFF defines. CopyToClipboard WCHAR and CF_UNICODETEXT, Paste CF_UNICODETEXT, RemoveChar/InsertString sizeof(WCHAR). Verified original wide semantics and calls, no byte patching.",
+  "trials": [
+    {
+      "run": "cp32-gui-input-ob1",
+      "outcome": "Initial compile missing two original local defines; restored."
+    },
+    {
+      "run": "cp32-gui-input-linked",
+      "outcome": "Seven complete handlers match. CopyToClipboard179/185, RemoveChar84/86 differ; Paste122 differs clipboard-format operand. No acceptance; all snapshots retained."
+    },
+    {
+      "run": "cp32-gui-input-wide-linked",
+      "outcome": "All19 source methods/providers match, including InsertString196 reached through restored Paste. Eight old pending unchanged."
+    }
+  ],
+  "verification": "1846 whole regions, all actual targets/PE relocations,10 negative controls and existing ABI pass. Seven full input COMDATs include every attached table; only original code ranges credited. Twelve real event/focus/slider/caret/clipboard/buffer providers. Complete function-local ThumbOffsetY4/bDrag1 source storage,10 real user32/kernel32 imports verified. Prior code overlaps deduplicated. Only new input unit compiled on each changed-source trial, old units reused. No clipboard, GUI, input or game execution; no push/deployment."
+}
