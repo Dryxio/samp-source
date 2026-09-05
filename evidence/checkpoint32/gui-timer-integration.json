@@ -1,0 +1,88 @@
+{
+  "status": "ACCEPTED_AFTER_COMPLETE_LINK_REVIEW",
+  "accepted_link": "cp32-gui-timer-buffer-linked",
+  "ob1": "cp32-gui-timer-buffer-ob1",
+  "ob2": "cp32-ime-ob2",
+  "new_unique_code_bytes": 822,
+  "compiled_code_bytes": 838,
+  "deduplicated_bytes": 16,
+  "deduplicated_region": "CUniBuffer::operator[]9B9F0 already accepted in CP3.1; actual source provider now linked.",
+  "accepted_direct_025_credit": 0,
+  "reference_comparisons": [
+    {
+      "function": "DXUTGetGlobalTimer",
+      "identical": true,
+      "difference": ""
+    },
+    {
+      "function": "CDXUTTimer::CDXUTTimer",
+      "identical": true,
+      "difference": ""
+    },
+    {
+      "function": "CDXUTTimer::Reset",
+      "identical": true,
+      "difference": ""
+    },
+    {
+      "function": "CDXUTTimer::Start",
+      "identical": true,
+      "difference": ""
+    },
+    {
+      "function": "CDXUTTimer::Stop",
+      "identical": true,
+      "difference": ""
+    },
+    {
+      "function": "CDXUTTimer::Advance",
+      "identical": true,
+      "difference": ""
+    },
+    {
+      "function": "CDXUTTimer::GetAbsoluteTime",
+      "identical": true,
+      "difference": ""
+    },
+    {
+      "function": "CDXUTTimer::GetTime",
+      "identical": true,
+      "difference": ""
+    },
+    {
+      "function": "CDXUTTimer::GetElapsedTime",
+      "identical": true,
+      "difference": ""
+    },
+    {
+      "function": "CDXUTTimer::IsStopped",
+      "identical": true,
+      "difference": ""
+    },
+    {
+      "function": "CDXUTIMEEditBox::SendKey",
+      "identical": true,
+      "difference": ""
+    },
+    {
+      "function": "CDXUTIMEEditBox::StaticOnCreateDevice",
+      "identical": false,
+      "difference": "--- 0.2.5\n\n+++ base\n\n@@ -2,5 +2,7 @@\n\n {\n+\t_ImmDisableTextFrameService(-1);\n+\n     // Save the default input context\n-    s_hImcDef = _ImmGetContext( DXUTGetHWND() );\n-    _ImmReleaseContext( DXUTGetHWND(), s_hImcDef );\n+\ts_hImcDef = _ImmGetContext( pGame->GetMainWindowHwnd() );\n+    _ImmReleaseContext( pGame->GetMainWindowHwnd(), s_hImcDef );\n "
+    },
+    {
+      "function": "CDXUTIMEEditBox::SendCompString",
+      "identical": false,
+      "difference": "--- 0.2.5\n\n+++ base\n\n@@ -2,3 +2,3 @@\n\n {\n-    for( int i = 0; i < lstrlen( s_CompString.GetBuffer() ); ++i )\n+    for( int i = 0; i < lstrlenW( s_CompString.GetBuffer() ); ++i )\n         MsgProc( WM_CHAR, (WPARAM)s_CompString[i], 0 );"
+    },
+    {
+      "function": "CUniBuffer::operator[]",
+      "identical": false,
+      "difference": "--- 0.2.5\n\n+++ base\n\n@@ -1,2 +1,2 @@\n\n-TCHAR& CUniBuffer::operator[]( int n )  // No param checking\n+WCHAR& CUniBuffer::operator[]( int n )  // No param checking\n {"
+    }
+  ],
+  "failed_attempt": {
+    "run": "cp32-gui-timer-linked",
+    "result": "Link failed due to missing CUniBuffer::operator[]. Initial draft inferred it as CRT but was never reviewed or accepted. Corrected by adding complete original C++ definition; no external placeholder remains."
+  },
+  "verification": "1158 complete regions, all target/PE relocation checks,9 negative controls and existing ABI passed. Original34-byte timer and4-byte compiler guard plus4-byte default input context and -1 double verified. Actual CRT __alldiv170 and kernel32/user32 imports reviewed. Eight earlier pending providers unchanged. No timer/input/game execution."
+}

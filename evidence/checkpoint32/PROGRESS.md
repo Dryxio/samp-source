@@ -523,3 +523,14 @@ Compared these5 exact source definitions with local0.2.5. Uninitialize is identi
 Initial minimal-header extraction failed on pGame declarations, corrected with main.h/extern without any shared header changes. Only new source units compiled; all prior objects reused. Current accepted link cp32-gui-ime-render-linked; Ob1 cp32-gui-ime-render-game-ob1, Ob2 cp32-ime-ob2. Contract/seeds gui-ime-render, units build/gui-ime-render-units.txt, generator tools/prepare_gui_ime_render.py. Proof gui-ime-render-acceptance.json. Local review build/review_gui_ime_render.py. All processes terminal.
 
 Next: remaining IME GetReadingWindowOrientation349 (requires original advapi32 registry imports), SendCompString79, SendKey33, StaticOnCreateDevice41, then full ctor/vtable closure for EditBox256 and IMEEditBox256/AddIMEEditBox222/command ResetDialogControls185. Full scan has no accepted candidates yet for larger HandleMouse/MsgProc/reading-window renderer; assess R5 wide-character/native-HWND adaptations from existing base and full original targets. ScrollBar clock closure remains available as recorded above. No push or deployment.
+
+
+## Complete timer foundation and standalone IME helpers
+
+GUI-timer acceptance adds822 unique exact bytes, reaching89,539 /930,756 (9.62003%). Complete timer constructor77, Reset77, Start100, Stop70, Advance43, GetAbsoluteTime81, GetTime81, GetElapsedTime99, IsStopped4 and DXUTGetGlobalTimer37:669 total. IME SendKey33/StaticOnCreateDevice41/SendCompString79 add153. CUniBuffer::operator[]16 is now an actual linked source provider, but CP3.1 already covered it so it is not counted again.
+
+All1158 complete regions,34-byte packed timer143D3C, compiler guard4 at143D60, default input-context4 at141818 and -1 double pass. Complete CRT __alldiv170 atC8800 and kernel32 performance counter/frequency/user32 keybd_event identities verified. Full9 negative controls and existing ABI pass. No actual timer/input/game execution. Eight prior pending providers unchanged.
+
+Initial link failed for missing CUniBuffer::operator[]. An unreviewed draft classified the missing custom symbol as CRT; it was never accepted. Added the complete original C++ body and recompiled only closure_gui_ime_helpers; actual wide-character write access and analysis-required flag match. Complete10 timer methods and SendKey are identical to0.2.5; remaining helpers require existing base R5 wide/native-HWND adaptations. No new direct0.2.5 credit, total remains1,523 bytes.
+
+Current accepted link cp32-gui-timer-buffer-linked; Ob1 cp32-gui-timer-buffer-ob1, Ob2 cp32-ime-ob2. Contract/seeds gui-timer, units build/gui-timer-units.txt, generator tools/prepare_gui_timer.py. Proof gui-timer-acceptance.json; failed trial and source comparisons gui-timer-integration.json; local review build/review_gui_timer.py. All build processes terminal; no push/deployment.
