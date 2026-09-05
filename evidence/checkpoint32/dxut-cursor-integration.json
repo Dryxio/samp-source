@@ -1,0 +1,34 @@
+{
+  "status": "ACCEPTED_AFTER_COMPLETE_LINK_REVIEW",
+  "run": "cp32-dxut-cursor-linked",
+  "ob1": "cp32-dxut-cursor-ob1",
+  "ob2": "cp32-ime-ob2",
+  "new_unique_code_bytes": 2079,
+  "accepted_direct_025_credit": 0,
+  "reference_comparisons": [
+    {
+      "function": "DXUTUpdateDeviceSettingsWithOverrides",
+      "identical_to_025": true
+    },
+    {
+      "function": "DXUTInitHWCursor",
+      "identical_to_025": true
+    },
+    {
+      "function": "DXUTSetDeviceCursor",
+      "identical_to_025": true
+    },
+    {
+      "function": "DXUTGetDesktopResolution",
+      "identical_to_025": true
+    }
+  ],
+  "source_adaptations": "Full original bodies unchanged. Added internal cursor declaration to existing state unit; extracted complete cursor conversion into separate unit with original include environment.",
+  "trials": [
+    {
+      "run": "cp32-dxut-cursor-ob1",
+      "outcome": "Only changed state/new cursor compiled; all4 complete unique candidates. Link succeeded first attempt with newly pinned gdi32.lib."
+    }
+  ],
+  "verification": "1580 complete regions, all original/linked targets and PE relocations,10 negative controls and existing ABI passed. Cursor1016, Init105, DesktopResolution132, Overrides282 plus10 typed getters. All13 named user32/gdi32 identities and actual SDK MAP owners verified. No cursor/window/device API execution. Eight old pending unchanged."
+}

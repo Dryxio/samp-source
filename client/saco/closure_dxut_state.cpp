@@ -6,6 +6,7 @@ void DXUTCleanup3DEnvironment(bool = true);
 void DXUTDisplayErrorMessage(HRESULT);
 void DXUTAllowShortcutKeys(bool);
 CD3DEnumeration* DXUTPrepareEnumerationObject(bool = false);
+HRESULT DXUTSetDeviceCursor(IDirect3DDevice9*,HCURSOR,bool);
 void DXUTUpdateBackBufferDesc();
 void DXUTUpdateDeviceStats(D3DDEVTYPE,DWORD,D3DADAPTER_IDENTIFIER9*);
 typedef DECLSPEC_IMPORT UINT (WINAPI* LPTIMEBEGINPERIOD)(UINT);
@@ -1180,4 +1181,76 @@ DXUTDeviceSettings DXUTGetDeviceSettings()
         ZeroMemory( &ds, sizeof(DXUTDeviceSettings) );
         return ds;
     }
+}
+void DXUTUpdateDeviceSettingsWithOverrides( DXUTDeviceSettings* pDeviceSettings )
+{
+    if( GetDXUTState().GetOverrideAdapterOrdinal() != -1 )
+        pDeviceSettings->AdapterOrdinal = GetDXUTState().GetOverrideAdapterOrdinal();
+
+    if( GetDXUTState().GetOverrideFullScreen() )
+        pDeviceSettings->pp.Windowed = false;
+    if( GetDXUTState().GetOverrideWindowed() )
+        pDeviceSettings->pp.Windowed = true;
+
+    if( GetDXUTState().GetOverrideForceREF() )
+        pDeviceSettings->DeviceType = D3DDEVTYPE_REF;
+    else if( GetDXUTState().GetOverrideForceHAL() )
+        pDeviceSettings->DeviceType = D3DDEVTYPE_HAL;
+
+    if( GetDXUTState().GetOverrideWidth() != 0 )
+        pDeviceSettings->pp.BackBufferWidth = GetDXUTState().GetOverrideWidth();
+    if( GetDXUTState().GetOverrideHeight() != 0 )
+        pDeviceSettings->pp.BackBufferHeight = GetDXUTState().GetOverrideHeight();
+
+    if( GetDXUTState().GetOverrideForcePureHWVP() )
+    {
+        pDeviceSettings->BehaviorFlags &= ~D3DCREATE_SOFTWARE_VERTEXPROCESSING;
+        pDeviceSettings->BehaviorFlags |= D3DCREATE_HARDWARE_VERTEXPROCESSING;
+        pDeviceSettings->BehaviorFlags |= D3DCREATE_PUREDEVICE;
+    }
+    else if( GetDXUTState().GetOverrideForceHWVP() )
+    {
+        pDeviceSettings->BehaviorFlags &= ~D3DCREATE_SOFTWARE_VERTEXPROCESSING;
+        pDeviceSettings->BehaviorFlags &= ~D3DCREATE_PUREDEVICE;
+        pDeviceSettings->BehaviorFlags |= D3DCREATE_HARDWARE_VERTEXPROCESSING;
+    }
+    else if( GetDXUTState().GetOverrideForceSWVP() )
+    {
+        pDeviceSettings->BehaviorFlags &= ~D3DCREATE_HARDWARE_VERTEXPROCESSING;
+        pDeviceSettings->BehaviorFlags &= ~D3DCREATE_PUREDEVICE;
+        pDeviceSettings->BehaviorFlags |= D3DCREATE_SOFTWARE_VERTEXPROCESSING;
+    }
+}
+void DXUTInitHWCursor()
+{
+    // Set up the full screen cursor 
+    if( !DXUTIsWindowed() )
+    {
+        HCURSOR hCursor = (HCURSOR)(ULONG_PTR)GetClassLongPtr( DXUTGetHWNDDeviceFullScreen(), GCLP_HCURSOR );
+        DXUTSetDeviceCursor( GetDXUTState().GetD3DDevice(), hCursor, false );
+        DXUTGetD3DDevice()->ShowCursor( true );
+
+        // Confine cursor to full screen window
+        RECT rcWindow;
+        GetWindowRect( DXUTGetHWNDDeviceFullScreen(), &rcWindow );
+        ClipCursor( &rcWindow );
+    }
+    else
+    {
+        ClipCursor( NULL );
+    }
+}
+void DXUTGetDesktopResolution( UINT AdapterOrdinal, DWORD* pdwWidth, DWORD* pdwHeight )
+{
+    CD3DEnumeration* pd3dEnum = DXUTPrepareEnumerationObject();
+    CD3DEnumAdapterInfo* pAdapterInfo = pd3dEnum->GetAdapterInfo( AdapterOrdinal );                       
+    DEVMODE devMode;
+    ZeroMemory( &devMode, sizeof(DEVMODE) );
+    devMode.dmSize = sizeof(DEVMODE);
+    TCHAR strDeviceName[256];
+    strcpy(strDeviceName,pAdapterInfo->AdapterIdentifier.DeviceName);
+    strDeviceName[255] = 0;
+    EnumDisplaySettings( strDeviceName, ENUM_REGISTRY_SETTINGS, &devMode );
+    *pdwWidth = devMode.dmPelsWidth;
+    *pdwHeight = devMode.dmPelsHeight;
 }
