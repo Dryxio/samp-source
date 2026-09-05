@@ -7,7 +7,12 @@
 #pragma pack(1)
 typedef struct _CHAT_WINDOW_ENTRY
 {
-	char _gap0[252];
+	DWORD timestamp;
+	char prefix[28];
+	char text[208];
+	int type;
+	DWORD textColor;
+	DWORD prefixColor;
 } CHAT_WINDOW_ENTRY;
 
 class CChatWindow // size: 25578
@@ -53,6 +58,8 @@ public:
 
 	void AddDebugMessage(CHAR *szFormat, ...);
 	void AddEntry(int type, CHAR *text, CHAR *prefix, DWORD textColor, DWORD prefixColor);
+	void Log(int type, CHAR *text, CHAR *prefix);
+	void PushBack();
 
 	void ResetDialogControls(CDXUTDialog *pGameUI);
 

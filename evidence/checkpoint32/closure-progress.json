@@ -1,0 +1,166 @@
+{
+  "status": "LINKED_CANDIDATE_NOT_ACCEPTED",
+  "reference_sha256": "b72b5dbe725f81864ca3f78bc7063bda56cc05fc7188af822fa7a754432553a2",
+  "link_run": "cp32-closure-linked2",
+  "link_metadata_sha256": "ab99ce8ac480587e01fc8d91efec672f31949a6f1487db505fbef11f1dc1d5ed",
+  "functions": [
+    {
+      "symbol": "?AddEntry@CChatWindow@@QAEXHPAD0KK@Z",
+      "rva": 424928,
+      "source_section_size": 538,
+      "reference_function_size": 538,
+      "reference_sha256": "2353899554205aa4a63a0c12d82f9b60a59d583a0ad2287a201180d069b97971",
+      "nonfixup_differences": [
+        6,
+        7,
+        8,
+        12,
+        13,
+        14
+      ],
+      "proposed_targets": [
+        {
+          "offset": 89,
+          "kind": 20,
+          "symbol": "_time",
+          "original_address": 269263563
+        },
+        {
+          "offset": 144,
+          "kind": 6,
+          "symbol": "??_C@_01JLIPDDHJ@?3?$AA@",
+          "original_address": 269377272
+        },
+        {
+          "offset": 170,
+          "kind": 20,
+          "symbol": "?Log@CChatWindow@@QAEXHPAD0@Z",
+          "original_address": 268859344
+        },
+        {
+          "offset": 266,
+          "kind": 20,
+          "symbol": "_strncpy",
+          "original_address": 269252592
+        },
+        {
+          "offset": 379,
+          "kind": 20,
+          "symbol": "_strncpy",
+          "original_address": 269252592
+        },
+        {
+          "offset": 507,
+          "kind": 20,
+          "symbol": "_strncpy",
+          "original_address": 269252592
+        }
+      ]
+    },
+    {
+      "symbol": "?Log@CChatWindow@@QAEXHPAD0@Z",
+      "rva": 423888,
+      "source_section_size": 193,
+      "reference_function_size": 193,
+      "reference_sha256": "1032a3bd11d79b1c8f68073f53dcb70c64577866c5f5971b2294073dda504bd2",
+      "nonfixup_differences": [],
+      "proposed_targets": [
+        {
+          "offset": 9,
+          "kind": 20,
+          "symbol": "_time",
+          "original_address": 269263563
+        },
+        {
+          "offset": 32,
+          "kind": 6,
+          "symbol": "??_C@_01MCMALHOG@a?$AA@",
+          "original_address": 269377764
+        },
+        {
+          "offset": 41,
+          "kind": 20,
+          "symbol": "_fopen",
+          "original_address": 269254473
+        },
+        {
+          "offset": 64,
+          "kind": 20,
+          "symbol": "_localtime",
+          "original_address": 269263179
+        },
+        {
+          "offset": 70,
+          "kind": 6,
+          "symbol": "??_C@_0L@CEAFHBBP@?$FL?$CFH?3?$CFM?3?$CFS?$FN?$AA@",
+          "original_address": 269393088
+        },
+        {
+          "offset": 82,
+          "kind": 20,
+          "symbol": "_strftime",
+          "original_address": 269263152
+        },
+        {
+          "offset": 119,
+          "kind": 6,
+          "symbol": "??_C@_07HDPLFHPL@?$CFs?5?$CFs?$AN?6?$AA@",
+          "original_address": 269393080
+        },
+        {
+          "offset": 125,
+          "kind": 20,
+          "symbol": "_fprintf",
+          "original_address": 269259612
+        },
+        {
+          "offset": 134,
+          "kind": 20,
+          "symbol": "_fclose",
+          "original_address": 269254232
+        },
+        {
+          "offset": 164,
+          "kind": 6,
+          "symbol": "??_C@_0N@GOIIKBIH@?$CFs?5?$DM?$CFs?$DO?5?$CFs?$AN?6?$AA@",
+          "original_address": 269393064
+        },
+        {
+          "offset": 170,
+          "kind": 20,
+          "symbol": "_fprintf",
+          "original_address": 269259612
+        },
+        {
+          "offset": 179,
+          "kind": 20,
+          "symbol": "_fclose",
+          "original_address": 269254232
+        }
+      ]
+    },
+    {
+      "symbol": "?AddDebugMessage@CChatWindow@@QAAXPADZZ",
+      "rva": 426224,
+      "source_section_size": 117,
+      "reference_function_size": 117,
+      "reference_sha256": "b6c50e6c391aa40711cac0f3c6b9734f92e53cf90f8acc104a269bd82533bdc2",
+      "nonfixup_differences": [],
+      "proposed_targets": [
+        {
+          "offset": 40,
+          "kind": 20,
+          "symbol": "_vsprintf",
+          "original_address": 269263620
+        },
+        {
+          "offset": 108,
+          "kind": 20,
+          "symbol": "?AddEntry@CChatWindow@@QAEXHPAD0KK@Z",
+          "original_address": 268860384
+        }
+      ]
+    }
+  ],
+  "scope": "Discovery targets still require reviewed contracts; AddEntry remains nonmatching; no coverage increment"
+}
