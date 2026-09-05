@@ -1,0 +1,124 @@
+{
+  "status": "ACCEPTED_AFTER_COMPLETE_LINK_REVIEW",
+  "run": "cp32-dxut-init-linked",
+  "ob1": "cp32-dxut-init-ob1",
+  "ob2": "cp32-ime-ob2",
+  "new_unique_code_bytes": 1433,
+  "accepted_direct_025_credit": 0,
+  "reference_comparisons": [
+    {
+      "function": "DXUTInit",
+      "identical_to_025": true
+    },
+    {
+      "function": "DXUT_EnsureD3DAPIs",
+      "identical_to_025": true
+    },
+    {
+      "function": "DXUT_Dynamic_Direct3DCreate9",
+      "identical_to_025": true
+    },
+    {
+      "function": "DXUT_Dynamic_D3DPERF_BeginEvent",
+      "identical_to_025": true
+    },
+    {
+      "function": "DXUT_Dynamic_D3DPERF_EndEvent",
+      "identical_to_025": true
+    },
+    {
+      "function": "DXUT_Dynamic_D3DPERF_SetMarker",
+      "identical_to_025": true
+    },
+    {
+      "function": "DXUT_Dynamic_D3DPERF_SetRegion",
+      "identical_to_025": true
+    },
+    {
+      "function": "DXUT_Dynamic_D3DPERF_QueryRepeatFrame",
+      "identical_to_025": true
+    },
+    {
+      "function": "DXUT_Dynamic_D3DPERF_SetOptions",
+      "identical_to_025": true
+    },
+    {
+      "function": "DXUT_Dynamic_D3DPERF_GetStatus",
+      "identical_to_025": true
+    }
+  ],
+  "source_adaptations": "Complete original source bodies unchanged. Extended existing state unit with original LPTIMEBEGINPERIOD typedef and Init. Separate complete dynamic API globals/loader/wrappers. Added pinned comctl32.lib to link.",
+  "trials": [
+    {
+      "run": "cp32-dxut-init-ob1",
+      "outcome": "Only changed state and new dynamic source compiled; prior objects reused. Link succeeded first attempt. Initial import review assumed named InitCommonControls; both original and linked IAT actually use COMCTL32 ordinal17, confirmed against actual comctl32 library MAP owner. No source or instruction change required."
+    }
+  ],
+  "dynamic_wrapper_resolution": [
+    {
+      "symbol": "?DXUT_Dynamic_Direct3DCreate9@@YGPAUIDirect3D9@@I@Z",
+      "rva": 627456,
+      "targets": {
+        "?DXUT_EnsureD3DAPIs@@YA_NXZ": 269062624,
+        "_s_DynamicDirect3DCreate9": 269761560
+      }
+    },
+    {
+      "symbol": "?DXUT_Dynamic_D3DPERF_BeginEvent@@YGHKPBD@Z",
+      "rva": 627488,
+      "targets": {
+        "?DXUT_EnsureD3DAPIs@@YA_NXZ": 269062624,
+        "_s_DynamicD3DPERF_BeginEvent": 269761564
+      }
+    },
+    {
+      "symbol": "?DXUT_Dynamic_D3DPERF_EndEvent@@YGHXZ",
+      "rva": 627520,
+      "targets": {
+        "?DXUT_EnsureD3DAPIs@@YA_NXZ": 269062624,
+        "_s_DynamicD3DPERF_EndEvent": 269761568
+      }
+    },
+    {
+      "symbol": "?DXUT_Dynamic_D3DPERF_SetMarker@@YGXKPBD@Z",
+      "rva": 627552,
+      "targets": {
+        "?DXUT_EnsureD3DAPIs@@YA_NXZ": 269062624,
+        "_s_DynamicD3DPERF_SetMarker": 269761572
+      }
+    },
+    {
+      "symbol": "?DXUT_Dynamic_D3DPERF_SetRegion@@YGXKPBD@Z",
+      "rva": 627584,
+      "targets": {
+        "?DXUT_EnsureD3DAPIs@@YA_NXZ": 269062624,
+        "_s_DynamicD3DPERF_SetRegion": 269761576
+      }
+    },
+    {
+      "symbol": "?DXUT_Dynamic_D3DPERF_QueryRepeatFrame@@YGHXZ",
+      "rva": 627616,
+      "targets": {
+        "?DXUT_EnsureD3DAPIs@@YA_NXZ": 269062624,
+        "_s_DynamicD3DPERF_QueryRepeatFrame": 269761580
+      }
+    },
+    {
+      "symbol": "?DXUT_Dynamic_D3DPERF_SetOptions@@YGXK@Z",
+      "rva": 627648,
+      "targets": {
+        "?DXUT_EnsureD3DAPIs@@YA_NXZ": 269062624,
+        "_s_DynamicD3DPERF_SetOptions": 269761584
+      }
+    },
+    {
+      "symbol": "?DXUT_Dynamic_D3DPERF_GetStatus@@YGKXZ",
+      "rva": 627680,
+      "targets": {
+        "?DXUT_EnsureD3DAPIs@@YA_NXZ": 269062624,
+        "_s_DynamicD3DPERF_GetStatus": 269761588
+      }
+    }
+  ],
+  "verification": "1456 whole regions, all original/linked target and relocation checks,10 negative controls and existing ABI passed. Init553, loader282,8 wrappers,6 state setters and complete StringCopyWorker77 integrated. Nine pointer globals36 bytes and11 API/DLL strings checked. Actual COMCTL32 ordinal17, user32 SystemParametersInfoA and D3DX25 CheckVersion relay verified. Eight old pending remain excluded. No module loading, initialization or game execution."
+}

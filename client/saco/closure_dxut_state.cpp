@@ -5,6 +5,7 @@
 void DXUTCleanup3DEnvironment(bool);
 void DXUTDisplayErrorMessage(HRESULT);
 void DXUTAllowShortcutKeys(bool);
+typedef DECLSPEC_IMPORT UINT (WINAPI* LPTIMEBEGINPERIOD)(UINT);
 CRITICAL_SECTION g_cs;  
 bool g_bThreadSafe = true;
 
@@ -746,4 +747,77 @@ void DXUTParseCommandLine()
         DXUTOutputDebugString( "Unrecognized flag: %s", strFlag );
         strCmdLine += strlen(strFlag);
     }
+}
+HRESULT DXUTInit( bool bParseCommandLine, bool bHandleDefaultHotkeys, bool bShowMsgBoxOnError )
+{
+    GetDXUTState().SetDXUTInitCalled( true );
+
+    // Not always needed, but lets the app create GDI dialogs
+    InitCommonControls();
+
+    // Save the current sticky/toggle/filter key settings so DXUT can restore them later
+    STICKYKEYS sk = {sizeof(STICKYKEYS), 0};
+    SystemParametersInfo(SPI_GETSTICKYKEYS, sizeof(STICKYKEYS), &sk, 0);
+    GetDXUTState().SetStartupStickyKeys( sk );
+
+    TOGGLEKEYS tk = {sizeof(TOGGLEKEYS), 0};
+    SystemParametersInfo(SPI_GETTOGGLEKEYS, sizeof(TOGGLEKEYS), &tk, 0);
+    GetDXUTState().SetStartupToggleKeys( tk );
+
+    FILTERKEYS fk = {sizeof(FILTERKEYS), 0};
+    SystemParametersInfo(SPI_GETFILTERKEYS, sizeof(FILTERKEYS), &fk, 0);
+    GetDXUTState().SetStartupFilterKeys( fk );
+
+    // Increase the accuracy of Sleep() without needing to link to winmm.lib
+    TCHAR wszPath[MAX_PATH+1];
+    if( GetSystemDirectory( wszPath, MAX_PATH+1 ) )
+    {
+        StringCchCat( wszPath, MAX_PATH, "\\winmm.dll" );
+        HINSTANCE hInstWinMM = LoadLibrary( wszPath );
+        if( hInstWinMM ) 
+        {
+            LPTIMEBEGINPERIOD pTimeBeginPeriod = (LPTIMEBEGINPERIOD)GetProcAddress( hInstWinMM, "timeBeginPeriod" );
+            if( NULL != pTimeBeginPeriod )
+                pTimeBeginPeriod(1);
+
+            FreeLibrary(hInstWinMM);
+        }
+    }
+
+    GetDXUTState().SetShowMsgBoxOnError( bShowMsgBoxOnError );
+    GetDXUTState().SetHandleDefaultHotkeys( bHandleDefaultHotkeys );
+
+    if( bParseCommandLine )
+        DXUTParseCommandLine();
+
+    // Verify D3DX version
+    if( !D3DXCheckVersion( D3D_SDK_VERSION, D3DX_SDK_VERSION ) )
+    {
+        DXUTDisplayErrorMessage( DXUTERR_INCORRECTVERSION );
+        return DXUT_ERR( "D3DXCheckVersion", DXUTERR_INCORRECTVERSION );
+    }
+
+    // Create a Direct3D object if one has not already been created
+    IDirect3D9* pD3D = DXUTGetD3DObject();
+    if( pD3D == NULL )
+    {
+        // This may fail if DirectX 9 isn't installed
+        // This may fail if the DirectX headers are out of sync with the installed DirectX DLLs
+        pD3D = DXUT_Dynamic_Direct3DCreate9( D3D_SDK_VERSION );
+        GetDXUTState().SetD3D( pD3D );
+    }
+
+    if( pD3D == NULL )
+    {
+        // If still NULL, then something went wrong
+        DXUTDisplayErrorMessage( DXUTERR_NODIRECT3D );
+        return DXUT_ERR( "Direct3DCreate9", DXUTERR_NODIRECT3D );
+    }
+
+    // Reset the timer
+    DXUTGetGlobalTimer()->Reset();
+
+    GetDXUTState().SetDXUTInited( true );
+
+    return S_OK;
 }
