@@ -640,5 +640,439 @@
     "declarations": [
       "extern CGame *pGame;"
     ]
+  },
+  "closure_player": {
+    "source": "game/playerped.cpp",
+    "cls": "CPlayerPed",
+    "definitions": [
+      {
+        "name": "ResetPointers"
+      },
+      {
+        "name": "SetInitialState"
+      },
+      {
+        "name": "GetSpecialKey"
+      },
+      {
+        "name": "SetCurrentAim"
+      },
+      {
+        "name": "GetCurrentWeapon"
+      },
+      {
+        "name": "GetCurrentVehicleID"
+      },
+      {
+        "name": "HideMarker"
+      },
+      {
+        "name": "IsOnScreen"
+      },
+      {
+        "name": "SetImmunities"
+      },
+      {
+        "name": "GetHealth"
+      },
+      {
+        "name": "SetHealth"
+      },
+      {
+        "name": "GetArmour"
+      },
+      {
+        "name": "SetArmour"
+      },
+      {
+        "name": "GetStateFlags"
+      },
+      {
+        "name": "SetStateFlags"
+      },
+      {
+        "name": "IsDead"
+      },
+      {
+        "name": "GetActionTrigger"
+      },
+      {
+        "name": "SetActionTrigger"
+      },
+      {
+        "name": "IsInVehicle"
+      },
+      {
+        "name": "GetTargetRotation"
+      },
+      {
+        "name": "SetTargetRotation"
+      },
+      {
+        "name": "IsAPassenger"
+      },
+      {
+        "name": "GetGtaVehicle"
+      },
+      {
+        "name": "ClearAllWeapons"
+      },
+      {
+        "name": "SetArmedWeapon"
+      },
+      {
+        "name": "RemoveWeaponWhenEnteringVehicle"
+      },
+      {
+        "name": "GetCurrentWeaponSlot"
+      },
+      {
+        "name": "GetDistanceFromVehicle"
+      },
+      {
+        "name": "RemoveFromVehicleAndPutAt"
+      },
+      {
+        "name": "HandsUp"
+      },
+      {
+        "name": "HasHandsUp"
+      },
+      {
+        "name": "HoldItem"
+      },
+      {
+        "name": "IsJumping"
+      },
+      {
+        "name": "IsFighting"
+      },
+      {
+        "name": "IsFalling"
+      },
+      {
+        "name": "IsSwimming"
+      },
+      {
+        "name": "StartJetpack"
+      },
+      {
+        "name": "StopJetpack"
+      },
+      {
+        "name": "IsInJetpackMode"
+      },
+      {
+        "name": "HasGoggles"
+      },
+      {
+        "name": "FindWeaponSlot"
+      },
+      {
+        "name": "SetAnimationSet"
+      },
+      {
+        "name": "SetMoney"
+      },
+      {
+        "name": "ApplyAnimation"
+      },
+      {
+        "name": "IsPerformingAnimation"
+      },
+      {
+        "name": "GetAimZ"
+      },
+      {
+        "name": "SetAimZ"
+      },
+      {
+        "name": "GetGtaContactEntity"
+      },
+      {
+        "name": "GetGtaContactVehicle"
+      },
+      {
+        "name": "StartDancing"
+      },
+      {
+        "name": "StopDancing"
+      },
+      {
+        "name": "IsDancing"
+      },
+      {
+        "name": "ApplyCommandTask"
+      },
+      {
+        "name": "DestroyFollowPedTask"
+      },
+      {
+        "name": "ToggleCellphone"
+      },
+      {
+        "name": "GetFightingStyle"
+      },
+      {
+        "name": "SetFightingStyle"
+      },
+      {
+        "name": "ProcessVehicleHorn"
+      },
+      {
+        "name": "GetLoadedShopName"
+      },
+      {
+        "name": "LoadShoppingDataSubsection"
+      },
+      {
+        "name": "GetShopName"
+      },
+      {
+        "name": "SetShopName"
+      },
+      {
+        "name": "SetWeaponSkillLevel"
+      },
+      {
+        "name": "GetBonePosition"
+      },
+      {
+        "name": "GetTransformedBonePosition"
+      },
+      {
+        "name": "GiveWeapon"
+      },
+      {
+        "name": "SetAmmo"
+      },
+      {
+        "name": "IsOnGround"
+      },
+      {
+        "name": "SetWeaponModelIndex"
+      }
+    ],
+    "declarations": [
+      "#include <assert.h>",
+      "#define _ASSERT assert",
+      "#include \"game/keystuff.h\"",
+      "#include \"game/task.h\"",
+      "extern CGame *pGame;",
+      "extern CNetGame *pNetGame;",
+      "extern BYTE *pbyteCurrentPlayer;",
+      "extern char DanceStyleLibs[4][16];",
+      "extern char DanceIdleLoops[4][16];",
+      "extern DWORD dwExt4;",
+      "extern CHAR szShopName[32];"
+    ]
+  },
+  "closure_player_keys": {
+    "source": "game/keystuff.cpp",
+    "cls": null,
+    "definitions": [
+      {
+        "name": "GameGetInternalKeys"
+      },
+      {
+        "name": "GameGetPlayerKeys"
+      }
+    ],
+    "declarations": [
+      "#include \"game/keystuff.h\"",
+      "extern GTA_CONTROLSET *pGcsInternalKeys;",
+      "extern GTA_CONTROLSET GcsRemotePlayerKeys[PLAYER_PED_SLOTS];"
+    ]
+  },
+  "closure_player_skills": {
+    "source": "game/aimstuff.cpp",
+    "cls": null,
+    "definitions": [
+      {
+        "name": "GameStoreRemotePlayerAim"
+      },
+      {
+        "name": "GameSetPlayerWeaponSkillLevel"
+      },
+      {
+        "name": "GameSetLocalPlayerWeaponSkillLevel"
+      },
+      {
+        "name": "GameStoreLocalPlayerWeaponSkills"
+      },
+      {
+        "name": "GameSetLocalPlayerWeaponSkills"
+      },
+      {
+        "name": "GameSetRemotePlayerWeaponSkills"
+      }
+    ],
+    "declarations": [
+      "extern CAMERA_AIM caRemotePlayerAim[PLAYER_PED_SLOTS];",
+      "extern float *pfStats;",
+      "extern float fLocalWeaponSkill[11];",
+      "extern float fWeaponSkill[PLAYER_PED_SLOTS][11];"
+    ]
+  },
+  "closure_store_current_player": {
+    "source": "game/hooks.cpp",
+    "cls": null,
+    "definitions": [],
+    "storage": {
+      "source_declaration": "BYTE\t*pbyteCurrentPlayer = (BYTE *)0xB7CD74;",
+      "declaration": "BYTE\t*pbyteCurrentPlayer = (BYTE *)0xB7CD74;",
+      "symbol": "pbyteCurrentPlayer",
+      "size": 4
+    },
+    "storage_includes": [
+      "\"game/common.h\""
+    ]
+  },
+  "closure_store_dance_libs": {
+    "source": "game/playerped.cpp",
+    "cls": null,
+    "definitions": [],
+    "storage": {
+      "source_declaration": "char DanceStyleLibs[4][16] = {\"WOP\",\"GFUNK\",\"RUNNINGMAN\",\"STRIP\"};",
+      "declaration": "char DanceStyleLibs[4][16] = {\"WOP\",\"GFUNK\",\"RUNNINGMAN\",\"STRIP\"};",
+      "symbol": "DanceStyleLibs",
+      "size": 64
+    },
+    "storage_includes": [
+      "\"game/common.h\""
+    ]
+  },
+  "closure_store_dance_loops": {
+    "source": "game/playerped.cpp",
+    "cls": null,
+    "definitions": [],
+    "storage": {
+      "source_declaration": "char DanceIdleLoops[4][16] = {\"DANCE_LOOP\",\"DANCE_LOOP\",\"DANCE_LOOP\",\"STR_Loop_B\"};",
+      "declaration": "char DanceIdleLoops[4][16] = {\"DANCE_LOOP\",\"DANCE_LOOP\",\"DANCE_LOOP\",\"STR_Loop_B\"};",
+      "symbol": "DanceIdleLoops",
+      "size": 64
+    },
+    "storage_includes": [
+      "\"game/common.h\""
+    ]
+  },
+  "closure_store_ik_task": {
+    "source": "game/playerped.cpp",
+    "cls": null,
+    "definitions": [],
+    "storage": {
+      "source_declaration": "DWORD dwExt4;",
+      "declaration": "DWORD dwExt4;",
+      "symbol": "dwExt4",
+      "size": 4
+    },
+    "storage_includes": [
+      "\"game/common.h\""
+    ]
+  },
+  "closure_store_shop_name": {
+    "source": "game/playerped.cpp",
+    "cls": null,
+    "definitions": [],
+    "storage": {
+      "source_declaration": "CHAR szShopName[32];",
+      "declaration": "CHAR szShopName[32];",
+      "symbol": "szShopName",
+      "size": 32
+    },
+    "storage_includes": [
+      "\"game/common.h\""
+    ]
+  },
+  "closure_store_key_pointer": {
+    "source": "game/keystuff.cpp",
+    "cls": null,
+    "definitions": [],
+    "storage": {
+      "source_declaration": "GTA_CONTROLSET *pGcsInternalKeys = (GTA_CONTROLSET *)ADDR_KEYSTATES;",
+      "declaration": "GTA_CONTROLSET *pGcsInternalKeys = (GTA_CONTROLSET *)0xB73458;",
+      "symbol": "pGcsInternalKeys",
+      "size": 4
+    },
+    "declarations": [
+      "#include \"game/keystuff.h\""
+    ],
+    "storage_includes": [
+      "\"game/common.h\""
+    ]
+  },
+  "closure_store_remote_keys": {
+    "source": "game/keystuff.cpp",
+    "cls": null,
+    "definitions": [],
+    "storage": {
+      "source_declaration": "GTA_CONTROLSET GcsRemotePlayerKeys[PLAYER_PED_SLOTS];",
+      "declaration": "GTA_CONTROLSET GcsRemotePlayerKeys[PLAYER_PED_SLOTS];",
+      "symbol": "GcsRemotePlayerKeys",
+      "size": 64680
+    },
+    "declarations": [
+      "#include \"game/keystuff.h\""
+    ],
+    "storage_includes": [
+      "\"game/common.h\""
+    ]
+  },
+  "closure_store_remote_aim": {
+    "source": "game/aimstuff.cpp",
+    "cls": null,
+    "definitions": [],
+    "storage": {
+      "source_declaration": "CAMERA_AIM caRemotePlayerAim[PLAYER_PED_SLOTS];",
+      "declaration": "CAMERA_AIM caRemotePlayerAim[PLAYER_PED_SLOTS];",
+      "symbol": "caRemotePlayerAim",
+      "size": 10080
+    },
+    "storage_includes": [
+      "\"game/common.h\"",
+      "\"game/aimstuff.h\""
+    ]
+  },
+  "closure_store_stats_pointer": {
+    "source": "game/aimstuff.cpp",
+    "cls": null,
+    "definitions": [],
+    "storage": {
+      "source_declaration": "float * pfStats = (float*)0xB79380;",
+      "declaration": "float * pfStats = (float*)0xB79380;",
+      "symbol": "pfStats",
+      "size": 4
+    },
+    "storage_includes": [
+      "\"game/common.h\""
+    ]
+  },
+  "closure_store_local_skills": {
+    "source": "game/aimstuff.cpp",
+    "cls": null,
+    "definitions": [],
+    "storage": {
+      "source_declaration": "float fLocalWeaponSkill[11];",
+      "declaration": "float fLocalWeaponSkill[11];",
+      "symbol": "fLocalWeaponSkill",
+      "size": 44
+    },
+    "storage_includes": [
+      "\"game/common.h\""
+    ]
+  },
+  "closure_store_remote_skills": {
+    "source": "game/aimstuff.cpp",
+    "cls": null,
+    "definitions": [],
+    "storage": {
+      "source_declaration": "float fWeaponSkill[PLAYER_PED_SLOTS][11];",
+      "declaration": "float fWeaponSkill[PLAYER_PED_SLOTS][11];",
+      "symbol": "fWeaponSkill",
+      "size": 9240
+    },
+    "storage_includes": [
+      "\"game/common.h\""
+    ]
   }
 }

@@ -16,6 +16,9 @@ class CPlayerPed : public CEntity
 {
 public:
 
+void SetAmmo(BYTE byteWeapon, WORD wordAmmo);
+BOOL IsOnGround();
+void SetWeaponModelIndex(int iWeapon);
 	void ResetPointers();
 	void SetInitialState();
 

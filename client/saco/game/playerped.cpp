@@ -559,7 +559,7 @@ float CPlayerPed::GetTargetRotation()
 	MATRIX4X4 mat;
 	GetMatrix(&mat);
 
-	float fZAngle = atan2(-mat.up.X, mat.up.Y) * 180.0f / PI;
+	float fZAngle = atan2(-mat.up.X, mat.up.Y) * 180.0f / 3.14159265f; // R5 float PI precision
 	// Bound it to [0, 360)
 	if ( fZAngle < 0.0f )
 		fZAngle += 360.0f;
@@ -1482,3 +1482,45 @@ VECTOR* CPlayerPed::GetTransformedBonePosition(int iBone, VECTOR *vecOffset)
 }
 
 //-----------------------------------------------------------
+
+// Transferred from michael-fa-samp dc9eb80, client/game/playerped.cpp.
+// SetWeaponModelIndex retains its original symbolic native-call assembly.
+void CPlayerPed::SetAmmo(BYTE byteWeapon, WORD wordAmmo)
+{
+	if(m_pPed)
+	{
+		//WEAPON_SLOT_TYPE * WeaponSlot = GetCurrentWeaponSlot();
+		WEAPON_SLOT_TYPE * WeaponSlot = FindWeaponSlot((DWORD)byteWeapon);
+		if(!WeaponSlot) return;
+		WeaponSlot->dwAmmo = (DWORD)wordAmmo;
+		//WeaponSlot->dwAmmoInClip = 0;
+	}
+}
+
+BOOL CPlayerPed::IsOnGround()
+{
+	if(m_pPed) {
+		if(m_pPed->dwStateFlags & 3) {
+			return TRUE;
+		}
+	}
+	return FALSE;
+}
+
+void CPlayerPed::SetWeaponModelIndex(int iWeapon)
+{
+	DWORD dwWeaponInfo;
+
+	if(m_pPed) {
+		DWORD dwPed = (DWORD)m_pPed;
+		dwWeaponInfo = pGame->GetWeaponInfo(iWeapon,1);
+		
+		_asm mov ebx, dwWeaponInfo
+		_asm mov eax, [ebx+12]
+
+		_asm push eax
+		_asm mov ecx, dwPed
+		_asm mov edx, 0x5E3990
+		_asm call edx
+	}
+}

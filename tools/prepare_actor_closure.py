@@ -27,6 +27,9 @@ def prepare():
   if unit=='closure_filter':header+='extern CChatWindow *pChatWindow;\nextern DWORD dwScmOpcodeDebug;\nextern WORD wVehicleComponentDebug;\nint dword_10125A58=0;\n'
   if unit=='closure_util':header+='#include <sys/stat.h>\n#undef PI\n#define PI 3.14159265f\n'
   record=records.get(unit,{})
+  if 'storage_includes' in record:
+   if 'storage' not in record:raise ValueError('minimal storage headers require a storage record')
+   header='// Complete source storage from '+file+'; isolated from unrelated header objects.\n'+''.join('#include '+h+'\n' for h in record['storage_includes'])
   header+='\n'.join(record.get('declarations',[]))+'\n' if record.get('declarations') else ''
   if 'storage' in record:
    storage=record['storage']

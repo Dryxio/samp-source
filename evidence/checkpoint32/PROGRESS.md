@@ -318,3 +318,9 @@ The 0.2.5 evaluation remains historical object-level evidence; the model-camera 
 ## Vehicle state and 0.2.5 turret transfer
 
 Vehicle acceptance adds 903 unique code bytes (24 new vehicle functions), for a union of 36,598 / 930,756 (3.93207%). SetTankRot/GetTankRotX/GetTankRotY transfer directly from 0.2.5 and contribute 49 bytes. Source 0.2.5 contribution accepted so far: 266 bytes including SetModelIndex. The already covered 8-byte Entity GetModelIndex is included as a linked dependency without being counted twice. Script command identities distinguish the otherwise identical HasSunk/IsWrecked wrappers. Full gate, six mutation controls and existing linked ABI exercise passed. Seven pending regions remain excluded.
+
+## Player methods, shared skills and complete state storage
+
+Player acceptance adds 4,647 unique code bytes (4,887 batch code bytes before removing previously certified overlap). Union: 41,245 / 930,756 (4.43134%). The linked superset includes 69 selected player methods plus eight key/aim/skill helpers. Three direct 0.2.5 transfers add SetAmmo36, IsOnGround28 and SetWeaponModelIndex62 bytes, bringing direct 0.2.5 accepted contributions to392 bytes. Seven older pending regions remain excluded.
+
+The initial linked draft exposed a rotation constant precision mismatch and unrelated RakNet initialized globals emitted by broad main.h inclusion in storage-only units. Minimal source-storage headers preserve whole COFF sections without slicing; the R5 float PI precision resolves the rotation constant. Failed cp32-player-linked and both source snapshots are preserved. Complete remote-key/aim/skill arrays and small scalar/string storage are independently bound at original and actual linked addresses. Strict gate, six mutation controls and existing capsule ABI checks passed. No duplicate build or extra execution tests were added.
