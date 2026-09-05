@@ -92,8 +92,13 @@ def draft(run, extra_seeds=None):
             kind='absolute-fs' if name=='__except_list' else 'import' if name.startswith('__imp_') else 'crt'
             record=dict(kind=kind,reference_va=address)
             if kind=='crt':
-                f=hints.get(address-ref.base);need(f is not None and len(f['chunks'])==1,'unknown CRT entry boundary '+name)
-                record.update(size=f['chunks'][0]['size'],sha256=f['chunks'][0]['sha256'])
+                f=hints.get(address-ref.base);need(f is not None,'unknown CRT entry boundary '+name)
+                if len(f['chunks'])==1:
+                    chunk=f['chunks'][0];need(chunk['rva']==address-ref.base,'CRT entry differs')
+                    record.update(size=chunk['size'],sha256=chunk['sha256'])
+                else:
+                    need(any(c['rva']==address-ref.base for c in f['chunks']),'CRT entry is not a complete chunk')
+                    record['chunks']=f['chunks']
             externals[name]=record
     return dict(status='DRAFT_REQUIRES_REVIEW',reference_sha256=sha(ref.data),run=run,regions=regions,pending=pending,externals=externals,weak_aliases=aliases)
 

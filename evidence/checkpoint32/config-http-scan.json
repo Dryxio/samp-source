@@ -1,0 +1,612 @@
+{
+  "status": "DISCOVERY_ONLY_NOT_ACCEPTED",
+  "run": "cp32-config-http-scan",
+  "reference_sha256": "b72b5dbe725f81864ca3f78bc7063bda56cc05fc7188af822fa7a754432553a2",
+  "rows": [
+    {
+      "unit": "config",
+      "symbol": "??1CConfig@@QAE@XZ",
+      "size": 56,
+      "object_sha256": "638288f04cb906ef4b6ab41428f9ccbf794fb3eb1ff5d5cc1fbcbeffaa66b7fd",
+      "candidates": [
+        {
+          "rva": 416768,
+          "inferred_targets": {
+            "_free": 269249085
+          }
+        }
+      ]
+    },
+    {
+      "unit": "config",
+      "symbol": "?RecalcSize@CConfig@@QAEXXZ",
+      "size": 80,
+      "object_sha256": "638288f04cb906ef4b6ab41428f9ccbf794fb3eb1ff5d5cc1fbcbeffaa66b7fd",
+      "candidates": [
+        {
+          "rva": 416832,
+          "inferred_targets": {}
+        }
+      ]
+    },
+    {
+      "unit": "config",
+      "symbol": "?FindVariableIndex@CConfig@@QAEHPAD@Z",
+      "size": 149,
+      "object_sha256": "638288f04cb906ef4b6ab41428f9ccbf794fb3eb1ff5d5cc1fbcbeffaa66b7fd",
+      "candidates": [
+        {
+          "rva": 416912,
+          "inferred_targets": {
+            "_strlwr": 269259336
+          }
+        }
+      ]
+    },
+    {
+      "unit": "config",
+      "symbol": "?IsVariableExist@CConfig@@QAE_NPAD@Z",
+      "size": 18,
+      "object_sha256": "638288f04cb906ef4b6ab41428f9ccbf794fb3eb1ff5d5cc1fbcbeffaa66b7fd",
+      "candidates": [
+        {
+          "rva": 417072,
+          "inferred_targets": {
+            "?FindVariableIndex@CConfig@@QAEHPAD@Z": 268852368
+          }
+        }
+      ]
+    },
+    {
+      "unit": "config",
+      "symbol": "?AddVariable@CConfig@@QAEHPAD@Z",
+      "size": 190,
+      "object_sha256": "638288f04cb906ef4b6ab41428f9ccbf794fb3eb1ff5d5cc1fbcbeffaa66b7fd",
+      "candidates": [
+        {
+          "rva": 417104,
+          "inferred_targets": {
+            "_strlwr": 269259336,
+            "?RecalcSize@CConfig@@QAEXXZ": 268852288
+          }
+        }
+      ]
+    },
+    {
+      "unit": "config",
+      "symbol": "?GetIntVariable@CConfig@@QAEHPAD@Z",
+      "size": 44,
+      "object_sha256": "638288f04cb906ef4b6ab41428f9ccbf794fb3eb1ff5d5cc1fbcbeffaa66b7fd",
+      "candidates": [
+        {
+          "rva": 417296,
+          "inferred_targets": {
+            "?FindVariableIndex@CConfig@@QAEHPAD@Z": 268852368
+          }
+        }
+      ]
+    },
+    {
+      "unit": "config",
+      "symbol": "?GetStringVariable@CConfig@@QAEPADPAD@Z",
+      "size": 44,
+      "object_sha256": "638288f04cb906ef4b6ab41428f9ccbf794fb3eb1ff5d5cc1fbcbeffaa66b7fd",
+      "candidates": [
+        {
+          "rva": 417344,
+          "inferred_targets": {
+            "?FindVariableIndex@CConfig@@QAEHPAD@Z": 268852368
+          }
+        }
+      ]
+    },
+    {
+      "unit": "config",
+      "symbol": "?GetFloatVariable@CConfig@@QAEMPAD@Z",
+      "size": 48,
+      "object_sha256": "638288f04cb906ef4b6ab41428f9ccbf794fb3eb1ff5d5cc1fbcbeffaa66b7fd",
+      "candidates": [
+        {
+          "rva": 417392,
+          "inferred_targets": {
+            "?FindVariableIndex@CConfig@@QAEHPAD@Z": 268852368,
+            "__real@00000000": 269375808
+          }
+        }
+      ]
+    },
+    {
+      "unit": "config",
+      "symbol": "?RemoveVariable@CConfig@@QAEHPAD@Z",
+      "size": 92,
+      "object_sha256": "638288f04cb906ef4b6ab41428f9ccbf794fb3eb1ff5d5cc1fbcbeffaa66b7fd",
+      "candidates": [
+        {
+          "rva": 417440,
+          "inferred_targets": {
+            "?FindVariableIndex@CConfig@@QAEHPAD@Z": 268852368,
+            "_free": 269249085,
+            "?RecalcSize@CConfig@@QAEXXZ": 268852288
+          }
+        }
+      ]
+    },
+    {
+      "unit": "config",
+      "symbol": "?GetVariableType@CConfig@@QAE?AW4CONFIG_VARTYPE@@PAD@Z",
+      "size": 34,
+      "object_sha256": "638288f04cb906ef4b6ab41428f9ccbf794fb3eb1ff5d5cc1fbcbeffaa66b7fd",
+      "candidates": [
+        {
+          "rva": 417536,
+          "inferred_targets": {
+            "?FindVariableIndex@CConfig@@QAEHPAD@Z": 268852368
+          }
+        }
+      ]
+    },
+    {
+      "unit": "config",
+      "symbol": "?GetVariableAtIndex@CConfig@@QAEPAUConfigVariable_s@@H@Z",
+      "size": 39,
+      "object_sha256": "638288f04cb906ef4b6ab41428f9ccbf794fb3eb1ff5d5cc1fbcbeffaa66b7fd",
+      "candidates": [
+        {
+          "rva": 417584,
+          "inferred_targets": {}
+        }
+      ]
+    },
+    {
+      "unit": "config",
+      "symbol": "?DetermineDataType@CConfig@@QAE?AW4CONFIG_VARTYPE@@PAD@Z",
+      "size": 102,
+      "object_sha256": "638288f04cb906ef4b6ab41428f9ccbf794fb3eb1ff5d5cc1fbcbeffaa66b7fd",
+      "candidates": [
+        {
+          "rva": 417632,
+          "inferred_targets": {
+            "_strchr": 269249504
+          }
+        }
+      ]
+    },
+    {
+      "unit": "config",
+      "symbol": "?WriteFile@CConfig@@QAEHXZ",
+      "size": 163,
+      "object_sha256": "638288f04cb906ef4b6ab41428f9ccbf794fb3eb1ff5d5cc1fbcbeffaa66b7fd",
+      "candidates": [
+        {
+          "rva": 417744,
+          "inferred_targets": {
+            "??_C@_01NOFIACDB@w?$AA@": 269392796,
+            "_fopen": 269254473,
+            "??_C@_06KEIDFPG@?$CFs?$DN?$CFf?6?$AA@": 269392788,
+            "_fprintf": 269259612,
+            "??_C@_08MBBCAPGD@?$CFs?$DN?$CC?$CFs?$CC?6?$AA@": 269392776,
+            "??_C@_06JMMOBJI@?$CFs?$DN?$CFd?6?$AA@": 269392768,
+            "_fclose": 269254232
+          }
+        }
+      ]
+    },
+    {
+      "unit": "config",
+      "symbol": "?SetIntVariable@CConfig@@QAEHPADHH@Z",
+      "size": 89,
+      "object_sha256": "638288f04cb906ef4b6ab41428f9ccbf794fb3eb1ff5d5cc1fbcbeffaa66b7fd",
+      "candidates": [
+        {
+          "rva": 417920,
+          "inferred_targets": {
+            "?FindVariableIndex@CConfig@@QAEHPAD@Z": 268852368,
+            "?AddVariable@CConfig@@QAEHPAD@Z": 268852560,
+            "?WriteFile@CConfig@@QAEHXZ": 268853200
+          }
+        }
+      ]
+    },
+    {
+      "unit": "config",
+      "symbol": "?SetStringVariable@CConfig@@QAEHPAD0H@Z",
+      "size": 155,
+      "object_sha256": "638288f04cb906ef4b6ab41428f9ccbf794fb3eb1ff5d5cc1fbcbeffaa66b7fd",
+      "candidates": [
+        {
+          "rva": 418016,
+          "inferred_targets": {
+            "?FindVariableIndex@CConfig@@QAEHPAD@Z": 268852368,
+            "?AddVariable@CConfig@@QAEHPAD@Z": 268852560,
+            "_free": 269249085,
+            "_calloc": 269248898,
+            "?WriteFile@CConfig@@QAEHXZ": 268853200
+          }
+        }
+      ]
+    },
+    {
+      "unit": "config",
+      "symbol": "?SetFloatVariable@CConfig@@QAEHPADMH@Z",
+      "size": 95,
+      "object_sha256": "638288f04cb906ef4b6ab41428f9ccbf794fb3eb1ff5d5cc1fbcbeffaa66b7fd",
+      "candidates": [
+        {
+          "rva": 418176,
+          "inferred_targets": {
+            "?FindVariableIndex@CConfig@@QAEHPAD@Z": 268852368,
+            "?AddVariable@CConfig@@QAEHPAD@Z": 268852560,
+            "?WriteFile@CConfig@@QAEHXZ": 268853200
+          }
+        }
+      ]
+    },
+    {
+      "unit": "config",
+      "symbol": "?AddConfigEntry@CConfig@@QAEXPAD0@Z",
+      "size": 140,
+      "object_sha256": "638288f04cb906ef4b6ab41428f9ccbf794fb3eb1ff5d5cc1fbcbeffaa66b7fd",
+      "candidates": [
+        {
+          "rva": 418272,
+          "inferred_targets": {
+            "?DetermineDataType@CConfig@@QAE?AW4CONFIG_VARTYPE@@PAD@Z": 268853088,
+            "_atof": 269257962,
+            "?SetFloatVariable@CConfig@@QAEHPADMH@Z": 268853632,
+            "_strncpy": 269252592,
+            "?SetStringVariable@CConfig@@QAEHPAD0H@Z": 268853472,
+            "_atoi": 269249830,
+            "?SetIntVariable@CConfig@@QAEHPADHH@Z": 268853376
+          }
+        }
+      ]
+    },
+    {
+      "unit": "config",
+      "symbol": "?ReadFile@CConfig@@QAEHXZ",
+      "size": 354,
+      "object_sha256": "638288f04cb906ef4b6ab41428f9ccbf794fb3eb1ff5d5cc1fbcbeffaa66b7fd",
+      "candidates": [
+        {
+          "rva": 418416,
+          "inferred_targets": {
+            "??_C@_01KDCPPGHE@r?$AA@": 269392800,
+            "_fopen": 269254473,
+            "_fgets": 269259949,
+            "_toupper": 269259915,
+            "?AddConfigEntry@CConfig@@QAEXPAD0@Z": 268853728,
+            "_fclose": 269254232
+          }
+        }
+      ]
+    },
+    {
+      "unit": "config",
+      "symbol": "??0CConfig@@QAE@PAD@Z",
+      "size": 122,
+      "object_sha256": "638288f04cb906ef4b6ab41428f9ccbf794fb3eb1ff5d5cc1fbcbeffaa66b7fd",
+      "candidates": [
+        {
+          "rva": 418784,
+          "inferred_targets": {
+            "?ReadFile@CConfig@@QAEHXZ": 268853872
+          }
+        }
+      ]
+    },
+    {
+      "unit": "httpclient",
+      "symbol": "??0CHttpClient@@QAE@XZ",
+      "size": 88,
+      "object_sha256": "b8329c718412e01b69f7b62970eb403f06a0208a9e8760e436a3c8ba95b92fec",
+      "candidates": [
+        {
+          "rva": 8928,
+          "inferred_targets": {
+            "_WSAStartup@8": 269246822
+          }
+        }
+      ]
+    },
+    {
+      "unit": "httpclient",
+      "symbol": "??1CHttpClient@@QAE@XZ",
+      "size": 111,
+      "object_sha256": "b8329c718412e01b69f7b62970eb403f06a0208a9e8760e436a3c8ba95b92fec",
+      "candidates": [
+        {
+          "rva": 9024,
+          "inferred_targets": {
+            "_free": 269249085,
+            "_WSACleanup@0": 269246828
+          }
+        }
+      ]
+    },
+    {
+      "unit": "httpclient",
+      "symbol": "?GetHeaderValue@CHttpClient@@QAE_NPAD0H@Z",
+      "size": 134,
+      "object_sha256": "b8329c718412e01b69f7b62970eb403f06a0208a9e8760e436a3c8ba95b92fec",
+      "candidates": [
+        {
+          "rva": 9136,
+          "inferred_targets": {
+            "?Util_stristr@@YAPADPBD0@Z": 268531824,
+            "_strchr": 269249504
+          }
+        }
+      ]
+    },
+    {
+      "unit": "httpclient",
+      "symbol": "?CloseConnection@CHttpClient@@AAEXXZ",
+      "size": 9,
+      "object_sha256": "b8329c718412e01b69f7b62970eb403f06a0208a9e8760e436a3c8ba95b92fec",
+      "candidates": [
+        {
+          "rva": 9280,
+          "inferred_targets": {
+            "_closesocket@4": 269246834
+          }
+        },
+        {
+          "rva": 415904,
+          "inferred_targets": {
+            "_closesocket@4": 268851072
+          }
+        }
+      ]
+    },
+    {
+      "unit": "httpclient",
+      "symbol": "?Send@CHttpClient@@AAE_NPAD@Z",
+      "size": 62,
+      "object_sha256": "b8329c718412e01b69f7b62970eb403f06a0208a9e8760e436a3c8ba95b92fec",
+      "candidates": [
+        {
+          "rva": 9296,
+          "inferred_targets": {
+            "_send@16": 269246840
+          }
+        }
+      ]
+    },
+    {
+      "unit": "httpclient",
+      "symbol": "?Recv@CHttpClient@@AAEHPADH@Z",
+      "size": 23,
+      "object_sha256": "b8329c718412e01b69f7b62970eb403f06a0208a9e8760e436a3c8ba95b92fec",
+      "candidates": [
+        {
+          "rva": 9360,
+          "inferred_targets": {
+            "_recv@16": 269246846
+          }
+        }
+      ]
+    },
+    {
+      "unit": "httpclient",
+      "symbol": "?InitRequest@CHttpClient@@AAEXHPAD00@Z",
+      "size": 453,
+      "object_sha256": "b8329c718412e01b69f7b62970eb403f06a0208a9e8760e436a3c8ba95b92fec",
+      "candidates": [
+        {
+          "rva": 9392,
+          "inferred_targets": {
+            "_malloc": 269249468,
+            "_strchr": 269249504,
+            "??_C@_01KMDKNFGN@?1?$AA@": 269375012,
+            "_atoi": 269249830,
+            "_free": 269249085
+          }
+        }
+      ]
+    },
+    {
+      "unit": "httpclient",
+      "symbol": "?HandleEntity@CHttpClient@@AAEXXZ",
+      "size": 774,
+      "object_sha256": "b8329c718412e01b69f7b62970eb403f06a0208a9e8760e436a3c8ba95b92fec",
+      "candidates": []
+    },
+    {
+      "unit": "httpclient",
+      "symbol": "?Connect@CHttpClient@@AAE_NPADH@Z",
+      "size": 191,
+      "object_sha256": "b8329c718412e01b69f7b62970eb403f06a0208a9e8760e436a3c8ba95b92fec",
+      "candidates": []
+    },
+    {
+      "unit": "httpclient",
+      "symbol": "?Process@CHttpClient@@AAEXXZ",
+      "size": 448,
+      "object_sha256": "b8329c718412e01b69f7b62970eb403f06a0208a9e8760e436a3c8ba95b92fec",
+      "candidates": []
+    },
+    {
+      "unit": "httpclient",
+      "symbol": "?ProcessURL@CHttpClient@@QAEHHPAD00@Z",
+      "size": 60,
+      "object_sha256": "b8329c718412e01b69f7b62970eb403f06a0208a9e8760e436a3c8ba95b92fec",
+      "candidates": [
+        {
+          "rva": 11328,
+          "inferred_targets": {
+            "??_C@_0BM@KDLOJGLP@CHttpClient?3?3ProcessURL?5?$CFs?6?$AA@": 269375412,
+            "_printf": 269251548,
+            "?InitRequest@CHttpClient@@AAEXHPAD00@Z": 268444848,
+            "?Process@CHttpClient@@AAEXXZ": 268446304
+          }
+        }
+      ]
+    },
+    {
+      "unit": "runutil",
+      "symbol": "?Util_UrlUnencode@@YAXPAD@Z",
+      "size": 113,
+      "object_sha256": "8f127fe53bfb003658b1d2f0bc05e9ce4724ae11b8ad906fb1a8e1acaa055c6c",
+      "candidates": [
+        {
+          "rva": 96208,
+          "inferred_targets": {}
+        }
+      ]
+    },
+    {
+      "unit": "runutil",
+      "symbol": "?Util_toupper@@YADD@Z",
+      "size": 23,
+      "object_sha256": "8f127fe53bfb003658b1d2f0bc05e9ce4724ae11b8ad906fb1a8e1acaa055c6c",
+      "candidates": [
+        {
+          "rva": 96336,
+          "inferred_targets": {}
+        }
+      ]
+    },
+    {
+      "unit": "runutil",
+      "symbol": "?Util_stristr@@YAPADPBD0@Z",
+      "size": 138,
+      "object_sha256": "8f127fe53bfb003658b1d2f0bc05e9ce4724ae11b8ad906fb1a8e1acaa055c6c",
+      "candidates": []
+    },
+    {
+      "unit": "runutil",
+      "symbol": "?Util_strupr@@YAXPAD@Z",
+      "size": 40,
+      "object_sha256": "8f127fe53bfb003658b1d2f0bc05e9ce4724ae11b8ad906fb1a8e1acaa055c6c",
+      "candidates": []
+    },
+    {
+      "unit": "runutil",
+      "symbol": "?Util_wildcmp@@YAHPAD0@Z",
+      "size": 153,
+      "object_sha256": "8f127fe53bfb003658b1d2f0bc05e9ce4724ae11b8ad906fb1a8e1acaa055c6c",
+      "candidates": [
+        {
+          "rva": 96608,
+          "inferred_targets": {}
+        }
+      ]
+    },
+    {
+      "unit": "runutil",
+      "symbol": "?Util_strnicmp@@YAHPBD0I@Z",
+      "size": 104,
+      "object_sha256": "8f127fe53bfb003658b1d2f0bc05e9ce4724ae11b8ad906fb1a8e1acaa055c6c",
+      "candidates": []
+    },
+    {
+      "unit": "runutil",
+      "symbol": "?Util_strrev@@YAPADPAD@Z",
+      "size": 79,
+      "object_sha256": "8f127fe53bfb003658b1d2f0bc05e9ce4724ae11b8ad906fb1a8e1acaa055c6c",
+      "candidates": [
+        {
+          "rva": 96928,
+          "inferred_targets": {}
+        }
+      ]
+    },
+    {
+      "unit": "runutil",
+      "symbol": "?Util_itoa@@YAPADHPADH@Z",
+      "size": 145,
+      "object_sha256": "8f127fe53bfb003658b1d2f0bc05e9ce4724ae11b8ad906fb1a8e1acaa055c6c",
+      "candidates": [
+        {
+          "rva": 97008,
+          "inferred_targets": {}
+        }
+      ]
+    },
+    {
+      "unit": "runutil",
+      "symbol": "?Util_Base64Encode@@YAXPAD0@Z",
+      "size": 161,
+      "object_sha256": "8f127fe53bfb003658b1d2f0bc05e9ce4724ae11b8ad906fb1a8e1acaa055c6c",
+      "candidates": [
+        {
+          "rva": 97168,
+          "inferred_targets": {
+            "?Base64Encoding@@3PADA": 269477068
+          }
+        }
+      ]
+    },
+    {
+      "unit": "runutil",
+      "symbol": "?K_EncodeString@@YAXPAD0@Z",
+      "size": 57,
+      "object_sha256": "8f127fe53bfb003658b1d2f0bc05e9ce4724ae11b8ad906fb1a8e1acaa055c6c",
+      "candidates": [
+        {
+          "rva": 645632,
+          "inferred_targets": {}
+        }
+      ]
+    },
+    {
+      "unit": "runutil",
+      "symbol": "?K_DecodeString@@YAPADPAE@Z",
+      "size": 49,
+      "object_sha256": "8f127fe53bfb003658b1d2f0bc05e9ce4724ae11b8ad906fb1a8e1acaa055c6c",
+      "candidates": [
+        {
+          "rva": 645696,
+          "inferred_targets": {}
+        }
+      ]
+    },
+    {
+      "unit": "net_labelpool",
+      "symbol": "??0CLabelPool@@QAE@XZ",
+      "size": 60,
+      "object_sha256": "518041a1d271cf12cfb788fee9511ae0b474ece622509c82320f15bc3bb9c6fc",
+      "candidates": [
+        {
+          "rva": 4496,
+          "inferred_targets": {}
+        }
+      ]
+    },
+    {
+      "unit": "net_labelpool",
+      "symbol": "?Delete@CLabelPool@@QAEHG@Z",
+      "size": 109,
+      "object_sha256": "518041a1d271cf12cfb788fee9511ae0b474ece622509c82320f15bc3bb9c6fc",
+      "candidates": [
+        {
+          "rva": 4832,
+          "inferred_targets": {
+            "_free": 269249085
+          }
+        }
+      ]
+    },
+    {
+      "unit": "net_labelpool",
+      "symbol": "??1CLabelPool@@QAE@XZ",
+      "size": 44,
+      "object_sha256": "518041a1d271cf12cfb788fee9511ae0b474ece622509c82320f15bc3bb9c6fc",
+      "candidates": [
+        {
+          "rva": 5600,
+          "inferred_targets": {
+            "?Delete@CLabelPool@@QAEHG@Z": 268440288
+          }
+        }
+      ]
+    }
+  ],
+  "scope": "Candidate scan of existing R5 base implementations; config/runutil/label selections subsequently accepted separately, HTTP remains candidates only.",
+  "http_next_actions": [
+    "Identify each Winsock import and pin its import library before integrating HTTP.",
+    "Disambiguate CloseConnection at2440 using its actual callers; identical658A0 implementation is not a second accepted method.",
+    "HandleEntity774, Connect191 and Process448 failed full function discovery; preserve and inspect full R5 bodies without counting them.",
+    "GetHeaderValue depends on Util_stristr, which did not match in this scan; implement and explicitly exclude any unmatched provider."
+  ]
+}

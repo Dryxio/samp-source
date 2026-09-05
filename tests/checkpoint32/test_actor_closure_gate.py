@@ -26,6 +26,14 @@ class ClosureGateTests(unittest.TestCase):
     def test_missing_pe_relocation(self):
         g=Gate(fresh=False);r=next(r for r in g.regions if r['anchor']=='??_7CActorPed@@6B@');g.reference.relocations.remove(r['rva'])
         with self.assertRaisesRegex(ValueError,'PE relocation set'):g.verify()
+    def test_complete_crt_secondary_chunk(self):
+        g=Gate(fresh=False)
+        entry=next((e for e in g.contract['externals'].values() if len(e.get('chunks',[]))>1),None)
+        if entry is None:self.skipTest('No multi-chunk CRT dependency in this historical contract')
+        chunk=entry['chunks'][1];at=chunk['rva']+chunk['size']-1
+        sec=next(s for s in g.reference.sections if s['rva']<=at<s['rva']+s['size'])
+        data=bytearray(sec['bytes']);data[at-sec['rva']]^=1;sec['bytes']=bytes(data)
+        with self.assertRaisesRegex(ValueError,'changed CRT reference chunk'):g.verify()
     def test_nonzero_global(self):
         g=Gate(fresh=False);r=next(r for r in g.regions if r['anchor']=='?pGame@@3PAVCGame@@A');at=r['linked_va']-g.linked.base
         sec=next(s for s in g.linked.sections if s['rva']<=at<s['rva']+max(s['virtual_size'],s['size']))

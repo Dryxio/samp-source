@@ -138,7 +138,15 @@ class Gate:
             need(import_slots(self.linked).get(actual)==expected,'wrong linked import')
         else:
             need(e['kind']=='crt','unsupported external kind')
-            need(sha(self.reference.read(e['reference_va']-self.reference.base,e['size']))==e['sha256'],'changed CRT reference entry')
+            if 'chunks' in e:
+                if not hasattr(self,'crt_inventory'):
+                    self.crt_inventory={f['rva']:f for f in read_json(ROOT/'config/checkpoint31/inventory.json')['functions']}
+                original=self.crt_inventory.get(e['reference_va']-self.reference.base)
+                need(original is not None and e['chunks']==original['chunks'],'incomplete CRT reference chunks')
+                for chunk in e['chunks']:
+                    need(sha(self.reference.read(chunk['rva'],chunk['size']))==chunk['sha256'],'changed CRT reference chunk')
+            else:
+                need(sha(self.reference.read(e['reference_va']-self.reference.base,e['size']))==e['sha256'],'changed CRT reference entry')
             need(any('LIBCMT:' in owner.upper() or 'LIBCPMT:' in owner.upper() for _,owner in self.maps[name]),'CRT symbol has a non-vendor provider')
         return actual if linked else e['reference_va']
 
