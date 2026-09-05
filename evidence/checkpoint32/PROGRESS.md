@@ -1133,3 +1133,16 @@ Latestaccepted run cp32-pickup-model-linked;Ob1 cp32-pickup-model-ob1,Ob2 cp32-g
 Nexttrial cp32-parallel-rpc-model-trial1: eval_pickup_rpc.cpp three181/160/159exact F080/F140/F1E0 (500 principalbytes). Needsfullexceptiontable/providerclosure; agent2 nowresearchingnextRPCfamily. SourcefullviewscloneCPickupPoolCreate exactlysameclassasaccepted, includes main, netgameviewpools3DE->pool8 pointeractual.
 
 Modeltrial1: IsSupportedCustomModelInfo58 exactB44E0,CloneCustomModelInfo91 exactA7AD0,LoadCustomModelTexture100 exactA7B60;setterB4660/29nonmatch. Activeevalsources eval_custom_model_kind/clone/texture/texture_slot.cpp untrackedpreserve. Agent1diagnosticsetter andactualcalloc/fullstores; nextlargerC770281 proposaldependsA7C30 stillunimplemented. Noextra modelcreditbeforeclosure. Agentproposalsisolated inbuild/agent-textdraw; userauthorized2agents only, integratorsoleVM/sourcewriter. Goalactive.
+
+
+## Pickup RPC/model clone lot712 accepted
+
+Coverage176103/930756=18.920426%,+712unique (RPC500 +modelhelpers149 +EH63). Direct025credit500,total3320.2129regions,10negativecontrols and actorABI PASS,8oldpendingunchanged. FullthreeEHmaps36each included. Nativevtableclassifier comparesconstants only,no vtablecontents/nativeclass reconstruction claimed. Clonecopies32bytes asactualR5,existingcallocC6982 reviewed/excludedCRT.
+
+OriginalRPCconstructoridentity corrected: source025unsignedchar*cast selected1F7C0,but R5callschar*overload1F840; bothalreadyimplemented separately. Removedcast onPCHARData in activeclosure_pickup_rpc.cpp. Firstlink cp32-pickup-rpc-linked draftfailedproviderplacement; preserved. Newcorrectlinked2 fullgatepasses, no dualmapping/masks.
+
+Currentaccepted cp32-pickup-rpc-linked2;Ob1 cp32-pickup-rpc-ob1b,Ob2 cp32-gui-overwrite-ob2; units build/pickup-rpc-units.txt; launcher build/run_pickup_rpc.ps1. Contract/seeds/acceptance/integration pickup-rpc; review build/review_pickup_rpc.py. Allrootprocessesterminal,no push/deployment. Throughputbaseline173141 at20:11:21Z,total2962new since3agentstart,exactrateinintegration.
+
+Nextcp32-rpc-game-model-trial1:6RPCgame exactprincipal1117: CameraPos20219AA0,LookAt24219B70,Money1471A500,Gravity1471ACD0,Weather168F370,TimeEx211F420. Money/Gravity identicalbodyshape mustreviewactualGivePlayerMoney vsgravityproviders; no ambiguouscredit. Sourceclient/saco/eval_rpc_game.cpp useschar*constructorfix already. Agent2identityaudit underway.
+
+SetterC++ trials2and3bothfailed; latest cp32-rpc-game-model-trial1/eval_custom_model_texture_slot3.obj,agent1diagnosing. ActualLoadCustomModelTexture100 A7B60 exacttrial1 butsetterB4660missing =>excluded. Sourceviewkind58andclone91nowaccepted; custommodelpathloader281proposalandInstallCustomModelA7C30remainunimplemented. Preservealluntrackedevals andisolatedagentsources. Fullgoalactive.
