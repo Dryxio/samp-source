@@ -1,0 +1,22 @@
+{
+  "status": "FAILED_INITIAL_COMDAT_THEN_ACCEPTED_CORRECTION",
+  "initial": {
+    "run": "cp32-death-window-linked",
+    "source_comdat_size": 750,
+    "result": "FULL_BYTES_DIFFER",
+    "object_sha256": "e092e4e8f2c95dfae7f307844e40053df2e6bf07499529be385aafddca287a28",
+    "source_sha256": "5d1955771b53b96aeb124be855de1d2f2ffd6a70fbc209138e052024011e8374"
+  },
+  "corrected": {
+    "run": "cp32-death-window-refined-linked",
+    "source_comdat_size": 754,
+    "reference_code_bytes": 374,
+    "jump_table_entries": 44,
+    "selector_bytes": 202,
+    "object_sha256": "d57c6b14592a1039babcfb783f7a5b4648cfa36fac3a55b5007c2836d6fda8cf",
+    "source_sha256": "1f00a7232fd96fc794e2b7695ad82f977f9feea7c278145cd9dfd8f3ac318397",
+    "proof": "death-window-acceptance.json"
+  },
+  "adaptation": "Restore explicit drowning53 case returning J. R5 has a distinct selector index for this case despite sharing the default return target. The0.2.5 source also contains that explicit case. Both code and complete compiler-generated tables are compared, and only the374-byte code range is counted.",
+  "direct_reference_transfer_increment": 0
+}

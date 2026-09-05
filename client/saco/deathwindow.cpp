@@ -364,6 +364,8 @@ PCHAR CDeathWindow::SpriteIDForWeapon(BYTE byteWeaponID)
 			return "R";
 		case WEAPON_EXPLOSION:
 			return "Q";
+		case 53: // R5 explicit drowning entry shares the default symbol.
+			return "J";
 		case WEAPON_COLLISION:
 			return "K";
 		case SPECIAL_ENTRY_CONNECT:
