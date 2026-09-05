@@ -13,10 +13,11 @@ UNITS={
 
 
 def prepare():
- units=dict(UNITS)
+ units=dict(UNITS);records={}
  selection=ROOT/'config/checkpoint32/common-selection.json'
  if selection.exists():
-  for unit,record in json.loads(selection.read_text()).items():
+  records=json.loads(selection.read_text())
+  for unit,record in records.items():
    base=units.get(unit,(record['source'],[],record['cls']))
    units[unit]=(base[0],list(base[1])+record['definitions'],base[2])
  for unit,(file,names,cls) in units.items():
@@ -25,6 +26,13 @@ def prepare():
   if unit=='closure_models':header+='// Original game.cpp draw-zone callback declaration.\ntypedef void (*DrawZone_t)(float *fPos, DWORD *dwColor, BYTE byteMenu);\n'
   if unit=='closure_filter':header+='extern CChatWindow *pChatWindow;\nextern DWORD dwScmOpcodeDebug;\nextern WORD wVehicleComponentDebug;\nint dword_10125A58=0;\n'
   if unit=='closure_util':header+='#include <sys/stat.h>\n#undef PI\n#define PI 3.14159265f\n'
+  record=records.get(unit,{})
+  header+='\n'.join(record.get('declarations',[]))+'\n' if record.get('declarations') else ''
+  if 'storage' in record:
+   storage=record['storage']
+   if storage['source_declaration'] not in s:raise ValueError('missing original storage declaration '+unit)
+   header+=storage['declaration']+'\n'
+   header+='typedef char complete_storage_size[(sizeof('+storage['symbol']+')=='+str(storage['size'])+')?1:-1];\n'
   code=header+'\n\n'+'\n\n'.join(definition(s,(cls+'::' if cls else '')+(n['name'] if isinstance(n,dict) else n),n.get('overload') if isinstance(n,dict) else None) for n in names)+'\n'
   (ROOT/'client/saco'/(unit+'.cpp')).write_bytes(code.encode('latin1'))
  # These are real zero-initialized client globals, copied from main.cpp.

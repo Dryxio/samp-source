@@ -259,3 +259,48 @@ indices 0..20000 inclus dans la table GTA A9B0C8. A7A00 efface 0xFFFF DWORDs à
 partir de 1625B0 et recopie 20000 pointeurs GTA vers la table relocalisée. Cela
 ne suffit pas encore à certifier la déclaration complète du stockage. B45A0
 (40 octets) appelle A7A40 puis lit le champ +1C ; Entity 9EF50 en dépend.
+
+
+## Registres joueurs et rasters — lot accepté
+
+`cp32-records-rasters-linked`, contrat `records-rasters-contract.json` :
+246 régions, 176 fonctions complètes, 10 221 octets de code. Gain unique
+**818 octets**, cumul **33 842 / 930 756 = 3,6360 %**. Sept fonctions C++ de
+registres joueurs (259 octets) et quatre helpers natifs de rasters (559 octets).
+
+Les tableaux dwPlayerPedPtrs et VAR_1026C258 sont des objets complets de
+840 et 3 360 octets, aux RVAs 26BF10 et 26C258. Bornes de 210 entrées,
+strides 4/16 et tailles d'initialisation correspondent au R5. Les huit globals
+de rasters sont des objets entiers de 4 octets, avec quatre chaînes entières.
+Les objets sont définis dans des unités séparées pour conserver des sections
+BSS complètes, sans découpage de données ni assouplissement du gate. Le
+générateur contrôle la déclaration amont et émet une assertion sizeof.
+Aucune donnée zéro ne compte comme code.
+
+Le test ciblé exécute l'initialisation complète, l'entrée 209, le rejet gardé de
+210 (y compris les 16 octets suivants), la publication d'un pointeur et les
+recherches inverses par ped et RenderWare. Pile stdcall et registres restaurés
+sur les deux images ; les six mutations passent. Pas d'I/O BMP ni rendu moteur
+exécuté, pas de double build ou de test général supplémentaire.
+
+Le probe réutilise dix objets et compile douze nouvelles unités ; l'objet
+Entity Ob2 est réutilisé. Déclarations dans `common-selection.json`, identités
+dans `records-rasters-seeds.json`. Les six fournisseurs nonmatching restent
+inchangés et exclus. Preuve : `records-rasters-acceptance.json`.
+Reproduction :
+
+```sh
+.venv/bin/python tools/accept_actor_closure.py --run cp32-records-rasters-linked \
+  --contract config/checkpoint32/records-rasters-contract.json \
+  --report records-rasters-acceptance.json \
+  --previous evidence/checkpoint32/closure-acceptance.json \
+  --previous evidence/checkpoint32/actor-expansion-acceptance.json \
+  --previous evidence/checkpoint32/entity-tail-acceptance.json \
+  --previous evidence/checkpoint32/common-acceptance.json
+```
+
+Suite disponible dans le scan : CGame::CGame (133), FindFirstFreePlayerPedSlot
+(37), FUNC_100A00F0 (30), plus les constructeurs inline CAudio (13) et CCamera
+(16). Leur tableau bUsedPlayerSlots[210], déclaré dans game.cpp, peut reprendre
+la définition d'objet complet. Reprendre aussi A7A40/B45A0/Entity 9EF50 et les
+régions manquantes.

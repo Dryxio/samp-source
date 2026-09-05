@@ -17,6 +17,7 @@ SAVED={UC_X86_REG_EBX:0x12345678,UC_X86_REG_ESI:0x23456789,UC_X86_REG_EDI:0x3456
 def exercise(gate):
     reports=[]
     spawn="?New@CActorPool@@QAEHPAUACTOR_SPAWN_INFO@@@Z"
+    use_player_records=any(r["anchor"]=="?InitPlayerPedPtrRecords@@YGXXZ" and r["accepted"] for r in gate.regions)
     use_entity_bridges=any(r["anchor"]=="?ApplyForce@CEntity@@QAEXMMMMMM@Z" and r["accepted"] for r in gate.regions)
     use_pool_new=any(r["anchor"]==spawn and r["accepted"] for r in gate.regions)
     for original in (True,False):
@@ -97,6 +98,28 @@ def exercise(gate):
             need(uc.reg_read(UC_X86_REG_ESP)==STACK+4+4*len(args),'thiscall stack not restored')
             need(word(0)==0xffffffff,'SEH chain not restored')
             for reg,value in SAVED.items():need(uc.reg_read(reg)==value,'callee-saved register differs')
+        if use_player_records:
+            pointers=address('?dwPlayerPedPtrs@@3PAKA')
+            records=address('?VAR_1026C258@@3PAUstruc_13@@A')
+            uc.mem_write(pointers,b'\xa5'*840);uc.mem_write(records,b'\xa5'*3360)
+            call('?InitPlayerPedPtrRecords@@YGXXZ',0,[])
+            need(bytes(uc.mem_read(pointers,840))==bytes(840) and bytes(uc.mem_read(records,3360))==bytes(3360),'record initialization incomplete')
+            call('?FUNC_100B4390@@YGXEKKKK@Z',0,[209,11,22,33,44])
+            need(bytes(uc.mem_read(records+209*16,16))==struct.pack('<4I',11,22,33,44),'last record layout differs')
+            before=bytes(uc.mem_read(records,3376))
+            call('?FUNC_100B4390@@YGXEKKKK@Z',0,[210,1,2,3,4])
+            need(bytes(uc.mem_read(records,3376))==before,'out-of-range guarded record changed')
+            call('?FUNC_100B43D0@@YGPAUstruc_13@@E@Z',0,[210])
+            need(uc.reg_read(UC_X86_REG_EAX)==0,'guarded record lookup differs')
+            call('?SetPlayerPedPtrRecord@@YGXEK@Z',0,[209,PED])
+            need(bytes(uc.mem_read(records+209*16,16))==bytes(16),'pointer publication did not clear record')
+            call('?GetPlayerPedPtrRecord@@YGKE@Z',0,[209])
+            need(uc.reg_read(UC_X86_REG_EAX)==PED,'pointer lookup differs')
+            call('?FindPlayerNumFromPedPtr@@YGEK@Z',0,[PED])
+            need(uc.reg_read(UC_X86_REG_EAX)&255==209,'reverse pointer lookup differs')
+            put(PED+0x18,0x60016000)
+            call('?FUNC_100B43F0@@YGEPAK@Z',0,[0x60016000])
+            need(uc.reg_read(UC_X86_REG_EAX)&255==209,'renderware reverse lookup differs')
         call('??0CActorPool@@QAE@XZ',POOL,[])
         floats=[struct.unpack('<I',struct.pack('<f',v))[0] for v in (3.,4.,5.,90.)]
         if use_pool_new:
@@ -123,8 +146,8 @@ def exercise(gate):
         need(word(ACTOR)==address('??_7CEntity@@6B@'),'base destruction vtable not restored')
         need(freed==[ACTOR] and ped_deleted==[PED] and len(lookups)==2,'deletion chain bypassed or duplicated')
         need(trace==[0x248,0x247,0x38b,0x248,0x248,0x9a,0x173,0x446,0x60b]+([0x2ab] if use_pool_new else []) and sleep_calls==[1],'model/script path differs')
-        reports.append(dict(image='R5' if original else 'linked',result='PASS',pool_new=use_pool_new,native_bridges=bridge_calls,allocations=allocations,script_opcodes=trace,gta_lookups=len(lookups),native_deletions=len(ped_deleted),crt_frees=len(freed)))
-    return dict(result='PASS',runs=reports,scope='Pool New and force/audio bridges when present, ctor, script encoding, polling, virtual deletion, SEH chain and nonvolatile registers; GTA/Windows/CRT boundary operations intercepted')
+        reports.append(dict(image='R5' if original else 'linked',result='PASS',pool_new=use_pool_new,player_records=use_player_records,native_bridges=bridge_calls,allocations=allocations,script_opcodes=trace,gta_lookups=len(lookups),native_deletions=len(ped_deleted),crt_frees=len(freed)))
+    return dict(result='PASS',runs=reports,scope='Player records (slots 209/210), Pool New and force/audio bridges when present, ctor, script encoding, polling, virtual deletion, SEH chain and nonvolatile registers; GTA/Windows/CRT boundary operations intercepted')
 
 if __name__=='__main__':
     import json

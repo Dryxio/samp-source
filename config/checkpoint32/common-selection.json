@@ -268,5 +268,175 @@
         "name": "UnFuck"
       }
     ]
+  },
+  "closure_player_records": {
+    "source": "game/util.cpp",
+    "cls": null,
+    "definitions": [
+      {
+        "name": "InitPlayerPedPtrRecords"
+      },
+      {
+        "name": "SetPlayerPedPtrRecord"
+      },
+      {
+        "name": "GetPlayerPedPtrRecord"
+      },
+      {
+        "name": "FindPlayerNumFromPedPtr"
+      },
+      {
+        "name": "FUNC_100B4390"
+      },
+      {
+        "name": "FUNC_100B43D0"
+      },
+      {
+        "name": "FUNC_100B43F0"
+      }
+    ],
+    "declarations": [
+      "extern DWORD dwPlayerPedPtrs[PLAYER_PED_SLOTS];",
+      "extern struc_13 VAR_1026C258[PLAYER_PED_SLOTS];"
+    ]
+  },
+  "closure_rasters": {
+    "source": "game/util.cpp",
+    "cls": null,
+    "definitions": [
+      {
+        "name": "_VehicleEnvMappingFromScreen"
+      },
+      {
+        "name": "WriteRwRasterToFile"
+      },
+      {
+        "name": "SaveCameraRaster"
+      },
+      {
+        "name": "CreateCameraRaster"
+      }
+    ],
+    "declarations": [
+      "extern CChatWindow *pChatWindow;",
+      "extern DWORD CamFrameBuffer;",
+      "extern DWORD FrameBufferTexture;",
+      "extern int Width;",
+      "extern int Height;",
+      "extern int Depth;",
+      "extern DWORD dwRwImage;",
+      "extern DWORD CamFrameBuffer2;",
+      "extern DWORD CamZBuffer2;"
+    ]
+  },
+  "closure_store_ped_pointers": {
+    "source": "game/util.cpp",
+    "cls": null,
+    "definitions": [],
+    "storage": {
+      "declaration": "DWORD dwPlayerPedPtrs[PLAYER_PED_SLOTS];",
+      "source_declaration": "DWORD dwPlayerPedPtrs[PLAYER_PED_SLOTS];",
+      "symbol": "dwPlayerPedPtrs",
+      "size": 840
+    }
+  },
+  "closure_store_ped_records": {
+    "source": "game/util.cpp",
+    "cls": null,
+    "definitions": [],
+    "storage": {
+      "declaration": "struc_13 VAR_1026C258[PLAYER_PED_SLOTS];",
+      "source_declaration": "struc_13 VAR_1026C258[PLAYER_PED_SLOTS];",
+      "symbol": "VAR_1026C258",
+      "size": 3360
+    }
+  },
+  "closure_store_camframebuffer": {
+    "source": "game/util.cpp",
+    "cls": null,
+    "definitions": [],
+    "storage": {
+      "declaration": "DWORD CamFrameBuffer;",
+      "source_declaration": "DWORD CamFrameBuffer=0;",
+      "symbol": "CamFrameBuffer",
+      "size": 4
+    }
+  },
+  "closure_store_framebuffertexture": {
+    "source": "game/util.cpp",
+    "cls": null,
+    "definitions": [],
+    "storage": {
+      "declaration": "DWORD FrameBufferTexture;",
+      "source_declaration": "DWORD FrameBufferTexture=0;",
+      "symbol": "FrameBufferTexture",
+      "size": 4
+    }
+  },
+  "closure_store_width": {
+    "source": "game/util.cpp",
+    "cls": null,
+    "definitions": [],
+    "storage": {
+      "declaration": "int Width;",
+      "source_declaration": "int Width,Height,Depth;",
+      "symbol": "Width",
+      "size": 4
+    }
+  },
+  "closure_store_height": {
+    "source": "game/util.cpp",
+    "cls": null,
+    "definitions": [],
+    "storage": {
+      "declaration": "int Height;",
+      "source_declaration": "int Width,Height,Depth;",
+      "symbol": "Height",
+      "size": 4
+    }
+  },
+  "closure_store_depth": {
+    "source": "game/util.cpp",
+    "cls": null,
+    "definitions": [],
+    "storage": {
+      "declaration": "int Depth;",
+      "source_declaration": "int Width,Height,Depth;",
+      "symbol": "Depth",
+      "size": 4
+    }
+  },
+  "closure_store_dwrwimage": {
+    "source": "game/util.cpp",
+    "cls": null,
+    "definitions": [],
+    "storage": {
+      "declaration": "DWORD dwRwImage;",
+      "source_declaration": "DWORD dwRwImage;",
+      "symbol": "dwRwImage",
+      "size": 4
+    }
+  },
+  "closure_store_camframebuffer2": {
+    "source": "game/util.cpp",
+    "cls": null,
+    "definitions": [],
+    "storage": {
+      "declaration": "DWORD CamFrameBuffer2;",
+      "source_declaration": "DWORD CamFrameBuffer2=0;",
+      "symbol": "CamFrameBuffer2",
+      "size": 4
+    }
+  },
+  "closure_store_camzbuffer2": {
+    "source": "game/util.cpp",
+    "cls": null,
+    "definitions": [],
+    "storage": {
+      "declaration": "DWORD CamZBuffer2;",
+      "source_declaration": "DWORD CamZBuffer2=0;",
+      "symbol": "CamZBuffer2",
+      "size": 4
+    }
   }
 }
