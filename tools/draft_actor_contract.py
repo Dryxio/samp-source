@@ -41,6 +41,8 @@ def draft(run, extra_seeds=None):
             offset=symbol['value'];size=18;kind='script-command'
         if unit=='closure_rpc_player_effects' and kind=='data' and symbol['name'] in ('_toggle_widescreen','_create_explosion_with_radius'):
             offset=symbol['value'];size=18;kind='script-command'
+        if unit=='closure_rpc_checkpoints' and kind=='data' and symbol['name'] in ('_disable_marker', '_set_marker_color', '_create_radar_marker_without_sphere', '_show_on_radar', '_create_racing_checkpoint', '_destroy_racing_checkpoint'):
+            offset=symbol['value'];size=18;kind='script-command'
         if unit=='closure_state':
             offset=symbol['value'];size=2 if symbol['name']=='?wVehicleComponentDebug@@3GA' else 4;kind='zero-object'
         base=rva-symbol['value']+offset;key=(unit,index,offset,size)

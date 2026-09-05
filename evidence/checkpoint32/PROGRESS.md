@@ -1246,3 +1246,16 @@ Worldextra trial1/2 Attachment455 failed, trial3 source-edit error preserved, tr
 Firstdraft rejected wrong pChatWindow identity26EB98; real pChatWindow26EB80 retained. Independent caller evidence RPC11EB0 -> ctorDE20 at11F39 -> store11F4B identifies custom model download manager. Field217 filters modelentrytype2 world+8 and flags220/221 reset. Corrected RPC descriptive name ScrSetCustomModelWorldTransfer and distinct pointerowner, no constructor/managerallocation credit. Failed linkedrun/draft and original proposals preserved.
 
 Latest cp32-world-extra-editor-linked2; Ob1 cp32-world-extra-editor-ob1b; Ob2 cp32-gui-overwrite-ob2. Seeds/contract/proofs world-extra-editor; units build/world-extra-editor-units.txt; review build/review_world_extra_editor.py; throughput inintegration includesallcoordination. Currentnext memoryreadertrial2 fullRead126 exact, ReadInt mapsBAA70 viaactualcallerBC030; ambiguousEnded4 excluded. CheckpointRPCtrial1 running. Fullgoal active; no push/deploy.
+
+
+## Memory reader and checkpoints accepted
+
+194861/930756 (20.935777%), +1460unique code: reader310, checkpointRPC608/providers500/EH42. Direct025608, cumulative14129.2384whole regions; ten negativecontrols and actorABI PASS; eightoldpendingunchanged.
+
+Reader firstRead126 same-size failed due return0 block order; explicit earlyreturn trial2exact. ReadIntBAA70 same-reader callerBC030 atBC21F/BC229 verified; homologueB3A80 not credited. Ended4 has three identical candidates/no caller and is excluded; source remainsunexported/unselected. ReadWord27 included, allwholebodies.
+
+Checkpointfive functions exactfirsttrial. Six18-byte SCRIPT_COMMAND complete sourceobjects shareCOFFdata118 withpadding, originalobjectsnoncontiguous. Extended existingtyped-object draft/gate rule onlysixnamedsymbols in closure_rpc_checkpoints; all18bytes compared,no relocations, sourcebounds checked. Fourdescriptorspreviouslycovered; onlytwonewdataobjects and no data-as-codecredit. Fullcodefunctions remainwholeCOFFonly.
+
+Latestcp32-reader-checkpoints-linked; Ob1cp32-reader-checkpoints-ob1, Ob2cp32-gui-overwrite-ob2; seeds/contract/proofsreader-checkpoints; unitsbuild/reader-checkpoints-units.txt, reviewbuild/review_reader_checkpoints.py. Total21720unique sincebaseline173141; direct025gain12606; fullcoordinationrateinintegrationjson.
+
+Next: RWframeparsertrial1 principal258/129/299 notmatched, constructor46/nestedconstructor28/dtor35 rawcandidates only; agentdiagnosing. Spectatorvehicletrial1 running. Preservealltrials. Fullgoal active; no push/deploy.
