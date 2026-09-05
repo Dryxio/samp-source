@@ -1,0 +1,28 @@
+{
+  "status": "ACCEPTED_AFTER_COMPLETE_LINK_REVIEW",
+  "run": "cp32-dxut-cameras-arcball-linked",
+  "ob1": "cp32-dxut-cameras-ob1",
+  "ob2": "cp32-ime-ob2",
+  "new_unique_code_bytes": 7454,
+  "accepted_direct_025_credit": 0,
+  "reference_comparison": {
+    "whole_block_identical_to_025": true,
+    "scope": "CD3DArcBall,CBaseCamera,CFirstPersonCamera,CModelViewerCamera,cubemap view matrix"
+  },
+  "source_adaptations": "None. Complete adjacent original arcball/base/first-person/model-viewer camera implementation block extracted with original include environment. Cubemap view helper compiled in same block but unselected/unaccepted.",
+  "trials": [
+    {
+      "run": "cp32-dxut-cameras-ob1",
+      "outcome": "Only new camera source compiled.32 unique named class method/constructor candidates selected, transitive virtual providers included by draft."
+    },
+    {
+      "run": "cp32-dxut-cameras-linked",
+      "outcome": "Initial link and complete camera providers matched. Arcball nonvirtual message handler not initially retained because inventory code size346 differs from fullCOMDAT388."
+    },
+    {
+      "run": "cp32-dxut-cameras-arcball-linked",
+      "outcome": "Added whole arcball handler seed93C00 and export; complete388-byte body/table and actual targets match. No recompilation. Extended literal review includes handler -2 and5 constants."
+    }
+  ],
+  "verification": "1780 whole regions, every actual target/PE relocation,10 negative controls and existing ABI passed.35 source methods/constructors,3 complete7-slot class vtables,4 complete float constants. Arcball messages388/346 code, base messages608/588 code, MapKey221/95 code; tables verified but excluded from code credit.11 actual D3DX25 relays and6 user32 imports plus complete pinned LIBCMT purecall18 verified; vendor code excluded. Eight old pending unchanged. No camera/input/graphics execution."
+}

@@ -747,3 +747,36 @@ EXPORTS
  ?DXUTSetCallbackKeyboard@@YAXP6GXI_N0PAX@Z1@Z
  ?DXUTSetCallbackMouse@@YAXP6GX_N0000HHHPAX@Z01@Z
  ?DXUTSetCallbackMsgProc@@YAXP6GJPAUHWND__@@IIJPA_NPAX@Z2@Z
+ ?SetWindow@CD3DArcBall@@QAEXHHM@Z
+ ?SetOffset@CD3DArcBall@@QAEXHH@Z
+ ?GetRotationMatrix@CD3DArcBall@@QAEPBUD3DXMATRIX@@XZ
+ ?IsBeingDragged@CD3DArcBall@@QBE_NXZ
+ ?SetQuatNow@CD3DArcBall@@QAEXUD3DXQUATERNION@@@Z
+ ?SetDragRect@CBaseCamera@@UAEXAAUtagRECT@@@Z
+ ?IsKeyDown@CBaseCamera@@IBE_NE@Z
+ ?SetWindow@CModelViewerCamera@@QAEXHHM@Z
+ ?SetRadius@CModelViewerCamera@@QAEXMMM@Z
+ ?Reset@CD3DArcBall@@QAEXXZ
+ ?ScreenToVector@CD3DArcBall@@IAE?AUD3DXVECTOR3@@MM@Z
+ ?QuatFromBallPoints@CD3DArcBall@@SA?AUD3DXQUATERNION@@ABUD3DXVECTOR3@@0@Z
+ ?OnBegin@CD3DArcBall@@QAEXHH@Z
+ ?OnMove@CD3DArcBall@@QAEXHH@Z
+ ?OnEnd@CD3DArcBall@@QAEXXZ
+ ?SetViewParams@CBaseCamera@@UAEXPAUD3DXVECTOR3@@0@Z
+ ?SetProjParams@CBaseCamera@@UAEXMMMM@Z
+ ?UpdateMouseDelta@CBaseCamera@@IAEXM@Z
+ ?UpdateVelocity@CBaseCamera@@IAEXM@Z
+ ?ConstrainToBoundary@CBaseCamera@@IAEXPAUD3DXVECTOR3@@@Z
+ ?Reset@CBaseCamera@@UAEXXZ
+ ?FrameMove@CFirstPersonCamera@@UAEXM@Z
+ ?SetRotateButtons@CFirstPersonCamera@@QAEX_N00@Z
+ ?FrameMove@CModelViewerCamera@@UAEXM@Z
+ ?SetDragRect@CModelViewerCamera@@UAEXAAUtagRECT@@@Z
+ ?Reset@CModelViewerCamera@@UAEXXZ
+ ?SetViewParams@CModelViewerCamera@@UAEXPAUD3DXVECTOR3@@0@Z
+ ?HandleMessages@CModelViewerCamera@@UAEJPAUHWND__@@IIJ@Z
+ ??0CD3DArcBall@@QAE@XZ
+ ??0CBaseCamera@@QAE@XZ
+ ??0CFirstPersonCamera@@QAE@XZ
+ ??0CModelViewerCamera@@QAE@XZ
+ ?HandleMessages@CD3DArcBall@@QAEJPAUHWND__@@IIJ@Z
