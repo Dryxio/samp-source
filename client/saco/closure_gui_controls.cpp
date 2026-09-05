@@ -2,6 +2,8 @@
 #include "d3d9/common/dxstdafx.h"
 #include <new>
 #define SCROLLBAR_MINTHUMBSIZE 8
+#define SCROLLBAR_ARROWCLICK_DELAY 0.33
+#define SCROLLBAR_ARROWCLICK_REPEAT 0.05
 inline int RectWidth( RECT &rc ) { return ( (rc).right - (rc).left ); }
 inline int RectHeight( RECT &rc ) { return ( (rc).bottom - (rc).top ); }
 void CDXUTComboBox::Render( IDirect3DDevice9* pd3dDevice, float fElapsedTime )
@@ -461,4 +463,110 @@ void CDXUTScrollBar::UpdateThumbRect()
         m_rcThumb.bottom = m_rcThumb.top;
         m_bShowThumb = false;
     }
+}
+void CDXUTScrollBar::Render( IDirect3DDevice9* pd3dDevice, float fElapsedTime )
+{
+    // Check if the arrow button has been held for a while.
+    // If so, update the thumb position to simulate repeated
+    // scroll.
+    if( m_Arrow != CLEAR )
+    {
+        double dCurrTime = DXUTGetTime();
+        if( PtInRect( &m_rcUpButton, m_LastMouse ) )
+        {
+            switch( m_Arrow )
+            {
+                case CLICKED_UP:
+                    if( SCROLLBAR_ARROWCLICK_DELAY < dCurrTime - m_dArrowTS )
+                    {
+                        Scroll( -1 );
+                        m_Arrow = HELD_UP;
+                        m_dArrowTS = dCurrTime;
+                    }
+                    break;
+                case HELD_UP:
+                    if( SCROLLBAR_ARROWCLICK_REPEAT < dCurrTime - m_dArrowTS )
+                    {
+                        Scroll( -1 );
+                        m_dArrowTS = dCurrTime;
+                    }
+                    break;
+            }
+        } else
+        if( PtInRect( &m_rcDownButton, m_LastMouse ) )
+        {
+            switch( m_Arrow )
+            {
+                case CLICKED_DOWN:
+                    if( SCROLLBAR_ARROWCLICK_DELAY < dCurrTime - m_dArrowTS )
+                    {
+                        Scroll( 1 );
+                        m_Arrow = HELD_DOWN;
+                        m_dArrowTS = dCurrTime;
+                    }
+                    break;
+                case HELD_DOWN:
+                    if( SCROLLBAR_ARROWCLICK_REPEAT < dCurrTime - m_dArrowTS )
+                    {
+                        Scroll( 1 );
+                        m_dArrowTS = dCurrTime;
+                    }
+                    break;
+            }
+        }
+    }
+
+    DXUT_CONTROL_STATE iState = DXUT_STATE_NORMAL;
+
+    if( m_bVisible == false )
+        iState = DXUT_STATE_HIDDEN;
+    else if( m_bEnabled == false || m_bShowThumb == false )
+        iState = DXUT_STATE_DISABLED;
+    else if( m_bMouseOver )
+        iState = DXUT_STATE_MOUSEOVER;
+    else if( m_bHasFocus )
+        iState = DXUT_STATE_FOCUS;
+
+
+    float fBlendRate = ( iState == DXUT_STATE_PRESSED ) ? 0.0f : 0.8f;
+
+    // Background track layer
+    CDXUTElement* pElement = m_Elements.GetAt( 0 );
+    
+    // Blend current color
+    pElement->TextureColor.Blend( iState, fElapsedTime, fBlendRate );
+    m_pDialog->DrawSprite( pElement, &m_rcTrack );
+
+    // Up Arrow
+    pElement = m_Elements.GetAt( 1 );
+    
+    // Blend current color
+    pElement->TextureColor.Blend( iState, fElapsedTime, fBlendRate );
+    m_pDialog->DrawSprite( pElement, &m_rcUpButton );
+
+    // Down Arrow
+    pElement = m_Elements.GetAt( 2 );
+    
+    // Blend current color
+    pElement->TextureColor.Blend( iState, fElapsedTime, fBlendRate );
+    m_pDialog->DrawSprite( pElement, &m_rcDownButton );
+
+    // Thumb button
+    pElement = m_Elements.GetAt( 3 );
+    
+    // Blend current color
+    pElement->TextureColor.Blend( iState, fElapsedTime, fBlendRate );
+    m_pDialog->DrawSprite( pElement, &m_rcThumb );
+ 
+}
+void CDXUTScrollBar::Scroll( int nDelta )
+{
+    // Perform scroll
+    m_nPosition += nDelta;
+
+    // Cap position
+    Cap();
+
+    // Update thumb position
+    UpdateThumbRect();
 }

@@ -1,0 +1,14 @@
+{
+  "status": "ACCEPTED_AFTER_COMPLETE_LINK_REVIEW",
+  "run": "cp32-gui-scroll-render-linked",
+  "ob1": "cp32-gui-scroll-render-ob1",
+  "ob2": "cp32-ime-ob2",
+  "new_unique_code_bytes": 538,
+  "accepted_direct_025_credit": 0,
+  "identical_to_025": {
+    "CDXUTScrollBar::Render": true,
+    "CDXUTScrollBar::Scroll": true
+  },
+  "source_adaptations": "None. Original Scroll and Render added to existing controls source with original0.33/0.05 double defines.",
+  "verification": "1824 whole regions, all actual targets/PE relocations,10 negative controls and existing ABI pass. Render507/Scroll31 with complete double0.33/0.05 constants. Existing Cap/UpdateThumbRect and real clock/PtInRect/drawing providers unchanged. Eight old pending unchanged; no new imports. Only controls source recompiled, no GUI/input execution."
+}
