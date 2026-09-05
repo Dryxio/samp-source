@@ -119,6 +119,9 @@
       },
       {
         "name": "GameGetWeaponModelIDFromWeaponID"
+      },
+      {
+        "name": "FUNC_100B4B50"
       }
     ]
   },
@@ -438,5 +441,109 @@
       "symbol": "CamZBuffer2",
       "size": 4
     }
+  },
+  "closure_game_init": {
+    "source": "game/game.cpp",
+    "cls": "CGame",
+    "definitions": [
+      {
+        "name": "CGame"
+      },
+      {
+        "name": "FindFirstFreePlayerPedSlot"
+      },
+      {
+        "name": "FUNC_100A00F0"
+      }
+    ],
+    "declarations": [
+      "extern BOOL bUsedPlayerSlots[PLAYER_PED_SLOTS];"
+    ]
+  },
+  "closure_store_used_slots": {
+    "source": "game/game.cpp",
+    "cls": null,
+    "definitions": [],
+    "storage": {
+      "declaration": "BOOL bUsedPlayerSlots[PLAYER_PED_SLOTS];",
+      "source_declaration": "BOOL bUsedPlayerSlots[PLAYER_PED_SLOTS];",
+      "symbol": "bUsedPlayerSlots",
+      "size": 840
+    }
+  },
+  "closure_camera": {
+    "source": "game/camera.cpp",
+    "cls": "CCamera",
+    "definitions": [
+      {
+        "name": "SetBehindPlayer"
+      },
+      {
+        "name": "SetPosition"
+      },
+      {
+        "name": "LookAtPoint"
+      },
+      {
+        "name": "Restore"
+      },
+      {
+        "name": "Fade"
+      },
+      {
+        "name": "GetMatrix"
+      },
+      {
+        "name": "SetMatrix"
+      },
+      {
+        "name": "Attach"
+      },
+      {
+        "name": "InterpolatePosition"
+      },
+      {
+        "name": "InterpolateLookAt"
+      },
+      {
+        "name": "FUNC_1009D660"
+      },
+      {
+        "name": "FUNC_1009D6B0"
+      },
+      {
+        "name": "GetDistanceFromPoint"
+      }
+    ]
+  },
+  "closure_audio": {
+    "source": "game/audio.cpp",
+    "cls": "CAudio",
+    "definitions": [
+      {
+        "name": "FUNC_100A21D0"
+      },
+      {
+        "name": "GetRadioStation"
+      },
+      {
+        "name": "StartRadio"
+      },
+      {
+        "name": "StopRadio"
+      },
+      {
+        "name": "GetRadioVolume"
+      },
+      {
+        "name": "StopOutdoorAmbienceTrack"
+      },
+      {
+        "name": "SetOutdoorAmbienceTrack"
+      },
+      {
+        "name": "PlaySound"
+      }
+    ]
   }
 }

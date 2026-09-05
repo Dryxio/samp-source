@@ -304,3 +304,7 @@ Suite disponible dans le scan : CGame::CGame (133), FindFirstFreePlayerPedSlot
 (16). Leur tableau bUsedPlayerSlots[210], déclaré dans game.cpp, peut reprendre
 la définition d'objet complet. Reprendre aussi A7A40/B45A0/Entity 9EF50 et les
 régions manquantes.
+
+## Game initialization and staged camera/audio work
+
+Game-init acceptance adds 229 unique code bytes, bringing the certified union to 34,071 bytes. The complete packed CGame/audio/camera constructors and player-slot helpers passed the full gate, six mutation controls, and focused allocation/slot-boundary execution checks. Camera/audio extraction and its candidate probe are preserved but are not yet accepted.

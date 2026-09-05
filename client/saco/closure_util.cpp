@@ -623,3 +623,14 @@ int __stdcall GameGetWeaponModelIDFromWeaponID(int iWeaponID)
 
 	return -1;
 }
+
+bool FUNC_100B4B50(VECTOR *vecPos)
+{
+	if( vecPos->X < 20000.0f && vecPos->X > -20000.0f &&
+		vecPos->Y < 20000.0f && vecPos->Y > -20000.0f &&
+		vecPos->Z < 100000.0f && vecPos->Z > -10000.0f )
+	{
+		return true;
+	}
+	return false;
+}

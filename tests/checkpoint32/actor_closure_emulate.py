@@ -17,6 +17,7 @@ SAVED={UC_X86_REG_EBX:0x12345678,UC_X86_REG_ESI:0x23456789,UC_X86_REG_EDI:0x3456
 def exercise(gate):
     reports=[]
     spawn="?New@CActorPool@@QAEHPAUACTOR_SPAWN_INFO@@@Z"
+    use_game_init=any(r["anchor"]=="??0CGame@@QAE@XZ" and r["accepted"] for r in gate.regions)
     use_player_records=any(r["anchor"]=="?InitPlayerPedPtrRecords@@YGXXZ" and r["accepted"] for r in gate.regions)
     use_entity_bridges=any(r["anchor"]=="?ApplyForce@CEntity@@QAEXMMMMMM@Z" and r["accepted"] for r in gate.regions)
     use_pool_new=any(r["anchor"]==spawn and r["accepted"] for r in gate.regions)
@@ -41,6 +42,7 @@ def exercise(gate):
         put(address('?pGame@@3PAVCGame@@A'),GAME)
         put(address('__imp__Sleep@4'),SLEEP)
         ranges=[(pe.base+r['rva']+c['offset'] if original else r['linked_va']+c['offset'],c['size']) for r in gate.regions if r['accepted'] for c in r.get('code_ranges',[])]
+        game_phase=False;game_allocations=[]
         trace=[];bridge_calls=[];allocations=[];model_queries=0;freed=[];ped_deleted=[];sleep_calls=[];lookups=[]
         def hook(machine,at,size,user):
             nonlocal model_queries
@@ -82,6 +84,12 @@ def exercise(gate):
                 need(machine.reg_read(UC_X86_REG_ECX)==PED and word(sp+4)==1,'wrong native deletion ABI')
                 ped_deleted.append(PED);ret(4);return
             if use_pool_new and at==address('??2@YAPAXI@Z'):
+                if game_phase:
+                    need(len(game_allocations)<2,'unexpected CGame allocation')
+                    expected,allocated=[(5,0x60017000),(8,0x60018000)][len(game_allocations)]
+                    need(word(sp+4)==expected,'wrong packed CGame allocation size')
+                    uc.mem_write(allocated,b'\xa5'*expected)
+                    game_allocations.append(expected);ret(0,allocated);return
                 need(word(sp+4)==0x56,'wrong actor allocation size')
                 allocations.append(0x56);ret(0,ACTOR);return
             if at==address('??3@YAXPAX@Z'):
@@ -98,6 +106,29 @@ def exercise(gate):
             need(uc.reg_read(UC_X86_REG_ESP)==STACK+4+4*len(args),'thiscall stack not restored')
             need(word(0)==0xffffffff,'SEH chain not restored')
             for reg,value in SAVED.items():need(uc.reg_read(reg)==value,'callee-saved register differs')
+        if use_game_init:
+            slots=address('?bUsedPlayerSlots@@3PAHA')
+            uc.mem_write(slots,b'\xa5'*840);uc.mem_write(GAME,b'\xa5'*0x142)
+            game_phase=True
+            call('??0CGame@@QAE@XZ',GAME,[])
+            game_phase=False
+            need(game_allocations==[5,8],'CGame allocations differ')
+            need(word(GAME)==0x60017000 and word(GAME+4)==0x60018000 and word(GAME+8)==0,'CGame child objects differ')
+            need(bytes(uc.mem_read(0x60017000,5))==bytes(5) and word(0x60018000)==0 and word(0x60018004)==0xb6f99c,'audio/camera initial state differs')
+            need(bytes(uc.mem_read(slots,840))==bytes(840) and bytes(uc.mem_read(GAME+0x6e,212))==bytes(212),'CGame arrays not fully cleared')
+            need(word(GAME+0x55)==0 and word(GAME+0x59)==1 and word(GAME+0x5d)==90,'CGame defaults differ')
+            call('?FindFirstFreePlayerPedSlot@CGame@@QAEEXZ',GAME,[])
+            need(uc.reg_read(UC_X86_REG_EAX)&255==2,'reserved slots not skipped')
+            uc.mem_write(slots,struct.pack('<I',1)*210);put(slots+209*4,2)
+            call('?FindFirstFreePlayerPedSlot@CGame@@QAEEXZ',GAME,[])
+            need(uc.reg_read(UC_X86_REG_EAX)&255==209,'slot state must compare with TRUE exactly')
+            call('?FUNC_100A00F0@CGame@@QAEEXZ',GAME,[])
+            need(uc.reg_read(UC_X86_REG_EAX)&255==207,'non-TRUE slot counted as occupied')
+            put(slots+209*4,1)
+            call('?FindFirstFreePlayerPedSlot@CGame@@QAEEXZ',GAME,[])
+            need(uc.reg_read(UC_X86_REG_EAX)&255==0,'full slot table must return zero')
+            call('?FUNC_100A00F0@CGame@@QAEEXZ',GAME,[])
+            need(uc.reg_read(UC_X86_REG_EAX)&255==208,'occupied slot count differs')
         if use_player_records:
             pointers=address('?dwPlayerPedPtrs@@3PAKA')
             records=address('?VAR_1026C258@@3PAUstruc_13@@A')
@@ -146,8 +177,8 @@ def exercise(gate):
         need(word(ACTOR)==address('??_7CEntity@@6B@'),'base destruction vtable not restored')
         need(freed==[ACTOR] and ped_deleted==[PED] and len(lookups)==2,'deletion chain bypassed or duplicated')
         need(trace==[0x248,0x247,0x38b,0x248,0x248,0x9a,0x173,0x446,0x60b]+([0x2ab] if use_pool_new else []) and sleep_calls==[1],'model/script path differs')
-        reports.append(dict(image='R5' if original else 'linked',result='PASS',pool_new=use_pool_new,player_records=use_player_records,native_bridges=bridge_calls,allocations=allocations,script_opcodes=trace,gta_lookups=len(lookups),native_deletions=len(ped_deleted),crt_frees=len(freed)))
-    return dict(result='PASS',runs=reports,scope='Player records (slots 209/210), Pool New and force/audio bridges when present, ctor, script encoding, polling, virtual deletion, SEH chain and nonvolatile registers; GTA/Windows/CRT boundary operations intercepted')
+        reports.append(dict(image='R5' if original else 'linked',result='PASS',game_allocations=game_allocations,pool_new=use_pool_new,player_records=use_player_records,native_bridges=bridge_calls,allocations=allocations,script_opcodes=trace,gta_lookups=len(lookups),native_deletions=len(ped_deleted),crt_frees=len(freed)))
+    return dict(result='PASS',runs=reports,scope='CGame allocations/slot table, player records (slots 209/210), Pool New and force/audio bridges when present, ctor, script encoding, polling, virtual deletion, SEH chain and nonvolatile registers; GTA/Windows/CRT boundary operations intercepted')
 
 if __name__=='__main__':
     import json
