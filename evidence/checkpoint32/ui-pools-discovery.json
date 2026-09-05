@@ -1,0 +1,319 @@
+{
+  "status": "DISCOVERY_ONLY_NOT_ACCEPTED",
+  "run": "cp32-ui-pools-scan",
+  "reference_sha256": "b72b5dbe725f81864ca3f78bc7063bda56cc05fc7188af822fa7a754432553a2",
+  "rows": [
+    {
+      "unit": "net_menupool",
+      "symbol": "?GetRakClient@CNetGame@@QAEPAVRakClientInterface@@XZ",
+      "size": 3,
+      "object_sha256": "81baa76946e9d8684fa0c92f9a0bd560b190a738472f68c3faa23f86bc3486e3",
+      "candidates": [
+        {
+          "rva": 6736,
+          "inferred_targets": {}
+        },
+        {
+          "rva": 11552,
+          "inferred_targets": {}
+        },
+        {
+          "rva": 48064,
+          "inferred_targets": {}
+        },
+        {
+          "rva": 48288,
+          "inferred_targets": {}
+        },
+        {
+          "rva": 58752,
+          "inferred_targets": {}
+        },
+        {
+          "rva": 58768,
+          "inferred_targets": {}
+        },
+        {
+          "rva": 75632,
+          "inferred_targets": {}
+        },
+        {
+          "rva": 124816,
+          "inferred_targets": {}
+        },
+        {
+          "rva": 128800,
+          "inferred_targets": {}
+        },
+        {
+          "rva": 130480,
+          "inferred_targets": {}
+        },
+        {
+          "rva": 158624,
+          "inferred_targets": {}
+        },
+        {
+          "rva": 280608,
+          "inferred_targets": {}
+        },
+        {
+          "rva": 415328,
+          "inferred_targets": {}
+        },
+        {
+          "rva": 415952,
+          "inferred_targets": {}
+        },
+        {
+          "rva": 416160,
+          "inferred_targets": {}
+        },
+        {
+          "rva": 452784,
+          "inferred_targets": {}
+        },
+        {
+          "rva": 535056,
+          "inferred_targets": {}
+        },
+        {
+          "rva": 542528,
+          "inferred_targets": {}
+        },
+        {
+          "rva": 759120,
+          "inferred_targets": {}
+        }
+      ]
+    },
+    {
+      "unit": "net_menupool",
+      "symbol": "??0CMenuPool@@QAE@XZ",
+      "size": 39,
+      "object_sha256": "81baa76946e9d8684fa0c92f9a0bd560b190a738472f68c3faa23f86bc3486e3",
+      "candidates": [
+        {
+          "rva": 32352,
+          "inferred_targets": {}
+        }
+      ]
+    },
+    {
+      "unit": "net_menupool",
+      "symbol": "??1CMenuPool@@QAE@XZ",
+      "size": 62,
+      "object_sha256": "81baa76946e9d8684fa0c92f9a0bd560b190a738472f68c3faa23f86bc3486e3",
+      "candidates": [
+        {
+          "rva": 33216,
+          "inferred_targets": {
+            "?Hide@CMenu@@QAEXXZ": 269121136,
+            "??3@YAXPAX@Z": 269247626
+          }
+        }
+      ]
+    },
+    {
+      "unit": "net_menupool",
+      "symbol": "?New@CMenuPool@@QAEPAVCMenu@@EMMEMMPAUMENU_INT@@@Z",
+      "size": 188,
+      "object_sha256": "81baa76946e9d8684fa0c92f9a0bd560b190a738472f68c3faa23f86bc3486e3",
+      "candidates": []
+    },
+    {
+      "unit": "net_menupool",
+      "symbol": "?Delete@CMenuPool@@QAEHE@Z",
+      "size": 71,
+      "object_sha256": "81baa76946e9d8684fa0c92f9a0bd560b190a738472f68c3faa23f86bc3486e3",
+      "candidates": [
+        {
+          "rva": 32624,
+          "inferred_targets": {
+            "??3@YAXPAX@Z": 269247626
+          }
+        }
+      ]
+    },
+    {
+      "unit": "net_menupool",
+      "symbol": "?ShowMenu@CMenuPool@@QAEXE@Z",
+      "size": 82,
+      "object_sha256": "81baa76946e9d8684fa0c92f9a0bd560b190a738472f68c3faa23f86bc3486e3",
+      "candidates": [
+        {
+          "rva": 32704,
+          "inferred_targets": {
+            "?Hide@CMenu@@QAEXXZ": 269121136,
+            "?Show@CMenu@@QAEXXZ": 269121344
+          }
+        }
+      ]
+    },
+    {
+      "unit": "net_menupool",
+      "symbol": "?HideMenu@CMenuPool@@QAEXE@Z",
+      "size": 59,
+      "object_sha256": "81baa76946e9d8684fa0c92f9a0bd560b190a738472f68c3faa23f86bc3486e3",
+      "candidates": [
+        {
+          "rva": 32800,
+          "inferred_targets": {
+            "?Hide@CMenu@@QAEXXZ": 269121136
+          }
+        }
+      ]
+    },
+    {
+      "unit": "net_menupool",
+      "symbol": "?GetTextPointer@CMenuPool@@QAEPADPAD@Z",
+      "size": 351,
+      "object_sha256": "81baa76946e9d8684fa0c92f9a0bd560b190a738472f68c3faa23f86bc3486e3",
+      "candidates": [
+        {
+          "rva": 32864,
+          "inferred_targets": {
+            "??_C@_03GCFPJFBL@HED?$AA@": 269375820,
+            "?GetMenuTitle@CMenu@@QAEPADXZ": 269121200,
+            "??_C@_03BABBNIEN@RW1?$AA@": 269375816,
+            "?GetMenuHeader@CMenu@@QAEPADE@Z": 269121216,
+            "??_C@_03DLDMILIO@RW2?$AA@": 269375812,
+            "?g_szMenuItems@@3PAY11CB@DA": 269476040,
+            "?GetMenuItem@CMenu@@QAEPADEE@Z": 269121168
+          }
+        }
+      ]
+    },
+    {
+      "unit": "net_menupool",
+      "symbol": "??$Write@E@BitStream@RakNet@@QAEXE@Z",
+      "size": 17,
+      "object_sha256": "81baa76946e9d8684fa0c92f9a0bd560b190a738472f68c3faa23f86bc3486e3",
+      "candidates": [
+        {
+          "rva": 19472,
+          "inferred_targets": {
+            "?WriteBits@BitStream@RakNet@@QAEXPBEH_N@Z": 268566496
+          }
+        },
+        {
+          "rva": 177264,
+          "inferred_targets": {
+            "?WriteBits@BitStream@RakNet@@QAEXPBEH_N@Z": 268566832
+          }
+        }
+      ]
+    },
+    {
+      "unit": "net_menupool",
+      "symbol": "?Process@CMenuPool@@QAEXXZ",
+      "size": 342,
+      "object_sha256": "81baa76946e9d8684fa0c92f9a0bd560b190a738472f68c3faa23f86bc3486e3",
+      "candidates": []
+    },
+    {
+      "unit": "net_gangzonepool",
+      "symbol": "??0CGangZonePool@@QAE@XZ",
+      "size": 40,
+      "object_sha256": "261e57fd26f6c0be61a111d080f2cc7a1f1ea2e3bbb7b6b45c0d8682e4535c3a",
+      "candidates": [
+        {
+          "rva": 8480,
+          "inferred_targets": {}
+        }
+      ]
+    },
+    {
+      "unit": "net_gangzonepool",
+      "symbol": "??1CGangZonePool@@QAE@XZ",
+      "size": 46,
+      "object_sha256": "261e57fd26f6c0be61a111d080f2cc7a1f1ea2e3bbb7b6b45c0d8682e4535c3a",
+      "candidates": [
+        {
+          "rva": 8528,
+          "inferred_targets": {
+            "??3@YAXPAX@Z": 269247626
+          }
+        }
+      ]
+    },
+    {
+      "unit": "net_gangzonepool",
+      "symbol": "?New@CGangZonePool@@QAEXGMMMMK@Z",
+      "size": 113,
+      "object_sha256": "261e57fd26f6c0be61a111d080f2cc7a1f1ea2e3bbb7b6b45c0d8682e4535c3a",
+      "candidates": [
+        {
+          "rva": 8576,
+          "inferred_targets": {
+            "??3@YAXPAX@Z": 269247626,
+            "_malloc": 269249468
+          }
+        }
+      ]
+    },
+    {
+      "unit": "net_gangzonepool",
+      "symbol": "?Flash@CGangZonePool@@QAEXGK@Z",
+      "size": 22,
+      "object_sha256": "261e57fd26f6c0be61a111d080f2cc7a1f1ea2e3bbb7b6b45c0d8682e4535c3a",
+      "candidates": [
+        {
+          "rva": 8704,
+          "inferred_targets": {}
+        }
+      ]
+    },
+    {
+      "unit": "net_gangzonepool",
+      "symbol": "?StopFlash@CGangZonePool@@QAEXG@Z",
+      "size": 25,
+      "object_sha256": "261e57fd26f6c0be61a111d080f2cc7a1f1ea2e3bbb7b6b45c0d8682e4535c3a",
+      "candidates": [
+        {
+          "rva": 8736,
+          "inferred_targets": {}
+        }
+      ]
+    },
+    {
+      "unit": "net_gangzonepool",
+      "symbol": "?Delete@CGangZonePool@@QAEXG@Z",
+      "size": 48,
+      "object_sha256": "261e57fd26f6c0be61a111d080f2cc7a1f1ea2e3bbb7b6b45c0d8682e4535c3a",
+      "candidates": [
+        {
+          "rva": 8768,
+          "inferred_targets": {
+            "??3@YAXPAX@Z": 269247626
+          }
+        }
+      ]
+    },
+    {
+      "unit": "net_gangzonepool",
+      "symbol": "?Draw@CGangZonePool@@QAEXXZ",
+      "size": 104,
+      "object_sha256": "261e57fd26f6c0be61a111d080f2cc7a1f1ea2e3bbb7b6b45c0d8682e4535c3a",
+      "candidates": [
+        {
+          "rva": 8816,
+          "inferred_targets": {
+            "__imp__GetTickCount@0": 269374008,
+            "?iLastTick@?1??Draw@CGangZonePool@@QAEXXZ@4HA": 269584516,
+            "?alt@?1??Draw@CGangZonePool@@QAEXXZ@4EA": 269584512,
+            "?pGame@@3PAVCGame@@A": 270986156,
+            "?DrawGangZone@CGame@@QAEXPAMK@Z": 269096000
+          }
+        }
+      ]
+    }
+  ],
+  "accepted_coverage_increment": 0,
+  "reference_comparison": "Both CMenuPool and CGangZonePool already contain all corresponding active 0.2.5 method definitions; no missing-method transfer identified in this pair.",
+  "next_actions": [
+    "Extract CMenuPool complete methods without duplicating the already accepted menu-label array; include helper dependencies or leave nonmatching providers explicitly excluded.",
+    "Integrate complete CGangZonePool source if its dependencies close; check heap allocation/deletion and retained alpha/color behavior.",
+    "Review destructor/EH and script/native identities before promoting discovery candidates."
+  ]
+}
