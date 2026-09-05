@@ -1213,3 +1213,18 @@ Coverage185003/930756=19.876638%,+526unique (selection480,actorvalid46). No dire
 Latestcp32-textdraw-selection-linked;Ob1cp32-textdraw-selection-ob1,Ob2cp32-gui-overwrite-ob2;unitsbuild/textdraw-selection-units.txt,launcherbuild/run_textdraw_selection.ps1,reviewbuild/review_textdraw_selection.py. Contract/seeds/acceptance/integration textdraw-selection. Total11862newunique sincebaseline173141; measuredrateinintegrationjsonincludescoordination. CorrectedpreviousPROGRESSactor-renderpercentage toactual19.820125. Localcommitonly,fullgoalactive.
 
 Spawnparkedafterthreeboundedtrials:213first,240second/thirdbutoneModRM44vs4Cdifferenceremains;0Spawncredit. Helper46acceptedseparatelynormalC++, no volatilequalificationinacceptedhelper. Diagnostics actor-spawn-trial2/3-diagnostic.json. Agent2nextRPCstates/clock808+providers239potential. Agent1textdrawSendClick151/Disable77/MsgProc41plusEH21 andRPC83scalar4 proposed, currentcp32-textdraw-click-trial1 eval_textdraw_click running; waitterminalbeforeVMnextjob. SourceclassR5TextDrawSelectorViewtokendeclarationidenticalwithowner, ClickViewdistinct. NoGTA/network/desktopexecution.
+
+
+## World state/object RPC and textdraw click lot2800 accepted
+
+Coverage187803/930756=20.177469%,+2800unique. Direct0251791 (state708+worldobjects1083),total10679; priorarithmetic808stateRPC correctedto708beforeacceptance.2301whole regions,231EHcode/11maps36each,10negativecontrols and actorABI PASS. Fullsource functions alltrueprovidersclosed, eightoldpendingunchanged.
+
+Worldstate947+EH84: RakServerStats296 completeBSS12E968 fromexisting296-byte sourceobject, fourEHmaps. ResetMoney18090actualpGame26EBAC/A20C0/RPC20; unrelatedE650pNetGame/A540excluded. Clock187/Money52frombase,nodirect025credit. MoneydescriptorEC64818alreadyacceptednowemittedwhole18-byte section, no truncation/newcredit.
+
+Worldobjects1267+EH126: firstsourcefailedincompleteCObject; nonexistentgame/object.hattemptpreserved. FinalsourceusesCEntityoffset0 pointerview, nofullobjectclaim. AudioGetAudioinline fixesPlaySound218->219evaluationorder. R5read-onlyRespawn132 preserved, notstub. Bounds227/Team233/ObjectPos272/NoCamera184 fullmatches; last184R5reconstructionnot025.
+
+Textdrawclick/update/HUD355+EH21: SendClick149directint,158WORDaliasbothfailed; realRakNetWrite<WORD>producesexact151. Disable77/MsgProc41; HUD40viaforceinlineknownradarbody,Update46. RPC83scalarE6274/4 actualregistrationreferences andsendoperandverified. Firstlinkcp32-world-state-click-linked failedmissingpCmdWindow; real4-bytezeroowner26EB84addedfrommain.cpp18, constructor693D0/allocation1AFC/storeC4923and70PErefsconfirmpointeridentity; allocationnotcredited. No native/game/networkAPIexecution.
+
+Latestcp32-world-state-click-linked2;Ob1cp32-world-state-click-ob1c,Ob2cp32-gui-overwrite-ob2;unitsbuild/world-state-click-units.txt,launcherbuild/run_world_state_click.ps1,reviewbuild/review_world_state_click.py. Contract/seeds/acceptance/integration world-state-click. Total14662uniquegainedsincebaseline173141; direct025gain9156; measuredrateinintegrationjsonincludescoordination. Localcommitonly,wholeDLLfalse/fullgoalactive.
+
+Nextcp32-input-animation-trial1live: sixanimation/cameraRPC1925potential+EH126;HideTextdraw164(char*ctorcorrectedfromagentunsignedcast); ProcessInputDisabling283+RestoreMouse70 base-sourcefoundationswiththree5-byteexistingnativeGTApatchdataarrays, noR5codecopyorcoverageforthosearrays. Agent1auditingremainingUIcontroller/editoridentities; formerguessesScoreBoard/Dialogwithdrawn,donotassertthemunproven. Agent2awaitingprobe. Preservealluntracked evalsources/failedtrials.
