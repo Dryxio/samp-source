@@ -106,10 +106,20 @@ class Gate:
         self.actual_sections[key]=base
         for part in self.by_section[key]:part['linked_va']=base+part['offset']
 
+    def anchor_address(self,r):
+        symbols=self.objects[r['unit']].names.get(r['anchor'],[])
+        local=any(s['section']==r['section'] and s['storage']==3 for s in symbols)
+        if local:
+            owner=(r['unit']+'.obj').lower()
+            hits=[va for va,provider in self.maps[r['anchor']] if provider.lower()==owner]
+            need(len(hits)==1,'missing/ambiguous object-local MAP symbol: '+r['unit']+':'+r['anchor'])
+            return hits[0]
+        return symbol_address(self.maps,r['anchor'])
+
     def bind(self):
         for r in self.regions:
             if r['anchor'] in self.maps:
-                self.locate(r,symbol_address(self.maps,r['anchor'])-r['anchor_offset'])
+                self.locate(r,self.anchor_address(r)-r['anchor_offset'])
         progress=True
         while progress:
             progress=False

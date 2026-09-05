@@ -46,6 +46,18 @@ class ClosureGateTests(unittest.TestCase):
         if entry is None:self.skipTest('No import thunk in this historical contract')
         g.reference.relocations.remove(entry['reference_va']-g.reference.base+2)
         with self.assertRaisesRegex(ValueError,'import thunk PE relocations differ'):g.verify()
+    def test_object_local_cleanup_owner(self):
+        g=Gate(fresh=False)
+        r=next((r for r in g.regions if r['unit']=='closure_dxut_cache' and r['anchor']=='_$E2'),None)
+        if r is None:self.skipTest('No object-local cache cleanup in this historical contract')
+        name=r['anchor'];owner=r['unit']+'.obj';original=list(g.maps[name])
+        self.assertGreater(len(original),1)
+        g.maps[name]=[(va,p) for va,p in original if p!=owner]
+        with self.assertRaisesRegex(ValueError,'object-local MAP symbol'):g.anchor_address(r)
+        g.maps[name]=original+[(r['linked_va']+1,owner)]
+        with self.assertRaisesRegex(ValueError,'object-local MAP symbol'):g.anchor_address(r)
+        g.maps[name]=[(va+1 if p==owner else va,p) for va,p in original]
+        with self.assertRaisesRegex(ValueError,'inconsistent actual source section'):g.bind()
     def test_nonzero_global(self):
         g=Gate(fresh=False);r=next(r for r in g.regions if r['anchor']=='?pGame@@3PAVCGame@@A');at=r['linked_va']-g.linked.base
         sec=next(s for s in g.linked.sections if s['rva']<=at<s['rva']+max(s['virtual_size'],s['size']))

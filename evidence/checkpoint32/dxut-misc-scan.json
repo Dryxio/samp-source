@@ -1,0 +1,819 @@
+{
+  "status": "DISCOVERY_ONLY_NOT_ACCEPTED",
+  "run": "cp32-dxut-misc-scan",
+  "source": "client/saco/eval_dxut_misc.cpp",
+  "source_sha256": "1de5c23ca84a344c71a6724d2ecbb05ee2e2836e4bceda61c611e3742b072542",
+  "raw_discovery_sha256": "aeb7cf4392f217f9c3ee37d026f394112f07e2340c0b88e4e9e936ed608079e3",
+  "compiled_functions": 197,
+  "functions_with_any_candidate": 190,
+  "single_candidate_functions_with_new_bytes": 74,
+  "potential_union_bytes_after_prior_coverage": 16683,
+  "accepted_new_bytes": 0,
+  "rows": [
+    {
+      "symbol": "?FrameMove@CModelViewerCamera@@UAEXM@Z",
+      "rva": 607888,
+      "size": 1319,
+      "potential_new_bytes": 1319,
+      "inferred_targets": {
+        "?UpdateMouseDelta@CBaseCamera@@IAEXM@Z": 269041984,
+        "?UpdateVelocity@CBaseCamera@@IAEXM@Z": 269042256,
+        "__real@3dcccccd": 269377820,
+        "_D3DXMatrixRotationQuaternion@8": 269245688,
+        "_D3DXMatrixInverse@12": 269245604,
+        "_D3DXVec3TransformCoord@12": 269245718,
+        "?ConstrainToBoundary@CBaseCamera@@IAEXPAUD3DXVECTOR3@@@Z": 269042832,
+        "_D3DXMatrixLookAtLH@16": 269245700,
+        "_D3DXMatrixMultiply@12": 269245598,
+        "_D3DXVec3Normalize@8": 269245712,
+        "_D3DXMatrixTranslation@16": 269245694
+      }
+    },
+    {
+      "symbol": "?DXUTDisplaySwitchingToREFWarning@@YAXXZ",
+      "rva": 615392,
+      "size": 856,
+      "potential_new_bytes": 856,
+      "inferred_targets": {
+        "?DXUTGetShowMsgBoxOnError@@YA_NXZ": 268950128,
+        "??_C@_0CD@JNJEACIN@Software?2Microsoft?2DirectX?59?40?5S@": 269400952,
+        "__imp__RegOpenKeyExA@20": 269373444,
+        "??_C@_0BE@ONMNIDPM@Skip?5Warning?5On?5REF?$AA@": 269400932,
+        "__imp__RegQueryValueExA@24": 269373448,
+        "__imp__RegCloseKey@4": 269373452,
+        "??_C@_0O@LMJDHGJK@MS?5Sans?5Serif?$AA@": 269400916,
+        "?DisplaySwitchToREFWarningProc@@YGHPAUHWND__@@IIJ@Z": 269038560,
+        "?DXUTGetHWND@@YAPAUHWND__@@XZ": 268944464,
+        "?DXUTGetHINSTANCE@@YAPAUHINSTANCE__@@XZ": 268949776,
+        "__imp__DialogBoxIndirectParamA@20": 269374260,
+        "__imp__RegSetValueExA@24": 269373440,
+        "?DXUTShutdown@@YAXH@Z": 268947584
+      }
+    },
+    {
+      "symbol": "?AddLine@CDXUTLineManager@@QAEJPAHPAUD3DXVECTOR2@@KKMM_N@Z",
+      "rva": 626000,
+      "size": 625,
+      "potential_new_bytes": 625,
+      "inferred_targets": {
+        "__ehhandler$?AddLine@CDXUTLineManager@@QAEJPAHPAUD3DXVECTOR2@@KKMM_N@Z": 269368587,
+        "__except_list": 0,
+        "??2@YAPAXI@Z": 269247098,
+        "??0D3DXVECTOR2@@QAE@XZ": 268901136,
+        "??_H@YGXPAXIHP6EPAX0@Z@Z": 268619232,
+        "??3@YAXPAX@Z": 269247626,
+        "?Add@?$CGrowableArray@PAULINE_NODE@CDXUTLineManager@@@@QAEJABQAULINE_NODE@CDXUTLineManager@@@Z": 269055792
+      }
+    },
+    {
+      "symbol": "?CreateVolumeTextureFromResourceEx@CDXUTResourceCache@@QAEJPAUIDirect3DDevice9@@PAUHINSTANCE__@@PBDIIIIKW4_D3DFORMAT@@W4_D3DPOOL@@KKKPAU_D3DXIMAGE_INFO@@PAUtagPALETTEENTRY@@PAPAUIDirect3DVolumeTexture9@@@Z",
+      "rva": 623936,
+      "size": 616,
+      "potential_new_bytes": 616,
+      "inferred_targets": {
+        "__imp__lstrcmpA@8": 269373836,
+        "_D3DXCreateVolumeTextureFromResourceExA@64": 269245772,
+        "_IID_IDirect3DVolumeTexture9": 269410172,
+        "_IID_IDirect3DBaseTexture9": 269410220,
+        "?Add@?$CGrowableArray@UDXUTCache_Texture@@@@QAEJABUDXUTCache_Texture@@@Z": 269055552
+      }
+    },
+    {
+      "symbol": "?FrameMove@CFirstPersonCamera@@UAEXM@Z",
+      "rva": 617696,
+      "size": 601,
+      "potential_new_bytes": 601,
+      "inferred_targets": {
+        "?DXUTGetGlobalTimer@@YAPAVCDXUTTimer@@XZ": 269050800,
+        "?IsStopped@CDXUTTimer@@QAE_NXZ": 269039616,
+        "?DXUTGetFPS@@YAMXZ": 268950000,
+        "__real@3f800000": 269376300,
+        "?UpdateMouseDelta@CBaseCamera@@IAEXM@Z": 269041984,
+        "?UpdateVelocity@CBaseCamera@@IAEXM@Z": 269042256,
+        "__real@bfc90fdb": 269401048,
+        "__real@3fc90fdb": 269401044,
+        "_D3DXMatrixRotationYawPitchRoll@16": 269245742,
+        "_D3DXVec3TransformCoord@12": 269245718,
+        "?ConstrainToBoundary@CBaseCamera@@IAEXPAUD3DXVECTOR3@@@Z": 269042832,
+        "_D3DXMatrixLookAtLH@16": 269245700,
+        "_D3DXMatrixInverse@12": 269245604
+      }
+    },
+    {
+      "symbol": "?CreateVolumeTextureFromFileEx@CDXUTResourceCache@@QAEJPAUIDirect3DDevice9@@PBDIIIIKW4_D3DFORMAT@@W4_D3DPOOL@@KKKPAU_D3DXIMAGE_INFO@@PAUtagPALETTEENTRY@@PAPAUIDirect3DVolumeTexture9@@@Z",
+      "rva": 623344,
+      "size": 584,
+      "potential_new_bytes": 584,
+      "inferred_targets": {
+        "__imp__lstrcmpA@8": 269373836,
+        "_D3DXCreateVolumeTextureFromFileExA@60": 269245766,
+        "_IID_IDirect3DVolumeTexture9": 269410172,
+        "_IID_IDirect3DBaseTexture9": 269410220,
+        "?Add@?$CGrowableArray@UDXUTCache_Texture@@@@QAEJABUDXUTCache_Texture@@@Z": 269055552
+      }
+    },
+    {
+      "symbol": "?UpdateVelocity@CBaseCamera@@IAEXM@Z",
+      "rva": 606800,
+      "size": 574,
+      "potential_new_bytes": 574,
+      "inferred_targets": {
+        "__real@3f800000": 269376300,
+        "_D3DXVec3Normalize@8": 269245712,
+        "__real@00000000": 269375808
+      }
+    },
+    {
+      "symbol": "?CreateTextureFromResourceEx@CDXUTResourceCache@@QAEJPAUIDirect3DDevice9@@PAUHINSTANCE__@@PBDIIIKW4_D3DFORMAT@@W4_D3DPOOL@@KKKPAU_D3DXIMAGE_INFO@@PAUtagPALETTEENTRY@@PAPAUIDirect3DTexture9@@@Z",
+      "rva": 621712,
+      "size": 571,
+      "potential_new_bytes": 571,
+      "inferred_targets": {
+        "__imp__lstrcmpA@8": 269373836,
+        "_D3DXCreateTextureFromResourceExA@60": 269245748,
+        "_IID_IDirect3DTexture9": 269410204,
+        "_IID_IDirect3DBaseTexture9": 269410220,
+        "?Add@?$CGrowableArray@UDXUTCache_Texture@@@@QAEJABUDXUTCache_Texture@@@Z": 269055552
+      }
+    },
+    {
+      "symbol": "??0CModelViewerCamera@@QAE@XZ",
+      "rva": 618304,
+      "size": 555,
+      "potential_new_bytes": 555,
+      "inferred_targets": {
+        "??0CBaseCamera@@QAE@XZ": 269052624,
+        "??_7CModelViewerCamera@@6B@": 269401052,
+        "??0CD3DArcBall@@QAE@XZ": 269052384
+      }
+    },
+    {
+      "symbol": "?HandleMessages@CModelViewerCamera@@UAEJPAUHWND__@@IIJ@Z",
+      "rva": 609984,
+      "size": 544,
+      "potential_new_bytes": 544,
+      "inferred_targets": {
+        "?HandleMessages@CBaseCamera@@UAEJPAUHWND__@@IIJ@Z": 269041376,
+        "?OnBegin@CD3DArcBall@@QAEXHH@Z": 269040288,
+        "?OnMove@CD3DArcBall@@QAEXHH@Z": 269040464,
+        "?OnEnd@CD3DArcBall@@QAEXXZ": 269040624
+      }
+    },
+    {
+      "symbol": "?CreateTextureFromFileEx@CDXUTResourceCache@@QAEJPAUIDirect3DDevice9@@PBDIIIKW4_D3DFORMAT@@W4_D3DPOOL@@KKKPAU_D3DXIMAGE_INFO@@PAUtagPALETTEENTRY@@PAPAUIDirect3DTexture9@@@Z",
+      "rva": 621168,
+      "size": 538,
+      "potential_new_bytes": 538,
+      "inferred_targets": {
+        "__imp__lstrcmpA@8": 269373836,
+        "_D3DXCreateTextureFromFileExA@56": 269245580,
+        "_IID_IDirect3DTexture9": 269410204,
+        "_IID_IDirect3DBaseTexture9": 269410220,
+        "?Add@?$CGrowableArray@UDXUTCache_Texture@@@@QAEJABUDXUTCache_Texture@@@Z": 269055552
+      }
+    },
+    {
+      "symbol": "?CreateCubeTextureFromResourceEx@CDXUTResourceCache@@QAEJPAUIDirect3DDevice9@@PAUHINSTANCE__@@PBDIIKW4_D3DFORMAT@@W4_D3DPOOL@@KKKPAU_D3DXIMAGE_INFO@@PAUtagPALETTEENTRY@@PAPAUIDirect3DCubeTexture9@@@Z",
+      "rva": 622800,
+      "size": 530,
+      "potential_new_bytes": 530,
+      "inferred_targets": {
+        "__imp__lstrcmpA@8": 269373836,
+        "_D3DXCreateCubeTextureFromResourceExA@56": 269245760,
+        "_IID_IDirect3DCubeTexture9": 269410188,
+        "_IID_IDirect3DBaseTexture9": 269410220,
+        "?Add@?$CGrowableArray@UDXUTCache_Texture@@@@QAEJABUDXUTCache_Texture@@@Z": 269055552
+      }
+    },
+    {
+      "symbol": "?OnRender@CDXUTDirectionWidget@@QAEJUD3DXCOLOR@@PBUD3DXMATRIX@@1PBUD3DXVECTOR3@@@Z",
+      "rva": 613104,
+      "size": 529,
+      "potential_new_bytes": 529,
+      "inferred_targets": {
+        "?s_pEffect@CDXUTDirectionWidget@@1PAUID3DXEffect@@A": 269761548,
+        "??_C@_0BK@MCNKOHBK@RenderWith1LightNoTexture?$AA@": 269400888,
+        "??_C@_0BH@JOJPMGMM@g_MaterialDiffuseColor?$AA@": 269400864,
+        "_D3DXVec3Normalize@8": 269245712,
+        "_D3DXMatrixRotationX@8": 269245730,
+        "_D3DXMatrixLookAtLH@16": 269245700,
+        "_D3DXMatrixInverse@12": 269245604,
+        "_D3DXMatrixMultiply@12": 269245598,
+        "_D3DXMatrixTranslation@16": 269245694,
+        "__real@3e4ccccd": 269393040,
+        "_D3DXMatrixScaling@16": 269245622
+      }
+    },
+    {
+      "symbol": "?CreateCubeTextureFromFileEx@CDXUTResourceCache@@QAEJPAUIDirect3DDevice9@@PBDIIKW4_D3DFORMAT@@W4_D3DPOOL@@KKKPAU_D3DXIMAGE_INFO@@PAUtagPALETTEENTRY@@PAPAUIDirect3DCubeTexture9@@@Z",
+      "rva": 622288,
+      "size": 499,
+      "potential_new_bytes": 499,
+      "inferred_targets": {
+        "__imp__lstrcmpA@8": 269373836,
+        "_D3DXCreateCubeTextureFromFileExA@52": 269245754,
+        "_IID_IDirect3DCubeTexture9": 269410188,
+        "_IID_IDirect3DBaseTexture9": 269410220,
+        "?Add@?$CGrowableArray@UDXUTCache_Texture@@@@QAEJABUDXUTCache_Texture@@@Z": 269055552
+      }
+    },
+    {
+      "symbol": "??0CBaseCamera@@QAE@XZ",
+      "rva": 617168,
+      "size": 482,
+      "potential_new_bytes": 482,
+      "inferred_targets": {
+        "??_7CBaseCamera@@6B@": 269400988,
+        "?SetViewParams@CBaseCamera@@UAEXPAUD3DXVECTOR3@@0@Z": 269041040,
+        "?SetProjParams@CBaseCamera@@UAEXMMMM@Z": 269041296,
+        "__imp__GetCursorPos@4": 269374420,
+        "__imp__SetRect@20": 269374208
+      }
+    },
+    {
+      "symbol": "?UpdateLightDir@CDXUTDirectionWidget@@IAEJXZ",
+      "rva": 613648,
+      "size": 470,
+      "potential_new_bytes": 470,
+      "inferred_targets": {
+        "_D3DXMatrixInverse@12": 269245604,
+        "_D3DXMatrixRotationQuaternion@8": 269245688,
+        "_D3DXMatrixMultiply@12": 269245598,
+        "_D3DXVec3Normalize@8": 269245712,
+        "_D3DXVec3TransformNormal@12": 269245736
+      }
+    },
+    {
+      "symbol": "?Reset@CModelViewerCamera@@UAEXXZ",
+      "rva": 609328,
+      "size": 434,
+      "potential_new_bytes": 434,
+      "inferred_targets": {
+        "?Reset@CBaseCamera@@UAEXXZ": 269043264,
+        "?Reset@CD3DArcBall@@QAEXXZ": 269039680
+      }
+    },
+    {
+      "symbol": "?DrawTextLine@CDXUTTextHelper@@QAEJPBD@Z",
+      "rva": 612128,
+      "size": 379,
+      "potential_new_bytes": 379,
+      "inferred_targets": {
+        "__imp__SetRect@20": 269374208,
+        "__real@3f800000": 269376300,
+        "__real@00000000": 269375808,
+        "__real@437f0000": 269375708,
+        "__real@3f000000": 269375508,
+        "__ftol2": 269251652
+      }
+    },
+    {
+      "symbol": "?DrawTextLine@CDXUTTextHelper@@QAEJAAUtagRECT@@KPBD@Z",
+      "rva": 612512,
+      "size": 361,
+      "potential_new_bytes": 361,
+      "inferred_targets": {
+        "__real@3f800000": 269376300,
+        "__real@00000000": 269375808,
+        "__real@437f0000": 269375708,
+        "__real@3f000000": 269375508,
+        "__ftol2": 269251652
+      }
+    },
+    {
+      "symbol": "?CreateEffectFromResource@CDXUTResourceCache@@QAEJPAUIDirect3DDevice9@@PAUHINSTANCE__@@PBDPBU_D3DXMACRO@@PAUID3DXInclude@@KPAUID3DXEffectPool@@PAPAUID3DXEffect@@PAPAUID3DXBuffer@@@Z",
+      "rva": 625136,
+      "size": 340,
+      "potential_new_bytes": 340,
+      "inferred_targets": {
+        "__imp__lstrcmpA@8": 269373836,
+        "_D3DXCreateEffectFromResourceA@36": 269245790,
+        "?Add@?$CGrowableArray@UDXUTCache_Effect@@@@QAEJABUDXUTCache_Effect@@@Z": 269055632
+      }
+    },
+    {
+      "symbol": "??BD3DXCOLOR@@QBEKXZ",
+      "rva": 541584,
+      "size": 317,
+      "potential_new_bytes": 317,
+      "inferred_targets": {
+        "__real@3f800000": 269376300,
+        "__real@00000000": 269375808,
+        "__real@437f0000": 269375708,
+        "__real@3f000000": 269375508,
+        "__ftol2": 269251652
+      }
+    },
+    {
+      "symbol": "??0CDXUTDirectionWidget@@QAE@XZ",
+      "rva": 619392,
+      "size": 302,
+      "potential_new_bytes": 302,
+      "inferred_targets": {
+        "??0CD3DArcBall@@QAE@XZ": 269052384
+      }
+    },
+    {
+      "symbol": "?CreateEffectFromFile@CDXUTResourceCache@@QAEJPAUIDirect3DDevice9@@PBDPBU_D3DXMACRO@@PAUID3DXInclude@@KPAUID3DXEffectPool@@PAPAUID3DXEffect@@PAPAUID3DXBuffer@@@Z",
+      "rva": 624832,
+      "size": 299,
+      "potential_new_bytes": 299,
+      "inferred_targets": {
+        "__imp__lstrcmpA@8": 269373836,
+        "_D3DXCreateEffectFromFileA@32": 269245784,
+        "?Add@?$CGrowableArray@UDXUTCache_Effect@@@@QAEJABUDXUTCache_Effect@@@Z": 269055632
+      }
+    },
+    {
+      "symbol": "?AddRect@CDXUTLineManager@@QAEJPAHUtagRECT@@KMM_N@Z",
+      "rva": 626640,
+      "size": 288,
+      "potential_new_bytes": 288,
+      "inferred_targets": {
+        "__real@40000000": 269377816,
+        "__real@3f000000": 269375508,
+        "?AddLine@CDXUTLineManager@@QAEJPAHPAUD3DXVECTOR2@@KKMM_N@Z": 269061456
+      }
+    },
+    {
+      "symbol": "?UpdateMouseDelta@CBaseCamera@@IAEXM@Z",
+      "rva": 606528,
+      "size": 272,
+      "potential_new_bytes": 272,
+      "inferred_targets": {
+        "__imp__GetCursorPos@4": 269374420,
+        "__imp__GetDesktopWindow@0": 269374376,
+        "__imp__GetWindowRect@8": 269374304,
+        "__imp__SetCursorPos@8": 269374424,
+        "__real@3f800000": 269376300
+      }
+    },
+    {
+      "symbol": "?CreateFontIndirectA@CDXUTResourceCache@@QAEJPAUIDirect3DDevice9@@PBU_D3DXFONT_DESCA@@PAPAUID3DXFont@@@Z",
+      "rva": 624560,
+      "size": 257,
+      "potential_new_bytes": 257,
+      "inferred_targets": {
+        "__imp__CompareStringA@24": 269373856,
+        "_D3DXCreateFontIndirectA@12": 269245778,
+        "?Add@?$CGrowableArray@UDXUTCache_Font@@@@QAEJABUDXUTCache_Font@@@Z": 269055712
+      }
+    },
+    {
+      "symbol": "?SetViewParams@CBaseCamera@@UAEXPAUD3DXVECTOR3@@0@Z",
+      "rva": 605584,
+      "size": 244,
+      "potential_new_bytes": 244,
+      "inferred_targets": {
+        "_D3DXMatrixLookAtLH@16": 269245700,
+        "_D3DXMatrixInverse@12": 269245604
+      }
+    },
+    {
+      "symbol": "?StaticOnCreateDevice@CDXUTDirectionWidget@@SAJPAUIDirect3DDevice9@@@Z",
+      "rva": 626928,
+      "size": 235,
+      "potential_new_bytes": 235,
+      "inferred_targets": {
+        "??_C@_0BB@NKBHBICM@UI?2DXUTShared?4fx?$AA@": 269401092,
+        "?s_pd3dDevice@CDXUTDirectionWidget@@1PAUIDirect3DDevice9@@A": 269761544,
+        "?DXUTFindDXSDKMediaFileCch@@YAJPADHPBD@Z": 269056048,
+        "?s_pEffect@CDXUTDirectionWidget@@1PAUID3DXEffect@@A": 269761548,
+        "_D3DXCreateEffectFromFileA@32": 269245784,
+        "??_C@_0L@HCLLIMDN@UI?2arrow?4x?$AA@": 269401080,
+        "?s_pMesh@CDXUTDirectionWidget@@1PAUID3DXMesh@@A": 269761552,
+        "_D3DXLoadMeshFromXA@32": 269245664,
+        "??2@YAPAXI@Z": 269247098,
+        "??3@YAXPAX@Z": 269247626
+      }
+    },
+    {
+      "symbol": "??0CD3DArcBall@@QAE@XZ",
+      "rva": 616928,
+      "size": 228,
+      "potential_new_bytes": 228,
+      "inferred_targets": {
+        "?Reset@CD3DArcBall@@QAEXXZ": 269039680,
+        "__imp__GetForegroundWindow@0": 269374408,
+        "__imp__GetClientRect@8": 269374320,
+        "__real@3f000000": 269375508
+      }
+    },
+    {
+      "symbol": "?SetViewParams@CModelViewerCamera@@UAEXPAUD3DXVECTOR3@@0@Z",
+      "rva": 609776,
+      "size": 204,
+      "potential_new_bytes": 204,
+      "inferred_targets": {
+        "?SetViewParams@CBaseCamera@@UAEXPAUD3DXVECTOR3@@0@Z": 269041040,
+        "_D3DXMatrixLookAtLH@16": 269245700,
+        "_D3DXQuaternionRotationMatrix@8": 269245724
+      }
+    },
+    {
+      "symbol": "?ScreenToVector@CD3DArcBall@@IAE?AUD3DXVECTOR3@@MM@Z",
+      "rva": 604496,
+      "size": 202,
+      "potential_new_bytes": 202,
+      "inferred_targets": {
+        "__real@3f000000": 269375508,
+        "__real@3f800000": 269376300
+      }
+    },
+    {
+      "symbol": "?OnBegin@CD3DArcBall@@QAEXHH@Z",
+      "rva": 604832,
+      "size": 162,
+      "potential_new_bytes": 162,
+      "inferred_targets": {
+        "?ScreenToVector@CD3DArcBall@@IAE?AUD3DXVECTOR3@@MM@Z": 269039952
+      }
+    },
+    {
+      "symbol": "?OnMove@CD3DArcBall@@QAEXHH@Z",
+      "rva": 605008,
+      "size": 149,
+      "potential_new_bytes": 149,
+      "inferred_targets": {
+        "?ScreenToVector@CD3DArcBall@@IAE?AUD3DXVECTOR3@@MM@Z": 269039952,
+        "?QuatFromBallPoints@CD3DArcBall@@SA?AUD3DXQUATERNION@@ABUD3DXVECTOR3@@0@Z": 269040160,
+        "_D3DXQuaternionMultiply@12": 269245682
+      }
+    },
+    {
+      "symbol": "?CreateFontA@CDXUTResourceCache@@QAEJPAUIDirect3DDevice9@@IIIIHKKKKPBDPAPAUID3DXFont@@@Z",
+      "rva": 628096,
+      "size": 147,
+      "potential_new_bytes": 147,
+      "inferred_targets": {
+        "?CreateFontIndirectA@CDXUTResourceCache@@QAEJPAUIDirect3DDevice9@@PBU_D3DXFONT_DESCA@@PAPAUID3DXFont@@@Z": 269060016
+      }
+    },
+    {
+      "symbol": "?SetWindow@CModelViewerCamera@@QAEXHHM@Z",
+      "rva": 602912,
+      "size": 141,
+      "potential_new_bytes": 141,
+      "inferred_targets": {
+        "__real@3f000000": 269375508
+      }
+    },
+    {
+      "symbol": "?SetDragRect@CModelViewerCamera@@UAEXAAUtagRECT@@@Z",
+      "rva": 609216,
+      "size": 102,
+      "potential_new_bytes": 102,
+      "inferred_targets": {
+        "?SetWindow@CModelViewerCamera@@QAEXHHM@Z": 269038368
+      }
+    },
+    {
+      "symbol": "?RemoveLine@CDXUTLineManager@@QAEJH@Z",
+      "rva": 619104,
+      "size": 98,
+      "potential_new_bytes": 98,
+      "inferred_targets": {
+        "??3@YAXPAX@Z": 269247626,
+        "?SetAt@?$CGrowableArray@PAULINE_NODE@CDXUTLineManager@@@@QAEJHABQAULINE_NODE@CDXUTLineManager@@@Z": 269050096
+      }
+    },
+    {
+      "symbol": "?OnResetDevice@CDXUTDirectionWidget@@QAEJPBU_D3DSURFACE_DESC@@@Z",
+      "rva": 612912,
+      "size": 95,
+      "potential_new_bytes": 95,
+      "inferred_targets": {
+        "__real@3f000000": 269375508
+      }
+    },
+    {
+      "symbol": "?DrawFormattedTextLine@CDXUTTextHelper@@QAAJAAUtagRECT@@KPBDZZ",
+      "rva": 619296,
+      "size": 87,
+      "potential_new_bytes": 87,
+      "inferred_targets": {
+        "__vsnprintf": 269257167,
+        "?DrawTextLine@CDXUTTextHelper@@QAEJAAUtagRECT@@KPBD@Z": 269047968
+      }
+    },
+    {
+      "symbol": "?SetWindow@CD3DArcBall@@QAEXHHM@Z",
+      "rva": 602640,
+      "size": 85,
+      "potential_new_bytes": 85,
+      "inferred_targets": {
+        "__real@3f000000": 269375508
+      }
+    },
+    {
+      "symbol": "?StringCatWorkerA@@YGJPADIPBD@Z",
+      "rva": 508464,
+      "size": 84,
+      "potential_new_bytes": 84,
+      "inferred_targets": {
+        "?StringCopyWorkerA@@YGJPADIPBD@Z": 268927248
+      }
+    },
+    {
+      "symbol": "?RemoveAllLines@CDXUTLineManager@@QAEJXZ",
+      "rva": 628256,
+      "size": 80,
+      "potential_new_bytes": 80,
+      "inferred_targets": {
+        "??3@YAXPAX@Z": 269247626,
+        "?SetSize@?$CGrowableArray@PAULINE_NODE@CDXUTLineManager@@@@QAEJH@Z": 269055776
+      }
+    },
+    {
+      "symbol": "?DrawFormattedTextLine@CDXUTTextHelper@@QAAJPBDZZ",
+      "rva": 619216,
+      "size": 71,
+      "potential_new_bytes": 71,
+      "inferred_targets": {
+        "__vsnprintf": 269257167,
+        "?DrawTextLine@CDXUTTextHelper@@QAEJPBD@Z": 269047584
+      }
+    },
+    {
+      "symbol": "?SetProjParams@CBaseCamera@@UAEXMMMM@Z",
+      "rva": 605840,
+      "size": 70,
+      "potential_new_bytes": 70,
+      "inferred_targets": {
+        "_D3DXMatrixPerspectiveFovLH@20": 269245706
+      }
+    },
+    {
+      "symbol": "??1CDXUTLineManager@@QAE@XZ",
+      "rva": 628624,
+      "size": 67,
+      "potential_new_bytes": 67,
+      "inferred_targets": {
+        "__ehhandler$??1CDXUTLineManager@@QAE@XZ": 269368664,
+        "__except_list": 0,
+        "?OnDeletedDevice@CDXUTLineManager@@QAEJXZ": 269064048,
+        "?SetSize@?$CGrowableArray@PAULINE_NODE@CDXUTLineManager@@@@QAEJH@Z": 269055776
+      }
+    },
+    {
+      "symbol": "?Add@?$CGrowableArray@UDXUTCache_Texture@@@@QAEJABUDXUTCache_Texture@@@Z",
+      "rva": 620096,
+      "size": 58,
+      "potential_new_bytes": 58,
+      "inferred_targets": {
+        "?SetSizeInternal@?$CGrowableArray@UDXUTCache_Texture@@@@IAEJH@Z": 269050144
+      }
+    },
+    {
+      "symbol": "?Add@?$CGrowableArray@UDXUTCache_Effect@@@@QAEJABUDXUTCache_Effect@@@Z",
+      "rva": 620176,
+      "size": 58,
+      "potential_new_bytes": 58,
+      "inferred_targets": {
+        "?SetSizeInternal@?$CGrowableArray@UDXUTCache_Effect@@@@IAEJH@Z": 269050288
+      }
+    },
+    {
+      "symbol": "??DD3DXQUATERNION@@QBE?AU0@ABU0@@Z",
+      "rva": 602240,
+      "size": 57,
+      "potential_new_bytes": 57,
+      "inferred_targets": {
+        "_D3DXQuaternionMultiply@12": 269245682
+      }
+    },
+    {
+      "symbol": "?Add@?$CGrowableArray@UDXUTCache_Font@@@@QAEJABUDXUTCache_Font@@@Z",
+      "rva": 620256,
+      "size": 55,
+      "potential_new_bytes": 55,
+      "inferred_targets": {
+        "?SetSizeInternal@?$CGrowableArray@UDXUTCache_Font@@@@IAEJH@Z": 269050432
+      }
+    },
+    {
+      "symbol": "?CreateVolumeTextureFromResource@CDXUTResourceCache@@QAEJPAUIDirect3DDevice9@@PAUHINSTANCE__@@PBDPAPAUIDirect3DVolumeTexture9@@@Z",
+      "rva": 628032,
+      "size": 52,
+      "potential_new_bytes": 52,
+      "inferred_targets": {
+        "?CreateVolumeTextureFromResourceEx@CDXUTResourceCache@@QAEJPAUIDirect3DDevice9@@PAUHINSTANCE__@@PBDIIIIKW4_D3DFORMAT@@W4_D3DPOOL@@KKKPAU_D3DXIMAGE_INFO@@PAUtagPALETTEENTRY@@PAPAUIDirect3DVolumeTexture9@@@Z": 269059392
+      }
+    },
+    {
+      "symbol": "?StaticOnDestroyDevice@CDXUTDirectionWidget@@SAXXZ",
+      "rva": 613040,
+      "size": 51,
+      "potential_new_bytes": 51,
+      "inferred_targets": {
+        "?s_pEffect@CDXUTDirectionWidget@@1PAUID3DXEffect@@A": 269761548,
+        "?s_pMesh@CDXUTDirectionWidget@@1PAUID3DXMesh@@A": 269761552
+      }
+    },
+    {
+      "symbol": "?CreateTextureFromResource@CDXUTResourceCache@@QAEJPAUIDirect3DDevice9@@PAUHINSTANCE__@@PBDPAPAUIDirect3DTexture9@@@Z",
+      "rva": 627824,
+      "size": 50,
+      "potential_new_bytes": 50,
+      "inferred_targets": {
+        "?CreateTextureFromResourceEx@CDXUTResourceCache@@QAEJPAUIDirect3DDevice9@@PAUHINSTANCE__@@PBDIIIKW4_D3DFORMAT@@W4_D3DPOOL@@KKKPAU_D3DXIMAGE_INFO@@PAUtagPALETTEENTRY@@PAPAUIDirect3DTexture9@@@Z": 269057168
+      }
+    },
+    {
+      "symbol": "?CreateCubeTextureFromResource@CDXUTResourceCache@@QAEJPAUIDirect3DDevice9@@PAUHINSTANCE__@@PBDPAPAUIDirect3DCubeTexture9@@@Z",
+      "rva": 627936,
+      "size": 48,
+      "potential_new_bytes": 48,
+      "inferred_targets": {
+        "?CreateCubeTextureFromResourceEx@CDXUTResourceCache@@QAEJPAUIDirect3DDevice9@@PAUHINSTANCE__@@PBDIIKW4_D3DFORMAT@@W4_D3DPOOL@@KKKPAU_D3DXIMAGE_INFO@@PAUtagPALETTEENTRY@@PAPAUIDirect3DCubeTexture9@@@Z": 269058256
+      }
+    },
+    {
+      "symbol": "?CreateVolumeTextureFromFile@CDXUTResourceCache@@QAEJPAUIDirect3DDevice9@@PBDPAPAUIDirect3DVolumeTexture9@@@Z",
+      "rva": 627984,
+      "size": 47,
+      "potential_new_bytes": 47,
+      "inferred_targets": {
+        "?CreateVolumeTextureFromFileEx@CDXUTResourceCache@@QAEJPAUIDirect3DDevice9@@PBDIIIIKW4_D3DFORMAT@@W4_D3DPOOL@@KKKPAU_D3DXIMAGE_INFO@@PAUtagPALETTEENTRY@@PAPAUIDirect3DVolumeTexture9@@@Z": 269058800
+      }
+    },
+    {
+      "symbol": "??DD3DXMATRIX@@QBE?AU0@ABU0@@Z",
+      "rva": 474864,
+      "size": 46,
+      "potential_new_bytes": 46,
+      "inferred_targets": {
+        "_D3DXMatrixMultiply@12": 269245598
+      }
+    },
+    {
+      "symbol": "??KD3DXVECTOR3@@QBE?AU0@M@Z",
+      "rva": 602096,
+      "size": 45,
+      "potential_new_bytes": 45,
+      "inferred_targets": {
+        "__real@3f800000": 269376300
+      }
+    },
+    {
+      "symbol": "?CreateTextureFromFile@CDXUTResourceCache@@QAEJPAUIDirect3DDevice9@@PBDPAPAUIDirect3DTexture9@@@Z",
+      "rva": 627776,
+      "size": 45,
+      "potential_new_bytes": 45,
+      "inferred_targets": {
+        "?CreateTextureFromFileEx@CDXUTResourceCache@@QAEJPAUIDirect3DDevice9@@PBDIIIKW4_D3DFORMAT@@W4_D3DPOOL@@KKKPAU_D3DXIMAGE_INFO@@PAUtagPALETTEENTRY@@PAPAUIDirect3DTexture9@@@Z": 269056624
+      }
+    },
+    {
+      "symbol": "?CreateCubeTextureFromFile@CDXUTResourceCache@@QAEJPAUIDirect3DDevice9@@PBDPAPAUIDirect3DCubeTexture9@@@Z",
+      "rva": 627888,
+      "size": 43,
+      "potential_new_bytes": 43,
+      "inferred_targets": {
+        "?CreateCubeTextureFromFileEx@CDXUTResourceCache@@QAEJPAUIDirect3DDevice9@@PBDIIKW4_D3DFORMAT@@W4_D3DPOOL@@KKKPAU_D3DXIMAGE_INFO@@PAUtagPALETTEENTRY@@PAPAUIDirect3DCubeTexture9@@@Z": 269057744
+      }
+    },
+    {
+      "symbol": "?StringCchLengthA@@YGJPBDIPAI@Z",
+      "rva": 615296,
+      "size": 40,
+      "potential_new_bytes": 40,
+      "inferred_targets": {
+        "?StringLengthWorkerA@@YGJPBDIPAI@Z": 268927424
+      }
+    },
+    {
+      "symbol": "?OnDeletedDevice@CDXUTLineManager@@QAEJXZ",
+      "rva": 628592,
+      "size": 32,
+      "potential_new_bytes": 32,
+      "inferred_targets": {
+        "?RemoveAllLines@CDXUTLineManager@@QAEJXZ": 269063712
+      }
+    },
+    {
+      "symbol": "?OnCreatedDevice@CDXUTLineManager@@QAEJPAUIDirect3DDevice9@@@Z",
+      "rva": 611952,
+      "size": 30,
+      "potential_new_bytes": 30,
+      "inferred_targets": {
+        "_D3DXCreateLine@8": 269245592
+      }
+    },
+    {
+      "symbol": "?StringCchVPrintfA@@YGJPADIPBD0@Z",
+      "rva": 615264,
+      "size": 28,
+      "potential_new_bytes": 28,
+      "inferred_targets": {
+        "?StringVPrintfWorkerA@@YGJPADIPBD0@Z": 268927328
+      }
+    },
+    {
+      "symbol": "??0CFirstPersonCamera@@QAE@XZ",
+      "rva": 617664,
+      "size": 28,
+      "potential_new_bytes": 28,
+      "inferred_targets": {
+        "??0CBaseCamera@@QAE@XZ": 269052624,
+        "??_7CFirstPersonCamera@@6B@": 269401016
+      }
+    },
+    {
+      "symbol": "?DXUT_Dynamic_D3DPERF_BeginEvent@@YGHKPBD@Z",
+      "rva": 627488,
+      "size": 26,
+      "potential_new_bytes": 26,
+      "inferred_targets": {
+        "?DXUT_EnsureD3DAPIs@@YA_NXZ": 269062624,
+        "_s_DynamicD3DPERF_BeginEvent": 269761564
+      }
+    },
+    {
+      "symbol": "?DXUT_Dynamic_Direct3DCreate9@@YGPAUIDirect3D9@@I@Z",
+      "rva": 627456,
+      "size": 25,
+      "potential_new_bytes": 25,
+      "inferred_targets": {
+        "?DXUT_EnsureD3DAPIs@@YA_NXZ": 269062624,
+        "_s_DynamicDirect3DCreate9": 269761560
+      }
+    },
+    {
+      "symbol": "?DXUT_Dynamic_D3DPERF_EndEvent@@YGHXZ",
+      "rva": 627520,
+      "size": 24,
+      "potential_new_bytes": 24,
+      "inferred_targets": {
+        "?DXUT_EnsureD3DAPIs@@YA_NXZ": 269062624,
+        "_s_DynamicD3DPERF_EndEvent": 269761568
+      }
+    },
+    {
+      "symbol": "?DXUT_Dynamic_D3DPERF_SetOptions@@YGXK@Z",
+      "rva": 627648,
+      "size": 23,
+      "potential_new_bytes": 23,
+      "inferred_targets": {
+        "?DXUT_EnsureD3DAPIs@@YA_NXZ": 269062624,
+        "_s_DynamicD3DPERF_SetOptions": 269761584
+      }
+    },
+    {
+      "symbol": "??XD3DXMATRIX@@QAEAAU0@ABU0@@Z",
+      "rva": 602144,
+      "size": 21,
+      "potential_new_bytes": 21,
+      "inferred_targets": {
+        "_D3DXMatrixMultiply@12": 269245598
+      }
+    },
+    {
+      "symbol": "?StaticOnLostDevice@CDXUTDirectionWidget@@SAXXZ",
+      "rva": 613008,
+      "size": 19,
+      "potential_new_bytes": 19,
+      "inferred_targets": {
+        "?s_pEffect@CDXUTDirectionWidget@@1PAUID3DXEffect@@A": 269761548
+      }
+    },
+    {
+      "symbol": "?GetRotationMatrix@CD3DArcBall@@QAEPBUD3DXMATRIX@@XZ",
+      "rva": 602768,
+      "size": 14,
+      "potential_new_bytes": 14,
+      "inferred_targets": {
+        "_D3DXMatrixRotationQuaternion@8": 269245688
+      }
+    },
+    {
+      "symbol": "?OnEnd@CD3DArcBall@@QAEXXZ",
+      "rva": 605168,
+      "size": 8,
+      "potential_new_bytes": 8,
+      "inferred_targets": {}
+    },
+    {
+      "symbol": "?IsBeingDragged@CD3DArcBall@@QBE_NXZ",
+      "rva": 602784,
+      "size": 7,
+      "potential_new_bytes": 7,
+      "inferred_targets": {}
+    },
+    {
+      "symbol": "??2@YAPAXIPAX@Z",
+      "rva": 491760,
+      "size": 5,
+      "potential_new_bytes": 5,
+      "inferred_targets": {}
+    },
+    {
+      "symbol": "?DXTraceWrapper@@YGJPBDKJ0H@Z",
+      "rva": 614128,
+      "size": 5,
+      "potential_new_bytes": 5,
+      "inferred_targets": {}
+    }
+  ],
+  "limits": "Full candidate byte shapes including inferred fixups, not target identities or acceptance. Complete link/provider review required; ambiguous functions and attached-table bodies omitted by this initial scan."
+}
