@@ -1,0 +1,24 @@
+{
+  "status": "ACCEPTED_AFTER_COMPLETE_LINK_REVIEW",
+  "run": "cp32-pickup-model-linked",
+  "ob1": "cp32-pickup-model-ob1",
+  "ob2": "cp32-gui-overwrite-ob2",
+  "new_unique_code_bytes": 589,
+  "direct_025_accepted_bytes": 385,
+  "total_direct_025_accepted_bytes": 2820,
+  "verification": "2118 complete regions; full code+typed command object18;10 negative controls and actor ABI PASS. Oldhashes/targets preserved. No new external provider gaps, partial model pointer views not allocated or credited as complete layouts.",
+  "throughput": {
+    "start": {
+      "start_utc": "2026-09-05T20:11:21Z",
+      "accepted_code_bytes": 173141,
+      "proof": "evidence/checkpoint32/dxut-state-extra-acceptance.json",
+      "agents": 3,
+      "coordination_included": true
+    },
+    "measured_at": "2026-09-05T20:40:53.596676+00:00",
+    "elapsed_seconds": 1772.596676,
+    "new_unique_accepted_bytes": 2250,
+    "bytes_per_hour": 4569.567409027456,
+    "note": "All coordination and failed trials included; not causal speedup estimate."
+  }
+}

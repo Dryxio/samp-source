@@ -37,6 +37,8 @@ def draft(run, extra_seeds=None):
             offset=symbol['value'];size=18;kind='script-command'
         if unit=='closure_pickup_weapon' and kind=='data' and symbol['name'] in ('_request_model','_load_requested_models','_is_model_available','_create_pickup_with_ammo'):
             offset=symbol['value'];size=18;kind='script-command'
+        if unit=='closure_pickup_create' and kind=='data' and symbol['name'] in ('_request_model','_load_requested_models','_is_model_available','_destroy_pickup','_create_pickup_r5'):
+            offset=symbol['value'];size=18;kind='script-command'
         if unit=='closure_state':
             offset=symbol['value'];size=2 if symbol['name']=='?wVehicleComponentDebug@@3GA' else 4;kind='zero-object'
         base=rva-symbol['value']+offset;key=(unit,index,offset,size)
