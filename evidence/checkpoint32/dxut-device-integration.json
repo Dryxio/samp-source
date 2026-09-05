@@ -1,0 +1,111 @@
+{
+  "status": "ACCEPTED_AFTER_COMPLETE_LINK_REVIEW",
+  "run": "cp32-dxut-device-linked",
+  "ob1": "cp32-dxut-device-ob1",
+  "ob2": "cp32-ime-ob2",
+  "new_unique_code_bytes": 1013,
+  "accepted_direct_025_credit": 0,
+  "reference_comparisons": [
+    {
+      "function": "DXUTDoesDeviceComboMatchPreserveOptions",
+      "identical_to_025": true
+    },
+    {
+      "function": "DXUTColorChannelBits",
+      "identical_to_025": true
+    },
+    {
+      "function": "DXUTAlphaChannelBits",
+      "identical_to_025": true
+    },
+    {
+      "function": "DXUTDepthBits",
+      "identical_to_025": true
+    },
+    {
+      "function": "DXUTStencilBits",
+      "identical_to_025": true
+    }
+  ],
+  "source_adaptations": "Extraction headers only. Original functions and switch statements unchanged.",
+  "format_candidates": [
+    {
+      "symbol": "?DXUTColorChannelBits@@YAIW4_D3DFORMAT@@@Z",
+      "comdat_size": 128,
+      "candidates": [
+        {
+          "rva": 534192,
+          "code_size": 58,
+          "inferred_targets": {
+            "$L81899": 268969708,
+            "$L81509": 268969667,
+            "$L81512": 268969673,
+            "$L81515": 268969679,
+            "$L81516": 268969685,
+            "$L81523": 268969703,
+            "$L81519": 268969691,
+            "$L81522": 268969697
+          }
+        }
+      ]
+    },
+    {
+      "symbol": "?DXUTAlphaChannelBits@@YAIW4_D3DFORMAT@@@Z",
+      "comdat_size": 120,
+      "candidates": [
+        {
+          "rva": 534320,
+          "code_size": 52,
+          "inferred_targets": {
+            "$L81903": 268969828,
+            "$L81545": 268969825,
+            "$L81532": 268969795,
+            "$L81536": 268969801,
+            "$L81537": 268969807,
+            "$L81541": 268969813,
+            "$L81544": 268969819
+          }
+        }
+      ]
+    },
+    {
+      "symbol": "?DXUTDepthBits@@YAIW4_D3DFORMAT@@@Z",
+      "comdat_size": 90,
+      "candidates": [
+        {
+          "rva": 534448,
+          "code_size": 53,
+          "inferred_targets": {
+            "$L81906": 268969980,
+            "$L81907": 268969960,
+            "$L81555": 268969942,
+            "$L81553": 268969930,
+            "$L81556": 268969948,
+            "$L81554": 268969936,
+            "$L81557": 268969954
+          }
+        }
+      ]
+    },
+    {
+      "symbol": "?DXUTStencilBits@@YAIW4_D3DFORMAT@@@Z",
+      "comdat_size": 82,
+      "candidates": [
+        {
+          "rva": 534544,
+          "code_size": 47,
+          "inferred_targets": {
+            "$L81910": 268970068,
+            "$L81911": 268970048,
+            "$L81569": 268970044,
+            "$L81566": 268970026,
+            "$L81568": 268970038,
+            "$L81567": 268970032
+          }
+        }
+      ]
+    }
+  ],
+  "limits": "Color128/Alpha120/Depth90/Stencil82 full COMDATs include code58/52/53/47 respectively and complete attached tables/alignment. Full comparisons include all table destinations/PE relocations. Only code counts; Color58 already covered in CP3.1.",
+  "verification": "1166 complete regions,9 negative controls and existing ABI pass. All helpers have actual source. No added external import or pending provider. Eight previous pending providers unchanged. No graphics/game execution."
+}
