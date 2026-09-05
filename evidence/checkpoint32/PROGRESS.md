@@ -1228,3 +1228,10 @@ Textdrawclick/update/HUD355+EH21: SendClick149directint,158WORDaliasbothfailed; 
 Latestcp32-world-state-click-linked2;Ob1cp32-world-state-click-ob1c,Ob2cp32-gui-overwrite-ob2;unitsbuild/world-state-click-units.txt,launcherbuild/run_world_state_click.ps1,reviewbuild/review_world_state_click.py. Contract/seeds/acceptance/integration world-state-click. Total14662uniquegainedsincebaseline173141; direct025gain9156; measuredrateinintegrationjsonincludescoordination. Localcommitonly,wholeDLLfalse/fullgoalactive.
 
 Nextcp32-input-animation-trial1live: sixanimation/cameraRPC1925potential+EH126;HideTextdraw164(char*ctorcorrectedfromagentunsignedcast); ProcessInputDisabling283+RestoreMouse70 base-sourcefoundationswiththree5-byteexistingnativeGTApatchdataarrays, noR5codecopyorcoverageforthosearrays. Agent1auditingremainingUIcontroller/editoridentities; formerguessesScoreBoard/Dialogwithdrawn,donotassertthemunproven. Agent2awaitingprobe. Preservealluntracked evalsources/failedtrials.
+
+
+## Input restoration and animation/camera RPC lot accepted
+
+190392/930756 (20.455630%), +2589 unique code: input353, HideTextDraw164, animation/camera1925, seven EH147. Direct0251434 (Hide164 + animation1270), cumulative12113. All complete linked regions/actual providers, seven full36-byte EH maps, ten negative controls and actor ABI pass. Three five-byte source GTA patch arrays receive no code credit and were never executed. Input symbolic native-call helpers labeled; no instruction blobs. Eight old pending unchanged.
+
+Run cp32-input-animation-linked; Ob1 cp32-input-animation-ob1, Ob2 cp32-gui-overwrite-ob2. Seeds/contract/acceptance/integration input-animation; review build/review_input_animation.py; units build/input-animation-units.txt. Throughput from real union and elapsed coordination recorded in integration. World-extra/object-selection trial1 compiled next, discovery under review. Full goal active, no push/deploy.
