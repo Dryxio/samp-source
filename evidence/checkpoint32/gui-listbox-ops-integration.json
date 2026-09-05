@@ -1,0 +1,21 @@
+{
+  "status": "ACCEPTED_AFTER_COMPLETE_LINK_REVIEW",
+  "run": "cp32-gui-listbox-ops-linked",
+  "ob1": "cp32-gui-listbox-ops-context-ob1",
+  "ob2": "cp32-ime-ob2",
+  "new_unique_code_bytes": 909,
+  "accepted_direct_025_credit": 0,
+  "source_adaptations": "Same verified partial views for selected and scrollbar/rectangles. UpdateRects uses CDXUTDialog::GetFont. UpdateRects/SetTrackRange placed in controls unit with actual Cap/UpdateThumbRect definitions, shared layout_header reused without modifying global headers.",
+  "reference_comparison": "All7 source bodies identical to0.2.5/base. R5 layouts and dialog font access differ; no new direct transfer credit.",
+  "trials": [
+    {
+      "run": "cp32-gui-listbox-ops-ob1",
+      "outcome": "Five listbox operations match. SetTrackRange41 vs original33, UpdateRects266 vs256 fail; original UpdateRects calls accepted GetFont870C0."
+    },
+    {
+      "run": "cp32-gui-listbox-ops-context-ob1",
+      "outcome": "SetTrackRange33 and UpdateRects256 match after provider selection/source context restored. Only controls and listbox recompiled."
+    }
+  ],
+  "verification": "1868 whole regions, every actual target/PE relocation,10 negative controls and existing ABI pass. Seven full methods plus typed array Remove68/SetSize5/SetSizeInternal142;942 code bytes in new regions,909 unique after prior-proof overlap. No new imports/data/pending. Unselected SetPageSize23 not credited. Remove uses actual unsized delete, no full item-layout/allocation claim. No input/GUI/game execution; no push/deployment."
+}

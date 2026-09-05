@@ -22,6 +22,8 @@ typedef char VerifyScrollOffset[offsetof(R5ListBoxScrollView, scrollbar)==0x5d ?
 typedef char VerifyTextOffset[offsetof(R5ListBoxScrollView, text)==0x10f ? 1 : -1];
 typedef char VerifySelectionOffset[offsetof(R5ListBoxScrollView, selection)==0x11f ? 1 : -1];
 typedef char VerifySelectedOffset[offsetof(R5ListBoxItemSelectionView, selected)==0x298 ? 1 : -1];
+inline int RectWidth( RECT &rc ) { return ( (rc).right - (rc).left ); }
+inline int RectHeight( RECT &rc ) { return ( (rc).bottom - (rc).top ); }
 bool CDXUTListBox::HandleKeyboard( UINT uMsg, WPARAM wParam, LPARAM lParam )
 {
     if( !m_bEnabled || !m_bVisible )
@@ -327,6 +329,96 @@ bool CDXUTListBox::HandleMouse( UINT uMsg, POINT pt, WPARAM wParam, LPARAM lPara
     }
 
     return false;
+}
+void CDXUTListBox::SelectItem( int nNewIndex )
+{
+    // If no item exists, do nothing.
+    if( m_Items.GetSize() == 0 )
+        return;
+
+    int nOldSelected = m_nSelected;
+
+    // Adjust m_nSelected
+    m_nSelected = nNewIndex;
+
+    // Perform capping
+    if( m_nSelected < 0 )
+        m_nSelected = 0;
+    if( m_nSelected >= (int)m_Items.GetSize() )
+        m_nSelected = m_Items.GetSize() - 1;
+
+    if( nOldSelected != m_nSelected )
+    {
+        if( m_dwStyle & MULTISELECTION )
+        {
+            reinterpret_cast<R5ListBoxItemSelectionView*>(m_Items[m_nSelected])->selected = true;
+        }
+
+        // Update selection start
+        m_nSelStart = m_nSelected;
+
+        // Adjust scroll bar
+        reinterpret_cast<R5ListBoxScrollView*>(this)->scrollbar.ShowItem( m_nSelected );
+    }
+
+    m_pDialog->SendEvent( EVENT_LISTBOX_SELECTION, true, this );
+}
+int CDXUTListBox::GetSelectedIndex( int nPreviousSelected )
+{
+    if( nPreviousSelected < -1 )
+        return -1;
+
+    if( m_dwStyle & MULTISELECTION )
+    {
+        // Multiple selection enabled. Search for the next item with the selected flag.
+        for( int i = nPreviousSelected + 1; i < (int)m_Items.GetSize(); ++i )
+        {
+            DXUTListBoxItem *pItem = m_Items.GetAt( i );
+
+            if( reinterpret_cast<R5ListBoxItemSelectionView*>(pItem)->selected )
+                return i;
+        }
+
+        return -1;
+    }
+    else
+    {
+        // Single selection
+        return m_nSelected;
+    }
+}
+DXUTListBoxItem *CDXUTListBox::GetItem( int nIndex )
+{
+    if( nIndex < 0 || nIndex >= (int)m_Items.GetSize() )
+        return NULL;
+
+    return m_Items[nIndex];
+}
+void CDXUTListBox::RemoveItem( int nIndex )
+{
+    if( nIndex < 0 || nIndex >= (int)m_Items.GetSize() )
+        return;
+
+    DXUTListBoxItem *pItem = m_Items.GetAt( nIndex );
+
+    delete pItem;
+    m_Items.Remove( nIndex );
+    reinterpret_cast<R5ListBoxScrollView*>(this)->scrollbar.SetTrackRange( 0, m_Items.GetSize() );
+    if( m_nSelected >= (int)m_Items.GetSize() )
+        m_nSelected = m_Items.GetSize() - 1;
+
+    m_pDialog->SendEvent( EVENT_LISTBOX_SELECTION, true, this );
+}
+void CDXUTListBox::RemoveAllItems()
+{
+    for( int i = 0; i < m_Items.GetSize(); ++i )
+    {
+        DXUTListBoxItem *pItem = m_Items.GetAt( i );
+        delete pItem;
+    }
+
+    m_Items.RemoveAll();
+    reinterpret_cast<R5ListBoxScrollView*>(this)->scrollbar.SetTrackRange( 0, 1 );
 }
 bool CDXUTScrollBar::HandleKeyboard( UINT uMsg, WPARAM wParam, LPARAM lParam )
 {

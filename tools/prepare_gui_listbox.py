@@ -10,6 +10,8 @@ def adapted(source,name):
     body=body.replace('m_rcText','reinterpret_cast<R5ListBoxScrollView*>(this)->text')
     body=body.replace('m_rcSelection','reinterpret_cast<R5ListBoxScrollView*>(this)->selection')
     body=re.sub(r'(m_Items\.GetAt\([^)]*\)|m_Items\[[^\]]+\]|\b(?:pItem|pSelItem))\s*->bSelected',lambda m:'reinterpret_cast<R5ListBoxItemSelectionView*>('+m[1]+')->selected',body)
+    if name=='CDXUTListBox::UpdateRects':
+        body=body.replace('m_pDialog->GetManager()->GetFontNode(', 'm_pDialog->GetFont(')
     if name=='CDXUTListBox::HandleMouse':
         assert body.count('m_bDrag = true;')==1
         body=body.replace('m_bDrag = true;','')
@@ -18,10 +20,8 @@ def adapted(source,name):
     assert 'bSelected' not in body
     return body
 
-def prepare():
-    source=(ROOT/'vendor/upstream/saco/d3d9/common/DXUTgui.cpp').read_text()
-    body='\n'.join(adapted(source,'CDXUTListBox::'+n) for n in ('HandleKeyboard','HandleMouse'))
-    header='''// Partial views: reserved bytes are unknown, not reconstructed item fields.
+def layout_header():
+    return '''// Partial views: reserved bytes are unknown, not reconstructed item fields.
 // No allocation, sizeof-based access or coverage claim for these reserved ranges.
 #include "d3d9/common/dxstdafx.h"
 #include <new>
@@ -46,5 +46,10 @@ typedef char VerifyTextOffset[offsetof(R5ListBoxScrollView, text)==0x10f ? 1 : -
 typedef char VerifySelectionOffset[offsetof(R5ListBoxScrollView, selection)==0x11f ? 1 : -1];
 typedef char VerifySelectedOffset[offsetof(R5ListBoxItemSelectionView, selected)==0x298 ? 1 : -1];
 '''
-    (ROOT/'client/saco/closure_gui_listbox.cpp').write_text(header+body+'\n'+definition(source,'CDXUTScrollBar::HandleKeyboard')+'\n')
+
+def prepare():
+    source=(ROOT/'vendor/upstream/saco/d3d9/common/DXUTgui.cpp').read_text()
+    body='\n'.join(adapted(source,'CDXUTListBox::'+n) for n in ('HandleKeyboard','HandleMouse','SelectItem','GetSelectedIndex','GetItem','RemoveItem','RemoveAllItems'))
+    header=layout_header()
+    (ROOT/'client/saco/closure_gui_listbox.cpp').write_text(header+'\n'.join(line for line in source.splitlines() if line.startswith(('inline int RectWidth(', 'inline int RectHeight(')))+'\n'+body+'\n'+definition(source,'CDXUTScrollBar::HandleKeyboard')+'\n')
 if __name__=='__main__':prepare()

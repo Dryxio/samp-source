@@ -4,6 +4,30 @@
 #define SCROLLBAR_MINTHUMBSIZE 8
 #define SCROLLBAR_ARROWCLICK_DELAY 0.33
 #define SCROLLBAR_ARROWCLICK_REPEAT 0.05
+// Partial views: reserved bytes are unknown, not reconstructed item fields.
+// No allocation, sizeof-based access or coverage claim for these reserved ranges.
+#include "d3d9/common/dxstdafx.h"
+#include <new>
+#include <stddef.h>
+#ifndef WHEEL_DELTA
+#define WHEEL_DELTA 120
+#endif
+#pragma pack(push, 1)
+struct R5ListBoxScrollView {
+    unsigned char uncharacterized_prefix[0x5d];
+    CDXUTScrollBar scrollbar;
+    RECT text;
+    RECT selection;
+};
+struct R5ListBoxItemSelectionView {
+    unsigned char uncharacterized_prefix[0x298];
+    bool selected;
+};
+#pragma pack(pop)
+typedef char VerifyScrollOffset[offsetof(R5ListBoxScrollView, scrollbar)==0x5d ? 1 : -1];
+typedef char VerifyTextOffset[offsetof(R5ListBoxScrollView, text)==0x10f ? 1 : -1];
+typedef char VerifySelectionOffset[offsetof(R5ListBoxScrollView, selection)==0x11f ? 1 : -1];
+typedef char VerifySelectedOffset[offsetof(R5ListBoxItemSelectionView, selected)==0x298 ? 1 : -1];
 inline int RectWidth( RECT &rc ) { return ( (rc).right - (rc).left ); }
 inline int RectHeight( RECT &rc ) { return ( (rc).bottom - (rc).top ); }
 void CDXUTComboBox::Render( IDirect3DDevice9* pd3dDevice, float fElapsedTime )
@@ -569,4 +593,33 @@ void CDXUTScrollBar::Scroll( int nDelta )
 
     // Update thumb position
     UpdateThumbRect();
+}
+void CDXUTScrollBar::SetTrackRange( int nStart, int nEnd )
+{
+    m_nStart = nStart; m_nEnd = nEnd;
+    Cap();
+    UpdateThumbRect();
+}
+void CDXUTListBox::UpdateRects()
+{
+    CDXUTControl::UpdateRects();
+
+    reinterpret_cast<R5ListBoxScrollView*>(this)->selection = m_rcBoundingBox;
+    reinterpret_cast<R5ListBoxScrollView*>(this)->selection.right -= m_nSBWidth;
+    InflateRect( &reinterpret_cast<R5ListBoxScrollView*>(this)->selection, -m_nBorder, -m_nBorder );
+    reinterpret_cast<R5ListBoxScrollView*>(this)->text = reinterpret_cast<R5ListBoxScrollView*>(this)->selection;
+    InflateRect( &reinterpret_cast<R5ListBoxScrollView*>(this)->text, -m_nMargin, 0 );
+
+    // Update the scrollbar's rects
+    reinterpret_cast<R5ListBoxScrollView*>(this)->scrollbar.SetLocation( m_rcBoundingBox.right - m_nSBWidth, m_rcBoundingBox.top );
+    reinterpret_cast<R5ListBoxScrollView*>(this)->scrollbar.SetSize( m_nSBWidth, m_height );
+    DXUTFontNode* pFontNode = m_pDialog->GetFont( m_Elements.GetAt( 0 )->iFont );
+    if( pFontNode && pFontNode->nHeight )
+    {
+        reinterpret_cast<R5ListBoxScrollView*>(this)->scrollbar.SetPageSize( RectHeight( reinterpret_cast<R5ListBoxScrollView*>(this)->text ) / pFontNode->nHeight );
+
+        // The selected item may have been scrolled off the page.
+        // Ensure that it is in page again.
+        reinterpret_cast<R5ListBoxScrollView*>(this)->scrollbar.ShowItem( m_nSelected );
+    }
 }
