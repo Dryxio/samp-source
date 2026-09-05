@@ -1193,3 +1193,14 @@ Coverage182046/930756=19.558939%,+1136unique principal995+pool36+EH105. Direct02
 Latestcp32-vehicle-menu-linked;Ob1cp32-vehicle-menu-ob1,Ob2cp32-gui-overwrite-ob2;unitsbuild/vehicle-menu-units.txt,launcherbuild/run_vehicle_menu.ps1,reviewbuild/review_vehicle_menu.py. Contract/seeds/acceptance/integration vehicle-menu. Total8905newunique sincebaseline173141 at20:11:21Z; measuredrateinintegrationjson includescoordination. Localcommitonly,fullgoalactive.
 
 Nexttextdrawtrial cp32-textdraw-render-trial1: DrawTextA727B31A0 exact (WindowsDrawTextmacro appendsA), dispatch19B3480exact; sprite278vs272nonmatch. NativeCppfailedMSVC2003C4234__thiscallfunctionpointerkeyword; no probejson butfirsttwoobjectspreserved. Agent1fixingsprite/nativeABI, sourceviewembeddedinCPPavoidsnewsharedheaderandunrelatedrecompile. RenderState26 proposedfromexistingbase. Agent2preparing6ActorRPC1512potentialusingacceptedActorPool/ActorPed/Entity, noSpawnbecauseproviderB3DD0unimplemented.
+
+
+## Actor RPC / textdraw font lot2431 accepted
+
+Coverage184477/930756=19.819049%,+2431unique (ActorRPC1512+EH126+DrawText727+native66). Direct025727,total8888. Actoranimationserializationborrows025knowledgebutconservative0directcredit; RenderState26alreadyinbase/nodirect025credit.2244whole regions,6EHmaps36each,complete448/640 floats;10negativecontrols and actorABI PASS. Destroycorrectedearlyreturn, Rotation9C570vsHealth9C5D0 actualprovideridentity. AnimationcallsboolRead8420/charRead1FEA0 accepted. Eightoldpendingunchanged.
+
+TextDrawfont727full29fixups verified, pointerviewoffsets963/9A3/9C1/9D1 compileasserted,noallocation/fullclassclaim. R5selection/keycodes/bounds/FPUorderpreserved; WindowsmacroDrawTextA. Native40 symbolicthiscallbridge afterMSVC2003C4234functionpointerrejection,26unchangedbaseRenderState; realGTAaddressliteralsnotnativecoverage. DrawSprite278/272/272 variantsremainnonmatch(twoFIADD/storeorderingdifferences), dispatch19excludedbecauseSpriteunimplemented. NoGTAexecution.
+
+Latestcp32-actors-render-linked;Ob1cp32-actors-render-ob1,Ob2cp32-gui-overwrite-ob2;unitsbuild/actors-render-units.txt,launcherbuild/run_actors_render.ps1,reviewbuild/review_actors_render.py. Contract/seeds/acceptance/integration actors-render. Total11336newunique sincebaseline173141; exactrateinintegrationjson includescoordination. Localcommitonly,fullgoalactive.
+
+NextSpawn: cp32-actor-spawn-trial1 validation46B3DD0 exact, Spawn213vs240: aggregateinit+2byte vscontiguousmemset27; unusedpostNewreadeliminated29bytes. Trial2eval_rpc_actor_spawn2.cpp usesmemset and explicitlyqualifiedvolatileactorpointerarray toretainobservedread; uniqueRPCActorPoolSpawnViewavoidsODRcollisionwithacceptednonvolatileactorRPCview. Variantcurrentlycompiling; noSpawn/providercredityet. Agent1researchingothertextdrawselection/hittest functions; C770andSpritesboundedpaused.
