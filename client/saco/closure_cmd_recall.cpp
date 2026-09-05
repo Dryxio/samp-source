@@ -217,3 +217,22 @@ void CCmdWindow::Disable()
 	pGame->ToggleKeyInputsDisabled(0, TRUE);
 	m_bEnabled = FALSE;
 }
+
+void CCmdWindow::Enable()
+{
+    if(m_bEnabled) return;
+    if(m_pEditControl) {
+        RECT rect;
+        GetClientRect(pGame->GetMainWindowHwnd(), &rect);
+        int width = (int)(rect.right * 0.6f);
+        if(width > 800) width = 800;
+        m_pEditControl->SetEnabled(true);
+        m_pEditControl->SetVisible(true);
+        m_pEditControl->SetLocation(40, pChatWindow->GetInputLineY());
+        m_pEditControl->SetSize(width, 14 - (int)(m_pGameUI->GetFont(0)->nHeight * -1.5f));
+        m_pGameUI->RequestFocus(m_pEditControl);
+        m_pEditControl->OnFocusIn();
+        m_pGameUI->SetSize(width + 100, pChatWindow->GetInputLineY() + 50);
+    }
+    m_bEnabled = TRUE;
+}

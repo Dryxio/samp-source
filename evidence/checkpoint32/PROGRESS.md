@@ -441,3 +441,12 @@ An initial inline link failed with duplicate standalone helper symbols. Extracti
 All915 regions, nine negative controls and existing ABI checks pass. Only the changed key-input unit recompiled after the failed link; Ob2 objects reused. Eight earlier pending providers remain. Current accepted link cp32-key-input-local-linked; Ob1 cp32-key-input-local-ob1, Ob2 cp32-command-processing-ob2; contract key-input, seeds command-processing. Proof key-input-acceptance.json, preserved attempts key-input-experiments.json. Direct accepted0.2.5 contribution remains1,523 bytes. This goal turn gained3,273 bytes across two coherent accepted batches.
 
 Next: CCmdWindow Enable246 is still partial; current source has GetClientRect and control enabled/visible setup but lacks the rest.0.2.5 Enable is much simpler, so recover R5-specific additions from original69480..69576. ResetDialogControls185 already has a candidate; its full dialog provider closure may be larger. MsgProc57 candidate needs IME StaticMsgProc659. Other scoreboard/UI scans remain available. All build processes terminal, no push or GTA deployment.
+
+
+## Command opening and dialog focus
+
+Command-enable acceptance adds303 unique bytes, reaching68,532 /930,756 (7.36305%). The selected methods total338 bytes: Enable246, RequestFocus57 and GetFont35, but GetFont was already covered and is not counted again. Enable's R5 sizing/placement/focus logic matched on the first compiled recovery. The chat offset12E four-byte gap is now typed as input-line y, with an inline getter; subsequent layout remains unchanged.
+
+Full0.6/-1.5 float constants, static focus pointer142780, original native HWND boundaryC97C1C and named user32 GetClientRect import are verified. user32.lib now appears in the link and its hash matches the CP3.1 SDK pin. All921 full regions, nine negative controls and existing ABI checks pass. No live UI or game execution. Direct accepted0.2.5 transfer credit remains1,523 because its older Enable lacks this R5 logic. Eight earlier pending providers remain excluded.
+
+Current accepted link cp32-command-enable-linked; Ob1 cp32-command-enable-ob1, Ob2 cp32-command-enable-ob2. Contract/seeds command-enable; full units build/command-enable-units.txt. Proof command-enable-acceptance.json; first candidate and deduplication command-enable-experiment.json. Next isolated scan cp32-ime-static-scan extracts the full pinned StaticMsgProc handler; evaluate complete code/tables before deciding whether its larger IME state/dependency closure is worthwhile.

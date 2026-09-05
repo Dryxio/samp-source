@@ -1,0 +1,95 @@
+{
+  "status": "CANDIDATE_THEN_SEPARATE_ACCEPTANCE",
+  "candidate": {
+    "status": "DISCOVERY_ONLY_NOT_ACCEPTED",
+    "run": "cp32-cmd-enable-scan",
+    "reference_sha256": "b72b5dbe725f81864ca3f78bc7063bda56cc05fc7188af822fa7a754432553a2",
+    "rows": [
+      {
+        "unit": "eval_cmd_enable",
+        "symbol": "?SetSize@CDXUTDialog@@QAEXHH@Z",
+        "size": 23,
+        "object_sha256": "4592c41b2879047af1d58beba0143d815ded1d6e9750552c02a2c6ff8314d69d",
+        "candidates": [
+          {
+            "rva": 430960,
+            "inferred_targets": {}
+          }
+        ]
+      },
+      {
+        "unit": "eval_cmd_enable",
+        "symbol": "?SetLocation@CDXUTControl@@QAEXHH@Z",
+        "size": 22,
+        "object_sha256": "4592c41b2879047af1d58beba0143d815ded1d6e9750552c02a2c6ff8314d69d",
+        "candidates": [
+          {
+            "rva": 422032,
+            "inferred_targets": {}
+          }
+        ]
+      },
+      {
+        "unit": "eval_cmd_enable",
+        "symbol": "?SetSize@CDXUTControl@@QAEXHH@Z",
+        "size": 22,
+        "object_sha256": "4592c41b2879047af1d58beba0143d815ded1d6e9750552c02a2c6ff8314d69d",
+        "candidates": [
+          {
+            "rva": 422064,
+            "inferred_targets": {}
+          }
+        ]
+      },
+      {
+        "unit": "eval_cmd_enable",
+        "symbol": "?GetMainWindowHwnd@CGame@@QAEPAUHWND__@@XZ",
+        "size": 6,
+        "object_sha256": "4592c41b2879047af1d58beba0143d815ded1d6e9750552c02a2c6ff8314d69d",
+        "candidates": [
+          {
+            "rva": 11536,
+            "inferred_targets": {}
+          }
+        ]
+      },
+      {
+        "unit": "eval_cmd_enable",
+        "symbol": "?GetInputLineY@CChatEnableEval@@QBEHXZ",
+        "size": 7,
+        "object_sha256": "4592c41b2879047af1d58beba0143d815ded1d6e9750552c02a2c6ff8314d69d",
+        "candidates": [
+          {
+            "rva": 431040,
+            "inferred_targets": {}
+          }
+        ]
+      },
+      {
+        "unit": "eval_cmd_enable",
+        "symbol": "?Enable@CCmdEnableEval@@QAEXXZ",
+        "size": 246,
+        "object_sha256": "4592c41b2879047af1d58beba0143d815ded1d6e9750552c02a2c6ff8314d69d",
+        "candidates": [
+          {
+            "rva": 431232,
+            "inferred_targets": {
+              "__imp__GetClientRect@8": 269374320,
+              "__real@3f19999a": 269394656,
+              "__ftol2": 269251652,
+              "?pChatWindow@@3PAVCChatWindow@@A": 270986112,
+              "?GetFont@CDXUTDialog@@QAEPAUDXUTFontNode@@I@Z": 268988608,
+              "__real@bfc00000": 269394652,
+              "?RequestFocus@CDXUTDialog@@QAEXPAVCDXUTControl@@@Z": 268978736
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "accepted_proof": "command-enable-acceptance.json",
+  "accepted_new_bytes": 303,
+  "whole_selected_methods_bytes": 338,
+  "already_covered_bytes": 35,
+  "source_credit": "Direct R5 reconstruction;0.2.5 Enable lacks the added layout/font/focus logic. No new direct transfer credit."
+}

@@ -31,7 +31,7 @@ private:
 	DWORD				m_dwChatTextColor;
 	DWORD				m_dwChatInfoColor;
 	DWORD				m_dwChatDebugColor;
-	char _gap12E[4];
+	int m_iInputLineY;
 	CHAT_WINDOW_ENTRY	m_ChatWindowEntries[MAX_MESSAGES];
 	CFontRender			*m_pFontRender;
 	ID3DXSprite			*field_63A6;
@@ -61,6 +61,7 @@ public:
 	void Log(int type, CHAR *text, CHAR *prefix);
 	void PushBack();
 	void ResetPage();
+	int GetInputLineY() const { return m_iInputLineY; }
 
 	void ResetDialogControls(CDXUTDialog *pGameUI);
 
