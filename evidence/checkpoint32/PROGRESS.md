@@ -1100,3 +1100,14 @@ Model dependency probe original CreateWeaponPickup appendedclosure_models andgen
 cp32-parallel-proposals-trial2: separatedtextdrawctor43exact; corrected FindNetworkId37 nowexact133E0; Pickup New236/PickedUp217/Process334 exact asbefore. Currentproposal eval_pickup_more2.cpp NOTintegrated. Need actualmodelhelper151 or omitNewtemporarily.
 
 cp32-parallel-proposals-trial3: EnsureTextdrawDictionary194 exactB2B90 and ReadTextdrawDictionaryTexture60 exactB2C60, source client/saco/eval_textdraw_txd2.cpp, readyfor fulltargetreview/integration. Query GetTextureId59 exactD280 only, othersfail. Agent1 auditing TXDtargets andquerydiff; agent2 modelhelper. Othertrial3sourcefiles eval_custom_model_queries.cpp,eval_pickup_weapon_expanded.cpp untracked, preserve. Large textdrawloader630 stilldependscustommodelmanagerproviders; nofalsecoverage. Alltrialsource activecopies are experimentsnotliveunits.
+
+
+## Pickup/TXD integration blocked on descriptor placement (no new credit)
+
+Trial4 cp32-pickup-weapon-trial4: guardedandinline CreateWeaponPickup both151 exactA12D0. Selected guardedstandalone client/saco/closure_pickup_weapon.cpp. Removedunmatchedoriginalbody fromclosure_models andgeneratorselection. Newactivecandidates closure_pickup_more.cpp (copiedcorrectedtrial2),closure_textdraw_txd.cpp (exactTXDtrial2), allNOTaccepted. Combinedunits build/pickup-texture-units.txt; seeds config/checkpoint32/pickup-texture-seeds.json, rootsaddedexports.
+
+Longprlctl dispatch cp32-pickup-texture-ob1 hungbeforeguestprocess/directorycreation. Readonlyguestprocesschecks showed onlyqueryprocess, noCL/probe; MacwrapperPID71592 remained. TERMdidnotstopit,KILLfinallyterminal137. No guestcompilationduplicated. Replacement shortlauncher build/run_pickup_texture.ps1 readsunitsfile andsuccessfullycompiled cp32-pickup-texture-ob1b; useshortlaunchersforlongunitlists. Prematurefailedlink cp32-pickup-texture-linked preservedmissingprobejson. Successfulcomplete link cp32-pickup-texture-linked2. AllVM/rootprocessesterminalnow.
+
+Draftforlinked2 FAILS conflicting originalplacement closure_pickup_weapon section46 rdata78: _request_model@0,_load_requested_models@20,_is_model_available@40,_create_pickup_with_ammo@60. These fourdescriptors have noncontiguousR5 placement; needexternalactualsplitstores or sourcecontextrestoration, nevermask. Stale build/actor-contract-draft.json is PREVIOUSpreviewdraft, doNOTreviewituntilnewdraftsuccess. Agentindependent_family explicitlyassigneddescriptorarrangement isolated. Code151 exact but noacceptedcredit. Candidatepotential allroots1229(824pickup+151weapon+254TXD) excludesEHuniqueextras.
+
+Currentacceptedunchanged textdraw-preview-linked/proof,173531bytes. No commitacceptedcoverage thisturn. Needpreserveactivependingedits and allfailedsnapshots. Agenttextdraw querytrial2proposal ready170potential; agentpickupsecond419proposalready. Limitnewresearchuntilintegrationqueueclears. Fullgoalactive.
