@@ -1,0 +1,858 @@
+{
+  "scope": "Complete COFF functions resolved to reviewed R5 identities; not a linked capsule acceptance",
+  "reference_sha256": "b72b5dbe725f81864ca3f78bc7063bda56cc05fc7188af822fa7a754432553a2",
+  "reference": {
+    "commit": "dc9eb80d80e26cf91e2b92697b8918208f052542",
+    "files": {
+      "client/chatwindow.cpp": "a3b38a75560b25aac80bff1635b42e2950b135c3aa64a7a1bf1bf33f6b869851",
+      "client/chatwindow.h": "304cd6dee9c060cb9b0f838f7c5749f58350a95dd685318ac8a09938e7f37da1",
+      "client/game/entity.cpp": "2ab8e7d97d4463788f930dd41d8dfc503a730fd0946b6f1f288e704b6739acf5",
+      "client/game/entity.h": "6913d44a351649429f31d004c0bfb51a306c497b75695f610d0e44ed21bf596f"
+    },
+    "new_units": [
+      "eval_michael_chat_min",
+      "eval_michael_chat_r5",
+      "eval_michael_model_min",
+      "eval_michael_model_r5"
+    ]
+  },
+  "rows": [
+    {
+      "profile": "ob1",
+      "run": "cp32-michael-eval-ob1",
+      "unit": "eval_michael_chat_min",
+      "symbol": "?PushBack@CChatWindow@@QAEXXZ",
+      "function": "PushBack",
+      "rva": 422992,
+      "reference_size": 24,
+      "source_size": 39,
+      "source_sha256": "841cdcaa697deb0f611f00bb17e6dea5674c1e4d07d290569a15c671b1ce6088",
+      "object_sha256": "a0dd99b1313cee23964442753ced2a409ed8f1029db664d2feac23fb84d41c7e",
+      "probe_sha256": "35d6659fc45d0094830bae5c9c9e4f6b85329abd399e59f1378f7ff8a3d499f6",
+      "reference_sha256": "9afb1e9a5adb70b2ff33098b358b3b7b3898543f7bed3229b2e240a7b24f5bae",
+      "resolved_sha256": "1e811c7a33c9d5bf6d95e1270d74cecc4c22f564547f5b4822a40f3f11ea3685",
+      "result": "MISMATCH",
+      "pe_relocations_exact": true,
+      "fixups": [],
+      "reason": "COMPLETE_FUNCTION_LENGTH_DIFFERS"
+    },
+    {
+      "profile": "ob1",
+      "run": "cp32-michael-eval-ob1",
+      "unit": "eval_michael_chat_min",
+      "symbol": "?AddEntry@CChatWindow@@QAEXHPAD0KK@Z",
+      "function": "AddEntry",
+      "rva": 424928,
+      "reference_size": 538,
+      "source_size": 419,
+      "source_sha256": "841cdcaa697deb0f611f00bb17e6dea5674c1e4d07d290569a15c671b1ce6088",
+      "object_sha256": "a0dd99b1313cee23964442753ced2a409ed8f1029db664d2feac23fb84d41c7e",
+      "probe_sha256": "35d6659fc45d0094830bae5c9c9e4f6b85329abd399e59f1378f7ff8a3d499f6",
+      "reference_sha256": "2353899554205aa4a63a0c12d82f9b60a59d583a0ad2287a201180d069b97971",
+      "resolved_sha256": "e0e658f02c1e81169c5afbe76278f4ad45577f4aed06037b5c5abb6a23d64c3b",
+      "result": "MISMATCH",
+      "pe_relocations_exact": false,
+      "fixups": [
+        {
+          "offset": 6,
+          "kind": 20,
+          "symbol": "?PushBack@CChatWindow@@QAEXXZ",
+          "reference_va": 268858448
+        },
+        {
+          "offset": 90,
+          "kind": 6,
+          "symbol": "??_C@_01JLIPDDHJ@?3?$AA@",
+          "reference_va": 269377272
+        },
+        {
+          "offset": 204,
+          "kind": 20,
+          "symbol": "_strncpy",
+          "reference_va": 269252592
+        },
+        {
+          "offset": 221,
+          "kind": 20,
+          "symbol": "?PushBack@CChatWindow@@QAEXXZ",
+          "reference_va": 268858448
+        },
+        {
+          "offset": 299,
+          "kind": 20,
+          "symbol": "_strncpy",
+          "reference_va": 269252592
+        },
+        {
+          "offset": 317,
+          "kind": 20,
+          "symbol": "?PushBack@CChatWindow@@QAEXXZ",
+          "reference_va": 268858448
+        },
+        {
+          "offset": 399,
+          "kind": 20,
+          "symbol": "_strncpy",
+          "reference_va": 269252592
+        }
+      ],
+      "reason": "COMPLETE_FUNCTION_LENGTH_DIFFERS"
+    },
+    {
+      "profile": "ob1",
+      "run": "cp32-michael-eval-ob1",
+      "unit": "eval_michael_chat_r5",
+      "symbol": "?PushBack@CChatWindow@@QAEXXZ",
+      "function": "PushBack",
+      "rva": 422992,
+      "reference_size": 24,
+      "source_size": 26,
+      "source_sha256": "747720d14c6ce788e14a97a30506ffca170a77e6470ac21715c9ac4d1fe56475",
+      "object_sha256": "c432359cc7f9720b540f6f6da99997f6d25c01ce62c261db1c7c3bd253a6e6ec",
+      "probe_sha256": "35d6659fc45d0094830bae5c9c9e4f6b85329abd399e59f1378f7ff8a3d499f6",
+      "reference_sha256": "9afb1e9a5adb70b2ff33098b358b3b7b3898543f7bed3229b2e240a7b24f5bae",
+      "resolved_sha256": "9603b085d3374f706bf634ca4f4e79bd5e0dc8cde217374b35c9ce43ea57604f",
+      "result": "MISMATCH",
+      "pe_relocations_exact": true,
+      "fixups": [],
+      "reason": "COMPLETE_FUNCTION_LENGTH_DIFFERS"
+    },
+    {
+      "profile": "ob1",
+      "run": "cp32-michael-eval-ob1",
+      "unit": "eval_michael_chat_r5",
+      "symbol": "?AddEntry@CChatWindow@@QAEXHPAD0KK@Z",
+      "function": "AddEntry",
+      "rva": 424928,
+      "reference_size": 538,
+      "source_size": 538,
+      "source_sha256": "747720d14c6ce788e14a97a30506ffca170a77e6470ac21715c9ac4d1fe56475",
+      "object_sha256": "c432359cc7f9720b540f6f6da99997f6d25c01ce62c261db1c7c3bd253a6e6ec",
+      "probe_sha256": "35d6659fc45d0094830bae5c9c9e4f6b85329abd399e59f1378f7ff8a3d499f6",
+      "reference_sha256": "2353899554205aa4a63a0c12d82f9b60a59d583a0ad2287a201180d069b97971",
+      "resolved_sha256": "bed6e36eb7b868a675997efafaac400c42e09bf7a971ba90b5456072af4dcd63",
+      "result": "MISMATCH",
+      "pe_relocations_exact": true,
+      "fixups": [
+        {
+          "offset": 89,
+          "kind": 20,
+          "symbol": "_time",
+          "reference_va": 269263563
+        },
+        {
+          "offset": 144,
+          "kind": 6,
+          "symbol": "??_C@_01JLIPDDHJ@?3?$AA@",
+          "reference_va": 269377272
+        },
+        {
+          "offset": 170,
+          "kind": 20,
+          "symbol": "?Log@CChatWindow@@QAEXHPAD0@Z",
+          "reference_va": 268859344
+        },
+        {
+          "offset": 266,
+          "kind": 20,
+          "symbol": "_strncpy",
+          "reference_va": 269252592
+        },
+        {
+          "offset": 379,
+          "kind": 20,
+          "symbol": "_strncpy",
+          "reference_va": 269252592
+        },
+        {
+          "offset": 507,
+          "kind": 20,
+          "symbol": "_strncpy",
+          "reference_va": 269252592
+        }
+      ],
+      "difference_offsets": [
+        6,
+        7,
+        8,
+        12,
+        13,
+        14
+      ]
+    },
+    {
+      "profile": "ob1",
+      "run": "cp32-michael-eval-ob1",
+      "unit": "eval_michael_model_min",
+      "symbol": "?SetModelIndex@EvaluationEntity@@QAEXI@Z",
+      "function": "SetModelIndex",
+      "rva": 651088,
+      "reference_size": 217,
+      "source_size": 144,
+      "source_sha256": "8aaa6a53e1ced678c4553450676c1281e7bbd5fc96ca9891619bb3473cdd2fba",
+      "object_sha256": "a6b56470a2cdef6193f54d18d1eebd14a5f722a0e0ec503743fdc5894928b376",
+      "probe_sha256": "35d6659fc45d0094830bae5c9c9e4f6b85329abd399e59f1378f7ff8a3d499f6",
+      "reference_sha256": "74d664bd27452a4cc30c78ab7c9bb19d2712d533cff749505c36137dff765f7d",
+      "resolved_sha256": "9546e9290b079c0d11f14a1698159c15101782fa0e924916e2bc58bb33767a48",
+      "result": "MISMATCH",
+      "pe_relocations_exact": false,
+      "fixups": [
+        {
+          "offset": 21,
+          "kind": 6,
+          "symbol": "?pGame@@3PAVCGame@@A",
+          "reference_va": 270986156
+        },
+        {
+          "offset": 27,
+          "kind": 20,
+          "symbol": "?IsModelLoaded@CGame@@QAEHH@Z",
+          "reference_va": 269093232
+        },
+        {
+          "offset": 37,
+          "kind": 6,
+          "symbol": "?pGame@@3PAVCGame@@A",
+          "reference_va": 270986156
+        },
+        {
+          "offset": 45,
+          "kind": 20,
+          "symbol": "?RequestModel@CGame@@QAEXHH@Z",
+          "reference_va": 269093184
+        },
+        {
+          "offset": 51,
+          "kind": 6,
+          "symbol": "?pGame@@3PAVCGame@@A",
+          "reference_va": 270986156
+        },
+        {
+          "offset": 56,
+          "kind": 20,
+          "symbol": "?LoadRequestedModels@CGame@@QAEXXZ",
+          "reference_va": 269093216
+        },
+        {
+          "offset": 62,
+          "kind": 6,
+          "symbol": "?pGame@@3PAVCGame@@A",
+          "reference_va": 270986156
+        },
+        {
+          "offset": 68,
+          "kind": 20,
+          "symbol": "?IsModelLoaded@CGame@@QAEHH@Z",
+          "reference_va": 269093232
+        },
+        {
+          "offset": 78,
+          "kind": 6,
+          "symbol": "__imp__Sleep@4",
+          "reference_va": 269374036
+        },
+        {
+          "offset": 88,
+          "kind": 6,
+          "symbol": "?pGame@@3PAVCGame@@A",
+          "reference_va": 270986156
+        },
+        {
+          "offset": 94,
+          "kind": 20,
+          "symbol": "?IsModelLoaded@CGame@@QAEHH@Z",
+          "reference_va": 269093232
+        }
+      ],
+      "reason": "COMPLETE_FUNCTION_LENGTH_DIFFERS"
+    },
+    {
+      "profile": "ob1",
+      "run": "cp32-michael-eval-ob1",
+      "unit": "eval_michael_model_r5",
+      "symbol": "?SetModelIndex@EvaluationEntity@@QAEHI@Z",
+      "function": "SetModelIndex",
+      "rva": 651088,
+      "reference_size": 217,
+      "source_size": 217,
+      "source_sha256": "6c87794d9a441d899cd4dbc2bdc371d20599cf7c48774d24177cd984e2729d18",
+      "object_sha256": "145c3a8bd103182abcb5697f36d6268ae39e2143338d05acd24c3b610839a7f3",
+      "probe_sha256": "35d6659fc45d0094830bae5c9c9e4f6b85329abd399e59f1378f7ff8a3d499f6",
+      "reference_sha256": "74d664bd27452a4cc30c78ab7c9bb19d2712d533cff749505c36137dff765f7d",
+      "resolved_sha256": "74d664bd27452a4cc30c78ab7c9bb19d2712d533cff749505c36137dff765f7d",
+      "result": "EXACT_RESOLVED_COFF_FUNCTION",
+      "pe_relocations_exact": true,
+      "fixups": [
+        {
+          "offset": 26,
+          "kind": 6,
+          "symbol": "?pGame@@3PAVCGame@@A",
+          "reference_va": 270986156
+        },
+        {
+          "offset": 36,
+          "kind": 20,
+          "symbol": "?IsModelLoaded@CGame@@QAEHH@Z",
+          "reference_va": 269093232
+        },
+        {
+          "offset": 46,
+          "kind": 20,
+          "symbol": "?ModelInfoLoaded@@YGHI@Z",
+          "reference_va": 269174176
+        },
+        {
+          "offset": 56,
+          "kind": 6,
+          "symbol": "?pGame@@3PAVCGame@@A",
+          "reference_va": 270986156
+        },
+        {
+          "offset": 64,
+          "kind": 20,
+          "symbol": "?RequestModel@CGame@@QAEXHH@Z",
+          "reference_va": 269093184
+        },
+        {
+          "offset": 70,
+          "kind": 6,
+          "symbol": "?pGame@@3PAVCGame@@A",
+          "reference_va": 270986156
+        },
+        {
+          "offset": 75,
+          "kind": 20,
+          "symbol": "?LoadRequestedModels@CGame@@QAEXXZ",
+          "reference_va": 269093216
+        },
+        {
+          "offset": 81,
+          "kind": 6,
+          "symbol": "?pGame@@3PAVCGame@@A",
+          "reference_va": 270986156
+        },
+        {
+          "offset": 87,
+          "kind": 20,
+          "symbol": "?IsModelLoaded@CGame@@QAEHH@Z",
+          "reference_va": 269093232
+        },
+        {
+          "offset": 97,
+          "kind": 6,
+          "symbol": "__imp__Sleep@4",
+          "reference_va": 269374036
+        },
+        {
+          "offset": 116,
+          "kind": 6,
+          "symbol": "?pGame@@3PAVCGame@@A",
+          "reference_va": 270986156
+        },
+        {
+          "offset": 122,
+          "kind": 20,
+          "symbol": "?IsModelLoaded@CGame@@QAEHH@Z",
+          "reference_va": 269093232
+        },
+        {
+          "offset": 183,
+          "kind": 6,
+          "symbol": "?pChatWindow@@3PAVCChatWindow@@A",
+          "reference_va": 270986112
+        },
+        {
+          "offset": 193,
+          "kind": 6,
+          "symbol": "??_C@_0CJ@GGPHJEBP@Warning?3?5Model?5?$CFu?5wouldn?8t?5load?5@",
+          "reference_va": 269403424
+        },
+        {
+          "offset": 199,
+          "kind": 20,
+          "symbol": "?AddDebugMessage@CChatWindow@@QAAXPADZZ",
+          "reference_va": 268861680
+        }
+      ],
+      "difference_offsets": []
+    },
+    {
+      "profile": "ob2",
+      "run": "cp32-michael-eval-ob2",
+      "unit": "eval_michael_chat_min",
+      "symbol": "?PushBack@CChatWindow@@QAEXXZ",
+      "function": "PushBack",
+      "rva": 422992,
+      "reference_size": 24,
+      "source_size": 39,
+      "source_sha256": "841cdcaa697deb0f611f00bb17e6dea5674c1e4d07d290569a15c671b1ce6088",
+      "object_sha256": "b5b1acf7fb77af03f8a815944be247c6df8ad060cfa313d4113e43d51a379bf4",
+      "probe_sha256": "8901bffc49a94df78bb683b21e369cba17b0d21c6014419f467bc4989aba79e9",
+      "reference_sha256": "9afb1e9a5adb70b2ff33098b358b3b7b3898543f7bed3229b2e240a7b24f5bae",
+      "resolved_sha256": "1e811c7a33c9d5bf6d95e1270d74cecc4c22f564547f5b4822a40f3f11ea3685",
+      "result": "MISMATCH",
+      "pe_relocations_exact": true,
+      "fixups": [],
+      "reason": "COMPLETE_FUNCTION_LENGTH_DIFFERS"
+    },
+    {
+      "profile": "ob2",
+      "run": "cp32-michael-eval-ob2",
+      "unit": "eval_michael_chat_min",
+      "symbol": "?AddEntry@CChatWindow@@QAEXHPAD0KK@Z",
+      "function": "AddEntry",
+      "rva": 424928,
+      "reference_size": 538,
+      "source_size": 435,
+      "source_sha256": "841cdcaa697deb0f611f00bb17e6dea5674c1e4d07d290569a15c671b1ce6088",
+      "object_sha256": "b5b1acf7fb77af03f8a815944be247c6df8ad060cfa313d4113e43d51a379bf4",
+      "probe_sha256": "8901bffc49a94df78bb683b21e369cba17b0d21c6014419f467bc4989aba79e9",
+      "reference_sha256": "2353899554205aa4a63a0c12d82f9b60a59d583a0ad2287a201180d069b97971",
+      "resolved_sha256": "b96fa247cba883d720fac569d3268d4941eea58b33c725bd628a08821d0e81d6",
+      "result": "MISMATCH",
+      "pe_relocations_exact": false,
+      "fixups": [
+        {
+          "offset": 109,
+          "kind": 6,
+          "symbol": "??_C@_01JLIPDDHJ@?3?$AA@",
+          "reference_va": 269377272
+        },
+        {
+          "offset": 230,
+          "kind": 20,
+          "symbol": "_strncpy",
+          "reference_va": 269252592
+        },
+        {
+          "offset": 247,
+          "kind": 20,
+          "symbol": "?PushBack@CChatWindow@@QAEXXZ",
+          "reference_va": 268858448
+        },
+        {
+          "offset": 319,
+          "kind": 20,
+          "symbol": "_strncpy",
+          "reference_va": 269252592
+        },
+        {
+          "offset": 337,
+          "kind": 20,
+          "symbol": "?PushBack@CChatWindow@@QAEXXZ",
+          "reference_va": 268858448
+        },
+        {
+          "offset": 415,
+          "kind": 20,
+          "symbol": "_strncpy",
+          "reference_va": 269252592
+        }
+      ],
+      "reason": "COMPLETE_FUNCTION_LENGTH_DIFFERS"
+    },
+    {
+      "profile": "ob2",
+      "run": "cp32-michael-eval-ob2",
+      "unit": "eval_michael_chat_r5",
+      "symbol": "?PushBack@CChatWindow@@QAEXXZ",
+      "function": "PushBack",
+      "rva": 422992,
+      "reference_size": 24,
+      "source_size": 26,
+      "source_sha256": "747720d14c6ce788e14a97a30506ffca170a77e6470ac21715c9ac4d1fe56475",
+      "object_sha256": "a6d5615f5cd5087b754ef3929b1e6762fdc97fc711f9ab0e2ecb8269e4d944e0",
+      "probe_sha256": "8901bffc49a94df78bb683b21e369cba17b0d21c6014419f467bc4989aba79e9",
+      "reference_sha256": "9afb1e9a5adb70b2ff33098b358b3b7b3898543f7bed3229b2e240a7b24f5bae",
+      "resolved_sha256": "9603b085d3374f706bf634ca4f4e79bd5e0dc8cde217374b35c9ce43ea57604f",
+      "result": "MISMATCH",
+      "pe_relocations_exact": true,
+      "fixups": [],
+      "reason": "COMPLETE_FUNCTION_LENGTH_DIFFERS"
+    },
+    {
+      "profile": "ob2",
+      "run": "cp32-michael-eval-ob2",
+      "unit": "eval_michael_chat_r5",
+      "symbol": "?AddEntry@CChatWindow@@QAEXHPAD0KK@Z",
+      "function": "AddEntry",
+      "rva": 424928,
+      "reference_size": 538,
+      "source_size": 538,
+      "source_sha256": "747720d14c6ce788e14a97a30506ffca170a77e6470ac21715c9ac4d1fe56475",
+      "object_sha256": "a6d5615f5cd5087b754ef3929b1e6762fdc97fc711f9ab0e2ecb8269e4d944e0",
+      "probe_sha256": "8901bffc49a94df78bb683b21e369cba17b0d21c6014419f467bc4989aba79e9",
+      "reference_sha256": "2353899554205aa4a63a0c12d82f9b60a59d583a0ad2287a201180d069b97971",
+      "resolved_sha256": "bed6e36eb7b868a675997efafaac400c42e09bf7a971ba90b5456072af4dcd63",
+      "result": "MISMATCH",
+      "pe_relocations_exact": true,
+      "fixups": [
+        {
+          "offset": 89,
+          "kind": 20,
+          "symbol": "_time",
+          "reference_va": 269263563
+        },
+        {
+          "offset": 144,
+          "kind": 6,
+          "symbol": "??_C@_01JLIPDDHJ@?3?$AA@",
+          "reference_va": 269377272
+        },
+        {
+          "offset": 170,
+          "kind": 20,
+          "symbol": "?Log@CChatWindow@@QAEXHPAD0@Z",
+          "reference_va": 268859344
+        },
+        {
+          "offset": 266,
+          "kind": 20,
+          "symbol": "_strncpy",
+          "reference_va": 269252592
+        },
+        {
+          "offset": 379,
+          "kind": 20,
+          "symbol": "_strncpy",
+          "reference_va": 269252592
+        },
+        {
+          "offset": 507,
+          "kind": 20,
+          "symbol": "_strncpy",
+          "reference_va": 269252592
+        }
+      ],
+      "difference_offsets": [
+        6,
+        7,
+        8,
+        12,
+        13,
+        14
+      ]
+    },
+    {
+      "profile": "ob2",
+      "run": "cp32-michael-eval-ob2",
+      "unit": "eval_michael_model_min",
+      "symbol": "?SetModelIndex@EvaluationEntity@@QAEXI@Z",
+      "function": "SetModelIndex",
+      "rva": 651088,
+      "reference_size": 217,
+      "source_size": 144,
+      "source_sha256": "8aaa6a53e1ced678c4553450676c1281e7bbd5fc96ca9891619bb3473cdd2fba",
+      "object_sha256": "b6c156f9d4f06c26d55e19cdabdac07d1501c2ab9cd0f5f443591e935d068df3",
+      "probe_sha256": "8901bffc49a94df78bb683b21e369cba17b0d21c6014419f467bc4989aba79e9",
+      "reference_sha256": "74d664bd27452a4cc30c78ab7c9bb19d2712d533cff749505c36137dff765f7d",
+      "resolved_sha256": "9546e9290b079c0d11f14a1698159c15101782fa0e924916e2bc58bb33767a48",
+      "result": "MISMATCH",
+      "pe_relocations_exact": false,
+      "fixups": [
+        {
+          "offset": 21,
+          "kind": 6,
+          "symbol": "?pGame@@3PAVCGame@@A",
+          "reference_va": 270986156
+        },
+        {
+          "offset": 27,
+          "kind": 20,
+          "symbol": "?IsModelLoaded@CGame@@QAEHH@Z",
+          "reference_va": 269093232
+        },
+        {
+          "offset": 37,
+          "kind": 6,
+          "symbol": "?pGame@@3PAVCGame@@A",
+          "reference_va": 270986156
+        },
+        {
+          "offset": 45,
+          "kind": 20,
+          "symbol": "?RequestModel@CGame@@QAEXHH@Z",
+          "reference_va": 269093184
+        },
+        {
+          "offset": 51,
+          "kind": 6,
+          "symbol": "?pGame@@3PAVCGame@@A",
+          "reference_va": 270986156
+        },
+        {
+          "offset": 56,
+          "kind": 20,
+          "symbol": "?LoadRequestedModels@CGame@@QAEXXZ",
+          "reference_va": 269093216
+        },
+        {
+          "offset": 62,
+          "kind": 6,
+          "symbol": "?pGame@@3PAVCGame@@A",
+          "reference_va": 270986156
+        },
+        {
+          "offset": 68,
+          "kind": 20,
+          "symbol": "?IsModelLoaded@CGame@@QAEHH@Z",
+          "reference_va": 269093232
+        },
+        {
+          "offset": 78,
+          "kind": 6,
+          "symbol": "__imp__Sleep@4",
+          "reference_va": 269374036
+        },
+        {
+          "offset": 88,
+          "kind": 6,
+          "symbol": "?pGame@@3PAVCGame@@A",
+          "reference_va": 270986156
+        },
+        {
+          "offset": 94,
+          "kind": 20,
+          "symbol": "?IsModelLoaded@CGame@@QAEHH@Z",
+          "reference_va": 269093232
+        }
+      ],
+      "reason": "COMPLETE_FUNCTION_LENGTH_DIFFERS"
+    },
+    {
+      "profile": "ob2",
+      "run": "cp32-michael-eval-ob2",
+      "unit": "eval_michael_model_r5",
+      "symbol": "?SetModelIndex@EvaluationEntity@@QAEHI@Z",
+      "function": "SetModelIndex",
+      "rva": 651088,
+      "reference_size": 217,
+      "source_size": 217,
+      "source_sha256": "6c87794d9a441d899cd4dbc2bdc371d20599cf7c48774d24177cd984e2729d18",
+      "object_sha256": "484366e4a5867e761b9dd04b8184754100a4842c5af93bdc57424151520fee7a",
+      "probe_sha256": "8901bffc49a94df78bb683b21e369cba17b0d21c6014419f467bc4989aba79e9",
+      "reference_sha256": "74d664bd27452a4cc30c78ab7c9bb19d2712d533cff749505c36137dff765f7d",
+      "resolved_sha256": "74d664bd27452a4cc30c78ab7c9bb19d2712d533cff749505c36137dff765f7d",
+      "result": "EXACT_RESOLVED_COFF_FUNCTION",
+      "pe_relocations_exact": true,
+      "fixups": [
+        {
+          "offset": 26,
+          "kind": 6,
+          "symbol": "?pGame@@3PAVCGame@@A",
+          "reference_va": 270986156
+        },
+        {
+          "offset": 36,
+          "kind": 20,
+          "symbol": "?IsModelLoaded@CGame@@QAEHH@Z",
+          "reference_va": 269093232
+        },
+        {
+          "offset": 46,
+          "kind": 20,
+          "symbol": "?ModelInfoLoaded@@YGHI@Z",
+          "reference_va": 269174176
+        },
+        {
+          "offset": 56,
+          "kind": 6,
+          "symbol": "?pGame@@3PAVCGame@@A",
+          "reference_va": 270986156
+        },
+        {
+          "offset": 64,
+          "kind": 20,
+          "symbol": "?RequestModel@CGame@@QAEXHH@Z",
+          "reference_va": 269093184
+        },
+        {
+          "offset": 70,
+          "kind": 6,
+          "symbol": "?pGame@@3PAVCGame@@A",
+          "reference_va": 270986156
+        },
+        {
+          "offset": 75,
+          "kind": 20,
+          "symbol": "?LoadRequestedModels@CGame@@QAEXXZ",
+          "reference_va": 269093216
+        },
+        {
+          "offset": 81,
+          "kind": 6,
+          "symbol": "?pGame@@3PAVCGame@@A",
+          "reference_va": 270986156
+        },
+        {
+          "offset": 87,
+          "kind": 20,
+          "symbol": "?IsModelLoaded@CGame@@QAEHH@Z",
+          "reference_va": 269093232
+        },
+        {
+          "offset": 97,
+          "kind": 6,
+          "symbol": "__imp__Sleep@4",
+          "reference_va": 269374036
+        },
+        {
+          "offset": 116,
+          "kind": 6,
+          "symbol": "?pGame@@3PAVCGame@@A",
+          "reference_va": 270986156
+        },
+        {
+          "offset": 122,
+          "kind": 20,
+          "symbol": "?IsModelLoaded@CGame@@QAEHH@Z",
+          "reference_va": 269093232
+        },
+        {
+          "offset": 183,
+          "kind": 6,
+          "symbol": "?pChatWindow@@3PAVCChatWindow@@A",
+          "reference_va": 270986112
+        },
+        {
+          "offset": 193,
+          "kind": 6,
+          "symbol": "??_C@_0CJ@GGPHJEBP@Warning?3?5Model?5?$CFu?5wouldn?8t?5load?5@",
+          "reference_va": 269403424
+        },
+        {
+          "offset": 199,
+          "kind": 20,
+          "symbol": "?AddDebugMessage@CChatWindow@@QAAXPADZZ",
+          "reference_va": 268861680
+        }
+      ],
+      "difference_offsets": []
+    },
+    {
+      "profile": "ob2",
+      "run": "cp32-michael-eval-ob2",
+      "unit": "closure_chat",
+      "symbol": "?PushBack@CChatWindow@@QAEXXZ",
+      "function": "PushBack",
+      "rva": 422992,
+      "reference_size": 24,
+      "source_size": 26,
+      "source_sha256": "aec6e4f3db7274544d6fa1bed6c81c0c1a355ca51a3f2c0a49b3a39a5eb27984",
+      "object_sha256": "0351b60d23b79e179e1fca7efe910c49e63c6a69c287d22a3f0ad16fa8c2fa8a",
+      "probe_sha256": "8901bffc49a94df78bb683b21e369cba17b0d21c6014419f467bc4989aba79e9",
+      "reference_sha256": "9afb1e9a5adb70b2ff33098b358b3b7b3898543f7bed3229b2e240a7b24f5bae",
+      "resolved_sha256": "9603b085d3374f706bf634ca4f4e79bd5e0dc8cde217374b35c9ce43ea57604f",
+      "result": "MISMATCH",
+      "pe_relocations_exact": true,
+      "fixups": [],
+      "reason": "COMPLETE_FUNCTION_LENGTH_DIFFERS"
+    },
+    {
+      "profile": "ob2",
+      "run": "cp32-michael-eval-ob2",
+      "unit": "closure_chat",
+      "symbol": "?AddEntry@CChatWindow@@QAEXHPAD0KK@Z",
+      "function": "AddEntry",
+      "rva": 424928,
+      "reference_size": 538,
+      "source_size": 538,
+      "source_sha256": "aec6e4f3db7274544d6fa1bed6c81c0c1a355ca51a3f2c0a49b3a39a5eb27984",
+      "object_sha256": "0351b60d23b79e179e1fca7efe910c49e63c6a69c287d22a3f0ad16fa8c2fa8a",
+      "probe_sha256": "8901bffc49a94df78bb683b21e369cba17b0d21c6014419f467bc4989aba79e9",
+      "reference_sha256": "2353899554205aa4a63a0c12d82f9b60a59d583a0ad2287a201180d069b97971",
+      "resolved_sha256": "bed6e36eb7b868a675997efafaac400c42e09bf7a971ba90b5456072af4dcd63",
+      "result": "MISMATCH",
+      "pe_relocations_exact": true,
+      "fixups": [
+        {
+          "offset": 89,
+          "kind": 20,
+          "symbol": "_time",
+          "reference_va": 269263563
+        },
+        {
+          "offset": 144,
+          "kind": 6,
+          "symbol": "??_C@_01JLIPDDHJ@?3?$AA@",
+          "reference_va": 269377272
+        },
+        {
+          "offset": 170,
+          "kind": 20,
+          "symbol": "?Log@CChatWindow@@QAEXHPAD0@Z",
+          "reference_va": 268859344
+        },
+        {
+          "offset": 266,
+          "kind": 20,
+          "symbol": "_strncpy",
+          "reference_va": 269252592
+        },
+        {
+          "offset": 379,
+          "kind": 20,
+          "symbol": "_strncpy",
+          "reference_va": 269252592
+        },
+        {
+          "offset": 507,
+          "kind": 20,
+          "symbol": "_strncpy",
+          "reference_va": 269252592
+        }
+      ],
+      "difference_offsets": [
+        6,
+        7,
+        8,
+        12,
+        13,
+        14
+      ]
+    }
+  ],
+  "exact_unique_functions": [
+    "SetModelIndex"
+  ],
+  "exact_unique_function_bytes": 217,
+  "accepted_coverage_increment": 0,
+  "whole_dll_match": false,
+  "negative_controls": [
+    {
+      "profile": "ob1",
+      "byte_mutation": "REJECTED",
+      "wrong_helper_target": "REJECTED"
+    },
+    {
+      "profile": "ob2",
+      "byte_mutation": "REJECTED",
+      "wrong_helper_target": "REJECTED"
+    }
+  ],
+  "preexisting_work_hashes": {
+    "client/saco/closure_audio.cpp": "538e1f80b864dbbf1819674cfdf61deddb244383f92f5533d99648effe85d5a6",
+    "client/saco/closure_camera.cpp": "201fa1e787dd8bbb86359f8c22fda8b862265d96633c9c3048ab33bfb7d055e9",
+    "client/saco/closure_game_init.cpp": "c451b5d12f99461c9c3b5920070e798041cd98e22af3971fe9f6828f4ff1add5",
+    "client/saco/closure_store_used_slots.cpp": "54b82e7cf3e39b2b82344d92b1314322eabeddf15f28cdfa6142de35147226b0",
+    "config/checkpoint32/camera-audio-seeds.json": "5f54c72d6c2cddd93b9e4b72469ac667d341eaff29052859b8a0b8ecb370a049",
+    "config/checkpoint32/game-init-contract.json": "3e8294d6bbd55c80bd0835ec67f15a1b73505f41bd4045da7137cf1344384fb5",
+    "config/checkpoint32/game-init-seeds.json": "c51c7ab43c27c6985e1c3060b1f364b018d80d98e2bc49134e5bdc3ffbba239e",
+    "evidence/checkpoint32/game-init-acceptance.json": "28f0de9f648134695eb0f26effe68c149734c9e8652a664c86814685b4c1fa5c",
+    "client/saco/closure_util.cpp": "2cb292894de1e8475fa642e1f346dcbadc6971f99653f0647eb613fd5724e705",
+    "config/checkpoint32/closure-exports.def": "65a3038502ca981af1c898d1a9482d23c9c065daae521a32a4a01f997ce833d3",
+    "config/checkpoint32/common-selection.json": "67bca74ff98b360ec038e13973e9cead7297879c476e6eef95713feb94d50621",
+    "evidence/checkpoint32/coverage-current.json": "4ea97f90fc7a8a3efd5e35460b67969889381916720803081ac70880f5ef5f36",
+    "tests/checkpoint32/actor_closure_emulate.py": "4ce47ac976f6a81218e8378fd3a7966f04b62b61127bade3c96af78ac4507ebf",
+    "tools/draft_actor_contract.py": "653e5e3b9844c225c73ca0dfb9d57187689805561a163c073b7084c2dc2f334e",
+    "tools/verify_actor_closure.py": "bca3c1f81664cff141481dee8e11fced18b8e1a39e859c1c368ab084f9513d0d"
+  },
+  "preexisting_work_preserved": true,
+  "limitations": [
+    "No linked-capsule gate or runtime ABI exercise for the new model function yet.",
+    "ModelInfoLoaded at B45A0 is identified and hash pinned, but its implementation and A7A40 dependency remain unmatched and are excluded.",
+    "SetModelIndex retains the symbolic inline assembly already present in the 0.2.5 source; it is not a pure C++ result.",
+    "EvaluationEntity adds no fields or virtual methods; this isolated experiment reuses the existing packed R5 CEntity layout.",
+    "Three targeted functions are a small sample of existing gaps, not a representative estimate for the whole DLL."
+  ]
+}
