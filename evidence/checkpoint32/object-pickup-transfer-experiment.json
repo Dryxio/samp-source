@@ -1,0 +1,113 @@
+{
+  "status": "DISCOVERY_ONLY_NOT_ACCEPTED",
+  "reference_commit": "dc9eb80d80e26cf91e2b92697b8918208f052542",
+  "adaptations": [
+    "R5 object slots1000, leading inclusive last-object-ID field, native entity pointer at0x40, invalid ID65535.",
+    "R5 pickup count first, handles at4, network IDs at4004, timers at8004, packed3-byte dropped records atC004, total4096slots.",
+    "Destroy additionally clears the network ID to-1; DestroyDropped preserves the original0.2.5 asymmetry and does not reset it."
+  ],
+  "runs": {
+    "cp32-pool-transfer-scan": {
+      "source_sha256": "3db2b6518cb89b78158970ad0de3cb38dc27f027da76b0463571b75539dffe09",
+      "rows": [
+        {
+          "unit": "eval_pool_transfer",
+          "symbol": "?GetObjFromGtaPtr@CObjectPoolTransfer@@QAEPAVCEntity@@PAU_ENTITY_TYPE@@@Z",
+          "size": 59,
+          "object_sha256": "9a72c9966f81feb2918803e7482d8f0a83d254e31b2237aab31182284c6a53c2",
+          "candidates": []
+        },
+        {
+          "unit": "eval_pool_transfer",
+          "symbol": "?FindIDFromGtaPtr@CObjectPoolTransfer@@QAEHPAU_ENTITY_TYPE@@@Z",
+          "size": 47,
+          "object_sha256": "9a72c9966f81feb2918803e7482d8f0a83d254e31b2237aab31182284c6a53c2",
+          "candidates": []
+        },
+        {
+          "unit": "eval_pool_transfer",
+          "symbol": "?Destroy@CPickupPoolTransfer@@QAEXH@Z",
+          "size": 76,
+          "object_sha256": "9a72c9966f81feb2918803e7482d8f0a83d254e31b2237aab31182284c6a53c2",
+          "candidates": []
+        },
+        {
+          "unit": "eval_pool_transfer",
+          "symbol": "?DestroyDropped@CPickupPoolTransfer@@QAEXG@Z",
+          "size": 95,
+          "object_sha256": "9a72c9966f81feb2918803e7482d8f0a83d254e31b2237aab31182284c6a53c2",
+          "candidates": [
+            {
+              "rva": 78720,
+              "inferred_targets": {
+                "_destroy_pickup": 269377740,
+                "?ScriptCommand@@YAHPBUSCRIPT_COMMAND@@ZZ": 269165328
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "cp32-pool-transfer-refined": {
+      "source_sha256": "6d9cd2e3f0265acfaf8c7a359da3c0e2bea1f4fb665dcce6e8e396777e1336b3",
+      "rows": [
+        {
+          "unit": "eval_pool_transfer",
+          "symbol": "?GetObjFromGtaPtr@CObjectPoolTransfer@@QAEPAVCEntity@@PAU_ENTITY_TYPE@@@Z",
+          "size": 64,
+          "object_sha256": "5b3a8320754a333a0646db69c70869a7a3ac74ee1ef96b7e91245daa119b6e43",
+          "candidates": [
+            {
+              "rva": 76240,
+              "inferred_targets": {}
+            }
+          ]
+        },
+        {
+          "unit": "eval_pool_transfer",
+          "symbol": "?FindIDFromGtaPtr@CObjectPoolTransfer@@QAEHPAU_ENTITY_TYPE@@@Z",
+          "size": 52,
+          "object_sha256": "5b3a8320754a333a0646db69c70869a7a3ac74ee1ef96b7e91245daa119b6e43",
+          "candidates": [
+            {
+              "rva": 76304,
+              "inferred_targets": {}
+            }
+          ]
+        },
+        {
+          "unit": "eval_pool_transfer",
+          "symbol": "?Destroy@CPickupPoolTransfer@@QAEXH@Z",
+          "size": 87,
+          "object_sha256": "5b3a8320754a333a0646db69c70869a7a3ac74ee1ef96b7e91245daa119b6e43",
+          "candidates": [
+            {
+              "rva": 78624,
+              "inferred_targets": {
+                "_destroy_pickup": 269377740,
+                "?ScriptCommand@@YAHPBUSCRIPT_COMMAND@@ZZ": 269165328
+              }
+            }
+          ]
+        },
+        {
+          "unit": "eval_pool_transfer",
+          "symbol": "?DestroyDropped@CPickupPoolTransfer@@QAEXG@Z",
+          "size": 95,
+          "object_sha256": "5b3a8320754a333a0646db69c70869a7a3ac74ee1ef96b7e91245daa119b6e43",
+          "candidates": [
+            {
+              "rva": 78720,
+              "inferred_targets": {
+                "_destroy_pickup": 269377740,
+                "?ScriptCommand@@YAHPBUSCRIPT_COMMAND@@ZZ": 269165328
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "direct_reference_candidate_bytes": 298,
+  "accepted_coverage_increment": 0
+}

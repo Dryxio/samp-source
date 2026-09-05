@@ -342,3 +342,11 @@ UI-pool acceptance adds1,062 unique code bytes across13 ordinary-C++ functions. 
 Model-storage acceptance adds51 unique code bytes, for47,440 /930,756 (5.09693%). GetModelInfo and its complete65535-pointer backing allocation, interior pointer at element32767 and separate BOOL mode flag pass original/linked full-region and relocation checks. Four changed/new units were compiled; all others reused. Six mutation controls and existing ABI exercise passed. The262,148 bytes of data are not code coverage. ModelInfoLoaded remains16 versus40 bytes and is excluded; the initializer and its two patching callees are still unimplemented. Direct0.2.5 accepted contribution remains392 bytes.
 
 Next: explore missing object/pickup pool and object implementations from0.2.5 with existing R5 layouts; do not repeat costly register-only helper trials. Current link cp32-model-storage-linked, Ob1 cp32-model-storage-ob1, Ob2 cp32-player-ob2; seeds/contract model-storage.
+
+## Object and pickup pool transfers
+
+Object/pickup acceptance adds377 unique code bytes across six ordinary-C++ functions, reaching47,817 /930,756 (5.13744%). Four implementations missing from our R5 base were transferred from0.2.5: object lookup64/52 and pickup destruction87/95. Their298 bytes bring direct0.2.5 accepted contributions to690 bytes. The object constructor34 and pickup destructor45 already existed in our base. Initial unadapted trials failed three of four functions; R5 inclusive last-object-ID, invalid65535, full4096-slot pickup layout and network-ID reset resolve them.
+
+Actual class definitions preserve existing R5 sizes; packed dropped-weapon records replace the opaque gap. CObject remains incomplete and unimplemented, with only its known Entity base accessed. Complete destroy_pickup opcode/argument descriptor and ScriptCommand target verified. Full gate, six mutations and existing ABI exercise passed. Shared header edits required one recompilation of consumers; no duplicate build. Seven older pending providers remain excluded.
+
+Next: scan configuration, HTTP/run utilities and remaining pools for larger complete method families. Current link cp32-object-pickup-linked; matching Ob1/Ob2 runs; seeds/contract object-pickup. Model initialization patching callees and all unimplemented object methods remain outside coverage.
