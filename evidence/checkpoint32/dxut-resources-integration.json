@@ -1,0 +1,96 @@
+{
+  "status": "ACCEPTED_AFTER_COMPLETE_LINK_REVIEW",
+  "run": "cp32-dxut-resources-linked",
+  "ob1": "cp32-dxut-resources-guids-ob1",
+  "ob2": "cp32-ime-ob2",
+  "new_unique_code_bytes": 4837,
+  "accepted_direct_025_credit": 0,
+  "reference_comparisons": [
+    {
+      "function": "CreateTextureFromFile",
+      "identical": true,
+      "difference": ""
+    },
+    {
+      "function": "CreateTextureFromFileEx",
+      "identical": true,
+      "difference": ""
+    },
+    {
+      "function": "CreateTextureFromResource",
+      "identical": true,
+      "difference": ""
+    },
+    {
+      "function": "CreateTextureFromResourceEx",
+      "identical": true,
+      "difference": ""
+    },
+    {
+      "function": "CreateCubeTextureFromFile",
+      "identical": true,
+      "difference": ""
+    },
+    {
+      "function": "CreateCubeTextureFromFileEx",
+      "identical": true,
+      "difference": ""
+    },
+    {
+      "function": "CreateCubeTextureFromResource",
+      "identical": true,
+      "difference": ""
+    },
+    {
+      "function": "CreateCubeTextureFromResourceEx",
+      "identical": true,
+      "difference": ""
+    },
+    {
+      "function": "CreateVolumeTextureFromFile",
+      "identical": true,
+      "difference": ""
+    },
+    {
+      "function": "CreateVolumeTextureFromFileEx",
+      "identical": true,
+      "difference": ""
+    },
+    {
+      "function": "CreateVolumeTextureFromResource",
+      "identical": true,
+      "difference": ""
+    },
+    {
+      "function": "CreateVolumeTextureFromResourceEx",
+      "identical": true,
+      "difference": ""
+    },
+    {
+      "function": "CreateFont",
+      "identical": true,
+      "difference": ""
+    },
+    {
+      "function": "CreateFontIndirect",
+      "identical": true,
+      "difference": ""
+    },
+    {
+      "function": "CreateEffectFromFile",
+      "identical": true,
+      "difference": ""
+    },
+    {
+      "function": "CreateEffectFromResource",
+      "identical": true,
+      "difference": ""
+    }
+  ],
+  "source_adaptations": "Original16 cache methods unchanged; only extraction headers. GUIDs compiled from original SDK d3d9.h DEFINE_GUID declarations using initguid.h.",
+  "failed_attempt": {
+    "run": "cp32-dxut-resources-ob1",
+    "outcome": "Resource methods compiled; GUID unit failed because full dxstdafx with initguid caused GUID_NULL missing in unrelated DXUTsound.h. Narrowed GUID unit to windows/initguid/d3d9; resource unit reused unchanged."
+  },
+  "verification": "1271 complete regions, every target and PE relocation,10 negative controls and existing ABI pass. All4 interface GUID16-byte objects verified. Eight new6-byte D3DX import relays have exact d3dx9_25.dll/API identities, pinned d3dx9.lib owner/hash and IAT relocations; external library bytes excluded. Typed cache Add providers verified; prior size providers deduplicated. Eight prior pending bodies unchanged. No resource loading or graphics/game execution."
+}
