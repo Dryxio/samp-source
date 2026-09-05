@@ -1,0 +1,1593 @@
+{
+  "status": "DISCOVERY_ONLY_NOT_ACCEPTED",
+  "run": "cp32-cmd-recall-scan",
+  "reference_sha256": "b72b5dbe725f81864ca3f78bc7063bda56cc05fc7188af822fa7a754432553a2",
+  "rows": [
+    {
+      "unit": "eval_cmd_recall",
+      "symbol": "?AddToRecallBuffer@CCmdRecallEval@@QAEXPAD@Z",
+      "size": 90,
+      "object_sha256": "7861729045db9dd073b32ecacc02b15337c72ef0bdc0b2c387a1fabddf0d50eb",
+      "candidates": [
+        {
+          "rva": 431568,
+          "inferred_targets": {}
+        }
+      ]
+    },
+    {
+      "unit": "eval_cmd_recall",
+      "symbol": "?RecallUp@CCmdRecallEval@@QAEXXZ",
+      "size": 100,
+      "object_sha256": "7861729045db9dd073b32ecacc02b15337c72ef0bdc0b2c387a1fabddf0d50eb",
+      "candidates": [
+        {
+          "rva": 431664,
+          "inferred_targets": {
+            "?GetTextA@CDXUTEditBox@@QAEPADXZ": 268981840,
+            "_strncpy": 269252592,
+            "?SetText@CDXUTEditBox@@QAEXPBD_N@Z": 268981632
+          }
+        }
+      ]
+    },
+    {
+      "unit": "eval_cmd_recall",
+      "symbol": "?RecallDown@CCmdRecallEval@@QAEXXZ",
+      "size": 78,
+      "object_sha256": "7861729045db9dd073b32ecacc02b15337c72ef0bdc0b2c387a1fabddf0d50eb",
+      "candidates": [
+        {
+          "rva": 431776,
+          "inferred_targets": {
+            "?SetText@CDXUTEditBox@@QAEXPBD_N@Z": 268981632
+          }
+        }
+      ]
+    },
+    {
+      "unit": "cmdwindow",
+      "symbol": "?GetWidth@CDXUTDialog@@QAEHXZ",
+      "size": 7,
+      "object_sha256": "b1a80cf5e128945ca2a324689694c9b408d5fe288881e46bc9b3a188150eaf99",
+      "candidates": [
+        {
+          "rva": 11440,
+          "inferred_targets": {}
+        }
+      ]
+    },
+    {
+      "unit": "cmdwindow",
+      "symbol": "?GetHeight@CDXUTDialog@@QAEHXZ",
+      "size": 7,
+      "object_sha256": "b1a80cf5e128945ca2a324689694c9b408d5fe288881e46bc9b3a188150eaf99",
+      "candidates": [
+        {
+          "rva": 11456,
+          "inferred_targets": {}
+        }
+      ]
+    },
+    {
+      "unit": "cmdwindow",
+      "symbol": "?SetSelectedTextColor@CDXUTEditBox@@QAEXK@Z",
+      "size": 13,
+      "object_sha256": "b1a80cf5e128945ca2a324689694c9b408d5fe288881e46bc9b3a188150eaf99",
+      "candidates": [
+        {
+          "rva": 430992,
+          "inferred_targets": {}
+        }
+      ]
+    },
+    {
+      "unit": "cmdwindow",
+      "symbol": "?SetSelectedBackColor@CDXUTEditBox@@QAEXK@Z",
+      "size": 13,
+      "object_sha256": "b1a80cf5e128945ca2a324689694c9b408d5fe288881e46bc9b3a188150eaf99",
+      "candidates": [
+        {
+          "rva": 431008,
+          "inferred_targets": {}
+        }
+      ]
+    },
+    {
+      "unit": "cmdwindow",
+      "symbol": "?SetCaretColor@CDXUTEditBox@@QAEXK@Z",
+      "size": 13,
+      "object_sha256": "b1a80cf5e128945ca2a324689694c9b408d5fe288881e46bc9b3a188150eaf99",
+      "candidates": [
+        {
+          "rva": 431024,
+          "inferred_targets": {}
+        }
+      ]
+    },
+    {
+      "unit": "cmdwindow",
+      "symbol": "?GetMainWindowHwnd@CGame@@QAEPAUHWND__@@XZ",
+      "size": 6,
+      "object_sha256": "b1a80cf5e128945ca2a324689694c9b408d5fe288881e46bc9b3a188150eaf99",
+      "candidates": [
+        {
+          "rva": 11536,
+          "inferred_targets": {}
+        }
+      ]
+    },
+    {
+      "unit": "cmdwindow",
+      "symbol": "??0CCmdWindow@@QAE@PAUIDirect3DDevice9@@@Z",
+      "size": 95,
+      "object_sha256": "b1a80cf5e128945ca2a324689694c9b408d5fe288881e46bc9b3a188150eaf99",
+      "candidates": [
+        {
+          "rva": 431056,
+          "inferred_targets": {}
+        }
+      ]
+    },
+    {
+      "unit": "cmdwindow",
+      "symbol": "??1CCmdWindow@@QAE@XZ",
+      "size": 1,
+      "object_sha256": "b1a80cf5e128945ca2a324689694c9b408d5fe288881e46bc9b3a188150eaf99",
+      "candidates": [
+        {
+          "rva": 32336,
+          "inferred_targets": {}
+        },
+        {
+          "rva": 49152,
+          "inferred_targets": {}
+        },
+        {
+          "rva": 79536,
+          "inferred_targets": {}
+        },
+        {
+          "rva": 98496,
+          "inferred_targets": {}
+        },
+        {
+          "rva": 130048,
+          "inferred_targets": {}
+        },
+        {
+          "rva": 133776,
+          "inferred_targets": {}
+        },
+        {
+          "rva": 135360,
+          "inferred_targets": {}
+        },
+        {
+          "rva": 136512,
+          "inferred_targets": {}
+        },
+        {
+          "rva": 153040,
+          "inferred_targets": {}
+        },
+        {
+          "rva": 160832,
+          "inferred_targets": {}
+        },
+        {
+          "rva": 160912,
+          "inferred_targets": {}
+        },
+        {
+          "rva": 277760,
+          "inferred_targets": {}
+        },
+        {
+          "rva": 280752,
+          "inferred_targets": {}
+        },
+        {
+          "rva": 358784,
+          "inferred_targets": {}
+        },
+        {
+          "rva": 359040,
+          "inferred_targets": {}
+        },
+        {
+          "rva": 359408,
+          "inferred_targets": {}
+        },
+        {
+          "rva": 359440,
+          "inferred_targets": {}
+        },
+        {
+          "rva": 359472,
+          "inferred_targets": {}
+        },
+        {
+          "rva": 359504,
+          "inferred_targets": {}
+        },
+        {
+          "rva": 359536,
+          "inferred_targets": {}
+        },
+        {
+          "rva": 359568,
+          "inferred_targets": {}
+        },
+        {
+          "rva": 359600,
+          "inferred_targets": {}
+        },
+        {
+          "rva": 359632,
+          "inferred_targets": {}
+        },
+        {
+          "rva": 359664,
+          "inferred_targets": {}
+        },
+        {
+          "rva": 359712,
+          "inferred_targets": {}
+        },
+        {
+          "rva": 359744,
+          "inferred_targets": {}
+        },
+        {
+          "rva": 359776,
+          "inferred_targets": {}
+        },
+        {
+          "rva": 359808,
+          "inferred_targets": {}
+        },
+        {
+          "rva": 359840,
+          "inferred_targets": {}
+        },
+        {
+          "rva": 359872,
+          "inferred_targets": {}
+        },
+        {
+          "rva": 359904,
+          "inferred_targets": {}
+        },
+        {
+          "rva": 359968,
+          "inferred_targets": {}
+        },
+        {
+          "rva": 360000,
+          "inferred_targets": {}
+        },
+        {
+          "rva": 360032,
+          "inferred_targets": {}
+        },
+        {
+          "rva": 360064,
+          "inferred_targets": {}
+        },
+        {
+          "rva": 360096,
+          "inferred_targets": {}
+        },
+        {
+          "rva": 360128,
+          "inferred_targets": {}
+        },
+        {
+          "rva": 360160,
+          "inferred_targets": {}
+        },
+        {
+          "rva": 360448,
+          "inferred_targets": {}
+        },
+        {
+          "rva": 360480,
+          "inferred_targets": {}
+        },
+        {
+          "rva": 360512,
+          "inferred_targets": {}
+        },
+        {
+          "rva": 360544,
+          "inferred_targets": {}
+        },
+        {
+          "rva": 360576,
+          "inferred_targets": {}
+        },
+        {
+          "rva": 360608,
+          "inferred_targets": {}
+        },
+        {
+          "rva": 360800,
+          "inferred_targets": {}
+        },
+        {
+          "rva": 360832,
+          "inferred_targets": {}
+        },
+        {
+          "rva": 360864,
+          "inferred_targets": {}
+        },
+        {
+          "rva": 416432,
+          "inferred_targets": {}
+        },
+        {
+          "rva": 428528,
+          "inferred_targets": {}
+        },
+        {
+          "rva": 441904,
+          "inferred_targets": {}
+        },
+        {
+          "rva": 463456,
+          "inferred_targets": {}
+        },
+        {
+          "rva": 489872,
+          "inferred_targets": {}
+        },
+        {
+          "rva": 582416,
+          "inferred_targets": {}
+        },
+        {
+          "rva": 611920,
+          "inferred_targets": {}
+        },
+        {
+          "rva": 611936,
+          "inferred_targets": {}
+        },
+        {
+          "rva": 649280,
+          "inferred_targets": {}
+        },
+        {
+          "rva": 671072,
+          "inferred_targets": {}
+        },
+        {
+          "rva": 736096,
+          "inferred_targets": {}
+        },
+        {
+          "rva": 772144,
+          "inferred_targets": {}
+        },
+        {
+          "rva": 800144,
+          "inferred_targets": {}
+        },
+        {
+          "rva": 813742,
+          "inferred_targets": {}
+        }
+      ]
+    },
+    {
+      "unit": "cmdwindow",
+      "symbol": "?GetDialogSize@CCmdWindow@@QAEXPAUtagRECT@@@Z",
+      "size": 52,
+      "object_sha256": "b1a80cf5e128945ca2a324689694c9b408d5fe288881e46bc9b3a188150eaf99",
+      "candidates": [
+        {
+          "rva": 431168,
+          "inferred_targets": {}
+        }
+      ]
+    },
+    {
+      "unit": "cmdwindow",
+      "symbol": "?Enable@CCmdWindow@@QAEXXZ",
+      "size": 76,
+      "object_sha256": "b1a80cf5e128945ca2a324689694c9b408d5fe288881e46bc9b3a188150eaf99",
+      "candidates": []
+    },
+    {
+      "unit": "cmdwindow",
+      "symbol": "?Disable@CCmdWindow@@QAEXXZ",
+      "size": 72,
+      "object_sha256": "b1a80cf5e128945ca2a324689694c9b408d5fe288881e46bc9b3a188150eaf99",
+      "candidates": [
+        {
+          "rva": 431488,
+          "inferred_targets": {
+            "?pGame@@3PAVCGame@@A": 270986156,
+            "?ToggleKeyInputsDisabled@CGame@@QAEXHH@Z": 269092592
+          }
+        }
+      ]
+    },
+    {
+      "unit": "cmdwindow",
+      "symbol": "?ProcessInput@CCmdWindow@@QAEXXZ",
+      "size": 45,
+      "object_sha256": "b1a80cf5e128945ca2a324689694c9b408d5fe288881e46bc9b3a188150eaf99",
+      "candidates": []
+    },
+    {
+      "unit": "cmdwindow",
+      "symbol": "?GetCmdHandler@CCmdWindow@@QAEP6AXPAD@Z0@Z",
+      "size": 80,
+      "object_sha256": "b1a80cf5e128945ca2a324689694c9b408d5fe288881e46bc9b3a188150eaf99",
+      "candidates": [
+        {
+          "rva": 431888,
+          "inferred_targets": {
+            "_stricmp": 269254514
+          }
+        }
+      ]
+    },
+    {
+      "unit": "cmdwindow",
+      "symbol": "?AddDefaultCmdProc@CCmdWindow@@QAEXP6AXPAD@Z@Z",
+      "size": 13,
+      "object_sha256": "b1a80cf5e128945ca2a324689694c9b408d5fe288881e46bc9b3a188150eaf99",
+      "candidates": [
+        {
+          "rva": 431968,
+          "inferred_targets": {}
+        }
+      ]
+    },
+    {
+      "unit": "cmdwindow",
+      "symbol": "?AddCmdProc@CCmdWindow@@QAEXPADP6AX0@Z@Z",
+      "size": 92,
+      "object_sha256": "b1a80cf5e128945ca2a324689694c9b408d5fe288881e46bc9b3a188150eaf99",
+      "candidates": [
+        {
+          "rva": 431984,
+          "inferred_targets": {}
+        }
+      ]
+    },
+    {
+      "unit": "cmdwindow",
+      "symbol": "?GetAt@?$CGrowableArray@PAVCDXUTElement@@@@QAEAAPAVCDXUTElement@@H@Z",
+      "size": 12,
+      "object_sha256": "b1a80cf5e128945ca2a324689694c9b408d5fe288881e46bc9b3a188150eaf99",
+      "candidates": [
+        {
+          "rva": 150288,
+          "inferred_targets": {}
+        },
+        {
+          "rva": 161040,
+          "inferred_targets": {}
+        },
+        {
+          "rva": 161504,
+          "inferred_targets": {}
+        },
+        {
+          "rva": 162096,
+          "inferred_targets": {}
+        },
+        {
+          "rva": 163136,
+          "inferred_targets": {}
+        },
+        {
+          "rva": 165776,
+          "inferred_targets": {}
+        },
+        {
+          "rva": 203232,
+          "inferred_targets": {}
+        },
+        {
+          "rva": 233392,
+          "inferred_targets": {}
+        },
+        {
+          "rva": 233648,
+          "inferred_targets": {}
+        },
+        {
+          "rva": 279024,
+          "inferred_targets": {}
+        },
+        {
+          "rva": 279056,
+          "inferred_targets": {}
+        },
+        {
+          "rva": 279136,
+          "inferred_targets": {}
+        },
+        {
+          "rva": 280176,
+          "inferred_targets": {}
+        },
+        {
+          "rva": 281264,
+          "inferred_targets": {}
+        },
+        {
+          "rva": 281664,
+          "inferred_targets": {}
+        },
+        {
+          "rva": 283152,
+          "inferred_targets": {}
+        },
+        {
+          "rva": 286080,
+          "inferred_targets": {}
+        },
+        {
+          "rva": 286432,
+          "inferred_targets": {}
+        },
+        {
+          "rva": 305984,
+          "inferred_targets": {}
+        },
+        {
+          "rva": 307968,
+          "inferred_targets": {}
+        },
+        {
+          "rva": 322080,
+          "inferred_targets": {}
+        },
+        {
+          "rva": 350272,
+          "inferred_targets": {}
+        },
+        {
+          "rva": 356576,
+          "inferred_targets": {}
+        },
+        {
+          "rva": 432160,
+          "inferred_targets": {}
+        },
+        {
+          "rva": 507520,
+          "inferred_targets": {}
+        },
+        {
+          "rva": 507552,
+          "inferred_targets": {}
+        },
+        {
+          "rva": 507584,
+          "inferred_targets": {}
+        },
+        {
+          "rva": 507648,
+          "inferred_targets": {}
+        },
+        {
+          "rva": 507680,
+          "inferred_targets": {}
+        },
+        {
+          "rva": 507712,
+          "inferred_targets": {}
+        },
+        {
+          "rva": 507744,
+          "inferred_targets": {}
+        },
+        {
+          "rva": 534992,
+          "inferred_targets": {}
+        },
+        {
+          "rva": 550704,
+          "inferred_targets": {}
+        },
+        {
+          "rva": 550752,
+          "inferred_targets": {}
+        },
+        {
+          "rva": 550800,
+          "inferred_targets": {}
+        },
+        {
+          "rva": 550848,
+          "inferred_targets": {}
+        },
+        {
+          "rva": 550928,
+          "inferred_targets": {}
+        },
+        {
+          "rva": 550976,
+          "inferred_targets": {}
+        },
+        {
+          "rva": 563680,
+          "inferred_targets": {}
+        },
+        {
+          "rva": 563696,
+          "inferred_targets": {}
+        },
+        {
+          "rva": 614256,
+          "inferred_targets": {}
+        }
+      ]
+    },
+    {
+      "unit": "cmdwindow",
+      "symbol": "?GetElement@CDXUTControl@@QAEPAVCDXUTElement@@I@Z",
+      "size": 13,
+      "object_sha256": "b1a80cf5e128945ca2a324689694c9b408d5fe288881e46bc9b3a188150eaf99",
+      "candidates": [
+        {
+          "rva": 432176,
+          "inferred_targets": {}
+        }
+      ]
+    },
+    {
+      "unit": "cmdwindow",
+      "symbol": "?ResetDialogControls@CCmdWindow@@QAEXPAVCDXUTDialog@@@Z",
+      "size": 185,
+      "object_sha256": "b1a80cf5e128945ca2a324689694c9b408d5fe288881e46bc9b3a188150eaf99",
+      "candidates": [
+        {
+          "rva": 432192,
+          "inferred_targets": {
+            "??_C@_00CNPNBAHC@?$AA@": 269375945,
+            "?AddIMEEditBox@CDXUTDialog@@QAEJHPBDHHHH_NPAPAVCDXUTIMEEditBox@@@Z": 269029552,
+            "?pConfig@@3PAVCConfig@@A": 270986108,
+            "??_C@_03MABAFPPL@ime?$AA@": 269394660,
+            "?GetIntVariable@CConfig@@QAEHPAD@Z": 268852752,
+            "?EnableImeSystem@CDXUTIMEEditBox@@SAX_N@Z": 268984000,
+            "?StaticOnCreateDevice@CDXUTIMEEditBox@@SAJXZ": 268982752,
+            "?Init@DXUTBlendColor@@QAEXKKK@Z": 268985360
+          }
+        }
+      ]
+    },
+    {
+      "unit": "deathwindow",
+      "symbol": "?GetScreenWidth@CGame@@QAEHXZ",
+      "size": 6,
+      "object_sha256": "395b46f9f6edc9c5a97ccc0c295495c3bf94ac89819948973c58e64fa92c79ef",
+      "candidates": [
+        {
+          "rva": 396592,
+          "inferred_targets": {}
+        }
+      ]
+    },
+    {
+      "unit": "deathwindow",
+      "symbol": "?GetScreenHeight@CGame@@QAEHXZ",
+      "size": 6,
+      "object_sha256": "395b46f9f6edc9c5a97ccc0c295495c3bf94ac89819948973c58e64fa92c79ef",
+      "candidates": [
+        {
+          "rva": 418912,
+          "inferred_targets": {}
+        }
+      ]
+    },
+    {
+      "unit": "deathwindow",
+      "symbol": "??1CDeathWindow@@QAE@XZ",
+      "size": 97,
+      "object_sha256": "395b46f9f6edc9c5a97ccc0c295495c3bf94ac89819948973c58e64fa92c79ef",
+      "candidates": [
+        {
+          "rva": 432960,
+          "inferred_targets": {}
+        }
+      ]
+    },
+    {
+      "unit": "deathwindow",
+      "symbol": "?CreateAuxFonts@CDeathWindow@@QAEXXZ",
+      "size": 105,
+      "object_sha256": "395b46f9f6edc9c5a97ccc0c295495c3bf94ac89819948973c58e64fa92c79ef",
+      "candidates": [
+        {
+          "rva": 433072,
+          "inferred_targets": {
+            "??_C@_08JBMINMIO@SAMPAUX3?$AA@": 269394696,
+            "_D3DXCreateFontA@48": 269245562
+          }
+        }
+      ]
+    },
+    {
+      "unit": "deathwindow",
+      "symbol": "?PushBack@CDeathWindow@@AAEXXZ",
+      "size": 18,
+      "object_sha256": "395b46f9f6edc9c5a97ccc0c295495c3bf94ac89819948973c58e64fa92c79ef",
+      "candidates": [
+        {
+          "rva": 433184,
+          "inferred_targets": {}
+        }
+      ]
+    },
+    {
+      "unit": "deathwindow",
+      "symbol": "?RenderText@CDeathWindow@@QAEXPADUtagRECT@@KK@Z",
+      "size": 248,
+      "object_sha256": "395b46f9f6edc9c5a97ccc0c295495c3bf94ac89819948973c58e64fa92c79ef",
+      "candidates": [
+        {
+          "rva": 433216,
+          "inferred_targets": {}
+        }
+      ]
+    },
+    {
+      "unit": "deathwindow",
+      "symbol": "?RenderWeaponSprite@CDeathWindow@@QAEXPADUtagRECT@@K@Z",
+      "size": 141,
+      "object_sha256": "395b46f9f6edc9c5a97ccc0c295495c3bf94ac89819948973c58e64fa92c79ef",
+      "candidates": [
+        {
+          "rva": 433472,
+          "inferred_targets": {
+            "??_C@_01BBODEMC@G?$AA@": 269378256
+          }
+        }
+      ]
+    },
+    {
+      "unit": "deathwindow",
+      "symbol": "?GetSymbolSize@CDeathWindow@@AAE?AUtagSIZE@@XZ",
+      "size": 114,
+      "object_sha256": "395b46f9f6edc9c5a97ccc0c295495c3bf94ac89819948973c58e64fa92c79ef",
+      "candidates": [
+        {
+          "rva": 433616,
+          "inferred_targets": {
+            "??_C@_01BBODEMC@G?$AA@": 269378256
+          }
+        }
+      ]
+    },
+    {
+      "unit": "deathwindow",
+      "symbol": "?SpriteIDForWeapon@CDeathWindow@@QAEPADE@Z",
+      "size": 750,
+      "object_sha256": "395b46f9f6edc9c5a97ccc0c295495c3bf94ac89819948973c58e64fa92c79ef",
+      "candidates": []
+    },
+    {
+      "unit": "deathwindow",
+      "symbol": "?CreateFonts@CDeathWindow@@QAEXXZ",
+      "size": 390,
+      "object_sha256": "395b46f9f6edc9c5a97ccc0c295495c3bf94ac89819948973c58e64fa92c79ef",
+      "candidates": [
+        {
+          "rva": 434512,
+          "inferred_targets": {
+            "?GetDeathWindowFontSize@@YAHXZ": 269243104,
+            "_D3DXCreateSprite@8": 269245556,
+            "?GetFontFace@@YAPADXZ": 269243248,
+            "?GetFontWeight@@YAHXZ": 269243200,
+            "_D3DXCreateFontA@48": 269245562,
+            "??_C@_0BJ@NKBDOCHI@LONGESTNICKNICK_NICKNICK?$AA@": 269394736,
+            "??_C@_0L@OKMCEIJL@GTAWEAPON3?$AA@": 269394724,
+            "?GetSymbolSize@CDeathWindow@@AAE?AUtagSIZE@@XZ": 268869072
+          }
+        }
+      ]
+    },
+    {
+      "unit": "deathwindow",
+      "symbol": "?Draw@CDeathWindow@@QAEXXZ",
+      "size": 747,
+      "object_sha256": "395b46f9f6edc9c5a97ccc0c295495c3bf94ac89819948973c58e64fa92c79ef",
+      "candidates": [
+        {
+          "rva": 434912,
+          "inferred_targets": {
+            "__real@3e99999a": 269394768,
+            "__ftol2": 269251652,
+            "__real@3f400000": 269394764,
+            "?RenderText@CDeathWindow@@QAEXPADUtagRECT@@KK@Z": 268868672,
+            "?SpriteIDForWeapon@CDeathWindow@@QAEPADE@Z": 268869200,
+            "?RenderWeaponSprite@CDeathWindow@@QAEXPADUtagRECT@@K@Z": 268868928
+          }
+        }
+      ]
+    },
+    {
+      "unit": "deathwindow",
+      "symbol": "?AddToDeathWindowBuffer@CDeathWindow@@AAEXPAD0KKE@Z",
+      "size": 119,
+      "object_sha256": "395b46f9f6edc9c5a97ccc0c295495c3bf94ac89819948973c58e64fa92c79ef",
+      "candidates": [
+        {
+          "rva": 435664,
+          "inferred_targets": {
+            "?PushBack@CDeathWindow@@AAEXXZ": 268868640
+          }
+        }
+      ]
+    },
+    {
+      "unit": "deathwindow",
+      "symbol": "??0CDeathWindow@@QAE@PAUIDirect3DDevice9@@@Z",
+      "size": 91,
+      "object_sha256": "395b46f9f6edc9c5a97ccc0c295495c3bf94ac89819948973c58e64fa92c79ef",
+      "candidates": [
+        {
+          "rva": 435792,
+          "inferred_targets": {
+            "?CreateFonts@CDeathWindow@@QAEXXZ": 268869968
+          }
+        }
+      ]
+    },
+    {
+      "unit": "deathwindow",
+      "symbol": "?AddMessage@CDeathWindow@@QAEXPAD0KKE@Z",
+      "size": 5,
+      "object_sha256": "395b46f9f6edc9c5a97ccc0c295495c3bf94ac89819948973c58e64fa92c79ef",
+      "candidates": [
+        {
+          "rva": 33728,
+          "inferred_targets": {
+            "?AddToDeathWindowBuffer@CDeathWindow@@AAEXPAD0KKE@Z": 269250016
+          }
+        },
+        {
+          "rva": 35040,
+          "inferred_targets": {
+            "?AddToDeathWindowBuffer@CDeathWindow@@AAEXPAD0KKE@Z": 268625904
+          }
+        },
+        {
+          "rva": 133824,
+          "inferred_targets": {
+            "?AddToDeathWindowBuffer@CDeathWindow@@AAEXPAD0KKE@Z": 268646112
+          }
+        },
+        {
+          "rva": 133840,
+          "inferred_targets": {
+            "?AddToDeathWindowBuffer@CDeathWindow@@AAEXPAD0KKE@Z": 268646160
+          }
+        },
+        {
+          "rva": 133856,
+          "inferred_targets": {
+            "?AddToDeathWindowBuffer@CDeathWindow@@AAEXPAD0KKE@Z": 268646208
+          }
+        },
+        {
+          "rva": 133872,
+          "inferred_targets": {
+            "?AddToDeathWindowBuffer@CDeathWindow@@AAEXPAD0KKE@Z": 268646256
+          }
+        },
+        {
+          "rva": 136528,
+          "inferred_targets": {
+            "?AddToDeathWindowBuffer@CDeathWindow@@AAEXPAD0KKE@Z": 268570016
+          }
+        },
+        {
+          "rva": 136544,
+          "inferred_targets": {
+            "?AddToDeathWindowBuffer@CDeathWindow@@AAEXPAD0KKE@Z": 268570016
+          }
+        },
+        {
+          "rva": 141152,
+          "inferred_targets": {
+            "?AddToDeathWindowBuffer@CDeathWindow@@AAEXPAD0KKE@Z": 268573712
+          }
+        },
+        {
+          "rva": 141728,
+          "inferred_targets": {
+            "?AddToDeathWindowBuffer@CDeathWindow@@AAEXPAD0KKE@Z": 268574192
+          }
+        },
+        {
+          "rva": 141952,
+          "inferred_targets": {
+            "?AddToDeathWindowBuffer@CDeathWindow@@AAEXPAD0KKE@Z": 268574384
+          }
+        },
+        {
+          "rva": 142224,
+          "inferred_targets": {
+            "?AddToDeathWindowBuffer@CDeathWindow@@AAEXPAD0KKE@Z": 268575152
+          }
+        },
+        {
+          "rva": 142384,
+          "inferred_targets": {
+            "?AddToDeathWindowBuffer@CDeathWindow@@AAEXPAD0KKE@Z": 268575760
+          }
+        },
+        {
+          "rva": 142592,
+          "inferred_targets": {
+            "?AddToDeathWindowBuffer@CDeathWindow@@AAEXPAD0KKE@Z": 268577184
+          }
+        },
+        {
+          "rva": 157120,
+          "inferred_targets": {
+            "?AddToDeathWindowBuffer@CDeathWindow@@AAEXPAD0KKE@Z": 268592384
+          }
+        },
+        {
+          "rva": 159536,
+          "inferred_targets": {
+            "?AddToDeathWindowBuffer@CDeathWindow@@AAEXPAD0KKE@Z": 268594288
+          }
+        },
+        {
+          "rva": 159648,
+          "inferred_targets": {
+            "?AddToDeathWindowBuffer@CDeathWindow@@AAEXPAD0KKE@Z": 268594368
+          }
+        },
+        {
+          "rva": 163648,
+          "inferred_targets": {
+            "?AddToDeathWindowBuffer@CDeathWindow@@AAEXPAD0KKE@Z": 268596464
+          }
+        },
+        {
+          "rva": 163664,
+          "inferred_targets": {
+            "?AddToDeathWindowBuffer@CDeathWindow@@AAEXPAD0KKE@Z": 268596240
+          }
+        },
+        {
+          "rva": 165088,
+          "inferred_targets": {
+            "?AddToDeathWindowBuffer@CDeathWindow@@AAEXPAD0KKE@Z": 268596640
+          }
+        },
+        {
+          "rva": 168064,
+          "inferred_targets": {
+            "?AddToDeathWindowBuffer@CDeathWindow@@AAEXPAD0KKE@Z": 268600704
+          }
+        },
+        {
+          "rva": 183616,
+          "inferred_targets": {
+            "?AddToDeathWindowBuffer@CDeathWindow@@AAEXPAD0KKE@Z": 268618432
+          }
+        },
+        {
+          "rva": 186352,
+          "inferred_targets": {
+            "?AddToDeathWindowBuffer@CDeathWindow@@AAEXPAD0KKE@Z": 268621104
+          }
+        },
+        {
+          "rva": 186576,
+          "inferred_targets": {
+            "?AddToDeathWindowBuffer@CDeathWindow@@AAEXPAD0KKE@Z": 268621568
+          }
+        },
+        {
+          "rva": 193440,
+          "inferred_targets": {
+            "?AddToDeathWindowBuffer@CDeathWindow@@AAEXPAD0KKE@Z": 268599120
+          }
+        },
+        {
+          "rva": 193472,
+          "inferred_targets": {
+            "?AddToDeathWindowBuffer@CDeathWindow@@AAEXPAD0KKE@Z": 268599120
+          }
+        },
+        {
+          "rva": 193664,
+          "inferred_targets": {
+            "?AddToDeathWindowBuffer@CDeathWindow@@AAEXPAD0KKE@Z": 268628720
+          }
+        },
+        {
+          "rva": 195264,
+          "inferred_targets": {
+            "?AddToDeathWindowBuffer@CDeathWindow@@AAEXPAD0KKE@Z": 268629584
+          }
+        },
+        {
+          "rva": 195456,
+          "inferred_targets": {
+            "?AddToDeathWindowBuffer@CDeathWindow@@AAEXPAD0KKE@Z": 268630048
+          }
+        },
+        {
+          "rva": 211552,
+          "inferred_targets": {
+            "?AddToDeathWindowBuffer@CDeathWindow@@AAEXPAD0KKE@Z": 268647200
+          }
+        },
+        {
+          "rva": 213488,
+          "inferred_targets": {
+            "?AddToDeathWindowBuffer@CDeathWindow@@AAEXPAD0KKE@Z": 268699168
+          }
+        },
+        {
+          "rva": 213808,
+          "inferred_targets": {
+            "?AddToDeathWindowBuffer@CDeathWindow@@AAEXPAD0KKE@Z": 268666288
+          }
+        },
+        {
+          "rva": 214256,
+          "inferred_targets": {
+            "?AddToDeathWindowBuffer@CDeathWindow@@AAEXPAD0KKE@Z": 268667488
+          }
+        },
+        {
+          "rva": 214272,
+          "inferred_targets": {
+            "?AddToDeathWindowBuffer@CDeathWindow@@AAEXPAD0KKE@Z": 268676256
+          }
+        },
+        {
+          "rva": 214288,
+          "inferred_targets": {
+            "?AddToDeathWindowBuffer@CDeathWindow@@AAEXPAD0KKE@Z": 268666352
+          }
+        },
+        {
+          "rva": 214304,
+          "inferred_targets": {
+            "?AddToDeathWindowBuffer@CDeathWindow@@AAEXPAD0KKE@Z": 268666400
+          }
+        },
+        {
+          "rva": 214320,
+          "inferred_targets": {
+            "?AddToDeathWindowBuffer@CDeathWindow@@AAEXPAD0KKE@Z": 268666448
+          }
+        },
+        {
+          "rva": 214704,
+          "inferred_targets": {
+            "?AddToDeathWindowBuffer@CDeathWindow@@AAEXPAD0KKE@Z": 268667728
+          }
+        },
+        {
+          "rva": 214720,
+          "inferred_targets": {
+            "?AddToDeathWindowBuffer@CDeathWindow@@AAEXPAD0KKE@Z": 268667792
+          }
+        },
+        {
+          "rva": 214736,
+          "inferred_targets": {
+            "?AddToDeathWindowBuffer@CDeathWindow@@AAEXPAD0KKE@Z": 268676384
+          }
+        },
+        {
+          "rva": 214752,
+          "inferred_targets": {
+            "?AddToDeathWindowBuffer@CDeathWindow@@AAEXPAD0KKE@Z": 268676448
+          }
+        },
+        {
+          "rva": 215216,
+          "inferred_targets": {
+            "?AddToDeathWindowBuffer@CDeathWindow@@AAEXPAD0KKE@Z": 268676528
+          }
+        },
+        {
+          "rva": 215232,
+          "inferred_targets": {
+            "?AddToDeathWindowBuffer@CDeathWindow@@AAEXPAD0KKE@Z": 268667856
+          }
+        },
+        {
+          "rva": 215248,
+          "inferred_targets": {
+            "?AddToDeathWindowBuffer@CDeathWindow@@AAEXPAD0KKE@Z": 268667872
+          }
+        },
+        {
+          "rva": 215328,
+          "inferred_targets": {
+            "?AddToDeathWindowBuffer@CDeathWindow@@AAEXPAD0KKE@Z": 268666976
+          }
+        },
+        {
+          "rva": 215344,
+          "inferred_targets": {
+            "?AddToDeathWindowBuffer@CDeathWindow@@AAEXPAD0KKE@Z": 268667056
+          }
+        },
+        {
+          "rva": 215360,
+          "inferred_targets": {
+            "?AddToDeathWindowBuffer@CDeathWindow@@AAEXPAD0KKE@Z": 268667232
+          }
+        },
+        {
+          "rva": 215376,
+          "inferred_targets": {
+            "?AddToDeathWindowBuffer@CDeathWindow@@AAEXPAD0KKE@Z": 268675888
+          }
+        },
+        {
+          "rva": 215472,
+          "inferred_targets": {
+            "?AddToDeathWindowBuffer@CDeathWindow@@AAEXPAD0KKE@Z": 268668032
+          }
+        },
+        {
+          "rva": 248944,
+          "inferred_targets": {
+            "?AddToDeathWindowBuffer@CDeathWindow@@AAEXPAD0KKE@Z": 268677328
+          }
+        },
+        {
+          "rva": 262640,
+          "inferred_targets": {
+            "?AddToDeathWindowBuffer@CDeathWindow@@AAEXPAD0KKE@Z": 268687568
+          }
+        },
+        {
+          "rva": 286112,
+          "inferred_targets": {
+            "?AddToDeathWindowBuffer@CDeathWindow@@AAEXPAD0KKE@Z": 268721552
+          }
+        },
+        {
+          "rva": 286480,
+          "inferred_targets": {
+            "?AddToDeathWindowBuffer@CDeathWindow@@AAEXPAD0KKE@Z": 268717584
+          }
+        },
+        {
+          "rva": 291168,
+          "inferred_targets": {
+            "?AddToDeathWindowBuffer@CDeathWindow@@AAEXPAD0KKE@Z": 268722368
+          }
+        },
+        {
+          "rva": 291264,
+          "inferred_targets": {
+            "?AddToDeathWindowBuffer@CDeathWindow@@AAEXPAD0KKE@Z": 268722480
+          }
+        },
+        {
+          "rva": 291392,
+          "inferred_targets": {
+            "?AddToDeathWindowBuffer@CDeathWindow@@AAEXPAD0KKE@Z": 268723088
+          }
+        },
+        {
+          "rva": 294160,
+          "inferred_targets": {
+            "?AddToDeathWindowBuffer@CDeathWindow@@AAEXPAD0KKE@Z": 268726896
+          }
+        },
+        {
+          "rva": 308992,
+          "inferred_targets": {
+            "?AddToDeathWindowBuffer@CDeathWindow@@AAEXPAD0KKE@Z": 268743488
+          }
+        },
+        {
+          "rva": 309120,
+          "inferred_targets": {
+            "?AddToDeathWindowBuffer@CDeathWindow@@AAEXPAD0KKE@Z": 268743568
+          }
+        },
+        {
+          "rva": 309248,
+          "inferred_targets": {
+            "?AddToDeathWindowBuffer@CDeathWindow@@AAEXPAD0KKE@Z": 268743632
+          }
+        },
+        {
+          "rva": 324384,
+          "inferred_targets": {
+            "?AddToDeathWindowBuffer@CDeathWindow@@AAEXPAD0KKE@Z": 268569616
+          }
+        },
+        {
+          "rva": 333536,
+          "inferred_targets": {
+            "?AddToDeathWindowBuffer@CDeathWindow@@AAEXPAD0KKE@Z": 268768848
+          }
+        },
+        {
+          "rva": 343248,
+          "inferred_targets": {
+            "?AddToDeathWindowBuffer@CDeathWindow@@AAEXPAD0KKE@Z": 268778560
+          }
+        },
+        {
+          "rva": 344272,
+          "inferred_targets": {
+            "?AddToDeathWindowBuffer@CDeathWindow@@AAEXPAD0KKE@Z": 268779088
+          }
+        },
+        {
+          "rva": 354688,
+          "inferred_targets": {
+            "?AddToDeathWindowBuffer@CDeathWindow@@AAEXPAD0KKE@Z": 268588496
+          }
+        },
+        {
+          "rva": 410400,
+          "inferred_targets": {
+            "?AddToDeathWindowBuffer@CDeathWindow@@AAEXPAD0KKE@Z": 268845744
+          }
+        },
+        {
+          "rva": 422928,
+          "inferred_targets": {
+            "?AddToDeathWindowBuffer@CDeathWindow@@AAEXPAD0KKE@Z": 268857760
+          }
+        },
+        {
+          "rva": 428512,
+          "inferred_targets": {
+            "?AddToDeathWindowBuffer@CDeathWindow@@AAEXPAD0KKE@Z": 269237888
+          }
+        },
+        {
+          "rva": 435888,
+          "inferred_targets": {
+            "?AddToDeathWindowBuffer@CDeathWindow@@AAEXPAD0KKE@Z": 268871120
+          }
+        },
+        {
+          "rva": 448992,
+          "inferred_targets": {
+            "?AddToDeathWindowBuffer@CDeathWindow@@AAEXPAD0KKE@Z": 268883888
+          }
+        },
+        {
+          "rva": 460960,
+          "inferred_targets": {
+            "?AddToDeathWindowBuffer@CDeathWindow@@AAEXPAD0KKE@Z": 268896304
+          }
+        },
+        {
+          "rva": 471552,
+          "inferred_targets": {
+            "?AddToDeathWindowBuffer@CDeathWindow@@AAEXPAD0KKE@Z": 268905520
+          }
+        },
+        {
+          "rva": 491072,
+          "inferred_targets": {
+            "?AddToDeathWindowBuffer@CDeathWindow@@AAEXPAD0KKE@Z": 268921648
+          }
+        },
+        {
+          "rva": 491088,
+          "inferred_targets": {
+            "?AddToDeathWindowBuffer@CDeathWindow@@AAEXPAD0KKE@Z": 268925536
+          }
+        },
+        {
+          "rva": 491104,
+          "inferred_targets": {
+            "?AddToDeathWindowBuffer@CDeathWindow@@AAEXPAD0KKE@Z": 268920704
+          }
+        },
+        {
+          "rva": 491744,
+          "inferred_targets": {
+            "?AddToDeathWindowBuffer@CDeathWindow@@AAEXPAD0KKE@Z": 268926576
+          }
+        },
+        {
+          "rva": 509984,
+          "inferred_targets": {
+            "?AddToDeathWindowBuffer@CDeathWindow@@AAEXPAD0KKE@Z": 268943552
+          }
+        },
+        {
+          "rva": 536640,
+          "inferred_targets": {
+            "?AddToDeathWindowBuffer@CDeathWindow@@AAEXPAD0KKE@Z": 268970592
+          }
+        },
+        {
+          "rva": 536704,
+          "inferred_targets": {
+            "?AddToDeathWindowBuffer@CDeathWindow@@AAEXPAD0KKE@Z": 268970736
+          }
+        },
+        {
+          "rva": 536768,
+          "inferred_targets": {
+            "?AddToDeathWindowBuffer@CDeathWindow@@AAEXPAD0KKE@Z": 268970880
+          }
+        },
+        {
+          "rva": 536832,
+          "inferred_targets": {
+            "?AddToDeathWindowBuffer@CDeathWindow@@AAEXPAD0KKE@Z": 268971024
+          }
+        },
+        {
+          "rva": 536896,
+          "inferred_targets": {
+            "?AddToDeathWindowBuffer@CDeathWindow@@AAEXPAD0KKE@Z": 268971168
+          }
+        },
+        {
+          "rva": 536976,
+          "inferred_targets": {
+            "?AddToDeathWindowBuffer@CDeathWindow@@AAEXPAD0KKE@Z": 268971312
+          }
+        },
+        {
+          "rva": 537040,
+          "inferred_targets": {
+            "?AddToDeathWindowBuffer@CDeathWindow@@AAEXPAD0KKE@Z": 268971456
+          }
+        },
+        {
+          "rva": 537104,
+          "inferred_targets": {
+            "?AddToDeathWindowBuffer@CDeathWindow@@AAEXPAD0KKE@Z": 268971600
+          }
+        },
+        {
+          "rva": 537168,
+          "inferred_targets": {
+            "?AddToDeathWindowBuffer@CDeathWindow@@AAEXPAD0KKE@Z": 268971744
+          }
+        },
+        {
+          "rva": 563712,
+          "inferred_targets": {
+            "?AddToDeathWindowBuffer@CDeathWindow@@AAEXPAD0KKE@Z": 268986768
+          }
+        },
+        {
+          "rva": 563776,
+          "inferred_targets": {
+            "?AddToDeathWindowBuffer@CDeathWindow@@AAEXPAD0KKE@Z": 268986912
+          }
+        },
+        {
+          "rva": 563840,
+          "inferred_targets": {
+            "?AddToDeathWindowBuffer@CDeathWindow@@AAEXPAD0KKE@Z": 268987056
+          }
+        },
+        {
+          "rva": 563904,
+          "inferred_targets": {
+            "?AddToDeathWindowBuffer@CDeathWindow@@AAEXPAD0KKE@Z": 268987200
+          }
+        },
+        {
+          "rva": 563968,
+          "inferred_targets": {
+            "?AddToDeathWindowBuffer@CDeathWindow@@AAEXPAD0KKE@Z": 268987344
+          }
+        },
+        {
+          "rva": 564032,
+          "inferred_targets": {
+            "?AddToDeathWindowBuffer@CDeathWindow@@AAEXPAD0KKE@Z": 268987488
+          }
+        },
+        {
+          "rva": 564192,
+          "inferred_targets": {
+            "?AddToDeathWindowBuffer@CDeathWindow@@AAEXPAD0KKE@Z": 268987632
+          }
+        },
+        {
+          "rva": 564256,
+          "inferred_targets": {
+            "?AddToDeathWindowBuffer@CDeathWindow@@AAEXPAD0KKE@Z": 268987776
+          }
+        },
+        {
+          "rva": 582720,
+          "inferred_targets": {
+            "?AddToDeathWindowBuffer@CDeathWindow@@AAEXPAD0KKE@Z": 269017984
+          }
+        },
+        {
+          "rva": 582976,
+          "inferred_targets": {
+            "?AddToDeathWindowBuffer@CDeathWindow@@AAEXPAD0KKE@Z": 269017984
+          }
+        },
+        {
+          "rva": 583424,
+          "inferred_targets": {
+            "?AddToDeathWindowBuffer@CDeathWindow@@AAEXPAD0KKE@Z": 269017984
+          }
+        },
+        {
+          "rva": 594624,
+          "inferred_targets": {
+            "?AddToDeathWindowBuffer@CDeathWindow@@AAEXPAD0KKE@Z": 269017984
+          }
+        },
+        {
+          "rva": 594880,
+          "inferred_targets": {
+            "?AddToDeathWindowBuffer@CDeathWindow@@AAEXPAD0KKE@Z": 269017984
+          }
+        },
+        {
+          "rva": 604192,
+          "inferred_targets": {
+            "?AddToDeathWindowBuffer@CDeathWindow@@AAEXPAD0KKE@Z": 269039632
+          }
+        },
+        {
+          "rva": 620080,
+          "inferred_targets": {
+            "?AddToDeathWindowBuffer@CDeathWindow@@AAEXPAD0KKE@Z": 269050144
+          }
+        },
+        {
+          "rva": 620160,
+          "inferred_targets": {
+            "?AddToDeathWindowBuffer@CDeathWindow@@AAEXPAD0KKE@Z": 269050288
+          }
+        },
+        {
+          "rva": 620240,
+          "inferred_targets": {
+            "?AddToDeathWindowBuffer@CDeathWindow@@AAEXPAD0KKE@Z": 269050432
+          }
+        },
+        {
+          "rva": 620320,
+          "inferred_targets": {
+            "?AddToDeathWindowBuffer@CDeathWindow@@AAEXPAD0KKE@Z": 269050576
+          }
+        },
+        {
+          "rva": 656336,
+          "inferred_targets": {
+            "?AddToDeathWindowBuffer@CDeathWindow@@AAEXPAD0KKE@Z": 269172256
+          }
+        },
+        {
+          "rva": 703520,
+          "inferred_targets": {
+            "?AddToDeathWindowBuffer@CDeathWindow@@AAEXPAD0KKE@Z": 269076864
+          }
+        },
+        {
+          "rva": 731696,
+          "inferred_targets": {
+            "?AddToDeathWindowBuffer@CDeathWindow@@AAEXPAD0KKE@Z": 269165984
+          }
+        },
+        {
+          "rva": 731744,
+          "inferred_targets": {
+            "?AddToDeathWindowBuffer@CDeathWindow@@AAEXPAD0KKE@Z": 269165984
+          }
+        },
+        {
+          "rva": 731792,
+          "inferred_targets": {
+            "?AddToDeathWindowBuffer@CDeathWindow@@AAEXPAD0KKE@Z": 269165984
+          }
+        },
+        {
+          "rva": 731840,
+          "inferred_targets": {
+            "?AddToDeathWindowBuffer@CDeathWindow@@AAEXPAD0KKE@Z": 269165984
+          }
+        },
+        {
+          "rva": 742512,
+          "inferred_targets": {
+            "?AddToDeathWindowBuffer@CDeathWindow@@AAEXPAD0KKE@Z": 269177600
+          }
+        },
+        {
+          "rva": 763648,
+          "inferred_targets": {
+            "?AddToDeathWindowBuffer@CDeathWindow@@AAEXPAD0KKE@Z": 269198944
+          }
+        },
+        {
+          "rva": 772064,
+          "inferred_targets": {
+            "?AddToDeathWindowBuffer@CDeathWindow@@AAEXPAD0KKE@Z": 269249085
+          }
+        },
+        {
+          "rva": 807536,
+          "inferred_targets": {
+            "?AddToDeathWindowBuffer@CDeathWindow@@AAEXPAD0KKE@Z": 269242560
+          }
+        },
+        {
+          "rva": 811980,
+          "inferred_targets": {
+            "?AddToDeathWindowBuffer@CDeathWindow@@AAEXPAD0KKE@Z": 269247098
+          }
+        },
+        {
+          "rva": 812170,
+          "inferred_targets": {
+            "?AddToDeathWindowBuffer@CDeathWindow@@AAEXPAD0KKE@Z": 269249085
+          }
+        },
+        {
+          "rva": 814374,
+          "inferred_targets": {
+            "?AddToDeathWindowBuffer@CDeathWindow@@AAEXPAD0KKE@Z": 269249694
+          }
+        },
+        {
+          "rva": 819053,
+          "inferred_targets": {
+            "?AddToDeathWindowBuffer@CDeathWindow@@AAEXPAD0KKE@Z": 269254492
+          }
+        },
+        {
+          "rva": 819547,
+          "inferred_targets": {
+            "?AddToDeathWindowBuffer@CDeathWindow@@AAEXPAD0KKE@Z": 269254961
+          }
+        },
+        {
+          "rva": 830249,
+          "inferred_targets": {
+            "?AddToDeathWindowBuffer@CDeathWindow@@AAEXPAD0KKE@Z": 269247626
+          }
+        }
+      ]
+    }
+  ],
+  "reference_source": {
+    "path": "/Users/salimtrouve/Documents/GitHub/samp-r5-preservation/references/michael-fa-samp/client/cmdwindow.cpp",
+    "commit": "dc9eb80d80e26cf91e2b92697b8918208f052542",
+    "sha256": "044f11d68009b23b6ffe300638c532b870fc73a8b16bec23d4bcdec4e6253e0c"
+  },
+  "adaptations": [
+    "Use existing R5 class layout, including144 command slots,128-byte input limit and packed offsets1565/1A6F/1AF0/1AF4.",
+    "Replace opaque1290-byte recall storage with its10x129-byte interpretation only in the isolated evaluation class.",
+    "Map the old GetText API call to R5 GetTextA; retain the original recall behavior."
+  ],
+  "direct_reference_candidate_bytes": 268,
+  "accepted_reference_increment": 0,
+  "next_actions": [
+    "Integrate AddToRecallBuffer90, RecallUp100 and RecallDown78 into actual CCmdWindow with unchanged size/offsets; the current evaluation uses a separate class and does not affect accepted source.",
+    "Inspect and integrate complete DXUT GetTextA and SetText providers at their inferred R5 identities before counting the two recall methods as accepted. No custom dependencies may be labeled as CRT.",
+    "Existing CCmdWindow registration and layout methods also have candidates; ProcessInput/Enable remain incomplete in current source.",
+    "Death-window methods have sizeable candidates sharing accepted font settings and D3DX relays; review full SpriteIDForWeapon/AddMessage dependencies and data before integration."
+  ]
+}
