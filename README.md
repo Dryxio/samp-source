@@ -20,9 +20,19 @@ Functions are checked in full, including their references, call targets and jump
 
 ## Progress
 
-**164,164 code bytes verified — 17.64% of the original code section.**
+**164,164 / 930,756 code bytes verified — 17.64% of the original code section.**
 
-Already covered: parts of actor creation and deletion, entity geometry, weapon lookup, game commands, native pools, player-pointer records, raster helpers, camera/audio wrappers, player state, weapon skills, native task wrappers, menus, RenderWare and shared utilities.
+Latest accepted checkpoint: **September 5, 2026 · CP3.2**. Coverage counts unique accepted code bytes; overlapping matches and unimplemented dependencies receive no extra credit.
+
+Accepted coverage includes parts of:
+
+- **Game and client code:** actor lifecycle, entity geometry, camera/audio wrappers, native pools, player state, weapon skills, commands, menus, RenderWare and shared utilities.
+- **Interface:** dialog lifecycle, drawing and message routing, control rendering and input, text editing, IME composition and resource lookup.
+- **DXUT framework:** timers, resource-cache lifecycle and creation, framework state and shutdown, adapter enumeration, device-settings construction, command-line parsing, camera helpers and render-loop handling.
+
+The latest batch added **967 unique exact code bytes**. Its complete-region and relocation/target checks passed, together with **10 negative controls** and the existing ABI checks. See the linked acceptance evidence for scope and limitations.
+
+The local 0.2.5 reference has directly contributed **1,523 accepted code bytes**. Shared source already present in our base is tracked separately from that contribution.
 
 | Milestone | Status |
 | --- | --- |
@@ -33,7 +43,7 @@ Already covered: parts of actor creation and deletion, entity geometry, weapon l
 
 This is an early reconstruction, not a playable replacement DLL. Matching individual functions is progress toward full-file identity, not proof of it.
 
-[Verified coverage](evidence/checkpoint32/coverage-current.json) · [Latest accepted batch](evidence/checkpoint32/gui-messages-acceptance.json) · [Development log](evidence/checkpoint32/PROGRESS.md)
+[Verified coverage](evidence/checkpoint32/coverage-current.json) · [Latest accepted batch](evidence/checkpoint32/gui-lifecycle-acceptance.json) · [Development log](evidence/checkpoint32/PROGRESS.md)
 
 ## Explore or contribute
 
