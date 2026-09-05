@@ -1,0 +1,11 @@
+{
+  "status": "ACCEPTED_AFTER_COMPLETE_LINK_REVIEW",
+  "run": "cp32-gui-elements-linked",
+  "ob1": "cp32-gui-elements-ob1",
+  "ob2": "cp32-ime-ob2",
+  "new_unique_code_bytes": 908,
+  "accepted_direct_025_credit": 0,
+  "source_adaptations": "None. Complete original SetElement, SetTextFloatArray and GetReadingWindowOrientation; original local IME defines restored.",
+  "reference_comparison": "All three complete bodies identical to pinned base/local0.2.5; no direct transfer credit.",
+  "verification": "1931 whole regions, all actual targets and PE relocations,10 negative controls and existing ABI pass. Five code regions total908 bytes (147+230+349+40+142), five complete strings and one bool storage. No new imports or pending. Existing actual ANSI SetText and registry imports reused. Only two new units compiled;147 reused. One link. No registry, GUI or game execution, push/deployment."
+}
