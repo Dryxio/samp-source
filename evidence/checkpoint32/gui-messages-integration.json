@@ -1,0 +1,11 @@
+{
+  "status": "ACCEPTED_AFTER_COMPLETE_LINK_REVIEW",
+  "run": "cp32-gui-messages-linked",
+  "ob1": "cp32-gui-messages-ob1",
+  "ob2": "cp32-ime-ob2",
+  "new_unique_code_bytes": 1030,
+  "accepted_direct_025_credit": 0,
+  "source_adaptations": "Remove caption drag/minimize click block and mouse OutputDebugString trace absent in R5. Retain caption mouse coordinate adjustment and all other original behavior. Original WM compatibility defines restored.",
+  "reference_comparison": "Five helpers identical between base/0.2.5; MsgProc differs only whitespace/comment. Neither supplies R5 omissions, no direct transfer credit.",
+  "verification": "1900 whole regions, all actual targets/PE relocations,10 negative controls and existing ABI pass. MsgProc880 includes830 code and50 full attached table bytes; table excluded from credit. Five helpers total438;1268 new-region code bytes,1030 unique after prior-proof overlap. One new actual user32 GetAsyncKeyState import checked. No new data/pending; eight old pending unchanged. Only new unit compiled once and linked once. No message/input/GUI/game execution, push or deployment."
+}
