@@ -91,3 +91,29 @@ sous-systèmes. L'ancienne couverture acceptée n'a pas encore augmenté.
 Entrées actuelles : `config/checkpoint32/closure-linked-seeds.json`,
 `evidence/checkpoint32/closure-progress.json` et les empreintes dans
 `build/cp32-closure-linked2/link.json`.
+
+
+## Contrôle du link terminé — lot accepté
+
+`closure-contract.json` contient les identités revues. Le vérificateur rejoue les
+fixups complets à la fois aux adresses R5 et aux adresses réellement liées, avec
+contrôle exact des relocations PE, alias faibles, imports et fournisseurs CRT.
+Les sections de code ne peuvent pas être déguisées en données pour être tronquées.
+Les données SCRIPT_COMMAND sont des objets entiers de 18 octets et les globals
+zéro des objets entiers de 2/4 octets, avec une disposition de section cohérente
+au link. AddEntry et PushBack restent hors couverture.
+
+Résultat : 84 régions acceptées, 50 corps complets, 3 432 octets de code dont
+2 603 nouveaux. Cumul : 27 979 / 930 756 = 3,0061 % de `.text`.
+Le test ciblé reproduit la création, trois requêtes de disponibilité du modèle,
+Sleep, l'encodage des commandes de script et la suppression virtuelle via le
+pool sur R5 et sur le DLL lié. Les seuls appels interceptés sont aux frontières
+GTA/Windows/CRT. Les registres non volatils, la pile et la chaîne SEH restaurée
+sont vérifiés ; il ne s'agit pas d'un test du déroulement d'une exception réelle.
+Six mutations distinctes sont rejetées. Aucun rebuild n'était nécessaire.
+
+Preuves : `closure-acceptance.json`, `coverage-current.json`. Reproduction :
+`.venv/bin/python tools/accept_actor_closure.py`.
+Prochaine action : reconstruire ActorPool::New (RVA 0x1900, 312 octets et EH),
+puis étendre aux autres sous-systèmes. Revenir à l'ordre des LEA d'AddEntry sans
+le compter entre-temps ; PushBack émis reste également nonmatching.

@@ -3,24 +3,29 @@
 Nouveau dépôt local indépendant des anciens projets. Objectif : reconstruire
 des sources maintenables produisant les octets exacts du R5 gelé.
 
-## Checkpoint 3.2 — en cours, premier lot accepté
+## Checkpoint 3.2 — en cours
 
-**44 fonctions complètes** d'ActorPool, ActorPed, Entity et des utilitaires passent
-le matching des objets et des DLL liées. Deux builds indépendants passent
-**59 002 contrôles natifs** au total, les tests des appels GTA et les contrôles
-négatifs. La couverture cumulée est de **25 376 octets de code uniques (2,7264 %
-de `.text`)**. Le destructeur virtuel complet et le constructeur d'ActorPed restent
-à intégrer ; le 3.2 et la reconstruction de `samp.dll` ne sont pas terminés.
+La couverture cumulée atteint **27 979 octets de code uniques (3,0061 % de
+`.text`)**. Le nouveau lot valide 84 régions de code/données, dont 50 corps de
+fonctions complets (3 432 octets de code, 2 603 nouveaux sans doublons).
+Le constructeur et les destructeurs d'ActorPed, leurs vtables/EH, les commandes de
+script et la suppression virtuelle via ActorPool sont maintenant vérifiés dans
+une capsule réellement liée. Les deux corps AddEntry et PushBack restent exclus.
 
-Voir [le rapport](evidence/checkpoint32/REPORT.md),
-[les preuves](evidence/checkpoint32/acceptance.json) et
-[les itérations](evidence/checkpoint32/ITERATIONS.md).
+Le test ciblé exécute la création avec chargement du modèle et la suppression
+virtuelle sur R5 puis sur le code lié ; six contrôles négatifs protègent les
+comparaisons et les nouvelles données typées. Aucun second build redondant à ce
+jalon. Le checkpoint et le DLL complet ne sont pas terminés.
 
 ```sh
-.venv/bin/python tools/run_checkpoint32.py --skip-build
-# Pour deux nouveaux builds, sans écraser les preuves existantes :
-.venv/bin/python tools/run_checkpoint32.py --prefix cp32-next
+.venv/bin/python tools/accept_actor_closure.py
 ```
+
+Voir [les preuves actuelles](evidence/checkpoint32/closure-acceptance.json),
+[la couverture actuelle](evidence/checkpoint32/coverage-current.json) et
+[le travail en cours](evidence/checkpoint32/PROGRESS.md).
+Le [premier lot historique](evidence/checkpoint32/REPORT.md) couvrait 44 fonctions
+et comportait 59 002 contrôles natifs sur deux builds indépendants.
 
 ## Checkpoint 3.1 — socle et dépendances validé
 
