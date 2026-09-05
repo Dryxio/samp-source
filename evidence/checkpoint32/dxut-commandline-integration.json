@@ -1,0 +1,38 @@
+{
+  "status": "ACCEPTED_AFTER_COMPLETE_LINK_REVIEW",
+  "run": "cp32-dxut-commandline-linked",
+  "ob1": "cp32-dxut-commandline-extract-ob1",
+  "ob2": "cp32-ime-ob2",
+  "new_unique_code_bytes": 3599,
+  "accepted_direct_025_credit": 0,
+  "reference_comparisons": [
+    {
+      "function": "DXUTGetCmdParam",
+      "identical_to_025": true
+    },
+    {
+      "function": "DXUTSetConstantFrameTime",
+      "identical_to_025": true
+    },
+    {
+      "function": "DXUTParseCommandLine",
+      "identical_to_025": true
+    },
+    {
+      "function": "DXUTOutputDebugStringA",
+      "identical_to_025": true
+    }
+  ],
+  "source_adaptations": "Original bodies unchanged. GetCmdParam lexical extraction anchored to actual bool declaration. Original debug-output conditional compilation retained in complete source.",
+  "trials": [
+    {
+      "run": "cp32-dxut-commandline-ob1",
+      "outcome": "Initial state generation failed on GetCmdParam call-site ambiguity. Probe compiled only the new debug unit and reused old state; never linked or accepted."
+    },
+    {
+      "run": "cp32-dxut-commandline-extract-ob1",
+      "outcome": "Anchored actual GetCmdParam definition, regenerated full state unit; all selected functions and transitive providers match."
+    }
+  ],
+  "verification": "1426 full regions; all target/PE relocation identities,10 negative controls and existing ABI pass. Parser2260, constant-frame83,19 setters60/getters55/60, full17 literals. Actual GetCmdParam126 provider already CP3.1 covered and deduplicated. Release diagnostic1-byte body is original #if source implementation at exact parser target95660, not an invented stub. Named GetCommandLineA and pinned LIBCMT strtod142 checked. Eight prior pending providers unchanged. No parser, Windows input or actual state-change execution."
+}

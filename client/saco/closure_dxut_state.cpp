@@ -507,3 +507,243 @@ bool DXUTIsWindowed()
     else 
         return false; 
 }
+bool DXUTGetCmdParam( TCHAR*& strCmdLine, TCHAR* strFlag, int nFlagLen )
+{
+    strCmdLine += nFlagLen;
+    if( *strCmdLine == L':' )
+    {       
+        strCmdLine++; // Skip ':'
+
+        // Place NULL terminator in strFlag after current token
+        StringCchCopy( strFlag, 256, strCmdLine );
+        TCHAR* strSpace = strFlag;
+        while (*strSpace && (*strSpace > L' '))
+            strSpace++;
+        *strSpace = 0;
+    
+        // Update strCmdLine
+        strCmdLine += strlen(strFlag);
+        return true;
+    }
+    else
+    {
+        strFlag[0] = 0;
+        return false;
+    }
+}
+void DXUTSetConstantFrameTime( bool bEnabled, float fTimePerFrame ) 
+{ 
+    if( GetDXUTState().GetOverrideConstantFrameTime() ) 
+    { 
+        bEnabled = GetDXUTState().GetOverrideConstantFrameTime(); 
+        fTimePerFrame = GetDXUTState().GetOverrideConstantTimePerFrame(); 
+    } 
+    GetDXUTState().SetConstantFrameTime(bEnabled); 
+    GetDXUTState().SetTimePerFrame(fTimePerFrame); 
+}
+void DXUTParseCommandLine()
+{
+    TCHAR* strCmdLine = GetCommandLine();
+
+    // Skip past program name (first token in command line).
+    if (*strCmdLine == L'"')  // Check for and handle quoted program name
+    {
+        strCmdLine++;
+
+        // Skip over until another double-quote or a null 
+        while (*strCmdLine && (*strCmdLine != L'"'))
+            strCmdLine++;
+
+        // Skip over double-quote
+        if (*strCmdLine == L'"')            
+            strCmdLine++;    
+    }
+    else   
+    {
+        // First token wasn't a quote
+        while (*strCmdLine > L' ')
+            strCmdLine++;
+    }
+
+    for(;;)
+    {
+        // Skip past any white space preceding the next token
+        while (*strCmdLine && (*strCmdLine <= L' '))
+            strCmdLine++;
+        if( *strCmdLine == 0 )
+            break;
+
+        TCHAR strFlag[256];
+        int nFlagLen = 0;
+
+        // Skip past the flag marker
+        if( *strCmdLine == L'/' ||
+            *strCmdLine == L'-' )
+            strCmdLine++;
+
+        // Compare the first N letters w/o regard to case
+        StringCchCopy( strFlag, 256, "adapter" ); nFlagLen = (int) strlen(strFlag);
+        if( _strnicmp( strCmdLine, strFlag, nFlagLen ) == 0 )
+        {
+            if( DXUTGetCmdParam( strCmdLine, strFlag, nFlagLen ) )
+            {
+                int nAdapter = atoi(strFlag);
+                GetDXUTState().SetOverrideAdapterOrdinal( nAdapter );
+            }
+            continue;
+        }
+
+        StringCchCopy( strFlag, 256, "windowed" ); nFlagLen = (int) strlen(strFlag);
+        if( _strnicmp( strCmdLine, strFlag, nFlagLen ) == 0 )
+        {
+            GetDXUTState().SetOverrideWindowed( true );
+            strCmdLine += nFlagLen;
+            continue;
+        }
+
+        StringCchCopy( strFlag, 256, "fullscreen" ); nFlagLen = (int) strlen(strFlag);
+        if( _strnicmp( strCmdLine, strFlag, nFlagLen ) == 0 )
+        {
+            GetDXUTState().SetOverrideFullScreen( true );
+            strCmdLine += nFlagLen;
+            continue;
+        }
+
+        StringCchCopy( strFlag, 256, "forcehal" ); nFlagLen = (int) strlen(strFlag);
+        if( _strnicmp( strCmdLine, strFlag, nFlagLen ) == 0 )
+        {
+            GetDXUTState().SetOverrideForceHAL( true );
+            strCmdLine += nFlagLen;
+            continue;
+        }
+
+        StringCchCopy( strFlag, 256, "forceref" ); nFlagLen = (int) strlen(strFlag);
+        if( _strnicmp( strCmdLine, strFlag, nFlagLen ) == 0 )
+        {
+            GetDXUTState().SetOverrideForceREF( true );
+            strCmdLine += nFlagLen;
+            continue;
+        }
+
+        StringCchCopy( strFlag, 256, "forcepurehwvp" ); nFlagLen = (int) strlen(strFlag);
+        if( _strnicmp( strCmdLine, strFlag, nFlagLen ) == 0 )
+        {
+            GetDXUTState().SetOverrideForcePureHWVP( true );
+            strCmdLine += nFlagLen;
+            continue;
+        }
+
+        StringCchCopy( strFlag, 256, "forcehwvp" ); nFlagLen = (int) strlen(strFlag);
+        if( _strnicmp( strCmdLine, strFlag, nFlagLen ) == 0 )
+        {
+            GetDXUTState().SetOverrideForceHWVP( true );
+            strCmdLine += nFlagLen;
+            continue;
+        }
+
+        StringCchCopy( strFlag, 256, "forceswvp" ); nFlagLen = (int) strlen(strFlag);
+        if( _strnicmp( strCmdLine, strFlag, nFlagLen ) == 0 )
+        {
+            GetDXUTState().SetOverrideForceSWVP( true );
+            strCmdLine += nFlagLen;
+            continue;
+        }
+
+        StringCchCopy( strFlag, 256, "width" ); nFlagLen = (int) strlen(strFlag);
+        if( _strnicmp( strCmdLine, strFlag, nFlagLen ) == 0 )
+        {
+            if( DXUTGetCmdParam( strCmdLine, strFlag, nFlagLen ) )
+            {
+                int nWidth = atoi(strFlag);
+                GetDXUTState().SetOverrideWidth( nWidth );
+            }
+            continue;
+        }
+
+        StringCchCopy( strFlag, 256, "height" ); nFlagLen = (int) strlen(strFlag);
+        if( _strnicmp( strCmdLine, strFlag, nFlagLen ) == 0 )
+        {
+            if( DXUTGetCmdParam( strCmdLine, strFlag, nFlagLen ) )
+            {
+                int nHeight = atoi(strFlag);
+                GetDXUTState().SetOverrideHeight( nHeight );
+            }
+            continue;
+        }
+
+        StringCchCopy( strFlag, 256, "startx" );
+        nFlagLen = (int) strlen(strFlag);
+        if( _strnicmp( strCmdLine, strFlag, nFlagLen ) == 0 )
+        {
+            if( DXUTGetCmdParam( strCmdLine, strFlag, nFlagLen ) )
+            {
+                int nX = atoi(strFlag);
+                GetDXUTState().SetOverrideStartX( nX );
+            }
+            continue;
+        }
+
+        StringCchCopy( strFlag, 256, "starty" );
+        nFlagLen = (int) strlen(strFlag);
+        if( _strnicmp( strCmdLine, strFlag, nFlagLen ) == 0 )
+        {
+            if( DXUTGetCmdParam( strCmdLine, strFlag, nFlagLen ) )
+            {
+                int nY = atoi(strFlag);
+                GetDXUTState().SetOverrideStartY( nY );
+            }
+            continue;
+        }
+
+        StringCchCopy( strFlag, 256, "constantframetime" ); nFlagLen = (int) strlen(strFlag);
+        if( _strnicmp( strCmdLine, strFlag, nFlagLen ) == 0 )
+        {
+            float fTimePerFrame;
+            if( DXUTGetCmdParam( strCmdLine, strFlag, nFlagLen ) )
+                fTimePerFrame = (float)strtod( strFlag, NULL );
+            else
+                fTimePerFrame = 0.0333f;
+            GetDXUTState().SetOverrideConstantFrameTime( true );
+            GetDXUTState().SetOverrideConstantTimePerFrame( fTimePerFrame );
+            DXUTSetConstantFrameTime( true, fTimePerFrame );
+            continue;
+        }
+
+        StringCchCopy( strFlag, 256, "quitafterframe" ); nFlagLen = (int) strlen(strFlag);
+        if( _strnicmp( strCmdLine, strFlag, nFlagLen ) == 0 )
+        {
+            if( DXUTGetCmdParam( strCmdLine, strFlag, nFlagLen ) )
+            {
+                int nFrame = atoi(strFlag);
+                GetDXUTState().SetOverrideQuitAfterFrame( nFrame );
+            }
+            continue;
+        }      
+        
+        StringCchCopy( strFlag, 256, "noerrormsgboxes" ); nFlagLen = (int) strlen(strFlag);
+        if( _strnicmp( strCmdLine, strFlag, nFlagLen ) == 0 )
+        {
+            GetDXUTState().SetShowMsgBoxOnError( false );
+            strCmdLine += nFlagLen;
+            continue;
+        }        
+
+        StringCchCopy( strFlag, 256, "automation" ); nFlagLen = (int) strlen(strFlag);
+        if( _strnicmp( strCmdLine, strFlag, nFlagLen ) == 0 )
+        {
+            GetDXUTState().SetAutomation( true );
+            strCmdLine += nFlagLen;
+            continue;
+        }
+
+        // Unrecognized flag
+        StringCchCopy( strFlag, 256, strCmdLine ); 
+        TCHAR* strSpace = strFlag;
+        while (*strSpace && (*strSpace > L' '))
+            strSpace++;
+        *strSpace = 0;
+
+        DXUTOutputDebugString( "Unrecognized flag: %s", strFlag );
+        strCmdLine += strlen(strFlag);
+    }
+}
