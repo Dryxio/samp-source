@@ -1259,3 +1259,14 @@ Checkpointfive functions exactfirsttrial. Six18-byte SCRIPT_COMMAND complete sou
 Latestcp32-reader-checkpoints-linked; Ob1cp32-reader-checkpoints-ob1, Ob2cp32-gui-overwrite-ob2; seeds/contract/proofsreader-checkpoints; unitsbuild/reader-checkpoints-units.txt, reviewbuild/review_reader_checkpoints.py. Total21720unique sincebaseline173141; direct025gain12606; fullcoordinationrateinintegrationjson.
 
 Next: RWframeparsertrial1 principal258/129/299 notmatched, constructor46/nestedconstructor28/dtor35 rawcandidates only; agentdiagnosing. Spectatorvehicletrial1 running. Preservealltrials. Fullgoal active; no push/deploy.
+
+
+## Spectator and vehicle closure accepted
+
+Coverage: 196090 / 930756 code bytes (21.067820%). This batch adds 1229 unique bytes: 1145 principal code and four 21-byte EH handlers. Direct contribution from adapted 0.2.5 source is 960 bytes (771 RPC, 189 spectator providers), bringing the cumulative reference contribution to 15089. ExitCurrentVehicle138 is base source and the angle provider47 is reconstructed from R5. Four complete 36-byte EH maps and both complete 18-byte command descriptors are verified without code credit. The fresh full gate, ten negative controls and actor ABI passed. Eight old pending regions remain unchanged.
+
+Seven principal functions matched in trial1. ExitCurrentVehicle had the right size and targets but different register allocation. Trial2 uses an inline member view for the first two vehicle-index reads, retaining the two real B3C00 calls and final ABC90 call. Its entire 138-byte body now matches. No global or import was introduced; pNetGame remains 26EB94. Typed-object rules were extended only to the two named complete SCRIPT_COMMAND objects in closure_rpc_spectator_vehicle.
+
+Latest run: cp32-spectator-vehicle-linked. Ob1: cp32-spectator-vehicle-ob1; Ob2: cp32-gui-overwrite-ob2. Seeds, contract and proof prefix: spectator-vehicle. Units: build/spectator-vehicle-units.txt. Review: build/review_spectator_vehicle.py. Throughput measurement includes coordination and failed trials. All commits are local; the full goal remains active.
+
+Next work: frame-parser trial2 matches ReadFrameList299 but its ReadChunk/Validate providers remain unmatched, so the principal receives zero credit. Three independent foundations (reader ctorBB20/28, chunk ctorB9570/46, dtorBB70/35) have whole-body and identity audits in build/agent-textdraw. BB20 has a unique structural identity but no direct caller found; do not invent one. Agent1 is preparing explicitly labeled symbolic helper proposals after two bounded C++ trials, preserving real allocator/reader targets without wrappers or instruction byte blobs. Agent2 is preparing object operations and RPC rotation/stop, reducing object-lifetime dependencies without claiming the missing constructor/vtable chain. No integrator VM command remains active after this batch.
