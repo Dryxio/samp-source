@@ -1235,3 +1235,14 @@ Nextcp32-input-animation-trial1live: sixanimation/cameraRPC1925potential+EH126;H
 190392/930756 (20.455630%), +2589 unique code: input353, HideTextDraw164, animation/camera1925, seven EH147. Direct0251434 (Hide164 + animation1270), cumulative12113. All complete linked regions/actual providers, seven full36-byte EH maps, ten negative controls and actor ABI pass. Three five-byte source GTA patch arrays receive no code credit and were never executed. Input symbolic native-call helpers labeled; no instruction blobs. Eight old pending unchanged.
 
 Run cp32-input-animation-linked; Ob1 cp32-input-animation-ob1, Ob2 cp32-gui-overwrite-ob2. Seeds/contract/acceptance/integration input-animation; review build/review_input_animation.py; units build/input-animation-units.txt. Throughput from real union and elapsed coordination recorded in integration. World-extra/object-selection trial1 compiled next, discovery under review. Full goal active, no push/deploy.
+
+
+## World RPC, editor and menu initialization lot accepted
+
+193401/930756 (20.778915%), +3009 unique code. Direct0251408 (attachment453,spawn159,menu796), cumulative13521. Twenty complete code sections including eight21-byte EH handlers, eight36-byte maps, scalar117/4, descriptor069B/18, bool1, managerpointer4 and file-backed257-byte sharedmenu buffer.2361whole regions; ten negativecontrols and actorABI PASS. Eightoldpending unchanged.
+
+Worldextra trial1/2 Attachment455 failed, trial3 source-edit error preserved, trial4 restored two025ScriptCommandbranches exact453. Editor515 corrected with threefloatlocals and direct Write1/Write0 exact513. Objectselection ctor15/toggle117 exact. MenuInit796/New188 exact firsttrial.
+
+Firstdraft rejected wrong pChatWindow identity26EB98; real pChatWindow26EB80 retained. Independent caller evidence RPC11EB0 -> ctorDE20 at11F39 -> store11F4B identifies custom model download manager. Field217 filters modelentrytype2 world+8 and flags220/221 reset. Corrected RPC descriptive name ScrSetCustomModelWorldTransfer and distinct pointerowner, no constructor/managerallocation credit. Failed linkedrun/draft and original proposals preserved.
+
+Latest cp32-world-extra-editor-linked2; Ob1 cp32-world-extra-editor-ob1b; Ob2 cp32-gui-overwrite-ob2. Seeds/contract/proofs world-extra-editor; units build/world-extra-editor-units.txt; review build/review_world_extra_editor.py; throughput inintegration includesallcoordination. Currentnext memoryreadertrial2 fullRead126 exact, ReadInt mapsBAA70 viaactualcallerBC030; ambiguousEnded4 excluded. CheckpointRPCtrial1 running. Fullgoal active; no push/deploy.
