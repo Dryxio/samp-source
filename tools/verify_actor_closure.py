@@ -42,7 +42,7 @@ class Gate:
             need((r['kind']=='code')==bool(s['flags']&0x20),'code/data classification differs')
             need(r['kind'].startswith('zero')==s['uninitialized'],'zero/data classification differs')
             if r['kind']=='code':need(r['offset']==0 and r['size']==s['size'],'truncated source code')
-            elif r['kind']=='script-command':need(r['unit'] in ('closure_models','closure_camera','closure_audio','closure_vehicle','closure_player') and r['size']==18 and not s['reloc_count'],'not a complete SCRIPT_COMMAND')
+            elif r['kind']=='script-command':need(r['unit'] in ('closure_models','closure_camera','closure_audio','closure_vehicle','closure_player','game_menu') and r['size']==18 and not s['reloc_count'],'not a complete SCRIPT_COMMAND')
             elif r['kind']=='zero-object':need(r['size'] in (2,4) and s['uninitialized'],'invalid scalar zero object')
             else:need(r['offset']==0 and r['size']==s['size'],'truncated non-typed data')
             anchors=[v for v in o.names.get(r['anchor'],[]) if v['section']==r['section'] and v['value']==r['offset']+r['anchor_offset']]

@@ -328,3 +328,7 @@ The initial linked draft exposed a rotation constant precision mismatch and unre
 ## Shared controls and native task closure
 
 Shared acceptance adds 1,800 unique code bytes, bringing the union to 43,045 / 930,756 (4.62474%). It closes shared aim/zoom/aspect/camera-mode/key synchronization plus the CTask family, including six complete seven-slot vtables, their deleting destructors, and the Jetpack destructor unwind thunk, EH entry, unwind map and FuncInfo. Only changed extraction/storage units were recompiled; the existing Ob2 Entity object was reused. All full-byte, target, PE relocation, mutation and existing ABI checks passed. Actual Jetpack exception unwinding is not exercised. Seven prior pending regions remain excluded. No additional direct 0.2.5 byte contribution in this batch; accepted direct transfers remain392 bytes.
+
+## Menus, font, texture, RenderWare and radar helpers
+
+Render acceptance adds 3,282 unique code bytes across78 selected functions. Certified union:46,327 /930,756 (4.97735%). All menu script descriptors/strings and the complete792-byte label array match, as do both4000-byte radar arrays and the complete52-byte rotation-axis source section including its emitted RakNet IDs/padding. Data is not counted as code. The native GTA-version scalar binds to26EB28. Full gate, six mutation controls and existing ABI checks passed. No rendering/deployment or redundant build. The older0.2.5 menu algorithm is already present in the current base; direct0.2.5 transfer credit remains392 bytes.

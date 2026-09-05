@@ -1363,5 +1363,34 @@
       "symbol": "pbyteDriveByRight",
       "size": 4
     }
+  },
+  "closure_store_menu_labels": {
+    "source": "net/menupool.cpp",
+    "cls": null,
+    "definitions": [],
+    "storage_includes": [
+      "\"game/common.h\"",
+      "\"game/menu.h\""
+    ],
+    "storage": {
+      "source_declaration": "CHAR g_szMenuItems[MAX_MENU_ITEMS][MAX_COLUMNS][MAX_MENU_LINE+1] =\r\n{\r\n\t{\"SAMP000\", \"SAMP100\"},\r\n\t{\"SAMP001\", \"SAMP101\"},\r\n\t{\"SAMP002\", \"SAMP102\"},\r\n\t{\"SAMP003\", \"SAMP103\"},\r\n\t{\"SAMP004\", \"SAMP104\"},\r\n\t{\"SAMP005\", \"SAMP105\"},\r\n\t{\"SAMP006\", \"SAMP106\"},\r\n\t{\"SAMP007\", \"SAMP107\"},\r\n\t{\"SAMP008\", \"SAMP108\"},\r\n\t{\"SAMP009\", \"SAMP109\"},\r\n\t{\"SAMP010\", \"SAMP110\"},\r\n\t{\"SAMP011\", \"SAMP111\"},\r\n};",
+      "declaration": "CHAR g_szMenuItems[MAX_MENU_ITEMS][MAX_COLUMNS][MAX_MENU_LINE+1] =\n{\n\t{\"SAMP000\", \"SAMP100\"},\n\t{\"SAMP001\", \"SAMP101\"},\n\t{\"SAMP002\", \"SAMP102\"},\n\t{\"SAMP003\", \"SAMP103\"},\n\t{\"SAMP004\", \"SAMP104\"},\n\t{\"SAMP005\", \"SAMP105\"},\n\t{\"SAMP006\", \"SAMP106\"},\n\t{\"SAMP007\", \"SAMP107\"},\n\t{\"SAMP008\", \"SAMP108\"},\n\t{\"SAMP009\", \"SAMP109\"},\n\t{\"SAMP010\", \"SAMP110\"},\n\t{\"SAMP011\", \"SAMP111\"},\n};",
+      "symbol": "g_szMenuItems",
+      "size": 792
+    }
+  },
+  "closure_store_gta_version": {
+    "source": "main.cpp",
+    "cls": null,
+    "definitions": [],
+    "storage_includes": [
+      "\"game/common.h\""
+    ],
+    "storage": {
+      "source_declaration": "int\t\t\t\tiGtaVersion=0;",
+      "declaration": "int\t\t\t\tiGtaVersion=0;",
+      "symbol": "iGtaVersion",
+      "size": 4
+    }
   }
 }
