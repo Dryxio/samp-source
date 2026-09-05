@@ -1,0 +1,18 @@
+{
+  "status": "EXPERIMENTS_THEN_SEPARATE_ACCEPTANCE",
+  "failed_preparation": {
+    "run": "cp32-gui-drawing-ob1",
+    "reason": "CRLF source delimiter prevented generator output; normalized source line endings before complete lexical extraction."
+  },
+  "rejected_link": {
+    "run": "cp32-gui-drawing-linked",
+    "reason": "Missing <new> made MSVC emit scalar operator symbols for array allocation/deletion, conflicting with reviewed original new[]/delete[] destinations. No coverage accepted from this link."
+  },
+  "adaptation": "Include the standard new header; preserve all original source new[]/delete[] expressions. No wrappers or instruction-byte copying.",
+  "accepted_run": "cp32-gui-drawing-new-linked",
+  "accepted_proof": "gui-drawing-acceptance.json",
+  "selected_code_bytes": 4195,
+  "new_unique_bytes": 4160,
+  "already_covered_code_bytes": 35,
+  "direct_025_credit": 0
+}
