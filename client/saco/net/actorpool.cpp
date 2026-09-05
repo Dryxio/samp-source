@@ -43,3 +43,26 @@ void CActorPool::DeleteAll() {
  int i=0;
  do {Delete((ACTORID)i);++i;} while((ACTORID)i<MAX_ACTORS);
 }
+
+extern CChatWindow *pChatWindow;
+
+BOOL CActorPool::New(ACTOR_SPAWN_INFO *info)
+{
+    if(m_pActors[info->id]) {
+        pChatWindow->AddDebugMessage("Warning: actor %u was not deleted", info->id);
+        Delete(info->id);
+    }
+    m_pActors[info->id] = new CActorPed(info->skin, info->x, info->y, info->z, info->rotation);
+    if(m_pActors[info->id]) {
+        m_iGtaActorID[info->id] = (int)m_pActors[info->id]->m_pPed;
+        m_bSlotState[info->id] = TRUE;
+        m_pActors[info->id]->SetHealth(info->health);
+        if(info->immune) m_pActors[info->id]->ToggleImmunity(1);
+        else m_pActors[info->id]->ToggleImmunity(0);
+        field_2EE4[info->id] = TRUE;
+        field_3E84[info->id] = 0;
+        UpdateCount();
+        return TRUE;
+    }
+    return FALSE;
+}

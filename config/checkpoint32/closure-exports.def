@@ -50,3 +50,27 @@ EXPORTS
  ?WorldAddEntity@@YGXPAK@Z
  ?WorldRemoveEntity@@YGXPAK@Z
  ?exc_filter@@YGHIPAU_EXCEPTION_POINTERS@@PAD@Z
+ ?SetMatrix@CEntity@@QAEXU_MATRIX4X4@@@Z
+ ?GetMoveSpeedVector@CEntity@@QAEXPAU_VECTOR@@@Z
+ ?GetTurnSpeedVector@CEntity@@QAEXPAU_VECTOR@@@Z
+ ?IsAdded@CEntity@@QAEHXZ
+ ?ApplyTurnSpeed@CEntity@@QAEXXZ
+ ?GetDistanceFromCentreOfMassToBaseOfModel@CEntity@@QAEMXZ
+ ?GetBoundCentre@CEntity@@QAEXPAU_VECTOR@@@Z
+ ?GetBoundRect@CEntity@@QAEXPAU_FRECT@@@Z
+ ?GetDistanceFromCamera@CEntity@@QAEMXZ
+ ?GetDistanceFromPoint@CEntity@@QAEMMMM@Z
+ ?EnforceWorldBoundries@CEntity@@QAEHMMMM@Z
+ ?HasExceededWorldBoundries@CEntity@@QAEHMMMM@Z
+ ?SetCollisionChecking@CEntity@@QAEXH@Z
+ ?IsCollisionCheckingEnabled@CEntity@@QAEHXZ
+ ?SetGravityProcessing@CEntity@@QAEXH@Z
+ ?SetWaitingForCollision@CEntity@@QAEXH@Z
+ ?DisableStreaming@CEntity@@QAEXXZ
+ ?EnableTunnelTransition@CEntity@@QAEXXZ
+ ?SetApplySpeed@CEntity@@QAEXH@Z
+ ?MakeNonCollidable@CEntity@@QAEXXZ
+ ?SetClumpAlpha@CEntity@@QAEXH@Z
+ ?GetWorldBoundRadius@CEntity@@QAEKXZ
+ ?SetEulerAngles@CEntity@@QAEXMMM@Z
+ ?New@CActorPool@@QAEHPAUACTOR_SPAWN_INFO@@@Z

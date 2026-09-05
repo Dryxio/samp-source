@@ -1,5 +1,6 @@
 // Generated complete definitions from exceptions.cpp; see tools/prepare_actor_closure.py.
 #include <time.h>
+#include <math.h>
 #include "main.h"
 #include "game/util.h"
 extern CChatWindow *pChatWindow;

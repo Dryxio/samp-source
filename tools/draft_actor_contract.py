@@ -18,7 +18,7 @@ def weak_aliases(obj):
     return aliases
 
 
-def draft(run):
+def draft(run, extra_seeds=None):
     directory=ROOT/'build'/run
     objects={p.stem:COFF(p) for p in directory.glob('*.obj')}
     ref=PE(ROOT/'private/samp.dll','b72b5dbe725f81864ca3f78bc7063bda56cc05fc7188af822fa7a754432553a2')
@@ -50,6 +50,8 @@ def draft(run):
     for short,rva in actor.items():
         names=[n for n in objects['game_actorped'].names if n.startswith('?'+short+'@CActorPed@')]
         need(len(names)==1,'ambiguous actor member');explicit['game_actorped'][names[0]]=rva
+    if extra_seeds:
+        for unit,names in extra_seeds.items():explicit.setdefault(unit,{}).update(names)
     for unit,names in explicit.items():
         for name,rva in names.items():
             s=next(s for s in objects[unit].names[name] if s['section']>0);select(unit,s,rva)
@@ -97,5 +99,5 @@ def draft(run):
 
 if __name__=='__main__':
     import argparse
-    p=argparse.ArgumentParser();p.add_argument('--run',default='cp32-closure-linked2');a=p.parse_args()
-    result=draft(a.run);path=ROOT/'build/actor-contract-draft.json';path.write_text(json.dumps(result,indent=2)+'\n');print(len(result['regions']),'regions,',len(result['pending']),'pending;',path)
+    p=argparse.ArgumentParser();p.add_argument('--run',default='cp32-closure-linked2');p.add_argument('--seeds');a=p.parse_args()
+    result=draft(a.run,json.loads(Path(a.seeds).read_text()) if a.seeds else None);path=ROOT/'build/actor-contract-draft.json';path.write_text(json.dumps(result,indent=2)+'\n');print(len(result['regions']),'regions,',len(result['pending']),'pending;',path)

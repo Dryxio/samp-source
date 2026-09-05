@@ -1,0 +1,1717 @@
+{
+  "previous_proofs": {
+    "evidence/checkpoint32/closure-acceptance.json": "e5bdc9998fbf5e102cea91305e69d5b98eb5b532eaac9304c64be896b5899ca7"
+  },
+  "result": "PASS",
+  "checkpoint32_status": "IN_PROGRESS",
+  "utc": "2026-09-05T03:56:33.089729+00:00",
+  "run": "cp32-expansion-linked1",
+  "scope": "Only listed complete code/data regions; unmatched providers and CRT implementations excluded from coverage",
+  "coverage": {
+    "previous_code_bytes": 27979,
+    "batch_code_bytes": 5517,
+    "new_unique_code_bytes": 1590,
+    "union_code_bytes": 29569,
+    "text_bytes": 930756,
+    "text_percent": 3.1768798696973213,
+    "whole_dll_match": false
+  },
+  "regions": [
+    {
+      "unit": "game_actorped",
+      "anchor": "??0CEntity@@QAE@XZ",
+      "rva": 639584,
+      "size": 25,
+      "kind": "code",
+      "code_ranges": [
+        {
+          "offset": 0,
+          "size": 25
+        }
+      ],
+      "linked_rva": 4096,
+      "status": "RESOLVED_LINKED_EXACT"
+    },
+    {
+      "unit": "game_actorped",
+      "anchor": "??1CEntity@@UAE@XZ",
+      "rva": 639616,
+      "size": 7,
+      "kind": "code",
+      "code_ranges": [
+        {
+          "offset": 0,
+          "size": 7
+        }
+      ],
+      "linked_rva": 4128,
+      "status": "RESOLVED_LINKED_EXACT"
+    },
+    {
+      "unit": "game_actorped",
+      "anchor": "??_GCEntity@@UAEPAXI@Z",
+      "rva": 639632,
+      "size": 31,
+      "kind": "code",
+      "code_ranges": [
+        {
+          "offset": 0,
+          "size": 31
+        }
+      ],
+      "linked_rva": 4144,
+      "status": "RESOLVED_LINKED_EXACT"
+    },
+    {
+      "unit": "game_actorped",
+      "anchor": "??0CActorPed@@QAE@HMMMM@Z",
+      "rva": 639664,
+      "size": 322,
+      "kind": "code",
+      "code_ranges": [
+        {
+          "offset": 0,
+          "size": 322
+        }
+      ],
+      "linked_rva": 4176,
+      "status": "RESOLVED_LINKED_EXACT"
+    },
+    {
+      "unit": "game_actorped",
+      "anchor": "??1CActorPed@@UAE@XZ",
+      "rva": 640848,
+      "size": 70,
+      "kind": "code",
+      "code_ranges": [
+        {
+          "offset": 0,
+          "size": 70
+        }
+      ],
+      "linked_rva": 5360,
+      "status": "RESOLVED_LINKED_EXACT"
+    },
+    {
+      "unit": "game_actorped",
+      "anchor": "??_GCActorPed@@UAEPAXI@Z",
+      "rva": 640928,
+      "size": 30,
+      "kind": "code",
+      "code_ranges": [
+        {
+          "offset": 0,
+          "size": 30
+        }
+      ],
+      "linked_rva": 5440,
+      "status": "RESOLVED_LINKED_EXACT"
+    },
+    {
+      "unit": "game_actorped",
+      "anchor": "?Destroy@CActorPed@@QAEXXZ",
+      "rva": 640000,
+      "size": 83,
+      "kind": "code",
+      "code_ranges": [
+        {
+          "offset": 0,
+          "size": 83
+        }
+      ],
+      "linked_rva": 4512,
+      "status": "RESOLVED_LINKED_EXACT"
+    },
+    {
+      "unit": "game_actorped",
+      "anchor": "?ApplyAnimation@CActorPed@@QAEXPAD0MHHHHH@Z",
+      "rva": 640096,
+      "size": 203,
+      "kind": "code",
+      "code_ranges": [
+        {
+          "offset": 0,
+          "size": 203
+        }
+      ],
+      "linked_rva": 4608,
+      "status": "RESOLVED_LINKED_EXACT"
+    },
+    {
+      "unit": "game_actorped",
+      "anchor": "?ClearAnimations@CActorPed@@QAEXXZ",
+      "rva": 640336,
+      "size": 19,
+      "kind": "code",
+      "code_ranges": [
+        {
+          "offset": 0,
+          "size": 19
+        }
+      ],
+      "linked_rva": 4848,
+      "status": "RESOLVED_LINKED_EXACT"
+    },
+    {
+      "unit": "game_actorped",
+      "anchor": "?SetTargetRotation@CActorPed@@QAEXM@Z",
+      "rva": 640368,
+      "size": 49,
+      "kind": "code",
+      "code_ranges": [
+        {
+          "offset": 0,
+          "size": 49
+        }
+      ],
+      "linked_rva": 4880,
+      "status": "RESOLVED_LINKED_EXACT"
+    },
+    {
+      "unit": "game_actorped",
+      "anchor": "?GetHealth@CActorPed@@QAEMXZ",
+      "rva": 640432,
+      "size": 21,
+      "kind": "code",
+      "code_ranges": [
+        {
+          "offset": 0,
+          "size": 21
+        }
+      ],
+      "linked_rva": 4944,
+      "status": "RESOLVED_LINKED_EXACT"
+    },
+    {
+      "unit": "game_actorped",
+      "anchor": "?SetHealth@CActorPed@@QAEXM@Z",
+      "rva": 640464,
+      "size": 59,
+      "kind": "code",
+      "code_ranges": [
+        {
+          "offset": 0,
+          "size": 59
+        }
+      ],
+      "linked_rva": 4976,
+      "status": "RESOLVED_LINKED_EXACT"
+    },
+    {
+      "unit": "game_actorped",
+      "anchor": "?GetArmour@CActorPed@@QAEMXZ",
+      "rva": 640528,
+      "size": 21,
+      "kind": "code",
+      "code_ranges": [
+        {
+          "offset": 0,
+          "size": 21
+        }
+      ],
+      "linked_rva": 5040,
+      "status": "RESOLVED_LINKED_EXACT"
+    },
+    {
+      "unit": "game_actorped",
+      "anchor": "?SetArmour@CActorPed@@QAEXM@Z",
+      "rva": 640560,
+      "size": 20,
+      "kind": "code",
+      "code_ranges": [
+        {
+          "offset": 0,
+          "size": 20
+        }
+      ],
+      "linked_rva": 5072,
+      "status": "RESOLVED_LINKED_EXACT"
+    },
+    {
+      "unit": "game_actorped",
+      "anchor": "?GetStateFlags@CActorPed@@QAEKXZ",
+      "rva": 640592,
+      "size": 15,
+      "kind": "code",
+      "code_ranges": [
+        {
+          "offset": 0,
+          "size": 15
+        }
+      ],
+      "linked_rva": 5104,
+      "status": "RESOLVED_LINKED_EXACT"
+    },
+    {
+      "unit": "game_actorped",
+      "anchor": "?SetStateFlags@CActorPed@@QAEXK@Z",
+      "rva": 640608,
+      "size": 20,
+      "kind": "code",
+      "code_ranges": [
+        {
+          "offset": 0,
+          "size": 20
+        }
+      ],
+      "linked_rva": 5120,
+      "status": "RESOLVED_LINKED_EXACT"
+    },
+    {
+      "unit": "game_actorped",
+      "anchor": "?IsDead@CActorPed@@QAEHXZ",
+      "rva": 640640,
+      "size": 35,
+      "kind": "code",
+      "code_ranges": [
+        {
+          "offset": 0,
+          "size": 35
+        }
+      ],
+      "linked_rva": 5152,
+      "status": "RESOLVED_LINKED_EXACT"
+    },
+    {
+      "unit": "game_actorped",
+      "anchor": "?GetActionTrigger@CActorPed@@QAEEXZ",
+      "rva": 640688,
+      "size": 10,
+      "kind": "code",
+      "code_ranges": [
+        {
+          "offset": 0,
+          "size": 10
+        }
+      ],
+      "linked_rva": 5200,
+      "status": "RESOLVED_LINKED_EXACT"
+    },
+    {
+      "unit": "game_actorped",
+      "anchor": "?SetActionTrigger@CActorPed@@QAEXE@Z",
+      "rva": 640704,
+      "size": 21,
+      "kind": "code",
+      "code_ranges": [
+        {
+          "offset": 0,
+          "size": 21
+        }
+      ],
+      "linked_rva": 5216,
+      "status": "RESOLVED_LINKED_EXACT"
+    },
+    {
+      "unit": "game_actorped",
+      "anchor": "?IsInVehicle@CActorPed@@QAEHXZ",
+      "rva": 640736,
+      "size": 21,
+      "kind": "code",
+      "code_ranges": [
+        {
+          "offset": 0,
+          "size": 21
+        }
+      ],
+      "linked_rva": 5248,
+      "status": "RESOLVED_LINKED_EXACT"
+    },
+    {
+      "unit": "game_actorped",
+      "anchor": "?ToggleImmunity@CActorPed@@QAEXE@Z",
+      "rva": 640768,
+      "size": 78,
+      "kind": "code",
+      "code_ranges": [
+        {
+          "offset": 0,
+          "size": 78
+        }
+      ],
+      "linked_rva": 5280,
+      "status": "RESOLVED_LINKED_EXACT"
+    },
+    {
+      "unit": "net_actorpool",
+      "anchor": "??0CActorPool@@QAE@XZ",
+      "rva": 5824,
+      "size": 41,
+      "kind": "code",
+      "code_ranges": [
+        {
+          "offset": 0,
+          "size": 41
+        }
+      ],
+      "linked_rva": 6160,
+      "status": "RESOLVED_LINKED_EXACT"
+    },
+    {
+      "unit": "net_actorpool",
+      "anchor": "?UpdateCount@CActorPool@@QAEXXZ",
+      "rva": 5728,
+      "size": 85,
+      "kind": "code",
+      "code_ranges": [
+        {
+          "offset": 0,
+          "size": 85
+        }
+      ],
+      "linked_rva": 6208,
+      "status": "RESOLVED_LINKED_EXACT"
+    },
+    {
+      "unit": "net_actorpool",
+      "anchor": "?Delete@CActorPool@@QAEHG@Z",
+      "rva": 5872,
+      "size": 97,
+      "kind": "code",
+      "code_ranges": [
+        {
+          "offset": 0,
+          "size": 97
+        }
+      ],
+      "linked_rva": 6304,
+      "status": "RESOLVED_LINKED_EXACT"
+    },
+    {
+      "unit": "net_actorpool",
+      "anchor": "?FindIDFromGtaPtr@CActorPool@@QAEGH@Z",
+      "rva": 6320,
+      "size": 39,
+      "kind": "code",
+      "code_ranges": [
+        {
+          "offset": 0,
+          "size": 39
+        }
+      ],
+      "linked_rva": 6416,
+      "status": "RESOLVED_LINKED_EXACT"
+    },
+    {
+      "unit": "net_actorpool",
+      "anchor": "?DeleteAll@CActorPool@@QAEXXZ",
+      "rva": 6368,
+      "size": 25,
+      "kind": "code",
+      "code_ranges": [
+        {
+          "offset": 0,
+          "size": 25
+        }
+      ],
+      "linked_rva": 6464,
+      "status": "RESOLVED_LINKED_EXACT"
+    },
+    {
+      "unit": "net_actorpool",
+      "anchor": "?New@CActorPool@@QAEHPAUACTOR_SPAWN_INFO@@@Z",
+      "rva": 6400,
+      "size": 312,
+      "kind": "code",
+      "code_ranges": [
+        {
+          "offset": 0,
+          "size": 312
+        }
+      ],
+      "linked_rva": 6496,
+      "status": "RESOLVED_LINKED_EXACT"
+    },
+    {
+      "unit": "game_scripting",
+      "anchor": "?ScriptCommand@@YAHPBUSCRIPT_COMMAND@@ZZ",
+      "rva": 729872,
+      "size": 565,
+      "kind": "code",
+      "code_ranges": [
+        {
+          "offset": 0,
+          "size": 518
+        }
+      ],
+      "linked_rva": 5536,
+      "status": "RESOLVED_LINKED_EXACT"
+    },
+    {
+      "unit": "game_scripting",
+      "anchor": "?ExecuteScriptBuf@@YAHXZ",
+      "rva": 729808,
+      "size": 53,
+      "kind": "code",
+      "code_ranges": [
+        {
+          "offset": 0,
+          "size": 53
+        }
+      ],
+      "linked_rva": 5472,
+      "status": "RESOLVED_LINKED_EXACT"
+    },
+    {
+      "unit": "game_scripting",
+      "anchor": "?InitScripting@@YAXXZ",
+      "rva": 730448,
+      "size": 33,
+      "kind": "code",
+      "code_ranges": [
+        {
+          "offset": 0,
+          "size": 33
+        }
+      ],
+      "linked_rva": 6112,
+      "status": "RESOLVED_LINKED_EXACT"
+    },
+    {
+      "unit": "closure_chat",
+      "anchor": "?Log@CChatWindow@@QAEXHPAD0@Z",
+      "rva": 423888,
+      "size": 193,
+      "kind": "code",
+      "code_ranges": [
+        {
+          "offset": 0,
+          "size": 193
+        }
+      ],
+      "linked_rva": 7488,
+      "status": "RESOLVED_LINKED_EXACT"
+    },
+    {
+      "unit": "closure_chat",
+      "anchor": "?AddDebugMessage@CChatWindow@@QAAXPADZZ",
+      "rva": 426224,
+      "size": 117,
+      "kind": "code",
+      "code_ranges": [
+        {
+          "offset": 0,
+          "size": 117
+        }
+      ],
+      "linked_rva": 8240,
+      "status": "RESOLVED_LINKED_EXACT"
+    },
+    {
+      "unit": "closure_world",
+      "anchor": "?SetMatrix@CEntity@@QAEXU_MATRIX4X4@@@Z",
+      "rva": 650176,
+      "size": 177,
+      "kind": "code",
+      "code_ranges": [
+        {
+          "offset": 0,
+          "size": 177
+        }
+      ],
+      "linked_rva": 8816,
+      "status": "RESOLVED_LINKED_EXACT"
+    },
+    {
+      "unit": "closure_world",
+      "anchor": "?GetMoveSpeedVector@CEntity@@QAEXPAU_VECTOR@@@Z",
+      "rva": 650464,
+      "size": 33,
+      "kind": "code",
+      "code_ranges": [
+        {
+          "offset": 0,
+          "size": 33
+        }
+      ],
+      "linked_rva": 9008,
+      "status": "RESOLVED_LINKED_EXACT"
+    },
+    {
+      "unit": "closure_world",
+      "anchor": "?GetTurnSpeedVector@CEntity@@QAEXPAU_VECTOR@@@Z",
+      "rva": 650800,
+      "size": 33,
+      "kind": "code",
+      "code_ranges": [
+        {
+          "offset": 0,
+          "size": 33
+        }
+      ],
+      "linked_rva": 9056,
+      "status": "RESOLVED_LINKED_EXACT"
+    },
+    {
+      "unit": "closure_world",
+      "anchor": "?IsAdded@CEntity@@QAEHXZ",
+      "rva": 652240,
+      "size": 34,
+      "kind": "code",
+      "code_ranges": [
+        {
+          "offset": 0,
+          "size": 34
+        }
+      ],
+      "linked_rva": 9104,
+      "status": "RESOLVED_LINKED_EXACT"
+    },
+    {
+      "unit": "closure_world",
+      "anchor": "?ApplyTurnSpeed@CEntity@@QAEXXZ",
+      "rva": 650896,
+      "size": 28,
+      "kind": "code",
+      "code_ranges": [
+        {
+          "offset": 0,
+          "size": 28
+        }
+      ],
+      "linked_rva": 9152,
+      "status": "RESOLVED_LINKED_EXACT"
+    },
+    {
+      "unit": "closure_world",
+      "anchor": "?GetDistanceFromCentreOfMassToBaseOfModel@CEntity@@QAEMXZ",
+      "rva": 650928,
+      "size": 53,
+      "kind": "code",
+      "code_ranges": [
+        {
+          "offset": 0,
+          "size": 53
+        }
+      ],
+      "linked_rva": 9184,
+      "status": "RESOLVED_LINKED_EXACT"
+    },
+    {
+      "unit": "closure_world",
+      "anchor": "?GetBoundCentre@CEntity@@QAEXPAU_VECTOR@@@Z",
+      "rva": 650992,
+      "size": 33,
+      "kind": "code",
+      "code_ranges": [
+        {
+          "offset": 0,
+          "size": 33
+        }
+      ],
+      "linked_rva": 9248,
+      "status": "RESOLVED_LINKED_EXACT"
+    },
+    {
+      "unit": "closure_world",
+      "anchor": "?GetBoundRect@CEntity@@QAEXPAU_FRECT@@@Z",
+      "rva": 651040,
+      "size": 33,
+      "kind": "code",
+      "code_ranges": [
+        {
+          "offset": 0,
+          "size": 33
+        }
+      ],
+      "linked_rva": 9296,
+      "status": "RESOLVED_LINKED_EXACT"
+    },
+    {
+      "unit": "closure_world",
+      "anchor": "?GetDistanceFromCamera@CEntity@@QAEMXZ",
+      "rva": 651664,
+      "size": 95,
+      "kind": "code",
+      "code_ranges": [
+        {
+          "offset": 0,
+          "size": 95
+        }
+      ],
+      "linked_rva": 9344,
+      "status": "RESOLVED_LINKED_EXACT"
+    },
+    {
+      "unit": "closure_world",
+      "anchor": "?GetDistanceFromPoint@CEntity@@QAEMMMM@Z",
+      "rva": 651952,
+      "size": 66,
+      "kind": "code",
+      "code_ranges": [
+        {
+          "offset": 0,
+          "size": 66
+        }
+      ],
+      "linked_rva": 9440,
+      "status": "RESOLVED_LINKED_EXACT"
+    },
+    {
+      "unit": "closure_world",
+      "anchor": "?EnforceWorldBoundries@CEntity@@QAEHMMMM@Z",
+      "rva": 652320,
+      "size": 404,
+      "kind": "code",
+      "code_ranges": [
+        {
+          "offset": 0,
+          "size": 404
+        }
+      ],
+      "linked_rva": 9520,
+      "status": "RESOLVED_LINKED_EXACT"
+    },
+    {
+      "unit": "closure_world",
+      "anchor": "?HasExceededWorldBoundries@CEntity@@QAEHMMMM@Z",
+      "rva": 652736,
+      "size": 98,
+      "kind": "code",
+      "code_ranges": [
+        {
+          "offset": 0,
+          "size": 98
+        }
+      ],
+      "linked_rva": 9936,
+      "status": "RESOLVED_LINKED_EXACT"
+    },
+    {
+      "unit": "closure_world",
+      "anchor": "?SetCollisionChecking@CEntity@@QAEXH@Z",
+      "rva": 652848,
+      "size": 47,
+      "kind": "code",
+      "code_ranges": [
+        {
+          "offset": 0,
+          "size": 47
+        }
+      ],
+      "linked_rva": 10048,
+      "status": "RESOLVED_LINKED_EXACT"
+    },
+    {
+      "unit": "closure_world",
+      "anchor": "?IsCollisionCheckingEnabled@CEntity@@QAEHXZ",
+      "rva": 652896,
+      "size": 29,
+      "kind": "code",
+      "code_ranges": [
+        {
+          "offset": 0,
+          "size": 29
+        }
+      ],
+      "linked_rva": 10096,
+      "status": "RESOLVED_LINKED_EXACT"
+    },
+    {
+      "unit": "closure_world",
+      "anchor": "?SetGravityProcessing@CEntity@@QAEXH@Z",
+      "rva": 652928,
+      "size": 51,
+      "kind": "code",
+      "code_ranges": [
+        {
+          "offset": 0,
+          "size": 51
+        }
+      ],
+      "linked_rva": 10128,
+      "status": "RESOLVED_LINKED_EXACT"
+    },
+    {
+      "unit": "closure_world",
+      "anchor": "?SetWaitingForCollision@CEntity@@QAEXH@Z",
+      "rva": 652992,
+      "size": 54,
+      "kind": "code",
+      "code_ranges": [
+        {
+          "offset": 0,
+          "size": 54
+        }
+      ],
+      "linked_rva": 10192,
+      "status": "RESOLVED_LINKED_EXACT"
+    },
+    {
+      "unit": "closure_world",
+      "anchor": "?DisableStreaming@CEntity@@QAEXXZ",
+      "rva": 653056,
+      "size": 23,
+      "kind": "code",
+      "code_ranges": [
+        {
+          "offset": 0,
+          "size": 23
+        }
+      ],
+      "linked_rva": 10256,
+      "status": "RESOLVED_LINKED_EXACT"
+    },
+    {
+      "unit": "closure_world",
+      "anchor": "?EnableTunnelTransition@CEntity@@QAEXXZ",
+      "rva": 653088,
+      "size": 23,
+      "kind": "code",
+      "code_ranges": [
+        {
+          "offset": 0,
+          "size": 23
+        }
+      ],
+      "linked_rva": 10288,
+      "status": "RESOLVED_LINKED_EXACT"
+    },
+    {
+      "unit": "closure_world",
+      "anchor": "?SetApplySpeed@CEntity@@QAEXH@Z",
+      "rva": 653120,
+      "size": 59,
+      "kind": "code",
+      "code_ranges": [
+        {
+          "offset": 0,
+          "size": 59
+        }
+      ],
+      "linked_rva": 10320,
+      "status": "RESOLVED_LINKED_EXACT"
+    },
+    {
+      "unit": "closure_world",
+      "anchor": "?MakeNonCollidable@CEntity@@QAEXXZ",
+      "rva": 653184,
+      "size": 12,
+      "kind": "code",
+      "code_ranges": [
+        {
+          "offset": 0,
+          "size": 12
+        }
+      ],
+      "linked_rva": 10384,
+      "status": "RESOLVED_LINKED_EXACT"
+    },
+    {
+      "unit": "closure_world",
+      "anchor": "?SetClumpAlpha@CEntity@@QAEXH@Z",
+      "rva": 653200,
+      "size": 54,
+      "kind": "code",
+      "code_ranges": [
+        {
+          "offset": 0,
+          "size": 54
+        }
+      ],
+      "linked_rva": 10400,
+      "status": "RESOLVED_LINKED_EXACT"
+    },
+    {
+      "unit": "closure_world",
+      "anchor": "?GetWorldBoundRadius@CEntity@@QAEKXZ",
+      "rva": 653264,
+      "size": 29,
+      "kind": "code",
+      "code_ranges": [
+        {
+          "offset": 0,
+          "size": 29
+        }
+      ],
+      "linked_rva": 10464,
+      "status": "RESOLVED_LINKED_EXACT"
+    },
+    {
+      "unit": "closure_world",
+      "anchor": "?SetEulerAngles@CEntity@@QAEXMMM@Z",
+      "rva": 653296,
+      "size": 251,
+      "kind": "code",
+      "code_ranges": [
+        {
+          "offset": 0,
+          "size": 251
+        }
+      ],
+      "linked_rva": 10496,
+      "status": "RESOLVED_LINKED_EXACT"
+    },
+    {
+      "unit": "game_actorped",
+      "anchor": "??_7CEntity@@6B@",
+      "rva": 967396,
+      "size": 12,
+      "kind": "data",
+      "code_ranges": [],
+      "linked_rva": 61892,
+      "status": "RESOLVED_LINKED_EXACT"
+    },
+    {
+      "unit": "game_actorped",
+      "anchor": "__ehhandler$??0CActorPed@@QAE@HMMMM@Z",
+      "rva": 933296,
+      "size": 18,
+      "kind": "code",
+      "code_ranges": [
+        {
+          "offset": 0,
+          "size": 8
+        },
+        {
+          "offset": 8,
+          "size": 10
+        }
+      ],
+      "linked_rva": 57600,
+      "status": "RESOLVED_LINKED_EXACT"
+    },
+    {
+      "unit": "game_actorped",
+      "anchor": "??_7CActorPed@@6B@",
+      "rva": 967408,
+      "size": 12,
+      "kind": "data",
+      "code_ranges": [],
+      "linked_rva": 61908,
+      "status": "RESOLVED_LINKED_EXACT"
+    },
+    {
+      "unit": "closure_state",
+      "anchor": "?pGame@@3PAVCGame@@A",
+      "rva": 2550700,
+      "size": 4,
+      "kind": "zero-object",
+      "code_ranges": [],
+      "linked_rva": 78088,
+      "status": "RESOLVED_LINKED_EXACT"
+    },
+    {
+      "unit": "closure_models",
+      "anchor": "?IsModelLoaded@CGame@@QAEHH@Z",
+      "rva": 657776,
+      "size": 40,
+      "kind": "code",
+      "code_ranges": [
+        {
+          "offset": 0,
+          "size": 40
+        }
+      ],
+      "linked_rva": 7088,
+      "status": "RESOLVED_LINKED_EXACT"
+    },
+    {
+      "unit": "closure_models",
+      "anchor": "?RequestModel@CGame@@QAEXHH@Z",
+      "rva": 657728,
+      "size": 21,
+      "kind": "code",
+      "code_ranges": [
+        {
+          "offset": 0,
+          "size": 21
+        }
+      ],
+      "linked_rva": 7040,
+      "status": "RESOLVED_LINKED_EXACT"
+    },
+    {
+      "unit": "closure_models",
+      "anchor": "?LoadRequestedModels@CGame@@QAEXXZ",
+      "rva": 657760,
+      "size": 12,
+      "kind": "code",
+      "code_ranges": [
+        {
+          "offset": 0,
+          "size": 12
+        }
+      ],
+      "linked_rva": 7072,
+      "status": "RESOLVED_LINKED_EXACT"
+    },
+    {
+      "unit": "game_actorped",
+      "anchor": "__real@3f800000",
+      "rva": 940844,
+      "size": 4,
+      "kind": "data",
+      "code_ranges": [],
+      "linked_rva": 61904,
+      "status": "RESOLVED_LINKED_EXACT"
+    },
+    {
+      "unit": "game_actorped",
+      "anchor": "_create_actor",
+      "rva": 967256,
+      "size": 138,
+      "kind": "data",
+      "code_ranges": [],
+      "linked_rva": 61752,
+      "status": "RESOLVED_LINKED_EXACT"
+    },
+    {
+      "unit": "closure_util",
+      "anchor": "?GamePool_Ped_GetAt@@YGPAU_PED_TYPE@@H@Z",
+      "rva": 736112,
+      "size": 35,
+      "kind": "code",
+      "code_ranges": [
+        {
+          "offset": 0,
+          "size": 35
+        }
+      ],
+      "linked_rva": 6880,
+      "status": "RESOLVED_LINKED_EXACT"
+    },
+    {
+      "unit": "game_actorped",
+      "anchor": "__ehhandler$??1CActorPed@@UAE@XZ",
+      "rva": 933328,
+      "size": 18,
+      "kind": "code",
+      "code_ranges": [
+        {
+          "offset": 0,
+          "size": 8
+        },
+        {
+          "offset": 8,
+          "size": 10
+        }
+      ],
+      "linked_rva": 57632,
+      "status": "RESOLVED_LINKED_EXACT"
+    },
+    {
+      "unit": "game_actorped",
+      "anchor": "??_C@_03DDABINI@SEX?$AA@",
+      "rva": 967420,
+      "size": 4,
+      "kind": "data",
+      "code_ranges": [],
+      "linked_rva": 61920,
+      "status": "RESOLVED_LINKED_EXACT"
+    },
+    {
+      "unit": "closure_models",
+      "anchor": "?IsAnimationLoaded@CGame@@QAEHPAD@Z",
+      "rva": 658544,
+      "size": 21,
+      "kind": "code",
+      "code_ranges": [
+        {
+          "offset": 0,
+          "size": 21
+        }
+      ],
+      "linked_rva": 7216,
+      "status": "RESOLVED_LINKED_EXACT"
+    },
+    {
+      "unit": "closure_models",
+      "anchor": "?RequestAnimation@CGame@@QAEXPAD@Z",
+      "rva": 658512,
+      "size": 21,
+      "kind": "code",
+      "code_ranges": [
+        {
+          "offset": 0,
+          "size": 21
+        }
+      ],
+      "linked_rva": 7184,
+      "status": "RESOLVED_LINKED_EXACT"
+    },
+    {
+      "unit": "game_actorped",
+      "anchor": "?dwActorPed@@3KA",
+      "rva": 1327052,
+      "size": 4,
+      "kind": "zero",
+      "code_ranges": [],
+      "linked_rva": 77728,
+      "status": "RESOLVED_LINKED_EXACT"
+    },
+    {
+      "unit": "game_actorped",
+      "anchor": "?FlushPedIntelligence@@YAHXZ",
+      "rva": 640304,
+      "size": 27,
+      "kind": "code",
+      "code_ranges": [
+        {
+          "offset": 0,
+          "size": 27
+        }
+      ],
+      "linked_rva": 4816,
+      "status": "RESOLVED_LINKED_EXACT"
+    },
+    {
+      "unit": "closure_util",
+      "anchor": "?DegToRad@@YAMM@Z",
+      "rva": 743792,
+      "size": 102,
+      "kind": "code",
+      "code_ranges": [
+        {
+          "offset": 0,
+          "size": 102
+        }
+      ],
+      "linked_rva": 6928,
+      "status": "RESOLVED_LINKED_EXACT"
+    },
+    {
+      "unit": "game_actorped",
+      "anchor": "__real@00000000",
+      "rva": 940352,
+      "size": 4,
+      "kind": "data",
+      "code_ranges": [],
+      "linked_rva": 61924,
+      "status": "RESOLVED_LINKED_EXACT"
+    },
+    {
+      "unit": "net_actorpool",
+      "anchor": "__ehhandler$?New@CActorPool@@QAEHPAUACTOR_SPAWN_INFO@@@Z",
+      "rva": 917152,
+      "size": 21,
+      "kind": "code",
+      "code_ranges": [
+        {
+          "offset": 0,
+          "size": 11
+        },
+        {
+          "offset": 11,
+          "size": 10
+        }
+      ],
+      "linked_rva": 57664,
+      "status": "RESOLVED_LINKED_EXACT"
+    },
+    {
+      "unit": "closure_state",
+      "anchor": "?pChatWindow@@3PAVCChatWindow@@A",
+      "rva": 2550656,
+      "size": 4,
+      "kind": "zero-object",
+      "code_ranges": [],
+      "linked_rva": 78080,
+      "status": "RESOLVED_LINKED_EXACT"
+    },
+    {
+      "unit": "net_actorpool",
+      "anchor": "??_C@_0CC@PBMNFPBL@Warning?3?5actor?5?$CFu?5was?5not?5delete@",
+      "rva": 939516,
+      "size": 34,
+      "kind": "data",
+      "code_ranges": [],
+      "linked_rva": 61948,
+      "status": "RESOLVED_LINKED_EXACT"
+    },
+    {
+      "unit": "game_scripting",
+      "anchor": "$T95014",
+      "rva": 971544,
+      "size": 12,
+      "kind": "data",
+      "code_ranges": [],
+      "linked_rva": 61936,
+      "status": "RESOLVED_LINKED_EXACT"
+    },
+    {
+      "unit": "game_scripting",
+      "anchor": "?ScriptBuf@@3PAEA",
+      "rva": 2536464,
+      "size": 340,
+      "kind": "zero",
+      "code_ranges": [],
+      "linked_rva": 77736,
+      "status": "RESOLVED_LINKED_EXACT"
+    },
+    {
+      "unit": "game_scripting",
+      "anchor": "??_C@_06POMMAHJK@opcode?$AA@",
+      "rva": 956252,
+      "size": 7,
+      "kind": "data",
+      "code_ranges": [],
+      "linked_rva": 61928,
+      "status": "RESOLVED_LINKED_EXACT"
+    },
+    {
+      "unit": "closure_filter",
+      "anchor": "?exc_filter@@YGHIPAU_EXCEPTION_POINTERS@@PAD@Z",
+      "rva": 395696,
+      "size": 194,
+      "kind": "code",
+      "code_ranges": [
+        {
+          "offset": 0,
+          "size": 194
+        }
+      ],
+      "linked_rva": 7248,
+      "status": "RESOLVED_LINKED_EXACT"
+    },
+    {
+      "unit": "game_scripting",
+      "anchor": "?ProcessOneCommand@@3P6GHXZA",
+      "rva": 1143736,
+      "size": 20,
+      "kind": "data",
+      "code_ranges": [],
+      "linked_rva": 73808,
+      "status": "RESOLVED_LINKED_EXACT"
+    },
+    {
+      "unit": "closure_chat",
+      "anchor": "??_C@_01MCMALHOG@a?$AA@",
+      "rva": 942308,
+      "size": 2,
+      "kind": "data",
+      "code_ranges": [],
+      "linked_rva": 62296,
+      "status": "RESOLVED_LINKED_EXACT"
+    },
+    {
+      "unit": "closure_chat",
+      "anchor": "??_C@_0L@CEAFHBBP@?$FL?$CFH?3?$CFM?3?$CFS?$FN?$AA@",
+      "rva": 957632,
+      "size": 11,
+      "kind": "data",
+      "code_ranges": [],
+      "linked_rva": 62284,
+      "status": "RESOLVED_LINKED_EXACT"
+    },
+    {
+      "unit": "closure_chat",
+      "anchor": "??_C@_07HDPLFHPL@?$CFs?5?$CFs?$AN?6?$AA@",
+      "rva": 957624,
+      "size": 8,
+      "kind": "data",
+      "code_ranges": [],
+      "linked_rva": 62276,
+      "status": "RESOLVED_LINKED_EXACT"
+    },
+    {
+      "unit": "closure_chat",
+      "anchor": "??_C@_0N@GOIIKBIH@?$CFs?5?$DM?$CFs?$DO?5?$CFs?$AN?6?$AA@",
+      "rva": 957608,
+      "size": 13,
+      "kind": "data",
+      "code_ranges": [],
+      "linked_rva": 62260,
+      "status": "RESOLVED_LINKED_EXACT"
+    },
+    {
+      "unit": "closure_world",
+      "anchor": "__real@00000000",
+      "rva": 940352,
+      "size": 4,
+      "kind": "data",
+      "code_ranges": [],
+      "linked_rva": 61924,
+      "status": "RESOLVED_LINKED_EXACT"
+    },
+    {
+      "unit": "closure_world",
+      "anchor": "?GetMatrix@CEntity@@QAEXPAU_MATRIX4X4@@@Z",
+      "rva": 650000,
+      "size": 168,
+      "kind": "code",
+      "code_ranges": [
+        {
+          "offset": 0,
+          "size": 168
+        }
+      ],
+      "linked_rva": 8384,
+      "status": "RESOLVED_LINKED_EXACT"
+    },
+    {
+      "unit": "closure_world",
+      "anchor": "__real@47c35000",
+      "rva": 968012,
+      "size": 4,
+      "kind": "data",
+      "code_ranges": [],
+      "linked_rva": 62324,
+      "status": "RESOLVED_LINKED_EXACT"
+    },
+    {
+      "unit": "closure_world",
+      "anchor": "?SetMoveSpeedVector@CEntity@@QAEXU_VECTOR@@@Z",
+      "rva": 650512,
+      "size": 33,
+      "kind": "code",
+      "code_ranges": [
+        {
+          "offset": 0,
+          "size": 33
+        }
+      ],
+      "linked_rva": 8560,
+      "status": "RESOLVED_LINKED_EXACT"
+    },
+    {
+      "unit": "closure_world",
+      "anchor": "__real@3d23d70a",
+      "rva": 955020,
+      "size": 4,
+      "kind": "data",
+      "code_ranges": [],
+      "linked_rva": 62328,
+      "status": "RESOLVED_LINKED_EXACT"
+    },
+    {
+      "unit": "closure_world",
+      "anchor": "__real@3c8efa35",
+      "rva": 968016,
+      "size": 4,
+      "kind": "data",
+      "code_ranges": [],
+      "linked_rva": 62332,
+      "status": "RESOLVED_LINKED_EXACT"
+    },
+    {
+      "unit": "closure_world",
+      "anchor": "?Add@CEntity@@UAEXXZ",
+      "rva": 652032,
+      "size": 207,
+      "kind": "code",
+      "code_ranges": [
+        {
+          "offset": 0,
+          "size": 207
+        }
+      ],
+      "linked_rva": 10752,
+      "status": "RESOLVED_LINKED_EXACT"
+    },
+    {
+      "unit": "closure_world",
+      "anchor": "?Remove@CEntity@@UAEXXZ",
+      "rva": 652288,
+      "size": 32,
+      "kind": "code",
+      "code_ranges": [
+        {
+          "offset": 0,
+          "size": 32
+        }
+      ],
+      "linked_rva": 8656,
+      "status": "RESOLVED_LINKED_EXACT"
+    },
+    {
+      "unit": "game_actorped",
+      "anchor": "$T95216",
+      "rva": 1031384,
+      "size": 36,
+      "kind": "data",
+      "code_ranges": [],
+      "linked_rva": 67564,
+      "status": "RESOLVED_LINKED_EXACT"
+    },
+    {
+      "unit": "closure_models",
+      "anchor": "_is_model_available",
+      "rva": 968104,
+      "size": 18,
+      "kind": "script-command",
+      "code_ranges": [],
+      "linked_rva": 62060,
+      "status": "RESOLVED_LINKED_EXACT"
+    },
+    {
+      "unit": "closure_models",
+      "anchor": "_request_model",
+      "rva": 968044,
+      "size": 18,
+      "kind": "script-command",
+      "code_ranges": [],
+      "linked_rva": 62000,
+      "status": "RESOLVED_LINKED_EXACT"
+    },
+    {
+      "unit": "closure_models",
+      "anchor": "_load_requested_models",
+      "rva": 968064,
+      "size": 18,
+      "kind": "script-command",
+      "code_ranges": [],
+      "linked_rva": 62020,
+      "status": "RESOLVED_LINKED_EXACT"
+    },
+    {
+      "unit": "game_actorped",
+      "anchor": "$T95273",
+      "rva": 1031420,
+      "size": 36,
+      "kind": "data",
+      "code_ranges": [],
+      "linked_rva": 67600,
+      "status": "RESOLVED_LINKED_EXACT"
+    },
+    {
+      "unit": "closure_models",
+      "anchor": "_is_animation_loaded",
+      "rva": 968444,
+      "size": 18,
+      "kind": "script-command",
+      "code_ranges": [],
+      "linked_rva": 62100,
+      "status": "RESOLVED_LINKED_EXACT"
+    },
+    {
+      "unit": "closure_models",
+      "anchor": "_request_animation",
+      "rva": 968424,
+      "size": 18,
+      "kind": "script-command",
+      "code_ranges": [],
+      "linked_rva": 62080,
+      "status": "RESOLVED_LINKED_EXACT"
+    },
+    {
+      "unit": "closure_util",
+      "anchor": "__real@43b40000",
+      "rva": 942372,
+      "size": 4,
+      "kind": "data",
+      "code_ranges": [],
+      "linked_rva": 61996,
+      "status": "RESOLVED_LINKED_EXACT"
+    },
+    {
+      "unit": "closure_util",
+      "anchor": "__real@00000000",
+      "rva": 940352,
+      "size": 4,
+      "kind": "data",
+      "code_ranges": [],
+      "linked_rva": 61924,
+      "status": "RESOLVED_LINKED_EXACT"
+    },
+    {
+      "unit": "closure_util",
+      "anchor": "__real@43340000",
+      "rva": 971880,
+      "size": 4,
+      "kind": "data",
+      "code_ranges": [],
+      "linked_rva": 61992,
+      "status": "RESOLVED_LINKED_EXACT"
+    },
+    {
+      "unit": "closure_util",
+      "anchor": "__real@40490fdb",
+      "rva": 971904,
+      "size": 4,
+      "kind": "data",
+      "code_ranges": [],
+      "linked_rva": 61988,
+      "status": "RESOLVED_LINKED_EXACT"
+    },
+    {
+      "unit": "closure_util",
+      "anchor": "__real@3bb60b61",
+      "rva": 971900,
+      "size": 4,
+      "kind": "data",
+      "code_ranges": [],
+      "linked_rva": 61984,
+      "status": "RESOLVED_LINKED_EXACT"
+    },
+    {
+      "unit": "net_actorpool",
+      "anchor": "$T95007",
+      "rva": 1013300,
+      "size": 36,
+      "kind": "data",
+      "code_ranges": [],
+      "linked_rva": 67636,
+      "status": "RESOLVED_LINKED_EXACT"
+    },
+    {
+      "unit": "closure_filter",
+      "anchor": "??_C@_06POMMAHJK@opcode?$AA@",
+      "rva": 956252,
+      "size": 7,
+      "kind": "data",
+      "code_ranges": [],
+      "linked_rva": 61928,
+      "status": "RESOLVED_LINKED_EXACT"
+    },
+    {
+      "unit": "closure_state",
+      "anchor": "?wVehicleComponentDebug@@3GA",
+      "rva": 2547672,
+      "size": 2,
+      "kind": "zero-object",
+      "code_ranges": [],
+      "linked_rva": 78084,
+      "status": "RESOLVED_LINKED_EXACT"
+    },
+    {
+      "unit": "closure_filter",
+      "anchor": "??_C@_0DG@IOPGDGGG@Warning?$CIadd_car_component?5?$CFu?$CJ?3?5E@",
+      "rva": 956196,
+      "size": 54,
+      "kind": "data",
+      "code_ranges": [],
+      "linked_rva": 62204,
+      "status": "RESOLVED_LINKED_EXACT"
+    },
+    {
+      "unit": "closure_filter",
+      "anchor": "??_C@_0CN@CCHMJHME@Warning?$CIopcode?50x?$CFX?$CJ?3?5Exception?5@",
+      "rva": 956148,
+      "size": 45,
+      "kind": "data",
+      "code_ranges": [],
+      "linked_rva": 62156,
+      "status": "RESOLVED_LINKED_EXACT"
+    },
+    {
+      "unit": "closure_filter",
+      "anchor": "??_C@_0CE@PBNIKEC@Warning?$CI?$CFs?$CJ?3?5Exception?50x?$CFX?5at?50@",
+      "rva": 956112,
+      "size": 36,
+      "kind": "data",
+      "code_ranges": [],
+      "linked_rva": 62120,
+      "status": "RESOLVED_LINKED_EXACT"
+    },
+    {
+      "unit": "closure_filter",
+      "anchor": "?dword_10125A58@@3HA",
+      "rva": 1202776,
+      "size": 4,
+      "kind": "zero",
+      "code_ranges": [],
+      "linked_rva": 78076,
+      "status": "RESOLVED_LINKED_EXACT"
+    },
+    {
+      "unit": "closure_util",
+      "anchor": "?WorldAddEntity@@YGXPAK@Z",
+      "rva": 736032,
+      "size": 20,
+      "kind": "code",
+      "code_ranges": [
+        {
+          "offset": 0,
+          "size": 20
+        }
+      ],
+      "linked_rva": 6816,
+      "status": "RESOLVED_LINKED_EXACT"
+    },
+    {
+      "unit": "closure_world",
+      "anchor": "?TeleportTo@CEntity@@QAEXMMM@Z",
+      "rva": 651328,
+      "size": 115,
+      "kind": "code",
+      "code_ranges": [
+        {
+          "offset": 0,
+          "size": 115
+        }
+      ],
+      "linked_rva": 8688,
+      "status": "RESOLVED_LINKED_EXACT"
+    },
+    {
+      "unit": "closure_util",
+      "anchor": "?WorldRemoveEntity@@YGXPAK@Z",
+      "rva": 736064,
+      "size": 20,
+      "kind": "code",
+      "code_ranges": [
+        {
+          "offset": 0,
+          "size": 20
+        }
+      ],
+      "linked_rva": 6848,
+      "status": "RESOLVED_LINKED_EXACT"
+    },
+    {
+      "unit": "closure_world",
+      "anchor": "_put_train_at",
+      "rva": 967948,
+      "size": 18,
+      "kind": "data",
+      "code_ranges": [],
+      "linked_rva": 62304,
+      "status": "RESOLVED_LINKED_EXACT"
+    }
+  ],
+  "pending": [
+    {
+      "unit": "closure_chat",
+      "section": 54,
+      "offset": 0,
+      "size": 538,
+      "rva": 424928,
+      "kind": "code",
+      "anchor": "?AddEntry@CChatWindow@@QAEXHPAD0KK@Z",
+      "anchor_offset": 0,
+      "reference_sha256": "2353899554205aa4a63a0c12d82f9b60a59d583a0ad2287a201180d069b97971",
+      "reason": "FULL_BYTES_DIFFER",
+      "difference_offsets": [
+        6,
+        7,
+        8,
+        12,
+        13,
+        14
+      ]
+    },
+    {
+      "unit": "closure_chat",
+      "section": 46,
+      "offset": 0,
+      "size": 26,
+      "rva": 422992,
+      "kind": "code",
+      "anchor": "?PushBack@CChatWindow@@QAEXXZ",
+      "anchor_offset": 0,
+      "reference_sha256": "b79ee1d7b34b254c36171709e7b63d9cb405ac2a07f2c4a9add2c05a42c6e6a7",
+      "reason": "FULL_BYTES_DIFFER",
+      "difference_offsets": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        8,
+        9,
+        10,
+        11,
+        12,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25
+      ]
+    }
+  ],
+  "emulation": {
+    "result": "PASS",
+    "runs": [
+      {
+        "image": "R5",
+        "result": "PASS",
+        "pool_new": true,
+        "allocations": [
+          86
+        ],
+        "script_opcodes": [
+          584,
+          583,
+          907,
+          584,
+          584,
+          154,
+          371,
+          1094,
+          1547,
+          683
+        ],
+        "gta_lookups": 2,
+        "native_deletions": 1,
+        "crt_frees": 1
+      },
+      {
+        "image": "linked",
+        "result": "PASS",
+        "pool_new": true,
+        "allocations": [
+          86
+        ],
+        "script_opcodes": [
+          584,
+          583,
+          907,
+          584,
+          584,
+          154,
+          371,
+          1094,
+          1547,
+          683
+        ],
+        "gta_lookups": 2,
+        "native_deletions": 1,
+        "crt_frees": 1
+      }
+    ],
+    "scope": "Pool New when present, ctor, script encoding, polling, virtual deletion, SEH chain and nonvolatile registers; GTA/Windows/CRT boundary operations intercepted"
+  },
+  "negative_controls": {
+    "result": "PASS",
+    "tests": 6,
+    "log_sha256": "0aa60007dcf09bf28e7477cb822f357911c454a0c195c1ab18e7198aaafec511"
+  },
+  "link_metadata_sha256": "c540f701cfe4a3856a3a9e6de601f4ac6b4e6e02fc62e470509f78a44ffd0a44",
+  "artifacts": {
+    "closure_state.obj": "4bb67d87610c90722965f742d24c9113cc5b019cf22d4b87e0275f39065df48a",
+    "closure-exports.def": "43c6dcc25320598bce24cf8711c42377d840e816f0319be2789a35988ae3e6d4",
+    "closure_chat.obj": "301f17c6995d6be4f9ea1ffdf4d89525351920b6371751db91bb6bcb30806072",
+    "cp32-expansion-ob2.json": "b9af9d1fc630633cf59492fc17306649723ed356e2f3e90b606a278b020473f5",
+    "game_scripting.obj": "b38c465b32840c2f6023db0601b16da3a6ab2d504229e7b7b475a20af27e7207",
+    "cp32-expansion-ob1.json": "9dbece5ff4e9dc6fe83ee6b452b763230c6d32b3a972ed34d9ef3ed5013fa2b4",
+    "closure_models.obj": "108be8edfe3e86786115550f983b9b5a18f9f685bc49d5a7eefe14515e25ef93",
+    "closure.map": "eca8b8a72007df3441dfaf4f33d878ce258df666dee912d3b47ed05c77a8c07b",
+    "net_actorpool.obj": "81879bc2fe2d155208ba4b8efa3fec56017c6fa8b389089c9dbfdefcf230ec5d",
+    "closure.exp": "2786a861476f6b297039675358935a6e2529601f25a11101164a1f944304845d",
+    "game_actorped.obj": "8a5b3efe243af0551b8ef2680a8a4dd1ae6efb5ecdee14f2667b7a8debdf184f",
+    "closure.dll": "c797e9e026da4e9dde4c68553ef4c506a51149904b28be6f24f1aab2c8a79e2d",
+    "closure_util.obj": "5cc2ed152bb53521912e81dc31e5cbc50df613888d214c25d07c02d364871488",
+    "closure.lib": "0915dc7aca5b0c266093ac28318ffbe8564718c8854997978659cca36cf31f3a",
+    "closure_world.obj": "dfb28775529a6ac0ab11cb1af60c9837a417d83080891f6b1d8b022ffd9e7d3e",
+    "closure_filter.obj": "395af3dcc0613ccbb341ca7b87c5d0561144f6ff1490557a157b3543f86ff074"
+  },
+  "verification_inputs": {
+    "config/checkpoint32/actor-expansion-contract.json": "afc4bd3aee1b9d713e505620e22ae88950419fa2ad54fbc7b57e9f8d0e478285",
+    "tools/verify_actor_closure.py": "02e83b704f3ba50dff6c37fbca592dc6a5b455b296c38b1f5e4debdfafd18aa6",
+    "tools/draft_actor_contract.py": "cf44fba073e9ee5625dd0c71a024d4dc9ef2b7eec81a41d4cbef6936d02cef28",
+    "tools/accept_actor_closure.py": "7e8e8cb3c879b547d43ecdfb96c59b7e277af03e4653f15ab634a959b8b376ab",
+    "tools/binary.py": "db863d14ec8e73bbee85ddef59ba1683e719c4f76c6232f23e8242536251a946",
+    "tools/verify.py": "f943072c7d90b19d3af48aba2b9deb75cfccb51350e0ec043eed840088ce75c7",
+    "tools/verify_checkpoint2.py": "1d9ff971188ba13a3e96e63b719e65d3c0202226b61b2e6338f9928a88ec7579",
+    "tools/verify_checkpoint31.py": "287b5582f25ab5ea7c59b3f34dd80013f589f3793a935a1d3d7b2dc0b9121ee4",
+    "tests/checkpoint32/actor_closure_emulate.py": "7ac1f1da1e0bc02b578c0e7cb133942ea6ee3b725e3642548bbe627ae9856729",
+    "tests/checkpoint32/test_actor_closure_gate.py": "750c7ed779fe6a9e98495d8dedddd0fbe5bc36f78f2150281653a29d07689a73"
+  },
+  "limitations": [
+    "One incremental build; no redundant second build at this intermediate batch",
+    "AddEntry and PushBack remain unmatched and excluded",
+    "ABI exercise follows normal construction/model polling and virtual deletion; actual exception unwinding is not exercised",
+    "Original game engine and CRT implementations are outside source coverage",
+    "Source coverage is the union of independently certified regions, not a replacement DLL"
+  ]
+}

@@ -1,5 +1,6 @@
 // Generated complete definitions from game/entity.cpp; see tools/prepare_actor_closure.py.
 #include <time.h>
+#include <math.h>
 #include "main.h"
 #include "game/util.h"
 
@@ -120,4 +121,352 @@ void CEntity::TeleportTo(float x, float y, float z)
 			ScriptCommand(&put_train_at,m_dwGTAId,x,y,z);
 		}
 	}
+}
+
+void CEntity::SetMatrix(MATRIX4X4 Matrix)
+{
+	if (!m_pEntity || !m_pEntity->mat) return;
+
+	m_pEntity->mat->right.X = Matrix.right.X;
+	m_pEntity->mat->right.Y = Matrix.right.Y;
+	m_pEntity->mat->right.Z = Matrix.right.Z;
+
+	m_pEntity->mat->up.X = Matrix.up.X;
+	m_pEntity->mat->up.Y = Matrix.up.Y;
+	m_pEntity->mat->up.Z = Matrix.up.Z;
+
+	m_pEntity->mat->at.X = Matrix.at.X;
+	m_pEntity->mat->at.Y = Matrix.at.Y;
+	m_pEntity->mat->at.Z = Matrix.at.Z;
+
+	m_pEntity->mat->pos.X = Matrix.pos.X;
+	m_pEntity->mat->pos.Y = Matrix.pos.Y;
+	m_pEntity->mat->pos.Z = Matrix.pos.Z;
+}
+
+void CEntity::GetMoveSpeedVector(PVECTOR Vector)
+{
+	Vector->X = m_pEntity->vecMoveSpeed.X;
+	Vector->Y = m_pEntity->vecMoveSpeed.Y;
+	Vector->Z = m_pEntity->vecMoveSpeed.Z;
+}
+
+void CEntity::GetTurnSpeedVector(PVECTOR Vector)
+{
+	Vector->X = m_pEntity->vecTurnSpeed.X;
+	Vector->Y = m_pEntity->vecTurnSpeed.Y;
+	Vector->Z = m_pEntity->vecTurnSpeed.Z;
+}
+
+BOOL CEntity::IsAdded()
+{
+	// Check for CPlaceable messup
+	if(m_pEntity) {
+		if (m_pEntity->vtable == 0x863C40) 
+			return FALSE;
+
+		if(m_pEntity->dwUnkModelRel)
+			return TRUE;
+	}
+	return FALSE;
+}
+
+void CEntity::ApplyTurnSpeed()
+{
+	DWORD dwEnt = (DWORD)m_pEntity;
+	if(!dwEnt) return;
+
+	_asm mov ecx, dwEnt
+	_asm mov eax, 0x542E20
+	_asm call eax
+}
+
+float CEntity::GetDistanceFromCentreOfMassToBaseOfModel()
+{
+	DWORD dwEnt = (DWORD)m_pEntity;
+	float fResult = 0.0f;
+
+	if(!dwEnt) return 0.0f;
+
+	_asm mov ecx, dwEnt
+	_asm mov edx, 0x536BE0
+	_asm call edx
+	_asm mov fResult, eax
+
+	return fResult;
+}
+
+void CEntity::GetBoundCentre(PVECTOR Vector)
+{
+	DWORD dwEnt = (DWORD)m_pEntity;
+	if(!dwEnt) return;
+
+	_asm push Vector
+	_asm mov ecx, dwEnt
+	_asm mov edx, 0x534250
+	_asm call edx
+}
+
+void CEntity::GetBoundRect(PFRECT Rect)
+{
+	DWORD dwEnt = (DWORD)m_pEntity;
+	if(!dwEnt) return;
+
+	_asm push Rect
+	_asm mov ecx, dwEnt
+	_asm mov edx, 0x534120
+	_asm call edx
+}
+
+float CEntity::GetDistanceFromCamera()
+{
+	if(!m_pEntity || m_pEntity->vtable == 0x863C40) return 100000.0f;
+
+	MATRIX4X4	matThis;
+	float		fSX,fSY,fSZ;
+
+	GetMatrix(&matThis);
+	fSX = (matThis.pos.X - *(float*)0xB6F9CC) * (matThis.pos.X - *(float*)0xB6F9CC);
+	fSY = (matThis.pos.Y - *(float*)0xB6F9D0) * (matThis.pos.Y - *(float*)0xB6F9D0);
+	fSZ = (matThis.pos.Z - *(float*)0xB6F9D4) * (matThis.pos.Z - *(float*)0xB6F9D4);
+
+	return (float)sqrt(fSX + fSY + fSZ);
+}
+
+float CEntity::GetDistanceFromPoint(float X, float Y, float Z)
+{
+	MATRIX4X4	matThis;
+	float		fSX,fSY,fSZ;
+
+	GetMatrix(&matThis);
+	fSX = (matThis.pos.X - X) * (matThis.pos.X - X);
+	fSY = (matThis.pos.Y - Y) * (matThis.pos.Y - Y);
+	fSZ = (matThis.pos.Z - Z) * (matThis.pos.Z - Z);
+
+	return (float)sqrt(fSX + fSY + fSZ);
+}
+
+BOOL CEntity::EnforceWorldBoundries(float fPX, float fZX, float fPY, float fNY)
+{
+	MATRIX4X4 matWorld;
+	VECTOR vecMoveSpeed;
+
+	if(!m_pEntity) return FALSE;
+
+	GetMatrix(&matWorld);
+	GetMoveSpeedVector(&vecMoveSpeed);
+
+	if(matWorld.pos.X > fPX)
+	{
+		if(vecMoveSpeed.X != 0.0f) {
+			vecMoveSpeed.X = -0.2f;
+			vecMoveSpeed.Z = 0.1f;
+		}
+		SetMoveSpeedVector(vecMoveSpeed);
+		matWorld.pos.Z += 0.04f;
+		SetMatrix(matWorld);
+		return TRUE;
+	}
+	else if(matWorld.pos.X < fZX)
+	{
+		if(vecMoveSpeed.X != 0.0f) {
+			vecMoveSpeed.X = 0.2f;
+			vecMoveSpeed.Z = 0.1f;
+		}
+		SetMoveSpeedVector(vecMoveSpeed);
+		matWorld.pos.Z += 0.04f;
+		SetMatrix(matWorld);
+		return TRUE;
+	}
+	else if(matWorld.pos.Y > fPY)
+	{
+		if(vecMoveSpeed.Y != 0.0f) {
+			vecMoveSpeed.Y = -0.2f;
+			vecMoveSpeed.Z = 0.1f;
+		}
+
+		SetMoveSpeedVector(vecMoveSpeed);
+		matWorld.pos.Z += 0.04f;
+		SetMatrix(matWorld);
+		return TRUE;
+	}
+	else if(matWorld.pos.Y < fNY)
+	{
+		if(vecMoveSpeed.Y != 0.0f) {
+			vecMoveSpeed.Y = 0.2f;
+			vecMoveSpeed.Z = 0.1f;
+		}
+
+		SetMoveSpeedVector(vecMoveSpeed);
+		matWorld.pos.Z += 0.04f;
+		SetMatrix(matWorld);
+		return TRUE;
+	}
+
+	return FALSE;
+}
+
+BOOL CEntity::HasExceededWorldBoundries(float fPX, float fZX, float fPY, float fNY)
+{
+	MATRIX4X4 matWorld;
+
+	if(!m_pEntity) return FALSE;
+
+	GetMatrix(&matWorld);
+
+	if(matWorld.pos.X > fPX) {
+		return TRUE;
+	}
+	else if(matWorld.pos.X < fZX) {
+		return TRUE;
+	}
+	else if(matWorld.pos.Y > fPY) {
+		return TRUE;
+	}
+	else if(matWorld.pos.Y < fNY) {
+		return TRUE;
+	}
+	return FALSE;
+}
+
+void CEntity::SetCollisionChecking(int iCheck)
+{
+	if(!m_pEntity) return;
+	if(m_pEntity->vtable == 0x863C40) return;
+	
+	if(iCheck) {
+		m_pEntity->dwProcessingFlags |= 1;
+	} else {
+		m_pEntity->dwProcessingFlags &= 0xFFFFFFFE;
+	}
+}
+
+BOOL CEntity::IsCollisionCheckingEnabled()
+{
+	if(m_pEntity && m_pEntity->vtable != 0x863C40)
+	{
+		return (BYTE)(m_pEntity->dwProcessingFlags & 1);
+	}
+	return TRUE;
+}
+
+void CEntity::SetGravityProcessing(int iState)
+{
+	if(!m_pEntity) return;
+	if(m_pEntity->vtable == 0x863C40) return;
+
+	if(iState) {
+		m_pEntity->dwProcessingFlags &= 0x7FFFFFFD;
+	} else {		
+		m_pEntity->dwProcessingFlags |= 0x80000002;
+	}
+}
+
+void CEntity::SetWaitingForCollision(int iState)
+{
+	if(!m_pEntity) return;
+	if(m_pEntity->vtable == 0x863C40) return;
+
+	if(iState) {
+		m_pEntity->dwProcessingFlags |= 0x40000;
+	} else {
+		m_pEntity->dwProcessingFlags &= 0xFFFBFFFF;
+		Add();
+	}
+}
+
+void CEntity::DisableStreaming()
+{
+	if(!m_pEntity) return;
+	if(m_pEntity->vtable == 0x863C40) return;
+
+	m_pEntity->dwProcessingFlags |= 0x80400;
+}
+
+void CEntity::EnableTunnelTransition()
+{
+	if(!m_pEntity) return;
+	if(m_pEntity->vtable == 0x863C40) return;
+
+	m_pEntity->dwProcessingFlags |= 0x80000000;
+}
+
+void CEntity::SetApplySpeed(int iState)
+{
+	if(!m_pEntity) return;
+	if(m_pEntity->vtable == 0x863C40) return;
+
+	DWORD dwEnt = (DWORD)m_pEntity;
+
+	if(!iState) {
+		_asm mov edx, dwEnt
+		_asm mov eax, [edx+0x40]
+		_asm or ah, 0x20
+		_asm mov [edx+0x40], eax
+	} else {
+		_asm mov edx, dwEnt
+		_asm mov eax, [edx+0x40]
+		_asm and ah, 0xDF
+		_asm mov [edx+0x40], eax
+	}
+}
+
+void CEntity::MakeNonCollidable()
+{
+	if(m_pEntity) {
+		m_pEntity->dwPhysFlags &= 0xFFFFFFF7;
+	}
+}
+
+void CEntity::SetClumpAlpha(int iAlpha)
+{
+	if(!m_pEntity || !m_pEntity->pdwRenderWare || m_pEntity->vtable == 0x863C40)
+		return;
+
+	DWORD dwEntity = (DWORD)m_pEntity;
+
+	_asm mov eax, dwEntity
+	_asm mov edx, [eax+24]
+	_asm push iAlpha
+	_asm push edx
+	_asm mov eax, 0x732B00
+	_asm call eax
+	_asm pop edx
+	_asm pop edx
+}
+
+DWORD CEntity::GetWorldBoundRadius()
+{
+	if(m_pEntity && m_pEntity->pdwRenderWare && m_pEntity->vtable != 0x863C40)
+	{
+		return m_pEntity->pdwRenderWare[14];
+	}
+	return 0;
+}
+
+void CEntity::SetEulerAngles(float fX, float fY, float fZ)
+{
+	fX *= (PI/180.0f);
+	fY *= (PI/180.0f);
+	fZ *= (PI/180.0f);
+
+	float fCX = cos(fX);
+	float fSX = sin(fX);
+	float fCY = cos(fY);
+	float fSY = sin(fY);
+	float fCZ = cos(fZ);
+	float fSZ = sin(fZ);
+
+	float fSS = fSZ * fSX;
+	float fCS = fCZ * fSX;
+
+	m_pEntity->mat->right.X = fCZ * fCY - fSS * fSY;
+	m_pEntity->mat->right.Y = fCS * fSY + fSZ * fCY;
+	m_pEntity->mat->right.Z = -(fSY * fCX);
+	m_pEntity->mat->up.X = -(fSZ * fCX);
+	m_pEntity->mat->up.Y = fCZ * fCX;
+	m_pEntity->mat->up.Z = fSX;
+	m_pEntity->mat->at.X = fSS * fCY + fCZ * fSY;
+	m_pEntity->mat->at.Y = fSZ * fSY - fCS * fCY;
+	m_pEntity->mat->at.Z = fCY * fCX;
 }

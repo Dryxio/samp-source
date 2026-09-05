@@ -24,9 +24,11 @@ def initial_bytes(pe,rva,size):
 
 
 class Gate:
-    def __init__(self,run='cp32-closure-linked2',fresh=True):
+    def __init__(self,run='cp32-closure-linked2',fresh=True,contract_path=None):
         self.directory=ROOT/'build'/run
-        self.contract=read_json(ROOT/'config/checkpoint32/closure-contract.json')
+        self.contract_path=ROOT/(contract_path or 'config/checkpoint32/closure-contract.json')
+        self.contract=read_json(self.contract_path)
+        need(self.contract['run']==run,'contract belongs to a different link')
         need(self.contract['status']=='REVIEWED','unreviewed contract')
         self.reference=PE(ROOT/'private/samp.dll',self.contract['reference_sha256'])
         self.linked=PE(self.directory/'closure.dll');self.maps=map_symbols(self.directory/'closure.map')
@@ -183,5 +185,5 @@ class Gate:
 
 if __name__=='__main__':
     import argparse
-    p=argparse.ArgumentParser();p.add_argument('--run',default='cp32-closure-linked2');a=p.parse_args()
-    result=Gate(a.run).verify();out=ROOT/'build'/a.run/'strict-verification.json';out.write_text(json.dumps(result,indent=2)+'\n');print(result['result'],len(result['regions']),'regions,',result['code_bytes'],'code bytes')
+    p=argparse.ArgumentParser();p.add_argument('--run',default='cp32-closure-linked2');p.add_argument('--contract');a=p.parse_args()
+    result=Gate(a.run,contract_path=a.contract).verify();out=ROOT/'build'/a.run/'strict-verification.json';out.write_text(json.dumps(result,indent=2)+'\n');print(result['result'],len(result['regions']),'regions,',result['code_bytes'],'code bytes')

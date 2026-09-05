@@ -5,23 +5,26 @@ des sources maintenables produisant les octets exacts du R5 gelé.
 
 ## Checkpoint 3.2 — en cours
 
-La couverture cumulée atteint **27 979 octets de code uniques (3,0061 % de
-`.text`)**. Le nouveau lot valide 84 régions de code/données, dont 50 corps de
-fonctions complets (3 432 octets de code, 2 603 nouveaux sans doublons).
-Le constructeur et les destructeurs d'ActorPed, leurs vtables/EH, les commandes de
-script et la suppression virtuelle via ActorPool sont maintenant vérifiés dans
-une capsule réellement liée. Les deux corps AddEntry et PushBack restent exclus.
+La couverture cumulée atteint **29 569 octets de code uniques (3,1769 % de
+`.text`)**. Le lot ActorPool/Entity valide 116 régions de code/données, dont
+77 corps de fonctions complets (5 517 octets de code, **1 590 nouveaux** par
+rapport au lot précédent, sans doublons).
+ActorPool::New, son EH et les fonctions Entity de géométrie et de collision
+rejoignent la capsule réellement liée. AddEntry et PushBack restent exclus.
 
-Le test ciblé exécute la création avec chargement du modèle et la suppression
-virtuelle sur R5 puis sur le code lié ; six contrôles négatifs protègent les
-comparaisons et les nouvelles données typées. Aucun second build redondant à ce
-jalon. Le checkpoint et le DLL complet ne sont pas terminés.
+Le test ciblé passe par le payload compact d'ActorPool::New : allocation,
+création, chargement du modèle, santé/immunité et suppression virtuelle sur R5
+puis sur le code lié. Six contrôles négatifs passent également. Aucun second
+build redondant. Le checkpoint et le DLL complet ne sont pas terminés.
 
 ```sh
-.venv/bin/python tools/accept_actor_closure.py
+.venv/bin/python tools/accept_actor_closure.py --run cp32-expansion-linked1 \
+  --contract config/checkpoint32/actor-expansion-contract.json \
+  --report actor-expansion-acceptance.json \
+  --previous evidence/checkpoint32/closure-acceptance.json
 ```
 
-Voir [les preuves actuelles](evidence/checkpoint32/closure-acceptance.json),
+Voir [les preuves actuelles](evidence/checkpoint32/actor-expansion-acceptance.json),
 [la couverture actuelle](evidence/checkpoint32/coverage-current.json) et
 [le travail en cours](evidence/checkpoint32/PROGRESS.md).
 Le [premier lot historique](evidence/checkpoint32/REPORT.md) couvrait 44 fonctions

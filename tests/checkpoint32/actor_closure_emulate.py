@@ -1,5 +1,5 @@
 """Exercise construction and virtual pool deletion through real R5/linked bodies.
-Only GTA operations, the Windows Sleep loader slot and CRT free are intercepted.
+Only GTA operations, the Windows Sleep loader slot and CRT allocation/free are intercepted.
 """
 import struct,sys
 from pathlib import Path
@@ -16,6 +16,8 @@ SAVED={UC_X86_REG_EBX:0x12345678,UC_X86_REG_ESI:0x23456789,UC_X86_REG_EDI:0x3456
 
 def exercise(gate):
     reports=[]
+    spawn="?New@CActorPool@@QAEHPAUACTOR_SPAWN_INFO@@@Z"
+    use_pool_new=any(r["anchor"]==spawn and r["accepted"] for r in gate.regions)
     for original in (True,False):
         pe=gate.reference if original else gate.linked
         def address(name):
@@ -37,7 +39,7 @@ def exercise(gate):
         put(address('?pGame@@3PAVCGame@@A'),GAME)
         put(address('__imp__Sleep@4'),SLEEP)
         ranges=[(pe.base+r['rva']+c['offset'] if original else r['linked_va']+c['offset'],c['size']) for r in gate.regions if r['accepted'] for c in r.get('code_ranges',[])]
-        trace=[];model_queries=0;freed=[];ped_deleted=[];sleep_calls=[];lookups=[]
+        trace=[];allocations=[];model_queries=0;freed=[];ped_deleted=[];sleep_calls=[];lookups=[]
         def hook(machine,at,size,user):
             nonlocal model_queries
             sp=machine.reg_read(UC_X86_REG_ESP)
@@ -56,6 +58,9 @@ def exercise(gate):
                     expected=b'\x01'+struct.pack('<i',5)+b'\x01'+struct.pack('<i',7)
                     expected+=b''.join(b'\x06'+struct.pack('<f',v) for v in (3.,4.,4.))+b'\x03\x00\x00'
                     need(encoded==expected,'create_actor varargs/float encoding differs');put(GST+0x3c,42)
+                elif op==0x2ab:
+                    expected=b''.join(b'\x01'+struct.pack('<i',v) for v in (42,1,1,1,1,1))
+                    need(bytes(uc.mem_read(buf+2,len(expected)))==expected,'immunity script arguments differ')
                 elif op not in (0x247,0x38b,0x173,0x446,0x60b):raise ValueError('unexpected GTA script opcode')
                 ret(0);return
             if at==SLEEP:
@@ -66,6 +71,9 @@ def exercise(gate):
             if at==PED_DELETE:
                 need(machine.reg_read(UC_X86_REG_ECX)==PED and word(sp+4)==1,'wrong native deletion ABI')
                 ped_deleted.append(PED);ret(4);return
+            if use_pool_new and at==address('??2@YAPAXI@Z'):
+                need(word(sp+4)==0x56,'wrong actor allocation size')
+                allocations.append(0x56);ret(0,ACTOR);return
             if at==address('??3@YAXPAX@Z'):
                 need(word(sp+4)==ACTOR,'wrong CRT free pointer')
                 need(word(ACTOR+0x40)==0 and word(ACTOR+0x48)==0,'actor not destroyed before free')
@@ -82,19 +90,27 @@ def exercise(gate):
             for reg,value in SAVED.items():need(uc.reg_read(reg)==value,'callee-saved register differs')
         call('??0CActorPool@@QAE@XZ',POOL,[])
         floats=[struct.unpack('<I',struct.pack('<f',v))[0] for v in (3.,4.,5.,90.)]
-        call('??0CActorPed@@QAE@HMMMM@Z',ACTOR,[7]+floats)
+        if use_pool_new:
+            payload=0x60015000
+            uc.mem_write(payload,struct.pack('<HifffffB',5,7,3.,4.,5.,90.,75.,1))
+            call(spawn,POOL,[payload])
+            need(uc.reg_read(UC_X86_REG_EAX)==1 and allocations==[0x56],'pool creation failed')
+            need(word(POOL)==5 and word(POOL+4+20)==ACTOR and word(POOL+0xfa4+20)==1 and word(POOL+0x1f44+20)==PED,'pool publication differs')
+            need(word(POOL+0x2ee4+20)==1 and word(POOL+0x3e84+20)==0,'spawn flags differ')
+            need(bytes(uc.mem_read(PED+0x540,4))==struct.pack('<f',75.) and bytes(uc.mem_read(ACTOR+0x55,1))==b'\x01','health/immunity fields differ')
+        else:call('??0CActorPed@@QAE@HMMMM@Z',ACTOR,[7]+floats)
         need(word(ACTOR+0x44)==42 and word(ACTOR+0x48)==PED and word(ACTOR+0x40)==PED,'constructor state differs')
         need(word(ACTOR)==address('??_7CActorPed@@6B@'),'actor vtable differs')
-        put(POOL+4+5*4,ACTOR);put(POOL+0xfa4+5*4,1);put(POOL+0x1f44+5*4,PED)
+        if not use_pool_new:put(POOL+4+5*4,ACTOR);put(POOL+0xfa4+5*4,1);put(POOL+0x1f44+5*4,PED)
         call('?Delete@CActorPool@@QAEHG@Z',POOL,[5])
         need(uc.reg_read(UC_X86_REG_EAX)==1,'pool deletion failed')
         need(all(word(POOL+off+5*4)==0 for off in (4,0xfa4,0x1f44)),'slot not cleared')
         need(word(POOL)==0,'pool count not recomputed')
         need(word(ACTOR)==address('??_7CEntity@@6B@'),'base destruction vtable not restored')
         need(freed==[ACTOR] and ped_deleted==[PED] and len(lookups)==2,'deletion chain bypassed or duplicated')
-        need(trace==[0x248,0x247,0x38b,0x248,0x248,0x9a,0x173,0x446,0x60b] and sleep_calls==[1],'model/script path differs')
-        reports.append(dict(image='R5' if original else 'linked',result='PASS',script_opcodes=trace,gta_lookups=len(lookups),native_deletions=len(ped_deleted),crt_frees=len(freed)))
-    return dict(result='PASS',runs=reports,scope='Ctor, script encoding, polling, virtual deletion, SEH chain and nonvolatile registers; GTA/Windows/CRT boundary operations intercepted')
+        need(trace==[0x248,0x247,0x38b,0x248,0x248,0x9a,0x173,0x446,0x60b]+([0x2ab] if use_pool_new else []) and sleep_calls==[1],'model/script path differs')
+        reports.append(dict(image='R5' if original else 'linked',result='PASS',pool_new=use_pool_new,allocations=allocations,script_opcodes=trace,gta_lookups=len(lookups),native_deletions=len(ped_deleted),crt_frees=len(freed)))
+    return dict(result='PASS',runs=reports,scope='Pool New when present, ctor, script encoding, polling, virtual deletion, SEH chain and nonvolatile registers; GTA/Windows/CRT boundary operations intercepted')
 
 if __name__=='__main__':
     import json

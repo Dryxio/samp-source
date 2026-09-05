@@ -1,5 +1,5 @@
 # Incremental client compiler. This produces candidates, never acceptance.
-param([string]$Run,[string]$Units,[ValidateSet("Ob1","Ob2")][string]$Inline="Ob1",[switch]$PoolStrings)
+param([string]$Run,[string]$Units,[ValidateSet("Ob1","Ob2")][string]$Inline="Ob1",[switch]$PoolStrings,[ValidateSet("Ot","Os")][string]$Favor="Ot",[ValidateSet("default","G5","G6","G7")][string]$Cpu="default")
 $ErrorActionPreference='Stop'
 if($Run -notmatch '^cp32-[a-z0-9-]+$') {throw 'Invalid run'}
 $Root=Split-Path $PSScriptRoot -Parent
@@ -10,8 +10,9 @@ New-Item -ItemType Directory -Force $Out,$Work | Out-Null
 $Vs='C:\Program Files (x86)\Microsoft Visual Studio .NET 2003'
 $env:PATH="$Vs\Common7\IDE;$Vs\Vc7\bin;"+$env:PATH
 $env:INCLUDE="$Vs\Vc7\include;$Vs\Vc7\PlatformSDK\include;$Work\vendor\upstream\saco\d3d9\include"
-$Opts=@('/nologo','/c','/Ox','/Og',"/$Inline",'/Oi','/Ot','/Oy','/MT','/Zp1','/EHsc','/Gy','/DNDEBUG','/DWIN32','/D_WINDOWS')
+$Opts=@('/nologo','/c','/Ox','/Og',"/$Inline",'/Oi',"/$Favor",'/Oy','/MT','/Zp1','/EHsc','/Gy','/DNDEBUG','/DWIN32','/D_WINDOWS')
 if($PoolStrings) {$Opts+= '/GF'}
+if($Cpu -ne 'default') {$Opts+= "/$Cpu"}
 $Inputs=@{}
 foreach($Folder in @('client','vendor')) {
  Copy-Item (Join-Path $Root $Folder) $Work -Recurse -Force

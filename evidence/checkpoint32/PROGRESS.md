@@ -117,3 +117,42 @@ Preuves : `closure-acceptance.json`, `coverage-current.json`. Reproduction :
 Prochaine action : reconstruire ActorPool::New (RVA 0x1900, 312 octets et EH),
 puis étendre aux autres sous-systèmes. Revenir à l'ordre des LEA d'AddEntry sans
 le compter entre-temps ; PushBack émis reste également nonmatching.
+
+
+## ActorPool::New et extension Entity — lot accepté
+
+Build `cp32-expansion-linked1`, contrat `actor-expansion-contract.json` :
+116 régions, 77 fonctions complètes, 5 517 octets de code. Gain unique :
+**1 590 octets**, cumul **29 569 / 930 756 = 3,1769 %**. Le lot inclut les
+régions du précédent contrat ; le calcul soustrait leur couverture et celle
+des checkpoints historiques. L'ancien contrat et sa preuve restent conservés.
+
+New (0x1900, 312 octets) utilise le payload compact de 27 octets, publie
+l'acteur et ses flags puis appelle SetHealth, ToggleImmunity et UpdateCount.
+Sa section EH complète (21 octets, cleanup + handler) et sa FuncInfo sont
+comparées avec les mêmes règles que les autres sections, sans masquage.
+Entity : matrices/vecteurs, distances caméra/point, limites du monde, angles
+Euler, collision/gravité/streaming et ponts GTA. Les exceptions d'assembly
+symbolique amont sont étiquetées dans le contrat ; aucune émission d'octets.
+Les constantes flottantes et toutes les cibles de fixups passent le contrôle
+intégral à la fois dans R5 et dans le DLL effectivement lié.
+
+Le test ABI lève l'incertitude du payload compact et de la publication du pool :
+le véritable New appelle le constructeur, encode les scripts et installe la
+santé/immunité ; Delete traverse la suppression virtuelle. Allocation/libération
+CRT et opérations GTA/Windows seulement sont interceptées. Les deux images
+passent, ainsi que les six contrôles négatifs existants. Pas de test général
+supplémentaire ni de double build. Le compilateur réutilise net/actorpool du
+probe `cp32-pool-new1` ; les autres unités suivent leurs empreintes d'entrées.
+
+Tentatives non adoptées conservées : `cp32-chat-os` (/Os aggrave AddEntry et
+PushBack), `cp32-entity-expand` (TU Entity complète de découverte). Le probe
+permet désormais les variantes /Os et CPU ; le vérificateur d'acceptation
+continue d'exiger le profil /Ot original et ne les accepte pas implicitement.
+
+Suite : reconstruire les régions Entity encore manquantes (mise à jour RenderWare
+0x9EC80, historique de vitesse 0x9ED40, fonctions 0x9EF50 et suivantes) puis les
+sous-systèmes voisins. Les distances au joueur local ont une forme de code
+candidate exacte mais leur chaîne de dépendances est plus large et reste hors
+couverture. AddEntry et PushBack diffèrent toujours. Le checkpoint 3.2 et la
+DLL entière restent incomplets.

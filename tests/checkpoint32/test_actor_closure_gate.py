@@ -1,8 +1,11 @@
 """Targeted negative controls for the new EH/data/alias verifier."""
-import sys,unittest
+import os,sys,unittest
 from pathlib import Path
 sys.path.insert(0,str(Path(__file__).resolve().parents[2]/'tools'))
-from verify_actor_closure import Gate
+from verify_actor_closure import Gate as ClosureGate
+
+def Gate(**kwargs):
+    return ClosureGate(run=os.environ.get("ACTOR_GATE_RUN","cp32-closure-linked2"),contract_path=os.environ.get("ACTOR_GATE_CONTRACT"),**kwargs)
 
 class ClosureGateTests(unittest.TestCase):
     def test_whole_script_section_including_table(self):
