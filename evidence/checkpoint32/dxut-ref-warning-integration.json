@@ -1,0 +1,11 @@
+{
+  "status": "ACCEPTED_AFTER_COMPLETE_LINK_REVIEW",
+  "run": "cp32-dxut-ref-warning-linked",
+  "ob1": "cp32-dxut-ref-warning-ob1",
+  "ob2": "cp32-ime-ob2",
+  "new_unique_code_bytes": 1173,
+  "accepted_direct_025_credit": 0,
+  "source_adaptations": "None. Original ANSI imports and stack dialog template preserved; advapi32.lib added to linker and pinned SDK hash metadata.",
+  "reference_comparison": "Both complete source bodies identical to0.2.5 and already in base.",
+  "verification": "1888 whole regions, all actual targets/PE relocations,10 negative controls and existing ABI pass. Warning856 + callback344 with317 code and27 attached table; table verified and excluded from code credit. Seven complete source strings verified.13 actual user32/advapi32 imports checked, vendor code excluded. Actual callback address933E0 verified. No new pending, old eight unchanged. Only new unit compiled once and linked once. No dialog/registry/graphics/game execution; no push/deployment."
+}
