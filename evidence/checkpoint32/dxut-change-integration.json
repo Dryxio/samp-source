@@ -1,0 +1,44 @@
+{
+  "status": "ACCEPTED_AFTER_COMPLETE_LINK_REVIEW",
+  "run": "cp32-dxut-change-wide-linked",
+  "ob1": "cp32-dxut-change-wide-ob1",
+  "ob2": "cp32-ime-ob2",
+  "new_unique_code_bytes": 4409,
+  "accepted_direct_025_credit": 0,
+  "reference_comparisons": [
+    {
+      "function": "DXUTChangeDevice",
+      "identical_to_025": true
+    }
+  ],
+  "sdk_source": {
+    "path": "MSVC2003/Vc7/PlatformSDK/Include/multimon.h",
+    "sha256": "ba86e00bcbdc631d9b3a44ed16b01678c1caf37dfda91f79cab34c7ae69b3f56",
+    "materialized_into": "client/saco/closure_dxut_multimon.cpp",
+    "reason": "Complete implementation must be in hashed compiler source snapshot, not just an external include reference."
+  },
+  "source_adaptations": "Three window comparisons use explicit saved Windowed handle before FullScreen comparison. SetWindowLongW selected explicitly per original IAT. SDK ANSI DISPLAY copy uses lstrcpyA per original189-byte function instead of newer bounded191-byte variant. No assembly or copied instructions.",
+  "trials": [
+    {
+      "run": "cp32-dxut-change-order-ob1",
+      "outcome": "Only state recompiled; complete2719-byte candidate after sequencing locals. Target identities not yet accepted."
+    },
+    {
+      "run": "cp32-dxut-change-monitor-ob1",
+      "outcome": "New complete multimon unit compiled through SDK include."
+    },
+    {
+      "run": "cp32-dxut-change-monitor-source-ob1",
+      "outcome": "Materialized SDK implementation in CPP snapshot and recompiled that unit. Link succeeded; full comparison rejected xGetMonitorInfo191 versus189."
+    },
+    {
+      "run": "cp32-dxut-change-monitor-copy-ob1",
+      "outcome": "Only monitor unit compiled; original lstrcpyA restored full189 bytes. Import review then rejected ChangeDevice SetWindowLongA target against original SetWindowLongW."
+    },
+    {
+      "run": "cp32-dxut-change-wide-ob1",
+      "outcome": "Only state recompiled with explicit SetWindowLongW. Successful link/full target review and acceptance."
+    }
+  ],
+  "verification": "1613 whole regions, complete relocations and actual targets,10 negative controls and existing ABI passed. ChangeDevice2719,17 state accessors,complete5 multimon functions and36-byte9-member global block,9 API strings. All15 new Windows imports reviewed. Eight prior pending remain excluded. No windows, monitors, device changes or game execution."
+}

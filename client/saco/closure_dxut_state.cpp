@@ -1254,3 +1254,463 @@ void DXUTGetDesktopResolution( UINT AdapterOrdinal, DWORD* pdwWidth, DWORD* pdwH
     *pdwWidth = devMode.dmPelsWidth;
     *pdwHeight = devMode.dmPelsHeight;
 }
+HRESULT DXUTChangeDevice( DXUTDeviceSettings* pNewDeviceSettings, IDirect3DDevice9* pd3dDeviceFromApp, bool bForceRecreate, bool bClipWindowToSingleAdapter )
+{
+    HRESULT hr;
+    DXUTDeviceSettings* pOldDeviceSettings = GetDXUTState().GetCurrentDeviceSettings();
+
+    if( DXUTGetD3DObject() == NULL )
+        return S_FALSE;
+
+    // Make a copy of the pNewDeviceSettings on the heap
+    DXUTDeviceSettings* pNewDeviceSettingsOnHeap = new DXUTDeviceSettings;
+    if( pNewDeviceSettingsOnHeap == NULL )
+        return E_OUTOFMEMORY;
+    memcpy( pNewDeviceSettingsOnHeap, pNewDeviceSettings, sizeof(DXUTDeviceSettings) );
+    pNewDeviceSettings = pNewDeviceSettingsOnHeap;
+
+    // If the ModifyDeviceSettings callback is non-NULL, then call it to let the app 
+    // change the settings or reject the device change by returning false.
+    LPDXUTCALLBACKMODIFYDEVICESETTINGS pCallbackModifyDeviceSettings = GetDXUTState().GetModifyDeviceSettingsFunc();
+    if( pCallbackModifyDeviceSettings )
+    {
+        D3DCAPS9 caps;
+        IDirect3D9* pD3D = DXUTGetD3DObject();
+        pD3D->GetDeviceCaps( pNewDeviceSettings->AdapterOrdinal, pNewDeviceSettings->DeviceType, &caps );
+
+        bool bContinue = pCallbackModifyDeviceSettings( pNewDeviceSettings, &caps, GetDXUTState().GetModifyDeviceSettingsFuncUserContext() );
+        if( !bContinue )
+        {
+            // The app rejected the device change by returning false, so just use the current device if there is one.
+            if( pOldDeviceSettings == NULL )
+                DXUTDisplayErrorMessage( DXUTERR_NOCOMPATIBLEDEVICES );
+            SAFE_DELETE( pNewDeviceSettings );
+            return E_ABORT;
+        }
+        if( GetDXUTState().GetD3D() == NULL )
+        {
+            SAFE_DELETE( pNewDeviceSettings );
+            return S_FALSE;
+        }
+    }
+
+    GetDXUTState().SetCurrentDeviceSettings( pNewDeviceSettings );
+
+    DXUTPause( true, true );
+
+    // When a WM_SIZE message is received, it calls DXUTCheckForWindowSizeChange().
+    // A WM_SIZE message might be sent when adjusting the window, so tell 
+    // DXUTCheckForWindowSizeChange() to ignore size changes temporarily
+    GetDXUTState().SetIgnoreSizeChange( true );
+
+    // Update thread safety on/off depending on Direct3D device's thread safety
+    g_bThreadSafe = ((pNewDeviceSettings->BehaviorFlags & D3DCREATE_MULTITHREADED) != 0 );
+
+    // Only apply the cmd line overrides if this is the first device created
+    // and DXUTSetDevice() isn't used
+    if( NULL == pd3dDeviceFromApp && NULL == pOldDeviceSettings )
+    {
+        // Updates the device settings struct based on the cmd line args.  
+        // Warning: if the device doesn't support these new settings then CreateDevice() will fail.
+        DXUTUpdateDeviceSettingsWithOverrides( pNewDeviceSettings );
+    }
+
+    // Take note if the backbuffer width & height are 0 now as they will change after pd3dDevice->Reset()
+    bool bKeepCurrentWindowSize = false;
+    if( pNewDeviceSettings->pp.BackBufferWidth == 0 && pNewDeviceSettings->pp.BackBufferHeight == 0 )
+        bKeepCurrentWindowSize = true;
+
+    //////////////////////////
+    // Before reset
+    /////////////////////////
+    if( pNewDeviceSettings->pp.Windowed )
+    {
+        // Going to windowed mode
+
+        if( pOldDeviceSettings && !pOldDeviceSettings->pp.Windowed )
+        {
+            // Going from fullscreen -> windowed
+            GetDXUTState().SetFullScreenBackBufferWidthAtModeChange( pOldDeviceSettings->pp.BackBufferWidth );
+            GetDXUTState().SetFullScreenBackBufferHeightAtModeChange( pOldDeviceSettings->pp.BackBufferHeight );
+
+            // Restore windowed mode style
+            SetWindowLongW( DXUTGetHWNDDeviceWindowed(), GWL_STYLE, GetDXUTState().GetWindowedStyleAtModeChange() );
+        }
+
+        // If different device windows are used for windowed mode and fullscreen mode,
+        // hide the fullscreen window so that it doesn't obscure the screen.
+        HWND hWindowedForCompare1 = DXUTGetHWNDDeviceWindowed();
+        if( DXUTGetHWNDDeviceFullScreen() != hWindowedForCompare1 )
+            ShowWindow( DXUTGetHWNDDeviceFullScreen(), SW_HIDE );
+
+        // If using the same window for windowed and fullscreen mode, reattach menu if one exists
+        HWND hWindowedForCompare2 = DXUTGetHWNDDeviceWindowed();
+        if( DXUTGetHWNDDeviceFullScreen() == hWindowedForCompare2 )
+        {
+            if( GetDXUTState().GetMenu() != NULL )
+                SetMenu( DXUTGetHWNDDeviceWindowed(), GetDXUTState().GetMenu() );
+        }
+    }
+    else 
+    {
+        // Going to fullscreen mode
+
+        if( pOldDeviceSettings == NULL || (pOldDeviceSettings && pOldDeviceSettings->pp.Windowed) )
+        {
+            // Transistioning to full screen mode from a standard window so 
+            // save current window position/size/style now in case the user toggles to windowed mode later 
+            WINDOWPLACEMENT* pwp = GetDXUTState().GetWindowedPlacement();
+            ZeroMemory( pwp, sizeof(WINDOWPLACEMENT) );
+            pwp->length = sizeof(WINDOWPLACEMENT);
+            GetWindowPlacement( DXUTGetHWNDDeviceWindowed(), pwp );
+            DWORD dwStyle = GetWindowLong( DXUTGetHWNDDeviceWindowed(), GWL_STYLE );
+            dwStyle &= ~WS_MAXIMIZE & ~WS_MINIMIZE; // remove minimize/maximize style
+            GetDXUTState().SetWindowedStyleAtModeChange( dwStyle );
+            if( pOldDeviceSettings )
+            {
+                GetDXUTState().SetWindowBackBufferWidthAtModeChange( pOldDeviceSettings->pp.BackBufferWidth );
+                GetDXUTState().SetWindowBackBufferHeightAtModeChange( pOldDeviceSettings->pp.BackBufferHeight );
+            }
+        }
+
+        // Hide the window to avoid animation of blank windows
+        ShowWindow( DXUTGetHWNDDeviceFullScreen(), SW_HIDE );
+
+        // Set FS window style
+        SetWindowLongW( DXUTGetHWNDDeviceFullScreen(), GWL_STYLE, WS_POPUP|WS_SYSMENU );
+
+        // If using the same window for windowed and fullscreen mode, save and remove menu 
+        HWND hWindowedForCompare3 = DXUTGetHWNDDeviceWindowed();
+        if( DXUTGetHWNDDeviceFullScreen() == hWindowedForCompare3 )
+        {
+            HMENU hMenu = GetMenu( DXUTGetHWNDDeviceFullScreen() );
+            GetDXUTState().SetMenu( hMenu );
+            SetMenu( DXUTGetHWNDDeviceFullScreen(), NULL );
+        }
+
+        // Restore the window to normal.  Note that if the window was maximized then minimized, the
+        // WPF_RESTORETOMAXIMIZED flag will be set which will cause SW_RESTORE to restore the 
+        // window from minimized to maxmized which isn't what we want right now.
+        WINDOWPLACEMENT wpFullscreen;
+        ZeroMemory( &wpFullscreen, sizeof(WINDOWPLACEMENT) );
+        wpFullscreen.length = sizeof(WINDOWPLACEMENT);
+        GetWindowPlacement( DXUTGetHWNDDeviceFullScreen(), &wpFullscreen );
+        wpFullscreen.flags &= ~WPF_RESTORETOMAXIMIZED;
+        wpFullscreen.showCmd = SW_RESTORE;
+        SetWindowPlacement( DXUTGetHWNDDeviceFullScreen(), &wpFullscreen );
+    }
+
+    // If AdapterOrdinal and DeviceType are the same, we can just do a Reset().
+    // If they've changed, we need to do a complete device tear down/rebuild.
+    // Also only allow a reset if pd3dDevice is the same as the current device 
+    if( !bForceRecreate && 
+        (pd3dDeviceFromApp == NULL || pd3dDeviceFromApp == DXUTGetD3DDevice()) && 
+        pOldDeviceSettings &&
+        pOldDeviceSettings->AdapterOrdinal == pNewDeviceSettings->AdapterOrdinal &&
+        pOldDeviceSettings->DeviceType == pNewDeviceSettings->DeviceType &&
+        pOldDeviceSettings->BehaviorFlags == pNewDeviceSettings->BehaviorFlags )
+    {
+        // Reset the Direct3D device and call the app's device callbacks
+        hr = DXUTReset3DEnvironment();
+        if( FAILED(hr) )
+        {
+            if( D3DERR_DEVICELOST == hr )
+            {
+                // The device is lost, just mark it as so and continue on with 
+                // capturing the state and resizing the window/etc.
+                GetDXUTState().SetDeviceLost( true );
+            }
+            else if( DXUTERR_RESETTINGDEVICEOBJECTS == hr || 
+                     DXUTERR_MEDIANOTFOUND == hr )
+            {
+                // Something bad happened in the app callbacks
+                SAFE_DELETE( pOldDeviceSettings );
+                DXUTDisplayErrorMessage( hr );
+                DXUTShutdown();
+                return hr;
+            }
+            else // DXUTERR_RESETTINGDEVICE
+            {
+                // Reset failed and the device wasn't lost and it wasn't the apps fault, 
+                // so recreate the device to try to recover
+                GetDXUTState().SetCurrentDeviceSettings( pOldDeviceSettings );
+                if( FAILED( DXUTChangeDevice( pNewDeviceSettings, pd3dDeviceFromApp, true, bClipWindowToSingleAdapter ) ) )
+                {
+                    // If that fails, then shutdown
+                    SAFE_DELETE( pOldDeviceSettings );
+                    DXUTShutdown();
+                    return DXUTERR_CREATINGDEVICE;
+                }
+                else
+                {
+                    SAFE_DELETE( pOldDeviceSettings );
+                    return S_OK;
+                }
+            }
+        }
+    }
+    else
+    {
+        // Cleanup if not first device created
+        if( pOldDeviceSettings )
+            DXUTCleanup3DEnvironment( false );
+
+        // Create the D3D device and call the app's device callbacks
+        hr = DXUTCreate3DEnvironment( pd3dDeviceFromApp );
+        if( FAILED(hr) )
+        {
+            SAFE_DELETE( pOldDeviceSettings );
+            DXUTCleanup3DEnvironment();
+            DXUTDisplayErrorMessage( hr );
+            DXUTPause( false, false );
+            GetDXUTState().SetIgnoreSizeChange( false );
+            return hr;
+        }
+    }
+
+    // Enable/disable StickKeys shortcut, ToggleKeys shortcut, FilterKeys shortcut, and Windows key 
+    // to prevent accidental task switching
+    DXUTAllowShortcutKeys( ( pNewDeviceSettings->pp.Windowed  ) ? GetDXUTState().GetAllowShortcutKeysWhenWindowed() : GetDXUTState().GetAllowShortcutKeysWhenFullscreen() );
+
+    IDirect3D9* pD3D = DXUTGetD3DObject();
+    HMONITOR hAdapterMonitor = pD3D->GetAdapterMonitor( pNewDeviceSettings->AdapterOrdinal );
+    GetDXUTState().SetAdapterMonitor( hAdapterMonitor );
+
+    // Update the device stats text
+    DXUTUpdateStaticFrameStats();
+
+    // Update GetDXUTState()'s copy of D3D caps 
+    D3DCAPS9* pd3dCaps = GetDXUTState().GetCaps();
+    DXUTGetD3DDevice()->GetDeviceCaps( pd3dCaps );
+
+    if( pOldDeviceSettings && !pOldDeviceSettings->pp.Windowed && pNewDeviceSettings->pp.Windowed )
+    {
+        // Going from fullscreen -> windowed
+
+        // Restore the show state, and positions/size of the window to what it was
+        // It is important to adjust the window size 
+        // after resetting the device rather than beforehand to ensure 
+        // that the monitor resolution is correct and does not limit the size of the new window.
+        WINDOWPLACEMENT* pwp = GetDXUTState().GetWindowedPlacement();
+        SetWindowPlacement( DXUTGetHWNDDeviceWindowed(), pwp );
+    }
+
+    // Check to see if the window needs to be resized.  
+    // Handle cases where the window is minimized and maxmimized as well.
+    bool bNeedToResize = false;
+    if( pNewDeviceSettings->pp.Windowed && // only resize if in windowed mode
+        !bKeepCurrentWindowSize )          // only resize if pp.BackbufferWidth/Height were not 0
+    {
+        UINT nClientWidth;
+        UINT nClientHeight;    
+        if( IsIconic(DXUTGetHWNDDeviceWindowed()) )
+        {
+            // Window is currently minimized. To tell if it needs to resize, 
+            // get the client rect of window when its restored the 
+            // hard way using GetWindowPlacement()
+            WINDOWPLACEMENT wp;
+            ZeroMemory( &wp, sizeof(WINDOWPLACEMENT) );
+            wp.length = sizeof(WINDOWPLACEMENT);
+            GetWindowPlacement( DXUTGetHWNDDeviceWindowed(), &wp );
+
+            if( (wp.flags & WPF_RESTORETOMAXIMIZED) != 0 && wp.showCmd == SW_SHOWMINIMIZED )
+            {
+                // WPF_RESTORETOMAXIMIZED means that when the window is restored it will
+                // be maximized.  So maximize the window temporarily to get the client rect 
+                // when the window is maximized.  GetSystemMetrics( SM_CXMAXIMIZED ) will give this 
+                // information if the window is on the primary but this will work on multimon.
+                ShowWindow( DXUTGetHWNDDeviceWindowed(), SW_RESTORE );
+                RECT rcClient;
+                GetClientRect( DXUTGetHWNDDeviceWindowed(), &rcClient );
+                nClientWidth  = (UINT)(rcClient.right - rcClient.left);
+                nClientHeight = (UINT)(rcClient.bottom - rcClient.top);
+                ShowWindow( DXUTGetHWNDDeviceWindowed(), SW_MINIMIZE );
+            }
+            else
+            {
+                // Use wp.rcNormalPosition to get the client rect, but wp.rcNormalPosition 
+                // includes the window frame so subtract it
+                RECT rcFrame = {0};
+                AdjustWindowRect( &rcFrame, GetDXUTState().GetWindowedStyleAtModeChange(), GetDXUTState().GetMenu() != NULL );
+                LONG nFrameWidth = rcFrame.right - rcFrame.left;
+                LONG nFrameHeight = rcFrame.bottom - rcFrame.top;
+                nClientWidth  = (UINT)(wp.rcNormalPosition.right - wp.rcNormalPosition.left - nFrameWidth);
+                nClientHeight = (UINT)(wp.rcNormalPosition.bottom - wp.rcNormalPosition.top - nFrameHeight);
+            }
+        }
+        else
+        {
+            // Window is restored or maximized so just get its client rect
+            RECT rcClient;
+            GetClientRect( DXUTGetHWNDDeviceWindowed(), &rcClient );
+            nClientWidth  = (UINT)(rcClient.right - rcClient.left);
+            nClientHeight = (UINT)(rcClient.bottom - rcClient.top);
+        }
+
+        // Now that we know the client rect, compare it against the back buffer size
+        // to see if the client rect is already the right size
+        if( nClientWidth  != pNewDeviceSettings->pp.BackBufferWidth ||
+            nClientHeight != pNewDeviceSettings->pp.BackBufferHeight )
+        {
+            bNeedToResize = true;
+        }       
+
+        if( bClipWindowToSingleAdapter && !IsIconic(DXUTGetHWNDDeviceWindowed()) )
+        {
+            // Get the rect of the monitor attached to the adapter
+            MONITORINFO miAdapter;
+            miAdapter.cbSize = sizeof(MONITORINFO);
+            HMONITOR hAdapterMonitor = DXUTGetD3DObject()->GetAdapterMonitor( pNewDeviceSettings->AdapterOrdinal );
+            GetMonitorInfo( hAdapterMonitor, &miAdapter );
+            HMONITOR hWindowMonitor = MonitorFromWindow( DXUTGetHWND(), MONITOR_DEFAULTTOPRIMARY );
+
+            // Get the rect of the window
+            RECT rcWindow;
+            GetWindowRect( DXUTGetHWNDDeviceWindowed(), &rcWindow );
+
+            // Check if the window rect is fully inside the adapter's vitural screen rect
+            if( (rcWindow.left   < miAdapter.rcWork.left  ||
+                 rcWindow.right  > miAdapter.rcWork.right ||
+                 rcWindow.top    < miAdapter.rcWork.top   ||
+                 rcWindow.bottom > miAdapter.rcWork.bottom) )
+            {
+                if( hWindowMonitor == hAdapterMonitor && IsZoomed(DXUTGetHWNDDeviceWindowed()) )
+                {
+                    // If the window is maximized and on the same monitor as the adapter, then 
+                    // no need to clip to single adapter as the window is already clipped 
+                    // even though the rcWindow rect is outside of the miAdapter.rcWork
+                }
+                else
+                {
+                    bNeedToResize = true;
+                }
+            }
+        }
+    }
+
+    // Only resize window if needed 
+    if( bNeedToResize ) 
+    {
+        // Need to resize, so if window is maximized or minimized then restore the window
+        if( IsIconic(DXUTGetHWNDDeviceWindowed()) ) 
+            ShowWindow( DXUTGetHWNDDeviceWindowed(), SW_RESTORE );
+        if( IsZoomed(DXUTGetHWNDDeviceWindowed()) ) // doing the IsIconic() check first also handles the WPF_RESTORETOMAXIMIZED case
+            ShowWindow( DXUTGetHWNDDeviceWindowed(), SW_RESTORE );
+
+        if( bClipWindowToSingleAdapter )
+        {
+            // Get the rect of the monitor attached to the adapter
+            MONITORINFO miAdapter;
+            miAdapter.cbSize = sizeof(MONITORINFO);
+            GetMonitorInfo( DXUTGetD3DObject()->GetAdapterMonitor( pNewDeviceSettings->AdapterOrdinal ), &miAdapter );
+
+            // Get the rect of the monitor attached to the window
+            MONITORINFO miWindow;
+            miWindow.cbSize = sizeof(MONITORINFO);
+            GetMonitorInfo( MonitorFromWindow( DXUTGetHWND(), MONITOR_DEFAULTTOPRIMARY ), &miWindow );
+
+            // Do something reasonable if the BackBuffer size is greater than the monitor size
+            int nAdapterMonitorWidth = miAdapter.rcWork.right - miAdapter.rcWork.left;
+            int nAdapterMonitorHeight = miAdapter.rcWork.bottom - miAdapter.rcWork.top;
+
+            int nClientWidth = pNewDeviceSettings->pp.BackBufferWidth;
+            int nClientHeight = pNewDeviceSettings->pp.BackBufferHeight;
+
+            // Get the rect of the window
+            RECT rcWindow;
+            GetWindowRect( DXUTGetHWNDDeviceWindowed(), &rcWindow );
+
+            // Make a window rect with a client rect that is the same size as the backbuffer
+            RECT rcResizedWindow;
+            rcResizedWindow.left = 0;
+            rcResizedWindow.right = nClientWidth;
+            rcResizedWindow.top = 0;
+            rcResizedWindow.bottom = nClientHeight;
+            AdjustWindowRect( &rcResizedWindow, GetWindowLong( DXUTGetHWNDDeviceWindowed(), GWL_STYLE ), GetDXUTState().GetMenu() != NULL );
+
+            int nWindowWidth = rcResizedWindow.right - rcResizedWindow.left;
+            int nWindowHeight = rcResizedWindow.bottom - rcResizedWindow.top;
+
+            if( nWindowWidth > nAdapterMonitorWidth )
+                nWindowWidth = (nAdapterMonitorWidth - 0);
+            if( nWindowHeight > nAdapterMonitorHeight )
+                nWindowHeight = (nAdapterMonitorHeight - 0);
+
+            if( rcResizedWindow.left < miAdapter.rcWork.left ||
+                rcResizedWindow.top < miAdapter.rcWork.top ||
+                rcResizedWindow.right > miAdapter.rcWork.right ||
+                rcResizedWindow.bottom > miAdapter.rcWork.bottom )
+            {
+                int nWindowOffsetX = (nAdapterMonitorWidth - nWindowWidth) / 2;
+                int nWindowOffsetY = (nAdapterMonitorHeight - nWindowHeight) / 2;
+
+                rcResizedWindow.left = miAdapter.rcWork.left + nWindowOffsetX;
+                rcResizedWindow.top = miAdapter.rcWork.top + nWindowOffsetY;
+                rcResizedWindow.right = miAdapter.rcWork.left + nWindowOffsetX + nWindowWidth;
+                rcResizedWindow.bottom = miAdapter.rcWork.top + nWindowOffsetY + nWindowHeight;
+            }
+
+            // Resize the window.  It is important to adjust the window size 
+            // after resetting the device rather than beforehand to ensure 
+            // that the monitor resolution is correct and does not limit the size of the new window.
+            SetWindowPos( DXUTGetHWNDDeviceWindowed(), 0, rcResizedWindow.left, rcResizedWindow.top, nWindowWidth, nWindowHeight, SWP_NOZORDER );
+        }        
+        else
+        {      
+            // Make a window rect with a client rect that is the same size as the backbuffer
+            RECT rcWindow = {0};
+            rcWindow.right = (long)(pNewDeviceSettings->pp.BackBufferWidth);
+            rcWindow.bottom = (long)(pNewDeviceSettings->pp.BackBufferHeight);
+            AdjustWindowRect( &rcWindow, GetWindowLong( DXUTGetHWNDDeviceWindowed(), GWL_STYLE ), GetDXUTState().GetMenu() != NULL );
+
+            // Resize the window.  It is important to adjust the window size 
+            // after resetting the device rather than beforehand to ensure 
+            // that the monitor resolution is correct and does not limit the size of the new window.
+            int cx = (int)(rcWindow.right - rcWindow.left);
+            int cy = (int)(rcWindow.bottom - rcWindow.top);
+            SetWindowPos( DXUTGetHWNDDeviceWindowed(), 0, 0, 0, cx, cy, SWP_NOZORDER|SWP_NOMOVE );
+        }
+
+        // Its possible that the new window size is not what we asked for.  
+        // No window can be sized larger than the desktop, so see see if the Windows OS resized the 
+        // window to something smaller to fit on the desktop.  Also if WM_GETMINMAXINFO
+        // will put a limit on the smallest/largest window size.
+        RECT rcClient;
+        GetClientRect( DXUTGetHWNDDeviceWindowed(), &rcClient );
+        UINT nClientWidth  = (UINT)(rcClient.right - rcClient.left);
+        UINT nClientHeight = (UINT)(rcClient.bottom - rcClient.top);
+        if( nClientWidth  != pNewDeviceSettings->pp.BackBufferWidth ||
+            nClientHeight != pNewDeviceSettings->pp.BackBufferHeight )
+        {
+            // If its different, then resize the backbuffer again.  This time create a backbuffer that matches the 
+            // client rect of the current window w/o resizing the window.
+            DXUTDeviceSettings deviceSettings = DXUTGetDeviceSettings();
+            deviceSettings.pp.BackBufferWidth  = 0; 
+            deviceSettings.pp.BackBufferHeight = 0;
+            hr = DXUTChangeDevice( &deviceSettings, NULL, false, bClipWindowToSingleAdapter );
+            if( FAILED( hr ) )
+            {
+                SAFE_DELETE( pOldDeviceSettings );
+                DXUTCleanup3DEnvironment();
+                DXUTPause( false, false );
+                GetDXUTState().SetIgnoreSizeChange( false );
+                return hr;
+            }
+        }
+    }
+
+    // Make the window visible
+    if( !IsWindowVisible( DXUTGetHWND() ) )
+        ShowWindow( DXUTGetHWND(), SW_SHOW );
+
+    // Show/hide the HW cursor after the window is its proper place if the application requested it
+    if( GetDXUTState().GetShowCursorWhenFullScreen() )
+        DXUTInitHWCursor();
+
+    SAFE_DELETE( pOldDeviceSettings );
+    GetDXUTState().SetIgnoreSizeChange( false );
+    DXUTPause( false, false );
+    GetDXUTState().SetDeviceCreated( true );
+
+    return S_OK;
+}
