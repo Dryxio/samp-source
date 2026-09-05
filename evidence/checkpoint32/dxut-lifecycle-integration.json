@@ -1,0 +1,78 @@
+{
+  "status": "ACCEPTED_AFTER_COMPLETE_LINK_REVIEW",
+  "run": "cp32-dxut-lifecycle-formats-linked",
+  "ob1": "cp32-dxut-lifecycle-formats-ob1",
+  "ob2": "cp32-ime-ob2",
+  "new_unique_code_bytes": 3737,
+  "accepted_direct_025_credit": 0,
+  "reference_comparisons": [
+    {
+      "function": "DXUTChangeDevice",
+      "identical_to_025": true
+    },
+    {
+      "function": "DXUTUpdateBackBufferDesc",
+      "identical_to_025": true
+    },
+    {
+      "function": "DXUTUpdateDeviceStats",
+      "identical_to_025": true
+    },
+    {
+      "function": "DXUTUpdateStaticFrameStats",
+      "identical_to_025": true
+    },
+    {
+      "function": "DXUTCreate3DEnvironment",
+      "identical_to_025": true
+    },
+    {
+      "function": "DXUTReset3DEnvironment",
+      "identical_to_025": true
+    },
+    {
+      "function": "DXUTPause",
+      "identical_to_025": true
+    },
+    {
+      "function": "DXUTGetDeviceSettings",
+      "identical_to_025": true
+    },
+    {
+      "function": "DXUTD3DFormatToString",
+      "identical_to_025": true
+    },
+    {
+      "function": "CDXUTResourceCache::OnCreateDevice",
+      "identical_to_025": true
+    }
+  ],
+  "source_adaptations": "Complete original source bodies unchanged. Extended existing state unit and original internal forward declarations/default arguments. State extractor now anchors actual top-level definitions; cache OnCreateDevice and full format-to-string switch extracted from original source.",
+  "trials": [
+    {
+      "run": "cp32-dxut-lifecycle-ob1",
+      "outcome": "State generation stopped on ambiguous Reset call-site extraction. Probe compiled cache only with old state; never accepted."
+    },
+    {
+      "run": "cp32-dxut-lifecycle-extract-ob1",
+      "outcome": "Anchored actual top-level definitions, state recompiled, all7 selected full functions have unique candidates. Link failed on missing actual DXUTD3DFormatToString."
+    },
+    {
+      "run": "cp32-dxut-lifecycle-formats-ob1",
+      "outcome": "Only format unit recompiled with complete source helper. Link succeeded; full review/gate accepted."
+    }
+  ],
+  "verification": "1566 whole regions, all targets/PE relocations,10 negative controls and existing ABI passed. Format switch1036 includes738 code bytes plus fully verified alignment/table. All75 source literals checked. Cache OnCreateDevice5 is real original return-S_OK source. No new external or runtime creation/reset/callback execution. Eight old pending excluded.",
+  "next_change_device": {
+    "status": "DIAGNOSTIC_ONLY_NOT_ACCEPTED",
+    "rva": 523504,
+    "size": 2719,
+    "source_size": 2719,
+    "non_relocation_difference_offsets": [
+      458,
+      488,
+      710
+    ],
+    "observation": "Three comparison operand-register encodings differ in full framework scan; complete targets still require review. Original/source disassembly retained in ignored build/dxut-change-original/source.txt. No ChangeDevice coverage claimed."
+  }
+}

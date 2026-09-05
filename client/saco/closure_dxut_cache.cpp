@@ -14,6 +14,10 @@ CDXUTResourceCache::~CDXUTResourceCache()
     m_EffectCache.RemoveAll();
     m_FontCache.RemoveAll();
 }
+HRESULT CDXUTResourceCache::OnCreateDevice( IDirect3DDevice9 *pd3dDevice )
+{
+    return S_OK;
+}
 HRESULT CDXUTResourceCache::OnResetDevice( IDirect3DDevice9 *pd3dDevice )
 {
     // Call OnResetDevice on all effect and font objects

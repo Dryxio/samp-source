@@ -2,9 +2,12 @@
 #include "d3d9/common/dxstdafx.h"
 #include <strsafe.h>
 #undef GetSystemMetrics
-void DXUTCleanup3DEnvironment(bool);
+void DXUTCleanup3DEnvironment(bool = true);
 void DXUTDisplayErrorMessage(HRESULT);
 void DXUTAllowShortcutKeys(bool);
+CD3DEnumeration* DXUTPrepareEnumerationObject(bool = false);
+void DXUTUpdateBackBufferDesc();
+void DXUTUpdateDeviceStats(D3DDEVTYPE,DWORD,D3DADAPTER_IDENTIFIER9*);
 typedef DECLSPEC_IMPORT UINT (WINAPI* LPTIMEBEGINPERIOD)(UINT);
 CRITICAL_SECTION g_cs;  
 bool g_bThreadSafe = true;
@@ -850,4 +853,331 @@ CD3DEnumeration* DXUTPrepareEnumerationObject( bool bEnumerate )
     }
     
     return pd3dEnum;
+}
+void DXUTUpdateBackBufferDesc()
+{
+    HRESULT hr;
+    IDirect3DSurface9* pBackBuffer;
+    hr = GetDXUTState().GetD3DDevice()->GetBackBuffer( 0, 0, D3DBACKBUFFER_TYPE_MONO, &pBackBuffer );
+    D3DSURFACE_DESC* pBBufferSurfaceDesc = GetDXUTState().GetBackBufferSurfaceDesc();
+    ZeroMemory( pBBufferSurfaceDesc, sizeof(D3DSURFACE_DESC) );
+    if( SUCCEEDED(hr) )
+    {
+        pBackBuffer->GetDesc( pBBufferSurfaceDesc );
+        SAFE_RELEASE( pBackBuffer );
+    }
+}
+void DXUTUpdateDeviceStats( D3DDEVTYPE DeviceType, DWORD BehaviorFlags, D3DADAPTER_IDENTIFIER9* pAdapterIdentifier )
+{
+    // Store device description
+    TCHAR* pstrDeviceStats = GetDXUTState().GetDeviceStats();
+    if( DeviceType == D3DDEVTYPE_REF )
+        StringCchCopy( pstrDeviceStats, 256, "REF" );
+    else if( DeviceType == D3DDEVTYPE_HAL )
+        StringCchCopy( pstrDeviceStats, 256, "HA" );
+    else if( DeviceType == D3DDEVTYPE_SW )
+        StringCchCopy( pstrDeviceStats, 256, "SW" );
+
+    if( BehaviorFlags & D3DCREATE_HARDWARE_VERTEXPROCESSING &&
+        BehaviorFlags & D3DCREATE_PUREDEVICE )
+    {
+        if( DeviceType == D3DDEVTYPE_HAL )
+            StringCchCat( pstrDeviceStats, 256, " (pure hw vp)" );
+        else
+            StringCchCat( pstrDeviceStats, 256, " (simulated pure hw vp)" );
+    }
+    else if( BehaviorFlags & D3DCREATE_HARDWARE_VERTEXPROCESSING )
+    {
+        if( DeviceType == D3DDEVTYPE_HAL )
+            StringCchCat( pstrDeviceStats, 256, " (hw vp)" );
+        else
+            StringCchCat( pstrDeviceStats, 256, " (simulated hw vp)" );
+    }
+    else if( BehaviorFlags & D3DCREATE_MIXED_VERTEXPROCESSING )
+    {
+        if( DeviceType == D3DDEVTYPE_HAL )
+            StringCchCat( pstrDeviceStats, 256, " (mixed vp)" );
+        else
+            StringCchCat( pstrDeviceStats, 256, " (simulated mixed vp)" );
+    }
+    else if( BehaviorFlags & D3DCREATE_SOFTWARE_VERTEXPROCESSING )
+    {
+        StringCchCat( pstrDeviceStats, 256, " (sw vp)" );
+    }
+
+    if( DeviceType == D3DDEVTYPE_HAL )
+    {
+        // Be sure not to overflow m_strDeviceStats when appending the adapter 
+        // description, since it can be long.  
+        StringCchCat( pstrDeviceStats, 256, ": " );
+
+        // Try to get a unique description from the CD3DEnumDeviceSettingsCombo
+        DXUTDeviceSettings* pDeviceSettings = GetDXUTState().GetCurrentDeviceSettings();
+        CD3DEnumeration* pd3dEnum = DXUTPrepareEnumerationObject();
+        CD3DEnumDeviceSettingsCombo* pDeviceSettingsCombo = pd3dEnum->GetDeviceSettingsCombo( pDeviceSettings->AdapterOrdinal, pDeviceSettings->DeviceType, pDeviceSettings->AdapterFormat, pDeviceSettings->pp.BackBufferFormat, pDeviceSettings->pp.Windowed );
+        if( pDeviceSettingsCombo )
+        {
+            StringCchCat( pstrDeviceStats, 256, pDeviceSettingsCombo->pAdapterInfo->szUniqueDescription );
+        }
+        else
+        {
+            const int cchDesc = sizeof(pAdapterIdentifier->Description);
+            TCHAR szDescription[cchDesc];
+            strcpy(szDescription, pAdapterIdentifier->Description);
+            szDescription[cchDesc-1] = 0;
+            StringCchCat( pstrDeviceStats, 256, szDescription );
+        }
+    }
+}
+void DXUTUpdateStaticFrameStats()
+{
+    DXUTDeviceSettings* pDeviceSettings = GetDXUTState().GetCurrentDeviceSettings();
+    if( NULL == pDeviceSettings )
+        return;
+    CD3DEnumeration* pd3dEnum = DXUTPrepareEnumerationObject();
+    if( NULL == pd3dEnum )
+        return;
+
+    CD3DEnumDeviceSettingsCombo* pDeviceSettingsCombo = pd3dEnum->GetDeviceSettingsCombo( pDeviceSettings->AdapterOrdinal, pDeviceSettings->DeviceType, pDeviceSettings->AdapterFormat, pDeviceSettings->pp.BackBufferFormat, pDeviceSettings->pp.Windowed );
+    if( NULL == pDeviceSettingsCombo )
+        return;
+
+    TCHAR strFmt[100];
+    D3DPRESENT_PARAMETERS* pPP = &pDeviceSettings->pp;
+
+    if( pDeviceSettingsCombo->AdapterFormat == pDeviceSettingsCombo->BackBufferFormat )
+    {
+        StringCchCopy( strFmt, 100, DXUTD3DFormatToString( pDeviceSettingsCombo->AdapterFormat, false ) );
+    }
+    else
+    {
+        StringCchPrintf( strFmt, 100, "backbuf %s, adapter %s", 
+            DXUTD3DFormatToString( pDeviceSettingsCombo->BackBufferFormat, false ), 
+            DXUTD3DFormatToString( pDeviceSettingsCombo->AdapterFormat, false ) );
+    }
+
+    TCHAR strDepthFmt[100];
+    if( pPP->EnableAutoDepthStencil )
+    {
+        StringCchPrintf( strDepthFmt, 100, " (%s)", DXUTD3DFormatToString( pPP->AutoDepthStencilFormat, false ) );
+    }
+    else
+    {
+        // No depth buffer
+        strDepthFmt[0] = 0;
+    }
+
+    TCHAR strMultiSample[100];
+    switch( pPP->MultiSampleType )
+    {
+        case D3DMULTISAMPLE_NONMASKABLE: StringCchCopy( strMultiSample, 100, " (Nonmaskable Multisample)" ); break;
+        case D3DMULTISAMPLE_NONE:        StringCchCopy( strMultiSample, 100, "" ); break;
+        default:                         StringCchPrintf( strMultiSample, 100, " (%dx Multisample)", pPP->MultiSampleType ); break;
+    }
+
+    TCHAR* pstrStaticFrameStats = GetDXUTState().GetStaticFrameStats();
+    StringCchPrintf( pstrStaticFrameStats, 256, "%%.02f fps (%dx%d), %s%s%s", 
+                pPP->BackBufferWidth, pPP->BackBufferHeight,
+                strFmt, strDepthFmt, strMultiSample );
+}
+HRESULT DXUTCreate3DEnvironment( IDirect3DDevice9* pd3dDeviceFromApp )
+{
+    HRESULT hr = S_OK;
+
+    IDirect3DDevice9* pd3dDevice = NULL;
+    DXUTDeviceSettings* pNewDeviceSettings = GetDXUTState().GetCurrentDeviceSettings();
+
+    // Only create a Direct3D device if one hasn't been supplied by the app
+    if( pd3dDeviceFromApp == NULL )
+    {
+        // Try to create the device with the chosen settings
+        IDirect3D9* pD3D = DXUTGetD3DObject();
+        hr = pD3D->CreateDevice( pNewDeviceSettings->AdapterOrdinal, pNewDeviceSettings->DeviceType, 
+                                DXUTGetHWNDFocus(), pNewDeviceSettings->BehaviorFlags,
+                                &pNewDeviceSettings->pp, &pd3dDevice );
+        if( FAILED(hr) )
+        {
+            DXUT_ERR( "CreateDevice", hr );
+            return DXUTERR_CREATINGDEVICE;
+        }
+    }
+    else
+    {
+        pd3dDeviceFromApp->AddRef();
+        pd3dDevice = pd3dDeviceFromApp;
+    }
+
+    GetDXUTState().SetD3DDevice( pd3dDevice );
+
+    // If switching to REF, set the exit code to 11.  If switching to HAL and exit code was 11, then set it back to 0.
+    if( pNewDeviceSettings->DeviceType == D3DDEVTYPE_REF && GetDXUTState().GetExitCode() == 0 )
+        GetDXUTState().SetExitCode(11);
+    else if( pNewDeviceSettings->DeviceType == D3DDEVTYPE_HAL && GetDXUTState().GetExitCode() == 11 )
+        GetDXUTState().SetExitCode(0);
+
+    // Update back buffer desc before calling app's device callbacks
+    DXUTUpdateBackBufferDesc();
+
+    // Update the device stats text
+    CD3DEnumeration* pd3dEnum = DXUTPrepareEnumerationObject();
+    CD3DEnumAdapterInfo* pAdapterInfo = pd3dEnum->GetAdapterInfo( pNewDeviceSettings->AdapterOrdinal );
+    DXUTUpdateDeviceStats( pNewDeviceSettings->DeviceType, 
+                        pNewDeviceSettings->BehaviorFlags, 
+                        &pAdapterInfo->AdapterIdentifier );
+
+    // Call the resource cache created function
+    hr = DXUTGetGlobalResourceCache().OnCreateDevice( pd3dDevice );
+    if( FAILED(hr) )
+        return DXUT_ERR( "OnCreateDevice", ( hr == DXUTERR_MEDIANOTFOUND ) ? DXUTERR_MEDIANOTFOUND : DXUTERR_CREATINGDEVICEOBJECTS );
+
+    // Call the app's device created callback if non-NULL
+    const D3DSURFACE_DESC* pbackBufferSurfaceDesc = DXUTGetBackBufferSurfaceDesc();
+    GetDXUTState().SetInsideDeviceCallback( true );
+    LPDXUTCALLBACKDEVICECREATED pCallbackDeviceCreated = GetDXUTState().GetDeviceCreatedFunc();
+    hr = S_OK;
+    if( pCallbackDeviceCreated != NULL )
+        hr = pCallbackDeviceCreated( DXUTGetD3DDevice(), pbackBufferSurfaceDesc, GetDXUTState().GetDeviceCreatedFuncUserContext() );
+    GetDXUTState().SetInsideDeviceCallback( false );
+    if( DXUTGetD3DDevice() == NULL ) // Handle DXUTShutdown from inside callback
+        return E_FAIL;
+    if( FAILED(hr) )  
+    {
+        DXUT_ERR( "DeviceCreated callback", hr );        
+        return ( hr == DXUTERR_MEDIANOTFOUND ) ? DXUTERR_MEDIANOTFOUND : DXUTERR_CREATINGDEVICEOBJECTS;
+    }
+    GetDXUTState().SetDeviceObjectsCreated( true );
+
+    // Call the resource cache device reset function
+    hr = DXUTGetGlobalResourceCache().OnResetDevice( pd3dDevice );
+    if( FAILED(hr) )
+        return DXUT_ERR( "OnResetDevice", DXUTERR_RESETTINGDEVICEOBJECTS );
+
+    // Call the app's device reset callback if non-NULL
+    GetDXUTState().SetInsideDeviceCallback( true );
+    LPDXUTCALLBACKDEVICERESET pCallbackDeviceReset = GetDXUTState().GetDeviceResetFunc();
+    hr = S_OK;
+    if( pCallbackDeviceReset != NULL )
+        hr = pCallbackDeviceReset( DXUTGetD3DDevice(), pbackBufferSurfaceDesc, GetDXUTState().GetDeviceResetFuncUserContext() );
+    GetDXUTState().SetInsideDeviceCallback( false );
+    if( DXUTGetD3DDevice() == NULL ) // Handle DXUTShutdown from inside callback
+        return E_FAIL;
+    if( FAILED(hr) )
+    {
+        DXUT_ERR( "DeviceReset callback", hr );
+        return ( hr == DXUTERR_MEDIANOTFOUND ) ? DXUTERR_MEDIANOTFOUND : DXUTERR_RESETTINGDEVICEOBJECTS;
+    }
+    GetDXUTState().SetDeviceObjectsReset( true );
+
+    return S_OK;
+}
+HRESULT DXUTReset3DEnvironment()
+{
+    HRESULT hr;
+
+    IDirect3DDevice9* pd3dDevice = DXUTGetD3DDevice();
+    assert( pd3dDevice != NULL );
+
+    // Call the app's device lost callback
+    if( GetDXUTState().GetDeviceObjectsReset() == true )
+    {
+        GetDXUTState().SetInsideDeviceCallback( true );
+        LPDXUTCALLBACKDEVICELOST pCallbackDeviceLost = GetDXUTState().GetDeviceLostFunc();
+        if( pCallbackDeviceLost != NULL )
+            pCallbackDeviceLost( GetDXUTState().GetDeviceLostFuncUserContext() );
+        GetDXUTState().SetDeviceObjectsReset( false );
+        GetDXUTState().SetInsideDeviceCallback( false );
+
+        // Call the resource cache device lost function
+        DXUTGetGlobalResourceCache().OnLostDevice();
+    }
+
+    // Reset the device
+    DXUTDeviceSettings* pDeviceSettings = GetDXUTState().GetCurrentDeviceSettings();
+    hr = pd3dDevice->Reset( &pDeviceSettings->pp );
+    if( FAILED(hr) )  
+    {
+        if( hr == D3DERR_DEVICELOST )
+            return D3DERR_DEVICELOST; // Reset could legitimately fail if the device is lost
+        else
+            return DXUT_ERR( "Reset", DXUTERR_RESETTINGDEVICE );
+    }
+
+    // Update back buffer desc before calling app's device callbacks
+    DXUTUpdateBackBufferDesc();
+
+    hr = DXUTGetGlobalResourceCache().OnResetDevice( pd3dDevice );
+    if( FAILED(hr) )
+        return DXUT_ERR( "OnResetDevice", DXUTERR_RESETTINGDEVICEOBJECTS );
+
+    // Call the app's OnDeviceReset callback
+    GetDXUTState().SetInsideDeviceCallback( true );
+    const D3DSURFACE_DESC* pbackBufferSurfaceDesc = DXUTGetBackBufferSurfaceDesc();
+    LPDXUTCALLBACKDEVICERESET pCallbackDeviceReset = GetDXUTState().GetDeviceResetFunc();
+    hr = S_OK;
+    if( pCallbackDeviceReset != NULL )
+        hr = pCallbackDeviceReset( pd3dDevice, pbackBufferSurfaceDesc, GetDXUTState().GetDeviceResetFuncUserContext() );
+    GetDXUTState().SetInsideDeviceCallback( false );
+    if( FAILED(hr) )
+    {
+        // If callback failed, cleanup
+        DXUT_ERR( "DeviceResetCallback", hr );
+        if( hr != DXUTERR_MEDIANOTFOUND )
+            hr = DXUTERR_RESETTINGDEVICEOBJECTS;
+
+        GetDXUTState().SetInsideDeviceCallback( true );
+        LPDXUTCALLBACKDEVICELOST pCallbackDeviceLost = GetDXUTState().GetDeviceLostFunc();
+        if( pCallbackDeviceLost != NULL )
+            pCallbackDeviceLost( GetDXUTState().GetDeviceLostFuncUserContext() );
+        GetDXUTState().SetInsideDeviceCallback( false );
+
+        DXUTGetGlobalResourceCache().OnLostDevice();       
+        return hr;
+    }
+
+    // Success
+    GetDXUTState().SetDeviceObjectsReset( true );
+
+    return S_OK;
+}
+void DXUTPause( bool bPauseTime, bool bPauseRendering )
+{
+    int nPauseTimeCount = GetDXUTState().GetPauseTimeCount();
+    nPauseTimeCount += ( bPauseTime ? +1 : -1 );
+    if( nPauseTimeCount < 0 )
+        nPauseTimeCount = 0;
+    GetDXUTState().SetPauseTimeCount( nPauseTimeCount );
+
+    int nPauseRenderingCount = GetDXUTState().GetPauseRenderingCount();
+    nPauseRenderingCount += ( bPauseRendering ? +1 : -1 );
+    if( nPauseRenderingCount < 0 )
+        nPauseRenderingCount = 0;
+    GetDXUTState().SetPauseRenderingCount( nPauseRenderingCount );
+
+    if( nPauseTimeCount > 0 )
+    {
+        // Stop the scene from animating
+        DXUTGetGlobalTimer()->Stop();
+    }
+    else
+    {
+        // Restart the timer
+        DXUTGetGlobalTimer()->Start();
+    }
+
+    GetDXUTState().SetRenderingPaused( nPauseRenderingCount > 0 );
+    GetDXUTState().SetTimePaused( nPauseTimeCount > 0 );
+}
+DXUTDeviceSettings DXUTGetDeviceSettings()   
+{ 
+    DXUTDeviceSettings* pDS = GetDXUTState().GetCurrentDeviceSettings();
+    if( pDS )
+    {
+        return *pDS;
+    }
+    else
+    {
+        DXUTDeviceSettings ds;
+        ZeroMemory( &ds, sizeof(DXUTDeviceSettings) );
+        return ds;
+    }
 }
