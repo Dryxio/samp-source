@@ -1,11 +1,11 @@
+// Generated complete definitions from game/modelinfo.cpp; see tools/prepare_actor_closure.py.
+#include <time.h>
+#include <math.h>
 #include "main.h"
-// R5 semantic reconstruction of A7A40/B45A0. These providers are not yet
-// certified; their code and supporting storage must not be counted as matched.
-// Extended table capacity is provisional, inferred from 1825AC..1A25AC.
-// Its complete extent still requires independent review before acceptance.
-static BYTE *extendedModelInfoStorage[32768];
-BYTE **extendedModelInfos = extendedModelInfoStorage;
-BOOL useExtendedModelInfos = FALSE;
+#include "game/util.h"
+extern BYTE **extendedModelInfos;
+extern BOOL useExtendedModelInfos;
+
 
 BYTE *__stdcall GetModelInfo(int model)
 {

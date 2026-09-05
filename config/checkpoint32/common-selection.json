@@ -1419,5 +1419,66 @@
     "declarations": [
       "extern CHAR g_szMenuItems[MAX_MENU_ITEMS][MAX_COLUMNS][MAX_MENU_LINE+1];"
     ]
+  },
+  "closure_modelinfo": {
+    "source": "game/modelinfo.cpp",
+    "cls": null,
+    "definitions": [
+      {
+        "name": "GetModelInfo"
+      },
+      {
+        "name": "ModelInfoLoaded"
+      }
+    ],
+    "declarations": [
+      "extern BYTE **extendedModelInfos;",
+      "extern BOOL useExtendedModelInfos;"
+    ]
+  },
+  "closure_store_model_backing": {
+    "source": "game/modelinfo.cpp",
+    "cls": null,
+    "definitions": [],
+    "storage_includes": [
+      "\"game/common.h\""
+    ],
+    "storage": {
+      "source_declaration": "BYTE *extendedModelInfoStorage[65535];",
+      "declaration": "BYTE *extendedModelInfoStorage[65535];",
+      "symbol": "extendedModelInfoStorage",
+      "size": 262140
+    }
+  },
+  "closure_store_model_pointer": {
+    "source": "game/modelinfo.cpp",
+    "cls": null,
+    "definitions": [],
+    "storage_includes": [
+      "\"game/common.h\""
+    ],
+    "storage": {
+      "source_declaration": "BYTE **extendedModelInfos = extendedModelInfoStorage + 32767;",
+      "declaration": "BYTE **extendedModelInfos = extendedModelInfoStorage + 32767;",
+      "symbol": "extendedModelInfos",
+      "size": 4
+    },
+    "declarations": [
+      "extern BYTE *extendedModelInfoStorage[65535];"
+    ]
+  },
+  "closure_store_model_mode": {
+    "source": "game/modelinfo.cpp",
+    "cls": null,
+    "definitions": [],
+    "storage_includes": [
+      "\"game/common.h\""
+    ],
+    "storage": {
+      "source_declaration": "BOOL useExtendedModelInfos = FALSE;",
+      "declaration": "BOOL useExtendedModelInfos = FALSE;",
+      "symbol": "useExtendedModelInfos",
+      "size": 4
+    }
   }
 }
