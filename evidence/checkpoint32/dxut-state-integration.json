@@ -1,0 +1,766 @@
+{
+  "status": "ACCEPTED_AFTER_COMPLETE_LINK_REVIEW",
+  "run": "cp32-dxut-state-metrics-linked",
+  "ob1": "cp32-dxut-state-metrics-ob1",
+  "ob2": "cp32-ime-ob2",
+  "new_unique_code_bytes": 4136,
+  "accepted_direct_025_credit": 0,
+  "reference_comparisons": [
+    {
+      "function": "DXUTShutdown",
+      "identical": true,
+      "difference": ""
+    },
+    {
+      "function": "DXUTCleanup3DEnvironment",
+      "identical": true,
+      "difference": ""
+    },
+    {
+      "function": "DXUTAllowShortcutKeys",
+      "identical": true,
+      "difference": ""
+    },
+    {
+      "function": "DXUTDisplayErrorMessage",
+      "identical": true,
+      "difference": ""
+    },
+    {
+      "function": "DXUTIsWindowed",
+      "identical": true,
+      "difference": ""
+    },
+    {
+      "function": "Complete DXUTState/lock/globals/singleton source",
+      "identical": false,
+      "difference": "--- \n\n+++ \n\n@@ -181,2 +181,3 @@\n\n \n+\t// MATCH\n     void Create()"
+    }
+  ],
+  "candidate_resolution": {
+    "?StringCopyWorkerA@@YGJPADIPBD@Z": {
+      "size": 77,
+      "rva": 491792,
+      "inferred_targets": {}
+    },
+    "??0DXUTLock@@QAE@XZ": {
+      "size": 27,
+      "rva": 493440,
+      "inferred_targets": {
+        "?g_bThreadSafe@@3_NA": 269495308,
+        "?g_cs@@3U_RTL_CRITICAL_SECTION@@A": 269750160,
+        "__imp__EnterCriticalSection@4": 269374060
+      }
+    },
+    "??1DXUTLock@@QAE@XZ": {
+      "size": 21,
+      "rva": 493472,
+      "inferred_targets": {
+        "?g_bThreadSafe@@3_NA": 269495308,
+        "?g_cs@@3U_RTL_CRITICAL_SECTION@@A": 269750160,
+        "__imp__LeaveCriticalSection@4": 269374064
+      }
+    },
+    "?Create@DXUTState@@QAEXXZ": {
+      "size": 90,
+      "rva": 493504,
+      "inferred_targets": {
+        "?DXUTGetGlobalResourceCache@@YAAAVCDXUTResourceCache@@XZ": 269064160,
+        "?g_cs@@3U_RTL_CRITICAL_SECTION@@A": 269750160,
+        "?g_bThreadSafe@@3_NA": 269495308,
+        "__imp__InitializeCriticalSection@4": 269374052
+      }
+    },
+    "?SetD3D@DXUTState@@QAEXPAUIDirect3D9@@@Z": {
+      "size": 56,
+      "rva": 493600,
+      "inferred_targets": {
+        "?g_bThreadSafe@@3_NA": 269495308,
+        "?g_cs@@3U_RTL_CRITICAL_SECTION@@A": 269750160,
+        "__imp__EnterCriticalSection@4": 269374060,
+        "__imp__LeaveCriticalSection@4": 269374064
+      }
+    },
+    "?GetD3D@DXUTState@@QAEPAUIDirect3D9@@XZ": {
+      "size": 49,
+      "rva": 493664,
+      "inferred_targets": {
+        "?g_bThreadSafe@@3_NA": 269495308,
+        "?g_cs@@3U_RTL_CRITICAL_SECTION@@A": 269750160,
+        "__imp__EnterCriticalSection@4": 269374060,
+        "__imp__LeaveCriticalSection@4": 269374064
+      }
+    },
+    "?SetD3DDevice@DXUTState@@QAEXPAUIDirect3DDevice9@@@Z": {
+      "size": 57,
+      "rva": 493728,
+      "inferred_targets": {
+        "?g_bThreadSafe@@3_NA": 269495308,
+        "?g_cs@@3U_RTL_CRITICAL_SECTION@@A": 269750160,
+        "__imp__EnterCriticalSection@4": 269374060,
+        "__imp__LeaveCriticalSection@4": 269374064
+      }
+    },
+    "?GetD3DDevice@DXUTState@@QAEPAUIDirect3DDevice9@@XZ": {
+      "size": 50,
+      "rva": 493792,
+      "inferred_targets": {
+        "?g_bThreadSafe@@3_NA": 269495308,
+        "?g_cs@@3U_RTL_CRITICAL_SECTION@@A": 269750160,
+        "__imp__EnterCriticalSection@4": 269374060,
+        "__imp__LeaveCriticalSection@4": 269374064
+      }
+    },
+    "?SetD3DEnumeration@DXUTState@@QAEXPAVCD3DEnumeration@@@Z": {
+      "size": 57,
+      "rva": 493856,
+      "inferred_targets": {
+        "?g_bThreadSafe@@3_NA": 269495308,
+        "?g_cs@@3U_RTL_CRITICAL_SECTION@@A": 269750160,
+        "__imp__EnterCriticalSection@4": 269374060,
+        "__imp__LeaveCriticalSection@4": 269374064
+      }
+    },
+    "?SetCurrentDeviceSettings@DXUTState@@QAEXPAUDXUTDeviceSettings@@@Z": {
+      "size": 57,
+      "rva": 493984,
+      "inferred_targets": {
+        "?g_bThreadSafe@@3_NA": 269495308,
+        "?g_cs@@3U_RTL_CRITICAL_SECTION@@A": 269750160,
+        "__imp__EnterCriticalSection@4": 269374060,
+        "__imp__LeaveCriticalSection@4": 269374064
+      }
+    },
+    "?GetCurrentDeviceSettings@DXUTState@@QAEPAUDXUTDeviceSettings@@XZ": {
+      "size": 50,
+      "rva": 494048,
+      "inferred_targets": {
+        "?g_bThreadSafe@@3_NA": 269495308,
+        "?g_cs@@3U_RTL_CRITICAL_SECTION@@A": 269750160,
+        "__imp__EnterCriticalSection@4": 269374060,
+        "__imp__LeaveCriticalSection@4": 269374064
+      }
+    },
+    "?GetBackBufferSurfaceDesc@DXUTState@@QAEPAU_D3DSURFACE_DESC@@XZ": {
+      "size": 50,
+      "rva": 494112,
+      "inferred_targets": {
+        "?g_bThreadSafe@@3_NA": 269495308,
+        "?g_cs@@3U_RTL_CRITICAL_SECTION@@A": 269750160,
+        "__imp__EnterCriticalSection@4": 269374060,
+        "__imp__LeaveCriticalSection@4": 269374064
+      }
+    },
+    "?GetCaps@DXUTState@@QAEPAU_D3DCAPS9@@XZ": {
+      "size": 50,
+      "rva": 494176,
+      "inferred_targets": {
+        "?g_bThreadSafe@@3_NA": 269495308,
+        "?g_cs@@3U_RTL_CRITICAL_SECTION@@A": 269750160,
+        "__imp__EnterCriticalSection@4": 269374060,
+        "__imp__LeaveCriticalSection@4": 269374064
+      }
+    },
+    "?GetHWNDFocus@DXUTState@@QAEPAUHWND__@@XZ": {
+      "size": 53,
+      "rva": 494304,
+      "inferred_targets": {
+        "?g_bThreadSafe@@3_NA": 269495308,
+        "?g_cs@@3U_RTL_CRITICAL_SECTION@@A": 269750160,
+        "__imp__EnterCriticalSection@4": 269374060,
+        "__imp__LeaveCriticalSection@4": 269374064
+      }
+    },
+    "?GetHWNDDeviceFullScreen@DXUTState@@QAEPAUHWND__@@XZ": {
+      "size": 53,
+      "rva": 494432,
+      "inferred_targets": {
+        "?g_bThreadSafe@@3_NA": 269495308,
+        "?g_cs@@3U_RTL_CRITICAL_SECTION@@A": 269750160,
+        "__imp__EnterCriticalSection@4": 269374060,
+        "__imp__LeaveCriticalSection@4": 269374064
+      }
+    },
+    "?GetHWNDDeviceWindowed@DXUTState@@QAEPAUHWND__@@XZ": {
+      "size": 53,
+      "rva": 494560,
+      "inferred_targets": {
+        "?g_bThreadSafe@@3_NA": 269495308,
+        "?g_cs@@3U_RTL_CRITICAL_SECTION@@A": 269750160,
+        "__imp__EnterCriticalSection@4": 269374060,
+        "__imp__LeaveCriticalSection@4": 269374064
+      }
+    },
+    "?GetFullScreenBackBufferWidthAtModeChange@DXUTState@@QAEIXZ": {
+      "size": 53,
+      "rva": 494944,
+      "inferred_targets": {
+        "?g_bThreadSafe@@3_NA": 269495308,
+        "?g_cs@@3U_RTL_CRITICAL_SECTION@@A": 269750160,
+        "__imp__EnterCriticalSection@4": 269374060,
+        "__imp__LeaveCriticalSection@4": 269374064
+      }
+    },
+    "?GetFullScreenBackBufferHeightAtModeChange@DXUTState@@QAEIXZ": {
+      "size": 53,
+      "rva": 495072,
+      "inferred_targets": {
+        "?g_bThreadSafe@@3_NA": 269495308,
+        "?g_cs@@3U_RTL_CRITICAL_SECTION@@A": 269750160,
+        "__imp__EnterCriticalSection@4": 269374060,
+        "__imp__LeaveCriticalSection@4": 269374064
+      }
+    },
+    "?GetWindowBackBufferWidthAtModeChange@DXUTState@@QAEIXZ": {
+      "size": 53,
+      "rva": 495200,
+      "inferred_targets": {
+        "?g_bThreadSafe@@3_NA": 269495308,
+        "?g_cs@@3U_RTL_CRITICAL_SECTION@@A": 269750160,
+        "__imp__EnterCriticalSection@4": 269374060,
+        "__imp__LeaveCriticalSection@4": 269374064
+      }
+    },
+    "?GetWindowBackBufferHeightAtModeChange@DXUTState@@QAEIXZ": {
+      "size": 53,
+      "rva": 495328,
+      "inferred_targets": {
+        "?g_bThreadSafe@@3_NA": 269495308,
+        "?g_cs@@3U_RTL_CRITICAL_SECTION@@A": 269750160,
+        "__imp__EnterCriticalSection@4": 269374060,
+        "__imp__LeaveCriticalSection@4": 269374064
+      }
+    },
+    "?GetTime@DXUTState@@QAENXZ": {
+      "size": 66,
+      "rva": 496160,
+      "inferred_targets": {
+        "?g_bThreadSafe@@3_NA": 269495308,
+        "?g_cs@@3U_RTL_CRITICAL_SECTION@@A": 269750160,
+        "__imp__EnterCriticalSection@4": 269374060,
+        "__imp__LeaveCriticalSection@4": 269374064
+      }
+    },
+    "?GetElapsedTime@DXUTState@@QAEMXZ": {
+      "size": 60,
+      "rva": 496304,
+      "inferred_targets": {
+        "?g_bThreadSafe@@3_NA": 269495308,
+        "?g_cs@@3U_RTL_CRITICAL_SECTION@@A": 269750160,
+        "__imp__EnterCriticalSection@4": 269374060,
+        "__imp__LeaveCriticalSection@4": 269374064
+      }
+    },
+    "?GetHInstance@DXUTState@@QAEPAUHINSTANCE__@@XZ": {
+      "size": 53,
+      "rva": 496432,
+      "inferred_targets": {
+        "?g_bThreadSafe@@3_NA": 269495308,
+        "?g_cs@@3U_RTL_CRITICAL_SECTION@@A": 269750160,
+        "__imp__EnterCriticalSection@4": 269374060,
+        "__imp__LeaveCriticalSection@4": 269374064
+      }
+    },
+    "?GetFPS@DXUTState@@QAEMXZ": {
+      "size": 60,
+      "rva": 496832,
+      "inferred_targets": {
+        "?g_bThreadSafe@@3_NA": 269495308,
+        "?g_cs@@3U_RTL_CRITICAL_SECTION@@A": 269750160,
+        "__imp__EnterCriticalSection@4": 269374060,
+        "__imp__LeaveCriticalSection@4": 269374064
+      }
+    },
+    "?SetAllowShortcutKeys@DXUTState@@QAEX_N@Z": {
+      "size": 60,
+      "rva": 497344,
+      "inferred_targets": {
+        "?g_bThreadSafe@@3_NA": 269495308,
+        "?g_cs@@3U_RTL_CRITICAL_SECTION@@A": 269750160,
+        "__imp__EnterCriticalSection@4": 269374060,
+        "__imp__LeaveCriticalSection@4": 269374064
+      }
+    },
+    "?GetShowMsgBoxOnError@DXUTState@@QAE_NXZ": {
+      "size": 55,
+      "rva": 497856,
+      "inferred_targets": {
+        "?g_bThreadSafe@@3_NA": 269495308,
+        "?g_cs@@3U_RTL_CRITICAL_SECTION@@A": 269750160,
+        "__imp__EnterCriticalSection@4": 269374060,
+        "__imp__LeaveCriticalSection@4": 269374064
+      }
+    },
+    "?SetExitCode@DXUTState@@QAEXH@Z": {
+      "size": 60,
+      "rva": 498752,
+      "inferred_targets": {
+        "?g_bThreadSafe@@3_NA": 269495308,
+        "?g_cs@@3U_RTL_CRITICAL_SECTION@@A": 269750160,
+        "__imp__EnterCriticalSection@4": 269374060,
+        "__imp__LeaveCriticalSection@4": 269374064
+      }
+    },
+    "?GetExitCode@DXUTState@@QAEHXZ": {
+      "size": 53,
+      "rva": 498816,
+      "inferred_targets": {
+        "?g_bThreadSafe@@3_NA": 269495308,
+        "?g_cs@@3U_RTL_CRITICAL_SECTION@@A": 269750160,
+        "__imp__EnterCriticalSection@4": 269374060,
+        "__imp__LeaveCriticalSection@4": 269374064
+      }
+    },
+    "?SetDeviceCreated@DXUTState@@QAEX_N@Z": {
+      "size": 60,
+      "rva": 499136,
+      "inferred_targets": {
+        "?g_bThreadSafe@@3_NA": 269495308,
+        "?g_cs@@3U_RTL_CRITICAL_SECTION@@A": 269750160,
+        "__imp__EnterCriticalSection@4": 269374060,
+        "__imp__LeaveCriticalSection@4": 269374064
+      }
+    },
+    "?SetInsideDeviceCallback@DXUTState@@QAEX_N@Z": {
+      "size": 60,
+      "rva": 499648,
+      "inferred_targets": {
+        "?g_bThreadSafe@@3_NA": 269495308,
+        "?g_cs@@3U_RTL_CRITICAL_SECTION@@A": 269750160,
+        "__imp__EnterCriticalSection@4": 269374060,
+        "__imp__LeaveCriticalSection@4": 269374064
+      }
+    },
+    "?SetDeviceObjectsCreated@DXUTState@@QAEX_N@Z": {
+      "size": 60,
+      "rva": 499904,
+      "inferred_targets": {
+        "?g_bThreadSafe@@3_NA": 269495308,
+        "?g_cs@@3U_RTL_CRITICAL_SECTION@@A": 269750160,
+        "__imp__EnterCriticalSection@4": 269374060,
+        "__imp__LeaveCriticalSection@4": 269374064
+      }
+    },
+    "?GetDeviceObjectsCreated@DXUTState@@QAE_NXZ": {
+      "size": 55,
+      "rva": 499968,
+      "inferred_targets": {
+        "?g_bThreadSafe@@3_NA": 269495308,
+        "?g_cs@@3U_RTL_CRITICAL_SECTION@@A": 269750160,
+        "__imp__EnterCriticalSection@4": 269374060,
+        "__imp__LeaveCriticalSection@4": 269374064
+      }
+    },
+    "?SetDeviceObjectsReset@DXUTState@@QAEX_N@Z": {
+      "size": 60,
+      "rva": 500032,
+      "inferred_targets": {
+        "?g_bThreadSafe@@3_NA": 269495308,
+        "?g_cs@@3U_RTL_CRITICAL_SECTION@@A": 269750160,
+        "__imp__EnterCriticalSection@4": 269374060,
+        "__imp__LeaveCriticalSection@4": 269374064
+      }
+    },
+    "?GetDeviceObjectsReset@DXUTState@@QAE_NXZ": {
+      "size": 55,
+      "rva": 500096,
+      "inferred_targets": {
+        "?g_bThreadSafe@@3_NA": 269495308,
+        "?g_cs@@3U_RTL_CRITICAL_SECTION@@A": 269750160,
+        "__imp__EnterCriticalSection@4": 269374060,
+        "__imp__LeaveCriticalSection@4": 269374064
+      }
+    },
+    "?GetPauseRenderingCount@DXUTState@@QAEHXZ": {
+      "size": 53,
+      "rva": 500544,
+      "inferred_targets": {
+        "?g_bThreadSafe@@3_NA": 269495308,
+        "?g_cs@@3U_RTL_CRITICAL_SECTION@@A": 269750160,
+        "__imp__EnterCriticalSection@4": 269374060,
+        "__imp__LeaveCriticalSection@4": 269374064
+      }
+    },
+    "?GetPauseTimeCount@DXUTState@@QAEHXZ": {
+      "size": 53,
+      "rva": 500672,
+      "inferred_targets": {
+        "?g_bThreadSafe@@3_NA": 269495308,
+        "?g_cs@@3U_RTL_CRITICAL_SECTION@@A": 269750160,
+        "__imp__EnterCriticalSection@4": 269374060,
+        "__imp__LeaveCriticalSection@4": 269374064
+      }
+    },
+    "?GetAutomation@DXUTState@@QAE_NXZ": {
+      "size": 55,
+      "rva": 501056,
+      "inferred_targets": {
+        "?g_bThreadSafe@@3_NA": 269495308,
+        "?g_cs@@3U_RTL_CRITICAL_SECTION@@A": 269750160,
+        "__imp__EnterCriticalSection@4": 269374060,
+        "__imp__LeaveCriticalSection@4": 269374064
+      }
+    },
+    "?GetDeviceLostFunc@DXUTState@@QAEP6GXPAX@ZXZ": {
+      "size": 53,
+      "rva": 503744,
+      "inferred_targets": {
+        "?g_bThreadSafe@@3_NA": 269495308,
+        "?g_cs@@3U_RTL_CRITICAL_SECTION@@A": 269750160,
+        "__imp__EnterCriticalSection@4": 269374060,
+        "__imp__LeaveCriticalSection@4": 269374064
+      }
+    },
+    "?GetDeviceDestroyedFunc@DXUTState@@QAEP6GXPAX@ZXZ": {
+      "size": 53,
+      "rva": 503872,
+      "inferred_targets": {
+        "?g_bThreadSafe@@3_NA": 269495308,
+        "?g_cs@@3U_RTL_CRITICAL_SECTION@@A": 269750160,
+        "__imp__EnterCriticalSection@4": 269374060,
+        "__imp__LeaveCriticalSection@4": 269374064
+      }
+    },
+    "?GetDeviceLostFuncUserContext@DXUTState@@QAEPAXXZ": {
+      "size": 53,
+      "rva": 505088,
+      "inferred_targets": {
+        "?g_bThreadSafe@@3_NA": 269495308,
+        "?g_cs@@3U_RTL_CRITICAL_SECTION@@A": 269750160,
+        "__imp__EnterCriticalSection@4": 269374060,
+        "__imp__LeaveCriticalSection@4": 269374064
+      }
+    },
+    "?GetDeviceDestroyedFuncUserContext@DXUTState@@QAEPAXXZ": {
+      "size": 53,
+      "rva": 505216,
+      "inferred_targets": {
+        "?g_bThreadSafe@@3_NA": 269495308,
+        "?g_cs@@3U_RTL_CRITICAL_SECTION@@A": 269750160,
+        "__imp__EnterCriticalSection@4": 269374060,
+        "__imp__LeaveCriticalSection@4": 269374064
+      }
+    },
+    "?GetFrameStats@DXUTState@@QAEPADXZ": {
+      "size": 53,
+      "rva": 506176,
+      "inferred_targets": {
+        "?g_bThreadSafe@@3_NA": 269495308,
+        "?g_cs@@3U_RTL_CRITICAL_SECTION@@A": 269750160,
+        "__imp__EnterCriticalSection@4": 269374060,
+        "__imp__LeaveCriticalSection@4": 269374064
+      }
+    },
+    "?GetDeviceStats@DXUTState@@QAEPADXZ": {
+      "size": 53,
+      "rva": 506240,
+      "inferred_targets": {
+        "?g_bThreadSafe@@3_NA": 269495308,
+        "?g_cs@@3U_RTL_CRITICAL_SECTION@@A": 269750160,
+        "__imp__EnterCriticalSection@4": 269374060,
+        "__imp__LeaveCriticalSection@4": 269374064
+      }
+    },
+    "?GetWindowTitle@DXUTState@@QAEPADXZ": {
+      "size": 53,
+      "rva": 506304,
+      "inferred_targets": {
+        "?g_bThreadSafe@@3_NA": 269495308,
+        "?g_cs@@3U_RTL_CRITICAL_SECTION@@A": 269750160,
+        "__imp__EnterCriticalSection@4": 269374060,
+        "__imp__LeaveCriticalSection@4": 269374064
+      }
+    },
+    "?DXUTGetD3DObject@@YAPAUIDirect3D9@@XZ": {
+      "size": 12,
+      "rva": 514272,
+      "inferred_targets": {
+        "?GetDXUTState@@YAAAVDXUTState@@XZ": 268947776,
+        "?GetD3D@DXUTState@@QAEPAUIDirect3D9@@XZ": 268929120
+      }
+    },
+    "?DXUTGetD3DDevice@@YAPAUIDirect3DDevice9@@XZ": {
+      "size": 12,
+      "rva": 506400,
+      "inferred_targets": {
+        "?GetDXUTState@@YAAAVDXUTState@@XZ": 268947776,
+        "?GetD3DDevice@DXUTState@@QAEPAUIDirect3DDevice9@@XZ": 268929248
+      }
+    },
+    "?DXUTGetHWND@@YAPAUHWND__@@XZ": {
+      "size": 33,
+      "rva": 509008,
+      "inferred_targets": {
+        "?DXUTIsWindowed@@YA_NXZ": 268941888,
+        "?GetDXUTState@@YAAAVDXUTState@@XZ": 268947776,
+        "?GetHWNDDeviceWindowed@DXUTState@@QAEPAUHWND__@@XZ": 268930016,
+        "?GetHWNDDeviceFullScreen@DXUTState@@QAEPAUHWND__@@XZ": 268929888
+      }
+    },
+    "?DXUTGetWindowClientRect@@YA?AUtagRECT@@XZ": {
+      "size": 56,
+      "rva": 509056,
+      "inferred_targets": {
+        "?DXUTGetHWND@@YAPAUHWND__@@XZ": 268944464,
+        "__imp__GetClientRect@8": 269374320
+      }
+    },
+    "?DXUTGetWindowTitle@@YAPBDXZ": {
+      "size": 12,
+      "rva": 506416,
+      "inferred_targets": {
+        "?GetDXUTState@@YAAAVDXUTState@@XZ": 268947776,
+        "?GetWindowTitle@DXUTState@@QAEPADXZ": 268941760
+      }
+    },
+    "?DXUTAllowShortcutKeys@@YAX_N@Z": {
+      "size": 18,
+      "rva": 506368,
+      "inferred_targets": {
+        "?GetDXUTState@@YAAAVDXUTState@@XZ": 268947776,
+        "?SetAllowShortcutKeys@DXUTState@@QAEX_N@Z": 268932800
+      }
+    },
+    "?StringCchCopyA@@YGJPADIPBD@Z": {
+      "size": 28,
+      "rva": 508384,
+      "inferred_targets": {
+        "?StringCopyWorkerA@@YGJPADIPBD@Z": 268927248
+      }
+    },
+    "??0DXUTState@@QAE@XZ": {
+      "size": 12,
+      "rva": 508560,
+      "inferred_targets": {
+        "?Create@DXUTState@@QAEXXZ": 268928960
+      }
+    },
+    "?DXUTCleanup3DEnvironment@@YAX_N@Z": {
+      "size": 355,
+      "rva": 510160,
+      "inferred_targets": {
+        "?DXUTGetD3DDevice@@YAPAUIDirect3DDevice9@@XZ": 268941856,
+        "?GetDXUTState@@YAAAVDXUTState@@XZ": 268947776,
+        "?SetInsideDeviceCallback@DXUTState@@QAEX_N@Z": 268935104,
+        "?GetDeviceObjectsReset@DXUTState@@QAE_NXZ": 268935552,
+        "?GetDeviceLostFunc@DXUTState@@QAEP6GXPAX@ZXZ": 268939200,
+        "?GetDeviceLostFuncUserContext@DXUTState@@QAEPAXXZ": 268940544,
+        "?SetDeviceObjectsReset@DXUTState@@QAEX_N@Z": 268935488,
+        "?DXUTGetGlobalResourceCache@@YAAAVCDXUTResourceCache@@XZ": 269064160,
+        "?OnLostDevice@CDXUTResourceCache@@QAEJXZ": 269061040,
+        "?GetDeviceObjectsCreated@DXUTState@@QAE_NXZ": 268935424,
+        "?GetDeviceDestroyedFunc@DXUTState@@QAEP6GXPAX@ZXZ": 268939328,
+        "?GetDeviceDestroyedFuncUserContext@DXUTState@@QAEPAXXZ": 268940672,
+        "?SetDeviceObjectsCreated@DXUTState@@QAEX_N@Z": 268935360,
+        "?OnDestroyDevice@CDXUTResourceCache@@QAEJXZ": 269061232,
+        "?DXUTDisplayErrorMessage@@YAXJ@Z": 268944576,
+        "?SetD3DDevice@DXUTState@@QAEXPAUIDirect3DDevice9@@@Z": 268929184,
+        "?GetCurrentDeviceSettings@DXUTState@@QAEPAUDXUTDeviceSettings@@XZ": 268929504,
+        "??3@YAXPAX@Z": 269247626,
+        "?SetCurrentDeviceSettings@DXUTState@@QAEXPAUDXUTDeviceSettings@@@Z": 268929440,
+        "?GetBackBufferSurfaceDesc@DXUTState@@QAEPAU_D3DSURFACE_DESC@@XZ": 268929568,
+        "?GetCaps@DXUTState@@QAEPAU_D3DCAPS9@@XZ": 268929632,
+        "?SetDeviceCreated@DXUTState@@QAEX_N@Z": 268934592
+      }
+    },
+    "?DXUTShutdown@@YAXH@Z": {
+      "size": 100,
+      "rva": 512128,
+      "inferred_targets": {
+        "?DXUTGetHWND@@YAPAUHWND__@@XZ": 268944464,
+        "__imp__SendMessageA@16": 269374272,
+        "?GetDXUTState@@YAAAVDXUTState@@XZ": 268947776,
+        "?SetExitCode@DXUTState@@QAEXH@Z": 268934208,
+        "?DXUTCleanup3DEnvironment@@YAX_N@Z": 268945616,
+        "?DXUTAllowShortcutKeys@@YAX_N@Z": 268941824,
+        "?SetD3DEnumeration@DXUTState@@QAEXPAVCD3DEnumeration@@@Z": 268929312,
+        "?DXUTGetD3DObject@@YAPAUIDirect3D9@@XZ": 268949728,
+        "?SetD3D@DXUTState@@QAEXPAUIDirect3D9@@@Z": 268929056
+      }
+    },
+    "?GetDXUTState@@YAAAVDXUTState@@XZ": {
+      "size": 92,
+      "rva": 512320,
+      "inferred_targets": {
+        "__except_list": 0,
+        "?$S1@?1??GetDXUTState@@YAAAVDXUTState@@XZ@4IA": 269752208,
+        "__ehhandler$?GetDXUTState@@YAAAVDXUTState@@XZ": 269368078,
+        "?state@?1??GetDXUTState@@YAAAVDXUTState@@XZ@4V2@A": 269750224,
+        "?Create@DXUTState@@QAEXXZ": 268928960,
+        "_$E2": 269370176,
+        "_atexit": 269257477
+      }
+    },
+    "?DXUTGetBackBufferSurfaceDesc@@YAPBU_D3DSURFACE_DESC@@XZ": {
+      "size": 12,
+      "rva": 514288,
+      "inferred_targets": {
+        "?GetDXUTState@@YAAAVDXUTState@@XZ": 268947776,
+        "?GetBackBufferSurfaceDesc@DXUTState@@QAEPAU_D3DSURFACE_DESC@@XZ": 268929568
+      }
+    },
+    "?DXUTGetDeviceCaps@@YAPBU_D3DCAPS9@@XZ": {
+      "size": 12,
+      "rva": 514304,
+      "inferred_targets": {
+        "?GetDXUTState@@YAAAVDXUTState@@XZ": 268947776,
+        "?GetCaps@DXUTState@@QAEPAU_D3DCAPS9@@XZ": 268929632
+      }
+    },
+    "?DXUTGetHINSTANCE@@YAPAUHINSTANCE__@@XZ": {
+      "size": 12,
+      "rva": 514320,
+      "inferred_targets": {
+        "?GetDXUTState@@YAAAVDXUTState@@XZ": 268947776,
+        "?GetHInstance@DXUTState@@QAEPAUHINSTANCE__@@XZ": 268931888
+      }
+    },
+    "?DXUTGetHWNDFocus@@YAPAUHWND__@@XZ": {
+      "size": 12,
+      "rva": 514336,
+      "inferred_targets": {
+        "?GetDXUTState@@YAAAVDXUTState@@XZ": 268947776,
+        "?GetHWNDFocus@DXUTState@@QAEPAUHWND__@@XZ": 268929760
+      }
+    },
+    "?DXUTGetHWNDDeviceFullScreen@@YAPAUHWND__@@XZ": {
+      "size": 12,
+      "rva": 514352,
+      "inferred_targets": {
+        "?GetDXUTState@@YAAAVDXUTState@@XZ": 268947776,
+        "?GetHWNDDeviceFullScreen@DXUTState@@QAEPAUHWND__@@XZ": 268929888
+      }
+    },
+    "?DXUTGetHWNDDeviceWindowed@@YAPAUHWND__@@XZ": {
+      "size": 12,
+      "rva": 514368,
+      "inferred_targets": {
+        "?GetDXUTState@@YAAAVDXUTState@@XZ": 268947776,
+        "?GetHWNDDeviceWindowed@DXUTState@@QAEPAUHWND__@@XZ": 268930016
+      }
+    },
+    "?DXUTGetWindowClientRectAtModeChange@@YA?AUtagRECT@@XZ": {
+      "size": 56,
+      "rva": 514384,
+      "inferred_targets": {
+        "?GetDXUTState@@YAAAVDXUTState@@XZ": 268947776,
+        "?GetWindowBackBufferWidthAtModeChange@DXUTState@@QAEIXZ": 268930656,
+        "?GetWindowBackBufferHeightAtModeChange@DXUTState@@QAEIXZ": 268930784
+      }
+    },
+    "?DXUTGetFullsceenClientRectAtModeChange@@YA?AUtagRECT@@XZ": {
+      "size": 56,
+      "rva": 514448,
+      "inferred_targets": {
+        "?GetDXUTState@@YAAAVDXUTState@@XZ": 268947776,
+        "?GetFullScreenBackBufferWidthAtModeChange@DXUTState@@QAEIXZ": 268930400,
+        "?GetFullScreenBackBufferHeightAtModeChange@DXUTState@@QAEIXZ": 268930528
+      }
+    },
+    "?DXUTGetTime@@YANXZ": {
+      "size": 12,
+      "rva": 514512,
+      "inferred_targets": {
+        "?GetDXUTState@@YAAAVDXUTState@@XZ": 268947776,
+        "?GetTime@DXUTState@@QAENXZ": 268931616
+      }
+    },
+    "?DXUTGetElapsedTime@@YAMXZ": {
+      "size": 12,
+      "rva": 514528,
+      "inferred_targets": {
+        "?GetDXUTState@@YAAAVDXUTState@@XZ": 268947776,
+        "?GetElapsedTime@DXUTState@@QAEMXZ": 268931760
+      }
+    },
+    "?DXUTGetFPS@@YAMXZ": {
+      "size": 12,
+      "rva": 514544,
+      "inferred_targets": {
+        "?GetDXUTState@@YAAAVDXUTState@@XZ": 268947776,
+        "?GetFPS@DXUTState@@QAEMXZ": 268932288
+      }
+    },
+    "?DXUTGetFrameStats@@YAPBDXZ": {
+      "size": 12,
+      "rva": 514560,
+      "inferred_targets": {
+        "?GetDXUTState@@YAAAVDXUTState@@XZ": 268947776,
+        "?GetFrameStats@DXUTState@@QAEPADXZ": 268941632
+      }
+    },
+    "?DXUTGetDeviceStats@@YAPBDXZ": {
+      "size": 12,
+      "rva": 514576,
+      "inferred_targets": {
+        "?GetDXUTState@@YAAAVDXUTState@@XZ": 268947776,
+        "?GetDeviceStats@DXUTState@@QAEPADXZ": 268941696
+      }
+    },
+    "?DXUTIsRenderingPaused@@YA_NXZ": {
+      "size": 22,
+      "rva": 514592,
+      "inferred_targets": {
+        "?GetDXUTState@@YAAAVDXUTState@@XZ": 268947776,
+        "?GetPauseRenderingCount@DXUTState@@QAEHXZ": 268936000
+      }
+    },
+    "?DXUTIsTimePaused@@YA_NXZ": {
+      "size": 22,
+      "rva": 514624,
+      "inferred_targets": {
+        "?GetDXUTState@@YAAAVDXUTState@@XZ": 268947776,
+        "?GetPauseTimeCount@DXUTState@@QAEHXZ": 268936128
+      }
+    },
+    "?DXUTGetExitCode@@YAHXZ": {
+      "size": 12,
+      "rva": 514656,
+      "inferred_targets": {
+        "?GetDXUTState@@YAAAVDXUTState@@XZ": 268947776,
+        "?GetExitCode@DXUTState@@QAEHXZ": 268934272
+      }
+    },
+    "?DXUTGetShowMsgBoxOnError@@YA_NXZ": {
+      "size": 12,
+      "rva": 514672,
+      "inferred_targets": {
+        "?GetDXUTState@@YAAAVDXUTState@@XZ": 268947776,
+        "?GetShowMsgBoxOnError@DXUTState@@QAE_NXZ": 268933312
+      }
+    },
+    "?DXUTGetAutomation@@YA_NXZ": {
+      "size": 12,
+      "rva": 514688,
+      "inferred_targets": {
+        "?GetDXUTState@@YAAAVDXUTState@@XZ": 268947776,
+        "?GetAutomation@DXUTState@@QAE_NXZ": 268936512
+      }
+    },
+    "?DXUTIsWindowed@@YA_NXZ": {
+      "size": 32,
+      "rva": 506432,
+      "inferred_targets": {
+        "?GetDXUTState@@YAAAVDXUTState@@XZ": 268947776,
+        "?GetCurrentDeviceSettings@DXUTState@@QAEPAUDXUTDeviceSettings@@XZ": 268929504
+      }
+    }
+  },
+  "source_adaptations": "Original complete class and bodies retained. Extracted direct Windows GetSystemMetrics by undefining the multimon macro; actual R5 IAT target verified. No shortcut behavior invented: original AllowShortcutKeys only changes an internal flag.",
+  "trials": [
+    {
+      "run": "cp32-dxut-state-ob1",
+      "outcome": "Preparation failed because lexical extraction matched DXUTIsWindowed call sites. Probe had no new source and failed. Anchored the exact bool function definition."
+    },
+    {
+      "run": "cp32-dxut-state-extract-ob1",
+      "link": "cp32-dxut-state-linked",
+      "outcome": "Link failed on multimon xGetSystemMetrics. Error-handler body also failed exact comparison; all other selected state providers had candidates."
+    },
+    {
+      "run": "cp32-dxut-state-metrics-ob1",
+      "outcome": "Actual Windows GetSystemMetrics call restores complete796-byte error COMDAT, including758 code bytes plus full alignment/table."
+    }
+  ],
+  "verification": "1359 whole regions, all relocations/targets,10 negative controls and existing ABI pass. Whole1981-byte state,24-byte critical section,4-byte guard,1-byte initialized thread flag,36-byte unwind metadata and24-byte EH cleanup/handler validated. All11 error strings complete. Eight earlier linked pending providers unchanged; no runtime graphics, message sending or lifetime/exception execution."
+}
