@@ -1,0 +1,272 @@
+{
+  "closure_util": {
+    "source": "game/util.cpp",
+    "cls": null,
+    "definitions": [
+      {
+        "name": "ProcessLineOfSight"
+      },
+      {
+        "name": "GamePool_Ped_GetIndex"
+      },
+      {
+        "name": "GamePool_Vehicle_GetAt"
+      },
+      {
+        "name": "GamePool_Vehicle_GetIndex"
+      },
+      {
+        "name": "GamePool_Object_GetAt"
+      },
+      {
+        "name": "GamePool_FindPlayerPed"
+      },
+      {
+        "name": "GamePool_GetBuilding"
+      },
+      {
+        "name": "GamePool_GetDummy"
+      },
+      {
+        "name": "GamePool_GetObject"
+      },
+      {
+        "name": "ReplaceBuildingModel"
+      },
+      {
+        "name": "GetInvalidModelInfoCount"
+      },
+      {
+        "name": "GetNextTaskFromTask"
+      },
+      {
+        "name": "GetTaskTypeFromTask"
+      },
+      {
+        "name": "GameIsEntityOnScreen"
+      },
+      {
+        "name": "CRC32FromUpcaseString"
+      },
+      {
+        "name": "HasCollisionLoaded"
+      },
+      {
+        "name": "FloatDifference"
+      },
+      {
+        "name": "FloatOffset"
+      },
+      {
+        "name": "NormalizeAngle"
+      },
+      {
+        "name": "SquaredDistanceBetweenHorizontalPoints"
+      },
+      {
+        "name": "DistanceBetweenHorizontalPoints"
+      },
+      {
+        "name": "DistanceBetweenPoints"
+      },
+      {
+        "name": "SquaredDistanceBetweenPoints",
+        "overload": 0
+      },
+      {
+        "name": "SquaredDistanceBetweenPoints",
+        "overload": 1
+      },
+      {
+        "name": "_VectorNormalise"
+      },
+      {
+        "name": "InvDegToRad"
+      },
+      {
+        "name": "IsNumeric"
+      },
+      {
+        "name": "ResetLocalPad"
+      },
+      {
+        "name": "IsFileOrDirectoryExists"
+      },
+      {
+        "name": "IsHexChar",
+        "overload": 0
+      },
+      {
+        "name": "IsHexChar",
+        "overload": 1
+      },
+      {
+        "name": "GetColorFromEmbedCode",
+        "overload": 0
+      },
+      {
+        "name": "GetColorFromEmbedCode",
+        "overload": 1
+      },
+      {
+        "name": "RemoveColorEmbedsFromString"
+      },
+      {
+        "name": "GetVehicleSubtypeFromVehiclePtr"
+      },
+      {
+        "name": "unnamed_100B6100"
+      },
+      {
+        "name": "GameGetWeaponModelIDFromWeaponID"
+      }
+    ]
+  },
+  "closure_models": {
+    "source": "game/game.cpp",
+    "cls": "CGame",
+    "definitions": [
+      {
+        "name": "sub_100A0090"
+      },
+      {
+        "name": "FindGroundZForCoord"
+      },
+      {
+        "name": "IsGameLoaded"
+      },
+      {
+        "name": "GetWorldTime"
+      },
+      {
+        "name": "ToggleThePassingOfTime"
+      },
+      {
+        "name": "SetWorldWeather"
+      },
+      {
+        "name": "GetWorldWeather"
+      },
+      {
+        "name": "IsHudEnabled"
+      },
+      {
+        "name": "IsFrameLimiterEnabled"
+      },
+      {
+        "name": "EnableFrameLimiter"
+      },
+      {
+        "name": "SetFrameLimit"
+      },
+      {
+        "name": "SetMaxStats"
+      },
+      {
+        "name": "DisableTrainTraffic"
+      },
+      {
+        "name": "RefreshStreamingAt"
+      },
+      {
+        "name": "ToggleRadar"
+      },
+      {
+        "name": "DisableRaceCheckpoint"
+      },
+      {
+        "name": "CreateRadarMarkerIcon"
+      },
+      {
+        "name": "GetActiveInterior"
+      },
+      {
+        "name": "AddToLocalMoney"
+      },
+      {
+        "name": "GetLocalMoney"
+      },
+      {
+        "name": "RestartEverything"
+      },
+      {
+        "name": "GetWeaponInfo"
+      },
+      {
+        "name": "SetGravity"
+      },
+      {
+        "name": "SetWantedLevel"
+      },
+      {
+        "name": "SetGameTextCount"
+      },
+      {
+        "name": "DrawGangZone"
+      },
+      {
+        "name": "EnableZoneNames"
+      },
+      {
+        "name": "EnableStuntBonus"
+      },
+      {
+        "name": "DisableEnterExits"
+      },
+      {
+        "name": "LoadScene"
+      },
+      {
+        "name": "GetMemoryUsedForStreaming"
+      },
+      {
+        "name": "GetMemoryAvailableForStreaming"
+      },
+      {
+        "name": "GetLoadedVehicleModelCount"
+      },
+      {
+        "name": "GetTimeInMilliseconds"
+      },
+      {
+        "name": "GetRwObjectsCount"
+      },
+      {
+        "name": "LoadCollisionFile"
+      },
+      {
+        "name": "LoadCullZone"
+      },
+      {
+        "name": "IsUsingController"
+      },
+      {
+        "name": "DisableWeaponLockOnTarget"
+      },
+      {
+        "name": "GetWeaponModelIDFromWeapon"
+      }
+    ]
+  },
+  "closure_controls": {
+    "source": "game/game.cpp",
+    "cls": null,
+    "definitions": [
+      {
+        "name": "DIResetMouse"
+      },
+      {
+        "name": "UpdatePads"
+      }
+    ]
+  },
+  "closure_protection": {
+    "source": "game/patches.cpp",
+    "cls": null,
+    "definitions": [
+      {
+        "name": "UnFuck"
+      }
+    ]
+  }
+}

@@ -5,26 +5,30 @@ des sources maintenables produisant les octets exacts du R5 gelé.
 
 ## Checkpoint 3.2 — en cours
 
-La couverture cumulée atteint **29 955 octets de code uniques (3,2184 % de
-`.text`)**. Le lot Entity courant valide 124 régions de code/données, dont
-85 fonctions complètes (5 903 octets de code, **386 nouveaux** par rapport au
-lot précédent, sans doublons).
+La couverture cumulée atteint **33 024 octets de code uniques (3,5481 % de
+`.text`)**. La capsule courante valide 221 régions de code/données, dont
+165 fonctions complètes (9 403 octets de code, **3 069 nouveaux** par rapport
+au lot précédent, sans doublons).
 
-Les nouvelles fonctions couvrent force, audio, RenderWare, contrôle natif,
-cible native, immobilité et avancement de position. Ce dernier corps est exact,
-mais sa dépendance SetMatrixAndUpdate reste nonmatching et exclue, comme
-FUNC_1009EC80, GetEulerAngles, AddEntry et PushBack. La capsule liée et les tests
-ABI force/audio passent ; le checkpoint et le DLL complet restent incomplets.
+Le dernier lot ajoute les utilitaires de pools, géométrie, armes, couleurs
+Unicode, tâches natives, temps/météo, streaming et marqueurs. La section de
+conversion des armes est comparée sur ses 556 octets, table de sauts comprise ;
+seuls ses 371 octets d'instructions comptent comme code. Les quatorze nouvelles
+commandes de script, références CRT et l'import VirtualProtect sont vérifiés.
+Six fournisseurs implémentés restent nonmatching et exclus : AddEntry, PushBack,
+SetMatrixAndUpdate, FUNC_1009EC80, GetEulerAngles et le parseur de couleurs ANSI.
+Le checkpoint et le DLL complet restent incomplets.
 
 ```sh
-.venv/bin/python tools/accept_actor_closure.py --run cp32-entity-tail-linked \
-  --contract config/checkpoint32/entity-tail-contract.json \
-  --report entity-tail-acceptance.json \
+.venv/bin/python tools/accept_actor_closure.py --run cp32-common2-linked \
+  --contract config/checkpoint32/common-contract.json \
+  --report common-acceptance.json \
   --previous evidence/checkpoint32/closure-acceptance.json \
-  --previous evidence/checkpoint32/actor-expansion-acceptance.json
+  --previous evidence/checkpoint32/actor-expansion-acceptance.json \
+  --previous evidence/checkpoint32/entity-tail-acceptance.json
 ```
 
-Voir [les preuves actuelles](evidence/checkpoint32/entity-tail-acceptance.json),
+Voir [les preuves actuelles](evidence/checkpoint32/common-acceptance.json),
 [la couverture actuelle](evidence/checkpoint32/coverage-current.json) et
 [le travail en cours](evidence/checkpoint32/PROGRESS.md).
 Le [premier lot historique](evidence/checkpoint32/REPORT.md) couvrait 44 fonctions

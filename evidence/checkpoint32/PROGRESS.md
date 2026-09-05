@@ -210,3 +210,52 @@ la source amont), GetEulerAngles (87/105) et SetMatrixAndUpdate (89/91). Les
 fonctions autour de 9EF50 (modèle) dépendent du lookup A7A40/B45A0 et de sa
 mémoire de modèles relocalisée ; les distances joueur dépendent de FindPlayerPed.
 Élargir aussi les lots voisins plutôt que répéter longtemps les mêmes variantes.
+
+
+## Utilitaires communs et CGame — lot accepté
+
+`cp32-common2-linked`, contrat `common-contract.json` : 221 régions, 165
+fonctions complètes, 9 403 octets de code. Le lot ajoute 80 corps aux 85 du lot
+précédent, soit 3 500 octets ; après déduction des chevauchements historiques,
+le gain est **3 069 octets uniques**. Cumul **33 024 / 930 756 = 3,5481 %**.
+
+Pools natifs, tâches, angles/distances, sous-types véhicules, parseur Unicode,
+conversion d'armes, temps/météo, streaming et marqueurs sont comparés avec leurs
+cibles réelles. Le switch B3E20 comporte 371 octets de code dans une section
+COFF de 556 octets : alignement et 46 entrées relocalisées de table sont
+comparés intégralement, sans les compter comme code. Quatorze SCRIPT_COMMAND
+supplémentaires passent sur leurs 18 octets entiers. VirtualProtect est bien
+l'import kernel32.dll des deux images ; __stat, wcsncpy, wcstoul et strstr sont
+fournis par le CRT et restent hors couverture source.
+
+Le parseur ANSI GetColorFromEmbedCode reste différent (257 contre 271 octets)
+et rejoint les cinq fournisseurs déjà exclus. Le corps appelant
+RemoveColorEmbedsFromString peut être exact sans rendre cette dépendance exacte.
+Le gate intègre cette distinction. L'exécution ABI existante et les six mutations
+passent sur le nouveau link ; aucun test natif général supplémentaire ni double
+build. Les objets inchangés sont réutilisés : la dernière compilation n'a refait
+que closure_util et closure_models.
+
+Extraction pilotée par `common-selection.json`, avec choix explicite des deux
+surcharges pour IsHexChar, GetColorFromEmbedCode et SquaredDistanceBetweenPoints.
+`prepare_actor_closure.py` régénère les unités complètes ; il reprend aussi le
+typedef DrawZone_t original. L'échec initial sans ce typedef est conservé dans
+`cp32-common-ob1`; `cp32-common2-ob1` a ajouté les unités contrôle/protection,
+puis `cp32-common3-ob1` le switch armes et le traitement ~k~.
+
+Le scan complet `cp32-game-util-scan` a produit 111 candidats à adresse unique,
+5 198 octets avant vérification. Propositions et script de découverte conservés
+sous `build/game-util-candidates.json`, `.txt` et `scan_game_util.py` ; ce scan
+ignore les valeurs de fixups pour trouver des pistes et n'est jamais une preuve
+d'acceptation. Il manque les tables accolées dans son filtre de taille : le
+switch armes de 556 octets a donc été identifié séparément puis vérifié au gate.
+Les prochains ensembles intéressants sont les registres de pointeurs joueurs,
+les rasters/caméras et la gestion des modèles. Les données de ces ensembles
+restent à contractualiser avant de les compter.
+
+Observations modèle conservées pour la suite : A7A40 (51 octets) consulte le
+flag 1A25AC et le pointeur 114B08, initialisé à 1825AC ; sinon il accepte les
+indices 0..20000 inclus dans la table GTA A9B0C8. A7A00 efface 0xFFFF DWORDs à
+partir de 1625B0 et recopie 20000 pointeurs GTA vers la table relocalisée. Cela
+ne suffit pas encore à certifier la déclaration complète du stockage. B45A0
+(40 octets) appelle A7A40 puis lit le champ +1C ; Entity 9EF50 en dépend.

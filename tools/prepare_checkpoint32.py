@@ -9,13 +9,15 @@ from verify import ROOT
 from binary import need
 
 
-def definition(source,name):
+def definition(source,name,overload=None):
     # Strip comments/string contents only for brace tracking, preserving positions.
     lexical=re.sub(r'//[^\r\n]*|/\*[\s\S]*?\*/|"(?:\\.|[^"\\])*"|\'(?:\\.|[^\'\\])*\'',
                    lambda m:' '*(m.end()-m.start()),source)
     pattern=r'(?m)^[^\r\n;{}]*\b'+re.escape(name)+r'\s*\([^;{}]*\)\s*\{'
-    matches=list(re.finditer(pattern,lexical));need(len(matches)==1,'ambiguous source definition '+name)
-    start=matches[0].start();at=matches[0].end();depth=1
+    matches=list(re.finditer(pattern,lexical))
+    if overload is None:need(len(matches)==1,'ambiguous source definition '+name);overload=0
+    need(0<=overload<len(matches),'missing source overload '+name)
+    start=matches[overload].start();at=matches[overload].end();depth=1
     while depth and at<len(lexical):
         depth+=(lexical[at]=='{')-(lexical[at]=='}');at+=1
     need(depth==0,'unbalanced source definition')
