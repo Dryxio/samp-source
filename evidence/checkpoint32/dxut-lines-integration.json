@@ -1,0 +1,28 @@
+{
+  "status": "ACCEPTED_AFTER_COMPLETE_LINK_REVIEW",
+  "run": "cp32-dxut-lines-complete-linked",
+  "ob1": "cp32-dxut-lines-ob1",
+  "ob2": "cp32-ime-ob2",
+  "new_unique_code_bytes": 1822,
+  "accepted_direct_025_credit": 0,
+  "reference_comparison": {
+    "whole_line_block_identical_to_025": true,
+    "scope": "Eleven CDXUTLineManager methods; cubemap helper previously compiled from identical camera block."
+  },
+  "source_adaptations": "None. Original includes and complete contiguous line-manager source retained.",
+  "trials": [
+    {
+      "run": "cp32-dxut-lines-ob1",
+      "outcome": "Only new line-manager unit compiled; all25 emitted functions have discovery candidates, ambiguity resolved via actual callers during complete review."
+    },
+    {
+      "run": "cp32-dxut-lines-linked",
+      "outcome": "Initial export selection omitted constructors; successful link preserved, not accepted."
+    },
+    {
+      "run": "cp32-dxut-lines-complete-linked",
+      "outcome": "Explicit ctor/dtor exports added; no recompilation. Complete cubemap352 including table matches."
+    }
+  ],
+  "verification": "1805 whole regions, actual targets/PE relocations,10 negative controls and existing ABI pass. Complete EH cleanup/handler code and two36-byte unwind/FuncInfo objects, full float2 verified. D3DXCreateLine original/linked relay identity and pinned SDK MAP owner verified; vendor code excluded. Full cubemap352 includes328 code. Eight old pending unchanged; no graphics execution."
+}
