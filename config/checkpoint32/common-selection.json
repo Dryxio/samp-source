@@ -1392,5 +1392,32 @@
       "symbol": "iGtaVersion",
       "size": 4
     }
+  },
+  "closure_menu_pool": {
+    "source": "net/menupool.cpp",
+    "cls": "CMenuPool",
+    "definitions": [
+      {
+        "name": "CMenuPool"
+      },
+      {
+        "name": "~CMenuPool"
+      },
+      {
+        "name": "Delete"
+      },
+      {
+        "name": "ShowMenu"
+      },
+      {
+        "name": "HideMenu"
+      },
+      {
+        "name": "GetTextPointer"
+      }
+    ],
+    "declarations": [
+      "extern CHAR g_szMenuItems[MAX_MENU_ITEMS][MAX_COLUMNS][MAX_MENU_LINE+1];"
+    ]
   }
 }

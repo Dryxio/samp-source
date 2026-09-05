@@ -332,3 +332,7 @@ Shared acceptance adds 1,800 unique code bytes, bringing the union to 43,045 / 9
 ## Menus, font, texture, RenderWare and radar helpers
 
 Render acceptance adds 3,282 unique code bytes across78 selected functions. Certified union:46,327 /930,756 (4.97735%). All menu script descriptors/strings and the complete792-byte label array match, as do both4000-byte radar arrays and the complete52-byte rotation-axis source section including its emitted RakNet IDs/padding. Data is not counted as code. The native GTA-version scalar binds to26EB28. Full gate, six mutation controls and existing ABI checks passed. No rendering/deployment or redundant build. The older0.2.5 menu algorithm is already present in the current base; direct0.2.5 transfer credit remains392 bytes.
+
+## Menu and gang-zone pools
+
+UI-pool acceptance adds1,062 unique code bytes across13 ordinary-C++ functions. Union:47,389 /930,756 (5.09145%). Existing menu/render dependencies are reused. Complete phase/tick static objects and menu lookup strings are verified; malloc and GetTickCount are explicitly identified. Full gate, six mutation controls and existing ABI checks passed. MenuPool New/Process remain outside this batch. Direct0.2.5 contribution remains392 bytes.
