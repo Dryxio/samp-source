@@ -1,0 +1,11 @@
+{
+  "status": "ACCEPTED_AFTER_COMPLETE_LINK_REVIEW",
+  "run": "cp32-gui-edit-render-linked",
+  "ob1": "cp32-gui-edit-render-ob1",
+  "ob2": "cp32-ime-ob2",
+  "new_unique_code_bytes": 1253,
+  "accepted_direct_025_credit": 0,
+  "source_adaptations": "Add R5 field126 password branch duplicating original text/selection rendering, wrapping both substrings with actual MaskPasswordString. Preserve all remaining behavior.",
+  "reference_comparison": "Base and0.2.5 render definitions identical; both lack password branch. No transfer credit.",
+  "verification": "2033 whole regions, full1253-byte render at8F400, actual accepted helper/float/wide DrawText targets and all PE relocations. One new actual user32 IntersectRect import.10 negative controls and existing actor ABI pass. No new pending/data. First compilation and one link exact. No GUI/game execution, push/deployment."
+}

@@ -981,3 +981,14 @@ No counterpart located in local0.2.5 by filename or distinctive calls/colors; no
 Current accepted link cp32-gui-slider-panel-linked2; Ob1 cp32-gui-slider-panel-lookup-ob1, Ob2 cp32-ime-ob2; units build/gui-slider-panel-units.txt. New generator tools/prepare_gui_lookup.py; class uses existing client/saco/unkclass4.cpp. Contract/seeds gui-slider-panel, review build/review_gui_slider_panel.py, acceptance/integration gui-slider-panel. All processes terminal. Prior widget/control/combo owner migrations unchanged.
 
 Next: broader app-level GUI sources now viable; unkclass3 reset still gated by actual ListBox/IME constructors/layout. Evaluate resource-manager teardown/UniBuffer Uninitialize or remaining EditBox Render/MsgProc against R5. Wider0.2.5 missing implementations remain prioritized when available. Whole DLL incomplete.
+
+
+## Complete R5 EditBox rendering including password display
+
+GUI-edit-render adds1,253 unique exact bytes, reaching170,602 /930,756 (18.32940%). Entire Render1253 at8F400 identified by actual GetFont870C0/PlaceCaret85470/CPtoX9BCF0/drawing calls. Original field126 branch splits plain/password rendering; two actual MaskPasswordString85920 calls wrap text substrings in password path. Base and0.2.5 render bodies identical846 and omit that branch. Added normal C++ conditional, duplicating original text/selection block and wrapping both DrawText strings; all other logic unchanged, including disabled blink and visible/enabled caret condition. Full1253 matches first compile.
+
+2033 whole regions, all original/linked target/PE relocation checks,10 negative controls and existing actor ABI pass. New actual user32 IntersectRect import identity checked. No new pending/data; eight old pending unchanged. No direct0.2.5 transfer credit (total1,523 unchanged). No GUI/game execution, push/deployment. R5 diagnostic disassembly retained build/edit-render-r5.asm.
+
+Current accepted link cp32-gui-edit-render-linked; Ob1 cp32-gui-edit-render-ob1, Ob2 cp32-ime-ob2; units build/gui-edit-render-units.txt. Generator tools/prepare_gui_edit_render.py; review build/review_gui_edit_render.py; contract/seeds and acceptance/integration gui-edit-render. All processes terminal; previous owner migrations unchanged.
+
+Next: EditBox MsgProc original at89320 has545 inventory code bytes (source565 may include attached tables); identified by actual PlaceCaret/InsertChar calls. Base body has unfinished overwrite else branch and does not use bPlaceCaret after insert, suspicious cast-direction logic; recover actual behavior from R5, do not fix by intuition. Actual InsertChar WCHAR at9BA10 and CHAR at9BAA0 still need complete providers; source fullscan candidates143/175. Constructor256 at8F280 now closer to full virtual closure once MsgProc is accepted. IME and ListBox remaining gaps still excluded. Whole DLL incomplete.
