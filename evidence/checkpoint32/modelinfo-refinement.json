@@ -1,0 +1,72 @@
+{
+  "rows": [
+    {
+      "symbol": "?ModelInfoLocalVolatile@@YGHI@Z",
+      "size": 40,
+      "rva": 738720,
+      "reference_size": 40,
+      "resolved_exact": false,
+      "differences": [
+        23,
+        26
+      ]
+    },
+    {
+      "symbol": "?ModelInfoParameterVolatile@@YGHI@Z",
+      "size": 40,
+      "rva": 738720,
+      "reference_size": 40,
+      "resolved_exact": false,
+      "differences": [
+        23,
+        26
+      ]
+    },
+    {
+      "symbol": "?ModelInfoPointerVolatile@@YGHI@Z",
+      "size": 24,
+      "rva": 738720,
+      "reference_size": 40,
+      "resolved_exact": false,
+      "differences": null
+    }
+  ],
+  "object_sha256": "e5b9dee3e323d3a3fddb6e1209c9b678d1734f0bc0fcfe47e1ce3e982cd1f1c5",
+  "reference_sha256": "b72b5dbe725f81864ca3f78bc7063bda56cc05fc7188af822fa7a754432553a2",
+  "status": "FUNCTION_EXPERIMENT_NOT_ACCEPTED_COVERAGE",
+  "source_sha256": "b425122025b29b3335ca8dc3d59d5681d3850360492a2f7b508c74ca73353678",
+  "accepted_coverage_increment": 0,
+  "getter_candidate": {
+    "symbol": "?GetModelInfo@@YGPAEH@Z",
+    "unit": "closure_modelinfo",
+    "run": "cp32-ui-pools-linked",
+    "rva": 686656,
+    "size": 51,
+    "result": "EXACT_RESOLVED_FUNCTION_NOT_ACCEPTED",
+    "object_sha256": "134ade8a17ead092e6023f58c0e9e8c2b54e22bde5a0135685ca13fa06cd7bd1",
+    "targets": {
+      "?useExtendedModelInfos@@3HA": 270149036,
+      "?extendedModelInfos@@3PAPAEA": 269568776
+    }
+  },
+  "storage_evidence": {
+    "initializer_rva": 686592,
+    "initializer_size": 52,
+    "initializer_sha256": "a7659c11dd1a140e3a3bdb5a4fe3c648f7cc2e5552499aa14760df1904a9c3b5",
+    "zeroing_start_rva": 1451440,
+    "zeroing_dword_count": 65535,
+    "zeroing_end_rva_exclusive": 1713580,
+    "pointer_slot_rva": 1133320,
+    "initial_pointer_rva": 1582508,
+    "initial_pointer_element_offset": 32767,
+    "native_table_va": 11120840,
+    "initial_copy_dword_count": 20000,
+    "review": "The original initializer clears65535 DWORDs beginning1625B0 and copies20000 native entries through pointer114B08. The pointer initially targets1825AC,32767 elements into the cleared range. The provisional32768-element backing array currently used only by an unmatched provider is insufficient to model the full original cleared range and negative indices."
+  },
+  "next_actions": [
+    "Replace provisional model storage with a complete65535-pointer source allocation and a separately emitted pointer to element32767; retain the mode flag as a separate complete scalar.",
+    "Use minimal storage-only headers to avoid unrelated initialized RakNet objects; review all pointer addends and original/actual placements.",
+    "Seed and integrate the51-byte getter with its complete storage dependencies. Keep the40-byte helper excluded until all bytes match.",
+    "Two volatile C++ helper variants produce40 bytes with two register differences at23/26; pointer-only volatile produces24 bytes. Do not count any as exact."
+  ]
+}
