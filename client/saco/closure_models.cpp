@@ -1,0 +1,27 @@
+// Incremental source unit: complete definitions from game/game.cpp.
+#include "main.h"
+
+void CGame::RequestModel(int iModelID, int iLoadingStream)
+{
+	ScriptCommand(&request_model,iModelID);
+}
+
+void CGame::LoadRequestedModels()
+{
+	ScriptCommand(&load_requested_models);
+}
+
+BOOL CGame::IsModelLoaded(int iModelID)
+{
+	if(iModelID > 20000 || iModelID < 0) return TRUE;
+
+	return ScriptCommand(&is_model_available,iModelID);
+}
+
+void CGame::SetWorldTime(int iHour, int iMinute)
+{
+	*(PBYTE)0xB70152 = (BYTE)iMinute;
+	*(PBYTE)0xB70153 = (BYTE)iHour;
+
+	ScriptCommand(&set_current_time, iHour, iMinute);
+}

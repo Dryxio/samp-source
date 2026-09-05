@@ -82,7 +82,17 @@ void CChatWindow::ResetDialogControls(CDXUTDialog *pGameUI)
 
 void CChatWindow::AddDebugMessage(CHAR * szFormat, ...)
 {
-	// TODO: CChatWindow::AddDebugMessage .text:100680F0
+    // Complete C++ reconstruction of the R5 formatting and sanitizing path.
+    char buffer[512];
+    memset(buffer, 0, sizeof(buffer));
+    va_list args;
+    va_start(args, szFormat);
+    vsprintf(buffer, szFormat, args);
+    va_end(args);
+    for(char *p = buffer; *p; ++p) {
+        if(*p > 0 && *p < 32) *p = ' ';
+    }
+    AddEntry(8, buffer, NULL, m_dwChatDebugColor, 0);
 }
 // MATCH
 void CChatWindow::FUNC_10067200()

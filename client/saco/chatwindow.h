@@ -52,6 +52,7 @@ private:
 public:
 
 	void AddDebugMessage(CHAR *szFormat, ...);
+	void AddEntry(int type, CHAR *text, CHAR *prefix, DWORD textColor, DWORD prefixColor);
 
 	void ResetDialogControls(CDXUTDialog *pGameUI);
 
