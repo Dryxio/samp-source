@@ -1184,3 +1184,12 @@ Coverage180910/930756=19.436888%,+1129unique principal1022+helper23+EH84. Direct
 Latestcp32-player-effects-linked;Ob1cp32-player-effects-ob1,Ob2cp32-gui-overwrite-ob2;unitsbuild/player-effects-units.txt,launcherbuild/run_player_effects.ps1,reviewbuild/review_player_effects.py. Contract/seeds/acceptance/integration player-effects. Total7769newunique sincebaseline173141 at20:11:21Z; rateinintegrationjson includescoordination. Localcommitonly,goalactive.
 
 ModelC770281temporarilydeprioritized: variants1/2same281wrongfailureblockposition,variant3=285. EnsureReady105D320exactbutdependencyC770unmatchedsoexcluded. Agent1nowresearchestextdrawDrawText727/DrawSprite272/dispatch19 independentofC770; agent2vehicle/menuRPC nextfamily. Currentcp32-rpc-vehicle-menu-trial1 liveprobe ofeval_rpc_vehicle_menu (5RPC+poolprovider1031potential); waitterminal before nextVMjob. Preserveevalsources andallfailedtrials.
+
+
+## Vehicle/menu RPC lot1136 accepted
+
+Coverage182046/930756=19.558939%,+1136unique principal995+pool36+EH105. Direct0251031,total8161; LinkToInterior36 source025previouslymissingbase genuinelytransferredwithR5viewoffsets.2221whole regions,5EHmaps36each,10negativecontrols and actorABI PASS. Netgame3DE poolsvehicle0/menu20, vehicles1134/states3074/capacity2000, Healthnullguardsverified; ShowMenu7FC0/HideMenu8020 truetargets. No newimports/constants,nofullallocatedclassclaim. Eightoldpendingunchanged.
+
+Latestcp32-vehicle-menu-linked;Ob1cp32-vehicle-menu-ob1,Ob2cp32-gui-overwrite-ob2;unitsbuild/vehicle-menu-units.txt,launcherbuild/run_vehicle_menu.ps1,reviewbuild/review_vehicle_menu.py. Contract/seeds/acceptance/integration vehicle-menu. Total8905newunique sincebaseline173141 at20:11:21Z; measuredrateinintegrationjson includescoordination. Localcommitonly,fullgoalactive.
+
+Nexttextdrawtrial cp32-textdraw-render-trial1: DrawTextA727B31A0 exact (WindowsDrawTextmacro appendsA), dispatch19B3480exact; sprite278vs272nonmatch. NativeCppfailedMSVC2003C4234__thiscallfunctionpointerkeyword; no probejson butfirsttwoobjectspreserved. Agent1fixingsprite/nativeABI, sourceviewembeddedinCPPavoidsnewsharedheaderandunrelatedrecompile. RenderState26 proposedfromexistingbase. Agent2preparing6ActorRPC1512potentialusingacceptedActorPool/ActorPed/Entity, noSpawnbecauseproviderB3DD0unimplemented.
