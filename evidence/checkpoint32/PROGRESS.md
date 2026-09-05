@@ -1175,3 +1175,12 @@ Coverage179781/930756=19.315588%,+446unique. No direct025credit,total6108unchang
 Latestcp32-custom-install-linked;Ob1cp32-custom-install-ob1,Ob2cp32-gui-overwrite-ob2;unitsbuild/custom-install-units.txt,launcherbuild/run_custom_install.ps1,reviewbuild/review_custom_install.py. Contract/seeds/acceptance/integration custom-install. Total6640newuniquesincebaseline173141; throughputinintegrationjson. Localcommitonly,fullgoalactive.
 
 Nextcp32-model-player-trial1: EnsureReady105D320 exactafterstoreorderfix; LoadModelFiles281stillnonmatchdespitefailurelabel, agent1diagnosing. FiveRPC+helperexact: Reset28,Behind13,FindZ270,Explosion258,Widescreen174,SetStatePair23; Pos279stillnonmatchagent2diagnosing. Two SCRIPT_COMMAND objects18 atE61E4/E620C needwhole-objectselection, notwholecombined38section; sourceRadiusfloat/formatfffii preserved. No pendingcandidatecredit. Alltrialprocessesterminal, evalsourcespreserved.
+
+
+## Player position/effects RPC lot1129 accepted
+
+Coverage180910/930756=19.436888%,+1129unique principal1022+helper23+EH84. Direct0251022,total7130.2205whole regions,4EHmaps36each,2completeSCRIPT_COMMAND18,float1.5/debugstring16;10negativecontrols and actorABI PASS. Pos279 matchedusingnull-localplayer earlyreturn insteadnestedpositivebranch (prior283). Actual statepair3710 fields2DA/2DE, reset2E2; partialviewonly. Radiusfloatvarargs/fffii descriptor and Widescreendebug preserved. Narrow two-symbol SCRIPT_COMMAND rule addedtoolsdraft/gate, full18bytes notcombined38section, no codetruncation/masks. Eightoldpendingunchanged.
+
+Latestcp32-player-effects-linked;Ob1cp32-player-effects-ob1,Ob2cp32-gui-overwrite-ob2;unitsbuild/player-effects-units.txt,launcherbuild/run_player_effects.ps1,reviewbuild/review_player_effects.py. Contract/seeds/acceptance/integration player-effects. Total7769newunique sincebaseline173141 at20:11:21Z; rateinintegrationjson includescoordination. Localcommitonly,goalactive.
+
+ModelC770281temporarilydeprioritized: variants1/2same281wrongfailureblockposition,variant3=285. EnsureReady105D320exactbutdependencyC770unmatchedsoexcluded. Agent1nowresearchestextdrawDrawText727/DrawSprite272/dispatch19 independentofC770; agent2vehicle/menuRPC nextfamily. Currentcp32-rpc-vehicle-menu-trial1 liveprobe ofeval_rpc_vehicle_menu (5RPC+poolprovider1031potential); waitterminal before nextVMjob. Preserveevalsources andallfailedtrials.
