@@ -11,13 +11,13 @@ CCmdWindow::CCmdWindow(IDirect3DDevice9 *pD3DDevice)
 	m_bEnabled				= FALSE;
 	m_pD3DDevice			= pD3DDevice;
 	m_iCmdCount				= 0;
-	field_1AF4				= 0;
+	m_iTotalRecalls				= 0;
 	m_pEditControl			= NULL;
-	field_1AF0				= -1;
+	m_iCurrentRecallAt				= -1;
 
-	memset(&field_1565[0],0,1290);
+	memset(&m_szRecallBuffer[0],0,1290);
 	memset(&m_szInputBuffer[0],0,(MAX_CMD_INPUT+1));
-	memset(&field_1A6F[0],0,129);
+	memset(&m_szCurBuffer[0],0,129);
 }
 
 //----------------------------------------------------
@@ -155,3 +155,49 @@ void CCmdWindow::AddCmdProc(PCHAR szCmdName, CMDPROC cmdHandler)
 
 
 
+
+// Recall methods transferred from0.2.5 with existing R5 layout and GetTextA.
+void CCmdWindow::AddToRecallBuffer(char *szCmdInput)
+{
+	// Move all the existing recalls up 1
+    int x=10-1;
+	while(x) {
+		strcpy(m_szRecallBuffer[x],m_szRecallBuffer[x-1]);
+		x--;
+	}
+	// Copy this into the first recall slot
+    strcpy(m_szRecallBuffer[0],szCmdInput);
+	if(m_iTotalRecalls < 10) {
+		m_iTotalRecalls++;
+	}
+}
+void CCmdWindow::RecallUp()
+{
+	if(m_iCurrentRecallAt >= (m_iTotalRecalls - 1)) return;
+
+	if(m_iCurrentRecallAt == -1) {
+		// Save the current buffer incase we want to return to it.
+		strncpy(m_szCurBuffer,m_pEditControl->GetTextA(),MAX_CMD_INPUT);
+		m_szCurBuffer[MAX_CMD_INPUT] = '\0';
+	}
+
+	m_iCurrentRecallAt++;
+	m_pEditControl->SetText(m_szRecallBuffer[m_iCurrentRecallAt]);
+	//pChatWindow->AddDebugMessage("RecallAt: %d",m_iCurrentRecallAt);	
+}
+void CCmdWindow::RecallDown()
+{
+	m_iCurrentRecallAt--;
+	if(m_iCurrentRecallAt >= 0) {
+		m_pEditControl->SetText(m_szRecallBuffer[m_iCurrentRecallAt]);
+		//pChatWindow->AddDebugMessage("RecallAt: %d",m_iCurrentRecallAt);
+	} else {
+		if(m_iCurrentRecallAt == -1) {
+			m_pEditControl->SetText(m_szCurBuffer);
+			//pChatWindow->AddDebugMessage("RecallAt: -cur-");
+		}
+		m_iCurrentRecallAt = -1;		
+	}	
+}
+
+typedef char complete_command_window_size[(sizeof(CCmdWindow)==0x1AFC)?1:-1];

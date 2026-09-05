@@ -1554,5 +1554,35 @@
       "symbol": "pFileSystem",
       "size": 4
     }
+  },
+  "closure_cmd_recall": {
+    "source": "cmdwindow.cpp",
+    "cls": "CCmdWindow",
+    "definitions": [
+      {
+        "name": "CCmdWindow"
+      },
+      {
+        "name": "AddToRecallBuffer"
+      },
+      {
+        "name": "RecallUp"
+      },
+      {
+        "name": "RecallDown"
+      },
+      {
+        "name": "GetDialogSize"
+      },
+      {
+        "name": "GetCmdHandler"
+      },
+      {
+        "name": "AddDefaultCmdProc"
+      },
+      {
+        "name": "AddCmdProc"
+      }
+    ]
   }
 }

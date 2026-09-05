@@ -26,10 +26,10 @@ public:
 	BOOL		m_bEnabled;
 
 	char		m_szInputBuffer[MAX_CMD_INPUT + 1];
-	char field_1565[1290];
-	char field_1A6F[129];
-	int field_1AF0;
-	int field_1AF4;
+	char m_szRecallBuffer[10][MAX_CMD_INPUT+1];
+	char m_szCurBuffer[MAX_CMD_INPUT+1];
+	int m_iCurrentRecallAt;
+	int m_iTotalRecalls;
 	CMDPROC		m_pDefaultCmd;	 // used when no command specifier was
 								 // used (ie. a normal chat message)
 
@@ -39,6 +39,9 @@ public:
 	void Disable();
 
 	void ProcessInput();
+	void AddToRecallBuffer(char *szCmdInput);
+	void RecallUp();
+	void RecallDown();
 
 	CMDPROC GetCmdHandler(PCHAR szCmdName);
 	void AddDefaultCmdProc(CMDPROC cmdDefault);
