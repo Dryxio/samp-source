@@ -6,7 +6,7 @@ $Out=Join-Path $Root "build\$Run"; if(Test-Path $Out) {throw 'Preserve existing 
 New-Item -ItemType Directory $Out | Out-Null
 $Vs='C:\Program Files (x86)\Microsoft Visual Studio .NET 2003'
 $env:PATH="$Vs\Common7\IDE;$Vs\Vc7\bin;"+$env:PATH
-$env:LIB="$Vs\Vc7\lib;$Vs\Vc7\PlatformSDK\lib"
+$env:LIB="$Root\private\checkpoint31;$Vs\Vc7\lib;$Vs\Vc7\PlatformSDK\lib"
 $Objects=@();$Probes=@()
 foreach($Source in @($Ob1,$Ob2)) {
  $Directory=Join-Path $Root "build\$Source";$Probe=Get-Content (Join-Path $Directory 'probe.json') -Raw | ConvertFrom-Json
@@ -17,13 +17,13 @@ foreach($Source in @($Ob1,$Ob2)) {
 Copy-Item (Join-Path $Root 'config\checkpoint32\closure-exports.def') $Out
 Push-Location $Out
 try {
- & link.exe /nologo /dll /incremental:no /opt:ref /opt:noicf /base:0x10000000 /map:closure.map /out:closure.dll /def:closure-exports.def @Objects kernel32.lib wsock32.lib
+ & link.exe /nologo /dll /incremental:no /opt:ref /opt:noicf /base:0x10000000 /map:closure.map /out:closure.dll /def:closure-exports.def @Objects kernel32.lib wsock32.lib d3dx9.lib
  if($LASTEXITCODE -ne 0) {throw 'Link failed'}
 } finally {Pop-Location}
 $Hashes=@{}
 Get-ChildItem $Out -File | ForEach-Object {$Hashes[$_.Name]=(Get-FileHash $_.FullName).Hash.ToLowerInvariant()}
 $Sdk=@{}
-foreach($Name in @('libcmt.lib','libcpmt.lib','oldnames.lib','kernel32.lib','uuid.lib','wsock32.lib')) {
+foreach($Name in @('libcmt.lib','libcpmt.lib','oldnames.lib','kernel32.lib','uuid.lib','wsock32.lib','d3dx9.lib')) {
  foreach($Directory in $env:LIB.Split(';')) {
   $Path=Join-Path $Directory $Name
   if(Test-Path $Path) {$Sdk[$Name]=(Get-FileHash $Path).Hash.ToLowerInvariant();break}

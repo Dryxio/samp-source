@@ -1480,5 +1480,45 @@
       "symbol": "useExtendedModelInfos",
       "size": 4
     }
+  },
+  "closure_font_settings": {
+    "source": "main.cpp",
+    "cls": null,
+    "definitions": [
+      {
+        "name": "GetFontSize"
+      },
+      {
+        "name": "GetFontWeight"
+      },
+      {
+        "name": "GetFontFace"
+      },
+      {
+        "name": "GetDeathWindowFontSize"
+      },
+      {
+        "name": "GetUIFontSize"
+      }
+    ],
+    "declarations": [
+      "extern CGame *pGame;",
+      "extern CConfig *pConfig;"
+    ]
+  },
+  "closure_store_config_pointer": {
+    "source": "main.cpp",
+    "cls": null,
+    "definitions": [],
+    "storage_includes": [
+      "\"game/common.h\"",
+      "\"config.h\""
+    ],
+    "storage": {
+      "source_declaration": "CConfig\t\t\t\t\t*pConfig=0;",
+      "declaration": "CConfig *pConfig=0;",
+      "symbol": "pConfig",
+      "size": 4
+    }
   }
 }
