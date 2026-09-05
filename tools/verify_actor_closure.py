@@ -136,6 +136,19 @@ class Gate:
             expected=tuple(e['import'])
             need(import_slots(self.reference).get(e['reference_va'])==expected,'wrong R5 import')
             need(import_slots(self.linked).get(actual)==expected,'wrong linked import')
+        elif e['kind']=='import-thunk':
+            expected=tuple(e['import_identity'])
+            need(e['size']==6,'invalid import thunk size')
+            for pe,va in ((self.reference,e['reference_va']),(self.linked,actual)):
+                rva=va-pe.base;raw=pe.read(rva,6)
+                need(raw[:2]==b'\xff\x25','changed import thunk instruction')
+                need({x-rva for x in pe.relocations if rva<=x<rva+6}=={2},'import thunk PE relocations differ')
+                need(import_slots(pe).get(u32(raw,2))==expected,'wrong import thunk destination')
+                if pe is self.reference:
+                    need(sha(raw)==e['sha256'] and u32(raw,2)==e['import_slot_va'],'changed original import thunk')
+            need(e['library'] in self.contract['sdk'],'unreviewed import library')
+            owner=e['library'].removesuffix('.lib').upper()+':'
+            need(any(owner in provider.upper() for _,provider in self.maps[name]),'import thunk has a non-vendor provider')
         else:
             need(e['kind']=='crt','unsupported external kind')
             if 'chunks' in e:

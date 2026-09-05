@@ -34,6 +34,18 @@ class ClosureGateTests(unittest.TestCase):
         sec=next(s for s in g.reference.sections if s['rva']<=at<s['rva']+s['size'])
         data=bytearray(sec['bytes']);data[at-sec['rva']]^=1;sec['bytes']=bytes(data)
         with self.assertRaisesRegex(ValueError,'changed CRT reference chunk'):g.verify()
+    def test_wrong_import_thunk_destination(self):
+        g=Gate(fresh=False)
+        entry=next((e for e in g.contract['externals'].values() if e['kind']=='import-thunk'),None)
+        if entry is None:self.skipTest('No import thunk in this historical contract')
+        entry['import_identity']=['wsock32.dll','#65535']
+        with self.assertRaisesRegex(ValueError,'wrong import thunk destination'):g.verify()
+    def test_missing_import_thunk_relocation(self):
+        g=Gate(fresh=False)
+        entry=next((e for e in g.contract['externals'].values() if e['kind']=='import-thunk'),None)
+        if entry is None:self.skipTest('No import thunk in this historical contract')
+        g.reference.relocations.remove(entry['reference_va']-g.reference.base+2)
+        with self.assertRaisesRegex(ValueError,'import thunk PE relocations differ'):g.verify()
     def test_nonzero_global(self):
         g=Gate(fresh=False);r=next(r for r in g.regions if r['anchor']=='?pGame@@3PAVCGame@@A');at=r['linked_va']-g.linked.base
         sec=next(s for s in g.linked.sections if s['rva']<=at<s['rva']+max(s['virtual_size'],s['size']))

@@ -17,13 +17,13 @@ foreach($Source in @($Ob1,$Ob2)) {
 Copy-Item (Join-Path $Root 'config\checkpoint32\closure-exports.def') $Out
 Push-Location $Out
 try {
- & link.exe /nologo /dll /incremental:no /opt:ref /opt:noicf /base:0x10000000 /map:closure.map /out:closure.dll /def:closure-exports.def @Objects kernel32.lib
+ & link.exe /nologo /dll /incremental:no /opt:ref /opt:noicf /base:0x10000000 /map:closure.map /out:closure.dll /def:closure-exports.def @Objects kernel32.lib wsock32.lib
  if($LASTEXITCODE -ne 0) {throw 'Link failed'}
 } finally {Pop-Location}
 $Hashes=@{}
 Get-ChildItem $Out -File | ForEach-Object {$Hashes[$_.Name]=(Get-FileHash $_.FullName).Hash.ToLowerInvariant()}
 $Sdk=@{}
-foreach($Name in @('libcmt.lib','libcpmt.lib','oldnames.lib','kernel32.lib','uuid.lib')) {
+foreach($Name in @('libcmt.lib','libcpmt.lib','oldnames.lib','kernel32.lib','uuid.lib','wsock32.lib')) {
  foreach($Directory in $env:LIB.Split(';')) {
   $Path=Join-Path $Directory $Name
   if(Test-Path $Path) {$Sdk[$Name]=(Get-FileHash $Path).Hash.ToLowerInvariant();break}

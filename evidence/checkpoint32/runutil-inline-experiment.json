@@ -1,0 +1,142 @@
+{
+  "status": "DISCOVERY_ONLY_NOT_ACCEPTED",
+  "run": "cp32-runutil-inline-scan",
+  "reference_sha256": "b72b5dbe725f81864ca3f78bc7063bda56cc05fc7188af822fa7a754432553a2",
+  "rows": [
+    {
+      "unit": "eval_runutil_inline",
+      "symbol": "?Util_UrlUnencode@@YAXPAD@Z",
+      "size": 113,
+      "object_sha256": "ee8cfeb3ee01b3bf49812c53fc8b90781b37a0ae3396fcd9d4789f59a38244de",
+      "candidates": [
+        {
+          "rva": 96208,
+          "inferred_targets": {}
+        }
+      ]
+    },
+    {
+      "unit": "eval_runutil_inline",
+      "symbol": "?Util_toupper@@YADD@Z",
+      "size": 23,
+      "object_sha256": "ee8cfeb3ee01b3bf49812c53fc8b90781b37a0ae3396fcd9d4789f59a38244de",
+      "candidates": [
+        {
+          "rva": 96336,
+          "inferred_targets": {}
+        }
+      ]
+    },
+    {
+      "unit": "eval_runutil_inline",
+      "symbol": "?Util_stristr@@YAPADPBD0@Z",
+      "size": 177,
+      "object_sha256": "ee8cfeb3ee01b3bf49812c53fc8b90781b37a0ae3396fcd9d4789f59a38244de",
+      "candidates": [
+        {
+          "rva": 96368,
+          "inferred_targets": {}
+        }
+      ]
+    },
+    {
+      "unit": "eval_runutil_inline",
+      "symbol": "?Util_strupr@@YAXPAD@Z",
+      "size": 48,
+      "object_sha256": "ee8cfeb3ee01b3bf49812c53fc8b90781b37a0ae3396fcd9d4789f59a38244de",
+      "candidates": [
+        {
+          "rva": 96560,
+          "inferred_targets": {}
+        }
+      ]
+    },
+    {
+      "unit": "eval_runutil_inline",
+      "symbol": "?Util_wildcmp@@YAHPAD0@Z",
+      "size": 153,
+      "object_sha256": "ee8cfeb3ee01b3bf49812c53fc8b90781b37a0ae3396fcd9d4789f59a38244de",
+      "candidates": [
+        {
+          "rva": 96608,
+          "inferred_targets": {}
+        }
+      ]
+    },
+    {
+      "unit": "eval_runutil_inline",
+      "symbol": "?Util_strnicmp@@YAHPBD0I@Z",
+      "size": 151,
+      "object_sha256": "ee8cfeb3ee01b3bf49812c53fc8b90781b37a0ae3396fcd9d4789f59a38244de",
+      "candidates": [
+        {
+          "rva": 96768,
+          "inferred_targets": {}
+        }
+      ]
+    },
+    {
+      "unit": "eval_runutil_inline",
+      "symbol": "?Util_strrev@@YAPADPAD@Z",
+      "size": 79,
+      "object_sha256": "ee8cfeb3ee01b3bf49812c53fc8b90781b37a0ae3396fcd9d4789f59a38244de",
+      "candidates": [
+        {
+          "rva": 96928,
+          "inferred_targets": {}
+        }
+      ]
+    },
+    {
+      "unit": "eval_runutil_inline",
+      "symbol": "?Util_itoa@@YAPADHPADH@Z",
+      "size": 145,
+      "object_sha256": "ee8cfeb3ee01b3bf49812c53fc8b90781b37a0ae3396fcd9d4789f59a38244de",
+      "candidates": [
+        {
+          "rva": 97008,
+          "inferred_targets": {}
+        }
+      ]
+    },
+    {
+      "unit": "eval_runutil_inline",
+      "symbol": "?Util_Base64Encode@@YAXPAD0@Z",
+      "size": 161,
+      "object_sha256": "ee8cfeb3ee01b3bf49812c53fc8b90781b37a0ae3396fcd9d4789f59a38244de",
+      "candidates": [
+        {
+          "rva": 97168,
+          "inferred_targets": {
+            "?Base64Encoding@@3PADA": 269477068
+          }
+        }
+      ]
+    },
+    {
+      "unit": "eval_runutil_inline",
+      "symbol": "?K_EncodeString@@YAXPAD0@Z",
+      "size": 57,
+      "object_sha256": "ee8cfeb3ee01b3bf49812c53fc8b90781b37a0ae3396fcd9d4789f59a38244de",
+      "candidates": [
+        {
+          "rva": 645632,
+          "inferred_targets": {}
+        }
+      ]
+    },
+    {
+      "unit": "eval_runutil_inline",
+      "symbol": "?K_DecodeString@@YAPADPAE@Z",
+      "size": 49,
+      "object_sha256": "ee8cfeb3ee01b3bf49812c53fc8b90781b37a0ae3396fcd9d4789f59a38244de",
+      "candidates": [
+        {
+          "rva": 645696,
+          "inferred_targets": {}
+        }
+      ]
+    }
+  ],
+  "adaptation": "Mark the existing Util_toupper definition inline under the pinned Ob1 profile. All11 utility functions now match at function level; actual source integration separately certified by http-acceptance.json."
+}

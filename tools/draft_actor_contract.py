@@ -4,7 +4,7 @@ from pathlib import Path
 from collections import deque
 from binary import COFF,PE,need,sha,u32
 from verify import ROOT
-from verify_checkpoint2 import relocs
+from verify_checkpoint2 import relocs,import_slots
 
 
 def weak_aliases(obj):
@@ -91,7 +91,11 @@ def draft(run, extra_seeds=None):
             need(name not in externals or externals[name]['reference_va']==address,'conflicting external '+name)
             kind='absolute-fs' if name=='__except_list' else 'import' if name.startswith('__imp_') else 'crt'
             record=dict(kind=kind,reference_va=address)
-            if kind=='crt':
+            if kind=='crt' and ref.read(address-ref.base,6)[:2]==b'\xff\x25':
+                thunk=ref.read(address-ref.base,6);slot=u32(thunk,2);identity=import_slots(ref).get(slot)
+                need(identity is not None,'unknown import thunk target '+name)
+                record=dict(kind='import-thunk',reference_va=address,import_slot_va=slot,import_identity=list(identity),size=6,sha256=sha(thunk))
+            elif kind=='crt':
                 f=hints.get(address-ref.base);need(f is not None,'unknown CRT entry boundary '+name)
                 if len(f['chunks'])==1:
                     chunk=f['chunks'][0];need(chunk['rva']==address-ref.base,'CRT entry differs')
