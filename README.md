@@ -20,7 +20,7 @@ Functions are checked in full, including their references, call targets and jump
 
 ## Progress
 
-**172,002 code bytes verified — 18.48% of the original code section.**
+**172,415 code bytes verified — 18.52% of the original code section.**
 
 Already covered: parts of actor creation and deletion, entity geometry, weapon lookup, game commands, native pools, player-pointer records, raster helpers, camera/audio wrappers, player state, weapon skills, native task wrappers, menus, RenderWare and shared utilities.
 
