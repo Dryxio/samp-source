@@ -9,16 +9,10 @@ struct RPCObjectOpsView {
  BYTE gap49[0x64]; VECTOR rotation;
  BYTE gapb9[0x52]; VECTOR targetPosition;
  BYTE gap117[0x98]; BYTE moving;
- void Add(); void Remove(); BOOL IsAdded();
+ BOOL IsAdded();
  float DistanceRemaining(MATRIX4X4 *matrix);
  void StopMoving(); void InstantRotate(VECTOR *angles);
 };
-void RPCObjectOpsView::Add() {
- if(entity && entity->vtable!=0x863c40)WorldAddEntity((DWORD*)entity);
-}
-void RPCObjectOpsView::Remove() {
- if(entity && entity->vtable!=0x863c40)WorldRemoveEntity((DWORD*)entity);
-}
 BOOL RPCObjectOpsView::IsAdded() {
  if(entity && entity->vtable!=0x863c40 && entity->pdwRenderWare && isAdded)return TRUE;
  return FALSE;
