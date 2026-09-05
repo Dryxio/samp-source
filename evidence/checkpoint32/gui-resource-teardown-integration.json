@@ -1,0 +1,11 @@
+{
+  "status": "ACCEPTED_AFTER_COMPLETE_LINK_REVIEW",
+  "run": "cp32-gui-resource-teardown-linked",
+  "ob1": "cp32-gui-resource-teardown-ob1",
+  "ob2": "cp32-gui-overwrite-ob2",
+  "new_unique_code_bytes": 336,
+  "accepted_direct_025_credit": 0,
+  "source_adaptations": "None; both complete original SDK definitions identical in dashr9230 and local0.2.5.",
+  "verification": "Complete97-byte Uninitialize,181-byte resource manager destructor,32-byte EH closure,four array wrappers26 bytes and44-byte EH data. Actual accepted dynamic pointers,dummy functions,FreeLibrary and array storage providers verified. All prior region hashes and target sequences preserved; full gate,10 negative controls and actor ABI pass.",
+  "next": "Resource manager constructor and device lifecycle methods: OnCreateDevice,OnResetDevice,OnLostDevice,OnDestroyDevice. MsgProc EditBox remains unaccepted; avoid repeating bounded register-organization trials."
+}
