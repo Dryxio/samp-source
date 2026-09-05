@@ -1,0 +1,1453 @@
+{
+  "status": "DISCOVERY_ONLY_NOT_ACCEPTED",
+  "accepted_new_code_bytes": 0,
+  "accepted_union_code_bytes": 64956,
+  "reference_commit": "dc9eb80d80e26cf91e2b92697b8918208f052542",
+  "reference_source": "../samp-r5-preservation/references/michael-fa-samp/client/cmdwindow.cpp",
+  "runs": {
+    "cp32-cmd-process-rpc-scan": {
+      "units": [
+        {
+          "unit": "eval_cmd_process",
+          "object": "eval_cmd_process.obj",
+          "sha256": "918d59b9e748756b5b88835307b2ac41415988dd51ff5d369cc937bbd1b3921e",
+          "cache_key": "c7f31a0c1d4ecddda4408fb9e3405cf7801f03420f46824567ad60c2ad2383e3",
+          "reused": false
+        }
+      ],
+      "options": [
+        "/nologo",
+        "/c",
+        "/Ox",
+        "/Og",
+        "/Ob1",
+        "/Oi",
+        "/Ot",
+        "/Oy",
+        "/MT",
+        "/Zp1",
+        "/EHsc",
+        "/Gy",
+        "/DNDEBUG",
+        "/DWIN32",
+        "/D_WINDOWS",
+        "/GF"
+      ],
+      "rows": [
+        {
+          "unit": "eval_cmd_process",
+          "symbol": "?MsgProc@CCmdProcessEval@@QAEHIKK@Z",
+          "size": 65,
+          "object_sha256": "918d59b9e748756b5b88835307b2ac41415988dd51ff5d369cc937bbd1b3921e",
+          "candidates": []
+        },
+        {
+          "unit": "eval_cmd_process",
+          "symbol": "?SendToServer@CCmdProcessEval@@QAEXPAD@Z",
+          "size": 214,
+          "object_sha256": "918d59b9e748756b5b88835307b2ac41415988dd51ff5d369cc937bbd1b3921e",
+          "candidates": []
+        },
+        {
+          "unit": "eval_cmd_process",
+          "symbol": "?ProcessInput@CCmdProcessEval@@QAEXXZ",
+          "size": 350,
+          "object_sha256": "918d59b9e748756b5b88835307b2ac41415988dd51ff5d369cc937bbd1b3921e",
+          "candidates": []
+        }
+      ]
+    },
+    "cp32-cmd-process-r5-scan": {
+      "units": [
+        {
+          "unit": "eval_cmd_process",
+          "object": "eval_cmd_process.obj",
+          "sha256": "3eb7f14822b6a3cc00f6adabd62ac1b678b2e479022c3b8899d03be5a4c8dc58",
+          "cache_key": "c1ddc15a9052aa3a1e19a74063aabd8e136498a346e56b6f87c65d7987bcf2d6",
+          "reused": false
+        }
+      ],
+      "options": [
+        "/nologo",
+        "/c",
+        "/Ox",
+        "/Og",
+        "/Ob1",
+        "/Oi",
+        "/Ot",
+        "/Oy",
+        "/MT",
+        "/Zp1",
+        "/EHsc",
+        "/Gy",
+        "/DNDEBUG",
+        "/DWIN32",
+        "/D_WINDOWS",
+        "/GF"
+      ],
+      "rows": [
+        {
+          "unit": "eval_cmd_process",
+          "symbol": "?MsgProc@CCmdProcessEval@@QAEHIKK@Z",
+          "size": 57,
+          "object_sha256": "3eb7f14822b6a3cc00f6adabd62ac1b678b2e479022c3b8899d03be5a4c8dc58",
+          "candidates": [
+            {
+              "rva": 432080,
+              "inferred_targets": {
+                "?StaticMsgProc@CDXUTIMEEditBox@@SA_NIIJ@Z": 269011008
+              }
+            }
+          ]
+        },
+        {
+          "unit": "eval_cmd_process",
+          "symbol": "?SendToServer@CCmdProcessEval@@QAEXPAD@Z",
+          "size": 200,
+          "object_sha256": "3eb7f14822b6a3cc00f6adabd62ac1b678b2e479022c3b8899d03be5a4c8dc58",
+          "candidates": []
+        },
+        {
+          "unit": "eval_cmd_process",
+          "symbol": "?ProcessInput@CCmdProcessEval@@QAEXXZ",
+          "size": 377,
+          "object_sha256": "3eb7f14822b6a3cc00f6adabd62ac1b678b2e479022c3b8899d03be5a4c8dc58",
+          "candidates": []
+        }
+      ]
+    },
+    "cp32-cmd-process-r5-refined-scan": {
+      "units": [
+        {
+          "unit": "eval_cmd_process",
+          "object": "eval_cmd_process.obj",
+          "sha256": "af7414162fec5ccb93f89e59af14386193aae8b83e4150372a72650aa74f5f13",
+          "cache_key": "0503930a9514968dcb5df9fc19f49ab0038fb878f90293171c89e9253eb6a0e3",
+          "reused": false
+        }
+      ],
+      "options": [
+        "/nologo",
+        "/c",
+        "/Ox",
+        "/Og",
+        "/Ob1",
+        "/Oi",
+        "/Ot",
+        "/Oy",
+        "/MT",
+        "/Zp1",
+        "/EHsc",
+        "/Gy",
+        "/DNDEBUG",
+        "/DWIN32",
+        "/D_WINDOWS",
+        "/GF"
+      ],
+      "rows": [
+        {
+          "unit": "eval_cmd_process",
+          "symbol": "?MsgProc@CCmdProcessEval@@QAEHIKK@Z",
+          "size": 57,
+          "object_sha256": "af7414162fec5ccb93f89e59af14386193aae8b83e4150372a72650aa74f5f13",
+          "candidates": [
+            {
+              "rva": 432080,
+              "inferred_targets": {
+                "?StaticMsgProc@CDXUTIMEEditBox@@SA_NIIJ@Z": 269011008
+              }
+            }
+          ]
+        },
+        {
+          "unit": "eval_cmd_process",
+          "symbol": "?SendToServer@CCmdProcessEval@@QAEXPAD@Z",
+          "size": 200,
+          "object_sha256": "af7414162fec5ccb93f89e59af14386193aae8b83e4150372a72650aa74f5f13",
+          "candidates": []
+        },
+        {
+          "unit": "eval_cmd_process",
+          "symbol": "?ProcessInput@CCmdProcessEval@@QAEXXZ",
+          "size": 377,
+          "object_sha256": "af7414162fec5ccb93f89e59af14386193aae8b83e4150372a72650aa74f5f13",
+          "candidates": []
+        }
+      ]
+    },
+    "cp32-cmd-process-length-scan": {
+      "units": [
+        {
+          "unit": "eval_cmd_process",
+          "object": "eval_cmd_process.obj",
+          "sha256": "9fde4d157b083128c1c6ccf371914eb056a6b38c67a515b0f05856ce0f5386d3",
+          "cache_key": "f95b13e2d9f5ea8e16ee3cf4dbcd40cdd95037f8472d863d4228a3d202d64d1c",
+          "reused": false
+        }
+      ],
+      "options": [
+        "/nologo",
+        "/c",
+        "/Ox",
+        "/Og",
+        "/Ob1",
+        "/Oi",
+        "/Ot",
+        "/Oy",
+        "/MT",
+        "/Zp1",
+        "/EHsc",
+        "/Gy",
+        "/DNDEBUG",
+        "/DWIN32",
+        "/D_WINDOWS",
+        "/GF"
+      ],
+      "rows": [
+        {
+          "unit": "eval_cmd_process",
+          "symbol": "?MsgProc@CCmdProcessEval@@QAEHIKK@Z",
+          "size": 57,
+          "object_sha256": "9fde4d157b083128c1c6ccf371914eb056a6b38c67a515b0f05856ce0f5386d3",
+          "candidates": [
+            {
+              "rva": 432080,
+              "inferred_targets": {
+                "?StaticMsgProc@CDXUTIMEEditBox@@SA_NIIJ@Z": 269011008
+              }
+            }
+          ]
+        },
+        {
+          "unit": "eval_cmd_process",
+          "symbol": "?SendToServer@CCmdProcessEval@@QAEXPAD@Z",
+          "size": 200,
+          "object_sha256": "9fde4d157b083128c1c6ccf371914eb056a6b38c67a515b0f05856ce0f5386d3",
+          "candidates": [
+            {
+              "rva": 432384,
+              "inferred_targets": {
+                "__except_list": 0,
+                "__ehhandler$?SendToServer@CCmdProcessEval@@QAEXPAD@Z": 269367531,
+                "?pNetGame@@3PAVCNetGame@@A": 270986132,
+                "??0BitStream@RakNet@@QAE@XZ": 268564272,
+                "?WriteBits@BitStream@RakNet@@QAEXPBEH_N@Z": 268566496,
+                "?Write@BitStream@RakNet@@QAEXPBDH@Z": 268566672,
+                "??_C@_01FDFGLJHB@2?$AA@": 269394664,
+                "??1BitStream@RakNet@@QAE@XZ": 268564688
+              }
+            }
+          ]
+        },
+        {
+          "unit": "eval_cmd_process",
+          "symbol": "?ProcessInput@CCmdProcessEval@@QAEXXZ",
+          "size": 365,
+          "object_sha256": "9fde4d157b083128c1c6ccf371914eb056a6b38c67a515b0f05856ce0f5386d3",
+          "candidates": [
+            {
+              "rva": 432592,
+              "inferred_targets": {
+                "?GetTextA@CDXUTEditBox@@QAEPADXZ": 268981840,
+                "_strncpy": 269252592,
+                "?AddToRecallBuffer@CCmdProcessEval@@QAEXPAD@Z": 268867024,
+                "?GetCmdHandler@CCmdProcessEval@@QAEP6AXPAD@Z0@Z": 268867344,
+                "??_C@_00CNPNBAHC@?$AA@": 269375945,
+                "?pNetGame@@3PAVCNetGame@@A": 270986132,
+                "?SendToServer@CCmdProcessEval@@QAEXPAD@Z": 268867840,
+                "?pChatWindow@@3PAVCChatWindow@@A": 270986112,
+                "??_C@_0BL@LEBADKHI@I?5don?8t?5know?5that?5command?4?$AA@": 269394668,
+                "?AddDebugMessage@CChatWindow@@QAAXPADZZ": 268861680,
+                "?SetText@CDXUTEditBox@@QAEXPBD_N@Z": 268981632,
+                "?ResetPage@CChatProcessEval@@QAEXXZ": 268858256,
+                "?Disable@CCmdProcessEval@@QAEXXZ": 268866944
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "cp32-cmd-dependencies-refined-scan": {
+      "units": [
+        {
+          "unit": "closure_cmd_bitstream",
+          "object": "closure_cmd_bitstream.obj",
+          "sha256": "4ec7a3c03056ef0653d135c199f399a108bfbe98c2242bd3784b7991e271c838",
+          "cache_key": "24dd2c5df471f02e253841a5f80a2f791719a74872ff792797e92b8634288f21",
+          "reused": true
+        },
+        {
+          "unit": "eval_cmd_dependencies",
+          "object": "eval_cmd_dependencies.obj",
+          "sha256": "1a6d6aa8b5fd54ff5b92667673d212ce8618b7a18db4823c93804eda6dcde9ff",
+          "cache_key": "7d66b99ed822c2aa0803adabb6f16ce9e7c68808b2eb469f64965dfccc8a418c",
+          "reused": false
+        }
+      ],
+      "options": [
+        "/nologo",
+        "/c",
+        "/Ox",
+        "/Og",
+        "/Ob1",
+        "/Oi",
+        "/Ot",
+        "/Oy",
+        "/MT",
+        "/Zp1",
+        "/EHsc",
+        "/Gy",
+        "/DNDEBUG",
+        "/DWIN32",
+        "/D_WINDOWS",
+        "/GF"
+      ],
+      "rows": [
+        {
+          "unit": "closure_cmd_bitstream",
+          "symbol": "?GetWriteOffset@BitStream@RakNet@@QBEHXZ",
+          "size": 3,
+          "object_sha256": "4ec7a3c03056ef0653d135c199f399a108bfbe98c2242bd3784b7991e271c838",
+          "candidates": [
+            {
+              "rva": 6736,
+              "inferred_targets": {}
+            },
+            {
+              "rva": 11552,
+              "inferred_targets": {}
+            },
+            {
+              "rva": 48064,
+              "inferred_targets": {}
+            },
+            {
+              "rva": 48288,
+              "inferred_targets": {}
+            },
+            {
+              "rva": 58752,
+              "inferred_targets": {}
+            },
+            {
+              "rva": 58768,
+              "inferred_targets": {}
+            },
+            {
+              "rva": 75632,
+              "inferred_targets": {}
+            },
+            {
+              "rva": 124816,
+              "inferred_targets": {}
+            },
+            {
+              "rva": 128800,
+              "inferred_targets": {}
+            },
+            {
+              "rva": 130480,
+              "inferred_targets": {}
+            },
+            {
+              "rva": 158624,
+              "inferred_targets": {}
+            },
+            {
+              "rva": 280608,
+              "inferred_targets": {}
+            },
+            {
+              "rva": 415328,
+              "inferred_targets": {}
+            },
+            {
+              "rva": 415952,
+              "inferred_targets": {}
+            },
+            {
+              "rva": 416160,
+              "inferred_targets": {}
+            },
+            {
+              "rva": 452784,
+              "inferred_targets": {}
+            },
+            {
+              "rva": 535056,
+              "inferred_targets": {}
+            },
+            {
+              "rva": 542528,
+              "inferred_targets": {}
+            },
+            {
+              "rva": 759120,
+              "inferred_targets": {}
+            }
+          ]
+        },
+        {
+          "unit": "closure_cmd_bitstream",
+          "symbol": "??$Read@_N@BitStream@RakNet@@QAE_NAA_N@Z",
+          "size": 89,
+          "object_sha256": "4ec7a3c03056ef0653d135c199f399a108bfbe98c2242bd3784b7991e271c838",
+          "candidates": [
+            {
+              "rva": 33824,
+              "inferred_targets": {}
+            }
+          ]
+        },
+        {
+          "unit": "closure_cmd_bitstream",
+          "symbol": "??0BitStream@RakNet@@QAE@XZ",
+          "size": 33,
+          "object_sha256": "4ec7a3c03056ef0653d135c199f399a108bfbe98c2242bd3784b7991e271c838",
+          "candidates": [
+            {
+              "rva": 128816,
+              "inferred_targets": {}
+            }
+          ]
+        },
+        {
+          "unit": "closure_cmd_bitstream",
+          "symbol": "??0BitStream@RakNet@@QAE@H@Z",
+          "size": 86,
+          "object_sha256": "4ec7a3c03056ef0653d135c199f399a108bfbe98c2242bd3784b7991e271c838",
+          "candidates": [
+            {
+              "rva": 128864,
+              "inferred_targets": {
+                "_malloc": 269249468
+              }
+            }
+          ]
+        },
+        {
+          "unit": "closure_cmd_bitstream",
+          "symbol": "??0BitStream@RakNet@@QAE@PAEI_N@Z",
+          "size": 127,
+          "object_sha256": "4ec7a3c03056ef0653d135c199f399a108bfbe98c2242bd3784b7991e271c838",
+          "candidates": [
+            {
+              "rva": 128960,
+              "inferred_targets": {
+                "_malloc": 269249468
+              }
+            },
+            {
+              "rva": 129088,
+              "inferred_targets": {
+                "_malloc": 269249468
+              }
+            }
+          ]
+        },
+        {
+          "unit": "closure_cmd_bitstream",
+          "symbol": "??0BitStream@RakNet@@QAE@PADI_N@Z",
+          "size": 127,
+          "object_sha256": "4ec7a3c03056ef0653d135c199f399a108bfbe98c2242bd3784b7991e271c838",
+          "candidates": [
+            {
+              "rva": 128960,
+              "inferred_targets": {
+                "_malloc": 269249468
+              }
+            },
+            {
+              "rva": 129088,
+              "inferred_targets": {
+                "_malloc": 269249468
+              }
+            }
+          ]
+        },
+        {
+          "unit": "closure_cmd_bitstream",
+          "symbol": "?SetNumberOfBitsAllocated@BitStream@RakNet@@QAEXI@Z",
+          "size": 10,
+          "object_sha256": "4ec7a3c03056ef0653d135c199f399a108bfbe98c2242bd3784b7991e271c838",
+          "candidates": [
+            {
+              "rva": 58448,
+              "inferred_targets": {}
+            },
+            {
+              "rva": 129216,
+              "inferred_targets": {}
+            },
+            {
+              "rva": 191488,
+              "inferred_targets": {}
+            },
+            {
+              "rva": 211760,
+              "inferred_targets": {}
+            },
+            {
+              "rva": 759328,
+              "inferred_targets": {}
+            }
+          ]
+        },
+        {
+          "unit": "closure_cmd_bitstream",
+          "symbol": "??1BitStream@RakNet@@QAE@XZ",
+          "size": 27,
+          "object_sha256": "4ec7a3c03056ef0653d135c199f399a108bfbe98c2242bd3784b7991e271c838",
+          "candidates": [
+            {
+              "rva": 129232,
+              "inferred_targets": {
+                "_free": 269249085
+              }
+            }
+          ]
+        },
+        {
+          "unit": "closure_cmd_bitstream",
+          "symbol": "?Reset@BitStream@RakNet@@QAEXXZ",
+          "size": 14,
+          "object_sha256": "4ec7a3c03056ef0653d135c199f399a108bfbe98c2242bd3784b7991e271c838",
+          "candidates": [
+            {
+              "rva": 129264,
+              "inferred_targets": {}
+            }
+          ]
+        },
+        {
+          "unit": "closure_cmd_bitstream",
+          "symbol": "?ResetReadPointer@BitStream@RakNet@@QAEXXZ",
+          "size": 8,
+          "object_sha256": "4ec7a3c03056ef0653d135c199f399a108bfbe98c2242bd3784b7991e271c838",
+          "candidates": [
+            {
+              "rva": 129280,
+              "inferred_targets": {}
+            }
+          ]
+        },
+        {
+          "unit": "closure_cmd_bitstream",
+          "symbol": "?ResetWritePointer@BitStream@RakNet@@QAEXXZ",
+          "size": 7,
+          "object_sha256": "4ec7a3c03056ef0653d135c199f399a108bfbe98c2242bd3784b7991e271c838",
+          "candidates": [
+            {
+              "rva": 129296,
+              "inferred_targets": {}
+            }
+          ]
+        },
+        {
+          "unit": "closure_cmd_bitstream",
+          "symbol": "?ReadBit@BitStream@RakNet@@QAE_NXZ",
+          "size": 50,
+          "object_sha256": "4ec7a3c03056ef0653d135c199f399a108bfbe98c2242bd3784b7991e271c838",
+          "candidates": [
+            {
+              "rva": 129312,
+              "inferred_targets": {}
+            }
+          ]
+        },
+        {
+          "unit": "closure_cmd_bitstream",
+          "symbol": "?AlignWriteToByteBoundary@BitStream@RakNet@@QAEXXZ",
+          "size": 20,
+          "object_sha256": "4ec7a3c03056ef0653d135c199f399a108bfbe98c2242bd3784b7991e271c838",
+          "candidates": [
+            {
+              "rva": 129376,
+              "inferred_targets": {}
+            }
+          ]
+        },
+        {
+          "unit": "closure_cmd_bitstream",
+          "symbol": "?AlignReadToByteBoundary@BitStream@RakNet@@QAEXXZ",
+          "size": 22,
+          "object_sha256": "4ec7a3c03056ef0653d135c199f399a108bfbe98c2242bd3784b7991e271c838",
+          "candidates": [
+            {
+              "rva": 129408,
+              "inferred_targets": {}
+            }
+          ]
+        },
+        {
+          "unit": "closure_cmd_bitstream",
+          "symbol": "?SetData@BitStream@RakNet@@QAEXPAE@Z",
+          "size": 14,
+          "object_sha256": "4ec7a3c03056ef0653d135c199f399a108bfbe98c2242bd3784b7991e271c838",
+          "candidates": [
+            {
+              "rva": 129440,
+              "inferred_targets": {}
+            }
+          ]
+        },
+        {
+          "unit": "closure_cmd_bitstream",
+          "symbol": "?ReadBits@BitStream@RakNet@@QAE_NPAEH_N@Z",
+          "size": 185,
+          "object_sha256": "4ec7a3c03056ef0653d135c199f399a108bfbe98c2242bd3784b7991e271c838",
+          "candidates": [
+            {
+              "rva": 129456,
+              "inferred_targets": {}
+            }
+          ]
+        },
+        {
+          "unit": "closure_cmd_bitstream",
+          "symbol": "?ReadCompressed@BitStream@RakNet@@AAE_NPAEH_N@Z",
+          "size": 254,
+          "object_sha256": "4ec7a3c03056ef0653d135c199f399a108bfbe98c2242bd3784b7991e271c838",
+          "candidates": [
+            {
+              "rva": 129648,
+              "inferred_targets": {
+                "??$Read@_N@BitStream@RakNet@@QAE_NAA_N@Z": 268469280,
+                "?ReadBits@BitStream@RakNet@@QAE_NPAEH_N@Z": 268564912
+              }
+            }
+          ]
+        },
+        {
+          "unit": "closure_cmd_bitstream",
+          "symbol": "?AddBitsAndReallocate@BitStream@RakNet@@QAEXH@Z",
+          "size": 132,
+          "object_sha256": "4ec7a3c03056ef0653d135c199f399a108bfbe98c2242bd3784b7991e271c838",
+          "candidates": [
+            {
+              "rva": 129904,
+              "inferred_targets": {
+                "_malloc": 269249468,
+                "_realloc": 269250982
+              }
+            }
+          ]
+        },
+        {
+          "unit": "closure_cmd_bitstream",
+          "symbol": "?AssertStreamEmpty@BitStream@RakNet@@QAEXXZ",
+          "size": 1,
+          "object_sha256": "4ec7a3c03056ef0653d135c199f399a108bfbe98c2242bd3784b7991e271c838",
+          "candidates": [
+            {
+              "rva": 32336,
+              "inferred_targets": {}
+            },
+            {
+              "rva": 49152,
+              "inferred_targets": {}
+            },
+            {
+              "rva": 79536,
+              "inferred_targets": {}
+            },
+            {
+              "rva": 98496,
+              "inferred_targets": {}
+            },
+            {
+              "rva": 130048,
+              "inferred_targets": {}
+            },
+            {
+              "rva": 133776,
+              "inferred_targets": {}
+            },
+            {
+              "rva": 135360,
+              "inferred_targets": {}
+            },
+            {
+              "rva": 136512,
+              "inferred_targets": {}
+            },
+            {
+              "rva": 153040,
+              "inferred_targets": {}
+            },
+            {
+              "rva": 160832,
+              "inferred_targets": {}
+            },
+            {
+              "rva": 160912,
+              "inferred_targets": {}
+            },
+            {
+              "rva": 277760,
+              "inferred_targets": {}
+            },
+            {
+              "rva": 280752,
+              "inferred_targets": {}
+            },
+            {
+              "rva": 358784,
+              "inferred_targets": {}
+            },
+            {
+              "rva": 359040,
+              "inferred_targets": {}
+            },
+            {
+              "rva": 359408,
+              "inferred_targets": {}
+            },
+            {
+              "rva": 359440,
+              "inferred_targets": {}
+            },
+            {
+              "rva": 359472,
+              "inferred_targets": {}
+            },
+            {
+              "rva": 359504,
+              "inferred_targets": {}
+            },
+            {
+              "rva": 359536,
+              "inferred_targets": {}
+            },
+            {
+              "rva": 359568,
+              "inferred_targets": {}
+            },
+            {
+              "rva": 359600,
+              "inferred_targets": {}
+            },
+            {
+              "rva": 359632,
+              "inferred_targets": {}
+            },
+            {
+              "rva": 359664,
+              "inferred_targets": {}
+            },
+            {
+              "rva": 359712,
+              "inferred_targets": {}
+            },
+            {
+              "rva": 359744,
+              "inferred_targets": {}
+            },
+            {
+              "rva": 359776,
+              "inferred_targets": {}
+            },
+            {
+              "rva": 359808,
+              "inferred_targets": {}
+            },
+            {
+              "rva": 359840,
+              "inferred_targets": {}
+            },
+            {
+              "rva": 359872,
+              "inferred_targets": {}
+            },
+            {
+              "rva": 359904,
+              "inferred_targets": {}
+            },
+            {
+              "rva": 359968,
+              "inferred_targets": {}
+            },
+            {
+              "rva": 360000,
+              "inferred_targets": {}
+            },
+            {
+              "rva": 360032,
+              "inferred_targets": {}
+            },
+            {
+              "rva": 360064,
+              "inferred_targets": {}
+            },
+            {
+              "rva": 360096,
+              "inferred_targets": {}
+            },
+            {
+              "rva": 360128,
+              "inferred_targets": {}
+            },
+            {
+              "rva": 360160,
+              "inferred_targets": {}
+            },
+            {
+              "rva": 360448,
+              "inferred_targets": {}
+            },
+            {
+              "rva": 360480,
+              "inferred_targets": {}
+            },
+            {
+              "rva": 360512,
+              "inferred_targets": {}
+            },
+            {
+              "rva": 360544,
+              "inferred_targets": {}
+            },
+            {
+              "rva": 360576,
+              "inferred_targets": {}
+            },
+            {
+              "rva": 360608,
+              "inferred_targets": {}
+            },
+            {
+              "rva": 360800,
+              "inferred_targets": {}
+            },
+            {
+              "rva": 360832,
+              "inferred_targets": {}
+            },
+            {
+              "rva": 360864,
+              "inferred_targets": {}
+            },
+            {
+              "rva": 416432,
+              "inferred_targets": {}
+            },
+            {
+              "rva": 428528,
+              "inferred_targets": {}
+            },
+            {
+              "rva": 441904,
+              "inferred_targets": {}
+            },
+            {
+              "rva": 463456,
+              "inferred_targets": {}
+            },
+            {
+              "rva": 489872,
+              "inferred_targets": {}
+            },
+            {
+              "rva": 582416,
+              "inferred_targets": {}
+            },
+            {
+              "rva": 611920,
+              "inferred_targets": {}
+            },
+            {
+              "rva": 611936,
+              "inferred_targets": {}
+            },
+            {
+              "rva": 649280,
+              "inferred_targets": {}
+            },
+            {
+              "rva": 671072,
+              "inferred_targets": {}
+            },
+            {
+              "rva": 736096,
+              "inferred_targets": {}
+            },
+            {
+              "rva": 772144,
+              "inferred_targets": {}
+            },
+            {
+              "rva": 800144,
+              "inferred_targets": {}
+            },
+            {
+              "rva": 813742,
+              "inferred_targets": {}
+            }
+          ]
+        },
+        {
+          "unit": "closure_cmd_bitstream",
+          "symbol": "?PrintBits@BitStream@RakNet@@QBEXXZ",
+          "size": 154,
+          "object_sha256": "4ec7a3c03056ef0653d135c199f399a108bfbe98c2242bd3784b7991e271c838",
+          "candidates": [
+            {
+              "rva": 130064,
+              "inferred_targets": {
+                "??_C@_08FAMLAKGK@No?5bits?6?$AA@": 269378704,
+                "_printf": 269251548,
+                "_putchar": 269254509
+              }
+            }
+          ]
+        },
+        {
+          "unit": "closure_cmd_bitstream",
+          "symbol": "?CopyData@BitStream@RakNet@@QBEHPAPAE@Z",
+          "size": 63,
+          "object_sha256": "4ec7a3c03056ef0653d135c199f399a108bfbe98c2242bd3784b7991e271c838",
+          "candidates": [
+            {
+              "rva": 130224,
+              "inferred_targets": {
+                "??2@YAPAXI@Z": 269247098
+              }
+            }
+          ]
+        },
+        {
+          "unit": "closure_cmd_bitstream",
+          "symbol": "?IgnoreBits@BitStream@RakNet@@QAEXH@Z",
+          "size": 15,
+          "object_sha256": "4ec7a3c03056ef0653d135c199f399a108bfbe98c2242bd3784b7991e271c838",
+          "candidates": [
+            {
+              "rva": 130288,
+              "inferred_targets": {}
+            }
+          ]
+        },
+        {
+          "unit": "closure_cmd_bitstream",
+          "symbol": "?SetWriteOffset@BitStream@RakNet@@QAEXH@Z",
+          "size": 9,
+          "object_sha256": "4ec7a3c03056ef0653d135c199f399a108bfbe98c2242bd3784b7991e271c838",
+          "candidates": [
+            {
+              "rva": 130304,
+              "inferred_targets": {}
+            },
+            {
+              "rva": 234224,
+              "inferred_targets": {}
+            }
+          ]
+        },
+        {
+          "unit": "closure_cmd_bitstream",
+          "symbol": "?AssertCopyData@BitStream@RakNet@@QAEXXZ",
+          "size": 82,
+          "object_sha256": "4ec7a3c03056ef0653d135c199f399a108bfbe98c2242bd3784b7991e271c838",
+          "candidates": [
+            {
+              "rva": 130320,
+              "inferred_targets": {
+                "_malloc": 269249468
+              }
+            }
+          ]
+        },
+        {
+          "unit": "closure_cmd_bitstream",
+          "symbol": "?ReverseBytes@BitStream@RakNet@@AAEXPAE0H@Z",
+          "size": 40,
+          "object_sha256": "4ec7a3c03056ef0653d135c199f399a108bfbe98c2242bd3784b7991e271c838",
+          "candidates": [
+            {
+              "rva": 130416,
+              "inferred_targets": {}
+            }
+          ]
+        },
+        {
+          "unit": "closure_cmd_bitstream",
+          "symbol": "?DoEndianSwap@BitStream@RakNet@@ABE_NXZ",
+          "size": 3,
+          "object_sha256": "4ec7a3c03056ef0653d135c199f399a108bfbe98c2242bd3784b7991e271c838",
+          "candidates": [
+            {
+              "rva": 130464,
+              "inferred_targets": {}
+            },
+            {
+              "rva": 207504,
+              "inferred_targets": {}
+            },
+            {
+              "rva": 582368,
+              "inferred_targets": {}
+            }
+          ]
+        },
+        {
+          "unit": "closure_cmd_bitstream",
+          "symbol": "?GetNumberOfBitsUsed@BitStream@RakNet@@QBEHXZ",
+          "size": 3,
+          "object_sha256": "4ec7a3c03056ef0653d135c199f399a108bfbe98c2242bd3784b7991e271c838",
+          "candidates": [
+            {
+              "rva": 6736,
+              "inferred_targets": {}
+            },
+            {
+              "rva": 11552,
+              "inferred_targets": {}
+            },
+            {
+              "rva": 48064,
+              "inferred_targets": {}
+            },
+            {
+              "rva": 48288,
+              "inferred_targets": {}
+            },
+            {
+              "rva": 58752,
+              "inferred_targets": {}
+            },
+            {
+              "rva": 58768,
+              "inferred_targets": {}
+            },
+            {
+              "rva": 75632,
+              "inferred_targets": {}
+            },
+            {
+              "rva": 124816,
+              "inferred_targets": {}
+            },
+            {
+              "rva": 128800,
+              "inferred_targets": {}
+            },
+            {
+              "rva": 130480,
+              "inferred_targets": {}
+            },
+            {
+              "rva": 158624,
+              "inferred_targets": {}
+            },
+            {
+              "rva": 280608,
+              "inferred_targets": {}
+            },
+            {
+              "rva": 415328,
+              "inferred_targets": {}
+            },
+            {
+              "rva": 415952,
+              "inferred_targets": {}
+            },
+            {
+              "rva": 416160,
+              "inferred_targets": {}
+            },
+            {
+              "rva": 452784,
+              "inferred_targets": {}
+            },
+            {
+              "rva": 535056,
+              "inferred_targets": {}
+            },
+            {
+              "rva": 542528,
+              "inferred_targets": {}
+            },
+            {
+              "rva": 759120,
+              "inferred_targets": {}
+            }
+          ]
+        },
+        {
+          "unit": "closure_cmd_bitstream",
+          "symbol": "?Write@BitStream@RakNet@@QAEXPAV12@H@Z",
+          "size": 218,
+          "object_sha256": "4ec7a3c03056ef0653d135c199f399a108bfbe98c2242bd3784b7991e271c838",
+          "candidates": [
+            {
+              "rva": 130496,
+              "inferred_targets": {
+                "?AddBitsAndReallocate@BitStream@RakNet@@QAEXH@Z": 268565360
+              }
+            }
+          ]
+        },
+        {
+          "unit": "closure_cmd_bitstream",
+          "symbol": "?Read@BitStream@RakNet@@QAE_NPADH@Z",
+          "size": 110,
+          "object_sha256": "4ec7a3c03056ef0653d135c199f399a108bfbe98c2242bd3784b7991e271c838",
+          "candidates": [
+            {
+              "rva": 130720,
+              "inferred_targets": {
+                "?ReadBits@BitStream@RakNet@@QAE_NPAEH_N@Z": 268564912
+              }
+            }
+          ]
+        },
+        {
+          "unit": "closure_cmd_bitstream",
+          "symbol": "?Write0@BitStream@RakNet@@QAEXXZ",
+          "size": 30,
+          "object_sha256": "4ec7a3c03056ef0653d135c199f399a108bfbe98c2242bd3784b7991e271c838",
+          "candidates": [
+            {
+              "rva": 130832,
+              "inferred_targets": {
+                "?AddBitsAndReallocate@BitStream@RakNet@@QAEXH@Z": 268565360
+              }
+            }
+          ]
+        },
+        {
+          "unit": "closure_cmd_bitstream",
+          "symbol": "?Write1@BitStream@RakNet@@QAEXXZ",
+          "size": 51,
+          "object_sha256": "4ec7a3c03056ef0653d135c199f399a108bfbe98c2242bd3784b7991e271c838",
+          "candidates": [
+            {
+              "rva": 130864,
+              "inferred_targets": {
+                "?AddBitsAndReallocate@BitStream@RakNet@@QAEXH@Z": 268565360
+              }
+            }
+          ]
+        },
+        {
+          "unit": "closure_cmd_bitstream",
+          "symbol": "?ReadAlignedBytes@BitStream@RakNet@@QAE_NPAEH@Z",
+          "size": 98,
+          "object_sha256": "4ec7a3c03056ef0653d135c199f399a108bfbe98c2242bd3784b7991e271c838",
+          "candidates": [
+            {
+              "rva": 130928,
+              "inferred_targets": {
+                "?AlignReadToByteBoundary@BitStream@RakNet@@QAEXXZ": 268564864
+              }
+            }
+          ]
+        },
+        {
+          "unit": "closure_cmd_bitstream",
+          "symbol": "?WriteBits@BitStream@RakNet@@QAEXPBEH_N@Z",
+          "size": 163,
+          "object_sha256": "4ec7a3c03056ef0653d135c199f399a108bfbe98c2242bd3784b7991e271c838",
+          "candidates": [
+            {
+              "rva": 131040,
+              "inferred_targets": {
+                "?AddBitsAndReallocate@BitStream@RakNet@@QAEXH@Z": 268565360
+              }
+            }
+          ]
+        },
+        {
+          "unit": "closure_cmd_bitstream",
+          "symbol": "??$Write@_N@BitStream@RakNet@@QAEX_N@Z",
+          "size": 24,
+          "object_sha256": "4ec7a3c03056ef0653d135c199f399a108bfbe98c2242bd3784b7991e271c838",
+          "candidates": [
+            {
+              "rva": 11600,
+              "inferred_targets": {
+                "?Write1@BitStream@RakNet@@QAEXXZ": 268566320,
+                "?Write0@BitStream@RakNet@@QAEXXZ": 268566288
+              }
+            }
+          ]
+        },
+        {
+          "unit": "closure_cmd_bitstream",
+          "symbol": "?Write@BitStream@RakNet@@QAEXPBDH@Z",
+          "size": 113,
+          "object_sha256": "4ec7a3c03056ef0653d135c199f399a108bfbe98c2242bd3784b7991e271c838",
+          "candidates": [
+            {
+              "rva": 131216,
+              "inferred_targets": {
+                "?AddBitsAndReallocate@BitStream@RakNet@@QAEXH@Z": 268565360,
+                "?WriteBits@BitStream@RakNet@@QAEXPBEH_N@Z": 268566496
+              }
+            }
+          ]
+        },
+        {
+          "unit": "closure_cmd_bitstream",
+          "symbol": "?Write@BitStream@RakNet@@QAEXPAV12@@Z",
+          "size": 16,
+          "object_sha256": "4ec7a3c03056ef0653d135c199f399a108bfbe98c2242bd3784b7991e271c838",
+          "candidates": [
+            {
+              "rva": 131344,
+              "inferred_targets": {
+                "?Write@BitStream@RakNet@@QAEXPAV12@H@Z": 268565952
+              }
+            }
+          ]
+        },
+        {
+          "unit": "closure_cmd_bitstream",
+          "symbol": "?WriteAlignedBytes@BitStream@RakNet@@QAEXPBEH@Z",
+          "size": 10,
+          "object_sha256": "4ec7a3c03056ef0653d135c199f399a108bfbe98c2242bd3784b7991e271c838",
+          "candidates": [
+            {
+              "rva": 131360,
+              "inferred_targets": {
+                "?AlignWriteToByteBoundary@BitStream@RakNet@@QAEXXZ": 268564832,
+                "?Write@BitStream@RakNet@@QAEXPBDH@Z": 268566672
+              }
+            }
+          ]
+        },
+        {
+          "unit": "closure_cmd_bitstream",
+          "symbol": "?WriteCompressed@BitStream@RakNet@@AAEXPBEH_N@Z",
+          "size": 163,
+          "object_sha256": "4ec7a3c03056ef0653d135c199f399a108bfbe98c2242bd3784b7991e271c838",
+          "candidates": [
+            {
+              "rva": 131376,
+              "inferred_targets": {
+                "?Write1@BitStream@RakNet@@QAEXXZ": 268566320,
+                "?Write0@BitStream@RakNet@@QAEXXZ": 268566288,
+                "?WriteBits@BitStream@RakNet@@QAEXPBEH_N@Z": 268566496
+              }
+            }
+          ]
+        },
+        {
+          "unit": "eval_cmd_dependencies",
+          "symbol": "?RectHeight@@YAHAAUtagRECT@@@Z",
+          "size": 11,
+          "object_sha256": "1a6d6aa8b5fd54ff5b92667673d212ce8618b7a18db4823c93804eda6dcde9ff",
+          "candidates": [
+            {
+              "rva": 543136,
+              "inferred_targets": {}
+            },
+            {
+              "rva": 772416,
+              "inferred_targets": {}
+            }
+          ]
+        },
+        {
+          "unit": "eval_cmd_dependencies",
+          "symbol": "?Cap@CDXUTScrollBar@@IAEXXZ",
+          "size": 67,
+          "object_sha256": "1a6d6aa8b5fd54ff5b92667673d212ce8618b7a18db4823c93804eda6dcde9ff",
+          "candidates": [
+            {
+              "rva": 545792,
+              "inferred_targets": {}
+            }
+          ]
+        },
+        {
+          "unit": "eval_cmd_dependencies",
+          "symbol": "?UpdateThumbRect@CDXUTScrollBar@@IAEXXZ",
+          "size": 143,
+          "object_sha256": "1a6d6aa8b5fd54ff5b92667673d212ce8618b7a18db4823c93804eda6dcde9ff",
+          "candidates": [
+            {
+              "rva": 545568,
+              "inferred_targets": {}
+            }
+          ]
+        },
+        {
+          "unit": "eval_cmd_dependencies",
+          "symbol": "?SetTrackPos@CDXUTScrollBar@@QAEXH@Z",
+          "size": 23,
+          "object_sha256": "1a6d6aa8b5fd54ff5b92667673d212ce8618b7a18db4823c93804eda6dcde9ff",
+          "candidates": []
+        },
+        {
+          "unit": "eval_cmd_dependencies",
+          "symbol": "?ResetPage@CChatProcessEval@@QAEXXZ",
+          "size": 31,
+          "object_sha256": "1a6d6aa8b5fd54ff5b92667673d212ce8618b7a18db4823c93804eda6dcde9ff",
+          "candidates": []
+        }
+      ]
+    },
+    "cp32-cmd-scroll-ob2-scan": {
+      "units": [
+        {
+          "unit": "eval_cmd_dependencies",
+          "object": "eval_cmd_dependencies.obj",
+          "sha256": "17052b1b62bde7f436b11c70eda5fe2fa606a8d0cd3755be1cad62c4c6bac701",
+          "cache_key": "e8f8166b9066a957cbd5c3844fe6b333b93cd7a76c363375d91b4c3bfeee79f5",
+          "reused": false
+        }
+      ],
+      "options": [
+        "/nologo",
+        "/c",
+        "/Ox",
+        "/Og",
+        "/Ob2",
+        "/Oi",
+        "/Ot",
+        "/Oy",
+        "/MT",
+        "/Zp1",
+        "/EHsc",
+        "/Gy",
+        "/DNDEBUG",
+        "/DWIN32",
+        "/D_WINDOWS",
+        "/GF"
+      ],
+      "rows": [
+        {
+          "unit": "eval_cmd_dependencies",
+          "symbol": "?RectHeight@@YAHAAUtagRECT@@@Z",
+          "size": 11,
+          "object_sha256": "17052b1b62bde7f436b11c70eda5fe2fa606a8d0cd3755be1cad62c4c6bac701",
+          "candidates": [
+            {
+              "rva": 543136,
+              "inferred_targets": {}
+            },
+            {
+              "rva": 772416,
+              "inferred_targets": {}
+            }
+          ]
+        },
+        {
+          "unit": "eval_cmd_dependencies",
+          "symbol": "?Cap@CDXUTScrollBar@@IAEXXZ",
+          "size": 67,
+          "object_sha256": "17052b1b62bde7f436b11c70eda5fe2fa606a8d0cd3755be1cad62c4c6bac701",
+          "candidates": [
+            {
+              "rva": 545792,
+              "inferred_targets": {}
+            }
+          ]
+        },
+        {
+          "unit": "eval_cmd_dependencies",
+          "symbol": "?UpdateThumbRect@CDXUTScrollBar@@IAEXXZ",
+          "size": 143,
+          "object_sha256": "17052b1b62bde7f436b11c70eda5fe2fa606a8d0cd3755be1cad62c4c6bac701",
+          "candidates": [
+            {
+              "rva": 545568,
+              "inferred_targets": {}
+            }
+          ]
+        },
+        {
+          "unit": "eval_cmd_dependencies",
+          "symbol": "?SetTrackPos@CDXUTScrollBar@@QAEXH@Z",
+          "size": 85,
+          "object_sha256": "17052b1b62bde7f436b11c70eda5fe2fa606a8d0cd3755be1cad62c4c6bac701",
+          "candidates": []
+        },
+        {
+          "unit": "eval_cmd_dependencies",
+          "symbol": "?ResetPage@CChatProcessEval@@QAEXXZ",
+          "size": 18,
+          "object_sha256": "17052b1b62bde7f436b11c70eda5fe2fa606a8d0cd3755be1cad62c4c6bac701",
+          "candidates": []
+        }
+      ]
+    },
+    "cp32-cmd-scroll-split-ob2-scan": {
+      "units": [
+        {
+          "unit": "eval_cmd_dependencies",
+          "object": "eval_cmd_dependencies.obj",
+          "sha256": "59522d183a3d5b68f7b2d7a124a6b1fa68258ae55361458a4ac32851a5491437",
+          "cache_key": "81fda5b9751ae496ffe2f3072d093dfaba69cb99c18f180517d80181928db337",
+          "reused": false
+        }
+      ],
+      "options": [
+        "/nologo",
+        "/c",
+        "/Ox",
+        "/Og",
+        "/Ob2",
+        "/Oi",
+        "/Ot",
+        "/Oy",
+        "/MT",
+        "/Zp1",
+        "/EHsc",
+        "/Gy",
+        "/DNDEBUG",
+        "/DWIN32",
+        "/D_WINDOWS",
+        "/GF"
+      ],
+      "rows": [
+        {
+          "unit": "eval_cmd_dependencies",
+          "symbol": "?SetTrackPos@CDXUTScrollBar@@QAEXH@Z",
+          "size": 29,
+          "object_sha256": "59522d183a3d5b68f7b2d7a124a6b1fa68258ae55361458a4ac32851a5491437",
+          "candidates": [
+            {
+              "rva": 422112,
+              "inferred_targets": {
+                "?Cap@CDXUTScrollBar@@IAEXXZ": 268981248,
+                "?UpdateThumbRect@CDXUTScrollBar@@IAEXXZ": 268981024
+              }
+            }
+          ]
+        },
+        {
+          "unit": "eval_cmd_dependencies",
+          "symbol": "?ResetPage@CChatProcessEval@@QAEXXZ",
+          "size": 38,
+          "object_sha256": "59522d183a3d5b68f7b2d7a124a6b1fa68258ae55361458a4ac32851a5491437",
+          "candidates": [
+            {
+              "rva": 422800,
+              "inferred_targets": {
+                "?Cap@CDXUTScrollBar@@IAEXXZ": 268981248,
+                "?UpdateThumbRect@CDXUTScrollBar@@IAEXXZ": 268981024
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "adaptations": [
+    "Verified R5 class layout retained; GetText becomes GetTextA.",
+    "SendToServer uses the R5 string RPC identifier and six-argument overload; full body200 bytes. EH handler and dependencies still require integration review.",
+    "MsgProc calls CDXUTIMEEditBox::StaticMsgProc and returns its Boolean result as int; full body57 bytes. StaticMsgProc659 bytes is not yet integrated.",
+    "ProcessInput uses a normal local int for strlen, retains the empty-input early return, and calls chat ResetPage before Disable when chat exists. Both empty and processed-input paths match; full body365 bytes. Volatile trials377 bytes failed and remain preserved.",
+    "ResetPage calls SetTrackPos(90) through the verified scrollbar member. Compiling it separately underOb2 preserves out-of-line Cap/UpdateThumbRect and yields38 bytes. Same-unit Ob1/Ob2 variants31/18 bytes failed.",
+    "BitStream source is a complete pinned copy with adapted include paths, not new0.2.5 transfer credit. All38 emitted functions have discovery candidates; ambiguous identities and prior coverage overlaps require review.",
+    "FS pseudo-symbol discovery now checks real FS memory operands at absolute zero and excludes those three sites from the image-base relocation set; all bytes are still compared. Wrong-segment and nonzero-addend mutations rejected. Strict acceptance gate unchanged."
+  ],
+  "failures": [
+    "cp32-cmd-process-scan: obsolete RPC integer declaration conflicts with R5 string macro.",
+    "cp32-cmd-dependencies-scan: duplicate chat record type in isolated harness; renamed only harness record type."
+  ],
+  "next": "Integrate SendToServer/ProcessInput in actual CCmdWindow; rebuild affected headers once; bind complete BitStream/EH/data dependencies, chat ResetPage/scroll helpers, Disable and actual CGame key-input provider. MsgProc can follow with complete IME source provider. Preserve known missing providers as pending, never count them. Run strict linked acceptance before updating coverage.",
+  "tool_sha256": "106058dc307f524eb3d2c68fda7efc6f63f03caad8c6dc93de79b409a2a879bd"
+}
