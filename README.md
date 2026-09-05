@@ -3,7 +3,32 @@
 Nouveau dépôt local indépendant des anciens projets. Objectif : reconstruire
 des sources maintenables produisant les octets exacts du R5 gelé.
 
-## Résultat du premier pilote
+## Checkpoint 2 — reconstruction liée validée
+
+Une capsule DLL est maintenant compilée et liée par MSVC/MS LINK 2003, puis
+exécutée dans Windows sans charger le DLL original. **17 régions complètes**
+correspondent au R5 après résolution explicite des références : **622 octets de
+code et 142 octets de données/padding**, dont table de branchement et métadonnées
+d’exceptions C++. Deux entrées CRT Microsoft totalisant 59 octets sont vérifiées
+séparément. Le cumul CP1 + CP2 est de **996 octets de code uniques**.
+
+Deux builds aux bases `0x10000000` et `0x30000000` passent chacun 1 338 contrôles
+natifs. Les appels liés, le dispatch virtuel, la table complète et le déroulement
+d’exceptions sont exercés. Huit mutations incorrectes sont rejetées ; les
+324 contrôles émulateur du premier checkpoint passent toujours.
+
+```sh
+.venv/bin/python tools/run_checkpoint2.py
+# Revérification des artefacts existants :
+.venv/bin/python tools/run_checkpoint2.py --skip-build
+```
+
+Voir [le périmètre et les limites](evidence/checkpoint2/REPORT.md),
+[l’acceptation avec empreintes](evidence/checkpoint2/acceptance.json) et
+[les itérations](evidence/checkpoint2/ITERATIONS.md). **Ce résultat valide le
+workflow sur ces régions ; ce n’est pas un client SA-MP complet.**
+
+## Résultat du premier pilote (historique)
 
 **15 fonctions C++, 540 octets de code uniques validés**, avec MSVC 13.10.3077
 dans la VM Parallels `Windows 11`. Aucun assembleur, `_emit` ou corps original
@@ -29,9 +54,10 @@ recopié dans les sources.
 - 81 contrôles de comportement en émulation x86, sur original et candidat à deux
   bases : **324 PASS**, avec contrôle de pile et registres préservés à chaque appel.
 
-Ce n'est **pas** un DLL complet lié, ni un client jouable. Les deux fonctions
-externes `ActorPool::Delete` et `Unprotect` sont seulement identifiées par leurs
-adresses et restent à reconstruire. Elles sont simulées dans les tests émulateur.
+Au checkpoint 1, ce n’était **pas** un DLL complet lié, ni un client jouable. Les deux fonctions
+externes `ActorPool::Delete` et `Unprotect` étaient seulement identifiées par leurs
+adresses. Elles sont désormais reconstruites au checkpoint 2 ; les tests
+historiques du checkpoint 1 continuent de les simuler.
 Les tests ne chargent aucun candidat dans GTA. La couverture validée est d'environ
 **0,058 %** des 930 756 octets virtuels de `.text`, sans compter le code dépendant.
 
@@ -96,9 +122,12 @@ Les jump tables, tail calls, fonctions réparties sur plusieurs sections et SEH
 nécessitent d'étendre explicitement ces contrats et leurs tests ; ils ne doivent
 pas être acceptés par suppression des contrôles.
 
-## Prochain jalon
+## Checkpoints restants
 
-Ajouter une tranche avec dépendances **reconstruites et liées ensemble**, puis
-aborder jump tables, SEH/CRT et layout des sections. Le résultat final à viser
-reste l'identité du fichier entier, métadonnées comprises ; les succès actuels
-portent sur les fonctions, leurs références et les données constantes associées.
+3. Étendre la reconstruction au client complet et à ses dépendances réelles,
+   jusqu’à obtenir un client autonome. Le fournisseur de vtable de test doit
+   notamment être remplacé par les classes R5 reconstruites.
+4. Reproduire le layout et toutes les métadonnées du fichier, puis vérifier
+   l’identité SHA-256 du DLL entier avec la référence gelée.
+
+La réussite du checkpoint 2 ne garantit pas encore l’identité finale du fichier.

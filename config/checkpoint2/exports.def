@@ -1,0 +1,15 @@
+LIBRARY capsule
+EXPORTS
+ FormatBits
+ Unprotect
+ StorageDestroy=??1Storage@@QAE@XZ
+ StorageClear=?ClearStorage@Storage@@QAEX_N@Z
+ BufferClear=?Clear@Buffer@@QAEXXZ
+ BufferDestroy=??1Buffer@@QAE@XZ
+ LayerRelease=?Release@Layer@@QAEXXZ
+ LayerDestroy=??1Layer@@QAE@XZ
+ PoolUpdate=?UpdateCount@VirtualPool@@QAEXXZ
+ PoolDelete=?Delete@VirtualPool@@QAEHG@Z
+ PoolDeleteAll=?DeleteAll@VirtualPool@@QAEXXZ
+ Gravity=?SetGravity@Game@@QAEXM@Z
+ Weather=?SetWeather@Game@@QAEXH@Z
