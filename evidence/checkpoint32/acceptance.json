@@ -1,0 +1,872 @@
+{
+  "result": "PASS",
+  "checkpoint32_status": "IN_PROGRESS",
+  "batch": "ActorPool, ActorPed, Entity and utility first batch",
+  "utc": "2026-09-05T02:26:16.027493+00:00",
+  "coverage": {
+    "previous_code_bytes": 23948,
+    "batch_code_bytes": 1715,
+    "new_unique_code_bytes": 1428,
+    "union_code_bytes": 25376,
+    "text_bytes": 930756,
+    "text_percent": 2.7263858626750728,
+    "whole_dll_match": false
+  },
+  "regions": [
+    {
+      "unit": "game_actorped",
+      "symbol": "?Destroy@CActorPed@@QAEXXZ",
+      "rva": 640000,
+      "size": 83,
+      "sha256": "37b5cb7167ea8b7210dbea10252e265837db710b9afb36503adfe84f6ab605cc",
+      "source_language": "symbolic-asm",
+      "linked_rva": 4096,
+      "status": "RESOLVED_LINKED_EXACT",
+      "dependencies": [
+        {
+          "offset": 26,
+          "kind": 20,
+          "symbol": "?GamePool_Ped_GetAt@@YGPAU_PED_TYPE@@H@Z",
+          "rva": 736112
+        }
+      ],
+      "indirect_transfers": [
+        {
+          "offset": 52,
+          "instruction": "call"
+        }
+      ]
+    },
+    {
+      "unit": "game_actorped",
+      "symbol": "?GetHealth@CActorPed@@QAEMXZ",
+      "rva": 640432,
+      "size": 21,
+      "sha256": "b011d2523a90048ceb50819da15efdf486d42fc2bdb22ebc7ce745aedd3f5a99",
+      "source_language": "C++",
+      "linked_rva": 4192,
+      "status": "RESOLVED_LINKED_EXACT",
+      "dependencies": [
+        {
+          "offset": 9,
+          "kind": 6,
+          "symbol": "__real@00000000",
+          "rva": 940352
+        }
+      ],
+      "indirect_transfers": []
+    },
+    {
+      "unit": "game_actorped",
+      "symbol": "?GetArmour@CActorPed@@QAEMXZ",
+      "rva": 640528,
+      "size": 21,
+      "sha256": "db8ac4a2d3664a5c3d64a1153586ed804958d7402ee2ef35244c8b501d36bea8",
+      "source_language": "C++",
+      "linked_rva": 4224,
+      "status": "RESOLVED_LINKED_EXACT",
+      "dependencies": [
+        {
+          "offset": 9,
+          "kind": 6,
+          "symbol": "__real@00000000",
+          "rva": 940352
+        }
+      ],
+      "indirect_transfers": []
+    },
+    {
+      "unit": "game_actorped",
+      "symbol": "?SetArmour@CActorPed@@QAEXM@Z",
+      "rva": 640560,
+      "size": 20,
+      "sha256": "3306a80060d207880a36b09c35f74c6bc19495d43f6d19ef032abd3777288eef",
+      "source_language": "C++",
+      "linked_rva": 4256,
+      "status": "RAW_LINKED_EXACT",
+      "dependencies": [],
+      "indirect_transfers": []
+    },
+    {
+      "unit": "game_actorped",
+      "symbol": "?GetStateFlags@CActorPed@@QAEKXZ",
+      "rva": 640592,
+      "size": 15,
+      "sha256": "df5d497dfb7ff1ae6f9e779b92e49d5c79c5d66fa912e6772f7fd42bf2152967",
+      "source_language": "C++",
+      "linked_rva": 4288,
+      "status": "RAW_LINKED_EXACT",
+      "dependencies": [],
+      "indirect_transfers": []
+    },
+    {
+      "unit": "game_actorped",
+      "symbol": "?SetStateFlags@CActorPed@@QAEXK@Z",
+      "rva": 640608,
+      "size": 20,
+      "sha256": "16e4c2d881ff4e5d7f8e81fb685ffa77e40442ae10f0b5bea2e0f68b1367b5cc",
+      "source_language": "C++",
+      "linked_rva": 4304,
+      "status": "RAW_LINKED_EXACT",
+      "dependencies": [],
+      "indirect_transfers": []
+    },
+    {
+      "unit": "game_actorped",
+      "symbol": "?IsDead@CActorPed@@QAEHXZ",
+      "rva": 640640,
+      "size": 35,
+      "sha256": "cddbddc9fbd5b6fc717182c5dcad5b63228eb4036a1bb75fed8477373dde5ffc",
+      "source_language": "C++",
+      "linked_rva": 4336,
+      "status": "RESOLVED_LINKED_EXACT",
+      "dependencies": [
+        {
+          "offset": 15,
+          "kind": 6,
+          "symbol": "__real@00000000",
+          "rva": 940352
+        }
+      ],
+      "indirect_transfers": []
+    },
+    {
+      "unit": "game_actorped",
+      "symbol": "?GetActionTrigger@CActorPed@@QAEEXZ",
+      "rva": 640688,
+      "size": 10,
+      "sha256": "5f6b7a022d17962395e7b15c93223880523d293b5d689c97c33c07b99eb25805",
+      "source_language": "C++",
+      "linked_rva": 4384,
+      "status": "RAW_LINKED_EXACT",
+      "dependencies": [],
+      "indirect_transfers": []
+    },
+    {
+      "unit": "game_actorped",
+      "symbol": "?SetActionTrigger@CActorPed@@QAEXE@Z",
+      "rva": 640704,
+      "size": 21,
+      "sha256": "2c5e2e212f76e9f78df71fdc2a3926de781bcbae9d859d26f691bd4bcf3a481f",
+      "source_language": "C++",
+      "linked_rva": 4400,
+      "status": "RAW_LINKED_EXACT",
+      "dependencies": [],
+      "indirect_transfers": []
+    },
+    {
+      "unit": "game_actorped",
+      "symbol": "?IsInVehicle@CActorPed@@QAEHXZ",
+      "rva": 640736,
+      "size": 21,
+      "sha256": "98af19a6e14c2294e9e2bb387b75116dafb36809637b3ca2bebc4824949095ad",
+      "source_language": "C++",
+      "linked_rva": 4432,
+      "status": "RAW_LINKED_EXACT",
+      "dependencies": [],
+      "indirect_transfers": []
+    },
+    {
+      "unit": "game_entity",
+      "symbol": "?GetMatrix@CEntity@@QAEXPAU_MATRIX4X4@@@Z",
+      "rva": 650000,
+      "size": 168,
+      "sha256": "62ef21bd0f80cd495429a68d72bfb6ed5bd36ee4d1ecada9412753e966a32a9e",
+      "source_language": "C++",
+      "linked_rva": 4464,
+      "status": "RAW_LINKED_EXACT",
+      "dependencies": [],
+      "indirect_transfers": []
+    },
+    {
+      "unit": "game_entity",
+      "symbol": "?SetMatrix@CEntity@@QAEXU_MATRIX4X4@@@Z",
+      "rva": 650176,
+      "size": 177,
+      "sha256": "e70eb04641f0db4358aa2e0fa63e6b91b9ee4bec39b31f752f3ed992ba1f03a8",
+      "source_language": "C++",
+      "linked_rva": 4640,
+      "status": "RAW_LINKED_EXACT",
+      "dependencies": [],
+      "indirect_transfers": []
+    },
+    {
+      "unit": "game_entity",
+      "symbol": "?GetMoveSpeedVector@CEntity@@QAEXPAU_VECTOR@@@Z",
+      "rva": 650464,
+      "size": 33,
+      "sha256": "37c708620f9529ea6284cb6f1404b28dce83e94b907e91e8dd0711897001ba44",
+      "source_language": "C++",
+      "linked_rva": 4832,
+      "status": "RAW_LINKED_EXACT",
+      "dependencies": [],
+      "indirect_transfers": []
+    },
+    {
+      "unit": "game_entity",
+      "symbol": "?SetMoveSpeedVector@CEntity@@QAEXU_VECTOR@@@Z",
+      "rva": 650512,
+      "size": 33,
+      "sha256": "06f702626476552d660b5897d8213240ed3e1ffa58eacf5e7a5a600f08ee35de",
+      "source_language": "C++",
+      "linked_rva": 4880,
+      "status": "RAW_LINKED_EXACT",
+      "dependencies": [],
+      "indirect_transfers": []
+    },
+    {
+      "unit": "game_entity",
+      "symbol": "?GetTurnSpeedVector@CEntity@@QAEXPAU_VECTOR@@@Z",
+      "rva": 650800,
+      "size": 33,
+      "sha256": "9f64f33a3f5acdd6da885d9b094e690cf2c87ba768af7295587ead2e528faae9",
+      "source_language": "C++",
+      "linked_rva": 4928,
+      "status": "RAW_LINKED_EXACT",
+      "dependencies": [],
+      "indirect_transfers": []
+    },
+    {
+      "unit": "game_entity",
+      "symbol": "?SetTurnSpeedVector@CEntity@@QAEXU_VECTOR@@@Z",
+      "rva": 650848,
+      "size": 33,
+      "sha256": "af47b111933fe3491abe4705c724b937f7a3d3d8cec611b63e0d1be73571b6c4",
+      "source_language": "C++",
+      "linked_rva": 4976,
+      "status": "RAW_LINKED_EXACT",
+      "dependencies": [],
+      "indirect_transfers": []
+    },
+    {
+      "unit": "game_entity",
+      "symbol": "?GetModelIndex@CEntity@@QAEIXZ",
+      "rva": 651312,
+      "size": 8,
+      "sha256": "045e571886540c648fa04e0b5cbeb440b5372b40d88518a4704f223172582117",
+      "source_language": "C++",
+      "linked_rva": 5024,
+      "status": "RAW_LINKED_EXACT",
+      "dependencies": [],
+      "indirect_transfers": []
+    },
+    {
+      "unit": "game_entity",
+      "symbol": "?IsAdded@CEntity@@QAEHXZ",
+      "rva": 652240,
+      "size": 34,
+      "sha256": "c034c8202801159f67a88d7c74de1d9c0742e0938b1e0423e520ff02ddb8f8e1",
+      "source_language": "C++",
+      "linked_rva": 5040,
+      "status": "RAW_LINKED_EXACT",
+      "dependencies": [],
+      "indirect_transfers": []
+    },
+    {
+      "unit": "game_entity",
+      "symbol": "?Remove@CEntity@@UAEXXZ",
+      "rva": 652288,
+      "size": 32,
+      "sha256": "d286af30cfcf52c6efccf732053ff438d87d51a1df81d35abcaaf4c90afafa48",
+      "source_language": "C++",
+      "linked_rva": 5088,
+      "status": "RESOLVED_LINKED_EXACT",
+      "dependencies": [
+        {
+          "offset": 27,
+          "kind": 20,
+          "symbol": "?WorldRemoveEntity@@YGXPAK@Z",
+          "rva": 736064
+        }
+      ],
+      "indirect_transfers": []
+    },
+    {
+      "unit": "game_util",
+      "symbol": "?WorldAddEntity@@YGXPAK@Z",
+      "rva": 736032,
+      "size": 20,
+      "sha256": "f9599d118a0c9025cf7ded39f9efcd8c55e4d488be390dbef203921ede73aed3",
+      "source_language": "symbolic-asm",
+      "linked_rva": 5344,
+      "status": "RAW_LINKED_EXACT",
+      "dependencies": [],
+      "indirect_transfers": [
+        {
+          "offset": 12,
+          "instruction": "call"
+        }
+      ]
+    },
+    {
+      "unit": "game_util",
+      "symbol": "?WorldRemoveEntity@@YGXPAK@Z",
+      "rva": 736064,
+      "size": 20,
+      "sha256": "627cd8da7dc7ea6f7ac822e0d51499d234762f9c15fb3f557b4f4344b2126666",
+      "source_language": "symbolic-asm",
+      "linked_rva": 5376,
+      "status": "RAW_LINKED_EXACT",
+      "dependencies": [],
+      "indirect_transfers": [
+        {
+          "offset": 12,
+          "instruction": "call"
+        }
+      ]
+    },
+    {
+      "unit": "game_util",
+      "symbol": "?GamePool_Ped_GetAt@@YGPAU_PED_TYPE@@H@Z",
+      "rva": 736112,
+      "size": 35,
+      "sha256": "08b031236c3f53176a59ac12ae58318a63f7910e9649b9b8955e9cd4d64ed61b",
+      "source_language": "symbolic-asm",
+      "linked_rva": 5408,
+      "status": "RAW_LINKED_EXACT",
+      "dependencies": [],
+      "indirect_transfers": [
+        {
+          "offset": 20,
+          "instruction": "call"
+        }
+      ]
+    },
+    {
+      "unit": "game_util",
+      "symbol": "?GamePool_Ped_GetIndex@@YGHPAU_PED_TYPE@@@Z",
+      "rva": 736160,
+      "size": 35,
+      "sha256": "0eed8b625f006a0b005d91f249a1a8524ff5bf8626f9d4a07c8b573af81099b2",
+      "source_language": "symbolic-asm",
+      "linked_rva": 5456,
+      "status": "RAW_LINKED_EXACT",
+      "dependencies": [],
+      "indirect_transfers": [
+        {
+          "offset": 20,
+          "instruction": "call"
+        }
+      ]
+    },
+    {
+      "unit": "game_util",
+      "symbol": "?GamePool_Vehicle_GetAt@@YGPAU_VEHICLE_TYPE@@H@Z",
+      "rva": 736208,
+      "size": 35,
+      "sha256": "cac04d6483b1e30a1d967795ab3dd495864c8bc51275094b5c8949a940e33b4e",
+      "source_language": "symbolic-asm",
+      "linked_rva": 5504,
+      "status": "RAW_LINKED_EXACT",
+      "dependencies": [],
+      "indirect_transfers": [
+        {
+          "offset": 20,
+          "instruction": "call"
+        }
+      ]
+    },
+    {
+      "unit": "game_util",
+      "symbol": "?GamePool_Vehicle_GetIndex@@YGKPAU_VEHICLE_TYPE@@@Z",
+      "rva": 736256,
+      "size": 40,
+      "sha256": "bdf8c7498bbf253e21dba9fbbfade3c81dec3e94162eb175bc909782c552664c",
+      "source_language": "symbolic-asm",
+      "linked_rva": 5552,
+      "status": "RAW_LINKED_EXACT",
+      "dependencies": [],
+      "indirect_transfers": [
+        {
+          "offset": 26,
+          "instruction": "call"
+        }
+      ]
+    },
+    {
+      "unit": "game_util",
+      "symbol": "?GamePool_Object_GetAt@@YGPAU_ENTITY_TYPE@@H@Z",
+      "rva": 736304,
+      "size": 35,
+      "sha256": "8824474f0b4e07f190a3f2ac40d40b02655e0210e6594a825d4899890b6c3124",
+      "source_language": "symbolic-asm",
+      "linked_rva": 5600,
+      "status": "RAW_LINKED_EXACT",
+      "dependencies": [],
+      "indirect_transfers": [
+        {
+          "offset": 20,
+          "instruction": "call"
+        }
+      ]
+    },
+    {
+      "unit": "game_util",
+      "symbol": "?GamePool_FindPlayerPed@@YGPAU_PED_TYPE@@XZ",
+      "rva": 736352,
+      "size": 6,
+      "sha256": "a80c200c1569f52abe70b43975322baa08db1d1cd6d0f05f29ba7a90acadce00",
+      "source_language": "C++",
+      "linked_rva": 5648,
+      "status": "RAW_LINKED_EXACT",
+      "dependencies": [],
+      "indirect_transfers": []
+    },
+    {
+      "unit": "game_entity",
+      "symbol": "?SetCollisionChecking@CEntity@@QAEXH@Z",
+      "rva": 652848,
+      "size": 47,
+      "sha256": "a5fb15286a0e67e906e1efc791de45233b1cf31171d0de3cb9a4920040d03309",
+      "source_language": "C++",
+      "linked_rva": 5120,
+      "status": "RAW_LINKED_EXACT",
+      "dependencies": [],
+      "indirect_transfers": []
+    },
+    {
+      "unit": "game_entity",
+      "symbol": "?IsCollisionCheckingEnabled@CEntity@@QAEHXZ",
+      "rva": 652896,
+      "size": 29,
+      "sha256": "104600d69a7b7a684de56b647b048e09edc17cd09380b506103c9ba292ef6d57",
+      "source_language": "C++",
+      "linked_rva": 5168,
+      "status": "RAW_LINKED_EXACT",
+      "dependencies": [],
+      "indirect_transfers": []
+    },
+    {
+      "unit": "game_entity",
+      "symbol": "?SetGravityProcessing@CEntity@@QAEXH@Z",
+      "rva": 652928,
+      "size": 51,
+      "sha256": "b4a5cc6ba4ee7fff4b032054aed670d77f1cb6a340b6edfbdcd7a32857a99cd1",
+      "source_language": "C++",
+      "linked_rva": 5200,
+      "status": "RAW_LINKED_EXACT",
+      "dependencies": [],
+      "indirect_transfers": []
+    },
+    {
+      "unit": "game_entity",
+      "symbol": "?DisableStreaming@CEntity@@QAEXXZ",
+      "rva": 653056,
+      "size": 23,
+      "sha256": "0efaa62387d1e8191f4caa5a181c33de33355096a0511228f3ec82bcc25259e6",
+      "source_language": "C++",
+      "linked_rva": 5264,
+      "status": "RAW_LINKED_EXACT",
+      "dependencies": [],
+      "indirect_transfers": []
+    },
+    {
+      "unit": "game_entity",
+      "symbol": "?EnableTunnelTransition@CEntity@@QAEXXZ",
+      "rva": 653088,
+      "size": 23,
+      "sha256": "b2a2cfae3ad8ceffa472cdc872b3c45c337cff505f8abbdd373cdccf7b2f0c32",
+      "source_language": "C++",
+      "linked_rva": 5296,
+      "status": "RAW_LINKED_EXACT",
+      "dependencies": [],
+      "indirect_transfers": []
+    },
+    {
+      "unit": "game_entity",
+      "symbol": "?MakeNonCollidable@CEntity@@QAEXXZ",
+      "rva": 653184,
+      "size": 12,
+      "sha256": "48ce8cc949fe612353f3a546ee40c4734fd5ef6bd4c5873bd202640360773f00",
+      "source_language": "C++",
+      "linked_rva": 5328,
+      "status": "RAW_LINKED_EXACT",
+      "dependencies": [],
+      "indirect_transfers": []
+    },
+    {
+      "unit": "game_util",
+      "symbol": "?FloatDifference@@YAMMM@Z",
+      "rva": 739488,
+      "size": 9,
+      "sha256": "fdbab7e022420fb41666f4612987bc783a515ef62225ebb1b0d54175a1dcc3fb",
+      "source_language": "C++",
+      "linked_rva": 5664,
+      "status": "RAW_LINKED_EXACT",
+      "dependencies": [],
+      "indirect_transfers": []
+    },
+    {
+      "unit": "game_util",
+      "symbol": "?FloatOffset@@YAMMM@Z",
+      "rva": 739504,
+      "size": 33,
+      "sha256": "447b0414e0bc8a72b6960aa78d451c23a84239ba08e81814a2994355feaaf967",
+      "source_language": "C++",
+      "linked_rva": 5680,
+      "status": "RAW_LINKED_EXACT",
+      "dependencies": [],
+      "indirect_transfers": []
+    },
+    {
+      "unit": "game_util",
+      "symbol": "?SquaredDistanceBetweenHorizontalPoints@@YGMMMMM@Z",
+      "rva": 739600,
+      "size": 33,
+      "sha256": "7f42650b0272ccd58cf7969c15126257fd5eb4d9befada7b13303ea28b70f00b",
+      "source_language": "C++",
+      "linked_rva": 5728,
+      "status": "RAW_LINKED_EXACT",
+      "dependencies": [],
+      "indirect_transfers": []
+    },
+    {
+      "unit": "game_util",
+      "symbol": "?DistanceBetweenHorizontalPoints@@YGMMMMM@Z",
+      "rva": 739648,
+      "size": 35,
+      "sha256": "8813aaa98b2190ba53fe931042115fbfc44626ca24ea7fdcc7d36cbba7c7a26d",
+      "source_language": "C++",
+      "linked_rva": 5776,
+      "status": "RAW_LINKED_EXACT",
+      "dependencies": [],
+      "indirect_transfers": []
+    },
+    {
+      "unit": "game_util",
+      "symbol": "?DistanceBetweenPoints@@YGMMMMMMM@Z",
+      "rva": 739696,
+      "size": 51,
+      "sha256": "40d874cf913ad4f97720796f506bcbe24b7473740d79734e4fddbc51154fa270",
+      "source_language": "C++",
+      "linked_rva": 5824,
+      "status": "RAW_LINKED_EXACT",
+      "dependencies": [],
+      "indirect_transfers": []
+    },
+    {
+      "unit": "game_util",
+      "symbol": "?IsNumeric@@YA_NPAD@Z",
+      "rva": 744096,
+      "size": 38,
+      "sha256": "c3f61e656f2c99ddff159eaab2d138ff3c50f294089c9b239f6443d97593a938",
+      "source_language": "C++",
+      "linked_rva": 5888,
+      "status": "RAW_LINKED_EXACT",
+      "dependencies": [],
+      "indirect_transfers": []
+    },
+    {
+      "unit": "net_actorpool",
+      "symbol": "??0CActorPool@@QAE@XZ",
+      "rva": 5824,
+      "size": 41,
+      "sha256": "a17559c9a1bd2aafc3f55a98f05b10ed1c9c538328b6a0900a50a21778641f53",
+      "source_language": "C++",
+      "linked_rva": 5936,
+      "status": "RAW_LINKED_EXACT",
+      "dependencies": [],
+      "indirect_transfers": []
+    },
+    {
+      "unit": "net_actorpool",
+      "symbol": "?UpdateCount@CActorPool@@QAEXXZ",
+      "rva": 5728,
+      "size": 85,
+      "sha256": "227e4d92e181d8dca4d0eacec1713c6b1fb321b6b80e06d78bb33b3421236ccf",
+      "source_language": "C++",
+      "linked_rva": 5984,
+      "status": "RAW_LINKED_EXACT",
+      "dependencies": [],
+      "indirect_transfers": []
+    },
+    {
+      "unit": "net_actorpool",
+      "symbol": "?Delete@CActorPool@@QAEHG@Z",
+      "rva": 5872,
+      "size": 97,
+      "sha256": "18fb3f03a2b164f7aecc045592cd61012cdfe8cd47747326c1e1188437dccba3",
+      "source_language": "C++",
+      "linked_rva": 6080,
+      "status": "RESOLVED_LINKED_EXACT",
+      "dependencies": [
+        {
+          "offset": 76,
+          "kind": 20,
+          "symbol": "?UpdateCount@CActorPool@@QAEXXZ",
+          "rva": 5728
+        }
+      ],
+      "indirect_transfers": [
+        {
+          "offset": 52,
+          "instruction": "call"
+        }
+      ]
+    },
+    {
+      "unit": "net_actorpool",
+      "symbol": "?FindIDFromGtaPtr@CActorPool@@QAEGH@Z",
+      "rva": 6320,
+      "size": 39,
+      "sha256": "3dd0095606a050733f71b86385142bbb32cd6c4b2ac59c46f8e3899c0a1507c7",
+      "source_language": "C++",
+      "linked_rva": 6192,
+      "status": "RAW_LINKED_EXACT",
+      "dependencies": [],
+      "indirect_transfers": []
+    },
+    {
+      "unit": "net_actorpool",
+      "symbol": "?DeleteAll@CActorPool@@QAEXXZ",
+      "rva": 6368,
+      "size": 25,
+      "sha256": "fcf5123695505f2f37c5f542b6b2e1a9237b70630ae64bb125ab7067108cf7f7",
+      "source_language": "C++",
+      "linked_rva": 6240,
+      "status": "RESOLVED_LINKED_EXACT",
+      "dependencies": [
+        {
+          "offset": 10,
+          "kind": 20,
+          "symbol": "?Delete@CActorPool@@QAEHG@Z",
+          "rva": 5872
+        }
+      ],
+      "indirect_transfers": []
+    }
+  ],
+  "data": [
+    {
+      "unit": "game_actorped",
+      "symbol": "__real@00000000",
+      "rva": 940352,
+      "size": 4,
+      "sha256": "df3f619804a92fdb4057192dc43dd748ea778adc52bc498ce80524c014b81119",
+      "linked_rva": 33000,
+      "status": "RAW_LINKED_EXACT",
+      "dependencies": [],
+      "indirect_transfers": []
+    }
+  ],
+  "builds": [
+    {
+      "run": "cp32-baseline",
+      "image_base": 268435456,
+      "native_checks": 29501,
+      "emulation": {
+        "result": "PASS",
+        "checks": 16,
+        "cases": [
+          {
+            "image": "reference",
+            "scenario": "null",
+            "result": "PASS"
+          },
+          {
+            "image": "reference",
+            "scenario": "missing",
+            "result": "PASS"
+          },
+          {
+            "image": "reference",
+            "scenario": "placeable",
+            "result": "PASS"
+          },
+          {
+            "image": "reference",
+            "scenario": "live",
+            "result": "PASS"
+          },
+          {
+            "image": "reference",
+            "scenario": "remove-null",
+            "result": "PASS"
+          },
+          {
+            "image": "reference",
+            "scenario": "remove-placeable",
+            "result": "PASS"
+          },
+          {
+            "image": "reference",
+            "scenario": "remove-absent",
+            "result": "PASS"
+          },
+          {
+            "image": "reference",
+            "scenario": "remove-live",
+            "result": "PASS"
+          },
+          {
+            "image": "linked",
+            "scenario": "null",
+            "result": "PASS"
+          },
+          {
+            "image": "linked",
+            "scenario": "missing",
+            "result": "PASS"
+          },
+          {
+            "image": "linked",
+            "scenario": "placeable",
+            "result": "PASS"
+          },
+          {
+            "image": "linked",
+            "scenario": "live",
+            "result": "PASS"
+          },
+          {
+            "image": "linked",
+            "scenario": "remove-null",
+            "result": "PASS"
+          },
+          {
+            "image": "linked",
+            "scenario": "remove-placeable",
+            "result": "PASS"
+          },
+          {
+            "image": "linked",
+            "scenario": "remove-absent",
+            "result": "PASS"
+          },
+          {
+            "image": "linked",
+            "scenario": "remove-live",
+            "result": "PASS"
+          }
+        ],
+        "boundary": "Only GTA pool method, native GTA destructor and world removal are intercepted"
+      },
+      "build_sha256": "b0c5cebb1571bf71ce4b27e0bc5ccc8ecb482e51a57b17f08a9b04899bc56b70",
+      "artifacts": {
+        "actor.map": "884e049d59fac98c88240b69230ae8dd49d3e770ca7ff677be320a81fa676cb0",
+        "actor.dll": "219e6a1e614cf980c67a048c98aba5f42b026cd4e2524db7f9c9aa09e3d2ba7b",
+        "native.log": "ebe6cb0c27d60a7013f155b3051f8cbdb3a909ac2f6a4ebecbc119bb0ec9c5cd",
+        "native.exe": "fea8f2bb886c4fa4086b9a75fd89162614b0bea4a7c55a43cb471b0565703fd1",
+        "actor.lib": "4d1273b220df5510444b9d4c371585005fe3a83af902e4b0e5791865eb4f61c6"
+      }
+    },
+    {
+      "run": "cp32-repeat",
+      "image_base": 805306368,
+      "native_checks": 29501,
+      "emulation": {
+        "result": "PASS",
+        "checks": 16,
+        "cases": [
+          {
+            "image": "reference",
+            "scenario": "null",
+            "result": "PASS"
+          },
+          {
+            "image": "reference",
+            "scenario": "missing",
+            "result": "PASS"
+          },
+          {
+            "image": "reference",
+            "scenario": "placeable",
+            "result": "PASS"
+          },
+          {
+            "image": "reference",
+            "scenario": "live",
+            "result": "PASS"
+          },
+          {
+            "image": "reference",
+            "scenario": "remove-null",
+            "result": "PASS"
+          },
+          {
+            "image": "reference",
+            "scenario": "remove-placeable",
+            "result": "PASS"
+          },
+          {
+            "image": "reference",
+            "scenario": "remove-absent",
+            "result": "PASS"
+          },
+          {
+            "image": "reference",
+            "scenario": "remove-live",
+            "result": "PASS"
+          },
+          {
+            "image": "linked",
+            "scenario": "null",
+            "result": "PASS"
+          },
+          {
+            "image": "linked",
+            "scenario": "missing",
+            "result": "PASS"
+          },
+          {
+            "image": "linked",
+            "scenario": "placeable",
+            "result": "PASS"
+          },
+          {
+            "image": "linked",
+            "scenario": "live",
+            "result": "PASS"
+          },
+          {
+            "image": "linked",
+            "scenario": "remove-null",
+            "result": "PASS"
+          },
+          {
+            "image": "linked",
+            "scenario": "remove-placeable",
+            "result": "PASS"
+          },
+          {
+            "image": "linked",
+            "scenario": "remove-absent",
+            "result": "PASS"
+          },
+          {
+            "image": "linked",
+            "scenario": "remove-live",
+            "result": "PASS"
+          }
+        ],
+        "boundary": "Only GTA pool method, native GTA destructor and world removal are intercepted"
+      },
+      "build_sha256": "c31c29f01a243d8b60373f2f54a2fa2c22f617d27d7ab8fec6c57127acfb7f17",
+      "artifacts": {
+        "actor.map": "fa01bd2b364c458c9a360e0a94e0a112ed6d70cc2b989ca991fdffe982ff8400",
+        "actor.dll": "d76cb7006eec5276af89c200ca678fcd245481156acec344f2a672e7dc7774fa",
+        "native.log": "9c429bb00146646b07f6f1390d6ddb867dcac2ec1ce404873a0ad25e84803157",
+        "native.exe": "e66bc3b70fab814f5e7677e262a8a7aabe6680d21613c2b6c3e8071c605cd3b7",
+        "actor.lib": "dec9d0d7ad9708f6e126e7a21a8d1c1641741d6c1e446ba89777f367bebedebf"
+      }
+    }
+  ],
+  "reproducibility": {
+    "result": "PASS",
+    "canonical_objects": {
+      "game_actorped.obj": "563079789df09fea7fdfb1ded81eb4fab544d2490c2b933f6dd6a72ed5c73781",
+      "game_entity.obj": "36d9dabd8e8079ea4413fce863ef9b093a78529c0d6c2caeeeba905b18fb9a37",
+      "game_util.obj": "41d4a95a6f2b5fc3548f3eb778d0fe0ee294b40d4ba41b632d857f1f1594c959",
+      "net_actorpool.obj": "e4992e7bba7d3641f32cd7f14ece11c00550f0b7660c1eb7bcd40088cf5d3564"
+    },
+    "scope": "All non-debug COFF sections and symbolic fixups; timestamps and final PE layout excluded"
+  },
+  "negative_controls": "8 tests, including complete last-byte mutation of each function in both COFF and linked PE",
+  "regressions": "CP1, CP2 and CP3.1 gates pass",
+  "limitations": [
+    "ActorPool virtual deletion target is not yet integrated; only its full caller is accepted",
+    "ActorPed constructor, destructor, scalar deleting destructor, EH and vtables remain pending",
+    "Symbolic inline assembly is explicitly labeled; GTA engine targets are outside R5 coverage",
+    "This capsule is not a replacement samp.dll; no game deployment or whole-file hash match"
+  ]
+}

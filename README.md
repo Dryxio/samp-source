@@ -3,6 +3,25 @@
 Nouveau dépôt local indépendant des anciens projets. Objectif : reconstruire
 des sources maintenables produisant les octets exacts du R5 gelé.
 
+## Checkpoint 3.2 — en cours, premier lot accepté
+
+**44 fonctions complètes** d'ActorPool, ActorPed, Entity et des utilitaires passent
+le matching des objets et des DLL liées. Deux builds indépendants passent
+**59 002 contrôles natifs** au total, les tests des appels GTA et les contrôles
+négatifs. La couverture cumulée est de **25 376 octets de code uniques (2,7264 %
+de `.text`)**. Le destructeur virtuel complet et le constructeur d'ActorPed restent
+à intégrer ; le 3.2 et la reconstruction de `samp.dll` ne sont pas terminés.
+
+Voir [le rapport](evidence/checkpoint32/REPORT.md),
+[les preuves](evidence/checkpoint32/acceptance.json) et
+[les itérations](evidence/checkpoint32/ITERATIONS.md).
+
+```sh
+.venv/bin/python tools/run_checkpoint32.py --skip-build
+# Pour deux nouveaux builds, sans écraser les preuves existantes :
+.venv/bin/python tools/run_checkpoint32.py --prefix cp32-next
+```
+
 ## Checkpoint 3.1 — socle et dépendances validé
 
 **50 unités sources, trois bibliothèques liées et 262 régions RAW_LINKED_EXACT** :

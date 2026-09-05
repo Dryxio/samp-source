@@ -1,2 +1,5 @@
 # Preserve the exact pinned upstream inputs, including their original CRLF.
 vendor/upstream/** -text -whitespace
+
+# Imported client bodies retain their source byte representation.
+client/** -text -whitespace
