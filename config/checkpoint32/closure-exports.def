@@ -620,3 +620,22 @@ EXPORTS
  ?DXUTAlphaChannelBits@@YAIW4_D3DFORMAT@@@Z
  ?DXUTDepthBits@@YAIW4_D3DFORMAT@@@Z
  ?DXUTStencilBits@@YAIW4_D3DFORMAT@@@Z
+ ?ClearAdapterInfoList@CD3DEnumeration@@AAEXXZ
+ ?EnumerateDevices@CD3DEnumeration@@AAEJPAVCD3DEnumAdapterInfo@@PAV?$CGrowableArray@W4_D3DFORMAT@@@@@Z
+ ?EnumerateDeviceCombos@CD3DEnumeration@@AAEJPAVCD3DEnumAdapterInfo@@PAVCD3DEnumDeviceInfo@@PAV?$CGrowableArray@W4_D3DFORMAT@@@@@Z
+ ?BuildDepthStencilFormatList@CD3DEnumeration@@AAEXPAUCD3DEnumDeviceSettingsCombo@@@Z
+ ?BuildMultiSampleTypeList@CD3DEnumeration@@AAEXPAUCD3DEnumDeviceSettingsCombo@@@Z
+ ?BuildDSMSConflictList@CD3DEnumeration@@AAEXPAUCD3DEnumDeviceSettingsCombo@@@Z
+ ?BuildPresentIntervalList@CD3DEnumeration@@AAEXPAVCD3DEnumDeviceInfo@@PAUCD3DEnumDeviceSettingsCombo@@@Z
+ ?ResetPossibleDepthStencilFormats@CD3DEnumeration@@QAEXXZ
+ ?ResetPossibleMultisampleTypeList@CD3DEnumeration@@QAEXXZ
+ ?ResetPossiblePresentIntervalList@CD3DEnumeration@@QAEXXZ
+ ?GetAdapterInfo@CD3DEnumeration@@QAEPAVCD3DEnumAdapterInfo@@I@Z
+ ?GetDeviceInfo@CD3DEnumeration@@QAEPAVCD3DEnumDeviceInfo@@IW4_D3DDEVTYPE@@@Z
+ ?GetDeviceSettingsCombo@CD3DEnumeration@@QAEPAUCD3DEnumDeviceSettingsCombo@@IW4_D3DDEVTYPE@@W4_D3DFORMAT@@1H@Z
+ ??0CD3DEnumeration@@AAE@XZ
+ ??1CD3DEnumeration@@QAE@XZ
+ ?SetPossibleVertexProcessingList@CD3DEnumeration@@QAEX_N000@Z
+ ?GetPossibleVertexProcessingList@CD3DEnumeration@@QAEXPA_N000@Z
+ ??1CD3DEnumAdapterInfo@@QAE@XZ
+ ??1CD3DEnumDeviceInfo@@QAE@XZ

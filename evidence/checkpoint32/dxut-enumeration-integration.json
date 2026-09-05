@@ -1,0 +1,104 @@
+{
+  "status": "ACCEPTED_AFTER_COMPLETE_LINK_REVIEW",
+  "run": "cp32-dxut-enumeration-linked",
+  "ob1": "cp32-dxut-enumeration-setter-ob1",
+  "ob2": "cp32-ime-ob2",
+  "new_unique_code_bytes": 4443,
+  "accepted_direct_025_credit": 0,
+  "reference_025_sha256": "1fd0f88d11335bfb1f2104ac1019ad28707430f45ff433659df04a53d8fc7cd7",
+  "reference_comparisons": [
+    {
+      "function": "CD3DEnumeration::CD3DEnumeration",
+      "identical_to_025": true
+    },
+    {
+      "function": "CD3DEnumeration::~CD3DEnumeration",
+      "identical_to_025": true
+    },
+    {
+      "function": "CD3DEnumeration::ClearAdapterInfoList",
+      "identical_to_025": true
+    },
+    {
+      "function": "CD3DEnumeration::EnumerateDevices",
+      "identical_to_025": true
+    },
+    {
+      "function": "CD3DEnumeration::EnumerateDeviceCombos",
+      "identical_to_025": true
+    },
+    {
+      "function": "CD3DEnumeration::BuildDepthStencilFormatList",
+      "identical_to_025": true
+    },
+    {
+      "function": "CD3DEnumeration::BuildMultiSampleTypeList",
+      "identical_to_025": true
+    },
+    {
+      "function": "CD3DEnumeration::BuildDSMSConflictList",
+      "identical_to_025": true
+    },
+    {
+      "function": "CD3DEnumeration::BuildPresentIntervalList",
+      "identical_to_025": true
+    },
+    {
+      "function": "CD3DEnumeration::ResetPossibleDepthStencilFormats",
+      "identical_to_025": true
+    },
+    {
+      "function": "CD3DEnumeration::ResetPossibleMultisampleTypeList",
+      "identical_to_025": true
+    },
+    {
+      "function": "CD3DEnumeration::ResetPossiblePresentIntervalList",
+      "identical_to_025": true
+    },
+    {
+      "function": "CD3DEnumeration::GetAdapterInfo",
+      "identical_to_025": true
+    },
+    {
+      "function": "CD3DEnumeration::GetDeviceInfo",
+      "identical_to_025": true
+    },
+    {
+      "function": "CD3DEnumeration::GetDeviceSettingsCombo",
+      "identical_to_025": true
+    },
+    {
+      "function": "CD3DEnumeration::SetPossibleVertexProcessingList",
+      "identical_to_025": true
+    },
+    {
+      "function": "CD3DEnumeration::GetPossibleVertexProcessingList",
+      "identical_to_025": true
+    },
+    {
+      "function": "CD3DEnumAdapterInfo::~CD3DEnumAdapterInfo",
+      "identical_to_025": true
+    },
+    {
+      "function": "CD3DEnumDeviceInfo::~CD3DEnumDeviceInfo",
+      "identical_to_025": true
+    }
+  ],
+  "source_adaptations": "Only extraction includes and complete selection of original definitions; no method behavior changes.",
+  "trials": [
+    {
+      "run": "cp32-dxut-enumeration-ob1",
+      "result": "Added <new> header changed destructor exception code: DeviceInfo128 vs176, AdapterInfo98 vs146, Enumeration50 vs98. Constructor169 vs120. Rejected."
+    },
+    {
+      "run": "cp32-dxut-enumeration-sdk-ob1",
+      "result": "Restoring original minimal SDK include environment restores all destructor bodies; constructor169 still differs because SetPossibleVertexProcessingList provider is not in same translation unit."
+    },
+    {
+      "run": "cp32-dxut-enumeration-setter-ob1",
+      "result": "Include complete original setter and getter. Constructor now120; all19 selected methods and complete provider tree match."
+    }
+  ],
+  "verification": "1223 full regions, all relocations/target identities,9 negative controls and existing ABI pass. Complete EH cleanup sections54/38/24 and unwind+FuncInfo objects60/44/36 reviewed. No new imports or pending providers. Eight old linked pending providers remain excluded. No graphics/game execution or actual exception unwinding.",
+  "next": "Top-level Enumerate1003 still needs actual DXUTGetD3DObject/global state closure. Independent settings predicate and format providers now accepted."
+}
