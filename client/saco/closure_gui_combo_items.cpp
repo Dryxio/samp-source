@@ -192,3 +192,7 @@ HRESULT CDXUTComboBox::SetSelectedByData( void* pData )
 
     return E_FAIL;
 }
+CDXUTComboBox::~CDXUTComboBox()
+{
+    RemoveAllItems();
+}

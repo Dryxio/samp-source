@@ -8,5 +8,5 @@ def prepare():
     # Complete contiguous item block, preserving both GetItemData overloads.
     last=definition(s,'CDXUTComboBox::SetSelectedByData')
     end=s.index(last,start)+len(last)
-    (ROOT/'client/saco/closure_gui_combo_items.cpp').write_text('#include "d3d9/common/dxstdafx.h"\n#include <new>\n'+s[start:end]+'\n')
+    (ROOT/'client/saco/closure_gui_combo_items.cpp').write_text('#include "d3d9/common/dxstdafx.h"\n#include <new>\n'+s[start:end]+'\n'+definition(s,'CDXUTComboBox::~CDXUTComboBox')+'\n')
 if __name__=='__main__':prepare()
