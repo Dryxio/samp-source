@@ -26,6 +26,9 @@ def prepare():
   if unit=='closure_models':header+='// Original game.cpp draw-zone callback declaration.\ntypedef void (*DrawZone_t)(float *fPos, DWORD *dwColor, BYTE byteMenu);\n'
   if unit=='closure_filter':header+='extern CChatWindow *pChatWindow;\nextern DWORD dwScmOpcodeDebug;\nextern WORD wVehicleComponentDebug;\nint dword_10125A58=0;\n'
   if unit=='closure_util':header+='#include <sys/stat.h>\n#undef PI\n#define PI 3.14159265f\n'
+  if unit=='closure_key_inputs':
+   # R5 embeds both original native helpers; keep their complete definitions.
+   header+='\n'.join('static inline '+definition(s,n).replace(n, 'KeyInput'+n) for n in ('DIResetMouse','UpdatePads'))+'\n'
   record=records.get(unit,{})
   if 'storage_includes' in record:
    if 'storage' not in record:raise ValueError('minimal storage headers require a storage record')
@@ -37,6 +40,8 @@ def prepare():
    header+=storage['declaration']+'\n'
    header+='typedef char complete_storage_size[(sizeof('+storage['symbol']+')=='+str(storage['size'])+')?1:-1];\n'
   code=header+'\n\n'+'\n\n'.join(definition(s,(cls+'::' if cls else '')+(n['name'] if isinstance(n,dict) else n),n.get('overload') if isinstance(n,dict) else None) for n in names)+'\n'
+  if unit=='closure_key_inputs':
+   for n in ('DIResetMouse','UpdatePads'):code=code.replace(n+'();','KeyInput'+n+'();')
   (ROOT/'client/saco'/(unit+'.cpp')).write_bytes(code.encode('latin1'))
  # These are real zero-initialized client globals, copied from main.cpp.
  (ROOT/'client/saco/closure_state.cpp').write_text('#include "main.h"\nCChatWindow *pChatWindow=0;\nWORD wVehicleComponentDebug=0;\nCGame *pGame=0;\n')

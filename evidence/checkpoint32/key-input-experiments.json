@@ -1,0 +1,64 @@
+{
+  "status": "EXPERIMENTS_THEN_SEPARATE_ACCEPTANCE",
+  "initial_run": "cp32-command-processing-ob1",
+  "initial_source_size": 344,
+  "original_size": 407,
+  "inline_candidate": {
+    "status": "DISCOVERY_ONLY_NOT_ACCEPTED",
+    "run": "cp32-key-input-inline-scan",
+    "reference_sha256": "b72b5dbe725f81864ca3f78bc7063bda56cc05fc7188af822fa7a754432553a2",
+    "rows": [
+      {
+        "unit": "eval_key_inputs",
+        "symbol": "?DIResetMouse@@YAXXZ",
+        "size": 20,
+        "object_sha256": "69c21cbf59e78c3305d6819652b7e857a5bf7dacab0e1edebdd7df47f3ef8526",
+        "candidates": [
+          {
+            "rva": 656560,
+            "inferred_targets": {}
+          }
+        ]
+      },
+      {
+        "unit": "eval_key_inputs",
+        "symbol": "?UpdatePads@@YAXXZ",
+        "size": 8,
+        "object_sha256": "69c21cbf59e78c3305d6819652b7e857a5bf7dacab0e1edebdd7df47f3ef8526",
+        "candidates": [
+          {
+            "rva": 656592,
+            "inferred_targets": {}
+          }
+        ]
+      },
+      {
+        "unit": "eval_key_inputs",
+        "symbol": "?ToggleKeyInputsDisabled@CGame@@QAEXHH@Z",
+        "size": 407,
+        "object_sha256": "69c21cbf59e78c3305d6819652b7e857a5bf7dacab0e1edebdd7df47f3ef8526",
+        "candidates": [
+          {
+            "rva": 657136,
+            "inferred_targets": {
+              "?UnFuck@@YAXKH@Z": 269132992,
+              "?DisableMouseProcess@@YAXXZ": 269092224,
+              "?pD3DDevice@@3PAUIDirect3DDevice9@@A": 270986048,
+              "?DisableMousePositionUpdate@@YAXXZ": 269092064
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "failed_link": {
+    "run": "cp32-key-input-linked",
+    "reason": "Duplicate standalone DIResetMouse and UpdatePads definitions in closure_controls and closure_key_inputs. No DLL was accepted.",
+    "log_sha256": "cf8c771673756d8591acd6c6bf463fe5f8d9f031e2f97f6dbe634b699381e843"
+  },
+  "adaptation": "Extract complete original DIResetMouse and UpdatePads definitions as private static inline KeyInput-prefixed helpers. Preserve actual ToggleKeyInputsDisabled logic and symbolic native-call assembly; no copied instruction bytes. Actual standalone closure_controls providers remain.",
+  "accepted_link": "cp32-key-input-local-linked",
+  "accepted_proof": "key-input-acceptance.json",
+  "new_unique_bytes": 553,
+  "direct_025_credit": 0
+}

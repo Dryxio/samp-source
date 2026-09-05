@@ -3,11 +3,24 @@
 #include <math.h>
 #include "main.h"
 #include "game/util.h"
+static inline void KeyInputDIResetMouse()
+{
+	*(DWORD*)0xB73424 = 0;
+	*(DWORD*)0xB73428 = 0;
+
+	_asm mov edx, 0x541BD0
+	_asm call edx
+}
+static inline void KeyInputUpdatePads()
+{
+	_asm mov edx, 0x541DD0
+	_asm call edx
+}
 extern IDirect3DDevice9 *pD3DDevice;
 void DisableMouseProcess();
 void DisableMousePositionUpdate();
-void DIResetMouse();
-void UpdatePads();
+void KeyInputDIResetMouse();
+void KeyInputUpdatePads();
 
 
 void CGame::ToggleKeyInputsDisabled(int a2, BOOL a3)
@@ -18,8 +31,8 @@ void CGame::ToggleKeyInputsDisabled(int a2, BOOL a3)
 		memset((PVOID)0x541DF5,0x90,5);	// disable call
 
 		DisableMouseProcess();
-		DIResetMouse();
-		UpdatePads();
+		KeyInputDIResetMouse();
+		KeyInputUpdatePads();
 
 		UnFuck(0x6194A0u,1);
 		*(BYTE*)0x6194A0 = 0xC3;
@@ -42,8 +55,8 @@ void CGame::ToggleKeyInputsDisabled(int a2, BOOL a3)
 		if(field_61 != 3)
 		{
 			DisableMouseProcess();
-			DIResetMouse();
-			UpdatePads();
+			KeyInputDIResetMouse();
+			KeyInputUpdatePads();
 
 			UnFuck(0x6194A0,1);
 			*(BYTE*)0x6194A0 = 0xC3;
@@ -57,8 +70,8 @@ void CGame::ToggleKeyInputsDisabled(int a2, BOOL a3)
 		if(field_61 != 4)
 		{
 			DisableMousePositionUpdate();
-			DIResetMouse();
-			UpdatePads();
+			KeyInputDIResetMouse();
+			KeyInputUpdatePads();
 
 			UnFuck(0x6194A0,1);
 			*(BYTE*)0x6194A0 = 0xC3;

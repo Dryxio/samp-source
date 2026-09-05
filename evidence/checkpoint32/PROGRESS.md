@@ -430,3 +430,14 @@ Direct accepted0.2.5 transfer contribution increases565 bytes to1,523. MsgProc57
 All910 full regions, targets, relocations, nine mutation controls and existing ABI exercise pass. Header consumers rebuilt once after actual class method declarations; only normal static matching ran, no UI/network/GTA execution. Current accepted link cp32-command-processing-linked; Ob1 cp32-command-processing-ob1, Ob2 cp32-command-processing-ob2 (closure_world plus closure_chat_scroll). Seeds/contract command-processing; source units build/command-processing-units.txt. Previous coverage64,956, new67,676.
 
 Next: inspect key-input407-byte original versus344-byte existing implementation; mouse helpers already have full71/75-byte candidates but are not counted yet. Keep MsgProc IME closure as a later batch if key-input refinement stalls; other scoreboard/UI candidates remain available. No build process remains live.
+
+
+## Close key-input disabling and mouse helpers
+
+Key-input acceptance adds553 exact unique bytes: ToggleKeyInputsDisabled407, DisableMouseProcess71 and DisableMousePositionUpdate75. Coverage68,229 /930,756 (7.33049%). Existing branch logic was already correct; R5 embeds the complete DIResetMouse/UpdatePads helpers and their symbolic native-call assembly. The initial344-byte function used out-of-line calls.
+
+An initial inline link failed with duplicate standalone helper symbols. Extraction now uses private static inline KeyInput-prefixed copies of the complete original helper definitions, preserving the existing closure_controls providers and native call boundaries. Explicit native-assembly exception is labeled in the contract. Full code, pD3DDevice26EB40 and dummy mouse state150330 scalar objects and all targets match. No memory-patching code was executed. Source contains no copied original function bytes.
+
+All915 regions, nine negative controls and existing ABI checks pass. Only the changed key-input unit recompiled after the failed link; Ob2 objects reused. Eight earlier pending providers remain. Current accepted link cp32-key-input-local-linked; Ob1 cp32-key-input-local-ob1, Ob2 cp32-command-processing-ob2; contract key-input, seeds command-processing. Proof key-input-acceptance.json, preserved attempts key-input-experiments.json. Direct accepted0.2.5 contribution remains1,523 bytes. This goal turn gained3,273 bytes across two coherent accepted batches.
+
+Next: CCmdWindow Enable246 is still partial; current source has GetClientRect and control enabled/visible setup but lacks the rest.0.2.5 Enable is much simpler, so recover R5-specific additions from original69480..69576. ResetDialogControls185 already has a candidate; its full dialog provider closure may be larger. MsgProc57 candidate needs IME StaticMsgProc659. Other scoreboard/UI scans remain available. All build processes terminal, no push or GTA deployment.
