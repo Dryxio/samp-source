@@ -781,3 +781,46 @@ void CEntity::AdvancePosition()
  matrix.pos.Z+=step*m_pEntity->vecMoveSpeed.Z;
  SetMatrixAndUpdate(matrix);
 }
+
+// Ported from michael-fa-samp dc9eb80, client/game/entity.cpp.
+// R5 timeout, model-info check and return value reconstructed from R5.
+// The native virtual calls retain the reference symbolic inline assembly.
+extern int __stdcall ModelInfoLoaded(UINT model);
+extern CChatWindow *pChatWindow;
+BOOL CEntity::SetModelIndex(UINT uiModel)
+{
+	if(!m_pEntity) return FALSE;
+	BOOL loadedHere = FALSE;
+	int attempts = 0;
+
+	if(!pGame->IsModelLoaded(uiModel) && !ModelInfoLoaded(uiModel)) {
+		pGame->RequestModel(uiModel);
+		pGame->LoadRequestedModels();
+		while(!pGame->IsModelLoaded(uiModel)) {
+			Sleep(1);
+			if(++attempts > 200) {
+				if(pChatWindow) pChatWindow->AddDebugMessage("Warning: Model %u wouldn't load in time!",uiModel);
+				return FALSE;
+			}
+		}
+		loadedHere = TRUE;
+	}
+
+	DWORD dwThisEntity = (DWORD)m_pEntity;
+
+	_asm {
+		mov		esi, dwThisEntity
+		mov		edi, uiModel
+		mov     edx, [esi]
+		mov     ecx, esi
+		call    dword ptr [edx+32] ; destroy RW
+		mov     eax, [esi]
+		mov		edx, edi
+		push    edi
+		mov     ecx, esi
+		mov     word ptr [esi+34], dx
+		call    dword ptr [eax+20] ; SetModelIndex
+	}
+
+	return loadedHere;
+}

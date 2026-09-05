@@ -545,5 +545,19 @@
         "name": "PlaySound"
       }
     ]
+  },
+  "closure_entity_model": {
+    "source": "game/entity.cpp",
+    "cls": "CEntity",
+    "definitions": [
+      {
+        "name": "SetModelIndex"
+      }
+    ],
+    "declarations": [
+      "extern CGame *pGame;",
+      "extern CChatWindow *pChatWindow;",
+      "extern int __stdcall ModelInfoLoaded(UINT model);"
+    ]
   }
 }

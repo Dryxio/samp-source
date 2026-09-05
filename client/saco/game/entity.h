@@ -25,6 +25,7 @@ public:
 	float GetDistanceFromCentreOfMassToBaseOfModel(); // unused
 	void  GetBoundCentre(PVECTOR Vector);
 	void  GetBoundRect(PFRECT Rect); // unused
+	BOOL  SetModelIndex(UINT uiModel);
 	UINT  GetModelIndex();
 	void  TeleportTo(float x, float y, float z);
 	float GetDistanceFromLocalPlayerPed();
