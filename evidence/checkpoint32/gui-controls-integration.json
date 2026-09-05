@@ -1,0 +1,33 @@
+{
+  "status": "ACCEPTED_AFTER_COMPLETE_LINK_REVIEW",
+  "accepted_link": "cp32-gui-controls-scroll-linked",
+  "ob1": "cp32-gui-controls-scroll-ob1",
+  "ob2": "cp32-ime-ob2",
+  "source_generator": "tools/prepare_gui_controls.py",
+  "new_unique_code_bytes": 3218,
+  "accepted_direct_025_credit": 0,
+  "source": "vendor/upstream/saco/d3d9/common/DXUTgui.cpp",
+  "source_sha256": "0dcb547ce58d56b73f9b839a3f5218b8dff4980174fa5f0ef3cbd0575dbcfde8",
+  "source_adaptations": "Complete original bodies and inline rectangle helpers; Cap and UpdateThumbRect moved into the same translation unit, without behavior edits. Old separate helper object omitted from this link. No changes to shared headers.",
+  "attempts": [
+    {
+      "run": "cp32-gui-controls-ob1",
+      "outcome": "Compilation failed: extraction omitted original inline RectWidth/RectHeight helpers."
+    },
+    {
+      "run": "cp32-gui-controls-rect-ob1",
+      "outcome": "Preparation failed because one-line helper extraction matched no definition; subsequent unchanged compile failed. Exact original helper lines then restored."
+    },
+    {
+      "run": "cp32-gui-controls-helpers-ob1",
+      "link": "cp32-gui-controls-linked",
+      "outcome": "10 new methods exact. ComboBox Render1052 versus1036 and UpdateRects528 versus526 rejected. Disassembly shows separate-unit calls require extra ECX reloads and inhibit branch coalescing."
+    },
+    {
+      "run": "cp32-gui-controls-scroll-ob1",
+      "outcome": "All14 methods match after original Cap/UpdateThumbRect bodies share the translation unit. Their210 previously accepted bytes deduplicated."
+    }
+  ],
+  "verification": "Full strict comparison and all9 negative controls and existing ABI passed. First acceptance invocation completed checks but failed writing report because --report expects a basename; corrected invocation produced authoritative proof. No GUI/GTA execution.",
+  "remaining": "Eight earlier pending providers unchanged. ScrollBar Render507 is still a candidate: original DXUTGetTime12 calls GetDXUTState7D140 and tailcalls DXUTState::GetTime79220; complete framework state/lifetime must be reviewed, not substituted with an invented clock."
+}
