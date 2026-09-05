@@ -1157,3 +1157,12 @@ TextureSlotB4660 accepted29 with explicitly labeled source-derived symbolic fiel
 Latest cp32-rpc-game-linked;Ob1 cp32-rpc-game-ob1,Ob2 cp32-gui-overwrite-ob2. Units build/rpc-game-units.txt; launcher build/run_rpc_game.ps1; review build/review_rpc_game.py. Contract/seeds/acceptance/integration rpc-game. Total4334unique gained since20:11:21Z baseline173141; measured throughput in integrationjson includes coordination. No push/deployment, goalactive.
 
 Next agent2proposal build/agent-independent/eval_rpc_zones_player.cpp: nineRPC1671potential bytes, awaiting compile/actualtarget review. Agent1 pursuing custommodel InstallCustomModelA7C30/entryC770/managerD320 chain in isolated directory. Root retains sole activewriter/compiler role.
+
+
+## Nine gangzone/player RPCs lot1860 accepted
+
+Coverage179335/930756=19.267671%,+1860unique principal1671+compilerEH189. Direct0251671,total6108.2176whole regions,nine36-byte unwindmaps/FuncInfo,10negativecontrols and actorABI PASS. FourzoneRPCs,health/armour,weapons/ammo,wantedlevel. Firsttrialallmatch; actualtarget identity distinguishes Remove2240/StopFlash2220 and HealthABD70/ArmourABDB0. Gettersinline verified existingR5offsets. Eightpendingunchanged.
+
+Latestcp32-rpc-zones-linked;Ob1cp32-rpc-zones-ob1,Ob2cp32-gui-overwrite-ob2;unitsbuild/rpc-zones-units.txt,launcherbuild/run_rpc_zones.ps1,reviewbuild/review_rpc_zones.py. Contract/seeds/acceptance/integration rpc-zones. Total6194newuniquesince20:11:21Z baseline173141; rateinintegrationjson, coordinationincluded. No push/deployment,fullgoalactive.
+
+Concurrentnative-modelresearch: cp32-custom-install-trial1 normalC++Clump127B1FC0 andInstall133A7C30 exact, wrappersOpen/Close20vs61/57,Read24vs32,SetRef26vs36 unaccepted. Agentdocumentedsource-derivedsymbolicexceptions inbuild/agent-textdraw/custom-native-exceptions-audit.md. Trial2compilefailedbecauseasmreservedkeywordtype, preserved. Trial3renamestreamType compiling symbolicwrappers+modelLoadFiles/EnsureReady386candidates; nonecredited. Agent2researchesnextRPCbatch; agent1customloadchain,rootsolecompiler.
