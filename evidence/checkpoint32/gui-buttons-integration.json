@@ -1,0 +1,21 @@
+{
+  "status": "ACCEPTED_AFTER_COMPLETE_LINK_REVIEW",
+  "run": "cp32-gui-buttons-linked",
+  "ob1": "cp32-gui-buttons-ob1",
+  "ob2": "cp32-ime-ob2",
+  "new_unique_code_bytes": 899,
+  "accepted_direct_025_credit": 0,
+  "reference_comparison": {
+    "CDXUTButton::HandleKeyboard": true,
+    "CDXUTButton::HandleMouse": true,
+    "CDXUTCheckBox::HandleKeyboard": true,
+    "CDXUTCheckBox::HandleMouse": true,
+    "CDXUTRadioButton::HandleKeyboard": true,
+    "CDXUTRadioButton::HandleMouse": true,
+    "CDXUTCheckBox::SetCheckedInternal": true,
+    "CDXUTRadioButton::SetCheckedInternal": true,
+    "CDXUTDialog::ClearRadioButtonGroup": true
+  },
+  "source_adaptations": "Button HandleMouse removes debug OutputDebugString and sends verified R5 event0x102 after capture, before optional RequestFocus. Normal C++; all other source bodies unchanged.",
+  "verification": "1855 whole regions, actual targets/PE relocations,10 negative controls and existing ABI pass. Six complete keyboard/mouse handlers and three checked/group providers. Complete nine-function size1081, only899 new unique bytes after prior-proof union. No new imports/data or pending; eight old pending unchanged. Only new buttons unit compiled once and linked once. No input/GUI/game execution; local commit only."
+}
