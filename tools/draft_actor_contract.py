@@ -33,7 +33,7 @@ def draft(run, extra_seeds=None):
     def select(unit,symbol,rva):
         obj=objects[unit];index=symbol['section'];sec=obj.sections[index-1]
         offset=0;size=sec['size'];kind='code' if sec['flags']&0x20 else 'zero' if sec['uninitialized'] else 'data'
-        if unit in ('closure_models','closure_camera','closure_audio') and kind=='data' and symbol['name'].startswith('_') and not symbol['name'].startswith('__'):
+        if unit in ('closure_models','closure_camera','closure_audio','closure_vehicle') and kind=='data' and symbol['name'].startswith('_') and not symbol['name'].startswith('__'):
             offset=symbol['value'];size=18;kind='script-command'
         if unit=='closure_state':
             offset=symbol['value'];size=2 if symbol['name']=='?wVehicleComponentDebug@@3GA' else 4;kind='zero-object'

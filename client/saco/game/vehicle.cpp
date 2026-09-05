@@ -315,3 +315,20 @@ DWORD CVehicle::GetHydraThrusters()
 
 //-----------------------------------------------------------
 
+
+// Transferred from michael-fa-samp dc9eb80, client/game/vehicle.cpp.
+void CVehicle::SetTankRot(float X, float Y)
+{
+	m_pVehicle->fTankRotX = X;
+	m_pVehicle->fTankRotY = Y;
+}
+
+float CVehicle::GetTankRotX()
+{
+	return m_pVehicle->fTankRotX;
+}
+
+float CVehicle::GetTankRotY()
+{
+	return m_pVehicle->fTankRotY;
+}

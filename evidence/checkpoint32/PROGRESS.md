@@ -314,3 +314,7 @@ Game-init acceptance adds 229 unique code bytes, bringing the certified union to
 `model-camera-acceptance.json` adds 1,624 unique code bytes across 23 functions: the 217-byte 0.2.5 SetModelIndex port and 1,407 bytes of camera/audio/bounds helpers. Certified union: 35,695 / 930,756 bytes (3.83505%). Full original/linked comparison, reviewed targets, PE relocations, six negative controls and existing ABI exercise passed. ModelInfoLoaded remains a 16-byte semantic provider versus 40 bytes in R5 and is excluded, as are its transitive getter and provisional extended table. No copied bytes and no deployment.
 
 The 0.2.5 evaluation remains historical object-level evidence; the model-camera acceptance now certifies the real CEntity method in the linked capsule. Adding that member declaration required recompiling the units that consume the shared headers; later source-only changes retain the incremental cache.
+
+## Vehicle state and 0.2.5 turret transfer
+
+Vehicle acceptance adds 903 unique code bytes (24 new vehicle functions), for a union of 36,598 / 930,756 (3.93207%). SetTankRot/GetTankRotX/GetTankRotY transfer directly from 0.2.5 and contribute 49 bytes. Source 0.2.5 contribution accepted so far: 266 bytes including SetModelIndex. The already covered 8-byte Entity GetModelIndex is included as a linked dependency without being counted twice. Script command identities distinguish the otherwise identical HasSunk/IsWrecked wrappers. Full gate, six mutation controls and existing linked ABI exercise passed. Seven pending regions remain excluded.

@@ -34,6 +34,9 @@ public:
 
 	CVehicle( int iType, float fPosX, float fPosY, float fPosZ, float fRotation = 0.0f, BOOL bKeepModelLoaded = FALSE, int a8 = 0);
 
+void SetTankRot(float X, float Y);
+float GetTankRotX();
+float GetTankRotY();
 	void  ResetPointers();
 
 	void  SetLockedState(int iLocked);

@@ -559,5 +559,86 @@
       "extern CChatWindow *pChatWindow;",
       "extern int __stdcall ModelInfoLoaded(UINT model);"
     ]
+  },
+  "closure_vehicle": {
+    "source": "game/vehicle.cpp",
+    "cls": "CVehicle",
+    "definitions": [
+      {
+        "name": "LinkToInterior"
+      },
+      {
+        "name": "ResetPointers"
+      },
+      {
+        "name": "HasADriver"
+      },
+      {
+        "name": "IsOccupied"
+      },
+      {
+        "name": "SetLockedState"
+      },
+      {
+        "name": "SetEngineState"
+      },
+      {
+        "name": "GetHealth"
+      },
+      {
+        "name": "SetHealth"
+      },
+      {
+        "name": "SetColor"
+      },
+      {
+        "name": "UpdateColor"
+      },
+      {
+        "name": "GetVehicleSubtype"
+      },
+      {
+        "name": "IsDriverLocalPlayer"
+      },
+      {
+        "name": "IsATrainPart"
+      },
+      {
+        "name": "HasTurret"
+      },
+      {
+        "name": "SetSirenOn"
+      },
+      {
+        "name": "IsSirenOn"
+      },
+      {
+        "name": "SetAlarmState"
+      },
+      {
+        "name": "SetHydraThrusters"
+      },
+      {
+        "name": "GetHydraThrusters"
+      },
+      {
+        "name": "HasSunk"
+      },
+      {
+        "name": "IsWrecked"
+      },
+      {
+        "name": "SetTankRot"
+      },
+      {
+        "name": "GetTankRotX"
+      },
+      {
+        "name": "GetTankRotY"
+      }
+    ],
+    "declarations": [
+      "extern CGame *pGame;"
+    ]
   }
 }
