@@ -55,6 +55,8 @@ def draft(run, extra_seeds=None):
             offset=symbol['value'];size=18;kind='script-command'
         if unit=='closure_rpc_spectator_vehicle' and kind=='data' and symbol['name'] in ('_make_actor_leave_car', '_rpc_set_car_z_angle'):
             offset=symbol['value'];size=18;kind='script-command'
+        if unit=='closure_object_release' and kind=='data' and symbol['name'] in ('_is_model_available', '_rpc_release_model'):
+            offset=symbol['value'];size=18;kind='script-command'
         if unit=='closure_state':
             offset=symbol['value'];size=2 if symbol['name']=='?wVehicleComponentDebug@@3GA' else 4;kind='zero-object'
         base=rva-symbol['value']+offset;key=(unit,index,offset,size)

@@ -1,0 +1,108 @@
+{
+  "status": "PROPOSAL_NOT_ACCEPTED",
+  "baseline": "evidence/checkpoint32/spectator-vehicle-acceptance.json",
+  "main": 279,
+  "eh": 0,
+  "source025_whole_functions": 0,
+  "regions": [
+    {
+      "name": "RemoveModel",
+      "rva": 657824,
+      "size": 141,
+      "source": "R5 with025 native-call fragment",
+      "new_unique": 141,
+      "calls": [
+        {
+          "target": "0x100b2310",
+          "accepted": true
+        },
+        {
+          "target": "edx",
+          "accepted": null
+        },
+        {
+          "target": "0x100b2310",
+          "accepted": true
+        },
+        {
+          "target": "0x100b2310",
+          "accepted": true
+        },
+        {
+          "target": "0x1000d150",
+          "accepted": true
+        },
+        {
+          "target": "0x100b3d30",
+          "accepted": false
+        },
+        {
+          "target": "0x1000d1d0",
+          "accepted": false
+        }
+      ]
+    },
+    {
+      "name": "IsObjectModelUsed",
+      "rva": 736560,
+      "size": 82,
+      "source": "R5 withbase pool-access fragment",
+      "new_unique": 82,
+      "calls": []
+    },
+    {
+      "name": "EmptyCustomModelRelease",
+      "rva": 53712,
+      "size": 3,
+      "source": "R5",
+      "new_unique": 3,
+      "calls": []
+    },
+    {
+      "name": "ReleaseMaterialTextures",
+      "rva": 691920,
+      "size": 53,
+      "source": "R5",
+      "new_unique": 53,
+      "calls": [
+        {
+          "target": "dword ptr [ecx + 8]",
+          "accepted": null
+        }
+      ]
+    }
+  ],
+  "globals": [
+    {
+      "symbol": "rpc_custom_model_download_manager",
+      "rva": 2550680,
+      "previously_accepted": true
+    }
+  ],
+  "objects": [
+    {
+      "name": "rpc_release_model",
+      "rva": 968364,
+      "size": 18,
+      "bytes": "490269000000000000000000000000000000"
+    },
+    {
+      "name": "is_model_available",
+      "rva": 968104,
+      "size": 18,
+      "bytes": "480269000000000000000000000000000000"
+    }
+  ],
+  "texture_abi_evidence": {
+    "owner_textures_offset": 4427,
+    "entry_count": 16,
+    "consumer": "74C13 loads pointer from object+index*4+114B, passes to pD3DDevice26EB40 IDirect3DDevice9::SetTexture slot65/+104 at74C29.",
+    "release": "A8EE9 invokes slot2/+8 with pointer pushed as stdcall receiver; IUnknown::Release inherited by Direct3D textures.",
+    "state_offset": 795,
+    "scope": "SDK texture-release contract, no internal CObject destructor/table masked as native boundary."
+  },
+  "native_asm_evidence": [
+    "A09CC pushmodel; edx4089A0; call edx; popedx matches025 RemoveModel source native operation.",
+    "B3D32-B3D3B reads poolB7449C with same symbolic asm asbase GamePool_GetObject."
+  ]
+}

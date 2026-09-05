@@ -1,0 +1,112 @@
+{
+  "scope": [
+    {
+      "rva": "0xba710",
+      "size": 57
+    },
+    {
+      "rva": "0xba750",
+      "size": 116
+    },
+    {
+      "rva": "0xba990",
+      "size": 187
+    }
+  ],
+  "eh": "none in all three original whole functions; no exception setup or handler calls",
+  "pe_imports": "none; CRT directcalls only",
+  "providers": [
+    {
+      "symbol": "_malloc",
+      "rva": "0xc6bbc",
+      "previous_external": {
+        "kind": "crt",
+        "reference_va": 269249468,
+        "size": 18,
+        "sha256": "46e5b499dfa80afe214ba2b62f31871f15e107800a0586e37687ca526911c7c0"
+      },
+      "status": "previously reviewed"
+    },
+    {
+      "symbol": "_realloc",
+      "rva": "0xc71a6",
+      "previous_external": {
+        "kind": "crt",
+        "reference_va": 269250982,
+        "chunks": [
+          {
+            "rva": 815526,
+            "size": 369,
+            "sha256": "876b2d01ea0b99f6e643eafe0552c1e1ad27523ce9d3e05d9ed24809e1e6d3bc"
+          },
+          {
+            "rva": 815895,
+            "size": 60,
+            "sha256": "a7b9b801b25b1e3eb4654796bd23053879f61754a5ac024ac22b45d2b49aab1a"
+          }
+        ]
+      },
+      "status": "previously reviewed"
+    },
+    {
+      "symbol": "_free",
+      "rva": "0xc6a3d",
+      "previous_external": {
+        "kind": "crt",
+        "reference_va": 269249085,
+        "chunks": [
+          {
+            "rva": 813629,
+            "size": 92,
+            "sha256": "7fd6198e201bab8d2b07f75621cefe2b40de3d4370d0a7873d7e0b0ef8c18d8c"
+          },
+          {
+            "rva": 813721,
+            "size": 21,
+            "sha256": "127bab1fc5eca620f5ed869b53d24e9d0cac502c8e336846cb30d349165aa97c"
+          }
+        ]
+      },
+      "status": "previously reviewed"
+    },
+    {
+      "symbol": "_fopen",
+      "rva": "0xc7f49",
+      "previous_external": {
+        "kind": "crt",
+        "reference_va": 269254473,
+        "size": 19,
+        "sha256": "aa45455e25880e364e3e9320219a11b0abd29670a804ea6e62048615d33a2d1f"
+      },
+      "status": "previously reviewed"
+    },
+    {
+      "symbol": "_fread",
+      "rva": "0xc8482",
+      "previous_external": null,
+      "status": "new pinned LIBCMT owner verification required"
+    },
+    {
+      "symbol": "_fclose",
+      "rva": "0xc7e58",
+      "previous_external": {
+        "kind": "crt",
+        "reference_va": 269254232,
+        "size": 81,
+        "sha256": "2caeab8694e4275185422cf06b0df10d459e2f82da2c330d962ca66c67e047a3"
+      },
+      "status": "previously reviewed"
+    }
+  ],
+  "data": {
+    "rva": "0xe6d8c",
+    "size": 3,
+    "bytes": "726200",
+    "sha256": "ef4a3d25250e72708f6f82d59e29b96880728d971ae0b4862d37c9cd927bb082"
+  },
+  "new_fread_range": {
+    "rva": "0xc8482",
+    "size": 76,
+    "sha256": "b846334a79bf2723effce0ff2b8731139751c38c123fc7cb28d9b4450cb55d1c"
+  }
+}
