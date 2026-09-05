@@ -1,5 +1,5 @@
 """Draft the actor contract for review. Inferred addresses are never acceptance."""
-import json,struct
+import json,struct,re
 from pathlib import Path
 from collections import deque
 from binary import COFF,PE,need,sha,u32
@@ -15,6 +15,16 @@ def weak_aliases(obj):
             need(aux==1 and u32(d,at+22) in (2,3),'unknown weak external')
             aliases[obj.symbols[i]['name']]=obj.symbols[u32(d,at+18)]['name']
         i+=1+aux
+    # Linker fallback aliases carry no implementation. Resolve only undefined
+    # source symbols; the gate still verifies the actual canonical provider.
+    for section in obj.sections:
+        if section['name']!='.drectve':continue
+        for source,target in re.findall(rb'(?i)(?:^|\s)/alternatename:([^\s"=]+)=([^\s"]+)',section['bytes']):
+            source=source.decode('ascii');target=target.decode('ascii')
+            need(source!=target and source not in aliases,'conflicting linker alias')
+            need(source in obj.names and all(x['section']==0 for x in obj.names[source]),'alias has a source implementation')
+            aliases[source]=target
+    need(not any(target in aliases for target in aliases.values()),'unsupported chained alias')
     return aliases
 
 
@@ -98,6 +108,7 @@ def draft(run, extra_seeds=None):
             if canonical in definitions:
                 for provider,symbol in definitions[canonical]:select(provider,symbol,address-ref.base)
                 continue
+            name=canonical
             need(name not in externals or externals[name]['reference_va']==address,'conflicting external '+name)
             kind='absolute-fs' if name=='__except_list' else 'import' if name.startswith('__imp_') else 'crt'
             record=dict(kind=kind,reference_va=address)
