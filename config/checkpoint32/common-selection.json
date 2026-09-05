@@ -1520,5 +1520,39 @@
       "symbol": "pConfig",
       "size": 4
     }
+  },
+  "closure_store_default_font": {
+    "source": "main.cpp",
+    "cls": null,
+    "definitions": [],
+    "storage_includes": [
+      "\"game/common.h\""
+    ],
+    "declarations": [
+      "class CFontRender;"
+    ],
+    "storage": {
+      "source_declaration": "CFontRender\t\t\t\t*pDefaultFont=0;",
+      "declaration": "CFontRender *pDefaultFont=0;",
+      "symbol": "pDefaultFont",
+      "size": 4
+    }
+  },
+  "closure_store_file_system": {
+    "source": "main.cpp",
+    "cls": null,
+    "definitions": [],
+    "storage_includes": [
+      "\"game/common.h\""
+    ],
+    "declarations": [
+      "class CFileSystem;"
+    ],
+    "storage": {
+      "source_declaration": "CFileSystem *pFileSystem=NULL;",
+      "declaration": "CFileSystem *pFileSystem=0;",
+      "symbol": "pFileSystem",
+      "size": 4
+    }
   }
 }
