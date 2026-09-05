@@ -1,0 +1,82 @@
+{
+  "status": "ACCEPTED_AFTER_COMPLETE_LINK_REVIEW",
+  "run": "cp32-dxut-window-full-wide-linked",
+  "ob1": "cp32-dxut-window-full-wide-ob1",
+  "ob2": "cp32-ime-ob2",
+  "new_unique_code_bytes": 8882,
+  "accepted_direct_025_credit": 0,
+  "reference_comparisons": [
+    {
+      "function": "DXUTCreateWindow",
+      "identical_to_025": true
+    },
+    {
+      "function": "DXUTSetWindow",
+      "identical_to_025": true
+    },
+    {
+      "function": "DXUTCreateDevice",
+      "identical_to_025": true
+    },
+    {
+      "function": "DXUTCreateDeviceFromSettings",
+      "identical_to_025": true
+    },
+    {
+      "function": "DXUTSetDevice",
+      "identical_to_025": true
+    },
+    {
+      "function": "DXUTFindAdapterFormat",
+      "identical_to_025": true
+    },
+    {
+      "function": "DXUTStaticWndProc",
+      "identical_to_025": true
+    },
+    {
+      "function": "DXUTCheckForWindowSizeChange",
+      "identical_to_025": true
+    },
+    {
+      "function": "DXUTCheckForWindowChangingMonitors",
+      "identical_to_025": true
+    },
+    {
+      "function": "DXUTGetAdapterOrdinalFromMonitor",
+      "identical_to_025": true
+    },
+    {
+      "function": "DXUTToggleFullScreen",
+      "identical_to_025": true
+    },
+    {
+      "function": "DXUTToggleREF",
+      "identical_to_025": true
+    }
+  ],
+  "source_adaptations": "Restored complete original DXUT translation unit while retaining reviewed R5 adaptations (rank ordering, ChangeDevice comparisons and W import, multimon lstrcpy). Added explicit SetWindowLongPtrW/DefWindowProcW selected by R5 IAT. Full multimon SDK source materialized. Actual diagnostic wrapper retained with complete Debug/Release conditional body.",
+  "trials": [
+    {
+      "run": "cp32-dxut-window-source-order-ob1",
+      "outcome": "Original ordering of extracted core bodies did not fix3 stack differences; header snapshots identical to initial full scan. Reverted this isolated generator change."
+    },
+    {
+      "run": "cp32-dxut-window-full-ob1",
+      "outcome": "Initial full generator failed ambiguous ChangeDevice definition extraction; probe reused old extracted state. Never linked or accepted."
+    },
+    {
+      "run": "cp32-dxut-window-full-extract-ob1",
+      "outcome": "Anchored actual ChangeDevice definition. Full original context restored complete candidates353/441/270 without manual stack-layout changes. First link rejected duplicate predicate from old standalone unit and missing actual DXTraceWrapper."
+    },
+    {
+      "run": "cp32-dxut-window-full-debug-ob1",
+      "outcome": "Only diagnostic source compiled. Excluded all replaced standalone units (settings,cursor,multimon,predicate); full link succeeded. Import review rejected ANSI callback/default window processing against actual Unicode R5 targets."
+    },
+    {
+      "run": "cp32-dxut-window-full-wide-ob1",
+      "outcome": "Only state recompiled with explicit W APIs. Successful link/full region review/acceptance."
+    }
+  ],
+  "verification": "1674 whole regions; every target and PE relocation,10 negative controls and existing ABI passed.12 complete functions and48 state accessors. WndProc2649 contains2235 code bytes plus fully verified tables. Source swapchain GUID,2 strings,zero double and60-byte merged prior critical-section/monitor globals verified. Migrated previously accepted regions matched by exact RVA/size/kind and full targets; no duplicate credit.14 new imports include pinned shell32. Eight old pending remain excluded. No window/input/device execution."
+}

@@ -16,3 +16,12 @@ VOID DXUTOutputDebugStringA( LPCSTR strMsg, ... )
     UNREFERENCED_PARAMETER(strMsg);
 #endif
 }
+HRESULT WINAPI DXTraceWrapper( const char* strFile, DWORD dwLine, HRESULT hr, const char* strMsg, BOOL bPopMsgBox )
+{
+#ifdef _DEBUG
+	TCHAR szBuffer[1024];
+	sprintf(szBuffer, "DXTrace: %s (%d) returned 0x%x, msg=%s", strFile, dwLine, hr, strMsg);
+	OutputDebugString(szBuffer);
+#endif
+	return 0;
+}
