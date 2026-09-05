@@ -291,3 +291,114 @@ HRESULT CDXUTDialogResourceManager::CreateFont( UINT iFont )
 
     return S_OK;
 }
+HRESULT CDXUTDialog::OnRender( float fElapsedTime )
+{   
+    // If this assert triggers, you need to call CDXUTDialogResourceManager::On*Device() from inside
+    // the application's device callbacks.  See the SDK samples for an example of how to do this.
+    assert( m_pManager->GetD3DDevice() && m_pManager->m_pStateBlock && "To fix hook up CDXUTDialogResourceManager to device callbacks.  See comments for details" );
+
+    // See if the dialog needs to be refreshed
+    if( m_fTimeLastRefresh < s_fTimeRefresh )
+    {
+        m_fTimeLastRefresh = DXUTGetTime();
+        Refresh();
+    }
+
+    // For invisible dialog, out now.
+    if( !m_bVisible )
+        return S_OK;
+
+    DXUT_SCREEN_VERTEX vertices[4] =
+    {
+        (float)m_x,           (float)m_y,            0.5f, 1.0f, m_colorTopLeft, 0.0f, 0.5f, 
+        (float)m_x + m_width, (float)m_y,            0.5f, 1.0f, m_colorTopRight, 1.0f, 0.5f,
+        (float)m_x + m_width, (float)m_y + m_height, 0.5f, 1.0f, m_colorBottomRight, 1.0f, 1.0f, 
+        (float)m_x,           (float)m_y + m_height, 0.5f, 1.0f, m_colorBottomLeft, 0.0f, 1.0f, 
+    };
+
+    IDirect3DDevice9* pd3dDevice = m_pManager->GetD3DDevice();     
+
+    // Set up a state block here and restore it when finished drawing all the controls
+    m_pManager->m_pStateBlock->Capture();
+
+	m_pManager->m_pSprite->Begin( D3DXSPRITE_DONOTSAVESTATE );
+
+    pd3dDevice->SetRenderState( D3DRS_ALPHABLENDENABLE, TRUE );
+    pd3dDevice->SetRenderState( D3DRS_SRCBLEND, D3DBLEND_SRCALPHA );
+    pd3dDevice->SetRenderState( D3DRS_DESTBLEND, D3DBLEND_INVSRCALPHA );
+    pd3dDevice->SetRenderState( D3DRS_ALPHATESTENABLE, FALSE );
+
+    pd3dDevice->SetTextureStageState( 0, D3DTSS_COLOROP, D3DTOP_SELECTARG2 );
+    pd3dDevice->SetTextureStageState( 0, D3DTSS_COLORARG2, D3DTA_DIFFUSE );
+
+    pd3dDevice->SetTextureStageState( 0, D3DTSS_ALPHAOP, D3DTOP_SELECTARG1 );
+    pd3dDevice->SetTextureStageState( 0, D3DTSS_ALPHAARG1, D3DTA_DIFFUSE );
+
+    pd3dDevice->SetVertexShader( NULL );
+    pd3dDevice->SetPixelShader( NULL );
+
+    //pd3dDevice->Clear( 0, NULL, D3DCLEAR_ZBUFFER, 0, 1.0f, 0 );
+    pd3dDevice->SetRenderState( D3DRS_ZENABLE, FALSE );
+
+    if( !m_bMinimized )
+    {
+        pd3dDevice->SetFVF( DXUT_SCREEN_VERTEX::FVF );
+        pd3dDevice->DrawPrimitiveUP( D3DPT_TRIANGLEFAN, 2, vertices, sizeof(DXUT_SCREEN_VERTEX) );
+    }
+
+
+    pd3dDevice->SetTextureStageState( 0, D3DTSS_COLOROP, D3DTOP_MODULATE );
+    pd3dDevice->SetTextureStageState( 0, D3DTSS_COLORARG1, D3DTA_TEXTURE );
+    pd3dDevice->SetTextureStageState( 0, D3DTSS_COLORARG2, D3DTA_DIFFUSE );
+    
+    pd3dDevice->SetTextureStageState( 0, D3DTSS_ALPHAOP, D3DTOP_MODULATE );
+    pd3dDevice->SetTextureStageState( 0, D3DTSS_ALPHAARG1, D3DTA_TEXTURE );
+    pd3dDevice->SetTextureStageState( 0, D3DTSS_ALPHAARG2, D3DTA_DIFFUSE );
+
+    pd3dDevice->SetSamplerState( 0, D3DSAMP_MINFILTER, D3DTEXF_LINEAR );
+
+    DXUTTextureNode* pTextureNode = GetTexture( 0 );
+    pd3dDevice->SetTexture( 0, pTextureNode->pTexture );
+
+    // Render the caption if it's enabled.
+    if( m_bCaption )
+    {
+        // DrawSprite will offset the rect down by
+        // m_nCaptionHeight, so adjust the rect higher
+        // here to negate the effect.
+        RECT rc = { 0, -m_nCaptionHeight, m_width, 0 };
+        DrawSprite( &m_CapElement, &rc );
+        rc.left += 5; // Make a left margin
+        TCHAR wszOutput[256];
+        StringCchCopy( wszOutput, 256, m_wszCaption );
+        /*
+		if( m_bMinimized )
+            StringCchCat( wszOutput, 256, " (Minimized)" );*/
+        DrawText( wszOutput, &m_CapElement, &rc, false );
+    }
+
+    // If the dialog is minimized, skip rendering
+    // its controls.
+    if( !m_bMinimized )
+    {
+        for( int i=0; i < m_Controls.GetSize(); i++ )
+        {
+            CDXUTControl* pControl = m_Controls.GetAt(i);   
+
+            // Focused control is drawn last
+            if( pControl == s_pControlFocus )
+                continue;
+
+            pControl->Render( pd3dDevice, fElapsedTime );
+        }
+
+        if( s_pControlFocus != NULL && s_pControlFocus->m_pDialog == this )
+            s_pControlFocus->Render( pd3dDevice, fElapsedTime );
+    }
+
+    m_pManager->m_pSprite->End();
+
+    m_pManager->m_pStateBlock->Apply();
+
+    return S_OK;
+}

@@ -1,0 +1,24 @@
+{
+  "status": "ACCEPTED_AFTER_COMPLETE_LINK_REVIEW",
+  "run": "cp32-gui-dialog-render-linked",
+  "ob1": "cp32-gui-dialog-render-context-ob1",
+  "ob2": "cp32-ime-ob2",
+  "new_unique_code_bytes": 1125,
+  "accepted_direct_025_credit": 0,
+  "reference_comparison": "0.2.5 OnRender moves Sprite::Begin after texture setup and enables minimized suffix. Compiled unchanged with current headers:963 bytes, no complete R5 candidate. Base has correct R5 render order/suffix behavior; false caption-shadow parameter and original provider context recover full899.",
+  "trials": [
+    {
+      "run": "cp32-gui-dialog-render-025-ob1",
+      "outcome": "0.2.5 render963 fails matching; actual Refresh123 and FocusDefault60 have candidates."
+    },
+    {
+      "run": "cp32-gui-dialog-render-r5-ob1",
+      "outcome": "Base with R5 false caption-shadow in isolated unit886, still fails compiler context."
+    },
+    {
+      "run": "cp32-gui-dialog-render-context-ob1",
+      "outcome": "OnRender899 placed beside actual GetTexture/DrawSprite/DrawText in drawing unit matches908E0; all four methods plus static owners close."
+    }
+  ],
+  "verification": "1894 whole regions, actual targets/PE relocations,10 negative controls and existing ABI pass. OnRender899,FocusDefault60,ControlRefresh43,DialogRefresh123; full time8 at142778 and pressed-pointer4 at142784 initialized zero. No new imports/pending; eight old pending unchanged. Only new/changed units compiled, previous units reused. No dialog/graphics/game execution; local-only work."
+}
