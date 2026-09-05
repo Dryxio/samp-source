@@ -1,0 +1,24 @@
+{
+  "status": "ACCEPTED_AFTER_COMPLETE_LINK_REVIEW",
+  "run": "cp32-rpc-game-linked",
+  "ob1": "cp32-rpc-game-ob1",
+  "ob2": "cp32-gui-overwrite-ob2",
+  "new_unique_code_bytes": 1372,
+  "direct_025_accepted_bytes": 1117,
+  "total_direct_025_accepted_bytes": 4437,
+  "verification": "2149 whole regions, RPC1117+texture100+symbolic slot29+EH126 and six36-byte EH maps. All targets/relocations verified;10negative controls and actorABI PASS. Setter explicit symbolic field-access exception after three C++ attempts, no copied bytes.",
+  "throughput": {
+    "start": {
+      "start_utc": "2026-09-05T20:11:21Z",
+      "accepted_code_bytes": 173141,
+      "proof": "evidence/checkpoint32/dxut-state-extra-acceptance.json",
+      "agents": 3,
+      "coordination_included": true
+    },
+    "measured_at": "2026-09-05T20:54:48.392533+00:00",
+    "elapsed_seconds": 2607.392533,
+    "new_unique_accepted_bytes": 4334,
+    "bytes_per_hour": 5983.9091362466515,
+    "note": "Coordination, failed trials and integration included; not a causal speedup claim."
+  }
+}

@@ -1146,3 +1146,14 @@ Currentaccepted cp32-pickup-rpc-linked2;Ob1 cp32-pickup-rpc-ob1b,Ob2 cp32-gui-ov
 Nextcp32-rpc-game-model-trial1:6RPCgame exactprincipal1117: CameraPos20219AA0,LookAt24219B70,Money1471A500,Gravity1471ACD0,Weather168F370,TimeEx211F420. Money/Gravity identicalbodyshape mustreviewactualGivePlayerMoney vsgravityproviders; no ambiguouscredit. Sourceclient/saco/eval_rpc_game.cpp useschar*constructorfix already. Agent2identityaudit underway.
 
 SetterC++ trials2and3bothfailed; latest cp32-rpc-game-model-trial1/eval_custom_model_texture_slot3.obj,agent1diagnosing. ActualLoadCustomModelTexture100 A7B60 exacttrial1 butsetterB4660missing =>excluded. Sourceviewkind58andclone91nowaccepted; custommodelpathloader281proposalandInstallCustomModelA7C30remainunimplemented. Preservealluntrackedevals andisolatedagentsources. Fullgoalactive.
+
+
+## Game RPC / model texture lot1372 accepted
+
+Coverage177475/930756=19.067833%, +1372unique (sixRPC1117, texture100, slot29, compilerEH126). Direct025credit1117,total4437.2149whole regions, six36-byte unwind maps/FuncInfo,10negativecontrols and actorABI PASS. Eightoldpending unchanged. Actual constructorchar*1F840, MoneyA0F70 versusGravityA1400 verified; R5LookAt cutbyte and Weather/Time settings adaptations preserved.
+
+TextureSlotB4660 accepted29 with explicitly labeled source-derived symbolic field-access assembly after three C++ mismatches. Uses GetModelInfo then WORD offset0xA; no copied instruction bytes. LoadCustomModelTexture100 now has complete actual dependency closure. Other model/textdraw loaders still excluded. Failed C++ trials retained.
+
+Latest cp32-rpc-game-linked;Ob1 cp32-rpc-game-ob1,Ob2 cp32-gui-overwrite-ob2. Units build/rpc-game-units.txt; launcher build/run_rpc_game.ps1; review build/review_rpc_game.py. Contract/seeds/acceptance/integration rpc-game. Total4334unique gained since20:11:21Z baseline173141; measured throughput in integrationjson includes coordination. No push/deployment, goalactive.
+
+Next agent2proposal build/agent-independent/eval_rpc_zones_player.cpp: nineRPC1671potential bytes, awaiting compile/actualtarget review. Agent1 pursuing custommodel InstallCustomModelA7C30/entryC770/managerD320 chain in isolated directory. Root retains sole activewriter/compiler role.
