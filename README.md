@@ -3,6 +3,31 @@
 Nouveau dépôt local indépendant des anciens projets. Objectif : reconstruire
 des sources maintenables produisant les octets exacts du R5 gelé.
 
+## Checkpoint 3.1 — socle et dépendances validé
+
+**50 unités sources, trois bibliothèques liées et 262 régions RAW_LINKED_EXACT** :
+RakNet, DXUT et utilitaires MD5/SHA-1. Les deux builds indépendants passent
+**19 622 contrôles natifs** au total, y compris les imports réels D3DX et BASS.
+Leurs sections de code/données et fixups symboliques sont reproductibles.
+
+La cartographie recense 8 020 entrées de fonctions, 320 imports et les dépendances
+restantes. Dix structures communes disposent de layouts et de niveaux de preuve
+explicites. La couverture exacte cumulée atteint **23 948 octets de code**, soit
+**2,573 % de `.text`**. Compiler une bibliothèque ne compte pas comme la matcher.
+
+```sh
+.venv/bin/python tools/run_checkpoint31.py
+# Avec les artefacts locaux existants :
+.venv/bin/python tools/run_checkpoint31.py --skip-build
+```
+
+Voir [le rapport et ses limites](evidence/checkpoint31/REPORT.md),
+[la couverture détaillée](evidence/checkpoint31/coverage.json),
+[les preuves d’acceptation](evidence/checkpoint31/acceptance.json) et
+[les itérations](evidence/checkpoint31/ITERATIONS.md).
+Les interfaces spécifiques au jeu restent à implémenter au 3.2 ; ce DLL de test
+n’est pas un client SA-MP complet.
+
 ## Checkpoint 2 — reconstruction liée validée
 
 Une capsule DLL est maintenant compilée et liée par MSVC/MS LINK 2003, puis
@@ -124,10 +149,12 @@ pas être acceptés par suppression des contrôles.
 
 ## Checkpoints restants
 
-3. Étendre la reconstruction au client complet et à ses dépendances réelles,
-   jusqu’à obtenir un client autonome. Le fournisseur de vtable de test doit
-   notamment être remplacé par les classes R5 reconstruites.
-4. Reproduire le layout et toutes les métadonnées du fichier, puis vérifier
-   l’identité SHA-256 du DLL entier avec la référence gelée.
+- **3.2 — Client reconstruit** : pools, jeu, synchronisation, RPC et interface,
+  avec dépendances réelles et matching vérifié. Remplacer les frontières de test.
+- **3.3 — Intégration et validation** : client autonome et scénarios de jeu
+  sur un environnement de test ; écarts restants précisément inventoriés.
+- **4 — Identité du fichier** : layout, ressources, métadonnées et SHA-256
+  strictement identiques au DLL R5 de référence.
 
-La réussite du checkpoint 2 ne garantit pas encore l’identité finale du fichier.
+Le matching complet reste l’objectif ; les succès du socle ne le garantissent
+pas encore.

@@ -1,0 +1,1657 @@
+{
+  "reference_sha256": "b72b5dbe725f81864ca3f78bc7063bda56cc05fc7188af822fa7a754432553a2",
+  "image_base": 268435456,
+  "image_size": 2613248,
+  "entry_rva": 834704,
+  "sections": [
+    {
+      "name": ".text",
+      "rva": 4096,
+      "virtual_size": 930756,
+      "size": 933888,
+      "flags": 1610612768
+    },
+    {
+      "name": ".rdata",
+      "rva": 937984,
+      "virtual_size": 102174,
+      "size": 102400,
+      "flags": 1073741888
+    },
+    {
+      "name": ".data",
+      "rva": 1040384,
+      "virtual_size": 1516908,
+      "size": 110592,
+      "flags": 3221225536
+    },
+    {
+      "name": ".rsrc",
+      "rva": 2560000,
+      "virtual_size": 1712,
+      "size": 4096,
+      "flags": 1073741888
+    },
+    {
+      "name": ".reloc",
+      "rva": 2564096,
+      "virtual_size": 47534,
+      "size": 49152,
+      "flags": 1107296320
+    }
+  ],
+  "imports": [
+    {
+      "slot_rva": 937984,
+      "dll": "advapi32.dll",
+      "name": "RegSetValueExA"
+    },
+    {
+      "slot_rva": 937988,
+      "dll": "advapi32.dll",
+      "name": "RegOpenKeyExA"
+    },
+    {
+      "slot_rva": 937992,
+      "dll": "advapi32.dll",
+      "name": "RegQueryValueExA"
+    },
+    {
+      "slot_rva": 937996,
+      "dll": "advapi32.dll",
+      "name": "RegCloseKey"
+    },
+    {
+      "slot_rva": 938004,
+      "dll": "bass.dll",
+      "name": "BASS_SetEAXParameters"
+    },
+    {
+      "slot_rva": 938008,
+      "dll": "bass.dll",
+      "name": "BASS_SetConfig"
+    },
+    {
+      "slot_rva": 938012,
+      "dll": "bass.dll",
+      "name": "BASS_SetConfigPtr"
+    },
+    {
+      "slot_rva": 938016,
+      "dll": "bass.dll",
+      "name": "BASS_Init"
+    },
+    {
+      "slot_rva": 938020,
+      "dll": "bass.dll",
+      "name": "BASS_Free"
+    },
+    {
+      "slot_rva": 938024,
+      "dll": "bass.dll",
+      "name": "BASS_StreamFree"
+    },
+    {
+      "slot_rva": 938028,
+      "dll": "bass.dll",
+      "name": "BASS_ChannelGetTags"
+    },
+    {
+      "slot_rva": 938032,
+      "dll": "bass.dll",
+      "name": "BASS_StreamGetFilePosition"
+    },
+    {
+      "slot_rva": 938036,
+      "dll": "bass.dll",
+      "name": "BASS_ChannelSetSync"
+    },
+    {
+      "slot_rva": 938040,
+      "dll": "bass.dll",
+      "name": "BASS_ChannelPlay"
+    },
+    {
+      "slot_rva": 938044,
+      "dll": "bass.dll",
+      "name": "BASS_StreamCreateURL"
+    },
+    {
+      "slot_rva": 938048,
+      "dll": "bass.dll",
+      "name": "BASS_ChannelStop"
+    },
+    {
+      "slot_rva": 938052,
+      "dll": "bass.dll",
+      "name": "BASS_Apply3D"
+    },
+    {
+      "slot_rva": 938056,
+      "dll": "bass.dll",
+      "name": "BASS_ChannelSet3DPosition"
+    },
+    {
+      "slot_rva": 938060,
+      "dll": "bass.dll",
+      "name": "BASS_ChannelSet3DAttributes"
+    },
+    {
+      "slot_rva": 938064,
+      "dll": "bass.dll",
+      "name": "BASS_Set3DPosition"
+    },
+    {
+      "slot_rva": 938068,
+      "dll": "bass.dll",
+      "name": "BASS_Set3DFactors"
+    },
+    {
+      "slot_rva": 938076,
+      "dll": "comctl32.dll",
+      "name": "#17"
+    },
+    {
+      "slot_rva": 938084,
+      "dll": "gdi32.dll",
+      "name": "GetDCOrgEx"
+    },
+    {
+      "slot_rva": 938088,
+      "dll": "gdi32.dll",
+      "name": "GetClipBox"
+    },
+    {
+      "slot_rva": 938092,
+      "dll": "gdi32.dll",
+      "name": "DeleteDC"
+    },
+    {
+      "slot_rva": 938096,
+      "dll": "gdi32.dll",
+      "name": "DeleteObject"
+    },
+    {
+      "slot_rva": 938100,
+      "dll": "gdi32.dll",
+      "name": "GetDIBits"
+    },
+    {
+      "slot_rva": 938104,
+      "dll": "gdi32.dll",
+      "name": "SelectObject"
+    },
+    {
+      "slot_rva": 938108,
+      "dll": "gdi32.dll",
+      "name": "GetObjectA"
+    },
+    {
+      "slot_rva": 938112,
+      "dll": "gdi32.dll",
+      "name": "GetStockObject"
+    },
+    {
+      "slot_rva": 938116,
+      "dll": "gdi32.dll",
+      "name": "AddFontResourceA"
+    },
+    {
+      "slot_rva": 938120,
+      "dll": "gdi32.dll",
+      "name": "CreateCompatibleDC"
+    },
+    {
+      "slot_rva": 938128,
+      "dll": "kernel32.dll",
+      "name": "WriteFile"
+    },
+    {
+      "slot_rva": 938132,
+      "dll": "kernel32.dll",
+      "name": "VirtualQuery"
+    },
+    {
+      "slot_rva": 938136,
+      "dll": "kernel32.dll",
+      "name": "InterlockedExchange"
+    },
+    {
+      "slot_rva": 938140,
+      "dll": "kernel32.dll",
+      "name": "IsBadWritePtr"
+    },
+    {
+      "slot_rva": 938144,
+      "dll": "kernel32.dll",
+      "name": "HeapCreate"
+    },
+    {
+      "slot_rva": 938148,
+      "dll": "kernel32.dll",
+      "name": "HeapDestroy"
+    },
+    {
+      "slot_rva": 938152,
+      "dll": "kernel32.dll",
+      "name": "FatalAppExitA"
+    },
+    {
+      "slot_rva": 938156,
+      "dll": "kernel32.dll",
+      "name": "TlsGetValue"
+    },
+    {
+      "slot_rva": 938160,
+      "dll": "kernel32.dll",
+      "name": "TlsSetValue"
+    },
+    {
+      "slot_rva": 938164,
+      "dll": "kernel32.dll",
+      "name": "TlsFree"
+    },
+    {
+      "slot_rva": 938168,
+      "dll": "kernel32.dll",
+      "name": "GetCurrentThread"
+    },
+    {
+      "slot_rva": 938172,
+      "dll": "kernel32.dll",
+      "name": "TlsAlloc"
+    },
+    {
+      "slot_rva": 938176,
+      "dll": "kernel32.dll",
+      "name": "GetDriveTypeA"
+    },
+    {
+      "slot_rva": 938180,
+      "dll": "kernel32.dll",
+      "name": "GetSystemTimeAsFileTime"
+    },
+    {
+      "slot_rva": 938184,
+      "dll": "kernel32.dll",
+      "name": "GetDateFormatA"
+    },
+    {
+      "slot_rva": 938188,
+      "dll": "kernel32.dll",
+      "name": "GetTimeFormatA"
+    },
+    {
+      "slot_rva": 938192,
+      "dll": "kernel32.dll",
+      "name": "GetCurrentThreadId"
+    },
+    {
+      "slot_rva": 938196,
+      "dll": "kernel32.dll",
+      "name": "FileTimeToLocalFileTime"
+    },
+    {
+      "slot_rva": 938200,
+      "dll": "kernel32.dll",
+      "name": "FileTimeToSystemTime"
+    },
+    {
+      "slot_rva": 938204,
+      "dll": "kernel32.dll",
+      "name": "CreateThread"
+    },
+    {
+      "slot_rva": 938208,
+      "dll": "kernel32.dll",
+      "name": "ResumeThread"
+    },
+    {
+      "slot_rva": 938212,
+      "dll": "kernel32.dll",
+      "name": "TerminateProcess"
+    },
+    {
+      "slot_rva": 938216,
+      "dll": "kernel32.dll",
+      "name": "RaiseException"
+    },
+    {
+      "slot_rva": 938220,
+      "dll": "kernel32.dll",
+      "name": "HeapReAlloc"
+    },
+    {
+      "slot_rva": 938224,
+      "dll": "kernel32.dll",
+      "name": "RtlUnwind"
+    },
+    {
+      "slot_rva": 938228,
+      "dll": "kernel32.dll",
+      "name": "FreeEnvironmentStringsA"
+    },
+    {
+      "slot_rva": 938232,
+      "dll": "kernel32.dll",
+      "name": "GetEnvironmentStrings"
+    },
+    {
+      "slot_rva": 938236,
+      "dll": "kernel32.dll",
+      "name": "FreeEnvironmentStringsW"
+    },
+    {
+      "slot_rva": 938240,
+      "dll": "kernel32.dll",
+      "name": "GetEnvironmentStringsW"
+    },
+    {
+      "slot_rva": 938244,
+      "dll": "kernel32.dll",
+      "name": "IsBadCodePtr"
+    },
+    {
+      "slot_rva": 938248,
+      "dll": "kernel32.dll",
+      "name": "GetACP"
+    },
+    {
+      "slot_rva": 938252,
+      "dll": "kernel32.dll",
+      "name": "GetOEMCP"
+    },
+    {
+      "slot_rva": 938256,
+      "dll": "kernel32.dll",
+      "name": "GetCPInfo"
+    },
+    {
+      "slot_rva": 938260,
+      "dll": "kernel32.dll",
+      "name": "GetStringTypeA"
+    },
+    {
+      "slot_rva": 938264,
+      "dll": "kernel32.dll",
+      "name": "GetStringTypeW"
+    },
+    {
+      "slot_rva": 938268,
+      "dll": "kernel32.dll",
+      "name": "GetUserDefaultLCID"
+    },
+    {
+      "slot_rva": 938272,
+      "dll": "kernel32.dll",
+      "name": "GetLocaleInfoA"
+    },
+    {
+      "slot_rva": 938276,
+      "dll": "kernel32.dll",
+      "name": "EnumSystemLocalesA"
+    },
+    {
+      "slot_rva": 938280,
+      "dll": "kernel32.dll",
+      "name": "IsValidLocale"
+    },
+    {
+      "slot_rva": 938284,
+      "dll": "kernel32.dll",
+      "name": "IsValidCodePage"
+    },
+    {
+      "slot_rva": 938288,
+      "dll": "kernel32.dll",
+      "name": "SetStdHandle"
+    },
+    {
+      "slot_rva": 938292,
+      "dll": "kernel32.dll",
+      "name": "FlushFileBuffers"
+    },
+    {
+      "slot_rva": 938296,
+      "dll": "kernel32.dll",
+      "name": "CreateFileA"
+    },
+    {
+      "slot_rva": 938300,
+      "dll": "kernel32.dll",
+      "name": "ReadFile"
+    },
+    {
+      "slot_rva": 938304,
+      "dll": "kernel32.dll",
+      "name": "SetHandleCount"
+    },
+    {
+      "slot_rva": 938308,
+      "dll": "kernel32.dll",
+      "name": "GetStdHandle"
+    },
+    {
+      "slot_rva": 938312,
+      "dll": "kernel32.dll",
+      "name": "GetFileType"
+    },
+    {
+      "slot_rva": 938316,
+      "dll": "kernel32.dll",
+      "name": "SetCurrentDirectoryA"
+    },
+    {
+      "slot_rva": 938320,
+      "dll": "kernel32.dll",
+      "name": "GetStartupInfoA"
+    },
+    {
+      "slot_rva": 938324,
+      "dll": "kernel32.dll",
+      "name": "SetFilePointer"
+    },
+    {
+      "slot_rva": 938328,
+      "dll": "kernel32.dll",
+      "name": "HeapSize"
+    },
+    {
+      "slot_rva": 938332,
+      "dll": "kernel32.dll",
+      "name": "LCMapStringA"
+    },
+    {
+      "slot_rva": 938336,
+      "dll": "kernel32.dll",
+      "name": "LCMapStringW"
+    },
+    {
+      "slot_rva": 938340,
+      "dll": "kernel32.dll",
+      "name": "GetSystemInfo"
+    },
+    {
+      "slot_rva": 938344,
+      "dll": "kernel32.dll",
+      "name": "SetUnhandledExceptionFilter"
+    },
+    {
+      "slot_rva": 938348,
+      "dll": "kernel32.dll",
+      "name": "SetProcessAffinityMask"
+    },
+    {
+      "slot_rva": 938352,
+      "dll": "kernel32.dll",
+      "name": "GetCurrentDirectoryA"
+    },
+    {
+      "slot_rva": 938356,
+      "dll": "kernel32.dll",
+      "name": "ExitThread"
+    },
+    {
+      "slot_rva": 938360,
+      "dll": "kernel32.dll",
+      "name": "VirtualFree"
+    },
+    {
+      "slot_rva": 938364,
+      "dll": "kernel32.dll",
+      "name": "VirtualAlloc"
+    },
+    {
+      "slot_rva": 938368,
+      "dll": "kernel32.dll",
+      "name": "GlobalMemoryStatusEx"
+    },
+    {
+      "slot_rva": 938372,
+      "dll": "kernel32.dll",
+      "name": "VirtualProtect"
+    },
+    {
+      "slot_rva": 938376,
+      "dll": "kernel32.dll",
+      "name": "ExitProcess"
+    },
+    {
+      "slot_rva": 938380,
+      "dll": "kernel32.dll",
+      "name": "lstrcmpA"
+    },
+    {
+      "slot_rva": 938384,
+      "dll": "kernel32.dll",
+      "name": "lstrcmpiA"
+    },
+    {
+      "slot_rva": 938388,
+      "dll": "kernel32.dll",
+      "name": "GetVersionExW"
+    },
+    {
+      "slot_rva": 938392,
+      "dll": "kernel32.dll",
+      "name": "IsDBCSLeadByteEx"
+    },
+    {
+      "slot_rva": 938396,
+      "dll": "kernel32.dll",
+      "name": "GetLocaleInfoW"
+    },
+    {
+      "slot_rva": 938400,
+      "dll": "kernel32.dll",
+      "name": "CompareStringA"
+    },
+    {
+      "slot_rva": 938404,
+      "dll": "kernel32.dll",
+      "name": "GetProcessHeap"
+    },
+    {
+      "slot_rva": 938408,
+      "dll": "kernel32.dll",
+      "name": "HeapAlloc"
+    },
+    {
+      "slot_rva": 938412,
+      "dll": "kernel32.dll",
+      "name": "HeapFree"
+    },
+    {
+      "slot_rva": 938416,
+      "dll": "kernel32.dll",
+      "name": "GlobalAlloc"
+    },
+    {
+      "slot_rva": 938420,
+      "dll": "kernel32.dll",
+      "name": "GlobalLock"
+    },
+    {
+      "slot_rva": 938424,
+      "dll": "kernel32.dll",
+      "name": "GlobalUnlock"
+    },
+    {
+      "slot_rva": 938428,
+      "dll": "kernel32.dll",
+      "name": "GlobalFree"
+    },
+    {
+      "slot_rva": 938432,
+      "dll": "kernel32.dll",
+      "name": "lstrlenW"
+    },
+    {
+      "slot_rva": 938436,
+      "dll": "kernel32.dll",
+      "name": "GetLastError"
+    },
+    {
+      "slot_rva": 938440,
+      "dll": "kernel32.dll",
+      "name": "GetSystemDirectoryA"
+    },
+    {
+      "slot_rva": 938444,
+      "dll": "kernel32.dll",
+      "name": "GetCommandLineA"
+    },
+    {
+      "slot_rva": 938448,
+      "dll": "kernel32.dll",
+      "name": "GetVersionExA"
+    },
+    {
+      "slot_rva": 938452,
+      "dll": "kernel32.dll",
+      "name": "lstrcpynA"
+    },
+    {
+      "slot_rva": 938456,
+      "dll": "kernel32.dll",
+      "name": "GetModuleFileNameA"
+    },
+    {
+      "slot_rva": 938460,
+      "dll": "kernel32.dll",
+      "name": "LoadLibraryA"
+    },
+    {
+      "slot_rva": 938464,
+      "dll": "kernel32.dll",
+      "name": "FreeLibrary"
+    },
+    {
+      "slot_rva": 938468,
+      "dll": "kernel32.dll",
+      "name": "WideCharToMultiByte"
+    },
+    {
+      "slot_rva": 938472,
+      "dll": "kernel32.dll",
+      "name": "GetFullPathNameA"
+    },
+    {
+      "slot_rva": 938476,
+      "dll": "kernel32.dll",
+      "name": "GetFileAttributesA"
+    },
+    {
+      "slot_rva": 938480,
+      "dll": "kernel32.dll",
+      "name": "lstrcpyA"
+    },
+    {
+      "slot_rva": 938484,
+      "dll": "kernel32.dll",
+      "name": "lstrlenA"
+    },
+    {
+      "slot_rva": 938488,
+      "dll": "kernel32.dll",
+      "name": "OutputDebugStringA"
+    },
+    {
+      "slot_rva": 938492,
+      "dll": "kernel32.dll",
+      "name": "lstrcatA"
+    },
+    {
+      "slot_rva": 938496,
+      "dll": "kernel32.dll",
+      "name": "MultiByteToWideChar"
+    },
+    {
+      "slot_rva": 938500,
+      "dll": "kernel32.dll",
+      "name": "GetModuleHandleA"
+    },
+    {
+      "slot_rva": 938504,
+      "dll": "kernel32.dll",
+      "name": "GetProcAddress"
+    },
+    {
+      "slot_rva": 938508,
+      "dll": "kernel32.dll",
+      "name": "FlushInstructionCache"
+    },
+    {
+      "slot_rva": 938512,
+      "dll": "kernel32.dll",
+      "name": "SetEvent"
+    },
+    {
+      "slot_rva": 938516,
+      "dll": "kernel32.dll",
+      "name": "SetLastError"
+    },
+    {
+      "slot_rva": 938520,
+      "dll": "kernel32.dll",
+      "name": "GetCurrentProcess"
+    },
+    {
+      "slot_rva": 938524,
+      "dll": "kernel32.dll",
+      "name": "GetTimeZoneInformation"
+    },
+    {
+      "slot_rva": 938528,
+      "dll": "kernel32.dll",
+      "name": "UnhandledExceptionFilter"
+    },
+    {
+      "slot_rva": 938532,
+      "dll": "kernel32.dll",
+      "name": "SetConsoleCtrlHandler"
+    },
+    {
+      "slot_rva": 938536,
+      "dll": "kernel32.dll",
+      "name": "SetEndOfFile"
+    },
+    {
+      "slot_rva": 938540,
+      "dll": "kernel32.dll",
+      "name": "CompareStringW"
+    },
+    {
+      "slot_rva": 938544,
+      "dll": "kernel32.dll",
+      "name": "SetEnvironmentVariableA"
+    },
+    {
+      "slot_rva": 938548,
+      "dll": "kernel32.dll",
+      "name": "IsBadReadPtr"
+    },
+    {
+      "slot_rva": 938552,
+      "dll": "kernel32.dll",
+      "name": "GetTickCount"
+    },
+    {
+      "slot_rva": 938556,
+      "dll": "kernel32.dll",
+      "name": "CreateDirectoryA"
+    },
+    {
+      "slot_rva": 938560,
+      "dll": "kernel32.dll",
+      "name": "DeleteFileA"
+    },
+    {
+      "slot_rva": 938564,
+      "dll": "kernel32.dll",
+      "name": "FindClose"
+    },
+    {
+      "slot_rva": 938568,
+      "dll": "kernel32.dll",
+      "name": "FindNextFileA"
+    },
+    {
+      "slot_rva": 938572,
+      "dll": "kernel32.dll",
+      "name": "FindFirstFileA"
+    },
+    {
+      "slot_rva": 938576,
+      "dll": "kernel32.dll",
+      "name": "MoveFileA"
+    },
+    {
+      "slot_rva": 938580,
+      "dll": "kernel32.dll",
+      "name": "Sleep"
+    },
+    {
+      "slot_rva": 938584,
+      "dll": "kernel32.dll",
+      "name": "QueryPerformanceCounter"
+    },
+    {
+      "slot_rva": 938588,
+      "dll": "kernel32.dll",
+      "name": "QueryPerformanceFrequency"
+    },
+    {
+      "slot_rva": 938592,
+      "dll": "kernel32.dll",
+      "name": "CloseHandle"
+    },
+    {
+      "slot_rva": 938596,
+      "dll": "kernel32.dll",
+      "name": "InitializeCriticalSection"
+    },
+    {
+      "slot_rva": 938600,
+      "dll": "kernel32.dll",
+      "name": "DeleteCriticalSection"
+    },
+    {
+      "slot_rva": 938604,
+      "dll": "kernel32.dll",
+      "name": "EnterCriticalSection"
+    },
+    {
+      "slot_rva": 938608,
+      "dll": "kernel32.dll",
+      "name": "LeaveCriticalSection"
+    },
+    {
+      "slot_rva": 938612,
+      "dll": "kernel32.dll",
+      "name": "Module32Next"
+    },
+    {
+      "slot_rva": 938616,
+      "dll": "kernel32.dll",
+      "name": "Module32First"
+    },
+    {
+      "slot_rva": 938620,
+      "dll": "kernel32.dll",
+      "name": "CreateToolhelp32Snapshot"
+    },
+    {
+      "slot_rva": 938624,
+      "dll": "kernel32.dll",
+      "name": "GetCurrentProcessId"
+    },
+    {
+      "slot_rva": 938632,
+      "dll": "psapi.dll",
+      "name": "GetProcessMemoryInfo"
+    },
+    {
+      "slot_rva": 938640,
+      "dll": "shell32.dll",
+      "name": "ExtractIconA"
+    },
+    {
+      "slot_rva": 938648,
+      "dll": "user32.dll",
+      "name": "CheckDlgButton"
+    },
+    {
+      "slot_rva": 938652,
+      "dll": "user32.dll",
+      "name": "LoadIconA"
+    },
+    {
+      "slot_rva": 938656,
+      "dll": "user32.dll",
+      "name": "GetCaretBlinkTime"
+    },
+    {
+      "slot_rva": 938660,
+      "dll": "user32.dll",
+      "name": "GetKeyboardLayoutList"
+    },
+    {
+      "slot_rva": 938664,
+      "dll": "user32.dll",
+      "name": "GetFocus"
+    },
+    {
+      "slot_rva": 938668,
+      "dll": "user32.dll",
+      "name": "PostMessageW"
+    },
+    {
+      "slot_rva": 938672,
+      "dll": "user32.dll",
+      "name": "GetKeyState"
+    },
+    {
+      "slot_rva": 938676,
+      "dll": "user32.dll",
+      "name": "SetRectEmpty"
+    },
+    {
+      "slot_rva": 938680,
+      "dll": "user32.dll",
+      "name": "PeekMessageW"
+    },
+    {
+      "slot_rva": 938684,
+      "dll": "user32.dll",
+      "name": "GetMessageW"
+    },
+    {
+      "slot_rva": 938688,
+      "dll": "user32.dll",
+      "name": "SendMessageW"
+    },
+    {
+      "slot_rva": 938692,
+      "dll": "user32.dll",
+      "name": "GetKeyboardLayout"
+    },
+    {
+      "slot_rva": 938696,
+      "dll": "user32.dll",
+      "name": "keybd_event"
+    },
+    {
+      "slot_rva": 938700,
+      "dll": "user32.dll",
+      "name": "GetClipboardData"
+    },
+    {
+      "slot_rva": 938704,
+      "dll": "user32.dll",
+      "name": "OpenClipboard"
+    },
+    {
+      "slot_rva": 938708,
+      "dll": "user32.dll",
+      "name": "EmptyClipboard"
+    },
+    {
+      "slot_rva": 938712,
+      "dll": "user32.dll",
+      "name": "SetClipboardData"
+    },
+    {
+      "slot_rva": 938716,
+      "dll": "user32.dll",
+      "name": "CloseClipboard"
+    },
+    {
+      "slot_rva": 938720,
+      "dll": "user32.dll",
+      "name": "InflateRect"
+    },
+    {
+      "slot_rva": 938724,
+      "dll": "user32.dll",
+      "name": "PeekMessageA"
+    },
+    {
+      "slot_rva": 938728,
+      "dll": "user32.dll",
+      "name": "TranslateAcceleratorA"
+    },
+    {
+      "slot_rva": 938732,
+      "dll": "user32.dll",
+      "name": "TranslateMessage"
+    },
+    {
+      "slot_rva": 938736,
+      "dll": "user32.dll",
+      "name": "DispatchMessageA"
+    },
+    {
+      "slot_rva": 938740,
+      "dll": "user32.dll",
+      "name": "DestroyAcceleratorTable"
+    },
+    {
+      "slot_rva": 938744,
+      "dll": "user32.dll",
+      "name": "GetWindowTextA"
+    },
+    {
+      "slot_rva": 938748,
+      "dll": "user32.dll",
+      "name": "RegisterClassA"
+    },
+    {
+      "slot_rva": 938752,
+      "dll": "user32.dll",
+      "name": "SetRect"
+    },
+    {
+      "slot_rva": 938756,
+      "dll": "user32.dll",
+      "name": "CreateWindowExA"
+    },
+    {
+      "slot_rva": 938760,
+      "dll": "user32.dll",
+      "name": "DestroyMenu"
+    },
+    {
+      "slot_rva": 938764,
+      "dll": "user32.dll",
+      "name": "UnregisterClassA"
+    },
+    {
+      "slot_rva": 938768,
+      "dll": "user32.dll",
+      "name": "PostQuitMessage"
+    },
+    {
+      "slot_rva": 938772,
+      "dll": "user32.dll",
+      "name": "DefWindowProcW"
+    },
+    {
+      "slot_rva": 938776,
+      "dll": "user32.dll",
+      "name": "SetWindowLongW"
+    },
+    {
+      "slot_rva": 938780,
+      "dll": "user32.dll",
+      "name": "IsDlgButtonChecked"
+    },
+    {
+      "slot_rva": 938784,
+      "dll": "user32.dll",
+      "name": "GetMenu"
+    },
+    {
+      "slot_rva": 938788,
+      "dll": "user32.dll",
+      "name": "SetWindowPlacement"
+    },
+    {
+      "slot_rva": 938792,
+      "dll": "user32.dll",
+      "name": "AdjustWindowRect"
+    },
+    {
+      "slot_rva": 938796,
+      "dll": "user32.dll",
+      "name": "IsZoomed"
+    },
+    {
+      "slot_rva": 938800,
+      "dll": "user32.dll",
+      "name": "SetWindowPos"
+    },
+    {
+      "slot_rva": 938804,
+      "dll": "user32.dll",
+      "name": "DialogBoxIndirectParamA"
+    },
+    {
+      "slot_rva": 938808,
+      "dll": "user32.dll",
+      "name": "EnumDisplaySettingsA"
+    },
+    {
+      "slot_rva": 938812,
+      "dll": "user32.dll",
+      "name": "CallNextHookEx"
+    },
+    {
+      "slot_rva": 938816,
+      "dll": "user32.dll",
+      "name": "SendMessageA"
+    },
+    {
+      "slot_rva": 938820,
+      "dll": "user32.dll",
+      "name": "GetIconInfo"
+    },
+    {
+      "slot_rva": 938824,
+      "dll": "user32.dll",
+      "name": "GetDC"
+    },
+    {
+      "slot_rva": 938828,
+      "dll": "user32.dll",
+      "name": "ReleaseDC"
+    },
+    {
+      "slot_rva": 938832,
+      "dll": "user32.dll",
+      "name": "OffsetRect"
+    },
+    {
+      "slot_rva": 938836,
+      "dll": "user32.dll",
+      "name": "IntersectRect"
+    },
+    {
+      "slot_rva": 938840,
+      "dll": "user32.dll",
+      "name": "IsIconic"
+    },
+    {
+      "slot_rva": 938844,
+      "dll": "user32.dll",
+      "name": "GetWindowPlacement"
+    },
+    {
+      "slot_rva": 938848,
+      "dll": "user32.dll",
+      "name": "GetWindowRect"
+    },
+    {
+      "slot_rva": 938852,
+      "dll": "user32.dll",
+      "name": "MessageBoxA"
+    },
+    {
+      "slot_rva": 938856,
+      "dll": "user32.dll",
+      "name": "wsprintfA"
+    },
+    {
+      "slot_rva": 938860,
+      "dll": "user32.dll",
+      "name": "GetAsyncKeyState"
+    },
+    {
+      "slot_rva": 938864,
+      "dll": "user32.dll",
+      "name": "GetClientRect"
+    },
+    {
+      "slot_rva": 938868,
+      "dll": "user32.dll",
+      "name": "DestroyWindow"
+    },
+    {
+      "slot_rva": 938872,
+      "dll": "user32.dll",
+      "name": "ShowWindow"
+    },
+    {
+      "slot_rva": 938876,
+      "dll": "user32.dll",
+      "name": "ShowCursor"
+    },
+    {
+      "slot_rva": 938880,
+      "dll": "user32.dll",
+      "name": "SetCursor"
+    },
+    {
+      "slot_rva": 938884,
+      "dll": "user32.dll",
+      "name": "LoadCursorA"
+    },
+    {
+      "slot_rva": 938888,
+      "dll": "user32.dll",
+      "name": "SetFocus"
+    },
+    {
+      "slot_rva": 938892,
+      "dll": "user32.dll",
+      "name": "SetForegroundWindow"
+    },
+    {
+      "slot_rva": 938896,
+      "dll": "user32.dll",
+      "name": "EndDialog"
+    },
+    {
+      "slot_rva": 938900,
+      "dll": "user32.dll",
+      "name": "SetDlgItemTextA"
+    },
+    {
+      "slot_rva": 938904,
+      "dll": "user32.dll",
+      "name": "EnableWindow"
+    },
+    {
+      "slot_rva": 938908,
+      "dll": "user32.dll",
+      "name": "GetDlgItem"
+    },
+    {
+      "slot_rva": 938912,
+      "dll": "user32.dll",
+      "name": "DialogBoxParamA"
+    },
+    {
+      "slot_rva": 938916,
+      "dll": "user32.dll",
+      "name": "SetMenu"
+    },
+    {
+      "slot_rva": 938920,
+      "dll": "user32.dll",
+      "name": "GetDesktopWindow"
+    },
+    {
+      "slot_rva": 938924,
+      "dll": "user32.dll",
+      "name": "CallWindowProcA"
+    },
+    {
+      "slot_rva": 938928,
+      "dll": "user32.dll",
+      "name": "SetWindowLongA"
+    },
+    {
+      "slot_rva": 938932,
+      "dll": "user32.dll",
+      "name": "GetWindowLongA"
+    },
+    {
+      "slot_rva": 938936,
+      "dll": "user32.dll",
+      "name": "IsWindowUnicode"
+    },
+    {
+      "slot_rva": 938940,
+      "dll": "user32.dll",
+      "name": "SetWindowTextA"
+    },
+    {
+      "slot_rva": 938944,
+      "dll": "user32.dll",
+      "name": "SetClassLongA"
+    },
+    {
+      "slot_rva": 938948,
+      "dll": "user32.dll",
+      "name": "GetClassLongA"
+    },
+    {
+      "slot_rva": 938952,
+      "dll": "user32.dll",
+      "name": "GetForegroundWindow"
+    },
+    {
+      "slot_rva": 938956,
+      "dll": "user32.dll",
+      "name": "SystemParametersInfoA"
+    },
+    {
+      "slot_rva": 938960,
+      "dll": "user32.dll",
+      "name": "PtInRect"
+    },
+    {
+      "slot_rva": 938964,
+      "dll": "user32.dll",
+      "name": "GetCursorPos"
+    },
+    {
+      "slot_rva": 938968,
+      "dll": "user32.dll",
+      "name": "SetCursorPos"
+    },
+    {
+      "slot_rva": 938972,
+      "dll": "user32.dll",
+      "name": "ClientToScreen"
+    },
+    {
+      "slot_rva": 938976,
+      "dll": "user32.dll",
+      "name": "IsWindowVisible"
+    },
+    {
+      "slot_rva": 938980,
+      "dll": "user32.dll",
+      "name": "GetSystemMetrics"
+    },
+    {
+      "slot_rva": 938984,
+      "dll": "user32.dll",
+      "name": "SetCapture"
+    },
+    {
+      "slot_rva": 938988,
+      "dll": "user32.dll",
+      "name": "ClipCursor"
+    },
+    {
+      "slot_rva": 938992,
+      "dll": "user32.dll",
+      "name": "ReleaseCapture"
+    },
+    {
+      "slot_rva": 938996,
+      "dll": "user32.dll",
+      "name": "ScreenToClient"
+    },
+    {
+      "slot_rva": 939004,
+      "dll": "winmm.dll",
+      "name": "timeGetTime"
+    },
+    {
+      "slot_rva": 939008,
+      "dll": "winmm.dll",
+      "name": "timeBeginPeriod"
+    },
+    {
+      "slot_rva": 939016,
+      "dll": "wsock32.dll",
+      "name": "#8"
+    },
+    {
+      "slot_rva": 939020,
+      "dll": "wsock32.dll",
+      "name": "#13"
+    },
+    {
+      "slot_rva": 939024,
+      "dll": "wsock32.dll",
+      "name": "#18"
+    },
+    {
+      "slot_rva": 939028,
+      "dll": "wsock32.dll",
+      "name": "#151"
+    },
+    {
+      "slot_rva": 939032,
+      "dll": "wsock32.dll",
+      "name": "#1"
+    },
+    {
+      "slot_rva": 939036,
+      "dll": "wsock32.dll",
+      "name": "#6"
+    },
+    {
+      "slot_rva": 939040,
+      "dll": "wsock32.dll",
+      "name": "#57"
+    },
+    {
+      "slot_rva": 939044,
+      "dll": "wsock32.dll",
+      "name": "#20"
+    },
+    {
+      "slot_rva": 939048,
+      "dll": "wsock32.dll",
+      "name": "#111"
+    },
+    {
+      "slot_rva": 939052,
+      "dll": "wsock32.dll",
+      "name": "#17"
+    },
+    {
+      "slot_rva": 939056,
+      "dll": "wsock32.dll",
+      "name": "#15"
+    },
+    {
+      "slot_rva": 939060,
+      "dll": "wsock32.dll",
+      "name": "#21"
+    },
+    {
+      "slot_rva": 939064,
+      "dll": "wsock32.dll",
+      "name": "#12"
+    },
+    {
+      "slot_rva": 939068,
+      "dll": "wsock32.dll",
+      "name": "#2"
+    },
+    {
+      "slot_rva": 939072,
+      "dll": "wsock32.dll",
+      "name": "#10"
+    },
+    {
+      "slot_rva": 939076,
+      "dll": "wsock32.dll",
+      "name": "#11"
+    },
+    {
+      "slot_rva": 939080,
+      "dll": "wsock32.dll",
+      "name": "#52"
+    },
+    {
+      "slot_rva": 939084,
+      "dll": "wsock32.dll",
+      "name": "#9"
+    },
+    {
+      "slot_rva": 939088,
+      "dll": "wsock32.dll",
+      "name": "#23"
+    },
+    {
+      "slot_rva": 939092,
+      "dll": "wsock32.dll",
+      "name": "#4"
+    },
+    {
+      "slot_rva": 939096,
+      "dll": "wsock32.dll",
+      "name": "#16"
+    },
+    {
+      "slot_rva": 939100,
+      "dll": "wsock32.dll",
+      "name": "#19"
+    },
+    {
+      "slot_rva": 939104,
+      "dll": "wsock32.dll",
+      "name": "#3"
+    },
+    {
+      "slot_rva": 939108,
+      "dll": "wsock32.dll",
+      "name": "#116"
+    },
+    {
+      "slot_rva": 939112,
+      "dll": "wsock32.dll",
+      "name": "#115"
+    },
+    {
+      "slot_rva": 939120,
+      "dll": "d3dx9_25.dll",
+      "name": "D3DXLoadSurfaceFromFileA"
+    },
+    {
+      "slot_rva": 939124,
+      "dll": "d3dx9_25.dll",
+      "name": "D3DXQuaternionNormalize"
+    },
+    {
+      "slot_rva": 939128,
+      "dll": "d3dx9_25.dll",
+      "name": "D3DXQuaternionSlerp"
+    },
+    {
+      "slot_rva": 939132,
+      "dll": "d3dx9_25.dll",
+      "name": "D3DXMatrixLookAtRH"
+    },
+    {
+      "slot_rva": 939136,
+      "dll": "d3dx9_25.dll",
+      "name": "D3DXCreateEffectFromResourceA"
+    },
+    {
+      "slot_rva": 939140,
+      "dll": "d3dx9_25.dll",
+      "name": "D3DXCreateEffectFromFileA"
+    },
+    {
+      "slot_rva": 939144,
+      "dll": "d3dx9_25.dll",
+      "name": "D3DXCreateFontIndirectA"
+    },
+    {
+      "slot_rva": 939148,
+      "dll": "d3dx9_25.dll",
+      "name": "D3DXCreateVolumeTextureFromResourceExA"
+    },
+    {
+      "slot_rva": 939152,
+      "dll": "d3dx9_25.dll",
+      "name": "D3DXCreateVolumeTextureFromFileExA"
+    },
+    {
+      "slot_rva": 939156,
+      "dll": "d3dx9_25.dll",
+      "name": "D3DXCreateCubeTextureFromResourceExA"
+    },
+    {
+      "slot_rva": 939160,
+      "dll": "d3dx9_25.dll",
+      "name": "D3DXCreateCubeTextureFromFileExA"
+    },
+    {
+      "slot_rva": 939164,
+      "dll": "d3dx9_25.dll",
+      "name": "D3DXCreateTextureFromResourceExA"
+    },
+    {
+      "slot_rva": 939168,
+      "dll": "d3dx9_25.dll",
+      "name": "D3DXMatrixRotationYawPitchRoll"
+    },
+    {
+      "slot_rva": 939172,
+      "dll": "d3dx9_25.dll",
+      "name": "D3DXVec3TransformNormal"
+    },
+    {
+      "slot_rva": 939176,
+      "dll": "d3dx9_25.dll",
+      "name": "D3DXMatrixRotationX"
+    },
+    {
+      "slot_rva": 939180,
+      "dll": "d3dx9_25.dll",
+      "name": "D3DXQuaternionRotationMatrix"
+    },
+    {
+      "slot_rva": 939184,
+      "dll": "d3dx9_25.dll",
+      "name": "D3DXVec3TransformCoord"
+    },
+    {
+      "slot_rva": 939188,
+      "dll": "d3dx9_25.dll",
+      "name": "D3DXVec3Normalize"
+    },
+    {
+      "slot_rva": 939192,
+      "dll": "d3dx9_25.dll",
+      "name": "D3DXMatrixPerspectiveFovLH"
+    },
+    {
+      "slot_rva": 939196,
+      "dll": "d3dx9_25.dll",
+      "name": "D3DXMatrixLookAtLH"
+    },
+    {
+      "slot_rva": 939200,
+      "dll": "d3dx9_25.dll",
+      "name": "D3DXMatrixTranslation"
+    },
+    {
+      "slot_rva": 939204,
+      "dll": "d3dx9_25.dll",
+      "name": "D3DXMatrixRotationQuaternion"
+    },
+    {
+      "slot_rva": 939208,
+      "dll": "d3dx9_25.dll",
+      "name": "D3DXQuaternionMultiply"
+    },
+    {
+      "slot_rva": 939212,
+      "dll": "d3dx9_25.dll",
+      "name": "D3DXFileCreate"
+    },
+    {
+      "slot_rva": 939216,
+      "dll": "d3dx9_25.dll",
+      "name": "D3DXLoadMeshFromXof"
+    },
+    {
+      "slot_rva": 939220,
+      "dll": "d3dx9_25.dll",
+      "name": "D3DXLoadMeshFromXA"
+    },
+    {
+      "slot_rva": 939224,
+      "dll": "d3dx9_25.dll",
+      "name": "D3DXGetImageInfoFromFileA"
+    },
+    {
+      "slot_rva": 939228,
+      "dll": "d3dx9_25.dll",
+      "name": "D3DXCreateCubeTextureFromFileA"
+    },
+    {
+      "slot_rva": 939232,
+      "dll": "d3dx9_25.dll",
+      "name": "D3DXCreateVolumeTextureFromFileA"
+    },
+    {
+      "slot_rva": 939236,
+      "dll": "d3dx9_25.dll",
+      "name": "D3DXCreateTextureFromFileA"
+    },
+    {
+      "slot_rva": 939240,
+      "dll": "d3dx9_25.dll",
+      "name": "D3DXGetDeclLength"
+    },
+    {
+      "slot_rva": 939244,
+      "dll": "d3dx9_25.dll",
+      "name": "D3DXComputeNormals"
+    },
+    {
+      "slot_rva": 939248,
+      "dll": "d3dx9_25.dll",
+      "name": "D3DXMatrixScaling"
+    },
+    {
+      "slot_rva": 939252,
+      "dll": "d3dx9_25.dll",
+      "name": "D3DXCheckVersion"
+    },
+    {
+      "slot_rva": 939256,
+      "dll": "d3dx9_25.dll",
+      "name": "D3DXSaveSurfaceToFileA"
+    },
+    {
+      "slot_rva": 939260,
+      "dll": "d3dx9_25.dll",
+      "name": "D3DXMatrixInverse"
+    },
+    {
+      "slot_rva": 939264,
+      "dll": "d3dx9_25.dll",
+      "name": "D3DXMatrixMultiply"
+    },
+    {
+      "slot_rva": 939268,
+      "dll": "d3dx9_25.dll",
+      "name": "D3DXCreateLine"
+    },
+    {
+      "slot_rva": 939272,
+      "dll": "d3dx9_25.dll",
+      "name": "D3DXCreateTextureFromFileInMemory"
+    },
+    {
+      "slot_rva": 939276,
+      "dll": "d3dx9_25.dll",
+      "name": "D3DXCreateTextureFromFileExA"
+    },
+    {
+      "slot_rva": 939280,
+      "dll": "d3dx9_25.dll",
+      "name": "D3DXLoadSurfaceFromSurface"
+    },
+    {
+      "slot_rva": 939284,
+      "dll": "d3dx9_25.dll",
+      "name": "D3DXVec3Project"
+    },
+    {
+      "slot_rva": 939288,
+      "dll": "d3dx9_25.dll",
+      "name": "D3DXCreateFontA"
+    },
+    {
+      "slot_rva": 939292,
+      "dll": "d3dx9_25.dll",
+      "name": "D3DXCreateSprite"
+    },
+    {
+      "slot_rva": 939296,
+      "dll": "d3dx9_25.dll",
+      "name": "D3DXCreateTexture"
+    },
+    {
+      "slot_rva": 939300,
+      "dll": "d3dx9_25.dll",
+      "name": "D3DXCreateRenderToSurface"
+    }
+  ],
+  "relocation_count": 19075,
+  "functions_identified": 8020,
+  "classification_counts": {
+    "unknown": 6882,
+    "client-or-unclassified-cpp": 324,
+    "network": 235,
+    "utilities": 35,
+    "runtime-or-c-symbol": 498,
+    "interface": 46
+  },
+  "indirect_edges": 3199,
+  "status": "MAP_ONLY_NOT_MATCHING_COVERAGE"
+}

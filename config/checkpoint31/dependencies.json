@@ -1,0 +1,105 @@
+{
+  "reference_sha256": "b72b5dbe725f81864ca3f78bc7063bda56cc05fc7188af822fa7a754432553a2",
+  "components": [
+    {
+      "name": "RakNet SA-MP fork",
+      "kind": "static-source",
+      "group": "raknet",
+      "source_units": 40,
+      "status": "BUILDABLE_AND_INTEGRATED_PARTIAL_MATCH",
+      "note": "Pinned fork, not an assumed stock RakNet version. Factory also pulls server/router/console source dependencies."
+    },
+    {
+      "name": "Microsoft DXUT and D3DX inline helpers",
+      "kind": "static-source",
+      "group": "dxut",
+      "source_units": 8,
+      "status": "BUILDABLE_AND_INTEGRATED_PARTIAL_MATCH",
+      "note": "Game-specific fonts/window bridge remains a declared boundary. DXUTmisc RenderArrow has uninitialized cPasses because upstream V macro is empty; that region is not accepted."
+    },
+    {
+      "name": "Colin Plumb MD5 and fhicl SHA1",
+      "kind": "static-source",
+      "group": "utilities",
+      "source_units": 2,
+      "status": "BUILDABLE_AND_INTEGRATED_PARTIAL_MATCH",
+      "note": "RakNet also contains an independent CSHA1 implementation; all three are tested against digest vectors."
+    },
+    {
+      "name": "MSVC 2003 CRT/STL",
+      "kind": "vendor-static-library",
+      "status": "PINNED_NOT_FULLY_MATCHED",
+      "note": "Library fingerprints pinned; CP2 verifies two entry bodies only."
+    },
+    {
+      "name": "D3DX9_25",
+      "kind": "external-runtime",
+      "imports": 46,
+      "status": "PINNED_AND_NATIVE_SMOKE_TESTED",
+      "note": "Original IAT identity plus imported normalization call; no source reconstruction claimed."
+    },
+    {
+      "name": "BASS",
+      "kind": "external-runtime",
+      "imports": 17,
+      "status": "PINNED_AND_NATIVE_SMOKE_TESTED",
+      "note": "Original IAT identity; native version query only, no audio playback."
+    },
+    {
+      "name": "Windows API",
+      "kind": "system-runtime",
+      "status": "IMPORTS_ENUMERATED_SDK_PINNED",
+      "note": "Full reference IAT in pe.json. Native foundation uses Winsock and Windows APIs."
+    },
+    {
+      "name": "GTA and SA-MP game glue",
+      "kind": "unimplemented-client-boundary",
+      "status": "DEFERRED_TO_3_2",
+      "symbols": [
+        "pGame",
+        "ID3DXFontHook methods",
+        "GetFontFace",
+        "GetFontWeight",
+        "GetUIFontSize"
+      ],
+      "note": "Test-only fail-fast providers are not accepted code and cannot stand in for a functional game integration."
+    }
+  ],
+  "dynamic_dll_literal_leads": [
+    {
+      "name": "winmm.dll",
+      "rva": 962536,
+      "status": "LITERAL_ONLY_LOAD_PATH_REQUIRES_REVIEW"
+    },
+    {
+      "name": "version.dll",
+      "rva": 962888,
+      "status": "LITERAL_ONLY_LOAD_PATH_REQUIRES_REVIEW"
+    },
+    {
+      "name": "imm32.dll",
+      "rva": 963292,
+      "status": "LITERAL_ONLY_LOAD_PATH_REQUIRES_REVIEW"
+    },
+    {
+      "name": "d3d9.dll",
+      "rva": 965820,
+      "status": "LITERAL_ONLY_LOAD_PATH_REQUIRES_REVIEW"
+    },
+    {
+      "name": "usp10.dll",
+      "rva": 967244,
+      "status": "LITERAL_ONLY_LOAD_PATH_REQUIRES_REVIEW"
+    },
+    {
+      "name": "mscoree.dll",
+      "rva": 983860,
+      "status": "LITERAL_ONLY_LOAD_PATH_REQUIRES_REVIEW"
+    },
+    {
+      "name": "imagehlp.dll",
+      "rva": 1148836,
+      "status": "LITERAL_ONLY_LOAD_PATH_REQUIRES_REVIEW"
+    }
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "groups": [
+    {
+      "name": "raknet",
+      "units": [
+        "vendor/upstream/raknet/BitStream.cpp",
+        "vendor/upstream/raknet/CheckSum.cpp",
+        "vendor/upstream/raknet/DataBlockEncryptor.cpp",
+        "vendor/upstream/raknet/DS_HuffmanEncodingTree.cpp",
+        "vendor/upstream/raknet/GetTime.cpp",
+        "vendor/upstream/raknet/InternalPacketPool.cpp",
+        "vendor/upstream/raknet/NetworkTypes.cpp",
+        "vendor/upstream/raknet/PluginInterface.cpp",
+        "vendor/upstream/raknet/RakClient.cpp",
+        "vendor/upstream/raknet/RakNetworkFactory.cpp",
+        "vendor/upstream/raknet/RakPeer.cpp",
+        "vendor/upstream/raknet/RakSleep.cpp",
+        "vendor/upstream/raknet/Rand.cpp",
+        "vendor/upstream/raknet/ReliabilityLayer.cpp",
+        "vendor/upstream/raknet/rijndael.cpp",
+        "vendor/upstream/raknet/RPCMap.cpp",
+        "vendor/upstream/raknet/SHA1.cpp",
+        "vendor/upstream/raknet/SimpleMutex.cpp",
+        "vendor/upstream/raknet/SocketLayer.cpp",
+        "vendor/upstream/raknet/StringCompressor.cpp",
+        "vendor/upstream/raknet/StringTable.cpp",
+        "vendor/upstream/raknet/NetworkIDGenerator.cpp",
+        "vendor/upstream/raknet/DataCompressor.cpp",
+        "vendor/upstream/raknet/TEABlockEncryptor.cpp",
+        "vendor/upstream/raknet/RakServer.cpp",
+        "vendor/upstream/raknet/ConsoleServer.cpp",
+        "vendor/upstream/raknet/replicamanager.cpp",
+        "vendor/upstream/raknet/LogCommandParser.cpp",
+        "vendor/upstream/raknet/PacketLogger.cpp",
+        "vendor/upstream/raknet/RakNetCommandParser.cpp",
+        "vendor/upstream/raknet/RakNetTransport.cpp",
+        "vendor/upstream/raknet/TelnetTransport.cpp",
+        "vendor/upstream/raknet/PacketConsoleLogger.cpp",
+        "vendor/upstream/raknet/PacketFileLogger.cpp",
+        "vendor/upstream/raknet/Router.cpp",
+        "vendor/upstream/raknet/ConnectionGraph.cpp",
+        "vendor/upstream/raknet/CommandParserInterface.cpp",
+        "vendor/upstream/raknet/TCPInterface.cpp",
+        "vendor/upstream/raknet/FileOperations.cpp",
+        "vendor/upstream/raknet/systemaddresslist.cpp"
+      ]
+    },
+    {
+      "name": "dxut",
+      "units": [
+        "vendor/upstream/saco/d3d9/common/DXUT.cpp",
+        "vendor/upstream/saco/d3d9/common/DXUTenum.cpp",
+        "vendor/upstream/saco/d3d9/common/DXUTgui.cpp",
+        "vendor/upstream/saco/d3d9/common/DXUTMesh.cpp",
+        "vendor/upstream/saco/d3d9/common/DXUTmisc.cpp",
+        "vendor/upstream/saco/d3d9/common/DXUTSettingsDlg.cpp",
+        "vendor/upstream/saco/d3d9/common/DXUTsound.cpp",
+        "vendor/upstream/saco/d3d9/common/dxstdafx.cpp"
+      ]
+    },
+    {
+      "name": "utilities",
+      "units": [
+        "vendor/upstream/saco/md5.cpp",
+        "vendor/upstream/saco/fhicl-sha1.cpp"
+      ]
+    }
+  ]
+}

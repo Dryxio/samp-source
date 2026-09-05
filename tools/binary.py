@@ -23,10 +23,14 @@ def u32(data, offset):
 
 def section(data, offset):
     size, raw = u32(data, offset+16), u32(data, offset+20)
-    need(raw+size <= len(data), 'section outside file')
+    flags = u32(data,offset+36)
+    uninitialized = raw == 0 and bool(flags & 0x80)
+    need(uninitialized or raw+size <= len(data), 'section outside file')
+    need(not uninitialized or not flags & 0x20, 'code cannot be uninitialized')
     return dict(name=data[offset:offset+8].rstrip(b'\0').decode('ascii'),
                 virtual_size=u32(data, offset+8), rva=u32(data, offset+12),
-                size=size, raw=raw, bytes=data[raw:raw+size],
+                size=size, raw=raw, bytes=b'' if uninitialized else data[raw:raw+size],
+                uninitialized=uninitialized,
                 reloc_ptr=u32(data,offset+24), reloc_count=u16(data,offset+32),
                 flags=u32(data,offset+36))
 
@@ -131,6 +135,7 @@ class COFF:
     def defined_data(self, symbol, length):
         need(symbol['section'] > 0, 'symbol not defined in object')
         sec = self.sections[symbol['section']-1]
+        need(not sec['uninitialized'], 'uninitialized data requires an explicit zero-fill contract')
         off = symbol['value']
         need(not sec['flags']&0x20000000, 'expected data symbol')
         need(off+length <= sec['size'], 'data symbol out of bounds')
