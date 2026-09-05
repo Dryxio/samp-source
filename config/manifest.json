@@ -1,0 +1,262 @@
+{
+  "target_sha256": "b72b5dbe725f81864ca3f78bc7063bda56cc05fc7188af822fa7a754432553a2",
+  "image_base": 268435456,
+  "functions": [
+    {
+      "unit": "pools",
+      "name": "PlayerPool.GetSlotState",
+      "symbol": "?GetSlotState@PlayerPool@@QAEHG@Z",
+      "rva": 4272,
+      "size": 26,
+      "sha256": "10ade2e45fb48f6a59ac1959314c150313ee6ac3742659057620f93ea1641c57",
+      "features": [
+        "bounds"
+      ],
+      "boundary": "manually inspected full x86 body through final return; following byte is INT3"
+    },
+    {
+      "unit": "pools",
+      "name": "PlayerPool.GetAt",
+      "symbol": "?GetAt@PlayerPool@@QAEPAXG@Z",
+      "rva": 4336,
+      "size": 36,
+      "sha256": "70b45207bf39e952eb3459a035b7b2e589bbf54e405a2e43abd0de9cd0aaaef3",
+      "features": [
+        "bounds",
+        "indirection"
+      ],
+      "boundary": "manually inspected full x86 body through final return; following byte is INT3"
+    },
+    {
+      "unit": "pools",
+      "name": "LocalPlayer.AreKeysChanged",
+      "symbol": "?AreKeysChanged@LocalPlayer@@QAEHGGG@Z",
+      "rva": 17152,
+      "size": 55,
+      "sha256": "761a37e8532c596d713e109b72c4e45703654705cef1e9167d1c540cf1078089",
+      "features": [
+        "branching"
+      ],
+      "boundary": "manually inspected full x86 body through final return; following byte is INT3"
+    },
+    {
+      "unit": "actors",
+      "name": "ActorPool.ctor",
+      "symbol": "??0ActorPool@@QAE@XZ",
+      "rva": 5824,
+      "size": 41,
+      "sha256": "a17559c9a1bd2aafc3f55a98f05b10ed1c9c538328b6a0900a50a21778641f53",
+      "features": [
+        "constructor",
+        "loop"
+      ],
+      "boundary": "manually inspected full x86 body through final return; following byte is INT3"
+    },
+    {
+      "unit": "actors",
+      "name": "ActorPool.UpdateCount",
+      "symbol": "?UpdateCount@ActorPool@@QAEXXZ",
+      "rva": 5728,
+      "size": 85,
+      "sha256": "227e4d92e181d8dca4d0eacec1713c6b1fb321b6b80e06d78bb33b3421236ccf",
+      "features": [
+        "unrolled-loop"
+      ],
+      "boundary": "manually inspected full x86 body through final return; following byte is INT3"
+    },
+    {
+      "unit": "actors",
+      "name": "ActorPool.FindIDFromGtaPtr",
+      "symbol": "?FindIDFromGtaPtr@ActorPool@@QAEGH@Z",
+      "rva": 6320,
+      "size": 39,
+      "sha256": "3dd0095606a050733f71b86385142bbb32cd6c4b2ac59c46f8e3899c0a1507c7",
+      "features": [
+        "search-loop"
+      ],
+      "boundary": "manually inspected full x86 body through final return; following byte is INT3"
+    },
+    {
+      "unit": "actors",
+      "name": "ActorPool.DeleteAll",
+      "symbol": "?DeleteAll@ActorPool@@QAEXXZ",
+      "rva": 6368,
+      "size": 25,
+      "sha256": "fcf5123695505f2f37c5f542b6b2e1a9237b70630ae64bb125ab7067108cf7f7",
+      "features": [
+        "loop",
+        "external-thiscall"
+      ],
+      "boundary": "manually inspected full x86 body through final return; following byte is INT3"
+    },
+    {
+      "unit": "camera",
+      "name": "StoreLocalCamera",
+      "symbol": "_StoreLocalCamera@0",
+      "rva": 640960,
+      "size": 27,
+      "sha256": "0f9d3713cbbf1da0484c78f526e1032fa45c3d0051f084e0fb88dc96ebc951c5",
+      "features": [
+        "globals",
+        "indirection"
+      ],
+      "boundary": "manually inspected full x86 body through final return; following byte is INT3"
+    },
+    {
+      "unit": "camera",
+      "name": "RestoreLocalCamera",
+      "symbol": "_RestoreLocalCamera@0",
+      "rva": 640992,
+      "size": 28,
+      "sha256": "25917d036c5e98f91fe989340b14e51783fd9dc343dd954909eba9d95bcdb465",
+      "features": [
+        "globals",
+        "x87"
+      ],
+      "boundary": "manually inspected full x86 body through final return; following byte is INT3"
+    },
+    {
+      "unit": "camera",
+      "name": "SetPlayerCamera",
+      "symbol": "_SetPlayerCamera@12",
+      "rva": 641024,
+      "size": 31,
+      "sha256": "6dbba1f2a97c5baa191afadb8f4ddd752686a6756890d11021cd241553b979a0",
+      "features": [
+        "indexed-globals"
+      ],
+      "boundary": "manually inspected full x86 body through final return; following byte is INT3"
+    },
+    {
+      "unit": "camera",
+      "name": "GetLocalAspect",
+      "symbol": "_GetLocalAspect@0",
+      "rva": 641056,
+      "size": 14,
+      "sha256": "5e55ccdc6dcf7b524fceb340c8febcfebeacdb0da30e3cd9b7726274bb378f5a",
+      "features": [
+        "x87",
+        "constant"
+      ],
+      "boundary": "manually inspected full x86 body through final return; following byte is INT3"
+    },
+    {
+      "unit": "camera",
+      "name": "GetLocalZoom",
+      "symbol": "_GetLocalZoom@0",
+      "rva": 641072,
+      "size": 20,
+      "sha256": "c6288e5c8a911684f23471dce730598ea53abf79957a11c21e1f44ae60802fa8",
+      "features": [
+        "x87",
+        "reciprocal"
+      ],
+      "boundary": "manually inspected full x86 body through final return; following byte is INT3"
+    },
+    {
+      "unit": "camera",
+      "name": "SetRemoteCamera",
+      "symbol": "_SetRemoteCamera@4",
+      "rva": 641104,
+      "size": 57,
+      "sha256": "bca1cd201fc4e7fa64aee0bb7ced7eb325236768e778d1ae54d92260ab545ac8",
+      "features": [
+        "x87",
+        "rounding",
+        "indexed-globals"
+      ],
+      "boundary": "manually inspected full x86 body through final return; following byte is INT3"
+    },
+    {
+      "unit": "game",
+      "name": "Game.SetWeather",
+      "symbol": "?SetWeather@Game@@QAEXH@Z",
+      "rva": 658240,
+      "size": 29,
+      "sha256": "93f07027160ea39840a35bc617ae64a16d047f96503d779c3ab8a597291a68f5",
+      "features": [
+        "absolute-GTA-stores",
+        "branching"
+      ],
+      "boundary": "manually inspected full x86 body through final return; following byte is INT3"
+    },
+    {
+      "unit": "game",
+      "name": "Game.SetGravity",
+      "symbol": "?SetGravity@Game@@QAEXM@Z",
+      "rva": 660480,
+      "size": 27,
+      "sha256": "a98afda92461649ed433132124ce77edbb8ea487fdde548e124f16413ccdba13",
+      "features": [
+        "external-cdecl-call",
+        "absolute-GTA-store"
+      ],
+      "boundary": "manually inspected full x86 body through final return; following byte is INT3"
+    }
+  ],
+  "symbols": {
+    "_cameraZoom": {
+      "rva": 1063380,
+      "kind": "pointer",
+      "size": 4,
+      "original_hex": "50f2b600"
+    },
+    "_aspectRatio": {
+      "rva": 1063376,
+      "kind": "pointer",
+      "size": 4,
+      "original_hex": "a4efc300"
+    },
+    "_localZoom": {
+      "rva": 1327056,
+      "kind": "bss",
+      "size": 4
+    },
+    "_localAspect": {
+      "rva": 1338248,
+      "kind": "bss",
+      "size": 4
+    },
+    "_remoteZoom": {
+      "rva": 1327280,
+      "kind": "bss",
+      "size": 840
+    },
+    "_remoteAspect": {
+      "rva": 1338296,
+      "kind": "bss",
+      "size": 840
+    },
+    "__real@3f800000": {
+      "rva": 940844,
+      "kind": "constant",
+      "size": 4,
+      "original_hex": "0000803f"
+    },
+    "__real@420c0000": {
+      "rva": 967428,
+      "kind": "constant",
+      "size": 4,
+      "original_hex": "00000c42"
+    },
+    "__real@3cea0ea1": {
+      "rva": 967424,
+      "kind": "constant",
+      "size": 4,
+      "original_hex": "a10eea3c"
+    },
+    "?Delete@ActorPool@@QAEHG@Z": {
+      "rva": 5872,
+      "kind": "unimplemented-function",
+      "size": 1,
+      "entry_sha256_16": "0cfef96c34c07e5a158e28e5c63f8ea3afa3564546e50af59c3ad2f515f7ecd0"
+    },
+    "_Unprotect": {
+      "rva": 697536,
+      "kind": "unimplemented-function",
+      "size": 1,
+      "entry_sha256_16": "659a3247be86ca172e189cd4705603b4df87e602513e2b1cad2d59c636284fa5"
+    }
+  },
+  "status_definition": "exact bodies after explicitly resolving COFF at reference layout; not complete linked DLL"
+}

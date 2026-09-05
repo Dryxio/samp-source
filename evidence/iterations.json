@@ -1,0 +1,456 @@
+[
+  {
+    "run": "a",
+    "matched": 13,
+    "total": 15,
+    "functions": [
+      {
+        "name": "PlayerPool.GetSlotState",
+        "exact": true,
+        "difference_offsets": []
+      },
+      {
+        "name": "PlayerPool.GetAt",
+        "exact": true,
+        "difference_offsets": []
+      },
+      {
+        "name": "LocalPlayer.AreKeysChanged",
+        "exact": true,
+        "difference_offsets": []
+      },
+      {
+        "name": "ActorPool.ctor",
+        "exact": true,
+        "difference_offsets": []
+      },
+      {
+        "name": "ActorPool.UpdateCount",
+        "exact": true,
+        "difference_offsets": []
+      },
+      {
+        "name": "ActorPool.FindIDFromGtaPtr",
+        "exact": true,
+        "difference_offsets": []
+      },
+      {
+        "name": "ActorPool.DeleteAll",
+        "exact": true,
+        "difference_offsets": []
+      },
+      {
+        "name": "StoreLocalCamera",
+        "exact": true,
+        "difference_offsets": []
+      },
+      {
+        "name": "RestoreLocalCamera",
+        "exact": true,
+        "difference_offsets": []
+      },
+      {
+        "name": "SetPlayerCamera",
+        "exact": true,
+        "difference_offsets": []
+      },
+      {
+        "name": "GetLocalAspect",
+        "exact": true,
+        "difference_offsets": []
+      },
+      {
+        "name": "GetLocalZoom",
+        "exact": true,
+        "difference_offsets": []
+      },
+      {
+        "name": "SetRemoteCamera",
+        "exact": false,
+        "difference_offsets": [
+          21,
+          22,
+          23,
+          27
+        ]
+      },
+      {
+        "name": "Game.SetWeather",
+        "exact": false,
+        "difference_offsets": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ]
+      },
+      {
+        "name": "Game.SetGravity",
+        "exact": true,
+        "difference_offsets": []
+      }
+    ],
+    "build": {
+      "run": "a",
+      "utc": "2026-09-05T01:07:28.2683355Z",
+      "options": [
+        "/nologo",
+        "/c",
+        "/Ox",
+        "/Og",
+        "/Ob1",
+        "/Oi",
+        "/Ot",
+        "/Oy",
+        "/MT",
+        "/Zp1",
+        "/EHsc",
+        "/Gy"
+      ],
+      "toolchain": [
+        {
+          "name": "cl.exe",
+          "version": "13.10.3077",
+          "sha256": "2ecf86a3edfd3deae498e08298e210e984537ce9e11759930561e43f40bd2515"
+        },
+        {
+          "name": "c1xx.dll",
+          "version": "13.10.3077",
+          "sha256": "353f3d5dcd050b876e1c044b99c4bf47958d255f395a4919f406a19921be4dfa"
+        },
+        {
+          "name": "c2.dll",
+          "version": "13.10.3077",
+          "sha256": "bcd28f39b1798b07989c30a1df471cf87fc20e3802d130901a08f83800e6b81e"
+        },
+        {
+          "name": "link.exe",
+          "version": "7.10.3077",
+          "sha256": "0d5f9712d0da843d787bf4ce4e678abc6b737940996706b2c86101eac9df3e3c"
+        }
+      ],
+      "units": [
+        {
+          "unit": "pools",
+          "source_sha256": "e907cf04543d88bfd5fe30277a02d375fa4a505552d135ddd5240f3680feae0b",
+          "object_sha256": "49c6581daf7e4d294eba539413116e5139c3ebd01fa10b9da1be4a5dc88e020e"
+        },
+        {
+          "unit": "actors",
+          "source_sha256": "a4d91bcf45a98db629d5632a9cd9b54195c0ce0425e8e11511c299b5144dd163",
+          "object_sha256": "d3dda9dff9ab84c08ca5544f91e92ac867b3d4d5b4c73b39ff3a8bef699a60fb"
+        },
+        {
+          "unit": "camera",
+          "source_sha256": "a520069372ebc6eb6cac4eafe7a959d6e2b7601845b20ccc91fff32ae6fb4518",
+          "object_sha256": "4576b43f04e4d0fe90eb2ab69ea9b8d0c0add480baf1e0929960edfad50c486b"
+        },
+        {
+          "unit": "game",
+          "source_sha256": "b710f069579246c574637f416da7d684c13b4a4f7939089aec59a504353cb0f0",
+          "object_sha256": "c4fd3adfe9fd7c2c615db64bd82bee2b7262605877a0a103704448612996899e"
+        }
+      ]
+    }
+  },
+  {
+    "run": "b",
+    "matched": 14,
+    "total": 15,
+    "functions": [
+      {
+        "name": "PlayerPool.GetSlotState",
+        "exact": true,
+        "difference_offsets": []
+      },
+      {
+        "name": "PlayerPool.GetAt",
+        "exact": true,
+        "difference_offsets": []
+      },
+      {
+        "name": "LocalPlayer.AreKeysChanged",
+        "exact": true,
+        "difference_offsets": []
+      },
+      {
+        "name": "ActorPool.ctor",
+        "exact": true,
+        "difference_offsets": []
+      },
+      {
+        "name": "ActorPool.UpdateCount",
+        "exact": true,
+        "difference_offsets": []
+      },
+      {
+        "name": "ActorPool.FindIDFromGtaPtr",
+        "exact": true,
+        "difference_offsets": []
+      },
+      {
+        "name": "ActorPool.DeleteAll",
+        "exact": true,
+        "difference_offsets": []
+      },
+      {
+        "name": "StoreLocalCamera",
+        "exact": true,
+        "difference_offsets": []
+      },
+      {
+        "name": "RestoreLocalCamera",
+        "exact": true,
+        "difference_offsets": []
+      },
+      {
+        "name": "SetPlayerCamera",
+        "exact": true,
+        "difference_offsets": []
+      },
+      {
+        "name": "GetLocalAspect",
+        "exact": true,
+        "difference_offsets": []
+      },
+      {
+        "name": "GetLocalZoom",
+        "exact": true,
+        "difference_offsets": []
+      },
+      {
+        "name": "SetRemoteCamera",
+        "exact": true,
+        "difference_offsets": []
+      },
+      {
+        "name": "Game.SetWeather",
+        "exact": false,
+        "difference_offsets": [
+          1,
+          4
+        ]
+      },
+      {
+        "name": "Game.SetGravity",
+        "exact": true,
+        "difference_offsets": []
+      }
+    ],
+    "build": {
+      "run": "b",
+      "utc": "2026-09-05T01:07:53.4856930Z",
+      "options": [
+        "/nologo",
+        "/c",
+        "/Ox",
+        "/Og",
+        "/Ob1",
+        "/Oi",
+        "/Ot",
+        "/Oy",
+        "/MT",
+        "/Zp1",
+        "/EHsc",
+        "/Gy"
+      ],
+      "toolchain": [
+        {
+          "name": "cl.exe",
+          "version": "13.10.3077",
+          "sha256": "2ecf86a3edfd3deae498e08298e210e984537ce9e11759930561e43f40bd2515"
+        },
+        {
+          "name": "c1xx.dll",
+          "version": "13.10.3077",
+          "sha256": "353f3d5dcd050b876e1c044b99c4bf47958d255f395a4919f406a19921be4dfa"
+        },
+        {
+          "name": "c2.dll",
+          "version": "13.10.3077",
+          "sha256": "bcd28f39b1798b07989c30a1df471cf87fc20e3802d130901a08f83800e6b81e"
+        },
+        {
+          "name": "link.exe",
+          "version": "7.10.3077",
+          "sha256": "0d5f9712d0da843d787bf4ce4e678abc6b737940996706b2c86101eac9df3e3c"
+        }
+      ],
+      "units": [
+        {
+          "unit": "pools",
+          "source_sha256": "e907cf04543d88bfd5fe30277a02d375fa4a505552d135ddd5240f3680feae0b",
+          "object_sha256": "4f7cfe0110df1734eec797f730a55dafd6334146ae09b47793a9fd0253c0781d"
+        },
+        {
+          "unit": "actors",
+          "source_sha256": "a4d91bcf45a98db629d5632a9cd9b54195c0ce0425e8e11511c299b5144dd163",
+          "object_sha256": "3c36460224a73355dd199293fc5d9e83bf9d53c61460956a469fceef12af28a9"
+        },
+        {
+          "unit": "camera",
+          "source_sha256": "d3e777c4bb70b5bd09a9775e6a1fd76d44634304c3a86638f6a5e75c3f808c4e",
+          "object_sha256": "9eb07bdec06eff94bb061b0ef184c1aa4dbd1c8b4a6d0a91efa853202408776a"
+        },
+        {
+          "unit": "game",
+          "source_sha256": "a7c32e636212d9fb9a7ea6f03c8271adce86d2ec47fc3c53079040c1a2134502",
+          "object_sha256": "bb3142e125037be811775e6756f589fda474be13eda8f426306d7b156aea9bef"
+        }
+      ]
+    }
+  },
+  {
+    "run": "c",
+    "matched": 15,
+    "total": 15,
+    "functions": [
+      {
+        "name": "PlayerPool.GetSlotState",
+        "exact": true,
+        "difference_offsets": []
+      },
+      {
+        "name": "PlayerPool.GetAt",
+        "exact": true,
+        "difference_offsets": []
+      },
+      {
+        "name": "LocalPlayer.AreKeysChanged",
+        "exact": true,
+        "difference_offsets": []
+      },
+      {
+        "name": "ActorPool.ctor",
+        "exact": true,
+        "difference_offsets": []
+      },
+      {
+        "name": "ActorPool.UpdateCount",
+        "exact": true,
+        "difference_offsets": []
+      },
+      {
+        "name": "ActorPool.FindIDFromGtaPtr",
+        "exact": true,
+        "difference_offsets": []
+      },
+      {
+        "name": "ActorPool.DeleteAll",
+        "exact": true,
+        "difference_offsets": []
+      },
+      {
+        "name": "StoreLocalCamera",
+        "exact": true,
+        "difference_offsets": []
+      },
+      {
+        "name": "RestoreLocalCamera",
+        "exact": true,
+        "difference_offsets": []
+      },
+      {
+        "name": "SetPlayerCamera",
+        "exact": true,
+        "difference_offsets": []
+      },
+      {
+        "name": "GetLocalAspect",
+        "exact": true,
+        "difference_offsets": []
+      },
+      {
+        "name": "GetLocalZoom",
+        "exact": true,
+        "difference_offsets": []
+      },
+      {
+        "name": "SetRemoteCamera",
+        "exact": true,
+        "difference_offsets": []
+      },
+      {
+        "name": "Game.SetWeather",
+        "exact": true,
+        "difference_offsets": []
+      },
+      {
+        "name": "Game.SetGravity",
+        "exact": true,
+        "difference_offsets": []
+      }
+    ],
+    "build": {
+      "run": "c",
+      "utc": "2026-09-05T01:08:48.9842383Z",
+      "options": [
+        "/nologo",
+        "/c",
+        "/Ox",
+        "/Og",
+        "/Ob1",
+        "/Oi",
+        "/Ot",
+        "/Oy",
+        "/MT",
+        "/Zp1",
+        "/EHsc",
+        "/Gy"
+      ],
+      "toolchain": [
+        {
+          "name": "cl.exe",
+          "version": "13.10.3077",
+          "sha256": "2ecf86a3edfd3deae498e08298e210e984537ce9e11759930561e43f40bd2515"
+        },
+        {
+          "name": "c1xx.dll",
+          "version": "13.10.3077",
+          "sha256": "353f3d5dcd050b876e1c044b99c4bf47958d255f395a4919f406a19921be4dfa"
+        },
+        {
+          "name": "c2.dll",
+          "version": "13.10.3077",
+          "sha256": "bcd28f39b1798b07989c30a1df471cf87fc20e3802d130901a08f83800e6b81e"
+        },
+        {
+          "name": "link.exe",
+          "version": "7.10.3077",
+          "sha256": "0d5f9712d0da843d787bf4ce4e678abc6b737940996706b2c86101eac9df3e3c"
+        }
+      ],
+      "units": [
+        {
+          "unit": "pools",
+          "source_sha256": "e907cf04543d88bfd5fe30277a02d375fa4a505552d135ddd5240f3680feae0b",
+          "object_sha256": "71c918000cbabf47e3ed764498ed152d6438548905e1c04f4e2d2a4dc7e53312"
+        },
+        {
+          "unit": "actors",
+          "source_sha256": "a4d91bcf45a98db629d5632a9cd9b54195c0ce0425e8e11511c299b5144dd163",
+          "object_sha256": "b3cae123a818d1dd2b22fdab73d02d784b9c10ba4e3cfc905757198ea524161b"
+        },
+        {
+          "unit": "camera",
+          "source_sha256": "d3e777c4bb70b5bd09a9775e6a1fd76d44634304c3a86638f6a5e75c3f808c4e",
+          "object_sha256": "b88019682bda9e0b51200d443fd8877cc76a1043110f0e9c728b0d225ceb37ca"
+        },
+        {
+          "unit": "game",
+          "source_sha256": "00aa306b9aefeca31a7d0d6dddbded2afe6f18bf48310395747cb70ccfc3c7bb",
+          "object_sha256": "752706474f9bdcf75c394473800c1636c2b93bba8ac062ab174aa2ebc64bcfaf"
+        }
+      ]
+    }
+  }
+]

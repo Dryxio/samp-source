@@ -1,0 +1,534 @@
+{
+  "result": "PASS",
+  "utc": "2026-09-05T01:14:29.010539+00:00",
+  "statement": "Pilot validated; no complete DLL or in-game replacement claim",
+  "functions": [
+    {
+      "name": "PlayerPool.GetSlotState",
+      "rva": 4272,
+      "size": 26,
+      "features": [
+        "bounds"
+      ],
+      "status": "RAW_EXACT",
+      "sha256": "10ade2e45fb48f6a59ac1959314c150313ee6ac3742659057620f93ea1641c57",
+      "fixups": [],
+      "rebase_exact": true
+    },
+    {
+      "name": "PlayerPool.GetAt",
+      "rva": 4336,
+      "size": 36,
+      "features": [
+        "bounds",
+        "indirection"
+      ],
+      "status": "RAW_EXACT",
+      "sha256": "70b45207bf39e952eb3459a035b7b2e589bbf54e405a2e43abd0de9cd0aaaef3",
+      "fixups": [],
+      "rebase_exact": true
+    },
+    {
+      "name": "LocalPlayer.AreKeysChanged",
+      "rva": 17152,
+      "size": 55,
+      "features": [
+        "branching"
+      ],
+      "status": "RAW_EXACT",
+      "sha256": "761a37e8532c596d713e109b72c4e45703654705cef1e9167d1c540cf1078089",
+      "fixups": [],
+      "rebase_exact": true
+    },
+    {
+      "name": "ActorPool.ctor",
+      "rva": 5824,
+      "size": 41,
+      "features": [
+        "constructor",
+        "loop"
+      ],
+      "status": "RAW_EXACT",
+      "sha256": "a17559c9a1bd2aafc3f55a98f05b10ed1c9c538328b6a0900a50a21778641f53",
+      "fixups": [],
+      "rebase_exact": true
+    },
+    {
+      "name": "ActorPool.UpdateCount",
+      "rva": 5728,
+      "size": 85,
+      "features": [
+        "unrolled-loop"
+      ],
+      "status": "RAW_EXACT",
+      "sha256": "227e4d92e181d8dca4d0eacec1713c6b1fb321b6b80e06d78bb33b3421236ccf",
+      "fixups": [],
+      "rebase_exact": true
+    },
+    {
+      "name": "ActorPool.FindIDFromGtaPtr",
+      "rva": 6320,
+      "size": 39,
+      "features": [
+        "search-loop"
+      ],
+      "status": "RAW_EXACT",
+      "sha256": "3dd0095606a050733f71b86385142bbb32cd6c4b2ac59c46f8e3899c0a1507c7",
+      "fixups": [],
+      "rebase_exact": true
+    },
+    {
+      "name": "ActorPool.DeleteAll",
+      "rva": 6368,
+      "size": 25,
+      "features": [
+        "loop",
+        "external-thiscall"
+      ],
+      "status": "RESOLVED_FUNCTION_EXACT",
+      "sha256": "fcf5123695505f2f37c5f542b6b2e1a9237b70630ae64bb125ab7067108cf7f7",
+      "fixups": [
+        {
+          "offset": 10,
+          "type": "REL32",
+          "symbol": "?Delete@ActorPool@@QAEHG@Z",
+          "target_rva": 5872,
+          "addend": 0
+        }
+      ],
+      "rebase_exact": true
+    },
+    {
+      "name": "StoreLocalCamera",
+      "rva": 640960,
+      "size": 27,
+      "features": [
+        "globals",
+        "indirection"
+      ],
+      "status": "RESOLVED_FUNCTION_EXACT",
+      "sha256": "0f9d3713cbbf1da0484c78f526e1032fa45c3d0051f084e0fb88dc96ebc951c5",
+      "fixups": [
+        {
+          "offset": 1,
+          "type": "DIR32",
+          "symbol": "_cameraZoom",
+          "target_rva": 1063380,
+          "addend": 0
+        },
+        {
+          "offset": 9,
+          "type": "DIR32",
+          "symbol": "_aspectRatio",
+          "target_rva": 1063376,
+          "addend": 0
+        },
+        {
+          "offset": 15,
+          "type": "DIR32",
+          "symbol": "_localZoom",
+          "target_rva": 1327056,
+          "addend": 0
+        },
+        {
+          "offset": 22,
+          "type": "DIR32",
+          "symbol": "_localAspect",
+          "target_rva": 1338248,
+          "addend": 0
+        }
+      ],
+      "rebase_exact": true
+    },
+    {
+      "name": "RestoreLocalCamera",
+      "rva": 640992,
+      "size": 28,
+      "features": [
+        "globals",
+        "x87"
+      ],
+      "status": "RESOLVED_FUNCTION_EXACT",
+      "sha256": "25917d036c5e98f91fe989340b14e51783fd9dc343dd954909eba9d95bcdb465",
+      "fixups": [
+        {
+          "offset": 2,
+          "type": "DIR32",
+          "symbol": "_localZoom",
+          "target_rva": 1327056,
+          "addend": 0
+        },
+        {
+          "offset": 7,
+          "type": "DIR32",
+          "symbol": "_cameraZoom",
+          "target_rva": 1063380,
+          "addend": 0
+        },
+        {
+          "offset": 15,
+          "type": "DIR32",
+          "symbol": "_aspectRatio",
+          "target_rva": 1063376,
+          "addend": 0
+        },
+        {
+          "offset": 21,
+          "type": "DIR32",
+          "symbol": "_localAspect",
+          "target_rva": 1338248,
+          "addend": 0
+        }
+      ],
+      "rebase_exact": true
+    },
+    {
+      "name": "SetPlayerCamera",
+      "rva": 641024,
+      "size": 31,
+      "features": [
+        "indexed-globals"
+      ],
+      "status": "RESOLVED_FUNCTION_EXACT",
+      "sha256": "6dbba1f2a97c5baa191afadb8f4ddd752686a6756890d11021cd241553b979a0",
+      "fixups": [
+        {
+          "offset": 18,
+          "type": "DIR32",
+          "symbol": "_remoteZoom",
+          "target_rva": 1327280,
+          "addend": 0
+        },
+        {
+          "offset": 24,
+          "type": "DIR32",
+          "symbol": "_remoteAspect",
+          "target_rva": 1338296,
+          "addend": 0
+        }
+      ],
+      "rebase_exact": true
+    },
+    {
+      "name": "GetLocalAspect",
+      "rva": 641056,
+      "size": 14,
+      "features": [
+        "x87",
+        "constant"
+      ],
+      "status": "RESOLVED_FUNCTION_EXACT",
+      "sha256": "5e55ccdc6dcf7b524fceb340c8febcfebeacdb0da30e3cd9b7726274bb378f5a",
+      "fixups": [
+        {
+          "offset": 1,
+          "type": "DIR32",
+          "symbol": "_aspectRatio",
+          "target_rva": 1063376,
+          "addend": 0
+        },
+        {
+          "offset": 9,
+          "type": "DIR32",
+          "symbol": "__real@3f800000",
+          "target_rva": 940844,
+          "addend": 0
+        }
+      ],
+      "rebase_exact": true
+    },
+    {
+      "name": "GetLocalZoom",
+      "rva": 641072,
+      "size": 20,
+      "features": [
+        "x87",
+        "reciprocal"
+      ],
+      "status": "RESOLVED_FUNCTION_EXACT",
+      "sha256": "c6288e5c8a911684f23471dce730598ea53abf79957a11c21e1f44ae60802fa8",
+      "fixups": [
+        {
+          "offset": 1,
+          "type": "DIR32",
+          "symbol": "_cameraZoom",
+          "target_rva": 1063380,
+          "addend": 0
+        },
+        {
+          "offset": 9,
+          "type": "DIR32",
+          "symbol": "__real@420c0000",
+          "target_rva": 967428,
+          "addend": 0
+        },
+        {
+          "offset": 15,
+          "type": "DIR32",
+          "symbol": "__real@3cea0ea1",
+          "target_rva": 967424,
+          "addend": 0
+        }
+      ],
+      "rebase_exact": true
+    },
+    {
+      "name": "SetRemoteCamera",
+      "rva": 641104,
+      "size": 57,
+      "features": [
+        "x87",
+        "rounding",
+        "indexed-globals"
+      ],
+      "status": "RESOLVED_FUNCTION_EXACT",
+      "sha256": "bca1cd201fc4e7fa64aee0bb7ced7eb325236768e778d1ae54d92260ab545ac8",
+      "fixups": [
+        {
+          "offset": 7,
+          "type": "DIR32",
+          "symbol": "_cameraZoom",
+          "target_rva": 1063380,
+          "addend": 0
+        },
+        {
+          "offset": 16,
+          "type": "DIR32",
+          "symbol": "_remoteZoom",
+          "target_rva": 1327280,
+          "addend": 0
+        },
+        {
+          "offset": 22,
+          "type": "DIR32",
+          "symbol": "__real@420c0000",
+          "target_rva": 967428,
+          "addend": 0
+        },
+        {
+          "offset": 28,
+          "type": "DIR32",
+          "symbol": "__real@420c0000",
+          "target_rva": 967428,
+          "addend": 0
+        },
+        {
+          "offset": 36,
+          "type": "DIR32",
+          "symbol": "_aspectRatio",
+          "target_rva": 1063376,
+          "addend": 0
+        },
+        {
+          "offset": 42,
+          "type": "DIR32",
+          "symbol": "_remoteAspect",
+          "target_rva": 1338296,
+          "addend": 0
+        },
+        {
+          "offset": 48,
+          "type": "DIR32",
+          "symbol": "__real@3f800000",
+          "target_rva": 940844,
+          "addend": 0
+        }
+      ],
+      "rebase_exact": true
+    },
+    {
+      "name": "Game.SetWeather",
+      "rva": 658240,
+      "size": 29,
+      "features": [
+        "absolute-GTA-stores",
+        "branching"
+      ],
+      "status": "RAW_EXACT",
+      "sha256": "93f07027160ea39840a35bc617ae64a16d047f96503d779c3ab8a597291a68f5",
+      "fixups": [],
+      "rebase_exact": true
+    },
+    {
+      "name": "Game.SetGravity",
+      "rva": 660480,
+      "size": 27,
+      "features": [
+        "external-cdecl-call",
+        "absolute-GTA-store"
+      ],
+      "status": "RESOLVED_FUNCTION_EXACT",
+      "sha256": "a98afda92461649ed433132124ce77edbb8ea487fdde548e124f16413ccdba13",
+      "fixups": [
+        {
+          "offset": 8,
+          "type": "REL32",
+          "symbol": "_Unprotect",
+          "target_rva": 697536,
+          "addend": 0
+        }
+      ],
+      "rebase_exact": true
+    }
+  ],
+  "functions_matched": 15,
+  "unique_code_bytes": 540,
+  "reference_text_bytes": 930756,
+  "reference_sha256": "b72b5dbe725f81864ca3f78bc7063bda56cc05fc7188af822fa7a754432553a2",
+  "independent_builds": [
+    {
+      "run": "baseline",
+      "utc": "2026-09-05T01:14:27.0155998Z",
+      "options": [
+        "/nologo",
+        "/c",
+        "/Ox",
+        "/Og",
+        "/Ob1",
+        "/Oi",
+        "/Ot",
+        "/Oy",
+        "/MT",
+        "/Zp1",
+        "/EHsc",
+        "/Gy"
+      ],
+      "toolchain": [
+        {
+          "name": "cl.exe",
+          "version": "13.10.3077",
+          "sha256": "2ecf86a3edfd3deae498e08298e210e984537ce9e11759930561e43f40bd2515"
+        },
+        {
+          "name": "c1xx.dll",
+          "version": "13.10.3077",
+          "sha256": "353f3d5dcd050b876e1c044b99c4bf47958d255f395a4919f406a19921be4dfa"
+        },
+        {
+          "name": "c2.dll",
+          "version": "13.10.3077",
+          "sha256": "bcd28f39b1798b07989c30a1df471cf87fc20e3802d130901a08f83800e6b81e"
+        },
+        {
+          "name": "link.exe",
+          "version": "7.10.3077",
+          "sha256": "0d5f9712d0da843d787bf4ce4e678abc6b737940996706b2c86101eac9df3e3c"
+        }
+      ],
+      "units": [
+        {
+          "unit": "pools",
+          "source_sha256": "e907cf04543d88bfd5fe30277a02d375fa4a505552d135ddd5240f3680feae0b",
+          "object_sha256": "ca7e7f6641a49a8d97537595ff60435508039d4517a81a08e429564f99af82f0"
+        },
+        {
+          "unit": "actors",
+          "source_sha256": "a4d91bcf45a98db629d5632a9cd9b54195c0ce0425e8e11511c299b5144dd163",
+          "object_sha256": "0268b661e20a359170c13bf1a223686b005d233c8246cb0188f259c934ec0cc3"
+        },
+        {
+          "unit": "camera",
+          "source_sha256": "d3e777c4bb70b5bd09a9775e6a1fd76d44634304c3a86638f6a5e75c3f808c4e",
+          "object_sha256": "3666b85c222ffd7a587edbb5cfe31f7ebc45059ea2f780a471f1871d50b60e5f"
+        },
+        {
+          "unit": "game",
+          "source_sha256": "00aa306b9aefeca31a7d0d6dddbded2afe6f18bf48310395747cb70ccfc3c7bb",
+          "object_sha256": "ceb24c2e2ae85f358cc397b11c8ad7795dd8eb2fd43b1b5ddc4cd3430cc5d2e5"
+        }
+      ]
+    },
+    {
+      "run": "repeat",
+      "utc": "2026-09-05T01:14:28.0199840Z",
+      "options": [
+        "/nologo",
+        "/c",
+        "/Ox",
+        "/Og",
+        "/Ob1",
+        "/Oi",
+        "/Ot",
+        "/Oy",
+        "/MT",
+        "/Zp1",
+        "/EHsc",
+        "/Gy"
+      ],
+      "toolchain": [
+        {
+          "name": "cl.exe",
+          "version": "13.10.3077",
+          "sha256": "2ecf86a3edfd3deae498e08298e210e984537ce9e11759930561e43f40bd2515"
+        },
+        {
+          "name": "c1xx.dll",
+          "version": "13.10.3077",
+          "sha256": "353f3d5dcd050b876e1c044b99c4bf47958d255f395a4919f406a19921be4dfa"
+        },
+        {
+          "name": "c2.dll",
+          "version": "13.10.3077",
+          "sha256": "bcd28f39b1798b07989c30a1df471cf87fc20e3802d130901a08f83800e6b81e"
+        },
+        {
+          "name": "link.exe",
+          "version": "7.10.3077",
+          "sha256": "0d5f9712d0da843d787bf4ce4e678abc6b737940996706b2c86101eac9df3e3c"
+        }
+      ],
+      "units": [
+        {
+          "unit": "pools",
+          "source_sha256": "e907cf04543d88bfd5fe30277a02d375fa4a505552d135ddd5240f3680feae0b",
+          "object_sha256": "79ba33a7f2e9620063d63f8c8601460b6c5ecfaee8069dd56b250f7961c7d16c"
+        },
+        {
+          "unit": "actors",
+          "source_sha256": "a4d91bcf45a98db629d5632a9cd9b54195c0ce0425e8e11511c299b5144dd163",
+          "object_sha256": "d0b2f0d4f37c2f7164306b172a1be8bbe64b511c4253ebd0adcec91d601f5041"
+        },
+        {
+          "unit": "camera",
+          "source_sha256": "d3e777c4bb70b5bd09a9775e6a1fd76d44634304c3a86638f6a5e75c3f808c4e",
+          "object_sha256": "fdc811caaddb8052c7f8409341002e16eebe9cc18eadd6ee7de81b15cd355ad6"
+        },
+        {
+          "unit": "game",
+          "source_sha256": "00aa306b9aefeca31a7d0d6dddbded2afe6f18bf48310395747cb70ccfc3c7bb",
+          "object_sha256": "7b16c6ddd09b7737e9bc304058cadd8653fbce604535468b68a05c75b9cfc3df"
+        }
+      ]
+    }
+  ],
+  "negative_controls": "PASS; see tests/test_verifier.py and build/negative-controls.log",
+  "emulation": {
+    "result": "PASS",
+    "checks": 324,
+    "environment": "Unicorn x86 emulation, not native game runtime",
+    "mocks": [
+      "ActorPool.Delete",
+      "Unprotect"
+    ]
+  },
+  "external_dependencies": [
+    "?Delete@ActorPool@@QAEHG@Z",
+    "_Unprotect"
+  ],
+  "file_hashes": {
+    "src/actors.cpp": "a4d91bcf45a98db629d5632a9cd9b54195c0ce0425e8e11511c299b5144dd163",
+    "src/camera.cpp": "d3e777c4bb70b5bd09a9775e6a1fd76d44634304c3a86638f6a5e75c3f808c4e",
+    "src/game.cpp": "00aa306b9aefeca31a7d0d6dddbded2afe6f18bf48310395747cb70ccfc3c7bb",
+    "src/pools.cpp": "e907cf04543d88bfd5fe30277a02d375fa4a505552d135ddd5240f3680feae0b",
+    "tools/audit_attempts.py": "def70bcab75a2aca7ca8506472d84ed388bc956ea267c268843b47a91a9a4fdc",
+    "tools/binary.py": "bcc80948e506018ba11a9de369575ea89cda067a1c9fe7393f29fcae0c726bfc",
+    "tools/build.ps1": "dc2b3afe6189c36221609280a2a5c603b71228f0d1b758b80e5e7ba60e7894a2",
+    "tools/run.py": "cfc960166de999c7cd919c48dee1dc9679490a6a80cf0ba984edc3d4e81914e8",
+    "tools/verify.py": "f943072c7d90b19d3af48aba2b9deb75cfccb51350e0ec043eed840088ce75c7",
+    "tests/emulate.py": "1f869758e80959c29c9f2364e25c6ff4ed5b485a44b355998bb311f19619f489",
+    "tests/test_verifier.py": "7038e8c145eaa0fb42e0e240928a22c7af1ebcc4ca8d23f6592171b8ce39da03",
+    "config/manifest.json": "848984d1c17efa5ab717e974ba4498ab945ebf070f761c7a2d071472b019a81b",
+    "config/provenance.json": "af761b498edefc8151a374b9522a3b8a4687f87fe97a952a3d6841c7110b168a",
+    "config/toolchain.json": "116d54535bd4f78e2d6195e0ba3776e7a4dd75490a974d3608211b6cab403834"
+  }
+}

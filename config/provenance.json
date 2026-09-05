@@ -1,0 +1,36 @@
+{
+  "reference": {
+    "sha256": "b72b5dbe725f81864ca3f78bc7063bda56cc05fc7188af822fa7a754432553a2",
+    "role": "authoritative machine code and data"
+  },
+  "public_upstream": {
+    "url": "https://github.com/dashr9230/SA-MP",
+    "path": "/Users/salimtrouve/Documents/GitHub/samp-r5-preservation/references/matching-decomp",
+    "commit": "cd3ec8b7ba297ca02402c7f22699dfd5e72e20bd",
+    "files": {
+      "saco/game/aimstuff.cpp": "1f2ef74f530b7538fcc56bdb4690ecb0da7b676a3eb0c10cd972b869a9f68d5e",
+      "saco/net/actorpool.cpp": "099abb2ae3d2833cf07bf33e9ac340b0ae958657af3ee9b31b9b331724c8e49d",
+      "saco/net/playerpool.h": "a5c83fcc728140a44e5e2e72bfdc4e024ceec437d76c237a0babfb6397fb4c7e"
+    }
+  },
+  "legacy_leads": {
+    "path": "/Users/salimtrouve/Documents/GitHub/samp-reversed",
+    "commit": "0da07225962a704b2730cdd90b13583be07fd23c",
+    "files": {
+      "saco/net/playerpool.cpp": "dc4dfa87138e8cadc7103ea88c647e25bb9bfc22e9e22ce7be57bd22e145af17",
+      "saco/net/localplayer.cpp": "58b25b28df4dbf006bfb902787a314d71d1dca1e99bd449cc060b7c8d42a228e",
+      "saco/net/actorpool.cpp": "8d498759a158dffc1d0b87710ae6b8e27ccb29dccfad1cd62cf051f361d3c7bc"
+    }
+  },
+  "initial_probe": {
+    "path": "../samp-r5-byte-audit-20260905/probe.cpp",
+    "sha256": "e907cf04543d88bfd5fe30277a02d375fa4a505552d135ddd5240f3680feae0b"
+  },
+  "reuse": {
+    "pools.cpp": "Pilot layouts and expressions guided by legacy playerpool/localplayer; every complete body checked against R5. Padding is a minimal partial layout, not a complete class definition.",
+    "actors.cpp": "Constructor and iteration forms guided by legacy actorpool; UpdateCount simple C++ loop validated through complete unrolled result.",
+    "camera.cpp": "Adapted public aimstuff semantic expressions to explicit external symbols; split floating operations based on original R5 instruction order.",
+    "game.cpp": "Reconstructed from R5 disassembly; symbolic MASM weather/gravity experiments were supporting leads, not instruction bytes imported into source."
+  },
+  "distribution": "Local research repository. No reference executables included in Git. No project-wide license is assigned to imported/derived material by this pilot."
+}
