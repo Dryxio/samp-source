@@ -970,3 +970,14 @@ Source0.2.5 uses TCHAR/StringCchCopy/strtod, while pinned base already uses WCHA
 Current accepted link cp32-gui-parse-float-linked; Ob1 cp32-gui-parse-float-ob1, Ob2 cp32-ime-ob2; units build/gui-parse-float-units.txt. Generator tools/prepare_gui_parse_float.py; review build/review_gui_parse_float.py; contract/seeds and acceptance/integration gui-parse-float. Previous owner migrations preserved. All processes terminal.
 
 Next concrete app-level lead: client/saco/unkclass4.cpp CUnkClass4::ResetDialogControls creates3 sliders and sets colors; AddSlider now accepted. Compile constructor/reset with existing base headers and check full R5 candidates; GetSlider/SetColor dependencies likely tractable. unkclass3 ResetDialogControls still requires actual ListBox and IME constructors, avoid premature coverage. Resource-manager teardown and remaining EditBox/IME sources still open. Whole DLL incomplete.
+
+
+## App-level three-slider dialog initialization
+
+GUI-slider-panel adds420 unique exact bytes, reaching169,349 /930,756 (18.19478%). CUnkClass4 constructor54 at71660, ResetDialogControls366 at716A0, actual GetControl(ID)46 at87240 and GetControl(ID,type)60 at87270.526 new-region bytes,420 unique after prior overlap. 2031 whole regions, all original/linked targets/PE relocations,10 negative controls and existing actor ABI pass. Eight old pending unchanged; no new import/data/provider gaps. Full setup includes three AddSlider calls and inline GetSlider/SetColor with exact original float constants.
+
+No counterpart located in local0.2.5 by filename or distinctive calls/colors; no direct transfer credit (total1,523 unchanged). Both lookup overloads identical to0.2.5/base. Existing unkclass4.cpp/header unchanged, no fabricated members in unknown gap. Initial link missing typed GetControl, original overloads added in new closure_gui_lookup unit. Only these two new units compiled. Review script now preserves previous explicit single-chunk wcstod proof in addition to usual discontiguous CRT chunks; stale review failures retained, no gate weakening. No GUI/game execution, push/deployment.
+
+Current accepted link cp32-gui-slider-panel-linked2; Ob1 cp32-gui-slider-panel-lookup-ob1, Ob2 cp32-ime-ob2; units build/gui-slider-panel-units.txt. New generator tools/prepare_gui_lookup.py; class uses existing client/saco/unkclass4.cpp. Contract/seeds gui-slider-panel, review build/review_gui_slider_panel.py, acceptance/integration gui-slider-panel. All processes terminal. Prior widget/control/combo owner migrations unchanged.
+
+Next: broader app-level GUI sources now viable; unkclass3 reset still gated by actual ListBox/IME constructors/layout. Evaluate resource-manager teardown/UniBuffer Uninitialize or remaining EditBox Render/MsgProc against R5. Wider0.2.5 missing implementations remain prioritized when available. Whole DLL incomplete.
