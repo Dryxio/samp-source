@@ -1,0 +1,101 @@
+{
+  "status": "COMPILED_CANDIDATES_NOT_ACCEPTED",
+  "accepted_new_bytes": 0,
+  "baseline_run": "cp32-dxut-window-ob1",
+  "reference_comparisons": [
+    {
+      "function": "DXUTCreateWindow",
+      "identical_to_025": true
+    },
+    {
+      "function": "DXUTSetWindow",
+      "identical_to_025": true
+    },
+    {
+      "function": "DXUTCreateDevice",
+      "identical_to_025": true
+    },
+    {
+      "function": "DXUTCreateDeviceFromSettings",
+      "identical_to_025": true
+    },
+    {
+      "function": "DXUTSetDevice",
+      "identical_to_025": true
+    },
+    {
+      "function": "DXUTFindAdapterFormat",
+      "identical_to_025": true
+    },
+    {
+      "function": "DXUTStaticWndProc",
+      "identical_to_025": true
+    },
+    {
+      "function": "DXUTCheckForWindowSizeChange",
+      "identical_to_025": true
+    },
+    {
+      "function": "DXUTCheckForWindowChangingMonitors",
+      "identical_to_025": true
+    },
+    {
+      "function": "DXUTGetAdapterOrdinalFromMonitor",
+      "identical_to_025": true
+    },
+    {
+      "function": "DXUTToggleFullScreen",
+      "identical_to_025": true
+    },
+    {
+      "function": "DXUTToggleREF",
+      "identical_to_025": true
+    }
+  ],
+  "trials": [
+    {
+      "run": "cp32-dxut-window-ob1",
+      "outcome": "VM initially stopped, confirmed prlctl status; started successfully, compilation then completed. Only changed state compiled. Added12 whole window/device functions. Existing original bodies restored to this exact source hash after failed experiments. Link lacked shell32 ExtractIconA; shell32 added to linker, not yet successfully linked/accepted for this batch."
+    },
+    {
+      "run": "cp32-dxut-window-selection-ob1",
+      "outcome": "Moved FindValidDeviceSettings alone to state unit:3 stack mismatches unchanged, finder grew482 to488. Reverted."
+    },
+    {
+      "run": "cp32-dxut-window-family-ob1",
+      "outcome": "Moved complete5-function selection family into state: finder482 restored but3 stack mismatches unchanged. Reverted, original separate settings retained."
+    },
+    {
+      "run": "cp32-dxut-window-scope-ob1",
+      "outcome": "Explicit nested assignment scope around returned settings temporary did not change3 mismatches. Reverted."
+    }
+  ],
+  "mismatches": [
+    {
+      "function": "DXUTCheckForWindowChangingMonitors",
+      "original_size": 353,
+      "compiled_size": 356,
+      "original_stack": 148,
+      "compiled_stack": 208
+    },
+    {
+      "function": "DXUTToggleFullScreen",
+      "original_size": 441,
+      "compiled_size": 444
+    },
+    {
+      "function": "DXUTToggleREF",
+      "original_size": 270,
+      "compiled_size": 273
+    }
+  ],
+  "wndproc": {
+    "rva": 528432,
+    "code_size": 2235,
+    "whole_comdat_size": 2649,
+    "status": "DIAGNOSTIC_ONLY_NOT_ACCEPTED",
+    "observation": "No differences outside COFF fixup operands across full2649 bytes; attached switch table explains discovery inventory-size rejection. Full target and relocation review still required."
+  },
+  "source_sha256": "027235891cb42b05f602a468860d83266180603fccae453cc18a11aef715e3a5",
+  "next_action": "Investigate temporary stack slot reuse against preserved complete framework scan (same Ob1 flags, original source has full matches353/441/270). No reason established yet; do not claim cause solved. Keep one state provider, original separate settings unit. Shell32 library identity still to review. Rebuild only changed units. Complete function/target gating required before any acceptance."
+}
