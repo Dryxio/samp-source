@@ -1,0 +1,2150 @@
+{
+  "status": "EXPERIMENTS_THEN_SEPARATE_ACCEPTANCE",
+  "runs": {
+    "cp32-ime-locale-scan": {
+      "status": "DISCOVERY_ONLY_NOT_ACCEPTED",
+      "run": "cp32-ime-locale-scan",
+      "reference_sha256": "b72b5dbe725f81864ca3f78bc7063bda56cc05fc7188af822fa7a754432553a2",
+      "rows": [
+        {
+          "unit": "eval_ime_locale",
+          "symbol": "?GetPrimaryLanguage@CDXUTIMEEditBox@@KAGXZ",
+          "size": 11,
+          "object_sha256": "a4f85fa21ceb53ccc400ae85447a900d9d515c110b9cf391c78553ef64d0e180",
+          "candidates": [
+            {
+              "rva": 543088,
+              "inferred_targets": {
+                "?s_hklCurrent@CDXUTIMEEditBox@@1PAUHKL__@@A": 269756272
+              }
+            }
+          ]
+        },
+        {
+          "unit": "eval_ime_locale",
+          "symbol": "?GetSubLanguage@CDXUTIMEEditBox@@KAGXZ",
+          "size": 11,
+          "object_sha256": "a4f85fa21ceb53ccc400ae85447a900d9d515c110b9cf391c78553ef64d0e180",
+          "candidates": [
+            {
+              "rva": 543104,
+              "inferred_targets": {
+                "?s_hklCurrent@CDXUTIMEEditBox@@1PAUHKL__@@A": 269756272
+              }
+            }
+          ]
+        },
+        {
+          "unit": "eval_ime_locale",
+          "symbol": "?CheckInputLocale@CDXUTIMEEditBox@@KAXXZ",
+          "size": 248,
+          "object_sha256": "a4f85fa21ceb53ccc400ae85447a900d9d515c110b9cf391c78553ef64d0e180",
+          "candidates": []
+        }
+      ]
+    },
+    "cp32-ime-locale-id-refined-scan": {
+      "status": "DISCOVERY_ONLY_NOT_ACCEPTED",
+      "run": "cp32-ime-locale-id-refined-scan",
+      "reference_sha256": "b72b5dbe725f81864ca3f78bc7063bda56cc05fc7188af822fa7a754432553a2",
+      "rows": [
+        {
+          "unit": "eval_ime_locale",
+          "symbol": "?GetPrimaryLanguage@CDXUTIMEEditBox@@KAGXZ",
+          "size": 11,
+          "object_sha256": "0c4c9a47cd34a64d8cae565dc79e4f18709208a5a2d4dbd8a370cf25b8fea8c9",
+          "candidates": [
+            {
+              "rva": 543088,
+              "inferred_targets": {
+                "?s_hklCurrent@CDXUTIMEEditBox@@1PAUHKL__@@A": 269756272
+              }
+            }
+          ]
+        },
+        {
+          "unit": "eval_ime_locale",
+          "symbol": "?GetSubLanguage@CDXUTIMEEditBox@@KAGXZ",
+          "size": 11,
+          "object_sha256": "0c4c9a47cd34a64d8cae565dc79e4f18709208a5a2d4dbd8a370cf25b8fea8c9",
+          "candidates": [
+            {
+              "rva": 543104,
+              "inferred_targets": {
+                "?s_hklCurrent@CDXUTIMEEditBox@@1PAUHKL__@@A": 269756272
+              }
+            }
+          ]
+        },
+        {
+          "unit": "eval_ime_locale",
+          "symbol": "?CheckInputLocale@CDXUTIMEEditBox@@KAXXZ",
+          "size": 247,
+          "object_sha256": "0c4c9a47cd34a64d8cae565dc79e4f18709208a5a2d4dbd8a370cf25b8fea8c9",
+          "candidates": [
+            {
+              "rva": 548064,
+              "inferred_targets": {
+                "__imp__GetKeyboardLayout@4": 269374148,
+                "?hklPrev@?1??CheckInputLocale@CDXUTIMEEditBox@@KAXXZ@4PAUHKL__@@A": 269761528,
+                "?s_hklCurrent@CDXUTIMEEditBox@@1PAUHKL__@@A": 269756272,
+                "?s_wszCurrIndicator@CDXUTIMEEditBox@@1PAGA": 269495476,
+                "?s_aszIndicator@CDXUTIMEEditBox@@1PAY02GA": 269495444,
+                "?s_bVerticalCand@CDXUTIMEEditBox@@1_NA": 269752353,
+                "?GetImeId@CDXUTIMEEditBox@@KAKI@Z": 268982912,
+                "__imp__GetLocaleInfoW@16": 269373852,
+                "_towlower": 269265829
+              }
+            }
+          ]
+        },
+        {
+          "unit": "eval_ime_id",
+          "symbol": "?GetLanguage@CDXUTIMEEditBox@@KAGXZ",
+          "size": 7,
+          "object_sha256": "9e831b25ae1452c2fc9d68688a2fcf7aa0d89e30551c118e421528d3088a5dd6",
+          "candidates": [
+            {
+              "rva": 207408,
+              "inferred_targets": {
+                "?s_hklCurrent@CDXUTIMEEditBox@@1PAUHKL__@@A": 269585300
+              }
+            },
+            {
+              "rva": 543072,
+              "inferred_targets": {
+                "?s_hklCurrent@CDXUTIMEEditBox@@1PAUHKL__@@A": 269756272
+              }
+            }
+          ]
+        },
+        {
+          "unit": "eval_ime_id",
+          "symbol": "?GetImeId@CDXUTIMEEditBox@@KAKI@Z",
+          "size": 606,
+          "object_sha256": "9e831b25ae1452c2fc9d68688a2fcf7aa0d89e30551c118e421528d3088a5dd6",
+          "candidates": [
+            {
+              "rva": 547456,
+              "inferred_targets": {
+                "?s_hklCurrent@CDXUTIMEEditBox@@1PAUHKL__@@A": 269756272,
+                "?hklPrev@?1??GetImeId@CDXUTIMEEditBox@@KAKI@Z@4PAUHKL__@@A": 269761524,
+                "?dwID@?1??GetImeId@CDXUTIMEEditBox@@KAKI@Z@4PAKA": 269761516,
+                "?_ImmGetIMEFileNameA@CDXUTIMEEditBox@@1P6GIPAUHKL__@@PADI@ZA": 269495400,
+                "?_GetReadingString@CDXUTIMEEditBox@@1P6GIPAUHIMC__@@IPADPAH2PAI@ZA": 269495424,
+                "__imp__CompareStringA@24": 269373856,
+                "??_C@_0N@FFMHCBAD@TINTLGNT?4IME?$AA@": 269398116,
+                "??_C@_0N@JMLDIBIB@CINTLGNT?4IME?$AA@": 269398100,
+                "??_C@_0N@FHDFFBN@MSTCIPHA?4IME?$AA@": 269398084,
+                "??_C@_0N@JFHOELJF@PINTLGNT?4IME?$AA@": 269398068,
+                "??_C@_0N@ONOBNHOE@MSSCIPYA?4IME?$AA@": 269398052,
+                "?_GetFileVersionInfoSizeA@CDXUTIMEEditBox@@1P6GKPADPAK@ZA": 269495440,
+                "__imp__GetProcessHeap@0": 269373860,
+                "__imp__HeapAlloc@12": 269373864,
+                "?_GetFileVersionInfoA@CDXUTIMEEditBox@@1P6GHPADKKPAX@ZA": 269495436,
+                "??_C@_01KICIPPFI@?2?$AA@": 269378408,
+                "?_VerQueryValueA@CDXUTIMEEditBox@@1P6GHQAXPADPAPAXPAI@ZA": 269495432,
+                "__imp__HeapFree@12": 269373868
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "cp32-ime-ob1": {
+      "status": "DISCOVERY_ONLY_NOT_ACCEPTED",
+      "run": "cp32-ime-ob1",
+      "reference_sha256": "b72b5dbe725f81864ca3f78bc7063bda56cc05fc7188af822fa7a754432553a2",
+      "rows": [
+        {
+          "unit": "closure_gui_ime",
+          "symbol": "??2@YAPAXIPAX@Z",
+          "size": 5,
+          "object_sha256": "77e85baf8b6dc7391ae9201adfc2fad26dd53388e7160ac7142733e3ffb60967",
+          "candidates": [
+            {
+              "rva": 491760,
+              "inferred_targets": {}
+            }
+          ]
+        },
+        {
+          "unit": "closure_gui_ime",
+          "symbol": "?StringCopyWorkerW@@YGJPAGIPBG@Z",
+          "size": 92,
+          "object_sha256": "77e85baf8b6dc7391ae9201adfc2fad26dd53388e7160ac7142733e3ffb60967",
+          "candidates": [
+            {
+              "rva": 541984,
+              "inferred_targets": {}
+            }
+          ]
+        },
+        {
+          "unit": "closure_gui_ime",
+          "symbol": "?GetLanguage@CDXUTIMEEditBox@@KAGXZ",
+          "size": 7,
+          "object_sha256": "77e85baf8b6dc7391ae9201adfc2fad26dd53388e7160ac7142733e3ffb60967",
+          "candidates": [
+            {
+              "rva": 207408,
+              "inferred_targets": {
+                "?s_hklCurrent@CDXUTIMEEditBox@@1PAUHKL__@@A": 269585300
+              }
+            },
+            {
+              "rva": 543072,
+              "inferred_targets": {
+                "?s_hklCurrent@CDXUTIMEEditBox@@1PAUHKL__@@A": 269756272
+              }
+            }
+          ]
+        },
+        {
+          "unit": "closure_gui_ime",
+          "symbol": "?GetPrimaryLanguage@CDXUTIMEEditBox@@KAGXZ",
+          "size": 11,
+          "object_sha256": "77e85baf8b6dc7391ae9201adfc2fad26dd53388e7160ac7142733e3ffb60967",
+          "candidates": [
+            {
+              "rva": 543088,
+              "inferred_targets": {
+                "?s_hklCurrent@CDXUTIMEEditBox@@1PAUHKL__@@A": 269756272
+              }
+            }
+          ]
+        },
+        {
+          "unit": "closure_gui_ime",
+          "symbol": "?GetSubLanguage@CDXUTIMEEditBox@@KAGXZ",
+          "size": 11,
+          "object_sha256": "77e85baf8b6dc7391ae9201adfc2fad26dd53388e7160ac7142733e3ffb60967",
+          "candidates": [
+            {
+              "rva": 543104,
+              "inferred_targets": {
+                "?s_hklCurrent@CDXUTIMEEditBox@@1PAUHKL__@@A": 269756272
+              }
+            }
+          ]
+        },
+        {
+          "unit": "closure_gui_ime",
+          "symbol": "?GetMainWindowHwnd@CGame@@QAEPAUHWND__@@XZ",
+          "size": 6,
+          "object_sha256": "77e85baf8b6dc7391ae9201adfc2fad26dd53388e7160ac7142733e3ffb60967",
+          "candidates": [
+            {
+              "rva": 11536,
+              "inferred_targets": {}
+            }
+          ]
+        },
+        {
+          "unit": "closure_gui_ime",
+          "symbol": "?GetImeId@CDXUTIMEEditBox@@KAKI@Z",
+          "size": 606,
+          "object_sha256": "77e85baf8b6dc7391ae9201adfc2fad26dd53388e7160ac7142733e3ffb60967",
+          "candidates": [
+            {
+              "rva": 547456,
+              "inferred_targets": {
+                "?s_hklCurrent@CDXUTIMEEditBox@@1PAUHKL__@@A": 269756272,
+                "?hklPrev@?1??GetImeId@CDXUTIMEEditBox@@KAKI@Z@4PAUHKL__@@A": 269761524,
+                "?dwID@?1??GetImeId@CDXUTIMEEditBox@@KAKI@Z@4PAKA": 269761516,
+                "?_ImmGetIMEFileNameA@CDXUTIMEEditBox@@1P6GIPAUHKL__@@PADI@ZA": 269495400,
+                "?_GetReadingString@CDXUTIMEEditBox@@1P6GIPAUHIMC__@@IPADPAH2PAI@ZA": 269495424,
+                "__imp__CompareStringA@24": 269373856,
+                "??_C@_0N@FFMHCBAD@TINTLGNT?4IME?$AA@": 269398116,
+                "??_C@_0N@JMLDIBIB@CINTLGNT?4IME?$AA@": 269398100,
+                "??_C@_0N@FHDFFBN@MSTCIPHA?4IME?$AA@": 269398084,
+                "??_C@_0N@JFHOELJF@PINTLGNT?4IME?$AA@": 269398068,
+                "??_C@_0N@ONOBNHOE@MSSCIPYA?4IME?$AA@": 269398052,
+                "?_GetFileVersionInfoSizeA@CDXUTIMEEditBox@@1P6GKPADPAK@ZA": 269495440,
+                "__imp__GetProcessHeap@0": 269373860,
+                "__imp__HeapAlloc@12": 269373864,
+                "?_GetFileVersionInfoA@CDXUTIMEEditBox@@1P6GHPADKKPAX@ZA": 269495436,
+                "??_C@_01KICIPPFI@?2?$AA@": 269378408,
+                "?_VerQueryValueA@CDXUTIMEEditBox@@1P6GHQAXPADPAPAXPAI@ZA": 269495432,
+                "__imp__HeapFree@12": 269373868
+              }
+            }
+          ]
+        },
+        {
+          "unit": "closure_gui_ime",
+          "symbol": "?CheckInputLocale@CDXUTIMEEditBox@@KAXXZ",
+          "size": 247,
+          "object_sha256": "77e85baf8b6dc7391ae9201adfc2fad26dd53388e7160ac7142733e3ffb60967",
+          "candidates": [
+            {
+              "rva": 548064,
+              "inferred_targets": {
+                "__imp__GetKeyboardLayout@4": 269374148,
+                "?hklPrev@?1??CheckInputLocale@CDXUTIMEEditBox@@KAXXZ@4PAUHKL__@@A": 269761528,
+                "?s_hklCurrent@CDXUTIMEEditBox@@1PAUHKL__@@A": 269756272,
+                "?s_wszCurrIndicator@CDXUTIMEEditBox@@1PAGA": 269495476,
+                "?s_aszIndicator@CDXUTIMEEditBox@@1PAY02GA": 269495444,
+                "?s_bVerticalCand@CDXUTIMEEditBox@@1_NA": 269752353,
+                "?GetImeId@CDXUTIMEEditBox@@KAKI@Z": 268982912,
+                "__imp__GetLocaleInfoW@16": 269373852,
+                "_towlower": 269265829
+              }
+            }
+          ]
+        },
+        {
+          "unit": "closure_gui_ime",
+          "symbol": "?CheckToggleState@CDXUTIMEEditBox@@KAXXZ",
+          "size": 217,
+          "object_sha256": "77e85baf8b6dc7391ae9201adfc2fad26dd53388e7160ac7142733e3ffb60967",
+          "candidates": [
+            {
+              "rva": 548320,
+              "inferred_targets": {
+                "?CheckInputLocale@CDXUTIMEEditBox@@KAXXZ": 268983520,
+                "?s_hklCurrent@CDXUTIMEEditBox@@1PAUHKL__@@A": 269756272,
+                "?_ImmIsIME@CDXUTIMEEditBox@@1P6GHPAUHKL__@@@ZA": 269495420,
+                "?s_bChineseIME@CDXUTIMEEditBox@@1_NA": 269755689,
+                "?_ImmGetContext@CDXUTIMEEditBox@@1P6GPAUHIMC__@@PAUHWND__@@@ZA": 269495372,
+                "?_ImmGetConversionStatus@CDXUTIMEEditBox@@1P6GHPAUHIMC__@@PAK1@ZA": 269495392,
+                "?s_ImeState@CDXUTIMEEditBox@@1W4IMESTATE@1@A": 269756300,
+                "?_ImmReleaseContext@CDXUTIMEEditBox@@1P6GHPAUHWND__@@PAUHIMC__@@@ZA": 269495376,
+                "?_ImmGetOpenStatus@CDXUTIMEEditBox@@1P6GHPAUHIMC__@@@ZA": 269495384
+              }
+            }
+          ]
+        },
+        {
+          "unit": "closure_gui_ime",
+          "symbol": "?SetupImeApi@CDXUTIMEEditBox@@KAXXZ",
+          "size": 129,
+          "object_sha256": "77e85baf8b6dc7391ae9201adfc2fad26dd53388e7160ac7142733e3ffb60967",
+          "candidates": [
+            {
+              "rva": 548560,
+              "inferred_targets": {
+                "?s_hklCurrent@CDXUTIMEEditBox@@1PAUHKL__@@A": 269756272,
+                "?_GetReadingString@CDXUTIMEEditBox@@1P6GIPAUHIMC__@@IPADPAH2PAI@ZA": 269495424,
+                "?_ShowReadingWindow@CDXUTIMEEditBox@@1P6GHPAUHIMC__@@H@ZA": 269495428,
+                "?_ImmGetIMEFileNameA@CDXUTIMEEditBox@@1P6GIPAUHKL__@@PADI@ZA": 269495400,
+                "?s_hDllIme@CDXUTIMEEditBox@@1PAUHINSTANCE__@@A": 269752356,
+                "__imp__FreeLibrary@4": 269373920,
+                "__imp__LoadLibraryA@4": 269373916,
+                "__imp__GetProcAddress@8": 269373960,
+                "??_C@_0BB@EOIFCLLM@GetReadingString?$AA@": 269398152,
+                "??_C@_0BC@MEELNKEC@ShowReadingWindow?$AA@": 269398132
+              }
+            }
+          ]
+        },
+        {
+          "unit": "closure_gui_ime",
+          "symbol": "?ResetCompositionString@CDXUTIMEEditBox@@KAXXZ",
+          "size": 42,
+          "object_sha256": "77e85baf8b6dc7391ae9201adfc2fad26dd53388e7160ac7142733e3ffb60967",
+          "candidates": [
+            {
+              "rva": 548704,
+              "inferred_targets": {
+                "??_C@_00CNPNBAHC@?$AA@": 269398172,
+                "?s_CompString@CDXUTIMEEditBox@@1VCUniBuffer@@A": 269756316,
+                "?s_nCompCaret@CDXUTIMEEditBox@@1HA": 269752320,
+                "?SetText@CUniBuffer@@QAE_NPBD@Z": 269074208,
+                "?s_abCompStringAttr@CDXUTIMEEditBox@@1PAEA": 269752360
+              }
+            }
+          ]
+        },
+        {
+          "unit": "closure_gui_ime",
+          "symbol": "?GetAt@?$CGrowableArray@UCInputLocale@CDXUTIMEEditBox@@@@QAEAAUCInputLocale@CDXUTIMEEditBox@@H@Z",
+          "size": 17,
+          "object_sha256": "77e85baf8b6dc7391ae9201adfc2fad26dd53388e7160ac7142733e3ffb60967",
+          "candidates": [
+            {
+              "rva": 551024,
+              "inferred_targets": {}
+            }
+          ]
+        },
+        {
+          "unit": "closure_gui_ime",
+          "symbol": "?GetSize@?$CGrowableArray@UCInputLocale@CDXUTIMEEditBox@@@@QBEHXZ",
+          "size": 4,
+          "object_sha256": "77e85baf8b6dc7391ae9201adfc2fad26dd53388e7160ac7142733e3ffb60967",
+          "candidates": [
+            {
+              "rva": 11568,
+              "inferred_targets": {}
+            },
+            {
+              "rva": 48080,
+              "inferred_targets": {}
+            },
+            {
+              "rva": 51392,
+              "inferred_targets": {}
+            },
+            {
+              "rva": 51440,
+              "inferred_targets": {}
+            },
+            {
+              "rva": 51488,
+              "inferred_targets": {}
+            },
+            {
+              "rva": 51552,
+              "inferred_targets": {}
+            },
+            {
+              "rva": 132768,
+              "inferred_targets": {}
+            },
+            {
+              "rva": 133168,
+              "inferred_targets": {}
+            },
+            {
+              "rva": 134336,
+              "inferred_targets": {}
+            },
+            {
+              "rva": 134544,
+              "inferred_targets": {}
+            },
+            {
+              "rva": 135264,
+              "inferred_targets": {}
+            },
+            {
+              "rva": 136736,
+              "inferred_targets": {}
+            },
+            {
+              "rva": 136768,
+              "inferred_targets": {}
+            },
+            {
+              "rva": 138736,
+              "inferred_targets": {}
+            },
+            {
+              "rva": 138928,
+              "inferred_targets": {}
+            },
+            {
+              "rva": 150432,
+              "inferred_targets": {}
+            },
+            {
+              "rva": 154976,
+              "inferred_targets": {}
+            },
+            {
+              "rva": 161168,
+              "inferred_targets": {}
+            },
+            {
+              "rva": 161312,
+              "inferred_targets": {}
+            },
+            {
+              "rva": 161344,
+              "inferred_targets": {}
+            },
+            {
+              "rva": 161632,
+              "inferred_targets": {}
+            },
+            {
+              "rva": 162368,
+              "inferred_targets": {}
+            },
+            {
+              "rva": 163280,
+              "inferred_targets": {}
+            },
+            {
+              "rva": 165792,
+              "inferred_targets": {}
+            },
+            {
+              "rva": 183696,
+              "inferred_targets": {}
+            },
+            {
+              "rva": 185648,
+              "inferred_targets": {}
+            },
+            {
+              "rva": 193744,
+              "inferred_targets": {}
+            },
+            {
+              "rva": 194128,
+              "inferred_targets": {}
+            },
+            {
+              "rva": 201440,
+              "inferred_targets": {}
+            },
+            {
+              "rva": 203360,
+              "inferred_targets": {}
+            },
+            {
+              "rva": 233520,
+              "inferred_targets": {}
+            },
+            {
+              "rva": 233840,
+              "inferred_targets": {}
+            },
+            {
+              "rva": 236176,
+              "inferred_targets": {}
+            },
+            {
+              "rva": 279040,
+              "inferred_targets": {}
+            },
+            {
+              "rva": 279072,
+              "inferred_targets": {}
+            },
+            {
+              "rva": 280320,
+              "inferred_targets": {}
+            },
+            {
+              "rva": 281280,
+              "inferred_targets": {}
+            },
+            {
+              "rva": 281936,
+              "inferred_targets": {}
+            },
+            {
+              "rva": 283296,
+              "inferred_targets": {}
+            },
+            {
+              "rva": 286096,
+              "inferred_targets": {}
+            },
+            {
+              "rva": 286464,
+              "inferred_targets": {}
+            },
+            {
+              "rva": 305120,
+              "inferred_targets": {}
+            },
+            {
+              "rva": 305488,
+              "inferred_targets": {}
+            },
+            {
+              "rva": 305856,
+              "inferred_targets": {}
+            },
+            {
+              "rva": 306256,
+              "inferred_targets": {}
+            },
+            {
+              "rva": 307008,
+              "inferred_targets": {}
+            },
+            {
+              "rva": 307680,
+              "inferred_targets": {}
+            },
+            {
+              "rva": 308000,
+              "inferred_targets": {}
+            },
+            {
+              "rva": 322096,
+              "inferred_targets": {}
+            },
+            {
+              "rva": 322128,
+              "inferred_targets": {}
+            },
+            {
+              "rva": 322880,
+              "inferred_targets": {}
+            },
+            {
+              "rva": 324256,
+              "inferred_targets": {}
+            },
+            {
+              "rva": 325424,
+              "inferred_targets": {}
+            },
+            {
+              "rva": 343328,
+              "inferred_targets": {}
+            },
+            {
+              "rva": 343632,
+              "inferred_targets": {}
+            },
+            {
+              "rva": 346416,
+              "inferred_targets": {}
+            },
+            {
+              "rva": 346816,
+              "inferred_targets": {}
+            },
+            {
+              "rva": 348768,
+              "inferred_targets": {}
+            },
+            {
+              "rva": 350400,
+              "inferred_targets": {}
+            },
+            {
+              "rva": 356720,
+              "inferred_targets": {}
+            },
+            {
+              "rva": 436736,
+              "inferred_targets": {}
+            },
+            {
+              "rva": 452656,
+              "inferred_targets": {}
+            },
+            {
+              "rva": 507536,
+              "inferred_targets": {}
+            },
+            {
+              "rva": 507568,
+              "inferred_targets": {}
+            },
+            {
+              "rva": 507600,
+              "inferred_targets": {}
+            },
+            {
+              "rva": 507632,
+              "inferred_targets": {}
+            },
+            {
+              "rva": 507664,
+              "inferred_targets": {}
+            },
+            {
+              "rva": 507696,
+              "inferred_targets": {}
+            },
+            {
+              "rva": 507792,
+              "inferred_targets": {}
+            },
+            {
+              "rva": 535008,
+              "inferred_targets": {}
+            },
+            {
+              "rva": 550672,
+              "inferred_targets": {}
+            },
+            {
+              "rva": 550720,
+              "inferred_targets": {}
+            },
+            {
+              "rva": 550768,
+              "inferred_targets": {}
+            },
+            {
+              "rva": 550816,
+              "inferred_targets": {}
+            },
+            {
+              "rva": 550864,
+              "inferred_targets": {}
+            },
+            {
+              "rva": 550896,
+              "inferred_targets": {}
+            },
+            {
+              "rva": 550944,
+              "inferred_targets": {}
+            },
+            {
+              "rva": 550992,
+              "inferred_targets": {}
+            },
+            {
+              "rva": 551056,
+              "inferred_targets": {}
+            },
+            {
+              "rva": 614160,
+              "inferred_targets": {}
+            },
+            {
+              "rva": 614192,
+              "inferred_targets": {}
+            },
+            {
+              "rva": 614224,
+              "inferred_targets": {}
+            },
+            {
+              "rva": 614272,
+              "inferred_targets": {}
+            },
+            {
+              "rva": 630928,
+              "inferred_targets": {}
+            },
+            {
+              "rva": 636736,
+              "inferred_targets": {}
+            },
+            {
+              "rva": 756608,
+              "inferred_targets": {}
+            },
+            {
+              "rva": 757808,
+              "inferred_targets": {}
+            },
+            {
+              "rva": 757856,
+              "inferred_targets": {}
+            }
+          ]
+        },
+        {
+          "unit": "closure_gui_ime",
+          "symbol": "?SetSizeInternal@?$CGrowableArray@UCInputLocale@CDXUTIMEEditBox@@@@IAEJH@Z",
+          "size": 143,
+          "object_sha256": "77e85baf8b6dc7391ae9201adfc2fad26dd53388e7160ac7142733e3ffb60967",
+          "candidates": [
+            {
+              "rva": 552320,
+              "inferred_targets": {
+                "_free": 269249085,
+                "_realloc": 269250982
+              }
+            }
+          ]
+        },
+        {
+          "unit": "closure_gui_ime",
+          "symbol": "?StringCchCopyW@@YGJPAGIPBG@Z",
+          "size": 28,
+          "object_sha256": "77e85baf8b6dc7391ae9201adfc2fad26dd53388e7160ac7142733e3ffb60967",
+          "candidates": [
+            {
+              "rva": 508384,
+              "inferred_targets": {
+                "?StringCopyWorkerW@@YGJPAGIPBG@Z": 268927248
+              }
+            },
+            {
+              "rva": 510128,
+              "inferred_targets": {
+                "?StringCopyWorkerW@@YGJPAGIPBG@Z": 268943920
+              }
+            },
+            {
+              "rva": 552464,
+              "inferred_targets": {
+                "?StringCopyWorkerW@@YGJPAGIPBG@Z": 268977440
+              }
+            }
+          ]
+        },
+        {
+          "unit": "closure_gui_ime",
+          "symbol": "?SetSize@?$CGrowableArray@UCInputLocale@CDXUTIMEEditBox@@@@QAEJH@Z",
+          "size": 5,
+          "object_sha256": "77e85baf8b6dc7391ae9201adfc2fad26dd53388e7160ac7142733e3ffb60967",
+          "candidates": [
+            {
+              "rva": 33728,
+              "inferred_targets": {
+                "?SetSizeInternal@?$CGrowableArray@UCInputLocale@CDXUTIMEEditBox@@@@IAEJH@Z": 269250016
+              }
+            },
+            {
+              "rva": 35040,
+              "inferred_targets": {
+                "?SetSizeInternal@?$CGrowableArray@UCInputLocale@CDXUTIMEEditBox@@@@IAEJH@Z": 268625904
+              }
+            },
+            {
+              "rva": 133824,
+              "inferred_targets": {
+                "?SetSizeInternal@?$CGrowableArray@UCInputLocale@CDXUTIMEEditBox@@@@IAEJH@Z": 268646112
+              }
+            },
+            {
+              "rva": 133840,
+              "inferred_targets": {
+                "?SetSizeInternal@?$CGrowableArray@UCInputLocale@CDXUTIMEEditBox@@@@IAEJH@Z": 268646160
+              }
+            },
+            {
+              "rva": 133856,
+              "inferred_targets": {
+                "?SetSizeInternal@?$CGrowableArray@UCInputLocale@CDXUTIMEEditBox@@@@IAEJH@Z": 268646208
+              }
+            },
+            {
+              "rva": 133872,
+              "inferred_targets": {
+                "?SetSizeInternal@?$CGrowableArray@UCInputLocale@CDXUTIMEEditBox@@@@IAEJH@Z": 268646256
+              }
+            },
+            {
+              "rva": 136528,
+              "inferred_targets": {
+                "?SetSizeInternal@?$CGrowableArray@UCInputLocale@CDXUTIMEEditBox@@@@IAEJH@Z": 268570016
+              }
+            },
+            {
+              "rva": 136544,
+              "inferred_targets": {
+                "?SetSizeInternal@?$CGrowableArray@UCInputLocale@CDXUTIMEEditBox@@@@IAEJH@Z": 268570016
+              }
+            },
+            {
+              "rva": 141152,
+              "inferred_targets": {
+                "?SetSizeInternal@?$CGrowableArray@UCInputLocale@CDXUTIMEEditBox@@@@IAEJH@Z": 268573712
+              }
+            },
+            {
+              "rva": 141728,
+              "inferred_targets": {
+                "?SetSizeInternal@?$CGrowableArray@UCInputLocale@CDXUTIMEEditBox@@@@IAEJH@Z": 268574192
+              }
+            },
+            {
+              "rva": 141952,
+              "inferred_targets": {
+                "?SetSizeInternal@?$CGrowableArray@UCInputLocale@CDXUTIMEEditBox@@@@IAEJH@Z": 268574384
+              }
+            },
+            {
+              "rva": 142224,
+              "inferred_targets": {
+                "?SetSizeInternal@?$CGrowableArray@UCInputLocale@CDXUTIMEEditBox@@@@IAEJH@Z": 268575152
+              }
+            },
+            {
+              "rva": 142384,
+              "inferred_targets": {
+                "?SetSizeInternal@?$CGrowableArray@UCInputLocale@CDXUTIMEEditBox@@@@IAEJH@Z": 268575760
+              }
+            },
+            {
+              "rva": 142592,
+              "inferred_targets": {
+                "?SetSizeInternal@?$CGrowableArray@UCInputLocale@CDXUTIMEEditBox@@@@IAEJH@Z": 268577184
+              }
+            },
+            {
+              "rva": 157120,
+              "inferred_targets": {
+                "?SetSizeInternal@?$CGrowableArray@UCInputLocale@CDXUTIMEEditBox@@@@IAEJH@Z": 268592384
+              }
+            },
+            {
+              "rva": 159536,
+              "inferred_targets": {
+                "?SetSizeInternal@?$CGrowableArray@UCInputLocale@CDXUTIMEEditBox@@@@IAEJH@Z": 268594288
+              }
+            },
+            {
+              "rva": 159648,
+              "inferred_targets": {
+                "?SetSizeInternal@?$CGrowableArray@UCInputLocale@CDXUTIMEEditBox@@@@IAEJH@Z": 268594368
+              }
+            },
+            {
+              "rva": 163648,
+              "inferred_targets": {
+                "?SetSizeInternal@?$CGrowableArray@UCInputLocale@CDXUTIMEEditBox@@@@IAEJH@Z": 268596464
+              }
+            },
+            {
+              "rva": 163664,
+              "inferred_targets": {
+                "?SetSizeInternal@?$CGrowableArray@UCInputLocale@CDXUTIMEEditBox@@@@IAEJH@Z": 268596240
+              }
+            },
+            {
+              "rva": 165088,
+              "inferred_targets": {
+                "?SetSizeInternal@?$CGrowableArray@UCInputLocale@CDXUTIMEEditBox@@@@IAEJH@Z": 268596640
+              }
+            },
+            {
+              "rva": 168064,
+              "inferred_targets": {
+                "?SetSizeInternal@?$CGrowableArray@UCInputLocale@CDXUTIMEEditBox@@@@IAEJH@Z": 268600704
+              }
+            },
+            {
+              "rva": 183616,
+              "inferred_targets": {
+                "?SetSizeInternal@?$CGrowableArray@UCInputLocale@CDXUTIMEEditBox@@@@IAEJH@Z": 268618432
+              }
+            },
+            {
+              "rva": 186352,
+              "inferred_targets": {
+                "?SetSizeInternal@?$CGrowableArray@UCInputLocale@CDXUTIMEEditBox@@@@IAEJH@Z": 268621104
+              }
+            },
+            {
+              "rva": 186576,
+              "inferred_targets": {
+                "?SetSizeInternal@?$CGrowableArray@UCInputLocale@CDXUTIMEEditBox@@@@IAEJH@Z": 268621568
+              }
+            },
+            {
+              "rva": 193440,
+              "inferred_targets": {
+                "?SetSizeInternal@?$CGrowableArray@UCInputLocale@CDXUTIMEEditBox@@@@IAEJH@Z": 268599120
+              }
+            },
+            {
+              "rva": 193472,
+              "inferred_targets": {
+                "?SetSizeInternal@?$CGrowableArray@UCInputLocale@CDXUTIMEEditBox@@@@IAEJH@Z": 268599120
+              }
+            },
+            {
+              "rva": 193664,
+              "inferred_targets": {
+                "?SetSizeInternal@?$CGrowableArray@UCInputLocale@CDXUTIMEEditBox@@@@IAEJH@Z": 268628720
+              }
+            },
+            {
+              "rva": 195264,
+              "inferred_targets": {
+                "?SetSizeInternal@?$CGrowableArray@UCInputLocale@CDXUTIMEEditBox@@@@IAEJH@Z": 268629584
+              }
+            },
+            {
+              "rva": 195456,
+              "inferred_targets": {
+                "?SetSizeInternal@?$CGrowableArray@UCInputLocale@CDXUTIMEEditBox@@@@IAEJH@Z": 268630048
+              }
+            },
+            {
+              "rva": 211552,
+              "inferred_targets": {
+                "?SetSizeInternal@?$CGrowableArray@UCInputLocale@CDXUTIMEEditBox@@@@IAEJH@Z": 268647200
+              }
+            },
+            {
+              "rva": 213488,
+              "inferred_targets": {
+                "?SetSizeInternal@?$CGrowableArray@UCInputLocale@CDXUTIMEEditBox@@@@IAEJH@Z": 268699168
+              }
+            },
+            {
+              "rva": 213808,
+              "inferred_targets": {
+                "?SetSizeInternal@?$CGrowableArray@UCInputLocale@CDXUTIMEEditBox@@@@IAEJH@Z": 268666288
+              }
+            },
+            {
+              "rva": 214256,
+              "inferred_targets": {
+                "?SetSizeInternal@?$CGrowableArray@UCInputLocale@CDXUTIMEEditBox@@@@IAEJH@Z": 268667488
+              }
+            },
+            {
+              "rva": 214272,
+              "inferred_targets": {
+                "?SetSizeInternal@?$CGrowableArray@UCInputLocale@CDXUTIMEEditBox@@@@IAEJH@Z": 268676256
+              }
+            },
+            {
+              "rva": 214288,
+              "inferred_targets": {
+                "?SetSizeInternal@?$CGrowableArray@UCInputLocale@CDXUTIMEEditBox@@@@IAEJH@Z": 268666352
+              }
+            },
+            {
+              "rva": 214304,
+              "inferred_targets": {
+                "?SetSizeInternal@?$CGrowableArray@UCInputLocale@CDXUTIMEEditBox@@@@IAEJH@Z": 268666400
+              }
+            },
+            {
+              "rva": 214320,
+              "inferred_targets": {
+                "?SetSizeInternal@?$CGrowableArray@UCInputLocale@CDXUTIMEEditBox@@@@IAEJH@Z": 268666448
+              }
+            },
+            {
+              "rva": 214704,
+              "inferred_targets": {
+                "?SetSizeInternal@?$CGrowableArray@UCInputLocale@CDXUTIMEEditBox@@@@IAEJH@Z": 268667728
+              }
+            },
+            {
+              "rva": 214720,
+              "inferred_targets": {
+                "?SetSizeInternal@?$CGrowableArray@UCInputLocale@CDXUTIMEEditBox@@@@IAEJH@Z": 268667792
+              }
+            },
+            {
+              "rva": 214736,
+              "inferred_targets": {
+                "?SetSizeInternal@?$CGrowableArray@UCInputLocale@CDXUTIMEEditBox@@@@IAEJH@Z": 268676384
+              }
+            },
+            {
+              "rva": 214752,
+              "inferred_targets": {
+                "?SetSizeInternal@?$CGrowableArray@UCInputLocale@CDXUTIMEEditBox@@@@IAEJH@Z": 268676448
+              }
+            },
+            {
+              "rva": 215216,
+              "inferred_targets": {
+                "?SetSizeInternal@?$CGrowableArray@UCInputLocale@CDXUTIMEEditBox@@@@IAEJH@Z": 268676528
+              }
+            },
+            {
+              "rva": 215232,
+              "inferred_targets": {
+                "?SetSizeInternal@?$CGrowableArray@UCInputLocale@CDXUTIMEEditBox@@@@IAEJH@Z": 268667856
+              }
+            },
+            {
+              "rva": 215248,
+              "inferred_targets": {
+                "?SetSizeInternal@?$CGrowableArray@UCInputLocale@CDXUTIMEEditBox@@@@IAEJH@Z": 268667872
+              }
+            },
+            {
+              "rva": 215328,
+              "inferred_targets": {
+                "?SetSizeInternal@?$CGrowableArray@UCInputLocale@CDXUTIMEEditBox@@@@IAEJH@Z": 268666976
+              }
+            },
+            {
+              "rva": 215344,
+              "inferred_targets": {
+                "?SetSizeInternal@?$CGrowableArray@UCInputLocale@CDXUTIMEEditBox@@@@IAEJH@Z": 268667056
+              }
+            },
+            {
+              "rva": 215360,
+              "inferred_targets": {
+                "?SetSizeInternal@?$CGrowableArray@UCInputLocale@CDXUTIMEEditBox@@@@IAEJH@Z": 268667232
+              }
+            },
+            {
+              "rva": 215376,
+              "inferred_targets": {
+                "?SetSizeInternal@?$CGrowableArray@UCInputLocale@CDXUTIMEEditBox@@@@IAEJH@Z": 268675888
+              }
+            },
+            {
+              "rva": 215472,
+              "inferred_targets": {
+                "?SetSizeInternal@?$CGrowableArray@UCInputLocale@CDXUTIMEEditBox@@@@IAEJH@Z": 268668032
+              }
+            },
+            {
+              "rva": 248944,
+              "inferred_targets": {
+                "?SetSizeInternal@?$CGrowableArray@UCInputLocale@CDXUTIMEEditBox@@@@IAEJH@Z": 268677328
+              }
+            },
+            {
+              "rva": 262640,
+              "inferred_targets": {
+                "?SetSizeInternal@?$CGrowableArray@UCInputLocale@CDXUTIMEEditBox@@@@IAEJH@Z": 268687568
+              }
+            },
+            {
+              "rva": 286112,
+              "inferred_targets": {
+                "?SetSizeInternal@?$CGrowableArray@UCInputLocale@CDXUTIMEEditBox@@@@IAEJH@Z": 268721552
+              }
+            },
+            {
+              "rva": 286480,
+              "inferred_targets": {
+                "?SetSizeInternal@?$CGrowableArray@UCInputLocale@CDXUTIMEEditBox@@@@IAEJH@Z": 268717584
+              }
+            },
+            {
+              "rva": 291168,
+              "inferred_targets": {
+                "?SetSizeInternal@?$CGrowableArray@UCInputLocale@CDXUTIMEEditBox@@@@IAEJH@Z": 268722368
+              }
+            },
+            {
+              "rva": 291264,
+              "inferred_targets": {
+                "?SetSizeInternal@?$CGrowableArray@UCInputLocale@CDXUTIMEEditBox@@@@IAEJH@Z": 268722480
+              }
+            },
+            {
+              "rva": 291392,
+              "inferred_targets": {
+                "?SetSizeInternal@?$CGrowableArray@UCInputLocale@CDXUTIMEEditBox@@@@IAEJH@Z": 268723088
+              }
+            },
+            {
+              "rva": 294160,
+              "inferred_targets": {
+                "?SetSizeInternal@?$CGrowableArray@UCInputLocale@CDXUTIMEEditBox@@@@IAEJH@Z": 268726896
+              }
+            },
+            {
+              "rva": 308992,
+              "inferred_targets": {
+                "?SetSizeInternal@?$CGrowableArray@UCInputLocale@CDXUTIMEEditBox@@@@IAEJH@Z": 268743488
+              }
+            },
+            {
+              "rva": 309120,
+              "inferred_targets": {
+                "?SetSizeInternal@?$CGrowableArray@UCInputLocale@CDXUTIMEEditBox@@@@IAEJH@Z": 268743568
+              }
+            },
+            {
+              "rva": 309248,
+              "inferred_targets": {
+                "?SetSizeInternal@?$CGrowableArray@UCInputLocale@CDXUTIMEEditBox@@@@IAEJH@Z": 268743632
+              }
+            },
+            {
+              "rva": 324384,
+              "inferred_targets": {
+                "?SetSizeInternal@?$CGrowableArray@UCInputLocale@CDXUTIMEEditBox@@@@IAEJH@Z": 268569616
+              }
+            },
+            {
+              "rva": 333536,
+              "inferred_targets": {
+                "?SetSizeInternal@?$CGrowableArray@UCInputLocale@CDXUTIMEEditBox@@@@IAEJH@Z": 268768848
+              }
+            },
+            {
+              "rva": 343248,
+              "inferred_targets": {
+                "?SetSizeInternal@?$CGrowableArray@UCInputLocale@CDXUTIMEEditBox@@@@IAEJH@Z": 268778560
+              }
+            },
+            {
+              "rva": 344272,
+              "inferred_targets": {
+                "?SetSizeInternal@?$CGrowableArray@UCInputLocale@CDXUTIMEEditBox@@@@IAEJH@Z": 268779088
+              }
+            },
+            {
+              "rva": 354688,
+              "inferred_targets": {
+                "?SetSizeInternal@?$CGrowableArray@UCInputLocale@CDXUTIMEEditBox@@@@IAEJH@Z": 268588496
+              }
+            },
+            {
+              "rva": 410400,
+              "inferred_targets": {
+                "?SetSizeInternal@?$CGrowableArray@UCInputLocale@CDXUTIMEEditBox@@@@IAEJH@Z": 268845744
+              }
+            },
+            {
+              "rva": 422928,
+              "inferred_targets": {
+                "?SetSizeInternal@?$CGrowableArray@UCInputLocale@CDXUTIMEEditBox@@@@IAEJH@Z": 268857760
+              }
+            },
+            {
+              "rva": 428512,
+              "inferred_targets": {
+                "?SetSizeInternal@?$CGrowableArray@UCInputLocale@CDXUTIMEEditBox@@@@IAEJH@Z": 269237888
+              }
+            },
+            {
+              "rva": 435888,
+              "inferred_targets": {
+                "?SetSizeInternal@?$CGrowableArray@UCInputLocale@CDXUTIMEEditBox@@@@IAEJH@Z": 268871120
+              }
+            },
+            {
+              "rva": 448992,
+              "inferred_targets": {
+                "?SetSizeInternal@?$CGrowableArray@UCInputLocale@CDXUTIMEEditBox@@@@IAEJH@Z": 268883888
+              }
+            },
+            {
+              "rva": 460960,
+              "inferred_targets": {
+                "?SetSizeInternal@?$CGrowableArray@UCInputLocale@CDXUTIMEEditBox@@@@IAEJH@Z": 268896304
+              }
+            },
+            {
+              "rva": 471552,
+              "inferred_targets": {
+                "?SetSizeInternal@?$CGrowableArray@UCInputLocale@CDXUTIMEEditBox@@@@IAEJH@Z": 268905520
+              }
+            },
+            {
+              "rva": 491072,
+              "inferred_targets": {
+                "?SetSizeInternal@?$CGrowableArray@UCInputLocale@CDXUTIMEEditBox@@@@IAEJH@Z": 268921648
+              }
+            },
+            {
+              "rva": 491088,
+              "inferred_targets": {
+                "?SetSizeInternal@?$CGrowableArray@UCInputLocale@CDXUTIMEEditBox@@@@IAEJH@Z": 268925536
+              }
+            },
+            {
+              "rva": 491104,
+              "inferred_targets": {
+                "?SetSizeInternal@?$CGrowableArray@UCInputLocale@CDXUTIMEEditBox@@@@IAEJH@Z": 268920704
+              }
+            },
+            {
+              "rva": 491744,
+              "inferred_targets": {
+                "?SetSizeInternal@?$CGrowableArray@UCInputLocale@CDXUTIMEEditBox@@@@IAEJH@Z": 268926576
+              }
+            },
+            {
+              "rva": 509984,
+              "inferred_targets": {
+                "?SetSizeInternal@?$CGrowableArray@UCInputLocale@CDXUTIMEEditBox@@@@IAEJH@Z": 268943552
+              }
+            },
+            {
+              "rva": 536640,
+              "inferred_targets": {
+                "?SetSizeInternal@?$CGrowableArray@UCInputLocale@CDXUTIMEEditBox@@@@IAEJH@Z": 268970592
+              }
+            },
+            {
+              "rva": 536704,
+              "inferred_targets": {
+                "?SetSizeInternal@?$CGrowableArray@UCInputLocale@CDXUTIMEEditBox@@@@IAEJH@Z": 268970736
+              }
+            },
+            {
+              "rva": 536768,
+              "inferred_targets": {
+                "?SetSizeInternal@?$CGrowableArray@UCInputLocale@CDXUTIMEEditBox@@@@IAEJH@Z": 268970880
+              }
+            },
+            {
+              "rva": 536832,
+              "inferred_targets": {
+                "?SetSizeInternal@?$CGrowableArray@UCInputLocale@CDXUTIMEEditBox@@@@IAEJH@Z": 268971024
+              }
+            },
+            {
+              "rva": 536896,
+              "inferred_targets": {
+                "?SetSizeInternal@?$CGrowableArray@UCInputLocale@CDXUTIMEEditBox@@@@IAEJH@Z": 268971168
+              }
+            },
+            {
+              "rva": 536976,
+              "inferred_targets": {
+                "?SetSizeInternal@?$CGrowableArray@UCInputLocale@CDXUTIMEEditBox@@@@IAEJH@Z": 268971312
+              }
+            },
+            {
+              "rva": 537040,
+              "inferred_targets": {
+                "?SetSizeInternal@?$CGrowableArray@UCInputLocale@CDXUTIMEEditBox@@@@IAEJH@Z": 268971456
+              }
+            },
+            {
+              "rva": 537104,
+              "inferred_targets": {
+                "?SetSizeInternal@?$CGrowableArray@UCInputLocale@CDXUTIMEEditBox@@@@IAEJH@Z": 268971600
+              }
+            },
+            {
+              "rva": 537168,
+              "inferred_targets": {
+                "?SetSizeInternal@?$CGrowableArray@UCInputLocale@CDXUTIMEEditBox@@@@IAEJH@Z": 268971744
+              }
+            },
+            {
+              "rva": 563712,
+              "inferred_targets": {
+                "?SetSizeInternal@?$CGrowableArray@UCInputLocale@CDXUTIMEEditBox@@@@IAEJH@Z": 268986768
+              }
+            },
+            {
+              "rva": 563776,
+              "inferred_targets": {
+                "?SetSizeInternal@?$CGrowableArray@UCInputLocale@CDXUTIMEEditBox@@@@IAEJH@Z": 268986912
+              }
+            },
+            {
+              "rva": 563840,
+              "inferred_targets": {
+                "?SetSizeInternal@?$CGrowableArray@UCInputLocale@CDXUTIMEEditBox@@@@IAEJH@Z": 268987056
+              }
+            },
+            {
+              "rva": 563904,
+              "inferred_targets": {
+                "?SetSizeInternal@?$CGrowableArray@UCInputLocale@CDXUTIMEEditBox@@@@IAEJH@Z": 268987200
+              }
+            },
+            {
+              "rva": 563968,
+              "inferred_targets": {
+                "?SetSizeInternal@?$CGrowableArray@UCInputLocale@CDXUTIMEEditBox@@@@IAEJH@Z": 268987344
+              }
+            },
+            {
+              "rva": 564032,
+              "inferred_targets": {
+                "?SetSizeInternal@?$CGrowableArray@UCInputLocale@CDXUTIMEEditBox@@@@IAEJH@Z": 268987488
+              }
+            },
+            {
+              "rva": 564192,
+              "inferred_targets": {
+                "?SetSizeInternal@?$CGrowableArray@UCInputLocale@CDXUTIMEEditBox@@@@IAEJH@Z": 268987632
+              }
+            },
+            {
+              "rva": 564256,
+              "inferred_targets": {
+                "?SetSizeInternal@?$CGrowableArray@UCInputLocale@CDXUTIMEEditBox@@@@IAEJH@Z": 268987776
+              }
+            },
+            {
+              "rva": 582720,
+              "inferred_targets": {
+                "?SetSizeInternal@?$CGrowableArray@UCInputLocale@CDXUTIMEEditBox@@@@IAEJH@Z": 269017984
+              }
+            },
+            {
+              "rva": 582976,
+              "inferred_targets": {
+                "?SetSizeInternal@?$CGrowableArray@UCInputLocale@CDXUTIMEEditBox@@@@IAEJH@Z": 269017984
+              }
+            },
+            {
+              "rva": 583424,
+              "inferred_targets": {
+                "?SetSizeInternal@?$CGrowableArray@UCInputLocale@CDXUTIMEEditBox@@@@IAEJH@Z": 269017984
+              }
+            },
+            {
+              "rva": 594624,
+              "inferred_targets": {
+                "?SetSizeInternal@?$CGrowableArray@UCInputLocale@CDXUTIMEEditBox@@@@IAEJH@Z": 269017984
+              }
+            },
+            {
+              "rva": 594880,
+              "inferred_targets": {
+                "?SetSizeInternal@?$CGrowableArray@UCInputLocale@CDXUTIMEEditBox@@@@IAEJH@Z": 269017984
+              }
+            },
+            {
+              "rva": 604192,
+              "inferred_targets": {
+                "?SetSizeInternal@?$CGrowableArray@UCInputLocale@CDXUTIMEEditBox@@@@IAEJH@Z": 269039632
+              }
+            },
+            {
+              "rva": 620080,
+              "inferred_targets": {
+                "?SetSizeInternal@?$CGrowableArray@UCInputLocale@CDXUTIMEEditBox@@@@IAEJH@Z": 269050144
+              }
+            },
+            {
+              "rva": 620160,
+              "inferred_targets": {
+                "?SetSizeInternal@?$CGrowableArray@UCInputLocale@CDXUTIMEEditBox@@@@IAEJH@Z": 269050288
+              }
+            },
+            {
+              "rva": 620240,
+              "inferred_targets": {
+                "?SetSizeInternal@?$CGrowableArray@UCInputLocale@CDXUTIMEEditBox@@@@IAEJH@Z": 269050432
+              }
+            },
+            {
+              "rva": 620320,
+              "inferred_targets": {
+                "?SetSizeInternal@?$CGrowableArray@UCInputLocale@CDXUTIMEEditBox@@@@IAEJH@Z": 269050576
+              }
+            },
+            {
+              "rva": 656336,
+              "inferred_targets": {
+                "?SetSizeInternal@?$CGrowableArray@UCInputLocale@CDXUTIMEEditBox@@@@IAEJH@Z": 269172256
+              }
+            },
+            {
+              "rva": 703520,
+              "inferred_targets": {
+                "?SetSizeInternal@?$CGrowableArray@UCInputLocale@CDXUTIMEEditBox@@@@IAEJH@Z": 269076864
+              }
+            },
+            {
+              "rva": 731696,
+              "inferred_targets": {
+                "?SetSizeInternal@?$CGrowableArray@UCInputLocale@CDXUTIMEEditBox@@@@IAEJH@Z": 269165984
+              }
+            },
+            {
+              "rva": 731744,
+              "inferred_targets": {
+                "?SetSizeInternal@?$CGrowableArray@UCInputLocale@CDXUTIMEEditBox@@@@IAEJH@Z": 269165984
+              }
+            },
+            {
+              "rva": 731792,
+              "inferred_targets": {
+                "?SetSizeInternal@?$CGrowableArray@UCInputLocale@CDXUTIMEEditBox@@@@IAEJH@Z": 269165984
+              }
+            },
+            {
+              "rva": 731840,
+              "inferred_targets": {
+                "?SetSizeInternal@?$CGrowableArray@UCInputLocale@CDXUTIMEEditBox@@@@IAEJH@Z": 269165984
+              }
+            },
+            {
+              "rva": 742512,
+              "inferred_targets": {
+                "?SetSizeInternal@?$CGrowableArray@UCInputLocale@CDXUTIMEEditBox@@@@IAEJH@Z": 269177600
+              }
+            },
+            {
+              "rva": 763648,
+              "inferred_targets": {
+                "?SetSizeInternal@?$CGrowableArray@UCInputLocale@CDXUTIMEEditBox@@@@IAEJH@Z": 269198944
+              }
+            },
+            {
+              "rva": 772064,
+              "inferred_targets": {
+                "?SetSizeInternal@?$CGrowableArray@UCInputLocale@CDXUTIMEEditBox@@@@IAEJH@Z": 269249085
+              }
+            },
+            {
+              "rva": 807536,
+              "inferred_targets": {
+                "?SetSizeInternal@?$CGrowableArray@UCInputLocale@CDXUTIMEEditBox@@@@IAEJH@Z": 269242560
+              }
+            },
+            {
+              "rva": 811980,
+              "inferred_targets": {
+                "?SetSizeInternal@?$CGrowableArray@UCInputLocale@CDXUTIMEEditBox@@@@IAEJH@Z": 269247098
+              }
+            },
+            {
+              "rva": 812170,
+              "inferred_targets": {
+                "?SetSizeInternal@?$CGrowableArray@UCInputLocale@CDXUTIMEEditBox@@@@IAEJH@Z": 269249085
+              }
+            },
+            {
+              "rva": 814374,
+              "inferred_targets": {
+                "?SetSizeInternal@?$CGrowableArray@UCInputLocale@CDXUTIMEEditBox@@@@IAEJH@Z": 269249694
+              }
+            },
+            {
+              "rva": 819053,
+              "inferred_targets": {
+                "?SetSizeInternal@?$CGrowableArray@UCInputLocale@CDXUTIMEEditBox@@@@IAEJH@Z": 269254492
+              }
+            },
+            {
+              "rva": 819547,
+              "inferred_targets": {
+                "?SetSizeInternal@?$CGrowableArray@UCInputLocale@CDXUTIMEEditBox@@@@IAEJH@Z": 269254961
+              }
+            },
+            {
+              "rva": 830249,
+              "inferred_targets": {
+                "?SetSizeInternal@?$CGrowableArray@UCInputLocale@CDXUTIMEEditBox@@@@IAEJH@Z": 269247626
+              }
+            }
+          ]
+        },
+        {
+          "unit": "closure_gui_ime",
+          "symbol": "?Add@?$CGrowableArray@UCInputLocale@CDXUTIMEEditBox@@@@QAEJABUCInputLocale@CDXUTIMEEditBox@@@Z",
+          "size": 60,
+          "object_sha256": "77e85baf8b6dc7391ae9201adfc2fad26dd53388e7160ac7142733e3ffb60967",
+          "candidates": [
+            {
+              "rva": 564272,
+              "inferred_targets": {
+                "?SetSizeInternal@?$CGrowableArray@UCInputLocale@CDXUTIMEEditBox@@@@IAEJH@Z": 268987776
+              }
+            }
+          ]
+        },
+        {
+          "unit": "closure_gui_ime",
+          "symbol": "?RemoveAll@?$CGrowableArray@UCInputLocale@CDXUTIMEEditBox@@@@QAEXXZ",
+          "size": 8,
+          "object_sha256": "77e85baf8b6dc7391ae9201adfc2fad26dd53388e7160ac7142733e3ffb60967",
+          "candidates": [
+            {
+              "rva": 54288,
+              "inferred_targets": {
+                "?SetSize@?$CGrowableArray@UCInputLocale@CDXUTIMEEditBox@@@@QAEJH@Z": 268487360
+              }
+            },
+            {
+              "rva": 54304,
+              "inferred_targets": {
+                "?SetSize@?$CGrowableArray@UCInputLocale@CDXUTIMEEditBox@@@@QAEJH@Z": 268487024
+              }
+            },
+            {
+              "rva": 54320,
+              "inferred_targets": {
+                "?SetSize@?$CGrowableArray@UCInputLocale@CDXUTIMEEditBox@@@@QAEJH@Z": 268487136
+              }
+            },
+            {
+              "rva": 54336,
+              "inferred_targets": {
+                "?SetSize@?$CGrowableArray@UCInputLocale@CDXUTIMEEditBox@@@@QAEJH@Z": 268487248
+              }
+            },
+            {
+              "rva": 56176,
+              "inferred_targets": {
+                "?SetSize@?$CGrowableArray@UCInputLocale@CDXUTIMEEditBox@@@@QAEJH@Z": 268487024
+              }
+            },
+            {
+              "rva": 56192,
+              "inferred_targets": {
+                "?SetSize@?$CGrowableArray@UCInputLocale@CDXUTIMEEditBox@@@@QAEJH@Z": 268487136
+              }
+            },
+            {
+              "rva": 56208,
+              "inferred_targets": {
+                "?SetSize@?$CGrowableArray@UCInputLocale@CDXUTIMEEditBox@@@@QAEJH@Z": 268487248
+              }
+            },
+            {
+              "rva": 56224,
+              "inferred_targets": {
+                "?SetSize@?$CGrowableArray@UCInputLocale@CDXUTIMEEditBox@@@@QAEJH@Z": 268487360
+              }
+            },
+            {
+              "rva": 133184,
+              "inferred_targets": {
+                "?SetSize@?$CGrowableArray@UCInputLocale@CDXUTIMEEditBox@@@@QAEJH@Z": 268568240
+              }
+            },
+            {
+              "rva": 138224,
+              "inferred_targets": {
+                "?SetSize@?$CGrowableArray@UCInputLocale@CDXUTIMEEditBox@@@@QAEJH@Z": 268570368
+              }
+            },
+            {
+              "rva": 138480,
+              "inferred_targets": {
+                "?SetSize@?$CGrowableArray@UCInputLocale@CDXUTIMEEditBox@@@@QAEJH@Z": 268571904
+              }
+            },
+            {
+              "rva": 138544,
+              "inferred_targets": {
+                "?SetSize@?$CGrowableArray@UCInputLocale@CDXUTIMEEditBox@@@@QAEJH@Z": 268572064
+              }
+            },
+            {
+              "rva": 138944,
+              "inferred_targets": {
+                "?SetSize@?$CGrowableArray@UCInputLocale@CDXUTIMEEditBox@@@@QAEJH@Z": 268572496
+              }
+            },
+            {
+              "rva": 142000,
+              "inferred_targets": {
+                "?SetSize@?$CGrowableArray@UCInputLocale@CDXUTIMEEditBox@@@@QAEJH@Z": 268574464
+              }
+            },
+            {
+              "rva": 166128,
+              "inferred_targets": {
+                "?SetSize@?$CGrowableArray@UCInputLocale@CDXUTIMEEditBox@@@@QAEJH@Z": 268598752
+              }
+            },
+            {
+              "rva": 185632,
+              "inferred_targets": {
+                "?SetSize@?$CGrowableArray@UCInputLocale@CDXUTIMEEditBox@@@@QAEJH@Z": 268619168
+              }
+            },
+            {
+              "rva": 194112,
+              "inferred_targets": {
+                "?SetSize@?$CGrowableArray@UCInputLocale@CDXUTIMEEditBox@@@@QAEJH@Z": 268629216
+              }
+            },
+            {
+              "rva": 242160,
+              "inferred_targets": {
+                "?SetSize@?$CGrowableArray@UCInputLocale@CDXUTIMEEditBox@@@@QAEJH@Z": 268671648
+              }
+            },
+            {
+              "rva": 286448,
+              "inferred_targets": {
+                "?SetSize@?$CGrowableArray@UCInputLocale@CDXUTIMEEditBox@@@@QAEJH@Z": 268717408
+              }
+            },
+            {
+              "rva": 286608,
+              "inferred_targets": {
+                "?SetSize@?$CGrowableArray@UCInputLocale@CDXUTIMEEditBox@@@@QAEJH@Z": 268717696
+              }
+            },
+            {
+              "rva": 291440,
+              "inferred_targets": {
+                "?SetSize@?$CGrowableArray@UCInputLocale@CDXUTIMEEditBox@@@@QAEJH@Z": 268723152
+              }
+            },
+            {
+              "rva": 307664,
+              "inferred_targets": {
+                "?SetSize@?$CGrowableArray@UCInputLocale@CDXUTIMEEditBox@@@@QAEJH@Z": 268741328
+              }
+            },
+            {
+              "rva": 307984,
+              "inferred_targets": {
+                "?SetSize@?$CGrowableArray@UCInputLocale@CDXUTIMEEditBox@@@@QAEJH@Z": 268741728
+              }
+            },
+            {
+              "rva": 308016,
+              "inferred_targets": {
+                "?SetSize@?$CGrowableArray@UCInputLocale@CDXUTIMEEditBox@@@@QAEJH@Z": 268741808
+              }
+            },
+            {
+              "rva": 308096,
+              "inferred_targets": {
+                "?SetSize@?$CGrowableArray@UCInputLocale@CDXUTIMEEditBox@@@@QAEJH@Z": 268741888
+              }
+            },
+            {
+              "rva": 327328,
+              "inferred_targets": {
+                "?SetSize@?$CGrowableArray@UCInputLocale@CDXUTIMEEditBox@@@@QAEJH@Z": 268761392
+              }
+            },
+            {
+              "rva": 343648,
+              "inferred_targets": {
+                "?SetSize@?$CGrowableArray@UCInputLocale@CDXUTIMEEditBox@@@@QAEJH@Z": 268778816
+              }
+            },
+            {
+              "rva": 346832,
+              "inferred_targets": {
+                "?SetSize@?$CGrowableArray@UCInputLocale@CDXUTIMEEditBox@@@@QAEJH@Z": 268781888
+              }
+            },
+            {
+              "rva": 348800,
+              "inferred_targets": {
+                "?SetSize@?$CGrowableArray@UCInputLocale@CDXUTIMEEditBox@@@@QAEJH@Z": 268570368
+              }
+            },
+            {
+              "rva": 437248,
+              "inferred_targets": {
+                "?SetSize@?$CGrowableArray@UCInputLocale@CDXUTIMEEditBox@@@@QAEJH@Z": 268872208
+              }
+            },
+            {
+              "rva": 438208,
+              "inferred_targets": {
+                "?SetSize@?$CGrowableArray@UCInputLocale@CDXUTIMEEditBox@@@@QAEJH@Z": 268872208
+              }
+            },
+            {
+              "rva": 510656,
+              "inferred_targets": {
+                "?SetSize@?$CGrowableArray@UCInputLocale@CDXUTIMEEditBox@@@@QAEJH@Z": 268945440
+              }
+            },
+            {
+              "rva": 512240,
+              "inferred_targets": {
+                "?SetSize@?$CGrowableArray@UCInputLocale@CDXUTIMEEditBox@@@@QAEJH@Z": 268945440
+              }
+            },
+            {
+              "rva": 537760,
+              "inferred_targets": {
+                "?SetSize@?$CGrowableArray@UCInputLocale@CDXUTIMEEditBox@@@@QAEJH@Z": 268972096
+              }
+            },
+            {
+              "rva": 537776,
+              "inferred_targets": {
+                "?SetSize@?$CGrowableArray@UCInputLocale@CDXUTIMEEditBox@@@@QAEJH@Z": 268972160
+              }
+            },
+            {
+              "rva": 537792,
+              "inferred_targets": {
+                "?SetSize@?$CGrowableArray@UCInputLocale@CDXUTIMEEditBox@@@@QAEJH@Z": 268972224
+              }
+            },
+            {
+              "rva": 537808,
+              "inferred_targets": {
+                "?SetSize@?$CGrowableArray@UCInputLocale@CDXUTIMEEditBox@@@@QAEJH@Z": 268972288
+              }
+            },
+            {
+              "rva": 537824,
+              "inferred_targets": {
+                "?SetSize@?$CGrowableArray@UCInputLocale@CDXUTIMEEditBox@@@@QAEJH@Z": 268972432
+              }
+            },
+            {
+              "rva": 537840,
+              "inferred_targets": {
+                "?SetSize@?$CGrowableArray@UCInputLocale@CDXUTIMEEditBox@@@@QAEJH@Z": 268972496
+              }
+            },
+            {
+              "rva": 537856,
+              "inferred_targets": {
+                "?SetSize@?$CGrowableArray@UCInputLocale@CDXUTIMEEditBox@@@@QAEJH@Z": 268972352
+              }
+            },
+            {
+              "rva": 537872,
+              "inferred_targets": {
+                "?SetSize@?$CGrowableArray@UCInputLocale@CDXUTIMEEditBox@@@@QAEJH@Z": 268972560
+              }
+            },
+            {
+              "rva": 537888,
+              "inferred_targets": {
+                "?SetSize@?$CGrowableArray@UCInputLocale@CDXUTIMEEditBox@@@@QAEJH@Z": 268972624
+              }
+            },
+            {
+              "rva": 538560,
+              "inferred_targets": {
+                "?SetSize@?$CGrowableArray@UCInputLocale@CDXUTIMEEditBox@@@@QAEJH@Z": 268972096
+              }
+            },
+            {
+              "rva": 538576,
+              "inferred_targets": {
+                "?SetSize@?$CGrowableArray@UCInputLocale@CDXUTIMEEditBox@@@@QAEJH@Z": 268972160
+              }
+            },
+            {
+              "rva": 538592,
+              "inferred_targets": {
+                "?SetSize@?$CGrowableArray@UCInputLocale@CDXUTIMEEditBox@@@@QAEJH@Z": 268972224
+              }
+            },
+            {
+              "rva": 538608,
+              "inferred_targets": {
+                "?SetSize@?$CGrowableArray@UCInputLocale@CDXUTIMEEditBox@@@@QAEJH@Z": 268972288
+              }
+            },
+            {
+              "rva": 538624,
+              "inferred_targets": {
+                "?SetSize@?$CGrowableArray@UCInputLocale@CDXUTIMEEditBox@@@@QAEJH@Z": 268972352
+              }
+            },
+            {
+              "rva": 538640,
+              "inferred_targets": {
+                "?SetSize@?$CGrowableArray@UCInputLocale@CDXUTIMEEditBox@@@@QAEJH@Z": 268972432
+              }
+            },
+            {
+              "rva": 538656,
+              "inferred_targets": {
+                "?SetSize@?$CGrowableArray@UCInputLocale@CDXUTIMEEditBox@@@@QAEJH@Z": 268972496
+              }
+            },
+            {
+              "rva": 538672,
+              "inferred_targets": {
+                "?SetSize@?$CGrowableArray@UCInputLocale@CDXUTIMEEditBox@@@@QAEJH@Z": 268972560
+              }
+            },
+            {
+              "rva": 538688,
+              "inferred_targets": {
+                "?SetSize@?$CGrowableArray@UCInputLocale@CDXUTIMEEditBox@@@@QAEJH@Z": 268972624
+              }
+            },
+            {
+              "rva": 574800,
+              "inferred_targets": {
+                "?SetSize@?$CGrowableArray@UCInputLocale@CDXUTIMEEditBox@@@@QAEJH@Z": 268999168
+              }
+            },
+            {
+              "rva": 574816,
+              "inferred_targets": {
+                "?SetSize@?$CGrowableArray@UCInputLocale@CDXUTIMEEditBox@@@@QAEJH@Z": 268999232
+              }
+            },
+            {
+              "rva": 574832,
+              "inferred_targets": {
+                "?SetSize@?$CGrowableArray@UCInputLocale@CDXUTIMEEditBox@@@@QAEJH@Z": 268999296
+              }
+            },
+            {
+              "rva": 574848,
+              "inferred_targets": {
+                "?SetSize@?$CGrowableArray@UCInputLocale@CDXUTIMEEditBox@@@@QAEJH@Z": 268999360
+              }
+            },
+            {
+              "rva": 574864,
+              "inferred_targets": {
+                "?SetSize@?$CGrowableArray@UCInputLocale@CDXUTIMEEditBox@@@@QAEJH@Z": 268999424
+              }
+            },
+            {
+              "rva": 574880,
+              "inferred_targets": {
+                "?SetSize@?$CGrowableArray@UCInputLocale@CDXUTIMEEditBox@@@@QAEJH@Z": 268999488
+              }
+            },
+            {
+              "rva": 574896,
+              "inferred_targets": {
+                "?SetSize@?$CGrowableArray@UCInputLocale@CDXUTIMEEditBox@@@@QAEJH@Z": 268999648
+              }
+            },
+            {
+              "rva": 574912,
+              "inferred_targets": {
+                "?SetSize@?$CGrowableArray@UCInputLocale@CDXUTIMEEditBox@@@@QAEJH@Z": 268999712
+              }
+            },
+            {
+              "rva": 576224,
+              "inferred_targets": {
+                "?SetSize@?$CGrowableArray@UCInputLocale@CDXUTIMEEditBox@@@@QAEJH@Z": 268999168
+              }
+            },
+            {
+              "rva": 576240,
+              "inferred_targets": {
+                "?SetSize@?$CGrowableArray@UCInputLocale@CDXUTIMEEditBox@@@@QAEJH@Z": 268999232
+              }
+            },
+            {
+              "rva": 576256,
+              "inferred_targets": {
+                "?SetSize@?$CGrowableArray@UCInputLocale@CDXUTIMEEditBox@@@@QAEJH@Z": 268999296
+              }
+            },
+            {
+              "rva": 576272,
+              "inferred_targets": {
+                "?SetSize@?$CGrowableArray@UCInputLocale@CDXUTIMEEditBox@@@@QAEJH@Z": 268999360
+              }
+            },
+            {
+              "rva": 576288,
+              "inferred_targets": {
+                "?SetSize@?$CGrowableArray@UCInputLocale@CDXUTIMEEditBox@@@@QAEJH@Z": 268999424
+              }
+            },
+            {
+              "rva": 576304,
+              "inferred_targets": {
+                "?SetSize@?$CGrowableArray@UCInputLocale@CDXUTIMEEditBox@@@@QAEJH@Z": 268999488
+              }
+            },
+            {
+              "rva": 576320,
+              "inferred_targets": {
+                "?SetSize@?$CGrowableArray@UCInputLocale@CDXUTIMEEditBox@@@@QAEJH@Z": 268999648
+              }
+            },
+            {
+              "rva": 576336,
+              "inferred_targets": {
+                "?SetSize@?$CGrowableArray@UCInputLocale@CDXUTIMEEditBox@@@@QAEJH@Z": 268999712
+              }
+            },
+            {
+              "rva": 627712,
+              "inferred_targets": {
+                "?SetSize@?$CGrowableArray@UCInputLocale@CDXUTIMEEditBox@@@@QAEJH@Z": 269055536
+              }
+            },
+            {
+              "rva": 627728,
+              "inferred_targets": {
+                "?SetSize@?$CGrowableArray@UCInputLocale@CDXUTIMEEditBox@@@@QAEJH@Z": 269055616
+              }
+            },
+            {
+              "rva": 627744,
+              "inferred_targets": {
+                "?SetSize@?$CGrowableArray@UCInputLocale@CDXUTIMEEditBox@@@@QAEJH@Z": 269055696
+              }
+            },
+            {
+              "rva": 627760,
+              "inferred_targets": {
+                "?SetSize@?$CGrowableArray@UCInputLocale@CDXUTIMEEditBox@@@@QAEJH@Z": 269055776
+              }
+            },
+            {
+              "rva": 628336,
+              "inferred_targets": {
+                "?SetSize@?$CGrowableArray@UCInputLocale@CDXUTIMEEditBox@@@@QAEJH@Z": 269055536
+              }
+            },
+            {
+              "rva": 628352,
+              "inferred_targets": {
+                "?SetSize@?$CGrowableArray@UCInputLocale@CDXUTIMEEditBox@@@@QAEJH@Z": 269055616
+              }
+            },
+            {
+              "rva": 628368,
+              "inferred_targets": {
+                "?SetSize@?$CGrowableArray@UCInputLocale@CDXUTIMEEditBox@@@@QAEJH@Z": 269055696
+              }
+            },
+            {
+              "rva": 628384,
+              "inferred_targets": {
+                "?SetSize@?$CGrowableArray@UCInputLocale@CDXUTIMEEditBox@@@@QAEJH@Z": 269055776
+              }
+            }
+          ]
+        },
+        {
+          "unit": "closure_gui_ime",
+          "symbol": "?StaticMsgProc@CDXUTIMEEditBox@@SA_NIIJ@Z",
+          "size": 659,
+          "object_sha256": "77e85baf8b6dc7391ae9201adfc2fad26dd53388e7160ac7142733e3ffb60967",
+          "candidates": [
+            {
+              "rva": 575552,
+              "inferred_targets": {
+                "?s_bEnableImeSystem@CDXUTIMEEditBox@@1_NA": 269752352,
+                "?s_hklCurrent@CDXUTIMEEditBox@@1PAUHKL__@@A": 269756272,
+                "?CheckToggleState@CDXUTIMEEditBox@@KAXXZ": 268983776,
+                "?s_bInsertOnType@CDXUTIMEEditBox@@1_NA": 269752325,
+                "?SetupImeApi@CDXUTIMEEditBox@@KAXXZ": 268984016,
+                "?_ShowReadingWindow@CDXUTIMEEditBox@@1P6GHPAUHIMC__@@H@ZA": 269495428,
+                "?_ImmGetContext@CDXUTIMEEditBox@@1P6GPAUHIMC__@@PAUHWND__@@@ZA": 269495372,
+                "?_ImmReleaseContext@CDXUTIMEEditBox@@1P6GHPAUHWND__@@PAUHIMC__@@@ZA": 269495376,
+                "__imp__GetKeyboardLayoutList@8": 269374116,
+                "?s_Locale@CDXUTIMEEditBox@@1V?$CGrowableArray@UCInputLocale@CDXUTIMEEditBox@@@@A": 269756304,
+                "?SetSize@?$CGrowableArray@UCInputLocale@CDXUTIMEEditBox@@@@QAEJH@Z": 268999712,
+                "??_U@YAPAXI@Z": 269247436,
+                "?_ImmIsIME@CDXUTIMEEditBox@@1P6GHPAUHKL__@@@ZA": 269495420,
+                "__imp__GetLocaleInfoW@16": 269373852,
+                "_towlower": 269265829,
+                "?s_aszIndicator@CDXUTIMEEditBox@@1PAY02GA": 269495444,
+                "?StringCopyWorkerW@@YGJPAGIPBG@Z": 268977440,
+                "?Add@?$CGrowableArray@UCInputLocale@CDXUTIMEEditBox@@@@QAEJABUCInputLocale@CDXUTIMEEditBox@@@Z": 268999728,
+                "??_V@YAXPAX@Z": 269265705,
+                "?ResetCompositionString@CDXUTIMEEditBox@@KAXXZ": 268984160,
+                "?s_bHideCaret@CDXUTEditBox@@1_NA": 269752324
+              }
+            }
+          ]
+        },
+        {
+          "unit": "closure_gui_unibuffer_lifetime",
+          "symbol": "?StringCopyWorkerA@@YGJPADIPBD@Z",
+          "size": 77,
+          "object_sha256": "340e33d79ab220097ec5ceaf7e383630b59fe26f2f7c63da2996bd2391efaff5",
+          "candidates": [
+            {
+              "rva": 491792,
+              "inferred_targets": {}
+            }
+          ]
+        },
+        {
+          "unit": "closure_gui_unibuffer_lifetime",
+          "symbol": "?StringLengthWorkerA@@YGJPBDIPAI@Z",
+          "size": 64,
+          "object_sha256": "340e33d79ab220097ec5ceaf7e383630b59fe26f2f7c63da2996bd2391efaff5",
+          "candidates": [
+            {
+              "rva": 491968,
+              "inferred_targets": {}
+            }
+          ]
+        },
+        {
+          "unit": "closure_gui_unibuffer_lifetime",
+          "symbol": "??1CUniBuffer@@QAE@XZ",
+          "size": 33,
+          "object_sha256": "340e33d79ab220097ec5ceaf7e383630b59fe26f2f7c63da2996bd2391efaff5",
+          "candidates": [
+            {
+              "rva": 637376,
+              "inferred_targets": {
+                "??_V@YAXPAX@Z": 269265705,
+                "?_ScriptStringFree@CUniBuffer@@0P6GJPAPAX@ZA": 269495332
+              }
+            }
+          ]
+        },
+        {
+          "unit": "closure_gui_unibuffer_lifetime",
+          "symbol": "?StringCatWorkerA@@YGJPADIPBD@Z",
+          "size": 84,
+          "object_sha256": "340e33d79ab220097ec5ceaf7e383630b59fe26f2f7c63da2996bd2391efaff5",
+          "candidates": [
+            {
+              "rva": 508464,
+              "inferred_targets": {
+                "?StringCopyWorkerA@@YGJPADIPBD@Z": 268927248
+              }
+            }
+          ]
+        },
+        {
+          "unit": "closure_gui_unibuffer_lifetime",
+          "symbol": "?StringCchCatA@@YGJPADIPBD@Z",
+          "size": 28,
+          "object_sha256": "340e33d79ab220097ec5ceaf7e383630b59fe26f2f7c63da2996bd2391efaff5",
+          "candidates": [
+            {
+              "rva": 508384,
+              "inferred_targets": {
+                "?StringCatWorkerA@@YGJPADIPBD@Z": 268927248
+              }
+            },
+            {
+              "rva": 510128,
+              "inferred_targets": {
+                "?StringCatWorkerA@@YGJPADIPBD@Z": 268943920
+              }
+            },
+            {
+              "rva": 552464,
+              "inferred_targets": {
+                "?StringCatWorkerA@@YGJPADIPBD@Z": 268977440
+              }
+            }
+          ]
+        },
+        {
+          "unit": "closure_gui_unibuffer_lifetime",
+          "symbol": "?Initialize@CUniBuffer@@SAXXZ",
+          "size": 333,
+          "object_sha256": "340e33d79ab220097ec5ceaf7e383630b59fe26f2f7c63da2996bd2391efaff5",
+          "candidates": [
+            {
+              "rva": 638944,
+              "inferred_targets": {
+                "?s_hDll@CUniBuffer@@0PAUHINSTANCE__@@A": 269756296,
+                "__imp__GetSystemDirectoryA@8": 269373896,
+                "__imp__lstrlenA@4": 269373940,
+                "??_C@_0L@NLJMGPDJ@?2usp10?4dll?$AA@": 269402700,
+                "?StringCopyWorkerA@@YGJPADIPBD@Z": 268927248,
+                "__imp__LoadLibraryA@4": 269373916,
+                "__imp__GetProcAddress@8": 269373960,
+                "??_C@_0BN@GIMDAPPD@ScriptApplyDigitSubstitution?$AA@": 269402668,
+                "?_ScriptApplyDigitSubstitution@CUniBuffer@@0P6GJPBUtag_SCRIPT_DIGITSUBSTITUTE@@PAUtag_SCRIPT_CONTROL@@PAUtag_SCRIPT_STATE@@@ZA": 269495316,
+                "??_C@_0BE@DPDJMHJ@ScriptStringAnalyse?$AA@": 269402648,
+                "?_ScriptStringAnalyse@CUniBuffer@@0P6GJPAUHDC__@@PBXHHHKHPAUtag_SCRIPT_CONTROL@@PAUtag_SCRIPT_STATE@@PBHPAUtag_SCRIPT_TABDEF@@PBEPAPAX@ZA": 269495320,
+                "??_C@_0BC@NCOCHMDF@ScriptStringCPtoX?$AA@": 269402628,
+                "?_ScriptStringCPtoX@CUniBuffer@@0P6GJPAXHHPAH@ZA": 269495324,
+                "??_C@_0BC@PBCEOCLL@ScriptStringXtoCP?$AA@": 269402608,
+                "?_ScriptStringXtoCP@CUniBuffer@@0P6GJPAXHPAH1@ZA": 269495328,
+                "??_C@_0BB@KPJJNIOI@ScriptStringFree?$AA@": 269402588,
+                "?_ScriptStringFree@CUniBuffer@@0P6GJPAPAX@ZA": 269495332,
+                "??_C@_0BG@ENNDDIIO@ScriptString_pLogAttr?$AA@": 269402564,
+                "?_ScriptString_pLogAttr@CUniBuffer@@0P6GPBUtag_SCRIPT_LOGATTR@@PAX@ZA": 269495336,
+                "??_C@_0BI@NIMEAFDJ@ScriptString_pcOutChars?$AA@": 269402540,
+                "?_ScriptString_pcOutChars@CUniBuffer@@0P6GPBHPAX@ZA": 269495340
+              }
+            }
+          ]
+        },
+        {
+          "unit": "closure_gui_unibuffer_lifetime",
+          "symbol": "??0CUniBuffer@@QAE@H@Z",
+          "size": 53,
+          "object_sha256": "340e33d79ab220097ec5ceaf7e383630b59fe26f2f7c63da2996bd2391efaff5",
+          "candidates": [
+            {
+              "rva": 639280,
+              "inferred_targets": {
+                "?Initialize@CUniBuffer@@SAXXZ": 269074400,
+                "?SetBufferSize@CUniBuffer@@QAE_NH@Z": 269072320
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "failed_compile": {
+    "run": "cp32-ime-id-scan",
+    "reason": "LCID_INVARIANT missing from isolated extraction; restored original source macro."
+  },
+  "rejected_linked_candidate": {
+    "run": "cp32-ime-linked",
+    "reason": "ResetCompositionString had full instruction shape but selected ANSI CUniBuffer::SetText; original target is the wide overload9BF20. Draft closure rejected conflicting original placement for ANSI provider9BF80.",
+    "adaptation": "SetText(L\"\") with complete two-byte Unicode literal."
+  },
+  "accepted_run": "cp32-ime-wide-reset-linked",
+  "accepted_proof": "ime-acceptance.json",
+  "new_unique_bytes": 2715,
+  "source_credit": "No new direct0.2.5 credit. Missing MsgProc was identified with that reference, but R5 dispatch is reconstructed; other methods derive from pinned DXUT."
+}

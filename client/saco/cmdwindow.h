@@ -40,6 +40,7 @@ public:
 
 	void ProcessInput();
 	void SendToServer(char *szServerCommand);
+	int MsgProc(UINT uMsg, DWORD wParam, DWORD lParam);
 	void AddToRecallBuffer(char *szCmdInput);
 	void RecallUp();
 	void RecallDown();

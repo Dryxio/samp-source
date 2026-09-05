@@ -297,3 +297,11 @@ void CCmdWindow::SendToServer(char* szServerCommand)
 	pNetGame->GetRakClient()->RPC(RPC_ServerCommand, &bsParams, HIGH_PRIORITY, RELIABLE, 0, FALSE);
 
 }
+
+int CCmdWindow::MsgProc(UINT uMsg, DWORD wParam, DWORD lParam)
+{
+	if(m_bEnabled && m_pEditControl) {
+		if(CDXUTIMEEditBox::StaticMsgProc(uMsg,wParam,lParam)) return 1;
+	}
+	return 0;
+}

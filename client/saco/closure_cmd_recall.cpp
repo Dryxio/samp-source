@@ -236,3 +236,11 @@ void CCmdWindow::Enable()
     }
     m_bEnabled = TRUE;
 }
+
+int CCmdWindow::MsgProc(UINT uMsg, DWORD wParam, DWORD lParam)
+{
+	if(m_bEnabled && m_pEditControl) {
+		if(CDXUTIMEEditBox::StaticMsgProc(uMsg,wParam,lParam)) return 1;
+	}
+	return 0;
+}
