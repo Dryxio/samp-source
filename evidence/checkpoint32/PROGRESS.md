@@ -366,3 +366,11 @@ HTTP acceptance adds 1,316 unique bytes (eight HTTP methods, 940 bytes; three st
 Five vendor six-byte Winsock import relays are now explicitly verified at original and linked addresses, including complete FF25 instructions, PE relocations, DLL/ordinal and pinned wsock32.lib/MAP provider. They are excluded from source coverage. All complete byte comparisons, nine mutation controls and existing ABI checks pass. One changed source unit compiled; other units reused. No network calls. Process is a new explicitly excluded dependency (448 source versus 473 original bytes); Connect/HandleEntity remain unselected.
 
 Current accepted link cp32-http-linked; Ob1 cp32-http-ob1, Ob2 cp32-object-pickup-ob2; seeds/contract http. Next experiment cp32-http-inline-scan tests inline CloseConnection/Send/Recv: R5 Process visibly embeds Send while our initial source called it. Preserve the accepted source until those full-function results are known.
+
+## Complete HTTP method family
+
+HTTP-complete acceptance adds 1,453 exact bytes: HandleEntity 788, Connect 192 and Process 473. Union: 53,593 / 930,756 (5.75801%). All 11 HTTP source methods now match, together with their complete strings and source utility dependencies. Source changes are limited to inline annotations on CloseConnection, Send and Recv. The original user-agent string SAMP/0.2.0, parser behavior, cleanup behavior and 500000-byte content-length limit are preserved.
+
+Four further Winsock relays bind gethostbyname/htons/socket/connect to their original DLL/ordinal identities and pinned import library. realloc's complete two-chunk boundary is verified. Vendor code remains outside coverage. Full comparisons, all targets, nine negative controls and existing ABI exercise pass; no live networking. The HTTP Process pending entry is removed; seven older pending regions remain. Direct 0.2.5 transfer contribution remains 690 bytes because these algorithms were already in our R5 base.
+
+Current accepted link cp32-http-complete-linked, Ob1 cp32-http-complete-ob1, Ob2 cp32-object-pickup-ob2, seeds/contract http-complete. This continuation adds 2,769 unique code bytes across the two HTTP/string batches. Next: scan font/render overlays and statistics families for additional complete methods and transferable 0.2.5 implementations.

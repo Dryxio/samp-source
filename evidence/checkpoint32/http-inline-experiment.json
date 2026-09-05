@@ -1,0 +1,205 @@
+{
+  "status": "DISCOVERY_ONLY_NOT_ACCEPTED",
+  "run": "cp32-http-inline-scan",
+  "reference_sha256": "b72b5dbe725f81864ca3f78bc7063bda56cc05fc7188af822fa7a754432553a2",
+  "rows": [
+    {
+      "unit": "eval_http_inline",
+      "symbol": "??0CHttpClient@@QAE@XZ",
+      "size": 88,
+      "object_sha256": "cc815d0f703383334099ea6ac50d0965bf1e8fb9bcdb4b61996df921cd9cf466",
+      "candidates": [
+        {
+          "rva": 8928,
+          "inferred_targets": {
+            "_WSAStartup@8": 269246822
+          }
+        }
+      ]
+    },
+    {
+      "unit": "eval_http_inline",
+      "symbol": "??1CHttpClient@@QAE@XZ",
+      "size": 111,
+      "object_sha256": "cc815d0f703383334099ea6ac50d0965bf1e8fb9bcdb4b61996df921cd9cf466",
+      "candidates": [
+        {
+          "rva": 9024,
+          "inferred_targets": {
+            "_free": 269249085,
+            "_WSACleanup@0": 269246828
+          }
+        }
+      ]
+    },
+    {
+      "unit": "eval_http_inline",
+      "symbol": "?GetHeaderValue@CHttpClient@@QAE_NPAD0H@Z",
+      "size": 134,
+      "object_sha256": "cc815d0f703383334099ea6ac50d0965bf1e8fb9bcdb4b61996df921cd9cf466",
+      "candidates": [
+        {
+          "rva": 9136,
+          "inferred_targets": {
+            "?Util_stristr@@YAPADPBD0@Z": 268531824,
+            "_strchr": 269249504
+          }
+        }
+      ]
+    },
+    {
+      "unit": "eval_http_inline",
+      "symbol": "?CloseConnection@CHttpClient@@AAEXXZ",
+      "size": 9,
+      "object_sha256": "cc815d0f703383334099ea6ac50d0965bf1e8fb9bcdb4b61996df921cd9cf466",
+      "candidates": [
+        {
+          "rva": 9280,
+          "inferred_targets": {
+            "_closesocket@4": 269246834
+          }
+        },
+        {
+          "rva": 415904,
+          "inferred_targets": {
+            "_closesocket@4": 268851072
+          }
+        }
+      ]
+    },
+    {
+      "unit": "eval_http_inline",
+      "symbol": "?Send@CHttpClient@@AAE_NPAD@Z",
+      "size": 62,
+      "object_sha256": "cc815d0f703383334099ea6ac50d0965bf1e8fb9bcdb4b61996df921cd9cf466",
+      "candidates": [
+        {
+          "rva": 9296,
+          "inferred_targets": {
+            "_send@16": 269246840
+          }
+        }
+      ]
+    },
+    {
+      "unit": "eval_http_inline",
+      "symbol": "?Recv@CHttpClient@@AAEHPADH@Z",
+      "size": 23,
+      "object_sha256": "cc815d0f703383334099ea6ac50d0965bf1e8fb9bcdb4b61996df921cd9cf466",
+      "candidates": [
+        {
+          "rva": 9360,
+          "inferred_targets": {
+            "_recv@16": 269246846
+          }
+        }
+      ]
+    },
+    {
+      "unit": "eval_http_inline",
+      "symbol": "?InitRequest@CHttpClient@@AAEXHPAD00@Z",
+      "size": 453,
+      "object_sha256": "cc815d0f703383334099ea6ac50d0965bf1e8fb9bcdb4b61996df921cd9cf466",
+      "candidates": [
+        {
+          "rva": 9392,
+          "inferred_targets": {
+            "_malloc": 269249468,
+            "_strchr": 269249504,
+            "??_C@_01KMDKNFGN@?1?$AA@": 269375012,
+            "_atoi": 269249830,
+            "_free": 269249085
+          }
+        }
+      ]
+    },
+    {
+      "unit": "eval_http_inline",
+      "symbol": "?HandleEntity@CHttpClient@@AAEXXZ",
+      "size": 788,
+      "object_sha256": "cc815d0f703383334099ea6ac50d0965bf1e8fb9bcdb4b61996df921cd9cf466",
+      "candidates": [
+        {
+          "rva": 9856,
+          "inferred_targets": {
+            "_malloc": 269249468,
+            "_recv@16": 269246846,
+            "_realloc": 269250982,
+            "??_C@_04FMMHFHOO@?$AN?6?$AN?6?$AA@": 269375076,
+            "_strstr": 269250848,
+            "??_C@_02PHMGELLB@?6?6?$AA@": 269375072,
+            "_memmove": 269250016,
+            "??_C@_0BA@IOOAPING@CONTENT?9LENGTH?3?$AA@": 269375056,
+            "?Util_stristr@@YAPADPBD0@Z": 268531824,
+            "_atoi": 269249830,
+            "_free": 269249085,
+            "_closesocket@4": 269246834,
+            "??_C@_0O@LDHIBCHO@CONTENT?9TYPE?3?$AA@": 269375040,
+            "?GetHeaderValue@CHttpClient@@QAE_NPAD0H@Z": 268444592,
+            "??_C@_09KABDMIOB@text?1html?$AA@": 269375028,
+            "??_C@_0L@NPNLKGOJ@text?1plain?$AA@": 269375016
+          }
+        }
+      ]
+    },
+    {
+      "unit": "eval_http_inline",
+      "symbol": "?Connect@CHttpClient@@AAE_NPADH@Z",
+      "size": 192,
+      "object_sha256": "cc815d0f703383334099ea6ac50d0965bf1e8fb9bcdb4b61996df921cd9cf466",
+      "candidates": [
+        {
+          "rva": 10656,
+          "inferred_targets": {
+            "_gethostbyname@4": 269246870,
+            "_htons@4": 269246864,
+            "_socket@12": 269246858,
+            "_connect@12": 269246852,
+            "_closesocket@4": 269246834
+          }
+        }
+      ]
+    },
+    {
+      "unit": "eval_http_inline",
+      "symbol": "?Process@CHttpClient@@AAEXXZ",
+      "size": 473,
+      "object_sha256": "cc815d0f703383334099ea6ac50d0965bf1e8fb9bcdb4b61996df921cd9cf466",
+      "candidates": [
+        {
+          "rva": 10848,
+          "inferred_targets": {
+            "?Connect@CHttpClient@@AAE_NPADH@Z": 268446112,
+            "_malloc": 269249468,
+            "??_C@_0L@IKGODMLA@SAMP?10?42?40?$AA@": 269375400,
+            "??_C@_0FA@NENJLDAP@HEAD?5?$CFs?5HTTP?11?40?$AN?6Accept?3?5?$CK?1?$CK?$AN?6U@": 269375320,
+            "_sprintf": 269251411,
+            "??_C@_0JH@BNIDHCGB@POST?5?$CFs?5HTTP?11?40?$AN?6Accept?3?5?$CK?1?$CK?$AN?6U@": 269375168,
+            "??_C@_0EP@DCALGLGB@GET?5?$CFs?5HTTP?11?40?$AN?6Accept?3?5?$CK?1?$CK?$AN?6Us@": 269375088,
+            "_send@16": 269246840,
+            "_free": 269249085,
+            "?HandleEntity@CHttpClient@@AAEXXZ": 268445312
+          }
+        }
+      ]
+    },
+    {
+      "unit": "eval_http_inline",
+      "symbol": "?ProcessURL@CHttpClient@@QAEHHPAD00@Z",
+      "size": 60,
+      "object_sha256": "cc815d0f703383334099ea6ac50d0965bf1e8fb9bcdb4b61996df921cd9cf466",
+      "candidates": [
+        {
+          "rva": 11328,
+          "inferred_targets": {
+            "??_C@_0BM@KDLOJGLP@CHttpClient?3?3ProcessURL?5?$CFs?6?$AA@": 269375412,
+            "_printf": 269251548,
+            "?InitRequest@CHttpClient@@AAEXHPAD00@Z": 268444848,
+            "?Process@CHttpClient@@AAEXXZ": 268446304
+          }
+        }
+      ]
+    }
+  ],
+  "adaptation": "Mark CloseConnection, Send and Recv inline. All11 HTTP methods have full matches; CloseConnection at2440 is independently bound by the actual HTTP relocation graph. Actual source integration certified separately by http-complete-acceptance.json."
+}
