@@ -387,16 +387,4 @@ int CGame::GetWeaponModelIDFromWeapon(int iWeaponID)
 	return GameGetWeaponModelIDFromWeaponID(iWeaponID);
 }
 
-DWORD CGame::CreateWeaponPickup(int iModel, DWORD dwAmmo, float fX, float fY, float fZ)
-{
-	DWORD hnd;
 
-	if(!IsModelLoaded(iModel)) {
-		RequestModel(iModel);
-		LoadRequestedModels();
-		while(!IsModelLoaded(iModel)) Sleep(5);
-	}
-
-	ScriptCommand(&create_pickup_with_ammo, iModel, 4, dwAmmo, fX, fY, fZ, &hnd);
-	return hnd;
-}

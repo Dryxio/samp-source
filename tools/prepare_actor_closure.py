@@ -9,7 +9,7 @@ UNITS={
  'closure_chat':('chatwindow.cpp',['PushBack','AddDebugMessage','AddEntry','Log'],'CChatWindow'),
  'closure_util':('game/util.cpp',['WorldAddEntity','WorldRemoveEntity','GamePool_Ped_GetAt','DegToRad'],None),
  'closure_filter':('exceptions.cpp',['exc_filter'],None),
- 'closure_models':('game/game.cpp',['RequestModel','LoadRequestedModels','IsModelLoaded','SetWorldTime','RequestAnimation','IsAnimationLoaded','CreateWeaponPickup'],'CGame')}
+ 'closure_models':('game/game.cpp',['RequestModel','LoadRequestedModels','IsModelLoaded','SetWorldTime','RequestAnimation','IsAnimationLoaded'],'CGame')}
 
 
 def prepare():
