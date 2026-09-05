@@ -959,3 +959,14 @@ IMPORTANT ownership: closure_gui_widget_lifetime now owns full original ComboBox
 Current accepted link cp32-gui-combo-lifetime-linked3; Ob1 cp32-gui-combo-lifetime-preserve2-ob1, Ob2 cp32-ime-ob2. Full units build/gui-combo-lifetime-units.txt. Review build/review_gui_combo_lifetime.py; contract/seeds and acceptance/integration gui-combo-lifetime. All processes terminal. No GUI/game execution, push/deployment.
 
 Next: complete GUI control families now broadly available; prioritize app-level dialog initialization or resource manager destruction/UniBuffer Uninitialize and remaining EditBox/IME matching. ListBox allocations still need unknown layout, no speculation. Broader missing0.2.5 implementations remain candidates where they add actual information. Whole DLL incomplete.
+
+
+## Complete wide edit-buffer numeric parser
+
+GUI-parse-float adds171 unique exact bytes, reaching168,929 /930,756 (18.14965%). Entire ParseFloatArray171 at89580 matches with existing StringCopyWorkerW and actual new CRT wcstod provider. Original wcstod379-byte inventory chunk atCABF0 and full hash checked, linked provider LIBCMT:wcstod.obj at1002C0CE, CRT excluded from reconstructed code coverage. 2027 whole regions, all original/linked relocations/targets,10 negative controls and existing ABI pass. Eight old pending unchanged.
+
+Source0.2.5 uses TCHAR/StringCchCopy/strtod, while pinned base already uses WCHAR/StringCchCopyW/wcstod matching actual R5 wide buffer. No adaptation to base and no direct0.2.5 transfer credit (total1,523 unchanged). One new unit compiled once, one link. No GUI/game execution, push/deployment.
+
+Current accepted link cp32-gui-parse-float-linked; Ob1 cp32-gui-parse-float-ob1, Ob2 cp32-ime-ob2; units build/gui-parse-float-units.txt. Generator tools/prepare_gui_parse_float.py; review build/review_gui_parse_float.py; contract/seeds and acceptance/integration gui-parse-float. Previous owner migrations preserved. All processes terminal.
+
+Next concrete app-level lead: client/saco/unkclass4.cpp CUnkClass4::ResetDialogControls creates3 sliders and sets colors; AddSlider now accepted. Compile constructor/reset with existing base headers and check full R5 candidates; GetSlider/SetColor dependencies likely tractable. unkclass3 ResetDialogControls still requires actual ListBox and IME constructors, avoid premature coverage. Resource-manager teardown and remaining EditBox/IME sources still open. Whole DLL incomplete.
