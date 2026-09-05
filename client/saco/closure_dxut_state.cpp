@@ -821,3 +821,33 @@ HRESULT DXUTInit( bool bParseCommandLine, bool bHandleDefaultHotkeys, bool bShow
 
     return S_OK;
 }
+CD3DEnumeration* DXUTPrepareEnumerationObject( bool bEnumerate )
+{
+    // Create a new CD3DEnumeration object and enumerate all devices unless its already been done
+    CD3DEnumeration* pd3dEnum = GetDXUTState().GetD3DEnumeration();
+    if( pd3dEnum == NULL )
+    {
+        pd3dEnum = DXUTGetEnumeration(); 
+        GetDXUTState().SetD3DEnumeration( pd3dEnum );
+
+        bEnumerate = true;
+    }
+
+    if( bEnumerate )
+    {
+        // Enumerate for each adapter all of the supported display modes, 
+        // device types, adapter formats, back buffer formats, window/full screen support, 
+        // depth stencil formats, multisampling types/qualities, and presentations intervals.
+        //
+        // For each combination of device type (HAL/REF), adapter format, back buffer format, and
+        // IsWindowed it will call the app's ConfirmDevice callback.  This allows the app
+        // to reject or allow that combination based on its caps/etc.  It also allows the 
+        // app to change the BehaviorFlags.  The BehaviorFlags defaults non-pure HWVP 
+        // if supported otherwise it will default to SWVP, however the app can change this 
+        // through the ConfirmDevice callback.
+        IDirect3D9* pD3D = DXUTGetD3DObject();
+        pd3dEnum->Enumerate( pD3D, GetDXUTState().GetIsDeviceAcceptableFunc(), GetDXUTState().GetIsDeviceAcceptableFuncUserContext() );
+    }
+    
+    return pd3dEnum;
+}

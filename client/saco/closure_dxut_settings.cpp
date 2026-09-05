@@ -3,6 +3,8 @@
 UINT DXUTColorChannelBits(D3DFORMAT);
 UINT DXUTDepthBits(D3DFORMAT);
 UINT DXUTStencilBits(D3DFORMAT);
+CD3DEnumeration* DXUTPrepareEnumerationObject(bool);
+bool DXUTDoesDeviceComboMatchPreserveOptions(CD3DEnumDeviceSettingsCombo*, DXUTDeviceSettings*, DXUTMatchOptions*);
 HRESULT DXUTFindValidResolution( CD3DEnumDeviceSettingsCombo* pBestDeviceSettingsCombo, 
                                 D3DDISPLAYMODE displayModeIn, D3DDISPLAYMODE* pBestDisplayMode )
 {
@@ -680,4 +682,275 @@ void DXUTBuildValidDeviceSettings( DXUTDeviceSettings* pValidDeviceSettings,
     pValidDeviceSettings->pp.Flags                       = dwBestFlags;                   
     pValidDeviceSettings->pp.FullScreen_RefreshRateInHz  = bestDisplayMode.RefreshRate;
     pValidDeviceSettings->pp.PresentationInterval        = bestPresentInterval;
+}
+float DXUTRankDeviceCombo( CD3DEnumDeviceSettingsCombo* pDeviceSettingsCombo, 
+                           DXUTDeviceSettings* pOptimalDeviceSettings,
+                           D3DDISPLAYMODE* pAdapterDesktopDisplayMode )
+{
+    float fCurRanking = 0.0f; 
+
+    // Arbitrary weights.  Gives preference to the ordinal, device type, and windowed
+    const float fAdapterOrdinalWeight   = 1000.0f;
+    const float fDeviceTypeWeight       = 100.0f;
+    const float fWindowWeight           = 10.0f;
+    const float fAdapterFormatWeight    = 1.0f;
+    const float fVertexProcessingWeight = 1.0f;
+    const float fResolutionWeight       = 1.0f;
+    const float fBackBufferFormatWeight = 1.0f;
+    const float fMultiSampleWeight      = 1.0f;
+    const float fDepthStencilWeight     = 1.0f;
+    const float fRefreshRateWeight      = 1.0f;
+    const float fPresentIntervalWeight  = 1.0f;
+
+    //---------------------
+    // Adapter ordinal
+    //---------------------
+    if( pDeviceSettingsCombo->AdapterOrdinal == pOptimalDeviceSettings->AdapterOrdinal )
+        fCurRanking += fAdapterOrdinalWeight;
+
+    //---------------------
+    // Device type
+    //---------------------
+    if( pDeviceSettingsCombo->DeviceType == pOptimalDeviceSettings->DeviceType )
+        fCurRanking += fDeviceTypeWeight;
+    // Slightly prefer HAL 
+    if( pDeviceSettingsCombo->DeviceType == D3DDEVTYPE_HAL )
+        fCurRanking += 0.1f; 
+
+    //---------------------
+    // Windowed
+    //---------------------
+    if( pDeviceSettingsCombo->Windowed == pOptimalDeviceSettings->pp.Windowed )
+        fCurRanking += fWindowWeight;
+
+    //---------------------
+    // Adapter format
+    //---------------------
+    if( pDeviceSettingsCombo->AdapterFormat == pOptimalDeviceSettings->AdapterFormat )
+    {
+        fCurRanking += fAdapterFormatWeight;
+    }
+    else
+    {
+        long nAdapterBits = (long) DXUTColorChannelBits(pDeviceSettingsCombo->AdapterFormat);
+        int nBitDepthDelta = abs( nAdapterBits - (long) DXUTColorChannelBits(pOptimalDeviceSettings->AdapterFormat) );
+        float fScale = __max(0.9f - (float)nBitDepthDelta*0.2f, 0.0f);
+        fCurRanking += fScale * fAdapterFormatWeight;
+    }
+
+    if( !pDeviceSettingsCombo->Windowed )
+    {
+        // Slightly prefer when it matches the desktop format or is D3DFMT_X8R8G8B8
+        bool bAdapterOptimalMatch;
+        if( DXUTColorChannelBits(pAdapterDesktopDisplayMode->Format) >= 8 )
+            bAdapterOptimalMatch = (pDeviceSettingsCombo->AdapterFormat == pAdapterDesktopDisplayMode->Format);
+        else
+            bAdapterOptimalMatch = (pDeviceSettingsCombo->AdapterFormat == D3DFMT_X8R8G8B8);
+
+        if( bAdapterOptimalMatch )
+            fCurRanking += 0.1f;
+    }
+
+    //---------------------
+    // Vertex processing
+    //---------------------
+    if( (pOptimalDeviceSettings->BehaviorFlags & D3DCREATE_HARDWARE_VERTEXPROCESSING) != 0 || 
+        (pOptimalDeviceSettings->BehaviorFlags & D3DCREATE_MIXED_VERTEXPROCESSING) != 0 )
+    {
+        if( (pDeviceSettingsCombo->pDeviceInfo->Caps.DevCaps & D3DDEVCAPS_HWTRANSFORMANDLIGHT) != 0 )
+            fCurRanking += fVertexProcessingWeight;
+    }
+    // Slightly prefer HW T&L
+    if( (pDeviceSettingsCombo->pDeviceInfo->Caps.DevCaps & D3DDEVCAPS_HWTRANSFORMANDLIGHT) != 0 )
+        fCurRanking += 0.1f;
+
+    //---------------------
+    // Resolution
+    //---------------------
+    bool bResolutionFound = false;
+    for( int idm = 0; idm < pDeviceSettingsCombo->pAdapterInfo->displayModeList.GetSize(); idm++ )
+    {
+        D3DDISPLAYMODE displayMode = pDeviceSettingsCombo->pAdapterInfo->displayModeList.GetAt( idm );
+        if( displayMode.Format != pDeviceSettingsCombo->AdapterFormat )
+            continue;
+        if( displayMode.Width == pOptimalDeviceSettings->pp.BackBufferWidth &&
+            displayMode.Height == pOptimalDeviceSettings->pp.BackBufferHeight )
+            bResolutionFound = true;
+    }
+    if( bResolutionFound )
+        fCurRanking += fResolutionWeight;
+
+    //---------------------
+    // Back buffer format
+    //---------------------
+    if( pDeviceSettingsCombo->BackBufferFormat == pOptimalDeviceSettings->pp.BackBufferFormat )
+    {
+        fCurRanking += fBackBufferFormatWeight;
+    }
+    else
+    {
+        int nBitDepthDelta = abs( (long) DXUTColorChannelBits(pDeviceSettingsCombo->BackBufferFormat) -
+                                  (long) DXUTColorChannelBits(pOptimalDeviceSettings->pp.BackBufferFormat) );
+        float fScale = __max(0.9f - (float)nBitDepthDelta*0.2f, 0.0f);
+        fCurRanking += fScale * fBackBufferFormatWeight;
+    }
+
+    // Check if this back buffer format is the same as 
+    // the adapter format since this is preferred.
+    bool bAdapterMatchesBB = (pDeviceSettingsCombo->BackBufferFormat == pDeviceSettingsCombo->AdapterFormat);
+    if( bAdapterMatchesBB )
+        fCurRanking += 0.1f;
+
+    //---------------------
+    // Back buffer count
+    //---------------------
+    // No caps for the back buffer count
+
+    //---------------------
+    // Multisample
+    //---------------------
+    bool bMultiSampleFound = false;
+    for( int i=0; i<pDeviceSettingsCombo->multiSampleTypeList.GetSize(); i++ )
+    {
+        D3DMULTISAMPLE_TYPE msType = pDeviceSettingsCombo->multiSampleTypeList.GetAt(i);
+        DWORD msQuality  = pDeviceSettingsCombo->multiSampleQualityList.GetAt(i);
+
+        if( msType == pOptimalDeviceSettings->pp.MultiSampleType &&
+            msQuality >= pOptimalDeviceSettings->pp.MultiSampleQuality )
+        {
+            bMultiSampleFound = true;
+            break;
+        }
+    }
+    if( bMultiSampleFound )
+        fCurRanking += fMultiSampleWeight;
+        
+    //---------------------
+    // Swap effect
+    //---------------------
+    // No caps for swap effects
+
+    //---------------------
+    // Depth stencil 
+    //---------------------
+    if( pDeviceSettingsCombo->depthStencilFormatList.Contains( pOptimalDeviceSettings->pp.AutoDepthStencilFormat ) )
+        fCurRanking += fDepthStencilWeight;
+
+    //---------------------
+    // Present flags
+    //---------------------
+    // No caps for the present flags
+
+    //---------------------
+    // Refresh rate
+    //---------------------
+    bool bRefreshFound = false;
+    for( int idm = 0; idm < pDeviceSettingsCombo->pAdapterInfo->displayModeList.GetSize(); idm++ )
+    {
+        D3DDISPLAYMODE displayMode = pDeviceSettingsCombo->pAdapterInfo->displayModeList.GetAt( idm );
+        if( displayMode.Format != pDeviceSettingsCombo->AdapterFormat )
+            continue;
+        if( displayMode.RefreshRate == pOptimalDeviceSettings->pp.FullScreen_RefreshRateInHz )
+            bRefreshFound = true;
+    }
+    if( bRefreshFound )
+        fCurRanking += fRefreshRateWeight;
+
+    //---------------------
+    // Present interval
+    //---------------------
+    // If keep present interval then check that the present interval is supported by this combo
+    if( pDeviceSettingsCombo->presentIntervalList.Contains( pOptimalDeviceSettings->pp.PresentationInterval ) )
+        fCurRanking += fPresentIntervalWeight;
+
+    return fCurRanking;
+}
+HRESULT DXUTFindValidDeviceSettings( DXUTDeviceSettings* pOut, DXUTDeviceSettings* pIn, 
+                                     DXUTMatchOptions* pMatchOptions )
+{
+    if( pOut == NULL )
+        return DXUT_ERR_MSGBOX( "DXUTFindValidDeviceSettings", E_INVALIDARG );
+
+    CD3DEnumeration* pd3dEnum = DXUTPrepareEnumerationObject( false );
+    IDirect3D9*      pD3D     = DXUTGetD3DObject();
+
+    // Default to DXUTMT_IGNORE_INPUT for everything unless pMatchOptions isn't NULL
+    DXUTMatchOptions defaultMatchOptions;
+    if( NULL == pMatchOptions )
+    {
+        ZeroMemory( &defaultMatchOptions, sizeof(DXUTMatchOptions) );
+        pMatchOptions = &defaultMatchOptions;
+    }
+
+    // Build an optimal device settings structure based upon the match 
+    // options.  If the match option is set to ignore, then a optimal default value is used.
+    // The default value may not exist on the system, but later this will be taken 
+    // into account.
+    DXUTDeviceSettings optimalDeviceSettings;
+    DXUTBuildOptimalDeviceSettings( &optimalDeviceSettings, pIn, pMatchOptions );
+
+    // Find the best combination of:
+    //      Adapter Ordinal
+    //      Device Type
+    //      Adapter Format
+    //      Back Buffer Format
+    //      Windowed
+    // given what's available on the system and the match options combined with the device settings input.
+    // This combination of settings is encapsulated by the CD3DEnumDeviceSettingsCombo class.
+    float fBestRanking = -1.0f;
+    CD3DEnumDeviceSettingsCombo* pBestDeviceSettingsCombo = NULL;
+    D3DDISPLAYMODE adapterDesktopDisplayMode;
+
+    CGrowableArray<CD3DEnumAdapterInfo*>* pAdapterList = pd3dEnum->GetAdapterInfoList();
+    for( int iAdapter=0; iAdapter<pAdapterList->GetSize(); iAdapter++ )
+    {
+        CD3DEnumAdapterInfo* pAdapterInfo = pAdapterList->GetAt(iAdapter);
+
+        // Get the desktop display mode of adapter 
+        pD3D->GetAdapterDisplayMode( pAdapterInfo->AdapterOrdinal, &adapterDesktopDisplayMode );
+
+        // Enum all the device types supported by this adapter to find the best device settings
+        for( int iDeviceInfo=0; iDeviceInfo<pAdapterInfo->deviceInfoList.GetSize(); iDeviceInfo++ )
+        {
+            CD3DEnumDeviceInfo* pDeviceInfo = pAdapterInfo->deviceInfoList.GetAt(iDeviceInfo);
+
+            // Enum all the device settings combinations.  A device settings combination is 
+            // a unique set of an adapter format, back buffer format, and IsWindowed.
+            for( int iDeviceCombo=0; iDeviceCombo<pDeviceInfo->deviceSettingsComboList.GetSize(); iDeviceCombo++ )
+            {
+                CD3DEnumDeviceSettingsCombo* pDeviceSettingsCombo = pDeviceInfo->deviceSettingsComboList.GetAt(iDeviceCombo);
+
+                // If windowed mode the adapter format has to be the same as the desktop 
+                // display mode format so skip any that don't match
+                if (pDeviceSettingsCombo->Windowed && (pDeviceSettingsCombo->AdapterFormat != adapterDesktopDisplayMode.Format))
+                    continue;
+
+                // Skip any combo that doesn't meet the preserve match options
+                if( false == DXUTDoesDeviceComboMatchPreserveOptions( pDeviceSettingsCombo, pIn, pMatchOptions ) )
+                    continue;           
+
+                // Get a ranking number that describes how closely this device combo matches the optimal combo
+                float fCurRanking = DXUTRankDeviceCombo( pDeviceSettingsCombo, &optimalDeviceSettings, &adapterDesktopDisplayMode );
+
+                // If this combo better matches the input device settings then save it
+                if( fCurRanking > fBestRanking )
+                {
+                    pBestDeviceSettingsCombo = pDeviceSettingsCombo;
+                    fBestRanking = fCurRanking;
+                }                
+            }
+        }
+    }
+
+    // If no best device combination was found then fail
+    if( pBestDeviceSettingsCombo == NULL ) 
+        return DXUTERR_NOCOMPATIBLEDEVICES;
+
+    // Using the best device settings combo found, build valid device settings taking heed of 
+    // the match options and the input device settings
+    DXUTDeviceSettings validDeviceSettings;
+    DXUTBuildValidDeviceSettings( &validDeviceSettings, pBestDeviceSettingsCombo, pIn, pMatchOptions );
+    *pOut = validDeviceSettings;
+
+    return S_OK;
 }

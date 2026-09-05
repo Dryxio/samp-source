@@ -1,0 +1,42 @@
+{
+  "status": "ACCEPTED_AFTER_COMPLETE_LINK_REVIEW",
+  "run": "cp32-dxut-selection-provider-linked",
+  "ob1": "cp32-dxut-selection-provider-ob1",
+  "ob2": "cp32-ime-ob2",
+  "new_unique_code_bytes": 1521,
+  "accepted_direct_025_credit": 0,
+  "reference_comparisons": [
+    {
+      "function": "DXUTPrepareEnumerationObject",
+      "identical_to_025": true
+    },
+    {
+      "function": "DXUTRankDeviceCombo",
+      "identical_to_025": true
+    },
+    {
+      "function": "DXUTFindValidDeviceSettings",
+      "identical_to_025": true
+    },
+    {
+      "function": "CD3DEnumeration::GetAdapterInfoList",
+      "identical_to_025": true
+    }
+  ],
+  "source_adaptations": "First adapter-format bit-depth subtraction in Rank explicitly sequences combo conversion before optimal conversion using a normal C++ local. Original R5 call order established by complete disassembly. Other bodies unchanged.",
+  "trials": [
+    {
+      "run": "cp32-dxut-selection-ob1",
+      "outcome": "Prepare96 and FindValid482 candidates; Rank783 same size but different evaluation/register order in first subtraction. Full failed source snapshot and original/source disassembly retained."
+    },
+    {
+      "run": "cp32-dxut-selection-order-ob1",
+      "outcome": "Only settings recompiled. Explicit first conversion local restores complete783-byte candidate, every inferred target consistent and complete PE relocation set. First link failed because actual GetAdapterInfoList missing; draft classified it CRT, never accepted."
+    },
+    {
+      "run": "cp32-dxut-selection-provider-ob1",
+      "outcome": "Only enumeration recompiled with original GetAdapterInfoList4. Successful link and full acceptance. Early draft review before link metadata completion failed; final draft/review rerun after terminal successful link."
+    }
+  ],
+  "verification": "1471 whole regions, every original/linked target/relocation,10 negative controls and existing ABI pass. Prepare96, Rank783, FindValid482,3 state accessors, typed IndexOf74, real enumeration getter4;7 full float constants checked. No new external dependency or runtime device creation. Eight previous pending unchanged."
+}

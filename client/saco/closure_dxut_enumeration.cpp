@@ -202,6 +202,10 @@ void CD3DEnumeration::ClearAdapterInfoList()
 
     m_AdapterInfoList.RemoveAll();
 }
+CGrowableArray<CD3DEnumAdapterInfo*>* CD3DEnumeration::GetAdapterInfoList()
+{
+    return &m_AdapterInfoList;
+}
 HRESULT CD3DEnumeration::EnumerateDevices( CD3DEnumAdapterInfo* pAdapterInfo, CGrowableArray<D3DFORMAT>* pAdapterFormatList )
 {
     HRESULT hr;

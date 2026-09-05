@@ -2,7 +2,7 @@
 import re
 from prepare_checkpoint32 import definition
 from verify import ROOT
-CORE=['DXUTShutdown','DXUTCleanup3DEnvironment','DXUTAllowShortcutKeys','DXUTDisplayErrorMessage','DXUTIsWindowed','DXUTGetCmdParam','DXUTSetConstantFrameTime','DXUTParseCommandLine','DXUTInit']
+CORE=['DXUTShutdown','DXUTCleanup3DEnvironment','DXUTAllowShortcutKeys','DXUTDisplayErrorMessage','DXUTIsWindowed','DXUTGetCmdParam','DXUTSetConstantFrameTime','DXUTParseCommandLine','DXUTInit','DXUTPrepareEnumerationObject']
 def prepare():
  s=(ROOT/'vendor/upstream/saco/d3d9/common/DXUT.cpp').read_text()
  state=s[s.index('CRITICAL_SECTION g_cs;'):s.index('// Internal functions forward declarations')]
