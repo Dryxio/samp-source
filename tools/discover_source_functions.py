@@ -1,6 +1,7 @@
 """Discover full-function candidates, never accept inferred relocation targets."""
 import argparse,json,struct
 from collections import defaultdict
+from bisect import bisect_left
 from pathlib import Path
 from binary import COFF,PE,sha,u32
 from capstone import Cs,CS_ARCH_X86,CS_MODE_32
@@ -23,11 +24,26 @@ def absolute_sites(raw, fixes):
  return sorted(sites)
 
 def main():
- p=argparse.ArgumentParser();p.add_argument('--run',required=True);p.add_argument('--units',required=True);a=p.parse_args()
+ p=argparse.ArgumentParser();p.add_argument('--run',required=True);p.add_argument('--units',required=True);p.add_argument('--include-attached-data',action='store_true',help='Also compare complete COMDATs beyond code-only inventory sizes, stopping before the next function. Discovery only.');a=p.parse_args()
  ref=PE(ROOT/'private/samp.dll');inv=json.loads((ROOT/'config/checkpoint31/inventory.json').read_text());sizes=defaultdict(list)
+ pe_sites=sorted(ref.relocations)
  for f in inv['functions']:
   if len(f['chunks'])==1:
    c=f['chunks'][0];sizes[c['size']].append((f['rva'],ref.read(c['rva'],c['size'])))
+ # Optional whole-COMDAT discovery: inventory sizes describe code only and can
+ # omit switch tables. Do not cross another original function, and still require
+ # every byte and the exact PE relocation set below. Targets remain unaccepted.
+ ordered=sorted(inv['functions'],key=lambda f:f['rva'])
+ intervals=[(f['rva'],f['chunks'][0]['size'],ordered[i+1]['rva'])
+            for i,f in enumerate(ordered[:-1])
+            if len(f['chunks'])==1 and f['chunks'][0]['rva']==f['rva']]
+ attached_cache={}
+ def candidates(size):
+  if not a.include_attached_data:return sizes[size]
+  if size not in attached_cache:
+   attached_cache[size]=list(sizes[size])+[(rva,ref.read(rva,size)) for rva,code_size,end in intervals
+                         if code_size<size and rva+size<=end]
+  return attached_cache[size]
  rows=[]
  for unit in a.units.split(','):
   obj=COFF(ROOT/'build'/a.run/(unit+'.obj'))
@@ -37,9 +53,9 @@ def main():
    except ValueError:continue
    image_sites=absolute_sites(raw,fixes)
    hits=[]
-   for rva,expected in sizes[len(raw)]:
+   for rva,expected in candidates(len(raw)):
     output=bytearray(raw);targets={};consistent=True
-    if image_sites!=sorted(p-rva for p in ref.relocations if rva<=p<rva+len(raw)):continue
+    if image_sites!=[p-rva for p in pe_sites[bisect_left(pe_sites,rva):bisect_left(pe_sites,rva+len(raw))]]:continue
     for f in fixes:
      at=f['offset'];target=u32(expected,at)
      if f['symbol']['name']=='__except_list' and target!=0:consistent=False;break
@@ -51,8 +67,8 @@ def main():
      struct.pack_into('<I',output,at,value&0xffffffff)
     if consistent and bytes(output)==expected:hits.append(dict(rva=rva,inferred_targets=targets))
    rows.append(dict(unit=unit,symbol=name,size=len(raw),object_sha256=sha(obj.data),candidates=hits))
- result=dict(status='DISCOVERY_ONLY_NOT_ACCEPTED',run=a.run,reference_sha256=sha(ref.data),rows=rows)
- (ROOT/'build'/a.run/'discovery.json').write_text(json.dumps(result,indent=2)+'\n')
+ result=dict(status='DISCOVERY_ONLY_NOT_ACCEPTED',include_attached_data=a.include_attached_data,run=a.run,reference_sha256=sha(ref.data),rows=rows)
+ (ROOT/'build'/a.run/('discovery-attached.json' if a.include_attached_data else 'discovery.json')).write_text(json.dumps(result,indent=2)+'\n')
  for r in rows:
   if r['candidates']:print(r['unit'],r['symbol'],r['size'],[hex(h['rva']) for h in r['candidates']])
  print('compiled',len(rows),'candidate functions',sum(bool(r['candidates']) for r in rows))

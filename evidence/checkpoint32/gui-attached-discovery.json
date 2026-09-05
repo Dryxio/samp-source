@@ -1,0 +1,177 @@
+{
+  "status": "DISCOVERY_ONLY_NOT_ACCEPTED",
+  "run": "cp32-gui-full-scan",
+  "new_candidates": [
+    {
+      "symbol": "?HandleKeyboard@CDXUTComboBox@@UAE_NIIJ@Z",
+      "complete_comdat_size": 507,
+      "candidates": [
+        {
+          "rva": 556912,
+          "inferred_targets": {
+            "$L89366": 268992772,
+            "$L89371": 268992752,
+            "?SendEvent@CDXUTDialog@@QAEXI_NPAVCDXUTControl@@@Z": 268978656,
+            "?ClearFocus@CDXUTDialog@@SAXXZ": 268979712,
+            "$L84258": 268992468,
+            "$L84266": 268992604,
+            "$L84269": 268992662,
+            "$L84262": 268992549,
+            "$L84255": 268992734
+          }
+        }
+      ]
+    },
+    {
+      "symbol": "?HandleKeyboard@CDXUTSlider@@UAE_NIIJ@Z",
+      "complete_comdat_size": 148,
+      "candidates": [
+        {
+          "rva": 558080,
+          "inferred_targets": {
+            "$L89452": 268993652,
+            "?SetValueInternal@CDXUTSlider@@IAEXH_N@Z": 268980960,
+            "$L84532": 268993611,
+            "$L84533": 268993628,
+            "$L84531": 268993595,
+            "$L84530": 268993579
+          }
+        }
+      ]
+    },
+    {
+      "symbol": "?HandleMouse@CDXUTSlider@@UAE_NIUtagPOINT@@IJ@Z",
+      "complete_comdat_size": 372,
+      "candidates": [
+        {
+          "rva": 558240,
+          "inferred_targets": {
+            "$L89461": 268994052,
+            "__imp__PtInRect@12": 269374416,
+            "?DXUTGetHWND@@YAPAUHWND__@@XZ": 268944464,
+            "__imp__SetCapture@4": 269374440,
+            "?RequestFocus@CDXUTDialog@@QAEXPAVCDXUTControl@@@Z": 268978736,
+            "?SetValueInternal@CDXUTSlider@@IAEXH_N@Z": 268980960,
+            "__imp__ReleaseCapture@0": 269374448,
+            "?SendEvent@CDXUTDialog@@QAEXI_NPAVCDXUTControl@@@Z": 268978656,
+            "?ValueFromPos@CDXUTSlider@@IAEHH@Z": 268980880,
+            "$L84556": 268993986,
+            "$L84547": 268993749,
+            "$L84554": 268993933
+          }
+        }
+      ]
+    },
+    {
+      "symbol": "?HandleMouse@CDXUTScrollBar@@UAE_NIUtagPOINT@@IJ@Z",
+      "complete_comdat_size": 632,
+      "candidates": [
+        {
+          "rva": 559056,
+          "inferred_targets": {
+            "$L89501": 268995128,
+            "__imp__PtInRect@12": 269374416,
+            "?DXUTGetHWND@@YAPAUHWND__@@XZ": 268944464,
+            "__imp__SetCapture@4": 269374440,
+            "?UpdateThumbRect@CDXUTScrollBar@@IAEXXZ": 268981024,
+            "?DXUTGetTime@@YANXZ": 268949968,
+            "?ThumbOffsetY@?1??HandleMouse@CDXUTScrollBar@@UAE_NIUtagPOINT@@IJ@Z@4HA": 269761536,
+            "?bDrag@?1??HandleMouse@CDXUTScrollBar@@UAE_NIUtagPOINT@@IJ@Z@4_NA": 269761533,
+            "?Scroll@CDXUTScrollBar@@QAEXH@Z": 268994480,
+            "__imp__ReleaseCapture@0": 269374448,
+            "__imp__OffsetRect@12": 269374288,
+            "$L84656": 268994943,
+            "$L84645": 268994563,
+            "$L84655": 268994904
+          }
+        }
+      ]
+    },
+    {
+      "symbol": "?HandleKeyboard@CDXUTEditBox@@UAE_NIIJ@Z",
+      "complete_comdat_size": 614,
+      "candidates": [
+        {
+          "rva": 560880,
+          "inferred_targets": {
+            "$L89662": 268996912,
+            "$L89667": 268996876,
+            "?PlaceCaret@CDXUTEditBox@@IAEXH@Z": 268981360,
+            "__imp__GetKeyState@4": 269374128,
+            "?ResetCaretBlink@CDXUTEditBox@@IAEXXZ": 268984944,
+            "__imp__lstrlenW@4": 269373888,
+            "?CopyToClipboard@CDXUTEditBox@@IAEXXZ": 268982240,
+            "?PasteFromClipboard@CDXUTEditBox@@IAEXXZ": 268982432,
+            "?DeleteSelectionText@CDXUTEditBox@@IAEXXZ": 268981856,
+            "?RemoveChar@CUniBuffer@@QAE_NH@Z": 269073232,
+            "?SendEvent@CDXUTDialog@@QAEXI_NPAVCDXUTControl@@@Z": 268978656,
+            "?GetPriorItemPos@CUniBuffer@@QAEXHPAH@Z": 269073856,
+            "?GetNextItemPos@CUniBuffer@@QAEXHPAH@Z": 269074000,
+            "$L89663": 268996860,
+            "$L85119": 268996461,
+            "$L85117": 268996410,
+            "$L85130": 268996669,
+            "$L85140": 268996451,
+            "$L85135": 268996755,
+            "$L85121": 268996521,
+            "$L85126": 268996600,
+            "$L85141": 268996854
+          }
+        }
+      ]
+    },
+    {
+      "symbol": "?HandleMouse@CDXUTEditBox@@UAE_NIUtagPOINT@@IJ@Z",
+      "complete_comdat_size": 428,
+      "candidates": [
+        {
+          "rva": 561504,
+          "inferred_targets": {
+            "$L89680": 268997372,
+            "?RequestFocus@CDXUTDialog@@QAEXPAVCDXUTControl@@@Z": 268978736,
+            "?DXUTGetHWND@@YAPAUHWND__@@XZ": 268944464,
+            "__imp__SetCapture@4": 269374440,
+            "?CPtoX@CUniBuffer@@QAEJHHPAH@Z": 269073648,
+            "?XtoCP@CUniBuffer@@QAEJHPAH0@Z": 269073712,
+            "__imp__lstrlenW@4": 269373888,
+            "?PlaceCaret@CDXUTEditBox@@IAEXH@Z": 268981360,
+            "?ResetCaretBlink@CDXUTEditBox@@IAEXXZ": 268984944,
+            "__imp__ReleaseCapture@0": 269374448,
+            "$L85166": 268997224,
+            "$L85155": 268997015,
+            "$L85165": 268997200
+          }
+        }
+      ]
+    },
+    {
+      "symbol": "?HandleMouse@CDXUTComboBox@@UAE_NIUtagPOINT@@IJ@Z",
+      "complete_comdat_size": 811,
+      "candidates": [
+        {
+          "rva": 566128,
+          "inferred_targets": {
+            "$L90178": 269002384,
+            "$L90187": 269002364,
+            "__imp__PtInRect@12": 269374416,
+            "?DXUTGetHWND@@YAPAUHWND__@@XZ": 268944464,
+            "__imp__SetCapture@4": 269374440,
+            "?RequestFocus@CDXUTDialog@@QAEXPAVCDXUTControl@@@Z": 268978736,
+            "?ClearFocus@CDXUTDialog@@SAXXZ": 268979712,
+            "?SendEvent@CDXUTDialog@@QAEXI_NPAVCDXUTControl@@@Z": 268978656,
+            "__imp__ReleaseCapture@0": 269374448,
+            "__imp__SystemParametersInfoA@16": 269374412,
+            "?Scroll@CDXUTScrollBar@@QAEXH@Z": 268994480,
+            "$L84287": 269001694,
+            "$L84295": 269001823,
+            "$L84311": 269002157,
+            "$L84313": 269002206,
+            "$L84284": 269002148
+          }
+        }
+      ]
+    }
+  ],
+  "verification": "Indexed and unindexed attached-data scans produce identical434 rows. Every old exact-size candidate retained. Four previously accepted camera/table functions also rediscovered at their reviewed RVAs. Full bytes and original PE relocation set required; inferred targets still require integration review.",
+  "limitation": "No code coverage credited. Complete linked providers/targets and acceptance gate still required."
+}
