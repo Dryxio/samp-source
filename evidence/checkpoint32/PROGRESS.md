@@ -1166,3 +1166,12 @@ Coverage179335/930756=19.267671%,+1860unique principal1671+compilerEH189. Direct
 Latestcp32-rpc-zones-linked;Ob1cp32-rpc-zones-ob1,Ob2cp32-gui-overwrite-ob2;unitsbuild/rpc-zones-units.txt,launcherbuild/run_rpc_zones.ps1,reviewbuild/review_rpc_zones.py. Contract/seeds/acceptance/integration rpc-zones. Total6194newuniquesince20:11:21Z baseline173141; rateinintegrationjson, coordinationincluded. No push/deployment,fullgoalactive.
 
 Concurrentnative-modelresearch: cp32-custom-install-trial1 normalC++Clump127B1FC0 andInstall133A7C30 exact, wrappersOpen/Close20vs61/57,Read24vs32,SetRef26vs36 unaccepted. Agentdocumentedsource-derivedsymbolicexceptions inbuild/agent-textdraw/custom-native-exceptions-audit.md. Trial2compilefailedbecauseasmreservedkeywordtype, preserved. Trial3renamestreamType compiling symbolicwrappers+modelLoadFiles/EnsureReady386candidates; nonecredited. Agent2researchesnextRPCbatch; agent1customloadchain,rootsolecompiler.
+
+
+## Custom model install closure446 accepted
+
+Coverage179781/930756=19.315588%,+446unique. No direct025credit,total6108unchanged. Four native stream/refcount wrappers186 explicitlysource-derivedsymbolicasm after failednormalC++20/20/24/26; C++Clump127/Install133. AllrealGetModelInfo/TXD/chat/UnFuck/iGtaVersion providers included. Two fullBSSstoresbyte15181C andDWORD1A25B0 justifiedbyrealread/writewidths, sourceerrors36/48withpaddingverified.2186regions,10negativecontrols and actorABI PASS;8oldpendingunchanged. Preservesoriginalfailurepaths, noGTA/nativeexecution.
+
+Latestcp32-custom-install-linked;Ob1cp32-custom-install-ob1,Ob2cp32-gui-overwrite-ob2;unitsbuild/custom-install-units.txt,launcherbuild/run_custom_install.ps1,reviewbuild/review_custom_install.py. Contract/seeds/acceptance/integration custom-install. Total6640newuniquesincebaseline173141; throughputinintegrationjson. Localcommitonly,fullgoalactive.
+
+Nextcp32-model-player-trial1: EnsureReady105D320 exactafterstoreorderfix; LoadModelFiles281stillnonmatchdespitefailurelabel, agent1diagnosing. FiveRPC+helperexact: Reset28,Behind13,FindZ270,Explosion258,Widescreen174,SetStatePair23; Pos279stillnonmatchagent2diagnosing. Two SCRIPT_COMMAND objects18 atE61E4/E620C needwhole-objectselection, notwholecombined38section; sourceRadiusfloat/formatfffii preserved. No pendingcandidatecredit. Alltrialprocessesterminal, evalsourcespreserved.
