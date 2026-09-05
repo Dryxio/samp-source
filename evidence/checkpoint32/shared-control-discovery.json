@@ -1,0 +1,7516 @@
+{
+  "status": "DISCOVERY_ONLY_NOT_ACCEPTED",
+  "run": "cp32-shared-control-scan",
+  "reference_sha256": "b72b5dbe725f81864ca3f78bc7063bda56cc05fc7188af822fa7a754432553a2",
+  "rows": [
+    {
+      "unit": "game_aimstuff",
+      "symbol": "?GameStoreLocalPlayerCameraExtZoom@@YGXXZ",
+      "size": 27,
+      "object_sha256": "baf583a12ed58440b8d342687d37b74020302c56b4a90c20d7a966ef5d146cbf",
+      "candidates": [
+        {
+          "rva": 640960,
+          "inferred_targets": {
+            "?pfCameraExtZoom@@3PAMA": 269498836,
+            "?pfAspectRatio@@3PAMA": 269498832,
+            "?fLocalCameraExtZoom@@3MA": 269762512,
+            "?fLocalAspectRatio@@3MA": 269773704
+          }
+        }
+      ]
+    },
+    {
+      "unit": "game_aimstuff",
+      "symbol": "?GameSetLocalPlayerCameraExtZoom@@YGXXZ",
+      "size": 28,
+      "object_sha256": "baf583a12ed58440b8d342687d37b74020302c56b4a90c20d7a966ef5d146cbf",
+      "candidates": [
+        {
+          "rva": 640992,
+          "inferred_targets": {
+            "?fLocalCameraExtZoom@@3MA": 269762512,
+            "?pfCameraExtZoom@@3PAMA": 269498836,
+            "?pfAspectRatio@@3PAMA": 269498832,
+            "?fLocalAspectRatio@@3MA": 269773704
+          }
+        }
+      ]
+    },
+    {
+      "unit": "game_aimstuff",
+      "symbol": "?GameSetPlayerCameraExtZoom@@YGXEMM@Z",
+      "size": 31,
+      "object_sha256": "baf583a12ed58440b8d342687d37b74020302c56b4a90c20d7a966ef5d146cbf",
+      "candidates": [
+        {
+          "rva": 641024,
+          "inferred_targets": {
+            "?fCameraExtZoom@@3PAMA": 269762736,
+            "?fAspectRatio@@3PAMA": 269773752
+          }
+        }
+      ]
+    },
+    {
+      "unit": "game_aimstuff",
+      "symbol": "?GameGetLocalPlayerAspectRatio@@YGMXZ",
+      "size": 14,
+      "object_sha256": "baf583a12ed58440b8d342687d37b74020302c56b4a90c20d7a966ef5d146cbf",
+      "candidates": [
+        {
+          "rva": 641056,
+          "inferred_targets": {
+            "?pfAspectRatio@@3PAMA": 269498832,
+            "__real@3f800000": 269376300
+          }
+        }
+      ]
+    },
+    {
+      "unit": "game_aimstuff",
+      "symbol": "?GameGetLocalPlayerCameraExtZoom@@YGMXZ",
+      "size": 20,
+      "object_sha256": "baf583a12ed58440b8d342687d37b74020302c56b4a90c20d7a966ef5d146cbf",
+      "candidates": [
+        {
+          "rva": 641072,
+          "inferred_targets": {
+            "?pfCameraExtZoom@@3PAMA": 269498836,
+            "__real@420c0000": 269402884,
+            "__real@3cea0ea1": 269402880
+          }
+        }
+      ]
+    },
+    {
+      "unit": "game_aimstuff",
+      "symbol": "?GameSetRemotePlayerCameraExtZoom@@YGXE@Z",
+      "size": 57,
+      "object_sha256": "baf583a12ed58440b8d342687d37b74020302c56b4a90c20d7a966ef5d146cbf",
+      "candidates": [
+        {
+          "rva": 641104,
+          "inferred_targets": {
+            "?pfCameraExtZoom@@3PAMA": 269498836,
+            "?fCameraExtZoom@@3PAMA": 269762736,
+            "__real@420c0000": 269402884,
+            "?pfAspectRatio@@3PAMA": 269498832,
+            "?fAspectRatio@@3PAMA": 269773752,
+            "__real@3f800000": 269376300
+          }
+        }
+      ]
+    },
+    {
+      "unit": "game_aimstuff",
+      "symbol": "?GameSetPlayerCameraMode@@YGXEE@Z",
+      "size": 18,
+      "object_sha256": "baf583a12ed58440b8d342687d37b74020302c56b4a90c20d7a966ef5d146cbf",
+      "candidates": [
+        {
+          "rva": 641168,
+          "inferred_targets": {
+            "?byteCameraMode@@3PAEA": 269762520
+          }
+        }
+      ]
+    },
+    {
+      "unit": "game_aimstuff",
+      "symbol": "?GameGetPlayerCameraMode@@YGEE@Z",
+      "size": 14,
+      "object_sha256": "baf583a12ed58440b8d342687d37b74020302c56b4a90c20d7a966ef5d146cbf",
+      "candidates": [
+        {
+          "rva": 641200,
+          "inferred_targets": {
+            "?byteCameraMode@@3PAEA": 269762520
+          }
+        }
+      ]
+    },
+    {
+      "unit": "game_aimstuff",
+      "symbol": "?GameGetLocalPlayerCameraMode@@YGEXZ",
+      "size": 8,
+      "object_sha256": "baf583a12ed58440b8d342687d37b74020302c56b4a90c20d7a966ef5d146cbf",
+      "candidates": [
+        {
+          "rva": 641216,
+          "inferred_targets": {
+            "?pbyteCameraMode@@3PAEA": 269564276
+          }
+        }
+      ]
+    },
+    {
+      "unit": "game_aimstuff",
+      "symbol": "?GameAimSyncInit@@YGXXZ",
+      "size": 99,
+      "object_sha256": "baf583a12ed58440b8d342687d37b74020302c56b4a90c20d7a966ef5d146cbf",
+      "candidates": [
+        {
+          "rva": 641232,
+          "inferred_targets": {
+            "?caLocalPlayerAim@@3U_CAMERA_AIM@@A": 269763576,
+            "?caRemotePlayerAim@@3PAU_CAMERA_AIM@@A": 269763624,
+            "?byteCameraMode@@3PAEA": 269762520,
+            "?fWeaponSkill@@3PAY0L@MA": 269774592,
+            "?fAspectRatio@@3PAMA": 269773752,
+            "?fCameraExtZoom@@3PAMA": 269762736
+          }
+        }
+      ]
+    },
+    {
+      "unit": "game_aimstuff",
+      "symbol": "?GameStoreLocalPlayerAim@@YGXXZ",
+      "size": 23,
+      "object_sha256": "baf583a12ed58440b8d342687d37b74020302c56b4a90c20d7a966ef5d146cbf",
+      "candidates": [
+        {
+          "rva": 641344,
+          "inferred_targets": {
+            "?pcaInternalAim@@3PAU_CAMERA_AIM@@A": 269498824,
+            "?caLocalPlayerAim@@3U_CAMERA_AIM@@A": 269763576
+          }
+        }
+      ]
+    },
+    {
+      "unit": "game_aimstuff",
+      "symbol": "?GameSetLocalPlayerAim@@YGXXZ",
+      "size": 23,
+      "object_sha256": "baf583a12ed58440b8d342687d37b74020302c56b4a90c20d7a966ef5d146cbf",
+      "candidates": [
+        {
+          "rva": 641376,
+          "inferred_targets": {
+            "?pcaInternalAim@@3PAU_CAMERA_AIM@@A": 269498824,
+            "?caLocalPlayerAim@@3U_CAMERA_AIM@@A": 269763576
+          }
+        }
+      ]
+    },
+    {
+      "unit": "game_aimstuff",
+      "symbol": "?GameGetInternalAim@@YGPAU_CAMERA_AIM@@XZ",
+      "size": 6,
+      "object_sha256": "baf583a12ed58440b8d342687d37b74020302c56b4a90c20d7a966ef5d146cbf",
+      "candidates": [
+        {
+          "rva": 343088,
+          "inferred_targets": {
+            "?pcaInternalAim@@3PAU_CAMERA_AIM@@A": 269621820
+          }
+        },
+        {
+          "rva": 346032,
+          "inferred_targets": {
+            "?pcaInternalAim@@3PAU_CAMERA_AIM@@A": 269621828
+          }
+        },
+        {
+          "rva": 641408,
+          "inferred_targets": {
+            "?pcaInternalAim@@3PAU_CAMERA_AIM@@A": 269498824
+          }
+        },
+        {
+          "rva": 684976,
+          "inferred_targets": {
+            "?pcaInternalAim@@3PAU_CAMERA_AIM@@A": 269568744
+          }
+        }
+      ]
+    },
+    {
+      "unit": "game_aimstuff",
+      "symbol": "?GameStoreRemotePlayerAim@@YGXHPAU_CAMERA_AIM@@@Z",
+      "size": 34,
+      "object_sha256": "baf583a12ed58440b8d342687d37b74020302c56b4a90c20d7a966ef5d146cbf",
+      "candidates": [
+        {
+          "rva": 641424,
+          "inferred_targets": {
+            "?caRemotePlayerAim@@3PAU_CAMERA_AIM@@A": 269763624
+          }
+        }
+      ]
+    },
+    {
+      "unit": "game_aimstuff",
+      "symbol": "?GameSetRemotePlayerAim@@YGXH@Z",
+      "size": 36,
+      "object_sha256": "baf583a12ed58440b8d342687d37b74020302c56b4a90c20d7a966ef5d146cbf",
+      "candidates": [
+        {
+          "rva": 641472,
+          "inferred_targets": {
+            "?pcaInternalAim@@3PAU_CAMERA_AIM@@A": 269498824,
+            "?caRemotePlayerAim@@3PAU_CAMERA_AIM@@A": 269763624
+          }
+        }
+      ]
+    },
+    {
+      "unit": "game_aimstuff",
+      "symbol": "?GameGetRemotePlayerAim@@YGPAU_CAMERA_AIM@@H@Z",
+      "size": 18,
+      "object_sha256": "baf583a12ed58440b8d342687d37b74020302c56b4a90c20d7a966ef5d146cbf",
+      "candidates": [
+        {
+          "rva": 641520,
+          "inferred_targets": {
+            "?caRemotePlayerAim@@3PAU_CAMERA_AIM@@A": 269763624
+          }
+        }
+      ]
+    },
+    {
+      "unit": "game_aimstuff",
+      "symbol": "?GameSetPlayerWeaponSkillLevel@@YGXHHG@Z",
+      "size": 48,
+      "object_sha256": "baf583a12ed58440b8d342687d37b74020302c56b4a90c20d7a966ef5d146cbf",
+      "candidates": [
+        {
+          "rva": 641552,
+          "inferred_targets": {
+            "?fWeaponSkill@@3PAY0L@MA": 269774592
+          }
+        }
+      ]
+    },
+    {
+      "unit": "game_aimstuff",
+      "symbol": "?GameSetLocalPlayerWeaponSkillLevel@@YGXHG@Z",
+      "size": 45,
+      "object_sha256": "baf583a12ed58440b8d342687d37b74020302c56b4a90c20d7a966ef5d146cbf",
+      "candidates": [
+        {
+          "rva": 641600,
+          "inferred_targets": {
+            "?pfStats@@3PAMA": 269498828,
+            "?fLocalWeaponSkill@@3PAMA": 269773708
+          }
+        }
+      ]
+    },
+    {
+      "unit": "game_aimstuff",
+      "symbol": "?GameStoreLocalPlayerWeaponSkills@@YGXXZ",
+      "size": 137,
+      "object_sha256": "baf583a12ed58440b8d342687d37b74020302c56b4a90c20d7a966ef5d146cbf",
+      "candidates": [
+        {
+          "rva": 641840,
+          "inferred_targets": {
+            "?pfStats@@3PAMA": 269498828,
+            "?fLocalWeaponSkill@@3PAMA": 269773708
+          }
+        }
+      ]
+    },
+    {
+      "unit": "game_aimstuff",
+      "symbol": "?GameSetLocalPlayerWeaponSkills@@YGXXZ",
+      "size": 195,
+      "object_sha256": "baf583a12ed58440b8d342687d37b74020302c56b4a90c20d7a966ef5d146cbf",
+      "candidates": [
+        {
+          "rva": 641984,
+          "inferred_targets": {
+            "?pfStats@@3PAMA": 269498828,
+            "?fLocalWeaponSkill@@3PAMA": 269773708
+          }
+        }
+      ]
+    },
+    {
+      "unit": "game_aimstuff",
+      "symbol": "?GameResetLocalPlayerWeaponSkills@@YGXXZ",
+      "size": 142,
+      "object_sha256": "baf583a12ed58440b8d342687d37b74020302c56b4a90c20d7a966ef5d146cbf",
+      "candidates": [
+        {
+          "rva": 642192,
+          "inferred_targets": {
+            "?pfStats@@3PAMA": 269498828,
+            "?GameStoreLocalPlayerWeaponSkills@@YGXXZ": 269077296
+          }
+        }
+      ]
+    },
+    {
+      "unit": "game_aimstuff",
+      "symbol": "?GameSetRemotePlayerWeaponSkills@@YGXH@Z",
+      "size": 208,
+      "object_sha256": "baf583a12ed58440b8d342687d37b74020302c56b4a90c20d7a966ef5d146cbf",
+      "candidates": [
+        {
+          "rva": 642336,
+          "inferred_targets": {
+            "?pfStats@@3PAMA": 269498828,
+            "?fWeaponSkill@@3PAY0L@MA": 269774592
+          }
+        }
+      ]
+    },
+    {
+      "unit": "game_keystuff",
+      "symbol": "?GameKeyStatesInit@@YAXXZ",
+      "size": 29,
+      "object_sha256": "e00911601bcd1ce87c181ed17caecccd08f5e24c07be2af989396d877d21c75d",
+      "candidates": [
+        {
+          "rva": 684704,
+          "inferred_targets": {
+            "?GcsLocalPlayerKeys@@3U_GTA_CONTROLSET@@A": 269821896,
+            "?GcsRemotePlayerKeys@@3PAU_GTA_CONTROLSET@@A": 269822208
+          }
+        }
+      ]
+    },
+    {
+      "unit": "game_keystuff",
+      "symbol": "?GameStoreLocalPlayerKeys@@YAXXZ",
+      "size": 49,
+      "object_sha256": "e00911601bcd1ce87c181ed17caecccd08f5e24c07be2af989396d877d21c75d",
+      "candidates": [
+        {
+          "rva": 684736,
+          "inferred_targets": {
+            "?pbyteDriveByLeft@@3PAEA": 269568748,
+            "?pbyteDriveByRight@@3PAEA": 269568752,
+            "?pGcsInternalKeys@@3PAU_GTA_CONTROLSET@@A": 269568744,
+            "?GcsLocalPlayerKeys@@3U_GTA_CONTROLSET@@A": 269821896,
+            "?byteSaveDriveByLeft@@3EA": 269886888,
+            "?byteSaveDriveByRight@@3EA": 269886889
+          }
+        }
+      ]
+    },
+    {
+      "unit": "game_keystuff",
+      "symbol": "?GameSetLocalPlayerKeys@@YAXXZ",
+      "size": 49,
+      "object_sha256": "e00911601bcd1ce87c181ed17caecccd08f5e24c07be2af989396d877d21c75d",
+      "candidates": [
+        {
+          "rva": 684800,
+          "inferred_targets": {
+            "?pGcsInternalKeys@@3PAU_GTA_CONTROLSET@@A": 269568744,
+            "?GcsLocalPlayerKeys@@3U_GTA_CONTROLSET@@A": 269821896,
+            "?pbyteDriveByLeft@@3PAEA": 269568748,
+            "?byteSaveDriveByLeft@@3EA": 269886888,
+            "?pbyteDriveByRight@@3PAEA": 269568752,
+            "?byteSaveDriveByRight@@3EA": 269886889
+          }
+        }
+      ]
+    },
+    {
+      "unit": "game_keystuff",
+      "symbol": "?GameStoreRemotePlayerKeys@@YAXHPAU_GTA_CONTROLSET@@@Z",
+      "size": 32,
+      "object_sha256": "e00911601bcd1ce87c181ed17caecccd08f5e24c07be2af989396d877d21c75d",
+      "candidates": [
+        {
+          "rva": 684864,
+          "inferred_targets": {
+            "?GcsRemotePlayerKeys@@3PAU_GTA_CONTROLSET@@A": 269822208
+          }
+        }
+      ]
+    },
+    {
+      "unit": "game_keystuff",
+      "symbol": "?GameSetRemotePlayerKeys@@YAXH@Z",
+      "size": 72,
+      "object_sha256": "e00911601bcd1ce87c181ed17caecccd08f5e24c07be2af989396d877d21c75d",
+      "candidates": [
+        {
+          "rva": 684896,
+          "inferred_targets": {
+            "?pGcsInternalKeys@@3PAU_GTA_CONTROLSET@@A": 269568744,
+            "?GcsRemotePlayerKeys@@3PAU_GTA_CONTROLSET@@A": 269822208,
+            "?pbyteDriveByLeft@@3PAEA": 269568748,
+            "?pbyteDriveByRight@@3PAEA": 269568752
+          }
+        }
+      ]
+    },
+    {
+      "unit": "game_keystuff",
+      "symbol": "?GameGetInternalKeys@@YAPAU_GTA_CONTROLSET@@XZ",
+      "size": 6,
+      "object_sha256": "e00911601bcd1ce87c181ed17caecccd08f5e24c07be2af989396d877d21c75d",
+      "candidates": [
+        {
+          "rva": 343088,
+          "inferred_targets": {
+            "?pGcsInternalKeys@@3PAU_GTA_CONTROLSET@@A": 269621820
+          }
+        },
+        {
+          "rva": 346032,
+          "inferred_targets": {
+            "?pGcsInternalKeys@@3PAU_GTA_CONTROLSET@@A": 269621828
+          }
+        },
+        {
+          "rva": 641408,
+          "inferred_targets": {
+            "?pGcsInternalKeys@@3PAU_GTA_CONTROLSET@@A": 269498824
+          }
+        },
+        {
+          "rva": 684976,
+          "inferred_targets": {
+            "?pGcsInternalKeys@@3PAU_GTA_CONTROLSET@@A": 269568744
+          }
+        }
+      ]
+    },
+    {
+      "unit": "game_keystuff",
+      "symbol": "?GameGetLocalPlayerKeys@@YAPAU_GTA_CONTROLSET@@XZ",
+      "size": 6,
+      "object_sha256": "e00911601bcd1ce87c181ed17caecccd08f5e24c07be2af989396d877d21c75d",
+      "candidates": [
+        {
+          "rva": 200896,
+          "inferred_targets": {
+            "?GcsLocalPlayerKeys@@3U_GTA_CONTROLSET@@A": 269381232
+          }
+        },
+        {
+          "rva": 213008,
+          "inferred_targets": {
+            "?GcsLocalPlayerKeys@@3U_GTA_CONTROLSET@@A": 269621817
+          }
+        },
+        {
+          "rva": 222528,
+          "inferred_targets": {
+            "?GcsLocalPlayerKeys@@3U_GTA_CONTROLSET@@A": 269385792
+          }
+        },
+        {
+          "rva": 225232,
+          "inferred_targets": {
+            "?GcsLocalPlayerKeys@@3U_GTA_CONTROLSET@@A": 269388192
+          }
+        },
+        {
+          "rva": 466832,
+          "inferred_targets": {
+            "?GcsLocalPlayerKeys@@3U_GTA_CONTROLSET@@A": 269378308
+          }
+        },
+        {
+          "rva": 604176,
+          "inferred_targets": {
+            "?GcsLocalPlayerKeys@@3U_GTA_CONTROLSET@@A": 269761592
+          }
+        },
+        {
+          "rva": 672096,
+          "inferred_targets": {
+            "?GcsLocalPlayerKeys@@3U_GTA_CONTROLSET@@A": 269815040
+          }
+        },
+        {
+          "rva": 684992,
+          "inferred_targets": {
+            "?GcsLocalPlayerKeys@@3U_GTA_CONTROLSET@@A": 269821896
+          }
+        },
+        {
+          "rva": 737520,
+          "inferred_targets": {
+            "?GcsLocalPlayerKeys@@3U_GTA_CONTROLSET@@A": 269407324
+          }
+        },
+        {
+          "rva": 801488,
+          "inferred_targets": {
+            "?GcsLocalPlayerKeys@@3U_GTA_CONTROLSET@@A": 270985496
+          }
+        },
+        {
+          "rva": 801504,
+          "inferred_targets": {
+            "?GcsLocalPlayerKeys@@3U_GTA_CONTROLSET@@A": 270985760
+          }
+        }
+      ]
+    },
+    {
+      "unit": "game_keystuff",
+      "symbol": "?GameGetPlayerKeys@@YAPAU_GTA_CONTROLSET@@H@Z",
+      "size": 16,
+      "object_sha256": "e00911601bcd1ce87c181ed17caecccd08f5e24c07be2af989396d877d21c75d",
+      "candidates": [
+        {
+          "rva": 685008,
+          "inferred_targets": {
+            "?GcsRemotePlayerKeys@@3PAU_GTA_CONTROLSET@@A": 269822208
+          }
+        }
+      ]
+    },
+    {
+      "unit": "game_keystuff",
+      "symbol": "?GameResetPlayerKeys@@YAXH@Z",
+      "size": 28,
+      "object_sha256": "e00911601bcd1ce87c181ed17caecccd08f5e24c07be2af989396d877d21c75d",
+      "candidates": [
+        {
+          "rva": 685024,
+          "inferred_targets": {
+            "?GcsRemotePlayerKeys@@3PAU_GTA_CONTROLSET@@A": 269822208
+          }
+        }
+      ]
+    },
+    {
+      "unit": "game_keystuff",
+      "symbol": "?GameResetInternalKeys@@YAXXZ",
+      "size": 19,
+      "object_sha256": "e00911601bcd1ce87c181ed17caecccd08f5e24c07be2af989396d877d21c75d",
+      "candidates": []
+    },
+    {
+      "unit": "game_task",
+      "symbol": "??0CTask@@QAE@XZ",
+      "size": 17,
+      "object_sha256": "42b97504904277e579d46f1380cbbb27fe7f950f356a5af48306abd785bef213",
+      "candidates": [
+        {
+          "rva": 730496,
+          "inferred_targets": {
+            "??_7CTask@@6B@": 269407012
+          }
+        }
+      ]
+    },
+    {
+      "unit": "game_task",
+      "symbol": "??_GCTask@@UAEPAXI@Z",
+      "size": 30,
+      "object_sha256": "42b97504904277e579d46f1380cbbb27fe7f950f356a5af48306abd785bef213",
+      "candidates": [
+        {
+          "rva": 34688,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 268517664,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 34720,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 268562528,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 34752,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 268441824,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 34784,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 268560592,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 34816,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 268443984,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 34848,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 268441056,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 34880,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 268514320,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 34912,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 268513632,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 34944,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 268468672,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 48032,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 268483440,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 56832,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 268491696,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 79632,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 268527200,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 82032,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 268517216,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 124880,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 269168464,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 133696,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 268569136,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 144432,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 268578240,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 154640,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 268614224,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 167776,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 268599120,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 167808,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 268599104,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 183856,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 268618400,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 189968,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 268625248,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 193856,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 268628832,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 202624,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 268637056,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 209616,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 268644976,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 209856,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 268644992,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 210448,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 268645408,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 211520,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 268647008,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 211600,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 268647024,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 212096,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 268647200,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 216144,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 268648608,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 222704,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 268653872,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 226080,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 268660672,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 228864,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 268585936,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 228896,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 268750880,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 228976,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 268661952,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 229008,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 268793232,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 229072,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 268762880,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 229104,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 268582960,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 232240,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 268595104,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 272256,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 268701328,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 276320,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 268708736,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 289504,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 268721968,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 294992,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 268728608,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 304160,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 268564688,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 314336,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 268749312,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 324992,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 268760368,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 341952,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 268777392,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 345856,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 268781072,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 347552,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 268782816,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 361712,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 268797088,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 361824,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 268797200,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 362352,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 268797840,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 362592,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 268798080,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 408400,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 268843728,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 411264,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 268846752,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 411744,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 268849920,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 414384,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 268849872,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 415120,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 268850176,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 461680,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 268873984,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 539040,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 268974432,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 539248,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 268974528,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 540016,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 268975312,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 594464,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 269017984,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 594496,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 269018176,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 594528,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 269018432,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 594560,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 269018880,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 594592,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 269030080,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 594848,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 269030336,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 594896,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 269020544,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 594928,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 269020752,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 594960,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 269022128,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 594992,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 269023728,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 595168,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 269030256,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 598832,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 269032896,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 598864,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 269034080,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 640928,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 269076304,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 696576,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 269128752,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 725968,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 269161120,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 731456,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 269165984,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 731632,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 269166512,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 731664,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 269167152,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 731712,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 269167200,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 731760,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 269167248,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 731808,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 269167296,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 756560,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 269191408,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 802400,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 268474496,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 807952,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 269012016,
+            "??3@YAXPAX@Z": 269247626
+          }
+        }
+      ]
+    },
+    {
+      "unit": "game_task",
+      "symbol": "??1CTask@@UAE@XZ",
+      "size": 7,
+      "object_sha256": "42b97504904277e579d46f1380cbbb27fe7f950f356a5af48306abd785bef213",
+      "candidates": [
+        {
+          "rva": 191456,
+          "inferred_targets": {
+            "??_7CTask@@6B@": 269381096
+          }
+        },
+        {
+          "rva": 211744,
+          "inferred_targets": {
+            "??_7CTask@@6B@": 269382224
+          }
+        },
+        {
+          "rva": 213056,
+          "inferred_targets": {
+            "??_7CTask@@6B@": 269382888
+          }
+        },
+        {
+          "rva": 229408,
+          "inferred_targets": {
+            "??_7CTask@@6B@": 269389000
+          }
+        },
+        {
+          "rva": 273216,
+          "inferred_targets": {
+            "??_7CTask@@6B@": 269389576
+          }
+        },
+        {
+          "rva": 408272,
+          "inferred_targets": {
+            "??_7CTask@@6B@": 269392276
+          }
+        },
+        {
+          "rva": 410624,
+          "inferred_targets": {
+            "??_7CTask@@6B@": 269392444
+          }
+        },
+        {
+          "rva": 639616,
+          "inferred_targets": {
+            "??_7CTask@@6B@": 269402852
+          }
+        },
+        {
+          "rva": 730528,
+          "inferred_targets": {
+            "??_7CTask@@6B@": 269407012
+          }
+        }
+      ]
+    },
+    {
+      "unit": "game_task",
+      "symbol": "?Create@CTask@@QAEXK@Z",
+      "size": 43,
+      "object_sha256": "42b97504904277e579d46f1380cbbb27fe7f950f356a5af48306abd785bef213",
+      "candidates": [
+        {
+          "rva": 730544,
+          "inferred_targets": {}
+        }
+      ]
+    },
+    {
+      "unit": "game_task",
+      "symbol": "?Create@CTask@@QAEXPAE@Z",
+      "size": 17,
+      "object_sha256": "42b97504904277e579d46f1380cbbb27fe7f950f356a5af48306abd785bef213",
+      "candidates": [
+        {
+          "rva": 730592,
+          "inferred_targets": {}
+        }
+      ]
+    },
+    {
+      "unit": "game_task",
+      "symbol": "?Destroy@CTask@@UAEXXZ",
+      "size": 89,
+      "object_sha256": "42b97504904277e579d46f1380cbbb27fe7f950f356a5af48306abd785bef213",
+      "candidates": [
+        {
+          "rva": 730624,
+          "inferred_targets": {}
+        }
+      ]
+    },
+    {
+      "unit": "game_task",
+      "symbol": "?ApplyToPed@CTask@@UAEXPAVCPlayerPed@@@Z",
+      "size": 81,
+      "object_sha256": "42b97504904277e579d46f1380cbbb27fe7f950f356a5af48306abd785bef213",
+      "candidates": [
+        {
+          "rva": 730720,
+          "inferred_targets": {
+            "?pbyteCurrentPlayer@@3PAEA": 269564280
+          }
+        }
+      ]
+    },
+    {
+      "unit": "game_task",
+      "symbol": "?GetID@CTask@@UAEKXZ",
+      "size": 32,
+      "object_sha256": "42b97504904277e579d46f1380cbbb27fe7f950f356a5af48306abd785bef213",
+      "candidates": [
+        {
+          "rva": 730816,
+          "inferred_targets": {}
+        }
+      ]
+    },
+    {
+      "unit": "game_task",
+      "symbol": "?IsDestroyed@CTask@@UAEHXZ",
+      "size": 29,
+      "object_sha256": "42b97504904277e579d46f1380cbbb27fe7f950f356a5af48306abd785bef213",
+      "candidates": [
+        {
+          "rva": 730848,
+          "inferred_targets": {}
+        }
+      ]
+    },
+    {
+      "unit": "game_task",
+      "symbol": "?IsSimple@CTask@@UAEHXZ",
+      "size": 35,
+      "object_sha256": "42b97504904277e579d46f1380cbbb27fe7f950f356a5af48306abd785bef213",
+      "candidates": [
+        {
+          "rva": 730880,
+          "inferred_targets": {}
+        }
+      ]
+    },
+    {
+      "unit": "game_task",
+      "symbol": "??0CTaskJetpack@@QAE@XZ",
+      "size": 68,
+      "object_sha256": "42b97504904277e579d46f1380cbbb27fe7f950f356a5af48306abd785bef213",
+      "candidates": [
+        {
+          "rva": 730928,
+          "inferred_targets": {
+            "??0CTask@@QAE@XZ": 269165952,
+            "??_7CTaskJetpack@@6B@": 269407040,
+            "?Create@CTask@@QAEXK@Z": 269166000
+          }
+        }
+      ]
+    },
+    {
+      "unit": "game_task",
+      "symbol": "??_GCTaskJetpack@@UAEPAXI@Z",
+      "size": 30,
+      "object_sha256": "42b97504904277e579d46f1380cbbb27fe7f950f356a5af48306abd785bef213",
+      "candidates": [
+        {
+          "rva": 34688,
+          "inferred_targets": {
+            "??1CTaskJetpack@@UAE@XZ": 268517664,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 34720,
+          "inferred_targets": {
+            "??1CTaskJetpack@@UAE@XZ": 268562528,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 34752,
+          "inferred_targets": {
+            "??1CTaskJetpack@@UAE@XZ": 268441824,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 34784,
+          "inferred_targets": {
+            "??1CTaskJetpack@@UAE@XZ": 268560592,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 34816,
+          "inferred_targets": {
+            "??1CTaskJetpack@@UAE@XZ": 268443984,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 34848,
+          "inferred_targets": {
+            "??1CTaskJetpack@@UAE@XZ": 268441056,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 34880,
+          "inferred_targets": {
+            "??1CTaskJetpack@@UAE@XZ": 268514320,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 34912,
+          "inferred_targets": {
+            "??1CTaskJetpack@@UAE@XZ": 268513632,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 34944,
+          "inferred_targets": {
+            "??1CTaskJetpack@@UAE@XZ": 268468672,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 48032,
+          "inferred_targets": {
+            "??1CTaskJetpack@@UAE@XZ": 268483440,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 56832,
+          "inferred_targets": {
+            "??1CTaskJetpack@@UAE@XZ": 268491696,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 79632,
+          "inferred_targets": {
+            "??1CTaskJetpack@@UAE@XZ": 268527200,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 82032,
+          "inferred_targets": {
+            "??1CTaskJetpack@@UAE@XZ": 268517216,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 124880,
+          "inferred_targets": {
+            "??1CTaskJetpack@@UAE@XZ": 269168464,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 133696,
+          "inferred_targets": {
+            "??1CTaskJetpack@@UAE@XZ": 268569136,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 144432,
+          "inferred_targets": {
+            "??1CTaskJetpack@@UAE@XZ": 268578240,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 154640,
+          "inferred_targets": {
+            "??1CTaskJetpack@@UAE@XZ": 268614224,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 167776,
+          "inferred_targets": {
+            "??1CTaskJetpack@@UAE@XZ": 268599120,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 167808,
+          "inferred_targets": {
+            "??1CTaskJetpack@@UAE@XZ": 268599104,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 183856,
+          "inferred_targets": {
+            "??1CTaskJetpack@@UAE@XZ": 268618400,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 189968,
+          "inferred_targets": {
+            "??1CTaskJetpack@@UAE@XZ": 268625248,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 193856,
+          "inferred_targets": {
+            "??1CTaskJetpack@@UAE@XZ": 268628832,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 202624,
+          "inferred_targets": {
+            "??1CTaskJetpack@@UAE@XZ": 268637056,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 209616,
+          "inferred_targets": {
+            "??1CTaskJetpack@@UAE@XZ": 268644976,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 209856,
+          "inferred_targets": {
+            "??1CTaskJetpack@@UAE@XZ": 268644992,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 210448,
+          "inferred_targets": {
+            "??1CTaskJetpack@@UAE@XZ": 268645408,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 211520,
+          "inferred_targets": {
+            "??1CTaskJetpack@@UAE@XZ": 268647008,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 211600,
+          "inferred_targets": {
+            "??1CTaskJetpack@@UAE@XZ": 268647024,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 212096,
+          "inferred_targets": {
+            "??1CTaskJetpack@@UAE@XZ": 268647200,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 216144,
+          "inferred_targets": {
+            "??1CTaskJetpack@@UAE@XZ": 268648608,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 222704,
+          "inferred_targets": {
+            "??1CTaskJetpack@@UAE@XZ": 268653872,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 226080,
+          "inferred_targets": {
+            "??1CTaskJetpack@@UAE@XZ": 268660672,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 228864,
+          "inferred_targets": {
+            "??1CTaskJetpack@@UAE@XZ": 268585936,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 228896,
+          "inferred_targets": {
+            "??1CTaskJetpack@@UAE@XZ": 268750880,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 228976,
+          "inferred_targets": {
+            "??1CTaskJetpack@@UAE@XZ": 268661952,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 229008,
+          "inferred_targets": {
+            "??1CTaskJetpack@@UAE@XZ": 268793232,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 229072,
+          "inferred_targets": {
+            "??1CTaskJetpack@@UAE@XZ": 268762880,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 229104,
+          "inferred_targets": {
+            "??1CTaskJetpack@@UAE@XZ": 268582960,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 232240,
+          "inferred_targets": {
+            "??1CTaskJetpack@@UAE@XZ": 268595104,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 272256,
+          "inferred_targets": {
+            "??1CTaskJetpack@@UAE@XZ": 268701328,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 276320,
+          "inferred_targets": {
+            "??1CTaskJetpack@@UAE@XZ": 268708736,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 289504,
+          "inferred_targets": {
+            "??1CTaskJetpack@@UAE@XZ": 268721968,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 294992,
+          "inferred_targets": {
+            "??1CTaskJetpack@@UAE@XZ": 268728608,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 304160,
+          "inferred_targets": {
+            "??1CTaskJetpack@@UAE@XZ": 268564688,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 314336,
+          "inferred_targets": {
+            "??1CTaskJetpack@@UAE@XZ": 268749312,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 324992,
+          "inferred_targets": {
+            "??1CTaskJetpack@@UAE@XZ": 268760368,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 341952,
+          "inferred_targets": {
+            "??1CTaskJetpack@@UAE@XZ": 268777392,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 345856,
+          "inferred_targets": {
+            "??1CTaskJetpack@@UAE@XZ": 268781072,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 347552,
+          "inferred_targets": {
+            "??1CTaskJetpack@@UAE@XZ": 268782816,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 361712,
+          "inferred_targets": {
+            "??1CTaskJetpack@@UAE@XZ": 268797088,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 361824,
+          "inferred_targets": {
+            "??1CTaskJetpack@@UAE@XZ": 268797200,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 362352,
+          "inferred_targets": {
+            "??1CTaskJetpack@@UAE@XZ": 268797840,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 362592,
+          "inferred_targets": {
+            "??1CTaskJetpack@@UAE@XZ": 268798080,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 408400,
+          "inferred_targets": {
+            "??1CTaskJetpack@@UAE@XZ": 268843728,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 411264,
+          "inferred_targets": {
+            "??1CTaskJetpack@@UAE@XZ": 268846752,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 411744,
+          "inferred_targets": {
+            "??1CTaskJetpack@@UAE@XZ": 268849920,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 414384,
+          "inferred_targets": {
+            "??1CTaskJetpack@@UAE@XZ": 268849872,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 415120,
+          "inferred_targets": {
+            "??1CTaskJetpack@@UAE@XZ": 268850176,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 461680,
+          "inferred_targets": {
+            "??1CTaskJetpack@@UAE@XZ": 268873984,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 539040,
+          "inferred_targets": {
+            "??1CTaskJetpack@@UAE@XZ": 268974432,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 539248,
+          "inferred_targets": {
+            "??1CTaskJetpack@@UAE@XZ": 268974528,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 540016,
+          "inferred_targets": {
+            "??1CTaskJetpack@@UAE@XZ": 268975312,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 594464,
+          "inferred_targets": {
+            "??1CTaskJetpack@@UAE@XZ": 269017984,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 594496,
+          "inferred_targets": {
+            "??1CTaskJetpack@@UAE@XZ": 269018176,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 594528,
+          "inferred_targets": {
+            "??1CTaskJetpack@@UAE@XZ": 269018432,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 594560,
+          "inferred_targets": {
+            "??1CTaskJetpack@@UAE@XZ": 269018880,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 594592,
+          "inferred_targets": {
+            "??1CTaskJetpack@@UAE@XZ": 269030080,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 594848,
+          "inferred_targets": {
+            "??1CTaskJetpack@@UAE@XZ": 269030336,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 594896,
+          "inferred_targets": {
+            "??1CTaskJetpack@@UAE@XZ": 269020544,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 594928,
+          "inferred_targets": {
+            "??1CTaskJetpack@@UAE@XZ": 269020752,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 594960,
+          "inferred_targets": {
+            "??1CTaskJetpack@@UAE@XZ": 269022128,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 594992,
+          "inferred_targets": {
+            "??1CTaskJetpack@@UAE@XZ": 269023728,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 595168,
+          "inferred_targets": {
+            "??1CTaskJetpack@@UAE@XZ": 269030256,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 598832,
+          "inferred_targets": {
+            "??1CTaskJetpack@@UAE@XZ": 269032896,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 598864,
+          "inferred_targets": {
+            "??1CTaskJetpack@@UAE@XZ": 269034080,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 640928,
+          "inferred_targets": {
+            "??1CTaskJetpack@@UAE@XZ": 269076304,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 696576,
+          "inferred_targets": {
+            "??1CTaskJetpack@@UAE@XZ": 269128752,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 725968,
+          "inferred_targets": {
+            "??1CTaskJetpack@@UAE@XZ": 269161120,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 731456,
+          "inferred_targets": {
+            "??1CTaskJetpack@@UAE@XZ": 269165984,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 731632,
+          "inferred_targets": {
+            "??1CTaskJetpack@@UAE@XZ": 269166512,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 731664,
+          "inferred_targets": {
+            "??1CTaskJetpack@@UAE@XZ": 269167152,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 731712,
+          "inferred_targets": {
+            "??1CTaskJetpack@@UAE@XZ": 269167200,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 731760,
+          "inferred_targets": {
+            "??1CTaskJetpack@@UAE@XZ": 269167248,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 731808,
+          "inferred_targets": {
+            "??1CTaskJetpack@@UAE@XZ": 269167296,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 756560,
+          "inferred_targets": {
+            "??1CTaskJetpack@@UAE@XZ": 269191408,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 802400,
+          "inferred_targets": {
+            "??1CTaskJetpack@@UAE@XZ": 268474496,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 807952,
+          "inferred_targets": {
+            "??1CTaskJetpack@@UAE@XZ": 269012016,
+            "??3@YAXPAX@Z": 269247626
+          }
+        }
+      ]
+    },
+    {
+      "unit": "game_task",
+      "symbol": "??0CTaskJetpack@@QAE@PAE@Z",
+      "size": 37,
+      "object_sha256": "42b97504904277e579d46f1380cbbb27fe7f950f356a5af48306abd785bef213",
+      "candidates": [
+        {
+          "rva": 731008,
+          "inferred_targets": {
+            "??0CTask@@QAE@XZ": 269165952,
+            "??_7CTaskJetpack@@6B@": 269407040,
+            "?Create@CTask@@QAEXPAE@Z": 269166048
+          }
+        }
+      ]
+    },
+    {
+      "unit": "game_task",
+      "symbol": "??1CTaskJetpack@@UAE@XZ",
+      "size": 93,
+      "object_sha256": "42b97504904277e579d46f1380cbbb27fe7f950f356a5af48306abd785bef213",
+      "candidates": []
+    },
+    {
+      "unit": "game_task",
+      "symbol": "??0CTaskTakeDamageFall@@QAE@KK@Z",
+      "size": 67,
+      "object_sha256": "42b97504904277e579d46f1380cbbb27fe7f950f356a5af48306abd785bef213",
+      "candidates": [
+        {
+          "rva": 731152,
+          "inferred_targets": {
+            "??0CTask@@QAE@XZ": 269165952,
+            "??_7CTaskTakeDamageFall@@6B@": 269407068,
+            "?Create@CTask@@QAEXK@Z": 269166000
+          }
+        }
+      ]
+    },
+    {
+      "unit": "game_task",
+      "symbol": "??_GCTaskTakeDamageFall@@UAEPAXI@Z",
+      "size": 30,
+      "object_sha256": "42b97504904277e579d46f1380cbbb27fe7f950f356a5af48306abd785bef213",
+      "candidates": [
+        {
+          "rva": 34688,
+          "inferred_targets": {
+            "??1CTaskTakeDamageFall@@UAE@XZ": 268517664,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 34720,
+          "inferred_targets": {
+            "??1CTaskTakeDamageFall@@UAE@XZ": 268562528,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 34752,
+          "inferred_targets": {
+            "??1CTaskTakeDamageFall@@UAE@XZ": 268441824,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 34784,
+          "inferred_targets": {
+            "??1CTaskTakeDamageFall@@UAE@XZ": 268560592,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 34816,
+          "inferred_targets": {
+            "??1CTaskTakeDamageFall@@UAE@XZ": 268443984,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 34848,
+          "inferred_targets": {
+            "??1CTaskTakeDamageFall@@UAE@XZ": 268441056,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 34880,
+          "inferred_targets": {
+            "??1CTaskTakeDamageFall@@UAE@XZ": 268514320,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 34912,
+          "inferred_targets": {
+            "??1CTaskTakeDamageFall@@UAE@XZ": 268513632,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 34944,
+          "inferred_targets": {
+            "??1CTaskTakeDamageFall@@UAE@XZ": 268468672,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 48032,
+          "inferred_targets": {
+            "??1CTaskTakeDamageFall@@UAE@XZ": 268483440,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 56832,
+          "inferred_targets": {
+            "??1CTaskTakeDamageFall@@UAE@XZ": 268491696,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 79632,
+          "inferred_targets": {
+            "??1CTaskTakeDamageFall@@UAE@XZ": 268527200,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 82032,
+          "inferred_targets": {
+            "??1CTaskTakeDamageFall@@UAE@XZ": 268517216,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 124880,
+          "inferred_targets": {
+            "??1CTaskTakeDamageFall@@UAE@XZ": 269168464,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 133696,
+          "inferred_targets": {
+            "??1CTaskTakeDamageFall@@UAE@XZ": 268569136,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 144432,
+          "inferred_targets": {
+            "??1CTaskTakeDamageFall@@UAE@XZ": 268578240,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 154640,
+          "inferred_targets": {
+            "??1CTaskTakeDamageFall@@UAE@XZ": 268614224,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 167776,
+          "inferred_targets": {
+            "??1CTaskTakeDamageFall@@UAE@XZ": 268599120,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 167808,
+          "inferred_targets": {
+            "??1CTaskTakeDamageFall@@UAE@XZ": 268599104,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 183856,
+          "inferred_targets": {
+            "??1CTaskTakeDamageFall@@UAE@XZ": 268618400,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 189968,
+          "inferred_targets": {
+            "??1CTaskTakeDamageFall@@UAE@XZ": 268625248,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 193856,
+          "inferred_targets": {
+            "??1CTaskTakeDamageFall@@UAE@XZ": 268628832,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 202624,
+          "inferred_targets": {
+            "??1CTaskTakeDamageFall@@UAE@XZ": 268637056,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 209616,
+          "inferred_targets": {
+            "??1CTaskTakeDamageFall@@UAE@XZ": 268644976,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 209856,
+          "inferred_targets": {
+            "??1CTaskTakeDamageFall@@UAE@XZ": 268644992,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 210448,
+          "inferred_targets": {
+            "??1CTaskTakeDamageFall@@UAE@XZ": 268645408,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 211520,
+          "inferred_targets": {
+            "??1CTaskTakeDamageFall@@UAE@XZ": 268647008,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 211600,
+          "inferred_targets": {
+            "??1CTaskTakeDamageFall@@UAE@XZ": 268647024,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 212096,
+          "inferred_targets": {
+            "??1CTaskTakeDamageFall@@UAE@XZ": 268647200,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 216144,
+          "inferred_targets": {
+            "??1CTaskTakeDamageFall@@UAE@XZ": 268648608,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 222704,
+          "inferred_targets": {
+            "??1CTaskTakeDamageFall@@UAE@XZ": 268653872,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 226080,
+          "inferred_targets": {
+            "??1CTaskTakeDamageFall@@UAE@XZ": 268660672,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 228864,
+          "inferred_targets": {
+            "??1CTaskTakeDamageFall@@UAE@XZ": 268585936,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 228896,
+          "inferred_targets": {
+            "??1CTaskTakeDamageFall@@UAE@XZ": 268750880,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 228976,
+          "inferred_targets": {
+            "??1CTaskTakeDamageFall@@UAE@XZ": 268661952,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 229008,
+          "inferred_targets": {
+            "??1CTaskTakeDamageFall@@UAE@XZ": 268793232,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 229072,
+          "inferred_targets": {
+            "??1CTaskTakeDamageFall@@UAE@XZ": 268762880,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 229104,
+          "inferred_targets": {
+            "??1CTaskTakeDamageFall@@UAE@XZ": 268582960,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 232240,
+          "inferred_targets": {
+            "??1CTaskTakeDamageFall@@UAE@XZ": 268595104,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 272256,
+          "inferred_targets": {
+            "??1CTaskTakeDamageFall@@UAE@XZ": 268701328,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 276320,
+          "inferred_targets": {
+            "??1CTaskTakeDamageFall@@UAE@XZ": 268708736,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 289504,
+          "inferred_targets": {
+            "??1CTaskTakeDamageFall@@UAE@XZ": 268721968,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 294992,
+          "inferred_targets": {
+            "??1CTaskTakeDamageFall@@UAE@XZ": 268728608,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 304160,
+          "inferred_targets": {
+            "??1CTaskTakeDamageFall@@UAE@XZ": 268564688,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 314336,
+          "inferred_targets": {
+            "??1CTaskTakeDamageFall@@UAE@XZ": 268749312,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 324992,
+          "inferred_targets": {
+            "??1CTaskTakeDamageFall@@UAE@XZ": 268760368,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 341952,
+          "inferred_targets": {
+            "??1CTaskTakeDamageFall@@UAE@XZ": 268777392,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 345856,
+          "inferred_targets": {
+            "??1CTaskTakeDamageFall@@UAE@XZ": 268781072,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 347552,
+          "inferred_targets": {
+            "??1CTaskTakeDamageFall@@UAE@XZ": 268782816,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 361712,
+          "inferred_targets": {
+            "??1CTaskTakeDamageFall@@UAE@XZ": 268797088,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 361824,
+          "inferred_targets": {
+            "??1CTaskTakeDamageFall@@UAE@XZ": 268797200,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 362352,
+          "inferred_targets": {
+            "??1CTaskTakeDamageFall@@UAE@XZ": 268797840,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 362592,
+          "inferred_targets": {
+            "??1CTaskTakeDamageFall@@UAE@XZ": 268798080,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 408400,
+          "inferred_targets": {
+            "??1CTaskTakeDamageFall@@UAE@XZ": 268843728,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 411264,
+          "inferred_targets": {
+            "??1CTaskTakeDamageFall@@UAE@XZ": 268846752,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 411744,
+          "inferred_targets": {
+            "??1CTaskTakeDamageFall@@UAE@XZ": 268849920,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 414384,
+          "inferred_targets": {
+            "??1CTaskTakeDamageFall@@UAE@XZ": 268849872,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 415120,
+          "inferred_targets": {
+            "??1CTaskTakeDamageFall@@UAE@XZ": 268850176,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 461680,
+          "inferred_targets": {
+            "??1CTaskTakeDamageFall@@UAE@XZ": 268873984,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 539040,
+          "inferred_targets": {
+            "??1CTaskTakeDamageFall@@UAE@XZ": 268974432,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 539248,
+          "inferred_targets": {
+            "??1CTaskTakeDamageFall@@UAE@XZ": 268974528,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 540016,
+          "inferred_targets": {
+            "??1CTaskTakeDamageFall@@UAE@XZ": 268975312,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 594464,
+          "inferred_targets": {
+            "??1CTaskTakeDamageFall@@UAE@XZ": 269017984,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 594496,
+          "inferred_targets": {
+            "??1CTaskTakeDamageFall@@UAE@XZ": 269018176,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 594528,
+          "inferred_targets": {
+            "??1CTaskTakeDamageFall@@UAE@XZ": 269018432,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 594560,
+          "inferred_targets": {
+            "??1CTaskTakeDamageFall@@UAE@XZ": 269018880,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 594592,
+          "inferred_targets": {
+            "??1CTaskTakeDamageFall@@UAE@XZ": 269030080,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 594848,
+          "inferred_targets": {
+            "??1CTaskTakeDamageFall@@UAE@XZ": 269030336,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 594896,
+          "inferred_targets": {
+            "??1CTaskTakeDamageFall@@UAE@XZ": 269020544,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 594928,
+          "inferred_targets": {
+            "??1CTaskTakeDamageFall@@UAE@XZ": 269020752,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 594960,
+          "inferred_targets": {
+            "??1CTaskTakeDamageFall@@UAE@XZ": 269022128,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 594992,
+          "inferred_targets": {
+            "??1CTaskTakeDamageFall@@UAE@XZ": 269023728,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 595168,
+          "inferred_targets": {
+            "??1CTaskTakeDamageFall@@UAE@XZ": 269030256,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 598832,
+          "inferred_targets": {
+            "??1CTaskTakeDamageFall@@UAE@XZ": 269032896,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 598864,
+          "inferred_targets": {
+            "??1CTaskTakeDamageFall@@UAE@XZ": 269034080,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 640928,
+          "inferred_targets": {
+            "??1CTaskTakeDamageFall@@UAE@XZ": 269076304,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 696576,
+          "inferred_targets": {
+            "??1CTaskTakeDamageFall@@UAE@XZ": 269128752,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 725968,
+          "inferred_targets": {
+            "??1CTaskTakeDamageFall@@UAE@XZ": 269161120,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 731456,
+          "inferred_targets": {
+            "??1CTaskTakeDamageFall@@UAE@XZ": 269165984,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 731632,
+          "inferred_targets": {
+            "??1CTaskTakeDamageFall@@UAE@XZ": 269166512,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 731664,
+          "inferred_targets": {
+            "??1CTaskTakeDamageFall@@UAE@XZ": 269167152,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 731712,
+          "inferred_targets": {
+            "??1CTaskTakeDamageFall@@UAE@XZ": 269167200,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 731760,
+          "inferred_targets": {
+            "??1CTaskTakeDamageFall@@UAE@XZ": 269167248,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 731808,
+          "inferred_targets": {
+            "??1CTaskTakeDamageFall@@UAE@XZ": 269167296,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 756560,
+          "inferred_targets": {
+            "??1CTaskTakeDamageFall@@UAE@XZ": 269191408,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 802400,
+          "inferred_targets": {
+            "??1CTaskTakeDamageFall@@UAE@XZ": 268474496,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 807952,
+          "inferred_targets": {
+            "??1CTaskTakeDamageFall@@UAE@XZ": 269012016,
+            "??3@YAXPAX@Z": 269247626
+          }
+        }
+      ]
+    },
+    {
+      "unit": "game_task",
+      "symbol": "??0CTaskGoggles@@QAE@XZ",
+      "size": 59,
+      "object_sha256": "42b97504904277e579d46f1380cbbb27fe7f950f356a5af48306abd785bef213",
+      "candidates": [
+        {
+          "rva": 731232,
+          "inferred_targets": {
+            "??0CTask@@QAE@XZ": 269165952,
+            "??_7CTaskGoggles@@6B@": 269407096,
+            "?Create@CTask@@QAEXK@Z": 269166000
+          }
+        }
+      ]
+    },
+    {
+      "unit": "game_task",
+      "symbol": "??_GCTaskGoggles@@UAEPAXI@Z",
+      "size": 30,
+      "object_sha256": "42b97504904277e579d46f1380cbbb27fe7f950f356a5af48306abd785bef213",
+      "candidates": [
+        {
+          "rva": 34688,
+          "inferred_targets": {
+            "??1CTaskGoggles@@UAE@XZ": 268517664,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 34720,
+          "inferred_targets": {
+            "??1CTaskGoggles@@UAE@XZ": 268562528,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 34752,
+          "inferred_targets": {
+            "??1CTaskGoggles@@UAE@XZ": 268441824,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 34784,
+          "inferred_targets": {
+            "??1CTaskGoggles@@UAE@XZ": 268560592,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 34816,
+          "inferred_targets": {
+            "??1CTaskGoggles@@UAE@XZ": 268443984,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 34848,
+          "inferred_targets": {
+            "??1CTaskGoggles@@UAE@XZ": 268441056,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 34880,
+          "inferred_targets": {
+            "??1CTaskGoggles@@UAE@XZ": 268514320,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 34912,
+          "inferred_targets": {
+            "??1CTaskGoggles@@UAE@XZ": 268513632,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 34944,
+          "inferred_targets": {
+            "??1CTaskGoggles@@UAE@XZ": 268468672,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 48032,
+          "inferred_targets": {
+            "??1CTaskGoggles@@UAE@XZ": 268483440,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 56832,
+          "inferred_targets": {
+            "??1CTaskGoggles@@UAE@XZ": 268491696,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 79632,
+          "inferred_targets": {
+            "??1CTaskGoggles@@UAE@XZ": 268527200,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 82032,
+          "inferred_targets": {
+            "??1CTaskGoggles@@UAE@XZ": 268517216,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 124880,
+          "inferred_targets": {
+            "??1CTaskGoggles@@UAE@XZ": 269168464,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 133696,
+          "inferred_targets": {
+            "??1CTaskGoggles@@UAE@XZ": 268569136,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 144432,
+          "inferred_targets": {
+            "??1CTaskGoggles@@UAE@XZ": 268578240,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 154640,
+          "inferred_targets": {
+            "??1CTaskGoggles@@UAE@XZ": 268614224,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 167776,
+          "inferred_targets": {
+            "??1CTaskGoggles@@UAE@XZ": 268599120,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 167808,
+          "inferred_targets": {
+            "??1CTaskGoggles@@UAE@XZ": 268599104,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 183856,
+          "inferred_targets": {
+            "??1CTaskGoggles@@UAE@XZ": 268618400,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 189968,
+          "inferred_targets": {
+            "??1CTaskGoggles@@UAE@XZ": 268625248,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 193856,
+          "inferred_targets": {
+            "??1CTaskGoggles@@UAE@XZ": 268628832,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 202624,
+          "inferred_targets": {
+            "??1CTaskGoggles@@UAE@XZ": 268637056,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 209616,
+          "inferred_targets": {
+            "??1CTaskGoggles@@UAE@XZ": 268644976,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 209856,
+          "inferred_targets": {
+            "??1CTaskGoggles@@UAE@XZ": 268644992,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 210448,
+          "inferred_targets": {
+            "??1CTaskGoggles@@UAE@XZ": 268645408,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 211520,
+          "inferred_targets": {
+            "??1CTaskGoggles@@UAE@XZ": 268647008,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 211600,
+          "inferred_targets": {
+            "??1CTaskGoggles@@UAE@XZ": 268647024,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 212096,
+          "inferred_targets": {
+            "??1CTaskGoggles@@UAE@XZ": 268647200,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 216144,
+          "inferred_targets": {
+            "??1CTaskGoggles@@UAE@XZ": 268648608,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 222704,
+          "inferred_targets": {
+            "??1CTaskGoggles@@UAE@XZ": 268653872,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 226080,
+          "inferred_targets": {
+            "??1CTaskGoggles@@UAE@XZ": 268660672,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 228864,
+          "inferred_targets": {
+            "??1CTaskGoggles@@UAE@XZ": 268585936,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 228896,
+          "inferred_targets": {
+            "??1CTaskGoggles@@UAE@XZ": 268750880,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 228976,
+          "inferred_targets": {
+            "??1CTaskGoggles@@UAE@XZ": 268661952,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 229008,
+          "inferred_targets": {
+            "??1CTaskGoggles@@UAE@XZ": 268793232,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 229072,
+          "inferred_targets": {
+            "??1CTaskGoggles@@UAE@XZ": 268762880,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 229104,
+          "inferred_targets": {
+            "??1CTaskGoggles@@UAE@XZ": 268582960,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 232240,
+          "inferred_targets": {
+            "??1CTaskGoggles@@UAE@XZ": 268595104,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 272256,
+          "inferred_targets": {
+            "??1CTaskGoggles@@UAE@XZ": 268701328,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 276320,
+          "inferred_targets": {
+            "??1CTaskGoggles@@UAE@XZ": 268708736,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 289504,
+          "inferred_targets": {
+            "??1CTaskGoggles@@UAE@XZ": 268721968,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 294992,
+          "inferred_targets": {
+            "??1CTaskGoggles@@UAE@XZ": 268728608,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 304160,
+          "inferred_targets": {
+            "??1CTaskGoggles@@UAE@XZ": 268564688,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 314336,
+          "inferred_targets": {
+            "??1CTaskGoggles@@UAE@XZ": 268749312,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 324992,
+          "inferred_targets": {
+            "??1CTaskGoggles@@UAE@XZ": 268760368,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 341952,
+          "inferred_targets": {
+            "??1CTaskGoggles@@UAE@XZ": 268777392,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 345856,
+          "inferred_targets": {
+            "??1CTaskGoggles@@UAE@XZ": 268781072,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 347552,
+          "inferred_targets": {
+            "??1CTaskGoggles@@UAE@XZ": 268782816,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 361712,
+          "inferred_targets": {
+            "??1CTaskGoggles@@UAE@XZ": 268797088,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 361824,
+          "inferred_targets": {
+            "??1CTaskGoggles@@UAE@XZ": 268797200,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 362352,
+          "inferred_targets": {
+            "??1CTaskGoggles@@UAE@XZ": 268797840,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 362592,
+          "inferred_targets": {
+            "??1CTaskGoggles@@UAE@XZ": 268798080,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 408400,
+          "inferred_targets": {
+            "??1CTaskGoggles@@UAE@XZ": 268843728,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 411264,
+          "inferred_targets": {
+            "??1CTaskGoggles@@UAE@XZ": 268846752,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 411744,
+          "inferred_targets": {
+            "??1CTaskGoggles@@UAE@XZ": 268849920,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 414384,
+          "inferred_targets": {
+            "??1CTaskGoggles@@UAE@XZ": 268849872,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 415120,
+          "inferred_targets": {
+            "??1CTaskGoggles@@UAE@XZ": 268850176,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 461680,
+          "inferred_targets": {
+            "??1CTaskGoggles@@UAE@XZ": 268873984,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 539040,
+          "inferred_targets": {
+            "??1CTaskGoggles@@UAE@XZ": 268974432,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 539248,
+          "inferred_targets": {
+            "??1CTaskGoggles@@UAE@XZ": 268974528,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 540016,
+          "inferred_targets": {
+            "??1CTaskGoggles@@UAE@XZ": 268975312,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 594464,
+          "inferred_targets": {
+            "??1CTaskGoggles@@UAE@XZ": 269017984,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 594496,
+          "inferred_targets": {
+            "??1CTaskGoggles@@UAE@XZ": 269018176,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 594528,
+          "inferred_targets": {
+            "??1CTaskGoggles@@UAE@XZ": 269018432,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 594560,
+          "inferred_targets": {
+            "??1CTaskGoggles@@UAE@XZ": 269018880,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 594592,
+          "inferred_targets": {
+            "??1CTaskGoggles@@UAE@XZ": 269030080,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 594848,
+          "inferred_targets": {
+            "??1CTaskGoggles@@UAE@XZ": 269030336,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 594896,
+          "inferred_targets": {
+            "??1CTaskGoggles@@UAE@XZ": 269020544,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 594928,
+          "inferred_targets": {
+            "??1CTaskGoggles@@UAE@XZ": 269020752,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 594960,
+          "inferred_targets": {
+            "??1CTaskGoggles@@UAE@XZ": 269022128,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 594992,
+          "inferred_targets": {
+            "??1CTaskGoggles@@UAE@XZ": 269023728,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 595168,
+          "inferred_targets": {
+            "??1CTaskGoggles@@UAE@XZ": 269030256,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 598832,
+          "inferred_targets": {
+            "??1CTaskGoggles@@UAE@XZ": 269032896,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 598864,
+          "inferred_targets": {
+            "??1CTaskGoggles@@UAE@XZ": 269034080,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 640928,
+          "inferred_targets": {
+            "??1CTaskGoggles@@UAE@XZ": 269076304,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 696576,
+          "inferred_targets": {
+            "??1CTaskGoggles@@UAE@XZ": 269128752,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 725968,
+          "inferred_targets": {
+            "??1CTaskGoggles@@UAE@XZ": 269161120,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 731456,
+          "inferred_targets": {
+            "??1CTaskGoggles@@UAE@XZ": 269165984,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 731632,
+          "inferred_targets": {
+            "??1CTaskGoggles@@UAE@XZ": 269166512,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 731664,
+          "inferred_targets": {
+            "??1CTaskGoggles@@UAE@XZ": 269167152,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 731712,
+          "inferred_targets": {
+            "??1CTaskGoggles@@UAE@XZ": 269167200,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 731760,
+          "inferred_targets": {
+            "??1CTaskGoggles@@UAE@XZ": 269167248,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 731808,
+          "inferred_targets": {
+            "??1CTaskGoggles@@UAE@XZ": 269167296,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 756560,
+          "inferred_targets": {
+            "??1CTaskGoggles@@UAE@XZ": 269191408,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 802400,
+          "inferred_targets": {
+            "??1CTaskGoggles@@UAE@XZ": 268474496,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 807952,
+          "inferred_targets": {
+            "??1CTaskGoggles@@UAE@XZ": 269012016,
+            "??3@YAXPAX@Z": 269247626
+          }
+        }
+      ]
+    },
+    {
+      "unit": "game_task",
+      "symbol": "??0CTaskGoToPoint@@QAE@HPAU_VECTOR@@MHH@Z",
+      "size": 74,
+      "object_sha256": "42b97504904277e579d46f1380cbbb27fe7f950f356a5af48306abd785bef213",
+      "candidates": [
+        {
+          "rva": 731296,
+          "inferred_targets": {
+            "??0CTask@@QAE@XZ": 269165952,
+            "??_7CTaskGoToPoint@@6B@": 269407124,
+            "?Create@CTask@@QAEXK@Z": 269166000
+          }
+        }
+      ]
+    },
+    {
+      "unit": "game_task",
+      "symbol": "??_GCTaskGoToPoint@@UAEPAXI@Z",
+      "size": 30,
+      "object_sha256": "42b97504904277e579d46f1380cbbb27fe7f950f356a5af48306abd785bef213",
+      "candidates": [
+        {
+          "rva": 34688,
+          "inferred_targets": {
+            "??1CTaskGoToPoint@@UAE@XZ": 268517664,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 34720,
+          "inferred_targets": {
+            "??1CTaskGoToPoint@@UAE@XZ": 268562528,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 34752,
+          "inferred_targets": {
+            "??1CTaskGoToPoint@@UAE@XZ": 268441824,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 34784,
+          "inferred_targets": {
+            "??1CTaskGoToPoint@@UAE@XZ": 268560592,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 34816,
+          "inferred_targets": {
+            "??1CTaskGoToPoint@@UAE@XZ": 268443984,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 34848,
+          "inferred_targets": {
+            "??1CTaskGoToPoint@@UAE@XZ": 268441056,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 34880,
+          "inferred_targets": {
+            "??1CTaskGoToPoint@@UAE@XZ": 268514320,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 34912,
+          "inferred_targets": {
+            "??1CTaskGoToPoint@@UAE@XZ": 268513632,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 34944,
+          "inferred_targets": {
+            "??1CTaskGoToPoint@@UAE@XZ": 268468672,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 48032,
+          "inferred_targets": {
+            "??1CTaskGoToPoint@@UAE@XZ": 268483440,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 56832,
+          "inferred_targets": {
+            "??1CTaskGoToPoint@@UAE@XZ": 268491696,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 79632,
+          "inferred_targets": {
+            "??1CTaskGoToPoint@@UAE@XZ": 268527200,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 82032,
+          "inferred_targets": {
+            "??1CTaskGoToPoint@@UAE@XZ": 268517216,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 124880,
+          "inferred_targets": {
+            "??1CTaskGoToPoint@@UAE@XZ": 269168464,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 133696,
+          "inferred_targets": {
+            "??1CTaskGoToPoint@@UAE@XZ": 268569136,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 144432,
+          "inferred_targets": {
+            "??1CTaskGoToPoint@@UAE@XZ": 268578240,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 154640,
+          "inferred_targets": {
+            "??1CTaskGoToPoint@@UAE@XZ": 268614224,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 167776,
+          "inferred_targets": {
+            "??1CTaskGoToPoint@@UAE@XZ": 268599120,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 167808,
+          "inferred_targets": {
+            "??1CTaskGoToPoint@@UAE@XZ": 268599104,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 183856,
+          "inferred_targets": {
+            "??1CTaskGoToPoint@@UAE@XZ": 268618400,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 189968,
+          "inferred_targets": {
+            "??1CTaskGoToPoint@@UAE@XZ": 268625248,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 193856,
+          "inferred_targets": {
+            "??1CTaskGoToPoint@@UAE@XZ": 268628832,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 202624,
+          "inferred_targets": {
+            "??1CTaskGoToPoint@@UAE@XZ": 268637056,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 209616,
+          "inferred_targets": {
+            "??1CTaskGoToPoint@@UAE@XZ": 268644976,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 209856,
+          "inferred_targets": {
+            "??1CTaskGoToPoint@@UAE@XZ": 268644992,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 210448,
+          "inferred_targets": {
+            "??1CTaskGoToPoint@@UAE@XZ": 268645408,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 211520,
+          "inferred_targets": {
+            "??1CTaskGoToPoint@@UAE@XZ": 268647008,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 211600,
+          "inferred_targets": {
+            "??1CTaskGoToPoint@@UAE@XZ": 268647024,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 212096,
+          "inferred_targets": {
+            "??1CTaskGoToPoint@@UAE@XZ": 268647200,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 216144,
+          "inferred_targets": {
+            "??1CTaskGoToPoint@@UAE@XZ": 268648608,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 222704,
+          "inferred_targets": {
+            "??1CTaskGoToPoint@@UAE@XZ": 268653872,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 226080,
+          "inferred_targets": {
+            "??1CTaskGoToPoint@@UAE@XZ": 268660672,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 228864,
+          "inferred_targets": {
+            "??1CTaskGoToPoint@@UAE@XZ": 268585936,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 228896,
+          "inferred_targets": {
+            "??1CTaskGoToPoint@@UAE@XZ": 268750880,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 228976,
+          "inferred_targets": {
+            "??1CTaskGoToPoint@@UAE@XZ": 268661952,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 229008,
+          "inferred_targets": {
+            "??1CTaskGoToPoint@@UAE@XZ": 268793232,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 229072,
+          "inferred_targets": {
+            "??1CTaskGoToPoint@@UAE@XZ": 268762880,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 229104,
+          "inferred_targets": {
+            "??1CTaskGoToPoint@@UAE@XZ": 268582960,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 232240,
+          "inferred_targets": {
+            "??1CTaskGoToPoint@@UAE@XZ": 268595104,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 272256,
+          "inferred_targets": {
+            "??1CTaskGoToPoint@@UAE@XZ": 268701328,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 276320,
+          "inferred_targets": {
+            "??1CTaskGoToPoint@@UAE@XZ": 268708736,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 289504,
+          "inferred_targets": {
+            "??1CTaskGoToPoint@@UAE@XZ": 268721968,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 294992,
+          "inferred_targets": {
+            "??1CTaskGoToPoint@@UAE@XZ": 268728608,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 304160,
+          "inferred_targets": {
+            "??1CTaskGoToPoint@@UAE@XZ": 268564688,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 314336,
+          "inferred_targets": {
+            "??1CTaskGoToPoint@@UAE@XZ": 268749312,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 324992,
+          "inferred_targets": {
+            "??1CTaskGoToPoint@@UAE@XZ": 268760368,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 341952,
+          "inferred_targets": {
+            "??1CTaskGoToPoint@@UAE@XZ": 268777392,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 345856,
+          "inferred_targets": {
+            "??1CTaskGoToPoint@@UAE@XZ": 268781072,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 347552,
+          "inferred_targets": {
+            "??1CTaskGoToPoint@@UAE@XZ": 268782816,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 361712,
+          "inferred_targets": {
+            "??1CTaskGoToPoint@@UAE@XZ": 268797088,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 361824,
+          "inferred_targets": {
+            "??1CTaskGoToPoint@@UAE@XZ": 268797200,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 362352,
+          "inferred_targets": {
+            "??1CTaskGoToPoint@@UAE@XZ": 268797840,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 362592,
+          "inferred_targets": {
+            "??1CTaskGoToPoint@@UAE@XZ": 268798080,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 408400,
+          "inferred_targets": {
+            "??1CTaskGoToPoint@@UAE@XZ": 268843728,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 411264,
+          "inferred_targets": {
+            "??1CTaskGoToPoint@@UAE@XZ": 268846752,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 411744,
+          "inferred_targets": {
+            "??1CTaskGoToPoint@@UAE@XZ": 268849920,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 414384,
+          "inferred_targets": {
+            "??1CTaskGoToPoint@@UAE@XZ": 268849872,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 415120,
+          "inferred_targets": {
+            "??1CTaskGoToPoint@@UAE@XZ": 268850176,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 461680,
+          "inferred_targets": {
+            "??1CTaskGoToPoint@@UAE@XZ": 268873984,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 539040,
+          "inferred_targets": {
+            "??1CTaskGoToPoint@@UAE@XZ": 268974432,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 539248,
+          "inferred_targets": {
+            "??1CTaskGoToPoint@@UAE@XZ": 268974528,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 540016,
+          "inferred_targets": {
+            "??1CTaskGoToPoint@@UAE@XZ": 268975312,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 594464,
+          "inferred_targets": {
+            "??1CTaskGoToPoint@@UAE@XZ": 269017984,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 594496,
+          "inferred_targets": {
+            "??1CTaskGoToPoint@@UAE@XZ": 269018176,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 594528,
+          "inferred_targets": {
+            "??1CTaskGoToPoint@@UAE@XZ": 269018432,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 594560,
+          "inferred_targets": {
+            "??1CTaskGoToPoint@@UAE@XZ": 269018880,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 594592,
+          "inferred_targets": {
+            "??1CTaskGoToPoint@@UAE@XZ": 269030080,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 594848,
+          "inferred_targets": {
+            "??1CTaskGoToPoint@@UAE@XZ": 269030336,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 594896,
+          "inferred_targets": {
+            "??1CTaskGoToPoint@@UAE@XZ": 269020544,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 594928,
+          "inferred_targets": {
+            "??1CTaskGoToPoint@@UAE@XZ": 269020752,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 594960,
+          "inferred_targets": {
+            "??1CTaskGoToPoint@@UAE@XZ": 269022128,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 594992,
+          "inferred_targets": {
+            "??1CTaskGoToPoint@@UAE@XZ": 269023728,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 595168,
+          "inferred_targets": {
+            "??1CTaskGoToPoint@@UAE@XZ": 269030256,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 598832,
+          "inferred_targets": {
+            "??1CTaskGoToPoint@@UAE@XZ": 269032896,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 598864,
+          "inferred_targets": {
+            "??1CTaskGoToPoint@@UAE@XZ": 269034080,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 640928,
+          "inferred_targets": {
+            "??1CTaskGoToPoint@@UAE@XZ": 269076304,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 696576,
+          "inferred_targets": {
+            "??1CTaskGoToPoint@@UAE@XZ": 269128752,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 725968,
+          "inferred_targets": {
+            "??1CTaskGoToPoint@@UAE@XZ": 269161120,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 731456,
+          "inferred_targets": {
+            "??1CTaskGoToPoint@@UAE@XZ": 269165984,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 731632,
+          "inferred_targets": {
+            "??1CTaskGoToPoint@@UAE@XZ": 269166512,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 731664,
+          "inferred_targets": {
+            "??1CTaskGoToPoint@@UAE@XZ": 269167152,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 731712,
+          "inferred_targets": {
+            "??1CTaskGoToPoint@@UAE@XZ": 269167200,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 731760,
+          "inferred_targets": {
+            "??1CTaskGoToPoint@@UAE@XZ": 269167248,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 731808,
+          "inferred_targets": {
+            "??1CTaskGoToPoint@@UAE@XZ": 269167296,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 756560,
+          "inferred_targets": {
+            "??1CTaskGoToPoint@@UAE@XZ": 269191408,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 802400,
+          "inferred_targets": {
+            "??1CTaskGoToPoint@@UAE@XZ": 268474496,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 807952,
+          "inferred_targets": {
+            "??1CTaskGoToPoint@@UAE@XZ": 269012016,
+            "??3@YAXPAX@Z": 269247626
+          }
+        }
+      ]
+    },
+    {
+      "unit": "game_task",
+      "symbol": "??0CTaskKillPedOnFootArmed@@QAE@HHHHPAU_PED_TYPE@@@Z",
+      "size": 74,
+      "object_sha256": "42b97504904277e579d46f1380cbbb27fe7f950f356a5af48306abd785bef213",
+      "candidates": [
+        {
+          "rva": 731376,
+          "inferred_targets": {
+            "??0CTask@@QAE@XZ": 269165952,
+            "??_7CTaskKillPedOnFootArmed@@6B@": 269407152,
+            "?Create@CTask@@QAEXK@Z": 269166000
+          }
+        }
+      ]
+    },
+    {
+      "unit": "game_task",
+      "symbol": "??_GCTaskKillPedOnFootArmed@@UAEPAXI@Z",
+      "size": 30,
+      "object_sha256": "42b97504904277e579d46f1380cbbb27fe7f950f356a5af48306abd785bef213",
+      "candidates": [
+        {
+          "rva": 34688,
+          "inferred_targets": {
+            "??1CTaskKillPedOnFootArmed@@UAE@XZ": 268517664,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 34720,
+          "inferred_targets": {
+            "??1CTaskKillPedOnFootArmed@@UAE@XZ": 268562528,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 34752,
+          "inferred_targets": {
+            "??1CTaskKillPedOnFootArmed@@UAE@XZ": 268441824,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 34784,
+          "inferred_targets": {
+            "??1CTaskKillPedOnFootArmed@@UAE@XZ": 268560592,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 34816,
+          "inferred_targets": {
+            "??1CTaskKillPedOnFootArmed@@UAE@XZ": 268443984,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 34848,
+          "inferred_targets": {
+            "??1CTaskKillPedOnFootArmed@@UAE@XZ": 268441056,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 34880,
+          "inferred_targets": {
+            "??1CTaskKillPedOnFootArmed@@UAE@XZ": 268514320,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 34912,
+          "inferred_targets": {
+            "??1CTaskKillPedOnFootArmed@@UAE@XZ": 268513632,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 34944,
+          "inferred_targets": {
+            "??1CTaskKillPedOnFootArmed@@UAE@XZ": 268468672,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 48032,
+          "inferred_targets": {
+            "??1CTaskKillPedOnFootArmed@@UAE@XZ": 268483440,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 56832,
+          "inferred_targets": {
+            "??1CTaskKillPedOnFootArmed@@UAE@XZ": 268491696,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 79632,
+          "inferred_targets": {
+            "??1CTaskKillPedOnFootArmed@@UAE@XZ": 268527200,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 82032,
+          "inferred_targets": {
+            "??1CTaskKillPedOnFootArmed@@UAE@XZ": 268517216,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 124880,
+          "inferred_targets": {
+            "??1CTaskKillPedOnFootArmed@@UAE@XZ": 269168464,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 133696,
+          "inferred_targets": {
+            "??1CTaskKillPedOnFootArmed@@UAE@XZ": 268569136,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 144432,
+          "inferred_targets": {
+            "??1CTaskKillPedOnFootArmed@@UAE@XZ": 268578240,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 154640,
+          "inferred_targets": {
+            "??1CTaskKillPedOnFootArmed@@UAE@XZ": 268614224,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 167776,
+          "inferred_targets": {
+            "??1CTaskKillPedOnFootArmed@@UAE@XZ": 268599120,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 167808,
+          "inferred_targets": {
+            "??1CTaskKillPedOnFootArmed@@UAE@XZ": 268599104,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 183856,
+          "inferred_targets": {
+            "??1CTaskKillPedOnFootArmed@@UAE@XZ": 268618400,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 189968,
+          "inferred_targets": {
+            "??1CTaskKillPedOnFootArmed@@UAE@XZ": 268625248,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 193856,
+          "inferred_targets": {
+            "??1CTaskKillPedOnFootArmed@@UAE@XZ": 268628832,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 202624,
+          "inferred_targets": {
+            "??1CTaskKillPedOnFootArmed@@UAE@XZ": 268637056,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 209616,
+          "inferred_targets": {
+            "??1CTaskKillPedOnFootArmed@@UAE@XZ": 268644976,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 209856,
+          "inferred_targets": {
+            "??1CTaskKillPedOnFootArmed@@UAE@XZ": 268644992,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 210448,
+          "inferred_targets": {
+            "??1CTaskKillPedOnFootArmed@@UAE@XZ": 268645408,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 211520,
+          "inferred_targets": {
+            "??1CTaskKillPedOnFootArmed@@UAE@XZ": 268647008,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 211600,
+          "inferred_targets": {
+            "??1CTaskKillPedOnFootArmed@@UAE@XZ": 268647024,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 212096,
+          "inferred_targets": {
+            "??1CTaskKillPedOnFootArmed@@UAE@XZ": 268647200,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 216144,
+          "inferred_targets": {
+            "??1CTaskKillPedOnFootArmed@@UAE@XZ": 268648608,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 222704,
+          "inferred_targets": {
+            "??1CTaskKillPedOnFootArmed@@UAE@XZ": 268653872,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 226080,
+          "inferred_targets": {
+            "??1CTaskKillPedOnFootArmed@@UAE@XZ": 268660672,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 228864,
+          "inferred_targets": {
+            "??1CTaskKillPedOnFootArmed@@UAE@XZ": 268585936,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 228896,
+          "inferred_targets": {
+            "??1CTaskKillPedOnFootArmed@@UAE@XZ": 268750880,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 228976,
+          "inferred_targets": {
+            "??1CTaskKillPedOnFootArmed@@UAE@XZ": 268661952,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 229008,
+          "inferred_targets": {
+            "??1CTaskKillPedOnFootArmed@@UAE@XZ": 268793232,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 229072,
+          "inferred_targets": {
+            "??1CTaskKillPedOnFootArmed@@UAE@XZ": 268762880,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 229104,
+          "inferred_targets": {
+            "??1CTaskKillPedOnFootArmed@@UAE@XZ": 268582960,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 232240,
+          "inferred_targets": {
+            "??1CTaskKillPedOnFootArmed@@UAE@XZ": 268595104,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 272256,
+          "inferred_targets": {
+            "??1CTaskKillPedOnFootArmed@@UAE@XZ": 268701328,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 276320,
+          "inferred_targets": {
+            "??1CTaskKillPedOnFootArmed@@UAE@XZ": 268708736,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 289504,
+          "inferred_targets": {
+            "??1CTaskKillPedOnFootArmed@@UAE@XZ": 268721968,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 294992,
+          "inferred_targets": {
+            "??1CTaskKillPedOnFootArmed@@UAE@XZ": 268728608,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 304160,
+          "inferred_targets": {
+            "??1CTaskKillPedOnFootArmed@@UAE@XZ": 268564688,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 314336,
+          "inferred_targets": {
+            "??1CTaskKillPedOnFootArmed@@UAE@XZ": 268749312,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 324992,
+          "inferred_targets": {
+            "??1CTaskKillPedOnFootArmed@@UAE@XZ": 268760368,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 341952,
+          "inferred_targets": {
+            "??1CTaskKillPedOnFootArmed@@UAE@XZ": 268777392,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 345856,
+          "inferred_targets": {
+            "??1CTaskKillPedOnFootArmed@@UAE@XZ": 268781072,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 347552,
+          "inferred_targets": {
+            "??1CTaskKillPedOnFootArmed@@UAE@XZ": 268782816,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 361712,
+          "inferred_targets": {
+            "??1CTaskKillPedOnFootArmed@@UAE@XZ": 268797088,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 361824,
+          "inferred_targets": {
+            "??1CTaskKillPedOnFootArmed@@UAE@XZ": 268797200,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 362352,
+          "inferred_targets": {
+            "??1CTaskKillPedOnFootArmed@@UAE@XZ": 268797840,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 362592,
+          "inferred_targets": {
+            "??1CTaskKillPedOnFootArmed@@UAE@XZ": 268798080,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 408400,
+          "inferred_targets": {
+            "??1CTaskKillPedOnFootArmed@@UAE@XZ": 268843728,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 411264,
+          "inferred_targets": {
+            "??1CTaskKillPedOnFootArmed@@UAE@XZ": 268846752,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 411744,
+          "inferred_targets": {
+            "??1CTaskKillPedOnFootArmed@@UAE@XZ": 268849920,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 414384,
+          "inferred_targets": {
+            "??1CTaskKillPedOnFootArmed@@UAE@XZ": 268849872,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 415120,
+          "inferred_targets": {
+            "??1CTaskKillPedOnFootArmed@@UAE@XZ": 268850176,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 461680,
+          "inferred_targets": {
+            "??1CTaskKillPedOnFootArmed@@UAE@XZ": 268873984,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 539040,
+          "inferred_targets": {
+            "??1CTaskKillPedOnFootArmed@@UAE@XZ": 268974432,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 539248,
+          "inferred_targets": {
+            "??1CTaskKillPedOnFootArmed@@UAE@XZ": 268974528,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 540016,
+          "inferred_targets": {
+            "??1CTaskKillPedOnFootArmed@@UAE@XZ": 268975312,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 594464,
+          "inferred_targets": {
+            "??1CTaskKillPedOnFootArmed@@UAE@XZ": 269017984,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 594496,
+          "inferred_targets": {
+            "??1CTaskKillPedOnFootArmed@@UAE@XZ": 269018176,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 594528,
+          "inferred_targets": {
+            "??1CTaskKillPedOnFootArmed@@UAE@XZ": 269018432,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 594560,
+          "inferred_targets": {
+            "??1CTaskKillPedOnFootArmed@@UAE@XZ": 269018880,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 594592,
+          "inferred_targets": {
+            "??1CTaskKillPedOnFootArmed@@UAE@XZ": 269030080,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 594848,
+          "inferred_targets": {
+            "??1CTaskKillPedOnFootArmed@@UAE@XZ": 269030336,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 594896,
+          "inferred_targets": {
+            "??1CTaskKillPedOnFootArmed@@UAE@XZ": 269020544,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 594928,
+          "inferred_targets": {
+            "??1CTaskKillPedOnFootArmed@@UAE@XZ": 269020752,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 594960,
+          "inferred_targets": {
+            "??1CTaskKillPedOnFootArmed@@UAE@XZ": 269022128,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 594992,
+          "inferred_targets": {
+            "??1CTaskKillPedOnFootArmed@@UAE@XZ": 269023728,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 595168,
+          "inferred_targets": {
+            "??1CTaskKillPedOnFootArmed@@UAE@XZ": 269030256,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 598832,
+          "inferred_targets": {
+            "??1CTaskKillPedOnFootArmed@@UAE@XZ": 269032896,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 598864,
+          "inferred_targets": {
+            "??1CTaskKillPedOnFootArmed@@UAE@XZ": 269034080,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 640928,
+          "inferred_targets": {
+            "??1CTaskKillPedOnFootArmed@@UAE@XZ": 269076304,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 696576,
+          "inferred_targets": {
+            "??1CTaskKillPedOnFootArmed@@UAE@XZ": 269128752,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 725968,
+          "inferred_targets": {
+            "??1CTaskKillPedOnFootArmed@@UAE@XZ": 269161120,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 731456,
+          "inferred_targets": {
+            "??1CTaskKillPedOnFootArmed@@UAE@XZ": 269165984,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 731632,
+          "inferred_targets": {
+            "??1CTaskKillPedOnFootArmed@@UAE@XZ": 269166512,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 731664,
+          "inferred_targets": {
+            "??1CTaskKillPedOnFootArmed@@UAE@XZ": 269167152,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 731712,
+          "inferred_targets": {
+            "??1CTaskKillPedOnFootArmed@@UAE@XZ": 269167200,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 731760,
+          "inferred_targets": {
+            "??1CTaskKillPedOnFootArmed@@UAE@XZ": 269167248,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 731808,
+          "inferred_targets": {
+            "??1CTaskKillPedOnFootArmed@@UAE@XZ": 269167296,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 756560,
+          "inferred_targets": {
+            "??1CTaskKillPedOnFootArmed@@UAE@XZ": 269191408,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 802400,
+          "inferred_targets": {
+            "??1CTaskKillPedOnFootArmed@@UAE@XZ": 268474496,
+            "??3@YAXPAX@Z": 269247626
+          }
+        },
+        {
+          "rva": 807952,
+          "inferred_targets": {
+            "??1CTaskKillPedOnFootArmed@@UAE@XZ": 269012016,
+            "??3@YAXPAX@Z": 269247626
+          }
+        }
+      ]
+    },
+    {
+      "unit": "game_task",
+      "symbol": "??0CTask@@QAE@K@Z",
+      "size": 33,
+      "object_sha256": "42b97504904277e579d46f1380cbbb27fe7f950f356a5af48306abd785bef213",
+      "candidates": [
+        {
+          "rva": 731488,
+          "inferred_targets": {
+            "??_7CTask@@6B@": 269407012,
+            "?Create@CTask@@QAEXK@Z": 269166000
+          }
+        }
+      ]
+    },
+    {
+      "unit": "game_task",
+      "symbol": "??0CTask@@QAE@PAE@Z",
+      "size": 29,
+      "object_sha256": "42b97504904277e579d46f1380cbbb27fe7f950f356a5af48306abd785bef213",
+      "candidates": [
+        {
+          "rva": 731536,
+          "inferred_targets": {
+            "??_7CTask@@6B@": 269407012,
+            "?Create@CTask@@QAEXPAE@Z": 269166048
+          }
+        }
+      ]
+    },
+    {
+      "unit": "game_task",
+      "symbol": "?CreateCopy@CTask@@UAEPAV1@XZ",
+      "size": 58,
+      "object_sha256": "42b97504904277e579d46f1380cbbb27fe7f950f356a5af48306abd785bef213",
+      "candidates": [
+        {
+          "rva": 731568,
+          "inferred_targets": {
+            "??2@YAPAXI@Z": 269247098,
+            "??0CTask@@QAE@PAE@Z": 269166992
+          }
+        }
+      ]
+    },
+    {
+      "unit": "game_task",
+      "symbol": "??1CTaskTakeDamageFall@@UAE@XZ",
+      "size": 5,
+      "object_sha256": "42b97504904277e579d46f1380cbbb27fe7f950f356a5af48306abd785bef213",
+      "candidates": [
+        {
+          "rva": 33728,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 269250016
+          }
+        },
+        {
+          "rva": 35040,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 268625904
+          }
+        },
+        {
+          "rva": 133824,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 268646112
+          }
+        },
+        {
+          "rva": 133840,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 268646160
+          }
+        },
+        {
+          "rva": 133856,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 268646208
+          }
+        },
+        {
+          "rva": 133872,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 268646256
+          }
+        },
+        {
+          "rva": 136528,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 268570016
+          }
+        },
+        {
+          "rva": 136544,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 268570016
+          }
+        },
+        {
+          "rva": 141152,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 268573712
+          }
+        },
+        {
+          "rva": 141728,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 268574192
+          }
+        },
+        {
+          "rva": 141952,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 268574384
+          }
+        },
+        {
+          "rva": 142224,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 268575152
+          }
+        },
+        {
+          "rva": 142384,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 268575760
+          }
+        },
+        {
+          "rva": 142592,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 268577184
+          }
+        },
+        {
+          "rva": 157120,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 268592384
+          }
+        },
+        {
+          "rva": 159536,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 268594288
+          }
+        },
+        {
+          "rva": 159648,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 268594368
+          }
+        },
+        {
+          "rva": 163648,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 268596464
+          }
+        },
+        {
+          "rva": 163664,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 268596240
+          }
+        },
+        {
+          "rva": 165088,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 268596640
+          }
+        },
+        {
+          "rva": 168064,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 268600704
+          }
+        },
+        {
+          "rva": 183616,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 268618432
+          }
+        },
+        {
+          "rva": 186352,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 268621104
+          }
+        },
+        {
+          "rva": 186576,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 268621568
+          }
+        },
+        {
+          "rva": 193440,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 268599120
+          }
+        },
+        {
+          "rva": 193472,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 268599120
+          }
+        },
+        {
+          "rva": 193664,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 268628720
+          }
+        },
+        {
+          "rva": 195264,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 268629584
+          }
+        },
+        {
+          "rva": 195456,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 268630048
+          }
+        },
+        {
+          "rva": 211552,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 268647200
+          }
+        },
+        {
+          "rva": 213488,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 268699168
+          }
+        },
+        {
+          "rva": 213808,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 268666288
+          }
+        },
+        {
+          "rva": 214256,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 268667488
+          }
+        },
+        {
+          "rva": 214272,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 268676256
+          }
+        },
+        {
+          "rva": 214288,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 268666352
+          }
+        },
+        {
+          "rva": 214304,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 268666400
+          }
+        },
+        {
+          "rva": 214320,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 268666448
+          }
+        },
+        {
+          "rva": 214704,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 268667728
+          }
+        },
+        {
+          "rva": 214720,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 268667792
+          }
+        },
+        {
+          "rva": 214736,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 268676384
+          }
+        },
+        {
+          "rva": 214752,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 268676448
+          }
+        },
+        {
+          "rva": 215216,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 268676528
+          }
+        },
+        {
+          "rva": 215232,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 268667856
+          }
+        },
+        {
+          "rva": 215248,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 268667872
+          }
+        },
+        {
+          "rva": 215328,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 268666976
+          }
+        },
+        {
+          "rva": 215344,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 268667056
+          }
+        },
+        {
+          "rva": 215360,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 268667232
+          }
+        },
+        {
+          "rva": 215376,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 268675888
+          }
+        },
+        {
+          "rva": 215472,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 268668032
+          }
+        },
+        {
+          "rva": 248944,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 268677328
+          }
+        },
+        {
+          "rva": 262640,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 268687568
+          }
+        },
+        {
+          "rva": 286112,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 268721552
+          }
+        },
+        {
+          "rva": 286480,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 268717584
+          }
+        },
+        {
+          "rva": 291168,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 268722368
+          }
+        },
+        {
+          "rva": 291264,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 268722480
+          }
+        },
+        {
+          "rva": 291392,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 268723088
+          }
+        },
+        {
+          "rva": 294160,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 268726896
+          }
+        },
+        {
+          "rva": 308992,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 268743488
+          }
+        },
+        {
+          "rva": 309120,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 268743568
+          }
+        },
+        {
+          "rva": 309248,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 268743632
+          }
+        },
+        {
+          "rva": 324384,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 268569616
+          }
+        },
+        {
+          "rva": 333536,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 268768848
+          }
+        },
+        {
+          "rva": 343248,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 268778560
+          }
+        },
+        {
+          "rva": 344272,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 268779088
+          }
+        },
+        {
+          "rva": 354688,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 268588496
+          }
+        },
+        {
+          "rva": 410400,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 268845744
+          }
+        },
+        {
+          "rva": 422928,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 268857760
+          }
+        },
+        {
+          "rva": 428512,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 269237888
+          }
+        },
+        {
+          "rva": 435888,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 268871120
+          }
+        },
+        {
+          "rva": 448992,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 268883888
+          }
+        },
+        {
+          "rva": 460960,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 268896304
+          }
+        },
+        {
+          "rva": 471552,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 268905520
+          }
+        },
+        {
+          "rva": 491072,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 268921648
+          }
+        },
+        {
+          "rva": 491088,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 268925536
+          }
+        },
+        {
+          "rva": 491104,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 268920704
+          }
+        },
+        {
+          "rva": 491744,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 268926576
+          }
+        },
+        {
+          "rva": 509984,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 268943552
+          }
+        },
+        {
+          "rva": 536640,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 268970592
+          }
+        },
+        {
+          "rva": 536704,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 268970736
+          }
+        },
+        {
+          "rva": 536768,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 268970880
+          }
+        },
+        {
+          "rva": 536832,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 268971024
+          }
+        },
+        {
+          "rva": 536896,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 268971168
+          }
+        },
+        {
+          "rva": 536976,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 268971312
+          }
+        },
+        {
+          "rva": 537040,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 268971456
+          }
+        },
+        {
+          "rva": 537104,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 268971600
+          }
+        },
+        {
+          "rva": 537168,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 268971744
+          }
+        },
+        {
+          "rva": 563712,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 268986768
+          }
+        },
+        {
+          "rva": 563776,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 268986912
+          }
+        },
+        {
+          "rva": 563840,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 268987056
+          }
+        },
+        {
+          "rva": 563904,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 268987200
+          }
+        },
+        {
+          "rva": 563968,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 268987344
+          }
+        },
+        {
+          "rva": 564032,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 268987488
+          }
+        },
+        {
+          "rva": 564192,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 268987632
+          }
+        },
+        {
+          "rva": 564256,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 268987776
+          }
+        },
+        {
+          "rva": 582720,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 269017984
+          }
+        },
+        {
+          "rva": 582976,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 269017984
+          }
+        },
+        {
+          "rva": 583424,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 269017984
+          }
+        },
+        {
+          "rva": 594624,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 269017984
+          }
+        },
+        {
+          "rva": 594880,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 269017984
+          }
+        },
+        {
+          "rva": 604192,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 269039632
+          }
+        },
+        {
+          "rva": 620080,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 269050144
+          }
+        },
+        {
+          "rva": 620160,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 269050288
+          }
+        },
+        {
+          "rva": 620240,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 269050432
+          }
+        },
+        {
+          "rva": 620320,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 269050576
+          }
+        },
+        {
+          "rva": 656336,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 269172256
+          }
+        },
+        {
+          "rva": 703520,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 269076864
+          }
+        },
+        {
+          "rva": 731696,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 269165984
+          }
+        },
+        {
+          "rva": 731744,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 269165984
+          }
+        },
+        {
+          "rva": 731792,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 269165984
+          }
+        },
+        {
+          "rva": 731840,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 269165984
+          }
+        },
+        {
+          "rva": 742512,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 269177600
+          }
+        },
+        {
+          "rva": 763648,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 269198944
+          }
+        },
+        {
+          "rva": 772064,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 269249085
+          }
+        },
+        {
+          "rva": 807536,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 269242560
+          }
+        },
+        {
+          "rva": 811980,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 269247098
+          }
+        },
+        {
+          "rva": 812170,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 269249085
+          }
+        },
+        {
+          "rva": 814374,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 269249694
+          }
+        },
+        {
+          "rva": 819053,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 269254492
+          }
+        },
+        {
+          "rva": 819547,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 269254961
+          }
+        },
+        {
+          "rva": 830249,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 269247626
+          }
+        }
+      ]
+    },
+    {
+      "unit": "game_task",
+      "symbol": "??1CTaskGoggles@@UAE@XZ",
+      "size": 5,
+      "object_sha256": "42b97504904277e579d46f1380cbbb27fe7f950f356a5af48306abd785bef213",
+      "candidates": [
+        {
+          "rva": 33728,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 269250016
+          }
+        },
+        {
+          "rva": 35040,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 268625904
+          }
+        },
+        {
+          "rva": 133824,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 268646112
+          }
+        },
+        {
+          "rva": 133840,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 268646160
+          }
+        },
+        {
+          "rva": 133856,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 268646208
+          }
+        },
+        {
+          "rva": 133872,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 268646256
+          }
+        },
+        {
+          "rva": 136528,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 268570016
+          }
+        },
+        {
+          "rva": 136544,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 268570016
+          }
+        },
+        {
+          "rva": 141152,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 268573712
+          }
+        },
+        {
+          "rva": 141728,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 268574192
+          }
+        },
+        {
+          "rva": 141952,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 268574384
+          }
+        },
+        {
+          "rva": 142224,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 268575152
+          }
+        },
+        {
+          "rva": 142384,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 268575760
+          }
+        },
+        {
+          "rva": 142592,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 268577184
+          }
+        },
+        {
+          "rva": 157120,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 268592384
+          }
+        },
+        {
+          "rva": 159536,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 268594288
+          }
+        },
+        {
+          "rva": 159648,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 268594368
+          }
+        },
+        {
+          "rva": 163648,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 268596464
+          }
+        },
+        {
+          "rva": 163664,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 268596240
+          }
+        },
+        {
+          "rva": 165088,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 268596640
+          }
+        },
+        {
+          "rva": 168064,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 268600704
+          }
+        },
+        {
+          "rva": 183616,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 268618432
+          }
+        },
+        {
+          "rva": 186352,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 268621104
+          }
+        },
+        {
+          "rva": 186576,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 268621568
+          }
+        },
+        {
+          "rva": 193440,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 268599120
+          }
+        },
+        {
+          "rva": 193472,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 268599120
+          }
+        },
+        {
+          "rva": 193664,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 268628720
+          }
+        },
+        {
+          "rva": 195264,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 268629584
+          }
+        },
+        {
+          "rva": 195456,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 268630048
+          }
+        },
+        {
+          "rva": 211552,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 268647200
+          }
+        },
+        {
+          "rva": 213488,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 268699168
+          }
+        },
+        {
+          "rva": 213808,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 268666288
+          }
+        },
+        {
+          "rva": 214256,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 268667488
+          }
+        },
+        {
+          "rva": 214272,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 268676256
+          }
+        },
+        {
+          "rva": 214288,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 268666352
+          }
+        },
+        {
+          "rva": 214304,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 268666400
+          }
+        },
+        {
+          "rva": 214320,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 268666448
+          }
+        },
+        {
+          "rva": 214704,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 268667728
+          }
+        },
+        {
+          "rva": 214720,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 268667792
+          }
+        },
+        {
+          "rva": 214736,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 268676384
+          }
+        },
+        {
+          "rva": 214752,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 268676448
+          }
+        },
+        {
+          "rva": 215216,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 268676528
+          }
+        },
+        {
+          "rva": 215232,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 268667856
+          }
+        },
+        {
+          "rva": 215248,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 268667872
+          }
+        },
+        {
+          "rva": 215328,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 268666976
+          }
+        },
+        {
+          "rva": 215344,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 268667056
+          }
+        },
+        {
+          "rva": 215360,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 268667232
+          }
+        },
+        {
+          "rva": 215376,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 268675888
+          }
+        },
+        {
+          "rva": 215472,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 268668032
+          }
+        },
+        {
+          "rva": 248944,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 268677328
+          }
+        },
+        {
+          "rva": 262640,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 268687568
+          }
+        },
+        {
+          "rva": 286112,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 268721552
+          }
+        },
+        {
+          "rva": 286480,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 268717584
+          }
+        },
+        {
+          "rva": 291168,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 268722368
+          }
+        },
+        {
+          "rva": 291264,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 268722480
+          }
+        },
+        {
+          "rva": 291392,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 268723088
+          }
+        },
+        {
+          "rva": 294160,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 268726896
+          }
+        },
+        {
+          "rva": 308992,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 268743488
+          }
+        },
+        {
+          "rva": 309120,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 268743568
+          }
+        },
+        {
+          "rva": 309248,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 268743632
+          }
+        },
+        {
+          "rva": 324384,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 268569616
+          }
+        },
+        {
+          "rva": 333536,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 268768848
+          }
+        },
+        {
+          "rva": 343248,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 268778560
+          }
+        },
+        {
+          "rva": 344272,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 268779088
+          }
+        },
+        {
+          "rva": 354688,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 268588496
+          }
+        },
+        {
+          "rva": 410400,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 268845744
+          }
+        },
+        {
+          "rva": 422928,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 268857760
+          }
+        },
+        {
+          "rva": 428512,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 269237888
+          }
+        },
+        {
+          "rva": 435888,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 268871120
+          }
+        },
+        {
+          "rva": 448992,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 268883888
+          }
+        },
+        {
+          "rva": 460960,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 268896304
+          }
+        },
+        {
+          "rva": 471552,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 268905520
+          }
+        },
+        {
+          "rva": 491072,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 268921648
+          }
+        },
+        {
+          "rva": 491088,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 268925536
+          }
+        },
+        {
+          "rva": 491104,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 268920704
+          }
+        },
+        {
+          "rva": 491744,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 268926576
+          }
+        },
+        {
+          "rva": 509984,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 268943552
+          }
+        },
+        {
+          "rva": 536640,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 268970592
+          }
+        },
+        {
+          "rva": 536704,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 268970736
+          }
+        },
+        {
+          "rva": 536768,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 268970880
+          }
+        },
+        {
+          "rva": 536832,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 268971024
+          }
+        },
+        {
+          "rva": 536896,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 268971168
+          }
+        },
+        {
+          "rva": 536976,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 268971312
+          }
+        },
+        {
+          "rva": 537040,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 268971456
+          }
+        },
+        {
+          "rva": 537104,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 268971600
+          }
+        },
+        {
+          "rva": 537168,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 268971744
+          }
+        },
+        {
+          "rva": 563712,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 268986768
+          }
+        },
+        {
+          "rva": 563776,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 268986912
+          }
+        },
+        {
+          "rva": 563840,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 268987056
+          }
+        },
+        {
+          "rva": 563904,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 268987200
+          }
+        },
+        {
+          "rva": 563968,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 268987344
+          }
+        },
+        {
+          "rva": 564032,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 268987488
+          }
+        },
+        {
+          "rva": 564192,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 268987632
+          }
+        },
+        {
+          "rva": 564256,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 268987776
+          }
+        },
+        {
+          "rva": 582720,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 269017984
+          }
+        },
+        {
+          "rva": 582976,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 269017984
+          }
+        },
+        {
+          "rva": 583424,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 269017984
+          }
+        },
+        {
+          "rva": 594624,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 269017984
+          }
+        },
+        {
+          "rva": 594880,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 269017984
+          }
+        },
+        {
+          "rva": 604192,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 269039632
+          }
+        },
+        {
+          "rva": 620080,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 269050144
+          }
+        },
+        {
+          "rva": 620160,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 269050288
+          }
+        },
+        {
+          "rva": 620240,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 269050432
+          }
+        },
+        {
+          "rva": 620320,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 269050576
+          }
+        },
+        {
+          "rva": 656336,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 269172256
+          }
+        },
+        {
+          "rva": 703520,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 269076864
+          }
+        },
+        {
+          "rva": 731696,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 269165984
+          }
+        },
+        {
+          "rva": 731744,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 269165984
+          }
+        },
+        {
+          "rva": 731792,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 269165984
+          }
+        },
+        {
+          "rva": 731840,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 269165984
+          }
+        },
+        {
+          "rva": 742512,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 269177600
+          }
+        },
+        {
+          "rva": 763648,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 269198944
+          }
+        },
+        {
+          "rva": 772064,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 269249085
+          }
+        },
+        {
+          "rva": 807536,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 269242560
+          }
+        },
+        {
+          "rva": 811980,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 269247098
+          }
+        },
+        {
+          "rva": 812170,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 269249085
+          }
+        },
+        {
+          "rva": 814374,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 269249694
+          }
+        },
+        {
+          "rva": 819053,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 269254492
+          }
+        },
+        {
+          "rva": 819547,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 269254961
+          }
+        },
+        {
+          "rva": 830249,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 269247626
+          }
+        }
+      ]
+    },
+    {
+      "unit": "game_task",
+      "symbol": "??1CTaskGoToPoint@@UAE@XZ",
+      "size": 5,
+      "object_sha256": "42b97504904277e579d46f1380cbbb27fe7f950f356a5af48306abd785bef213",
+      "candidates": [
+        {
+          "rva": 33728,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 269250016
+          }
+        },
+        {
+          "rva": 35040,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 268625904
+          }
+        },
+        {
+          "rva": 133824,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 268646112
+          }
+        },
+        {
+          "rva": 133840,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 268646160
+          }
+        },
+        {
+          "rva": 133856,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 268646208
+          }
+        },
+        {
+          "rva": 133872,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 268646256
+          }
+        },
+        {
+          "rva": 136528,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 268570016
+          }
+        },
+        {
+          "rva": 136544,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 268570016
+          }
+        },
+        {
+          "rva": 141152,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 268573712
+          }
+        },
+        {
+          "rva": 141728,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 268574192
+          }
+        },
+        {
+          "rva": 141952,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 268574384
+          }
+        },
+        {
+          "rva": 142224,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 268575152
+          }
+        },
+        {
+          "rva": 142384,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 268575760
+          }
+        },
+        {
+          "rva": 142592,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 268577184
+          }
+        },
+        {
+          "rva": 157120,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 268592384
+          }
+        },
+        {
+          "rva": 159536,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 268594288
+          }
+        },
+        {
+          "rva": 159648,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 268594368
+          }
+        },
+        {
+          "rva": 163648,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 268596464
+          }
+        },
+        {
+          "rva": 163664,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 268596240
+          }
+        },
+        {
+          "rva": 165088,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 268596640
+          }
+        },
+        {
+          "rva": 168064,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 268600704
+          }
+        },
+        {
+          "rva": 183616,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 268618432
+          }
+        },
+        {
+          "rva": 186352,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 268621104
+          }
+        },
+        {
+          "rva": 186576,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 268621568
+          }
+        },
+        {
+          "rva": 193440,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 268599120
+          }
+        },
+        {
+          "rva": 193472,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 268599120
+          }
+        },
+        {
+          "rva": 193664,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 268628720
+          }
+        },
+        {
+          "rva": 195264,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 268629584
+          }
+        },
+        {
+          "rva": 195456,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 268630048
+          }
+        },
+        {
+          "rva": 211552,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 268647200
+          }
+        },
+        {
+          "rva": 213488,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 268699168
+          }
+        },
+        {
+          "rva": 213808,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 268666288
+          }
+        },
+        {
+          "rva": 214256,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 268667488
+          }
+        },
+        {
+          "rva": 214272,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 268676256
+          }
+        },
+        {
+          "rva": 214288,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 268666352
+          }
+        },
+        {
+          "rva": 214304,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 268666400
+          }
+        },
+        {
+          "rva": 214320,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 268666448
+          }
+        },
+        {
+          "rva": 214704,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 268667728
+          }
+        },
+        {
+          "rva": 214720,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 268667792
+          }
+        },
+        {
+          "rva": 214736,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 268676384
+          }
+        },
+        {
+          "rva": 214752,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 268676448
+          }
+        },
+        {
+          "rva": 215216,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 268676528
+          }
+        },
+        {
+          "rva": 215232,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 268667856
+          }
+        },
+        {
+          "rva": 215248,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 268667872
+          }
+        },
+        {
+          "rva": 215328,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 268666976
+          }
+        },
+        {
+          "rva": 215344,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 268667056
+          }
+        },
+        {
+          "rva": 215360,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 268667232
+          }
+        },
+        {
+          "rva": 215376,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 268675888
+          }
+        },
+        {
+          "rva": 215472,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 268668032
+          }
+        },
+        {
+          "rva": 248944,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 268677328
+          }
+        },
+        {
+          "rva": 262640,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 268687568
+          }
+        },
+        {
+          "rva": 286112,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 268721552
+          }
+        },
+        {
+          "rva": 286480,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 268717584
+          }
+        },
+        {
+          "rva": 291168,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 268722368
+          }
+        },
+        {
+          "rva": 291264,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 268722480
+          }
+        },
+        {
+          "rva": 291392,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 268723088
+          }
+        },
+        {
+          "rva": 294160,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 268726896
+          }
+        },
+        {
+          "rva": 308992,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 268743488
+          }
+        },
+        {
+          "rva": 309120,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 268743568
+          }
+        },
+        {
+          "rva": 309248,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 268743632
+          }
+        },
+        {
+          "rva": 324384,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 268569616
+          }
+        },
+        {
+          "rva": 333536,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 268768848
+          }
+        },
+        {
+          "rva": 343248,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 268778560
+          }
+        },
+        {
+          "rva": 344272,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 268779088
+          }
+        },
+        {
+          "rva": 354688,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 268588496
+          }
+        },
+        {
+          "rva": 410400,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 268845744
+          }
+        },
+        {
+          "rva": 422928,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 268857760
+          }
+        },
+        {
+          "rva": 428512,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 269237888
+          }
+        },
+        {
+          "rva": 435888,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 268871120
+          }
+        },
+        {
+          "rva": 448992,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 268883888
+          }
+        },
+        {
+          "rva": 460960,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 268896304
+          }
+        },
+        {
+          "rva": 471552,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 268905520
+          }
+        },
+        {
+          "rva": 491072,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 268921648
+          }
+        },
+        {
+          "rva": 491088,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 268925536
+          }
+        },
+        {
+          "rva": 491104,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 268920704
+          }
+        },
+        {
+          "rva": 491744,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 268926576
+          }
+        },
+        {
+          "rva": 509984,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 268943552
+          }
+        },
+        {
+          "rva": 536640,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 268970592
+          }
+        },
+        {
+          "rva": 536704,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 268970736
+          }
+        },
+        {
+          "rva": 536768,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 268970880
+          }
+        },
+        {
+          "rva": 536832,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 268971024
+          }
+        },
+        {
+          "rva": 536896,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 268971168
+          }
+        },
+        {
+          "rva": 536976,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 268971312
+          }
+        },
+        {
+          "rva": 537040,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 268971456
+          }
+        },
+        {
+          "rva": 537104,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 268971600
+          }
+        },
+        {
+          "rva": 537168,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 268971744
+          }
+        },
+        {
+          "rva": 563712,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 268986768
+          }
+        },
+        {
+          "rva": 563776,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 268986912
+          }
+        },
+        {
+          "rva": 563840,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 268987056
+          }
+        },
+        {
+          "rva": 563904,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 268987200
+          }
+        },
+        {
+          "rva": 563968,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 268987344
+          }
+        },
+        {
+          "rva": 564032,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 268987488
+          }
+        },
+        {
+          "rva": 564192,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 268987632
+          }
+        },
+        {
+          "rva": 564256,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 268987776
+          }
+        },
+        {
+          "rva": 582720,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 269017984
+          }
+        },
+        {
+          "rva": 582976,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 269017984
+          }
+        },
+        {
+          "rva": 583424,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 269017984
+          }
+        },
+        {
+          "rva": 594624,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 269017984
+          }
+        },
+        {
+          "rva": 594880,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 269017984
+          }
+        },
+        {
+          "rva": 604192,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 269039632
+          }
+        },
+        {
+          "rva": 620080,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 269050144
+          }
+        },
+        {
+          "rva": 620160,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 269050288
+          }
+        },
+        {
+          "rva": 620240,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 269050432
+          }
+        },
+        {
+          "rva": 620320,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 269050576
+          }
+        },
+        {
+          "rva": 656336,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 269172256
+          }
+        },
+        {
+          "rva": 703520,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 269076864
+          }
+        },
+        {
+          "rva": 731696,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 269165984
+          }
+        },
+        {
+          "rva": 731744,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 269165984
+          }
+        },
+        {
+          "rva": 731792,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 269165984
+          }
+        },
+        {
+          "rva": 731840,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 269165984
+          }
+        },
+        {
+          "rva": 742512,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 269177600
+          }
+        },
+        {
+          "rva": 763648,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 269198944
+          }
+        },
+        {
+          "rva": 772064,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 269249085
+          }
+        },
+        {
+          "rva": 807536,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 269242560
+          }
+        },
+        {
+          "rva": 811980,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 269247098
+          }
+        },
+        {
+          "rva": 812170,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 269249085
+          }
+        },
+        {
+          "rva": 814374,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 269249694
+          }
+        },
+        {
+          "rva": 819053,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 269254492
+          }
+        },
+        {
+          "rva": 819547,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 269254961
+          }
+        },
+        {
+          "rva": 830249,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 269247626
+          }
+        }
+      ]
+    },
+    {
+      "unit": "game_task",
+      "symbol": "??1CTaskKillPedOnFootArmed@@UAE@XZ",
+      "size": 5,
+      "object_sha256": "42b97504904277e579d46f1380cbbb27fe7f950f356a5af48306abd785bef213",
+      "candidates": [
+        {
+          "rva": 33728,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 269250016
+          }
+        },
+        {
+          "rva": 35040,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 268625904
+          }
+        },
+        {
+          "rva": 133824,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 268646112
+          }
+        },
+        {
+          "rva": 133840,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 268646160
+          }
+        },
+        {
+          "rva": 133856,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 268646208
+          }
+        },
+        {
+          "rva": 133872,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 268646256
+          }
+        },
+        {
+          "rva": 136528,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 268570016
+          }
+        },
+        {
+          "rva": 136544,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 268570016
+          }
+        },
+        {
+          "rva": 141152,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 268573712
+          }
+        },
+        {
+          "rva": 141728,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 268574192
+          }
+        },
+        {
+          "rva": 141952,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 268574384
+          }
+        },
+        {
+          "rva": 142224,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 268575152
+          }
+        },
+        {
+          "rva": 142384,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 268575760
+          }
+        },
+        {
+          "rva": 142592,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 268577184
+          }
+        },
+        {
+          "rva": 157120,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 268592384
+          }
+        },
+        {
+          "rva": 159536,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 268594288
+          }
+        },
+        {
+          "rva": 159648,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 268594368
+          }
+        },
+        {
+          "rva": 163648,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 268596464
+          }
+        },
+        {
+          "rva": 163664,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 268596240
+          }
+        },
+        {
+          "rva": 165088,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 268596640
+          }
+        },
+        {
+          "rva": 168064,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 268600704
+          }
+        },
+        {
+          "rva": 183616,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 268618432
+          }
+        },
+        {
+          "rva": 186352,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 268621104
+          }
+        },
+        {
+          "rva": 186576,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 268621568
+          }
+        },
+        {
+          "rva": 193440,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 268599120
+          }
+        },
+        {
+          "rva": 193472,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 268599120
+          }
+        },
+        {
+          "rva": 193664,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 268628720
+          }
+        },
+        {
+          "rva": 195264,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 268629584
+          }
+        },
+        {
+          "rva": 195456,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 268630048
+          }
+        },
+        {
+          "rva": 211552,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 268647200
+          }
+        },
+        {
+          "rva": 213488,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 268699168
+          }
+        },
+        {
+          "rva": 213808,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 268666288
+          }
+        },
+        {
+          "rva": 214256,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 268667488
+          }
+        },
+        {
+          "rva": 214272,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 268676256
+          }
+        },
+        {
+          "rva": 214288,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 268666352
+          }
+        },
+        {
+          "rva": 214304,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 268666400
+          }
+        },
+        {
+          "rva": 214320,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 268666448
+          }
+        },
+        {
+          "rva": 214704,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 268667728
+          }
+        },
+        {
+          "rva": 214720,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 268667792
+          }
+        },
+        {
+          "rva": 214736,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 268676384
+          }
+        },
+        {
+          "rva": 214752,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 268676448
+          }
+        },
+        {
+          "rva": 215216,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 268676528
+          }
+        },
+        {
+          "rva": 215232,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 268667856
+          }
+        },
+        {
+          "rva": 215248,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 268667872
+          }
+        },
+        {
+          "rva": 215328,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 268666976
+          }
+        },
+        {
+          "rva": 215344,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 268667056
+          }
+        },
+        {
+          "rva": 215360,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 268667232
+          }
+        },
+        {
+          "rva": 215376,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 268675888
+          }
+        },
+        {
+          "rva": 215472,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 268668032
+          }
+        },
+        {
+          "rva": 248944,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 268677328
+          }
+        },
+        {
+          "rva": 262640,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 268687568
+          }
+        },
+        {
+          "rva": 286112,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 268721552
+          }
+        },
+        {
+          "rva": 286480,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 268717584
+          }
+        },
+        {
+          "rva": 291168,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 268722368
+          }
+        },
+        {
+          "rva": 291264,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 268722480
+          }
+        },
+        {
+          "rva": 291392,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 268723088
+          }
+        },
+        {
+          "rva": 294160,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 268726896
+          }
+        },
+        {
+          "rva": 308992,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 268743488
+          }
+        },
+        {
+          "rva": 309120,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 268743568
+          }
+        },
+        {
+          "rva": 309248,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 268743632
+          }
+        },
+        {
+          "rva": 324384,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 268569616
+          }
+        },
+        {
+          "rva": 333536,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 268768848
+          }
+        },
+        {
+          "rva": 343248,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 268778560
+          }
+        },
+        {
+          "rva": 344272,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 268779088
+          }
+        },
+        {
+          "rva": 354688,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 268588496
+          }
+        },
+        {
+          "rva": 410400,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 268845744
+          }
+        },
+        {
+          "rva": 422928,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 268857760
+          }
+        },
+        {
+          "rva": 428512,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 269237888
+          }
+        },
+        {
+          "rva": 435888,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 268871120
+          }
+        },
+        {
+          "rva": 448992,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 268883888
+          }
+        },
+        {
+          "rva": 460960,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 268896304
+          }
+        },
+        {
+          "rva": 471552,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 268905520
+          }
+        },
+        {
+          "rva": 491072,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 268921648
+          }
+        },
+        {
+          "rva": 491088,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 268925536
+          }
+        },
+        {
+          "rva": 491104,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 268920704
+          }
+        },
+        {
+          "rva": 491744,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 268926576
+          }
+        },
+        {
+          "rva": 509984,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 268943552
+          }
+        },
+        {
+          "rva": 536640,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 268970592
+          }
+        },
+        {
+          "rva": 536704,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 268970736
+          }
+        },
+        {
+          "rva": 536768,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 268970880
+          }
+        },
+        {
+          "rva": 536832,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 268971024
+          }
+        },
+        {
+          "rva": 536896,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 268971168
+          }
+        },
+        {
+          "rva": 536976,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 268971312
+          }
+        },
+        {
+          "rva": 537040,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 268971456
+          }
+        },
+        {
+          "rva": 537104,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 268971600
+          }
+        },
+        {
+          "rva": 537168,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 268971744
+          }
+        },
+        {
+          "rva": 563712,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 268986768
+          }
+        },
+        {
+          "rva": 563776,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 268986912
+          }
+        },
+        {
+          "rva": 563840,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 268987056
+          }
+        },
+        {
+          "rva": 563904,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 268987200
+          }
+        },
+        {
+          "rva": 563968,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 268987344
+          }
+        },
+        {
+          "rva": 564032,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 268987488
+          }
+        },
+        {
+          "rva": 564192,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 268987632
+          }
+        },
+        {
+          "rva": 564256,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 268987776
+          }
+        },
+        {
+          "rva": 582720,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 269017984
+          }
+        },
+        {
+          "rva": 582976,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 269017984
+          }
+        },
+        {
+          "rva": 583424,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 269017984
+          }
+        },
+        {
+          "rva": 594624,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 269017984
+          }
+        },
+        {
+          "rva": 594880,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 269017984
+          }
+        },
+        {
+          "rva": 604192,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 269039632
+          }
+        },
+        {
+          "rva": 620080,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 269050144
+          }
+        },
+        {
+          "rva": 620160,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 269050288
+          }
+        },
+        {
+          "rva": 620240,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 269050432
+          }
+        },
+        {
+          "rva": 620320,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 269050576
+          }
+        },
+        {
+          "rva": 656336,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 269172256
+          }
+        },
+        {
+          "rva": 703520,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 269076864
+          }
+        },
+        {
+          "rva": 731696,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 269165984
+          }
+        },
+        {
+          "rva": 731744,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 269165984
+          }
+        },
+        {
+          "rva": 731792,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 269165984
+          }
+        },
+        {
+          "rva": 731840,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 269165984
+          }
+        },
+        {
+          "rva": 742512,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 269177600
+          }
+        },
+        {
+          "rva": 763648,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 269198944
+          }
+        },
+        {
+          "rva": 772064,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 269249085
+          }
+        },
+        {
+          "rva": 807536,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 269242560
+          }
+        },
+        {
+          "rva": 811980,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 269247098
+          }
+        },
+        {
+          "rva": 812170,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 269249085
+          }
+        },
+        {
+          "rva": 814374,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 269249694
+          }
+        },
+        {
+          "rva": 819053,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 269254492
+          }
+        },
+        {
+          "rva": 819547,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 269254961
+          }
+        },
+        {
+          "rva": 830249,
+          "inferred_targets": {
+            "??1CTask@@UAE@XZ": 269247626
+          }
+        }
+      ]
+    }
+  ],
+  "accepted_coverage_increment": 0,
+  "next_actions": [
+    "Extract complete aim/key control functions and individual source state objects; many dependencies are already accepted in the player capsule.",
+    "Review task-class constructor/destructor/vtable and native-call identities before accepting any task candidates.",
+    "Discovery only: compare candidates against historical coverage union as well as the current linked superset to avoid duplicate counts."
+  ]
+}
