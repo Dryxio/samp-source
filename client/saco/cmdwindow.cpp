@@ -1,5 +1,8 @@
 
 #include "main.h"
+extern CNetGame *pNetGame;
+extern CChatWindow *pChatWindow;
+#define CMD_CHARACTER '/'
 
 extern CGame		*pGame;
 extern CConfig		*pConfig;
@@ -104,12 +107,88 @@ void CCmdWindow::Disable()
 
 void CCmdWindow::ProcessInput()
 {
+	PCHAR szCmdEndPos;
+	CMDPROC cmdHandler;
+
 	if(!m_pEditControl) return;
 
 	strncpy(m_szInputBuffer,m_pEditControl->GetTextA(),MAX_CMD_INPUT);
 	m_szInputBuffer[MAX_CMD_INPUT] = '\0';
+    
+	// don't process 0 length input
+	int inputLength;
+	if(!(inputLength = strlen(m_szInputBuffer))) {
+		if(m_bEnabled) {
+			if(pChatWindow) pChatWindow->ResetPage();
+			Disable();
+		}
+		return;
+	}
 
-	// TODO: CCmdWindow::ProcessInput()
+    // remember this command for later use in the recalls.	
+    AddToRecallBuffer(m_szInputBuffer);
+	m_iCurrentRecallAt = -1;
+
+	if(*m_szInputBuffer != CMD_CHARACTER) { 
+		// chat type message	
+		if(m_pDefaultCmd) {
+			m_pDefaultCmd(m_szInputBuffer);
+		}
+	}
+	else 
+	{// possible valid command
+		// find the end of the name
+		szCmdEndPos = m_szInputBuffer + 1;
+		while(*szCmdEndPos && *szCmdEndPos != ' ') szCmdEndPos++;
+		if(*szCmdEndPos == '\0') {
+			// Possible command with no params.
+			cmdHandler = GetCmdHandler(m_szInputBuffer + 1);
+
+			// If valid then call it.
+			if(cmdHandler) {
+				cmdHandler("");
+			}
+			else {
+				if (pNetGame) {
+					SendToServer(m_szInputBuffer);
+				}
+				else {
+					pChatWindow->AddDebugMessage("I don't know that command.");
+				}
+			}
+		}
+		else {
+			char szCopiedBuffer[MAX_CMD_INPUT+1];
+			strcpy(szCopiedBuffer, m_szInputBuffer);
+
+			*szCmdEndPos='\0'; // null terminate it
+			szCmdEndPos++; // rest is the parameters.
+			cmdHandler = GetCmdHandler(m_szInputBuffer + 1);
+
+			// If valid then call it with the param string.
+			if(cmdHandler) {
+				cmdHandler(szCmdEndPos);
+			}
+			else {
+				if (pNetGame) {
+					SendToServer(szCopiedBuffer);
+				}
+
+
+				else {
+					pChatWindow->AddDebugMessage("I don't know that command.");
+				}
+			}
+		}
+	}
+
+	*m_szInputBuffer ='\0';	
+	m_pEditControl->SetText("",false);
+
+	if(m_bEnabled) {
+		if(pChatWindow) pChatWindow->ResetPage();
+		Disable();
+	}
 }
 
 //----------------------------------------------------
@@ -201,3 +280,18 @@ void CCmdWindow::RecallDown()
 }
 
 typedef char complete_command_window_size[(sizeof(CCmdWindow)==0x1AFC)?1:-1];
+
+void CCmdWindow::SendToServer(char* szServerCommand)
+{
+	if(!pNetGame) return;
+
+	RakNet::BitStream bsParams;
+	int iStrlen = strlen(szServerCommand);
+
+	//pChatWindow->AddDebugMessage("SendToServer(%s,%u)",szServerCommand,iStrlen);
+
+	bsParams.Write(iStrlen);
+	bsParams.Write(szServerCommand, iStrlen);
+	pNetGame->GetRakClient()->RPC(RPC_ServerCommand, &bsParams, HIGH_PRIORITY, RELIABLE, 0, FALSE);
+
+}

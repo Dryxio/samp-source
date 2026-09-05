@@ -1582,7 +1582,62 @@
       },
       {
         "name": "AddCmdProc"
+      },
+      {
+        "name": "ProcessInput"
+      },
+      {
+        "name": "SendToServer"
+      },
+      {
+        "name": "Disable"
       }
+    ],
+    "declarations": [
+      "extern CNetGame *pNetGame;",
+      "extern CChatWindow *pChatWindow;",
+      "extern CGame *pGame;",
+      "#define CMD_CHARACTER '/'"
+    ]
+  },
+  "closure_chat_scroll": {
+    "source": "chatwindow.cpp",
+    "cls": "CChatWindow",
+    "definitions": [
+      {
+        "name": "ResetPage"
+      }
+    ]
+  },
+  "closure_key_inputs": {
+    "source": "game/game.cpp",
+    "cls": "CGame",
+    "definitions": [
+      {
+        "name": "ToggleKeyInputsDisabled"
+      }
+    ],
+    "declarations": [
+      "extern IDirect3DDevice9 *pD3DDevice;",
+      "void DisableMouseProcess();",
+      "void DisableMousePositionUpdate();",
+      "void DIResetMouse();",
+      "void UpdatePads();"
+    ]
+  },
+  "closure_mouse_inputs": {
+    "source": "game/game.cpp",
+    "cls": null,
+    "definitions": [
+      {
+        "name": "DisableMouseProcess"
+      },
+      {
+        "name": "DisableMousePositionUpdate"
+      }
+    ],
+    "declarations": [
+      "extern DWORD dwDummyActiveMouseState;"
     ]
   }
 }

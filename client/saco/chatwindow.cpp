@@ -176,3 +176,8 @@ void CChatWindow::Log(int type, CHAR *text, CHAR *prefix)
     }
     fclose(file);
 }
+
+void CChatWindow::ResetPage()
+{
+    if(m_pScrollBar) m_pScrollBar->SetTrackPos(90);
+}

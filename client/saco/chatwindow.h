@@ -60,6 +60,7 @@ public:
 	void AddEntry(int type, CHAR *text, CHAR *prefix, DWORD textColor, DWORD prefixColor);
 	void Log(int type, CHAR *text, CHAR *prefix);
 	void PushBack();
+	void ResetPage();
 
 	void ResetDialogControls(CDXUTDialog *pGameUI);
 

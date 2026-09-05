@@ -39,6 +39,7 @@ public:
 	void Disable();
 
 	void ProcessInput();
+	void SendToServer(char *szServerCommand);
 	void AddToRecallBuffer(char *szCmdInput);
 	void RecallUp();
 	void RecallDown();
