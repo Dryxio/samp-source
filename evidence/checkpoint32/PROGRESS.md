@@ -878,3 +878,14 @@ R5 original MsgProc entry verified by actual automation call7DA80, visible/minim
 Current accepted link cp32-gui-messages-linked; Ob1 cp32-gui-messages-ob1, Ob2 cp32-ime-ob2. Full units build/gui-messages-units.txt. Generator prepare_gui_messages.py; contract/seeds gui-messages; evidence acceptance/integration gui-messages; review build/review_gui_messages.py. Full prior drawing/render/control generators unchanged. All processes terminal.
 
 Next: GUI dialog lifecycle ctor206 at8CB60/dtor203 at8CC30 (original full-scan candidates) may now close through broad drawing/event/resource foundations. Inspect actual RemoveAllControls/RemoveDialog/RegisterDialog providers before counting. EditBox Render846 and MsgProc565 remain source variants with R5-specific behavior; source0.2.5 mostly same. Larger missing0.2.5 subsystem bodies remain priorities where actual added implementation offers gain; avoid guessing full ListBox allocation/renderer layout. Whole DLL incomplete.
+
+
+## Complete dialog lifecycle and removal
+
+GUI-lifecycle acceptance adds967 unique exact code bytes, reaching164,164 /930,756 (17.637705%). Constructor206 at8CB60, destructor203 at8CC30, RemoveControl130 at86EF0, RemoveAllControls126 at8C5D0; complete typed array providers and66-byte compiler EH funclet region atE3BF0,60-byte compiler unwind map/FuncInfo atFBAF0.1917 whole regions, full actual targets/PE relocations,10 negative controls and existing ABI pass. EH data excluded from code credit; real exception unwinding not executed. Eight old pending unchanged, no new imports/unimplemented providers.
+
+All four bodies identical in pinned base/local0.2.5, no adaptations or direct transfer credit (total1,523 unchanged). New lifecycle unit compiled once. Initial link omitted unexported roots and acceptance correctly rejected unresolved regions; added four real capsule exports, relinked only, complete gate then passed. First failed link/log preserved. No GUI/game execution, push or deployment.
+
+Current accepted link cp32-gui-lifecycle-linked2; Ob1 cp32-gui-lifecycle-ob1, Ob2 cp32-ime-ob2. Full units build/gui-lifecycle-units.txt; generator tools/prepare_gui_lifecycle.py; contract/seeds gui-lifecycle; review build/review_gui_lifecycle.py; acceptance/integration gui-lifecycle. All processes terminal. Local0.2.5 still prioritized where it provides missing implementations; recent SDK bodies identical to base.
+
+Next candidates confirmed by existing full scan (discovery only): Control SetElement147 at8A2D0 calls actual element-array Add89C10; EditBox SetTextFloatArray230 at8B100 uses ANSI formatter/StringCopyWorker/SetText, check actual R5 wide buffer contract before transfer; IME GetReadingWindowOrientation349 at8B1F0 needs horizontal-reading static and actual registry API identities/strings. Broader missing0.2.5 subsystem implementations remain useful alternatives. No matches credited for these candidates. Whole DLL remains incomplete.
