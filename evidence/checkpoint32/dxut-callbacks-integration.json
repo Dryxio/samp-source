@@ -1,0 +1,253 @@
+{
+  "status": "ACCEPTED_AFTER_COMPLETE_LINK_REVIEW",
+  "run": "cp32-dxut-callbacks-resolved-linked",
+  "ob1": "cp32-dxut-window-full-wide-ob1",
+  "ob2": "cp32-ime-ob2",
+  "new_unique_code_bytes": 1507,
+  "accepted_direct_025_credit": 0,
+  "reference_comparisons": [
+    {
+      "function": "DXUTSetCallbackDeviceCreated",
+      "identical_to_025": true
+    },
+    {
+      "function": "DXUTSetCallbackDeviceReset",
+      "identical_to_025": true
+    },
+    {
+      "function": "DXUTSetCallbackDeviceLost",
+      "identical_to_025": true
+    },
+    {
+      "function": "DXUTSetCallbackDeviceDestroyed",
+      "identical_to_025": true
+    },
+    {
+      "function": "DXUTSetCallbackDeviceChanging",
+      "identical_to_025": true
+    },
+    {
+      "function": "DXUTSetCallbackFrameMove",
+      "identical_to_025": true
+    },
+    {
+      "function": "DXUTSetCallbackFrameRender",
+      "identical_to_025": true
+    },
+    {
+      "function": "DXUTSetCallbackKeyboard",
+      "identical_to_025": true
+    },
+    {
+      "function": "DXUTSetCallbackMouse",
+      "identical_to_025": true
+    },
+    {
+      "function": "DXUTSetCallbackMsgProc",
+      "identical_to_025": true
+    }
+  ],
+  "candidate_resolution": {
+    "callbacks": [
+      {
+        "symbol": "?DXUTSetCallbackDeviceCreated@@YAXP6GJPAUIDirect3DDevice9@@PBU_D3DSURFACE_DESC@@PAX@Z2@Z",
+        "rva": 512416,
+        "size": 35,
+        "targets": {
+          "?GetDXUTState@@YAAAVDXUTState@@XZ": 268947776,
+          "?SetDeviceCreatedFunc@DXUTState@@QAEXP6GJPAUIDirect3DDevice9@@PBU_D3DSURFACE_DESC@@PAX@Z@Z": 268938880,
+          "?SetDeviceCreatedFuncUserContext@DXUTState@@QAEXPAX@Z": 268940224
+        }
+      },
+      {
+        "symbol": "?DXUTSetCallbackDeviceReset@@YAXP6GJPAUIDirect3DDevice9@@PBU_D3DSURFACE_DESC@@PAX@Z2@Z",
+        "rva": 512464,
+        "size": 35,
+        "targets": {
+          "?GetDXUTState@@YAAAVDXUTState@@XZ": 268947776,
+          "?SetDeviceResetFunc@DXUTState@@QAEXP6GJPAUIDirect3DDevice9@@PBU_D3DSURFACE_DESC@@PAX@Z@Z": 268939008,
+          "?SetDeviceResetFuncUserContext@DXUTState@@QAEXPAX@Z": 268940352
+        }
+      },
+      {
+        "symbol": "?DXUTSetCallbackDeviceLost@@YAXP6GXPAX@Z0@Z",
+        "rva": 512512,
+        "size": 35,
+        "targets": {
+          "?GetDXUTState@@YAAAVDXUTState@@XZ": 268947776,
+          "?SetDeviceLostFunc@DXUTState@@QAEXP6GXPAX@Z@Z": 268939136,
+          "?SetDeviceLostFuncUserContext@DXUTState@@QAEXPAX@Z": 268940480
+        }
+      },
+      {
+        "symbol": "?DXUTSetCallbackDeviceDestroyed@@YAXP6GXPAX@Z0@Z",
+        "rva": 512560,
+        "size": 35,
+        "targets": {
+          "?GetDXUTState@@YAAAVDXUTState@@XZ": 268947776,
+          "?SetDeviceDestroyedFunc@DXUTState@@QAEXP6GXPAX@Z@Z": 268939264,
+          "?SetDeviceDestroyedFuncUserContext@DXUTState@@QAEXPAX@Z": 268940608
+        }
+      },
+      {
+        "symbol": "?DXUTSetCallbackDeviceChanging@@YAXP6G_NPAUDXUTDeviceSettings@@PBU_D3DCAPS9@@PAX@Z2@Z",
+        "rva": 512608,
+        "size": 35,
+        "targets": {
+          "?GetDXUTState@@YAAAVDXUTState@@XZ": 268947776,
+          "?SetModifyDeviceSettingsFunc@DXUTState@@QAEXP6G_NPAUDXUTDeviceSettings@@PBU_D3DCAPS9@@PAX@Z@Z": 268938752,
+          "?SetModifyDeviceSettingsFuncUserContext@DXUTState@@QAEXPAX@Z": 268940096
+        }
+      },
+      {
+        "symbol": "?DXUTSetCallbackFrameMove@@YAXP6GXPAUIDirect3DDevice9@@NMPAX@Z1@Z",
+        "rva": 512656,
+        "size": 35,
+        "targets": {
+          "?GetDXUTState@@YAAAVDXUTState@@XZ": 268947776,
+          "?SetFrameMoveFunc@DXUTState@@QAEXP6GXPAUIDirect3DDevice9@@NMPAX@Z@Z": 268939392,
+          "?SetFrameMoveFuncUserContext@DXUTState@@QAEXPAX@Z": 268940736
+        }
+      },
+      {
+        "symbol": "?DXUTSetCallbackFrameRender@@YAXP6GXPAUIDirect3DDevice9@@NMPAX@Z1@Z",
+        "rva": 512704,
+        "size": 35,
+        "targets": {
+          "?GetDXUTState@@YAAAVDXUTState@@XZ": 268947776,
+          "?SetFrameRenderFunc@DXUTState@@QAEXP6GXPAUIDirect3DDevice9@@NMPAX@Z@Z": 268939520,
+          "?SetFrameRenderFuncUserContext@DXUTState@@QAEXPAX@Z": 268940864
+        }
+      },
+      {
+        "symbol": "?DXUTSetCallbackKeyboard@@YAXP6GXI_N0PAX@Z1@Z",
+        "rva": 512752,
+        "size": 35,
+        "targets": {
+          "?GetDXUTState@@YAAAVDXUTState@@XZ": 268947776,
+          "?SetKeyboardFunc@DXUTState@@QAEXP6GXI_N0PAX@Z@Z": 268939648,
+          "?SetKeyboardFuncUserContext@DXUTState@@QAEXPAX@Z": 268940992
+        }
+      },
+      {
+        "symbol": "?DXUTSetCallbackMouse@@YAXP6GX_N0000HHHPAX@Z01@Z",
+        "rva": 512800,
+        "size": 52,
+        "targets": {
+          "?GetDXUTState@@YAAAVDXUTState@@XZ": 268947776,
+          "?SetMouseFunc@DXUTState@@QAEXP6GX_N0000HHHPAX@Z@Z": 268939776,
+          "?SetNotifyOnMouseMove@DXUTState@@QAEX_N@Z": 268936320,
+          "?SetMouseFuncUserContext@DXUTState@@QAEXPAX@Z": 268941120
+        }
+      },
+      {
+        "symbol": "?DXUTSetCallbackMsgProc@@YAXP6GJPAUHWND__@@IIJPA_NPAX@Z2@Z",
+        "rva": 512864,
+        "size": 35,
+        "targets": {
+          "?GetDXUTState@@YAAAVDXUTState@@XZ": 268947776,
+          "?SetWindowMsgFunc@DXUTState@@QAEXP6GJPAUHWND__@@IIJPA_NPAX@Z@Z": 268939904,
+          "?SetWindowMsgFuncUserContext@DXUTState@@QAEXPAX@Z": 268941248
+        }
+      }
+    ],
+    "setters": {
+      "?SetDeviceCreatedFunc@DXUTState@@QAEXP6GJPAUIDirect3DDevice9@@PBU_D3DSURFACE_DESC@@PAX@Z@Z": {
+        "rva": 503424,
+        "size": 60
+      },
+      "?SetDeviceCreatedFuncUserContext@DXUTState@@QAEXPAX@Z": {
+        "rva": 504768,
+        "size": 60
+      },
+      "?SetDeviceResetFunc@DXUTState@@QAEXP6GJPAUIDirect3DDevice9@@PBU_D3DSURFACE_DESC@@PAX@Z@Z": {
+        "rva": 503552,
+        "size": 60
+      },
+      "?SetDeviceResetFuncUserContext@DXUTState@@QAEXPAX@Z": {
+        "rva": 504896,
+        "size": 60
+      },
+      "?SetDeviceLostFunc@DXUTState@@QAEXP6GXPAX@Z@Z": {
+        "rva": 503680,
+        "size": 60
+      },
+      "?SetDeviceLostFuncUserContext@DXUTState@@QAEXPAX@Z": {
+        "rva": 505024,
+        "size": 60
+      },
+      "?SetDeviceDestroyedFunc@DXUTState@@QAEXP6GXPAX@Z@Z": {
+        "rva": 503808,
+        "size": 60
+      },
+      "?SetDeviceDestroyedFuncUserContext@DXUTState@@QAEXPAX@Z": {
+        "rva": 505152,
+        "size": 60
+      },
+      "?SetModifyDeviceSettingsFunc@DXUTState@@QAEXP6G_NPAUDXUTDeviceSettings@@PBU_D3DCAPS9@@PAX@Z@Z": {
+        "rva": 503296,
+        "size": 60
+      },
+      "?SetModifyDeviceSettingsFuncUserContext@DXUTState@@QAEXPAX@Z": {
+        "rva": 504640,
+        "size": 60
+      },
+      "?SetFrameMoveFunc@DXUTState@@QAEXP6GXPAUIDirect3DDevice9@@NMPAX@Z@Z": {
+        "rva": 503936,
+        "size": 60
+      },
+      "?SetFrameMoveFuncUserContext@DXUTState@@QAEXPAX@Z": {
+        "rva": 505280,
+        "size": 60
+      },
+      "?SetFrameRenderFunc@DXUTState@@QAEXP6GXPAUIDirect3DDevice9@@NMPAX@Z@Z": {
+        "rva": 504064,
+        "size": 60
+      },
+      "?SetFrameRenderFuncUserContext@DXUTState@@QAEXPAX@Z": {
+        "rva": 505408,
+        "size": 60
+      },
+      "?SetKeyboardFunc@DXUTState@@QAEXP6GXI_N0PAX@Z@Z": {
+        "rva": 504192,
+        "size": 60
+      },
+      "?SetKeyboardFuncUserContext@DXUTState@@QAEXPAX@Z": {
+        "rva": 505536,
+        "size": 60
+      },
+      "?SetMouseFunc@DXUTState@@QAEXP6GX_N0000HHHPAX@Z@Z": {
+        "rva": 504320,
+        "size": 60
+      },
+      "?SetNotifyOnMouseMove@DXUTState@@QAEX_N@Z": {
+        "rva": 500864,
+        "size": 60
+      },
+      "?SetMouseFuncUserContext@DXUTState@@QAEXPAX@Z": {
+        "rva": 505664,
+        "size": 60
+      },
+      "?SetWindowMsgFunc@DXUTState@@QAEXP6GJPAUHWND__@@IIJPA_NPAX@Z@Z": {
+        "rva": 504448,
+        "size": 60
+      },
+      "?SetWindowMsgFuncUserContext@DXUTState@@QAEXPAX@Z": {
+        "rva": 505792,
+        "size": 60
+      }
+    }
+  },
+  "source_adaptations": "None. Existing compiled full DXUT object reused.",
+  "trials": [
+    {
+      "run": "cp32-dxut-callbacks-linked",
+      "outcome": "First candidate resolver incorrectly expected singleton call in instance setter; assertion stopped before seeds/exports update. Link reused previous exports, not accepted."
+    },
+    {
+      "run": "cp32-dxut-callbacks-resolved-linked",
+      "outcome": "Corrected resolver checks actual instance setter globals/critical-section imports and unique member-offset candidate, then disambiguates wrappers by true callee addresses. Link/gate accepted all."
+    }
+  ],
+  "verification": "1734 whole regions, full actual targets/relocations,10 negative controls and existing ABI pass.10 wrappers(9x35+52),19 new typed setters60,2 prior setters deduplicated. No imports/data added, no callbacks registered or executed. Eight old pending unchanged."
+}
