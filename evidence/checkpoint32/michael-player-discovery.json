@@ -1,0 +1,1925 @@
+{
+  "status": "DISCOVERY_ONLY_NOT_ACCEPTED",
+  "run": "cp32-michael-player-scan4",
+  "reference_sha256": "b72b5dbe725f81864ca3f78bc7063bda56cc05fc7188af822fa7a754432553a2",
+  "rows": [
+    {
+      "unit": "eval_player_base",
+      "symbol": "_atan2f",
+      "size": 11,
+      "object_sha256": "9aa0418c52fe4afc47fae18fbcd5ccc0bd8f3db07a5f23c43fb7e8332e5fd6b7",
+      "candidates": [
+        {
+          "rva": 82720,
+          "inferred_targets": {}
+        },
+        {
+          "rva": 82736,
+          "inferred_targets": {}
+        }
+      ]
+    },
+    {
+      "unit": "eval_player_base",
+      "symbol": "_sqrtf",
+      "size": 7,
+      "object_sha256": "9aa0418c52fe4afc47fae18fbcd5ccc0bd8f3db07a5f23c43fb7e8332e5fd6b7",
+      "candidates": [
+        {
+          "rva": 33760,
+          "inferred_targets": {}
+        },
+        {
+          "rva": 33776,
+          "inferred_targets": {}
+        }
+      ]
+    },
+    {
+      "unit": "eval_player_base",
+      "symbol": "?atan2@@YAMMM@Z",
+      "size": 11,
+      "object_sha256": "9aa0418c52fe4afc47fae18fbcd5ccc0bd8f3db07a5f23c43fb7e8332e5fd6b7",
+      "candidates": [
+        {
+          "rva": 82720,
+          "inferred_targets": {}
+        },
+        {
+          "rva": 82736,
+          "inferred_targets": {}
+        }
+      ]
+    },
+    {
+      "unit": "eval_player_base",
+      "symbol": "?sqrt@@YAMM@Z",
+      "size": 7,
+      "object_sha256": "9aa0418c52fe4afc47fae18fbcd5ccc0bd8f3db07a5f23c43fb7e8332e5fd6b7",
+      "candidates": [
+        {
+          "rva": 33760,
+          "inferred_targets": {}
+        },
+        {
+          "rva": 33776,
+          "inferred_targets": {}
+        }
+      ]
+    },
+    {
+      "unit": "eval_player_base",
+      "symbol": "?ResetPointers@CPlayerPed@@QAEXXZ",
+      "size": 23,
+      "object_sha256": "9aa0418c52fe4afc47fae18fbcd5ccc0bd8f3db07a5f23c43fb7e8332e5fd6b7",
+      "candidates": [
+        {
+          "rva": 703408,
+          "inferred_targets": {
+            "?GamePool_Ped_GetAt@@YGPAU_PED_TYPE@@H@Z": 269171568
+          }
+        }
+      ]
+    },
+    {
+      "unit": "eval_player_base",
+      "symbol": "?SetInitialState@CPlayerPed@@QAEXXZ",
+      "size": 29,
+      "object_sha256": "9aa0418c52fe4afc47fae18fbcd5ccc0bd8f3db07a5f23c43fb7e8332e5fd6b7",
+      "candidates": [
+        {
+          "rva": 703440,
+          "inferred_targets": {}
+        }
+      ]
+    },
+    {
+      "unit": "eval_player_base",
+      "symbol": "?GetSpecialKey@CPlayerPed@@QAEEXZ",
+      "size": 39,
+      "object_sha256": "9aa0418c52fe4afc47fae18fbcd5ccc0bd8f3db07a5f23c43fb7e8332e5fd6b7",
+      "candidates": [
+        {
+          "rva": 703472,
+          "inferred_targets": {
+            "?GameGetInternalKeys@@YAPAU_GTA_CONTROLSET@@XZ": 269120432
+          }
+        }
+      ]
+    },
+    {
+      "unit": "eval_player_base",
+      "symbol": "?GetCurrentAim@CPlayerPed@@QAEPAU_CAMERA_AIM@@XZ",
+      "size": 5,
+      "object_sha256": "9aa0418c52fe4afc47fae18fbcd5ccc0bd8f3db07a5f23c43fb7e8332e5fd6b7",
+      "candidates": [
+        {
+          "rva": 33728,
+          "inferred_targets": {
+            "?GameGetInternalAim@@YGPAU_CAMERA_AIM@@XZ": 269250016
+          }
+        },
+        {
+          "rva": 35040,
+          "inferred_targets": {
+            "?GameGetInternalAim@@YGPAU_CAMERA_AIM@@XZ": 268625904
+          }
+        },
+        {
+          "rva": 133824,
+          "inferred_targets": {
+            "?GameGetInternalAim@@YGPAU_CAMERA_AIM@@XZ": 268646112
+          }
+        },
+        {
+          "rva": 133840,
+          "inferred_targets": {
+            "?GameGetInternalAim@@YGPAU_CAMERA_AIM@@XZ": 268646160
+          }
+        },
+        {
+          "rva": 133856,
+          "inferred_targets": {
+            "?GameGetInternalAim@@YGPAU_CAMERA_AIM@@XZ": 268646208
+          }
+        },
+        {
+          "rva": 133872,
+          "inferred_targets": {
+            "?GameGetInternalAim@@YGPAU_CAMERA_AIM@@XZ": 268646256
+          }
+        },
+        {
+          "rva": 136528,
+          "inferred_targets": {
+            "?GameGetInternalAim@@YGPAU_CAMERA_AIM@@XZ": 268570016
+          }
+        },
+        {
+          "rva": 136544,
+          "inferred_targets": {
+            "?GameGetInternalAim@@YGPAU_CAMERA_AIM@@XZ": 268570016
+          }
+        },
+        {
+          "rva": 141152,
+          "inferred_targets": {
+            "?GameGetInternalAim@@YGPAU_CAMERA_AIM@@XZ": 268573712
+          }
+        },
+        {
+          "rva": 141728,
+          "inferred_targets": {
+            "?GameGetInternalAim@@YGPAU_CAMERA_AIM@@XZ": 268574192
+          }
+        },
+        {
+          "rva": 141952,
+          "inferred_targets": {
+            "?GameGetInternalAim@@YGPAU_CAMERA_AIM@@XZ": 268574384
+          }
+        },
+        {
+          "rva": 142224,
+          "inferred_targets": {
+            "?GameGetInternalAim@@YGPAU_CAMERA_AIM@@XZ": 268575152
+          }
+        },
+        {
+          "rva": 142384,
+          "inferred_targets": {
+            "?GameGetInternalAim@@YGPAU_CAMERA_AIM@@XZ": 268575760
+          }
+        },
+        {
+          "rva": 142592,
+          "inferred_targets": {
+            "?GameGetInternalAim@@YGPAU_CAMERA_AIM@@XZ": 268577184
+          }
+        },
+        {
+          "rva": 157120,
+          "inferred_targets": {
+            "?GameGetInternalAim@@YGPAU_CAMERA_AIM@@XZ": 268592384
+          }
+        },
+        {
+          "rva": 159536,
+          "inferred_targets": {
+            "?GameGetInternalAim@@YGPAU_CAMERA_AIM@@XZ": 268594288
+          }
+        },
+        {
+          "rva": 159648,
+          "inferred_targets": {
+            "?GameGetInternalAim@@YGPAU_CAMERA_AIM@@XZ": 268594368
+          }
+        },
+        {
+          "rva": 163648,
+          "inferred_targets": {
+            "?GameGetInternalAim@@YGPAU_CAMERA_AIM@@XZ": 268596464
+          }
+        },
+        {
+          "rva": 163664,
+          "inferred_targets": {
+            "?GameGetInternalAim@@YGPAU_CAMERA_AIM@@XZ": 268596240
+          }
+        },
+        {
+          "rva": 165088,
+          "inferred_targets": {
+            "?GameGetInternalAim@@YGPAU_CAMERA_AIM@@XZ": 268596640
+          }
+        },
+        {
+          "rva": 168064,
+          "inferred_targets": {
+            "?GameGetInternalAim@@YGPAU_CAMERA_AIM@@XZ": 268600704
+          }
+        },
+        {
+          "rva": 183616,
+          "inferred_targets": {
+            "?GameGetInternalAim@@YGPAU_CAMERA_AIM@@XZ": 268618432
+          }
+        },
+        {
+          "rva": 186352,
+          "inferred_targets": {
+            "?GameGetInternalAim@@YGPAU_CAMERA_AIM@@XZ": 268621104
+          }
+        },
+        {
+          "rva": 186576,
+          "inferred_targets": {
+            "?GameGetInternalAim@@YGPAU_CAMERA_AIM@@XZ": 268621568
+          }
+        },
+        {
+          "rva": 193440,
+          "inferred_targets": {
+            "?GameGetInternalAim@@YGPAU_CAMERA_AIM@@XZ": 268599120
+          }
+        },
+        {
+          "rva": 193472,
+          "inferred_targets": {
+            "?GameGetInternalAim@@YGPAU_CAMERA_AIM@@XZ": 268599120
+          }
+        },
+        {
+          "rva": 193664,
+          "inferred_targets": {
+            "?GameGetInternalAim@@YGPAU_CAMERA_AIM@@XZ": 268628720
+          }
+        },
+        {
+          "rva": 195264,
+          "inferred_targets": {
+            "?GameGetInternalAim@@YGPAU_CAMERA_AIM@@XZ": 268629584
+          }
+        },
+        {
+          "rva": 195456,
+          "inferred_targets": {
+            "?GameGetInternalAim@@YGPAU_CAMERA_AIM@@XZ": 268630048
+          }
+        },
+        {
+          "rva": 211552,
+          "inferred_targets": {
+            "?GameGetInternalAim@@YGPAU_CAMERA_AIM@@XZ": 268647200
+          }
+        },
+        {
+          "rva": 213488,
+          "inferred_targets": {
+            "?GameGetInternalAim@@YGPAU_CAMERA_AIM@@XZ": 268699168
+          }
+        },
+        {
+          "rva": 213808,
+          "inferred_targets": {
+            "?GameGetInternalAim@@YGPAU_CAMERA_AIM@@XZ": 268666288
+          }
+        },
+        {
+          "rva": 214256,
+          "inferred_targets": {
+            "?GameGetInternalAim@@YGPAU_CAMERA_AIM@@XZ": 268667488
+          }
+        },
+        {
+          "rva": 214272,
+          "inferred_targets": {
+            "?GameGetInternalAim@@YGPAU_CAMERA_AIM@@XZ": 268676256
+          }
+        },
+        {
+          "rva": 214288,
+          "inferred_targets": {
+            "?GameGetInternalAim@@YGPAU_CAMERA_AIM@@XZ": 268666352
+          }
+        },
+        {
+          "rva": 214304,
+          "inferred_targets": {
+            "?GameGetInternalAim@@YGPAU_CAMERA_AIM@@XZ": 268666400
+          }
+        },
+        {
+          "rva": 214320,
+          "inferred_targets": {
+            "?GameGetInternalAim@@YGPAU_CAMERA_AIM@@XZ": 268666448
+          }
+        },
+        {
+          "rva": 214704,
+          "inferred_targets": {
+            "?GameGetInternalAim@@YGPAU_CAMERA_AIM@@XZ": 268667728
+          }
+        },
+        {
+          "rva": 214720,
+          "inferred_targets": {
+            "?GameGetInternalAim@@YGPAU_CAMERA_AIM@@XZ": 268667792
+          }
+        },
+        {
+          "rva": 214736,
+          "inferred_targets": {
+            "?GameGetInternalAim@@YGPAU_CAMERA_AIM@@XZ": 268676384
+          }
+        },
+        {
+          "rva": 214752,
+          "inferred_targets": {
+            "?GameGetInternalAim@@YGPAU_CAMERA_AIM@@XZ": 268676448
+          }
+        },
+        {
+          "rva": 215216,
+          "inferred_targets": {
+            "?GameGetInternalAim@@YGPAU_CAMERA_AIM@@XZ": 268676528
+          }
+        },
+        {
+          "rva": 215232,
+          "inferred_targets": {
+            "?GameGetInternalAim@@YGPAU_CAMERA_AIM@@XZ": 268667856
+          }
+        },
+        {
+          "rva": 215248,
+          "inferred_targets": {
+            "?GameGetInternalAim@@YGPAU_CAMERA_AIM@@XZ": 268667872
+          }
+        },
+        {
+          "rva": 215328,
+          "inferred_targets": {
+            "?GameGetInternalAim@@YGPAU_CAMERA_AIM@@XZ": 268666976
+          }
+        },
+        {
+          "rva": 215344,
+          "inferred_targets": {
+            "?GameGetInternalAim@@YGPAU_CAMERA_AIM@@XZ": 268667056
+          }
+        },
+        {
+          "rva": 215360,
+          "inferred_targets": {
+            "?GameGetInternalAim@@YGPAU_CAMERA_AIM@@XZ": 268667232
+          }
+        },
+        {
+          "rva": 215376,
+          "inferred_targets": {
+            "?GameGetInternalAim@@YGPAU_CAMERA_AIM@@XZ": 268675888
+          }
+        },
+        {
+          "rva": 215472,
+          "inferred_targets": {
+            "?GameGetInternalAim@@YGPAU_CAMERA_AIM@@XZ": 268668032
+          }
+        },
+        {
+          "rva": 248944,
+          "inferred_targets": {
+            "?GameGetInternalAim@@YGPAU_CAMERA_AIM@@XZ": 268677328
+          }
+        },
+        {
+          "rva": 262640,
+          "inferred_targets": {
+            "?GameGetInternalAim@@YGPAU_CAMERA_AIM@@XZ": 268687568
+          }
+        },
+        {
+          "rva": 286112,
+          "inferred_targets": {
+            "?GameGetInternalAim@@YGPAU_CAMERA_AIM@@XZ": 268721552
+          }
+        },
+        {
+          "rva": 286480,
+          "inferred_targets": {
+            "?GameGetInternalAim@@YGPAU_CAMERA_AIM@@XZ": 268717584
+          }
+        },
+        {
+          "rva": 291168,
+          "inferred_targets": {
+            "?GameGetInternalAim@@YGPAU_CAMERA_AIM@@XZ": 268722368
+          }
+        },
+        {
+          "rva": 291264,
+          "inferred_targets": {
+            "?GameGetInternalAim@@YGPAU_CAMERA_AIM@@XZ": 268722480
+          }
+        },
+        {
+          "rva": 291392,
+          "inferred_targets": {
+            "?GameGetInternalAim@@YGPAU_CAMERA_AIM@@XZ": 268723088
+          }
+        },
+        {
+          "rva": 294160,
+          "inferred_targets": {
+            "?GameGetInternalAim@@YGPAU_CAMERA_AIM@@XZ": 268726896
+          }
+        },
+        {
+          "rva": 308992,
+          "inferred_targets": {
+            "?GameGetInternalAim@@YGPAU_CAMERA_AIM@@XZ": 268743488
+          }
+        },
+        {
+          "rva": 309120,
+          "inferred_targets": {
+            "?GameGetInternalAim@@YGPAU_CAMERA_AIM@@XZ": 268743568
+          }
+        },
+        {
+          "rva": 309248,
+          "inferred_targets": {
+            "?GameGetInternalAim@@YGPAU_CAMERA_AIM@@XZ": 268743632
+          }
+        },
+        {
+          "rva": 324384,
+          "inferred_targets": {
+            "?GameGetInternalAim@@YGPAU_CAMERA_AIM@@XZ": 268569616
+          }
+        },
+        {
+          "rva": 333536,
+          "inferred_targets": {
+            "?GameGetInternalAim@@YGPAU_CAMERA_AIM@@XZ": 268768848
+          }
+        },
+        {
+          "rva": 343248,
+          "inferred_targets": {
+            "?GameGetInternalAim@@YGPAU_CAMERA_AIM@@XZ": 268778560
+          }
+        },
+        {
+          "rva": 344272,
+          "inferred_targets": {
+            "?GameGetInternalAim@@YGPAU_CAMERA_AIM@@XZ": 268779088
+          }
+        },
+        {
+          "rva": 354688,
+          "inferred_targets": {
+            "?GameGetInternalAim@@YGPAU_CAMERA_AIM@@XZ": 268588496
+          }
+        },
+        {
+          "rva": 410400,
+          "inferred_targets": {
+            "?GameGetInternalAim@@YGPAU_CAMERA_AIM@@XZ": 268845744
+          }
+        },
+        {
+          "rva": 422928,
+          "inferred_targets": {
+            "?GameGetInternalAim@@YGPAU_CAMERA_AIM@@XZ": 268857760
+          }
+        },
+        {
+          "rva": 428512,
+          "inferred_targets": {
+            "?GameGetInternalAim@@YGPAU_CAMERA_AIM@@XZ": 269237888
+          }
+        },
+        {
+          "rva": 435888,
+          "inferred_targets": {
+            "?GameGetInternalAim@@YGPAU_CAMERA_AIM@@XZ": 268871120
+          }
+        },
+        {
+          "rva": 448992,
+          "inferred_targets": {
+            "?GameGetInternalAim@@YGPAU_CAMERA_AIM@@XZ": 268883888
+          }
+        },
+        {
+          "rva": 460960,
+          "inferred_targets": {
+            "?GameGetInternalAim@@YGPAU_CAMERA_AIM@@XZ": 268896304
+          }
+        },
+        {
+          "rva": 471552,
+          "inferred_targets": {
+            "?GameGetInternalAim@@YGPAU_CAMERA_AIM@@XZ": 268905520
+          }
+        },
+        {
+          "rva": 491072,
+          "inferred_targets": {
+            "?GameGetInternalAim@@YGPAU_CAMERA_AIM@@XZ": 268921648
+          }
+        },
+        {
+          "rva": 491088,
+          "inferred_targets": {
+            "?GameGetInternalAim@@YGPAU_CAMERA_AIM@@XZ": 268925536
+          }
+        },
+        {
+          "rva": 491104,
+          "inferred_targets": {
+            "?GameGetInternalAim@@YGPAU_CAMERA_AIM@@XZ": 268920704
+          }
+        },
+        {
+          "rva": 491744,
+          "inferred_targets": {
+            "?GameGetInternalAim@@YGPAU_CAMERA_AIM@@XZ": 268926576
+          }
+        },
+        {
+          "rva": 509984,
+          "inferred_targets": {
+            "?GameGetInternalAim@@YGPAU_CAMERA_AIM@@XZ": 268943552
+          }
+        },
+        {
+          "rva": 536640,
+          "inferred_targets": {
+            "?GameGetInternalAim@@YGPAU_CAMERA_AIM@@XZ": 268970592
+          }
+        },
+        {
+          "rva": 536704,
+          "inferred_targets": {
+            "?GameGetInternalAim@@YGPAU_CAMERA_AIM@@XZ": 268970736
+          }
+        },
+        {
+          "rva": 536768,
+          "inferred_targets": {
+            "?GameGetInternalAim@@YGPAU_CAMERA_AIM@@XZ": 268970880
+          }
+        },
+        {
+          "rva": 536832,
+          "inferred_targets": {
+            "?GameGetInternalAim@@YGPAU_CAMERA_AIM@@XZ": 268971024
+          }
+        },
+        {
+          "rva": 536896,
+          "inferred_targets": {
+            "?GameGetInternalAim@@YGPAU_CAMERA_AIM@@XZ": 268971168
+          }
+        },
+        {
+          "rva": 536976,
+          "inferred_targets": {
+            "?GameGetInternalAim@@YGPAU_CAMERA_AIM@@XZ": 268971312
+          }
+        },
+        {
+          "rva": 537040,
+          "inferred_targets": {
+            "?GameGetInternalAim@@YGPAU_CAMERA_AIM@@XZ": 268971456
+          }
+        },
+        {
+          "rva": 537104,
+          "inferred_targets": {
+            "?GameGetInternalAim@@YGPAU_CAMERA_AIM@@XZ": 268971600
+          }
+        },
+        {
+          "rva": 537168,
+          "inferred_targets": {
+            "?GameGetInternalAim@@YGPAU_CAMERA_AIM@@XZ": 268971744
+          }
+        },
+        {
+          "rva": 563712,
+          "inferred_targets": {
+            "?GameGetInternalAim@@YGPAU_CAMERA_AIM@@XZ": 268986768
+          }
+        },
+        {
+          "rva": 563776,
+          "inferred_targets": {
+            "?GameGetInternalAim@@YGPAU_CAMERA_AIM@@XZ": 268986912
+          }
+        },
+        {
+          "rva": 563840,
+          "inferred_targets": {
+            "?GameGetInternalAim@@YGPAU_CAMERA_AIM@@XZ": 268987056
+          }
+        },
+        {
+          "rva": 563904,
+          "inferred_targets": {
+            "?GameGetInternalAim@@YGPAU_CAMERA_AIM@@XZ": 268987200
+          }
+        },
+        {
+          "rva": 563968,
+          "inferred_targets": {
+            "?GameGetInternalAim@@YGPAU_CAMERA_AIM@@XZ": 268987344
+          }
+        },
+        {
+          "rva": 564032,
+          "inferred_targets": {
+            "?GameGetInternalAim@@YGPAU_CAMERA_AIM@@XZ": 268987488
+          }
+        },
+        {
+          "rva": 564192,
+          "inferred_targets": {
+            "?GameGetInternalAim@@YGPAU_CAMERA_AIM@@XZ": 268987632
+          }
+        },
+        {
+          "rva": 564256,
+          "inferred_targets": {
+            "?GameGetInternalAim@@YGPAU_CAMERA_AIM@@XZ": 268987776
+          }
+        },
+        {
+          "rva": 582720,
+          "inferred_targets": {
+            "?GameGetInternalAim@@YGPAU_CAMERA_AIM@@XZ": 269017984
+          }
+        },
+        {
+          "rva": 582976,
+          "inferred_targets": {
+            "?GameGetInternalAim@@YGPAU_CAMERA_AIM@@XZ": 269017984
+          }
+        },
+        {
+          "rva": 583424,
+          "inferred_targets": {
+            "?GameGetInternalAim@@YGPAU_CAMERA_AIM@@XZ": 269017984
+          }
+        },
+        {
+          "rva": 594624,
+          "inferred_targets": {
+            "?GameGetInternalAim@@YGPAU_CAMERA_AIM@@XZ": 269017984
+          }
+        },
+        {
+          "rva": 594880,
+          "inferred_targets": {
+            "?GameGetInternalAim@@YGPAU_CAMERA_AIM@@XZ": 269017984
+          }
+        },
+        {
+          "rva": 604192,
+          "inferred_targets": {
+            "?GameGetInternalAim@@YGPAU_CAMERA_AIM@@XZ": 269039632
+          }
+        },
+        {
+          "rva": 620080,
+          "inferred_targets": {
+            "?GameGetInternalAim@@YGPAU_CAMERA_AIM@@XZ": 269050144
+          }
+        },
+        {
+          "rva": 620160,
+          "inferred_targets": {
+            "?GameGetInternalAim@@YGPAU_CAMERA_AIM@@XZ": 269050288
+          }
+        },
+        {
+          "rva": 620240,
+          "inferred_targets": {
+            "?GameGetInternalAim@@YGPAU_CAMERA_AIM@@XZ": 269050432
+          }
+        },
+        {
+          "rva": 620320,
+          "inferred_targets": {
+            "?GameGetInternalAim@@YGPAU_CAMERA_AIM@@XZ": 269050576
+          }
+        },
+        {
+          "rva": 656336,
+          "inferred_targets": {
+            "?GameGetInternalAim@@YGPAU_CAMERA_AIM@@XZ": 269172256
+          }
+        },
+        {
+          "rva": 703520,
+          "inferred_targets": {
+            "?GameGetInternalAim@@YGPAU_CAMERA_AIM@@XZ": 269076864
+          }
+        },
+        {
+          "rva": 731696,
+          "inferred_targets": {
+            "?GameGetInternalAim@@YGPAU_CAMERA_AIM@@XZ": 269165984
+          }
+        },
+        {
+          "rva": 731744,
+          "inferred_targets": {
+            "?GameGetInternalAim@@YGPAU_CAMERA_AIM@@XZ": 269165984
+          }
+        },
+        {
+          "rva": 731792,
+          "inferred_targets": {
+            "?GameGetInternalAim@@YGPAU_CAMERA_AIM@@XZ": 269165984
+          }
+        },
+        {
+          "rva": 731840,
+          "inferred_targets": {
+            "?GameGetInternalAim@@YGPAU_CAMERA_AIM@@XZ": 269165984
+          }
+        },
+        {
+          "rva": 742512,
+          "inferred_targets": {
+            "?GameGetInternalAim@@YGPAU_CAMERA_AIM@@XZ": 269177600
+          }
+        },
+        {
+          "rva": 763648,
+          "inferred_targets": {
+            "?GameGetInternalAim@@YGPAU_CAMERA_AIM@@XZ": 269198944
+          }
+        },
+        {
+          "rva": 772064,
+          "inferred_targets": {
+            "?GameGetInternalAim@@YGPAU_CAMERA_AIM@@XZ": 269249085
+          }
+        },
+        {
+          "rva": 807536,
+          "inferred_targets": {
+            "?GameGetInternalAim@@YGPAU_CAMERA_AIM@@XZ": 269242560
+          }
+        },
+        {
+          "rva": 811980,
+          "inferred_targets": {
+            "?GameGetInternalAim@@YGPAU_CAMERA_AIM@@XZ": 269247098
+          }
+        },
+        {
+          "rva": 812170,
+          "inferred_targets": {
+            "?GameGetInternalAim@@YGPAU_CAMERA_AIM@@XZ": 269249085
+          }
+        },
+        {
+          "rva": 814374,
+          "inferred_targets": {
+            "?GameGetInternalAim@@YGPAU_CAMERA_AIM@@XZ": 269249694
+          }
+        },
+        {
+          "rva": 819053,
+          "inferred_targets": {
+            "?GameGetInternalAim@@YGPAU_CAMERA_AIM@@XZ": 269254492
+          }
+        },
+        {
+          "rva": 819547,
+          "inferred_targets": {
+            "?GameGetInternalAim@@YGPAU_CAMERA_AIM@@XZ": 269254961
+          }
+        },
+        {
+          "rva": 830249,
+          "inferred_targets": {
+            "?GameGetInternalAim@@YGPAU_CAMERA_AIM@@XZ": 269247626
+          }
+        }
+      ]
+    },
+    {
+      "unit": "eval_player_base",
+      "symbol": "?SetCurrentAim@CPlayerPed@@QAEXPAU_CAMERA_AIM@@@Z",
+      "size": 21,
+      "object_sha256": "9aa0418c52fe4afc47fae18fbcd5ccc0bd8f3db07a5f23c43fb7e8332e5fd6b7",
+      "candidates": [
+        {
+          "rva": 703536,
+          "inferred_targets": {
+            "?GameStoreRemotePlayerAim@@YGXHPAU_CAMERA_AIM@@@Z": 269076880
+          }
+        }
+      ]
+    },
+    {
+      "unit": "eval_player_base",
+      "symbol": "?GetCurrentWeapon@CPlayerPed@@QAEEXZ",
+      "size": 61,
+      "object_sha256": "9aa0418c52fe4afc47fae18fbcd5ccc0bd8f3db07a5f23c43fb7e8332e5fd6b7",
+      "candidates": [
+        {
+          "rva": 703568,
+          "inferred_targets": {
+            "?GamePool_Ped_GetAt@@YGPAU_PED_TYPE@@H@Z": 269171568,
+            "_get_actor_armed_weapon": 269405768,
+            "?ScriptCommand@@YAHPBUSCRIPT_COMMAND@@ZZ": 269165328
+          }
+        }
+      ]
+    },
+    {
+      "unit": "eval_player_base",
+      "symbol": "?GetCurrentVehicleID@CPlayerPed@@QAEHXZ",
+      "size": 24,
+      "object_sha256": "9aa0418c52fe4afc47fae18fbcd5ccc0bd8f3db07a5f23c43fb7e8332e5fd6b7",
+      "candidates": [
+        {
+          "rva": 703632,
+          "inferred_targets": {
+            "?GamePool_Vehicle_GetIndex@@YGKPAU_VEHICLE_TYPE@@@Z": 269171712
+          }
+        }
+      ]
+    },
+    {
+      "unit": "eval_player_base",
+      "symbol": "?HideMarker@CPlayerPed@@QAEXXZ",
+      "size": 39,
+      "object_sha256": "9aa0418c52fe4afc47fae18fbcd5ccc0bd8f3db07a5f23c43fb7e8332e5fd6b7",
+      "candidates": [
+        {
+          "rva": 703664,
+          "inferred_targets": {
+            "_disable_marker": 269405688,
+            "?ScriptCommand@@YAHPBUSCRIPT_COMMAND@@ZZ": 269165328
+          }
+        }
+      ]
+    },
+    {
+      "unit": "eval_player_base",
+      "symbol": "?IsOnScreen@CPlayerPed@@QAEHXZ",
+      "size": 20,
+      "object_sha256": "9aa0418c52fe4afc47fae18fbcd5ccc0bd8f3db07a5f23c43fb7e8332e5fd6b7",
+      "candidates": [
+        {
+          "rva": 703712,
+          "inferred_targets": {
+            "?GameIsEntityOnScreen@@YGHPAK@Z": 269173184
+          }
+        }
+      ]
+    },
+    {
+      "unit": "eval_player_base",
+      "symbol": "?SetImmunities@CPlayerPed@@QAEXHHHHH@Z",
+      "size": 72,
+      "object_sha256": "9aa0418c52fe4afc47fae18fbcd5ccc0bd8f3db07a5f23c43fb7e8332e5fd6b7",
+      "candidates": [
+        {
+          "rva": 703744,
+          "inferred_targets": {
+            "?GamePool_Ped_GetAt@@YGPAU_PED_TYPE@@H@Z": 269171568,
+            "_set_actor_immunities": 269405808,
+            "?ScriptCommand@@YAHPBUSCRIPT_COMMAND@@ZZ": 269165328
+          }
+        }
+      ]
+    },
+    {
+      "unit": "eval_player_base",
+      "symbol": "?GetHealth@CPlayerPed@@QAEMXZ",
+      "size": 24,
+      "object_sha256": "9aa0418c52fe4afc47fae18fbcd5ccc0bd8f3db07a5f23c43fb7e8332e5fd6b7",
+      "candidates": [
+        {
+          "rva": 703824,
+          "inferred_targets": {
+            "__real@00000000": 269375808
+          }
+        }
+      ]
+    },
+    {
+      "unit": "eval_player_base",
+      "symbol": "?SetHealth@CPlayerPed@@QAEXM@Z",
+      "size": 23,
+      "object_sha256": "9aa0418c52fe4afc47fae18fbcd5ccc0bd8f3db07a5f23c43fb7e8332e5fd6b7",
+      "candidates": [
+        {
+          "rva": 703856,
+          "inferred_targets": {}
+        }
+      ]
+    },
+    {
+      "unit": "eval_player_base",
+      "symbol": "?GetArmour@CPlayerPed@@QAEMXZ",
+      "size": 24,
+      "object_sha256": "9aa0418c52fe4afc47fae18fbcd5ccc0bd8f3db07a5f23c43fb7e8332e5fd6b7",
+      "candidates": [
+        {
+          "rva": 703888,
+          "inferred_targets": {
+            "__real@00000000": 269375808
+          }
+        }
+      ]
+    },
+    {
+      "unit": "eval_player_base",
+      "symbol": "?SetArmour@CPlayerPed@@QAEXM@Z",
+      "size": 23,
+      "object_sha256": "9aa0418c52fe4afc47fae18fbcd5ccc0bd8f3db07a5f23c43fb7e8332e5fd6b7",
+      "candidates": [
+        {
+          "rva": 703920,
+          "inferred_targets": {}
+        }
+      ]
+    },
+    {
+      "unit": "eval_player_base",
+      "symbol": "?GetStateFlags@CPlayerPed@@QAEKXZ",
+      "size": 18,
+      "object_sha256": "9aa0418c52fe4afc47fae18fbcd5ccc0bd8f3db07a5f23c43fb7e8332e5fd6b7",
+      "candidates": [
+        {
+          "rva": 703952,
+          "inferred_targets": {}
+        }
+      ]
+    },
+    {
+      "unit": "eval_player_base",
+      "symbol": "?SetStateFlags@CPlayerPed@@QAEXK@Z",
+      "size": 23,
+      "object_sha256": "9aa0418c52fe4afc47fae18fbcd5ccc0bd8f3db07a5f23c43fb7e8332e5fd6b7",
+      "candidates": [
+        {
+          "rva": 703984,
+          "inferred_targets": {}
+        }
+      ]
+    },
+    {
+      "unit": "eval_player_base",
+      "symbol": "?IsDead@CPlayerPed@@QAEHXZ",
+      "size": 38,
+      "object_sha256": "9aa0418c52fe4afc47fae18fbcd5ccc0bd8f3db07a5f23c43fb7e8332e5fd6b7",
+      "candidates": [
+        {
+          "rva": 704016,
+          "inferred_targets": {
+            "__real@00000000": 269375808
+          }
+        }
+      ]
+    },
+    {
+      "unit": "eval_player_base",
+      "symbol": "?GetActionTrigger@CPlayerPed@@QAEEXZ",
+      "size": 13,
+      "object_sha256": "9aa0418c52fe4afc47fae18fbcd5ccc0bd8f3db07a5f23c43fb7e8332e5fd6b7",
+      "candidates": [
+        {
+          "rva": 704064,
+          "inferred_targets": {}
+        }
+      ]
+    },
+    {
+      "unit": "eval_player_base",
+      "symbol": "?SetActionTrigger@CPlayerPed@@QAEXE@Z",
+      "size": 24,
+      "object_sha256": "9aa0418c52fe4afc47fae18fbcd5ccc0bd8f3db07a5f23c43fb7e8332e5fd6b7",
+      "candidates": [
+        {
+          "rva": 704080,
+          "inferred_targets": {}
+        }
+      ]
+    },
+    {
+      "unit": "eval_player_base",
+      "symbol": "?IsInVehicle@CPlayerPed@@QAEHXZ",
+      "size": 24,
+      "object_sha256": "9aa0418c52fe4afc47fae18fbcd5ccc0bd8f3db07a5f23c43fb7e8332e5fd6b7",
+      "candidates": [
+        {
+          "rva": 704112,
+          "inferred_targets": {}
+        }
+      ]
+    },
+    {
+      "unit": "eval_player_base",
+      "symbol": "?GetTargetRotation@CPlayerPed@@QAEMXZ",
+      "size": 118,
+      "object_sha256": "9aa0418c52fe4afc47fae18fbcd5ccc0bd8f3db07a5f23c43fb7e8332e5fd6b7",
+      "candidates": [
+        {
+          "rva": 704144,
+          "inferred_targets": {
+            "?GamePool_Ped_GetAt@@YGPAU_PED_TYPE@@H@Z": 269171568,
+            "__real@00000000": 269375808,
+            "?GetMatrix@CEntity@@QAEXPAU_MATRIX4X4@@@Z": 269085456,
+            "__real@42652ee2": 269377832,
+            "__real@43b40000": 269377828
+          }
+        }
+      ]
+    },
+    {
+      "unit": "eval_player_base",
+      "symbol": "?SetTargetRotation@CPlayerPed@@QAEXM@Z",
+      "size": 75,
+      "object_sha256": "9aa0418c52fe4afc47fae18fbcd5ccc0bd8f3db07a5f23c43fb7e8332e5fd6b7",
+      "candidates": [
+        {
+          "rva": 704272,
+          "inferred_targets": {
+            "?GamePool_Ped_GetAt@@YGPAU_PED_TYPE@@H@Z": 269171568,
+            "?DegToRad@@YAMM@Z": 269179248
+          }
+        }
+      ]
+    },
+    {
+      "unit": "eval_player_base",
+      "symbol": "?ForceTargetRotation@CPlayerPed@@QAEXM@Z",
+      "size": 96,
+      "object_sha256": "9aa0418c52fe4afc47fae18fbcd5ccc0bd8f3db07a5f23c43fb7e8332e5fd6b7",
+      "candidates": []
+    },
+    {
+      "unit": "eval_player_base",
+      "symbol": "?IsAPassenger@CPlayerPed@@QAEHXZ",
+      "size": 60,
+      "object_sha256": "9aa0418c52fe4afc47fae18fbcd5ccc0bd8f3db07a5f23c43fb7e8332e5fd6b7",
+      "candidates": [
+        {
+          "rva": 704448,
+          "inferred_targets": {}
+        }
+      ]
+    },
+    {
+      "unit": "eval_player_base",
+      "symbol": "?GetGtaVehicle@CPlayerPed@@QAEPAU_VEHICLE_TYPE@@XZ",
+      "size": 13,
+      "object_sha256": "9aa0418c52fe4afc47fae18fbcd5ccc0bd8f3db07a5f23c43fb7e8332e5fd6b7",
+      "candidates": [
+        {
+          "rva": 704512,
+          "inferred_targets": {}
+        }
+      ]
+    },
+    {
+      "unit": "eval_player_base",
+      "symbol": "?ClearAllWeapons@CPlayerPed@@QAEXXZ",
+      "size": 66,
+      "object_sha256": "9aa0418c52fe4afc47fae18fbcd5ccc0bd8f3db07a5f23c43fb7e8332e5fd6b7",
+      "candidates": [
+        {
+          "rva": 704528,
+          "inferred_targets": {
+            "?pbyteCurrentPlayer@@3PAEA": 269564280
+          }
+        }
+      ]
+    },
+    {
+      "unit": "eval_player_base",
+      "symbol": "?SetArmedWeapon@CPlayerPed@@QAEXH_N@Z",
+      "size": 174,
+      "object_sha256": "9aa0418c52fe4afc47fae18fbcd5ccc0bd8f3db07a5f23c43fb7e8332e5fd6b7",
+      "candidates": [
+        {
+          "rva": 704608,
+          "inferred_targets": {
+            "?GamePool_Ped_GetAt@@YGPAU_PED_TYPE@@H@Z": 269171568,
+            "?pbyteCurrentPlayer@@3PAEA": 269564280,
+            "?GameStoreLocalPlayerWeaponSkills@@YGXXZ": 269077296,
+            "?GameSetRemotePlayerWeaponSkills@@YGXH@Z": 269077792,
+            "_set_actor_armed_weapon": 269405748,
+            "?ScriptCommand@@YAHPBUSCRIPT_COMMAND@@ZZ": 269165328,
+            "?GameSetLocalPlayerWeaponSkills@@YGXXZ": 269077440
+          }
+        }
+      ]
+    },
+    {
+      "unit": "eval_player_base",
+      "symbol": "?RemoveWeaponWhenEnteringVehicle@CPlayerPed@@QAEXXZ",
+      "size": 33,
+      "object_sha256": "9aa0418c52fe4afc47fae18fbcd5ccc0bd8f3db07a5f23c43fb7e8332e5fd6b7",
+      "candidates": [
+        {
+          "rva": 704784,
+          "inferred_targets": {}
+        }
+      ]
+    },
+    {
+      "unit": "eval_player_base",
+      "symbol": "?GetCurrentWeaponSlot@CPlayerPed@@QAEPAU_WEAPON_SLOT_TYPE@@XZ",
+      "size": 31,
+      "object_sha256": "9aa0418c52fe4afc47fae18fbcd5ccc0bd8f3db07a5f23c43fb7e8332e5fd6b7",
+      "candidates": [
+        {
+          "rva": 704832,
+          "inferred_targets": {}
+        }
+      ]
+    },
+    {
+      "unit": "eval_player_base",
+      "symbol": "?HasAmmoForCurrentWeapon@CPlayerPed@@QAEHXZ",
+      "size": 47,
+      "object_sha256": "9aa0418c52fe4afc47fae18fbcd5ccc0bd8f3db07a5f23c43fb7e8332e5fd6b7",
+      "candidates": []
+    },
+    {
+      "unit": "eval_player_base",
+      "symbol": "?GetDistanceFromVehicle@CPlayerPed@@QAEMPAVCVehicle@@@Z",
+      "size": 89,
+      "object_sha256": "9aa0418c52fe4afc47fae18fbcd5ccc0bd8f3db07a5f23c43fb7e8332e5fd6b7",
+      "candidates": [
+        {
+          "rva": 704928,
+          "inferred_targets": {
+            "?GetMatrix@CEntity@@QAEXPAU_MATRIX4X4@@@Z": 269085456
+          }
+        }
+      ]
+    },
+    {
+      "unit": "eval_player_base",
+      "symbol": "?GetVehicleSeatID@CPlayerPed@@QAEHXZ",
+      "size": 138,
+      "object_sha256": "9aa0418c52fe4afc47fae18fbcd5ccc0bd8f3db07a5f23c43fb7e8332e5fd6b7",
+      "candidates": []
+    },
+    {
+      "unit": "eval_player_base",
+      "symbol": "?ExitCurrentVehicle@CPlayerPed@@QAEXXZ",
+      "size": 114,
+      "object_sha256": "9aa0418c52fe4afc47fae18fbcd5ccc0bd8f3db07a5f23c43fb7e8332e5fd6b7",
+      "candidates": []
+    },
+    {
+      "unit": "eval_player_base",
+      "symbol": "?RemoveFromVehicleAndPutAt@CPlayerPed@@QAEXMMM@Z",
+      "size": 84,
+      "object_sha256": "9aa0418c52fe4afc47fae18fbcd5ccc0bd8f3db07a5f23c43fb7e8332e5fd6b7",
+      "candidates": [
+        {
+          "rva": 705904,
+          "inferred_targets": {
+            "?GamePool_Ped_GetAt@@YGPAU_PED_TYPE@@H@Z": 269171568,
+            "_remove_actor_from_car_and_put_at": 269405888,
+            "?ScriptCommand@@YAHPBUSCRIPT_COMMAND@@ZZ": 269165328
+          }
+        }
+      ]
+    },
+    {
+      "unit": "eval_player_base",
+      "symbol": "?TogglePlayerControllable@CPlayerPed@@QAEXH@Z",
+      "size": 166,
+      "object_sha256": "9aa0418c52fe4afc47fae18fbcd5ccc0bd8f3db07a5f23c43fb7e8332e5fd6b7",
+      "candidates": []
+    },
+    {
+      "unit": "eval_player_base",
+      "symbol": "?HandsUp@CPlayerPed@@QAEXXZ",
+      "size": 69,
+      "object_sha256": "9aa0418c52fe4afc47fae18fbcd5ccc0bd8f3db07a5f23c43fb7e8332e5fd6b7",
+      "candidates": [
+        {
+          "rva": 707344,
+          "inferred_targets": {
+            "?IsAdded@CEntity@@QAEHXZ": 269087696,
+            "?GamePool_Ped_GetAt@@YGPAU_PED_TYPE@@H@Z": 269171568,
+            "_actor_task_handsup": 269406368,
+            "?ScriptCommand@@YAHPBUSCRIPT_COMMAND@@ZZ": 269165328
+          }
+        }
+      ]
+    },
+    {
+      "unit": "eval_player_base",
+      "symbol": "?HasHandsUp@CPlayerPed@@QAEHXZ",
+      "size": 88,
+      "object_sha256": "9aa0418c52fe4afc47fae18fbcd5ccc0bd8f3db07a5f23c43fb7e8332e5fd6b7",
+      "candidates": [
+        {
+          "rva": 707424,
+          "inferred_targets": {
+            "?IsAdded@CEntity@@QAEHXZ": 269087696,
+            "?GamePool_Ped_GetAt@@YGPAU_PED_TYPE@@H@Z": 269171568
+          }
+        }
+      ]
+    },
+    {
+      "unit": "eval_player_base",
+      "symbol": "?HoldItem@CPlayerPed@@QAEXH@Z",
+      "size": 72,
+      "object_sha256": "9aa0418c52fe4afc47fae18fbcd5ccc0bd8f3db07a5f23c43fb7e8332e5fd6b7",
+      "candidates": [
+        {
+          "rva": 707520,
+          "inferred_targets": {
+            "?IsAdded@CEntity@@QAEHXZ": 269087696,
+            "?GamePool_Ped_GetAt@@YGPAU_PED_TYPE@@H@Z": 269171568
+          }
+        }
+      ]
+    },
+    {
+      "unit": "eval_player_base",
+      "symbol": "?IsJumping@CPlayerPed@@QAEHXZ",
+      "size": 57,
+      "object_sha256": "9aa0418c52fe4afc47fae18fbcd5ccc0bd8f3db07a5f23c43fb7e8332e5fd6b7",
+      "candidates": [
+        {
+          "rva": 707600,
+          "inferred_targets": {
+            "?GetTaskTypeFromTask@@YAHPAK@Z": 269172896
+          }
+        }
+      ]
+    },
+    {
+      "unit": "eval_player_base",
+      "symbol": "?IsFighting@CPlayerPed@@QAEHXZ",
+      "size": 57,
+      "object_sha256": "9aa0418c52fe4afc47fae18fbcd5ccc0bd8f3db07a5f23c43fb7e8332e5fd6b7",
+      "candidates": [
+        {
+          "rva": 707664,
+          "inferred_targets": {
+            "?GetTaskTypeFromTask@@YAHPAK@Z": 269172896
+          }
+        }
+      ]
+    },
+    {
+      "unit": "eval_player_base",
+      "symbol": "?IsFalling@CPlayerPed@@QAEHXZ",
+      "size": 57,
+      "object_sha256": "9aa0418c52fe4afc47fae18fbcd5ccc0bd8f3db07a5f23c43fb7e8332e5fd6b7",
+      "candidates": [
+        {
+          "rva": 707728,
+          "inferred_targets": {
+            "?GetTaskTypeFromTask@@YAHPAK@Z": 269172896
+          }
+        }
+      ]
+    },
+    {
+      "unit": "eval_player_base",
+      "symbol": "?IsSwimming@CPlayerPed@@QAEHXZ",
+      "size": 57,
+      "object_sha256": "9aa0418c52fe4afc47fae18fbcd5ccc0bd8f3db07a5f23c43fb7e8332e5fd6b7",
+      "candidates": [
+        {
+          "rva": 707792,
+          "inferred_targets": {
+            "?GetTaskTypeFromTask@@YAHPAK@Z": 269172896
+          }
+        }
+      ]
+    },
+    {
+      "unit": "eval_player_base",
+      "symbol": "?StartJetpack@CPlayerPed@@QAEXXZ",
+      "size": 67,
+      "object_sha256": "9aa0418c52fe4afc47fae18fbcd5ccc0bd8f3db07a5f23c43fb7e8332e5fd6b7",
+      "candidates": [
+        {
+          "rva": 707856,
+          "inferred_targets": {
+            "?pbyteCurrentPlayer@@3PAEA": 269564280,
+            "?TeleportTo@CEntity@@QAEXMMM@Z": 269086784
+          }
+        }
+      ]
+    },
+    {
+      "unit": "eval_player_base",
+      "symbol": "?StopJetpack@CPlayerPed@@QAEXXZ",
+      "size": 88,
+      "object_sha256": "9aa0418c52fe4afc47fae18fbcd5ccc0bd8f3db07a5f23c43fb7e8332e5fd6b7",
+      "candidates": [
+        {
+          "rva": 707936,
+          "inferred_targets": {}
+        }
+      ]
+    },
+    {
+      "unit": "eval_player_base",
+      "symbol": "?IsInJetpackMode@CPlayerPed@@QAEHXZ",
+      "size": 53,
+      "object_sha256": "9aa0418c52fe4afc47fae18fbcd5ccc0bd8f3db07a5f23c43fb7e8332e5fd6b7",
+      "candidates": [
+        {
+          "rva": 708032,
+          "inferred_targets": {}
+        }
+      ]
+    },
+    {
+      "unit": "eval_player_base",
+      "symbol": "?HasGoggles@CPlayerPed@@QAEHXZ",
+      "size": 39,
+      "object_sha256": "9aa0418c52fe4afc47fae18fbcd5ccc0bd8f3db07a5f23c43fb7e8332e5fd6b7",
+      "candidates": [
+        {
+          "rva": 708096,
+          "inferred_targets": {}
+        }
+      ]
+    },
+    {
+      "unit": "eval_player_base",
+      "symbol": "?GetAmmo@CPlayerPed@@QAEGXZ",
+      "size": 45,
+      "object_sha256": "9aa0418c52fe4afc47fae18fbcd5ccc0bd8f3db07a5f23c43fb7e8332e5fd6b7",
+      "candidates": []
+    },
+    {
+      "unit": "eval_player_base",
+      "symbol": "?FindWeaponSlot@CPlayerPed@@QAEPAU_WEAPON_SLOT_TYPE@@K@Z",
+      "size": 61,
+      "object_sha256": "9aa0418c52fe4afc47fae18fbcd5ccc0bd8f3db07a5f23c43fb7e8332e5fd6b7",
+      "candidates": [
+        {
+          "rva": 709008,
+          "inferred_targets": {}
+        }
+      ]
+    },
+    {
+      "unit": "eval_player_base",
+      "symbol": "?SetAnimationSet@CPlayerPed@@QAEXPAD@Z",
+      "size": 35,
+      "object_sha256": "9aa0418c52fe4afc47fae18fbcd5ccc0bd8f3db07a5f23c43fb7e8332e5fd6b7",
+      "candidates": [
+        {
+          "rva": 709072,
+          "inferred_targets": {
+            "_set_actor_animation_set": 269406088,
+            "?ScriptCommand@@YAHPBUSCRIPT_COMMAND@@ZZ": 269165328
+          }
+        }
+      ]
+    },
+    {
+      "unit": "eval_player_base",
+      "symbol": "?SetMoney@CPlayerPed@@QAEXH@Z",
+      "size": 45,
+      "object_sha256": "9aa0418c52fe4afc47fae18fbcd5ccc0bd8f3db07a5f23c43fb7e8332e5fd6b7",
+      "candidates": [
+        {
+          "rva": 709120,
+          "inferred_targets": {
+            "_set_actor_money": 269406168,
+            "?ScriptCommand@@YAHPBUSCRIPT_COMMAND@@ZZ": 269165328
+          }
+        }
+      ]
+    },
+    {
+      "unit": "eval_player_base",
+      "symbol": "?ApplyAnimation@CPlayerPed@@QAEXPAD0MHHHHH@Z",
+      "size": 206,
+      "object_sha256": "9aa0418c52fe4afc47fae18fbcd5ccc0bd8f3db07a5f23c43fb7e8332e5fd6b7",
+      "candidates": [
+        {
+          "rva": 709168,
+          "inferred_targets": {
+            "?GamePool_Ped_GetAt@@YGPAU_PED_TYPE@@H@Z": 269171568,
+            "??_C@_03DDABINI@SEX?$AA@": 269402876,
+            "_stricmp": 269254514,
+            "?pGame@@3PAVCGame@@A": 270986156,
+            "?IsAnimationLoaded@CGame@@QAEHPAD@Z": 269094000,
+            "?RequestAnimation@CGame@@QAEXPAD@Z": 269093968,
+            "__imp__Sleep@4": 269374036,
+            "_apply_animation": 269406108,
+            "?ScriptCommand@@YAHPBUSCRIPT_COMMAND@@ZZ": 269165328
+          }
+        }
+      ]
+    },
+    {
+      "unit": "eval_player_base",
+      "symbol": "?IsPerformingAnimation@CPlayerPed@@QAEHPAD@Z",
+      "size": 49,
+      "object_sha256": "9aa0418c52fe4afc47fae18fbcd5ccc0bd8f3db07a5f23c43fb7e8332e5fd6b7",
+      "candidates": [
+        {
+          "rva": 709376,
+          "inferred_targets": {
+            "_is_actor_performing_anim": 269406128,
+            "?ScriptCommand@@YAHPBUSCRIPT_COMMAND@@ZZ": 269165328
+          }
+        }
+      ]
+    },
+    {
+      "unit": "eval_player_base",
+      "symbol": "?GetAimZ@CPlayerPed@@QAEMXZ",
+      "size": 54,
+      "object_sha256": "9aa0418c52fe4afc47fae18fbcd5ccc0bd8f3db07a5f23c43fb7e8332e5fd6b7",
+      "candidates": [
+        {
+          "rva": 710896,
+          "inferred_targets": {
+            "__real@00000000": 269375808
+          }
+        }
+      ]
+    },
+    {
+      "unit": "eval_player_base",
+      "symbol": "?SetAimZ@CPlayerPed@@QAEXM@Z",
+      "size": 98,
+      "object_sha256": "9aa0418c52fe4afc47fae18fbcd5ccc0bd8f3db07a5f23c43fb7e8332e5fd6b7",
+      "candidates": [
+        {
+          "rva": 710960,
+          "inferred_targets": {
+            "__isnan": 269268120,
+            "__real@42c80000": 269377812,
+            "__real@c2c80000": 269377808
+          }
+        }
+      ]
+    },
+    {
+      "unit": "eval_player_base",
+      "symbol": "?GetGtaContactEntity@CPlayerPed@@QAEPAU_ENTITY_TYPE@@XZ",
+      "size": 13,
+      "object_sha256": "9aa0418c52fe4afc47fae18fbcd5ccc0bd8f3db07a5f23c43fb7e8332e5fd6b7",
+      "candidates": [
+        {
+          "rva": 711072,
+          "inferred_targets": {}
+        }
+      ]
+    },
+    {
+      "unit": "eval_player_base",
+      "symbol": "?GetGtaContactVehicle@CPlayerPed@@QAEPAU_VEHICLE_TYPE@@XZ",
+      "size": 13,
+      "object_sha256": "9aa0418c52fe4afc47fae18fbcd5ccc0bd8f3db07a5f23c43fb7e8332e5fd6b7",
+      "candidates": [
+        {
+          "rva": 711088,
+          "inferred_targets": {}
+        }
+      ]
+    },
+    {
+      "unit": "eval_player_base",
+      "symbol": "?StartDancing@CPlayerPed@@QAEXH@Z",
+      "size": 79,
+      "object_sha256": "9aa0418c52fe4afc47fae18fbcd5ccc0bd8f3db07a5f23c43fb7e8332e5fd6b7",
+      "candidates": [
+        {
+          "rva": 711376,
+          "inferred_targets": {
+            "?DanceStyleLibs@@3PAY0BA@DA": 269577688,
+            "?DanceIdleLoops@@3PAY0BA@DA": 269577752,
+            "?ApplyAnimation@CPlayerPed@@QAEXPAD0MHHHHH@Z": 269144624
+          }
+        }
+      ]
+    },
+    {
+      "unit": "eval_player_base",
+      "symbol": "?StopDancing@CPlayerPed@@QAEXXZ",
+      "size": 53,
+      "object_sha256": "9aa0418c52fe4afc47fae18fbcd5ccc0bd8f3db07a5f23c43fb7e8332e5fd6b7",
+      "candidates": [
+        {
+          "rva": 711456,
+          "inferred_targets": {
+            "?GetMatrix@CEntity@@QAEXPAU_MATRIX4X4@@@Z": 269085456,
+            "?TeleportTo@CEntity@@QAEXMMM@Z": 269086784
+          }
+        }
+      ]
+    },
+    {
+      "unit": "eval_player_base",
+      "symbol": "?IsDancing@CPlayerPed@@QAEHXZ",
+      "size": 14,
+      "object_sha256": "9aa0418c52fe4afc47fae18fbcd5ccc0bd8f3db07a5f23c43fb7e8332e5fd6b7",
+      "candidates": [
+        {
+          "rva": 711520,
+          "inferred_targets": {}
+        }
+      ]
+    },
+    {
+      "unit": "eval_player_base",
+      "symbol": "?ProcessMarkers@CPlayerPed@@QAEXHMH@Z",
+      "size": 3,
+      "object_sha256": "9aa0418c52fe4afc47fae18fbcd5ccc0bd8f3db07a5f23c43fb7e8332e5fd6b7",
+      "candidates": [
+        {
+          "rva": 132032,
+          "inferred_targets": {}
+        },
+        {
+          "rva": 132048,
+          "inferred_targets": {}
+        },
+        {
+          "rva": 201088,
+          "inferred_targets": {}
+        },
+        {
+          "rva": 212944,
+          "inferred_targets": {}
+        },
+        {
+          "rva": 233328,
+          "inferred_targets": {}
+        },
+        {
+          "rva": 322000,
+          "inferred_targets": {}
+        }
+      ]
+    },
+    {
+      "unit": "eval_player_base",
+      "symbol": "?ApplyCommandTask@CPlayerPed@@QAEXPADHHHPAU_VECTOR@@HMHHH@Z",
+      "size": 68,
+      "object_sha256": "9aa0418c52fe4afc47fae18fbcd5ccc0bd8f3db07a5f23c43fb7e8332e5fd6b7",
+      "candidates": [
+        {
+          "rva": 712656,
+          "inferred_targets": {}
+        }
+      ]
+    },
+    {
+      "unit": "eval_player_base",
+      "symbol": "?DestroyFollowPedTask@CPlayerPed@@QAEXXZ",
+      "size": 67,
+      "object_sha256": "9aa0418c52fe4afc47fae18fbcd5ccc0bd8f3db07a5f23c43fb7e8332e5fd6b7",
+      "candidates": [
+        {
+          "rva": 712736,
+          "inferred_targets": {
+            "?dwExt4@@3KA": 270971912
+          }
+        }
+      ]
+    },
+    {
+      "unit": "eval_player_base",
+      "symbol": "?ToggleCellphone@CPlayerPed@@QAEXH@Z",
+      "size": 38,
+      "object_sha256": "9aa0418c52fe4afc47fae18fbcd5ccc0bd8f3db07a5f23c43fb7e8332e5fd6b7",
+      "candidates": [
+        {
+          "rva": 712816,
+          "inferred_targets": {
+            "_toggle_actor_cellphone": 269406348,
+            "?ScriptCommand@@YAHPBUSCRIPT_COMMAND@@ZZ": 269165328
+          }
+        }
+      ]
+    },
+    {
+      "unit": "eval_player_base",
+      "symbol": "?IsCellphoneEnabled@CPlayerPed@@QAEHXZ",
+      "size": 4,
+      "object_sha256": "9aa0418c52fe4afc47fae18fbcd5ccc0bd8f3db07a5f23c43fb7e8332e5fd6b7",
+      "candidates": [
+        {
+          "rva": 58352,
+          "inferred_targets": {}
+        },
+        {
+          "rva": 712864,
+          "inferred_targets": {}
+        }
+      ]
+    },
+    {
+      "unit": "eval_player_base",
+      "symbol": "?GetFightingStyle@CPlayerPed@@QAEHXZ",
+      "size": 19,
+      "object_sha256": "9aa0418c52fe4afc47fae18fbcd5ccc0bd8f3db07a5f23c43fb7e8332e5fd6b7",
+      "candidates": [
+        {
+          "rva": 712880,
+          "inferred_targets": {}
+        }
+      ]
+    },
+    {
+      "unit": "eval_player_base",
+      "symbol": "?SetFightingStyle@CPlayerPed@@QAEXH@Z",
+      "size": 37,
+      "object_sha256": "9aa0418c52fe4afc47fae18fbcd5ccc0bd8f3db07a5f23c43fb7e8332e5fd6b7",
+      "candidates": [
+        {
+          "rva": 712912,
+          "inferred_targets": {
+            "_set_fighting_style": 269406388,
+            "?ScriptCommand@@YAHPBUSCRIPT_COMMAND@@ZZ": 269165328
+          }
+        }
+      ]
+    },
+    {
+      "unit": "eval_player_base",
+      "symbol": "?ProcessVehicleHorn@CPlayerPed@@QAEXXZ",
+      "size": 107,
+      "object_sha256": "9aa0418c52fe4afc47fae18fbcd5ccc0bd8f3db07a5f23c43fb7e8332e5fd6b7",
+      "candidates": [
+        {
+          "rva": 713328,
+          "inferred_targets": {
+            "?GamePool_Ped_GetAt@@YGPAU_PED_TYPE@@H@Z": 269171568,
+            "?GameGetInternalKeys@@YAPAU_GTA_CONTROLSET@@XZ": 269120432,
+            "?GameGetPlayerKeys@@YAPAU_GTA_CONTROLSET@@H@Z": 269120464
+          }
+        }
+      ]
+    },
+    {
+      "unit": "eval_player_base",
+      "symbol": "?GetLoadedShopName@CPlayerPed@@QAEPADXZ",
+      "size": 32,
+      "object_sha256": "9aa0418c52fe4afc47fae18fbcd5ccc0bd8f3db07a5f23c43fb7e8332e5fd6b7",
+      "candidates": [
+        {
+          "rva": 713440,
+          "inferred_targets": {
+            "?GamePool_Ped_GetAt@@YGPAU_PED_TYPE@@H@Z": 269171568
+          }
+        }
+      ]
+    },
+    {
+      "unit": "eval_player_base",
+      "symbol": "?LoadShoppingDataSubsection@CPlayerPed@@QAEXPAD@Z",
+      "size": 45,
+      "object_sha256": "9aa0418c52fe4afc47fae18fbcd5ccc0bd8f3db07a5f23c43fb7e8332e5fd6b7",
+      "candidates": [
+        {
+          "rva": 713472,
+          "inferred_targets": {}
+        }
+      ]
+    },
+    {
+      "unit": "eval_player_base",
+      "symbol": "?GetShopName@CPlayerPed@@QAEPADXZ",
+      "size": 79,
+      "object_sha256": "9aa0418c52fe4afc47fae18fbcd5ccc0bd8f3db07a5f23c43fb7e8332e5fd6b7",
+      "candidates": [
+        {
+          "rva": 713520,
+          "inferred_targets": {
+            "?GamePool_Ped_GetAt@@YGPAU_PED_TYPE@@H@Z": 269171568
+          }
+        }
+      ]
+    },
+    {
+      "unit": "eval_player_base",
+      "symbol": "?SetShopName@CPlayerPed@@QAEXPAD@Z",
+      "size": 202,
+      "object_sha256": "9aa0418c52fe4afc47fae18fbcd5ccc0bd8f3db07a5f23c43fb7e8332e5fd6b7",
+      "candidates": [
+        {
+          "rva": 713600,
+          "inferred_targets": {
+            "?GamePool_Ped_GetAt@@YGPAU_PED_TYPE@@H@Z": 269171568,
+            "?szShopName@@3PADA": 270971880,
+            "_strncpy": 269252592
+          }
+        }
+      ]
+    },
+    {
+      "unit": "eval_player_base",
+      "symbol": "?SetWeaponSkillLevel@CPlayerPed@@QAEXHG@Z",
+      "size": 37,
+      "object_sha256": "9aa0418c52fe4afc47fae18fbcd5ccc0bd8f3db07a5f23c43fb7e8332e5fd6b7",
+      "candidates": [
+        {
+          "rva": 713808,
+          "inferred_targets": {
+            "?GameSetLocalPlayerWeaponSkillLevel@@YGXHG@Z": 269077056,
+            "?GameSetPlayerWeaponSkillLevel@@YGXHHG@Z": 269077008
+          }
+        }
+      ]
+    },
+    {
+      "unit": "eval_player_base",
+      "symbol": "?GetBonePosition@CPlayerPed@@QAEPAU_VECTOR@@HPAU2@@Z",
+      "size": 65,
+      "object_sha256": "9aa0418c52fe4afc47fae18fbcd5ccc0bd8f3db07a5f23c43fb7e8332e5fd6b7",
+      "candidates": [
+        {
+          "rva": 713856,
+          "inferred_targets": {}
+        }
+      ]
+    },
+    {
+      "unit": "eval_player_base",
+      "symbol": "?GetTransformedBonePosition@CPlayerPed@@QAEPAU_VECTOR@@HPAU2@@Z",
+      "size": 65,
+      "object_sha256": "9aa0418c52fe4afc47fae18fbcd5ccc0bd8f3db07a5f23c43fb7e8332e5fd6b7",
+      "candidates": [
+        {
+          "rva": 713936,
+          "inferred_targets": {}
+        }
+      ]
+    },
+    {
+      "unit": "eval_player_base",
+      "symbol": "?SetKeys@CPlayerPed@@QAEXGGG@Z",
+      "size": 622,
+      "object_sha256": "9aa0418c52fe4afc47fae18fbcd5ccc0bd8f3db07a5f23c43fb7e8332e5fd6b7",
+      "candidates": []
+    },
+    {
+      "unit": "eval_player_base",
+      "symbol": "?GetKeys@CPlayerPed@@QAEGPAG0@Z",
+      "size": 267,
+      "object_sha256": "9aa0418c52fe4afc47fae18fbcd5ccc0bd8f3db07a5f23c43fb7e8332e5fd6b7",
+      "candidates": []
+    },
+    {
+      "unit": "eval_player_base",
+      "symbol": "?GiveWeapon@CPlayerPed@@QAEXHH@Z",
+      "size": 242,
+      "object_sha256": "9aa0418c52fe4afc47fae18fbcd5ccc0bd8f3db07a5f23c43fb7e8332e5fd6b7",
+      "candidates": [
+        {
+          "rva": 718736,
+          "inferred_targets": {
+            "?GamePool_Ped_GetAt@@YGPAU_PED_TYPE@@H@Z": 269171568,
+            "?GameGetWeaponModelIDFromWeaponID@@YGHH@Z": 269172256,
+            "?pGame@@3PAVCGame@@A": 270986156,
+            "?IsModelLoaded@CGame@@QAEHH@Z": 269093232,
+            "?RequestModel@CGame@@QAEXHH@Z": 269093184,
+            "?LoadRequestedModels@CGame@@QAEXXZ": 269093216,
+            "__imp__Sleep@4": 269374036,
+            "?pbyteCurrentPlayer@@3PAEA": 269564280,
+            "?GameStoreLocalPlayerWeaponSkills@@YGXXZ": 269077296,
+            "?GameSetRemotePlayerWeaponSkills@@YGXH@Z": 269077792,
+            "?GameSetLocalPlayerWeaponSkills@@YGXXZ": 269077440,
+            "?SetArmedWeapon@CPlayerPed@@QAEXH_N@Z": 269140064
+          }
+        }
+      ]
+    },
+    {
+      "unit": "eval_player_base",
+      "symbol": "?StartGoggles@CPlayerPed@@QAEXXZ",
+      "size": 148,
+      "object_sha256": "9aa0418c52fe4afc47fae18fbcd5ccc0bd8f3db07a5f23c43fb7e8332e5fd6b7",
+      "candidates": []
+    },
+    {
+      "unit": "eval_player_base",
+      "symbol": "?StopGoggles@CPlayerPed@@QAEXXZ",
+      "size": 52,
+      "object_sha256": "9aa0418c52fe4afc47fae18fbcd5ccc0bd8f3db07a5f23c43fb7e8332e5fd6b7",
+      "candidates": []
+    },
+    {
+      "unit": "eval_michael_player",
+      "symbol": "?SetAmmo@EvaluationPlayerPed@@QAEXEG@Z",
+      "size": 36,
+      "object_sha256": "94d0f881ab27c89ca3156091fc60b034f8237d4589081bc12d56e887d04b83c2",
+      "candidates": [
+        {
+          "rva": 721024,
+          "inferred_targets": {
+            "?FindWeaponSlot@CPlayerPed@@QAEPAU_WEAPON_SLOT_TYPE@@K@Z": 269144464
+          }
+        }
+      ]
+    },
+    {
+      "unit": "eval_michael_player",
+      "symbol": "?IsOnGround@EvaluationPlayerPed@@QAEHXZ",
+      "size": 28,
+      "object_sha256": "94d0f881ab27c89ca3156091fc60b034f8237d4589081bc12d56e887d04b83c2",
+      "candidates": [
+        {
+          "rva": 710752,
+          "inferred_targets": {}
+        }
+      ]
+    },
+    {
+      "unit": "eval_michael_player",
+      "symbol": "?SetWeaponModelIndex@EvaluationPlayerPed@@QAEXH@Z",
+      "size": 62,
+      "object_sha256": "94d0f881ab27c89ca3156091fc60b034f8237d4589081bc12d56e887d04b83c2",
+      "candidates": [
+        {
+          "rva": 710832,
+          "inferred_targets": {
+            "?pGame@@3PAVCGame@@A": 270986156,
+            "?GetWeaponInfo@CGame@@QAEKHH@Z": 269095904
+          }
+        }
+      ]
+    },
+    {
+      "unit": "eval_michael_player",
+      "symbol": "?SetInterior@EvaluationPlayerPed@@QAEXE@Z",
+      "size": 102,
+      "object_sha256": "94d0f881ab27c89ca3156091fc60b034f8237d4589081bc12d56e887d04b83c2",
+      "candidates": []
+    },
+    {
+      "unit": "eval_michael_player",
+      "symbol": "?RestartIfWastedAt@EvaluationPlayerPed@@QAEXPAU_VECTOR@@M@Z",
+      "size": 52,
+      "object_sha256": "94d0f881ab27c89ca3156091fc60b034f8237d4589081bc12d56e887d04b83c2",
+      "candidates": []
+    }
+  ],
+  "reference_commit": "dc9eb80d80e26cf91e2b92697b8918208f052542",
+  "reference_source_sha256": "e6725371ec66f0f881870eb46b11a4b913e754ab9a37873394e3acc71a02fc76",
+  "sources": {
+    "client/saco/eval_player_base.cpp": "9cd90b362aaae2a5e8351716acf830b64067e87aeb895af0e55a50da64db0bab",
+    "client/saco/eval_michael_player.cpp": "a4212c3431c60b28151e67876f9bdc23d3f42fb846ec68fa73deee12970fb3b8"
+  },
+  "accepted_coverage_increment": 0,
+  "limitations": [
+    "Discovery infers relocation targets only; no result is accepted or counted in source coverage.",
+    "Several small code shapes have multiple candidate RVAs and need semantic/data/target review.",
+    "Four incomplete imported methods excluded from the isolated base compilation: constructor, ShowMarker, PutDirectlyInVehicle, EnterVehicle.",
+    "Original whole-file and initial extraction compile failures preserved in build/cp32-michael-player-scan*.log."
+  ],
+  "next_actions": [
+    "Integrate SetAmmo, IsOnGround, SetWeaponModelIndex into actual CPlayerPed; candidate sizes 36/28/62 at B0080/AD860/AD8B0.",
+    "Select broad player-base candidate closure with complete script descriptors and separately defined source globals; prefer existing accepted dependencies.",
+    "GiveWeapon requires local/remote weapon-skill helpers before linked closure; these must be implemented or explicitly remain pending and excluded.",
+    "SetShopName requires complete szShopName[32] zero object; dancing needs complete source string tables; do not slice generic storage."
+  ]
+}
