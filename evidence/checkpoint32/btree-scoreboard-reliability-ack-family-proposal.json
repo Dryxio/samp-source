@@ -1,0 +1,427 @@
+{
+  "status": "SOURCE_PROPOSAL_NOT_COMPILED_OR_ACCEPTED",
+  "baseline": 253737,
+  "roots": {
+    "?RemovePacketFromResendListAndDeleteOlderReliableSequenced@ReliabilityLayer@@AAEIG_J@Z": 296624,
+    "?SendAcknowledgementPacket@ReliabilityLayer@@AAEXG_J@Z": 296704
+  },
+  "functions": [
+    {
+      "symbol": "?SendAcknowledgementPacket@ReliabilityLayer@@AAEXG_J@Z",
+      "rva": 296704,
+      "size": 22,
+      "unique_potential": 22
+    },
+    {
+      "symbol": "?Insert@?$RangeList@G@DataStructures@@QAEXG@Z",
+      "rva": 293648,
+      "size": 505,
+      "unique_potential": 505
+    },
+    {
+      "symbol": "?RemoveAtIndex@?$OrderedList@GU?$RangeNode@G@DataStructures@@$1??$RangeNodeComp@G@2@YAHABGABU12@@Z@DataStructures@@QAEXI@Z",
+      "rva": 291392,
+      "size": 5,
+      "unique_potential": 5
+    },
+    {
+      "symbol": "?RemoveAtIndex@?$List@U?$RangeNode@G@DataStructures@@@DataStructures@@QAEXI@Z",
+      "rva": 287632,
+      "size": 53,
+      "unique_potential": 53
+    },
+    {
+      "symbol": "?InsertAtIndex@?$OrderedList@GU?$RangeNode@G@DataStructures@@$1??$RangeNodeComp@G@2@YAHABGABU12@@Z@DataStructures@@QAEXABU?$RangeNode@G@2@I@Z",
+      "rva": 291408,
+      "size": 15,
+      "unique_potential": 15
+    },
+    {
+      "symbol": "?Insert@?$List@U?$RangeNode@G@DataStructures@@@DataStructures@@QAEXU?$RangeNode@G@2@I@Z",
+      "rva": 287376,
+      "size": 254,
+      "unique_potential": 254
+    },
+    {
+      "symbol": "??0?$RangeNode@G@DataStructures@@QAE@XZ",
+      "rva": 280736,
+      "size": 3,
+      "unique_potential": 3
+    },
+    {
+      "symbol": "??1?$RangeNode@G@DataStructures@@QAE@XZ",
+      "rva": 280752,
+      "size": 1,
+      "unique_potential": 0
+    },
+    {
+      "symbol": "??A?$OrderedList@GU?$RangeNode@G@DataStructures@@$1??$RangeNodeComp@G@2@YAHABGABU12@@Z@DataStructures@@QBEAAU?$RangeNode@G@1@I@Z",
+      "rva": 286080,
+      "size": 12,
+      "unique_potential": 12
+    },
+    {
+      "symbol": "?GetIndexFromKey@?$OrderedList@GU?$RangeNode@G@DataStructures@@$1??$RangeNodeComp@G@2@YAHABGABU12@@Z@DataStructures@@QBEIABGPA_N@Z",
+      "rva": 286624,
+      "size": 141,
+      "unique_potential": 141
+    },
+    {
+      "symbol": "??$RangeNodeComp@G@DataStructures@@YAHABGABU?$RangeNode@G@0@@Z",
+      "rva": 281296,
+      "size": 36,
+      "unique_potential": 0
+    },
+    {
+      "symbol": "?Insert@?$OrderedList@GU?$RangeNode@G@DataStructures@@$1??$RangeNodeComp@G@2@YAHABGABU12@@Z@DataStructures@@QAEIABGABU?$RangeNode@G@2@@Z",
+      "rva": 291296,
+      "size": 91,
+      "unique_potential": 91
+    },
+    {
+      "symbol": "?Insert@?$List@U?$RangeNode@G@DataStructures@@@DataStructures@@QAEXU?$RangeNode@G@2@@Z",
+      "rva": 287136,
+      "size": 226,
+      "unique_potential": 226
+    },
+    {
+      "symbol": "?Size@?$OrderedList@GU?$RangeNode@G@DataStructures@@$1??$RangeNodeComp@G@2@YAHABGABU12@@Z@DataStructures@@QBEIXZ",
+      "rva": 286096,
+      "size": 4,
+      "unique_potential": 0
+    },
+    {
+      "symbol": "?RemovePacketFromResendListAndDeleteOlderReliableSequenced@ReliabilityLayer@@AAEIG_J@Z",
+      "rva": 296624,
+      "size": 65,
+      "unique_potential": 65
+    },
+    {
+      "symbol": "?Delete@?$BPlusTree@GPAUInternalPacket@@$0CA@@DataStructures@@QAE_NGAAPAUInternalPacket@@@Z",
+      "rva": 294416,
+      "size": 214,
+      "unique_potential": 214
+    },
+    {
+      "symbol": "?FindDeleteRebalance@?$BPlusTree@GPAUInternalPacket@@$0CA@@DataStructures@@IAE_NGPAU?$Page@GPAUInternalPacket@@$0CA@@2@PA_NGPAUReturnAction@12@AAPAUInternalPacket@@@Z",
+      "rva": 292352,
+      "size": 375,
+      "unique_potential": 375
+    },
+    {
+      "symbol": "?DeleteFromPageAtIndex@?$BPlusTree@GPAUInternalPacket@@$0CA@@DataStructures@@IAEXHPAU?$Page@GPAUInternalPacket@@$0CA@@2@@Z",
+      "rva": 281360,
+      "size": 136,
+      "unique_potential": 0
+    },
+    {
+      "symbol": "?FixUnderflow@?$BPlusTree@GPAUInternalPacket@@$0CA@@DataStructures@@IAE_NHPAU?$Page@GPAUInternalPacket@@$0CA@@2@GPAUReturnAction@12@@Z",
+      "rva": 288800,
+      "size": 690,
+      "unique_potential": 690
+    },
+    {
+      "symbol": "?Release@?$MemoryPool@U?$Page@GPAUInternalPacket@@$0CA@@DataStructures@@@DataStructures@@QAEXPAU?$Page@GPAUInternalPacket@@$0CA@@2@@Z",
+      "rva": 287008,
+      "size": 8,
+      "unique_potential": 0
+    },
+    {
+      "symbol": "?Insert@?$List@PAU?$Page@GPAUInternalPacket@@$0CA@@DataStructures@@@DataStructures@@QAEXQAU?$Page@GPAUInternalPacket@@$0CA@@2@@Z",
+      "rva": 283168,
+      "size": 105,
+      "unique_potential": 0
+    },
+    {
+      "symbol": "?ShiftNodeLeft@?$BPlusTree@GPAUInternalPacket@@$0CA@@DataStructures@@IAEXPAU?$Page@GPAUInternalPacket@@$0CA@@2@@Z",
+      "rva": 283408,
+      "size": 119,
+      "unique_potential": 0
+    },
+    {
+      "symbol": "?ShiftNodeRight@?$BPlusTree@GPAUInternalPacket@@$0CA@@DataStructures@@IAEXPAU?$Page@GPAUInternalPacket@@$0CA@@2@@Z",
+      "rva": 283536,
+      "size": 98,
+      "unique_potential": 0
+    },
+    {
+      "symbol": "?GetIndexOf@?$BPlusTree@GPAUInternalPacket@@$0CA@@DataStructures@@IBE_NGPAU?$Page@GPAUInternalPacket@@$0CA@@2@PAH@Z",
+      "rva": 281504,
+      "size": 101,
+      "unique_potential": 0
+    }
+  ],
+  "potential_unique_before_EH": 2671,
+  "external_targets": {
+    "_memmove": 269250016,
+    "__ehhandler$?Insert@?$List@U?$RangeNode@G@DataStructures@@@DataStructures@@QAEXU?$RangeNode@G@2@I@Z": 269364363,
+    "__except_list": 0,
+    "??2@YAPAXI@Z": 269247098,
+    "??_L@YGXPAXIHP6EX0@Z1@Z": 269254863,
+    "??_M@YGXPAXIHP6EX0@Z@Z": 269254767,
+    "??3@YAXPAX@Z": 269247626,
+    "__ehhandler$?Insert@?$List@U?$RangeNode@G@DataStructures@@@DataStructures@@QAEXU?$RangeNode@G@2@@Z": 269364331
+  },
+  "identity_callers": {
+    "?Insert@?$RangeList@G@DataStructures@@QAEXG@Z": [
+      {
+        "caller": "?SendAcknowledgementPacket@ReliabilityLayer@@AAEXG_J@Z",
+        "target_rva": 293648
+      }
+    ],
+    "?Size@?$OrderedList@GU?$RangeNode@G@DataStructures@@$1??$RangeNodeComp@G@2@YAHABGABU12@@Z@DataStructures@@QBEIXZ": [
+      {
+        "caller": "?Insert@?$RangeList@G@DataStructures@@QAEXG@Z",
+        "target_rva": 286096
+      }
+    ],
+    "?Insert@?$OrderedList@GU?$RangeNode@G@DataStructures@@$1??$RangeNodeComp@G@2@YAHABGABU12@@Z@DataStructures@@QAEIABGABU?$RangeNode@G@2@@Z": [
+      {
+        "caller": "?Insert@?$RangeList@G@DataStructures@@QAEXG@Z",
+        "target_rva": 291296
+      }
+    ],
+    "?GetIndexFromKey@?$OrderedList@GU?$RangeNode@G@DataStructures@@$1??$RangeNodeComp@G@2@YAHABGABU12@@Z@DataStructures@@QBEIABGPA_N@Z": [
+      {
+        "caller": "?Insert@?$RangeList@G@DataStructures@@QAEXG@Z",
+        "target_rva": 286624
+      },
+      {
+        "caller": "?Insert@?$OrderedList@GU?$RangeNode@G@DataStructures@@$1??$RangeNodeComp@G@2@YAHABGABU12@@Z@DataStructures@@QAEIABGABU?$RangeNode@G@2@@Z",
+        "target_rva": 286624
+      }
+    ],
+    "??A?$OrderedList@GU?$RangeNode@G@DataStructures@@$1??$RangeNodeComp@G@2@YAHABGABU12@@Z@DataStructures@@QBEAAU?$RangeNode@G@1@I@Z": [
+      {
+        "caller": "?Insert@?$RangeList@G@DataStructures@@QAEXG@Z",
+        "target_rva": 286080
+      }
+    ],
+    "?InsertAtIndex@?$OrderedList@GU?$RangeNode@G@DataStructures@@$1??$RangeNodeComp@G@2@YAHABGABU12@@Z@DataStructures@@QAEXABU?$RangeNode@G@2@I@Z": [
+      {
+        "caller": "?Insert@?$RangeList@G@DataStructures@@QAEXG@Z",
+        "target_rva": 291408
+      }
+    ],
+    "?RemoveAtIndex@?$OrderedList@GU?$RangeNode@G@DataStructures@@$1??$RangeNodeComp@G@2@YAHABGABU12@@Z@DataStructures@@QAEXI@Z": [
+      {
+        "caller": "?Insert@?$RangeList@G@DataStructures@@QAEXG@Z",
+        "target_rva": 291392
+      }
+    ],
+    "?RemoveAtIndex@?$List@U?$RangeNode@G@DataStructures@@@DataStructures@@QAEXI@Z": [
+      {
+        "caller": "?RemoveAtIndex@?$OrderedList@GU?$RangeNode@G@DataStructures@@$1??$RangeNodeComp@G@2@YAHABGABU12@@Z@DataStructures@@QAEXI@Z",
+        "target_rva": 287632
+      }
+    ],
+    "_memmove": [
+      {
+        "caller": "?RemoveAtIndex@?$List@U?$RangeNode@G@DataStructures@@@DataStructures@@QAEXI@Z",
+        "target_rva": 814560
+      },
+      {
+        "caller": "?Insert@?$List@U?$RangeNode@G@DataStructures@@@DataStructures@@QAEXU?$RangeNode@G@2@I@Z",
+        "target_rva": 814560
+      }
+    ],
+    "?Insert@?$List@U?$RangeNode@G@DataStructures@@@DataStructures@@QAEXU?$RangeNode@G@2@I@Z": [
+      {
+        "caller": "?InsertAtIndex@?$OrderedList@GU?$RangeNode@G@DataStructures@@$1??$RangeNodeComp@G@2@YAHABGABU12@@Z@DataStructures@@QAEXABU?$RangeNode@G@2@I@Z",
+        "target_rva": 287376
+      },
+      {
+        "caller": "?Insert@?$OrderedList@GU?$RangeNode@G@DataStructures@@$1??$RangeNodeComp@G@2@YAHABGABU12@@Z@DataStructures@@QAEIABGABU?$RangeNode@G@2@@Z",
+        "target_rva": 287376
+      }
+    ],
+    "__ehhandler$?Insert@?$List@U?$RangeNode@G@DataStructures@@@DataStructures@@QAEXU?$RangeNode@G@2@I@Z": [
+      {
+        "caller": "?Insert@?$List@U?$RangeNode@G@DataStructures@@@DataStructures@@QAEXU?$RangeNode@G@2@I@Z",
+        "target_rva": 928907
+      }
+    ],
+    "__except_list": [
+      {
+        "caller": "?Insert@?$List@U?$RangeNode@G@DataStructures@@@DataStructures@@QAEXU?$RangeNode@G@2@I@Z",
+        "target_rva": -268435456
+      },
+      {
+        "caller": "?Insert@?$List@U?$RangeNode@G@DataStructures@@@DataStructures@@QAEXU?$RangeNode@G@2@@Z",
+        "target_rva": -268435456
+      }
+    ],
+    "??2@YAPAXI@Z": [
+      {
+        "caller": "?Insert@?$List@U?$RangeNode@G@DataStructures@@@DataStructures@@QAEXU?$RangeNode@G@2@I@Z",
+        "target_rva": 811642
+      },
+      {
+        "caller": "?Insert@?$List@U?$RangeNode@G@DataStructures@@@DataStructures@@QAEXU?$RangeNode@G@2@@Z",
+        "target_rva": 811642
+      },
+      {
+        "caller": "?Insert@?$List@PAU?$Page@GPAUInternalPacket@@$0CA@@DataStructures@@@DataStructures@@QAEXQAU?$Page@GPAUInternalPacket@@$0CA@@2@@Z",
+        "target_rva": 811642
+      }
+    ],
+    "??1?$RangeNode@G@DataStructures@@QAE@XZ": [
+      {
+        "caller": "?Insert@?$List@U?$RangeNode@G@DataStructures@@@DataStructures@@QAEXU?$RangeNode@G@2@I@Z",
+        "target_rva": 280752
+      },
+      {
+        "caller": "?Insert@?$List@U?$RangeNode@G@DataStructures@@@DataStructures@@QAEXU?$RangeNode@G@2@@Z",
+        "target_rva": 280752
+      }
+    ],
+    "??0?$RangeNode@G@DataStructures@@QAE@XZ": [
+      {
+        "caller": "?Insert@?$List@U?$RangeNode@G@DataStructures@@@DataStructures@@QAEXU?$RangeNode@G@2@I@Z",
+        "target_rva": 280736
+      },
+      {
+        "caller": "?Insert@?$List@U?$RangeNode@G@DataStructures@@@DataStructures@@QAEXU?$RangeNode@G@2@@Z",
+        "target_rva": 280736
+      }
+    ],
+    "??_L@YGXPAXIHP6EX0@Z1@Z": [
+      {
+        "caller": "?Insert@?$List@U?$RangeNode@G@DataStructures@@@DataStructures@@QAEXU?$RangeNode@G@2@I@Z",
+        "target_rva": 819407
+      },
+      {
+        "caller": "?Insert@?$List@U?$RangeNode@G@DataStructures@@@DataStructures@@QAEXU?$RangeNode@G@2@@Z",
+        "target_rva": 819407
+      }
+    ],
+    "??_M@YGXPAXIHP6EX0@Z@Z": [
+      {
+        "caller": "?Insert@?$List@U?$RangeNode@G@DataStructures@@@DataStructures@@QAEXU?$RangeNode@G@2@I@Z",
+        "target_rva": 819311
+      },
+      {
+        "caller": "?Insert@?$List@U?$RangeNode@G@DataStructures@@@DataStructures@@QAEXU?$RangeNode@G@2@@Z",
+        "target_rva": 819311
+      }
+    ],
+    "??3@YAXPAX@Z": [
+      {
+        "caller": "?Insert@?$List@U?$RangeNode@G@DataStructures@@@DataStructures@@QAEXU?$RangeNode@G@2@I@Z",
+        "target_rva": 812170
+      },
+      {
+        "caller": "?Insert@?$List@U?$RangeNode@G@DataStructures@@@DataStructures@@QAEXU?$RangeNode@G@2@@Z",
+        "target_rva": 812170
+      },
+      {
+        "caller": "?Insert@?$List@PAU?$Page@GPAUInternalPacket@@$0CA@@DataStructures@@@DataStructures@@QAEXQAU?$Page@GPAUInternalPacket@@$0CA@@2@@Z",
+        "target_rva": 812170
+      }
+    ],
+    "??$RangeNodeComp@G@DataStructures@@YAHABGABU?$RangeNode@G@0@@Z": [
+      {
+        "caller": "?GetIndexFromKey@?$OrderedList@GU?$RangeNode@G@DataStructures@@$1??$RangeNodeComp@G@2@YAHABGABU12@@Z@DataStructures@@QBEIABGPA_N@Z",
+        "target_rva": 281296
+      }
+    ],
+    "?Insert@?$List@U?$RangeNode@G@DataStructures@@@DataStructures@@QAEXU?$RangeNode@G@2@@Z": [
+      {
+        "caller": "?Insert@?$OrderedList@GU?$RangeNode@G@DataStructures@@$1??$RangeNodeComp@G@2@YAHABGABU12@@Z@DataStructures@@QAEIABGABU?$RangeNode@G@2@@Z",
+        "target_rva": 287136
+      }
+    ],
+    "__ehhandler$?Insert@?$List@U?$RangeNode@G@DataStructures@@@DataStructures@@QAEXU?$RangeNode@G@2@@Z": [
+      {
+        "caller": "?Insert@?$List@U?$RangeNode@G@DataStructures@@@DataStructures@@QAEXU?$RangeNode@G@2@@Z",
+        "target_rva": 928875
+      }
+    ],
+    "?Delete@?$BPlusTree@GPAUInternalPacket@@$0CA@@DataStructures@@QAE_NGAAPAUInternalPacket@@@Z": [
+      {
+        "caller": "?RemovePacketFromResendListAndDeleteOlderReliableSequenced@ReliabilityLayer@@AAEIG_J@Z",
+        "target_rva": 294416
+      }
+    ],
+    "?GetIndexOf@?$BPlusTree@GPAUInternalPacket@@$0CA@@DataStructures@@IBE_NGPAU?$Page@GPAUInternalPacket@@$0CA@@2@PAH@Z": [
+      {
+        "caller": "?Delete@?$BPlusTree@GPAUInternalPacket@@$0CA@@DataStructures@@QAE_NGAAPAUInternalPacket@@@Z",
+        "target_rva": 281504
+      },
+      {
+        "caller": "?FindDeleteRebalance@?$BPlusTree@GPAUInternalPacket@@$0CA@@DataStructures@@IAE_NGPAU?$Page@GPAUInternalPacket@@$0CA@@2@PA_NGPAUReturnAction@12@AAPAUInternalPacket@@@Z",
+        "target_rva": 281504
+      }
+    ],
+    "?DeleteFromPageAtIndex@?$BPlusTree@GPAUInternalPacket@@$0CA@@DataStructures@@IAEXHPAU?$Page@GPAUInternalPacket@@$0CA@@2@@Z": [
+      {
+        "caller": "?Delete@?$BPlusTree@GPAUInternalPacket@@$0CA@@DataStructures@@QAE_NGAAPAUInternalPacket@@@Z",
+        "target_rva": 281360
+      },
+      {
+        "caller": "?FindDeleteRebalance@?$BPlusTree@GPAUInternalPacket@@$0CA@@DataStructures@@IAE_NGPAU?$Page@GPAUInternalPacket@@$0CA@@2@PA_NGPAUReturnAction@12@AAPAUInternalPacket@@@Z",
+        "target_rva": 281360
+      },
+      {
+        "caller": "?FixUnderflow@?$BPlusTree@GPAUInternalPacket@@$0CA@@DataStructures@@IAE_NHPAU?$Page@GPAUInternalPacket@@$0CA@@2@GPAUReturnAction@12@@Z",
+        "target_rva": 281360
+      }
+    ],
+    "?Release@?$MemoryPool@U?$Page@GPAUInternalPacket@@$0CA@@DataStructures@@@DataStructures@@QAEXPAU?$Page@GPAUInternalPacket@@$0CA@@2@@Z": [
+      {
+        "caller": "?Delete@?$BPlusTree@GPAUInternalPacket@@$0CA@@DataStructures@@QAE_NGAAPAUInternalPacket@@@Z",
+        "target_rva": 287008
+      },
+      {
+        "caller": "?FixUnderflow@?$BPlusTree@GPAUInternalPacket@@$0CA@@DataStructures@@IAE_NHPAU?$Page@GPAUInternalPacket@@$0CA@@2@GPAUReturnAction@12@@Z",
+        "target_rva": 287008
+      }
+    ],
+    "?FindDeleteRebalance@?$BPlusTree@GPAUInternalPacket@@$0CA@@DataStructures@@IAE_NGPAU?$Page@GPAUInternalPacket@@$0CA@@2@PA_NGPAUReturnAction@12@AAPAUInternalPacket@@@Z": [
+      {
+        "caller": "?Delete@?$BPlusTree@GPAUInternalPacket@@$0CA@@DataStructures@@QAE_NGAAPAUInternalPacket@@@Z",
+        "target_rva": 292352
+      },
+      {
+        "caller": "?FindDeleteRebalance@?$BPlusTree@GPAUInternalPacket@@$0CA@@DataStructures@@IAE_NGPAU?$Page@GPAUInternalPacket@@$0CA@@2@PA_NGPAUReturnAction@12@AAPAUInternalPacket@@@Z",
+        "target_rva": 292352
+      }
+    ],
+    "?FixUnderflow@?$BPlusTree@GPAUInternalPacket@@$0CA@@DataStructures@@IAE_NHPAU?$Page@GPAUInternalPacket@@$0CA@@2@GPAUReturnAction@12@@Z": [
+      {
+        "caller": "?FindDeleteRebalance@?$BPlusTree@GPAUInternalPacket@@$0CA@@DataStructures@@IAE_NGPAU?$Page@GPAUInternalPacket@@$0CA@@2@PA_NGPAUReturnAction@12@AAPAUInternalPacket@@@Z",
+        "target_rva": 288800
+      }
+    ],
+    "?ShiftNodeRight@?$BPlusTree@GPAUInternalPacket@@$0CA@@DataStructures@@IAEXPAU?$Page@GPAUInternalPacket@@$0CA@@2@@Z": [
+      {
+        "caller": "?FixUnderflow@?$BPlusTree@GPAUInternalPacket@@$0CA@@DataStructures@@IAE_NHPAU?$Page@GPAUInternalPacket@@$0CA@@2@GPAUReturnAction@12@@Z",
+        "target_rva": 283536
+      }
+    ],
+    "?ShiftNodeLeft@?$BPlusTree@GPAUInternalPacket@@$0CA@@DataStructures@@IAEXPAU?$Page@GPAUInternalPacket@@$0CA@@2@@Z": [
+      {
+        "caller": "?FixUnderflow@?$BPlusTree@GPAUInternalPacket@@$0CA@@DataStructures@@IAE_NHPAU?$Page@GPAUInternalPacket@@$0CA@@2@GPAUReturnAction@12@@Z",
+        "target_rva": 283408
+      }
+    ],
+    "?Insert@?$List@PAU?$Page@GPAUInternalPacket@@$0CA@@DataStructures@@@DataStructures@@QAEXQAU?$Page@GPAUInternalPacket@@$0CA@@2@@Z": [
+      {
+        "caller": "?Release@?$MemoryPool@U?$Page@GPAUInternalPacket@@$0CA@@DataStructures@@@DataStructures@@QAEXPAU?$Page@GPAUInternalPacket@@$0CA@@2@@Z",
+        "target_rva": 283168
+      }
+    ]
+  },
+  "sources": [
+    {
+      "path": "build/agent-independent/eval_vendor_reliability_ack_family.cpp",
+      "sha256": "91354a51ab5050ede31a879ca8342701aaab7e1bfde33aa6235343d9bd7fa406"
+    },
+    {
+      "path": "vendor/upstream/raknet/ReliabilityLayer.cpp",
+      "sha256": "26527cc693e3c2705a7c7c355fce889777e04e613dbeb867f7b1c74f338e2f15"
+    }
+  ],
+  "source025_direct_bytes": 0,
+  "scope": "ACK insertion and resend BPlusTree deletion, complete vendor template allocation/ownership. No socket calls, no plugin virtual callbacks, no GenerateDatagram or receive-parser acceptance. Preserve existing active COMDAT owners; full trial preflight still required."
+}

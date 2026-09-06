@@ -1,0 +1,30 @@
+{
+  "status": "BOUNDED_CPP_HYPOTHESIS_NOT_COMPILED",
+  "prior_run": "build/cp32-reliability-ack-trial1",
+  "source": "build/agent-independent/eval_vendor_reliability_ack_family2.cpp",
+  "sha256": "f96e7cb7819d20cf0c9c18a6e1a6d594db6b02bdc9eb01803da31d6d49de1faa",
+  "mismatch": {
+    "symbol": "?Insert@?$RangeList@G@DataStructures@@QAEXG@Z",
+    "size": 505,
+    "byte_sites": [
+      219,
+      224,
+      229
+    ],
+    "cause_observed": "Only automatic RangeNode temporary stack displacements differ; complete control flow and provider identities otherwise unchanged."
+  },
+  "hypothesis": "Explicitly instantiate real Deserialize then Serialize before ACK methods, preserving original full TU use order and constructor template context. This may restore MSVC temporary allocation. No claim before probe.",
+  "additional_candidates": [
+    {
+      "rva": 294176,
+      "size": 239,
+      "symbol": "?Deserialize@?$RangeList@G@DataStructures@@QAE_NPAVBitStream@RakNet@@@Z"
+    },
+    {
+      "rva": 290624,
+      "size": 497,
+      "symbol": "?Serialize@?$RangeList@G@DataStructures@@QAEIPAVBitStream@RakNet@@H_N@Z"
+    }
+  ],
+  "scope": "Existing full vendor templates only; no shared header edits, artificial wrapper, raw bytes, assembly or volatile."
+}

@@ -1406,3 +1406,8 @@ All 3151 linked regions, COFF/PE targets, ten controls and actor ABI pass. Direc
 Chat resources accepted: +536 unique bytes, total 254273/930756 (27.318975%). CreateFonts419/MeasureDimensions117 normal C++ first probe exact. Whole six strings,17 COFF/PE bindings; Y2 reused. Actual D3DXCreateTexture/CreateRenderToSurface import thunks and pinned library identities, no source credit for imports. Real CChatWindow owner/nonallocating view, original failure paths. All 3159 linked regions, ten controls and actor ABI pass.
 
 Direct0250/cumulative21126; measured 81132 unique bytes at 10342.6 bytes/hour incl coordination. Constructor279 only LEA/MOV scheduling difference, parked with full diagnostic; Draw662 and dependent wrappers excluded. Next ACK/resend trees and scoreboard actions; goal active, no push/game/network execution.
+
+
+Tree/scoreboard accepted: +2834 unique bytes, total 257107/930756 (27.623459%). BPlusTree removal/RangeList serialization2393 (EH42) +Scoreboard441 (EH21), complete unwind maps and RPC23 scalar4. Actual Serialize/Deserialize/RemoveResend callers, no duplicate666-byte credit. Insert505/SendAck22 excluded. Normal scoreboard snapshot of ListBox pointer restores Click282; no unknown owner allocated. Whole TU Ob2 for Hide, other objects unchanged. All 3190 linked regions, full COFF/PE targets, ten controls and actor ABI pass.
+
+Direct0250/cumulative21126. Measured 83966 unique bytes at 10476.0 bytes/hour including coordination. Next full item400 and datagram static3718 pending callbacks. Goal active, no push/deploy/game/live network.

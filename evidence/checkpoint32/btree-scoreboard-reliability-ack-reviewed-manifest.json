@@ -1,0 +1,862 @@
+{
+  "status": "REVIEWED_MAIN_SEEDS_AND_WHOLE_EH_BINDINGS_PREFLIGHT",
+  "run": "build/cp32-reliability-ack-trial2",
+  "roots": {
+    "?RemovePacketFromResendListAndDeleteOlderReliableSequenced@ReliabilityLayer@@AAEIG_J@Z": 296624,
+    "?Serialize@?$RangeList@G@DataStructures@@QAEIPAVBitStream@RakNet@@H_N@Z": 290624,
+    "?Deserialize@?$RangeList@G@DataStructures@@QAE_NPAVBitStream@RakNet@@@Z": 294176
+  },
+  "seeds": {
+    "closure_vendor_reliability_ack_family": {
+      "?Deserialize@?$RangeList@G@DataStructures@@QAE_NPAVBitStream@RakNet@@@Z": 294176,
+      "?InsertAtEnd@?$OrderedList@GU?$RangeNode@G@DataStructures@@$1??$RangeNodeComp@G@2@YAHABGABU12@@Z@DataStructures@@QAEXABU?$RangeNode@G@2@@Z": 291424,
+      "?Insert@?$List@U?$RangeNode@G@DataStructures@@@DataStructures@@QAEXU?$RangeNode@G@2@@Z": 287136,
+      "??0?$RangeNode@G@DataStructures@@QAE@XZ": 280736,
+      "?Serialize@?$RangeList@G@DataStructures@@QAEIPAVBitStream@RakNet@@H_N@Z": 290624,
+      "?Del@?$OrderedList@GU?$RangeNode@G@DataStructures@@$1??$RangeNodeComp@G@2@YAHABGABU12@@Z@DataStructures@@QAEXI@Z": 286768,
+      "??A?$OrderedList@GU?$RangeNode@G@DataStructures@@$1??$RangeNodeComp@G@2@YAHABGABU12@@Z@DataStructures@@QBEAAU?$RangeNode@G@1@I@Z": 286080,
+      "?RemovePacketFromResendListAndDeleteOlderReliableSequenced@ReliabilityLayer@@AAEIG_J@Z": 296624,
+      "?Delete@?$BPlusTree@GPAUInternalPacket@@$0CA@@DataStructures@@QAE_NGAAPAUInternalPacket@@@Z": 294416,
+      "?FindDeleteRebalance@?$BPlusTree@GPAUInternalPacket@@$0CA@@DataStructures@@IAE_NGPAU?$Page@GPAUInternalPacket@@$0CA@@2@PA_NGPAUReturnAction@12@AAPAUInternalPacket@@@Z": 292352,
+      "?DeleteFromPageAtIndex@?$BPlusTree@GPAUInternalPacket@@$0CA@@DataStructures@@IAEXHPAU?$Page@GPAUInternalPacket@@$0CA@@2@@Z": 281360,
+      "?FixUnderflow@?$BPlusTree@GPAUInternalPacket@@$0CA@@DataStructures@@IAE_NHPAU?$Page@GPAUInternalPacket@@$0CA@@2@GPAUReturnAction@12@@Z": 288800,
+      "?ShiftNodeLeft@?$BPlusTree@GPAUInternalPacket@@$0CA@@DataStructures@@IAEXPAU?$Page@GPAUInternalPacket@@$0CA@@2@@Z": 283408,
+      "?ShiftNodeRight@?$BPlusTree@GPAUInternalPacket@@$0CA@@DataStructures@@IAEXPAU?$Page@GPAUInternalPacket@@$0CA@@2@@Z": 283536,
+      "?GetIndexOf@?$BPlusTree@GPAUInternalPacket@@$0CA@@DataStructures@@IBE_NGPAU?$Page@GPAUInternalPacket@@$0CA@@2@PAH@Z": 281504
+    }
+  },
+  "regions": [
+    {
+      "unit": "closure_vendor_reliability_ack_family",
+      "section": 86,
+      "rva": 294176,
+      "size": 239,
+      "kind": ".text",
+      "sha256": "1a84774435d1f4ac89fe660e8b4fc8fb1831b7200d2375b001f222165abe3c7b",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "?Clear@?$OrderedList@GU?$RangeNode@G@DataStructures@@$1??$RangeNodeComp@G@2@YAHABGABU12@@Z@DataStructures@@QAEXXZ",
+          "site_rva": 294187,
+          "target_va": 268726896,
+          "kind": 20
+        },
+        {
+          "symbol": "?ReadCompressed@BitStream@RakNet@@AAE_NPAEH_N@Z",
+          "site_rva": 294207,
+          "target_va": 268565104,
+          "kind": 20
+        },
+        {
+          "symbol": "?ReadBits@BitStream@RakNet@@QAE_NPAEH_N@Z",
+          "site_rva": 294302,
+          "target_va": 268564912,
+          "kind": 20
+        },
+        {
+          "symbol": "?ReadBits@BitStream@RakNet@@QAE_NPAEH_N@Z",
+          "site_rva": 294326,
+          "target_va": 268564912,
+          "kind": 20
+        },
+        {
+          "symbol": "?InsertAtEnd@?$OrderedList@GU?$RangeNode@G@DataStructures@@$1??$RangeNodeComp@G@2@YAHABGABU12@@Z@DataStructures@@QAEXABU?$RangeNode@G@2@@Z",
+          "site_rva": 294388,
+          "target_va": 268726880,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_reliability_ack_family",
+      "section": 78,
+      "rva": 291424,
+      "size": 15,
+      "kind": ".text",
+      "sha256": "0988bff7ec75557acbd3b6d72089b4aaec70634d96e3b2005f11f71b49a7c00b",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "?Insert@?$List@U?$RangeNode@G@DataStructures@@@DataStructures@@QAEXU?$RangeNode@G@2@@Z",
+          "site_rva": 291435,
+          "target_va": 268722592,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_reliability_ack_family",
+      "section": 53,
+      "rva": 287136,
+      "size": 226,
+      "kind": ".text",
+      "sha256": "4841526ec6af7e83fca46aad97c3f187e8ba44299d3c0cc0afc846ec2ca7b098",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "__ehhandler$?Insert@?$List@U?$RangeNode@G@DataStructures@@@DataStructures@@QAEXU?$RangeNode@G@2@@Z",
+          "site_rva": 287139,
+          "target_va": 269364331,
+          "kind": 6
+        },
+        {
+          "symbol": "__except_list",
+          "site_rva": 287145,
+          "target_va": 0,
+          "kind": 6
+        },
+        {
+          "symbol": "__except_list",
+          "site_rva": 287153,
+          "target_va": 0,
+          "kind": 6
+        },
+        {
+          "symbol": "??2@YAPAXI@Z",
+          "site_rva": 287208,
+          "target_va": 269247098,
+          "kind": 20
+        },
+        {
+          "symbol": "??1?$RangeNode@G@DataStructures@@QAE@XZ",
+          "site_rva": 287228,
+          "target_va": 268716208,
+          "kind": 6
+        },
+        {
+          "symbol": "??0?$RangeNode@G@DataStructures@@QAE@XZ",
+          "site_rva": 287233,
+          "target_va": 268716192,
+          "kind": 6
+        },
+        {
+          "symbol": "??_L@YGXPAXIHP6EX0@Z1@Z",
+          "site_rva": 287247,
+          "target_va": 269254863,
+          "kind": 20
+        },
+        {
+          "symbol": "??1?$RangeNode@G@DataStructures@@QAE@XZ",
+          "site_rva": 287299,
+          "target_va": 268716208,
+          "kind": 6
+        },
+        {
+          "symbol": "??_M@YGXPAXIHP6EX0@Z@Z",
+          "site_rva": 287308,
+          "target_va": 269254767,
+          "kind": 20
+        },
+        {
+          "symbol": "??3@YAXPAX@Z",
+          "site_rva": 287314,
+          "target_va": 269247626,
+          "kind": 20
+        },
+        {
+          "symbol": "__except_list",
+          "site_rva": 287352,
+          "target_va": 0,
+          "kind": 6
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_reliability_ack_family",
+      "section": 35,
+      "rva": 280736,
+      "size": 3,
+      "kind": ".text",
+      "sha256": "58367ffa2a0179375018fa0f5c26da24391e42ebe0ed8fdda35a21fc7bdc396f",
+      "whole_bytes_equal": true,
+      "bindings": []
+    },
+    {
+      "unit": "closure_vendor_reliability_ack_family",
+      "section": 13,
+      "rva": 280752,
+      "size": 1,
+      "kind": ".text",
+      "sha256": "ae3f4619b0413d70d3004b9131c3752153074e45725be13b9a148978895e359e",
+      "whole_bytes_equal": true,
+      "bindings": []
+    },
+    {
+      "unit": "closure_vendor_reliability_ack_family",
+      "section": 80,
+      "rva": 291440,
+      "size": 8,
+      "kind": ".text",
+      "sha256": "de4f2325d9a4afdad4bebe3a29903bb83622b03ec568ebc251b820f0ef294b4a",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "?Clear@?$List@U?$RangeNode@G@DataStructures@@@DataStructures@@QAEX_N@Z",
+          "site_rva": 291443,
+          "target_va": 268723152,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_reliability_ack_family",
+      "section": 64,
+      "rva": 287696,
+      "size": 86,
+      "kind": ".text",
+      "sha256": "94bec39b17e84efa73d235ce9d1b4522db1a17b99b2033bb344af5d28e4ee7f8",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "??1?$RangeNode@G@DataStructures@@QAE@XZ",
+          "site_rva": 287735,
+          "target_va": 268716208,
+          "kind": 6
+        },
+        {
+          "symbol": "??_M@YGXPAXIHP6EX0@Z@Z",
+          "site_rva": 287744,
+          "target_va": 269254767,
+          "kind": 20
+        },
+        {
+          "symbol": "??3@YAXPAX@Z",
+          "site_rva": 287750,
+          "target_va": 269247626,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_reliability_ack_family",
+      "section": 68,
+      "rva": 290624,
+      "size": 497,
+      "kind": ".text",
+      "sha256": "7d35306b66c9b18daea8ca80b7f1598e22da5833d377ebcea4373cee099cb205",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "__ehhandler$?Serialize@?$RangeList@G@DataStructures@@QAEIPAVBitStream@RakNet@@H_N@Z",
+          "site_rva": 290627,
+          "target_va": 269364427,
+          "kind": 6
+        },
+        {
+          "symbol": "__except_list",
+          "site_rva": 290633,
+          "target_va": 0,
+          "kind": 6
+        },
+        {
+          "symbol": "__except_list",
+          "site_rva": 290641,
+          "target_va": 0,
+          "kind": 6
+        },
+        {
+          "symbol": "??0BitStream@RakNet@@QAE@XZ",
+          "site_rva": 290662,
+          "target_va": 268564272,
+          "kind": 20
+        },
+        {
+          "symbol": "?Size@?$OrderedList@GU?$RangeNode@G@DataStructures@@$1??$RangeNodeComp@G@2@YAHABGABU12@@Z@DataStructures@@QBEIXZ",
+          "site_rva": 290684,
+          "target_va": 268721552,
+          "kind": 20
+        },
+        {
+          "symbol": "??A?$OrderedList@GU?$RangeNode@G@DataStructures@@$1??$RangeNodeComp@G@2@YAHABGABU12@@Z@DataStructures@@QBEAAU?$RangeNode@G@1@I@Z",
+          "site_rva": 290725,
+          "target_va": 268721536,
+          "kind": 20
+        },
+        {
+          "symbol": "??A?$OrderedList@GU?$RangeNode@G@DataStructures@@$1??$RangeNodeComp@G@2@YAHABGABU12@@Z@DataStructures@@QBEAAU?$RangeNode@G@1@I@Z",
+          "site_rva": 290735,
+          "target_va": 268721536,
+          "kind": 20
+        },
+        {
+          "symbol": "?Write1@BitStream@RakNet@@QAEXXZ",
+          "site_rva": 290758,
+          "target_va": 268566320,
+          "kind": 20
+        },
+        {
+          "symbol": "?Write0@BitStream@RakNet@@QAEXXZ",
+          "site_rva": 290765,
+          "target_va": 268566288,
+          "kind": 20
+        },
+        {
+          "symbol": "??A?$OrderedList@GU?$RangeNode@G@DataStructures@@$1??$RangeNodeComp@G@2@YAHABGABU12@@Z@DataStructures@@QBEAAU?$RangeNode@G@1@I@Z",
+          "site_rva": 290773,
+          "target_va": 268721536,
+          "kind": 20
+        },
+        {
+          "symbol": "?WriteBits@BitStream@RakNet@@QAEXPBEH_N@Z",
+          "site_rva": 290800,
+          "target_va": 268566496,
+          "kind": 20
+        },
+        {
+          "symbol": "??A?$OrderedList@GU?$RangeNode@G@DataStructures@@$1??$RangeNodeComp@G@2@YAHABGABU12@@Z@DataStructures@@QBEAAU?$RangeNode@G@1@I@Z",
+          "site_rva": 290822,
+          "target_va": 268721536,
+          "kind": 20
+        },
+        {
+          "symbol": "??A?$OrderedList@GU?$RangeNode@G@DataStructures@@$1??$RangeNodeComp@G@2@YAHABGABU12@@Z@DataStructures@@QBEAAU?$RangeNode@G@1@I@Z",
+          "site_rva": 290832,
+          "target_va": 268721536,
+          "kind": 20
+        },
+        {
+          "symbol": "??A?$OrderedList@GU?$RangeNode@G@DataStructures@@$1??$RangeNodeComp@G@2@YAHABGABU12@@Z@DataStructures@@QBEAAU?$RangeNode@G@1@I@Z",
+          "site_rva": 290849,
+          "target_va": 268721536,
+          "kind": 20
+        },
+        {
+          "symbol": "?WriteBits@BitStream@RakNet@@QAEXPBEH_N@Z",
+          "site_rva": 290877,
+          "target_va": 268566496,
+          "kind": 20
+        },
+        {
+          "symbol": "?Size@?$OrderedList@GU?$RangeNode@G@DataStructures@@$1??$RangeNodeComp@G@2@YAHABGABU12@@Z@DataStructures@@QBEIXZ",
+          "site_rva": 290908,
+          "target_va": 268721552,
+          "kind": 20
+        },
+        {
+          "symbol": "?WriteCompressed@BitStream@RakNet@@AAEXPBEH_N@Z",
+          "site_rva": 290949,
+          "target_va": 268566832,
+          "kind": 20
+        },
+        {
+          "symbol": "?Write@BitStream@RakNet@@QAEXPAV12@H@Z",
+          "site_rva": 290976,
+          "target_va": 268565952,
+          "kind": 20
+        },
+        {
+          "symbol": "?Size@?$OrderedList@GU?$RangeNode@G@DataStructures@@$1??$RangeNodeComp@G@2@YAHABGABU12@@Z@DataStructures@@QBEIXZ",
+          "site_rva": 291003,
+          "target_va": 268721552,
+          "kind": 20
+        },
+        {
+          "symbol": "??A?$OrderedList@GU?$RangeNode@G@DataStructures@@$1??$RangeNodeComp@G@2@YAHABGABU12@@Z@DataStructures@@QBEAAU?$RangeNode@G@1@I@Z",
+          "site_rva": 291031,
+          "target_va": 268721536,
+          "kind": 20
+        },
+        {
+          "symbol": "??A?$OrderedList@GU?$RangeNode@G@DataStructures@@$1??$RangeNodeComp@G@2@YAHABGABU12@@Z@DataStructures@@QBEAAU?$RangeNode@G@1@I@Z",
+          "site_rva": 291043,
+          "target_va": 268721536,
+          "kind": 20
+        },
+        {
+          "symbol": "?Del@?$OrderedList@GU?$RangeNode@G@DataStructures@@$1??$RangeNodeComp@G@2@YAHABGABU12@@Z@DataStructures@@QAEXI@Z",
+          "site_rva": 291064,
+          "target_va": 268722224,
+          "kind": 20
+        },
+        {
+          "symbol": "??1BitStream@RakNet@@QAE@XZ",
+          "site_rva": 291088,
+          "target_va": 268564688,
+          "kind": 20
+        },
+        {
+          "symbol": "__except_list",
+          "site_rva": 291108,
+          "target_va": 0,
+          "kind": 6
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_reliability_ack_family",
+      "section": 47,
+      "rva": 286768,
+      "size": 15,
+      "kind": ".text",
+      "sha256": "69c8d5d6d0ec5e0f73207acf685e40ac7b7bd0b2f94a90c5581333ddbe3e7ab6",
+      "whole_bytes_equal": true,
+      "bindings": []
+    },
+    {
+      "unit": "closure_vendor_reliability_ack_family",
+      "section": 45,
+      "rva": 286080,
+      "size": 12,
+      "kind": ".text",
+      "sha256": "ad09b7da4d9eb9c08f5c1a1b1a728841aa9a79add752be59989d682de3b497bb",
+      "whole_bytes_equal": true,
+      "bindings": []
+    },
+    {
+      "unit": "closure_vendor_reliability_ack_family",
+      "section": 49,
+      "rva": 286096,
+      "size": 4,
+      "kind": ".text",
+      "sha256": "f7e0208f5e988ae39c7a45dfddbd12921d02f9c3deb5695d4c534c8ab0ccdb0f",
+      "whole_bytes_equal": true,
+      "bindings": []
+    },
+    {
+      "unit": "closure_vendor_reliability_ack_family",
+      "section": 90,
+      "rva": 296624,
+      "size": 65,
+      "kind": ".text",
+      "sha256": "e1c3582d9933746ec9d03556f2afcc771e4d9deca546a6f6abe6e1fea19503da",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "?Delete@?$BPlusTree@GPAUInternalPacket@@$0CA@@DataStructures@@QAE_NGAAPAUInternalPacket@@@Z",
+          "site_rva": 296641,
+          "target_va": 268729872,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_reliability_ack_family",
+      "section": 88,
+      "rva": 294416,
+      "size": 214,
+      "kind": ".text",
+      "sha256": "d551d0a75821c5a77f534d6b02d7a9a6d6cfd17057af2b64fcbd9530c5e6f3ae",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "?GetIndexOf@?$BPlusTree@GPAUInternalPacket@@$0CA@@DataStructures@@IBE_NGPAU?$Page@GPAUInternalPacket@@$0CA@@2@PAH@Z",
+          "site_rva": 294464,
+          "target_va": 268716960,
+          "kind": 20
+        },
+        {
+          "symbol": "?DeleteFromPageAtIndex@?$BPlusTree@GPAUInternalPacket@@$0CA@@DataStructures@@IAEXHPAU?$Page@GPAUInternalPacket@@$0CA@@2@@Z",
+          "site_rva": 294494,
+          "target_va": 268716816,
+          "kind": 20
+        },
+        {
+          "symbol": "?Release@?$MemoryPool@U?$Page@GPAUInternalPacket@@$0CA@@DataStructures@@@DataStructures@@QAEXPAU?$Page@GPAUInternalPacket@@$0CA@@2@@Z",
+          "site_rva": 294510,
+          "target_va": 268722464,
+          "kind": 20
+        },
+        {
+          "symbol": "?FindDeleteRebalance@?$BPlusTree@GPAUInternalPacket@@$0CA@@DataStructures@@IAE_NGPAU?$Page@GPAUInternalPacket@@$0CA@@2@PA_NGPAUReturnAction@12@AAPAUInternalPacket@@@Z",
+          "site_rva": 294567,
+          "target_va": 268727808,
+          "kind": 20
+        },
+        {
+          "symbol": "?Release@?$MemoryPool@U?$Page@GPAUInternalPacket@@$0CA@@DataStructures@@@DataStructures@@QAEXPAU?$Page@GPAUInternalPacket@@$0CA@@2@@Z",
+          "site_rva": 294613,
+          "target_va": 268722464,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_reliability_ack_family",
+      "section": 82,
+      "rva": 292352,
+      "size": 375,
+      "kind": ".text",
+      "sha256": "a5baa1bb725316116847cde9790d932b754b6638ea6f3084fe0982d9a2826881",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "?GetIndexOf@?$BPlusTree@GPAUInternalPacket@@$0CA@@DataStructures@@IBE_NGPAU?$Page@GPAUInternalPacket@@$0CA@@2@PAH@Z",
+          "site_rva": 292381,
+          "target_va": 268716960,
+          "kind": 20
+        },
+        {
+          "symbol": "?FindDeleteRebalance@?$BPlusTree@GPAUInternalPacket@@$0CA@@DataStructures@@IAE_NGPAU?$Page@GPAUInternalPacket@@$0CA@@2@PA_NGPAUReturnAction@12@AAPAUInternalPacket@@@Z",
+          "site_rva": 292456,
+          "target_va": 268727808,
+          "kind": 20
+        },
+        {
+          "symbol": "?FixUnderflow@?$BPlusTree@GPAUInternalPacket@@$0CA@@DataStructures@@IAE_NHPAU?$Page@GPAUInternalPacket@@$0CA@@2@GPAUReturnAction@12@@Z",
+          "site_rva": 292539,
+          "target_va": 268724256,
+          "kind": 20
+        },
+        {
+          "symbol": "?GetIndexOf@?$BPlusTree@GPAUInternalPacket@@$0CA@@DataStructures@@IBE_NGPAU?$Page@GPAUInternalPacket@@$0CA@@2@PAH@Z",
+          "site_rva": 292580,
+          "target_va": 268716960,
+          "kind": 20
+        },
+        {
+          "symbol": "?DeleteFromPageAtIndex@?$BPlusTree@GPAUInternalPacket@@$0CA@@DataStructures@@IAEXHPAU?$Page@GPAUInternalPacket@@$0CA@@2@@Z",
+          "site_rva": 292626,
+          "target_va": 268716816,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_reliability_ack_family",
+      "section": 21,
+      "rva": 281360,
+      "size": 136,
+      "kind": ".text",
+      "sha256": "4f7256524a3223a6d264fbed997789ac0f8e6faceae6159d4fb285bd8ad7b552",
+      "whole_bytes_equal": true,
+      "bindings": []
+    },
+    {
+      "unit": "closure_vendor_reliability_ack_family",
+      "section": 66,
+      "rva": 288800,
+      "size": 690,
+      "kind": ".text",
+      "sha256": "b4d1edde797bc16a603d259175fb4b7828f2c9f7c82609de712a716d4f3cd8ee",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "?ShiftNodeRight@?$BPlusTree@GPAUInternalPacket@@$0CA@@DataStructures@@IAEXPAU?$Page@GPAUInternalPacket@@$0CA@@2@@Z",
+          "site_rva": 288843,
+          "target_va": 268718992,
+          "kind": 20
+        },
+        {
+          "symbol": "?ShiftNodeLeft@?$BPlusTree@GPAUInternalPacket@@$0CA@@DataStructures@@IAEXPAU?$Page@GPAUInternalPacket@@$0CA@@2@@Z",
+          "site_rva": 289067,
+          "target_va": 268718864,
+          "kind": 20
+        },
+        {
+          "symbol": "?DeleteFromPageAtIndex@?$BPlusTree@GPAUInternalPacket@@$0CA@@DataStructures@@IAEXHPAU?$Page@GPAUInternalPacket@@$0CA@@2@@Z",
+          "site_rva": 289361,
+          "target_va": 268716816,
+          "kind": 20
+        },
+        {
+          "symbol": "?Release@?$MemoryPool@U?$Page@GPAUInternalPacket@@$0CA@@DataStructures@@@DataStructures@@QAEXPAU?$Page@GPAUInternalPacket@@$0CA@@2@@Z",
+          "site_rva": 289461,
+          "target_va": 268722464,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_reliability_ack_family",
+      "section": 51,
+      "rva": 287008,
+      "size": 8,
+      "kind": ".text",
+      "sha256": "89673fec8d953cf47c9f73a723776d46618dc4d74a58373fbbe5ecd05012cb5d",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "?Insert@?$List@PAU?$Page@GPAUInternalPacket@@$0CA@@DataStructures@@@DataStructures@@QAEXQAU?$Page@GPAUInternalPacket@@$0CA@@2@@Z",
+          "site_rva": 287012,
+          "target_va": 268718624,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_reliability_ack_family",
+      "section": 31,
+      "rva": 283168,
+      "size": 105,
+      "kind": ".text",
+      "sha256": "0db3cef099f53fe8a97b6aeea04f8ed7588a3619e9f415cc922c32fdb652de01",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "??2@YAPAXI@Z",
+          "site_rva": 283208,
+          "target_va": 269247098,
+          "kind": 20
+        },
+        {
+          "symbol": "??3@YAXPAX@Z",
+          "site_rva": 283242,
+          "target_va": 269247626,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_reliability_ack_family",
+      "section": 37,
+      "rva": 283408,
+      "size": 119,
+      "kind": ".text",
+      "sha256": "2371cd3c2e3efeba0d98989e3232a0996f63b5c2f4de98aed5695cf9fce84d15",
+      "whole_bytes_equal": true,
+      "bindings": []
+    },
+    {
+      "unit": "closure_vendor_reliability_ack_family",
+      "section": 39,
+      "rva": 283536,
+      "size": 98,
+      "kind": ".text",
+      "sha256": "62ea1bb7e012f4a1a78479b160405f19755e323c67e10a1be1e96f5f6a899117",
+      "whole_bytes_equal": true,
+      "bindings": []
+    },
+    {
+      "unit": "closure_vendor_reliability_ack_family",
+      "section": 23,
+      "rva": 281504,
+      "size": 101,
+      "kind": ".text",
+      "sha256": "4ec596879827b23863cccf03b33d95b49ad0ff1c4a38ac0094a8f8eeba153480",
+      "whole_bytes_equal": true,
+      "bindings": []
+    },
+    {
+      "unit": "closure_vendor_reliability_ack_family",
+      "section": 54,
+      "rva": 928864,
+      "size": 21,
+      "kind": ".text$x",
+      "sha256": "307c8cff3fbed0dcf5dc9a5956bc0ea64d1927cbfdaa6911765774bb867d992b",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "??3@YAXPAX@Z",
+          "site_rva": 928869,
+          "target_va": 269247626,
+          "kind": 20
+        },
+        {
+          "symbol": "$T61296",
+          "site_rva": 928876,
+          "target_va": 269461800,
+          "kind": 6
+        },
+        {
+          "symbol": "___CxxFrameHandler",
+          "site_rva": 928881,
+          "target_va": 269247782,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_reliability_ack_family",
+      "section": 69,
+      "rva": 928960,
+      "size": 21,
+      "kind": ".text$x",
+      "sha256": "06ed6211c2d0b3bdbcacf39817821e537af83bcefb75fe8ed4df78a827ae0bca",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "??1BitStream@RakNet@@QAE@XZ",
+          "site_rva": 928967,
+          "target_va": 268564688,
+          "kind": 20
+        },
+        {
+          "symbol": "$T61415",
+          "site_rva": 928972,
+          "target_va": 269461908,
+          "kind": 6
+        },
+        {
+          "symbol": "___CxxFrameHandler",
+          "site_rva": 928977,
+          "target_va": 269247782,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_reliability_ack_family",
+      "section": 55,
+      "rva": 1026336,
+      "size": 36,
+      "kind": ".xdata$x",
+      "sha256": "cec34a7dd66edddf6a4983c8ff4e22e89474683bc9b59da3a000972045f08e1a",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "$L61277",
+          "site_rva": 1026340,
+          "target_va": 269364320,
+          "kind": 6
+        },
+        {
+          "symbol": "$T61299",
+          "site_rva": 1026352,
+          "target_va": 269461792,
+          "kind": 6
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_reliability_ack_family",
+      "section": 70,
+      "rva": 1026444,
+      "size": 36,
+      "kind": ".xdata$x",
+      "sha256": "ee6f9c6b1b7deaa88b6189fd244ce304952b2acfbf8616fa7927c58c949af98e",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "$L61374",
+          "site_rva": 1026448,
+          "target_va": 269364416,
+          "kind": 6
+        },
+        {
+          "symbol": "$T61423",
+          "site_rva": 1026460,
+          "target_va": 269461900,
+          "kind": 6
+        }
+      ]
+    }
+  ],
+  "bindings_checked": 73,
+  "external_targets": {
+    "?ReadCompressed@BitStream@RakNet@@AAE_NPAEH_N@Z": 268565104,
+    "?ReadBits@BitStream@RakNet@@QAE_NPAEH_N@Z": 268564912,
+    "__ehhandler$?Insert@?$List@U?$RangeNode@G@DataStructures@@@DataStructures@@QAEXU?$RangeNode@G@2@@Z": 269364331,
+    "__except_list": 0,
+    "??2@YAPAXI@Z": 269247098,
+    "??_L@YGXPAXIHP6EX0@Z1@Z": 269254863,
+    "??_M@YGXPAXIHP6EX0@Z@Z": 269254767,
+    "??3@YAXPAX@Z": 269247626,
+    "__ehhandler$?Serialize@?$RangeList@G@DataStructures@@QAEIPAVBitStream@RakNet@@H_N@Z": 269364427,
+    "??0BitStream@RakNet@@QAE@XZ": 268564272,
+    "?Write1@BitStream@RakNet@@QAEXXZ": 268566320,
+    "?Write0@BitStream@RakNet@@QAEXXZ": 268566288,
+    "?WriteBits@BitStream@RakNet@@QAEXPBEH_N@Z": 268566496,
+    "?WriteCompressed@BitStream@RakNet@@AAEXPBEH_N@Z": 268566832,
+    "?Write@BitStream@RakNet@@QAEXPAV12@H@Z": 268565952,
+    "??1BitStream@RakNet@@QAE@XZ": 268564688,
+    "$T61296": 269461800,
+    "___CxxFrameHandler": 269247782,
+    "$T61415": 269461908,
+    "$L61277": 269364320,
+    "$T61299": 269461792,
+    "$L61374": 269364416,
+    "$T61423": 269461900
+  },
+  "identity_reasons": {
+    "?RemovePacketFromResendListAndDeleteOlderReliableSequenced@ReliabilityLayer@@AAEIG_J@Z": "source method semantics + original call graph / allocation / table owner",
+    "?Serialize@?$RangeList@G@DataStructures@@QAEIPAVBitStream@RakNet@@H_N@Z": "source method semantics + original call graph / allocation / table owner",
+    "?Deserialize@?$RangeList@G@DataStructures@@QAE_NPAVBitStream@RakNet@@@Z": "source method semantics + original call graph / allocation / table owner",
+    "?Clear@?$OrderedList@GU?$RangeNode@G@DataStructures@@$1??$RangeNodeComp@G@2@YAHABGABU12@@Z@DataStructures@@QAEXXZ": "actual relocation from ?Deserialize@?$RangeList@G@DataStructures@@QAE_NPAVBitStream@RakNet@@@Z",
+    "?InsertAtEnd@?$OrderedList@GU?$RangeNode@G@DataStructures@@$1??$RangeNodeComp@G@2@YAHABGABU12@@Z@DataStructures@@QAEXABU?$RangeNode@G@2@@Z": "actual relocation from ?Deserialize@?$RangeList@G@DataStructures@@QAE_NPAVBitStream@RakNet@@@Z",
+    "?Insert@?$List@U?$RangeNode@G@DataStructures@@@DataStructures@@QAEXU?$RangeNode@G@2@@Z": "actual relocation from ?InsertAtEnd@?$OrderedList@GU?$RangeNode@G@DataStructures@@$1??$RangeNodeComp@G@2@YAHABGABU12@@Z@DataStructures@@QAEXABU?$RangeNode@G@2@@Z",
+    "??1?$RangeNode@G@DataStructures@@QAE@XZ": "actual relocation from ?Insert@?$List@U?$RangeNode@G@DataStructures@@@DataStructures@@QAEXU?$RangeNode@G@2@@Z",
+    "??0?$RangeNode@G@DataStructures@@QAE@XZ": "actual relocation from ?Insert@?$List@U?$RangeNode@G@DataStructures@@@DataStructures@@QAEXU?$RangeNode@G@2@@Z",
+    "?Clear@?$List@U?$RangeNode@G@DataStructures@@@DataStructures@@QAEX_N@Z": "actual relocation from ?Clear@?$OrderedList@GU?$RangeNode@G@DataStructures@@$1??$RangeNodeComp@G@2@YAHABGABU12@@Z@DataStructures@@QAEXXZ",
+    "?Size@?$OrderedList@GU?$RangeNode@G@DataStructures@@$1??$RangeNodeComp@G@2@YAHABGABU12@@Z@DataStructures@@QBEIXZ": "actual relocation from ?Serialize@?$RangeList@G@DataStructures@@QAEIPAVBitStream@RakNet@@H_N@Z",
+    "??A?$OrderedList@GU?$RangeNode@G@DataStructures@@$1??$RangeNodeComp@G@2@YAHABGABU12@@Z@DataStructures@@QBEAAU?$RangeNode@G@1@I@Z": "actual relocation from ?Serialize@?$RangeList@G@DataStructures@@QAEIPAVBitStream@RakNet@@H_N@Z",
+    "?Del@?$OrderedList@GU?$RangeNode@G@DataStructures@@$1??$RangeNodeComp@G@2@YAHABGABU12@@Z@DataStructures@@QAEXI@Z": "actual relocation from ?Serialize@?$RangeList@G@DataStructures@@QAEIPAVBitStream@RakNet@@H_N@Z",
+    "?Delete@?$BPlusTree@GPAUInternalPacket@@$0CA@@DataStructures@@QAE_NGAAPAUInternalPacket@@@Z": "actual relocation from ?RemovePacketFromResendListAndDeleteOlderReliableSequenced@ReliabilityLayer@@AAEIG_J@Z",
+    "?GetIndexOf@?$BPlusTree@GPAUInternalPacket@@$0CA@@DataStructures@@IBE_NGPAU?$Page@GPAUInternalPacket@@$0CA@@2@PAH@Z": "actual relocation from ?FindDeleteRebalance@?$BPlusTree@GPAUInternalPacket@@$0CA@@DataStructures@@IAE_NGPAU?$Page@GPAUInternalPacket@@$0CA@@2@PA_NGPAUReturnAction@12@AAPAUInternalPacket@@@Z",
+    "?DeleteFromPageAtIndex@?$BPlusTree@GPAUInternalPacket@@$0CA@@DataStructures@@IAEXHPAU?$Page@GPAUInternalPacket@@$0CA@@2@@Z": "actual relocation from ?FindDeleteRebalance@?$BPlusTree@GPAUInternalPacket@@$0CA@@DataStructures@@IAE_NGPAU?$Page@GPAUInternalPacket@@$0CA@@2@PA_NGPAUReturnAction@12@AAPAUInternalPacket@@@Z",
+    "?Release@?$MemoryPool@U?$Page@GPAUInternalPacket@@$0CA@@DataStructures@@@DataStructures@@QAEXPAU?$Page@GPAUInternalPacket@@$0CA@@2@@Z": "actual relocation from ?FixUnderflow@?$BPlusTree@GPAUInternalPacket@@$0CA@@DataStructures@@IAE_NHPAU?$Page@GPAUInternalPacket@@$0CA@@2@GPAUReturnAction@12@@Z",
+    "?FindDeleteRebalance@?$BPlusTree@GPAUInternalPacket@@$0CA@@DataStructures@@IAE_NGPAU?$Page@GPAUInternalPacket@@$0CA@@2@PA_NGPAUReturnAction@12@AAPAUInternalPacket@@@Z": "actual relocation from ?Delete@?$BPlusTree@GPAUInternalPacket@@$0CA@@DataStructures@@QAE_NGAAPAUInternalPacket@@@Z",
+    "?FixUnderflow@?$BPlusTree@GPAUInternalPacket@@$0CA@@DataStructures@@IAE_NHPAU?$Page@GPAUInternalPacket@@$0CA@@2@GPAUReturnAction@12@@Z": "actual relocation from ?FindDeleteRebalance@?$BPlusTree@GPAUInternalPacket@@$0CA@@DataStructures@@IAE_NGPAU?$Page@GPAUInternalPacket@@$0CA@@2@PA_NGPAUReturnAction@12@AAPAUInternalPacket@@@Z",
+    "?ShiftNodeRight@?$BPlusTree@GPAUInternalPacket@@$0CA@@DataStructures@@IAEXPAU?$Page@GPAUInternalPacket@@$0CA@@2@@Z": "actual relocation from ?FixUnderflow@?$BPlusTree@GPAUInternalPacket@@$0CA@@DataStructures@@IAE_NHPAU?$Page@GPAUInternalPacket@@$0CA@@2@GPAUReturnAction@12@@Z",
+    "?ShiftNodeLeft@?$BPlusTree@GPAUInternalPacket@@$0CA@@DataStructures@@IAEXPAU?$Page@GPAUInternalPacket@@$0CA@@2@@Z": "actual relocation from ?FixUnderflow@?$BPlusTree@GPAUInternalPacket@@$0CA@@DataStructures@@IAE_NHPAU?$Page@GPAUInternalPacket@@$0CA@@2@GPAUReturnAction@12@@Z",
+    "?Insert@?$List@PAU?$Page@GPAUInternalPacket@@$0CA@@DataStructures@@@DataStructures@@QAEXQAU?$Page@GPAUInternalPacket@@$0CA@@2@@Z": "actual relocation from ?Release@?$MemoryPool@U?$Page@GPAUInternalPacket@@$0CA@@DataStructures@@@DataStructures@@QAEXPAU?$Page@GPAUInternalPacket@@$0CA@@2@@Z"
+  },
+  "new_unique_code": 2393,
+  "already_covered_code": 666,
+  "physical_code_compared": 3059,
+  "baseline": 254273,
+  "source025_direct_bytes": 0,
+  "reuse_existing_owners": {
+    "??1?$RangeNode@G@DataStructures@@QAE@XZ": {
+      "unit": "closure_vendor_reliability_lifecycle",
+      "rva": 280752,
+      "size": 1
+    },
+    "?Clear@?$OrderedList@GU?$RangeNode@G@DataStructures@@$1??$RangeNodeComp@G@2@YAHABGABU12@@Z@DataStructures@@QAEXXZ": {
+      "unit": "closure_vendor_reliability_lifecycle",
+      "rva": 291440,
+      "size": 8
+    },
+    "?Clear@?$List@U?$RangeNode@G@DataStructures@@@DataStructures@@QAEX_N@Z": {
+      "unit": "closure_vendor_reliability_lifecycle",
+      "rva": 287696,
+      "size": 86
+    },
+    "?Size@?$OrderedList@GU?$RangeNode@G@DataStructures@@$1??$RangeNodeComp@G@2@YAHABGABU12@@Z@DataStructures@@QBEIXZ": {
+      "unit": "closure_vendor_reliability_packet_family",
+      "rva": 286096,
+      "size": 4
+    },
+    "?Release@?$MemoryPool@U?$Page@GPAUInternalPacket@@$0CA@@DataStructures@@@DataStructures@@QAEXPAU?$Page@GPAUInternalPacket@@$0CA@@2@@Z": {
+      "unit": "closure_vendor_reliability_lifecycle",
+      "rva": 287008,
+      "size": 8
+    },
+    "?Insert@?$List@PAU?$Page@GPAUInternalPacket@@$0CA@@DataStructures@@@DataStructures@@QAEXQAU?$Page@GPAUInternalPacket@@$0CA@@2@@Z": {
+      "unit": "closure_vendor_reliability_lifecycle",
+      "rva": 283168,
+      "size": 105
+    }
+  },
+  "excluded_unmatched": [
+    "RangeList<unsigned short>::Insert505",
+    "ReliabilityLayer::SendAcknowledgementPacket22"
+  ],
+  "vector_CRT_qualification": "build/agent-independent/vector-crt-qualified-providers.json",
+  "source_files": [
+    {
+      "path": "build/agent-independent/eval_vendor_reliability_ack_family2.cpp",
+      "sha256": "f96e7cb7819d20cf0c9c18a6e1a6d594db6b02bdc9eb01803da31d6d49de1faa"
+    }
+  ],
+  "root_original_identity": [
+    {
+      "caller_rva": 295024,
+      "target_rva": 290624,
+      "sites": [
+        295156
+      ],
+      "identity": "GenerateDatagram serializes pending acknowledgement ranges",
+      "caller_not_accepted": true
+    },
+    {
+      "caller_rva": 299600,
+      "target_rva": 294176,
+      "sites": [
+        299939
+      ],
+      "identity": "HandleSocketReceiveFromConnectedPlayer deserializes incoming acknowledgement ranges",
+      "caller_not_accepted": true
+    },
+    {
+      "caller_rva": 299600,
+      "target_rva": 296624,
+      "sites": [
+        300120
+      ],
+      "identity": "HandleSocketReceiveFromConnectedPlayer removes each acknowledged resend entry",
+      "caller_not_accepted": true
+    }
+  ],
+  "data_note": "No referenced global data or literal section in this closure. Two complete EH code regions21 and two complete xdata36 regions are compared; constructors/destructors and vector CRT helpers have actual targets. No unmatched Insert505 or SendAcknowledgement22 seed or region.",
+  "full_probe_object_sha256": "c87b9f13383684d317c8e882abeffa3329e75d1495b3c85ebff797db9f125ebf"
+}
