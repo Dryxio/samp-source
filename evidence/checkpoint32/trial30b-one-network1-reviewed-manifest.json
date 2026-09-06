@@ -1,0 +1,268 @@
+{
+  "status": "REVIEWED_MAIN_SEEDS_AND_WHOLE_EH_BINDINGS_PREFLIGHT",
+  "run": "build/agent-network-b/network1-owner-fixed",
+  "roots": {
+    "?AllocPacket@@YAPAUPacket@@IPAE@Z": 230128,
+    "?AttachPlugin@RakPeer@@UAEXPAVPluginInterface@@@Z": 240928,
+    "?DetachPlugin@RakPeer@@UAEXPAVPluginInterface@@@Z": 240992,
+    "??0?$SingleProducerConsumer@URequestedConnectionStruct@RakPeer@@@DataStructures@@QAE@XZ": 233856,
+    "??1?$SingleProducerConsumer@URequestedConnectionStruct@RakPeer@@@DataStructures@@QAE@XZ": 233984,
+    "??0?$SingleProducerConsumer@UBufferedCommandStruct@RakPeer@@@DataStructures@@QAE@XZ": 234384,
+    "??1?$SingleProducerConsumer@UBufferedCommandStruct@RakPeer@@@DataStructures@@QAE@XZ": 234496
+  },
+  "seeds": {
+    "eval_vendor_rakpeer_plugin_packet": {
+      "?DetachPlugin@RakPeer@@UAEXPAVPluginInterface@@@Z": 240992,
+      "?GetIndexOf@?$List@PAVPluginInterface@@@DataStructures@@QAEIQAVPluginInterface@@@Z": 233792,
+      "?AttachPlugin@RakPeer@@UAEXPAVPluginInterface@@@Z": 240928,
+      "?Insert@?$List@PAVPluginInterface@@@DataStructures@@QAEXQAVPluginInterface@@@Z": 233664,
+      "?AllocPacket@@YAPAUPacket@@IPAE@Z": 230128
+    },
+    "eval_vendor_rakpeer_queue_lifetime": {
+      "??1?$SingleProducerConsumer@UBufferedCommandStruct@RakPeer@@@DataStructures@@QAE@XZ": 234496,
+      "??0?$SingleProducerConsumer@UBufferedCommandStruct@RakPeer@@@DataStructures@@QAE@XZ": 234384,
+      "??1?$SingleProducerConsumer@URequestedConnectionStruct@RakPeer@@@DataStructures@@QAE@XZ": 233984,
+      "??0?$SingleProducerConsumer@URequestedConnectionStruct@RakPeer@@@DataStructures@@QAE@XZ": 233856
+    }
+  },
+  "regions": [
+    {
+      "unit": "eval_vendor_rakpeer_plugin_packet",
+      "section": 17,
+      "rva": 240992,
+      "size": 69,
+      "kind": ".text",
+      "sha256": "9159f806fdaa177e315d02da5186dc9f4b6bbaf7e351250aaeba7c7847d0296f",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "?GetIndexOf@?$List@PAVPluginInterface@@@DataStructures@@QAEIQAVPluginInterface@@@Z",
+          "site_rva": 241015,
+          "target_va": 268669248,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "eval_vendor_rakpeer_plugin_packet",
+      "section": 11,
+      "rva": 233792,
+      "size": 35,
+      "kind": ".text",
+      "sha256": "c1ae046fa6276d9fc0290d0587e8014de9ad49b97145a4aabce1d1d3f6a06ddd",
+      "whole_bytes_equal": true,
+      "bindings": []
+    },
+    {
+      "unit": "eval_vendor_rakpeer_plugin_packet",
+      "section": 15,
+      "rva": 240928,
+      "size": 49,
+      "kind": ".text",
+      "sha256": "fdc94cba6443ede378ab0c6d72f95be16064b7f95565e5669592aa2bb84a72fa",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "?GetIndexOf@?$List@PAVPluginInterface@@@DataStructures@@QAEIQAVPluginInterface@@@Z",
+          "site_rva": 240947,
+          "target_va": 268669248,
+          "kind": 20
+        },
+        {
+          "symbol": "?Insert@?$List@PAVPluginInterface@@@DataStructures@@QAEXQAVPluginInterface@@@Z",
+          "site_rva": 240960,
+          "target_va": 268669120,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "eval_vendor_rakpeer_plugin_packet",
+      "section": 7,
+      "rva": 233664,
+      "size": 105,
+      "kind": ".text",
+      "sha256": "c50211073f83877a811873ffa21dd3de680dbaf821f1320c0d1f6301ebb6519b",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "??2@YAPAXI@Z",
+          "site_rva": 233704,
+          "target_va": 269247098,
+          "kind": 20
+        },
+        {
+          "symbol": "??3@YAXPAX@Z",
+          "site_rva": 233738,
+          "target_va": 269247626,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "eval_vendor_rakpeer_plugin_packet",
+      "section": 3,
+      "rva": 230128,
+      "size": 55,
+      "kind": ".text",
+      "sha256": "bd35ace2b0755e153bb08f04082bc41f02ac2fa4d17b3e7f021089e96d48fd2e",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "_malloc",
+          "site_rva": 230131,
+          "target_va": 269249468,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "eval_vendor_rakpeer_queue_lifetime",
+      "section": 9,
+      "rva": 234496,
+      "size": 59,
+      "kind": ".text",
+      "sha256": "48ac0142e619c135dded7f5da9c5af543368859dca1869fc153b1386883621f1",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "??3@YAXPAX@Z",
+          "site_rva": 234521,
+          "target_va": 269247626,
+          "kind": 20
+        },
+        {
+          "symbol": "??3@YAXPAX@Z",
+          "site_rva": 234546,
+          "target_va": 269247626,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "eval_vendor_rakpeer_queue_lifetime",
+      "section": 7,
+      "rva": 234384,
+      "size": 102,
+      "kind": ".text",
+      "sha256": "56f0705644926f7a4a8a92d634fcdad24c300d83adb2a52aab26a3b5e1807906",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "??2@YAPAXI@Z",
+          "site_rva": 234391,
+          "target_va": 269247098,
+          "kind": 20
+        },
+        {
+          "symbol": "??2@YAPAXI@Z",
+          "site_rva": 234404,
+          "target_va": 269247098,
+          "kind": 20
+        },
+        {
+          "symbol": "??2@YAPAXI@Z",
+          "site_rva": 234434,
+          "target_va": 269247098,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "eval_vendor_rakpeer_queue_lifetime",
+      "section": 5,
+      "rva": 233984,
+      "size": 65,
+      "kind": ".text",
+      "sha256": "91eea94e53a7a844bfb9d98e55bc162176ffa8a0d67709aeda19cf0045450b04",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "??3@YAXPAX@Z",
+          "site_rva": 234015,
+          "target_va": 269247626,
+          "kind": 20
+        },
+        {
+          "symbol": "??3@YAXPAX@Z",
+          "site_rva": 234040,
+          "target_va": 269247626,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "eval_vendor_rakpeer_queue_lifetime",
+      "section": 3,
+      "rva": 233856,
+      "size": 127,
+      "kind": ".text",
+      "sha256": "540fb7d51a847515cb04edb0c8a6efb36193d37def07de2305df17b162f8aa8a",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "??2@YAPAXI@Z",
+          "site_rva": 233866,
+          "target_va": 269247098,
+          "kind": 20
+        },
+        {
+          "symbol": "??2@YAPAXI@Z",
+          "site_rva": 233882,
+          "target_va": 269247098,
+          "kind": 20
+        },
+        {
+          "symbol": "??2@YAPAXI@Z",
+          "site_rva": 233922,
+          "target_va": 269247098,
+          "kind": 20
+        }
+      ]
+    }
+  ],
+  "bindings_checked": 16,
+  "external_targets": {
+    "??3@YAXPAX@Z": 269247626,
+    "??2@YAPAXI@Z": 269247098,
+    "_malloc": 269249468
+  },
+  "identity_reasons": {
+    "?AllocPacket@@YAPAUPacket@@IPAE@Z": "source method semantics + original call graph / allocation / table owner",
+    "?AttachPlugin@RakPeer@@UAEXPAVPluginInterface@@@Z": "source method semantics + original call graph / allocation / table owner",
+    "?DetachPlugin@RakPeer@@UAEXPAVPluginInterface@@@Z": "source method semantics + original call graph / allocation / table owner",
+    "??0?$SingleProducerConsumer@URequestedConnectionStruct@RakPeer@@@DataStructures@@QAE@XZ": "source method semantics + original call graph / allocation / table owner",
+    "??1?$SingleProducerConsumer@URequestedConnectionStruct@RakPeer@@@DataStructures@@QAE@XZ": "source method semantics + original call graph / allocation / table owner",
+    "??0?$SingleProducerConsumer@UBufferedCommandStruct@RakPeer@@@DataStructures@@QAE@XZ": "source method semantics + original call graph / allocation / table owner",
+    "??1?$SingleProducerConsumer@UBufferedCommandStruct@RakPeer@@@DataStructures@@QAE@XZ": "source method semantics + original call graph / allocation / table owner",
+    "?GetIndexOf@?$List@PAVPluginInterface@@@DataStructures@@QAEIQAVPluginInterface@@@Z": "actual relocation from ?DetachPlugin@RakPeer@@UAEXPAVPluginInterface@@@Z",
+    "?Insert@?$List@PAVPluginInterface@@@DataStructures@@QAEXQAVPluginInterface@@@Z": "actual relocation from ?AttachPlugin@RakPeer@@UAEXPAVPluginInterface@@@Z"
+  },
+  "new_unique_code": 631,
+  "already_covered_code": 35,
+  "physical_code_compared": 666,
+  "baseline": 408507,
+  "source025_direct_bytes": 0,
+  "reuse_existing_owners": {},
+  "excluded_unmatched": [],
+  "explicit_owner_transfer": "None; RakPeer plugin and original queue lifetimes methods reuse existing providers.",
+  "unselected_method": "Only real RakPeer plugin and original queue lifetimes roots and original relocation closure selected; callback implementations are never credited.",
+  "source_files": [
+    {
+      "path": "client/saco/eval_vendor_rakpeer_plugin_packet.cpp",
+      "sha256": "903e6a2fd77954a3281e72893a7f9ad272d804f75f566bf11cfeb2f2c64398b0"
+    },
+    {
+      "path": "client/saco/eval_vendor_rakpeer_queue_lifetime.cpp",
+      "sha256": "57af67212d548e7357dbbcce6100f8ac4054a92c36f9eaf6c07e9a53abb6fe1e"
+    }
+  ],
+  "objects": {
+    "eval_vendor_rakpeer_plugin_packet": "d2293c5e3dd18d3a72d8b211e9e0b019adb9fca1be0a7e7e9f5f678cb77438f7",
+    "eval_vendor_rakpeer_queue_lifetime": "0798e26fd77d6b49e8b93c5483758a17cc14fd626f6a9aeef20d1c18fd128c48"
+  },
+  "actual_weak_aliases": {
+    "eval_vendor_rakpeer_plugin_packet": {},
+    "eval_vendor_rakpeer_queue_lifetime": {}
+  }
+}

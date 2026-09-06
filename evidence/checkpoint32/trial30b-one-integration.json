@@ -1,0 +1,26 @@
+{
+  "status": "ACCEPTED",
+  "run": "cp32-trial30b-one-linked2",
+  "ob1": "cp32-trial30b-one-ob1-v4",
+  "ob2": "cp32-disconnect-selection-ob2",
+  "coverage": {
+    "previous_code_bytes": 408507,
+    "batch_code_bytes": 405297,
+    "new_unique_code_bytes": 3335,
+    "union_code_bytes": 411842,
+    "text_bytes": 930756,
+    "text_percent": 44.248116584797735,
+    "whole_dll_match": false
+  },
+  "source025": {},
+  "verification": {
+    "scope": "Network2108 +onfoot373 +entry854; expected3335 unique. Actual prior AddPacket31 provider reused, no duplicatecode.",
+    "adaptations": "Real protected nested type names, no fabricated allocation/views; SHA1 real stackobject/lifetime. Remote68byte complete record and original task providers.",
+    "reference_credit": "TrialB newly prepared sources; direct0250, onfoot adapted025.",
+    "verification": "Incremental source compilation, whole original/linked code/data/EH, all COFF/PE; ten controls and Actor ABI required.",
+    "excluded_candidates": "No duplicate/data/CRT/concrete unimplementedcallback credit."
+  },
+  "active_vm_command": null,
+  "checkpoint_complete": false,
+  "push": false
+}

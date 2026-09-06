@@ -1,0 +1,73 @@
+{
+  "status": "PASS_FULL_SOURCE_REGIONS_ALL_COFF_PE_TARGETS",
+  "run": "cp32-trial30b-special-action",
+  "baseline": 408507,
+  "new_unique_code": 162,
+  "regions": [
+    {
+      "unit": "closure_remote_special_action_query",
+      "section": 48,
+      "anchor": "?GetSpecialAction@R5RemoteSpecialActionView@@QAEHXZ",
+      "anchor_offset": 0,
+      "rva": 90928,
+      "size": 64,
+      "kind": "code",
+      "sha256": "384439721b1016d9b90c9ecff618c6dc7108e56514f2c603cfaede1f3e439c4e",
+      "bindings": [
+        {
+          "symbol": "?IsAdded@CEntity@@QAEHXZ",
+          "site_rva": 90942,
+          "kind": 20,
+          "target_va": 269087696
+        },
+        {
+          "symbol": "?GetVehicleEntryTask@R5PedEntryTaskView@@QAEHXZ",
+          "site_rva": 90957,
+          "kind": 20,
+          "target_va": 269141456
+        },
+        {
+          "symbol": "?IsExitingVehicle@R5PedExitTaskView@@QAEHXZ",
+          "site_rva": 90972,
+          "kind": 20,
+          "target_va": 269141568
+        }
+      ]
+    },
+    {
+      "unit": "closure_remote_special_action_query",
+      "section": 46,
+      "anchor": "?GetVehicleEntryTask@R5PedEntryTaskView@@QAEHXZ",
+      "anchor_offset": 0,
+      "rva": 706000,
+      "size": 98,
+      "kind": "code",
+      "sha256": "d465f38dad6fc02cd399e0da914b70cb2a82a10399b98f2fb4d423e349a11dd9",
+      "bindings": [
+        {
+          "symbol": "?GamePool_Ped_GetAt@@YGPAU_PED_TYPE@@H@Z",
+          "site_rva": 706008,
+          "kind": 20,
+          "target_va": 269171568
+        },
+        {
+          "symbol": "?GetTaskTypeFromTask@@YAHPAK@Z",
+          "site_rva": 706045,
+          "kind": 20,
+          "target_va": 269172896
+        }
+      ]
+    }
+  ],
+  "source025_direct": 0,
+  "object_sha256": {
+    "closure_remote_special_action_query": "80069ef8c3511b3685504bfe71c41a32bf09f3c41f9fde3af5fece1c5c190b17"
+  },
+  "source_sha256": {
+    "closure_remote_special_action_query": "e941507d98db1a127abfc5bf6ce6a8533c6455e4dc2ce827bc6cf3bff7b96bf4"
+  },
+  "identity_callers": [
+    480048
+  ],
+  "typed_layout_note": "Pointer-only views; native PED_TYPE task slot0x10, remote specialAction1C5/ped1DD; all source external providers accepted except explicit dependency IsExitingVehicle70 from current onfoot candidate."
+}

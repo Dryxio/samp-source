@@ -1,0 +1,183 @@
+{
+  "status": "PASS_COMPLETE_API_AND_REAL_BASE_ADJUSTMENTS",
+  "source025_direct_bytes": 0,
+  "new_unique_code": 788,
+  "providers": {
+    "?IsNetworkSimulatorActive@RakPeer@@UAE_NXZ": {
+      "unit": "eval_vendor_network_simulator",
+      "rva": 232576,
+      "size": 48
+    },
+    "?GetStatistics@RakPeer@@UAEQAURakNetStatisticsStruct@@UPlayerID@@@Z": {
+      "unit": "eval_vendor_rakpeer_remote_state",
+      "rva": 255424,
+      "size": 212
+    },
+    "?IsBanned@RakPeer@@UAE_NPBD@Z": {
+      "unit": "eval_vendor_rakpeer_policy",
+      "rva": 247264,
+      "size": 323
+    },
+    "?ClearBanList@RakPeer@@UAEXXZ": {
+      "unit": "eval_vendor_rakpeer_policy",
+      "rva": 239968,
+      "size": 101
+    },
+    "?RemoveFromBanList@RakPeer@@UAEXPBD@Z": {
+      "unit": "eval_vendor_rakpeer_policy",
+      "rva": 246992,
+      "size": 263
+    },
+    "?GetPlayerIDFromIndex@RakPeer@@UAE?AUPlayerID@@H@Z": {
+      "unit": "eval_vendor_rakpeer_remote_state",
+      "rva": 231008,
+      "size": 93
+    },
+    "?GetIndexFromPlayerID@RakPeer@@UAEHUPlayerID@@@Z": {
+      "unit": "eval_vendor_rakpeer_remote_state",
+      "rva": 254768,
+      "size": 30
+    },
+    "?GetLocalIP@RakPeer@@UAEPBDI@Z": {
+      "unit": "eval_vendor_rakpeer_connect_address",
+      "rva": 231712,
+      "size": 60
+    },
+    "?PushBackPacket@RakPeer@@UAEXPAUPacket@@_N@Z": {
+      "unit": "eval_vendor_rakpeer_packet_api",
+      "rva": 241072,
+      "size": 42
+    },
+    "?GetNumberOfAddresses@RakPeer@@UAEIXZ": {
+      "unit": "eval_vendor_rakpeer_connect_address",
+      "rva": 231616,
+      "size": 71
+    },
+    "?GetRemoteStaticData@RakPeer@@UAEPAVBitStream@RakNet@@UPlayerID@@@Z": {
+      "unit": "eval_vendor_rakpeer_disconnect_requests",
+      "rva": 255040,
+      "size": 80
+    },
+    "?SetOfflinePingResponse@RakPeer@@UAEXPBDI@Z": {
+      "unit": "eval_vendor_rakpeer_options",
+      "rva": 231216,
+      "size": 67
+    },
+    "?SendStaticData@RakPeer@@UAEXUPlayerID@@@Z": {
+      "unit": "eval_vendor_rakpeer_send_handshake",
+      "rva": 264784,
+      "size": 30
+    },
+    "?DetachPlugin@RakPeer@@UAEXPAVPluginInterface@@@Z": {
+      "this_batch_network1_manifest": "build/agent-network-b/network1-reviewed-manifest.json",
+      "reference_va": 268676448
+    },
+    "?AttachPlugin@RakPeer@@UAEXPAVPluginInterface@@@Z": {
+      "this_batch_network1_manifest": "build/agent-network-b/network1-reviewed-manifest.json",
+      "reference_va": 268676384
+    },
+    "?GetDecompressionRatio@RakPeer@@UBEMXZ": {
+      "unit": "eval_vendor_rakpeer_policy",
+      "rva": 232336,
+      "size": 61
+    },
+    "?GetCompressionRatio@RakPeer@@UBEMXZ": {
+      "unit": "eval_vendor_rakpeer_policy",
+      "rva": 232272,
+      "size": 61
+    },
+    "?GetOutgoingFrequencyTable@RakPeer@@UAE_NQAI@Z": {
+      "unit": "eval_vendor_rakpeer_policy",
+      "rva": 231968,
+      "size": 53
+    },
+    "?SetCompileFrequencyTable@RakPeer@@UAEX_N@Z": {
+      "unit": "eval_vendor_rakpeer_policy",
+      "rva": 231952,
+      "size": 13
+    },
+    "?RegisterClassMemberRPC@RakPeer@@UAEXPADPAX@Z": {
+      "unit": "eval_vendor_rakpeer_packet_api",
+      "rva": 230944,
+      "size": 41
+    },
+    "?RegisterAsRemoteProcedureCall@RakPeer@@UAEXPADP6AXPAURPCParameters@@@Z@Z": {
+      "unit": "eval_vendor_rakpeer_packet_api",
+      "rva": 230896,
+      "size": 41
+    },
+    "?DeleteCompressionLayer@RakPeer@@UAE_N_N@Z": {
+      "unit": "eval_vendor_rakpeer_policy",
+      "rva": 240800,
+      "size": 113
+    },
+    "?GenerateCompressionLayer@RakPeer@@UAE_NQAI_N@Z": {
+      "unit": "eval_vendor_rakpeer_policy",
+      "rva": 232032,
+      "size": 208
+    },
+    "?IsActive@RakPeer@@UBE_NXZ": {
+      "unit": "eval_vendor_rakpeer_active",
+      "rva": 254016,
+      "size": 11
+    },
+    "?GetLowestPing@RakPeer@@UBEHUPlayerID@@@Z": {
+      "unit": "eval_vendor_rakpeer_remote_state",
+      "rva": 254976,
+      "size": 49
+    },
+    "?GetLastPing@RakPeer@@UBEHUPlayerID@@@Z": {
+      "unit": "eval_vendor_rakpeer_remote_state",
+      "rva": 254896,
+      "size": 73
+    },
+    "?GetAveragePing@RakPeer@@UAEHUPlayerID@@@Z": {
+      "unit": "eval_vendor_rakpeer_remote_state",
+      "rva": 254800,
+      "size": 90
+    },
+    "?Ping@RakPeer@@UAEXUPlayerID@@@Z": {
+      "unit": "eval_vendor_rakpeer_send_handshake",
+      "rva": 264752,
+      "size": 30
+    },
+    "?PlayerIDToDottedIP@RakPeer@@UBEPBDUPlayerID@@@Z": {
+      "unit": "eval_vendor_rakpeer_connect_address",
+      "rva": 231696,
+      "size": 14
+    },
+    "?DeallocatePacket@RakPeer@@UAEXPAUPacket@@@Z": {
+      "unit": "eval_vendor_rakpeer_packet_api",
+      "rva": 230832,
+      "size": 45
+    },
+    "?Disconnect@RakPeer@@UAEXIE@Z": {
+      "unit": "eval_vendor_rakpeer_disconnect_requests",
+      "rva": 263712,
+      "size": 620
+    }
+  },
+  "scope": [
+    "50 entire original vendor API wrapper methods. Roots identified by original calltarget identity, not ambiguous body likeness alone: each inferred call binds named accepted real RakPeer or newly qualified plugin provider at original VA.",
+    "RakClient actual complete multiple inheritance: RakPeer primary base0 and RakClientInterface secondary DDE. These original primary implementation bodies are intentionally distinct from secondary adjustment thunks. No thunk bytes claimed, no allocation/ctor/VFT claimed.",
+    "RakServer actual complete multiple inheritance: RakServerInterface primary0, RakPeer secondary4. Vendor compiler emits real +4 base adjustments before calls and actual PlayerID argument forwarding. No view adaptation or invented calltarget.",
+    "RakClient PingServer/average/last/lowest ping use real remoteSystemList first RemoteSystemStruct3177; null case preserved. All variants full42/47 lengths and actual helper targets compared.",
+    "GetPlayerIPFromID original54 uses actual PlayerID address conversion provider, bounded output length exactly source behavior; no behavior fixes.",
+    "All imports/CRT/providers already accepted except Attach/Detach proved in same network1 candidate batch; compile profile must include their real source providers before final accept.",
+    "Whole50 functions788bytes and50 actualfixups. No data/EH or new aliases, no concrete callbacks coverage. No025 benefit: unchanged vendor implementation."
+  ],
+  "snapshots": [
+    {
+      "path": "vendor/upstream/raknet/RakClient.h",
+      "sha256": "44b74fb38314b742c8a874db60d6dceefed82ad4cad7ca6be98630c83e49543e"
+    },
+    {
+      "path": "vendor/upstream/raknet/RakServer.h",
+      "sha256": "8e8668397f12878319847b51589d91bb10c98c92a0661f08c01c1208d102721c"
+    },
+    {
+      "path": "vendor/upstream/raknet/RakPeer.h",
+      "sha256": "3c462fd303bd7a7becc91f1b4e2752cff3656a2eec2a65afc0c15816c0902d75"
+    }
+  ]
+}

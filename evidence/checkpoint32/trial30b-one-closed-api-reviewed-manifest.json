@@ -1,0 +1,1077 @@
+{
+  "status": "REVIEWED_MAIN_SEEDS_AND_WHOLE_EH_BINDINGS_PREFLIGHT",
+  "run": "build/cp32-trial30b-closed-api",
+  "roots": {
+    "?Disconnect@RakClient@@UAEXIE@Z": 213488,
+    "?DeallocatePacket@RakClient@@UAEXPAUPacket@@@Z": 213808,
+    "?PingServer@RakClient@@UAEXXZ": 213824,
+    "?GetAveragePing@RakClient@@UAEHXZ": 213936,
+    "?GetLastPing@RakClient@@UBEHXZ": 213984,
+    "?GetLowestPing@RakClient@@UBEHXZ": 214032,
+    "?GenerateCompressionLayer@RakClient@@UAE_NQAI_N@Z": 214256,
+    "?DeleteCompressionLayer@RakClient@@UAE_N_N@Z": 214272,
+    "?RegisterAsRemoteProcedureCall@RakClient@@UAEXPADP6AXPAURPCParameters@@@Z@Z": 214288,
+    "?RegisterClassMemberRPC@RakClient@@UAEXPADPAX@Z": 214304,
+    "?SetTrackFrequencyTable@RakClient@@UAEX_N@Z": 214672,
+    "?GetSendFrequencyTable@RakClient@@UAE_NQAI@Z": 214688,
+    "?GetCompressionRatio@RakClient@@UBEMXZ": 214704,
+    "?GetDecompressionRatio@RakClient@@UBEMXZ": 214720,
+    "?AttachPlugin@RakClient@@UAEXPAVPluginInterface@@@Z": 214736,
+    "?DetachPlugin@RakClient@@UAEXPAVPluginInterface@@@Z": 214752,
+    "?PlayerIDToDottedIP@RakClient@@UBEPBDUPlayerID@@@Z": 215184,
+    "?PushBackPacket@RakClient@@UAEXPAUPacket@@_N@Z": 215216,
+    "?IsNetworkSimulatorActive@RakClient@@UAE_NXZ": 215472,
+    "?Disconnect@RakServer@@UAEXIE@Z": 273632,
+    "?DeallocatePacket@RakServer@@UAEXPAUPacket@@@Z": 273824,
+    "?GetPlayerIPFromID@RakServer@@UAEXUPlayerID@@QADPAG@Z": 273904,
+    "?PingPlayer@RakServer@@UAEXUPlayerID@@@Z": 273968,
+    "?GetAveragePing@RakServer@@UAEHUPlayerID@@@Z": 274000,
+    "?GetLastPing@RakServer@@UAEHUPlayerID@@@Z": 274032,
+    "?GetLowestPing@RakServer@@UAEHUPlayerID@@@Z": 274064,
+    "?IsActive@RakServer@@UBE_NXZ": 274128,
+    "?GenerateCompressionLayer@RakServer@@UAE_NQAI_N@Z": 274192,
+    "?DeleteCompressionLayer@RakServer@@UAE_N_N@Z": 274208,
+    "?RegisterAsRemoteProcedureCall@RakServer@@UAEXPADP6AXPAURPCParameters@@@Z@Z": 274224,
+    "?RegisterClassMemberRPC@RakServer@@UAEXPADPAX@Z": 274240,
+    "?SetTrackFrequencyTable@RakServer@@UAEX_N@Z": 274704,
+    "?GetSendFrequencyTable@RakServer@@UAE_NQAI@Z": 274720,
+    "?GetCompressionRatio@RakServer@@UBEMXZ": 274736,
+    "?GetDecompressionRatio@RakServer@@UBEMXZ": 274752,
+    "?AttachPlugin@RakServer@@UAEXPAVPluginInterface@@@Z": 274768,
+    "?DetachPlugin@RakServer@@UAEXPAVPluginInterface@@@Z": 274784,
+    "?SendStaticServerDataToClient@RakServer@@UAEXUPlayerID@@@Z": 274912,
+    "?SetOfflinePingResponse@RakServer@@UAEXPBDI@Z": 274944,
+    "?GetStaticClientData@RakServer@@UAEPAVBitStream@RakNet@@UPlayerID@@@Z": 274960,
+    "?GetNumberOfAddresses@RakServer@@UAEIXZ": 275040,
+    "?PushBackPacket@RakServer@@UAEXPAUPacket@@_N@Z": 275088,
+    "?GetLocalIP@RakServer@@UAEPBDI@Z": 275136,
+    "?GetIndexFromPlayerID@RakServer@@UAEHUPlayerID@@@Z": 275152,
+    "?GetPlayerIDFromIndex@RakServer@@UAE?AUPlayerID@@H@Z": 275184,
+    "?RemoveFromBanList@RakServer@@UAEXPBD@Z": 275264,
+    "?ClearBanList@RakServer@@UAEXXZ": 275280,
+    "?IsBanned@RakServer@@UAE_NPBD@Z": 275296,
+    "?GetStatistics@RakServer@@UAEQAURakNetStatisticsStruct@@UPlayerID@@@Z": 275456,
+    "?IsNetworkSimulatorActive@RakServer@@UAE_NXZ": 275568
+  },
+  "seeds": {
+    "eval_vendor_rakclient_closed_api": {
+      "?IsNetworkSimulatorActive@RakClient@@UAE_NXZ": 215472,
+      "?PushBackPacket@RakClient@@UAEXPAUPacket@@_N@Z": 215216,
+      "?PlayerIDToDottedIP@RakClient@@UBEPBDUPlayerID@@@Z": 215184,
+      "?DetachPlugin@RakClient@@UAEXPAVPluginInterface@@@Z": 214752,
+      "?AttachPlugin@RakClient@@UAEXPAVPluginInterface@@@Z": 214736,
+      "?GetDecompressionRatio@RakClient@@UBEMXZ": 214720,
+      "?GetCompressionRatio@RakClient@@UBEMXZ": 214704,
+      "?GetSendFrequencyTable@RakClient@@UAE_NQAI@Z": 214688,
+      "?SetTrackFrequencyTable@RakClient@@UAEX_N@Z": 214672,
+      "?RegisterClassMemberRPC@RakClient@@UAEXPADPAX@Z": 214304,
+      "?RegisterAsRemoteProcedureCall@RakClient@@UAEXPADP6AXPAURPCParameters@@@Z@Z": 214288,
+      "?DeleteCompressionLayer@RakClient@@UAE_N_N@Z": 214272,
+      "?GenerateCompressionLayer@RakClient@@UAE_NQAI_N@Z": 214256,
+      "?GetLowestPing@RakClient@@UBEHXZ": 214032,
+      "?GetLastPing@RakClient@@UBEHXZ": 213984,
+      "?GetAveragePing@RakClient@@UAEHXZ": 213936,
+      "?PingServer@RakClient@@UAEXXZ": 213824,
+      "?DeallocatePacket@RakClient@@UAEXPAUPacket@@@Z": 213808,
+      "?Disconnect@RakClient@@UAEXIE@Z": 213488
+    },
+    "eval_vendor_rakserver_closed_api": {
+      "?IsNetworkSimulatorActive@RakServer@@UAE_NXZ": 275568,
+      "?GetStatistics@RakServer@@UAEQAURakNetStatisticsStruct@@UPlayerID@@@Z": 275456,
+      "?IsBanned@RakServer@@UAE_NPBD@Z": 275296,
+      "?ClearBanList@RakServer@@UAEXXZ": 275280,
+      "?RemoveFromBanList@RakServer@@UAEXPBD@Z": 275264,
+      "?GetPlayerIDFromIndex@RakServer@@UAE?AUPlayerID@@H@Z": 275184,
+      "?GetIndexFromPlayerID@RakServer@@UAEHUPlayerID@@@Z": 275152,
+      "?GetLocalIP@RakServer@@UAEPBDI@Z": 275136,
+      "?PushBackPacket@RakServer@@UAEXPAUPacket@@_N@Z": 275088,
+      "?GetNumberOfAddresses@RakServer@@UAEIXZ": 275040,
+      "?GetStaticClientData@RakServer@@UAEPAVBitStream@RakNet@@UPlayerID@@@Z": 274960,
+      "?SetOfflinePingResponse@RakServer@@UAEXPBDI@Z": 274944,
+      "?SendStaticServerDataToClient@RakServer@@UAEXUPlayerID@@@Z": 274912,
+      "?DetachPlugin@RakServer@@UAEXPAVPluginInterface@@@Z": 274784,
+      "?AttachPlugin@RakServer@@UAEXPAVPluginInterface@@@Z": 274768,
+      "?GetDecompressionRatio@RakServer@@UBEMXZ": 274752,
+      "?GetCompressionRatio@RakServer@@UBEMXZ": 274736,
+      "?GetSendFrequencyTable@RakServer@@UAE_NQAI@Z": 274720,
+      "?SetTrackFrequencyTable@RakServer@@UAEX_N@Z": 274704,
+      "?RegisterClassMemberRPC@RakServer@@UAEXPADPAX@Z": 274240,
+      "?RegisterAsRemoteProcedureCall@RakServer@@UAEXPADP6AXPAURPCParameters@@@Z@Z": 274224,
+      "?DeleteCompressionLayer@RakServer@@UAE_N_N@Z": 274208,
+      "?GenerateCompressionLayer@RakServer@@UAE_NQAI_N@Z": 274192,
+      "?IsActive@RakServer@@UBE_NXZ": 274128,
+      "?GetLowestPing@RakServer@@UAEHUPlayerID@@@Z": 274064,
+      "?GetLastPing@RakServer@@UAEHUPlayerID@@@Z": 274032,
+      "?GetAveragePing@RakServer@@UAEHUPlayerID@@@Z": 274000,
+      "?PingPlayer@RakServer@@UAEXUPlayerID@@@Z": 273968,
+      "?GetPlayerIPFromID@RakServer@@UAEXUPlayerID@@QADPAG@Z": 273904,
+      "?DeallocatePacket@RakServer@@UAEXPAUPacket@@@Z": 273824,
+      "?Disconnect@RakServer@@UAEXIE@Z": 273632
+    }
+  },
+  "regions": [
+    {
+      "unit": "eval_vendor_rakclient_closed_api",
+      "section": 39,
+      "rva": 215472,
+      "size": 5,
+      "kind": ".text",
+      "sha256": "22af63421952a779b0896aed58f4e55d987b9329ee23b4eba70849d416c18c1e",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "?IsNetworkSimulatorActive@RakPeer@@UAE_NXZ",
+          "site_rva": 215473,
+          "target_va": 268668032,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "eval_vendor_rakclient_closed_api",
+      "section": 37,
+      "rva": 215216,
+      "size": 5,
+      "kind": ".text",
+      "sha256": "13eed1fef1d9b279432fb2dd445e92f2dbe8c04f9fb4b3e7b8c644e2489ac05a",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "?PushBackPacket@RakPeer@@UAEXPAUPacket@@_N@Z",
+          "site_rva": 215217,
+          "target_va": 268676528,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "eval_vendor_rakclient_closed_api",
+      "section": 35,
+      "rva": 215184,
+      "size": 28,
+      "kind": ".text",
+      "sha256": "27566b276fc0bae92df1188f3316219eb64c6e28ab4141de562c2b1bec1d4869",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "?PlayerIDToDottedIP@RakPeer@@UBEPBDUPlayerID@@@Z",
+          "site_rva": 215205,
+          "target_va": 268667152,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "eval_vendor_rakclient_closed_api",
+      "section": 33,
+      "rva": 214752,
+      "size": 5,
+      "kind": ".text",
+      "sha256": "19f05dcb64ac2ca4c0b2cb39a35f1f50887e6aa11099ba675ff56a491b69625e",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "?DetachPlugin@RakPeer@@UAEXPAVPluginInterface@@@Z",
+          "site_rva": 214753,
+          "target_va": 268676448,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "eval_vendor_rakclient_closed_api",
+      "section": 31,
+      "rva": 214736,
+      "size": 5,
+      "kind": ".text",
+      "sha256": "56ef1a457197d2485ab1a0849e7cd4cc8440dba6aea73bdd935e69301680c13a",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "?AttachPlugin@RakPeer@@UAEXPAVPluginInterface@@@Z",
+          "site_rva": 214737,
+          "target_va": 268676384,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "eval_vendor_rakclient_closed_api",
+      "section": 29,
+      "rva": 214720,
+      "size": 5,
+      "kind": ".text",
+      "sha256": "211626b51dd584a7e4205e4926e16a8fe748bbb44288b837a46ab5b1167be20c",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "?GetDecompressionRatio@RakPeer@@UBEMXZ",
+          "site_rva": 214721,
+          "target_va": 268667792,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "eval_vendor_rakclient_closed_api",
+      "section": 27,
+      "rva": 214704,
+      "size": 5,
+      "kind": ".text",
+      "sha256": "ef978291b1d0cbd51e9f8d66bb5be05715c06fbb82531aea3220e46df569f7c2",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "?GetCompressionRatio@RakPeer@@UBEMXZ",
+          "site_rva": 214705,
+          "target_va": 268667728,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "eval_vendor_rakclient_closed_api",
+      "section": 25,
+      "rva": 214688,
+      "size": 11,
+      "kind": ".text",
+      "sha256": "8c37922fc9b976be227d31173abfcaee2c2ab60056e3c97a58e8e1068b8f67b7",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "?GetOutgoingFrequencyTable@RakPeer@@UAE_NQAI@Z",
+          "site_rva": 214695,
+          "target_va": 268667424,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "eval_vendor_rakclient_closed_api",
+      "section": 23,
+      "rva": 214672,
+      "size": 11,
+      "kind": ".text",
+      "sha256": "8c37922fc9b976be227d31173abfcaee2c2ab60056e3c97a58e8e1068b8f67b7",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "?SetCompileFrequencyTable@RakPeer@@UAEX_N@Z",
+          "site_rva": 214679,
+          "target_va": 268667408,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "eval_vendor_rakclient_closed_api",
+      "section": 21,
+      "rva": 214304,
+      "size": 5,
+      "kind": ".text",
+      "sha256": "f0b2ca9e58d46c4cdbfcb5296a9d971e30ba52e8116ec1523e1078fd693e5318",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "?RegisterClassMemberRPC@RakPeer@@UAEXPADPAX@Z",
+          "site_rva": 214305,
+          "target_va": 268666400,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "eval_vendor_rakclient_closed_api",
+      "section": 19,
+      "rva": 214288,
+      "size": 5,
+      "kind": ".text",
+      "sha256": "b9fc1c1e9e7d970b2dc97913d394773a511d4895a4fe610103e3520faa2fd08d",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "?RegisterAsRemoteProcedureCall@RakPeer@@UAEXPADP6AXPAURPCParameters@@@Z@Z",
+          "site_rva": 214289,
+          "target_va": 268666352,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "eval_vendor_rakclient_closed_api",
+      "section": 17,
+      "rva": 214272,
+      "size": 5,
+      "kind": ".text",
+      "sha256": "f204a029243cf1bc2299d5064d3247e7cafa86fc7f59bd2f4b7eca5e39980cbf",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "?DeleteCompressionLayer@RakPeer@@UAE_N_N@Z",
+          "site_rva": 214273,
+          "target_va": 268676256,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "eval_vendor_rakclient_closed_api",
+      "section": 15,
+      "rva": 214256,
+      "size": 5,
+      "kind": ".text",
+      "sha256": "0c93a8ea749379c4f099bcb0e63a600ac36fc90710b7fef040c304e5c8351a8f",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "?GenerateCompressionLayer@RakPeer@@UAE_NQAI_N@Z",
+          "site_rva": 214257,
+          "target_va": 268667488,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "eval_vendor_rakclient_closed_api",
+      "section": 13,
+      "rva": 214032,
+      "size": 47,
+      "kind": ".text",
+      "sha256": "f96eafea9e3a1eef3a01eeef14f22534689d20d8acc6b35c93485de147f12840",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "?GetLowestPing@RakPeer@@UBEHUPlayerID@@@Z",
+          "site_rva": 214073,
+          "target_va": 268690432,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "eval_vendor_rakclient_closed_api",
+      "section": 11,
+      "rva": 213984,
+      "size": 47,
+      "kind": ".text",
+      "sha256": "5acd5582a5fc5d7c42c816d841173691753196481ed08f76b47e43540559f236",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "?GetLastPing@RakPeer@@UBEHUPlayerID@@@Z",
+          "site_rva": 214025,
+          "target_va": 268690352,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "eval_vendor_rakclient_closed_api",
+      "section": 9,
+      "rva": 213936,
+      "size": 47,
+      "kind": ".text",
+      "sha256": "bd44bb8419242a034244b48820818ed19ab7278e879d82433753f108e7ca7b6f",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "?GetAveragePing@RakPeer@@UAEHUPlayerID@@@Z",
+          "site_rva": 213977,
+          "target_va": 268690256,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "eval_vendor_rakclient_closed_api",
+      "section": 7,
+      "rva": 213824,
+      "size": 42,
+      "kind": ".text",
+      "sha256": "82d48119be8a32252d931aa1a8295b69edbe91bb495f51088a588b45fc7f0b91",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "?Ping@RakPeer@@UAEXUPlayerID@@@Z",
+          "site_rva": 213860,
+          "target_va": 268700208,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "eval_vendor_rakclient_closed_api",
+      "section": 5,
+      "rva": 213808,
+      "size": 5,
+      "kind": ".text",
+      "sha256": "3a868d13cafdb63a9268285455d95fe326ef69c3c3ac3e9650b3e4c59361ad3a",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "?DeallocatePacket@RakPeer@@UAEXPAUPacket@@@Z",
+          "site_rva": 213809,
+          "target_va": 268666288,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "eval_vendor_rakclient_closed_api",
+      "section": 3,
+      "rva": 213488,
+      "size": 5,
+      "kind": ".text",
+      "sha256": "b643c2333218aff940ed07443361dee4a2757b0c5da5925792f89f81256051d9",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "?Disconnect@RakPeer@@UAEXIE@Z",
+          "site_rva": 213489,
+          "target_va": 268699168,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "eval_vendor_rakserver_closed_api",
+      "section": 63,
+      "rva": 275568,
+      "size": 8,
+      "kind": ".text",
+      "sha256": "a670d2acc44afc4996997d0cf84aa0f4e937b9c1aaea0b1b2693c37020ea7e66",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "?IsNetworkSimulatorActive@RakPeer@@UAE_NXZ",
+          "site_rva": 275572,
+          "target_va": 268668032,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "eval_vendor_rakserver_closed_api",
+      "section": 61,
+      "rva": 275456,
+      "size": 31,
+      "kind": ".text",
+      "sha256": "bef2656140241de91941910afab556d52f1656496f2e50da4be48c254d9e508c",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "?GetStatistics@RakPeer@@UAEQAURakNetStatisticsStruct@@UPlayerID@@@Z",
+          "site_rva": 275480,
+          "target_va": 268690880,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "eval_vendor_rakserver_closed_api",
+      "section": 59,
+      "rva": 275296,
+      "size": 8,
+      "kind": ".text",
+      "sha256": "8ce646d3a8e9b3064f1d5cd118ccedc746771f66b4e5c44b37f52a73ad517619",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "?IsBanned@RakPeer@@UAE_NPBD@Z",
+          "site_rva": 275300,
+          "target_va": 268682720,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "eval_vendor_rakserver_closed_api",
+      "section": 57,
+      "rva": 275280,
+      "size": 8,
+      "kind": ".text",
+      "sha256": "74f74a63696c077af14e4f308b0f35c8945c52694c6037428baa9eb6c3072cc6",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "?ClearBanList@RakPeer@@UAEXXZ",
+          "site_rva": 275284,
+          "target_va": 268675424,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "eval_vendor_rakserver_closed_api",
+      "section": 55,
+      "rva": 275264,
+      "size": 8,
+      "kind": ".text",
+      "sha256": "6f69e0ec939bada907fdf1b7c67e22b68a1cbdc440469931b99ed040b3cfdd88",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "?RemoveFromBanList@RakPeer@@UAEXPBD@Z",
+          "site_rva": 275268,
+          "target_va": 268682448,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "eval_vendor_rakserver_closed_api",
+      "section": 53,
+      "rva": 275184,
+      "size": 25,
+      "kind": ".text",
+      "sha256": "89940a36dd40aa8df7f8c1181ea52839e64e64e14a7ca405f7a973a89d7b096e",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "?GetPlayerIDFromIndex@RakPeer@@UAE?AUPlayerID@@H@Z",
+          "site_rva": 275199,
+          "target_va": 268666464,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "eval_vendor_rakserver_closed_api",
+      "section": 51,
+      "rva": 275152,
+      "size": 31,
+      "kind": ".text",
+      "sha256": "da1560979f01084b637169c068f56a8a6e7285395a57c756f5beee7a4edcbcc7",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "?GetIndexFromPlayerID@RakPeer@@UAEHUPlayerID@@@Z",
+          "site_rva": 275176,
+          "target_va": 268690224,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "eval_vendor_rakserver_closed_api",
+      "section": 49,
+      "rva": 275136,
+      "size": 8,
+      "kind": ".text",
+      "sha256": "c4df5c1cc2f91ecbf247e1cb3e38ac3dc08730858515c5ee47e56b1e4307afa5",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "?GetLocalIP@RakPeer@@UAEPBDI@Z",
+          "site_rva": 275140,
+          "target_va": 268667168,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "eval_vendor_rakserver_closed_api",
+      "section": 47,
+      "rva": 275088,
+      "size": 8,
+      "kind": ".text",
+      "sha256": "1c22d8a4b587a5353000e7d5fc413f202133592eb4eb5166324d0ccf4149fe20",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "?PushBackPacket@RakPeer@@UAEXPAUPacket@@_N@Z",
+          "site_rva": 275092,
+          "target_va": 268676528,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "eval_vendor_rakserver_closed_api",
+      "section": 45,
+      "rva": 275040,
+      "size": 8,
+      "kind": ".text",
+      "sha256": "c4df5c1cc2f91ecbf247e1cb3e38ac3dc08730858515c5ee47e56b1e4307afa5",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "?GetNumberOfAddresses@RakPeer@@UAEIXZ",
+          "site_rva": 275044,
+          "target_va": 268667072,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "eval_vendor_rakserver_closed_api",
+      "section": 43,
+      "rva": 274960,
+      "size": 31,
+      "kind": ".text",
+      "sha256": "1805cb9c8ddc6048b936b76969ef01af5045cceb562146c0951ada478c9d06e8",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "?GetRemoteStaticData@RakPeer@@UAEPAVBitStream@RakNet@@UPlayerID@@@Z",
+          "site_rva": 274984,
+          "target_va": 268690496,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "eval_vendor_rakserver_closed_api",
+      "section": 41,
+      "rva": 274944,
+      "size": 8,
+      "kind": ".text",
+      "sha256": "bf54eeea2fec965be947b82c1126e6799f7776f22f88fb4832dc7be83c14a351",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "?SetOfflinePingResponse@RakPeer@@UAEXPBDI@Z",
+          "site_rva": 274948,
+          "target_va": 268666672,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "eval_vendor_rakserver_closed_api",
+      "section": 39,
+      "rva": 274912,
+      "size": 31,
+      "kind": ".text",
+      "sha256": "28d8bdeb0a8b0bc7b1b59e70b61d7f50ac20885f4aa2ff978d57858f169b9718",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "?SendStaticData@RakPeer@@UAEXUPlayerID@@@Z",
+          "site_rva": 274936,
+          "target_va": 268700240,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "eval_vendor_rakserver_closed_api",
+      "section": 37,
+      "rva": 274784,
+      "size": 8,
+      "kind": ".text",
+      "sha256": "f4ef96a81bfa3710ac59b300b5f117b8ec568ef43d541601745a905736b02ffc",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "?DetachPlugin@RakPeer@@UAEXPAVPluginInterface@@@Z",
+          "site_rva": 274788,
+          "target_va": 268676448,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "eval_vendor_rakserver_closed_api",
+      "section": 35,
+      "rva": 274768,
+      "size": 8,
+      "kind": ".text",
+      "sha256": "0ae218de30f3a6eb6a87637e9a3dc4bd24c7d02a31560b037586f7ae8b550a27",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "?AttachPlugin@RakPeer@@UAEXPAVPluginInterface@@@Z",
+          "site_rva": 274772,
+          "target_va": 268676384,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "eval_vendor_rakserver_closed_api",
+      "section": 33,
+      "rva": 274752,
+      "size": 8,
+      "kind": ".text",
+      "sha256": "3e3b5ce0c6412b57504f128de7e4b7fdd8934d5296ec071b4ef4dcd7bc48e6bd",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "?GetDecompressionRatio@RakPeer@@UBEMXZ",
+          "site_rva": 274756,
+          "target_va": 268667792,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "eval_vendor_rakserver_closed_api",
+      "section": 31,
+      "rva": 274736,
+      "size": 8,
+      "kind": ".text",
+      "sha256": "f12912cef1996844d3f48770477034e3343c1b2c613bc924f0bf29bdda9d187e",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "?GetCompressionRatio@RakPeer@@UBEMXZ",
+          "site_rva": 274740,
+          "target_va": 268667728,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "eval_vendor_rakserver_closed_api",
+      "section": 29,
+      "rva": 274720,
+      "size": 8,
+      "kind": ".text",
+      "sha256": "006cecea203a36b5808b457de3564b1595ceff0c9e8b8a0b873bc258b4416e1c",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "?GetOutgoingFrequencyTable@RakPeer@@UAE_NQAI@Z",
+          "site_rva": 274724,
+          "target_va": 268667424,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "eval_vendor_rakserver_closed_api",
+      "section": 27,
+      "rva": 274704,
+      "size": 8,
+      "kind": ".text",
+      "sha256": "006cecea203a36b5808b457de3564b1595ceff0c9e8b8a0b873bc258b4416e1c",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "?SetCompileFrequencyTable@RakPeer@@UAEX_N@Z",
+          "site_rva": 274708,
+          "target_va": 268667408,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "eval_vendor_rakserver_closed_api",
+      "section": 25,
+      "rva": 274240,
+      "size": 8,
+      "kind": ".text",
+      "sha256": "840dc5ee850efba511a9476b76bb86b242c255ec788f0bd0f92022e00e3c913c",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "?RegisterClassMemberRPC@RakPeer@@UAEXPADPAX@Z",
+          "site_rva": 274244,
+          "target_va": 268666400,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "eval_vendor_rakserver_closed_api",
+      "section": 23,
+      "rva": 274224,
+      "size": 8,
+      "kind": ".text",
+      "sha256": "934842c7d67b1a27896f0d5f9adba76a5b44fe69fa7010164537d38fe275af65",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "?RegisterAsRemoteProcedureCall@RakPeer@@UAEXPADP6AXPAURPCParameters@@@Z@Z",
+          "site_rva": 274228,
+          "target_va": 268666352,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "eval_vendor_rakserver_closed_api",
+      "section": 21,
+      "rva": 274208,
+      "size": 8,
+      "kind": ".text",
+      "sha256": "5d2ed8b448678c6944404074199fa7510e9692ab8df2c25c99a5b842a5ccd652",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "?DeleteCompressionLayer@RakPeer@@UAE_N_N@Z",
+          "site_rva": 274212,
+          "target_va": 268676256,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "eval_vendor_rakserver_closed_api",
+      "section": 19,
+      "rva": 274192,
+      "size": 8,
+      "kind": ".text",
+      "sha256": "69d1bc3c6fb52b63abc1d17ce50d8bb19d2ab3017b65e671a0f59ab8c1f4d315",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "?GenerateCompressionLayer@RakPeer@@UAE_NQAI_N@Z",
+          "site_rva": 274196,
+          "target_va": 268667488,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "eval_vendor_rakserver_closed_api",
+      "section": 17,
+      "rva": 274128,
+      "size": 8,
+      "kind": ".text",
+      "sha256": "48f68f7c12ca39d55a5cc92f847c4c35b011158d7fb2b4c772d591d68dbf53a3",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "?IsActive@RakPeer@@UBE_NXZ",
+          "site_rva": 274132,
+          "target_va": 268689472,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "eval_vendor_rakserver_closed_api",
+      "section": 15,
+      "rva": 274064,
+      "size": 31,
+      "kind": ".text",
+      "sha256": "bf07c7fb26dce4388764681d7cf8036432a47ed12a8ab9cecb7cb7cab54c5d78",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "?GetLowestPing@RakPeer@@UBEHUPlayerID@@@Z",
+          "site_rva": 274088,
+          "target_va": 268690432,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "eval_vendor_rakserver_closed_api",
+      "section": 13,
+      "rva": 274032,
+      "size": 31,
+      "kind": ".text",
+      "sha256": "332fe4766cfa4a8766c59dee3f978be89b3eaca3c91f70568f0191ed1c3814e9",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "?GetLastPing@RakPeer@@UBEHUPlayerID@@@Z",
+          "site_rva": 274056,
+          "target_va": 268690352,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "eval_vendor_rakserver_closed_api",
+      "section": 11,
+      "rva": 274000,
+      "size": 31,
+      "kind": ".text",
+      "sha256": "75a74ad9faf95eeed20daeda8b1b676518f88503a879b3d34494cfada82e54a3",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "?GetAveragePing@RakPeer@@UAEHUPlayerID@@@Z",
+          "site_rva": 274024,
+          "target_va": 268690256,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "eval_vendor_rakserver_closed_api",
+      "section": 9,
+      "rva": 273968,
+      "size": 31,
+      "kind": ".text",
+      "sha256": "82d036418465498bf9b2c2d6911dbf35f1ca1d16767e7932f05ddc51c047b619",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "?Ping@RakPeer@@UAEXUPlayerID@@@Z",
+          "site_rva": 273992,
+          "target_va": 268700208,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "eval_vendor_rakserver_closed_api",
+      "section": 7,
+      "rva": 273904,
+      "size": 54,
+      "kind": ".text",
+      "sha256": "a1732b39265808184cae7687698083f380f4b1a2292ecb6cbaf86c88033be5f0",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "?PlayerIDToDottedIP@RakPeer@@UBEPBDUPlayerID@@@Z",
+          "site_rva": 273936,
+          "target_va": 268667152,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "eval_vendor_rakserver_closed_api",
+      "section": 5,
+      "rva": 273824,
+      "size": 8,
+      "kind": ".text",
+      "sha256": "a670d2acc44afc4996997d0cf84aa0f4e937b9c1aaea0b1b2693c37020ea7e66",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "?DeallocatePacket@RakPeer@@UAEXPAUPacket@@@Z",
+          "site_rva": 273828,
+          "target_va": 268666288,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "eval_vendor_rakserver_closed_api",
+      "section": 3,
+      "rva": 273632,
+      "size": 8,
+      "kind": ".text",
+      "sha256": "692c6c8a5f17eb018e58afb09a21cc0c85f7bfe000a360c34c62d439053e1a21",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "?Disconnect@RakPeer@@UAEXIE@Z",
+          "site_rva": 273636,
+          "target_va": 268699168,
+          "kind": 20
+        }
+      ]
+    }
+  ],
+  "bindings_checked": 50,
+  "external_targets": {
+    "?IsNetworkSimulatorActive@RakPeer@@UAE_NXZ": 268668032,
+    "?GetStatistics@RakPeer@@UAEQAURakNetStatisticsStruct@@UPlayerID@@@Z": 268690880,
+    "?IsBanned@RakPeer@@UAE_NPBD@Z": 268682720,
+    "?ClearBanList@RakPeer@@UAEXXZ": 268675424,
+    "?RemoveFromBanList@RakPeer@@UAEXPBD@Z": 268682448,
+    "?GetPlayerIDFromIndex@RakPeer@@UAE?AUPlayerID@@H@Z": 268666464,
+    "?GetIndexFromPlayerID@RakPeer@@UAEHUPlayerID@@@Z": 268690224,
+    "?GetLocalIP@RakPeer@@UAEPBDI@Z": 268667168,
+    "?PushBackPacket@RakPeer@@UAEXPAUPacket@@_N@Z": 268676528,
+    "?GetNumberOfAddresses@RakPeer@@UAEIXZ": 268667072,
+    "?GetRemoteStaticData@RakPeer@@UAEPAVBitStream@RakNet@@UPlayerID@@@Z": 268690496,
+    "?SetOfflinePingResponse@RakPeer@@UAEXPBDI@Z": 268666672,
+    "?SendStaticData@RakPeer@@UAEXUPlayerID@@@Z": 268700240,
+    "?DetachPlugin@RakPeer@@UAEXPAVPluginInterface@@@Z": 268676448,
+    "?AttachPlugin@RakPeer@@UAEXPAVPluginInterface@@@Z": 268676384,
+    "?GetDecompressionRatio@RakPeer@@UBEMXZ": 268667792,
+    "?GetCompressionRatio@RakPeer@@UBEMXZ": 268667728,
+    "?GetOutgoingFrequencyTable@RakPeer@@UAE_NQAI@Z": 268667424,
+    "?SetCompileFrequencyTable@RakPeer@@UAEX_N@Z": 268667408,
+    "?RegisterClassMemberRPC@RakPeer@@UAEXPADPAX@Z": 268666400,
+    "?RegisterAsRemoteProcedureCall@RakPeer@@UAEXPADP6AXPAURPCParameters@@@Z@Z": 268666352,
+    "?DeleteCompressionLayer@RakPeer@@UAE_N_N@Z": 268676256,
+    "?GenerateCompressionLayer@RakPeer@@UAE_NQAI_N@Z": 268667488,
+    "?IsActive@RakPeer@@UBE_NXZ": 268689472,
+    "?GetLowestPing@RakPeer@@UBEHUPlayerID@@@Z": 268690432,
+    "?GetLastPing@RakPeer@@UBEHUPlayerID@@@Z": 268690352,
+    "?GetAveragePing@RakPeer@@UAEHUPlayerID@@@Z": 268690256,
+    "?Ping@RakPeer@@UAEXUPlayerID@@@Z": 268700208,
+    "?PlayerIDToDottedIP@RakPeer@@UBEPBDUPlayerID@@@Z": 268667152,
+    "?DeallocatePacket@RakPeer@@UAEXPAUPacket@@@Z": 268666288,
+    "?Disconnect@RakPeer@@UAEXIE@Z": 268699168
+  },
+  "identity_reasons": {
+    "?Disconnect@RakClient@@UAEXIE@Z": "source method semantics + original call graph / allocation / table owner",
+    "?DeallocatePacket@RakClient@@UAEXPAUPacket@@@Z": "source method semantics + original call graph / allocation / table owner",
+    "?PingServer@RakClient@@UAEXXZ": "source method semantics + original call graph / allocation / table owner",
+    "?GetAveragePing@RakClient@@UAEHXZ": "source method semantics + original call graph / allocation / table owner",
+    "?GetLastPing@RakClient@@UBEHXZ": "source method semantics + original call graph / allocation / table owner",
+    "?GetLowestPing@RakClient@@UBEHXZ": "source method semantics + original call graph / allocation / table owner",
+    "?GenerateCompressionLayer@RakClient@@UAE_NQAI_N@Z": "source method semantics + original call graph / allocation / table owner",
+    "?DeleteCompressionLayer@RakClient@@UAE_N_N@Z": "source method semantics + original call graph / allocation / table owner",
+    "?RegisterAsRemoteProcedureCall@RakClient@@UAEXPADP6AXPAURPCParameters@@@Z@Z": "source method semantics + original call graph / allocation / table owner",
+    "?RegisterClassMemberRPC@RakClient@@UAEXPADPAX@Z": "source method semantics + original call graph / allocation / table owner",
+    "?SetTrackFrequencyTable@RakClient@@UAEX_N@Z": "source method semantics + original call graph / allocation / table owner",
+    "?GetSendFrequencyTable@RakClient@@UAE_NQAI@Z": "source method semantics + original call graph / allocation / table owner",
+    "?GetCompressionRatio@RakClient@@UBEMXZ": "source method semantics + original call graph / allocation / table owner",
+    "?GetDecompressionRatio@RakClient@@UBEMXZ": "source method semantics + original call graph / allocation / table owner",
+    "?AttachPlugin@RakClient@@UAEXPAVPluginInterface@@@Z": "source method semantics + original call graph / allocation / table owner",
+    "?DetachPlugin@RakClient@@UAEXPAVPluginInterface@@@Z": "source method semantics + original call graph / allocation / table owner",
+    "?PlayerIDToDottedIP@RakClient@@UBEPBDUPlayerID@@@Z": "source method semantics + original call graph / allocation / table owner",
+    "?PushBackPacket@RakClient@@UAEXPAUPacket@@_N@Z": "source method semantics + original call graph / allocation / table owner",
+    "?IsNetworkSimulatorActive@RakClient@@UAE_NXZ": "source method semantics + original call graph / allocation / table owner",
+    "?Disconnect@RakServer@@UAEXIE@Z": "source method semantics + original call graph / allocation / table owner",
+    "?DeallocatePacket@RakServer@@UAEXPAUPacket@@@Z": "source method semantics + original call graph / allocation / table owner",
+    "?GetPlayerIPFromID@RakServer@@UAEXUPlayerID@@QADPAG@Z": "source method semantics + original call graph / allocation / table owner",
+    "?PingPlayer@RakServer@@UAEXUPlayerID@@@Z": "source method semantics + original call graph / allocation / table owner",
+    "?GetAveragePing@RakServer@@UAEHUPlayerID@@@Z": "source method semantics + original call graph / allocation / table owner",
+    "?GetLastPing@RakServer@@UAEHUPlayerID@@@Z": "source method semantics + original call graph / allocation / table owner",
+    "?GetLowestPing@RakServer@@UAEHUPlayerID@@@Z": "source method semantics + original call graph / allocation / table owner",
+    "?IsActive@RakServer@@UBE_NXZ": "source method semantics + original call graph / allocation / table owner",
+    "?GenerateCompressionLayer@RakServer@@UAE_NQAI_N@Z": "source method semantics + original call graph / allocation / table owner",
+    "?DeleteCompressionLayer@RakServer@@UAE_N_N@Z": "source method semantics + original call graph / allocation / table owner",
+    "?RegisterAsRemoteProcedureCall@RakServer@@UAEXPADP6AXPAURPCParameters@@@Z@Z": "source method semantics + original call graph / allocation / table owner",
+    "?RegisterClassMemberRPC@RakServer@@UAEXPADPAX@Z": "source method semantics + original call graph / allocation / table owner",
+    "?SetTrackFrequencyTable@RakServer@@UAEX_N@Z": "source method semantics + original call graph / allocation / table owner",
+    "?GetSendFrequencyTable@RakServer@@UAE_NQAI@Z": "source method semantics + original call graph / allocation / table owner",
+    "?GetCompressionRatio@RakServer@@UBEMXZ": "source method semantics + original call graph / allocation / table owner",
+    "?GetDecompressionRatio@RakServer@@UBEMXZ": "source method semantics + original call graph / allocation / table owner",
+    "?AttachPlugin@RakServer@@UAEXPAVPluginInterface@@@Z": "source method semantics + original call graph / allocation / table owner",
+    "?DetachPlugin@RakServer@@UAEXPAVPluginInterface@@@Z": "source method semantics + original call graph / allocation / table owner",
+    "?SendStaticServerDataToClient@RakServer@@UAEXUPlayerID@@@Z": "source method semantics + original call graph / allocation / table owner",
+    "?SetOfflinePingResponse@RakServer@@UAEXPBDI@Z": "source method semantics + original call graph / allocation / table owner",
+    "?GetStaticClientData@RakServer@@UAEPAVBitStream@RakNet@@UPlayerID@@@Z": "source method semantics + original call graph / allocation / table owner",
+    "?GetNumberOfAddresses@RakServer@@UAEIXZ": "source method semantics + original call graph / allocation / table owner",
+    "?PushBackPacket@RakServer@@UAEXPAUPacket@@_N@Z": "source method semantics + original call graph / allocation / table owner",
+    "?GetLocalIP@RakServer@@UAEPBDI@Z": "source method semantics + original call graph / allocation / table owner",
+    "?GetIndexFromPlayerID@RakServer@@UAEHUPlayerID@@@Z": "source method semantics + original call graph / allocation / table owner",
+    "?GetPlayerIDFromIndex@RakServer@@UAE?AUPlayerID@@H@Z": "source method semantics + original call graph / allocation / table owner",
+    "?RemoveFromBanList@RakServer@@UAEXPBD@Z": "source method semantics + original call graph / allocation / table owner",
+    "?ClearBanList@RakServer@@UAEXXZ": "source method semantics + original call graph / allocation / table owner",
+    "?IsBanned@RakServer@@UAE_NPBD@Z": "source method semantics + original call graph / allocation / table owner",
+    "?GetStatistics@RakServer@@UAEQAURakNetStatisticsStruct@@UPlayerID@@@Z": "source method semantics + original call graph / allocation / table owner",
+    "?IsNetworkSimulatorActive@RakServer@@UAE_NXZ": "source method semantics + original call graph / allocation / table owner"
+  },
+  "new_unique_code": 788,
+  "already_covered_code": 0,
+  "physical_code_compared": 788,
+  "baseline": 408507,
+  "source025_direct_bytes": 0,
+  "reuse_existing_owners": {},
+  "excluded_unmatched": [],
+  "explicit_owner_transfer": "None; RakClient/RakServer closed API methods reuse existing providers.",
+  "unselected_method": "Only real RakClient/RakServer closed API roots and original relocation closure selected; callback implementations are never credited.",
+  "source_files": [
+    {
+      "path": "client/saco/eval_vendor_rakclient_closed_api.cpp",
+      "sha256": "698bc44bcaa081478010b723a9e222ceaca74f4ae04f0ad24a6ccae291d2a3f8"
+    },
+    {
+      "path": "client/saco/eval_vendor_rakserver_closed_api.cpp",
+      "sha256": "82918dc56d6dfb52e0b608e541ce946727fcf1fbb62a7e000b385d05a8fa6fdb"
+    }
+  ],
+  "objects": {
+    "eval_vendor_rakclient_closed_api": "66533ba1a8c7bb85a4a833a9e1ed43b8d9fbcf3bf66149a0dc8503d4b97ace23",
+    "eval_vendor_rakserver_closed_api": "c685a417c4f44ebe27d0d096b22d7b1055b5243b4a5b3b55e27702a685436120"
+  },
+  "actual_weak_aliases": {
+    "eval_vendor_rakclient_closed_api": {},
+    "eval_vendor_rakserver_closed_api": {}
+  }
+}

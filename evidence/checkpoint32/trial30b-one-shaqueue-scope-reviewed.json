@@ -1,0 +1,97 @@
+{
+  "status": "PASS_FULL_SHA1_AND_TIMESTAMP_QUEUE_SCOPE",
+  "source025_direct_bytes": 0,
+  "new_unique_code": 658,
+  "providers": {
+    "??2@YAPAXI@Z": {
+      "kind": "crt",
+      "reference_va": 269247098,
+      "size": 36,
+      "sha256": "3388fc83079652ef5506eee91c61b02421ae7a865d917631a2e6f3fe84a3de6c"
+    },
+    "??3@YAXPAX@Z": {
+      "kind": "crt",
+      "reference_va": 269247626,
+      "size": 5,
+      "sha256": "7a2b09fea4ced88e49e987aef3ba5304ddbbccb1e20599a243549fdc02637f6c"
+    },
+    "__ehhandler$?GetSHA1@ReliabilityLayer@@AAEXQAEIQAD@Z": {
+      "whole_local_region_verified": true,
+      "reference_va": 269364235
+    },
+    "__except_list": {
+      "kind": "absolute-fs",
+      "reference_va": 0
+    },
+    "??0CSHA1@@QAE@XZ": {
+      "unit": "closure_vendor_sha1",
+      "rva": 341920,
+      "size": 14
+    },
+    "?Reset@CSHA1@@QAEXXZ": {
+      "unit": "closure_vendor_sha1",
+      "rva": 333552,
+      "size": 44
+    },
+    "?Update@CSHA1@@QAEXPAEI@Z": {
+      "unit": "closure_vendor_sha1",
+      "rva": 340800,
+      "size": 194
+    },
+    "?Final@CSHA1@@QAEXXZ": {
+      "unit": "closure_vendor_sha1",
+      "rva": 341232,
+      "size": 252
+    },
+    "?GetHash@CSHA1@@QBEPAEXZ": {
+      "unit": "closure_vendor_sha1",
+      "rva": 341904,
+      "size": 4
+    },
+    "??1CSHA1@@UAE@XZ": {
+      "unit": "closure_vendor_sha1",
+      "rva": 341936,
+      "size": 11
+    },
+    "eval_vendor_reliability_sha_queue::$T60647": {
+      "whole_local_region_verified": true,
+      "reference_va": 269461692
+    },
+    "___CxxFrameHandler": {
+      "kind": "crt",
+      "reference_va": 269247782,
+      "size": 54,
+      "sha256": "f5d28314d58ce5cebdf00faf3b2b1bb25200dc2c9fe10f11eebdfd1ed41a6928"
+    },
+    "eval_vendor_reliability_sha_queue::$L60643": {
+      "whole_local_region_verified": true,
+      "reference_va": 269364224
+    },
+    "eval_vendor_reliability_sha_queue::$T60652": {
+      "whole_local_region_verified": true,
+      "reference_va": 269461684
+    }
+  },
+  "scope": [
+    "Original GetSHA1 constructs complete vendor CSHA1 (constructor/vtable/destructor dependencies already accepted), resets, updates, finalizes then copies exactly20bytes. FullGetSHA1172 and21byteEH included.",
+    "CheckSHA1 original78 calls GetSHA1 and compares20bytes with early mismatch false; no changes to original semantics.",
+    "Timestamp queue is actual DataStructures::Queue<RakNetTimeNS> where RakNetTimeNS is signed64bit; original ReliabilityLayer::Update calls Push443C0 and Compress44550. True queue pointer/head/tail/allocation fields, sizeof element8 and actual new/deletearray semantics preserved.",
+    "Push214 and Compress173 selected by unique complete bodies and original Update calltargets. No producer Update coverage claimed.",
+    "All6 whole regions and21fixups match with exact PErelocation sets;658unique code. No newexternalprovider or storage.",
+    "No025 gain: vendor complete."
+  ],
+  "snapshots": [
+    {
+      "path": "vendor/upstream/raknet/ReliabilityLayer.h",
+      "sha256": "39084418637b0154f56610ef2ca6f5cff2a45a00fdc4f0dfc195c9848a266e4c"
+    },
+    {
+      "path": "vendor/upstream/raknet/DS_Queue.h",
+      "sha256": "79c74bb7b17c676157c51ba98ffa7c1337e82a084762942b06eb8193ff76a274"
+    },
+    {
+      "path": "vendor/upstream/raknet/SHA1.h",
+      "sha256": "6b7e4887908dac65935bf760c277544b972c6546dcb65adf574a8b33884980b6"
+    }
+  ]
+}

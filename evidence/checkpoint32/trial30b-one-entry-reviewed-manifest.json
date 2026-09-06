@@ -1,0 +1,380 @@
+{
+  "status": "PASS_FULL_SOURCE_REGIONS_ALL_COFF_PE_TARGETS",
+  "run": "cp32-trial30b-entry",
+  "baseline": 408507,
+  "new_unique_code": 692,
+  "regions": [
+    {
+      "unit": "closure_rpc_remote_enter_vehicle",
+      "section": 54,
+      "anchor": "?RemoteEnterVehicleTransfer@@YAXPAURPCParameters@@@Z",
+      "anchor_offset": 0,
+      "rva": 71120,
+      "size": 280,
+      "kind": "code",
+      "sha256": "65a7610fd8ad59d71f8c1a12484644731e2325c5358e81e24cb079774fcee5cd",
+      "bindings": [
+        {
+          "symbol": "__ehhandler$?RemoteEnterVehicleTransfer@@YAXPAURPCParameters@@@Z",
+          "site_rva": 71123,
+          "kind": 6,
+          "target_va": 269355531
+        },
+        {
+          "symbol": "__except_list",
+          "site_rva": 71129,
+          "kind": 6,
+          "target_va": 0
+        },
+        {
+          "symbol": "__except_list",
+          "site_rva": 71137,
+          "kind": 6,
+          "target_va": 0
+        },
+        {
+          "symbol": "??0BitStream@RakNet@@QAE@PADI_N@Z",
+          "site_rva": 71179,
+          "kind": 20,
+          "target_va": 268564544
+        },
+        {
+          "symbol": "?ReadBits@BitStream@RakNet@@QAE_NPAEH_N@Z",
+          "site_rva": 71223,
+          "kind": 20,
+          "target_va": 268564912
+        },
+        {
+          "symbol": "?ReadBits@BitStream@RakNet@@QAE_NPAEH_N@Z",
+          "site_rva": 71241,
+          "kind": 20,
+          "target_va": 268564912
+        },
+        {
+          "symbol": "?ReadBits@BitStream@RakNet@@QAE_NPAEH_N@Z",
+          "site_rva": 71259,
+          "kind": 20,
+          "target_va": 268564912
+        },
+        {
+          "symbol": "?pNetGame@@3PAVCNetGame@@A",
+          "site_rva": 71277,
+          "kind": 6,
+          "target_va": 270986132
+        },
+        {
+          "symbol": "?GetDistanceFromLocalPlayer@R5RemoteDistanceQueryView@@QAEMXZ",
+          "site_rva": 71327,
+          "kind": 20,
+          "target_va": 268525856
+        },
+        {
+          "symbol": "__real@43480000",
+          "site_rva": 71333,
+          "kind": 6,
+          "target_va": 269377696
+        },
+        {
+          "symbol": "?EnterVehicle@R5RemoteVehicleEntryRequestView@@QAEXGH@Z",
+          "site_rva": 71353,
+          "kind": 20,
+          "target_va": 268525984
+        },
+        {
+          "symbol": "??1BitStream@RakNet@@QAE@XZ",
+          "site_rva": 71374,
+          "kind": 20,
+          "target_va": 268564688
+        },
+        {
+          "symbol": "__except_list",
+          "site_rva": 71389,
+          "kind": 6,
+          "target_va": 0
+        }
+      ]
+    },
+    {
+      "unit": "closure_rpc_remote_enter_vehicle",
+      "section": 56,
+      "anchor": "__real@43480000",
+      "anchor_offset": 0,
+      "rva": 942240,
+      "size": 4,
+      "kind": "data",
+      "sha256": "531ad685bf4dd31ed89c6b99e76c2b9451d6a6d04d82de7d4b1a73217f55e551",
+      "bindings": []
+    },
+    {
+      "unit": "closure_rpc_remote_enter_vehicle",
+      "section": 55,
+      "anchor": "$L95111",
+      "anchor_offset": 0,
+      "rva": 920064,
+      "size": 21,
+      "kind": "code",
+      "sha256": "99c12e04b828ec6fe451eaf2846ec13e3525bd1ca9ec12077d6857c4c8641254",
+      "bindings": [
+        {
+          "symbol": "??1BitStream@RakNet@@QAE@XZ",
+          "site_rva": 920071,
+          "kind": 20,
+          "target_va": 268564688
+        },
+        {
+          "symbol": "$T95140",
+          "site_rva": 920076,
+          "kind": 6,
+          "target_va": 269452136
+        },
+        {
+          "symbol": "___CxxFrameHandler",
+          "site_rva": 920081,
+          "kind": 20,
+          "target_va": 269247782
+        }
+      ]
+    },
+    {
+      "unit": "closure_rpc_remote_enter_vehicle",
+      "section": 57,
+      "anchor": "$T95140",
+      "anchor_offset": 8,
+      "rva": 1016672,
+      "size": 36,
+      "kind": "data",
+      "sha256": "44ce3940f7da56e7f407d45024caff9e06c6d2d8476f09e574eebaee847403c7",
+      "bindings": [
+        {
+          "symbol": "$L95111",
+          "site_rva": 1016676,
+          "kind": 6,
+          "target_va": 269355520
+        },
+        {
+          "symbol": "$T95147",
+          "site_rva": 1016688,
+          "kind": 6,
+          "target_va": 269452128
+        }
+      ]
+    },
+    {
+      "unit": "closure_remote_distance_query",
+      "section": 46,
+      "anchor": "?GetDistanceFromLocalPlayer@R5RemoteDistanceQueryView@@QAEMXZ",
+      "anchor_offset": 0,
+      "rva": 90400,
+      "size": 45,
+      "kind": "code",
+      "sha256": "041dc6deeb07cbf4728049da9e82810af2b11528e453c5bfa9acdf1800a74825",
+      "bindings": [
+        {
+          "symbol": "__real@461c4000",
+          "site_rva": 90414,
+          "kind": 6,
+          "target_va": 269377876
+        },
+        {
+          "symbol": "?GetDistanceFromLocalPlayerPed@CEntity@@QAEMXZ",
+          "site_rva": 90441,
+          "kind": 20,
+          "target_va": 269086912
+        }
+      ]
+    },
+    {
+      "unit": "closure_remote_distance_query",
+      "section": 47,
+      "anchor": "__real@461c4000",
+      "anchor_offset": 0,
+      "rva": 942420,
+      "size": 4,
+      "kind": "data",
+      "sha256": "e401200e5808438991b94233b3ee6b5b06df51f6af1cb25db1a7629a7d694dc9",
+      "bindings": []
+    },
+    {
+      "unit": "closure_store_ignore_vehicle_entry",
+      "section": 3,
+      "anchor": "?r5IgnoreNextVehicleEntry@@3HA",
+      "anchor_offset": 0,
+      "rva": 1381900,
+      "size": 4,
+      "kind": "data",
+      "sha256": "df3f619804a92fdb4057192dc43dd748ea778adc52bc498ce80524c014b81119",
+      "bindings": []
+    },
+    {
+      "unit": "closure_store_enter_vehicle_passenger",
+      "section": 3,
+      "anchor": "?r5SendActorToCarPassenger@@3USCRIPT_COMMAND@@B",
+      "anchor_offset": 0,
+      "rva": 970472,
+      "size": 18,
+      "kind": "data",
+      "sha256": "cf622ccd8c73a9ab06ab49a6922b177dcbded9eb233b6f9777d09e411ff259d1",
+      "bindings": []
+    },
+    {
+      "unit": "closure_store_enter_vehicle_driver",
+      "section": 3,
+      "anchor": "?r5SendActorToCarDriver@@3USCRIPT_COMMAND@@B",
+      "anchor_offset": 0,
+      "rva": 970452,
+      "size": 18,
+      "kind": "data",
+      "sha256": "95ede32659aac3c79f15f71655716bb2bb778f816fb0b7aa36fe1e1625034d88",
+      "bindings": []
+    },
+    {
+      "unit": "closure_remote_enter_vehicle",
+      "section": 50,
+      "anchor": "?EnterVehicle@R5RemoteVehicleEntryRequestView@@QAEXGH@Z",
+      "anchor_offset": 0,
+      "rva": 90528,
+      "size": 143,
+      "kind": "code",
+      "sha256": "ab00721b1113faefab5d5f003e94fce261d9926f6a7b625cbd75069b5972d25a",
+      "bindings": [
+        {
+          "symbol": "?pNetGame@@3PAVCNetGame@@A",
+          "site_rva": 90529,
+          "kind": 6,
+          "target_va": 270986132
+        },
+        {
+          "symbol": "?IsInVehicle@CPlayerPed@@QAEHXZ",
+          "site_rva": 90598,
+          "kind": 20,
+          "target_va": 269139568
+        },
+        {
+          "symbol": "?FindGtaIDFromID@R5VehicleGtaIdPoolView@@QAEHH@Z",
+          "site_rva": 90613,
+          "kind": 20,
+          "target_va": 268561344
+        },
+        {
+          "symbol": "?SetKeys@CPlayerPed@@QAEXGGG@Z",
+          "site_rva": 90644,
+          "kind": 20,
+          "target_va": 269153088
+        },
+        {
+          "symbol": "?EnterVehicle@CPlayerPed@@QAEXHH@Z",
+          "site_rva": 90661,
+          "kind": 20,
+          "target_va": 269141008
+        }
+      ]
+    },
+    {
+      "unit": "closure_ped_enter_vehicle",
+      "section": 46,
+      "anchor": "?EnterVehicle@CPlayerPed@@QAEXHH@Z",
+      "anchor_offset": 0,
+      "rva": 705552,
+      "size": 203,
+      "kind": "code",
+      "sha256": "756e9ee04a116643dee5be797b5a299377deabdfafd8fd9edfdc4a9841dd8f6b",
+      "bindings": [
+        {
+          "symbol": "?GamePool_Vehicle_GetAt@@YGPAU_VEHICLE_TYPE@@H@Z",
+          "site_rva": 705577,
+          "kind": 20,
+          "target_va": 269171664
+        },
+        {
+          "symbol": "?GamePool_Ped_GetAt@@YGPAU_PED_TYPE@@H@Z",
+          "site_rva": 705596,
+          "kind": 20,
+          "target_va": 269171568
+        },
+        {
+          "symbol": "?r5IgnoreNextVehicleEntry@@3HA",
+          "site_rva": 705612,
+          "kind": 6,
+          "target_va": 269817356
+        },
+        {
+          "symbol": "?GetCurrentWeapon@CPlayerPed@@QAEEXZ",
+          "site_rva": 705621,
+          "kind": 20,
+          "target_va": 269139024
+        },
+        {
+          "symbol": "?SetArmedWeapon@CPlayerPed@@QAEXH_N@Z",
+          "site_rva": 705636,
+          "kind": 20,
+          "target_va": 269140064
+        },
+        {
+          "symbol": "?GamePool_FindPlayerPed@@YGPAU_PED_TYPE@@XZ",
+          "site_rva": 705657,
+          "kind": 20,
+          "target_va": 269171808
+        },
+        {
+          "symbol": "?r5SelectionPutActorInCarPassenger@@3USCRIPT_COMMAND@@B",
+          "site_rva": 705677,
+          "kind": 6,
+          "target_va": 269406048
+        },
+        {
+          "symbol": "?ScriptCommand@@YAHPBUSCRIPT_COMMAND@@ZZ",
+          "site_rva": 705682,
+          "kind": 20,
+          "target_va": 269165328
+        },
+        {
+          "symbol": "?r5SendActorToCarPassenger@@3USCRIPT_COMMAND@@B",
+          "site_rva": 705708,
+          "kind": 6,
+          "target_va": 269405928
+        },
+        {
+          "symbol": "?ScriptCommand@@YAHPBUSCRIPT_COMMAND@@ZZ",
+          "site_rva": 705713,
+          "kind": 20,
+          "target_va": 269165328
+        },
+        {
+          "symbol": "?r5SendActorToCarDriver@@3USCRIPT_COMMAND@@B",
+          "site_rva": 705737,
+          "kind": 6,
+          "target_va": 269405908
+        },
+        {
+          "symbol": "?ScriptCommand@@YAHPBUSCRIPT_COMMAND@@ZZ",
+          "site_rva": 705742,
+          "kind": 20,
+          "target_va": 269165328
+        }
+      ]
+    }
+  ],
+  "source025_direct": 0,
+  "object_sha256": {
+    "closure_ped_enter_vehicle": "fdd1a3c2a3101120d0a984a76b3befec644829037a1d8597d930a78ece8e3837",
+    "closure_remote_enter_vehicle": "c29261527b7124461d974265cb383920b8e1541f8368216c55ea81bacedc8a19",
+    "closure_store_enter_vehicle_driver": "08d28897ca06b697fa48c0002f2d4dbad3df6abbb586ee2fa2476c2e58dbe5f5",
+    "closure_store_enter_vehicle_passenger": "05bd8913d61f43705e28bbdbeac073ff429c3bdec9a9c760d343bb5926db74fc",
+    "closure_store_ignore_vehicle_entry": "59678d5f67cc7a7f59a04456e35efa5487c1ee58439006dd2621d422a2012c12",
+    "closure_remote_distance_query": "bbc14c072c5d770b48f31ad1731250537adf96440ebad54575a5748359847e49",
+    "closure_rpc_remote_enter_vehicle": "bcac228477460e4e55c7cb6695a91a3e544701e2bd98871f728f2302586a49c7"
+  },
+  "source_sha256": {
+    "closure_ped_enter_vehicle": "53ea55138b6ee2f58c288753f8dd5666df277cc504faa7ed269a39e1fa51b259",
+    "closure_remote_enter_vehicle": "5b2fccb41b084f2eed56849c1012ab5e3761def7830c0cdac085c223adbd4ae2",
+    "closure_store_enter_vehicle_driver": "3841344374c8dfc7a22c82cc3e207798e6ba07000c4fd4c504cf48e949ea4751",
+    "closure_store_enter_vehicle_passenger": "9ac566dbd1b08226a16238fa4b3f822a7f7d186d64aead8ef3c0e982265230d8",
+    "closure_store_ignore_vehicle_entry": "e07e4c7256d8bec61f7f5a9921024aab25f564380c314cb7449912131c147ebf",
+    "closure_remote_distance_query": "6601973d54eb945c6a61a5e5a497b8be530f233b94da720ffaa66b5c02fd3363",
+    "closure_rpc_remote_enter_vehicle": "1e70edf24a638c3194f27270686e7a1f1f2978bf527463ac6bf245e72d1a07cf"
+  },
+  "identity_callers": [
+    71120
+  ],
+  "typed_layout_note": "Pointer-only views actualped1DD/state10A/pools3DE/nativearray4FB4. WholeSCRIPT_COMMAND18 andBOOL4 stores. Distance constants verified whole."
+}

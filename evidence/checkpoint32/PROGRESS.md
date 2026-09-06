@@ -1515,3 +1515,6 @@ Packet/template/state1662 +RakClient555: +2217 unique accepted code bytes, total
 
 
 Final trial networking1002 +markers216: +1218 unique accepted code bytes, total408507/930756 (43.889806%). Whole original/linked functions/storage/EH and COFF/PE targets, true singletonstartup CRTentry and complete typedWSADATA398+flag1+instance1, no invented padding. Ten controls and Actor ABI PASS. Actual simulator53 previouslycovered, zero duplicatecredit. Trailer and markerpacket remain excluded. All1218 work began duringtrial; direct0250 cumulative22342. No push/deploy.
+
+
+trial30b-one: +3335 unique accepted R5 code bytes, total411842/930756 (44.248117%). Network2108 +onfoot373 +entry854; expected3335 unique. Actual prior AddPacket31 provider reused, no duplicatecode. Complete original/linked code/data/EH, all COFF/PE targets, true providers and full frozenbase dedup. Ten negative controls and Actor ABI PASS. No push/deploy. Timed trialB continues until13:27:35Z.

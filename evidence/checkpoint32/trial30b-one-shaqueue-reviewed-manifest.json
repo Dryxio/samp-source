@@ -1,0 +1,256 @@
+{
+  "status": "REVIEWED_MAIN_SEEDS_AND_WHOLE_EH_BINDINGS_PREFLIGHT",
+  "run": "build/cp32-trial30b-onfoot-sha1",
+  "roots": {
+    "?GetSHA1@ReliabilityLayer@@AAEXQAEIQAD@Z": 278272,
+    "?CheckSHA1@ReliabilityLayer@@AAE_NQADQAEI@Z": 278448,
+    "?Push@?$Queue@_J@DataStructures@@QAEXAB_J@Z": 279488,
+    "?Compress@?$Queue@_J@DataStructures@@QAEXXZ": 279888
+  },
+  "seeds": {
+    "eval_vendor_reliability_sha_queue": {
+      "?Compress@?$Queue@_J@DataStructures@@QAEXXZ": 279888,
+      "?Push@?$Queue@_J@DataStructures@@QAEXAB_J@Z": 279488,
+      "?CheckSHA1@ReliabilityLayer@@AAE_NQADQAEI@Z": 278448,
+      "?GetSHA1@ReliabilityLayer@@AAEXQAEIQAD@Z": 278272
+    }
+  },
+  "regions": [
+    {
+      "unit": "eval_vendor_reliability_sha_queue",
+      "section": 14,
+      "rva": 279888,
+      "size": 173,
+      "kind": ".text",
+      "sha256": "4770f2e9404002e43b8832710e771da289afd4635e859cdd22167c3561105b80",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "??2@YAPAXI@Z",
+          "site_rva": 279947,
+          "target_va": 269247098,
+          "kind": 20
+        },
+        {
+          "symbol": "??3@YAXPAX@Z",
+          "site_rva": 280047,
+          "target_va": 269247626,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "eval_vendor_reliability_sha_queue",
+      "section": 10,
+      "rva": 279488,
+      "size": 214,
+      "kind": ".text",
+      "sha256": "2abc87c5a85cbc515f3739f0dd512ba1a446b8eb3c7a7f86a4b72d8c715d80f0",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "??2@YAPAXI@Z",
+          "site_rva": 279504,
+          "target_va": 269247098,
+          "kind": 20
+        },
+        {
+          "symbol": "??2@YAPAXI@Z",
+          "site_rva": 279610,
+          "target_va": 269247098,
+          "kind": 20
+        },
+        {
+          "symbol": "??3@YAXPAX@Z",
+          "site_rva": 279688,
+          "target_va": 269247626,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "eval_vendor_reliability_sha_queue",
+      "section": 8,
+      "rva": 278448,
+      "size": 78,
+      "kind": ".text",
+      "sha256": "cd826c85194ab8d4e85ab5e42c31a781fc433c9622d231a17054c7963abb2d00",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "?GetSHA1@ReliabilityLayer@@AAEXQAEIQAD@Z",
+          "site_rva": 278469,
+          "target_va": 268713728,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "eval_vendor_reliability_sha_queue",
+      "section": 3,
+      "rva": 278272,
+      "size": 172,
+      "kind": ".text",
+      "sha256": "119b9e4ecde576bb556ee3db9b8f28897d73fff0a2feb45a10398e6ab07eab4a",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "__ehhandler$?GetSHA1@ReliabilityLayer@@AAEXQAEIQAD@Z",
+          "site_rva": 278275,
+          "target_va": 269364235,
+          "kind": 6
+        },
+        {
+          "symbol": "__except_list",
+          "site_rva": 278281,
+          "target_va": 0,
+          "kind": 6
+        },
+        {
+          "symbol": "__except_list",
+          "site_rva": 278289,
+          "target_va": 0,
+          "kind": 6
+        },
+        {
+          "symbol": "??0CSHA1@@QAE@XZ",
+          "site_rva": 278303,
+          "target_va": 268777376,
+          "kind": 20
+        },
+        {
+          "symbol": "?Reset@CSHA1@@QAEXXZ",
+          "site_rva": 278322,
+          "target_va": 268769008,
+          "kind": 20
+        },
+        {
+          "symbol": "?Update@CSHA1@@QAEXPAEI@Z",
+          "site_rva": 278347,
+          "target_va": 268776256,
+          "kind": 20
+        },
+        {
+          "symbol": "?Final@CSHA1@@QAEXXZ",
+          "site_rva": 278355,
+          "target_va": 268776688,
+          "kind": 20
+        },
+        {
+          "symbol": "?GetHash@CSHA1@@QBEPAEXZ",
+          "site_rva": 278363,
+          "target_va": 268777360,
+          "kind": 20
+        },
+        {
+          "symbol": "??1CSHA1@@UAE@XZ",
+          "site_rva": 278417,
+          "target_va": 268777392,
+          "kind": 20
+        },
+        {
+          "symbol": "__except_list",
+          "site_rva": 278431,
+          "target_va": 0,
+          "kind": 6
+        }
+      ]
+    },
+    {
+      "unit": "eval_vendor_reliability_sha_queue",
+      "section": 4,
+      "rva": 928768,
+      "size": 21,
+      "kind": ".text$x",
+      "sha256": "0252dc2e2cdacd253b56cb575c585f2aa1cde1039f090c6076b91c8d71a557ff",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "??1CSHA1@@UAE@XZ",
+          "site_rva": 928775,
+          "target_va": 268777392,
+          "kind": 20
+        },
+        {
+          "symbol": "$T60647",
+          "site_rva": 928780,
+          "target_va": 269461692,
+          "kind": 6
+        },
+        {
+          "symbol": "___CxxFrameHandler",
+          "site_rva": 928785,
+          "target_va": 269247782,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "eval_vendor_reliability_sha_queue",
+      "section": 5,
+      "rva": 1026228,
+      "size": 36,
+      "kind": ".xdata$x",
+      "sha256": "a2b6c046b7837c981ffc52b4aa92a165bbc70c1d2544045d718f4649fdfaf1f0",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "$L60643",
+          "site_rva": 1026232,
+          "target_va": 269364224,
+          "kind": 6
+        },
+        {
+          "symbol": "$T60652",
+          "site_rva": 1026244,
+          "target_va": 269461684,
+          "kind": 6
+        }
+      ]
+    }
+  ],
+  "bindings_checked": 21,
+  "external_targets": {
+    "??2@YAPAXI@Z": 269247098,
+    "??3@YAXPAX@Z": 269247626,
+    "__ehhandler$?GetSHA1@ReliabilityLayer@@AAEXQAEIQAD@Z": 269364235,
+    "__except_list": 0,
+    "??0CSHA1@@QAE@XZ": 268777376,
+    "?Reset@CSHA1@@QAEXXZ": 268769008,
+    "?Update@CSHA1@@QAEXPAEI@Z": 268776256,
+    "?Final@CSHA1@@QAEXXZ": 268776688,
+    "?GetHash@CSHA1@@QBEPAEXZ": 268777360,
+    "??1CSHA1@@UAE@XZ": 268777392,
+    "eval_vendor_reliability_sha_queue::$T60647": 269461692,
+    "___CxxFrameHandler": 269247782,
+    "eval_vendor_reliability_sha_queue::$L60643": 269364224,
+    "eval_vendor_reliability_sha_queue::$T60652": 269461684
+  },
+  "identity_reasons": {
+    "?GetSHA1@ReliabilityLayer@@AAEXQAEIQAD@Z": "actual relocation from ?CheckSHA1@ReliabilityLayer@@AAE_NQADQAEI@Z",
+    "?CheckSHA1@ReliabilityLayer@@AAE_NQADQAEI@Z": "source method semantics + original call graph / allocation / table owner",
+    "?Push@?$Queue@_J@DataStructures@@QAEXAB_J@Z": "source method semantics + original call graph / allocation / table owner",
+    "?Compress@?$Queue@_J@DataStructures@@QAEXXZ": "source method semantics + original call graph / allocation / table owner"
+  },
+  "new_unique_code": 658,
+  "already_covered_code": 0,
+  "physical_code_compared": 658,
+  "baseline": 408507,
+  "source025_direct_bytes": 0,
+  "reuse_existing_owners": {},
+  "excluded_unmatched": [],
+  "explicit_owner_transfer": "None; ReliabilityLayer SHA1 and timestamp queues methods reuse existing providers.",
+  "unselected_method": "Only real ReliabilityLayer SHA1 and timestamp queues roots and original relocation closure selected; callback implementations are never credited.",
+  "source_files": [
+    {
+      "path": "client/saco/eval_vendor_reliability_sha_queue.cpp",
+      "sha256": "57f4540f3555f79def5866dd3a5053bc8349ee652f73f37fbc935eec9a543df2"
+    }
+  ],
+  "objects": {
+    "eval_vendor_reliability_sha_queue": "130b104dc444d28dd500f7d006f1ee03e4e59f120155ec2114ca75ff93dfd101"
+  },
+  "actual_weak_aliases": {
+    "eval_vendor_reliability_sha_queue": {}
+  }
+}

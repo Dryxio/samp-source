@@ -1,0 +1,109 @@
+{
+  "status": "PASS_FULL_SOURCE_REGIONS_ALL_COFF_PE_TARGETS",
+  "run": "cp32-trial30b-one-ob1",
+  "baseline": 408507,
+  "new_unique_code": 373,
+  "regions": [
+    {
+      "unit": "closure_remote_onfoot_update",
+      "section": 46,
+      "anchor": "?IsExitingVehicle@R5PedExitTaskView@@QAEHXZ",
+      "anchor_offset": 0,
+      "rva": 706112,
+      "size": 70,
+      "kind": "code",
+      "sha256": "72d97be62cf49d75529b7133e9fd83449cf56fe360cfb483283979e29b434cb4",
+      "bindings": [
+        {
+          "symbol": "?GamePool_Ped_GetAt@@YGPAU_PED_TYPE@@H@Z",
+          "site_rva": 706120,
+          "kind": 20,
+          "target_va": 269171568
+        },
+        {
+          "symbol": "?GetTaskTypeFromTask@@YAHPAK@Z",
+          "site_rva": 706157,
+          "kind": 20,
+          "target_va": 269172896
+        }
+      ]
+    },
+    {
+      "unit": "closure_remote_onfoot_update",
+      "section": 48,
+      "anchor": "?EnsureVehicleExit@R5RemoteOnFootUpdateView@@QAEXXZ",
+      "anchor_offset": 0,
+      "rva": 84208,
+      "size": 82,
+      "kind": "code",
+      "sha256": "d1fc262cc80dde8911d3ed71dfde9c891dff36efffd2af7507e2f1505b19520f",
+      "bindings": [
+        {
+          "symbol": "?IsInVehicle@CPlayerPed@@QAEHXZ",
+          "site_rva": 84225,
+          "kind": 20,
+          "target_va": 269139568
+        },
+        {
+          "symbol": "?GetMatrix@CEntity@@QAEXPAU_MATRIX4X4@@@Z",
+          "site_rva": 84245,
+          "kind": 20,
+          "target_va": 269085456
+        },
+        {
+          "symbol": "?RemoveFromVehicleAndPutAt@CPlayerPed@@QAEXMMM@Z",
+          "site_rva": 84271,
+          "kind": 20,
+          "target_va": 269141360
+        }
+      ]
+    },
+    {
+      "unit": "closure_remote_onfoot_update",
+      "section": 50,
+      "anchor": "?StoreOnFootSync@R5RemoteOnFootUpdateView@@QAEXPAUR5RemoteOnFootSync@@K@Z",
+      "anchor_offset": 0,
+      "rva": 94816,
+      "size": 221,
+      "kind": "code",
+      "sha256": "a74cef7f9d2cdeadd011ee30e449a44ec48148a4ea4be187944f6dfe0a7e19b4",
+      "bindings": [
+        {
+          "symbol": "__imp__GetTickCount@0",
+          "site_rva": 94926,
+          "kind": 6,
+          "target_va": 269374008
+        },
+        {
+          "symbol": "?IsInVehicle@CPlayerPed@@QAEHXZ",
+          "site_rva": 94976,
+          "kind": 20,
+          "target_va": 269139568
+        },
+        {
+          "symbol": "?IsExitingVehicle@R5PedExitTaskView@@QAEHXZ",
+          "site_rva": 95002,
+          "kind": 20,
+          "target_va": 269141568
+        },
+        {
+          "symbol": "?EnsureVehicleExit@R5RemoteOnFootUpdateView@@QAEXXZ",
+          "site_rva": 95013,
+          "kind": 20,
+          "target_va": 268519664
+        }
+      ]
+    }
+  ],
+  "source025_direct": 0,
+  "object_sha256": {
+    "closure_remote_onfoot_update": "b95ce305b05f90812e2a11b31ba65a018be3c47db6fbc06b2986defd075154fa"
+  },
+  "source_sha256": {
+    "closure_remote_onfoot_update": "f4c9381e5d5af99bcd11e9e5ee8f493aa742c00c2711e37052dcf6b64adf4c2e"
+  },
+  "identity_callers": [
+    42816
+  ],
+  "typed_layout_note": "Pointer-only partial views no allocation; complete68-byte sync; offsets asserted; originalA740 caller establishes identity."
+}

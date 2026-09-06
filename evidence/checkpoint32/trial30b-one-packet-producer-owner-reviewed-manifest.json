@@ -1,0 +1,52 @@
+{
+  "status": "PASS_EXISTING_EMITTED_SOURCE_PROVIDER_NEWLY_QUALIFIED",
+  "roots": {
+    "?AddPacketToProducer@RakPeer@@IAEXPAUPacket@@@Z": 241808
+  },
+  "seeds": {
+    "eval_vendor_rakpeer_send_handshake": {
+      "?AddPacketToProducer@RakPeer@@IAEXPAUPacket@@@Z": 241808
+    }
+  },
+  "regions": [
+    {
+      "unit": "eval_vendor_rakpeer_send_handshake",
+      "section": 110,
+      "rva": 241808,
+      "size": 31,
+      "kind": ".text",
+      "sha256": "0e371269a4c86a0bff9cbf6ab018ff83a27d3cd8b57ba0f9840e4ff2a56070b0",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "?WriteLock@?$SingleProducerConsumer@PAUPacket@@@DataStructures@@QAEPAPAUPacket@@XZ",
+          "site_rva": 241818,
+          "target_va": 268670464,
+          "kind": 20
+        },
+        {
+          "symbol": "?WriteUnlock@?$SingleProducerConsumer@PAUPacket@@@DataStructures@@QAEXXZ",
+          "site_rva": 241831,
+          "target_va": 268670528,
+          "kind": 20
+        }
+      ]
+    }
+  ],
+  "bindings_checked": 2,
+  "new_unique_code": 31,
+  "source025_direct_bytes": 0,
+  "source_files": [
+    {
+      "path": "client/saco/eval_vendor_rakpeer_send_handshake.cpp",
+      "sha256": "0d059676d95e8ea6e296fbcd7d52851f69110c235854c8f9fcd2ee41c281b3f3"
+    }
+  ],
+  "objects": {
+    "eval_vendor_rakpeer_send_handshake": "6eab9b4591346aa65d32df348a916bdf793ba2ab440f2067b70e803b20b71b53"
+  },
+  "actual_weak_aliases": {
+    "eval_vendor_rakpeer_send_handshake": {}
+  },
+  "note": "Whole31 provider emitted by existing real SendImmediate TU; no source changes or duplicateowner. Existing lowerWriteLock64 andWriteUnlock20 alreadyaccepted and actualtargets verified. No aliases or newallocations."
+}

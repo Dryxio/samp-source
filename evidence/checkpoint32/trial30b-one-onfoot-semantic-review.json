@@ -1,0 +1,41 @@
+{
+  "status": "373_FULL_PREFLIGHT_PASS_PACKET718_PARKED",
+  "baseline": 408507,
+  "roots": [
+    {
+      "rva": 94816,
+      "size": 221,
+      "identity": "StoreOnFootSync",
+      "source": "025 method adapted to R5 timestamp, 68byte memcpy, animation flags, forceexit and state update"
+    },
+    {
+      "rva": 84208,
+      "size": 82,
+      "identity": "EnsureVehicleExit",
+      "source": "R5 full CFG; existing real ped GetMatrix/RemoveFromVehicle providers"
+    },
+    {
+      "rva": 706112,
+      "size": 70,
+      "identity": "IsExitingVehicle",
+      "source": "R5 task ID704 on actual ped currenttask slot10"
+    },
+    {
+      "rva": 42816,
+      "size": 718,
+      "identity": "PacketOnFootSync",
+      "source": "025 Packet_PlayerSync adapted to R5 quaternion compressedvelocity, timestamp, animation and R5pool"
+    }
+  ],
+  "source025_direct": 0,
+  "source025_assisted_adapted_principal_potential": 939,
+  "allocation": "All views pointer-only. Only stack packet68 and matrix64 actualcomplete values allocated. No new global storage.",
+  "dependency_audit": "BitStream constructor,dtor,ReadBits,Read(bool),Read(char*,int),ReadNormQuat<float>,ReadVector<float>,GetTickCount,GamePool_Ped_GetAt,GetTaskTypeFromTask,IsInVehicle,GetMatrix,RemoveFromVehicleAndPutAt already accepted. New functions dependonlyeachother; no missingcallbacks.",
+  "trial1": {
+    "remote221": "one JGE vs original JNS: sign comparison replaced by explicit bit31 flag test",
+    "exit82": "full exact",
+    "task68": "return comparison emitted SETE vs original shared return0: explicit if-return1 changeswhole70; trial2 full exact",
+    "packet718": "six bytes differ solely two bool locals swapped. Single bounded sourcecontext trial declares reverse order but explicit init sequence surfing thenanimation. This is R5 stack evidence, not claimed original025 source direct."
+  },
+  "packet_second_trial": "Same six stack-local byte differences; no credit and no additional permutations."
+}

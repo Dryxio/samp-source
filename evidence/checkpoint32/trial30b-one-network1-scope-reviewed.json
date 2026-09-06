@@ -1,0 +1,50 @@
+{
+  "status": "PASS_FULL_BYTE_RELOCATIONS_TYPES_AND_TARGET_SCOPE",
+  "new_unique_code": 631,
+  "source025_direct_bytes": 0,
+  "external_providers": {
+    "??3@YAXPAX@Z": {
+      "kind": "crt",
+      "reference_va": 269247626,
+      "size": 5,
+      "sha256": "7a2b09fea4ced88e49e987aef3ba5304ddbbccb1e20599a243549fdc02637f6c"
+    },
+    "??2@YAPAXI@Z": {
+      "kind": "crt",
+      "reference_va": 269247098,
+      "size": 36,
+      "sha256": "3388fc83079652ef5506eee91c61b02421ae7a865d917631a2e6f3fe84a3de6c"
+    },
+    "_malloc": {
+      "kind": "crt",
+      "reference_va": 269249468,
+      "size": 18,
+      "sha256": "46e5b499dfa80afe214ba2b62f31871f15e107800a0586e37687ca526911c7c0"
+    }
+  },
+  "scope": [
+    "Actual RakPeer::messageHandlerList at3AD and count3B1. Attach original virtual OnAttach slot0 and Detach OnDetach slot4, PluginInterface declarations reviewed. No concrete callback implementation credited.",
+    "Plugin Insert105 at390C0 is true original Attach call target; plugin GetIndexOf35 at39140 already covered. Whole List functions directly compiled from vendor source, no reinterpret views.",
+    "Packet is actual complete21-byte type, malloc21 for supplied payload; null/zero guard and deleteData flag preserved. No network execution.",
+    "RequestedConnectionStruct278 + readyToRead bool1 + next4 = original DataPlusPtr283(11B); BufferedCommandStruct41+1+4 =46(2E). Explicit instantiation original template allocates eight actual nodes, no placeholder or opaque allocated type.",
+    "Derived R5PeerQueueTypeAccess only exposes protected nested type names; never allocated, no change to RakPeer declaration/layout/mangling.",
+    "All9 selected whole code regions and16 fixups equal original with exact PE relocation sets; physical666,35 previouslycovered,631 unique candidate.",
+    "External malloc/operator new/delete all existing accepted SDK providers, no new imports/data/EH.",
+    "No025 benefit: vendor has complete implementations.",
+    "AddPacketToProducer31 belongs to existing eval_vendor_rakpeer_send_handshake. Duplicate introduced proposaldefinition removed before acceptance; separate packet-producer-owner manifest qualifies existing object source and targets. This manifest refreshed from newlycompiled plugin and unchanged queueobject; no stale sourcehash or nonexistent section."
+  ],
+  "snapshots": [
+    {
+      "path": "vendor/upstream/raknet/RakPeer.h",
+      "sha256": "3c462fd303bd7a7becc91f1b4e2752cff3656a2eec2a65afc0c15816c0902d75"
+    },
+    {
+      "path": "vendor/upstream/raknet/SingleProducerConsumer.h",
+      "sha256": "4ec3e22b6b50fcd05dfdf419aebd69b891990de949f88079f9bd17f5ea1e5421"
+    },
+    {
+      "path": "vendor/upstream/raknet/PluginInterface.h",
+      "sha256": "cb6ae0bf1f71ad66e6820d5d634720f98e52955960cb87d486826f0a5ec9eb66"
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "status": "ALL_7_TUS_FULL_PREFLIGHT_PASS",
+  "flag": {
+    "rva": 1381900,
+    "size": 4,
+    "initial_bytes": "00000000",
+    "type": "BOOL/DWORD realflag",
+    "references": [
+      {
+        "function_rva": 705552,
+        "site_rva": 705610,
+        "instruction": "mov dword ptr [0x1015160c], 1"
+      }
+    ]
+  },
+  "commands": [
+    {
+      "rva": 970452,
+      "size": 18,
+      "opcode": 1483,
+      "args": "iii"
+    },
+    {
+      "rva": 970472,
+      "size": 18,
+      "opcode": 1482,
+      "args": "iiii"
+    }
+  ],
+  "source025_direct": 0,
+  "source025_assisted_adapted": {
+    "ped_enter_vehicle": 203,
+    "remote_enter_vehicle": 143,
+    "rpc_remote_enter_vehicle": 280
+  },
+  "data_credit": 0,
+  "new_unique_code": 692,
+  "special_action_separate_unique": 162,
+  "whole_regions": 11,
+  "COFF_PE_fixups": 37,
+  "details": [
+    "EnterVehicle CPlayerPed203 source unchangedfromdashr except genuine R5 two-argument SetArmedWeapon and independentlyprovided command data; source025 similar algorithm.",
+    "Remote EnterVehicle143 source025 rewritten according originalR5pool/range/nativeID guards; no state/tick changes in R5.",
+    "Remote distance45 inferredR5ped/vehicle choice basedstate19, acceptedEntitydistance tailcall.",
+    "RPC EnterVehicle280 source025 adapted distance200gate and 32bitID storage read16bits. EH21 also exact.",
+    "No codecredit for literals or commands or flag."
+  ]
+}

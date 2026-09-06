@@ -1,0 +1,60 @@
+{
+  "prefix": "trial30b-one",
+  "previous": "trial30-final",
+  "baseline": 408507,
+  "expected_gain": 3335,
+  "run": "cp32-trial30b-one-linked2",
+  "ob1": "cp32-trial30b-one-ob1-v4",
+  "ob2": "cp32-disconnect-selection-ob2",
+  "manifests": [
+    "build/agent-network-b/network1-reviewed-manifest.json",
+    "build/agent-network-b/shaqueue-reviewed-manifest.json",
+    "build/agent-network-b/closed-api-reviewed-manifest.json",
+    "build/agent-client-b/onfoot-reviewed-manifest.json",
+    "build/agent-network-b/packet-producer-owner-reviewed-manifest.json",
+    "build/agent-client-b/special-action-reviewed-manifest.json",
+    "build/agent-client-b/entry-reviewed-manifest.json"
+  ],
+  "seed_files": [
+    "build/agent-network-b/network1-seeds.json",
+    "build/agent-network-b/shaqueue-seeds.json",
+    "build/agent-network-b/closed-api-seeds.json",
+    "build/agent-client-b/onfoot-seeds.json",
+    "build/agent-network-b/packet-producer-owner-seeds.json",
+    "build/agent-client-b/special-action-seeds.json",
+    "build/agent-client-b/entry-seeds.json"
+  ],
+  "evidence_files": [
+    "build/agent-network-b/preflight_network1.py",
+    "build/agent-network-b/preflight_shaqueue.py",
+    "build/agent-network-b/audit_shaqueue_scope.py",
+    "build/agent-client-b/preflight_onfoot_only.py",
+    "build/agent-network-b/qualify_packet_producer_owner.py",
+    "build/agent-client-b/preflight_entry.py",
+    "build/agent-client-b/preflight_special_action.py"
+  ],
+  "linked_reviews": {
+    "itoa_qualification": "build/trial30b-one-itoa-qualified.json",
+    "linker_alias_provider_evidence": "build/cp32-trial30b-one-linked2-aliases.json",
+    "server_bridge_final": "build/agent-independent/server-bridge-target-alias-qualification-cp32-trial30b-one-linked2.json",
+    "logger_deleting_aliases": "build/agent-independent/logger-deleting-aliases-cp32-trial30b-one-linked2.json",
+    "network_tree_deleting_aliases": "build/agent-independent/replica-network-id-aliases-qualified.json",
+    "sha1_deleting_alias_qualification": "build/trial30b-one-sha1-deleting-alias-qualified.json",
+    "mesh_deleting_alias_qualification": "build/agent-independent/mesh-deleting-aliases-cp32-trial30b-one-linked2.json",
+    "chat_navigation_alias": "build/agent-textdraw/chat-navigation-linked-alias-review.json",
+    "console_aliases": "build/agent-independent/console-aliases-qualified.json",
+    "raknet_command_alias": "build/agent-independent/raknet-command-parser-alias-qualified.json",
+    "network_lifecycle": "build/agent-network-b/network1-scope-reviewed.json",
+    "shaqueue": "build/agent-network-b/shaqueue-scope-reviewed.json",
+    "onfoot": "build/agent-client-b/onfoot-semantic-review.json",
+    "closed_api": "build/agent-network-b/closed-api-scope-reviewed.json",
+    "entry_provenance": "build/agent-client-b/entry-storage-provenance.json"
+  },
+  "review": {
+    "scope": "Network2108 +onfoot373 +entry854; expected3335 unique. Actual prior AddPacket31 provider reused, no duplicatecode.",
+    "adaptations": "Real protected nested type names, no fabricated allocation/views; SHA1 real stackobject/lifetime. Remote68byte complete record and original task providers.",
+    "reference_credit": "TrialB newly prepared sources; direct0250, onfoot adapted025.",
+    "verification": "Incremental source compilation, whole original/linked code/data/EH, all COFF/PE; ten controls and Actor ABI required.",
+    "excluded_candidates": "No duplicate/data/CRT/concrete unimplementedcallback credit."
+  }
+}
