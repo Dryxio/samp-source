@@ -1,0 +1,7 @@
+# ModelInfoLoaded B45A0 boundary and proposed form
+
+Actual complete original range is **B45A0..B45C7,40 bytes**; next8 bytesB45C8..B45CF are INT3 alignment, next function SetPedModelClump startsB45D0. Canonical config/checkpoint31/inventory.json already records40 and SHA256 f5e9939a291e1370f3294dd5458c9137e5c9261932b2b0f0b3b8e08c4767ebf7. The16 is the current source body size, not an original function boundary. Do not truncate to16.
+
+Original reserves4 bytes with PUSH ECX; calls actual GetModelInfoA7A40; spills info to stacklocal0; writes original argument slot to0; reloads info intoEAX; loads native RwObject member1C intoEDX; stores that value to argument slot; returns it viaEAX; POP ECX/RET4. Original direct call is atB45A6, relocationoperand+7. No PE absolute relocation, EH or table. Return is native RwObject field bits as int; it is not normalized bool.
+
+Normal C++ motivated proposal closure_model_info_loaded_proposed.cpp uses volatile info pointer and volatile UINT argument as reusable result slot, exactly expressing the original observable local writes/read order. Parameter top-level qualifier does not alter the external function type semantically; root must verify the actual MSVC symbol remains ?ModelInfoLoaded@@YGHI@Z and compare40 full bytes before considering integration. No new target or native field assumption. This first trial may still select a different temporary register; no coverage claimed.

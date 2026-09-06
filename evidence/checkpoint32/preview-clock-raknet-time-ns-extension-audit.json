@@ -1,0 +1,30 @@
+{
+  "status": "OPTIONAL_NEXT_EXTENSION_NOT_COMPILED",
+  "source": "build/agent-independent/eval_raknet_time_with_ns.cpp",
+  "original_rva": 190544,
+  "size": 155,
+  "new_unique_after_destructor282_and_construction649": 155,
+  "source025_new_credit": 0,
+  "source_provenance": "vendor/upstream/raknet/GetTime.cpp existing GetTimeNS Windows branch unchanged",
+  "storage": "Must extend same TU as GetTime, sharing static initialized118B90/1 and yo118B88/8; do not create duplicate state.",
+  "providers": [
+    "QueryPerformanceFrequency E525C",
+    "QueryPerformanceCounter E5258",
+    "__allmul C88B0/52",
+    "__alldiv C8800/170",
+    "__alldvrm C88F0"
+  ],
+  "new_crt_boundary": {
+    "rva": 821488,
+    "name": "__alldvrm",
+    "classification": "runtime-or-c-symbol",
+    "status": "IDENTIFIED_ONLY",
+    "chunks": [
+      {
+        "rva": 821488,
+        "size": 223,
+        "sha256": "8944a6bd345f2b75cb86bd3483531448b9a5557c60a3f3ee7d025076739099b7"
+      }
+    ]
+  }
+}

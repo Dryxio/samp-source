@@ -1,0 +1,5 @@
+# Preview trial2: true ABI corrected; one bounded initialization-form trial
+
+All argument offsets now agree. Body still694. Remaining differences are (1) receiver/model register coloring ESI/EDI exchanged throughout, and (2) FMUL zoom scheduled after second centre zero-store instead of after first. Frame shape, instruction counts, branches, all45 fixup offsets, constants and call sequence otherwise match. This is not an external provider/API problem.
+
+One normal C++ hypothesis: original zeroed the centre VECTOR with memset rather than an aggregate initializer. Both lower to three dword stores, but MSVC intrinsic lowering can affect pre-scheduling liveness and register allocation. This is especially relevant because all remaining non-register difference lies among these stores and adjacent floating multiplication. Variant3 changes only VECTOR initialization into explicit memset(&centre,0,sizeofcentre); no added fields, fake stack variables, barriers, asm or padding. Same corrected ABI and literal values retained. One bounded trial is justified; failure should be parked or separately reviewed, not followed by blind register permutations.
