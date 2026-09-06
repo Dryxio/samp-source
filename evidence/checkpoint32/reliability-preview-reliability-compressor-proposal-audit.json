@@ -1,0 +1,311 @@
+{
+  "status": "SOURCE_PROPOSED_NOT_COMPILED",
+  "baseline": 229399,
+  "pending_disjoint": "AES+DataBlock7354",
+  "functions": [
+    {
+      "rva": 283952,
+      "size": 288,
+      "name": "?WriteToBitStreamFromInternalPacket@ReliabilityLayer@@AAEHPAVBitStream@RakNet@@QBUInternalPacket@@@Z",
+      "unique_potential": 288,
+      "providers": [
+        {
+          "site_rva": 283995,
+          "target_rva": 131040
+        },
+        {
+          "site_rva": 284016,
+          "target_rva": 131040
+        },
+        {
+          "site_rva": 284049,
+          "target_rva": 131040
+        },
+        {
+          "site_rva": 284075,
+          "target_rva": 131040
+        },
+        {
+          "site_rva": 284098,
+          "target_rva": 130864
+        },
+        {
+          "site_rva": 284124,
+          "target_rva": 131040
+        },
+        {
+          "site_rva": 284147,
+          "target_rva": 131376
+        },
+        {
+          "site_rva": 284170,
+          "target_rva": 131376
+        },
+        {
+          "site_rva": 284196,
+          "target_rva": 131376
+        },
+        {
+          "site_rva": 284217,
+          "target_rva": 131360
+        },
+        {
+          "site_rva": 284233,
+          "target_rva": 130832
+        }
+      ]
+    },
+    {
+      "rva": 284240,
+      "size": 427,
+      "name": "?CreateInternalPacketFromBitStream@ReliabilityLayer@@AAEPAUInternalPacket@@PAVBitStream@RakNet@@_J@Z",
+      "unique_potential": 427,
+      "providers": [
+        {
+          "site_rva": 284277,
+          "target_rva": 283648
+        },
+        {
+          "site_rva": 284305,
+          "target_rva": 129456
+        },
+        {
+          "site_rva": 284334,
+          "target_rva": 129456
+        },
+        {
+          "site_rva": 284391,
+          "target_rva": 129456
+        },
+        {
+          "site_rva": 284410,
+          "target_rva": 129456
+        },
+        {
+          "site_rva": 284431,
+          "target_rva": 33824
+        },
+        {
+          "site_rva": 284458,
+          "target_rva": 129456
+        },
+        {
+          "site_rva": 284477,
+          "target_rva": 129648
+        },
+        {
+          "site_rva": 284496,
+          "target_rva": 129648
+        },
+        {
+          "site_rva": 284508,
+          "target_rva": 191344
+        },
+        {
+          "site_rva": 284542,
+          "target_rva": 129648
+        },
+        {
+          "site_rva": 284577,
+          "target_rva": 811642
+        },
+        {
+          "site_rva": 284618,
+          "target_rva": 130928
+        },
+        {
+          "site_rva": 284631,
+          "target_rva": 812170
+        },
+        {
+          "site_rva": 284642,
+          "target_rva": 191344
+        }
+      ]
+    },
+    {
+      "rva": 283648,
+      "size": 83,
+      "name": "?GetPointer@InternalPacketPool@@QAEPAUInternalPacket@@XZ",
+      "unique_potential": 83,
+      "providers": [
+        {
+          "site_rva": 283721,
+          "target_rva": 811642
+        }
+      ]
+    },
+    {
+      "rva": 191344,
+      "size": 21,
+      "name": "?ReleasePointer@InternalPacketPool@@QAEXPAUInternalPacket@@@Z",
+      "unique_potential": 21,
+      "providers": [
+        {
+          "site_rva": 191357,
+          "target_rva": 190784
+        }
+      ]
+    },
+    {
+      "rva": 190784,
+      "size": 189,
+      "name": "?Push@?$Queue@PAUInternalPacket@@@DataStructures@@QAEXABQAUInternalPacket@@@Z",
+      "unique_potential": 189,
+      "providers": [
+        {
+          "site_rva": 190796,
+          "target_rva": 811642
+        },
+        {
+          "site_rva": 190893,
+          "target_rva": 811642
+        },
+        {
+          "site_rva": 190958,
+          "target_rva": 812170
+        }
+      ]
+    },
+    {
+      "rva": 154016,
+      "size": 334,
+      "name": "?Compress@DataCompressor@@SAXPAEIPAVBitStream@RakNet@@@Z",
+      "unique_potential": 334,
+      "providers": [
+        {
+          "site_rva": 154110,
+          "target_rva": 157536
+        },
+        {
+          "site_rva": 154134,
+          "target_rva": 159680
+        },
+        {
+          "site_rva": 154157,
+          "target_rva": 131376
+        },
+        {
+          "site_rva": 154181,
+          "target_rva": 131376
+        },
+        {
+          "site_rva": 154197,
+          "target_rva": 129376
+        },
+        {
+          "site_rva": 154227,
+          "target_rva": 131040
+        },
+        {
+          "site_rva": 154251,
+          "target_rva": 159232
+        },
+        {
+          "site_rva": 154265,
+          "target_rva": 130304
+        },
+        {
+          "site_rva": 154293,
+          "target_rva": 131040
+        },
+        {
+          "site_rva": 154301,
+          "target_rva": 130304
+        },
+        {
+          "site_rva": 154324,
+          "target_rva": 159648
+        }
+      ]
+    },
+    {
+      "rva": 154352,
+      "size": 288,
+      "name": "sub_10025AF0",
+      "unique_potential": 288,
+      "providers": [
+        {
+          "site_rva": 154386,
+          "target_rva": 157536
+        },
+        {
+          "site_rva": 154420,
+          "target_rva": 129648
+        },
+        {
+          "site_rva": 154444,
+          "target_rva": 129648
+        },
+        {
+          "site_rva": 154457,
+          "target_rva": 129408
+        },
+        {
+          "site_rva": 154473,
+          "target_rva": 129456
+        },
+        {
+          "site_rva": 154497,
+          "target_rva": 159648
+        },
+        {
+          "site_rva": 154533,
+          "target_rva": 811642
+        },
+        {
+          "site_rva": 154562,
+          "target_rva": 159680
+        },
+        {
+          "site_rva": 154585,
+          "target_rva": 157552
+        },
+        {
+          "site_rva": 154609,
+          "target_rva": 159648
+        }
+      ]
+    }
+  ],
+  "potential_unique_code": 1630,
+  "EH": "DataCompressor two EH handlers/maps need compiled preflight; no anticipated Reliability EH",
+  "source025_direct_bytes": 0,
+  "layout": {
+    "ReliabilityLayer": "Existing complete vendor class only; never allocate in proposal. Assertions field reliabilitySizeInBits403 and InternalPacketPool6F2 in method scope.",
+    "InternalPacket": {
+      "size": 55,
+      "messageNumber": 0,
+      "packetNumber": 2,
+      "priority": 6,
+      "reliability": 10,
+      "orderingChannel": 14,
+      "orderingIndex": 15,
+      "splitPacketId": 17,
+      "splitPacketIndex": 19,
+      "splitPacketCount": 23,
+      "creationTime": 27,
+      "nextActionTime": 35,
+      "dataBitLength": 43,
+      "data": 47,
+      "histogramMarker": 51
+    },
+    "InternalPacketPool": "Complete Queue<InternalPacket*>16; actual GetPointer allocates55 bytes when empty. No fake container allocation."
+  },
+  "providers_note": "All true external direct calls listed; BitStream/Huffman/CRT accepted. Only new pool Release/Get/QueuePush are proposed dependencies. Callback or packet processing methods outside this slice remain uncovered.",
+  "sources": [
+    {
+      "path": "build/agent-independent/eval_vendor_reliability_serialization.cpp",
+      "sha256": "5969311bbfb9de7a88b477331ff702a5449cb1454ec4013a2d0d8ca64a63dd19"
+    },
+    {
+      "path": "build/agent-independent/eval_vendor_internal_packet_release.cpp",
+      "sha256": "58073496b4481e16f7ce94b9321f38b97fd3b0af758a15b0baf6340433dc2c0e"
+    },
+    {
+      "path": "build/agent-independent/eval_vendor_data_compressor.cpp",
+      "sha256": "45cf74e2fd1cf27895cb58f9d1f576933d77cbdceff81ba7fe9f43ece0fe8d06"
+    }
+  ],
+  "active_owner_collisions": []
+}
