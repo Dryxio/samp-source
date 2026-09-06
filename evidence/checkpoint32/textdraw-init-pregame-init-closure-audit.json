@@ -1,0 +1,113 @@
+{
+  "status": "PROPOSED_UNCOMPILED_NO_EXECUTION",
+  "baseline_union": 202690,
+  "regions": [
+    {
+      "rva": "0xaa710",
+      "size": 673,
+      "unique": 673
+    },
+    {
+      "rva": "0xaa470",
+      "size": 76,
+      "unique": 76
+    },
+    {
+      "rva": "0xa0890",
+      "size": 72,
+      "unique": 72
+    }
+  ],
+  "potential_unique": 821,
+  "EH": "None for these three functions",
+  "source_files": [
+    "eval_pregame_patches.cpp",
+    "eval_game_init_buffer.cpp"
+  ],
+  "provenance": "Both functionsApply673/Check76 andInit72 existcomplete dashrbase. Source025 contains earlier detector/helper but lacks R5dynamicmemory policy and secondVirtualProtect helper call. Incremental source025credit0 (base alreadyprovides allbodies).",
+  "transformations": "Replace base UnFuck calls with namedlocalinline helper of identical VirtualProtect body to express observed expansion intoAPIcalls, no otherbody changes. Ordinary C++ patch writes/memsets preserved from existing source.",
+  "internal_dependencies": {
+    "ApplyPreGamePatches": "onlyUnFuckAndCheckAA47076 newlyproposed",
+    "UnFuckAndCheck": "onlyVirtualProtect/Sleep imports, secondVirtualProtect afterbytewait preserved",
+    "InitGame": "ApplyPreGamePatchesAA710 new; GameKeyStatesInitA72A029,GameAimSyncInit9C8D099,GameResetRadarColorsA728022 accepted; callocC6982 pinnedCRT"
+  },
+  "imports": [
+    {
+      "iat_rva": "0xe5364",
+      "dll": "USER32.dll",
+      "name": "MessageBoxA"
+    },
+    {
+      "iat_rva": "0xe5180",
+      "dll": "KERNEL32.dll",
+      "name": "GlobalMemoryStatusEx"
+    },
+    {
+      "iat_rva": "0xe5184",
+      "dll": "KERNEL32.dll",
+      "name": "VirtualProtect"
+    },
+    {
+      "iat_rva": "0xe5188",
+      "dll": "KERNEL32.dll",
+      "name": "ExitProcess"
+    },
+    {
+      "iat_rva": "0xe5254",
+      "dll": "KERNEL32.dll",
+      "name": "Sleep"
+    }
+  ],
+  "globals": [
+    {
+      "name": "iGtaVersion",
+      "rva": "26EB28",
+      "size": 4,
+      "status": "accepted existing owner preserve"
+    },
+    {
+      "name": "dwSystemMemory",
+      "rva": "26B3D8",
+      "size": 4,
+      "status": "newidentifiedzerofillstore"
+    },
+    {
+      "name": "dwStreamingMemory",
+      "rva": "26B3DC",
+      "size": 4,
+      "status": "newidentifiedzerofillstore"
+    },
+    {
+      "name": "szGameTextMessage",
+      "rva": "150334",
+      "size": 4,
+      "status": "rootGameTextstorepending; InitGame allocates513realbytes via calloc"
+    }
+  ],
+  "data_literals": [
+    {
+      "rva": "0xecd8c",
+      "size": 6,
+      "text": "title"
+    },
+    {
+      "rva": "0xec788",
+      "size": 76,
+      "text": "I can't determine your GTA version.\r\nSA-MP only supports GTA:SA v1.0 USA/EU"
+    },
+    {
+      "rva": "0xec7d4",
+      "size": 14,
+      "text": "Version Error"
+    }
+  ],
+  "GTA_patch_data_provenance": "All destinationaddresses and assignmentvalues/memset bytes sourced verbatim from client/saco/game/patches.cpp ApplyPreGamePatches, not extracted instructionarrays from referenceSAMP. These are runtime patch payload data compiled from semantic source; no_emit/incbin/copiedSAMPbodybytes. Only compile/staticmatch, never execute patches.",
+  "new_storage_sources": [
+    "eval_store_dwSystemMemory.cpp",
+    "eval_store_dwStreamingMemory.cpp"
+  ],
+  "source_hashes": {
+    "eval_pregame_patches.cpp": "7f80732b8ca40258041f80b9d5f4419d5872bbe2ebcfdefe6295efb1f51465bc",
+    "eval_game_init_buffer.cpp": "3b686364aa3154eed85d03f91e9624c4e5e0c2d0272d9a10eaa659a571cfd6e7"
+  }
+}

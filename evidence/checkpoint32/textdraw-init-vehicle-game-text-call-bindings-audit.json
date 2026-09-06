@@ -1,0 +1,212 @@
+{
+  "status": "SOURCE_TO_REAL_TARGET_AUDIT_ONLY_NOT_MATCH_ACCEPTANCE",
+  "rows": [
+    {
+      "family": "VehicleVelocity",
+      "site": "0x1898b",
+      "source_call": "RakNet::BitStream(char*,unsigned int,bool)",
+      "arguments_and_order": "Data,(bits/8)+1,false; this=&stream",
+      "target": "0x1f840",
+      "accepted_symbol": "??0BitStream@RakNet@@QAE@PADI_N@Z",
+      "classification": "acceptedexactnamedprovider"
+    },
+    {
+      "family": "VehicleVelocity",
+      "site": "0x189ad",
+      "source_call": "BitStream::ReadBits",
+      "arguments_and_order": "Read(BYTE mode) ->8 bits,rightaligned1",
+      "target": "0x1f9b0",
+      "accepted_symbol": "?ReadBits@BitStream@RakNet@@QAE_NPAEH_N@Z",
+      "classification": "acceptedexactnamedprovider"
+    },
+    {
+      "family": "VehicleVelocity",
+      "site": "0x189bf",
+      "source_call": "BitStream::ReadBits",
+      "arguments_and_order": "Read velocity.X ->32 bits,rightaligned1",
+      "target": "0x1f9b0",
+      "accepted_symbol": "?ReadBits@BitStream@RakNet@@QAE_NPAEH_N@Z",
+      "classification": "acceptedexactnamedprovider"
+    },
+    {
+      "family": "VehicleVelocity",
+      "site": "0x189d1",
+      "source_call": "BitStream::ReadBits",
+      "arguments_and_order": "Read velocity.Y ->32 bits,rightaligned1",
+      "target": "0x1f9b0",
+      "accepted_symbol": "?ReadBits@BitStream@RakNet@@QAE_NPAEH_N@Z",
+      "classification": "acceptedexactnamedprovider"
+    },
+    {
+      "family": "VehicleVelocity",
+      "site": "0x189e3",
+      "source_call": "BitStream::ReadBits",
+      "arguments_and_order": "Read velocity.Z ->32 bits,rightaligned1",
+      "target": "0x1f9b0",
+      "accepted_symbol": "?ReadBits@BitStream@RakNet@@QAE_NPAEH_N@Z",
+      "classification": "acceptedexactnamedprovider"
+    },
+    {
+      "family": "VehicleVelocity",
+      "site": "0x189fc",
+      "source_call": "CGame::FindPlayerPed",
+      "arguments_and_order": "this=pGame26EBAC; after getting vehiclepool",
+      "target": "0x1010",
+      "accepted_symbol": "?FindPlayerPed@CGame@@QAEPAVCPlayerPed@@XZ",
+      "classification": "acceptedexactnamedprovider"
+    },
+    {
+      "family": "VehicleVelocity",
+      "site": "0x18a0d",
+      "source_call": "CPlayerPed::IsInVehicle",
+      "arguments_and_order": "this=returned ped, before GetGtaVehicle",
+      "target": "0xabe70",
+      "accepted_symbol": "?IsInVehicle@CPlayerPed@@QAEHXZ",
+      "classification": "acceptedexactnamedprovider"
+    },
+    {
+      "family": "VehicleVelocity",
+      "site": "0x18a18",
+      "source_call": "CPlayerPed::GetGtaVehicle",
+      "arguments_and_order": "this=same ped, return native ptr",
+      "target": "0xac000",
+      "accepted_symbol": "?GetGtaVehicle@CPlayerPed@@QAEPAU_VEHICLE_TYPE@@XZ",
+      "classification": "acceptedexactnamedprovider"
+    },
+    {
+      "family": "VehicleVelocity",
+      "site": "0x18a20",
+      "source_call": "RPCVehicleMotionPoolView::FindIDFromGtaPtr",
+      "arguments_and_order": "this=pool, argnative ptr; ownproposed actual body",
+      "target": "0x1eb90",
+      "accepted_symbol": null,
+      "classification": "ownproposedprovider"
+    },
+    {
+      "family": "VehicleVelocity",
+      "site": "0x18a6b",
+      "source_call": "CEntity::SetMoveSpeedVector",
+      "arguments_and_order": "this=vehicleoffset0, byvalueVECTOR X/Y/Z whenmode0",
+      "target": "0x9ed10",
+      "accepted_symbol": "?SetMoveSpeedVector@CEntity@@QAEXU_VECTOR@@@Z",
+      "classification": "acceptedexactnamedprovider"
+    },
+    {
+      "family": "VehicleVelocity",
+      "site": "0x18a8f",
+      "source_call": "CEntity::SetTurnSpeedVector",
+      "arguments_and_order": "this=vehicleoffset0, byvalueVECTOR X/Y/Z whenmode1",
+      "target": "0x9ee60",
+      "accepted_symbol": "?SetTurnSpeedVector@CEntity@@QAEXU_VECTOR@@@Z",
+      "classification": "acceptedexactnamedprovider"
+    },
+    {
+      "family": "VehicleVelocity",
+      "site": "0x18aa3",
+      "source_call": "BitStream::~BitStream",
+      "arguments_and_order": "this=&stream",
+      "target": "0x1f8d0",
+      "accepted_symbol": "??1BitStream@RakNet@@QAE@XZ",
+      "classification": "acceptedexactnamedprovider"
+    },
+    {
+      "family": "GameTextRPC",
+      "site": "0x1992c",
+      "source_call": "RakNet::BitStream(char*,unsigned int,bool)",
+      "arguments_and_order": "Data,(bits/8)+1,false",
+      "target": "0x1f840",
+      "accepted_symbol": "??0BitStream@RakNet@@QAE@PADI_N@Z",
+      "classification": "acceptedexactnamedprovider"
+    },
+    {
+      "family": "GameTextRPC",
+      "site": "0x19959",
+      "source_call": "BitStream::ReadBits",
+      "arguments_and_order": "type32 first",
+      "target": "0x1f9b0",
+      "accepted_symbol": "?ReadBits@BitStream@RakNet@@QAE_NPAEH_N@Z",
+      "classification": "acceptedexactnamedprovider"
+    },
+    {
+      "family": "GameTextRPC",
+      "site": "0x1996b",
+      "source_call": "BitStream::ReadBits",
+      "arguments_and_order": "time32 second",
+      "target": "0x1f9b0",
+      "accepted_symbol": "?ReadBits@BitStream@RakNet@@QAE_NPAEH_N@Z",
+      "classification": "acceptedexactnamedprovider"
+    },
+    {
+      "family": "GameTextRPC",
+      "site": "0x1997d",
+      "source_call": "BitStream::ReadBits",
+      "arguments_and_order": "length32 third",
+      "target": "0x1f9b0",
+      "accepted_symbol": "?ReadBits@BitStream@RakNet@@QAE_NPAEH_N@Z",
+      "classification": "acceptedexactnamedprovider"
+    },
+    {
+      "family": "GameTextRPC",
+      "site": "0x1999f",
+      "source_call": "BitStream::Read(char*,int)",
+      "arguments_and_order": "message,length; only1<=length<=200",
+      "target": "0x1fea0",
+      "accepted_symbol": "?Read@BitStream@RakNet@@QAE_NPADH@Z",
+      "classification": "acceptedexactnamedprovider"
+    },
+    {
+      "family": "GameTextRPC",
+      "site": "0x199c8",
+      "source_call": "CGame::DisplayGameText",
+      "arguments_and_order": "this=pGame26EBAC, argsmessage,time,type; push type,time,message",
+      "target": "0xa0ce0",
+      "accepted_symbol": null,
+      "classification": "ownproposedprovider"
+    },
+    {
+      "family": "GameTextRPC",
+      "site": "0x199dc",
+      "source_call": "BitStream::~BitStream",
+      "arguments_and_order": "this=&stream",
+      "target": "0x1f8d0",
+      "accepted_symbol": "??1BitStream@RakNet@@QAE@XZ",
+      "classification": "acceptedexactnamedprovider"
+    },
+    {
+      "family": "DisplayGameText",
+      "site": "0xa0cf1",
+      "source_call": "ScriptCommand",
+      "arguments_and_order": "&text_clear_all EC724 opcode00BE descriptor18",
+      "target": "0xb2310",
+      "accepted_symbol": "?ScriptCommand@@YAHPBUSCRIPT_COMMAND@@ZZ",
+      "classification": "acceptedexactnamedprovider"
+    },
+    {
+      "family": "DisplayGameText",
+      "site": "0xa0d11",
+      "source_call": "strncpy",
+      "arguments_and_order": "dest=*150334,source=szStr,count512; fourthword underargs is earlierdescriptor cleanedtogether",
+      "target": "0xc77f0",
+      "accepted_symbol": "_strncpy",
+      "classification": "acceptedexactnamedprovider"
+    },
+    {
+      "family": "DisplayGameText",
+      "site": "0xa0d4f",
+      "source_call": "GTA native game-text boundary",
+      "arguments_and_order": "symbolicASM callEAX native absolute address; pushes iSize,iTime,szGameTextMessage,callerpop12",
+      "target": "0x69f2b0",
+      "accepted_symbol": null,
+      "classification": "nativeabsoluteABIboundary"
+    }
+  ],
+  "source_hashes": {
+    "eval_rpc_vehicle_motion.cpp": "10139d8456b9f28bea449dc3e20ef3c946fd8601c5588ce1fba42dbf5a651ab1",
+    "eval_rpc_game_text.cpp": "f20f74674a55227b515cc3c9200a3d67288e23003d32a2bfa8dd006fa2cd9e1d"
+  },
+  "corrected_source_calls_required": [],
+  "lookup_no_calls": "1EB90/42 has no calls, compares native argument against pool4FB4[i] from1 through lastId0 inclusive, returnsWORDffff onfailure. No ambiguity with pointerarray1134 or active3074.",
+  "inline_stores": "Display memset(pointer,0,sizeof(pointer)) deliberately fourbytes asR5 A0D03; no count513 rewrite. RPC messagebuffer256 zeroed, separately terminatedatlength.",
+  "new_data_not_accepted": "szGameTextMessage150334/4 and text_clear_allEC724/18 require own reviewed data regions. Addressidentified doesnotmeanstoreaccepted. Realbufferowner InitGame A0890 allocates513 atA0897/storeA089F; no implicit newcodecredit.",
+  "shop_lesson": "Providers verified against accepted anchor names and actual order,args for EACH call; mere presence of accepted target is insufficient."
+}

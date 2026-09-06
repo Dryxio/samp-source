@@ -61,6 +61,8 @@ def draft(run, extra_seeds=None):
             offset=symbol['value'];size=18;kind='script-command'
         if unit=='closure_rpc_player_motion_shop' and kind=='data' and symbol['name'] in ('_set_player_drunk_visuals', '_handling_responsiveness'):
             offset=symbol['value'];size=18;kind='script-command'
+        if unit=='closure_rpc_game_text' and kind=='data' and symbol['name']=='_text_clear_all':
+            offset=symbol['value'];size=18;kind='script-command'
         if unit=='closure_state':
             offset=symbol['value'];size=2 if symbol['name']=='?wVehicleComponentDebug@@3GA' else 4;kind='zero-object'
         base=rva-symbol['value']+offset;key=(unit,index,offset,size)

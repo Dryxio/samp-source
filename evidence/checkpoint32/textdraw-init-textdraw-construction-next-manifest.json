@@ -1,0 +1,332 @@
+{
+  "status": "NORMAL_CPP_PROPOSED_NOT_COMPILED",
+  "baseline_proof": "evidence/checkpoint32/player-lifetime-acceptance.json",
+  "baseline_union": 200559,
+  "principal_potential": 1485,
+  "EH_code_potential": 21,
+  "regions": [
+    {
+      "name": "LoadTexture",
+      "rva": "0xb2cd0",
+      "size": 630,
+      "sha256": "2872b356941bdf0bd1c557ff276939e28274e1050ba78ff4c785d8d3fff53c23",
+      "accepted_code_overlap": 0,
+      "pe_absolute_fixups": [
+        {
+          "offset": 200,
+          "target": "0x100ed410"
+        },
+        {
+          "offset": 233,
+          "target": "0x100ed408"
+        },
+        {
+          "offset": 254,
+          "target": "0x100ed408"
+        },
+        {
+          "offset": 261,
+          "target": "0x100ed40c"
+        },
+        {
+          "offset": 266,
+          "target": "0x100ed40e"
+        },
+        {
+          "offset": 281,
+          "target": "0x100ed408"
+        },
+        {
+          "offset": 309,
+          "target": "0x100ed3fc"
+        },
+        {
+          "offset": 329,
+          "target": "0x100ed3fc"
+        },
+        {
+          "offset": 335,
+          "target": "0x100ed400"
+        },
+        {
+          "offset": 341,
+          "target": "0x100ed404"
+        },
+        {
+          "offset": 356,
+          "target": "0x100ed3f0"
+        },
+        {
+          "offset": 383,
+          "target": "0x1026eb98"
+        },
+        {
+          "offset": 427,
+          "target": "0x100ed3ec"
+        },
+        {
+          "offset": 456,
+          "target": "0x1026eb98"
+        },
+        {
+          "offset": 481,
+          "target": "0x1026eb98"
+        },
+        {
+          "offset": 497,
+          "target": "0x1026eb98"
+        },
+        {
+          "offset": 513,
+          "target": "0x1026eb98"
+        },
+        {
+          "offset": 533,
+          "target": "0x100e5cc8"
+        },
+        {
+          "offset": 619,
+          "target": "0x1026b568"
+        }
+      ],
+      "calls": [
+        {
+          "offset": 65,
+          "target": "0x100c6be0"
+        },
+        {
+          "offset": 109,
+          "target": "0x100c6be0"
+        },
+        {
+          "offset": 128,
+          "target": "0x100c6be0"
+        },
+        {
+          "offset": 155,
+          "target": "0x100c77f0"
+        },
+        {
+          "offset": 295,
+          "target": "0x100b2b90"
+        },
+        {
+          "offset": 369,
+          "target": "0x100b2b90"
+        },
+        {
+          "offset": 432,
+          "target": "0x100cb030"
+        },
+        {
+          "offset": 449,
+          "target": "0x100c6d26"
+        },
+        {
+          "offset": 466,
+          "target": "0x1000d150"
+        },
+        {
+          "offset": 486,
+          "target": "0x1000d190"
+        },
+        {
+          "offset": 502,
+          "target": "0x1000d320"
+        },
+        {
+          "offset": 518,
+          "target": "0x1000d280"
+        },
+        {
+          "offset": 538,
+          "target": "0x100c7353"
+        },
+        {
+          "offset": 560,
+          "target": "0x100c77f0"
+        },
+        {
+          "offset": 577,
+          "target": "0x100b2b90"
+        },
+        {
+          "offset": 602,
+          "target": "0x100b2c60"
+        }
+      ]
+    },
+    {
+      "name": "SetText",
+      "rva": "0xb2f60",
+      "size": 298,
+      "sha256": "480e9d9eb35adc5ffad599bdcc757f7475b68f9e7b96ce4c373c2d7cd5d28e27",
+      "accepted_code_overlap": 0,
+      "pe_absolute_fixups": [
+        {
+          "offset": 168,
+          "target": "0x100ed43c"
+        },
+        {
+          "offset": 230,
+          "target": "0x100ed414"
+        }
+      ],
+      "calls": [
+        {
+          "offset": 60,
+          "target": "0x100c77f0"
+        },
+        {
+          "offset": 266,
+          "target": "0x100b2b50"
+        },
+        {
+          "offset": 274,
+          "target": "0x100b2b20"
+        },
+        {
+          "offset": 287,
+          "target": "0x100b2cd0"
+        }
+      ]
+    },
+    {
+      "name": "constructor",
+      "rva": "0xb36e0",
+      "size": 402,
+      "sha256": "41ebf2a63a856e6ebf4865591c6cc79c028c13838b45a55df75f697e280d0cc2",
+      "accepted_code_overlap": 0,
+      "pe_absolute_fixups": [],
+      "calls": [
+        {
+          "offset": 320,
+          "target": "0x100b2f60"
+        },
+        {
+          "offset": 334,
+          "target": "0x100b2b20"
+        },
+        {
+          "offset": 347,
+          "target": "0x100b2cd0"
+        }
+      ]
+    },
+    {
+      "name": "PoolNew",
+      "rva": "0x1e910",
+      "size": 155,
+      "sha256": "afdf0f6c167d954dd9b3c65cd5a6398f76af30101d5baec0c6a630392b39c31e",
+      "accepted_code_overlap": 0,
+      "pe_absolute_fixups": [
+        {
+          "offset": 9,
+          "target": "0x100e173b"
+        }
+      ],
+      "calls": [
+        {
+          "offset": 46,
+          "target": "0x1001e7f0"
+        },
+        {
+          "offset": 56,
+          "target": "0x100c627a"
+        },
+        {
+          "offset": 92,
+          "target": "0x100b36e0"
+        }
+      ]
+    },
+    {
+      "name": "PoolNew EH",
+      "rva": "0xe1730",
+      "size": 21,
+      "sha256": "5f5925a1505ae38362d59cb6fe0ad997ce8a54e58ed54ce793ddee59aa2f9010",
+      "accepted_code_overlap": 0,
+      "pe_absolute_fixups": [
+        {
+          "offset": 12,
+          "target": "0x100f9244"
+        }
+      ],
+      "calls": [
+        {
+          "offset": 4,
+          "target": "0x100c648a"
+        }
+      ]
+    },
+    {
+      "name": "PoolNew unwind/FuncInfo",
+      "rva": "0xf923c",
+      "size": 36,
+      "sha256": "c3b99da7e23e33dcf90efb8537609b023f65a082aa547dd71c081ae90e508700",
+      "accepted_code_overlap": 0,
+      "pe_absolute_fixups": [
+        {
+          "offset": 4,
+          "target": "0x100e1730"
+        },
+        {
+          "offset": 16,
+          "target": "0x100f923c"
+        }
+      ],
+      "calls": []
+    }
+  ],
+  "strings": [
+    {
+      "rva": "0xed3ec",
+      "size": 4,
+      "text": "mdl",
+      "sha256": "9999431a12b5a2ea727f41497fe1cd9ae9fabde9c50796261a8fe72c872590a4"
+    },
+    {
+      "rva": "0xed3f0",
+      "size": 12,
+      "text": "vehicles128",
+      "sha256": "bc32e7634254d4e3b9b22ce9bac6eb227207741bd39c8d3074d467a1d36f05d6"
+    },
+    {
+      "rva": "0xed3fc",
+      "size": 12,
+      "text": "vehicleprev",
+      "sha256": "a774146be3052b6f1ce21d9537fa266db8a2e9eeda6eaf9af5392f767ce565af"
+    },
+    {
+      "rva": "0xed408",
+      "size": 7,
+      "text": "samaps",
+      "sha256": "bb9a6e577306f87fb933a2785f1cd46b917f89cbc1a76d3ea17644e2e3307c42"
+    },
+    {
+      "rva": "0xed410",
+      "size": 4,
+      "text": "hud",
+      "sha256": "cacac983bc581d0a484e43e2da7acd23f205b24a571b23c2f2737829b22bb7ed"
+    },
+    {
+      "rva": "0xed414",
+      "size": 40,
+      "text": "Error: can't use k-codes in long string",
+      "sha256": "647c5f9008c125b4ebb1849b3c50817553fba4303c82ea78ae9fa914764282a0"
+    },
+    {
+      "rva": "0xed43c",
+      "size": 23,
+      "text": "Error: unmatched tilde",
+      "sha256": "2877a40deffb22ed61b0475238ed95d48364dd2d9a45a127ff04d4734de450ae"
+    }
+  ],
+  "strncmp_candidate": {
+    "symbol": "_strncmp",
+    "rva": "0xCB030",
+    "size": 57,
+    "sha256": "591725832adb8343cdb0b00cb336d17f54bf82c34875ede3bece382072dd0644",
+    "status": "needs actual pinned LIBCMT provider comparison; not yet accepted"
+  }
+}

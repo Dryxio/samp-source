@@ -1,0 +1,303 @@
+{
+  "status": "BINDINGS_AGREE_WITH_PENDING_STRNCMP_VENDOR",
+  "contract": "selection-model-motion-contract.json",
+  "rows": [
+    {
+      "unit": "closure_textdraw_constructor",
+      "symbol": "?SetText@R5TextDrawConstructionView@@QAEXPAD@Z",
+      "inferred_va": "0x100b2f60",
+      "independent_expected_va": "0x100b2f60",
+      "evidence": "new body/EH or pending CRT independently audited",
+      "identity_agrees": true,
+      "pending_vendor": false
+    },
+    {
+      "unit": "closure_textdraw_constructor",
+      "symbol": "?AllocateTextdrawTexture@@YAHXZ",
+      "inferred_va": "0x100b2b20",
+      "independent_expected_va": "0x100b2b20",
+      "evidence": "accepted region closure_textdraw_cleanup",
+      "identity_agrees": true,
+      "pending_vendor": false
+    },
+    {
+      "unit": "closure_textdraw_constructor",
+      "symbol": "?LoadTexture@R5TextDrawConstructionView@@QAEXXZ",
+      "inferred_va": "0x100b2cd0",
+      "independent_expected_va": "0x100b2cd0",
+      "evidence": "new body/EH or pending CRT independently audited",
+      "identity_agrees": true,
+      "pending_vendor": false
+    },
+    {
+      "unit": "closure_textdraw_pool_new",
+      "symbol": "__except_list",
+      "inferred_va": "0x0",
+      "independent_expected_va": "0x0",
+      "evidence": "new body/EH or pending CRT independently audited",
+      "identity_agrees": true,
+      "pending_vendor": false
+    },
+    {
+      "unit": "closure_textdraw_pool_new",
+      "symbol": "__ehhandler$?New@R5TextDrawPoolConstructionView@@QAEPAVR5TextDrawConstructionView@@GPAUR5TextDrawTransmit@@PAD@Z",
+      "inferred_va": "0x100e173b",
+      "independent_expected_va": "0x100e173b",
+      "evidence": "new body/EH or pending CRT independently audited",
+      "identity_agrees": true,
+      "pending_vendor": false
+    },
+    {
+      "unit": "closure_textdraw_pool_new",
+      "symbol": "?Delete@R5TextDrawPool@@QAEXG@Z",
+      "inferred_va": "0x1001e7f0",
+      "independent_expected_va": "0x1001e7f0",
+      "evidence": "accepted region closure_textdraw_cleanup",
+      "identity_agrees": true,
+      "pending_vendor": false
+    },
+    {
+      "unit": "closure_textdraw_pool_new",
+      "symbol": "??2@YAPAXI@Z",
+      "inferred_va": "0x100c627a",
+      "independent_expected_va": "0x100c627a",
+      "evidence": "accepted external crt",
+      "identity_agrees": true,
+      "pending_vendor": false
+    },
+    {
+      "unit": "closure_textdraw_pool_new",
+      "symbol": "??0R5TextDrawConstructionView@@QAE@PAUR5TextDrawTransmit@@PAD@Z",
+      "inferred_va": "0x100b36e0",
+      "independent_expected_va": "0x100b36e0",
+      "evidence": "new body/EH or pending CRT independently audited",
+      "identity_agrees": true,
+      "pending_vendor": false
+    },
+    {
+      "unit": "closure_textdraw_set_text",
+      "symbol": "_strncpy",
+      "inferred_va": "0x100c77f0",
+      "independent_expected_va": "0x100c77f0",
+      "evidence": "accepted external crt",
+      "identity_agrees": true,
+      "pending_vendor": false
+    },
+    {
+      "unit": "closure_textdraw_set_text",
+      "symbol": "??_C@_0BH@GLEAIIGJ@Error?3?5unmatched?5tilde?$AA@",
+      "inferred_va": "0x100ed43c",
+      "independent_expected_va": "0x100ed43c",
+      "evidence": "literal semantics checked against complete original data",
+      "identity_agrees": true,
+      "pending_vendor": false
+    },
+    {
+      "unit": "closure_textdraw_set_text",
+      "symbol": "??_C@_0CI@OFGIGGJL@Error?3?5can?8t?5use?5k?9codes?5in?5long@",
+      "inferred_va": "0x100ed414",
+      "independent_expected_va": "0x100ed414",
+      "evidence": "literal semantics checked against complete original data",
+      "identity_agrees": true,
+      "pending_vendor": false
+    },
+    {
+      "unit": "closure_textdraw_set_text",
+      "symbol": "?ReleaseTextdrawTexture@@YAXH@Z",
+      "inferred_va": "0x100b2b50",
+      "independent_expected_va": "0x100b2b50",
+      "evidence": "accepted region closure_textdraw_cleanup",
+      "identity_agrees": true,
+      "pending_vendor": false
+    },
+    {
+      "unit": "closure_textdraw_set_text",
+      "symbol": "?AllocateTextdrawTexture@@YAHXZ",
+      "inferred_va": "0x100b2b20",
+      "independent_expected_va": "0x100b2b20",
+      "evidence": "accepted region closure_textdraw_cleanup",
+      "identity_agrees": true,
+      "pending_vendor": false
+    },
+    {
+      "unit": "closure_textdraw_set_text",
+      "symbol": "?LoadTexture@R5TextDrawConstructionView@@QAEXXZ",
+      "inferred_va": "0x100b2cd0",
+      "independent_expected_va": "0x100b2cd0",
+      "evidence": "new body/EH or pending CRT independently audited",
+      "identity_agrees": true,
+      "pending_vendor": false
+    },
+    {
+      "unit": "closure_textdraw_texture_loader",
+      "symbol": "_strchr",
+      "inferred_va": "0x100c6be0",
+      "independent_expected_va": "0x100c6be0",
+      "evidence": "accepted external crt",
+      "identity_agrees": true,
+      "pending_vendor": false
+    },
+    {
+      "unit": "closure_textdraw_texture_loader",
+      "symbol": "_strncpy",
+      "inferred_va": "0x100c77f0",
+      "independent_expected_va": "0x100c77f0",
+      "evidence": "accepted external crt",
+      "identity_agrees": true,
+      "pending_vendor": false
+    },
+    {
+      "unit": "closure_textdraw_texture_loader",
+      "symbol": "??_C@_03HDICPLBH@hud?$AA@",
+      "inferred_va": "0x100ed410",
+      "independent_expected_va": "0x100ed410",
+      "evidence": "literal semantics checked against complete original data",
+      "identity_agrees": true,
+      "pending_vendor": false
+    },
+    {
+      "unit": "closure_textdraw_texture_loader",
+      "symbol": "??_C@_06MOGAFHDH@samaps?$AA@",
+      "inferred_va": "0x100ed408",
+      "independent_expected_va": "0x100ed408",
+      "evidence": "literal semantics checked against complete original data",
+      "identity_agrees": true,
+      "pending_vendor": false
+    },
+    {
+      "unit": "closure_textdraw_texture_loader",
+      "symbol": "?EnsureTextdrawDictionary@@YAHPAD0_N@Z",
+      "inferred_va": "0x100b2b90",
+      "independent_expected_va": "0x100b2b90",
+      "evidence": "accepted region closure_textdraw_txd",
+      "identity_agrees": true,
+      "pending_vendor": false
+    },
+    {
+      "unit": "closure_textdraw_texture_loader",
+      "symbol": "??_C@_0M@BJPIBEMG@vehicleprev?$AA@",
+      "inferred_va": "0x100ed3fc",
+      "independent_expected_va": "0x100ed3fc",
+      "evidence": "literal semantics checked against complete original data",
+      "identity_agrees": true,
+      "pending_vendor": false
+    },
+    {
+      "unit": "closure_textdraw_texture_loader",
+      "symbol": "??_C@_0M@NAPAMDHL@vehicles128?$AA@",
+      "inferred_va": "0x100ed3f0",
+      "independent_expected_va": "0x100ed3f0",
+      "evidence": "literal semantics checked against complete original data",
+      "identity_agrees": true,
+      "pending_vendor": false
+    },
+    {
+      "unit": "closure_textdraw_texture_loader",
+      "symbol": "?rpc_custom_model_download_manager@@3PAURPCCustomModelDownloadWorldView@@A",
+      "inferred_va": "0x1026eb98",
+      "independent_expected_va": "0x1026eb98",
+      "evidence": "accepted region closure_store_custom_model_download_manager",
+      "identity_agrees": true,
+      "pending_vendor": false
+    },
+    {
+      "unit": "closure_textdraw_texture_loader",
+      "symbol": "??_C@_03JBGBEIGK@mdl?$AA@",
+      "inferred_va": "0x100ed3ec",
+      "independent_expected_va": "0x100ed3ec",
+      "evidence": "literal semantics checked against complete original data",
+      "identity_agrees": true,
+      "pending_vendor": false
+    },
+    {
+      "unit": "closure_textdraw_texture_loader",
+      "symbol": "_strncmp",
+      "inferred_va": "0x100cb030",
+      "independent_expected_va": "0x100cb030",
+      "evidence": "new body/EH or pending CRT independently audited",
+      "identity_agrees": true,
+      "pending_vendor": true
+    },
+    {
+      "unit": "closure_textdraw_texture_loader",
+      "symbol": "_atoi",
+      "inferred_va": "0x100c6d26",
+      "independent_expected_va": "0x100c6d26",
+      "evidence": "accepted external crt",
+      "identity_agrees": true,
+      "pending_vendor": false
+    },
+    {
+      "unit": "closure_textdraw_texture_loader",
+      "symbol": "?HasTextureModel@R5CustomModelManagerView@@QAE_NH@Z",
+      "inferred_va": "0x1000d150",
+      "independent_expected_va": "0x1000d150",
+      "evidence": "accepted region closure_custom_model_queries",
+      "identity_agrees": true,
+      "pending_vendor": false
+    },
+    {
+      "unit": "closure_textdraw_texture_loader",
+      "symbol": "?IsModelReady@R5CustomModelManagerView@@QAE_NH@Z",
+      "inferred_va": "0x1000d190",
+      "independent_expected_va": "0x1000d190",
+      "evidence": "accepted region closure_custom_model_queries",
+      "identity_agrees": true,
+      "pending_vendor": false
+    },
+    {
+      "unit": "closure_textdraw_texture_loader",
+      "symbol": "?EnsureModelReady@R5CustomModelLoadView@@QAEHH@Z",
+      "inferred_va": "0x1000d320",
+      "independent_expected_va": "0x1000d320",
+      "evidence": "accepted region closure_custom_model_load_symbolic",
+      "identity_agrees": true,
+      "pending_vendor": false
+    },
+    {
+      "unit": "closure_textdraw_texture_loader",
+      "symbol": "?GetTextureId@R5CustomModelManagerView@@QAEKH@Z",
+      "inferred_va": "0x1000d280",
+      "independent_expected_va": "0x1000d280",
+      "evidence": "accepted region closure_custom_model_queries",
+      "identity_agrees": true,
+      "pending_vendor": false
+    },
+    {
+      "unit": "closure_textdraw_texture_loader",
+      "symbol": "??_C@_02EMFKHFLK@?$CFX?$AA@",
+      "inferred_va": "0x100e5cc8",
+      "independent_expected_va": "0x100e5cc8",
+      "evidence": "literal semantics checked against complete original data",
+      "identity_agrees": true,
+      "pending_vendor": false
+    },
+    {
+      "unit": "closure_textdraw_texture_loader",
+      "symbol": "_sprintf",
+      "inferred_va": "0x100c7353",
+      "independent_expected_va": "0x100c7353",
+      "evidence": "accepted external crt",
+      "identity_agrees": true,
+      "pending_vendor": false
+    },
+    {
+      "unit": "closure_textdraw_texture_loader",
+      "symbol": "?ReadTextdrawDictionaryTexture@@YAKPAD0@Z",
+      "inferred_va": "0x100b2c60",
+      "independent_expected_va": "0x100b2c60",
+      "evidence": "accepted region closure_textdraw_txd",
+      "identity_agrees": true,
+      "pending_vendor": false
+    },
+    {
+      "unit": "closure_textdraw_texture_loader",
+      "symbol": "?r5TextdrawTextures@@3PAKA",
+      "inferred_va": "0x1026b568",
+      "independent_expected_va": "0x1026b568",
+      "evidence": "accepted region closure_store_textdraw_textures",
+      "identity_agrees": true,
+      "pending_vendor": false
+    }
+  ]
+}
