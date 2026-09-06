@@ -1,0 +1,62 @@
+{
+  "status": "NORMAL_CPP_UNCOMPILED",
+  "baseline": 393482,
+  "potential_code": 965,
+  "functions": [
+    {
+      "name": "GameBuildRecreateVehicle",
+      "rva": 647376,
+      "size": 59,
+      "sha256": "089de8f0ff65e44c83f99b121990496b0f2a44c1c0add1155cfbcf15d17870bb"
+    },
+    {
+      "name": "GameBuildSelectVehicle",
+      "rva": 647440,
+      "size": 886,
+      "sha256": "3b1235168a2a28281bb46f22d21f8334fa67b365706c585cad4261463de4db58"
+    },
+    {
+      "name": "GameDebugDrawDebugScreens",
+      "rva": 648336,
+      "size": 20,
+      "sha256": "4b6f3361e3eccb8b1ad9818b3393ccd5d62a61a088d12c9abe2e28e3a64749ce"
+    }
+  ],
+  "source025_direct_potential": 20,
+  "hybrid024bytes": 945,
+  "stores": [
+    {
+      "unit": "closure_store_vehicle_selection_initialized",
+      "rva": 1376152,
+      "size": 4,
+      "initial": 0
+    },
+    {
+      "unit": "closure_store_vehicle_selection_vehicle",
+      "rva": 1376156,
+      "size": 4,
+      "initial": 0
+    },
+    {
+      "unit": "closure_store_vehicle_selection_model",
+      "rva": 1128684,
+      "size": 4,
+      "initial": 400
+    },
+    {
+      "unit": "closure_store_vehicle_selection_controls",
+      "rva": 1375920,
+      "size": 4,
+      "initial": 0
+    },
+    {
+      "unit": "closure_store_vehicle_selection_camera",
+      "rva": 1375924,
+      "size": 4,
+      "initial": 0
+    }
+  ],
+  "dependency": "New pending ped559 currentlyrootprobe; otherproviders accepted. FactoryA0250 exactnew provider alreadyaccepted. True3debugglobals reused.",
+  "profile_hint": "Original first Recreate call is inlined but four branchcalls remain. Body provided beforecaller in sameTU, normalCPP. Probe Ob2 recommended for native originalvisiblecallee inlining, without moving previous accepted owners.",
+  "inline_source_adaptation": "Expand original GameDebugEntity(0,0,0) into same3assignments, avoiding duplicate strongdefinition. Recreate blank2 remains declared but unused source literal removedbycompiler, originalR5 passescreationFlag0. All othersource025selectionbody retained."
+}

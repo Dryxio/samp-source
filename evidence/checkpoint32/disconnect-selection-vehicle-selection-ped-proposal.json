@@ -1,0 +1,61 @@
+{
+  "status": "NORMAL_CPP_NOT_COMPILED",
+  "potential_code": 559,
+  "functions": [
+    {
+      "name": "TogglePlayerControllable",
+      "rva": 706448,
+      "size": 178
+    },
+    {
+      "name": "PutDirectlyInVehicle",
+      "rva": 705168,
+      "size": 381
+    }
+  ],
+  "source025_direct": 0,
+  "origin": "Base full implementation; original inline IsInVehicle condition expanded without moving accepted owner; SetArmedWeapon explicit false matches originaltwoarguments; real separatelyowned poolmethods referenced via samefullviewdeclarations.",
+  "script_stores": [
+    {
+      "unit": "closure_store_selection_toggle_control",
+      "rva": 970272,
+      "size": 18,
+      "symbol": "r5SelectionTogglePlayerControllable",
+      "opcode": 436,
+      "params": "ii"
+    },
+    {
+      "unit": "closure_store_selection_lock_actor",
+      "rva": 970552,
+      "size": 18,
+      "symbol": "r5SelectionLockActor",
+      "opcode": 1239,
+      "params": "ii"
+    },
+    {
+      "unit": "closure_store_selection_put_driver",
+      "rva": 970332,
+      "size": 18,
+      "symbol": "r5SelectionPutActorInCarDriver",
+      "opcode": 874,
+      "params": "ii"
+    },
+    {
+      "unit": "closure_store_selection_put_passenger",
+      "rva": 970592,
+      "size": 18,
+      "symbol": "r5SelectionPutActorInCarPassenger",
+      "opcode": 1072,
+      "params": "iii"
+    },
+    {
+      "unit": "closure_store_selection_camera_vehicle",
+      "rva": 970212,
+      "size": 18,
+      "symbol": "r5SelectionCameraOnVehicle",
+      "opcode": 344,
+      "params": "iii"
+    }
+  ],
+  "closure": "Every non-script directcallee alreadyaccepted in packet-registration, no new unresolvedfunction; fivecomplete18-byte descriptors verified againstoriginal. All actual class/native fields inherited existingfullheaders; views pointer-only."
+}

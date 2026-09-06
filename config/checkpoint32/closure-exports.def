@@ -2506,3 +2506,28 @@ EXPORTS
     ?RefreshApplicationUiFonts@@YAXXZ
     ?SetupCommands@@YAXXZ
     ?UpdateLayout@R5TransferDialogLayoutView@@QAEXXZ
+    ?Disconnect@RakPeer@@UAEXIE@Z
+    ??1RemoteSystemStruct@RakPeer@@QAE@XZ
+    ?ClearRequestedConnectionList@RakPeer@@IAEXXZ
+    ?Clear@?$SingleProducerConsumer@URequestedConnectionStruct@RakPeer@@@DataStructures@@QAEXXZ
+    ?ReadUnlock@?$SingleProducerConsumer@URequestedConnectionStruct@RakPeer@@@DataStructures@@QAEXXZ
+    ?ReadLock@?$SingleProducerConsumer@URequestedConnectionStruct@RakPeer@@@DataStructures@@QAEPAURequestedConnectionStruct@RakPeer@@XZ
+    ?ClearBufferedCommands@RakPeer@@IAEXXZ
+    ?Clear@?$SingleProducerConsumer@UBufferedCommandStruct@RakPeer@@@DataStructures@@QAEXXZ
+    ?ReadUnlock@?$SingleProducerConsumer@UBufferedCommandStruct@RakPeer@@@DataStructures@@QAEXXZ
+    ?ReadLock@?$SingleProducerConsumer@UBufferedCommandStruct@RakPeer@@@DataStructures@@QAEPAUBufferedCommandStruct@RakPeer@@XZ
+    ?Clear@?$SingleProducerConsumer@PAUPacket@@@DataStructures@@QAEXXZ
+    ?Clear@?$OrderedList@UPlayerID@@UPlayerIDAndIndex@@$1?PlayerIDAndIndexComp@@YAHABU1@ABU2@@Z@DataStructures@@QAEXXZ
+    ?Clear@?$List@UPlayerIDAndIndex@@@DataStructures@@QAEX_N@Z
+    ?SendConnectionRequest@RakPeer@@IAE_NPBDGPADH@Z
+    ?WriteUnlock@?$SingleProducerConsumer@URequestedConnectionStruct@RakPeer@@@DataStructures@@QAEXXZ
+    ?WriteLock@?$SingleProducerConsumer@URequestedConnectionStruct@RakPeer@@@DataStructures@@QAEPAURequestedConnectionStruct@RakPeer@@XZ
+    ?GetRPCMap@RakPeer@@UAEPAURPCMap@@UPlayerID@@@Z
+    ?SetRemoteStaticData@RakPeer@@UAEXUPlayerID@@PBDH@Z
+    ?GetRemoteStaticData@RakPeer@@UAEPAVBitStream@RakNet@@UPlayerID@@@Z
+    ?IPToPlayerID@RakPeer@@UAEXPBDGPAUPlayerID@@@Z
+    ?TogglePlayerControllable@CPlayerPed@@QAEXH@Z
+    ?PutDirectlyInVehicle@CPlayerPed@@QAEXHH@Z
+    ?GameBuildRecreateVehicle@@YAXXZ
+    ?GameBuildSelectVehicle@@YAXXZ
+    ?GameDebugDrawDebugScreens@@YAXXZ

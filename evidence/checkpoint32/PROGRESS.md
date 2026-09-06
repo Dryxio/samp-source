@@ -1500,3 +1500,6 @@ Packet API2342 and command registration579: +2921 unique accepted code bytes, to
 
 
 Send/handshake5328 plus FontSize/Setup/layout/toggles1113: +6441 unique accepted code bytes, total393482/930756 (42.275527%).Complete original/linked functions/data/EH and all COFF/PE targets; real vendor allocations and callbacks, duplicate RSA/BitStream excluded. Whole UI globals proved by real initialization and distinct owners, no startup allocation credit. Friend preserves actual private CreateFonts AAE; both profiles recompiled once at header milestone. Ten controls and Actor ABI PASS. Direct025+0/cumulative22322. 16164.7 bytes/hour including coordination/failures. Goal active, no push/deploy.
+
+
+Disconnect1862 and vehicle selection965/ped559: +3386 unique accepted code bytes, total396868/930756 (42.639317%).Whole original/linked code/data/EH and every COFF/PE target; true RemoteSystem3177 lifetime, complete request queues, actual vehicle184 provider, five script descriptors18 and selection state. Duplicate FindPlayer/EH fully requalified, no duplicate/CRT/data/native dependency credit. Ten controls and Actor ABI PASS. No header change. Direct025+20/cumulative22342 via complete dispatcher20; remaining selection945 hybrid. 16221.9 bytes/hour including coordination/failures. RakClient family next; goal active, no push/deploy.

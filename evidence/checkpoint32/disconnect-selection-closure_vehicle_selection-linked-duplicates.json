@@ -1,0 +1,163 @@
+{
+  "status": "THREE_DUPLICATE_WHOLE_SECTIONS_AND_ACTUAL_SELECTED_LINK_PASS",
+  "run": "cp32-disconnect-selection-linked1",
+  "regions": [
+    {
+      "unit": "closure_vehicle_selection",
+      "anchor": "?FindPlayerPed@CGame@@QAEPAVCPlayerPed@@XZ",
+      "section": 48,
+      "rva": 4112,
+      "size": 94,
+      "kind": "code",
+      "anchor_offset": 0,
+      "sha256": "c68912916b6df6feb35b20db4e7b421d654238152cff390567881edf7dc6dc63",
+      "object_sha256": "f8d71fa22f83dd864440a7f0aedfd776c815136dfdedd8bad045ee3e1b410ef8",
+      "bindings": [
+        {
+          "symbol": "__ehhandler$?FindPlayerPed@CGame@@QAEPAVCPlayerPed@@XZ",
+          "site_rva": 4115,
+          "symbol_va": 269352587,
+          "addend": 0,
+          "target_va": 269352587,
+          "kind": 6,
+          "linked_target_va": 268928699
+        },
+        {
+          "symbol": "__except_list",
+          "site_rva": 4121,
+          "symbol_va": 0,
+          "addend": 0,
+          "target_va": 0,
+          "kind": 6,
+          "linked_target_va": 0
+        },
+        {
+          "symbol": "__except_list",
+          "site_rva": 4129,
+          "symbol_va": 0,
+          "addend": 0,
+          "target_va": 0,
+          "kind": 6,
+          "linked_target_va": 0
+        },
+        {
+          "symbol": "??2@YAPAXI@Z",
+          "site_rva": 4150,
+          "symbol_va": 269247098,
+          "addend": 0,
+          "target_va": 269247098,
+          "kind": 20,
+          "linked_target_va": 268849952
+        },
+        {
+          "symbol": "??0CPlayerPed@@QAE@XZ",
+          "site_rva": 4176,
+          "symbol_va": 269138544,
+          "addend": 0,
+          "target_va": 269138544,
+          "kind": 20,
+          "linked_target_va": 268630368
+        },
+        {
+          "symbol": "__except_list",
+          "site_rva": 4198,
+          "symbol_va": 0,
+          "addend": 0,
+          "target_va": 0,
+          "kind": 6,
+          "linked_target_va": 0
+        }
+      ],
+      "selected_linked_owner": "closure_player_lifetime.obj",
+      "linked_va": 268631184,
+      "new_unique_code": 0
+    },
+    {
+      "unit": "closure_vehicle_selection",
+      "anchor": "$L95107",
+      "section": 49,
+      "rva": 917120,
+      "size": 21,
+      "kind": "code",
+      "anchor_offset": 0,
+      "sha256": "9319808924bf8500b1410f9cb245444680ef7a3fe4e84b7ca09480967e1426d7",
+      "object_sha256": "f8d71fa22f83dd864440a7f0aedfd776c815136dfdedd8bad045ee3e1b410ef8",
+      "bindings": [
+        {
+          "symbol": "??3@YAXPAX@Z",
+          "site_rva": 917125,
+          "symbol_va": 269247626,
+          "addend": 0,
+          "target_va": 269247626,
+          "kind": 20,
+          "linked_target_va": 268850639
+        },
+        {
+          "symbol": "$T95111",
+          "site_rva": 917132,
+          "symbol_va": 269448728,
+          "addend": 0,
+          "target_va": 269448728,
+          "kind": 6,
+          "linked_target_va": 268985996
+        },
+        {
+          "symbol": "___CxxFrameHandler",
+          "site_rva": 917137,
+          "symbol_va": 269247782,
+          "addend": 0,
+          "target_va": 269247782,
+          "kind": 20,
+          "linked_target_va": 268850795
+        }
+      ],
+      "selected_linked_owner": "closure_player_lifetime.obj",
+      "linked_va": 268928688,
+      "new_unique_code": 0
+    },
+    {
+      "unit": "closure_vehicle_selection",
+      "anchor": "$T95111",
+      "section": 50,
+      "rva": 1013264,
+      "size": 36,
+      "kind": "data",
+      "anchor_offset": 8,
+      "sha256": "18eebed3494c03a403490a6f95494d9ce9fb81d4042f17a3cba066f92675eb8c",
+      "object_sha256": "f8d71fa22f83dd864440a7f0aedfd776c815136dfdedd8bad045ee3e1b410ef8",
+      "bindings": [
+        {
+          "symbol": "$L95107",
+          "site_rva": 1013268,
+          "symbol_va": 269352576,
+          "addend": 0,
+          "target_va": 269352576,
+          "kind": 6,
+          "linked_target_va": 268928688
+        },
+        {
+          "symbol": "$T95115",
+          "site_rva": 1013280,
+          "symbol_va": 269448720,
+          "addend": 0,
+          "target_va": 269448720,
+          "kind": 6,
+          "linked_target_va": 268985988
+        }
+      ],
+      "selected_linked_owner": "closure_player_lifetime.obj",
+      "linked_va": 268985988,
+      "new_unique_code": 0
+    }
+  ],
+  "code_revalidated_not_new": 115,
+  "data_revalidated_not_new": 36,
+  "new_unique_credit": 0,
+  "source": "Actual inline CGame::FindPlayerPed in game/game.h, whole CPlayerPed allocation and real constructor reused; commands TU includes it and emits a COMDAT copy.",
+  "selected_owner": "closure_player_lifetime.obj",
+  "notes": [
+    "Function94, complete EH21 (handler+11), complete FuncInfo36(anchor+8) all equal seven previous original identities.",
+    "Both candidate and selected old COFF fixups independently resolve to the same whole original and actual linked bytes; PE sets equal in both directions.",
+    "No auxiliary byte or allocation receives new coverage."
+  ]
+}

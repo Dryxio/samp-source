@@ -1,0 +1,774 @@
+{
+  "status": "REVIEWED_MAIN_SEEDS_AND_WHOLE_EH_BINDINGS_PREFLIGHT",
+  "run": "build/cp32-disconnect-requests-trial1",
+  "roots": {
+    "?IPToPlayerID@RakPeer@@UAEXPBDGPAUPlayerID@@@Z": 232624,
+    "?ClearBufferedCommands@RakPeer@@IAEXXZ": 241680,
+    "?ClearRequestedConnectionList@RakPeer@@IAEXXZ": 241744,
+    "?GetRemoteStaticData@RakPeer@@UAEPAVBitStream@RakNet@@UPlayerID@@@Z": 255040,
+    "?SetRemoteStaticData@RakPeer@@UAEXUPlayerID@@PBDH@Z": 255120,
+    "?GetRPCMap@RakPeer@@UAEPAURPCMap@@UPlayerID@@@Z": 255328,
+    "?SendConnectionRequest@RakPeer@@IAE_NPBDGPADH@Z": 255648,
+    "?Disconnect@RakPeer@@UAEXIE@Z": 263712
+  },
+  "seeds": {
+    "eval_vendor_rakpeer_disconnect_requests": {
+      "?Disconnect@RakPeer@@UAEXIE@Z": 263712,
+      "??1RemoteSystemStruct@RakPeer@@QAE@XZ": 230304,
+      "?ClearRequestedConnectionList@RakPeer@@IAEXXZ": 241744,
+      "?Clear@?$SingleProducerConsumer@URequestedConnectionStruct@RakPeer@@@DataStructures@@QAEXXZ": 234272,
+      "?ReadUnlock@?$SingleProducerConsumer@URequestedConnectionStruct@RakPeer@@@DataStructures@@QAEXXZ": 234240,
+      "?ReadLock@?$SingleProducerConsumer@URequestedConnectionStruct@RakPeer@@@DataStructures@@QAEPAURequestedConnectionStruct@RakPeer@@XZ": 234192,
+      "?ClearBufferedCommands@RakPeer@@IAEXXZ": 241680,
+      "?Clear@?$SingleProducerConsumer@UBufferedCommandStruct@RakPeer@@@DataStructures@@QAEXXZ": 234720,
+      "?ReadUnlock@?$SingleProducerConsumer@UBufferedCommandStruct@RakPeer@@@DataStructures@@QAEXXZ": 234688,
+      "?ReadLock@?$SingleProducerConsumer@UBufferedCommandStruct@RakPeer@@@DataStructures@@QAEPAUBufferedCommandStruct@RakPeer@@XZ": 234656,
+      "?Clear@?$SingleProducerConsumer@PAUPacket@@@DataStructures@@QAEXXZ": 235168,
+      "?Clear@?$OrderedList@UPlayerID@@UPlayerIDAndIndex@@$1?PlayerIDAndIndexComp@@YAHABU1@ABU2@@Z@DataStructures@@QAEXXZ": 242160,
+      "?Clear@?$List@UPlayerIDAndIndex@@@DataStructures@@QAEX_N@Z": 236192,
+      "?SendConnectionRequest@RakPeer@@IAE_NPBDGPADH@Z": 255648,
+      "?WriteUnlock@?$SingleProducerConsumer@URequestedConnectionStruct@RakPeer@@@DataStructures@@QAEXXZ": 234160,
+      "?WriteLock@?$SingleProducerConsumer@URequestedConnectionStruct@RakPeer@@@DataStructures@@QAEPAURequestedConnectionStruct@RakPeer@@XZ": 234064,
+      "?GetRPCMap@RakPeer@@UAEPAURPCMap@@UPlayerID@@@Z": 255328,
+      "?SetRemoteStaticData@RakPeer@@UAEXUPlayerID@@PBDH@Z": 255120,
+      "?GetRemoteStaticData@RakPeer@@UAEPAVBitStream@RakNet@@UPlayerID@@@Z": 255040,
+      "?IPToPlayerID@RakPeer@@UAEXPBDGPAUPlayerID@@@Z": 232624
+    }
+  },
+  "regions": [
+    {
+      "unit": "eval_vendor_rakpeer_disconnect_requests",
+      "section": 62,
+      "rva": 263712,
+      "size": 620,
+      "kind": ".text",
+      "sha256": "cd900d2c9225c48f7b7386d57df1f2f16257013beafa0f81ea0d162e6939f5ee",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "?NotifyAndFlagForDisconnect@RakPeer@@IAEXUPlayerID@@_NE@Z",
+          "site_rva": 263785,
+          "target_va": 268691696,
+          "kind": 20
+        },
+        {
+          "symbol": "?GetTime@RakNet@@YAIXZ",
+          "site_rva": 263799,
+          "target_va": 268625904,
+          "kind": 20
+        },
+        {
+          "symbol": "?RakSleep@@YAXI@Z",
+          "site_rva": 263846,
+          "target_va": 268712608,
+          "kind": 20
+        },
+        {
+          "symbol": "?GetTime@RakNet@@YAIXZ",
+          "site_rva": 263854,
+          "target_va": 268625904,
+          "kind": 20
+        },
+        {
+          "symbol": "?RakSleep@@YAXI@Z",
+          "site_rva": 263923,
+          "target_va": 268712608,
+          "kind": 20
+        },
+        {
+          "symbol": "?Reset@ReliabilityLayer@@QAEX_N@Z",
+          "site_rva": 263975,
+          "target_va": 268739312,
+          "kind": 20
+        },
+        {
+          "symbol": "?Clear@?$OrderedList@UPlayerID@@UPlayerIDAndIndex@@$1?PlayerIDAndIndexComp@@YAHABU1@ABU2@@Z@DataStructures@@QAEXXZ",
+          "site_rva": 263995,
+          "target_va": 268677616,
+          "kind": 20
+        },
+        {
+          "symbol": "?ReadLock@?$SingleProducerConsumer@PAUPacket@@@DataStructures@@QAEPAPAUPacket@@XZ",
+          "site_rva": 264014,
+          "target_va": 268670560,
+          "kind": 20
+        },
+        {
+          "symbol": "?ReadUnlock@?$SingleProducerConsumer@PAUPacket@@@DataStructures@@QAEXXZ",
+          "site_rva": 264035,
+          "target_va": 268670592,
+          "kind": 20
+        },
+        {
+          "symbol": "?ReadLock@?$SingleProducerConsumer@PAUPacket@@@DataStructures@@QAEPAPAUPacket@@XZ",
+          "site_rva": 264042,
+          "target_va": 268670560,
+          "kind": 20
+        },
+        {
+          "symbol": "?Clear@?$SingleProducerConsumer@PAUPacket@@@DataStructures@@QAEXXZ",
+          "site_rva": 264053,
+          "target_va": 268670624,
+          "kind": 20
+        },
+        {
+          "symbol": "??3@YAXPAX@Z",
+          "site_rva": 264190,
+          "target_va": 269247626,
+          "kind": 20
+        },
+        {
+          "symbol": "__imp__closesocket@4",
+          "site_rva": 264236,
+          "target_va": 269374560,
+          "kind": 6
+        },
+        {
+          "symbol": "?ClearBufferedCommands@RakPeer@@IAEXXZ",
+          "site_rva": 264253,
+          "target_va": 268677136,
+          "kind": 20
+        },
+        {
+          "symbol": "?ClearRequestedConnectionList@RakPeer@@IAEXXZ",
+          "site_rva": 264272,
+          "target_va": 268677200,
+          "kind": 20
+        },
+        {
+          "symbol": "??1RemoteSystemStruct@RakPeer@@QAE@XZ",
+          "site_rva": 264299,
+          "target_va": 268665760,
+          "kind": 6
+        },
+        {
+          "symbol": "??_M@YGXPAXIHP6EX0@Z@Z",
+          "site_rva": 264311,
+          "target_va": 269254767,
+          "kind": 20
+        },
+        {
+          "symbol": "??3@YAXPAX@Z",
+          "site_rva": 264317,
+          "target_va": 269247626,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "eval_vendor_rakpeer_disconnect_requests",
+      "section": 5,
+      "rva": 230304,
+      "size": 96,
+      "kind": ".text",
+      "sha256": "e5a126485b84ea87cfb31ab9c4c1982d1f2ebe85fb7dc9596f5d12b051dbdde9",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "__ehhandler$??1RemoteSystemStruct@RakPeer@@QAE@XZ",
+          "site_rva": 230307,
+          "target_va": 269362953,
+          "kind": 6
+        },
+        {
+          "symbol": "__except_list",
+          "site_rva": 230313,
+          "target_va": 0,
+          "kind": 6
+        },
+        {
+          "symbol": "__except_list",
+          "site_rva": 230321,
+          "target_va": 0,
+          "kind": 6
+        },
+        {
+          "symbol": "??1RPCMap@@QAE@XZ",
+          "site_rva": 230348,
+          "target_va": 268768992,
+          "kind": 20
+        },
+        {
+          "symbol": "??1BitStream@RakNet@@QAE@XZ",
+          "site_rva": 230364,
+          "target_va": 268564688,
+          "kind": 20
+        },
+        {
+          "symbol": "??1ReliabilityLayer@@QAE@XZ",
+          "site_rva": 230380,
+          "target_va": 268739056,
+          "kind": 20
+        },
+        {
+          "symbol": "__except_list",
+          "site_rva": 230392,
+          "target_va": 0,
+          "kind": 6
+        }
+      ]
+    },
+    {
+      "unit": "eval_vendor_rakpeer_disconnect_requests",
+      "section": 58,
+      "rva": 241744,
+      "size": 60,
+      "kind": ".text",
+      "sha256": "2150f2b8426af1afa911639db4222957d1abc549faa452c7b80787fc1df51873",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "?ReadLock@?$SingleProducerConsumer@URequestedConnectionStruct@RakPeer@@@DataStructures@@QAEPAURequestedConnectionStruct@RakPeer@@XZ",
+          "site_rva": 241754,
+          "target_va": 268669648,
+          "kind": 20
+        },
+        {
+          "symbol": "??3@YAXPAX@Z",
+          "site_rva": 241771,
+          "target_va": 269247626,
+          "kind": 20
+        },
+        {
+          "symbol": "?ReadUnlock@?$SingleProducerConsumer@URequestedConnectionStruct@RakPeer@@@DataStructures@@QAEXXZ",
+          "site_rva": 241781,
+          "target_va": 268669696,
+          "kind": 20
+        },
+        {
+          "symbol": "?ReadLock@?$SingleProducerConsumer@URequestedConnectionStruct@RakPeer@@@DataStructures@@QAEPAURequestedConnectionStruct@RakPeer@@XZ",
+          "site_rva": 241788,
+          "target_va": 268669648,
+          "kind": 20
+        },
+        {
+          "symbol": "?Clear@?$SingleProducerConsumer@URequestedConnectionStruct@RakPeer@@@DataStructures@@QAEXXZ",
+          "site_rva": 241800,
+          "target_va": 268669728,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "eval_vendor_rakpeer_disconnect_requests",
+      "section": 30,
+      "rva": 234272,
+      "size": 112,
+      "kind": ".text",
+      "sha256": "091eefc9642e4b38d09df02b8ebe9ab079fadc95d30e00d9bc53fd7bb3983fc7",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "??3@YAXPAX@Z",
+          "site_rva": 234336,
+          "target_va": 269247626,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "eval_vendor_rakpeer_disconnect_requests",
+      "section": 28,
+      "rva": 234240,
+      "size": 26,
+      "kind": ".text",
+      "sha256": "06ce13aafd37a59d186fa0d5abb2b91e7bbb59afdeadf3fcdcbb52a5f7734cec",
+      "whole_bytes_equal": true,
+      "bindings": []
+    },
+    {
+      "unit": "eval_vendor_rakpeer_disconnect_requests",
+      "section": 26,
+      "rva": 234192,
+      "size": 29,
+      "kind": ".text",
+      "sha256": "9250c2a4715134aa73c4023f7dcdbd0ff2259081c506269df76818cdefdbdc67",
+      "whole_bytes_equal": true,
+      "bindings": []
+    },
+    {
+      "unit": "eval_vendor_rakpeer_disconnect_requests",
+      "section": 56,
+      "rva": 241680,
+      "size": 60,
+      "kind": ".text",
+      "sha256": "8294898b7e5179a91c565b298d7cb29693dce28fe6fba56808840c8d5a128de8",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "?ReadLock@?$SingleProducerConsumer@UBufferedCommandStruct@RakPeer@@@DataStructures@@QAEPAUBufferedCommandStruct@RakPeer@@XZ",
+          "site_rva": 241690,
+          "target_va": 268670112,
+          "kind": 20
+        },
+        {
+          "symbol": "??3@YAXPAX@Z",
+          "site_rva": 241707,
+          "target_va": 269247626,
+          "kind": 20
+        },
+        {
+          "symbol": "?ReadUnlock@?$SingleProducerConsumer@UBufferedCommandStruct@RakPeer@@@DataStructures@@QAEXXZ",
+          "site_rva": 241717,
+          "target_va": 268670144,
+          "kind": 20
+        },
+        {
+          "symbol": "?ReadLock@?$SingleProducerConsumer@UBufferedCommandStruct@RakPeer@@@DataStructures@@QAEPAUBufferedCommandStruct@RakPeer@@XZ",
+          "site_rva": 241724,
+          "target_va": 268670112,
+          "kind": 20
+        },
+        {
+          "symbol": "?Clear@?$SingleProducerConsumer@UBufferedCommandStruct@RakPeer@@@DataStructures@@QAEXXZ",
+          "site_rva": 241736,
+          "target_va": 268670176,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "eval_vendor_rakpeer_disconnect_requests",
+      "section": 36,
+      "rva": 234720,
+      "size": 101,
+      "kind": ".text",
+      "sha256": "b6de56a612b1c9f532eb95ba3173d94c99a3270c595cf730f9ce66a1ce180c8e",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "??3@YAXPAX@Z",
+          "site_rva": 234776,
+          "target_va": 269247626,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "eval_vendor_rakpeer_disconnect_requests",
+      "section": 34,
+      "rva": 234688,
+      "size": 20,
+      "kind": ".text",
+      "sha256": "aa2880189e90aec0a82f387e359e6b3a52bf23b671ebe9e277160b20698a6340",
+      "whole_bytes_equal": true,
+      "bindings": []
+    },
+    {
+      "unit": "eval_vendor_rakpeer_disconnect_requests",
+      "section": 32,
+      "rva": 234656,
+      "size": 23,
+      "kind": ".text",
+      "sha256": "493975f6497424d0b98000ebcb023e57434a65d86c8856d91b838e79db4e350a",
+      "whole_bytes_equal": true,
+      "bindings": []
+    },
+    {
+      "unit": "eval_vendor_rakpeer_disconnect_requests",
+      "section": 42,
+      "rva": 235168,
+      "size": 101,
+      "kind": ".text",
+      "sha256": "7c97d630d115534ab73b01adb1d66e4bf53a2fe19ab8e03b6751bba4bcd9461c",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "??3@YAXPAX@Z",
+          "site_rva": 235224,
+          "target_va": 269247626,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "eval_vendor_rakpeer_disconnect_requests",
+      "section": 40,
+      "rva": 235136,
+      "size": 20,
+      "kind": ".text",
+      "sha256": "676a106aed53894a85ced0c54d12c5b3548bfc08cc66b9bdfb07cfd1f26bb489",
+      "whole_bytes_equal": true,
+      "bindings": []
+    },
+    {
+      "unit": "eval_vendor_rakpeer_disconnect_requests",
+      "section": 38,
+      "rva": 235104,
+      "size": 23,
+      "kind": ".text",
+      "sha256": "427faa08aff2fbeb9cb550584989f8aaec8e30e587b281e1172cef123a1fee8d",
+      "whole_bytes_equal": true,
+      "bindings": []
+    },
+    {
+      "unit": "eval_vendor_rakpeer_disconnect_requests",
+      "section": 60,
+      "rva": 242160,
+      "size": 8,
+      "kind": ".text",
+      "sha256": "d07cb69e5cb8c83b7e55c5c66999af69625aaadf64046276de7550a3bd256cf6",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "?Clear@?$List@UPlayerIDAndIndex@@@DataStructures@@QAEX_N@Z",
+          "site_rva": 242163,
+          "target_va": 268671648,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "eval_vendor_rakpeer_disconnect_requests",
+      "section": 50,
+      "rva": 236192,
+      "size": 60,
+      "kind": ".text",
+      "sha256": "754bf7df326682a1092783306ca448d4927d488a2f456fc53fb53dcf129b8047",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "??3@YAXPAX@Z",
+          "site_rva": 236221,
+          "target_va": 269247626,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "eval_vendor_rakpeer_disconnect_requests",
+      "section": 54,
+      "rva": 255648,
+      "size": 193,
+      "kind": ".text",
+      "sha256": "e7010e2f70f0a0db53cf2f7a8c60cb230e01c8feec879a333f722dc8550a18e6",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "?GetRemoteSystemFromPlayerID@RakPeer@@IBEPAURemoteSystemStruct@1@UPlayerID@@_N1@Z",
+          "site_rva": 255709,
+          "target_va": 268683232,
+          "kind": 20
+        },
+        {
+          "symbol": "?WriteLock@?$SingleProducerConsumer@URequestedConnectionStruct@RakPeer@@@DataStructures@@QAEPAURequestedConnectionStruct@RakPeer@@XZ",
+          "site_rva": 255738,
+          "target_va": 268669520,
+          "kind": 20
+        },
+        {
+          "symbol": "?GetTime@RakNet@@YAIXZ",
+          "site_rva": 255761,
+          "target_va": 268625904,
+          "kind": 20
+        },
+        {
+          "symbol": "?WriteUnlock@?$SingleProducerConsumer@URequestedConnectionStruct@RakPeer@@@DataStructures@@QAEXXZ",
+          "site_rva": 255825,
+          "target_va": 268669616,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "eval_vendor_rakpeer_disconnect_requests",
+      "section": 24,
+      "rva": 234160,
+      "size": 26,
+      "kind": ".text",
+      "sha256": "3909356a030cfa84e0301d2a98c5cfb5181ab18fdbda7651f0348bcd0347c10f",
+      "whole_bytes_equal": true,
+      "bindings": []
+    },
+    {
+      "unit": "eval_vendor_rakpeer_disconnect_requests",
+      "section": 22,
+      "rva": 234064,
+      "size": 91,
+      "kind": ".text",
+      "sha256": "63a1e1536e679eb51bb5b04bd3be682a1b3baf6c4ef6572e8cfbbc4388494bb0",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "??2@YAPAXI@Z",
+          "site_rva": 234109,
+          "target_va": 269247098,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "eval_vendor_rakpeer_disconnect_requests",
+      "section": 14,
+      "rva": 255328,
+      "size": 81,
+      "kind": ".text",
+      "sha256": "3664bdec9e43671c5a680d37cc5b8ba05e78a6ed9552902942e287cd4446af05",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "_UNASSIGNED_PLAYER_ID",
+          "site_rva": 255332,
+          "target_va": 269477860,
+          "kind": 6
+        },
+        {
+          "symbol": "??8PlayerID@@QBE_NABU0@@Z",
+          "site_rva": 255341,
+          "target_va": 268646112,
+          "kind": 20
+        },
+        {
+          "symbol": "?GetRemoteSystemFromPlayerID@RakPeer@@IBEPAURemoteSystemStruct@1@UPlayerID@@_N1@Z",
+          "site_rva": 255386,
+          "target_va": 268683232,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "eval_vendor_rakpeer_disconnect_requests",
+      "section": 12,
+      "rva": 255120,
+      "size": 131,
+      "kind": ".text",
+      "sha256": "3a712807ecc913209012929836038de84264957ca5a3be429ef7b5a9d4a45335",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "??8PlayerID@@QBE_NABU0@@Z",
+          "site_rva": 255135,
+          "target_va": 268646112,
+          "kind": 20
+        },
+        {
+          "symbol": "?Reset@BitStream@RakNet@@QAEXXZ",
+          "site_rva": 255149,
+          "target_va": 268564720,
+          "kind": 20
+        },
+        {
+          "symbol": "?Write@BitStream@RakNet@@QAEXPBDH@Z",
+          "site_rva": 255174,
+          "target_va": 268566672,
+          "kind": 20
+        },
+        {
+          "symbol": "?GetRemoteSystemFromPlayerID@RakPeer@@IBEPAURemoteSystemStruct@1@UPlayerID@@_N1@Z",
+          "site_rva": 255209,
+          "target_va": 268683232,
+          "kind": 20
+        },
+        {
+          "symbol": "?Reset@BitStream@RakNet@@QAEXXZ",
+          "site_rva": 255226,
+          "target_va": 268564720,
+          "kind": 20
+        },
+        {
+          "symbol": "?Write@BitStream@RakNet@@QAEXPBDH@Z",
+          "site_rva": 255243,
+          "target_va": 268566672,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "eval_vendor_rakpeer_disconnect_requests",
+      "section": 10,
+      "rva": 255040,
+      "size": 80,
+      "kind": ".text",
+      "sha256": "6ee40121868f5c999325002c261d6e0e89f5c6e7252b52cf1bac6ef9a1c36dd5",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "??8PlayerID@@QBE_NABU0@@Z",
+          "site_rva": 255055,
+          "target_va": 268646112,
+          "kind": 20
+        },
+        {
+          "symbol": "?GetRemoteSystemFromPlayerID@RakPeer@@IBEPAURemoteSystemStruct@1@UPlayerID@@_N1@Z",
+          "site_rva": 255097,
+          "target_va": 268683232,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "eval_vendor_rakpeer_disconnect_requests",
+      "section": 16,
+      "rva": 232624,
+      "size": 33,
+      "kind": ".text",
+      "sha256": "58624a74e33d44c0e48749f29d79a1aea72dd8c972a7de5d91c5c573fa7fb2df",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "__imp__inet_addr@4",
+          "site_rva": 232635,
+          "target_va": 269374528,
+          "kind": 6
+        }
+      ]
+    },
+    {
+      "unit": "eval_vendor_rakpeer_disconnect_requests",
+      "section": 6,
+      "rva": 927472,
+      "size": 35,
+      "kind": ".text$x",
+      "sha256": "581fef218037520b802b0880f831cd9c73e28440c0b916fe43fffee79da3a3e4",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "??1ReliabilityLayer@@QAE@XZ",
+          "site_rva": 927479,
+          "target_va": 268739056,
+          "kind": 20
+        },
+        {
+          "symbol": "??1BitStream@RakNet@@QAE@XZ",
+          "site_rva": 927493,
+          "target_va": 268564688,
+          "kind": 20
+        },
+        {
+          "symbol": "$T62794",
+          "site_rva": 927498,
+          "target_va": 269460488,
+          "kind": 6
+        },
+        {
+          "symbol": "___CxxFrameHandler",
+          "site_rva": 927503,
+          "target_va": 269247782,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "eval_vendor_rakpeer_disconnect_requests",
+      "section": 64,
+      "rva": 1042404,
+      "size": 16,
+      "kind": ".data",
+      "sha256": "44774f987c1b2569c171277ac704deed6fa979e51c12bc30dc3b0defaf92ede9",
+      "whole_bytes_equal": true,
+      "bindings": []
+    },
+    {
+      "unit": "eval_vendor_rakpeer_disconnect_requests",
+      "section": 7,
+      "rva": 1025016,
+      "size": 44,
+      "kind": ".xdata$x",
+      "sha256": "bebee10f7a2f99ffa26a42e02c2f33137830433d0e39d28d700c81c89c278a2d",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "$L62788",
+          "site_rva": 1025020,
+          "target_va": 269362928,
+          "kind": 6
+        },
+        {
+          "symbol": "$L62789",
+          "site_rva": 1025028,
+          "target_va": 269362939,
+          "kind": 6
+        },
+        {
+          "symbol": "$T62797",
+          "site_rva": 1025040,
+          "target_va": 269460472,
+          "kind": 6
+        }
+      ]
+    }
+  ],
+  "bindings_checked": 64,
+  "external_targets": {
+    "?NotifyAndFlagForDisconnect@RakPeer@@IAEXUPlayerID@@_NE@Z": 268691696,
+    "?GetTime@RakNet@@YAIXZ": 268625904,
+    "?RakSleep@@YAXI@Z": 268712608,
+    "?Reset@ReliabilityLayer@@QAEX_N@Z": 268739312,
+    "??3@YAXPAX@Z": 269247626,
+    "__imp__closesocket@4": 269374560,
+    "??_M@YGXPAXIHP6EX0@Z@Z": 269254767,
+    "__ehhandler$??1RemoteSystemStruct@RakPeer@@QAE@XZ": 269362953,
+    "__except_list": 0,
+    "??1RPCMap@@QAE@XZ": 268768992,
+    "??1BitStream@RakNet@@QAE@XZ": 268564688,
+    "??1ReliabilityLayer@@QAE@XZ": 268739056,
+    "?GetRemoteSystemFromPlayerID@RakPeer@@IBEPAURemoteSystemStruct@1@UPlayerID@@_N1@Z": 268683232,
+    "??2@YAPAXI@Z": 269247098,
+    "eval_vendor_rakpeer_disconnect_requests::_UNASSIGNED_PLAYER_ID": 269477860,
+    "??8PlayerID@@QBE_NABU0@@Z": 268646112,
+    "?Reset@BitStream@RakNet@@QAEXXZ": 268564720,
+    "?Write@BitStream@RakNet@@QAEXPBDH@Z": 268566672,
+    "__imp__inet_addr@4": 269374528,
+    "eval_vendor_rakpeer_disconnect_requests::$T62794": 269460488,
+    "___CxxFrameHandler": 269247782,
+    "eval_vendor_rakpeer_disconnect_requests::$L62788": 269362928,
+    "eval_vendor_rakpeer_disconnect_requests::$L62789": 269362939,
+    "eval_vendor_rakpeer_disconnect_requests::$T62797": 269460472
+  },
+  "identity_reasons": {
+    "?IPToPlayerID@RakPeer@@UAEXPBDGPAUPlayerID@@@Z": "source method semantics + original call graph / allocation / table owner",
+    "?ClearBufferedCommands@RakPeer@@IAEXXZ": "actual relocation from ?Disconnect@RakPeer@@UAEXIE@Z",
+    "?ClearRequestedConnectionList@RakPeer@@IAEXXZ": "actual relocation from ?Disconnect@RakPeer@@UAEXIE@Z",
+    "?GetRemoteStaticData@RakPeer@@UAEPAVBitStream@RakNet@@UPlayerID@@@Z": "source method semantics + original call graph / allocation / table owner",
+    "?SetRemoteStaticData@RakPeer@@UAEXUPlayerID@@PBDH@Z": "source method semantics + original call graph / allocation / table owner",
+    "?GetRPCMap@RakPeer@@UAEPAURPCMap@@UPlayerID@@@Z": "source method semantics + original call graph / allocation / table owner",
+    "?SendConnectionRequest@RakPeer@@IAE_NPBDGPADH@Z": "source method semantics + original call graph / allocation / table owner",
+    "?Disconnect@RakPeer@@UAEXIE@Z": "source method semantics + original call graph / allocation / table owner",
+    "?Clear@?$OrderedList@UPlayerID@@UPlayerIDAndIndex@@$1?PlayerIDAndIndexComp@@YAHABU1@ABU2@@Z@DataStructures@@QAEXXZ": "actual relocation from ?Disconnect@RakPeer@@UAEXIE@Z",
+    "?ReadLock@?$SingleProducerConsumer@PAUPacket@@@DataStructures@@QAEPAPAUPacket@@XZ": "actual relocation from ?Disconnect@RakPeer@@UAEXIE@Z",
+    "?ReadUnlock@?$SingleProducerConsumer@PAUPacket@@@DataStructures@@QAEXXZ": "actual relocation from ?Disconnect@RakPeer@@UAEXIE@Z",
+    "?Clear@?$SingleProducerConsumer@PAUPacket@@@DataStructures@@QAEXXZ": "actual relocation from ?Disconnect@RakPeer@@UAEXIE@Z",
+    "??1RemoteSystemStruct@RakPeer@@QAE@XZ": "actual relocation from ?Disconnect@RakPeer@@UAEXIE@Z",
+    "?ReadLock@?$SingleProducerConsumer@URequestedConnectionStruct@RakPeer@@@DataStructures@@QAEPAURequestedConnectionStruct@RakPeer@@XZ": "actual relocation from ?ClearRequestedConnectionList@RakPeer@@IAEXXZ",
+    "?ReadUnlock@?$SingleProducerConsumer@URequestedConnectionStruct@RakPeer@@@DataStructures@@QAEXXZ": "actual relocation from ?ClearRequestedConnectionList@RakPeer@@IAEXXZ",
+    "?Clear@?$SingleProducerConsumer@URequestedConnectionStruct@RakPeer@@@DataStructures@@QAEXXZ": "actual relocation from ?ClearRequestedConnectionList@RakPeer@@IAEXXZ",
+    "?ReadLock@?$SingleProducerConsumer@UBufferedCommandStruct@RakPeer@@@DataStructures@@QAEPAUBufferedCommandStruct@RakPeer@@XZ": "actual relocation from ?ClearBufferedCommands@RakPeer@@IAEXXZ",
+    "?ReadUnlock@?$SingleProducerConsumer@UBufferedCommandStruct@RakPeer@@@DataStructures@@QAEXXZ": "actual relocation from ?ClearBufferedCommands@RakPeer@@IAEXXZ",
+    "?Clear@?$SingleProducerConsumer@UBufferedCommandStruct@RakPeer@@@DataStructures@@QAEXXZ": "actual relocation from ?ClearBufferedCommands@RakPeer@@IAEXXZ",
+    "?Clear@?$List@UPlayerIDAndIndex@@@DataStructures@@QAEX_N@Z": "actual relocation from ?Clear@?$OrderedList@UPlayerID@@UPlayerIDAndIndex@@$1?PlayerIDAndIndexComp@@YAHABU1@ABU2@@Z@DataStructures@@QAEXXZ",
+    "?WriteLock@?$SingleProducerConsumer@URequestedConnectionStruct@RakPeer@@@DataStructures@@QAEPAURequestedConnectionStruct@RakPeer@@XZ": "actual relocation from ?SendConnectionRequest@RakPeer@@IAE_NPBDGPADH@Z",
+    "?WriteUnlock@?$SingleProducerConsumer@URequestedConnectionStruct@RakPeer@@@DataStructures@@QAEXXZ": "actual relocation from ?SendConnectionRequest@RakPeer@@IAE_NPBDGPADH@Z"
+  },
+  "new_unique_code": 1862,
+  "already_covered_code": 167,
+  "physical_code_compared": 2029,
+  "baseline": 393482,
+  "source025_direct_bytes": 0,
+  "reuse_existing_owners": {
+    "?ReadUnlock@?$SingleProducerConsumer@PAUPacket@@@DataStructures@@QAEXXZ": {
+      "unit": "eval_vendor_rakpeer_packet_api",
+      "rva": 235136,
+      "size": 20
+    },
+    "?ReadLock@?$SingleProducerConsumer@PAUPacket@@@DataStructures@@QAEPAPAUPacket@@XZ": {
+      "unit": "eval_vendor_rakpeer_packet_api",
+      "rva": 235104,
+      "size": 23
+    }
+  },
+  "excluded_unmatched": [],
+  "explicit_owner_transfer": "None; disconnect/request methods reuse existing owners.",
+  "unselected_method": "Only real disconnect/request roots and original relocation closure selected; callback implementations are never credited.",
+  "source_files": [
+    {
+      "path": "client/saco/eval_vendor_rakpeer_disconnect_requests.cpp",
+      "sha256": "d91f621c8539014a6759bb2163f1e68447636104a72f49e03ac37eb144e0fd6e"
+    }
+  ],
+  "objects": {
+    "eval_vendor_rakpeer_disconnect_requests": "84930b1a7777dec31c20d005933e9f1295918e4b6e059b4e7e66673d6d813716"
+  },
+  "actual_weak_aliases": {
+    "eval_vendor_rakpeer_disconnect_requests": {}
+  }
+}

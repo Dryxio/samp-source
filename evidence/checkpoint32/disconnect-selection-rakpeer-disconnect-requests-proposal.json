@@ -1,0 +1,111 @@
+{
+  "status": "SOURCE_PROPOSAL_NOT_ACCEPTED",
+  "old_unambiguous_roots": [
+    {
+      "symbol": "?IPToPlayerID@RakPeer@@UAEXPBDGPAUPlayerID@@@Z",
+      "rva": 232624,
+      "size": 33,
+      "new_candidate_bytes": 33
+    },
+    {
+      "symbol": "?ClearBufferedCommands@RakPeer@@IAEXXZ",
+      "rva": 241680,
+      "size": 60,
+      "new_candidate_bytes": 60
+    },
+    {
+      "symbol": "?ClearRequestedConnectionList@RakPeer@@IAEXXZ",
+      "rva": 241744,
+      "size": 60,
+      "new_candidate_bytes": 60
+    },
+    {
+      "symbol": "?GetRemoteStaticData@RakPeer@@UAEPAVBitStream@RakNet@@UPlayerID@@@Z",
+      "rva": 255040,
+      "size": 80,
+      "new_candidate_bytes": 80
+    },
+    {
+      "symbol": "?SetRemoteStaticData@RakPeer@@UAEXUPlayerID@@PBDH@Z",
+      "rva": 255120,
+      "size": 131,
+      "new_candidate_bytes": 131
+    },
+    {
+      "symbol": "?GetRPCMap@RakPeer@@UAEPAURPCMap@@UPlayerID@@@Z",
+      "rva": 255328,
+      "size": 81,
+      "new_candidate_bytes": 81
+    },
+    {
+      "symbol": "?SendConnectionRequest@RakPeer@@IAE_NPBDGPADH@Z",
+      "rva": 255648,
+      "size": 193,
+      "new_candidate_bytes": 193
+    },
+    {
+      "symbol": "?Disconnect@RakPeer@@UAEXIE@Z",
+      "rva": 263712,
+      "size": 620,
+      "new_candidate_bytes": 620
+    }
+  ],
+  "potential_root_bytes": 1258,
+  "baseline_proof": "evidence/checkpoint32/packet-registration-acceptance.json",
+  "pending_deduction": "rakpeer-send-handshake-reviewed-manifest.json",
+  "source025_direct_bytes": 0,
+  "source": "vendor/upstream/raknet/RakPeer.cpp",
+  "source_sha256": "71b46e7918c933c5eb7a171d5c76d43833568e3193a0244b79e40bec4854c61b",
+  "proposal": "build/agent-independent/eval_vendor_rakpeer_disconnect_requests.cpp",
+  "proposal_sha256": "d91f621c8539014a6759bb2163f1e68447636104a72f49e03ac37eb144e0fd6e",
+  "functions": [
+    {
+      "method": "Disconnect",
+      "source_line": 629,
+      "sha256": "c0a2caad58c7e3171ad52cdfbf08fd309a2514acf084931ab13f37911568764d"
+    },
+    {
+      "method": "GetRemoteStaticData",
+      "source_line": 1698,
+      "sha256": "acaebfecbe445a67fb9bdb60a4fc2fe4f3a2951861732f352ddbd2aa64b64c5a"
+    },
+    {
+      "method": "SetRemoteStaticData",
+      "source_line": 1721,
+      "sha256": "b68c1a6fe5fe726f48bf27f2febb9354fa4c5dff35bb5d3a9c951307ef65a9fe"
+    },
+    {
+      "method": "GetRPCMap",
+      "source_line": 2324,
+      "sha256": "5af572e100c1ac8b9553afc10bb11a36d896f94eb8f72b15326e8dc398afc1f5"
+    },
+    {
+      "method": "SendConnectionRequest",
+      "source_line": 2428,
+      "sha256": "71d9ce735b1e04175d6f21e495a5cc1a27eb52cd7b6f720b3f77a828cb032c98"
+    },
+    {
+      "method": "IPToPlayerID",
+      "source_line": 2460,
+      "sha256": "40851d9948c09787c3ff51080fbd4a691e5993cb57cbcdbe4369b639f9f032e4"
+    },
+    {
+      "method": "ClearBufferedCommands",
+      "source_line": 3494,
+      "sha256": "eaffd1bffa94b85d923172048c89738410709db9aab4ee59e0e822ea1767d1ed"
+    },
+    {
+      "method": "ClearRequestedConnectionList",
+      "source_line": 3514,
+      "sha256": "97b25a89f6ef8cc37f28d1c72b47444b78fd2daf5dcdc374d6414ec04d9a0795"
+    }
+  ],
+  "closure_notes": [
+    "Full actual RemoteSystemStruct3177 deleted as array, including real vector destructor and nested Reliability/BitStream/RPCMap lifetimes; no opaque allocation.",
+    "Actual RequestedConnectionStruct complete header used; producer nodes allocated by unchanged template.",
+    "Disconnect invokes plugin OnDisconnect and virtual DeallocatePacket ABI; no concrete callback or worker coverage.",
+    "Closed prerequisite NotifyAndFlagForDisconnect in pending send family; accepted RakSleep/clock/reliability/RPCMap/BitStream providers.",
+    "Winsock closesocket and inet_addr are actual imported API boundaries; no network execution.",
+    "Original outgoingPassword256 and uint8 length truncation preserved; no behavioral safety rewrite."
+  ]
+}

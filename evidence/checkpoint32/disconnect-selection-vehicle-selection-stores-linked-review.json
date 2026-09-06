@@ -1,0 +1,46 @@
+{
+  "status": "PASS_SOLE_REAL_STORES_AND_LINKED_INITIALIZATION",
+  "run": "cp32-disconnect-selection-linked1",
+  "owners": [
+    {
+      "symbol": "?r5SelectionInitialized@@3HA",
+      "sole_owner": "closure_store_vehicle_selection_initialized",
+      "linked_va": 269635564,
+      "whole_size": 4,
+      "initial_byte": 0,
+      "object_sha256": "9c4f37351d10f343f89e684d4981d7ee5c4eb148aa10bf04cbe83fe93bddf68b"
+    },
+    {
+      "symbol": "?r5SelectionVehicle@@3PAVCVehicle@@A",
+      "sole_owner": "closure_store_vehicle_selection_vehicle",
+      "linked_va": 269635568,
+      "whole_size": 4,
+      "initial_byte": 0,
+      "object_sha256": "df13e43894b06bfdfff4665c16777ecbbb4f0c4d10aa40a5ff0c9be8d7276719"
+    },
+    {
+      "symbol": "?r5SelectionModel@@3HA",
+      "sole_owner": "closure_store_vehicle_selection_model",
+      "linked_va": 269213748,
+      "whole_size": 4,
+      "initial_byte": 400,
+      "object_sha256": "b0793a270e2ba6685bfcf69fdd7b6e108e2062d0d2908b902a38c3e2ea349d92"
+    },
+    {
+      "symbol": "?r5SelectionControls@@3PAU_GTA_CONTROLSET@@A",
+      "sole_owner": "closure_store_vehicle_selection_controls",
+      "linked_va": 269635572,
+      "whole_size": 4,
+      "initial_byte": 0,
+      "object_sha256": "5f23dab3bbc8f00ec4b40c458e30302de7b779f7ff5e8de3910d93f134cdec02"
+    },
+    {
+      "symbol": "?r5SelectionCamera@@3PAVCCamera@@A",
+      "sole_owner": "closure_store_vehicle_selection_camera",
+      "linked_va": 269635576,
+      "whole_size": 4,
+      "initial_byte": 0,
+      "object_sha256": "9c04913787239bd4cae021951cc627ddbce03536a194c9ae4cb9c8f428ef0c3b"
+    }
+  ]
+}
