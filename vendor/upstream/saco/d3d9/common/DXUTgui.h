@@ -620,7 +620,7 @@ public:
     void SetScrollBarWidth( int nWidth ) { m_nSBWidth = nWidth; UpdateRects(); }
     void SetBorder( int nBorder, int nMargin ) { m_nBorder = nBorder; m_nMargin = nMargin; }
     HRESULT AddItem( const TCHAR *wszText, void *pData );
-    HRESULT InsertItem( int nIndex, const TCHAR *wszText, void *pData );
+    HRESULT InsertItem( int nIndex, const TCHAR *wszText, void *pData, DWORD color = 0 );
     void RemoveItem( int nIndex );
     void RemoveItemByText( TCHAR *wszText );
     void RemoveItemByData( void *pData );
@@ -639,9 +639,9 @@ public:
 	int field_59;
 
 protected:
+    CDXUTScrollBar m_ScrollBar;
     RECT m_rcText;      // Text rendering bound
     RECT m_rcSelection; // Selection box bound
-    CDXUTScrollBar m_ScrollBar;
     int m_nSBWidth;
     int m_nBorder;
     int m_nMargin;

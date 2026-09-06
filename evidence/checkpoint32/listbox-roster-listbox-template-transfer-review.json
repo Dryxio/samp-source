@@ -1,0 +1,20 @@
+{
+  "status": "OWNERSHIP_TRANSFER_ZERO_NEW_BYTES",
+  "transfers": [
+    {
+      "anchor": "?SetSize@?$CGrowableArray@PAUDXUTListBoxItem@@@@QAEJH@Z",
+      "rva": 564032,
+      "old_unit": "closure_gui_listbox",
+      "new_unit": "closure_gui_widget_lifetime",
+      "was_explicit_seed": false
+    },
+    {
+      "anchor": "?SetSizeInternal@?$CGrowableArray@PAUDXUTListBoxItem@@@@IAEJH@Z",
+      "rva": 552032,
+      "old_unit": "closure_gui_listbox",
+      "new_unit": "closure_gui_widget_lifetime",
+      "was_explicit_seed": false
+    }
+  ],
+  "notes": "RemoveAllItems73 already transferred by root. Widget defines SetSize5 and SetSizeInternal142 exactly. Insert emits additional COMDAT copy of same SetSizeInternal142; no unique coverage gain and no second original RVA justified."
+}

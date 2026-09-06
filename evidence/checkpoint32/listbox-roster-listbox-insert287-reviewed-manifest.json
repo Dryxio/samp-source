@@ -1,0 +1,98 @@
+{
+  "status": "SCOPED_PREFLIGHT_NOT_ACCEPTANCE",
+  "run": "cp32-listbox-roster-ob1",
+  "regions": [
+    {
+      "object_sha256": "475aa46f3cf34bf767093b84d64ba6458375da1611ea53a715205ef615a03789",
+      "unit": "closure_gui_listbox_complete_insert",
+      "anchor": "?Insert@?$CGrowableArray@PAUDXUTListBoxItem@@@@QAEJHABQAUDXUTListBoxItem@@@Z",
+      "rva": 564096,
+      "size": 92,
+      "section": 13,
+      "sha256": "50fe8594ef9884ef77a9eeda31728d7333abafdf32a4975cc62f902f28e7b3ec",
+      "bindings": [
+        {
+          "symbol": "?SetSizeInternal@?$CGrowableArray@PAUDXUTListBoxItem@@@@IAEJH@Z",
+          "site_rva": 564118,
+          "symbol_va": 268987488,
+          "addend": 0,
+          "target_va": 268987488,
+          "kind": 20,
+          "identity": "accepted contract or explicitly mapped ListBox ctor/dtor/vtable"
+        },
+        {
+          "symbol": "_memmove",
+          "site_rva": 564146,
+          "symbol_va": 269250016,
+          "addend": 0,
+          "target_va": 269250016,
+          "kind": 20,
+          "identity": "accepted contract or explicitly mapped ListBox ctor/dtor/vtable"
+        }
+      ],
+      "whole_bytes_equal": true
+    },
+    {
+      "object_sha256": "475aa46f3cf34bf767093b84d64ba6458375da1611ea53a715205ef615a03789",
+      "unit": "closure_gui_listbox_complete_insert",
+      "anchor": "?InsertItem@CDXUTListBox@@QAEJHPBDPAXK@Z",
+      "rva": 567536,
+      "size": 195,
+      "section": 15,
+      "sha256": "67eb01c6a1216beeabffe1f876a377021e177ec0affdd5abc083c8cc020b1861",
+      "bindings": [
+        {
+          "symbol": "??2@YAPAXI@Z",
+          "site_rva": 567547,
+          "symbol_va": 269247098,
+          "addend": 0,
+          "target_va": 269247098,
+          "kind": 20,
+          "identity": "accepted contract or explicitly mapped ListBox ctor/dtor/vtable"
+        },
+        {
+          "symbol": "__imp__SetRect@20",
+          "site_rva": 567639,
+          "symbol_va": 269374208,
+          "addend": 0,
+          "target_va": 269374208,
+          "kind": 6,
+          "identity": "accepted contract or explicitly mapped ListBox ctor/dtor/vtable"
+        },
+        {
+          "symbol": "?Insert@?$CGrowableArray@PAUDXUTListBoxItem@@@@QAEJHABQAUDXUTListBoxItem@@@Z",
+          "site_rva": 567677,
+          "symbol_va": 268999552,
+          "addend": 0,
+          "target_va": 268999552,
+          "kind": 20,
+          "identity": "accepted contract or explicitly mapped ListBox ctor/dtor/vtable"
+        },
+        {
+          "symbol": "?SetTrackRange@CDXUTScrollBar@@QAEXHH@Z",
+          "site_rva": 567700,
+          "symbol_va": 268995664,
+          "addend": 0,
+          "target_va": 268995664,
+          "kind": 20,
+          "identity": "accepted contract or explicitly mapped ListBox ctor/dtor/vtable"
+        },
+        {
+          "symbol": "??3@YAXPAX@Z",
+          "site_rva": 567715,
+          "symbol_va": 269247626,
+          "addend": 0,
+          "target_va": 269247626,
+          "kind": 20,
+          "identity": "accepted contract or explicitly mapped ListBox ctor/dtor/vtable"
+        }
+      ],
+      "whole_bytes_equal": true
+    }
+  ],
+  "code_bytes": 287,
+  "data_bytes": 0,
+  "EH": 0,
+  "direct025_code_credit": 0,
+  "notes": "Independent complete-item insertion; no ListBox ctor/dtor/vtable/renderer dependencies. Existing typed SetSizeInternal142 reused at86C60. Entire object hash recorded separately below."
+}

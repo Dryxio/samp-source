@@ -1,0 +1,618 @@
+{
+  "status": "REVIEWED_MAIN_SEEDS_AND_WHOLE_EH_BINDINGS_PREFLIGHT",
+  "run": "build/cp32-listbox-roster-ob1",
+  "roots": {
+    "?WorldPlayerRemove@@YAXPAURPCParameters@@@Z": 69120,
+    "?UpdateScoresPingsIPs@@YAXPAURPCParameters@@@Z": 66528,
+    "?New@R5RosterPlayerPoolView@@QAEHGPADH@Z": 82512,
+    "?UpdateLargestId@R5RosterPlayerPoolView@@QAEXXZ": 79696,
+    "?Remove@R5RosterRemotePlayerView@@QAEXXZ": 95536
+  },
+  "seeds": {
+    "closure_player_roster_providers": {
+      "?Remove@R5RosterRemotePlayerView@@QAEXXZ": 95536,
+      "?UpdateLargestId@R5RosterPlayerPoolView@@QAEXXZ": 79696,
+      "?New@R5RosterPlayerPoolView@@QAEHGPADH@Z": 82512
+    },
+    "closure_rpc_player_roster": {
+      "?UpdateScoresPingsIPs@@YAXPAURPCParameters@@@Z": 66528,
+      "?WorldPlayerRemove@@YAXPAURPCParameters@@@Z": 69120
+    },
+    "closure_store_scoreboard": {}
+  },
+  "regions": [
+    {
+      "unit": "closure_player_roster_providers",
+      "section": 57,
+      "rva": 95536,
+      "size": 62,
+      "kind": ".text",
+      "sha256": "9a6df6c451b9bb0890fc56e119e17084f7fc229915ce550501577162fd34a0ac",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "?ResetAllSyncAttributes@CRemotePlayer@@QAEXXZ",
+          "site_rva": 95550,
+          "target_va": 268525472,
+          "kind": 20
+        },
+        {
+          "symbol": "?pGame@@3PAVCGame@@A",
+          "site_rva": 95562,
+          "target_va": 270986156,
+          "kind": 6
+        },
+        {
+          "symbol": "?DeletePlayerPed@CGame@@QAEHPAVCPlayerPed@@@Z",
+          "site_rva": 95568,
+          "target_va": 269091344,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "closure_player_roster_providers",
+      "section": 50,
+      "rva": 79696,
+      "size": 79,
+      "kind": ".text",
+      "sha256": "acb3ece352f0a39bac8cf86f7d4f58d3aa0c83182f4f655c433ad7477e647b99",
+      "whole_bytes_equal": true,
+      "bindings": []
+    },
+    {
+      "unit": "closure_player_roster_providers",
+      "section": 52,
+      "rva": 82512,
+      "size": 201,
+      "kind": ".text",
+      "sha256": "99a123f97a7c20b355a1beee6ae68b386f28f82e4662fe35e0e6a7b61f4af56d",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "__ehhandler$?New@R5RosterPlayerPoolView@@QAEHGPADH@Z",
+          "site_rva": 82515,
+          "target_va": 269356059,
+          "kind": 6
+        },
+        {
+          "symbol": "__except_list",
+          "site_rva": 82521,
+          "target_va": 0,
+          "kind": 6
+        },
+        {
+          "symbol": "__except_list",
+          "site_rva": 82529,
+          "target_va": 0,
+          "kind": 6
+        },
+        {
+          "symbol": "??2@YAPAXI@Z",
+          "site_rva": 82541,
+          "target_va": 269247098,
+          "kind": 20
+        },
+        {
+          "symbol": "??0CNetPlayer@@QAE@PADH@Z",
+          "site_rva": 82577,
+          "target_va": 268517808,
+          "kind": 20
+        },
+        {
+          "symbol": "?UpdateLargestId@R5RosterPlayerPoolView@@QAEXXZ",
+          "site_rva": 82664,
+          "target_va": 268515152,
+          "kind": 20
+        },
+        {
+          "symbol": "__except_list",
+          "site_rva": 82682,
+          "target_va": 0,
+          "kind": 6
+        },
+        {
+          "symbol": "__except_list",
+          "site_rva": 82703,
+          "target_va": 0,
+          "kind": 6
+        }
+      ]
+    },
+    {
+      "unit": "closure_player_roster_providers",
+      "section": 53,
+      "rva": 920592,
+      "size": 21,
+      "kind": ".text$x",
+      "sha256": "be6e5f921391219ac768282de089c1835d33cefffce5d58c324826f43b48073e",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "??3@YAXPAX@Z",
+          "site_rva": 920597,
+          "target_va": 269247626,
+          "kind": 20
+        },
+        {
+          "symbol": "$T95191",
+          "site_rva": 920604,
+          "target_va": 269452736,
+          "kind": 6
+        },
+        {
+          "symbol": "___CxxFrameHandler",
+          "site_rva": 920609,
+          "target_va": 269247782,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "closure_player_roster_providers",
+      "section": 54,
+      "rva": 1017272,
+      "size": 36,
+      "kind": ".xdata$x",
+      "sha256": "46ddb37d76368828041bec9403c16b44f984c3e0f37836fd2d5f4f0c65208c40",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "$L95172",
+          "site_rva": 1017276,
+          "target_va": 269356048,
+          "kind": 6
+        },
+        {
+          "symbol": "$T95194",
+          "site_rva": 1017288,
+          "target_va": 269452728,
+          "kind": 6
+        }
+      ]
+    },
+    {
+      "unit": "closure_rpc_player_roster",
+      "section": 74,
+      "rva": 66528,
+      "size": 346,
+      "kind": ".text",
+      "sha256": "dcd15f9a0be9007e9654b8e8530c69b472a6386e57d58c3022e7ee7d9ac84f9e",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "__ehhandler$?UpdateScoresPingsIPs@@YAXPAURPCParameters@@@Z",
+          "site_rva": 66531,
+          "target_va": 269355243,
+          "kind": 6
+        },
+        {
+          "symbol": "__except_list",
+          "site_rva": 66537,
+          "target_va": 0,
+          "kind": 6
+        },
+        {
+          "symbol": "__except_list",
+          "site_rva": 66545,
+          "target_va": 0,
+          "kind": 6
+        },
+        {
+          "symbol": "??0BitStream@RakNet@@QAE@PADI_N@Z",
+          "site_rva": 66591,
+          "target_va": 268564544,
+          "kind": 20
+        },
+        {
+          "symbol": "?pNetGame@@3PAVCNetGame@@A",
+          "site_rva": 66616,
+          "target_va": 270986132,
+          "kind": 6
+        },
+        {
+          "symbol": "?ReadBits@BitStream@RakNet@@QAE_NPAEH_N@Z",
+          "site_rva": 66670,
+          "target_va": 268564912,
+          "kind": 20
+        },
+        {
+          "symbol": "?ReadBits@BitStream@RakNet@@QAE_NPAEH_N@Z",
+          "site_rva": 66688,
+          "target_va": 268564912,
+          "kind": 20
+        },
+        {
+          "symbol": "?ReadBits@BitStream@RakNet@@QAE_NPAEH_N@Z",
+          "site_rva": 66706,
+          "target_va": 268564912,
+          "kind": 20
+        },
+        {
+          "symbol": "?pScoreBoard@@3PAVCScoreBoard@@A",
+          "site_rva": 66817,
+          "target_va": 270986060,
+          "kind": 6
+        },
+        {
+          "symbol": "?UpdatePlayers@R5ScoreboardUpdateView@@QAEXXZ",
+          "site_rva": 66828,
+          "target_va": 268889392,
+          "kind": 20
+        },
+        {
+          "symbol": "??1BitStream@RakNet@@QAE@XZ",
+          "site_rva": 66848,
+          "target_va": 268564688,
+          "kind": 20
+        },
+        {
+          "symbol": "__except_list",
+          "site_rva": 66863,
+          "target_va": 0,
+          "kind": 6
+        }
+      ]
+    },
+    {
+      "unit": "closure_rpc_player_roster",
+      "section": 70,
+      "rva": 69120,
+      "size": 212,
+      "kind": ".text",
+      "sha256": "38b41de1341d4eb1457eb86ecc95179b6f12b52a25ef3757f10bbe633ddb33f9",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "__ehhandler$?WorldPlayerRemove@@YAXPAURPCParameters@@@Z",
+          "site_rva": 69123,
+          "target_va": 269355403,
+          "kind": 6
+        },
+        {
+          "symbol": "__except_list",
+          "site_rva": 69129,
+          "target_va": 0,
+          "kind": 6
+        },
+        {
+          "symbol": "__except_list",
+          "site_rva": 69137,
+          "target_va": 0,
+          "kind": 6
+        },
+        {
+          "symbol": "??0BitStream@RakNet@@QAE@PADI_N@Z",
+          "site_rva": 69179,
+          "target_va": 268564544,
+          "kind": 20
+        },
+        {
+          "symbol": "?pNetGame@@3PAVCNetGame@@A",
+          "site_rva": 69184,
+          "target_va": 270986132,
+          "kind": 6
+        },
+        {
+          "symbol": "?ReadBits@BitStream@RakNet@@QAE_NPAEH_N@Z",
+          "site_rva": 69230,
+          "target_va": 268564912,
+          "kind": 20
+        },
+        {
+          "symbol": "?pNetGame@@3PAVCNetGame@@A",
+          "site_rva": 69240,
+          "target_va": 270986132,
+          "kind": 6
+        },
+        {
+          "symbol": "?Remove@R5RosterRemotePlayerView@@QAEXXZ",
+          "site_rva": 69287,
+          "target_va": 268530992,
+          "kind": 20
+        },
+        {
+          "symbol": "??1BitStream@RakNet@@QAE@XZ",
+          "site_rva": 69307,
+          "target_va": 268564688,
+          "kind": 20
+        },
+        {
+          "symbol": "__except_list",
+          "site_rva": 69321,
+          "target_va": 0,
+          "kind": 6
+        }
+      ]
+    },
+    {
+      "unit": "closure_rpc_player_roster",
+      "section": 75,
+      "rva": 919776,
+      "size": 21,
+      "kind": ".text$x",
+      "sha256": "5964f04e4a7883df5fe674079e4c1d55a9f30f8f5abaa8be9056530617f88013",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "??1BitStream@RakNet@@QAE@XZ",
+          "site_rva": 919783,
+          "target_va": 268564688,
+          "kind": 20
+        },
+        {
+          "symbol": "$T95352",
+          "site_rva": 919788,
+          "target_va": 269451812,
+          "kind": 6
+        },
+        {
+          "symbol": "___CxxFrameHandler",
+          "site_rva": 919793,
+          "target_va": 269247782,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "closure_rpc_player_roster",
+      "section": 71,
+      "rva": 919936,
+      "size": 21,
+      "kind": ".text$x",
+      "sha256": "eda79b996f93ca95a76cdaa00a0c4c273c14f06c8ca2d066e0b2051e3f03ab23",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "??1BitStream@RakNet@@QAE@XZ",
+          "site_rva": 919943,
+          "target_va": 268564688,
+          "kind": 20
+        },
+        {
+          "symbol": "$T95305",
+          "site_rva": 919948,
+          "target_va": 269451992,
+          "kind": 6
+        },
+        {
+          "symbol": "___CxxFrameHandler",
+          "site_rva": 919953,
+          "target_va": 269247782,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "closure_rpc_player_roster",
+      "section": 76,
+      "rva": 1016348,
+      "size": 36,
+      "kind": ".xdata$x",
+      "sha256": "0fc952f5c807a9f99b3b074272a834006486dfacb17d349196acc3c4c3771fda",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "$L95312",
+          "site_rva": 1016352,
+          "target_va": 269355232,
+          "kind": 6
+        },
+        {
+          "symbol": "$T95357",
+          "site_rva": 1016364,
+          "target_va": 269451804,
+          "kind": 6
+        }
+      ]
+    },
+    {
+      "unit": "closure_rpc_player_roster",
+      "section": 72,
+      "rva": 1016528,
+      "size": 36,
+      "kind": ".xdata$x",
+      "sha256": "1377439807d5dcdf33987165993280ddb255b1aff89e531d80a30703e99f3d30",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "$L95285",
+          "site_rva": 1016532,
+          "target_va": 269355392,
+          "kind": 6
+        },
+        {
+          "symbol": "$T95307",
+          "site_rva": 1016544,
+          "target_va": 269451984,
+          "kind": 6
+        }
+      ]
+    },
+    {
+      "unit": "closure_store_scoreboard",
+      "section": 3,
+      "rva": 2550604,
+      "size": 4,
+      "kind": ".bss",
+      "sha256": "df3f619804a92fdb4057192dc43dd748ea778adc52bc498ce80524c014b81119",
+      "whole_bytes_equal": true,
+      "bindings": [],
+      "initialization": "Actual loader zero-fill, not bytes read beyond PE raw section."
+    }
+  ],
+  "bindings_checked": 48,
+  "external_targets": {
+    "?ResetAllSyncAttributes@CRemotePlayer@@QAEXXZ": 268525472,
+    "?pGame@@3PAVCGame@@A": 270986156,
+    "?DeletePlayerPed@CGame@@QAEHPAVCPlayerPed@@@Z": 269091344,
+    "__ehhandler$?New@R5RosterPlayerPoolView@@QAEHGPADH@Z": 269356059,
+    "__except_list": 0,
+    "??2@YAPAXI@Z": 269247098,
+    "??0CNetPlayer@@QAE@PADH@Z": 268517808,
+    "__ehhandler$?UpdateScoresPingsIPs@@YAXPAURPCParameters@@@Z": 269355243,
+    "??0BitStream@RakNet@@QAE@PADI_N@Z": 268564544,
+    "?pNetGame@@3PAVCNetGame@@A": 270986132,
+    "?ReadBits@BitStream@RakNet@@QAE_NPAEH_N@Z": 268564912,
+    "?pScoreBoard@@3PAVCScoreBoard@@A": 270986060,
+    "?UpdatePlayers@R5ScoreboardUpdateView@@QAEXXZ": 268889392,
+    "??1BitStream@RakNet@@QAE@XZ": 268564688,
+    "__ehhandler$?WorldPlayerRemove@@YAXPAURPCParameters@@@Z": 269355403,
+    "??3@YAXPAX@Z": 269247626,
+    "closure_player_roster_providers::$T95191": 269452736,
+    "___CxxFrameHandler": 269247782,
+    "closure_player_roster_providers::$L95172": 269356048,
+    "closure_player_roster_providers::$T95194": 269452728,
+    "closure_rpc_player_roster::$T95352": 269451812,
+    "closure_rpc_player_roster::$T95305": 269451992,
+    "closure_rpc_player_roster::$L95312": 269355232,
+    "closure_rpc_player_roster::$T95357": 269451804,
+    "closure_rpc_player_roster::$L95285": 269355392,
+    "closure_rpc_player_roster::$T95307": 269451984
+  },
+  "identity_reasons": {
+    "?WorldPlayerRemove@@YAXPAURPCParameters@@@Z": "source method semantics + original call graph / allocation / table owner",
+    "?UpdateScoresPingsIPs@@YAXPAURPCParameters@@@Z": "source method semantics + original call graph / allocation / table owner",
+    "?New@R5RosterPlayerPoolView@@QAEHGPADH@Z": "source method semantics + original call graph / allocation / table owner",
+    "?UpdateLargestId@R5RosterPlayerPoolView@@QAEXXZ": "source method semantics + original call graph / allocation / table owner",
+    "?Remove@R5RosterRemotePlayerView@@QAEXXZ": "source method semantics + original call graph / allocation / table owner"
+  },
+  "new_unique_code": 963,
+  "already_covered_code": 0,
+  "physical_code_compared": 963,
+  "baseline": 276269,
+  "source025_direct_bytes": 821,
+  "reuse_existing_owners": {},
+  "excluded_unmatched": [
+    "ServerJoin385"
+  ],
+  "source_files": [
+    {
+      "path": "build/agent-independent/eval_player_roster_providers.cpp",
+      "sha256": "5debeb15c4025a076223d99323dae0824a0cedd77c0e050bc18fa6cba1a0e61c"
+    },
+    {
+      "path": "build/agent-independent/eval_rpc_player_roster3.cpp",
+      "sha256": "ec5cb3b6d6093b5426c6f9bbd6aeaa01e9aacb7dc4eea714d5a065cfb0488b4a"
+    },
+    {
+      "path": "build/agent-independent/eval_store_scoreboard.cpp",
+      "sha256": "d94a07d6378593524118a00a025d4a80677f039c70a8b3748d1dc84020d61d28"
+    }
+  ],
+  "identity_scope": "build/agent-independent/player-roster-proposal.json",
+  "actual_objects": {
+    "closure_player_roster_providers": {
+      "path": "build/cp32-listbox-roster-ob1/closure_player_roster_providers.obj",
+      "sha256": "dfad3d23f31f1564b2bbe5bf37d77bde82f65c9b528ff292cb9de6a3c4faf531"
+    },
+    "closure_rpc_player_roster": {
+      "path": "build/cp32-listbox-roster-ob1/closure_rpc_player_roster.obj",
+      "sha256": "eb39da744bc90d74d9941a14e1670d55d741c6b6b2930be63a905cf2a14707ec"
+    },
+    "closure_store_scoreboard": {
+      "path": "build/cp32-listbox-roster-ob1/closure_store_scoreboard.obj",
+      "sha256": "32560af9a0813687adefb7d70fd8e925f994e203adf5656089186372f3e2a660"
+    }
+  },
+  "actual_bss_or_table_changes": "Whole pScoreBoard4 reviewed as new data candidate; parent transferred sole definition from main into real typed store. No constructor/initializer function credit.",
+  "actual_weak_aliases": {
+    "closure_player_roster_providers": {},
+    "closure_rpc_player_roster": {}
+  },
+  "explicit_duplicate_code_seeds": [],
+  "source025_adaptation_note": "Adapted source logic, not an unchanged transfer; original file/function provenance and wire/layout/ownership changes recorded in proposal.",
+  "accepted_external_owners": {
+    "?ResetAllSyncAttributes@CRemotePlayer@@QAEXXZ": [
+      {
+        "unit": "closure_remote_player_construction",
+        "rva": 90016,
+        "size": 244,
+        "kind": "code"
+      }
+    ],
+    "?pGame@@3PAVCGame@@A": [
+      {
+        "unit": "closure_state",
+        "rva": 2550700,
+        "size": 4,
+        "kind": "zero-object"
+      }
+    ],
+    "?DeletePlayerPed@CGame@@QAEHPAVCPlayerPed@@@Z": [
+      {
+        "unit": "closure_remote_player_destruction",
+        "rva": 655888,
+        "size": 49,
+        "kind": "code"
+      }
+    ],
+    "??0CNetPlayer@@QAE@PADH@Z": [
+      {
+        "unit": "closure_remote_player_construction",
+        "rva": 82352,
+        "size": 160,
+        "kind": "code"
+      }
+    ],
+    "??0BitStream@RakNet@@QAE@PADI_N@Z": [
+      {
+        "unit": "closure_cmd_bitstream",
+        "rva": 129088,
+        "size": 127,
+        "kind": "code"
+      }
+    ],
+    "?pNetGame@@3PAVCNetGame@@A": [
+      {
+        "unit": "closure_store_netgame",
+        "rva": 2550676,
+        "size": 4,
+        "kind": "zero"
+      }
+    ],
+    "?ReadBits@BitStream@RakNet@@QAE_NPAEH_N@Z": [
+      {
+        "unit": "closure_cmd_bitstream",
+        "rva": 129456,
+        "size": 185,
+        "kind": "code"
+      }
+    ],
+    "?UpdatePlayers@R5ScoreboardUpdateView@@QAEXXZ": [
+      {
+        "unit": "closure_scoreboard_update",
+        "rva": 453936,
+        "size": 892,
+        "kind": "code"
+      }
+    ],
+    "??1BitStream@RakNet@@QAE@XZ": [
+      {
+        "unit": "closure_cmd_bitstream",
+        "rva": 129232,
+        "size": 27,
+        "kind": "code"
+      }
+    ]
+  },
+  "rpc_registration_identities": [
+    {
+      "rva": 66528,
+      "size": 346,
+      "potential": 346,
+      "rpc_id": 155,
+      "name": "UpdateScoresPingsIPs",
+      "registration_rva": 75004
+    },
+    {
+      "rva": 69120,
+      "size": 212,
+      "potential": 212,
+      "rpc_id": 163,
+      "name": "WorldPlayerRemove",
+      "registration_rva": 75276
+    }
+  ],
+  "scoreboard_owner_proof": "build/agent-independent/scoreboard-store-owner-identified-not-accepted.json"
+}

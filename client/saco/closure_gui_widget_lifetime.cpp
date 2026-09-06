@@ -1,3 +1,4 @@
+// TRIAL replacement snapshot of widget_lifetime; never link beside its old owner.
 #include "d3d9/common/dxstdafx.h"
 #include <new>
 #define SCROLLBAR_MINTHUMBSIZE 8
@@ -795,4 +796,182 @@ HRESULT CDXUTComboBox::SetSelectedByData( void* pData )
 CDXUTComboBox::~CDXUTComboBox()
 {
     RemoveAllItems();
+}
+
+void CDXUTListBox::RemoveAllItems()
+{
+    for( int i = 0; i < m_Items.GetSize(); ++i )
+    {
+        DXUTListBoxItem *pItem = m_Items.GetAt( i );
+        delete pItem;
+    }
+
+    m_Items.RemoveAll();
+    reinterpret_cast<R5ListBoxScrollView*>(this)->scrollbar.SetTrackRange( 0, 1 );
+}
+CDXUTListBox::CDXUTListBox( CDXUTDialog *pDialog ) :
+    m_ScrollBar( pDialog )
+{
+    typedef char ListBoxSize[(sizeof(CDXUTListBox)==0x158)?1:-1];
+    typedef char ListBoxScrollOffset[(offsetof(CDXUTListBox,m_ScrollBar)==0x5D)?1:-1];
+    typedef char ListBoxTextOffset[(offsetof(CDXUTListBox,m_rcText)==0x10F)?1:-1];
+    typedef char ListBoxSelectionOffset[(offsetof(CDXUTListBox,m_rcSelection)==0x11F)?1:-1];
+    m_Type = DXUT_CONTROL_LISTBOX;
+    m_pDialog = pDialog;
+
+    m_dwStyle = 0;
+    m_nSBWidth = 16;
+    m_nSelected = -1;
+    m_nSelStart = 0;
+    m_bDrag = false;
+    m_nBorder = 6;
+    m_nMargin = 5;
+    m_nTextHeight = 0;
+    field_4D = 0;
+    field_59 = field_55 = field_51 = 0;
+}
+CDXUTListBox::~CDXUTListBox()
+{
+    RemoveAllItems();
+}
+HRESULT CDXUTDialog::AddListBox( int ID, int x, int y, int width, int height, DWORD dwStyle, CDXUTListBox** ppCreated )
+{
+    HRESULT hr = S_OK;
+    CDXUTListBox *pListBox = new CDXUTListBox( this );
+
+    if( ppCreated != NULL )
+        *ppCreated = pListBox;
+
+    if( pListBox == NULL )
+        return E_OUTOFMEMORY;
+
+    hr = AddControl( pListBox );
+    if( FAILED(hr) )
+        return hr;
+
+    // Set the ID and position
+    pListBox->SetID( ID );
+    pListBox->SetLocation( x, y );
+    pListBox->SetSize( width, height );
+    pListBox->SetStyle( dwStyle );
+
+    return S_OK;
+}
+// Render shares the true scrollbar leaf definitions above.
+#include "d3d9/common/dxstdafx.h"
+#include <stddef.h>
+#pragma pack(push,1)
+struct R5CompleteListBoxItem
+{
+ char text[257];
+ char columns[3][129];
+ void *data;
+ RECT activeRect;
+ bool selected;
+ DWORD color;
+ bool marked;
+};
+typedef char VerifyR5ListItemSize[(sizeof(R5CompleteListBoxItem)==0x29E)?1:-1];
+typedef char VerifyR5ListItemData[(offsetof(R5CompleteListBoxItem,data)==0x284)?1:-1];
+typedef char VerifyR5ListItemColor[(offsetof(R5CompleteListBoxItem,color)==0x299)?1:-1];
+#pragma pack(pop)
+void CDXUTListBox::Render( IDirect3DDevice9* pd3dDevice, float fElapsedTime )
+{
+    if( m_bVisible == false )
+        return;
+
+    CDXUTElement* pElement = m_Elements.GetAt( 0 );
+    pElement->TextureColor.Blend( DXUT_STATE_NORMAL, fElapsedTime );
+    pElement->FontColor.Blend( DXUT_STATE_NORMAL, fElapsedTime );
+
+    CDXUTElement* pSelElement = m_Elements.GetAt( 1 );
+    pSelElement->TextureColor.Blend( DXUT_STATE_NORMAL, fElapsedTime );
+    pSelElement->FontColor.Blend( DXUT_STATE_NORMAL, fElapsedTime );
+
+    m_pDialog->DrawSprite( pElement, &m_rcBoundingBox );
+
+    // Render the text
+    if( m_Items.GetSize() > 0 )
+    {
+        // Find out the height of a single line of text
+        RECT rc = m_rcText;
+        RECT rcSel = m_rcSelection;
+        rc.bottom = rc.top;
+        rc.bottom += m_pDialog->GetFont( pElement->iFont )->nHeight;
+
+        // Update the line height formation
+        m_nTextHeight = rc.bottom - rc.top;
+
+        if(m_ScrollBar.GetTrackPos()<0) m_ScrollBar.SetTrackPos(0);
+        static bool bSBInit;
+        if( !bSBInit )
+        {
+            // Update the page size of the scroll bar
+            if( m_nTextHeight )
+                m_ScrollBar.SetPageSize( RectHeight( m_rcText ) / m_nTextHeight );
+            else
+                m_ScrollBar.SetPageSize( RectHeight( m_rcText ) );
+            bSBInit = true;
+        }
+
+        rc.right = m_rcText.right;
+        for( int i = m_ScrollBar.GetTrackPos(); i < (int)m_Items.GetSize(); ++i )
+        {
+            if( rc.bottom > m_rcText.bottom )
+                break;
+
+            R5CompleteListBoxItem *pItem=(R5CompleteListBoxItem*)m_Items.GetAt(i);
+
+            // Determine if we need to render this item with the
+            // selected element.
+            bool bSelectedStyle = false;
+
+            if( !( m_dwStyle & MULTISELECTION ) && i == m_nSelected )
+                bSelectedStyle = true;
+            else
+            if( m_dwStyle & MULTISELECTION )
+            {
+                if( m_bDrag &&
+                    ( ( i >= m_nSelected && i < m_nSelStart ) ||
+                      ( i <= m_nSelected && i > m_nSelStart ) ) )
+                    bSelectedStyle = ((R5CompleteListBoxItem*)m_Items[m_nSelStart])->selected;
+                else
+                if( pItem->selected )
+                    bSelectedStyle = true;
+            }
+
+            if( !pItem->marked && bSelectedStyle )
+            {
+                rcSel.top = rc.top; rcSel.bottom = rc.bottom;
+                m_pDialog->DrawSprite( pSelElement, &rcSel );
+                m_pDialog->DrawText( pItem->text, pSelElement, &rc );
+                if(field_4D>0) {
+                    int savedLeft=rc.left;
+                    for(int column=0;column<field_4D;column++) {
+                        rc.left+=(&field_51)[column];
+                        m_pDialog->DrawText(pItem->columns[column],pSelElement,&rc);
+                    }
+                    rc.left=savedLeft;
+                }
+            }
+            else {
+                if(pItem->color) pElement->FontColor.Current=D3DXCOLOR(pItem->color);
+                m_pDialog->DrawText( pItem->text, pElement, &rc );
+                if(field_4D>0) {
+                    int savedLeft=rc.left;
+                    for(int column=0;column<field_4D;column++) {
+                        rc.left+=(&field_51)[column];
+                        m_pDialog->DrawText(pItem->columns[column],pElement,&rc);
+                    }
+                    rc.left=savedLeft;
+                }
+            }
+
+            OffsetRect( &rc, 0, m_nTextHeight );
+        }
+    }
+
+    // Render the scroll bar
+
+    m_ScrollBar.Render( pd3dDevice, fElapsedTime );
 }

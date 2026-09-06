@@ -1,0 +1,15 @@
+{
+  "status": "INITIALIZATION_ORDER_CORRECTION_NOT_COMPILED",
+  "source": {
+    "path": "build/agent-independent/eval_rpc_player_roster3.cpp",
+    "sha256": "ec5cb3b6d6093b5426c6f9bbd6aeaa01e9aacb7dc4eea714d5a065cfb0488b4a"
+  },
+  "latest_trial": "cp32-player-roster-trial2",
+  "facts": [
+    "ServerJoin now385 bytes with correct frame230 and every instruction after offset130 matching outside relocation operands.",
+    "Remaining real difference is three zero initializations before BitStream constructor; original performs them after constructor/pool/memset and before first read.",
+    "Variant3 retains declaration layout and moves actual assignments to their observed point. Scores346 and WorldPlayerRemove212 unchanged and exact."
+  ],
+  "capture": "build/agent-independent/roster-ServerJoin-trial2.asm",
+  "no_credit_yet": true
+}

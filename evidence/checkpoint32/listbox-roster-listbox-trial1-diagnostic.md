@@ -1,0 +1,9 @@
+# ListBox milestone trial1 (Ob1), discovery only
+
+All eight prior ListBox bodies retain full-section candidates at their accepted RVAs, including attached keyboard/mouse tables. RemoveAllItems73 now has its sole body in widget. This is an initial code comparison, not the final full linked/data acceptance gate.
+
+New exact candidates: destructor43, OnInit13, CanHaveFocus23, deleting destructor30 (vtable identity still requires link review), factory137, InsertItem195, typed Insert92, application resets342+259. Ctor144 and Render986/1014 remain unaccepted.
+
+Render's first substantive divergence comes from unavailable callee bodies. Original negative-scroll correction calls Cap85400 then UpdateThumbRect85320 with ECX preserved and no reload; trial1 saves/reloads ECX across both. Original SetPageSize expands both branches and calls those same leaves; standalone render emits a SetPageSize call. The actual leaf definitions already exist in widget. Consolidating Render into that TU, retaining its normal source and Ob1 initially, restores original compiler visibility without duplicate providers or header modifications. Later register/frame/loop-alignment differences can follow from this changed call model; no justification for padding or blind source permutations.
+
+Ctor first non-relocation difference: trial1 pops EDI after dialog store and schedules widths51/55/59 with other zero stores before immediate default stores; original saves the three width zero stores for its final initialization block after defaults. Layout and values agree. The three widths form the real contiguous column-width vector (renderer indexes &field_51 by column), so a single ZeroMemory of this actual 12-byte member sequence is a defensible source reconstruction that may preserve intrinsic block-store scheduling. It is not extra padding or a new object. One bounded trial only; no claim original source uniquely identified.

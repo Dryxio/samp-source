@@ -1436,3 +1436,8 @@ Direct0250/cumulative21126; missing025 descriptor18 provides concrete semantic/d
 AVL/StringTable/label leaves accepted: +4132 unique code bytes, total 276269/930756 (29.682215%). AVL2359 (deleting60+EH18), StringTable1474 (EH36), LabelPool New270+IsActive29. Complete real objects, VFTs, state and EH; all 3526 regions/COFF/PE targets, ten controls and actor ABI pass. PlayerID sole definitions transferred into NetworkTypes comparison context restores real ECX preservation and84-byte NetworkID comparisons; no fake barriers or alias/gate changes. Old comparisons and assignment29 gain no duplicate credit.
 
 Direct0250/cumulative21126; 103128 new unique bytes since parallel start, 10870.3 bytes/hour including coordination/failures. Draw643/Transform92 and unconsumed pLabel store remain excluded. Next ListBox deliberate layout/lifetime milestone and Actor context diagnosis. Goal active; no push/deploy/native game or networking.
+
+
+ListBox/roster accepted: +1250 unique code bytes, total 277519/930756 (29.816515%). ListBox Insert195+arrayInsert92 and player roster900+EH63, all full regions and actual providers. Shared header milestone rebuilt all profiles,111 old GUI regions preserved; full gate, ten controls and Actor ABI pass. Real pScoreBoard4 storage transferred separately; prior pDeathWindow/pLabel main changes remain pending.
+
+Source025821 adapted principal bytes/cumulative21947; 104378 new unique bytes since parallel start, 10485.9 bytes/hour including coordination/failures. Ctor144/Render1014 and ServerJoin remain unmatched, their dependencies excluded. Agents reassigned after bounded trials. Goal active; no push/deploy.
