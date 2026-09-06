@@ -1461,3 +1461,8 @@ Direct0250/cumulative21947: existing vendor source and R5 UI adaptations supply 
 NAT/chat/mesh accepted: +5027 unique code bytes, total 323945/930756 (34.804503%). Whole functions and attached data/EH, all COFF/PE targets, genuine providers and whole state, ten controls and Actor ABI pass. Nat4016, Mesh630, Chat381; local R5 failure IDs52/53, whole dispatch tables and EH included in comparison. No data, duplicate or CRT code credited.
 
 Direct02541/cumulative21988: FilterInvalidChars41 has actual missing source in025, other code uses existing vendor and R5 adaptations. 150804 new unique bytes since parallel start, 13280.1 bytes/hour coordination/failures included. Parked IME message/reading bodies excluded. Goal active; no push/deploy.
+
+
+ConnectionGraph accepted: +10510 unique code bytes, total 334455/930756 (35.933693%). Whole functions and attached data/EH, all COFF/PE targets, genuine providers and whole state, ten controls and Actor ABI pass. ConnectionGraph and actual AllocPacket32, all101 former node_identity regions conserved, graph_algorithms57 intact with four physical shared copies exact. No data, duplicate or CRT code credited.
+
+Direct0250/cumulative21988: full vendor source supplies the new code. 161314 new unique bytes since parallel start, 13998.4 bytes/hour coordination/failures included. Parked IME message/reading bodies excluded. Goal active; no push/deploy.
