@@ -1,0 +1,7 @@
+# RenderAtomic59 explicit ABI exception
+
+Root authorized exactly this member after normal C++41 failed. Source closure_rw_model_dispatch_symbolic_proposed.cpp substitutes only RenderAtomicIfValid; normal RenderRwModel/DestroyRwModel bodies are unchanged byte-for-byte as source. GetAtomicRenderCallback remains its accepted candidate20 actualproviderB1430. No alias, fixedcallbackaddress, newdata/vtable or encodedinstructions.
+
+Actual outer ABI stdcall BOOL(RpAtomic*), ret4. EBPframe: argumentEBP+8, one4-byte automaticcallback slotEBP-4, savedEBX below. Validate pointer and RwObject.type0 ==1. Call real GetAtomicRenderCallback cdecl, clean4; store callback into namedlocal, then push actualatomic argument and invoke callbackthroughEBX cdecl. First POP EBX discards outgoing argument; second restores savedEBX. This intentionally preserves originalbridge sequencing. Callback returnvalue is ignored, functionreturnsTRUE; null/wrongtype returnsFALSE. Original does not check callbacknull and proposal does not add one. No EH or tables, no newexternals beyond actualqueryB1430.
+
+Only directrelocation is GetAtomicRenderCallback at functionoffset19 (call starts18), originaltarget100B1430. No originalPE absolute relocations in59. Complete original SHA andrange already in model-preview-utilities-manifest.json. No NOP/ALIGN/_emit or instruction-byte data. Root must compile thencompare all59 pluscalltarget and ABI before admitting RenderAtomic or its dependent37 dispatcher.

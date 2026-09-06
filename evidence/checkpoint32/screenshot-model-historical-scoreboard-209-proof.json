@@ -1,0 +1,75 @@
+{
+  "status": "HISTORICAL_CODE_AND_LITERAL_EXACT_CANDIDATES_NOT_ACCEPTED",
+  "rows": [
+    {
+      "name": "?FUNC_1006E930@CScoreBoard@@QAEXXZ",
+      "rva": "0x6e930",
+      "size": 84,
+      "resolved_exact": true,
+      "original_sha256": "b3d38c41a6ab7873392ded95e5c30f50434fc3accf10e357307205083ade5dc7",
+      "fixups": [
+        {
+          "name": "__imp__GetClientRect@8",
+          "offset": 20,
+          "kind": 6,
+          "expected_va": "0x100e5370"
+        },
+        {
+          "name": "__real@3f000000",
+          "offset": 37,
+          "kind": 6,
+          "expected_va": "0x100e5814"
+        },
+        {
+          "name": "__real@3f000000",
+          "offset": 46,
+          "kind": 6,
+          "expected_va": "0x100e5814"
+        },
+        {
+          "name": "__real@3f000000",
+          "offset": 61,
+          "kind": 6,
+          "expected_va": "0x100e5814"
+        },
+        {
+          "name": "__real@3f000000",
+          "offset": 70,
+          "kind": 6,
+          "expected_va": "0x100e5814"
+        }
+      ],
+      "absolute_sites_agree": true
+    },
+    {
+      "name": "??0CScoreBoard@@QAE@PAUIDirect3DDevice9@@@Z",
+      "rva": "0x6ea30",
+      "size": 125,
+      "resolved_exact": true,
+      "original_sha256": "d0ed00ee24fcc841dec088a317c6d5216f5f747e98eb1a147bb355fe97752d74",
+      "fixups": [
+        {
+          "name": "?pGame@@3PAVCGame@@A",
+          "offset": 30,
+          "kind": 6,
+          "expected_va": "0x1026ebac"
+        },
+        {
+          "name": "?FUNC_1006E930@CScoreBoard@@QAEXXZ",
+          "offset": 112,
+          "kind": 20,
+          "expected_va": "0x1006e930"
+        }
+      ],
+      "absolute_sites_agree": true
+    }
+  ],
+  "literal_validation": {
+    "source_bytes": "0000003f",
+    "original_bytes": "0000003f",
+    "source_value": 0.5,
+    "original_value": 0.5,
+    "equal": true,
+    "mapped_va": "0x100e5814"
+  }
+}

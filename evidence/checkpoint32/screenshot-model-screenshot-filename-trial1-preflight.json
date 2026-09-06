@@ -1,0 +1,295 @@
+{
+  "status": "PREFLIGHT_SOURCE_BINDINGS_AND_COMPLETE_REGIONS_PASS_NOT_ACCEPTANCE",
+  "run": "cp32-screenshot-filename-trial1",
+  "regions": [
+    {
+      "label": "?GetSAMPPath@@YAPADXZ",
+      "section": 54,
+      "rva": "0xc3ad0",
+      "size": 6,
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "?szSAMPDir@@3PADA",
+          "site": "0xc3ad1",
+          "target": "0x1026e918",
+          "kind": 6
+        }
+      ]
+    },
+    {
+      "label": "??1?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAE@XZ",
+      "section": 90,
+      "rva": "0x13f30",
+      "size": 38,
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "??3@YAXPAX@Z",
+          "site": "0x13f3e",
+          "target": "0x100c648a",
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "label": "?append@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAEAAV12@ABV12@II@Z",
+      "section": 94,
+      "rva": "0x61f60",
+      "size": 233,
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "?_Xran@_String_base@std@@QBEXXZ",
+          "site": "0x61f73",
+          "target": "0x100c631c",
+          "kind": 20
+        },
+        {
+          "symbol": "?_Xlen@_String_base@std@@QBEXXZ",
+          "site": "0x61f95",
+          "target": "0x100c6374",
+          "kind": 20
+        },
+        {
+          "symbol": "?_Xlen@_String_base@std@@QBEXXZ",
+          "site": "0x61faf",
+          "target": "0x100c6374",
+          "kind": 20
+        },
+        {
+          "symbol": "?_Copy@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@IAEXII@Z",
+          "site": "0x61fc2",
+          "target": "0x1000b120",
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "label": "?append@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAEAAV12@PBDI@Z",
+      "section": 100,
+      "rva": "0x62050",
+      "size": 271,
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "?append@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAEAAV12@ABV12@II@Z",
+          "site": "0x62097",
+          "target": "0x10061f60",
+          "kind": 20
+        },
+        {
+          "symbol": "?_Xlen@_String_base@std@@QBEXXZ",
+          "site": "0x620b4",
+          "target": "0x100c6374",
+          "kind": 20
+        },
+        {
+          "symbol": "?_Xlen@_String_base@std@@QBEXXZ",
+          "site": "0x620ce",
+          "target": "0x100c6374",
+          "kind": 20
+        },
+        {
+          "symbol": "?_Copy@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@IAEXII@Z",
+          "site": "0x620e1",
+          "target": "0x1000b120",
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "label": "??$?HDU?$char_traits@D@std@@V?$allocator@D@1@@std@@YA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@0@ABV10@PBD@Z",
+      "section": 112,
+      "rva": "0x621c0",
+      "size": 167,
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "__ehhandler$??$?HDU?$char_traits@D@std@@V?$allocator@D@1@@std@@YA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@0@ABV10@PBD@Z",
+          "site": "0x621c3",
+          "target": "0x100e3788",
+          "kind": 6
+        },
+        {
+          "symbol": "__except_list",
+          "site": "0x621c9",
+          "target": "0x0",
+          "kind": 6
+        },
+        {
+          "symbol": "__except_list",
+          "site": "0x621d1",
+          "target": "0x0",
+          "kind": 6
+        },
+        {
+          "symbol": "?assign@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAEAAV12@ABV12@II@Z",
+          "site": "0x621fd",
+          "target": "0x1000b6c0",
+          "kind": 20
+        },
+        {
+          "symbol": "?append@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAEAAV12@PBDI@Z",
+          "site": "0x62220",
+          "target": "0x10062050",
+          "kind": 20
+        },
+        {
+          "symbol": "?assign@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAEAAV12@ABV12@II@Z",
+          "site": "0x6223c",
+          "target": "0x1000b6c0",
+          "kind": 20
+        },
+        {
+          "symbol": "??3@YAXPAX@Z",
+          "site": "0x6224d",
+          "target": "0x100c648a",
+          "kind": 20
+        },
+        {
+          "symbol": "__except_list",
+          "site": "0x6225f",
+          "target": "0x0",
+          "kind": 6
+        }
+      ]
+    },
+    {
+      "label": "?GetScreenshotFileName@@YAHAAV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z",
+      "section": 116,
+      "rva": "0x62270",
+      "size": 255,
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "?GetSAMPPath@@YAPADXZ",
+          "site": "0x62280",
+          "target": "0x100c3ad0",
+          "kind": 20
+        },
+        {
+          "symbol": "?assign@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAEAAV12@PBDI@Z",
+          "site": "0x622a1",
+          "target": "0x1000b7b0",
+          "kind": 20
+        },
+        {
+          "symbol": "__imp__FindFirstFileA@8",
+          "site": "0x622bc",
+          "target": "0x100e524c",
+          "kind": 6
+        },
+        {
+          "symbol": "??_C@_0BI@IJMKBJO@?2screens?2sa?9mp?9?$CF03i?4png?$AA@",
+          "site": "0x622c3",
+          "target": "0x100e98f0",
+          "kind": 6
+        },
+        {
+          "symbol": "??$?HDU?$char_traits@D@std@@V?$allocator@D@1@@std@@YA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@0@ABV10@PBD@Z",
+          "site": "0x622ce",
+          "target": "0x100621c0",
+          "kind": 20
+        },
+        {
+          "symbol": "_sprintf",
+          "site": "0x622ed",
+          "target": "0x100c7353",
+          "kind": 20
+        },
+        {
+          "symbol": "??3@YAXPAX@Z",
+          "site": "0x62303",
+          "target": "0x100c648a",
+          "kind": 20
+        },
+        {
+          "symbol": "__imp__FindClose@4",
+          "site": "0x62336",
+          "target": "0x100e5244",
+          "kind": 6
+        },
+        {
+          "symbol": "?assign@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAEAAV12@PBDI@Z",
+          "site": "0x62362",
+          "target": "0x1000b7b0",
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "label": "whole_operator_plus_EH18",
+      "section": 113,
+      "rva": "0xe3780",
+      "size": 18,
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "??1?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAE@XZ",
+          "site": "0xe3784",
+          "target": "0x10013f30",
+          "kind": 20
+        },
+        {
+          "symbol": "$T96773",
+          "site": "0xe3789",
+          "target": "0x100fb5e0",
+          "kind": 6
+        },
+        {
+          "symbol": "___CxxFrameHandler",
+          "site": "0xe378e",
+          "target": "0x100c6526",
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "label": "whole_operator_plus_xdata36",
+      "section": 114,
+      "rva": "0xfb5d8",
+      "size": 36,
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "$L96492",
+          "site": "0xfb5dc",
+          "target": "0x100e3780",
+          "kind": 6
+        },
+        {
+          "symbol": "$T96777",
+          "site": "0xfb5e8",
+          "target": "0x100fb5d8",
+          "kind": 6
+        }
+      ]
+    }
+  ],
+  "literal": {
+    "symbol": "??_C@_0BI@IJMKBJO@?2screens?2sa?9mp?9?$CF03i?4png?$AA@",
+    "rva": "E98F0",
+    "size": 24,
+    "whole_contents_equal": true,
+    "hex": "5c73637265656e735c73612d6d702d253033692e706e6700"
+  },
+  "global_storage": {
+    "symbol": "?szSAMPDir@@3PADA",
+    "rva": "26E918",
+    "size": 261,
+    "COFF_uninitialized": true,
+    "original_virtual_zero_fill": true,
+    "status": "proposedstoreidentifiednotaccepted",
+    "writer_audit": "samp-directory-owner-refs.json, SetupDirectoriesC3C70 initializer notincluded"
+  },
+  "stackbuffer": "SourceMAX_PATH260 charbuffer zeroed; distinct realglobalMAX_PATH+1=261. No conflationorstaticbacking invention.",
+  "source_identity_checks": [
+    "GetSAMPPathC3AD0 actualreturnsszSAMPDir26E918; ambiguity rejected bytrueglobal identity.",
+    "Operator+ usesacceptedsubstringassignB6C0 twice, newappendchars62050 once, deleteC648A; EHdirectlyrequiresstd::stringdtor13F30.",
+    "Appendchars62050 aliasingbranchusesappendsubstring61F60, notassignB6C0; bothuseaccepted_CopyB120 andtrue_Xran/Xlen.",
+    "Screenshot255 callsGetSAMPPath,assigncharsB7B0,operator+621C0,sprintfC7353,deleteC648A,FindFirstFileAE524C,FindCloseE5244 thenassignB7B0.",
+    "OriginaltempEHall18 andwholemetadata36 matched, no droppedcleanup.",
+    "No change fromsourcesapartfrompreviouslynoted+38dtor dependency; filenamefunction/proposedstore remainstable."
+  ]
+}

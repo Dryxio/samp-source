@@ -1,0 +1,34 @@
+{
+  "status": "ACCEPTED_AFTER_COMPLETE_LINK_REVIEW",
+  "run": "cp32-screenshot-model-linked1",
+  "ob1": "cp32-screenshot-model-ob1",
+  "ob2": "cp32-player-lifetime-ob2",
+  "new_unique_code_bytes": 1546,
+  "direct_025_accepted_bytes": 255,
+  "total_direct_025_accepted_bytes": 18372,
+  "coverage": {
+    "previous_code_bytes": 209409,
+    "batch_code_bytes": 191906,
+    "new_unique_code_bytes": 1546,
+    "union_code_bytes": 210955,
+    "text_bytes": 930756,
+    "text_percent": 22.66490895573061,
+    "whole_dll_match": false
+  },
+  "verification": "All whole functions and EH/data, source/link targets and every relocation. Ten negative controls and actor ABI pass. Eight old pending excluded. No screenshot, directory, native callback or constructor execution.",
+  "adaptations": "Screenshot source255 and string append233/271,operator+167,dtor38,EH18 first trial exact. Actual GetSAMPPath6 owner261 and full format24. ScoreBoard209 exact from base. Model utilities349: two normal C++ trials isolate register allocation differences, then three MOV bridge per collision getter; RenderAtomic59 symbolic ABI after normal C++41. Other four utility functions remain C++.",
+  "reference_credit": "255 direct adapted025 screenshot filename. Microsoft template implementations, existing ScoreBoard and R5 utility reconstruction give no extra025 credit.",
+  "throughput": {
+    "start_utc": "2026-09-05T20:11:21Z",
+    "measured_utc": "2026-09-06T01:00:07.035277+00:00",
+    "elapsed_seconds": 17326.035277,
+    "new_unique_bytes": 37814,
+    "bytes_per_hour": 7856.985041506331,
+    "coordination_included": true,
+    "agents": 3
+  },
+  "blockers": [
+    "Actual szSAMPDir initialization SetupDirectories identified but not implemented/credited here. Native model factory and full preview callers remain outside this lot. Sprite remains unmatched."
+  ],
+  "next": "Actual directory setup closure and model factory81; continue common provider reconstruction. Goal remains active."
+}

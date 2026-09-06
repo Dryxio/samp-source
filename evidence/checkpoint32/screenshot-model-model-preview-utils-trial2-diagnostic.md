@@ -1,0 +1,7 @@
+# Trial2: two exact-size functions, only register allocation differs
+
+Radius is now74, centre93. Full observed instruction sequences agree apart from the same field-copy register: candidate offset28 uses movECX,[EAX+14] then offset2B storesECX tocollisionlocal; original usesEDX for both. Volatilelocals successfully recovered original8-byteframe, info/collisionstackplacement, zero-init, reloads and failure-before-success layout. This is not another broad control-flow or stack-layout problem.
+
+No C++ declaration permutation has an evidence-based reason to selectEDX rather thanECX here, so no third arbitrary C++ variant. Root’s requested bounded partialexception is supplied as closure_model_preview_utilities_bridge_proposed.cpp: only collision=info->collision becomes the three symbolic MOVs referencing existing localnames and offsetof collision14. Function bodies/prologue/epilogues/returns and actual GetModelInfo calls remain C++, not full naked reconstruction. Query/GetVtable exact functions unchanged. Keeps nativeview and all data/constants unchanged. This is explicitly labeled after two normal C++ failures; no _emit/opcode blobs/nops/masks. Root must test whether MSVC asm-block boundaries preserve same74/93 layout; if not, park rather than expand arbitrarily.
+
+Arithmetic correction:74+93+9+20+59+37+57=349 principal total. Radius/Centre167; remainingfive182. Earlier449/282 aggregates were wrong. Manifest corrected; individual function ranges alwaysunchanged. Data and unimplementedB625081 receive no codecredit; final uniongate authoritative.
