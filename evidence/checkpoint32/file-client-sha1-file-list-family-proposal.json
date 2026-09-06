@@ -1,0 +1,88 @@
+{
+  "status": "COMPLETE_VENDOR_DISCOVERY_PROPOSALS_STABLE_NOT_COMPILED",
+  "sources": [
+    {
+      "origin": "vendor/upstream/raknet/FileList.cpp",
+      "origin_sha256": "694b129e0ef1907f49f64f61fa2090ed75b3b6d532ba6270aaf5fa260febfa0d",
+      "proposal": "build/agent-independent/eval_vendor_file_list.cpp",
+      "proposal_sha256": "df5f7d5243c4015eac7f0904408e8f0640d3adadb22081a391870361c0417b16"
+    },
+    {
+      "origin": "vendor/upstream/raknet/FileListTransfer.cpp",
+      "origin_sha256": "32250b45dbb3add4e27f190d83b56886bec5fa8b89200b27608bfac3866983d3",
+      "proposal": "build/agent-independent/eval_vendor_file_list_transfer.cpp",
+      "proposal_sha256": "0313dafcea67204bebc8f7aa4e0d661b08032c14f1b9130da8e344193e3187bc"
+    },
+    {
+      "origin": "vendor/upstream/raknet/FileOperations.cpp",
+      "origin_sha256": "d7f3cfc386c77fe80c11bffd5012ef47b4c1683216bb4f48ba81f5bbee2e5634",
+      "proposal": "build/agent-independent/eval_vendor_file_operations.cpp",
+      "proposal_sha256": "ed09b3a6665aac6e193ccfa92a00bfceb9f3a2d610aedabc51e4e72cd6ad84c5"
+    }
+  ],
+  "baseline_accepted": 300692,
+  "pending_database_client": 1592,
+  "source025_direct_bytes": 0,
+  "source025_reason": "All three sources are complete in existing vendor base; no missing025 contribution.",
+  "layout": {
+    "FileList": 12,
+    "FileListNode": 17,
+    "FileListTransfer": 29,
+    "FileListReceiver": 1567,
+    "HuffmanEncodingTree": 1540,
+    "FileListTransferCBInterface": 4,
+    "FileListReceiver_fields": {
+      "downloadHandler": 0,
+      "allowedSender": 4,
+      "tree": 10,
+      "setID": 1550,
+      "setCount": 1552,
+      "totalCompressed": 1556,
+      "totalFinal": 1560,
+      "gotHeader": 1564,
+      "deleteHandler": 1565,
+      "isCompressed": 1566
+    },
+    "FileListTransfer_fields": {
+      "primary_vptr": 0,
+      "receiverMap": 4,
+      "setId": 23,
+      "rakPeer": 25
+    }
+  },
+  "potential": "Three complete coherent TUs, expected multipleKB. Exact identities and unique delta only after fresh probe and full union deduction; no inferred byte acceptance.",
+  "priority": [
+    "FileList in-memory AddFile/Clear/Serialize/Deserialize/GetDeltaToCurrent and their real List<FileListNode> templates.",
+    "FileListTransfer lifecycle, real full receiver allocation/Huffman lifetime/Map<ushort,Receiver*>; send/receive encoders.",
+    "FileList disk methods and FileOperations after pinned CRT providers qualify. No file APIs executed."
+  ],
+  "dependency_classes": {
+    "already_closed": "BitStream, StringCompressor, Huffman, ordinary containers/CRT allocations, PluginInterface default methods.",
+    "parent_reserved": "CSHA1 ctor/dtor/Reset/Update/Final/GetHash; parent currently reconstructs. Transform7195 already basecovered and must never count again.",
+    "provided_here": "All five real FileOperations methods plus full FileList/ListTransfer classes and template source.",
+    "CRT_IO_to_qualify_after_probe": [
+      "fopen",
+      "fclose",
+      "fread",
+      "fwrite",
+      "fseek",
+      "ftell",
+      "_findfirst",
+      "_findnext",
+      "_findclose",
+      "_mkdir",
+      "_unlink",
+      "_stricmp",
+      "_strnicmp"
+    ],
+    "dynamic_interfaces": "RakPeerInterface Send(BitStream), GetIndexFromPlayerID and caller-supplied FileListTransferCBInterface OnFile/OnFileProgress. Known ABI boundaries only; no concrete network/socket/user callback implementation counted."
+  },
+  "source_preservation": [
+    "Only include-path adaptation and compile-time sizeof assertions; original order/conditions/allocations retained.",
+    "Preserve vendor Send noncompressed totalLength/uninitialized temporary behavior; no cleanup fixes or corrected loops.",
+    "Callback class lacks virtual destructor in actual header: preserve source delete semantics; no fake virtual dtor/wrapper.",
+    "Real FileListReceiver has whole1540 Huffman subobject; no opaque/partial allocation."
+  ],
+  "collision_audit": "No active closure CPP definitions found for WriteFileWithDirectories/IsSlash/AddSlash/QuoteIfSpaces/DirectoryExists. Discovery is not authorization to link unmatched whole TU; select fully matching dependency closure after probe.",
+  "no_execution": "No filesystem API, network sending or deletion executed; source and binary inspection only."
+}

@@ -1,0 +1,43 @@
+{
+  "status": "ACTUAL_SHA1_WEAK_DELETING_ALIAS_FULL_VFT_AND_CODE_QUALIFIED",
+  "run": "build/cp32-file-client-sha1-linked1",
+  "object_sha256": "f48b4e0f5140174431e350edff12d6c3d0f852776d1a9c8a35842add9003ab43",
+  "dll_sha256": "76684eb67d5b495b60c6fd6595304329d540988e0a59d513badb8d2862e91155",
+  "map_sha256": "07f8e294715c3ce2b36197ead31f80641ddf4f13a8e07a5d6282a4beb2110ed4",
+  "alias": {
+    "source": "??_ECSHA1@@UAEPAXI@Z",
+    "canonical": "??_GCSHA1@@UAEPAXI@Z",
+    "source_storage": 105,
+    "source_undefined": true,
+    "real_aux_fallback_verified": true,
+    "alias_va": 268755280,
+    "canonical_va": 268755280,
+    "owner": "closure_vendor_sha1.obj"
+  },
+  "code": [
+    {
+      "image": "original",
+      "rva": 341952,
+      "size": 30,
+      "whole_bytes_equal": true,
+      "all_fixups_and_PE_relocations_equal": true
+    },
+    {
+      "image": "linked",
+      "rva": 319824,
+      "size": 30,
+      "whole_bytes_equal": true,
+      "all_fixups_and_PE_relocations_equal": true
+    }
+  ],
+  "vtable": {
+    "symbol": "??_7CSHA1@@6B@",
+    "source_section": 28,
+    "size": 4,
+    "original_rva": 955224,
+    "linked_rva": 423456,
+    "slot0_references_actual_weak_alias": true,
+    "full_bytes_and_relocations_equal": true
+  },
+  "extra_credit": 0
+}

@@ -1,0 +1,528 @@
+{
+  "status": "WHOLE_REGION_PREFLIGHT_NOT_ACCEPTED_DEPENDENCIES_OPEN",
+  "run": "cp32-sha1-trial1",
+  "roots": {
+    "?Reset@CSHA1@@QAEXXZ": 333552,
+    "?Transform@CSHA1@@AAEXQAIQAE@Z": 333600,
+    "?Update@CSHA1@@QAEXPAEI@Z": 340800,
+    "?HashFile@CSHA1@@QAE_NPAD@Z": 341008,
+    "?Final@CSHA1@@QAEXXZ": 341232,
+    "?ReportHash@CSHA1@@QAEXPADE@Z": 341488,
+    "?GetHash@CSHA1@@QAEXPAE@Z": 341856,
+    "?GetHash@CSHA1@@QBEPAEXZ": 341904,
+    "??0CSHA1@@QAE@XZ": 341920,
+    "??_GCSHA1@@UAEPAXI@Z": 341952,
+    "??1CSHA1@@UAE@XZ": 341936
+  },
+  "seeds": {
+    "closure_vendor_sha1": {
+      "??1CSHA1@@UAE@XZ": 341936,
+      "??_GCSHA1@@UAEPAXI@Z": 341952,
+      "??0CSHA1@@QAE@XZ": 341920,
+      "?GetHash@CSHA1@@QBEPAEXZ": 341904,
+      "?GetHash@CSHA1@@QAEXPAE@Z": 341856,
+      "?ReportHash@CSHA1@@QAEXPADE@Z": 341488,
+      "?Final@CSHA1@@QAEXXZ": 341232,
+      "?HashFile@CSHA1@@QAE_NPAD@Z": 341008,
+      "?Update@CSHA1@@QAEXPAEI@Z": 340800,
+      "?Transform@CSHA1@@AAEXQAIQAE@Z": 333600,
+      "?Reset@CSHA1@@QAEXXZ": 333552
+    }
+  },
+  "regions": [
+    {
+      "unit": "closure_vendor_sha1",
+      "section": 30,
+      "rva": 341936,
+      "size": 11,
+      "anchor": "??1CSHA1@@UAE@XZ",
+      "kind": ".text",
+      "sha256": "26bde3cdf9856b10cf59fa766acdae9ddb28db2a3dfc2746d95bcedb170df9b9",
+      "bindings": [
+        {
+          "symbol": "??_7CSHA1@@6B@",
+          "site_rva": 341938,
+          "target_va": 269390680,
+          "kind": 6
+        },
+        {
+          "symbol": "?Reset@CSHA1@@QAEXXZ",
+          "site_rva": 341943,
+          "target_va": 268769008,
+          "kind": 20
+        }
+      ],
+      "whole_bytes_equal": true
+    },
+    {
+      "unit": "closure_vendor_sha1",
+      "section": 28,
+      "rva": 955224,
+      "size": 4,
+      "anchor": "??_7CSHA1@@6B@",
+      "kind": ".rdata",
+      "sha256": "60ef31d61efa7c83a788028477bf82d8f5f28cce43eaaca2f84fd10796f9594e",
+      "bindings": [
+        {
+          "symbol": "??_ECSHA1@@UAEPAXI@Z",
+          "site_rva": 955224,
+          "target_va": 268777408,
+          "kind": 6
+        }
+      ],
+      "whole_bytes_equal": true
+    },
+    {
+      "unit": "closure_vendor_sha1",
+      "section": 32,
+      "rva": 341952,
+      "size": 30,
+      "anchor": "??_GCSHA1@@UAEPAXI@Z",
+      "kind": ".text",
+      "sha256": "480b48408bfa50ae77ef2d8bca78a2fe6f5a43564d0e6777ea8a5b9adda185f3",
+      "bindings": [
+        {
+          "symbol": "??1CSHA1@@UAE@XZ",
+          "site_rva": 341956,
+          "target_va": 268777392,
+          "kind": 20
+        },
+        {
+          "symbol": "??3@YAXPAX@Z",
+          "site_rva": 341969,
+          "target_va": 269247626,
+          "kind": 20
+        }
+      ],
+      "whole_bytes_equal": true
+    },
+    {
+      "unit": "closure_vendor_sha1",
+      "section": 27,
+      "rva": 341920,
+      "size": 14,
+      "anchor": "??0CSHA1@@QAE@XZ",
+      "kind": ".text",
+      "sha256": "d230dd16f531fe9bde5f3cb5e6528a700b882a4b94d91c8f4eb1645391f16e12",
+      "bindings": [
+        {
+          "symbol": "??_7CSHA1@@6B@",
+          "site_rva": 341922,
+          "target_va": 269390680,
+          "kind": 6
+        },
+        {
+          "symbol": "?Reset@CSHA1@@QAEXXZ",
+          "site_rva": 341927,
+          "target_va": 268769008,
+          "kind": 20
+        }
+      ],
+      "whole_bytes_equal": true
+    },
+    {
+      "unit": "closure_vendor_sha1",
+      "section": 25,
+      "rva": 341904,
+      "size": 4,
+      "anchor": "?GetHash@CSHA1@@QBEPAEXZ",
+      "kind": ".text",
+      "sha256": "6190ecb884fca2374de848dc0b07613e47aec92a4db2acca9511a2831eb8e648",
+      "bindings": [],
+      "whole_bytes_equal": true
+    },
+    {
+      "unit": "closure_vendor_sha1",
+      "section": 23,
+      "rva": 341856,
+      "size": 38,
+      "anchor": "?GetHash@CSHA1@@QAEXPAE@Z",
+      "kind": ".text",
+      "sha256": "f7e38781dba41ddf052eee9c6055f6d6b63782676954f5507756f0339f96f1c7",
+      "bindings": [],
+      "whole_bytes_equal": true
+    },
+    {
+      "unit": "closure_vendor_sha1",
+      "section": 16,
+      "rva": 341488,
+      "size": 360,
+      "anchor": "?ReportHash@CSHA1@@QAEXPADE@Z",
+      "kind": ".text",
+      "sha256": "c722a7517d5bf595cd24f60121e7ab5581da794ce9f54abfcb8ac8d9393bcb1c",
+      "bindings": [
+        {
+          "symbol": "??_C@_04JFFKLGJF@?$CF02X?$AA@",
+          "site_rva": 341516,
+          "target_va": 269390672,
+          "kind": 6
+        },
+        {
+          "symbol": "_sprintf",
+          "site_rva": 341522,
+          "target_va": 269251411,
+          "kind": 20
+        },
+        {
+          "symbol": "??_C@_05OFBGOFBN@?5?$CF02X?$AA@",
+          "site_rva": 341593,
+          "target_va": 269390664,
+          "kind": 6
+        },
+        {
+          "symbol": "_sprintf",
+          "site_rva": 341599,
+          "target_va": 269251411,
+          "kind": 20
+        },
+        {
+          "symbol": "??_C@_02GMHACPFF@?$CFu?$AA@",
+          "site_rva": 341683,
+          "target_va": 269390660,
+          "kind": 6
+        },
+        {
+          "symbol": "_sprintf",
+          "site_rva": 341689,
+          "target_va": 269251411,
+          "kind": 20
+        },
+        {
+          "symbol": "??_C@_03BCEHIGGF@?5?$CFu?$AA@",
+          "site_rva": 341757,
+          "target_va": 269390656,
+          "kind": 6
+        },
+        {
+          "symbol": "_sprintf",
+          "site_rva": 341763,
+          "target_va": 269251411,
+          "kind": 20
+        },
+        {
+          "symbol": "??_C@_0BM@DLILFBO@Error?3?5Unknown?5report?5type?$CB?$AA@",
+          "site_rva": 341835,
+          "target_va": 269390628,
+          "kind": 6
+        }
+      ],
+      "whole_bytes_equal": true
+    },
+    {
+      "unit": "closure_vendor_sha1",
+      "section": 17,
+      "rva": 955172,
+      "size": 28,
+      "anchor": "??_C@_0BM@DLILFBO@Error?3?5Unknown?5report?5type?$CB?$AA@",
+      "kind": ".rdata",
+      "sha256": "cfc52f38ac232ab1aedadf818f1cd4389d96d92a2e51f8e421fb6c9a89776172",
+      "bindings": [],
+      "whole_bytes_equal": true
+    },
+    {
+      "unit": "closure_vendor_sha1",
+      "section": 18,
+      "rva": 955200,
+      "size": 4,
+      "anchor": "??_C@_03BCEHIGGF@?5?$CFu?$AA@",
+      "kind": ".rdata",
+      "sha256": "0f0c64bd33df9460e48d4416a0ff4467b77cf00dd90ced232862fd412a3060c6",
+      "bindings": [],
+      "whole_bytes_equal": true
+    },
+    {
+      "unit": "closure_vendor_sha1",
+      "section": 19,
+      "rva": 955204,
+      "size": 3,
+      "anchor": "??_C@_02GMHACPFF@?$CFu?$AA@",
+      "kind": ".rdata",
+      "sha256": "08de224b25f03e58891d3bb901715b147f0f3cef885186f33c9604a4c5fe1617",
+      "bindings": [],
+      "whole_bytes_equal": true
+    },
+    {
+      "unit": "closure_vendor_sha1",
+      "section": 20,
+      "rva": 955208,
+      "size": 6,
+      "anchor": "??_C@_05OFBGOFBN@?5?$CF02X?$AA@",
+      "kind": ".rdata",
+      "sha256": "3204a85207bd344d22949fd969bccd82f4fb810c3aea06f5a204eae2cebebfbd",
+      "bindings": [],
+      "whole_bytes_equal": true
+    },
+    {
+      "unit": "closure_vendor_sha1",
+      "section": 21,
+      "rva": 955216,
+      "size": 5,
+      "anchor": "??_C@_04JFFKLGJF@?$CF02X?$AA@",
+      "kind": ".rdata",
+      "sha256": "6591ccd67a1fb2749ff086c1db91e89e58b2c8763c03d7807cab6dd7d98d0f61",
+      "bindings": [],
+      "whole_bytes_equal": true
+    },
+    {
+      "unit": "closure_vendor_sha1",
+      "section": 12,
+      "rva": 341232,
+      "size": 252,
+      "anchor": "?Final@CSHA1@@QAEXXZ",
+      "kind": ".text",
+      "sha256": "613a8ba25417d3111bf210c9dc567db22a112a535a7107e752f0c8b8695506b1",
+      "bindings": [
+        {
+          "symbol": "??_C@_01IFKFHFEL@?$IA?$AA@",
+          "site_rva": 341302,
+          "target_va": 269375716,
+          "kind": 6
+        },
+        {
+          "symbol": "?Update@CSHA1@@QAEXPAEI@Z",
+          "site_rva": 341317,
+          "target_va": 268776256,
+          "kind": 20
+        },
+        {
+          "symbol": "??_C@_01LOCGONAA@?$AA?$AA@",
+          "site_rva": 341347,
+          "target_va": 269390624,
+          "kind": 6
+        },
+        {
+          "symbol": "?Update@CSHA1@@QAEXPAEI@Z",
+          "site_rva": 341354,
+          "target_va": 268776256,
+          "kind": 20
+        },
+        {
+          "symbol": "?Update@CSHA1@@QAEXPAEI@Z",
+          "site_rva": 341385,
+          "target_va": 268776256,
+          "kind": 20
+        },
+        {
+          "symbol": "?Transform@CSHA1@@AAEXQAIQAE@Z",
+          "site_rva": 341474,
+          "target_va": 268769056,
+          "kind": 20
+        }
+      ],
+      "whole_bytes_equal": true
+    },
+    {
+      "unit": "closure_vendor_sha1",
+      "section": 13,
+      "rva": 955168,
+      "size": 2,
+      "anchor": "??_C@_01LOCGONAA@?$AA?$AA@",
+      "kind": ".rdata",
+      "sha256": "96a296d224f285c67bee93c30f8a309157f0daa35dc5b87e410b78630a09cfc7",
+      "bindings": [],
+      "whole_bytes_equal": true
+    },
+    {
+      "unit": "closure_vendor_sha1",
+      "section": 14,
+      "rva": 940260,
+      "size": 2,
+      "anchor": "??_C@_01IFKFHFEL@?$IA?$AA@",
+      "kind": ".rdata",
+      "sha256": "8509b81230019d2ad970d970f791dfbdc8caf54f5c594fcd327cef9feed206c1",
+      "bindings": [],
+      "whole_bytes_equal": true
+    },
+    {
+      "unit": "closure_vendor_sha1",
+      "section": 9,
+      "rva": 341008,
+      "size": 211,
+      "anchor": "?HashFile@CSHA1@@QAE_NPAD@Z",
+      "kind": ".text",
+      "sha256": "3c49fafa5a1cc8b08d23ea6af0e4bee5bfc94143379f062adee73f71a5d0afa2",
+      "bindings": [
+        {
+          "symbol": "__chkstk",
+          "site_rva": 341014,
+          "target_va": 269254320,
+          "kind": 20
+        },
+        {
+          "symbol": "??_C@_02JDPG@rb?$AA@",
+          "site_rva": 341028,
+          "target_va": 269381004,
+          "kind": 6
+        },
+        {
+          "symbol": "_fopen",
+          "site_rva": 341036,
+          "target_va": 269254473,
+          "kind": 20
+        },
+        {
+          "symbol": "_fseek",
+          "site_rva": 341069,
+          "target_va": 269256575,
+          "kind": 20
+        },
+        {
+          "symbol": "_ftell",
+          "site_rva": 341075,
+          "target_va": 269256367,
+          "kind": 20
+        },
+        {
+          "symbol": "_fseek",
+          "site_rva": 341087,
+          "target_va": 269256575,
+          "kind": 20
+        },
+        {
+          "symbol": "_div",
+          "site_rva": 341098,
+          "target_va": 269258355,
+          "kind": 20
+        },
+        {
+          "symbol": "_fread",
+          "site_rva": 341134,
+          "target_va": 269255810,
+          "kind": 20
+        },
+        {
+          "symbol": "?Update@CSHA1@@QAEXPAEI@Z",
+          "site_rva": 341154,
+          "target_va": 268776256,
+          "kind": 20
+        },
+        {
+          "symbol": "_fread",
+          "site_rva": 341176,
+          "target_va": 269255810,
+          "kind": 20
+        },
+        {
+          "symbol": "?Update@CSHA1@@QAEXPAEI@Z",
+          "site_rva": 341192,
+          "target_va": 268776256,
+          "kind": 20
+        },
+        {
+          "symbol": "_fclose",
+          "site_rva": 341198,
+          "target_va": 269254232,
+          "kind": 20
+        }
+      ],
+      "whole_bytes_equal": true
+    },
+    {
+      "unit": "closure_vendor_sha1",
+      "section": 10,
+      "rva": 945548,
+      "size": 3,
+      "anchor": "??_C@_02JDPG@rb?$AA@",
+      "kind": ".rdata",
+      "sha256": "ef4a3d25250e72708f6f82d59e29b96880728d971ae0b4862d37c9cd927bb082",
+      "bindings": [],
+      "whole_bytes_equal": true
+    },
+    {
+      "unit": "closure_vendor_sha1",
+      "section": 7,
+      "rva": 340800,
+      "size": 194,
+      "anchor": "?Update@CSHA1@@QAEXPAEI@Z",
+      "kind": ".text",
+      "sha256": "19aad4f4a425013b32d4b69a60630a6c5c97e4765b693ed94697b61096be565f",
+      "bindings": [
+        {
+          "symbol": "?Transform@CSHA1@@AAEXQAIQAE@Z",
+          "site_rva": 340904,
+          "target_va": 268769056,
+          "kind": 20
+        },
+        {
+          "symbol": "?Transform@CSHA1@@AAEXQAIQAE@Z",
+          "site_rva": 340932,
+          "target_va": 268769056,
+          "kind": 20
+        }
+      ],
+      "whole_bytes_equal": true
+    },
+    {
+      "unit": "closure_vendor_sha1",
+      "section": 5,
+      "rva": 333600,
+      "size": 7195,
+      "anchor": "?Transform@CSHA1@@AAEXQAIQAE@Z",
+      "kind": ".text",
+      "sha256": "75dd1b785c8ee8aa5725b692ceb2fbdf4295ec03f77b14298fdb07492e353899",
+      "bindings": [],
+      "whole_bytes_equal": true
+    },
+    {
+      "unit": "closure_vendor_sha1",
+      "section": 3,
+      "rva": 333552,
+      "size": 44,
+      "anchor": "?Reset@CSHA1@@QAEXXZ",
+      "kind": ".text",
+      "sha256": "d58ab8232145ce41c899c1ed99a2c9c384787da321323941f12d4aad68d83a32",
+      "bindings": [],
+      "whole_bytes_equal": true
+    }
+  ],
+  "bindings_checked": 36,
+  "external_targets": {
+    "??3@YAXPAX@Z": 269247626,
+    "_sprintf": 269251411,
+    "__chkstk": 269254320,
+    "_fopen": 269254473,
+    "_fseek": 269256575,
+    "_ftell": 269256367,
+    "_div": 269258355,
+    "_fread": 269255810,
+    "_fclose": 269254232
+  },
+  "identity_reasons": {
+    "?Reset@CSHA1@@QAEXXZ": "original principal identity and complete source semantics",
+    "?Transform@CSHA1@@AAEXQAIQAE@Z": "original principal identity and complete source semantics",
+    "?Update@CSHA1@@QAEXPAEI@Z": "original principal identity and complete source semantics",
+    "?HashFile@CSHA1@@QAE_NPAD@Z": "original principal identity and complete source semantics",
+    "?Final@CSHA1@@QAEXXZ": "original principal identity and complete source semantics",
+    "?ReportHash@CSHA1@@QAEXPADE@Z": "original principal identity and complete source semantics",
+    "?GetHash@CSHA1@@QAEXPAE@Z": "original principal identity and complete source semantics",
+    "?GetHash@CSHA1@@QBEPAEXZ": "original principal identity and complete source semantics",
+    "??0CSHA1@@QAE@XZ": "original principal identity and complete source semantics",
+    "??_GCSHA1@@UAEPAXI@Z": "original principal identity and complete source semantics",
+    "??1CSHA1@@UAE@XZ": "original principal identity and complete source semantics",
+    "??_7CSHA1@@6B@": "actual whole-region relocation from ??1CSHA1@@UAE@XZ",
+    "??_ECSHA1@@UAEPAXI@Z": "actual whole-region relocation from ??_7CSHA1@@6B@",
+    "??3@YAXPAX@Z": "actual whole-region relocation from ??_GCSHA1@@UAEPAXI@Z",
+    "??_C@_04JFFKLGJF@?$CF02X?$AA@": "actual whole-region relocation from ?ReportHash@CSHA1@@QAEXPADE@Z",
+    "_sprintf": "actual whole-region relocation from ?ReportHash@CSHA1@@QAEXPADE@Z",
+    "??_C@_05OFBGOFBN@?5?$CF02X?$AA@": "actual whole-region relocation from ?ReportHash@CSHA1@@QAEXPADE@Z",
+    "??_C@_02GMHACPFF@?$CFu?$AA@": "actual whole-region relocation from ?ReportHash@CSHA1@@QAEXPADE@Z",
+    "??_C@_03BCEHIGGF@?5?$CFu?$AA@": "actual whole-region relocation from ?ReportHash@CSHA1@@QAEXPADE@Z",
+    "??_C@_0BM@DLILFBO@Error?3?5Unknown?5report?5type?$CB?$AA@": "actual whole-region relocation from ?ReportHash@CSHA1@@QAEXPADE@Z",
+    "??_C@_01IFKFHFEL@?$IA?$AA@": "actual whole-region relocation from ?Final@CSHA1@@QAEXXZ",
+    "??_C@_01LOCGONAA@?$AA?$AA@": "actual whole-region relocation from ?Final@CSHA1@@QAEXXZ",
+    "__chkstk": "actual whole-region relocation from ?HashFile@CSHA1@@QAE_NPAD@Z",
+    "??_C@_02JDPG@rb?$AA@": "actual whole-region relocation from ?HashFile@CSHA1@@QAE_NPAD@Z",
+    "_fopen": "actual whole-region relocation from ?HashFile@CSHA1@@QAE_NPAD@Z",
+    "_fseek": "actual whole-region relocation from ?HashFile@CSHA1@@QAE_NPAD@Z",
+    "_ftell": "actual whole-region relocation from ?HashFile@CSHA1@@QAE_NPAD@Z",
+    "_div": "actual whole-region relocation from ?HashFile@CSHA1@@QAE_NPAD@Z",
+    "_fread": "actual whole-region relocation from ?HashFile@CSHA1@@QAE_NPAD@Z",
+    "_fclose": "actual whole-region relocation from ?HashFile@CSHA1@@QAE_NPAD@Z"
+  },
+  "actual_weak_aliases": {
+    "closure_vendor_sha1": {
+      "??_ECSHA1@@UAEPAXI@Z": "??_GCSHA1@@UAEPAXI@Z"
+    }
+  },
+  "notes": "No source credit until every external true provider is closed and final linked gate passes."
+}

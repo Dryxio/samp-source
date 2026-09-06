@@ -1446,3 +1446,8 @@ Source025821 adapted principal bytes/cumulative21947; 104378 new unique bytes si
 Database/IME/keys accepted: +23173 unique code bytes, total 300692/930756 (32.306211%). Whole DatabaseServer/Table/Common/Serializer and extra sort/serialization operations, PlayerID string120, IME2460 and SetKeys655. All source/data/EH/COFF/PE providers, ten controls and Actor ABI pass. Actual compiler CRT initializer pointer4 now bound only inside pinned LIBCMT initializer array with null sentinels, unique local provider and PE relocations; full comparison unchanged, dedicated negative controls retained. No data or duplicate code credited.
 
 Direct0250/cumulative21947: existing vendor source produced the major gain here. 127551 new unique bytes since parallel start, 12189.7 bytes/hour coordination/failures included. Prior85 player regions remain identical after transfer77. Unmatched GetKeys and later IME message/reading candidates excluded. Goal active; no push/deploy.
+
+
+FileList/DatabaseClient/SHA1 accepted: +14988 unique code bytes, total 315680/930756 (33.916515%). Whole functions and attached data/EH, all COFF/PE targets, genuine CRT providers and weak destructor alias, ten controls and Actor ABI pass. FileList12324, Client1592, SHA11072; old SHA1 core excluded from gain. No data, duplicate or CRT code credited.
+
+Direct0250/cumulative21947: existing vendor source supplies this batch. 142539 new unique bytes since parallel start, 12945.1 bytes/hour coordination/failures included. Parked IME message/reading bodies excluded. Goal active; no push/deploy.

@@ -1,0 +1,291 @@
+{
+  "status": "SOURCE_READY_DISCOVERY_NOT_ACCEPTED",
+  "source": "build/agent-independent/eval_vendor_database_client.cpp",
+  "source_sha256": "5374922c8b085927819d50f3c7f3a54d0096727a6fe2d9e91501a642d5f77124",
+  "origin": "vendor/upstream/raknet/LightweightDatabaseClient.cpp",
+  "origin_sha256": "d1822a3c2da3e87da24189e03c57f9107c832143a92b2b09e3a77ee0fe320f91",
+  "root_identities": [
+    {
+      "name": "QueryTable",
+      "rva": 191552,
+      "size": 514,
+      "direct_calls": [
+        {
+          "site": 191624,
+          "target": 128816
+        },
+        {
+          "site": 191658,
+          "target": 131040
+        },
+        {
+          "site": 191673,
+          "target": 343088
+        },
+        {
+          "site": 191680,
+          "target": 344480
+        },
+        {
+          "site": 191705,
+          "target": 130864
+        },
+        {
+          "site": 191720,
+          "target": 343088
+        },
+        {
+          "site": 191727,
+          "target": 344480
+        },
+        {
+          "site": 191738,
+          "target": 130832
+        },
+        {
+          "site": 191767,
+          "target": 131040
+        },
+        {
+          "site": 191812,
+          "target": 131040
+        },
+        {
+          "site": 191846,
+          "target": 131040
+        },
+        {
+          "site": 191879,
+          "target": 192864
+        },
+        {
+          "site": 191914,
+          "target": 131040
+        },
+        {
+          "site": 191956,
+          "target": 131040
+        },
+        {
+          "site": 192034,
+          "target": 129232
+        }
+      ],
+      "dynamic_calls": [
+        {
+          "site": 192016,
+          "vtable_byte_offset": 48
+        }
+      ]
+    },
+    {
+      "name": "RemoveRow",
+      "rva": 192080,
+      "size": 316,
+      "direct_calls": [
+        {
+          "site": 192150,
+          "target": 128816
+        },
+        {
+          "site": 192184,
+          "target": 131040
+        },
+        {
+          "site": 192199,
+          "target": 343088
+        },
+        {
+          "site": 192206,
+          "target": 344480
+        },
+        {
+          "site": 192231,
+          "target": 130864
+        },
+        {
+          "site": 192246,
+          "target": 343088
+        },
+        {
+          "site": 192253,
+          "target": 344480
+        },
+        {
+          "site": 192264,
+          "target": 130832
+        },
+        {
+          "site": 192293,
+          "target": 131040
+        },
+        {
+          "site": 192366,
+          "target": 129232
+        }
+      ],
+      "dynamic_calls": [
+        {
+          "site": 192348,
+          "vtable_byte_offset": 48
+        }
+      ]
+    },
+    {
+      "name": "UpdateRow",
+      "rva": 192400,
+      "size": 456,
+      "direct_calls": [
+        {
+          "site": 192502,
+          "target": 128816
+        },
+        {
+          "site": 192536,
+          "target": 131040
+        },
+        {
+          "site": 192551,
+          "target": 343088
+        },
+        {
+          "site": 192558,
+          "target": 344480
+        },
+        {
+          "site": 192583,
+          "target": 130864
+        },
+        {
+          "site": 192598,
+          "target": 343088
+        },
+        {
+          "site": 192605,
+          "target": 344480
+        },
+        {
+          "site": 192616,
+          "target": 130832
+        },
+        {
+          "site": 192645,
+          "target": 131040
+        },
+        {
+          "site": 192662,
+          "target": 11600
+        },
+        {
+          "site": 192695,
+          "target": 131040
+        },
+        {
+          "site": 192724,
+          "target": 131040
+        },
+        {
+          "site": 192745,
+          "target": 193104
+        },
+        {
+          "site": 192824,
+          "target": 129232
+        }
+      ],
+      "dynamic_calls": [
+        {
+          "site": 192806,
+          "vtable_byte_offset": 48
+        }
+      ]
+    },
+    {
+      "name": "constructor",
+      "rva": 191536,
+      "size": 16,
+      "direct_calls": [],
+      "dynamic_calls": []
+    },
+    {
+      "name": "OnAttach",
+      "rva": 191488,
+      "size": 10,
+      "direct_calls": [],
+      "dynamic_calls": []
+    },
+    {
+      "name": "OnReceive",
+      "rva": 191472,
+      "size": 8,
+      "direct_calls": [],
+      "dynamic_calls": []
+    },
+    {
+      "name": "destructor",
+      "rva": 191456,
+      "size": 7,
+      "direct_calls": [],
+      "dynamic_calls": []
+    }
+  ],
+  "root_unique_after_known_pending": 1327,
+  "source025_direct_bytes": 0,
+  "source025_reason": "Source already present in base vendor.",
+  "class_layout": {
+    "sizeof": 8,
+    "primary_vptr": 0,
+    "rakPeer": 4,
+    "allocation": "No fake allocation or partial class; genuine complete header."
+  },
+  "vft": {
+    "rva": 945640,
+    "size": 40,
+    "slots": [
+      191488,
+      212864,
+      212880,
+      212896,
+      191472,
+      212928,
+      212944,
+      212960,
+      212976,
+      212992
+    ],
+    "slot0": "OnAttach2EC00",
+    "slot4": "OnReceive2EBF0",
+    "other_slots": "Reuse actual PluginInterface methods33F80..34000 accepted. Destructor is nonvirtual and is not a slot."
+  },
+  "known_dynamic_ABI": {
+    "name": "RakPeerInterface::Send(BitStream*,PacketPriority,PacketReliability,char,PlayerID,bool)",
+    "vtable_byte_offset": 48,
+    "slot": 12,
+    "this": "rakPeer member at+4, originally populated by OnAttach. No adjustment; pointer is the supplied primary interface.",
+    "arguments": {
+      "priority": 1,
+      "reliability": 9,
+      "orderingChannel": 0,
+      "PlayerID": "6-byte value consumes8 stack bytes",
+      "broadcast": "actual caller bool"
+    },
+    "distinction": "Known virtual interface dispatch boundary, exactly as DatabaseServer. No concrete RakPeer/RakClient/RakServer Send body or socket execution counted as implemented.",
+    "correction": "Earlier ranking described this as a missing direct provider; it is dynamic dispatch, not a direct COFF dependency."
+  },
+  "new_direct_providers": [
+    {
+      "name": "DatabaseFilter::Serialize",
+      "rva": 192864,
+      "size": 107
+    },
+    {
+      "name": "DatabaseCellUpdate::Serialize",
+      "rva": 193104,
+      "size": 71
+    }
+  ],
+  "new_direct_provider_source": "Existing closure_vendor_database_common.cpp emits both real methods already exact trial1; add true seeds, no recompile or substitute.",
+  "direct_dependency_status": "BitStream default constructor/dtor, WriteBits/Write<bool>/Write0/Write1 and StringCompressor Instance/EncodeString already accepted or contained in current pending base. Final COFF verifies exact symbols and whole EH.",
+  "no_new_state": "Only real complete class VFT and compiler EH expected; no singleton/global data buffer added.",
+  "expected_minimum_main_plus_common_new": 1505
+}

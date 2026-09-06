@@ -1,0 +1,674 @@
+{
+  "status": "PINNED_CRT_SEVEN_PROVIDERS_AND_SIX_HELPERS_FULL_BYTES_QUALIFIED",
+  "run": "cp32-file-client-sha1-linked1",
+  "linked_sha256": "76684eb67d5b495b60c6fd6595304329d540988e0a59d513badb8d2862e91155",
+  "map_sha256": "07f8e294715c3ce2b36197ead31f80641ddf4f13a8e07a5d6282a4beb2110ed4",
+  "sdk_pins": {
+    "libcmt.lib": "6e2b3742e58245de52149137f64281b73db1487a07a31e165fff269fbf9b2ee8",
+    "kernel32.lib": "4c6f8667c02e990c496b1054429e01f3d7d1160323ac46b7771013ceaa4cb389"
+  },
+  "new_source_credit": 0,
+  "code": [
+    {
+      "symbol": "__findfirst",
+      "SDK_member": "LIBCMT:findfile.obj",
+      "original_rva": 819684,
+      "linked_rva": 343003,
+      "size": 221,
+      "whole_resolved_equal": true,
+      "all_PE_relocations_equal": true,
+      "bindings": [
+        {
+          "offset": 10,
+          "kind": "HIGHLOW",
+          "original_target_va": 269579956,
+          "linked_target_va": 269061916,
+          "identity": {
+            "symbol": "___security_cookie"
+          }
+        },
+        {
+          "offset": 31,
+          "kind": "HIGHLOW",
+          "original_target_va": 269374028,
+          "linked_target_va": 268845212,
+          "identity": {
+            "import_dll": "kernel32.dll",
+            "import_name": "FindFirstFileA"
+          }
+        },
+        {
+          "offset": 44,
+          "kind": "HIGHLOW",
+          "original_target_va": 269373892,
+          "linked_target_va": 268845176,
+          "identity": {
+            "import_dll": "kernel32.dll",
+            "import_name": "GetLastError"
+          }
+        },
+        {
+          "offset": 71,
+          "kind": "REL32",
+          "original_target_rva": 854383,
+          "linked_target_va": 268787285,
+          "identity": {
+            "symbol": "__errno"
+          }
+        },
+        {
+          "offset": 87,
+          "kind": "REL32",
+          "original_target_rva": 854383,
+          "linked_target_va": 268787285,
+          "identity": {
+            "symbol": "__errno"
+          }
+        },
+        {
+          "offset": 100,
+          "kind": "REL32",
+          "original_target_rva": 854383,
+          "linked_target_va": 268787285,
+          "identity": {
+            "symbol": "__errno"
+          }
+        },
+        {
+          "offset": 142,
+          "kind": "REL32",
+          "original_target_rva": 819584,
+          "linked_target_va": 268778359,
+          "identity": {
+            "symbol": "___timet_from_ft"
+          }
+        },
+        {
+          "offset": 157,
+          "kind": "REL32",
+          "original_target_rva": 819584,
+          "linked_target_va": 268778359,
+          "identity": {
+            "symbol": "___timet_from_ft"
+          }
+        },
+        {
+          "offset": 172,
+          "kind": "REL32",
+          "original_target_rva": 819584,
+          "linked_target_va": 268778359,
+          "identity": {
+            "symbol": "___timet_from_ft"
+          }
+        },
+        {
+          "offset": 200,
+          "kind": "REL32",
+          "original_target_rva": 856048,
+          "linked_target_va": 268793056,
+          "identity": {
+            "symbol": "_strcpy"
+          }
+        },
+        {
+          "offset": 215,
+          "kind": "REL32",
+          "original_target_rva": 856345,
+          "linked_target_va": 268788432,
+          "identity": {
+            "symbol": "@__security_check_cookie@4"
+          }
+        }
+      ]
+    },
+    {
+      "symbol": "__findnext",
+      "SDK_member": "LIBCMT:findfile.obj",
+      "original_rva": 819905,
+      "linked_rva": 343224,
+      "size": 216,
+      "whole_resolved_equal": true,
+      "all_PE_relocations_equal": true,
+      "bindings": [
+        {
+          "offset": 10,
+          "kind": "HIGHLOW",
+          "original_target_va": 269579956,
+          "linked_target_va": 269061916,
+          "identity": {
+            "symbol": "___security_cookie"
+          }
+        },
+        {
+          "offset": 30,
+          "kind": "HIGHLOW",
+          "original_target_va": 269374024,
+          "linked_target_va": 268845416,
+          "identity": {
+            "import_dll": "kernel32.dll",
+            "import_name": "FindNextFileA"
+          }
+        },
+        {
+          "offset": 40,
+          "kind": "HIGHLOW",
+          "original_target_va": 269373892,
+          "linked_target_va": 268845176,
+          "identity": {
+            "import_dll": "kernel32.dll",
+            "import_name": "GetLastError"
+          }
+        },
+        {
+          "offset": 67,
+          "kind": "REL32",
+          "original_target_rva": 854383,
+          "linked_target_va": 268787285,
+          "identity": {
+            "symbol": "__errno"
+          }
+        },
+        {
+          "offset": 83,
+          "kind": "REL32",
+          "original_target_rva": 854383,
+          "linked_target_va": 268787285,
+          "identity": {
+            "symbol": "__errno"
+          }
+        },
+        {
+          "offset": 96,
+          "kind": "REL32",
+          "original_target_rva": 854383,
+          "linked_target_va": 268787285,
+          "identity": {
+            "symbol": "__errno"
+          }
+        },
+        {
+          "offset": 138,
+          "kind": "REL32",
+          "original_target_rva": 819584,
+          "linked_target_va": 268778359,
+          "identity": {
+            "symbol": "___timet_from_ft"
+          }
+        },
+        {
+          "offset": 153,
+          "kind": "REL32",
+          "original_target_rva": 819584,
+          "linked_target_va": 268778359,
+          "identity": {
+            "symbol": "___timet_from_ft"
+          }
+        },
+        {
+          "offset": 168,
+          "kind": "REL32",
+          "original_target_rva": 819584,
+          "linked_target_va": 268778359,
+          "identity": {
+            "symbol": "___timet_from_ft"
+          }
+        },
+        {
+          "offset": 196,
+          "kind": "REL32",
+          "original_target_rva": 856048,
+          "linked_target_va": 268793056,
+          "identity": {
+            "symbol": "_strcpy"
+          }
+        },
+        {
+          "offset": 210,
+          "kind": "REL32",
+          "original_target_rva": 856345,
+          "linked_target_va": 268788432,
+          "identity": {
+            "symbol": "@__security_check_cookie@4"
+          }
+        }
+      ]
+    },
+    {
+      "symbol": "__findclose",
+      "SDK_member": "LIBCMT:findfile.obj",
+      "original_rva": 819552,
+      "linked_rva": 342871,
+      "size": 32,
+      "whole_resolved_equal": true,
+      "all_PE_relocations_equal": true,
+      "bindings": [
+        {
+          "offset": 6,
+          "kind": "HIGHLOW",
+          "original_target_va": 269374020,
+          "linked_target_va": 268845208,
+          "identity": {
+            "import_dll": "kernel32.dll",
+            "import_name": "FindClose"
+          }
+        },
+        {
+          "offset": 15,
+          "kind": "REL32",
+          "original_target_rva": 854383,
+          "linked_target_va": 268787285,
+          "identity": {
+            "symbol": "__errno"
+          }
+        }
+      ]
+    },
+    {
+      "symbol": "__mkdir",
+      "SDK_member": "LIBCMT:mkdir.obj",
+      "original_rva": 821192,
+      "linked_rva": 344414,
+      "size": 44,
+      "whole_resolved_equal": true,
+      "all_PE_relocations_equal": true,
+      "bindings": [
+        {
+          "offset": 8,
+          "kind": "HIGHLOW",
+          "original_target_va": 269374012,
+          "linked_target_va": 268845216,
+          "identity": {
+            "import_dll": "kernel32.dll",
+            "import_name": "CreateDirectoryA"
+          }
+        },
+        {
+          "offset": 18,
+          "kind": "HIGHLOW",
+          "original_target_va": 269373892,
+          "linked_target_va": 268845176,
+          "identity": {
+            "import_dll": "kernel32.dll",
+            "import_name": "GetLastError"
+          }
+        },
+        {
+          "offset": 32,
+          "kind": "REL32",
+          "original_target_rva": 854401,
+          "linked_target_va": 268787303,
+          "identity": {
+            "symbol": "__dosmaperr"
+          }
+        }
+      ]
+    },
+    {
+      "symbol": "__unlink",
+      "SDK_member": "LIBCMT:unlink.obj",
+      "original_rva": 819547,
+      "linked_rva": 342866,
+      "size": 5,
+      "whole_resolved_equal": true,
+      "all_PE_relocations_equal": true,
+      "bindings": [
+        {
+          "offset": 1,
+          "kind": "REL32",
+          "original_target_rva": 819505,
+          "linked_target_va": 268778280,
+          "identity": {
+            "symbol": "_remove"
+          }
+        }
+      ]
+    },
+    {
+      "symbol": "__strnicmp",
+      "SDK_member": "LIBCMT:strnicmp.obj",
+      "original_rva": 820430,
+      "linked_rva": 339754,
+      "size": 127,
+      "whole_resolved_equal": true,
+      "all_PE_relocations_equal": true,
+      "bindings": [
+        {
+          "offset": 15,
+          "kind": "HIGHLOW",
+          "original_target_va": 269580388,
+          "linked_target_va": 269062420,
+          "identity": {
+            "symbol": "___ptlocinfo"
+          }
+        },
+        {
+          "offset": 6,
+          "kind": "REL32",
+          "original_target_rva": 839180,
+          "linked_target_va": 268784235,
+          "identity": {
+            "symbol": "__getptd"
+          }
+        },
+        {
+          "offset": 22,
+          "kind": "REL32",
+          "original_target_rva": 846978,
+          "linked_target_va": 268788966,
+          "identity": {
+            "symbol": "___updatetlocinfo"
+          }
+        },
+        {
+          "offset": 50,
+          "kind": "REL32",
+          "original_target_rva": 857232,
+          "linked_target_va": 268809920,
+          "identity": {
+            "symbol": "___ascii_strnicmp"
+          }
+        },
+        {
+          "offset": 73,
+          "kind": "REL32",
+          "original_target_rva": 823646,
+          "linked_target_va": 268809676,
+          "identity": {
+            "symbol": "___tolower_mt"
+          }
+        },
+        {
+          "offset": 87,
+          "kind": "REL32",
+          "original_target_rva": 823646,
+          "linked_target_va": 268809676,
+          "identity": {
+            "symbol": "___tolower_mt"
+          }
+        }
+      ]
+    },
+    {
+      "symbol": "__stricmp",
+      "SDK_member": "LIBCMT:stricmp.obj",
+      "original_rva": 819058,
+      "linked_rva": 340947,
+      "size": 105,
+      "whole_resolved_equal": true,
+      "all_PE_relocations_equal": true,
+      "bindings": [
+        {
+          "offset": 15,
+          "kind": "HIGHLOW",
+          "original_target_va": 269580388,
+          "linked_target_va": 269062420,
+          "identity": {
+            "symbol": "___ptlocinfo"
+          }
+        },
+        {
+          "offset": 6,
+          "kind": "REL32",
+          "original_target_rva": 839180,
+          "linked_target_va": 268784235,
+          "identity": {
+            "symbol": "__getptd"
+          }
+        },
+        {
+          "offset": 22,
+          "kind": "REL32",
+          "original_target_rva": 846978,
+          "linked_target_va": 268788966,
+          "identity": {
+            "symbol": "___updatetlocinfo"
+          }
+        },
+        {
+          "offset": 41,
+          "kind": "REL32",
+          "original_target_rva": 855696,
+          "linked_target_va": 268794960,
+          "identity": {
+            "symbol": "___ascii_stricmp"
+          }
+        },
+        {
+          "offset": 63,
+          "kind": "REL32",
+          "original_target_rva": 823646,
+          "linked_target_va": 268809676,
+          "identity": {
+            "symbol": "___tolower_mt"
+          }
+        },
+        {
+          "offset": 77,
+          "kind": "REL32",
+          "original_target_rva": 823646,
+          "linked_target_va": 268809676,
+          "identity": {
+            "symbol": "___tolower_mt"
+          }
+        }
+      ]
+    },
+    {
+      "symbol": "___timet_from_ft",
+      "SDK_member": "LIBCMT:findfile.obj",
+      "original_rva": 819584,
+      "linked_rva": 342903,
+      "size": 100,
+      "whole_resolved_equal": true,
+      "all_PE_relocations_equal": true,
+      "bindings": [
+        {
+          "offset": 27,
+          "kind": "HIGHLOW",
+          "original_target_va": 269373652,
+          "linked_target_va": 268845448,
+          "identity": {
+            "import_dll": "kernel32.dll",
+            "import_name": "FileTimeToLocalFileTime"
+          }
+        },
+        {
+          "offset": 45,
+          "kind": "HIGHLOW",
+          "original_target_va": 269373656,
+          "linked_target_va": 268845452,
+          "identity": {
+            "import_dll": "kernel32.dll",
+            "import_name": "FileTimeToSystemTime"
+          }
+        },
+        {
+          "offset": 86,
+          "kind": "REL32",
+          "original_target_rva": 855774,
+          "linked_target_va": 268787418,
+          "identity": {
+            "symbol": "___loctotime_t"
+          }
+        }
+      ]
+    },
+    {
+      "symbol": "_remove",
+      "SDK_member": "LIBCMT:unlink.obj",
+      "original_rva": 819505,
+      "linked_rva": 342824,
+      "size": 42,
+      "whole_resolved_equal": true,
+      "all_PE_relocations_equal": true,
+      "bindings": [
+        {
+          "offset": 6,
+          "kind": "HIGHLOW",
+          "original_target_va": 269374016,
+          "linked_target_va": 268845420,
+          "identity": {
+            "import_dll": "kernel32.dll",
+            "import_name": "DeleteFileA"
+          }
+        },
+        {
+          "offset": 16,
+          "kind": "HIGHLOW",
+          "original_target_va": 269373892,
+          "linked_target_va": 268845176,
+          "identity": {
+            "import_dll": "kernel32.dll",
+            "import_name": "GetLastError"
+          }
+        },
+        {
+          "offset": 30,
+          "kind": "REL32",
+          "original_target_rva": 854401,
+          "linked_target_va": 268787303,
+          "identity": {
+            "symbol": "__dosmaperr"
+          }
+        }
+      ]
+    },
+    {
+      "symbol": "___ascii_strnicmp",
+      "SDK_member": "LIBCMT:_strnicm.obj",
+      "original_rva": 857232,
+      "linked_rva": 374464,
+      "size": 97,
+      "whole_resolved_equal": true,
+      "all_PE_relocations_equal": true,
+      "bindings": []
+    },
+    {
+      "symbol": "___ascii_stricmp",
+      "SDK_member": "LIBCMT:_stricmp.obj",
+      "original_rva": 855696,
+      "linked_rva": 359504,
+      "size": 78,
+      "whole_resolved_equal": true,
+      "all_PE_relocations_equal": true,
+      "bindings": []
+    },
+    {
+      "symbol": "__errno",
+      "SDK_member": "LIBCMT:dosmap.obj",
+      "original_rva": 854383,
+      "linked_rva": 351829,
+      "size": 9,
+      "whole_resolved_equal": true,
+      "all_PE_relocations_equal": true,
+      "bindings": [
+        {
+          "offset": 1,
+          "kind": "REL32",
+          "original_target_rva": 839180,
+          "linked_target_va": 268784235,
+          "identity": {
+            "symbol": "__getptd"
+          }
+        }
+      ]
+    },
+    {
+      "symbol": "@__security_check_cookie@4",
+      "SDK_member": "LIBCMT:secchk.obj",
+      "original_rva": 856345,
+      "linked_rva": 352976,
+      "size": 14,
+      "whole_resolved_equal": true,
+      "all_PE_relocations_equal": true,
+      "bindings": [
+        {
+          "offset": 2,
+          "kind": "HIGHLOW",
+          "original_target_va": 269579956,
+          "linked_target_va": 269061916,
+          "identity": {
+            "symbol": "___security_cookie"
+          }
+        },
+        {
+          "offset": 10,
+          "kind": "REL32",
+          "original_target_rva": 856296,
+          "linked_target_va": 268788383,
+          "identity": {
+            "symbol": "_report_failure"
+          }
+        }
+      ]
+    }
+  ],
+  "named_external_boundaries": [
+    {
+      "symbol": "__dosmaperr",
+      "SDK_member": "LIBCMT:dosmap.obj",
+      "original_rva": 854401,
+      "linked_rva": 351847,
+      "body_credit": 0
+    },
+    {
+      "symbol": "__getptd",
+      "SDK_member": "LIBCMT:tidtable.obj",
+      "original_rva": 839180,
+      "linked_rva": 348779,
+      "body_credit": 0
+    },
+    {
+      "symbol": "___updatetlocinfo",
+      "SDK_member": "LIBCMT:setlocal.obj",
+      "original_rva": 846978,
+      "linked_rva": 353510,
+      "body_credit": 0
+    },
+    {
+      "symbol": "___tolower_mt",
+      "SDK_member": "LIBCMT:tolower.obj",
+      "original_rva": 823646,
+      "linked_rva": 374220,
+      "body_credit": 0
+    },
+    {
+      "symbol": "___loctotime_t",
+      "SDK_member": "LIBCMT:dtoxtime.obj",
+      "original_rva": 855774,
+      "linked_rva": 351962,
+      "body_credit": 0
+    },
+    {
+      "symbol": "_report_failure",
+      "SDK_member": "LIBCMT:secchk.obj",
+      "original_rva": 856296,
+      "linked_rva": 352927,
+      "body_credit": 0
+    },
+    {
+      "symbol": "_strcpy",
+      "SDK_member": "LIBCMT:strcat.obj",
+      "original_rva": 856048,
+      "linked_rva": 357600,
+      "body_credit": 0
+    }
+  ],
+  "named_CRT_state": [
+    {
+      "symbol": "___security_cookie",
+      "SDK_member": "LIBCMT:seccook.obj",
+      "original_rva": 1144500,
+      "linked_rva": 626460,
+      "body_credit": 0
+    },
+    {
+      "symbol": "___ptlocinfo",
+      "SDK_member": "LIBCMT:setlocal.obj",
+      "original_rva": 1144932,
+      "linked_rva": 626964,
+      "body_credit": 0
+    }
+  ],
+  "scope": "Seven required APIs + six bounded stable helpers fully compared, no address masking. Imports matched by actual DLL+name, every absolute PE relocation required on both images. Remaining named CRT helper/state boundaries carry zero implementation credit."
+}

@@ -1,0 +1,90 @@
+{
+  "status": "PASS_FINAL_PROFILE_PROVENANCE_UNCHANGED",
+  "run": "build/cp32-file-client-sha1-ob1",
+  "rows": [
+    {
+      "family": "Table",
+      "unit": "closure_vendor_database_table",
+      "original_object": "build/cp32-database-ime-ob1-v2/closure_vendor_database_table.obj",
+      "final_object": "build/cp32-file-client-sha1-ob1/closure_vendor_database_table.obj",
+      "identical_object_sha256": "a1de3c346ce0b31f7a2b7ce127a69eeb7c9f530a253cff3cb003e4ec32e8a96d",
+      "source": "client/saco/closure_vendor_database_table.cpp",
+      "source_sha256": "e8ee49599eed23b8b88c66995ea8ef7b70243516d888395f417718b0eb208917",
+      "snapshot": "build/cp32-file-client-sha1-ob1/client/saco/closure_vendor_database_table.cpp",
+      "source_and_snapshot_identical": true
+    },
+    {
+      "family": "Table",
+      "unit": "closure_vendor_table_serializer",
+      "original_object": "build/cp32-database-ime-ob1-v2/closure_vendor_table_serializer.obj",
+      "final_object": "build/cp32-file-client-sha1-ob1/closure_vendor_table_serializer.obj",
+      "identical_object_sha256": "e022b4aa61902394ffd9d9cf59a45ea8474018837b07613245d6e2084f433e5f",
+      "source": "client/saco/closure_vendor_table_serializer.cpp",
+      "source_sha256": "5dd654aa292eae17a094ffa487b32f60b9f8ea783731f3f33dc5fef0453d2c8e",
+      "snapshot": "build/cp32-file-client-sha1-ob1/client/saco/closure_vendor_table_serializer.cpp",
+      "source_and_snapshot_identical": true
+    },
+    {
+      "family": "Table",
+      "unit": "closure_vendor_database_common",
+      "original_object": "build/cp32-database-ime-ob1-v2/closure_vendor_database_common.obj",
+      "final_object": "build/cp32-file-client-sha1-ob1/closure_vendor_database_common.obj",
+      "identical_object_sha256": "7ebd80698c679d97ac2a32cbcd5e3ee133a221558247be27399809e5159795a9",
+      "source": "client/saco/closure_vendor_database_common.cpp",
+      "source_sha256": "409bf080a70010c77a26a6c8283db4cd00a7bb580a0227cd710cf43f972678ed",
+      "snapshot": "build/cp32-file-client-sha1-ob1/client/saco/closure_vendor_database_common.cpp",
+      "source_and_snapshot_identical": true
+    },
+    {
+      "family": "Client",
+      "unit": "closure_vendor_database_client",
+      "original_object": "build/cp32-database-client-trial1/closure_vendor_database_client.obj",
+      "final_object": "build/cp32-file-client-sha1-ob1/closure_vendor_database_client.obj",
+      "identical_object_sha256": "421dcd25870277e8f411c97e3250b8bcf117c7aad9c0561f81b6e00e8adcb01b",
+      "source": "client/saco/closure_vendor_database_client.cpp",
+      "source_sha256": "5374922c8b085927819d50f3c7f3a54d0096727a6fe2d9e91501a642d5f77124",
+      "snapshot": "build/cp32-file-client-sha1-ob1/client/saco/closure_vendor_database_client.cpp",
+      "source_and_snapshot_identical": true
+    },
+    {
+      "family": "FileList",
+      "unit": "closure_vendor_file_list",
+      "original_object": "build/cp32-file-list-trial1/closure_vendor_file_list.obj",
+      "final_object": "build/cp32-file-client-sha1-ob1/closure_vendor_file_list.obj",
+      "identical_object_sha256": "8524663f727c56a4fc2e144d946bfb74c9d0cebd6761e979f1158d8cfc332e67",
+      "source": "client/saco/closure_vendor_file_list.cpp",
+      "source_sha256": "df5f7d5243c4015eac7f0904408e8f0640d3adadb22081a391870361c0417b16",
+      "snapshot": "build/cp32-file-client-sha1-ob1/client/saco/closure_vendor_file_list.cpp",
+      "source_and_snapshot_identical": true
+    },
+    {
+      "family": "FileList",
+      "unit": "closure_vendor_file_list_transfer",
+      "original_object": "build/cp32-file-list-trial1/closure_vendor_file_list_transfer.obj",
+      "final_object": "build/cp32-file-client-sha1-ob1/closure_vendor_file_list_transfer.obj",
+      "identical_object_sha256": "3923e6764e7eb529ffb1a9bb47ed55055030de9ec1962ff3249d14538d1c1569",
+      "source": "client/saco/closure_vendor_file_list_transfer.cpp",
+      "source_sha256": "0313dafcea67204bebc8f7aa4e0d661b08032c14f1b9130da8e344193e3187bc",
+      "snapshot": "build/cp32-file-client-sha1-ob1/client/saco/closure_vendor_file_list_transfer.cpp",
+      "source_and_snapshot_identical": true
+    },
+    {
+      "family": "FileList",
+      "unit": "closure_vendor_file_operations",
+      "original_object": "build/cp32-file-list-trial1/closure_vendor_file_operations.obj",
+      "final_object": "build/cp32-file-client-sha1-ob1/closure_vendor_file_operations.obj",
+      "identical_object_sha256": "9e31d93a73adcac21259f9ad22d71c51ac447605379122078d51399dfd5851ac",
+      "source": "client/saco/closure_vendor_file_operations.cpp",
+      "source_sha256": "ed09b3a6665aac6e193ccfa92a00bfceb9f3a2d610aedabc51e4e72cd6ad84c5",
+      "snapshot": "build/cp32-file-client-sha1-ob1/client/saco/closure_vendor_file_operations.cpp",
+      "source_and_snapshot_identical": true
+    }
+  ],
+  "manifest_scope": [
+    "build/agent-independent/database-table-final-reviewed-manifest.json",
+    "build/agent-independent/database-client-reviewed-manifest.json",
+    "build/agent-independent/file-list-reviewed-manifest.json"
+  ],
+  "meaning": "Existing reviewed full-section bytes/fixups remain applicable without inference: every entire COFF object byte is identical; source snapshots match active source.",
+  "new_credit": 0
+}
