@@ -1,0 +1,19 @@
+{
+  "status": "PARKED_NO_ACCEPTED_CREDIT",
+  "runs": [
+    "cp32-trial30-trailer-deps",
+    "cp32-trial30-trailer2",
+    "cp32-trial30-trailer3",
+    "cp32-trial30-trailer-models"
+  ],
+  "new_unique_accepted": 0,
+  "findings": [
+    "Initial deps compile missing genuine GamePool_Vehicle_GetAt declaration; root added game/util.h.",
+    "StoreTrailer783 versus781, EBX/EBP lifetime codegen persists after real <=threshold correction preserving unorderedNaNpath.",
+    "Quaternion205 float variant reproduces arithmetic but MOV/x87 instruction scheduling differs. Actualvendor double intermediates also205 but emits different FMULP forms.",
+    "Trailer model95 ifchain has different returnblock placement; grouped switch emits253, rejected. Tow43 guard scheduling mismatches bothcontrolflow forms.",
+    "PacketTrailer231+wholeEH21 and ApplyQuaternion65 bytecomparison can match but are not closed; no acceptance or coverage credit."
+  ],
+  "source025_direct_bytes": 0,
+  "next": "Resume only with new source/type/codegen evidence. Preserve all failedobject products; no further permutations during30mintrial."
+}
