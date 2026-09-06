@@ -1,0 +1,248 @@
+{
+  "status": "UNCOMPILED_NOT_ACCEPTED",
+  "baseline": 223896,
+  "new_unique_code": 707,
+  "rva": "0x6c3c0",
+  "size": 686,
+  "EH": {
+    "rva": "0xe3980",
+    "size": 21,
+    "xdata_rva": "0xfb848",
+    "xdata_size": 36
+  },
+  "calls": [
+    {
+      "site": "0x6c3f0",
+      "target_rva": "0xb16d0",
+      "accepted_provider": "?RwRasterCreate@@YAPAURwRaster@@HHHH@Z",
+      "proposed_provider": null
+    },
+    {
+      "site": "0x6c3fc",
+      "target_rva": "0xb1720",
+      "accepted_provider": "?RwTextureCreate@@YAPAURwTexture@@PAURwRaster@@@Z",
+      "proposed_provider": null
+    },
+    {
+      "site": "0x6c42d",
+      "target_rva": "0xc627a",
+      "accepted_provider": "??2@YAPAXI@Z (existing CRT external36)",
+      "proposed_provider": null
+    },
+    {
+      "site": "0x6c44e",
+      "target_rva": "0xb83d0",
+      "accepted_provider": null,
+      "proposed_provider": "CVehicle constructor"
+    },
+    {
+      "site": "0x6c47d",
+      "target_rva": "0x9f680",
+      "accepted_provider": "?SetGravityProcessing@CEntity@@QAEXH@Z",
+      "proposed_provider": null
+    },
+    {
+      "site": "0x6c486",
+      "target_rva": "0x9f630",
+      "accepted_provider": "?SetCollisionChecking@CEntity@@QAEXH@Z",
+      "proposed_provider": null
+    },
+    {
+      "site": "0x6c48c",
+      "target_rva": "0xb6360",
+      "accepted_provider": "?GetModelCollisionRadius@@YAMH@Z",
+      "proposed_provider": null
+    },
+    {
+      "site": "0x6c4a6",
+      "target_rva": "0xb7390",
+      "accepted_provider": "?GetVehicleSubtype@CVehicle@@QAEIXZ",
+      "proposed_provider": null
+    },
+    {
+      "site": "0x6c4b1",
+      "target_rva": "0xb6360",
+      "accepted_provider": "?GetModelCollisionRadius@@YAMH@Z",
+      "proposed_provider": null
+    },
+    {
+      "site": "0x6c4d7",
+      "target_rva": "0x9f040",
+      "accepted_provider": "?TeleportTo@CEntity@@QAEXMMM@Z",
+      "proposed_provider": null
+    },
+    {
+      "site": "0x6c4f2",
+      "target_rva": "0xb72e0",
+      "accepted_provider": "?SetColor@CVehicle@@QAEXEE@Z",
+      "proposed_provider": null
+    },
+    {
+      "site": "0x6c50b",
+      "target_rva": "0x9eb10",
+      "accepted_provider": "?GetMatrix@CEntity@@QAEXPAU_MATRIX4X4@@@Z",
+      "proposed_provider": null
+    },
+    {
+      "site": "0x6c52f",
+      "target_rva": "0xb5790",
+      "accepted_provider": "?RotatePreviewMatrix@@YAXPAU_MATRIX4X4@@HM@Z",
+      "proposed_provider": null
+    },
+    {
+      "site": "0x6c554",
+      "target_rva": "0xb5790",
+      "accepted_provider": "?RotatePreviewMatrix@@YAXPAU_MATRIX4X4@@HM@Z",
+      "proposed_provider": null
+    },
+    {
+      "site": "0x6c579",
+      "target_rva": "0xb5790",
+      "accepted_provider": "?RotatePreviewMatrix@@YAXPAU_MATRIX4X4@@HM@Z",
+      "proposed_provider": null
+    },
+    {
+      "site": "0x6c593",
+      "target_rva": "0x9fd00",
+      "accepted_provider": "?SetMatrixAndUpdate@CEntity@@QAEXU_MATRIX4X4@@@Z",
+      "proposed_provider": null
+    },
+    {
+      "site": "0x6c5a5",
+      "target_rva": "0xb19b0",
+      "accepted_provider": "?SetCameraFrameAndZBuffer@@YAXPAURwCamera@@PAURwRaster@@1@Z",
+      "proposed_provider": null
+    },
+    {
+      "site": "0x6c5ae",
+      "target_rva": "0xb1c40",
+      "accepted_provider": "?CVisibilityPlugins_SetRenderWareCamera@@YAXPAURwCamera@@@Z",
+      "proposed_provider": null
+    },
+    {
+      "site": "0x6c5c1",
+      "target_rva": "0xb18f0",
+      "accepted_provider": "?RwCameraClear@@YAXPAURwCamera@@PAURwRGBA@@H@Z",
+      "proposed_provider": null
+    },
+    {
+      "site": "0x6c5ca",
+      "target_rva": "0xb1920",
+      "accepted_provider": "?RwCameraBeginUpdate@@YAXPAURwCamera@@@Z",
+      "proposed_provider": null
+    },
+    {
+      "site": "0x6c5d3",
+      "target_rva": "0xb1bc0",
+      "accepted_provider": "?RpWorldAddLight@@YAXPAURpLight@@@Z",
+      "proposed_provider": null
+    },
+    {
+      "site": "0x6c5dc",
+      "target_rva": "0xc3e20",
+      "accepted_provider": "?CallRwRenderStateSet@@YAXHH@Z",
+      "proposed_provider": null
+    },
+    {
+      "site": "0x6c5e5",
+      "target_rva": "0xc3e20",
+      "accepted_provider": "?CallRwRenderStateSet@@YAXHH@Z",
+      "proposed_provider": null
+    },
+    {
+      "site": "0x6c5ee",
+      "target_rva": "0xc3e20",
+      "accepted_provider": "?CallRwRenderStateSet@@YAXHH@Z",
+      "proposed_provider": null
+    },
+    {
+      "site": "0x6c5f7",
+      "target_rva": "0xc3e20",
+      "accepted_provider": "?CallRwRenderStateSet@@YAXHH@Z",
+      "proposed_provider": null
+    },
+    {
+      "site": "0x6c612",
+      "target_rva": "0x9fb20",
+      "accepted_provider": "?Render@R5PreviewEntityRenderView@@QAEXXZ",
+      "proposed_provider": null
+    },
+    {
+      "site": "0x6c625",
+      "target_rva": "0xb1950",
+      "accepted_provider": "?RwCameraEndUpdate@@YAXPAURwCamera@@@Z",
+      "proposed_provider": null
+    },
+    {
+      "site": "0x6c62e",
+      "target_rva": "0xb1c00",
+      "accepted_provider": "?RpWorldRemoveLight@@YAXPAURpLight@@@Z",
+      "proposed_provider": null
+    }
+  ],
+  "absolute_PE_relocations": [
+    {
+      "offset": 3,
+      "target_va": "0x100e398b"
+    },
+    {
+      "offset": 218,
+      "target_va": "0x100ea638"
+    },
+    {
+      "offset": 248,
+      "target_va": "0x100ea634"
+    },
+    {
+      "offset": 257,
+      "target_va": "0x100ea630"
+    },
+    {
+      "offset": 342,
+      "target_va": "0x100e5940"
+    },
+    {
+      "offset": 377,
+      "target_va": "0x100e5940"
+    },
+    {
+      "offset": 414,
+      "target_va": "0x100e5940"
+    },
+    {
+      "offset": 586,
+      "target_va": "0x1026ebe0"
+    },
+    {
+      "offset": 601,
+      "target_va": "0x1026ebe0"
+    }
+  ],
+  "literal_payloads": [
+    {
+      "rva": "0xea638",
+      "float": -1.0,
+      "hex": "000080bf"
+    },
+    {
+      "rva": "0xea634",
+      "float": 2.5,
+      "hex": "00002040"
+    },
+    {
+      "rva": "0xea630",
+      "float": -5.5,
+      "hex": "0000b0c0"
+    },
+    {
+      "rva": "0xe5940",
+      "float": 0.0,
+      "hex": "00000000"
+    }
+  ],
+  "new_BSS": {
+    "rva": "0x26ebe0",
+    "size": 4,
+    "identity": "vehicle preview render flag; fog-control C3D30; initializer C4F70"
+  }
+}

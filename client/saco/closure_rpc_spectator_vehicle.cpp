@@ -37,7 +37,7 @@ struct RPCVehicleAngleView {
  BYTE gap[0x44]; DWORD gtaId;
  void SetZAngle(float angle);
 };
-const SCRIPT_COMMAND rpc_set_car_z_angle={0x0175,"if"};
+extern "C" const SCRIPT_COMMAND rpc_set_car_z_angle={0x0175,"if"};
 void RPCVehicleAngleView::SetZAngle(float angle) {
  if(GamePool_Vehicle_GetAt(gtaId)) ScriptCommand(&rpc_set_car_z_angle,gtaId,angle);
 }

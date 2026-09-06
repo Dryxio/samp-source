@@ -1,0 +1,74 @@
+{
+  "status": "PREFLIGHT_NOT_ACCEPTANCE",
+  "regions": [
+    {
+      "unit": "closure_entity_native_queries",
+      "symbol": "?QueryEntityMatrixAxis@@YAXPAU_MATRIX4X4@@HPAM@Z",
+      "rva": 743472,
+      "size": 110,
+      "sha256": "183291f750ab89558caf00889b7e2414ce09050d0a468098593ff930e2801c96",
+      "bindings": {
+        "?r5MatrixRotationAxes@@3PAU_VECTOR@@A": 269579264,
+        "?r5MatrixQueryAxis@@3U_VECTOR@@A": 270983068,
+        "?iGtaVersion@@3HA": 270986024,
+        "?r5MatrixQueryCenter@@3U_VECTOR@@A": 270983056,
+        "?r5MatrixQueryAngle@@3MA": 270978940
+      }
+    },
+    {
+      "unit": "closure_entity_native_queries",
+      "symbol": "?GetEntityClumpAtomicCount@@YAHPAURpClump@@@Z",
+      "rva": 726032,
+      "size": 32,
+      "sha256": "67a1abd3c361395d2b84ad616f74dcd2d092aa60520ce9dbe61ac4cd25c0c250",
+      "bindings": {}
+    },
+    {
+      "unit": "closure_entity_native_queries",
+      "symbol": "?GetMatrixAxisAngles@R5EntityNativeQueryView@@QAEXPAM00@Z",
+      "rva": 653664,
+      "size": 101,
+      "sha256": "cdd3673e594f36bc8137700bab4fcb4eb63351abdaabc82408e2dc3fbf37f9d3",
+      "bindings": {
+        "?QueryEntityMatrixAxis@@YAXPAU_MATRIX4X4@@HPAM@Z": 269178928
+      }
+    },
+    {
+      "unit": "closure_entity_native_queries",
+      "symbol": "?GetAtomicCount@R5EntityNativeQueryView@@QAEHXZ",
+      "rva": 653872,
+      "size": 35,
+      "sha256": "65e14d53d73254a32916c5ec68a7d5d281bfd6cc9beeb81af627a8a75c6a9fbe",
+      "bindings": {
+        "?ModelInfoLoaded@@YGHI@Z": 269174176,
+        "?GetEntityClumpAtomicCount@@YAHPAURpClump@@@Z": 269161488
+      }
+    }
+  ],
+  "stores": [
+    {
+      "unit": "closure_store_matrix_query_axis",
+      "rva": 2547612,
+      "size": 12,
+      "sha256": "15ec7bf0b50732b49f8228e07d24365338f9e3ab994b00af08e5a3bffe55fd8b",
+      "whole_section": true
+    },
+    {
+      "unit": "closure_store_matrix_query_center",
+      "rva": 2547600,
+      "size": 12,
+      "sha256": "15ec7bf0b50732b49f8228e07d24365338f9e3ab994b00af08e5a3bffe55fd8b",
+      "whole_section": true
+    },
+    {
+      "unit": "closure_store_matrix_query_angle",
+      "rva": 2543484,
+      "size": 4,
+      "sha256": "df3f619804a92fdb4057192dc43dd748ea778adc52bc498ce80524c014b81119",
+      "whole_section": true
+    }
+  ],
+  "native_identity": "Local primary plugin-sdk-SA-LLM/plugin_sa/game_sa/RenderWare.cpp: RwMatrixQueryRotate7F2720 signature matrix/unitAxis/angle/center; RpClumpGetNumAtomics7498E0. Other-version7F2760 dispatch is original wrapper. Views never allocated; MATRIX64 native-compatible. Native calls not executed.",
+  "new_unique_potential": 278,
+  "source025_credit": 0
+}

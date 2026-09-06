@@ -61,6 +61,8 @@ def draft(run, extra_seeds=None):
             offset=symbol['value'];size=18;kind='script-command'
         if unit=='closure_rpc_player_motion_shop' and kind=='data' and symbol['name'] in ('_set_player_drunk_visuals', '_handling_responsiveness'):
             offset=symbol['value'];size=18;kind='script-command'
+        if kind=='data' and ((unit=='closure_vehicle_destructor' and symbol['name']=='_disable_marker') or (unit=='closure_vehicle_lifetime_helpers' and symbol['name']=='_remove_actor_from_car_and_put_at')):
+            offset=symbol['value'];size=18;kind='script-command'
         if unit=='closure_remote_ped_constructor' and kind=='data' and symbol['name'] in ('_set_actor_immunities','_set_actor_can_be_decapitated','_set_actor_weapon_droppable','_set_actor_money'):
             offset=symbol['value'];size=18;kind='script-command'
         if unit=='closure_rpc_map_icons' and kind=='data' and symbol['name']=='_disable_marker':

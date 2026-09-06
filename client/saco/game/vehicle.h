@@ -32,6 +32,11 @@ public:
 
 	char _gap7F[57];
 
+	virtual ~CVehicle();
+	virtual void Add();
+	virtual void Remove();
+	CVehicle *GetTrailer();
+	void RemoveEveryoneFromVehicle();
 	CVehicle( int iType, float fPosX, float fPosY, float fPosZ, float fRotation = 0.0f, BOOL bKeepModelLoaded = FALSE, int a8 = 0);
 
 void SetTankRot(float X, float Y);

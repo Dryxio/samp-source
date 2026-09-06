@@ -1,0 +1,35 @@
+{
+  "status": "ACCEPTED_AFTER_COMPLETE_LINK_REVIEW",
+  "run": "cp32-vehicle-statistics-linked1",
+  "ob1": "cp32-vehicle-statistics-ob1",
+  "ob2": "cp32-vehicle-statistics-ob2",
+  "new_unique_code_bytes": 5503,
+  "direct_025_accepted_bytes": 332,
+  "total_direct_025_accepted_bytes": 21112,
+  "coverage": {
+    "previous_code_bytes": 223896,
+    "batch_code_bytes": 210665,
+    "new_unique_code_bytes": 5503,
+    "union_code_bytes": 229399,
+    "text_bytes": 930756,
+    "text_percent": 24.646523901000908,
+    "whole_dll_match": false
+  },
+  "verification": "Whole functions/data/EH, all COFF/PE relocations, true source/native providers, actual CVehicle B8 allocation and complete vtable/lifetime. Ten controls and actor ABI pass, five old pending remain excluded.",
+  "adaptations": "Vehicle ctor1308 corrected with common double conditional and internal float addition, preserving genuine float4 constant; no masks/symbolic body. GetTrailer83 actual pool getters split into separate TU to preserve call boundaries. Destructor286 and main lifetime methods normalC++ first exact. Renderer686 first exact plusEH21. Statistics2338 corrected semantic levels1/2/4 and differential counters after initial2327 mismatch. Entity queries278 normalC++ and established native ABI bridges exact first probe.",
+  "reference_credit": "025 materially supplied missing actual vehicle lifecycle; R5 constructor/destructor are hybrid adaptations, no blanket credit. Statistics/AES are existing vendor source, not025. Direct025332 = Add40 + Remove40 + RemoveEveryone223 + GetSlotState29, independently attributed whole bodies; hybrid constructors/destructors and EH excluded.",
+  "throughput": {
+    "start_utc": "2026-09-05T20:11:21Z",
+    "measured_utc": "2026-09-06T02:52:04.521413+00:00",
+    "elapsed_seconds": 24043.521413,
+    "new_unique_bytes": 56258,
+    "bytes_per_hour": 8423.425026689123,
+    "coordination_included": true,
+    "agents": 3
+  },
+  "blockers": [
+    "Five old pending remain; Objectpreview694 still unmatched; Entity speedhistory225 failed three bounded C++ variants146/235/150 and excluded."
+  ],
+  "next": "Rijndael/MT19937 full vendor closure6367 candidates then DataBlockEncryptor987 potential; goal active.",
+  "runtime": "No game, native renderer, vehicle creation/destruction or network stack executed. Static matching and bounded actor ABI only."
+}
