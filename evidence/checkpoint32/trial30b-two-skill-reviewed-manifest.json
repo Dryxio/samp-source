@@ -1,0 +1,320 @@
+{
+  "status": "REVIEWED_MAIN_SEEDS_AND_WHOLE_EH_BINDINGS_PREFLIGHT",
+  "run": "build/cp32-trial30b-skill",
+  "roots": {
+    "?SetPlayerSkillLevelRPCTransfer@@YAXPAURPCParameters@@@Z": 62944
+  },
+  "seeds": {
+    "closure_rpc_player_skill": {
+      "?SetPlayerSkillLevelRPCTransfer@@YAXPAURPCParameters@@@Z": 62944
+    }
+  },
+  "regions": [
+    {
+      "unit": "closure_rpc_player_skill",
+      "section": 61,
+      "rva": 62944,
+      "size": 309,
+      "kind": ".text",
+      "sha256": "849faab5d964f25169645bd726abed3381600c7c51e7326c1147a15977c95397",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "__ehhandler$?SetPlayerSkillLevelRPCTransfer@@YAXPAURPCParameters@@@Z",
+          "site_rva": 62947,
+          "target_va": 269354859,
+          "kind": 6
+        },
+        {
+          "symbol": "__except_list",
+          "site_rva": 62953,
+          "target_va": 0,
+          "kind": 6
+        },
+        {
+          "symbol": "__except_list",
+          "site_rva": 62961,
+          "target_va": 0,
+          "kind": 6
+        },
+        {
+          "symbol": "??0BitStream@RakNet@@QAE@PADI_N@Z",
+          "site_rva": 63002,
+          "target_va": 268564544,
+          "kind": 20
+        },
+        {
+          "symbol": "?ReadBits@BitStream@RakNet@@QAE_NPAEH_N@Z",
+          "site_rva": 63031,
+          "target_va": 268564912,
+          "kind": 20
+        },
+        {
+          "symbol": "?ReadBits@BitStream@RakNet@@QAE_NPAEH_N@Z",
+          "site_rva": 63049,
+          "target_va": 268564912,
+          "kind": 20
+        },
+        {
+          "symbol": "?ReadBits@BitStream@RakNet@@QAE_NPAEH_N@Z",
+          "site_rva": 63067,
+          "target_va": 268564912,
+          "kind": 20
+        },
+        {
+          "symbol": "?pNetGame@@3PAVCNetGame@@A",
+          "site_rva": 63072,
+          "target_va": 270986132,
+          "kind": 6
+        },
+        {
+          "symbol": "?pGame@@3PAVCGame@@A",
+          "site_rva": 63104,
+          "target_va": 270986156,
+          "kind": 6
+        },
+        {
+          "symbol": "?FindPlayerPed@CGame@@QAEPAVCPlayerPed@@XZ",
+          "site_rva": 63109,
+          "target_va": 268439568,
+          "kind": 20
+        },
+        {
+          "symbol": "?SetWeaponSkillLevel@CPlayerPed@@QAEXHG@Z",
+          "site_rva": 63130,
+          "target_va": 269149264,
+          "kind": 20
+        },
+        {
+          "symbol": "?IsActive@R5LabelRemotePlayerView@@QAEHXZ",
+          "site_rva": 63178,
+          "target_va": 268439680,
+          "kind": 20
+        },
+        {
+          "symbol": "?SetWeaponSkillLevel@CPlayerPed@@QAEXHG@Z",
+          "site_rva": 63207,
+          "target_va": 269149264,
+          "kind": 20
+        },
+        {
+          "symbol": "??1BitStream@RakNet@@QAE@XZ",
+          "site_rva": 63228,
+          "target_va": 268564688,
+          "kind": 20
+        },
+        {
+          "symbol": "__except_list",
+          "site_rva": 63242,
+          "target_va": 0,
+          "kind": 6
+        }
+      ]
+    },
+    {
+      "unit": "closure_rpc_player_skill",
+      "section": 46,
+      "rva": 4112,
+      "size": 94,
+      "kind": ".text",
+      "sha256": "c68912916b6df6feb35b20db4e7b421d654238152cff390567881edf7dc6dc63",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "__ehhandler$?FindPlayerPed@CGame@@QAEPAVCPlayerPed@@XZ",
+          "site_rva": 4115,
+          "target_va": 269352587,
+          "kind": 6
+        },
+        {
+          "symbol": "__except_list",
+          "site_rva": 4121,
+          "target_va": 0,
+          "kind": 6
+        },
+        {
+          "symbol": "__except_list",
+          "site_rva": 4129,
+          "target_va": 0,
+          "kind": 6
+        },
+        {
+          "symbol": "??2@YAPAXI@Z",
+          "site_rva": 4150,
+          "target_va": 269247098,
+          "kind": 20
+        },
+        {
+          "symbol": "??0CPlayerPed@@QAE@XZ",
+          "site_rva": 4176,
+          "target_va": 269138544,
+          "kind": 20
+        },
+        {
+          "symbol": "__except_list",
+          "site_rva": 4198,
+          "target_va": 0,
+          "kind": 6
+        }
+      ]
+    },
+    {
+      "unit": "closure_rpc_player_skill",
+      "section": 62,
+      "rva": 919392,
+      "size": 21,
+      "kind": ".text$x",
+      "sha256": "f6335b2e25848a817ab5bb08b1cd8ab7b6d3046426b401b9154cd5f13cc35234",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "??1BitStream@RakNet@@QAE@XZ",
+          "site_rva": 919399,
+          "target_va": 268564688,
+          "kind": 20
+        },
+        {
+          "symbol": "$T95144",
+          "site_rva": 919404,
+          "target_va": 269451380,
+          "kind": 6
+        },
+        {
+          "symbol": "___CxxFrameHandler",
+          "site_rva": 919409,
+          "target_va": 269247782,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "closure_rpc_player_skill",
+      "section": 47,
+      "rva": 917120,
+      "size": 21,
+      "kind": ".text$x",
+      "sha256": "9319808924bf8500b1410f9cb245444680ef7a3fe4e84b7ca09480967e1426d7",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "??3@YAXPAX@Z",
+          "site_rva": 917125,
+          "target_va": 269247626,
+          "kind": 20
+        },
+        {
+          "symbol": "$T95090",
+          "site_rva": 917132,
+          "target_va": 269448728,
+          "kind": 6
+        },
+        {
+          "symbol": "___CxxFrameHandler",
+          "site_rva": 917137,
+          "target_va": 269247782,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "closure_rpc_player_skill",
+      "section": 63,
+      "rva": 1015916,
+      "size": 36,
+      "kind": ".xdata$x",
+      "sha256": "f9838a59dd26ffc8c941e5451023d3081af40ecc69c571792a3b05a221877096",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "$L95112",
+          "site_rva": 1015920,
+          "target_va": 269354848,
+          "kind": 6
+        },
+        {
+          "symbol": "$T95147",
+          "site_rva": 1015932,
+          "target_va": 269451372,
+          "kind": 6
+        }
+      ]
+    },
+    {
+      "unit": "closure_rpc_player_skill",
+      "section": 48,
+      "rva": 1013264,
+      "size": 36,
+      "kind": ".xdata$x",
+      "sha256": "18eebed3494c03a403490a6f95494d9ce9fb81d4042f17a3cba066f92675eb8c",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "$L95086",
+          "site_rva": 1013268,
+          "target_va": 269352576,
+          "kind": 6
+        },
+        {
+          "symbol": "$T95096",
+          "site_rva": 1013280,
+          "target_va": 269448720,
+          "kind": 6
+        }
+      ]
+    }
+  ],
+  "bindings_checked": 31,
+  "external_targets": {
+    "__ehhandler$?SetPlayerSkillLevelRPCTransfer@@YAXPAURPCParameters@@@Z": 269354859,
+    "__except_list": 0,
+    "??0BitStream@RakNet@@QAE@PADI_N@Z": 268564544,
+    "?ReadBits@BitStream@RakNet@@QAE_NPAEH_N@Z": 268564912,
+    "?pNetGame@@3PAVCNetGame@@A": 270986132,
+    "?pGame@@3PAVCGame@@A": 270986156,
+    "?SetWeaponSkillLevel@CPlayerPed@@QAEXHG@Z": 269149264,
+    "?IsActive@R5LabelRemotePlayerView@@QAEHXZ": 268439680,
+    "??1BitStream@RakNet@@QAE@XZ": 268564688,
+    "__ehhandler$?FindPlayerPed@CGame@@QAEPAVCPlayerPed@@XZ": 269352587,
+    "??2@YAPAXI@Z": 269247098,
+    "??0CPlayerPed@@QAE@XZ": 269138544,
+    "closure_rpc_player_skill::$T95144": 269451380,
+    "___CxxFrameHandler": 269247782,
+    "??3@YAXPAX@Z": 269247626,
+    "closure_rpc_player_skill::$T95090": 269448728,
+    "closure_rpc_player_skill::$L95112": 269354848,
+    "closure_rpc_player_skill::$T95147": 269451372,
+    "closure_rpc_player_skill::$L95086": 269352576,
+    "closure_rpc_player_skill::$T95096": 269448720
+  },
+  "identity_reasons": {
+    "?SetPlayerSkillLevelRPCTransfer@@YAXPAURPCParameters@@@Z": "source method semantics + original call graph / allocation / table owner",
+    "?FindPlayerPed@CGame@@QAEPAVCPlayerPed@@XZ": "actual relocation from ?SetPlayerSkillLevelRPCTransfer@@YAXPAURPCParameters@@@Z"
+  },
+  "new_unique_code": 330,
+  "already_covered_code": 115,
+  "physical_code_compared": 445,
+  "baseline": 408507,
+  "source025_direct_bytes": 0,
+  "reuse_existing_owners": {
+    "?FindPlayerPed@CGame@@QAEPAVCPlayerPed@@XZ": {
+      "unit": "closure_remote_driver_update",
+      "rva": 4112,
+      "size": 94
+    }
+  },
+  "excluded_unmatched": [],
+  "explicit_owner_transfer": "None; R5 player skill RPC methods reuse existing providers.",
+  "unselected_method": "Only real R5 player skill RPC roots and original relocation closure selected; callback implementations are never credited.",
+  "source_files": [
+    {
+      "path": "client/saco/closure_rpc_player_skill.cpp",
+      "sha256": "1bc4473f4a2d2fc14afec3950b0bc70d667554c975031ac216c11e88dc128c3e"
+    }
+  ],
+  "objects": {
+    "closure_rpc_player_skill": "ac0eb40c7423c064596af90a982d4594048e5ddced3b206dcba87bfcae390ef0"
+  },
+  "actual_weak_aliases": {
+    "closure_rpc_player_skill": {}
+  }
+}

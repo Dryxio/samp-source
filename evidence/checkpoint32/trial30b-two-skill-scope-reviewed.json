@@ -1,0 +1,128 @@
+{
+  "status": "PASS_WHOLE_R5_SKILL_RPC_AND_EXISTING_REAL_VIEWS",
+  "new_unique_code": 330,
+  "source025_direct_bytes": 0,
+  "providers": {
+    "__ehhandler$?SetPlayerSkillLevelRPCTransfer@@YAXPAURPCParameters@@@Z": {
+      "whole_local_region_verified": true,
+      "reference_va": 269354859
+    },
+    "__except_list": {
+      "kind": "absolute-fs",
+      "reference_va": 0
+    },
+    "??0BitStream@RakNet@@QAE@PADI_N@Z": {
+      "unit": "closure_cmd_bitstream",
+      "rva": 129088,
+      "size": 127
+    },
+    "?ReadBits@BitStream@RakNet@@QAE_NPAEH_N@Z": {
+      "unit": "closure_cmd_bitstream",
+      "rva": 129456,
+      "size": 185
+    },
+    "?pNetGame@@3PAVCNetGame@@A": {
+      "unit": "closure_store_netgame",
+      "rva": 2550676,
+      "size": 4
+    },
+    "?pGame@@3PAVCGame@@A": {
+      "unit": "closure_state",
+      "rva": 2550700,
+      "size": 4
+    },
+    "?SetWeaponSkillLevel@CPlayerPed@@QAEXHG@Z": {
+      "unit": "closure_player",
+      "rva": 713808,
+      "size": 37
+    },
+    "?IsActive@R5LabelRemotePlayerView@@QAEHXZ": {
+      "unit": "closure_label_pool_helpers",
+      "rva": 4224,
+      "size": 29
+    },
+    "??1BitStream@RakNet@@QAE@XZ": {
+      "unit": "closure_cmd_bitstream",
+      "rva": 129232,
+      "size": 27
+    },
+    "__ehhandler$?FindPlayerPed@CGame@@QAEPAVCPlayerPed@@XZ": {
+      "whole_local_region_verified": true,
+      "reference_va": 269352587
+    },
+    "??2@YAPAXI@Z": {
+      "kind": "crt",
+      "reference_va": 269247098,
+      "size": 36,
+      "sha256": "3388fc83079652ef5506eee91c61b02421ae7a865d917631a2e6f3fe84a3de6c"
+    },
+    "??0CPlayerPed@@QAE@XZ": {
+      "unit": "closure_player_lifetime",
+      "rva": 703088,
+      "size": 308
+    },
+    "closure_rpc_player_skill::$T95144": {
+      "whole_local_region_verified": true,
+      "reference_va": 269451380
+    },
+    "___CxxFrameHandler": {
+      "kind": "crt",
+      "reference_va": 269247782,
+      "size": 54,
+      "sha256": "f5d28314d58ce5cebdf00faf3b2b1bb25200dc2c9fe10f11eebdfd1ed41a6928"
+    },
+    "??3@YAXPAX@Z": {
+      "kind": "crt",
+      "reference_va": 269247626,
+      "size": 5,
+      "sha256": "7a2b09fea4ced88e49e987aef3ba5304ddbbccb1e20599a243549fdc02637f6c"
+    },
+    "closure_rpc_player_skill::$T95090": {
+      "whole_local_region_verified": true,
+      "reference_va": 269448728
+    },
+    "closure_rpc_player_skill::$L95112": {
+      "whole_local_region_verified": true,
+      "reference_va": 269354848
+    },
+    "closure_rpc_player_skill::$T95147": {
+      "whole_local_region_verified": true,
+      "reference_va": 269451372
+    },
+    "closure_rpc_player_skill::$L95086": {
+      "whole_local_region_verified": true,
+      "reference_va": 269352576
+    },
+    "closure_rpc_player_skill::$T95096": {
+      "whole_local_region_verified": true,
+      "reference_va": 269448720
+    }
+  },
+  "scope": [
+    "Original RPC34 atF5E0 is the SetWeaponSkillLevel handler: reads16bit playerID,32bit skill,16bit level using actual BitStream and branches on actual local ID.",
+    "Local path uses accepted real CGame::FindPlayerPed, null check and CPlayerPed::SetWeaponSkillLevel(int,WORD).",
+    "Remote path checks original1004 slot bound/state, actual CNetPlayer pointer then remote pointer10, accepted IsActive helper and actual ped1DD. Token-identical declaration of existing R5LabelRemotePlayerView verified separately.",
+    "Pool view only reads existing memory, never allocated; actual CPlayerPool inline GetAt/GetLocalPlayerID retained. No new storage, complete allocated types unchanged.",
+    "Entire original309byte function plus21byteEH newly qualified. Actual old FindPlayerPed94+EH21 duplicates fully compared and excluded from gain. All6 whole regions31fixups and PE relocation sets exact.",
+    "Original model/state/invalid pointer behavior preserved; no extra validation.",
+    "No025 direct source found for this RPC, reconstructed from R5 and existing true providers. No callback implementation credit."
+  ],
+  "snapshots": [
+    {
+      "path": "client/saco/closure_rpc_player_skill.cpp",
+      "sha256": "1bc4473f4a2d2fc14afec3950b0bc70d667554c975031ac216c11e88dc128c3e"
+    },
+    {
+      "path": "client/saco/closure_label_pool_helpers.cpp",
+      "sha256": "9da7e86e65ffa3c01259d0bc4e89a2c08f4f434e55a9f918403d76a8bfe86673"
+    },
+    {
+      "path": "client/saco/net/playerpool.h",
+      "sha256": "a5c83fcc728140a44e5e2e72bfdc4e024ceec437d76c237a0babfb6397fb4c7e"
+    },
+    {
+      "path": "client/saco/net/netplayer.h",
+      "sha256": "2bf253a5c097bfb2f5598797dae6c848df2fcadf1f4ecd20b9399f1a1dfc112d"
+    }
+  ]
+}

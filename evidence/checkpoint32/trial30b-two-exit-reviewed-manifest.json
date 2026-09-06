@@ -1,0 +1,201 @@
+{
+  "status": "PASS_FULL_SOURCE_REGIONS_ALL_COFF_PE_TARGETS",
+  "run": "cp32-trial30b-exit",
+  "baseline": 408507,
+  "new_unique_code": 308,
+  "regions": [
+    {
+      "unit": "closure_rpc_remote_exit_vehicle",
+      "section": 52,
+      "anchor": "?RemoteExitVehicleTransfer@@YAXPAURPCParameters@@@Z",
+      "anchor_offset": 0,
+      "rva": 71408,
+      "size": 234,
+      "kind": "code",
+      "sha256": "a388fbd66a2b18458d9290d9abd4d9472585ecd10c8c5ce645bcabdca3209975",
+      "bindings": [
+        {
+          "symbol": "__ehhandler$?RemoteExitVehicleTransfer@@YAXPAURPCParameters@@@Z",
+          "site_rva": 71411,
+          "kind": 6,
+          "target_va": 269355563
+        },
+        {
+          "symbol": "__except_list",
+          "site_rva": 71417,
+          "kind": 6,
+          "target_va": 0
+        },
+        {
+          "symbol": "__except_list",
+          "site_rva": 71425,
+          "kind": 6,
+          "target_va": 0
+        },
+        {
+          "symbol": "??0BitStream@RakNet@@QAE@PADI_N@Z",
+          "site_rva": 71466,
+          "kind": 20,
+          "target_va": 268564544
+        },
+        {
+          "symbol": "?ReadBits@BitStream@RakNet@@QAE_NPAEH_N@Z",
+          "site_rva": 71503,
+          "kind": 20,
+          "target_va": 268564912
+        },
+        {
+          "symbol": "?ReadBits@BitStream@RakNet@@QAE_NPAEH_N@Z",
+          "site_rva": 71521,
+          "kind": 20,
+          "target_va": 268564912
+        },
+        {
+          "symbol": "?pNetGame@@3PAVCNetGame@@A",
+          "site_rva": 71527,
+          "kind": 6,
+          "target_va": 270986132
+        },
+        {
+          "symbol": "?GetDistanceFromLocalPlayer@R5RemoteDistanceQueryView@@QAEMXZ",
+          "site_rva": 71576,
+          "kind": 20,
+          "target_va": 268525856
+        },
+        {
+          "symbol": "__real@43480000",
+          "site_rva": 71582,
+          "kind": 6,
+          "target_va": 269377696
+        },
+        {
+          "symbol": "?ExitVehicle@R5RemoteVehicleExitRequestView@@QAEXXZ",
+          "site_rva": 71596,
+          "kind": 20,
+          "target_va": 268526128
+        },
+        {
+          "symbol": "??1BitStream@RakNet@@QAE@XZ",
+          "site_rva": 71617,
+          "kind": 20,
+          "target_va": 268564688
+        },
+        {
+          "symbol": "__except_list",
+          "site_rva": 71631,
+          "kind": 6,
+          "target_va": 0
+        }
+      ]
+    },
+    {
+      "unit": "closure_rpc_remote_exit_vehicle",
+      "section": 54,
+      "anchor": "__real@43480000",
+      "anchor_offset": 0,
+      "rva": 942240,
+      "size": 4,
+      "kind": "data",
+      "sha256": "531ad685bf4dd31ed89c6b99e76c2b9451d6a6d04d82de7d4b1a73217f55e551",
+      "bindings": []
+    },
+    {
+      "unit": "closure_rpc_remote_exit_vehicle",
+      "section": 53,
+      "anchor": "$L95092",
+      "anchor_offset": 0,
+      "rva": 920096,
+      "size": 21,
+      "kind": "code",
+      "sha256": "335523887d257b49eb88f3bb8b2c9742be152569450594f6c7c5629125a922f4",
+      "bindings": [
+        {
+          "symbol": "??1BitStream@RakNet@@QAE@XZ",
+          "site_rva": 920103,
+          "kind": 20,
+          "target_va": 268564688
+        },
+        {
+          "symbol": "$T95116",
+          "site_rva": 920108,
+          "kind": 6,
+          "target_va": 269452172
+        },
+        {
+          "symbol": "___CxxFrameHandler",
+          "site_rva": 920113,
+          "kind": 20,
+          "target_va": 269247782
+        }
+      ]
+    },
+    {
+      "unit": "closure_rpc_remote_exit_vehicle",
+      "section": 55,
+      "anchor": "$T95116",
+      "anchor_offset": 8,
+      "rva": 1016708,
+      "size": 36,
+      "kind": "data",
+      "sha256": "b7afc618a9b4b072e81a46d878a00fe471629cee78ef7965b8df73632552a954",
+      "bindings": [
+        {
+          "symbol": "$L95092",
+          "site_rva": 1016712,
+          "kind": 6,
+          "target_va": 269355552
+        },
+        {
+          "symbol": "$T95123",
+          "site_rva": 1016724,
+          "kind": 6,
+          "target_va": 269452164
+        }
+      ]
+    },
+    {
+      "unit": "closure_remote_exit_vehicle",
+      "section": 46,
+      "anchor": "?ExitVehicle@R5RemoteVehicleExitRequestView@@QAEXXZ",
+      "anchor_offset": 0,
+      "rva": 90672,
+      "size": 53,
+      "kind": "code",
+      "sha256": "fd21e8d46112edd4f1f3994cb51962ca164b8a2cb4f224a8daccfe51af18b5da",
+      "bindings": [
+        {
+          "symbol": "?IsInVehicle@CPlayerPed@@QAEHXZ",
+          "site_rva": 90686,
+          "kind": 20,
+          "target_va": 269139568
+        },
+        {
+          "symbol": "?SetKeys@CPlayerPed@@QAEXGGG@Z",
+          "site_rva": 90707,
+          "kind": 20,
+          "target_va": 269153088
+        },
+        {
+          "symbol": "?ExitCurrentVehicle@CPlayerPed@@QAEXXZ",
+          "site_rva": 90719,
+          "kind": 20,
+          "target_va": 269141216
+        }
+      ]
+    }
+  ],
+  "source025_direct": 0,
+  "object_sha256": {
+    "closure_remote_exit_vehicle": "a56b8e62f81b7116ad6b114bed998b1bc9d2ca56023aa07337188b4a518f03dd",
+    "closure_rpc_remote_exit_vehicle": "259c9d35c3139e68ac621c842c7ed1d4bc5142d3388872b65c9ca46adf5ff1a8"
+  },
+  "source_sha256": {
+    "closure_remote_exit_vehicle": "8e167ff7dc4928eef3e7496e30adc49b2b9ed0e280ec04e81b08cd9604dfb253",
+    "closure_rpc_remote_exit_vehicle": "b58cdc854a2a61f771a510ee1cc03932c274dfe16c2886ff33ba87b13f2817d3"
+  },
+  "identity_callers": [
+    71408
+  ],
+  "typed_layout_note": "Pointer-only remoteviewped1DD and pool3DE/1F8A. Reuses existing closure_rpc_spectator_vehicle ExitCurrentVehicle138, no duplicatecode or commandstorecredit. Remote distance45 from preceding acceptedlot4f0936b.",
+  "source025_assisted_adapted": 287
+}

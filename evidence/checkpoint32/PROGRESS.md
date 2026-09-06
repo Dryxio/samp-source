@@ -1518,3 +1518,6 @@ Final trial networking1002 +markers216: +1218 unique accepted code bytes, total4
 
 
 trial30b-one: +3335 unique accepted R5 code bytes, total411842/930756 (44.248117%). Network2108 +onfoot373 +entry854; expected3335 unique. Actual prior AddPacket31 provider reused, no duplicatecode. Complete original/linked code/data/EH, all COFF/PE targets, true providers and full frozenbase dedup. Ten negative controls and Actor ABI PASS. No push/deploy. Timed trialB continues until13:27:35Z.
+
+
+trial30b-two: +638 unique accepted R5 code bytes, total412480/930756 (44.316663%). Remote exit/RPC308 +skill RPC330, expected638 unique. Complete original/linked code/data/EH, all COFF/PE targets, true providers and full frozenbase dedup. Ten negative controls and Actor ABI PASS. No push/deploy. Timed trialB continues until13:27:35Z.

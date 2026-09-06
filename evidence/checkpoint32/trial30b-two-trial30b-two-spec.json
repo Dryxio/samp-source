@@ -1,0 +1,43 @@
+{
+  "prefix": "trial30b-two",
+  "previous": "trial30b-one",
+  "baseline": 411842,
+  "expected_gain": 638,
+  "run": "cp32-trial30b-two-linked1",
+  "ob1": "cp32-trial30b-two-ob1",
+  "ob2": "cp32-disconnect-selection-ob2",
+  "manifests": [
+    "build/agent-client-b/exit-reviewed-manifest.json",
+    "build/agent-network-b/skill-reviewed-manifest.json"
+  ],
+  "seed_files": [
+    "build/agent-client-b/exit-seeds.json",
+    "build/agent-network-b/skill-seeds.json"
+  ],
+  "evidence_files": [
+    "build/agent-client-b/preflight_exit_final.py",
+    "build/agent-network-b/preflight_skill.py",
+    "build/agent-network-b/audit_skill_scope.py",
+    "build/agent-network-b/skill-view-identity.json"
+  ],
+  "linked_reviews": {
+    "itoa_qualification": "build/trial30b-two-itoa-qualified.json",
+    "linker_alias_provider_evidence": "build/cp32-trial30b-two-linked1-aliases.json",
+    "server_bridge_final": "build/agent-independent/server-bridge-target-alias-qualification-cp32-trial30b-two-linked1.json",
+    "logger_deleting_aliases": "build/agent-independent/logger-deleting-aliases-cp32-trial30b-two-linked1.json",
+    "network_tree_deleting_aliases": "build/agent-independent/replica-network-id-aliases-qualified.json",
+    "sha1_deleting_alias_qualification": "build/trial30b-two-sha1-deleting-alias-qualified.json",
+    "mesh_deleting_alias_qualification": "build/agent-independent/mesh-deleting-aliases-cp32-trial30b-two-linked1.json",
+    "chat_navigation_alias": "build/agent-textdraw/chat-navigation-linked-alias-review.json",
+    "console_aliases": "build/agent-independent/console-aliases-qualified.json",
+    "raknet_command_alias": "build/agent-independent/raknet-command-parser-alias-qualified.json",
+    "skill": "build/agent-network-b/skill-scope-reviewed.json"
+  },
+  "review": {
+    "scope": "Remote exit/RPC308 +skill RPC330, expected638 unique.",
+    "adaptations": "Existing actual ExitCurrentVehicle138 andGetCurrentVehicleID24 reused from accepted source owners. Complete inputtypes and pointer-only views; no newstorage.",
+    "reference_credit": "TrialB allnew proposals; direct0250. Exitadaptation025 assisted.",
+    "verification": "Whole original/linked code/data/EH andCOFF/PE, existingproviders, ten controls andActorABI required.",
+    "excluded_candidates": "Unneeded pedexit/store variants excluded; no duplicate138/24 orFindPlayer115 credit."
+  }
+}
