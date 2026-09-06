@@ -54,6 +54,7 @@ private:
 public:
 
 	CRemotePlayer();
+	~CRemotePlayer();
 
 	void ResetAllSyncAttributes();
 

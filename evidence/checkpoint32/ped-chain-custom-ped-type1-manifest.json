@@ -1,0 +1,132 @@
+{
+  "status": "UNCOMPILED_PROPOSAL",
+  "baseline": "evidence/checkpoint32/screenshot-model-acceptance.json",
+  "total": 823,
+  "new_bytes": 823,
+  "functions": [
+    {
+      "name": "EnsurePedModelReady",
+      "rva": "0xd2c0",
+      "size": 94,
+      "sha256": "aebcf0520f7e42eec41c3c21a1f12c712cd2e71ca07a1bcc81a7a128d1906446",
+      "new_bytes": 94,
+      "pe_relocations": [],
+      "direct_calls": [
+        "0x1000c650"
+      ]
+    },
+    {
+      "name": "LoadPedModelFiles",
+      "rva": "0xc650",
+      "size": 281,
+      "sha256": "89dc7108063eddd5b2231da54db9a9720cdf4383148656d82c3c9a9f37a91e7e",
+      "new_bytes": 281,
+      "pe_relocations": [
+        "0x17",
+        "0x37",
+        "0x65",
+        "0x99",
+        "0xc1"
+      ],
+      "direct_calls": [
+        "0x100c7353",
+        "0x100c7353",
+        "0x100b5dc0",
+        "0x100c7353",
+        "0x100b5dc0",
+        "0x100c7353",
+        "0x100b5dc0",
+        "0x100c7353",
+        "0x100b5dc0",
+        "0x100a7bd0"
+      ]
+    },
+    {
+      "name": "InstallCustomPedModel",
+      "rva": "0xa7bd0",
+      "size": 81,
+      "sha256": "ce1f2897f4b1d2899d7a2b85571159604c10107a8048c981ee00734443895664",
+      "new_bytes": 81,
+      "pe_relocations": [],
+      "direct_calls": [
+        "0x100a7a80",
+        "0x100a7b60",
+        "0x100b1f10",
+        "0x100b45d0"
+      ]
+    },
+    {
+      "name": "ClonePedModelInfo",
+      "rva": "0xa7a80",
+      "size": 76,
+      "sha256": "16bdc8d54c78fc723586ade7d91957edf7fb85484b7a31aa45e9c5bb1bd4beec",
+      "new_bytes": 76,
+      "pe_relocations": [
+        "0x3a"
+      ],
+      "direct_calls": [
+        "0x100c6982",
+        "0x100a7a40",
+        "0x100b3dd0"
+      ]
+    },
+    {
+      "name": "ReadPedModelClump",
+      "rva": "0xb1f10",
+      "size": 137,
+      "sha256": "a94cda9972b6a38bcbfd2a752db765286c7c48afe8c109a35394d94e229ed790",
+      "new_bytes": 137,
+      "pe_relocations": [
+        "0x34",
+        "0x65",
+        "0x80"
+      ],
+      "direct_calls": [
+        "0x100b1dc0",
+        "0x100aa4c0",
+        "0x100b1e80",
+        "0x100b1ed0",
+        "0x100b1e00",
+        "0x100b1e00"
+      ]
+    },
+    {
+      "name": "SetPedModelClump",
+      "rva": "0xb45d0",
+      "size": 36,
+      "sha256": "71d6338d7c9f397c9dc7646063eed500568301116c264f8b145c0f267c48c15f",
+      "new_bytes": 36,
+      "pe_relocations": [],
+      "direct_calls": [
+        "0x100a7a40",
+        "dword ptr [edx + 0x40]"
+      ]
+    },
+    {
+      "name": "FindCustomModelStreamChunk",
+      "rva": "0xb1e80",
+      "size": 65,
+      "sha256": "c3fa4b2775998f94ef01856743ba0f43641dd90db272c25a228a438bec0e9c2c",
+      "new_bytes": 65,
+      "pe_relocations": [
+        "0x7"
+      ],
+      "direct_calls": [
+        "eax"
+      ]
+    },
+    {
+      "name": "ReadCustomPedClumpFromStream",
+      "rva": "0xb1ed0",
+      "size": 53,
+      "sha256": "77a2dc129a79ce4d0a760703f1eecd7ae062196470989227d7f662ba050d4590",
+      "new_bytes": 53,
+      "pe_relocations": [
+        "0x7"
+      ],
+      "direct_calls": [
+        "eax"
+      ]
+    }
+  ]
+}

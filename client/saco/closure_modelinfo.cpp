@@ -7,12 +7,7 @@ extern BYTE **extendedModelInfos;
 extern BOOL useExtendedModelInfos;
 
 
-BYTE *__stdcall GetModelInfo(int model)
-{
-    if(useExtendedModelInfos) return extendedModelInfos[model];
-    if(model < 0 || model > 20000) return NULL;
-    return ((BYTE **)0xA9B0C8)[model];
-}
+BYTE *__stdcall GetModelInfo(int model);
 
 int __stdcall ModelInfoLoaded(UINT model)
 {

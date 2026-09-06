@@ -61,6 +61,8 @@ def draft(run, extra_seeds=None):
             offset=symbol['value'];size=18;kind='script-command'
         if unit=='closure_rpc_player_motion_shop' and kind=='data' and symbol['name'] in ('_set_player_drunk_visuals', '_handling_responsiveness'):
             offset=symbol['value'];size=18;kind='script-command'
+        if unit=='closure_remote_player_destruction' and kind=='data' and symbol['name']=='_disable_marker':
+            offset=symbol['value'];size=18;kind='script-command'
         if unit=='closure_rpc_game_text' and kind=='data' and symbol['name']=='_text_clear_all':
             offset=symbol['value'];size=18;kind='script-command'
         if unit=='closure_vehicle_appearance_interior' and kind=='data' and symbol['name'] in ('_rpc_select_ped_interior','_rpc_link_ped_interior','_rpc_refresh_ped_streaming'):

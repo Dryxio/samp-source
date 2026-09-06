@@ -1,0 +1,14 @@
+# B6250/81 native model instance factory
+
+Identity established before proposal: originalB6250 takes modelID, checks actualpGame, calls accepted GetModelInfoA7A40 twice, loads the returned native model object’s vtable0 and invokes byteoffset2C with ECX=model and zeroexplicitarguments. Returns its EAX value. Original caller6C9B0 obtains result at6CA85, retains it asEBP, dispatches rendering with B6330 at6CC0C and destroys it withB62B0 at6CC2F. Those real wrappers inspect RwObject.type1/2 and perform actualAtomic/Clump rendering/destruction. Thus this is creation of a RenderWare model instance, not a bool/query/clone replacement.
+
+External primary ABI corroboration: Plugin-SDK game_sa/CBaseModelInfo.cpp lines55–57 explicitly assigns CreateInstance() to vtableindex11, thiscallCBaseModelInfo*, returningRwObject*. Matrix overload usesindex10, so thiszeroargslot cannot be confused with it. Header confirms nativecollisionpointer14 and nativeRwObject member1C, matching the independently observed surrounding modelutility fields. Source URLs:
+https://raw.githubusercontent.com/DK22Pac/plugin-sdk/master/plugin_sa/game_sa/CBaseModelInfo.cpp
+https://raw.githubusercontent.com/DK22Pac/plugin-sdk/master/plugin_sa/game_sa/CBaseModelInfo.h
+This is corroboration of nativeABI, not a claim the plugin’s compiledbytes match R5 or any new SDK dependency/coverage.
+
+Proposal closure_model_instance_factory_proposed.cpp keeps ordinary C++ guards, locals, two genuine lookupcalls and returns. Only the native thiscall ABI invocation is a labeled fourinstruction bridge referencing compilerlocals and named11*sizeof(void*) slot. No fake complete virtualclass, elevenplaceholdermethods, allocation, fixednativevtable contents or newglobal. Nativeprefix view contains onlyactualvtablepointer0. Prior MSVC2003 genericthiscallfreepointer compilation was rejected, so that invalid syntax is not retried. This pattern is the existingbase nativecall idiom alreadyused in accepted providers.
+
+OuterABI cdecl void*(int), plainret, ESI preserved. Original uses EBPframe12 for result/model/vtablelocals. ResultNULL initialization and failedsecondlookupearlyreturn are retained. The virtualcall has no extraargument and no stackcleanup; returnedobject is not fabricated/copied. No newfunction/data providers besides alreadyacceptedpGame26EBAC and GetModelInfoA7A40, no literals/EH/tables. Full object creation behavior is implemented through the actualnative method, not an emptydependency counted as code. No whole-renderer claim.
+
+Direct025 credit0: local025 provides the oldmodelinfo lookup/nativecallstyle only, not thisfactory body. Proposed81 principalbytes remain uncompiled/unaccepted. Full original capture includes wholeB6250 and caller6C9B0, no midinstructionstart excerpts. Rootmustreview currentprovideridentity, entire81bytes, allfixupsand actual noargthiscallABI afterprobe.

@@ -1346,3 +1346,8 @@ Directory/pool accepted: +1110 unique code bytes, total212065/930756 (22.784167%
 All2644regions, actualproviders, everyCOFF/PErelocation, tenstandardnegativecontrols and actorABI pass. Direct025 new0, cumulative18372. Sourcefunctions alreadycompletebase, newlyclosed dependencies are the demonstrated accelerator.
 
 Run cp32-directory-pool-linked1, Ob1cp32-directory-pool-ob1, Ob2cp32-player-lifetime-ob2. Measured 38924 unique newbytes at 7568.3 bytes/hour includingcoordination/trials. Next actualType1 custompedchain823 and modelinstancefactory81 candidates; destruction/spectating/spawn remainexcluded. Goalactive,no push/deployment.
+
+
+Ped chain accepted: +1186 unique code bytes, total213251/930756 (22.911590%). Type1 customped chain823, factory81, Remote/Net destruction282 including EH21. GetModelInfo51 moved to a sole new TU owner with unchanged exact bytes; real EDX preservation yields clone76, explicit getter guard yields Ensure94. Factory81 symbolic after two documented C++ failures; C650281 uses accepted resolver pattern with actual PED installer A7BD0, never object homologue A7C30. Existing globalowners and formats fully verified; actual native slots16 SetClump and11 CreateInstance. Remote509/Net48 actual classes, CPlayerPed virtual deletion through real slot0 and flags1, real usedslots840. Two genuine nonvirtual declarations require fresh Ob1/Ob2.
+
+All2661regions, everyCOFF/PErelocation, tennegativecontrols and actorABI pass. Direct025 +79 adapted remote teardown, cumulative18451. Measured 40110 unique newbytes at 7429.1 bytes/hour coordination included. Eightoldpending excluded; ModelInfoLoaded extent under audit. Next objectrenderer694 and construction/clock649 candidates. Goalactive; no push/deployment.

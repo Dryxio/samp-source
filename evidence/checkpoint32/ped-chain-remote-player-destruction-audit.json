@@ -1,0 +1,128 @@
+{
+  "status": "PROPOSAL_NOT_ACCEPTED",
+  "source": "build/agent-independent/eval_remote_player_destruction.cpp",
+  "header_declaration_additions": {
+    "client/saco/net/remoteplayer.h": [
+      "public: ~CRemotePlayer();"
+    ],
+    "client/saco/game/game.h": [
+      "public: BOOL DeletePlayerPed(CPlayerPed *pPlayerPed);"
+    ]
+  },
+  "regions": [
+    {
+      "identity": "CNetPlayer destructor",
+      "rva": 81760,
+      "size": 112,
+      "sha256": "19030c018d036d960bf2f3c8f70cb9d853692441ba91ae77cafbe122ec56893b"
+    },
+    {
+      "identity": "CRemotePlayer destructor",
+      "rva": 91744,
+      "size": 79,
+      "sha256": "43df0c33edb9ee9434316d712147511bdf03700f0e8b637eacdd583be5677e88"
+    },
+    {
+      "identity": "CGame DeletePlayerPed",
+      "rva": 655888,
+      "size": 49,
+      "sha256": "5ad502a206eb4a1b69a60ad8056b5f98da2c42bcbe3f064631a843c51d972838"
+    },
+    {
+      "identity": "CGame DisableMarker",
+      "rva": 659136,
+      "size": 21,
+      "sha256": "e42465a0b8ebefc024209783fc4328759abb1a3cc68d6f2aa08f8a75d5c32fe4"
+    },
+    {
+      "identity": "NetPlayer EH string cleanup",
+      "rva": 920464,
+      "size": 11,
+      "sha256": "c8dcb8a748e3882e1d3766f3d1d65382021daee79357483a8e7adac7bbf17226"
+    },
+    {
+      "identity": "NetPlayer EH handler",
+      "rva": 920475,
+      "size": 10,
+      "sha256": "919319811d0264833504d855d1cadbfdeb786992652c7e32558511eeffa9845e"
+    }
+  ],
+  "data": [
+    {
+      "identity": "NetPlayer EH UnwindMap",
+      "rva": 1017112,
+      "size": 8,
+      "sha256": "a113cf17b5db310282f29a11eaefcca8cc179a5c4166a748baf590955e1eba82"
+    },
+    {
+      "identity": "NetPlayer FuncInfo",
+      "rva": 1017120,
+      "size": 28,
+      "sha256": "ec4f8ce13ce6bd8f3354843daa0206434793774f801bbe57f6a1db6e98557fb1"
+    },
+    {
+      "identity": "disable_marker",
+      "rva": 968124,
+      "size": 18,
+      "status": "existing descriptor; avoid duplicate data credit",
+      "sha256": "1ebe2aef5e9dcbef37a2e24c73e67590a006311112c6df9545b27483968481ad"
+    },
+    {
+      "identity": "bUsedPlayerSlots",
+      "rva": 1377088,
+      "size": 840,
+      "status": "accepted actual store; byte playerNumber indexes without new bounds check",
+      "sha256": "accepted-zero-fill-store"
+    }
+  ],
+  "virtual_call": {
+    "site_rva": 655907,
+    "static_type": "CPlayerPed*",
+    "slot": 0,
+    "argument": 1,
+    "true_provider": "CPlayerPed scalar deleting destructor B13D0 through accepted vtable ED140; flags1; normal C++ delete",
+    "saved_before_delete": "m_bytePlayerNumber byte2B0"
+  },
+  "call_order": {
+    "CNetPlayer": [
+      "CRemotePlayer::~CRemotePlayer16660",
+      "operator deleteC648A",
+      "std::string member14 destruction inline; heap release C648A"
+    ],
+    "CRemotePlayer": [
+      "CGame::DisableMarkerA0EC0(marker1F9)",
+      "CGame::DeletePlayerPedA0210(ped1DD)"
+    ],
+    "DisableMarker": [
+      "ScriptCommandB2310(&disable_markerEC5BC,id)"
+    ],
+    "EH": [
+      "std::string destructor13F30",
+      "__CxxFrameHandlerC6526"
+    ]
+  },
+  "sizes": {
+    "CRemotePlayer": 509,
+    "CNetPlayer": 48,
+    "CPlayerPed": 813
+  },
+  "ownership_evidence": [
+    "No vtable in CNetPlayer or CRemotePlayer headers/constructors; destructors are nonvirtual.",
+    "Real NetPlayer constructor141B0 allocates1FD at14210 then calls RemotePlayer165E0.",
+    "NetPlayer owns remote pointer10 and string14; RemotePlayer owns ped1DD and marker1F9.",
+    "No allocations are added by these proposed methods."
+  ],
+  "provenance": {
+    "CNetPlayer112": "Complete base net/netplayer.cpp SAFE_DELETE; new explicit remote destructor declaration required.",
+    "RemotePlayer79": "025 net/remoteplayer.cpp:35 supplies owned player teardown but direct Destroy+delete becomes R5 CGame helper; R5 adds marker cleanup and field1E9 reset.",
+    "DeletePlayerPed49": "R5 reconstruction; absent base.",
+    "DisableMarker21": "Complete base game/game.cpp:857."
+  },
+  "source025_contribution_candidate": 79,
+  "source025_qualification": "Adapted implementation, not verbatim transfer; root decides attribution after acceptance.",
+  "potential_code_bytes": 282,
+  "source_sha256": "2a9b1675c1feca96f32bd38bb10ebf82950dafc58eeea9ac4394aabb1f1e44d5",
+  "baseline": 212065,
+  "baseline_proof": "evidence/checkpoint32/directory-pool-acceptance.json",
+  "potential_unique_code_bytes": 282
+}
