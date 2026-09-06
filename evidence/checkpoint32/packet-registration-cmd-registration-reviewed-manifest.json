@@ -1,0 +1,754 @@
+{
+  "status": "PASS_FULL_CODE_EH_STORES_AND_RELOCATIONS",
+  "run": "cp32-cmd-registration-leaves-trial1",
+  "baseline": 384120,
+  "new_unique_code": 579,
+  "principal_code": 558,
+  "new_EH": 21,
+  "source025_direct": 54,
+  "regions": [
+    {
+      "unit": "closure_cmd_registration_leaves",
+      "anchor": "?cmdDefaultCmdProc@@YAXPAD@Z",
+      "anchor_offset": 0,
+      "rva": 427232,
+      "size": 32,
+      "section": 50,
+      "kind": "code",
+      "duplicate_previous": false,
+      "bindings": [
+        {
+          "symbol": "?pNetGame@@3PAVCNetGame@@A",
+          "site_rva": 427233,
+          "symbol_va": 270986132,
+          "addend": 0,
+          "target_va": 270986132,
+          "kind": 6
+        },
+        {
+          "symbol": "?Say@CLocalPlayer@@QAEXPAD@Z",
+          "site_rva": 427259,
+          "symbol_va": 268458512,
+          "addend": 0,
+          "target_va": 268458512,
+          "kind": 20
+        }
+      ],
+      "sha256": "f04d41a5d93ebcc8aa0ca89e46d2586b72ba4e54634578a472fa15a7eea33016",
+      "object_sha256": "2696a84277e9a41e88ca86b6c2f93ecc8a3e0a67827c2095c0df413f7f22d56f",
+      "whole_section": true
+    },
+    {
+      "unit": "closure_cmd_registration_leaves",
+      "anchor": "?cmdTestDeathWindow@@YAXPAD@Z",
+      "anchor_offset": 0,
+      "rva": 427264,
+      "size": 222,
+      "section": 52,
+      "kind": "code",
+      "duplicate_previous": false,
+      "bindings": [
+        {
+          "symbol": "?pDeathWindow@@3PAVCDeathWindow@@A",
+          "site_rva": 427266,
+          "symbol_va": 270986120,
+          "addend": 0,
+          "target_va": 270986120,
+          "kind": 6
+        },
+        {
+          "symbol": "??_C@_09CIOLHJHI@Pooper333?$AA@",
+          "site_rva": 427285,
+          "symbol_va": 269393396,
+          "addend": 0,
+          "target_va": 269393396,
+          "kind": 6
+        },
+        {
+          "symbol": "??_C@_06JLKMCGAG@Pooper?$AA@",
+          "site_rva": 427290,
+          "symbol_va": 269393388,
+          "addend": 0,
+          "target_va": 269393388,
+          "kind": 6
+        },
+        {
+          "symbol": "?AddMessage@CDeathWindow@@QAEXPAD0KKE@Z",
+          "site_rva": 427295,
+          "symbol_va": 268871344,
+          "addend": 0,
+          "target_va": 268871344,
+          "kind": 20
+        },
+        {
+          "symbol": "?pDeathWindow@@3PAVCDeathWindow@@A",
+          "site_rva": 427301,
+          "symbol_va": 270986120,
+          "addend": 0,
+          "target_va": 270986120,
+          "kind": 6
+        },
+        {
+          "symbol": "??_C@_06JLKMCGAG@Pooper?$AA@",
+          "site_rva": 427312,
+          "symbol_va": 269393388,
+          "addend": 0,
+          "target_va": 269393388,
+          "kind": 6
+        },
+        {
+          "symbol": "??_C@_06JLKMCGAG@Pooper?$AA@",
+          "site_rva": 427317,
+          "symbol_va": 269393388,
+          "addend": 0,
+          "target_va": 269393388,
+          "kind": 6
+        },
+        {
+          "symbol": "?AddMessage@CDeathWindow@@QAEXPAD0KKE@Z",
+          "site_rva": 427322,
+          "symbol_va": 268871344,
+          "addend": 0,
+          "target_va": 268871344,
+          "kind": 20
+        },
+        {
+          "symbol": "?pDeathWindow@@3PAVCDeathWindow@@A",
+          "site_rva": 427328,
+          "symbol_va": 270986120,
+          "addend": 0,
+          "target_va": 270986120,
+          "kind": 6
+        },
+        {
+          "symbol": "??_C@_06JLKMCGAG@Pooper?$AA@",
+          "site_rva": 427339,
+          "symbol_va": 269393388,
+          "addend": 0,
+          "target_va": 269393388,
+          "kind": 6
+        },
+        {
+          "symbol": "??_C@_06JLKMCGAG@Pooper?$AA@",
+          "site_rva": 427344,
+          "symbol_va": 269393388,
+          "addend": 0,
+          "target_va": 269393388,
+          "kind": 6
+        },
+        {
+          "symbol": "?AddMessage@CDeathWindow@@QAEXPAD0KKE@Z",
+          "site_rva": 427349,
+          "symbol_va": 268871344,
+          "addend": 0,
+          "target_va": 268871344,
+          "kind": 20
+        },
+        {
+          "symbol": "?pDeathWindow@@3PAVCDeathWindow@@A",
+          "site_rva": 427355,
+          "symbol_va": 270986120,
+          "addend": 0,
+          "target_va": 270986120,
+          "kind": 6
+        },
+        {
+          "symbol": "??_C@_06JLKMCGAG@Pooper?$AA@",
+          "site_rva": 427366,
+          "symbol_va": 269393388,
+          "addend": 0,
+          "target_va": 269393388,
+          "kind": 6
+        },
+        {
+          "symbol": "??_C@_06JLKMCGAG@Pooper?$AA@",
+          "site_rva": 427371,
+          "symbol_va": 269393388,
+          "addend": 0,
+          "target_va": 269393388,
+          "kind": 6
+        },
+        {
+          "symbol": "?AddMessage@CDeathWindow@@QAEXPAD0KKE@Z",
+          "site_rva": 427376,
+          "symbol_va": 268871344,
+          "addend": 0,
+          "target_va": 268871344,
+          "kind": 20
+        },
+        {
+          "symbol": "?pDeathWindow@@3PAVCDeathWindow@@A",
+          "site_rva": 427382,
+          "symbol_va": 270986120,
+          "addend": 0,
+          "target_va": 270986120,
+          "kind": 6
+        },
+        {
+          "symbol": "??_C@_06JLKMCGAG@Pooper?$AA@",
+          "site_rva": 427393,
+          "symbol_va": 269393388,
+          "addend": 0,
+          "target_va": 269393388,
+          "kind": 6
+        },
+        {
+          "symbol": "??_C@_06JLKMCGAG@Pooper?$AA@",
+          "site_rva": 427398,
+          "symbol_va": 269393388,
+          "addend": 0,
+          "target_va": 269393388,
+          "kind": 6
+        },
+        {
+          "symbol": "?AddMessage@CDeathWindow@@QAEXPAD0KKE@Z",
+          "site_rva": 427403,
+          "symbol_va": 268871344,
+          "addend": 0,
+          "target_va": 268871344,
+          "kind": 20
+        },
+        {
+          "symbol": "?pDeathWindow@@3PAVCDeathWindow@@A",
+          "site_rva": 427409,
+          "symbol_va": 270986120,
+          "addend": 0,
+          "target_va": 270986120,
+          "kind": 6
+        },
+        {
+          "symbol": "??_C@_0BH@OPKANMGJ@PooperPooperPooper0001?$AA@",
+          "site_rva": 427420,
+          "symbol_va": 269393364,
+          "addend": 0,
+          "target_va": 269393364,
+          "kind": 6
+        },
+        {
+          "symbol": "?AddMessage@CDeathWindow@@QAEXPAD0KKE@Z",
+          "site_rva": 427427,
+          "symbol_va": 268871344,
+          "addend": 0,
+          "target_va": 268871344,
+          "kind": 20
+        },
+        {
+          "symbol": "?pDeathWindow@@3PAVCDeathWindow@@A",
+          "site_rva": 427433,
+          "symbol_va": 270986120,
+          "addend": 0,
+          "target_va": 270986120,
+          "kind": 6
+        },
+        {
+          "symbol": "??_C@_06JLKMCGAG@Pooper?$AA@",
+          "site_rva": 427447,
+          "symbol_va": 269393388,
+          "addend": 0,
+          "target_va": 269393388,
+          "kind": 6
+        },
+        {
+          "symbol": "?AddMessage@CDeathWindow@@QAEXPAD0KKE@Z",
+          "site_rva": 427454,
+          "symbol_va": 268871344,
+          "addend": 0,
+          "target_va": 268871344,
+          "kind": 20
+        },
+        {
+          "symbol": "?pDeathWindow@@3PAVCDeathWindow@@A",
+          "site_rva": 427460,
+          "symbol_va": 270986120,
+          "addend": 0,
+          "target_va": 270986120,
+          "kind": 6
+        },
+        {
+          "symbol": "??_C@_0BH@OPKANMGJ@PooperPooperPooper0001?$AA@",
+          "site_rva": 427471,
+          "symbol_va": 269393364,
+          "addend": 0,
+          "target_va": 269393364,
+          "kind": 6
+        },
+        {
+          "symbol": "??_C@_06JLKMCGAG@Pooper?$AA@",
+          "site_rva": 427476,
+          "symbol_va": 269393388,
+          "addend": 0,
+          "target_va": 269393388,
+          "kind": 6
+        },
+        {
+          "symbol": "?AddMessage@CDeathWindow@@QAEXPAD0KKE@Z",
+          "site_rva": 427481,
+          "symbol_va": 268871344,
+          "addend": 0,
+          "target_va": 268871344,
+          "kind": 20
+        }
+      ],
+      "sha256": "1fbec565b75d327b0c288e836f6041cae5b27ab65993066c235099f84de53e96",
+      "object_sha256": "2696a84277e9a41e88ca86b6c2f93ecc8a3e0a67827c2095c0df413f7f22d56f",
+      "whole_section": true
+    },
+    {
+      "unit": "closure_cmd_registration_leaves",
+      "anchor": "?cmdQuit@@YAXPAD@Z",
+      "anchor_offset": 0,
+      "rva": 428512,
+      "size": 5,
+      "section": 57,
+      "kind": "code",
+      "duplicate_previous": false,
+      "bindings": [
+        {
+          "symbol": "?QuitGame@@YAXXZ",
+          "site_rva": 428513,
+          "symbol_va": 269237888,
+          "addend": 0,
+          "target_va": 269237888,
+          "kind": 20
+        }
+      ],
+      "sha256": "f6559bef4fae02f525eb08a8b9ab9bbc74fe09fb5b51415ee38d3a9487816062",
+      "object_sha256": "2696a84277e9a41e88ca86b6c2f93ecc8a3e0a67827c2095c0df413f7f22d56f",
+      "whole_section": true
+    },
+    {
+      "unit": "closure_cmd_registration_leaves",
+      "anchor": "?cmdSelectVehicle@@YAXPAD@Z",
+      "anchor_offset": 0,
+      "rva": 429744,
+      "size": 24,
+      "section": 59,
+      "kind": "code",
+      "duplicate_previous": false,
+      "bindings": [
+        {
+          "symbol": "?tSettings@@3U_GAME_SETTINGS@@A",
+          "site_rva": 429745,
+          "symbol_va": 270983144,
+          "addend": 0,
+          "target_va": 270983144,
+          "kind": 6
+        },
+        {
+          "symbol": "?GameDebugEntity@@YAXKKH@Z",
+          "site_rva": 429760,
+          "symbol_va": 269082784,
+          "addend": 0,
+          "target_va": 269082784,
+          "kind": 20
+        }
+      ],
+      "sha256": "4c586f0c1ac3087c653af7a504c133e64078a6ed0514817bf9280696d19b0ad1",
+      "object_sha256": "2696a84277e9a41e88ca86b6c2f93ecc8a3e0a67827c2095c0df413f7f22d56f",
+      "whole_section": true
+    },
+    {
+      "unit": "closure_game_quit",
+      "anchor": "?QuitGame@@YAXXZ",
+      "anchor_offset": 0,
+      "rva": 802432,
+      "size": 54,
+      "section": 50,
+      "kind": "code",
+      "duplicate_previous": false,
+      "bindings": [
+        {
+          "symbol": "?pNetGame@@3PAVCNetGame@@A",
+          "site_rva": 802433,
+          "symbol_va": 270986132,
+          "addend": 0,
+          "target_va": 270986132,
+          "kind": 6
+        },
+        {
+          "symbol": "?bQuitGame@@3HA",
+          "site_rva": 802466,
+          "symbol_va": 270986032,
+          "addend": 0,
+          "target_va": 270986032,
+          "kind": 6
+        },
+        {
+          "symbol": "__imp__GetTickCount@0",
+          "site_rva": 802476,
+          "symbol_va": 269374008,
+          "addend": 0,
+          "target_va": 269374008,
+          "kind": 6
+        },
+        {
+          "symbol": "?dwStartQuitTick@@3KA",
+          "site_rva": 802481,
+          "symbol_va": 270986036,
+          "addend": 0,
+          "target_va": 270986036,
+          "kind": 6
+        }
+      ],
+      "sha256": "56ef21e035df3ca762150ecd37902095e96636a6ebf12d9e2ca48fde0ba01a45",
+      "object_sha256": "fd1859f2b405794487524044cbc6e98c2282790d512669a37421a676cd8a70ba",
+      "whole_section": true
+    },
+    {
+      "unit": "closure_local_player_say",
+      "anchor": "?Say@CLocalPlayer@@QAEXPAD@Z",
+      "anchor_offset": 0,
+      "rva": 23056,
+      "size": 191,
+      "section": 50,
+      "kind": "code",
+      "duplicate_previous": false,
+      "bindings": [
+        {
+          "symbol": "__except_list",
+          "site_rva": 23058,
+          "symbol_va": 0,
+          "addend": 0,
+          "target_va": 0,
+          "kind": 6
+        },
+        {
+          "symbol": "__ehhandler$?Say@CLocalPlayer@@QAEXPAD@Z",
+          "site_rva": 23065,
+          "symbol_va": 269353035,
+          "addend": 0,
+          "target_va": 269353035,
+          "kind": 6
+        },
+        {
+          "symbol": "__except_list",
+          "site_rva": 23073,
+          "symbol_va": 0,
+          "addend": 0,
+          "target_va": 0,
+          "kind": 6
+        },
+        {
+          "symbol": "??0BitStream@RakNet@@QAE@XZ",
+          "site_rva": 23120,
+          "symbol_va": 268564272,
+          "addend": 0,
+          "target_va": 268564272,
+          "kind": 20
+        },
+        {
+          "symbol": "?WriteBits@BitStream@RakNet@@QAEXPBEH_N@Z",
+          "site_rva": 23153,
+          "symbol_va": 268566496,
+          "addend": 0,
+          "target_va": 268566496,
+          "kind": 20
+        },
+        {
+          "symbol": "?Write@BitStream@RakNet@@QAEXPBDH@Z",
+          "site_rva": 23167,
+          "symbol_va": 268566672,
+          "addend": 0,
+          "target_va": 268566672,
+          "kind": 20
+        },
+        {
+          "symbol": "?pNetGame@@3PAVCNetGame@@A",
+          "site_rva": 23173,
+          "symbol_va": 270986132,
+          "addend": 0,
+          "target_va": 270986132,
+          "kind": 6
+        },
+        {
+          "symbol": "?r5RpcChat@@3HB",
+          "site_rva": 23195,
+          "symbol_va": 269375724,
+          "addend": 0,
+          "target_va": 269375724,
+          "kind": 6
+        },
+        {
+          "symbol": "??1BitStream@RakNet@@QAE@XZ",
+          "site_rva": 23218,
+          "symbol_va": 268564688,
+          "addend": 0,
+          "target_va": 268564688,
+          "kind": 20
+        },
+        {
+          "symbol": "__except_list",
+          "site_rva": 23234,
+          "symbol_va": 0,
+          "addend": 0,
+          "target_va": 0,
+          "kind": 6
+        }
+      ],
+      "sha256": "dba91e44a35bf0284c83e056ac7066b2170148cc55a29dbe5976f9435fc308d7",
+      "object_sha256": "e54da0fddcb38b9b1b1586dcdaa40b707eb3bb41cfe1a266b809fe9056bbbb08",
+      "whole_section": true
+    },
+    {
+      "unit": "closure_game_debug_entity",
+      "anchor": "?GameDebugEntity@@YAXKKH@Z",
+      "anchor_offset": 0,
+      "rva": 647328,
+      "size": 30,
+      "section": 3,
+      "kind": "code",
+      "duplicate_previous": false,
+      "bindings": [
+        {
+          "symbol": "?iGameDebugType@@3HA",
+          "site_rva": 647341,
+          "symbol_va": 269811536,
+          "addend": 0,
+          "target_va": 269811536,
+          "kind": 6
+        },
+        {
+          "symbol": "?dwDebugEntity1@@3KA",
+          "site_rva": 647347,
+          "symbol_va": 269811540,
+          "addend": 0,
+          "target_va": 269811540,
+          "kind": 6
+        },
+        {
+          "symbol": "?dwDebugEntity2@@3KA",
+          "site_rva": 647353,
+          "symbol_va": 269811544,
+          "addend": 0,
+          "target_va": 269811544,
+          "kind": 6
+        }
+      ],
+      "sha256": "ad57f4f14b36f772ea840a22a7b1df8963ff65c473a5163f6ad36233432ee3db",
+      "object_sha256": "f142c5d65d52fe2cee28d0999c7ef73c8216a56d41248b21508e8acf54462485",
+      "whole_section": true
+    },
+    {
+      "unit": "closure_local_player_say",
+      "anchor": "$L95031",
+      "anchor_offset": 0,
+      "rva": 917568,
+      "size": 21,
+      "section": 51,
+      "kind": "code",
+      "duplicate_previous": false,
+      "bindings": [
+        {
+          "symbol": "??1BitStream@RakNet@@QAE@XZ",
+          "site_rva": 917575,
+          "symbol_va": 268564688,
+          "addend": 0,
+          "target_va": 268564688,
+          "kind": 20
+        },
+        {
+          "symbol": "$T95045",
+          "site_rva": 917580,
+          "symbol_va": 269449232,
+          "addend": 0,
+          "target_va": 269449232,
+          "kind": 6
+        },
+        {
+          "symbol": "___CxxFrameHandler",
+          "site_rva": 917585,
+          "symbol_va": 269247782,
+          "addend": 0,
+          "target_va": 269247782,
+          "kind": 20
+        }
+      ],
+      "sha256": "43b4cc0a40caad145bdfc214e40dc7099ab2a46ded3fa815d1a9393fb7054d00",
+      "object_sha256": "e54da0fddcb38b9b1b1586dcdaa40b707eb3bb41cfe1a266b809fe9056bbbb08",
+      "whole_section": true
+    },
+    {
+      "unit": "closure_local_player_say",
+      "anchor": "$T95045",
+      "anchor_offset": 8,
+      "rva": 1013768,
+      "size": 36,
+      "section": 52,
+      "kind": "data",
+      "duplicate_previous": false,
+      "bindings": [
+        {
+          "symbol": "$L95031",
+          "site_rva": 1013772,
+          "symbol_va": 269353024,
+          "addend": 0,
+          "target_va": 269353024,
+          "kind": 6
+        },
+        {
+          "symbol": "$T95049",
+          "site_rva": 1013784,
+          "symbol_va": 269449224,
+          "addend": 0,
+          "target_va": 269449224,
+          "kind": 6
+        }
+      ],
+      "sha256": "91da26b0151789c0a3a0e21046950ac22f0278ab726e511067ca133966281a72",
+      "object_sha256": "e54da0fddcb38b9b1b1586dcdaa40b707eb3bb41cfe1a266b809fe9056bbbb08",
+      "whole_section": true
+    },
+    {
+      "unit": "closure_store_quit_start_tick",
+      "anchor": "?dwStartQuitTick@@3KA",
+      "anchor_offset": 0,
+      "rva": 2550580,
+      "size": 4,
+      "section": 3,
+      "kind": "data",
+      "duplicate_previous": false,
+      "bindings": [],
+      "sha256": "df3f619804a92fdb4057192dc43dd748ea778adc52bc498ce80524c014b81119",
+      "object_sha256": "8e2c88e91c23bd28a5fcda46e4683b966a9afc77a12013328c5d07a41875cc47",
+      "whole_section": true
+    },
+    {
+      "unit": "closure_store_game_debug_type",
+      "anchor": "?iGameDebugType@@3HA",
+      "anchor_offset": 0,
+      "rva": 1376080,
+      "size": 4,
+      "section": 3,
+      "kind": "data",
+      "duplicate_previous": false,
+      "bindings": [],
+      "sha256": "df3f619804a92fdb4057192dc43dd748ea778adc52bc498ce80524c014b81119",
+      "object_sha256": "d256865a4a9f1fa7c6a9ca8610267a041a5b008311acdd1b7ed061f0bf071122",
+      "whole_section": true
+    },
+    {
+      "unit": "closure_store_game_debug_entity1",
+      "anchor": "?dwDebugEntity1@@3KA",
+      "anchor_offset": 0,
+      "rva": 1376084,
+      "size": 4,
+      "section": 3,
+      "kind": "data",
+      "duplicate_previous": false,
+      "bindings": [],
+      "sha256": "df3f619804a92fdb4057192dc43dd748ea778adc52bc498ce80524c014b81119",
+      "object_sha256": "e2d9ca921ea65829908dfb1f0be6f24321783658e63633302ad2b3e5987a974f",
+      "whole_section": true
+    },
+    {
+      "unit": "closure_store_game_debug_entity2",
+      "anchor": "?dwDebugEntity2@@3KA",
+      "anchor_offset": 0,
+      "rva": 1376088,
+      "size": 4,
+      "section": 3,
+      "kind": "data",
+      "duplicate_previous": false,
+      "bindings": [],
+      "sha256": "df3f619804a92fdb4057192dc43dd748ea778adc52bc498ce80524c014b81119",
+      "object_sha256": "bcb37594bf507aff1b882c29e682a9b6e5de7c9074582883b08adf1102f74fdd",
+      "whole_section": true
+    },
+    {
+      "unit": "closure_store_rpc_chat",
+      "anchor": "?r5RpcChat@@3HB",
+      "anchor_offset": 0,
+      "rva": 940268,
+      "size": 4,
+      "section": 3,
+      "kind": "data",
+      "duplicate_previous": false,
+      "bindings": [],
+      "sha256": "8fc6cb4a9816d75621652de783118eee13112cda196e61d1bde0460f29b26e3e",
+      "object_sha256": "43ce7b94ca96cda933b14a58d9bf4c9449f43316251e50d8bd7de3a844b6ce7c",
+      "whole_section": true
+    },
+    {
+      "unit": "closure_cmd_registration_leaves",
+      "anchor": "??_C@_09CIOLHJHI@Pooper333?$AA@",
+      "anchor_offset": 0,
+      "rva": 957940,
+      "size": 10,
+      "section": 55,
+      "kind": "data",
+      "duplicate_previous": false,
+      "bindings": [],
+      "sha256": "48f5f1dae4bf4089b3b6c1caedec9de5b2a8f8717c4c7352ae062ba6f525e75d",
+      "object_sha256": "2696a84277e9a41e88ca86b6c2f93ecc8a3e0a67827c2095c0df413f7f22d56f",
+      "whole_section": true
+    },
+    {
+      "unit": "closure_cmd_registration_leaves",
+      "anchor": "??_C@_06JLKMCGAG@Pooper?$AA@",
+      "anchor_offset": 0,
+      "rva": 957932,
+      "size": 7,
+      "section": 54,
+      "kind": "data",
+      "duplicate_previous": false,
+      "bindings": [],
+      "sha256": "fe2b6c22a0c8a4158ff8553baf1c365f658322080c2434dad0d06eda1f364b8c",
+      "object_sha256": "2696a84277e9a41e88ca86b6c2f93ecc8a3e0a67827c2095c0df413f7f22d56f",
+      "whole_section": true
+    },
+    {
+      "unit": "closure_cmd_registration_leaves",
+      "anchor": "??_C@_0BH@OPKANMGJ@PooperPooperPooper0001?$AA@",
+      "anchor_offset": 0,
+      "rva": 957908,
+      "size": 23,
+      "section": 53,
+      "kind": "data",
+      "duplicate_previous": false,
+      "bindings": [],
+      "sha256": "5fa12f25a93b725450dc9a0dbdb0edb32bb99c135fd64584a318f76f2862667b",
+      "object_sha256": "2696a84277e9a41e88ca86b6c2f93ecc8a3e0a67827c2095c0df413f7f22d56f",
+      "whole_section": true
+    },
+    {
+      "unit": "closure_store_death_window",
+      "anchor": "?pDeathWindow@@3PAVCDeathWindow@@A",
+      "anchor_offset": 0,
+      "rva": 2550664,
+      "size": 4,
+      "section": 3,
+      "kind": "data",
+      "whole_section": true,
+      "initial_bytes": "00000000",
+      "bindings": [],
+      "sha256": "df3f619804a92fdb4057192dc43dd748ea778adc52bc498ce80524c014b81119",
+      "object_sha256": "0c1a7082bb4ce838b5522dc25ce3fd467b0b96b1d8595ce3d672dd32155a9caf",
+      "object_run": "cp32-death-window-store-trial1"
+    }
+  ],
+  "required_store": {
+    "unit": "closure_store_death_window",
+    "anchor": "?pDeathWindow@@3PAVCDeathWindow@@A",
+    "rva": 2550664,
+    "size": 4,
+    "initial": 0,
+    "accepted": false,
+    "compiled_and_verified": true
+  },
+  "excluded": [
+    "Unused inline helpers not credited.",
+    "SetupCommands593 and remaining font dependency not included."
+  ],
+  "source_files": {
+    "client/saco/closure_cmd_registration_leaves.cpp": "8379324a9f861a525c75a253ea216502a1fb8798614935a0d8212a57f5ff23bb",
+    "client/saco/closure_game_quit.cpp": "a24dba02b9b831a6809d45e776e983e26551ba239169c37c7664201bde31c337",
+    "client/saco/closure_local_player_say.cpp": "aaf1480d64b5f5ba6e4f1ca3655ac5820f27d15fadc1caebb2538b0ca0f4cf5f",
+    "client/saco/closure_game_debug_entity.cpp": "500bb7626bd3c16616d2f334cfd3739757f46641b01ee531fa312c7b53c6297e",
+    "client/saco/closure_store_quit_start_tick.cpp": "0bfe5c37131013302b38baec82c8810c65b63b3fa7bac7d812a08b5a83e14999",
+    "client/saco/closure_store_game_debug_type.cpp": "bc0842d9520ad581e75a3b7c549699bf971fad753b30a10403d2a07cb97bcb7a",
+    "client/saco/closure_store_game_debug_entity1.cpp": "fcdf68ca2db4ce8f3fd6e3f4d2b808cd1fedceae6d8cf8f9239094010a9704e4",
+    "client/saco/closure_store_game_debug_entity2.cpp": "ff57f42ac7f791639bb3067cd60977cb22cb966bb79eb20cc7c91f2379903946",
+    "client/saco/closure_store_rpc_chat.cpp": "8fc9551e18d50dbc822e5ee2dad3c25ef27677f2f6ef04fe67f76c93730bf88c",
+    "client/saco/closure_store_death_window.cpp": "66bded2485700405fd8dd6c4bddfce354c9e83840b65253811ab7408e112a0e3"
+  }
+}

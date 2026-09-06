@@ -16,7 +16,7 @@ CHAR					szCacheDir[MAX_PATH+1];
 CConfig					*pConfig=0;
 CChatWindow				*pChatWindow=0;
 CCmdWindow				*pCmdWindow=0;
-CDeathWindow			*pDeathWindow=0;
+extern CDeathWindow		*pDeathWindow;
 CAudioStream			*pAudioStream=0;
 CSpawnScreen			*pSpawnScreen=0;
 CNetGame				*pNetGame=0;
@@ -28,8 +28,8 @@ CUnkClass15				*pUnkClass15=0;
 
 BOOL					bGameInited=FALSE;
 
-BOOL					bQuitGame=FALSE;
-DWORD					dwStartQuitTick=0;
+extern BOOL				bQuitGame;
+extern DWORD			dwStartQuitTick;
 
 WORD					wVehicleComponentDebug=0;
 

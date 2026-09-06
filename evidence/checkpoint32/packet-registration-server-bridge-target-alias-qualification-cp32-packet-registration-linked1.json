@@ -1,0 +1,59 @@
+{
+  "status": "FINAL_LINK_BRIDGE_AND_ALIASES_QUALIFIED",
+  "run": "build/cp32-packet-registration-linked1",
+  "dll_sha256": "61d18be9e9895f931bcd6743fd97ec22903695d3df9737b4253c53ec624dd4a1",
+  "map_sha256": "a17738c226a867e2bbd2983704cee4411fd831b6965c419e6a74f044b8ea1850",
+  "object_sha256": "f109cded01304c5967871b399456a7b2b3d11ad99f0d4fbe0f99195e74c54824",
+  "bridge": {
+    "original_rva": 275888,
+    "linked_rva": 257808,
+    "size": 8,
+    "whole_bytes_equal_after_true_rel32": true,
+    "actual_target_va": 268692752,
+    "original_target_rva": 275056
+  },
+  "aliases": [
+    {
+      "alias": "_r5_RakServer_InternalID_target_assembly_only",
+      "provider": "?GetInternalID@RakServer@@UBE?AUPlayerID@@XZ",
+      "directive_present": true,
+      "provider_map": {
+        "symbol": "?GetInternalID@RakServer@@UBE?AUPlayerID@@XZ",
+        "va": 268692752,
+        "owner": "f   closure_vendor_rakserver_internal_id.obj"
+      },
+      "alias_map": {
+        "symbol": "_r5_RakServer_InternalID_target_assembly_only",
+        "va": 268692752,
+        "owner": "f   closure_vendor_rakserver_internal_id.obj"
+      },
+      "status": "MATERIALIZED_SAME_MAP_ADDRESS",
+      "actual_bridge_branch_proves_target": true
+    }
+  ],
+  "getter": {
+    "linked_rva": 257296,
+    "whole_size": 20,
+    "complete_coff_comparison": true,
+    "bindings": [
+      {
+        "symbol": "?GetInternalID@RakPeer@@UBE?AUPlayerID@@XZ",
+        "offset": 10,
+        "kind": 20,
+        "provider_map": {
+          "symbol": "?GetInternalID@RakPeer@@UBE?AUPlayerID@@XZ",
+          "va": 268692688,
+          "owner": "f   closure_vendor_rakpeer_internal_id.obj"
+        }
+      }
+    ]
+  },
+  "abi": "ECX minus4, stack and return address untouched; hidden PlayerID6 result pointer preserved, real getter performs ret4.",
+  "original_slot": {
+    "table_rva": 954416,
+    "slot": 39,
+    "site_rva": 954572,
+    "target_rva": 275888
+  },
+  "extra_credit": 0
+}

@@ -2457,3 +2457,27 @@ EXPORTS
     ?GetAnyPlayerIDFromIndex@RakPeer@@QAE?AUPlayerID@@H@Z
     ?GetPlayerIDFromIndex@RakPeer@@UAE?AUPlayerID@@H@Z
     ?GetConnectionList@RakPeer@@UBE_NPAUPlayerID@@PAG@Z
+    ?Receive@RakPeer@@UAEPAUPacket@@XZ
+    ?HandleRPCPacket@RakPeer@@IAE_NPBDHUPlayerID@@@Z
+    ?ReceiveIgnoreRPC@RakPeer@@IAEPAUPacket@@XZ
+    ?HandleRPCReplyPacket@RakPeer@@IAEXPBDHUPlayerID@@@Z
+    ?Push@?$Queue@PAUPacket@@@DataStructures@@QAEXABQAUPacket@@@Z
+    ?ReadUnlock@?$SingleProducerConsumer@PAUPacket@@@DataStructures@@QAEXXZ
+    ?ReadLock@?$SingleProducerConsumer@PAUPacket@@@DataStructures@@QAEPAPAUPacket@@XZ
+    ?Send@RakPeer@@UAE_NPAVBitStream@RakNet@@W4PacketPriority@@W4PacketReliability@@DUPlayerID@@_N@Z
+    ?SendBuffered@RakPeer@@IAEXPBDHW4PacketPriority@@W4PacketReliability@@DUPlayerID@@_NW4ConnectMode@RemoteSystemStruct@1@@Z
+    ?WriteUnlock@?$SingleProducerConsumer@UBufferedCommandStruct@RakPeer@@@DataStructures@@QAEXXZ
+    ?WriteLock@?$SingleProducerConsumer@UBufferedCommandStruct@RakPeer@@@DataStructures@@QAEPAUBufferedCommandStruct@RakPeer@@XZ
+    ?Send@RakPeer@@UAE_NPBDHW4PacketPriority@@W4PacketReliability@@DUPlayerID@@_N@Z
+    ?PushBackPacket@RakPeer@@UAEXPAUPacket@@_N@Z
+    ?PushAtHead@?$Queue@PAUPacket@@@DataStructures@@QAEXABQAUPacket@@I@Z
+    ?RegisterClassMemberRPC@RakPeer@@UAEXPADPAX@Z
+    ?RegisterAsRemoteProcedureCall@RakPeer@@UAEXPADP6AXPAURPCParameters@@@Z@Z
+    ?DeallocatePacket@RakPeer@@UAEXPAUPacket@@@Z
+    ?cmdDefaultCmdProc@@YAXPAD@Z
+    ?cmdTestDeathWindow@@YAXPAD@Z
+    ?cmdQuit@@YAXPAD@Z
+    ?cmdSelectVehicle@@YAXPAD@Z
+    ?QuitGame@@YAXXZ
+    ?Say@CLocalPlayer@@QAEXPAD@Z
+    ?GameDebugEntity@@YAXKKH@Z

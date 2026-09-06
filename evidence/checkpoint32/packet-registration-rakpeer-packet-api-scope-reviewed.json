@@ -1,0 +1,299 @@
+{
+  "status": "PASS_FRESH_CALLBACK_SCOPE_AND_ALLOCATIONS",
+  "baseline": 384120,
+  "run": "build/cp32-packet-api-trial1",
+  "new_unique_code": 2342,
+  "already_covered_code": 23,
+  "complete_types": {
+    "Packet": {
+      "size": 21,
+      "playerIndex": 0,
+      "playerId": 2,
+      "length": 8,
+      "bitSize": 12,
+      "data": 16,
+      "deleteData": 20
+    },
+    "RPCParameters": {
+      "size": 22,
+      "input": 0,
+      "numberOfBitsOfData": 4,
+      "sender": 8,
+      "recipient": 14,
+      "replyToSender": 18
+    },
+    "RPCNode": {
+      "size": 6,
+      "functionPointer": 1
+    },
+    "BufferedCommandStruct": {
+      "size": 41,
+      "numberOfBitsToSend": 0,
+      "priority": 4,
+      "reliability": 8,
+      "orderingChannel": 12,
+      "playerId": 13,
+      "broadcast": 19,
+      "connectionMode": 20,
+      "networkID": 24,
+      "blockingCommand": 32,
+      "data": 33,
+      "command": 37
+    },
+    "SingleProducerConsumerNode_BufferedCommand": {
+      "size": 46
+    },
+    "SingleProducerConsumerNode_PacketPointer": {
+      "size": 9
+    }
+  },
+  "callbacks": [
+    {
+      "site_rva": 241337,
+      "method": "RPCNode.staticFunctionPointer",
+      "abi": "cdecl RPCParameters*",
+      "slot_or_field_offset": 1,
+      "concrete_callback_code_credit": 0
+    },
+    {
+      "site_rva": 241453,
+      "method": "RPCNode.staticFunctionPointer",
+      "abi": "cdecl RPCParameters*",
+      "slot_or_field_offset": 1,
+      "concrete_callback_code_credit": 0
+    },
+    {
+      "site_rva": 246582,
+      "method": "RakPeerInterface.GetIndexFromPlayerID",
+      "abi": "thiscall",
+      "slot_or_field_offset": 92,
+      "concrete_callback_code_credit": 0
+    },
+    {
+      "site_rva": 246642,
+      "method": "RouterInterface.Send",
+      "abi": "thiscall",
+      "slot_or_field_offset": 0,
+      "concrete_callback_code_credit": 0
+    },
+    {
+      "site_rva": 246849,
+      "method": "RakPeerInterface.GetIndexFromPlayerID",
+      "abi": "thiscall",
+      "slot_or_field_offset": 92,
+      "concrete_callback_code_credit": 0
+    },
+    {
+      "site_rva": 246907,
+      "method": "RouterInterface.Send",
+      "abi": "thiscall",
+      "slot_or_field_offset": 0,
+      "concrete_callback_code_credit": 0
+    },
+    {
+      "site_rva": 264345,
+      "method": "RakPeerInterface.IsActive",
+      "abi": "thiscall",
+      "slot_or_field_offset": 40,
+      "concrete_callback_code_credit": 0
+    },
+    {
+      "site_rva": 264380,
+      "method": "PluginInterface.Update",
+      "abi": "thiscall plugin; borrowed primary RakPeerInterface*",
+      "slot_or_field_offset": 12,
+      "concrete_callback_code_credit": 0
+    },
+    {
+      "site_rva": 264622,
+      "method": "RakPeerInterface.DeallocatePacket",
+      "abi": "thiscall",
+      "slot_or_field_offset": 60,
+      "concrete_callback_code_credit": 0
+    },
+    {
+      "site_rva": 264655,
+      "method": "PluginInterface.OnReceive",
+      "abi": "thiscall plugin; borrowed primary peer and Packet*",
+      "slot_or_field_offset": 16,
+      "concrete_callback_code_credit": 0
+    },
+    {
+      "site_rva": 266290,
+      "method": "RakPeerInterface.DeallocatePacket",
+      "abi": "thiscall",
+      "slot_or_field_offset": 60,
+      "concrete_callback_code_credit": 0
+    }
+  ],
+  "accepted_providers": [
+    {
+      "symbol": "??9PlayerID@@QBE_NABU0@@Z",
+      "rva": 210704,
+      "owners": [
+        "closure_vendor_network_id_comparisons"
+      ]
+    },
+    {
+      "symbol": "??0BitStream@RakNet@@QAE@PAEI_N@Z",
+      "rva": 128960,
+      "owners": [
+        "closure_cmd_bitstream"
+      ]
+    },
+    {
+      "symbol": "?IgnoreBits@BitStream@RakNet@@QAEXH@Z",
+      "rva": 130288,
+      "owners": [
+        "closure_cmd_bitstream"
+      ]
+    },
+    {
+      "symbol": "?ReadBits@BitStream@RakNet@@QAE_NPAEH_N@Z",
+      "rva": 129456,
+      "owners": [
+        "closure_cmd_bitstream"
+      ]
+    },
+    {
+      "symbol": "?GetIndexFromFunctionName@RPCMap@@QAEEE@Z",
+      "rva": 333472,
+      "owners": [
+        "eval_vendor_rpc_map"
+      ]
+    },
+    {
+      "symbol": "?ReadCompressed@BitStream@RakNet@@AAE_NPAEH_N@Z",
+      "rva": 129648,
+      "owners": [
+        "closure_cmd_bitstream"
+      ]
+    },
+    {
+      "symbol": "?GetNodeFromIndex@RPCMap@@QAEPAURPCNode@@E@Z",
+      "rva": 333440,
+      "owners": [
+        "eval_vendor_rpc_map"
+      ]
+    },
+    {
+      "symbol": "__alloca_probe",
+      "rva": 818864,
+      "existing_boundary": "crt"
+    },
+    {
+      "symbol": "??2@YAPAXI@Z",
+      "rva": 811642,
+      "existing_boundary": "crt"
+    },
+    {
+      "symbol": "??1BitStream@RakNet@@QAE@XZ",
+      "rva": 129232,
+      "owners": [
+        "closure_cmd_bitstream"
+      ]
+    },
+    {
+      "symbol": "??3@YAXPAX@Z",
+      "rva": 812170,
+      "existing_boundary": "crt"
+    },
+    {
+      "symbol": "?ShiftIncomingTimestamp@RakPeer@@IBEXPAEUPlayerID@@@Z",
+      "rva": 256944,
+      "owners": [
+        "eval_vendor_rakpeer_remote_state"
+      ]
+    },
+    {
+      "symbol": "??8PlayerID@@QBE_NABU0@@Z",
+      "rva": 210656,
+      "owners": [
+        "closure_vendor_network_id_comparisons"
+      ]
+    },
+    {
+      "symbol": "?Write@BitStream@RakNet@@QAEXPBDH@Z",
+      "rva": 131216,
+      "owners": [
+        "closure_cmd_bitstream"
+      ]
+    },
+    {
+      "symbol": "?AddIdentifierWithFunction@RPCMap@@QAEXEPAX_N@Z",
+      "rva": 333488,
+      "owners": [
+        "eval_vendor_rpc_map"
+      ]
+    },
+    {
+      "symbol": "_free",
+      "rva": 813629,
+      "existing_boundary": "crt"
+    },
+    {
+      "symbol": "___CxxFrameHandler",
+      "rva": 812326,
+      "existing_boundary": "crt"
+    }
+  ],
+  "lifetime": [
+    "Source uses complete actual types, no RakPeer allocation.",
+    "SendBuffered copies BITS_TO_BYTES payload, commits whole typed node; command is not executed in this batch.",
+    "Packet data original scalar deletion and deleteData ownership flag preserved.",
+    "RPC alloca/heap threshold and failure cleanup behavior preserved; RPCParameters.replyToSender left uninitialized exactly as source.",
+    "No concrete plugin/router/RPC callback body is counted.",
+    "Primary RakPeerInterface this adjustment is zero."
+  ],
+  "emitted_existing_copy": {
+    "symbol": "?GetWriteOffset@BitStream@RakNet@@QBEHXZ",
+    "rva": 128800,
+    "size": 3,
+    "whole_comparison": true,
+    "owner_retained": true,
+    "new_credit": 0
+  },
+  "source025_direct_credit": 0,
+  "source_snapshots": [
+    {
+      "path": "build/cp32-packet-api-trial1/vendor/upstream/raknet/RakPeer.h",
+      "sha256": "3c462fd303bd7a7becc91f1b4e2752cff3656a2eec2a65afc0c15816c0902d75",
+      "same_active_source": true
+    },
+    {
+      "path": "build/cp32-packet-api-trial1/vendor/upstream/raknet/RakNetDefines.h",
+      "sha256": "6455724f22403506da42e67a96d4e8f76fb5502770844f32396cf39b4f8d47a1",
+      "same_active_source": true
+    },
+    {
+      "path": "build/cp32-packet-api-trial1/vendor/upstream/raknet/NetworkTypes.h",
+      "sha256": "026005dc438fa4777babf8c0c855e1ace7323414137b147b38cd97e24daec83f",
+      "same_active_source": true
+    },
+    {
+      "path": "build/cp32-packet-api-trial1/vendor/upstream/raknet/RPCNode.h",
+      "sha256": "47f7f16f7c7a8da4259cc96a49e90ac121872affdd10f1ca8b9f240309e53dc3",
+      "same_active_source": true
+    },
+    {
+      "path": "build/cp32-packet-api-trial1/vendor/upstream/raknet/PluginInterface.h",
+      "sha256": "cb6ae0bf1f71ad66e6820d5d634720f98e52955960cb87d486826f0a5ec9eb66",
+      "same_active_source": true
+    },
+    {
+      "path": "build/cp32-packet-api-trial1/vendor/upstream/raknet/RouterInterface.h",
+      "sha256": "bfd3de6e95b617b900f0da76f253be631f5e8f74cf2eab76dc657e8957f349a4",
+      "same_active_source": true
+    },
+    {
+      "path": "build/cp32-packet-api-trial1/vendor/upstream/raknet/SingleProducerConsumer.h",
+      "sha256": "4ec3e22b6b50fcd05dfdf419aebd69b891990de949f88079f9bd17f5ea1e5421",
+      "same_active_source": true
+    },
+    {
+      "path": "build/cp32-packet-api-trial1/vendor/upstream/raknet/DS_Queue.h",
+      "sha256": "79c74bb7b17c676157c51ba98ffa7c1337e82a084762942b06eb8193ff76a274",
+      "same_active_source": true
+    }
+  ]
+}

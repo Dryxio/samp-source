@@ -1,0 +1,59 @@
+{
+  "status": "PASS_TRUE_RAKNET_COMMAND_PARSER_DELETING_ALIAS",
+  "run": "build/cp32-packet-registration-linked1",
+  "object_sha256": {
+    "eval_vendor_raknet_command_parser": "46df69d8be8cd546378bb3cac35e613826ee76ea25b33d33e1d7a97664c8c892"
+  },
+  "dll_sha256": "61d18be9e9895f931bcd6743fd97ec22903695d3df9737b4253c53ec624dd4a1",
+  "map_sha256": "a17738c226a867e2bbd2983704cee4411fd831b6965c419e6a74f044b8ea1850",
+  "aliases": [
+    {
+      "weak": "??_ERakNetCommandParser@@UAEPAXI@Z",
+      "canonical": "??_GRakNetCommandParser@@UAEPAXI@Z",
+      "table": "??_7RakNetCommandParser@@6B@",
+      "source_storage": 105,
+      "source_undefined": true,
+      "actual_aux_fallback": true,
+      "canonical_va": 268820384,
+      "alias_va": 268820384,
+      "owner": "eval_vendor_raknet_command_parser.obj",
+      "full_code": [
+        {
+          "image": "original",
+          "rva": 222704,
+          "size": 30,
+          "sha256": "c34f0b4ccdbdb0a09afda5e2266eb4b7abf436e006c0a5337d5118be1c8dd253",
+          "whole_bytes_equal": true,
+          "all_fixups_and_PE_relocations_equal": true
+        },
+        {
+          "image": "linked",
+          "rva": 384928,
+          "size": 30,
+          "sha256": "b6fe57d90eb4f45bb47fa6b62c2ba367ce3796d58ca169c2b9c27d8552938cfa",
+          "whole_bytes_equal": true,
+          "all_fixups_and_PE_relocations_equal": true
+        }
+      ],
+      "full_vft": [
+        {
+          "image": "original",
+          "rva": 949936,
+          "size": 60,
+          "sha256": "bc25f1f495d349ce73330ffed0b2115da9b596e78bc7f035d1f07761e5061433",
+          "whole_bytes_equal": true,
+          "all_fixups_and_PE_relocations_equal": true
+        },
+        {
+          "image": "linked",
+          "rva": 510808,
+          "size": 60,
+          "sha256": "e94828c8197891c01dae2dd0e98703f34526a1a720ae1eb81be34456538bb22d",
+          "whole_bytes_equal": true,
+          "all_fixups_and_PE_relocations_equal": true
+        }
+      ]
+    }
+  ],
+  "extra_code_credit": 0
+}

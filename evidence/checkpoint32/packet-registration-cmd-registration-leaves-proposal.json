@@ -1,0 +1,106 @@
+{
+  "status": "UNCOMPILED_NORMAL_CPP",
+  "baseline": 381304,
+  "potential_principal": 558,
+  "EH_potential": 21,
+  "total_potential": 579,
+  "functions": [
+    {
+      "unit": "closure_cmd_registration_leaves",
+      "name": "cmdDefaultCmdProc",
+      "rva": 427232,
+      "size": 32,
+      "sha256": "f04d41a5d93ebcc8aa0ca89e46d2586b72ba4e54634578a472fa15a7eea33016"
+    },
+    {
+      "unit": "closure_cmd_registration_leaves",
+      "name": "cmdTestDeathWindow",
+      "rva": 427264,
+      "size": 222,
+      "sha256": "1fbec565b75d327b0c288e836f6041cae5b27ab65993066c235099f84de53e96"
+    },
+    {
+      "unit": "closure_cmd_registration_leaves",
+      "name": "cmdQuit",
+      "rva": 428512,
+      "size": 5,
+      "sha256": "f6559bef4fae02f525eb08a8b9ab9bbc74fe09fb5b51415ee38d3a9487816062"
+    },
+    {
+      "unit": "closure_cmd_registration_leaves",
+      "name": "cmdSelectVehicle",
+      "rva": 429744,
+      "size": 24,
+      "sha256": "4c586f0c1ac3087c653af7a504c133e64078a6ed0514817bf9280696d19b0ad1"
+    },
+    {
+      "unit": "closure_game_quit",
+      "name": "QuitGame",
+      "rva": 802432,
+      "size": 54,
+      "sha256": "56ef21e035df3ca762150ecd37902095e96636a6ebf12d9e2ca48fde0ba01a45"
+    },
+    {
+      "unit": "closure_local_player_say",
+      "name": "CLocalPlayer::Say",
+      "rva": 23056,
+      "size": 191,
+      "sha256": "dba91e44a35bf0284c83e056ac7066b2170148cc55a29dbe5976f9435fc308d7"
+    },
+    {
+      "unit": "closure_game_debug_entity",
+      "name": "GameDebugEntity",
+      "rva": 647328,
+      "size": 30,
+      "sha256": "ad57f4f14b36f772ea840a22a7b1df8963ff65c473a5163f6ad36233432ee3db"
+    }
+  ],
+  "direct025_possible": 54,
+  "direct025_functions": [
+    "cmdSelectVehicle24",
+    "GameDebugEntity30"
+  ],
+  "hybrid025": "Say191 adapts actualR5 six-argument RPC interface;0direct",
+  "stores": [
+    {
+      "unit": "closure_store_quit_start_tick",
+      "rva": 2550580,
+      "size": 4,
+      "initial": 0
+    },
+    {
+      "unit": "closure_store_game_debug_type",
+      "rva": 1376080,
+      "size": 4,
+      "initial": 0
+    },
+    {
+      "unit": "closure_store_game_debug_entity1",
+      "rva": 1376084,
+      "size": 4,
+      "initial": 0
+    },
+    {
+      "unit": "closure_store_game_debug_entity2",
+      "rva": 1376088,
+      "size": 4,
+      "initial": 0
+    },
+    {
+      "unit": "closure_store_rpc_chat",
+      "rva": 940268,
+      "size": 4,
+      "initial": 101
+    }
+  ],
+  "ownership": [
+    "bQuitGame already accepted26EB30/4 closure_store_object_quit, reuse. Main.cpp olddefinition must becomeextern, no newstore.",
+    "dwStartQuitTick main.cpp olddefinition must becomeextern after newwholeowner verified.",
+    "No newclass or allocation. FullactualexistingCLocalPlayer,CNetGame,BitStream and CDeathWindow methods used."
+  ],
+  "RPC": "Say uses actual RPC slot64 with scalar101E58EC, HIGH_PRIORITY1 RELIABLE8 channel0 false; actualByte length truncation retained.",
+  "blocked_remaining": [
+    "FontSize164/privatechatmethod plus UpdateUIFonts106\u2192applicationlayout214 not yetproposed.",
+    "SetupCommands593 must notcount until all handlers closed."
+  ]
+}

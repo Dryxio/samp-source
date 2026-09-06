@@ -1494,3 +1494,6 @@ Direct025+0/cumulative22268; adapted commands/factory are hybrid, vendor already
 
 
 RakPeer remote state/RPCMap/reliability setters: +2816 unique accepted code bytes, total384120/930756 (41.269678%).38 new whole regions, all4797 previous preserved. Actual RPCNode6 allocation and full RPCMap1024, whole static POD296 statistics and original3177 remote stride. Entire original/linked COFF/PE, true providers/aliases, ten negative controls and Actor ABI PASS. Prior956 code excluded. No data/CRT/unimplemented virtual dependency credit. Direct025+0/cumulative22268; source already present in vendor base. 15934.3 bytes/hour including coordination and failures. Command leaves next; goal active, no push/deploy.
+
+
+Packet API2342 and command registration579: +2921 unique accepted code bytes, total387041/930756 (41.583508%).38 new whole regions, all4835 previous preserved. Real typed queues and callbacks, full original/linked code/data/EH and all COFF/PE targets; ten negative controls and Actor ABI PASS. Whole death/quit/debug/RPC stores, explicit main owner transfers. No duplicate/CRT/data or concrete callback implementation credit. Direct025+54/cumulative22322 via complete SelectVehicle24/GameDebugEntity30; Say191 hybrid0. 15977.8 bytes/hour including coordination/failures. FontSize/UI initialization dependencies next; goal active, no push/deploy.
