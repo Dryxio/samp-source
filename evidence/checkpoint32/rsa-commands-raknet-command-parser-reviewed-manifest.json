@@ -1,0 +1,2536 @@
+{
+  "status": "REVIEWED_MAIN_SEEDS_AND_WHOLE_EH_BINDINGS_PREFLIGHT",
+  "run": "build/cp32-rsa-commands-ob1-v2",
+  "roots": {
+    "??0RakNetCommandParser@@QAE@XZ": 217616,
+    "?SetRakPeerInterface@RakNetCommandParser@@QAEXPAVRakPeerInterface@@@Z": 218432,
+    "?OnCommand@RakNetCommandParser@@UAE_NPBDIPAPADPAVTransportInterface@@UPlayerID@@0@Z": 218448,
+    "?SendHelp@RakNetCommandParser@@UAEXPAVTransportInterface@@UPlayerID@@@Z": 222544,
+    "??_GRakNetCommandParser@@UAEPAXI@Z": 222704,
+    "?GetName@RakNetCommandParser@@UBEPADXZ": 222528
+  },
+  "seeds": {
+    "eval_vendor_raknet_command_parser": {
+      "?GetName@RakNetCommandParser@@UBEPADXZ": 222528,
+      "??_GRakNetCommandParser@@UAEPAXI@Z": 222704,
+      "??1RakNetCommandParser@@UAE@XZ": 218416,
+      "?SendHelp@RakNetCommandParser@@UAEXPAVTransportInterface@@UPlayerID@@@Z": 222544,
+      "?OnCommand@RakNetCommandParser@@UAE_NPBDIPAPADPAVTransportInterface@@UPlayerID@@0@Z": 218448,
+      "?SetRakPeerInterface@RakNetCommandParser@@QAEXPAVRakPeerInterface@@@Z": 218432,
+      "??0RakNetCommandParser@@QAE@XZ": 217616
+    }
+  },
+  "regions": [
+    {
+      "unit": "eval_vendor_raknet_command_parser",
+      "section": 86,
+      "rva": 222528,
+      "size": 6,
+      "kind": ".text",
+      "sha256": "c5120ae24779be2e272192ffe73ce4faa9d355732747c2a051a3d836542477be",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "??_C@_06IFBHNIIL@RakNet?$AA@",
+          "site_rva": 222529,
+          "target_va": 269385792,
+          "kind": 6
+        }
+      ]
+    },
+    {
+      "unit": "eval_vendor_raknet_command_parser",
+      "section": 95,
+      "rva": 222704,
+      "size": 30,
+      "kind": ".text",
+      "sha256": "c34f0b4ccdbdb0a09afda5e2266eb4b7abf436e006c0a5337d5118be1c8dd253",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "??1RakNetCommandParser@@UAE@XZ",
+          "site_rva": 222708,
+          "target_va": 268653872,
+          "kind": 20
+        },
+        {
+          "symbol": "??3@YAXPAX@Z",
+          "site_rva": 222721,
+          "target_va": 269247626,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "eval_vendor_raknet_command_parser",
+      "section": 74,
+      "rva": 218416,
+      "size": 11,
+      "kind": ".text",
+      "sha256": "e63976843630396816073ccc3e5f3deacd5074fd17e313e3f1e74d421c4ed36b",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "??_7RakNetCommandParser@@6B@",
+          "site_rva": 218418,
+          "target_va": 269385392,
+          "kind": 6
+        },
+        {
+          "symbol": "??1CommandParserInterface@@UAE@XZ",
+          "site_rva": 218423,
+          "target_va": 268569136,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "eval_vendor_raknet_command_parser",
+      "section": 89,
+      "rva": 222544,
+      "size": 148,
+      "kind": ".text",
+      "sha256": "55234580348a73db64d0b712b52456b1f8189e21294d30c93b8305cd68a3fa36",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "??_C@_0DJ@IKKKFOCF@The?5RakNet?5parser?5provides?5mirro@",
+          "site_rva": 222570,
+          "target_va": 269385940,
+          "kind": 6
+        },
+        {
+          "symbol": "??_C@_0DO@EIJLHEFL@PlayerIDs?5take?5two?5parameters?3?5s@",
+          "site_rva": 222595,
+          "target_va": 269385876,
+          "kind": 6
+        },
+        {
+          "symbol": "??_C@_0BJ@BAHHPHPK@For?5bool?0?5send?51?5or?50?4?$AN?6?$AA@",
+          "site_rva": 222620,
+          "target_va": 269385848,
+          "kind": 6
+        },
+        {
+          "symbol": "??_C@_0DA@LBMNAFLL@Parser?5not?5active?4?5?5Call?5SetRakP@",
+          "site_rva": 222659,
+          "target_va": 269385800,
+          "kind": 6
+        }
+      ]
+    },
+    {
+      "unit": "eval_vendor_raknet_command_parser",
+      "section": 78,
+      "rva": 218448,
+      "size": 4079,
+      "kind": ".text",
+      "sha256": "f1a1d621166dfe4d689205116dc126aed836fcd68842b28c6f82ad828d563f68",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "??_C@_0L@KIAPHAEH@Initialize?$AA@",
+          "site_rva": 218490,
+          "target_va": 269385452,
+          "kind": 6
+        },
+        {
+          "symbol": "_atoi",
+          "site_rva": 218565,
+          "target_va": 269249830,
+          "kind": 20
+        },
+        {
+          "symbol": "_atoi",
+          "site_rva": 218578,
+          "target_va": 269249830,
+          "kind": 20
+        },
+        {
+          "symbol": "_atoi",
+          "site_rva": 218590,
+          "target_va": 269249830,
+          "kind": 20
+        },
+        {
+          "symbol": "??_C@_0BD@CEGNGNCO@InitializeSecurity?$AA@",
+          "site_rva": 218626,
+          "target_va": 269385368,
+          "kind": 6
+        },
+        {
+          "symbol": "??_C@_0BA@GLBJOADB@DisableSecurity?$AA@",
+          "site_rva": 218713,
+          "target_va": 269385340,
+          "kind": 6
+        },
+        {
+          "symbol": "??_C@_0BO@KHLAAKGH@SetMaximumIncomingConnections?$AA@",
+          "site_rva": 218741,
+          "target_va": 269385272,
+          "kind": 6
+        },
+        {
+          "symbol": "_atoi",
+          "site_rva": 218774,
+          "target_va": 269249830,
+          "kind": 20
+        },
+        {
+          "symbol": "??_C@_0BO@CGNPLKEF@GetMaximumIncomingConnections?$AA@",
+          "site_rva": 218846,
+          "target_va": 269385224,
+          "kind": 6
+        },
+        {
+          "symbol": "??_C@_07FJPHLACI@Connect?$AA@",
+          "site_rva": 218933,
+          "target_va": 269385116,
+          "kind": 6
+        },
+        {
+          "symbol": "_atoi",
+          "site_rva": 219004,
+          "target_va": 269249830,
+          "kind": 20
+        },
+        {
+          "symbol": "_atoi",
+          "site_rva": 219021,
+          "target_va": 269249830,
+          "kind": 20
+        },
+        {
+          "symbol": "??_C@_0L@CMGJAGDM@Disconnect?$AA@",
+          "site_rva": 219060,
+          "target_va": 269385036,
+          "kind": 6
+        },
+        {
+          "symbol": "_atoi",
+          "site_rva": 219094,
+          "target_va": 269249830,
+          "kind": 20
+        },
+        {
+          "symbol": "_atoi",
+          "site_rva": 219106,
+          "target_va": 269249830,
+          "kind": 20
+        },
+        {
+          "symbol": "??_C@_08CHIOLOMB@IsActive?$AA@",
+          "site_rva": 219126,
+          "target_va": 269385024,
+          "kind": 6
+        },
+        {
+          "symbol": "??_C@_0BC@ILJDNENF@GetConnectionList?$AA@",
+          "site_rva": 219210,
+          "target_va": 269384992,
+          "kind": 6
+        },
+        {
+          "symbol": "??_C@_0DF@CCBLEPAE@GetConnectionList?$CI?$CJ?5returned?5no?5@",
+          "site_rva": 219290,
+          "target_va": 269385736,
+          "kind": 6
+        },
+        {
+          "symbol": "??_C@_0CA@FBLBOFOF@GetConnectionList?$CI?$CJ?5returned?3?$AN?6?$AA@",
+          "site_rva": 219353,
+          "target_va": 269385704,
+          "kind": 6
+        },
+        {
+          "symbol": "??_C@_0O@CJPBCGIF@?$CFi?5?$CFs?5?$CFi?3?$CFi?$AN?6?$AA@",
+          "site_rva": 219485,
+          "target_va": 269385688,
+          "kind": 6
+        },
+        {
+          "symbol": "??_C@_0CG@CPJOBPEE@GetConnectionList?$CI?$CJ?5returned?5fal@",
+          "site_rva": 219560,
+          "target_va": 269385648,
+          "kind": 6
+        },
+        {
+          "symbol": "??_C@_0BA@OFFOMIIA@CloseConnection?$AA@",
+          "site_rva": 219606,
+          "target_va": 269384880,
+          "kind": 6
+        },
+        {
+          "symbol": "_atoi",
+          "site_rva": 219635,
+          "target_va": 269249830,
+          "kind": 20
+        },
+        {
+          "symbol": "_atoi",
+          "site_rva": 219647,
+          "target_va": 269249830,
+          "kind": 20
+        },
+        {
+          "symbol": "?IntegersToPlayerID@CommandParserInterface@@IAE?AUPlayerID@@HH@Z",
+          "site_rva": 219663,
+          "target_va": 268567840,
+          "kind": 20
+        },
+        {
+          "symbol": "_atoi",
+          "site_rva": 219681,
+          "target_va": 269249830,
+          "kind": 20
+        },
+        {
+          "symbol": "_atoi",
+          "site_rva": 219694,
+          "target_va": 269249830,
+          "kind": 20
+        },
+        {
+          "symbol": "??_C@_0BF@DOAJNCJI@GetIndexFromPlayerID?$AA@",
+          "site_rva": 219740,
+          "target_va": 269384824,
+          "kind": 6
+        },
+        {
+          "symbol": "_atoi",
+          "site_rva": 219773,
+          "target_va": 269249830,
+          "kind": 20
+        },
+        {
+          "symbol": "_atoi",
+          "site_rva": 219785,
+          "target_va": 269249830,
+          "kind": 20
+        },
+        {
+          "symbol": "?IntegersToPlayerID@CommandParserInterface@@IAE?AUPlayerID@@HH@Z",
+          "site_rva": 219801,
+          "target_va": 268567840,
+          "kind": 20
+        },
+        {
+          "symbol": "??_C@_0BF@IHDMHLBB@GetPlayerIDFromIndex?$AA@",
+          "site_rva": 219892,
+          "target_va": 269384784,
+          "kind": 6
+        },
+        {
+          "symbol": "_atoi",
+          "site_rva": 219925,
+          "target_va": 269249830,
+          "kind": 20
+        },
+        {
+          "symbol": "??_C@_0N@NKKCKAAI@AddToBanList?$AA@",
+          "site_rva": 220019,
+          "target_va": 269384720,
+          "kind": 6
+        },
+        {
+          "symbol": "_atoi",
+          "site_rva": 220053,
+          "target_va": 269249830,
+          "kind": 20
+        },
+        {
+          "symbol": "??_C@_0BC@OPAHFPCI@RemoveFromBanList?$AA@",
+          "site_rva": 220076,
+          "target_va": 269384680,
+          "kind": 6
+        },
+        {
+          "symbol": "??_C@_0N@KOCJFACH@ClearBanList?$AA@",
+          "site_rva": 220117,
+          "target_va": 269384664,
+          "kind": 6
+        },
+        {
+          "symbol": "??_C@_08OLFCJOKF@IsBanned?$AA@",
+          "site_rva": 220148,
+          "target_va": 269384652,
+          "kind": 6
+        },
+        {
+          "symbol": "??_C@_05IGKNBJLA@Ping1?$AA@",
+          "site_rva": 220242,
+          "target_va": 269384616,
+          "kind": 6
+        },
+        {
+          "symbol": "_atoi",
+          "site_rva": 220271,
+          "target_va": 269249830,
+          "kind": 20
+        },
+        {
+          "symbol": "_atoi",
+          "site_rva": 220283,
+          "target_va": 269249830,
+          "kind": 20
+        },
+        {
+          "symbol": "?IntegersToPlayerID@CommandParserInterface@@IAE?AUPlayerID@@HH@Z",
+          "site_rva": 220299,
+          "target_va": 268567840,
+          "kind": 20
+        },
+        {
+          "symbol": "??_C@_05KNIAEKHD@Ping2?$AA@",
+          "site_rva": 220337,
+          "target_va": 269384516,
+          "kind": 6
+        },
+        {
+          "symbol": "_atoi",
+          "site_rva": 220371,
+          "target_va": 269249830,
+          "kind": 20
+        },
+        {
+          "symbol": "_atoi",
+          "site_rva": 220389,
+          "target_va": 269249830,
+          "kind": 20
+        },
+        {
+          "symbol": "??_C@_0P@EDIOBIMO@GetAveragePing?$AA@",
+          "site_rva": 220412,
+          "target_va": 269384500,
+          "kind": 6
+        },
+        {
+          "symbol": "_atoi",
+          "site_rva": 220445,
+          "target_va": 269249830,
+          "kind": 20
+        },
+        {
+          "symbol": "_atoi",
+          "site_rva": 220457,
+          "target_va": 269249830,
+          "kind": 20
+        },
+        {
+          "symbol": "?IntegersToPlayerID@CommandParserInterface@@IAE?AUPlayerID@@HH@Z",
+          "site_rva": 220473,
+          "target_va": 268567840,
+          "kind": 20
+        },
+        {
+          "symbol": "??_C@_0M@GBOMMBCI@GetLastPing?$AA@",
+          "site_rva": 220564,
+          "target_va": 269384452,
+          "kind": 6
+        },
+        {
+          "symbol": "_atoi",
+          "site_rva": 220597,
+          "target_va": 269249830,
+          "kind": 20
+        },
+        {
+          "symbol": "_atoi",
+          "site_rva": 220609,
+          "target_va": 269249830,
+          "kind": 20
+        },
+        {
+          "symbol": "?IntegersToPlayerID@CommandParserInterface@@IAE?AUPlayerID@@HH@Z",
+          "site_rva": 220625,
+          "target_va": 268567840,
+          "kind": 20
+        },
+        {
+          "symbol": "??_C@_0O@JFCMDFLA@GetLowestPing?$AA@",
+          "site_rva": 220719,
+          "target_va": 269384436,
+          "kind": 6
+        },
+        {
+          "symbol": "_atoi",
+          "site_rva": 220752,
+          "target_va": 269249830,
+          "kind": 20
+        },
+        {
+          "symbol": "_atoi",
+          "site_rva": 220764,
+          "target_va": 269249830,
+          "kind": 20
+        },
+        {
+          "symbol": "?IntegersToPlayerID@CommandParserInterface@@IAE?AUPlayerID@@HH@Z",
+          "site_rva": 220780,
+          "target_va": 268567840,
+          "kind": 20
+        },
+        {
+          "symbol": "??_C@_0BC@EMOHACJN@SetOccasionalPing?$AA@",
+          "site_rva": 220874,
+          "target_va": 269384396,
+          "kind": 6
+        },
+        {
+          "symbol": "_atoi",
+          "site_rva": 220907,
+          "target_va": 269249830,
+          "kind": 20
+        },
+        {
+          "symbol": "??_C@_0BH@COFJJKJJ@SetOfflinePingResponse?$AA@",
+          "site_rva": 220935,
+          "target_va": 269384320,
+          "kind": 6
+        },
+        {
+          "symbol": "_atoi",
+          "site_rva": 220969,
+          "target_va": 269249830,
+          "kind": 20
+        },
+        {
+          "symbol": "??_C@_0O@BODKKCEA@GetInternalID?$AA@",
+          "site_rva": 220995,
+          "target_va": 269384304,
+          "kind": 6
+        },
+        {
+          "symbol": "??_C@_0O@DOJAMBCI@GetExternalID?$AA@",
+          "site_rva": 221034,
+          "target_va": 269384252,
+          "kind": 6
+        },
+        {
+          "symbol": "_atoi",
+          "site_rva": 221063,
+          "target_va": 269249830,
+          "kind": 20
+        },
+        {
+          "symbol": "_atoi",
+          "site_rva": 221075,
+          "target_va": 269249830,
+          "kind": 20
+        },
+        {
+          "symbol": "?IntegersToPlayerID@CommandParserInterface@@IAE?AUPlayerID@@HH@Z",
+          "site_rva": 221091,
+          "target_va": 268567840,
+          "kind": 20
+        },
+        {
+          "symbol": "??_C@_0P@BHOCBDLP@SetTimeoutTime?$AA@",
+          "site_rva": 221137,
+          "target_va": 269384188,
+          "kind": 6
+        },
+        {
+          "symbol": "_atoi",
+          "site_rva": 221166,
+          "target_va": 269249830,
+          "kind": 20
+        },
+        {
+          "symbol": "_atoi",
+          "site_rva": 221178,
+          "target_va": 269249830,
+          "kind": 20
+        },
+        {
+          "symbol": "?IntegersToPlayerID@CommandParserInterface@@IAE?AUPlayerID@@HH@Z",
+          "site_rva": 221194,
+          "target_va": 268567840,
+          "kind": 20
+        },
+        {
+          "symbol": "_atoi",
+          "site_rva": 221224,
+          "target_va": 269249830,
+          "kind": 20
+        },
+        {
+          "symbol": "??_C@_0L@KOJFFEPB@SetMTUSize?$AA@",
+          "site_rva": 221247,
+          "target_va": 269384160,
+          "kind": 6
+        },
+        {
+          "symbol": "_atoi",
+          "site_rva": 221317,
+          "target_va": 269249830,
+          "kind": 20
+        },
+        {
+          "symbol": "??_C@_0L@LALKODLI@GetMTUSize?$AA@",
+          "site_rva": 221356,
+          "target_va": 269384148,
+          "kind": 6
+        },
+        {
+          "symbol": "??_C@_0BF@PNPCKBMP@GetNumberOfAddresses?$AA@",
+          "site_rva": 221443,
+          "target_va": 269384124,
+          "kind": 6
+        },
+        {
+          "symbol": "??_C@_0BD@MPNIDDPE@PlayerIDToDottedIP?$AA@",
+          "site_rva": 221530,
+          "target_va": 269384104,
+          "kind": 6
+        },
+        {
+          "symbol": "_atoi",
+          "site_rva": 221563,
+          "target_va": 269249830,
+          "kind": 20
+        },
+        {
+          "symbol": "_atoi",
+          "site_rva": 221575,
+          "target_va": 269249830,
+          "kind": 20
+        },
+        {
+          "symbol": "?IntegersToPlayerID@CommandParserInterface@@IAE?AUPlayerID@@HH@Z",
+          "site_rva": 221591,
+          "target_va": 268567840,
+          "kind": 20
+        },
+        {
+          "symbol": "??_C@_0N@JBCDMKNH@IPToPlayerID?$AA@",
+          "site_rva": 221685,
+          "target_va": 269384036,
+          "kind": 6
+        },
+        {
+          "symbol": "_atoi",
+          "site_rva": 221728,
+          "target_va": 269249830,
+          "kind": 20
+        },
+        {
+          "symbol": "_UNASSIGNED_PLAYER_ID",
+          "site_rva": 221749,
+          "target_va": 269477792,
+          "kind": 6
+        },
+        {
+          "symbol": "??8PlayerID@@QBE_NABU0@@Z",
+          "site_rva": 221758,
+          "target_va": 268646112,
+          "kind": 20
+        },
+        {
+          "symbol": "??_C@_0CI@CKHCAGCF@IPToPlayerID?$CI?$CJ?3?5UNASSIGNED_PLAYE@",
+          "site_rva": 221783,
+          "target_va": 269385608,
+          "kind": 6
+        },
+        {
+          "symbol": "??_C@_0BL@EPHHODIP@IPToPlayerID?$CI?$CJ?3?5?$CFs?5?$CFi?3?$CFi?$AN?6?$AA@",
+          "site_rva": 221891,
+          "target_va": 269385580,
+          "kind": 6
+        },
+        {
+          "symbol": "??_C@_0L@GMHEHEJF@GetLocalIP?$AA@",
+          "site_rva": 221929,
+          "target_va": 269384000,
+          "kind": 6
+        },
+        {
+          "symbol": "_atoi",
+          "site_rva": 221999,
+          "target_va": 269249830,
+          "kind": 20
+        },
+        {
+          "symbol": "??_C@_0CD@KAMMBDPJ@AllowConnectionResponseIPMigrati@",
+          "site_rva": 222038,
+          "target_va": 269383948,
+          "kind": 6
+        },
+        {
+          "symbol": "_atoi",
+          "site_rva": 222071,
+          "target_va": 269249830,
+          "kind": 20
+        },
+        {
+          "symbol": "??_C@_0BA@FKEMDMEG@AdvertiseSystem?$AA@",
+          "site_rva": 222099,
+          "target_va": 269383848,
+          "kind": 6
+        },
+        {
+          "symbol": "_atoi",
+          "site_rva": 222133,
+          "target_va": 269249830,
+          "kind": 20
+        },
+        {
+          "symbol": "_atoi",
+          "site_rva": 222150,
+          "target_va": 269249830,
+          "kind": 20
+        },
+        {
+          "symbol": "??_C@_0BG@CPIIDFPC@ApplyNetworkSimulator?$AA@",
+          "site_rva": 222176,
+          "target_va": 269383636,
+          "kind": 6
+        },
+        {
+          "symbol": "_atoi",
+          "site_rva": 222210,
+          "target_va": 269249830,
+          "kind": 20
+        },
+        {
+          "symbol": "_atoi",
+          "site_rva": 222223,
+          "target_va": 269249830,
+          "kind": 20
+        },
+        {
+          "symbol": "_atof",
+          "site_rva": 222235,
+          "target_va": 269257962,
+          "kind": 20
+        },
+        {
+          "symbol": "??_C@_0BJ@FMJBLPB@IsNetworkSimulatorActive?$AA@",
+          "site_rva": 222258,
+          "target_va": 269383608,
+          "kind": 6
+        },
+        {
+          "symbol": "??_C@_0BE@DMIJCLBA@SetIncomingPassword?$AA@",
+          "site_rva": 222345,
+          "target_va": 269383772,
+          "kind": 6
+        },
+        {
+          "symbol": "_atoi",
+          "site_rva": 222379,
+          "target_va": 269249830,
+          "kind": 20
+        },
+        {
+          "symbol": "??_C@_0BE@JCKCGLGM@GetIncomingPassword?$AA@",
+          "site_rva": 222402,
+          "target_va": 269383752,
+          "kind": 6
+        }
+      ]
+    },
+    {
+      "unit": "eval_vendor_raknet_command_parser",
+      "section": 76,
+      "rva": 218432,
+      "size": 10,
+      "kind": ".text",
+      "sha256": "b994e2bd1bc262c5b463fca225534224134549b75fddcc1f700f38a59510b90e",
+      "whole_bytes_equal": true,
+      "bindings": []
+    },
+    {
+      "unit": "eval_vendor_raknet_command_parser",
+      "section": 3,
+      "rva": 217616,
+      "size": 788,
+      "kind": ".text",
+      "sha256": "f2d5304445d2584449a8d01d962c1069bb5cc478d92dabba9452fc113ea2624f",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "__ehhandler$??0RakNetCommandParser@@QAE@XZ",
+          "site_rva": 217619,
+          "target_va": 269362264,
+          "kind": 6
+        },
+        {
+          "symbol": "__except_list",
+          "site_rva": 217625,
+          "target_va": 0,
+          "kind": 6
+        },
+        {
+          "symbol": "__except_list",
+          "site_rva": 217633,
+          "target_va": 0,
+          "kind": 6
+        },
+        {
+          "symbol": "??0CommandParserInterface@@QAE@XZ",
+          "site_rva": 217646,
+          "target_va": 268569104,
+          "kind": 20
+        },
+        {
+          "symbol": "??_C@_0HC@CHNGBBNI@?$CI?5unsigned?5short?5maxConnections?0@",
+          "site_rva": 217651,
+          "target_va": 269385464,
+          "kind": 6
+        },
+        {
+          "symbol": "??_C@_0L@KIAPHAEH@Initialize?$AA@",
+          "site_rva": 217656,
+          "target_va": 269385452,
+          "kind": 6
+        },
+        {
+          "symbol": "??_7RakNetCommandParser@@6B@",
+          "site_rva": 217674,
+          "target_va": 269385392,
+          "kind": 6
+        },
+        {
+          "symbol": "?RegisterCommand@CommandParserInterface@@MAEXEPBD0@Z",
+          "site_rva": 217679,
+          "target_va": 268568880,
+          "kind": 20
+        },
+        {
+          "symbol": "??_C@_03LABDDFGF@?$CI?$CJ?$DL?$AA@",
+          "site_rva": 217684,
+          "target_va": 269385388,
+          "kind": 6
+        },
+        {
+          "symbol": "??_C@_0BD@CEGNGNCO@InitializeSecurity?$AA@",
+          "site_rva": 217689,
+          "target_va": 269385368,
+          "kind": 6
+        },
+        {
+          "symbol": "?RegisterCommand@CommandParserInterface@@MAEXEPBD0@Z",
+          "site_rva": 217698,
+          "target_va": 268568880,
+          "kind": 20
+        },
+        {
+          "symbol": "??_C@_09DNJKEAGD@?$CI?5void?5?$CJ?$DL?$AA@",
+          "site_rva": 217703,
+          "target_va": 269385356,
+          "kind": 6
+        },
+        {
+          "symbol": "??_C@_0BA@GLBJOADB@DisableSecurity?$AA@",
+          "site_rva": 217708,
+          "target_va": 269385340,
+          "kind": 6
+        },
+        {
+          "symbol": "?RegisterCommand@CommandParserInterface@@MAEXEPBD0@Z",
+          "site_rva": 217717,
+          "target_va": 268568880,
+          "kind": 20
+        },
+        {
+          "symbol": "??_C@_0CC@NFNIDBGI@?$CI?5unsigned?5short?5numberAllowed?5?$CJ@",
+          "site_rva": 217722,
+          "target_va": 269385304,
+          "kind": 6
+        },
+        {
+          "symbol": "??_C@_0BO@KHLAAKGH@SetMaximumIncomingConnections?$AA@",
+          "site_rva": 217727,
+          "target_va": 269385272,
+          "kind": 6
+        },
+        {
+          "symbol": "?RegisterCommand@CommandParserInterface@@MAEXEPBD0@Z",
+          "site_rva": 217736,
+          "target_va": 268568880,
+          "kind": 20
+        },
+        {
+          "symbol": "??_C@_0BA@HKDCHNNO@?$CI?5void?5?$CJ?5const?$DL?$AA@",
+          "site_rva": 217741,
+          "target_va": 269385256,
+          "kind": 6
+        },
+        {
+          "symbol": "??_C@_0BO@CGNPLKEF@GetMaximumIncomingConnections?$AA@",
+          "site_rva": 217746,
+          "target_va": 269385224,
+          "kind": 6
+        },
+        {
+          "symbol": "?RegisterCommand@CommandParserInterface@@MAEXEPBD0@Z",
+          "site_rva": 217755,
+          "target_va": 268568880,
+          "kind": 20
+        },
+        {
+          "symbol": "??_C@_0FN@GFIEFHJA@?$CI?5const?5char?$CK?5host?0?5unsigned?5sho@",
+          "site_rva": 217760,
+          "target_va": 269385128,
+          "kind": 6
+        },
+        {
+          "symbol": "??_C@_07FJPHLACI@Connect?$AA@",
+          "site_rva": 217765,
+          "target_va": 269385116,
+          "kind": 6
+        },
+        {
+          "symbol": "?RegisterCommand@CommandParserInterface@@MAEXEPBD0@Z",
+          "site_rva": 217774,
+          "target_va": 268568880,
+          "kind": 20
+        },
+        {
+          "symbol": "??_C@_0EB@PCFINJNC@?$CI?5unsigned?5int?5blockDuration?0?5un@",
+          "site_rva": 217779,
+          "target_va": 269385048,
+          "kind": 6
+        },
+        {
+          "symbol": "??_C@_0L@CMGJAGDM@Disconnect?$AA@",
+          "site_rva": 217784,
+          "target_va": 269385036,
+          "kind": 6
+        },
+        {
+          "symbol": "?RegisterCommand@CommandParserInterface@@MAEXEPBD0@Z",
+          "site_rva": 217793,
+          "target_va": 268568880,
+          "kind": 20
+        },
+        {
+          "symbol": "??_C@_0BA@HKDCHNNO@?$CI?5void?5?$CJ?5const?$DL?$AA@",
+          "site_rva": 217798,
+          "target_va": 269385256,
+          "kind": 6
+        },
+        {
+          "symbol": "??_C@_08CHIOLOMB@IsActive?$AA@",
+          "site_rva": 217803,
+          "target_va": 269385024,
+          "kind": 6
+        },
+        {
+          "symbol": "?RegisterCommand@CommandParserInterface@@MAEXEPBD0@Z",
+          "site_rva": 217812,
+          "target_va": 268568880,
+          "kind": 20
+        },
+        {
+          "symbol": "??_C@_09OEOFIABO@?$CI?$CJ?5const?$DL?$AA@",
+          "site_rva": 217817,
+          "target_va": 269385012,
+          "kind": 6
+        },
+        {
+          "symbol": "??_C@_0BC@ILJDNENF@GetConnectionList?$AA@",
+          "site_rva": 217822,
+          "target_va": 269384992,
+          "kind": 6
+        },
+        {
+          "symbol": "?RegisterCommand@CommandParserInterface@@MAEXEPBD0@Z",
+          "site_rva": 217831,
+          "target_va": 268568880,
+          "kind": 20
+        },
+        {
+          "symbol": "??_C@_0GA@KACHFANE@?$CI?5const?5PlayerID?5target?0?5bool?5se@",
+          "site_rva": 217836,
+          "target_va": 269384896,
+          "kind": 6
+        },
+        {
+          "symbol": "??_C@_0BA@OFFOMIIA@CloseConnection?$AA@",
+          "site_rva": 217841,
+          "target_va": 269384880,
+          "kind": 6
+        },
+        {
+          "symbol": "?RegisterCommand@CommandParserInterface@@MAEXEPBD0@Z",
+          "site_rva": 217850,
+          "target_va": 268568880,
+          "kind": 20
+        },
+        {
+          "symbol": "??_C@_0BN@LKNIHIDH@?$CI?5const?5PlayerID?5playerId?5?$CJ?$DL?$AA@",
+          "site_rva": 217855,
+          "target_va": 269384848,
+          "kind": 6
+        },
+        {
+          "symbol": "??_C@_0BF@DOAJNCJI@GetIndexFromPlayerID?$AA@",
+          "site_rva": 217860,
+          "target_va": 269384824,
+          "kind": 6
+        },
+        {
+          "symbol": "?RegisterCommand@CommandParserInterface@@MAEXEPBD0@Z",
+          "site_rva": 217869,
+          "target_va": 268568880,
+          "kind": 20
+        },
+        {
+          "symbol": "??_C@_0P@JLHINONG@?$CI?5int?5index?5?$CJ?$DL?$AA@",
+          "site_rva": 217874,
+          "target_va": 269384808,
+          "kind": 6
+        },
+        {
+          "symbol": "??_C@_0BF@IHDMHLBB@GetPlayerIDFromIndex?$AA@",
+          "site_rva": 217879,
+          "target_va": 269384784,
+          "kind": 6
+        },
+        {
+          "symbol": "?RegisterCommand@CommandParserInterface@@MAEXEPBD0@Z",
+          "site_rva": 217888,
+          "target_va": 268568880,
+          "kind": 20
+        },
+        {
+          "symbol": "??_C@_0CP@LDLKKGIO@?$CI?5const?5char?5?$CKIP?0?5RakNetTime?5mil@",
+          "site_rva": 217893,
+          "target_va": 269384736,
+          "kind": 6
+        },
+        {
+          "symbol": "??_C@_0N@NKKCKAAI@AddToBanList?$AA@",
+          "site_rva": 217898,
+          "target_va": 269384720,
+          "kind": 6
+        },
+        {
+          "symbol": "?RegisterCommand@CommandParserInterface@@MAEXEPBD0@Z",
+          "site_rva": 217907,
+          "target_va": 268568880,
+          "kind": 20
+        },
+        {
+          "symbol": "??_C@_0BE@NLLELJHO@?$CI?5const?5char?5?$CKIP?5?$CJ?$DL?$AA@",
+          "site_rva": 217912,
+          "target_va": 269384700,
+          "kind": 6
+        },
+        {
+          "symbol": "??_C@_0BC@OPAHFPCI@RemoveFromBanList?$AA@",
+          "site_rva": 217917,
+          "target_va": 269384680,
+          "kind": 6
+        },
+        {
+          "symbol": "?RegisterCommand@CommandParserInterface@@MAEXEPBD0@Z",
+          "site_rva": 217926,
+          "target_va": 268568880,
+          "kind": 20
+        },
+        {
+          "symbol": "??_C@_09DNJKEAGD@?$CI?5void?5?$CJ?$DL?$AA@",
+          "site_rva": 217931,
+          "target_va": 269385356,
+          "kind": 6
+        },
+        {
+          "symbol": "??_C@_0N@KOCJFACH@ClearBanList?$AA@",
+          "site_rva": 217936,
+          "target_va": 269384664,
+          "kind": 6
+        },
+        {
+          "symbol": "?RegisterCommand@CommandParserInterface@@MAEXEPBD0@Z",
+          "site_rva": 217945,
+          "target_va": 268568880,
+          "kind": 20
+        },
+        {
+          "symbol": "??_C@_0BE@NLLELJHO@?$CI?5const?5char?5?$CKIP?5?$CJ?$DL?$AA@",
+          "site_rva": 217950,
+          "target_va": 269384700,
+          "kind": 6
+        },
+        {
+          "symbol": "??_C@_08OLFCJOKF@IsBanned?$AA@",
+          "site_rva": 217955,
+          "target_va": 269384652,
+          "kind": 6
+        },
+        {
+          "symbol": "?RegisterCommand@CommandParserInterface@@MAEXEPBD0@Z",
+          "site_rva": 217964,
+          "target_va": 268568880,
+          "kind": 20
+        },
+        {
+          "symbol": "??_C@_0BL@EENGEPEM@?$CI?5const?5PlayerID?5target?5?$CJ?$DL?$AA@",
+          "site_rva": 217969,
+          "target_va": 269384624,
+          "kind": 6
+        },
+        {
+          "symbol": "??_C@_05IGKNBJLA@Ping1?$AA@",
+          "site_rva": 217974,
+          "target_va": 269384616,
+          "kind": 6
+        },
+        {
+          "symbol": "?RegisterCommand@CommandParserInterface@@MAEXEPBD0@Z",
+          "site_rva": 217983,
+          "target_va": 268568880,
+          "kind": 20
+        },
+        {
+          "symbol": "??_C@_0FH@LBEFBABP@?$CI?5const?5char?$CK?5host?0?5unsigned?5sho@",
+          "site_rva": 217988,
+          "target_va": 269384528,
+          "kind": 6
+        },
+        {
+          "symbol": "??_C@_05KNIAEKHD@Ping2?$AA@",
+          "site_rva": 217993,
+          "target_va": 269384516,
+          "kind": 6
+        },
+        {
+          "symbol": "?RegisterCommand@CommandParserInterface@@MAEXEPBD0@Z",
+          "site_rva": 218002,
+          "target_va": 268568880,
+          "kind": 20
+        },
+        {
+          "symbol": "??_C@_0BN@LKNIHIDH@?$CI?5const?5PlayerID?5playerId?5?$CJ?$DL?$AA@",
+          "site_rva": 218007,
+          "target_va": 269384848,
+          "kind": 6
+        },
+        {
+          "symbol": "??_C@_0P@EDIOBIMO@GetAveragePing?$AA@",
+          "site_rva": 218012,
+          "target_va": 269384500,
+          "kind": 6
+        },
+        {
+          "symbol": "?RegisterCommand@CommandParserInterface@@MAEXEPBD0@Z",
+          "site_rva": 218021,
+          "target_va": 268568880,
+          "kind": 20
+        },
+        {
+          "symbol": "??_C@_0CD@KJBLFJML@?$CI?5const?5PlayerID?5playerId?5?$CJ?5cons@",
+          "site_rva": 218026,
+          "target_va": 269384464,
+          "kind": 6
+        },
+        {
+          "symbol": "??_C@_0M@GBOMMBCI@GetLastPing?$AA@",
+          "site_rva": 218031,
+          "target_va": 269384452,
+          "kind": 6
+        },
+        {
+          "symbol": "?RegisterCommand@CommandParserInterface@@MAEXEPBD0@Z",
+          "site_rva": 218040,
+          "target_va": 268568880,
+          "kind": 20
+        },
+        {
+          "symbol": "??_C@_0CD@KJBLFJML@?$CI?5const?5PlayerID?5playerId?5?$CJ?5cons@",
+          "site_rva": 218045,
+          "target_va": 269384464,
+          "kind": 6
+        },
+        {
+          "symbol": "??_C@_0O@JFCMDFLA@GetLowestPing?$AA@",
+          "site_rva": 218050,
+          "target_va": 269384436,
+          "kind": 6
+        },
+        {
+          "symbol": "?RegisterCommand@CommandParserInterface@@MAEXEPBD0@Z",
+          "site_rva": 218059,
+          "target_va": 268568880,
+          "kind": 20
+        },
+        {
+          "symbol": "??_C@_0BB@PJAEIOFC@?$CI?5bool?5doPing?5?$CJ?$DL?$AA@",
+          "site_rva": 218064,
+          "target_va": 269384416,
+          "kind": 6
+        },
+        {
+          "symbol": "??_C@_0BC@EMOHACJN@SetOccasionalPing?$AA@",
+          "site_rva": 218069,
+          "target_va": 269384396,
+          "kind": 6
+        },
+        {
+          "symbol": "?RegisterCommand@CommandParserInterface@@MAEXEPBD0@Z",
+          "site_rva": 218078,
+          "target_va": 268568880,
+          "kind": 20
+        },
+        {
+          "symbol": "??_C@_0DB@DCEMLAGG@?$CI?5const?5char?5?$CKdata?0?5const?5unsign@",
+          "site_rva": 218083,
+          "target_va": 269384344,
+          "kind": 6
+        },
+        {
+          "symbol": "??_C@_0BH@COFJJKJJ@SetOfflinePingResponse?$AA@",
+          "site_rva": 218088,
+          "target_va": 269384320,
+          "kind": 6
+        },
+        {
+          "symbol": "?RegisterCommand@CommandParserInterface@@MAEXEPBD0@Z",
+          "site_rva": 218097,
+          "target_va": 268568880,
+          "kind": 20
+        },
+        {
+          "symbol": "??_C@_0BA@HKDCHNNO@?$CI?5void?5?$CJ?5const?$DL?$AA@",
+          "site_rva": 218102,
+          "target_va": 269385256,
+          "kind": 6
+        },
+        {
+          "symbol": "??_C@_0O@BODKKCEA@GetInternalID?$AA@",
+          "site_rva": 218107,
+          "target_va": 269384304,
+          "kind": 6
+        },
+        {
+          "symbol": "?RegisterCommand@CommandParserInterface@@MAEXEPBD0@Z",
+          "site_rva": 218116,
+          "target_va": 268568880,
+          "kind": 20
+        },
+        {
+          "symbol": "??_C@_0CB@IEHKOJLG@?$CI?5const?5PlayerID?5target?5?$CJ?5const?$DL@",
+          "site_rva": 218121,
+          "target_va": 269384268,
+          "kind": 6
+        },
+        {
+          "symbol": "??_C@_0O@DOJAMBCI@GetExternalID?$AA@",
+          "site_rva": 218126,
+          "target_va": 269384252,
+          "kind": 6
+        },
+        {
+          "symbol": "?RegisterCommand@CommandParserInterface@@MAEXEPBD0@Z",
+          "site_rva": 218135,
+          "target_va": 268568880,
+          "kind": 20
+        },
+        {
+          "symbol": "??_C@_0CO@HEMFMHDA@?$CI?5RakNetTime?5timeMS?0?5const?5Playe@",
+          "site_rva": 218140,
+          "target_va": 269384204,
+          "kind": 6
+        },
+        {
+          "symbol": "??_C@_0P@BHOCBDLP@SetTimeoutTime?$AA@",
+          "site_rva": 218145,
+          "target_va": 269384188,
+          "kind": 6
+        },
+        {
+          "symbol": "?RegisterCommand@CommandParserInterface@@MAEXEPBD0@Z",
+          "site_rva": 218154,
+          "target_va": 268568880,
+          "kind": 20
+        },
+        {
+          "symbol": "??_C@_0O@MFILJDHD@?$CI?5int?5size?5?$CJ?$DL?$AA@",
+          "site_rva": 218159,
+          "target_va": 269384172,
+          "kind": 6
+        },
+        {
+          "symbol": "??_C@_0L@KOJFFEPB@SetMTUSize?$AA@",
+          "site_rva": 218164,
+          "target_va": 269384160,
+          "kind": 6
+        },
+        {
+          "symbol": "?RegisterCommand@CommandParserInterface@@MAEXEPBD0@Z",
+          "site_rva": 218173,
+          "target_va": 268568880,
+          "kind": 20
+        },
+        {
+          "symbol": "??_C@_0BA@HKDCHNNO@?$CI?5void?5?$CJ?5const?$DL?$AA@",
+          "site_rva": 218178,
+          "target_va": 269385256,
+          "kind": 6
+        },
+        {
+          "symbol": "??_C@_0L@LALKODLI@GetMTUSize?$AA@",
+          "site_rva": 218183,
+          "target_va": 269384148,
+          "kind": 6
+        },
+        {
+          "symbol": "?RegisterCommand@CommandParserInterface@@MAEXEPBD0@Z",
+          "site_rva": 218192,
+          "target_va": 268568880,
+          "kind": 20
+        },
+        {
+          "symbol": "??_C@_09DNJKEAGD@?$CI?5void?5?$CJ?$DL?$AA@",
+          "site_rva": 218197,
+          "target_va": 269385356,
+          "kind": 6
+        },
+        {
+          "symbol": "??_C@_0BF@PNPCKBMP@GetNumberOfAddresses?$AA@",
+          "site_rva": 218202,
+          "target_va": 269384124,
+          "kind": 6
+        },
+        {
+          "symbol": "?RegisterCommand@CommandParserInterface@@MAEXEPBD0@Z",
+          "site_rva": 218211,
+          "target_va": 268568880,
+          "kind": 20
+        },
+        {
+          "symbol": "??_C@_0CD@KJBLFJML@?$CI?5const?5PlayerID?5playerId?5?$CJ?5cons@",
+          "site_rva": 218216,
+          "target_va": 269384464,
+          "kind": 6
+        },
+        {
+          "symbol": "??_C@_0BD@MPNIDDPE@PlayerIDToDottedIP?$AA@",
+          "site_rva": 218221,
+          "target_va": 269384104,
+          "kind": 6
+        },
+        {
+          "symbol": "?RegisterCommand@CommandParserInterface@@MAEXEPBD0@Z",
+          "site_rva": 218230,
+          "target_va": 268568880,
+          "kind": 20
+        },
+        {
+          "symbol": "??_C@_0DB@OOHEDHIF@?$CI?5const?5char?$CK?5host?0?5unsigned?5sho@",
+          "site_rva": 218235,
+          "target_va": 269384052,
+          "kind": 6
+        },
+        {
+          "symbol": "??_C@_0N@JBCDMKNH@IPToPlayerID?$AA@",
+          "site_rva": 218240,
+          "target_va": 269384036,
+          "kind": 6
+        },
+        {
+          "symbol": "?RegisterCommand@CommandParserInterface@@MAEXEPBD0@Z",
+          "site_rva": 218249,
+          "target_va": 268568880,
+          "kind": 20
+        },
+        {
+          "symbol": "??_C@_0BI@PMILEPOG@?$CI?5unsigned?5int?5index?5?$CJ?$DL?$AA@",
+          "site_rva": 218254,
+          "target_va": 269384012,
+          "kind": 6
+        },
+        {
+          "symbol": "??_C@_0L@GMHEHEJF@GetLocalIP?$AA@",
+          "site_rva": 218259,
+          "target_va": 269384000,
+          "kind": 6
+        },
+        {
+          "symbol": "?RegisterCommand@CommandParserInterface@@MAEXEPBD0@Z",
+          "site_rva": 218268,
+          "target_va": 268568880,
+          "kind": 20
+        },
+        {
+          "symbol": "??_C@_0BA@GNMOGEAE@?$CI?5bool?5allow?5?$CJ?$DL?$AA@",
+          "site_rva": 218273,
+          "target_va": 269383984,
+          "kind": 6
+        },
+        {
+          "symbol": "??_C@_0CD@KAMMBDPJ@AllowConnectionResponseIPMigrati@",
+          "site_rva": 218278,
+          "target_va": 269383948,
+          "kind": 6
+        },
+        {
+          "symbol": "?RegisterCommand@CommandParserInterface@@MAEXEPBD0@Z",
+          "site_rva": 218287,
+          "target_va": 268568880,
+          "kind": 20
+        },
+        {
+          "symbol": "??_C@_0FD@OEMJOMAP@?$CI?5const?5char?5?$CKhost?0?5unsigned?5sho@",
+          "site_rva": 218292,
+          "target_va": 269383864,
+          "kind": 6
+        },
+        {
+          "symbol": "??_C@_0BA@FKEMDMEG@AdvertiseSystem?$AA@",
+          "site_rva": 218297,
+          "target_va": 269383848,
+          "kind": 6
+        },
+        {
+          "symbol": "?RegisterCommand@CommandParserInterface@@MAEXEPBD0@Z",
+          "site_rva": 218306,
+          "target_va": 268568880,
+          "kind": 20
+        },
+        {
+          "symbol": "??_C@_0DG@OPDKKEOB@?$CI?5const?5char?$CK?5passwordData?0?5int?5@",
+          "site_rva": 218311,
+          "target_va": 269383792,
+          "kind": 6
+        },
+        {
+          "symbol": "??_C@_0BE@DMIJCLBA@SetIncomingPassword?$AA@",
+          "site_rva": 218316,
+          "target_va": 269383772,
+          "kind": 6
+        },
+        {
+          "symbol": "?RegisterCommand@CommandParserInterface@@MAEXEPBD0@Z",
+          "site_rva": 218325,
+          "target_va": 268568880,
+          "kind": 20
+        },
+        {
+          "symbol": "??_C@_09DNJKEAGD@?$CI?5void?5?$CJ?$DL?$AA@",
+          "site_rva": 218330,
+          "target_va": 269385356,
+          "kind": 6
+        },
+        {
+          "symbol": "??_C@_0BE@JCKCGLGM@GetIncomingPassword?$AA@",
+          "site_rva": 218335,
+          "target_va": 269383752,
+          "kind": 6
+        },
+        {
+          "symbol": "?RegisterCommand@CommandParserInterface@@MAEXEPBD0@Z",
+          "site_rva": 218344,
+          "target_va": 268568880,
+          "kind": 20
+        },
+        {
+          "symbol": "??_C@_0FF@NHEKHBGP@?$CI?5double?5maxSendBPS?0?5unsigned?5sh@",
+          "site_rva": 218349,
+          "target_va": 269383664,
+          "kind": 6
+        },
+        {
+          "symbol": "??_C@_0BG@CPIIDFPC@ApplyNetworkSimulator?$AA@",
+          "site_rva": 218354,
+          "target_va": 269383636,
+          "kind": 6
+        },
+        {
+          "symbol": "?RegisterCommand@CommandParserInterface@@MAEXEPBD0@Z",
+          "site_rva": 218363,
+          "target_va": 268568880,
+          "kind": 20
+        },
+        {
+          "symbol": "??_C@_09DNJKEAGD@?$CI?5void?5?$CJ?$DL?$AA@",
+          "site_rva": 218368,
+          "target_va": 269385356,
+          "kind": 6
+        },
+        {
+          "symbol": "??_C@_0BJ@FMJBLPB@IsNetworkSimulatorActive?$AA@",
+          "site_rva": 218373,
+          "target_va": 269383608,
+          "kind": 6
+        },
+        {
+          "symbol": "?RegisterCommand@CommandParserInterface@@MAEXEPBD0@Z",
+          "site_rva": 218382,
+          "target_va": 268568880,
+          "kind": 20
+        },
+        {
+          "symbol": "__except_list",
+          "site_rva": 218396,
+          "target_va": 0,
+          "kind": 6
+        }
+      ]
+    },
+    {
+      "unit": "eval_vendor_raknet_command_parser",
+      "section": 87,
+      "rva": 950336,
+      "size": 7,
+      "kind": ".rdata",
+      "sha256": "235ded9969bc3651ca4fd535aa25ef5d2f1b4fbf8a71f5103e31e9e1ce63102b",
+      "whole_bytes_equal": true,
+      "bindings": []
+    },
+    {
+      "unit": "eval_vendor_raknet_command_parser",
+      "section": 68,
+      "rva": 949936,
+      "size": 60,
+      "kind": ".rdata",
+      "sha256": "bc25f1f495d349ce73330ffed0b2115da9b596e78bc7f035d1f07761e5061433",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "??_ERakNetCommandParser@@UAEPAXI@Z",
+          "site_rva": 949936,
+          "target_va": 268658160,
+          "kind": 6
+        },
+        {
+          "symbol": "?GetName@RakNetCommandParser@@UBEPADXZ",
+          "site_rva": 949940,
+          "target_va": 268657984,
+          "kind": 6
+        },
+        {
+          "symbol": "?OnNewIncomingConnection@CommandParserInterface@@UAEXUPlayerID@@PAVTransportInterface@@@Z",
+          "site_rva": 949944,
+          "target_va": 268567488,
+          "kind": 6
+        },
+        {
+          "symbol": "?OnConnectionLost@CommandParserInterface@@UAEXUPlayerID@@PAVTransportInterface@@@Z",
+          "site_rva": 949948,
+          "target_va": 268567504,
+          "kind": 6
+        },
+        {
+          "symbol": "?SendHelp@RakNetCommandParser@@UAEXPAVTransportInterface@@UPlayerID@@@Z",
+          "site_rva": 949952,
+          "target_va": 268658000,
+          "kind": 6
+        },
+        {
+          "symbol": "?OnCommand@RakNetCommandParser@@UAE_NPBDIPAPADPAVTransportInterface@@UPlayerID@@0@Z",
+          "site_rva": 949956,
+          "target_va": 268653904,
+          "kind": 6
+        },
+        {
+          "symbol": "?OnTransportChange@CommandParserInterface@@UAEXPAVTransportInterface@@@Z",
+          "site_rva": 949960,
+          "target_va": 268567472,
+          "kind": 6
+        },
+        {
+          "symbol": "?GetRegisteredCommand@CommandParserInterface@@UAE_NPBDPAURegisteredCommand@@@Z",
+          "site_rva": 949964,
+          "target_va": 268568944,
+          "kind": 6
+        },
+        {
+          "symbol": "?SendCommandList@CommandParserInterface@@UAEXPAVTransportInterface@@UPlayerID@@@Z",
+          "site_rva": 949968,
+          "target_va": 268568656,
+          "kind": 6
+        },
+        {
+          "symbol": "?RegisterCommand@CommandParserInterface@@MAEXEPBD0@Z",
+          "site_rva": 949972,
+          "target_va": 268568880,
+          "kind": 6
+        },
+        {
+          "symbol": "?ReturnResult@CommandParserInterface@@MAEXPBDPAVTransportInterface@@UPlayerID@@@Z",
+          "site_rva": 949976,
+          "target_va": 268567648,
+          "kind": 6
+        },
+        {
+          "symbol": "?ReturnResult@CommandParserInterface@@MAEXHPBDPAVTransportInterface@@UPlayerID@@@Z",
+          "site_rva": 949980,
+          "target_va": 268567584,
+          "kind": 6
+        },
+        {
+          "symbol": "?ReturnResult@CommandParserInterface@@MAEXUPlayerID@@PBDPAVTransportInterface@@0@Z",
+          "site_rva": 949984,
+          "target_va": 268567760,
+          "kind": 6
+        },
+        {
+          "symbol": "?ReturnResult@CommandParserInterface@@MAEXPADPBDPAVTransportInterface@@UPlayerID@@@Z",
+          "site_rva": 949988,
+          "target_va": 268567696,
+          "kind": 6
+        },
+        {
+          "symbol": "?ReturnResult@CommandParserInterface@@MAEX_NPBDPAVTransportInterface@@UPlayerID@@@Z",
+          "site_rva": 949992,
+          "target_va": 268567520,
+          "kind": 6
+        }
+      ]
+    },
+    {
+      "unit": "eval_vendor_raknet_command_parser",
+      "section": 93,
+      "rva": 950484,
+      "size": 57,
+      "kind": ".rdata",
+      "sha256": "1938fd32d263fe9d5e66fee12ac901da6257b0f800b6ceaa62b9155013eddef4",
+      "whole_bytes_equal": true,
+      "bindings": []
+    },
+    {
+      "unit": "eval_vendor_raknet_command_parser",
+      "section": 92,
+      "rva": 950420,
+      "size": 62,
+      "kind": ".rdata",
+      "sha256": "423efcf771ecef404b46a8a3c5fb109b2d5fcc566368eb4a6889ee7ee0c891d9",
+      "whole_bytes_equal": true,
+      "bindings": []
+    },
+    {
+      "unit": "eval_vendor_raknet_command_parser",
+      "section": 91,
+      "rva": 950392,
+      "size": 25,
+      "kind": ".rdata",
+      "sha256": "96ecaaba20a813a57cbad789db61be2d871c6f696866e981ceded927dd977fe3",
+      "whole_bytes_equal": true,
+      "bindings": []
+    },
+    {
+      "unit": "eval_vendor_raknet_command_parser",
+      "section": 90,
+      "rva": 950344,
+      "size": 48,
+      "kind": ".rdata",
+      "sha256": "9ce7fe0893753e26a5ca887dbb4346d73143b61bb16f98669a61bf67c8a34f6d",
+      "whole_bytes_equal": true,
+      "bindings": []
+    },
+    {
+      "unit": "eval_vendor_raknet_command_parser",
+      "section": 69,
+      "rva": 949996,
+      "size": 11,
+      "kind": ".rdata",
+      "sha256": "924440564675fc595ff46fc9d3d9f21a42b49ffc2b03987afa5b5dbf53d810af",
+      "whole_bytes_equal": true,
+      "bindings": []
+    },
+    {
+      "unit": "eval_vendor_raknet_command_parser",
+      "section": 66,
+      "rva": 949912,
+      "size": 19,
+      "kind": ".rdata",
+      "sha256": "1bf3a57e1de8f41c42cdf9c454363a70b472633c413f8e12be17926298826ac4",
+      "whole_bytes_equal": true,
+      "bindings": []
+    },
+    {
+      "unit": "eval_vendor_raknet_command_parser",
+      "section": 64,
+      "rva": 949884,
+      "size": 16,
+      "kind": ".rdata",
+      "sha256": "6920436a22e6ab49ba2d11f25f9c19b858a056abee0d08c781e804766973d997",
+      "whole_bytes_equal": true,
+      "bindings": []
+    },
+    {
+      "unit": "eval_vendor_raknet_command_parser",
+      "section": 62,
+      "rva": 949816,
+      "size": 30,
+      "kind": ".rdata",
+      "sha256": "364fa3a71e49ddc9a5ef3d20a3bb4f2af6bd807058f92749b710a7b4847e1568",
+      "whole_bytes_equal": true,
+      "bindings": []
+    },
+    {
+      "unit": "eval_vendor_raknet_command_parser",
+      "section": 60,
+      "rva": 949768,
+      "size": 30,
+      "kind": ".rdata",
+      "sha256": "4ded829eafb078c410aa4efb8ff05ac4157572dfb8de88337852a196b26f8692",
+      "whole_bytes_equal": true,
+      "bindings": []
+    },
+    {
+      "unit": "eval_vendor_raknet_command_parser",
+      "section": 58,
+      "rva": 949660,
+      "size": 8,
+      "kind": ".rdata",
+      "sha256": "a0354cacda4c2b0b41bc8f6bc6b72f2bd46480a6564fb862475911d2732bbf49",
+      "whole_bytes_equal": true,
+      "bindings": []
+    },
+    {
+      "unit": "eval_vendor_raknet_command_parser",
+      "section": 56,
+      "rva": 949580,
+      "size": 11,
+      "kind": ".rdata",
+      "sha256": "edbf4037304e32c50b4a7412a59feb1281f29b82d8320b76d5d518dc1ea3ba75",
+      "whole_bytes_equal": true,
+      "bindings": []
+    },
+    {
+      "unit": "eval_vendor_raknet_command_parser",
+      "section": 55,
+      "rva": 949568,
+      "size": 9,
+      "kind": ".rdata",
+      "sha256": "20223869052934a7f89e632233abf48c42316c16c726e2ba69530216a70f369e",
+      "whole_bytes_equal": true,
+      "bindings": []
+    },
+    {
+      "unit": "eval_vendor_raknet_command_parser",
+      "section": 53,
+      "rva": 949536,
+      "size": 18,
+      "kind": ".rdata",
+      "sha256": "218fc693523b8c3e5c70cc2f6008db13905f624b94c320f911fefcaf01aa2176",
+      "whole_bytes_equal": true,
+      "bindings": []
+    },
+    {
+      "unit": "eval_vendor_raknet_command_parser",
+      "section": 84,
+      "rva": 950280,
+      "size": 53,
+      "kind": ".rdata",
+      "sha256": "f578ce9e9286a321c657c3f38c3ad08ef2097646856c5612ab2666e45f6b43f4",
+      "whole_bytes_equal": true,
+      "bindings": []
+    },
+    {
+      "unit": "eval_vendor_raknet_command_parser",
+      "section": 83,
+      "rva": 950248,
+      "size": 32,
+      "kind": ".rdata",
+      "sha256": "735037bf180253d172446ac29f3665e848c10c18ee44555d3350de402744d414",
+      "whole_bytes_equal": true,
+      "bindings": []
+    },
+    {
+      "unit": "eval_vendor_raknet_command_parser",
+      "section": 82,
+      "rva": 950232,
+      "size": 14,
+      "kind": ".rdata",
+      "sha256": "b59dd7b640904a72d14baa176f1d64577066dcc47454a16ef1e1ab78531e1606",
+      "whole_bytes_equal": true,
+      "bindings": []
+    },
+    {
+      "unit": "eval_vendor_raknet_command_parser",
+      "section": 81,
+      "rva": 950192,
+      "size": 38,
+      "kind": ".rdata",
+      "sha256": "fbb3adbdbefbc17389cf6e877bda308621827119c3d6b7a592c787ef01c726f5",
+      "whole_bytes_equal": true,
+      "bindings": []
+    },
+    {
+      "unit": "eval_vendor_raknet_command_parser",
+      "section": 51,
+      "rva": 949424,
+      "size": 16,
+      "kind": ".rdata",
+      "sha256": "3dc002c6e6fa07f9d234171244ef7c3fbc5565953568ecb2b9ee633ddd866fb2",
+      "whole_bytes_equal": true,
+      "bindings": []
+    },
+    {
+      "unit": "eval_vendor_raknet_command_parser",
+      "section": 49,
+      "rva": 949368,
+      "size": 21,
+      "kind": ".rdata",
+      "sha256": "997ceb90c44d1cdeae56702d93b381eae48f54348dcb3a0e3c52531f7fe512d5",
+      "whole_bytes_equal": true,
+      "bindings": []
+    },
+    {
+      "unit": "eval_vendor_raknet_command_parser",
+      "section": 47,
+      "rva": 949328,
+      "size": 21,
+      "kind": ".rdata",
+      "sha256": "088a841cb7714f60520cf25de4949fa45ad1344dce6120d7306ea3a04e88e0a8",
+      "whole_bytes_equal": true,
+      "bindings": []
+    },
+    {
+      "unit": "eval_vendor_raknet_command_parser",
+      "section": 45,
+      "rva": 949264,
+      "size": 13,
+      "kind": ".rdata",
+      "sha256": "2914fbe793cfd5345126825b8a61c7bc38eec80557d6d4019f55f37a7e4153ec",
+      "whole_bytes_equal": true,
+      "bindings": []
+    },
+    {
+      "unit": "eval_vendor_raknet_command_parser",
+      "section": 43,
+      "rva": 949224,
+      "size": 18,
+      "kind": ".rdata",
+      "sha256": "bee76af69fed6184bb615802f8136b3f7829af44fbeece55ae17376d6b6fa47c",
+      "whole_bytes_equal": true,
+      "bindings": []
+    },
+    {
+      "unit": "eval_vendor_raknet_command_parser",
+      "section": 42,
+      "rva": 949208,
+      "size": 13,
+      "kind": ".rdata",
+      "sha256": "3f42ee963c7dfd4ca1a03265f8920648fb3d1b092489bc2fad5a1abadf27e058",
+      "whole_bytes_equal": true,
+      "bindings": []
+    },
+    {
+      "unit": "eval_vendor_raknet_command_parser",
+      "section": 41,
+      "rva": 949196,
+      "size": 9,
+      "kind": ".rdata",
+      "sha256": "367e2b671abaedf2ab6f99006a34260dc8bba15089f7f3aeaf971d874d4dad3d",
+      "whole_bytes_equal": true,
+      "bindings": []
+    },
+    {
+      "unit": "eval_vendor_raknet_command_parser",
+      "section": 39,
+      "rva": 949160,
+      "size": 6,
+      "kind": ".rdata",
+      "sha256": "20fc3ad1ab7bae81235cd0214d6f1462ca0f86f67b15584458a0799e0df022ea",
+      "whole_bytes_equal": true,
+      "bindings": []
+    },
+    {
+      "unit": "eval_vendor_raknet_command_parser",
+      "section": 37,
+      "rva": 949060,
+      "size": 6,
+      "kind": ".rdata",
+      "sha256": "0304d80689b8445f822cabc44c8ee7997536994516e6635270712dd2bfcef906",
+      "whole_bytes_equal": true,
+      "bindings": []
+    },
+    {
+      "unit": "eval_vendor_raknet_command_parser",
+      "section": 36,
+      "rva": 949044,
+      "size": 15,
+      "kind": ".rdata",
+      "sha256": "505cef64d42f53d40c16c611e49dc6e2f66ace93e8f873a6ebe9664b33144310",
+      "whole_bytes_equal": true,
+      "bindings": []
+    },
+    {
+      "unit": "eval_vendor_raknet_command_parser",
+      "section": 34,
+      "rva": 948996,
+      "size": 12,
+      "kind": ".rdata",
+      "sha256": "1afa0f9e1fd1b81916ce7356abfc2eedbfa8c76e904629687f36010f5658944e",
+      "whole_bytes_equal": true,
+      "bindings": []
+    },
+    {
+      "unit": "eval_vendor_raknet_command_parser",
+      "section": 33,
+      "rva": 948980,
+      "size": 14,
+      "kind": ".rdata",
+      "sha256": "c7816315a71e12bcfb44478251956d024b6141a77df88b667e4264241f5470e8",
+      "whole_bytes_equal": true,
+      "bindings": []
+    },
+    {
+      "unit": "eval_vendor_raknet_command_parser",
+      "section": 31,
+      "rva": 948940,
+      "size": 18,
+      "kind": ".rdata",
+      "sha256": "db42d4ba62d34bb1ff897603f164b4bdb6e9edbb11b036cddc0d03530eedcf17",
+      "whole_bytes_equal": true,
+      "bindings": []
+    },
+    {
+      "unit": "eval_vendor_raknet_command_parser",
+      "section": 29,
+      "rva": 948864,
+      "size": 23,
+      "kind": ".rdata",
+      "sha256": "3774506d40d177b5461f173c02b01a675e6ad7f66388c0322f835b89aace7c2c",
+      "whole_bytes_equal": true,
+      "bindings": []
+    },
+    {
+      "unit": "eval_vendor_raknet_command_parser",
+      "section": 28,
+      "rva": 948848,
+      "size": 14,
+      "kind": ".rdata",
+      "sha256": "f26c5096c59c0beea92ad668912bbd40e5cd0b031035519315e3fa03d1647ae1",
+      "whole_bytes_equal": true,
+      "bindings": []
+    },
+    {
+      "unit": "eval_vendor_raknet_command_parser",
+      "section": 26,
+      "rva": 948796,
+      "size": 14,
+      "kind": ".rdata",
+      "sha256": "446471169381dc0621b4c99ea6cd1794f5ac2025f6f048ee86f4dfa23a9b9d56",
+      "whole_bytes_equal": true,
+      "bindings": []
+    },
+    {
+      "unit": "eval_vendor_raknet_command_parser",
+      "section": 24,
+      "rva": 948732,
+      "size": 15,
+      "kind": ".rdata",
+      "sha256": "87f0e6b81e0a6eb449392d5cf8d4661ed7bb001e6ae5e9ad84d617093ce3b77d",
+      "whole_bytes_equal": true,
+      "bindings": []
+    },
+    {
+      "unit": "eval_vendor_raknet_command_parser",
+      "section": 22,
+      "rva": 948704,
+      "size": 11,
+      "kind": ".rdata",
+      "sha256": "21da6235c7107b80317b8cb073c15a60182f0e918d46e3d72a1f5f08c10f64aa",
+      "whole_bytes_equal": true,
+      "bindings": []
+    },
+    {
+      "unit": "eval_vendor_raknet_command_parser",
+      "section": 21,
+      "rva": 948692,
+      "size": 11,
+      "kind": ".rdata",
+      "sha256": "8d90eb4b13e728275ca4a841f63853abba7f01a97c221d3518c5fb0acf247522",
+      "whole_bytes_equal": true,
+      "bindings": []
+    },
+    {
+      "unit": "eval_vendor_raknet_command_parser",
+      "section": 20,
+      "rva": 948668,
+      "size": 21,
+      "kind": ".rdata",
+      "sha256": "a4587b095a70b0e1e691ca1618cdc15a838ad0045cf2cb4f455c802a74256c40",
+      "whole_bytes_equal": true,
+      "bindings": []
+    },
+    {
+      "unit": "eval_vendor_raknet_command_parser",
+      "section": 19,
+      "rva": 948648,
+      "size": 19,
+      "kind": ".rdata",
+      "sha256": "1ee4ea30100149fea7404ec1c6806068f1ce1480b8323e56c97af638b8dd9b7f",
+      "whole_bytes_equal": true,
+      "bindings": []
+    },
+    {
+      "unit": "eval_vendor_raknet_command_parser",
+      "section": 17,
+      "rva": 948580,
+      "size": 13,
+      "kind": ".rdata",
+      "sha256": "e1b533b54943e2c154885e68772eef7c66edb9596d2eecfb820c4f31ea4fbac4",
+      "whole_bytes_equal": true,
+      "bindings": []
+    },
+    {
+      "unit": "eval_vendor_raknet_command_parser",
+      "section": 97,
+      "rva": 1042336,
+      "size": 16,
+      "kind": ".data",
+      "sha256": "44774f987c1b2569c171277ac704deed6fa979e51c12bc30dc3b0defaf92ede9",
+      "whole_bytes_equal": true,
+      "bindings": []
+    },
+    {
+      "unit": "eval_vendor_raknet_command_parser",
+      "section": 80,
+      "rva": 950152,
+      "size": 40,
+      "kind": ".rdata",
+      "sha256": "01a78762fdc5b159609143a135477e79c4491c0378444db9717ae61462623528",
+      "whole_bytes_equal": true,
+      "bindings": []
+    },
+    {
+      "unit": "eval_vendor_raknet_command_parser",
+      "section": 79,
+      "rva": 950124,
+      "size": 27,
+      "kind": ".rdata",
+      "sha256": "ace69f68820dbed1f485bcc249a3795ef2635c06cff52b71bebf12760f2ec2cd",
+      "whole_bytes_equal": true,
+      "bindings": []
+    },
+    {
+      "unit": "eval_vendor_raknet_command_parser",
+      "section": 15,
+      "rva": 948544,
+      "size": 11,
+      "kind": ".rdata",
+      "sha256": "e1cb80b3d169f2e483b1632f1d71503630d1bf4b10349c674a921e74cf29a279",
+      "whole_bytes_equal": true,
+      "bindings": []
+    },
+    {
+      "unit": "eval_vendor_raknet_command_parser",
+      "section": 13,
+      "rva": 948492,
+      "size": 35,
+      "kind": ".rdata",
+      "sha256": "8b43f8724fb15385f654444659aa798c218e9ea6601e415526abbdcd426452d6",
+      "whole_bytes_equal": true,
+      "bindings": []
+    },
+    {
+      "unit": "eval_vendor_raknet_command_parser",
+      "section": 11,
+      "rva": 948392,
+      "size": 16,
+      "kind": ".rdata",
+      "sha256": "a411b5dc13f9aebbbfbf03a46c2932ca3ea31c2be66a203fcdf712ae48893394",
+      "whole_bytes_equal": true,
+      "bindings": []
+    },
+    {
+      "unit": "eval_vendor_raknet_command_parser",
+      "section": 6,
+      "rva": 948180,
+      "size": 22,
+      "kind": ".rdata",
+      "sha256": "33684d68d450935869afeed34a5b012d794784e5240bd22137c10da922f77e88",
+      "whole_bytes_equal": true,
+      "bindings": []
+    },
+    {
+      "unit": "eval_vendor_raknet_command_parser",
+      "section": 5,
+      "rva": 948152,
+      "size": 25,
+      "kind": ".rdata",
+      "sha256": "e63d95904f197ff2e400074455a39df0f4cf6f1dc0ce3518735795f615e73d18",
+      "whole_bytes_equal": true,
+      "bindings": []
+    },
+    {
+      "unit": "eval_vendor_raknet_command_parser",
+      "section": 9,
+      "rva": 948316,
+      "size": 20,
+      "kind": ".rdata",
+      "sha256": "315d6cb6de1e5a9e57a55fa74e1db4bbfa3473a729483c5014e6ab6d69f832a3",
+      "whole_bytes_equal": true,
+      "bindings": []
+    },
+    {
+      "unit": "eval_vendor_raknet_command_parser",
+      "section": 8,
+      "rva": 948296,
+      "size": 20,
+      "kind": ".rdata",
+      "sha256": "568f8294f4f206874538bbf66722b9a9a6a58ba8487b12938ca750438566dd51",
+      "whole_bytes_equal": true,
+      "bindings": []
+    },
+    {
+      "unit": "eval_vendor_raknet_command_parser",
+      "section": 4,
+      "rva": 926800,
+      "size": 18,
+      "kind": ".text$x",
+      "sha256": "1f2871d80218cbac304e93bd10cab347462871629a5279e939f4299c185369b5",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "??1CommandParserInterface@@UAE@XZ",
+          "site_rva": 926804,
+          "target_va": 268569136,
+          "kind": 20
+        },
+        {
+          "symbol": "$T3670",
+          "site_rva": 926809,
+          "target_va": 269459728,
+          "kind": 6
+        },
+        {
+          "symbol": "___CxxFrameHandler",
+          "site_rva": 926814,
+          "target_va": 269247782,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "eval_vendor_raknet_command_parser",
+      "section": 70,
+      "rva": 950008,
+      "size": 114,
+      "kind": ".rdata",
+      "sha256": "f61ff38ad8346c9deb58903572579c5a9f6ba6f2b347b9c7853d4f8278d4470f",
+      "whole_bytes_equal": true,
+      "bindings": []
+    },
+    {
+      "unit": "eval_vendor_raknet_command_parser",
+      "section": 67,
+      "rva": 949932,
+      "size": 4,
+      "kind": ".rdata",
+      "sha256": "f1d99266b3701df64a6f4a724077856124970f2ea90ad81eea1c0bee4a5feb2c",
+      "whole_bytes_equal": true,
+      "bindings": []
+    },
+    {
+      "unit": "eval_vendor_raknet_command_parser",
+      "section": 65,
+      "rva": 949900,
+      "size": 10,
+      "kind": ".rdata",
+      "sha256": "32e7f8beefc8ecc18efe306f53ab5dacfb3b49146049fb270914645091cb9bf7",
+      "whole_bytes_equal": true,
+      "bindings": []
+    },
+    {
+      "unit": "eval_vendor_raknet_command_parser",
+      "section": 63,
+      "rva": 949848,
+      "size": 34,
+      "kind": ".rdata",
+      "sha256": "cf8a3ef51f350d5ebd2aff0e408ae1cfee66bc35f0c10f2720c964d48f465ed7",
+      "whole_bytes_equal": true,
+      "bindings": []
+    },
+    {
+      "unit": "eval_vendor_raknet_command_parser",
+      "section": 61,
+      "rva": 949800,
+      "size": 16,
+      "kind": ".rdata",
+      "sha256": "9034ff7c2aae925eac8961ee737180053653812bd6f639384e5e673fb7994ae3",
+      "whole_bytes_equal": true,
+      "bindings": []
+    },
+    {
+      "unit": "eval_vendor_raknet_command_parser",
+      "section": 59,
+      "rva": 949672,
+      "size": 93,
+      "kind": ".rdata",
+      "sha256": "d50d082066e66e9659b2ea502614ef5f77788055abb69f0ff734851015f239ea",
+      "whole_bytes_equal": true,
+      "bindings": []
+    },
+    {
+      "unit": "eval_vendor_raknet_command_parser",
+      "section": 57,
+      "rva": 949592,
+      "size": 65,
+      "kind": ".rdata",
+      "sha256": "5f0e1074658fcb1dc5e024b1e41b2baa8d9e79dc24b4cf46da4f72816dc0ac61",
+      "whole_bytes_equal": true,
+      "bindings": []
+    },
+    {
+      "unit": "eval_vendor_raknet_command_parser",
+      "section": 54,
+      "rva": 949556,
+      "size": 10,
+      "kind": ".rdata",
+      "sha256": "0f67c0dec302a048279bf711e4fc737ab739c08504c05ae941668422898f213c",
+      "whole_bytes_equal": true,
+      "bindings": []
+    },
+    {
+      "unit": "eval_vendor_raknet_command_parser",
+      "section": 52,
+      "rva": 949440,
+      "size": 96,
+      "kind": ".rdata",
+      "sha256": "4b277a8c97b4b0d4d4e5e3684086fa23d293781f48d4e0f60dd8034bcd73310c",
+      "whole_bytes_equal": true,
+      "bindings": []
+    },
+    {
+      "unit": "eval_vendor_raknet_command_parser",
+      "section": 50,
+      "rva": 949392,
+      "size": 29,
+      "kind": ".rdata",
+      "sha256": "53f52b3f82c1517d78a7be35e72f883f3627701e4700dbe5ac784df0deb11925",
+      "whole_bytes_equal": true,
+      "bindings": []
+    },
+    {
+      "unit": "eval_vendor_raknet_command_parser",
+      "section": 48,
+      "rva": 949352,
+      "size": 15,
+      "kind": ".rdata",
+      "sha256": "a755174eb62deffacac1ee80f0c3f999003e4f73d7f1e204bfe0f37ac3bde766",
+      "whole_bytes_equal": true,
+      "bindings": []
+    },
+    {
+      "unit": "eval_vendor_raknet_command_parser",
+      "section": 46,
+      "rva": 949280,
+      "size": 47,
+      "kind": ".rdata",
+      "sha256": "25ed1dbf8dde669e1cb79c8b0416d01a45127acbe0834a95f41e88e40be4ec68",
+      "whole_bytes_equal": true,
+      "bindings": []
+    },
+    {
+      "unit": "eval_vendor_raknet_command_parser",
+      "section": 44,
+      "rva": 949244,
+      "size": 20,
+      "kind": ".rdata",
+      "sha256": "0ce61dbb61b8c0d3c295d61646388ab83410b8108e700dc6995e221ee34f239f",
+      "whole_bytes_equal": true,
+      "bindings": []
+    },
+    {
+      "unit": "eval_vendor_raknet_command_parser",
+      "section": 40,
+      "rva": 949168,
+      "size": 27,
+      "kind": ".rdata",
+      "sha256": "c7e34ad19596b199efab38859ff118031fa1615a755cf5ddc375592830081bcd",
+      "whole_bytes_equal": true,
+      "bindings": []
+    },
+    {
+      "unit": "eval_vendor_raknet_command_parser",
+      "section": 38,
+      "rva": 949072,
+      "size": 87,
+      "kind": ".rdata",
+      "sha256": "d907781e2f0fce8af691ed6e9abf5cf9eeaf9dd86f0142d48785239d832c872d",
+      "whole_bytes_equal": true,
+      "bindings": []
+    },
+    {
+      "unit": "eval_vendor_raknet_command_parser",
+      "section": 35,
+      "rva": 949008,
+      "size": 35,
+      "kind": ".rdata",
+      "sha256": "2d3afb0e615195584818d57e88e36fe06346b89ceb98a01aa5b668d652eb33db",
+      "whole_bytes_equal": true,
+      "bindings": []
+    },
+    {
+      "unit": "eval_vendor_raknet_command_parser",
+      "section": 32,
+      "rva": 948960,
+      "size": 17,
+      "kind": ".rdata",
+      "sha256": "e141db89b0f04af1144aa8bf32ec9ae70b9eed549540d1c9daba09537b6116df",
+      "whole_bytes_equal": true,
+      "bindings": []
+    },
+    {
+      "unit": "eval_vendor_raknet_command_parser",
+      "section": 30,
+      "rva": 948888,
+      "size": 49,
+      "kind": ".rdata",
+      "sha256": "baff1156c5c51f40b6265671b789270785286bd8743e5c40398edb64f92b0f8f",
+      "whole_bytes_equal": true,
+      "bindings": []
+    },
+    {
+      "unit": "eval_vendor_raknet_command_parser",
+      "section": 27,
+      "rva": 948812,
+      "size": 33,
+      "kind": ".rdata",
+      "sha256": "2c12347b7df098f1f176f4a0ea27e284c48a039ed3a3ec33a3f9fefe38b0f06e",
+      "whole_bytes_equal": true,
+      "bindings": []
+    },
+    {
+      "unit": "eval_vendor_raknet_command_parser",
+      "section": 25,
+      "rva": 948748,
+      "size": 46,
+      "kind": ".rdata",
+      "sha256": "dffc5334973f4debf17952681f0c060b38379bf53033946efe32f8ac56e9be1d",
+      "whole_bytes_equal": true,
+      "bindings": []
+    },
+    {
+      "unit": "eval_vendor_raknet_command_parser",
+      "section": 23,
+      "rva": 948716,
+      "size": 14,
+      "kind": ".rdata",
+      "sha256": "bd5075623ca420c10226d47290d8d0436f638457c14c872df2b64fc39babc1f6",
+      "whole_bytes_equal": true,
+      "bindings": []
+    },
+    {
+      "unit": "eval_vendor_raknet_command_parser",
+      "section": 18,
+      "rva": 948596,
+      "size": 49,
+      "kind": ".rdata",
+      "sha256": "37676ea34d81ec7e6cb3137cae3a7bbe4c1d9c08e944f77f1cb50e002cca289e",
+      "whole_bytes_equal": true,
+      "bindings": []
+    },
+    {
+      "unit": "eval_vendor_raknet_command_parser",
+      "section": 16,
+      "rva": 948556,
+      "size": 24,
+      "kind": ".rdata",
+      "sha256": "4679df3231121146f93ea8600d5a22a4d42c535bcff196ae3ea0c1d4bc752ae9",
+      "whole_bytes_equal": true,
+      "bindings": []
+    },
+    {
+      "unit": "eval_vendor_raknet_command_parser",
+      "section": 14,
+      "rva": 948528,
+      "size": 16,
+      "kind": ".rdata",
+      "sha256": "d31bf70a99382a51f33fa9eb3d3168b6a51ffab816ee989841b3c2ba1303d5ae",
+      "whole_bytes_equal": true,
+      "bindings": []
+    },
+    {
+      "unit": "eval_vendor_raknet_command_parser",
+      "section": 12,
+      "rva": 948408,
+      "size": 83,
+      "kind": ".rdata",
+      "sha256": "cd9ee82c16a5fd59cdcbd5d3abc66a73b6bb70a52c9d6e59e2ebe4d3e0283f8e",
+      "whole_bytes_equal": true,
+      "bindings": []
+    },
+    {
+      "unit": "eval_vendor_raknet_command_parser",
+      "section": 10,
+      "rva": 948336,
+      "size": 54,
+      "kind": ".rdata",
+      "sha256": "3e1384217146aa3294c6ae7b3d9997f80e1fff410b7fc9c7a851f4d7b6aab311",
+      "whole_bytes_equal": true,
+      "bindings": []
+    },
+    {
+      "unit": "eval_vendor_raknet_command_parser",
+      "section": 7,
+      "rva": 948208,
+      "size": 85,
+      "kind": ".rdata",
+      "sha256": "bf38904f5bbaf1ab00581499dbb14acc24ada0fda6262fd8779a2a6ab15a01bd",
+      "whole_bytes_equal": true,
+      "bindings": []
+    },
+    {
+      "unit": "eval_vendor_raknet_command_parser",
+      "section": 71,
+      "rva": 1024264,
+      "size": 36,
+      "kind": ".xdata$x",
+      "sha256": "49b460a1b947f71f605d08e0e34704984d9aaf5c7bdf6ff21212e935548c1b63",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "$L3666",
+          "site_rva": 1024268,
+          "target_va": 269362256,
+          "kind": 6
+        },
+        {
+          "symbol": "$T3675",
+          "site_rva": 1024280,
+          "target_va": 269459720,
+          "kind": 6
+        }
+      ]
+    }
+  ],
+  "bindings_checked": 249,
+  "external_targets": {
+    "??_C@_06IFBHNIIL@RakNet?$AA@": 269385792,
+    "??3@YAXPAX@Z": 269247626,
+    "??_7RakNetCommandParser@@6B@": 269385392,
+    "??1CommandParserInterface@@UAE@XZ": 268569136,
+    "??_C@_0DJ@IKKKFOCF@The?5RakNet?5parser?5provides?5mirro@": 269385940,
+    "??_C@_0DO@EIJLHEFL@PlayerIDs?5take?5two?5parameters?3?5s@": 269385876,
+    "??_C@_0BJ@BAHHPHPK@For?5bool?0?5send?51?5or?50?4?$AN?6?$AA@": 269385848,
+    "??_C@_0DA@LBMNAFLL@Parser?5not?5active?4?5?5Call?5SetRakP@": 269385800,
+    "??_C@_0L@KIAPHAEH@Initialize?$AA@": 269385452,
+    "_atoi": 269249830,
+    "??_C@_0BD@CEGNGNCO@InitializeSecurity?$AA@": 269385368,
+    "??_C@_0BA@GLBJOADB@DisableSecurity?$AA@": 269385340,
+    "??_C@_0BO@KHLAAKGH@SetMaximumIncomingConnections?$AA@": 269385272,
+    "??_C@_0BO@CGNPLKEF@GetMaximumIncomingConnections?$AA@": 269385224,
+    "??_C@_07FJPHLACI@Connect?$AA@": 269385116,
+    "??_C@_0L@CMGJAGDM@Disconnect?$AA@": 269385036,
+    "??_C@_08CHIOLOMB@IsActive?$AA@": 269385024,
+    "??_C@_0BC@ILJDNENF@GetConnectionList?$AA@": 269384992,
+    "??_C@_0DF@CCBLEPAE@GetConnectionList?$CI?$CJ?5returned?5no?5@": 269385736,
+    "??_C@_0CA@FBLBOFOF@GetConnectionList?$CI?$CJ?5returned?3?$AN?6?$AA@": 269385704,
+    "??_C@_0O@CJPBCGIF@?$CFi?5?$CFs?5?$CFi?3?$CFi?$AN?6?$AA@": 269385688,
+    "??_C@_0CG@CPJOBPEE@GetConnectionList?$CI?$CJ?5returned?5fal@": 269385648,
+    "??_C@_0BA@OFFOMIIA@CloseConnection?$AA@": 269384880,
+    "?IntegersToPlayerID@CommandParserInterface@@IAE?AUPlayerID@@HH@Z": 268567840,
+    "??_C@_0BF@DOAJNCJI@GetIndexFromPlayerID?$AA@": 269384824,
+    "??_C@_0BF@IHDMHLBB@GetPlayerIDFromIndex?$AA@": 269384784,
+    "??_C@_0N@NKKCKAAI@AddToBanList?$AA@": 269384720,
+    "??_C@_0BC@OPAHFPCI@RemoveFromBanList?$AA@": 269384680,
+    "??_C@_0N@KOCJFACH@ClearBanList?$AA@": 269384664,
+    "??_C@_08OLFCJOKF@IsBanned?$AA@": 269384652,
+    "??_C@_05IGKNBJLA@Ping1?$AA@": 269384616,
+    "??_C@_05KNIAEKHD@Ping2?$AA@": 269384516,
+    "??_C@_0P@EDIOBIMO@GetAveragePing?$AA@": 269384500,
+    "??_C@_0M@GBOMMBCI@GetLastPing?$AA@": 269384452,
+    "??_C@_0O@JFCMDFLA@GetLowestPing?$AA@": 269384436,
+    "??_C@_0BC@EMOHACJN@SetOccasionalPing?$AA@": 269384396,
+    "??_C@_0BH@COFJJKJJ@SetOfflinePingResponse?$AA@": 269384320,
+    "??_C@_0O@BODKKCEA@GetInternalID?$AA@": 269384304,
+    "??_C@_0O@DOJAMBCI@GetExternalID?$AA@": 269384252,
+    "??_C@_0P@BHOCBDLP@SetTimeoutTime?$AA@": 269384188,
+    "??_C@_0L@KOJFFEPB@SetMTUSize?$AA@": 269384160,
+    "??_C@_0L@LALKODLI@GetMTUSize?$AA@": 269384148,
+    "??_C@_0BF@PNPCKBMP@GetNumberOfAddresses?$AA@": 269384124,
+    "??_C@_0BD@MPNIDDPE@PlayerIDToDottedIP?$AA@": 269384104,
+    "??_C@_0N@JBCDMKNH@IPToPlayerID?$AA@": 269384036,
+    "eval_vendor_raknet_command_parser::_UNASSIGNED_PLAYER_ID": 269477792,
+    "??8PlayerID@@QBE_NABU0@@Z": 268646112,
+    "??_C@_0CI@CKHCAGCF@IPToPlayerID?$CI?$CJ?3?5UNASSIGNED_PLAYE@": 269385608,
+    "??_C@_0BL@EPHHODIP@IPToPlayerID?$CI?$CJ?3?5?$CFs?5?$CFi?3?$CFi?$AN?6?$AA@": 269385580,
+    "??_C@_0L@GMHEHEJF@GetLocalIP?$AA@": 269384000,
+    "??_C@_0CD@KAMMBDPJ@AllowConnectionResponseIPMigrati@": 269383948,
+    "??_C@_0BA@FKEMDMEG@AdvertiseSystem?$AA@": 269383848,
+    "??_C@_0BG@CPIIDFPC@ApplyNetworkSimulator?$AA@": 269383636,
+    "_atof": 269257962,
+    "??_C@_0BJ@FMJBLPB@IsNetworkSimulatorActive?$AA@": 269383608,
+    "??_C@_0BE@DMIJCLBA@SetIncomingPassword?$AA@": 269383772,
+    "??_C@_0BE@JCKCGLGM@GetIncomingPassword?$AA@": 269383752,
+    "__ehhandler$??0RakNetCommandParser@@QAE@XZ": 269362264,
+    "__except_list": 0,
+    "??0CommandParserInterface@@QAE@XZ": 268569104,
+    "??_C@_0HC@CHNGBBNI@?$CI?5unsigned?5short?5maxConnections?0@": 269385464,
+    "?RegisterCommand@CommandParserInterface@@MAEXEPBD0@Z": 268568880,
+    "??_C@_03LABDDFGF@?$CI?$CJ?$DL?$AA@": 269385388,
+    "??_C@_09DNJKEAGD@?$CI?5void?5?$CJ?$DL?$AA@": 269385356,
+    "??_C@_0CC@NFNIDBGI@?$CI?5unsigned?5short?5numberAllowed?5?$CJ@": 269385304,
+    "??_C@_0BA@HKDCHNNO@?$CI?5void?5?$CJ?5const?$DL?$AA@": 269385256,
+    "??_C@_0FN@GFIEFHJA@?$CI?5const?5char?$CK?5host?0?5unsigned?5sho@": 269385128,
+    "??_C@_0EB@PCFINJNC@?$CI?5unsigned?5int?5blockDuration?0?5un@": 269385048,
+    "??_C@_09OEOFIABO@?$CI?$CJ?5const?$DL?$AA@": 269385012,
+    "??_C@_0GA@KACHFANE@?$CI?5const?5PlayerID?5target?0?5bool?5se@": 269384896,
+    "??_C@_0BN@LKNIHIDH@?$CI?5const?5PlayerID?5playerId?5?$CJ?$DL?$AA@": 269384848,
+    "??_C@_0P@JLHINONG@?$CI?5int?5index?5?$CJ?$DL?$AA@": 269384808,
+    "??_C@_0CP@LDLKKGIO@?$CI?5const?5char?5?$CKIP?0?5RakNetTime?5mil@": 269384736,
+    "??_C@_0BE@NLLELJHO@?$CI?5const?5char?5?$CKIP?5?$CJ?$DL?$AA@": 269384700,
+    "??_C@_0BL@EENGEPEM@?$CI?5const?5PlayerID?5target?5?$CJ?$DL?$AA@": 269384624,
+    "??_C@_0FH@LBEFBABP@?$CI?5const?5char?$CK?5host?0?5unsigned?5sho@": 269384528,
+    "??_C@_0CD@KJBLFJML@?$CI?5const?5PlayerID?5playerId?5?$CJ?5cons@": 269384464,
+    "??_C@_0BB@PJAEIOFC@?$CI?5bool?5doPing?5?$CJ?$DL?$AA@": 269384416,
+    "??_C@_0DB@DCEMLAGG@?$CI?5const?5char?5?$CKdata?0?5const?5unsign@": 269384344,
+    "??_C@_0CB@IEHKOJLG@?$CI?5const?5PlayerID?5target?5?$CJ?5const?$DL@": 269384268,
+    "??_C@_0CO@HEMFMHDA@?$CI?5RakNetTime?5timeMS?0?5const?5Playe@": 269384204,
+    "??_C@_0O@MFILJDHD@?$CI?5int?5size?5?$CJ?$DL?$AA@": 269384172,
+    "??_C@_0DB@OOHEDHIF@?$CI?5const?5char?$CK?5host?0?5unsigned?5sho@": 269384052,
+    "??_C@_0BI@PMILEPOG@?$CI?5unsigned?5int?5index?5?$CJ?$DL?$AA@": 269384012,
+    "??_C@_0BA@GNMOGEAE@?$CI?5bool?5allow?5?$CJ?$DL?$AA@": 269383984,
+    "??_C@_0FD@OEMJOMAP@?$CI?5const?5char?5?$CKhost?0?5unsigned?5sho@": 269383864,
+    "??_C@_0DG@OPDKKEOB@?$CI?5const?5char?$CK?5passwordData?0?5int?5@": 269383792,
+    "??_C@_0FF@NHEKHBGP@?$CI?5double?5maxSendBPS?0?5unsigned?5sh@": 269383664,
+    "??_ERakNetCommandParser@@UAEPAXI@Z": 268658160,
+    "?OnNewIncomingConnection@CommandParserInterface@@UAEXUPlayerID@@PAVTransportInterface@@@Z": 268567488,
+    "?OnConnectionLost@CommandParserInterface@@UAEXUPlayerID@@PAVTransportInterface@@@Z": 268567504,
+    "?OnTransportChange@CommandParserInterface@@UAEXPAVTransportInterface@@@Z": 268567472,
+    "?GetRegisteredCommand@CommandParserInterface@@UAE_NPBDPAURegisteredCommand@@@Z": 268568944,
+    "?SendCommandList@CommandParserInterface@@UAEXPAVTransportInterface@@UPlayerID@@@Z": 268568656,
+    "?ReturnResult@CommandParserInterface@@MAEXPBDPAVTransportInterface@@UPlayerID@@@Z": 268567648,
+    "?ReturnResult@CommandParserInterface@@MAEXHPBDPAVTransportInterface@@UPlayerID@@@Z": 268567584,
+    "?ReturnResult@CommandParserInterface@@MAEXUPlayerID@@PBDPAVTransportInterface@@0@Z": 268567760,
+    "?ReturnResult@CommandParserInterface@@MAEXPADPBDPAVTransportInterface@@UPlayerID@@@Z": 268567696,
+    "?ReturnResult@CommandParserInterface@@MAEX_NPBDPAVTransportInterface@@UPlayerID@@@Z": 268567520,
+    "eval_vendor_raknet_command_parser::$T3670": 269459728,
+    "___CxxFrameHandler": 269247782,
+    "eval_vendor_raknet_command_parser::$L3666": 269362256,
+    "eval_vendor_raknet_command_parser::$T3675": 269459720
+  },
+  "identity_reasons": {
+    "??0RakNetCommandParser@@QAE@XZ": "source method semantics + original call graph / allocation / table owner",
+    "?SetRakPeerInterface@RakNetCommandParser@@QAEXPAVRakPeerInterface@@@Z": "source method semantics + original call graph / allocation / table owner",
+    "?OnCommand@RakNetCommandParser@@UAE_NPBDIPAPADPAVTransportInterface@@UPlayerID@@0@Z": "source method semantics + original call graph / allocation / table owner",
+    "?SendHelp@RakNetCommandParser@@UAEXPAVTransportInterface@@UPlayerID@@@Z": "source method semantics + original call graph / allocation / table owner",
+    "??_GRakNetCommandParser@@UAEPAXI@Z": "source method semantics + original call graph / allocation / table owner",
+    "?GetName@RakNetCommandParser@@UBEPADXZ": "source method semantics + original call graph / allocation / table owner",
+    "??1RakNetCommandParser@@UAE@XZ": "actual relocation from ??_GRakNetCommandParser@@UAEPAXI@Z"
+  },
+  "new_unique_code": 5090,
+  "already_covered_code": 0,
+  "physical_code_compared": 5090,
+  "baseline": 360128,
+  "source025_direct_bytes": 0,
+  "reuse_existing_owners": {},
+  "excluded_unmatched": [],
+  "explicit_owner_transfer": "None; new RakNetCommandParser sole owner.",
+  "unselected_method": "Seven actual parser methods identified by full callers, own VFT and literal identities. No concrete RakPeerInterface implementation credit.",
+  "source_files": [
+    {
+      "path": "client/saco/eval_vendor_raknet_command_parser.cpp",
+      "sha256": "7ccdec06669b9421c095e7a85dd50e8a5dc3e9076126c08365529a133fb8f8ae"
+    }
+  ],
+  "objects": {
+    "eval_vendor_raknet_command_parser": "46df69d8be8cd546378bb3cac35e613826ee76ea25b33d33e1d7a97664c8c892"
+  },
+  "actual_weak_aliases": {
+    "eval_vendor_raknet_command_parser": {
+      "??_ERakNetCommandParser@@UAEPAXI@Z": "??_GRakNetCommandParser@@UAEPAXI@Z"
+    }
+  }
+}

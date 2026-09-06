@@ -1,0 +1,2288 @@
+{
+  "status": "REVIEWED_MAIN_SEEDS_AND_WHOLE_EH_BINDINGS_PREFLIGHT",
+  "run": "build/cp32-rakpeer-rsa-trial2",
+  "roots": {
+    "?getPublicKey@?$RSACrypt@$$BY07I@big@@QAEXAAIAAY07I@Z": 241840,
+    "?reset@?$RSACrypt@$$BY07I@big@@QAEXXZ": 241872,
+    "?setPublicKey@?$RSACrypt@$$BY07I@big@@QAEXIAAY07I@Z": 265104,
+    "?encrypt@?$RSACrypt@$$BY07I@big@@QAEXAAY07I0@Z": 265200,
+    "?decrypt@?$RSACrypt@$$BY07I@big@@QAEXAAY07I0@Z": 265312,
+    "??$setPrivateKey@$$BY03I@?$RSACrypt@$$BY07I@big@@QAEXAAY03I0@Z": 265408,
+    "?generateKeys@?$RSACrypt@$$BY07I@big@@QAEXXZ": 272192,
+    "??0?$RSACrypt@$$BY07I@big@@QAE@XZ": 248928,
+    "??1?$RSACrypt@$$BY07I@big@@QAE@XZ": 248944
+  },
+  "seeds": {
+    "eval_vendor_rakpeer_rsa": {
+      "??1?$RSACrypt@$$BY07I@big@@QAE@XZ": 248944,
+      "?reset@?$RSACrypt@$$BY07I@big@@QAEXXZ": 241872,
+      "??0?$RSACrypt@$$BY07I@big@@QAE@XZ": 248928,
+      "?generateKeys@?$RSACrypt@$$BY07I@big@@QAEXXZ": 272192,
+      "??$setPrivateKey@$$BY03I@?$RSACrypt@$$BY07I@big@@QAEXAAY03I0@Z": 265408,
+      "??$rModn@$$BY03I@big@@YAXAAY03I0@Z": 250768,
+      "??$umodulo@$$BY07I@big@@YAXAAY07I00@Z": 243536,
+      "??$subtract@$$BY07I@big@@YAXAAY07I0@Z": 237696,
+      "??$ushiftRight1@$$BY07I@big@@YAXAAY07I@Z": 238352,
+      "??$shiftLeft1@$$BY07I@big@@YAXAAY07I@Z": 238240,
+      "??$shiftLeft@$$BY07I@big@@YAXAAY07II@Z": 237120,
+      "??$ugreater@$$BY07I@big@@YA_NAAY07I0@Z": 237344,
+      "??$computeNRinverse@$$BY03I@big@@YAXAAY03I0@Z": 262656,
+      "??$udivide@$$BY07I@big@@YAXAAY07I000@Z": 245232,
+      "??$decrement@$$BY07I@big@@YAXAAY07I@Z": 236688,
+      "??$computeRinverse@$$BY03I@big@@YAXAAY03I0@Z": 252800,
+      "??$SubMulMod@$$BY03I@big@@YAXAAY03I0000@Z": 244944,
+      "??$add@$$BY03I@big@@YAXAAY03I0@Z": 236848,
+      "??$subtract@$$BY03I@big@@YAXAAY03I0@Z": 236752,
+      "??$ugreater@$$BY03I@big@@YA_NAAY03I0@Z": 236272,
+      "??$umultiply@$$BY03I$$BY07I@big@@YAXAAY07IAAY03I@Z": 238976,
+      "??$add@$$BY07I@big@@YAXAAY07I0@Z": 236944,
+      "??$udivide@$$BY03I@big@@YAXAAY03I000@Z": 244528,
+      "??$ushiftRight1@$$BY03I@big@@YAXAAY03I@Z": 237568,
+      "??$shiftLeft1@$$BY03I@big@@YAXAAY03I@Z": 238912,
+      "??$shiftLeft@$$BY03I@big@@YAXAAY03II@Z": 238768,
+      "??$rModn@$$BY07I@big@@YAXAAY07I0@Z": 249248,
+      "??$umodulo@$$BY0BA@I@big@@YAXAAY0BA@I00@Z": 243200,
+      "??$subtract@$$BY0BA@I@big@@YAXAAY0BA@I0@Z": 238144,
+      "??$ushiftRight1@$$BY0BA@I@big@@YAXAAY0BA@I@Z": 238096,
+      "??$shiftLeft1@$$BY0BA@I@big@@YAXAAY0BA@I@Z": 238048,
+      "??$shiftLeft@$$BY0BA@I@big@@YAXAAY0BA@II@Z": 237904,
+      "??$ugreater@$$BY0BA@I@big@@YA_NAAY0BA@I0@Z": 237840,
+      "??$computeNRinverse@$$BY07I@big@@YAXAAY07I0@Z": 261616,
+      "??$udivide@$$BY0BA@I@big@@YAXAAY0BA@I000@Z": 242816,
+      "??$decrement@$$BY0BA@I@big@@YAXAAY0BA@I@Z": 236448,
+      "??$computeRinverse@$$BY07I@big@@YAXAAY07I0@Z": 250928,
+      "??$SubMulMod@$$BY07I@big@@YAXAAY07I0000@Z": 246000,
+      "??$umultiply@$$BY07I$$BY0BA@I@big@@YAXAAY0BA@IAAY07I@Z": 239120,
+      "??$add@$$BY0BA@I@big@@YAXAAY0BA@I0@Z": 238640,
+      "??$computeModularInverse@$$BY03I@big@@YAXAAY03I00@Z": 250096,
+      "??$computePrivateExponent@$$BY07I@big@@YAXAAY07I00@Z": 262640,
+      "??$computeModularInverse@$$BY07I@big@@YAXAAY07I00@Z": 252112,
+      "??$computePublicExponent@$$BY07I@big@@YAXAAY07I0@Z": 249872,
+      "??$GCD@$$BY07I@big@@YAXAAY07I00@Z": 244336,
+      "??$umultiply@$$BY03I$$BY07I@big@@YAXAAY03I0AAY07I@Z": 242624,
+      "??$decrement@$$BY03I@big@@YAXAAY03I@Z": 236368,
+      "??$generateStrongPseudoPrime@$$BY03I@big@@YAXAAY03I@Z": 265808,
+      "??$RabinMillerPrimalityTest@$$BY03I@big@@YA_NAAY03II@Z": 262848,
+      "??$simpleModExp@$$BY03I@big@@YAXAAY03I000@Z": 251696,
+      "??$umultiply@$$BY07I$$BY07I@big@@YAXAAY07I00@Z": 246304,
+      "??$usquare@$$BY07I@big@@YAXAAY07I@Z": 238480,
+      "??$umodulo@$$BY03I@big@@YAXAAY03I00@Z": 245632,
+      "?decrypt@?$RSACrypt@$$BY07I@big@@QAEXAAY07I0@Z": 265312,
+      "??$CRTModExp@$$BY03I$$BY07I@big@@YAXAAY07I00AAY03I111111@Z": 261824,
+      "??$umultiply@$$BY07I$$BY07I@big@@YAXAAY07I0@Z": 243872,
+      "?encrypt@?$RSACrypt@$$BY07I@big@@QAEXAAY07I0@Z": 265200,
+      "??$simpleModExp@$$BY07I@big@@YAXAAY07I000@Z": 249456,
+      "??$umultiply@$$BY0BA@I$$BY0BA@I@big@@YAXAAY0BA@I00@Z": 244192,
+      "??$usquare@$$BY0BA@I@big@@YAXAAY0BA@I@Z": 244016,
+      "?setPublicKey@?$RSACrypt@$$BY07I@big@@QAEXIAAY07I@Z": 265104,
+      "?getPublicKey@?$RSACrypt@$$BY07I@big@@QAEXAAIAAY07I@Z": 241840
+    }
+  },
+  "regions": [
+    {
+      "unit": "eval_vendor_rakpeer_rsa",
+      "section": 122,
+      "rva": 248944,
+      "size": 5,
+      "kind": ".text",
+      "sha256": "c0bef03ec2cb6158c98778d9a6fa0a03c8b7c28dbee324cdb89b8ec4013954a2",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "?reset@?$RSACrypt@$$BY07I@big@@QAEXXZ",
+          "site_rva": 248945,
+          "target_va": 268677328,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "eval_vendor_rakpeer_rsa",
+      "section": 88,
+      "rva": 241872,
+      "size": 89,
+      "kind": ".text",
+      "sha256": "453c38fe2e73595e734e7ea0032c385c26b770c5ea76d6ac415fed73c9943127",
+      "whole_bytes_equal": true,
+      "bindings": []
+    },
+    {
+      "unit": "eval_vendor_rakpeer_rsa",
+      "section": 120,
+      "rva": 248928,
+      "size": 12,
+      "kind": ".text",
+      "sha256": "bcef2a495c530445706e41dfe984b4ceea8e794e05dda8361ecb98b4e6829f16",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "?reset@?$RSACrypt@$$BY07I@big@@QAEXXZ",
+          "site_rva": 248932,
+          "target_va": 268677328,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "eval_vendor_rakpeer_rsa",
+      "section": 162,
+      "rva": 272192,
+      "size": 51,
+      "kind": ".text",
+      "sha256": "054f8ebf57b9002df4c71f6126360e4354201731ce2bf445a5f48c41f1cd941b",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "??$generateStrongPseudoPrime@$$BY03I@big@@YAXAAY03I@Z",
+          "site_rva": 272204,
+          "target_va": 268701264,
+          "kind": 20
+        },
+        {
+          "symbol": "??$generateStrongPseudoPrime@$$BY03I@big@@YAXAAY03I@Z",
+          "site_rva": 272214,
+          "target_va": 268701264,
+          "kind": 20
+        },
+        {
+          "symbol": "??$setPrivateKey@$$BY03I@?$RSACrypt@$$BY07I@big@@QAEXAAY03I0@Z",
+          "site_rva": 272234,
+          "target_va": 268700864,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "eval_vendor_rakpeer_rsa",
+      "section": 158,
+      "rva": 265408,
+      "size": 394,
+      "kind": ".text",
+      "sha256": "4ccb90a3ca053e040bbe885066695d19e832c4dcb9d1cc762aca5589a2ae5f03",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "??$ugreater@$$BY03I@big@@YA_NAAY03I0@Z",
+          "site_rva": 265435,
+          "target_va": 268671728,
+          "kind": 20
+        },
+        {
+          "symbol": "??$decrement@$$BY03I@big@@YAXAAY03I@Z",
+          "site_rva": 265603,
+          "target_va": 268671824,
+          "kind": 20
+        },
+        {
+          "symbol": "??$decrement@$$BY03I@big@@YAXAAY03I@Z",
+          "site_rva": 265642,
+          "target_va": 268671824,
+          "kind": 20
+        },
+        {
+          "symbol": "??$umultiply@$$BY03I$$BY07I@big@@YAXAAY03I0AAY07I@Z",
+          "site_rva": 265664,
+          "target_va": 268678080,
+          "kind": 20
+        },
+        {
+          "symbol": "??$computePublicExponent@$$BY07I@big@@YAXAAY07I0@Z",
+          "site_rva": 265671,
+          "target_va": 268685328,
+          "kind": 20
+        },
+        {
+          "symbol": "??$computePrivateExponent@$$BY07I@big@@YAXAAY07I00@Z",
+          "site_rva": 265685,
+          "target_va": 268698096,
+          "kind": 20
+        },
+        {
+          "symbol": "??$computeModularInverse@$$BY03I@big@@YAXAAY03I00@Z",
+          "site_rva": 265699,
+          "target_va": 268685552,
+          "kind": 20
+        },
+        {
+          "symbol": "??$umultiply@$$BY03I$$BY07I@big@@YAXAAY03I0AAY07I@Z",
+          "site_rva": 265710,
+          "target_va": 268678080,
+          "kind": 20
+        },
+        {
+          "symbol": "??$computeNRinverse@$$BY07I@big@@YAXAAY07I0@Z",
+          "site_rva": 265723,
+          "target_va": 268697072,
+          "kind": 20
+        },
+        {
+          "symbol": "??$rModn@$$BY07I@big@@YAXAAY07I0@Z",
+          "site_rva": 265733,
+          "target_va": 268684704,
+          "kind": 20
+        },
+        {
+          "symbol": "??$computeNRinverse@$$BY03I@big@@YAXAAY03I0@Z",
+          "site_rva": 265746,
+          "target_va": 268698112,
+          "kind": 20
+        },
+        {
+          "symbol": "??$rModn@$$BY03I@big@@YAXAAY03I0@Z",
+          "site_rva": 265759,
+          "target_va": 268686224,
+          "kind": 20
+        },
+        {
+          "symbol": "??$computeNRinverse@$$BY03I@big@@YAXAAY03I0@Z",
+          "site_rva": 265772,
+          "target_va": 268698112,
+          "kind": 20
+        },
+        {
+          "symbol": "??$rModn@$$BY03I@big@@YAXAAY03I0@Z",
+          "site_rva": 265785,
+          "target_va": 268686224,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "eval_vendor_rakpeer_rsa",
+      "section": 132,
+      "rva": 250768,
+      "size": 147,
+      "kind": ".text",
+      "sha256": "4361dc99c26082e70f95fd9c9568089e7b34ac2d59fb013e51dcb5a49a603860",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "??$umodulo@$$BY07I@big@@YAXAAY07I00@Z",
+          "site_rva": 250876,
+          "target_va": 268678992,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "eval_vendor_rakpeer_rsa",
+      "section": 98,
+      "rva": 243536,
+      "size": 323,
+      "kind": ".text",
+      "sha256": "6396899ee48b9e3335c120c928d0d7e0f5fb9fe17592ac1d580a0b23a50f8d83",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "??$ugreater@$$BY07I@big@@YA_NAAY07I0@Z",
+          "site_rva": 243604,
+          "target_va": 268672800,
+          "kind": 20
+        },
+        {
+          "symbol": "??$shiftLeft@$$BY07I@big@@YAXAAY07II@Z",
+          "site_rva": 243669,
+          "target_va": 268672576,
+          "kind": 20
+        },
+        {
+          "symbol": "??$ugreater@$$BY07I@big@@YA_NAAY07I0@Z",
+          "site_rva": 243690,
+          "target_va": 268672800,
+          "kind": 20
+        },
+        {
+          "symbol": "??$shiftLeft1@$$BY07I@big@@YAXAAY07I@Z",
+          "site_rva": 243707,
+          "target_va": 268673696,
+          "kind": 20
+        },
+        {
+          "symbol": "??$ugreater@$$BY07I@big@@YA_NAAY07I0@Z",
+          "site_rva": 243730,
+          "target_va": 268672800,
+          "kind": 20
+        },
+        {
+          "symbol": "??$ushiftRight1@$$BY07I@big@@YAXAAY07I@Z",
+          "site_rva": 243750,
+          "target_va": 268673808,
+          "kind": 20
+        },
+        {
+          "symbol": "??$ugreater@$$BY07I@big@@YA_NAAY07I0@Z",
+          "site_rva": 243762,
+          "target_va": 268672800,
+          "kind": 20
+        },
+        {
+          "symbol": "??$ugreater@$$BY07I@big@@YA_NAAY07I0@Z",
+          "site_rva": 243784,
+          "target_va": 268672800,
+          "kind": 20
+        },
+        {
+          "symbol": "??$subtract@$$BY07I@big@@YAXAAY07I0@Z",
+          "site_rva": 243802,
+          "target_va": 268673152,
+          "kind": 20
+        },
+        {
+          "symbol": "??$ushiftRight1@$$BY07I@big@@YAXAAY07I@Z",
+          "site_rva": 243815,
+          "target_va": 268673808,
+          "kind": 20
+        },
+        {
+          "symbol": "??$ugreater@$$BY07I@big@@YA_NAAY07I0@Z",
+          "site_rva": 243840,
+          "target_va": 268672800,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "eval_vendor_rakpeer_rsa",
+      "section": 55,
+      "rva": 237696,
+      "size": 88,
+      "kind": ".text",
+      "sha256": "2278d3d31556ad1ccf7dca8848b9a1a03de54117d79e4c1cf27cf3330166e336",
+      "whole_bytes_equal": true,
+      "bindings": []
+    },
+    {
+      "unit": "eval_vendor_rakpeer_rsa",
+      "section": 71,
+      "rva": 238352,
+      "size": 118,
+      "kind": ".text",
+      "sha256": "17772d79eece33cf424c8be96335e2bd03eddbed5a7831bd38238bbc70f4a612",
+      "whole_bytes_equal": true,
+      "bindings": []
+    },
+    {
+      "unit": "eval_vendor_rakpeer_rsa",
+      "section": 69,
+      "rva": 238240,
+      "size": 111,
+      "kind": ".text",
+      "sha256": "b8f04960d01a51331124d7f30a966ecd9af095dc78a9e09aa60bd4cfe8197ee5",
+      "whole_bytes_equal": true,
+      "bindings": []
+    },
+    {
+      "unit": "eval_vendor_rakpeer_rsa",
+      "section": 37,
+      "rva": 237120,
+      "size": 212,
+      "kind": ".text",
+      "sha256": "743d99cdb8d6dd4caa3c7a70b9a53553d994f7ea572662186724116887a9acc3",
+      "whole_bytes_equal": true,
+      "bindings": []
+    },
+    {
+      "unit": "eval_vendor_rakpeer_rsa",
+      "section": 39,
+      "rva": 237344,
+      "size": 49,
+      "kind": ".text",
+      "sha256": "0ccd42063f7036d94a5e19bc1d8c8f990c7e7f85c82acef799ffe78fe7be10c9",
+      "whole_bytes_equal": true,
+      "bindings": []
+    },
+    {
+      "unit": "eval_vendor_rakpeer_rsa",
+      "section": 148,
+      "rva": 262656,
+      "size": 177,
+      "kind": ".text",
+      "sha256": "caf63b89d69c6cdc659e39a4b702d098958bb4b3b0b292497474cc98b2872d23",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "??$computeRinverse@$$BY03I@big@@YAXAAY03I0@Z",
+          "site_rva": 262672,
+          "target_va": 268688256,
+          "kind": 20
+        },
+        {
+          "symbol": "??$decrement@$$BY07I@big@@YAXAAY07I@Z",
+          "site_rva": 262729,
+          "target_va": 268672144,
+          "kind": 20
+        },
+        {
+          "symbol": "??$udivide@$$BY07I@big@@YAXAAY07I000@Z",
+          "site_rva": 262793,
+          "target_va": 268680688,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "eval_vendor_rakpeer_rsa",
+      "section": 112,
+      "rva": 245232,
+      "size": 395,
+      "kind": ".text",
+      "sha256": "5b0194d0037e8dd03d89b5513fa67f34c34465766b1c9d358f98cf4ad8fcb9ed",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "??$ugreater@$$BY07I@big@@YA_NAAY07I0@Z",
+          "site_rva": 245331,
+          "target_va": 268672800,
+          "kind": 20
+        },
+        {
+          "symbol": "??$shiftLeft@$$BY07I@big@@YAXAAY07II@Z",
+          "site_rva": 245395,
+          "target_va": 268672576,
+          "kind": 20
+        },
+        {
+          "symbol": "??$ugreater@$$BY07I@big@@YA_NAAY07I0@Z",
+          "site_rva": 245416,
+          "target_va": 268672800,
+          "kind": 20
+        },
+        {
+          "symbol": "??$shiftLeft1@$$BY07I@big@@YAXAAY07I@Z",
+          "site_rva": 245433,
+          "target_va": 268673696,
+          "kind": 20
+        },
+        {
+          "symbol": "??$ugreater@$$BY07I@big@@YA_NAAY07I0@Z",
+          "site_rva": 245456,
+          "target_va": 268672800,
+          "kind": 20
+        },
+        {
+          "symbol": "??$ushiftRight1@$$BY07I@big@@YAXAAY07I@Z",
+          "site_rva": 245478,
+          "target_va": 268673808,
+          "kind": 20
+        },
+        {
+          "symbol": "??$ugreater@$$BY07I@big@@YA_NAAY07I0@Z",
+          "site_rva": 245490,
+          "target_va": 268672800,
+          "kind": 20
+        },
+        {
+          "symbol": "??$ugreater@$$BY07I@big@@YA_NAAY07I0@Z",
+          "site_rva": 245510,
+          "target_va": 268672800,
+          "kind": 20
+        },
+        {
+          "symbol": "??$ushiftRight1@$$BY07I@big@@YAXAAY07I@Z",
+          "site_rva": 245527,
+          "target_va": 268673808,
+          "kind": 20
+        },
+        {
+          "symbol": "??$ugreater@$$BY07I@big@@YA_NAAY07I0@Z",
+          "site_rva": 245550,
+          "target_va": 268672800,
+          "kind": 20
+        },
+        {
+          "symbol": "??$subtract@$$BY07I@big@@YAXAAY07I0@Z",
+          "site_rva": 245568,
+          "target_va": 268673152,
+          "kind": 20
+        },
+        {
+          "symbol": "??$shiftLeft@$$BY07I@big@@YAXAAY07II@Z",
+          "site_rva": 245575,
+          "target_va": 268672576,
+          "kind": 20
+        },
+        {
+          "symbol": "??$ushiftRight1@$$BY07I@big@@YAXAAY07I@Z",
+          "site_rva": 245599,
+          "target_va": 268673808,
+          "kind": 20
+        },
+        {
+          "symbol": "??$shiftLeft@$$BY07I@big@@YAXAAY07II@Z",
+          "site_rva": 245612,
+          "target_va": 268672576,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "eval_vendor_rakpeer_rsa",
+      "section": 28,
+      "rva": 236688,
+      "size": 28,
+      "kind": ".text",
+      "sha256": "271635fa23dcb470462644635a75e303de8d1267e9416940a9670caef259465e",
+      "whole_bytes_equal": true,
+      "bindings": []
+    },
+    {
+      "unit": "eval_vendor_rakpeer_rsa",
+      "section": 140,
+      "rva": 252800,
+      "size": 711,
+      "kind": ".text",
+      "sha256": "35b9534862775da54f39939af47dbe9c4bd042c2e17b3568590e5749d51067b3",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "??$rModn@$$BY03I@big@@YAXAAY03I0@Z",
+          "site_rva": 252837,
+          "target_va": 268686224,
+          "kind": 20
+        },
+        {
+          "symbol": "??$udivide@$$BY03I@big@@YAXAAY03I000@Z",
+          "site_rva": 252858,
+          "target_va": 268679984,
+          "kind": 20
+        },
+        {
+          "symbol": "??$subtract@$$BY03I@big@@YAXAAY03I0@Z",
+          "site_rva": 252957,
+          "target_va": 268672208,
+          "kind": 20
+        },
+        {
+          "symbol": "??$udivide@$$BY03I@big@@YAXAAY03I000@Z",
+          "site_rva": 252978,
+          "target_va": 268679984,
+          "kind": 20
+        },
+        {
+          "symbol": "??$SubMulMod@$$BY03I@big@@YAXAAY03I0000@Z",
+          "site_rva": 253064,
+          "target_va": 268680400,
+          "kind": 20
+        },
+        {
+          "symbol": "??$udivide@$$BY03I@big@@YAXAAY03I000@Z",
+          "site_rva": 253085,
+          "target_va": 268679984,
+          "kind": 20
+        },
+        {
+          "symbol": "??$SubMulMod@$$BY03I@big@@YAXAAY03I0000@Z",
+          "site_rva": 253166,
+          "target_va": 268680400,
+          "kind": 20
+        },
+        {
+          "symbol": "??$udivide@$$BY03I@big@@YAXAAY03I000@Z",
+          "site_rva": 253187,
+          "target_va": 268679984,
+          "kind": 20
+        },
+        {
+          "symbol": "??$SubMulMod@$$BY03I@big@@YAXAAY03I0000@Z",
+          "site_rva": 253241,
+          "target_va": 268680400,
+          "kind": 20
+        },
+        {
+          "symbol": "??$udivide@$$BY03I@big@@YAXAAY03I000@Z",
+          "site_rva": 253262,
+          "target_va": 268679984,
+          "kind": 20
+        },
+        {
+          "symbol": "??$SubMulMod@$$BY03I@big@@YAXAAY03I0000@Z",
+          "site_rva": 253312,
+          "target_va": 268680400,
+          "kind": 20
+        },
+        {
+          "symbol": "??$udivide@$$BY03I@big@@YAXAAY03I000@Z",
+          "site_rva": 253333,
+          "target_va": 268679984,
+          "kind": 20
+        },
+        {
+          "symbol": "??$SubMulMod@$$BY03I@big@@YAXAAY03I0000@Z",
+          "site_rva": 253385,
+          "target_va": 268680400,
+          "kind": 20
+        },
+        {
+          "symbol": "??$udivide@$$BY03I@big@@YAXAAY03I000@Z",
+          "site_rva": 253406,
+          "target_va": 268679984,
+          "kind": 20
+        },
+        {
+          "symbol": "??$SubMulMod@$$BY03I@big@@YAXAAY03I0000@Z",
+          "site_rva": 253456,
+          "target_va": 268680400,
+          "kind": 20
+        },
+        {
+          "symbol": "??$udivide@$$BY03I@big@@YAXAAY03I000@Z",
+          "site_rva": 253477,
+          "target_va": 268679984,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "eval_vendor_rakpeer_rsa",
+      "section": 110,
+      "rva": 244944,
+      "size": 275,
+      "kind": ".text",
+      "sha256": "f602a7542d01b4c37c1f169b8ae623539d8c051040b82d3f2a60f851459aef11",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "??$umultiply@$$BY03I$$BY07I@big@@YAXAAY07IAAY03I@Z",
+          "site_rva": 245010,
+          "target_va": 268674432,
+          "kind": 20
+        },
+        {
+          "symbol": "??$umodulo@$$BY07I@big@@YAXAAY07I00@Z",
+          "site_rva": 245079,
+          "target_va": 268678992,
+          "kind": 20
+        },
+        {
+          "symbol": "??$ugreater@$$BY03I@big@@YA_NAAY03I0@Z",
+          "site_rva": 245159,
+          "target_va": 268671728,
+          "kind": 20
+        },
+        {
+          "symbol": "??$subtract@$$BY03I@big@@YAXAAY03I0@Z",
+          "site_rva": 245177,
+          "target_va": 268672208,
+          "kind": 20
+        },
+        {
+          "symbol": "??$subtract@$$BY03I@big@@YAXAAY03I0@Z",
+          "site_rva": 245198,
+          "target_va": 268672208,
+          "kind": 20
+        },
+        {
+          "symbol": "??$add@$$BY03I@big@@YAXAAY03I0@Z",
+          "site_rva": 245205,
+          "target_va": 268672304,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "eval_vendor_rakpeer_rsa",
+      "section": 33,
+      "rva": 236848,
+      "size": 88,
+      "kind": ".text",
+      "sha256": "fb04586548aa3004a57cb57a211ae1c9680f433398b4670ee066fd4377c903b8",
+      "whole_bytes_equal": true,
+      "bindings": []
+    },
+    {
+      "unit": "eval_vendor_rakpeer_rsa",
+      "section": 32,
+      "rva": 236752,
+      "size": 88,
+      "kind": ".text",
+      "sha256": "b4c22bfaa06112009e21f5b63a1005cf5a0013fca0db02c35993638a8304bf91",
+      "whole_bytes_equal": true,
+      "bindings": []
+    },
+    {
+      "unit": "eval_vendor_rakpeer_rsa",
+      "section": 12,
+      "rva": 236272,
+      "size": 49,
+      "kind": ".text",
+      "sha256": "7d4f442c2a4e206879945218b035f0937f5ea86e0061d6c7bf25c325226a16b2",
+      "whole_bytes_equal": true,
+      "bindings": []
+    },
+    {
+      "unit": "eval_vendor_rakpeer_rsa",
+      "section": 82,
+      "rva": 238976,
+      "size": 144,
+      "kind": ".text",
+      "sha256": "01b9374f3b02c30ecc5309a1e8858b0e9953b5750554890c65045ba4edb60885",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "??$shiftLeft@$$BY07I@big@@YAXAAY07II@Z",
+          "site_rva": 239061,
+          "target_va": 268672576,
+          "kind": 20
+        },
+        {
+          "symbol": "??$add@$$BY07I@big@@YAXAAY07I0@Z",
+          "site_rva": 239081,
+          "target_va": 268672400,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "eval_vendor_rakpeer_rsa",
+      "section": 34,
+      "rva": 236944,
+      "size": 88,
+      "kind": ".text",
+      "sha256": "23bfe72bdc426350977b1182ca28359ff43054b154568b8185231b7ac287edc1",
+      "whole_bytes_equal": true,
+      "bindings": []
+    },
+    {
+      "unit": "eval_vendor_rakpeer_rsa",
+      "section": 108,
+      "rva": 244528,
+      "size": 411,
+      "kind": ".text",
+      "sha256": "20f2b56ced75c15df8249068bf50a6858cd018421911708e79eae61d11900d1b",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "??$ugreater@$$BY03I@big@@YA_NAAY03I0@Z",
+          "site_rva": 244637,
+          "target_va": 268671728,
+          "kind": 20
+        },
+        {
+          "symbol": "??$shiftLeft@$$BY03I@big@@YAXAAY03II@Z",
+          "site_rva": 244701,
+          "target_va": 268674224,
+          "kind": 20
+        },
+        {
+          "symbol": "??$ugreater@$$BY03I@big@@YA_NAAY03I0@Z",
+          "site_rva": 244727,
+          "target_va": 268671728,
+          "kind": 20
+        },
+        {
+          "symbol": "??$shiftLeft1@$$BY03I@big@@YAXAAY03I@Z",
+          "site_rva": 244744,
+          "target_va": 268674368,
+          "kind": 20
+        },
+        {
+          "symbol": "??$ugreater@$$BY03I@big@@YA_NAAY03I0@Z",
+          "site_rva": 244767,
+          "target_va": 268671728,
+          "kind": 20
+        },
+        {
+          "symbol": "??$ushiftRight1@$$BY03I@big@@YAXAAY03I@Z",
+          "site_rva": 244790,
+          "target_va": 268673024,
+          "kind": 20
+        },
+        {
+          "symbol": "??$ugreater@$$BY03I@big@@YA_NAAY03I0@Z",
+          "site_rva": 244802,
+          "target_va": 268671728,
+          "kind": 20
+        },
+        {
+          "symbol": "??$ugreater@$$BY03I@big@@YA_NAAY03I0@Z",
+          "site_rva": 244822,
+          "target_va": 268671728,
+          "kind": 20
+        },
+        {
+          "symbol": "??$ushiftRight1@$$BY03I@big@@YAXAAY03I@Z",
+          "site_rva": 244839,
+          "target_va": 268673024,
+          "kind": 20
+        },
+        {
+          "symbol": "??$ugreater@$$BY03I@big@@YA_NAAY03I0@Z",
+          "site_rva": 244862,
+          "target_va": 268671728,
+          "kind": 20
+        },
+        {
+          "symbol": "??$subtract@$$BY03I@big@@YAXAAY03I0@Z",
+          "site_rva": 244880,
+          "target_va": 268672208,
+          "kind": 20
+        },
+        {
+          "symbol": "??$shiftLeft@$$BY03I@big@@YAXAAY03II@Z",
+          "site_rva": 244887,
+          "target_va": 268674224,
+          "kind": 20
+        },
+        {
+          "symbol": "??$ushiftRight1@$$BY03I@big@@YAXAAY03I@Z",
+          "site_rva": 244911,
+          "target_va": 268673024,
+          "kind": 20
+        },
+        {
+          "symbol": "??$shiftLeft@$$BY03I@big@@YAXAAY03II@Z",
+          "site_rva": 244924,
+          "target_va": 268674224,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "eval_vendor_rakpeer_rsa",
+      "section": 49,
+      "rva": 237568,
+      "size": 58,
+      "kind": ".text",
+      "sha256": "5571ad327e6920c4b4786ff2e2de046c1a9774c18c5669f2fe475e6813c85257",
+      "whole_bytes_equal": true,
+      "bindings": []
+    },
+    {
+      "unit": "eval_vendor_rakpeer_rsa",
+      "section": 80,
+      "rva": 238912,
+      "size": 55,
+      "kind": ".text",
+      "sha256": "7d1134e3e92462aa3f95497256271dec8bee7ef3391c5da6d26636e5e9f4f700",
+      "whole_bytes_equal": true,
+      "bindings": []
+    },
+    {
+      "unit": "eval_vendor_rakpeer_rsa",
+      "section": 78,
+      "rva": 238768,
+      "size": 136,
+      "kind": ".text",
+      "sha256": "62f68065e3f379415254f47584095c60605046e49bf667cb9a7bf9bf7e1dbbe6",
+      "whole_bytes_equal": true,
+      "bindings": []
+    },
+    {
+      "unit": "eval_vendor_rakpeer_rsa",
+      "section": 124,
+      "rva": 249248,
+      "size": 203,
+      "kind": ".text",
+      "sha256": "16d40fd59f69cc291851ef2af3301f2414449ef2ceeda16b78103419637f4169",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "??$umodulo@$$BY0BA@I@big@@YAXAAY0BA@I00@Z",
+          "site_rva": 249414,
+          "target_va": 268678656,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "eval_vendor_rakpeer_rsa",
+      "section": 96,
+      "rva": 243200,
+      "size": 323,
+      "kind": ".text",
+      "sha256": "1391845bb5630c03c2fcc9fb5c1c55e0bb4aa1ad46dbdb90f05f42dfef1e820b",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "??$ugreater@$$BY0BA@I@big@@YA_NAAY0BA@I0@Z",
+          "site_rva": 243268,
+          "target_va": 268673296,
+          "kind": 20
+        },
+        {
+          "symbol": "??$shiftLeft@$$BY0BA@I@big@@YAXAAY0BA@II@Z",
+          "site_rva": 243333,
+          "target_va": 268673360,
+          "kind": 20
+        },
+        {
+          "symbol": "??$ugreater@$$BY0BA@I@big@@YA_NAAY0BA@I0@Z",
+          "site_rva": 243354,
+          "target_va": 268673296,
+          "kind": 20
+        },
+        {
+          "symbol": "??$shiftLeft1@$$BY0BA@I@big@@YAXAAY0BA@I@Z",
+          "site_rva": 243371,
+          "target_va": 268673504,
+          "kind": 20
+        },
+        {
+          "symbol": "??$ugreater@$$BY0BA@I@big@@YA_NAAY0BA@I0@Z",
+          "site_rva": 243394,
+          "target_va": 268673296,
+          "kind": 20
+        },
+        {
+          "symbol": "??$ushiftRight1@$$BY0BA@I@big@@YAXAAY0BA@I@Z",
+          "site_rva": 243414,
+          "target_va": 268673552,
+          "kind": 20
+        },
+        {
+          "symbol": "??$ugreater@$$BY0BA@I@big@@YA_NAAY0BA@I0@Z",
+          "site_rva": 243426,
+          "target_va": 268673296,
+          "kind": 20
+        },
+        {
+          "symbol": "??$ugreater@$$BY0BA@I@big@@YA_NAAY0BA@I0@Z",
+          "site_rva": 243448,
+          "target_va": 268673296,
+          "kind": 20
+        },
+        {
+          "symbol": "??$subtract@$$BY0BA@I@big@@YAXAAY0BA@I0@Z",
+          "site_rva": 243466,
+          "target_va": 268673600,
+          "kind": 20
+        },
+        {
+          "symbol": "??$ushiftRight1@$$BY0BA@I@big@@YAXAAY0BA@I@Z",
+          "site_rva": 243479,
+          "target_va": 268673552,
+          "kind": 20
+        },
+        {
+          "symbol": "??$ugreater@$$BY0BA@I@big@@YA_NAAY0BA@I0@Z",
+          "site_rva": 243504,
+          "target_va": 268673296,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "eval_vendor_rakpeer_rsa",
+      "section": 68,
+      "rva": 238144,
+      "size": 88,
+      "kind": ".text",
+      "sha256": "d8f6fcf5ff17fb21a77e3f98d21f0d10d4e00648d664ccbab108f7d60cbf2116",
+      "whole_bytes_equal": true,
+      "bindings": []
+    },
+    {
+      "unit": "eval_vendor_rakpeer_rsa",
+      "section": 66,
+      "rva": 238096,
+      "size": 40,
+      "kind": ".text",
+      "sha256": "1986fcf846f79a645f145e2474c5424aaa63120c8e9f015d4cf680678e82d4d5",
+      "whole_bytes_equal": true,
+      "bindings": []
+    },
+    {
+      "unit": "eval_vendor_rakpeer_rsa",
+      "section": 64,
+      "rva": 238048,
+      "size": 41,
+      "kind": ".text",
+      "sha256": "18c3aa88fc7f1a98c94e011c5131db072f7974e26db03c91fb203c436ff55fc7",
+      "whole_bytes_equal": true,
+      "bindings": []
+    },
+    {
+      "unit": "eval_vendor_rakpeer_rsa",
+      "section": 62,
+      "rva": 237904,
+      "size": 134,
+      "kind": ".text",
+      "sha256": "c664bd926d68ae42508ee779223c6685a7312b45563f2a0270a559a8a1d581b2",
+      "whole_bytes_equal": true,
+      "bindings": []
+    },
+    {
+      "unit": "eval_vendor_rakpeer_rsa",
+      "section": 60,
+      "rva": 237840,
+      "size": 49,
+      "kind": ".text",
+      "sha256": "e4c68fa593675c5993b2f228481c222ca4b07f8adc7b7bc501e42cd436982258",
+      "whole_bytes_equal": true,
+      "bindings": []
+    },
+    {
+      "unit": "eval_vendor_rakpeer_rsa",
+      "section": 142,
+      "rva": 261616,
+      "size": 202,
+      "kind": ".text",
+      "sha256": "8c62e5776a7a700a678fc6b9fac7faa433a1d6b8ec9dad0708672e532fc3d513",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "??$computeRinverse@$$BY07I@big@@YAXAAY07I0@Z",
+          "site_rva": 261643,
+          "target_va": 268686384,
+          "kind": 20
+        },
+        {
+          "symbol": "??$decrement@$$BY0BA@I@big@@YAXAAY0BA@I@Z",
+          "site_rva": 261700,
+          "target_va": 268671904,
+          "kind": 20
+        },
+        {
+          "symbol": "??$udivide@$$BY0BA@I@big@@YAXAAY0BA@I000@Z",
+          "site_rva": 261787,
+          "target_va": 268678272,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "eval_vendor_rakpeer_rsa",
+      "section": 94,
+      "rva": 242816,
+      "size": 379,
+      "kind": ".text",
+      "sha256": "29f3af2a38ba95e6cf63d1b1d141002f34b096700862d29369f67e3b1666828f",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "??$ugreater@$$BY0BA@I@big@@YA_NAAY0BA@I0@Z",
+          "site_rva": 242899,
+          "target_va": 268673296,
+          "kind": 20
+        },
+        {
+          "symbol": "??$shiftLeft@$$BY0BA@I@big@@YAXAAY0BA@II@Z",
+          "site_rva": 242963,
+          "target_va": 268673360,
+          "kind": 20
+        },
+        {
+          "symbol": "??$ugreater@$$BY0BA@I@big@@YA_NAAY0BA@I0@Z",
+          "site_rva": 242984,
+          "target_va": 268673296,
+          "kind": 20
+        },
+        {
+          "symbol": "??$shiftLeft1@$$BY0BA@I@big@@YAXAAY0BA@I@Z",
+          "site_rva": 243001,
+          "target_va": 268673504,
+          "kind": 20
+        },
+        {
+          "symbol": "??$ugreater@$$BY0BA@I@big@@YA_NAAY0BA@I0@Z",
+          "site_rva": 243024,
+          "target_va": 268673296,
+          "kind": 20
+        },
+        {
+          "symbol": "??$ushiftRight1@$$BY0BA@I@big@@YAXAAY0BA@I@Z",
+          "site_rva": 243046,
+          "target_va": 268673552,
+          "kind": 20
+        },
+        {
+          "symbol": "??$ugreater@$$BY0BA@I@big@@YA_NAAY0BA@I0@Z",
+          "site_rva": 243058,
+          "target_va": 268673296,
+          "kind": 20
+        },
+        {
+          "symbol": "??$ugreater@$$BY0BA@I@big@@YA_NAAY0BA@I0@Z",
+          "site_rva": 243078,
+          "target_va": 268673296,
+          "kind": 20
+        },
+        {
+          "symbol": "??$ushiftRight1@$$BY0BA@I@big@@YAXAAY0BA@I@Z",
+          "site_rva": 243095,
+          "target_va": 268673552,
+          "kind": 20
+        },
+        {
+          "symbol": "??$ugreater@$$BY0BA@I@big@@YA_NAAY0BA@I0@Z",
+          "site_rva": 243118,
+          "target_va": 268673296,
+          "kind": 20
+        },
+        {
+          "symbol": "??$subtract@$$BY0BA@I@big@@YAXAAY0BA@I0@Z",
+          "site_rva": 243136,
+          "target_va": 268673600,
+          "kind": 20
+        },
+        {
+          "symbol": "??$shiftLeft@$$BY0BA@I@big@@YAXAAY0BA@II@Z",
+          "site_rva": 243143,
+          "target_va": 268673360,
+          "kind": 20
+        },
+        {
+          "symbol": "??$ushiftRight1@$$BY0BA@I@big@@YAXAAY0BA@I@Z",
+          "site_rva": 243167,
+          "target_va": 268673552,
+          "kind": 20
+        },
+        {
+          "symbol": "??$shiftLeft@$$BY0BA@I@big@@YAXAAY0BA@II@Z",
+          "site_rva": 243180,
+          "target_va": 268673360,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "eval_vendor_rakpeer_rsa",
+      "section": 20,
+      "rva": 236448,
+      "size": 79,
+      "kind": ".text",
+      "sha256": "855f3e9b5642a35b4310266a0ecad2365e6f209c5cfe8a7338c7ca5abf09c0f3",
+      "whole_bytes_equal": true,
+      "bindings": []
+    },
+    {
+      "unit": "eval_vendor_rakpeer_rsa",
+      "section": 134,
+      "rva": 250928,
+      "size": 759,
+      "kind": ".text",
+      "sha256": "8999fa103d8830b6ecf53d9747a4a3ee930af8d1f5faffc3e7cccb1c8a07acba",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "??$rModn@$$BY07I@big@@YAXAAY07I0@Z",
+          "site_rva": 250989,
+          "target_va": 268684704,
+          "kind": 20
+        },
+        {
+          "symbol": "??$udivide@$$BY07I@big@@YAXAAY07I000@Z",
+          "site_rva": 251010,
+          "target_va": 268680688,
+          "kind": 20
+        },
+        {
+          "symbol": "??$subtract@$$BY07I@big@@YAXAAY07I0@Z",
+          "site_rva": 251096,
+          "target_va": 268673152,
+          "kind": 20
+        },
+        {
+          "symbol": "??$udivide@$$BY07I@big@@YAXAAY07I000@Z",
+          "site_rva": 251117,
+          "target_va": 268680688,
+          "kind": 20
+        },
+        {
+          "symbol": "??$SubMulMod@$$BY07I@big@@YAXAAY07I0000@Z",
+          "site_rva": 251199,
+          "target_va": 268681456,
+          "kind": 20
+        },
+        {
+          "symbol": "??$udivide@$$BY07I@big@@YAXAAY07I000@Z",
+          "site_rva": 251223,
+          "target_va": 268680688,
+          "kind": 20
+        },
+        {
+          "symbol": "??$SubMulMod@$$BY07I@big@@YAXAAY07I0000@Z",
+          "site_rva": 251305,
+          "target_va": 268681456,
+          "kind": 20
+        },
+        {
+          "symbol": "??$udivide@$$BY07I@big@@YAXAAY07I000@Z",
+          "site_rva": 251329,
+          "target_va": 268680688,
+          "kind": 20
+        },
+        {
+          "symbol": "??$SubMulMod@$$BY07I@big@@YAXAAY07I0000@Z",
+          "site_rva": 251391,
+          "target_va": 268681456,
+          "kind": 20
+        },
+        {
+          "symbol": "??$udivide@$$BY07I@big@@YAXAAY07I000@Z",
+          "site_rva": 251415,
+          "target_va": 268680688,
+          "kind": 20
+        },
+        {
+          "symbol": "??$SubMulMod@$$BY07I@big@@YAXAAY07I0000@Z",
+          "site_rva": 251471,
+          "target_va": 268681456,
+          "kind": 20
+        },
+        {
+          "symbol": "??$udivide@$$BY07I@big@@YAXAAY07I000@Z",
+          "site_rva": 251495,
+          "target_va": 268680688,
+          "kind": 20
+        },
+        {
+          "symbol": "??$SubMulMod@$$BY07I@big@@YAXAAY07I0000@Z",
+          "site_rva": 251551,
+          "target_va": 268681456,
+          "kind": 20
+        },
+        {
+          "symbol": "??$udivide@$$BY07I@big@@YAXAAY07I000@Z",
+          "site_rva": 251575,
+          "target_va": 268680688,
+          "kind": 20
+        },
+        {
+          "symbol": "??$SubMulMod@$$BY07I@big@@YAXAAY07I0000@Z",
+          "site_rva": 251631,
+          "target_va": 268681456,
+          "kind": 20
+        },
+        {
+          "symbol": "??$udivide@$$BY07I@big@@YAXAAY07I000@Z",
+          "site_rva": 251655,
+          "target_va": 268680688,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "eval_vendor_rakpeer_rsa",
+      "section": 116,
+      "rva": 246000,
+      "size": 297,
+      "kind": ".text",
+      "sha256": "cdf0fe17cb6f4e955ac497c7bacb20a282c06c586a2b4b5b148e991dce07af41",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "??$umultiply@$$BY07I$$BY0BA@I@big@@YAXAAY0BA@IAAY07I@Z",
+          "site_rva": 246076,
+          "target_va": 268674576,
+          "kind": 20
+        },
+        {
+          "symbol": "??$umodulo@$$BY0BA@I@big@@YAXAAY0BA@I00@Z",
+          "site_rva": 246166,
+          "target_va": 268678656,
+          "kind": 20
+        },
+        {
+          "symbol": "??$ugreater@$$BY07I@big@@YA_NAAY07I0@Z",
+          "site_rva": 246223,
+          "target_va": 268672800,
+          "kind": 20
+        },
+        {
+          "symbol": "??$subtract@$$BY07I@big@@YAXAAY07I0@Z",
+          "site_rva": 246244,
+          "target_va": 268673152,
+          "kind": 20
+        },
+        {
+          "symbol": "??$subtract@$$BY07I@big@@YAXAAY07I0@Z",
+          "site_rva": 246272,
+          "target_va": 268673152,
+          "kind": 20
+        },
+        {
+          "symbol": "??$add@$$BY07I@big@@YAXAAY07I0@Z",
+          "site_rva": 246279,
+          "target_va": 268672400,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "eval_vendor_rakpeer_rsa",
+      "section": 84,
+      "rva": 239120,
+      "size": 130,
+      "kind": ".text",
+      "sha256": "7acea8f3edaeb309b555609a4159b1f763af0936d3cc7a680c467027de11ea1d",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "??$shiftLeft@$$BY0BA@I@big@@YAXAAY0BA@II@Z",
+          "site_rva": 239191,
+          "target_va": 268673360,
+          "kind": 20
+        },
+        {
+          "symbol": "??$add@$$BY0BA@I@big@@YAXAAY0BA@I0@Z",
+          "site_rva": 239211,
+          "target_va": 268674096,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "eval_vendor_rakpeer_rsa",
+      "section": 75,
+      "rva": 238640,
+      "size": 88,
+      "kind": ".text",
+      "sha256": "688a8d9ae1c1d1a745caf524153c739d2f8990be0ea08842580d5a9d9935b396",
+      "whole_bytes_equal": true,
+      "bindings": []
+    },
+    {
+      "unit": "eval_vendor_rakpeer_rsa",
+      "section": 130,
+      "rva": 250096,
+      "size": 668,
+      "kind": ".text",
+      "sha256": "85241b9ed2f5f7589ed8f019f26d738dbfa2944c061f269a79abfa568ad05c72",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "??$udivide@$$BY03I@big@@YAXAAY03I000@Z",
+          "site_rva": 250144,
+          "target_va": 268679984,
+          "kind": 20
+        },
+        {
+          "symbol": "??$subtract@$$BY03I@big@@YAXAAY03I0@Z",
+          "site_rva": 250188,
+          "target_va": 268672208,
+          "kind": 20
+        },
+        {
+          "symbol": "??$udivide@$$BY03I@big@@YAXAAY03I000@Z",
+          "site_rva": 250241,
+          "target_va": 268679984,
+          "kind": 20
+        },
+        {
+          "symbol": "??$SubMulMod@$$BY03I@big@@YAXAAY03I0000@Z",
+          "site_rva": 250329,
+          "target_va": 268680400,
+          "kind": 20
+        },
+        {
+          "symbol": "??$udivide@$$BY03I@big@@YAXAAY03I000@Z",
+          "site_rva": 250350,
+          "target_va": 268679984,
+          "kind": 20
+        },
+        {
+          "symbol": "??$SubMulMod@$$BY03I@big@@YAXAAY03I0000@Z",
+          "site_rva": 250432,
+          "target_va": 268680400,
+          "kind": 20
+        },
+        {
+          "symbol": "??$udivide@$$BY03I@big@@YAXAAY03I000@Z",
+          "site_rva": 250453,
+          "target_va": 268679984,
+          "kind": 20
+        },
+        {
+          "symbol": "??$SubMulMod@$$BY03I@big@@YAXAAY03I0000@Z",
+          "site_rva": 250537,
+          "target_va": 268680400,
+          "kind": 20
+        },
+        {
+          "symbol": "??$udivide@$$BY03I@big@@YAXAAY03I000@Z",
+          "site_rva": 250558,
+          "target_va": 268679984,
+          "kind": 20
+        },
+        {
+          "symbol": "??$SubMulMod@$$BY03I@big@@YAXAAY03I0000@Z",
+          "site_rva": 250608,
+          "target_va": 268680400,
+          "kind": 20
+        },
+        {
+          "symbol": "??$udivide@$$BY03I@big@@YAXAAY03I000@Z",
+          "site_rva": 250629,
+          "target_va": 268679984,
+          "kind": 20
+        },
+        {
+          "symbol": "??$SubMulMod@$$BY03I@big@@YAXAAY03I0000@Z",
+          "site_rva": 250681,
+          "target_va": 268680400,
+          "kind": 20
+        },
+        {
+          "symbol": "??$udivide@$$BY03I@big@@YAXAAY03I000@Z",
+          "site_rva": 250702,
+          "target_va": 268679984,
+          "kind": 20
+        },
+        {
+          "symbol": "??$SubMulMod@$$BY03I@big@@YAXAAY03I0000@Z",
+          "site_rva": 250752,
+          "target_va": 268680400,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "eval_vendor_rakpeer_rsa",
+      "section": 146,
+      "rva": 262640,
+      "size": 5,
+      "kind": ".text",
+      "sha256": "f666a7fec42bd06da5485f0e3c753000febaa5d5712991ded717821249fc4339",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "??$computeModularInverse@$$BY07I@big@@YAXAAY07I00@Z",
+          "site_rva": 262641,
+          "target_va": 268687568,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "eval_vendor_rakpeer_rsa",
+      "section": 138,
+      "rva": 252112,
+      "size": 674,
+      "kind": ".text",
+      "sha256": "2f61e40a11cbef7593aee104a48e873fc4e6fcde123d9ab882700039cca9a840",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "??$udivide@$$BY07I@big@@YAXAAY07I000@Z",
+          "site_rva": 252187,
+          "target_va": 268680688,
+          "kind": 20
+        },
+        {
+          "symbol": "??$subtract@$$BY07I@big@@YAXAAY07I0@Z",
+          "site_rva": 252221,
+          "target_va": 268673152,
+          "kind": 20
+        },
+        {
+          "symbol": "??$udivide@$$BY07I@big@@YAXAAY07I000@Z",
+          "site_rva": 252258,
+          "target_va": 268680688,
+          "kind": 20
+        },
+        {
+          "symbol": "??$SubMulMod@$$BY07I@big@@YAXAAY07I0000@Z",
+          "site_rva": 252326,
+          "target_va": 268681456,
+          "kind": 20
+        },
+        {
+          "symbol": "??$udivide@$$BY07I@big@@YAXAAY07I000@Z",
+          "site_rva": 252350,
+          "target_va": 268680688,
+          "kind": 20
+        },
+        {
+          "symbol": "??$SubMulMod@$$BY07I@big@@YAXAAY07I0000@Z",
+          "site_rva": 252410,
+          "target_va": 268681456,
+          "kind": 20
+        },
+        {
+          "symbol": "??$udivide@$$BY07I@big@@YAXAAY07I000@Z",
+          "site_rva": 252434,
+          "target_va": 268680688,
+          "kind": 20
+        },
+        {
+          "symbol": "??$SubMulMod@$$BY07I@big@@YAXAAY07I0000@Z",
+          "site_rva": 252519,
+          "target_va": 268681456,
+          "kind": 20
+        },
+        {
+          "symbol": "??$udivide@$$BY07I@big@@YAXAAY07I000@Z",
+          "site_rva": 252543,
+          "target_va": 268680688,
+          "kind": 20
+        },
+        {
+          "symbol": "??$SubMulMod@$$BY07I@big@@YAXAAY07I0000@Z",
+          "site_rva": 252603,
+          "target_va": 268681456,
+          "kind": 20
+        },
+        {
+          "symbol": "??$udivide@$$BY07I@big@@YAXAAY07I000@Z",
+          "site_rva": 252627,
+          "target_va": 268680688,
+          "kind": 20
+        },
+        {
+          "symbol": "??$SubMulMod@$$BY07I@big@@YAXAAY07I0000@Z",
+          "site_rva": 252694,
+          "target_va": 268681456,
+          "kind": 20
+        },
+        {
+          "symbol": "??$udivide@$$BY07I@big@@YAXAAY07I000@Z",
+          "site_rva": 252718,
+          "target_va": 268680688,
+          "kind": 20
+        },
+        {
+          "symbol": "??$SubMulMod@$$BY07I@big@@YAXAAY07I0000@Z",
+          "site_rva": 252774,
+          "target_va": 268681456,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "eval_vendor_rakpeer_rsa",
+      "section": 128,
+      "rva": 249872,
+      "size": 219,
+      "kind": ".text",
+      "sha256": "0dbc15a279b7381aa48430bb72332fe07631d9aba49480c464db4a23eb14110f",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "??$ugreater@$$BY07I@big@@YA_NAAY07I0@Z",
+          "site_rva": 249999,
+          "target_va": 268672800,
+          "kind": 20
+        },
+        {
+          "symbol": "??$add@$$BY07I@big@@YAXAAY07I0@Z",
+          "site_rva": 250045,
+          "target_va": 268672400,
+          "kind": 20
+        },
+        {
+          "symbol": "??$GCD@$$BY07I@big@@YAXAAY07I00@Z",
+          "site_rva": 250057,
+          "target_va": 268679792,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "eval_vendor_rakpeer_rsa",
+      "section": 106,
+      "rva": 244336,
+      "size": 185,
+      "kind": ".text",
+      "sha256": "7ac169bb537c147db8fb27c0849ebc959caa4e00e47ca76394ed91665dee8be6",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "??$umodulo@$$BY07I@big@@YAXAAY07I00@Z",
+          "site_rva": 244357,
+          "target_va": 268678992,
+          "kind": 20
+        },
+        {
+          "symbol": "??$umodulo@$$BY07I@big@@YAXAAY07I00@Z",
+          "site_rva": 244401,
+          "target_va": 268678992,
+          "kind": 20
+        },
+        {
+          "symbol": "??$umodulo@$$BY07I@big@@YAXAAY07I00@Z",
+          "site_rva": 244444,
+          "target_va": 268678992,
+          "kind": 20
+        },
+        {
+          "symbol": "??$umodulo@$$BY07I@big@@YAXAAY07I00@Z",
+          "site_rva": 244492,
+          "target_va": 268678992,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "eval_vendor_rakpeer_rsa",
+      "section": 92,
+      "rva": 242624,
+      "size": 187,
+      "kind": ".text",
+      "sha256": "122f051a58ba7b1385ff983cea7d73fe6c03f6560f21412bf4a8906a9430d287",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "??$shiftLeft@$$BY07I@big@@YAXAAY07II@Z",
+          "site_rva": 242752,
+          "target_va": 268672576,
+          "kind": 20
+        },
+        {
+          "symbol": "??$add@$$BY07I@big@@YAXAAY07I0@Z",
+          "site_rva": 242772,
+          "target_va": 268672400,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "eval_vendor_rakpeer_rsa",
+      "section": 16,
+      "rva": 236368,
+      "size": 28,
+      "kind": ".text",
+      "sha256": "a4d7c1ca060dfda8ddfc0b4d9fa0ae4e68d50a80e9718409ac0137b5e358964b",
+      "whole_bytes_equal": true,
+      "bindings": []
+    },
+    {
+      "unit": "eval_vendor_rakpeer_rsa",
+      "section": 160,
+      "rva": 265808,
+      "size": 59,
+      "kind": ".text",
+      "sha256": "71e78d82ef3cb0748a92c620628b95aa588aee731dfce1dda04cf02725e3f7e9",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "?randomMT@@YAIXZ",
+          "site_rva": 265817,
+          "target_va": 268712960,
+          "kind": 20
+        },
+        {
+          "symbol": "??$RabinMillerPrimalityTest@$$BY03I@big@@YA_NAAY03II@Z",
+          "site_rva": 265853,
+          "target_va": 268698304,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "eval_vendor_rakpeer_rsa",
+      "section": 150,
+      "rva": 262848,
+      "size": 652,
+      "kind": ".text",
+      "sha256": "40d6047705c2da78788ebad8b151bd62604b73fd685c484cb094d8a4cf4b7586",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "_PRIME_TABLE",
+          "site_rva": 262867,
+          "target_va": 269388488,
+          "kind": 6
+        },
+        {
+          "symbol": "??$umodulo@$$BY03I@big@@YAXAAY03I00@Z",
+          "site_rva": 262909,
+          "target_va": 268681088,
+          "kind": 20
+        },
+        {
+          "symbol": "??$decrement@$$BY03I@big@@YAXAAY03I@Z",
+          "site_rva": 262990,
+          "target_va": 268671824,
+          "kind": 20
+        },
+        {
+          "symbol": "??$ushiftRight1@$$BY03I@big@@YAXAAY03I@Z",
+          "site_rva": 263046,
+          "target_va": 268673024,
+          "kind": 20
+        },
+        {
+          "symbol": "?randomMT@@YAIXZ",
+          "site_rva": 263169,
+          "target_va": 268712960,
+          "kind": 20
+        },
+        {
+          "symbol": "??$umodulo@$$BY03I@big@@YAXAAY03I00@Z",
+          "site_rva": 263203,
+          "target_va": 268681088,
+          "kind": 20
+        },
+        {
+          "symbol": "??$simpleModExp@$$BY03I@big@@YAXAAY03I000@Z",
+          "site_rva": 263227,
+          "target_va": 268687152,
+          "kind": 20
+        },
+        {
+          "symbol": "??$umultiply@$$BY03I$$BY07I@big@@YAXAAY03I0AAY07I@Z",
+          "site_rva": 263333,
+          "target_va": 268678080,
+          "kind": 20
+        },
+        {
+          "symbol": "??$umodulo@$$BY07I@big@@YAXAAY07I00@Z",
+          "site_rva": 263354,
+          "target_va": 268678992,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "eval_vendor_rakpeer_rsa",
+      "section": 136,
+      "rva": 251696,
+      "size": 406,
+      "kind": ".text",
+      "sha256": "f7a79e2e24cc1b301868460ad822ce6738ad63d3a3df2f0362cd4dc8a85386f9",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "??$umodulo@$$BY07I@big@@YAXAAY07I00@Z",
+          "site_rva": 251926,
+          "target_va": 268678992,
+          "kind": 20
+        },
+        {
+          "symbol": "??$usquare@$$BY07I@big@@YAXAAY07I@Z",
+          "site_rva": 251974,
+          "target_va": 268673936,
+          "kind": 20
+        },
+        {
+          "symbol": "??$umodulo@$$BY07I@big@@YAXAAY07I00@Z",
+          "site_rva": 251992,
+          "target_va": 268678992,
+          "kind": 20
+        },
+        {
+          "symbol": "??$umultiply@$$BY07I$$BY07I@big@@YAXAAY07I00@Z",
+          "site_rva": 252016,
+          "target_va": 268681760,
+          "kind": 20
+        },
+        {
+          "symbol": "??$umodulo@$$BY07I@big@@YAXAAY07I00@Z",
+          "site_rva": 252034,
+          "target_va": 268678992,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "eval_vendor_rakpeer_rsa",
+      "section": 118,
+      "rva": 246304,
+      "size": 155,
+      "kind": ".text",
+      "sha256": "05ae5ae194799b77e59a04a3066145ca1bffe454895e079282949593f2a6b94d",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "??$shiftLeft@$$BY07I@big@@YAXAAY07II@Z",
+          "site_rva": 246400,
+          "target_va": 268672576,
+          "kind": 20
+        },
+        {
+          "symbol": "??$add@$$BY07I@big@@YAXAAY07I0@Z",
+          "site_rva": 246420,
+          "target_va": 268672400,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "eval_vendor_rakpeer_rsa",
+      "section": 73,
+      "rva": 238480,
+      "size": 155,
+      "kind": ".text",
+      "sha256": "36c3d8c782ece86a93ca30c1195cad3959962d9322e209920ebf4407397bfc25",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "??$shiftLeft@$$BY07I@big@@YAXAAY07II@Z",
+          "site_rva": 238576,
+          "target_va": 268672576,
+          "kind": 20
+        },
+        {
+          "symbol": "??$add@$$BY07I@big@@YAXAAY07I0@Z",
+          "site_rva": 238596,
+          "target_va": 268672400,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "eval_vendor_rakpeer_rsa",
+      "section": 114,
+      "rva": 245632,
+      "size": 353,
+      "kind": ".text",
+      "sha256": "b57eb1d41662b737c901d0e07d7d111e6b2fffd2944890ed674cfd0029f964c1",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "??$ugreater@$$BY03I@big@@YA_NAAY03I0@Z",
+          "site_rva": 245721,
+          "target_va": 268671728,
+          "kind": 20
+        },
+        {
+          "symbol": "??$shiftLeft@$$BY03I@big@@YAXAAY03II@Z",
+          "site_rva": 245789,
+          "target_va": 268674224,
+          "kind": 20
+        },
+        {
+          "symbol": "??$ugreater@$$BY03I@big@@YA_NAAY03I0@Z",
+          "site_rva": 245815,
+          "target_va": 268671728,
+          "kind": 20
+        },
+        {
+          "symbol": "??$shiftLeft1@$$BY03I@big@@YAXAAY03I@Z",
+          "site_rva": 245832,
+          "target_va": 268674368,
+          "kind": 20
+        },
+        {
+          "symbol": "??$ugreater@$$BY03I@big@@YA_NAAY03I0@Z",
+          "site_rva": 245855,
+          "target_va": 268671728,
+          "kind": 20
+        },
+        {
+          "symbol": "??$ushiftRight1@$$BY03I@big@@YAXAAY03I@Z",
+          "site_rva": 245878,
+          "target_va": 268673024,
+          "kind": 20
+        },
+        {
+          "symbol": "??$ugreater@$$BY03I@big@@YA_NAAY03I0@Z",
+          "site_rva": 245890,
+          "target_va": 268671728,
+          "kind": 20
+        },
+        {
+          "symbol": "??$ugreater@$$BY03I@big@@YA_NAAY03I0@Z",
+          "site_rva": 245912,
+          "target_va": 268671728,
+          "kind": 20
+        },
+        {
+          "symbol": "??$subtract@$$BY03I@big@@YAXAAY03I0@Z",
+          "site_rva": 245930,
+          "target_va": 268672208,
+          "kind": 20
+        },
+        {
+          "symbol": "??$ushiftRight1@$$BY03I@big@@YAXAAY03I@Z",
+          "site_rva": 245943,
+          "target_va": 268673024,
+          "kind": 20
+        },
+        {
+          "symbol": "??$ugreater@$$BY03I@big@@YA_NAAY03I0@Z",
+          "site_rva": 245967,
+          "target_va": 268671728,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "eval_vendor_rakpeer_rsa",
+      "section": 156,
+      "rva": 265312,
+      "size": 87,
+      "kind": ".text",
+      "sha256": "0a384c124835c489f2eb63e7e4016e6c34448d3d64eb82ad10a3bab27939b436",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "??$CRTModExp@$$BY03I$$BY07I@big@@YAXAAY07I00AAY03I111111@Z",
+          "site_rva": 265389,
+          "target_va": 268697280,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "eval_vendor_rakpeer_rsa",
+      "section": 144,
+      "rva": 261824,
+      "size": 816,
+      "kind": ".text",
+      "sha256": "dd1dd8825fe6525be1edab1f3d08a2e269bc4c40377df5a25012691c4a24f308",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "??$decrement@$$BY07I@big@@YAXAAY07I@Z",
+          "site_rva": 261893,
+          "target_va": 268672144,
+          "kind": 20
+        },
+        {
+          "symbol": "??$umodulo@$$BY07I@big@@YAXAAY07I00@Z",
+          "site_rva": 261914,
+          "target_va": 268678992,
+          "kind": 20
+        },
+        {
+          "symbol": "??$umodulo@$$BY07I@big@@YAXAAY07I00@Z",
+          "site_rva": 262046,
+          "target_va": 268678992,
+          "kind": 20
+        },
+        {
+          "symbol": "??$simpleModExp@$$BY03I@big@@YAXAAY03I000@Z",
+          "site_rva": 262111,
+          "target_va": 268687152,
+          "kind": 20
+        },
+        {
+          "symbol": "??$decrement@$$BY07I@big@@YAXAAY07I@Z",
+          "site_rva": 262181,
+          "target_va": 268672144,
+          "kind": 20
+        },
+        {
+          "symbol": "??$umodulo@$$BY07I@big@@YAXAAY07I00@Z",
+          "site_rva": 262195,
+          "target_va": 268678992,
+          "kind": 20
+        },
+        {
+          "symbol": "??$umodulo@$$BY07I@big@@YAXAAY07I00@Z",
+          "site_rva": 262326,
+          "target_va": 268678992,
+          "kind": 20
+        },
+        {
+          "symbol": "??$simpleModExp@$$BY03I@big@@YAXAAY03I000@Z",
+          "site_rva": 262394,
+          "target_va": 268687152,
+          "kind": 20
+        },
+        {
+          "symbol": "??$ugreater@$$BY03I@big@@YA_NAAY03I0@Z",
+          "site_rva": 262412,
+          "target_va": 268671728,
+          "kind": 20
+        },
+        {
+          "symbol": "??$subtract@$$BY03I@big@@YAXAAY03I0@Z",
+          "site_rva": 262437,
+          "target_va": 268672208,
+          "kind": 20
+        },
+        {
+          "symbol": "??$subtract@$$BY03I@big@@YAXAAY03I0@Z",
+          "site_rva": 262460,
+          "target_va": 268672208,
+          "kind": 20
+        },
+        {
+          "symbol": "??$add@$$BY03I@big@@YAXAAY03I0@Z",
+          "site_rva": 262474,
+          "target_va": 268672304,
+          "kind": 20
+        },
+        {
+          "symbol": "??$umultiply@$$BY03I$$BY07I@big@@YAXAAY03I0AAY07I@Z",
+          "site_rva": 262506,
+          "target_va": 268678080,
+          "kind": 20
+        },
+        {
+          "symbol": "??$umodulo@$$BY07I@big@@YAXAAY07I00@Z",
+          "site_rva": 262521,
+          "target_va": 268678992,
+          "kind": 20
+        },
+        {
+          "symbol": "??$umultiply@$$BY07I$$BY07I@big@@YAXAAY07I0@Z",
+          "site_rva": 262535,
+          "target_va": 268679328,
+          "kind": 20
+        },
+        {
+          "symbol": "??$add@$$BY07I@big@@YAXAAY07I0@Z",
+          "site_rva": 262623,
+          "target_va": 268672400,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "eval_vendor_rakpeer_rsa",
+      "section": 100,
+      "rva": 243872,
+      "size": 144,
+      "kind": ".text",
+      "sha256": "3e12aa60675cd062121d7e35529e13f9b173afb1a5059d523f732f3070059ac4",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "??$shiftLeft@$$BY07I@big@@YAXAAY07II@Z",
+          "site_rva": 243957,
+          "target_va": 268672576,
+          "kind": 20
+        },
+        {
+          "symbol": "??$add@$$BY07I@big@@YAXAAY07I0@Z",
+          "site_rva": 243977,
+          "target_va": 268672400,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "eval_vendor_rakpeer_rsa",
+      "section": 154,
+      "rva": 265200,
+      "size": 107,
+      "kind": ".text",
+      "sha256": "8cb7e19fff6bf9fff0e09ab67c39ae25d11926e1c829750d7fcd3188e2735d46",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "??$CRTModExp@$$BY03I$$BY07I@big@@YAXAAY07I00AAY03I111111@Z",
+          "site_rva": 265271,
+          "target_va": 268697280,
+          "kind": 20
+        },
+        {
+          "symbol": "??$simpleModExp@$$BY07I@big@@YAXAAY07I000@Z",
+          "site_rva": 265297,
+          "target_va": 268684912,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "eval_vendor_rakpeer_rsa",
+      "section": 126,
+      "rva": 249456,
+      "size": 415,
+      "kind": ".text",
+      "sha256": "04f9df25306a2fff060018f1248772b4e714fc33773b16f275ba2295d29c033c",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "??$umodulo@$$BY0BA@I@big@@YAXAAY0BA@I00@Z",
+          "site_rva": 249700,
+          "target_va": 268678656,
+          "kind": 20
+        },
+        {
+          "symbol": "??$usquare@$$BY0BA@I@big@@YAXAAY0BA@I@Z",
+          "site_rva": 249750,
+          "target_va": 268679472,
+          "kind": 20
+        },
+        {
+          "symbol": "??$umodulo@$$BY0BA@I@big@@YAXAAY0BA@I00@Z",
+          "site_rva": 249768,
+          "target_va": 268678656,
+          "kind": 20
+        },
+        {
+          "symbol": "??$umultiply@$$BY0BA@I$$BY0BA@I@big@@YAXAAY0BA@I00@Z",
+          "site_rva": 249795,
+          "target_va": 268679648,
+          "kind": 20
+        },
+        {
+          "symbol": "??$umodulo@$$BY0BA@I@big@@YAXAAY0BA@I00@Z",
+          "site_rva": 249816,
+          "target_va": 268678656,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "eval_vendor_rakpeer_rsa",
+      "section": 104,
+      "rva": 244192,
+      "size": 139,
+      "kind": ".text",
+      "sha256": "a205841e9a10b41457e4f4d27af64d25e97d6ae8bf805058df30478dcb772ad0",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "??$shiftLeft@$$BY0BA@I@big@@YAXAAY0BA@II@Z",
+          "site_rva": 244272,
+          "target_va": 268673360,
+          "kind": 20
+        },
+        {
+          "symbol": "??$add@$$BY0BA@I@big@@YAXAAY0BA@I0@Z",
+          "site_rva": 244292,
+          "target_va": 268674096,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "eval_vendor_rakpeer_rsa",
+      "section": 102,
+      "rva": 244016,
+      "size": 161,
+      "kind": ".text",
+      "sha256": "f36d411f10b615a7b7e3a6e10c8a40e3f779a78cd554b16f0a2411bc3bfe7043",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "??$shiftLeft@$$BY0BA@I@big@@YAXAAY0BA@II@Z",
+          "site_rva": 244112,
+          "target_va": 268673360,
+          "kind": 20
+        },
+        {
+          "symbol": "??$add@$$BY0BA@I@big@@YAXAAY0BA@I0@Z",
+          "site_rva": 244135,
+          "target_va": 268674096,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "eval_vendor_rakpeer_rsa",
+      "section": 152,
+      "rva": 265104,
+      "size": 88,
+      "kind": ".text",
+      "sha256": "f7432e6cec4338331e3df7031a70abec83ab0f46b376d83654e6797d0bdfadcd",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "?reset@?$RSACrypt@$$BY07I@big@@QAEXXZ",
+          "site_rva": 265111,
+          "target_va": 268677328,
+          "kind": 20
+        },
+        {
+          "symbol": "??$computeNRinverse@$$BY07I@big@@YAXAAY07I0@Z",
+          "site_rva": 265168,
+          "target_va": 268697072,
+          "kind": 20
+        },
+        {
+          "symbol": "??$rModn@$$BY07I@big@@YAXAAY07I0@Z",
+          "site_rva": 265178,
+          "target_va": 268684704,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "eval_vendor_rakpeer_rsa",
+      "section": 90,
+      "rva": 241840,
+      "size": 29,
+      "kind": ".text",
+      "sha256": "1df4487669c710831ecc49440c283bf03ac813641423de5168f863902d0cc4c8",
+      "whole_bytes_equal": true,
+      "bindings": []
+    },
+    {
+      "unit": "eval_vendor_rakpeer_rsa",
+      "section": 3,
+      "rva": 953032,
+      "size": 512,
+      "kind": ".rdata",
+      "sha256": "c5467d56ba1d98f02aa8a34def427fe14ad723931151e1dfc1395ec73eb4c1a2",
+      "whole_bytes_equal": true,
+      "bindings": []
+    }
+  ],
+  "bindings_checked": 241,
+  "external_targets": {
+    "?randomMT@@YAIXZ": 268712960,
+    "eval_vendor_rakpeer_rsa::_PRIME_TABLE": 269388488
+  },
+  "identity_reasons": {
+    "?getPublicKey@?$RSACrypt@$$BY07I@big@@QAEXAAIAAY07I@Z": "source method semantics + original call graph / allocation / table owner",
+    "?reset@?$RSACrypt@$$BY07I@big@@QAEXXZ": "actual relocation from ??1?$RSACrypt@$$BY07I@big@@QAE@XZ",
+    "?setPublicKey@?$RSACrypt@$$BY07I@big@@QAEXIAAY07I@Z": "source method semantics + original call graph / allocation / table owner",
+    "?encrypt@?$RSACrypt@$$BY07I@big@@QAEXAAY07I0@Z": "source method semantics + original call graph / allocation / table owner",
+    "?decrypt@?$RSACrypt@$$BY07I@big@@QAEXAAY07I0@Z": "source method semantics + original call graph / allocation / table owner",
+    "??$setPrivateKey@$$BY03I@?$RSACrypt@$$BY07I@big@@QAEXAAY03I0@Z": "actual relocation from ?generateKeys@?$RSACrypt@$$BY07I@big@@QAEXXZ",
+    "?generateKeys@?$RSACrypt@$$BY07I@big@@QAEXXZ": "source method semantics + original call graph / allocation / table owner",
+    "??0?$RSACrypt@$$BY07I@big@@QAE@XZ": "source method semantics + original call graph / allocation / table owner",
+    "??1?$RSACrypt@$$BY07I@big@@QAE@XZ": "source method semantics + original call graph / allocation / table owner",
+    "??$generateStrongPseudoPrime@$$BY03I@big@@YAXAAY03I@Z": "actual relocation from ?generateKeys@?$RSACrypt@$$BY07I@big@@QAEXXZ",
+    "??$ugreater@$$BY03I@big@@YA_NAAY03I0@Z": "actual relocation from ??$SubMulMod@$$BY03I@big@@YAXAAY03I0000@Z",
+    "??$decrement@$$BY03I@big@@YAXAAY03I@Z": "actual relocation from ??$setPrivateKey@$$BY03I@?$RSACrypt@$$BY07I@big@@QAEXAAY03I0@Z",
+    "??$umultiply@$$BY03I$$BY07I@big@@YAXAAY03I0AAY07I@Z": "actual relocation from ??$setPrivateKey@$$BY03I@?$RSACrypt@$$BY07I@big@@QAEXAAY03I0@Z",
+    "??$computePublicExponent@$$BY07I@big@@YAXAAY07I0@Z": "actual relocation from ??$setPrivateKey@$$BY03I@?$RSACrypt@$$BY07I@big@@QAEXAAY03I0@Z",
+    "??$computePrivateExponent@$$BY07I@big@@YAXAAY07I00@Z": "actual relocation from ??$setPrivateKey@$$BY03I@?$RSACrypt@$$BY07I@big@@QAEXAAY03I0@Z",
+    "??$computeModularInverse@$$BY03I@big@@YAXAAY03I00@Z": "actual relocation from ??$setPrivateKey@$$BY03I@?$RSACrypt@$$BY07I@big@@QAEXAAY03I0@Z",
+    "??$computeNRinverse@$$BY07I@big@@YAXAAY07I0@Z": "actual relocation from ??$setPrivateKey@$$BY03I@?$RSACrypt@$$BY07I@big@@QAEXAAY03I0@Z",
+    "??$rModn@$$BY07I@big@@YAXAAY07I0@Z": "actual relocation from ??$setPrivateKey@$$BY03I@?$RSACrypt@$$BY07I@big@@QAEXAAY03I0@Z",
+    "??$computeNRinverse@$$BY03I@big@@YAXAAY03I0@Z": "actual relocation from ??$setPrivateKey@$$BY03I@?$RSACrypt@$$BY07I@big@@QAEXAAY03I0@Z",
+    "??$rModn@$$BY03I@big@@YAXAAY03I0@Z": "actual relocation from ??$setPrivateKey@$$BY03I@?$RSACrypt@$$BY07I@big@@QAEXAAY03I0@Z",
+    "??$umodulo@$$BY07I@big@@YAXAAY07I00@Z": "actual relocation from ??$rModn@$$BY03I@big@@YAXAAY03I0@Z",
+    "??$ugreater@$$BY07I@big@@YA_NAAY07I0@Z": "actual relocation from ??$umodulo@$$BY07I@big@@YAXAAY07I00@Z",
+    "??$shiftLeft@$$BY07I@big@@YAXAAY07II@Z": "actual relocation from ??$umodulo@$$BY07I@big@@YAXAAY07I00@Z",
+    "??$shiftLeft1@$$BY07I@big@@YAXAAY07I@Z": "actual relocation from ??$umodulo@$$BY07I@big@@YAXAAY07I00@Z",
+    "??$ushiftRight1@$$BY07I@big@@YAXAAY07I@Z": "actual relocation from ??$umodulo@$$BY07I@big@@YAXAAY07I00@Z",
+    "??$subtract@$$BY07I@big@@YAXAAY07I0@Z": "actual relocation from ??$umodulo@$$BY07I@big@@YAXAAY07I00@Z",
+    "??$computeRinverse@$$BY03I@big@@YAXAAY03I0@Z": "actual relocation from ??$computeNRinverse@$$BY03I@big@@YAXAAY03I0@Z",
+    "??$decrement@$$BY07I@big@@YAXAAY07I@Z": "actual relocation from ??$computeNRinverse@$$BY03I@big@@YAXAAY03I0@Z",
+    "??$udivide@$$BY07I@big@@YAXAAY07I000@Z": "actual relocation from ??$computeNRinverse@$$BY03I@big@@YAXAAY03I0@Z",
+    "??$udivide@$$BY03I@big@@YAXAAY03I000@Z": "actual relocation from ??$computeRinverse@$$BY03I@big@@YAXAAY03I0@Z",
+    "??$subtract@$$BY03I@big@@YAXAAY03I0@Z": "actual relocation from ??$SubMulMod@$$BY03I@big@@YAXAAY03I0000@Z",
+    "??$SubMulMod@$$BY03I@big@@YAXAAY03I0000@Z": "actual relocation from ??$computeRinverse@$$BY03I@big@@YAXAAY03I0@Z",
+    "??$umultiply@$$BY03I$$BY07I@big@@YAXAAY07IAAY03I@Z": "actual relocation from ??$SubMulMod@$$BY03I@big@@YAXAAY03I0000@Z",
+    "??$add@$$BY03I@big@@YAXAAY03I0@Z": "actual relocation from ??$SubMulMod@$$BY03I@big@@YAXAAY03I0000@Z",
+    "??$add@$$BY07I@big@@YAXAAY07I0@Z": "actual relocation from ??$umultiply@$$BY03I$$BY07I@big@@YAXAAY07IAAY03I@Z",
+    "??$shiftLeft@$$BY03I@big@@YAXAAY03II@Z": "actual relocation from ??$udivide@$$BY03I@big@@YAXAAY03I000@Z",
+    "??$shiftLeft1@$$BY03I@big@@YAXAAY03I@Z": "actual relocation from ??$udivide@$$BY03I@big@@YAXAAY03I000@Z",
+    "??$ushiftRight1@$$BY03I@big@@YAXAAY03I@Z": "actual relocation from ??$udivide@$$BY03I@big@@YAXAAY03I000@Z",
+    "??$umodulo@$$BY0BA@I@big@@YAXAAY0BA@I00@Z": "actual relocation from ??$rModn@$$BY07I@big@@YAXAAY07I0@Z",
+    "??$ugreater@$$BY0BA@I@big@@YA_NAAY0BA@I0@Z": "actual relocation from ??$umodulo@$$BY0BA@I@big@@YAXAAY0BA@I00@Z",
+    "??$shiftLeft@$$BY0BA@I@big@@YAXAAY0BA@II@Z": "actual relocation from ??$umodulo@$$BY0BA@I@big@@YAXAAY0BA@I00@Z",
+    "??$shiftLeft1@$$BY0BA@I@big@@YAXAAY0BA@I@Z": "actual relocation from ??$umodulo@$$BY0BA@I@big@@YAXAAY0BA@I00@Z",
+    "??$ushiftRight1@$$BY0BA@I@big@@YAXAAY0BA@I@Z": "actual relocation from ??$umodulo@$$BY0BA@I@big@@YAXAAY0BA@I00@Z",
+    "??$subtract@$$BY0BA@I@big@@YAXAAY0BA@I0@Z": "actual relocation from ??$umodulo@$$BY0BA@I@big@@YAXAAY0BA@I00@Z",
+    "??$computeRinverse@$$BY07I@big@@YAXAAY07I0@Z": "actual relocation from ??$computeNRinverse@$$BY07I@big@@YAXAAY07I0@Z",
+    "??$decrement@$$BY0BA@I@big@@YAXAAY0BA@I@Z": "actual relocation from ??$computeNRinverse@$$BY07I@big@@YAXAAY07I0@Z",
+    "??$udivide@$$BY0BA@I@big@@YAXAAY0BA@I000@Z": "actual relocation from ??$computeNRinverse@$$BY07I@big@@YAXAAY07I0@Z",
+    "??$SubMulMod@$$BY07I@big@@YAXAAY07I0000@Z": "actual relocation from ??$computeRinverse@$$BY07I@big@@YAXAAY07I0@Z",
+    "??$umultiply@$$BY07I$$BY0BA@I@big@@YAXAAY0BA@IAAY07I@Z": "actual relocation from ??$SubMulMod@$$BY07I@big@@YAXAAY07I0000@Z",
+    "??$add@$$BY0BA@I@big@@YAXAAY0BA@I0@Z": "actual relocation from ??$umultiply@$$BY07I$$BY0BA@I@big@@YAXAAY0BA@IAAY07I@Z",
+    "??$computeModularInverse@$$BY07I@big@@YAXAAY07I00@Z": "actual relocation from ??$computePrivateExponent@$$BY07I@big@@YAXAAY07I00@Z",
+    "??$GCD@$$BY07I@big@@YAXAAY07I00@Z": "actual relocation from ??$computePublicExponent@$$BY07I@big@@YAXAAY07I0@Z",
+    "??$RabinMillerPrimalityTest@$$BY03I@big@@YA_NAAY03II@Z": "actual relocation from ??$generateStrongPseudoPrime@$$BY03I@big@@YAXAAY03I@Z",
+    "??$umodulo@$$BY03I@big@@YAXAAY03I00@Z": "actual relocation from ??$RabinMillerPrimalityTest@$$BY03I@big@@YA_NAAY03II@Z",
+    "??$simpleModExp@$$BY03I@big@@YAXAAY03I000@Z": "actual relocation from ??$RabinMillerPrimalityTest@$$BY03I@big@@YA_NAAY03II@Z",
+    "??$usquare@$$BY07I@big@@YAXAAY07I@Z": "actual relocation from ??$simpleModExp@$$BY03I@big@@YAXAAY03I000@Z",
+    "??$umultiply@$$BY07I$$BY07I@big@@YAXAAY07I00@Z": "actual relocation from ??$simpleModExp@$$BY03I@big@@YAXAAY03I000@Z",
+    "??$CRTModExp@$$BY03I$$BY07I@big@@YAXAAY07I00AAY03I111111@Z": "actual relocation from ?decrypt@?$RSACrypt@$$BY07I@big@@QAEXAAY07I0@Z",
+    "??$umultiply@$$BY07I$$BY07I@big@@YAXAAY07I0@Z": "actual relocation from ??$CRTModExp@$$BY03I$$BY07I@big@@YAXAAY07I00AAY03I111111@Z",
+    "??$simpleModExp@$$BY07I@big@@YAXAAY07I000@Z": "actual relocation from ?encrypt@?$RSACrypt@$$BY07I@big@@QAEXAAY07I0@Z",
+    "??$usquare@$$BY0BA@I@big@@YAXAAY0BA@I@Z": "actual relocation from ??$simpleModExp@$$BY07I@big@@YAXAAY07I000@Z",
+    "??$umultiply@$$BY0BA@I$$BY0BA@I@big@@YAXAAY0BA@I00@Z": "actual relocation from ??$simpleModExp@$$BY07I@big@@YAXAAY07I000@Z"
+  },
+  "new_unique_code": 11013,
+  "already_covered_code": 1833,
+  "physical_code_compared": 12846,
+  "baseline": 360128,
+  "source025_direct_bytes": 0,
+  "reuse_existing_owners": {},
+  "excluded_unmatched": [],
+  "explicit_owner_transfer": "None; new RSA algorithm instantiation owner, no complete RakPeer linkage.",
+  "unselected_method": "Unused emitted specializations without actual original identity are excluded; RSA has no VFT or dynamic allocation.",
+  "source_files": [
+    {
+      "path": "client/saco/eval_vendor_rakpeer_rsa.cpp",
+      "sha256": "33930e06e0c56ac259288a7adaabe3696629c5d2367696b66b71c32bbb5c3b81"
+    }
+  ],
+  "objects": {
+    "eval_vendor_rakpeer_rsa": "044b5afdbf72efedb5d2b144aef9c8a5b12bbf88945796e403a62c45173e6131"
+  },
+  "actual_weak_aliases": {
+    "eval_vendor_rakpeer_rsa": {}
+  }
+}

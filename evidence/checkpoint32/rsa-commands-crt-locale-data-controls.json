@@ -1,0 +1,50 @@
+{
+  "status": "PASS_REAL_CRT_DATA_GATE_ONE_POSITIVE_SEVEN_NEGATIVE",
+  "run": "cp32-console-font-linked1",
+  "controls": [
+    {
+      "name": "actual_pinned_block_both_images",
+      "status": "PASS"
+    },
+    {
+      "name": "truncated_scalar",
+      "status": "REJECTED_AS_REQUIRED",
+      "reason": "unreviewed CRT data extent"
+    },
+    {
+      "name": "wrong_archive_provider",
+      "status": "REJECTED_AS_REQUIRED",
+      "reason": "wrong CRT data provider or layout"
+    },
+    {
+      "name": "wrong_neighbor_offset",
+      "status": "REJECTED_AS_REQUIRED",
+      "reason": "wrong CRT data provider or layout"
+    },
+    {
+      "name": "wrong_last_linked_object",
+      "status": "REJECTED_AS_REQUIRED",
+      "reason": "wrong complete CRT data bytes"
+    },
+    {
+      "name": "wrong_original_decimal",
+      "status": "REJECTED_AS_REQUIRED",
+      "reason": "wrong complete CRT data bytes"
+    },
+    {
+      "name": "unexpected_linked_relocation",
+      "status": "REJECTED_AS_REQUIRED",
+      "reason": "unexpected CRT data relocation"
+    },
+    {
+      "name": "unexpected_original_relocation",
+      "status": "REJECTED_AS_REQUIRED",
+      "reason": "unexpected CRT data relocation"
+    }
+  ],
+  "verifier_sha256": "78b9e834486caa46e534bc8f5cbb0154be451f3491630ebb32bf10c05371535a",
+  "test_sha256": "4ddd38147887dd31211a5e779cdd757246039c7c35ccff4aeb3fb0125b447f42",
+  "linked_sha256": "b51bbad2225e77f892f47490a1baded2e44dea4524a09ec718f997fe10931e69",
+  "mutation_scope": "Copied in-memory gate states/read overlays only. No artifact mutation.",
+  "new_credit": 0
+}

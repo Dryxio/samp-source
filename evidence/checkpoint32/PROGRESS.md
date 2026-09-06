@@ -1481,3 +1481,8 @@ Direct0250/cumulative21988. 178082 new unique bytes since parallel start, 14612.
 Console/parser/Telnet/logger8195 and Font439+ANSI271 accepted: +8905 unique code bytes, total 360128/930756 (38.691988%). All4317 previous regions preserved, 170 new complete sections, all targets/COFF/PE, three true deleting aliases and whole VFTs, CRT strtoul23 to true strtoxl boundary qualified. Ten controls and Actor ABI pass. Two former pending bodies closed; three remain. ANSI source change one predicate, no header edits. Font real static object4/VFT56, no synthetic init; original startup allocator still outside coverage. No data/CRT/duplicate code credit.
 
 Direct0250/cumulative21988. 186987 new unique bytes since parallel start, 15144.5 bytes/hour coordination/failures included. Next RakPeer and newly unlocked text consumer. Goal active; no push/deploy.
+
+
+RSA11013/RakNetCommandParser5090, commands1032 and ANSI201/ctor9 accepted: +17345 unique code bytes, total 377473/930756 (40.555527%). Entire source/data/EH, all actual targets and COFF/PE, true VFT/weak alias, pinned CRT wrappers and whole locale archive12, ten controls and Actor ABI pass. One positive/seven negative CRTdata controls. Duplicate FindPlayerPed/EH and prior RSA1833 excluded from gain. Three real SCRIPT_COMMAND18 objects stored independently, no typed slicing. No data/CRT/fake-storage or virtual concrete-implementation credit.
+
+Direct025+280/cumulative22268, verified entire Weather/Time/Interior definitions; Save/Raw adapted with zero direct credit. 204332 new unique bytes since parallel start, 16026.7 bytes/hour coordination/failures included. Chat descendants and font startup remain outside coverage. Goal active; no push/deploy.

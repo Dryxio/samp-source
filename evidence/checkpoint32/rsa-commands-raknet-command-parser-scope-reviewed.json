@@ -1,0 +1,699 @@
+{
+  "status": "PASS_FRESH_SCOPE_PROVIDERS_AND_VIRTUAL_ABI",
+  "run": "build/cp32-rsa-commands-ob1-v2",
+  "baseline": 360128,
+  "new_unique_code": 5090,
+  "class_size": 20,
+  "peer_field_offset": 16,
+  "peer_initialization": "Original ctor leaves borrowed pointer uninitialized; SetRakPeerInterface writes it.",
+  "allocations": "Only actual base RegisterCommand owns its accepted list; no peer allocation.",
+  "virtual_calls": [
+    {
+      "site_rva": 218601,
+      "slot_offset": 4,
+      "interface": "RakPeerInterface",
+      "method": "?Initialize@RakPeer@@UAE_NGGHPBD@Z",
+      "concrete_implementation_counted": false
+    },
+    {
+      "site_rva": 218607,
+      "slot_offset": 56,
+      "interface": "CommandParserInterface",
+      "method": "?ReturnResult@CommandParserInterface@@MAEX_NPBDPAVTransportInterface@@UPlayerID@@@Z",
+      "concrete_implementation_counted": false
+    },
+    {
+      "site_rva": 218652,
+      "slot_offset": 8,
+      "interface": "RakPeerInterface",
+      "method": "?InitializeSecurity@RakPeer@@UAEXPBD000@Z",
+      "concrete_implementation_counted": false
+    },
+    {
+      "site_rva": 218694,
+      "slot_offset": 40,
+      "interface": "CommandParserInterface",
+      "method": "?ReturnResult@CommandParserInterface@@MAEXPBDPAVTransportInterface@@UPlayerID@@@Z",
+      "concrete_implementation_counted": false
+    },
+    {
+      "site_rva": 218735,
+      "slot_offset": 12,
+      "interface": "RakPeerInterface",
+      "method": "?DisableSecurity@RakPeer@@UAEXXZ",
+      "concrete_implementation_counted": false
+    },
+    {
+      "site_rva": 218785,
+      "slot_offset": 16,
+      "interface": "RakPeerInterface",
+      "method": "?SetMaximumIncomingConnections@RakPeer@@UAEXG@Z",
+      "concrete_implementation_counted": false
+    },
+    {
+      "site_rva": 218827,
+      "slot_offset": 40,
+      "interface": "CommandParserInterface",
+      "method": "?ReturnResult@CommandParserInterface@@MAEXPBDPAVTransportInterface@@UPlayerID@@@Z",
+      "concrete_implementation_counted": false
+    },
+    {
+      "site_rva": 218905,
+      "slot_offset": 20,
+      "interface": "RakPeerInterface",
+      "method": "?GetMaximumIncomingConnections@RakPeer@@UBEGXZ",
+      "concrete_implementation_counted": false
+    },
+    {
+      "site_rva": 218914,
+      "slot_offset": 44,
+      "interface": "CommandParserInterface",
+      "method": "?ReturnResult@CommandParserInterface@@MAEXHPBDPAVTransportInterface@@UPlayerID@@@Z",
+      "concrete_implementation_counted": false
+    },
+    {
+      "site_rva": 219035,
+      "slot_offset": 32,
+      "interface": "RakPeerInterface",
+      "method": "?Connect@RakPeer@@UAE_NPBDGPADH@Z",
+      "concrete_implementation_counted": false
+    },
+    {
+      "site_rva": 219041,
+      "slot_offset": 56,
+      "interface": "CommandParserInterface",
+      "method": "?ReturnResult@CommandParserInterface@@MAEX_NPBDPAVTransportInterface@@UPlayerID@@@Z",
+      "concrete_implementation_counted": false
+    },
+    {
+      "site_rva": 219117,
+      "slot_offset": 36,
+      "interface": "RakPeerInterface",
+      "method": "?Disconnect@RakPeer@@UAEXIE@Z",
+      "concrete_implementation_counted": false
+    },
+    {
+      "site_rva": 219185,
+      "slot_offset": 40,
+      "interface": "RakPeerInterface",
+      "method": "?IsActive@RakPeer@@UBE_NXZ",
+      "concrete_implementation_counted": false
+    },
+    {
+      "site_rva": 219191,
+      "slot_offset": 56,
+      "interface": "CommandParserInterface",
+      "method": "?ReturnResult@CommandParserInterface@@MAEX_NPBDPAVTransportInterface@@UPlayerID@@@Z",
+      "concrete_implementation_counted": false
+    },
+    {
+      "site_rva": 219254,
+      "slot_offset": 44,
+      "interface": "RakPeerInterface",
+      "method": "?GetConnectionList@RakPeer@@UBE_NPAUPlayerID@@PAG@Z",
+      "concrete_implementation_counted": false
+    },
+    {
+      "site_rva": 219314,
+      "slot_offset": 8,
+      "interface": "TransportInterface",
+      "method": "Send",
+      "concrete_implementation_counted": false
+    },
+    {
+      "site_rva": 219377,
+      "slot_offset": 8,
+      "interface": "TransportInterface",
+      "method": "Send",
+      "concrete_implementation_counted": false
+    },
+    {
+      "site_rva": 219450,
+      "slot_offset": 184,
+      "interface": "RakPeerInterface",
+      "method": "?PlayerIDToDottedIP@RakPeer@@UBEPBDUPlayerID@@@Z",
+      "concrete_implementation_counted": false
+    },
+    {
+      "site_rva": 219505,
+      "slot_offset": 8,
+      "interface": "TransportInterface",
+      "method": "Send",
+      "concrete_implementation_counted": false
+    },
+    {
+      "site_rva": 219584,
+      "slot_offset": 8,
+      "interface": "TransportInterface",
+      "method": "Send",
+      "concrete_implementation_counted": false
+    },
+    {
+      "site_rva": 219731,
+      "slot_offset": 88,
+      "interface": "RakPeerInterface",
+      "method": "?CloseConnection@RakPeer@@UAEXUPlayerID@@_NE@Z",
+      "concrete_implementation_counted": false
+    },
+    {
+      "site_rva": 219867,
+      "slot_offset": 92,
+      "interface": "RakPeerInterface",
+      "method": "?GetIndexFromPlayerID@RakPeer@@UAEHUPlayerID@@@Z",
+      "concrete_implementation_counted": false
+    },
+    {
+      "site_rva": 219873,
+      "slot_offset": 44,
+      "interface": "CommandParserInterface",
+      "method": "?ReturnResult@CommandParserInterface@@MAEXHPBDPAVTransportInterface@@UPlayerID@@@Z",
+      "concrete_implementation_counted": false
+    },
+    {
+      "site_rva": 219941,
+      "slot_offset": 96,
+      "interface": "RakPeerInterface",
+      "method": "?GetPlayerIDFromIndex@RakPeer@@UAE?AUPlayerID@@H@Z",
+      "concrete_implementation_counted": false
+    },
+    {
+      "site_rva": 220000,
+      "slot_offset": 48,
+      "interface": "CommandParserInterface",
+      "method": "?ReturnResult@CommandParserInterface@@MAEXUPlayerID@@PBDPAVTransportInterface@@0@Z",
+      "concrete_implementation_counted": false
+    },
+    {
+      "site_rva": 220067,
+      "slot_offset": 100,
+      "interface": "RakPeerInterface",
+      "method": "?AddToBanList@RakPeer@@UAEXPBDI@Z",
+      "concrete_implementation_counted": false
+    },
+    {
+      "site_rva": 220108,
+      "slot_offset": 104,
+      "interface": "RakPeerInterface",
+      "method": "?RemoveFromBanList@RakPeer@@UAEXPBD@Z",
+      "concrete_implementation_counted": false
+    },
+    {
+      "site_rva": 220139,
+      "slot_offset": 108,
+      "interface": "RakPeerInterface",
+      "method": "?ClearBanList@RakPeer@@UAEXXZ",
+      "concrete_implementation_counted": false
+    },
+    {
+      "site_rva": 220217,
+      "slot_offset": 112,
+      "interface": "RakPeerInterface",
+      "method": "?IsBanned@RakPeer@@UAE_NPBD@Z",
+      "concrete_implementation_counted": false
+    },
+    {
+      "site_rva": 220223,
+      "slot_offset": 56,
+      "interface": "CommandParserInterface",
+      "method": "?ReturnResult@CommandParserInterface@@MAEX_NPBDPAVTransportInterface@@UPlayerID@@@Z",
+      "concrete_implementation_counted": false
+    },
+    {
+      "site_rva": 220328,
+      "slot_offset": 120,
+      "interface": "RakPeerInterface",
+      "method": "?Ping@RakPeer@@UAEXUPlayerID@@@Z",
+      "concrete_implementation_counted": false
+    },
+    {
+      "site_rva": 220403,
+      "slot_offset": 116,
+      "interface": "RakPeerInterface",
+      "method": "?Ping@RakPeer@@UAEXPBDG_N@Z",
+      "concrete_implementation_counted": false
+    },
+    {
+      "site_rva": 220539,
+      "slot_offset": 124,
+      "interface": "RakPeerInterface",
+      "method": "?GetAveragePing@RakPeer@@UAEHUPlayerID@@@Z",
+      "concrete_implementation_counted": false
+    },
+    {
+      "site_rva": 220545,
+      "slot_offset": 44,
+      "interface": "CommandParserInterface",
+      "method": "?ReturnResult@CommandParserInterface@@MAEXHPBDPAVTransportInterface@@UPlayerID@@@Z",
+      "concrete_implementation_counted": false
+    },
+    {
+      "site_rva": 220691,
+      "slot_offset": 128,
+      "interface": "RakPeerInterface",
+      "method": "?GetLastPing@RakPeer@@UBEHUPlayerID@@@Z",
+      "concrete_implementation_counted": false
+    },
+    {
+      "site_rva": 220700,
+      "slot_offset": 44,
+      "interface": "CommandParserInterface",
+      "method": "?ReturnResult@CommandParserInterface@@MAEXHPBDPAVTransportInterface@@UPlayerID@@@Z",
+      "concrete_implementation_counted": false
+    },
+    {
+      "site_rva": 220846,
+      "slot_offset": 132,
+      "interface": "RakPeerInterface",
+      "method": "?GetLowestPing@RakPeer@@UBEHUPlayerID@@@Z",
+      "concrete_implementation_counted": false
+    },
+    {
+      "site_rva": 220855,
+      "slot_offset": 44,
+      "interface": "CommandParserInterface",
+      "method": "?ReturnResult@CommandParserInterface@@MAEXHPBDPAVTransportInterface@@UPlayerID@@@Z",
+      "concrete_implementation_counted": false
+    },
+    {
+      "site_rva": 220923,
+      "slot_offset": 136,
+      "interface": "RakPeerInterface",
+      "method": "?SetOccasionalPing@RakPeer@@UAEX_N@Z",
+      "concrete_implementation_counted": false
+    },
+    {
+      "site_rva": 220983,
+      "slot_offset": 152,
+      "interface": "RakPeerInterface",
+      "method": "?SetOfflinePingResponse@RakPeer@@UAEXPBDI@Z",
+      "concrete_implementation_counted": false
+    },
+    {
+      "site_rva": 221022,
+      "slot_offset": 156,
+      "interface": "RakPeerInterface",
+      "method": "?GetInternalID@RakPeer@@UBE?AUPlayerID@@XZ",
+      "concrete_implementation_counted": false
+    },
+    {
+      "site_rva": 221125,
+      "slot_offset": 160,
+      "interface": "RakPeerInterface",
+      "method": "?GetExternalID@RakPeer@@UBE?AUPlayerID@@U2@@Z",
+      "concrete_implementation_counted": false
+    },
+    {
+      "site_rva": 221235,
+      "slot_offset": 164,
+      "interface": "RakPeerInterface",
+      "method": "?SetTimeoutTime@RakPeer@@UAEXIUPlayerID@@@Z",
+      "concrete_implementation_counted": false
+    },
+    {
+      "site_rva": 221328,
+      "slot_offset": 168,
+      "interface": "RakPeerInterface",
+      "method": "?SetMTUSize@RakPeer@@UAE_NH@Z",
+      "concrete_implementation_counted": false
+    },
+    {
+      "site_rva": 221337,
+      "slot_offset": 56,
+      "interface": "CommandParserInterface",
+      "method": "?ReturnResult@CommandParserInterface@@MAEX_NPBDPAVTransportInterface@@UPlayerID@@@Z",
+      "concrete_implementation_counted": false
+    },
+    {
+      "site_rva": 221415,
+      "slot_offset": 172,
+      "interface": "RakPeerInterface",
+      "method": "?GetMTUSize@RakPeer@@UBEHXZ",
+      "concrete_implementation_counted": false
+    },
+    {
+      "site_rva": 221424,
+      "slot_offset": 44,
+      "interface": "CommandParserInterface",
+      "method": "?ReturnResult@CommandParserInterface@@MAEXHPBDPAVTransportInterface@@UPlayerID@@@Z",
+      "concrete_implementation_counted": false
+    },
+    {
+      "site_rva": 221502,
+      "slot_offset": 176,
+      "interface": "RakPeerInterface",
+      "method": "?GetNumberOfAddresses@RakPeer@@UAEIXZ",
+      "concrete_implementation_counted": false
+    },
+    {
+      "site_rva": 221511,
+      "slot_offset": 44,
+      "interface": "CommandParserInterface",
+      "method": "?ReturnResult@CommandParserInterface@@MAEXHPBDPAVTransportInterface@@UPlayerID@@@Z",
+      "concrete_implementation_counted": false
+    },
+    {
+      "site_rva": 221657,
+      "slot_offset": 184,
+      "interface": "RakPeerInterface",
+      "method": "?PlayerIDToDottedIP@RakPeer@@UBEPBDUPlayerID@@@Z",
+      "concrete_implementation_counted": false
+    },
+    {
+      "site_rva": 221666,
+      "slot_offset": 52,
+      "interface": "CommandParserInterface",
+      "method": "?ReturnResult@CommandParserInterface@@MAEXPADPBDPAVTransportInterface@@UPlayerID@@@Z",
+      "concrete_implementation_counted": false
+    },
+    {
+      "site_rva": 221742,
+      "slot_offset": 188,
+      "interface": "RakPeerInterface",
+      "method": "?IPToPlayerID@RakPeer@@UAEXPBDGPAUPlayerID@@@Z",
+      "concrete_implementation_counted": false
+    },
+    {
+      "site_rva": 221807,
+      "slot_offset": 8,
+      "interface": "TransportInterface",
+      "method": "Send",
+      "concrete_implementation_counted": false
+    },
+    {
+      "site_rva": 221868,
+      "slot_offset": 184,
+      "interface": "RakPeerInterface",
+      "method": "?PlayerIDToDottedIP@RakPeer@@UBEPBDUPlayerID@@@Z",
+      "concrete_implementation_counted": false
+    },
+    {
+      "site_rva": 221907,
+      "slot_offset": 8,
+      "interface": "TransportInterface",
+      "method": "Send",
+      "concrete_implementation_counted": false
+    },
+    {
+      "site_rva": 222010,
+      "slot_offset": 180,
+      "interface": "RakPeerInterface",
+      "method": "?GetLocalIP@RakPeer@@UAEPBDI@Z",
+      "concrete_implementation_counted": false
+    },
+    {
+      "site_rva": 222019,
+      "slot_offset": 52,
+      "interface": "CommandParserInterface",
+      "method": "?ReturnResult@CommandParserInterface@@MAEXPADPBDPAVTransportInterface@@UPlayerID@@@Z",
+      "concrete_implementation_counted": false
+    },
+    {
+      "site_rva": 222087,
+      "slot_offset": 192,
+      "interface": "RakPeerInterface",
+      "method": "?AllowConnectionResponseIPMigration@RakPeer@@UAEX_N@Z",
+      "concrete_implementation_counted": false
+    },
+    {
+      "site_rva": 222164,
+      "slot_offset": 196,
+      "interface": "RakPeerInterface",
+      "method": "?AdvertiseSystem@RakPeer@@UAEXPBDG0H@Z",
+      "concrete_implementation_counted": false
+    },
+    {
+      "site_rva": 222246,
+      "slot_offset": 252,
+      "interface": "RakPeerInterface",
+      "method": "?ApplyNetworkSimulator@RakPeer@@UAEXNGG@Z",
+      "concrete_implementation_counted": false
+    },
+    {
+      "site_rva": 222317,
+      "slot_offset": 256,
+      "interface": "RakPeerInterface",
+      "method": "?IsNetworkSimulatorActive@RakPeer@@UAE_NXZ",
+      "concrete_implementation_counted": false
+    },
+    {
+      "site_rva": 222326,
+      "slot_offset": 56,
+      "interface": "CommandParserInterface",
+      "method": "?ReturnResult@CommandParserInterface@@MAEX_NPBDPAVTransportInterface@@UPlayerID@@@Z",
+      "concrete_implementation_counted": false
+    },
+    {
+      "site_rva": 222393,
+      "slot_offset": 24,
+      "interface": "RakPeerInterface",
+      "method": "?SetIncomingPassword@RakPeer@@UAEXPBDH@Z",
+      "concrete_implementation_counted": false
+    },
+    {
+      "site_rva": 222434,
+      "slot_offset": 28,
+      "interface": "RakPeerInterface",
+      "method": "?GetIncomingPassword@RakPeer@@UAEXPADPAH@Z",
+      "concrete_implementation_counted": false
+    },
+    {
+      "site_rva": 222489,
+      "slot_offset": 52,
+      "interface": "CommandParserInterface",
+      "method": "?ReturnResult@CommandParserInterface@@MAEXPADPBDPAVTransportInterface@@UPlayerID@@@Z",
+      "concrete_implementation_counted": false
+    },
+    {
+      "site_rva": 222509,
+      "slot_offset": 44,
+      "interface": "CommandParserInterface",
+      "method": "?ReturnResult@CommandParserInterface@@MAEXHPBDPAVTransportInterface@@UPlayerID@@@Z",
+      "concrete_implementation_counted": false
+    }
+  ],
+  "virtual_call_counts": {
+    "RakPeerInterface": 40,
+    "CommandParserInterface": 20,
+    "TransportInterface": 6
+  },
+  "abi_notes": [
+    "RakPeerInterface/CommandParserInterface thiscall; peer at parser16, own parser this EBX in original OnCommand.",
+    "PlayerID is six-byte packed struct; by-value stack slot8 and hidden six-byte output for return.",
+    "TransportInterface::Send variadic cdecl, this on stack and caller cleanup.",
+    "These dynamic API calls do not establish coverage of concrete peer implementations."
+  ],
+  "accepted_providers": [
+    {
+      "symbol": "??3@YAXPAX@Z",
+      "rva": 812170,
+      "kind": "crt",
+      "existing_boundary": true
+    },
+    {
+      "symbol": "??1CommandParserInterface@@UAE@XZ",
+      "rva": 133680,
+      "accepted_regions": [
+        {
+          "unit": "eval_vendor_command_parser_interface",
+          "size": 14
+        }
+      ]
+    },
+    {
+      "symbol": "_atoi",
+      "rva": 814374,
+      "kind": "crt",
+      "existing_boundary": true
+    },
+    {
+      "symbol": "?IntegersToPlayerID@CommandParserInterface@@IAE?AUPlayerID@@HH@Z",
+      "rva": 132384,
+      "accepted_regions": [
+        {
+          "unit": "eval_vendor_command_parser_interface",
+          "size": 26
+        }
+      ]
+    },
+    {
+      "symbol": "??8PlayerID@@QBE_NABU0@@Z",
+      "rva": 210656,
+      "accepted_regions": [
+        {
+          "unit": "closure_vendor_network_id_comparisons",
+          "size": 33
+        }
+      ]
+    },
+    {
+      "symbol": "_atof",
+      "rva": 822506,
+      "kind": "crt",
+      "existing_boundary": true
+    },
+    {
+      "symbol": "??0CommandParserInterface@@QAE@XZ",
+      "rva": 133648,
+      "accepted_regions": [
+        {
+          "unit": "eval_vendor_command_parser_interface",
+          "size": 21
+        }
+      ]
+    },
+    {
+      "symbol": "?RegisterCommand@CommandParserInterface@@MAEXEPBD0@Z",
+      "rva": 133424,
+      "accepted_regions": [
+        {
+          "unit": "eval_vendor_command_parser_interface",
+          "size": 49
+        }
+      ]
+    },
+    {
+      "symbol": "?OnNewIncomingConnection@CommandParserInterface@@UAEXUPlayerID@@PAVTransportInterface@@@Z",
+      "rva": 132032,
+      "accepted_regions": [
+        {
+          "unit": "eval_vendor_command_parser_interface",
+          "size": 3
+        }
+      ]
+    },
+    {
+      "symbol": "?OnConnectionLost@CommandParserInterface@@UAEXUPlayerID@@PAVTransportInterface@@@Z",
+      "rva": 132048,
+      "accepted_regions": [
+        {
+          "unit": "eval_vendor_command_parser_interface",
+          "size": 3
+        }
+      ]
+    },
+    {
+      "symbol": "?OnTransportChange@CommandParserInterface@@UAEXPAVTransportInterface@@@Z",
+      "rva": 132016,
+      "accepted_regions": [
+        {
+          "unit": "eval_vendor_command_parser_interface",
+          "size": 3
+        }
+      ]
+    },
+    {
+      "symbol": "?GetRegisteredCommand@CommandParserInterface@@UAE_NPBDPAURegisteredCommand@@@Z",
+      "rva": 133488,
+      "accepted_regions": [
+        {
+          "unit": "eval_vendor_command_parser_interface",
+          "size": 67
+        }
+      ]
+    },
+    {
+      "symbol": "?SendCommandList@CommandParserInterface@@UAEXPAVTransportInterface@@UPlayerID@@@Z",
+      "rva": 133200,
+      "accepted_regions": [
+        {
+          "unit": "eval_vendor_command_parser_interface",
+          "size": 222
+        }
+      ]
+    },
+    {
+      "symbol": "?ReturnResult@CommandParserInterface@@MAEXPBDPAVTransportInterface@@UPlayerID@@@Z",
+      "rva": 132192,
+      "accepted_regions": [
+        {
+          "unit": "eval_vendor_command_parser_interface",
+          "size": 48
+        }
+      ]
+    },
+    {
+      "symbol": "?ReturnResult@CommandParserInterface@@MAEXHPBDPAVTransportInterface@@UPlayerID@@@Z",
+      "rva": 132128,
+      "accepted_regions": [
+        {
+          "unit": "eval_vendor_command_parser_interface",
+          "size": 53
+        }
+      ]
+    },
+    {
+      "symbol": "?ReturnResult@CommandParserInterface@@MAEXUPlayerID@@PBDPAVTransportInterface@@0@Z",
+      "rva": 132304,
+      "accepted_regions": [
+        {
+          "unit": "eval_vendor_command_parser_interface",
+          "size": 78
+        }
+      ]
+    },
+    {
+      "symbol": "?ReturnResult@CommandParserInterface@@MAEXPADPBDPAVTransportInterface@@UPlayerID@@@Z",
+      "rva": 132240,
+      "accepted_regions": [
+        {
+          "unit": "eval_vendor_command_parser_interface",
+          "size": 53
+        }
+      ]
+    },
+    {
+      "symbol": "?ReturnResult@CommandParserInterface@@MAEX_NPBDPAVTransportInterface@@UPlayerID@@@Z",
+      "rva": 132064,
+      "accepted_regions": [
+        {
+          "unit": "eval_vendor_command_parser_interface",
+          "size": 63
+        }
+      ]
+    },
+    {
+      "symbol": "___CxxFrameHandler",
+      "rva": 812326,
+      "kind": "crt",
+      "existing_boundary": true
+    }
+  ],
+  "vft_size": 60,
+  "vft_rva": 949936,
+  "aliases": {
+    "??_ERakNetCommandParser@@UAEPAXI@Z": "??_GRakNetCommandParser@@UAEPAXI@Z"
+  },
+  "source025_direct_credit": 0,
+  "source_snapshots": [
+    {
+      "path": "build/cp32-rsa-commands-ob1-v2/vendor/upstream/raknet/RakNetCommandParser.cpp",
+      "sha256": "467c8507263179ee6375187654f08c3f89afa5310254ec4c4ba86d6f3b10f60b",
+      "same_source": true
+    },
+    {
+      "path": "build/cp32-rsa-commands-ob1-v2/vendor/upstream/raknet/RakNetCommandParser.h",
+      "sha256": "256b8310939b3a05173588b79de9e5035f30af5865360a50f03bd67b5ef083c3",
+      "same_source": true
+    },
+    {
+      "path": "build/cp32-rsa-commands-ob1-v2/vendor/upstream/raknet/CommandParserInterface.h",
+      "sha256": "ce7ee41a46985cfbd4cf1cc480f28cc009ced9d39dea94331984952092e7a311",
+      "same_source": true
+    },
+    {
+      "path": "build/cp32-rsa-commands-ob1-v2/vendor/upstream/raknet/RakPeerInterface.h",
+      "sha256": "550ac3c7ed53e081039e62a459882f9102272399ca0ed40868d5e94b75239079",
+      "same_source": true
+    },
+    {
+      "path": "build/cp32-rsa-commands-ob1-v2/vendor/upstream/raknet/TransportInterface.h",
+      "sha256": "b063263be2280a00233cb3454cbe6a71970328803ebfb57c3358e6aa189b4efe",
+      "same_source": true
+    },
+    {
+      "path": "build/cp32-rsa-commands-ob1-v2/vendor/upstream/raknet/NetworkTypes.h",
+      "sha256": "026005dc438fa4777babf8c0c855e1ace7323414137b147b38cd97e24daec83f",
+      "same_source": true
+    }
+  ]
+}

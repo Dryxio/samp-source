@@ -237,6 +237,19 @@ class Gate:
             need(e['library'] in self.contract['sdk'],'unreviewed import library')
             owner=e['library'].removesuffix('.lib').upper()+':'
             need(any(owner in provider.upper() for _,provider in self.maps[name]),'import thunk has a non-vendor provider')
+        elif e['kind']=='crt-data':
+            # No source credit: this is the entire pinned archive data block,
+            # not a surrogate definition of one of its runtime variables.
+            need(name=='___mb_cur_max' and e['size']==12 and e['reference_va']==self.reference.base+0x117668,'unreviewed CRT data extent')
+            need(e['library']=='libcmt.lib' and e['member']=='nlsdata1.obj' and e['library'] in self.contract['sdk'],'unreviewed CRT data archive')
+            for symbol,offset in ((name,0),('___decimal_point',4),('___decimal_point_length',8)):
+                need(self.maps.get(symbol)==[(actual+offset,'LIBCMT:nlsdata1.obj')],'wrong CRT data provider or layout')
+            expected=struct.pack('<III',1,0x2e,1)
+            need(e['sha256']==sha(expected),'wrong CRT data manifest')
+            for pe,va in ((self.reference,e['reference_va']),(self.linked,actual)):
+                rva=va-pe.base
+                need(rva%4==0 and pe.read(rva,12)==expected,'wrong complete CRT data bytes')
+                need(not any(rva<=x<rva+12 for x in pe.relocations),'unexpected CRT data relocation')
         else:
             need(e['kind']=='crt','unsupported external kind')
             if 'chunks' in e:

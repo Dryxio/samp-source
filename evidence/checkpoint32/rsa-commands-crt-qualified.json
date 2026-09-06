@@ -1,0 +1,127 @@
+{
+  "status": "PINNED_COMPLETE_SSCANF52_MBLEN137_QUALIFIED",
+  "run": "cp32-rsa-commands-linked1",
+  "linked_sha256": "fee8f6d6b3d3099b1fe70c48f16c38697f38115f06497e7248d65ba2823b9ea1",
+  "library_sha256": "6e2b3742e58245de52149137f64281b73db1487a07a31e165fff269fbf9b2ee8",
+  "regions": [
+    {
+      "symbol": "_sscanf",
+      "original_rva": 828299,
+      "size": 52,
+      "linked_va": 268845950,
+      "owner": "LIBCMT:sscanf.obj",
+      "whole_bytes_equal": true,
+      "all_PE_relocations_equal": true,
+      "bindings": [
+        {
+          "offset": 24,
+          "kind": "REL32",
+          "original_target_rva": 835056,
+          "linked_va": 268846704
+        },
+        {
+          "offset": 43,
+          "kind": "REL32",
+          "original_target_rva": 862864,
+          "linked_va": 268879100
+        }
+      ]
+    },
+    {
+      "symbol": "_mblen",
+      "original_rva": 828351,
+      "size": 137,
+      "linked_va": 268845813,
+      "owner": "LIBCMT:mblen.obj",
+      "whole_bytes_equal": true,
+      "all_PE_relocations_equal": true,
+      "bindings": [
+        {
+          "offset": 113,
+          "kind": "HIGHLOW",
+          "original_target_rva": 2551692,
+          "linked_va": 269601632
+        },
+        {
+          "offset": 11,
+          "kind": "HIGHLOW",
+          "original_target_rva": 1144932,
+          "linked_va": 269181588
+        },
+        {
+          "offset": 86,
+          "kind": "HIGHLOW",
+          "original_target_rva": 938496,
+          "linked_va": 268915100
+        },
+        {
+          "offset": 119,
+          "kind": "HIGHLOW",
+          "original_target_rva": 938496,
+          "linked_va": 268915100
+        },
+        {
+          "offset": 2,
+          "kind": "REL32",
+          "original_target_rva": 839180,
+          "linked_va": 268850299
+        },
+        {
+          "offset": 18,
+          "kind": "REL32",
+          "original_target_rva": 846978,
+          "linked_va": 268855030
+        }
+      ]
+    }
+  ],
+  "boundaries": [
+    {
+      "symbol": "_strlen",
+      "original_rva": 835056,
+      "linked_va": 268846704,
+      "owner": "LIBCMT:strlen.obj",
+      "kind": "runtime-code"
+    },
+    {
+      "symbol": "__input",
+      "original_rva": 862864,
+      "linked_va": 268879100,
+      "owner": "LIBCMT:input.obj",
+      "kind": "runtime-code"
+    },
+    {
+      "symbol": "__getptd",
+      "original_rva": 839180,
+      "linked_va": 268850299,
+      "owner": "LIBCMT:tidtable.obj",
+      "kind": "runtime-code"
+    },
+    {
+      "symbol": "___updatetlocinfo",
+      "original_rva": 846978,
+      "linked_va": 268855030,
+      "owner": "LIBCMT:setlocal.obj",
+      "kind": "runtime-code"
+    },
+    {
+      "symbol": "___ptlocinfo",
+      "original_rva": 1144932,
+      "linked_va": 269181588,
+      "owner": "LIBCMT:setlocal.obj",
+      "kind": "runtime-data"
+    },
+    {
+      "symbol": "___lc_codepage",
+      "original_rva": 2551692,
+      "linked_va": 269601632,
+      "owner": "LIBCMT:nlsdata2.obj",
+      "kind": "runtime-data"
+    }
+  ],
+  "import_identity": [
+    "kernel32.dll",
+    "MultiByteToWideChar"
+  ],
+  "new_credit": 0
+}
