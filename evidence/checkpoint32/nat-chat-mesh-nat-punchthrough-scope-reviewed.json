@@ -1,0 +1,373 @@
+{
+  "status": "PASS_NAT_FULL_SCOPE_AND_REAL_PROTOCOL_IDS",
+  "baseline": 318918,
+  "new_unique": 4016,
+  "source025_direct_bytes": 0,
+  "full_type_layout": {
+    "NatPunchthrough": {
+      "sizeof": 21,
+      "primary_vptr": 0,
+      "allowFacilitation": 4,
+      "rakPeer": 5,
+      "connectionRequestList": 9
+    },
+    "ConnectionRequest": {
+      "sizeof": 36,
+      "nextActionTime": 0,
+      "facilitatingConnection": 4,
+      "receiver": 5,
+      "timeoutTime": 11,
+      "facilitator": 15,
+      "passwordData": 21,
+      "passwordDataLength": 25,
+      "sender": 29,
+      "pingCount": 35
+    }
+  },
+  "allocation_sites": [
+    {
+      "function": "?Connect@NatPunchthrough@@QAE_NUPlayerID@@PADH0@Z",
+      "site_rva": 203682,
+      "allocation_size": 36
+    },
+    {
+      "function": "?OnPunchthroughRequest@NatPunchthrough@@IAEXPAVRakPeerInterface@@PAUPacket@@@Z",
+      "site_rva": 204309,
+      "allocation_size": 36
+    },
+    {
+      "function": "?OnSendOfflineMessageAtTime@NatPunchthrough@@IAEXPAVRakPeerInterface@@PAUPacket@@@Z",
+      "site_rva": 204937,
+      "allocation_size": 36
+    }
+  ],
+  "dynamic_dispatch": [
+    {
+      "function": "?Connect@NatPunchthrough@@QAE_NUPlayerID@@PADH0@Z",
+      "site_rva": 203554,
+      "offset": 92,
+      "identity": "RakPeerInterface::GetIndexFromPlayerID",
+      "concrete_transport_code_credit": 0
+    },
+    {
+      "function": "?Connect@NatPunchthrough@@QAE_NUPlayerID@@PADH0@Z",
+      "site_rva": 203883,
+      "offset": 48,
+      "identity": "RakPeerInterface::Send(BitStream)",
+      "concrete_transport_code_credit": 0
+    },
+    {
+      "function": "?OnPunchthroughRequest@NatPunchthrough@@IAEXPAVRakPeerInterface@@PAUPacket@@@Z",
+      "site_rva": 204203,
+      "offset": 92,
+      "identity": "RakPeerInterface::GetIndexFromPlayerID",
+      "concrete_transport_code_credit": 0
+    },
+    {
+      "function": "?OnPunchthroughRequest@NatPunchthrough@@IAEXPAVRakPeerInterface@@PAUPacket@@@Z",
+      "site_rva": 204301,
+      "offset": 48,
+      "identity": "RakPeerInterface::Send(BitStream)",
+      "concrete_transport_code_credit": 0
+    },
+    {
+      "function": "?OnPunchthroughRequest@NatPunchthrough@@IAEXPAVRakPeerInterface@@PAUPacket@@@Z",
+      "site_rva": 204455,
+      "offset": 120,
+      "identity": "RakPeerInterface::Ping(PlayerID)",
+      "concrete_transport_code_credit": 0
+    },
+    {
+      "function": "?OnPunchthroughRequest@NatPunchthrough@@IAEXPAVRakPeerInterface@@PAUPacket@@@Z",
+      "site_rva": 204483,
+      "offset": 120,
+      "identity": "RakPeerInterface::Ping(PlayerID)",
+      "concrete_transport_code_credit": 0
+    },
+    {
+      "function": "?Connect@NatPunchthrough@@QAE_NPBDGPADHUPlayerID@@@Z",
+      "site_rva": 205258,
+      "offset": 188,
+      "identity": "RakPeerInterface::IPToPlayerID",
+      "concrete_transport_code_credit": 0
+    },
+    {
+      "function": "?Update@NatPunchthrough@@UAEXPAVRakPeerInterface@@@Z",
+      "site_rva": 205521,
+      "offset": 120,
+      "identity": "RakPeerInterface::Ping(PlayerID)",
+      "concrete_transport_code_credit": 0
+    },
+    {
+      "function": "?Update@NatPunchthrough@@UAEXPAVRakPeerInterface@@@Z",
+      "site_rva": 205557,
+      "offset": 120,
+      "identity": "RakPeerInterface::Ping(PlayerID)",
+      "concrete_transport_code_credit": 0
+    },
+    {
+      "function": "?Update@NatPunchthrough@@UAEXPAVRakPeerInterface@@@Z",
+      "site_rva": 205661,
+      "offset": 124,
+      "identity": "RakPeerInterface::GetAveragePing",
+      "concrete_transport_code_credit": 0
+    },
+    {
+      "function": "?Update@NatPunchthrough@@UAEXPAVRakPeerInterface@@@Z",
+      "site_rva": 205701,
+      "offset": 124,
+      "identity": "RakPeerInterface::GetAveragePing",
+      "concrete_transport_code_credit": 0
+    },
+    {
+      "function": "?Update@NatPunchthrough@@UAEXPAVRakPeerInterface@@@Z",
+      "site_rva": 205778,
+      "offset": 124,
+      "identity": "RakPeerInterface::GetAveragePing",
+      "concrete_transport_code_credit": 0
+    },
+    {
+      "function": "?Update@NatPunchthrough@@UAEXPAVRakPeerInterface@@@Z",
+      "site_rva": 205818,
+      "offset": 124,
+      "identity": "RakPeerInterface::GetAveragePing",
+      "concrete_transport_code_credit": 0
+    },
+    {
+      "function": "?Update@NatPunchthrough@@UAEXPAVRakPeerInterface@@@Z",
+      "site_rva": 205987,
+      "offset": 48,
+      "identity": "RakPeerInterface::Send(BitStream)",
+      "concrete_transport_code_credit": 0
+    },
+    {
+      "function": "?Update@NatPunchthrough@@UAEXPAVRakPeerInterface@@@Z",
+      "site_rva": 206151,
+      "offset": 48,
+      "identity": "RakPeerInterface::Send(BitStream)",
+      "concrete_transport_code_credit": 0
+    },
+    {
+      "function": "?Update@NatPunchthrough@@UAEXPAVRakPeerInterface@@@Z",
+      "site_rva": 206286,
+      "offset": 184,
+      "identity": "RakPeerInterface::PlayerIDToDottedIP",
+      "concrete_transport_code_credit": 0
+    },
+    {
+      "function": "?Update@NatPunchthrough@@UAEXPAVRakPeerInterface@@@Z",
+      "site_rva": 206296,
+      "offset": 32,
+      "identity": "RakPeerInterface::Connect",
+      "concrete_transport_code_credit": 0
+    },
+    {
+      "function": "?Update@NatPunchthrough@@UAEXPAVRakPeerInterface@@@Z",
+      "site_rva": 206339,
+      "offset": 184,
+      "identity": "RakPeerInterface::PlayerIDToDottedIP",
+      "concrete_transport_code_credit": 0
+    },
+    {
+      "function": "?Update@NatPunchthrough@@UAEXPAVRakPeerInterface@@@Z",
+      "site_rva": 206349,
+      "offset": 116,
+      "identity": "RakPeerInterface::Ping(host,port,onlyReply)",
+      "concrete_transport_code_credit": 0
+    },
+    {
+      "function": "?OnCloseConnection@NatPunchthrough@@UAEXPAVRakPeerInterface@@UPlayerID@@@Z",
+      "site_rva": 206719,
+      "offset": 48,
+      "identity": "RakPeerInterface::Send(BitStream)",
+      "concrete_transport_code_credit": 0
+    },
+    {
+      "function": "?OnReceive@NatPunchthrough@@UAE?AW4PluginReceiveResult@@PAVRakPeerInterface@@PAUPacket@@@Z",
+      "site_rva": 207114,
+      "offset": 24,
+      "identity": "NatPunchthrough::OnCloseConnection (own VFT)",
+      "concrete_transport_code_credit": 0
+    }
+  ],
+  "whole_VFT": {
+    "rva": 946492,
+    "size": 40,
+    "slots": [
+      203152,
+      212864,
+      212880,
+      205328,
+      206944,
+      203168,
+      206400,
+      212960,
+      212976,
+      212992
+    ],
+    "destructor": "Nonvirtual, no invented deleting VFT slot"
+  },
+  "whole_data": [
+    {
+      "rva": 946484,
+      "size": 8,
+      "meaning": "two actual compile-visible floats1.5/5.0"
+    },
+    {
+      "rva": 1042208,
+      "size": 16,
+      "meaning": "Header static PlayerID6+alignment2+NetworkID8; same true contiguous complete source section"
+    }
+  ],
+  "section_boundaries": [
+    {
+      "rva": 206944,
+      "whole_size": 262,
+      "code_size": 183,
+      "noncode_excluded": 79
+    },
+    {
+      "rva": 926400,
+      "whole_size": 32,
+      "code_size": 22,
+      "noncode_excluded": 10
+    }
+  ],
+  "runtime_scope": "Static compilation/comparison only. Real RakPeerInterface calls retain exact ABI; concrete networking code outside this family receives no implementation credit.",
+  "protocol_adaptation": {
+    "status": "BOUNDED_R5_PROTOCOL_ENUM_ADAPTATION",
+    "proposal": "build/agent-independent/eval_vendor_nat_punchthrough2.cpp",
+    "sha256": "2dcf54167b605f0460b4cc148f64c08bfa6783e0e9377cafd923dcf8fe3a56a7",
+    "trial_preserved": "build/cp32-nat-trial1",
+    "differences": [
+      {
+        "function": "OnPunchthroughRequest",
+        "rva": 204016,
+        "size": 537,
+        "offset": 212,
+        "compiled_immediate": 83,
+        "original_immediate": 82,
+        "meaning": "Target not connected: result GetIndexFromPlayerID == -1"
+      },
+      {
+        "function": "OnCloseConnection",
+        "rva": 206400,
+        "size": 421,
+        "offset": 203,
+        "compiled_immediate": 82,
+        "original_immediate": 83,
+        "meaning": "Target connection lost: callback for closing existing facilitated connection"
+      }
+    ],
+    "scope": "Two named R5 message ID assignments scoped to one source TU. Shared enum/header untouched. Both case labels occur in the same grouped OnReceive branch, so their swap preserves its behavior.",
+    "source025_direct_bytes": 0
+  },
+  "accepted_providers_checked": [
+    {
+      "symbol": "??0BitStream@RakNet@@QAE@PAEI_N@Z",
+      "rva": 128960,
+      "accepted_owner": "closure_cmd_bitstream"
+    },
+    {
+      "symbol": "?IgnoreBits@BitStream@RakNet@@QAEXH@Z",
+      "rva": 130288,
+      "accepted_owner": "closure_cmd_bitstream"
+    },
+    {
+      "symbol": "?ReadBits@BitStream@RakNet@@QAE_NPAEH_N@Z",
+      "rva": 129456,
+      "accepted_owner": "closure_cmd_bitstream"
+    },
+    {
+      "symbol": "??1BitStream@RakNet@@QAE@XZ",
+      "rva": 129232,
+      "accepted_owner": "closure_cmd_bitstream"
+    },
+    {
+      "symbol": "?GetTime@RakNet@@YAIXZ",
+      "rva": 190448,
+      "accepted_owner": "closure_raknet_time"
+    },
+    {
+      "symbol": "??8PlayerID@@QBE_NABU0@@Z",
+      "rva": 210656,
+      "accepted_owner": "closure_vendor_network_id_comparisons"
+    },
+    {
+      "symbol": "??0BitStream@RakNet@@QAE@XZ",
+      "rva": 128816,
+      "accepted_owner": "closure_cmd_bitstream"
+    },
+    {
+      "symbol": "?WriteBits@BitStream@RakNet@@QAEXPBEH_N@Z",
+      "rva": 131040,
+      "accepted_owner": "closure_cmd_bitstream"
+    },
+    {
+      "symbol": "?Reset@BitStream@RakNet@@QAEXXZ",
+      "rva": 129264,
+      "accepted_owner": "closure_cmd_bitstream"
+    },
+    {
+      "symbol": "??9PlayerID@@QBE_NABU0@@Z",
+      "rva": 210704,
+      "accepted_owner": "closure_vendor_network_id_comparisons"
+    },
+    {
+      "symbol": "?OnDetach@PluginInterface@@UAEXPAVRakPeerInterface@@@Z",
+      "rva": 212864,
+      "accepted_owner": "closure_vendor_plugin_interface"
+    },
+    {
+      "symbol": "?OnInitialize@PluginInterface@@UAEXPAVRakPeerInterface@@@Z",
+      "rva": 212880,
+      "accepted_owner": "closure_vendor_plugin_interface"
+    },
+    {
+      "symbol": "?OnDirectSocketSend@PluginInterface@@UAEXPBDIUPlayerID@@@Z",
+      "rva": 212960,
+      "accepted_owner": "closure_vendor_plugin_interface"
+    },
+    {
+      "symbol": "?OnDirectSocketReceive@PluginInterface@@UAEXPBDIUPlayerID@@@Z",
+      "rva": 212976,
+      "accepted_owner": "closure_vendor_plugin_interface"
+    },
+    {
+      "symbol": "?OnInternalPacket@PluginInterface@@UAEXPAUInternalPacket@@IUPlayerID@@I_N@Z",
+      "rva": 212992,
+      "accepted_owner": "closure_vendor_plugin_interface"
+    }
+  ],
+  "compiler_weak_aliases": {
+    "closure_vendor_nat_punchthrough": {}
+  },
+  "source_snapshots": [
+    {
+      "path": "client/saco/closure_vendor_nat_punchthrough.cpp",
+      "snapshot": "build/cp32-nat-trial2/client/saco/closure_vendor_nat_punchthrough.cpp",
+      "sha256": "2dcf54167b605f0460b4cc148f64c08bfa6783e0e9377cafd923dcf8fe3a56a7"
+    },
+    {
+      "path": "vendor/upstream/raknet/NatPunchthrough.cpp",
+      "snapshot": "build/cp32-nat-trial2/vendor/upstream/raknet/NatPunchthrough.cpp",
+      "sha256": "10d16834dd5e936508d3d3420877a5336964250e41931df7105a12f796707643"
+    },
+    {
+      "path": "vendor/upstream/raknet/NatPunchthrough.h",
+      "snapshot": "build/cp32-nat-trial2/vendor/upstream/raknet/NatPunchthrough.h",
+      "sha256": "6ea9a54ae8760865a49b92dea59cc99e323d40d0b44afd7b5aea5df6900bad9b"
+    },
+    {
+      "path": "vendor/upstream/raknet/PacketEnumerations.h",
+      "snapshot": "build/cp32-nat-trial2/vendor/upstream/raknet/PacketEnumerations.h",
+      "sha256": "1ffacefb533bc75300ac2c0f0012dffb72a3fb5d594294c8747a5376685cea72"
+    }
+  ],
+  "original_capture": {
+    "path": "build/agent-independent/nat-original-scope.asm",
+    "sha256": "22ea4cab10eb8ffa4d93638519be32a26ec0ec50bb55f719ef38c8689b7f4777"
+  },
+  "excluded": "FacilitateConnections10 has two homologues and no real caller identified; not seeded. Unused Plugin constructors/List getters/BitStream templates uncredited. 30/32trial1 preserved; trial2 fixes genuine wire IDs, no scheduling permutation.",
+  "manifest_sha256": "7a2034f859d01d3ee9a9e69880e1d2832ce6d29ac93fd89e46f21c64483deb45"
+}

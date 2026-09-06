@@ -1456,3 +1456,8 @@ Direct0250/cumulative21947: existing vendor source supplies this batch. 142539 n
 DirectoryDelta/IME/menu accepted: +3238 unique code bytes, total 318918/930756 (34.264404%). Whole functions and attached data/EH, all COFF/PE targets, genuine providers and whole state, ten controls and Actor ABI pass. DirectoryDelta2164 including actual FileList/List constructors25, IME711, Menu363. No data, duplicate or CRT code credited.
 
 Direct0250/cumulative21947: existing vendor source and R5 UI adaptations supply this batch. 145777 new unique bytes since parallel start, 13067.9 bytes/hour coordination/failures included. Parked IME message/reading bodies excluded. Goal active; no push/deploy.
+
+
+NAT/chat/mesh accepted: +5027 unique code bytes, total 323945/930756 (34.804503%). Whole functions and attached data/EH, all COFF/PE targets, genuine providers and whole state, ten controls and Actor ABI pass. Nat4016, Mesh630, Chat381; local R5 failure IDs52/53, whole dispatch tables and EH included in comparison. No data, duplicate or CRT code credited.
+
+Direct02541/cumulative21988: FilterInvalidChars41 has actual missing source in025, other code uses existing vendor and R5 adaptations. 150804 new unique bytes since parallel start, 13280.1 bytes/hour coordination/failures included. Parked IME message/reading bodies excluded. Goal active; no push/deploy.

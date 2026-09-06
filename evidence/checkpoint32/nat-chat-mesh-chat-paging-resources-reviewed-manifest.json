@@ -1,0 +1,153 @@
+{
+  "status": "SCOPED_FULL_PREFLIGHT_NOT_ACCEPTANCE",
+  "run": "cp32-chat-paging-trial2",
+  "baseline_after_pending": 318918,
+  "code_bytes": 381,
+  "new_unique_code": 381,
+  "EH": 0,
+  "data_bytes": 0,
+  "direct025_code_credit": 41,
+  "regions": [
+    {
+      "unit": "closure_chat_paging_resources",
+      "anchor": "?ConfigureScrollBar@R5ChatPagingView@@QAEXXZ",
+      "rva": 422400,
+      "size": 153,
+      "section": 54,
+      "kind": "code",
+      "object_sha256": "b056ebbc0c0d305618d2f9ef365a1457799c12909bbe5d877c1ef34622c2057a",
+      "sha256": "19940a5e76cf52d8e6ce7ea12801efa26328b0e636f45b2164d96e42f4fb2c3c",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "?SetTrackRange@CDXUTScrollBar@@QAEXHH@Z",
+          "site_rva": 422482,
+          "symbol_va": 268995664,
+          "addend": 0,
+          "target_va": 268995664,
+          "kind": 20
+        },
+        {
+          "symbol": "?Cap@CDXUTScrollBar@@IAEXXZ",
+          "site_rva": 422503,
+          "symbol_va": 268981248,
+          "addend": 0,
+          "target_va": 268981248,
+          "kind": 20
+        },
+        {
+          "symbol": "?UpdateThumbRect@CDXUTScrollBar@@IAEXXZ",
+          "site_rva": 422510,
+          "symbol_va": 268981024,
+          "addend": 0,
+          "target_va": 268981024,
+          "kind": 20
+        },
+        {
+          "symbol": "?Cap@CDXUTScrollBar@@IAEXXZ",
+          "site_rva": 422538,
+          "symbol_va": 268981248,
+          "addend": 0,
+          "target_va": 268981248,
+          "kind": 20
+        },
+        {
+          "symbol": "?UpdateThumbRect@CDXUTScrollBar@@IAEXXZ",
+          "site_rva": 422547,
+          "symbol_va": 268981024,
+          "addend": 0,
+          "target_va": 268981024,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "closure_chat_paging_resources",
+      "anchor": "?SetPageSize@R5ChatPagingView@@QAEXH@Z",
+      "rva": 422560,
+      "size": 38,
+      "section": 56,
+      "kind": "code",
+      "object_sha256": "b056ebbc0c0d305618d2f9ef365a1457799c12909bbe5d877c1ef34622c2057a",
+      "sha256": "bdc7b9c727dd774530cc64bb716074389d3824d55fba9f0eb4e5e81b7091930b",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "?ConfigureScrollBar@R5ChatPagingView@@QAEXXZ",
+          "site_rva": 422580,
+          "symbol_va": 268857856,
+          "addend": 0,
+          "target_va": 268857856,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "closure_chat_paging_resources",
+      "anchor": "?ScrollWheel@R5ChatPagingView@@QAEXH@Z",
+      "rva": 422848,
+      "size": 66,
+      "section": 58,
+      "kind": "code",
+      "object_sha256": "b056ebbc0c0d305618d2f9ef365a1457799c12909bbe5d877c1ef34622c2057a",
+      "sha256": "d5e54c2586dc0d676159e89f67c9aed828af1b10bc65c3865e8693f6cb34bfb4",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "__imp__SystemParametersInfoA@16",
+          "site_rva": 422882,
+          "symbol_va": 269374412,
+          "addend": 0,
+          "target_va": 269374412,
+          "kind": 6
+        },
+        {
+          "symbol": "?Scroll@CDXUTScrollBar@@QAEXH@Z",
+          "site_rva": 422905,
+          "symbol_va": 268994480,
+          "addend": 0,
+          "target_va": 268994480,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "closure_chat_paging_resources",
+      "anchor": "?ReleaseSurfaces@R5ChatPagingView@@QAEXXZ",
+      "rva": 422304,
+      "size": 83,
+      "section": 60,
+      "kind": "code",
+      "object_sha256": "b056ebbc0c0d305618d2f9ef365a1457799c12909bbe5d877c1ef34622c2057a",
+      "sha256": "b0a2882ab670aeee0e472895f56f356aaef72be6b2776f5ebba6b3e787c5c732",
+      "whole_bytes_equal": true,
+      "bindings": []
+    },
+    {
+      "unit": "closure_chat_paging_resources",
+      "anchor": "?FilterInvalidChars@R5ChatPagingView@@QAEXPAD@Z",
+      "rva": 422944,
+      "size": 41,
+      "section": 62,
+      "kind": "code",
+      "object_sha256": "b056ebbc0c0d305618d2f9ef365a1457799c12909bbe5d877c1ef34622c2057a",
+      "sha256": "74c3a3d211354792431091df5e29e6dcf008a6482eca89e95e35de9f41aa3546",
+      "whole_bytes_equal": true,
+      "bindings": []
+    }
+  ],
+  "new_imports": {},
+  "excluded": [
+    "SetLocation22,SetSize22,SetTrackPos29,SetPageSize29 are inline-only in this accepted scope: no new helper credit."
+  ],
+  "source_sha256": "72354dd97a19890c8bb7d03645b2ffe871de52665393b011d916c96d21c2710f",
+  "identity_notes": [
+    "Complete true63EA pointer-only chat layout is compile asserted; no allocated partial class, no new globals.",
+    "ConfigureScrollBar153 has existing base source; real call from SetPageSize672A0 confirms target67200.",
+    "SetPageSize clamps accepted inputs10..100, updates cacheDirty63DA; no change to bounds.",
+    "Wheel66 preserves original SystemParametersInfoA SPI_GETWHEELSCROLLLINES(0x68) and unchecked returned UINTlines, negated delta passed to Scroll887B0.",
+    "ReleaseSurfaces83 uses three genuine COM Release slot8 calls at fields63BE/63BA/63B6 and nulls each released member.",
+    "FilterInvalidChars41 is source025 exact method body after class-owner rename only, signedchar0<character<32 replaced withspace; old full-buffer AddEntry/PushBack remain uncredited.",
+    "No helper sections required by actual COFF; original inlined SetLocation/SetSize/SetTrackPos/SetPageSize preserved in153."
+  ]
+}
