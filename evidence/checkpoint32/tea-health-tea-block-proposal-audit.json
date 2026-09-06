@@ -1,0 +1,156 @@
+{
+  "status": "PROPOSED_NOT_COMPILED",
+  "baseline": 236753,
+  "pending_disjoint": "Reliability/DataCompressor1672+preview361",
+  "functions": [
+    {
+      "rva": 354640,
+      "size": 44,
+      "name": "??0TEABlockEncryptor@@QAE@XZ",
+      "new_unique_potential": 44,
+      "providers": [
+        {
+          "site_rva": 354643,
+          "target_rva": 153024,
+          "kind": "call"
+        }
+      ]
+    },
+    {
+      "rva": 354688,
+      "size": 5,
+      "name": "??1TEABlockEncryptor@@QAE@XZ",
+      "new_unique_potential": 5,
+      "providers": [
+        {
+          "site_rva": 354688,
+          "target_rva": 153040,
+          "kind": "jmp"
+        }
+      ]
+    },
+    {
+      "rva": 354704,
+      "size": 7,
+      "name": "?IsKeySet@TEABlockEncryptor@@QBE_NXZ",
+      "new_unique_potential": 7,
+      "providers": []
+    },
+    {
+      "rva": 354720,
+      "size": 10,
+      "name": "?SetKey@TEABlockEncryptor@@QAEXQBE@Z",
+      "new_unique_potential": 10,
+      "providers": []
+    },
+    {
+      "rva": 354736,
+      "size": 8,
+      "name": "?UnsetKey@TEABlockEncryptor@@QAEXXZ",
+      "new_unique_potential": 8,
+      "providers": []
+    },
+    {
+      "rva": 354752,
+      "size": 380,
+      "name": "?EncryptBlock@TEABlockEncryptor@@IAEXAAI0@Z",
+      "new_unique_potential": 380,
+      "providers": []
+    },
+    {
+      "rva": 355136,
+      "size": 389,
+      "name": "?DecryptBlock@TEABlockEncryptor@@IAEXAAI0@Z",
+      "new_unique_potential": 389,
+      "providers": []
+    },
+    {
+      "rva": 355536,
+      "size": 261,
+      "name": "?Encrypt@TEABlockEncryptor@@QAEXPAEH0PAH@Z",
+      "new_unique_potential": 261,
+      "providers": [
+        {
+          "site_rva": 355618,
+          "target_rva": 277504,
+          "kind": "call"
+        },
+        {
+          "site_rva": 355655,
+          "target_rva": 814560,
+          "kind": "call"
+        },
+        {
+          "site_rva": 355700,
+          "target_rva": 277504,
+          "kind": "call"
+        },
+        {
+          "site_rva": 355728,
+          "target_rva": 131616,
+          "kind": "call"
+        },
+        {
+          "site_rva": 355773,
+          "target_rva": 354752,
+          "kind": "call"
+        }
+      ]
+    },
+    {
+      "rva": 355808,
+      "size": 254,
+      "name": "sub_10056DE0",
+      "new_unique_potential": 254,
+      "providers": [
+        {
+          "site_rva": 355904,
+          "target_rva": 355136,
+          "kind": "call"
+        },
+        {
+          "site_rva": 355959,
+          "target_rva": 131616,
+          "kind": "call"
+        },
+        {
+          "site_rva": 355995,
+          "target_rva": 814560,
+          "kind": "call"
+        }
+      ]
+    }
+  ],
+  "potential_unique_code": 1358,
+  "source025_direct_bytes": 0,
+  "active_owner_collisions": [],
+  "source": {
+    "path": "build/agent-independent/eval_vendor_tea_block_encryptor.cpp",
+    "sha256": "9bd1465f0e50e4607996e7b6eba170c4e298ba73482f3a7047bff212f033d39e"
+  },
+  "ABI": {
+    "size": 610,
+    "base": "DataBlockEncryptor complete586 nonvirtual; true constructor255C0 and destructor255D0",
+    "key": 586,
+    "initSum": 602,
+    "initDelta": 606,
+    "inherited_keySet": 585
+  },
+  "data": [
+    {
+      "symbol": "?initObsDelta@TEABlockEncryptor@@1IA",
+      "rva": 1057336,
+      "size": 4,
+      "value": 3231963766,
+      "reference_sites": [
+        354649
+      ]
+    }
+  ],
+  "notes": [
+    "Preserve vendor SetKey key=key no-op; original569A0 only sets inherited flag and does not copy key. Do not repair original behavior.",
+    "Original DecryptBlock/EncryptBlock use byte array indexing key[...], not conventional XTEA uint32 keys; preserve source.",
+    "Base constructor10/dtor1 may need regions restored to active manifest as true providers, already coveredCP31 so no new credit.",
+    "No dynamic allocation, vtable or EH in TEA family."
+  ]
+}

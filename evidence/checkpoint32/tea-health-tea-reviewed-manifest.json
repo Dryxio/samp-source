@@ -1,0 +1,348 @@
+{
+  "status": "REVIEWED_SCOPED_FUNCTION_AND_DATA_PREFLIGHT",
+  "seeds": {
+    "closure_vendor_tea_block_encryptor": {
+      "??0TEABlockEncryptor@@QAE@XZ": 354640,
+      "??1TEABlockEncryptor@@QAE@XZ": 354688,
+      "?IsKeySet@TEABlockEncryptor@@QBE_NXZ": 354704,
+      "?SetKey@TEABlockEncryptor@@QAEXQBE@Z": 354720,
+      "?UnsetKey@TEABlockEncryptor@@QAEXXZ": 354736,
+      "?EncryptBlock@TEABlockEncryptor@@IAEXAAI0@Z": 354752,
+      "?DecryptBlock@TEABlockEncryptor@@IAEXAAI0@Z": 355136,
+      "?Encrypt@TEABlockEncryptor@@QAEXPAEH0PAH@Z": 355536,
+      "?Decrypt@TEABlockEncryptor@@QAE_NPAEH0PAH@Z": 355808
+    },
+    "closure_vendor_data_block_encryptor": {
+      "??0DataBlockEncryptor@@QAE@XZ": 153024,
+      "??1DataBlockEncryptor@@QAE@XZ": 153040
+    }
+  },
+  "regions": [
+    {
+      "unit": "closure_vendor_tea_block_encryptor",
+      "section": 8,
+      "rva": 354640,
+      "size": 44,
+      "kind": ".text",
+      "sha256": "cf9621d090b283ffb1e36f1de376437d20a9fc693eef564c2ddcbfb527719706",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "??0DataBlockEncryptor@@QAE@XZ",
+          "site_rva": 354644,
+          "target_va": 268588480,
+          "kind": 20
+        },
+        {
+          "symbol": "?initObsDelta@TEABlockEncryptor@@1IA",
+          "site_rva": 354649,
+          "target_va": 269492792,
+          "kind": 6
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_tea_block_encryptor",
+      "section": 10,
+      "rva": 354688,
+      "size": 5,
+      "kind": ".text",
+      "sha256": "c1bef129c301cdb6807f646602114cc0d3bc452d4097ce9cf22c66a8c43b96d3",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "??1DataBlockEncryptor@@QAE@XZ",
+          "site_rva": 354689,
+          "target_va": 268588496,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_tea_block_encryptor",
+      "section": 12,
+      "rva": 354704,
+      "size": 7,
+      "kind": ".text",
+      "sha256": "8faafd26d2a14bea0309d0baf45bb0ca56e43681db85b6a079f1190bd8ee2629",
+      "whole_bytes_equal": true,
+      "bindings": []
+    },
+    {
+      "unit": "closure_vendor_tea_block_encryptor",
+      "section": 14,
+      "rva": 354720,
+      "size": 10,
+      "kind": ".text",
+      "sha256": "ee894cc2d29954f6edf2754f22176844b2ef4a426bf5ed8606ac5f0d73b81990",
+      "whole_bytes_equal": true,
+      "bindings": []
+    },
+    {
+      "unit": "closure_vendor_tea_block_encryptor",
+      "section": 16,
+      "rva": 354736,
+      "size": 8,
+      "kind": ".text",
+      "sha256": "f902e11336befc55750331de5ddec5cc99bdb051e7394cfbd0018f6ba63a4a36",
+      "whole_bytes_equal": true,
+      "bindings": []
+    },
+    {
+      "unit": "closure_vendor_tea_block_encryptor",
+      "section": 18,
+      "rva": 354752,
+      "size": 380,
+      "kind": ".text",
+      "sha256": "c01b0d87bf95df36db70361b8efcc7136b3d20e835137026f6764c9b2ee6c988",
+      "whole_bytes_equal": true,
+      "bindings": []
+    },
+    {
+      "unit": "closure_vendor_tea_block_encryptor",
+      "section": 20,
+      "rva": 355136,
+      "size": 389,
+      "kind": ".text",
+      "sha256": "9223af84e0af4925cbc8ec68f5985ef4ed4cfc4e4a9eef1dc20decf84423883c",
+      "whole_bytes_equal": true,
+      "bindings": []
+    },
+    {
+      "unit": "closure_vendor_tea_block_encryptor",
+      "section": 24,
+      "rva": 355536,
+      "size": 261,
+      "kind": ".text",
+      "sha256": "f1d98eb4c1e5e2cc13e2186db2a5bdd2c00e5c9792497d792fad79644624d8e0",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "?randomMT@@YAIXZ",
+          "site_rva": 355619,
+          "target_va": 268712960,
+          "kind": 20
+        },
+        {
+          "symbol": "_memmove",
+          "site_rva": 355656,
+          "target_va": 269250016,
+          "kind": 20
+        },
+        {
+          "symbol": "?randomMT@@YAIXZ",
+          "site_rva": 355701,
+          "target_va": 268712960,
+          "kind": 20
+        },
+        {
+          "symbol": "?Add@CheckSum@@QAEXPAEI@Z",
+          "site_rva": 355729,
+          "target_va": 268567072,
+          "kind": 20
+        },
+        {
+          "symbol": "?EncryptBlock@TEABlockEncryptor@@IAEXAAI0@Z",
+          "site_rva": 355774,
+          "target_va": 268790208,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_tea_block_encryptor",
+      "section": 26,
+      "rva": 355808,
+      "size": 254,
+      "kind": ".text",
+      "sha256": "6aed21bf008e75e091a672a291d730c11384f0f634732124d9c347cd48a80de4",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "?DecryptBlock@TEABlockEncryptor@@IAEXAAI0@Z",
+          "site_rva": 355905,
+          "target_va": 268790592,
+          "kind": 20
+        },
+        {
+          "symbol": "?Add@CheckSum@@QAEXPAEI@Z",
+          "site_rva": 355960,
+          "target_va": 268567072,
+          "kind": 20
+        },
+        {
+          "symbol": "_memmove",
+          "site_rva": 355996,
+          "target_va": 269250016,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_data_block_encryptor",
+      "section": 7,
+      "rva": 153024,
+      "size": 10,
+      "kind": ".text",
+      "sha256": "9aafe23af4fc75832cbfadd1da87c1a1b429877a191b4274a832c54a30af21e7",
+      "whole_bytes_equal": true,
+      "bindings": []
+    },
+    {
+      "unit": "closure_vendor_data_block_encryptor",
+      "section": 9,
+      "rva": 153040,
+      "size": 1,
+      "kind": ".text",
+      "sha256": "ae3f4619b0413d70d3004b9131c3752153074e45725be13b9a148978895e359e",
+      "whole_bytes_equal": true,
+      "bindings": []
+    },
+    {
+      "unit": "closure_vendor_tea_block_encryptor",
+      "section": 3,
+      "rva": 1057336,
+      "size": 4,
+      "kind": ".data",
+      "sha256": "a045fba79811e279f1545d451e96d606f25a07704133eea6b757daf464422c1a",
+      "whole_bytes_equal": true,
+      "bindings": []
+    }
+  ],
+  "bindings_checked": 11,
+  "new_unique_code": 1358,
+  "already_covered": 11,
+  "baseline": 238956,
+  "external_targets": {
+    "?initObsDelta@TEABlockEncryptor@@1IA": 269492792,
+    "?randomMT@@YAIXZ": 268712960,
+    "_memmove": 269250016,
+    "?Add@CheckSum@@QAEXPAEI@Z": 268567072
+  },
+  "existing_base_owner": "build/cp32-reliability-preview-linked1/closure_vendor_data_block_encryptor.obj",
+  "original_callers": [
+    {
+      "caller_rva": 277664,
+      "caller_inventory_name": "?SetEncryptionKey@ReliabilityLayer@@QAEXPBE@Z",
+      "site_rva": 277682,
+      "target_symbol": "?SetKey@TEABlockEncryptor@@QAEXQBE@Z",
+      "target_rva": 354720
+    },
+    {
+      "caller_rva": 277664,
+      "caller_inventory_name": "?SetEncryptionKey@ReliabilityLayer@@QAEXPBE@Z",
+      "site_rva": 277687,
+      "target_symbol": "?UnsetKey@TEABlockEncryptor@@QAEXXZ",
+      "target_rva": 354736
+    },
+    {
+      "caller_rva": 277776,
+      "caller_inventory_name": "?SendBitStream@ReliabilityLayer@@AAEXIUPlayerID@@PAVBitStream@RakNet@@@Z",
+      "site_rva": 277854,
+      "target_symbol": "?IsKeySet@TEABlockEncryptor@@QBE_NXZ",
+      "target_rva": 354704
+    },
+    {
+      "caller_rva": 277776,
+      "caller_inventory_name": "?SendBitStream@ReliabilityLayer@@AAEXIUPlayerID@@PAVBitStream@RakNet@@@Z",
+      "site_rva": 277894,
+      "target_symbol": "?Encrypt@TEABlockEncryptor@@QAEXPAEH0PAH@Z",
+      "target_rva": 355536
+    },
+    {
+      "caller_rva": 284672,
+      "caller_inventory_name": "sub_10045800",
+      "site_rva": 284734,
+      "target_symbol": "?IsKeySet@TEABlockEncryptor@@QBE_NXZ",
+      "target_rva": 354704
+    },
+    {
+      "caller_rva": 289536,
+      "caller_inventory_name": "sub_10046B00",
+      "site_rva": 289786,
+      "target_symbol": "?IsKeySet@TEABlockEncryptor@@QBE_NXZ",
+      "target_rva": 354704
+    },
+    {
+      "caller_rva": 295024,
+      "caller_inventory_name": "sub_10048070",
+      "site_rva": 295056,
+      "target_symbol": "?IsKeySet@TEABlockEncryptor@@QBE_NXZ",
+      "target_rva": 354704
+    },
+    {
+      "caller_rva": 298512,
+      "caller_inventory_name": "??0ReliabilityLayer@@QAE@XZ",
+      "site_rva": 298677,
+      "target_symbol": "??0TEABlockEncryptor@@QAE@XZ",
+      "target_rva": 354640
+    },
+    {
+      "caller_rva": 299600,
+      "caller_inventory_name": "sub_10049250",
+      "site_rva": 299700,
+      "target_symbol": "?IsKeySet@TEABlockEncryptor@@QBE_NXZ",
+      "target_rva": 354704
+    },
+    {
+      "caller_rva": 299600,
+      "caller_inventory_name": "sub_10049250",
+      "site_rva": 299729,
+      "target_symbol": "?Decrypt@TEABlockEncryptor@@QAE_NPAEH0PAH@Z",
+      "target_rva": 355808
+    },
+    {
+      "caller_rva": 303600,
+      "caller_inventory_name": "??1ReliabilityLayer@@QAE@XZ",
+      "site_rva": 303687,
+      "target_symbol": "??1TEABlockEncryptor@@QAE@XZ",
+      "target_rva": 354688
+    },
+    {
+      "caller_rva": 354640,
+      "caller_inventory_name": "??0TEABlockEncryptor@@QAE@XZ",
+      "site_rva": 354643,
+      "target_symbol": "??0DataBlockEncryptor@@QAE@XZ",
+      "target_rva": 153024
+    },
+    {
+      "caller_rva": 354688,
+      "caller_inventory_name": "??1TEABlockEncryptor@@QAE@XZ",
+      "site_rva": 354688,
+      "target_symbol": "??1DataBlockEncryptor@@QAE@XZ",
+      "target_rva": 153040
+    },
+    {
+      "caller_rva": 355536,
+      "caller_inventory_name": "?Encrypt@TEABlockEncryptor@@QAEXPAEH0PAH@Z",
+      "site_rva": 355773,
+      "target_symbol": "?EncryptBlock@TEABlockEncryptor@@IAEXAAI0@Z",
+      "target_rva": 354752
+    },
+    {
+      "caller_rva": 355808,
+      "caller_inventory_name": "sub_10056DE0",
+      "site_rva": 355904,
+      "target_symbol": "?DecryptBlock@TEABlockEncryptor@@IAEXAAI0@Z",
+      "target_rva": 355136
+    },
+    {
+      "caller_rva": 929268,
+      "caller_inventory_name": "sub_100E2DF4",
+      "site_rva": 929277,
+      "target_symbol": "??1TEABlockEncryptor@@QAE@XZ",
+      "target_rva": 354688
+    },
+    {
+      "caller_rva": 929476,
+      "caller_inventory_name": "sub_100E2EC4",
+      "site_rva": 929485,
+      "target_symbol": "??1TEABlockEncryptor@@QAE@XZ",
+      "target_rva": 354688
+    }
+  ],
+  "EH": "none",
+  "excluded": "All emitted CheckSum getters/Clear/constructor uncalled helpers excluded.",
+  "source025_direct_bytes": 0,
+  "identity_reason": "Distinct TEA inherited flag helpers resolved by ReliabilityLayer actual calls; base destructor255D0 explicitly targeted by TEA destructor56980, never seeded as arbitrary one-byte body. Full class610 and initSum602/initDelta606/key586 distinguish TEA state from AES base."
+}

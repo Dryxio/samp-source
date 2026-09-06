@@ -1,0 +1,1624 @@
+{
+  "status": "REVIEWED_SCOPED_FUNCTION_AND_DATA_PREFLIGHT_NOT_ACCEPTANCE",
+  "seeds": {
+    "closure_player_tag_health": {
+      "??0CNewPlayerTags@@QAE@PAUIDirect3DDevice9@@@Z": 445680,
+      "??1CNewPlayerTags@@QAE@XZ": 445728,
+      "?End@CNewPlayerTags@@QAEXXZ": 445776,
+      "?DeleteDeviceObjects@CNewPlayerTags@@QAEXXZ": 448080,
+      "?RestoreDeviceObjects@CNewPlayerTags@@QAEXXZ": 448128,
+      "?Draw@CNewPlayerTags@@QAEXPAUD3DXVECTOR3@@MMM@Z": 446624,
+      "?Begin@CNewPlayerTags@@QAEXXZ": 448176
+    },
+    "closure_hook_transform": {
+      "?SetTransform@IDirect3DDevice9Hook@@UAGJW4_D3DTRANSFORMSTATETYPE@@PBU_D3DMATRIX@@@Z": 477312
+    }
+  },
+  "regions": [
+    {
+      "unit": "closure_player_tag_health",
+      "section": 52,
+      "anchor": "??0CNewPlayerTags@@QAE@PAUIDirect3DDevice9@@@Z",
+      "rva": 445680,
+      "size": 38,
+      "kind": ".text",
+      "sha256": "7df254678a0f3fb484d09fd3359a03aca327e69a24fb390ca2c449d88c24784e",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "_D3DXCreateSprite@8",
+          "site_rva": 445708,
+          "target_va": 269245556,
+          "kind": 20,
+          "symbol_va": 269245556,
+          "addend": 0
+        }
+      ]
+    },
+    {
+      "unit": "closure_player_tag_health",
+      "section": 54,
+      "anchor": "??1CNewPlayerTags@@QAE@XZ",
+      "rva": 445728,
+      "size": 41,
+      "kind": ".text",
+      "sha256": "52a2a275ca669fdd29d4b566a5aad23198aa4d95cd4a5463436d6e699dd72bd1",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "??3@YAXPAX@Z",
+          "site_rva": 445753,
+          "target_va": 269247626,
+          "kind": 20,
+          "symbol_va": 269247626,
+          "addend": 0
+        }
+      ]
+    },
+    {
+      "unit": "closure_player_tag_health",
+      "section": 56,
+      "anchor": "?End@CNewPlayerTags@@QAEXXZ",
+      "rva": 445776,
+      "size": 33,
+      "kind": ".text",
+      "sha256": "fe27b66290f290fac433dba6054cca56955e9869cbf914359749ce4d46bea16d",
+      "whole_bytes_equal": true,
+      "bindings": []
+    },
+    {
+      "unit": "closure_player_tag_health",
+      "section": 58,
+      "anchor": "?DeleteDeviceObjects@CNewPlayerTags@@QAEXXZ",
+      "rva": 448080,
+      "size": 38,
+      "kind": ".text",
+      "sha256": "6eec25c3ff6fa2d0bc4449c32319458c8627edda04961506c2c87e46c046f806",
+      "whole_bytes_equal": true,
+      "bindings": []
+    },
+    {
+      "unit": "closure_player_tag_health",
+      "section": 60,
+      "anchor": "?RestoreDeviceObjects@CNewPlayerTags@@QAEXXZ",
+      "rva": 448128,
+      "size": 42,
+      "kind": ".text",
+      "sha256": "964034900c98f0ab372914b8a8552f6ae326a6b484d893be86730100973772f6",
+      "whole_bytes_equal": true,
+      "bindings": []
+    },
+    {
+      "unit": "closure_player_tag_health",
+      "section": 62,
+      "anchor": "?Draw@CNewPlayerTags@@QAEXPAUD3DXVECTOR3@@MMM@Z",
+      "rva": 446624,
+      "size": 1456,
+      "kind": ".text",
+      "sha256": "c9d1cc78cff8718d79dd27f3190a803c08ec2c535db33c569fc2de0aff316235",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "__real@3d428f5c",
+          "site_rva": 446640,
+          "target_va": 269395528,
+          "kind": 6,
+          "symbol_va": 269395528,
+          "addend": 0
+        },
+        {
+          "symbol": "__real@3e4ccccd",
+          "site_rva": 446675,
+          "target_va": 269393040,
+          "kind": 6,
+          "symbol_va": 269393040,
+          "addend": 0
+        },
+        {
+          "symbol": "?matView@@3UD3DXMATRIX@@A",
+          "site_rva": 446703,
+          "target_va": 269749616,
+          "kind": 6,
+          "symbol_va": 269749616,
+          "addend": 0
+        },
+        {
+          "symbol": "?matProj@@3UD3DXMATRIX@@A",
+          "site_rva": 446708,
+          "target_va": 269749680,
+          "kind": 6,
+          "symbol_va": 269749680,
+          "addend": 0
+        },
+        {
+          "symbol": "_D3DXVec3Project@24",
+          "site_rva": 446868,
+          "target_va": 269245568,
+          "kind": 20,
+          "symbol_va": 269245568,
+          "addend": 0
+        },
+        {
+          "symbol": "__real@3f800000",
+          "site_rva": 446878,
+          "target_va": 269376300,
+          "kind": 6,
+          "symbol_va": 269376300,
+          "addend": 0
+        },
+        {
+          "symbol": "__real@00000000",
+          "site_rva": 446902,
+          "target_va": 269375808,
+          "kind": 6,
+          "symbol_va": 269375808,
+          "addend": 0
+        },
+        {
+          "symbol": "__ftol2",
+          "site_rva": 446922,
+          "target_va": 269251652,
+          "kind": 20,
+          "symbol_va": 269251652,
+          "addend": 0
+        },
+        {
+          "symbol": "__ftol2",
+          "site_rva": 446943,
+          "target_va": 269251652,
+          "kind": 20,
+          "symbol_va": 269251652,
+          "addend": 0
+        },
+        {
+          "symbol": "?HealthBarVertices1@@3PAUHealthBarVertices1_s@@A",
+          "site_rva": 446961,
+          "target_va": 269494652,
+          "kind": 6,
+          "symbol_va": 269494576,
+          "addend": 76
+        },
+        {
+          "symbol": "?HealthBarVertices1@@3PAUHealthBarVertices1_s@@A",
+          "site_rva": 446966,
+          "target_va": 269494632,
+          "kind": 6,
+          "symbol_va": 269494576,
+          "addend": 56
+        },
+        {
+          "symbol": "?HealthBarVertices1@@3PAUHealthBarVertices1_s@@A",
+          "site_rva": 446975,
+          "target_va": 269494612,
+          "kind": 6,
+          "symbol_va": 269494576,
+          "addend": 36
+        },
+        {
+          "symbol": "?HealthBarVertices1@@3PAUHealthBarVertices1_s@@A",
+          "site_rva": 446984,
+          "target_va": 269494592,
+          "kind": 6,
+          "symbol_va": 269494576,
+          "addend": 16
+        },
+        {
+          "symbol": "__real@41a00000",
+          "site_rva": 446990,
+          "target_va": 269375492,
+          "kind": 6,
+          "symbol_va": 269375492,
+          "addend": 0
+        },
+        {
+          "symbol": "?HealthBarBGVertices1@@3PAUHealthBarVertices1_s@@A",
+          "site_rva": 447000,
+          "target_va": 269494572,
+          "kind": 6,
+          "symbol_va": 269494496,
+          "addend": 76
+        },
+        {
+          "symbol": "?HealthBarBGVertices1@@3PAUHealthBarVertices1_s@@A",
+          "site_rva": 447005,
+          "target_va": 269494552,
+          "kind": 6,
+          "symbol_va": 269494496,
+          "addend": 56
+        },
+        {
+          "symbol": "?HealthBarBDRVertices1@@3PAUHealthBarVertices1_s@@A",
+          "site_rva": 447011,
+          "target_va": 269494416,
+          "kind": 6,
+          "symbol_va": 269494416,
+          "addend": 0
+        },
+        {
+          "symbol": "?HealthBarBGVertices1@@3PAUHealthBarVertices1_s@@A",
+          "site_rva": 447016,
+          "target_va": 269494532,
+          "kind": 6,
+          "symbol_va": 269494496,
+          "addend": 36
+        },
+        {
+          "symbol": "?HealthBarBGVertices1@@3PAUHealthBarVertices1_s@@A",
+          "site_rva": 447025,
+          "target_va": 269494512,
+          "kind": 6,
+          "symbol_va": 269494496,
+          "addend": 16
+        },
+        {
+          "symbol": "__real@41900000",
+          "site_rva": 447031,
+          "target_va": 269395552,
+          "kind": 6,
+          "symbol_va": 269395552,
+          "addend": 0
+        },
+        {
+          "symbol": "?HealthBarBDRVertices1@@3PAUHealthBarVertices1_s@@A",
+          "site_rva": 447037,
+          "target_va": 269494420,
+          "kind": 6,
+          "symbol_va": 269494416,
+          "addend": 4
+        },
+        {
+          "symbol": "?HealthBarBDRVertices1@@3PAUHealthBarVertices1_s@@A",
+          "site_rva": 447045,
+          "target_va": 269494436,
+          "kind": 6,
+          "symbol_va": 269494416,
+          "addend": 20
+        },
+        {
+          "symbol": "__real@41c00000",
+          "site_rva": 447055,
+          "target_va": 269395548,
+          "kind": 6,
+          "symbol_va": 269395548,
+          "addend": 0
+        },
+        {
+          "symbol": "?HealthBarBDRVertices1@@3PAUHealthBarVertices1_s@@A",
+          "site_rva": 447061,
+          "target_va": 269494440,
+          "kind": 6,
+          "symbol_va": 269494416,
+          "addend": 24
+        },
+        {
+          "symbol": "__real@41a80000",
+          "site_rva": 447071,
+          "target_va": 269395544,
+          "kind": 6,
+          "symbol_va": 269395544,
+          "addend": 0
+        },
+        {
+          "symbol": "?HealthBarBDRVertices1@@3PAUHealthBarVertices1_s@@A",
+          "site_rva": 447077,
+          "target_va": 269494456,
+          "kind": 6,
+          "symbol_va": 269494416,
+          "addend": 40
+        },
+        {
+          "symbol": "?HealthBarBDRVertices1@@3PAUHealthBarVertices1_s@@A",
+          "site_rva": 447085,
+          "target_va": 269494460,
+          "kind": 6,
+          "symbol_va": 269494416,
+          "addend": 44
+        },
+        {
+          "symbol": "?HealthBarBDRVertices1@@3PAUHealthBarVertices1_s@@A",
+          "site_rva": 447091,
+          "target_va": 269494476,
+          "kind": 6,
+          "symbol_va": 269494416,
+          "addend": 60
+        },
+        {
+          "symbol": "?HealthBarBDRVertices1@@3PAUHealthBarVertices1_s@@A",
+          "site_rva": 447097,
+          "target_va": 269494480,
+          "kind": 6,
+          "symbol_va": 269494416,
+          "addend": 64
+        },
+        {
+          "symbol": "__real@41980000",
+          "site_rva": 447107,
+          "target_va": 269395540,
+          "kind": 6,
+          "symbol_va": 269395540,
+          "addend": 0
+        },
+        {
+          "symbol": "?HealthBarVertices1@@3PAUHealthBarVertices1_s@@A",
+          "site_rva": 447115,
+          "target_va": 269494576,
+          "kind": 6,
+          "symbol_va": 269494576,
+          "addend": 0
+        },
+        {
+          "symbol": "?HealthBarBGVertices1@@3PAUHealthBarVertices1_s@@A",
+          "site_rva": 447121,
+          "target_va": 269494496,
+          "kind": 6,
+          "symbol_va": 269494496,
+          "addend": 0
+        },
+        {
+          "symbol": "__real@41980000",
+          "site_rva": 447131,
+          "target_va": 269395540,
+          "kind": 6,
+          "symbol_va": 269395540,
+          "addend": 0
+        },
+        {
+          "symbol": "?HealthBarVertices1@@3PAUHealthBarVertices1_s@@A",
+          "site_rva": 447137,
+          "target_va": 269494580,
+          "kind": 6,
+          "symbol_va": 269494576,
+          "addend": 4
+        },
+        {
+          "symbol": "?HealthBarVertices1@@3PAUHealthBarVertices1_s@@A",
+          "site_rva": 447143,
+          "target_va": 269494580,
+          "kind": 6,
+          "symbol_va": 269494576,
+          "addend": 4
+        },
+        {
+          "symbol": "?HealthBarBGVertices1@@3PAUHealthBarVertices1_s@@A",
+          "site_rva": 447151,
+          "target_va": 269494500,
+          "kind": 6,
+          "symbol_va": 269494496,
+          "addend": 4
+        },
+        {
+          "symbol": "?HealthBarVertices1@@3PAUHealthBarVertices1_s@@A",
+          "site_rva": 447157,
+          "target_va": 269494596,
+          "kind": 6,
+          "symbol_va": 269494576,
+          "addend": 20
+        },
+        {
+          "symbol": "?HealthBarBGVertices1@@3PAUHealthBarVertices1_s@@A",
+          "site_rva": 447163,
+          "target_va": 269494516,
+          "kind": 6,
+          "symbol_va": 269494496,
+          "addend": 20
+        },
+        {
+          "symbol": "__real@41b80000",
+          "site_rva": 447173,
+          "target_va": 269395536,
+          "kind": 6,
+          "symbol_va": 269395536,
+          "addend": 0
+        },
+        {
+          "symbol": "?HealthBarVertices1@@3PAUHealthBarVertices1_s@@A",
+          "site_rva": 447179,
+          "target_va": 269494600,
+          "kind": 6,
+          "symbol_va": 269494576,
+          "addend": 24
+        },
+        {
+          "symbol": "?HealthBarVertices1@@3PAUHealthBarVertices1_s@@A",
+          "site_rva": 447185,
+          "target_va": 269494600,
+          "kind": 6,
+          "symbol_va": 269494576,
+          "addend": 24
+        },
+        {
+          "symbol": "?HealthBarBGVertices1@@3PAUHealthBarVertices1_s@@A",
+          "site_rva": 447195,
+          "target_va": 269494520,
+          "kind": 6,
+          "symbol_va": 269494496,
+          "addend": 24
+        },
+        {
+          "symbol": "__real@41980000",
+          "site_rva": 447201,
+          "target_va": 269395540,
+          "kind": 6,
+          "symbol_va": 269395540,
+          "addend": 0
+        },
+        {
+          "symbol": "?HealthBarBGVertices1@@3PAUHealthBarVertices1_s@@A",
+          "site_rva": 447207,
+          "target_va": 269494536,
+          "kind": 6,
+          "symbol_va": 269494496,
+          "addend": 40
+        },
+        {
+          "symbol": "?HealthBarVertices1@@3PAUHealthBarVertices1_s@@A",
+          "site_rva": 447215,
+          "target_va": 269494620,
+          "kind": 6,
+          "symbol_va": 269494576,
+          "addend": 44
+        },
+        {
+          "symbol": "?HealthBarVertices1@@3PAUHealthBarVertices1_s@@A",
+          "site_rva": 447220,
+          "target_va": 269494620,
+          "kind": 6,
+          "symbol_va": 269494576,
+          "addend": 44
+        },
+        {
+          "symbol": "?HealthBarBGVertices1@@3PAUHealthBarVertices1_s@@A",
+          "site_rva": 447225,
+          "target_va": 269494540,
+          "kind": 6,
+          "symbol_va": 269494496,
+          "addend": 44
+        },
+        {
+          "symbol": "?HealthBarBGVertices1@@3PAUHealthBarVertices1_s@@A",
+          "site_rva": 447231,
+          "target_va": 269494556,
+          "kind": 6,
+          "symbol_va": 269494496,
+          "addend": 60
+        },
+        {
+          "symbol": "?HealthBarVertices1@@3PAUHealthBarVertices1_s@@A",
+          "site_rva": 447237,
+          "target_va": 269494640,
+          "kind": 6,
+          "symbol_va": 269494576,
+          "addend": 64
+        },
+        {
+          "symbol": "?HealthBarVertices1@@3PAUHealthBarVertices1_s@@A",
+          "site_rva": 447243,
+          "target_va": 269494640,
+          "kind": 6,
+          "symbol_va": 269494576,
+          "addend": 64
+        },
+        {
+          "symbol": "?HealthBarBGVertices1@@3PAUHealthBarVertices1_s@@A",
+          "site_rva": 447256,
+          "target_va": 269494560,
+          "kind": 6,
+          "symbol_va": 269494496,
+          "addend": 64
+        },
+        {
+          "symbol": "__real@42c80000",
+          "site_rva": 447262,
+          "target_va": 269377812,
+          "kind": 6,
+          "symbol_va": 269377812,
+          "addend": 0
+        },
+        {
+          "symbol": "__real@3ec4ec4f",
+          "site_rva": 447293,
+          "target_va": 269395532,
+          "kind": 6,
+          "symbol_va": 269395532,
+          "addend": 0
+        },
+        {
+          "symbol": "__real@41980000",
+          "site_rva": 447299,
+          "target_va": 269395540,
+          "kind": 6,
+          "symbol_va": 269395540,
+          "addend": 0
+        },
+        {
+          "symbol": "?HealthBarVertices1@@3PAUHealthBarVertices1_s@@A",
+          "site_rva": 447309,
+          "target_va": 269494616,
+          "kind": 6,
+          "symbol_va": 269494576,
+          "addend": 40
+        },
+        {
+          "symbol": "?HealthBarVertices1@@3PAUHealthBarVertices1_s@@A",
+          "site_rva": 447315,
+          "target_va": 269494636,
+          "kind": 6,
+          "symbol_va": 269494576,
+          "addend": 60
+        },
+        {
+          "symbol": "__real@00000000",
+          "site_rva": 447328,
+          "target_va": 269375808,
+          "kind": 6,
+          "symbol_va": 269375808,
+          "addend": 0
+        },
+        {
+          "symbol": "?HealthBarBDRVertices1@@3PAUHealthBarVertices1_s@@A",
+          "site_rva": 447345,
+          "target_va": 269494420,
+          "kind": 6,
+          "symbol_va": 269494416,
+          "addend": 4
+        },
+        {
+          "symbol": "__real@41000000",
+          "site_rva": 447351,
+          "target_va": 269375756,
+          "kind": 6,
+          "symbol_va": 269375756,
+          "addend": 0
+        },
+        {
+          "symbol": "?HealthBarBDRVertices1@@3PAUHealthBarVertices1_s@@A",
+          "site_rva": 447357,
+          "target_va": 269494420,
+          "kind": 6,
+          "symbol_va": 269494416,
+          "addend": 4
+        },
+        {
+          "symbol": "?HealthBarVertices1@@3PAUHealthBarVertices1_s@@A",
+          "site_rva": 447363,
+          "target_va": 269494580,
+          "kind": 6,
+          "symbol_va": 269494576,
+          "addend": 4
+        },
+        {
+          "symbol": "__real@41000000",
+          "site_rva": 447369,
+          "target_va": 269375756,
+          "kind": 6,
+          "symbol_va": 269375756,
+          "addend": 0
+        },
+        {
+          "symbol": "?HealthBarBGVertices1@@3PAUHealthBarVertices1_s@@A",
+          "site_rva": 447375,
+          "target_va": 269494500,
+          "kind": 6,
+          "symbol_va": 269494496,
+          "addend": 4
+        },
+        {
+          "symbol": "?HealthBarVertices1@@3PAUHealthBarVertices1_s@@A",
+          "site_rva": 447381,
+          "target_va": 269494580,
+          "kind": 6,
+          "symbol_va": 269494576,
+          "addend": 4
+        },
+        {
+          "symbol": "__real@41000000",
+          "site_rva": 447387,
+          "target_va": 269375756,
+          "kind": 6,
+          "symbol_va": 269375756,
+          "addend": 0
+        },
+        {
+          "symbol": "?HealthBarVertices1@@3PAUHealthBarVertices1_s@@A",
+          "site_rva": 447393,
+          "target_va": 269494580,
+          "kind": 6,
+          "symbol_va": 269494576,
+          "addend": 4
+        },
+        {
+          "symbol": "?HealthBarBDRVertices1@@3PAUHealthBarVertices1_s@@A",
+          "site_rva": 447399,
+          "target_va": 269494440,
+          "kind": 6,
+          "symbol_va": 269494416,
+          "addend": 24
+        },
+        {
+          "symbol": "__real@41000000",
+          "site_rva": 447405,
+          "target_va": 269375756,
+          "kind": 6,
+          "symbol_va": 269375756,
+          "addend": 0
+        },
+        {
+          "symbol": "?HealthBarBDRVertices1@@3PAUHealthBarVertices1_s@@A",
+          "site_rva": 447411,
+          "target_va": 269494440,
+          "kind": 6,
+          "symbol_va": 269494416,
+          "addend": 24
+        },
+        {
+          "symbol": "?HealthBarVertices1@@3PAUHealthBarVertices1_s@@A",
+          "site_rva": 447417,
+          "target_va": 269494600,
+          "kind": 6,
+          "symbol_va": 269494576,
+          "addend": 24
+        },
+        {
+          "symbol": "__real@41000000",
+          "site_rva": 447423,
+          "target_va": 269375756,
+          "kind": 6,
+          "symbol_va": 269375756,
+          "addend": 0
+        },
+        {
+          "symbol": "?HealthBarBGVertices1@@3PAUHealthBarVertices1_s@@A",
+          "site_rva": 447429,
+          "target_va": 269494520,
+          "kind": 6,
+          "symbol_va": 269494496,
+          "addend": 24
+        },
+        {
+          "symbol": "?HealthBarVertices1@@3PAUHealthBarVertices1_s@@A",
+          "site_rva": 447435,
+          "target_va": 269494600,
+          "kind": 6,
+          "symbol_va": 269494576,
+          "addend": 24
+        },
+        {
+          "symbol": "__real@41000000",
+          "site_rva": 447441,
+          "target_va": 269375756,
+          "kind": 6,
+          "symbol_va": 269375756,
+          "addend": 0
+        },
+        {
+          "symbol": "?HealthBarVertices1@@3PAUHealthBarVertices1_s@@A",
+          "site_rva": 447447,
+          "target_va": 269494600,
+          "kind": 6,
+          "symbol_va": 269494576,
+          "addend": 24
+        },
+        {
+          "symbol": "?HealthBarBDRVertices1@@3PAUHealthBarVertices1_s@@A",
+          "site_rva": 447453,
+          "target_va": 269494460,
+          "kind": 6,
+          "symbol_va": 269494416,
+          "addend": 44
+        },
+        {
+          "symbol": "__real@41000000",
+          "site_rva": 447459,
+          "target_va": 269375756,
+          "kind": 6,
+          "symbol_va": 269375756,
+          "addend": 0
+        },
+        {
+          "symbol": "?HealthBarBDRVertices1@@3PAUHealthBarVertices1_s@@A",
+          "site_rva": 447465,
+          "target_va": 269494460,
+          "kind": 6,
+          "symbol_va": 269494416,
+          "addend": 44
+        },
+        {
+          "symbol": "?HealthBarVertices1@@3PAUHealthBarVertices1_s@@A",
+          "site_rva": 447471,
+          "target_va": 269494620,
+          "kind": 6,
+          "symbol_va": 269494576,
+          "addend": 44
+        },
+        {
+          "symbol": "__real@41000000",
+          "site_rva": 447477,
+          "target_va": 269375756,
+          "kind": 6,
+          "symbol_va": 269375756,
+          "addend": 0
+        },
+        {
+          "symbol": "?HealthBarBGVertices1@@3PAUHealthBarVertices1_s@@A",
+          "site_rva": 447483,
+          "target_va": 269494540,
+          "kind": 6,
+          "symbol_va": 269494496,
+          "addend": 44
+        },
+        {
+          "symbol": "?HealthBarVertices1@@3PAUHealthBarVertices1_s@@A",
+          "site_rva": 447489,
+          "target_va": 269494620,
+          "kind": 6,
+          "symbol_va": 269494576,
+          "addend": 44
+        },
+        {
+          "symbol": "__real@41000000",
+          "site_rva": 447495,
+          "target_va": 269375756,
+          "kind": 6,
+          "symbol_va": 269375756,
+          "addend": 0
+        },
+        {
+          "symbol": "?HealthBarVertices1@@3PAUHealthBarVertices1_s@@A",
+          "site_rva": 447501,
+          "target_va": 269494620,
+          "kind": 6,
+          "symbol_va": 269494576,
+          "addend": 44
+        },
+        {
+          "symbol": "?HealthBarBDRVertices1@@3PAUHealthBarVertices1_s@@A",
+          "site_rva": 447507,
+          "target_va": 269494480,
+          "kind": 6,
+          "symbol_va": 269494416,
+          "addend": 64
+        },
+        {
+          "symbol": "__real@41000000",
+          "site_rva": 447513,
+          "target_va": 269375756,
+          "kind": 6,
+          "symbol_va": 269375756,
+          "addend": 0
+        },
+        {
+          "symbol": "?HealthBarBDRVertices1@@3PAUHealthBarVertices1_s@@A",
+          "site_rva": 447519,
+          "target_va": 269494480,
+          "kind": 6,
+          "symbol_va": 269494416,
+          "addend": 64
+        },
+        {
+          "symbol": "?HealthBarVertices1@@3PAUHealthBarVertices1_s@@A",
+          "site_rva": 447525,
+          "target_va": 269494640,
+          "kind": 6,
+          "symbol_va": 269494576,
+          "addend": 64
+        },
+        {
+          "symbol": "__real@41000000",
+          "site_rva": 447531,
+          "target_va": 269375756,
+          "kind": 6,
+          "symbol_va": 269375756,
+          "addend": 0
+        },
+        {
+          "symbol": "?HealthBarBGVertices1@@3PAUHealthBarVertices1_s@@A",
+          "site_rva": 447537,
+          "target_va": 269494560,
+          "kind": 6,
+          "symbol_va": 269494496,
+          "addend": 64
+        },
+        {
+          "symbol": "?HealthBarVertices1@@3PAUHealthBarVertices1_s@@A",
+          "site_rva": 447543,
+          "target_va": 269494640,
+          "kind": 6,
+          "symbol_va": 269494576,
+          "addend": 64
+        },
+        {
+          "symbol": "__real@41000000",
+          "site_rva": 447549,
+          "target_va": 269375756,
+          "kind": 6,
+          "symbol_va": 269375756,
+          "addend": 0
+        },
+        {
+          "symbol": "?HealthBarVertices1@@3PAUHealthBarVertices1_s@@A",
+          "site_rva": 447555,
+          "target_va": 269494640,
+          "kind": 6,
+          "symbol_va": 269494576,
+          "addend": 64
+        },
+        {
+          "symbol": "?HealthBarBDRVertices1@@3PAUHealthBarVertices1_s@@A",
+          "site_rva": 447579,
+          "target_va": 269494416,
+          "kind": 6,
+          "symbol_va": 269494416,
+          "addend": 0
+        },
+        {
+          "symbol": "?HealthBarBGVertices1@@3PAUHealthBarVertices1_s@@A",
+          "site_rva": 447601,
+          "target_va": 269494496,
+          "kind": 6,
+          "symbol_va": 269494496,
+          "addend": 0
+        },
+        {
+          "symbol": "?HealthBarVertices1@@3PAUHealthBarVertices1_s@@A",
+          "site_rva": 447623,
+          "target_va": 269494576,
+          "kind": 6,
+          "symbol_va": 269494576,
+          "addend": 0
+        },
+        {
+          "symbol": "__real@00000000",
+          "site_rva": 447647,
+          "target_va": 269375808,
+          "kind": 6,
+          "symbol_va": 269375808,
+          "addend": 0
+        },
+        {
+          "symbol": "?HealthBarBDRVertices1@@3PAUHealthBarVertices1_s@@A",
+          "site_rva": 447664,
+          "target_va": 269494420,
+          "kind": 6,
+          "symbol_va": 269494416,
+          "addend": 4
+        },
+        {
+          "symbol": "__real@41000000",
+          "site_rva": 447675,
+          "target_va": 269375756,
+          "kind": 6,
+          "symbol_va": 269375756,
+          "addend": 0
+        },
+        {
+          "symbol": "?HealthBarVertices1@@3PAUHealthBarVertices1_s@@A",
+          "site_rva": 447680,
+          "target_va": 269494652,
+          "kind": 6,
+          "symbol_va": 269494576,
+          "addend": 76
+        },
+        {
+          "symbol": "?HealthBarVertices1@@3PAUHealthBarVertices1_s@@A",
+          "site_rva": 447685,
+          "target_va": 269494632,
+          "kind": 6,
+          "symbol_va": 269494576,
+          "addend": 56
+        },
+        {
+          "symbol": "?HealthBarVertices1@@3PAUHealthBarVertices1_s@@A",
+          "site_rva": 447690,
+          "target_va": 269494612,
+          "kind": 6,
+          "symbol_va": 269494576,
+          "addend": 36
+        },
+        {
+          "symbol": "?HealthBarBDRVertices1@@3PAUHealthBarVertices1_s@@A",
+          "site_rva": 447696,
+          "target_va": 269494420,
+          "kind": 6,
+          "symbol_va": 269494416,
+          "addend": 4
+        },
+        {
+          "symbol": "?HealthBarVertices1@@3PAUHealthBarVertices1_s@@A",
+          "site_rva": 447701,
+          "target_va": 269494592,
+          "kind": 6,
+          "symbol_va": 269494576,
+          "addend": 16
+        },
+        {
+          "symbol": "?HealthBarBGVertices1@@3PAUHealthBarVertices1_s@@A",
+          "site_rva": 447707,
+          "target_va": 269494500,
+          "kind": 6,
+          "symbol_va": 269494496,
+          "addend": 4
+        },
+        {
+          "symbol": "__real@41000000",
+          "site_rva": 447718,
+          "target_va": 269375756,
+          "kind": 6,
+          "symbol_va": 269375756,
+          "addend": 0
+        },
+        {
+          "symbol": "?HealthBarBGVertices1@@3PAUHealthBarVertices1_s@@A",
+          "site_rva": 447723,
+          "target_va": 269494572,
+          "kind": 6,
+          "symbol_va": 269494496,
+          "addend": 76
+        },
+        {
+          "symbol": "?HealthBarBGVertices1@@3PAUHealthBarVertices1_s@@A",
+          "site_rva": 447728,
+          "target_va": 269494552,
+          "kind": 6,
+          "symbol_va": 269494496,
+          "addend": 56
+        },
+        {
+          "symbol": "?HealthBarBGVertices1@@3PAUHealthBarVertices1_s@@A",
+          "site_rva": 447733,
+          "target_va": 269494532,
+          "kind": 6,
+          "symbol_va": 269494496,
+          "addend": 36
+        },
+        {
+          "symbol": "?HealthBarBGVertices1@@3PAUHealthBarVertices1_s@@A",
+          "site_rva": 447739,
+          "target_va": 269494500,
+          "kind": 6,
+          "symbol_va": 269494496,
+          "addend": 4
+        },
+        {
+          "symbol": "?HealthBarBGVertices1@@3PAUHealthBarVertices1_s@@A",
+          "site_rva": 447744,
+          "target_va": 269494512,
+          "kind": 6,
+          "symbol_va": 269494496,
+          "addend": 16
+        },
+        {
+          "symbol": "?HealthBarVertices1@@3PAUHealthBarVertices1_s@@A",
+          "site_rva": 447750,
+          "target_va": 269494580,
+          "kind": 6,
+          "symbol_va": 269494576,
+          "addend": 4
+        },
+        {
+          "symbol": "__real@41000000",
+          "site_rva": 447756,
+          "target_va": 269375756,
+          "kind": 6,
+          "symbol_va": 269375756,
+          "addend": 0
+        },
+        {
+          "symbol": "?HealthBarVertices1@@3PAUHealthBarVertices1_s@@A",
+          "site_rva": 447762,
+          "target_va": 269494580,
+          "kind": 6,
+          "symbol_va": 269494576,
+          "addend": 4
+        },
+        {
+          "symbol": "?HealthBarBDRVertices1@@3PAUHealthBarVertices1_s@@A",
+          "site_rva": 447768,
+          "target_va": 269494440,
+          "kind": 6,
+          "symbol_va": 269494416,
+          "addend": 24
+        },
+        {
+          "symbol": "__real@41000000",
+          "site_rva": 447774,
+          "target_va": 269375756,
+          "kind": 6,
+          "symbol_va": 269375756,
+          "addend": 0
+        },
+        {
+          "symbol": "?HealthBarBDRVertices1@@3PAUHealthBarVertices1_s@@A",
+          "site_rva": 447780,
+          "target_va": 269494440,
+          "kind": 6,
+          "symbol_va": 269494416,
+          "addend": 24
+        },
+        {
+          "symbol": "?HealthBarBGVertices1@@3PAUHealthBarVertices1_s@@A",
+          "site_rva": 447786,
+          "target_va": 269494520,
+          "kind": 6,
+          "symbol_va": 269494496,
+          "addend": 24
+        },
+        {
+          "symbol": "__real@41000000",
+          "site_rva": 447792,
+          "target_va": 269375756,
+          "kind": 6,
+          "symbol_va": 269375756,
+          "addend": 0
+        },
+        {
+          "symbol": "?HealthBarBGVertices1@@3PAUHealthBarVertices1_s@@A",
+          "site_rva": 447798,
+          "target_va": 269494520,
+          "kind": 6,
+          "symbol_va": 269494496,
+          "addend": 24
+        },
+        {
+          "symbol": "?HealthBarVertices1@@3PAUHealthBarVertices1_s@@A",
+          "site_rva": 447804,
+          "target_va": 269494600,
+          "kind": 6,
+          "symbol_va": 269494576,
+          "addend": 24
+        },
+        {
+          "symbol": "__real@41000000",
+          "site_rva": 447810,
+          "target_va": 269375756,
+          "kind": 6,
+          "symbol_va": 269375756,
+          "addend": 0
+        },
+        {
+          "symbol": "?HealthBarVertices1@@3PAUHealthBarVertices1_s@@A",
+          "site_rva": 447816,
+          "target_va": 269494600,
+          "kind": 6,
+          "symbol_va": 269494576,
+          "addend": 24
+        },
+        {
+          "symbol": "?HealthBarBDRVertices1@@3PAUHealthBarVertices1_s@@A",
+          "site_rva": 447822,
+          "target_va": 269494460,
+          "kind": 6,
+          "symbol_va": 269494416,
+          "addend": 44
+        },
+        {
+          "symbol": "__real@41000000",
+          "site_rva": 447828,
+          "target_va": 269375756,
+          "kind": 6,
+          "symbol_va": 269375756,
+          "addend": 0
+        },
+        {
+          "symbol": "?HealthBarBDRVertices1@@3PAUHealthBarVertices1_s@@A",
+          "site_rva": 447834,
+          "target_va": 269494460,
+          "kind": 6,
+          "symbol_va": 269494416,
+          "addend": 44
+        },
+        {
+          "symbol": "?HealthBarBGVertices1@@3PAUHealthBarVertices1_s@@A",
+          "site_rva": 447840,
+          "target_va": 269494540,
+          "kind": 6,
+          "symbol_va": 269494496,
+          "addend": 44
+        },
+        {
+          "symbol": "__real@41000000",
+          "site_rva": 447846,
+          "target_va": 269375756,
+          "kind": 6,
+          "symbol_va": 269375756,
+          "addend": 0
+        },
+        {
+          "symbol": "?HealthBarBGVertices1@@3PAUHealthBarVertices1_s@@A",
+          "site_rva": 447852,
+          "target_va": 269494540,
+          "kind": 6,
+          "symbol_va": 269494496,
+          "addend": 44
+        },
+        {
+          "symbol": "?HealthBarVertices1@@3PAUHealthBarVertices1_s@@A",
+          "site_rva": 447858,
+          "target_va": 269494620,
+          "kind": 6,
+          "symbol_va": 269494576,
+          "addend": 44
+        },
+        {
+          "symbol": "__real@41000000",
+          "site_rva": 447864,
+          "target_va": 269375756,
+          "kind": 6,
+          "symbol_va": 269375756,
+          "addend": 0
+        },
+        {
+          "symbol": "?HealthBarVertices1@@3PAUHealthBarVertices1_s@@A",
+          "site_rva": 447870,
+          "target_va": 269494620,
+          "kind": 6,
+          "symbol_va": 269494576,
+          "addend": 44
+        },
+        {
+          "symbol": "?HealthBarBDRVertices1@@3PAUHealthBarVertices1_s@@A",
+          "site_rva": 447876,
+          "target_va": 269494480,
+          "kind": 6,
+          "symbol_va": 269494416,
+          "addend": 64
+        },
+        {
+          "symbol": "__real@41000000",
+          "site_rva": 447882,
+          "target_va": 269375756,
+          "kind": 6,
+          "symbol_va": 269375756,
+          "addend": 0
+        },
+        {
+          "symbol": "?HealthBarBDRVertices1@@3PAUHealthBarVertices1_s@@A",
+          "site_rva": 447888,
+          "target_va": 269494480,
+          "kind": 6,
+          "symbol_va": 269494416,
+          "addend": 64
+        },
+        {
+          "symbol": "?HealthBarBGVertices1@@3PAUHealthBarVertices1_s@@A",
+          "site_rva": 447894,
+          "target_va": 269494560,
+          "kind": 6,
+          "symbol_va": 269494496,
+          "addend": 64
+        },
+        {
+          "symbol": "__real@41000000",
+          "site_rva": 447900,
+          "target_va": 269375756,
+          "kind": 6,
+          "symbol_va": 269375756,
+          "addend": 0
+        },
+        {
+          "symbol": "?HealthBarBGVertices1@@3PAUHealthBarVertices1_s@@A",
+          "site_rva": 447906,
+          "target_va": 269494560,
+          "kind": 6,
+          "symbol_va": 269494496,
+          "addend": 64
+        },
+        {
+          "symbol": "?HealthBarVertices1@@3PAUHealthBarVertices1_s@@A",
+          "site_rva": 447912,
+          "target_va": 269494640,
+          "kind": 6,
+          "symbol_va": 269494576,
+          "addend": 64
+        },
+        {
+          "symbol": "__real@41000000",
+          "site_rva": 447918,
+          "target_va": 269375756,
+          "kind": 6,
+          "symbol_va": 269375756,
+          "addend": 0
+        },
+        {
+          "symbol": "?HealthBarVertices1@@3PAUHealthBarVertices1_s@@A",
+          "site_rva": 447924,
+          "target_va": 269494640,
+          "kind": 6,
+          "symbol_va": 269494576,
+          "addend": 64
+        },
+        {
+          "symbol": "__real@42c80000",
+          "site_rva": 447937,
+          "target_va": 269377812,
+          "kind": 6,
+          "symbol_va": 269377812,
+          "addend": 0
+        },
+        {
+          "symbol": "__real@3ec4ec4f",
+          "site_rva": 447970,
+          "target_va": 269395532,
+          "kind": 6,
+          "symbol_va": 269395532,
+          "addend": 0
+        },
+        {
+          "symbol": "__real@41980000",
+          "site_rva": 447976,
+          "target_va": 269395540,
+          "kind": 6,
+          "symbol_va": 269395540,
+          "addend": 0
+        },
+        {
+          "symbol": "?HealthBarVertices1@@3PAUHealthBarVertices1_s@@A",
+          "site_rva": 447986,
+          "target_va": 269494616,
+          "kind": 6,
+          "symbol_va": 269494576,
+          "addend": 40
+        },
+        {
+          "symbol": "?HealthBarVertices1@@3PAUHealthBarVertices1_s@@A",
+          "site_rva": 447992,
+          "target_va": 269494636,
+          "kind": 6,
+          "symbol_va": 269494576,
+          "addend": 60
+        },
+        {
+          "symbol": "?HealthBarBDRVertices1@@3PAUHealthBarVertices1_s@@A",
+          "site_rva": 448014,
+          "target_va": 269494416,
+          "kind": 6,
+          "symbol_va": 269494416,
+          "addend": 0
+        },
+        {
+          "symbol": "?HealthBarBGVertices1@@3PAUHealthBarVertices1_s@@A",
+          "site_rva": 448036,
+          "target_va": 269494496,
+          "kind": 6,
+          "symbol_va": 269494496,
+          "addend": 0
+        },
+        {
+          "symbol": "?HealthBarVertices1@@3PAUHealthBarVertices1_s@@A",
+          "site_rva": 448058,
+          "target_va": 269494576,
+          "kind": 6,
+          "symbol_va": 269494576,
+          "addend": 0
+        }
+      ]
+    },
+    {
+      "unit": "closure_player_tag_health",
+      "section": 77,
+      "anchor": "?Begin@CNewPlayerTags@@QAEXXZ",
+      "rva": 448176,
+      "size": 246,
+      "kind": ".text",
+      "sha256": "b549ae2dd4a3698b50ea3cd803338923d000c1c3c4c5369df59fe8154701e645",
+      "whole_bytes_equal": true,
+      "bindings": []
+    },
+    {
+      "unit": "closure_hook_transform",
+      "section": 48,
+      "anchor": "?SetTransform@IDirect3DDevice9Hook@@UAGJW4_D3DTRANSFORMSTATETYPE@@PBU_D3DMATRIX@@@Z",
+      "rva": 477312,
+      "size": 78,
+      "kind": ".text",
+      "sha256": "45971a02efcb637fc91f6f921604887b251435f75bdd891c7cb65a2de90e19e7",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "?matWorld@@3UD3DXMATRIX@@A",
+          "site_rva": 477341,
+          "target_va": 269749744,
+          "kind": 6,
+          "symbol_va": 269749744,
+          "addend": 0
+        },
+        {
+          "symbol": "?matProj@@3UD3DXMATRIX@@A",
+          "site_rva": 477348,
+          "target_va": 269749680,
+          "kind": 6,
+          "symbol_va": 269749680,
+          "addend": 0
+        },
+        {
+          "symbol": "?matView@@3UD3DXMATRIX@@A",
+          "site_rva": 477355,
+          "target_va": 269749616,
+          "kind": 6,
+          "symbol_va": 269749616,
+          "addend": 0
+        },
+        {
+          "symbol": "?pD3DDevice@@3PAUIDirect3DDevice9@@A",
+          "site_rva": 477369,
+          "target_va": 270986048,
+          "kind": 6,
+          "symbol_va": 270986048,
+          "addend": 0
+        }
+      ]
+    },
+    {
+      "unit": "closure_store_HealthBarBDRVertices1",
+      "section": 3,
+      "anchor": "?HealthBarBDRVertices1@@3PAUHealthBarVertices1_s@@A",
+      "rva": 1058960,
+      "size": 80,
+      "kind": ".data",
+      "sha256": "8f88d15b5ee6d874e78d7eccb8eaa8428c20de3d2e08ebcfbe2674632bf6298b",
+      "whole_bytes_equal": true,
+      "bindings": [],
+      "zero_fill": false
+    },
+    {
+      "unit": "closure_store_HealthBarBGVertices1",
+      "section": 3,
+      "anchor": "?HealthBarBGVertices1@@3PAUHealthBarVertices1_s@@A",
+      "rva": 1059040,
+      "size": 80,
+      "kind": ".data",
+      "sha256": "31fc1917b479a298340bcc11cb8cfdbf71db01e054f248565f555f8cadbfcde0",
+      "whole_bytes_equal": true,
+      "bindings": [],
+      "zero_fill": false
+    },
+    {
+      "unit": "closure_store_HealthBarVertices1",
+      "section": 3,
+      "anchor": "?HealthBarVertices1@@3PAUHealthBarVertices1_s@@A",
+      "rva": 1059120,
+      "size": 80,
+      "kind": ".data",
+      "sha256": "233336289b6a7247cfa7d6efeaad282917662ae41e44d27012fc9949921448ba",
+      "whole_bytes_equal": true,
+      "bindings": [],
+      "zero_fill": false
+    },
+    {
+      "unit": "closure_store_matView",
+      "section": 5,
+      "anchor": "?matView@@3UD3DXMATRIX@@A",
+      "rva": 1314160,
+      "size": 64,
+      "kind": ".bss",
+      "sha256": "f5a5fd42d16a20302798ef6ed309979b43003d2320d9f0e8ea9831a92759fb4b",
+      "whole_bytes_equal": true,
+      "bindings": [],
+      "zero_fill": true
+    },
+    {
+      "unit": "closure_store_matProj",
+      "section": 5,
+      "anchor": "?matProj@@3UD3DXMATRIX@@A",
+      "rva": 1314224,
+      "size": 64,
+      "kind": ".bss",
+      "sha256": "f5a5fd42d16a20302798ef6ed309979b43003d2320d9f0e8ea9831a92759fb4b",
+      "whole_bytes_equal": true,
+      "bindings": [],
+      "zero_fill": true
+    },
+    {
+      "unit": "closure_store_matWorld",
+      "section": 5,
+      "anchor": "?matWorld@@3UD3DXMATRIX@@A",
+      "rva": 1314288,
+      "size": 64,
+      "kind": ".bss",
+      "sha256": "f5a5fd42d16a20302798ef6ed309979b43003d2320d9f0e8ea9831a92759fb4b",
+      "whole_bytes_equal": true,
+      "bindings": [],
+      "zero_fill": true
+    },
+    {
+      "unit": "closure_player_tag_health",
+      "section": 75,
+      "anchor": "__real@3d428f5c",
+      "rva": 960072,
+      "size": 4,
+      "kind": ".rdata",
+      "sha256": "04e51902d5421019557d2ed9353dea02e82db7a9ca07c4dab3697f6c9c565ef7",
+      "whole_bytes_equal": true,
+      "bindings": []
+    },
+    {
+      "unit": "closure_player_tag_health",
+      "section": 74,
+      "anchor": "__real@3e4ccccd",
+      "rva": 957584,
+      "size": 4,
+      "kind": ".rdata",
+      "sha256": "5d96a77c55b4ac1eea2d77815396c4349292b85e3b07beaca6aff933e7ef8752",
+      "whole_bytes_equal": true,
+      "bindings": []
+    },
+    {
+      "unit": "closure_player_tag_health",
+      "section": 73,
+      "anchor": "__real@3f800000",
+      "rva": 940844,
+      "size": 4,
+      "kind": ".rdata",
+      "sha256": "e00e5eb9444182f352323374ef4e08ebcb784725fdd4fd612d7730540b3e0c8c",
+      "whole_bytes_equal": true,
+      "bindings": []
+    },
+    {
+      "unit": "closure_player_tag_health",
+      "section": 72,
+      "anchor": "__real@00000000",
+      "rva": 940352,
+      "size": 4,
+      "kind": ".rdata",
+      "sha256": "df3f619804a92fdb4057192dc43dd748ea778adc52bc498ce80524c014b81119",
+      "whole_bytes_equal": true,
+      "bindings": []
+    },
+    {
+      "unit": "closure_player_tag_health",
+      "section": 71,
+      "anchor": "__real@41a00000",
+      "rva": 940036,
+      "size": 4,
+      "kind": ".rdata",
+      "sha256": "8502957747a29907927566be940a9b39fee0a15dd471ba428eb9eedd15aa80e7",
+      "whole_bytes_equal": true,
+      "bindings": []
+    },
+    {
+      "unit": "closure_player_tag_health",
+      "section": 70,
+      "anchor": "__real@41900000",
+      "rva": 960096,
+      "size": 4,
+      "kind": ".rdata",
+      "sha256": "1ad3b99b167daa0cd4b231cd3584ca2f6b81a26323ede5d0ac662402e2835030",
+      "whole_bytes_equal": true,
+      "bindings": []
+    },
+    {
+      "unit": "closure_player_tag_health",
+      "section": 69,
+      "anchor": "__real@41c00000",
+      "rva": 960092,
+      "size": 4,
+      "kind": ".rdata",
+      "sha256": "e4d11efbb477a76acb589cc3c6d78f8067d35f26293029ec6dc2bda8df62bff4",
+      "whole_bytes_equal": true,
+      "bindings": []
+    },
+    {
+      "unit": "closure_player_tag_health",
+      "section": 68,
+      "anchor": "__real@41a80000",
+      "rva": 960088,
+      "size": 4,
+      "kind": ".rdata",
+      "sha256": "06c244a441c6971f0d387bc4b25c62e27c0377fa45d436d98b85de5acb97eece",
+      "whole_bytes_equal": true,
+      "bindings": []
+    },
+    {
+      "unit": "closure_player_tag_health",
+      "section": 67,
+      "anchor": "__real@41980000",
+      "rva": 960084,
+      "size": 4,
+      "kind": ".rdata",
+      "sha256": "6b00ae12cb06e0e0facdf19ff49e1c8852864f22150e8d3d76f850bc4bf1a8cd",
+      "whole_bytes_equal": true,
+      "bindings": []
+    },
+    {
+      "unit": "closure_player_tag_health",
+      "section": 66,
+      "anchor": "__real@41b80000",
+      "rva": 960080,
+      "size": 4,
+      "kind": ".rdata",
+      "sha256": "44d37033bfae3f36d1166b3c258bb23ea09b1b13f54454d2278305325b398db4",
+      "whole_bytes_equal": true,
+      "bindings": []
+    },
+    {
+      "unit": "closure_player_tag_health",
+      "section": 65,
+      "anchor": "__real@42c80000",
+      "rva": 942356,
+      "size": 4,
+      "kind": ".rdata",
+      "sha256": "2238f30df488055daf5e8f362cf904e370011a172d20df193c1b7ae8e5db8e01",
+      "whole_bytes_equal": true,
+      "bindings": []
+    },
+    {
+      "unit": "closure_player_tag_health",
+      "section": 64,
+      "anchor": "__real@3ec4ec4f",
+      "rva": 960076,
+      "size": 4,
+      "kind": ".rdata",
+      "sha256": "49380fb8e953f87729320e4ee2da927d2763d9570357710d6cd933f4145dec57",
+      "whole_bytes_equal": true,
+      "bindings": []
+    },
+    {
+      "unit": "closure_player_tag_health",
+      "section": 63,
+      "anchor": "__real@41000000",
+      "rva": 940300,
+      "size": 4,
+      "kind": ".rdata",
+      "sha256": "03e3c2420f5066a5fa6e36735ed8cc4f6a251046263e1a6024f009deeee3b952",
+      "whole_bytes_equal": true,
+      "bindings": []
+    }
+  ],
+  "existing_providers": [
+    {
+      "symbol": "??3@YAXPAX@Z",
+      "external": {
+        "kind": "crt",
+        "reference_va": 269247626,
+        "size": 5,
+        "sha256": "7a2b09fea4ced88e49e987aef3ba5304ddbbccb1e20599a243549fdc02637f6c"
+      }
+    },
+    {
+      "symbol": "?pD3DDevice@@3PAUIDirect3DDevice9@@A",
+      "provider_regions": [
+        {
+          "unit": "closure_store_device",
+          "anchor": "?pD3DDevice@@3PAUIDirect3DDevice9@@A",
+          "rva": 2550592,
+          "size": 4
+        }
+      ]
+    },
+    {
+      "symbol": "_D3DXCreateSprite@8",
+      "external": {
+        "kind": "import-thunk",
+        "reference_va": 269245556,
+        "import_slot_va": 269374748,
+        "import_identity": [
+          "d3dx9_25.dll",
+          "D3DXCreateSprite"
+        ],
+        "size": 6,
+        "sha256": "40586ee1ba683fbc598940905850304c09db29f6523d4bacca8f182cc6e9bee4",
+        "library": "d3dx9.lib"
+      }
+    },
+    {
+      "symbol": "__ftol2",
+      "external": {
+        "kind": "crt",
+        "reference_va": 269251652,
+        "size": 117,
+        "sha256": "5333b186c02836974c6f792303aeb2c00d856316b93ccbbe65f51def6ae661b4"
+      }
+    }
+  ],
+  "new_import": {
+    "symbol": "_D3DXVec3Project@24",
+    "reference_va": 269245568,
+    "iat_va": 269374740,
+    "module": "d3dx9_25.dll",
+    "name": "D3DXVec3Project",
+    "library": "d3dx9.lib",
+    "source_credit": 0,
+    "library_sha256": "abba3f1c41d3a1c28eaaab0eab9927698dc0bb86505b8c963a7b4579c85b7fdb"
+  },
+  "new_unique_source": 1972,
+  "direct025_source_credit": 0
+}

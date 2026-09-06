@@ -1,0 +1,1311 @@
+{
+  "status": "INDEPENDENT_STATIC_PREFLIGHT_NOT_ACCEPTANCE",
+  "baseline": 238956,
+  "new_unique_code": 1972,
+  "sections": [
+    {
+      "symbol": "??0CNewPlayerTags@@QAE@PAUIDirect3DDevice9@@@Z",
+      "rva": "0x6ccf0",
+      "size": 38,
+      "whole_exact": true,
+      "fixups": [
+        {
+          "offset": 28,
+          "kind": 20,
+          "symbol": "_D3DXCreateSprite@8",
+          "target_va": "0x100c5c74"
+        }
+      ],
+      "object_sha256": "e5262b9e843b1e2d32cedf1e75940fa17418b3095fd8febae6f99a28a8115e22"
+    },
+    {
+      "symbol": "??1CNewPlayerTags@@QAE@XZ",
+      "rva": "0x6cd20",
+      "size": 41,
+      "whole_exact": true,
+      "fixups": [
+        {
+          "offset": 25,
+          "kind": 20,
+          "symbol": "??3@YAXPAX@Z",
+          "target_va": "0x100c648a"
+        }
+      ],
+      "object_sha256": "e5262b9e843b1e2d32cedf1e75940fa17418b3095fd8febae6f99a28a8115e22"
+    },
+    {
+      "symbol": "?End@CNewPlayerTags@@QAEXXZ",
+      "rva": "0x6cd50",
+      "size": 33,
+      "whole_exact": true,
+      "fixups": [],
+      "object_sha256": "e5262b9e843b1e2d32cedf1e75940fa17418b3095fd8febae6f99a28a8115e22"
+    },
+    {
+      "symbol": "?DeleteDeviceObjects@CNewPlayerTags@@QAEXXZ",
+      "rva": "0x6d650",
+      "size": 38,
+      "whole_exact": true,
+      "fixups": [],
+      "object_sha256": "e5262b9e843b1e2d32cedf1e75940fa17418b3095fd8febae6f99a28a8115e22"
+    },
+    {
+      "symbol": "?RestoreDeviceObjects@CNewPlayerTags@@QAEXXZ",
+      "rva": "0x6d680",
+      "size": 42,
+      "whole_exact": true,
+      "fixups": [],
+      "object_sha256": "e5262b9e843b1e2d32cedf1e75940fa17418b3095fd8febae6f99a28a8115e22"
+    },
+    {
+      "symbol": "?Draw@CNewPlayerTags@@QAEXPAUD3DXVECTOR3@@MMM@Z",
+      "rva": "0x6d0a0",
+      "size": 1456,
+      "whole_exact": true,
+      "fixups": [
+        {
+          "offset": 16,
+          "kind": 6,
+          "symbol": "__real@3d428f5c",
+          "target_va": "0x100ea648"
+        },
+        {
+          "offset": 51,
+          "kind": 6,
+          "symbol": "__real@3e4ccccd",
+          "target_va": "0x100e9c90"
+        },
+        {
+          "offset": 79,
+          "kind": 6,
+          "symbol": "?matView@@3UD3DXMATRIX@@A",
+          "target_va": "0x10140d70"
+        },
+        {
+          "offset": 84,
+          "kind": 6,
+          "symbol": "?matProj@@3UD3DXMATRIX@@A",
+          "target_va": "0x10140db0"
+        },
+        {
+          "offset": 244,
+          "kind": 20,
+          "symbol": "_D3DXVec3Project@24",
+          "target_va": "0x100c5c80"
+        },
+        {
+          "offset": 254,
+          "kind": 6,
+          "symbol": "__real@3f800000",
+          "target_va": "0x100e5b2c"
+        },
+        {
+          "offset": 278,
+          "kind": 6,
+          "symbol": "__real@00000000",
+          "target_va": "0x100e5940"
+        },
+        {
+          "offset": 298,
+          "kind": 20,
+          "symbol": "__ftol2",
+          "target_va": "0x100c7444"
+        },
+        {
+          "offset": 319,
+          "kind": 20,
+          "symbol": "__ftol2",
+          "target_va": "0x100c7444"
+        },
+        {
+          "offset": 337,
+          "kind": 6,
+          "symbol": "?HealthBarVertices1@@3PAUHealthBarVertices1_s@@A",
+          "target_va": "0x10102930"
+        },
+        {
+          "offset": 342,
+          "kind": 6,
+          "symbol": "?HealthBarVertices1@@3PAUHealthBarVertices1_s@@A",
+          "target_va": "0x10102930"
+        },
+        {
+          "offset": 351,
+          "kind": 6,
+          "symbol": "?HealthBarVertices1@@3PAUHealthBarVertices1_s@@A",
+          "target_va": "0x10102930"
+        },
+        {
+          "offset": 360,
+          "kind": 6,
+          "symbol": "?HealthBarVertices1@@3PAUHealthBarVertices1_s@@A",
+          "target_va": "0x10102930"
+        },
+        {
+          "offset": 366,
+          "kind": 6,
+          "symbol": "__real@41a00000",
+          "target_va": "0x100e5804"
+        },
+        {
+          "offset": 376,
+          "kind": 6,
+          "symbol": "?HealthBarBGVertices1@@3PAUHealthBarVertices1_s@@A",
+          "target_va": "0x101028e0"
+        },
+        {
+          "offset": 381,
+          "kind": 6,
+          "symbol": "?HealthBarBGVertices1@@3PAUHealthBarVertices1_s@@A",
+          "target_va": "0x101028e0"
+        },
+        {
+          "offset": 387,
+          "kind": 6,
+          "symbol": "?HealthBarBDRVertices1@@3PAUHealthBarVertices1_s@@A",
+          "target_va": "0x10102890"
+        },
+        {
+          "offset": 392,
+          "kind": 6,
+          "symbol": "?HealthBarBGVertices1@@3PAUHealthBarVertices1_s@@A",
+          "target_va": "0x101028e0"
+        },
+        {
+          "offset": 401,
+          "kind": 6,
+          "symbol": "?HealthBarBGVertices1@@3PAUHealthBarVertices1_s@@A",
+          "target_va": "0x101028e0"
+        },
+        {
+          "offset": 407,
+          "kind": 6,
+          "symbol": "__real@41900000",
+          "target_va": "0x100ea660"
+        },
+        {
+          "offset": 413,
+          "kind": 6,
+          "symbol": "?HealthBarBDRVertices1@@3PAUHealthBarVertices1_s@@A",
+          "target_va": "0x10102890"
+        },
+        {
+          "offset": 421,
+          "kind": 6,
+          "symbol": "?HealthBarBDRVertices1@@3PAUHealthBarVertices1_s@@A",
+          "target_va": "0x10102890"
+        },
+        {
+          "offset": 431,
+          "kind": 6,
+          "symbol": "__real@41c00000",
+          "target_va": "0x100ea65c"
+        },
+        {
+          "offset": 437,
+          "kind": 6,
+          "symbol": "?HealthBarBDRVertices1@@3PAUHealthBarVertices1_s@@A",
+          "target_va": "0x10102890"
+        },
+        {
+          "offset": 447,
+          "kind": 6,
+          "symbol": "__real@41a80000",
+          "target_va": "0x100ea658"
+        },
+        {
+          "offset": 453,
+          "kind": 6,
+          "symbol": "?HealthBarBDRVertices1@@3PAUHealthBarVertices1_s@@A",
+          "target_va": "0x10102890"
+        },
+        {
+          "offset": 461,
+          "kind": 6,
+          "symbol": "?HealthBarBDRVertices1@@3PAUHealthBarVertices1_s@@A",
+          "target_va": "0x10102890"
+        },
+        {
+          "offset": 467,
+          "kind": 6,
+          "symbol": "?HealthBarBDRVertices1@@3PAUHealthBarVertices1_s@@A",
+          "target_va": "0x10102890"
+        },
+        {
+          "offset": 473,
+          "kind": 6,
+          "symbol": "?HealthBarBDRVertices1@@3PAUHealthBarVertices1_s@@A",
+          "target_va": "0x10102890"
+        },
+        {
+          "offset": 483,
+          "kind": 6,
+          "symbol": "__real@41980000",
+          "target_va": "0x100ea654"
+        },
+        {
+          "offset": 491,
+          "kind": 6,
+          "symbol": "?HealthBarVertices1@@3PAUHealthBarVertices1_s@@A",
+          "target_va": "0x10102930"
+        },
+        {
+          "offset": 497,
+          "kind": 6,
+          "symbol": "?HealthBarBGVertices1@@3PAUHealthBarVertices1_s@@A",
+          "target_va": "0x101028e0"
+        },
+        {
+          "offset": 507,
+          "kind": 6,
+          "symbol": "__real@41980000",
+          "target_va": "0x100ea654"
+        },
+        {
+          "offset": 513,
+          "kind": 6,
+          "symbol": "?HealthBarVertices1@@3PAUHealthBarVertices1_s@@A",
+          "target_va": "0x10102930"
+        },
+        {
+          "offset": 519,
+          "kind": 6,
+          "symbol": "?HealthBarVertices1@@3PAUHealthBarVertices1_s@@A",
+          "target_va": "0x10102930"
+        },
+        {
+          "offset": 527,
+          "kind": 6,
+          "symbol": "?HealthBarBGVertices1@@3PAUHealthBarVertices1_s@@A",
+          "target_va": "0x101028e0"
+        },
+        {
+          "offset": 533,
+          "kind": 6,
+          "symbol": "?HealthBarVertices1@@3PAUHealthBarVertices1_s@@A",
+          "target_va": "0x10102930"
+        },
+        {
+          "offset": 539,
+          "kind": 6,
+          "symbol": "?HealthBarBGVertices1@@3PAUHealthBarVertices1_s@@A",
+          "target_va": "0x101028e0"
+        },
+        {
+          "offset": 549,
+          "kind": 6,
+          "symbol": "__real@41b80000",
+          "target_va": "0x100ea650"
+        },
+        {
+          "offset": 555,
+          "kind": 6,
+          "symbol": "?HealthBarVertices1@@3PAUHealthBarVertices1_s@@A",
+          "target_va": "0x10102930"
+        },
+        {
+          "offset": 561,
+          "kind": 6,
+          "symbol": "?HealthBarVertices1@@3PAUHealthBarVertices1_s@@A",
+          "target_va": "0x10102930"
+        },
+        {
+          "offset": 571,
+          "kind": 6,
+          "symbol": "?HealthBarBGVertices1@@3PAUHealthBarVertices1_s@@A",
+          "target_va": "0x101028e0"
+        },
+        {
+          "offset": 577,
+          "kind": 6,
+          "symbol": "__real@41980000",
+          "target_va": "0x100ea654"
+        },
+        {
+          "offset": 583,
+          "kind": 6,
+          "symbol": "?HealthBarBGVertices1@@3PAUHealthBarVertices1_s@@A",
+          "target_va": "0x101028e0"
+        },
+        {
+          "offset": 591,
+          "kind": 6,
+          "symbol": "?HealthBarVertices1@@3PAUHealthBarVertices1_s@@A",
+          "target_va": "0x10102930"
+        },
+        {
+          "offset": 596,
+          "kind": 6,
+          "symbol": "?HealthBarVertices1@@3PAUHealthBarVertices1_s@@A",
+          "target_va": "0x10102930"
+        },
+        {
+          "offset": 601,
+          "kind": 6,
+          "symbol": "?HealthBarBGVertices1@@3PAUHealthBarVertices1_s@@A",
+          "target_va": "0x101028e0"
+        },
+        {
+          "offset": 607,
+          "kind": 6,
+          "symbol": "?HealthBarBGVertices1@@3PAUHealthBarVertices1_s@@A",
+          "target_va": "0x101028e0"
+        },
+        {
+          "offset": 613,
+          "kind": 6,
+          "symbol": "?HealthBarVertices1@@3PAUHealthBarVertices1_s@@A",
+          "target_va": "0x10102930"
+        },
+        {
+          "offset": 619,
+          "kind": 6,
+          "symbol": "?HealthBarVertices1@@3PAUHealthBarVertices1_s@@A",
+          "target_va": "0x10102930"
+        },
+        {
+          "offset": 632,
+          "kind": 6,
+          "symbol": "?HealthBarBGVertices1@@3PAUHealthBarVertices1_s@@A",
+          "target_va": "0x101028e0"
+        },
+        {
+          "offset": 638,
+          "kind": 6,
+          "symbol": "__real@42c80000",
+          "target_va": "0x100e6114"
+        },
+        {
+          "offset": 669,
+          "kind": 6,
+          "symbol": "__real@3ec4ec4f",
+          "target_va": "0x100ea64c"
+        },
+        {
+          "offset": 675,
+          "kind": 6,
+          "symbol": "__real@41980000",
+          "target_va": "0x100ea654"
+        },
+        {
+          "offset": 685,
+          "kind": 6,
+          "symbol": "?HealthBarVertices1@@3PAUHealthBarVertices1_s@@A",
+          "target_va": "0x10102930"
+        },
+        {
+          "offset": 691,
+          "kind": 6,
+          "symbol": "?HealthBarVertices1@@3PAUHealthBarVertices1_s@@A",
+          "target_va": "0x10102930"
+        },
+        {
+          "offset": 704,
+          "kind": 6,
+          "symbol": "__real@00000000",
+          "target_va": "0x100e5940"
+        },
+        {
+          "offset": 721,
+          "kind": 6,
+          "symbol": "?HealthBarBDRVertices1@@3PAUHealthBarVertices1_s@@A",
+          "target_va": "0x10102890"
+        },
+        {
+          "offset": 727,
+          "kind": 6,
+          "symbol": "__real@41000000",
+          "target_va": "0x100e590c"
+        },
+        {
+          "offset": 733,
+          "kind": 6,
+          "symbol": "?HealthBarBDRVertices1@@3PAUHealthBarVertices1_s@@A",
+          "target_va": "0x10102890"
+        },
+        {
+          "offset": 739,
+          "kind": 6,
+          "symbol": "?HealthBarVertices1@@3PAUHealthBarVertices1_s@@A",
+          "target_va": "0x10102930"
+        },
+        {
+          "offset": 745,
+          "kind": 6,
+          "symbol": "__real@41000000",
+          "target_va": "0x100e590c"
+        },
+        {
+          "offset": 751,
+          "kind": 6,
+          "symbol": "?HealthBarBGVertices1@@3PAUHealthBarVertices1_s@@A",
+          "target_va": "0x101028e0"
+        },
+        {
+          "offset": 757,
+          "kind": 6,
+          "symbol": "?HealthBarVertices1@@3PAUHealthBarVertices1_s@@A",
+          "target_va": "0x10102930"
+        },
+        {
+          "offset": 763,
+          "kind": 6,
+          "symbol": "__real@41000000",
+          "target_va": "0x100e590c"
+        },
+        {
+          "offset": 769,
+          "kind": 6,
+          "symbol": "?HealthBarVertices1@@3PAUHealthBarVertices1_s@@A",
+          "target_va": "0x10102930"
+        },
+        {
+          "offset": 775,
+          "kind": 6,
+          "symbol": "?HealthBarBDRVertices1@@3PAUHealthBarVertices1_s@@A",
+          "target_va": "0x10102890"
+        },
+        {
+          "offset": 781,
+          "kind": 6,
+          "symbol": "__real@41000000",
+          "target_va": "0x100e590c"
+        },
+        {
+          "offset": 787,
+          "kind": 6,
+          "symbol": "?HealthBarBDRVertices1@@3PAUHealthBarVertices1_s@@A",
+          "target_va": "0x10102890"
+        },
+        {
+          "offset": 793,
+          "kind": 6,
+          "symbol": "?HealthBarVertices1@@3PAUHealthBarVertices1_s@@A",
+          "target_va": "0x10102930"
+        },
+        {
+          "offset": 799,
+          "kind": 6,
+          "symbol": "__real@41000000",
+          "target_va": "0x100e590c"
+        },
+        {
+          "offset": 805,
+          "kind": 6,
+          "symbol": "?HealthBarBGVertices1@@3PAUHealthBarVertices1_s@@A",
+          "target_va": "0x101028e0"
+        },
+        {
+          "offset": 811,
+          "kind": 6,
+          "symbol": "?HealthBarVertices1@@3PAUHealthBarVertices1_s@@A",
+          "target_va": "0x10102930"
+        },
+        {
+          "offset": 817,
+          "kind": 6,
+          "symbol": "__real@41000000",
+          "target_va": "0x100e590c"
+        },
+        {
+          "offset": 823,
+          "kind": 6,
+          "symbol": "?HealthBarVertices1@@3PAUHealthBarVertices1_s@@A",
+          "target_va": "0x10102930"
+        },
+        {
+          "offset": 829,
+          "kind": 6,
+          "symbol": "?HealthBarBDRVertices1@@3PAUHealthBarVertices1_s@@A",
+          "target_va": "0x10102890"
+        },
+        {
+          "offset": 835,
+          "kind": 6,
+          "symbol": "__real@41000000",
+          "target_va": "0x100e590c"
+        },
+        {
+          "offset": 841,
+          "kind": 6,
+          "symbol": "?HealthBarBDRVertices1@@3PAUHealthBarVertices1_s@@A",
+          "target_va": "0x10102890"
+        },
+        {
+          "offset": 847,
+          "kind": 6,
+          "symbol": "?HealthBarVertices1@@3PAUHealthBarVertices1_s@@A",
+          "target_va": "0x10102930"
+        },
+        {
+          "offset": 853,
+          "kind": 6,
+          "symbol": "__real@41000000",
+          "target_va": "0x100e590c"
+        },
+        {
+          "offset": 859,
+          "kind": 6,
+          "symbol": "?HealthBarBGVertices1@@3PAUHealthBarVertices1_s@@A",
+          "target_va": "0x101028e0"
+        },
+        {
+          "offset": 865,
+          "kind": 6,
+          "symbol": "?HealthBarVertices1@@3PAUHealthBarVertices1_s@@A",
+          "target_va": "0x10102930"
+        },
+        {
+          "offset": 871,
+          "kind": 6,
+          "symbol": "__real@41000000",
+          "target_va": "0x100e590c"
+        },
+        {
+          "offset": 877,
+          "kind": 6,
+          "symbol": "?HealthBarVertices1@@3PAUHealthBarVertices1_s@@A",
+          "target_va": "0x10102930"
+        },
+        {
+          "offset": 883,
+          "kind": 6,
+          "symbol": "?HealthBarBDRVertices1@@3PAUHealthBarVertices1_s@@A",
+          "target_va": "0x10102890"
+        },
+        {
+          "offset": 889,
+          "kind": 6,
+          "symbol": "__real@41000000",
+          "target_va": "0x100e590c"
+        },
+        {
+          "offset": 895,
+          "kind": 6,
+          "symbol": "?HealthBarBDRVertices1@@3PAUHealthBarVertices1_s@@A",
+          "target_va": "0x10102890"
+        },
+        {
+          "offset": 901,
+          "kind": 6,
+          "symbol": "?HealthBarVertices1@@3PAUHealthBarVertices1_s@@A",
+          "target_va": "0x10102930"
+        },
+        {
+          "offset": 907,
+          "kind": 6,
+          "symbol": "__real@41000000",
+          "target_va": "0x100e590c"
+        },
+        {
+          "offset": 913,
+          "kind": 6,
+          "symbol": "?HealthBarBGVertices1@@3PAUHealthBarVertices1_s@@A",
+          "target_va": "0x101028e0"
+        },
+        {
+          "offset": 919,
+          "kind": 6,
+          "symbol": "?HealthBarVertices1@@3PAUHealthBarVertices1_s@@A",
+          "target_va": "0x10102930"
+        },
+        {
+          "offset": 925,
+          "kind": 6,
+          "symbol": "__real@41000000",
+          "target_va": "0x100e590c"
+        },
+        {
+          "offset": 931,
+          "kind": 6,
+          "symbol": "?HealthBarVertices1@@3PAUHealthBarVertices1_s@@A",
+          "target_va": "0x10102930"
+        },
+        {
+          "offset": 955,
+          "kind": 6,
+          "symbol": "?HealthBarBDRVertices1@@3PAUHealthBarVertices1_s@@A",
+          "target_va": "0x10102890"
+        },
+        {
+          "offset": 977,
+          "kind": 6,
+          "symbol": "?HealthBarBGVertices1@@3PAUHealthBarVertices1_s@@A",
+          "target_va": "0x101028e0"
+        },
+        {
+          "offset": 999,
+          "kind": 6,
+          "symbol": "?HealthBarVertices1@@3PAUHealthBarVertices1_s@@A",
+          "target_va": "0x10102930"
+        },
+        {
+          "offset": 1023,
+          "kind": 6,
+          "symbol": "__real@00000000",
+          "target_va": "0x100e5940"
+        },
+        {
+          "offset": 1040,
+          "kind": 6,
+          "symbol": "?HealthBarBDRVertices1@@3PAUHealthBarVertices1_s@@A",
+          "target_va": "0x10102890"
+        },
+        {
+          "offset": 1051,
+          "kind": 6,
+          "symbol": "__real@41000000",
+          "target_va": "0x100e590c"
+        },
+        {
+          "offset": 1056,
+          "kind": 6,
+          "symbol": "?HealthBarVertices1@@3PAUHealthBarVertices1_s@@A",
+          "target_va": "0x10102930"
+        },
+        {
+          "offset": 1061,
+          "kind": 6,
+          "symbol": "?HealthBarVertices1@@3PAUHealthBarVertices1_s@@A",
+          "target_va": "0x10102930"
+        },
+        {
+          "offset": 1066,
+          "kind": 6,
+          "symbol": "?HealthBarVertices1@@3PAUHealthBarVertices1_s@@A",
+          "target_va": "0x10102930"
+        },
+        {
+          "offset": 1072,
+          "kind": 6,
+          "symbol": "?HealthBarBDRVertices1@@3PAUHealthBarVertices1_s@@A",
+          "target_va": "0x10102890"
+        },
+        {
+          "offset": 1077,
+          "kind": 6,
+          "symbol": "?HealthBarVertices1@@3PAUHealthBarVertices1_s@@A",
+          "target_va": "0x10102930"
+        },
+        {
+          "offset": 1083,
+          "kind": 6,
+          "symbol": "?HealthBarBGVertices1@@3PAUHealthBarVertices1_s@@A",
+          "target_va": "0x101028e0"
+        },
+        {
+          "offset": 1094,
+          "kind": 6,
+          "symbol": "__real@41000000",
+          "target_va": "0x100e590c"
+        },
+        {
+          "offset": 1099,
+          "kind": 6,
+          "symbol": "?HealthBarBGVertices1@@3PAUHealthBarVertices1_s@@A",
+          "target_va": "0x101028e0"
+        },
+        {
+          "offset": 1104,
+          "kind": 6,
+          "symbol": "?HealthBarBGVertices1@@3PAUHealthBarVertices1_s@@A",
+          "target_va": "0x101028e0"
+        },
+        {
+          "offset": 1109,
+          "kind": 6,
+          "symbol": "?HealthBarBGVertices1@@3PAUHealthBarVertices1_s@@A",
+          "target_va": "0x101028e0"
+        },
+        {
+          "offset": 1115,
+          "kind": 6,
+          "symbol": "?HealthBarBGVertices1@@3PAUHealthBarVertices1_s@@A",
+          "target_va": "0x101028e0"
+        },
+        {
+          "offset": 1120,
+          "kind": 6,
+          "symbol": "?HealthBarBGVertices1@@3PAUHealthBarVertices1_s@@A",
+          "target_va": "0x101028e0"
+        },
+        {
+          "offset": 1126,
+          "kind": 6,
+          "symbol": "?HealthBarVertices1@@3PAUHealthBarVertices1_s@@A",
+          "target_va": "0x10102930"
+        },
+        {
+          "offset": 1132,
+          "kind": 6,
+          "symbol": "__real@41000000",
+          "target_va": "0x100e590c"
+        },
+        {
+          "offset": 1138,
+          "kind": 6,
+          "symbol": "?HealthBarVertices1@@3PAUHealthBarVertices1_s@@A",
+          "target_va": "0x10102930"
+        },
+        {
+          "offset": 1144,
+          "kind": 6,
+          "symbol": "?HealthBarBDRVertices1@@3PAUHealthBarVertices1_s@@A",
+          "target_va": "0x10102890"
+        },
+        {
+          "offset": 1150,
+          "kind": 6,
+          "symbol": "__real@41000000",
+          "target_va": "0x100e590c"
+        },
+        {
+          "offset": 1156,
+          "kind": 6,
+          "symbol": "?HealthBarBDRVertices1@@3PAUHealthBarVertices1_s@@A",
+          "target_va": "0x10102890"
+        },
+        {
+          "offset": 1162,
+          "kind": 6,
+          "symbol": "?HealthBarBGVertices1@@3PAUHealthBarVertices1_s@@A",
+          "target_va": "0x101028e0"
+        },
+        {
+          "offset": 1168,
+          "kind": 6,
+          "symbol": "__real@41000000",
+          "target_va": "0x100e590c"
+        },
+        {
+          "offset": 1174,
+          "kind": 6,
+          "symbol": "?HealthBarBGVertices1@@3PAUHealthBarVertices1_s@@A",
+          "target_va": "0x101028e0"
+        },
+        {
+          "offset": 1180,
+          "kind": 6,
+          "symbol": "?HealthBarVertices1@@3PAUHealthBarVertices1_s@@A",
+          "target_va": "0x10102930"
+        },
+        {
+          "offset": 1186,
+          "kind": 6,
+          "symbol": "__real@41000000",
+          "target_va": "0x100e590c"
+        },
+        {
+          "offset": 1192,
+          "kind": 6,
+          "symbol": "?HealthBarVertices1@@3PAUHealthBarVertices1_s@@A",
+          "target_va": "0x10102930"
+        },
+        {
+          "offset": 1198,
+          "kind": 6,
+          "symbol": "?HealthBarBDRVertices1@@3PAUHealthBarVertices1_s@@A",
+          "target_va": "0x10102890"
+        },
+        {
+          "offset": 1204,
+          "kind": 6,
+          "symbol": "__real@41000000",
+          "target_va": "0x100e590c"
+        },
+        {
+          "offset": 1210,
+          "kind": 6,
+          "symbol": "?HealthBarBDRVertices1@@3PAUHealthBarVertices1_s@@A",
+          "target_va": "0x10102890"
+        },
+        {
+          "offset": 1216,
+          "kind": 6,
+          "symbol": "?HealthBarBGVertices1@@3PAUHealthBarVertices1_s@@A",
+          "target_va": "0x101028e0"
+        },
+        {
+          "offset": 1222,
+          "kind": 6,
+          "symbol": "__real@41000000",
+          "target_va": "0x100e590c"
+        },
+        {
+          "offset": 1228,
+          "kind": 6,
+          "symbol": "?HealthBarBGVertices1@@3PAUHealthBarVertices1_s@@A",
+          "target_va": "0x101028e0"
+        },
+        {
+          "offset": 1234,
+          "kind": 6,
+          "symbol": "?HealthBarVertices1@@3PAUHealthBarVertices1_s@@A",
+          "target_va": "0x10102930"
+        },
+        {
+          "offset": 1240,
+          "kind": 6,
+          "symbol": "__real@41000000",
+          "target_va": "0x100e590c"
+        },
+        {
+          "offset": 1246,
+          "kind": 6,
+          "symbol": "?HealthBarVertices1@@3PAUHealthBarVertices1_s@@A",
+          "target_va": "0x10102930"
+        },
+        {
+          "offset": 1252,
+          "kind": 6,
+          "symbol": "?HealthBarBDRVertices1@@3PAUHealthBarVertices1_s@@A",
+          "target_va": "0x10102890"
+        },
+        {
+          "offset": 1258,
+          "kind": 6,
+          "symbol": "__real@41000000",
+          "target_va": "0x100e590c"
+        },
+        {
+          "offset": 1264,
+          "kind": 6,
+          "symbol": "?HealthBarBDRVertices1@@3PAUHealthBarVertices1_s@@A",
+          "target_va": "0x10102890"
+        },
+        {
+          "offset": 1270,
+          "kind": 6,
+          "symbol": "?HealthBarBGVertices1@@3PAUHealthBarVertices1_s@@A",
+          "target_va": "0x101028e0"
+        },
+        {
+          "offset": 1276,
+          "kind": 6,
+          "symbol": "__real@41000000",
+          "target_va": "0x100e590c"
+        },
+        {
+          "offset": 1282,
+          "kind": 6,
+          "symbol": "?HealthBarBGVertices1@@3PAUHealthBarVertices1_s@@A",
+          "target_va": "0x101028e0"
+        },
+        {
+          "offset": 1288,
+          "kind": 6,
+          "symbol": "?HealthBarVertices1@@3PAUHealthBarVertices1_s@@A",
+          "target_va": "0x10102930"
+        },
+        {
+          "offset": 1294,
+          "kind": 6,
+          "symbol": "__real@41000000",
+          "target_va": "0x100e590c"
+        },
+        {
+          "offset": 1300,
+          "kind": 6,
+          "symbol": "?HealthBarVertices1@@3PAUHealthBarVertices1_s@@A",
+          "target_va": "0x10102930"
+        },
+        {
+          "offset": 1313,
+          "kind": 6,
+          "symbol": "__real@42c80000",
+          "target_va": "0x100e6114"
+        },
+        {
+          "offset": 1346,
+          "kind": 6,
+          "symbol": "__real@3ec4ec4f",
+          "target_va": "0x100ea64c"
+        },
+        {
+          "offset": 1352,
+          "kind": 6,
+          "symbol": "__real@41980000",
+          "target_va": "0x100ea654"
+        },
+        {
+          "offset": 1362,
+          "kind": 6,
+          "symbol": "?HealthBarVertices1@@3PAUHealthBarVertices1_s@@A",
+          "target_va": "0x10102930"
+        },
+        {
+          "offset": 1368,
+          "kind": 6,
+          "symbol": "?HealthBarVertices1@@3PAUHealthBarVertices1_s@@A",
+          "target_va": "0x10102930"
+        },
+        {
+          "offset": 1390,
+          "kind": 6,
+          "symbol": "?HealthBarBDRVertices1@@3PAUHealthBarVertices1_s@@A",
+          "target_va": "0x10102890"
+        },
+        {
+          "offset": 1412,
+          "kind": 6,
+          "symbol": "?HealthBarBGVertices1@@3PAUHealthBarVertices1_s@@A",
+          "target_va": "0x101028e0"
+        },
+        {
+          "offset": 1434,
+          "kind": 6,
+          "symbol": "?HealthBarVertices1@@3PAUHealthBarVertices1_s@@A",
+          "target_va": "0x10102930"
+        }
+      ],
+      "object_sha256": "e5262b9e843b1e2d32cedf1e75940fa17418b3095fd8febae6f99a28a8115e22"
+    },
+    {
+      "symbol": "?Begin@CNewPlayerTags@@QAEXXZ",
+      "rva": "0x6d6b0",
+      "size": 246,
+      "whole_exact": true,
+      "fixups": [],
+      "object_sha256": "e5262b9e843b1e2d32cedf1e75940fa17418b3095fd8febae6f99a28a8115e22"
+    },
+    {
+      "symbol": "?SetTransform@IDirect3DDevice9Hook@@UAGJW4_D3DTRANSFORMSTATETYPE@@PBU_D3DMATRIX@@@Z",
+      "rva": "0x74880",
+      "size": 78,
+      "whole_exact": true,
+      "fixups": [
+        {
+          "offset": 29,
+          "kind": 6,
+          "symbol": "?matWorld@@3UD3DXMATRIX@@A",
+          "target_va": "0x10140df0"
+        },
+        {
+          "offset": 36,
+          "kind": 6,
+          "symbol": "?matProj@@3UD3DXMATRIX@@A",
+          "target_va": "0x10140db0"
+        },
+        {
+          "offset": 43,
+          "kind": 6,
+          "symbol": "?matView@@3UD3DXMATRIX@@A",
+          "target_va": "0x10140d70"
+        },
+        {
+          "offset": 57,
+          "kind": 6,
+          "symbol": "?pD3DDevice@@3PAUIDirect3DDevice9@@A",
+          "target_va": "0x1026eb40"
+        }
+      ],
+      "object_sha256": "0d651a33d2b40d98a47bb4b0d45242831bd6d87e443fc5ac03e91e7f3387a5b4"
+    }
+  ],
+  "bindings": [
+    {
+      "body": "??0CNewPlayerTags@@QAE@PAUIDirect3DDevice9@@@Z",
+      "symbol": "_D3DXCreateSprite@8",
+      "target_va": "0x100c5c74",
+      "identity_consistent": true
+    },
+    {
+      "body": "??1CNewPlayerTags@@QAE@XZ",
+      "symbol": "??3@YAXPAX@Z",
+      "target_va": "0x100c648a",
+      "identity_consistent": true
+    },
+    {
+      "body": "?Draw@CNewPlayerTags@@QAEXPAUD3DXVECTOR3@@MMM@Z",
+      "symbol": "__real@3d428f5c",
+      "target_va": "0x100ea648",
+      "identity_consistent": true
+    },
+    {
+      "body": "?Draw@CNewPlayerTags@@QAEXPAUD3DXVECTOR3@@MMM@Z",
+      "symbol": "__real@3e4ccccd",
+      "target_va": "0x100e9c90",
+      "identity_consistent": true
+    },
+    {
+      "body": "?Draw@CNewPlayerTags@@QAEXPAUD3DXVECTOR3@@MMM@Z",
+      "symbol": "?matView@@3UD3DXMATRIX@@A",
+      "target_va": "0x10140d70",
+      "identity_consistent": true
+    },
+    {
+      "body": "?Draw@CNewPlayerTags@@QAEXPAUD3DXVECTOR3@@MMM@Z",
+      "symbol": "?matProj@@3UD3DXMATRIX@@A",
+      "target_va": "0x10140db0",
+      "identity_consistent": true
+    },
+    {
+      "body": "?Draw@CNewPlayerTags@@QAEXPAUD3DXVECTOR3@@MMM@Z",
+      "symbol": "_D3DXVec3Project@24",
+      "target_va": "0x100c5c80",
+      "identity_consistent": true
+    },
+    {
+      "body": "?Draw@CNewPlayerTags@@QAEXPAUD3DXVECTOR3@@MMM@Z",
+      "symbol": "__real@3f800000",
+      "target_va": "0x100e5b2c",
+      "identity_consistent": true
+    },
+    {
+      "body": "?Draw@CNewPlayerTags@@QAEXPAUD3DXVECTOR3@@MMM@Z",
+      "symbol": "__real@00000000",
+      "target_va": "0x100e5940",
+      "identity_consistent": true
+    },
+    {
+      "body": "?Draw@CNewPlayerTags@@QAEXPAUD3DXVECTOR3@@MMM@Z",
+      "symbol": "__ftol2",
+      "target_va": "0x100c7444",
+      "identity_consistent": true
+    },
+    {
+      "body": "?Draw@CNewPlayerTags@@QAEXPAUD3DXVECTOR3@@MMM@Z",
+      "symbol": "?HealthBarVertices1@@3PAUHealthBarVertices1_s@@A",
+      "target_va": "0x10102930",
+      "identity_consistent": true
+    },
+    {
+      "body": "?Draw@CNewPlayerTags@@QAEXPAUD3DXVECTOR3@@MMM@Z",
+      "symbol": "__real@41a00000",
+      "target_va": "0x100e5804",
+      "identity_consistent": true
+    },
+    {
+      "body": "?Draw@CNewPlayerTags@@QAEXPAUD3DXVECTOR3@@MMM@Z",
+      "symbol": "?HealthBarBGVertices1@@3PAUHealthBarVertices1_s@@A",
+      "target_va": "0x101028e0",
+      "identity_consistent": true
+    },
+    {
+      "body": "?Draw@CNewPlayerTags@@QAEXPAUD3DXVECTOR3@@MMM@Z",
+      "symbol": "?HealthBarBDRVertices1@@3PAUHealthBarVertices1_s@@A",
+      "target_va": "0x10102890",
+      "identity_consistent": true
+    },
+    {
+      "body": "?Draw@CNewPlayerTags@@QAEXPAUD3DXVECTOR3@@MMM@Z",
+      "symbol": "__real@41900000",
+      "target_va": "0x100ea660",
+      "identity_consistent": true
+    },
+    {
+      "body": "?Draw@CNewPlayerTags@@QAEXPAUD3DXVECTOR3@@MMM@Z",
+      "symbol": "__real@41c00000",
+      "target_va": "0x100ea65c",
+      "identity_consistent": true
+    },
+    {
+      "body": "?Draw@CNewPlayerTags@@QAEXPAUD3DXVECTOR3@@MMM@Z",
+      "symbol": "__real@41a80000",
+      "target_va": "0x100ea658",
+      "identity_consistent": true
+    },
+    {
+      "body": "?Draw@CNewPlayerTags@@QAEXPAUD3DXVECTOR3@@MMM@Z",
+      "symbol": "__real@41980000",
+      "target_va": "0x100ea654",
+      "identity_consistent": true
+    },
+    {
+      "body": "?Draw@CNewPlayerTags@@QAEXPAUD3DXVECTOR3@@MMM@Z",
+      "symbol": "__real@41b80000",
+      "target_va": "0x100ea650",
+      "identity_consistent": true
+    },
+    {
+      "body": "?Draw@CNewPlayerTags@@QAEXPAUD3DXVECTOR3@@MMM@Z",
+      "symbol": "__real@42c80000",
+      "target_va": "0x100e6114",
+      "identity_consistent": true
+    },
+    {
+      "body": "?Draw@CNewPlayerTags@@QAEXPAUD3DXVECTOR3@@MMM@Z",
+      "symbol": "__real@3ec4ec4f",
+      "target_va": "0x100ea64c",
+      "identity_consistent": true
+    },
+    {
+      "body": "?Draw@CNewPlayerTags@@QAEXPAUD3DXVECTOR3@@MMM@Z",
+      "symbol": "__real@41000000",
+      "target_va": "0x100e590c",
+      "identity_consistent": true
+    },
+    {
+      "body": "?SetTransform@IDirect3DDevice9Hook@@UAGJW4_D3DTRANSFORMSTATETYPE@@PBU_D3DMATRIX@@@Z",
+      "symbol": "?matWorld@@3UD3DXMATRIX@@A",
+      "target_va": "0x10140df0",
+      "identity_consistent": true
+    },
+    {
+      "body": "?SetTransform@IDirect3DDevice9Hook@@UAGJW4_D3DTRANSFORMSTATETYPE@@PBU_D3DMATRIX@@@Z",
+      "symbol": "?matProj@@3UD3DXMATRIX@@A",
+      "target_va": "0x10140db0",
+      "identity_consistent": true
+    },
+    {
+      "body": "?SetTransform@IDirect3DDevice9Hook@@UAGJW4_D3DTRANSFORMSTATETYPE@@PBU_D3DMATRIX@@@Z",
+      "symbol": "?matView@@3UD3DXMATRIX@@A",
+      "target_va": "0x10140d70",
+      "identity_consistent": true
+    },
+    {
+      "body": "?SetTransform@IDirect3DDevice9Hook@@UAGJW4_D3DTRANSFORMSTATETYPE@@PBU_D3DMATRIX@@@Z",
+      "symbol": "?pD3DDevice@@3PAUIDirect3DDevice9@@A",
+      "target_va": "0x1026eb40",
+      "identity_consistent": true
+    }
+  ],
+  "literals": [
+    {
+      "symbol": "__real@3d428f5c",
+      "rva": "0xea648",
+      "size": 4,
+      "hex": "5c8f423d",
+      "value": 0.04749999940395355
+    },
+    {
+      "symbol": "__real@3e4ccccd",
+      "rva": "0xe9c90",
+      "size": 4,
+      "hex": "cdcc4c3e",
+      "value": 0.20000000298023224
+    },
+    {
+      "symbol": "__real@3f800000",
+      "rva": "0xe5b2c",
+      "size": 4,
+      "hex": "0000803f",
+      "value": 1.0
+    },
+    {
+      "symbol": "__real@00000000",
+      "rva": "0xe5940",
+      "size": 4,
+      "hex": "00000000",
+      "value": 0.0
+    },
+    {
+      "symbol": "__real@41a00000",
+      "rva": "0xe5804",
+      "size": 4,
+      "hex": "0000a041",
+      "value": 20.0
+    },
+    {
+      "symbol": "__real@41900000",
+      "rva": "0xea660",
+      "size": 4,
+      "hex": "00009041",
+      "value": 18.0
+    },
+    {
+      "symbol": "__real@41c00000",
+      "rva": "0xea65c",
+      "size": 4,
+      "hex": "0000c041",
+      "value": 24.0
+    },
+    {
+      "symbol": "__real@41a80000",
+      "rva": "0xea658",
+      "size": 4,
+      "hex": "0000a841",
+      "value": 21.0
+    },
+    {
+      "symbol": "__real@41980000",
+      "rva": "0xea654",
+      "size": 4,
+      "hex": "00009841",
+      "value": 19.0
+    },
+    {
+      "symbol": "__real@41b80000",
+      "rva": "0xea650",
+      "size": 4,
+      "hex": "0000b841",
+      "value": 23.0
+    },
+    {
+      "symbol": "__real@42c80000",
+      "rva": "0xe6114",
+      "size": 4,
+      "hex": "0000c842",
+      "value": 100.0
+    },
+    {
+      "symbol": "__real@3ec4ec4f",
+      "rva": "0xea64c",
+      "size": 4,
+      "hex": "4fecc43e",
+      "value": 0.38461539149284363
+    },
+    {
+      "symbol": "__real@41000000",
+      "rva": "0xe590c",
+      "size": 4,
+      "hex": "00000041",
+      "value": 8.0
+    }
+  ],
+  "stores": [
+    {
+      "symbol": "?HealthBarBDRVertices1@@3PAUHealthBarVertices1_s@@A",
+      "rva": "0x102890",
+      "size": 80,
+      "kind": "complete_initialized_vertices",
+      "whole_exact": true
+    },
+    {
+      "symbol": "?HealthBarBGVertices1@@3PAUHealthBarVertices1_s@@A",
+      "rva": "0x1028e0",
+      "size": 80,
+      "kind": "complete_initialized_vertices",
+      "whole_exact": true
+    },
+    {
+      "symbol": "?HealthBarVertices1@@3PAUHealthBarVertices1_s@@A",
+      "rva": "0x102930",
+      "size": 80,
+      "kind": "complete_initialized_vertices",
+      "whole_exact": true
+    },
+    {
+      "symbol": "?matView@@3UD3DXMATRIX@@A",
+      "rva": "0x140d70",
+      "size": 64,
+      "kind": "complete_zero_fill_matrix",
+      "whole_exact": true
+    },
+    {
+      "symbol": "?matProj@@3UD3DXMATRIX@@A",
+      "rva": "0x140db0",
+      "size": 64,
+      "kind": "complete_zero_fill_matrix",
+      "whole_exact": true
+    },
+    {
+      "symbol": "?matWorld@@3UD3DXMATRIX@@A",
+      "rva": "0x140df0",
+      "size": 64,
+      "kind": "complete_zero_fill_matrix",
+      "whole_exact": true
+    }
+  ],
+  "import_dependency": [
+    {
+      "module": "d3dx9_25.dll",
+      "name": "D3DXVec3Project",
+      "iat_rva": "0xe5514"
+    }
+  ],
+  "import_thunk_source_credit": 0,
+  "extra_helpers_credit": 0,
+  "new_EH_bytes": 0,
+  "direct025_credit": 0
+}
