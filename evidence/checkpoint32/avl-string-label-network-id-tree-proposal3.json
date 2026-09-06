@@ -1,0 +1,273 @@
+{
+  "status": "BOUNDED_SOURCE_PROPOSAL_NOT_FRESH_NOT_ACCEPTED",
+  "sources": [
+    {
+      "path": "build/agent-independent/eval_vendor_network_id_tree.cpp",
+      "sha256": "21c2cac13b406f746b197c67bd5e4d791dc39aebb96bd144b37204cf620e455c"
+    },
+    {
+      "path": "build/agent-independent/eval_vendor_network_id_comparisons3.cpp",
+      "sha256": "45ed25bbf2f3986b0070fbecdc41c842a12b2fecfe692b41ca487aee7c31083d"
+    }
+  ],
+  "roots": {
+    "??0?$BinarySearchTree@UNetworkIDNode@@@DataStructures@@QAE@XZ": 207552,
+    "?Find@?$BinarySearchTree@UNetworkIDNode@@@DataStructures@@IAEAAPAUnode@12@ABUNetworkIDNode@@PAPAU312@@Z": 207584,
+    "?GetPointerToNode@?$BinarySearchTree@UNetworkIDNode@@@DataStructures@@QAEAAPAUNetworkIDNode@@ABU3@@Z": 208288,
+    "?Clear@?$BinarySearchTree@UNetworkIDNode@@@DataStructures@@QAEXXZ": 208336,
+    "?Add@?$BinarySearchTree@UNetworkIDNode@@@DataStructures@@QAEPAUnode@12@ABUNetworkIDNode@@@Z": 208480,
+    "?Del@?$BinarySearchTree@UNetworkIDNode@@@DataStructures@@QAEPAUnode@12@ABUNetworkIDNode@@@Z": 208816,
+    "??1?$AVLBalancedBinarySearchTree@UNetworkIDNode@@@DataStructures@@UAE@XZ": 209536,
+    "?BalanceTree@?$AVLBalancedBinarySearchTree@UNetworkIDNode@@@DataStructures@@AAEXPAUnode@?$BinarySearchTree@UNetworkIDNode@@@2@_N@Z": 209648,
+    "?Add@?$AVLBalancedBinarySearchTree@UNetworkIDNode@@@DataStructures@@QAEXABUNetworkIDNode@@@Z": 209888,
+    "?Del@?$AVLBalancedBinarySearchTree@UNetworkIDNode@@@DataStructures@@QAEXABUNetworkIDNode@@@Z": 209920
+  },
+  "functions": {
+    "?Del@?$AVLBalancedBinarySearchTree@UNetworkIDNode@@@DataStructures@@QAEXABUNetworkIDNode@@@Z": {
+      "rva": 209920,
+      "size": 27,
+      "old_owner": "raknet_NetworkIDGenerator"
+    },
+    "?BalanceTree@?$AVLBalancedBinarySearchTree@UNetworkIDNode@@@DataStructures@@AAEXPAUnode@?$BinarySearchTree@UNetworkIDNode@@@2@_N@Z": {
+      "rva": 209648,
+      "size": 171,
+      "old_owner": "raknet_NetworkIDGenerator"
+    },
+    "?FindParent@?$BinarySearchTree@UNetworkIDNode@@@DataStructures@@IAEAAPAUnode@12@ABUNetworkIDNode@@@Z": {
+      "rva": 207872,
+      "size": 23,
+      "old_owner": "raknet_NetworkIDGenerator"
+    },
+    "?Find@?$BinarySearchTree@UNetworkIDNode@@@DataStructures@@IAEAAPAUnode@12@ABUNetworkIDNode@@PAPAU312@@Z": {
+      "rva": 207584,
+      "size": 245,
+      "old_owner": "raknet_NetworkIDGenerator"
+    },
+    "??ONetworkIDNode@@QBE_NABU0@@Z": {
+      "rva": 207248,
+      "size": 18,
+      "old_owner": "raknet_NetworkIDGenerator"
+    },
+    "??ONetworkID@@QBE_NABU0@@Z": {
+      "rva": 211200,
+      "size": 84,
+      "old_owner": "raknet_NetworkTypes"
+    },
+    "??8PlayerID@@QBE_NABU0@@Z": {
+      "rva": 210656,
+      "size": 33,
+      "old_owner": "raknet_NetworkTypes"
+    },
+    "??OPlayerID@@QBE_NABU0@@Z": {
+      "rva": 210752,
+      "size": 40,
+      "old_owner": "raknet_NetworkTypes"
+    },
+    "??MNetworkIDNode@@QBE_NABU0@@Z": {
+      "rva": 207280,
+      "size": 18,
+      "old_owner": "raknet_NetworkIDGenerator"
+    },
+    "??MNetworkID@@QBE_NABU0@@Z": {
+      "rva": 211296,
+      "size": 84,
+      "old_owner": "raknet_NetworkTypes"
+    },
+    "??MPlayerID@@QBE_NABU0@@Z": {
+      "rva": 210800,
+      "size": 40,
+      "old_owner": "raknet_NetworkTypes"
+    },
+    "??8NetworkIDNode@@QBE_NABU0@@Z": {
+      "rva": 207216,
+      "size": 18,
+      "old_owner": "raknet_NetworkIDGenerator"
+    },
+    "??8NetworkID@@QBE_NABU0@@Z": {
+      "rva": 211040,
+      "size": 76,
+      "old_owner": "raknet_NetworkTypes"
+    },
+    "?DoubleRotateRight@?$AVLBalancedBinarySearchTree@UNetworkIDNode@@@DataStructures@@AAEXPAUnode@?$BinarySearchTree@UNetworkIDNode@@@2@@Z": {
+      "rva": 208096,
+      "size": 38,
+      "old_owner": "raknet_NetworkIDGenerator"
+    },
+    "?RotateRight@?$AVLBalancedBinarySearchTree@UNetworkIDNode@@@DataStructures@@AAEXPAUnode@?$BinarySearchTree@UNetworkIDNode@@@2@@Z": {
+      "rva": 207904,
+      "size": 89,
+      "old_owner": "raknet_NetworkIDGenerator"
+    },
+    "?RotateLeft@?$AVLBalancedBinarySearchTree@UNetworkIDNode@@@DataStructures@@AAEXPAUnode@?$BinarySearchTree@UNetworkIDNode@@@2@@Z": {
+      "rva": 208000,
+      "size": 89,
+      "old_owner": "raknet_NetworkIDGenerator"
+    },
+    "?LeftHigher@?$AVLBalancedBinarySearchTree@UNetworkIDNode@@@DataStructures@@AAE_NPAUnode@?$BinarySearchTree@UNetworkIDNode@@@2@@Z": {
+      "rva": 209280,
+      "size": 56,
+      "old_owner": "raknet_NetworkIDGenerator"
+    },
+    "?Height@?$BinarySearchTree@UNetworkIDNode@@@DataStructures@@QAEIPAUnode@12@@Z": {
+      "rva": 209184,
+      "size": 29,
+      "old_owner": "raknet_NetworkIDGenerator"
+    },
+    "?HeightRecursive@?$BinarySearchTree@UNetworkIDNode@@@DataStructures@@IAEIPAUnode@12@@Z": {
+      "rva": 208192,
+      "size": 88,
+      "old_owner": "raknet_NetworkIDGenerator"
+    },
+    "?DoubleRotateLeft@?$AVLBalancedBinarySearchTree@UNetworkIDNode@@@DataStructures@@AAEXPAUnode@?$BinarySearchTree@UNetworkIDNode@@@2@@Z": {
+      "rva": 208144,
+      "size": 38,
+      "old_owner": "raknet_NetworkIDGenerator"
+    },
+    "?RightHigher@?$AVLBalancedBinarySearchTree@UNetworkIDNode@@@DataStructures@@AAE_NPAUnode@?$BinarySearchTree@UNetworkIDNode@@@2@@Z": {
+      "rva": 209216,
+      "size": 56,
+      "old_owner": "raknet_NetworkIDGenerator"
+    },
+    "?Del@?$BinarySearchTree@UNetworkIDNode@@@DataStructures@@QAEPAUnode@12@ABUNetworkIDNode@@@Z": {
+      "rva": 208816,
+      "size": 363,
+      "old_owner": "raknet_NetworkIDGenerator"
+    },
+    "??4NetworkIDNode@@QAEAAU0@ABU0@@Z": {
+      "rva": 207840,
+      "size": 27,
+      "old_owner": "raknet_NetworkIDGenerator"
+    },
+    "??4NetworkID@@QAEAAU0@ABU0@@Z": {
+      "rva": 211008,
+      "size": 29,
+      "old_owner": "raknet_NetworkTypes"
+    },
+    "?Clear@?$BinarySearchTree@UNetworkIDNode@@@DataStructures@@QAEXXZ": {
+      "rva": 208336,
+      "size": 138,
+      "old_owner": "raknet_NetworkIDGenerator"
+    },
+    "?Add@?$AVLBalancedBinarySearchTree@UNetworkIDNode@@@DataStructures@@QAEXABUNetworkIDNode@@@Z": {
+      "rva": 209888,
+      "size": 27,
+      "old_owner": "raknet_NetworkIDGenerator"
+    },
+    "?Add@?$BinarySearchTree@UNetworkIDNode@@@DataStructures@@QAEPAUnode@12@ABUNetworkIDNode@@@Z": {
+      "rva": 208480,
+      "size": 331,
+      "old_owner": "raknet_NetworkIDGenerator"
+    },
+    "??0NetworkIDNode@@QAE@XZ": {
+      "rva": 207312,
+      "size": 10,
+      "old_owner": "raknet_NetworkIDGenerator"
+    },
+    "??1?$AVLBalancedBinarySearchTree@UNetworkIDNode@@@DataStructures@@UAE@XZ": {
+      "rva": 209536,
+      "size": 79,
+      "old_owner": "raknet_NetworkIDGenerator"
+    },
+    "??1?$BinarySearchTree@UNetworkIDNode@@@DataStructures@@UAE@XZ": {
+      "rva": 209520,
+      "size": 11,
+      "old_owner": "raknet_NetworkIDGenerator"
+    },
+    "?GetPointerToNode@?$BinarySearchTree@UNetworkIDNode@@@DataStructures@@QAEAAPAUNetworkIDNode@@ABU3@@Z": {
+      "rva": 208288,
+      "size": 41,
+      "old_owner": "raknet_NetworkIDGenerator"
+    },
+    "??0?$BinarySearchTree@UNetworkIDNode@@@DataStructures@@QAE@XZ": {
+      "rva": 207552,
+      "size": 17,
+      "old_owner": "raknet_NetworkIDGenerator"
+    }
+  },
+  "external_targets": {
+    "?parent@?1??FindParent@?$BinarySearchTree@UNetworkIDNode@@@DataStructures@@IAEAAPAUnode@23@ABUNetworkIDNode@@@Z@4PAU423@A": 269585332,
+    "?current@?1??Find@?$BinarySearchTree@UNetworkIDNode@@@DataStructures@@IAEAAPAUnode@23@ABUNetworkIDNode@@PAPAU423@@Z@4PAU423@A": 269585328,
+    "?peerToPeerMode@NetworkID@@2_NA": 269585344,
+    "??3@YAXPAX@Z": 269247626,
+    "??2@YAPAXI@Z": 269247098,
+    "__ehhandler$??1?$AVLBalancedBinarySearchTree@UNetworkIDNode@@@DataStructures@@UAE@XZ": 269362056,
+    "__except_list": 0,
+    "??_7?$AVLBalancedBinarySearchTree@UNetworkIDNode@@@DataStructures@@6B@": 269382020,
+    "??_7?$BinarySearchTree@UNetworkIDNode@@@DataStructures@@6B@": 269382016,
+    "?tempnode@?1??GetPointerToNode@?$BinarySearchTree@UNetworkIDNode@@@DataStructures@@QAEAAPAUNetworkIDNode@@ABU4@@Z@4PAUnode@23@A": 269585340,
+    "?dummyptr@?1??GetPointerToNode@?$BinarySearchTree@UNetworkIDNode@@@DataStructures@@QAEAAPAUNetworkIDNode@@ABU4@@Z@4PAU4@A": 269585336
+  },
+  "new_unique_direct_code": 2281,
+  "already_covered_direct_code": 152,
+  "source025_direct_bytes": 0,
+  "structures": {
+    "NetworkID": 8,
+    "NetworkIDNode": 12,
+    "BinarySearchTree": 16,
+    "AVLBalancedBinarySearchTree": 16,
+    "link_node": 12
+  },
+  "excluded": "NetworkIDGenerator virtual callers/class VFT, global IDTree and its initializers, IsNetworkIDAuthority overrides; no fake virtual closure.",
+  "vtable_requirement": "Actual BinarySearchTree and AVL destructor vtables must be traced to whole entries and all deleting destructors before acceptance.",
+  "mode_flag": "Real NetworkID::peerToPeerMode bool source initializer=false; fresh full .bss must bind actual original field and prove sole owner.",
+  "reuse": "PlayerID comparisons already emitted by accepted closure_vendor_graph_playerid_comparisons; missing selected operator may be seeded in existing owner, never duplicate source body.",
+  "requirements": [
+    "Fresh probe required, full source context may alter template codegen.",
+    "Original dynamic initializers not counted because no IDTree object instantiated.",
+    "Whole EH and actual VFT slot providers pending fresh preflight."
+  ],
+  "old_vtable_layout": [
+    {
+      "symbol": "??_7?$AVLBalancedBinarySearchTree@UNetworkIDNode@@@DataStructures@@6B@",
+      "rva": 946564,
+      "whole_size": 4,
+      "slot0_target": 268645312
+    },
+    {
+      "symbol": "??_7?$BinarySearchTree@UNetworkIDNode@@@DataStructures@@6B@",
+      "rva": 946560,
+      "whole_size": 4,
+      "slot0_target": 268645072
+    }
+  ],
+  "static_locals": [
+    {
+      "symbol": "?parent@?1??FindParent@?$BinarySearchTree@UNetworkIDNode@@@DataStructures@@IAEAAPAUnode@23@ABUNetworkIDNode@@@Z@4PAU423@A",
+      "rva": 1149876,
+      "size": 4,
+      "kind": "actual function-local static pointer"
+    },
+    {
+      "symbol": "?current@?1??Find@?$BinarySearchTree@UNetworkIDNode@@@DataStructures@@IAEAAPAUnode@23@ABUNetworkIDNode@@PAPAU423@@Z@4PAU423@A",
+      "rva": 1149872,
+      "size": 4,
+      "kind": "actual function-local static pointer"
+    },
+    {
+      "symbol": "?tempnode@?1??GetPointerToNode@?$BinarySearchTree@UNetworkIDNode@@@DataStructures@@QAEAAPAUNetworkIDNode@@ABU4@@Z@4PAUnode@23@A",
+      "rva": 1149884,
+      "size": 4,
+      "kind": "actual function-local static pointer"
+    },
+    {
+      "symbol": "?dummyptr@?1??GetPointerToNode@?$BinarySearchTree@UNetworkIDNode@@@DataStructures@@QAEAAPAUNetworkIDNode@@ABU4@@Z@4PAU4@A",
+      "rva": 1149880,
+      "size": 4,
+      "kind": "actual function-local static pointer"
+    }
+  ],
+  "reuse_assignment": "NetworkID assignment33840/29 already in base coverage but no current active MAP provider; proposed source includes the true body with zero new credit.",
+  "owner_transfer": {
+    "from_unit": "closure_vendor_graph_playerid_comparisons",
+    "to_unit": "closure_vendor_network_id_comparisons",
+    "four_PlayerID_methods": "Exact same bodies and order as former sole owner; all previously accepted RVA/bytes/bindings must remain unchanged.",
+    "link_requirement": "Remove old owner from active full build and transfer its seeds only after fresh full comparison. Never link two implementations and select a convenient COMDAT."
+  },
+  "trial1_diagnostic": {
+    "compiled_size": 86,
+    "original_size": 84,
+    "cause": "Separate TU loses compiler knowledge that first PlayerID comparison preserves ECX, causing redundant this restoration before second comparison.",
+    "capture": "build/agent-independent/network-id-comparison-trial1.asm",
+    "body_changes": "None: restore real original source visibility."
+  }
+}

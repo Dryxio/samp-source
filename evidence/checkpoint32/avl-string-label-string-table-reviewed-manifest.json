@@ -1,0 +1,826 @@
+{
+  "status": "REVIEWED_MAIN_SEEDS_AND_WHOLE_EH_BINDINGS_PREFLIGHT",
+  "run": "build/cp32-string-table-trial1",
+  "roots": {
+    "?AddString@StringTable@@QAEXPBD_N@Z": 346848,
+    "?EncodeString@StringTable@@QAEXPBDHPAVBitStream@RakNet@@@Z": 346976,
+    "?DecodeString@StringTable@@QAE_NPADHPAVBitStream@RakNet@@@Z": 347104,
+    "?AddReference@StringTable@@SAXXZ": 347488,
+    "?RemoveReference@StringTable@@SAXXZ": 347584,
+    "?Instance@StringTable@@SAPAV1@XZ": 346032
+  },
+  "seeds": {
+    "closure_vendor_string_table": {
+      "?Instance@StringTable@@SAPAV1@XZ": 346032,
+      "?RemoveReference@StringTable@@SAXXZ": 347584,
+      "??1StringTable@@QAE@XZ": 347360,
+      "??1?$OrderedList@PADUStrAndBool@@$1?StrAndBoolComp@@YAHABQADABU1@@Z@DataStructures@@QAE@XZ": 347264,
+      "??1?$List@UStrAndBool@@@DataStructures@@QAE@XZ": 346080,
+      "?Clear@?$OrderedList@PADUStrAndBool@@$1?StrAndBoolComp@@YAHABQADABU1@@Z@DataStructures@@QAEXXZ": 346832,
+      "?Clear@?$List@UStrAndBool@@@DataStructures@@QAEX_N@Z": 346432,
+      "??A?$OrderedList@PADUStrAndBool@@$1?StrAndBoolComp@@YAHABQADABU1@@Z@DataStructures@@QBEAAUStrAndBool@@I@Z": 346800,
+      "?Size@?$OrderedList@PADUStrAndBool@@$1?StrAndBoolComp@@YAHABQADABU1@@Z@DataStructures@@QBEIXZ": 346816,
+      "?AddReference@StringTable@@SAXXZ": 347488,
+      "??0StringTable@@IAE@XZ": 347344,
+      "??0?$OrderedList@PADUStrAndBool@@$1?StrAndBoolComp@@YAHABQADABU1@@Z@DataStructures@@QAE@XZ": 346496,
+      "??0?$List@UStrAndBool@@@DataStructures@@QAE@XZ": 346064,
+      "?DecodeString@StringTable@@QAE_NPADHPAVBitStream@RakNet@@@Z": 347104,
+      "?EncodeString@StringTable@@QAEXPBDHPAVBitStream@RakNet@@@Z": 346976,
+      "?GetIndexFromKey@?$OrderedList@PADUStrAndBool@@$1?StrAndBoolComp@@YAHABQADABU1@@Z@DataStructures@@QBEIABQADPA_N@Z": 346512,
+      "?StrAndBoolComp@@YAHABQADABUStrAndBool@@@Z": 345952,
+      "?AddString@StringTable@@QAEXPBD_N@Z": 346848,
+      "?Insert@?$OrderedList@PADUStrAndBool@@$1?StrAndBoolComp@@YAHABQADABU1@@Z@DataStructures@@QAEIABQADABUStrAndBool@@@Z": 346672,
+      "?Insert@?$List@UStrAndBool@@@DataStructures@@QAEXUStrAndBool@@I@Z": 346256,
+      "?Insert@?$List@UStrAndBool@@@DataStructures@@QAEXUStrAndBool@@@Z": 346128
+    }
+  },
+  "regions": [
+    {
+      "unit": "closure_vendor_string_table",
+      "section": 10,
+      "rva": 346032,
+      "size": 6,
+      "kind": ".text",
+      "sha256": "5ee224a7edd47b3b5ac7da1e1df69396186b58322a3a1795e47f24c8a3165144",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "?instance@StringTable@@1PAV1@A",
+          "site_rva": 346033,
+          "target_va": 269621828,
+          "kind": 6
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_string_table",
+      "section": 65,
+      "rva": 347584,
+      "size": 56,
+      "kind": ".text",
+      "sha256": "47b449351df10aaff5e9f4b0810c48e35c1dcda6f8ae71bd15ad8bf6590db37b",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "?referenceCount@StringTable@@1HA",
+          "site_rva": 347585,
+          "target_va": 269621832,
+          "kind": 6
+        },
+        {
+          "symbol": "?referenceCount@StringTable@@1HA",
+          "site_rva": 347595,
+          "target_va": 269621832,
+          "kind": 6
+        },
+        {
+          "symbol": "?instance@StringTable@@1PAV1@A",
+          "site_rva": 347603,
+          "target_va": 269621828,
+          "kind": 6
+        },
+        {
+          "symbol": "??1StringTable@@QAE@XZ",
+          "site_rva": 347615,
+          "target_va": 268782816,
+          "kind": 20
+        },
+        {
+          "symbol": "??3@YAXPAX@Z",
+          "site_rva": 347621,
+          "target_va": 269247626,
+          "kind": 20
+        },
+        {
+          "symbol": "?instance@StringTable@@1PAV1@A",
+          "site_rva": 347630,
+          "target_va": 269621828,
+          "kind": 6
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_string_table",
+      "section": 57,
+      "rva": 347360,
+      "size": 127,
+      "kind": ".text",
+      "sha256": "311bf444d81c445ce5b2010848eb084b81a3df711aa7de1e173bf8db981eb042",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "__ehhandler$??1StringTable@@QAE@XZ",
+          "site_rva": 347363,
+          "target_va": 269366440,
+          "kind": 6
+        },
+        {
+          "symbol": "__except_list",
+          "site_rva": 347369,
+          "target_va": 0,
+          "kind": 6
+        },
+        {
+          "symbol": "__except_list",
+          "site_rva": 347377,
+          "target_va": 0,
+          "kind": 6
+        },
+        {
+          "symbol": "?Size@?$OrderedList@PADUStrAndBool@@$1?StrAndBoolComp@@YAHABQADABU1@@Z@DataStructures@@QBEIXZ",
+          "site_rva": 347401,
+          "target_va": 268782272,
+          "kind": 20
+        },
+        {
+          "symbol": "??A?$OrderedList@PADUStrAndBool@@$1?StrAndBoolComp@@YAHABQADABU1@@Z@DataStructures@@QBEAAUStrAndBool@@I@Z",
+          "site_rva": 347413,
+          "target_va": 268782256,
+          "kind": 20
+        },
+        {
+          "symbol": "??A?$OrderedList@PADUStrAndBool@@$1?StrAndBoolComp@@YAHABQADABU1@@Z@DataStructures@@QBEAAUStrAndBool@@I@Z",
+          "site_rva": 347428,
+          "target_va": 268782256,
+          "kind": 20
+        },
+        {
+          "symbol": "??3@YAXPAX@Z",
+          "site_rva": 347436,
+          "target_va": 269247626,
+          "kind": 20
+        },
+        {
+          "symbol": "?Size@?$OrderedList@PADUStrAndBool@@$1?StrAndBoolComp@@YAHABQADABU1@@Z@DataStructures@@QBEIXZ",
+          "site_rva": 347447,
+          "target_va": 268782272,
+          "kind": 20
+        },
+        {
+          "symbol": "??1?$OrderedList@PADUStrAndBool@@$1?StrAndBoolComp@@YAHABQADABU1@@Z@DataStructures@@QAE@XZ",
+          "site_rva": 347466,
+          "target_va": 268782720,
+          "kind": 20
+        },
+        {
+          "symbol": "__except_list",
+          "site_rva": 347479,
+          "target_va": 0,
+          "kind": 6
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_string_table",
+      "section": 50,
+      "rva": 347264,
+      "size": 73,
+      "kind": ".text",
+      "sha256": "759579c045f7dc1ffe0d539975032b15bb790228595accf3bc4b8a0f89780dc1",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "__ehhandler$??1?$OrderedList@PADUStrAndBool@@$1?StrAndBoolComp@@YAHABQADABU1@@Z@DataStructures@@QAE@XZ",
+          "site_rva": 347267,
+          "target_va": 269366408,
+          "kind": 6
+        },
+        {
+          "symbol": "__except_list",
+          "site_rva": 347273,
+          "target_va": 0,
+          "kind": 6
+        },
+        {
+          "symbol": "__except_list",
+          "site_rva": 347281,
+          "target_va": 0,
+          "kind": 6
+        },
+        {
+          "symbol": "?Clear@?$OrderedList@PADUStrAndBool@@$1?StrAndBoolComp@@YAHABQADABU1@@Z@DataStructures@@QAEXXZ",
+          "site_rva": 347302,
+          "target_va": 268782288,
+          "kind": 20
+        },
+        {
+          "symbol": "??1?$List@UStrAndBool@@@DataStructures@@QAE@XZ",
+          "site_rva": 347317,
+          "target_va": 268781536,
+          "kind": 20
+        },
+        {
+          "symbol": "__except_list",
+          "site_rva": 347329,
+          "target_va": 0,
+          "kind": 6
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_string_table",
+      "section": 20,
+      "rva": 346080,
+      "size": 17,
+      "kind": ".text",
+      "sha256": "dd4e84f2a7929ea33d99dcc70b210696e9385b12157b74425c06ea7d4f6c2614",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "??3@YAXPAX@Z",
+          "site_rva": 346091,
+          "target_va": 269247626,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_string_table",
+      "section": 42,
+      "rva": 346832,
+      "size": 8,
+      "kind": ".text",
+      "sha256": "d7d8e6a858526f1344e34624dd2214506e4a2a5cb1e39050007d205afecc7021",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "?Clear@?$List@UStrAndBool@@@DataStructures@@QAEX_N@Z",
+          "site_rva": 346835,
+          "target_va": 268781888,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_string_table",
+      "section": 30,
+      "rva": 346432,
+      "size": 60,
+      "kind": ".text",
+      "sha256": "f21b21d0aaba17baa212490fccdcc22c144f894d3a4a2975c511a29bac999c17",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "??3@YAXPAX@Z",
+          "site_rva": 346461,
+          "target_va": 269247626,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_string_table",
+      "section": 38,
+      "rva": 346800,
+      "size": 14,
+      "kind": ".text",
+      "sha256": "3e36a07d2ac699225f01f07859b6696cf21837ae88189b6bb6ed9bc68f115dd0",
+      "whole_bytes_equal": true,
+      "bindings": []
+    },
+    {
+      "unit": "closure_vendor_string_table",
+      "section": 40,
+      "rva": 346816,
+      "size": 4,
+      "kind": ".text",
+      "sha256": "f7e0208f5e988ae39c7a45dfddbd12921d02f9c3deb5695d4c534c8ab0ccdb0f",
+      "whole_bytes_equal": true,
+      "bindings": []
+    },
+    {
+      "unit": "closure_vendor_string_table",
+      "section": 61,
+      "rva": 347488,
+      "size": 51,
+      "kind": ".text",
+      "sha256": "1a6431976756c9ef607a13990ac057a2eb22d5006d4385ea8bd2850d6ba37d90",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "?referenceCount@StringTable@@1HA",
+          "site_rva": 347489,
+          "target_va": 269621832,
+          "kind": 6
+        },
+        {
+          "symbol": "?referenceCount@StringTable@@1HA",
+          "site_rva": 347498,
+          "target_va": 269621832,
+          "kind": 6
+        },
+        {
+          "symbol": "??2@YAPAXI@Z",
+          "site_rva": 347507,
+          "target_va": 269247098,
+          "kind": 20
+        },
+        {
+          "symbol": "??0StringTable@@IAE@XZ",
+          "site_rva": 347521,
+          "target_va": 268782800,
+          "kind": 20
+        },
+        {
+          "symbol": "?instance@StringTable@@1PAV1@A",
+          "site_rva": 347526,
+          "target_va": 269621828,
+          "kind": 6
+        },
+        {
+          "symbol": "?instance@StringTable@@1PAV1@A",
+          "site_rva": 347534,
+          "target_va": 269621828,
+          "kind": 6
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_string_table",
+      "section": 55,
+      "rva": 347344,
+      "size": 12,
+      "kind": ".text",
+      "sha256": "914d6d1041ee308595ef1cd34e3757da18a1adce2e4b64a32c5b97867571089c",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "??0?$OrderedList@PADUStrAndBool@@$1?StrAndBoolComp@@YAHABQADABU1@@Z@DataStructures@@QAE@XZ",
+          "site_rva": 347348,
+          "target_va": 268781952,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_string_table",
+      "section": 32,
+      "rva": 346496,
+      "size": 12,
+      "kind": ".text",
+      "sha256": "9e256758985efcb4a848b81048e3543ef8e0223d6f595a4a3aa02064cce20a44",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "??0?$List@UStrAndBool@@@DataStructures@@QAE@XZ",
+          "site_rva": 346500,
+          "target_va": 268781520,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_string_table",
+      "section": 18,
+      "rva": 346064,
+      "size": 13,
+      "kind": ".text",
+      "sha256": "efaddf6f7c64b7d0dd7d70e04563c88df5b21978a063a338954e28cc09d4e5e9",
+      "whole_bytes_equal": true,
+      "bindings": []
+    },
+    {
+      "unit": "closure_vendor_string_table",
+      "section": 48,
+      "rva": 347104,
+      "size": 159,
+      "kind": ".text",
+      "sha256": "3ea52e15f1ac299760d4f852c4f5594ad24d7ca538dd1a14ea0cdb9314ffd192",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "??$Read@_N@BitStream@RakNet@@QAE_NAA_N@Z",
+          "site_rva": 347136,
+          "target_va": 268469280,
+          "kind": 20
+        },
+        {
+          "symbol": "?Instance@StringCompressor@@SAPAV1@XZ",
+          "site_rva": 347170,
+          "target_va": 268778544,
+          "kind": 20
+        },
+        {
+          "symbol": "?DecodeString@StringCompressor@@QAE_NPADHPAVBitStream@RakNet@@H@Z",
+          "site_rva": 347177,
+          "target_va": 268780240,
+          "kind": 20
+        },
+        {
+          "symbol": "?ReadBits@BitStream@RakNet@@QAE_NPAEH_N@Z",
+          "site_rva": 347201,
+          "target_va": 268564912,
+          "kind": 20
+        },
+        {
+          "symbol": "?Size@?$OrderedList@PADUStrAndBool@@$1?StrAndBoolComp@@YAHABQADABU1@@Z@DataStructures@@QBEIXZ",
+          "site_rva": 347217,
+          "target_va": 268782272,
+          "kind": 20
+        },
+        {
+          "symbol": "??A?$OrderedList@PADUStrAndBool@@$1?StrAndBoolComp@@YAHABQADABU1@@Z@DataStructures@@QBEAAUStrAndBool@@I@Z",
+          "site_rva": 347229,
+          "target_va": 268782256,
+          "kind": 20
+        },
+        {
+          "symbol": "_strncpy",
+          "site_rva": 347243,
+          "target_va": 269252592,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_string_table",
+      "section": 6,
+      "rva": 33824,
+      "size": 89,
+      "kind": ".text",
+      "sha256": "b37034fc3b389d74b01e3aeca79066e2df1184e312ff0b4ee54a0c788b584854",
+      "whole_bytes_equal": true,
+      "bindings": []
+    },
+    {
+      "unit": "closure_vendor_string_table",
+      "section": 46,
+      "rva": 346976,
+      "size": 113,
+      "kind": ".text",
+      "sha256": "132949e0575a15b764c29d54b760b8f2c5b2f3829b8c65482acc9eadcdb246b0",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "?GetIndexFromKey@?$OrderedList@PADUStrAndBool@@$1?StrAndBoolComp@@YAHABQADABU1@@Z@DataStructures@@QBEIABQADPA_N@Z",
+          "site_rva": 346998,
+          "target_va": 268781968,
+          "kind": 20
+        },
+        {
+          "symbol": "?Write1@BitStream@RakNet@@QAEXXZ",
+          "site_rva": 347019,
+          "target_va": 268566320,
+          "kind": 20
+        },
+        {
+          "symbol": "?WriteBits@BitStream@RakNet@@QAEXPBEH_N@Z",
+          "site_rva": 347039,
+          "target_va": 268566496,
+          "kind": 20
+        },
+        {
+          "symbol": "?Write0@BitStream@RakNet@@QAEXXZ",
+          "site_rva": 347057,
+          "target_va": 268566288,
+          "kind": 20
+        },
+        {
+          "symbol": "?Instance@StringCompressor@@SAPAV1@XZ",
+          "site_rva": 347071,
+          "target_va": 268778544,
+          "kind": 20
+        },
+        {
+          "symbol": "?EncodeString@StringCompressor@@QAEXPBDHPAVBitStream@RakNet@@H@Z",
+          "site_rva": 347078,
+          "target_va": 268779936,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_string_table",
+      "section": 34,
+      "rva": 346512,
+      "size": 145,
+      "kind": ".text",
+      "sha256": "1122472e4e60c45436e1822e78d215b9629bb3088c8834b11b5398a54e797782",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "?StrAndBoolComp@@YAHABQADABUStrAndBool@@@Z",
+          "site_rva": 346564,
+          "target_va": 268781408,
+          "kind": 20
+        },
+        {
+          "symbol": "?StrAndBoolComp@@YAHABQADABUStrAndBool@@@Z",
+          "site_rva": 346614,
+          "target_va": 268781408,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_string_table",
+      "section": 8,
+      "rva": 345952,
+      "size": 65,
+      "kind": ".text",
+      "sha256": "51d3ca65eb3e8c68fd4205e9130b73bfa8b436fa1c74aac3afdc70c193805a39",
+      "whole_bytes_equal": true,
+      "bindings": []
+    },
+    {
+      "unit": "closure_vendor_string_table",
+      "section": 44,
+      "rva": 346848,
+      "size": 125,
+      "kind": ".text",
+      "sha256": "40af8c829fe17cc77170243372849437d96e79ae4e13f9f992b419d69ba60413",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "??2@YAPAXI@Z",
+          "site_rva": 346892,
+          "target_va": 269247098,
+          "kind": 20
+        },
+        {
+          "symbol": "?Insert@?$OrderedList@PADUStrAndBool@@$1?StrAndBoolComp@@YAHABQADABU1@@Z@DataStructures@@QAEIABQADABUStrAndBool@@@Z",
+          "site_rva": 346943,
+          "target_va": 268782128,
+          "kind": 20
+        },
+        {
+          "symbol": "??3@YAXPAX@Z",
+          "site_rva": 346957,
+          "target_va": 269247626,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_string_table",
+      "section": 36,
+      "rva": 346672,
+      "size": 115,
+      "kind": ".text",
+      "sha256": "a44e84724473f45fa44f508e14d468b7a553d220f092d171f3fae482603f2bad",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "?GetIndexFromKey@?$OrderedList@PADUStrAndBool@@$1?StrAndBoolComp@@YAHABQADABU1@@Z@DataStructures@@QBEIABQADPA_N@Z",
+          "site_rva": 346689,
+          "target_va": 268781968,
+          "kind": 20
+        },
+        {
+          "symbol": "?Insert@?$List@UStrAndBool@@@DataStructures@@QAEXUStrAndBool@@@Z",
+          "site_rva": 346740,
+          "target_va": 268781584,
+          "kind": 20
+        },
+        {
+          "symbol": "?Insert@?$List@UStrAndBool@@@DataStructures@@QAEXUStrAndBool@@I@Z",
+          "site_rva": 346776,
+          "target_va": 268781712,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_string_table",
+      "section": 26,
+      "rva": 346256,
+      "size": 147,
+      "kind": ".text",
+      "sha256": "7e9ada370e740b06b777cd29d5cafd13a54626f5a7bee08f34b89d7dead1ee48",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "??2@YAPAXI@Z",
+          "site_rva": 346296,
+          "target_va": 269247098,
+          "kind": 20
+        },
+        {
+          "symbol": "??3@YAXPAX@Z",
+          "site_rva": 346330,
+          "target_va": 269247626,
+          "kind": 20
+        },
+        {
+          "symbol": "_memmove",
+          "site_rva": 346367,
+          "target_va": 269250016,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_string_table",
+      "section": 24,
+      "rva": 346128,
+      "size": 116,
+      "kind": ".text",
+      "sha256": "42d3c726168fc81de0ccd2f597a09bc194105054692a2e6fa0555bfc4094ad08",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "??2@YAPAXI@Z",
+          "site_rva": 346168,
+          "target_va": 269247098,
+          "kind": 20
+        },
+        {
+          "symbol": "??3@YAXPAX@Z",
+          "site_rva": 346202,
+          "target_va": 269247626,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_string_table",
+      "section": 3,
+      "rva": 1186372,
+      "size": 8,
+      "kind": ".bss",
+      "sha256": "af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc",
+      "whole_bytes_equal": true,
+      "bindings": []
+    },
+    {
+      "unit": "closure_vendor_string_table",
+      "section": 58,
+      "rva": 930976,
+      "size": 18,
+      "kind": ".text$x",
+      "sha256": "547dfa124c20285faf47b67d11ff5507a8e68c218f7111bc8957ec8c361dc514",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "??1?$OrderedList@PADUStrAndBool@@$1?StrAndBoolComp@@YAHABQADABU1@@Z@DataStructures@@QAE@XZ",
+          "site_rva": 930980,
+          "target_va": 268782720,
+          "kind": 20
+        },
+        {
+          "symbol": "$T3408",
+          "site_rva": 930985,
+          "target_va": 269464044,
+          "kind": 6
+        },
+        {
+          "symbol": "___CxxFrameHandler",
+          "site_rva": 930990,
+          "target_va": 269247782,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_string_table",
+      "section": 51,
+      "rva": 930944,
+      "size": 18,
+      "kind": ".text$x",
+      "sha256": "b079b773d71e83e1182e200e8a80e76ecd1d7dcf745525e61230a3649db33771",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "??1?$List@UStrAndBool@@@DataStructures@@QAE@XZ",
+          "site_rva": 930948,
+          "target_va": 268781536,
+          "kind": 20
+        },
+        {
+          "symbol": "$T3393",
+          "site_rva": 930953,
+          "target_va": 269464008,
+          "kind": 6
+        },
+        {
+          "symbol": "___CxxFrameHandler",
+          "site_rva": 930958,
+          "target_va": 269247782,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_string_table",
+      "section": 59,
+      "rva": 1028580,
+      "size": 36,
+      "kind": ".xdata$x",
+      "sha256": "8e58e170862de5d93cffa5a458c5e0cd3588ab7e58a0b441569e488417bac67a",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "$L3406",
+          "site_rva": 1028584,
+          "target_va": 269366432,
+          "kind": 6
+        },
+        {
+          "symbol": "$T3412",
+          "site_rva": 1028596,
+          "target_va": 269464036,
+          "kind": 6
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_string_table",
+      "section": 52,
+      "rva": 1028544,
+      "size": 36,
+      "kind": ".xdata$x",
+      "sha256": "487b8e349ad2e388bb94cc1202820b23b597879ff7785465bba21c9379689dd3",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "$L3389",
+          "site_rva": 1028548,
+          "target_va": 269366400,
+          "kind": 6
+        },
+        {
+          "symbol": "$T3396",
+          "site_rva": 1028560,
+          "target_va": 269464000,
+          "kind": 6
+        }
+      ]
+    }
+  ],
+  "bindings_checked": 70,
+  "external_targets": {
+    "?instance@StringTable@@1PAV1@A": 269621828,
+    "?referenceCount@StringTable@@1HA": 269621832,
+    "??3@YAXPAX@Z": 269247626,
+    "__ehhandler$??1StringTable@@QAE@XZ": 269366440,
+    "__except_list": 0,
+    "__ehhandler$??1?$OrderedList@PADUStrAndBool@@$1?StrAndBoolComp@@YAHABQADABU1@@Z@DataStructures@@QAE@XZ": 269366408,
+    "??2@YAPAXI@Z": 269247098,
+    "?Instance@StringCompressor@@SAPAV1@XZ": 268778544,
+    "?DecodeString@StringCompressor@@QAE_NPADHPAVBitStream@RakNet@@H@Z": 268780240,
+    "?ReadBits@BitStream@RakNet@@QAE_NPAEH_N@Z": 268564912,
+    "_strncpy": 269252592,
+    "?Write1@BitStream@RakNet@@QAEXXZ": 268566320,
+    "?WriteBits@BitStream@RakNet@@QAEXPBEH_N@Z": 268566496,
+    "?Write0@BitStream@RakNet@@QAEXXZ": 268566288,
+    "?EncodeString@StringCompressor@@QAEXPBDHPAVBitStream@RakNet@@H@Z": 268779936,
+    "_memmove": 269250016,
+    "closure_vendor_string_table::$T3408": 269464044,
+    "___CxxFrameHandler": 269247782,
+    "closure_vendor_string_table::$T3393": 269464008,
+    "closure_vendor_string_table::$L3406": 269366432,
+    "closure_vendor_string_table::$T3412": 269464036,
+    "closure_vendor_string_table::$L3389": 269366400,
+    "closure_vendor_string_table::$T3396": 269464000
+  },
+  "identity_reasons": {
+    "?AddString@StringTable@@QAEXPBD_N@Z": "source method semantics + original call graph / allocation / table owner",
+    "?EncodeString@StringTable@@QAEXPBDHPAVBitStream@RakNet@@@Z": "source method semantics + original call graph / allocation / table owner",
+    "?DecodeString@StringTable@@QAE_NPADHPAVBitStream@RakNet@@@Z": "source method semantics + original call graph / allocation / table owner",
+    "?AddReference@StringTable@@SAXXZ": "source method semantics + original call graph / allocation / table owner",
+    "?RemoveReference@StringTable@@SAXXZ": "source method semantics + original call graph / allocation / table owner",
+    "?Instance@StringTable@@SAPAV1@XZ": "source method semantics + original call graph / allocation / table owner",
+    "??1StringTable@@QAE@XZ": "actual relocation from ?RemoveReference@StringTable@@SAXXZ",
+    "?Size@?$OrderedList@PADUStrAndBool@@$1?StrAndBoolComp@@YAHABQADABU1@@Z@DataStructures@@QBEIXZ": "actual relocation from ??1StringTable@@QAE@XZ",
+    "??A?$OrderedList@PADUStrAndBool@@$1?StrAndBoolComp@@YAHABQADABU1@@Z@DataStructures@@QBEAAUStrAndBool@@I@Z": "actual relocation from ??1StringTable@@QAE@XZ",
+    "??1?$OrderedList@PADUStrAndBool@@$1?StrAndBoolComp@@YAHABQADABU1@@Z@DataStructures@@QAE@XZ": "actual relocation from ??1StringTable@@QAE@XZ",
+    "?Clear@?$OrderedList@PADUStrAndBool@@$1?StrAndBoolComp@@YAHABQADABU1@@Z@DataStructures@@QAEXXZ": "actual relocation from ??1?$OrderedList@PADUStrAndBool@@$1?StrAndBoolComp@@YAHABQADABU1@@Z@DataStructures@@QAE@XZ",
+    "??1?$List@UStrAndBool@@@DataStructures@@QAE@XZ": "actual relocation from ??1?$OrderedList@PADUStrAndBool@@$1?StrAndBoolComp@@YAHABQADABU1@@Z@DataStructures@@QAE@XZ",
+    "?Clear@?$List@UStrAndBool@@@DataStructures@@QAEX_N@Z": "actual relocation from ?Clear@?$OrderedList@PADUStrAndBool@@$1?StrAndBoolComp@@YAHABQADABU1@@Z@DataStructures@@QAEXXZ",
+    "??0StringTable@@IAE@XZ": "actual relocation from ?AddReference@StringTable@@SAXXZ",
+    "??0?$OrderedList@PADUStrAndBool@@$1?StrAndBoolComp@@YAHABQADABU1@@Z@DataStructures@@QAE@XZ": "actual relocation from ??0StringTable@@IAE@XZ",
+    "??0?$List@UStrAndBool@@@DataStructures@@QAE@XZ": "actual relocation from ??0?$OrderedList@PADUStrAndBool@@$1?StrAndBoolComp@@YAHABQADABU1@@Z@DataStructures@@QAE@XZ",
+    "??$Read@_N@BitStream@RakNet@@QAE_NAA_N@Z": "actual relocation from ?DecodeString@StringTable@@QAE_NPADHPAVBitStream@RakNet@@@Z",
+    "?GetIndexFromKey@?$OrderedList@PADUStrAndBool@@$1?StrAndBoolComp@@YAHABQADABU1@@Z@DataStructures@@QBEIABQADPA_N@Z": "actual relocation from ?EncodeString@StringTable@@QAEXPBDHPAVBitStream@RakNet@@@Z",
+    "?StrAndBoolComp@@YAHABQADABUStrAndBool@@@Z": "actual relocation from ?GetIndexFromKey@?$OrderedList@PADUStrAndBool@@$1?StrAndBoolComp@@YAHABQADABU1@@Z@DataStructures@@QBEIABQADPA_N@Z",
+    "?Insert@?$OrderedList@PADUStrAndBool@@$1?StrAndBoolComp@@YAHABQADABU1@@Z@DataStructures@@QAEIABQADABUStrAndBool@@@Z": "actual relocation from ?AddString@StringTable@@QAEXPBD_N@Z",
+    "?Insert@?$List@UStrAndBool@@@DataStructures@@QAEXUStrAndBool@@@Z": "actual relocation from ?Insert@?$OrderedList@PADUStrAndBool@@$1?StrAndBoolComp@@YAHABQADABU1@@Z@DataStructures@@QAEIABQADABUStrAndBool@@@Z",
+    "?Insert@?$List@UStrAndBool@@@DataStructures@@QAEXUStrAndBool@@I@Z": "actual relocation from ?Insert@?$OrderedList@PADUStrAndBool@@$1?StrAndBoolComp@@YAHABQADABU1@@Z@DataStructures@@QAEIABQADABUStrAndBool@@@Z"
+  },
+  "new_unique_code": 1474,
+  "already_covered_code": 89,
+  "physical_code_compared": 1563,
+  "baseline": 272137,
+  "source025_direct_bytes": 0,
+  "reuse_existing_owners": {
+    "??$Read@_N@BitStream@RakNet@@QAE_NAA_N@Z": {
+      "unit": "closure_rpc_select_textdraw",
+      "rva": 33824,
+      "size": 89
+    }
+  },
+  "excluded_unmatched": [],
+  "unselected_method": "LogStringNotFound release no-op has no live call in this closure; no arbitrary homologue selected.",
+  "vector_CRT_qualification": "build/agent-independent/vector-crt-qualified-providers.json",
+  "source_files": [
+    {
+      "path": "build/agent-independent/eval_vendor_string_table.cpp",
+      "sha256": "720545741234ecba877f2a263c6b8cd66ba2f3d814168de1ee217401327cbafb"
+    }
+  ],
+  "identity_scope": "build/agent-independent/string-table-proposal.json",
+  "static_data": "Whole genuine .bss8: instance121A44 pointer4 + referenceCount121A48 int4, zero initialization per PE virtual tail.",
+  "actual_weak_aliases": {
+    "closure_vendor_string_table": {}
+  }
+}

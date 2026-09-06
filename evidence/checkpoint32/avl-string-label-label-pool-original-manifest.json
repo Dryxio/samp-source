@@ -1,0 +1,56 @@
+{
+  "status": "ORIGINAL_IDENTITIES_NOT_PROBED",
+  "reference_baseline": 262111,
+  "root_reported_current_baseline": 262513,
+  "pending_labels_code": 564,
+  "code_potential": 1034,
+  "regions": [
+    {
+      "rva": 4560,
+      "size": 270,
+      "kind": "code",
+      "sha256": "8d97b945b24c1c50001e715d6e1d018b0b9d4f8efd7e46a0d6ea3420fdcd0d55",
+      "pe_relocations": [],
+      "net_uncovered": 270
+    },
+    {
+      "rva": 4944,
+      "size": 643,
+      "kind": "code",
+      "sha256": "0205ae2fed655957ec5540cfed58aa8f566481e39b3a1033b6689a6c2e084dde",
+      "pe_relocations": [
+        4955,
+        4977,
+        4997,
+        5251,
+        5523,
+        5563
+      ],
+      "net_uncovered": 643
+    },
+    {
+      "rva": 4224,
+      "size": 29,
+      "kind": "code",
+      "sha256": "de9eb20fb5780700424d469ff8e886a910ae5c9679e341492ec78c645302100d",
+      "pe_relocations": [],
+      "net_uncovered": 29
+    },
+    {
+      "rva": 740624,
+      "size": 92,
+      "kind": "code",
+      "sha256": "c9c5acd04a54f0b7c1c2f135a022348e841e8ffa695f63348abea97d8f997fd9",
+      "pe_relocations": [],
+      "net_uncovered": 92
+    },
+    {
+      "rva": 939512,
+      "size": 4,
+      "kind": "float",
+      "sha256": "0b9d79ff0fc4d0a77ef398763bbe45c445501e826219f2b6a1aa709411ab631d",
+      "pe_relocations": [],
+      "ownership": "requires existing data-owner reconciliation separately from code union"
+    }
+  ]
+}

@@ -1,0 +1,116 @@
+{
+  "status": "ACTUAL_COMPILER_WEAK_ALIASES_AND_SELECTED_VFT_FIXUPS_QUALIFIED",
+  "run": "build/cp32-avl-string-label-linked1",
+  "dll_sha256": "cc9bec1d64371f8342415f1533e004bd904bdd982de4f417a8b21dad1dd44e7c",
+  "map_sha256": "35515f32893081522b1984b22ea7c2038c0fc04ba78c961f1a1dec1c8d612f8b",
+  "aliases": [
+    {
+      "unit": "closure_vendor_network_id_tree",
+      "alias": "??_E?$BinarySearchTree@UNetworkIDNode@@@DataStructures@@UAEPAXI@Z",
+      "canonical": "??_G?$BinarySearchTree@UNetworkIDNode@@@DataStructures@@UAEPAXI@Z",
+      "source_alias_storage": 105,
+      "source_alias_undefined": true,
+      "weak_aux_resolves_canonical": true,
+      "canonical_defined_section": 58,
+      "alias_map": {
+        "symbol": "??_E?$BinarySearchTree@UNetworkIDNode@@@DataStructures@@UAEPAXI@Z",
+        "va": 268707472,
+        "owner": "f i closure_vendor_network_id_tree.obj"
+      },
+      "canonical_map": {
+        "symbol": "??_G?$BinarySearchTree@UNetworkIDNode@@@DataStructures@@UAEPAXI@Z",
+        "va": 268707472,
+        "owner": "f i closure_vendor_network_id_tree.obj"
+      },
+      "whole_linked_body30_compared": true,
+      "bindings": [
+        {
+          "symbol": "??1?$BinarySearchTree@UNetworkIDNode@@@DataStructures@@UAE@XZ",
+          "offset": 4,
+          "kind": 20,
+          "map_provider": {
+            "symbol": "??1?$BinarySearchTree@UNetworkIDNode@@@DataStructures@@UAE@XZ",
+            "va": 268707376,
+            "owner": "f i closure_vendor_network_id_tree.obj"
+          }
+        },
+        {
+          "symbol": "??3@YAXPAX@Z",
+          "offset": 17,
+          "kind": 20,
+          "map_provider": {
+            "symbol": "??3@YAXPAX@Z",
+            "va": 268715875,
+            "owner": "f   LIBCMT:delete.obj"
+          }
+        }
+      ],
+      "selected_vtable_fixup": {
+        "section": 14,
+        "offset": 0,
+        "kind": 6,
+        "alias": "??_E?$BinarySearchTree@UNetworkIDNode@@@DataStructures@@UAEPAXI@Z",
+        "original_slot_rva": 946560,
+        "linked_slot_rva": 369936,
+        "actual_provider_va": 268707472
+      },
+      "object_sha256": "f3f388e36d13c8f29f91bb09ac404a0392247d49ca80477322a12ffffde3e9de",
+      "extra_credit": 0
+    },
+    {
+      "unit": "closure_vendor_network_id_tree",
+      "alias": "??_E?$AVLBalancedBinarySearchTree@UNetworkIDNode@@@DataStructures@@UAEPAXI@Z",
+      "canonical": "??_G?$AVLBalancedBinarySearchTree@UNetworkIDNode@@@DataStructures@@UAEPAXI@Z",
+      "source_alias_storage": 105,
+      "source_alias_undefined": true,
+      "weak_aux_resolves_canonical": true,
+      "canonical_defined_section": 64,
+      "alias_map": {
+        "symbol": "??_E?$AVLBalancedBinarySearchTree@UNetworkIDNode@@@DataStructures@@UAEPAXI@Z",
+        "va": 268707680,
+        "owner": "f i closure_vendor_network_id_tree.obj"
+      },
+      "canonical_map": {
+        "symbol": "??_G?$AVLBalancedBinarySearchTree@UNetworkIDNode@@@DataStructures@@UAEPAXI@Z",
+        "va": 268707680,
+        "owner": "f i closure_vendor_network_id_tree.obj"
+      },
+      "whole_linked_body30_compared": true,
+      "bindings": [
+        {
+          "symbol": "??1?$AVLBalancedBinarySearchTree@UNetworkIDNode@@@DataStructures@@UAE@XZ",
+          "offset": 4,
+          "kind": 20,
+          "map_provider": {
+            "symbol": "??1?$AVLBalancedBinarySearchTree@UNetworkIDNode@@@DataStructures@@UAE@XZ",
+            "va": 268707392,
+            "owner": "f i closure_vendor_network_id_tree.obj"
+          }
+        },
+        {
+          "symbol": "??3@YAXPAX@Z",
+          "offset": 17,
+          "kind": 20,
+          "map_provider": {
+            "symbol": "??3@YAXPAX@Z",
+            "va": 268715875,
+            "owner": "f   LIBCMT:delete.obj"
+          }
+        }
+      ],
+      "selected_vtable_fixup": {
+        "section": 54,
+        "offset": 0,
+        "kind": 6,
+        "alias": "??_E?$AVLBalancedBinarySearchTree@UNetworkIDNode@@@DataStructures@@UAEPAXI@Z",
+        "original_slot_rva": 946564,
+        "linked_slot_rva": 369940,
+        "actual_provider_va": 268707680
+      },
+      "object_sha256": "f3f388e36d13c8f29f91bb09ac404a0392247d49ca80477322a12ffffde3e9de",
+      "extra_credit": 0
+    }
+  ],
+  "note": "Two genuine storage105 weak externals from complete 4-byte VFTs resolve to their real complete deleting destructors; source preflight already verified original identities and all targets.",
+  "extra_credit": 0
+}
