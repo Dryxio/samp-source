@@ -1,0 +1,144 @@
+{
+  "status": "COPY_FULL316_RELOCATION_IDENTITY_AUDIT_PASS_NOT_ACCEPTANCE",
+  "trial": "cp32-player-name-trial1",
+  "actual_symbol": "?_Copy@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@IAEXII@Z",
+  "correction": "B120267 is _Copy(unsigned,unsigned), NOT _Grow. Actual _Grow202 livesB4E0 and is separate, emittedbutnotrequired by inlinedassignpath.",
+  "code_region": {
+    "rva": "B120",
+    "whole_COMDAT_size": 316,
+    "chunks": [
+      {
+        "offset": 0,
+        "size": 267,
+        "role": "primary_Copy flow including firstcatchB193 insidebody"
+      },
+      {
+        "offset": 267,
+        "size": 49,
+        "role": "secondcatch funcletB22B cleanup/rethrow including finalint3"
+      }
+    ],
+    "whole_resolved_equal": true,
+    "sha256": "bc70d2ac128b17c6b60fb09a9285a518bf6f822448cddbf9e2863080b9745225"
+  },
+  "handler": {
+    "rva": "E04D0",
+    "size": 10,
+    "target": "___CxxFrameHandler@C6526"
+  },
+  "metadata": {
+    "rva": "F7D18",
+    "whole_size": 132,
+    "pieces": [
+      {
+        "rva": "F7D18",
+        "size": 32,
+        "role": "4UnwindMapentries"
+      },
+      {
+        "rva": "F7D38",
+        "size": 16,
+        "role": "HandlerType forcatchB22B"
+      },
+      {
+        "rva": "F7D48",
+        "size": 16,
+        "role": "HandlerType forcatchB193"
+      },
+      {
+        "rva": "F7D58",
+        "size": 40,
+        "role": "2TryBlockMapentries"
+      },
+      {
+        "rva": "F7D80",
+        "size": 28,
+        "role": "FuncInfo"
+      }
+    ]
+  },
+  "bindings": [
+    {
+      "offset": 6,
+      "symbol": "__ehhandler$?_Copy@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@IAEXII@Z",
+      "true_target": "0x100e04d0",
+      "kind": 6
+    },
+    {
+      "offset": 12,
+      "symbol": "__except_list",
+      "true_target": "0x0",
+      "kind": 6
+    },
+    {
+      "offset": 20,
+      "symbol": "__except_list",
+      "true_target": "0x0",
+      "kind": 6
+    },
+    {
+      "offset": 101,
+      "symbol": "??2@YAPAXI@Z",
+      "true_target": "0x100c627a",
+      "kind": 20
+    },
+    {
+      "offset": 131,
+      "symbol": "??2@YAPAXI@Z",
+      "true_target": "0x100c627a",
+      "kind": 20
+    },
+    {
+      "offset": 142,
+      "symbol": "$L95370",
+      "true_target": "0x1000b1b3",
+      "kind": 6
+    },
+    {
+      "offset": 210,
+      "symbol": "??3@YAXPAX@Z",
+      "true_target": "0x100c648a",
+      "kind": 20
+    },
+    {
+      "offset": 256,
+      "symbol": "__except_list",
+      "true_target": "0x0",
+      "kind": 6
+    },
+    {
+      "offset": 281,
+      "symbol": "??3@YAXPAX@Z",
+      "true_target": "0x100c648a",
+      "kind": 20
+    },
+    {
+      "offset": 311,
+      "symbol": "__CxxThrowException@8",
+      "true_target": "0x100c75c5",
+      "kind": 20
+    }
+  ],
+  "undefined_string_runtime": [
+    {
+      "symbol": "?_Xran@_String_base@std@@QBEXXZ",
+      "true_rva": "C631C",
+      "size": 63,
+      "evidence": "ActualundefinedCOFFsymbol; eraseB0A0 pos>size invokes this atB0AE. AssignsubstringB6C0 also samewrongpositioncheck target. Independent of rawtargetpermutation."
+    },
+    {
+      "symbol": "?_Xlen@_String_base@std@@QBEXXZ",
+      "true_rva": "C6374",
+      "size": 63,
+      "evidence": "ActualundefinedCOFFsymbol; assign charsB7B0 oversizedlength invokes atB80D; _Grow/assignsubstring samecheckedlengthtarget."
+    },
+    {
+      "symbol": "__CxxThrowException@8",
+      "true_rva": "C75C5",
+      "evidence": "ActualundefinedCOFF symbol in_Copy catchrethrow atB256(call operandB257); stack pushes0,0. Sameabsolute target used byXran/Xlen throwpaths."
+    }
+  ],
+  "runtime_qualification": "These are trueMSVCundefinedABI symbols ratherthan inventedstubs. Root must retainpinnedSDK provenance/hash if acceptingasCRTboundary; no automaticnewcoveragefor63bytehelpersorinternalruntimectors.",
+  "discovery_omission_reason": "COFF.function demandsonefunctionsymbolCOMDAT; section86 has mainvalue0, catchlabelvalue267 and catchlabelvalue115. Do not stripadditional labelsortruncate267; preserve all316+EH10 andmetadata132.",
+  "unique_code_potential_for_copy": 326
+}

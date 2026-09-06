@@ -1,0 +1,158 @@
+{
+  "status": "REJECTED_SOURCE_LITERAL_IDENTITY_MISMATCH_NOT_CLOSED",
+  "current_proof": "evidence/checkpoint32/textdraw-vehicle-rpc-acceptance.json",
+  "current_union": 207696,
+  "proposed_new": 379,
+  "rows": [
+    {
+      "name": "?GetDistanceFromLocalPlayerPed@CEntity@@QAEMXZ",
+      "rva": "0x9f0c0",
+      "size": 199,
+      "resolved_exact": true,
+      "fixups": [
+        {
+          "name": "?pGame@@3PAVCGame@@A",
+          "offset": 11,
+          "kind": 6,
+          "expected_va": "0x1026ebac"
+        },
+        {
+          "name": "?FindPlayerPed@CGame@@QAEPAVCPlayerPed@@XZ",
+          "offset": 17,
+          "kind": 20,
+          "expected_va": "0x10001010"
+        },
+        {
+          "name": "__real@461c4000",
+          "offset": 29,
+          "kind": 6,
+          "expected_va": "0x100ec54c"
+        },
+        {
+          "name": "?GetMatrix@CEntity@@QAEXPAU_MATRIX4X4@@@Z",
+          "offset": 50,
+          "kind": 20,
+          "expected_va": "0x1009eb10"
+        },
+        {
+          "name": "?pNetGame@@3PAVCNetGame@@A",
+          "offset": 55,
+          "kind": 6,
+          "expected_va": "0x1026eb94"
+        },
+        {
+          "name": "?pGame@@3PAVCGame@@A",
+          "offset": 101,
+          "kind": 6,
+          "expected_va": "0x1026ebac"
+        },
+        {
+          "name": "?GetMatrix@CCamera@@QAEXPAU_MATRIX4X4@@@Z",
+          "offset": 114,
+          "kind": 20,
+          "expected_va": "0x1009d460"
+        },
+        {
+          "name": "?GetMatrix@CEntity@@QAEXPAU_MATRIX4X4@@@Z",
+          "offset": 135,
+          "kind": 20,
+          "expected_va": "0x1009eb10"
+        }
+      ],
+      "source_object": "build/cp32-entity-expand/game_entity.obj",
+      "accepted_overlap": 0,
+      "original_sha256": "8877e7a2cde8f57b9f00226e7ccf5761ea3882e6e2540d58451233bf370b1597",
+      "original_absolute_sites": [
+        11,
+        29,
+        55,
+        101
+      ],
+      "coff_absolute_sites": [
+        11,
+        29,
+        55,
+        101
+      ],
+      "absolute_sites_agree": true
+    },
+    {
+      "name": "?Get2DDistanceFromLocalPlayerPed@CEntity@@QAEMXZ",
+      "rva": "0x9f1f0",
+      "size": 180,
+      "resolved_exact": true,
+      "fixups": [
+        {
+          "name": "?pGame@@3PAVCGame@@A",
+          "offset": 11,
+          "kind": 6,
+          "expected_va": "0x1026ebac"
+        },
+        {
+          "name": "?FindPlayerPed@CGame@@QAEPAVCPlayerPed@@XZ",
+          "offset": 17,
+          "kind": 20,
+          "expected_va": "0x10001010"
+        },
+        {
+          "name": "__real@461c4000",
+          "offset": 29,
+          "kind": 6,
+          "expected_va": "0x100ec54c"
+        },
+        {
+          "name": "?GetMatrix@CEntity@@QAEXPAU_MATRIX4X4@@@Z",
+          "offset": 50,
+          "kind": 20,
+          "expected_va": "0x1009eb10"
+        },
+        {
+          "name": "?pNetGame@@3PAVCNetGame@@A",
+          "offset": 55,
+          "kind": 6,
+          "expected_va": "0x1026eb94"
+        },
+        {
+          "name": "?pGame@@3PAVCGame@@A",
+          "offset": 101,
+          "kind": 6,
+          "expected_va": "0x1026ebac"
+        },
+        {
+          "name": "?GetMatrix@CCamera@@QAEXPAU_MATRIX4X4@@@Z",
+          "offset": 114,
+          "kind": 20,
+          "expected_va": "0x1009d460"
+        },
+        {
+          "name": "?GetMatrix@CEntity@@QAEXPAU_MATRIX4X4@@@Z",
+          "offset": 135,
+          "kind": 20,
+          "expected_va": "0x1009eb10"
+        }
+      ],
+      "source_object": "build/cp32-entity-expand/game_entity.obj",
+      "accepted_overlap": 0,
+      "original_sha256": "28e8700c3a4ab4d84d0800e0ea56aaf0bb736cfc14f0a04f80efaccc452cf9f6",
+      "original_absolute_sites": [
+        11,
+        29,
+        55,
+        101
+      ],
+      "coff_absolute_sites": [
+        11,
+        29,
+        55,
+        101
+      ],
+      "absolute_sites_agree": true
+    }
+  ],
+  "fallback": {
+    "rva": "0xEC54C",
+    "value": 100000.0,
+    "size": 4
+  },
+  "correction": "Historical object uses __real@461c4000 =10000.0f, while mapped original EC54C stores100000.0f. Code-only relocation resolution was insufficient: source literal provider content does not match. Root corrects both returns and recompiles TU. No379 accepted from this historical evidence."
+}
