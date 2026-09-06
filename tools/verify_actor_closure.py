@@ -150,30 +150,38 @@ class Gate:
         return dict(unit=r['unit'],anchor=r['anchor'],section=r['section'],parent=funcs[0]['name'],selected_owner=owner,parent_linked_va=entries[0][0])
 
     def bind_crt_initializer(self,r):
-        """Locate one compiler initializer slot inside the pinned CRT array only."""
+        """Locate a whole compiler initializer block inside the pinned CRT array."""
         obj=self.objects[r['unit']];sec=obj.sections[r['section']-1]
         if sec['name']!='.CRT$XCU':return False
-        need(r['accepted'] and r['kind']=='data' and r['offset']==0 and r['size']==sec['size']==4 and not sec['uninitialized'],'invalid complete CRT initializer section')
-        fixes=relocs(obj,r['section'])
-        need(len(fixes)==1 and fixes[0]['offset']==0 and fixes[0]['kind']==6 and u32(sec['bytes'],0)==0,'invalid CRT initializer relocation')
-        target,offset=self.provider(r['unit'],fixes[0]['symbol'])
-        need(not isinstance(target,str) and target['unit']==r['unit'] and target['accepted'] and target['kind']=='code' and offset==0,'CRT initializer lacks a complete local provider')
-        need(r['rva'] in self.reference.relocations and u32(self.reference.read(r['rva'],4),0)==self.reference.base+target['rva'],'wrong original CRT initializer target or relocation')
-        if 'linked_va' not in target:return False
+        size=r['size']
+        need(r['accepted'] and r['kind']=='data' and r['offset']==0 and size==sec['size'] and size>0 and size%4==0 and r['rva']%4==0 and not sec['uninitialized'],'invalid complete CRT initializer section')
+        fixes=sorted(relocs(obj,r['section']),key=lambda f:f['offset'])
+        offsets=list(range(0,size,4))
+        need([f['offset'] for f in fixes]==offsets and all(f['kind']==6 and u32(sec['bytes'],f['offset'])==0 for f in fixes),'invalid CRT initializer relocation')
+        targets=[]
+        for f in fixes:
+            target,offset=self.provider(r['unit'],f['symbol'])
+            need(not isinstance(target,str) and target['unit']==r['unit'] and target['accepted'] and target['kind']=='code' and offset==0,'CRT initializer lacks a complete local provider')
+            need(u32(self.reference.read(r['rva']+f['offset'],4),0)==self.reference.base+target['rva'],'wrong original CRT initializer target or relocation')
+            targets.append(target)
+        need({a-r['rva'] for a in self.reference.relocations if r['rva']<=a<r['rva']+size}==set(offsets),'wrong original CRT initializer target or relocation')
+        if any('linked_va' not in target for target in targets):return False
         bounds=[]
         for name in ('___xc_a','___xc_z'):
             hits=self.maps.get(name,[])
             need(len(hits)==1 and hits[0][1].upper()=='LIBCMT:CRT0INIT.OBJ','invalid pinned CRT sentinel owner')
             bounds.append(hits[0][0]-self.linked.base)
         begin,end=bounds
-        need(begin%4==0 and end%4==0 and begin+4<end,'invalid CRT initializer bounds')
+        need(begin%4==0 and end%4==0 and begin+size<end,'invalid CRT initializer bounds')
         containers=[x for x in self.linked.sections if x['rva']<=begin and end+4<=x['rva']+x['size']]
         need(len(containers)==1 and self.linked.read(begin,4)==bytes(4) and self.linked.read(end,4)==bytes(4),'invalid CRT sentinel section or contents')
-        hits=[a for a in range(begin+4,end,4) if u32(self.linked.read(a,4),0)==target['linked_va']]
-        need(len(hits)==1,'missing or ambiguous CRT initializer slot')
-        need(hits[0] in self.linked.relocations,'missing linked CRT initializer PE relocation')
+        expected=b''.join(struct.pack('<I',target['linked_va']) for target in targets)
+        hits=[a for a in range(begin+4,end-size+1,4) if self.linked.read(a,size)==expected]
+        need(len(hits)==1,'missing or ambiguous CRT initializer slot block')
+        need({a-hits[0] for a in self.linked.relocations if hits[0]<=a<hits[0]+size}==set(offsets),'missing linked CRT initializer PE relocation')
         self.locate(r,self.linked.base+hits[0])
-        proof=dict(unit=r['unit'],section=r['section'],original_rva=r['rva'],linked_rva=hits[0],size=4,provider=target['anchor'],provider_linked_va=target['linked_va'],sentinels=bounds,owner='LIBCMT:crt0init.obj')
+        proof=dict(unit=r['unit'],section=r['section'],original_rva=r['rva'],linked_rva=hits[0],size=size,providers=[dict(offset=off,provider=target['anchor'],provider_linked_va=target['linked_va']) for off,target in zip(offsets,targets)],sentinels=bounds,owner='LIBCMT:crt0init.obj')
+        if len(targets)==1:proof.update(provider=targets[0]['anchor'],provider_linked_va=targets[0]['linked_va'])
         if proof not in self.crt_initializer_bindings:self.crt_initializer_bindings.append(proof)
         return True
 

@@ -1,0 +1,84 @@
+{
+  "status": "PASS_REAL_GATE_TWO_POSITIVE_EIGHT_NEGATIVE_CONTROLS",
+  "run": "cp32-replica-navigation-linked3",
+  "contract": "config/checkpoint32/replica-navigation-contract.json",
+  "controls": [
+    {
+      "name": "actual_positive8",
+      "result": "PASS",
+      "proof": {
+        "unit": "closure_vendor_network_id_generator",
+        "section": 108,
+        "original_rva": 1040392,
+        "linked_rva": 663572,
+        "size": 8,
+        "providers": [
+          {
+            "offset": 0,
+            "provider": "_$E5",
+            "provider_linked_va": 268875408
+          },
+          {
+            "offset": 4,
+            "provider": "_$E8",
+            "provider_linked_va": 268875440
+          }
+        ],
+        "sentinels": [
+          663552,
+          663580
+        ],
+        "owner": "LIBCMT:crt0init.obj"
+      }
+    },
+    {
+      "name": "actual_positive4",
+      "result": "PASS"
+    },
+    {
+      "name": "wrong_second_linked_pointer",
+      "result": "REJECTED_AS_REQUIRED",
+      "reason": "missing or ambiguous CRT initializer slot block"
+    },
+    {
+      "name": "missing_second_linked_relocation",
+      "result": "REJECTED_AS_REQUIRED",
+      "reason": "missing linked CRT initializer PE relocation"
+    },
+    {
+      "name": "reversed_linked_sequence",
+      "result": "REJECTED_AS_REQUIRED",
+      "reason": "missing or ambiguous CRT initializer slot block"
+    },
+    {
+      "name": "duplicate_complete_block",
+      "result": "REJECTED_AS_REQUIRED",
+      "reason": "missing or ambiguous CRT initializer slot block"
+    },
+    {
+      "name": "false_sentinel_bound",
+      "result": "REJECTED_AS_REQUIRED",
+      "reason": "invalid CRT initializer bounds"
+    },
+    {
+      "name": "second_provider_not_local",
+      "result": "REJECTED_AS_REQUIRED",
+      "reason": "CRT initializer lacks a complete local provider"
+    },
+    {
+      "name": "wrong_second_original_pointer",
+      "result": "REJECTED_AS_REQUIRED",
+      "reason": "wrong original CRT initializer target or relocation"
+    },
+    {
+      "name": "missing_second_original_relocation",
+      "result": "REJECTED_AS_REQUIRED",
+      "reason": "wrong original CRT initializer target or relocation"
+    }
+  ],
+  "mutation_scope": "Copied gate state and in-memory PE read overlays only; no source, contract, object, DLL or MAP writes.",
+  "new_credit": 0,
+  "verifier_sha256": "5b85451f488961399af5c12ff5b12e08b0e87ffec77d15161ea231c287d67ddf",
+  "test_sha256": "a178b75fdde71dc53d5cabfff86bc48fbcfc8909975f7ccd0002e5de703d24f5",
+  "linked_sha256": "adc4a06de500ef8d89fdf92b414fc16d8a1a2391899409744586f79822ce8721"
+}

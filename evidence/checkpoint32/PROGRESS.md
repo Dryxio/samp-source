@@ -1466,3 +1466,8 @@ Direct02541/cumulative21988: FilterInvalidChars41 has actual missing source in02
 ConnectionGraph accepted: +10510 unique code bytes, total 334455/930756 (35.933693%). Whole functions and attached data/EH, all COFF/PE targets, genuine providers and whole state, ten controls and Actor ABI pass. ConnectionGraph and actual AllocPacket32, all101 former node_identity regions conserved, graph_algorithms57 intact with four physical shared copies exact. No data, duplicate or CRT code credited.
 
 Direct0250/cumulative21988: full vendor source supplies the new code. 161314 new unique bytes since parallel start, 13998.4 bytes/hour coordination/failures included. Parked IME message/reading bodies excluded. Goal active; no push/deploy.
+
+
+Replica/NetworkID and chat navigation accepted: +12131 unique code bytes, total 346586/930756 (37.237042%). All complete functions and attached data/EH, actual COFF/PE targets, owner transfer35 unchanged, true aliases, ten inherited controls and Actor ABI pass. CRT binder now validates entire aligned initializer blocks without splitting source data; two positive cases8/4, eight new fault cases and five old scalar faults pass. Navigation helper distinct name fixes a real COMDAT conflict without forcing a wrong target. No duplicate, data, CRT or unimplemented callback code counted.
+
+Direct0250/cumulative21988. 173445 new unique bytes since parallel start, 14366.8 bytes/hour coordination/failures included. TCP and font helper candidates under review. Goal active; no push/deploy.

@@ -1,0 +1,472 @@
+{
+  "status": "PASS_REPLICA_GENERATOR_FULL_OWNERSHIP_AND_CALLBACK_ABI",
+  "baseline": 334455,
+  "new_unique": 11791,
+  "source025_direct_bytes": 0,
+  "layouts": {
+    "NetworkIDGenerator": {
+      "sizeof": 17,
+      "vptr": 0,
+      "networkID": 4,
+      "parent": 12,
+      "callGenerationCode": 16
+    },
+    "Replica": {
+      "sizeof": 17,
+      "base_at": 0,
+      "own_fields": 0
+    },
+    "ReplicaManager": {
+      "sizeof": 48,
+      "vptr": 0,
+      "replicatedObjects": 4,
+      "participantList": 16,
+      "constructionCB": 28,
+      "sendDownloadCompleteCB": 32,
+      "receiveDownloadCompleteCB": 36,
+      "sendChannel": 40,
+      "autoParticipateNewConnections": 41,
+      "defaultScope": 42,
+      "autoConstructToNewParticipants": 43,
+      "rakPeer": 44
+    },
+    "CommandStruct": {
+      "sizeof": 5,
+      "replica": 0,
+      "command": 4
+    },
+    "RegisteredReplica": {
+      "sizeof": 9,
+      "replica": 0,
+      "lastDeserializeTrue": 4,
+      "allowedInterfaces": 8
+    },
+    "RemoteObject": {
+      "sizeof": 9,
+      "replica": 0,
+      "inScope": 4,
+      "lastSendTime": 5
+    },
+    "ReceivedCommand": {
+      "sizeof": 26,
+      "playerId": 0,
+      "networkID": 6,
+      "command": 14,
+      "u1": 18,
+      "userData": 22
+    },
+    "ParticipantStruct": {
+      "sizeof": 47,
+      "playerId": 0,
+      "callDownloadCompleteCB": 6,
+      "commandList": 7,
+      "remoteObjectList": 19,
+      "pendingCommands": 31
+    }
+  },
+  "real_allocations": [
+    {
+      "function": "?AddParticipant@ReplicaManager@@QAEXUPlayerID@@@Z",
+      "site_rva": 314147,
+      "size": 47
+    },
+    {
+      "function": "?OnReceive@ReplicaManager@@MAE?AW4PluginReceiveResult@@PAVRakPeerInterface@@PAUPacket@@@Z",
+      "site_rva": 315228,
+      "size": 26
+    }
+  ],
+  "ownership": "ParticipantStruct47, ReceivedCommand26, complete RakNet::BitStream and real template arrays. Replica* objects are caller owned, never allocated/deleted by this manager.",
+  "dynamic_call_sites": [
+    {
+      "function": "?ProcessReceivedCommand@ReplicaManager@@IAE?AW4ReplicaReturnResult@@PAUParticipantStruct@1@PAUReceivedCommand@1@@Z",
+      "site_rva": 308576,
+      "identity": "Replica::Deserialize",
+      "external_implementation_credit": 0
+    },
+    {
+      "function": "?ProcessReceivedCommand@ReplicaManager@@IAE?AW4ReplicaReturnResult@@PAUParticipantStruct@1@PAUReceivedCommand@1@@Z",
+      "site_rva": 308667,
+      "identity": "Manager construction callback field28",
+      "external_implementation_credit": 0
+    },
+    {
+      "function": "?ProcessReceivedCommand@ReplicaManager@@IAE?AW4ReplicaReturnResult@@PAUParticipantStruct@1@PAUReceivedCommand@1@@Z",
+      "site_rva": 308740,
+      "identity": "Replica::ReceiveScopeChange",
+      "external_implementation_credit": 0
+    },
+    {
+      "function": "?ProcessReceivedCommand@ReplicaManager@@IAE?AW4ReplicaReturnResult@@PAUParticipantStruct@1@PAUReceivedCommand@1@@Z",
+      "site_rva": 308810,
+      "identity": "Replica::ReceiveDestruction",
+      "external_implementation_credit": 0
+    },
+    {
+      "function": "?ProcessReceivedCommand@ReplicaManager@@IAE?AW4ReplicaReturnResult@@PAUParticipantStruct@1@PAUReceivedCommand@1@@Z",
+      "site_rva": 308865,
+      "identity": "Manager receiveDownloadComplete callback field36",
+      "external_implementation_credit": 0
+    },
+    {
+      "function": "?Destruct@ReplicaManager@@QAEXPAVReplica@@UPlayerID@@_N@Z",
+      "site_rva": 309935,
+      "identity": "NetworkIDGenerator::GetNetworkID virtual",
+      "external_implementation_credit": 0
+    },
+    {
+      "function": "?Destruct@ReplicaManager@@QAEXPAVReplica@@UPlayerID@@_N@Z",
+      "site_rva": 310018,
+      "identity": "NetworkIDGenerator::GetNetworkID virtual",
+      "external_implementation_credit": 0
+    },
+    {
+      "function": "?Destruct@ReplicaManager@@QAEXPAVReplica@@UPlayerID@@_N@Z",
+      "site_rva": 310065,
+      "identity": "Replica::SendDestruction",
+      "external_implementation_credit": 0
+    },
+    {
+      "function": "?Destruct@ReplicaManager@@QAEXPAVReplica@@UPlayerID@@_N@Z",
+      "site_rva": 310121,
+      "identity": "RakPeerInterface::Send(BitStream)",
+      "external_implementation_credit": 0
+    },
+    {
+      "function": "?Update@ReplicaManager@@MAEXPAVRakPeerInterface@@@Z",
+      "site_rva": 311660,
+      "identity": "Replica::SendConstruction",
+      "external_implementation_credit": 0
+    },
+    {
+      "function": "?Update@ReplicaManager@@MAEXPAVRakPeerInterface@@@Z",
+      "site_rva": 311783,
+      "identity": "NetworkIDGenerator::GetNetworkID virtual",
+      "external_implementation_credit": 0
+    },
+    {
+      "function": "?Update@ReplicaManager@@MAEXPAVRakPeerInterface@@@Z",
+      "site_rva": 311821,
+      "identity": "NetworkIDGenerator::GetNetworkID virtual",
+      "external_implementation_credit": 0
+    },
+    {
+      "function": "?Update@ReplicaManager@@MAEXPAVRakPeerInterface@@@Z",
+      "site_rva": 311929,
+      "identity": "RakPeerInterface::Send(BitStream)",
+      "external_implementation_credit": 0
+    },
+    {
+      "function": "?Update@ReplicaManager@@MAEXPAVRakPeerInterface@@@Z",
+      "site_rva": 312222,
+      "identity": "Manager sendDownloadComplete callback field32",
+      "external_implementation_credit": 0
+    },
+    {
+      "function": "?Update@ReplicaManager@@MAEXPAVRakPeerInterface@@@Z",
+      "site_rva": 312350,
+      "identity": "RakPeerInterface::Send(BitStream)",
+      "external_implementation_credit": 0
+    },
+    {
+      "function": "?Update@ReplicaManager@@MAEXPAVRakPeerInterface@@@Z",
+      "site_rva": 312440,
+      "identity": "NetworkIDGenerator::GetNetworkID virtual",
+      "external_implementation_credit": 0
+    },
+    {
+      "function": "?Update@ReplicaManager@@MAEXPAVRakPeerInterface@@@Z",
+      "site_rva": 312577,
+      "identity": "Replica::SendScopeChange",
+      "external_implementation_credit": 0
+    },
+    {
+      "function": "?Update@ReplicaManager@@MAEXPAVRakPeerInterface@@@Z",
+      "site_rva": 312639,
+      "identity": "NetworkIDGenerator::GetNetworkID virtual",
+      "external_implementation_credit": 0
+    },
+    {
+      "function": "?Update@ReplicaManager@@MAEXPAVRakPeerInterface@@@Z",
+      "site_rva": 312740,
+      "identity": "RakPeerInterface::Send(BitStream)",
+      "external_implementation_credit": 0
+    },
+    {
+      "function": "?Update@ReplicaManager@@MAEXPAVRakPeerInterface@@@Z",
+      "site_rva": 312920,
+      "identity": "NetworkIDGenerator::GetNetworkID virtual",
+      "external_implementation_credit": 0
+    },
+    {
+      "function": "?Update@ReplicaManager@@MAEXPAVRakPeerInterface@@@Z",
+      "site_rva": 313093,
+      "identity": "Replica::Serialize",
+      "external_implementation_credit": 0
+    },
+    {
+      "function": "?Update@ReplicaManager@@MAEXPAVRakPeerInterface@@@Z",
+      "site_rva": 313247,
+      "identity": "NetworkIDGenerator::GetNetworkID virtual",
+      "external_implementation_credit": 0
+    },
+    {
+      "function": "?Update@ReplicaManager@@MAEXPAVRakPeerInterface@@@Z",
+      "site_rva": 313436,
+      "identity": "RakPeerInterface::Send(BitStream)",
+      "external_implementation_credit": 0
+    },
+    {
+      "function": "?OnReceive@ReplicaManager@@MAE?AW4PluginReceiveResult@@PAVRakPeerInterface@@PAUPacket@@@Z",
+      "site_rva": 314931,
+      "identity": "ReplicaManager::OnCloseConnection own virtual",
+      "external_implementation_credit": 0
+    },
+    {
+      "function": "?GET_OBJECT_FROM_ID@NetworkIDGenerator@@SAPAXUNetworkID@@@Z",
+      "site_rva": 209453,
+      "identity": "NetworkIDGenerator::GetParent virtual",
+      "external_implementation_credit": 0
+    },
+    {
+      "function": "?GetNetworkID@NetworkIDGenerator@@UAE?AUNetworkID@@XZ",
+      "site_rva": 210492,
+      "identity": "NetworkIDGenerator::IsNetworkIDAuthority pure virtual",
+      "external_implementation_credit": 0
+    }
+  ],
+  "vfts": [
+    {
+      "symbol": "??_7ReplicaManager@@6B@",
+      "rva": 955080,
+      "size": 40,
+      "slots": [
+        304144,
+        212864,
+        212880,
+        311328,
+        314736,
+        314720,
+        315600,
+        212960,
+        212976,
+        212992
+      ]
+    },
+    {
+      "symbol": "??_7NetworkIDGenerator@@6B@",
+      "rva": 946532,
+      "size": 28,
+      "slots": [
+        210448,
+        210480,
+        210064,
+        207520,
+        207536,
+        819163,
+        207504
+      ]
+    }
+  ],
+  "static_initialization": {
+    "BSS_rva": 1149844,
+    "BSS_size": 28,
+    "staticItemID_offset": 0,
+    "externalPlayerId_offset": 4,
+    "IDTree_offset": 12,
+    "initializers": [
+      {
+        "rva": 934512,
+        "size": 22,
+        "meaning": "Real AVL constructor + atexit registration of real destructor10"
+      },
+      {
+        "rva": 934544,
+        "size": 25,
+        "meaning": "Copy real header PlayerID sentinel6 into externalPlayerId"
+      }
+    ],
+    "registered_destructor": {
+      "rva": 934688,
+      "size": 10,
+      "target_rva": 209024
+    },
+    "CRT_whole": {
+      "rva": 1040392,
+      "size": 8,
+      "targets": [
+        934512,
+        934544
+      ],
+      "all_PE_relocations_verified": true
+    },
+    "limitation": "Whole8 source initializer table requires ordinary full-section final binding. Never count BSS alone as initialized object."
+  },
+  "accepted_providers_checked": [
+    {
+      "symbol": "??ONetworkID@@QBE_NABU0@@Z",
+      "rva": 211200,
+      "owner": "closure_vendor_network_id_comparisons"
+    },
+    {
+      "symbol": "??MNetworkID@@QBE_NABU0@@Z",
+      "rva": 211296,
+      "owner": "closure_vendor_network_id_comparisons"
+    },
+    {
+      "symbol": "??8NetworkID@@QBE_NABU0@@Z",
+      "rva": 211040,
+      "owner": "closure_vendor_network_id_comparisons"
+    },
+    {
+      "symbol": "??4NetworkID@@QAEAAU0@ABU0@@Z",
+      "rva": 211008,
+      "owner": "closure_vendor_network_id_comparisons"
+    },
+    {
+      "symbol": "??1BitStream@RakNet@@QAE@XZ",
+      "rva": 129232,
+      "owner": "closure_cmd_bitstream"
+    },
+    {
+      "symbol": "??MPlayerID@@QBE_NABU0@@Z",
+      "rva": 210800,
+      "owner": "closure_vendor_network_id_comparisons"
+    },
+    {
+      "symbol": "??8PlayerID@@QBE_NABU0@@Z",
+      "rva": 210656,
+      "owner": "closure_vendor_network_id_comparisons"
+    },
+    {
+      "symbol": "??0BitStream@RakNet@@QAE@PAEI_N@Z",
+      "rva": 128960,
+      "owner": "closure_cmd_bitstream"
+    },
+    {
+      "symbol": "?SetWriteOffset@BitStream@RakNet@@QAEXH@Z",
+      "rva": 130304,
+      "owner": "closure_cmd_bitstream"
+    },
+    {
+      "symbol": "?IgnoreBits@BitStream@RakNet@@QAEXH@Z",
+      "rva": 130288,
+      "owner": "closure_cmd_bitstream"
+    },
+    {
+      "symbol": "?ReadBits@BitStream@RakNet@@QAE_NPAEH_N@Z",
+      "rva": 129456,
+      "owner": "closure_cmd_bitstream"
+    },
+    {
+      "symbol": "??0BitStream@RakNet@@QAE@XZ",
+      "rva": 128816,
+      "owner": "closure_cmd_bitstream"
+    },
+    {
+      "symbol": "?Write@BitStream@RakNet@@QAEXPAV12@H@Z",
+      "rva": 130496,
+      "owner": "closure_cmd_bitstream"
+    },
+    {
+      "symbol": "?GetTime@RakNet@@YAIXZ",
+      "rva": 190448,
+      "owner": "closure_raknet_time"
+    },
+    {
+      "symbol": "??9PlayerID@@QBE_NABU0@@Z",
+      "rva": 210704,
+      "owner": "closure_vendor_network_id_comparisons"
+    },
+    {
+      "symbol": "?Reset@BitStream@RakNet@@QAEXXZ",
+      "rva": 129264,
+      "owner": "closure_cmd_bitstream"
+    },
+    {
+      "symbol": "?WriteBits@BitStream@RakNet@@QAEXPBEH_N@Z",
+      "rva": 131040,
+      "owner": "closure_cmd_bitstream"
+    },
+    {
+      "symbol": "?Write1@BitStream@RakNet@@QAEXXZ",
+      "rva": 130864,
+      "owner": "closure_cmd_bitstream"
+    },
+    {
+      "symbol": "?Write0@BitStream@RakNet@@QAEXXZ",
+      "rva": 130832,
+      "owner": "closure_cmd_bitstream"
+    },
+    {
+      "symbol": "?OnDetach@PluginInterface@@UAEXPAVRakPeerInterface@@@Z",
+      "rva": 212864,
+      "owner": "closure_vendor_plugin_interface"
+    },
+    {
+      "symbol": "?OnInitialize@PluginInterface@@UAEXPAVRakPeerInterface@@@Z",
+      "rva": 212880,
+      "owner": "closure_vendor_plugin_interface"
+    },
+    {
+      "symbol": "?OnDirectSocketSend@PluginInterface@@UAEXPBDIUPlayerID@@@Z",
+      "rva": 212960,
+      "owner": "closure_vendor_plugin_interface"
+    },
+    {
+      "symbol": "?OnDirectSocketReceive@PluginInterface@@UAEXPBDIUPlayerID@@@Z",
+      "rva": 212976,
+      "owner": "closure_vendor_plugin_interface"
+    },
+    {
+      "symbol": "?OnInternalPacket@PluginInterface@@UAEXPAUInternalPacket@@IUPlayerID@@I_N@Z",
+      "rva": 212992,
+      "owner": "closure_vendor_plugin_interface"
+    }
+  ],
+  "compiler_aliases": {
+    "closure_vendor_network_id_generator": {
+      "??_ENetworkIDGenerator@@UAEPAXI@Z": "??_GNetworkIDGenerator@@UAEPAXI@Z",
+      "??_E?$BinarySearchTree@UNetworkIDNode@@@DataStructures@@UAEPAXI@Z": "??_G?$BinarySearchTree@UNetworkIDNode@@@DataStructures@@UAEPAXI@Z",
+      "??_E?$AVLBalancedBinarySearchTree@UNetworkIDNode@@@DataStructures@@UAEPAXI@Z": "??_G?$AVLBalancedBinarySearchTree@UNetworkIDNode@@@DataStructures@@UAEPAXI@Z"
+    },
+    "closure_vendor_replica_manager": {}
+  },
+  "source_snapshots": [
+    {
+      "path": "client/saco/closure_vendor_replica_manager.cpp",
+      "snapshot": "build/cp32-replica-navigation-trial1/client/saco/closure_vendor_replica_manager.cpp",
+      "sha256": "5b58a2ff071818b8565c35a0eb6e0ce3f487e97ddfd2359823c3be408158c49c"
+    },
+    {
+      "path": "vendor/upstream/raknet/ReplicaManager.cpp",
+      "snapshot": "build/cp32-replica-navigation-trial1/vendor/upstream/raknet/ReplicaManager.cpp",
+      "sha256": "c8fd610f5f0606bb5463768ecb405c900fc09bc713831453910599283254a4ec"
+    },
+    {
+      "path": "vendor/upstream/raknet/ReplicaManager.h",
+      "snapshot": "build/cp32-replica-navigation-trial1/vendor/upstream/raknet/ReplicaManager.h",
+      "sha256": "daf3a72ff4eae8c4c5d3f88ee0bdcf53de494294fb8fef7abcc5ad6407af1469"
+    },
+    {
+      "path": "client/saco/closure_vendor_network_id_generator.cpp",
+      "snapshot": "build/cp32-replica-navigation-trial1/client/saco/closure_vendor_network_id_generator.cpp",
+      "sha256": "e9cd90fcea9017805d02ee2afcbaa43b74984e2f952c0e0e2fa33c57c3aee046"
+    },
+    {
+      "path": "vendor/upstream/raknet/NetworkIDGenerator.cpp",
+      "snapshot": "build/cp32-replica-navigation-trial1/vendor/upstream/raknet/NetworkIDGenerator.cpp",
+      "sha256": "26df92c85d63fa8591b91f57a2c6656de7083dc9ce4fe8b5caf420ad0ba5bb7b"
+    },
+    {
+      "path": "vendor/upstream/raknet/NetworkIDGenerator.h",
+      "snapshot": "build/cp32-replica-navigation-trial1/vendor/upstream/raknet/NetworkIDGenerator.h",
+      "sha256": "a39907e98febde1edca0bfa97630ee69a86fa4f364f29cbc9a1ae187b9c7b40b"
+    }
+  ],
+  "original_capture": {
+    "path": "build/agent-independent/replica-network-id-original-scope.asm",
+    "sha256": "3ae7be8d893371f2625e58f57f7887f581b269890ef6aa77cb6ffa4150ab98ce"
+  },
+  "excluded": "GetReplicaCount8/GetStaticNetworkID7 homologues without real incoming call identity not seeded. Pure virtual authority and user Replica callbacks receive no concrete implementation credit. Original source controls uninitialized state; no dummy allocations/vtables."
+}

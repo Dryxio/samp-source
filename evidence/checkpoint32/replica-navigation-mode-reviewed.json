@@ -1,0 +1,32 @@
+{
+  "status": "PASS_TRUE_NETWORK_ID_MODE_GETTER",
+  "run": "build/cp32-network-id-mode-trial1",
+  "seeds": {
+    "closure_vendor_network_id_mode": {
+      "?IsPeerToPeerMode@NetworkID@@SA_NXZ": 211392
+    }
+  },
+  "regions": [
+    {
+      "unit": "closure_vendor_network_id_mode",
+      "section": 3,
+      "rva": 211392,
+      "size": 6,
+      "kind": ".text",
+      "sha256": "c4212fe94ceca080a8d3d88586cc79e074641c492508cfeab9c81e9c30872ccf",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "?peerToPeerMode@NetworkID@@2_NA",
+          "site_rva": 211393,
+          "target_va": 269585344,
+          "kind": 6
+        }
+      ]
+    }
+  ],
+  "new_unique_code": 6,
+  "source025_direct": 0,
+  "source_sha256": "e0ee9e29ef99fc4a6e604b9b9e5aaac1e686dfcc6d5b5edc880de135b17cf1b0",
+  "object_sha256": "71ff44639a1c15486a5c55cec708e7a0bc6082be06f8d120683f316d10b027b1"
+}

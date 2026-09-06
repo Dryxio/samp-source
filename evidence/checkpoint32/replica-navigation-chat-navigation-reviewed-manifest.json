@@ -1,0 +1,248 @@
+{
+  "status": "FULL_OBJECT_PREFLIGHT_ACTUAL_LINK_ALIAS_PENDING",
+  "run": "cp32-chat-navigation-distinct-trial1",
+  "baseline": 334455,
+  "code_bytes": 259,
+  "new_unique_code": 259,
+  "EH": 0,
+  "data_bytes": 0,
+  "direct025_code_credit": 0,
+  "regions": [
+    {
+      "unit": "closure_chat_ime_interaction",
+      "anchor": "?IsActive@R5ImeInteractionView@@SA_NXZ",
+      "rva": 549856,
+      "size": 42,
+      "section": 46,
+      "kind": "code",
+      "object_sha256": "096703f05733878eb986a2f44a6f9a09b57eac0473fa20237390bef24bc48515",
+      "sha256": "cd1016dd256c6fdc84b07181eb758184ad5f093be597262e16d3c86a611cdb85",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "?r5ImeCandidateState@@3UR5ImeCandidateListState@@A",
+          "site_rva": 549857,
+          "symbol_va": 269756336,
+          "addend": 5163,
+          "target_va": 269761499,
+          "kind": 6
+        },
+        {
+          "symbol": "_r5ImeShowReadingWindowImport",
+          "site_rva": 549869,
+          "symbol_va": 269752326,
+          "addend": 0,
+          "target_va": 269752326,
+          "kind": 6
+        },
+        {
+          "symbol": "__imp__GetTickCount@0",
+          "site_rva": 549879,
+          "symbol_va": 269374008,
+          "addend": 0,
+          "target_va": 269374008,
+          "kind": 6
+        },
+        {
+          "symbol": "?dwImeWaitTick@@3KA",
+          "site_rva": 549885,
+          "symbol_va": 269752328,
+          "addend": 0,
+          "target_va": 269752328,
+          "kind": 6
+        }
+      ]
+    },
+    {
+      "unit": "closure_chat_ime_interaction",
+      "anchor": "?IsImeInteractionActive@R5ChatInputQueryView@@QAE_NXZ",
+      "rva": 432144,
+      "size": 15,
+      "section": 48,
+      "kind": "code",
+      "object_sha256": "096703f05733878eb986a2f44a6f9a09b57eac0473fa20237390bef24bc48515",
+      "sha256": "4941e634888b07b62496c2aaee707321368c60420826a2b6e731498535ade0d6",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "?IsActive@R5ImeInteractionView@@SA_NXZ",
+          "site_rva": 432152,
+          "symbol_va": 268985312,
+          "addend": 0,
+          "target_va": 268985312,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "closure_chat_page_navigation",
+      "anchor": "?PageUp@R5ChatPageNavigationView@@QAEXXZ",
+      "rva": 422608,
+      "size": 82,
+      "section": 50,
+      "kind": "code",
+      "object_sha256": "87f1237534c608a72887a0ee893950e9d3fa896b0df14c351e01efaf76b53826",
+      "sha256": "33d6e09aa5457dd065da792fd6ee1d551dfafb5c8fbf863ad49b4033ea90b713",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "?pGame@@3PAVCGame@@A",
+          "site_rva": 422630,
+          "symbol_va": 270986156,
+          "addend": 0,
+          "target_va": 270986156,
+          "kind": 6
+        },
+        {
+          "symbol": "?IsMenuActive@R5ChatGameMenuView@@QAEHXZ",
+          "site_rva": 422635,
+          "symbol_va": 269093152,
+          "addend": 0,
+          "target_va": 269093152,
+          "kind": 20
+        },
+        {
+          "symbol": "?pCmdWindow@@3PAVCCmdWindow@@A",
+          "site_rva": 422645,
+          "symbol_va": 270986116,
+          "addend": 0,
+          "target_va": 270986116,
+          "kind": 6
+        },
+        {
+          "symbol": "?IsImeInteractionActive@R5ChatInputQueryView@@QAE_NXZ",
+          "site_rva": 422650,
+          "symbol_va": 268867600,
+          "addend": 0,
+          "target_va": 268867600,
+          "kind": 20
+        },
+        {
+          "symbol": "?R5SetTrackPos@R5ChatScrollBarNavigationView@@QAEXH@Z",
+          "site_rva": 422684,
+          "symbol_va": 268857568,
+          "addend": 0,
+          "target_va": 268857568,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "closure_chat_page_navigation",
+      "anchor": "?PageDown@R5ChatPageNavigationView@@QAEXXZ",
+      "rva": 422704,
+      "size": 91,
+      "section": 52,
+      "kind": "code",
+      "object_sha256": "87f1237534c608a72887a0ee893950e9d3fa896b0df14c351e01efaf76b53826",
+      "sha256": "2c5fea26aec8d330e0661eade996e63aa945748ebac4cd023f78ce1e2f15a5bc",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "?pGame@@3PAVCGame@@A",
+          "site_rva": 422726,
+          "symbol_va": 270986156,
+          "addend": 0,
+          "target_va": 270986156,
+          "kind": 6
+        },
+        {
+          "symbol": "?IsMenuActive@R5ChatGameMenuView@@QAEHXZ",
+          "site_rva": 422731,
+          "symbol_va": 269093152,
+          "addend": 0,
+          "target_va": 269093152,
+          "kind": 20
+        },
+        {
+          "symbol": "?pCmdWindow@@3PAVCCmdWindow@@A",
+          "site_rva": 422741,
+          "symbol_va": 270986116,
+          "addend": 0,
+          "target_va": 270986116,
+          "kind": 6
+        },
+        {
+          "symbol": "?IsImeInteractionActive@R5ChatInputQueryView@@QAE_NXZ",
+          "site_rva": 422746,
+          "symbol_va": 268867600,
+          "addend": 0,
+          "target_va": 268867600,
+          "kind": 20
+        },
+        {
+          "symbol": "?R5SetTrackPos@R5ChatScrollBarNavigationView@@QAEXH@Z",
+          "site_rva": 422789,
+          "symbol_va": 268857568,
+          "addend": 0,
+          "target_va": 268857568,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "closure_chat_page_navigation",
+      "anchor": "?R5SetTrackPos@R5ChatScrollBarNavigationView@@QAEXH@Z",
+      "rva": 422112,
+      "size": 29,
+      "section": 48,
+      "kind": "code",
+      "object_sha256": "87f1237534c608a72887a0ee893950e9d3fa896b0df14c351e01efaf76b53826",
+      "sha256": "7c15efb8acdf4de4790be3994e4fa1209698c0ec24e57dbc96928408d5688dfc",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "?Cap@CDXUTScrollBar@@IAEXXZ",
+          "site_rva": 422126,
+          "symbol_va": 268981248,
+          "addend": 0,
+          "target_va": 268981248,
+          "kind": 20
+        },
+        {
+          "symbol": "?UpdateThumbRect@CDXUTScrollBar@@IAEXXZ",
+          "site_rva": 422133,
+          "symbol_va": 268981024,
+          "addend": 0,
+          "target_va": 268981024,
+          "kind": 20
+        }
+      ]
+    }
+  ],
+  "new_imports": {},
+  "import_alias": {
+    "_r5ImeShowReadingWindowImport": "?s_bShowReadingWindow@CDXUTIMEEditBox@@1_NA"
+  },
+  "alias_original_va": 269752326,
+  "excluded": [
+    "GetTrackPos7 is inline in navigation; no separate credit.",
+    "SDK SetTrackPos COMDAT23 remains unrelated; navigation owns distinct R5SetTrackPos29."
+  ],
+  "unit_runs": {
+    "closure_chat_ime_interaction": "cp32-replica-navigation-trial1",
+    "closure_chat_page_navigation": "cp32-chat-navigation-distinct-trial1"
+  },
+  "distinct_helper_audit": {
+    "reason": "Actual linked2 selected SDK SetTrackPos23 from closure_gui_widget_lifetime; navigation original29 has different register preservation and relocation offsets.",
+    "sdk_selected_va": 268594368,
+    "sdk_relocations": [
+      11,
+      16
+    ],
+    "original_relocations": [
+      14,
+      21
+    ],
+    "original_rva": 422112,
+    "new_owner_symbol": "?R5SetTrackPos@R5ChatScrollBarNavigationView@@QAEXH@Z",
+    "new_view_definitions": [
+      "?R5SetTrackPos@R5ChatScrollBarNavigationView@@QAEXH@Z"
+    ],
+    "no_view_vft_constructor_destructor_or_storage": true,
+    "view_adds_fields": false,
+    "compile_time_size_equals_real_scrollbar": true,
+    "fields_and_calls": "Inherited actual protected m_nPosition offset8E, Cap85400, UpdateThumbRect85320; no header changes.",
+    "evidence": "build/agent-textdraw/chat-navigation-comdat-conflict.md"
+  }
+}
