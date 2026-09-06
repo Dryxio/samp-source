@@ -1,0 +1,27 @@
+{
+  "closure_vendor_rijndael": {
+    "?mul@@YAEEE@Z": 315632,
+    "?KeyAddition@@YAXQAY03E0E@Z": 315696,
+    "?ShiftRow@@YAXQAY03EEE@Z": 315776,
+    "?Substitution@@YAXQAY03EQAEE@Z": 315888,
+    "?MixColumn@@YAXQAY03EE@Z": 315968,
+    "?InvMixColumn@@YAXQAY03EE@Z": 316256,
+    "?rijndaelKeySched@@YAHQAY03EHQAY133E@Z": 316352,
+    "?rijndaelKeyEnctoDec@@YAHHQAY133E@Z": 316848,
+    "?rijndaelEncrypt@@YAHQAE0QAY133E@Z": 316912,
+    "?rijndaelEncryptRound@@YAHQAY03EQAY133EH@Z": 317872,
+    "?rijndaelDecrypt@@YAHQAE0QAY133E@Z": 318592,
+    "?rijndaelDecryptRound@@YAHQAY03EQAY133EH@Z": 319504,
+    "?makeKey@@YAHPAUkeyInstance@@EHPAD@Z": 319680,
+    "?cipherInit@@YAHPAUcipherInstance@@EPAD@Z": 319968,
+    "?blockEncrypt@@YAHPAUcipherInstance@@PAUkeyInstance@@PAEH2@Z": 320064,
+    "?blockDecrypt@@YAHPAUcipherInstance@@PAUkeyInstance@@PAEH2@Z": 320864,
+    "?cipherUpdateRounds@@YAHPAUcipherInstance@@PAUkeyInstance@@PAEH2H@Z": 321680
+  },
+  "closure_vendor_rand": {
+    "?seedMT@@YAXI@Z": 277168,
+    "?reloadMT@@YAIXZ": 277216,
+    "?randomMT@@YAIXZ": 277504,
+    "?frandomMT@@YAMXZ": 277584
+  }
+}
