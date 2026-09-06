@@ -1,0 +1,9 @@
+# Renderer trial1: precise bounded correction
+
+Four lifecycle bodies exact230. Render296 vs295: original preserves constant3 in EDI from RECT.top assignment6D91C through surface-copy filter push6D975. Trial1 preserves constant32 in EDI for RECT.bottom instead, then push immediate3 costs one extra byte. Original and trial1 are otherwise same calls and flow; no incorrect filter/payload. Normal C++ proposal expresses surface-copy filter using (DWORD)textRect.top, the actual immutable by-value rectangle top3, to expose this observed reuse across calls. No variable/dummy lifetime/padding introduced. It is a bounded hypothesis about typed constant sharing (RECT LONG vs D3DX macro int→DWORD), not a claim of recovered original source spelling. File closure_vehicle_plate_renderer_trial2_proposed.cpp.
+
+## Admissibility of the local-field expression
+
+The local RECT is initialized with top=3; RenderText's real declared signature is RenderText(char*, RECT, DWORD), so the rectangle crosses that call by value. Its address is never exposed, no later assignment changes top, and no COM call receives this local. Consequently (DWORD)textRect.top is provably the same unsigned value3 as D3DX_FILTER_LINEAR at the surface-copy call. This is an equivalent source expression over genuine live semantic data, not a dummy variable or invented lifetime. It exposes the original observed shared constant across the two legitimate uses without inserting assembly, padding, or encoded instructions. This admissibility does not establish that the historical source spelled the filter this way; exact bytes and provider/data checks remain necessary, and the reconstruction must document its nonunique source spelling.
+
+Trial2 result: whole unrelocated Render section is byte-identical to trial1 (296 bytes). Compiler canonicalizes the equivalent field expression; no gain. Two bounded C++ forms retained, renderer remains unaccepted.

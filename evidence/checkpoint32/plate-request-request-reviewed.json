@@ -1,0 +1,192 @@
+{
+  "status": "REVIEWED_SCOPED_FUNCTION_PREFLIGHT_NOT_ACCEPTANCE",
+  "regions": [
+    {
+      "unit": "closure_scoreboard_request",
+      "anchor": "?RequestScoresAndPings@R5ScoreboardRequestView@@QAEXXZ",
+      "section": 46,
+      "rva": 36624,
+      "size": 151,
+      "kind": ".text",
+      "sha256": "fbccb21a38dd83be1c762d1f45134d49ed94dafc194d1cee75e39d95a176e126",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "__except_list",
+          "site_rva": 36626,
+          "symbol_va": 0,
+          "addend": 0,
+          "target_va": 0,
+          "kind": 6
+        },
+        {
+          "symbol": "__ehhandler$?RequestScoresAndPings@R5ScoreboardRequestView@@QAEXXZ",
+          "site_rva": 36633,
+          "symbol_va": 269353595,
+          "addend": 0,
+          "target_va": 269353595,
+          "kind": 6
+        },
+        {
+          "symbol": "__except_list",
+          "site_rva": 36641,
+          "symbol_va": 0,
+          "addend": 0,
+          "target_va": 0,
+          "kind": 6
+        },
+        {
+          "symbol": "__imp__GetTickCount@0",
+          "site_rva": 36655,
+          "symbol_va": 269374008,
+          "addend": 0,
+          "target_va": 269374008,
+          "kind": 6
+        },
+        {
+          "symbol": "?r5ScoreboardLastRequestTick@@3KA",
+          "site_rva": 36665,
+          "symbol_va": 269584920,
+          "addend": 0,
+          "target_va": 269584920,
+          "kind": 6
+        },
+        {
+          "symbol": "?r5ScoreboardLastRequestTick@@3KA",
+          "site_rva": 36683,
+          "symbol_va": 269584920,
+          "addend": 0,
+          "target_va": 269584920,
+          "kind": 6
+        },
+        {
+          "symbol": "??0BitStream@RakNet@@QAE@XZ",
+          "site_rva": 36688,
+          "symbol_va": 268564272,
+          "addend": 0,
+          "target_va": 268564272,
+          "kind": 20
+        },
+        {
+          "symbol": "?r5RpcRequestScoresPings@@3HB",
+          "site_rva": 36725,
+          "symbol_va": 269376296,
+          "addend": 0,
+          "target_va": 269376296,
+          "kind": 6
+        },
+        {
+          "symbol": "??1BitStream@RakNet@@QAE@XZ",
+          "site_rva": 36748,
+          "symbol_va": 268564688,
+          "addend": 0,
+          "target_va": 268564688,
+          "kind": 20
+        },
+        {
+          "symbol": "__except_list",
+          "site_rva": 36764,
+          "symbol_va": 0,
+          "addend": 0,
+          "target_va": 0,
+          "kind": 6
+        }
+      ]
+    },
+    {
+      "unit": "closure_scoreboard_request",
+      "anchor": "$L95021",
+      "section": 47,
+      "rva": 918128,
+      "size": 21,
+      "kind": ".text$x",
+      "sha256": "9b0ccf50278b898efd0468598f23db05a8dbc4b9526ce7969fb108ebb36c45a7",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "??1BitStream@RakNet@@QAE@XZ",
+          "site_rva": 918135,
+          "symbol_va": 268564688,
+          "addend": 0,
+          "target_va": 268564688,
+          "kind": 20
+        },
+        {
+          "symbol": "$T95025",
+          "site_rva": 918140,
+          "symbol_va": 269449828,
+          "addend": 0,
+          "target_va": 269449828,
+          "kind": 6
+        },
+        {
+          "symbol": "___CxxFrameHandler",
+          "site_rva": 918145,
+          "symbol_va": 269247782,
+          "addend": 0,
+          "target_va": 269247782,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "closure_scoreboard_request",
+      "anchor": "$T95030",
+      "section": 48,
+      "rva": 1014364,
+      "size": 36,
+      "kind": ".xdata$x",
+      "sha256": "82154584a3e1618ce2e2373e47c505922aa675cf80369766c162814c6982a0b8",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "$L95021",
+          "site_rva": 1014368,
+          "symbol_va": 269353584,
+          "addend": 0,
+          "target_va": 269353584,
+          "kind": 6
+        },
+        {
+          "symbol": "$T95030",
+          "site_rva": 1014380,
+          "symbol_va": 269449820,
+          "addend": 0,
+          "target_va": 269449820,
+          "kind": 6
+        }
+      ]
+    },
+    {
+      "unit": "closure_store_scoreboard_request_tick",
+      "anchor": "?r5ScoreboardLastRequestTick@@3KA",
+      "section": 3,
+      "rva": 1149464,
+      "size": 4,
+      "kind": ".bss",
+      "sha256": "df3f619804a92fdb4057192dc43dd748ea778adc52bc498ce80524c014b81119",
+      "whole_bytes_equal": true,
+      "bindings": []
+    },
+    {
+      "unit": "closure_store_scoreboard_request_rpc",
+      "anchor": "?r5RpcRequestScoresPings@@3HB",
+      "section": 3,
+      "rva": 940840,
+      "size": 4,
+      "kind": ".rdata",
+      "sha256": "10e39f6489dd137dfd75a85143577a057ec560ea8f054bfe7e2f35268ddf9c58",
+      "whole_bytes_equal": true,
+      "bindings": []
+    }
+  ],
+  "code_bytes": 172,
+  "data_bytes": 44,
+  "direct025_credit": 0,
+  "excluded_header_sentinel_bytes": 16,
+  "seeds": {
+    "closure_scoreboard_request": {
+      "?RequestScoresAndPings@R5ScoreboardRequestView@@QAEXXZ": 36624
+    }
+  }
+}

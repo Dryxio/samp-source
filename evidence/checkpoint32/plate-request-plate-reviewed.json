@@ -1,0 +1,98 @@
+{
+  "status": "SCOPED_PREFLIGHT_NOT_ACCEPTANCE",
+  "regions": [
+    {
+      "unit": "closure_vehicle_plate_renderer",
+      "anchor": "?DeleteDeviceObjects@R5VehiclePlateRenderer@@QAEXXZ",
+      "section": 46,
+      "rva": 448432,
+      "size": 73,
+      "sha256": "da14ad35ae8a049530485bbe309cb490abcfb6a76d7901382201639e7a357617",
+      "whole_bytes_equal": true,
+      "bindings": [],
+      "kind": ".text"
+    },
+    {
+      "unit": "closure_vehicle_plate_renderer",
+      "anchor": "?RestoreDeviceObjects@R5VehiclePlateRenderer@@QAEXXZ",
+      "section": 48,
+      "rva": 448512,
+      "size": 118,
+      "sha256": "5f9c339b2d94efd84096f5783972b26e1eae21cfaf041ba625a139f45119065d",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "_D3DXCreateTexture@32",
+          "site_rva": 448558,
+          "symbol_va": 269245550,
+          "addend": 0,
+          "target_va": 269245550,
+          "kind": 20
+        },
+        {
+          "symbol": "_D3DXCreateRenderToSurface@28",
+          "site_rva": 448620,
+          "symbol_va": 269245544,
+          "addend": 0,
+          "target_va": 269245544,
+          "kind": 20
+        }
+      ],
+      "kind": ".text"
+    },
+    {
+      "unit": "closure_vehicle_plate_renderer",
+      "anchor": "??0R5VehiclePlateRenderer@@QAE@PAUIDirect3DDevice9@@@Z",
+      "section": 52,
+      "rva": 448944,
+      "size": 34,
+      "sha256": "3b0117b22ad1d17196413f8b6d458ae650a308d78d69340b81dee7b54db03e32",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "?RestoreDeviceObjects@R5VehiclePlateRenderer@@QAEXXZ",
+          "site_rva": 448968,
+          "symbol_va": 268883968,
+          "addend": 0,
+          "target_va": 268883968,
+          "kind": 20
+        }
+      ],
+      "kind": ".text"
+    },
+    {
+      "unit": "closure_vehicle_plate_renderer",
+      "anchor": "??1R5VehiclePlateRenderer@@QAE@XZ",
+      "section": 54,
+      "rva": 448992,
+      "size": 5,
+      "sha256": "6af49b0d098e603d15a1b3515455b993e5e5405b367c1afe25b5dce88f70ed89",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "?DeleteDeviceObjects@R5VehiclePlateRenderer@@QAEXXZ",
+          "site_rva": 448993,
+          "symbol_va": 268883888,
+          "addend": 0,
+          "target_va": 268883888,
+          "kind": 20
+        }
+      ],
+      "kind": ".text"
+    }
+  ],
+  "code_bytes": 230,
+  "EH": 0,
+  "direct025_credit": 0,
+  "object_sha256": "31ca3ae2f29d3ae899c678da1bd74a69283d4b19ce711f9d5cec398d0f0d970a",
+  "run": "cp32-vehicle-plate-trial2",
+  "source_transition": "Four covered sections and raw COFF relocations identical to trial1; Render excluded",
+  "seeds": {
+    "closure_vehicle_plate_renderer": {
+      "?DeleteDeviceObjects@R5VehiclePlateRenderer@@QAEXXZ": 448432,
+      "?RestoreDeviceObjects@R5VehiclePlateRenderer@@QAEXXZ": 448512,
+      "??0R5VehiclePlateRenderer@@QAE@PAUIDirect3DDevice9@@@Z": 448944,
+      "??1R5VehiclePlateRenderer@@QAE@XZ": 448992
+    }
+  }
+}

@@ -1421,3 +1421,8 @@ Direct0250/cumulative21126, measured 86490 unique bytes at 10494.1 bytes/hour co
 Logger/scoreboard accepted: +2480 unique code bytes, total 262111/930756 (28.161086%). Logger1184+real server ABI bridge8; population892+queries396 unique (GetRemote36 already accepted in base manifests). Full class tables, all original targets and relocations; IDTOString complete172 checked and only118 code counted. Actual compiler deleting aliases and server target provider qualified; unused entry alias removed after draft rejection with unchanged gate. Real row45 and scratch260, no fabricated allocation/padding. 3271 regions, ten negative controls and bounded actor ABI pass.
 
 Direct0250/cumulative21126; source025 helps scoreboard reasoning but hybrid implementation has no direct byte credit. 88970 total new unique bytes since parallel start, 10215.8 bytes/hour including coordination/failures. Next graph/Dijkstra and scoreboard Draw/request; plate renderer296/295 still excluded. Goal active, no push/GTA/live networking.
+
+
+Plate/request accepted: +402 unique code bytes, total 262513/930756 (28.204277%). Full plate owner lifecycle230 and genuine periodic request151/EH21; whole unwind36 and scalars4+4. All 3280 regions, COFF/PE bindings and actual providers, ten negative controls and actor ABI pass. Existing aliases freshly qualified at final link. Direct0250/cumulative21126 (hybrid request adaptation). PlateRender296/295 and ScoreboardDraw790 scheduling mismatches excluded; no guessed register permutations.
+
+Since parallel start 89372 new unique bytes, 10124.3 bytes/hour coordination included. Next graph context split, socket leaves and labels3D. Goal active; no push/deployment/network execution.
