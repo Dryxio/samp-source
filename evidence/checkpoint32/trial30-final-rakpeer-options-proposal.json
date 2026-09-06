@@ -1,0 +1,27 @@
+{
+  "status": "UNCOMPILED_NORMAL_CPP_PROPOSAL",
+  "source": "build/agent-independent/eval_vendor_rakpeer_options.cpp",
+  "roots": [
+    {
+      "symbol": "?SetSplitMessageProgressInterval@RakPeer@@UAEXH@Z",
+      "rva": 231792,
+      "size": 75,
+      "potential_unique": 75
+    },
+    {
+      "symbol": "?SetUnreliableTimeout@RakPeer@@UAEXI@Z",
+      "rva": 231872,
+      "size": 75,
+      "potential_unique": 75
+    },
+    {
+      "symbol": "?SetOfflinePingResponse@RakPeer@@UAEXPBDI@Z",
+      "rva": 231216,
+      "size": 67,
+      "potential_unique": 67
+    }
+  ],
+  "potential_unique": 217,
+  "source025_direct_bytes": 0,
+  "dependency_review": "ReliabilityLayer timeout/progress setters, SimpleMutex lock/unlock and BitStream Reset/Write all accepted. No new storage/allocation."
+}

@@ -1,0 +1,122 @@
+{
+  "status": "REVIEWED_MAIN_SEEDS_AND_WHOLE_EH_BINDINGS_PREFLIGHT",
+  "run": "build/cp32-trial30-rakpeer-options",
+  "roots": {
+    "?SetSplitMessageProgressInterval@RakPeer@@UAEXH@Z": 231792,
+    "?SetUnreliableTimeout@RakPeer@@UAEXI@Z": 231872,
+    "?SetOfflinePingResponse@RakPeer@@UAEXPBDI@Z": 231216
+  },
+  "seeds": {
+    "eval_vendor_rakpeer_options": {
+      "?SetOfflinePingResponse@RakPeer@@UAEXPBDI@Z": 231216,
+      "?SetUnreliableTimeout@RakPeer@@UAEXI@Z": 231872,
+      "?SetSplitMessageProgressInterval@RakPeer@@UAEXH@Z": 231792
+    }
+  },
+  "regions": [
+    {
+      "unit": "eval_vendor_rakpeer_options",
+      "section": 3,
+      "rva": 231216,
+      "size": 67,
+      "kind": ".text",
+      "sha256": "7c948f9f21a1ba65ef65412de50803b047284fb6d8cd2eafbb49291bd6b1b528",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "?Lock@SimpleMutex@@QAEXXZ",
+          "site_rva": 231229,
+          "target_va": 268777472,
+          "kind": 20
+        },
+        {
+          "symbol": "?Reset@BitStream@RakNet@@QAEXXZ",
+          "site_rva": 231242,
+          "target_va": 268564720,
+          "kind": 20
+        },
+        {
+          "symbol": "?Write@BitStream@RakNet@@QAEXPBDH@Z",
+          "site_rva": 231267,
+          "target_va": 268566672,
+          "kind": 20
+        },
+        {
+          "symbol": "?Unlock@SimpleMutex@@QAEXXZ",
+          "site_rva": 231274,
+          "target_va": 268777488,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "eval_vendor_rakpeer_options",
+      "section": 7,
+      "rva": 231872,
+      "size": 75,
+      "kind": ".text",
+      "sha256": "bd6903d9903ad39979a597f587f4ccd5297391812f07230392251374c96f2587",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "?SetUnreliableTimeout@ReliabilityLayer@@QAEXI@Z",
+          "site_rva": 231931,
+          "target_va": 268713584,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "eval_vendor_rakpeer_options",
+      "section": 5,
+      "rva": 231792,
+      "size": 75,
+      "kind": ".text",
+      "sha256": "66b467c42493d05b7e79a8272c15e7cf73c14d961a35c255231b36aaa272fa07",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "?SetSplitMessageProgressInterval@ReliabilityLayer@@QAEXH@Z",
+          "site_rva": 231851,
+          "target_va": 268713568,
+          "kind": 20
+        }
+      ]
+    }
+  ],
+  "bindings_checked": 6,
+  "external_targets": {
+    "?Lock@SimpleMutex@@QAEXXZ": 268777472,
+    "?Reset@BitStream@RakNet@@QAEXXZ": 268564720,
+    "?Write@BitStream@RakNet@@QAEXPBDH@Z": 268566672,
+    "?Unlock@SimpleMutex@@QAEXXZ": 268777488,
+    "?SetUnreliableTimeout@ReliabilityLayer@@QAEXI@Z": 268713584,
+    "?SetSplitMessageProgressInterval@ReliabilityLayer@@QAEXH@Z": 268713568
+  },
+  "identity_reasons": {
+    "?SetSplitMessageProgressInterval@RakPeer@@UAEXH@Z": "source method semantics + original call graph / allocation / table owner",
+    "?SetUnreliableTimeout@RakPeer@@UAEXI@Z": "source method semantics + original call graph / allocation / table owner",
+    "?SetOfflinePingResponse@RakPeer@@UAEXPBDI@Z": "source method semantics + original call graph / allocation / table owner"
+  },
+  "new_unique_code": 217,
+  "already_covered_code": 0,
+  "physical_code_compared": 217,
+  "baseline": 405072,
+  "source025_direct_bytes": 0,
+  "reuse_existing_owners": {},
+  "excluded_unmatched": [],
+  "explicit_owner_transfer": "None; actual rakpeer-options providers and complete typed data only.",
+  "unselected_method": "Only selected complete rakpeer-options roots and actual relocation closure; callbacks and unimplemented dependencies excluded.",
+  "source_files": [
+    {
+      "path": "client/saco/eval_vendor_rakpeer_options.cpp",
+      "sha256": "f9ce9de5750395295608b05a49e70b8464501e11f0be8eaf9ec4c4569cd6bbe2"
+    }
+  ],
+  "objects": {
+    "eval_vendor_rakpeer_options": "ea968f0bea5f95cf776c434b31146d043eeef730b6ca14b0015ed46eb0a7b1f2"
+  },
+  "actual_weak_aliases": {
+    "eval_vendor_rakpeer_options": {}
+  }
+}

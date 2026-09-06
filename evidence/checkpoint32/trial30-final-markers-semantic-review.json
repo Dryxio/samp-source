@@ -1,0 +1,52 @@
+{
+  "status": "PASS_MARKER_SEMANTICS",
+  "accepted_candidate": 216,
+  "source025_direct_bytes": 0,
+  "source025_assisted_adapted_bytes": 0,
+  "shared_type_exact": true,
+  "layout": {
+    "ped": 477,
+    "vehicle": 481,
+    "playerId": 485,
+    "vehicleId": 487,
+    "active": 489,
+    "xyz": [
+      493,
+      497,
+      501
+    ],
+    "marker": 505
+  },
+  "semantics": [
+    "All remoteviews pointeronly, noallocations. Genuine existing gameptr26EBAC and actualGame methods CreateRadarMarkerIcon295/DisableMarker21; no newglobalprovider.",
+    "SetMarkerActive BOOL32 falsepath disables and writesargumentzero marker thenstoresactualactiveargument. ShowMarker signedshort coordinates each widened exactly tofloat,playerIDunsigned16 toDWORD color argument, first/final arg0.",
+    "Existingped bypasses creation afterdisablingoldmarker. No correctionofpotential oddoriginal behavior.",
+    "Packet489 pendingmatching, actualuninitializedactivebool persists if truncatedbitstreamreadfails; never initialize silently.",
+    "No clipping loopcount, noextra nullremote check; preservesactual R5 poolactive guards and original missingremote dereference behavior."
+  ],
+  "packet_status": "PARKED trial2 whole489 mismatch initial getter/initscheduling; noacceptedcredit. Positive GetAt branch correction follows existing playerpool.h, but doesnotfix initial scheduling.",
+  "whole_comparison": "preflight_markers.py manifest both roots complete51/165 andall6 COFF+PE fixups.",
+  "layout_calculation": {
+    "status": "PASS_PACKED32BIT_ACTUAL_FIELD_WIDTHS",
+    "fields": {
+      "ped": 477,
+      "vehicle": 481,
+      "playerId": 485,
+      "vehicleId": 487,
+      "markerActive": 489,
+      "markerX": 493,
+      "markerY": 497,
+      "markerZ": 501,
+      "marker": 505
+    },
+    "pointer_size": 4,
+    "PLAYERID": 2,
+    "VEHICLEID": 2,
+    "BOOL": 4,
+    "int_size": 4,
+    "DWORD": 4,
+    "observed_extent": 509,
+    "credit": 0,
+    "note": "Auxiliary offset arithmetic only; authoritative wholeCOFF+PE equality independently verifies emitted actual field accesses. Viewextent not claimed as complete allocatedclass."
+  }
+}

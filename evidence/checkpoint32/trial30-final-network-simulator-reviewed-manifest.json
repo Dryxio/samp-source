@@ -1,0 +1,142 @@
+{
+  "status": "REVIEWED_MAIN_SEEDS_AND_WHOLE_EH_BINDINGS_PREFLIGHT",
+  "run": "build/cp32-trial30-socket-bootstrap2",
+  "roots": {
+    "?ApplyNetworkSimulator@RakPeer@@UAEXNGG@Z": 232448,
+    "?IsNetworkSimulatorActive@RakPeer@@UAE_NXZ": 232576,
+    "?ApplyNetworkSimulator@RakClient@@UAEXNGG@Z": 215440,
+    "?ApplyNetworkSimulator@RakServer@@UAEXNGG@Z": 275536,
+    "?ApplyNetworkSimulator@ReliabilityLayer@@QAEXNII@Z": 278048
+  },
+  "seeds": {
+    "eval_vendor_network_simulator": {
+      "?ApplyNetworkSimulator@ReliabilityLayer@@QAEXNII@Z": 278048,
+      "?ApplyNetworkSimulator@RakServer@@UAEXNGG@Z": 275536,
+      "?ApplyNetworkSimulator@RakPeer@@UAEXNGG@Z": 232448,
+      "?ApplyNetworkSimulator@RakClient@@UAEXNGG@Z": 215440,
+      "?IsNetworkSimulatorActive@RakPeer@@UAE_NXZ": 232576
+    }
+  },
+  "regions": [
+    {
+      "unit": "eval_vendor_network_simulator",
+      "section": 3,
+      "rva": 278048,
+      "size": 53,
+      "kind": ".text",
+      "sha256": "bac63a58ca3bd71eb7861bfc5b61f23572d384b7572cdf0965f75068de0e34ce",
+      "whole_bytes_equal": true,
+      "bindings": []
+    },
+    {
+      "unit": "eval_vendor_network_simulator",
+      "section": 12,
+      "rva": 275536,
+      "size": 31,
+      "kind": ".text",
+      "sha256": "0a78eac59ad8089afb0eea686093e5c07159faab9e8e0a1af4027c16d811a71e",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "?ApplyNetworkSimulator@RakPeer@@UAEXNGG@Z",
+          "site_rva": 275560,
+          "target_va": 268667904,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "eval_vendor_network_simulator",
+      "section": 5,
+      "rva": 232448,
+      "size": 120,
+      "kind": ".text",
+      "sha256": "e490095dc7c03079954e2b36d7b63da6a0ec042acbe20b4665799be9cab0dfbe",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "?ApplyNetworkSimulator@ReliabilityLayer@@QAEXNII@Z",
+          "site_rva": 232517,
+          "target_va": 268713504,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "eval_vendor_network_simulator",
+      "section": 10,
+      "rva": 215440,
+      "size": 28,
+      "kind": ".text",
+      "sha256": "651c53b7b6cebe802e669c464f40d97f6ce73d6ac0d52ba7294d2ff6a5d24bf1",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "?ApplyNetworkSimulator@RakPeer@@UAEXNGG@Z",
+          "site_rva": 215461,
+          "target_va": 268667904,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "eval_vendor_network_simulator",
+      "section": 7,
+      "rva": 232576,
+      "size": 48,
+      "kind": ".text",
+      "sha256": "0da12822ee4bbb3b5bf8af95a8c18bfedf6d9ab4f02b7f7d311c57c8423188c2",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "__real@0000000000000000",
+          "site_rva": 232584,
+          "target_va": 269389272,
+          "kind": 6
+        }
+      ]
+    },
+    {
+      "unit": "eval_vendor_network_simulator",
+      "section": 8,
+      "rva": 953816,
+      "size": 8,
+      "kind": ".rdata",
+      "sha256": "af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc",
+      "whole_bytes_equal": true,
+      "bindings": []
+    }
+  ],
+  "bindings_checked": 4,
+  "external_targets": {
+    "__real@0000000000000000": 269389272
+  },
+  "identity_reasons": {
+    "?ApplyNetworkSimulator@RakPeer@@UAEXNGG@Z": "actual relocation from ?ApplyNetworkSimulator@RakServer@@UAEXNGG@Z",
+    "?IsNetworkSimulatorActive@RakPeer@@UAE_NXZ": "source method semantics + original call graph / allocation / table owner",
+    "?ApplyNetworkSimulator@RakClient@@UAEXNGG@Z": "source method semantics + original call graph / allocation / table owner",
+    "?ApplyNetworkSimulator@RakServer@@UAEXNGG@Z": "source method semantics + original call graph / allocation / table owner",
+    "?ApplyNetworkSimulator@ReliabilityLayer@@QAEXNII@Z": "source method semantics + original call graph / allocation / table owner"
+  },
+  "new_unique_code": 227,
+  "already_covered_code": 53,
+  "physical_code_compared": 280,
+  "baseline": 407289,
+  "source025_direct_bytes": 0,
+  "reuse_existing_owners": {},
+  "excluded_unmatched": [],
+  "explicit_owner_transfer": "None; actual network-simulator providers and complete typed data only.",
+  "unselected_method": "Only selected complete network-simulator roots and actual relocation closure; callbacks and unimplemented dependencies excluded.",
+  "source_files": [
+    {
+      "path": "client/saco/eval_vendor_network_simulator.cpp",
+      "sha256": "5a9fe00239da884d2307af47b4c8d46b73177b102b0d60d1973360d055069367"
+    }
+  ],
+  "objects": {
+    "eval_vendor_network_simulator": "64fb6b6480204a110a8474b9abd5354cb35a92959f1a443da20f97ff4f0b8681"
+  },
+  "actual_weak_aliases": {
+    "eval_vendor_network_simulator": {}
+  }
+}

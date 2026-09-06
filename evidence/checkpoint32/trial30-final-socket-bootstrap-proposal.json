@@ -1,0 +1,60 @@
+{
+  "status": "UNCOMPILED_PROPOSAL",
+  "sources": [
+    "eval_vendor_socket_bootstrap.cpp",
+    "eval_vendor_rakpeer_connect_address.cpp"
+  ],
+  "scope": [
+    "Real SocketLayer1, startupbool1 and WSADATA398 (actual /Zp1 SDK fields; physical interval400 not a logical size proof) not opaque padding. Constructor39@53820/destructor23@53850; real initializer and atexit destructor must qualify whole original CRT entries.",
+    "Connect202@40550 true SendConnectionRequest193 alreadyaccepted. GetNumberAddresses71@388C0/GetLocalIP60@38920/PlayerIDToDottedIP14@38910; GetMyIP original bounded10 dottedstrings80-byte hostname stack buffer source.",
+    "No networking executed; static reconstruction only. No SendTo output buffer store/coverage.",
+    "No025direct benefit, vendor source present."
+  ],
+  "roots": [
+    {
+      "symbol": "??0SocketLayer@@QAE@XZ",
+      "rva": 342048,
+      "size": 39
+    },
+    {
+      "symbol": "??1SocketLayer@@QAE@XZ",
+      "rva": 342096,
+      "size": 23
+    },
+    {
+      "symbol": "?GetMyIP@SocketLayer@@QAEXQAY0BA@D@Z",
+      "rva": 342896,
+      "size": 117
+    },
+    {
+      "symbol": "?Connect@RakPeer@@UAE_NPBDGPADH@Z",
+      "rva": 263504,
+      "size": 202
+    },
+    {
+      "symbol": "?GetNumberOfAddresses@RakPeer@@UAEIXZ",
+      "rva": 231616,
+      "size": 71
+    },
+    {
+      "symbol": "?PlayerIDToDottedIP@RakPeer@@UBEPBDUPlayerID@@@Z",
+      "rva": 231696,
+      "size": 14
+    },
+    {
+      "symbol": "?GetLocalIP@RakPeer@@UAEPBDI@Z",
+      "rva": 231712,
+      "size": 60
+    },
+    {
+      "symbol": "_$E5",
+      "rva": 934576,
+      "size": 22
+    },
+    {
+      "symbol": "_$E6",
+      "rva": 934704,
+      "size": 10
+    }
+  ]
+}

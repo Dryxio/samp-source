@@ -1,0 +1,37 @@
+{
+  "status": "UNCOMPILED_SOURCE_PROPOSAL",
+  "source": "build/agent-independent/eval_vendor_network_simulator.cpp",
+  "roots": [
+    {
+      "symbol": "?ApplyNetworkSimulator@RakPeer@@UAEXNGG@Z",
+      "rva": 232448,
+      "size": 120
+    },
+    {
+      "symbol": "?IsNetworkSimulatorActive@RakPeer@@UAE_NXZ",
+      "rva": 232576,
+      "size": 48
+    },
+    {
+      "symbol": "?ApplyNetworkSimulator@RakClient@@UAEXNGG@Z",
+      "rva": 215440,
+      "size": 28
+    },
+    {
+      "symbol": "?ApplyNetworkSimulator@RakServer@@UAEXNGG@Z",
+      "rva": 275536,
+      "size": 31
+    },
+    {
+      "symbol": "?ApplyNetworkSimulator@ReliabilityLayer@@QAEXNII@Z",
+      "rva": 278048,
+      "size": 53
+    }
+  ],
+  "scope": [
+    "Real complete source classes and ReliabilityLayer setter dependency included. No allocation/ctor/VFT. Client/Server realinheritance this adjustments.",
+    "ReleaseNDEBUG source path preserves simulator because original uses _RELEASE separately; no flag manipulation.",
+    "Likely227 principalunique plusReliability setter; fresh fullprobe required.",
+    "No025 benefit, source present."
+  ]
+}

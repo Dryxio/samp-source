@@ -1,0 +1,459 @@
+{
+  "status": "REVIEWED_MAIN_SEEDS_AND_WHOLE_EH_BINDINGS_PREFLIGHT",
+  "run": "build/agent-independent/socket-split-discovery",
+  "roots": {
+    "??0SocketLayer@@QAE@XZ": 342048,
+    "??1SocketLayer@@QAE@XZ": 342096,
+    "?GetMyIP@SocketLayer@@QAEXQAY0BA@D@Z": 342896,
+    "?Connect@RakPeer@@UAE_NPBDGPADH@Z": 263504,
+    "?GetNumberOfAddresses@RakPeer@@UAEIXZ": 231616,
+    "?PlayerIDToDottedIP@RakPeer@@UBEPBDUPlayerID@@@Z": 231696,
+    "?GetLocalIP@RakPeer@@UAEPBDI@Z": 231712,
+    "_$E5": 934576,
+    "_$E6": 934704
+  },
+  "seeds": {
+    "eval_store_socket_started": {},
+    "eval_store_socket_instance": {
+      "_$E6": 934704,
+      "_$E5": 934576
+    },
+    "eval_store_socket_winsock_info": {},
+    "eval_vendor_socket_bootstrap": {
+      "??1SocketLayer@@QAE@XZ": 342096,
+      "??0SocketLayer@@QAE@XZ": 342048,
+      "?GetMyIP@SocketLayer@@QAEXQAY0BA@D@Z": 342896
+    },
+    "eval_vendor_rakpeer_connect_address": {
+      "?GetLocalIP@RakPeer@@UAEPBDI@Z": 231712,
+      "?PlayerIDToDottedIP@RakPeer@@UBEPBDUPlayerID@@@Z": 231696,
+      "?GetNumberOfAddresses@RakPeer@@UAEIXZ": 231616,
+      "?Connect@RakPeer@@UAE_NPBDGPADH@Z": 263504
+    }
+  },
+  "regions": [
+    {
+      "unit": "eval_store_socket_started",
+      "section": 3,
+      "rva": 1186360,
+      "size": 1,
+      "kind": ".bss",
+      "sha256": "6e340b9cffb37a989ca544e6bb780a2c78901d3fb33738768511a30617afa01d",
+      "whole_bytes_equal": true,
+      "bindings": []
+    },
+    {
+      "unit": "eval_store_socket_instance",
+      "section": 7,
+      "rva": 934704,
+      "size": 10,
+      "kind": ".text$yd",
+      "sha256": "2680b708979ae89ab2973ca833a5ecbd8022d6a805dbb70b86cedc45dfbfb555",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "?I@SocketLayer@@0V1@A",
+          "site_rva": 934705,
+          "target_va": 269621817,
+          "kind": 6
+        },
+        {
+          "symbol": "??1SocketLayer@@QAE@XZ",
+          "site_rva": 934710,
+          "target_va": 268777552,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "eval_store_socket_instance",
+      "section": 4,
+      "rva": 934576,
+      "size": 22,
+      "kind": ".text$yc",
+      "sha256": "d5ecc502b40fc16b02aa6dfa41951791419e59caae65fda1b94c59ac44d634ca",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "?I@SocketLayer@@0V1@A",
+          "site_rva": 934577,
+          "target_va": 269621817,
+          "kind": 6
+        },
+        {
+          "symbol": "??0SocketLayer@@QAE@XZ",
+          "site_rva": 934582,
+          "target_va": 268777504,
+          "kind": 20
+        },
+        {
+          "symbol": "_$E6",
+          "site_rva": 934587,
+          "target_va": 269370160,
+          "kind": 6
+        },
+        {
+          "symbol": "_atexit",
+          "site_rva": 934592,
+          "target_va": 269257477,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "eval_store_socket_instance",
+      "section": 9,
+      "rva": 1186361,
+      "size": 1,
+      "kind": ".bss",
+      "sha256": "6e340b9cffb37a989ca544e6bb780a2c78901d3fb33738768511a30617afa01d",
+      "whole_bytes_equal": true,
+      "bindings": []
+    },
+    {
+      "unit": "eval_store_socket_instance",
+      "section": 5,
+      "rva": 1040400,
+      "size": 4,
+      "kind": ".CRT$XCU",
+      "sha256": "9322e50e6bd2549030834df9f53ca5d939584c3d2b22a694f8c5d35d19e971c7",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "_$E5",
+          "site_rva": 1040400,
+          "target_va": 269370032,
+          "kind": 6
+        }
+      ]
+    },
+    {
+      "unit": "eval_store_socket_winsock_info",
+      "section": 3,
+      "rva": 1153192,
+      "size": 398,
+      "kind": ".bss",
+      "sha256": "854546efd287d37fcca4938abe4b8d573e4a7f3676792996a31c9b7f8faba2e5",
+      "whole_bytes_equal": true,
+      "bindings": []
+    },
+    {
+      "unit": "eval_vendor_socket_bootstrap",
+      "section": 5,
+      "rva": 342096,
+      "size": 23,
+      "kind": ".text",
+      "sha256": "4ecdd239260f2a4325910f3d8a32bdbe8bd19ff0c5f18cbc20c8561d8fb9ed65",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "?socketLayerStarted@SocketLayer@@0_NA",
+          "site_rva": 342098,
+          "target_va": 269621816,
+          "kind": 6
+        },
+        {
+          "symbol": "__imp__WSACleanup@0",
+          "site_rva": 342107,
+          "target_va": 269374564,
+          "kind": 6
+        },
+        {
+          "symbol": "?socketLayerStarted@SocketLayer@@0_NA",
+          "site_rva": 342113,
+          "target_va": 269621816,
+          "kind": 6
+        }
+      ]
+    },
+    {
+      "unit": "eval_vendor_socket_bootstrap",
+      "section": 3,
+      "rva": 342048,
+      "size": 39,
+      "kind": ".text",
+      "sha256": "05adab25745d5157115608e08851e3f12e937945ceccadbe2f695d840b4faa70",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "?socketLayerStarted@SocketLayer@@0_NA",
+          "site_rva": 342049,
+          "target_va": 269621816,
+          "kind": 6
+        },
+        {
+          "symbol": "?winsockInfo@SocketLayer@@0UWSAData@@A",
+          "site_rva": 342061,
+          "target_va": 269588648,
+          "kind": 6
+        },
+        {
+          "symbol": "__imp__WSAStartup@8",
+          "site_rva": 342072,
+          "target_va": 269374568,
+          "kind": 6
+        },
+        {
+          "symbol": "?socketLayerStarted@SocketLayer@@0_NA",
+          "site_rva": 342078,
+          "target_va": 269621816,
+          "kind": 6
+        }
+      ]
+    },
+    {
+      "unit": "eval_vendor_socket_bootstrap",
+      "section": 7,
+      "rva": 342896,
+      "size": 117,
+      "kind": ".text",
+      "sha256": "8605112a2aa8762a72d60ba5540fc61bfd3a05f820693dff24f37a81ca4c25e5",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "__imp__gethostname@8",
+          "site_rva": 342908,
+          "target_va": 269374496,
+          "kind": 6
+        },
+        {
+          "symbol": "__imp__gethostbyname@4",
+          "site_rva": 342925,
+          "target_va": 269374536,
+          "kind": 6
+        },
+        {
+          "symbol": "__imp__inet_ntoa@4",
+          "site_rva": 342946,
+          "target_va": 269374532,
+          "kind": 6
+        }
+      ]
+    },
+    {
+      "unit": "eval_vendor_rakpeer_connect_address",
+      "section": 12,
+      "rva": 231712,
+      "size": 60,
+      "kind": ".text",
+      "sha256": "a7328f768d15a3529e0f10e8836638bbade7a3388a82d83fbee50de818d5cdc8",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "?ipList@?1??GetLocalIP@RakPeer@@UAEPBDI@Z@4PAY0BA@DA",
+          "site_rva": 231736,
+          "target_va": 269585976,
+          "kind": 6
+        },
+        {
+          "symbol": "?ipList@?1??GetLocalIP@RakPeer@@UAEPBDI@Z@4PAY0BA@DA",
+          "site_rva": 231743,
+          "target_va": 269585976,
+          "kind": 6
+        },
+        {
+          "symbol": "?I@SocketLayer@@0V1@A",
+          "site_rva": 231748,
+          "target_va": 269621817,
+          "kind": 6
+        },
+        {
+          "symbol": "?GetMyIP@SocketLayer@@QAEXQAY0BA@D@Z",
+          "site_rva": 231753,
+          "target_va": 268778352,
+          "kind": 20
+        },
+        {
+          "symbol": "?ipList@?1??GetLocalIP@RakPeer@@UAEPBDI@Z@4PAY0BA@DA",
+          "site_rva": 231764,
+          "target_va": 269585976,
+          "kind": 6
+        }
+      ]
+    },
+    {
+      "unit": "eval_vendor_rakpeer_connect_address",
+      "section": 10,
+      "rva": 231696,
+      "size": 14,
+      "kind": ".text",
+      "sha256": "a0c72abaf8b6d6046f8d0d76fc48c94cd357f88550391edab97fe760aaaf3196",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "__imp__inet_ntoa@4",
+          "site_rva": 231703,
+          "target_va": 269374532,
+          "kind": 6
+        }
+      ]
+    },
+    {
+      "unit": "eval_vendor_rakpeer_connect_address",
+      "section": 9,
+      "rva": 231616,
+      "size": 71,
+      "kind": ".text",
+      "sha256": "604a6e47d041ee3e947c1fa36e5f143ec27f9d14b0c329f7834ae9efbc4e6ec9",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "?I@SocketLayer@@0V1@A",
+          "site_rva": 231648,
+          "target_va": 269621817,
+          "kind": 6
+        },
+        {
+          "symbol": "?GetMyIP@SocketLayer@@QAEXQAY0BA@D@Z",
+          "site_rva": 231653,
+          "target_va": 268778352,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "eval_vendor_rakpeer_connect_address",
+      "section": 5,
+      "rva": 263504,
+      "size": 202,
+      "kind": ".text",
+      "sha256": "6e989ed29cbc7954f9ec2e9af807b94162634be00f4a459808de5657d15f76d7",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "?I@SocketLayer@@0V1@A",
+          "site_rva": 263590,
+          "target_va": 269621817,
+          "kind": 6
+        },
+        {
+          "symbol": "?DomainNameToIP@SocketLayer@@QAEPBDPBD@Z",
+          "site_rva": 263595,
+          "target_va": 268777920,
+          "kind": 20
+        },
+        {
+          "symbol": "??_C@_09PFCHIMEP@127?40?40?41?$AA@",
+          "site_rva": 263620,
+          "target_va": 269389280,
+          "kind": 6
+        },
+        {
+          "symbol": "??_C@_07OHKHACFK@0?40?40?40?$AA@",
+          "site_rva": 263642,
+          "target_va": 269389568,
+          "kind": 6
+        },
+        {
+          "symbol": "?SendConnectionRequest@RakPeer@@IAE_NPBDGPADH@Z",
+          "site_rva": 263687,
+          "target_va": 268691104,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "eval_vendor_rakpeer_connect_address",
+      "section": 13,
+      "rva": 1150520,
+      "size": 160,
+      "kind": ".bss",
+      "sha256": "b393978842a0fa3d3e1470196f098f473f9678e72463cb65ec4ab5581856c2e4",
+      "whole_bytes_equal": true,
+      "bindings": []
+    },
+    {
+      "unit": "eval_vendor_rakpeer_connect_address",
+      "section": 7,
+      "rva": 953824,
+      "size": 10,
+      "kind": ".rdata",
+      "sha256": "07aa113144b268c2ec9198ec601f74fd20c4b434cd2904e0a66368d537f86665",
+      "whole_bytes_equal": true,
+      "bindings": []
+    },
+    {
+      "unit": "eval_vendor_rakpeer_connect_address",
+      "section": 6,
+      "rva": 954112,
+      "size": 8,
+      "kind": ".rdata",
+      "sha256": "910f5f6a9364b5af7dcb1c8dfe82d30003d00ce0188cc36f3fa02aa6b738cf1c",
+      "whole_bytes_equal": true,
+      "bindings": []
+    }
+  ],
+  "bindings_checked": 30,
+  "external_targets": {
+    "?I@SocketLayer@@0V1@A": 269621817,
+    "?socketLayerStarted@SocketLayer@@0_NA": 269621816,
+    "__imp__WSACleanup@0": 269374564,
+    "_atexit": 269257477,
+    "?winsockInfo@SocketLayer@@0UWSAData@@A": 269588648,
+    "__imp__WSAStartup@8": 269374568,
+    "eval_vendor_rakpeer_connect_address::?ipList@?1??GetLocalIP@RakPeer@@UAEPBDI@Z@4PAY0BA@DA": 269585976,
+    "__imp__gethostname@8": 269374496,
+    "__imp__gethostbyname@4": 269374536,
+    "__imp__inet_ntoa@4": 269374532,
+    "?DomainNameToIP@SocketLayer@@QAEPBDPBD@Z": 268777920,
+    "??_C@_09PFCHIMEP@127?40?40?41?$AA@": 269389280,
+    "??_C@_07OHKHACFK@0?40?40?40?$AA@": 269389568,
+    "?SendConnectionRequest@RakPeer@@IAE_NPBDGPADH@Z": 268691104
+  },
+  "identity_reasons": {
+    "??0SocketLayer@@QAE@XZ": "actual relocation from _$E5",
+    "??1SocketLayer@@QAE@XZ": "actual relocation from _$E6",
+    "?GetMyIP@SocketLayer@@QAEXQAY0BA@D@Z": "actual relocation from ?GetLocalIP@RakPeer@@UAEPBDI@Z",
+    "?Connect@RakPeer@@UAE_NPBDGPADH@Z": "source method semantics + original call graph / allocation / table owner",
+    "?GetNumberOfAddresses@RakPeer@@UAEIXZ": "source method semantics + original call graph / allocation / table owner",
+    "?PlayerIDToDottedIP@RakPeer@@UBEPBDUPlayerID@@@Z": "source method semantics + original call graph / allocation / table owner",
+    "?GetLocalIP@RakPeer@@UAEPBDI@Z": "source method semantics + original call graph / allocation / table owner",
+    "_$E5": "source method semantics + original call graph / allocation / table owner",
+    "_$E6": "source method semantics + original call graph / allocation / table owner"
+  },
+  "new_unique_code": 558,
+  "already_covered_code": 0,
+  "physical_code_compared": 558,
+  "baseline": 407289,
+  "source025_direct_bytes": 0,
+  "reuse_existing_owners": {},
+  "excluded_unmatched": [],
+  "explicit_owner_transfer": "None; actual socket-bootstrap providers and complete typed data only.",
+  "unselected_method": "Only selected complete socket-bootstrap roots and actual relocation closure; callbacks and unimplemented dependencies excluded.",
+  "source_files": [
+    {
+      "path": "client/saco/eval_store_socket_started.cpp",
+      "sha256": "9fe6f0363aca867ae52f99b7491b5ee7364f31c463a754093b79462501197aad"
+    },
+    {
+      "path": "client/saco/eval_store_socket_instance.cpp",
+      "sha256": "a43fe060db7182a31d5e0700545fe2952485e21c6002c38f92778367d392ec7e"
+    },
+    {
+      "path": "client/saco/eval_store_socket_winsock_info.cpp",
+      "sha256": "15afa866d8529639b4b2d3d39059cb607a428ec5a36fa6ba99a61e6375600b40"
+    },
+    {
+      "path": "client/saco/eval_vendor_socket_bootstrap.cpp",
+      "sha256": "a8c2fd0f0409867cce6e4c0aa106158815e823076aeb6e489372bfcd0e7062be"
+    },
+    {
+      "path": "client/saco/eval_vendor_rakpeer_connect_address.cpp",
+      "sha256": "38b0faf5c07725dd76a4677fed0f24ebd00b6968ab8a5a985e1eda33d264b73a"
+    }
+  ],
+  "objects": {
+    "eval_store_socket_started": "0dfe2ef0c0d85bebba12c6a43b2da6442759dc04b956afe381a4cf875ebc15eb",
+    "eval_store_socket_instance": "318063942ff0a4dfebf05b9c719b154e2fca5e634793610f961ecc1eab233d07",
+    "eval_store_socket_winsock_info": "910dc3c519301969c20333a4087e831bb948322236c5517d904bdda60ffc1b8d",
+    "eval_vendor_socket_bootstrap": "f6b784d300de74b01e9a5bd0ed99ca7534386426501e7c968b5941d763972b99",
+    "eval_vendor_rakpeer_connect_address": "153116a9d3333ad0eb9e04e92afec0e31e4b7d54c39710269c6adc2fcf2e2ad6"
+  },
+  "actual_weak_aliases": {
+    "eval_store_socket_started": {},
+    "eval_store_socket_instance": {},
+    "eval_store_socket_winsock_info": {},
+    "eval_vendor_socket_bootstrap": {},
+    "eval_vendor_rakpeer_connect_address": {}
+  }
+}

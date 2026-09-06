@@ -1,0 +1,80 @@
+{
+  "status": "PASS_FULL_SOURCE_REGIONS_ALL_COFF_PE_TARGETS",
+  "run": "cp32-trial30-markers",
+  "baseline": 402825,
+  "new_unique_code": 216,
+  "regions": [
+    {
+      "unit": "closure_remote_markers",
+      "section": 48,
+      "anchor": "?ShowMarker@R5RemoteMarkerView@@QAEXFFF@Z",
+      "anchor_offset": 0,
+      "rva": 83264,
+      "size": 165,
+      "kind": "code",
+      "sha256": "cf4d0fb3b779d5c11f435171b7fa0f4fb6abf8b95474fa5b6078b0ae179a2a32",
+      "bindings": [
+        {
+          "symbol": "?pGame@@3PAVCGame@@A",
+          "site_rva": 83289,
+          "kind": 6,
+          "target_va": 270986156
+        },
+        {
+          "symbol": "?DisableMarker@CGame@@QAEXK@Z",
+          "site_rva": 83295,
+          "kind": 20,
+          "target_va": 269094592
+        },
+        {
+          "symbol": "?pGame@@3PAVCGame@@A",
+          "site_rva": 83334,
+          "kind": 6,
+          "target_va": 270986156
+        },
+        {
+          "symbol": "?CreateRadarMarkerIcon@CGame@@QAEKHMMMKH@Z",
+          "site_rva": 83394,
+          "kind": 20,
+          "target_va": 269094288
+        }
+      ]
+    },
+    {
+      "unit": "closure_remote_markers",
+      "section": 46,
+      "anchor": "?SetMarkerActive@R5RemoteMarkerView@@QAEXH@Z",
+      "anchor_offset": 0,
+      "rva": 83200,
+      "size": 51,
+      "kind": "code",
+      "sha256": "03405a7d81969424e17e105691bfc1171ef0067c4e2ddab550747f4ca9f56d55",
+      "bindings": [
+        {
+          "symbol": "?pGame@@3PAVCGame@@A",
+          "site_rva": 83224,
+          "kind": 6,
+          "target_va": 270986156
+        },
+        {
+          "symbol": "?DisableMarker@CGame@@QAEXK@Z",
+          "site_rva": 83230,
+          "kind": 20,
+          "target_va": 269094592
+        }
+      ]
+    }
+  ],
+  "source025_direct": 0,
+  "objects": {
+    "closure_remote_markers": "ef5c35eadff9f7e761e4fdf5192beab4571c909749daff27a10a9180a9bd2b28",
+    "closure_packet_markers": "da9a0123a2be0bf2053c4d4c9cbdbb4b1480f28179999fcb0732040d7917d9d0"
+  },
+  "source025_direct_bytes": 0,
+  "source025_assisted_adapted_bytes": 0,
+  "source_hashes": {
+    "closure_remote_markers": "7bef6c80d3b62f41c57beed530793fabbdd804e7b20252c0c3dca704c76873f9"
+  },
+  "provenance": "R5 original051+165 methods reconstructed in normalC++ with complete existing Game providers. No corresponding025 markers sourcebody found.",
+  "trial_classification": "All216 newly reconstructed during30mintrial"
+}

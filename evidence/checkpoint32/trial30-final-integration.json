@@ -1,0 +1,24 @@
+{
+  "status": "ACCEPTED_AFTER_COMPLETE_LINK_REVIEW",
+  "run": "cp32-trial30-final-linked1",
+  "ob1": "cp32-trial30-final-ob1",
+  "ob2": "cp32-disconnect-selection-ob2",
+  "coverage": {
+    "previous_code_bytes": 407289,
+    "batch_code_bytes": 401927,
+    "new_unique_code_bytes": 1218,
+    "union_code_bytes": 408507,
+    "text_bytes": 930756,
+    "text_percent": 43.88980570632905,
+    "whole_dll_match": false
+  },
+  "new_unique_code_bytes": 1218,
+  "direct_025_accepted_bytes": 0,
+  "total_direct_025_accepted_bytes": 22342,
+  "verification": "Options217 +simulator227 +socketbootstrap558 +markers216. Full original/linked code/data/EH COFF/PE, true CRT initializers and pointers, ten controls and Actor ABI PASS.",
+  "adaptations": "Real typedWSADATA398 and separateflag1/instance1; originalinit22/dtor10 and fullCRTentry4. No inventedstoragepadding. Simulator53 alreadycoveredprovider zero extra credit. Markers pointer-only view.",
+  "trial_prepared": 0,
+  "trial_fresh": 1218,
+  "next": "Stop new operations at12:37:17Z; preserve state/report30mintrial. No push/deploy.",
+  "active_vm_command": null
+}

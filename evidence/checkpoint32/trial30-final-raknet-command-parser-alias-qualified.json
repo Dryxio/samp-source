@@ -1,0 +1,59 @@
+{
+  "status": "PASS_TRUE_RAKNET_COMMAND_PARSER_DELETING_ALIAS",
+  "run": "build/cp32-trial30-final-linked1",
+  "object_sha256": {
+    "eval_vendor_raknet_command_parser": "8a7ee6701523babf6b70c68f7d3b47c529d71bb9d9fbf07d470f413df4a0942a"
+  },
+  "dll_sha256": "2d72318d80a5ae984ac2207308c552c3668711191669fb920dd234005e1474ee",
+  "map_sha256": "4f011631c3fe92b7e2f964f4f312a15fdfe2e8af604535a10296b1c007db7b9b",
+  "aliases": [
+    {
+      "weak": "??_ERakNetCommandParser@@UAEPAXI@Z",
+      "canonical": "??_GRakNetCommandParser@@UAEPAXI@Z",
+      "table": "??_7RakNetCommandParser@@6B@",
+      "source_storage": 105,
+      "source_undefined": true,
+      "actual_aux_fallback": true,
+      "canonical_va": 268820384,
+      "alias_va": 268820384,
+      "owner": "eval_vendor_raknet_command_parser.obj",
+      "full_code": [
+        {
+          "image": "original",
+          "rva": 222704,
+          "size": 30,
+          "sha256": "c34f0b4ccdbdb0a09afda5e2266eb4b7abf436e006c0a5337d5118be1c8dd253",
+          "whole_bytes_equal": true,
+          "all_fixups_and_PE_relocations_equal": true
+        },
+        {
+          "image": "linked",
+          "rva": 384928,
+          "size": 30,
+          "sha256": "c53fd8e88a3ea0bad7d31fc19222a5161768fbd908b183aaea52ed24d6cea892",
+          "whole_bytes_equal": true,
+          "all_fixups_and_PE_relocations_equal": true
+        }
+      ],
+      "full_vft": [
+        {
+          "image": "original",
+          "rva": 949936,
+          "size": 60,
+          "sha256": "bc25f1f495d349ce73330ffed0b2115da9b596e78bc7f035d1f07761e5061433",
+          "whole_bytes_equal": true,
+          "all_fixups_and_PE_relocations_equal": true
+        },
+        {
+          "image": "linked",
+          "rva": 535400,
+          "size": 60,
+          "sha256": "e94828c8197891c01dae2dd0e98703f34526a1a720ae1eb81be34456538bb22d",
+          "whole_bytes_equal": true,
+          "all_fixups_and_PE_relocations_equal": true
+        }
+      ]
+    }
+  ],
+  "extra_code_credit": 0
+}

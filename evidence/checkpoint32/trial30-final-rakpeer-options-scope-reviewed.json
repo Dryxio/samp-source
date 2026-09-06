@@ -1,0 +1,68 @@
+{
+  "status": "PASS_WHOLE_SOURCE_FIELDS_AND_PROVIDER_SCOPE",
+  "run": "build/cp32-trial30-rakpeer-options",
+  "unique_new_code": 217,
+  "source025_direct_bytes": 0,
+  "accepted_providers": {
+    "?Lock@SimpleMutex@@QAEXXZ": {
+      "unit": "eval_vendor_simple_mutex",
+      "rva": 342016,
+      "size": 8
+    },
+    "?Reset@BitStream@RakNet@@QAEXXZ": {
+      "unit": "closure_cmd_bitstream",
+      "rva": 129264,
+      "size": 14
+    },
+    "?Write@BitStream@RakNet@@QAEXPBDH@Z": {
+      "unit": "closure_cmd_bitstream",
+      "rva": 131216,
+      "size": 113
+    },
+    "?Unlock@SimpleMutex@@QAEXXZ": {
+      "unit": "eval_vendor_simple_mutex",
+      "rva": 342032,
+      "size": 8
+    },
+    "?SetUnreliableTimeout@ReliabilityLayer@@QAEXI@Z": {
+      "unit": "eval_vendor_reliability_remote_settings",
+      "rva": 278128,
+      "size": 20
+    },
+    "?SetSplitMessageProgressInterval@ReliabilityLayer@@QAEXH@Z": {
+      "unit": "eval_vendor_reliability_remote_settings",
+      "rva": 278112,
+      "size": 10
+    }
+  },
+  "scope": [
+    "Complete actual RakPeer object, no allocation or constructor claimed.",
+    "SetSplitMessageProgressInterval stores its field then walks actual maximumNumberOfPeers remoteSystemList3177 stride; true ReliabilityLayer member setter10.",
+    "SetUnreliableTimeout identical real array walk and setter20; original unguarded remoteSystemList access preserved.",
+    "SetOfflinePingResponse locks actual embedded offlinePingResponse mutex; resets/writes complete273-byte BitStream; both unlock and null/data length branch preserved.",
+    "No new storage/EH/imports/callbacks. Whole67/75/75 and6 targets exact; original assert disabled by real NDEBUG.",
+    "No025benefit: complete vendor source already present."
+  ],
+  "snapshots": [
+    {
+      "path": "client/saco/eval_vendor_rakpeer_options.cpp",
+      "sha256": "f9ce9de5750395295608b05a49e70b8464501e11f0be8eaf9ec4c4569cd6bbe2"
+    },
+    {
+      "path": "vendor/upstream/raknet/RakPeer.cpp",
+      "sha256": "71b46e7918c933c5eb7a171d5c76d43833568e3193a0244b79e40bec4854c61b"
+    },
+    {
+      "path": "vendor/upstream/raknet/RakPeer.h",
+      "sha256": "3c462fd303bd7a7becc91f1b4e2752cff3656a2eec2a65afc0c15816c0902d75"
+    },
+    {
+      "path": "vendor/upstream/raknet/ReliabilityLayer.h",
+      "sha256": "39084418637b0154f56610ef2ca6f5cff2a45a00fdc4f0dfc195c9848a266e4c"
+    },
+    {
+      "path": "vendor/upstream/raknet/SimpleMutex.h",
+      "sha256": "280fc4e2452fd8ccce73a169b254f0b26d81054785f9a21a434fb9621b14b5f9"
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "status": "PASS_COMPLETE_TYPED_STORAGE_AND_REAL_INITIALIZATION_SCOPE",
+  "run": "build/agent-independent/socket-split-discovery",
+  "baseline": 407289,
+  "new_unique_code": 558,
+  "source025_direct_bytes": 0,
+  "accepted_provider_bindings": {
+    "?DomainNameToIP@SocketLayer@@QAEPBDPBD@Z": {
+      "unit": "closure_vendor_socket_leaves",
+      "rva": 342464,
+      "size": 41
+    },
+    "?SendConnectionRequest@RakPeer@@IAE_NPBDGPADH@Z": {
+      "unit": "eval_vendor_rakpeer_disconnect_requests",
+      "rva": 255648,
+      "size": 193
+    }
+  },
+  "scope": [
+    "Nine complete functions558 sourcebytes incl realinitializer22 andatexitdestructor10; all16 code/data regions and30 fixups exact. No data/CRTlibrary/duplicate credit.",
+    "SocketLayer actual complete class sizeof1; private static members ordinary C++definitions in separate TUs because independently anchored addresses are noncontiguous. No fake class or allocation.",
+    "Actual SDK WSADATA has398 bytes under inherited /Zp1, confirmed successfulcompile staticassert; fields total2+2+257+129+2+2+4. Entire typed398-byte source BSS at1198A8 qualified. Two remaining bytes before119A38 are not claimed; neighbor gap is not logicalsizeof proof.",
+    "Failed initial400-size assertion retained. Combined originalTU produced400-byte section storing WSADATA398+flag1+instance1, which mismatches R5 separate positions; split only true definitions, no manual padding or opaque fill.",
+    "Real source initialized SocketLayer::I at121A39 and startup bool121A38. Constructor39 calls actualWSAStartup(0x202,&winsockInfo); destructor23 realWSACleanup and clearsflag. No code execution.",
+    "Initializer22 atE42B0 calls exactconstructor53820 with I121A39 and registers actualE4330 viaatexit. Destructor10 atE4330 calls exact53850 withsameI. Other22/10byte homologues rejected by realconstructor/instance targets.",
+    "Whole CRT$XCU4@FE010 points actualE42B0 and carries PErelocation. No synthetic scalarpointer or substituted registration. Final link must qualify fullCRT range viaexisting strictgate.",
+    "GetMyIP117 preserves originalhostname80 stack buffer, hostent pointer walk, max10 outputaddresses of16 bytes. GetNumberAddresses original scan withoutextra bound retained. GetLocalIP clamps index>=10 to9 and clears entire actual static160-byte array118E38.",
+    "Connect202 preserves host/socket/thread guards, signed255 password cap, hostname resolution,loopback/selfport rejection, then genuine accepted SendConnectionRequest193. No networkworker initialization or SendTo outputglobal claimed.",
+    "No025benefit here: originalvendor source already available."
+  ],
+  "snapshots": [
+    {
+      "path": "client/saco/eval_store_socket_started.cpp",
+      "sha256": "9fe6f0363aca867ae52f99b7491b5ee7364f31c463a754093b79462501197aad"
+    },
+    {
+      "path": "client/saco/eval_store_socket_instance.cpp",
+      "sha256": "a43fe060db7182a31d5e0700545fe2952485e21c6002c38f92778367d392ec7e"
+    },
+    {
+      "path": "client/saco/eval_store_socket_winsock_info.cpp",
+      "sha256": "15afa866d8529639b4b2d3d39059cb607a428ec5a36fa6ba99a61e6375600b40"
+    },
+    {
+      "path": "client/saco/eval_vendor_socket_bootstrap.cpp",
+      "sha256": "a8c2fd0f0409867cce6e4c0aa106158815e823076aeb6e489372bfcd0e7062be"
+    },
+    {
+      "path": "client/saco/eval_vendor_rakpeer_connect_address.cpp",
+      "sha256": "38b0faf5c07725dd76a4677fed0f24ebd00b6968ab8a5a985e1eda33d264b73a"
+    },
+    {
+      "path": "vendor/upstream/raknet/SocketLayer.h",
+      "sha256": "6ef2d2627dd711c23bc712216e6af8180830e542b7d92e9397e28e02adfb4fa4"
+    },
+    {
+      "path": "vendor/upstream/raknet/SocketLayer.cpp",
+      "sha256": "f74e51f4e65744b35dbb46580cc6f22a3f17ee520c9ff7cacbe0a87837c914bd"
+    },
+    {
+      "path": "vendor/upstream/raknet/RakPeer.h",
+      "sha256": "3c462fd303bd7a7becc91f1b4e2752cff3656a2eec2a65afc0c15816c0902d75"
+    },
+    {
+      "path": "vendor/upstream/raknet/RakPeer.cpp",
+      "sha256": "71b46e7918c933c5eb7a171d5c76d43833568e3193a0244b79e40bec4854c61b"
+    },
+    {
+      "path": "vendor/upstream/raknet/NetworkTypes.h",
+      "sha256": "026005dc438fa4777babf8c0c855e1ace7323414137b147b38cd97e24daec83f"
+    }
+  ]
+}

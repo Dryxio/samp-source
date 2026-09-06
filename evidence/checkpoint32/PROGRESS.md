@@ -1512,3 +1512,6 @@ Remote899 +codec210 +RakServer1138 +IsActive11 provider (zero new credit): +2247
 
 
 Packet/template/state1662 +RakClient555: +2217 unique accepted code bytes, total407289/930756 (43.758944%). Whole original/linked code/data/EH, all actual COFF/PE targets; ten controls and Actor ABI PASS. Complete real records and inlinegetter context, no masks. Template624 copies counted once. Trial prepared914/fresh1303; direct0250 cumulative22342. Goal30min trial active, no push/deploy.
+
+
+Final trial networking1002 +markers216: +1218 unique accepted code bytes, total408507/930756 (43.889806%). Whole original/linked functions/storage/EH and COFF/PE targets, true singletonstartup CRTentry and complete typedWSADATA398+flag1+instance1, no invented padding. Ten controls and Actor ABI PASS. Actual simulator53 previouslycovered, zero duplicatecredit. Trailer and markerpacket remain excluded. All1218 work began duringtrial; direct0250 cumulative22342. No push/deploy.

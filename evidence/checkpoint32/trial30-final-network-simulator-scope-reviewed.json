@@ -1,0 +1,38 @@
+{
+  "status": "PASS_FULL_SOURCE_ABI_AND_WHOLE_TARGET_SCOPE",
+  "run": "build/cp32-trial30-socket-bootstrap2",
+  "new_unique_code": 227,
+  "already_covered_code": 53,
+  "source025_direct_bytes": 0,
+  "scope": [
+    "Actual ReliabilityLayer53 setter compiled as genuine source provider but already frozenbase,0gain. True5methods280physical with4fullfixups andfloatconstant8,227newunique.",
+    "Actual caller loops use RemoteSystemStruct3177 and its embedded ReliabilityLayer; no allocation or fake callbacks.",
+    "Client incomingthis DDE secondaryinterface adjusts-DDE toRakPeer. Server incomingprimarythis adds4 toRakPeer. Normal inheritance compiler ABI.",
+    "Set simulator values unchanged; actual ping grows to2*(min+variance) if smaller, with original overflow/arithmetic semantics.",
+    "IsNetworkSimulatorActive preserves floating comparison plusushortfields; whole sourcepositive0 double8 constant qualified no data credit.",
+    "_RELEASE differs fromNDEBUG in originalsource; no macroflag changed; simulationbody emitted normally.",
+    "No025benefit as vendorfullsource available."
+  ],
+  "snapshots": [
+    {
+      "path": "client/saco/eval_vendor_network_simulator.cpp",
+      "sha256": "5a9fe00239da884d2307af47b4c8d46b73177b102b0d60d1973360d055069367"
+    },
+    {
+      "path": "vendor/upstream/raknet/RakPeer.h",
+      "sha256": "3c462fd303bd7a7becc91f1b4e2752cff3656a2eec2a65afc0c15816c0902d75"
+    },
+    {
+      "path": "vendor/upstream/raknet/RakClient.h",
+      "sha256": "44b74fb38314b742c8a874db60d6dceefed82ad4cad7ca6be98630c83e49543e"
+    },
+    {
+      "path": "vendor/upstream/raknet/RakServer.h",
+      "sha256": "8e8668397f12878319847b51589d91bb10c98c92a0661f08c01c1208d102721c"
+    },
+    {
+      "path": "vendor/upstream/raknet/ReliabilityLayer.h",
+      "sha256": "39084418637b0154f56610ef2ca6f5cff2a45a00fdc4f0dfc195c9848a266e4c"
+    }
+  ]
+}
