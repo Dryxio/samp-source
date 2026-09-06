@@ -63,6 +63,8 @@ def draft(run, extra_seeds=None):
             offset=symbol['value'];size=18;kind='script-command'
         if unit=='closure_rpc_game_text' and kind=='data' and symbol['name']=='_text_clear_all':
             offset=symbol['value'];size=18;kind='script-command'
+        if unit=='closure_vehicle_appearance_interior' and kind=='data' and symbol['name'] in ('_rpc_select_ped_interior','_rpc_link_ped_interior','_rpc_refresh_ped_streaming'):
+            offset=symbol['value'];size=18;kind='script-command'
         if unit=='closure_state':
             offset=symbol['value'];size=2 if symbol['name']=='?wVehicleComponentDebug@@3GA' else 4;kind='zero-object'
         base=rva-symbol['value']+offset;key=(unit,index,offset,size)
