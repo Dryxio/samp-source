@@ -1,0 +1,84 @@
+{
+  "status": "DISCOVERY_PROPOSALS_STABLE_NOT_ACCEPTED",
+  "baseline_bytes": 277519,
+  "baseline_proof": "evidence/checkpoint32/listbox-roster-acceptance.json",
+  "sources": [
+    {
+      "source": "vendor/upstream/raknet/DS_Table.cpp",
+      "source_sha256": "3bfa91bb9cdb14fcfd6474e69abff0dcd9ce3d1347a70e37d9cf9f56cf2c4306",
+      "proposal": "build/agent-independent/eval_vendor_database_table.cpp",
+      "proposal_sha256": "e8ee49599eed23b8b88c66995ea8ef7b70243516d888395f417718b0eb208917"
+    },
+    {
+      "source": "vendor/upstream/raknet/TableSerializer.cpp",
+      "source_sha256": "4b53c80b523f1dfd89e5980bc72ec3a69568d65b9a216a5e2dddaa24f2fd1a4e",
+      "proposal": "build/agent-independent/eval_vendor_table_serializer.cpp",
+      "proposal_sha256": "5dd654aa292eae17a094ffa487b32f60b9f8ea783731f3f33dc5fef0453d2c8e"
+    },
+    {
+      "source": "vendor/upstream/raknet/LightweightDatabaseCommon.cpp",
+      "source_sha256": "2a3e88866c29e525e49c2c03b1236cf0a8e240f1e34a3497b7de68c3124d1c5c",
+      "proposal": "build/agent-independent/eval_vendor_database_common.cpp",
+      "proposal_sha256": "409bf080a70010c77a26a6c8283db4cd00a7bb580a0227cd710cf43f972678ed"
+    }
+  ],
+  "adaptations": [
+    "Only quoted include paths changed for client/saco placement; compile-time full-layout assertions appended. All bodies and original order preserved.",
+    "Normal C++ source; no partial allocations, virtual classes, instructions or substitute providers."
+  ],
+  "source025_direct_bytes": 0,
+  "source025_reason": "All three complete vendor sources already exist in base; benefit comes from enabling missing vendor translation units.",
+  "provider_anchors_from_database_server": {
+    "??0Table@DataStructures@@QAE@XZ": "0x1002a210",
+    "??1Table@DataStructures@@QAE@XZ": "0x1002a230",
+    "?GetRows@Table@DataStructures@@QAEAAV?$BPlusTree@IPAURow@Table@DataStructures@@$0BA@@2@XZ": "0x100274d0",
+    "?GetRowByID@Table@DataStructures@@QAEPAURow@12@I@Z": "0x10029090",
+    "?AddRow@Table@DataStructures@@QAEPAURow@12@I@Z": "0x10029b30",
+    "?Set@Cell@Table@DataStructures@@QAEXPADH@Z": "0x100272f0",
+    "?Set@Cell@Table@DataStructures@@QAEXH@Z": "0x10027270",
+    "?Clear@Table@DataStructures@@QAEXXZ": "0x1002a1a0",
+    "?RemoveRow@Table@DataStructures@@QAEXI@Z": "0x10029e10",
+    "?Get@Cell@Table@DataStructures@@QAEXPADPAH@Z": "0x10027380",
+    "?ToString@PlayerID@@QBEPAD_N@Z": "0x100337a0",
+    "?AddColumn@Table@DataStructures@@QAEIQADW4ColumnType@12@@Z": "0x10028fa0",
+    "?Deserialize@DatabaseFilter@@QAE_NPAVBitStream@RakNet@@@Z": "0x1002f1d0",
+    "??1FilterQuery@Table@DataStructures@@QAE@XZ": "0x10027490",
+    "??0FilterQuery@Table@DataStructures@@QAE@XZ": "0x10027480",
+    "?ColumnIndex@Table@DataStructures@@QAEIQAD@Z": "0x10027ff0",
+    "?GetColumns@Table@DataStructures@@QAEAAV?$List@UColumnDescriptor@Table@DataStructures@@@2@XZ": "0x100274c0",
+    "?QueryTable@Table@DataStructures@@QAEXPAIIPAUFilterQuery@12@I0IPAV12@@Z": "0x1002a290",
+    "?SerializeTable@TableSerializer@@SAXPAVTable@DataStructures@@PAVBitStream@RakNet@@@Z": "0x10055540",
+    "?Deserialize@DatabaseCellUpdate@@QAE_NPAVBitStream@RakNet@@@Z": "0x1002f2a0",
+    "?Clear@Cell@Table@DataStructures@@QAEXXZ": "0x10027410",
+    "?GetColumnType@Table@DataStructures@@QAE?AW4ColumnType@12@I@Z": "0x10028070",
+    "?UpdateCell@Row@Table@DataStructures@@QAEXIH@Z": "0x10027f60",
+    "?UpdateCell@Row@Table@DataStructures@@QAEXIHPAD@Z": "0x10027fc0",
+    "?UpdateCell@Row@Table@DataStructures@@QAEXIPAD@Z": "0x10027f90"
+  },
+  "excluded_owner": "PlayerID::ToString337A0 is being implemented by integrator; do not duplicate.",
+  "real_full_layout_zp1": {
+    "Cell": 9,
+    "ColumnDescriptor": 36,
+    "Row": 12,
+    "FilterQuery": 12,
+    "SortQuery": 8,
+    "MemoryPool_TablePage": 16,
+    "BPlusTree_TableRow_order16": 24,
+    "Table": 36,
+    "Page_TableRow_order16": 209,
+    "DatabaseFilter": 49,
+    "DatabaseCellUpdate": 45
+  },
+  "dependency_plan": [
+    "Table implements all Cell/Row/Table methods plus genuine BPlusTree< unsigned,Row*,16> and List/OrderedList helpers emitted from complete headers.",
+    "TableSerializer implements six real methods, relies on Table + accepted BitStream/StringCompressor, CRT alloca probe for genuine 65535-byte local string.",
+    "DatabaseCommon implements Serialize/Deserialize for both Filter and CellUpdate, calls actual TableSerializer Cell methods.",
+    "Full discovery first, then qualify actual template copies, complete EH/data and original call targets before deciding the closed accepted subset."
+  ],
+  "data_notes": [
+    "Table four file-static sort fields are actual typed storage: query pointer4, count4, columnIndices pointer4, columns pointer4; require complete section/original identity after probe.",
+    "Do not assume contiguous RVA placement; if section does not map wholly, split actual stores with compile-visible semantics retained.",
+    "Table sorting and BPlusTree ForEachData use actual RowSort/ExtendRows/FreeRow callbacks supplied by this same source. No network callback credit."
+  ],
+  "potential": "DatabaseServer roots plus table/serializer likely several KB; no exact or unique byte claim before fresh probe and full union deduction."
+}

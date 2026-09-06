@@ -149,8 +149,37 @@ class Gate:
         if not a['accepted'] or not b['accepted'] or a['kind']!='code' or (a['rva'],a['size'],a['sha256'])!=(b['rva'],b['size'],b['sha256']):return None
         return dict(unit=r['unit'],anchor=r['anchor'],section=r['section'],parent=funcs[0]['name'],selected_owner=owner,parent_linked_va=entries[0][0])
 
+    def bind_crt_initializer(self,r):
+        """Locate one compiler initializer slot inside the pinned CRT array only."""
+        obj=self.objects[r['unit']];sec=obj.sections[r['section']-1]
+        if sec['name']!='.CRT$XCU':return False
+        need(r['accepted'] and r['kind']=='data' and r['offset']==0 and r['size']==sec['size']==4 and not sec['uninitialized'],'invalid complete CRT initializer section')
+        fixes=relocs(obj,r['section'])
+        need(len(fixes)==1 and fixes[0]['offset']==0 and fixes[0]['kind']==6 and u32(sec['bytes'],0)==0,'invalid CRT initializer relocation')
+        target,offset=self.provider(r['unit'],fixes[0]['symbol'])
+        need(not isinstance(target,str) and target['unit']==r['unit'] and target['accepted'] and target['kind']=='code' and offset==0,'CRT initializer lacks a complete local provider')
+        need(r['rva'] in self.reference.relocations and u32(self.reference.read(r['rva'],4),0)==self.reference.base+target['rva'],'wrong original CRT initializer target or relocation')
+        if 'linked_va' not in target:return False
+        bounds=[]
+        for name in ('___xc_a','___xc_z'):
+            hits=self.maps.get(name,[])
+            need(len(hits)==1 and hits[0][1].upper()=='LIBCMT:CRT0INIT.OBJ','invalid pinned CRT sentinel owner')
+            bounds.append(hits[0][0]-self.linked.base)
+        begin,end=bounds
+        need(begin%4==0 and end%4==0 and begin+4<end,'invalid CRT initializer bounds')
+        containers=[x for x in self.linked.sections if x['rva']<=begin and end+4<=x['rva']+x['size']]
+        need(len(containers)==1 and self.linked.read(begin,4)==bytes(4) and self.linked.read(end,4)==bytes(4),'invalid CRT sentinel section or contents')
+        hits=[a for a in range(begin+4,end,4) if u32(self.linked.read(a,4),0)==target['linked_va']]
+        need(len(hits)==1,'missing or ambiguous CRT initializer slot')
+        need(hits[0] in self.linked.relocations,'missing linked CRT initializer PE relocation')
+        self.locate(r,self.linked.base+hits[0])
+        proof=dict(unit=r['unit'],section=r['section'],original_rva=r['rva'],linked_rva=hits[0],size=4,provider=target['anchor'],provider_linked_va=target['linked_va'],sentinels=bounds,owner='LIBCMT:crt0init.obj')
+        if proof not in self.crt_initializer_bindings:self.crt_initializer_bindings.append(proof)
+        return True
+
     def bind(self):
         self.associative_bindings=[]
+        self.crt_initializer_bindings=[]
         for r in self.regions:
             if r['anchor'] in self.maps:
                 association=self.discarded_associative_owner(r)
@@ -161,6 +190,9 @@ class Gate:
         progress=True
         while progress:
             progress=False
+            for r in self.regions:
+                was_bound='linked_va' in r
+                if self.bind_crt_initializer(r) and not was_bound:progress=True
             for r in self.regions:
                 if 'linked_va' not in r or not r['accepted']:continue
                 obj=self.objects[r['unit']];sec=obj.sections[r['section']-1]

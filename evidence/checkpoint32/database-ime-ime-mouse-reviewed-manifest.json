@@ -1,0 +1,390 @@
+{
+  "status": "SCOPED_PREFLIGHT_NOT_ACCEPTANCE",
+  "run": "cp32-database-ime-ob1-v2",
+  "baseline": 277519,
+  "code_bytes": 840,
+  "unique_new_code": 840,
+  "EH": 0,
+  "data_bytes": 1024,
+  "reused_float_bytes": 0,
+  "direct025_code_credit": 0,
+  "regions": [
+    {
+      "unit": "closure_gui_ime_mouse",
+      "anchor": "?HandleMouse@CDXUTIMEEditBox@@UAE_NIUtagPOINT@@IJ@Z",
+      "rva": 562832,
+      "size": 840,
+      "section": 54,
+      "kind": "code",
+      "object_sha256": "a554132d0f8d8f4bee8755f07ba9b874e26a58653a8fe47379c9fc80a322d494",
+      "sha256": "0ae93a4070a093dd304b59135d16644a9be40a9af3ea2b64418bfeadb352676c",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "?GetFont@CDXUTDialog@@QAEPAUDXUTFontNode@@I@Z",
+          "site_rva": 562902,
+          "symbol_va": 268988608,
+          "addend": 0,
+          "target_va": 268988608,
+          "kind": 20
+        },
+        {
+          "symbol": "?s_CompString@CDXUTIMEEditBox@@1VCUniBuffer@@A",
+          "site_rva": 562908,
+          "symbol_va": 269756316,
+          "addend": 0,
+          "target_va": 269756316,
+          "kind": 6
+        },
+        {
+          "symbol": "__imp__lstrlenW@4",
+          "site_rva": 562924,
+          "symbol_va": 269373888,
+          "addend": 0,
+          "target_va": 269373888,
+          "kind": 6
+        },
+        {
+          "symbol": "?s_CompString@CDXUTIMEEditBox@@1VCUniBuffer@@A",
+          "site_rva": 562930,
+          "symbol_va": 269756316,
+          "addend": 0,
+          "target_va": 269756316,
+          "kind": 6
+        },
+        {
+          "symbol": "?CPtoX@CUniBuffer@@QAEJHHPAH@Z",
+          "site_rva": 562935,
+          "symbol_va": 269073648,
+          "addend": 0,
+          "target_va": 269073648,
+          "kind": 20
+        },
+        {
+          "symbol": "?s_ptCompString@CDXUTIMEEditBox@@1UtagPOINT@@A",
+          "site_rva": 562940,
+          "symbol_va": 269752332,
+          "addend": 0,
+          "target_va": 269752332,
+          "kind": 6
+        },
+        {
+          "symbol": "?s_ptCompString@CDXUTIMEEditBox@@1UtagPOINT@@A",
+          "site_rva": 562954,
+          "symbol_va": 269752332,
+          "addend": 4,
+          "target_va": 269752336,
+          "kind": 6
+        },
+        {
+          "symbol": "?s_CompString@CDXUTIMEEditBox@@1VCUniBuffer@@A",
+          "site_rva": 563010,
+          "symbol_va": 269756316,
+          "addend": 0,
+          "target_va": 269756316,
+          "kind": 6
+        },
+        {
+          "symbol": "?XtoCP@CUniBuffer@@QAEJHPAH0@Z",
+          "site_rva": 563015,
+          "symbol_va": 269073712,
+          "addend": 0,
+          "target_va": 269073712,
+          "kind": 20
+        },
+        {
+          "symbol": "?s_CompString@CDXUTIMEEditBox@@1VCUniBuffer@@A",
+          "site_rva": 563028,
+          "symbol_va": 269756316,
+          "addend": 0,
+          "target_va": 269756316,
+          "kind": 6
+        },
+        {
+          "symbol": "__imp__lstrlenW@4",
+          "site_rva": 563035,
+          "symbol_va": 269373888,
+          "addend": 0,
+          "target_va": 269373888,
+          "kind": 6
+        },
+        {
+          "symbol": "?_ImmGetContext@CDXUTIMEEditBox@@1P6GPAUHIMC__@@PAUHWND__@@@ZA",
+          "site_rva": 563062,
+          "symbol_va": 269495372,
+          "addend": 0,
+          "target_va": 269495372,
+          "kind": 6
+        },
+        {
+          "symbol": "?_ImmNotifyIME@CDXUTIMEEditBox@@1P6GHPAUHIMC__@@KKK@ZA",
+          "site_rva": 563085,
+          "symbol_va": 269495408,
+          "addend": 0,
+          "target_va": 269495408,
+          "kind": 6
+        },
+        {
+          "symbol": "?_ImmReleaseContext@CDXUTIMEEditBox@@1P6GHPAUHWND__@@PAUHIMC__@@@ZA",
+          "site_rva": 563099,
+          "symbol_va": 269495376,
+          "addend": 0,
+          "target_va": 269495376,
+          "kind": 6
+        },
+        {
+          "symbol": "?s_hklCurrent@CDXUTIMEEditBox@@1PAUHKL__@@A",
+          "site_rva": 563104,
+          "symbol_va": 269756272,
+          "addend": 0,
+          "target_va": 269756272,
+          "kind": 6
+        },
+        {
+          "symbol": "?s_nFirstTargetConv@CDXUTIMEEditBox@@1HA",
+          "site_rva": 563125,
+          "symbol_va": 269752348,
+          "addend": 0,
+          "target_va": 269752348,
+          "kind": 6
+        },
+        {
+          "symbol": "?s_adwCompStringClause@CDXUTIMEEditBox@@1PAKA",
+          "site_rva": 563136,
+          "symbol_va": 269752616,
+          "addend": 4,
+          "target_va": 269752620,
+          "kind": 6
+        },
+        {
+          "symbol": "?s_adwCompStringClause@CDXUTIMEEditBox@@1PAKA",
+          "site_rva": 563155,
+          "symbol_va": 269752616,
+          "addend": 8,
+          "target_va": 269752624,
+          "kind": 6
+        },
+        {
+          "symbol": "?s_adwCompStringClause@CDXUTIMEEditBox@@1PAKA",
+          "site_rva": 563173,
+          "symbol_va": 269752616,
+          "addend": 8,
+          "target_va": 269752624,
+          "kind": 6
+        },
+        {
+          "symbol": "?SendKey@CDXUTIMEEditBox@@KAXE@Z",
+          "site_rva": 563218,
+          "symbol_va": 268982704,
+          "addend": 0,
+          "target_va": 268982704,
+          "kind": 20
+        },
+        {
+          "symbol": "?s_nCompCaret@CDXUTIMEEditBox@@1HA",
+          "site_rva": 563239,
+          "symbol_va": 269752320,
+          "addend": 0,
+          "target_va": 269752320,
+          "kind": 6
+        },
+        {
+          "symbol": "?SendKey@CDXUTIMEEditBox@@KAXE@Z",
+          "site_rva": 563282,
+          "symbol_va": 268982704,
+          "addend": 0,
+          "target_va": 268982704,
+          "kind": 20
+        },
+        {
+          "symbol": "?r5ImeCandidateState@@3UR5ImeCandidateListState@@A",
+          "site_rva": 563302,
+          "symbol_va": 269756336,
+          "addend": 5163,
+          "target_va": 269761499,
+          "kind": 6
+        },
+        {
+          "symbol": "?r5ImeCandidateState@@3UR5ImeCandidateListState@@A",
+          "site_rva": 563317,
+          "symbol_va": 269756336,
+          "addend": 5164,
+          "target_va": 269761500,
+          "kind": 6
+        },
+        {
+          "symbol": "__imp__PtInRect@12",
+          "site_rva": 563323,
+          "symbol_va": 269374416,
+          "addend": 0,
+          "target_va": 269374416,
+          "kind": 6
+        },
+        {
+          "symbol": "?s_bVerticalCand@CDXUTIMEEditBox@@1_NA",
+          "site_rva": 563336,
+          "symbol_va": 269752353,
+          "addend": 0,
+          "target_va": 269752353,
+          "kind": 6
+        },
+        {
+          "symbol": "?r5ImeCandidateState@@3UR5ImeCandidateListState@@A",
+          "site_rva": 563350,
+          "symbol_va": 269756336,
+          "addend": 5168,
+          "target_va": 269761504,
+          "kind": 6
+        },
+        {
+          "symbol": "?r5ImeCandidateState@@3UR5ImeCandidateListState@@A",
+          "site_rva": 563367,
+          "symbol_va": 269756336,
+          "addend": 5147,
+          "target_va": 269761483,
+          "kind": 6
+        },
+        {
+          "symbol": "?s_hklCurrent@CDXUTIMEEditBox@@1PAUHKL__@@A",
+          "site_rva": 563379,
+          "symbol_va": 269756272,
+          "addend": 0,
+          "target_va": 269756272,
+          "kind": 6
+        },
+        {
+          "symbol": "?SendKey@CDXUTIMEEditBox@@KAXE@Z",
+          "site_rva": 563410,
+          "symbol_va": 268982704,
+          "addend": 0,
+          "target_va": 268982704,
+          "kind": 20
+        },
+        {
+          "symbol": "?r5ImeCandidateState@@3UR5ImeCandidateListState@@A",
+          "site_rva": 563428,
+          "symbol_va": 269756336,
+          "addend": 5151,
+          "target_va": 269761487,
+          "kind": 6
+        },
+        {
+          "symbol": "?SendKey@CDXUTIMEEditBox@@KAXE@Z",
+          "site_rva": 563464,
+          "symbol_va": 268982704,
+          "addend": 0,
+          "target_va": 268982704,
+          "kind": 20
+        },
+        {
+          "symbol": "?SendKey@CDXUTIMEEditBox@@KAXE@Z",
+          "site_rva": 563477,
+          "symbol_va": 268982704,
+          "addend": 0,
+          "target_va": 268982704,
+          "kind": 20
+        },
+        {
+          "symbol": "?SendKey@CDXUTIMEEditBox@@KAXE@Z",
+          "site_rva": 563484,
+          "symbol_va": 268982704,
+          "addend": 0,
+          "target_va": 268982704,
+          "kind": 20
+        },
+        {
+          "symbol": "?r5ImeCandidateState@@3UR5ImeCandidateListState@@A",
+          "site_rva": 563502,
+          "symbol_va": 269756336,
+          "addend": 5164,
+          "target_va": 269761500,
+          "kind": 6
+        },
+        {
+          "symbol": "?r5ImeCandidateState@@3UR5ImeCandidateListState@@A",
+          "site_rva": 563520,
+          "symbol_va": 269756336,
+          "addend": 5120,
+          "target_va": 269761456,
+          "kind": 6
+        },
+        {
+          "symbol": "?XtoCP@CUniBuffer@@QAEJHPAH0@Z",
+          "site_rva": 563525,
+          "symbol_va": 269073712,
+          "addend": 0,
+          "target_va": 269073712,
+          "kind": 20
+        },
+        {
+          "symbol": "?r5ImeCandidateState@@3UR5ImeCandidateListState@@A",
+          "site_rva": 563530,
+          "symbol_va": 269756336,
+          "addend": 5147,
+          "target_va": 269761483,
+          "kind": 6
+        },
+        {
+          "symbol": "?r5ImeCandidateState@@3UR5ImeCandidateListState@@A",
+          "site_rva": 563546,
+          "symbol_va": 269756336,
+          "addend": 0,
+          "target_va": 269756336,
+          "kind": 6
+        },
+        {
+          "symbol": "__imp__lstrlenW@4",
+          "site_rva": 563561,
+          "symbol_va": 269373888,
+          "addend": 0,
+          "target_va": 269373888,
+          "kind": 6
+        },
+        {
+          "symbol": "?r5ImeCandidateState@@3UR5ImeCandidateListState@@A",
+          "site_rva": 563570,
+          "symbol_va": 269756336,
+          "addend": 5147,
+          "target_va": 269761483,
+          "kind": 6
+        },
+        {
+          "symbol": "?s_hklCurrent@CDXUTIMEEditBox@@1PAUHKL__@@A",
+          "site_rva": 563591,
+          "symbol_va": 269756272,
+          "addend": 0,
+          "target_va": 269756272,
+          "kind": 6
+        },
+        {
+          "symbol": "?SendKey@CDXUTIMEEditBox@@KAXE@Z",
+          "site_rva": 563619,
+          "symbol_va": 268982704,
+          "addend": 0,
+          "target_va": 268982704,
+          "kind": 20
+        },
+        {
+          "symbol": "?HandleMouse@CDXUTEditBox@@UAE_NIUtagPOINT@@IJ@Z",
+          "site_rva": 563655,
+          "symbol_va": 268996960,
+          "addend": 0,
+          "target_va": 268996960,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "closure_ime_store_comp_string_clauses",
+      "anchor": "?s_adwCompStringClause@CDXUTIMEEditBox@@1PAKA",
+      "rva": 1317160,
+      "size": 1024,
+      "section": 3,
+      "kind": "bss",
+      "object_sha256": "89cd138d499c792f740ac1422a46de3ccf927b2c8648e568b0e194f3df04ceb7",
+      "sha256": "5f70bf18a086007016e948b04aed3b82103a36bea41755b6cddfaf10ace3c6ef",
+      "whole_bytes_equal": true,
+      "bindings": []
+    }
+  ]
+}

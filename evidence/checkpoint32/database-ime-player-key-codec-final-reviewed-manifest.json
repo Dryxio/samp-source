@@ -1,0 +1,83 @@
+{
+  "status": "REVIEWED_WHOLE_SECTIONS_NOT_ACCEPTED",
+  "run": "build/cp32-database-ime-ob2-v2",
+  "baseline_proof": "evidence/checkpoint32/listbox-roster-acceptance.json",
+  "baseline": 277519,
+  "seeds": {
+    "closure_player_key_codec": {
+      "?SetKeys@CPlayerPed@@QAEXGGG@Z": 717632,
+      "?IsInVehicle@CPlayerPed@@QAEHXZ": 704112,
+      "?IsInJetpackMode@CPlayerPed@@QAEHXZ": 708032
+    }
+  },
+  "regions": [
+    {
+      "unit": "closure_player_key_codec",
+      "section": 50,
+      "rva": 717632,
+      "size": 655,
+      "kind": ".text",
+      "sha256": "e31b255a1bdc09b34195b86672d2ab91caab4d568c0e2b6a9a59d68c2cdf969b",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "?GameGetPlayerKeys@@YAPAU_GTA_CONTROLSET@@H@Z",
+          "site_rva": 717647,
+          "target_va": 269120464,
+          "kind": 20
+        },
+        {
+          "symbol": "?GameStoreRemotePlayerKeys@@YAXHPAU_GTA_CONTROLSET@@@Z",
+          "site_rva": 718273,
+          "target_va": 269120320,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "closure_player_key_codec",
+      "section": 46,
+      "rva": 704112,
+      "size": 24,
+      "kind": ".text",
+      "sha256": "eb1aa0c1b1e0588525de4d2bf5abe10d1a40b1cb1638ccc87d5acd1e7413b264",
+      "whole_bytes_equal": true,
+      "bindings": []
+    },
+    {
+      "unit": "closure_player_key_codec",
+      "section": 48,
+      "rva": 708032,
+      "size": 53,
+      "kind": ".text",
+      "sha256": "f1f9326149fc7c60d37c09796cae55881c9b81d90bf590410426c94eace1d1c6",
+      "whole_bytes_equal": true,
+      "bindings": []
+    }
+  ],
+  "new_unique": 655,
+  "already_covered": 77,
+  "source025_direct_bytes": 0,
+  "source_sha256": "ab2e2e05c0a35ebe915a1e661aca2bef5b108734f276dd5a7d251e19585f0a90",
+  "object_sha256": "e48fcff5affe1dd7f3738c49c373b2894f10eceafa8f2e5978620c5724d9403f",
+  "required_owner_transfer": {
+    "from": "closure_player",
+    "to": "closure_player_key_codec",
+    "symbols": {
+      "?IsInVehicle@CPlayerPed@@QAEHXZ": 704112,
+      "?IsInJetpackMode@CPlayerPed@@QAEHXZ": 708032
+    },
+    "bytes_already_covered": 77,
+    "instruction": "Remove only these two real definitions from old source and move old seeds after new full-profile byte review. No silent duplicate definitions; remaining old owner methods require unchanged-byte verification after compilation."
+  },
+  "excluded": {
+    "GetKeys": {
+      "original_rva": 718288,
+      "original_size": 338,
+      "trial_size": 303,
+      "final_source": "Entire unmatched GetKeys body removed; no HasAmmoForCurrentWeapon dependency/stub remains.",
+      "status": "PARKED_NO_CREDIT"
+    }
+  },
+  "eh_data": "None reachable in these three whole function sections; only two direct calls in SetKeys, no data references or PE relocations."
+}

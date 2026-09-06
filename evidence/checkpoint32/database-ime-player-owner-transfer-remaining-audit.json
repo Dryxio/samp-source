@@ -1,0 +1,698 @@
+{
+  "status": "PASS_REMAINING_ACCEPTED_OWNER_UNCHANGED",
+  "baseline_proof": "evidence/checkpoint32/listbox-roster-acceptance.json",
+  "old_object": "build/cp32-listbox-roster-linked2/closure_player.obj",
+  "old_sha256": "975dede561b23b6fee52ed07748d33ac1c6c1b391da82ad4ee5be1b5457789ea",
+  "new_object": "build/cp32-database-ime-ob1/closure_player.obj",
+  "new_sha256": "7d60ac5b718035e7b26448e6652db68f73d5fb4d4f1542293fa703f8d3349018",
+  "removed_definitions": [
+    "?IsInVehicle@CPlayerPed@@QAEHXZ",
+    "?IsInJetpackMode@CPlayerPed@@QAEHXZ"
+  ],
+  "transferred_old_bytes": 77,
+  "remaining_regions": 85,
+  "remaining_code_functions": 67,
+  "regions": [
+    {
+      "anchor": "?ResetPointers@CPlayerPed@@QAEXXZ",
+      "rva": 703408,
+      "size": 23,
+      "kind": "code",
+      "whole_function_bytes_unchanged": true,
+      "all_fixup_offsets_kinds_symbols_unchanged": true
+    },
+    {
+      "anchor": "?SetInitialState@CPlayerPed@@QAEXXZ",
+      "rva": 703440,
+      "size": 29,
+      "kind": "code",
+      "whole_function_bytes_unchanged": true,
+      "all_fixup_offsets_kinds_symbols_unchanged": true
+    },
+    {
+      "anchor": "?GetSpecialKey@CPlayerPed@@QAEEXZ",
+      "rva": 703472,
+      "size": 39,
+      "kind": "code",
+      "whole_function_bytes_unchanged": true,
+      "all_fixup_offsets_kinds_symbols_unchanged": true
+    },
+    {
+      "anchor": "?SetCurrentAim@CPlayerPed@@QAEXPAU_CAMERA_AIM@@@Z",
+      "rva": 703536,
+      "size": 21,
+      "kind": "code",
+      "whole_function_bytes_unchanged": true,
+      "all_fixup_offsets_kinds_symbols_unchanged": true
+    },
+    {
+      "anchor": "?GetCurrentWeapon@CPlayerPed@@QAEEXZ",
+      "rva": 703568,
+      "size": 61,
+      "kind": "code",
+      "whole_function_bytes_unchanged": true,
+      "all_fixup_offsets_kinds_symbols_unchanged": true
+    },
+    {
+      "anchor": "?GetCurrentVehicleID@CPlayerPed@@QAEHXZ",
+      "rva": 703632,
+      "size": 24,
+      "kind": "code",
+      "whole_function_bytes_unchanged": true,
+      "all_fixup_offsets_kinds_symbols_unchanged": true
+    },
+    {
+      "anchor": "?HideMarker@CPlayerPed@@QAEXXZ",
+      "rva": 703664,
+      "size": 39,
+      "kind": "code",
+      "whole_function_bytes_unchanged": true,
+      "all_fixup_offsets_kinds_symbols_unchanged": true
+    },
+    {
+      "anchor": "?IsOnScreen@CPlayerPed@@QAEHXZ",
+      "rva": 703712,
+      "size": 20,
+      "kind": "code",
+      "whole_function_bytes_unchanged": true,
+      "all_fixup_offsets_kinds_symbols_unchanged": true
+    },
+    {
+      "anchor": "?SetImmunities@CPlayerPed@@QAEXHHHHH@Z",
+      "rva": 703744,
+      "size": 72,
+      "kind": "code",
+      "whole_function_bytes_unchanged": true,
+      "all_fixup_offsets_kinds_symbols_unchanged": true
+    },
+    {
+      "anchor": "?GetHealth@CPlayerPed@@QAEMXZ",
+      "rva": 703824,
+      "size": 24,
+      "kind": "code",
+      "whole_function_bytes_unchanged": true,
+      "all_fixup_offsets_kinds_symbols_unchanged": true
+    },
+    {
+      "anchor": "?SetHealth@CPlayerPed@@QAEXM@Z",
+      "rva": 703856,
+      "size": 23,
+      "kind": "code",
+      "whole_function_bytes_unchanged": true,
+      "all_fixup_offsets_kinds_symbols_unchanged": true
+    },
+    {
+      "anchor": "?GetArmour@CPlayerPed@@QAEMXZ",
+      "rva": 703888,
+      "size": 24,
+      "kind": "code",
+      "whole_function_bytes_unchanged": true,
+      "all_fixup_offsets_kinds_symbols_unchanged": true
+    },
+    {
+      "anchor": "?SetArmour@CPlayerPed@@QAEXM@Z",
+      "rva": 703920,
+      "size": 23,
+      "kind": "code",
+      "whole_function_bytes_unchanged": true,
+      "all_fixup_offsets_kinds_symbols_unchanged": true
+    },
+    {
+      "anchor": "?GetStateFlags@CPlayerPed@@QAEKXZ",
+      "rva": 703952,
+      "size": 18,
+      "kind": "code",
+      "whole_function_bytes_unchanged": true,
+      "all_fixup_offsets_kinds_symbols_unchanged": true
+    },
+    {
+      "anchor": "?SetStateFlags@CPlayerPed@@QAEXK@Z",
+      "rva": 703984,
+      "size": 23,
+      "kind": "code",
+      "whole_function_bytes_unchanged": true,
+      "all_fixup_offsets_kinds_symbols_unchanged": true
+    },
+    {
+      "anchor": "?IsDead@CPlayerPed@@QAEHXZ",
+      "rva": 704016,
+      "size": 38,
+      "kind": "code",
+      "whole_function_bytes_unchanged": true,
+      "all_fixup_offsets_kinds_symbols_unchanged": true
+    },
+    {
+      "anchor": "?GetActionTrigger@CPlayerPed@@QAEEXZ",
+      "rva": 704064,
+      "size": 13,
+      "kind": "code",
+      "whole_function_bytes_unchanged": true,
+      "all_fixup_offsets_kinds_symbols_unchanged": true
+    },
+    {
+      "anchor": "?SetActionTrigger@CPlayerPed@@QAEXE@Z",
+      "rva": 704080,
+      "size": 24,
+      "kind": "code",
+      "whole_function_bytes_unchanged": true,
+      "all_fixup_offsets_kinds_symbols_unchanged": true
+    },
+    {
+      "anchor": "?GetTargetRotation@CPlayerPed@@QAEMXZ",
+      "rva": 704144,
+      "size": 118,
+      "kind": "code",
+      "whole_function_bytes_unchanged": true,
+      "all_fixup_offsets_kinds_symbols_unchanged": true
+    },
+    {
+      "anchor": "?SetTargetRotation@CPlayerPed@@QAEXM@Z",
+      "rva": 704272,
+      "size": 75,
+      "kind": "code",
+      "whole_function_bytes_unchanged": true,
+      "all_fixup_offsets_kinds_symbols_unchanged": true
+    },
+    {
+      "anchor": "?IsAPassenger@CPlayerPed@@QAEHXZ",
+      "rva": 704448,
+      "size": 60,
+      "kind": "code",
+      "whole_function_bytes_unchanged": true,
+      "all_fixup_offsets_kinds_symbols_unchanged": true
+    },
+    {
+      "anchor": "?GetGtaVehicle@CPlayerPed@@QAEPAU_VEHICLE_TYPE@@XZ",
+      "rva": 704512,
+      "size": 13,
+      "kind": "code",
+      "whole_function_bytes_unchanged": true,
+      "all_fixup_offsets_kinds_symbols_unchanged": true
+    },
+    {
+      "anchor": "?ClearAllWeapons@CPlayerPed@@QAEXXZ",
+      "rva": 704528,
+      "size": 66,
+      "kind": "code",
+      "whole_function_bytes_unchanged": true,
+      "all_fixup_offsets_kinds_symbols_unchanged": true
+    },
+    {
+      "anchor": "?SetArmedWeapon@CPlayerPed@@QAEXH_N@Z",
+      "rva": 704608,
+      "size": 174,
+      "kind": "code",
+      "whole_function_bytes_unchanged": true,
+      "all_fixup_offsets_kinds_symbols_unchanged": true
+    },
+    {
+      "anchor": "?RemoveWeaponWhenEnteringVehicle@CPlayerPed@@QAEXXZ",
+      "rva": 704784,
+      "size": 33,
+      "kind": "code",
+      "whole_function_bytes_unchanged": true,
+      "all_fixup_offsets_kinds_symbols_unchanged": true
+    },
+    {
+      "anchor": "?GetCurrentWeaponSlot@CPlayerPed@@QAEPAU_WEAPON_SLOT_TYPE@@XZ",
+      "rva": 704832,
+      "size": 31,
+      "kind": "code",
+      "whole_function_bytes_unchanged": true,
+      "all_fixup_offsets_kinds_symbols_unchanged": true
+    },
+    {
+      "anchor": "?GetDistanceFromVehicle@CPlayerPed@@QAEMPAVCVehicle@@@Z",
+      "rva": 704928,
+      "size": 89,
+      "kind": "code",
+      "whole_function_bytes_unchanged": true,
+      "all_fixup_offsets_kinds_symbols_unchanged": true
+    },
+    {
+      "anchor": "?RemoveFromVehicleAndPutAt@CPlayerPed@@QAEXMMM@Z",
+      "rva": 705904,
+      "size": 84,
+      "kind": "code",
+      "whole_function_bytes_unchanged": true,
+      "all_fixup_offsets_kinds_symbols_unchanged": true
+    },
+    {
+      "anchor": "?HandsUp@CPlayerPed@@QAEXXZ",
+      "rva": 707344,
+      "size": 69,
+      "kind": "code",
+      "whole_function_bytes_unchanged": true,
+      "all_fixup_offsets_kinds_symbols_unchanged": true
+    },
+    {
+      "anchor": "?HasHandsUp@CPlayerPed@@QAEHXZ",
+      "rva": 707424,
+      "size": 88,
+      "kind": "code",
+      "whole_function_bytes_unchanged": true,
+      "all_fixup_offsets_kinds_symbols_unchanged": true
+    },
+    {
+      "anchor": "?HoldItem@CPlayerPed@@QAEXH@Z",
+      "rva": 707520,
+      "size": 72,
+      "kind": "code",
+      "whole_function_bytes_unchanged": true,
+      "all_fixup_offsets_kinds_symbols_unchanged": true
+    },
+    {
+      "anchor": "?IsJumping@CPlayerPed@@QAEHXZ",
+      "rva": 707600,
+      "size": 57,
+      "kind": "code",
+      "whole_function_bytes_unchanged": true,
+      "all_fixup_offsets_kinds_symbols_unchanged": true
+    },
+    {
+      "anchor": "?IsFighting@CPlayerPed@@QAEHXZ",
+      "rva": 707664,
+      "size": 57,
+      "kind": "code",
+      "whole_function_bytes_unchanged": true,
+      "all_fixup_offsets_kinds_symbols_unchanged": true
+    },
+    {
+      "anchor": "?IsFalling@CPlayerPed@@QAEHXZ",
+      "rva": 707728,
+      "size": 57,
+      "kind": "code",
+      "whole_function_bytes_unchanged": true,
+      "all_fixup_offsets_kinds_symbols_unchanged": true
+    },
+    {
+      "anchor": "?IsSwimming@CPlayerPed@@QAEHXZ",
+      "rva": 707792,
+      "size": 57,
+      "kind": "code",
+      "whole_function_bytes_unchanged": true,
+      "all_fixup_offsets_kinds_symbols_unchanged": true
+    },
+    {
+      "anchor": "?StartJetpack@CPlayerPed@@QAEXXZ",
+      "rva": 707856,
+      "size": 67,
+      "kind": "code",
+      "whole_function_bytes_unchanged": true,
+      "all_fixup_offsets_kinds_symbols_unchanged": true
+    },
+    {
+      "anchor": "?StopJetpack@CPlayerPed@@QAEXXZ",
+      "rva": 707936,
+      "size": 88,
+      "kind": "code",
+      "whole_function_bytes_unchanged": true,
+      "all_fixup_offsets_kinds_symbols_unchanged": true
+    },
+    {
+      "anchor": "?HasGoggles@CPlayerPed@@QAEHXZ",
+      "rva": 708096,
+      "size": 39,
+      "kind": "code",
+      "whole_function_bytes_unchanged": true,
+      "all_fixup_offsets_kinds_symbols_unchanged": true
+    },
+    {
+      "anchor": "?FindWeaponSlot@CPlayerPed@@QAEPAU_WEAPON_SLOT_TYPE@@K@Z",
+      "rva": 709008,
+      "size": 61,
+      "kind": "code",
+      "whole_function_bytes_unchanged": true,
+      "all_fixup_offsets_kinds_symbols_unchanged": true
+    },
+    {
+      "anchor": "?SetAnimationSet@CPlayerPed@@QAEXPAD@Z",
+      "rva": 709072,
+      "size": 35,
+      "kind": "code",
+      "whole_function_bytes_unchanged": true,
+      "all_fixup_offsets_kinds_symbols_unchanged": true
+    },
+    {
+      "anchor": "?SetMoney@CPlayerPed@@QAEXH@Z",
+      "rva": 709120,
+      "size": 45,
+      "kind": "code",
+      "whole_function_bytes_unchanged": true,
+      "all_fixup_offsets_kinds_symbols_unchanged": true
+    },
+    {
+      "anchor": "?ApplyAnimation@CPlayerPed@@QAEXPAD0MHHHHH@Z",
+      "rva": 709168,
+      "size": 206,
+      "kind": "code",
+      "whole_function_bytes_unchanged": true,
+      "all_fixup_offsets_kinds_symbols_unchanged": true
+    },
+    {
+      "anchor": "?IsPerformingAnimation@CPlayerPed@@QAEHPAD@Z",
+      "rva": 709376,
+      "size": 49,
+      "kind": "code",
+      "whole_function_bytes_unchanged": true,
+      "all_fixup_offsets_kinds_symbols_unchanged": true
+    },
+    {
+      "anchor": "?GetAimZ@CPlayerPed@@QAEMXZ",
+      "rva": 710896,
+      "size": 54,
+      "kind": "code",
+      "whole_function_bytes_unchanged": true,
+      "all_fixup_offsets_kinds_symbols_unchanged": true
+    },
+    {
+      "anchor": "?SetAimZ@CPlayerPed@@QAEXM@Z",
+      "rva": 710960,
+      "size": 98,
+      "kind": "code",
+      "whole_function_bytes_unchanged": true,
+      "all_fixup_offsets_kinds_symbols_unchanged": true
+    },
+    {
+      "anchor": "?GetGtaContactEntity@CPlayerPed@@QAEPAU_ENTITY_TYPE@@XZ",
+      "rva": 711072,
+      "size": 13,
+      "kind": "code",
+      "whole_function_bytes_unchanged": true,
+      "all_fixup_offsets_kinds_symbols_unchanged": true
+    },
+    {
+      "anchor": "?GetGtaContactVehicle@CPlayerPed@@QAEPAU_VEHICLE_TYPE@@XZ",
+      "rva": 711088,
+      "size": 13,
+      "kind": "code",
+      "whole_function_bytes_unchanged": true,
+      "all_fixup_offsets_kinds_symbols_unchanged": true
+    },
+    {
+      "anchor": "?StartDancing@CPlayerPed@@QAEXH@Z",
+      "rva": 711376,
+      "size": 79,
+      "kind": "code",
+      "whole_function_bytes_unchanged": true,
+      "all_fixup_offsets_kinds_symbols_unchanged": true
+    },
+    {
+      "anchor": "?StopDancing@CPlayerPed@@QAEXXZ",
+      "rva": 711456,
+      "size": 53,
+      "kind": "code",
+      "whole_function_bytes_unchanged": true,
+      "all_fixup_offsets_kinds_symbols_unchanged": true
+    },
+    {
+      "anchor": "?IsDancing@CPlayerPed@@QAEHXZ",
+      "rva": 711520,
+      "size": 14,
+      "kind": "code",
+      "whole_function_bytes_unchanged": true,
+      "all_fixup_offsets_kinds_symbols_unchanged": true
+    },
+    {
+      "anchor": "?ApplyCommandTask@CPlayerPed@@QAEXPADHHHPAU_VECTOR@@HMHHH@Z",
+      "rva": 712656,
+      "size": 68,
+      "kind": "code",
+      "whole_function_bytes_unchanged": true,
+      "all_fixup_offsets_kinds_symbols_unchanged": true
+    },
+    {
+      "anchor": "?DestroyFollowPedTask@CPlayerPed@@QAEXXZ",
+      "rva": 712736,
+      "size": 67,
+      "kind": "code",
+      "whole_function_bytes_unchanged": true,
+      "all_fixup_offsets_kinds_symbols_unchanged": true
+    },
+    {
+      "anchor": "?ToggleCellphone@CPlayerPed@@QAEXH@Z",
+      "rva": 712816,
+      "size": 38,
+      "kind": "code",
+      "whole_function_bytes_unchanged": true,
+      "all_fixup_offsets_kinds_symbols_unchanged": true
+    },
+    {
+      "anchor": "?GetFightingStyle@CPlayerPed@@QAEHXZ",
+      "rva": 712880,
+      "size": 19,
+      "kind": "code",
+      "whole_function_bytes_unchanged": true,
+      "all_fixup_offsets_kinds_symbols_unchanged": true
+    },
+    {
+      "anchor": "?SetFightingStyle@CPlayerPed@@QAEXH@Z",
+      "rva": 712912,
+      "size": 37,
+      "kind": "code",
+      "whole_function_bytes_unchanged": true,
+      "all_fixup_offsets_kinds_symbols_unchanged": true
+    },
+    {
+      "anchor": "?ProcessVehicleHorn@CPlayerPed@@QAEXXZ",
+      "rva": 713328,
+      "size": 107,
+      "kind": "code",
+      "whole_function_bytes_unchanged": true,
+      "all_fixup_offsets_kinds_symbols_unchanged": true
+    },
+    {
+      "anchor": "?GetLoadedShopName@CPlayerPed@@QAEPADXZ",
+      "rva": 713440,
+      "size": 32,
+      "kind": "code",
+      "whole_function_bytes_unchanged": true,
+      "all_fixup_offsets_kinds_symbols_unchanged": true
+    },
+    {
+      "anchor": "?LoadShoppingDataSubsection@CPlayerPed@@QAEXPAD@Z",
+      "rva": 713472,
+      "size": 45,
+      "kind": "code",
+      "whole_function_bytes_unchanged": true,
+      "all_fixup_offsets_kinds_symbols_unchanged": true
+    },
+    {
+      "anchor": "?GetShopName@CPlayerPed@@QAEPADXZ",
+      "rva": 713520,
+      "size": 79,
+      "kind": "code",
+      "whole_function_bytes_unchanged": true,
+      "all_fixup_offsets_kinds_symbols_unchanged": true
+    },
+    {
+      "anchor": "?SetShopName@CPlayerPed@@QAEXPAD@Z",
+      "rva": 713600,
+      "size": 202,
+      "kind": "code",
+      "whole_function_bytes_unchanged": true,
+      "all_fixup_offsets_kinds_symbols_unchanged": true
+    },
+    {
+      "anchor": "?SetWeaponSkillLevel@CPlayerPed@@QAEXHG@Z",
+      "rva": 713808,
+      "size": 37,
+      "kind": "code",
+      "whole_function_bytes_unchanged": true,
+      "all_fixup_offsets_kinds_symbols_unchanged": true
+    },
+    {
+      "anchor": "?GetBonePosition@CPlayerPed@@QAEPAU_VECTOR@@HPAU2@@Z",
+      "rva": 713856,
+      "size": 65,
+      "kind": "code",
+      "whole_function_bytes_unchanged": true,
+      "all_fixup_offsets_kinds_symbols_unchanged": true
+    },
+    {
+      "anchor": "?GetTransformedBonePosition@CPlayerPed@@QAEPAU_VECTOR@@HPAU2@@Z",
+      "rva": 713936,
+      "size": 65,
+      "kind": "code",
+      "whole_function_bytes_unchanged": true,
+      "all_fixup_offsets_kinds_symbols_unchanged": true
+    },
+    {
+      "anchor": "?GiveWeapon@CPlayerPed@@QAEXHH@Z",
+      "rva": 718736,
+      "size": 242,
+      "kind": "code",
+      "whole_function_bytes_unchanged": true,
+      "all_fixup_offsets_kinds_symbols_unchanged": true
+    },
+    {
+      "anchor": "?SetAmmo@CPlayerPed@@QAEXEG@Z",
+      "rva": 721024,
+      "size": 36,
+      "kind": "code",
+      "whole_function_bytes_unchanged": true,
+      "all_fixup_offsets_kinds_symbols_unchanged": true
+    },
+    {
+      "anchor": "?IsOnGround@CPlayerPed@@QAEHXZ",
+      "rva": 710752,
+      "size": 28,
+      "kind": "code",
+      "whole_function_bytes_unchanged": true,
+      "all_fixup_offsets_kinds_symbols_unchanged": true
+    },
+    {
+      "anchor": "?SetWeaponModelIndex@CPlayerPed@@QAEXH@Z",
+      "rva": 710832,
+      "size": 62,
+      "kind": "code",
+      "whole_function_bytes_unchanged": true,
+      "all_fixup_offsets_kinds_symbols_unchanged": true
+    },
+    {
+      "anchor": "_get_actor_armed_weapon",
+      "rva": 970312,
+      "size": 18,
+      "kind": "script-command",
+      "whole_containing_section_bytes_unchanged": true,
+      "all_fixup_offsets_kinds_symbols_unchanged": true
+    },
+    {
+      "anchor": "_disable_marker",
+      "rva": 970232,
+      "size": 18,
+      "kind": "script-command",
+      "whole_containing_section_bytes_unchanged": true,
+      "all_fixup_offsets_kinds_symbols_unchanged": true
+    },
+    {
+      "anchor": "_set_actor_immunities",
+      "rva": 970352,
+      "size": 18,
+      "kind": "script-command",
+      "whole_containing_section_bytes_unchanged": true,
+      "all_fixup_offsets_kinds_symbols_unchanged": true
+    },
+    {
+      "anchor": "__real@00000000",
+      "rva": 940352,
+      "size": 4,
+      "kind": "data",
+      "whole_containing_section_bytes_unchanged": true,
+      "all_fixup_offsets_kinds_symbols_unchanged": true
+    },
+    {
+      "anchor": "__real@42652ee0",
+      "rva": 942376,
+      "size": 4,
+      "kind": "data",
+      "whole_containing_section_bytes_unchanged": true,
+      "all_fixup_offsets_kinds_symbols_unchanged": true
+    },
+    {
+      "anchor": "__real@43b40000",
+      "rva": 942372,
+      "size": 4,
+      "kind": "data",
+      "whole_containing_section_bytes_unchanged": true,
+      "all_fixup_offsets_kinds_symbols_unchanged": true
+    },
+    {
+      "anchor": "_set_actor_armed_weapon",
+      "rva": 970292,
+      "size": 18,
+      "kind": "script-command",
+      "whole_containing_section_bytes_unchanged": true,
+      "all_fixup_offsets_kinds_symbols_unchanged": true
+    },
+    {
+      "anchor": "_remove_actor_from_car_and_put_at",
+      "rva": 970432,
+      "size": 18,
+      "kind": "script-command",
+      "whole_containing_section_bytes_unchanged": true,
+      "all_fixup_offsets_kinds_symbols_unchanged": true
+    },
+    {
+      "anchor": "_actor_task_handsup",
+      "rva": 970912,
+      "size": 18,
+      "kind": "script-command",
+      "whole_containing_section_bytes_unchanged": true,
+      "all_fixup_offsets_kinds_symbols_unchanged": true
+    },
+    {
+      "anchor": "_set_actor_animation_set",
+      "rva": 970632,
+      "size": 18,
+      "kind": "script-command",
+      "whole_containing_section_bytes_unchanged": true,
+      "all_fixup_offsets_kinds_symbols_unchanged": true
+    },
+    {
+      "anchor": "_set_actor_money",
+      "rva": 970712,
+      "size": 18,
+      "kind": "script-command",
+      "whole_containing_section_bytes_unchanged": true,
+      "all_fixup_offsets_kinds_symbols_unchanged": true
+    },
+    {
+      "anchor": "??_C@_03DDABINI@SEX?$AA@",
+      "rva": 967420,
+      "size": 4,
+      "kind": "data",
+      "whole_containing_section_bytes_unchanged": true,
+      "all_fixup_offsets_kinds_symbols_unchanged": true
+    },
+    {
+      "anchor": "_apply_animation",
+      "rva": 970652,
+      "size": 18,
+      "kind": "script-command",
+      "whole_containing_section_bytes_unchanged": true,
+      "all_fixup_offsets_kinds_symbols_unchanged": true
+    },
+    {
+      "anchor": "_is_actor_performing_anim",
+      "rva": 970672,
+      "size": 18,
+      "kind": "script-command",
+      "whole_containing_section_bytes_unchanged": true,
+      "all_fixup_offsets_kinds_symbols_unchanged": true
+    },
+    {
+      "anchor": "__real@42c80000",
+      "rva": 942356,
+      "size": 4,
+      "kind": "data",
+      "whole_containing_section_bytes_unchanged": true,
+      "all_fixup_offsets_kinds_symbols_unchanged": true
+    },
+    {
+      "anchor": "__real@c2c80000",
+      "rva": 942352,
+      "size": 4,
+      "kind": "data",
+      "whole_containing_section_bytes_unchanged": true,
+      "all_fixup_offsets_kinds_symbols_unchanged": true
+    },
+    {
+      "anchor": "_toggle_actor_cellphone",
+      "rva": 970892,
+      "size": 18,
+      "kind": "script-command",
+      "whole_containing_section_bytes_unchanged": true,
+      "all_fixup_offsets_kinds_symbols_unchanged": true
+    },
+    {
+      "anchor": "_set_fighting_style",
+      "rva": 970932,
+      "size": 18,
+      "kind": "script-command",
+      "whole_containing_section_bytes_unchanged": true,
+      "all_fixup_offsets_kinds_symbols_unchanged": true
+    }
+  ],
+  "new_credit": 0
+}

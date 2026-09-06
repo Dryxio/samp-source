@@ -1441,3 +1441,8 @@ Direct0250/cumulative21126; 103128 new unique bytes since parallel start, 10870.
 ListBox/roster accepted: +1250 unique code bytes, total 277519/930756 (29.816515%). ListBox Insert195+arrayInsert92 and player roster900+EH63, all full regions and actual providers. Shared header milestone rebuilt all profiles,111 old GUI regions preserved; full gate, ten controls and Actor ABI pass. Real pScoreBoard4 storage transferred separately; prior pDeathWindow/pLabel main changes remain pending.
 
 Source025821 adapted principal bytes/cumulative21947; 104378 new unique bytes since parallel start, 10485.9 bytes/hour including coordination/failures. Ctor144/Render1014 and ServerJoin remain unmatched, their dependencies excluded. Agents reassigned after bounded trials. Goal active; no push/deploy.
+
+
+Database/IME/keys accepted: +23173 unique code bytes, total 300692/930756 (32.306211%). Whole DatabaseServer/Table/Common/Serializer and extra sort/serialization operations, PlayerID string120, IME2460 and SetKeys655. All source/data/EH/COFF/PE providers, ten controls and Actor ABI pass. Actual compiler CRT initializer pointer4 now bound only inside pinned LIBCMT initializer array with null sentinels, unique local provider and PE relocations; full comparison unchanged, dedicated negative controls retained. No data or duplicate code credited.
+
+Direct0250/cumulative21947: existing vendor source produced the major gain here. 127551 new unique bytes since parallel start, 12189.7 bytes/hour coordination/failures included. Prior85 player regions remain identical after transfer77. Unmatched GetKeys and later IME message/reading candidates excluded. Goal active; no push/deploy.

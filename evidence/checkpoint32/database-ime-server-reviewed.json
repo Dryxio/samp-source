@@ -1,0 +1,3009 @@
+{
+  "status": "WHOLE_REGION_PREFLIGHT_NOT_ACCEPTED_DEPENDENCIES_OPEN",
+  "run": "cp32-database-server-trial1",
+  "roots": {
+    "?DatabaseTableComp@LightweightDatabaseServer@@SAHABQAD0@Z": 193264,
+    "??0DatabaseTable@LightweightDatabaseServer@@QAE@XZ": 193344,
+    "??1DatabaseTable@LightweightDatabaseServer@@QAE@XZ": 193376,
+    "??_GDatabaseTable@LightweightDatabaseServer@@QAEPAXI@Z": 193856,
+    "?RowHasIP@LightweightDatabaseServer@@IAE_NPAURow@Table@DataStructures@@UPlayerID@@I@Z": 193888,
+    "?GetRowFromIP@LightweightDatabaseServer@@IAEPAURow@Table@DataStructures@@PAUDatabaseTable@1@UPlayerID@@PAI@Z": 194656,
+    "?AddRow@LightweightDatabaseServer@@IAEPAURow@Table@DataStructures@@PAUDatabaseTable@1@UPlayerID@@_NI@Z": 194848,
+    "?GetTable@LightweightDatabaseServer@@QAEPAVTable@DataStructures@@PAD@Z": 195472,
+    "?Clear@LightweightDatabaseServer@@QAEXXZ": 195600,
+    "?GetAndIncrementRowID@LightweightDatabaseServer@@QAEIPAD@Z": 195696,
+    "?Update@LightweightDatabaseServer@@UAEXPAVRakPeerInterface@@@Z": 195744,
+    "?OnPong@LightweightDatabaseServer@@IAEXPAVRakPeerInterface@@PAUPacket@@@Z": 196464,
+    "?DeserializeClientHeader@LightweightDatabaseServer@@IAEPAUDatabaseTable@1@PAVBitStream@RakNet@@PAVRakPeerInterface@@PAUPacket@@H@Z": 196704,
+    "?RemoveRowsFromIP@LightweightDatabaseServer@@IAEXUPlayerID@@@Z": 197328,
+    "?AddTable@LightweightDatabaseServer@@QAEPAVTable@DataStructures@@PAD_N11QAD2211111@Z": 198032,
+    "?RemoveTable@LightweightDatabaseServer@@QAE_NPAD@Z": 198592,
+    "?OnCloseConnection@LightweightDatabaseServer@@UAEXPAVRakPeerInterface@@UPlayerID@@@Z": 198672,
+    "?OnQueryRequest@LightweightDatabaseServer@@IAEXPAVRakPeerInterface@@PAUPacket@@@Z": 198704,
+    "?OnUpdateRow@LightweightDatabaseServer@@IAEXPAVRakPeerInterface@@PAUPacket@@@Z": 199616,
+    "?OnRemoveRow@LightweightDatabaseServer@@IAEXPAVRakPeerInterface@@PAUPacket@@@Z": 200480,
+    "?OnReceive@LightweightDatabaseServer@@UAE?AW4PluginReceiveResult@@PAVRakPeerInterface@@PAUPacket@@@Z": 200672
+  },
+  "seeds": {
+    "closure_vendor_database_server": {
+      "?OnReceive@LightweightDatabaseServer@@UAE?AW4PluginReceiveResult@@PAVRakPeerInterface@@PAUPacket@@@Z": 200672,
+      "?OnRemoveRow@LightweightDatabaseServer@@IAEXPAVRakPeerInterface@@PAUPacket@@@Z": 200480,
+      "?OnUpdateRow@LightweightDatabaseServer@@IAEXPAVRakPeerInterface@@PAUPacket@@@Z": 199616,
+      "??0DatabaseCellUpdate@@QAE@XZ": 193456,
+      "??1DatabaseCellUpdate@@QAE@XZ": 193472,
+      "??$Read@_N@BitStream@RakNet@@QAE_NAA_N@Z": 33824,
+      "?OnQueryRequest@LightweightDatabaseServer@@IAEXPAVRakPeerInterface@@PAUPacket@@@Z": 198704,
+      "??0DatabaseFilter@@QAE@XZ": 193424,
+      "??1DatabaseFilter@@QAE@XZ": 193440,
+      "?OnCloseConnection@LightweightDatabaseServer@@UAEXPAVRakPeerInterface@@UPlayerID@@@Z": 198672,
+      "?RemoveTable@LightweightDatabaseServer@@QAE_NPAD@Z": 198592,
+      "?Delete@?$Map@PADPAUDatabaseTable@LightweightDatabaseServer@@$1?DatabaseTableComp@2@SAHABQAD0@Z@DataStructures@@QAE_NABQAD@Z": 197824,
+      "?GetIndexFromKey@?$OrderedList@PADUMapNode@?$Map@PADPAUDatabaseTable@LightweightDatabaseServer@@$1?DatabaseTableComp@2@SAHABQAD0@Z@DataStructures@@$1?NodeComparisonFunc@23@SAHABQADABU123@@Z@DataStructures@@QBEIABQADPA_N@Z": 193952,
+      "?RemoveAtIndex@?$OrderedList@PADUMapNode@?$Map@PADPAUDatabaseTable@LightweightDatabaseServer@@$1?DatabaseTableComp@2@SAHABQAD0@Z@DataStructures@@$1?NodeComparisonFunc@23@SAHABQADABU123@@Z@DataStructures@@QAEXI@Z": 195456,
+      "?RemoveAtIndex@?$List@UMapNode@?$Map@PADPAUDatabaseTable@LightweightDatabaseServer@@$1?DatabaseTableComp@2@SAHABQAD0@Z@DataStructures@@@DataStructures@@QAEXI@Z": 194592,
+      "?HasSavedSearchResult@?$Map@PADPAUDatabaseTable@LightweightDatabaseServer@@$1?DatabaseTableComp@2@SAHABQAD0@Z@DataStructures@@IBE_NABQAD@Z": 193616,
+      "?Get@?$Map@PADPAUDatabaseTable@LightweightDatabaseServer@@$1?DatabaseTableComp@2@SAHABQAD0@Z@DataStructures@@QAEAAPAUDatabaseTable@LightweightDatabaseServer@@ABQAD@Z": 195088,
+      "?SaveLastSearch@?$Map@PADPAUDatabaseTable@LightweightDatabaseServer@@$1?DatabaseTableComp@2@SAHABQAD0@Z@DataStructures@@IAEXABQADI@Z": 193584,
+      "??A?$OrderedList@PADUMapNode@?$Map@PADPAUDatabaseTable@LightweightDatabaseServer@@$1?DatabaseTableComp@2@SAHABQAD0@Z@DataStructures@@$1?NodeComparisonFunc@23@SAHABQADABU123@@Z@DataStructures@@QBEAAUMapNode@?$Map@PADPAUDatabaseTable@LightweightDatabaseServer@@$1?DatabaseTableComp@2@SAHABQAD0@Z@1@I@Z": 194096,
+      "?AddTable@LightweightDatabaseServer@@QAEPAVTable@DataStructures@@PAD_N11QAD2211111@Z": 198032,
+      "?SetNew@?$Map@PADPAUDatabaseTable@LightweightDatabaseServer@@$1?DatabaseTableComp@2@SAHABQAD0@Z@DataStructures@@QAEXABQADABQAUDatabaseTable@LightweightDatabaseServer@@@Z": 197760,
+      "?Insert@?$OrderedList@PADUMapNode@?$Map@PADPAUDatabaseTable@LightweightDatabaseServer@@$1?DatabaseTableComp@2@SAHABQAD0@Z@DataStructures@@$1?NodeComparisonFunc@23@SAHABQADABU123@@Z@DataStructures@@QAEIABQADABUMapNode@?$Map@PADPAUDatabaseTable@LightweightDatabaseServer@@$1?DatabaseTableComp@2@SAHABQAD0@Z@2@@Z": 195360,
+      "?Insert@?$List@UMapNode@?$Map@PADPAUDatabaseTable@LightweightDatabaseServer@@$1?DatabaseTableComp@2@SAHABQAD0@Z@DataStructures@@@DataStructures@@QAEXUMapNode@?$Map@PADPAUDatabaseTable@LightweightDatabaseServer@@$1?DatabaseTableComp@2@SAHABQAD0@Z@2@I@Z": 194352,
+      "??_H@YGXPAXIHP6EPAX0@Z@Z": 183776,
+      "??0MapNode@?$Map@PADPAUDatabaseTable@LightweightDatabaseServer@@$1?DatabaseTableComp@2@SAHABQAD0@Z@DataStructures@@QAE@XZ": 193824,
+      "?Insert@?$List@UMapNode@?$Map@PADPAUDatabaseTable@LightweightDatabaseServer@@$1?DatabaseTableComp@2@SAHABQAD0@Z@DataStructures@@@DataStructures@@QAEXUMapNode@?$Map@PADPAUDatabaseTable@LightweightDatabaseServer@@$1?DatabaseTableComp@2@SAHABQAD0@Z@2@@Z": 194144,
+      "?Has@?$Map@PADPAUDatabaseTable@LightweightDatabaseServer@@$1?DatabaseTableComp@2@SAHABQAD0@Z@DataStructures@@QAE_NABQAD@Z": 195168,
+      "?RemoveRowsFromIP@LightweightDatabaseServer@@IAEXUPlayerID@@@Z": 197328,
+      "??1?$List@I@DataStructures@@QAE@XZ": 161472,
+      "?Clear@?$List@I@DataStructures@@QAEX_N@Z": 193488,
+      "?Insert@?$List@I@DataStructures@@QAEXI@Z": 161520,
+      "?GetListHead@?$BPlusTree@IPAURow@Table@DataStructures@@$0BA@@DataStructures@@QBEPAU?$Page@IPAURow@Table@DataStructures@@$0BA@@2@XZ": 161184,
+      "??A?$Map@PADPAUDatabaseTable@LightweightDatabaseServer@@$1?DatabaseTableComp@2@SAHABQAD0@Z@DataStructures@@QBEAAPAUDatabaseTable@LightweightDatabaseServer@@I@Z": 195232,
+      "?Size@?$Map@PADPAUDatabaseTable@LightweightDatabaseServer@@$1?DatabaseTableComp@2@SAHABQAD0@Z@DataStructures@@QBEIXZ": 195264,
+      "?Size@?$OrderedList@PADUMapNode@?$Map@PADPAUDatabaseTable@LightweightDatabaseServer@@$1?DatabaseTableComp@2@SAHABQAD0@Z@DataStructures@@$1?NodeComparisonFunc@23@SAHABQADABU123@@Z@DataStructures@@QBEIXZ": 194128,
+      "??0?$List@I@DataStructures@@QAE@XZ": 161456,
+      "?DeserializeClientHeader@LightweightDatabaseServer@@IAEPAUDatabaseTable@1@PAVBitStream@RakNet@@PAVRakPeerInterface@@PAUPacket@@H@Z": 196704,
+      "?OnPong@LightweightDatabaseServer@@IAEXPAVRakPeerInterface@@PAUPacket@@@Z": 196464,
+      "?Update@LightweightDatabaseServer@@UAEXPAVRakPeerInterface@@@Z": 195744,
+      "?GetAndIncrementRowID@LightweightDatabaseServer@@QAEIPAD@Z": 195696,
+      "?Clear@LightweightDatabaseServer@@QAEXXZ": 195600,
+      "?Clear@?$Map@PADPAUDatabaseTable@LightweightDatabaseServer@@$1?DatabaseTableComp@2@SAHABQAD0@Z@DataStructures@@QAEXXZ": 195248,
+      "?Clear@?$OrderedList@PADUMapNode@?$Map@PADPAUDatabaseTable@LightweightDatabaseServer@@$1?DatabaseTableComp@2@SAHABQAD0@Z@DataStructures@@$1?NodeComparisonFunc@23@SAHABQADABU123@@Z@DataStructures@@QAEXXZ": 194112,
+      "?Clear@?$List@UMapNode@?$Map@PADPAUDatabaseTable@LightweightDatabaseServer@@$1?DatabaseTableComp@2@SAHABQAD0@Z@DataStructures@@@DataStructures@@QAEX_N@Z": 193760,
+      "?GetTable@LightweightDatabaseServer@@QAEPAVTable@DataStructures@@PAD@Z": 195472,
+      "?AddRow@LightweightDatabaseServer@@IAEPAURow@Table@DataStructures@@PAUDatabaseTable@1@UPlayerID@@_NI@Z": 194848,
+      "?GetRowFromIP@LightweightDatabaseServer@@IAEPAURow@Table@DataStructures@@PAUDatabaseTable@1@UPlayerID@@PAI@Z": 194656,
+      "?RowHasIP@LightweightDatabaseServer@@IAE_NPAURow@Table@DataStructures@@UPlayerID@@I@Z": 193888,
+      "??_GDatabaseTable@LightweightDatabaseServer@@QAEPAXI@Z": 193856,
+      "??1DatabaseTable@LightweightDatabaseServer@@QAE@XZ": 193376,
+      "??0DatabaseTable@LightweightDatabaseServer@@QAE@XZ": 193344,
+      "?DatabaseTableComp@LightweightDatabaseServer@@SAHABQAD0@Z": 193264
+    }
+  },
+  "regions": [
+    {
+      "unit": "closure_vendor_database_server",
+      "section": 182,
+      "rva": 200672,
+      "size": 221,
+      "anchor": "?OnReceive@LightweightDatabaseServer@@UAE?AW4PluginReceiveResult@@PAVRakPeerInterface@@PAUPacket@@@Z",
+      "kind": ".text",
+      "sha256": "3bfa38b00a47b2d514dd151ec4eaf4c103f6b4759181690241d21376c6b7544a",
+      "bindings": [
+        {
+          "symbol": "$L5872",
+          "site_rva": 200694,
+          "target_va": 268636292,
+          "kind": 6
+        },
+        {
+          "symbol": "$L5873",
+          "site_rva": 200701,
+          "target_va": 268636268,
+          "kind": 6
+        },
+        {
+          "symbol": "?OnQueryRequest@LightweightDatabaseServer@@IAEXPAVRakPeerInterface@@PAUPacket@@@Z",
+          "site_rva": 200712,
+          "target_va": 268634160,
+          "kind": 20
+        },
+        {
+          "symbol": "?OnUpdateRow@LightweightDatabaseServer@@IAEXPAVRakPeerInterface@@PAUPacket@@@Z",
+          "site_rva": 200729,
+          "target_va": 268635072,
+          "kind": 20
+        },
+        {
+          "symbol": "?OnRemoveRow@LightweightDatabaseServer@@IAEXPAVRakPeerInterface@@PAUPacket@@@Z",
+          "site_rva": 200746,
+          "target_va": 268635936,
+          "kind": 20
+        },
+        {
+          "symbol": "?RemoveRowsFromIP@LightweightDatabaseServer@@IAEXUPlayerID@@@Z",
+          "site_rva": 200777,
+          "target_va": 268632784,
+          "kind": 20
+        },
+        {
+          "symbol": "?OnPong@LightweightDatabaseServer@@IAEXPAVRakPeerInterface@@PAUPacket@@@Z",
+          "site_rva": 200797,
+          "target_va": 268631920,
+          "kind": 20
+        },
+        {
+          "symbol": "$L4445",
+          "site_rva": 200812,
+          "target_va": 268636212,
+          "kind": 6
+        },
+        {
+          "symbol": "$L4446",
+          "site_rva": 200816,
+          "target_va": 268636246,
+          "kind": 6
+        },
+        {
+          "symbol": "$L4442",
+          "site_rva": 200820,
+          "target_va": 268636161,
+          "kind": 6
+        },
+        {
+          "symbol": "$L4443",
+          "site_rva": 200824,
+          "target_va": 268636178,
+          "kind": 6
+        },
+        {
+          "symbol": "$L4444",
+          "site_rva": 200828,
+          "target_va": 268636195,
+          "kind": 6
+        },
+        {
+          "symbol": "$L4439",
+          "site_rva": 200832,
+          "target_va": 268636257,
+          "kind": 6
+        }
+      ],
+      "whole_bytes_equal": true
+    },
+    {
+      "unit": "closure_vendor_database_server",
+      "section": 178,
+      "rva": 200480,
+      "size": 183,
+      "anchor": "?OnRemoveRow@LightweightDatabaseServer@@IAEXPAVRakPeerInterface@@PAUPacket@@@Z",
+      "kind": ".text",
+      "sha256": "9194ab869daad056c19ad5a8d8c86113e0952aa8e336ef0897da41850a4ae4a0",
+      "bindings": [
+        {
+          "symbol": "__ehhandler$?OnRemoveRow@LightweightDatabaseServer@@IAEXPAVRakPeerInterface@@PAUPacket@@@Z",
+          "site_rva": 200483,
+          "target_va": 269361739,
+          "kind": 6
+        },
+        {
+          "symbol": "__except_list",
+          "site_rva": 200489,
+          "target_va": 0,
+          "kind": 6
+        },
+        {
+          "symbol": "__except_list",
+          "site_rva": 200497,
+          "target_va": 0,
+          "kind": 6
+        },
+        {
+          "symbol": "??0BitStream@RakNet@@QAE@PAEI_N@Z",
+          "site_rva": 200533,
+          "target_va": 268564416,
+          "kind": 20
+        },
+        {
+          "symbol": "?DeserializeClientHeader@LightweightDatabaseServer@@IAEPAUDatabaseTable@1@PAVBitStream@RakNet@@PAVRakPeerInterface@@PAUPacket@@H@Z",
+          "site_rva": 200567,
+          "target_va": 268632160,
+          "kind": 20
+        },
+        {
+          "symbol": "?ReadBits@BitStream@RakNet@@QAE_NPAEH_N@Z",
+          "site_rva": 200598,
+          "target_va": 268564912,
+          "kind": 20
+        },
+        {
+          "symbol": "?RemoveRow@Table@DataStructures@@QAEXI@Z",
+          "site_rva": 200614,
+          "target_va": 268606992,
+          "kind": 20
+        },
+        {
+          "symbol": "??1BitStream@RakNet@@QAE@XZ",
+          "site_rva": 200634,
+          "target_va": 268564688,
+          "kind": 20
+        },
+        {
+          "symbol": "__except_list",
+          "site_rva": 200650,
+          "target_va": 0,
+          "kind": 6
+        }
+      ],
+      "whole_bytes_equal": true
+    },
+    {
+      "unit": "closure_vendor_database_server",
+      "section": 179,
+      "rva": 926272,
+      "size": 21,
+      "anchor": "__ehhandler$?OnRemoveRow@LightweightDatabaseServer@@IAEXPAVRakPeerInterface@@PAUPacket@@@Z",
+      "kind": ".text$x",
+      "sha256": "778bfa25fc50c4e58473b89c5956f45e437450e975c5847bb84a108f9df7afed",
+      "bindings": [
+        {
+          "symbol": "??1BitStream@RakNet@@QAE@XZ",
+          "site_rva": 926279,
+          "target_va": 268564688,
+          "kind": 20
+        },
+        {
+          "symbol": "$T5864",
+          "site_rva": 926284,
+          "target_va": 269459160,
+          "kind": 6
+        },
+        {
+          "symbol": "___CxxFrameHandler",
+          "site_rva": 926289,
+          "target_va": 269247782,
+          "kind": 20
+        }
+      ],
+      "whole_bytes_equal": true
+    },
+    {
+      "unit": "closure_vendor_database_server",
+      "section": 180,
+      "rva": 1023696,
+      "size": 36,
+      "anchor": "$T5864",
+      "kind": ".xdata$x",
+      "sha256": "5e4070e24770d4e43c6d1920658ec9e798bac00695702dde905da8898002f84f",
+      "bindings": [
+        {
+          "symbol": "$L5857",
+          "site_rva": 1023700,
+          "target_va": 269361728,
+          "kind": 6
+        },
+        {
+          "symbol": "$T5867",
+          "site_rva": 1023712,
+          "target_va": 269459152,
+          "kind": 6
+        }
+      ],
+      "whole_bytes_equal": true
+    },
+    {
+      "unit": "closure_vendor_database_server",
+      "section": 174,
+      "rva": 199616,
+      "size": 863,
+      "anchor": "?OnUpdateRow@LightweightDatabaseServer@@IAEXPAVRakPeerInterface@@PAUPacket@@@Z",
+      "kind": ".text",
+      "sha256": "69d16e883584b848a187657fe831f82e8ceabf3704fe43daf85a51dd2e2fd910",
+      "bindings": [
+        {
+          "symbol": "__ehhandler$?OnUpdateRow@LightweightDatabaseServer@@IAEXPAVRakPeerInterface@@PAUPacket@@@Z",
+          "site_rva": 199619,
+          "target_va": 269361716,
+          "kind": 6
+        },
+        {
+          "symbol": "__except_list",
+          "site_rva": 199625,
+          "target_va": 0,
+          "kind": 6
+        },
+        {
+          "symbol": "__except_list",
+          "site_rva": 199638,
+          "target_va": 0,
+          "kind": 6
+        },
+        {
+          "symbol": "__chkstk",
+          "site_rva": 199643,
+          "target_va": 269254320,
+          "kind": 20
+        },
+        {
+          "symbol": "??0BitStream@RakNet@@QAE@PAEI_N@Z",
+          "site_rva": 199680,
+          "target_va": 268564416,
+          "kind": 20
+        },
+        {
+          "symbol": "?DeserializeClientHeader@LightweightDatabaseServer@@IAEPAUDatabaseTable@1@PAVBitStream@RakNet@@PAVRakPeerInterface@@PAUPacket@@H@Z",
+          "site_rva": 199710,
+          "target_va": 268632160,
+          "kind": 20
+        },
+        {
+          "symbol": "?ReadBits@BitStream@RakNet@@QAE_NPAEH_N@Z",
+          "site_rva": 199751,
+          "target_va": 268564912,
+          "kind": 20
+        },
+        {
+          "symbol": "??$Read@_N@BitStream@RakNet@@QAE_NAA_N@Z",
+          "site_rva": 199765,
+          "target_va": 268469280,
+          "kind": 20
+        },
+        {
+          "symbol": "?ReadBits@BitStream@RakNet@@QAE_NPAEH_N@Z",
+          "site_rva": 199791,
+          "target_va": 268564912,
+          "kind": 20
+        },
+        {
+          "symbol": "?ReadBits@BitStream@RakNet@@QAE_NPAEH_N@Z",
+          "site_rva": 199819,
+          "target_va": 268564912,
+          "kind": 20
+        },
+        {
+          "symbol": "??1DatabaseCellUpdate@@QAE@XZ",
+          "site_rva": 199832,
+          "target_va": 268628928,
+          "kind": 6
+        },
+        {
+          "symbol": "??0DatabaseCellUpdate@@QAE@XZ",
+          "site_rva": 199837,
+          "target_va": 268628912,
+          "kind": 6
+        },
+        {
+          "symbol": "??_L@YGXPAXIHP6EX0@Z1@Z",
+          "site_rva": 199857,
+          "target_va": 269254863,
+          "kind": 20
+        },
+        {
+          "symbol": "?Deserialize@DatabaseCellUpdate@@QAE_NPAVBitStream@RakNet@@@Z",
+          "site_rva": 199896,
+          "target_va": 268628640,
+          "kind": 20
+        },
+        {
+          "symbol": "?GetRowByID@Table@DataStructures@@QAEPAURow@12@I@Z",
+          "site_rva": 199957,
+          "target_va": 268603536,
+          "kind": 20
+        },
+        {
+          "symbol": "?RowHasIP@LightweightDatabaseServer@@IAE_NPAURow@Table@DataStructures@@UPlayerID@@I@Z",
+          "site_rva": 200015,
+          "target_va": 268629344,
+          "kind": 20
+        },
+        {
+          "symbol": "?GetRowByID@Table@DataStructures@@QAEPAURow@12@I@Z",
+          "site_rva": 200050,
+          "target_va": 268603536,
+          "kind": 20
+        },
+        {
+          "symbol": "?AddRow@LightweightDatabaseServer@@IAEPAURow@Table@DataStructures@@PAUDatabaseTable@1@UPlayerID@@_NI@Z",
+          "site_rva": 200098,
+          "target_va": 268630304,
+          "kind": 20
+        },
+        {
+          "symbol": "??1DatabaseCellUpdate@@QAE@XZ",
+          "site_rva": 200109,
+          "target_va": 268628928,
+          "kind": 6
+        },
+        {
+          "symbol": "?AddRow@LightweightDatabaseServer@@IAEPAURow@Table@DataStructures@@PAUDatabaseTable@1@UPlayerID@@_NI@Z",
+          "site_rva": 200167,
+          "target_va": 268630304,
+          "kind": 20
+        },
+        {
+          "symbol": "??1DatabaseCellUpdate@@QAE@XZ",
+          "site_rva": 200178,
+          "target_va": 268628928,
+          "kind": 6
+        },
+        {
+          "symbol": "?ColumnIndex@Table@DataStructures@@QAEIQAD@Z",
+          "site_rva": 200240,
+          "target_va": 268599280,
+          "kind": 20
+        },
+        {
+          "symbol": "?Clear@Cell@Table@DataStructures@@QAEXXZ",
+          "site_rva": 200289,
+          "target_va": 268596240,
+          "kind": 20
+        },
+        {
+          "symbol": "?GetColumnType@Table@DataStructures@@QAE?AW4ColumnType@12@I@Z",
+          "site_rva": 200309,
+          "target_va": 268599408,
+          "kind": 20
+        },
+        {
+          "symbol": "?UpdateCell@Row@Table@DataStructures@@QAEXIH@Z",
+          "site_rva": 200329,
+          "target_va": 268599136,
+          "kind": 20
+        },
+        {
+          "symbol": "?UpdateCell@Row@Table@DataStructures@@QAEXIHPAD@Z",
+          "site_rva": 200352,
+          "target_va": 268599232,
+          "kind": 20
+        },
+        {
+          "symbol": "?UpdateCell@Row@Table@DataStructures@@QAEXIPAD@Z",
+          "site_rva": 200366,
+          "target_va": 268599184,
+          "kind": 20
+        },
+        {
+          "symbol": "??1DatabaseCellUpdate@@QAE@XZ",
+          "site_rva": 200400,
+          "target_va": 268628928,
+          "kind": 6
+        },
+        {
+          "symbol": "??_M@YGXPAXIHP6EX0@Z@Z",
+          "site_rva": 200428,
+          "target_va": 269254767,
+          "kind": 20
+        },
+        {
+          "symbol": "??1BitStream@RakNet@@QAE@XZ",
+          "site_rva": 200448,
+          "target_va": 268564688,
+          "kind": 20
+        },
+        {
+          "symbol": "__except_list",
+          "site_rva": 200465,
+          "target_va": 0,
+          "kind": 6
+        }
+      ],
+      "whole_bytes_equal": true
+    },
+    {
+      "unit": "closure_vendor_database_server",
+      "section": 22,
+      "rva": 193456,
+      "size": 12,
+      "anchor": "??0DatabaseCellUpdate@@QAE@XZ",
+      "kind": ".text",
+      "sha256": "8e69f7ed9e67ea5436300aee8d3d9d375f5d6c1ac2ef2beda023d1ba0a13fe93",
+      "bindings": [
+        {
+          "symbol": "??0Cell@Table@DataStructures@@QAE@XZ",
+          "site_rva": 193460,
+          "target_va": 268595616,
+          "kind": 20
+        }
+      ],
+      "whole_bytes_equal": true
+    },
+    {
+      "unit": "closure_vendor_database_server",
+      "section": 24,
+      "rva": 193472,
+      "size": 5,
+      "anchor": "??1DatabaseCellUpdate@@QAE@XZ",
+      "kind": ".text",
+      "sha256": "14fecdac234bea70fe6685837b4c707d2e1d8d0a6302180b65c02af145801663",
+      "bindings": [
+        {
+          "symbol": "??1Cell@Table@DataStructures@@QAE@XZ",
+          "site_rva": 193473,
+          "target_va": 268599120,
+          "kind": 20
+        }
+      ],
+      "whole_bytes_equal": true
+    },
+    {
+      "unit": "closure_vendor_database_server",
+      "section": 3,
+      "rva": 33824,
+      "size": 89,
+      "anchor": "??$Read@_N@BitStream@RakNet@@QAE_NAA_N@Z",
+      "kind": ".text",
+      "sha256": "b37034fc3b389d74b01e3aeca79066e2df1184e312ff0b4ee54a0c788b584854",
+      "bindings": [],
+      "whole_bytes_equal": true
+    },
+    {
+      "unit": "closure_vendor_database_server",
+      "section": 175,
+      "rva": 926224,
+      "size": 46,
+      "anchor": "__ehhandler$?OnUpdateRow@LightweightDatabaseServer@@IAEXPAVRakPeerInterface@@PAUPacket@@@Z",
+      "kind": ".text$x",
+      "sha256": "cc219fa9cb457763d8db722dc447db56251c8e6d0cf9ad43b0eb874c7e4d67e6",
+      "bindings": [
+        {
+          "symbol": "??1BitStream@RakNet@@QAE@XZ",
+          "site_rva": 926231,
+          "target_va": 268564688,
+          "kind": 20
+        },
+        {
+          "symbol": "??1DatabaseCellUpdate@@QAE@XZ",
+          "site_rva": 926236,
+          "target_va": 268628928,
+          "kind": 6
+        },
+        {
+          "symbol": "??_M@YGXPAXIHP6EX0@Z@Z",
+          "site_rva": 926255,
+          "target_va": 269254767,
+          "kind": 20
+        },
+        {
+          "symbol": "$T5839",
+          "site_rva": 926261,
+          "target_va": 269459124,
+          "kind": 6
+        },
+        {
+          "symbol": "___CxxFrameHandler",
+          "site_rva": 926266,
+          "target_va": 269247782,
+          "kind": 20
+        }
+      ],
+      "whole_bytes_equal": true
+    },
+    {
+      "unit": "closure_vendor_database_server",
+      "section": 176,
+      "rva": 1023652,
+      "size": 44,
+      "anchor": "$T5839",
+      "kind": ".xdata$x",
+      "sha256": "cbc63202327aa5f5f94adb88029b778dcfbfad954bcefb15d94cfeb968b3d5e0",
+      "bindings": [
+        {
+          "symbol": "$L5817",
+          "site_rva": 1023656,
+          "target_va": 269361680,
+          "kind": 6
+        },
+        {
+          "symbol": "$L5818",
+          "site_rva": 1023664,
+          "target_va": 269361691,
+          "kind": 6
+        },
+        {
+          "symbol": "$T5852",
+          "site_rva": 1023676,
+          "target_va": 269459108,
+          "kind": 6
+        }
+      ],
+      "whole_bytes_equal": true
+    },
+    {
+      "unit": "closure_vendor_database_server",
+      "section": 170,
+      "rva": 198704,
+      "size": 903,
+      "anchor": "?OnQueryRequest@LightweightDatabaseServer@@IAEXPAVRakPeerInterface@@PAUPacket@@@Z",
+      "kind": ".text",
+      "sha256": "0954a61481172d4bc6e7e95f1ccf6913961ff0406d0ad8e4b6ffc5e281c077ac",
+      "bindings": [
+        {
+          "symbol": "__ehhandler$?OnQueryRequest@LightweightDatabaseServer@@IAEXPAVRakPeerInterface@@PAUPacket@@@Z",
+          "site_rva": 198707,
+          "target_va": 269361667,
+          "kind": 6
+        },
+        {
+          "symbol": "__except_list",
+          "site_rva": 198713,
+          "target_va": 0,
+          "kind": 6
+        },
+        {
+          "symbol": "__except_list",
+          "site_rva": 198726,
+          "target_va": 0,
+          "kind": 6
+        },
+        {
+          "symbol": "__chkstk",
+          "site_rva": 198731,
+          "target_va": 269254320,
+          "kind": 20
+        },
+        {
+          "symbol": "??0BitStream@RakNet@@QAE@PAEI_N@Z",
+          "site_rva": 198764,
+          "target_va": 268564416,
+          "kind": 20
+        },
+        {
+          "symbol": "?DeserializeClientHeader@LightweightDatabaseServer@@IAEPAUDatabaseTable@1@PAVBitStream@RakNet@@PAVRakPeerInterface@@PAUPacket@@H@Z",
+          "site_rva": 198793,
+          "target_va": 268632160,
+          "kind": 20
+        },
+        {
+          "symbol": "??0BitStream@RakNet@@QAE@XZ",
+          "site_rva": 198828,
+          "target_va": 268564272,
+          "kind": 20
+        },
+        {
+          "symbol": "?ReadBits@BitStream@RakNet@@QAE_NPAEH_N@Z",
+          "site_rva": 198854,
+          "target_va": 268564912,
+          "kind": 20
+        },
+        {
+          "symbol": "?ReadBits@BitStream@RakNet@@QAE_NPAEH_N@Z",
+          "site_rva": 198893,
+          "target_va": 268564912,
+          "kind": 20
+        },
+        {
+          "symbol": "?ReadBits@BitStream@RakNet@@QAE_NPAEH_N@Z",
+          "site_rva": 198924,
+          "target_va": 268564912,
+          "kind": 20
+        },
+        {
+          "symbol": "??1DatabaseFilter@@QAE@XZ",
+          "site_rva": 198937,
+          "target_va": 268628896,
+          "kind": 6
+        },
+        {
+          "symbol": "??0DatabaseFilter@@QAE@XZ",
+          "site_rva": 198942,
+          "target_va": 268628880,
+          "kind": 6
+        },
+        {
+          "symbol": "??_L@YGXPAXIHP6EX0@Z1@Z",
+          "site_rva": 198962,
+          "target_va": 269254863,
+          "kind": 20
+        },
+        {
+          "symbol": "?Deserialize@DatabaseFilter@@QAE_NPAVBitStream@RakNet@@@Z",
+          "site_rva": 199000,
+          "target_va": 268628432,
+          "kind": 20
+        },
+        {
+          "symbol": "?ReadBits@BitStream@RakNet@@QAE_NPAEH_N@Z",
+          "site_rva": 199039,
+          "target_va": 268564912,
+          "kind": 20
+        },
+        {
+          "symbol": "??1DatabaseFilter@@QAE@XZ",
+          "site_rva": 199048,
+          "target_va": 268628896,
+          "kind": 6
+        },
+        {
+          "symbol": "?ReadBits@BitStream@RakNet@@QAE_NPAEH_N@Z",
+          "site_rva": 199099,
+          "target_va": 268564912,
+          "kind": 20
+        },
+        {
+          "symbol": "??1FilterQuery@Table@DataStructures@@QAE@XZ",
+          "site_rva": 199117,
+          "target_va": 268596368,
+          "kind": 6
+        },
+        {
+          "symbol": "??0FilterQuery@Table@DataStructures@@QAE@XZ",
+          "site_rva": 199122,
+          "target_va": 268596352,
+          "kind": 6
+        },
+        {
+          "symbol": "??_L@YGXPAXIHP6EX0@Z1@Z",
+          "site_rva": 199142,
+          "target_va": 269254863,
+          "kind": 20
+        },
+        {
+          "symbol": "?ColumnIndex@Table@DataStructures@@QAEIQAD@Z",
+          "site_rva": 199199,
+          "target_va": 268599280,
+          "kind": 20
+        },
+        {
+          "symbol": "?GetColumns@Table@DataStructures@@QAEAAV?$List@UColumnDescriptor@Table@DataStructures@@@2@XZ",
+          "site_rva": 199224,
+          "target_va": 268596416,
+          "kind": 20
+        },
+        {
+          "symbol": "??0Table@DataStructures@@QAE@XZ",
+          "site_rva": 199290,
+          "target_va": 268608016,
+          "kind": 20
+        },
+        {
+          "symbol": "?QueryTable@Table@DataStructures@@QAEXPAIIPAUFilterQuery@12@I0IPAV12@@Z",
+          "site_rva": 199355,
+          "target_va": 268608144,
+          "kind": 20
+        },
+        {
+          "symbol": "?WriteBits@BitStream@RakNet@@QAEXPBEH_N@Z",
+          "site_rva": 199381,
+          "target_va": 268566496,
+          "kind": 20
+        },
+        {
+          "symbol": "?SerializeTable@TableSerializer@@SAXPAVTable@DataStructures@@PAVBitStream@RakNet@@@Z",
+          "site_rva": 199399,
+          "target_va": 268784960,
+          "kind": 20
+        },
+        {
+          "symbol": "??1Table@DataStructures@@QAE@XZ",
+          "site_rva": 199470,
+          "target_va": 268608048,
+          "kind": 20
+        },
+        {
+          "symbol": "??1FilterQuery@Table@DataStructures@@QAE@XZ",
+          "site_rva": 199475,
+          "target_va": 268596368,
+          "kind": 6
+        },
+        {
+          "symbol": "??_M@YGXPAXIHP6EX0@Z@Z",
+          "site_rva": 199503,
+          "target_va": 269254767,
+          "kind": 20
+        },
+        {
+          "symbol": "??1DatabaseFilter@@QAE@XZ",
+          "site_rva": 199508,
+          "target_va": 268628896,
+          "kind": 6
+        },
+        {
+          "symbol": "??_M@YGXPAXIHP6EX0@Z@Z",
+          "site_rva": 199536,
+          "target_va": 269254767,
+          "kind": 20
+        },
+        {
+          "symbol": "??1BitStream@RakNet@@QAE@XZ",
+          "site_rva": 199556,
+          "target_va": 268564688,
+          "kind": 20
+        },
+        {
+          "symbol": "??1BitStream@RakNet@@QAE@XZ",
+          "site_rva": 199576,
+          "target_va": 268564688,
+          "kind": 20
+        },
+        {
+          "symbol": "__except_list",
+          "site_rva": 199593,
+          "target_va": 0,
+          "kind": 6
+        }
+      ],
+      "whole_bytes_equal": true
+    },
+    {
+      "unit": "closure_vendor_database_server",
+      "section": 18,
+      "rva": 193424,
+      "size": 12,
+      "anchor": "??0DatabaseFilter@@QAE@XZ",
+      "kind": ".text",
+      "sha256": "bcae1ce2e8b05d6487745a8073bfed66f6dce3605816d747024e254c5514c0e2",
+      "bindings": [
+        {
+          "symbol": "??0Cell@Table@DataStructures@@QAE@XZ",
+          "site_rva": 193428,
+          "target_va": 268595616,
+          "kind": 20
+        }
+      ],
+      "whole_bytes_equal": true
+    },
+    {
+      "unit": "closure_vendor_database_server",
+      "section": 20,
+      "rva": 193440,
+      "size": 5,
+      "anchor": "??1DatabaseFilter@@QAE@XZ",
+      "kind": ".text",
+      "sha256": "cf447893345142792d854cca2a734cbeed41167be0776b2ee83b8759b052e27e",
+      "bindings": [
+        {
+          "symbol": "??1Cell@Table@DataStructures@@QAE@XZ",
+          "site_rva": 193441,
+          "target_va": 268599120,
+          "kind": 20
+        }
+      ],
+      "whole_bytes_equal": true
+    },
+    {
+      "unit": "closure_vendor_database_server",
+      "section": 171,
+      "rva": 926128,
+      "size": 93,
+      "anchor": "__ehhandler$?OnQueryRequest@LightweightDatabaseServer@@IAEXPAVRakPeerInterface@@PAUPacket@@@Z",
+      "kind": ".text$x",
+      "sha256": "3f9965e5cde4a2c8c1aaa6cd3d2f92b7120baab7bbe20838a1844049ed8eb01a",
+      "bindings": [
+        {
+          "symbol": "??1BitStream@RakNet@@QAE@XZ",
+          "site_rva": 926135,
+          "target_va": 268564688,
+          "kind": 20
+        },
+        {
+          "symbol": "??1BitStream@RakNet@@QAE@XZ",
+          "site_rva": 926146,
+          "target_va": 268564688,
+          "kind": 20
+        },
+        {
+          "symbol": "??1DatabaseFilter@@QAE@XZ",
+          "site_rva": 926151,
+          "target_va": 268628896,
+          "kind": 6
+        },
+        {
+          "symbol": "??_M@YGXPAXIHP6EX0@Z@Z",
+          "site_rva": 926170,
+          "target_va": 269254767,
+          "kind": 20
+        },
+        {
+          "symbol": "??1FilterQuery@Table@DataStructures@@QAE@XZ",
+          "site_rva": 926176,
+          "target_va": 268596368,
+          "kind": 6
+        },
+        {
+          "symbol": "??_M@YGXPAXIHP6EX0@Z@Z",
+          "site_rva": 926195,
+          "target_va": 269254767,
+          "kind": 20
+        },
+        {
+          "symbol": "??1Table@DataStructures@@QAE@XZ",
+          "site_rva": 926207,
+          "target_va": 268608048,
+          "kind": 20
+        },
+        {
+          "symbol": "$T5797",
+          "site_rva": 926212,
+          "target_va": 269459080,
+          "kind": 6
+        },
+        {
+          "symbol": "___CxxFrameHandler",
+          "site_rva": 926217,
+          "target_va": 269247782,
+          "kind": 20
+        }
+      ],
+      "whole_bytes_equal": true
+    },
+    {
+      "unit": "closure_vendor_database_server",
+      "section": 172,
+      "rva": 1023584,
+      "size": 68,
+      "anchor": "$T5797",
+      "kind": ".xdata$x",
+      "sha256": "e7826d20df5af6e5bce15f0e3f06e8dccbbcc3dac9a997a5caabc29876c865e8",
+      "bindings": [
+        {
+          "symbol": "$L5750",
+          "site_rva": 1023588,
+          "target_va": 269361584,
+          "kind": 6
+        },
+        {
+          "symbol": "$L5751",
+          "site_rva": 1023596,
+          "target_va": 269361595,
+          "kind": 6
+        },
+        {
+          "symbol": "$L5752",
+          "site_rva": 1023604,
+          "target_va": 269361606,
+          "kind": 6
+        },
+        {
+          "symbol": "$L5753",
+          "site_rva": 1023612,
+          "target_va": 269361631,
+          "kind": 6
+        },
+        {
+          "symbol": "$L5754",
+          "site_rva": 1023620,
+          "target_va": 269361656,
+          "kind": 6
+        },
+        {
+          "symbol": "$T5812",
+          "site_rva": 1023632,
+          "target_va": 269459040,
+          "kind": 6
+        }
+      ],
+      "whole_bytes_equal": true
+    },
+    {
+      "unit": "closure_vendor_database_server",
+      "section": 168,
+      "rva": 198672,
+      "size": 28,
+      "anchor": "?OnCloseConnection@LightweightDatabaseServer@@UAEXPAVRakPeerInterface@@UPlayerID@@@Z",
+      "kind": ".text",
+      "sha256": "3e319c197f7d5d2b922525e9531635596a3662661e224654eb1dc15bcf6cca6b",
+      "bindings": [
+        {
+          "symbol": "?RemoveRowsFromIP@LightweightDatabaseServer@@IAEXUPlayerID@@@Z",
+          "site_rva": 198693,
+          "target_va": 268632784,
+          "kind": 20
+        }
+      ],
+      "whole_bytes_equal": true
+    },
+    {
+      "unit": "closure_vendor_database_server",
+      "section": 166,
+      "rva": 198592,
+      "size": 76,
+      "anchor": "?RemoveTable@LightweightDatabaseServer@@QAE_NPAD@Z",
+      "kind": ".text",
+      "sha256": "15ccdab9c4a7d6096b956dbedfc23643aa5581f84a23901042e8d8a61b1641fa",
+      "bindings": [
+        {
+          "symbol": "?Get@?$Map@PADPAUDatabaseTable@LightweightDatabaseServer@@$1?DatabaseTableComp@2@SAHABQAD0@Z@DataStructures@@QAEAAPAUDatabaseTable@LightweightDatabaseServer@@ABQAD@Z",
+          "site_rva": 198605,
+          "target_va": 268630544,
+          "kind": 20
+        },
+        {
+          "symbol": "?Delete@?$Map@PADPAUDatabaseTable@LightweightDatabaseServer@@$1?DatabaseTableComp@2@SAHABQAD0@Z@DataStructures@@QAE_NABQAD@Z",
+          "site_rva": 198630,
+          "target_va": 268633280,
+          "kind": 20
+        },
+        {
+          "symbol": "?Clear@Table@DataStructures@@QAEXXZ",
+          "site_rva": 198641,
+          "target_va": 268607904,
+          "kind": 20
+        },
+        {
+          "symbol": "??1DatabaseTable@LightweightDatabaseServer@@QAE@XZ",
+          "site_rva": 198648,
+          "target_va": 268628832,
+          "kind": 20
+        },
+        {
+          "symbol": "??3@YAXPAX@Z",
+          "site_rva": 198654,
+          "target_va": 269247626,
+          "kind": 20
+        }
+      ],
+      "whole_bytes_equal": true
+    },
+    {
+      "unit": "closure_vendor_database_server",
+      "section": 150,
+      "rva": 197824,
+      "size": 87,
+      "anchor": "?Delete@?$Map@PADPAUDatabaseTable@LightweightDatabaseServer@@$1?DatabaseTableComp@2@SAHABQAD0@Z@DataStructures@@QAE_NABQAD@Z",
+      "kind": ".text",
+      "sha256": "0391cd112340e982f72feed59189eb7ccdf2079a45799e79b14452a248741a1a",
+      "bindings": [
+        {
+          "symbol": "?HasSavedSearchResult@?$Map@PADPAUDatabaseTable@LightweightDatabaseServer@@$1?DatabaseTableComp@2@SAHABQAD0@Z@DataStructures@@IBE_NABQAD@Z",
+          "site_rva": 197834,
+          "target_va": 268629072,
+          "kind": 20
+        },
+        {
+          "symbol": "?RemoveAtIndex@?$OrderedList@PADUMapNode@?$Map@PADPAUDatabaseTable@LightweightDatabaseServer@@$1?DatabaseTableComp@2@SAHABQAD0@Z@DataStructures@@$1?NodeComparisonFunc@23@SAHABQADABU123@@Z@DataStructures@@QAEXI@Z",
+          "site_rva": 197853,
+          "target_va": 268630912,
+          "kind": 20
+        },
+        {
+          "symbol": "?GetIndexFromKey@?$OrderedList@PADUMapNode@?$Map@PADPAUDatabaseTable@LightweightDatabaseServer@@$1?DatabaseTableComp@2@SAHABQAD0@Z@DataStructures@@$1?NodeComparisonFunc@23@SAHABQADABU123@@Z@DataStructures@@QBEIABQADPA_N@Z",
+          "site_rva": 197873,
+          "target_va": 268629408,
+          "kind": 20
+        },
+        {
+          "symbol": "?RemoveAtIndex@?$OrderedList@PADUMapNode@?$Map@PADPAUDatabaseTable@LightweightDatabaseServer@@$1?DatabaseTableComp@2@SAHABQAD0@Z@DataStructures@@$1?NodeComparisonFunc@23@SAHABQADABU123@@Z@DataStructures@@QAEXI@Z",
+          "site_rva": 197893,
+          "target_va": 268630912,
+          "kind": 20
+        }
+      ],
+      "whole_bytes_equal": true
+    },
+    {
+      "unit": "closure_vendor_database_server",
+      "section": 80,
+      "rva": 193952,
+      "size": 141,
+      "anchor": "?GetIndexFromKey@?$OrderedList@PADUMapNode@?$Map@PADPAUDatabaseTable@LightweightDatabaseServer@@$1?DatabaseTableComp@2@SAHABQAD0@Z@DataStructures@@$1?NodeComparisonFunc@23@SAHABQADABU123@@Z@DataStructures@@QBEIABQADPA_N@Z",
+      "kind": ".text",
+      "sha256": "3cec4e2bf5b816a147bc0364fb50062e00802fd8ca341e4af96ee72c1598e3c4",
+      "bindings": [
+        {
+          "symbol": "?DatabaseTableComp@LightweightDatabaseServer@@SAHABQAD0@Z",
+          "site_rva": 194002,
+          "target_va": 268628720,
+          "kind": 20
+        },
+        {
+          "symbol": "?DatabaseTableComp@LightweightDatabaseServer@@SAHABQAD0@Z",
+          "site_rva": 194050,
+          "target_va": 268628720,
+          "kind": 20
+        }
+      ],
+      "whole_bytes_equal": true
+    },
+    {
+      "unit": "closure_vendor_database_server",
+      "section": 119,
+      "rva": 195456,
+      "size": 5,
+      "anchor": "?RemoveAtIndex@?$OrderedList@PADUMapNode@?$Map@PADPAUDatabaseTable@LightweightDatabaseServer@@$1?DatabaseTableComp@2@SAHABQAD0@Z@DataStructures@@$1?NodeComparisonFunc@23@SAHABQADABU123@@Z@DataStructures@@QAEXI@Z",
+      "kind": ".text",
+      "sha256": "e5a903bca1b1a62664a083b4ba5ea58bce072bc2009bc02214f9d068981b9493",
+      "bindings": [
+        {
+          "symbol": "?RemoveAtIndex@?$List@UMapNode@?$Map@PADPAUDatabaseTable@LightweightDatabaseServer@@$1?DatabaseTableComp@2@SAHABQAD0@Z@DataStructures@@@DataStructures@@QAEXI@Z",
+          "site_rva": 195457,
+          "target_va": 268630048,
+          "kind": 20
+        }
+      ],
+      "whole_bytes_equal": true
+    },
+    {
+      "unit": "closure_vendor_database_server",
+      "section": 97,
+      "rva": 194592,
+      "size": 53,
+      "anchor": "?RemoveAtIndex@?$List@UMapNode@?$Map@PADPAUDatabaseTable@LightweightDatabaseServer@@$1?DatabaseTableComp@2@SAHABQAD0@Z@DataStructures@@@DataStructures@@QAEXI@Z",
+      "kind": ".text",
+      "sha256": "2b1c6fa65a7b92b32765d557c52c849ff8d44ea7b30636750fb02798df84ccbf",
+      "bindings": [
+        {
+          "symbol": "_memmove",
+          "site_rva": 194627,
+          "target_va": 269250016,
+          "kind": 20
+        }
+      ],
+      "whole_bytes_equal": true
+    },
+    {
+      "unit": "closure_vendor_database_server",
+      "section": 54,
+      "rva": 193616,
+      "size": 41,
+      "anchor": "?HasSavedSearchResult@?$Map@PADPAUDatabaseTable@LightweightDatabaseServer@@$1?DatabaseTableComp@2@SAHABQAD0@Z@DataStructures@@IBE_NABQAD@Z",
+      "kind": ".text",
+      "sha256": "66c80970ddc9c545aad7ec2446600ee4cd009dd768dc5e43171280b7093735e3",
+      "bindings": [
+        {
+          "symbol": "?DatabaseTableComp@LightweightDatabaseServer@@SAHABQAD0@Z",
+          "site_rva": 193633,
+          "target_va": 268628720,
+          "kind": 20
+        }
+      ],
+      "whole_bytes_equal": true
+    },
+    {
+      "unit": "closure_vendor_database_server",
+      "section": 103,
+      "rva": 195088,
+      "size": 79,
+      "anchor": "?Get@?$Map@PADPAUDatabaseTable@LightweightDatabaseServer@@$1?DatabaseTableComp@2@SAHABQAD0@Z@DataStructures@@QAEAAPAUDatabaseTable@LightweightDatabaseServer@@ABQAD@Z",
+      "kind": ".text",
+      "sha256": "467140450c32bb3d66ecce803c287c130f14b98e8909b7b50f4ff53e59ce8737",
+      "bindings": [
+        {
+          "symbol": "?HasSavedSearchResult@?$Map@PADPAUDatabaseTable@LightweightDatabaseServer@@$1?DatabaseTableComp@2@SAHABQAD0@Z@DataStructures@@IBE_NABQAD@Z",
+          "site_rva": 195098,
+          "target_va": 268629072,
+          "kind": 20
+        },
+        {
+          "symbol": "??A?$OrderedList@PADUMapNode@?$Map@PADPAUDatabaseTable@LightweightDatabaseServer@@$1?DatabaseTableComp@2@SAHABQAD0@Z@DataStructures@@$1?NodeComparisonFunc@23@SAHABQADABU123@@Z@DataStructures@@QBEAAUMapNode@?$Map@PADPAUDatabaseTable@LightweightDatabaseServer@@$1?DatabaseTableComp@2@SAHABQAD0@Z@1@I@Z",
+          "site_rva": 195113,
+          "target_va": 268629552,
+          "kind": 20
+        },
+        {
+          "symbol": "?GetIndexFromKey@?$OrderedList@PADUMapNode@?$Map@PADPAUDatabaseTable@LightweightDatabaseServer@@$1?DatabaseTableComp@2@SAHABQAD0@Z@DataStructures@@$1?NodeComparisonFunc@23@SAHABQADABU123@@Z@DataStructures@@QBEIABQADPA_N@Z",
+          "site_rva": 195135,
+          "target_va": 268629408,
+          "kind": 20
+        },
+        {
+          "symbol": "?SaveLastSearch@?$Map@PADPAUDatabaseTable@LightweightDatabaseServer@@$1?DatabaseTableComp@2@SAHABQAD0@Z@DataStructures@@IAEXABQADI@Z",
+          "site_rva": 195146,
+          "target_va": 268629040,
+          "kind": 20
+        },
+        {
+          "symbol": "??A?$OrderedList@PADUMapNode@?$Map@PADPAUDatabaseTable@LightweightDatabaseServer@@$1?DatabaseTableComp@2@SAHABQAD0@Z@DataStructures@@$1?NodeComparisonFunc@23@SAHABQADABU123@@Z@DataStructures@@QBEAAUMapNode@?$Map@PADPAUDatabaseTable@LightweightDatabaseServer@@$1?DatabaseTableComp@2@SAHABQAD0@Z@1@I@Z",
+          "site_rva": 195154,
+          "target_va": 268629552,
+          "kind": 20
+        }
+      ],
+      "whole_bytes_equal": true
+    },
+    {
+      "unit": "closure_vendor_database_server",
+      "section": 52,
+      "rva": 193584,
+      "size": 23,
+      "anchor": "?SaveLastSearch@?$Map@PADPAUDatabaseTable@LightweightDatabaseServer@@$1?DatabaseTableComp@2@SAHABQAD0@Z@DataStructures@@IAEXABQADI@Z",
+      "kind": ".text",
+      "sha256": "1ee6c94693cf4ed27f6765ea50e83b974b249558ed1247c8cfa5b0bb095d8a17",
+      "bindings": [],
+      "whole_bytes_equal": true
+    },
+    {
+      "unit": "closure_vendor_database_server",
+      "section": 82,
+      "rva": 194096,
+      "size": 12,
+      "anchor": "??A?$OrderedList@PADUMapNode@?$Map@PADPAUDatabaseTable@LightweightDatabaseServer@@$1?DatabaseTableComp@2@SAHABQAD0@Z@DataStructures@@$1?NodeComparisonFunc@23@SAHABQADABU123@@Z@DataStructures@@QBEAAUMapNode@?$Map@PADPAUDatabaseTable@LightweightDatabaseServer@@$1?DatabaseTableComp@2@SAHABQAD0@Z@1@I@Z",
+      "kind": ".text",
+      "sha256": "2a019df44c6041bf3d0bba2505aaebbe24ee64bc5e67b5c5bdde23bd41aca1ec",
+      "bindings": [],
+      "whole_bytes_equal": true
+    },
+    {
+      "unit": "closure_vendor_database_server",
+      "section": 159,
+      "rva": 198032,
+      "size": 555,
+      "anchor": "?AddTable@LightweightDatabaseServer@@QAEPAVTable@DataStructures@@PAD_N11QAD2211111@Z",
+      "kind": ".text",
+      "sha256": "f6a45fed027e31fd9c59bd123dd08c5e61b292f091e7da4008153407e50ac984",
+      "bindings": [
+        {
+          "symbol": "__ehhandler$?AddTable@LightweightDatabaseServer@@QAEPAVTable@DataStructures@@PAD_N11QAD2211111@Z",
+          "site_rva": 198035,
+          "target_va": 269361563,
+          "kind": 6
+        },
+        {
+          "symbol": "__except_list",
+          "site_rva": 198041,
+          "target_va": 0,
+          "kind": 6
+        },
+        {
+          "symbol": "__except_list",
+          "site_rva": 198049,
+          "target_va": 0,
+          "kind": 6
+        },
+        {
+          "symbol": "?Has@?$Map@PADPAUDatabaseTable@LightweightDatabaseServer@@$1?DatabaseTableComp@2@SAHABQAD0@Z@DataStructures@@QAE_NABQAD@Z",
+          "site_rva": 198091,
+          "target_va": 268630624,
+          "kind": 20
+        },
+        {
+          "symbol": "??2@YAPAXI@Z",
+          "site_rva": 198110,
+          "target_va": 269247098,
+          "kind": 20
+        },
+        {
+          "symbol": "??0Table@DataStructures@@QAE@XZ",
+          "site_rva": 198138,
+          "target_va": 268608016,
+          "kind": 20
+        },
+        {
+          "symbol": "_strncpy",
+          "site_rva": 198167,
+          "target_va": 269252592,
+          "kind": 20
+        },
+        {
+          "symbol": "_strncpy",
+          "site_rva": 198200,
+          "target_va": 269252592,
+          "kind": 20
+        },
+        {
+          "symbol": "_strncpy",
+          "site_rva": 198233,
+          "target_va": 269252592,
+          "kind": 20
+        },
+        {
+          "symbol": "_strncpy",
+          "site_rva": 198266,
+          "target_va": 269252592,
+          "kind": 20
+        },
+        {
+          "symbol": "?SetNew@?$Map@PADPAUDatabaseTable@LightweightDatabaseServer@@$1?DatabaseTableComp@2@SAHABQAD0@Z@DataStructures@@QAEXABQADABQAUDatabaseTable@LightweightDatabaseServer@@@Z",
+          "site_rva": 198384,
+          "target_va": 268633216,
+          "kind": 20
+        },
+        {
+          "symbol": "??_C@_0L@OGGHIFPB@__systemId?$AA@",
+          "site_rva": 198429,
+          "target_va": 269381220,
+          "kind": 6
+        },
+        {
+          "symbol": "?AddColumn@Table@DataStructures@@QAEIQADW4ColumnType@12@@Z",
+          "site_rva": 198440,
+          "target_va": 268603296,
+          "kind": 20
+        },
+        {
+          "symbol": "??_C@_0BH@PHDJLFLA@__lastPingResponseTime?$AA@",
+          "site_rva": 198466,
+          "target_va": 269381196,
+          "kind": 6
+        },
+        {
+          "symbol": "?AddColumn@Table@DataStructures@@QAEIQADW4ColumnType@12@@Z",
+          "site_rva": 198473,
+          "target_va": 268603296,
+          "kind": 20
+        },
+        {
+          "symbol": "??_C@_0BD@NEFEFGEE@__nextPingSendTime?$AA@",
+          "site_rva": 198479,
+          "target_va": 269381176,
+          "kind": 6
+        },
+        {
+          "symbol": "?AddColumn@Table@DataStructures@@QAEIQADW4ColumnType@12@@Z",
+          "site_rva": 198492,
+          "target_va": 268603296,
+          "kind": 20
+        },
+        {
+          "symbol": "__except_list",
+          "site_rva": 198518,
+          "target_va": 0,
+          "kind": 6
+        },
+        {
+          "symbol": "__except_list",
+          "site_rva": 198556,
+          "target_va": 0,
+          "kind": 6
+        },
+        {
+          "symbol": "__except_list",
+          "site_rva": 198577,
+          "target_va": 0,
+          "kind": 6
+        }
+      ],
+      "whole_bytes_equal": true
+    },
+    {
+      "unit": "closure_vendor_database_server",
+      "section": 161,
+      "rva": 945720,
+      "size": 19,
+      "anchor": "??_C@_0BD@NEFEFGEE@__nextPingSendTime?$AA@",
+      "kind": ".rdata",
+      "sha256": "5e8ad1db26c623ed46b3e3df67c92062d9f6829b22dedce396b51f6529655c4f",
+      "bindings": [],
+      "whole_bytes_equal": true
+    },
+    {
+      "unit": "closure_vendor_database_server",
+      "section": 162,
+      "rva": 945740,
+      "size": 23,
+      "anchor": "??_C@_0BH@PHDJLFLA@__lastPingResponseTime?$AA@",
+      "kind": ".rdata",
+      "sha256": "49d4c2c39ab960c19614ef9b3dfc9e3c8344a25fe8288b6c3f1d0acbffef888f",
+      "bindings": [],
+      "whole_bytes_equal": true
+    },
+    {
+      "unit": "closure_vendor_database_server",
+      "section": 163,
+      "rva": 945764,
+      "size": 11,
+      "anchor": "??_C@_0L@OGGHIFPB@__systemId?$AA@",
+      "kind": ".rdata",
+      "sha256": "1924b6afd01edf1783aa5fefec29da2db829beb6354fcef54333d3d77e1b4e33",
+      "bindings": [],
+      "whole_bytes_equal": true
+    },
+    {
+      "unit": "closure_vendor_database_server",
+      "section": 148,
+      "rva": 197760,
+      "size": 57,
+      "anchor": "?SetNew@?$Map@PADPAUDatabaseTable@LightweightDatabaseServer@@$1?DatabaseTableComp@2@SAHABQAD0@Z@DataStructures@@QAEXABQADABQAUDatabaseTable@LightweightDatabaseServer@@@Z",
+      "kind": ".text",
+      "sha256": "9b714c1775b5a375d3b866fab5fc20bc5b3cf1d915d2360a1859475cfbe6ede9",
+      "bindings": [
+        {
+          "symbol": "?Insert@?$OrderedList@PADUMapNode@?$Map@PADPAUDatabaseTable@LightweightDatabaseServer@@$1?DatabaseTableComp@2@SAHABQAD0@Z@DataStructures@@$1?NodeComparisonFunc@23@SAHABQADABU123@@Z@DataStructures@@QAEIABQADABUMapNode@?$Map@PADPAUDatabaseTable@LightweightDatabaseServer@@$1?DatabaseTableComp@2@SAHABQAD0@Z@2@@Z",
+          "site_rva": 197796,
+          "target_va": 268630816,
+          "kind": 20
+        },
+        {
+          "symbol": "?SaveLastSearch@?$Map@PADPAUDatabaseTable@LightweightDatabaseServer@@$1?DatabaseTableComp@2@SAHABQAD0@Z@DataStructures@@IAEXABQADI@Z",
+          "site_rva": 197805,
+          "target_va": 268629040,
+          "kind": 20
+        }
+      ],
+      "whole_bytes_equal": true
+    },
+    {
+      "unit": "closure_vendor_database_server",
+      "section": 117,
+      "rva": 195360,
+      "size": 95,
+      "anchor": "?Insert@?$OrderedList@PADUMapNode@?$Map@PADPAUDatabaseTable@LightweightDatabaseServer@@$1?DatabaseTableComp@2@SAHABQAD0@Z@DataStructures@@$1?NodeComparisonFunc@23@SAHABQADABU123@@Z@DataStructures@@QAEIABQADABUMapNode@?$Map@PADPAUDatabaseTable@LightweightDatabaseServer@@$1?DatabaseTableComp@2@SAHABQAD0@Z@2@@Z",
+      "kind": ".text",
+      "sha256": "400927bd932884d99cb84cda15a9e122870ac79ced46dd4f41941c9e7b0aa6ce",
+      "bindings": [
+        {
+          "symbol": "?GetIndexFromKey@?$OrderedList@PADUMapNode@?$Map@PADPAUDatabaseTable@LightweightDatabaseServer@@$1?DatabaseTableComp@2@SAHABQAD0@Z@DataStructures@@$1?NodeComparisonFunc@23@SAHABQADABU123@@Z@DataStructures@@QBEIABQADPA_N@Z",
+          "site_rva": 195377,
+          "target_va": 268629408,
+          "kind": 20
+        },
+        {
+          "symbol": "?Insert@?$List@UMapNode@?$Map@PADPAUDatabaseTable@LightweightDatabaseServer@@$1?DatabaseTableComp@2@SAHABQAD0@Z@DataStructures@@@DataStructures@@QAEXUMapNode@?$Map@PADPAUDatabaseTable@LightweightDatabaseServer@@$1?DatabaseTableComp@2@SAHABQAD0@Z@2@@Z",
+          "site_rva": 195420,
+          "target_va": 268629600,
+          "kind": 20
+        },
+        {
+          "symbol": "?Insert@?$List@UMapNode@?$Map@PADPAUDatabaseTable@LightweightDatabaseServer@@$1?DatabaseTableComp@2@SAHABQAD0@Z@DataStructures@@@DataStructures@@QAEXUMapNode@?$Map@PADPAUDatabaseTable@LightweightDatabaseServer@@$1?DatabaseTableComp@2@SAHABQAD0@Z@2@I@Z",
+          "site_rva": 195444,
+          "target_va": 268629808,
+          "kind": 20
+        }
+      ],
+      "whole_bytes_equal": true
+    },
+    {
+      "unit": "closure_vendor_database_server",
+      "section": 93,
+      "rva": 194352,
+      "size": 226,
+      "anchor": "?Insert@?$List@UMapNode@?$Map@PADPAUDatabaseTable@LightweightDatabaseServer@@$1?DatabaseTableComp@2@SAHABQAD0@Z@DataStructures@@@DataStructures@@QAEXUMapNode@?$Map@PADPAUDatabaseTable@LightweightDatabaseServer@@$1?DatabaseTableComp@2@SAHABQAD0@Z@2@I@Z",
+      "kind": ".text",
+      "sha256": "e30f04f924ad23775cdebac69eb894f9f13fa89cbb7ef7f20d05bd3b09fd04f7",
+      "bindings": [
+        {
+          "symbol": "__ehhandler$?Insert@?$List@UMapNode@?$Map@PADPAUDatabaseTable@LightweightDatabaseServer@@$1?DatabaseTableComp@2@SAHABQAD0@Z@DataStructures@@@DataStructures@@QAEXUMapNode@?$Map@PADPAUDatabaseTable@LightweightDatabaseServer@@$1?DatabaseTableComp@2@SAHABQAD0@Z@2@I@Z",
+          "site_rva": 194355,
+          "target_va": 269361339,
+          "kind": 6
+        },
+        {
+          "symbol": "__except_list",
+          "site_rva": 194361,
+          "target_va": 0,
+          "kind": 6
+        },
+        {
+          "symbol": "__except_list",
+          "site_rva": 194369,
+          "target_va": 0,
+          "kind": 6
+        },
+        {
+          "symbol": "??2@YAPAXI@Z",
+          "site_rva": 194420,
+          "target_va": 269247098,
+          "kind": 20
+        },
+        {
+          "symbol": "??0MapNode@?$Map@PADPAUDatabaseTable@LightweightDatabaseServer@@$1?DatabaseTableComp@2@SAHABQAD0@Z@DataStructures@@QAE@XZ",
+          "site_rva": 194442,
+          "target_va": 268629280,
+          "kind": 6
+        },
+        {
+          "symbol": "??_H@YGXPAXIHP6EPAX0@Z@Z",
+          "site_rva": 194451,
+          "target_va": 268619232,
+          "kind": 20
+        },
+        {
+          "symbol": "??3@YAXPAX@Z",
+          "site_rva": 194493,
+          "target_va": 269247626,
+          "kind": 20
+        },
+        {
+          "symbol": "_memmove",
+          "site_rva": 194528,
+          "target_va": 269250016,
+          "kind": 20
+        },
+        {
+          "symbol": "__except_list",
+          "site_rva": 194568,
+          "target_va": 0,
+          "kind": 6
+        }
+      ],
+      "whole_bytes_equal": true
+    },
+    {
+      "unit": "closure_vendor_database_server",
+      "section": 68,
+      "rva": 183776,
+      "size": 48,
+      "anchor": "??_H@YGXPAXIHP6EPAX0@Z@Z",
+      "kind": ".text",
+      "sha256": "10326531db91f3b5a10ad875d2e6ea19bf6d71e1e1cb0cbdd0e648226c7e8480",
+      "bindings": [],
+      "whole_bytes_equal": true
+    },
+    {
+      "unit": "closure_vendor_database_server",
+      "section": 70,
+      "rva": 193824,
+      "size": 3,
+      "anchor": "??0MapNode@?$Map@PADPAUDatabaseTable@LightweightDatabaseServer@@$1?DatabaseTableComp@2@SAHABQAD0@Z@DataStructures@@QAE@XZ",
+      "kind": ".text",
+      "sha256": "58367ffa2a0179375018fa0f5c26da24391e42ebe0ed8fdda35a21fc7bdc396f",
+      "bindings": [],
+      "whole_bytes_equal": true
+    },
+    {
+      "unit": "closure_vendor_database_server",
+      "section": 94,
+      "rva": 925872,
+      "size": 21,
+      "anchor": "__ehhandler$?Insert@?$List@UMapNode@?$Map@PADPAUDatabaseTable@LightweightDatabaseServer@@$1?DatabaseTableComp@2@SAHABQAD0@Z@DataStructures@@@DataStructures@@QAEXUMapNode@?$Map@PADPAUDatabaseTable@LightweightDatabaseServer@@$1?DatabaseTableComp@2@SAHABQAD0@Z@2@I@Z",
+      "kind": ".text$x",
+      "sha256": "1cb1ce8a4acb31c02c87cc7a350c8ddab41e35e0e68b00198eba6b7aca1467fe",
+      "bindings": [
+        {
+          "symbol": "??3@YAXPAX@Z",
+          "site_rva": 925877,
+          "target_va": 269247626,
+          "kind": 20
+        },
+        {
+          "symbol": "$T5471",
+          "site_rva": 925884,
+          "target_va": 269458760,
+          "kind": 6
+        },
+        {
+          "symbol": "___CxxFrameHandler",
+          "site_rva": 925889,
+          "target_va": 269247782,
+          "kind": 20
+        }
+      ],
+      "whole_bytes_equal": true
+    },
+    {
+      "unit": "closure_vendor_database_server",
+      "section": 95,
+      "rva": 1023296,
+      "size": 36,
+      "anchor": "$T5471",
+      "kind": ".xdata$x",
+      "sha256": "801288440a496986605c16266ef460131303fa3f5b96d8d107a94de606562ce2",
+      "bindings": [
+        {
+          "symbol": "$L5469",
+          "site_rva": 1023300,
+          "target_va": 269361328,
+          "kind": 6
+        },
+        {
+          "symbol": "$T5473",
+          "site_rva": 1023312,
+          "target_va": 269458752,
+          "kind": 6
+        }
+      ],
+      "whole_bytes_equal": true
+    },
+    {
+      "unit": "closure_vendor_database_server",
+      "section": 88,
+      "rva": 194144,
+      "size": 198,
+      "anchor": "?Insert@?$List@UMapNode@?$Map@PADPAUDatabaseTable@LightweightDatabaseServer@@$1?DatabaseTableComp@2@SAHABQAD0@Z@DataStructures@@@DataStructures@@QAEXUMapNode@?$Map@PADPAUDatabaseTable@LightweightDatabaseServer@@$1?DatabaseTableComp@2@SAHABQAD0@Z@2@@Z",
+      "kind": ".text",
+      "sha256": "14a58026634cc21f8c19772674a6524daecc81ee50cc3e7ef2415e7db4c21c41",
+      "bindings": [
+        {
+          "symbol": "__ehhandler$?Insert@?$List@UMapNode@?$Map@PADPAUDatabaseTable@LightweightDatabaseServer@@$1?DatabaseTableComp@2@SAHABQAD0@Z@DataStructures@@@DataStructures@@QAEXUMapNode@?$Map@PADPAUDatabaseTable@LightweightDatabaseServer@@$1?DatabaseTableComp@2@SAHABQAD0@Z@2@@Z",
+          "site_rva": 194147,
+          "target_va": 269361307,
+          "kind": 6
+        },
+        {
+          "symbol": "__except_list",
+          "site_rva": 194153,
+          "target_va": 0,
+          "kind": 6
+        },
+        {
+          "symbol": "__except_list",
+          "site_rva": 194161,
+          "target_va": 0,
+          "kind": 6
+        },
+        {
+          "symbol": "??2@YAPAXI@Z",
+          "site_rva": 194212,
+          "target_va": 269247098,
+          "kind": 20
+        },
+        {
+          "symbol": "??0MapNode@?$Map@PADPAUDatabaseTable@LightweightDatabaseServer@@$1?DatabaseTableComp@2@SAHABQAD0@Z@DataStructures@@QAE@XZ",
+          "site_rva": 194234,
+          "target_va": 268629280,
+          "kind": 6
+        },
+        {
+          "symbol": "??_H@YGXPAXIHP6EPAX0@Z@Z",
+          "site_rva": 194243,
+          "target_va": 268619232,
+          "kind": 20
+        },
+        {
+          "symbol": "??3@YAXPAX@Z",
+          "site_rva": 194285,
+          "target_va": 269247626,
+          "kind": 20
+        },
+        {
+          "symbol": "__except_list",
+          "site_rva": 194332,
+          "target_va": 0,
+          "kind": 6
+        }
+      ],
+      "whole_bytes_equal": true
+    },
+    {
+      "unit": "closure_vendor_database_server",
+      "section": 89,
+      "rva": 925840,
+      "size": 21,
+      "anchor": "__ehhandler$?Insert@?$List@UMapNode@?$Map@PADPAUDatabaseTable@LightweightDatabaseServer@@$1?DatabaseTableComp@2@SAHABQAD0@Z@DataStructures@@@DataStructures@@QAEXUMapNode@?$Map@PADPAUDatabaseTable@LightweightDatabaseServer@@$1?DatabaseTableComp@2@SAHABQAD0@Z@2@@Z",
+      "kind": ".text$x",
+      "sha256": "9321117cde4b47e272f8cd66cd3bb92384b6842827baffb2758d895f5db4d4d0",
+      "bindings": [
+        {
+          "symbol": "??3@YAXPAX@Z",
+          "site_rva": 925845,
+          "target_va": 269247626,
+          "kind": 20
+        },
+        {
+          "symbol": "$T5454",
+          "site_rva": 925852,
+          "target_va": 269458724,
+          "kind": 6
+        },
+        {
+          "symbol": "___CxxFrameHandler",
+          "site_rva": 925857,
+          "target_va": 269247782,
+          "kind": 20
+        }
+      ],
+      "whole_bytes_equal": true
+    },
+    {
+      "unit": "closure_vendor_database_server",
+      "section": 90,
+      "rva": 1023260,
+      "size": 36,
+      "anchor": "$T5454",
+      "kind": ".xdata$x",
+      "sha256": "085ea650c296cd04c891359733c215abb2b6521063979273190fb4e2a4600a5a",
+      "bindings": [
+        {
+          "symbol": "$L5450",
+          "site_rva": 1023264,
+          "target_va": 269361296,
+          "kind": 6
+        },
+        {
+          "symbol": "$T5457",
+          "site_rva": 1023276,
+          "target_va": 269458716,
+          "kind": 6
+        }
+      ],
+      "whole_bytes_equal": true
+    },
+    {
+      "unit": "closure_vendor_database_server",
+      "section": 105,
+      "rva": 195168,
+      "size": 64,
+      "anchor": "?Has@?$Map@PADPAUDatabaseTable@LightweightDatabaseServer@@$1?DatabaseTableComp@2@SAHABQAD0@Z@DataStructures@@QAE_NABQAD@Z",
+      "kind": ".text",
+      "sha256": "14290a83655b8ee185fb37ec991e08fbc61db6ab67b749d827facb5dedf58b08",
+      "bindings": [
+        {
+          "symbol": "?HasSavedSearchResult@?$Map@PADPAUDatabaseTable@LightweightDatabaseServer@@$1?DatabaseTableComp@2@SAHABQAD0@Z@DataStructures@@IBE_NABQAD@Z",
+          "site_rva": 195178,
+          "target_va": 268629072,
+          "kind": 20
+        },
+        {
+          "symbol": "?GetIndexFromKey@?$OrderedList@PADUMapNode@?$Map@PADPAUDatabaseTable@LightweightDatabaseServer@@$1?DatabaseTableComp@2@SAHABQAD0@Z@DataStructures@@$1?NodeComparisonFunc@23@SAHABQADABU123@@Z@DataStructures@@QBEIABQADPA_N@Z",
+          "site_rva": 195203,
+          "target_va": 268629408,
+          "kind": 20
+        },
+        {
+          "symbol": "?SaveLastSearch@?$Map@PADPAUDatabaseTable@LightweightDatabaseServer@@$1?DatabaseTableComp@2@SAHABQAD0@Z@DataStructures@@IAEXABQADI@Z",
+          "site_rva": 195220,
+          "target_va": 268629040,
+          "kind": 20
+        }
+      ],
+      "whole_bytes_equal": true
+    },
+    {
+      "unit": "closure_vendor_database_server",
+      "section": 160,
+      "rva": 926096,
+      "size": 21,
+      "anchor": "__ehhandler$?AddTable@LightweightDatabaseServer@@QAEPAVTable@DataStructures@@PAD_N11QAD2211111@Z",
+      "kind": ".text$x",
+      "sha256": "59c1cdc123f2b4fabc2eb0b95c9e8539c5051ee0f3cc32cc3e69d265ec64e316",
+      "bindings": [
+        {
+          "symbol": "??3@YAXPAX@Z",
+          "site_rva": 926101,
+          "target_va": 269247626,
+          "kind": 20
+        },
+        {
+          "symbol": "$T5730",
+          "site_rva": 926108,
+          "target_va": 269459012,
+          "kind": 6
+        },
+        {
+          "symbol": "___CxxFrameHandler",
+          "site_rva": 926113,
+          "target_va": 269247782,
+          "kind": 20
+        }
+      ],
+      "whole_bytes_equal": true
+    },
+    {
+      "unit": "closure_vendor_database_server",
+      "section": 164,
+      "rva": 1023548,
+      "size": 36,
+      "anchor": "$T5730",
+      "kind": ".xdata$x",
+      "sha256": "6763ebfd141841188fe739018827e6bf9aaeee8767a037c956e3e507974e1f5f",
+      "bindings": [
+        {
+          "symbol": "$L5724",
+          "site_rva": 1023552,
+          "target_va": 269361552,
+          "kind": 6
+        },
+        {
+          "symbol": "$T5733",
+          "site_rva": 1023564,
+          "target_va": 269459004,
+          "kind": 6
+        }
+      ],
+      "whole_bytes_equal": true
+    },
+    {
+      "unit": "closure_vendor_database_server",
+      "section": 138,
+      "rva": 197328,
+      "size": 332,
+      "anchor": "?RemoveRowsFromIP@LightweightDatabaseServer@@IAEXUPlayerID@@@Z",
+      "kind": ".text",
+      "sha256": "4248d2214893e1c4cdc6449c0b4ecdfb6b50589547c85eaa19089206226496f9",
+      "bindings": [
+        {
+          "symbol": "__ehhandler$?RemoveRowsFromIP@LightweightDatabaseServer@@IAEXUPlayerID@@@Z",
+          "site_rva": 197331,
+          "target_va": 269361464,
+          "kind": 6
+        },
+        {
+          "symbol": "__except_list",
+          "site_rva": 197337,
+          "target_va": 0,
+          "kind": 6
+        },
+        {
+          "symbol": "__except_list",
+          "site_rva": 197345,
+          "target_va": 0,
+          "kind": 6
+        },
+        {
+          "symbol": "??0?$List@I@DataStructures@@QAE@XZ",
+          "site_rva": 197367,
+          "target_va": 268596912,
+          "kind": 20
+        },
+        {
+          "symbol": "?Size@?$Map@PADPAUDatabaseTable@LightweightDatabaseServer@@$1?DatabaseTableComp@2@SAHABQAD0@Z@DataStructures@@QBEIXZ",
+          "site_rva": 197387,
+          "target_va": 268630720,
+          "kind": 20
+        },
+        {
+          "symbol": "??A?$Map@PADPAUDatabaseTable@LightweightDatabaseServer@@$1?DatabaseTableComp@2@SAHABQAD0@Z@DataStructures@@QBEAAPAUDatabaseTable@LightweightDatabaseServer@@I@Z",
+          "site_rva": 197403,
+          "target_va": 268630688,
+          "kind": 20
+        },
+        {
+          "symbol": "?GetRows@Table@DataStructures@@QAEAAV?$BPlusTree@IPAURow@Table@DataStructures@@$0BA@@2@XZ",
+          "site_rva": 197433,
+          "target_va": 268596432,
+          "kind": 20
+        },
+        {
+          "symbol": "?GetListHead@?$BPlusTree@IPAURow@Table@DataStructures@@$0BA@@DataStructures@@QBEPAU?$Page@IPAURow@Table@DataStructures@@$0BA@@2@XZ",
+          "site_rva": 197440,
+          "target_va": 268596640,
+          "kind": 20
+        },
+        {
+          "symbol": "?RowHasIP@LightweightDatabaseServer@@IAE_NPAURow@Table@DataStructures@@UPlayerID@@I@Z",
+          "site_rva": 197508,
+          "target_va": 268629344,
+          "kind": 20
+        },
+        {
+          "symbol": "?Insert@?$List@I@DataStructures@@QAEXI@Z",
+          "site_rva": 197524,
+          "target_va": 268596976,
+          "kind": 20
+        },
+        {
+          "symbol": "?RemoveRow@Table@DataStructures@@QAEXI@Z",
+          "site_rva": 197577,
+          "target_va": 268606992,
+          "kind": 20
+        },
+        {
+          "symbol": "?Clear@?$List@I@DataStructures@@QAEX_N@Z",
+          "site_rva": 197591,
+          "target_va": 268628944,
+          "kind": 20
+        },
+        {
+          "symbol": "?Size@?$Map@PADPAUDatabaseTable@LightweightDatabaseServer@@$1?DatabaseTableComp@2@SAHABQAD0@Z@DataStructures@@QBEIXZ",
+          "site_rva": 197610,
+          "target_va": 268630720,
+          "kind": 20
+        },
+        {
+          "symbol": "??1?$List@I@DataStructures@@QAE@XZ",
+          "site_rva": 197635,
+          "target_va": 268596928,
+          "kind": 20
+        },
+        {
+          "symbol": "__except_list",
+          "site_rva": 197649,
+          "target_va": 0,
+          "kind": 6
+        }
+      ],
+      "whole_bytes_equal": true
+    },
+    {
+      "unit": "closure_vendor_database_server",
+      "section": 36,
+      "rva": 161472,
+      "size": 17,
+      "anchor": "??1?$List@I@DataStructures@@QAE@XZ",
+      "kind": ".text",
+      "sha256": "ce7a16833420b4e7f49ceff4f131f3ad002d1c38936190aa71859e74f811e309",
+      "bindings": [
+        {
+          "symbol": "??3@YAXPAX@Z",
+          "site_rva": 161483,
+          "target_va": 269247626,
+          "kind": 20
+        }
+      ],
+      "whole_bytes_equal": true
+    },
+    {
+      "unit": "closure_vendor_database_server",
+      "section": 44,
+      "rva": 193488,
+      "size": 60,
+      "anchor": "?Clear@?$List@I@DataStructures@@QAEX_N@Z",
+      "kind": ".text",
+      "sha256": "c6b7712db44780a1eb338df48ecdb2957139ea4eb032a7a40a837484af6e1469",
+      "bindings": [
+        {
+          "symbol": "??3@YAXPAX@Z",
+          "site_rva": 193517,
+          "target_va": 269247626,
+          "kind": 20
+        }
+      ],
+      "whole_bytes_equal": true
+    },
+    {
+      "unit": "closure_vendor_database_server",
+      "section": 40,
+      "rva": 161520,
+      "size": 105,
+      "anchor": "?Insert@?$List@I@DataStructures@@QAEXI@Z",
+      "kind": ".text",
+      "sha256": "d809e066294f87af89ca4ef629dae8589ef00bb03c4ee8b47aa38b75ace7855e",
+      "bindings": [
+        {
+          "symbol": "??2@YAPAXI@Z",
+          "site_rva": 161560,
+          "target_va": 269247098,
+          "kind": 20
+        },
+        {
+          "symbol": "??3@YAXPAX@Z",
+          "site_rva": 161594,
+          "target_va": 269247626,
+          "kind": 20
+        }
+      ],
+      "whole_bytes_equal": true
+    },
+    {
+      "unit": "closure_vendor_database_server",
+      "section": 28,
+      "rva": 161184,
+      "size": 4,
+      "anchor": "?GetListHead@?$BPlusTree@IPAURow@Table@DataStructures@@$0BA@@DataStructures@@QBEPAU?$Page@IPAURow@Table@DataStructures@@$0BA@@2@XZ",
+      "kind": ".text",
+      "sha256": "01d3abacb68aac3537badfe563d0e21d0244fb61db1d805bcef8f455407fad96",
+      "bindings": [],
+      "whole_bytes_equal": true
+    },
+    {
+      "unit": "closure_vendor_database_server",
+      "section": 107,
+      "rva": 195232,
+      "size": 16,
+      "anchor": "??A?$Map@PADPAUDatabaseTable@LightweightDatabaseServer@@$1?DatabaseTableComp@2@SAHABQAD0@Z@DataStructures@@QBEAAPAUDatabaseTable@LightweightDatabaseServer@@I@Z",
+      "kind": ".text",
+      "sha256": "b0cf1bd4f6246b2c36b0e9770034fdf963ef5cc69a94fe01b33c918c9a38ffc3",
+      "bindings": [
+        {
+          "symbol": "??A?$OrderedList@PADUMapNode@?$Map@PADPAUDatabaseTable@LightweightDatabaseServer@@$1?DatabaseTableComp@2@SAHABQAD0@Z@DataStructures@@$1?NodeComparisonFunc@23@SAHABQADABU123@@Z@DataStructures@@QBEAAUMapNode@?$Map@PADPAUDatabaseTable@LightweightDatabaseServer@@$1?DatabaseTableComp@2@SAHABQAD0@Z@1@I@Z",
+          "site_rva": 195238,
+          "target_va": 268629552,
+          "kind": 20
+        }
+      ],
+      "whole_bytes_equal": true
+    },
+    {
+      "unit": "closure_vendor_database_server",
+      "section": 111,
+      "rva": 195264,
+      "size": 5,
+      "anchor": "?Size@?$Map@PADPAUDatabaseTable@LightweightDatabaseServer@@$1?DatabaseTableComp@2@SAHABQAD0@Z@DataStructures@@QBEIXZ",
+      "kind": ".text",
+      "sha256": "6869ca2a0376eed22dc434a9ec4c9ee7dafeb498efdd4451f77d46d746cc0a43",
+      "bindings": [
+        {
+          "symbol": "?Size@?$OrderedList@PADUMapNode@?$Map@PADPAUDatabaseTable@LightweightDatabaseServer@@$1?DatabaseTableComp@2@SAHABQAD0@Z@DataStructures@@$1?NodeComparisonFunc@23@SAHABQADABU123@@Z@DataStructures@@QBEIXZ",
+          "site_rva": 195265,
+          "target_va": 268629584,
+          "kind": 20
+        }
+      ],
+      "whole_bytes_equal": true
+    },
+    {
+      "unit": "closure_vendor_database_server",
+      "section": 86,
+      "rva": 194128,
+      "size": 4,
+      "anchor": "?Size@?$OrderedList@PADUMapNode@?$Map@PADPAUDatabaseTable@LightweightDatabaseServer@@$1?DatabaseTableComp@2@SAHABQAD0@Z@DataStructures@@$1?NodeComparisonFunc@23@SAHABQADABU123@@Z@DataStructures@@QBEIXZ",
+      "kind": ".text",
+      "sha256": "f7e0208f5e988ae39c7a45dfddbd12921d02f9c3deb5695d4c534c8ab0ccdb0f",
+      "bindings": [],
+      "whole_bytes_equal": true
+    },
+    {
+      "unit": "closure_vendor_database_server",
+      "section": 34,
+      "rva": 161456,
+      "size": 13,
+      "anchor": "??0?$List@I@DataStructures@@QAE@XZ",
+      "kind": ".text",
+      "sha256": "efaddf6f7c64b7d0dd7d70e04563c88df5b21978a063a338954e28cc09d4e5e9",
+      "bindings": [],
+      "whole_bytes_equal": true
+    },
+    {
+      "unit": "closure_vendor_database_server",
+      "section": 139,
+      "rva": 926000,
+      "size": 18,
+      "anchor": "__ehhandler$?RemoveRowsFromIP@LightweightDatabaseServer@@IAEXUPlayerID@@@Z",
+      "kind": ".text$x",
+      "sha256": "42c4c190db0130e35536bf54929ae5488cf07bb9ce3a3600ad7ec90ff88503a9",
+      "bindings": [
+        {
+          "symbol": "??1?$List@I@DataStructures@@QAE@XZ",
+          "site_rva": 926004,
+          "target_va": 268596928,
+          "kind": 20
+        },
+        {
+          "symbol": "$T5667",
+          "site_rva": 926009,
+          "target_va": 269458904,
+          "kind": 6
+        },
+        {
+          "symbol": "___CxxFrameHandler",
+          "site_rva": 926014,
+          "target_va": 269247782,
+          "kind": 20
+        }
+      ],
+      "whole_bytes_equal": true
+    },
+    {
+      "unit": "closure_vendor_database_server",
+      "section": 140,
+      "rva": 1023440,
+      "size": 36,
+      "anchor": "$T5667",
+      "kind": ".xdata$x",
+      "sha256": "06492cad713974c8c41c31be58531e2f1067fe20b34b7ce6671728de7aec243e",
+      "bindings": [
+        {
+          "symbol": "$L5658",
+          "site_rva": 1023444,
+          "target_va": 269361456,
+          "kind": 6
+        },
+        {
+          "symbol": "$T5677",
+          "site_rva": 1023456,
+          "target_va": 269458896,
+          "kind": 6
+        }
+      ],
+      "whole_bytes_equal": true
+    },
+    {
+      "unit": "closure_vendor_database_server",
+      "section": 134,
+      "rva": 196704,
+      "size": 623,
+      "anchor": "?DeserializeClientHeader@LightweightDatabaseServer@@IAEPAUDatabaseTable@1@PAVBitStream@RakNet@@PAVRakPeerInterface@@PAUPacket@@H@Z",
+      "kind": ".text",
+      "sha256": "1fb256a3e8559487dc29ba001d6f3bf197464dcd6c926723d511b0166e1c0750",
+      "bindings": [
+        {
+          "symbol": "__ehhandler$?DeserializeClientHeader@LightweightDatabaseServer@@IAEPAUDatabaseTable@1@PAVBitStream@RakNet@@PAVRakPeerInterface@@PAUPacket@@H@Z",
+          "site_rva": 196707,
+          "target_va": 269361435,
+          "kind": 6
+        },
+        {
+          "symbol": "__except_list",
+          "site_rva": 196713,
+          "target_va": 0,
+          "kind": 6
+        },
+        {
+          "symbol": "__except_list",
+          "site_rva": 196721,
+          "target_va": 0,
+          "kind": 6
+        },
+        {
+          "symbol": "??0BitStream@RakNet@@QAE@XZ",
+          "site_rva": 196741,
+          "target_va": 268564272,
+          "kind": 20
+        },
+        {
+          "symbol": "?IgnoreBits@BitStream@RakNet@@QAEXH@Z",
+          "site_rva": 196768,
+          "target_va": 268565744,
+          "kind": 20
+        },
+        {
+          "symbol": "?Instance@StringCompressor@@SAPAV1@XZ",
+          "site_rva": 196783,
+          "target_va": 268778544,
+          "kind": 20
+        },
+        {
+          "symbol": "?DecodeString@StringCompressor@@QAE_NPADHPAVBitStream@RakNet@@H@Z",
+          "site_rva": 196790,
+          "target_va": 268780240,
+          "kind": 20
+        },
+        {
+          "symbol": "?Get@?$Map@PADPAUDatabaseTable@LightweightDatabaseServer@@$1?DatabaseTableComp@2@SAHABQAD0@Z@DataStructures@@QAEAAPAUDatabaseTable@LightweightDatabaseServer@@ABQAD@Z",
+          "site_rva": 196811,
+          "target_va": 268630544,
+          "kind": 20
+        },
+        {
+          "symbol": "?WriteBits@BitStream@RakNet@@QAEXPBEH_N@Z",
+          "site_rva": 196840,
+          "target_va": 268566496,
+          "kind": 20
+        },
+        {
+          "symbol": "??$Read@_N@BitStream@RakNet@@QAE_NAA_N@Z",
+          "site_rva": 196934,
+          "target_va": 268469280,
+          "kind": 20
+        },
+        {
+          "symbol": "?Instance@StringCompressor@@SAPAV1@XZ",
+          "site_rva": 196961,
+          "target_va": 268778544,
+          "kind": 20
+        },
+        {
+          "symbol": "?DecodeString@StringCompressor@@QAE_NPADHPAVBitStream@RakNet@@H@Z",
+          "site_rva": 196968,
+          "target_va": 268780240,
+          "kind": 20
+        },
+        {
+          "symbol": "?WriteBits@BitStream@RakNet@@QAEXPBEH_N@Z",
+          "site_rva": 197063,
+          "target_va": 268566496,
+          "kind": 20
+        },
+        {
+          "symbol": "?ToString@PlayerID@@QBEPAD_N@Z",
+          "site_rva": 197135,
+          "target_va": 268646304,
+          "kind": 20
+        },
+        {
+          "symbol": "?WriteBits@BitStream@RakNet@@QAEXPBEH_N@Z",
+          "site_rva": 197199,
+          "target_va": 268566496,
+          "kind": 20
+        },
+        {
+          "symbol": "??1BitStream@RakNet@@QAE@XZ",
+          "site_rva": 197271,
+          "target_va": 268564688,
+          "kind": 20
+        },
+        {
+          "symbol": "??1BitStream@RakNet@@QAE@XZ",
+          "site_rva": 197295,
+          "target_va": 268564688,
+          "kind": 20
+        },
+        {
+          "symbol": "__except_list",
+          "site_rva": 197313,
+          "target_va": 0,
+          "kind": 6
+        }
+      ],
+      "whole_bytes_equal": true
+    },
+    {
+      "unit": "closure_vendor_database_server",
+      "section": 135,
+      "rva": 925968,
+      "size": 21,
+      "anchor": "__ehhandler$?DeserializeClientHeader@LightweightDatabaseServer@@IAEPAUDatabaseTable@1@PAVBitStream@RakNet@@PAVRakPeerInterface@@PAUPacket@@H@Z",
+      "kind": ".text$x",
+      "sha256": "9b2e9948ba61eab64ad67aa3cc2e8fb10c4a97e042ee45aded9f6de8320e614d",
+      "bindings": [
+        {
+          "symbol": "??1BitStream@RakNet@@QAE@XZ",
+          "site_rva": 925975,
+          "target_va": 268564688,
+          "kind": 20
+        },
+        {
+          "symbol": "$T5646",
+          "site_rva": 925980,
+          "target_va": 269458868,
+          "kind": 6
+        },
+        {
+          "symbol": "___CxxFrameHandler",
+          "site_rva": 925985,
+          "target_va": 269247782,
+          "kind": 20
+        }
+      ],
+      "whole_bytes_equal": true
+    },
+    {
+      "unit": "closure_vendor_database_server",
+      "section": 136,
+      "rva": 1023404,
+      "size": 36,
+      "anchor": "$T5646",
+      "kind": ".xdata$x",
+      "sha256": "bffaea5b4bffb8bfacbb3a296bea497c1c4e37b2bc2cdfe06cb6b59174c7bee9",
+      "bindings": [
+        {
+          "symbol": "$L5626",
+          "site_rva": 1023408,
+          "target_va": 269361424,
+          "kind": 6
+        },
+        {
+          "symbol": "$T5653",
+          "site_rva": 1023420,
+          "target_va": 269458860,
+          "kind": 6
+        }
+      ],
+      "whole_bytes_equal": true
+    },
+    {
+      "unit": "closure_vendor_database_server",
+      "section": 132,
+      "rva": 196464,
+      "size": 238,
+      "anchor": "?OnPong@LightweightDatabaseServer@@IAEXPAVRakPeerInterface@@PAUPacket@@@Z",
+      "kind": ".text",
+      "sha256": "4402a9ccf7a07849d722021f17e66d66831150cb1c2ae2710593cf50d37f8250",
+      "bindings": [
+        {
+          "symbol": "?Size@?$Map@PADPAUDatabaseTable@LightweightDatabaseServer@@$1?DatabaseTableComp@2@SAHABQAD0@Z@DataStructures@@QBEIXZ",
+          "site_rva": 196489,
+          "target_va": 268630720,
+          "kind": 20
+        },
+        {
+          "symbol": "??A?$Map@PADPAUDatabaseTable@LightweightDatabaseServer@@$1?DatabaseTableComp@2@SAHABQAD0@Z@DataStructures@@QBEAAPAUDatabaseTable@LightweightDatabaseServer@@I@Z",
+          "site_rva": 196507,
+          "target_va": 268630688,
+          "kind": 20
+        },
+        {
+          "symbol": "?GetTime@RakNet@@YAIXZ",
+          "site_rva": 196533,
+          "target_va": 268625904,
+          "kind": 20
+        },
+        {
+          "symbol": "?GetRows@Table@DataStructures@@QAEAAV?$BPlusTree@IPAURow@Table@DataStructures@@$0BA@@2@XZ",
+          "site_rva": 196548,
+          "target_va": 268596432,
+          "kind": 20
+        },
+        {
+          "symbol": "?GetListHead@?$BPlusTree@IPAURow@Table@DataStructures@@$0BA@@DataStructures@@QBEPAU?$Page@IPAURow@Table@DataStructures@@$0BA@@2@XZ",
+          "site_rva": 196555,
+          "target_va": 268596640,
+          "kind": 20
+        },
+        {
+          "symbol": "?Get@Cell@Table@DataStructures@@QAEXPADPAH@Z",
+          "site_rva": 196598,
+          "target_va": 268596096,
+          "kind": 20
+        },
+        {
+          "symbol": "??8PlayerID@@QBE_NABU0@@Z",
+          "site_rva": 196615,
+          "target_va": 268646112,
+          "kind": 20
+        },
+        {
+          "symbol": "?Size@?$Map@PADPAUDatabaseTable@LightweightDatabaseServer@@$1?DatabaseTableComp@2@SAHABQAD0@Z@DataStructures@@QBEIXZ",
+          "site_rva": 196680,
+          "target_va": 268630720,
+          "kind": 20
+        }
+      ],
+      "whole_bytes_equal": true
+    },
+    {
+      "unit": "closure_vendor_database_server",
+      "section": 129,
+      "rva": 195744,
+      "size": 717,
+      "anchor": "?Update@LightweightDatabaseServer@@UAEXPAVRakPeerInterface@@@Z",
+      "kind": ".text",
+      "sha256": "9a5eb15525e64a08ca74885c159591bd9b5203819fa73e83d7edcfb3a286c9ea",
+      "bindings": [
+        {
+          "symbol": "__ehhandler$?Update@LightweightDatabaseServer@@UAEXPAVRakPeerInterface@@@Z",
+          "site_rva": 195753,
+          "target_va": 269361400,
+          "kind": 6
+        },
+        {
+          "symbol": "__except_list",
+          "site_rva": 195759,
+          "target_va": 0,
+          "kind": 6
+        },
+        {
+          "symbol": "__except_list",
+          "site_rva": 195767,
+          "target_va": 0,
+          "kind": 6
+        },
+        {
+          "symbol": "??0?$List@I@DataStructures@@QAE@XZ",
+          "site_rva": 195790,
+          "target_va": 268596912,
+          "kind": 20
+        },
+        {
+          "symbol": "?Size@?$Map@PADPAUDatabaseTable@LightweightDatabaseServer@@$1?DatabaseTableComp@2@SAHABQAD0@Z@DataStructures@@QBEIXZ",
+          "site_rva": 195812,
+          "target_va": 268630720,
+          "kind": 20
+        },
+        {
+          "symbol": "??A?$Map@PADPAUDatabaseTable@LightweightDatabaseServer@@$1?DatabaseTableComp@2@SAHABQAD0@Z@DataStructures@@QBEAAPAUDatabaseTable@LightweightDatabaseServer@@I@Z",
+          "site_rva": 195835,
+          "target_va": 268630688,
+          "kind": 20
+        },
+        {
+          "symbol": "?GetTime@RakNet@@YAIXZ",
+          "site_rva": 195861,
+          "target_va": 268625904,
+          "kind": 20
+        },
+        {
+          "symbol": "?randomMT@@YAIXZ",
+          "site_rva": 195886,
+          "target_va": 268712960,
+          "kind": 20
+        },
+        {
+          "symbol": "?GetRows@Table@DataStructures@@QAEAAV?$BPlusTree@IPAURow@Table@DataStructures@@$0BA@@2@XZ",
+          "site_rva": 195923,
+          "target_va": 268596432,
+          "kind": 20
+        },
+        {
+          "symbol": "?GetListHead@?$BPlusTree@IPAURow@Table@DataStructures@@$0BA@@DataStructures@@QBEPAU?$Page@IPAURow@Table@DataStructures@@$0BA@@2@XZ",
+          "site_rva": 195934,
+          "target_va": 268596640,
+          "kind": 20
+        },
+        {
+          "symbol": "?Insert@?$List@I@DataStructures@@QAEXI@Z",
+          "site_rva": 196007,
+          "target_va": 268596976,
+          "kind": 20
+        },
+        {
+          "symbol": "?RemoveRow@Table@DataStructures@@QAEXI@Z",
+          "site_rva": 196083,
+          "target_va": 268606992,
+          "kind": 20
+        },
+        {
+          "symbol": "?Clear@?$List@I@DataStructures@@QAEX_N@Z",
+          "site_rva": 196097,
+          "target_va": 268628944,
+          "kind": 20
+        },
+        {
+          "symbol": "?GetListHead@?$BPlusTree@IPAURow@Table@DataStructures@@$0BA@@DataStructures@@QBEPAU?$Page@IPAURow@Table@DataStructures@@$0BA@@2@XZ",
+          "site_rva": 196106,
+          "target_va": 268596640,
+          "kind": 20
+        },
+        {
+          "symbol": "?Get@Cell@Table@DataStructures@@QAEXPADPAH@Z",
+          "site_rva": 196207,
+          "target_va": 268596096,
+          "kind": 20
+        },
+        {
+          "symbol": "?ToString@PlayerID@@QBEPAD_N@Z",
+          "site_rva": 196263,
+          "target_va": 268646304,
+          "kind": 20
+        },
+        {
+          "symbol": "?randomMT@@YAIXZ",
+          "site_rva": 196312,
+          "target_va": 268712960,
+          "kind": 20
+        },
+        {
+          "symbol": "?Size@?$Map@PADPAUDatabaseTable@LightweightDatabaseServer@@$1?DatabaseTableComp@2@SAHABQAD0@Z@DataStructures@@QBEIXZ",
+          "site_rva": 196412,
+          "target_va": 268630720,
+          "kind": 20
+        },
+        {
+          "symbol": "??1?$List@I@DataStructures@@QAE@XZ",
+          "site_rva": 196437,
+          "target_va": 268596928,
+          "kind": 20
+        },
+        {
+          "symbol": "__except_list",
+          "site_rva": 196450,
+          "target_va": 0,
+          "kind": 6
+        }
+      ],
+      "whole_bytes_equal": true
+    },
+    {
+      "unit": "closure_vendor_database_server",
+      "section": 130,
+      "rva": 925936,
+      "size": 18,
+      "anchor": "__ehhandler$?Update@LightweightDatabaseServer@@UAEXPAVRakPeerInterface@@@Z",
+      "kind": ".text$x",
+      "sha256": "00fb43bff3674cba97ed281583b465591083cd89e5832a947faa7acf7930eef8",
+      "bindings": [
+        {
+          "symbol": "??1?$List@I@DataStructures@@QAE@XZ",
+          "site_rva": 925940,
+          "target_va": 268596928,
+          "kind": 20
+        },
+        {
+          "symbol": "$T5581",
+          "site_rva": 925945,
+          "target_va": 269458832,
+          "kind": 6
+        },
+        {
+          "symbol": "___CxxFrameHandler",
+          "site_rva": 925950,
+          "target_va": 269247782,
+          "kind": 20
+        }
+      ],
+      "whole_bytes_equal": true
+    },
+    {
+      "unit": "closure_vendor_database_server",
+      "section": 131,
+      "rva": 1023368,
+      "size": 36,
+      "anchor": "$T5581",
+      "kind": ".xdata$x",
+      "sha256": "59bb8af647e3b6add090b2925af6c7647753ec14d40880d7a2eb7f93cc1f0e58",
+      "bindings": [
+        {
+          "symbol": "$L5556",
+          "site_rva": 1023372,
+          "target_va": 269361392,
+          "kind": 6
+        },
+        {
+          "symbol": "$T5600",
+          "site_rva": 1023384,
+          "target_va": 269458824,
+          "kind": 6
+        }
+      ],
+      "whole_bytes_equal": true
+    },
+    {
+      "unit": "closure_vendor_database_server",
+      "section": 127,
+      "rva": 195696,
+      "size": 34,
+      "anchor": "?GetAndIncrementRowID@LightweightDatabaseServer@@QAEIPAD@Z",
+      "kind": ".text",
+      "sha256": "939f6ffcd78b0993d470027f23843b207e0a68679150aa874e49493770619de6",
+      "bindings": [
+        {
+          "symbol": "?Get@?$Map@PADPAUDatabaseTable@LightweightDatabaseServer@@$1?DatabaseTableComp@2@SAHABQAD0@Z@DataStructures@@QAEAAPAUDatabaseTable@LightweightDatabaseServer@@ABQAD@Z",
+          "site_rva": 195705,
+          "target_va": 268630544,
+          "kind": 20
+        }
+      ],
+      "whole_bytes_equal": true
+    },
+    {
+      "unit": "closure_vendor_database_server",
+      "section": 125,
+      "rva": 195600,
+      "size": 92,
+      "anchor": "?Clear@LightweightDatabaseServer@@QAEXXZ",
+      "kind": ".text",
+      "sha256": "0954842d70bd5b295fede9045bf8f6db1aa97b63f60d1d61e5046ee3aa90bc66",
+      "bindings": [
+        {
+          "symbol": "?Size@?$Map@PADPAUDatabaseTable@LightweightDatabaseServer@@$1?DatabaseTableComp@2@SAHABQAD0@Z@DataStructures@@QBEIXZ",
+          "site_rva": 195610,
+          "target_va": 268630720,
+          "kind": 20
+        },
+        {
+          "symbol": "??A?$Map@PADPAUDatabaseTable@LightweightDatabaseServer@@$1?DatabaseTableComp@2@SAHABQAD0@Z@DataStructures@@QBEAAPAUDatabaseTable@LightweightDatabaseServer@@I@Z",
+          "site_rva": 195623,
+          "target_va": 268630688,
+          "kind": 20
+        },
+        {
+          "symbol": "?Clear@Table@DataStructures@@QAEXXZ",
+          "site_rva": 195636,
+          "target_va": 268607904,
+          "kind": 20
+        },
+        {
+          "symbol": "??A?$Map@PADPAUDatabaseTable@LightweightDatabaseServer@@$1?DatabaseTableComp@2@SAHABQAD0@Z@DataStructures@@QBEAAPAUDatabaseTable@LightweightDatabaseServer@@I@Z",
+          "site_rva": 195644,
+          "target_va": 268630688,
+          "kind": 20
+        },
+        {
+          "symbol": "??1DatabaseTable@LightweightDatabaseServer@@QAE@XZ",
+          "site_rva": 195657,
+          "target_va": 268628832,
+          "kind": 20
+        },
+        {
+          "symbol": "??3@YAXPAX@Z",
+          "site_rva": 195663,
+          "target_va": 269247626,
+          "kind": 20
+        },
+        {
+          "symbol": "?Size@?$Map@PADPAUDatabaseTable@LightweightDatabaseServer@@$1?DatabaseTableComp@2@SAHABQAD0@Z@DataStructures@@QBEIXZ",
+          "site_rva": 195674,
+          "target_va": 268630720,
+          "kind": 20
+        },
+        {
+          "symbol": "?Clear@?$Map@PADPAUDatabaseTable@LightweightDatabaseServer@@$1?DatabaseTableComp@2@SAHABQAD0@Z@DataStructures@@QAEXXZ",
+          "site_rva": 195688,
+          "target_va": 268630704,
+          "kind": 20
+        }
+      ],
+      "whole_bytes_equal": true
+    },
+    {
+      "unit": "closure_vendor_database_server",
+      "section": 109,
+      "rva": 195248,
+      "size": 9,
+      "anchor": "?Clear@?$Map@PADPAUDatabaseTable@LightweightDatabaseServer@@$1?DatabaseTableComp@2@SAHABQAD0@Z@DataStructures@@QAEXXZ",
+      "kind": ".text",
+      "sha256": "b43b233bda07e9e323d50c375d4f817676e9845f9934e898583d499c8ddcbd63",
+      "bindings": [
+        {
+          "symbol": "?Clear@?$OrderedList@PADUMapNode@?$Map@PADPAUDatabaseTable@LightweightDatabaseServer@@$1?DatabaseTableComp@2@SAHABQAD0@Z@DataStructures@@$1?NodeComparisonFunc@23@SAHABQADABU123@@Z@DataStructures@@QAEXXZ",
+          "site_rva": 195253,
+          "target_va": 268629568,
+          "kind": 20
+        }
+      ],
+      "whole_bytes_equal": true
+    },
+    {
+      "unit": "closure_vendor_database_server",
+      "section": 84,
+      "rva": 194112,
+      "size": 8,
+      "anchor": "?Clear@?$OrderedList@PADUMapNode@?$Map@PADPAUDatabaseTable@LightweightDatabaseServer@@$1?DatabaseTableComp@2@SAHABQAD0@Z@DataStructures@@$1?NodeComparisonFunc@23@SAHABQADABU123@@Z@DataStructures@@QAEXXZ",
+      "kind": ".text",
+      "sha256": "367dbec0db6ad488eb916aec2481a4e1fabdbe2801afeb7cc2dd4b659504835d",
+      "bindings": [
+        {
+          "symbol": "?Clear@?$List@UMapNode@?$Map@PADPAUDatabaseTable@LightweightDatabaseServer@@$1?DatabaseTableComp@2@SAHABQAD0@Z@DataStructures@@@DataStructures@@QAEX_N@Z",
+          "site_rva": 194115,
+          "target_va": 268629216,
+          "kind": 20
+        }
+      ],
+      "whole_bytes_equal": true
+    },
+    {
+      "unit": "closure_vendor_database_server",
+      "section": 66,
+      "rva": 193760,
+      "size": 60,
+      "anchor": "?Clear@?$List@UMapNode@?$Map@PADPAUDatabaseTable@LightweightDatabaseServer@@$1?DatabaseTableComp@2@SAHABQAD0@Z@DataStructures@@@DataStructures@@QAEX_N@Z",
+      "kind": ".text",
+      "sha256": "3c9c4c818fd0133e22af734e5d8854245e25f2e44e5e892403b0e69a2fdb5ad9",
+      "bindings": [
+        {
+          "symbol": "??3@YAXPAX@Z",
+          "site_rva": 193789,
+          "target_va": 269247626,
+          "kind": 20
+        }
+      ],
+      "whole_bytes_equal": true
+    },
+    {
+      "unit": "closure_vendor_database_server",
+      "section": 121,
+      "rva": 195472,
+      "size": 49,
+      "anchor": "?GetTable@LightweightDatabaseServer@@QAEPAVTable@DataStructures@@PAD@Z",
+      "kind": ".text",
+      "sha256": "0f16dd3d133101f60c253c28871e3cbb1a6dc3bb68d85383d359f831cb12e656",
+      "bindings": [
+        {
+          "symbol": "?Has@?$Map@PADPAUDatabaseTable@LightweightDatabaseServer@@$1?DatabaseTableComp@2@SAHABQAD0@Z@DataStructures@@QAE_NABQAD@Z",
+          "site_rva": 195484,
+          "target_va": 268630624,
+          "kind": 20
+        },
+        {
+          "symbol": "?Get@?$Map@PADPAUDatabaseTable@LightweightDatabaseServer@@$1?DatabaseTableComp@2@SAHABQAD0@Z@DataStructures@@QAEAAPAUDatabaseTable@LightweightDatabaseServer@@ABQAD@Z",
+          "site_rva": 195500,
+          "target_va": 268630544,
+          "kind": 20
+        }
+      ],
+      "whole_bytes_equal": true
+    },
+    {
+      "unit": "closure_vendor_database_server",
+      "section": 101,
+      "rva": 194848,
+      "size": 231,
+      "anchor": "?AddRow@LightweightDatabaseServer@@IAEPAURow@Table@DataStructures@@PAUDatabaseTable@1@UPlayerID@@_NI@Z",
+      "kind": ".text",
+      "sha256": "066072ed4f1c8f91909aef0bf304ffcd9cf9467ae419813c8ba7dfd7c4c5c459",
+      "bindings": [
+        {
+          "symbol": "?GetRowFromIP@LightweightDatabaseServer@@IAEPAURow@Table@DataStructures@@PAUDatabaseTable@1@UPlayerID@@PAI@Z",
+          "site_rva": 194886,
+          "target_va": 268630112,
+          "kind": 20
+        },
+        {
+          "symbol": "?GetRowByID@Table@DataStructures@@QAEPAURow@12@I@Z",
+          "site_rva": 194921,
+          "target_va": 268603536,
+          "kind": 20
+        },
+        {
+          "symbol": "?AddRow@Table@DataStructures@@QAEPAURow@12@I@Z",
+          "site_rva": 194960,
+          "target_va": 268606256,
+          "kind": 20
+        },
+        {
+          "symbol": "?Set@Cell@Table@DataStructures@@QAEXPADH@Z",
+          "site_rva": 195013,
+          "target_va": 268595952,
+          "kind": 20
+        },
+        {
+          "symbol": "?GetTime@RakNet@@YAIXZ",
+          "site_rva": 195025,
+          "target_va": 268625904,
+          "kind": 20
+        },
+        {
+          "symbol": "?Set@Cell@Table@DataStructures@@QAEXH@Z",
+          "site_rva": 195044,
+          "target_va": 268595824,
+          "kind": 20
+        },
+        {
+          "symbol": "?Set@Cell@Table@DataStructures@@QAEXH@Z",
+          "site_rva": 195067,
+          "target_va": 268595824,
+          "kind": 20
+        }
+      ],
+      "whole_bytes_equal": true
+    },
+    {
+      "unit": "closure_vendor_database_server",
+      "section": 99,
+      "rva": 194656,
+      "size": 188,
+      "anchor": "?GetRowFromIP@LightweightDatabaseServer@@IAEPAURow@Table@DataStructures@@PAUDatabaseTable@1@UPlayerID@@PAI@Z",
+      "kind": ".text",
+      "sha256": "ae0eb505ffb3896484c2510bec92c19d46e20a9afca387615ac5c253d6df9d87",
+      "bindings": [
+        {
+          "symbol": "?GetRows@Table@DataStructures@@QAEAAV?$BPlusTree@IPAURow@Table@DataStructures@@$0BA@@2@XZ",
+          "site_rva": 194678,
+          "target_va": 268596432,
+          "kind": 20
+        },
+        {
+          "symbol": "?GetListHead@?$BPlusTree@IPAURow@Table@DataStructures@@$0BA@@DataStructures@@QBEPAU?$Page@IPAURow@Table@DataStructures@@$0BA@@2@XZ",
+          "site_rva": 194685,
+          "target_va": 268596640,
+          "kind": 20
+        },
+        {
+          "symbol": "?RowHasIP@LightweightDatabaseServer@@IAE_NPAURow@Table@DataStructures@@UPlayerID@@I@Z",
+          "site_rva": 194766,
+          "target_va": 268629344,
+          "kind": 20
+        }
+      ],
+      "whole_bytes_equal": true
+    },
+    {
+      "unit": "closure_vendor_database_server",
+      "section": 76,
+      "rva": 193888,
+      "size": 40,
+      "anchor": "?RowHasIP@LightweightDatabaseServer@@IAE_NPAURow@Table@DataStructures@@UPlayerID@@I@Z",
+      "kind": ".text",
+      "sha256": "23dbc6d18105251785fd3693ba4ea697ad9c9884f286a026a13971ad05421f45",
+      "bindings": [],
+      "whole_bytes_equal": true
+    },
+    {
+      "unit": "closure_vendor_database_server",
+      "section": 74,
+      "rva": 193856,
+      "size": 30,
+      "anchor": "??_GDatabaseTable@LightweightDatabaseServer@@QAEPAXI@Z",
+      "kind": ".text",
+      "sha256": "4f1cda286fc9d8a1eaa6cec87b6f061ab28f2ae9cc06aa9164307387c094f7f6",
+      "bindings": [
+        {
+          "symbol": "??1DatabaseTable@LightweightDatabaseServer@@QAE@XZ",
+          "site_rva": 193860,
+          "target_va": 268628832,
+          "kind": 20
+        },
+        {
+          "symbol": "??3@YAXPAX@Z",
+          "site_rva": 193873,
+          "target_va": 269247626,
+          "kind": 20
+        }
+      ],
+      "whole_bytes_equal": true
+    },
+    {
+      "unit": "closure_vendor_database_server",
+      "section": 12,
+      "rva": 193376,
+      "size": 11,
+      "anchor": "??1DatabaseTable@LightweightDatabaseServer@@QAE@XZ",
+      "kind": ".text",
+      "sha256": "07a0b6d47598c7e9f2e89f4a1f5bee30eb433d1f067669705df58eb27dc7caf1",
+      "bindings": [
+        {
+          "symbol": "??1Table@DataStructures@@QAE@XZ",
+          "site_rva": 193383,
+          "target_va": 268608048,
+          "kind": 20
+        }
+      ],
+      "whole_bytes_equal": true
+    },
+    {
+      "unit": "closure_vendor_database_server",
+      "section": 10,
+      "rva": 193344,
+      "size": 18,
+      "anchor": "??0DatabaseTable@LightweightDatabaseServer@@QAE@XZ",
+      "kind": ".text",
+      "sha256": "6dfc8f3be85651e91b5d5a29bbc13c234a7fba6409cf7e86aad78d4a09c884a8",
+      "bindings": [
+        {
+          "symbol": "??0Table@DataStructures@@QAE@XZ",
+          "site_rva": 193354,
+          "target_va": 268608016,
+          "kind": 20
+        }
+      ],
+      "whole_bytes_equal": true
+    },
+    {
+      "unit": "closure_vendor_database_server",
+      "section": 5,
+      "rva": 193264,
+      "size": 65,
+      "anchor": "?DatabaseTableComp@LightweightDatabaseServer@@SAHABQAD0@Z",
+      "kind": ".text",
+      "sha256": "51d3ca65eb3e8c68fd4205e9130b73bfa8b436fa1c74aac3afdc70c193805a39",
+      "bindings": [],
+      "whole_bytes_equal": true
+    }
+  ],
+  "bindings_checked": 309,
+  "external_targets": {
+    "__except_list": 0,
+    "??0BitStream@RakNet@@QAE@PAEI_N@Z": 268564416,
+    "?ReadBits@BitStream@RakNet@@QAE_NPAEH_N@Z": 268564912,
+    "?RemoveRow@Table@DataStructures@@QAEXI@Z": 268606992,
+    "??1BitStream@RakNet@@QAE@XZ": 268564688,
+    "___CxxFrameHandler": 269247782,
+    "__chkstk": 269254320,
+    "??_L@YGXPAXIHP6EX0@Z1@Z": 269254863,
+    "?Deserialize@DatabaseCellUpdate@@QAE_NPAVBitStream@RakNet@@@Z": 268628640,
+    "?GetRowByID@Table@DataStructures@@QAEPAURow@12@I@Z": 268603536,
+    "?ColumnIndex@Table@DataStructures@@QAEIQAD@Z": 268599280,
+    "?Clear@Cell@Table@DataStructures@@QAEXXZ": 268596240,
+    "?GetColumnType@Table@DataStructures@@QAE?AW4ColumnType@12@I@Z": 268599408,
+    "?UpdateCell@Row@Table@DataStructures@@QAEXIH@Z": 268599136,
+    "?UpdateCell@Row@Table@DataStructures@@QAEXIHPAD@Z": 268599232,
+    "?UpdateCell@Row@Table@DataStructures@@QAEXIPAD@Z": 268599184,
+    "??_M@YGXPAXIHP6EX0@Z@Z": 269254767,
+    "??0Cell@Table@DataStructures@@QAE@XZ": 268595616,
+    "??1Cell@Table@DataStructures@@QAE@XZ": 268599120,
+    "??0BitStream@RakNet@@QAE@XZ": 268564272,
+    "?Deserialize@DatabaseFilter@@QAE_NPAVBitStream@RakNet@@@Z": 268628432,
+    "??1FilterQuery@Table@DataStructures@@QAE@XZ": 268596368,
+    "??0FilterQuery@Table@DataStructures@@QAE@XZ": 268596352,
+    "?GetColumns@Table@DataStructures@@QAEAAV?$List@UColumnDescriptor@Table@DataStructures@@@2@XZ": 268596416,
+    "??0Table@DataStructures@@QAE@XZ": 268608016,
+    "?QueryTable@Table@DataStructures@@QAEXPAIIPAUFilterQuery@12@I0IPAV12@@Z": 268608144,
+    "?WriteBits@BitStream@RakNet@@QAEXPBEH_N@Z": 268566496,
+    "?SerializeTable@TableSerializer@@SAXPAVTable@DataStructures@@PAVBitStream@RakNet@@@Z": 268784960,
+    "??1Table@DataStructures@@QAE@XZ": 268608048,
+    "?Clear@Table@DataStructures@@QAEXXZ": 268607904,
+    "??3@YAXPAX@Z": 269247626,
+    "_memmove": 269250016,
+    "??2@YAPAXI@Z": 269247098,
+    "_strncpy": 269252592,
+    "?AddColumn@Table@DataStructures@@QAEIQADW4ColumnType@12@@Z": 268603296,
+    "?GetRows@Table@DataStructures@@QAEAAV?$BPlusTree@IPAURow@Table@DataStructures@@$0BA@@2@XZ": 268596432,
+    "?IgnoreBits@BitStream@RakNet@@QAEXH@Z": 268565744,
+    "?Instance@StringCompressor@@SAPAV1@XZ": 268778544,
+    "?DecodeString@StringCompressor@@QAE_NPADHPAVBitStream@RakNet@@H@Z": 268780240,
+    "?ToString@PlayerID@@QBEPAD_N@Z": 268646304,
+    "?GetTime@RakNet@@YAIXZ": 268625904,
+    "?Get@Cell@Table@DataStructures@@QAEXPADPAH@Z": 268596096,
+    "??8PlayerID@@QBE_NABU0@@Z": 268646112,
+    "?randomMT@@YAIXZ": 268712960,
+    "?AddRow@Table@DataStructures@@QAEPAURow@12@I@Z": 268606256,
+    "?Set@Cell@Table@DataStructures@@QAEXPADH@Z": 268595952,
+    "?Set@Cell@Table@DataStructures@@QAEXH@Z": 268595824
+  },
+  "identity_reasons": {
+    "?DatabaseTableComp@LightweightDatabaseServer@@SAHABQAD0@Z": "original principal identity and complete source semantics",
+    "??0DatabaseTable@LightweightDatabaseServer@@QAE@XZ": "original principal identity and complete source semantics",
+    "??1DatabaseTable@LightweightDatabaseServer@@QAE@XZ": "original principal identity and complete source semantics",
+    "??_GDatabaseTable@LightweightDatabaseServer@@QAEPAXI@Z": "original principal identity and complete source semantics",
+    "?RowHasIP@LightweightDatabaseServer@@IAE_NPAURow@Table@DataStructures@@UPlayerID@@I@Z": "original principal identity and complete source semantics",
+    "?GetRowFromIP@LightweightDatabaseServer@@IAEPAURow@Table@DataStructures@@PAUDatabaseTable@1@UPlayerID@@PAI@Z": "original principal identity and complete source semantics",
+    "?AddRow@LightweightDatabaseServer@@IAEPAURow@Table@DataStructures@@PAUDatabaseTable@1@UPlayerID@@_NI@Z": "original principal identity and complete source semantics",
+    "?GetTable@LightweightDatabaseServer@@QAEPAVTable@DataStructures@@PAD@Z": "original principal identity and complete source semantics",
+    "?Clear@LightweightDatabaseServer@@QAEXXZ": "original principal identity and complete source semantics",
+    "?GetAndIncrementRowID@LightweightDatabaseServer@@QAEIPAD@Z": "original principal identity and complete source semantics",
+    "?Update@LightweightDatabaseServer@@UAEXPAVRakPeerInterface@@@Z": "original principal identity and complete source semantics",
+    "?OnPong@LightweightDatabaseServer@@IAEXPAVRakPeerInterface@@PAUPacket@@@Z": "original principal identity and complete source semantics",
+    "?DeserializeClientHeader@LightweightDatabaseServer@@IAEPAUDatabaseTable@1@PAVBitStream@RakNet@@PAVRakPeerInterface@@PAUPacket@@H@Z": "original principal identity and complete source semantics",
+    "?RemoveRowsFromIP@LightweightDatabaseServer@@IAEXUPlayerID@@@Z": "original principal identity and complete source semantics",
+    "?AddTable@LightweightDatabaseServer@@QAEPAVTable@DataStructures@@PAD_N11QAD2211111@Z": "original principal identity and complete source semantics",
+    "?RemoveTable@LightweightDatabaseServer@@QAE_NPAD@Z": "original principal identity and complete source semantics",
+    "?OnCloseConnection@LightweightDatabaseServer@@UAEXPAVRakPeerInterface@@UPlayerID@@@Z": "original principal identity and complete source semantics",
+    "?OnQueryRequest@LightweightDatabaseServer@@IAEXPAVRakPeerInterface@@PAUPacket@@@Z": "original principal identity and complete source semantics",
+    "?OnUpdateRow@LightweightDatabaseServer@@IAEXPAVRakPeerInterface@@PAUPacket@@@Z": "original principal identity and complete source semantics",
+    "?OnRemoveRow@LightweightDatabaseServer@@IAEXPAVRakPeerInterface@@PAUPacket@@@Z": "original principal identity and complete source semantics",
+    "?OnReceive@LightweightDatabaseServer@@UAE?AW4PluginReceiveResult@@PAVRakPeerInterface@@PAUPacket@@@Z": "original principal identity and complete source semantics",
+    "$L5872": "actual whole-region relocation from ?OnReceive@LightweightDatabaseServer@@UAE?AW4PluginReceiveResult@@PAVRakPeerInterface@@PAUPacket@@@Z",
+    "$L5873": "actual whole-region relocation from ?OnReceive@LightweightDatabaseServer@@UAE?AW4PluginReceiveResult@@PAVRakPeerInterface@@PAUPacket@@@Z",
+    "$L4445": "actual whole-region relocation from ?OnReceive@LightweightDatabaseServer@@UAE?AW4PluginReceiveResult@@PAVRakPeerInterface@@PAUPacket@@@Z",
+    "$L4446": "actual whole-region relocation from ?OnReceive@LightweightDatabaseServer@@UAE?AW4PluginReceiveResult@@PAVRakPeerInterface@@PAUPacket@@@Z",
+    "$L4442": "actual whole-region relocation from ?OnReceive@LightweightDatabaseServer@@UAE?AW4PluginReceiveResult@@PAVRakPeerInterface@@PAUPacket@@@Z",
+    "$L4443": "actual whole-region relocation from ?OnReceive@LightweightDatabaseServer@@UAE?AW4PluginReceiveResult@@PAVRakPeerInterface@@PAUPacket@@@Z",
+    "$L4444": "actual whole-region relocation from ?OnReceive@LightweightDatabaseServer@@UAE?AW4PluginReceiveResult@@PAVRakPeerInterface@@PAUPacket@@@Z",
+    "$L4439": "actual whole-region relocation from ?OnReceive@LightweightDatabaseServer@@UAE?AW4PluginReceiveResult@@PAVRakPeerInterface@@PAUPacket@@@Z",
+    "__ehhandler$?OnRemoveRow@LightweightDatabaseServer@@IAEXPAVRakPeerInterface@@PAUPacket@@@Z": "actual whole-region relocation from ?OnRemoveRow@LightweightDatabaseServer@@IAEXPAVRakPeerInterface@@PAUPacket@@@Z",
+    "__except_list": "actual whole-region relocation from ?OnRemoveRow@LightweightDatabaseServer@@IAEXPAVRakPeerInterface@@PAUPacket@@@Z",
+    "??0BitStream@RakNet@@QAE@PAEI_N@Z": "actual whole-region relocation from ?OnRemoveRow@LightweightDatabaseServer@@IAEXPAVRakPeerInterface@@PAUPacket@@@Z",
+    "?ReadBits@BitStream@RakNet@@QAE_NPAEH_N@Z": "actual whole-region relocation from ?OnRemoveRow@LightweightDatabaseServer@@IAEXPAVRakPeerInterface@@PAUPacket@@@Z",
+    "?RemoveRow@Table@DataStructures@@QAEXI@Z": "actual whole-region relocation from ?OnRemoveRow@LightweightDatabaseServer@@IAEXPAVRakPeerInterface@@PAUPacket@@@Z",
+    "??1BitStream@RakNet@@QAE@XZ": "actual whole-region relocation from ?OnRemoveRow@LightweightDatabaseServer@@IAEXPAVRakPeerInterface@@PAUPacket@@@Z",
+    "$T5864": "actual whole-region relocation from __ehhandler$?OnRemoveRow@LightweightDatabaseServer@@IAEXPAVRakPeerInterface@@PAUPacket@@@Z",
+    "___CxxFrameHandler": "actual whole-region relocation from __ehhandler$?OnRemoveRow@LightweightDatabaseServer@@IAEXPAVRakPeerInterface@@PAUPacket@@@Z",
+    "$L5857": "actual whole-region relocation from $T5864",
+    "$T5867": "actual whole-region relocation from $T5864",
+    "__ehhandler$?OnUpdateRow@LightweightDatabaseServer@@IAEXPAVRakPeerInterface@@PAUPacket@@@Z": "actual whole-region relocation from ?OnUpdateRow@LightweightDatabaseServer@@IAEXPAVRakPeerInterface@@PAUPacket@@@Z",
+    "__chkstk": "actual whole-region relocation from ?OnUpdateRow@LightweightDatabaseServer@@IAEXPAVRakPeerInterface@@PAUPacket@@@Z",
+    "??$Read@_N@BitStream@RakNet@@QAE_NAA_N@Z": "actual whole-region relocation from ?OnUpdateRow@LightweightDatabaseServer@@IAEXPAVRakPeerInterface@@PAUPacket@@@Z",
+    "??1DatabaseCellUpdate@@QAE@XZ": "actual whole-region relocation from ?OnUpdateRow@LightweightDatabaseServer@@IAEXPAVRakPeerInterface@@PAUPacket@@@Z",
+    "??0DatabaseCellUpdate@@QAE@XZ": "actual whole-region relocation from ?OnUpdateRow@LightweightDatabaseServer@@IAEXPAVRakPeerInterface@@PAUPacket@@@Z",
+    "??_L@YGXPAXIHP6EX0@Z1@Z": "actual whole-region relocation from ?OnUpdateRow@LightweightDatabaseServer@@IAEXPAVRakPeerInterface@@PAUPacket@@@Z",
+    "?Deserialize@DatabaseCellUpdate@@QAE_NPAVBitStream@RakNet@@@Z": "actual whole-region relocation from ?OnUpdateRow@LightweightDatabaseServer@@IAEXPAVRakPeerInterface@@PAUPacket@@@Z",
+    "?GetRowByID@Table@DataStructures@@QAEPAURow@12@I@Z": "actual whole-region relocation from ?OnUpdateRow@LightweightDatabaseServer@@IAEXPAVRakPeerInterface@@PAUPacket@@@Z",
+    "?ColumnIndex@Table@DataStructures@@QAEIQAD@Z": "actual whole-region relocation from ?OnUpdateRow@LightweightDatabaseServer@@IAEXPAVRakPeerInterface@@PAUPacket@@@Z",
+    "?Clear@Cell@Table@DataStructures@@QAEXXZ": "actual whole-region relocation from ?OnUpdateRow@LightweightDatabaseServer@@IAEXPAVRakPeerInterface@@PAUPacket@@@Z",
+    "?GetColumnType@Table@DataStructures@@QAE?AW4ColumnType@12@I@Z": "actual whole-region relocation from ?OnUpdateRow@LightweightDatabaseServer@@IAEXPAVRakPeerInterface@@PAUPacket@@@Z",
+    "?UpdateCell@Row@Table@DataStructures@@QAEXIH@Z": "actual whole-region relocation from ?OnUpdateRow@LightweightDatabaseServer@@IAEXPAVRakPeerInterface@@PAUPacket@@@Z",
+    "?UpdateCell@Row@Table@DataStructures@@QAEXIHPAD@Z": "actual whole-region relocation from ?OnUpdateRow@LightweightDatabaseServer@@IAEXPAVRakPeerInterface@@PAUPacket@@@Z",
+    "?UpdateCell@Row@Table@DataStructures@@QAEXIPAD@Z": "actual whole-region relocation from ?OnUpdateRow@LightweightDatabaseServer@@IAEXPAVRakPeerInterface@@PAUPacket@@@Z",
+    "??_M@YGXPAXIHP6EX0@Z@Z": "actual whole-region relocation from ?OnUpdateRow@LightweightDatabaseServer@@IAEXPAVRakPeerInterface@@PAUPacket@@@Z",
+    "??0Cell@Table@DataStructures@@QAE@XZ": "actual whole-region relocation from ??0DatabaseCellUpdate@@QAE@XZ",
+    "??1Cell@Table@DataStructures@@QAE@XZ": "actual whole-region relocation from ??1DatabaseCellUpdate@@QAE@XZ",
+    "$T5839": "actual whole-region relocation from __ehhandler$?OnUpdateRow@LightweightDatabaseServer@@IAEXPAVRakPeerInterface@@PAUPacket@@@Z",
+    "$L5817": "actual whole-region relocation from $T5839",
+    "$L5818": "actual whole-region relocation from $T5839",
+    "$T5852": "actual whole-region relocation from $T5839",
+    "__ehhandler$?OnQueryRequest@LightweightDatabaseServer@@IAEXPAVRakPeerInterface@@PAUPacket@@@Z": "actual whole-region relocation from ?OnQueryRequest@LightweightDatabaseServer@@IAEXPAVRakPeerInterface@@PAUPacket@@@Z",
+    "??0BitStream@RakNet@@QAE@XZ": "actual whole-region relocation from ?OnQueryRequest@LightweightDatabaseServer@@IAEXPAVRakPeerInterface@@PAUPacket@@@Z",
+    "??1DatabaseFilter@@QAE@XZ": "actual whole-region relocation from ?OnQueryRequest@LightweightDatabaseServer@@IAEXPAVRakPeerInterface@@PAUPacket@@@Z",
+    "??0DatabaseFilter@@QAE@XZ": "actual whole-region relocation from ?OnQueryRequest@LightweightDatabaseServer@@IAEXPAVRakPeerInterface@@PAUPacket@@@Z",
+    "?Deserialize@DatabaseFilter@@QAE_NPAVBitStream@RakNet@@@Z": "actual whole-region relocation from ?OnQueryRequest@LightweightDatabaseServer@@IAEXPAVRakPeerInterface@@PAUPacket@@@Z",
+    "??1FilterQuery@Table@DataStructures@@QAE@XZ": "actual whole-region relocation from ?OnQueryRequest@LightweightDatabaseServer@@IAEXPAVRakPeerInterface@@PAUPacket@@@Z",
+    "??0FilterQuery@Table@DataStructures@@QAE@XZ": "actual whole-region relocation from ?OnQueryRequest@LightweightDatabaseServer@@IAEXPAVRakPeerInterface@@PAUPacket@@@Z",
+    "?GetColumns@Table@DataStructures@@QAEAAV?$List@UColumnDescriptor@Table@DataStructures@@@2@XZ": "actual whole-region relocation from ?OnQueryRequest@LightweightDatabaseServer@@IAEXPAVRakPeerInterface@@PAUPacket@@@Z",
+    "??0Table@DataStructures@@QAE@XZ": "actual whole-region relocation from ?OnQueryRequest@LightweightDatabaseServer@@IAEXPAVRakPeerInterface@@PAUPacket@@@Z",
+    "?QueryTable@Table@DataStructures@@QAEXPAIIPAUFilterQuery@12@I0IPAV12@@Z": "actual whole-region relocation from ?OnQueryRequest@LightweightDatabaseServer@@IAEXPAVRakPeerInterface@@PAUPacket@@@Z",
+    "?WriteBits@BitStream@RakNet@@QAEXPBEH_N@Z": "actual whole-region relocation from ?OnQueryRequest@LightweightDatabaseServer@@IAEXPAVRakPeerInterface@@PAUPacket@@@Z",
+    "?SerializeTable@TableSerializer@@SAXPAVTable@DataStructures@@PAVBitStream@RakNet@@@Z": "actual whole-region relocation from ?OnQueryRequest@LightweightDatabaseServer@@IAEXPAVRakPeerInterface@@PAUPacket@@@Z",
+    "??1Table@DataStructures@@QAE@XZ": "actual whole-region relocation from ?OnQueryRequest@LightweightDatabaseServer@@IAEXPAVRakPeerInterface@@PAUPacket@@@Z",
+    "$T5797": "actual whole-region relocation from __ehhandler$?OnQueryRequest@LightweightDatabaseServer@@IAEXPAVRakPeerInterface@@PAUPacket@@@Z",
+    "$L5750": "actual whole-region relocation from $T5797",
+    "$L5751": "actual whole-region relocation from $T5797",
+    "$L5752": "actual whole-region relocation from $T5797",
+    "$L5753": "actual whole-region relocation from $T5797",
+    "$L5754": "actual whole-region relocation from $T5797",
+    "$T5812": "actual whole-region relocation from $T5797",
+    "?Get@?$Map@PADPAUDatabaseTable@LightweightDatabaseServer@@$1?DatabaseTableComp@2@SAHABQAD0@Z@DataStructures@@QAEAAPAUDatabaseTable@LightweightDatabaseServer@@ABQAD@Z": "actual whole-region relocation from ?RemoveTable@LightweightDatabaseServer@@QAE_NPAD@Z",
+    "?Delete@?$Map@PADPAUDatabaseTable@LightweightDatabaseServer@@$1?DatabaseTableComp@2@SAHABQAD0@Z@DataStructures@@QAE_NABQAD@Z": "actual whole-region relocation from ?RemoveTable@LightweightDatabaseServer@@QAE_NPAD@Z",
+    "?Clear@Table@DataStructures@@QAEXXZ": "actual whole-region relocation from ?RemoveTable@LightweightDatabaseServer@@QAE_NPAD@Z",
+    "??3@YAXPAX@Z": "actual whole-region relocation from ?RemoveTable@LightweightDatabaseServer@@QAE_NPAD@Z",
+    "?HasSavedSearchResult@?$Map@PADPAUDatabaseTable@LightweightDatabaseServer@@$1?DatabaseTableComp@2@SAHABQAD0@Z@DataStructures@@IBE_NABQAD@Z": "actual whole-region relocation from ?Delete@?$Map@PADPAUDatabaseTable@LightweightDatabaseServer@@$1?DatabaseTableComp@2@SAHABQAD0@Z@DataStructures@@QAE_NABQAD@Z",
+    "?RemoveAtIndex@?$OrderedList@PADUMapNode@?$Map@PADPAUDatabaseTable@LightweightDatabaseServer@@$1?DatabaseTableComp@2@SAHABQAD0@Z@DataStructures@@$1?NodeComparisonFunc@23@SAHABQADABU123@@Z@DataStructures@@QAEXI@Z": "actual whole-region relocation from ?Delete@?$Map@PADPAUDatabaseTable@LightweightDatabaseServer@@$1?DatabaseTableComp@2@SAHABQAD0@Z@DataStructures@@QAE_NABQAD@Z",
+    "?GetIndexFromKey@?$OrderedList@PADUMapNode@?$Map@PADPAUDatabaseTable@LightweightDatabaseServer@@$1?DatabaseTableComp@2@SAHABQAD0@Z@DataStructures@@$1?NodeComparisonFunc@23@SAHABQADABU123@@Z@DataStructures@@QBEIABQADPA_N@Z": "actual whole-region relocation from ?Delete@?$Map@PADPAUDatabaseTable@LightweightDatabaseServer@@$1?DatabaseTableComp@2@SAHABQAD0@Z@DataStructures@@QAE_NABQAD@Z",
+    "?RemoveAtIndex@?$List@UMapNode@?$Map@PADPAUDatabaseTable@LightweightDatabaseServer@@$1?DatabaseTableComp@2@SAHABQAD0@Z@DataStructures@@@DataStructures@@QAEXI@Z": "actual whole-region relocation from ?RemoveAtIndex@?$OrderedList@PADUMapNode@?$Map@PADPAUDatabaseTable@LightweightDatabaseServer@@$1?DatabaseTableComp@2@SAHABQAD0@Z@DataStructures@@$1?NodeComparisonFunc@23@SAHABQADABU123@@Z@DataStructures@@QAEXI@Z",
+    "_memmove": "actual whole-region relocation from ?RemoveAtIndex@?$List@UMapNode@?$Map@PADPAUDatabaseTable@LightweightDatabaseServer@@$1?DatabaseTableComp@2@SAHABQAD0@Z@DataStructures@@@DataStructures@@QAEXI@Z",
+    "??A?$OrderedList@PADUMapNode@?$Map@PADPAUDatabaseTable@LightweightDatabaseServer@@$1?DatabaseTableComp@2@SAHABQAD0@Z@DataStructures@@$1?NodeComparisonFunc@23@SAHABQADABU123@@Z@DataStructures@@QBEAAUMapNode@?$Map@PADPAUDatabaseTable@LightweightDatabaseServer@@$1?DatabaseTableComp@2@SAHABQAD0@Z@1@I@Z": "actual whole-region relocation from ?Get@?$Map@PADPAUDatabaseTable@LightweightDatabaseServer@@$1?DatabaseTableComp@2@SAHABQAD0@Z@DataStructures@@QAEAAPAUDatabaseTable@LightweightDatabaseServer@@ABQAD@Z",
+    "?SaveLastSearch@?$Map@PADPAUDatabaseTable@LightweightDatabaseServer@@$1?DatabaseTableComp@2@SAHABQAD0@Z@DataStructures@@IAEXABQADI@Z": "actual whole-region relocation from ?Get@?$Map@PADPAUDatabaseTable@LightweightDatabaseServer@@$1?DatabaseTableComp@2@SAHABQAD0@Z@DataStructures@@QAEAAPAUDatabaseTable@LightweightDatabaseServer@@ABQAD@Z",
+    "__ehhandler$?AddTable@LightweightDatabaseServer@@QAEPAVTable@DataStructures@@PAD_N11QAD2211111@Z": "actual whole-region relocation from ?AddTable@LightweightDatabaseServer@@QAEPAVTable@DataStructures@@PAD_N11QAD2211111@Z",
+    "?Has@?$Map@PADPAUDatabaseTable@LightweightDatabaseServer@@$1?DatabaseTableComp@2@SAHABQAD0@Z@DataStructures@@QAE_NABQAD@Z": "actual whole-region relocation from ?AddTable@LightweightDatabaseServer@@QAEPAVTable@DataStructures@@PAD_N11QAD2211111@Z",
+    "??2@YAPAXI@Z": "actual whole-region relocation from ?AddTable@LightweightDatabaseServer@@QAEPAVTable@DataStructures@@PAD_N11QAD2211111@Z",
+    "_strncpy": "actual whole-region relocation from ?AddTable@LightweightDatabaseServer@@QAEPAVTable@DataStructures@@PAD_N11QAD2211111@Z",
+    "?SetNew@?$Map@PADPAUDatabaseTable@LightweightDatabaseServer@@$1?DatabaseTableComp@2@SAHABQAD0@Z@DataStructures@@QAEXABQADABQAUDatabaseTable@LightweightDatabaseServer@@@Z": "actual whole-region relocation from ?AddTable@LightweightDatabaseServer@@QAEPAVTable@DataStructures@@PAD_N11QAD2211111@Z",
+    "??_C@_0L@OGGHIFPB@__systemId?$AA@": "actual whole-region relocation from ?AddTable@LightweightDatabaseServer@@QAEPAVTable@DataStructures@@PAD_N11QAD2211111@Z",
+    "?AddColumn@Table@DataStructures@@QAEIQADW4ColumnType@12@@Z": "actual whole-region relocation from ?AddTable@LightweightDatabaseServer@@QAEPAVTable@DataStructures@@PAD_N11QAD2211111@Z",
+    "??_C@_0BH@PHDJLFLA@__lastPingResponseTime?$AA@": "actual whole-region relocation from ?AddTable@LightweightDatabaseServer@@QAEPAVTable@DataStructures@@PAD_N11QAD2211111@Z",
+    "??_C@_0BD@NEFEFGEE@__nextPingSendTime?$AA@": "actual whole-region relocation from ?AddTable@LightweightDatabaseServer@@QAEPAVTable@DataStructures@@PAD_N11QAD2211111@Z",
+    "?Insert@?$OrderedList@PADUMapNode@?$Map@PADPAUDatabaseTable@LightweightDatabaseServer@@$1?DatabaseTableComp@2@SAHABQAD0@Z@DataStructures@@$1?NodeComparisonFunc@23@SAHABQADABU123@@Z@DataStructures@@QAEIABQADABUMapNode@?$Map@PADPAUDatabaseTable@LightweightDatabaseServer@@$1?DatabaseTableComp@2@SAHABQAD0@Z@2@@Z": "actual whole-region relocation from ?SetNew@?$Map@PADPAUDatabaseTable@LightweightDatabaseServer@@$1?DatabaseTableComp@2@SAHABQAD0@Z@DataStructures@@QAEXABQADABQAUDatabaseTable@LightweightDatabaseServer@@@Z",
+    "?Insert@?$List@UMapNode@?$Map@PADPAUDatabaseTable@LightweightDatabaseServer@@$1?DatabaseTableComp@2@SAHABQAD0@Z@DataStructures@@@DataStructures@@QAEXUMapNode@?$Map@PADPAUDatabaseTable@LightweightDatabaseServer@@$1?DatabaseTableComp@2@SAHABQAD0@Z@2@@Z": "actual whole-region relocation from ?Insert@?$OrderedList@PADUMapNode@?$Map@PADPAUDatabaseTable@LightweightDatabaseServer@@$1?DatabaseTableComp@2@SAHABQAD0@Z@DataStructures@@$1?NodeComparisonFunc@23@SAHABQADABU123@@Z@DataStructures@@QAEIABQADABUMapNode@?$Map@PADPAUDatabaseTable@LightweightDatabaseServer@@$1?DatabaseTableComp@2@SAHABQAD0@Z@2@@Z",
+    "?Insert@?$List@UMapNode@?$Map@PADPAUDatabaseTable@LightweightDatabaseServer@@$1?DatabaseTableComp@2@SAHABQAD0@Z@DataStructures@@@DataStructures@@QAEXUMapNode@?$Map@PADPAUDatabaseTable@LightweightDatabaseServer@@$1?DatabaseTableComp@2@SAHABQAD0@Z@2@I@Z": "actual whole-region relocation from ?Insert@?$OrderedList@PADUMapNode@?$Map@PADPAUDatabaseTable@LightweightDatabaseServer@@$1?DatabaseTableComp@2@SAHABQAD0@Z@DataStructures@@$1?NodeComparisonFunc@23@SAHABQADABU123@@Z@DataStructures@@QAEIABQADABUMapNode@?$Map@PADPAUDatabaseTable@LightweightDatabaseServer@@$1?DatabaseTableComp@2@SAHABQAD0@Z@2@@Z",
+    "__ehhandler$?Insert@?$List@UMapNode@?$Map@PADPAUDatabaseTable@LightweightDatabaseServer@@$1?DatabaseTableComp@2@SAHABQAD0@Z@DataStructures@@@DataStructures@@QAEXUMapNode@?$Map@PADPAUDatabaseTable@LightweightDatabaseServer@@$1?DatabaseTableComp@2@SAHABQAD0@Z@2@I@Z": "actual whole-region relocation from ?Insert@?$List@UMapNode@?$Map@PADPAUDatabaseTable@LightweightDatabaseServer@@$1?DatabaseTableComp@2@SAHABQAD0@Z@DataStructures@@@DataStructures@@QAEXUMapNode@?$Map@PADPAUDatabaseTable@LightweightDatabaseServer@@$1?DatabaseTableComp@2@SAHABQAD0@Z@2@I@Z",
+    "??0MapNode@?$Map@PADPAUDatabaseTable@LightweightDatabaseServer@@$1?DatabaseTableComp@2@SAHABQAD0@Z@DataStructures@@QAE@XZ": "actual whole-region relocation from ?Insert@?$List@UMapNode@?$Map@PADPAUDatabaseTable@LightweightDatabaseServer@@$1?DatabaseTableComp@2@SAHABQAD0@Z@DataStructures@@@DataStructures@@QAEXUMapNode@?$Map@PADPAUDatabaseTable@LightweightDatabaseServer@@$1?DatabaseTableComp@2@SAHABQAD0@Z@2@I@Z",
+    "??_H@YGXPAXIHP6EPAX0@Z@Z": "actual whole-region relocation from ?Insert@?$List@UMapNode@?$Map@PADPAUDatabaseTable@LightweightDatabaseServer@@$1?DatabaseTableComp@2@SAHABQAD0@Z@DataStructures@@@DataStructures@@QAEXUMapNode@?$Map@PADPAUDatabaseTable@LightweightDatabaseServer@@$1?DatabaseTableComp@2@SAHABQAD0@Z@2@I@Z",
+    "$T5471": "actual whole-region relocation from __ehhandler$?Insert@?$List@UMapNode@?$Map@PADPAUDatabaseTable@LightweightDatabaseServer@@$1?DatabaseTableComp@2@SAHABQAD0@Z@DataStructures@@@DataStructures@@QAEXUMapNode@?$Map@PADPAUDatabaseTable@LightweightDatabaseServer@@$1?DatabaseTableComp@2@SAHABQAD0@Z@2@I@Z",
+    "$L5469": "actual whole-region relocation from $T5471",
+    "$T5473": "actual whole-region relocation from $T5471",
+    "__ehhandler$?Insert@?$List@UMapNode@?$Map@PADPAUDatabaseTable@LightweightDatabaseServer@@$1?DatabaseTableComp@2@SAHABQAD0@Z@DataStructures@@@DataStructures@@QAEXUMapNode@?$Map@PADPAUDatabaseTable@LightweightDatabaseServer@@$1?DatabaseTableComp@2@SAHABQAD0@Z@2@@Z": "actual whole-region relocation from ?Insert@?$List@UMapNode@?$Map@PADPAUDatabaseTable@LightweightDatabaseServer@@$1?DatabaseTableComp@2@SAHABQAD0@Z@DataStructures@@@DataStructures@@QAEXUMapNode@?$Map@PADPAUDatabaseTable@LightweightDatabaseServer@@$1?DatabaseTableComp@2@SAHABQAD0@Z@2@@Z",
+    "$T5454": "actual whole-region relocation from __ehhandler$?Insert@?$List@UMapNode@?$Map@PADPAUDatabaseTable@LightweightDatabaseServer@@$1?DatabaseTableComp@2@SAHABQAD0@Z@DataStructures@@@DataStructures@@QAEXUMapNode@?$Map@PADPAUDatabaseTable@LightweightDatabaseServer@@$1?DatabaseTableComp@2@SAHABQAD0@Z@2@@Z",
+    "$L5450": "actual whole-region relocation from $T5454",
+    "$T5457": "actual whole-region relocation from $T5454",
+    "$T5730": "actual whole-region relocation from __ehhandler$?AddTable@LightweightDatabaseServer@@QAEPAVTable@DataStructures@@PAD_N11QAD2211111@Z",
+    "$L5724": "actual whole-region relocation from $T5730",
+    "$T5733": "actual whole-region relocation from $T5730",
+    "__ehhandler$?RemoveRowsFromIP@LightweightDatabaseServer@@IAEXUPlayerID@@@Z": "actual whole-region relocation from ?RemoveRowsFromIP@LightweightDatabaseServer@@IAEXUPlayerID@@@Z",
+    "??0?$List@I@DataStructures@@QAE@XZ": "actual whole-region relocation from ?RemoveRowsFromIP@LightweightDatabaseServer@@IAEXUPlayerID@@@Z",
+    "?Size@?$Map@PADPAUDatabaseTable@LightweightDatabaseServer@@$1?DatabaseTableComp@2@SAHABQAD0@Z@DataStructures@@QBEIXZ": "actual whole-region relocation from ?RemoveRowsFromIP@LightweightDatabaseServer@@IAEXUPlayerID@@@Z",
+    "??A?$Map@PADPAUDatabaseTable@LightweightDatabaseServer@@$1?DatabaseTableComp@2@SAHABQAD0@Z@DataStructures@@QBEAAPAUDatabaseTable@LightweightDatabaseServer@@I@Z": "actual whole-region relocation from ?RemoveRowsFromIP@LightweightDatabaseServer@@IAEXUPlayerID@@@Z",
+    "?GetRows@Table@DataStructures@@QAEAAV?$BPlusTree@IPAURow@Table@DataStructures@@$0BA@@2@XZ": "actual whole-region relocation from ?RemoveRowsFromIP@LightweightDatabaseServer@@IAEXUPlayerID@@@Z",
+    "?GetListHead@?$BPlusTree@IPAURow@Table@DataStructures@@$0BA@@DataStructures@@QBEPAU?$Page@IPAURow@Table@DataStructures@@$0BA@@2@XZ": "actual whole-region relocation from ?RemoveRowsFromIP@LightweightDatabaseServer@@IAEXUPlayerID@@@Z",
+    "?Insert@?$List@I@DataStructures@@QAEXI@Z": "actual whole-region relocation from ?RemoveRowsFromIP@LightweightDatabaseServer@@IAEXUPlayerID@@@Z",
+    "?Clear@?$List@I@DataStructures@@QAEX_N@Z": "actual whole-region relocation from ?RemoveRowsFromIP@LightweightDatabaseServer@@IAEXUPlayerID@@@Z",
+    "??1?$List@I@DataStructures@@QAE@XZ": "actual whole-region relocation from ?RemoveRowsFromIP@LightweightDatabaseServer@@IAEXUPlayerID@@@Z",
+    "?Size@?$OrderedList@PADUMapNode@?$Map@PADPAUDatabaseTable@LightweightDatabaseServer@@$1?DatabaseTableComp@2@SAHABQAD0@Z@DataStructures@@$1?NodeComparisonFunc@23@SAHABQADABU123@@Z@DataStructures@@QBEIXZ": "actual whole-region relocation from ?Size@?$Map@PADPAUDatabaseTable@LightweightDatabaseServer@@$1?DatabaseTableComp@2@SAHABQAD0@Z@DataStructures@@QBEIXZ",
+    "$T5667": "actual whole-region relocation from __ehhandler$?RemoveRowsFromIP@LightweightDatabaseServer@@IAEXUPlayerID@@@Z",
+    "$L5658": "actual whole-region relocation from $T5667",
+    "$T5677": "actual whole-region relocation from $T5667",
+    "__ehhandler$?DeserializeClientHeader@LightweightDatabaseServer@@IAEPAUDatabaseTable@1@PAVBitStream@RakNet@@PAVRakPeerInterface@@PAUPacket@@H@Z": "actual whole-region relocation from ?DeserializeClientHeader@LightweightDatabaseServer@@IAEPAUDatabaseTable@1@PAVBitStream@RakNet@@PAVRakPeerInterface@@PAUPacket@@H@Z",
+    "?IgnoreBits@BitStream@RakNet@@QAEXH@Z": "actual whole-region relocation from ?DeserializeClientHeader@LightweightDatabaseServer@@IAEPAUDatabaseTable@1@PAVBitStream@RakNet@@PAVRakPeerInterface@@PAUPacket@@H@Z",
+    "?Instance@StringCompressor@@SAPAV1@XZ": "actual whole-region relocation from ?DeserializeClientHeader@LightweightDatabaseServer@@IAEPAUDatabaseTable@1@PAVBitStream@RakNet@@PAVRakPeerInterface@@PAUPacket@@H@Z",
+    "?DecodeString@StringCompressor@@QAE_NPADHPAVBitStream@RakNet@@H@Z": "actual whole-region relocation from ?DeserializeClientHeader@LightweightDatabaseServer@@IAEPAUDatabaseTable@1@PAVBitStream@RakNet@@PAVRakPeerInterface@@PAUPacket@@H@Z",
+    "?ToString@PlayerID@@QBEPAD_N@Z": "actual whole-region relocation from ?DeserializeClientHeader@LightweightDatabaseServer@@IAEPAUDatabaseTable@1@PAVBitStream@RakNet@@PAVRakPeerInterface@@PAUPacket@@H@Z",
+    "$T5646": "actual whole-region relocation from __ehhandler$?DeserializeClientHeader@LightweightDatabaseServer@@IAEPAUDatabaseTable@1@PAVBitStream@RakNet@@PAVRakPeerInterface@@PAUPacket@@H@Z",
+    "$L5626": "actual whole-region relocation from $T5646",
+    "$T5653": "actual whole-region relocation from $T5646",
+    "?GetTime@RakNet@@YAIXZ": "actual whole-region relocation from ?OnPong@LightweightDatabaseServer@@IAEXPAVRakPeerInterface@@PAUPacket@@@Z",
+    "?Get@Cell@Table@DataStructures@@QAEXPADPAH@Z": "actual whole-region relocation from ?OnPong@LightweightDatabaseServer@@IAEXPAVRakPeerInterface@@PAUPacket@@@Z",
+    "??8PlayerID@@QBE_NABU0@@Z": "actual whole-region relocation from ?OnPong@LightweightDatabaseServer@@IAEXPAVRakPeerInterface@@PAUPacket@@@Z",
+    "__ehhandler$?Update@LightweightDatabaseServer@@UAEXPAVRakPeerInterface@@@Z": "actual whole-region relocation from ?Update@LightweightDatabaseServer@@UAEXPAVRakPeerInterface@@@Z",
+    "?randomMT@@YAIXZ": "actual whole-region relocation from ?Update@LightweightDatabaseServer@@UAEXPAVRakPeerInterface@@@Z",
+    "$T5581": "actual whole-region relocation from __ehhandler$?Update@LightweightDatabaseServer@@UAEXPAVRakPeerInterface@@@Z",
+    "$L5556": "actual whole-region relocation from $T5581",
+    "$T5600": "actual whole-region relocation from $T5581",
+    "?Clear@?$Map@PADPAUDatabaseTable@LightweightDatabaseServer@@$1?DatabaseTableComp@2@SAHABQAD0@Z@DataStructures@@QAEXXZ": "actual whole-region relocation from ?Clear@LightweightDatabaseServer@@QAEXXZ",
+    "?Clear@?$OrderedList@PADUMapNode@?$Map@PADPAUDatabaseTable@LightweightDatabaseServer@@$1?DatabaseTableComp@2@SAHABQAD0@Z@DataStructures@@$1?NodeComparisonFunc@23@SAHABQADABU123@@Z@DataStructures@@QAEXXZ": "actual whole-region relocation from ?Clear@?$Map@PADPAUDatabaseTable@LightweightDatabaseServer@@$1?DatabaseTableComp@2@SAHABQAD0@Z@DataStructures@@QAEXXZ",
+    "?Clear@?$List@UMapNode@?$Map@PADPAUDatabaseTable@LightweightDatabaseServer@@$1?DatabaseTableComp@2@SAHABQAD0@Z@DataStructures@@@DataStructures@@QAEX_N@Z": "actual whole-region relocation from ?Clear@?$OrderedList@PADUMapNode@?$Map@PADPAUDatabaseTable@LightweightDatabaseServer@@$1?DatabaseTableComp@2@SAHABQAD0@Z@DataStructures@@$1?NodeComparisonFunc@23@SAHABQADABU123@@Z@DataStructures@@QAEXXZ",
+    "?AddRow@Table@DataStructures@@QAEPAURow@12@I@Z": "actual whole-region relocation from ?AddRow@LightweightDatabaseServer@@IAEPAURow@Table@DataStructures@@PAUDatabaseTable@1@UPlayerID@@_NI@Z",
+    "?Set@Cell@Table@DataStructures@@QAEXPADH@Z": "actual whole-region relocation from ?AddRow@LightweightDatabaseServer@@IAEPAURow@Table@DataStructures@@PAUDatabaseTable@1@UPlayerID@@_NI@Z",
+    "?Set@Cell@Table@DataStructures@@QAEXH@Z": "actual whole-region relocation from ?AddRow@LightweightDatabaseServer@@IAEPAURow@Table@DataStructures@@PAUDatabaseTable@1@UPlayerID@@_NI@Z"
+  },
+  "actual_weak_aliases": {
+    "closure_vendor_database_server": {}
+  },
+  "notes": "No source credit until every external true provider is closed and final linked gate passes."
+}

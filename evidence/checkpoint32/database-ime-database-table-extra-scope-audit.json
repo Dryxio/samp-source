@@ -1,0 +1,1163 @@
+{
+  "status": "REVIEWED_NEXT_CLOSED_TABLE_COMPLEMENT_NOT_ACCEPTED",
+  "new_unique_after_all_known_pending": 3312,
+  "pending_paths": [
+    "build/agent-independent/database-table-reviewed-manifest.json",
+    "build/database-server-reviewed-manifest.json",
+    "build/player-id-string-reviewed-manifest.json",
+    "build/agent-independent/player-key-codec-reviewed-manifest.json",
+    "build/agent-textdraw/ime-candidate-reviewed-manifest.json",
+    "build/agent-textdraw/ime-mouse-reviewed-manifest.json"
+  ],
+  "source025_direct_bytes": 0,
+  "roots": [
+    {
+      "symbol": "?SortTable@Table@DataStructures@@QAEXPAUSortQuery@12@IPAPAURow@12@@Z",
+      "rva": 169856,
+      "reason": "Sorts genuine rows by user-supplied SortQuery list; filters binary/invalid columns, publishes four real comparator globals, uses RowSort OrderedList or unsorted leaf traversal when no valid query."
+    },
+    {
+      "symbol": "?RowSort@@YAHABQAURow@Table@DataStructures@@0@Z",
+      "rva": 164080,
+      "reason": "Actual OrderedList comparator call target; empties last, increasing/decreasing numeric or strcmp string order selected by original SortQuery operation."
+    },
+    {
+      "symbol": "?PrintRow@Table@DataStructures@@QAEXPADHD_NPAURow@12@@Z",
+      "rva": 164592,
+      "reason": "Formats original numeric/string/binary column types into caller buffer; exact genuine two whole literals identify PrintRow. Preserves original length and delimiter behavior."
+    },
+    {
+      "symbol": "?DeserializeTable@TableSerializer@@SA_NPAEIPAVTable@DataStructures@@@Z",
+      "rva": 349776,
+      "reason": "Constructs real unsigned-char BitStream using1F7C0, caps columns10000/rows100000, clears table, decodes names32 then calls real AddColumn/DeserializeRow."
+    },
+    {
+      "symbol": "?DeserializeRow@TableSerializer@@SA_NPAVBitStream@RakNet@@PAVTable@DataStructures@@@Z",
+      "rva": 349360,
+      "reason": "Reads row key, adds real Row, loops DeserializeCell; removes actual row on cell failure."
+    },
+    {
+      "symbol": "?RemoveColumn@Table@DataStructures@@QAEXI@Z",
+      "rva": 167936,
+      "reason": "RemoveColumn deletes each real row cell at index then compacts actual Cell* and ColumnDescriptor lists."
+    },
+    {
+      "symbol": "?RemoveRows@Table@DataStructures@@QAEXPAV12@@Z",
+      "rva": 171584,
+      "reason": "RemoveRows iterates source table pages and deletes matching keys from target actual BPlusTree."
+    },
+    {
+      "symbol": "?AddRow@Table@DataStructures@@QAEPAURow@12@IAAV?$List@UCell@Table@DataStructures@@@2@@Z",
+      "rva": 170960,
+      "reason": "AddRow overload consumes real List<Cell>, allocates full Row/Cell ownership with original field copies."
+    }
+  ],
+  "new_regions": [
+    {
+      "unit": "closure_vendor_table_serializer",
+      "section": 41,
+      "rva": 349360,
+      "size": 141,
+      "kind": ".text",
+      "sha256": "59538aa1f2114e69f6737b1113a2f344428690434e8ac503008c2115e979fe38",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "?GetColumns@Table@DataStructures@@QAEAAV?$List@UColumnDescriptor@Table@DataStructures@@@2@XZ",
+          "site_rva": 349370,
+          "target_va": 268596416,
+          "kind": 20
+        },
+        {
+          "symbol": "?ReadBits@BitStream@RakNet@@QAE_NPAEH_N@Z",
+          "site_rva": 349390,
+          "target_va": 268564912,
+          "kind": 20
+        },
+        {
+          "symbol": "?AddRow@Table@DataStructures@@QAEPAURow@12@I@Z",
+          "site_rva": 349412,
+          "target_va": 268606256,
+          "kind": 20
+        },
+        {
+          "symbol": "?DeserializeCell@TableSerializer@@SA_NPAVBitStream@RakNet@@PAUCell@Table@DataStructures@@W4ColumnType@56@@Z",
+          "site_rva": 349449,
+          "target_va": 268784416,
+          "kind": 20
+        },
+        {
+          "symbol": "?RemoveRow@Table@DataStructures@@QAEXI@Z",
+          "site_rva": 349489,
+          "target_va": 268606992,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_table_serializer",
+      "section": 45,
+      "rva": 349776,
+      "size": 401,
+      "kind": ".text",
+      "sha256": "af16952adaa310b4c6e9de226dc98c727f1820da178880fa451921be16554145",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "__ehhandler$?DeserializeTable@TableSerializer@@SA_NPAEIPAVTable@DataStructures@@@Z",
+          "site_rva": 349779,
+          "target_va": 269366571,
+          "kind": 6
+        },
+        {
+          "symbol": "__except_list",
+          "site_rva": 349785,
+          "target_va": 0,
+          "kind": 6
+        },
+        {
+          "symbol": "__except_list",
+          "site_rva": 349793,
+          "target_va": 0,
+          "kind": 6
+        },
+        {
+          "symbol": "??0BitStream@RakNet@@QAE@PAEI_N@Z",
+          "site_rva": 349826,
+          "target_va": 268564416,
+          "kind": 20
+        },
+        {
+          "symbol": "?ReadBits@BitStream@RakNet@@QAE_NPAEH_N@Z",
+          "site_rva": 349855,
+          "target_va": 268564912,
+          "kind": 20
+        },
+        {
+          "symbol": "?Clear@Table@DataStructures@@QAEXXZ",
+          "site_rva": 349893,
+          "target_va": 268607904,
+          "kind": 20
+        },
+        {
+          "symbol": "?Instance@StringCompressor@@SAPAV1@XZ",
+          "site_rva": 349922,
+          "target_va": 268778544,
+          "kind": 20
+        },
+        {
+          "symbol": "?DecodeString@StringCompressor@@QAE_NPADHPAVBitStream@RakNet@@H@Z",
+          "site_rva": 349929,
+          "target_va": 268780240,
+          "kind": 20
+        },
+        {
+          "symbol": "?ReadBits@BitStream@RakNet@@QAE_NPAEH_N@Z",
+          "site_rva": 349947,
+          "target_va": 268564912,
+          "kind": 20
+        },
+        {
+          "symbol": "?AddColumn@Table@DataStructures@@QAEIQADW4ColumnType@12@@Z",
+          "site_rva": 349965,
+          "target_va": 268603296,
+          "kind": 20
+        },
+        {
+          "symbol": "?ReadBits@BitStream@RakNet@@QAE_NPAEH_N@Z",
+          "site_rva": 349992,
+          "target_va": 268564912,
+          "kind": 20
+        },
+        {
+          "symbol": "?DeserializeRow@TableSerializer@@SA_NPAVBitStream@RakNet@@PAVTable@DataStructures@@@Z",
+          "site_rva": 350024,
+          "target_va": 268784816,
+          "kind": 20
+        },
+        {
+          "symbol": "??1BitStream@RakNet@@QAE@XZ",
+          "site_rva": 350060,
+          "target_va": 268564688,
+          "kind": 20
+        },
+        {
+          "symbol": "__except_list",
+          "site_rva": 350078,
+          "target_va": 0,
+          "kind": 6
+        },
+        {
+          "symbol": "??1BitStream@RakNet@@QAE@XZ",
+          "site_rva": 350105,
+          "target_va": 268564688,
+          "kind": 20
+        },
+        {
+          "symbol": "__except_list",
+          "site_rva": 350123,
+          "target_va": 0,
+          "kind": 6
+        },
+        {
+          "symbol": "??1BitStream@RakNet@@QAE@XZ",
+          "site_rva": 350150,
+          "target_va": 268564688,
+          "kind": 20
+        },
+        {
+          "symbol": "__except_list",
+          "site_rva": 350166,
+          "target_va": 0,
+          "kind": 6
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_table_serializer",
+      "section": 46,
+      "rva": 931104,
+      "size": 21,
+      "kind": ".text$x",
+      "sha256": "bde9d83fcbdbeef878bdd314381d9168c7e5bc973137ef366f2bcabf98d2c904",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "??1BitStream@RakNet@@QAE@XZ",
+          "site_rva": 931111,
+          "target_va": 268564688,
+          "kind": 20
+        },
+        {
+          "symbol": "$T4140",
+          "site_rva": 931116,
+          "target_va": 269464188,
+          "kind": 6
+        },
+        {
+          "symbol": "___CxxFrameHandler",
+          "site_rva": 931121,
+          "target_va": 269247782,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_table_serializer",
+      "section": 47,
+      "rva": 1028724,
+      "size": 36,
+      "kind": ".xdata$x",
+      "sha256": "a1b5ff91c73f68e6d2ffb18c78b2f6939a07ebe087a039f6bc08ea0588c6a7bf",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "$L4119",
+          "site_rva": 1028728,
+          "target_va": 269366560,
+          "kind": 6
+        },
+        {
+          "symbol": "$T4150",
+          "site_rva": 1028740,
+          "target_va": 269464180,
+          "kind": 6
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_database_table",
+      "section": 263,
+      "rva": 170960,
+      "size": 272,
+      "kind": ".text",
+      "sha256": "bda15f0a376f892929344a3d153fd2200cf597eac867e5ebd1931ae63ce9b350",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "__except_list",
+          "site_rva": 170962,
+          "target_va": 0,
+          "kind": 6
+        },
+        {
+          "symbol": "__ehhandler$?AddRow@Table@DataStructures@@QAEPAURow@12@IAAV?$List@UCell@Table@DataStructures@@@2@@Z",
+          "site_rva": 170969,
+          "target_va": 269360475,
+          "kind": 6
+        },
+        {
+          "symbol": "__except_list",
+          "site_rva": 170977,
+          "target_va": 0,
+          "kind": 6
+        },
+        {
+          "symbol": "??2@YAPAXI@Z",
+          "site_rva": 170992,
+          "target_va": 269247098,
+          "kind": 20
+        },
+        {
+          "symbol": "??0?$List@PAUCell@Table@DataStructures@@@DataStructures@@QAE@XZ",
+          "site_rva": 171008,
+          "target_va": 268596448,
+          "kind": 20
+        },
+        {
+          "symbol": "??2@YAPAXI@Z",
+          "site_rva": 171060,
+          "target_va": 269247098,
+          "kind": 20
+        },
+        {
+          "symbol": "??0Cell@Table@DataStructures@@QAE@HPADW4ColumnType@12@@Z",
+          "site_rva": 171111,
+          "target_va": 268596144,
+          "kind": 20
+        },
+        {
+          "symbol": "??2@YAPAXI@Z",
+          "site_rva": 171140,
+          "target_va": 269247098,
+          "kind": 20
+        },
+        {
+          "symbol": "??0Cell@Table@DataStructures@@QAE@XZ",
+          "site_rva": 171154,
+          "target_va": 268595616,
+          "kind": 20
+        },
+        {
+          "symbol": "?Insert@?$List@PAUCell@Table@DataStructures@@@DataStructures@@QAEXQAUCell@Table@2@@Z",
+          "site_rva": 171168,
+          "target_va": 268596512,
+          "kind": 20
+        },
+        {
+          "symbol": "?Insert@?$BPlusTree@IPAURow@Table@DataStructures@@$0BA@@DataStructures@@QAE_NIABQAURow@Table@2@@Z",
+          "site_rva": 171204,
+          "target_va": 268605984,
+          "kind": 20
+        },
+        {
+          "symbol": "__except_list",
+          "site_rva": 171222,
+          "target_va": 0,
+          "kind": 6
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_database_table",
+      "section": 273,
+      "rva": 171584,
+      "size": 86,
+      "kind": ".text",
+      "sha256": "6075585354b478040dba8aacf034433ef42a989237bef08a316b50cd586adc31",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "?GetRows@Table@DataStructures@@QAEAAV?$BPlusTree@IPAURow@Table@DataStructures@@$0BA@@2@XZ",
+          "site_rva": 171593,
+          "target_va": 268596432,
+          "kind": 20
+        },
+        {
+          "symbol": "?GetListHead@?$BPlusTree@IPAURow@Table@DataStructures@@$0BA@@DataStructures@@QBEPAU?$Page@IPAURow@Table@DataStructures@@$0BA@@2@XZ",
+          "site_rva": 171600,
+          "target_va": 268596640,
+          "kind": 20
+        },
+        {
+          "symbol": "?Delete@?$BPlusTree@IPAURow@Table@DataStructures@@$0BA@@DataStructures@@QAE_NI@Z",
+          "site_rva": 171638,
+          "target_va": 268605952,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_database_table",
+      "section": 255,
+      "rva": 170496,
+      "size": 18,
+      "kind": ".text",
+      "sha256": "becbe97da69f515d1d1ce8c0aaf2b4c8e93294bf00aaf791587fbeb2aeeeb8f4",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "?Delete@?$BPlusTree@IPAURow@Table@DataStructures@@$0BA@@DataStructures@@QAE_NIAAPAURow@Table@2@@Z",
+          "site_rva": 170507,
+          "target_va": 268605728,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_database_table",
+      "section": 217,
+      "rva": 167936,
+      "size": 120,
+      "kind": ".text",
+      "sha256": "cc1d61fcfd65c29fef97ba4de0c644b3c41fad6d8fe9c25dea7a293e0525dc46",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "?RemoveAtIndex@?$List@UColumnDescriptor@Table@DataStructures@@@DataStructures@@QAEXI@Z",
+          "site_rva": 167954,
+          "target_va": 268601056,
+          "kind": 20
+        },
+        {
+          "symbol": "?GetListHead@?$BPlusTree@IPAURow@Table@DataStructures@@$0BA@@DataStructures@@QBEPAU?$Page@IPAURow@Table@DataStructures@@$0BA@@2@XZ",
+          "site_rva": 167961,
+          "target_va": 268596640,
+          "kind": 20
+        },
+        {
+          "symbol": "??1Cell@Table@DataStructures@@QAE@XZ",
+          "site_rva": 168003,
+          "target_va": 268599120,
+          "kind": 20
+        },
+        {
+          "symbol": "??3@YAXPAX@Z",
+          "site_rva": 168009,
+          "target_va": 269247626,
+          "kind": 20
+        },
+        {
+          "symbol": "?RemoveAtIndex@?$List@PAUCell@Table@DataStructures@@@DataStructures@@QAEXI@Z",
+          "site_rva": 168024,
+          "target_va": 268600560,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_database_table",
+      "section": 170,
+      "rva": 165104,
+      "size": 53,
+      "kind": ".text",
+      "sha256": "ff956479f6f5ce191a16908add81cf19d55a6433d9948c589a334690115c2b47",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "_memmove",
+          "site_rva": 165139,
+          "target_va": 269250016,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_database_table",
+      "section": 183,
+      "rva": 165600,
+      "size": 58,
+      "kind": ".text",
+      "sha256": "c152118c7f5b83c0c573d98d9c91e2789406c19946626a31e513f97516788614",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "_memmove",
+          "site_rva": 165639,
+          "target_va": 269250016,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_database_table",
+      "section": 164,
+      "rva": 164592,
+      "size": 495,
+      "kind": ".text",
+      "sha256": "c9235f673db72fb1f56d7e64b828551cf8cb96e2301b0174e9be61c034874174",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "??_C@_0CJ@PKINFIOI@Cell?5width?5does?5not?5match?5column@",
+          "site_rva": 164671,
+          "target_va": 269380188,
+          "kind": 6
+        },
+        {
+          "symbol": "_strncpy",
+          "site_rva": 164677,
+          "target_va": 269252592,
+          "kind": 20
+        },
+        {
+          "symbol": "??_C@_02IKAHHCAI@?$CFi?$AA@",
+          "site_rva": 164785,
+          "target_va": 269380184,
+          "kind": 6
+        },
+        {
+          "symbol": "_sprintf",
+          "site_rva": 164791,
+          "target_va": 269251411,
+          "kind": 20
+        },
+        {
+          "symbol": "_strncpy",
+          "site_rva": 164892,
+          "target_va": 269252592,
+          "kind": 20
+        },
+        {
+          "symbol": "_strncpy",
+          "site_rva": 165022,
+          "target_va": 269252592,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_database_table",
+      "section": 161,
+      "rva": 164080,
+      "size": 505,
+      "kind": ".text",
+      "sha256": "cae3688c643199fd3dd72e28693a4492c9895467082a69d8f276684062ed6925",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "__numSortQueries",
+          "site_rva": 164084,
+          "target_va": 269585272,
+          "kind": 6
+        },
+        {
+          "symbol": "__columnIndices",
+          "site_rva": 164109,
+          "target_va": 269585280,
+          "kind": 6
+        },
+        {
+          "symbol": "__sortQueries",
+          "site_rva": 164115,
+          "target_va": 269585284,
+          "kind": 6
+        },
+        {
+          "symbol": "__columns",
+          "site_rva": 164218,
+          "target_va": 269585276,
+          "kind": 6
+        },
+        {
+          "symbol": "__numSortQueries",
+          "site_rva": 164544,
+          "target_va": 269585272,
+          "kind": 6
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_database_table",
+      "section": 249,
+      "rva": 169856,
+      "size": 404,
+      "kind": ".text",
+      "sha256": "72365a3910ec0db9e3dc2281d9d8b4bf164a63a084588b7effbd3c71fa365de7",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "__ehhandler$?SortTable@Table@DataStructures@@QAEXPAUSortQuery@12@IPAPAURow@12@@Z",
+          "site_rva": 169859,
+          "target_va": 269360448,
+          "kind": 6
+        },
+        {
+          "symbol": "__except_list",
+          "site_rva": 169865,
+          "target_va": 0,
+          "kind": 6
+        },
+        {
+          "symbol": "__except_list",
+          "site_rva": 169873,
+          "target_va": 0,
+          "kind": 6
+        },
+        {
+          "symbol": "??0?$List@I@DataStructures@@QAE@XZ",
+          "site_rva": 169891,
+          "target_va": 268596912,
+          "kind": 20
+        },
+        {
+          "symbol": "__sortQueries",
+          "site_rva": 169920,
+          "target_va": 269585284,
+          "kind": 6
+        },
+        {
+          "symbol": "__numSortQueries",
+          "site_rva": 169925,
+          "target_va": 269585272,
+          "kind": 6
+        },
+        {
+          "symbol": "__columnIndices",
+          "site_rva": 169931,
+          "target_va": 269585280,
+          "kind": 6
+        },
+        {
+          "symbol": "__columns",
+          "site_rva": 169937,
+          "target_va": 269585276,
+          "kind": 6
+        },
+        {
+          "symbol": "?Insert@?$List@I@DataStructures@@QAEXI@Z",
+          "site_rva": 169981,
+          "target_va": 268596976,
+          "kind": 20
+        },
+        {
+          "symbol": "?Insert@?$List@I@DataStructures@@QAEXI@Z",
+          "site_rva": 169999,
+          "target_va": 268596976,
+          "kind": 20
+        },
+        {
+          "symbol": "?GetListHead@?$BPlusTree@IPAURow@Table@DataStructures@@$0BA@@DataStructures@@QBEPAU?$Page@IPAURow@Table@DataStructures@@$0BA@@2@XZ",
+          "site_rva": 170015,
+          "target_va": 268596640,
+          "kind": 20
+        },
+        {
+          "symbol": "??0?$OrderedList@PAURow@Table@DataStructures@@PAU123@$1?RowSort@@YAHABQAU123@0@Z@DataStructures@@QAE@XZ",
+          "site_rva": 170101,
+          "target_va": 268601216,
+          "kind": 20
+        },
+        {
+          "symbol": "?Insert@?$OrderedList@PAURow@Table@DataStructures@@PAU123@$1?RowSort@@YAHABQAU123@0@Z@DataStructures@@QAEIABQAURow@Table@2@0@Z",
+          "site_rva": 170135,
+          "target_va": 268603760,
+          "kind": 20
+        },
+        {
+          "symbol": "?Size@?$OrderedList@PAURow@Table@DataStructures@@PAU123@$1?RowSort@@YAHABQAU123@0@Z@DataStructures@@QBEIXZ",
+          "site_rva": 170167,
+          "target_va": 268601248,
+          "kind": 20
+        },
+        {
+          "symbol": "??A?$OrderedList@PAURow@Table@DataStructures@@PAU123@$1?RowSort@@YAHABQAU123@0@Z@DataStructures@@QBEAAPAURow@Table@1@I@Z",
+          "site_rva": 170185,
+          "target_va": 268601232,
+          "kind": 20
+        },
+        {
+          "symbol": "?Size@?$OrderedList@PAURow@Table@DataStructures@@PAU123@$1?RowSort@@YAHABQAU123@0@Z@DataStructures@@QBEIXZ",
+          "site_rva": 170200,
+          "target_va": 268601248,
+          "kind": 20
+        },
+        {
+          "symbol": "??1?$OrderedList@PAURow@Table@DataStructures@@PAU123@$1?RowSort@@YAHABQAU123@0@Z@DataStructures@@QAE@XZ",
+          "site_rva": 170218,
+          "target_va": 268603680,
+          "kind": 20
+        },
+        {
+          "symbol": "??1?$List@I@DataStructures@@QAE@XZ",
+          "site_rva": 170235,
+          "target_va": 268596928,
+          "kind": 20
+        },
+        {
+          "symbol": "__except_list",
+          "site_rva": 170250,
+          "target_va": 0,
+          "kind": 6
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_database_table",
+      "section": 227,
+      "rva": 168224,
+      "size": 73,
+      "kind": ".text",
+      "sha256": "850a71c8b7c1fb8c6a4e4bf3c4f92e1bd37b57bc5d9fe676e75fb999fc2a1b33",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "__ehhandler$??1?$OrderedList@PAURow@Table@DataStructures@@PAU123@$1?RowSort@@YAHABQAU123@0@Z@DataStructures@@QAE@XZ",
+          "site_rva": 168227,
+          "target_va": 269360376,
+          "kind": 6
+        },
+        {
+          "symbol": "__except_list",
+          "site_rva": 168233,
+          "target_va": 0,
+          "kind": 6
+        },
+        {
+          "symbol": "__except_list",
+          "site_rva": 168241,
+          "target_va": 0,
+          "kind": 6
+        },
+        {
+          "symbol": "?Clear@?$OrderedList@PAURow@Table@DataStructures@@PAU123@$1?RowSort@@YAHABQAU123@0@Z@DataStructures@@QAEXXZ",
+          "site_rva": 168262,
+          "target_va": 268601584,
+          "kind": 20
+        },
+        {
+          "symbol": "??1?$List@PAURow@Table@DataStructures@@@DataStructures@@QAE@XZ",
+          "site_rva": 168277,
+          "target_va": 268597520,
+          "kind": 20
+        },
+        {
+          "symbol": "__except_list",
+          "site_rva": 168289,
+          "target_va": 0,
+          "kind": 6
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_database_table",
+      "section": 91,
+      "rva": 162064,
+      "size": 17,
+      "kind": ".text",
+      "sha256": "17133f6076902b4f3b4959586470a4d3af40fbdd42cc16c6cd99638457aad78b",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "??3@YAXPAX@Z",
+          "site_rva": 162075,
+          "target_va": 269247626,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_database_table",
+      "section": 205,
+      "rva": 166128,
+      "size": 8,
+      "kind": ".text",
+      "sha256": "05debea3b308dcdc1bf5867a4103bf2419f6d8c4eb65554ffb7a06574dfa97ec",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "?Clear@?$List@PAURow@Table@DataStructures@@@DataStructures@@QAEX_N@Z",
+          "site_rva": 166131,
+          "target_va": 268598752,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_database_table",
+      "section": 131,
+      "rva": 163296,
+      "size": 60,
+      "kind": ".text",
+      "sha256": "455af9c7ac1c2bafc6b9abc29a871254f6214bd578c2005a9b5b37bae512eb4b",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "??3@YAXPAX@Z",
+          "site_rva": 163325,
+          "target_va": 269247626,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_database_table",
+      "section": 189,
+      "rva": 165776,
+      "size": 12,
+      "kind": ".text",
+      "sha256": "ad09b7da4d9eb9c08f5c1a1b1a728841aa9a79add752be59989d682de3b497bb",
+      "whole_bytes_equal": true,
+      "bindings": []
+    },
+    {
+      "unit": "closure_vendor_database_table",
+      "section": 191,
+      "rva": 165792,
+      "size": 4,
+      "kind": ".text",
+      "sha256": "f7e0208f5e988ae39c7a45dfddbd12921d02f9c3deb5695d4c534c8ab0ccdb0f",
+      "whole_bytes_equal": true,
+      "bindings": []
+    },
+    {
+      "unit": "closure_vendor_database_table",
+      "section": 231,
+      "rva": 168304,
+      "size": 91,
+      "kind": ".text",
+      "sha256": "e5023a99ecbdfdb58fcb9c07bdd00e774beb83027a4dc3909652e01846b42ac3",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "?GetIndexFromKey@?$OrderedList@PAURow@Table@DataStructures@@PAU123@$1?RowSort@@YAHABQAU123@0@Z@DataStructures@@QBEIABQAURow@Table@2@PA_N@Z",
+          "site_rva": 168321,
+          "target_va": 268601440,
+          "kind": 20
+        },
+        {
+          "symbol": "?Insert@?$List@PAURow@Table@DataStructures@@@DataStructures@@QAEXQAURow@Table@2@@Z",
+          "site_rva": 168360,
+          "target_va": 268597568,
+          "kind": 20
+        },
+        {
+          "symbol": "?Insert@?$List@PAURow@Table@DataStructures@@@DataStructures@@QAEXQAURow@Table@2@I@Z",
+          "site_rva": 168384,
+          "target_va": 268597680,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_database_table",
+      "section": 97,
+      "rva": 162224,
+      "size": 137,
+      "kind": ".text",
+      "sha256": "ade8380ecd5e683c18b91e9188078b4974802ba2928debf74a451716473d22f6",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "??2@YAPAXI@Z",
+          "site_rva": 162264,
+          "target_va": 269247098,
+          "kind": 20
+        },
+        {
+          "symbol": "??3@YAXPAX@Z",
+          "site_rva": 162298,
+          "target_va": 269247626,
+          "kind": 20
+        },
+        {
+          "symbol": "_memmove",
+          "site_rva": 162333,
+          "target_va": 269250016,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_database_table",
+      "section": 95,
+      "rva": 162112,
+      "size": 105,
+      "kind": ".text",
+      "sha256": "7958973e2375c11bd5105a5231ca3d0bfbf8d2184910ddc89898b57627cdb83e",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "??2@YAPAXI@Z",
+          "site_rva": 162152,
+          "target_va": 269247098,
+          "kind": 20
+        },
+        {
+          "symbol": "??3@YAXPAX@Z",
+          "site_rva": 162186,
+          "target_va": 269247626,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_database_table",
+      "section": 203,
+      "rva": 165984,
+      "size": 141,
+      "kind": ".text",
+      "sha256": "0d70b666e0da86bd97d8b89c0c23253473f92ef78dd206162e18f45f02a2e19f",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "?RowSort@@YAHABQAURow@Table@DataStructures@@0@Z",
+          "site_rva": 166034,
+          "target_va": 268599536,
+          "kind": 20
+        },
+        {
+          "symbol": "?RowSort@@YAHABQAURow@Table@DataStructures@@0@Z",
+          "site_rva": 166082,
+          "target_va": 268599536,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_database_table",
+      "section": 187,
+      "rva": 165760,
+      "size": 12,
+      "kind": ".text",
+      "sha256": "eb61fc60fcad87399af249229271599d34c83706e49a8ae547135e761b8fb854",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "??0?$List@PAURow@Table@DataStructures@@@DataStructures@@QAE@XZ",
+          "site_rva": 165764,
+          "target_va": 268597504,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_database_table",
+      "section": 89,
+      "rva": 162048,
+      "size": 13,
+      "kind": ".text",
+      "sha256": "efaddf6f7c64b7d0dd7d70e04563c88df5b21978a063a338954e28cc09d4e5e9",
+      "whole_bytes_equal": true,
+      "bindings": []
+    },
+    {
+      "unit": "closure_vendor_database_table",
+      "section": 264,
+      "rva": 925008,
+      "size": 21,
+      "kind": ".text$x",
+      "sha256": "b56a8216128e8287d462555ae5476f12a145c4a966e7624f47d694475ba81c46",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "??3@YAXPAX@Z",
+          "site_rva": 925013,
+          "target_va": 269247626,
+          "kind": 20
+        },
+        {
+          "symbol": "$T4717",
+          "site_rva": 925020,
+          "target_va": 269457768,
+          "kind": 6
+        },
+        {
+          "symbol": "___CxxFrameHandler",
+          "site_rva": 925025,
+          "target_va": 269247782,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_database_table",
+      "section": 166,
+      "rva": 944732,
+      "size": 41,
+      "kind": ".rdata",
+      "sha256": "959028e6283b42963a4d11fb28fe40b4a5d3ca82641dfa277406d2b46c57067d",
+      "whole_bytes_equal": true,
+      "bindings": []
+    },
+    {
+      "unit": "closure_vendor_database_table",
+      "section": 165,
+      "rva": 944728,
+      "size": 3,
+      "kind": ".rdata",
+      "sha256": "41d113ac2c1df3e1df68e3e9adb57bcad489d253577bc026111f7ad6a4d8a9b3",
+      "whole_bytes_equal": true,
+      "bindings": []
+    },
+    {
+      "unit": "closure_vendor_database_table",
+      "section": 162,
+      "rva": 1149816,
+      "size": 16,
+      "kind": ".bss",
+      "sha256": "374708fff7719dd5979ec875d56cd2286f6d3cf7ec317a3b25632aab28ec37bb",
+      "whole_bytes_equal": true,
+      "bindings": []
+    },
+    {
+      "unit": "closure_vendor_database_table",
+      "section": 250,
+      "rva": 924976,
+      "size": 26,
+      "kind": ".text$x",
+      "sha256": "c2aac50a060953cded62adee631a51d419570c9fc168a689e0b912d4c07b300d",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "??1?$List@I@DataStructures@@QAE@XZ",
+          "site_rva": 924980,
+          "target_va": 268596928,
+          "kind": 20
+        },
+        {
+          "symbol": "??1?$OrderedList@PAURow@Table@DataStructures@@PAU123@$1?RowSort@@YAHABQAU123@0@Z@DataStructures@@QAE@XZ",
+          "site_rva": 924988,
+          "target_va": 268603680,
+          "kind": 20
+        },
+        {
+          "symbol": "$T4615",
+          "site_rva": 924993,
+          "target_va": 269457732,
+          "kind": 6
+        },
+        {
+          "symbol": "___CxxFrameHandler",
+          "site_rva": 924998,
+          "target_va": 269247782,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_database_table",
+      "section": 228,
+      "rva": 924912,
+      "size": 18,
+      "kind": ".text$x",
+      "sha256": "bbb426cafe63e72fb6965aee7992b1869ee0703131c5aef1a4197c7019df20c3",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "??1?$List@PAURow@Table@DataStructures@@@DataStructures@@QAE@XZ",
+          "site_rva": 924916,
+          "target_va": 268597520,
+          "kind": 20
+        },
+        {
+          "symbol": "$T4520",
+          "site_rva": 924921,
+          "target_va": 269457652,
+          "kind": 6
+        },
+        {
+          "symbol": "___CxxFrameHandler",
+          "site_rva": 924926,
+          "target_va": 269247782,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_database_table",
+      "section": 265,
+      "rva": 1022304,
+      "size": 36,
+      "kind": ".xdata$x",
+      "sha256": "6c0e9d2c196d015d35dac276a91febe4da3c86c41ba9872db4ff4ee693aa58e5",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "$L4691",
+          "site_rva": 1022308,
+          "target_va": 269360464,
+          "kind": 6
+        },
+        {
+          "symbol": "$T4721",
+          "site_rva": 1022320,
+          "target_va": 269457760,
+          "kind": 6
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_database_table",
+      "section": 251,
+      "rva": 1022260,
+      "size": 44,
+      "kind": ".xdata$x",
+      "sha256": "d3c3ea4d526707e067e4bf92814f62956124782dffe992725416434a8529a7af",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "$L4605",
+          "site_rva": 1022264,
+          "target_va": 269360432,
+          "kind": 6
+        },
+        {
+          "symbol": "$L4606",
+          "site_rva": 1022272,
+          "target_va": 269360440,
+          "kind": 6
+        },
+        {
+          "symbol": "$T4629",
+          "site_rva": 1022284,
+          "target_va": 269457716,
+          "kind": 6
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_database_table",
+      "section": 229,
+      "rva": 1022188,
+      "size": 36,
+      "kind": ".xdata$x",
+      "sha256": "e7e2e080e5a7c825b09075141b3a17c45927a52d5c598177d8552179e2ca02fa",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "$L4518",
+          "site_rva": 1022192,
+          "target_va": 269360368,
+          "kind": 6
+        },
+        {
+          "symbol": "$T4522",
+          "site_rva": 1022204,
+          "target_va": 269457644,
+          "kind": 6
+        }
+      ]
+    }
+  ],
+  "complete_sort_data": {
+    "rva": 1149816,
+    "size": 16,
+    "fields": [
+      {
+        "name": "__numSortQueries",
+        "offset": 0,
+        "size": 4
+      },
+      {
+        "name": "__columns",
+        "offset": 4,
+        "size": 4
+      },
+      {
+        "name": "__columnIndices",
+        "offset": 8,
+        "size": 4
+      },
+      {
+        "name": "__sortQueries",
+        "offset": 12,
+        "size": 4
+      }
+    ],
+    "initialization": "Actual loader zero fill. SortTable is actual runtime writer; RowSort reads. Source preserves original dangling columnIndices stack pointer after sort; no semantics repaired."
+  },
+  "source_changes": "None. Reuse exact existing three source TUs and completed objects. Expanded roots only, not new algorithms or wrappers.",
+  "new_interfaces": "No virtual dispatch/new external transport or incomplete class allocation.",
+  "root_manifest_sha256": "7c05adcbac70211c827496d77d7ad83cd9103a8c9729db68c21b9093aa77657f"
+}
