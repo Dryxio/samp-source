@@ -1,0 +1,643 @@
+{
+  "status": "TRIAL_COMPLETE_CHECKPOINT_PAUSED",
+  "start_utc": "2026-09-06T12:57:35.192868+00:00",
+  "deadline_utc": "2026-09-06T13:27:35.192868+00:00",
+  "baseline": 408507,
+  "accepted_prepared": 0,
+  "accepted_fresh": 3973,
+  "events": [
+    {
+      "phase": "baseline_verification",
+      "start_utc": "2026-09-06T12:59:03.168232+00:00",
+      "end_utc": "2026-09-06T12:59:03.315868+00:00",
+      "seconds": 0.1473684589145705,
+      "exit_code": 0,
+      "command": [
+        ".venv/bin/python",
+        "-"
+      ]
+    },
+    {
+      "phase": "compilation",
+      "start_utc": "2026-09-06T13:01:36.373097+00:00",
+      "end_utc": "2026-09-06T13:01:46.742906+00:00",
+      "seconds": 10.369508750038221,
+      "exit_code": 0,
+      "command": [
+        "prlctl",
+        "exec",
+        "Windows 11",
+        "powershell.exe",
+        "-NoProfile",
+        "-ExecutionPolicy",
+        "Bypass",
+        "-File",
+        "C:\\Mac\\Home\\Documents\\GitHub\\samp-r5-matching\\tools\\probe_client.ps1",
+        "-Run",
+        "cp32-trial30b-network1",
+        "-Units",
+        "eval_vendor_rakpeer_queue_lifetime,eval_vendor_rakpeer_plugin_packet",
+        "-PoolStrings"
+      ]
+    },
+    {
+      "phase": "compilation",
+      "start_utc": "2026-09-06T13:02:50.560349+00:00",
+      "end_utc": "2026-09-06T13:03:03.036038+00:00",
+      "seconds": 12.475075667025521,
+      "exit_code": 0,
+      "command": [
+        "prlctl",
+        "exec",
+        "Windows 11",
+        "powershell.exe",
+        "-NoProfile",
+        "-ExecutionPolicy",
+        "Bypass",
+        "-File",
+        "C:\\Mac\\Home\\Documents\\GitHub\\samp-r5-matching\\tools\\probe_client.ps1",
+        "-Run",
+        "cp32-trial30b-onfoot-sha1",
+        "-Units",
+        "closure_remote_onfoot_update,eval_vendor_reliability_sha_queue",
+        "-PoolStrings"
+      ]
+    },
+    {
+      "phase": "compilation",
+      "start_utc": "2026-09-06T13:04:05.746865+00:00",
+      "end_utc": "2026-09-06T13:04:19.007328+00:00",
+      "seconds": 13.260312541970052,
+      "exit_code": 0,
+      "command": [
+        "prlctl",
+        "exec",
+        "Windows 11",
+        "powershell.exe",
+        "-NoProfile",
+        "-ExecutionPolicy",
+        "Bypass",
+        "-File",
+        "C:\\Mac\\Home\\Documents\\GitHub\\samp-r5-matching\\tools\\probe_client.ps1",
+        "-Run",
+        "cp32-trial30b-onfoot-packet",
+        "-Units",
+        "closure_packet_onfoot_sync",
+        "-PoolStrings"
+      ]
+    },
+    {
+      "phase": "compilation",
+      "start_utc": "2026-09-06T13:05:23.192201+00:00",
+      "end_utc": "2026-09-06T13:05:30.267738+00:00",
+      "seconds": 7.0752475829795,
+      "exit_code": 0,
+      "command": [
+        "prlctl",
+        "exec",
+        "Windows 11",
+        "powershell.exe",
+        "-NoProfile",
+        "-ExecutionPolicy",
+        "Bypass",
+        "-File",
+        "C:\\Mac\\Home\\Documents\\GitHub\\samp-r5-matching\\tools\\probe_client.ps1",
+        "-Run",
+        "cp32-trial30b-onfoot2",
+        "-Units",
+        "closure_remote_onfoot_update",
+        "-PoolStrings"
+      ]
+    },
+    {
+      "phase": "compilation",
+      "start_utc": "2026-09-06T13:07:04.266383+00:00",
+      "end_utc": "2026-09-06T13:07:15.204938+00:00",
+      "seconds": 10.938273500069045,
+      "exit_code": 0,
+      "command": [
+        "prlctl",
+        "exec",
+        "Windows 11",
+        "powershell.exe",
+        "-NoProfile",
+        "-ExecutionPolicy",
+        "Bypass",
+        "-File",
+        "C:\\Mac\\Home\\Documents\\GitHub\\samp-r5-matching\\build\\build_trial30b_one.ps1"
+      ]
+    },
+    {
+      "phase": "compilation",
+      "start_utc": "2026-09-06T13:08:02.658643+00:00",
+      "end_utc": "2026-09-06T13:08:11.466929+00:00",
+      "seconds": 8.808092708000913,
+      "exit_code": 0,
+      "command": [
+        "prlctl",
+        "exec",
+        "Windows 11",
+        "powershell.exe",
+        "-NoProfile",
+        "-ExecutionPolicy",
+        "Bypass",
+        "-File",
+        "C:\\Mac\\Home\\Documents\\GitHub\\samp-r5-matching\\tools\\probe_client.ps1",
+        "-Run",
+        "cp32-trial30b-closed-api",
+        "-Units",
+        "eval_vendor_rakclient_closed_api,eval_vendor_rakserver_closed_api",
+        "-PoolStrings"
+      ]
+    },
+    {
+      "phase": "compilation",
+      "start_utc": "2026-09-06T13:09:43.193871+00:00",
+      "end_utc": "2026-09-06T13:09:52.903586+00:00",
+      "seconds": 9.709333208040334,
+      "exit_code": 0,
+      "command": [
+        "prlctl",
+        "exec",
+        "Windows 11",
+        "powershell.exe",
+        "-NoProfile",
+        "-ExecutionPolicy",
+        "Bypass",
+        "-File",
+        "C:\\Mac\\Home\\Documents\\GitHub\\samp-r5-matching\\tools\\probe_client.ps1",
+        "-Run",
+        "cp32-trial30b-special-action",
+        "-Units",
+        "closure_remote_special_action_query",
+        "-PoolStrings"
+      ]
+    },
+    {
+      "phase": "compilation",
+      "start_utc": "2026-09-06T13:10:41.207501+00:00",
+      "end_utc": "2026-09-06T13:10:48.271680+00:00",
+      "seconds": 7.064058791962452,
+      "exit_code": 0,
+      "command": [
+        "prlctl",
+        "exec",
+        "Windows 11",
+        "powershell.exe",
+        "-NoProfile",
+        "-ExecutionPolicy",
+        "Bypass",
+        "-File",
+        "C:\\Mac\\Home\\Documents\\GitHub\\samp-r5-matching\\build\\build_trial30b_one.ps1"
+      ]
+    },
+    {
+      "phase": "integration_link",
+      "start_utc": "2026-09-06T13:11:06.162186+00:00",
+      "end_utc": "2026-09-06T13:11:10.378482+00:00",
+      "seconds": 4.21585304196924,
+      "exit_code": 1,
+      "command": [
+        "prlctl",
+        "exec",
+        "Windows 11",
+        "powershell.exe",
+        "-NoProfile",
+        "-ExecutionPolicy",
+        "Bypass",
+        "-File",
+        "C:\\Mac\\Home\\Documents\\GitHub\\samp-r5-matching\\tools\\link_actor_closure.ps1",
+        "-Run",
+        "cp32-trial30b-one-linked1",
+        "-Ob1",
+        "cp32-trial30b-one-ob1-v2",
+        "-Ob2",
+        "cp32-disconnect-selection-ob2"
+      ]
+    },
+    {
+      "phase": "verification_qualifiers",
+      "start_utc": "2026-09-06T13:12:01.990071+00:00",
+      "end_utc": "2026-09-06T13:12:02.097035+00:00",
+      "seconds": 0.10684320901054889,
+      "exit_code": 1,
+      "command": [
+        ".venv/bin/python",
+        "build/qualify_trial30b_link.py",
+        "cp32-trial30b-one-linked1",
+        "trial30b-one"
+      ]
+    },
+    {
+      "phase": "integration_draft",
+      "start_utc": "2026-09-06T13:12:00.839397+00:00",
+      "end_utc": "2026-09-06T13:12:02.405029+00:00",
+      "seconds": 1.565496916999109,
+      "exit_code": 0,
+      "command": [
+        ".venv/bin/python",
+        "tools/draft_actor_contract.py",
+        "--run",
+        "cp32-trial30b-one-linked1",
+        "--seeds",
+        "config/checkpoint32/trial30b-one-seeds.json"
+      ]
+    },
+    {
+      "phase": "compilation",
+      "start_utc": "2026-09-06T13:13:32.956573+00:00",
+      "end_utc": "2026-09-06T13:13:48.644308+00:00",
+      "seconds": 15.687985833035782,
+      "exit_code": 0,
+      "command": [
+        "prlctl",
+        "exec",
+        "Windows 11",
+        "powershell.exe",
+        "-NoProfile",
+        "-ExecutionPolicy",
+        "Bypass",
+        "-File",
+        "C:\\Mac\\Home\\Documents\\GitHub\\samp-r5-matching\\tools\\probe_client.ps1",
+        "-Run",
+        "cp32-trial30b-entry",
+        "-Units",
+        "eval_vendor_rakpeer_plugin_packet,closure_ped_enter_vehicle,closure_remote_enter_vehicle,closure_store_enter_vehicle_driver,closure_store_enter_vehicle_passenger,closure_store_ignore_vehicle_entry,closure_remote_distance_query,closure_rpc_remote_enter_vehicle",
+        "-PoolStrings"
+      ]
+    },
+    {
+      "phase": "compilation",
+      "start_utc": "2026-09-06T13:14:50.760612+00:00",
+      "end_utc": "2026-09-06T13:15:02.512354+00:00",
+      "seconds": 11.751443375018425,
+      "exit_code": 0,
+      "command": [
+        "prlctl",
+        "exec",
+        "Windows 11",
+        "powershell.exe",
+        "-NoProfile",
+        "-ExecutionPolicy",
+        "Bypass",
+        "-File",
+        "C:\\Mac\\Home\\Documents\\GitHub\\samp-r5-matching\\build\\build_trial30b_one.ps1"
+      ]
+    },
+    {
+      "phase": "compilation",
+      "start_utc": "2026-09-06T13:16:32.407332+00:00",
+      "end_utc": "2026-09-06T13:16:43.835560+00:00",
+      "seconds": 11.427869208040647,
+      "exit_code": 0,
+      "command": [
+        "prlctl",
+        "exec",
+        "Windows 11",
+        "powershell.exe",
+        "-NoProfile",
+        "-ExecutionPolicy",
+        "Bypass",
+        "-File",
+        "C:\\Mac\\Home\\Documents\\GitHub\\samp-r5-matching\\build\\build_trial30b_one.ps1"
+      ]
+    },
+    {
+      "phase": "integration_link",
+      "start_utc": "2026-09-06T13:17:07.762402+00:00",
+      "end_utc": "2026-09-06T13:17:15.271688+00:00",
+      "seconds": 7.509203542023897,
+      "exit_code": 0,
+      "command": [
+        "prlctl",
+        "exec",
+        "Windows 11",
+        "powershell.exe",
+        "-NoProfile",
+        "-ExecutionPolicy",
+        "Bypass",
+        "-File",
+        "C:\\Mac\\Home\\Documents\\GitHub\\samp-r5-matching\\tools\\link_actor_closure.ps1",
+        "-Run",
+        "cp32-trial30b-one-linked2",
+        "-Ob1",
+        "cp32-trial30b-one-ob1-v4",
+        "-Ob2",
+        "cp32-disconnect-selection-ob2"
+      ]
+    },
+    {
+      "phase": "integration_draft",
+      "start_utc": "2026-09-06T13:17:40.491979+00:00",
+      "end_utc": "2026-09-06T13:17:42.303018+00:00",
+      "seconds": 1.810868832981214,
+      "exit_code": 0,
+      "command": [
+        ".venv/bin/python",
+        "tools/draft_actor_contract.py",
+        "--run",
+        "cp32-trial30b-one-linked2",
+        "--seeds",
+        "config/checkpoint32/trial30b-one-seeds.json"
+      ]
+    },
+    {
+      "phase": "verification_qualifiers",
+      "start_utc": "2026-09-06T13:17:41.643377+00:00",
+      "end_utc": "2026-09-06T13:17:42.713107+00:00",
+      "seconds": 1.069599499925971,
+      "exit_code": 0,
+      "command": [
+        ".venv/bin/python",
+        "build/qualify_trial30b_link.py",
+        "cp32-trial30b-one-linked2",
+        "trial30b-one"
+      ]
+    },
+    {
+      "phase": "compilation",
+      "start_utc": "2026-09-06T13:17:42.795630+00:00",
+      "end_utc": "2026-09-06T13:17:57.732749+00:00",
+      "seconds": 14.937003250000998,
+      "exit_code": 0,
+      "command": [
+        "prlctl",
+        "exec",
+        "Windows 11",
+        "powershell.exe",
+        "-NoProfile",
+        "-ExecutionPolicy",
+        "Bypass",
+        "-File",
+        "C:\\Mac\\Home\\Documents\\GitHub\\samp-r5-matching\\tools\\probe_client.ps1",
+        "-Run",
+        "cp32-trial30b-exit",
+        "-Units",
+        "closure_ped_exit_vehicle,closure_remote_exit_vehicle,closure_store_exit_vehicle",
+        "-PoolStrings"
+      ]
+    },
+    {
+      "phase": "verification_review",
+      "start_utc": "2026-09-06T13:18:06.213936+00:00",
+      "end_utc": "2026-09-06T13:18:16.430822+00:00",
+      "seconds": 10.216737582930364,
+      "exit_code": 0,
+      "command": [
+        ".venv/bin/python",
+        "build/review_trial30b_batch.py",
+        "build/trial30b-one-spec.json"
+      ]
+    },
+    {
+      "phase": "compilation",
+      "start_utc": "2026-09-06T13:18:40.468700+00:00",
+      "end_utc": "2026-09-06T13:18:54.136404+00:00",
+      "seconds": 13.667698374949396,
+      "exit_code": 0,
+      "command": [
+        "prlctl",
+        "exec",
+        "Windows 11",
+        "powershell.exe",
+        "-NoProfile",
+        "-ExecutionPolicy",
+        "Bypass",
+        "-File",
+        "C:\\Mac\\Home\\Documents\\GitHub\\samp-r5-matching\\tools\\probe_client.ps1",
+        "-Run",
+        "cp32-trial30b-exit-rpc",
+        "-Units",
+        "closure_rpc_remote_exit_vehicle",
+        "-PoolStrings"
+      ]
+    },
+    {
+      "phase": "compilation",
+      "start_utc": "2026-09-06T13:19:23.763300+00:00",
+      "end_utc": "2026-09-06T13:19:36.239136+00:00",
+      "seconds": 12.475387374986894,
+      "exit_code": 0,
+      "command": [
+        "prlctl",
+        "exec",
+        "Windows 11",
+        "powershell.exe",
+        "-NoProfile",
+        "-ExecutionPolicy",
+        "Bypass",
+        "-File",
+        "C:\\Mac\\Home\\Documents\\GitHub\\samp-r5-matching\\tools\\probe_client.ps1",
+        "-Run",
+        "cp32-trial30b-skill",
+        "-Units",
+        "closure_rpc_player_skill",
+        "-PoolStrings"
+      ]
+    },
+    {
+      "phase": "verification_acceptance",
+      "start_utc": "2026-09-06T13:18:39.270616+00:00",
+      "end_utc": "2026-09-06T13:20:25.067618+00:00",
+      "seconds": 105.79637175006792,
+      "exit_code": 0,
+      "command": [
+        ".venv/bin/python",
+        "tools/accept_actor_closure.py",
+        "--run",
+        "cp32-trial30b-one-linked2",
+        "--contract",
+        "config/checkpoint32/trial30b-one-contract.json",
+        "--report",
+        "trial30b-one-acceptance.json",
+        "--previous",
+        "evidence/checkpoint32/trial30-final-acceptance.json"
+      ]
+    },
+    {
+      "phase": "compilation",
+      "start_utc": "2026-09-06T13:20:49.052325+00:00",
+      "end_utc": "2026-09-06T13:21:01.938227+00:00",
+      "seconds": 12.88521308300551,
+      "exit_code": 0,
+      "command": [
+        "prlctl",
+        "exec",
+        "Windows 11",
+        "powershell.exe",
+        "-NoProfile",
+        "-ExecutionPolicy",
+        "Bypass",
+        "-File",
+        "C:\\Mac\\Home\\Documents\\GitHub\\samp-r5-matching\\tools\\probe_client.ps1",
+        "-Run",
+        "cp32-trial30b-exit-ob2",
+        "-Units",
+        "closure_ped_exit_vehicle_ob2",
+        "-Inline",
+        "Ob2",
+        "-PoolStrings"
+      ]
+    },
+    {
+      "phase": "compilation",
+      "start_utc": "2026-09-06T13:24:29.360824+00:00",
+      "end_utc": "2026-09-06T13:24:43.016793+00:00",
+      "seconds": 13.655579291982576,
+      "exit_code": 0,
+      "command": [
+        "prlctl",
+        "exec",
+        "Windows 11",
+        "powershell.exe",
+        "-NoProfile",
+        "-ExecutionPolicy",
+        "Bypass",
+        "-File",
+        "C:\\Mac\\Home\\Documents\\GitHub\\samp-r5-matching\\build\\build_trial30b_two.ps1"
+      ]
+    },
+    {
+      "phase": "integration_link",
+      "start_utc": "2026-09-06T13:24:55.777228+00:00",
+      "end_utc": "2026-09-06T13:25:02.109088+00:00",
+      "seconds": 6.33173712505959,
+      "exit_code": 0,
+      "command": [
+        "prlctl",
+        "exec",
+        "Windows 11",
+        "powershell.exe",
+        "-NoProfile",
+        "-ExecutionPolicy",
+        "Bypass",
+        "-File",
+        "C:\\Mac\\Home\\Documents\\GitHub\\samp-r5-matching\\tools\\link_actor_closure.ps1",
+        "-Run",
+        "cp32-trial30b-two-linked1",
+        "-Ob1",
+        "cp32-trial30b-two-ob1",
+        "-Ob2",
+        "cp32-disconnect-selection-ob2"
+      ]
+    },
+    {
+      "phase": "integration_draft",
+      "start_utc": "2026-09-06T13:25:25.692051+00:00",
+      "end_utc": "2026-09-06T13:25:27.501365+00:00",
+      "seconds": 1.809172832989134,
+      "exit_code": 0,
+      "command": [
+        ".venv/bin/python",
+        "tools/draft_actor_contract.py",
+        "--run",
+        "cp32-trial30b-two-linked1",
+        "--seeds",
+        "config/checkpoint32/trial30b-two-seeds.json"
+      ]
+    },
+    {
+      "phase": "verification_qualifiers",
+      "start_utc": "2026-09-06T13:25:26.819819+00:00",
+      "end_utc": "2026-09-06T13:25:27.850455+00:00",
+      "seconds": 1.0304414590355009,
+      "exit_code": 0,
+      "command": [
+        ".venv/bin/python",
+        "build/qualify_trial30b_link.py",
+        "cp32-trial30b-two-linked1",
+        "trial30b-two"
+      ]
+    },
+    {
+      "phase": "verification_review",
+      "start_utc": "2026-09-06T13:25:35.554789+00:00",
+      "end_utc": "2026-09-06T13:25:45.822164+00:00",
+      "seconds": 10.267250542063266,
+      "exit_code": 0,
+      "command": [
+        ".venv/bin/python",
+        "build/review_trial30b_batch.py",
+        "build/trial30b-two-spec.json"
+      ]
+    },
+    {
+      "phase": "verification_acceptance",
+      "start_utc": "2026-09-06T13:25:58.495371+00:00",
+      "end_utc": "2026-09-06T13:27:43.613471+00:00",
+      "seconds": 105.11760679201689,
+      "exit_code": 0,
+      "command": [
+        ".venv/bin/python",
+        "tools/accept_actor_closure.py",
+        "--run",
+        "cp32-trial30b-two-linked1",
+        "--contract",
+        "config/checkpoint32/trial30b-two-contract.json",
+        "--report",
+        "trial30b-two-acceptance.json",
+        "--previous",
+        "evidence/checkpoint32/trial30b-one-acceptance.json"
+      ]
+    }
+  ],
+  "root_phase": "Compile first network proposals; client on-foot chain in research. Generic review/seed/alias orchestration prepared without verifier changes.",
+  "active_vm_command": null,
+  "batches": [
+    {
+      "prefix": "trial30b-one",
+      "run": "cp32-trial30b-one-linked2",
+      "utc": "2026-09-06T13:20:50.225708+00:00",
+      "gain": 3335,
+      "coverage": 411842
+    },
+    {
+      "prefix": "trial30b-two",
+      "run": "cp32-trial30b-two-linked1",
+      "utc": "2026-09-06T13:28:47.273233+00:00",
+      "gain": 638,
+      "coverage": 412480
+    }
+  ],
+  "current_accepted": 412480,
+  "remaining_not_accepted": [
+    {
+      "unit": "closure_packet_onfoot_sync",
+      "body": 718,
+      "attached_eh_expected": 21,
+      "reason": "six bool-local stackslot differences after boundedcontexttrial; excluded"
+    }
+  ],
+  "avoidable_work": [
+    "Duplicate AddPacketToProducer definition caused firstlinkfailure; real existingunacceptedowner31 reused andqualified.",
+    "Existing accepted ExitCurrentVehicle138 provider was missed; two pedcompilations avoidable, variants notintegrated."
+  ],
+  "timing_semantics": "Every compilation/link/draft/qualification/review/acceptance invocation measured by trial30b_run; command intervals overlap with root and agent research. Manual integration/research/coordination remainder is not an exclusive causal cost estimate.",
+  "end_utc": "2026-09-06T13:28:47.563842+00:00",
+  "elapsed_seconds": 1872.370974,
+  "new_unique_accepted": 3973,
+  "final_accepted": 412480,
+  "bytes_per_hour": 7638.870821333295,
+  "agents": 3,
+  "command_seconds_by_phase": {
+    "baseline_verification": 0.1473684589145705,
+    "compilation": 186.18808254110627,
+    "integration_link": 18.056793709052727,
+    "verification_qualifiers": 2.206884167972021,
+    "integration_draft": 5.185538582969457,
+    "verification_review": 20.48398812499363,
+    "verification_acceptance": 210.9139785420848
+  },
+  "timed_command_union_seconds": 415.59853315353394,
+  "remainder_analysis_integration_coordination_finalization_seconds": 1456.772440846466,
+  "source025": "Useful adapted algorithms for onfoot and vehicle RPC/entry/exit; direct new0. Vendor sufficient for network. No invented per-source causal speedup.",
+  "bottleneck": "Manual dependency/source-owner inventory and codegen hypotheses. Duplicateproducer linkerfailure plus overlooked accepted ExitCurrentVehicle caused avoidable work.",
+  "recommendation": "Before compiling, search current accepted contract AND actual fullprofile symbol owners, not only a candidate list. Auto-detect strong definition collisions. Keep3 agents but no claimed proven speedup; group readyfamilies.",
+  "checkpoint_complete": false,
+  "pushed": false,
+  "deployed": false,
+  "code_commits": [
+    "4f0936b",
+    "05f97d8c91f31d7004b2da9f240d8d1d27f3e496"
+  ]
+}
