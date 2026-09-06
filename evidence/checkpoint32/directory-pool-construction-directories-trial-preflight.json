@@ -1,0 +1,449 @@
+{
+  "status": "PREFLIGHT_PASS_NOT_ACCEPTANCE",
+  "regions": [
+    {
+      "object": "cp32-local-pool-construction-trial1/closure_local_player_construction.obj",
+      "section": 51,
+      "rva": 11920,
+      "size": 263,
+      "bindings": [
+        {
+          "identity": "__imp__GetTickCount@0",
+          "site_rva": 12090,
+          "target_va": 269374008,
+          "kind": 6
+        }
+      ],
+      "whole_bytes_equal": true,
+      "sha256": "5b2a08b761f4d06fd6506cad832cdea8c5d004845ca9e357eeed8fb24198d97e"
+    },
+    {
+      "object": "cp32-local-pool-construction-trial1/closure_local_player_construction.obj",
+      "section": 53,
+      "rva": 19536,
+      "size": 223,
+      "bindings": [
+        {
+          "identity": "__imp__GetTickCount@0",
+          "site_rva": 19541,
+          "target_va": 269374008,
+          "kind": 6
+        },
+        {
+          "identity": "?pGame@@3PAVCGame@@A",
+          "site_rva": 19601,
+          "target_va": 270986156,
+          "kind": 6
+        },
+        {
+          "identity": "?FindPlayerPed@CGame@@QAEPAVCPlayerPed@@XZ",
+          "site_rva": 19606,
+          "target_va": 268439568,
+          "kind": 20
+        },
+        {
+          "identity": "?ResetAllSyncAttributes@CLocalPlayer@@QAEXXZ",
+          "site_rva": 19714,
+          "target_va": 268447376,
+          "kind": 20
+        }
+      ],
+      "whole_bytes_equal": true,
+      "sha256": "a012b451caabaddfd9af05327d34eb06ab4594e482b3abd4f02b146a7bb08bd2"
+    },
+    {
+      "object": "cp32-local-pool-construction-trial1/closure_player_pool_construction.obj",
+      "section": 68,
+      "rva": 81872,
+      "size": 154,
+      "bindings": [
+        {
+          "identity": "__ehhandler$??0CPlayerPool@@QAE@XZ",
+          "site_rva": 81875,
+          "target_va": 269355974,
+          "kind": 6
+        },
+        {
+          "identity": "__except_list",
+          "site_rva": 81881,
+          "target_va": 0,
+          "kind": 6
+        },
+        {
+          "identity": "__except_list",
+          "site_rva": 81889,
+          "target_va": 0,
+          "kind": 6
+        },
+        {
+          "identity": "??2@YAPAXI@Z",
+          "site_rva": 81958,
+          "target_va": 269247098,
+          "kind": 20
+        },
+        {
+          "identity": "??0CLocalPlayer@@QAE@XZ",
+          "site_rva": 81981,
+          "target_va": 268454992,
+          "kind": 20
+        },
+        {
+          "identity": "__except_list",
+          "site_rva": 82018,
+          "target_va": 0,
+          "kind": 6
+        }
+      ],
+      "whole_bytes_equal": true,
+      "sha256": "810cfb1331cbf01f76c92a690b622ce54a0b569e322c39854fdfc35a9adfad99"
+    },
+    {
+      "object": "cp32-local-pool-construction-trial1/closure_player_pool_construction.obj",
+      "section": 69,
+      "rva": 920496,
+      "size": 32,
+      "bindings": [
+        {
+          "identity": "??1?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAE@XZ",
+          "site_rva": 920503,
+          "target_va": 268517168,
+          "kind": 20
+        },
+        {
+          "identity": "??3@YAXPAX@Z",
+          "site_rva": 920512,
+          "target_va": 269247626,
+          "kind": 20
+        },
+        {
+          "identity": "$T95290",
+          "site_rva": 920519,
+          "target_va": 269452620,
+          "kind": 6
+        },
+        {
+          "identity": "___CxxFrameHandler",
+          "site_rva": 920524,
+          "target_va": 269247782,
+          "kind": 20
+        }
+      ],
+      "whole_bytes_equal": true,
+      "sha256": "b0089e9ca21dd98be566aaa834fb16e559286c205df5d310673c5a973fcfab99"
+    },
+    {
+      "object": "cp32-local-pool-construction-trial1/closure_player_pool_construction.obj",
+      "section": 70,
+      "rva": 1017148,
+      "size": 44,
+      "bindings": [
+        {
+          "identity": "$L95191",
+          "site_rva": 1017152,
+          "target_va": 269355952,
+          "kind": 6
+        },
+        {
+          "identity": "$L95192",
+          "site_rva": 1017160,
+          "target_va": 269355963,
+          "kind": 6
+        },
+        {
+          "identity": "$T95297",
+          "site_rva": 1017172,
+          "target_va": 269452604,
+          "kind": 6
+        }
+      ],
+      "whole_bytes_equal": true,
+      "sha256": "fa8d3e9858ee0cb9d4629ad249297bdcabb7f7cfce14dd3bcf0757c710e2a284"
+    },
+    {
+      "object": "cp32-directories-factory-trial2/closure_setup_directories.obj",
+      "section": 46,
+      "rva": 801520,
+      "size": 258,
+      "bindings": [
+        {
+          "identity": "?szCacheDir@@3PADA",
+          "site_rva": 801542,
+          "target_va": 270985760,
+          "kind": 6
+        },
+        {
+          "identity": "?szSAMPDir@@3PADA",
+          "site_rva": 801563,
+          "target_va": 270985496,
+          "kind": 6
+        },
+        {
+          "identity": "??_C@_08EKNFEHJD@?$CFs?2cache?$AA@",
+          "site_rva": 801568,
+          "target_va": 269408436,
+          "kind": 6
+        },
+        {
+          "identity": "?szCacheDir@@3PADA",
+          "site_rva": 801573,
+          "target_va": 270985760,
+          "kind": 6
+        },
+        {
+          "identity": "_sprintf",
+          "site_rva": 801587,
+          "target_va": 269251411,
+          "kind": 20
+        },
+        {
+          "identity": "??_C@_0O@FIOBHACN@Software?2SAMP?$AA@",
+          "site_rva": 801607,
+          "target_va": 269408420,
+          "kind": 6
+        },
+        {
+          "identity": "__imp__RegOpenKeyExA@20",
+          "site_rva": 801618,
+          "target_va": 269373444,
+          "kind": 6
+        },
+        {
+          "identity": "??_C@_0M@DADFAEFN@model_cache?$AA@",
+          "site_rva": 801648,
+          "target_va": 269408408,
+          "kind": 6
+        },
+        {
+          "identity": "__imp__RegQueryValueExA@24",
+          "site_rva": 801655,
+          "target_va": 269373448,
+          "kind": 6
+        },
+        {
+          "identity": "?szCacheDir@@3PADA",
+          "site_rva": 801674,
+          "target_va": 270985760,
+          "kind": 6
+        },
+        {
+          "identity": "_strncpy",
+          "site_rva": 801679,
+          "target_va": 269252592,
+          "kind": 20
+        },
+        {
+          "identity": "?szCacheDir@@3PADA",
+          "site_rva": 801687,
+          "target_va": 270985760,
+          "kind": 6
+        },
+        {
+          "identity": "?IsFileOrDirectoryExists@@YAHPAD@Z",
+          "site_rva": 801692,
+          "target_va": 269180352,
+          "kind": 20
+        },
+        {
+          "identity": "__imp__CreateDirectoryA@8",
+          "site_rva": 801698,
+          "target_va": 269374012,
+          "kind": 6
+        },
+        {
+          "identity": "?szCacheDir@@3PADA",
+          "site_rva": 801712,
+          "target_va": 270985760,
+          "kind": 6
+        },
+        {
+          "identity": "?szCacheDir@@3PADA",
+          "site_rva": 801719,
+          "target_va": 270985760,
+          "kind": 6
+        },
+        {
+          "identity": "??_C@_08NKKAMLOB@?$CFs?2local?$AA@",
+          "site_rva": 801731,
+          "target_va": 269376460,
+          "kind": 6
+        },
+        {
+          "identity": "_sprintf",
+          "site_rva": 801737,
+          "target_va": 269251411,
+          "kind": 20
+        },
+        {
+          "identity": "?IsFileOrDirectoryExists@@YAHPAD@Z",
+          "site_rva": 801750,
+          "target_va": 269180352,
+          "kind": 20
+        }
+      ],
+      "whole_bytes_equal": true,
+      "sha256": "72addfdb419f528eae2abbcb5a25e38a5cc5a47067cf99cc9cd46892ab7dc668"
+    },
+    {
+      "object": "cp32-directories-factory-trial2/closure_setup_directories.obj",
+      "section": 51,
+      "rva": 801904,
+      "size": 180,
+      "bindings": [
+        {
+          "identity": "?szSAMPDir@@3PADA",
+          "site_rva": 801919,
+          "target_va": 270985496,
+          "kind": 6
+        },
+        {
+          "identity": "?szSAMPDir@@3PADA",
+          "site_rva": 801951,
+          "target_va": 270985496,
+          "kind": 6
+        },
+        {
+          "identity": "__imp__GetCurrentDirectoryA@8",
+          "site_rva": 801962,
+          "target_va": 269373808,
+          "kind": 6
+        },
+        {
+          "identity": "??_C@_07BDGFIHBK@?$CFs?2SAMP?$AA@",
+          "site_rva": 801980,
+          "target_va": 269408476,
+          "kind": 6
+        },
+        {
+          "identity": "?szSAMPDir@@3PADA",
+          "site_rva": 801985,
+          "target_va": 270985496,
+          "kind": 6
+        },
+        {
+          "identity": "_sprintf",
+          "site_rva": 801990,
+          "target_va": 269251411,
+          "kind": 20
+        },
+        {
+          "identity": "?szSAMPDir@@3PADA",
+          "site_rva": 801995,
+          "target_va": 270985496,
+          "kind": 6
+        },
+        {
+          "identity": "?IsFileOrDirectoryExists@@YAHPAD@Z",
+          "site_rva": 802000,
+          "target_va": 269180352,
+          "kind": 20
+        },
+        {
+          "identity": "__imp__CreateDirectoryA@8",
+          "site_rva": 802006,
+          "target_va": 269374012,
+          "kind": 6
+        },
+        {
+          "identity": "?szSAMPDir@@3PADA",
+          "site_rva": 802020,
+          "target_va": 270985496,
+          "kind": 6
+        },
+        {
+          "identity": "?szSAMPDir@@3PADA",
+          "site_rva": 802027,
+          "target_va": 270985496,
+          "kind": 6
+        },
+        {
+          "identity": "??_C@_0L@CPLBLOKN@?$CFs?2screens?$AA@",
+          "site_rva": 802036,
+          "target_va": 269408464,
+          "kind": 6
+        },
+        {
+          "identity": "_sprintf",
+          "site_rva": 802042,
+          "target_va": 269251411,
+          "kind": 20
+        },
+        {
+          "identity": "?IsFileOrDirectoryExists@@YAHPAD@Z",
+          "site_rva": 802052,
+          "target_va": 269180352,
+          "kind": 20
+        },
+        {
+          "identity": "?SetupCacheDirectories@@YAXXZ",
+          "site_rva": 802072,
+          "target_va": 269236976,
+          "kind": 20
+        }
+      ],
+      "whole_bytes_equal": true,
+      "sha256": "b8de50ce179bb5ad89e74b8ba80a08e656637848d55d65e803fa472807305f3f"
+    }
+  ],
+  "data": [
+    {
+      "identity": "??_C@_08NKKAMLOB@?$CFs?2local?$AA@",
+      "rva": 941004,
+      "size": 9,
+      "sha256": "d5d2fd1183f77f930ed5c406839b55a9d96c3e5dc6a6b7e127b745718b42720b",
+      "whole_bytes_equal": true
+    },
+    {
+      "identity": "??_C@_0M@DADFAEFN@model_cache?$AA@",
+      "rva": 972952,
+      "size": 12,
+      "sha256": "86053af5246251593a0205777c46058cef792daa4bd1971d790e066b1d318eb1",
+      "whole_bytes_equal": true
+    },
+    {
+      "identity": "??_C@_0O@FIOBHACN@Software?2SAMP?$AA@",
+      "rva": 972964,
+      "size": 14,
+      "sha256": "c30e0ca35f1b4c42ebb7c210c291a80c9e3d2de0061255b0d039ed73d552c870",
+      "whole_bytes_equal": true
+    },
+    {
+      "identity": "??_C@_08EKNFEHJD@?$CFs?2cache?$AA@",
+      "rva": 972980,
+      "size": 9,
+      "sha256": "d1a2b422d661590a027420c1c7c3b00b0c170912a4be3b58dd4b8ffffe2808b4",
+      "whole_bytes_equal": true
+    },
+    {
+      "identity": "??_C@_0L@CPLBLOKN@?$CFs?2screens?$AA@",
+      "rva": 973008,
+      "size": 11,
+      "sha256": "484710aa7551b0672e9540036c502d7c6db754bad209bf0d505d85271eec8658",
+      "whole_bytes_equal": true
+    },
+    {
+      "identity": "??_C@_07BDGFIHBK@?$CFs?2SAMP?$AA@",
+      "rva": 973020,
+      "size": 8,
+      "sha256": "0b17c7221810c03eb7e97ab12af88d4416734ee44db195c70198427e58f2b19b",
+      "whole_bytes_equal": true
+    },
+    {
+      "identity": "szCacheDir",
+      "rva": 2550304,
+      "size": 261,
+      "original": "virtual zero fill",
+      "coff_zero_fill": true,
+      "all_initialized_bytes_zero": true,
+      "owner": "base main.cpp:14"
+    }
+  ],
+  "baseline": "screenshot-model-acceptance 210955",
+  "unique_code_potential": 1110,
+  "bindings_checked": 52,
+  "limitations": [
+    "Source025 new credit zero",
+    "No compilation or execution performed by subagent",
+    "LocalPlayer and PlayerPool actual header size assertions compiled in root trial",
+    "szSAMPDir261 already accepted; reused no duplicate store/code credit"
+  ]
+}

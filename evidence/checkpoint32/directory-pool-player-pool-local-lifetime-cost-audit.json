@@ -1,0 +1,134 @@
+{
+  "status": "COST_AUDIT_ONLY_NO_NEW_CPP",
+  "baseline": 210955,
+  "proof": "evidence/checkpoint32/screenshot-model-acceptance.json",
+  "regions": [
+    {
+      "rva": 11920,
+      "name": "?ResetAllSyncAttributes@CLocalPlayer@@QAEXXZ",
+      "size": 263,
+      "new_code": 263
+    },
+    {
+      "rva": 19536,
+      "name": "??0CLocalPlayer@@QAE@XZ",
+      "size": 223,
+      "new_code": 223
+    },
+    {
+      "rva": 81872,
+      "name": "??0CPlayerPool@@QAE@XZ",
+      "size": 154,
+      "new_code": 154
+    },
+    {
+      "rva": 920496,
+      "name": "sub_100E0BB0",
+      "size": 11,
+      "new_code": 11
+    },
+    {
+      "rva": 920507,
+      "name": "sub_100E0BBB",
+      "size": 11,
+      "new_code": 11
+    },
+    {
+      "rva": 920518,
+      "name": "sub_100E0BC6",
+      "size": 10,
+      "new_code": 10
+    },
+    {
+      "rva": 82208,
+      "name": "CPlayerPool::destructor",
+      "size": 130,
+      "new_code": 130
+    },
+    {
+      "rva": 82064,
+      "name": "CPlayerPool::sub_10014090",
+      "size": 141,
+      "new_code": 141
+    },
+    {
+      "rva": 79696,
+      "name": "sub_10013750",
+      "size": 79,
+      "new_code": 79
+    },
+    {
+      "rva": 81760,
+      "name": "sub_10013F60",
+      "size": 112,
+      "new_code": 112
+    },
+    {
+      "rva": 91744,
+      "name": "sub_10016660",
+      "size": 79,
+      "new_code": 79
+    },
+    {
+      "rva": 16832,
+      "name": "sub_100041C0",
+      "size": 98,
+      "new_code": 98
+    },
+    {
+      "rva": 15392,
+      "name": "sub_10003C20",
+      "size": 676,
+      "new_code": 676
+    },
+    {
+      "rva": 659136,
+      "name": "sub_100A0EC0",
+      "size": 21,
+      "new_code": 21
+    },
+    {
+      "rva": 655888,
+      "name": "sub_100A0210",
+      "size": 49,
+      "new_code": 49
+    }
+  ],
+  "ranking": [
+    {
+      "priority": 1,
+      "family": "CLocalPlayer constructor+reset",
+      "potential": 486,
+      "providers": [
+        "FindPlayerPed1010 accepted",
+        "GetTickCount IAT E5238"
+      ],
+      "layout": "Existing CLocalPlayer header packed1, final extent324h, original allocation14020 immediate324h. No vptr written in ctor; pool teardown1414C directly operator delete; borrowed CPlayerPed pointer104 is not deleted by localplayer."
+    },
+    {
+      "priority": 2,
+      "family": "Add CPlayerPool constructor+EH",
+      "potential_total": 672,
+      "providers": [
+        "operator new C627A",
+        "operator delete C648A (EH)",
+        "std::string destructor13F30 accepted",
+        "CLocalPlayer ctor4C50 from priority1"
+      ],
+      "layout": "Existing CPlayerPool packed layout: string6; localplayer pointer26; states2A; CNetPlayer pointers1F8A; terminal2F3A, total2F3E. No invented allocation or vtable. Source loop requires reviewed setter bounds (original has cmp ax,3EC/ja even index initially zero); base TODO highlights mismatch risk."
+    },
+    {
+      "priority": 3,
+      "family": "Pool destruction",
+      "status": "PARK_PENDING_SPAWN_TRUE_VIRTUAL_RPC_CLOSURE",
+      "chain": [
+        "14120 destructor\u219214090 Delete\u219241C0 ToggleSpectating\u21923C20 Spawn676",
+        "14090\u219213F60 CNetPlayer destructor112\u219216660 CRemotePlayer destructor79\u2192A0EC0/A0210",
+        "14090\u219213750 UpdateLargestID79"
+      ],
+      "reason": "Spawn676 includes live RakClient virtualslot64 and GTA code patch writes; full target providers/ownership not established by this bounded audit, so not declared <=3000 closed."
+    }
+  ],
+  "provenance025": "Both construction bodies already in base. 025 pool destructor/Delete semantic source exists but older storage model remoteplayer directly vs R5 CNetPlayer wrapper+std::string; not transferable unchanged. No additional025 credit for constructor proposal.",
+  "recommendation": "Compile existing local ctor/reset first; then bounded pool constructor adaptation after matching. No source proposal until parent authorizes cost selection."
+}

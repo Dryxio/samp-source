@@ -1,0 +1,132 @@
+{
+  "status": "SOURCE_PROPOSAL_NOT_ACCEPTED",
+  "baseline": 210955,
+  "functions": [
+    {
+      "name": "SetupCacheDirectories",
+      "rva": 801520,
+      "size": 258,
+      "potential_unique": 258
+    },
+    {
+      "name": "SetupDirectories",
+      "rva": 801904,
+      "size": 180,
+      "potential_unique": 180
+    },
+    {
+      "name": "IsFileOrDirectoryExists",
+      "rva": 744896,
+      "size": 26,
+      "potential_unique": 0
+    }
+  ],
+  "potential_unique": 438,
+  "literals": [
+    {
+      "rva": 973020,
+      "size": 8,
+      "value": "%s\\SAMP",
+      "hex": "25735c53414d5000"
+    },
+    {
+      "rva": 973008,
+      "size": 11,
+      "value": "%s\\screens",
+      "hex": "25735c73637265656e7300"
+    },
+    {
+      "rva": 972980,
+      "size": 9,
+      "value": "%s\\cache",
+      "hex": "25735c636163686500"
+    },
+    {
+      "rva": 972964,
+      "size": 14,
+      "value": "Software\\SAMP",
+      "hex": "536f6674776172655c53414d5000"
+    },
+    {
+      "rva": 972952,
+      "size": 12,
+      "value": "model_cache",
+      "hex": "6d6f64656c5f636163686500"
+    },
+    {
+      "rva": 941004,
+      "size": 9,
+      "value": "%s\\local",
+      "hex": "25735c6c6f63616c00"
+    }
+  ],
+  "imports": [
+    {
+      "iat_rva": 938352,
+      "identity": "KERNEL32.dll!GetCurrentDirectoryA"
+    },
+    {
+      "iat_rva": 938556,
+      "identity": "KERNEL32.dll!CreateDirectoryA"
+    },
+    {
+      "iat_rva": 937988,
+      "identity": "ADVAPI32.dll!RegOpenKeyExA"
+    },
+    {
+      "iat_rva": 937992,
+      "identity": "ADVAPI32.dll!RegQueryValueExA"
+    }
+  ],
+  "data": [
+    {
+      "symbol": "szSAMPDir",
+      "rva": 2550040,
+      "size": 261,
+      "status": "ACCEPTED_REAL_ZERO_FILL_STORAGE"
+    },
+    {
+      "symbol": "szCacheDir",
+      "rva": 2550304,
+      "size": 261,
+      "status": "REAL_ZERO_FILL_STORAGE_PROPOSED",
+      "owner": "client/saco/main.cpp:14",
+      "writer": "SetupCacheDirectories C3AF0"
+    },
+    {
+      "va": 13181800,
+      "role": "GTA native documents path buffer; external process data, strlen is inline; no invented storage"
+    }
+  ],
+  "calls": {
+    "SetupDirectories": [
+      "GetCurrentDirectoryA E5170(empty path branch)",
+      "sprintf C7353(dst=szSAMPDir, format ED8DC, native path C92368)",
+      "IsFileOrDirectoryExists B5DC0(szSAMPDir)",
+      "CreateDirectoryA E523C(szSAMPDir,NULL) conditional",
+      "sprintf C7353(dst=stack261, format ED8D0,szSAMPDir)",
+      "IsFileOrDirectoryExists B5DC0(stack261)",
+      "CreateDirectoryA E523C(stack261,NULL) conditional",
+      "SetupCacheDirectories C3AF0"
+    ],
+    "SetupCacheDirectories": [
+      "sprintf C7353(szCacheDir, ED8B4, szSAMPDir)",
+      "RegOpenKeyExA E5004(HKEY_CURRENT_USER, ED8A4,0,KEY_READ,&key)",
+      "RegQueryValueExA E5008(key,ED898,NULL,&type,path261,&size260)",
+      "strncpy C77F0(szCacheDir,path261,261) conditional",
+      "IsFileOrDirectoryExists B5DC0(szCacheDir)",
+      "CreateDirectoryA E523C(szCacheDir,NULL) conditional",
+      "sprintf C7353(stack261,E5BCC,szCacheDir)",
+      "IsFileOrDirectoryExists B5DC0(stack261)",
+      "CreateDirectoryA E523C(stack261,NULL) conditional"
+    ]
+  },
+  "eh_regions": [],
+  "provenance": "Unchanged function bodies from base client/saco/main.cpp:165 and :213; source025 additional credit zero.",
+  "limitations": [
+    "Not compiled or executed by subagent; root must validate complete COFF relocations and matching.",
+    "No RegCloseKey added: preserve original behavior.",
+    "Fixed native path pointer C92368 is data, not a provider stub.",
+    "IsFileOrDirectoryExists26 already accepted with pinned __stat CB765; no duplicate credit."
+  ]
+}

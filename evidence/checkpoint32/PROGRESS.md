@@ -1339,3 +1339,10 @@ Screenshot/model accepted: +1546 unique code bytes, total210955/930756 (22.66490
 ScoreBoard209 constants checked including0.5, providersactual. Collision getter C++trials1 were33bytes short; trial2 gotfullsizes74/93 but EDX vsECX pointer transfer differed. Three named symbolic MOVs isolate that compiler-allocation difference; remainingC++ unchanged. RenderAtomic C++41 vs59 requires actual frame/local/cdeclcallback bridge, explicitlysymbolic59; fullactualgetter/callbackslot48 ABI reviewed, no fakevtable/rawbytes/nops. Otherfour utilityfunctions remainC++. Whole2626regions, allrelocations, tennegativecontrols and actorABI pass; old8pendingunchanged.
 
 Run cp32-screenshot-model-linked1, Ob1cp32-screenshot-model-ob1, Ob2cp32-player-lifetime-ob2. Measured 37814 unique new bytes at 7857.0 bytes/hour includingcoordination/trials. Nexttrue SetupDirectories and nativefactory81, then otherproviders; fullpreviewnotclaimed. Goalactive,no push/deployment.
+
+
+Directory/pool accepted: +1110 unique code bytes, total212065/930756 (22.784167%). Actual SetupDirectories/SetupCacheDirectories438 now close the SAMP/cache bufferwriters; sourcebase preserves registryhandle behavior,261-byte realbuffers and sixfullstrings. No filesystem/registry functions executed. Missing game/util.h declaration fixed after preservedfailedtrial. LocalPlayer ctor223/reset263 and PlayerPool ctor154 first C++trial exact, plus fullEH32/map44; allocator324h and existingwholeheaders324h/2F3Eh asserted. No destructor closure fabricated.
+
+All2644regions, actualproviders, everyCOFF/PErelocation, tenstandardnegativecontrols and actorABI pass. Direct025 new0, cumulative18372. Sourcefunctions alreadycompletebase, newlyclosed dependencies are the demonstrated accelerator.
+
+Run cp32-directory-pool-linked1, Ob1cp32-directory-pool-ob1, Ob2cp32-player-lifetime-ob2. Measured 38924 unique newbytes at 7568.3 bytes/hour includingcoordination/trials. Next actualType1 custompedchain823 and modelinstancefactory81 candidates; destruction/spectating/spawn remainexcluded. Goalactive,no push/deployment.

@@ -1,0 +1,144 @@
+{
+  "status": "PROPOSAL_NOT_COMPILED_NOT_ACCEPTED",
+  "baseline_proof": "evidence/checkpoint32/screenshot-model-acceptance.json",
+  "potential_new_code_bytes": 672,
+  "source025_new_bytes": 0,
+  "units": [
+    {
+      "path": "build/agent-independent/eval_local_player_construction.cpp",
+      "sha256": "cb29a9f153c4d2fee982d1a906748453f09f52ce687dbd17932e295aa7e6e1e1"
+    },
+    {
+      "path": "build/agent-independent/eval_player_pool_construction.cpp",
+      "sha256": "4fe08bd8c148ab2ebd9adfbddec666cbb2a1f69c020bc5b41383cdd9938d8535"
+    }
+  ],
+  "regions": [
+    {
+      "identity": "CLocalPlayer::CLocalPlayer",
+      "rva": 19536,
+      "size": 223,
+      "providers": [
+        {
+          "identity": "KERNEL32!GetTickCount",
+          "iat_rva": 938552
+        },
+        {
+          "identity": "CGame::FindPlayerPed",
+          "rva": 4112
+        },
+        {
+          "identity": "CLocalPlayer::ResetAllSyncAttributes",
+          "rva": 11920
+        }
+      ],
+      "original_sha256": "a012b451caabaddfd9af05327d34eb06ab4594e482b3abd4f02b146a7bb08bd2"
+    },
+    {
+      "identity": "CLocalPlayer::ResetAllSyncAttributes",
+      "rva": 11920,
+      "size": 263,
+      "providers": [
+        {
+          "identity": "KERNEL32!GetTickCount",
+          "iat_rva": 938552
+        }
+      ],
+      "original_sha256": "5b2a08b761f4d06fd6506cad832cdea8c5d004845ca9e357eeed8fb24198d97e"
+    },
+    {
+      "identity": "CPlayerPool::CPlayerPool",
+      "rva": 81872,
+      "size": 154,
+      "providers": [
+        {
+          "identity": "operator new",
+          "rva": 811642
+        },
+        {
+          "identity": "CLocalPlayer::CLocalPlayer",
+          "rva": 19536
+        }
+      ],
+      "original_sha256": "810cfb1331cbf01f76c92a690b622ce54a0b569e322c39854fdfc35a9adfad99"
+    },
+    {
+      "identity": "pool ctor EH string cleanup",
+      "rva": 920496,
+      "size": 11,
+      "providers": [
+        {
+          "identity": "std::string::~basic_string",
+          "rva": 81712
+        }
+      ],
+      "original_sha256": "54d7f486610a4942738754aae8583ccb8f3c472dfa5565d291d6d7a91d1ca0a5"
+    },
+    {
+      "identity": "pool ctor EH allocation cleanup",
+      "rva": 920507,
+      "size": 11,
+      "providers": [
+        {
+          "identity": "operator delete",
+          "rva": 812170
+        }
+      ],
+      "original_sha256": "0b60f44db24129d757bfce8695599109b52f69ab7115a9025be322ff1d3a6fd4"
+    },
+    {
+      "identity": "pool ctor EH handler",
+      "rva": 920518,
+      "size": 10,
+      "providers": [
+        {
+          "identity": "__CxxFrameHandler",
+          "rva": 812326
+        }
+      ],
+      "original_sha256": "d1918716a761068233c57ae8e204d4b5a21ea5c6596cb84ce2d2fe9a00d84478"
+    }
+  ],
+  "data": [
+    {
+      "identity": "pGame",
+      "rva": 2550700,
+      "size": 4,
+      "status": "accepted store"
+    },
+    {
+      "identity": "pool ctor UnwindMap",
+      "rva": 1017148,
+      "size": 16,
+      "original_sha256": "efc3516ac71968be9d57748e336b627325a29d5cd1fdf5ec0e9fae1fe44d3b0b"
+    },
+    {
+      "identity": "pool ctor FuncInfo",
+      "rva": 1017164,
+      "size": 28,
+      "original_sha256": "9349c4fb6a3f331079d3ceabb8a3bcd2a588c39ff933b9742fb11f56ec9cccb3"
+    }
+  ],
+  "layout_assertions": [
+    "sizeof(CLocalPlayer)==0x324",
+    "sizeof(CPlayerPool)==0x2F3E"
+  ],
+  "ownership": [
+    "Use actual existing headers, not a partial view; native pool ctor allocates0x324 for CLocalPlayer.",
+    "No vtable constructor or assignment in these classes.",
+    "CLocalPlayer borrowed CPlayerPed pointer104; no new deletion implementation.",
+    "Pool allocates its localplayer; string member6 invokes real standard construction/unwind."
+  ],
+  "adaptations": [
+    "Local ctor/reset transferred from complete base.",
+    "Pool base loop explicitly qualifies playerId<=MAX_PLAYERS before players assignment, reproducing checked setter shape; normalC++ trial needed, not claimed exact.",
+    "No destructor chain included.",
+    "No literals or new global storage needed."
+  ],
+  "provenance_paths": [
+    "client/saco/net/localplayer.cpp",
+    "client/saco/net/localplayer.h",
+    "client/saco/net/playerpool.cpp",
+    "client/saco/net/playerpool.h"
+  ]
+}
