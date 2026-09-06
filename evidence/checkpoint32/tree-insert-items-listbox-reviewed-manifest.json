@@ -1,0 +1,110 @@
+{
+  "status": "REVIEWED_SCOPED_FUNCTION_PREFLIGHT_NOT_ACCEPTANCE",
+  "regions": [
+    {
+      "unit": "closure_gui_listbox_items",
+      "section": 62,
+      "anchor": "?AddItem@R5ListBoxItemOwnerView@@QAEJPBDPAXK@Z",
+      "rva": 567280,
+      "size": 254,
+      "kind": ".text",
+      "sha256": "f48389e5a2220b8b2c01f499ff0eb07dfc23dca4cd812d58426ec99adebbb10d",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "??2@YAPAXI@Z",
+          "site_rva": 567294,
+          "symbol_va": 269247098,
+          "addend": 0,
+          "target_va": 269247098,
+          "kind": 20
+        },
+        {
+          "symbol": "__imp__SetRect@20",
+          "site_rva": 567394,
+          "symbol_va": 269374208,
+          "addend": 0,
+          "target_va": 269374208,
+          "kind": 6
+        },
+        {
+          "symbol": "?Add@?$CGrowableArray@PAUDXUTListBoxItem@@@@QAEJABQAUDXUTListBoxItem@@@Z",
+          "site_rva": 567476,
+          "symbol_va": 268999504,
+          "addend": 0,
+          "target_va": 268999504,
+          "kind": 20
+        },
+        {
+          "symbol": "??3@YAXPAX@Z",
+          "site_rva": 567488,
+          "symbol_va": 269247626,
+          "addend": 0,
+          "target_va": 269247626,
+          "kind": 20
+        },
+        {
+          "symbol": "?SetTrackRange@CDXUTScrollBar@@QAEXHH@Z",
+          "site_rva": 567519,
+          "symbol_va": 268995664,
+          "addend": 0,
+          "target_va": 268995664,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "closure_gui_listbox_items",
+      "section": 64,
+      "anchor": "?SetColumnText@R5ListBoxItemOwnerView@@QAEXHHPBD@Z",
+      "rva": 560640,
+      "size": 106,
+      "kind": ".text",
+      "sha256": "fab71b9ab180e2ff87879c8f90c5d8e6857d115312731a9e5470b057554d8bfd",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "_strncpy",
+          "site_rva": 560733,
+          "symbol_va": 269252592,
+          "addend": 0,
+          "target_va": 269252592,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "closure_gui_listbox_items",
+      "section": 60,
+      "anchor": "?Add@?$CGrowableArray@PAUDXUTListBoxItem@@@@QAEJABQAUDXUTListBoxItem@@@Z",
+      "rva": 564048,
+      "size": 40,
+      "kind": ".text",
+      "sha256": "48d780250ccd4b150e083e231aebbe6a8465d05e2bad9324c0b2dfc2db863677",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "?SetSizeInternal@?$CGrowableArray@PAUDXUTListBoxItem@@@@IAEJH@Z",
+          "site_rva": 564057,
+          "symbol_va": 268987488,
+          "addend": 0,
+          "target_va": 268987488,
+          "kind": 20
+        }
+      ]
+    }
+  ],
+  "new_unique_code": 400,
+  "new_data": [],
+  "EH": 0,
+  "extra_helpers_credit": 0,
+  "direct025_credit": 0,
+  "object_sha256": "b53036bba322c8ac77f44fd292722aa9e564bce6b5af05d95731b379ece5c1b9",
+  "seeds": {
+    "closure_gui_listbox_items": {
+      "?AddItem@R5ListBoxItemOwnerView@@QAEJPBDPAXK@Z": 567280,
+      "?SetColumnText@R5ListBoxItemOwnerView@@QAEXHHPBD@Z": 560640,
+      "?Add@?$CGrowableArray@PAUDXUTListBoxItem@@@@QAEJABQAUDXUTListBoxItem@@@Z": 564048
+    }
+  }
+}

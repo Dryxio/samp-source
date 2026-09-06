@@ -1411,3 +1411,8 @@ Direct0250/cumulative21126; measured 81132 unique bytes at 10342.6 bytes/hour in
 Tree/scoreboard accepted: +2834 unique bytes, total 257107/930756 (27.623459%). BPlusTree removal/RangeList serialization2393 (EH42) +Scoreboard441 (EH21), complete unwind maps and RPC23 scalar4. Actual Serialize/Deserialize/RemoveResend callers, no duplicate666-byte credit. Insert505/SendAck22 excluded. Normal scoreboard snapshot of ListBox pointer restores Click282; no unknown owner allocated. Whole TU Ob2 for Hide, other objects unchanged. All 3190 linked regions, full COFF/PE targets, ten controls and actor ABI pass.
 
 Direct0250/cumulative21126. Measured 83966 unique bytes at 10476.0 bytes/hour including coordination. Next full item400 and datagram static3718 pending callbacks. Goal active, no push/deploy/game/live network.
+
+
+Tree insertion/items accepted: +2524 unique bytes, total 259631/930756 (27.894636%). Static insertion/queue2124 plus full ListBox item400. Real29E allocation and all fields identified/asserted, exact zero64/128 and textcapacity256 preserved; outer ListBox not allocated. Normal source actual pointer-reference identity and reload after memset, no invented padding. Whole functions/all COFF/PE targets, all 3204 linked regions, ten controls and actor ABI pass.
+
+Direct0250/cumulative21126, measured 86490 unique bytes at 10494.1 bytes/hour coordination included. Datagram remains unmatched and callbacks open; Update892 parked while queries432 match. Next logger base/file and playerqueries. Goal active; no push/game/live network.

@@ -1,0 +1,87 @@
+{
+  "status": "DATAGRAM_CPP_DISCOVERY_ONLY_VIRTUAL_CLOSURE_NOT_ACCEPTED",
+  "source": "build/agent-independent/eval_vendor_reliability_datagram.cpp",
+  "sha256": "6362473fa40a83e269c5e17a02d779ee087195921617a9e897de6875f5fef837",
+  "root": {
+    "rva": 295024,
+    "size": 1594
+  },
+  "baseline": 254273,
+  "pending_ack_deducted": 2393,
+  "raw_unique_potential": 3718,
+  "dependency_roots": {
+    "?Insert@?$BPlusTree@GPAUInternalPacket@@$0CA@@DataStructures@@QAE_NGABQAUInternalPacket@@@Z": 294640,
+    "?PushAtHead@?$Queue@PAUInternalPacket@@@DataStructures@@QAEXABQAUInternalPacket@@I@Z": 278736
+  },
+  "dependencies": [
+    {
+      "symbol": "?PushAtHead@?$Queue@PAUInternalPacket@@@DataStructures@@QAEXABQAUInternalPacket@@I@Z",
+      "rva": 278736,
+      "size": 221
+    },
+    {
+      "symbol": "?Insert@?$BPlusTree@GPAUInternalPacket@@$0CA@@DataStructures@@QAE_NGABQAUInternalPacket@@@Z",
+      "rva": 294640,
+      "size": 236
+    },
+    {
+      "symbol": "?InsertBranchDown@?$BPlusTree@GPAUInternalPacket@@$0CA@@DataStructures@@IAEPAU?$Page@GPAUInternalPacket@@$0CA@@2@GABQAUInternalPacket@@PAU32@PAUReturnAction@12@PA_N@Z",
+      "rva": 291712,
+      "size": 627
+    },
+    {
+      "symbol": "?RotateRight@?$BPlusTree@GPAUInternalPacket@@$0CA@@DataStructures@@IAEXPAU?$Page@GPAUInternalPacket@@$0CA@@2@HPAUReturnAction@12@@Z",
+      "rva": 282432,
+      "size": 153
+    },
+    {
+      "symbol": "?CanRotateRight@?$BPlusTree@GPAUInternalPacket@@$0CA@@DataStructures@@IAE_NPAU?$Page@GPAUInternalPacket@@$0CA@@2@H@Z",
+      "rva": 282384,
+      "size": 39
+    },
+    {
+      "symbol": "?InsertIntoNode@?$BPlusTree@GPAUInternalPacket@@$0CA@@DataStructures@@IAEPAU?$Page@GPAUInternalPacket@@$0CA@@2@GABQAUInternalPacket@@HPAU32@1PAUReturnAction@12@@Z",
+      "rva": 287792,
+      "size": 1008
+    },
+    {
+      "symbol": "?GetIndexOf@?$BPlusTree@GPAUInternalPacket@@$0CA@@DataStructures@@IBE_NGPAU?$Page@GPAUInternalPacket@@$0CA@@2@PAH@Z",
+      "rva": 281504,
+      "size": 101
+    },
+    {
+      "symbol": "?Allocate@?$MemoryPool@U?$Page@GPAUInternalPacket@@$0CA@@DataStructures@@@DataStructures@@QAEPAU?$Page@GPAUInternalPacket@@$0CA@@2@XZ",
+      "rva": 286976,
+      "size": 32
+    },
+    {
+      "symbol": "?RotateLeft@?$BPlusTree@GPAUInternalPacket@@$0CA@@DataStructures@@IAEXPAU?$Page@GPAUInternalPacket@@$0CA@@2@HPAUReturnAction@12@@Z",
+      "rva": 282592,
+      "size": 148
+    },
+    {
+      "symbol": "?CanRotateLeft@?$BPlusTree@GPAUInternalPacket@@$0CA@@DataStructures@@IAE_NPAU?$Page@GPAUInternalPacket@@$0CA@@2@H@Z",
+      "rva": 282336,
+      "size": 38
+    }
+  ],
+  "externals": {
+    "??2@YAPAXI@Z": 269247098,
+    "??3@YAXPAX@Z": 269247626
+  },
+  "adaptation": "Explicit nonnull guard at each of three data buffer delete[] operations. Original sites: deletes48196/4846D/4862A; R5 has three separate guarded cleanup blocks, vendor compiles common unchecked tail. No timeout behavior removed or changed.",
+  "open_virtual_callbacks": [
+    {
+      "site_rva": 295546,
+      "vtable_slot": 36,
+      "method": "PluginInterface::OnInternalPacket"
+    },
+    {
+      "site_rva": 296254,
+      "vtable_slot": 36,
+      "method": "PluginInterface::OnInternalPacket"
+    }
+  ],
+  "scope": "Same real ReliabilityLayer member prototype/header and allocation-free body. Static dependencies candidate exact previously; full byte and provider audit after new probe. Dynamic plugin owner audit remains open; neither arbitrary virtual target nor whole caller credited.",
+  "source025_direct_bytes": 0
+}
