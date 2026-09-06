@@ -1,0 +1,283 @@
+{
+  "status": "REVIEWED_SCOPED_FUNCTION_PREFLIGHT_NOT_ACCEPTANCE",
+  "regions": [
+    {
+      "unit": "closure_spatial_label_renderer",
+      "anchor": "??0R5SpatialLabelRenderer@@QAE@PAUIDirect3DDevice9@@@Z",
+      "section": 52,
+      "rva": 441264,
+      "size": 25,
+      "kind": ".text",
+      "sha256": "763df9cf25c4ad559f598978f9fc01ada26088151eb4a52befafc819fddcf40f",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "_D3DXCreateSprite@8",
+          "site_rva": 441279,
+          "symbol_va": 269245556,
+          "addend": 0,
+          "target_va": 269245556,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "closure_spatial_label_renderer",
+      "anchor": "??1R5SpatialLabelRenderer@@QAE@XZ",
+      "section": 54,
+      "rva": 441296,
+      "size": 28,
+      "kind": ".text",
+      "sha256": "c426c45b951a80bc10a168c3ea54b21a7e5daea54c3c09d63db59df64ffb8ee9",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "??3@YAXPAX@Z",
+          "site_rva": 441308,
+          "symbol_va": 269247626,
+          "addend": 0,
+          "target_va": 269247626,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "closure_spatial_label_renderer",
+      "anchor": "?OnLostDevice@R5SpatialLabelRenderer@@QAEXXZ",
+      "section": 56,
+      "rva": 441328,
+      "size": 14,
+      "kind": ".text",
+      "sha256": "2da4a6267996137f77109214e35dd2ca95ddcbae7cad2aaecab81bb146d0bfdc",
+      "whole_bytes_equal": true,
+      "bindings": []
+    },
+    {
+      "unit": "closure_spatial_label_renderer",
+      "anchor": "?OnResetDevice@R5SpatialLabelRenderer@@QAEXXZ",
+      "section": 58,
+      "rva": 441344,
+      "size": 14,
+      "kind": ".text",
+      "sha256": "fcb917826e47477421e9d8550f72c7d877ad8d10240760732296bde7c14631ca",
+      "whole_bytes_equal": true,
+      "bindings": []
+    },
+    {
+      "unit": "closure_spatial_label_renderer",
+      "anchor": "?IsLineOfSightClear@R5SpatialLabelRenderer@@QAEHMMM@Z",
+      "section": 60,
+      "rva": 441360,
+      "size": 96,
+      "kind": ".text",
+      "sha256": "5d6ce610ff6acf2ee50213d78263a98c4f0e5c3502b66cd0254be8a6ca19be48",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "?GameGetInternalAim@@YGPAU_CAMERA_AIM@@XZ",
+          "site_rva": 441361,
+          "symbol_va": 269076864,
+          "addend": 0,
+          "target_va": 269076864,
+          "kind": 20
+        },
+        {
+          "symbol": "?r5LabelLineOfSight@@3USCRIPT_COMMAND@@B",
+          "site_rva": 441427,
+          "symbol_va": 269395480,
+          "addend": 0,
+          "target_va": 269395480,
+          "kind": 6
+        },
+        {
+          "symbol": "?ScriptCommand@@YAHPBUSCRIPT_COMMAND@@ZZ",
+          "site_rva": 441432,
+          "symbol_va": 269165328,
+          "addend": 0,
+          "target_va": 269165328,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "closure_spatial_label_renderer",
+      "anchor": "?Begin@R5SpatialLabelRenderer@@QAEXXZ",
+      "section": 62,
+      "rva": 441456,
+      "size": 16,
+      "kind": ".text",
+      "sha256": "a7803934ba88042719f747b176419512ef2be4fdb4646a3b087e4c8b912aa6aa",
+      "whole_bytes_equal": true,
+      "bindings": []
+    },
+    {
+      "unit": "closure_spatial_label_renderer",
+      "anchor": "?End@R5SpatialLabelRenderer@@QAEXXZ",
+      "section": 64,
+      "rva": 441472,
+      "size": 14,
+      "kind": ".text",
+      "sha256": "2524ed9b9b117228095dc688fc6e113da331e8f0022e608c2c409703448c7bc3",
+      "whole_bytes_equal": true,
+      "bindings": []
+    },
+    {
+      "unit": "closure_spatial_label_renderer",
+      "anchor": "?Draw@R5SpatialLabelRenderer@@QAEXPAUD3DXVECTOR3@@PADKH_N@Z",
+      "section": 66,
+      "rva": 441488,
+      "size": 351,
+      "kind": ".text",
+      "sha256": "4627409b9f6b8d2c27af4737d25e82c6ba13c68e06cee880008584ad9fe5d387",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "?IsLineOfSightClear@R5SpatialLabelRenderer@@QAEHMMM@Z",
+          "site_rva": 441534,
+          "symbol_va": 268876816,
+          "addend": 0,
+          "target_va": 268876816,
+          "kind": 20
+        },
+        {
+          "symbol": "?matView@@3UD3DXMATRIX@@A",
+          "site_rva": 441568,
+          "symbol_va": 269749616,
+          "addend": 0,
+          "target_va": 269749616,
+          "kind": 6
+        },
+        {
+          "symbol": "?matProj@@3UD3DXMATRIX@@A",
+          "site_rva": 441573,
+          "symbol_va": 269749680,
+          "addend": 0,
+          "target_va": 269749680,
+          "kind": 6
+        },
+        {
+          "symbol": "_D3DXVec3Project@24",
+          "site_rva": 441723,
+          "symbol_va": 269245568,
+          "addend": 0,
+          "target_va": 269245568,
+          "kind": 20
+        },
+        {
+          "symbol": "__real@3f800000",
+          "site_rva": 441733,
+          "symbol_va": 269376300,
+          "addend": 0,
+          "target_va": 269376300,
+          "kind": 6
+        },
+        {
+          "symbol": "__ftol2",
+          "site_rva": 441749,
+          "symbol_va": 269251652,
+          "addend": 0,
+          "target_va": 269251652,
+          "kind": 20
+        },
+        {
+          "symbol": "__ftol2",
+          "site_rva": 441760,
+          "symbol_va": 269251652,
+          "addend": 0,
+          "target_va": 269251652,
+          "kind": 20
+        },
+        {
+          "symbol": "?pDefaultFont@@3PAVCFontRender@@A",
+          "site_rva": 441818,
+          "symbol_va": 270986140,
+          "addend": 0,
+          "target_va": 270986140,
+          "kind": 6
+        },
+        {
+          "symbol": "?RenderText@CFontRender@@QAEXPAUID3DXSprite@@PADUtagRECT@@KKH@Z",
+          "site_rva": 441826,
+          "symbol_va": 268874976,
+          "addend": 0,
+          "target_va": 268874976,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "closure_label_internal_aim",
+      "anchor": "?GameGetInternalAim@@YGPAU_CAMERA_AIM@@XZ",
+      "section": 46,
+      "rva": 641408,
+      "size": 6,
+      "kind": ".text",
+      "sha256": "b6124ec7eab68a79a909cdef96813a3898759deb3de42b4467ac9911417032c2",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "?pcaInternalAim@@3PAU_CAMERA_AIM@@A",
+          "site_rva": 641409,
+          "symbol_va": 269498824,
+          "addend": 0,
+          "target_va": 269498824,
+          "kind": 6
+        }
+      ]
+    },
+    {
+      "unit": "closure_store_label_line_of_sight",
+      "anchor": "?r5LabelLineOfSight@@3USCRIPT_COMMAND@@B",
+      "section": 3,
+      "rva": 960024,
+      "size": 18,
+      "kind": ".rdata",
+      "sha256": "ccd24ce561a9478a23cb1e73daddc46d5cdd8d6fad68076d568da169e2cc56a2",
+      "whole_bytes_equal": true,
+      "bindings": []
+    },
+    {
+      "unit": "closure_spatial_label_renderer",
+      "anchor": "__real@3f800000",
+      "section": 67,
+      "rva": 940844,
+      "size": 4,
+      "kind": ".rdata",
+      "sha256": "e00e5eb9444182f352323374ef4e08ebcb784725fdd4fd612d7730540b3e0c8c",
+      "whole_bytes_equal": true,
+      "bindings": []
+    }
+  ],
+  "code_bytes": 564,
+  "new_data_maximum": 18,
+  "existing_float_reused": 4,
+  "existing_pcaInternalAim_owner": "closure_store_internal_aim",
+  "EH": 0,
+  "direct025_code_credit": 0,
+  "missing025_descriptor_data": 18,
+  "excluded_helpers": [
+    "D3DXVECTOR3 constructor3",
+    "D3DXMATRIX constructor3",
+    "D3DXMatrixIdentity59"
+  ],
+  "objects": {
+    "closure_spatial_label_renderer": "2327fe0eb41f11c013c3754958af1bfd505384bc3d4a4e7743a983fae74485df",
+    "closure_label_internal_aim": "463f3ccacf259a4d046b28e8045b5394db96c062f6af823867c1924d19d7d484",
+    "closure_store_label_line_of_sight": "dec4fe7d83424a06258346be14addd71c3e26cac8af4d6355343bd82ef931913"
+  },
+  "seeds": {
+    "closure_spatial_label_renderer": {
+      "??0R5SpatialLabelRenderer@@QAE@PAUIDirect3DDevice9@@@Z": 441264,
+      "??1R5SpatialLabelRenderer@@QAE@XZ": 441296,
+      "?OnLostDevice@R5SpatialLabelRenderer@@QAEXXZ": 441328,
+      "?OnResetDevice@R5SpatialLabelRenderer@@QAEXXZ": 441344,
+      "?IsLineOfSightClear@R5SpatialLabelRenderer@@QAEHMMM@Z": 441360,
+      "?Begin@R5SpatialLabelRenderer@@QAEXXZ": 441456,
+      "?End@R5SpatialLabelRenderer@@QAEXXZ": 441472,
+      "?Draw@R5SpatialLabelRenderer@@QAEXPAUD3DXVECTOR3@@PADKH_N@Z": 441488
+    },
+    "closure_label_internal_aim": {
+      "?GameGetInternalAim@@YGPAU_CAMERA_AIM@@XZ": 641408
+    }
+  }
+}

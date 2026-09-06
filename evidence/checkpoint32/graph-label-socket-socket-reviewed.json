@@ -1,0 +1,219 @@
+{
+  "status": "WHOLE_SECTION_PREFLIGHT_ALL_IMPORT_BINDINGS_VERIFIED",
+  "run": "cp32-socket-leaves-trial1",
+  "seeds": {
+    "closure_vendor_socket_leaves": {
+      "?Connect@SocketLayer@@QAEIIIG@Z": 342128,
+      "?CreateBoundSocket@SocketLayer@@QAEIG_NPBD@Z": 342192,
+      "?DomainNameToIP@SocketLayer@@QAEPBDPBD@Z": 342464,
+      "?GetLocalPort@SocketLayer@@QAEGI@Z": 343024
+    }
+  },
+  "regions": [
+    {
+      "unit": "closure_vendor_socket_leaves",
+      "anchor": "?Connect@SocketLayer@@QAEIIIG@Z",
+      "section": 3,
+      "rva": 342128,
+      "size": 62,
+      "kind": ".text",
+      "sha256": "a66f50db56a63fc66441378be803b339ab5235b29032cbd65ce7070cfc335ad6",
+      "bindings": [
+        {
+          "symbol": "__imp__htons@4",
+          "site_rva": 342146,
+          "kind": 6,
+          "target_va": 269374540
+        },
+        {
+          "symbol": "__imp__connect@12",
+          "site_rva": 342177,
+          "kind": 6,
+          "target_va": 269374548
+        }
+      ],
+      "whole_bytes_equal": true
+    },
+    {
+      "unit": "closure_vendor_socket_leaves",
+      "anchor": "?CreateBoundSocket@SocketLayer@@QAEIG_NPBD@Z",
+      "section": 5,
+      "rva": 342192,
+      "size": 263,
+      "kind": ".text",
+      "sha256": "fb4ac775d0ca6a886a455aa2c305a1a3418675bd25dd03adbcc7d048190bc8b0",
+      "bindings": [
+        {
+          "symbol": "__imp__socket@12",
+          "site_rva": 342204,
+          "kind": 6,
+          "target_va": 269374544
+        },
+        {
+          "symbol": "__imp__setsockopt@20",
+          "site_rva": 342227,
+          "kind": 6,
+          "target_va": 269374516
+        },
+        {
+          "symbol": "__imp__ioctlsocket@12",
+          "site_rva": 342333,
+          "kind": 6,
+          "target_va": 269374520
+        },
+        {
+          "symbol": "__imp__htons@4",
+          "site_rva": 342376,
+          "kind": 6,
+          "target_va": 269374540
+        },
+        {
+          "symbol": "__imp__inet_addr@4",
+          "site_rva": 342408,
+          "kind": 6,
+          "target_va": 269374528
+        },
+        {
+          "symbol": "__imp__bind@12",
+          "site_rva": 342436,
+          "kind": 6,
+          "target_va": 269374524
+        }
+      ],
+      "whole_bytes_equal": true
+    },
+    {
+      "unit": "closure_vendor_socket_leaves",
+      "anchor": "?DomainNameToIP@SocketLayer@@QAEPBDPBD@Z",
+      "section": 7,
+      "rva": 342464,
+      "size": 41,
+      "kind": ".text",
+      "sha256": "3908d4368e69a637fc21776f8b8fb0cfdc5db028f2d962e94b5ab813436c6f4e",
+      "bindings": [
+        {
+          "symbol": "__imp__gethostbyname@4",
+          "site_rva": 342471,
+          "kind": 6,
+          "target_va": 269374536
+        },
+        {
+          "symbol": "__imp__inet_ntoa@4",
+          "site_rva": 342496,
+          "kind": 6,
+          "target_va": 269374532
+        }
+      ],
+      "whole_bytes_equal": true
+    },
+    {
+      "unit": "closure_vendor_socket_leaves",
+      "anchor": "?GetLocalPort@SocketLayer@@QAEGI@Z",
+      "section": 11,
+      "rva": 343024,
+      "size": 61,
+      "kind": ".text",
+      "sha256": "3ff863d0334a45b390dce1a7d8b3fcf5973b1f7389960e8c3bbfc1a592a7453d",
+      "bindings": [
+        {
+          "symbol": "__imp__getsockname@12",
+          "site_rva": 343051,
+          "kind": 6,
+          "target_va": 269374492
+        },
+        {
+          "symbol": "__imp__ntohs@4",
+          "site_rva": 343075,
+          "kind": 6,
+          "target_va": 269374512
+        }
+      ],
+      "whole_bytes_equal": true
+    }
+  ],
+  "imports": {
+    "__imp__htons@4": {
+      "reference_va": 269374540,
+      "import": [
+        "wsock32.dll",
+        "#9"
+      ]
+    },
+    "__imp__connect@12": {
+      "reference_va": 269374548,
+      "import": [
+        "wsock32.dll",
+        "#4"
+      ]
+    },
+    "__imp__socket@12": {
+      "reference_va": 269374544,
+      "import": [
+        "wsock32.dll",
+        "#23"
+      ]
+    },
+    "__imp__setsockopt@20": {
+      "reference_va": 269374516,
+      "import": [
+        "wsock32.dll",
+        "#21"
+      ]
+    },
+    "__imp__ioctlsocket@12": {
+      "reference_va": 269374520,
+      "import": [
+        "wsock32.dll",
+        "#12"
+      ]
+    },
+    "__imp__inet_addr@4": {
+      "reference_va": 269374528,
+      "import": [
+        "wsock32.dll",
+        "#10"
+      ]
+    },
+    "__imp__bind@12": {
+      "reference_va": 269374524,
+      "import": [
+        "wsock32.dll",
+        "#2"
+      ]
+    },
+    "__imp__gethostbyname@4": {
+      "reference_va": 269374536,
+      "import": [
+        "wsock32.dll",
+        "#52"
+      ]
+    },
+    "__imp__inet_ntoa@4": {
+      "reference_va": 269374532,
+      "import": [
+        "wsock32.dll",
+        "#11"
+      ]
+    },
+    "__imp__getsockname@12": {
+      "reference_va": 269374492,
+      "import": [
+        "wsock32.dll",
+        "#6"
+      ]
+    },
+    "__imp__ntohs@4": {
+      "reference_va": 269374512,
+      "import": [
+        "wsock32.dll",
+        "#15"
+      ]
+    }
+  },
+  "code_bytes": 427,
+  "direct025_credit": 0,
+  "EH": 0,
+  "data_bytes": 0,
+  "source": "Unchanged normal vendor SocketLayer function bodies with true native sockaddr_in sizes; no SocketLayer allocation/state or socket execution.",
+  "excluded": "SendTo vendor118 differs from R5 body with additional packet transformation and global buffer; no shorter-prefix matching or credit. Other unselected methods absent."
+}

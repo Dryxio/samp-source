@@ -1,0 +1,671 @@
+{
+  "status": "SOURCE_EXTRACTION_NO_COMPILE_NO_ACCEPTANCE",
+  "baseline": 259631,
+  "pending_logger_queries": "1192+432 disjoint; preflight will deduct latest acceptance again",
+  "roots": {
+    "?GetSpanningTree@?$WeightedGraph@UPlayerIdAndGroupId@ConnectionGraph@@G$0A@@DataStructures@@QAE_NAAV?$Tree@UPlayerIdAndGroupId@ConnectionGraph@@@2@PAV?$List@UPlayerIdAndGroupId@ConnectionGraph@@@2@UPlayerIdAndGroupId@ConnectionGraph@@G@Z": 331408
+  },
+  "functions": [
+    {
+      "symbol": "?GetSpanningTree@?$WeightedGraph@UPlayerIdAndGroupId@ConnectionGraph@@G$0A@@DataStructures@@QAE_NAAV?$Tree@UPlayerIdAndGroupId@ConnectionGraph@@@2@PAV?$List@UPlayerIdAndGroupId@ConnectionGraph@@@2@UPlayerIdAndGroupId@ConnectionGraph@@G@Z",
+      "rva": 331408,
+      "size": 1059
+    },
+    {
+      "symbol": "??9PlayerIdAndGroupId@ConnectionGraph@@QBE_NABU01@@Z",
+      "rva": 133840,
+      "size": 5
+    },
+    {
+      "symbol": "?Insert@?$List@PAV?$Tree@UPlayerIdAndGroupId@ConnectionGraph@@@DataStructures@@@DataStructures@@QAEXQAV?$Tree@UPlayerIdAndGroupId@ConnectionGraph@@@2@@Z",
+      "rva": 322608,
+      "size": 105
+    },
+    {
+      "symbol": "?Push@?$Queue@UNodeAndParent@?$WeightedGraph@UPlayerIdAndGroupId@ConnectionGraph@@G$0A@@DataStructures@@@DataStructures@@QAEXABUNodeAndParent@?$WeightedGraph@UPlayerIdAndGroupId@ConnectionGraph@@G$0A@@2@@Z",
+      "rva": 322224,
+      "size": 214
+    },
+    {
+      "symbol": "?GetKeyAtIndex@?$Map@UPlayerIdAndGroupId@ConnectionGraph@@G$1??$defaultMapKeyComparison@UPlayerIdAndGroupId@ConnectionGraph@@@DataStructures@@YAHABU12@0@Z@DataStructures@@QBE?AUPlayerIdAndGroupId@ConnectionGraph@@I@Z",
+      "rva": 141904,
+      "size": 41
+    },
+    {
+      "symbol": "??A?$OrderedList@UPlayerIdAndGroupId@ConnectionGraph@@UMapNode@?$Map@UPlayerIdAndGroupId@ConnectionGraph@@G$1??$defaultMapKeyComparison@UPlayerIdAndGroupId@ConnectionGraph@@@DataStructures@@YAHABU12@0@Z@DataStructures@@$1?NodeComparisonFunc@45@SAHABU12@ABU345@@Z@DataStructures@@QBEAAUMapNode@?$Map@UPlayerIdAndGroupId@ConnectionGraph@@G$1??$defaultMapKeyComparison@UPlayerIdAndGroupId@ConnectionGraph@@@DataStructures@@YAHABU12@0@Z@1@I@Z",
+      "rva": 138912,
+      "size": 14
+    },
+    {
+      "symbol": "??0?$Tree@UPlayerIdAndGroupId@ConnectionGraph@@@DataStructures@@QAE@XZ",
+      "rva": 324880,
+      "size": 20
+    },
+    {
+      "symbol": "??0?$List@PAV?$Tree@UPlayerIdAndGroupId@ConnectionGraph@@@DataStructures@@@DataStructures@@QAE@XZ",
+      "rva": 322560,
+      "size": 13
+    },
+    {
+      "symbol": "??0PlayerIdAndGroupId@ConnectionGraph@@QAE@XZ",
+      "rva": 133760,
+      "size": 3
+    },
+    {
+      "symbol": "?Size@?$Map@UPlayerIdAndGroupId@ConnectionGraph@@G$1??$defaultMapKeyComparison@UPlayerIdAndGroupId@ConnectionGraph@@@DataStructures@@YAHABU12@0@Z@DataStructures@@QBEIXZ",
+      "rva": 141952,
+      "size": 5
+    },
+    {
+      "symbol": "?Size@?$OrderedList@UPlayerIdAndGroupId@ConnectionGraph@@UMapNode@?$Map@UPlayerIdAndGroupId@ConnectionGraph@@G$1??$defaultMapKeyComparison@UPlayerIdAndGroupId@ConnectionGraph@@@DataStructures@@YAHABU12@0@Z@DataStructures@@$1?NodeComparisonFunc@45@SAHABU12@ABU345@@Z@DataStructures@@QBEIXZ",
+      "rva": 138928,
+      "size": 4
+    },
+    {
+      "symbol": "?Get@?$Map@UPlayerIdAndGroupId@ConnectionGraph@@PAV?$Map@UPlayerIdAndGroupId@ConnectionGraph@@G$1??$defaultMapKeyComparison@UPlayerIdAndGroupId@ConnectionGraph@@@DataStructures@@YAHABU12@0@Z@DataStructures@@$1??$defaultMapKeyComparison@UPlayerIdAndGroupId@ConnectionGraph@@@4@YAHABU12@0@Z@DataStructures@@QAEAAPAV?$Map@UPlayerIdAndGroupId@ConnectionGraph@@G$1??$defaultMapKeyComparison@UPlayerIdAndGroupId@ConnectionGraph@@@DataStructures@@YAHABU12@0@Z@2@ABUPlayerIdAndGroupId@ConnectionGraph@@@Z",
+      "rva": 141520,
+      "size": 79
+    },
+    {
+      "symbol": "?SaveLastSearch@?$Map@UPlayerIdAndGroupId@ConnectionGraph@@PAV?$Map@UPlayerIdAndGroupId@ConnectionGraph@@G$1??$defaultMapKeyComparison@UPlayerIdAndGroupId@ConnectionGraph@@@DataStructures@@YAHABU12@0@Z@DataStructures@@$1??$defaultMapKeyComparison@UPlayerIdAndGroupId@ConnectionGraph@@@4@YAHABU12@0@Z@DataStructures@@IAEXABUPlayerIdAndGroupId@ConnectionGraph@@I@Z",
+      "rva": 135440,
+      "size": 37
+    },
+    {
+      "symbol": "?GetIndexFromKey@?$OrderedList@UPlayerIdAndGroupId@ConnectionGraph@@UMapNode@?$Map@UPlayerIdAndGroupId@ConnectionGraph@@PAV?$Map@UPlayerIdAndGroupId@ConnectionGraph@@G$1??$defaultMapKeyComparison@UPlayerIdAndGroupId@ConnectionGraph@@@DataStructures@@YAHABU12@0@Z@DataStructures@@$1??$defaultMapKeyComparison@UPlayerIdAndGroupId@ConnectionGraph@@@4@YAHABU12@0@Z@DataStructures@@$1?NodeComparisonFunc@45@SAHABU12@ABU345@@Z@DataStructures@@QBEIABUPlayerIdAndGroupId@ConnectionGraph@@PA_N@Z",
+      "rva": 138560,
+      "size": 154
+    },
+    {
+      "symbol": "??$defaultMapKeyComparison@UPlayerIdAndGroupId@ConnectionGraph@@@DataStructures@@YAHABUPlayerIdAndGroupId@ConnectionGraph@@0@Z",
+      "rva": 134560,
+      "size": 44
+    },
+    {
+      "symbol": "??8PlayerIdAndGroupId@ConnectionGraph@@QBE_NABU01@@Z",
+      "rva": 133824,
+      "size": 5
+    },
+    {
+      "symbol": "??MPlayerIdAndGroupId@ConnectionGraph@@QBE_NABU01@@Z",
+      "rva": 133872,
+      "size": 5
+    },
+    {
+      "symbol": "??A?$OrderedList@UPlayerIdAndGroupId@ConnectionGraph@@UMapNode@?$Map@UPlayerIdAndGroupId@ConnectionGraph@@PAV?$Map@UPlayerIdAndGroupId@ConnectionGraph@@G$1??$defaultMapKeyComparison@UPlayerIdAndGroupId@ConnectionGraph@@@DataStructures@@YAHABU12@0@Z@DataStructures@@$1??$defaultMapKeyComparison@UPlayerIdAndGroupId@ConnectionGraph@@@4@YAHABU12@0@Z@DataStructures@@$1?NodeComparisonFunc@45@SAHABU12@ABU345@@Z@DataStructures@@QBEAAUMapNode@?$Map@UPlayerIdAndGroupId@ConnectionGraph@@PAV?$Map@UPlayerIdAndGroupId@ConnectionGraph@@G$1??$defaultMapKeyComparison@UPlayerIdAndGroupId@ConnectionGraph@@@DataStructures@@YAHABU12@0@Z@DataStructures@@$1??$defaultMapKeyComparison@UPlayerIdAndGroupId@ConnectionGraph@@@4@YAHABU12@0@Z@1@I@Z",
+      "rva": 138720,
+      "size": 14
+    },
+    {
+      "symbol": "?HasSavedSearchResult@?$Map@UPlayerIdAndGroupId@ConnectionGraph@@PAV?$Map@UPlayerIdAndGroupId@ConnectionGraph@@G$1??$defaultMapKeyComparison@UPlayerIdAndGroupId@ConnectionGraph@@@DataStructures@@YAHABU12@0@Z@DataStructures@@$1??$defaultMapKeyComparison@UPlayerIdAndGroupId@ConnectionGraph@@@4@YAHABU12@0@Z@DataStructures@@IBE_NABUPlayerIdAndGroupId@ConnectionGraph@@@Z",
+      "rva": 135488,
+      "size": 41
+    },
+    {
+      "symbol": "??1?$List@UPlayerIdAndGroupId@ConnectionGraph@@@DataStructures@@QAE@XZ",
+      "rva": 136368,
+      "size": 45
+    },
+    {
+      "symbol": "??1PlayerIdAndGroupId@ConnectionGraph@@QAE@XZ",
+      "rva": 133776,
+      "size": 1
+    },
+    {
+      "symbol": "??1?$WeightedGraph@UPlayerIdAndGroupId@ConnectionGraph@@G$0A@@DataStructures@@QAE@XZ",
+      "rva": 147168,
+      "size": 86
+    },
+    {
+      "symbol": "??1?$Map@UPlayerIdAndGroupId@ConnectionGraph@@PAV?$Map@UPlayerIdAndGroupId@ConnectionGraph@@G$1??$defaultMapKeyComparison@UPlayerIdAndGroupId@ConnectionGraph@@@DataStructures@@YAHABU12@0@Z@DataStructures@@$1??$defaultMapKeyComparison@UPlayerIdAndGroupId@ConnectionGraph@@@4@YAHABU12@0@Z@DataStructures@@QAE@XZ",
+      "rva": 144832,
+      "size": 73
+    },
+    {
+      "symbol": "??1?$OrderedList@UPlayerIdAndGroupId@ConnectionGraph@@UMapNode@?$Map@UPlayerIdAndGroupId@ConnectionGraph@@PAV?$Map@UPlayerIdAndGroupId@ConnectionGraph@@G$1??$defaultMapKeyComparison@UPlayerIdAndGroupId@ConnectionGraph@@@DataStructures@@YAHABU12@0@Z@DataStructures@@$1??$defaultMapKeyComparison@UPlayerIdAndGroupId@ConnectionGraph@@@4@YAHABU12@0@Z@DataStructures@@$1?NodeComparisonFunc@45@SAHABU12@ABU345@@Z@DataStructures@@QAE@XZ",
+      "rva": 143328,
+      "size": 73
+    },
+    {
+      "symbol": "??1?$List@UMapNode@?$Map@UPlayerIdAndGroupId@ConnectionGraph@@PAV?$Map@UPlayerIdAndGroupId@ConnectionGraph@@G$1??$defaultMapKeyComparison@UPlayerIdAndGroupId@ConnectionGraph@@@DataStructures@@YAHABU12@0@Z@DataStructures@@$1??$defaultMapKeyComparison@UPlayerIdAndGroupId@ConnectionGraph@@@4@YAHABU12@0@Z@DataStructures@@@DataStructures@@QAE@XZ",
+      "rva": 138960,
+      "size": 45
+    },
+    {
+      "symbol": "??1MapNode@?$Map@UPlayerIdAndGroupId@ConnectionGraph@@PAV?$Map@UPlayerIdAndGroupId@ConnectionGraph@@G$1??$defaultMapKeyComparison@UPlayerIdAndGroupId@ConnectionGraph@@@DataStructures@@YAHABU12@0@Z@DataStructures@@$1??$defaultMapKeyComparison@UPlayerIdAndGroupId@ConnectionGraph@@@4@YAHABU12@0@Z@DataStructures@@QAE@XZ",
+      "rva": 136512,
+      "size": 1
+    },
+    {
+      "symbol": "?Clear@?$OrderedList@UPlayerIdAndGroupId@ConnectionGraph@@UMapNode@?$Map@UPlayerIdAndGroupId@ConnectionGraph@@PAV?$Map@UPlayerIdAndGroupId@ConnectionGraph@@G$1??$defaultMapKeyComparison@UPlayerIdAndGroupId@ConnectionGraph@@@DataStructures@@YAHABU12@0@Z@DataStructures@@$1??$defaultMapKeyComparison@UPlayerIdAndGroupId@ConnectionGraph@@@4@YAHABU12@0@Z@DataStructures@@$1?NodeComparisonFunc@45@SAHABU12@ABU345@@Z@DataStructures@@QAEXXZ",
+      "rva": 142000,
+      "size": 8
+    },
+    {
+      "symbol": "?Clear@?$List@UMapNode@?$Map@UPlayerIdAndGroupId@ConnectionGraph@@PAV?$Map@UPlayerIdAndGroupId@ConnectionGraph@@G$1??$defaultMapKeyComparison@UPlayerIdAndGroupId@ConnectionGraph@@@DataStructures@@YAHABU12@0@Z@DataStructures@@$1??$defaultMapKeyComparison@UPlayerIdAndGroupId@ConnectionGraph@@@4@YAHABU12@0@Z@DataStructures@@@DataStructures@@QAEX_N@Z",
+      "rva": 139008,
+      "size": 86
+    },
+    {
+      "symbol": "?Clear@?$Map@UPlayerIdAndGroupId@ConnectionGraph@@PAV?$Map@UPlayerIdAndGroupId@ConnectionGraph@@G$1??$defaultMapKeyComparison@UPlayerIdAndGroupId@ConnectionGraph@@@DataStructures@@YAHABU12@0@Z@DataStructures@@$1??$defaultMapKeyComparison@UPlayerIdAndGroupId@ConnectionGraph@@@4@YAHABU12@0@Z@DataStructures@@QAEXXZ",
+      "rva": 142768,
+      "size": 9
+    },
+    {
+      "symbol": "??1?$OrderedList@UPlayerIdAndGroupId@ConnectionGraph@@U12@$1??$defaultOrderedListComparison@UPlayerIdAndGroupId@ConnectionGraph@@U12@@DataStructures@@YAHABU12@0@Z@DataStructures@@QAE@XZ",
+      "rva": 141744,
+      "size": 73
+    },
+    {
+      "symbol": "?Clear@?$OrderedList@UPlayerIdAndGroupId@ConnectionGraph@@U12@$1??$defaultOrderedListComparison@UPlayerIdAndGroupId@ConnectionGraph@@U12@@DataStructures@@YAHABU12@0@Z@DataStructures@@QAEXXZ",
+      "rva": 138544,
+      "size": 8
+    },
+    {
+      "symbol": "?Clear@?$List@UPlayerIdAndGroupId@ConnectionGraph@@@DataStructures@@QAEX_N@Z",
+      "rva": 136608,
+      "size": 86
+    },
+    {
+      "symbol": "?Clear@?$WeightedGraph@UPlayerIdAndGroupId@ConnectionGraph@@G$0A@@DataStructures@@QAEXXZ",
+      "rva": 145632,
+      "size": 75
+    },
+    {
+      "symbol": "?ClearDijkstra@?$WeightedGraph@UPlayerIdAndGroupId@ConnectionGraph@@G$0A@@DataStructures@@IAEXXZ",
+      "rva": 141440,
+      "size": 75
+    },
+    {
+      "symbol": "??1?$Map@UPlayerIdAndGroupId@ConnectionGraph@@G$1??$defaultMapKeyComparison@UPlayerIdAndGroupId@ConnectionGraph@@@DataStructures@@YAHABU12@0@Z@DataStructures@@QAE@XZ",
+      "rva": 142784,
+      "size": 73
+    },
+    {
+      "symbol": "??1?$OrderedList@UPlayerIdAndGroupId@ConnectionGraph@@UMapNode@?$Map@UPlayerIdAndGroupId@ConnectionGraph@@G$1??$defaultMapKeyComparison@UPlayerIdAndGroupId@ConnectionGraph@@@DataStructures@@YAHABU12@0@Z@DataStructures@@$1?NodeComparisonFunc@45@SAHABU12@ABU345@@Z@DataStructures@@QAE@XZ",
+      "rva": 142016,
+      "size": 73
+    },
+    {
+      "symbol": "??1?$List@UMapNode@?$Map@UPlayerIdAndGroupId@ConnectionGraph@@G$1??$defaultMapKeyComparison@UPlayerIdAndGroupId@ConnectionGraph@@@DataStructures@@YAHABU12@0@Z@DataStructures@@@DataStructures@@QAE@XZ",
+      "rva": 139104,
+      "size": 45
+    },
+    {
+      "symbol": "??1MapNode@?$Map@UPlayerIdAndGroupId@ConnectionGraph@@G$1??$defaultMapKeyComparison@UPlayerIdAndGroupId@ConnectionGraph@@@DataStructures@@YAHABU12@0@Z@DataStructures@@QAE@XZ",
+      "rva": 135360,
+      "size": 1
+    },
+    {
+      "symbol": "?Clear@?$OrderedList@UPlayerIdAndGroupId@ConnectionGraph@@UMapNode@?$Map@UPlayerIdAndGroupId@ConnectionGraph@@G$1??$defaultMapKeyComparison@UPlayerIdAndGroupId@ConnectionGraph@@@DataStructures@@YAHABU12@0@Z@DataStructures@@$1?NodeComparisonFunc@45@SAHABU12@ABU345@@Z@DataStructures@@QAEXXZ",
+      "rva": 138944,
+      "size": 8
+    },
+    {
+      "symbol": "?Clear@?$List@UMapNode@?$Map@UPlayerIdAndGroupId@ConnectionGraph@@G$1??$defaultMapKeyComparison@UPlayerIdAndGroupId@ConnectionGraph@@@DataStructures@@YAHABU12@0@Z@DataStructures@@@DataStructures@@QAEX_N@Z",
+      "rva": 137040,
+      "size": 86
+    },
+    {
+      "symbol": "?Clear@?$Map@UPlayerIdAndGroupId@ConnectionGraph@@G$1??$defaultMapKeyComparison@UPlayerIdAndGroupId@ConnectionGraph@@@DataStructures@@YAHABU12@0@Z@DataStructures@@QAEXXZ",
+      "rva": 141968,
+      "size": 9
+    },
+    {
+      "symbol": "??A?$Map@UPlayerIdAndGroupId@ConnectionGraph@@PAV?$Map@UPlayerIdAndGroupId@ConnectionGraph@@G$1??$defaultMapKeyComparison@UPlayerIdAndGroupId@ConnectionGraph@@@DataStructures@@YAHABU12@0@Z@DataStructures@@$1??$defaultMapKeyComparison@UPlayerIdAndGroupId@ConnectionGraph@@@4@YAHABU12@0@Z@DataStructures@@QBEAAPAV?$Map@UPlayerIdAndGroupId@ConnectionGraph@@G$1??$defaultMapKeyComparison@UPlayerIdAndGroupId@ConnectionGraph@@@DataStructures@@YAHABU12@0@Z@1@I@Z",
+      "rva": 141664,
+      "size": 16
+    },
+    {
+      "symbol": "?Size@?$Map@UPlayerIdAndGroupId@ConnectionGraph@@PAV?$Map@UPlayerIdAndGroupId@ConnectionGraph@@G$1??$defaultMapKeyComparison@UPlayerIdAndGroupId@ConnectionGraph@@@DataStructures@@YAHABU12@0@Z@DataStructures@@$1??$defaultMapKeyComparison@UPlayerIdAndGroupId@ConnectionGraph@@@4@YAHABU12@0@Z@DataStructures@@QBEIXZ",
+      "rva": 141728,
+      "size": 5
+    },
+    {
+      "symbol": "?Size@?$OrderedList@UPlayerIdAndGroupId@ConnectionGraph@@UMapNode@?$Map@UPlayerIdAndGroupId@ConnectionGraph@@PAV?$Map@UPlayerIdAndGroupId@ConnectionGraph@@G$1??$defaultMapKeyComparison@UPlayerIdAndGroupId@ConnectionGraph@@@DataStructures@@YAHABU12@0@Z@DataStructures@@$1??$defaultMapKeyComparison@UPlayerIdAndGroupId@ConnectionGraph@@@4@YAHABU12@0@Z@DataStructures@@$1?NodeComparisonFunc@45@SAHABU12@ABU345@@Z@DataStructures@@QBEIXZ",
+      "rva": 138736,
+      "size": 4
+    },
+    {
+      "symbol": "??1?$Queue@UNodeAndParent@?$WeightedGraph@UPlayerIdAndGroupId@ConnectionGraph@@G$0A@@DataStructures@@@DataStructures@@QAE@XZ",
+      "rva": 322192,
+      "size": 17
+    },
+    {
+      "symbol": "?Has@?$Map@UPlayerIdAndGroupId@ConnectionGraph@@PAV?$Map@UPlayerIdAndGroupId@ConnectionGraph@@G$1??$defaultMapKeyComparison@UPlayerIdAndGroupId@ConnectionGraph@@@DataStructures@@YAHABU12@0@Z@DataStructures@@$1??$defaultMapKeyComparison@UPlayerIdAndGroupId@ConnectionGraph@@@4@YAHABU12@0@Z@DataStructures@@QAE_NABUPlayerIdAndGroupId@ConnectionGraph@@@Z",
+      "rva": 141600,
+      "size": 64
+    },
+    {
+      "symbol": "?DeleteDecendants@?$Tree@UPlayerIdAndGroupId@ConnectionGraph@@@DataStructures@@QAEXXZ",
+      "rva": 326464,
+      "size": 133
+    },
+    {
+      "symbol": "??1?$List@PAV?$Tree@UPlayerIdAndGroupId@ConnectionGraph@@@DataStructures@@@DataStructures@@QAE@XZ",
+      "rva": 322576,
+      "size": 17
+    },
+    {
+      "symbol": "??1?$Tree@UPlayerIdAndGroupId@ConnectionGraph@@@DataStructures@@QAE@XZ",
+      "rva": 324912,
+      "size": 76
+    },
+    {
+      "symbol": "?LevelOrderTraversal@?$Tree@UPlayerIdAndGroupId@ConnectionGraph@@@DataStructures@@QAEXAAV?$List@PAV?$Tree@UPlayerIdAndGroupId@ConnectionGraph@@@DataStructures@@@2@@Z",
+      "rva": 325024,
+      "size": 240
+    },
+    {
+      "symbol": "??1?$Queue@PAV?$Tree@UPlayerIdAndGroupId@ConnectionGraph@@@DataStructures@@@DataStructures@@QAE@XZ",
+      "rva": 323440,
+      "size": 17
+    },
+    {
+      "symbol": "?Push@?$Queue@PAV?$Tree@UPlayerIdAndGroupId@ConnectionGraph@@@DataStructures@@@DataStructures@@QAEXABQAV?$Tree@UPlayerIdAndGroupId@ConnectionGraph@@@2@@Z",
+      "rva": 323472,
+      "size": 189
+    },
+    {
+      "symbol": "??0?$Queue@PAV?$Tree@UPlayerIdAndGroupId@ConnectionGraph@@@DataStructures@@@DataStructures@@QAE@XZ",
+      "rva": 323392,
+      "size": 34
+    },
+    {
+      "symbol": "??0?$Queue@UNodeAndParent@?$WeightedGraph@UPlayerIdAndGroupId@ConnectionGraph@@G$0A@@DataStructures@@@DataStructures@@QAE@XZ",
+      "rva": 322144,
+      "size": 37
+    },
+    {
+      "symbol": "?AddConnection@?$WeightedGraph@UPlayerIdAndGroupId@ConnectionGraph@@G$0A@@DataStructures@@QAEXABUPlayerIdAndGroupId@ConnectionGraph@@0G@Z",
+      "rva": 145376,
+      "size": 113
+    },
+    {
+      "symbol": "?Set@?$Map@UPlayerIdAndGroupId@ConnectionGraph@@G$1??$defaultMapKeyComparison@UPlayerIdAndGroupId@ConnectionGraph@@@DataStructures@@YAHABU12@0@Z@DataStructures@@QAEXABUPlayerIdAndGroupId@ConnectionGraph@@ABG@Z",
+      "rva": 142864,
+      "size": 182
+    },
+    {
+      "symbol": "?Insert@?$OrderedList@UPlayerIdAndGroupId@ConnectionGraph@@UMapNode@?$Map@UPlayerIdAndGroupId@ConnectionGraph@@G$1??$defaultMapKeyComparison@UPlayerIdAndGroupId@ConnectionGraph@@@DataStructures@@YAHABU12@0@Z@DataStructures@@$1?NodeComparisonFunc@45@SAHABU12@ABU345@@Z@DataStructures@@QAEIABUPlayerIdAndGroupId@ConnectionGraph@@ABUMapNode@?$Map@UPlayerIdAndGroupId@ConnectionGraph@@G$1??$defaultMapKeyComparison@UPlayerIdAndGroupId@ConnectionGraph@@@DataStructures@@YAHABU12@0@Z@2@@Z",
+      "rva": 142096,
+      "size": 127
+    },
+    {
+      "symbol": "?Insert@?$List@UMapNode@?$Map@UPlayerIdAndGroupId@ConnectionGraph@@G$1??$defaultMapKeyComparison@UPlayerIdAndGroupId@ConnectionGraph@@@DataStructures@@YAHABU12@0@Z@DataStructures@@@DataStructures@@QAEXUMapNode@?$Map@UPlayerIdAndGroupId@ConnectionGraph@@G$1??$defaultMapKeyComparison@UPlayerIdAndGroupId@ConnectionGraph@@@DataStructures@@YAHABU12@0@Z@2@I@Z",
+      "rva": 139408,
+      "size": 279
+    },
+    {
+      "symbol": "??0MapNode@?$Map@UPlayerIdAndGroupId@ConnectionGraph@@G$1??$defaultMapKeyComparison@UPlayerIdAndGroupId@ConnectionGraph@@@DataStructures@@YAHABU12@0@Z@DataStructures@@QAE@XZ",
+      "rva": 136992,
+      "size": 3
+    },
+    {
+      "symbol": "?Insert@?$List@UMapNode@?$Map@UPlayerIdAndGroupId@ConnectionGraph@@G$1??$defaultMapKeyComparison@UPlayerIdAndGroupId@ConnectionGraph@@@DataStructures@@YAHABU12@0@Z@DataStructures@@@DataStructures@@QAEXUMapNode@?$Map@UPlayerIdAndGroupId@ConnectionGraph@@G$1??$defaultMapKeyComparison@UPlayerIdAndGroupId@ConnectionGraph@@@DataStructures@@YAHABU12@0@Z@2@@Z",
+      "rva": 139152,
+      "size": 248
+    },
+    {
+      "symbol": "?GetIndexFromKey@?$OrderedList@UPlayerIdAndGroupId@ConnectionGraph@@UMapNode@?$Map@UPlayerIdAndGroupId@ConnectionGraph@@G$1??$defaultMapKeyComparison@UPlayerIdAndGroupId@ConnectionGraph@@@DataStructures@@YAHABU12@0@Z@DataStructures@@$1?NodeComparisonFunc@45@SAHABU12@ABU345@@Z@DataStructures@@QBEIABUPlayerIdAndGroupId@ConnectionGraph@@PA_N@Z",
+      "rva": 138752,
+      "size": 150
+    },
+    {
+      "symbol": "??0MapNode@?$Map@UPlayerIdAndGroupId@ConnectionGraph@@G$1??$defaultMapKeyComparison@UPlayerIdAndGroupId@ConnectionGraph@@@DataStructures@@YAHABU12@0@Z@DataStructures@@QAE@UPlayerIdAndGroupId@ConnectionGraph@@G@Z",
+      "rva": 135376,
+      "size": 39
+    },
+    {
+      "symbol": "?SaveLastSearch@?$Map@UPlayerIdAndGroupId@ConnectionGraph@@G$1??$defaultMapKeyComparison@UPlayerIdAndGroupId@ConnectionGraph@@@DataStructures@@YAHABU12@0@Z@DataStructures@@IAEXABUPlayerIdAndGroupId@ConnectionGraph@@I@Z",
+      "rva": 135536,
+      "size": 37
+    },
+    {
+      "symbol": "?HasSavedSearchResult@?$Map@UPlayerIdAndGroupId@ConnectionGraph@@G$1??$defaultMapKeyComparison@UPlayerIdAndGroupId@ConnectionGraph@@@DataStructures@@YAHABU12@0@Z@DataStructures@@IBE_NABUPlayerIdAndGroupId@ConnectionGraph@@@Z",
+      "rva": 135584,
+      "size": 41
+    },
+    {
+      "symbol": "?AddNode@?$WeightedGraph@UPlayerIdAndGroupId@ConnectionGraph@@G$0A@@DataStructures@@QAEXABUPlayerIdAndGroupId@ConnectionGraph@@@Z",
+      "rva": 144464,
+      "size": 55
+    },
+    {
+      "symbol": "?SetNew@?$Map@UPlayerIdAndGroupId@ConnectionGraph@@PAV?$Map@UPlayerIdAndGroupId@ConnectionGraph@@G$1??$defaultMapKeyComparison@UPlayerIdAndGroupId@ConnectionGraph@@@DataStructures@@YAHABU12@0@Z@DataStructures@@$1??$defaultMapKeyComparison@UPlayerIdAndGroupId@ConnectionGraph@@@4@YAHABU12@0@Z@DataStructures@@QAEXABUPlayerIdAndGroupId@ConnectionGraph@@ABQAV?$Map@UPlayerIdAndGroupId@ConnectionGraph@@G$1??$defaultMapKeyComparison@UPlayerIdAndGroupId@ConnectionGraph@@@DataStructures@@YAHABU12@0@Z@2@@Z",
+      "rva": 143232,
+      "size": 78
+    },
+    {
+      "symbol": "?Insert@?$OrderedList@UPlayerIdAndGroupId@ConnectionGraph@@UMapNode@?$Map@UPlayerIdAndGroupId@ConnectionGraph@@PAV?$Map@UPlayerIdAndGroupId@ConnectionGraph@@G$1??$defaultMapKeyComparison@UPlayerIdAndGroupId@ConnectionGraph@@@DataStructures@@YAHABU12@0@Z@DataStructures@@$1??$defaultMapKeyComparison@UPlayerIdAndGroupId@ConnectionGraph@@@4@YAHABU12@0@Z@DataStructures@@$1?NodeComparisonFunc@45@SAHABU12@ABU345@@Z@DataStructures@@QAEIABUPlayerIdAndGroupId@ConnectionGraph@@ABUMapNode@?$Map@UPlayerIdAndGroupId@ConnectionGraph@@PAV?$Map@UPlayerIdAndGroupId@ConnectionGraph@@G$1??$defaultMapKeyComparison@UPlayerIdAndGroupId@ConnectionGraph@@@DataStructures@@YAHABU12@0@Z@DataStructures@@$1??$defaultMapKeyComparison@UPlayerIdAndGroupId@ConnectionGraph@@@4@YAHABU12@0@Z@2@@Z",
+      "rva": 142240,
+      "size": 143
+    },
+    {
+      "symbol": "?Insert@?$List@UMapNode@?$Map@UPlayerIdAndGroupId@ConnectionGraph@@PAV?$Map@UPlayerIdAndGroupId@ConnectionGraph@@G$1??$defaultMapKeyComparison@UPlayerIdAndGroupId@ConnectionGraph@@@DataStructures@@YAHABU12@0@Z@DataStructures@@$1??$defaultMapKeyComparison@UPlayerIdAndGroupId@ConnectionGraph@@@4@YAHABU12@0@Z@DataStructures@@@DataStructures@@QAEXUMapNode@?$Map@UPlayerIdAndGroupId@ConnectionGraph@@PAV?$Map@UPlayerIdAndGroupId@ConnectionGraph@@G$1??$defaultMapKeyComparison@UPlayerIdAndGroupId@ConnectionGraph@@@DataStructures@@YAHABU12@0@Z@DataStructures@@$1??$defaultMapKeyComparison@UPlayerIdAndGroupId@ConnectionGraph@@@4@YAHABU12@0@Z@2@I@Z",
+      "rva": 140016,
+      "size": 284
+    },
+    {
+      "symbol": "??0MapNode@?$Map@UPlayerIdAndGroupId@ConnectionGraph@@PAV?$Map@UPlayerIdAndGroupId@ConnectionGraph@@G$1??$defaultMapKeyComparison@UPlayerIdAndGroupId@ConnectionGraph@@@DataStructures@@YAHABU12@0@Z@DataStructures@@$1??$defaultMapKeyComparison@UPlayerIdAndGroupId@ConnectionGraph@@@4@YAHABU12@0@Z@DataStructures@@QAE@XZ",
+      "rva": 137184,
+      "size": 3
+    },
+    {
+      "symbol": "?Insert@?$List@UMapNode@?$Map@UPlayerIdAndGroupId@ConnectionGraph@@PAV?$Map@UPlayerIdAndGroupId@ConnectionGraph@@G$1??$defaultMapKeyComparison@UPlayerIdAndGroupId@ConnectionGraph@@@DataStructures@@YAHABU12@0@Z@DataStructures@@$1??$defaultMapKeyComparison@UPlayerIdAndGroupId@ConnectionGraph@@@4@YAHABU12@0@Z@DataStructures@@@DataStructures@@QAEXUMapNode@?$Map@UPlayerIdAndGroupId@ConnectionGraph@@PAV?$Map@UPlayerIdAndGroupId@ConnectionGraph@@G$1??$defaultMapKeyComparison@UPlayerIdAndGroupId@ConnectionGraph@@@DataStructures@@YAHABU12@0@Z@DataStructures@@$1??$defaultMapKeyComparison@UPlayerIdAndGroupId@ConnectionGraph@@@4@YAHABU12@0@Z@2@@Z",
+      "rva": 139760,
+      "size": 250
+    },
+    {
+      "symbol": "??0MapNode@?$Map@UPlayerIdAndGroupId@ConnectionGraph@@PAV?$Map@UPlayerIdAndGroupId@ConnectionGraph@@G$1??$defaultMapKeyComparison@UPlayerIdAndGroupId@ConnectionGraph@@@DataStructures@@YAHABU12@0@Z@DataStructures@@$1??$defaultMapKeyComparison@UPlayerIdAndGroupId@ConnectionGraph@@@4@YAHABU12@0@Z@DataStructures@@QAE@UPlayerIdAndGroupId@ConnectionGraph@@PAV?$Map@UPlayerIdAndGroupId@ConnectionGraph@@G$1??$defaultMapKeyComparison@UPlayerIdAndGroupId@ConnectionGraph@@@DataStructures@@YAHABU12@0@Z@2@@Z",
+      "rva": 136560,
+      "size": 37
+    },
+    {
+      "symbol": "??0?$Map@UPlayerIdAndGroupId@ConnectionGraph@@G$1??$defaultMapKeyComparison@UPlayerIdAndGroupId@ConnectionGraph@@@DataStructures@@YAHABU12@0@Z@DataStructures@@QAE@XZ",
+      "rva": 143312,
+      "size": 16
+    },
+    {
+      "symbol": "??0?$OrderedList@UPlayerIdAndGroupId@ConnectionGraph@@UMapNode@?$Map@UPlayerIdAndGroupId@ConnectionGraph@@G$1??$defaultMapKeyComparison@UPlayerIdAndGroupId@ConnectionGraph@@@DataStructures@@YAHABU12@0@Z@DataStructures@@$1?NodeComparisonFunc@45@SAHABU12@ABU345@@Z@DataStructures@@QAE@XZ",
+      "rva": 142400,
+      "size": 12
+    },
+    {
+      "symbol": "??0?$List@UMapNode@?$Map@UPlayerIdAndGroupId@ConnectionGraph@@G$1??$defaultMapKeyComparison@UPlayerIdAndGroupId@ConnectionGraph@@@DataStructures@@YAHABU12@0@Z@DataStructures@@@DataStructures@@QAE@XZ",
+      "rva": 137008,
+      "size": 13
+    },
+    {
+      "symbol": "?GetShortestPath@?$WeightedGraph@UPlayerIdAndGroupId@ConnectionGraph@@G$0A@@DataStructures@@QAE_NAAV?$List@UPlayerIdAndGroupId@ConnectionGraph@@@2@UPlayerIdAndGroupId@ConnectionGraph@@1G@Z",
+      "rva": 330368,
+      "size": 1026
+    },
+    {
+      "symbol": "?Pop@?$Queue@UPlayerIdAndGroupId@ConnectionGraph@@@DataStructures@@QAE?AUPlayerIdAndGroupId@ConnectionGraph@@XZ",
+      "rva": 136240,
+      "size": 79
+    },
+    {
+      "symbol": "?PushAtHead@?$Queue@UPlayerIdAndGroupId@ConnectionGraph@@@DataStructures@@QAEXABUPlayerIdAndGroupId@ConnectionGraph@@I@Z",
+      "rva": 322896,
+      "size": 482
+    },
+    {
+      "symbol": "??1?$Queue@UPlayerIdAndGroupId@ConnectionGraph@@@DataStructures@@QAE@XZ",
+      "rva": 135760,
+      "size": 45
+    },
+    {
+      "symbol": "?Size@?$OrderedList@UPlayerIdAndGroupId@ConnectionGraph@@U12@$1??$defaultOrderedListComparison@UPlayerIdAndGroupId@ConnectionGraph@@U12@@DataStructures@@YAHABU12@0@Z@DataStructures@@QBEIXZ",
+      "rva": 322880,
+      "size": 4
+    },
+    {
+      "symbol": "?GetIndexFromKey@?$OrderedList@UPlayerIdAndGroupId@ConnectionGraph@@U12@$1??$defaultOrderedListComparison@UPlayerIdAndGroupId@ConnectionGraph@@U12@@DataStructures@@YAHABU12@0@Z@DataStructures@@QBEIABUPlayerIdAndGroupId@ConnectionGraph@@PA_N@Z",
+      "rva": 322720,
+      "size": 154
+    },
+    {
+      "symbol": "??$defaultOrderedListComparison@UPlayerIdAndGroupId@ConnectionGraph@@U12@@DataStructures@@YAHABUPlayerIdAndGroupId@ConnectionGraph@@0@Z",
+      "rva": 134608,
+      "size": 44
+    },
+    {
+      "symbol": "??0?$Queue@UPlayerIdAndGroupId@ConnectionGraph@@@DataStructures@@QAE@XZ",
+      "rva": 135632,
+      "size": 127
+    },
+    {
+      "symbol": "?GenerateDisjktraMatrix@?$WeightedGraph@UPlayerIdAndGroupId@ConnectionGraph@@G$0A@@DataStructures@@IAEXUPlayerIdAndGroupId@ConnectionGraph@@G@Z",
+      "rva": 329184,
+      "size": 1170
+    },
+    {
+      "symbol": "??1?$Heap@GUPlayerIdAndGroupId@ConnectionGraph@@$0A@@DataStructures@@QAE@XZ",
+      "rva": 329104,
+      "size": 73
+    },
+    {
+      "symbol": "??1?$List@UHeapNode@?$Heap@GUPlayerIdAndGroupId@ConnectionGraph@@$0A@@DataStructures@@@DataStructures@@QAE@XZ",
+      "rva": 325600,
+      "size": 45
+    },
+    {
+      "symbol": "??1HeapNode@?$Heap@GUPlayerIdAndGroupId@ConnectionGraph@@$0A@@DataStructures@@QAE@XZ",
+      "rva": 323744,
+      "size": 8
+    },
+    {
+      "symbol": "?Clear@?$Heap@GUPlayerIdAndGroupId@ConnectionGraph@@$0A@@DataStructures@@QAEXXZ",
+      "rva": 327328,
+      "size": 8
+    },
+    {
+      "symbol": "?Clear@?$List@UHeapNode@?$Heap@GUPlayerIdAndGroupId@ConnectionGraph@@$0A@@DataStructures@@@DataStructures@@QAEX_N@Z",
+      "rva": 325936,
+      "size": 86
+    },
+    {
+      "symbol": "?Delete@?$Map@UPlayerIdAndGroupId@ConnectionGraph@@G$1??$defaultMapKeyComparison@UPlayerIdAndGroupId@ConnectionGraph@@@DataStructures@@YAHABU12@0@Z@DataStructures@@QAE_NABUPlayerIdAndGroupId@ConnectionGraph@@@Z",
+      "rva": 143056,
+      "size": 87
+    },
+    {
+      "symbol": "?RemoveAtIndex@?$OrderedList@UPlayerIdAndGroupId@ConnectionGraph@@UMapNode@?$Map@UPlayerIdAndGroupId@ConnectionGraph@@G$1??$defaultMapKeyComparison@UPlayerIdAndGroupId@ConnectionGraph@@@DataStructures@@YAHABU12@0@Z@DataStructures@@$1?NodeComparisonFunc@45@SAHABU12@ABU345@@Z@DataStructures@@QAEXI@Z",
+      "rva": 142224,
+      "size": 5
+    },
+    {
+      "symbol": "?RemoveAtIndex@?$List@UMapNode@?$Map@UPlayerIdAndGroupId@ConnectionGraph@@G$1??$defaultMapKeyComparison@UPlayerIdAndGroupId@ConnectionGraph@@@DataStructures@@YAHABU12@0@Z@DataStructures@@@DataStructures@@QAEXI@Z",
+      "rva": 139696,
+      "size": 54
+    },
+    {
+      "symbol": "?Pop@?$Heap@GUPlayerIdAndGroupId@ConnectionGraph@@$0A@@DataStructures@@QAE?AUPlayerIdAndGroupId@ConnectionGraph@@I@Z",
+      "rva": 326880,
+      "size": 433
+    },
+    {
+      "symbol": "?Swap@?$Heap@GUPlayerIdAndGroupId@ConnectionGraph@@$0A@@DataStructures@@IAEXII@Z",
+      "rva": 325440,
+      "size": 147
+    },
+    {
+      "symbol": "?RightChild@?$Heap@GUPlayerIdAndGroupId@ConnectionGraph@@$0A@@DataStructures@@IBEII@Z",
+      "rva": 324176,
+      "size": 11
+    },
+    {
+      "symbol": "?LeftChild@?$Heap@GUPlayerIdAndGroupId@ConnectionGraph@@$0A@@DataStructures@@IBEII@Z",
+      "rva": 324160,
+      "size": 11
+    },
+    {
+      "symbol": "?PeekWeight@?$Heap@GUPlayerIdAndGroupId@ConnectionGraph@@$0A@@DataStructures@@QBEGI@Z",
+      "rva": 325408,
+      "size": 16
+    },
+    {
+      "symbol": "?Size@?$Heap@GUPlayerIdAndGroupId@ConnectionGraph@@$0A@@DataStructures@@QBEIXZ",
+      "rva": 325424,
+      "size": 4
+    },
+    {
+      "symbol": "?Push@?$Heap@GUPlayerIdAndGroupId@ConnectionGraph@@$0A@@DataStructures@@QAEXABGABUPlayerIdAndGroupId@ConnectionGraph@@@Z",
+      "rva": 326688,
+      "size": 190
+    },
+    {
+      "symbol": "?Parent@?$Heap@GUPlayerIdAndGroupId@ConnectionGraph@@$0A@@DataStructures@@IBEII@Z",
+      "rva": 324192,
+      "size": 10
+    },
+    {
+      "symbol": "?Insert@?$List@UHeapNode@?$Heap@GUPlayerIdAndGroupId@ConnectionGraph@@$0A@@DataStructures@@@DataStructures@@QAEXUHeapNode@?$Heap@GUPlayerIdAndGroupId@ConnectionGraph@@$0A@@2@@Z",
+      "rva": 325648,
+      "size": 277
+    },
+    {
+      "symbol": "??0HeapNode@?$Heap@GUPlayerIdAndGroupId@ConnectionGraph@@$0A@@DataStructures@@QAE@XZ",
+      "rva": 324368,
+      "size": 15
+    },
+    {
+      "symbol": "??A?$Map@UPlayerIdAndGroupId@ConnectionGraph@@G$1??$defaultMapKeyComparison@UPlayerIdAndGroupId@ConnectionGraph@@@DataStructures@@YAHABU12@0@Z@DataStructures@@QBEAAGI@Z",
+      "rva": 141888,
+      "size": 16
+    },
+    {
+      "symbol": "?GetIndexAtKey@?$Map@UPlayerIdAndGroupId@ConnectionGraph@@PAV?$Map@UPlayerIdAndGroupId@ConnectionGraph@@G$1??$defaultMapKeyComparison@UPlayerIdAndGroupId@ConnectionGraph@@@DataStructures@@YAHABU12@0@Z@DataStructures@@$1??$defaultMapKeyComparison@UPlayerIdAndGroupId@ConnectionGraph@@@4@YAHABU12@0@Z@DataStructures@@QAEIABUPlayerIdAndGroupId@ConnectionGraph@@@Z",
+      "rva": 326608,
+      "size": 59
+    },
+    {
+      "symbol": "?Insert@?$OrderedList@UPlayerIdAndGroupId@ConnectionGraph@@U12@$1??$defaultOrderedListComparison@UPlayerIdAndGroupId@ConnectionGraph@@U12@@DataStructures@@YAHABU12@0@Z@DataStructures@@QAEIABUPlayerIdAndGroupId@ConnectionGraph@@0@Z",
+      "rva": 325264,
+      "size": 131
+    },
+    {
+      "symbol": "?Insert@?$List@UPlayerIdAndGroupId@ConnectionGraph@@@DataStructures@@QAEXUPlayerIdAndGroupId@ConnectionGraph@@I@Z",
+      "rva": 323856,
+      "size": 303
+    },
+    {
+      "symbol": "?Insert@?$List@UPlayerIdAndGroupId@ConnectionGraph@@@DataStructures@@QAEXUPlayerIdAndGroupId@ConnectionGraph@@@Z",
+      "rva": 324608,
+      "size": 272
+    },
+    {
+      "symbol": "?GetKeyAtIndex@?$Map@UPlayerIdAndGroupId@ConnectionGraph@@PAV?$Map@UPlayerIdAndGroupId@ConnectionGraph@@G$1??$defaultMapKeyComparison@UPlayerIdAndGroupId@ConnectionGraph@@@DataStructures@@YAHABU12@0@Z@DataStructures@@$1??$defaultMapKeyComparison@UPlayerIdAndGroupId@ConnectionGraph@@@4@YAHABU12@0@Z@DataStructures@@QBE?AUPlayerIdAndGroupId@ConnectionGraph@@I@Z",
+      "rva": 141680,
+      "size": 41
+    },
+    {
+      "symbol": "??0?$Heap@GUPlayerIdAndGroupId@ConnectionGraph@@$0A@@DataStructures@@QAE@XZ",
+      "rva": 326672,
+      "size": 12
+    },
+    {
+      "symbol": "??0?$List@UHeapNode@?$Heap@GUPlayerIdAndGroupId@ConnectionGraph@@$0A@@DataStructures@@@DataStructures@@QAE@XZ",
+      "rva": 324208,
+      "size": 13
+    },
+    {
+      "symbol": "??0?$WeightedGraph@UPlayerIdAndGroupId@ConnectionGraph@@G$0A@@DataStructures@@QAE@XZ",
+      "rva": 145344,
+      "size": 28
+    },
+    {
+      "symbol": "??0?$OrderedList@UPlayerIdAndGroupId@ConnectionGraph@@U12@$1??$defaultOrderedListComparison@UPlayerIdAndGroupId@ConnectionGraph@@U12@@DataStructures@@YAHABU12@0@Z@DataStructures@@QAE@XZ",
+      "rva": 138320,
+      "size": 12
+    },
+    {
+      "symbol": "??0?$List@UPlayerIdAndGroupId@ConnectionGraph@@@DataStructures@@QAE@XZ",
+      "rva": 136352,
+      "size": 13
+    },
+    {
+      "symbol": "??0?$Map@UPlayerIdAndGroupId@ConnectionGraph@@PAV?$Map@UPlayerIdAndGroupId@ConnectionGraph@@G$1??$defaultMapKeyComparison@UPlayerIdAndGroupId@ConnectionGraph@@@DataStructures@@YAHABU12@0@Z@DataStructures@@$1??$defaultMapKeyComparison@UPlayerIdAndGroupId@ConnectionGraph@@@4@YAHABU12@0@Z@DataStructures@@QAE@XZ",
+      "rva": 144816,
+      "size": 16
+    },
+    {
+      "symbol": "??0?$OrderedList@UPlayerIdAndGroupId@ConnectionGraph@@UMapNode@?$Map@UPlayerIdAndGroupId@ConnectionGraph@@PAV?$Map@UPlayerIdAndGroupId@ConnectionGraph@@G$1??$defaultMapKeyComparison@UPlayerIdAndGroupId@ConnectionGraph@@@DataStructures@@YAHABU12@0@Z@DataStructures@@$1??$defaultMapKeyComparison@UPlayerIdAndGroupId@ConnectionGraph@@@4@YAHABU12@0@Z@DataStructures@@$1?NodeComparisonFunc@45@SAHABU12@ABU345@@Z@DataStructures@@QAE@XZ",
+      "rva": 141984,
+      "size": 12
+    },
+    {
+      "symbol": "??0?$List@UMapNode@?$Map@UPlayerIdAndGroupId@ConnectionGraph@@PAV?$Map@UPlayerIdAndGroupId@ConnectionGraph@@G$1??$defaultMapKeyComparison@UPlayerIdAndGroupId@ConnectionGraph@@@DataStructures@@YAHABU12@0@Z@DataStructures@@$1??$defaultMapKeyComparison@UPlayerIdAndGroupId@ConnectionGraph@@@4@YAHABU12@0@Z@DataStructures@@@DataStructures@@QAE@XZ",
+      "rva": 136704,
+      "size": 13
+    }
+  ],
+  "unique_discovered_potential_before_EH": 11412,
+  "external_targets": {
+    "__ehhandler$?GetSpanningTree@?$WeightedGraph@UPlayerIdAndGroupId@ConnectionGraph@@G$0A@@DataStructures@@QAE_NAAV?$Tree@UPlayerIdAndGroupId@ConnectionGraph@@@2@PAV?$List@UPlayerIdAndGroupId@ConnectionGraph@@@2@UPlayerIdAndGroupId@ConnectionGraph@@G@Z": 269365982,
+    "__except_list": 0,
+    "??2@YAPAXI@Z": 269247098,
+    "??9PlayerID@@QBE_NABU0@@Z": 268646160,
+    "??3@YAXPAX@Z": 269247626,
+    "??8PlayerID@@QBE_NABU0@@Z": 268646112,
+    "??MPlayerID@@QBE_NABU0@@Z": 268646256,
+    "??_M@YGXPAXIHP6EX0@Z@Z": 269254767,
+    "__ehhandler$??1?$WeightedGraph@UPlayerIdAndGroupId@ConnectionGraph@@G$0A@@DataStructures@@QAE@XZ": 269359683,
+    "__ehhandler$??1?$Map@UPlayerIdAndGroupId@ConnectionGraph@@PAV?$Map@UPlayerIdAndGroupId@ConnectionGraph@@G$1??$defaultMapKeyComparison@UPlayerIdAndGroupId@ConnectionGraph@@@DataStructures@@YAHABU12@0@Z@DataStructures@@$1??$defaultMapKeyComparison@UPlayerIdAndGroupId@ConnectionGraph@@@4@YAHABU12@0@Z@DataStructures@@QAE@XZ": 269359544,
+    "__ehhandler$??1?$OrderedList@UPlayerIdAndGroupId@ConnectionGraph@@UMapNode@?$Map@UPlayerIdAndGroupId@ConnectionGraph@@PAV?$Map@UPlayerIdAndGroupId@ConnectionGraph@@G$1??$defaultMapKeyComparison@UPlayerIdAndGroupId@ConnectionGraph@@@DataStructures@@YAHABU12@0@Z@DataStructures@@$1??$defaultMapKeyComparison@UPlayerIdAndGroupId@ConnectionGraph@@@4@YAHABU12@0@Z@DataStructures@@$1?NodeComparisonFunc@45@SAHABU12@ABU345@@Z@DataStructures@@QAE@XZ": 269359448,
+    "__ehhandler$??1?$OrderedList@UPlayerIdAndGroupId@ConnectionGraph@@U12@$1??$defaultOrderedListComparison@UPlayerIdAndGroupId@ConnectionGraph@@U12@@DataStructures@@YAHABU12@0@Z@DataStructures@@QAE@XZ": 269359352,
+    "__ehhandler$??1?$Map@UPlayerIdAndGroupId@ConnectionGraph@@G$1??$defaultMapKeyComparison@UPlayerIdAndGroupId@ConnectionGraph@@@DataStructures@@YAHABU12@0@Z@DataStructures@@QAE@XZ": 269359416,
+    "__ehhandler$??1?$OrderedList@UPlayerIdAndGroupId@ConnectionGraph@@UMapNode@?$Map@UPlayerIdAndGroupId@ConnectionGraph@@G$1??$defaultMapKeyComparison@UPlayerIdAndGroupId@ConnectionGraph@@@DataStructures@@YAHABU12@0@Z@DataStructures@@$1?NodeComparisonFunc@45@SAHABU12@ABU345@@Z@DataStructures@@QAE@XZ": 269359384,
+    "__ehhandler$?DeleteDecendants@?$Tree@UPlayerIdAndGroupId@ConnectionGraph@@@DataStructures@@QAEXXZ": 269365576,
+    "__ehhandler$??1?$Tree@UPlayerIdAndGroupId@ConnectionGraph@@@DataStructures@@QAE@XZ": 269365480,
+    "__ehhandler$?LevelOrderTraversal@?$Tree@UPlayerIdAndGroupId@ConnectionGraph@@@DataStructures@@QAEXAAV?$List@PAV?$Tree@UPlayerIdAndGroupId@ConnectionGraph@@@DataStructures@@@2@@Z": 269365512,
+    "__ehhandler$?Insert@?$List@UMapNode@?$Map@UPlayerIdAndGroupId@ConnectionGraph@@G$1??$defaultMapKeyComparison@UPlayerIdAndGroupId@ConnectionGraph@@@DataStructures@@YAHABU12@0@Z@DataStructures@@@DataStructures@@QAEXUMapNode@?$Map@UPlayerIdAndGroupId@ConnectionGraph@@G$1??$defaultMapKeyComparison@UPlayerIdAndGroupId@ConnectionGraph@@@DataStructures@@YAHABU12@0@Z@2@I@Z": 269359163,
+    "??_L@YGXPAXIHP6EX0@Z1@Z": 269254863,
+    "_memmove": 269250016,
+    "__ehhandler$?Insert@?$List@UMapNode@?$Map@UPlayerIdAndGroupId@ConnectionGraph@@G$1??$defaultMapKeyComparison@UPlayerIdAndGroupId@ConnectionGraph@@@DataStructures@@YAHABU12@0@Z@DataStructures@@@DataStructures@@QAEXUMapNode@?$Map@UPlayerIdAndGroupId@ConnectionGraph@@G$1??$defaultMapKeyComparison@UPlayerIdAndGroupId@ConnectionGraph@@@DataStructures@@YAHABU12@0@Z@2@@Z": 269359131,
+    "__ehhandler$?Insert@?$List@UMapNode@?$Map@UPlayerIdAndGroupId@ConnectionGraph@@PAV?$Map@UPlayerIdAndGroupId@ConnectionGraph@@G$1??$defaultMapKeyComparison@UPlayerIdAndGroupId@ConnectionGraph@@@DataStructures@@YAHABU12@0@Z@DataStructures@@$1??$defaultMapKeyComparison@UPlayerIdAndGroupId@ConnectionGraph@@@4@YAHABU12@0@Z@DataStructures@@@DataStructures@@QAEXUMapNode@?$Map@UPlayerIdAndGroupId@ConnectionGraph@@PAV?$Map@UPlayerIdAndGroupId@ConnectionGraph@@G$1??$defaultMapKeyComparison@UPlayerIdAndGroupId@ConnectionGraph@@@DataStructures@@YAHABU12@0@Z@DataStructures@@$1??$defaultMapKeyComparison@UPlayerIdAndGroupId@ConnectionGraph@@@4@YAHABU12@0@Z@2@I@Z": 269359227,
+    "__ehhandler$?Insert@?$List@UMapNode@?$Map@UPlayerIdAndGroupId@ConnectionGraph@@PAV?$Map@UPlayerIdAndGroupId@ConnectionGraph@@G$1??$defaultMapKeyComparison@UPlayerIdAndGroupId@ConnectionGraph@@@DataStructures@@YAHABU12@0@Z@DataStructures@@$1??$defaultMapKeyComparison@UPlayerIdAndGroupId@ConnectionGraph@@@4@YAHABU12@0@Z@DataStructures@@@DataStructures@@QAEXUMapNode@?$Map@UPlayerIdAndGroupId@ConnectionGraph@@PAV?$Map@UPlayerIdAndGroupId@ConnectionGraph@@G$1??$defaultMapKeyComparison@UPlayerIdAndGroupId@ConnectionGraph@@@DataStructures@@YAHABU12@0@Z@DataStructures@@$1??$defaultMapKeyComparison@UPlayerIdAndGroupId@ConnectionGraph@@@4@YAHABU12@0@Z@2@@Z": 269359195,
+    "__ehhandler$?GetShortestPath@?$WeightedGraph@UPlayerIdAndGroupId@ConnectionGraph@@G$0A@@DataStructures@@QAE_NAAV?$List@UPlayerIdAndGroupId@ConnectionGraph@@@2@UPlayerIdAndGroupId@ConnectionGraph@@1G@Z": 269365904,
+    "__ehhandler$?PushAtHead@?$Queue@UPlayerIdAndGroupId@ConnectionGraph@@@DataStructures@@QAEXABUPlayerIdAndGroupId@ConnectionGraph@@I@Z": 269365398,
+    "__ehhandler$??0?$Queue@UPlayerIdAndGroupId@ConnectionGraph@@@DataStructures@@QAE@XZ": 269359003,
+    "__ehhandler$?GenerateDisjktraMatrix@?$WeightedGraph@UPlayerIdAndGroupId@ConnectionGraph@@G$0A@@DataStructures@@IAEXUPlayerIdAndGroupId@ConnectionGraph@@G@Z": 269365835,
+    "__ehhandler$??1?$Heap@GUPlayerIdAndGroupId@ConnectionGraph@@$0A@@DataStructures@@QAE@XZ": 269365736,
+    "__ehhandler$?Pop@?$Heap@GUPlayerIdAndGroupId@ConnectionGraph@@$0A@@DataStructures@@QAE?AUPlayerIdAndGroupId@ConnectionGraph@@I@Z": 269365665,
+    "__ehhandler$?Push@?$Heap@GUPlayerIdAndGroupId@ConnectionGraph@@$0A@@DataStructures@@QAEXABGABUPlayerIdAndGroupId@ConnectionGraph@@@Z": 269365608,
+    "__ehhandler$?Insert@?$List@UHeapNode@?$Heap@GUPlayerIdAndGroupId@ConnectionGraph@@$0A@@DataStructures@@@DataStructures@@QAEXUHeapNode@?$Heap@GUPlayerIdAndGroupId@ConnectionGraph@@$0A@@2@@Z": 269365555,
+    "__ehhandler$?Insert@?$List@UPlayerIdAndGroupId@ConnectionGraph@@@DataStructures@@QAEXUPlayerIdAndGroupId@ConnectionGraph@@I@Z": 269365427,
+    "__ehhandler$?Insert@?$List@UPlayerIdAndGroupId@ConnectionGraph@@@DataStructures@@QAEXUPlayerIdAndGroupId@ConnectionGraph@@@Z": 269365459
+  },
+  "sources": [
+    {
+      "path": "build/agent-independent/eval_vendor_graph_algorithms.cpp",
+      "sha256": "0030b643e84e2d85fc3a92135714e1478fa4a63c3e53c1e8a7dc805d6ae57db5"
+    },
+    {
+      "path": "build/agent-independent/eval_vendor_graph_node_identity.cpp",
+      "sha256": "606590f7595435a501248842bdb294ab4c0e444849ce35ed19fb0edf4e26447f"
+    },
+    {
+      "path": "build/agent-independent/eval_vendor_graph_playerid_comparisons.cpp",
+      "sha256": "c1adb6be02116e361acdfb3a940a274942060595a7eaf6b56905f9e7c98cdece"
+    }
+  ],
+  "full_types": {
+    "PlayerID": 6,
+    "Node": 7,
+    "WeightedGraph": 52,
+    "AdjacencyMap": 24,
+    "Tree": 19,
+    "Heap": 12
+  },
+  "actual_allocations": [
+    "Tree<Node>19 complete nodes with real children list/destructor",
+    "Map<Node,unsigned short>24 complete adjacency maps",
+    "CostMatrix unsigned short dynamic square count",
+    "LeastNodeArray complete Node7 elements plus compiler array cookies",
+    "List/Heap/Queue arrays allocate true element sizes from unchanged vendor headers"
+  ],
+  "source025_direct_bytes": 0,
+  "scope": "Real GetSpanningTree/GetShortestPath/GenerateDisjktraMatrix and all required template providers only. No Router object/VFT, plugin or transport callback is instantiated by this unit; no network execution.",
+  "behavior_preserved": "Node ordering compares PlayerID only; groupId ignored. Parameterized node constructor leaves groupId unchanged due original self-assignment. No behavior fixes.",
+  "requirements": "All EH cleanup/arrays and Map/List/Heap template identities must follow original callers and whole data sections after fresh probe. Reuse old COMDAT owners; no union credit for old primitives.",
+  "original_root_call_chain": [
+    {
+      "caller_rva": 332480,
+      "site_rva": 332881,
+      "target_rva": 331408
+    },
+    {
+      "caller_rva": 331408,
+      "site_rva": 331596,
+      "target_rva": 330368
+    },
+    {
+      "caller_rva": 330368,
+      "site_rva": 330575,
+      "target_rva": 329184
+    }
+  ]
+}

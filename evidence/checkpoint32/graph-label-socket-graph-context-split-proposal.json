@@ -1,0 +1,24 @@
+{
+  "status": "BOUNDED_REAL_CONTEXT_SPLIT_PROPOSAL_NOT_COMPILED",
+  "sources": [
+    {
+      "path": "build/agent-independent/eval_vendor_graph_algorithms2_external_providers.cpp",
+      "sha256": "3f3e9860f075a40e0a5a1a02c2f4372e7af3f970b8b1d814112e3d68856bc065"
+    },
+    {
+      "path": "build/agent-independent/eval_vendor_graph_node_identity2_providers.cpp",
+      "sha256": "098cc5ecd5aa1ff7f6910d23162d63f756ae904dc894e15cb9437265d23f717f"
+    }
+  ],
+  "unchanged_third_unit": "build/agent-independent/eval_vendor_graph_playerid_comparisons.cpp",
+  "mechanism": "Explicit extern-template class declarations suppress Map/Queue/lower Graph definitions in algorithm TU. Only three real algorithms explicitly instantiated there. Lower providers explicitly instantiated with real Node method definitions visible, as original ConnectionGraph.cpp. No same-symbol mismatching COMDAT may be selected as fallback.",
+  "required_probe_conditions": [
+    "MSVC2003 must accept extern-template suppression; if unsupported no fallback alias/COMDAT selection.",
+    "All23 mismatching lower providers must be absent from algorithm object after suppression.",
+    "Exact high methods1059/1026/1170 must remain exact with all bindings.",
+    "Lower methods must match full original bodies and EH in Node-provider object.",
+    "Extra instantiated but unneeded functions stay outside seeds/coverage."
+  ],
+  "reason": "Fresh23 failures are exactly providers whose original matching copy is in ConnectionGraph.obj, where empty Node ctors/dtors are visible; high algorithms match Router.obj context where Node is only declared.",
+  "source_body_changes": "None. Only actual template instantiation ownership is changed. No shared header, stub, code bytes, symbolic exception or virtual object introduced."
+}

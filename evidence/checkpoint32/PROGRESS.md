@@ -1426,3 +1426,8 @@ Direct0250/cumulative21126; source025 helps scoreboard reasoning but hybrid impl
 Plate/request accepted: +402 unique code bytes, total 262513/930756 (28.204277%). Full plate owner lifecycle230 and genuine periodic request151/EH21; whole unwind36 and scalars4+4. All 3280 regions, COFF/PE bindings and actual providers, ten negative controls and actor ABI pass. Existing aliases freshly qualified at final link. Direct0250/cumulative21126 (hybrid request adaptation). PlateRender296/295 and ScoreboardDraw790 scheduling mismatches excluded; no guessed register permutations.
 
 Since parallel start 89372 new unique bytes, 10124.3 bytes/hour coordination included. Next graph context split, socket leaves and labels3D. Goal active; no push/deployment/network execution.
+
+
+Graph/labels/socket accepted: +9624 unique code bytes, total 272137/930756 (29.238275%). Graph8633 (476 EH), labels564, socket leaves427. Every selected function/COMDAT copy, all 3456 regions, original COFF/PE bindings and complete EH maps804 verified; ten controls and bounded actor ABI pass. Real compilation contexts separated, comparator44 emitted explicitly to eliminate absent fallback name without gate changes. Duplicate copies give no extra coverage. High graph algorithms and dependent SpanningTree remain excluded, as does SocketSendTo137 with extra transformation.
+
+Direct0250/cumulative21126; missing025 descriptor18 provides concrete semantic/data input to labels, not direct code credit. Since parallel start 98996 new unique bytes at 10871.4 bytes/hour coordination included. LabelPool and StringTable next; goal active. No push, deployment, native UI or live sockets.
