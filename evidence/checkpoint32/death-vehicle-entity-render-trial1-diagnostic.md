@@ -1,0 +1,7 @@
+# Entity render trial1: complete138, only receiver/RwObject register allocation differs
+
+Object closure_preview_entity_render.obj emits138 bytes, zero fixups, no attached data. Native addresses733160 and553260, slot44, modelrange400..611, fields40/18/22, three locals and branches all correspond to original. Trial binds receiverEDI and savedRwObjectESI; original receiverESI/savedRwObjectEDI. SavingEDI moves from original9FB35 to trial9FB27, accounting for early instruction offsets; from9FB39 onward instruction locations and lengths agree, with register operands swapped where these values are used. HelperGetRwObject12 remains excluded.
+
+No source025 implementation or different native data identity provides a grounded C++ reason to choose the opposite coloring. Replacing the partial receiver with a fake fullclass, inventing extra fields/volatile values or reordering unrelated declarations solely to chase registers would not be a justified correction. Therefore no further C++ permutation is proposed.
+
+If root chooses a separately reviewed symbolic exception later, this is a bounded138-byte complete candidate with entirely known ABI, no unresolved dependency, no relocations, no EH/table/alignment no-op; unlike objectpreview694 it has no padding complication. The normal C++ attempt remains first-choice semantic source and evidence. This report does not implement that exception or count any match.

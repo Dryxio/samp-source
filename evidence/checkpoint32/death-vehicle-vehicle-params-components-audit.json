@@ -1,0 +1,113 @@
+{
+  "status": "PROPOSAL_NOT_COMPILED_NOT_ACCEPTED",
+  "baseline": "evidence/checkpoint32/preview-clock-acceptance.json",
+  "baseline_bytes": 214516,
+  "potential_unique_code": 652,
+  "regions": [
+    {
+      "identity": "VehicleParamsRPC",
+      "rva": 106080,
+      "size": 204,
+      "sha256": "8582a16c2d54f78aac2ab15bce78c10bc451c76a22705dc3f785428347babe7f"
+    },
+    {
+      "identity": "AssignSpecialParamsToVehicle",
+      "rva": 125744,
+      "size": 84,
+      "sha256": "d3760c7c777396fb84fba3c92a01a5f7110b62698b26b483aaf7240245dd4430"
+    },
+    {
+      "identity": "SetDoorState",
+      "rva": 751680,
+      "size": 48,
+      "sha256": "f4243e248ec877361679c03c43a9b36482c37c3482a15aa49d9953db396def99"
+    },
+    {
+      "identity": "RemoveComponentRPC",
+      "rva": 116160,
+      "size": 213,
+      "sha256": "c1e09ee7ef6afc451688eb4fbb436938c99a8eba20332adb1d6c5348480b2505"
+    },
+    {
+      "identity": "RemoveComponent",
+      "rva": 753840,
+      "size": 61,
+      "sha256": "83f69caa8631f57f5699e51e9c8f813820223eaa567d4383f2dc41b9706028f8"
+    },
+    {
+      "identity": "RPC EH",
+      "rva": 921584,
+      "size": 21,
+      "sha256": "657b998ce6d7e543d2a9b9de751c611e90dd134d8346a54dedde17027369638b"
+    },
+    {
+      "identity": "RPC EH",
+      "rva": 922672,
+      "size": 21,
+      "sha256": "c8dc07f6ca4bec8446e3a44d60cf76df7e69efd391e74decc63af70ca41145bd"
+    }
+  ],
+  "data": [
+    {
+      "identity": "UnwindMap",
+      "rva": 1018388,
+      "size": 8,
+      "sha256": "f5504d6a86ff87447389a08ff9a4ab77877fb0690c538c9a990d8133e510961e"
+    },
+    {
+      "identity": "FuncInfo",
+      "rva": 1018396,
+      "size": 28,
+      "sha256": "e29bb1a877edadb1defc91fe2d5d701decc4fc260da2ea6597be7362862ad149"
+    },
+    {
+      "identity": "UnwindMap",
+      "rva": 1019612,
+      "size": 8,
+      "sha256": "4d546efadf1ade30a388cc3bf9c8ecc65f85a17bd68afe0e5f98dc89701dd362"
+    },
+    {
+      "identity": "FuncInfo",
+      "rva": 1019620,
+      "size": 28,
+      "sha256": "b08069ab06de82eeae83e12dd6875a3c034556d079f4cc5fc9072e9e457e51b7"
+    },
+    {
+      "identity": "RemoveComponent command06E8 ii",
+      "rva": 972408,
+      "size": 18,
+      "sha256": "ade5ca65d4711b6b957dccbe26275f8e48d1992b370b2c8f92ac977fb4a9461c"
+    }
+  ],
+  "sources": [
+    {
+      "path": "build/agent-independent/eval_rpc_vehicle_params_components.cpp",
+      "sha256": "a68ed112492138d3109bc18a8af1899b8734787b4670120dcb57bcacd49fc549"
+    },
+    {
+      "path": "build/agent-independent/eval_vehicle_params_components_providers.cpp",
+      "sha256": "ae01c11dc397aed557e54b6e875b683b7a3de13fa8fa9e6885f7d5b74827e0b0"
+    },
+    {
+      "path": "build/agent-independent/eval_store_remove_vehicle_component.cpp",
+      "sha256": "ef82ad52cc9b60709e63d02236eaa3ed056121c401ac8f715e927a6c549eb29b"
+    }
+  ],
+  "header_additions": [],
+  "source025_candidate_code": 549,
+  "source025_note": "ParamsRPC/Assign/SetDoorState from025 actual source. RemoveComponentRPC213 adapted WORD component/new provider; provider61 R5-only no credit. Methods use reconstructed view names, not an alias for different accepted SetLockedState.",
+  "providers": [
+    "BitStream char*1F840 ReadBits1F9B0 dtor1F8D0",
+    "GamePool_Vehicle_GetAt stdcall B3BD0",
+    "ScriptCommandB2310(&commandED678, GTAid44,WORD component promotedint)",
+    "pNetGame26EB94 owner\u2192pools3DE\u2192vehiclepool0",
+    "EH CxxFrameHandlerC6526"
+  ],
+  "ownership": "Only nonowning views of existing actual CVehicle/VehiclePool, never allocated. Native door field4F8 asserted against actual VEHICLE_TYPE. Wrapper doors60/objective64/specialMarker65 and activepoolBD14 verified against R5 and025 semantic fields.",
+  "identity_warning": "SetDoorState B7840/48 writes native4F8 andwrapper60; distinct from accepted CVehicle::SetLockedState script59. No remapping that accepted provider.",
+  "provenance_paths": [
+    "025 client/net/scriptrpc.cpp370 and1052",
+    "025 client/net/vehiclepool.cpp109",
+    "025 client/game/vehicle.cpp624"
+  ]
+}

@@ -1,0 +1,84 @@
+{
+  "status": "PROPOSAL_NOT_COMPILED_NOT_ACCEPTED",
+  "baseline": "evidence/checkpoint32/preview-clock-acceptance.json",
+  "baseline_bytes": 214516,
+  "potential_unique_code": 646,
+  "regions": [
+    {
+      "identity": "DeathRPC",
+      "rva": 122224,
+      "size": 493,
+      "sha256": "ca35044b3d4d7fc8a6dc33622ca98ae136b26e537a309fc113e576121f71a773"
+    },
+    {
+      "identity": "PlayerPool GetPlayerName",
+      "rva": 95680,
+      "size": 72,
+      "sha256": "05efb57c29f493912e1f0f6d829e0991704ea573ab27161b8acd28ddca8c1c41"
+    },
+    {
+      "identity": "Local ARGB",
+      "rva": 16160,
+      "size": 33,
+      "sha256": "82b81b5ab2200a9112bdee7d534c8475f566d568e150b5122f51470f91261bdd"
+    },
+    {
+      "identity": "Remote ARGB",
+      "rva": 90496,
+      "size": 22,
+      "sha256": "cf302e439745732ffe92722ed615046d7370047847ec66a57b372918f65bedbb"
+    },
+    {
+      "identity": "DeathWindow AddMessage",
+      "rva": 435888,
+      "size": 5,
+      "sha256": "7150bb060a88f7d3147390433b666fa0eaa563542d5607a0de99bf6a471bb467"
+    },
+    {
+      "identity": "RPC EH",
+      "rva": 923376,
+      "size": 21,
+      "sha256": "06eae23476be6d30d82daf4e4c0e2206c22c6ecda3a42966718c0a9717821b80"
+    }
+  ],
+  "data": [
+    {
+      "identity": "UnwindMap",
+      "rva": 1020404,
+      "size": 8,
+      "sha256": "e2a487241d5e46b9d6f8c58c9956dfd1c0c64d3de01d12bebff9e1edcc45ece0"
+    },
+    {
+      "identity": "FuncInfo",
+      "rva": 1020412,
+      "size": 28,
+      "sha256": "732664546d68f9d5cabd10e6bf933d2ab5dd54783c4c61b30881e34831b847c8"
+    }
+  ],
+  "source025_candidate_code": 493,
+  "header_additions": {},
+  "providers": [
+    "BitStream char*1F840 ReadBits1F9B0 dtor1F8D0",
+    "TranslateColorCodeToRGBA A7230 accepted",
+    "CPlayerPool GetAt10F0 true remote pointer10",
+    "AddMessage6A6B0 tailcalls accepted AddToDeathWindowBuffer6A5D0",
+    "pNetGame26EB94 pDeathWindow26EB88 true accepted stores",
+    "EH CxxFrameHandlerC6526"
+  ],
+  "provenance": "RPC source025 net/scriptrpc.cpp557 unchanged except char* overload; ARGB getters and AddMessage already complete base; Name72 reconstructed std::string lookup, no025 credit claimed.",
+  "sources": [
+    {
+      "path": "build/agent-independent/rpc_death_pool_view.h",
+      "sha256": "7e2cfa741d1462a85d28e585edca2a9d67b7b1f854368766bf2b36ad3d7fe4a6"
+    },
+    {
+      "path": "build/agent-independent/eval_rpc_death_message2.cpp",
+      "sha256": "12424dd70a6a42376f8ec253a4958f286813259d84e98d07c216e8d2d7801f47"
+    },
+    {
+      "path": "build/agent-independent/eval_death_message_providers2.cpp",
+      "sha256": "eba7cb6c2692d75d9258fac430973ef54568592141d79b41c490d5e871097e3d"
+    }
+  ],
+  "view_qualification": "Non-owning CPlayerPool prefix view, never allocated or constructed, std::string at6 is existing live member. Prefix fields toplayers1F8A reflect actual header and original reads; no claim to own trailing fields. GetAt uses real existing CPlayerPool provider. GetPlayerName method symbolic identity maps independently verified175C0; no alias swapping."
+}
