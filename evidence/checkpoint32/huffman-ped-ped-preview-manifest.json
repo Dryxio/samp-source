@@ -1,0 +1,62 @@
+{
+  "status": "UNCOMPILED_PROPOSAL",
+  "principal_code": 634,
+  "expected_EH_code": 21,
+  "regions": [
+    {
+      "rva": "0x6c140",
+      "size": 634,
+      "kind": "principal",
+      "sha256": "df19a7c28fec2186436570d7a4d2763caa9259771006167a883b98f66f074632",
+      "pe_relocations": [
+        "0x3",
+        "0xb9",
+        "0x104",
+        "0x127",
+        "0x14c",
+        "0x23e"
+      ]
+    },
+    {
+      "rva": "0xe3960",
+      "size": 11,
+      "kind": "EH-cleanup",
+      "sha256": "0df5dd2edfbb5637851e4eefdc9cb6ccc204248ac61bc15c305f7b6821bdbecb",
+      "pe_relocations": []
+    },
+    {
+      "rva": "0xe396b",
+      "size": 10,
+      "kind": "EH-handler",
+      "sha256": "f0ba32e5d9db4612e6a6a6c4dc1fdf5734de6558cb2f16c5dbe7f41929f839e4",
+      "pe_relocations": [
+        "0x1"
+      ]
+    },
+    {
+      "rva": "0xfb82c",
+      "size": 28,
+      "kind": "FuncInfo",
+      "sha256": "bbb8d0bf4c75fbe582172ecbafa374a280526795ced0f3bb159008d794c0f7d2",
+      "pe_relocations": [
+        "0x8"
+      ]
+    },
+    {
+      "rva": "0xfb824",
+      "size": 8,
+      "kind": "UnwindMap",
+      "sha256": "449058de436bb8ed7ba3bdc69617202401c4ba903110bac0e04cb78c1508dd10",
+      "pe_relocations": [
+        "0x4"
+      ]
+    }
+  ],
+  "float_payloads": {
+    "EA62C": "000010c0",
+    "E5940": "00000000",
+    "height50.05": "33334842",
+    "heightSpecial": "99994842",
+    "step100": "0000c842"
+  }
+}

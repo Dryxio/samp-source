@@ -1,0 +1,60 @@
+{
+  "status": "ORIGINAL_CALLSITE_IDENTITY_VERIFIED_NO_NEW9_CREDIT",
+  "ctor_rva": 157536,
+  "ctor_size": 9,
+  "existing_CP31_identity": "CSoundManager constructor; preserve historical proof unchanged",
+  "direct_original_calls": [
+    {
+      "caller_rva": 154016,
+      "site_rva": 154110,
+      "caller_size": 334
+    },
+    {
+      "caller_rva": 154352,
+      "site_rva": 154386,
+      "caller_size": 288
+    },
+    {
+      "caller_rva": 182928,
+      "site_rva": 182934,
+      "caller_size": 15
+    },
+    {
+      "caller_rva": 183888,
+      "site_rva": 183964,
+      "caller_size": 1505
+    },
+    {
+      "caller_rva": 187744,
+      "site_rva": 187937,
+      "caller_size": 304
+    },
+    {
+      "caller_rva": 232032,
+      "site_rva": 232137,
+      "caller_size": 208
+    },
+    {
+      "caller_rva": 232032,
+      "site_rva": 232184,
+      "caller_size": 208
+    },
+    {
+      "caller_rva": 345184,
+      "site_rva": 345278,
+      "caller_size": 163
+    },
+    {
+      "caller_rva": 345360,
+      "site_rva": 345526,
+      "caller_size": 241
+    }
+  ],
+  "definite_huffman_callers": [
+    345184,
+    345360
+  ],
+  "evidence": "Both callers allocate1540 via new then call26760 then GenerateFromFrequencyTable26FC0.54460 supplies exact1024 English frequency table101DE8;54510 computes local frequency table.",
+  "soundmanager_sharing": "No direct caller recognized as SoundManager in current original inventory; historical CP31 samebody attribution alone does not establish actual shared source identity. Do not assert sound/Huffman ICF beyond observed calls.",
+  "coverage_policy": "Count zero new bytes at26760; add true Huffman code identity only with preserved CP31 provenance and original-callsite evidence."
+}
