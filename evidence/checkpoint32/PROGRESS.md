@@ -1401,3 +1401,8 @@ All 3053 linked regions, every COFF/PE target, ten controls and actor ABI pass. 
 Lifecycle/chat accepted: +5532 unique code bytes, total 253737/930756 (27.261388%). Network lifecycle4667, chatRenderText851, independent menu14. Real1794/16/55 class sizes and all actual allocations/releases. Sole SetPing/UpdateNextActionTime146 moved without extra credit; genuine same-TU visibility restored Initialize405. Full typed selectany double8 preserves compiletime value while pooled16 and extern-only split rejected. No slicing/copied instructions. All complete EH/unwind maps, true vector CRT boundaries excluded from source coverage.
 
 All 3151 linked regions, COFF/PE targets, ten controls and actor ABI pass. Direct02514/cumulative21126; chat851 hybrid0, vendor lifecycle0. Measured 80596 unique bytes at 10441.1 bytes/hour including coordination and failed attempts. Label755 and Draw662 parked, dependent wrappers excluded. Resources536 candidate next. Goal active; no push/deploy/game/live network.
+
+
+Chat resources accepted: +536 unique bytes, total 254273/930756 (27.318975%). CreateFonts419/MeasureDimensions117 normal C++ first probe exact. Whole six strings,17 COFF/PE bindings; Y2 reused. Actual D3DXCreateTexture/CreateRenderToSurface import thunks and pinned library identities, no source credit for imports. Real CChatWindow owner/nonallocating view, original failure paths. All 3159 linked regions, ten controls and actor ABI pass.
+
+Direct0250/cumulative21126; measured 81132 unique bytes at 10342.6 bytes/hour incl coordination. Constructor279 only LEA/MOV scheduling difference, parked with full diagnostic; Draw662 and dependent wrappers excluded. Next ACK/resend trees and scoreboard actions; goal active, no push/game/network execution.

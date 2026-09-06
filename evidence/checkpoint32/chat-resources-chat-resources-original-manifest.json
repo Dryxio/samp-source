@@ -1,0 +1,72 @@
+{
+  "status": "PROPOSAL_NOT_COMPILED",
+  "regions": [
+    {
+      "rva": 422176,
+      "size": 117,
+      "sha256": "9c7af21d2ca0a534655261a3e7afb8c3dcec88650939de6e7e87f2a95bf9c75b"
+    },
+    {
+      "rva": 426448,
+      "size": 419,
+      "sha256": "57987fa4eb2c75f9706b481446701d4dfffca841fd0de1ea12a9805361eba691"
+    }
+  ],
+  "strings": [
+    {
+      "rva": 942972,
+      "size": 2,
+      "text": "Y",
+      "sha256": "fb5642a8912a446bd56e6be6fcf18913a24b8b681959a9c7b9e00546f181c386"
+    },
+    {
+      "rva": 957596,
+      "size": 11,
+      "text": "[19:58:34]",
+      "sha256": "79a89428e8180c10a96b1cf9f2cde52c4d2d224f9b55b219352d180f5f7ee09b"
+    },
+    {
+      "rva": 957836,
+      "size": 11,
+      "text": "directmode",
+      "sha256": "acd474b6ce581c38a323d168dc904fdc30c5e3467af10b73bb3b39a45cb46164"
+    },
+    {
+      "rva": 957796,
+      "size": 39,
+      "text": "ChatWindow: Using direct drawing mode.",
+      "sha256": "6d1c2e0bda5418f0c4c219c048f484aed225cf3c6d72435ebb3f5b176b926b19"
+    },
+    {
+      "rva": 957720,
+      "size": 73,
+      "text": "ChatWindow: Can't create a render surface texture. Will use direct mode.",
+      "sha256": "ccf2b13cc9c40e0231d0d6b8be6a07f39d6357aa701cdfcd5c8845fec915a42a"
+    },
+    {
+      "rva": 957648,
+      "size": 68,
+      "text": "ChatWindow: Can't create a render to surface. Will use direct mode.",
+      "sha256": "5d39f539457e549bb55cf7b1b99ce216c9ad67c855dcf3e0754f03f7a87c7d69"
+    }
+  ],
+  "imports": [
+    {
+      "module": "d3dx9_25.dll",
+      "name": "D3DXCreateTexture",
+      "iat_rva": 939296,
+      "thunk_rva": 810094,
+      "source_credit": 0
+    },
+    {
+      "module": "d3dx9_25.dll",
+      "name": "D3DXCreateRenderToSurface",
+      "iat_rva": 939300,
+      "thunk_rva": 810088,
+      "source_credit": 0
+    }
+  ],
+  "new_code_potential": 536,
+  "direct025_credit": 0,
+  "EH": 0
+}
