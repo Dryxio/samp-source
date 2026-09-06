@@ -1330,3 +1330,20 @@ EXPORTS
     ?Draw@CNewPlayerTags@@QAEXPAUD3DXVECTOR3@@MMM@Z
     ?Begin@CNewPlayerTags@@QAEXXZ
     ?SetTransform@IDirect3DDevice9Hook@@UAGJW4_D3DTRANSFORMSTATETYPE@@PBU_D3DMATRIX@@@Z
+    ?SetEncryptionKey@ReliabilityLayer@@QAEXPBE@Z
+    ?Receive@ReliabilityLayer@@QAEHPAPAE@Z
+    ?SplitPacket@ReliabilityLayer@@AAEXPAUInternalPacket@@H@Z
+    ?CreateInternalPacketCopy@ReliabilityLayer@@AAEPAUInternalPacket@@PAU2@HH_J@Z
+    ?InsertPacketIntoResendList@ReliabilityLayer@@AAEXPAUInternalPacket@@_J_N2@Z
+    ?SetPing@ReliabilityLayer@@QAEXI@Z
+    ?Send@ReliabilityLayer@@QAE_NPADHW4PacketPriority@@W4PacketReliability@@E_NH_J@Z
+    ?DeleteSequencedPacketsInList@ReliabilityLayer@@AAEXEAAV?$List@PAUInternalPacket@@@DataStructures@@H@Z
+    ?DeleteSequencedPacketsInList@ReliabilityLayer@@AAEXEAAV?$Queue@PAUInternalPacket@@@DataStructures@@@Z
+    ?GetResendListDataSize@ReliabilityLayer@@ABEIXZ
+    ?IsDataWaiting@ReliabilityLayer@@QAE_NXZ
+    ?AreAcksWaiting@ReliabilityLayer@@QAE_NXZ
+    ?AddToOrderingList@ReliabilityLayer@@AAEXPAUInternalPacket@@@Z
+    ?GetStatistics@ReliabilityLayer@@QAEQAURakNetStatisticsStruct@@_N@Z
+    ?InsertIntoSplitPacketList@ReliabilityLayer@@AAEXPAUInternalPacket@@_J@Z
+    ?DeleteOldUnreliableSplitPackets@ReliabilityLayer@@AAEX_J@Z
+    ?BuildPacketFromSplitPacketList@ReliabilityLayer@@AAEPAUInternalPacket@@G_J@Z

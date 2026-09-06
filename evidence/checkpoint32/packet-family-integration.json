@@ -1,0 +1,35 @@
+{
+  "status": "ACCEPTED_AFTER_COMPLETE_LINK_REVIEW",
+  "run": "cp32-packet-family-linked1",
+  "ob1": "cp32-packet-family-ob1",
+  "ob2": "cp32-tea-health-ob2",
+  "new_unique_code_bytes": 5919,
+  "direct_025_accepted_bytes": 0,
+  "total_direct_025_accepted_bytes": 21112,
+  "coverage": {
+    "previous_code_bytes": 242286,
+    "batch_code_bytes": 229950,
+    "new_unique_code_bytes": 5919,
+    "union_code_bytes": 248205,
+    "text_bytes": 930756,
+    "text_percent": 26.66703196111548,
+    "whole_dll_match": false
+  },
+  "verification": "Complete ReliabilityLayer split/reassembly, send/receive queueing, ordered/sequenced maintenance, statistics, ping, TEA setup:5901 function bytes +18 EH. Whole xdata36,190 COFF/PE bindings checked in57 preflight sections.558 old bytes excluded. Real alloca CRT61 checked whole and receives zero source coverage. Ten controls and actor ABI pass.",
+  "adaptations": "Normal complete vendor class layouts packet55/split channel20/list12. Initial extraction failed on a commented closing brace; restored original23 source lines without semantic adaptation. Corrected probe74/74 candidates; select only actual closed dependency graph. All348 Ob1 objects reused, no headers changed.",
+  "reference_credit": "Vendor baseline source, direct025 increment0/cumulative21112.",
+  "throughput": {
+    "start_utc": "2026-09-05T20:11:21Z",
+    "measured_utc": "2026-09-06T03:38:16.322763+00:00",
+    "elapsed_seconds": 26815.322763,
+    "new_unique_bytes": 75064,
+    "bytes_per_hour": 10077.462143132065,
+    "coordination_included": true,
+    "agents": 3
+  },
+  "blockers": [
+    "Five old pending; Object694/Sprite272 and enclosing549 excluded. Label trials757/756/755 remain unmatched and are not counted."
+  ],
+  "next": "Continue independent network family and chat renderer851. Goal active.",
+  "runtime": "No native renderer, live networking or GTA execution; static matching and existing bounded actor ABI only."
+}
