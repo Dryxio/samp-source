@@ -1,0 +1,71 @@
+{
+  "status": "UNCOMPILED_PROPOSAL",
+  "functions": [
+    {
+      "name": "RotatePreviewMatrix",
+      "rva": "0xb5790",
+      "size": 72,
+      "new_bytes": 72,
+      "sha256": "2974db74935dcb8c57077c53a9e94c5deec457f5dd77ab020a79776c721070cd",
+      "pe_relocations": [
+        "0x5",
+        "0x1a",
+        "0x2a",
+        "0x3b"
+      ]
+    },
+    {
+      "name": "UpdatePreviewClumpAnimations",
+      "rva": "0xb1da0",
+      "size": 24,
+      "new_bytes": 24,
+      "sha256": "f309180dcb5675d5c9850d806641bf3a39239a9871984d8040c4439a6bc809ee",
+      "pe_relocations": []
+    },
+    {
+      "name": "UpdateAnimations",
+      "rva": "0xae530",
+      "size": 41,
+      "new_bytes": 41,
+      "sha256": "dbba2d1d9e835b0077085cb100a5d92673a914a1141a89e3461cf2f1419c03cc",
+      "pe_relocations": []
+    }
+  ],
+  "code_gain": 137,
+  "data": [
+    {
+      "rva": "0x117400",
+      "size": 36,
+      "hex": "0000803f0000000000000000000000000000803f0000000000000000000000000000803f",
+      "sha256": "64eec129c8d3f58ee6b7ca145b25e312fa82d3d276db5adaedb59aaebb824885"
+    },
+    {
+      "rva": "0x117424",
+      "size": 4,
+      "hex": "d01f7f00",
+      "sha256": "c3639d52d349866cf90f2458de2ed7282c129d9b15677bafb03f3271b04cabfe"
+    }
+  ],
+  "data_reference_sites": [
+    {
+      "site": "0xb57aa",
+      "target": "0x117400"
+    },
+    {
+      "site": "0xb57ba",
+      "target": "0x117424"
+    },
+    {
+      "site": "0xb57cb",
+      "target": "0x117424"
+    },
+    {
+      "site": "0xb57fb",
+      "target": "0x117400"
+    },
+    {
+      "site": "0xb583c",
+      "target": "0x117400"
+    }
+  ]
+}

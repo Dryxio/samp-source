@@ -1,0 +1,160 @@
+{
+  "status": "PROPOSAL_NOT_COMPILED_NOT_ACCEPTED",
+  "baseline_proof": "evidence/checkpoint32/ped-chain-acceptance.json",
+  "baseline_union": 213251,
+  "potential_unique_code": 693,
+  "regions": [
+    {
+      "identity": "AttachRPC",
+      "rva": 110160,
+      "size": 315,
+      "sha256": "3fc0b4886ea882890317f89acc42e324a5d8262c998c2184802f9f9471570cd1"
+    },
+    {
+      "identity": "DetachRPC",
+      "rva": 110480,
+      "size": 219,
+      "sha256": "95513e8690eff5b4e813478e8d05f3630f35a69262280109a6af68a58ec1ecf3"
+    },
+    {
+      "identity": "CVehicle AttachTrailer",
+      "rva": 752656,
+      "size": 29,
+      "sha256": "259fd02842b763427091830f07e44e302a33f5db4cc9046bb2dfa74fbf0e1ce9"
+    },
+    {
+      "identity": "CVehicle DetachTrailer",
+      "rva": 752688,
+      "size": 78,
+      "sha256": "c05d951c44320e8f977a5e59f759f72356991be9db2db05bc4c907e5837a2b8c"
+    },
+    {
+      "identity": "CVehicle SetTrailer",
+      "rva": 752768,
+      "size": 10,
+      "sha256": "fde7b389ab38b8362fc6d34289cc38373db36da8c3aa6b9e1a26128474e2e542"
+    },
+    {
+      "identity": "Attach EH",
+      "rva": 922160,
+      "size": 21,
+      "sha256": "dfb1b0afb1a9f7d5ff22db753afe7d692c9cfc8974cdce420510268289def6e6"
+    },
+    {
+      "identity": "Detach EH",
+      "rva": 922192,
+      "size": 21,
+      "sha256": "2416235a958949bd1f0b6aa7af28bbd9c63306ca74c61fc33b1a4e349507b86b"
+    }
+  ],
+  "data": [
+    {
+      "identity": "UnwindMap",
+      "rva": 1019036,
+      "size": 8,
+      "sha256": "5ff8cf711cc5ba4a226e1249bdd4f2f3926b029ee719904e2f1fdcacf1238deb"
+    },
+    {
+      "identity": "FuncInfo",
+      "rva": 1019044,
+      "size": 28,
+      "sha256": "6d8322ac8359af2101c8241fbf522b4a0af697a6f67554c695c450aa17622848"
+    },
+    {
+      "identity": "UnwindMap",
+      "rva": 1019072,
+      "size": 8,
+      "sha256": "b9336714cc181751bf08804399aa91d494a979c11f5d1ac4933e27d185878ce9"
+    },
+    {
+      "identity": "FuncInfo",
+      "rva": 1019080,
+      "size": 28,
+      "sha256": "2e474125703c4f28dc29dd205b06c2b89dfcd03428031603af18ecf9dd385d1d"
+    }
+  ],
+  "headers": {
+    "client/saco/game/vehicle.h": [
+      "Replace char _gap48[4] with CVehicle *m_pTrailer; equal4-byte field at48, no size change.",
+      "Add public nonvirtual AttachTrailer(),DetachTrailer(),SetTrailer(CVehicle*)."
+    ]
+  },
+  "providers": {
+    "AttachRPC": [
+      "BitStream char*ctor1F840,ReadBits1F9B0,dtor1F8D0",
+      "SetTrailerB7C80 then AttachTrailerB7C10"
+    ],
+    "DetachRPC": [
+      "DetachTrailerB7C30 then SetTrailerB7C80(NULL)"
+    ],
+    "AttachTrailer": [
+      "ScriptCommandB2310(typed descriptorED6B4, trailer GTAid44, this GTAid44)"
+    ],
+    "DetachTrailer": [
+      "GamePool_Vehicle_GetAtB3BD0 true stdcall existing",
+      "ScriptCommandB2310(typed descriptorED6C8, trailer GTAid44,this GTAid44)"
+    ],
+    "EH": [
+      "BitStream dtor1F8D0",
+      "CxxFrameHandlerC6526"
+    ]
+  },
+  "storage": {
+    "flag": {
+      "rva": 1382212,
+      "size": 4,
+      "initial": "virtual zero fill",
+      "reconstructed_name": "r5TrailerDetachInProgress",
+      "writer_sites": [
+        752692,
+        752757
+      ],
+      "reader_sites": [
+        674948
+      ],
+      "reader_owner": "Native trailer hookA4C70; bypass condition when flag set. Not claimed covered.",
+      "original_source_name": "not recovered; no claim of exact original identifier"
+    },
+    "commands": [
+      {
+        "rva": 972468,
+        "size": 18,
+        "opcode": 2195,
+        "params": "ii"
+      },
+      {
+        "rva": 972488,
+        "size": 18,
+        "opcode": 1964,
+        "params": "ii"
+      }
+    ]
+  },
+  "provenance025": "BothRPCs and all3vehicle methods have025 implementation; R5 adds null pool/object checks and detach hook guard/native existence checks. Only adapted provenance, never verbatim.",
+  "source025_candidate_code": 651,
+  "new_allocations": 0,
+  "limitations": [
+    "Views only access confirmed vehiclepool offset1134/3074 andnetgame3DE; never allocated.",
+    "No hook implementation or constructor is counted.",
+    "Name offlag reconstructed from observed lifetime+reader, originalidentifier unknown.",
+    "Full descriptor18 each in distinctTU avoids contiguous placement false assumptions."
+  ],
+  "sources": [
+    {
+      "path": "build/agent-independent/eval_rpc_trailers.cpp",
+      "sha256": "612484d5079e87925122a537105322592c9cb46e26ba600d1735ad354c1542ba"
+    },
+    {
+      "path": "build/agent-independent/eval_store_trailer_detach_flag.cpp",
+      "sha256": "e4df041747935e9ec8a3e09a289a9e0156baa8ca8c6945285d1f917b8ac84f7a"
+    },
+    {
+      "path": "build/agent-independent/eval_store_trailer_attach_command.cpp",
+      "sha256": "00b020f3ae8f31d7d772a2e22f47885406d9b959fb4ef84637fbdc98c985e267"
+    },
+    {
+      "path": "build/agent-independent/eval_store_trailer_detach_command.cpp",
+      "sha256": "429ac5fc96e5a0e276dffdcf26b58756fa5e0e7fc7d96c2413c860cb57bd343f"
+    }
+  ]
+}

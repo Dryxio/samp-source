@@ -1,0 +1,36 @@
+{
+  "status": "ACCEPTED_AFTER_COMPLETE_LINK_REVIEW",
+  "run": "cp32-map-trailer-linked2",
+  "ob1": "cp32-map-trailer-ob1b",
+  "ob2": "cp32-map-trailer-ob2",
+  "new_unique_code_bytes": 1959,
+  "direct_025_accepted_bytes": 1434,
+  "total_direct_025_accepted_bytes": 20231,
+  "coverage": {
+    "previous_code_bytes": 214516,
+    "batch_code_bytes": 197426,
+    "new_unique_code_bytes": 1959,
+    "union_code_bytes": 216475,
+    "text_bytes": 930756,
+    "text_percent": 23.25797523733395,
+    "whole_dll_match": false
+  },
+  "verification": "All whole bodies, five EH21 and maps36, three full script descriptors at distinct true owners, actual trailer flag4 and matrix data40; every relocation and actual target verified. Ten controls and actor ABI pass. Seven old pending excluded.",
+  "adaptations": "C++ map helper expansion and actual pool getters restore R5 codegen. Trailer methods uniquely separated from RPC TU to preserve actual clobber assumptions; Attach315 now matches. Real CVehicle trailer pointer replaces same-size gap48, three nonvirtual declarations, whole Ob1/Ob2 refreshed once. Matrix axis calculation precedes function-pointer store; normal native bridge exact72. Native animation41+24 exact firsttrial. Minimal game/common.h in matrix storage removes unrelated RakNet sentinel objects from full data section; draft with56 bytes failed and whole40-byte object was rebuilt without slicing. First trial command typo left partialrun; preserved, corrected fullbuild used for acceptance.",
+  "reference_credit": "025 supplies651 trailer principalbytes,434 mapRPCbytes,349 objectRPC/poolDeletebytes, adapted R5 layouts/checks; total1434. Base methods, new reconstructed85 largestID, EH and native wrappers excluded from direct025 attribution.",
+  "throughput": {
+    "start_utc": "2026-09-05T20:11:21Z",
+    "measured_utc": "2026-09-06T02:00:39.045768+00:00",
+    "elapsed_seconds": 20958.045768,
+    "new_unique_bytes": 43334,
+    "bytes_per_hour": 7443.556604795367,
+    "coordination_included": true,
+    "agents": 3
+  },
+  "blockers": [
+    "Object preview694 remains parked; no artificial padding.",
+    "EntityRender138 pending source exception, SetMatrixAndUpdate91/Update82 unresolved. Full ped/vehicle constructors still outstanding."
+  ],
+  "next": "Entity renderer and additional quaternion/matrix utilities, further025 RPC families; goal remains active.",
+  "runtime": "No GTA/native rotation/animation, trailer operation, object deletion or packet handling executed."
+}

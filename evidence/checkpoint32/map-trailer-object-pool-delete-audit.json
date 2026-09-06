@@ -1,0 +1,58 @@
+{
+  "status": "PROPOSAL_NOT_COMPILED_NOT_ACCEPTED",
+  "baseline": "evidence/checkpoint32/ped-chain-acceptance.json",
+  "potential_unique_code": 455,
+  "regions": [
+    {
+      "identity": "DestroyRPC",
+      "rva": 113696,
+      "size": 232,
+      "sha256": "a9105973ef8b636daef7035afdd4a67deda762e990b14ce2c907521e9b9bc252"
+    },
+    {
+      "identity": "PoolDelete",
+      "rva": 75856,
+      "size": 117,
+      "sha256": "752f68f81d0dc4eb35eb8e4966178b8b51dca1c2dbe9aa0d316d1a7aa45623c5"
+    },
+    {
+      "identity": "UpdateLargestID",
+      "rva": 75680,
+      "size": 85,
+      "sha256": "a1bea3f5cb5f1ec3e62467a7348273e3dab1c997a3a2ea8e24bdc0a22aaa5e5a"
+    },
+    {
+      "identity": "RPC EH",
+      "rva": 922352,
+      "size": 21,
+      "sha256": "8d1a31442d4002996cb5daa14f3503b48981df21d47f77ad16777d1e90605c77"
+    }
+  ],
+  "data": [
+    {
+      "identity": "UnwindMap",
+      "rva": 1019252,
+      "size": 8,
+      "sha256": "8de26e3c4cfef40e61de362281c6a39dc8a3ef24a3e91edb1270b36d632a353c"
+    },
+    {
+      "identity": "FuncInfo",
+      "rva": 1019260,
+      "size": 28,
+      "sha256": "64eca6b2ae2ac0f7918a07b9a36d9d060d9575afee9194e2a7fec6a16f550e07"
+    }
+  ],
+  "provenance": "RPC232 and poolDelete117 supported025; R5 WORD id, camera detach, local surf cleanup and largestID updates added; UpdateLargestID85 R5 reconstruction.",
+  "source025_candidate_bytes": 349,
+  "source": "build/agent-independent/eval_rpc_object_pool_delete.cpp",
+  "provider_identities": [
+    "BitStream1F840/1F9B0/1F8D0",
+    "CxxFrameHandlerC6526",
+    "Camera field0 points CEntity; FUNC_1009D660 accepted69",
+    "CObject virtual deleting destructorAA100 (vtableECD74)\u2192A9430 accepted; CEntity base offset0, flags1",
+    "Pool offset4 slots1000,FA4 objects1000, lastId0; access-only view never allocated",
+    "LocalPlayer surfObject2DA and mode2E2; read/write-only view never allocated"
+  ],
+  "new_headers": [],
+  "source_sha256": "84c8ad3d364e78f92d05c1014031534091c64615ff3836f534ed6b6d3b250845"
+}
