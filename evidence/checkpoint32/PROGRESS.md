@@ -1471,3 +1471,8 @@ Direct0250/cumulative21988: full vendor source supplies the new code. 161314 new
 Replica/NetworkID and chat navigation accepted: +12131 unique code bytes, total 346586/930756 (37.237042%). All complete functions and attached data/EH, actual COFF/PE targets, owner transfer35 unchanged, true aliases, ten inherited controls and Actor ABI pass. CRT binder now validates entire aligned initializer blocks without splitting source data; two positive cases8/4, eight new fault cases and five old scalar faults pass. Navigation helper distinct name fixes a real COMDAT conflict without forcing a wrong target. No duplicate, data, CRT or unimplemented callback code counted.
 
 Direct0250/cumulative21988. 173445 new unique bytes since parallel start, 14366.8 bytes/hour coordination/failures included. TCP and font helper candidates under review. Goal active; no push/deploy.
+
+
+TCPInterface/RakSleep4306 and font helpers331 accepted: +4637 unique code bytes, total 351223/930756 (37.735239%). Whole worker/lifetimes, EH/data, all COFF/PE targets and imports; true CRT thread wrappers and scope, ten controls and Actor ABI pass. All4266 prior regions preserved. True static font scratch/scalars40012 verified, but startup heap allocation remains unimplemented and receives no credit. No data/CRT/duplicate credit.
+
+Direct0250/cumulative21988. 178082 new unique bytes since parallel start, 14612.4 bytes/hour coordination/failures included. Font proxy/hook candidate next. Goal active; no push/deploy.

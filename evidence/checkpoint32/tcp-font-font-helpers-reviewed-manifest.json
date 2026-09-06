@@ -1,0 +1,226 @@
+{
+  "status": "WHOLE_CODE_PREFLIGHT_PASS_TRUE_STORES_PENDING_COMPILE_AND_LINK",
+  "run": "cp32-tcp-font-trial1",
+  "code_bytes": 331,
+  "EH_bytes": 0,
+  "direct025_code_credit": 0,
+  "regions": [
+    {
+      "unit": "closure_font_color_helpers",
+      "anchor": "?R5FontConvertAnsiToWide@@YAXPADPAGH@Z",
+      "section": 3,
+      "rva": 473504,
+      "size": 108,
+      "kind": "code",
+      "sha256": "d3a56d9fcab8a77340583dc61b0556134cbe6de9174a77064dbe7f7b33998c00",
+      "object_sha256": "0f95b9a36f7f37e106b9b99c565e53c4b74923bd88ffc4af531e309654078526",
+      "bindings": [
+        {
+          "symbol": "__imp__MultiByteToWideChar@24",
+          "site_rva": 473561,
+          "symbol_va": 269373952,
+          "addend": 0,
+          "target_va": 269373952,
+          "kind": 6
+        }
+      ]
+    },
+    {
+      "unit": "closure_font_color_helpers",
+      "anchor": "?R5FontConsumeWideColorEmbeds@@YAXXZ",
+      "section": 5,
+      "rva": 473824,
+      "size": 223,
+      "kind": "code",
+      "sha256": "3b7b8080cc50dc797732dda1edd3192fef7ec148e6c482dd28480483ee228d61",
+      "object_sha256": "0f95b9a36f7f37e106b9b99c565e53c4b74923bd88ffc4af531e309654078526",
+      "bindings": [
+        {
+          "symbol": "?r5FontCharacterIndex@@3HA",
+          "site_rva": 473826,
+          "symbol_va": 269708964,
+          "addend": 0,
+          "target_va": 269708964,
+          "kind": 6
+        },
+        {
+          "symbol": "?r5FontWideText@@3PAGA",
+          "site_rva": 473834,
+          "symbol_va": 269708968,
+          "addend": 0,
+          "target_va": 269708968,
+          "kind": 6
+        },
+        {
+          "symbol": "?r5FontWideText@@3PAGA",
+          "site_rva": 473871,
+          "symbol_va": 269708968,
+          "addend": 2,
+          "target_va": 269708970,
+          "kind": 6
+        },
+        {
+          "symbol": "?r5FontCharacterIndex@@3HA",
+          "site_rva": 473883,
+          "symbol_va": 269708964,
+          "addend": 0,
+          "target_va": 269708964,
+          "kind": 6
+        },
+        {
+          "symbol": "?r5FontWideText@@3PAGA",
+          "site_rva": 473890,
+          "symbol_va": 269708968,
+          "addend": 0,
+          "target_va": 269708968,
+          "kind": 6
+        },
+        {
+          "symbol": "?GetColorFromEmbedCode@@YAKPAG@Z",
+          "site_rva": 473896,
+          "symbol_va": 269180816,
+          "addend": 0,
+          "target_va": 269180816,
+          "kind": 20
+        },
+        {
+          "symbol": "?r5FontCharacterIndex@@3HA",
+          "site_rva": 473922,
+          "symbol_va": 269708964,
+          "addend": 0,
+          "target_va": 269708964,
+          "kind": 6
+        },
+        {
+          "symbol": "?r5FontEmbeddedColor@@3KA",
+          "site_rva": 473935,
+          "symbol_va": 269708944,
+          "addend": 0,
+          "target_va": 269708944,
+          "kind": 6
+        },
+        {
+          "symbol": "?r5FontWideText@@3PAGA",
+          "site_rva": 473943,
+          "symbol_va": 269708968,
+          "addend": 0,
+          "target_va": 269708968,
+          "kind": 6
+        },
+        {
+          "symbol": "?r5FontCharacterIndex@@3HA",
+          "site_rva": 473952,
+          "symbol_va": 269708964,
+          "addend": 0,
+          "target_va": 269708964,
+          "kind": 6
+        },
+        {
+          "symbol": "?r5FontWideText@@3PAGA",
+          "site_rva": 473986,
+          "symbol_va": 269708968,
+          "addend": 2,
+          "target_va": 269708970,
+          "kind": 6
+        },
+        {
+          "symbol": "?r5FontCharacterIndex@@3HA",
+          "site_rva": 473998,
+          "symbol_va": 269708964,
+          "addend": 0,
+          "target_va": 269708964,
+          "kind": 6
+        },
+        {
+          "symbol": "?r5FontWideText@@3PAGA",
+          "site_rva": 474005,
+          "symbol_va": 269708968,
+          "addend": 0,
+          "target_va": 269708968,
+          "kind": 6
+        },
+        {
+          "symbol": "?GetColorFromEmbedCode@@YAKPAG@Z",
+          "site_rva": 474011,
+          "symbol_va": 269180816,
+          "addend": 0,
+          "target_va": 269180816,
+          "kind": 20
+        },
+        {
+          "symbol": "?r5FontOriginalText@@3PADA",
+          "site_rva": 474025,
+          "symbol_va": 269748972,
+          "addend": 0,
+          "target_va": 269748972,
+          "kind": 6
+        },
+        {
+          "symbol": "?r5FontCharacterIndex@@3HA",
+          "site_rva": 474030,
+          "symbol_va": 269708964,
+          "addend": 0,
+          "target_va": 269708964,
+          "kind": 6
+        },
+        {
+          "symbol": "?r5FontCharacterIndex@@3HA",
+          "site_rva": 474042,
+          "symbol_va": 269708964,
+          "addend": 0,
+          "target_va": 269708964,
+          "kind": 6
+        }
+      ]
+    }
+  ],
+  "imports": {
+    "__imp__MultiByteToWideChar@24": {
+      "library": "kernel32.lib",
+      "dll": "KERNEL32.dll",
+      "reference_va": 269373952
+    }
+  },
+  "identity": "108-byte homologue9BC80 not selected: FontDrawTextA73BE0 calls739A0; proxyDraw73BC0 calls Consume73AE0. Both edges are observed, not renamed arbitrary matches.",
+  "stores": {
+    "status": "TRUE_BSS_IDENTITIES_NO_NEW_CODE_CREDIT",
+    "objects": [
+      {
+        "symbol": "r5FontEmbeddedColor",
+        "rva": 1273488,
+        "size": 4,
+        "initialization": "loader-zeroed actual .data virtual tail",
+        "section_raw_end": 1150976,
+        "section_virtual_end": 2557292
+      },
+      {
+        "symbol": "r5FontCharacterIndex",
+        "rva": 1273508,
+        "size": 4,
+        "initialization": "loader-zeroed actual .data virtual tail",
+        "section_raw_end": 1150976,
+        "section_virtual_end": 2557292
+      },
+      {
+        "symbol": "r5FontWideText",
+        "rva": 1273512,
+        "size": 40000,
+        "initialization": "loader-zeroed actual .data virtual tail",
+        "section_raw_end": 1150976,
+        "section_virtual_end": 2557292
+      },
+      {
+        "symbol": "r5FontOriginalText",
+        "rva": 1313516,
+        "size": 4,
+        "initialization": "loader-zeroed actual .data virtual tail",
+        "section_raw_end": 1150976,
+        "section_virtual_end": 2557292
+      }
+    ],
+    "wide_array_capacity_evidence": "739A0 caller73C5A passes20000; base136EA8 and wholeWCHARcapacity40000 ends140AE8. Separatepointer140AEC holds calloc(1,100001) from startupC4790, not a fake inline100001-byte object.",
+    "startup_not_accepted": true
+  },
+  "unimplemented_runtime_work": "Caller DrawTextA229 and startupC4790 remain outside this lot. Startup actually allocates100001 bytes for pointer140AEC; no allocation or full lifecycle credit.",
+  "accepted_wide_parser_provider": "closure_util"
+}

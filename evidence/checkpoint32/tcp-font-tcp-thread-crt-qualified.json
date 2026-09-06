@@ -1,0 +1,351 @@
+{
+  "status": "PINNED_CRT_THREAD_LIFECYCLE_WHOLE_WRAPPERS_SCOPE_QUALIFIED",
+  "run": "cp32-tcp-font-linked1",
+  "linked_sha256": "544d9fb2611a9b32c5ac5cf72e30749b97e91cbc60a2adf7875b1f743c663c88",
+  "map_sha256": "0e8339e8ee850d833367aa244a95003016d7dacaa48434a267103057d1ebabfc",
+  "libcmt_sha256": "6e2b3742e58245de52149137f64281b73db1487a07a31e165fff269fbf9b2ee8",
+  "new_source_credit": 0,
+  "callback_ABI": "beginthreadex stores real user worker+argument in ptd4C/50; threadstartex invokes that __stdcall callback then passes result to endthreadex. No thread executed.",
+  "runtime_data_identities": [
+    {
+      "symbol": "___tlsindex",
+      "original_rva": 1144504,
+      "linked_rva": 692224,
+      "SDK_member": "LIBCMT:tidtable.obj"
+    },
+    {
+      "symbol": "_gpFlsGetValue",
+      "original_rva": 2550976,
+      "linked_rva": 1112004,
+      "SDK_member": "LIBCMT:tidtable.obj"
+    },
+    {
+      "symbol": "_gpFlsSetValue",
+      "original_rva": 2550980,
+      "linked_rva": 1112008,
+      "SDK_member": "LIBCMT:tidtable.obj"
+    },
+    {
+      "symbol": "__FPmtinit",
+      "original_rva": 1144092,
+      "linked_rva": 691928,
+      "SDK_member": "LIBCMT:fpinit.obj"
+    },
+    {
+      "symbol": "__FPmtterm",
+      "original_rva": 1144096,
+      "linked_rva": 691932,
+      "SDK_member": "LIBCMT:fpinit.obj"
+    }
+  ],
+  "code": [
+    {
+      "symbol": "__beginthreadex",
+      "original_rva": 822760,
+      "linked_rva": 381386,
+      "size": 139,
+      "SDK_member": "LIBCMT:threadex.obj",
+      "whole_resolved_equal": true,
+      "all_PE_relocations_equal": true,
+      "bindings": [
+        {
+          "offset": 98,
+          "kind": "HIGHLOW",
+          "original_target_rva": 938204,
+          "linked_target_va": 268882276
+        },
+        {
+          "offset": 108,
+          "kind": "HIGHLOW",
+          "original_target_rva": 938436,
+          "linked_target_va": 268882040
+        },
+        {
+          "offset": 86,
+          "kind": "HIGHLOW",
+          "original_target_rva": 822611,
+          "linked_target_va": 268816693
+        },
+        {
+          "offset": 15,
+          "kind": "REL32",
+          "original_target_rva": 854383,
+          "linked_target_va": 268824325
+        },
+        {
+          "offset": 38,
+          "kind": "REL32",
+          "original_target_rva": 813442,
+          "linked_target_va": 268808510
+        },
+        {
+          "offset": 52,
+          "kind": "REL32",
+          "original_target_rva": 839161,
+          "linked_target_va": 268821256
+        },
+        {
+          "offset": 116,
+          "kind": "REL32",
+          "original_target_rva": 813629,
+          "linked_target_va": 268808182
+        },
+        {
+          "offset": 127,
+          "kind": "REL32",
+          "original_target_rva": 854401,
+          "linked_target_va": 268824343
+        }
+      ]
+    },
+    {
+      "symbol": "__threadstartex@4",
+      "original_rva": 822611,
+      "linked_rva": 381237,
+      "size": 148,
+      "SDK_member": "LIBCMT:threadex.obj",
+      "whole_resolved_equal": true,
+      "all_PE_relocations_equal": true,
+      "bindings": [
+        {
+          "offset": 3,
+          "kind": "HIGHLOW",
+          "original_target_rva": 984080,
+          "linked_target_va": 268896952
+        },
+        {
+          "offset": 36,
+          "kind": "HIGHLOW",
+          "original_target_rva": 1144504,
+          "linked_target_va": 269127680
+        },
+        {
+          "offset": 42,
+          "kind": "HIGHLOW",
+          "original_target_rva": 2550980,
+          "linked_target_va": 269547464
+        },
+        {
+          "offset": 14,
+          "kind": "HIGHLOW",
+          "original_target_rva": 1144504,
+          "linked_target_va": 269127680
+        },
+        {
+          "offset": 20,
+          "kind": "HIGHLOW",
+          "original_target_rva": 2550976,
+          "linked_target_va": 269547460
+        },
+        {
+          "offset": 91,
+          "kind": "HIGHLOW",
+          "original_target_rva": 1144092,
+          "linked_target_va": 269127384
+        },
+        {
+          "offset": 60,
+          "kind": "HIGHLOW",
+          "original_target_rva": 938192,
+          "linked_target_va": 268882280
+        },
+        {
+          "offset": 8,
+          "kind": "REL32",
+          "original_target_rva": 844848,
+          "linked_target_va": 268827652
+        },
+        {
+          "offset": 53,
+          "kind": "REL32",
+          "original_target_rva": 834932,
+          "linked_target_va": 268817594
+        },
+        {
+          "offset": 85,
+          "kind": "REL32",
+          "original_target_rva": 813629,
+          "linked_target_va": 268808182
+        },
+        {
+          "offset": 113,
+          "kind": "REL32",
+          "original_target_rva": 822562,
+          "linked_target_va": 268816644
+        },
+        {
+          "offset": 130,
+          "kind": "REL32",
+          "original_target_rva": 854000,
+          "linked_target_va": 268849607
+        },
+        {
+          "offset": 144,
+          "kind": "REL32",
+          "original_target_rva": 817077,
+          "linked_target_va": 268841454
+        }
+      ]
+    },
+    {
+      "symbol": "__endthreadex",
+      "original_rva": 822562,
+      "linked_rva": 381188,
+      "size": 48,
+      "SDK_member": "LIBCMT:threadex.obj",
+      "whole_resolved_equal": true,
+      "all_PE_relocations_equal": true,
+      "bindings": [
+        {
+          "offset": 1,
+          "kind": "HIGHLOW",
+          "original_target_rva": 1144096,
+          "linked_target_va": 269127388
+        },
+        {
+          "offset": 44,
+          "kind": "HIGHLOW",
+          "original_target_rva": 938356,
+          "linked_target_va": 268882284
+        },
+        {
+          "offset": 13,
+          "kind": "REL32",
+          "original_target_rva": 839180,
+          "linked_target_va": 268821275
+        },
+        {
+          "offset": 26,
+          "kind": "REL32",
+          "original_target_rva": 834932,
+          "linked_target_va": 268817594
+        },
+        {
+          "offset": 33,
+          "kind": "REL32",
+          "original_target_rva": 839620,
+          "linked_target_va": 268821715
+        }
+      ]
+    },
+    {
+      "symbol": "__SEH_prolog",
+      "original_rva": 844848,
+      "linked_rva": 392196,
+      "size": 59,
+      "SDK_member": "LIBCMT:sehprolg.obj",
+      "whole_resolved_equal": true,
+      "all_PE_relocations_equal": true,
+      "bindings": [
+        {
+          "offset": 1,
+          "kind": "HIGHLOW",
+          "original_target_rva": 816324,
+          "linked_target_va": 268801716
+        }
+      ]
+    }
+  ],
+  "SEH_scopes": [
+    {
+      "original_rva": 984080,
+      "linked_rva": 461496,
+      "size": 12,
+      "scope_record_size": 12,
+      "trailing_zero_alignment_size": 0,
+      "whole_bytes_equal": true,
+      "all_PE_relocations_equal": true,
+      "bindings": [
+        {
+          "offset": 4,
+          "original_target_rva": 822728,
+          "linked_target_va": 268816810
+        },
+        {
+          "offset": 8,
+          "original_target_rva": 822748,
+          "linked_target_va": 268816830
+        }
+      ]
+    }
+  ],
+  "real_external_boundaries": [
+    {
+      "symbol": "__errno",
+      "original_rva": 854383,
+      "linked_rva": 388869,
+      "SDK_member": "LIBCMT:dosmap.obj",
+      "source_credit": 0
+    },
+    {
+      "symbol": "_calloc",
+      "original_rva": 813442,
+      "linked_rva": 373054,
+      "SDK_member": "LIBCMT:calloc.obj",
+      "source_credit": 0
+    },
+    {
+      "symbol": "__initptd",
+      "original_rva": 839161,
+      "linked_rva": 385800,
+      "SDK_member": "LIBCMT:tidtable.obj",
+      "source_credit": 0
+    },
+    {
+      "symbol": "_free",
+      "original_rva": 813629,
+      "linked_rva": 372726,
+      "SDK_member": "LIBCMT:free.obj",
+      "source_credit": 0
+    },
+    {
+      "symbol": "__dosmaperr",
+      "original_rva": 854401,
+      "linked_rva": 388887,
+      "SDK_member": "LIBCMT:dosmap.obj",
+      "source_credit": 0
+    },
+    {
+      "symbol": "__amsg_exit",
+      "original_rva": 834932,
+      "linked_rva": 382138,
+      "SDK_member": "LIBCMT:dllcrt0.obj",
+      "source_credit": 0
+    },
+    {
+      "symbol": "__XcptFilter",
+      "original_rva": 854000,
+      "linked_rva": 414151,
+      "SDK_member": "LIBCMT:winxfltr.obj",
+      "source_credit": 0
+    },
+    {
+      "symbol": "__exit",
+      "original_rva": 817077,
+      "linked_rva": 405998,
+      "SDK_member": "LIBCMT:crt0dat.obj",
+      "source_credit": 0
+    },
+    {
+      "symbol": "__getptd",
+      "original_rva": 839180,
+      "linked_rva": 385819,
+      "SDK_member": "LIBCMT:tidtable.obj",
+      "source_credit": 0
+    },
+    {
+      "symbol": "__freeptd",
+      "original_rva": 839620,
+      "linked_rva": 386259,
+      "SDK_member": "LIBCMT:tidtable.obj",
+      "source_credit": 0
+    },
+    {
+      "symbol": "__except_handler3",
+      "original_rva": 816324,
+      "linked_rva": 366260,
+      "SDK_member": "LIBCMT:exsup3.obj",
+      "source_credit": 0
+    }
+  ]
+}
