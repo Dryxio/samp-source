@@ -643,31 +643,9 @@ void ReliabilityLayer::InsertPacketIntoResendList( InternalPacket *internalPacke
 
 }
 
-void ReliabilityLayer::SetPing( RakNetTime i )
-{
-	//assert(i < (RakNetTimeNS)timeoutTime*1000);
-	if (i > timeoutTime)
-		ping=500;
-	else
-		ping = i;
-	if (ping < 30)
-		ping=30; // Leave a buffer for variations in ping
-#ifndef _RELEASE
-	if (ping < (RakNetTime)(minExtraPing+extraPingVariance)*2)
-		ping=(minExtraPing+extraPingVariance)*2;
-#endif
 
-	UpdateNextActionTime();
-}
 
-void ReliabilityLayer::UpdateNextActionTime(void)
-{
-	//double multiple = log10(currentBandwidth/MINIMUM_SEND_BPS) / 0.30102999566398119521373889472449;
-	if (ping*(RakNetTime)PING_MULTIPLIER_TO_RESEND < MIN_PING_TO_RESEND)
-		ackTimeIncrement=(RakNetTimeNS)MIN_PING_TO_RESEND*1000;
-	else
-		ackTimeIncrement=(RakNetTimeNS)(ping*(RakNetTime)PING_MULTIPLIER_TO_RESEND)*1000;
-}
+
 
 RakNetStatisticsStruct * const ReliabilityLayer::GetStatistics( bool includeResendListDataSize )
 {

@@ -1,0 +1,31 @@
+{
+  "status": "REVIEWED_SCOPED_FUNCTION_PREFLIGHT_NOT_ACCEPTANCE",
+  "regions": [
+    {
+      "unit": "closure_chat_game_menu",
+      "anchor": "?IsMenuActive@R5ChatGameMenuView@@QAEHXZ",
+      "section": 46,
+      "rva": 657696,
+      "size": 14,
+      "kind": ".text",
+      "sha256": "736acc9b662800925b821e0e3fd0c374ead3ae6c47a67d8bcb343301a83826fc",
+      "whole_bytes_equal": true,
+      "bindings": []
+    }
+  ],
+  "native_data": [
+    {
+      "address": 12216228,
+      "type": "DWORD",
+      "identity": "ADDR_MENU in 0.2.5 client/game/address.h; CGame::IsMenuActive reads DWORD and returns BOOL"
+    }
+  ],
+  "direct025_credit_potential": 14,
+  "new_data": [],
+  "EH": 0,
+  "seeds": {
+    "closure_chat_game_menu": {
+      "?IsMenuActive@R5ChatGameMenuView@@QAEHXZ": 657696
+    }
+  }
+}
