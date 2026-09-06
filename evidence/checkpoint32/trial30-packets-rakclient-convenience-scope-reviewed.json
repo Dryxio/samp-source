@@ -1,0 +1,134 @@
+{
+  "status": "PASS_FULL_SOURCE_SCOPE_AND_WHOLE_BYTES",
+  "run": "build/cp32-trial30-rakclient-convenience",
+  "new_unique_code": 555,
+  "baseline": 402825,
+  "source025_direct_bytes": 0,
+  "provider_bindings": {
+    "?GetStatistics@RakPeer@@UAEQAURakNetStatisticsStruct@@UPlayerID@@@Z": {
+      "unit": "eval_vendor_rakpeer_remote_state",
+      "rva": 255424,
+      "size": 212
+    },
+    "?SetTimeoutTime@RakPeer@@UAEXIUPlayerID@@@Z": {
+      "unit": "eval_vendor_rakpeer_remote_state",
+      "rva": 255264,
+      "size": 49
+    },
+    "?GetExternalID@RakPeer@@UBE?AUPlayerID@@U2@@Z": {
+      "unit": "eval_vendor_rakpeer_remote_state",
+      "rva": 231328,
+      "size": 191
+    },
+    "??8PlayerID@@QBE_NABU0@@Z": {
+      "unit": "closure_vendor_network_id_comparisons",
+      "rva": 210656,
+      "size": 33
+    },
+    "?GetInternalID@RakPeer@@UBE?AUPlayerID@@XZ": {
+      "unit": "closure_vendor_rakpeer_internal_id",
+      "rva": 231296,
+      "size": 29
+    },
+    "?GetTime@RakNet@@YAIXZ": {
+      "unit": "closure_raknet_time",
+      "rva": 190448,
+      "size": 86
+    },
+    "?GetConnectionList@RakPeer@@UBE_NPAUPlayerID@@PAG@Z": {
+      "unit": "eval_vendor_rakpeer_remote_state",
+      "rva": 230608,
+      "size": 213
+    },
+    "?Reset@BitStream@RakNet@@QAEXXZ": {
+      "unit": "closure_cmd_bitstream",
+      "rva": 129264,
+      "size": 14
+    },
+    "?Write@BitStream@RakNet@@QAEXPBDH@Z": {
+      "unit": "closure_cmd_bitstream",
+      "rva": 131216,
+      "size": 113
+    },
+    "?InitializeSecurity@RakPeer@@UAEXPBD000@Z": {
+      "unit": "eval_vendor_rakpeer_policy",
+      "rva": 272960,
+      "size": 245
+    }
+  },
+  "layout": {
+    "RakPeer_size": 3550,
+    "RakClientInterface_offset": 3550,
+    "RakClientInterface_size": 4,
+    "password_offset": 3554,
+    "BitStream_size": 273,
+    "otherClients_offset": 3827,
+    "otherClients_count": 32,
+    "otherClient_stride": 282,
+    "otherClient_fields": [
+      [
+        "playerId",
+        0,
+        6
+      ],
+      [
+        "ping",
+        6,
+        2
+      ],
+      [
+        "staticData",
+        8,
+        273
+      ],
+      [
+        "isActive",
+        281,
+        1
+      ]
+    ],
+    "seed_offset": 12851,
+    "nextSeed_offset": 12855,
+    "nextSeedUpdate_offset": 12859,
+    "localPlayerIndex_offset": 12863,
+    "externalPlayerID_offset": 12865,
+    "full_source_size": 12871
+  },
+  "scope": [
+    "11 unchanged normal C++ convenience/getter bodies,575 physical code555 newunique; 20-byte HasPassword overlaps prior accepted coverage and adds0.",
+    "Complete actual RakClient/RakPeer class; secondary interface this adjustment compiled from inheritance, no fabricated objects, allocations, constructors or VFT.",
+    "GetPlayerPing scans actual32 OtherClients entries282 bytes each and returns signed short ping, preserving no active flag guard.",
+    "GetServerID/GetPlayerID actual6-byte PlayerID returns, true accepted external/internal identity providers.",
+    "SetTimeoutTime virtual GetServerID uses real RakClientInterface slot; no concrete callback implementation credit.",
+    "GetStatistics retains original unguarded remoteSystemList[0] access. No behavior cleanup.",
+    "Whole local16-byte sentinel atFE790 compared, no slicing/no data credit.",
+    "SetPassword original null/empty clears; nonempty strlen+1 writes, no length bound invented.",
+    "No source025 benefit because vendor implementation present in base."
+  ],
+  "snapshots": [
+    {
+      "path": "client/saco/eval_vendor_rakclient_convenience.cpp",
+      "sha256": "07e0123829d6a2df0b4c7d597d93828849ad83b9f5792d025077e4b4a5da4e15"
+    },
+    {
+      "path": "vendor/upstream/raknet/RakClient.cpp",
+      "sha256": "faa1817ad934da1b7fd15669d717b11f4ec78e0e5c40701dc9545aa6a32ba49a"
+    },
+    {
+      "path": "vendor/upstream/raknet/RakClient.h",
+      "sha256": "44b74fb38314b742c8a874db60d6dceefed82ad4cad7ca6be98630c83e49543e"
+    },
+    {
+      "path": "vendor/upstream/raknet/RakClientInterface.h",
+      "sha256": "b7fb9d1cee3d261c31af91928d9f59a43d27aae00e61cc1718ca8baec12f955d"
+    },
+    {
+      "path": "vendor/upstream/raknet/RakPeer.h",
+      "sha256": "3c462fd303bd7a7becc91f1b4e2752cff3656a2eec2a65afc0c15816c0902d75"
+    },
+    {
+      "path": "vendor/upstream/raknet/BitStream.h",
+      "sha256": "31258d2cefefc42ca5825409e115dec0ff833fa98c9f92874bf950df3f53c130"
+    }
+  ]
+}

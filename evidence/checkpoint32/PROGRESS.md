@@ -1509,3 +1509,6 @@ RakClient2088 +Router/SystemAddressList3378 +RPC491: +5957 unique accepted code 
 
 
 Remote899 +codec210 +RakServer1138 +IsActive11 provider (zero new credit): +2247 unique exact accepted bytes, total405072/930756 (43.520751%). Entire original/linked code/data/EH, all COFF/PE and actual providers; first link exposed absent IsActive, true original predicate emitted11, no alias substitution. Ten controls and Actor ABI PASS. Direct0250/cumulative22342, codec194 assisted/adapted; whole table256 verified without code credit. Remote getter preserves actual source context. SendTo137 excluded due unresolved outputextent. 30min experiment ongoing; all2247 candidate work predates experiment. No push/deploy.
+
+
+Packet/template/state1662 +RakClient555: +2217 unique accepted code bytes, total407289/930756 (43.758944%). Whole original/linked code/data/EH, all actual COFF/PE targets; ten controls and Actor ABI PASS. Complete real records and inlinegetter context, no masks. Template624 copies counted once. Trial prepared914/fresh1303; direct0250 cumulative22342. Goal30min trial active, no push/deploy.

@@ -1,0 +1,313 @@
+{
+  "status": "REVIEWED_MAIN_SEEDS_AND_WHOLE_EH_BINDINGS_PREFLIGHT",
+  "run": "build/cp32-trial30-rakclient-convenience",
+  "roots": {
+    "?InitializeSecurity@RakClient@@UAEXPBD0@Z": 213504,
+    "?SetPassword@RakClient@@UAEXPBD@Z": 213536,
+    "?HasPassword@RakClient@@UBE_NXZ": 213616,
+    "?GetPlayerPing@RakClient@@UAEHUPlayerID@@@Z": 214080,
+    "?IsConnected@RakClient@@UBE_NXZ": 214192,
+    "?GetSynchronizedRandomInteger@RakClient@@UBEIXZ": 214224,
+    "?GetServerID@RakClient@@UBE?AUPlayerID@@XZ": 214928,
+    "?GetPlayerID@RakClient@@UBE?AUPlayerID@@XZ": 214992,
+    "?SetTimeoutTime@RakClient@@UAEXI@Z": 215264,
+    "?GetStatistics@RakClient@@UAEQAURakNetStatisticsStruct@@XZ": 215392,
+    "?GetPlayerIndex@RakClient@@UAEGXZ": 215584
+  },
+  "seeds": {
+    "eval_vendor_rakclient_convenience": {
+      "?GetPlayerIndex@RakClient@@UAEGXZ": 215584,
+      "?GetStatistics@RakClient@@UAEQAURakNetStatisticsStruct@@XZ": 215392,
+      "?SetTimeoutTime@RakClient@@UAEXI@Z": 215264,
+      "?GetPlayerID@RakClient@@UBE?AUPlayerID@@XZ": 214992,
+      "?GetServerID@RakClient@@UBE?AUPlayerID@@XZ": 214928,
+      "?GetSynchronizedRandomInteger@RakClient@@UBEIXZ": 214224,
+      "?IsConnected@RakClient@@UBE_NXZ": 214192,
+      "?GetPlayerPing@RakClient@@UAEHUPlayerID@@@Z": 214080,
+      "?HasPassword@RakClient@@UBE_NXZ": 213616,
+      "?SetPassword@RakClient@@UAEXPBD@Z": 213536,
+      "?InitializeSecurity@RakClient@@UAEXPBD0@Z": 213504
+    }
+  },
+  "regions": [
+    {
+      "unit": "eval_vendor_rakclient_convenience",
+      "section": 25,
+      "rva": 215584,
+      "size": 8,
+      "kind": ".text",
+      "sha256": "884b700cc36bc07dcf497f6cebcb9453f7343161320987c59e637b09d39810e7",
+      "whole_bytes_equal": true,
+      "bindings": []
+    },
+    {
+      "unit": "eval_vendor_rakclient_convenience",
+      "section": 23,
+      "rva": 215392,
+      "size": 38,
+      "kind": ".text",
+      "sha256": "425a67d5ee0092766ef6bd8eb5b55c37b1fc22830d9acb0d2cf05e1a1418be8e",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "?GetStatistics@RakPeer@@UAEQAURakNetStatisticsStruct@@UPlayerID@@@Z",
+          "site_rva": 215424,
+          "target_va": 268690880,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "eval_vendor_rakclient_convenience",
+      "section": 21,
+      "rva": 215264,
+      "size": 61,
+      "kind": ".text",
+      "sha256": "3bbdaf8d72a185afe09ab8ac8fa235d31d4203c61efb970596791073903f01d7",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "?SetTimeoutTime@RakPeer@@UAEXIUPlayerID@@@Z",
+          "site_rva": 215314,
+          "target_va": 268690720,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "eval_vendor_rakclient_convenience",
+      "section": 19,
+      "rva": 214992,
+      "size": 153,
+      "kind": ".text",
+      "sha256": "8b1dfe03631ed8979d77ab1bdb9403f14fa182318b81148e1ed907787c927986",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "_UNASSIGNED_PLAYER_ID",
+          "site_rva": 215013,
+          "target_va": 269477776,
+          "kind": 6
+        },
+        {
+          "symbol": "_UNASSIGNED_PLAYER_ID",
+          "site_rva": 215024,
+          "target_va": 269477780,
+          "kind": 6
+        },
+        {
+          "symbol": "?GetExternalID@RakPeer@@UBE?AUPlayerID@@U2@@Z",
+          "site_rva": 215072,
+          "target_va": 268666784,
+          "kind": 20
+        },
+        {
+          "symbol": "_UNASSIGNED_PLAYER_ID",
+          "site_rva": 215077,
+          "target_va": 269477776,
+          "kind": 6
+        },
+        {
+          "symbol": "??8PlayerID@@QBE_NABU0@@Z",
+          "site_rva": 215086,
+          "target_va": 268646112,
+          "kind": 20
+        },
+        {
+          "symbol": "?GetInternalID@RakPeer@@UBE?AUPlayerID@@XZ",
+          "site_rva": 215102,
+          "target_va": 268666752,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "eval_vendor_rakclient_convenience",
+      "section": 17,
+      "rva": 214928,
+      "size": 64,
+      "kind": ".text",
+      "sha256": "1368073ff3fbdb997f615febf9da95596fce8f0291f08d41884f72ae0c8bf749",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "_UNASSIGNED_PLAYER_ID",
+          "site_rva": 214944,
+          "target_va": 269477776,
+          "kind": 6
+        },
+        {
+          "symbol": "_UNASSIGNED_PLAYER_ID",
+          "site_rva": 214955,
+          "target_va": 269477780,
+          "kind": 6
+        }
+      ]
+    },
+    {
+      "unit": "eval_vendor_rakclient_convenience",
+      "section": 15,
+      "rva": 214224,
+      "size": 32,
+      "kind": ".text",
+      "sha256": "11e3aaf794d1899a042a054861367e00db431874a6976a2deee0ee42cb86b22d",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "?GetTime@RakNet@@YAIXZ",
+          "site_rva": 214228,
+          "target_va": 268625904,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "eval_vendor_rakclient_convenience",
+      "section": 13,
+      "rva": 214192,
+      "size": 30,
+      "kind": ".text",
+      "sha256": "cf2cb7974b4a8e83f2a340dc967652e19b1e67209e889cc77bc07180eba7543d",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "?GetConnectionList@RakPeer@@UBE_NPAUPlayerID@@PAG@Z",
+          "site_rva": 214206,
+          "target_va": 268666064,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "eval_vendor_rakclient_convenience",
+      "section": 11,
+      "rva": 214080,
+      "size": 73,
+      "kind": ".text",
+      "sha256": "2b675fa9bda4067619d792c44cb99b5c8eec168a62f956dd15e60f1379fdca17",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "??8PlayerID@@QBE_NABU0@@Z",
+          "site_rva": 214104,
+          "target_va": 268646112,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "eval_vendor_rakclient_convenience",
+      "section": 9,
+      "rva": 213616,
+      "size": 20,
+      "kind": ".text",
+      "sha256": "3a92e8cabced8cf2e56290c8db1b3ca85166f4439b2fb8e08155d98239eebab1",
+      "whole_bytes_equal": true,
+      "bindings": []
+    },
+    {
+      "unit": "eval_vendor_rakclient_convenience",
+      "section": 7,
+      "rva": 213536,
+      "size": 68,
+      "kind": ".text",
+      "sha256": "0c13927e19fd6abc3ccaf8a646bb4fbb28e50ca5c8b13868dbf4fa1d8c317d73",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "?Reset@BitStream@RakNet@@QAEXXZ",
+          "site_rva": 213557,
+          "target_va": 268564720,
+          "kind": 20
+        },
+        {
+          "symbol": "?Write@BitStream@RakNet@@QAEXPBDH@Z",
+          "site_rva": 213583,
+          "target_va": 268566672,
+          "kind": 20
+        },
+        {
+          "symbol": "?Reset@BitStream@RakNet@@QAEXXZ",
+          "site_rva": 213596,
+          "target_va": 268564720,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "eval_vendor_rakclient_convenience",
+      "section": 5,
+      "rva": 213504,
+      "size": 28,
+      "kind": ".text",
+      "sha256": "2ed092adb253662f37fc0bad480861a68fb7397c4bd1034dd614ff21855e74a4",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "?InitializeSecurity@RakPeer@@UAEXPBD000@Z",
+          "site_rva": 213525,
+          "target_va": 268708416,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "eval_vendor_rakclient_convenience",
+      "section": 27,
+      "rva": 1042320,
+      "size": 16,
+      "kind": ".data",
+      "sha256": "44774f987c1b2569c171277ac704deed6fa979e51c12bc30dc3b0defaf92ede9",
+      "whole_bytes_equal": true,
+      "bindings": []
+    }
+  ],
+  "bindings_checked": 17,
+  "external_targets": {
+    "?GetStatistics@RakPeer@@UAEQAURakNetStatisticsStruct@@UPlayerID@@@Z": 268690880,
+    "?SetTimeoutTime@RakPeer@@UAEXIUPlayerID@@@Z": 268690720,
+    "eval_vendor_rakclient_convenience::_UNASSIGNED_PLAYER_ID": 269477776,
+    "?GetExternalID@RakPeer@@UBE?AUPlayerID@@U2@@Z": 268666784,
+    "??8PlayerID@@QBE_NABU0@@Z": 268646112,
+    "?GetInternalID@RakPeer@@UBE?AUPlayerID@@XZ": 268666752,
+    "?GetTime@RakNet@@YAIXZ": 268625904,
+    "?GetConnectionList@RakPeer@@UBE_NPAUPlayerID@@PAG@Z": 268666064,
+    "?Reset@BitStream@RakNet@@QAEXXZ": 268564720,
+    "?Write@BitStream@RakNet@@QAEXPBDH@Z": 268566672,
+    "?InitializeSecurity@RakPeer@@UAEXPBD000@Z": 268708416
+  },
+  "identity_reasons": {
+    "?InitializeSecurity@RakClient@@UAEXPBD0@Z": "source method semantics + original call graph / allocation / table owner",
+    "?SetPassword@RakClient@@UAEXPBD@Z": "source method semantics + original call graph / allocation / table owner",
+    "?HasPassword@RakClient@@UBE_NXZ": "source method semantics + original call graph / allocation / table owner",
+    "?GetPlayerPing@RakClient@@UAEHUPlayerID@@@Z": "source method semantics + original call graph / allocation / table owner",
+    "?IsConnected@RakClient@@UBE_NXZ": "source method semantics + original call graph / allocation / table owner",
+    "?GetSynchronizedRandomInteger@RakClient@@UBEIXZ": "source method semantics + original call graph / allocation / table owner",
+    "?GetServerID@RakClient@@UBE?AUPlayerID@@XZ": "source method semantics + original call graph / allocation / table owner",
+    "?GetPlayerID@RakClient@@UBE?AUPlayerID@@XZ": "source method semantics + original call graph / allocation / table owner",
+    "?SetTimeoutTime@RakClient@@UAEXI@Z": "source method semantics + original call graph / allocation / table owner",
+    "?GetStatistics@RakClient@@UAEQAURakNetStatisticsStruct@@XZ": "source method semantics + original call graph / allocation / table owner",
+    "?GetPlayerIndex@RakClient@@UAEGXZ": "source method semantics + original call graph / allocation / table owner"
+  },
+  "new_unique_code": 555,
+  "already_covered_code": 20,
+  "physical_code_compared": 575,
+  "baseline": 402825,
+  "source025_direct_bytes": 0,
+  "reuse_existing_owners": {},
+  "excluded_unmatched": [],
+  "explicit_owner_transfer": "None; RakClient message methods reuse existing providers.",
+  "unselected_method": "Only real RakClient message roots and original relocation closure selected; callback implementations are never credited.",
+  "source_files": [
+    {
+      "path": "client/saco/eval_vendor_rakclient_convenience.cpp",
+      "sha256": "07e0123829d6a2df0b4c7d597d93828849ad83b9f5792d025077e4b4a5da4e15"
+    }
+  ],
+  "objects": {
+    "eval_vendor_rakclient_convenience": "415c08e882c0a07a38ce0be72bb50ed09298c29d9be39b1f4fd132ef8d6d8aca"
+  },
+  "actual_weak_aliases": {
+    "eval_vendor_rakclient_convenience": {}
+  }
+}

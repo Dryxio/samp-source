@@ -1,0 +1,608 @@
+{
+  "status": "PASS_FULL_SOURCE_REGIONS_ALL_COFF_PE_TARGETS",
+  "run": "cp32-trial30-packet-getters2",
+  "baseline": 402825,
+  "new_unique_code": 1624,
+  "regions": [
+    {
+      "unit": "closure_packet_driver_sync",
+      "section": 75,
+      "anchor": "?PacketDriverSync@R5DriverPacketNetView@@QAEXPAUPacket@@@Z",
+      "anchor_offset": 0,
+      "rva": 43536,
+      "size": 727,
+      "kind": "code",
+      "sha256": "bb370cd2510e65a579c5c2b8411b051db36eb331e44d3628c5ddd6286ea427dc",
+      "bindings": [
+        {
+          "symbol": "__ehhandler$?PacketDriverSync@R5DriverPacketNetView@@QAEXPAUPacket@@@Z",
+          "site_rva": 43539,
+          "kind": 6,
+          "target_va": 269354139
+        },
+        {
+          "symbol": "__except_list",
+          "site_rva": 43545,
+          "kind": 6,
+          "target_va": 0
+        },
+        {
+          "symbol": "__except_list",
+          "site_rva": 43553,
+          "kind": 6,
+          "target_va": 0
+        },
+        {
+          "symbol": "??0BitStream@RakNet@@QAE@PADI_N@Z",
+          "site_rva": 43591,
+          "kind": 20,
+          "target_va": 268564544
+        },
+        {
+          "symbol": "?ReadBits@BitStream@RakNet@@QAE_NPAEH_N@Z",
+          "site_rva": 43663,
+          "kind": 20,
+          "target_va": 268564912
+        },
+        {
+          "symbol": "?ReadBits@BitStream@RakNet@@QAE_NPAEH_N@Z",
+          "site_rva": 43681,
+          "kind": 20,
+          "target_va": 268564912
+        },
+        {
+          "symbol": "?ReadBits@BitStream@RakNet@@QAE_NPAEH_N@Z",
+          "site_rva": 43699,
+          "kind": 20,
+          "target_va": 268564912
+        },
+        {
+          "symbol": "?ReadBits@BitStream@RakNet@@QAE_NPAEH_N@Z",
+          "site_rva": 43717,
+          "kind": 20,
+          "target_va": 268564912
+        },
+        {
+          "symbol": "?ReadBits@BitStream@RakNet@@QAE_NPAEH_N@Z",
+          "site_rva": 43735,
+          "kind": 20,
+          "target_va": 268564912
+        },
+        {
+          "symbol": "?ReadBits@BitStream@RakNet@@QAE_NPAEH_N@Z",
+          "site_rva": 43753,
+          "kind": 20,
+          "target_va": 268564912
+        },
+        {
+          "symbol": "?ReadBits@BitStream@RakNet@@QAE_NPAEH_N@Z",
+          "site_rva": 43771,
+          "kind": 20,
+          "target_va": 268564912
+        },
+        {
+          "symbol": "?ReadBits@BitStream@RakNet@@QAE_NPAEH_N@Z",
+          "site_rva": 43789,
+          "kind": 20,
+          "target_va": 268564912
+        },
+        {
+          "symbol": "??$ReadNormQuat@M@BitStream@RakNet@@QAE_NAAM000@Z",
+          "site_rva": 43818,
+          "kind": 20,
+          "target_va": 268473984
+        },
+        {
+          "symbol": "?Read@BitStream@RakNet@@QAE_NPADH@Z",
+          "site_rva": 43834,
+          "kind": 20,
+          "target_va": 268566176
+        },
+        {
+          "symbol": "??$ReadVector@M@BitStream@RakNet@@QAE_NAAM00@Z",
+          "site_rva": 43858,
+          "kind": 20,
+          "target_va": 268477360
+        },
+        {
+          "symbol": "?ReadBits@BitStream@RakNet@@QAE_NPAEH_N@Z",
+          "site_rva": 43876,
+          "kind": 20,
+          "target_va": 268564912
+        },
+        {
+          "symbol": "?ReadBits@BitStream@RakNet@@QAE_NPAEH_N@Z",
+          "site_rva": 43911,
+          "kind": 20,
+          "target_va": 268564912
+        },
+        {
+          "symbol": "?ReadBits@BitStream@RakNet@@QAE_NPAEH_N@Z",
+          "site_rva": 44007,
+          "kind": 20,
+          "target_va": 268564912
+        },
+        {
+          "symbol": "??$Read@_N@BitStream@RakNet@@QAE_NAA_N@Z",
+          "site_rva": 44042,
+          "kind": 20,
+          "target_va": 268469280
+        },
+        {
+          "symbol": "??$Read@_N@BitStream@RakNet@@QAE_NAA_N@Z",
+          "site_rva": 44067,
+          "kind": 20,
+          "target_va": 268469280
+        },
+        {
+          "symbol": "??$Read@_N@BitStream@RakNet@@QAE_NAA_N@Z",
+          "site_rva": 44092,
+          "kind": 20,
+          "target_va": 268469280
+        },
+        {
+          "symbol": "?ReadBits@BitStream@RakNet@@QAE_NPAEH_N@Z",
+          "site_rva": 44116,
+          "kind": 20,
+          "target_va": 268564912
+        },
+        {
+          "symbol": "??$Read@_N@BitStream@RakNet@@QAE_NAA_N@Z",
+          "site_rva": 44130,
+          "kind": 20,
+          "target_va": 268469280
+        },
+        {
+          "symbol": "?ReadBits@BitStream@RakNet@@QAE_NPAEH_N@Z",
+          "site_rva": 44154,
+          "kind": 20,
+          "target_va": 268564912
+        },
+        {
+          "symbol": "?StoreDriverSync@R5RemoteDriverUpdateView@@QAEXPAUR5RemoteDriverSync@@K@Z",
+          "site_rva": 44213,
+          "kind": 20,
+          "target_va": 268530496
+        },
+        {
+          "symbol": "??1BitStream@RakNet@@QAE@XZ",
+          "site_rva": 44233,
+          "kind": 20,
+          "target_va": 268564688
+        },
+        {
+          "symbol": "__except_list",
+          "site_rva": 44250,
+          "kind": 6,
+          "target_va": 0
+        }
+      ]
+    },
+    {
+      "unit": "closure_packet_driver_sync",
+      "section": 50,
+      "anchor": "??$Read@_N@BitStream@RakNet@@QAE_NAA_N@Z",
+      "anchor_offset": 0,
+      "rva": 33824,
+      "size": 89,
+      "kind": "code",
+      "sha256": "b37034fc3b389d74b01e3aeca79066e2df1184e312ff0b4ee54a0c788b584854",
+      "bindings": []
+    },
+    {
+      "unit": "closure_packet_driver_sync",
+      "section": 72,
+      "anchor": "??$ReadVector@M@BitStream@RakNet@@QAE_NAAM00@Z",
+      "anchor_offset": 0,
+      "rva": 41904,
+      "size": 299,
+      "kind": "code",
+      "sha256": "6c3bf211af5331e91ac447cba0e28b1f88b970b5cbddda17070a3dba45004acf",
+      "bindings": [
+        {
+          "symbol": "?ReadBits@BitStream@RakNet@@QAE_NPAEH_N@Z",
+          "site_rva": 41920,
+          "kind": 20,
+          "target_va": 268564912
+        },
+        {
+          "symbol": "__real@3727c5ac",
+          "site_rva": 41938,
+          "kind": 6,
+          "target_va": 269375700
+        },
+        {
+          "symbol": "?ReadBits@BitStream@RakNet@@QAE_NPAEH_N@Z",
+          "site_rva": 41965,
+          "kind": 20,
+          "target_va": 268564912
+        },
+        {
+          "symbol": "__real@38000080",
+          "site_rva": 41988,
+          "kind": 6,
+          "target_va": 269376312
+        },
+        {
+          "symbol": "__real@3f800000",
+          "site_rva": 41994,
+          "kind": 6,
+          "target_va": 269376300
+        },
+        {
+          "symbol": "?ReadBits@BitStream@RakNet@@QAE_NPAEH_N@Z",
+          "site_rva": 42014,
+          "kind": 20,
+          "target_va": 268564912
+        },
+        {
+          "symbol": "__real@38000080",
+          "site_rva": 42037,
+          "kind": 6,
+          "target_va": 269376312
+        },
+        {
+          "symbol": "__real@3f800000",
+          "site_rva": 42043,
+          "kind": 6,
+          "target_va": 269376300
+        },
+        {
+          "symbol": "?ReadBits@BitStream@RakNet@@QAE_NPAEH_N@Z",
+          "site_rva": 42063,
+          "kind": 20,
+          "target_va": 268564912
+        },
+        {
+          "symbol": "__real@38000080",
+          "site_rva": 42099,
+          "kind": 6,
+          "target_va": 269376312
+        },
+        {
+          "symbol": "__real@3f800000",
+          "site_rva": 42105,
+          "kind": 6,
+          "target_va": 269376300
+        }
+      ]
+    },
+    {
+      "unit": "closure_packet_driver_sync",
+      "section": 64,
+      "anchor": "__real@3f800000",
+      "anchor_offset": 0,
+      "rva": 940844,
+      "size": 4,
+      "kind": "data",
+      "sha256": "e00e5eb9444182f352323374ef4e08ebcb784725fdd4fd612d7730540b3e0c8c",
+      "bindings": []
+    },
+    {
+      "unit": "closure_packet_driver_sync",
+      "section": 70,
+      "anchor": "__real@38000080",
+      "anchor_offset": 0,
+      "rva": 940856,
+      "size": 4,
+      "kind": "data",
+      "sha256": "389f69a8482ed00da31a01a360f7a37d1b63e348bbf708555cf8dcebd9118d21",
+      "bindings": []
+    },
+    {
+      "unit": "closure_packet_driver_sync",
+      "section": 73,
+      "anchor": "__real@3727c5ac",
+      "anchor_offset": 0,
+      "rva": 940244,
+      "size": 4,
+      "kind": "data",
+      "sha256": "e6540c5b3269d9a6e3646dd482c2a7fe6b58e101e80007556892bb770099a68c",
+      "bindings": []
+    },
+    {
+      "unit": "closure_packet_driver_sync",
+      "section": 62,
+      "anchor": "??$ReadNormQuat@M@BitStream@RakNet@@QAE_NAAM000@Z",
+      "anchor_offset": 0,
+      "rva": 38528,
+      "size": 325,
+      "kind": "code",
+      "sha256": "fecd593e6635a7896e8c64529586c0a3238e819bdec85072231ae6845c0d9262",
+      "bindings": [
+        {
+          "symbol": "??$Read@_N@BitStream@RakNet@@QAE_NAA_N@Z",
+          "site_rva": 38540,
+          "kind": 20,
+          "target_va": 268469280
+        },
+        {
+          "symbol": "??$Read@_N@BitStream@RakNet@@QAE_NAA_N@Z",
+          "site_rva": 38552,
+          "kind": 20,
+          "target_va": 268469280
+        },
+        {
+          "symbol": "??$Read@_N@BitStream@RakNet@@QAE_NAA_N@Z",
+          "site_rva": 38564,
+          "kind": 20,
+          "target_va": 268469280
+        },
+        {
+          "symbol": "??$Read@_N@BitStream@RakNet@@QAE_NAA_N@Z",
+          "site_rva": 38576,
+          "kind": 20,
+          "target_va": 268469280
+        },
+        {
+          "symbol": "?ReadBits@BitStream@RakNet@@QAE_NPAEH_N@Z",
+          "site_rva": 38592,
+          "kind": 20,
+          "target_va": 268564912
+        },
+        {
+          "symbol": "?ReadBits@BitStream@RakNet@@QAE_NPAEH_N@Z",
+          "site_rva": 38608,
+          "kind": 20,
+          "target_va": 268564912
+        },
+        {
+          "symbol": "?ReadBits@BitStream@RakNet@@QAE_NPAEH_N@Z",
+          "site_rva": 38624,
+          "kind": 20,
+          "target_va": 268564912
+        },
+        {
+          "symbol": "__real@3ef0001000100010",
+          "site_rva": 38676,
+          "kind": 6,
+          "target_va": 269376304
+        },
+        {
+          "symbol": "__real@3ef0001000100010",
+          "site_rva": 38699,
+          "kind": 6,
+          "target_va": 269376304
+        },
+        {
+          "symbol": "__real@3ef0001000100010",
+          "site_rva": 38715,
+          "kind": 6,
+          "target_va": 269376304
+        },
+        {
+          "symbol": "__real@3f800000",
+          "site_rva": 38772,
+          "kind": 6,
+          "target_va": 269376300
+        },
+        {
+          "symbol": "__real@00000000",
+          "site_rva": 38794,
+          "kind": 6,
+          "target_va": 269375808
+        },
+        {
+          "symbol": "__real@00000000",
+          "site_rva": 38809,
+          "kind": 6,
+          "target_va": 269375808
+        }
+      ]
+    },
+    {
+      "unit": "closure_packet_driver_sync",
+      "section": 63,
+      "anchor": "__real@00000000",
+      "anchor_offset": 0,
+      "rva": 940352,
+      "size": 4,
+      "kind": "data",
+      "sha256": "df3f619804a92fdb4057192dc43dd748ea778adc52bc498ce80524c014b81119",
+      "bindings": []
+    },
+    {
+      "unit": "closure_packet_driver_sync",
+      "section": 65,
+      "anchor": "__real@3ef0001000100010",
+      "anchor_offset": 0,
+      "rva": 940848,
+      "size": 8,
+      "kind": "data",
+      "sha256": "98e1fe79038338a63c51a759840cd9f761ad2f1b75b30f33887b79a83d9b4585",
+      "bindings": []
+    },
+    {
+      "unit": "closure_packet_driver_sync",
+      "section": 76,
+      "anchor": "$L95373",
+      "anchor_offset": 0,
+      "rva": 918672,
+      "size": 21,
+      "kind": "code",
+      "sha256": "7f6dbd957c30e868f529b48db417657e945fe88179c0ad5d8198f631d98b6b80",
+      "bindings": [
+        {
+          "symbol": "??1BitStream@RakNet@@QAE@XZ",
+          "site_rva": 918679,
+          "kind": 20,
+          "target_va": 268564688
+        },
+        {
+          "symbol": "$T95452",
+          "site_rva": 918684,
+          "kind": 6,
+          "target_va": 269450448
+        },
+        {
+          "symbol": "___CxxFrameHandler",
+          "site_rva": 918689,
+          "kind": 20,
+          "target_va": 269247782
+        }
+      ]
+    },
+    {
+      "unit": "closure_packet_driver_sync",
+      "section": 77,
+      "anchor": "$T95452",
+      "anchor_offset": 8,
+      "rva": 1014984,
+      "size": 36,
+      "kind": "data",
+      "sha256": "fea8ef16fabc1714172dc4b9d790a228187212ea872c191fd0ee441765c42ea6",
+      "bindings": [
+        {
+          "symbol": "$L95373",
+          "site_rva": 1014988,
+          "kind": 6,
+          "target_va": 269354128
+        },
+        {
+          "symbol": "$T95456",
+          "site_rva": 1015000,
+          "kind": 6,
+          "target_va": 269450440
+        }
+      ]
+    },
+    {
+      "unit": "closure_packet_passenger_sync",
+      "section": 54,
+      "anchor": "?PacketPassengerSync@R5PassengerPacketNetView@@QAEXPAUPacket@@@Z",
+      "anchor_offset": 0,
+      "rva": 40240,
+      "size": 231,
+      "kind": "code",
+      "sha256": "1ccfc119094d3c057a34897e4b8aecb22e2ab7fb139c6156427a587eea4b7559",
+      "bindings": [
+        {
+          "symbol": "__ehhandler$?PacketPassengerSync@R5PassengerPacketNetView@@QAEXPAUPacket@@@Z",
+          "site_rva": 40243,
+          "kind": 6,
+          "target_va": 269353979
+        },
+        {
+          "symbol": "__except_list",
+          "site_rva": 40249,
+          "kind": 6,
+          "target_va": 0
+        },
+        {
+          "symbol": "__except_list",
+          "site_rva": 40257,
+          "kind": 6,
+          "target_va": 0
+        },
+        {
+          "symbol": "??0BitStream@RakNet@@QAE@PADI_N@Z",
+          "site_rva": 40292,
+          "kind": 20,
+          "target_va": 268564544
+        },
+        {
+          "symbol": "?ReadBits@BitStream@RakNet@@QAE_NPAEH_N@Z",
+          "site_rva": 40335,
+          "kind": 20,
+          "target_va": 268564912
+        },
+        {
+          "symbol": "?ReadBits@BitStream@RakNet@@QAE_NPAEH_N@Z",
+          "site_rva": 40353,
+          "kind": 20,
+          "target_va": 268564912
+        },
+        {
+          "symbol": "?Read@BitStream@RakNet@@QAE_NPADH@Z",
+          "site_rva": 40369,
+          "kind": 20,
+          "target_va": 268566176
+        },
+        {
+          "symbol": "?StorePassengerSync@R5RemotePassengerUpdateView@@QAEXPAUR5RemotePassengerSync@@@Z",
+          "site_rva": 40423,
+          "kind": 20,
+          "target_va": 268530752
+        },
+        {
+          "symbol": "??1BitStream@RakNet@@QAE@XZ",
+          "site_rva": 40443,
+          "kind": 20,
+          "target_va": 268564688
+        },
+        {
+          "symbol": "__except_list",
+          "site_rva": 40458,
+          "kind": 6,
+          "target_va": 0
+        }
+      ]
+    },
+    {
+      "unit": "closure_packet_passenger_sync",
+      "section": 55,
+      "anchor": "$L95139",
+      "anchor_offset": 0,
+      "rva": 918512,
+      "size": 21,
+      "kind": "code",
+      "sha256": "f7e8ed8d52ca85eb2c1e77ededf64496cf206c777bf58ff3c56d0c3046065b6e",
+      "bindings": [
+        {
+          "symbol": "??1BitStream@RakNet@@QAE@XZ",
+          "site_rva": 918519,
+          "kind": 20,
+          "target_va": 268564688
+        },
+        {
+          "symbol": "$T95163",
+          "site_rva": 918524,
+          "kind": 6,
+          "target_va": 269450260
+        },
+        {
+          "symbol": "___CxxFrameHandler",
+          "site_rva": 918529,
+          "kind": 20,
+          "target_va": 269247782
+        }
+      ]
+    },
+    {
+      "unit": "closure_packet_passenger_sync",
+      "section": 56,
+      "anchor": "$T95163",
+      "anchor_offset": 8,
+      "rva": 1014796,
+      "size": 36,
+      "kind": "data",
+      "sha256": "14ec83e30318e215ef8a82420c39992489a2c47e82baae6ddd33178c158e3c60",
+      "bindings": [
+        {
+          "symbol": "$L95139",
+          "site_rva": 1014800,
+          "kind": 6,
+          "target_va": 269353968
+        },
+        {
+          "symbol": "$T95167",
+          "site_rva": 1014812,
+          "kind": 6,
+          "target_va": 269450252
+        }
+      ]
+    }
+  ],
+  "source025_direct": 0,
+  "objects": {
+    "closure_packet_passenger_sync": "db67bc256bf5edc4a54ce32380ff305dc4166ee5c5516c142f8d0ec535dff7b2",
+    "closure_packet_driver_sync": "358eba116d123ef6c13808e63a631565b20ae69d92770bdae08d16e5df605f98"
+  },
+  "provenance": "Local025 Packet_VehicleSync and Packet_PassengerSync adapted to observed R5 wire records, quaternion/vector codecs, timestamp40 prefix, flag layout and genuine GetPlayerPool inline getter. All original full code/EH/FuncInfo/constants and emitted templates verified.",
+  "source025_direct_bytes": 0,
+  "source025_assisted_adapted_bytes": 1000,
+  "source_hashes": {
+    "closure_packet_passenger_sync": "bc3540e032d6a988748320a48b04847646736c7ab73135d24a93e33a9afd223d",
+    "closure_packet_driver_sync": "a93a23a621dd839945adfb79031ae05698aa51857ed63d986310dece07e4a589"
+  }
+}

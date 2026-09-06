@@ -1,0 +1,108 @@
+{
+  "status": "UNCOMPILED_NORMAL_CPP_PROPOSAL",
+  "source": "build/agent-independent/eval_vendor_rakclient_convenience.cpp",
+  "roots": [
+    {
+      "symbol": "?InitializeSecurity@RakClient@@UAEXPBD0@Z",
+      "rva": 213504,
+      "size": 28,
+      "targets": {
+        "?InitializeSecurity@RakPeer@@UAEXPBD000@Z": 268708416
+      },
+      "potential_unique": 28
+    },
+    {
+      "symbol": "?SetPassword@RakClient@@UAEXPBD@Z",
+      "rva": 213536,
+      "size": 68,
+      "targets": {
+        "?Reset@BitStream@RakNet@@QAEXXZ": 268564720,
+        "?Write@BitStream@RakNet@@QAEXPBDH@Z": 268566672
+      },
+      "potential_unique": 68
+    },
+    {
+      "symbol": "?HasPassword@RakClient@@UBE_NXZ",
+      "rva": 213616,
+      "size": 20,
+      "targets": {},
+      "potential_unique": 0
+    },
+    {
+      "symbol": "?GetPlayerPing@RakClient@@UAEHUPlayerID@@@Z",
+      "rva": 214080,
+      "size": 73,
+      "targets": {
+        "??8PlayerID@@QBE_NABU0@@Z": 268646112
+      },
+      "potential_unique": 73
+    },
+    {
+      "symbol": "?IsConnected@RakClient@@UBE_NXZ",
+      "rva": 214192,
+      "size": 30,
+      "targets": {
+        "?GetConnectionList@RakPeer@@UBE_NPAUPlayerID@@PAG@Z": 268666064
+      },
+      "potential_unique": 30
+    },
+    {
+      "symbol": "?GetSynchronizedRandomInteger@RakClient@@UBEIXZ",
+      "rva": 214224,
+      "size": 32,
+      "targets": {
+        "?GetTime@RakNet@@YAIXZ": 268625904
+      },
+      "potential_unique": 32
+    },
+    {
+      "symbol": "?GetServerID@RakClient@@UBE?AUPlayerID@@XZ",
+      "rva": 214928,
+      "size": 64,
+      "targets": {
+        "_UNASSIGNED_PLAYER_ID": 269477776
+      },
+      "potential_unique": 64
+    },
+    {
+      "symbol": "?GetPlayerID@RakClient@@UBE?AUPlayerID@@XZ",
+      "rva": 214992,
+      "size": 153,
+      "targets": {
+        "_UNASSIGNED_PLAYER_ID": 269477776,
+        "?GetExternalID@RakPeer@@UBE?AUPlayerID@@U2@@Z": 268666784,
+        "??8PlayerID@@QBE_NABU0@@Z": 268646112,
+        "?GetInternalID@RakPeer@@UBE?AUPlayerID@@XZ": 268666752
+      },
+      "potential_unique": 153
+    },
+    {
+      "symbol": "?SetTimeoutTime@RakClient@@UAEXI@Z",
+      "rva": 215264,
+      "size": 61,
+      "targets": {
+        "?SetTimeoutTime@RakPeer@@UAEXIUPlayerID@@@Z": 268690720
+      },
+      "potential_unique": 61
+    },
+    {
+      "symbol": "?GetStatistics@RakClient@@UAEQAURakNetStatisticsStruct@@XZ",
+      "rva": 215392,
+      "size": 38,
+      "targets": {
+        "?GetStatistics@RakPeer@@UAEQAURakNetStatisticsStruct@@UPlayerID@@@Z": 268690880
+      },
+      "potential_unique": 38
+    },
+    {
+      "symbol": "?GetPlayerIndex@RakClient@@UAEGXZ",
+      "rva": 215584,
+      "size": 8,
+      "targets": {},
+      "potential_unique": 8
+    }
+  ],
+  "potential_unique": 555,
+  "source025_direct_bytes": 0,
+  "dependency_review": "Every old-discovery direct target present in current accepted manifest. Getter data sentinel actual whole data must be compared fresh. No constructors/allocations/VFT claimed."
+}

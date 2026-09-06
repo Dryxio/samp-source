@@ -1,0 +1,66 @@
+{
+  "status": "PASS_WHOLE_SEMANTIC_AND_UNIQUE_REVIEW",
+  "new_unique": 1662,
+  "prepared_before_trial": 914,
+  "reconstructed_during_trial": 748,
+  "source025_direct_bytes": 0,
+  "source025_assisted_adapted_bytes": 1038,
+  "vendor_template_bytes": 624,
+  "identical_shared_definitions": [
+    "R5RemoteDriverSync",
+    "R5RemoteDriverUpdateView"
+  ],
+  "compiled_run": "cp32-trial30-packet-getters2",
+  "r5_wire_record": {
+    "size": 63,
+    "vehicleId": 0,
+    "controls": [
+      2,
+      4,
+      6
+    ],
+    "quaternion": 8,
+    "position": 24,
+    "moveSpeed": 36,
+    "vehicleHealth": 48,
+    "health": 52,
+    "armour": 53,
+    "weaponAndKeys": 54,
+    "siren": 55,
+    "landingGear": 56,
+    "trailerId": 57,
+    "trainSpeed": 59
+  },
+  "evidence": [
+    "Original AA10 has63byte memset,actualReadNormQuat<float>, ReadVector<float>; actual StoreDriverSync copies63 bytes into remote+19. No view is allocated.",
+    "Timestamp prefix40 consumes byte+DWORD before actual packet id; stream exists before gamestate==5 guard.",
+    "Pool pointer3DE and players pointer+4 loaded before GetRemote id>1004 guard; real inline getter resolves230/726 versus231/727 codegen differences without body manipulation.",
+    "Passenger record24 complete; whole accepted237 target at17440.",
+    "SetState invokes StateChange before assignment; actual sharedremote types byte-for-byte identical to accepted StoreDriverSync source.",
+    "Read<bool>89 and constant stores may appear in multiple objects; full manifests retain them but only union unique new sourcecode is counted.",
+    "Quaternion/vector624 emitted in packetdriver are same original whole identities as standalone templates, countonce."
+  ],
+  "roots": [
+    {
+      "rva": 40240,
+      "size": 231
+    },
+    {
+      "rva": 43536,
+      "size": 727
+    },
+    {
+      "rva": 91568,
+      "size": 38
+    },
+    {
+      "rva": 38528,
+      "size": 325
+    },
+    {
+      "rva": 41904,
+      "size": 299
+    }
+  ],
+  "required_link_review": "Root full gate and actual MAP/COFF/PE duplicates before acceptance; no candidate credit yet."
+}
