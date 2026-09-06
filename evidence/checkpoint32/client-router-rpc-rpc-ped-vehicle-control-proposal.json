@@ -1,0 +1,32 @@
+{
+  "status": "NORMAL_CPP_NOT_COMPILED",
+  "baseline": 396868,
+  "code_potential": 449,
+  "EH_potential": 42,
+  "total_potential": 491,
+  "functions": [
+    {
+      "name": "ScrPutPlayerInVehicleTransfer",
+      "rva": 103936,
+      "size": 261
+    },
+    {
+      "name": "ScrTogglePlayerControllableTransfer",
+      "rva": 107152,
+      "size": 156
+    },
+    {
+      "name": "R5VehicleGtaIdPoolView::FindGtaIDFromID",
+      "rva": 125888,
+      "size": 32
+    }
+  ],
+  "source025_direct": 0,
+  "source025_adaptations": [
+    "Both RPCs missingdashr, true R5char*BitStream ctor1F840 insteadoldunsignedchar*; controllable obtainsactualpGame->FindPlayerPed notoldlocalpoolpath.",
+    "FindGtaIDFromID intargument from025 matchesoriginal32-bitindex; actualnativeVehiclesarray4FB4 andtrueB3C00provider, no addedbounds orcasttoWORD."
+  ],
+  "views": "Exact existingRPCVehicleMotionPoolView GetAt inlined, new lookup partialview only, neverallocated. New helper separateTU preserves originalcallinsteadunwantedinlining.",
+  "dependencies": "All exceptnewlookup32 accepteddisconnect-selection: FindPlayer1010, pedAC290/AC790, BitStreamRead1F9B0/dtor1F8D0/ctorchar1F840, nativeVehicle_GetIndexB3C00.",
+  "data": "No newglobals expected; EHmap36 each and possibleexistingFindPlayerduplicate toqualifyafterprobe."
+}

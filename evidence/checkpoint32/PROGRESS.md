@@ -1503,3 +1503,6 @@ Send/handshake5328 plus FontSize/Setup/layout/toggles1113: +6441 unique accepted
 
 
 Disconnect1862 and vehicle selection965/ped559: +3386 unique accepted code bytes, total396868/930756 (42.639317%).Whole original/linked code/data/EH and every COFF/PE target; true RemoteSystem3177 lifetime, complete request queues, actual vehicle184 provider, five script descriptors18 and selection state. Duplicate FindPlayer/EH fully requalified, no duplicate/CRT/data/native dependency credit. Ten controls and Actor ABI PASS. No header change. Direct025+20/cumulative22342 via complete dispatcher20; remaining selection945 hybrid. 16221.9 bytes/hour including coordination/failures. RakClient family next; goal active, no push/deploy.
+
+
+RakClient2088 +Router/SystemAddressList3378 +RPC491: +5957 unique accepted code bytes, total402825/930756 (43.279334%).Entire original/linked code/data/EH and all COFF/PE targets; true multiple inheritance ABI, virtual interfaces, complete types and original file CRT boundaries. PutPlayer261 restored via normal inline getter context; Control156 and lookup32 exact. No duplicate/CRT/data/concrete callback or unimplemented graph credit. Ten controls and Actor ABI PASS. Direct025+0/cumulative22342; missing RPC source useful as adapted reference. 16358.9 bytes/hour coordination/failures included. Goal active, no push/deploy.

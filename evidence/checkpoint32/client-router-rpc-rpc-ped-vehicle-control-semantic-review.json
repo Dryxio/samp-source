@@ -1,0 +1,27 @@
+{
+  "status": "PASS_SEMANTIC_TYPES_ODR",
+  "byte_preflight_owner": "build/root-rpc-control-reviewed-manifest.json",
+  "new_unique_code": 491,
+  "source025_direct": 0,
+  "odr_class_sha256": {
+    "RPCVehicleMotionPoolView": "883ecd206cbc5284aacd57b3c91e87f5be34944d6c1f88862ca8fd36d6de1bb1",
+    "R5VehicleGtaIdPoolView": "495e10087fc65547ede2c4b1d126b55ed48757e898c8a2cf57e69ad74d972ae6",
+    "R5VehicleGtaIdPoolsView": "d9f98ac121cab817638810791869f24c66da83a7bdbcb0ebdae0e84720a337a6",
+    "R5VehicleGtaIdNetView": "22186a7b1c1076c2414e3eaf37a9116aa78cc42d1b3ced422eaceebb7ddeecf8"
+  },
+  "source_sha256": {
+    "client/saco/closure_rpc_ped_vehicle_control.cpp": "0a5bddc5e6f2ef165b907e352cdbd6da6e0dd12ce09ab5c2b1f2d468d4ac52a5",
+    "client/saco/closure_vehicle_gta_id_lookup.cpp": "61405c4c0db582ca00b608b2f31bcc4361bbaa6c36657e8a1f0a3cfa609eaec1"
+  },
+  "evidence": [
+    "All four shared view declarations are identical between both changed TUs; RPCVehicleMotionPoolView also exactly equals its accepted closure_rpc_vehicle_motion owner.",
+    "Views are pointer-only; no view allocations or synthetic class lifetimes. Native vehicles offset4FB4, wrapper1134, active3074; net pools3DE verified by complete original bodies.",
+    "FindGtaIDFromID accepts full int, native slot lookup tail-calls real stdcall GamePool_Vehicle_GetIndexB3C00 and returns FFFF for null. No added range check or narrowed formal.",
+    "Put reads WORD vehicleid and BYTE seatid through real char* BitStream ctor1F840, same ignored Read failure semantics as original; does native lookup before checked wrapper access, tests nonzero index plus wrapper, then calls true PutDirectlyInVehicleAC290.",
+    "Control reads unsigned BYTE and promotes to int, obtains actual pGame FindPlayerPed before TogglePlayerControllableAC790; no substitution of old025 net local-player path.",
+    "Restoring source-style inline GetVehiclePool reproduces original pool-load scheduling and entire261; no assembler, dummy variable or padding.",
+    "Unused emitted accessor9/GetAt40/Read17 helpers are not separately seeded or credited.",
+    "Both original025 RPCs required R5 provider/layout/constructor adaptation; hybrid direct025 credit0."
+  ],
+  "duplicates": "FindPlayerPed1010/94, EHDFE80/21, FuncInfoF7610/36 already accepted; linked selected-owner review pending."
+}

@@ -2531,3 +2531,36 @@ EXPORTS
     ?GameBuildRecreateVehicle@@YAXXZ
     ?GameBuildSelectVehicle@@YAXXZ
     ?GameDebugDrawDebugScreens@@YAXXZ
+    ?SetStaticClientData@RakClient@@UAEXUPlayerID@@PBDH@Z
+    ?GetOtherClientIndexByPlayerID@RakClient@@AAEHUPlayerID@@@Z
+    ?GetStaticClientData@RakClient@@UAEPAVBitStream@RakNet@@UPlayerID@@@Z
+    ?Receive@RakClient@@UAEPAUPacket@@XZ
+    ?GetFreeOtherClientIndex@RakClient@@AAEHXZ
+    ?SendStaticClientDataToServer@RakClient@@UAEXXZ
+    ?SetStaticServerData@RakClient@@UAEXPBDH@Z
+    ?GetStaticServerData@RakClient@@UAEPAVBitStream@RakNet@@XZ
+    ?RPC@RakClient@@UAE_NPADPAVBitStream@RakNet@@W4PacketPriority@@W4PacketReliability@@D_N@Z
+    ?RPC@RakClient@@UAE_NPADPAVBitStream@RakNet@@W4PacketPriority@@W4PacketReliability@@D_NUNetworkID@@1@Z
+    ?RPC@RakClient@@UAE_NPADPBDIW4PacketPriority@@W4PacketReliability@@D_NUNetworkID@@PAVBitStream@RakNet@@@Z
+    ?Send@RakClient@@UAE_NPAVBitStream@RakNet@@W4PacketPriority@@W4PacketReliability@@D@Z
+    ?Send@RakClient@@UAE_NPBDHW4PacketPriority@@W4PacketReliability@@D@Z
+    ?Load@SystemAddressList@@QAE_NPBD@Z
+    ?Deserialize@SystemAddressList@@QAE_NPAVBitStream@RakNet@@@Z
+    ?Save@SystemAddressList@@QAE_NPBD@Z
+    ?Serialize@SystemAddressList@@QAEXPAVBitStream@RakNet@@@Z
+    ?RemoveSystem@SystemAddressList@@QAEXUPlayerID@@@Z
+    ?RandomizeOrder@SystemAddressList@@QAEXXZ
+    ?GetList@SystemAddressList@@QAEPAV?$List@UPlayerID@@@DataStructures@@XZ
+    ?OnReceive@Router@@UAE?AW4PluginReceiveResult@@PAVRakPeerInterface@@PAUPacket@@@Z
+    ?RemoveAllowedType@Router@@QAEXE@Z
+    ?AddAllowedType@Router@@QAEXE@Z
+    ?SendTree@Router@@IAEXW4PacketPriority@@W4PacketReliability@@DPAV?$Tree@UPlayerIdAndGroupId@ConnectionGraph@@@DataStructures@@PBDIPAVBitStream@RakNet@@PAVSystemAddressList@@@Z
+    ?SerializePreorder@Router@@IBEXPAV?$Tree@UPlayerIdAndGroupId@ConnectionGraph@@@DataStructures@@PAVBitStream@RakNet@@PAVSystemAddressList@@@Z
+    ?GetIndexOf@?$List@UPlayerID@@@DataStructures@@QAEIUPlayerID@@@Z
+    ?OnDetach@Router@@UAEXPAVRakPeerInterface@@@Z
+    ?OnAttach@Router@@UAEXPAVRakPeerInterface@@@Z
+    ?SetConnectionGraph@Router@@QAEXPAV?$WeightedGraph@UPlayerIdAndGroupId@ConnectionGraph@@G$0A@@DataStructures@@@Z
+    ?SetRestrictRoutingByType@Router@@QAEX_N@Z
+    ?ScrPutPlayerInVehicleTransfer@@YAXPAURPCParameters@@@Z
+    ?ScrTogglePlayerControllableTransfer@@YAXPAURPCParameters@@@Z
+    ?FindGtaIDFromID@R5VehicleGtaIdPoolView@@QAEHH@Z

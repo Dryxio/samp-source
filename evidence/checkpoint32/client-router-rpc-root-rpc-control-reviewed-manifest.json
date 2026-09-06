@@ -1,0 +1,395 @@
+{
+  "status": "PASS_FULL_SOURCE_REGIONS_ALL_COFF_PE_TARGETS",
+  "run": "cp32-rpc-ped-vehicle-control-trial2",
+  "baseline": 396868,
+  "new_unique_code": 491,
+  "regions": [
+    {
+      "unit": "closure_vehicle_gta_id_lookup",
+      "section": 46,
+      "anchor": "?FindGtaIDFromID@R5VehicleGtaIdPoolView@@QAEHH@Z",
+      "rva": 125888,
+      "size": 32,
+      "kind": "code",
+      "sha256": "753f7bf26834d94bd1e6b16ab61a9a65c4c1155486e16bfd7cfdd0f566cf6566",
+      "bindings": [
+        {
+          "symbol": "?GamePool_Vehicle_GetIndex@@YGKPAU_VEHICLE_TYPE@@@Z",
+          "site_rva": 125908,
+          "kind": 20,
+          "target_va": 269171712
+        }
+      ]
+    },
+    {
+      "unit": "closure_rpc_ped_vehicle_control",
+      "section": 63,
+      "anchor": "?ScrTogglePlayerControllableTransfer@@YAXPAURPCParameters@@@Z",
+      "rva": 107152,
+      "size": 156,
+      "kind": "code",
+      "sha256": "ece6570caa520f8bbe530f0a96542e914535c5fe5757b3dc02c7f72797450767",
+      "bindings": [
+        {
+          "symbol": "__ehhandler$?ScrTogglePlayerControllableTransfer@@YAXPAURPCParameters@@@Z",
+          "site_rva": 107155,
+          "kind": 6,
+          "target_va": 269357179
+        },
+        {
+          "symbol": "__except_list",
+          "site_rva": 107161,
+          "kind": 6,
+          "target_va": 0
+        },
+        {
+          "symbol": "__except_list",
+          "site_rva": 107169,
+          "kind": 6,
+          "target_va": 0
+        },
+        {
+          "symbol": "??0BitStream@RakNet@@QAE@PADI_N@Z",
+          "site_rva": 107210,
+          "kind": 20,
+          "target_va": 268564544
+        },
+        {
+          "symbol": "?ReadBits@BitStream@RakNet@@QAE_NPAEH_N@Z",
+          "site_rva": 107239,
+          "kind": 20,
+          "target_va": 268564912
+        },
+        {
+          "symbol": "?pGame@@3PAVCGame@@A",
+          "site_rva": 107251,
+          "kind": 6,
+          "target_va": 270986156
+        },
+        {
+          "symbol": "?FindPlayerPed@CGame@@QAEPAVCPlayerPed@@XZ",
+          "site_rva": 107256,
+          "kind": 20,
+          "target_va": 268439568
+        },
+        {
+          "symbol": "?TogglePlayerControllable@CPlayerPed@@QAEXH@Z",
+          "site_rva": 107263,
+          "kind": 20,
+          "target_va": 269141904
+        },
+        {
+          "symbol": "??1BitStream@RakNet@@QAE@XZ",
+          "site_rva": 107283,
+          "kind": 20,
+          "target_va": 268564688
+        },
+        {
+          "symbol": "__except_list",
+          "site_rva": 107297,
+          "kind": 6,
+          "target_va": 0
+        }
+      ]
+    },
+    {
+      "unit": "closure_rpc_ped_vehicle_control",
+      "section": 46,
+      "anchor": "?FindPlayerPed@CGame@@QAEPAVCPlayerPed@@XZ",
+      "rva": 4112,
+      "size": 94,
+      "kind": "code",
+      "sha256": "c68912916b6df6feb35b20db4e7b421d654238152cff390567881edf7dc6dc63",
+      "bindings": [
+        {
+          "symbol": "__ehhandler$?FindPlayerPed@CGame@@QAEPAVCPlayerPed@@XZ",
+          "site_rva": 4115,
+          "kind": 6,
+          "target_va": 269352587
+        },
+        {
+          "symbol": "__except_list",
+          "site_rva": 4121,
+          "kind": 6,
+          "target_va": 0
+        },
+        {
+          "symbol": "__except_list",
+          "site_rva": 4129,
+          "kind": 6,
+          "target_va": 0
+        },
+        {
+          "symbol": "??2@YAPAXI@Z",
+          "site_rva": 4150,
+          "kind": 20,
+          "target_va": 269247098
+        },
+        {
+          "symbol": "??0CPlayerPed@@QAE@XZ",
+          "site_rva": 4176,
+          "kind": 20,
+          "target_va": 269138544
+        },
+        {
+          "symbol": "__except_list",
+          "site_rva": 4198,
+          "kind": 6,
+          "target_va": 0
+        }
+      ]
+    },
+    {
+      "unit": "closure_rpc_ped_vehicle_control",
+      "section": 47,
+      "anchor": "$L95102",
+      "rva": 917120,
+      "size": 21,
+      "kind": "code",
+      "sha256": "9319808924bf8500b1410f9cb245444680ef7a3fe4e84b7ca09480967e1426d7",
+      "bindings": [
+        {
+          "symbol": "??3@YAXPAX@Z",
+          "site_rva": 917125,
+          "kind": 20,
+          "target_va": 269247626
+        },
+        {
+          "symbol": "$T95106",
+          "site_rva": 917132,
+          "kind": 6,
+          "target_va": 269448728
+        },
+        {
+          "symbol": "___CxxFrameHandler",
+          "site_rva": 917137,
+          "kind": 20,
+          "target_va": 269247782
+        }
+      ]
+    },
+    {
+      "unit": "closure_rpc_ped_vehicle_control",
+      "section": 48,
+      "anchor": "$T95106",
+      "rva": 1013264,
+      "size": 36,
+      "kind": "data",
+      "sha256": "18eebed3494c03a403490a6f95494d9ce9fb81d4042f17a3cba066f92675eb8c",
+      "bindings": [
+        {
+          "symbol": "$L95102",
+          "site_rva": 1013268,
+          "kind": 6,
+          "target_va": 269352576
+        },
+        {
+          "symbol": "$T95112",
+          "site_rva": 1013280,
+          "kind": 6,
+          "target_va": 269448720
+        }
+      ]
+    },
+    {
+      "unit": "closure_rpc_ped_vehicle_control",
+      "section": 64,
+      "anchor": "$L95158",
+      "rva": 921712,
+      "size": 21,
+      "kind": "code",
+      "sha256": "85130d87917a5136a7911896a1f3b006f3ea8355033720201b6a1ceb53550d52",
+      "bindings": [
+        {
+          "symbol": "??1BitStream@RakNet@@QAE@XZ",
+          "site_rva": 921719,
+          "kind": 20,
+          "target_va": 268564688
+        },
+        {
+          "symbol": "$T95165",
+          "site_rva": 921724,
+          "kind": 6,
+          "target_va": 269453996
+        },
+        {
+          "symbol": "___CxxFrameHandler",
+          "site_rva": 921729,
+          "kind": 20,
+          "target_va": 269247782
+        }
+      ]
+    },
+    {
+      "unit": "closure_rpc_ped_vehicle_control",
+      "section": 65,
+      "anchor": "$T95165",
+      "rva": 1018532,
+      "size": 36,
+      "kind": "data",
+      "sha256": "e9e39be182c746607d7301c7aaa1d79eed4fbbce780a5c47c745d86f389377fd",
+      "bindings": [
+        {
+          "symbol": "$L95158",
+          "site_rva": 1018536,
+          "kind": 6,
+          "target_va": 269357168
+        },
+        {
+          "symbol": "$T95167",
+          "site_rva": 1018548,
+          "kind": 6,
+          "target_va": 269453988
+        }
+      ]
+    },
+    {
+      "unit": "closure_rpc_ped_vehicle_control",
+      "section": 59,
+      "anchor": "?ScrPutPlayerInVehicleTransfer@@YAXPAURPCParameters@@@Z",
+      "rva": 103936,
+      "size": 261,
+      "kind": "code",
+      "sha256": "ef548b0d36adc4e4c34a755f54b743adf0bfc2b1f8b7b8a796bdf868061edcd4",
+      "bindings": [
+        {
+          "symbol": "__ehhandler$?ScrPutPlayerInVehicleTransfer@@YAXPAURPCParameters@@@Z",
+          "site_rva": 103939,
+          "kind": 6,
+          "target_va": 269356763
+        },
+        {
+          "symbol": "__except_list",
+          "site_rva": 103945,
+          "kind": 6,
+          "target_va": 0
+        },
+        {
+          "symbol": "__except_list",
+          "site_rva": 103953,
+          "kind": 6,
+          "target_va": 0
+        },
+        {
+          "symbol": "??0BitStream@RakNet@@QAE@PADI_N@Z",
+          "site_rva": 103994,
+          "kind": 20,
+          "target_va": 268564544
+        },
+        {
+          "symbol": "?ReadBits@BitStream@RakNet@@QAE_NPAEH_N@Z",
+          "site_rva": 104023,
+          "kind": 20,
+          "target_va": 268564912
+        },
+        {
+          "symbol": "?ReadBits@BitStream@RakNet@@QAE_NPAEH_N@Z",
+          "site_rva": 104041,
+          "kind": 20,
+          "target_va": 268564912
+        },
+        {
+          "symbol": "?pNetGame@@3PAVCNetGame@@A",
+          "site_rva": 104047,
+          "kind": 6,
+          "target_va": 270986132
+        },
+        {
+          "symbol": "?FindGtaIDFromID@R5VehicleGtaIdPoolView@@QAEHH@Z",
+          "site_rva": 104066,
+          "kind": 20,
+          "target_va": 268561344
+        },
+        {
+          "symbol": "?pNetGame@@3PAVCNetGame@@A",
+          "site_rva": 104072,
+          "kind": 6,
+          "target_va": 270986132
+        },
+        {
+          "symbol": "?pGame@@3PAVCGame@@A",
+          "site_rva": 104139,
+          "kind": 6,
+          "target_va": 270986156
+        },
+        {
+          "symbol": "?FindPlayerPed@CGame@@QAEPAVCPlayerPed@@XZ",
+          "site_rva": 104145,
+          "kind": 20,
+          "target_va": 268439568
+        },
+        {
+          "symbol": "?PutDirectlyInVehicle@CPlayerPed@@QAEXHH@Z",
+          "site_rva": 104152,
+          "kind": 20,
+          "target_va": 269140624
+        },
+        {
+          "symbol": "??1BitStream@RakNet@@QAE@XZ",
+          "site_rva": 104172,
+          "kind": 20,
+          "target_va": 268564688
+        },
+        {
+          "symbol": "__except_list",
+          "site_rva": 104186,
+          "kind": 6,
+          "target_va": 0
+        }
+      ]
+    },
+    {
+      "unit": "closure_rpc_ped_vehicle_control",
+      "section": 60,
+      "anchor": "$L95126",
+      "rva": 921296,
+      "size": 21,
+      "kind": "code",
+      "sha256": "bdcb28761dea7ce8dbe73f3fcecfa17336e762edc128053cb6cdaea0b2a219ef",
+      "bindings": [
+        {
+          "symbol": "??1BitStream@RakNet@@QAE@XZ",
+          "site_rva": 921303,
+          "kind": 20,
+          "target_va": 268564688
+        },
+        {
+          "symbol": "$T95151",
+          "site_rva": 921308,
+          "kind": 6,
+          "target_va": 269453528
+        },
+        {
+          "symbol": "___CxxFrameHandler",
+          "site_rva": 921313,
+          "kind": 20,
+          "target_va": 269247782
+        }
+      ]
+    },
+    {
+      "unit": "closure_rpc_ped_vehicle_control",
+      "section": 61,
+      "anchor": "$T95151",
+      "rva": 1018064,
+      "size": 36,
+      "kind": "data",
+      "sha256": "a66eebc5dba754df8be7d373fba9ef3fcf091953994a288a2aa1c39660c593e5",
+      "bindings": [
+        {
+          "symbol": "$L95126",
+          "site_rva": 1018068,
+          "kind": 6,
+          "target_va": 269356752
+        },
+        {
+          "symbol": "$T95153",
+          "site_rva": 1018080,
+          "kind": 6,
+          "target_va": 269453520
+        }
+      ]
+    }
+  ],
+  "source025_direct": 0
+}
