@@ -1451,3 +1451,8 @@ Direct0250/cumulative21947: existing vendor source produced the major gain here.
 FileList/DatabaseClient/SHA1 accepted: +14988 unique code bytes, total 315680/930756 (33.916515%). Whole functions and attached data/EH, all COFF/PE targets, genuine CRT providers and weak destructor alias, ten controls and Actor ABI pass. FileList12324, Client1592, SHA11072; old SHA1 core excluded from gain. No data, duplicate or CRT code credited.
 
 Direct0250/cumulative21947: existing vendor source supplies this batch. 142539 new unique bytes since parallel start, 12945.1 bytes/hour coordination/failures included. Parked IME message/reading bodies excluded. Goal active; no push/deploy.
+
+
+DirectoryDelta/IME/menu accepted: +3238 unique code bytes, total 318918/930756 (34.264404%). Whole functions and attached data/EH, all COFF/PE targets, genuine providers and whole state, ten controls and Actor ABI pass. DirectoryDelta2164 including actual FileList/List constructors25, IME711, Menu363. No data, duplicate or CRT code credited.
+
+Direct0250/cumulative21947: existing vendor source and R5 UI adaptations supply this batch. 145777 new unique bytes since parallel start, 13067.9 bytes/hour coordination/failures included. Parked IME message/reading bodies excluded. Goal active; no push/deploy.

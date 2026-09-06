@@ -1,0 +1,983 @@
+{
+  "status": "REVIEWED_MAIN_SEEDS_AND_WHOLE_EH_BINDINGS_PREFLIGHT",
+  "run": "build/cp32-directory-delta-trial1",
+  "roots": {
+    "?SetFileListTransferPlugin@DirectoryDeltaTransfer@@QAEXPAVFileListTransfer@@@Z": 154672,
+    "?SetApplicationDirectory@DirectoryDeltaTransfer@@QAEXPBD@Z": 154688,
+    "?SetUploadSendParameters@DirectoryDeltaTransfer@@QAEXW4PacketPriority@@D@Z": 154816,
+    "?AddUploadsFromSubdirectory@DirectoryDeltaTransfer@@QAEXPBD@Z": 154848,
+    "?ClearUploads@DirectoryDeltaTransfer@@QAEXXZ": 154912,
+    "?OnAttach@DirectoryDeltaTransfer@@UAEXPAVRakPeerInterface@@@Z": 154928,
+    "??0DirectoryDeltaTransfer@@QAE@XZ": 154992,
+    "??1DirectoryDeltaTransfer@@QAE@XZ": 155120,
+    "?OnFile@DDTCallback@@UAEXIPAD0IIGIIIE@Z": 155184,
+    "?OnFileProgress@DDTCallback@@UAEXIPADIIGIIIEIII@Z": 155440,
+    "?OnDownloadRequest@DirectoryDeltaTransfer@@IAEXPAVRakPeerInterface@@PAUPacket@@@Z": 155696,
+    "?OnReceive@DirectoryDeltaTransfer@@UAE?AW4PluginReceiveResult@@PAVRakPeerInterface@@PAUPacket@@@Z": 156112,
+    "?GetNumberOfFilesForUpload@DirectoryDeltaTransfer@@QBEIXZ": 156160,
+    "?DownloadFromSubdirectory@DirectoryDeltaTransfer@@QAEGPBD0_NUPlayerID@@PAVFileListTransferCBInterface@@W4PacketPriority@@D@Z": 156176,
+    "?Update@DirectoryDeltaTransfer@@UAEXPAVRakPeerInterface@@@Z": 154944,
+    "?OnDisconnect@DirectoryDeltaTransfer@@UAEXPAVRakPeerInterface@@@Z": 154960
+  },
+  "seeds": {
+    "closure_vendor_directory_delta": {
+      "?OnDisconnect@DirectoryDeltaTransfer@@UAEXPAVRakPeerInterface@@@Z": 154960,
+      "?Update@DirectoryDeltaTransfer@@UAEXPAVRakPeerInterface@@@Z": 154944,
+      "?DownloadFromSubdirectory@DirectoryDeltaTransfer@@QAEGPBD0_NUPlayerID@@PAVFileListTransferCBInterface@@W4PacketPriority@@D@Z": 156176,
+      "?GetNumberOfFilesForUpload@DirectoryDeltaTransfer@@QBEIXZ": 156160,
+      "?OnReceive@DirectoryDeltaTransfer@@UAE?AW4PluginReceiveResult@@PAVRakPeerInterface@@PAUPacket@@@Z": 156112,
+      "?OnDownloadRequest@DirectoryDeltaTransfer@@IAEXPAVRakPeerInterface@@PAUPacket@@@Z": 155696,
+      "?OnFileProgress@DDTCallback@@UAEXIPADIIGIIIEIII@Z": 155440,
+      "?OnFile@DDTCallback@@UAEXIPAD0IIGIIIE@Z": 155184,
+      "??1DirectoryDeltaTransfer@@QAE@XZ": 155120,
+      "??0DirectoryDeltaTransfer@@QAE@XZ": 154992,
+      "?OnAttach@DirectoryDeltaTransfer@@UAEXPAVRakPeerInterface@@@Z": 154928,
+      "?ClearUploads@DirectoryDeltaTransfer@@QAEXXZ": 154912,
+      "?AddUploadsFromSubdirectory@DirectoryDeltaTransfer@@QAEXPBD@Z": 154848,
+      "?SetUploadSendParameters@DirectoryDeltaTransfer@@QAEXW4PacketPriority@@D@Z": 154816,
+      "?SetApplicationDirectory@DirectoryDeltaTransfer@@QAEXPBD@Z": 154688,
+      "?SetFileListTransferPlugin@DirectoryDeltaTransfer@@QAEXPAVFileListTransfer@@@Z": 154672
+    },
+    "closure_vendor_file_list": {
+      "??0FileList@@QAE@XZ": 177344,
+      "??0?$List@UFileListNode@@@DataStructures@@QAE@XZ": 176592
+    }
+  },
+  "regions": [
+    {
+      "unit": "closure_vendor_directory_delta",
+      "section": 28,
+      "rva": 154960,
+      "size": 3,
+      "kind": ".text",
+      "sha256": "e598d0c3ba86d917b177d7adde0556aa99bc355543c57aee0a3e50b684dd7e99",
+      "whole_bytes_equal": true,
+      "bindings": []
+    },
+    {
+      "unit": "closure_vendor_directory_delta",
+      "section": 26,
+      "rva": 154944,
+      "size": 3,
+      "kind": ".text",
+      "sha256": "e598d0c3ba86d917b177d7adde0556aa99bc355543c57aee0a3e50b684dd7e99",
+      "whole_bytes_equal": true,
+      "bindings": []
+    },
+    {
+      "unit": "closure_vendor_directory_delta",
+      "section": 61,
+      "rva": 156176,
+      "size": 725,
+      "kind": ".text",
+      "sha256": "e24511974089e8ee0525d2fb32432dc0b4d1b34397275e7fafd040dfc43cefc1",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "__ehhandler$?DownloadFromSubdirectory@DirectoryDeltaTransfer@@QAEGPBD0_NUPlayerID@@PAVFileListTransferCBInterface@@W4PacketPriority@@D@Z",
+          "site_rva": 156179,
+          "target_va": 269360166,
+          "kind": 6
+        },
+        {
+          "symbol": "__except_list",
+          "site_rva": 156185,
+          "target_va": 0,
+          "kind": 6
+        },
+        {
+          "symbol": "__except_list",
+          "site_rva": 156193,
+          "target_va": 0,
+          "kind": 6
+        },
+        {
+          "symbol": "??0FileList@@QAE@XZ",
+          "site_rva": 156269,
+          "target_va": 268612800,
+          "kind": 20
+        },
+        {
+          "symbol": "?AddFilesFromDirectory@FileList@@QAEXPBD0_N11E@Z",
+          "site_rva": 156320,
+          "target_va": 268614656,
+          "kind": 20
+        },
+        {
+          "symbol": "??2@YAPAXI@Z",
+          "site_rva": 156330,
+          "target_va": 269247098,
+          "kind": 20
+        },
+        {
+          "symbol": "??_7DDTCallback@@6B@",
+          "site_rva": 156343,
+          "target_va": 269380168,
+          "kind": 6
+        },
+        {
+          "symbol": "??_C@_01KMDKNFGN@?1?$AA@",
+          "site_rva": 156562,
+          "target_va": 269375012,
+          "kind": 6
+        },
+        {
+          "symbol": "?SetupReceive@FileListTransfer@@QAEGPAVFileListTransferCBInterface@@_NUPlayerID@@@Z",
+          "site_rva": 156622,
+          "target_va": 268623200,
+          "kind": 20
+        },
+        {
+          "symbol": "??0BitStream@RakNet@@QAE@XZ",
+          "site_rva": 156633,
+          "target_va": 268564272,
+          "kind": 20
+        },
+        {
+          "symbol": "?WriteBits@BitStream@RakNet@@QAEXPBEH_N@Z",
+          "site_rva": 156664,
+          "target_va": 268566496,
+          "kind": 20
+        },
+        {
+          "symbol": "?WriteBits@BitStream@RakNet@@QAEXPBEH_N@Z",
+          "site_rva": 156686,
+          "target_va": 268566496,
+          "kind": 20
+        },
+        {
+          "symbol": "?Instance@StringCompressor@@SAPAV1@XZ",
+          "site_rva": 156711,
+          "target_va": 268778544,
+          "kind": 20
+        },
+        {
+          "symbol": "?EncodeString@StringCompressor@@QAEXPBDHPAVBitStream@RakNet@@H@Z",
+          "site_rva": 156718,
+          "target_va": 268779936,
+          "kind": 20
+        },
+        {
+          "symbol": "?Instance@StringCompressor@@SAPAV1@XZ",
+          "site_rva": 156743,
+          "target_va": 268778544,
+          "kind": 20
+        },
+        {
+          "symbol": "?EncodeString@StringCompressor@@QAEXPBDHPAVBitStream@RakNet@@H@Z",
+          "site_rva": 156750,
+          "target_va": 268779936,
+          "kind": 20
+        },
+        {
+          "symbol": "?Serialize@FileList@@QAEXPAVBitStream@RakNet@@@Z",
+          "site_rva": 156764,
+          "target_va": 268612896,
+          "kind": 20
+        },
+        {
+          "symbol": "??1BitStream@RakNet@@QAE@XZ",
+          "site_rva": 156847,
+          "target_va": 268564688,
+          "kind": 20
+        },
+        {
+          "symbol": "??1FileList@@QAE@XZ",
+          "site_rva": 156867,
+          "target_va": 268614224,
+          "kind": 20
+        },
+        {
+          "symbol": "__except_list",
+          "site_rva": 156887,
+          "target_va": 0,
+          "kind": 6
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_directory_delta",
+      "section": 59,
+      "rva": 156160,
+      "size": 10,
+      "kind": ".text",
+      "sha256": "0928cb6b0b76732f50294c9036f247c06c9ccb8753e6b8d6b76321801419ebf0",
+      "whole_bytes_equal": true,
+      "bindings": []
+    },
+    {
+      "unit": "closure_vendor_directory_delta",
+      "section": 57,
+      "rva": 156112,
+      "size": 36,
+      "kind": ".text",
+      "sha256": "ef4c0d86af8356b1fa899e0e96023e9c096825d4ac979ac4516b5e6458c679c2",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "?OnDownloadRequest@DirectoryDeltaTransfer@@IAEXPAVRakPeerInterface@@PAUPacket@@@Z",
+          "site_rva": 156139,
+          "target_va": 268591152,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_directory_delta",
+      "section": 53,
+      "rva": 155696,
+      "size": 414,
+      "kind": ".text",
+      "sha256": "f6aa47db74cf37de5f4ba38785fd44e9110c6b519f0852b5c6afc08ebcdaa51b",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "__ehhandler$?OnDownloadRequest@DirectoryDeltaTransfer@@IAEXPAVRakPeerInterface@@PAUPacket@@@Z",
+          "site_rva": 155699,
+          "target_va": 269360129,
+          "kind": 6
+        },
+        {
+          "symbol": "__except_list",
+          "site_rva": 155705,
+          "target_va": 0,
+          "kind": 6
+        },
+        {
+          "symbol": "__except_list",
+          "site_rva": 155713,
+          "target_va": 0,
+          "kind": 6
+        },
+        {
+          "symbol": "??0BitStream@RakNet@@QAE@PAEI_N@Z",
+          "site_rva": 155749,
+          "target_va": 268564416,
+          "kind": 20
+        },
+        {
+          "symbol": "??0FileList@@QAE@XZ",
+          "site_rva": 155769,
+          "target_va": 268612800,
+          "kind": 20
+        },
+        {
+          "symbol": "??0FileList@@QAE@XZ",
+          "site_rva": 155786,
+          "target_va": 268612800,
+          "kind": 20
+        },
+        {
+          "symbol": "?IgnoreBits@BitStream@RakNet@@QAEXH@Z",
+          "site_rva": 155805,
+          "target_va": 268565744,
+          "kind": 20
+        },
+        {
+          "symbol": "?ReadBits@BitStream@RakNet@@QAE_NPAEH_N@Z",
+          "site_rva": 155823,
+          "target_va": 268564912,
+          "kind": 20
+        },
+        {
+          "symbol": "?Instance@StringCompressor@@SAPAV1@XZ",
+          "site_rva": 155848,
+          "target_va": 268778544,
+          "kind": 20
+        },
+        {
+          "symbol": "?DecodeString@StringCompressor@@QAE_NPADHPAVBitStream@RakNet@@H@Z",
+          "site_rva": 155855,
+          "target_va": 268780240,
+          "kind": 20
+        },
+        {
+          "symbol": "?Instance@StringCompressor@@SAPAV1@XZ",
+          "site_rva": 155880,
+          "target_va": 268778544,
+          "kind": 20
+        },
+        {
+          "symbol": "?DecodeString@StringCompressor@@QAE_NPADHPAVBitStream@RakNet@@H@Z",
+          "site_rva": 155887,
+          "target_va": 268780240,
+          "kind": 20
+        },
+        {
+          "symbol": "?Deserialize@FileList@@QAE_NPAVBitStream@RakNet@@@Z",
+          "site_rva": 155901,
+          "target_va": 268613168,
+          "kind": 20
+        },
+        {
+          "symbol": "?GetDeltaToCurrent@FileList@@QAEXPAV1@0PBD1@Z",
+          "site_rva": 155942,
+          "target_va": 268616192,
+          "kind": 20
+        },
+        {
+          "symbol": "?PopulateDataFromDisk@FileList@@QAEXPBD_N11@Z",
+          "site_rva": 155961,
+          "target_va": 268617344,
+          "kind": 20
+        },
+        {
+          "symbol": "?Send@FileListTransfer@@QAEXPAVFileList@@PAVRakPeerInterface@@UPlayerID@@GW4PacketPriority@@D_N@Z",
+          "site_rva": 156027,
+          "target_va": 268619344,
+          "kind": 20
+        },
+        {
+          "symbol": "??1FileList@@QAE@XZ",
+          "site_rva": 156044,
+          "target_va": 268614224,
+          "kind": 20
+        },
+        {
+          "symbol": "??1FileList@@QAE@XZ",
+          "site_rva": 156061,
+          "target_va": 268614224,
+          "kind": 20
+        },
+        {
+          "symbol": "??1BitStream@RakNet@@QAE@XZ",
+          "site_rva": 156081,
+          "target_va": 268564688,
+          "kind": 20
+        },
+        {
+          "symbol": "__except_list",
+          "site_rva": 156096,
+          "target_va": 0,
+          "kind": 6
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_directory_delta",
+      "section": 51,
+      "rva": 155440,
+      "size": 243,
+      "kind": ".text",
+      "sha256": "f4619bdfa8f478985977ac7d6e1ebb819816e3c00ef0da900f7ffa80e3eb9d14",
+      "whole_bytes_equal": true,
+      "bindings": []
+    },
+    {
+      "unit": "closure_vendor_directory_delta",
+      "section": 49,
+      "rva": 155184,
+      "size": 242,
+      "kind": ".text",
+      "sha256": "f9bca3a2dd14df9195f1e807bc181e6118617d94f2758e4f529f9dc40b78cd1c",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "?WriteFileWithDirectories@@YA_NPBDPADI@Z",
+          "site_rva": 155319,
+          "target_va": 268624704,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_directory_delta",
+      "section": 44,
+      "rva": 155120,
+      "size": 35,
+      "kind": ".text",
+      "sha256": "492472d553a724b9bbfc3e6730a0228abecdb50e2b9954991d77265c92feef17",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "??_7DirectoryDeltaTransfer@@6B@",
+          "site_rva": 155131,
+          "target_va": 269380128,
+          "kind": 6
+        },
+        {
+          "symbol": "??1FileList@@QAE@XZ",
+          "site_rva": 155140,
+          "target_va": 268614224,
+          "kind": 20
+        },
+        {
+          "symbol": "??3@YAXPAX@Z",
+          "site_rva": 155146,
+          "target_va": 269247626,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_directory_delta",
+      "section": 38,
+      "rva": 154992,
+      "size": 123,
+      "kind": ".text",
+      "sha256": "e7667325dde4abf1529c412217884c41b2e8a1884727190925f43d2ac848bc60",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "__ehhandler$??0DirectoryDeltaTransfer@@QAE@XZ",
+          "site_rva": 154995,
+          "target_va": 269360075,
+          "kind": 6
+        },
+        {
+          "symbol": "__except_list",
+          "site_rva": 155001,
+          "target_va": 0,
+          "kind": 6
+        },
+        {
+          "symbol": "__except_list",
+          "site_rva": 155009,
+          "target_va": 0,
+          "kind": 6
+        },
+        {
+          "symbol": "??_7DirectoryDeltaTransfer@@6B@",
+          "site_rva": 155024,
+          "target_va": 269380128,
+          "kind": 6
+        },
+        {
+          "symbol": "??2@YAPAXI@Z",
+          "site_rva": 155038,
+          "target_va": 269247098,
+          "kind": 20
+        },
+        {
+          "symbol": "??0FileList@@QAE@XZ",
+          "site_rva": 155060,
+          "target_va": 268612800,
+          "kind": 20
+        },
+        {
+          "symbol": "__except_list",
+          "site_rva": 155107,
+          "target_va": 0,
+          "kind": 6
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_directory_delta",
+      "section": 24,
+      "rva": 154928,
+      "size": 13,
+      "kind": ".text",
+      "sha256": "4f847850d8d16b491141d6fdc54a32037154b06b1b6bba85f64392cce6dd5768",
+      "whole_bytes_equal": true,
+      "bindings": []
+    },
+    {
+      "unit": "closure_vendor_directory_delta",
+      "section": 22,
+      "rva": 154912,
+      "size": 11,
+      "kind": ".text",
+      "sha256": "40fb38c5883bfc04d839b73795ff396825d4204d6bc799538e05b49e16199862",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "?Clear@FileList@@QAEXXZ",
+          "site_rva": 154919,
+          "target_va": 268612816,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_directory_delta",
+      "section": 15,
+      "rva": 154848,
+      "size": 31,
+      "kind": ".text",
+      "sha256": "24266ab1aa06afb9d003c1388006b2c49a82266d3be88edbb47394b85dbc3fda",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "?AddFilesFromDirectory@FileList@@QAEXPBD0_N11E@Z",
+          "site_rva": 154872,
+          "target_va": 268614656,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_directory_delta",
+      "section": 13,
+      "rva": 154816,
+      "size": 23,
+      "kind": ".text",
+      "sha256": "212ec6e2f7883ff59f5dff92d4e1934d0375c0e97be469a30a81b0c0cdcf29a3",
+      "whole_bytes_equal": true,
+      "bindings": []
+    },
+    {
+      "unit": "closure_vendor_directory_delta",
+      "section": 10,
+      "rva": 154688,
+      "size": 118,
+      "kind": ".text",
+      "sha256": "b81b5b020b033275607aef10095f5017c2990703a48746a4cd969c448fa7fad0",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "_strncpy",
+          "site_rva": 154716,
+          "target_va": 269252592,
+          "kind": 20
+        },
+        {
+          "symbol": "??_C@_01KMDKNFGN@?1?$AA@",
+          "site_rva": 154779,
+          "target_va": 269375012,
+          "kind": 6
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_directory_delta",
+      "section": 8,
+      "rva": 154672,
+      "size": 13,
+      "kind": ".text",
+      "sha256": "0b27979963669f2ba946cce1a62d5e5a374cbe01b9cc17d7b81336e0e6c221bc",
+      "whole_bytes_equal": true,
+      "bindings": []
+    },
+    {
+      "unit": "closure_vendor_directory_delta",
+      "section": 62,
+      "rva": 924688,
+      "size": 32,
+      "kind": ".text$x",
+      "sha256": "75daf701d5d39b6d1a7cb80d55569935b89f8779967043649fee98c3f19777e0",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "??1FileList@@QAE@XZ",
+          "site_rva": 924695,
+          "target_va": 268614224,
+          "kind": 20
+        },
+        {
+          "symbol": "??1BitStream@RakNet@@QAE@XZ",
+          "site_rva": 924706,
+          "target_va": 268564688,
+          "kind": 20
+        },
+        {
+          "symbol": "$T3645",
+          "site_rva": 924711,
+          "target_va": 269457392,
+          "kind": 6
+        },
+        {
+          "symbol": "___CxxFrameHandler",
+          "site_rva": 924716,
+          "target_va": 269247782,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_directory_delta",
+      "section": 47,
+      "rva": 944712,
+      "size": 8,
+      "kind": ".rdata",
+      "sha256": "cdfe611af4bec52da62139f22dced240810b4305715836ebdd05dd769e91b569",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "?OnFile@DDTCallback@@UAEXIPAD0IIGIIIE@Z",
+          "site_rva": 944712,
+          "target_va": 268590640,
+          "kind": 6
+        },
+        {
+          "symbol": "?OnFileProgress@DDTCallback@@UAEXIPADIIGIIIEIII@Z",
+          "site_rva": 944716,
+          "target_va": 268590896,
+          "kind": 6
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_directory_delta",
+      "section": 11,
+      "rva": 939556,
+      "size": 2,
+      "kind": ".rdata",
+      "sha256": "ade0274f84b828b0980112609bb51775d0a4e39bf4728f21dcdd04a627abb92a",
+      "whole_bytes_equal": true,
+      "bindings": []
+    },
+    {
+      "unit": "closure_vendor_directory_delta",
+      "section": 54,
+      "rva": 924640,
+      "size": 43,
+      "kind": ".text$x",
+      "sha256": "284b3cc8332eb454b6a1dcae4cab3d8293583f3eb240fb33609f2f73e7976663",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "??1BitStream@RakNet@@QAE@XZ",
+          "site_rva": 924647,
+          "target_va": 268564688,
+          "kind": 20
+        },
+        {
+          "symbol": "??1FileList@@QAE@XZ",
+          "site_rva": 924658,
+          "target_va": 268614224,
+          "kind": 20
+        },
+        {
+          "symbol": "??1FileList@@QAE@XZ",
+          "site_rva": 924669,
+          "target_va": 268614224,
+          "kind": 20
+        },
+        {
+          "symbol": "$T3599",
+          "site_rva": 924674,
+          "target_va": 269457348,
+          "kind": 6
+        },
+        {
+          "symbol": "___CxxFrameHandler",
+          "site_rva": 924679,
+          "target_va": 269247782,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_directory_delta",
+      "section": 40,
+      "rva": 944672,
+      "size": 40,
+      "kind": ".rdata",
+      "sha256": "43aad911c02226a6282e24e7ea58d5770349a371f482646183b394ec568b5d58",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "?OnAttach@DirectoryDeltaTransfer@@UAEXPAVRakPeerInterface@@@Z",
+          "site_rva": 944672,
+          "target_va": 268590384,
+          "kind": 6
+        },
+        {
+          "symbol": "?OnDetach@PluginInterface@@UAEXPAVRakPeerInterface@@@Z",
+          "site_rva": 944676,
+          "target_va": 268648320,
+          "kind": 6
+        },
+        {
+          "symbol": "?OnInitialize@PluginInterface@@UAEXPAVRakPeerInterface@@@Z",
+          "site_rva": 944680,
+          "target_va": 268648336,
+          "kind": 6
+        },
+        {
+          "symbol": "?Update@DirectoryDeltaTransfer@@UAEXPAVRakPeerInterface@@@Z",
+          "site_rva": 944684,
+          "target_va": 268590400,
+          "kind": 6
+        },
+        {
+          "symbol": "?OnReceive@DirectoryDeltaTransfer@@UAE?AW4PluginReceiveResult@@PAVRakPeerInterface@@PAUPacket@@@Z",
+          "site_rva": 944688,
+          "target_va": 268591568,
+          "kind": 6
+        },
+        {
+          "symbol": "?OnDisconnect@DirectoryDeltaTransfer@@UAEXPAVRakPeerInterface@@@Z",
+          "site_rva": 944692,
+          "target_va": 268590416,
+          "kind": 6
+        },
+        {
+          "symbol": "?OnCloseConnection@PluginInterface@@UAEXPAVRakPeerInterface@@UPlayerID@@@Z",
+          "site_rva": 944696,
+          "target_va": 268648400,
+          "kind": 6
+        },
+        {
+          "symbol": "?OnDirectSocketSend@PluginInterface@@UAEXPBDIUPlayerID@@@Z",
+          "site_rva": 944700,
+          "target_va": 268648416,
+          "kind": 6
+        },
+        {
+          "symbol": "?OnDirectSocketReceive@PluginInterface@@UAEXPBDIUPlayerID@@@Z",
+          "site_rva": 944704,
+          "target_va": 268648432,
+          "kind": 6
+        },
+        {
+          "symbol": "?OnInternalPacket@PluginInterface@@UAEXPAUInternalPacket@@IUPlayerID@@I_N@Z",
+          "site_rva": 944708,
+          "target_va": 268648448,
+          "kind": 6
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_directory_delta",
+      "section": 39,
+      "rva": 924608,
+      "size": 21,
+      "kind": ".text$x",
+      "sha256": "7cba8df1eef18c184411793aa5efd95fbb3015d042d85ca4b7b5d221d4f5cafd",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "??3@YAXPAX@Z",
+          "site_rva": 924613,
+          "target_va": 269247626,
+          "kind": 20
+        },
+        {
+          "symbol": "$T3552",
+          "site_rva": 924620,
+          "target_va": 269457296,
+          "kind": 6
+        },
+        {
+          "symbol": "___CxxFrameHandler",
+          "site_rva": 924625,
+          "target_va": 269247782,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_directory_delta",
+      "section": 63,
+      "rva": 1021920,
+      "size": 44,
+      "kind": ".xdata$x",
+      "sha256": "f9d8d45bac6af131646cfe703d807edf3aac3a4ca07bfa8c57a0479c4c1ed7fa",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "$L3622",
+          "site_rva": 1021924,
+          "target_va": 269360144,
+          "kind": 6
+        },
+        {
+          "symbol": "$L3623",
+          "site_rva": 1021932,
+          "target_va": 269360155,
+          "kind": 6
+        },
+        {
+          "symbol": "$T3654",
+          "site_rva": 1021944,
+          "target_va": 269457376,
+          "kind": 6
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_directory_delta",
+      "section": 55,
+      "rva": 1021868,
+      "size": 52,
+      "kind": ".xdata$x",
+      "sha256": "06220d1ff7ab414e1c68a9bf94a91b8aabaa028a7a0f8b8211e6e4670e270677",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "$L3590",
+          "site_rva": 1021872,
+          "target_va": 269360096,
+          "kind": 6
+        },
+        {
+          "symbol": "$L3591",
+          "site_rva": 1021880,
+          "target_va": 269360107,
+          "kind": 6
+        },
+        {
+          "symbol": "$L3592",
+          "site_rva": 1021888,
+          "target_va": 269360118,
+          "kind": 6
+        },
+        {
+          "symbol": "$T3602",
+          "site_rva": 1021900,
+          "target_va": 269457324,
+          "kind": 6
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_directory_delta",
+      "section": 41,
+      "rva": 1021832,
+      "size": 36,
+      "kind": ".xdata$x",
+      "sha256": "17887b60a3fe79d88d8de8b4c987ed24387433a6c8d19e39caa9aa07900502cd",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "$L3545",
+          "site_rva": 1021836,
+          "target_va": 269360064,
+          "kind": 6
+        },
+        {
+          "symbol": "$T3555",
+          "site_rva": 1021848,
+          "target_va": 269457288,
+          "kind": 6
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_file_list",
+      "section": 41,
+      "rva": 177344,
+      "size": 12,
+      "kind": ".text",
+      "sha256": "2ec246a8af32ac7d7e7eb1008c007d6c2469741a970618d5f9f7655dc1774a64",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "??0?$List@UFileListNode@@@DataStructures@@QAE@XZ",
+          "site_rva": 177348,
+          "target_va": 268612048,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_file_list",
+      "section": 7,
+      "rva": 176592,
+      "size": 13,
+      "kind": ".text",
+      "sha256": "efaddf6f7c64b7d0dd7d70e04563c88df5b21978a063a338954e28cc09d4e5e9",
+      "whole_bytes_equal": true,
+      "bindings": []
+    }
+  ],
+  "bindings_checked": 90,
+  "external_targets": {
+    "__ehhandler$?DownloadFromSubdirectory@DirectoryDeltaTransfer@@QAEGPBD0_NUPlayerID@@PAVFileListTransferCBInterface@@W4PacketPriority@@D@Z": 269360166,
+    "__except_list": 0,
+    "??0FileList@@QAE@XZ": 268612800,
+    "?AddFilesFromDirectory@FileList@@QAEXPBD0_N11E@Z": 268614656,
+    "??2@YAPAXI@Z": 269247098,
+    "??_7DDTCallback@@6B@": 269380168,
+    "??_C@_01KMDKNFGN@?1?$AA@": 269375012,
+    "?SetupReceive@FileListTransfer@@QAEGPAVFileListTransferCBInterface@@_NUPlayerID@@@Z": 268623200,
+    "??0BitStream@RakNet@@QAE@XZ": 268564272,
+    "?WriteBits@BitStream@RakNet@@QAEXPBEH_N@Z": 268566496,
+    "?Instance@StringCompressor@@SAPAV1@XZ": 268778544,
+    "?EncodeString@StringCompressor@@QAEXPBDHPAVBitStream@RakNet@@H@Z": 268779936,
+    "?Serialize@FileList@@QAEXPAVBitStream@RakNet@@@Z": 268612896,
+    "??1BitStream@RakNet@@QAE@XZ": 268564688,
+    "??1FileList@@QAE@XZ": 268614224,
+    "__ehhandler$?OnDownloadRequest@DirectoryDeltaTransfer@@IAEXPAVRakPeerInterface@@PAUPacket@@@Z": 269360129,
+    "??0BitStream@RakNet@@QAE@PAEI_N@Z": 268564416,
+    "?IgnoreBits@BitStream@RakNet@@QAEXH@Z": 268565744,
+    "?ReadBits@BitStream@RakNet@@QAE_NPAEH_N@Z": 268564912,
+    "?DecodeString@StringCompressor@@QAE_NPADHPAVBitStream@RakNet@@H@Z": 268780240,
+    "?Deserialize@FileList@@QAE_NPAVBitStream@RakNet@@@Z": 268613168,
+    "?GetDeltaToCurrent@FileList@@QAEXPAV1@0PBD1@Z": 268616192,
+    "?PopulateDataFromDisk@FileList@@QAEXPBD_N11@Z": 268617344,
+    "?Send@FileListTransfer@@QAEXPAVFileList@@PAVRakPeerInterface@@UPlayerID@@GW4PacketPriority@@D_N@Z": 268619344,
+    "?WriteFileWithDirectories@@YA_NPBDPADI@Z": 268624704,
+    "??_7DirectoryDeltaTransfer@@6B@": 269380128,
+    "??3@YAXPAX@Z": 269247626,
+    "__ehhandler$??0DirectoryDeltaTransfer@@QAE@XZ": 269360075,
+    "?Clear@FileList@@QAEXXZ": 268612816,
+    "_strncpy": 269252592,
+    "closure_vendor_directory_delta::$T3645": 269457392,
+    "___CxxFrameHandler": 269247782,
+    "closure_vendor_directory_delta::$T3599": 269457348,
+    "?OnDetach@PluginInterface@@UAEXPAVRakPeerInterface@@@Z": 268648320,
+    "?OnInitialize@PluginInterface@@UAEXPAVRakPeerInterface@@@Z": 268648336,
+    "?OnCloseConnection@PluginInterface@@UAEXPAVRakPeerInterface@@UPlayerID@@@Z": 268648400,
+    "?OnDirectSocketSend@PluginInterface@@UAEXPBDIUPlayerID@@@Z": 268648416,
+    "?OnDirectSocketReceive@PluginInterface@@UAEXPBDIUPlayerID@@@Z": 268648432,
+    "?OnInternalPacket@PluginInterface@@UAEXPAUInternalPacket@@IUPlayerID@@I_N@Z": 268648448,
+    "closure_vendor_directory_delta::$T3552": 269457296,
+    "closure_vendor_directory_delta::$L3622": 269360144,
+    "closure_vendor_directory_delta::$L3623": 269360155,
+    "closure_vendor_directory_delta::$T3654": 269457376,
+    "closure_vendor_directory_delta::$L3590": 269360096,
+    "closure_vendor_directory_delta::$L3591": 269360107,
+    "closure_vendor_directory_delta::$L3592": 269360118,
+    "closure_vendor_directory_delta::$T3602": 269457324,
+    "closure_vendor_directory_delta::$L3545": 269360064,
+    "closure_vendor_directory_delta::$T3555": 269457288
+  },
+  "identity_reasons": {
+    "?SetFileListTransferPlugin@DirectoryDeltaTransfer@@QAEXPAVFileListTransfer@@@Z": "source method semantics + original call graph / allocation / table owner",
+    "?SetApplicationDirectory@DirectoryDeltaTransfer@@QAEXPBD@Z": "source method semantics + original call graph / allocation / table owner",
+    "?SetUploadSendParameters@DirectoryDeltaTransfer@@QAEXW4PacketPriority@@D@Z": "source method semantics + original call graph / allocation / table owner",
+    "?AddUploadsFromSubdirectory@DirectoryDeltaTransfer@@QAEXPBD@Z": "source method semantics + original call graph / allocation / table owner",
+    "?ClearUploads@DirectoryDeltaTransfer@@QAEXXZ": "source method semantics + original call graph / allocation / table owner",
+    "?OnAttach@DirectoryDeltaTransfer@@UAEXPAVRakPeerInterface@@@Z": "source method semantics + original call graph / allocation / table owner",
+    "??0DirectoryDeltaTransfer@@QAE@XZ": "source method semantics + original call graph / allocation / table owner",
+    "??1DirectoryDeltaTransfer@@QAE@XZ": "source method semantics + original call graph / allocation / table owner",
+    "?OnFile@DDTCallback@@UAEXIPAD0IIGIIIE@Z": "source method semantics + original call graph / allocation / table owner",
+    "?OnFileProgress@DDTCallback@@UAEXIPADIIGIIIEIII@Z": "source method semantics + original call graph / allocation / table owner",
+    "?OnDownloadRequest@DirectoryDeltaTransfer@@IAEXPAVRakPeerInterface@@PAUPacket@@@Z": "actual relocation from ?OnReceive@DirectoryDeltaTransfer@@UAE?AW4PluginReceiveResult@@PAVRakPeerInterface@@PAUPacket@@@Z",
+    "?OnReceive@DirectoryDeltaTransfer@@UAE?AW4PluginReceiveResult@@PAVRakPeerInterface@@PAUPacket@@@Z": "source method semantics + original call graph / allocation / table owner",
+    "?GetNumberOfFilesForUpload@DirectoryDeltaTransfer@@QBEIXZ": "source method semantics + original call graph / allocation / table owner",
+    "?DownloadFromSubdirectory@DirectoryDeltaTransfer@@QAEGPBD0_NUPlayerID@@PAVFileListTransferCBInterface@@W4PacketPriority@@D@Z": "source method semantics + original call graph / allocation / table owner",
+    "?Update@DirectoryDeltaTransfer@@UAEXPAVRakPeerInterface@@@Z": "source method semantics + original call graph / allocation / table owner",
+    "?OnDisconnect@DirectoryDeltaTransfer@@UAEXPAVRakPeerInterface@@@Z": "source method semantics + original call graph / allocation / table owner"
+  },
+  "new_unique_code": 2164,
+  "already_covered_code": 0,
+  "physical_code_compared": 2164,
+  "baseline": 300692,
+  "source025_direct_bytes": 0,
+  "reuse_existing_owners": {},
+  "excluded_unmatched": [],
+  "pending_manifests_subtracted": [
+    "build/agent-independent/file-list-reviewed-manifest.json",
+    "build/agent-independent/database-client-reviewed-manifest.json",
+    "build/sha1-reviewed-manifest.json"
+  ],
+  "new_after_pending": 2164,
+  "effective_baseline_including_pending": 315680,
+  "unselected_method": "Unused Plugin/Callback constructors, scalar deleting FileList wrapper and scalar BitStream helpers are not assigned arbitrary homologue identities. FileList constructor12 + real List<FileListNode> constructor13 now identified by real calls in DirectoryDeltaTransfer ctor/download/request.",
+  "source_files": [
+    {
+      "path": "client/saco/closure_vendor_directory_delta.cpp",
+      "sha256": "fd3cfa96861a862a9ee6ed1b90f9f734692f7731698ac48c86d167d47a52cb79"
+    },
+    {
+      "path": "vendor/upstream/raknet/DirectoryDeltaTransfer.cpp",
+      "sha256": "444c1ba00e5f83e01a758022a9caffcfa72c8741c60380a6d36ef52c9bf920b9"
+    },
+    {
+      "path": "vendor/upstream/raknet/DirectoryDeltaTransfer.h",
+      "sha256": "04530cd3fc36ffb094a874c9bdffd7d132d1a05874a8ae249953f5a4a8f7afba"
+    }
+  ],
+  "objects": {
+    "closure_vendor_directory_delta": "a2bd58363f3e0f3dd8d9a6689bd2eb9b02e212f0700b62d5669149ceffadf6d9",
+    "closure_vendor_file_list": "8524663f727c56a4fc2e144d946bfb74c9d0cebd6761e979f1158d8cfc332e67"
+  },
+  "actual_weak_aliases": {
+    "closure_vendor_directory_delta": {},
+    "closure_vendor_file_list": {}
+  }
+}
