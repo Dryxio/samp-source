@@ -1,0 +1,33 @@
+{
+  "status": "ACCEPTED_AFTER_COMPLETE_LINK_REVIEW",
+  "run": "cp32-textdraw-init-linked1",
+  "ob1": "cp32-textdraw-init-ob1",
+  "ob2": "cp32-player-lifetime-ob2",
+  "new_unique_code_bytes": 3158,
+  "direct_025_accepted_bytes": 824,
+  "total_direct_025_accepted_bytes": 17256,
+  "coverage": {
+    "previous_code_bytes": 202690,
+    "batch_code_bytes": 186799,
+    "new_unique_code_bytes": 3158,
+    "union_code_bytes": 205848,
+    "text_bytes": 930756,
+    "text_percent": 22.11621520570375,
+    "whole_dll_match": false
+  },
+  "verification": "Whole functions, three EH and full metadata, literal/global objects and actual providers; full gate, ten standard negative controls and actor ABI. One incremental build; no GTA execution.",
+  "reference_credit": "PoolNew155, VehicleLookup42, VehicleVelocity367, GameTextRPC260 directly adapted from025. Constructor402 hybrid qualitative help; remaining bodies already in base. Previously accepted125 never recounted.",
+  "throughput": {
+    "start_utc": "2026-09-05T20:11:21Z",
+    "measured_utc": "2026-09-06T00:27:37.270013+00:00",
+    "elapsed_seconds": 15376.270013,
+    "new_unique_bytes": 32707,
+    "bytes_per_hour": 7657.591854230663,
+    "coordination_included": true,
+    "agents": 3
+  },
+  "blockers": [
+    "Sprite272 remains unmatched: normal C++ scheduling and MSVC inline absolute addressing failed; no masking/opcode copying. Eight existing pending regions remain excluded."
+  ],
+  "next": "Continue independent high-yield families and textdraw descendants now construction dependency is closed; goal remains active."
+}

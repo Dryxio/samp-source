@@ -1,0 +1,21 @@
+{
+  "status": "DATA_OWNER_SPLIT_PROPOSAL",
+  "cause": "Moving SetPing/UpdateNextActionTime introduced static PING_MULTIPLIER_TO_RESEND float at section offset0 and STARTING_SEND_BPS double at offset8. R5 E9280 double is not preceded by matching bytes from that candidate section.",
+  "replacement": "Whole double object isolated in dedicated minimal TU, external const linkage in declaration AND definition. No slicing, no copied instructions.",
+  "symbol": "?STARTING_SEND_BPS@@3NB",
+  "rva": 955008,
+  "size": 8,
+  "value": 512000.0,
+  "old_section_size": 16,
+  "code_credit": 0,
+  "files": [
+    {
+      "path": "build/agent-independent/eval_vendor_reliability_lifecycle3_split_constant.cpp",
+      "sha256": "4bf86829a969325ebc472e09c930f257e536797b02abd2e344c5dd3743b1f805"
+    },
+    {
+      "path": "build/agent-independent/eval_store_reliability_starting_send_bps.cpp",
+      "sha256": "20fba7bcfd5f54eabb7bd510e8d2edce6d89aa26903eff70cc9b7201b9cf15db"
+    }
+  ]
+}

@@ -1,0 +1,99 @@
+{
+  "status": "PROPOSAL_NOT_COMPILED",
+  "regions": [
+    {
+      "rva": 567280,
+      "size": 254,
+      "sha256": "f48389e5a2220b8b2c01f499ff0eb07dfc23dca4cd812d58426ec99adebbb10d",
+      "calls": [
+        {
+          "site_rva": 567293,
+          "operand": "0x100c627a"
+        },
+        {
+          "site_rva": 567392,
+          "operand": "dword ptr [0x100e5300]"
+        },
+        {
+          "site_rva": 567475,
+          "operand": "0x10089b50"
+        },
+        {
+          "site_rva": 567487,
+          "operand": "0x100c648a"
+        },
+        {
+          "site_rva": 567518,
+          "operand": "0x10088c50"
+        }
+      ],
+      "relocations": [
+        {
+          "site_rva": 567394,
+          "target_va": 269374208
+        }
+      ]
+    },
+    {
+      "rva": 560640,
+      "size": 106,
+      "sha256": "fab71b9ab180e2ff87879c8f90c5d8e6857d115312731a9e5470b057554d8bfd",
+      "calls": [
+        {
+          "site_rva": 560732,
+          "operand": "0x100c77f0"
+        }
+      ],
+      "relocations": []
+    },
+    {
+      "rva": 564048,
+      "size": 40,
+      "sha256": "48d780250ccd4b150e083e231aebbe6a8465d05e2bad9324c0b2dfc2db863677",
+      "calls": [
+        {
+          "site_rva": 564056,
+          "operand": "0x10086c60"
+        }
+      ],
+      "relocations": []
+    }
+  ],
+  "new_unique_potential": 400,
+  "baseline": 253737,
+  "layout": {
+    "size": 670,
+    "text": [
+      0,
+      257
+    ],
+    "columns": [
+      257,
+      3,
+      129
+    ],
+    "data": [
+      644,
+      4
+    ],
+    "rect": [
+      648,
+      16
+    ],
+    "selected": [
+      664,
+      1
+    ],
+    "color": [
+      665,
+      4
+    ],
+    "marked": [
+      669,
+      1
+    ]
+  },
+  "data": [],
+  "EH": 0,
+  "direct025_credit": 0
+}

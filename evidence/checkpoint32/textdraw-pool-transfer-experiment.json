@@ -1,0 +1,58 @@
+{
+  "status": "FUNCTION_EXPERIMENT_NOT_ACCEPTED",
+  "rows": [
+    {
+      "run": "cp32-textdraw-pool-anchor-trial1",
+      "unit": "net_textdrawpool",
+      "symbol": "??0CTextDrawPool@@QAE@XZ",
+      "rva": 124832,
+      "size": 43,
+      "status": "EXACT_RESOLVED_COFF_FUNCTION_NOT_INTEGRATED",
+      "object_sha256": "5bc2b7d3ea62544e2088084606e167bb6d553e5e57a718bafa88783c761597df",
+      "resolved_sha256": "613f7cb6cd85505a38bb99f83aebd80d8e28f45520fc23cad350d09141606a98",
+      "targets": {
+        "?unnamed_100B2AF0@@YAHXZ": 269167344
+      }
+    },
+    {
+      "run": "cp32-textdraw-pool-transfer-trial1",
+      "unit": "eval_textdraw_pool",
+      "symbol": "?Delete@CTextDrawPool@@QAEXG@Z",
+      "rva": 124912,
+      "size": 61,
+      "status": "EXACT_RESOLVED_COFF_FUNCTION_NOT_INTEGRATED",
+      "object_sha256": "082e49d9e8108d79518d22a1526523848237d40e0d28a8d4c8374be3d4b6b7b8",
+      "resolved_sha256": "0b0f73fdab42a0bf51fe9d0271b3d0654c53a3822b3842a6360439fef7124297",
+      "targets": {
+        "??1CTextDraw@@QAE@XZ": 269168464,
+        "??3@YAXPAX@Z": 269247626
+      }
+    },
+    {
+      "run": "cp32-textdraw-pool-transfer-trial1",
+      "unit": "eval_textdraw_pool",
+      "symbol": "??1CTextDrawPool@@QAE@XZ",
+      "rva": 125136,
+      "size": 64,
+      "status": "EXACT_RESOLVED_COFF_FUNCTION_NOT_INTEGRATED",
+      "object_sha256": "082e49d9e8108d79518d22a1526523848237d40e0d28a8d4c8374be3d4b6b7b8",
+      "resolved_sha256": "f311cc68434c13c4182c39ef21046d1cbaf710217d856828a0bf751cce210d81",
+      "targets": {
+        "??1CTextDraw@@QAE@XZ": 269168464,
+        "??3@YAXPAX@Z": 269247626
+      }
+    }
+  ],
+  "accepted_coverage_increment": 0,
+  "direct_025_candidate_bytes": 125,
+  "base_anchor_candidate_bytes": 43,
+  "layout_evidence": "Pool constructor initializes2304 entries in each4-byte array; Delete and destructor usepointerarray+0x2400 and statearray+0. R5 New1E910 allocates0x9D6 andcallsB36E0; destructorB2F50 callsB2B50 withfield9A3. Textdraw pointer type in isolated source never allocated/dereferenced; declaration only, no empty destructor implementation.",
+  "limitations": [
+    "CTextDraw destructor14 atB2F50 and resource release57 atB2B50 unimplemented; no coverage credit.",
+    "025 empty textdraw destructor must not replace real R5 cleanup.",
+    "025 TEXT_DRAW_DATA and transmit layout differ: R5 data starts963, transmit flagsat0; full object allocation9D6.",
+    "R5 Draw pool uses scoreboardglobal26EB4C instead of025 GetAsyncKeyState(VK_TAB).",
+    "No complete link or ABI acceptance attempted for these candidates."
+  ],
+  "next": "Implement actual resource release chain using pinned R5 evidence; recover complete textdraw layout before importing constructor/New/Draw."
+}

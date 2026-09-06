@@ -1,0 +1,634 @@
+{
+  "status": "REVIEWED_MAIN_SEEDS_AND_WHOLE_EH_BINDINGS_PREFLIGHT",
+  "run": "build/cp32-reliability-trial1",
+  "roots": {
+    "?GetPointer@InternalPacketPool@@QAEPAUInternalPacket@@XZ": 283648,
+    "?WriteToBitStreamFromInternalPacket@ReliabilityLayer@@AAEHPAVBitStream@RakNet@@QBUInternalPacket@@@Z": 283952,
+    "?CreateInternalPacketFromBitStream@ReliabilityLayer@@AAEPAUInternalPacket@@PAVBitStream@RakNet@@_J@Z": 284240,
+    "?Push@?$Queue@PAUInternalPacket@@@DataStructures@@QAEXABQAUInternalPacket@@@Z": 190784,
+    "?ReleasePointer@InternalPacketPool@@QAEXPAUInternalPacket@@@Z": 191344,
+    "?Compress@DataCompressor@@SAXPAEIPAVBitStream@RakNet@@@Z": 154016,
+    "?DecompressAndAllocate@DataCompressor@@SAIPAVBitStream@RakNet@@PAPAE@Z": 154352
+  },
+  "seeds": {
+    "closure_vendor_internal_packet_release": {
+      "?ReleasePointer@InternalPacketPool@@QAEXPAUInternalPacket@@@Z": 191344,
+      "?Push@?$Queue@PAUInternalPacket@@@DataStructures@@QAEXABQAUInternalPacket@@@Z": 190784
+    },
+    "closure_vendor_reliability_serialization": {
+      "?CreateInternalPacketFromBitStream@ReliabilityLayer@@AAEPAUInternalPacket@@PAVBitStream@RakNet@@_J@Z": 284240,
+      "??$Read@_N@BitStream@RakNet@@QAE_NAA_N@Z": 33824,
+      "?GetPointer@InternalPacketPool@@QAEPAUInternalPacket@@XZ": 283648,
+      "?WriteToBitStreamFromInternalPacket@ReliabilityLayer@@AAEHPAVBitStream@RakNet@@QBUInternalPacket@@@Z": 283952
+    },
+    "closure_vendor_data_compressor": {
+      "?DecompressAndAllocate@DataCompressor@@SAIPAVBitStream@RakNet@@PAPAE@Z": 154352,
+      "?Compress@DataCompressor@@SAXPAEIPAVBitStream@RakNet@@@Z": 154016
+    }
+  },
+  "regions": [
+    {
+      "unit": "closure_vendor_internal_packet_release",
+      "section": 5,
+      "rva": 191344,
+      "size": 21,
+      "kind": ".text",
+      "sha256": "e603a6befe382fa4009826f42928e3a6152f7daed4a8a189619ebd586db687ae",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "?Push@?$Queue@PAUInternalPacket@@@DataStructures@@QAEXABQAUInternalPacket@@@Z",
+          "site_rva": 191358,
+          "target_va": 268626240,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_internal_packet_release",
+      "section": 3,
+      "rva": 190784,
+      "size": 189,
+      "kind": ".text",
+      "sha256": "189c9cf9be7d9cb227300dc33e0a824f4b01a84a094a01b7477d5ed8de9c9dd4",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "??2@YAPAXI@Z",
+          "site_rva": 190797,
+          "target_va": 269247098,
+          "kind": 20
+        },
+        {
+          "symbol": "??2@YAPAXI@Z",
+          "site_rva": 190894,
+          "target_va": 269247098,
+          "kind": 20
+        },
+        {
+          "symbol": "??3@YAXPAX@Z",
+          "site_rva": 190959,
+          "target_va": 269247626,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_reliability_serialization",
+      "section": 33,
+      "rva": 284240,
+      "size": 427,
+      "kind": ".text",
+      "sha256": "c1e50ad2a640731dbf9460fffd11ff11e51c93bd6bfaae94fabf1c6c4983140f",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "?GetPointer@InternalPacketPool@@QAEPAUInternalPacket@@XZ",
+          "site_rva": 284278,
+          "target_va": 268719104,
+          "kind": 20
+        },
+        {
+          "symbol": "?ReadBits@BitStream@RakNet@@QAE_NPAEH_N@Z",
+          "site_rva": 284306,
+          "target_va": 268564912,
+          "kind": 20
+        },
+        {
+          "symbol": "?ReadBits@BitStream@RakNet@@QAE_NPAEH_N@Z",
+          "site_rva": 284335,
+          "target_va": 268564912,
+          "kind": 20
+        },
+        {
+          "symbol": "?ReadBits@BitStream@RakNet@@QAE_NPAEH_N@Z",
+          "site_rva": 284392,
+          "target_va": 268564912,
+          "kind": 20
+        },
+        {
+          "symbol": "?ReadBits@BitStream@RakNet@@QAE_NPAEH_N@Z",
+          "site_rva": 284411,
+          "target_va": 268564912,
+          "kind": 20
+        },
+        {
+          "symbol": "??$Read@_N@BitStream@RakNet@@QAE_NAA_N@Z",
+          "site_rva": 284432,
+          "target_va": 268469280,
+          "kind": 20
+        },
+        {
+          "symbol": "?ReadBits@BitStream@RakNet@@QAE_NPAEH_N@Z",
+          "site_rva": 284459,
+          "target_va": 268564912,
+          "kind": 20
+        },
+        {
+          "symbol": "?ReadCompressed@BitStream@RakNet@@AAE_NPAEH_N@Z",
+          "site_rva": 284478,
+          "target_va": 268565104,
+          "kind": 20
+        },
+        {
+          "symbol": "?ReadCompressed@BitStream@RakNet@@AAE_NPAEH_N@Z",
+          "site_rva": 284497,
+          "target_va": 268565104,
+          "kind": 20
+        },
+        {
+          "symbol": "?ReleasePointer@InternalPacketPool@@QAEXPAUInternalPacket@@@Z",
+          "site_rva": 284509,
+          "target_va": 268626800,
+          "kind": 20
+        },
+        {
+          "symbol": "?ReadCompressed@BitStream@RakNet@@AAE_NPAEH_N@Z",
+          "site_rva": 284543,
+          "target_va": 268565104,
+          "kind": 20
+        },
+        {
+          "symbol": "??2@YAPAXI@Z",
+          "site_rva": 284578,
+          "target_va": 269247098,
+          "kind": 20
+        },
+        {
+          "symbol": "?ReadAlignedBytes@BitStream@RakNet@@QAE_NPAEH@Z",
+          "site_rva": 284619,
+          "target_va": 268566384,
+          "kind": 20
+        },
+        {
+          "symbol": "??3@YAXPAX@Z",
+          "site_rva": 284632,
+          "target_va": 269247626,
+          "kind": 20
+        },
+        {
+          "symbol": "?ReleasePointer@InternalPacketPool@@QAEXPAUInternalPacket@@@Z",
+          "site_rva": 284643,
+          "target_va": 268626800,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_reliability_serialization",
+      "section": 9,
+      "rva": 33824,
+      "size": 89,
+      "kind": ".text",
+      "sha256": "b37034fc3b389d74b01e3aeca79066e2df1184e312ff0b4ee54a0c788b584854",
+      "whole_bytes_equal": true,
+      "bindings": []
+    },
+    {
+      "unit": "closure_vendor_reliability_serialization",
+      "section": 29,
+      "rva": 283648,
+      "size": 83,
+      "kind": ".text",
+      "sha256": "d667512dc516e4879543d765fccb09922d1f17549ab02e6875b4adf553336f7a",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "??2@YAPAXI@Z",
+          "site_rva": 283722,
+          "target_va": 269247098,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_reliability_serialization",
+      "section": 31,
+      "rva": 283952,
+      "size": 288,
+      "kind": ".text",
+      "sha256": "0f7f1dd6dd7426d4b89d2b99bb1ac811dd40c3fbf2bc7c16c4fd88f691f3404d",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "?WriteBits@BitStream@RakNet@@QAEXPBEH_N@Z",
+          "site_rva": 283996,
+          "target_va": 268566496,
+          "kind": 20
+        },
+        {
+          "symbol": "?WriteBits@BitStream@RakNet@@QAEXPBEH_N@Z",
+          "site_rva": 284017,
+          "target_va": 268566496,
+          "kind": 20
+        },
+        {
+          "symbol": "?WriteBits@BitStream@RakNet@@QAEXPBEH_N@Z",
+          "site_rva": 284050,
+          "target_va": 268566496,
+          "kind": 20
+        },
+        {
+          "symbol": "?WriteBits@BitStream@RakNet@@QAEXPBEH_N@Z",
+          "site_rva": 284076,
+          "target_va": 268566496,
+          "kind": 20
+        },
+        {
+          "symbol": "?Write1@BitStream@RakNet@@QAEXXZ",
+          "site_rva": 284099,
+          "target_va": 268566320,
+          "kind": 20
+        },
+        {
+          "symbol": "?WriteBits@BitStream@RakNet@@QAEXPBEH_N@Z",
+          "site_rva": 284125,
+          "target_va": 268566496,
+          "kind": 20
+        },
+        {
+          "symbol": "?WriteCompressed@BitStream@RakNet@@AAEXPBEH_N@Z",
+          "site_rva": 284148,
+          "target_va": 268566832,
+          "kind": 20
+        },
+        {
+          "symbol": "?WriteCompressed@BitStream@RakNet@@AAEXPBEH_N@Z",
+          "site_rva": 284171,
+          "target_va": 268566832,
+          "kind": 20
+        },
+        {
+          "symbol": "?WriteCompressed@BitStream@RakNet@@AAEXPBEH_N@Z",
+          "site_rva": 284197,
+          "target_va": 268566832,
+          "kind": 20
+        },
+        {
+          "symbol": "?WriteAlignedBytes@BitStream@RakNet@@QAEXPBEH@Z",
+          "site_rva": 284218,
+          "target_va": 268566816,
+          "kind": 20
+        },
+        {
+          "symbol": "?Write0@BitStream@RakNet@@QAEXXZ",
+          "site_rva": 284234,
+          "target_va": 268566288,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_data_compressor",
+      "section": 19,
+      "rva": 154352,
+      "size": 288,
+      "kind": ".text",
+      "sha256": "abc3d68f8d928e145fa92d593dcf90d40d7c636861b4a19b872849b74099fb81",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "__ehhandler$?DecompressAndAllocate@DataCompressor@@SAIPAVBitStream@RakNet@@PAPAE@Z",
+          "site_rva": 154355,
+          "target_va": 269360043,
+          "kind": 6
+        },
+        {
+          "symbol": "__except_list",
+          "site_rva": 154361,
+          "target_va": 0,
+          "kind": 6
+        },
+        {
+          "symbol": "__except_list",
+          "site_rva": 154369,
+          "target_va": 0,
+          "kind": 6
+        },
+        {
+          "symbol": "??0HuffmanEncodingTree@@QAE@XZ",
+          "site_rva": 154387,
+          "target_va": 268592992,
+          "kind": 20
+        },
+        {
+          "symbol": "?ReadCompressed@BitStream@RakNet@@AAE_NPAEH_N@Z",
+          "site_rva": 154421,
+          "target_va": 268565104,
+          "kind": 20
+        },
+        {
+          "symbol": "?ReadCompressed@BitStream@RakNet@@AAE_NPAEH_N@Z",
+          "site_rva": 154445,
+          "target_va": 268565104,
+          "kind": 20
+        },
+        {
+          "symbol": "?AlignReadToByteBoundary@BitStream@RakNet@@QAEXXZ",
+          "site_rva": 154458,
+          "target_va": 268564864,
+          "kind": 20
+        },
+        {
+          "symbol": "?ReadBits@BitStream@RakNet@@QAE_NPAEH_N@Z",
+          "site_rva": 154474,
+          "target_va": 268564912,
+          "kind": 20
+        },
+        {
+          "symbol": "??1HuffmanEncodingTree@@QAE@XZ",
+          "site_rva": 154498,
+          "target_va": 268595104,
+          "kind": 20
+        },
+        {
+          "symbol": "__except_list",
+          "site_rva": 154517,
+          "target_va": 0,
+          "kind": 6
+        },
+        {
+          "symbol": "??2@YAPAXI@Z",
+          "site_rva": 154534,
+          "target_va": 269247098,
+          "kind": 20
+        },
+        {
+          "symbol": "?GenerateFromFrequencyTable@HuffmanEncodingTree@@QAEXQAI@Z",
+          "site_rva": 154563,
+          "target_va": 268595136,
+          "kind": 20
+        },
+        {
+          "symbol": "?DecodeArray@HuffmanEncodingTree@@QAEIPAVBitStream@RakNet@@IIPAE@Z",
+          "site_rva": 154586,
+          "target_va": 268593008,
+          "kind": 20
+        },
+        {
+          "symbol": "??1HuffmanEncodingTree@@QAE@XZ",
+          "site_rva": 154610,
+          "target_va": 268595104,
+          "kind": 20
+        },
+        {
+          "symbol": "__except_list",
+          "site_rva": 154629,
+          "target_va": 0,
+          "kind": 6
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_data_compressor",
+      "section": 15,
+      "rva": 154016,
+      "size": 334,
+      "kind": ".text",
+      "sha256": "0658c60050ff08b69e6d7869f780b1383f9b0acc0751216174d2cd41c3b883be",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "__ehhandler$?Compress@DataCompressor@@SAXPAEIPAVBitStream@RakNet@@@Z",
+          "site_rva": 154025,
+          "target_va": 269360011,
+          "kind": 6
+        },
+        {
+          "symbol": "__except_list",
+          "site_rva": 154031,
+          "target_va": 0,
+          "kind": 6
+        },
+        {
+          "symbol": "__except_list",
+          "site_rva": 154039,
+          "target_va": 0,
+          "kind": 6
+        },
+        {
+          "symbol": "??0HuffmanEncodingTree@@QAE@XZ",
+          "site_rva": 154111,
+          "target_va": 268592992,
+          "kind": 20
+        },
+        {
+          "symbol": "?GenerateFromFrequencyTable@HuffmanEncodingTree@@QAEXQAI@Z",
+          "site_rva": 154135,
+          "target_va": 268595136,
+          "kind": 20
+        },
+        {
+          "symbol": "?WriteCompressed@BitStream@RakNet@@AAEXPBEH_N@Z",
+          "site_rva": 154158,
+          "target_va": 268566832,
+          "kind": 20
+        },
+        {
+          "symbol": "?WriteCompressed@BitStream@RakNet@@AAEXPBEH_N@Z",
+          "site_rva": 154182,
+          "target_va": 268566832,
+          "kind": 20
+        },
+        {
+          "symbol": "?AlignWriteToByteBoundary@BitStream@RakNet@@QAEXXZ",
+          "site_rva": 154198,
+          "target_va": 268564832,
+          "kind": 20
+        },
+        {
+          "symbol": "?WriteBits@BitStream@RakNet@@QAEXPBEH_N@Z",
+          "site_rva": 154228,
+          "target_va": 268566496,
+          "kind": 20
+        },
+        {
+          "symbol": "?EncodeArray@HuffmanEncodingTree@@QAEXPAEIPAVBitStream@RakNet@@@Z",
+          "site_rva": 154252,
+          "target_va": 268594688,
+          "kind": 20
+        },
+        {
+          "symbol": "?SetWriteOffset@BitStream@RakNet@@QAEXH@Z",
+          "site_rva": 154266,
+          "target_va": 268565760,
+          "kind": 20
+        },
+        {
+          "symbol": "?WriteBits@BitStream@RakNet@@QAEXPBEH_N@Z",
+          "site_rva": 154294,
+          "target_va": 268566496,
+          "kind": 20
+        },
+        {
+          "symbol": "?SetWriteOffset@BitStream@RakNet@@QAEXH@Z",
+          "site_rva": 154302,
+          "target_va": 268565760,
+          "kind": 20
+        },
+        {
+          "symbol": "??1HuffmanEncodingTree@@QAE@XZ",
+          "site_rva": 154325,
+          "target_va": 268595104,
+          "kind": 20
+        },
+        {
+          "symbol": "__except_list",
+          "site_rva": 154341,
+          "target_va": 0,
+          "kind": 6
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_data_compressor",
+      "section": 20,
+      "rva": 924576,
+      "size": 21,
+      "kind": ".text$x",
+      "sha256": "99ed924412a6f281f6c38de6b594cfb88ffa8aac6de2ebf3e64b5579b70a6193",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "??1HuffmanEncodingTree@@QAE@XZ",
+          "site_rva": 924583,
+          "target_va": 268595104,
+          "kind": 20
+        },
+        {
+          "symbol": "$T2356",
+          "site_rva": 924588,
+          "target_va": 269457260,
+          "kind": 6
+        },
+        {
+          "symbol": "___CxxFrameHandler",
+          "site_rva": 924593,
+          "target_va": 269247782,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_data_compressor",
+      "section": 16,
+      "rva": 924544,
+      "size": 21,
+      "kind": ".text$x",
+      "sha256": "a977afef790955810fc91101795ffa094b339a2a29c0a8af0a45794069a790b1",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "??1HuffmanEncodingTree@@QAE@XZ",
+          "site_rva": 924551,
+          "target_va": 268595104,
+          "kind": 20
+        },
+        {
+          "symbol": "$T2322",
+          "site_rva": 924556,
+          "target_va": 269457224,
+          "kind": 6
+        },
+        {
+          "symbol": "___CxxFrameHandler",
+          "site_rva": 924561,
+          "target_va": 269247782,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_data_compressor",
+      "section": 21,
+      "rva": 1021796,
+      "size": 36,
+      "kind": ".xdata$x",
+      "sha256": "34c928ab4ac7e16981417bd24236a6da5f5cedf391e274f5a50555fdb0fd7c39",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "$L2337",
+          "site_rva": 1021800,
+          "target_va": 269360032,
+          "kind": 6
+        },
+        {
+          "symbol": "$T2360",
+          "site_rva": 1021812,
+          "target_va": 269457252,
+          "kind": 6
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_data_compressor",
+      "section": 17,
+      "rva": 1021760,
+      "size": 36,
+      "kind": ".xdata$x",
+      "sha256": "e5cad81b076391dc52ae842da6dcb22586e1dec4e1527ae8318468c78ab4d63b",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "$L2268",
+          "site_rva": 1021764,
+          "target_va": 269360000,
+          "kind": 6
+        },
+        {
+          "symbol": "$T2329",
+          "site_rva": 1021776,
+          "target_va": 269457216,
+          "kind": 6
+        }
+      ]
+    }
+  ],
+  "bindings_checked": 71,
+  "external_targets": {
+    "__ehhandler$?DecompressAndAllocate@DataCompressor@@SAIPAVBitStream@RakNet@@PAPAE@Z": 269360043,
+    "__except_list": 0,
+    "??0HuffmanEncodingTree@@QAE@XZ": 268592992,
+    "?ReadCompressed@BitStream@RakNet@@AAE_NPAEH_N@Z": 268565104,
+    "?AlignReadToByteBoundary@BitStream@RakNet@@QAEXXZ": 268564864,
+    "?ReadBits@BitStream@RakNet@@QAE_NPAEH_N@Z": 268564912,
+    "??1HuffmanEncodingTree@@QAE@XZ": 268595104,
+    "??2@YAPAXI@Z": 269247098,
+    "?GenerateFromFrequencyTable@HuffmanEncodingTree@@QAEXQAI@Z": 268595136,
+    "?DecodeArray@HuffmanEncodingTree@@QAEIPAVBitStream@RakNet@@IIPAE@Z": 268593008,
+    "__ehhandler$?Compress@DataCompressor@@SAXPAEIPAVBitStream@RakNet@@@Z": 269360011,
+    "?WriteCompressed@BitStream@RakNet@@AAEXPBEH_N@Z": 268566832,
+    "?AlignWriteToByteBoundary@BitStream@RakNet@@QAEXXZ": 268564832,
+    "?WriteBits@BitStream@RakNet@@QAEXPBEH_N@Z": 268566496,
+    "?EncodeArray@HuffmanEncodingTree@@QAEXPAEIPAVBitStream@RakNet@@@Z": 268594688,
+    "?SetWriteOffset@BitStream@RakNet@@QAEXH@Z": 268565760,
+    "??3@YAXPAX@Z": 269247626,
+    "?ReadAlignedBytes@BitStream@RakNet@@QAE_NPAEH@Z": 268566384,
+    "?Write1@BitStream@RakNet@@QAEXXZ": 268566320,
+    "?WriteAlignedBytes@BitStream@RakNet@@QAEXPBEH@Z": 268566816,
+    "?Write0@BitStream@RakNet@@QAEXXZ": 268566288,
+    "$T2356": 269457260,
+    "___CxxFrameHandler": 269247782,
+    "$T2322": 269457224,
+    "$L2337": 269360032,
+    "$T2360": 269457252,
+    "$L2268": 269360000,
+    "$T2329": 269457216
+  },
+  "identity_reasons": {
+    "?GetPointer@InternalPacketPool@@QAEPAUInternalPacket@@XZ": "actual relocation from ?CreateInternalPacketFromBitStream@ReliabilityLayer@@AAEPAUInternalPacket@@PAVBitStream@RakNet@@_J@Z",
+    "?WriteToBitStreamFromInternalPacket@ReliabilityLayer@@AAEHPAVBitStream@RakNet@@QBUInternalPacket@@@Z": "source method semantics + original call graph / allocation / table owner",
+    "?CreateInternalPacketFromBitStream@ReliabilityLayer@@AAEPAUInternalPacket@@PAVBitStream@RakNet@@_J@Z": "source method semantics + original call graph / allocation / table owner",
+    "?Push@?$Queue@PAUInternalPacket@@@DataStructures@@QAEXABQAUInternalPacket@@@Z": "actual relocation from ?ReleasePointer@InternalPacketPool@@QAEXPAUInternalPacket@@@Z",
+    "?ReleasePointer@InternalPacketPool@@QAEXPAUInternalPacket@@@Z": "source method semantics + original call graph / allocation / table owner",
+    "?Compress@DataCompressor@@SAXPAEIPAVBitStream@RakNet@@@Z": "source method semantics + original call graph / allocation / table owner",
+    "?DecompressAndAllocate@DataCompressor@@SAIPAVBitStream@RakNet@@PAPAE@Z": "source method semantics + original call graph / allocation / table owner",
+    "??$Read@_N@BitStream@RakNet@@QAE_NAA_N@Z": "actual relocation from ?CreateInternalPacketFromBitStream@ReliabilityLayer@@AAEPAUInternalPacket@@PAVBitStream@RakNet@@_J@Z"
+  },
+  "special_case": "Only helpers called by selected roots are followed; Read<bool>8420/89 is already accepted and reused. Uncalled getter/templates are excluded. All source layouts checked by compiled assertions; no partial allocations.",
+  "new_unique_code": 1672,
+  "already_covered_code": 89,
+  "source025_direct_bytes": 0,
+  "baseline": 236753
+}

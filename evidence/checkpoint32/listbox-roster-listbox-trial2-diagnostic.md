@@ -1,0 +1,7 @@
+# ListBox trial2 bounded diagnosis
+
+Render is now 1014 bytes. Visibility corrected both real scrollbar leaf chains and all loop starting offsets. First remaining divergence: initial selection-element spill has the slot later shared with color conversion/savedLeft exchanged; RECT.top is spilled and reloaded after GetFont instead of living in EBP across that call. Offsets180 onward all instructions and branch positions otherwise agree except the two local stack slots. This is compiler expression/local-liveness, not a wrong provider. Proposed bounded expression reconstructs line extent as bottom=top; bottom+=fontHeight, so the original top value is a live intermediate across GetFont. No volatile/artificial local or padding.
+
+Ctor now148: bytes0..126 agree after relocation resolution. ZeroMemory preserved the correct final initialization block, but generated XOR EAX +LEA ECX then stores, instead of three direct EBX stores. One final normal C++ expression proposal initializes the real three contiguous width members using a right-associated chain whose actual store order is field51,55,59. It avoids the library intrinsic and extra pointer computation. Original spelling remains nonunique. If scheduling still differs, retain evidence and stop arbitrary variants.
+
+No profile change is motivated; preserve Ob1 and sole widget owner for RemoveAllItems/Render. Neither unmatched function is accepted.

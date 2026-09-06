@@ -1,0 +1,420 @@
+{
+  "status": "UNCOMPILED_PROPOSAL",
+  "baseline": 217741,
+  "ranges": [
+    {
+      "name": "CVehicle ctor",
+      "rva": "0xb83d0",
+      "size": 1308,
+      "unique_unaccepted": 1308,
+      "absolute_PE_relocations": [
+        {
+          "offset": 3,
+          "target_va": "0x100e3fd8"
+        },
+        {
+          "offset": 65,
+          "target_va": "0x100ed728"
+        },
+        {
+          "offset": 138,
+          "target_va": "0x1026ebac"
+        },
+        {
+          "offset": 154,
+          "target_va": "0x1026ebac"
+        },
+        {
+          "offset": 168,
+          "target_va": "0x1026ebac"
+        },
+        {
+          "offset": 179,
+          "target_va": "0x1026ebac"
+        },
+        {
+          "offset": 195,
+          "target_va": "0x100e5254"
+        },
+        {
+          "offset": 204,
+          "target_va": "0x1026ebac"
+        },
+        {
+          "offset": 233,
+          "target_va": "0x1015180c"
+        },
+        {
+          "offset": 290,
+          "target_va": "0x100ed4e8"
+        },
+        {
+          "offset": 319,
+          "target_va": "0x100ed510"
+        },
+        {
+          "offset": 335,
+          "target_va": "0x100ed5ec"
+        },
+        {
+          "offset": 351,
+          "target_va": "0x100ed614"
+        },
+        {
+          "offset": 367,
+          "target_va": "0x100ed68c"
+        },
+        {
+          "offset": 407,
+          "target_va": "0x1026eb80"
+        },
+        {
+          "offset": 413,
+          "target_va": "0x100ed6fc"
+        },
+        {
+          "offset": 433,
+          "target_va": "0x1026dfd0"
+        },
+        {
+          "offset": 500,
+          "target_va": "0x100ec314"
+        },
+        {
+          "offset": 604,
+          "target_va": "0x1026dfcc"
+        },
+        {
+          "offset": 627,
+          "target_va": "0x1026eb80"
+        },
+        {
+          "offset": 632,
+          "target_va": "0x100ed6dc"
+        },
+        {
+          "offset": 653,
+          "target_va": "0x1026dfcc"
+        },
+        {
+          "offset": 682,
+          "target_va": "0x1026dfd0"
+        },
+        {
+          "offset": 690,
+          "target_va": "0x1026dfcc"
+        },
+        {
+          "offset": 728,
+          "target_va": "0x100ed468"
+        },
+        {
+          "offset": 749,
+          "target_va": "0x1026ebac"
+        },
+        {
+          "offset": 767,
+          "target_va": "0x1026ebac"
+        },
+        {
+          "offset": 785,
+          "target_va": "0x1026ebac"
+        },
+        {
+          "offset": 803,
+          "target_va": "0x1026ebac"
+        },
+        {
+          "offset": 821,
+          "target_va": "0x1026ebac"
+        },
+        {
+          "offset": 839,
+          "target_va": "0x1026ebac"
+        },
+        {
+          "offset": 850,
+          "target_va": "0x1026ebac"
+        },
+        {
+          "offset": 868,
+          "target_va": "0x100e5254"
+        },
+        {
+          "offset": 885,
+          "target_va": "0x1026ebac"
+        },
+        {
+          "offset": 905,
+          "target_va": "0x1026ebac"
+        },
+        {
+          "offset": 933,
+          "target_va": "0x1026ebac"
+        },
+        {
+          "offset": 953,
+          "target_va": "0x1026ebac"
+        },
+        {
+          "offset": 981,
+          "target_va": "0x1026ebac"
+        },
+        {
+          "offset": 1001,
+          "target_va": "0x1026ebac"
+        },
+        {
+          "offset": 1029,
+          "target_va": "0x1026ebac"
+        },
+        {
+          "offset": 1049,
+          "target_va": "0x1026ebac"
+        },
+        {
+          "offset": 1077,
+          "target_va": "0x1026ebac"
+        },
+        {
+          "offset": 1139,
+          "target_va": "0x100ed5c4"
+        },
+        {
+          "offset": 1175,
+          "target_va": "0x1026dfd0"
+        },
+        {
+          "offset": 1184,
+          "target_va": "0x1026dfcc"
+        },
+        {
+          "offset": 1217,
+          "target_va": "0x100e5238"
+        }
+      ],
+      "direct_calls": [
+        "0x100a0970",
+        "0x100a0940",
+        "0x100a0960",
+        "0x100a0970",
+        "0x100a0970",
+        "0x100b2310",
+        "0x100b2310",
+        "0x100b2310",
+        "0x100b2310",
+        "0x100b2310",
+        "0x100b3bd0",
+        "0x100680f0",
+        "0x1009eb10",
+        "0x100b7390",
+        "0x100b7390",
+        "0x1009ebc0",
+        "0x100680f0",
+        "0x100b3c00",
+        "0x100a0940",
+        "0x100a0940",
+        "0x100a0940",
+        "0x100a0940",
+        "0x100a0940",
+        "0x100a0960",
+        "0x100a0970",
+        "0x100a0970",
+        "0x100a0970",
+        "0x100a0970",
+        "0x100a0970",
+        "0x100a0970",
+        "0x100a0970",
+        "0x100a0970",
+        "0x100a0970",
+        "0x100a0970",
+        "0x100b2310",
+        "0x100b3bd0",
+        "0x100b42b0"
+      ]
+    },
+    {
+      "name": "CVehicle dtor",
+      "rva": "0xb88f0",
+      "size": 286,
+      "unique_unaccepted": 286,
+      "absolute_PE_relocations": [
+        {
+          "offset": 6,
+          "target_va": "0x100e3ff8"
+        },
+        {
+          "offset": 37,
+          "target_va": "0x100ed728"
+        },
+        {
+          "offset": 78,
+          "target_va": "0x100ed538"
+        },
+        {
+          "offset": 167,
+          "target_va": "0x100ed4fc"
+        },
+        {
+          "offset": 203,
+          "target_va": "0x1026ebac"
+        },
+        {
+          "offset": 219,
+          "target_va": "0x1026ebac"
+        },
+        {
+          "offset": 251,
+          "target_va": "0x100ed5d8"
+        },
+        {
+          "offset": 269,
+          "target_va": "0x100ec2e4"
+        }
+      ],
+      "direct_calls": [
+        "0x100b3bd0",
+        "0x100b2310",
+        "0x100b7ee0",
+        "0x100b7c30",
+        "0x100b2310",
+        "0x100b4700",
+        "0x100a15f0",
+        "0x100a0970",
+        "0x100b2310"
+      ]
+    },
+    {
+      "name": "scalar deleting dtor",
+      "rva": "0xb8b50",
+      "size": 30,
+      "unique_unaccepted": 30,
+      "absolute_PE_relocations": [],
+      "direct_calls": [
+        "0x100b88f0",
+        "0x100c648a"
+      ]
+    },
+    {
+      "name": "Add",
+      "rva": "0xb8a10",
+      "size": 40,
+      "unique_unaccepted": 40,
+      "absolute_PE_relocations": [],
+      "direct_calls": [
+        "0x1009f3d0",
+        "0x1009f300",
+        "0x100b7c90"
+      ]
+    },
+    {
+      "name": "Remove",
+      "rva": "0xb8a40",
+      "size": 40,
+      "unique_unaccepted": 40,
+      "absolute_PE_relocations": [],
+      "direct_calls": [
+        "0x1009f3d0",
+        "0x100b7c90"
+      ]
+    },
+    {
+      "name": "GetTrailer",
+      "rva": "0xb7c90",
+      "size": 83,
+      "unique_unaccepted": 83,
+      "absolute_PE_relocations": [
+        {
+          "offset": 22,
+          "target_va": "0x1026eb94"
+        }
+      ],
+      "direct_calls": [
+        "0x1001eb90",
+        "0x10001150",
+        "0x10001120"
+      ]
+    },
+    {
+      "name": "RemoveEveryone",
+      "rva": "0xb7ee0",
+      "size": 223,
+      "unique_unaccepted": 223,
+      "absolute_PE_relocations": [
+        {
+          "offset": 96,
+          "target_va": "0x100e6118"
+        },
+        {
+          "offset": 124,
+          "target_va": "0x100ed5b0"
+        },
+        {
+          "offset": 166,
+          "target_va": "0x100e6118"
+        },
+        {
+          "offset": 194,
+          "target_va": "0x100ed5b0"
+        }
+      ],
+      "direct_calls": [
+        "0x100b3bd0",
+        "0x100b3ba0",
+        "0x100b2310",
+        "0x100b3ba0",
+        "0x100b2310"
+      ]
+    },
+    {
+      "name": "GamePrepareTrain",
+      "rva": "0xb42b0",
+      "size": 65,
+      "unique_unaccepted": 65,
+      "absolute_PE_relocations": [],
+      "direct_calls": []
+    },
+    {
+      "name": "pool GetAt",
+      "rva": "0x1120",
+      "size": 40,
+      "unique_unaccepted": 40,
+      "absolute_PE_relocations": [],
+      "direct_calls": []
+    },
+    {
+      "name": "pool GetSlotState",
+      "rva": "0x1150",
+      "size": 29,
+      "unique_unaccepted": 29,
+      "absolute_PE_relocations": [],
+      "direct_calls": []
+    },
+    {
+      "name": "ctor EH",
+      "rva": "0xe3fd0",
+      "size": 18,
+      "unique_unaccepted": 18,
+      "absolute_PE_relocations": [
+        {
+          "offset": 9,
+          "target_va": "0x100fbf44"
+        }
+      ],
+      "direct_calls": []
+    },
+    {
+      "name": "dtor EH",
+      "rva": "0xe3ff0",
+      "size": 18,
+      "unique_unaccepted": 18,
+      "absolute_PE_relocations": [
+        {
+          "offset": 9,
+          "target_va": "0x100fbf68"
+        }
+      ],
+      "direct_calls": []
+    }
+  ]
+}

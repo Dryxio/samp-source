@@ -1,0 +1,182 @@
+{
+  "status": "ORIGINAL_IDENTITY_PREFLIGHT_NOT_MATCH_ACCEPTANCE",
+  "descriptor_owners": [
+    {
+      "source_symbol": "_disable_marker",
+      "rva": 940376,
+      "size": 18,
+      "owner": "NetGame map-icon unit header-local const",
+      "consumers": [
+        36784,
+        41664,
+        41728
+      ],
+      "identity": "opcode0164 i",
+      "cannot_alias_with": 968124,
+      "sha256": "1ebe2aef5e9dcbef37a2e24c73e67590a006311112c6df9545b27483968481ad"
+    },
+    {
+      "source_symbol": "_disable_marker",
+      "rva": 968124,
+      "size": 18,
+      "owner": "CGame marker/checkpoint unit header-local const",
+      "consumers": [
+        659136
+      ],
+      "identity": "opcode0164 i",
+      "cannot_alias_with": 940376,
+      "sha256": "1ebe2aef5e9dcbef37a2e24c73e67590a006311112c6df9545b27483968481ad"
+    },
+    {
+      "source_symbol": "r5PutTrailerOnCab",
+      "rva": 972468,
+      "size": 18,
+      "owner": "CVehicle trailer script descriptor",
+      "consumers": [
+        752656
+      ],
+      "identity": "opcode0893 ii",
+      "sha256": "e55fb349cb8f10fd0a9628f48021d7ffd5c28199290da323b7fac9b04671d4d8"
+    },
+    {
+      "source_symbol": "r5DetachTrailerFromCab",
+      "rva": 972488,
+      "size": 18,
+      "owner": "CVehicle trailer script descriptor",
+      "consumers": [
+        752688
+      ],
+      "identity": "opcode07AC ii",
+      "sha256": "4dc7af7b2542a3b287fe28266ee01744c485cf6c926d2c7dfb81cc30ec350691"
+    }
+  ],
+  "eh_maps": [
+    {
+      "function": "MapSet",
+      "whole_eh_rva": 921936,
+      "whole_eh_size": 21,
+      "cleanup_rva": 921936,
+      "cleanup_size": 11,
+      "cleanup_true_target": 129232,
+      "handler_rva": 921947,
+      "handler_size": 10,
+      "handler_true_target": 812326,
+      "func_info_rva": 1018792,
+      "func_info_size": 28,
+      "unwind_rva": 1018784,
+      "unwind_size": 8,
+      "metadata_pointer_identities": {
+        "UnwindMap.action": 921936,
+        "FuncInfo.pUnwindMap": 1018784
+      },
+      "whole_eh_sha256": "192b01bf422a71ad0f36c29df235bde7c112865fec99e49b97d4617c5e5151bd"
+    },
+    {
+      "function": "MapDisable",
+      "whole_eh_rva": 921968,
+      "whole_eh_size": 21,
+      "cleanup_rva": 921968,
+      "cleanup_size": 11,
+      "cleanup_true_target": 129232,
+      "handler_rva": 921979,
+      "handler_size": 10,
+      "handler_true_target": 812326,
+      "func_info_rva": 1018828,
+      "func_info_size": 28,
+      "unwind_rva": 1018820,
+      "unwind_size": 8,
+      "metadata_pointer_identities": {
+        "UnwindMap.action": 921968,
+        "FuncInfo.pUnwindMap": 1018820
+      },
+      "whole_eh_sha256": "79f857c72acb981e6e8c3d9105cd7ec905cd7c2e2997ee20b846ff0d4230d6b6"
+    },
+    {
+      "function": "TrailerAttach",
+      "whole_eh_rva": 922160,
+      "whole_eh_size": 21,
+      "cleanup_rva": 922160,
+      "cleanup_size": 11,
+      "cleanup_true_target": 129232,
+      "handler_rva": 922171,
+      "handler_size": 10,
+      "handler_true_target": 812326,
+      "func_info_rva": 1019044,
+      "func_info_size": 28,
+      "unwind_rva": 1019036,
+      "unwind_size": 8,
+      "metadata_pointer_identities": {
+        "UnwindMap.action": 922160,
+        "FuncInfo.pUnwindMap": 1019036
+      },
+      "whole_eh_sha256": "dfb1b0afb1a9f7d5ff22db753afe7d692c9cfc8974cdce420510268289def6e6"
+    },
+    {
+      "function": "TrailerDetach",
+      "whole_eh_rva": 922192,
+      "whole_eh_size": 21,
+      "cleanup_rva": 922192,
+      "cleanup_size": 11,
+      "cleanup_true_target": 129232,
+      "handler_rva": 922203,
+      "handler_size": 10,
+      "handler_true_target": 812326,
+      "func_info_rva": 1019080,
+      "func_info_size": 28,
+      "unwind_rva": 1019072,
+      "unwind_size": 8,
+      "metadata_pointer_identities": {
+        "UnwindMap.action": 922192,
+        "FuncInfo.pUnwindMap": 1019072
+      },
+      "whole_eh_sha256": "2416235a958949bd1f0b6aa7af28bbd9c63306ca74c61fc33b1a4e349507b86b"
+    },
+    {
+      "function": "ObjectDelete",
+      "whole_eh_rva": 922352,
+      "whole_eh_size": 21,
+      "cleanup_rva": 922352,
+      "cleanup_size": 11,
+      "cleanup_true_target": 129232,
+      "handler_rva": 922363,
+      "handler_size": 10,
+      "handler_true_target": 812326,
+      "func_info_rva": 1019260,
+      "func_info_size": 28,
+      "unwind_rva": 1019252,
+      "unwind_size": 8,
+      "metadata_pointer_identities": {
+        "UnwindMap.action": 922352,
+        "FuncInfo.pUnwindMap": 1019252
+      },
+      "whole_eh_sha256": "8d1a31442d4002996cb5daa14f3503b48981df21d47f77ad16777d1e90605c77"
+    }
+  ],
+  "rule": "Equal18 bytes do not make interchangeable providers. Bind every symbol at its real source-unit lifetime and callsite target. E5958/EC5BC header-local symbols must retain separate placement. No arbitrary aliases.",
+  "object_virtual_owner": {
+    "call_site": 75936,
+    "static_type": "CEntity*",
+    "actual_dynamic_class": "CObject",
+    "constructor": 692496,
+    "vtable": 970100,
+    "slot": 0,
+    "deleting_destructor": 696576,
+    "destructor": 693296,
+    "argument_flags": 1,
+    "pointer_adjustment": 0,
+    "evidence": "Previously accepted object destruction full view and source; no allocation in new pool delete."
+  },
+  "trailer_flag": {
+    "rva": 1382212,
+    "size": 4,
+    "storage": "real PE virtual zero fill",
+    "name": "r5TrailerDetachInProgress reconstructed identifier",
+    "writers": [
+      752692,
+      752757
+    ],
+    "reader": 674948,
+    "reader_owner": 674928,
+    "reader_coverage_claim": false
+  }
+}

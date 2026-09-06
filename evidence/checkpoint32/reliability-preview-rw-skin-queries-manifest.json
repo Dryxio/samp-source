@@ -1,0 +1,63 @@
+{
+  "status": "UNCOMPILED_PROPOSAL",
+  "baseline": 229399,
+  "new_unique": 170,
+  "functions": [
+    {
+      "name": "GetFirstAtomic",
+      "rva": "0xb20a0",
+      "size": 53,
+      "new_unique": 53,
+      "native_cdecl": {
+        "version1": 7555104,
+        "other": 7555200
+      },
+      "reference_sha256": "703b0d1fe58739965e7f6876baff60c30d1086a8b609db97890a4c41c51dd2ea",
+      "PE_relocations": [
+        {
+          "offset": 7,
+          "target_va": "0x1026eb28"
+        }
+      ]
+    },
+    {
+      "name": "RpSkinGeometryGetSkin",
+      "rva": "0xb20e0",
+      "size": 53,
+      "new_unique": 53,
+      "native_cdecl": {
+        "version1": 8156496,
+        "other": 8156560
+      },
+      "reference_sha256": "25109f17b955445d4031b10cb928d7af8584f089cda17be839a1847d8e7edb09",
+      "PE_relocations": [
+        {
+          "offset": 7,
+          "target_va": "0x1026eb28"
+        }
+      ]
+    },
+    {
+      "name": "GetClumpSkin",
+      "rva": "0xb2120",
+      "size": 25,
+      "new_unique": 25,
+      "native_cdecl": {},
+      "reference_sha256": "9e39bb1aaffe64e6c5deae48deb5f22fbad96abf43d33d6afefbf3ea8b090085",
+      "PE_relocations": []
+    },
+    {
+      "name": "GetAnimHierarchyFromClump",
+      "rva": "0xb2140",
+      "size": 39,
+      "new_unique": 39,
+      "native_cdecl": {
+        "all_versions": 7555856
+      },
+      "reference_sha256": "e3eaca3f3def4a8504929ff232bb1007cc2f1bda26864b44612954ae8b774284",
+      "PE_relocations": []
+    }
+  ],
+  "extra_EH_or_tables": false,
+  "new_data_bytes": 0
+}

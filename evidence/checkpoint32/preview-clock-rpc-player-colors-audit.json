@@ -1,0 +1,63 @@
+{
+  "status": "SOURCE_PROPOSAL_NOT_ACCEPTED",
+  "source": "build/agent-independent/eval_rpc_player_colors.cpp",
+  "sha256": "b0f1193ff3aa01cb3a7b2d73f25dd82780eac5f30f805309673b2b18f6866ce8",
+  "potential_unique_bytes": 308,
+  "regions": [
+    {
+      "identity": "ScrSetPlayerColor",
+      "rva": 104448,
+      "size": 233,
+      "sha256": "f925d4041846db5f389a2a7ee88f166ebf8bc53c3b66cf1374edd88adc1da3f4"
+    },
+    {
+      "identity": "CLocalPlayer SetPlayerColor",
+      "rva": 16080,
+      "size": 33,
+      "sha256": "094ace9c8bba8580f6f7dbe80e7dbf9039be53a9fe74cb836e8f3b28cda3fd79"
+    },
+    {
+      "identity": "CRemotePlayer SetPlayerColor",
+      "rva": 90448,
+      "size": 21,
+      "sha256": "866902d80da0a5a6bf9132616099231c99e05cdabde30036a1e0549b035876ed"
+    },
+    {
+      "identity": "RPC EH cleanup",
+      "rva": 921360,
+      "size": 11,
+      "sha256": "d89011f0a4383b15b77a779d57f81b3d10d42d50882274389e280ec7b6ce262e"
+    },
+    {
+      "identity": "RPC EH handler",
+      "rva": 921371,
+      "size": 10,
+      "sha256": "8044b9d0336539ddd94befd7806e063a2a3a3693781094e4ab6cc989164f91b5"
+    }
+  ],
+  "calls": [
+    "BitStream(char*,uint,bool)1F840",
+    "BitStream::ReadBits1F9B0 WORD16/DWORD32 true",
+    "local setter3ED0 calls SetRadarColorA7210 using pNetGame26EB94\u2192pools3DE\u2192playerpool4\u2192localid4",
+    "remote setter16150 calls SetRadarColorA7210 using m_PlayerID1E5",
+    "BitStream dtor1F8D0; CxxFrameHandlerC6526"
+  ],
+  "layout": "Existing true class headers; CPlayerPool GetAt validates id>1004, wrapper1F8A then remote10. No custom view or added header needed.",
+  "source025_new_credit": 233,
+  "provenance": "025 net/scriptrpc.cpp231 unchanged except char*BitStream overload; both color setters already complete base.",
+  "deduction": "All 308 bytes outside directory-pool accepted union and prior destructor282/construction649/clockNS155 candidates.",
+  "data": [
+    {
+      "identity": "UnwindMap",
+      "rva": 1018136,
+      "size": 8,
+      "sha256": "a4e2d9486793295ebc574e123cdb40bb3affb5ee8055c2caef5d5333aa61f5f1"
+    },
+    {
+      "identity": "FuncInfo",
+      "rva": 1018144,
+      "size": 28,
+      "sha256": "9878c84d68b25be51eca7f25d497725ded3ac7e07263a2c00292041a451e6627"
+    }
+  ]
+}

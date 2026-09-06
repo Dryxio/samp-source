@@ -1,0 +1,2745 @@
+{
+  "status": "REVIEWED_MAIN_SEEDS_AND_WHOLE_EH_BINDINGS_PREFLIGHT",
+  "run": "build/cp32-huffman-ped-trial1",
+  "roots": {
+    "??0HuffmanEncodingTree@@QAE@XZ": 157536,
+    "?DecodeArray@HuffmanEncodingTree@@QAEIPAVBitStream@RakNet@@IIPAE@Z": 157552,
+    "?DecodeArray@HuffmanEncodingTree@@QAEXPAEIPAVBitStream@RakNet@@@Z": 157648,
+    "?FreeMemory@HuffmanEncodingTree@@QAEXXZ": 158912,
+    "?EncodeArray@HuffmanEncodingTree@@QAEXPAEIPAVBitStream@RakNet@@@Z": 159232,
+    "?InsertNodeIntoSortedList@HuffmanEncodingTree@@ABEXPAUHuffmanEncodingTreeNode@@PAV?$LinkedList@PAUHuffmanEncodingTreeNode@@@DataStructures@@@Z": 159392,
+    "??1HuffmanEncodingTree@@QAE@XZ": 159648,
+    "?GenerateFromFrequencyTable@HuffmanEncodingTree@@QAEXQAI@Z": 159680,
+    "?Instance@StringCompressor@@SAPAV1@XZ": 343088,
+    "?EncodeString@StringCompressor@@QAEXPBDHPAVBitStream@RakNet@@H@Z": 344480,
+    "?DecodeString@StringCompressor@@QAE_NPADHPAVBitStream@RakNet@@H@Z": 344784,
+    "??0StringCompressor@@AAE@XZ": 345184,
+    "?GenerateTreeFromStrings@StringCompressor@@QAEXPAEIH@Z": 345360,
+    "??1StringCompressor@@QAE@XZ": 345616,
+    "?AddReference@StringCompressor@@SAXXZ": 345744,
+    "?RemoveReference@StringCompressor@@SAXXZ": 345888
+  },
+  "seeds": {
+    "closure_vendor_string_compressor": {
+      "?RemoveReference@StringCompressor@@SAXXZ": 345888,
+      "??1StringCompressor@@QAE@XZ": 345616,
+      "??1?$Map@HPAVHuffmanEncodingTree@@$1??$defaultMapKeyComparison@H@DataStructures@@YAHABH0@Z@DataStructures@@QAE@XZ": 344944,
+      "??1?$OrderedList@HUMapNode@?$Map@HPAVHuffmanEncodingTree@@$1??$defaultMapKeyComparison@H@DataStructures@@YAHABH0@Z@DataStructures@@$1?NodeComparisonFunc@23@SAHABHABU123@@Z@DataStructures@@QAE@XZ": 344304,
+      "??1?$List@UMapNode@?$Map@HPAVHuffmanEncodingTree@@$1??$defaultMapKeyComparison@H@DataStructures@@YAHABH0@Z@DataStructures@@@DataStructures@@QAE@XZ": 343280,
+      "?Clear@?$OrderedList@HUMapNode@?$Map@HPAVHuffmanEncodingTree@@$1??$defaultMapKeyComparison@H@DataStructures@@YAHABH0@Z@DataStructures@@$1?NodeComparisonFunc@23@SAHABHABU123@@Z@DataStructures@@QAEXXZ": 343648,
+      "?Clear@?$List@UMapNode@?$Map@HPAVHuffmanEncodingTree@@$1??$defaultMapKeyComparison@H@DataStructures@@YAHABH0@Z@DataStructures@@@DataStructures@@QAEX_N@Z": 343360,
+      "?Clear@?$Map@HPAVHuffmanEncodingTree@@$1??$defaultMapKeyComparison@H@DataStructures@@YAHABH0@Z@DataStructures@@QAEXXZ": 344288,
+      "??A?$Map@HPAVHuffmanEncodingTree@@$1??$defaultMapKeyComparison@H@DataStructures@@YAHABH0@Z@DataStructures@@QBEAAPAVHuffmanEncodingTree@@I@Z": 344256,
+      "??A?$OrderedList@HUMapNode@?$Map@HPAVHuffmanEncodingTree@@$1??$defaultMapKeyComparison@H@DataStructures@@YAHABH0@Z@DataStructures@@$1?NodeComparisonFunc@23@SAHABHABU123@@Z@DataStructures@@QBEAAUMapNode@?$Map@HPAVHuffmanEncodingTree@@$1??$defaultMapKeyComparison@H@DataStructures@@YAHABH0@Z@1@I@Z": 343616,
+      "?Size@?$Map@HPAVHuffmanEncodingTree@@$1??$defaultMapKeyComparison@H@DataStructures@@YAHABH0@Z@DataStructures@@QBEIXZ": 344272,
+      "?Size@?$OrderedList@HUMapNode@?$Map@HPAVHuffmanEncodingTree@@$1??$defaultMapKeyComparison@H@DataStructures@@YAHABH0@Z@DataStructures@@$1?NodeComparisonFunc@23@SAHABHABU123@@Z@DataStructures@@QBEIXZ": 343632,
+      "?AddReference@StringCompressor@@SAXXZ": 345744,
+      "??0StringCompressor@@AAE@XZ": 345184,
+      "?Set@?$Map@HPAVHuffmanEncodingTree@@$1??$defaultMapKeyComparison@H@DataStructures@@YAHABH0@Z@DataStructures@@QAEXABHABQAVHuffmanEncodingTree@@@Z": 345024,
+      "?Insert@?$OrderedList@HUMapNode@?$Map@HPAVHuffmanEncodingTree@@$1??$defaultMapKeyComparison@H@DataStructures@@YAHABH0@Z@DataStructures@@$1?NodeComparisonFunc@23@SAHABHABU123@@Z@DataStructures@@QAEIABHABUMapNode@?$Map@HPAVHuffmanEncodingTree@@$1??$defaultMapKeyComparison@H@DataStructures@@YAHABH0@Z@2@@Z": 344384,
+      "?Insert@?$List@UMapNode@?$Map@HPAVHuffmanEncodingTree@@$1??$defaultMapKeyComparison@H@DataStructures@@YAHABH0@Z@DataStructures@@@DataStructures@@QAEXUMapNode@?$Map@HPAVHuffmanEncodingTree@@$1??$defaultMapKeyComparison@H@DataStructures@@YAHABH0@Z@2@I@Z": 343872,
+      "??_H@YGXPAXIHP6EPAX0@Z@Z": 183776,
+      "??0MapNode@?$Map@HPAVHuffmanEncodingTree@@$1??$defaultMapKeyComparison@H@DataStructures@@YAHABH0@Z@DataStructures@@QAE@XZ": 343344,
+      "?Insert@?$List@UMapNode@?$Map@HPAVHuffmanEncodingTree@@$1??$defaultMapKeyComparison@H@DataStructures@@YAHABH0@Z@DataStructures@@@DataStructures@@QAEXUMapNode@?$Map@HPAVHuffmanEncodingTree@@$1??$defaultMapKeyComparison@H@DataStructures@@YAHABH0@Z@2@@Z": 343664,
+      "?GetIndexFromKey@?$OrderedList@HUMapNode@?$Map@HPAVHuffmanEncodingTree@@$1??$defaultMapKeyComparison@H@DataStructures@@YAHABH0@Z@DataStructures@@$1?NodeComparisonFunc@23@SAHABHABU123@@Z@DataStructures@@QBEIABHPA_N@Z": 343472,
+      "??$defaultMapKeyComparison@H@DataStructures@@YAHABH0@Z": 343104,
+      "?SaveLastSearch@?$Map@HPAVHuffmanEncodingTree@@$1??$defaultMapKeyComparison@H@DataStructures@@YAHABH0@Z@DataStructures@@IAEXABHI@Z": 343168,
+      "?HasSavedSearchResult@?$Map@HPAVHuffmanEncodingTree@@$1??$defaultMapKeyComparison@H@DataStructures@@YAHABH0@Z@DataStructures@@IBE_NABH@Z": 343200,
+      "??0?$Map@HPAVHuffmanEncodingTree@@$1??$defaultMapKeyComparison@H@DataStructures@@YAHABH0@Z@DataStructures@@QAE@XZ": 344928,
+      "??0?$OrderedList@HUMapNode@?$Map@HPAVHuffmanEncodingTree@@$1??$defaultMapKeyComparison@H@DataStructures@@YAHABH0@Z@DataStructures@@$1?NodeComparisonFunc@23@SAHABHABU123@@Z@DataStructures@@QAE@XZ": 343456,
+      "??0?$List@UMapNode@?$Map@HPAVHuffmanEncodingTree@@$1??$defaultMapKeyComparison@H@DataStructures@@YAHABH0@Z@DataStructures@@@DataStructures@@QAE@XZ": 343264,
+      "?GenerateTreeFromStrings@StringCompressor@@QAEXPAEIH@Z": 345360,
+      "?Get@?$Map@HPAVHuffmanEncodingTree@@$1??$defaultMapKeyComparison@H@DataStructures@@YAHABH0@Z@DataStructures@@QAEAAPAVHuffmanEncodingTree@@ABH@Z": 344112,
+      "?Has@?$Map@HPAVHuffmanEncodingTree@@$1??$defaultMapKeyComparison@H@DataStructures@@YAHABH0@Z@DataStructures@@QAE_NABH@Z": 344192,
+      "?DecodeString@StringCompressor@@QAE_NPADHPAVBitStream@RakNet@@H@Z": 344784,
+      "?EncodeString@StringCompressor@@QAEXPBDHPAVBitStream@RakNet@@H@Z": 344480,
+      "?Instance@StringCompressor@@SAPAV1@XZ": 343088
+    },
+    "closure_vendor_huffman": {
+      "??1HuffmanEncodingTree@@QAE@XZ": 159648,
+      "?FreeMemory@HuffmanEncodingTree@@QAEXXZ": 158912,
+      "??1?$Queue@PAUHuffmanEncodingTreeNode@@@DataStructures@@QAE@XZ": 157904,
+      "?Push@?$Queue@PAUHuffmanEncodingTreeNode@@@DataStructures@@QAEXABQAUHuffmanEncodingTreeNode@@@Z": 157936,
+      "??0?$Queue@PAUHuffmanEncodingTreeNode@@@DataStructures@@QAE@XZ": 157856,
+      "?GenerateFromFrequencyTable@HuffmanEncodingTree@@QAEXQAI@Z": 159680,
+      "??1?$LinkedList@PAUHuffmanEncodingTreeNode@@@DataStructures@@QAE@XZ": 159568,
+      "??1?$CircularLinkedList@PAUHuffmanEncodingTreeNode@@@DataStructures@@QAE@XZ": 159536,
+      "?Clear@?$CircularLinkedList@PAUHuffmanEncodingTreeNode@@@DataStructures@@QAEXXZ": 158832,
+      "?Pop@?$CircularLinkedList@PAUHuffmanEncodingTreeNode@@@DataStructures@@QAEPAUHuffmanEncodingTreeNode@@XZ": 159552,
+      "?Del@?$CircularLinkedList@PAUHuffmanEncodingTreeNode@@@DataStructures@@QAEXXZ": 158720,
+      "?InsertNodeIntoSortedList@HuffmanEncodingTree@@ABEXPAUHuffmanEncodingTreeNode@@PAV?$LinkedList@PAUHuffmanEncodingTreeNode@@@DataStructures@@@Z": 159392,
+      "?Add@?$CircularLinkedList@PAUHuffmanEncodingTreeNode@@@DataStructures@@QAEAAPAUHuffmanEncodingTreeNode@@ABQAU3@@Z": 158432,
+      "??E?$LinkedList@PAUHuffmanEncodingTreeNode@@@DataStructures@@QAEAAV01@XZ": 158688,
+      "?Insert@?$CircularLinkedList@PAUHuffmanEncodingTreeNode@@@DataStructures@@QAEXABQAUHuffmanEncodingTreeNode@@@Z": 158224,
+      "??0?$CircularLinkedList@PAUHuffmanEncodingTreeNode@@@DataStructures@@QAE@XZ": 158208,
+      "??0HuffmanEncodingTree@@QAE@XZ": 157536,
+      "?DecodeArray@HuffmanEncodingTree@@QAEIPAVBitStream@RakNet@@IIPAE@Z": 157552,
+      "?EncodeArray@HuffmanEncodingTree@@QAEXPAEIPAVBitStream@RakNet@@@Z": 159232,
+      "?DecodeArray@HuffmanEncodingTree@@QAEXPAEIPAVBitStream@RakNet@@@Z": 157648
+    }
+  },
+  "regions": [
+    {
+      "unit": "closure_vendor_string_compressor",
+      "section": 113,
+      "rva": 345888,
+      "size": 56,
+      "kind": ".text",
+      "sha256": "0c68e1156f4db400b174b0fe48aad75fc83620df3773b4a93e9ea352b80c24b5",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "?referenceCount@StringCompressor@@0HA",
+          "site_rva": 345889,
+          "target_va": 269621824,
+          "kind": 6
+        },
+        {
+          "symbol": "?referenceCount@StringCompressor@@0HA",
+          "site_rva": 345899,
+          "target_va": 269621824,
+          "kind": 6
+        },
+        {
+          "symbol": "?instance@StringCompressor@@0PAV1@A",
+          "site_rva": 345907,
+          "target_va": 269621820,
+          "kind": 6
+        },
+        {
+          "symbol": "??1StringCompressor@@QAE@XZ",
+          "site_rva": 345919,
+          "target_va": 268781072,
+          "kind": 20
+        },
+        {
+          "symbol": "??3@YAXPAX@Z",
+          "site_rva": 345925,
+          "target_va": 269247626,
+          "kind": 20
+        },
+        {
+          "symbol": "?instance@StringCompressor@@0PAV1@A",
+          "site_rva": 345934,
+          "target_va": 269621820,
+          "kind": 6
+        }
+      ],
+      "new_code_unique_before_other_new_regions": 56
+    },
+    {
+      "unit": "closure_vendor_string_compressor",
+      "section": 103,
+      "rva": 345616,
+      "size": 125,
+      "kind": ".text",
+      "sha256": "442519c2fe3d54e0f604dbaed7be6c39f11d11bcaba3b7282daf41ce3b791554",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "__ehhandler$??1StringCompressor@@QAE@XZ",
+          "site_rva": 345619,
+          "target_va": 269366344,
+          "kind": 6
+        },
+        {
+          "symbol": "__except_list",
+          "site_rva": 345625,
+          "target_va": 0,
+          "kind": 6
+        },
+        {
+          "symbol": "__except_list",
+          "site_rva": 345633,
+          "target_va": 0,
+          "kind": 6
+        },
+        {
+          "symbol": "?Size@?$Map@HPAVHuffmanEncodingTree@@$1??$defaultMapKeyComparison@H@DataStructures@@YAHABH0@Z@DataStructures@@QBEIXZ",
+          "site_rva": 345657,
+          "target_va": 268779728,
+          "kind": 20
+        },
+        {
+          "symbol": "??A?$Map@HPAVHuffmanEncodingTree@@$1??$defaultMapKeyComparison@H@DataStructures@@YAHABH0@Z@DataStructures@@QBEAAPAVHuffmanEncodingTree@@I@Z",
+          "site_rva": 345670,
+          "target_va": 268779712,
+          "kind": 20
+        },
+        {
+          "symbol": "??1HuffmanEncodingTree@@QAE@XZ",
+          "site_rva": 345683,
+          "target_va": 268595104,
+          "kind": 20
+        },
+        {
+          "symbol": "??3@YAXPAX@Z",
+          "site_rva": 345689,
+          "target_va": 269247626,
+          "kind": 20
+        },
+        {
+          "symbol": "?Size@?$Map@HPAVHuffmanEncodingTree@@$1??$defaultMapKeyComparison@H@DataStructures@@YAHABH0@Z@DataStructures@@QBEIXZ",
+          "site_rva": 345700,
+          "target_va": 268779728,
+          "kind": 20
+        },
+        {
+          "symbol": "??1?$Map@HPAVHuffmanEncodingTree@@$1??$defaultMapKeyComparison@H@DataStructures@@YAHABH0@Z@DataStructures@@QAE@XZ",
+          "site_rva": 345720,
+          "target_va": 268780400,
+          "kind": 20
+        },
+        {
+          "symbol": "__except_list",
+          "site_rva": 345733,
+          "target_va": 0,
+          "kind": 6
+        }
+      ],
+      "new_code_unique_before_other_new_regions": 125
+    },
+    {
+      "unit": "closure_vendor_string_compressor",
+      "section": 90,
+      "rva": 344944,
+      "size": 73,
+      "kind": ".text",
+      "sha256": "dec6b5d1bdf9a91b0d7f3e2e2459d599a04a30c6f5ea4f45b69a6ea9da88e03d",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "__ehhandler$??1?$Map@HPAVHuffmanEncodingTree@@$1??$defaultMapKeyComparison@H@DataStructures@@YAHABH0@Z@DataStructures@@QAE@XZ",
+          "site_rva": 344947,
+          "target_va": 269366248,
+          "kind": 6
+        },
+        {
+          "symbol": "__except_list",
+          "site_rva": 344953,
+          "target_va": 0,
+          "kind": 6
+        },
+        {
+          "symbol": "__except_list",
+          "site_rva": 344961,
+          "target_va": 0,
+          "kind": 6
+        },
+        {
+          "symbol": "?Clear@?$Map@HPAVHuffmanEncodingTree@@$1??$defaultMapKeyComparison@H@DataStructures@@YAHABH0@Z@DataStructures@@QAEXXZ",
+          "site_rva": 344982,
+          "target_va": 268779744,
+          "kind": 20
+        },
+        {
+          "symbol": "??1?$OrderedList@HUMapNode@?$Map@HPAVHuffmanEncodingTree@@$1??$defaultMapKeyComparison@H@DataStructures@@YAHABH0@Z@DataStructures@@$1?NodeComparisonFunc@23@SAHABHABU123@@Z@DataStructures@@QAE@XZ",
+          "site_rva": 344997,
+          "target_va": 268779760,
+          "kind": 20
+        },
+        {
+          "symbol": "__except_list",
+          "site_rva": 345009,
+          "target_va": 0,
+          "kind": 6
+        }
+      ],
+      "new_code_unique_before_other_new_regions": 0
+    },
+    {
+      "unit": "closure_vendor_string_compressor",
+      "section": 76,
+      "rva": 344304,
+      "size": 73,
+      "kind": ".text",
+      "sha256": "881c924171d8d5497577ac15a8b24582b44ed88846a5263818031085e4fc2cf9",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "__ehhandler$??1?$OrderedList@HUMapNode@?$Map@HPAVHuffmanEncodingTree@@$1??$defaultMapKeyComparison@H@DataStructures@@YAHABH0@Z@DataStructures@@$1?NodeComparisonFunc@23@SAHABHABU123@@Z@DataStructures@@QAE@XZ",
+          "site_rva": 344307,
+          "target_va": 269366184,
+          "kind": 6
+        },
+        {
+          "symbol": "__except_list",
+          "site_rva": 344313,
+          "target_va": 0,
+          "kind": 6
+        },
+        {
+          "symbol": "__except_list",
+          "site_rva": 344321,
+          "target_va": 0,
+          "kind": 6
+        },
+        {
+          "symbol": "?Clear@?$OrderedList@HUMapNode@?$Map@HPAVHuffmanEncodingTree@@$1??$defaultMapKeyComparison@H@DataStructures@@YAHABH0@Z@DataStructures@@$1?NodeComparisonFunc@23@SAHABHABU123@@Z@DataStructures@@QAEXXZ",
+          "site_rva": 344342,
+          "target_va": 268779104,
+          "kind": 20
+        },
+        {
+          "symbol": "??1?$List@UMapNode@?$Map@HPAVHuffmanEncodingTree@@$1??$defaultMapKeyComparison@H@DataStructures@@YAHABH0@Z@DataStructures@@@DataStructures@@QAE@XZ",
+          "site_rva": 344357,
+          "target_va": 268778736,
+          "kind": 20
+        },
+        {
+          "symbol": "__except_list",
+          "site_rva": 344369,
+          "target_va": 0,
+          "kind": 6
+        }
+      ],
+      "new_code_unique_before_other_new_regions": 0
+    },
+    {
+      "unit": "closure_vendor_string_compressor",
+      "section": 31,
+      "rva": 343280,
+      "size": 17,
+      "kind": ".text",
+      "sha256": "7c30c1bea085e4a6dadea56d09ba0b64bfdc0b676e99a44904f045f7e126baf9",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "??3@YAXPAX@Z",
+          "site_rva": 343291,
+          "target_va": 269247626,
+          "kind": 20
+        }
+      ],
+      "new_code_unique_before_other_new_regions": 0
+    },
+    {
+      "unit": "closure_vendor_string_compressor",
+      "section": 55,
+      "rva": 343648,
+      "size": 8,
+      "kind": ".text",
+      "sha256": "21f4d7dae90fdf1ed4580ef6b28b446c5d8345f6d44443e61682bdc6c43428e4",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "?Clear@?$List@UMapNode@?$Map@HPAVHuffmanEncodingTree@@$1??$defaultMapKeyComparison@H@DataStructures@@YAHABH0@Z@DataStructures@@@DataStructures@@QAEX_N@Z",
+          "site_rva": 343651,
+          "target_va": 268778816,
+          "kind": 20
+        }
+      ],
+      "new_code_unique_before_other_new_regions": 0
+    },
+    {
+      "unit": "closure_vendor_string_compressor",
+      "section": 41,
+      "rva": 343360,
+      "size": 60,
+      "kind": ".text",
+      "sha256": "e2a8e17e845f62130110568a6f2c0240640601bc9bcbed5d7e1bde4f5eda3d42",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "??3@YAXPAX@Z",
+          "site_rva": 343389,
+          "target_va": 269247626,
+          "kind": 20
+        }
+      ],
+      "new_code_unique_before_other_new_regions": 0
+    },
+    {
+      "unit": "closure_vendor_string_compressor",
+      "section": 74,
+      "rva": 344288,
+      "size": 9,
+      "kind": ".text",
+      "sha256": "7e25e57c069a00cb126719cf8b4313d34ac8f58ff4851abdba5bf4c2533cc9bf",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "?Clear@?$OrderedList@HUMapNode@?$Map@HPAVHuffmanEncodingTree@@$1??$defaultMapKeyComparison@H@DataStructures@@YAHABH0@Z@DataStructures@@$1?NodeComparisonFunc@23@SAHABHABU123@@Z@DataStructures@@QAEXXZ",
+          "site_rva": 344293,
+          "target_va": 268779104,
+          "kind": 20
+        }
+      ],
+      "new_code_unique_before_other_new_regions": 0
+    },
+    {
+      "unit": "closure_vendor_string_compressor",
+      "section": 70,
+      "rva": 344256,
+      "size": 16,
+      "kind": ".text",
+      "sha256": "119a6bcf5d41661eb008aa6e39cfb339f87adc6005aa3e45979493be9ad92940",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "??A?$OrderedList@HUMapNode@?$Map@HPAVHuffmanEncodingTree@@$1??$defaultMapKeyComparison@H@DataStructures@@YAHABH0@Z@DataStructures@@$1?NodeComparisonFunc@23@SAHABHABU123@@Z@DataStructures@@QBEAAUMapNode@?$Map@HPAVHuffmanEncodingTree@@$1??$defaultMapKeyComparison@H@DataStructures@@YAHABH0@Z@1@I@Z",
+          "site_rva": 344262,
+          "target_va": 268779072,
+          "kind": 20
+        }
+      ],
+      "new_code_unique_before_other_new_regions": 16
+    },
+    {
+      "unit": "closure_vendor_string_compressor",
+      "section": 51,
+      "rva": 343616,
+      "size": 12,
+      "kind": ".text",
+      "sha256": "2a019df44c6041bf3d0bba2505aaebbe24ee64bc5e67b5c5bdde23bd41aca1ec",
+      "whole_bytes_equal": true,
+      "bindings": [],
+      "new_code_unique_before_other_new_regions": 12
+    },
+    {
+      "unit": "closure_vendor_string_compressor",
+      "section": 72,
+      "rva": 344272,
+      "size": 5,
+      "kind": ".text",
+      "sha256": "2d4363b97d19a9d40308a2411a7707e82c9c866aa30abd912faa2ea40ee63122",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "?Size@?$OrderedList@HUMapNode@?$Map@HPAVHuffmanEncodingTree@@$1??$defaultMapKeyComparison@H@DataStructures@@YAHABH0@Z@DataStructures@@$1?NodeComparisonFunc@23@SAHABHABU123@@Z@DataStructures@@QBEIXZ",
+          "site_rva": 344273,
+          "target_va": 268779088,
+          "kind": 20
+        }
+      ],
+      "new_code_unique_before_other_new_regions": 5
+    },
+    {
+      "unit": "closure_vendor_string_compressor",
+      "section": 53,
+      "rva": 343632,
+      "size": 4,
+      "kind": ".text",
+      "sha256": "f7e0208f5e988ae39c7a45dfddbd12921d02f9c3deb5695d4c534c8ab0ccdb0f",
+      "whole_bytes_equal": true,
+      "bindings": [],
+      "new_code_unique_before_other_new_regions": 4
+    },
+    {
+      "unit": "closure_vendor_string_compressor",
+      "section": 107,
+      "rva": 345744,
+      "size": 112,
+      "kind": ".text",
+      "sha256": "293e93c0fb9ecce91b34b5ca94fb19445695d95f59d105776eb8adb773a263e8",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "__ehhandler$?AddReference@StringCompressor@@SAXXZ",
+          "site_rva": 345747,
+          "target_va": 269366379,
+          "kind": 6
+        },
+        {
+          "symbol": "__except_list",
+          "site_rva": 345753,
+          "target_va": 0,
+          "kind": 6
+        },
+        {
+          "symbol": "__except_list",
+          "site_rva": 345761,
+          "target_va": 0,
+          "kind": 6
+        },
+        {
+          "symbol": "?referenceCount@StringCompressor@@0HA",
+          "site_rva": 345767,
+          "target_va": 269621824,
+          "kind": 6
+        },
+        {
+          "symbol": "?referenceCount@StringCompressor@@0HA",
+          "site_rva": 345776,
+          "target_va": 269621824,
+          "kind": 6
+        },
+        {
+          "symbol": "??2@YAPAXI@Z",
+          "site_rva": 345785,
+          "target_va": 269247098,
+          "kind": 20
+        },
+        {
+          "symbol": "??0StringCompressor@@AAE@XZ",
+          "site_rva": 345810,
+          "target_va": 268780640,
+          "kind": 20
+        },
+        {
+          "symbol": "?instance@StringCompressor@@0PAV1@A",
+          "site_rva": 345815,
+          "target_va": 269621820,
+          "kind": 6
+        },
+        {
+          "symbol": "__except_list",
+          "site_rva": 345826,
+          "target_va": 0,
+          "kind": 6
+        },
+        {
+          "symbol": "?instance@StringCompressor@@0PAV1@A",
+          "site_rva": 345837,
+          "target_va": 269621820,
+          "kind": 6
+        },
+        {
+          "symbol": "__except_list",
+          "site_rva": 345848,
+          "target_va": 0,
+          "kind": 6
+        }
+      ],
+      "new_code_unique_before_other_new_regions": 112
+    },
+    {
+      "unit": "closure_vendor_string_compressor",
+      "section": 96,
+      "rva": 345184,
+      "size": 163,
+      "kind": ".text",
+      "sha256": "0a38010660436355acb12b7539f042add08be9fa55350f4cb22a2f895eb5d78f",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "__ehhandler$??0StringCompressor@@AAE@XZ",
+          "site_rva": 345187,
+          "target_va": 269366291,
+          "kind": 6
+        },
+        {
+          "symbol": "__except_list",
+          "site_rva": 345193,
+          "target_va": 0,
+          "kind": 6
+        },
+        {
+          "symbol": "__except_list",
+          "site_rva": 345201,
+          "target_va": 0,
+          "kind": 6
+        },
+        {
+          "symbol": "??0?$Map@HPAVHuffmanEncodingTree@@$1??$defaultMapKeyComparison@H@DataStructures@@YAHABH0@Z@DataStructures@@QAE@XZ",
+          "site_rva": 345217,
+          "target_va": 268780384,
+          "kind": 20
+        },
+        {
+          "symbol": "??$defaultMapKeyComparison@H@DataStructures@@YAHABH0@Z",
+          "site_rva": 345246,
+          "target_va": 268778560,
+          "kind": 20
+        },
+        {
+          "symbol": "??2@YAPAXI@Z",
+          "site_rva": 345256,
+          "target_va": 269247098,
+          "kind": 20
+        },
+        {
+          "symbol": "??0HuffmanEncodingTree@@QAE@XZ",
+          "site_rva": 345279,
+          "target_va": 268592992,
+          "kind": 20
+        },
+        {
+          "symbol": "?englishCharacterFrequencies@@3PAIA",
+          "site_rva": 345288,
+          "target_va": 269491688,
+          "kind": 6
+        },
+        {
+          "symbol": "?GenerateFromFrequencyTable@HuffmanEncodingTree@@QAEXQAI@Z",
+          "site_rva": 345303,
+          "target_va": 268595136,
+          "kind": 20
+        },
+        {
+          "symbol": "?Set@?$Map@HPAVHuffmanEncodingTree@@$1??$defaultMapKeyComparison@H@DataStructures@@YAHABH0@Z@DataStructures@@QAEXABHABQAVHuffmanEncodingTree@@@Z",
+          "site_rva": 345324,
+          "target_va": 268780480,
+          "kind": 20
+        },
+        {
+          "symbol": "__except_list",
+          "site_rva": 345339,
+          "target_va": 0,
+          "kind": 6
+        }
+      ],
+      "new_code_unique_before_other_new_regions": 163
+    },
+    {
+      "unit": "closure_vendor_string_compressor",
+      "section": 94,
+      "rva": 345024,
+      "size": 153,
+      "kind": ".text",
+      "sha256": "c3b18c6162ab44fb681afa00f9631cb591ccffc2d6fbad1e8265a3e00b632dcb",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "?HasSavedSearchResult@?$Map@HPAVHuffmanEncodingTree@@$1??$defaultMapKeyComparison@H@DataStructures@@YAHABH0@Z@DataStructures@@IBE_NABH@Z",
+          "site_rva": 345037,
+          "target_va": 268778656,
+          "kind": 20
+        },
+        {
+          "symbol": "??A?$OrderedList@HUMapNode@?$Map@HPAVHuffmanEncodingTree@@$1??$defaultMapKeyComparison@H@DataStructures@@YAHABH0@Z@DataStructures@@$1?NodeComparisonFunc@23@SAHABHABU123@@Z@DataStructures@@QBEAAUMapNode@?$Map@HPAVHuffmanEncodingTree@@$1??$defaultMapKeyComparison@H@DataStructures@@YAHABH0@Z@1@I@Z",
+          "site_rva": 345052,
+          "target_va": 268779072,
+          "kind": 20
+        },
+        {
+          "symbol": "?GetIndexFromKey@?$OrderedList@HUMapNode@?$Map@HPAVHuffmanEncodingTree@@$1??$defaultMapKeyComparison@H@DataStructures@@YAHABH0@Z@DataStructures@@$1?NodeComparisonFunc@23@SAHABHABU123@@Z@DataStructures@@QBEIABHPA_N@Z",
+          "site_rva": 345081,
+          "target_va": 268778928,
+          "kind": 20
+        },
+        {
+          "symbol": "?SaveLastSearch@?$Map@HPAVHuffmanEncodingTree@@$1??$defaultMapKeyComparison@H@DataStructures@@YAHABH0@Z@DataStructures@@IAEXABHI@Z",
+          "site_rva": 345100,
+          "target_va": 268778624,
+          "kind": 20
+        },
+        {
+          "symbol": "??A?$OrderedList@HUMapNode@?$Map@HPAVHuffmanEncodingTree@@$1??$defaultMapKeyComparison@H@DataStructures@@YAHABH0@Z@DataStructures@@$1?NodeComparisonFunc@23@SAHABHABU123@@Z@DataStructures@@QBEAAUMapNode@?$Map@HPAVHuffmanEncodingTree@@$1??$defaultMapKeyComparison@H@DataStructures@@YAHABH0@Z@1@I@Z",
+          "site_rva": 345108,
+          "target_va": 268779072,
+          "kind": 20
+        },
+        {
+          "symbol": "?Insert@?$OrderedList@HUMapNode@?$Map@HPAVHuffmanEncodingTree@@$1??$defaultMapKeyComparison@H@DataStructures@@YAHABH0@Z@DataStructures@@$1?NodeComparisonFunc@23@SAHABHABU123@@Z@DataStructures@@QAEIABHABUMapNode@?$Map@HPAVHuffmanEncodingTree@@$1??$defaultMapKeyComparison@H@DataStructures@@YAHABH0@Z@2@@Z",
+          "site_rva": 345155,
+          "target_va": 268779840,
+          "kind": 20
+        },
+        {
+          "symbol": "?SaveLastSearch@?$Map@HPAVHuffmanEncodingTree@@$1??$defaultMapKeyComparison@H@DataStructures@@YAHABH0@Z@DataStructures@@IAEXABHI@Z",
+          "site_rva": 345164,
+          "target_va": 268778624,
+          "kind": 20
+        }
+      ],
+      "new_code_unique_before_other_new_regions": 153
+    },
+    {
+      "unit": "closure_vendor_string_compressor",
+      "section": 80,
+      "rva": 344384,
+      "size": 95,
+      "kind": ".text",
+      "sha256": "2bc411e2d186e6c0a0a89eb77b4e7c15e11b8314f2c19bf190a219f8b0919240",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "?GetIndexFromKey@?$OrderedList@HUMapNode@?$Map@HPAVHuffmanEncodingTree@@$1??$defaultMapKeyComparison@H@DataStructures@@YAHABH0@Z@DataStructures@@$1?NodeComparisonFunc@23@SAHABHABU123@@Z@DataStructures@@QBEIABHPA_N@Z",
+          "site_rva": 344401,
+          "target_va": 268778928,
+          "kind": 20
+        },
+        {
+          "symbol": "?Insert@?$List@UMapNode@?$Map@HPAVHuffmanEncodingTree@@$1??$defaultMapKeyComparison@H@DataStructures@@YAHABH0@Z@DataStructures@@@DataStructures@@QAEXUMapNode@?$Map@HPAVHuffmanEncodingTree@@$1??$defaultMapKeyComparison@H@DataStructures@@YAHABH0@Z@2@@Z",
+          "site_rva": 344444,
+          "target_va": 268779120,
+          "kind": 20
+        },
+        {
+          "symbol": "?Insert@?$List@UMapNode@?$Map@HPAVHuffmanEncodingTree@@$1??$defaultMapKeyComparison@H@DataStructures@@YAHABH0@Z@DataStructures@@@DataStructures@@QAEXUMapNode@?$Map@HPAVHuffmanEncodingTree@@$1??$defaultMapKeyComparison@H@DataStructures@@YAHABH0@Z@2@I@Z",
+          "site_rva": 344468,
+          "target_va": 268779328,
+          "kind": 20
+        }
+      ],
+      "new_code_unique_before_other_new_regions": 95
+    },
+    {
+      "unit": "closure_vendor_string_compressor",
+      "section": 62,
+      "rva": 343872,
+      "size": 226,
+      "kind": ".text",
+      "sha256": "fc4510360295155168dbceb88889e483c578b0c2a8479015620260458f384616",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "__ehhandler$?Insert@?$List@UMapNode@?$Map@HPAVHuffmanEncodingTree@@$1??$defaultMapKeyComparison@H@DataStructures@@YAHABH0@Z@DataStructures@@@DataStructures@@QAEXUMapNode@?$Map@HPAVHuffmanEncodingTree@@$1??$defaultMapKeyComparison@H@DataStructures@@YAHABH0@Z@2@I@Z",
+          "site_rva": 343875,
+          "target_va": 269366155,
+          "kind": 6
+        },
+        {
+          "symbol": "__except_list",
+          "site_rva": 343881,
+          "target_va": 0,
+          "kind": 6
+        },
+        {
+          "symbol": "__except_list",
+          "site_rva": 343889,
+          "target_va": 0,
+          "kind": 6
+        },
+        {
+          "symbol": "??2@YAPAXI@Z",
+          "site_rva": 343940,
+          "target_va": 269247098,
+          "kind": 20
+        },
+        {
+          "symbol": "??0MapNode@?$Map@HPAVHuffmanEncodingTree@@$1??$defaultMapKeyComparison@H@DataStructures@@YAHABH0@Z@DataStructures@@QAE@XZ",
+          "site_rva": 343962,
+          "target_va": 268778800,
+          "kind": 6
+        },
+        {
+          "symbol": "??_H@YGXPAXIHP6EPAX0@Z@Z",
+          "site_rva": 343971,
+          "target_va": 268619232,
+          "kind": 20
+        },
+        {
+          "symbol": "??3@YAXPAX@Z",
+          "site_rva": 344013,
+          "target_va": 269247626,
+          "kind": 20
+        },
+        {
+          "symbol": "_memmove",
+          "site_rva": 344048,
+          "target_va": 269250016,
+          "kind": 20
+        },
+        {
+          "symbol": "__except_list",
+          "site_rva": 344088,
+          "target_va": 0,
+          "kind": 6
+        }
+      ],
+      "new_code_unique_before_other_new_regions": 226
+    },
+    {
+      "unit": "closure_vendor_string_compressor",
+      "section": 37,
+      "rva": 183776,
+      "size": 48,
+      "kind": ".text",
+      "sha256": "10326531db91f3b5a10ad875d2e6ea19bf6d71e1e1cb0cbdd0e648226c7e8480",
+      "whole_bytes_equal": true,
+      "bindings": [],
+      "new_code_unique_before_other_new_regions": 0
+    },
+    {
+      "unit": "closure_vendor_string_compressor",
+      "section": 39,
+      "rva": 343344,
+      "size": 3,
+      "kind": ".text",
+      "sha256": "58367ffa2a0179375018fa0f5c26da24391e42ebe0ed8fdda35a21fc7bdc396f",
+      "whole_bytes_equal": true,
+      "bindings": [],
+      "new_code_unique_before_other_new_regions": 3
+    },
+    {
+      "unit": "closure_vendor_string_compressor",
+      "section": 57,
+      "rva": 343664,
+      "size": 198,
+      "kind": ".text",
+      "sha256": "e61d9391585d5df25127ffdbc12657ee9fbf429acbc6a25b69bace66cad710a7",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "__ehhandler$?Insert@?$List@UMapNode@?$Map@HPAVHuffmanEncodingTree@@$1??$defaultMapKeyComparison@H@DataStructures@@YAHABH0@Z@DataStructures@@@DataStructures@@QAEXUMapNode@?$Map@HPAVHuffmanEncodingTree@@$1??$defaultMapKeyComparison@H@DataStructures@@YAHABH0@Z@2@@Z",
+          "site_rva": 343667,
+          "target_va": 269366123,
+          "kind": 6
+        },
+        {
+          "symbol": "__except_list",
+          "site_rva": 343673,
+          "target_va": 0,
+          "kind": 6
+        },
+        {
+          "symbol": "__except_list",
+          "site_rva": 343681,
+          "target_va": 0,
+          "kind": 6
+        },
+        {
+          "symbol": "??2@YAPAXI@Z",
+          "site_rva": 343732,
+          "target_va": 269247098,
+          "kind": 20
+        },
+        {
+          "symbol": "??0MapNode@?$Map@HPAVHuffmanEncodingTree@@$1??$defaultMapKeyComparison@H@DataStructures@@YAHABH0@Z@DataStructures@@QAE@XZ",
+          "site_rva": 343754,
+          "target_va": 268778800,
+          "kind": 6
+        },
+        {
+          "symbol": "??_H@YGXPAXIHP6EPAX0@Z@Z",
+          "site_rva": 343763,
+          "target_va": 268619232,
+          "kind": 20
+        },
+        {
+          "symbol": "??3@YAXPAX@Z",
+          "site_rva": 343805,
+          "target_va": 269247626,
+          "kind": 20
+        },
+        {
+          "symbol": "__except_list",
+          "site_rva": 343852,
+          "target_va": 0,
+          "kind": 6
+        }
+      ],
+      "new_code_unique_before_other_new_regions": 198
+    },
+    {
+      "unit": "closure_vendor_string_compressor",
+      "section": 49,
+      "rva": 343472,
+      "size": 141,
+      "kind": ".text",
+      "sha256": "de21d3db9d3f064720b9ac45d8f2d47746e0a211a7a096406f1896f3ff689310",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "??$defaultMapKeyComparison@H@DataStructures@@YAHABH0@Z",
+          "site_rva": 343522,
+          "target_va": 268778560,
+          "kind": 20
+        },
+        {
+          "symbol": "??$defaultMapKeyComparison@H@DataStructures@@YAHABH0@Z",
+          "site_rva": 343570,
+          "target_va": 268778560,
+          "kind": 20
+        }
+      ],
+      "new_code_unique_before_other_new_regions": 141
+    },
+    {
+      "unit": "closure_vendor_string_compressor",
+      "section": 15,
+      "rva": 343104,
+      "size": 30,
+      "kind": ".text",
+      "sha256": "7788c172be6b78cadd7f8bfc3cf32c7aadc6dd77dc9980162696b4deccd3259c",
+      "whole_bytes_equal": true,
+      "bindings": [],
+      "new_code_unique_before_other_new_regions": 0
+    },
+    {
+      "unit": "closure_vendor_string_compressor",
+      "section": 23,
+      "rva": 343168,
+      "size": 23,
+      "kind": ".text",
+      "sha256": "1ee6c94693cf4ed27f6765ea50e83b974b249558ed1247c8cfa5b0bb095d8a17",
+      "whole_bytes_equal": true,
+      "bindings": [],
+      "new_code_unique_before_other_new_regions": 23
+    },
+    {
+      "unit": "closure_vendor_string_compressor",
+      "section": 25,
+      "rva": 343200,
+      "size": 41,
+      "kind": ".text",
+      "sha256": "5b7b1e00e025fcad590b3978365f3c4dda530a1d7b53f08f5aa58e2948a8e499",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "??$defaultMapKeyComparison@H@DataStructures@@YAHABH0@Z",
+          "site_rva": 343217,
+          "target_va": 268778560,
+          "kind": 20
+        }
+      ],
+      "new_code_unique_before_other_new_regions": 41
+    },
+    {
+      "unit": "closure_vendor_string_compressor",
+      "section": 88,
+      "rva": 344928,
+      "size": 16,
+      "kind": ".text",
+      "sha256": "052b6c1c832ecdf4922649948f2db20833a16970a9e0dfd865a3eeb50a0066d8",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "??0?$OrderedList@HUMapNode@?$Map@HPAVHuffmanEncodingTree@@$1??$defaultMapKeyComparison@H@DataStructures@@YAHABH0@Z@DataStructures@@$1?NodeComparisonFunc@23@SAHABHABU123@@Z@DataStructures@@QAE@XZ",
+          "site_rva": 344932,
+          "target_va": 268778912,
+          "kind": 20
+        }
+      ],
+      "new_code_unique_before_other_new_regions": 16
+    },
+    {
+      "unit": "closure_vendor_string_compressor",
+      "section": 47,
+      "rva": 343456,
+      "size": 12,
+      "kind": ".text",
+      "sha256": "cc4c0ac7f59822377cb585665886f897b5d459afbf253ee8c782f475e73c9ce6",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "??0?$List@UMapNode@?$Map@HPAVHuffmanEncodingTree@@$1??$defaultMapKeyComparison@H@DataStructures@@YAHABH0@Z@DataStructures@@@DataStructures@@QAE@XZ",
+          "site_rva": 343460,
+          "target_va": 268778720,
+          "kind": 20
+        }
+      ],
+      "new_code_unique_before_other_new_regions": 12
+    },
+    {
+      "unit": "closure_vendor_string_compressor",
+      "section": 29,
+      "rva": 343264,
+      "size": 13,
+      "kind": ".text",
+      "sha256": "efaddf6f7c64b7d0dd7d70e04563c88df5b21978a063a338954e28cc09d4e5e9",
+      "whole_bytes_equal": true,
+      "bindings": [],
+      "new_code_unique_before_other_new_regions": 13
+    },
+    {
+      "unit": "closure_vendor_string_compressor",
+      "section": 100,
+      "rva": 345360,
+      "size": 241,
+      "kind": ".text",
+      "sha256": "87892b7bb1d824bc052fe211f55491698837e9825ae0e854de4ff28d25bb975b",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "__ehhandler$?GenerateTreeFromStrings@StringCompressor@@QAEXPAEIH@Z",
+          "site_rva": 345369,
+          "target_va": 269366318,
+          "kind": 6
+        },
+        {
+          "symbol": "__except_list",
+          "site_rva": 345375,
+          "target_va": 0,
+          "kind": 6
+        },
+        {
+          "symbol": "__except_list",
+          "site_rva": 345383,
+          "target_va": 0,
+          "kind": 6
+        },
+        {
+          "symbol": "?Has@?$Map@HPAVHuffmanEncodingTree@@$1??$defaultMapKeyComparison@H@DataStructures@@YAHABH0@Z@DataStructures@@QAE_NABH@Z",
+          "site_rva": 345403,
+          "target_va": 268779648,
+          "kind": 20
+        },
+        {
+          "symbol": "?Get@?$Map@HPAVHuffmanEncodingTree@@$1??$defaultMapKeyComparison@H@DataStructures@@YAHABH0@Z@DataStructures@@QAEAAPAVHuffmanEncodingTree@@ABH@Z",
+          "site_rva": 345418,
+          "target_va": 268779568,
+          "kind": 20
+        },
+        {
+          "symbol": "??1HuffmanEncodingTree@@QAE@XZ",
+          "site_rva": 345431,
+          "target_va": 268595104,
+          "kind": 20
+        },
+        {
+          "symbol": "??3@YAXPAX@Z",
+          "site_rva": 345437,
+          "target_va": 269247626,
+          "kind": 20
+        },
+        {
+          "symbol": "??2@YAPAXI@Z",
+          "site_rva": 345498,
+          "target_va": 269247098,
+          "kind": 20
+        },
+        {
+          "symbol": "??0HuffmanEncodingTree@@QAE@XZ",
+          "site_rva": 345527,
+          "target_va": 268592992,
+          "kind": 20
+        },
+        {
+          "symbol": "?GenerateFromFrequencyTable@HuffmanEncodingTree@@QAEXQAI@Z",
+          "site_rva": 345558,
+          "target_va": 268595136,
+          "kind": 20
+        },
+        {
+          "symbol": "?Set@?$Map@HPAVHuffmanEncodingTree@@$1??$defaultMapKeyComparison@H@DataStructures@@YAHABH0@Z@DataStructures@@QAEXABHABQAVHuffmanEncodingTree@@@Z",
+          "site_rva": 345574,
+          "target_va": 268780480,
+          "kind": 20
+        },
+        {
+          "symbol": "__except_list",
+          "site_rva": 345590,
+          "target_va": 0,
+          "kind": 6
+        }
+      ],
+      "new_code_unique_before_other_new_regions": 241
+    },
+    {
+      "unit": "closure_vendor_string_compressor",
+      "section": 66,
+      "rva": 344112,
+      "size": 79,
+      "kind": ".text",
+      "sha256": "a2be47bd775dbe1d6954bd9b83dddceb782d4fa2396a8549faae92e3e41be18e",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "?HasSavedSearchResult@?$Map@HPAVHuffmanEncodingTree@@$1??$defaultMapKeyComparison@H@DataStructures@@YAHABH0@Z@DataStructures@@IBE_NABH@Z",
+          "site_rva": 344122,
+          "target_va": 268778656,
+          "kind": 20
+        },
+        {
+          "symbol": "??A?$OrderedList@HUMapNode@?$Map@HPAVHuffmanEncodingTree@@$1??$defaultMapKeyComparison@H@DataStructures@@YAHABH0@Z@DataStructures@@$1?NodeComparisonFunc@23@SAHABHABU123@@Z@DataStructures@@QBEAAUMapNode@?$Map@HPAVHuffmanEncodingTree@@$1??$defaultMapKeyComparison@H@DataStructures@@YAHABH0@Z@1@I@Z",
+          "site_rva": 344137,
+          "target_va": 268779072,
+          "kind": 20
+        },
+        {
+          "symbol": "?GetIndexFromKey@?$OrderedList@HUMapNode@?$Map@HPAVHuffmanEncodingTree@@$1??$defaultMapKeyComparison@H@DataStructures@@YAHABH0@Z@DataStructures@@$1?NodeComparisonFunc@23@SAHABHABU123@@Z@DataStructures@@QBEIABHPA_N@Z",
+          "site_rva": 344159,
+          "target_va": 268778928,
+          "kind": 20
+        },
+        {
+          "symbol": "?SaveLastSearch@?$Map@HPAVHuffmanEncodingTree@@$1??$defaultMapKeyComparison@H@DataStructures@@YAHABH0@Z@DataStructures@@IAEXABHI@Z",
+          "site_rva": 344170,
+          "target_va": 268778624,
+          "kind": 20
+        },
+        {
+          "symbol": "??A?$OrderedList@HUMapNode@?$Map@HPAVHuffmanEncodingTree@@$1??$defaultMapKeyComparison@H@DataStructures@@YAHABH0@Z@DataStructures@@$1?NodeComparisonFunc@23@SAHABHABU123@@Z@DataStructures@@QBEAAUMapNode@?$Map@HPAVHuffmanEncodingTree@@$1??$defaultMapKeyComparison@H@DataStructures@@YAHABH0@Z@1@I@Z",
+          "site_rva": 344178,
+          "target_va": 268779072,
+          "kind": 20
+        }
+      ],
+      "new_code_unique_before_other_new_regions": 79
+    },
+    {
+      "unit": "closure_vendor_string_compressor",
+      "section": 68,
+      "rva": 344192,
+      "size": 64,
+      "kind": ".text",
+      "sha256": "539a4c532ce921e67e79cec04f3f9cc7f939e8f79389321291d5ad7295f8e1a9",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "?HasSavedSearchResult@?$Map@HPAVHuffmanEncodingTree@@$1??$defaultMapKeyComparison@H@DataStructures@@YAHABH0@Z@DataStructures@@IBE_NABH@Z",
+          "site_rva": 344202,
+          "target_va": 268778656,
+          "kind": 20
+        },
+        {
+          "symbol": "?GetIndexFromKey@?$OrderedList@HUMapNode@?$Map@HPAVHuffmanEncodingTree@@$1??$defaultMapKeyComparison@H@DataStructures@@YAHABH0@Z@DataStructures@@$1?NodeComparisonFunc@23@SAHABHABU123@@Z@DataStructures@@QBEIABHPA_N@Z",
+          "site_rva": 344227,
+          "target_va": 268778928,
+          "kind": 20
+        },
+        {
+          "symbol": "?SaveLastSearch@?$Map@HPAVHuffmanEncodingTree@@$1??$defaultMapKeyComparison@H@DataStructures@@YAHABH0@Z@DataStructures@@IAEXABHI@Z",
+          "site_rva": 344244,
+          "target_va": 268778624,
+          "kind": 20
+        }
+      ],
+      "new_code_unique_before_other_new_regions": 64
+    },
+    {
+      "unit": "closure_vendor_string_compressor",
+      "section": 86,
+      "rva": 344784,
+      "size": 144,
+      "kind": ".text",
+      "sha256": "35c0c0478cf386a817a1b7933a567837b9f6897717fc11abc1a93035671b3d23",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "?Has@?$Map@HPAVHuffmanEncodingTree@@$1??$defaultMapKeyComparison@H@DataStructures@@YAHABH0@Z@DataStructures@@QAE_NABH@Z",
+          "site_rva": 344793,
+          "target_va": 268779648,
+          "kind": 20
+        },
+        {
+          "symbol": "?Get@?$Map@HPAVHuffmanEncodingTree@@$1??$defaultMapKeyComparison@H@DataStructures@@YAHABH0@Z@DataStructures@@QAEAAPAVHuffmanEncodingTree@@ABH@Z",
+          "site_rva": 344815,
+          "target_va": 268779568,
+          "kind": 20
+        },
+        {
+          "symbol": "?ReadCompressed@BitStream@RakNet@@AAE_NPAEH_N@Z",
+          "site_rva": 344844,
+          "target_va": 268565104,
+          "kind": 20
+        },
+        {
+          "symbol": "?DecodeArray@HuffmanEncodingTree@@QAEIPAVBitStream@RakNet@@IIPAE@Z",
+          "site_rva": 344893,
+          "target_va": 268593008,
+          "kind": 20
+        }
+      ],
+      "new_code_unique_before_other_new_regions": 144
+    },
+    {
+      "unit": "closure_vendor_string_compressor",
+      "section": 82,
+      "rva": 344480,
+      "size": 296,
+      "kind": ".text",
+      "sha256": "a3119a47324436fe0e3c3ea2d016efdf75e5100be9f5b368c13e7ce991e2758e",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "__except_list",
+          "site_rva": 344482,
+          "target_va": 0,
+          "kind": 6
+        },
+        {
+          "symbol": "__ehhandler$?EncodeString@StringCompressor@@QAEXPBDHPAVBitStream@RakNet@@H@Z",
+          "site_rva": 344489,
+          "target_va": 269366219,
+          "kind": 6
+        },
+        {
+          "symbol": "__except_list",
+          "site_rva": 344497,
+          "target_va": 0,
+          "kind": 6
+        },
+        {
+          "symbol": "?Has@?$Map@HPAVHuffmanEncodingTree@@$1??$defaultMapKeyComparison@H@DataStructures@@YAHABH0@Z@DataStructures@@QAE_NABH@Z",
+          "site_rva": 344519,
+          "target_va": 268779648,
+          "kind": 20
+        },
+        {
+          "symbol": "?Get@?$Map@HPAVHuffmanEncodingTree@@$1??$defaultMapKeyComparison@H@DataStructures@@YAHABH0@Z@DataStructures@@QAEAAPAVHuffmanEncodingTree@@ABH@Z",
+          "site_rva": 344543,
+          "target_va": 268779568,
+          "kind": 20
+        },
+        {
+          "symbol": "?WriteCompressed@BitStream@RakNet@@AAEXPBEH_N@Z",
+          "site_rva": 344581,
+          "target_va": 268566832,
+          "kind": 20
+        },
+        {
+          "symbol": "??0BitStream@RakNet@@QAE@XZ",
+          "site_rva": 344596,
+          "target_va": 268564272,
+          "kind": 20
+        },
+        {
+          "symbol": "?EncodeArray@HuffmanEncodingTree@@QAEXPAEIPAVBitStream@RakNet@@@Z",
+          "site_rva": 344675,
+          "target_va": 268594688,
+          "kind": 20
+        },
+        {
+          "symbol": "?WriteCompressed@BitStream@RakNet@@AAEXPBEH_N@Z",
+          "site_rva": 344708,
+          "target_va": 268566832,
+          "kind": 20
+        },
+        {
+          "symbol": "?WriteBits@BitStream@RakNet@@QAEXPBEH_N@Z",
+          "site_rva": 344726,
+          "target_va": 268566496,
+          "kind": 20
+        },
+        {
+          "symbol": "??1BitStream@RakNet@@QAE@XZ",
+          "site_rva": 344746,
+          "target_va": 268564688,
+          "kind": 20
+        },
+        {
+          "symbol": "__except_list",
+          "site_rva": 344763,
+          "target_va": 0,
+          "kind": 6
+        }
+      ],
+      "new_code_unique_before_other_new_regions": 296
+    },
+    {
+      "unit": "closure_vendor_string_compressor",
+      "section": 11,
+      "rva": 343088,
+      "size": 6,
+      "kind": ".text",
+      "sha256": "8bf4c3bb9911eac084c4af60ba8de5a560dfb77804a7c0174a3d3ee6aa114d04",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "?instance@StringCompressor@@0PAV1@A",
+          "site_rva": 343089,
+          "target_va": 269621820,
+          "kind": 6
+        }
+      ],
+      "new_code_unique_before_other_new_regions": 6
+    },
+    {
+      "unit": "closure_vendor_string_compressor",
+      "section": 104,
+      "rva": 930880,
+      "size": 18,
+      "kind": ".text$x",
+      "sha256": "3036d6bedf79c8ab9816494f79c1c624d7db2b6c546d81522fc5c9119ae978d2",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "??1?$Map@HPAVHuffmanEncodingTree@@$1??$defaultMapKeyComparison@H@DataStructures@@YAHABH0@Z@DataStructures@@QAE@XZ",
+          "site_rva": 930884,
+          "target_va": 268780400,
+          "kind": 20
+        },
+        {
+          "symbol": "$T3478",
+          "site_rva": 930889,
+          "target_va": 269463936,
+          "kind": 6
+        },
+        {
+          "symbol": "___CxxFrameHandler",
+          "site_rva": 930894,
+          "target_va": 269247782,
+          "kind": 20
+        }
+      ],
+      "new_code_unique_before_other_new_regions": 18
+    },
+    {
+      "unit": "closure_vendor_string_compressor",
+      "section": 91,
+      "rva": 930784,
+      "size": 18,
+      "kind": ".text$x",
+      "sha256": "b021fc1494c52fb64b9b1d1989cd7f41d9767bcd0d27b90d7b9422090c3a746e",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "??1?$OrderedList@HUMapNode@?$Map@HPAVHuffmanEncodingTree@@$1??$defaultMapKeyComparison@H@DataStructures@@YAHABH0@Z@DataStructures@@$1?NodeComparisonFunc@23@SAHABHABU123@@Z@DataStructures@@QAE@XZ",
+          "site_rva": 930788,
+          "target_va": 268779760,
+          "kind": 20
+        },
+        {
+          "symbol": "$T3407",
+          "site_rva": 930793,
+          "target_va": 269463820,
+          "kind": 6
+        },
+        {
+          "symbol": "___CxxFrameHandler",
+          "site_rva": 930798,
+          "target_va": 269247782,
+          "kind": 20
+        }
+      ],
+      "new_code_unique_before_other_new_regions": 0
+    },
+    {
+      "unit": "closure_vendor_string_compressor",
+      "section": 77,
+      "rva": 930720,
+      "size": 18,
+      "kind": ".text$x",
+      "sha256": "eb299854d6f81993063c79f345d12c1fd3fca75bc5697e1ac2b3c115764aa056",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "??1?$List@UMapNode@?$Map@HPAVHuffmanEncodingTree@@$1??$defaultMapKeyComparison@H@DataStructures@@YAHABH0@Z@DataStructures@@@DataStructures@@QAE@XZ",
+          "site_rva": 930724,
+          "target_va": 268778736,
+          "kind": 20
+        },
+        {
+          "symbol": "$T3335",
+          "site_rva": 930729,
+          "target_va": 269463748,
+          "kind": 6
+        },
+        {
+          "symbol": "___CxxFrameHandler",
+          "site_rva": 930734,
+          "target_va": 269247782,
+          "kind": 20
+        }
+      ],
+      "new_code_unique_before_other_new_regions": 0
+    },
+    {
+      "unit": "closure_vendor_string_compressor",
+      "section": 108,
+      "rva": 930912,
+      "size": 21,
+      "kind": ".text$x",
+      "sha256": "683c5296dbd303440398ee4a68c8ed7cb2150729bab7c93343fe3db030241d8b",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "??3@YAXPAX@Z",
+          "site_rva": 930917,
+          "target_va": 269247626,
+          "kind": 20
+        },
+        {
+          "symbol": "$T3493",
+          "site_rva": 930924,
+          "target_va": 269463972,
+          "kind": 6
+        },
+        {
+          "symbol": "___CxxFrameHandler",
+          "site_rva": 930929,
+          "target_va": 269247782,
+          "kind": 20
+        }
+      ],
+      "new_code_unique_before_other_new_regions": 21
+    },
+    {
+      "unit": "closure_vendor_string_compressor",
+      "section": 97,
+      "rva": 930816,
+      "size": 29,
+      "kind": ".text$x",
+      "sha256": "347f34062af1669fb35edca0daca3ebbed9b32ba51af5b4247ad907a6bbc5f9c",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "??1?$Map@HPAVHuffmanEncodingTree@@$1??$defaultMapKeyComparison@H@DataStructures@@YAHABH0@Z@DataStructures@@QAE@XZ",
+          "site_rva": 930820,
+          "target_va": 268780400,
+          "kind": 20
+        },
+        {
+          "symbol": "??3@YAXPAX@Z",
+          "site_rva": 930829,
+          "target_va": 269247626,
+          "kind": 20
+        },
+        {
+          "symbol": "$T3438",
+          "site_rva": 930836,
+          "target_va": 269463864,
+          "kind": 6
+        },
+        {
+          "symbol": "___CxxFrameHandler",
+          "site_rva": 930841,
+          "target_va": 269247782,
+          "kind": 20
+        }
+      ],
+      "new_code_unique_before_other_new_regions": 29
+    },
+    {
+      "unit": "closure_vendor_string_compressor",
+      "section": 63,
+      "rva": 930688,
+      "size": 21,
+      "kind": ".text$x",
+      "sha256": "abe5d504ece03ff12f508aa14cfb73a40ee3386f686d1fc47c0eef1d21c7e1a4",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "??3@YAXPAX@Z",
+          "site_rva": 930693,
+          "target_va": 269247626,
+          "kind": 20
+        },
+        {
+          "symbol": "$T3314",
+          "site_rva": 930700,
+          "target_va": 269463712,
+          "kind": 6
+        },
+        {
+          "symbol": "___CxxFrameHandler",
+          "site_rva": 930705,
+          "target_va": 269247782,
+          "kind": 20
+        }
+      ],
+      "new_code_unique_before_other_new_regions": 21
+    },
+    {
+      "unit": "closure_vendor_string_compressor",
+      "section": 58,
+      "rva": 930656,
+      "size": 21,
+      "kind": ".text$x",
+      "sha256": "ba23f7d61c659a8ba46d3df291a8936dcb9f880ef35749945dfdfcf271fa17db",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "??3@YAXPAX@Z",
+          "site_rva": 930661,
+          "target_va": 269247626,
+          "kind": 20
+        },
+        {
+          "symbol": "$T3297",
+          "site_rva": 930668,
+          "target_va": 269463676,
+          "kind": 6
+        },
+        {
+          "symbol": "___CxxFrameHandler",
+          "site_rva": 930673,
+          "target_va": 269247782,
+          "kind": 20
+        }
+      ],
+      "new_code_unique_before_other_new_regions": 21
+    },
+    {
+      "unit": "closure_vendor_string_compressor",
+      "section": 101,
+      "rva": 930848,
+      "size": 24,
+      "kind": ".text$x",
+      "sha256": "614c97685ae389e9d8146b4cf3d6bb6bf32ddf0af2ad2563acd1d97c13341402",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "??3@YAXPAX@Z",
+          "site_rva": 930856,
+          "target_va": 269247626,
+          "kind": 20
+        },
+        {
+          "symbol": "$T3459",
+          "site_rva": 930863,
+          "target_va": 269463900,
+          "kind": 6
+        },
+        {
+          "symbol": "___CxxFrameHandler",
+          "site_rva": 930868,
+          "target_va": 269247782,
+          "kind": 20
+        }
+      ],
+      "new_code_unique_before_other_new_regions": 24
+    },
+    {
+      "unit": "closure_vendor_string_compressor",
+      "section": 83,
+      "rva": 930752,
+      "size": 21,
+      "kind": ".text$x",
+      "sha256": "5b342a02e9ec3c0e8b29d5a3373374a8d485f6892f03e47092db853481771cd5",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "??1BitStream@RakNet@@QAE@XZ",
+          "site_rva": 930759,
+          "target_va": 268564688,
+          "kind": 20
+        },
+        {
+          "symbol": "$T3378",
+          "site_rva": 930764,
+          "target_va": 269463784,
+          "kind": 6
+        },
+        {
+          "symbol": "___CxxFrameHandler",
+          "site_rva": 930769,
+          "target_va": 269247782,
+          "kind": 20
+        }
+      ],
+      "new_code_unique_before_other_new_regions": 21
+    },
+    {
+      "unit": "closure_vendor_string_compressor",
+      "section": 105,
+      "rva": 1028472,
+      "size": 36,
+      "kind": ".xdata$x",
+      "sha256": "1335221585dcf9b866a34f9c2a182acd80f59c521e860507307ca6cc5698f576",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "$L3472",
+          "site_rva": 1028476,
+          "target_va": 269366336,
+          "kind": 6
+        },
+        {
+          "symbol": "$T3482",
+          "site_rva": 1028488,
+          "target_va": 269463928,
+          "kind": 6
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_string_compressor",
+      "section": 92,
+      "rva": 1028356,
+      "size": 36,
+      "kind": ".xdata$x",
+      "sha256": "7059ca0cc2660c80c4250e39a781281e2e841ba2e89ecf087c9de24c7b058df5",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "$L3405",
+          "site_rva": 1028360,
+          "target_va": 269366240,
+          "kind": 6
+        },
+        {
+          "symbol": "$T3409",
+          "site_rva": 1028372,
+          "target_va": 269463812,
+          "kind": 6
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_string_compressor",
+      "section": 78,
+      "rva": 1028284,
+      "size": 36,
+      "kind": ".xdata$x",
+      "sha256": "a12ab3ad294192a2edb502f1a687090eff4339c1c452be8a33e511eb26793302",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "$L3333",
+          "site_rva": 1028288,
+          "target_va": 269366176,
+          "kind": 6
+        },
+        {
+          "symbol": "$T3337",
+          "site_rva": 1028300,
+          "target_va": 269463740,
+          "kind": 6
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_string_compressor",
+      "section": 109,
+      "rva": 1028508,
+      "size": 36,
+      "kind": ".xdata$x",
+      "sha256": "4678633e253d55eace6c4671c2b5d49a8f73d2e298cc08813436380b028f570a",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "$L3491",
+          "site_rva": 1028512,
+          "target_va": 269366368,
+          "kind": 6
+        },
+        {
+          "symbol": "$T3495",
+          "site_rva": 1028524,
+          "target_va": 269463964,
+          "kind": 6
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_string_compressor",
+      "section": 98,
+      "rva": 1028392,
+      "size": 44,
+      "kind": ".xdata$x",
+      "sha256": "9ee266c63238b52edddc47f15d91c43178e2d4d6132594afcd71c0ce6f0b84d5",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "$L3428",
+          "site_rva": 1028396,
+          "target_va": 269366272,
+          "kind": 6
+        },
+        {
+          "symbol": "$L3429",
+          "site_rva": 1028404,
+          "target_va": 269366280,
+          "kind": 6
+        },
+        {
+          "symbol": "$T3440",
+          "site_rva": 1028416,
+          "target_va": 269463848,
+          "kind": 6
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_string_compressor",
+      "section": 64,
+      "rva": 1028248,
+      "size": 36,
+      "kind": ".xdata$x",
+      "sha256": "b09e38b15367e7322534f77538cca2a95ec46ed0f4a5abd336c7e1de61a47c42",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "$L3312",
+          "site_rva": 1028252,
+          "target_va": 269366144,
+          "kind": 6
+        },
+        {
+          "symbol": "$T3316",
+          "site_rva": 1028264,
+          "target_va": 269463704,
+          "kind": 6
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_string_compressor",
+      "section": 59,
+      "rva": 1028212,
+      "size": 36,
+      "kind": ".xdata$x",
+      "sha256": "701d31f5122a3c2a8fcced0c5daea4f017263753a295b93680ed7e32f022e20d",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "$L3293",
+          "site_rva": 1028216,
+          "target_va": 269366112,
+          "kind": 6
+        },
+        {
+          "symbol": "$T3300",
+          "site_rva": 1028228,
+          "target_va": 269463668,
+          "kind": 6
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_string_compressor",
+      "section": 102,
+      "rva": 1028436,
+      "size": 36,
+      "kind": ".xdata$x",
+      "sha256": "61468852f4ebabb9c215534b05346a5c88b9931f3592b0ca320ec8974a180379",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "$L3453",
+          "site_rva": 1028440,
+          "target_va": 269366304,
+          "kind": 6
+        },
+        {
+          "symbol": "$T3464",
+          "site_rva": 1028452,
+          "target_va": 269463892,
+          "kind": 6
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_string_compressor",
+      "section": 84,
+      "rva": 1028320,
+      "size": 36,
+      "kind": ".xdata$x",
+      "sha256": "7f3ec488253ea31b8ddad1d144e3dd09bfbac7d7a47d58ff05fe985be53f7216",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "$L3352",
+          "site_rva": 1028324,
+          "target_va": 269366208,
+          "kind": 6
+        },
+        {
+          "symbol": "$T3383",
+          "site_rva": 1028336,
+          "target_va": 269463776,
+          "kind": 6
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_huffman",
+      "section": 62,
+      "rva": 159648,
+      "size": 5,
+      "kind": ".text",
+      "sha256": "f43d94be74a12dacdfa8746d56e13b9f52fdca42bfd1a632d51407e8f8662cda",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "?FreeMemory@HuffmanEncodingTree@@QAEXXZ",
+          "site_rva": 159649,
+          "target_va": 268594368,
+          "kind": 20
+        }
+      ],
+      "new_code_unique_before_other_new_regions": 5
+    },
+    {
+      "unit": "closure_vendor_huffman",
+      "section": 46,
+      "rva": 158912,
+      "size": 306,
+      "kind": ".text",
+      "sha256": "aefb45cea5c9e93d3c495666b048af1a420c9a0a81b992401dd3664561b71676",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "__ehhandler$?FreeMemory@HuffmanEncodingTree@@QAEXXZ",
+          "site_rva": 158915,
+          "target_va": 269360216,
+          "kind": 6
+        },
+        {
+          "symbol": "__except_list",
+          "site_rva": 158921,
+          "target_va": 0,
+          "kind": 6
+        },
+        {
+          "symbol": "__except_list",
+          "site_rva": 158929,
+          "target_va": 0,
+          "kind": 6
+        },
+        {
+          "symbol": "??0?$Queue@PAUHuffmanEncodingTreeNode@@@DataStructures@@QAE@XZ",
+          "site_rva": 158960,
+          "target_va": 268593312,
+          "kind": 20
+        },
+        {
+          "symbol": "?Push@?$Queue@PAUHuffmanEncodingTreeNode@@@DataStructures@@QAEXABQAUHuffmanEncodingTreeNode@@@Z",
+          "site_rva": 158978,
+          "target_va": 268593392,
+          "kind": 20
+        },
+        {
+          "symbol": "?Push@?$Queue@PAUHuffmanEncodingTreeNode@@@DataStructures@@QAEXABQAUHuffmanEncodingTreeNode@@@Z",
+          "site_rva": 159081,
+          "target_va": 268593392,
+          "kind": 20
+        },
+        {
+          "symbol": "?Push@?$Queue@PAUHuffmanEncodingTreeNode@@@DataStructures@@QAEXABQAUHuffmanEncodingTreeNode@@@Z",
+          "site_rva": 159113,
+          "target_va": 268593392,
+          "kind": 20
+        },
+        {
+          "symbol": "??3@YAXPAX@Z",
+          "site_rva": 159131,
+          "target_va": 269247626,
+          "kind": 20
+        },
+        {
+          "symbol": "??3@YAXPAX@Z",
+          "site_rva": 159159,
+          "target_va": 269247626,
+          "kind": 20
+        },
+        {
+          "symbol": "??1?$Queue@PAUHuffmanEncodingTreeNode@@@DataStructures@@QAE@XZ",
+          "site_rva": 159195,
+          "target_va": 268593360,
+          "kind": 20
+        },
+        {
+          "symbol": "__except_list",
+          "site_rva": 159210,
+          "target_va": 0,
+          "kind": 6
+        }
+      ],
+      "new_code_unique_before_other_new_regions": 306
+    },
+    {
+      "unit": "closure_vendor_huffman",
+      "section": 16,
+      "rva": 157904,
+      "size": 17,
+      "kind": ".text",
+      "sha256": "07dcc648b6a6401e1edefd0e15b0a163ab7cd157dc6ce4870b5960f7bf845a10",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "??3@YAXPAX@Z",
+          "site_rva": 157915,
+          "target_va": 269247626,
+          "kind": 20
+        }
+      ],
+      "new_code_unique_before_other_new_regions": 17
+    },
+    {
+      "unit": "closure_vendor_huffman",
+      "section": 18,
+      "rva": 157936,
+      "size": 189,
+      "kind": ".text",
+      "sha256": "d5fe391315971293a5c1557e7eaf96d5c37d317c09dbdeb026a0bdc69f5def22",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "??2@YAPAXI@Z",
+          "site_rva": 157949,
+          "target_va": 269247098,
+          "kind": 20
+        },
+        {
+          "symbol": "??2@YAPAXI@Z",
+          "site_rva": 158046,
+          "target_va": 269247098,
+          "kind": 20
+        },
+        {
+          "symbol": "??3@YAXPAX@Z",
+          "site_rva": 158111,
+          "target_va": 269247626,
+          "kind": 20
+        }
+      ],
+      "new_code_unique_before_other_new_regions": 189
+    },
+    {
+      "unit": "closure_vendor_huffman",
+      "section": 14,
+      "rva": 157856,
+      "size": 34,
+      "kind": ".text",
+      "sha256": "032423842ebe67acff50e21c12f891df88eea562c7c1a9d6caed47aafa318e14",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "??2@YAPAXI@Z",
+          "site_rva": 157869,
+          "target_va": 269247098,
+          "kind": 20
+        }
+      ],
+      "new_code_unique_before_other_new_regions": 34
+    },
+    {
+      "unit": "closure_vendor_huffman",
+      "section": 66,
+      "rva": 159680,
+      "size": 478,
+      "kind": ".text",
+      "sha256": "43d24f4b02d84b818c8c5f46f193d20f777a4105a7c8696611f562de4ce51d41",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "__ehhandler$?GenerateFromFrequencyTable@HuffmanEncodingTree@@QAEXQAI@Z",
+          "site_rva": 159683,
+          "target_va": 269360294,
+          "kind": 6
+        },
+        {
+          "symbol": "__except_list",
+          "site_rva": 159689,
+          "target_va": 0,
+          "kind": 6
+        },
+        {
+          "symbol": "__except_list",
+          "site_rva": 159697,
+          "target_va": 0,
+          "kind": 6
+        },
+        {
+          "symbol": "??0?$CircularLinkedList@PAUHuffmanEncodingTreeNode@@@DataStructures@@QAE@XZ",
+          "site_rva": 159722,
+          "target_va": 268593664,
+          "kind": 20
+        },
+        {
+          "symbol": "?FreeMemory@HuffmanEncodingTree@@QAEXXZ",
+          "site_rva": 159738,
+          "target_va": 268594368,
+          "kind": 20
+        },
+        {
+          "symbol": "??2@YAPAXI@Z",
+          "site_rva": 159763,
+          "target_va": 269247098,
+          "kind": 20
+        },
+        {
+          "symbol": "?InsertNodeIntoSortedList@HuffmanEncodingTree@@ABEXPAUHuffmanEncodingTreeNode@@PAV?$LinkedList@PAUHuffmanEncodingTreeNode@@@DataStructures@@@Z",
+          "site_rva": 159818,
+          "target_va": 268594848,
+          "kind": 20
+        },
+        {
+          "symbol": "?Pop@?$CircularLinkedList@PAUHuffmanEncodingTreeNode@@@DataStructures@@QAEPAUHuffmanEncodingTreeNode@@XZ",
+          "site_rva": 159848,
+          "target_va": 268595008,
+          "kind": 20
+        },
+        {
+          "symbol": "?Pop@?$CircularLinkedList@PAUHuffmanEncodingTreeNode@@@DataStructures@@QAEPAUHuffmanEncodingTreeNode@@XZ",
+          "site_rva": 159859,
+          "target_va": 268595008,
+          "kind": 20
+        },
+        {
+          "symbol": "??2@YAPAXI@Z",
+          "site_rva": 159868,
+          "target_va": 269247098,
+          "kind": 20
+        },
+        {
+          "symbol": "?InsertNodeIntoSortedList@HuffmanEncodingTree@@ABEXPAUHuffmanEncodingTreeNode@@PAV?$LinkedList@PAUHuffmanEncodingTreeNode@@@DataStructures@@@Z",
+          "site_rva": 159913,
+          "target_va": 268594848,
+          "kind": 20
+        },
+        {
+          "symbol": "??0BitStream@RakNet@@QAE@XZ",
+          "site_rva": 159936,
+          "target_va": 268564272,
+          "kind": 20
+        },
+        {
+          "symbol": "?Write1@BitStream@RakNet@@QAEXXZ",
+          "site_rva": 160034,
+          "target_va": 268566320,
+          "kind": 20
+        },
+        {
+          "symbol": "?Write0@BitStream@RakNet@@QAEXXZ",
+          "site_rva": 160041,
+          "target_va": 268566288,
+          "kind": 20
+        },
+        {
+          "symbol": "?CopyData@BitStream@RakNet@@QBEHPAPAE@Z",
+          "site_rva": 160057,
+          "target_va": 268565680,
+          "kind": 20
+        },
+        {
+          "symbol": "?Reset@BitStream@RakNet@@QAEXXZ",
+          "site_rva": 160074,
+          "target_va": 268564720,
+          "kind": 20
+        },
+        {
+          "symbol": "??1BitStream@RakNet@@QAE@XZ",
+          "site_rva": 160107,
+          "target_va": 268564688,
+          "kind": 20
+        },
+        {
+          "symbol": "??1?$LinkedList@PAUHuffmanEncodingTreeNode@@@DataStructures@@QAE@XZ",
+          "site_rva": 160127,
+          "target_va": 268595024,
+          "kind": 20
+        },
+        {
+          "symbol": "__except_list",
+          "site_rva": 160145,
+          "target_va": 0,
+          "kind": 6
+        }
+      ],
+      "new_code_unique_before_other_new_regions": 478
+    },
+    {
+      "unit": "closure_vendor_huffman",
+      "section": 58,
+      "rva": 159568,
+      "size": 73,
+      "kind": ".text",
+      "sha256": "b9813f783f55ce9f49672c5908636f444c231edf15a39a102151600e49842d85",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "__ehhandler$??1?$LinkedList@PAUHuffmanEncodingTreeNode@@@DataStructures@@QAE@XZ",
+          "site_rva": 159571,
+          "target_va": 269360248,
+          "kind": 6
+        },
+        {
+          "symbol": "__except_list",
+          "site_rva": 159577,
+          "target_va": 0,
+          "kind": 6
+        },
+        {
+          "symbol": "__except_list",
+          "site_rva": 159585,
+          "target_va": 0,
+          "kind": 6
+        },
+        {
+          "symbol": "?Clear@?$CircularLinkedList@PAUHuffmanEncodingTreeNode@@@DataStructures@@QAEXXZ",
+          "site_rva": 159606,
+          "target_va": 268594288,
+          "kind": 20
+        },
+        {
+          "symbol": "??1?$CircularLinkedList@PAUHuffmanEncodingTreeNode@@@DataStructures@@QAE@XZ",
+          "site_rva": 159621,
+          "target_va": 268594992,
+          "kind": 20
+        },
+        {
+          "symbol": "__except_list",
+          "site_rva": 159633,
+          "target_va": 0,
+          "kind": 6
+        }
+      ],
+      "new_code_unique_before_other_new_regions": 73
+    },
+    {
+      "unit": "closure_vendor_huffman",
+      "section": 54,
+      "rva": 159536,
+      "size": 5,
+      "kind": ".text",
+      "sha256": "ff68dfa2fe6889e391736ca3cf38d69d79a33671a0dbd356abda2aae64bfb3c2",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "?Clear@?$CircularLinkedList@PAUHuffmanEncodingTreeNode@@@DataStructures@@QAEXXZ",
+          "site_rva": 159537,
+          "target_va": 268594288,
+          "kind": 20
+        }
+      ],
+      "new_code_unique_before_other_new_regions": 5
+    },
+    {
+      "unit": "closure_vendor_huffman",
+      "section": 42,
+      "rva": 158832,
+      "size": 76,
+      "kind": ".text",
+      "sha256": "c2872f36aac32440a35d091e58e95a6a5ae42b1e0d2b71a373ee6f153b2e2447",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "??3@YAXPAX@Z",
+          "site_rva": 158851,
+          "target_va": 269247626,
+          "kind": 20
+        },
+        {
+          "symbol": "??3@YAXPAX@Z",
+          "site_rva": 158871,
+          "target_va": 269247626,
+          "kind": 20
+        }
+      ],
+      "new_code_unique_before_other_new_regions": 76
+    },
+    {
+      "unit": "closure_vendor_huffman",
+      "section": 56,
+      "rva": 159552,
+      "size": 15,
+      "kind": ".text",
+      "sha256": "781497e2f771cb7cc7dbe81de42e2597a31a67d2e5e1d814f3ac105112706d88",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "?Del@?$CircularLinkedList@PAUHuffmanEncodingTreeNode@@@DataStructures@@QAEXXZ",
+          "site_rva": 159559,
+          "target_va": 268594176,
+          "kind": 20
+        }
+      ],
+      "new_code_unique_before_other_new_regions": 15
+    },
+    {
+      "unit": "closure_vendor_huffman",
+      "section": 40,
+      "rva": 158720,
+      "size": 98,
+      "kind": ".text",
+      "sha256": "5ad6f6c47cf2ebc3125f3e034d7d43cbef54ff129ab95c919d79655d493490f7",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "??3@YAXPAX@Z",
+          "site_rva": 158742,
+          "target_va": 269247626,
+          "kind": 20
+        },
+        {
+          "symbol": "??3@YAXPAX@Z",
+          "site_rva": 158800,
+          "target_va": 269247626,
+          "kind": 20
+        }
+      ],
+      "new_code_unique_before_other_new_regions": 98
+    },
+    {
+      "unit": "closure_vendor_huffman",
+      "section": 52,
+      "rva": 159392,
+      "size": 140,
+      "kind": ".text",
+      "sha256": "253944dadecd4e32e3ff672415ce24011da47f4f03404ac6572c8727324d4241",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "?Insert@?$CircularLinkedList@PAUHuffmanEncodingTreeNode@@@DataStructures@@QAEXABQAUHuffmanEncodingTreeNode@@@Z",
+          "site_rva": 159410,
+          "target_va": 268593680,
+          "kind": 20
+        },
+        {
+          "symbol": "??E?$LinkedList@PAUHuffmanEncodingTreeNode@@@DataStructures@@QAEAAV01@XZ",
+          "site_rva": 159459,
+          "target_va": 268594144,
+          "kind": 20
+        },
+        {
+          "symbol": "?Insert@?$CircularLinkedList@PAUHuffmanEncodingTreeNode@@@DataStructures@@QAEXABQAUHuffmanEncodingTreeNode@@@Z",
+          "site_rva": 159491,
+          "target_va": 268593680,
+          "kind": 20
+        },
+        {
+          "symbol": "?Add@?$CircularLinkedList@PAUHuffmanEncodingTreeNode@@@DataStructures@@QAEAAPAUHuffmanEncodingTreeNode@@ABQAU3@@Z",
+          "site_rva": 159522,
+          "target_va": 268593888,
+          "kind": 20
+        }
+      ],
+      "new_code_unique_before_other_new_regions": 140
+    },
+    {
+      "unit": "closure_vendor_huffman",
+      "section": 28,
+      "rva": 158432,
+      "size": 189,
+      "kind": ".text",
+      "sha256": "733d0053ec3143b347f2dfa6e02521e0b86418aee80433b29ef174a8bb8a681d",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "??2@YAPAXI@Z",
+          "site_rva": 158444,
+          "target_va": 269247098,
+          "kind": 20
+        },
+        {
+          "symbol": "??2@YAPAXI@Z",
+          "site_rva": 158496,
+          "target_va": 269247098,
+          "kind": 20
+        },
+        {
+          "symbol": "??2@YAPAXI@Z",
+          "site_rva": 158567,
+          "target_va": 269247098,
+          "kind": 20
+        }
+      ],
+      "new_code_unique_before_other_new_regions": 189
+    },
+    {
+      "unit": "closure_vendor_huffman",
+      "section": 38,
+      "rva": 158688,
+      "size": 22,
+      "kind": ".text",
+      "sha256": "d678ca3a798b1b818b9f821a7ff41d83b2e9e80d08743cfc44f3d0acbbdc775a",
+      "whole_bytes_equal": true,
+      "bindings": [],
+      "new_code_unique_before_other_new_regions": 22
+    },
+    {
+      "unit": "closure_vendor_huffman",
+      "section": 26,
+      "rva": 158224,
+      "size": 202,
+      "kind": ".text",
+      "sha256": "6041fdc88cc9269b5422f8bb73d2782c9558d1eb55f9981ed2bb573af8d716e0",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "??2@YAPAXI@Z",
+          "site_rva": 158236,
+          "target_va": 269247098,
+          "kind": 20
+        },
+        {
+          "symbol": "??2@YAPAXI@Z",
+          "site_rva": 158288,
+          "target_va": 269247098,
+          "kind": 20
+        },
+        {
+          "symbol": "??2@YAPAXI@Z",
+          "site_rva": 158359,
+          "target_va": 269247098,
+          "kind": 20
+        }
+      ],
+      "new_code_unique_before_other_new_regions": 202
+    },
+    {
+      "unit": "closure_vendor_huffman",
+      "section": 24,
+      "rva": 158208,
+      "size": 13,
+      "kind": ".text",
+      "sha256": "32e60104bd8ae8912bcf9632d3717bbb831f19a09c59064e672796b31159c9a4",
+      "whole_bytes_equal": true,
+      "bindings": [],
+      "new_code_unique_before_other_new_regions": 13
+    },
+    {
+      "unit": "closure_vendor_huffman",
+      "section": 5,
+      "rva": 157536,
+      "size": 9,
+      "kind": ".text",
+      "sha256": "cda72abcdbb1efdc80edc8549a889c40e93418986336d31914aa9a2d9e967cc7",
+      "whole_bytes_equal": true,
+      "bindings": [],
+      "new_code_unique_before_other_new_regions": 0
+    },
+    {
+      "unit": "closure_vendor_huffman",
+      "section": 7,
+      "rva": 157552,
+      "size": 96,
+      "kind": ".text",
+      "sha256": "9de64005d94f00d431c51179842049fdf354022aa1dd0285448146daa814a140",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "?ReadBit@BitStream@RakNet@@QAE_NXZ",
+          "site_rva": 157589,
+          "target_va": 268564768,
+          "kind": 20
+        }
+      ],
+      "new_code_unique_before_other_new_regions": 96
+    },
+    {
+      "unit": "closure_vendor_huffman",
+      "section": 50,
+      "rva": 159232,
+      "size": 145,
+      "kind": ".text",
+      "sha256": "f25ff43d129b5f9e8ed721a77718b913251eb709bbf4aa66bc83258a36a69996",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "?WriteBits@BitStream@RakNet@@QAEXPBEH_N@Z",
+          "site_rva": 159280,
+          "target_va": 268566496,
+          "kind": 20
+        },
+        {
+          "symbol": "?WriteBits@BitStream@RakNet@@QAEXPBEH_N@Z",
+          "site_rva": 159367,
+          "target_va": 268566496,
+          "kind": 20
+        }
+      ],
+      "new_code_unique_before_other_new_regions": 145
+    },
+    {
+      "unit": "closure_vendor_huffman",
+      "section": 9,
+      "rva": 157648,
+      "size": 197,
+      "kind": ".text",
+      "sha256": "cef7cd2198c825a9ab8aec3490ee2c55e3f983b5e49c833f9b8de1053c1c000d",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "__except_list",
+          "site_rva": 157650,
+          "target_va": 0,
+          "kind": 6
+        },
+        {
+          "symbol": "__ehhandler$?DecodeArray@HuffmanEncodingTree@@QAEXPAEIPAVBitStream@RakNet@@@Z",
+          "site_rva": 157657,
+          "target_va": 269360187,
+          "kind": 6
+        },
+        {
+          "symbol": "__except_list",
+          "site_rva": 157665,
+          "target_va": 0,
+          "kind": 6
+        },
+        {
+          "symbol": "??0BitStream@RakNet@@QAE@PAEI_N@Z",
+          "site_rva": 157717,
+          "target_va": 268564416,
+          "kind": 20
+        },
+        {
+          "symbol": "?ReadBit@BitStream@RakNet@@QAE_NXZ",
+          "site_rva": 157751,
+          "target_va": 268564768,
+          "kind": 20
+        },
+        {
+          "symbol": "?WriteBits@BitStream@RakNet@@QAEXPBEH_N@Z",
+          "site_rva": 157789,
+          "target_va": 268566496,
+          "kind": 20
+        },
+        {
+          "symbol": "??1BitStream@RakNet@@QAE@XZ",
+          "site_rva": 157815,
+          "target_va": 268564688,
+          "kind": 20
+        },
+        {
+          "symbol": "__except_list",
+          "site_rva": 157832,
+          "target_va": 0,
+          "kind": 6
+        }
+      ],
+      "new_code_unique_before_other_new_regions": 197
+    },
+    {
+      "unit": "closure_vendor_huffman",
+      "section": 47,
+      "rva": 924752,
+      "size": 18,
+      "kind": ".text$x",
+      "sha256": "fb4356c54388d52dd2edf01e40d75d767969085d8ba25e99c98fb6a848148012",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "??1?$Queue@PAUHuffmanEncodingTreeNode@@@DataStructures@@QAE@XZ",
+          "site_rva": 924756,
+          "target_va": 268593360,
+          "kind": 20
+        },
+        {
+          "symbol": "$T2521",
+          "site_rva": 924761,
+          "target_va": 269457464,
+          "kind": 6
+        },
+        {
+          "symbol": "___CxxFrameHandler",
+          "site_rva": 924766,
+          "target_va": 269247782,
+          "kind": 20
+        }
+      ],
+      "new_code_unique_before_other_new_regions": 18
+    },
+    {
+      "unit": "closure_vendor_huffman",
+      "section": 67,
+      "rva": 924816,
+      "size": 32,
+      "kind": ".text$x",
+      "sha256": "5bc6de9ef80668771c52683459a91065f8ed2d1b50b4d2dfde2628f14372c06d",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "??1?$LinkedList@PAUHuffmanEncodingTreeNode@@@DataStructures@@QAE@XZ",
+          "site_rva": 924823,
+          "target_va": 268595024,
+          "kind": 20
+        },
+        {
+          "symbol": "??1BitStream@RakNet@@QAE@XZ",
+          "site_rva": 924834,
+          "target_va": 268564688,
+          "kind": 20
+        },
+        {
+          "symbol": "$T2622",
+          "site_rva": 924839,
+          "target_va": 269457544,
+          "kind": 6
+        },
+        {
+          "symbol": "___CxxFrameHandler",
+          "site_rva": 924844,
+          "target_va": 269247782,
+          "kind": 20
+        }
+      ],
+      "new_code_unique_before_other_new_regions": 32
+    },
+    {
+      "unit": "closure_vendor_huffman",
+      "section": 59,
+      "rva": 924784,
+      "size": 18,
+      "kind": ".text$x",
+      "sha256": "cc44d2d7c90636c33cbcc2f738398104fbe9609aca1efc0e4a1c805762e0d445",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "??1?$CircularLinkedList@PAUHuffmanEncodingTreeNode@@@DataStructures@@QAE@XZ",
+          "site_rva": 924788,
+          "target_va": 268594992,
+          "kind": 20
+        },
+        {
+          "symbol": "$T2595",
+          "site_rva": 924793,
+          "target_va": 269457500,
+          "kind": 6
+        },
+        {
+          "symbol": "___CxxFrameHandler",
+          "site_rva": 924798,
+          "target_va": 269247782,
+          "kind": 20
+        }
+      ],
+      "new_code_unique_before_other_new_regions": 18
+    },
+    {
+      "unit": "closure_vendor_huffman",
+      "section": 10,
+      "rva": 924720,
+      "size": 21,
+      "kind": ".text$x",
+      "sha256": "45c18a14739a4989d314e9999cc485b5f204aeeb629c35947a031d0cf995c8a0",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "??1BitStream@RakNet@@QAE@XZ",
+          "site_rva": 924727,
+          "target_va": 268564688,
+          "kind": 20
+        },
+        {
+          "symbol": "$T2437",
+          "site_rva": 924732,
+          "target_va": 269457428,
+          "kind": 6
+        },
+        {
+          "symbol": "___CxxFrameHandler",
+          "site_rva": 924737,
+          "target_va": 269247782,
+          "kind": 20
+        }
+      ],
+      "new_code_unique_before_other_new_regions": 21
+    },
+    {
+      "unit": "closure_vendor_huffman",
+      "section": 48,
+      "rva": 1022000,
+      "size": 36,
+      "kind": ".xdata$x",
+      "sha256": "ba36103eb9faa7b360b55dbd03f8a9255d151e6b41bfd1b11284fa68bff2e2d5",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "$L2508",
+          "site_rva": 1022004,
+          "target_va": 269360208,
+          "kind": 6
+        },
+        {
+          "symbol": "$T2527",
+          "site_rva": 1022016,
+          "target_va": 269457456,
+          "kind": 6
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_huffman",
+      "section": 68,
+      "rva": 1022072,
+      "size": 44,
+      "kind": ".xdata$x",
+      "sha256": "eb9765ace713d85034544aae35713d18f242ca97cb8b8a1928c6f3fc6d2698b5",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "$L2609",
+          "site_rva": 1022076,
+          "target_va": 269360272,
+          "kind": 6
+        },
+        {
+          "symbol": "$L2610",
+          "site_rva": 1022084,
+          "target_va": 269360283,
+          "kind": 6
+        },
+        {
+          "symbol": "$T2647",
+          "site_rva": 1022096,
+          "target_va": 269457528,
+          "kind": 6
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_huffman",
+      "section": 60,
+      "rva": 1022036,
+      "size": 36,
+      "kind": ".xdata$x",
+      "sha256": "5d0c6b4736c22f174be008a7b16db97fcd9b48f4ee7c29790dbce0a266c5eaa5",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "$L2593",
+          "site_rva": 1022040,
+          "target_va": 269360240,
+          "kind": 6
+        },
+        {
+          "symbol": "$T2597",
+          "site_rva": 1022052,
+          "target_va": 269457492,
+          "kind": 6
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_huffman",
+      "section": 11,
+      "rva": 1021964,
+      "size": 36,
+      "kind": ".xdata$x",
+      "sha256": "f4e6acc1e5e73103b7706c7dc6c6f0880aa59ceaef640a3f857a1e15806631f7",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "$L2433",
+          "site_rva": 1021968,
+          "target_va": 269360176,
+          "kind": 6
+        },
+        {
+          "symbol": "$T2442",
+          "site_rva": 1021980,
+          "target_va": 269457420,
+          "kind": 6
+        }
+      ]
+    }
+  ],
+  "bindings_checked": 263,
+  "external_targets": {
+    "?referenceCount@StringCompressor@@0HA": 269621824,
+    "?instance@StringCompressor@@0PAV1@A": 269621820,
+    "??3@YAXPAX@Z": 269247626,
+    "__ehhandler$??1StringCompressor@@QAE@XZ": 269366344,
+    "__except_list": 0,
+    "__ehhandler$??1?$Map@HPAVHuffmanEncodingTree@@$1??$defaultMapKeyComparison@H@DataStructures@@YAHABH0@Z@DataStructures@@QAE@XZ": 269366248,
+    "__ehhandler$??1?$OrderedList@HUMapNode@?$Map@HPAVHuffmanEncodingTree@@$1??$defaultMapKeyComparison@H@DataStructures@@YAHABH0@Z@DataStructures@@$1?NodeComparisonFunc@23@SAHABHABU123@@Z@DataStructures@@QAE@XZ": 269366184,
+    "__ehhandler$?FreeMemory@HuffmanEncodingTree@@QAEXXZ": 269360216,
+    "??2@YAPAXI@Z": 269247098,
+    "__ehhandler$?AddReference@StringCompressor@@SAXXZ": 269366379,
+    "__ehhandler$??0StringCompressor@@AAE@XZ": 269366291,
+    "?englishCharacterFrequencies@@3PAIA": 269491688,
+    "__ehhandler$?Insert@?$List@UMapNode@?$Map@HPAVHuffmanEncodingTree@@$1??$defaultMapKeyComparison@H@DataStructures@@YAHABH0@Z@DataStructures@@@DataStructures@@QAEXUMapNode@?$Map@HPAVHuffmanEncodingTree@@$1??$defaultMapKeyComparison@H@DataStructures@@YAHABH0@Z@2@I@Z": 269366155,
+    "_memmove": 269250016,
+    "__ehhandler$?Insert@?$List@UMapNode@?$Map@HPAVHuffmanEncodingTree@@$1??$defaultMapKeyComparison@H@DataStructures@@YAHABH0@Z@DataStructures@@@DataStructures@@QAEXUMapNode@?$Map@HPAVHuffmanEncodingTree@@$1??$defaultMapKeyComparison@H@DataStructures@@YAHABH0@Z@2@@Z": 269366123,
+    "__ehhandler$?GenerateFromFrequencyTable@HuffmanEncodingTree@@QAEXQAI@Z": 269360294,
+    "??0BitStream@RakNet@@QAE@XZ": 268564272,
+    "?Write1@BitStream@RakNet@@QAEXXZ": 268566320,
+    "?Write0@BitStream@RakNet@@QAEXXZ": 268566288,
+    "?CopyData@BitStream@RakNet@@QBEHPAPAE@Z": 268565680,
+    "?Reset@BitStream@RakNet@@QAEXXZ": 268564720,
+    "??1BitStream@RakNet@@QAE@XZ": 268564688,
+    "__ehhandler$??1?$LinkedList@PAUHuffmanEncodingTreeNode@@@DataStructures@@QAE@XZ": 269360248,
+    "__ehhandler$?GenerateTreeFromStrings@StringCompressor@@QAEXPAEIH@Z": 269366318,
+    "?ReadCompressed@BitStream@RakNet@@AAE_NPAEH_N@Z": 268565104,
+    "?ReadBit@BitStream@RakNet@@QAE_NXZ": 268564768,
+    "__ehhandler$?EncodeString@StringCompressor@@QAEXPBDHPAVBitStream@RakNet@@H@Z": 269366219,
+    "?WriteCompressed@BitStream@RakNet@@AAEXPBEH_N@Z": 268566832,
+    "?WriteBits@BitStream@RakNet@@QAEXPBEH_N@Z": 268566496,
+    "__ehhandler$?DecodeArray@HuffmanEncodingTree@@QAEXPAEIPAVBitStream@RakNet@@@Z": 269360187,
+    "??0BitStream@RakNet@@QAE@PAEI_N@Z": 268564416,
+    "$T3478": 269463936,
+    "___CxxFrameHandler": 269247782,
+    "$T3407": 269463820,
+    "$T3335": 269463748,
+    "$T3493": 269463972,
+    "$T3438": 269463864,
+    "$T3314": 269463712,
+    "$T3297": 269463676,
+    "$T3459": 269463900,
+    "$T3378": 269463784,
+    "$L3472": 269366336,
+    "$T3482": 269463928,
+    "$L3405": 269366240,
+    "$T3409": 269463812,
+    "$L3333": 269366176,
+    "$T3337": 269463740,
+    "$L3491": 269366368,
+    "$T3495": 269463964,
+    "$L3428": 269366272,
+    "$L3429": 269366280,
+    "$T3440": 269463848,
+    "$L3312": 269366144,
+    "$T3316": 269463704,
+    "$L3293": 269366112,
+    "$T3300": 269463668,
+    "$L3453": 269366304,
+    "$T3464": 269463892,
+    "$L3352": 269366208,
+    "$T3383": 269463776,
+    "$T2521": 269457464,
+    "$T2622": 269457544,
+    "$T2595": 269457500,
+    "$T2437": 269457428,
+    "$L2508": 269360208,
+    "$T2527": 269457456,
+    "$L2609": 269360272,
+    "$L2610": 269360283,
+    "$T2647": 269457528,
+    "$L2593": 269360240,
+    "$T2597": 269457492,
+    "$L2433": 269360176,
+    "$T2442": 269457420
+  },
+  "identity_reasons": {
+    "??0HuffmanEncodingTree@@QAE@XZ": "actual relocation from ??0StringCompressor@@AAE@XZ",
+    "?DecodeArray@HuffmanEncodingTree@@QAEIPAVBitStream@RakNet@@IIPAE@Z": "actual relocation from ?DecodeString@StringCompressor@@QAE_NPADHPAVBitStream@RakNet@@H@Z",
+    "?DecodeArray@HuffmanEncodingTree@@QAEXPAEIPAVBitStream@RakNet@@@Z": "source method semantics + original call graph / allocation / table owner",
+    "?FreeMemory@HuffmanEncodingTree@@QAEXXZ": "actual relocation from ??1HuffmanEncodingTree@@QAE@XZ",
+    "?EncodeArray@HuffmanEncodingTree@@QAEXPAEIPAVBitStream@RakNet@@@Z": "actual relocation from ?EncodeString@StringCompressor@@QAEXPBDHPAVBitStream@RakNet@@H@Z",
+    "?InsertNodeIntoSortedList@HuffmanEncodingTree@@ABEXPAUHuffmanEncodingTreeNode@@PAV?$LinkedList@PAUHuffmanEncodingTreeNode@@@DataStructures@@@Z": "actual relocation from ?GenerateFromFrequencyTable@HuffmanEncodingTree@@QAEXQAI@Z",
+    "??1HuffmanEncodingTree@@QAE@XZ": "actual relocation from ??1StringCompressor@@QAE@XZ",
+    "?GenerateFromFrequencyTable@HuffmanEncodingTree@@QAEXQAI@Z": "actual relocation from ??0StringCompressor@@AAE@XZ",
+    "?Instance@StringCompressor@@SAPAV1@XZ": "source method semantics + original call graph / allocation / table owner",
+    "?EncodeString@StringCompressor@@QAEXPBDHPAVBitStream@RakNet@@H@Z": "source method semantics + original call graph / allocation / table owner",
+    "?DecodeString@StringCompressor@@QAE_NPADHPAVBitStream@RakNet@@H@Z": "source method semantics + original call graph / allocation / table owner",
+    "??0StringCompressor@@AAE@XZ": "actual relocation from ?AddReference@StringCompressor@@SAXXZ",
+    "?GenerateTreeFromStrings@StringCompressor@@QAEXPAEIH@Z": "source method semantics + original call graph / allocation / table owner",
+    "??1StringCompressor@@QAE@XZ": "actual relocation from ?RemoveReference@StringCompressor@@SAXXZ",
+    "?AddReference@StringCompressor@@SAXXZ": "source method semantics + original call graph / allocation / table owner",
+    "?RemoveReference@StringCompressor@@SAXXZ": "source method semantics + original call graph / allocation / table owner",
+    "?Size@?$Map@HPAVHuffmanEncodingTree@@$1??$defaultMapKeyComparison@H@DataStructures@@YAHABH0@Z@DataStructures@@QBEIXZ": "actual relocation from ??1StringCompressor@@QAE@XZ",
+    "??A?$Map@HPAVHuffmanEncodingTree@@$1??$defaultMapKeyComparison@H@DataStructures@@YAHABH0@Z@DataStructures@@QBEAAPAVHuffmanEncodingTree@@I@Z": "actual relocation from ??1StringCompressor@@QAE@XZ",
+    "??1?$Map@HPAVHuffmanEncodingTree@@$1??$defaultMapKeyComparison@H@DataStructures@@YAHABH0@Z@DataStructures@@QAE@XZ": "actual relocation from ??1StringCompressor@@QAE@XZ",
+    "?Clear@?$Map@HPAVHuffmanEncodingTree@@$1??$defaultMapKeyComparison@H@DataStructures@@YAHABH0@Z@DataStructures@@QAEXXZ": "actual relocation from ??1?$Map@HPAVHuffmanEncodingTree@@$1??$defaultMapKeyComparison@H@DataStructures@@YAHABH0@Z@DataStructures@@QAE@XZ",
+    "??1?$OrderedList@HUMapNode@?$Map@HPAVHuffmanEncodingTree@@$1??$defaultMapKeyComparison@H@DataStructures@@YAHABH0@Z@DataStructures@@$1?NodeComparisonFunc@23@SAHABHABU123@@Z@DataStructures@@QAE@XZ": "actual relocation from ??1?$Map@HPAVHuffmanEncodingTree@@$1??$defaultMapKeyComparison@H@DataStructures@@YAHABH0@Z@DataStructures@@QAE@XZ",
+    "?Clear@?$OrderedList@HUMapNode@?$Map@HPAVHuffmanEncodingTree@@$1??$defaultMapKeyComparison@H@DataStructures@@YAHABH0@Z@DataStructures@@$1?NodeComparisonFunc@23@SAHABHABU123@@Z@DataStructures@@QAEXXZ": "actual relocation from ??1?$OrderedList@HUMapNode@?$Map@HPAVHuffmanEncodingTree@@$1??$defaultMapKeyComparison@H@DataStructures@@YAHABH0@Z@DataStructures@@$1?NodeComparisonFunc@23@SAHABHABU123@@Z@DataStructures@@QAE@XZ",
+    "??1?$List@UMapNode@?$Map@HPAVHuffmanEncodingTree@@$1??$defaultMapKeyComparison@H@DataStructures@@YAHABH0@Z@DataStructures@@@DataStructures@@QAE@XZ": "actual relocation from ??1?$OrderedList@HUMapNode@?$Map@HPAVHuffmanEncodingTree@@$1??$defaultMapKeyComparison@H@DataStructures@@YAHABH0@Z@DataStructures@@$1?NodeComparisonFunc@23@SAHABHABU123@@Z@DataStructures@@QAE@XZ",
+    "?Clear@?$List@UMapNode@?$Map@HPAVHuffmanEncodingTree@@$1??$defaultMapKeyComparison@H@DataStructures@@YAHABH0@Z@DataStructures@@@DataStructures@@QAEX_N@Z": "actual relocation from ?Clear@?$OrderedList@HUMapNode@?$Map@HPAVHuffmanEncodingTree@@$1??$defaultMapKeyComparison@H@DataStructures@@YAHABH0@Z@DataStructures@@$1?NodeComparisonFunc@23@SAHABHABU123@@Z@DataStructures@@QAEXXZ",
+    "??0?$Queue@PAUHuffmanEncodingTreeNode@@@DataStructures@@QAE@XZ": "actual relocation from ?FreeMemory@HuffmanEncodingTree@@QAEXXZ",
+    "?Push@?$Queue@PAUHuffmanEncodingTreeNode@@@DataStructures@@QAEXABQAUHuffmanEncodingTreeNode@@@Z": "actual relocation from ?FreeMemory@HuffmanEncodingTree@@QAEXXZ",
+    "??1?$Queue@PAUHuffmanEncodingTreeNode@@@DataStructures@@QAE@XZ": "actual relocation from ?FreeMemory@HuffmanEncodingTree@@QAEXXZ",
+    "??A?$OrderedList@HUMapNode@?$Map@HPAVHuffmanEncodingTree@@$1??$defaultMapKeyComparison@H@DataStructures@@YAHABH0@Z@DataStructures@@$1?NodeComparisonFunc@23@SAHABHABU123@@Z@DataStructures@@QBEAAUMapNode@?$Map@HPAVHuffmanEncodingTree@@$1??$defaultMapKeyComparison@H@DataStructures@@YAHABH0@Z@1@I@Z": "actual relocation from ??A?$Map@HPAVHuffmanEncodingTree@@$1??$defaultMapKeyComparison@H@DataStructures@@YAHABH0@Z@DataStructures@@QBEAAPAVHuffmanEncodingTree@@I@Z",
+    "?Size@?$OrderedList@HUMapNode@?$Map@HPAVHuffmanEncodingTree@@$1??$defaultMapKeyComparison@H@DataStructures@@YAHABH0@Z@DataStructures@@$1?NodeComparisonFunc@23@SAHABHABU123@@Z@DataStructures@@QBEIXZ": "actual relocation from ?Size@?$Map@HPAVHuffmanEncodingTree@@$1??$defaultMapKeyComparison@H@DataStructures@@YAHABH0@Z@DataStructures@@QBEIXZ",
+    "??0?$Map@HPAVHuffmanEncodingTree@@$1??$defaultMapKeyComparison@H@DataStructures@@YAHABH0@Z@DataStructures@@QAE@XZ": "actual relocation from ??0StringCompressor@@AAE@XZ",
+    "??$defaultMapKeyComparison@H@DataStructures@@YAHABH0@Z": "actual relocation from ?GetIndexFromKey@?$OrderedList@HUMapNode@?$Map@HPAVHuffmanEncodingTree@@$1??$defaultMapKeyComparison@H@DataStructures@@YAHABH0@Z@DataStructures@@$1?NodeComparisonFunc@23@SAHABHABU123@@Z@DataStructures@@QBEIABHPA_N@Z",
+    "?Set@?$Map@HPAVHuffmanEncodingTree@@$1??$defaultMapKeyComparison@H@DataStructures@@YAHABH0@Z@DataStructures@@QAEXABHABQAVHuffmanEncodingTree@@@Z": "actual relocation from ??0StringCompressor@@AAE@XZ",
+    "?HasSavedSearchResult@?$Map@HPAVHuffmanEncodingTree@@$1??$defaultMapKeyComparison@H@DataStructures@@YAHABH0@Z@DataStructures@@IBE_NABH@Z": "actual relocation from ?Set@?$Map@HPAVHuffmanEncodingTree@@$1??$defaultMapKeyComparison@H@DataStructures@@YAHABH0@Z@DataStructures@@QAEXABHABQAVHuffmanEncodingTree@@@Z",
+    "?GetIndexFromKey@?$OrderedList@HUMapNode@?$Map@HPAVHuffmanEncodingTree@@$1??$defaultMapKeyComparison@H@DataStructures@@YAHABH0@Z@DataStructures@@$1?NodeComparisonFunc@23@SAHABHABU123@@Z@DataStructures@@QBEIABHPA_N@Z": "actual relocation from ?Insert@?$OrderedList@HUMapNode@?$Map@HPAVHuffmanEncodingTree@@$1??$defaultMapKeyComparison@H@DataStructures@@YAHABH0@Z@DataStructures@@$1?NodeComparisonFunc@23@SAHABHABU123@@Z@DataStructures@@QAEIABHABUMapNode@?$Map@HPAVHuffmanEncodingTree@@$1??$defaultMapKeyComparison@H@DataStructures@@YAHABH0@Z@2@@Z",
+    "?SaveLastSearch@?$Map@HPAVHuffmanEncodingTree@@$1??$defaultMapKeyComparison@H@DataStructures@@YAHABH0@Z@DataStructures@@IAEXABHI@Z": "actual relocation from ?Set@?$Map@HPAVHuffmanEncodingTree@@$1??$defaultMapKeyComparison@H@DataStructures@@YAHABH0@Z@DataStructures@@QAEXABHABQAVHuffmanEncodingTree@@@Z",
+    "?Insert@?$OrderedList@HUMapNode@?$Map@HPAVHuffmanEncodingTree@@$1??$defaultMapKeyComparison@H@DataStructures@@YAHABH0@Z@DataStructures@@$1?NodeComparisonFunc@23@SAHABHABU123@@Z@DataStructures@@QAEIABHABUMapNode@?$Map@HPAVHuffmanEncodingTree@@$1??$defaultMapKeyComparison@H@DataStructures@@YAHABH0@Z@2@@Z": "actual relocation from ?Set@?$Map@HPAVHuffmanEncodingTree@@$1??$defaultMapKeyComparison@H@DataStructures@@YAHABH0@Z@DataStructures@@QAEXABHABQAVHuffmanEncodingTree@@@Z",
+    "?Insert@?$List@UMapNode@?$Map@HPAVHuffmanEncodingTree@@$1??$defaultMapKeyComparison@H@DataStructures@@YAHABH0@Z@DataStructures@@@DataStructures@@QAEXUMapNode@?$Map@HPAVHuffmanEncodingTree@@$1??$defaultMapKeyComparison@H@DataStructures@@YAHABH0@Z@2@@Z": "actual relocation from ?Insert@?$OrderedList@HUMapNode@?$Map@HPAVHuffmanEncodingTree@@$1??$defaultMapKeyComparison@H@DataStructures@@YAHABH0@Z@DataStructures@@$1?NodeComparisonFunc@23@SAHABHABU123@@Z@DataStructures@@QAEIABHABUMapNode@?$Map@HPAVHuffmanEncodingTree@@$1??$defaultMapKeyComparison@H@DataStructures@@YAHABH0@Z@2@@Z",
+    "?Insert@?$List@UMapNode@?$Map@HPAVHuffmanEncodingTree@@$1??$defaultMapKeyComparison@H@DataStructures@@YAHABH0@Z@DataStructures@@@DataStructures@@QAEXUMapNode@?$Map@HPAVHuffmanEncodingTree@@$1??$defaultMapKeyComparison@H@DataStructures@@YAHABH0@Z@2@I@Z": "actual relocation from ?Insert@?$OrderedList@HUMapNode@?$Map@HPAVHuffmanEncodingTree@@$1??$defaultMapKeyComparison@H@DataStructures@@YAHABH0@Z@DataStructures@@$1?NodeComparisonFunc@23@SAHABHABU123@@Z@DataStructures@@QAEIABHABUMapNode@?$Map@HPAVHuffmanEncodingTree@@$1??$defaultMapKeyComparison@H@DataStructures@@YAHABH0@Z@2@@Z",
+    "??0MapNode@?$Map@HPAVHuffmanEncodingTree@@$1??$defaultMapKeyComparison@H@DataStructures@@YAHABH0@Z@DataStructures@@QAE@XZ": "actual relocation from ?Insert@?$List@UMapNode@?$Map@HPAVHuffmanEncodingTree@@$1??$defaultMapKeyComparison@H@DataStructures@@YAHABH0@Z@DataStructures@@@DataStructures@@QAEXUMapNode@?$Map@HPAVHuffmanEncodingTree@@$1??$defaultMapKeyComparison@H@DataStructures@@YAHABH0@Z@2@I@Z",
+    "??_H@YGXPAXIHP6EPAX0@Z@Z": "actual relocation from ?Insert@?$List@UMapNode@?$Map@HPAVHuffmanEncodingTree@@$1??$defaultMapKeyComparison@H@DataStructures@@YAHABH0@Z@DataStructures@@@DataStructures@@QAEXUMapNode@?$Map@HPAVHuffmanEncodingTree@@$1??$defaultMapKeyComparison@H@DataStructures@@YAHABH0@Z@2@I@Z",
+    "??0?$CircularLinkedList@PAUHuffmanEncodingTreeNode@@@DataStructures@@QAE@XZ": "actual relocation from ?GenerateFromFrequencyTable@HuffmanEncodingTree@@QAEXQAI@Z",
+    "?Pop@?$CircularLinkedList@PAUHuffmanEncodingTreeNode@@@DataStructures@@QAEPAUHuffmanEncodingTreeNode@@XZ": "actual relocation from ?GenerateFromFrequencyTable@HuffmanEncodingTree@@QAEXQAI@Z",
+    "??1?$LinkedList@PAUHuffmanEncodingTreeNode@@@DataStructures@@QAE@XZ": "actual relocation from ?GenerateFromFrequencyTable@HuffmanEncodingTree@@QAEXQAI@Z",
+    "?Clear@?$CircularLinkedList@PAUHuffmanEncodingTreeNode@@@DataStructures@@QAEXXZ": "actual relocation from ??1?$CircularLinkedList@PAUHuffmanEncodingTreeNode@@@DataStructures@@QAE@XZ",
+    "??1?$CircularLinkedList@PAUHuffmanEncodingTreeNode@@@DataStructures@@QAE@XZ": "actual relocation from ??1?$LinkedList@PAUHuffmanEncodingTreeNode@@@DataStructures@@QAE@XZ",
+    "?Del@?$CircularLinkedList@PAUHuffmanEncodingTreeNode@@@DataStructures@@QAEXXZ": "actual relocation from ?Pop@?$CircularLinkedList@PAUHuffmanEncodingTreeNode@@@DataStructures@@QAEPAUHuffmanEncodingTreeNode@@XZ",
+    "?Insert@?$CircularLinkedList@PAUHuffmanEncodingTreeNode@@@DataStructures@@QAEXABQAUHuffmanEncodingTreeNode@@@Z": "actual relocation from ?InsertNodeIntoSortedList@HuffmanEncodingTree@@ABEXPAUHuffmanEncodingTreeNode@@PAV?$LinkedList@PAUHuffmanEncodingTreeNode@@@DataStructures@@@Z",
+    "??E?$LinkedList@PAUHuffmanEncodingTreeNode@@@DataStructures@@QAEAAV01@XZ": "actual relocation from ?InsertNodeIntoSortedList@HuffmanEncodingTree@@ABEXPAUHuffmanEncodingTreeNode@@PAV?$LinkedList@PAUHuffmanEncodingTreeNode@@@DataStructures@@@Z",
+    "?Add@?$CircularLinkedList@PAUHuffmanEncodingTreeNode@@@DataStructures@@QAEAAPAUHuffmanEncodingTreeNode@@ABQAU3@@Z": "actual relocation from ?InsertNodeIntoSortedList@HuffmanEncodingTree@@ABEXPAUHuffmanEncodingTreeNode@@PAV?$LinkedList@PAUHuffmanEncodingTreeNode@@@DataStructures@@@Z",
+    "??0?$OrderedList@HUMapNode@?$Map@HPAVHuffmanEncodingTree@@$1??$defaultMapKeyComparison@H@DataStructures@@YAHABH0@Z@DataStructures@@$1?NodeComparisonFunc@23@SAHABHABU123@@Z@DataStructures@@QAE@XZ": "actual relocation from ??0?$Map@HPAVHuffmanEncodingTree@@$1??$defaultMapKeyComparison@H@DataStructures@@YAHABH0@Z@DataStructures@@QAE@XZ",
+    "??0?$List@UMapNode@?$Map@HPAVHuffmanEncodingTree@@$1??$defaultMapKeyComparison@H@DataStructures@@YAHABH0@Z@DataStructures@@@DataStructures@@QAE@XZ": "actual relocation from ??0?$OrderedList@HUMapNode@?$Map@HPAVHuffmanEncodingTree@@$1??$defaultMapKeyComparison@H@DataStructures@@YAHABH0@Z@DataStructures@@$1?NodeComparisonFunc@23@SAHABHABU123@@Z@DataStructures@@QAE@XZ",
+    "?Has@?$Map@HPAVHuffmanEncodingTree@@$1??$defaultMapKeyComparison@H@DataStructures@@YAHABH0@Z@DataStructures@@QAE_NABH@Z": "actual relocation from ?GenerateTreeFromStrings@StringCompressor@@QAEXPAEIH@Z",
+    "?Get@?$Map@HPAVHuffmanEncodingTree@@$1??$defaultMapKeyComparison@H@DataStructures@@YAHABH0@Z@DataStructures@@QAEAAPAVHuffmanEncodingTree@@ABH@Z": "actual relocation from ?GenerateTreeFromStrings@StringCompressor@@QAEXPAEIH@Z"
+  },
+  "special_case": "26760/9 actual Huffman construction established by544BE and545B6 callsites after allocation1540; already creditedCP31 SoundManager same-body historical label, zero new unique credit. Do not rewrite history or claim unproved SoundManager linkage.",
+  "baseline_proof": "evidence/checkpoint32/death-vehicle-acceptance.json",
+  "baseline_union": 217741,
+  "potential_unique_code": 4788,
+  "huffman_ctor26760_new_code": 0,
+  "whole_data_objects": [
+    {
+      "unit": "closure_vendor_string_compressor",
+      "section": 3,
+      "offset": 0,
+      "rva": 1056232,
+      "size": 1024,
+      "identity": "englishCharacterFrequencies[256]",
+      "whole_bytes_equal": true,
+      "sha256": "97cc84f8f3e226bdbaecea1f7027fbfed4063e49081875a218980a84a47b705c"
+    },
+    {
+      "unit": "closure_vendor_string_compressor",
+      "section": 4,
+      "offset": 0,
+      "rva": 1186364,
+      "size": 8,
+      "identity": "instance pointer4 then referenceCount int4 at+4",
+      "whole_zero_fill_equal": true
+    }
+  ],
+  "data_section_tail_not_needed": "String unit.data size1040 has header-local unused UNASSIGNED_PLAYER_ID+NETWORK_ID at1024/1032. Neither referenced by selected functions. Frequency object complete1024 only; do not assign fictitious contiguous original addresses to unused tail.",
+  "callsite_identity_review": "Main seeds match source contracts: real frequency-table generation; queue stores Node* and frees node17; LinkedList stores node12; map maps int keys to Huffman pointers. Selected template homologues are anchored by full named source caller relocations, not proximity. Uncalled helper emissions remain unseeded."
+}

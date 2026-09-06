@@ -1,0 +1,291 @@
+{
+  "status": "IDENTIFIED_NOT_ACCEPTED",
+  "stores": [
+    {
+      "symbol": "r5ObjectEditor",
+      "class": "R5ObjectEditorView",
+      "rva": "26EB60",
+      "size": 4,
+      "init": "C4C3C new117 ->C4C6B ctor71B60(pD3DDevice26EB40), returned pointer storeC4C7A.",
+      "source_owner": "R5 DoInitStuff (inventory symbol) in main subsystem; newer global absent oldbase main.cpp, descriptive reconstruction symbol."
+    },
+    {
+      "symbol": "r5ObjectSelection",
+      "class": "R5ObjectSelectionView",
+      "rva": "26EB64",
+      "size": 4,
+      "init": "C4C74 new6 ->C4C99 ctor6DA00, returned pointer storeC4CA8.",
+      "source_owner": "R5 DoInitStuff, absent oldbase namedowner."
+    },
+    {
+      "symbol": "r5TextdrawSelector",
+      "class": "R5TextDrawSelectorView",
+      "rva": "26EB68",
+      "size": 4,
+      "init": "C4CA2 newA, inline ctor C4CB9 BOOLenabled0,C4CBF selectedWORD8FFFF,C4CC5 highlightDWORD4=ESI=-1, storeC4CCE.",
+      "source_owner": "R5 DoInitStuff, absent oldbase namedowner."
+    }
+  ],
+  "refs": [
+    {
+      "owner_rva": "0x2fa0",
+      "owner": "sub_10002FA0",
+      "site": "0x2fd5"
+    },
+    {
+      "owner_rva": "0x4850",
+      "owner": "sub_10004850",
+      "site": "0x48e9"
+    },
+    {
+      "owner_rva": "0x4850",
+      "owner": "sub_10004850",
+      "site": "0x499d"
+    },
+    {
+      "owner_rva": "0x4850",
+      "owner": "sub_10004850",
+      "site": "0x4a58"
+    },
+    {
+      "owner_rva": "0x4850",
+      "owner": "sub_10004850",
+      "site": "0x4b0a"
+    },
+    {
+      "owner_rva": "0xe8b0",
+      "owner": "sub_1000E8B0",
+      "site": "0xe8ee"
+    },
+    {
+      "owner_rva": "0xe8b0",
+      "owner": "sub_1000E8B0",
+      "site": "0xe90d"
+    },
+    {
+      "owner_rva": "0xe8b0",
+      "owner": "sub_1000E8B0",
+      "site": "0xe928"
+    },
+    {
+      "owner_rva": "0xe970",
+      "owner": "sub_1000E970",
+      "site": "0xe9ae"
+    },
+    {
+      "owner_rva": "0xe970",
+      "owner": "sub_1000E970",
+      "site": "0xe9d4"
+    },
+    {
+      "owner_rva": "0x117e0",
+      "owner": "sub_100117E0",
+      "site": "0x11843"
+    },
+    {
+      "owner_rva": "0x117e0",
+      "owner": "sub_100117E0",
+      "site": "0x1185d"
+    },
+    {
+      "owner_rva": "0x118a0",
+      "owner": "sub_100118A0",
+      "site": "0x11916"
+    },
+    {
+      "owner_rva": "0x118a0",
+      "owner": "sub_100118A0",
+      "site": "0x1192c"
+    },
+    {
+      "owner_rva": "0x118a0",
+      "owner": "sub_100118A0",
+      "site": "0x11946"
+    },
+    {
+      "owner_rva": "0x1bf00",
+      "owner": "sub_1001BF00",
+      "site": "0x1c00f"
+    },
+    {
+      "owner_rva": "0x1d650",
+      "owner": "sub_1001D650",
+      "site": "0x1d6c6"
+    },
+    {
+      "owner_rva": "0x1d650",
+      "owner": "sub_1001D650",
+      "site": "0x1d6dc"
+    },
+    {
+      "owner_rva": "0x1d650",
+      "owner": "sub_1001D650",
+      "site": "0x1d6fd"
+    },
+    {
+      "owner_rva": "0x61650",
+      "owner": "sub_10061650",
+      "site": "0x618b5"
+    },
+    {
+      "owner_rva": "0x61650",
+      "owner": "sub_10061650",
+      "site": "0x618d1"
+    },
+    {
+      "owner_rva": "0x61650",
+      "owner": "sub_10061650",
+      "site": "0x6190e"
+    },
+    {
+      "owner_rva": "0x61650",
+      "owner": "sub_10061650",
+      "site": "0x6192e"
+    },
+    {
+      "owner_rva": "0x61650",
+      "owner": "sub_10061650",
+      "site": "0x61967"
+    },
+    {
+      "owner_rva": "0x61650",
+      "owner": "sub_10061650",
+      "site": "0x6196d"
+    },
+    {
+      "owner_rva": "0x61650",
+      "owner": "sub_10061650",
+      "site": "0x6198b"
+    },
+    {
+      "owner_rva": "0x61650",
+      "owner": "sub_10061650",
+      "site": "0x619bf"
+    },
+    {
+      "owner_rva": "0x61650",
+      "owner": "sub_10061650",
+      "site": "0x619c5"
+    },
+    {
+      "owner_rva": "0x61650",
+      "owner": "sub_10061650",
+      "site": "0x61a35"
+    },
+    {
+      "owner_rva": "0x61650",
+      "owner": "sub_10061650",
+      "site": "0x61a3b"
+    },
+    {
+      "owner_rva": "0x61650",
+      "owner": "sub_10061650",
+      "site": "0x61a41"
+    },
+    {
+      "owner_rva": "0x6da60",
+      "owner": "sub_1006DA60",
+      "site": "0x6db03"
+    },
+    {
+      "owner_rva": "0x71930",
+      "owner": "sub_10071930",
+      "site": "0x71958"
+    },
+    {
+      "owner_rva": "0x71930",
+      "owner": "sub_10071930",
+      "site": "0x7198a"
+    },
+    {
+      "owner_rva": "0x71930",
+      "owner": "sub_10071930",
+      "site": "0x719bc"
+    },
+    {
+      "owner_rva": "0x719e0",
+      "owner": "sub_100719E0",
+      "site": "0x719e7"
+    },
+    {
+      "owner_rva": "0x719e0",
+      "owner": "sub_100719E0",
+      "site": "0x71a5d"
+    },
+    {
+      "owner_rva": "0x719e0",
+      "owner": "sub_100719E0",
+      "site": "0x71a91"
+    },
+    {
+      "owner_rva": "0x75730",
+      "owner": "sub_10075730",
+      "site": "0x75b14"
+    },
+    {
+      "owner_rva": "0x75730",
+      "owner": "sub_10075730",
+      "site": "0x75b23"
+    },
+    {
+      "owner_rva": "0x75730",
+      "owner": "sub_10075730",
+      "site": "0x75b32"
+    },
+    {
+      "owner_rva": "0xacf20",
+      "owner": "sub_100ACF20",
+      "site": "0xacf2e"
+    },
+    {
+      "owner_rva": "0xc3f50",
+      "owner": "sub_100C3F50",
+      "site": "0xc406e"
+    },
+    {
+      "owner_rva": "0xc3f50",
+      "owner": "sub_100C3F50",
+      "site": "0xc4089"
+    },
+    {
+      "owner_rva": "0xc3f50",
+      "owner": "sub_100C3F50",
+      "site": "0xc40a4"
+    },
+    {
+      "owner_rva": "0xc41b0",
+      "owner": "sub_100C41B0",
+      "site": "0xc42c7"
+    },
+    {
+      "owner_rva": "0xc41b0",
+      "owner": "sub_100C41B0",
+      "site": "0xc42e2"
+    },
+    {
+      "owner_rva": "0xc41b0",
+      "owner": "sub_100C41B0",
+      "site": "0xc42fd"
+    },
+    {
+      "owner_rva": "0xc4790",
+      "owner": "DoInitStuff",
+      "site": "0xc4c7a"
+    },
+    {
+      "owner_rva": "0xc4790",
+      "owner": "DoInitStuff",
+      "site": "0xc4ca8"
+    },
+    {
+      "owner_rva": "0xc4790",
+      "owner": "DoInitStuff",
+      "site": "0xc4cce"
+    }
+  ],
+  "original_storage": "PE .data RVA FE000 rawsize1B000 virtualsize17256C; these26EBxx lie in virtual zero-filled tail. Each actual pointer width4. No raw-file bytes at pointer addresses; use explicit zero-fill data contract.",
+  "credit": "12bytes storage only; never count as code or as implementation of controller constructors/new/DoInitStuff. Previously audit said identified addresses without accepted status; link failure demonstrates stores must be integrated explicitly.",
+  "class_binding": "Three storeTUs use forward declarations with exact class spelling from accepted/proposed methods; no new class definition, instance, sizeof or allocation.",
+  "capture": "build/agent-independent/selection-global-init-r5.asm",
+  "capture_sha256": "b9e125e548090c876430835372405dad9ce514dce1a34e8dec5764634e66649b"
+}

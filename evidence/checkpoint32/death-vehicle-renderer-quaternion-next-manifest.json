@@ -1,0 +1,45 @@
+{
+  "status": "UNCOMPILED_PROPOSALS",
+  "baseline": "evidence/checkpoint32/preview-clock-acceptance.json",
+  "functions": [
+    {
+      "name": "RotatePreviewQuaternion",
+      "rva": "0xb57e0",
+      "size": 68,
+      "new_bytes": 68,
+      "sha256": "443d79d805aea454a77a936606bdf66cebdfc19b18d1240ca981b28824ea0b26",
+      "pe_relocations": [
+        "0x6",
+        "0x1b"
+      ]
+    },
+    {
+      "name": "QueryPreviewQuaternionRotation",
+      "rva": "0xb58a0",
+      "size": 46,
+      "new_bytes": 46,
+      "sha256": "6ae3330b3a42f66011d7d9ee9421600e37dbdee59a403ea927aa65330a9e635d",
+      "pe_relocations": [
+        "0x5"
+      ]
+    },
+    {
+      "name": "RotatePreviewMatrixAroundVector",
+      "rva": "0xb58d0",
+      "size": 57,
+      "new_bytes": 57,
+      "sha256": "cd9f5024db12b17763cac338ba2f6d78d98ec578c14c4af08b6ed57c93513158",
+      "pe_relocations": [
+        "0x6"
+      ]
+    },
+    {
+      "name": "EntityRenderSymbolic",
+      "rva": "0x9fb20",
+      "size": 138,
+      "new_bytes": 138,
+      "sha256": "4cf1f5334b21389fb943d20ef5c8c6785803ee662c2d78ad1e18bfe0e86386ac",
+      "pe_relocations": []
+    }
+  ]
+}

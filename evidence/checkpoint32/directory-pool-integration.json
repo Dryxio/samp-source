@@ -1,0 +1,35 @@
+{
+  "status": "ACCEPTED_AFTER_COMPLETE_LINK_REVIEW",
+  "run": "cp32-directory-pool-linked1",
+  "ob1": "cp32-directory-pool-ob1",
+  "ob2": "cp32-player-lifetime-ob2",
+  "new_unique_code_bytes": 1110,
+  "direct_025_accepted_bytes": 0,
+  "total_direct_025_accepted_bytes": 18372,
+  "coverage": {
+    "previous_code_bytes": 210955,
+    "batch_code_bytes": 193016,
+    "new_unique_code_bytes": 1110,
+    "union_code_bytes": 212065,
+    "text_bytes": 930756,
+    "text_percent": 22.78416684931389,
+    "whole_dll_match": false
+  },
+  "verification": "All full functions and data, EH32/map44, real buffers and literal objects, true imports/provider identities and all relocations. Ten negative controls and actor ABI pass. Eight old pending excluded.",
+  "adaptations": "Existing directory bodies need game/util.h declaration; failed compile preserved, next compile exact. Local constructor/reset exact unchanged, pool constructor uses observed bounded setter-shaped loop. Existing headers assert LocalPlayer0x324 and PlayerPool0x2F3E; true allocated LocalPlayer0x324, borrowed ped pointer, no fabricated vtable/destruction.",
+  "reference_credit": "All five principal bodies were available in base; direct025 increment zero.",
+  "throughput": {
+    "start_utc": "2026-09-05T20:11:21Z",
+    "measured_utc": "2026-09-06T01:19:55.951664+00:00",
+    "elapsed_seconds": 18514.951664,
+    "new_unique_bytes": 38924,
+    "bytes_per_hour": 7568.283328141666,
+    "coordination_included": true,
+    "agents": 3
+  },
+  "blockers": [
+    "PlayerPool/LocalPlayer destruction still opens spectating/spawn/remote-player dependencies and is not covered. Factory/type1 model paths remain candidates."
+  ],
+  "next": "Close actual type1 custom ped model path and factory, then additional player/common providers. Goal remains active.",
+  "runtime": "No directory creation, registry operation or new player construction executed."
+}

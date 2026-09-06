@@ -1,0 +1,80 @@
+{
+  "status": "UNCOMPILED_PROPOSAL",
+  "principal712_including_expected_EH": true,
+  "regions": [
+    {
+      "rva": "0xb0ce0",
+      "size": 694,
+      "kind": "principal",
+      "sha256": "26491e7a69c6b57a7c9e431a60f016dc46a903325c06bd3c3894d5a37574067d",
+      "pe_relocations": [
+        "0x3",
+        "0x5a",
+        "0x76",
+        "0x93",
+        "0xd1",
+        "0xe4",
+        "0xf3",
+        "0xfd",
+        "0x117",
+        "0x126",
+        "0x21d"
+      ]
+    },
+    {
+      "rva": "0xe3f50",
+      "size": 8,
+      "kind": "EH-cleanup",
+      "sha256": "515fe8b53dc72e907173423449732ca561638c1623f70abc0cd1de1c46b87ff9",
+      "pe_relocations": []
+    },
+    {
+      "rva": "0xe3f58",
+      "size": 10,
+      "kind": "EH-handler",
+      "sha256": "c0fcf26087a3d702a2bb94d756d0de3186ef99f11208f7f92f638db9919e9daa",
+      "pe_relocations": [
+        "0x1"
+      ]
+    },
+    {
+      "rva": "0xfbeac",
+      "size": 8,
+      "kind": "unwind-data",
+      "sha256": "14bfa7fe6c2dcbfa2c2aab24672dbd780907d0b4b876f155d1df8df5e38edc0c",
+      "pe_relocations": [
+        "0x4"
+      ]
+    },
+    {
+      "rva": "0xfbeb4",
+      "size": 28,
+      "kind": "FuncInfo",
+      "sha256": "1100ca5a1e5b940bf307eadc801347c96a8d7c3d2fad8d9e8f091d54de3d801a",
+      "pe_relocations": [
+        "0x8"
+      ]
+    },
+    {
+      "rva": "0xecda8",
+      "size": 18,
+      "kind": "script-command",
+      "sha256": "b732d7e7c4dc3489e7aa92a2dab8e046f25e3962020a763e3b96bf3e5360aa25",
+      "pe_relocations": []
+    },
+    {
+      "rva": "0xecdbc",
+      "size": 18,
+      "kind": "script-command",
+      "sha256": "f88e6d9aad4d1e6399d3bc8904d5ca3333de031dad61cb16c33146aabdcd95d9",
+      "pe_relocations": []
+    },
+    {
+      "rva": "0xed278",
+      "size": 4,
+      "kind": "float",
+      "sha256": "5059b35a51a066cc88e72daa9017c4e126068c6368cd3b9f45b4d8d5cc94b3e5",
+      "pe_relocations": []
+    }
+  ]
+}

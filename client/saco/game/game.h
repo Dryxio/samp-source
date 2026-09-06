@@ -46,6 +46,7 @@ private:
 public:
 
 	BYTE FindFirstFreePlayerPedSlot();
+	BOOL DeletePlayerPed(CPlayerPed *pPlayerPed);
 	BYTE FUNC_100A00F0();
 
 	int		GetWeaponModelIDFromWeapon(int iWeaponID);

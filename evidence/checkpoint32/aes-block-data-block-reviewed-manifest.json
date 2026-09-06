@@ -1,0 +1,232 @@
+{
+  "status": "REVIEWED_SCOPED_FUNCTION_PREFLIGHT",
+  "run": "build/cp32-data-block-trial1",
+  "baseline": 229399,
+  "seeds": {
+    "closure_vendor_data_block_encryptor": {
+      "?SetKey@DataBlockEncryptor@@QAEXQBE@Z": 153072,
+      "?Encrypt@DataBlockEncryptor@@QAEXPAEH0PAH@Z": 153200,
+      "?Decrypt@DataBlockEncryptor@@QAE_NPAEH0PAH@Z": 153568
+    },
+    "closure_vendor_checksum": {
+      "?Add@CheckSum@@QAEXE@Z": 131552,
+      "?Add@CheckSum@@QAEXPAEI@Z": 131616,
+      "?Add@CheckSum@@QAEXI@Z": 131664,
+      "?Add@CheckSum@@QAEXG@Z": 131712
+    }
+  },
+  "regions": [
+    {
+      "unit": "closure_vendor_data_block_encryptor",
+      "section": 13,
+      "rva": 153072,
+      "size": 67,
+      "kind": ".text",
+      "sha256": "01aadd087b2b7185674cc27c104b0f83c0828830ba9920fb072a016740219ac5",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "?makeKey@@YAHPAUkeyInstance@@EHPAD@Z",
+          "site_rva": 153094,
+          "target_va": 268755136,
+          "kind": 20
+        },
+        {
+          "symbol": "?makeKey@@YAHPAUkeyInstance@@EHPAD@Z",
+          "site_rva": 153111,
+          "target_va": 268755136,
+          "kind": 20
+        },
+        {
+          "symbol": "?cipherInit@@YAHPAUcipherInstance@@EPAD@Z",
+          "site_rva": 153127,
+          "target_va": 268755424,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_data_block_encryptor",
+      "section": 19,
+      "rva": 153200,
+      "size": 362,
+      "kind": ".text",
+      "sha256": "657584b546bc991bfaa4f21c967b0306bbbcdbaef47f516683d667eb87a6c4aa",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "?randomMT@@YAIXZ",
+          "site_rva": 153241,
+          "target_va": 268712960,
+          "kind": 20
+        },
+        {
+          "symbol": "?randomMT@@YAIXZ",
+          "site_rva": 153262,
+          "target_va": 268712960,
+          "kind": 20
+        },
+        {
+          "symbol": "_memmove",
+          "site_rva": 153312,
+          "target_va": 269250016,
+          "kind": 20
+        },
+        {
+          "symbol": "?randomMT@@YAIXZ",
+          "site_rva": 153366,
+          "target_va": 268712960,
+          "kind": 20
+        },
+        {
+          "symbol": "?Add@CheckSum@@QAEXPAEI@Z",
+          "site_rva": 153393,
+          "target_va": 268567072,
+          "kind": 20
+        },
+        {
+          "symbol": "?blockEncrypt@@YAHPAUcipherInstance@@PAUkeyInstance@@PAEH2@Z",
+          "site_rva": 153421,
+          "target_va": 268755520,
+          "kind": 20
+        },
+        {
+          "symbol": "?blockEncrypt@@YAHPAUcipherInstance@@PAUkeyInstance@@PAEH2@Z",
+          "site_rva": 153528,
+          "target_va": 268755520,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_data_block_encryptor",
+      "section": 21,
+      "rva": 153568,
+      "size": 443,
+      "kind": ".text",
+      "sha256": "b33617df7bb657a68b4c61dcdbe57a7f4c9532f07295e5917837409a1f04e65f",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "?blockDecrypt@@YAHPAUcipherInstance@@PAUkeyInstance@@PAEH2@Z",
+          "site_rva": 153719,
+          "target_va": 268756320,
+          "kind": 20
+        },
+        {
+          "symbol": "?blockDecrypt@@YAHPAUcipherInstance@@PAUkeyInstance@@PAEH2@Z",
+          "site_rva": 153867,
+          "target_va": 268756320,
+          "kind": 20
+        },
+        {
+          "symbol": "?Add@CheckSum@@QAEXPAEI@Z",
+          "site_rva": 153910,
+          "target_va": 268567072,
+          "kind": 20
+        },
+        {
+          "symbol": "_memmove",
+          "site_rva": 153950,
+          "target_va": 269250016,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_checksum",
+      "section": 3,
+      "rva": 131552,
+      "size": 49,
+      "kind": ".text",
+      "sha256": "c6337b2dbe357b10805b887e68d605ebcf1975d4fbd905c12c01a59312616f85",
+      "whole_bytes_equal": true,
+      "bindings": []
+    },
+    {
+      "unit": "closure_vendor_checksum",
+      "section": 5,
+      "rva": 131616,
+      "size": 39,
+      "kind": ".text",
+      "sha256": "2d7a7ae963e4e590ccecdb610502b2e3c564897fb34f67e7234c2fda465ed53a",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "?Add@CheckSum@@QAEXE@Z",
+          "site_rva": 131640,
+          "target_va": 268567008,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_checksum",
+      "section": 7,
+      "rva": 131664,
+      "size": 38,
+      "kind": ".text",
+      "sha256": "5cda3b1123db348b3ae50ba068a8660f1026be43133b0e1cfab863def1ac4ea0",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "?Add@CheckSum@@QAEXE@Z",
+          "site_rva": 131688,
+          "target_va": 268567008,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_checksum",
+      "section": 9,
+      "rva": 131712,
+      "size": 38,
+      "kind": ".text",
+      "sha256": "b9cfffbec4a10dfcd4866fc0f5c54f72190d6d7ae927d1b3323145ea79910a44",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "?Add@CheckSum@@QAEXE@Z",
+          "site_rva": 131736,
+          "target_va": 268567008,
+          "kind": 20
+        }
+      ]
+    }
+  ],
+  "bindings_checked": 17,
+  "new_unique_code": 987,
+  "already_covered": 49,
+  "external_targets": {
+    "?makeKey@@YAHPAUkeyInstance@@EHPAD@Z": 268755136,
+    "?cipherInit@@YAHPAUcipherInstance@@EPAD@Z": 268755424,
+    "?blockEncrypt@@YAHPAUcipherInstance@@PAUkeyInstance@@PAEH2@Z": 268755520,
+    "?blockDecrypt@@YAHPAUcipherInstance@@PAUkeyInstance@@PAEH2@Z": 268756320,
+    "?randomMT@@YAIXZ": 268712960,
+    "_memmove": 269250016
+  },
+  "EH": "none",
+  "data_regions": [],
+  "excluded": [
+    "Get4 ambiguous no selected caller",
+    "empty destructor1 ambiguous no selected caller",
+    "already-covered constructor10/IsKeySet7/UnsetKey8 and CheckSumClear25/constructor27 not required as outlined dependencies"
+  ],
+  "source025_direct_bytes": 0,
+  "identity_reasons": [
+    "Three named DataBlock methods established by original AES API calls and actual keyEncrypt0/keyDecrypt282/cipher564 fields.",
+    "Checksum AddBuffer20220 is directly called by original Encrypt/Decrypt. All three Add overloads call true AddByte201E0; loops consume byte arrays or native uint32/uint16 bytes matching complete source.",
+    "Checksum AddByte49 contributes zero new coverage but must be linked as actual provider."
+  ],
+  "sources": [
+    {
+      "path": "build/agent-independent/eval_vendor_data_block_encryptor.cpp",
+      "sha256": "d76ce7876e230d5d5ab7b5575d25edc6155b52783a041dcd6c4ca6384e294320"
+    },
+    {
+      "path": "build/agent-independent/eval_vendor_checksum.cpp",
+      "sha256": "a8459b3c8e614c749ef6c733a20a18726354ec18e8b0c91d9845b3e3b6395c78"
+    }
+  ]
+}

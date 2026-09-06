@@ -1,0 +1,11 @@
+{
+  "status": "ACCEPTED_AFTER_COMPLETE_LINK_REVIEW",
+  "run": "cp32-gui-insert-chars-linked",
+  "ob1": "cp32-gui-insert-chars-ob1b",
+  "ob2": "cp32-ime-ob2",
+  "new_unique_code_bytes": 318,
+  "accepted_direct_025_credit": 0,
+  "source_adaptations": "No base behavior changes; original max edit length define0xFFFF restored.",
+  "reference_comparison": "0.2.5 contains only one InsertChar definition; base provides actual wide and DBCS overloads. No transfer credit.",
+  "verification": "2035 whole regions, full143 and175 byte methods, actual buffer-size/Unicode conversion/provider identities and new kernel32 IsDBCSLeadByteEx import. All original/linked relocations,10 negative controls and actor ABI pass. Eight old pending unchanged. Initial extraction missing local define failed compile; restored and one successful compile/link. No GUI/game execution, push/deployment."
+}

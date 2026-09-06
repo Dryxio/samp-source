@@ -1,3 +1,16 @@
+// Explicit complete symbolic exceptions after preserved normal-C++ trials:
+// SetMatrixAndUpdate89 vs91 and FUNC_1009EC8080 vs82.
+// Integration: replace their sole definitions in closure_world, never duplicate.
+#include "main.h"
+#include <stddef.h>
+extern "C" void r5_EntitySetMatrix_thiscall_assembly_only();
+extern "C" void r5_EntityUpdateRw_thiscall_assembly_only();
+#pragma comment(linker,"/alternatename:_r5_EntitySetMatrix_thiscall_assembly_only=?SetMatrix@CEntity@@QAEXU_MATRIX4X4@@@Z")
+#pragma comment(linker,"/alternatename:_r5_EntityUpdateRw_thiscall_assembly_only=?FUNC_1009EC80@CEntity@@QAEXXZ")
+struct R5EntityRwObjectFramePrefix { DWORD typeFlags; void *frame; };
+struct R5EntityRwFrameMatrixPrefix { BYTE objectHeader[0x10]; MATRIX4X4 matrix; };
+typedef char R5RequireMatrix64[(sizeof(MATRIX4X4)==64)?1:-1];
+
 // Generated complete definitions from game/entity.cpp; see tools/prepare_actor_closure.py.
 #include <time.h>
 #include <math.h>
@@ -123,28 +136,55 @@ void CEntity::TeleportTo(float x, float y, float z)
 	}
 }
 
-void CEntity::FUNC_1009EC80()
+__declspec(naked) void CEntity::FUNC_1009EC80()
 {
-	if(!m_pEntity || m_pEntity->vtable == 0x863C40) return;
-
-	DWORD dwRenderWare = (DWORD)m_pEntity->pdwRenderWare;
-	DWORD dwMatrix = (DWORD)m_pEntity->mat;
-	DWORD dwEntity = (DWORD)m_pEntity;
-
-	if(dwEntity && dwRenderWare && dwMatrix)
-	{
-		_asm mov edx, dwRenderWare
-		_asm mov eax, [edx+4]
-		_asm add eax, 16
-		_asm push eax
-		_asm mov ecx, dwMatrix
-		_asm mov edx, 0x59AD70
-		_asm call edx
-
-		_asm mov ecx, dwEntity
-		_asm mov edx, 0x532B00
-		_asm call edx
-	}
+    enum {
+        FrameBytes=12, RwObjectLocal=12, MatrixLocal=8, EntityLocal=4,
+        WrapperEntity=offsetof(CEntity,m_pEntity),
+        NativeVtable=offsetof(ENTITY_TYPE,vtable),
+        NativeMatrix=offsetof(ENTITY_TYPE,mat),
+        NativeRwObject=offsetof(ENTITY_TYPE,pdwRenderWare),
+        RwObjectFrame=offsetof(R5EntityRwObjectFramePrefix,frame),
+        RwFrameMatrix=offsetof(R5EntityRwFrameMatrixPrefix,matrix),
+        NativePlaceableVtable=0x863C40,
+        NativeMatrixUpdateRW=0x59AD70,
+        NativeEntityUpdateRwFrame=0x532B00
+    };
+    __asm {
+        push ebp
+        mov ebp, esp
+        sub esp, FrameBytes
+        mov eax, dword ptr [ecx+WrapperEntity]
+        test eax, eax
+        je update_done
+        cmp dword ptr [eax+NativeVtable], NativePlaceableVtable
+        je update_done
+        test eax, eax
+        mov ecx, dword ptr [eax+NativeRwObject]
+        mov edx, dword ptr [eax+NativeMatrix]
+        mov dword ptr [ebp-RwObjectLocal], ecx
+        mov dword ptr [ebp-MatrixLocal], edx
+        mov dword ptr [ebp-EntityLocal], eax
+        je update_done
+        test ecx, ecx
+        je update_done
+        test edx, edx
+        je update_done
+        mov edx, dword ptr [ebp-RwObjectLocal]
+        mov eax, dword ptr [edx+RwObjectFrame]
+        add eax, RwFrameMatrix
+        push eax
+        mov ecx, dword ptr [ebp-MatrixLocal]
+        mov edx, NativeMatrixUpdateRW
+        call edx
+        mov ecx, dword ptr [ebp-EntityLocal]
+        mov edx, NativeEntityUpdateRwFrame
+        call edx
+    update_done:
+        mov esp, ebp
+        pop ebp
+        ret
+    }
 }
 
 void CEntity::SetMatrix(MATRIX4X4 Matrix)
@@ -570,19 +610,57 @@ void CEntity::ProcessControl()
  _asm call dword ptr [eax+0x28]
 }
 
-void CEntity::SetMatrixAndUpdate(MATRIX4X4 matrix)
+__declspec(naked) void CEntity::SetMatrixAndUpdate(MATRIX4X4 matrix)
 {
- if(!m_pEntity || !m_pEntity->mat) return;
- DWORD entity=(DWORD)m_pEntity;
- DWORD vtable=*(PDWORD)entity;
- _asm mov eax, vtable
- _asm mov ecx, entity
- _asm call dword ptr [eax+0x0C]
- SetMatrix(matrix);
- FUNC_1009EC80();
- _asm mov eax, vtable
- _asm mov ecx, entity
- _asm call dword ptr [eax+0x08]
+    enum {
+        FrameBytes=8, VtableLocal=8, EntityLocal=4, MatrixArgument=8,
+        MatrixBytes=sizeof(MATRIX4X4), MatrixWords=sizeof(MATRIX4X4)/sizeof(DWORD),
+        WrapperEntity=offsetof(CEntity,m_pEntity),
+        NativeMatrix=offsetof(ENTITY_TYPE,mat),
+        NativeVtable=offsetof(ENTITY_TYPE,vtable),
+        NativeRemoveOffset=3*sizeof(void*), NativeAddOffset=2*sizeof(void*)
+    };
+    __asm {
+        push ebp
+        mov ebp, esp
+        sub esp, FrameBytes
+        push ebx
+        mov ebx, ecx
+        mov eax, dword ptr [ebx+WrapperEntity]
+        test eax, eax
+        push esi
+        push edi
+        je set_done
+        mov ecx, dword ptr [eax+NativeMatrix]
+        test ecx, ecx
+        je set_done
+        mov ecx, eax
+        mov edx, dword ptr [ecx+NativeVtable]
+        mov dword ptr [ebp-VtableLocal], edx
+        mov dword ptr [ebp-EntityLocal], eax
+        mov eax, dword ptr [ebp-VtableLocal]
+        mov ecx, dword ptr [ebp-EntityLocal]
+        call dword ptr [eax+NativeRemoveOffset]
+        sub esp, MatrixBytes
+        mov edi, esp
+        mov ecx, MatrixWords
+        lea esi, [ebp+MatrixArgument]
+        rep movsd
+        mov ecx, ebx
+        call r5_EntitySetMatrix_thiscall_assembly_only
+        mov ecx, ebx
+        call r5_EntityUpdateRw_thiscall_assembly_only
+        mov eax, dword ptr [ebp-VtableLocal]
+        mov ecx, dword ptr [ebp-EntityLocal]
+        call dword ptr [eax+NativeAddOffset]
+    set_done:
+        pop edi
+        pop esi
+        pop ebx
+        mov esp, ebp
+        pop ebp
+        ret MatrixBytes
+    }
 }
 
 void CEntity::AdvancePosition()

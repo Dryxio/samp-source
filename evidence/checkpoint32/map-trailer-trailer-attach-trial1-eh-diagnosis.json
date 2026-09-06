@@ -1,0 +1,27 @@
+{
+  "status": "TARGETED_DIAGNOSIS_NOT_ACCEPTANCE",
+  "run": "cp32-map-trailer-trial1",
+  "function": "ScrAttachTrailerToVehicleTransfer",
+  "candidate_size": 278,
+  "original_size": 315,
+  "finding": "Same-TU compiler callee register knowledge preserves this in ECX across SetTrailer call; original retains pVehicle in ESI and reloads ECX for both methods. This reduces callee-save lifetime and permits merging early return cleanup with normal cleanup.",
+  "semantic_review": [
+    "Both read two16-bit IDs after BitStream(char*) construction.",
+    "Null vehiclepool check after constructor returns via exactly one BitStream destructor.",
+    "Both GetAt bounds are id>=2000 and require active entry.",
+    "Both object null checks precede SetTrailer then AttachTrailer in that order.",
+    "Original early and normal exit clear unwind state then invoke same destructor1F8D0 exactly once; same EH handler E123B.",
+    "No extra cleanup state or destructor dependency missing."
+  ],
+  "correction": "Separate actual CVehicle method definitions from callers, preserving declarations, normalC++ bodies, all state and providers. No wrapper/noinline stub or artificial register use.",
+  "sources": [
+    {
+      "path": "build/agent-independent/eval_rpc_trailers3.cpp",
+      "sha256": "d6d32aacdf19cbc32f13dc2b7c782fced64f70f5b57ac51feb4c1fb778a04450"
+    },
+    {
+      "path": "build/agent-independent/eval_vehicle_trailer_methods.cpp",
+      "sha256": "cad49b02cb25e771000562364f702a10de1a0cf4a74ddc3f8f0c227d0ec1c3e2"
+    }
+  ]
+}

@@ -1,0 +1,211 @@
+{
+  "status": "FULL_PREFLIGHT_NOT_ACCEPTANCE",
+  "regions": [
+    {
+      "unit": "closure_rw_skin_queries",
+      "rva": 729248,
+      "size": 53,
+      "sha256": "703b0d1fe58739965e7f6876baff60c30d1086a8b609db97890a4c41c51dd2ea",
+      "kind": ".text",
+      "bindings": [
+        {
+          "symbol": "?iGtaVersion@@3HA",
+          "site_rva": 729255,
+          "target_va": 270986024,
+          "kind": 6
+        }
+      ]
+    },
+    {
+      "unit": "closure_rw_skin_queries",
+      "rva": 729312,
+      "size": 53,
+      "sha256": "25109f17b955445d4031b10cb928d7af8584f089cda17be839a1847d8e7edb09",
+      "kind": ".text",
+      "bindings": [
+        {
+          "symbol": "?iGtaVersion@@3HA",
+          "site_rva": 729319,
+          "target_va": 270986024,
+          "kind": 6
+        }
+      ]
+    },
+    {
+      "unit": "closure_rw_skin_queries",
+      "rva": 729376,
+      "size": 25,
+      "sha256": "9e39bb1aaffe64e6c5deae48deb5f22fbad96abf43d33d6afefbf3ea8b090085",
+      "kind": ".text",
+      "bindings": [
+        {
+          "symbol": "?GetFirstAtomic@@YAPAURpAtomic@@PAURpClump@@@Z",
+          "site_rva": 729382,
+          "target_va": 269164704,
+          "kind": 20
+        },
+        {
+          "symbol": "?RpSkinGeometryGetSkin@@YAPAURpSkin@@PAURpGeometry@@@Z",
+          "site_rva": 729397,
+          "target_va": 269164768,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "closure_rw_skin_queries",
+      "rva": 729408,
+      "size": 39,
+      "sha256": "e3eaca3f3def4a8504929ff232bb1007cc2f1bda26864b44612954ae8b774284",
+      "kind": ".text",
+      "bindings": []
+    },
+    {
+      "unit": "closure_preview_renderer_owner",
+      "rva": 441920,
+      "size": 333,
+      "sha256": "57aec911e3af3324eb28b6a6762c83c650d1e97260d9dfc4fe4ea10fd5bba095",
+      "kind": ".text",
+      "bindings": [
+        {
+          "symbol": "?RpLightCreate@@YAPAURpLight@@H@Z",
+          "site_rva": 441929,
+          "target_va": 269163264,
+          "kind": 20
+        },
+        {
+          "symbol": "?RpLightSetColor@@YAXPAURpLight@@PAURwRGBAReal@@@Z",
+          "site_rva": 441986,
+          "target_va": 269163376,
+          "kind": 20
+        },
+        {
+          "symbol": "?RwRasterCreate@@YAPAURwRaster@@HHHH@Z",
+          "site_rva": 442008,
+          "target_va": 269162192,
+          "kind": 20
+        },
+        {
+          "symbol": "?RwRasterCreate@@YAPAURwRaster@@HHHH@Z",
+          "site_rva": 442030,
+          "target_va": 269162192,
+          "kind": 20
+        },
+        {
+          "symbol": "?RwCameraCreate@@YAPAURwCamera@@XZ",
+          "site_rva": 442038,
+          "target_va": 269162544,
+          "kind": 20
+        },
+        {
+          "symbol": "?RwFrameCreate@@YAPAURwFrame@@XZ",
+          "site_rva": 442045,
+          "target_va": 269162384,
+          "kind": 20
+        },
+        {
+          "symbol": "?RwFrameTranslate@@YAXPAURwFrame@@PAU_VECTOR@@H@Z",
+          "site_rva": 442085,
+          "target_va": 269163760,
+          "kind": 20
+        },
+        {
+          "symbol": "?RwFrameRotate@@YAXPAURwFrame@@HM@Z",
+          "site_rva": 442101,
+          "target_va": 269163808,
+          "kind": 20
+        },
+        {
+          "symbol": "?SetCameraFrameAndZBuffer@@YAXPAURwCamera@@PAURwRaster@@1@Z",
+          "site_rva": 442143,
+          "target_va": 269162928,
+          "kind": 20
+        },
+        {
+          "symbol": "?RwObjectHasFrameSetFrame@@YAXPAURwCamera@@PAURwFrame@@@Z",
+          "site_rva": 442155,
+          "target_va": 269162880,
+          "kind": 20
+        },
+        {
+          "symbol": "?RwCameraSetClipPlane@@YAXPAURwCamera@@MM@Z",
+          "site_rva": 442173,
+          "target_va": 269163136,
+          "kind": 20
+        },
+        {
+          "symbol": "?RwCameraSetViewWindow@@YAXPAURwCamera@@PAU_VECTOR2D@@@Z",
+          "site_rva": 442202,
+          "target_va": 269163216,
+          "kind": 20
+        },
+        {
+          "symbol": "?RwCameraSetProjection@@YAXPAURwCamera@@H@Z",
+          "site_rva": 442212,
+          "target_va": 269163712,
+          "kind": 20
+        },
+        {
+          "symbol": "?RpWorldAddCamera@@YAXPAURwCamera@@@Z",
+          "site_rva": 442220,
+          "target_va": 269162672,
+          "kind": 20
+        },
+        {
+          "symbol": "?RwTextureCreate@@YAPAURwTexture@@PAURwRaster@@@Z",
+          "site_rva": 442229,
+          "target_va": 269162272,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "closure_preview_renderer_owner",
+      "rva": 445632,
+      "size": 28,
+      "sha256": "726c7b0302145efb6ec8d02b427c58ea7493e8525a4df9b2fdbcc3d204d64c33",
+      "kind": ".text",
+      "bindings": [
+        {
+          "symbol": "?Initialize@R5PreviewRenderer@@QAE_NXZ",
+          "site_rva": 445652,
+          "target_va": 268877376,
+          "kind": 20
+        }
+      ]
+    }
+  ],
+  "seeds": {
+    "closure_rw_skin_queries": {
+      "?GetFirstAtomic@@YAPAURpAtomic@@PAURpClump@@@Z": 729248,
+      "?RpSkinGeometryGetSkin@@YAPAURpSkin@@PAURpGeometry@@@Z": 729312,
+      "?GetClumpSkin@@YAPAURpSkin@@PAURpClump@@@Z": 729376,
+      "?GetAnimHierarchyFromClump@@YAPAURpHAnimHierarchy@@PAURpClump@@@Z": 729408
+    },
+    "closure_preview_renderer_owner": {
+      "?Initialize@R5PreviewRenderer@@QAE_NXZ": 441920,
+      "??0R5PreviewRenderer@@QAE@XZ": 445632
+    }
+  },
+  "external_targets": {
+    "?RwRasterCreate@@YAPAURwRaster@@HHHH@Z": 269162192,
+    "?RwTextureCreate@@YAPAURwTexture@@PAURwRaster@@@Z": 269162272,
+    "?RwFrameCreate@@YAPAURwFrame@@XZ": 269162384,
+    "?RwCameraCreate@@YAPAURwCamera@@XZ": 269162544,
+    "?RpWorldAddCamera@@YAXPAURwCamera@@@Z": 269162672,
+    "?RwObjectHasFrameSetFrame@@YAXPAURwCamera@@PAURwFrame@@@Z": 269162880,
+    "?SetCameraFrameAndZBuffer@@YAXPAURwCamera@@PAURwRaster@@1@Z": 269162928,
+    "?RwCameraSetClipPlane@@YAXPAURwCamera@@MM@Z": 269163136,
+    "?RwCameraSetViewWindow@@YAXPAURwCamera@@PAU_VECTOR2D@@@Z": 269163216,
+    "?RpLightCreate@@YAPAURpLight@@H@Z": 269163264,
+    "?RpLightSetColor@@YAXPAURpLight@@PAURwRGBAReal@@@Z": 269163376,
+    "?RwCameraSetProjection@@YAXPAURwCamera@@H@Z": 269163712,
+    "?RwFrameTranslate@@YAXPAURwFrame@@PAU_VECTOR@@H@Z": 269163760,
+    "?RwFrameRotate@@YAXPAURwFrame@@HM@Z": 269163808,
+    "?iGtaVersion@@3HA": 270986024,
+    "?GetFirstAtomic@@YAPAURpAtomic@@PAURpClump@@@Z": 269164704,
+    "?RpSkinGeometryGetSkin@@YAPAURpSkin@@PAURpGeometry@@@Z": 269164768
+  },
+  "source025_credit": 0,
+  "new_unique_code": 531
+}

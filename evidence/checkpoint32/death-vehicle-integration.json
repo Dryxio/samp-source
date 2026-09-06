@@ -1,0 +1,35 @@
+{
+  "status": "ACCEPTED_AFTER_COMPLETE_LINK_REVIEW",
+  "run": "cp32-death-vehicle-linked2",
+  "ob1": "cp32-death-vehicle-ob1b",
+  "ob2": "cp32-entity-matrix-ob2",
+  "new_unique_code_bytes": 1266,
+  "direct_025_accepted_bytes": 549,
+  "total_direct_025_accepted_bytes": 20780,
+  "coverage": {
+    "previous_code_bytes": 216475,
+    "batch_code_bytes": 198692,
+    "new_unique_code_bytes": 1266,
+    "union_code_bytes": 217741,
+    "text_bytes": 930756,
+    "text_percent": 23.393993699745153,
+    "whole_dll_match": false
+  },
+  "verification": "Whole functions/data, two EH21/maps36, actual component SCRIPT_COMMAND18, all relocations and source/native provider identities. Two transparent matrix member aliases bind to sole real closure_world providers, no wrapper credit. Ten controls and actor ABI pass. Five pending excluded.",
+  "adaptations": "NormalC++ quaternion171 and death name/color providers132 exact; existing DeathWindow AddMessage sole owner reused after initial duplicate-definition link rejected. VehicleRPC getters corrected; RemoveComponent61 symbolic after three61-byte C++ forms scheduled failure block differently. EntityRender138 symbolic after exact-size register allocation mismatch. Matrix173 symbolic after old89/80 C++ failures, actual slots/native calls and64-byte matrix ABI verified. No new headers; identical non-owning pool view embedded in CPP files.",
+  "reference_credit": "025 VehicleParams204+Assign84+SetDoor48+RemoveComponentRPC213 =549, cumulative20780. DeathMessageRPC493 remains failed490, zero credit. Base/vendor/native/provider reconstruction supplies remaining functions.",
+  "throughput": {
+    "start_utc": "2026-09-05T20:11:21Z",
+    "measured_utc": "2026-09-06T02:21:23.937293+00:00",
+    "elapsed_seconds": 22202.937293,
+    "new_unique_bytes": 44600,
+    "bytes_per_hour": 7231.475632308358,
+    "coordination_included": true,
+    "agents": 3
+  },
+  "blockers": [
+    "DeathMessage493 remains parked490, previewobject694 remains unmatched. Five old pending remain."
+  ],
+  "next": "Full Huffman vendor closure2300+EH and actual remote-ped constructor712 candidates, then ped preview; goal remains active.",
+  "runtime": "No game/native renderer, component operation or packet dispatcher executed."
+}

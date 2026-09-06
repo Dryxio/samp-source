@@ -1,0 +1,26 @@
+{
+  "status": "ACCEPTED_AFTER_COMPLETE_LINK_REVIEW",
+  "run": "cp32-input-animation-linked",
+  "ob1": "cp32-input-animation-ob1",
+  "ob2": "cp32-gui-overwrite-ob2",
+  "new_unique_code_bytes": 2589,
+  "direct_025_accepted_bytes": 1434,
+  "total_direct_025_accepted_bytes": 12113,
+  "verification": "Complete linked functions and all relocation/provider identities; seven complete EH21/maps36. Three source GTA patch arrays5 each receive zero code credit; no native execution. Ten negative controls and actor ABI pass.",
+  "throughput": {
+    "start": {
+      "start_utc": "2026-09-05T20:11:21Z",
+      "accepted_code_bytes": 173141,
+      "proof": "evidence/checkpoint32/dxut-state-extra-acceptance.json",
+      "agents": 3,
+      "coordination_included": true
+    },
+    "measured_at": "2026-09-05T22:13:30.704277+00:00",
+    "elapsed_seconds": 7329.704277,
+    "new_unique_accepted_bytes": 17251,
+    "bytes_per_hour": 8472.865705493183,
+    "direct_025_baseline": 1523,
+    "new_direct_025_accepted_bytes": 10590,
+    "note": "Coordination, failed trials and integration included; not causal speedup."
+  }
+}

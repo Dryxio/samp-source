@@ -1,0 +1,214 @@
+{
+  "status": "SOURCE_PROPOSED_NOT_COMPILED",
+  "baseline": 223896,
+  "pending_disjoint_subtracted": [
+    "Statistics36610/2338",
+    "Rijndael/MT6367"
+  ],
+  "functions": [
+    {
+      "rva": 131552,
+      "size": 49,
+      "inventory_name": "?Add@CheckSum@@QAEXE@Z",
+      "new_unique_potential": 0,
+      "providers": []
+    },
+    {
+      "rva": 131616,
+      "size": 39,
+      "inventory_name": "?Add@CheckSum@@QAEXPAEI@Z",
+      "new_unique_potential": 39,
+      "providers": [
+        {
+          "site_rva": 131639,
+          "target_rva": 131552
+        }
+      ]
+    },
+    {
+      "rva": 131664,
+      "size": 38,
+      "inventory_name": "?Add@CheckSum@@QAEXI@Z",
+      "new_unique_potential": 38,
+      "providers": [
+        {
+          "site_rva": 131687,
+          "target_rva": 131552
+        }
+      ]
+    },
+    {
+      "rva": 131712,
+      "size": 38,
+      "inventory_name": "?Add@CheckSum@@QAEXG@Z",
+      "new_unique_potential": 38,
+      "providers": [
+        {
+          "site_rva": 131735,
+          "target_rva": 131552
+        }
+      ]
+    },
+    {
+      "rva": 152976,
+      "size": 25,
+      "inventory_name": "sub_10025590",
+      "new_unique_potential": 0,
+      "providers": []
+    },
+    {
+      "rva": 153024,
+      "size": 10,
+      "inventory_name": "??0DataBlockEncryptor@@QAE@XZ",
+      "new_unique_potential": 0,
+      "providers": []
+    },
+    {
+      "rva": 153040,
+      "size": 1,
+      "inventory_name": "??1DataBlockEncryptor@@QAE@XZ",
+      "new_unique_potential": 0,
+      "providers": []
+    },
+    {
+      "rva": 153056,
+      "size": 7,
+      "inventory_name": "?IsKeySet@DataBlockEncryptor@@QBE_NXZ",
+      "new_unique_potential": 0,
+      "providers": []
+    },
+    {
+      "rva": 153072,
+      "size": 67,
+      "inventory_name": "?SetKey@DataBlockEncryptor@@QAEXQBE@Z",
+      "new_unique_potential": 67,
+      "providers": [
+        {
+          "site_rva": 153093,
+          "target_rva": 319680
+        },
+        {
+          "site_rva": 153110,
+          "target_rva": 319680
+        },
+        {
+          "site_rva": 153126,
+          "target_rva": 319968
+        }
+      ]
+    },
+    {
+      "rva": 153152,
+      "size": 8,
+      "inventory_name": "?UnsetKey@DataBlockEncryptor@@QAEXXZ",
+      "new_unique_potential": 0,
+      "providers": []
+    },
+    {
+      "rva": 153168,
+      "size": 27,
+      "inventory_name": "sub_10025650",
+      "new_unique_potential": 0,
+      "providers": []
+    },
+    {
+      "rva": 153200,
+      "size": 362,
+      "inventory_name": "?Encrypt@DataBlockEncryptor@@QAEXPAEH0PAH@Z",
+      "new_unique_potential": 362,
+      "providers": [
+        {
+          "site_rva": 153240,
+          "target_rva": 277504
+        },
+        {
+          "site_rva": 153261,
+          "target_rva": 277504
+        },
+        {
+          "site_rva": 153311,
+          "target_rva": 814560
+        },
+        {
+          "site_rva": 153365,
+          "target_rva": 277504
+        },
+        {
+          "site_rva": 153392,
+          "target_rva": 131616
+        },
+        {
+          "site_rva": 153420,
+          "target_rva": 320064
+        },
+        {
+          "site_rva": 153527,
+          "target_rva": 320064
+        }
+      ]
+    },
+    {
+      "rva": 153568,
+      "size": 443,
+      "inventory_name": "?Decrypt@DataBlockEncryptor@@QAE_NPAEH0PAH@Z",
+      "new_unique_potential": 443,
+      "providers": [
+        {
+          "site_rva": 153718,
+          "target_rva": 320864
+        },
+        {
+          "site_rva": 153866,
+          "target_rva": 320864
+        },
+        {
+          "site_rva": 153909,
+          "target_rva": 131616
+        },
+        {
+          "site_rva": 153949,
+          "target_rva": 814560
+        }
+      ]
+    }
+  ],
+  "potential_unique": 987,
+  "minimal_encryptor_closure_unique": 911,
+  "active_owner_collisions": [],
+  "source025_direct_bytes": 0,
+  "ABI": {
+    "DataBlockEncryptor": {
+      "size": 586,
+      "keyEncrypt": 0,
+      "keyDecrypt": 282,
+      "cipherInst": 564,
+      "keySet": 585,
+      "virtual_methods": false,
+      "allocations": "none; fields have complete vendor types; destructor empty"
+    },
+    "CheckSum": {
+      "size": 10,
+      "r": 0,
+      "c1": 2,
+      "c2": 4,
+      "sum": 6,
+      "allocation": "stack; fullsource constructor/clear/get"
+    }
+  },
+  "notes": [
+    "Get helper255B0/4 not precredited: emitted inline helper may need identity audit if selected.",
+    "Lifetime constructor/destructor, IsKeySet, UnsetKey and checksum primitive/clear/ctor already credited CP31 and contribute zero.",
+    "Only external providers beyond new AES/MT are memmoveC6DE0; memcpy intrinsic emits inline /Oi.",
+    "No new header, static ownership, dynamic memory or EH."
+  ],
+  "sources": [
+    {
+      "path": "build/agent-independent/eval_vendor_data_block_encryptor.cpp",
+      "sha256": "d76ce7876e230d5d5ab7b5575d25edc6155b52783a041dcd6c4ca6384e294320"
+    },
+    {
+      "path": "build/agent-independent/eval_vendor_checksum.cpp",
+      "sha256": "a8459b3c8e614c749ef6c733a20a18726354ec18e8b0c91d9845b3e3b6395c78"
+    }
+  ]
+}

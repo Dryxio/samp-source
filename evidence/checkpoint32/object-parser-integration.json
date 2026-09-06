@@ -1,0 +1,64 @@
+{
+  "status": "ACCEPTED_AFTER_COMPLETE_LINK_REVIEW",
+  "run": "cp32-object-parser-linked2",
+  "ob1": "cp32-object-parser-ob1b",
+  "ob2": "cp32-gui-overwrite-ob2",
+  "new_unique_code_bytes": 1660,
+  "direct_025_accepted_bytes": 451,
+  "total_direct_025_accepted_bytes": 15540,
+  "verification": "2423 complete regions; 1660 unique new code. Object865 plus parser795; previously covered Entity33 is not counted again. Two RPC EH21/maps36 complete. Ten standard negative controls and actor ABI pass. Three additional alias parser rejection cases pass.",
+  "symbolic_exception_code_bytes": 387,
+  "existing_025_symbolic_code_bytes": 47,
+  "alias_provider_evidence_run": "cp32-object-parser-linked2",
+  "alias_provider_evidence": [
+    {
+      "alias": "_r5_rw_OperatorNew",
+      "canonical": "??2@YAPAXI@Z",
+      "actual_va": 268631930,
+      "owner": "libcpmt:newop.obj",
+      "reference_rva": "0xc627a",
+      "wrapper_bytes": 0
+    },
+    {
+      "alias": "_r5_rw_Read_thiscall_assembly_only",
+      "canonical": "?Read@R5MemoryReaderView@@QAEIPAXI@Z",
+      "actual_va": 268623968,
+      "owner": "closure_memory_reader.obj",
+      "reference_rva": "0xba7d0",
+      "wrapper_bytes": 0
+    }
+  ],
+  "alias_controls": [
+    {
+      "case": "duplicate alias",
+      "result": "REJECTED",
+      "reason": "conflicting linker alias"
+    },
+    {
+      "case": "alias with local implementation",
+      "result": "REJECTED",
+      "reason": "alias has a source implementation"
+    },
+    {
+      "case": "chained aliases",
+      "result": "REJECTED",
+      "reason": "unsupported chained alias"
+    }
+  ],
+  "throughput": {
+    "start": {
+      "start_utc": "2026-09-05T20:11:21Z",
+      "accepted_code_bytes": 173141,
+      "proof": "evidence/checkpoint32/dxut-state-extra-acceptance.json",
+      "agents": 3,
+      "coordination_included": true
+    },
+    "measured_at": "2026-09-05T22:58:25.428533+00:00",
+    "elapsed_seconds": 10024.428533,
+    "new_unique_accepted_bytes": 24609,
+    "bytes_per_hour": 8837.650915297318,
+    "direct_025_baseline": 1523,
+    "new_direct_025_accepted_bytes": 14017,
+    "note": "Coordination, failed trials and integration included; not causal speedup."
+  }
+}

@@ -1,0 +1,212 @@
+{
+  "status": "SOURCE_PROPOSAL_UNCOMPILED_NO_ACCEPTED_CREDIT",
+  "baseline_proof": "evidence/checkpoint32/name-distance-acceptance.json",
+  "baseline_union": 209409,
+  "rows": [
+    {
+      "name": "ScreenshotFilename",
+      "rva": "0x62270",
+      "size": 255,
+      "unique": 255,
+      "calls": [
+        {
+          "site": "0x6227f",
+          "target": "0xc3ad0",
+          "true_provider": "GetSAMPPath",
+          "own_proposed": true
+        },
+        {
+          "site": "0x622a0",
+          "target": "0xb7b0",
+          "true_provider": "?assign@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAEAAV12@PBDI@Z",
+          "own_proposed": false
+        },
+        {
+          "site": "0x622cd",
+          "target": "0x621c0",
+          "true_provider": "operator_plus",
+          "own_proposed": true
+        },
+        {
+          "site": "0x622ec",
+          "target": "0xc7353",
+          "true_provider": "_sprintf",
+          "own_proposed": false
+        },
+        {
+          "site": "0x62302",
+          "target": "0xc648a",
+          "true_provider": "??3@YAXPAX@Z",
+          "own_proposed": false
+        },
+        {
+          "site": "0x62361",
+          "target": "0xb7b0",
+          "true_provider": "?assign@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAEAAV12@PBDI@Z",
+          "own_proposed": false
+        }
+      ]
+    },
+    {
+      "name": "GetSAMPPath",
+      "rva": "0xc3ad0",
+      "size": 6,
+      "unique": 6,
+      "calls": []
+    },
+    {
+      "name": "append_substring",
+      "rva": "0x61f60",
+      "size": 233,
+      "unique": 233,
+      "calls": [
+        {
+          "site": "0x61f72",
+          "target": "0xc631c",
+          "true_provider": "?_Xran@_String_base@std@@QBEXXZ",
+          "own_proposed": false
+        },
+        {
+          "site": "0x61f94",
+          "target": "0xc6374",
+          "true_provider": "?_Xlen@_String_base@std@@QBEXXZ",
+          "own_proposed": false
+        },
+        {
+          "site": "0x61fae",
+          "target": "0xc6374",
+          "true_provider": "?_Xlen@_String_base@std@@QBEXXZ",
+          "own_proposed": false
+        },
+        {
+          "site": "0x61fc1",
+          "target": "0xb120",
+          "true_provider": "?_Copy@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@IAEXII@Z",
+          "own_proposed": false
+        }
+      ]
+    },
+    {
+      "name": "append_chars",
+      "rva": "0x62050",
+      "size": 271,
+      "unique": 271,
+      "calls": [
+        {
+          "site": "0x62096",
+          "target": "0x61f60",
+          "true_provider": "append_substring",
+          "own_proposed": true
+        },
+        {
+          "site": "0x620b3",
+          "target": "0xc6374",
+          "true_provider": "?_Xlen@_String_base@std@@QBEXXZ",
+          "own_proposed": false
+        },
+        {
+          "site": "0x620cd",
+          "target": "0xc6374",
+          "true_provider": "?_Xlen@_String_base@std@@QBEXXZ",
+          "own_proposed": false
+        },
+        {
+          "site": "0x620e0",
+          "target": "0xb120",
+          "true_provider": "?_Copy@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@IAEXII@Z",
+          "own_proposed": false
+        }
+      ]
+    },
+    {
+      "name": "operator_plus",
+      "rva": "0x621c0",
+      "size": 167,
+      "unique": 167,
+      "calls": [
+        {
+          "site": "0x621fc",
+          "target": "0xb6c0",
+          "true_provider": "?assign@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAEAAV12@ABV12@II@Z",
+          "own_proposed": false
+        },
+        {
+          "site": "0x6221f",
+          "target": "0x62050",
+          "true_provider": "append_chars",
+          "own_proposed": true
+        },
+        {
+          "site": "0x6223b",
+          "target": "0xb6c0",
+          "true_provider": "?assign@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAEAAV12@ABV12@II@Z",
+          "own_proposed": false
+        },
+        {
+          "site": "0x6224c",
+          "target": "0xc648a",
+          "true_provider": "??3@YAXPAX@Z",
+          "own_proposed": false
+        }
+      ]
+    },
+    {
+      "name": "std_string_destructor",
+      "rva": "0x13f30",
+      "size": 38,
+      "unique": 38,
+      "calls": [
+        {
+          "site": "0x13f3d",
+          "target": "0xc648a",
+          "true_provider": "??3@YAXPAX@Z",
+          "own_proposed": false
+        }
+      ],
+      "reason": "Real E3783 operator+ EH cleanup tailjumps13F30. Destructor mustbeemitted/matched/accepted, not implicitdependency credit."
+    }
+  ],
+  "main_potential": 970,
+  "operator_plus_EH": {
+    "handler": "0xe3788",
+    "handler_size": 10,
+    "cleanup": "0xe3780",
+    "cleanup_size": 8,
+    "FuncInfo": {
+      "rva": "0xfb5e0",
+      "size": 28
+    },
+    "UnwindMap": {
+      "rva": "0xfb5d8",
+      "size": 8
+    },
+    "real_cleanup_provider": "std::string::~basic_string13F30/38, newlyrequired sourceemittedfromsameheader"
+  },
+  "source025_credit_potential": 255,
+  "provenance": "0.2.5 client/subclass.cpp287 GetScreenshotFileName loop is absentbase. R5changes: returnint index; basepath GetSAMPPath insteadGetModuleFileName/string substr; suffixadds\\screens\\; sprintfCRT insteadwsprintfWin32; bufferMAX_PATH260zeroed. Otherstringappend/providers comeMSVC2003headers, GetSAMPPath6 frombase main.cpp151, no025creditforthese.",
+  "data": [
+    {
+      "name": "screenshot format suffix",
+      "rva": "E98F0",
+      "size": 24,
+      "value": "\\screens\\sa-mp-%03i.png"
+    },
+    {
+      "name": "szSAMPDir",
+      "rva": "26E918",
+      "size": 261,
+      "status": "IDENTIFIED_NOT_ACCEPTED",
+      "initial": "PEvirtualzerofill; actualglobalCHAR[MAX_PATH+1] main.cpp13",
+      "writers": "SetupDirectoriesC3C70, matching base main.cpp213, explicitly zeros261 atC3C7E/83/85 then GetCurrentDirectoryA(261,szSAMPDir) C3CA8 or sprintf(szSAMPDir,\"%s\\SAMP\",GTApathC92368) C3CC5. SetupDirectories NOT implemented or credited bythisproposal."
+    }
+  ],
+  "API_bindings": {
+    "FindFirstFileA": "KERNEL32.dll verifiedPEIAT E524C, call6232C withbuffer and WIN32_FIND_DATAA pointer",
+    "FindClose": "KERNEL32.dll verifiedPEIAT E5244,call62334(validhandle)",
+    "sprintf": "pinnedCRT C7353 at622EC; formattemporary std::string operator+621C0",
+    "GetSAMPPath": "C3AD0 returnsaddress26E918, trueexistingmainowner; notGetCachePathneighborC3AE0"
+  },
+  "boundaries": "No screenshotcapture invoked, no filesystemwritesexecuted. Functiononlyqueriesfilenameavailability whenruntimeinvoked. Usestrue std::string callerobject with accepted allocator/runtime, nofake ownerallocations.",
+  "static_lifetime": "All std::string temporary destructors use real currentSDK/acceptedoperatorDelete; EHcleanup mustmatchcompletely beforeacceptance.",
+  "total_potential": 988
+}

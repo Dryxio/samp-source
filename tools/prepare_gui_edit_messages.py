@@ -1,0 +1,35 @@
+"""Recover R5 character dispatch, overwrite and caret advancement."""
+from prepare_checkpoint32 import definition
+from verify import ROOT
+def prepare():
+ s=(ROOT/'vendor/upstream/saco/d3d9/common/DXUTgui.cpp').read_text();b=definition(s,'CDXUTEditBox::MsgProc');start=b.index('\t\t\t\t\tbool bPlaceCaret;');end=b.index('                    ResetCaretBlink();',start)
+ update='''                            PlaceCaret( m_nCaret + 1 );
+                            m_nSelStart = m_nCaret;'''
+ replacement="""                    int nIndex;
+                    bool bPlaceCaret = false;
+                    if( !m_bInsertMode && m_nCaret < m_Buffer.GetTextSize() )
+                    {
+                        if( (WCHAR)wParam > 255 )
+                        {
+                            m_Buffer[m_nCaret] = (WCHAR)wParam;
+"""+update+"""
+                        }
+                        else
+                            bPlaceCaret = m_Buffer.OverwriteChar(m_nCaret, (CHAR)wParam);
+                    }
+                    else
+                    {
+                        nIndex = m_nCaret;
+                        if( (WCHAR)wParam > 255 )
+                            bPlaceCaret = m_Buffer.InsertChar(nIndex, (WCHAR)wParam);
+                        else
+                            bPlaceCaret = m_Buffer.InsertChar(nIndex, (CHAR)wParam);
+                    }
+                    if( bPlaceCaret )
+                    {
+"""+update+"""
+                    }
+"""
+ b=(b[:start]+replacement+b[end:]).replace('(TCHAR)wParam','(WCHAR)wParam')
+ (ROOT/'client/saco/closure_gui_edit_messages.cpp').write_text('#include "d3d9/common/dxstdafx.h"\n#define DXUT_MAX_EDITBOXLENGTH 0xFFFF\n'+b+'\n')
+if __name__=='__main__':prepare()

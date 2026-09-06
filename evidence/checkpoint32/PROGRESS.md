@@ -889,3 +889,555 @@ All four bodies identical in pinned base/local0.2.5, no adaptations or direct tr
 Current accepted link cp32-gui-lifecycle-linked2; Ob1 cp32-gui-lifecycle-ob1, Ob2 cp32-ime-ob2. Full units build/gui-lifecycle-units.txt; generator tools/prepare_gui_lifecycle.py; contract/seeds gui-lifecycle; review build/review_gui_lifecycle.py; acceptance/integration gui-lifecycle. All processes terminal. Local0.2.5 still prioritized where it provides missing implementations; recent SDK bodies identical to base.
 
 Next candidates confirmed by existing full scan (discovery only): Control SetElement147 at8A2D0 calls actual element-array Add89C10; EditBox SetTextFloatArray230 at8B100 uses ANSI formatter/StringCopyWorker/SetText, check actual R5 wide buffer contract before transfer; IME GetReadingWindowOrientation349 at8B1F0 needs horizontal-reading static and actual registry API identities/strings. Broader missing0.2.5 subsystem implementations remain useful alternatives. No matches credited for these candidates. Whole DLL remains incomplete.
+
+
+## Complete GUI element setter, numeric formatting and IME orientation
+
+GUI-elements acceptance adds908 unique exact code bytes, reaching165,072 /930,756 (17.73526%). SetElement147 at8A2D0, SetTextFloatArray230 at8B100, GetReadingWindowOrientation349 at8B1F0, actual element-array Add40 at89C10 and SetSizeInternal142 at86BD0. Five full source strings and one-byte horizontal-reading state at14252A verified, excluded from code credit. 1931 whole regions, all actual targets/PE relocations,10 negative controls and existing ABI pass. No new imports/unimplemented providers; eight old pending unchanged.
+
+All three bodies identical to pinned base/local0.2.5, no adaptation/direct transfer credit; total1,523 unchanged. Original numeric ANSI formatting preserved and calls actual accepted ANSI SetText; no speculative conversion to wide strings. IME source compatibility defines preserved. Registry imports already accepted and reused; no registry/GUI/game execution. Only two new units compiled,147 reused, one link. Snapshot preparation was slow (~minutes) but observed live PowerShell/cl and terminal success; no duplicate launch. No push/deployment.
+
+Current accepted link cp32-gui-elements-linked; Ob1 cp32-gui-elements-ob1, Ob2 cp32-ime-ob2; full units build/gui-elements-units.txt. Generator tools/prepare_gui_elements.py, review build/review_gui_elements.py, contract/seeds and acceptance/integration gui-elements. All processes terminal.
+
+Next full-scan discovery-only candidates: DialogResourceManager destructor181 at8CD20, ComboBox AddItem196 at8A6A0 and FindItem126 at881D0, ParseFloatArray171 at89580, EditBox/IME constructors256 at8F280/8F8F0 and their complete vtable closure (Render/MsgProc unresolved). ScrollBar constructor166 at8ECD0 may now close using accepted input/render providers, then dialog AddSlider165 at90F20 etc. D3DXCOLOR conversion317 at84390 is a candidate but check actual prior credit/identity. Continue broader0.2.5 missing bodies when actual source adds information; SDK unchanged transfers no longer provide a unique advantage. Whole DLL incomplete.
+
+
+## Complete control and scrollbar lifetime / virtual tables
+
+GUI-control-lifetime acceptance adds474 unique code bytes, reaching165,546 /930,756 (17.78619%). Control constructor80 at8E240, destructor66 at8E380, ScrollBar constructor166 at8ECD0, destructor11 at8ED80, SetTextColor19 at87AC0, full compiler deleting destructors30 each at91220/913D0 and original inline virtual defaults plus array SetSize5 at89B00.503 total new-region code bytes,474 unique after overlap. Complete80-byte vtables atEB338/EB528,40 actual slot targets resolved; data excluded from code coverage. 1959 whole regions, full target/PE relocation check,10 negative controls and existing actor ABI pass. Eight old pending unchanged, no new imports/provider gaps.
+
+Five unchanged original bodies identical to0.2.5/base; direct transfer credit unchanged1,523. Source normal C++, original no-op/default virtual bodies verified by actual constructor table identities, not fabricated stubs. Compiler weak vector/scalar deleting destructor aliases explicitly checked. Base destructor isolated compile66 matches, prior fullGUI114 does not; no semantic edits, compiler context is relevant. Initial link reported missing SetTextColor and ScrollBar destructor; added actual definitions, only lifetime unit recompiled and link2 passed. Failed artifacts retained. No GUI/game execution, push/deployment.
+
+Current accepted link cp32-gui-control-lifetime-linked2; Ob1 cp32-gui-control-lifetime-ob1b, Ob2 cp32-ime-ob2. Full units build/gui-control-lifetime-units.txt. Generator tools/prepare_gui_control_lifetime.py, review build/review_gui_control_lifetime.py, contract/seeds and acceptance/integration gui-control-lifetime. All processes terminal.
+
+Next: close constructor families now that base control and scroll dependencies are complete. Full-scan candidates Button50 at8E4A0, CheckBox43 at8E6A0, RadioButton36 at8E800, Slider65 at8EC60 and AddSlider165 at90F20. Actual full virtual tables must determine tiny method/destructor identities; do not select arbitrary identical short-body candidates (Slider dtor has many matches). Static/Button render providers may need additional closure. ResourceManager destructor181 at8CD20 requires CUniBuffer::Uninitialize original placeholders. Broader0.2.5 missing implementation families remain alternatives; no speculative coverage. Whole DLL incomplete.
+
+
+## Complete static/button/check/radio/slider constructors and virtual closure
+
+GUI-widget-lifetime acceptance adds760 unique exact bytes, reaching166,306 /930,756 (17.86784%). Static constructor96 at8E3D0, Button50 at8E4A0, CheckBox43 at8E6A0, Radio36 at8E800, Slider65 at8EC60. Five complete tables atEB388/EB3D8/EB428/EB480/EB4D8, sizes80/80/84/88/80, all103 actual slot targets.24 full new code regions760 bytes include original inline virtual focus/hotkey/point methods and compiler deleting destructors. Actual tiny destructor targets recovered through deleting-destructor calls, not arbitrary identical candidates. 2004 whole regions, all original/linked targets and PE relocations,10 negative controls and existing actor ABI pass. Eight old pending unchanged, no new imports/provider gaps.
+
+Six of seven extracted bodies identical to0.2.5/base. Slider existing field_76=false absent0.2.5 and required by complete65-byte R5 constructor. No changes to current base bodies, no direct0.2.5 credit (total1,523 unchanged). First link missing Slider/CheckBox ContainsPoint; added complete original bodies, only widget unit recompiled and link2 passed. Weak vector/scalar deleting aliases explicitly checked for all five types. No GUI/game execution, push/deployment. All failed snapshots retained.
+
+Current accepted link cp32-gui-widget-lifetime-linked2; Ob1 cp32-gui-widget-lifetime-ob1b, Ob2 cp32-ime-ob2; units build/gui-widget-lifetime-units.txt. Generator tools/prepare_gui_widget_lifetime.py; review build/review_gui_widget_lifetime.py; contract/seeds and acceptance/integration gui-widget-lifetime. All processes terminal.
+
+Next: AddSlider165 at90F20 now has constructor closure, needs original AddControl47 at8C6C0, InitControl98 at8C650 and actual SetRange88620 (inspect size/source). Full-scan AddStatic216/AddButton223/AddCheckBox237/AddRadio261 have no candidates even attached-data mode; inspect R5 allocation size and source/TU context before accepting. These factories may unlock app-level GUI initialization. Other GUI/0.2.5 families remain open. Whole DLL incomplete.
+
+
+## Complete dialog control factories and shared initialization
+
+GUI-factories acceptance adds1,041 unique exact bytes, reaching167,347 /930,756 (17.979685%). AddSlider165 at90F20, AddStatic146 at90C70, AddButton153 at90D10, AddCheckBox167 at90DB0, AddRadioButton191 at90E60; SetRange34 at88620, InitControl98 at8C650, AddControl47 at8C6C0, StaticSetText69 at87B40, control-array Add40 at89A10.1110 new-region code bytes,1041 unique after prior overlap. 1999 full regions, every relocation and actual original/linked target,10 negative controls and existing ABI pass. No new pending/data/imports; eight old pending unchanged.
+
+Nine complete factory/shared/SetText bodies identical to0.2.5/base; no semantic changes/direct transfer credit, total1,523 unchanged. Initial isolated factories sizes235/216/223/237/261 fail; placing derived constructors in same TU alone unchanged. Including full base-control constructors/destructors in same TU yields exact165/146/153/167/191 (70 fewer bytes each), consistent with removal of compiler exception overhead after complete constructor knowledge. No flags/stubs/masks used. Full previous-region hashes/fixup targets preserved after owner migration. First link missing StaticSetText; complete original69-byte provider added to separate helpers TU, incremental compile/link2 passes. All failed snapshots retained.
+
+IMPORTANT current ownership: prepare_gui_widget_lifetime.py imports BASE_NAMES from prepare_gui_control_lifetime.py and emits all base/scroll lifetime definitions followed by derived constructors and factories. Do NOT link standalone closure_gui_control_lifetime anymore (file retained for provenance); its seeds migrated into closure_gui_widget_lifetime. Run widget generator if BASE_NAMES changes. prepare_gui_factories.py emits InitControl/AddControl/SetRange/StaticSetText only. Current full units build/gui-factories-units.txt excludes standalone control unit.
+
+Current accepted link cp32-gui-factories-linked2; Ob1 cp32-gui-factories-text-ob1, Ob2 cp32-ime-ob2. Contract/seeds gui-factories; review build/review_gui_factories.py; acceptance/integration gui-factories. All processes terminal. No GUI/game execution, push/deployment.
+
+Next: GUI factory foundations can unblock app-level dialog initialization. Remaining ComboBox/ListBox/EditBox allocation paths need verified full layouts and virtual closure; don't fabricate unknown layout. Resource manager destruction/UniBuffer Uninitialize and ComboBox items or ParseFloatArray remain candidates. Broader missing0.2.5 implementation families still worth prioritizing when they add actual source information. Whole DLL incomplete.
+
+
+## Complete ComboBox item ownership, lookup and selection
+
+GUI-combo-items acceptance adds947 unique exact bytes, reaching168,294 /930,756 (18.08143%).12 complete original methods include AddItem196 at8A6A0, RemoveItem92 at8A770, RemoveAllItems95 at8C790, FindItem126 at881D0, ContainsItem28 at8A7D0, selected data/item29/23 at88250/88270, GetItemData string/index49/39 at88290/882D0, select index/text/data53/78/101 at88300/88340/88390. Four complete actual typed array providers Remove68 at86940, Add40 at89BF0, SetSize5 at89BE0, SetSizeInternal142 at86CF0.1164 new-region code bytes,947 unique after prior overlap. 2015 whole regions, all actual target/PE relocations,10 negative controls and existing ABI pass. No new pending/data/imports; eight old pending unchanged.
+
+All12 source bodies identical to0.2.5/base, including both GetItemData overloads. No adaptations/direct transfer credit, total1,523 unchanged. Original AddItem allocates0x115 bytes and zeroes0x45 dwords+1 byte: packed ComboBoxItem text256+data pointer4+RECT16+bool1. This verifies actual used allocation layout, separate from unresolved ListBox item layout. One new unit compiled once, one link. Initial source-comparison script ambiguous overload fixed by explicit overload index; failed early command log retained. No GUI/game execution, push/deployment.
+
+Current accepted link cp32-gui-combo-items-linked; Ob1 cp32-gui-combo-items-ob1b, Ob2 cp32-ime-ob2; full units build/gui-combo-items-units.txt. Generator tools/prepare_gui_combo_items.py; review build/review_gui_combo_items.py; contract/seeds and acceptance/integration gui-combo-items. Retain previous owner migration: standalone closure_gui_control_lifetime excluded, base definitions owned by closure_gui_widget_lifetime. All processes terminal.
+
+Next: ComboBox constructor initializes embedded scrollbar (already complete), destructor calls now accepted RemoveAllItems. Add constructor/destructor and actual virtual-table providers (OnFocusOut,OnHotkey,SetTextColor) using complete source context; full R5 layout still require exact constructor/table comparison. Then dialog AddComboBox may close and broaden app GUI init. Remaining IME/EditBox or resource teardown and broader missing0.2.5 sources still open. Whole DLL incomplete.
+
+
+## Complete ComboBox lifetime, factory and virtual table
+
+GUI-combo-lifetime adds464 unique exact bytes, reaching168,758 /930,756 (18.13128%). Constructor112 at912D0, destructor46 at91370, AddComboBox141 at91450, OnFocusOut12 at851A0, SetTextColor32 at87D40, OnHotkey96 at88170, deleting destructor30 at914E0, OnInit16 at91360, CanHaveFocus23 at91340.508 new-region code bytes,464 unique after overlap. Complete80-byte vtable atEB678 and20 actual slots; compiler weak alias checked. 2025 whole regions, all full original/linked target/relocation checks,10 negative controls and existing ABI pass. Eight old pending unchanged, no new imports/unimplemented providers.
+
+Six original bodies identical to0.2.5/base; no semantic changes or direct transfer credit (total1,523 unchanged). Destructor trials95 with lifetime context,108 with item context alone,95 with both; full known RemoveAllItems->SetTrackRange->Cap/UpdateThumbRect chain yields46. This removes compiler exception overhead with source visibility alone. First narrow track trial lacked RectHeight definition, fixed original helper; preserve-caller trial lacked RectWidth, fixed original helper. Failed objects/snapshots/logs preserved. Moving track helpers out of controls TU changed ComboRender,ComboUpdateRects,Scroll,ListBoxUpdateRects; moving those callers alongside helpers restores all old full hashes/target sequences. No arbitrary masking, annotations or source behavior substitutions.
+
+IMPORTANT ownership: closure_gui_widget_lifetime now owns full original ComboBox item block and destructor; standalone closure_gui_combo_items excluded from current units/seeds (old generator/file retained as experiment/provenance). Also widget owns Cap,UpdateThumbRect,SetTrackRange,ComboBoxRender,ComboBoxUpdateRects,Scroll and adapted ListBoxUpdateRects, removed from closure_gui_controls generator. Widget imports layout_header/adapted from prepare_gui_listbox; run widget as well if these change. Existing standalone closure_gui_control_lifetime remains excluded. Two affected consumer generators must stay coordinated; avoid reintroducing duplicate strong definitions.
+
+Current accepted link cp32-gui-combo-lifetime-linked3; Ob1 cp32-gui-combo-lifetime-preserve2-ob1, Ob2 cp32-ime-ob2. Full units build/gui-combo-lifetime-units.txt. Review build/review_gui_combo_lifetime.py; contract/seeds and acceptance/integration gui-combo-lifetime. All processes terminal. No GUI/game execution, push/deployment.
+
+Next: complete GUI control families now broadly available; prioritize app-level dialog initialization or resource manager destruction/UniBuffer Uninitialize and remaining EditBox/IME matching. ListBox allocations still need unknown layout, no speculation. Broader missing0.2.5 implementations remain candidates where they add actual information. Whole DLL incomplete.
+
+
+## Complete wide edit-buffer numeric parser
+
+GUI-parse-float adds171 unique exact bytes, reaching168,929 /930,756 (18.14965%). Entire ParseFloatArray171 at89580 matches with existing StringCopyWorkerW and actual new CRT wcstod provider. Original wcstod379-byte inventory chunk atCABF0 and full hash checked, linked provider LIBCMT:wcstod.obj at1002C0CE, CRT excluded from reconstructed code coverage. 2027 whole regions, all original/linked relocations/targets,10 negative controls and existing ABI pass. Eight old pending unchanged.
+
+Source0.2.5 uses TCHAR/StringCchCopy/strtod, while pinned base already uses WCHAR/StringCchCopyW/wcstod matching actual R5 wide buffer. No adaptation to base and no direct0.2.5 transfer credit (total1,523 unchanged). One new unit compiled once, one link. No GUI/game execution, push/deployment.
+
+Current accepted link cp32-gui-parse-float-linked; Ob1 cp32-gui-parse-float-ob1, Ob2 cp32-ime-ob2; units build/gui-parse-float-units.txt. Generator tools/prepare_gui_parse_float.py; review build/review_gui_parse_float.py; contract/seeds and acceptance/integration gui-parse-float. Previous owner migrations preserved. All processes terminal.
+
+Next concrete app-level lead: client/saco/unkclass4.cpp CUnkClass4::ResetDialogControls creates3 sliders and sets colors; AddSlider now accepted. Compile constructor/reset with existing base headers and check full R5 candidates; GetSlider/SetColor dependencies likely tractable. unkclass3 ResetDialogControls still requires actual ListBox and IME constructors, avoid premature coverage. Resource-manager teardown and remaining EditBox/IME sources still open. Whole DLL incomplete.
+
+
+## App-level three-slider dialog initialization
+
+GUI-slider-panel adds420 unique exact bytes, reaching169,349 /930,756 (18.19478%). CUnkClass4 constructor54 at71660, ResetDialogControls366 at716A0, actual GetControl(ID)46 at87240 and GetControl(ID,type)60 at87270.526 new-region bytes,420 unique after prior overlap. 2031 whole regions, all original/linked targets/PE relocations,10 negative controls and existing actor ABI pass. Eight old pending unchanged; no new import/data/provider gaps. Full setup includes three AddSlider calls and inline GetSlider/SetColor with exact original float constants.
+
+No counterpart located in local0.2.5 by filename or distinctive calls/colors; no direct transfer credit (total1,523 unchanged). Both lookup overloads identical to0.2.5/base. Existing unkclass4.cpp/header unchanged, no fabricated members in unknown gap. Initial link missing typed GetControl, original overloads added in new closure_gui_lookup unit. Only these two new units compiled. Review script now preserves previous explicit single-chunk wcstod proof in addition to usual discontiguous CRT chunks; stale review failures retained, no gate weakening. No GUI/game execution, push/deployment.
+
+Current accepted link cp32-gui-slider-panel-linked2; Ob1 cp32-gui-slider-panel-lookup-ob1, Ob2 cp32-ime-ob2; units build/gui-slider-panel-units.txt. New generator tools/prepare_gui_lookup.py; class uses existing client/saco/unkclass4.cpp. Contract/seeds gui-slider-panel, review build/review_gui_slider_panel.py, acceptance/integration gui-slider-panel. All processes terminal. Prior widget/control/combo owner migrations unchanged.
+
+Next: broader app-level GUI sources now viable; unkclass3 reset still gated by actual ListBox/IME constructors/layout. Evaluate resource-manager teardown/UniBuffer Uninitialize or remaining EditBox Render/MsgProc against R5. Wider0.2.5 missing implementations remain prioritized when available. Whole DLL incomplete.
+
+
+## Complete R5 EditBox rendering including password display
+
+GUI-edit-render adds1,253 unique exact bytes, reaching170,602 /930,756 (18.32940%). Entire Render1253 at8F400 identified by actual GetFont870C0/PlaceCaret85470/CPtoX9BCF0/drawing calls. Original field126 branch splits plain/password rendering; two actual MaskPasswordString85920 calls wrap text substrings in password path. Base and0.2.5 render bodies identical846 and omit that branch. Added normal C++ conditional, duplicating original text/selection block and wrapping both DrawText strings; all other logic unchanged, including disabled blink and visible/enabled caret condition. Full1253 matches first compile.
+
+2033 whole regions, all original/linked target/PE relocation checks,10 negative controls and existing actor ABI pass. New actual user32 IntersectRect import identity checked. No new pending/data; eight old pending unchanged. No direct0.2.5 transfer credit (total1,523 unchanged). No GUI/game execution, push/deployment. R5 diagnostic disassembly retained build/edit-render-r5.asm.
+
+Current accepted link cp32-gui-edit-render-linked; Ob1 cp32-gui-edit-render-ob1, Ob2 cp32-ime-ob2; units build/gui-edit-render-units.txt. Generator tools/prepare_gui_edit_render.py; review build/review_gui_edit_render.py; contract/seeds and acceptance/integration gui-edit-render. All processes terminal; previous owner migrations unchanged.
+
+Next: EditBox MsgProc original at89320 has545 inventory code bytes (source565 may include attached tables); identified by actual PlaceCaret/InsertChar calls. Base body has unfinished overwrite else branch and does not use bPlaceCaret after insert, suspicious cast-direction logic; recover actual behavior from R5, do not fix by intuition. Actual InsertChar WCHAR at9BA10 and CHAR at9BAA0 still need complete providers; source fullscan candidates143/175. Constructor256 at8F280 now closer to full virtual closure once MsgProc is accepted. IME and ListBox remaining gaps still excluded. Whole DLL incomplete.
+
+
+## Complete wide and DBCS InsertChar
+
+GUI-insert-chars adds318 unique exact bytes, reaching170,920 /930,756 (18.36357%). Full WCHAR overload143 at9BA10 and CHAR/DBCS overload175 at9BAA0 accepted. 2035 whole regions, all actual target/PE relocation checks,10 negative controls and existing actor ABI pass. New kernel32 IsDBCSLeadByteEx import checked. Eight old pending unchanged. Original base bodies unchanged, restore original DXUT_MAX_EDITBOXLENGTH0xFFFF macro after initial missing-define compile failure.0.2.5 only one InsertChar definition, no direct transfer credit (total1,523 unchanged). No GUI/game execution, push/deployment.
+
+Current accepted link cp32-gui-insert-chars-linked; Ob1 cp32-gui-insert-chars-ob1b, Ob2 cp32-ime-ob2; units build/gui-insert-chars-units.txt. Generator tools/prepare_gui_insert_chars.py; review build/review_gui_insert_chars.py; contract/seeds and acceptance/integration gui-insert-chars. All processes terminal.
+
+IMPORTANT next MsgProc evidence: original89320 code545 plus attached switch data. R5 default branch rejects strlen(GetTextA())>=128; overwrite WCHAR>255 uses actual operator[]9B9F0 and updatescaret. Overwrite byte<=255 calls missing method9C170; insert WCHAR>255 calls9BA10, else9BAA0 (base source condition reversed). Both bool-returning paths test result then advancecaret and synchronize selection. Original9C170 full234 code, debug capture build/edit-overwrite-r5.asm. It resembles CHAR InsertChar DBCS conversion, BUT single-byte path constructs temporary CUniBuffer via9C130 with converted WCHAR as constructor size, copies19 bytes to this+nIndex*19, destroys temp via9B9C0! Both actual ctor53 and dtor33 already accepted. Inference to test: typo-style `this[nIndex] = WideCharStr[0]` invoking implicit CUniBuffer(int)/assignment, not ordinary character replacement. Preserve actual behavior, do not silently fix to buffer assignment. DBCS-pending path still calls wide InsertChar9BA10 and clears field8. Missing method not declared in current header; adding method declaration must preserve layout and compile all affected consumers. Alternative explicit typed source view needs rigorous ABI identity, no fabricated shortcut. No bytes credited for this helper or MsgProc yet. Main MsgProc capture build/edit-msg-r5.asm. Whole DLL incomplete.
+
+
+## Recovered exact byte-overwrite helper
+
+GUI-overwrite adds234 unique bytes, reaching171,154 /930,756 (18.38871%). Complete helper9C170 exact first compile when final single-byte branch uses `this[nIndex] = WideCharStr[0]`: implicit CUniBuffer(int) temporary construction at9C130,19-byte object assignment indexed on this, temporary destruction9B9C0. Pending-DBCS branch still calls actual InsertChar(WCHAR)9BA10. Descriptive recovered name OverwriteChar; original symbol name unknown. No behavioral correction of apparent source bug. Nonvirtual method declaration added to vendor/upstream/saco/d3d9/common/DXUTgui.h, no layout change. Generator tools/prepare_gui_overwrite.py reproduces declaration/body.
+
+2036 whole regions, full actual target/PE relocations,10 negative controls and existing actor ABI pass. All affected header consumers recompiled in Ob1 and Ob2, previous complete hashes/fixup target sequences preserved. Eight old pending unchanged, no new import/data/provider gaps. No direct0.2.5 transfer credit (total1,523 unchanged). No GUI/game execution, push/deployment.
+
+Current accepted link cp32-gui-overwrite-linked; Ob1 cp32-gui-overwrite-ob1, **Ob2 cp32-gui-overwrite-ob2** (old cp32-ime-ob2 has stale header). Units build/gui-overwrite-units.txt. Contract/seeds and acceptance/integration gui-overwrite; review build/review_gui_overwrite.py. All processes terminal.
+
+UNACCEPTED MsgProc work preserved: tools/prepare_gui_edit_messages.py/client/saco/closure_gui_edit_messages.cpp not in accepted units/seeds. Corrected R5 branches: switch/cut comparisons WCHAR (base TCHAR wrong), wide insert when>255 elseCHAR, byte overwrite calls recovered helper, bool result controls caret advance, directwide overwrite advancescaret. First duplicated-if form609 bytes, shared initializedbool605; adding both InsertChar definitions sameTU did not change605; WCHAR switch fixes register usage but remains605; ternaryinsert latesttrial5 still605. Full original code545 at89320 with attached tables. Latest candidate snapshot cp32-gui-edit-messages-trial5, discovery-only NOT ACCEPTED. Current generator emits both InsertChar definitions at end; don't link alongside standalone insertion unit without owner migration.
+
+Diagnostic sequence comparison trial5 to original shows all significant instruction differences concentrated around insert call argument loading (at original offsets1A1..1BF): R5 loads m_nCaret once before conditional jump and shares push/lea this, candidate loads it separately in branches, leading to8 extra total bytes/register differences. Hypothesis next: explicit local index before insert condition may reproduce shared load; alternatively function-pointer/type/code context. Preserve complete byte checks, no masks. Old overwritten trial disassembly file build/edit-msg-trial.asm corresponds trial1, regenerate forlatest if needed. Do not count MsgProc until exact including attachedtables/dependencies. Currenthelper acceptance is real progress but fullgoal remains active.
+
+
+## Bounded EditBox MsgProc argument organization experiment (no acceptance)
+
+Trial6 explicit local caret index changes candidate605 to full597, equal to R5 code545+attached52. Still no exact match. Trial7 if/else vs ternary, trial8 removes both InsertChar definitions from candidate TU, trial9 declares index beforebool: all597, all fail. Three additional pointer/reference/character-local variants also597 and fail. Diagnostic disassembly shows register choices only after operand substitutions; this is NOT byte matching and zero bytes credited. Full experiment evidence edit-message-argument-experiment.json explicitly distinguishes diagnostics from acceptance. No accepted units/contracts/source changed; accepted coverage remains171,154 and latestlink cp32-gui-overwrite-linked (Ob1 cp32-gui-overwrite-ob1,Ob2 cp32-gui-overwrite-ob2).
+
+Current tools/prepare_gui_edit_messages.py emits only MsgProc, no InsertChar duplicates anymore; local index declared beforebool, assigned insideinsert branch, both insert overloads useindex, WCHARswitch retained. Unaccepted source not in liveunits/seeds. Latest canonical candidate cp32-gui-edit-messages-trial9;3 ignored evalsources/snapshots cp32-gui-edit-messages-arg-trials. All processes terminal. No push/deployment. Avoid repeating these7 source-organization trials without new evidence; pivot to resource teardown or another larger open family. Whole goal remains active.
+
+
+## Resource teardown closure accepted
+
+Adds336 unique code bytes, reaching171,490 /930,756 (18.424807%). Uninitialize97 at9B750 and manager destructor181 at8CD20 compiled unchanged, both definitions identical in local0.2.5 and pinned base. No new direct0.2.5 credit (total1,523 unchanged). Actual original Dummy_Script functions and pointer stores already accepted; no fabricated placeholders. Complete32-byte EH regionE3C40 (handler+22),44-byte unwind/FuncInfoFBB2C (anchor+16), four array wrappers26 bytes accepted. Full gate,10 negative controls and actor ABI pass; eight pending unchanged. No GUI/game execution, push/deployment.
+
+Current accepted link cp32-gui-resource-teardown-linked; Ob1 cp32-gui-resource-teardown-ob1, Ob2 cp32-gui-overwrite-ob2. Units build/gui-resource-teardown-units.txt; generator tools/prepare_gui_resource_teardown.py; review build/review_gui_resource_teardown.py. Contract/seeds/acceptance/integration gui-resource-teardown. All processes terminal. Next useful candidates resource manager constructor, OnCreateDevice, OnResetDevice, OnLostDevice, OnDestroyDevice (existing font/texture providers now closed). Preserve untracked three EditBox diagnostic eval sources; MsgProc still not accepted. Goal remains active.
+
+
+## Resource device lifecycle closure accepted
+
+Five complete unmodified SDK functions412 bytes: constructor31 at8CD00, OnCreateDevice97 at8CDE0, reset81 at86F80,lost82 at86FE0,destroy121 at87040. All five definitions identical to local0.2.5. Full union deduplication yields only97 NEW unique bytes;315 already covered by earlier proofs/configs. Coverage171,587 /930,756 (18.435229%). No direct0.2.5 credit (1,523 total unchanged).2058 regions, full gate,10 negative controls and actor ABI pass; eight pending unchanged. All actual CreateFontA/CreateTexture/D3DXCreateSprite/StaticOnCreateDevice providers already accepted.
+
+Latest accepted link cp32-gui-resource-device-linked, Ob1 cp32-gui-resource-device-ob1,Ob2 cp32-gui-overwrite-ob2. Units build/gui-resource-device-units.txt; generator tools/prepare_gui_resource_device.py,review build/review_gui_resource_device.py. All processes terminal, no push/deployment. Three untracked prior EditBox eval files preserved.
+
+Discovery prioritization MUST subtract full accepted union (initial configs manifest/checkpoint2/checkpoint31/checkpoint32 plus all previous proof code_ranges), not just latest contract regions. Fullscan candidate317 D3DXCOLOR conversion at84390,98 constructor715A0,73 D3DXColorLerp844D0,68 GetDefaultElement871F0,43 SetBackgroundColors84DA0,38 SetNextDialog84DD0 may already be globally covered; check first. EditBox constructors/factories still blocked on nonmatching MsgProc597; ListBox factory requires full layout. Consider larger non-GUI0.2.5 families after cheap global coverage filter. Goal remains active.
+
+
+## SDK color conversions accepted; full-union discovery ranking
+
+Adds415 unique bytes: D3DXCOLOR operator DWORD317 at84390 from closure_gui_drawing, DWORD ctor98 at715A0 from closure_gui_defaults. Both original SDK inline definitions identical to0.2.5 after newline normalization; no direct0.2.5 credit (1,523 total unchanged). No recompilation: unchanged cp32-gui-resource-device-ob1 and cp32-gui-overwrite-ob2 reused, only exports/link changed. Actual float constants and __ftol2 external CRT identity already accepted, CRT bytes excluded.2060 whole regions, full gate,10 negative controls and actor ABI pass,8 pending unchanged. Coverage172,002 /930,756 (18.479816%).
+
+Current accepted run cp32-gui-color-conversion-linked; same units build/gui-resource-device-units.txt and Ob1/Ob2 as above. Contract/seeds/acceptance/integration gui-color-conversion; review build/review_gui_color_conversion.py. No source generation changes. All processes terminal, no push/deployment. Prior three untracked EditBox eval files preserved.
+
+New tools/rank_uncovered_candidates.py --proof evidence/checkpoint32/gui-color-conversion-acceptance.json --discovery <discovery.json> --output <build/path.json> reproduces full union and checks proof/artifact hashes; subtracts only inventory code, excludes attacheddata. Ranking is potential only (ambiguous same-body matches must still resolve real identities). Initial scan artifacts build/gui-uncovered-ranked.json and build/broad-uncovered-ranked.json use previous proof (before415 accepted). Re-rank with latest proof. Remaining promising existing fullDXUT source candidates: xEnumDisplayMonitors316 at785D0,xMonitorFromPoint97 at783B0; DXUTSetShortcutKeySettings101 at7D3D0,LowLevelKeyboardProc51 at7D390, several state methods. Framework original scan build/cp32-dxut-framework-scan/discovery.json; authoritative source closure_dxut_state generated by prepare_dxut_full_state.py, do not reintroduce old partial units. No new meaningful unique game candidates from old vehicle/pool/http scans; these require further adaptations, not accepting ambiguous identical tiny bodies. Goal remains active.
+
+
+## Additional multimon functions accepted
+
+Adds413 unique code bytes: xMonitorFromPoint97 at783B0 and xEnumDisplayMonitors316 at785D0. Original pinned PlatformSDK multimon source unchanged for both; no direct0.2.5 credit (1,523 total remains). Existing full closure_dxut_state object reused, no compile. Dynamic API pointer stores and InitMultipleMonitorStubs already accepted. Two new actual GDI imports GetDCOrgEx/GetClipBox verified in original and linked IAT.2062 full regions, full gate,10 negative controls and actor ABI pass;8 pending unchanged. Coverage172,415 /930,756 (18.524% approximately; see exact coverage-current.json).
+
+Current accepted run cp32-dxut-monitor-extra-linked, Ob1 cp32-gui-resource-device-ob1,Ob2 cp32-gui-overwrite-ob2; units build/gui-resource-device-units.txt. Contract/seeds/acceptance/integration dxut-monitor-extra; review build/review_dxut_monitor_extra.py. All processes terminal; no push/deployment/GUI execution; three prior EditBox untracked eval files preserved. Goal remains active.
+
+Fresh full-state discovery: build/cp32-gui-color-conversion-linked/discovery-attached.json (closure_dxut_state only; originally this run had no other discovery). Potential next ranking build/dxut-next-shortlist.json from previous proof,18 unique candidates excluding newlyaccepted monitors. xGetSystemMetrics full92 at78350 includes66 inventorycode+26attachedtable and requires full comparison. DXUTSetShortcutKeySettings101 at7D3D0,LowLevelKeyboardProc51 at7D390,DXUTIsKeyDown75 at7F540,DXUTGetPresentParameters74 at7DB60 plus actual state method dependencies. Source definitions already compiled in fullDXUT context. Treat GetDXUTState candidate9A9C0 as ambiguous separate staticstate ownership, not another mainstate credit. Re-rank latest proof before choosing.
+
+
+## DXUT input/settings closure accepted
+
+Thirteen functions757 code bytes integrated,726 new after31 duplicate bytes removed. Coverage173,141 /930,756 (18.602190%). Includes systemmetrics66+26 attached table at78350; LowLevelKeyboardProc51,shortcut settings101,mouse down31,cursor settings35,present parameters74,key down75; keyboardhook getter53,four state setters240,mouse mapping31. Actual global DXUTState identity preserved; only new import CallNextHookEx verified original+linked IAT.2075 regions, full gate,10 negative controls and actor ABI pass;8 pending unchanged. Seven free DXUT definitions identical0.2.5; no new directcredit(total1,523). No recompilation; unchanged Ob1/Ob2 snapshots, link roots only.
+
+Current accepted run cp32-dxut-state-extra-linked; Ob1 cp32-gui-resource-device-ob1,Ob2 cp32-gui-overwrite-ob2; units build/gui-resource-device-units.txt. Contract/seeds/acceptance/integration dxut-state-extra; review build/review_dxut_state_extra.py. All processes terminal,no push/deployment/GUI or hook execution. Prior three EditBox untracked diagnostic evals preserved. Goal remains active.
+
+Next broader0.2.5 lead: client/net/textdrawpool.cpp in current base onlyconstructor+unnamed_100B2AF0;0.2.5 provides destructor/New/Delete/Draw, plus entire client/game/textdraw.cpp/.h absent from current client. R5 base textdrawpool header has field_0[MAX_TEXT_DRAWS],field_2400[MAX_TEXT_DRAWS] and ctor sets both arrays thencallsunnamed;0.2.5 pool lacks call, different capacity/layout must verify.0.2.5 CTextDraw ctor initializes TEXT_DRAW_DATA and copies256text,SetText and substantialDraw use game/font helpers. Do NOT assume0.2.5 structures are R5. Inventory contains no textdraw names; identify via poolconstructor/stringcopy/fontcall evidence and current IDB. This is a meaningful source delta to investigate after SDK sweep. No textdraw source imported or accepted yet.
+
+
+## 0.2.5 textdraw pool transfer experiment (no accepted coverage)
+
+Meaningful source transfer found:0.2.5 Delete61 at1E7F0 and pooldestructor64 at1E8D0 reproduce full R5 COFF functions after actual destructorB2F50 and accepted operator deleteC648A call identities resolved. Base poolconstructor43 at1E7A0 also matches with actual unnamed_100B2AF0B2AF0. Total168 candidatebytes,125 specifically missing0.2.5 implementations. NO accepted coverage or direct accepted0.2.5 credit. Coverage remains173,141; currentaccepted run cp32-dxut-state-extra-linked,Ob1 cp32-gui-resource-device-ob1,Ob2 cp32-gui-overwrite-ob2.
+
+Snapshots cp32-textdraw-pool-anchor-trial1(net_textdrawpool) and cp32-textdraw-pool-transfer-trial1(eval_textdraw_pool). Isolated client/saco/eval_textdraw_pool.cpp has pointer-only CTextDraw destructor declaration (no implementation/no fakeemptydestructor), verified pool2304flags then2304pointers@2400. Never allocates/indexes CTextDraw objects. Complete bytes andPErelocsets checked, source/headerhashes current, explicittargets in evidence/checkpoint32/textdraw-pool-transfer-experiment.json. Both methods copied unmodified from0.2.5; classfieldnames mapped via verifiedarraylayout. Preserve candidate and previous3EditBoxevals. All processes terminal.
+
+Next required actual dependency: CTextDraw::~14 atB2F50 loadsfield9A3 and calls resource releaseB2B50(57bytes), which needsdisassembly and originalproviderimplementation. R5 New155 at1E910 allocates0x9D6 then calls ctor402 atB36E0. Itsdata starts963,size91,transmitflagsat0,floatwidthat1;025 layouts incompatible (text256,string1024,etc.). R5 ctor copies many new fields inclpreviewmodel/rotations,usesSetText298B2F60, textureallocateB2B20 and textureload630B2CD0. Existing game/unnamed_1.cpp contains initializerB2AF0 and slotallocateB2B20, not releaseB2B50. Existing full captures ignored build/textdraw-pool-r5.asm and build/textdraw-lifetime-r5.asm. PoolDraw50 at1E830 checks scoreboardglobal1026EB4C firstfield, not025 GetAsyncKeyState(VK_TAB); then callsB3480. Additional poolpass36 at1E870 callsB34A0(513),pass36 at1E8A0 callsB36B0(44). Pooldtor at1E8D0 and Delete1E7F0 recovered; deletingwrapper30 at1E7D0 identity requires actual CTextDrawdtor. No textdraw code integrated yet; close cleanup chain beforecredit.
+
+
+## Three-agent restart and textdraw cleanup acceptance
+
+User explicitly authorized2 subagents, integrator alone edits active source/compiles VM/accepts/commits. Start2026-09-05T20:11:21Z,173141 baseline; VM/process check found no stale CL/link command, pendingOb1 complete. Agents textdraw_reconstruction and independent_family write ONLY build/agent-textdraw and build/agent-independent. Active root owns allbasechanges. Full goal recreated after get_goal returnednull; scope retained, no budget.
+
+Accepted196 unique code: release57 B2B50,dtor14 B2F50,poolDelete61 1E7F0,pooldtor64 1E8D0.125 direct025 accepted credit, total1648. Stores textures800@26B568 andused800@26B888; split into separate TUs after combined1600 COFF reordered and draft failedconflictingplacement. Failedlink cp32-textdraw-cleanup-linked preserved. Actual DestroyTextureB3960 alreadyaccepted. Partial R5TextDrawCleanupView field9A3 only; no allocations/indexing/sizeof claims. Distinct R5TextDrawPool names avoid baseODR conflict.2081 complete regions,10 controls and actorABI PASS;8 pendingunchanged. Coverage173337/930756=18.623248%.
+
+Current accepted link cp32-textdraw-cleanup-linked2; Ob1 cp32-textdraw-cleanup-ob1b,Ob2 cp32-gui-overwrite-ob2,units build/textdraw-cleanup-units.txt. Contract/seeds/acceptance/integration textdraw-cleanup; review build/review_textdraw_cleanup.py. Throughput initial interval in integration proof includes allcoordination+priorcandidate resume; not causal speedup estimate. VM allterminal. No push/deployment.
+
+Agent1 auditedcleanup and proposed next194byte source build/agent-textdraw/closure_textdraw_cleanup_proposed.cpp with style987 slot9A3 releasepreview44 B36B0/poolpass36 1E8A0,init34 B2AF0/allocate37 B2B20/poolctor43 1E7A0. Not compiled/accepted. Agent researches larger loader630 and actualTXD providers, do not fabricate dependencies. Agent2 supplies build/agent-independent/eval_pickup_more.cpp: FindNetworkId37 133E0/PickedUp217 13440/Process334 13520/New236 13180.824 potential, no compileyet. New depends unresolvedCreateWeaponPickupA12D0; others purportedclosedBitStream/script but independentlyverify. All agentproposals remain isolated. Next integrate these serially, no VM concurrency.
+
+
+Parallel proposal compile results after cleanupacceptance: cp32-parallel-proposals-trial1 contains eval_pickup_more andeval_textdraw_more. Pickups New236 at13180,PickedUp217 at13440,Process334 at13520 candidate full matches; FindNetworkId37 failed singleJL vsJNE, agentfixed forloop < to != in isolatedproposal (notcopied/recompiledyet). CreateWeaponPickup151 A12D0 requires originalbody game.cpp1024 appended to closure_models generator context; notattemptedyet. Agent2 researchingsecondNew176. Textdraw releasepreview44 exactB36B0,poolpass36 ambiguous1E870/1E8A0 resolves1E8A0 bycallB36B0,init34/allocate37 exact. Poolctor42 vs43 due sameTU init allowsEDX this; agentpreparing separatedconstructorTU torestoreESI. cp32-textdraw-txd-trial1 eval_textdraw_txd: ReadDictionaryTexture60 exactB2C60; EnsureDictionary194 proposal fails (agentcheckingbuffer/literals). All candidates NOT ACCEPTED. Active copies client/saco/eval_pickup_more.cpp,eval_textdraw_more.cpp,eval_textdraw_txd.cpp are untracked experiments and must preserve. Agentisolatedproposals may advance; integratorsolecompiler. All rootVM commands terminal at this note. Candidate results retained build/parallel-proposals-status.json and respectiveprobe/discoverylogs. No additionalcoverage since196accepted.
+
+
+## Preview/init textdraw194 accepted; parallel trials continue
+
+Fivefunctions194 newunique accepted, coverage173531/930756=18.644091%. Previewrelease44B36B0,poolpass36 1E8A0,init34 B2AF0,slotallocate37 B2B20,poolctor43 1E7A0. Ctor separateTU restoresESI original; sharedviewstyle987/slot9A3 only noallocation/fullsizeclaim.2086regions,10negativecontrols,actorABI PASS.0 newdirect025(total1648 unchanged). Throughput since3agentstart173141 recordedin textdraw-preview-integration.json.
+
+Latestlink cp32-textdraw-preview-linked;Ob1 cp32-textdraw-preview-ob1,Ob2 cp32-gui-overwrite-ob2,units build/textdraw-preview-units.txt. Contract/seeds/acceptance/integration textdraw-preview; review build/review_textdraw_preview.py. RootVM processes terminal. Agents workingisolated. No push/deployment.
+
+Model dependency probe original CreateWeaponPickup appendedclosure_models andgenerator selection (unaccepted/notseeded, discardedlink); trial cp32-pickup-model-trial1=132 vs151 original because Ob1doesnotinline unmarked helpers. Subsequent expandedC++ candidate eval_pickup_weapon_expanded.cpp trial3 also fails; agent2 diagnosing. Remainingnewmodel function notcredited. Alloldmodelmatches preservedcurrentacceptance.
+
+cp32-parallel-proposals-trial2: separatedtextdrawctor43exact; corrected FindNetworkId37 nowexact133E0; Pickup New236/PickedUp217/Process334 exact asbefore. Currentproposal eval_pickup_more2.cpp NOTintegrated. Need actualmodelhelper151 or omitNewtemporarily.
+
+cp32-parallel-proposals-trial3: EnsureTextdrawDictionary194 exactB2B90 and ReadTextdrawDictionaryTexture60 exactB2C60, source client/saco/eval_textdraw_txd2.cpp, readyfor fulltargetreview/integration. Query GetTextureId59 exactD280 only, othersfail. Agent1 auditing TXDtargets andquerydiff; agent2 modelhelper. Othertrial3sourcefiles eval_custom_model_queries.cpp,eval_pickup_weapon_expanded.cpp untracked, preserve. Large textdrawloader630 stilldependscustommodelmanagerproviders; nofalsecoverage. Alltrialsource activecopies are experimentsnotliveunits.
+
+
+## Pickup/TXD integration blocked on descriptor placement (no new credit)
+
+Trial4 cp32-pickup-weapon-trial4: guardedandinline CreateWeaponPickup both151 exactA12D0. Selected guardedstandalone client/saco/closure_pickup_weapon.cpp. Removedunmatchedoriginalbody fromclosure_models andgeneratorselection. Newactivecandidates closure_pickup_more.cpp (copiedcorrectedtrial2),closure_textdraw_txd.cpp (exactTXDtrial2), allNOTaccepted. Combinedunits build/pickup-texture-units.txt; seeds config/checkpoint32/pickup-texture-seeds.json, rootsaddedexports.
+
+Longprlctl dispatch cp32-pickup-texture-ob1 hungbeforeguestprocess/directorycreation. Readonlyguestprocesschecks showed onlyqueryprocess, noCL/probe; MacwrapperPID71592 remained. TERMdidnotstopit,KILLfinallyterminal137. No guestcompilationduplicated. Replacement shortlauncher build/run_pickup_texture.ps1 readsunitsfile andsuccessfullycompiled cp32-pickup-texture-ob1b; useshortlaunchersforlongunitlists. Prematurefailedlink cp32-pickup-texture-linked preservedmissingprobejson. Successfulcomplete link cp32-pickup-texture-linked2. AllVM/rootprocessesterminalnow.
+
+Draftforlinked2 FAILS conflicting originalplacement closure_pickup_weapon section46 rdata78: _request_model@0,_load_requested_models@20,_is_model_available@40,_create_pickup_with_ammo@60. These fourdescriptors have noncontiguousR5 placement; needexternalactualsplitstores or sourcecontextrestoration, nevermask. Stale build/actor-contract-draft.json is PREVIOUSpreviewdraft, doNOTreviewituntilnewdraftsuccess. Agentindependent_family explicitlyassigneddescriptorarrangement isolated. Code151 exact but noacceptedcredit. Candidatepotential allroots1229(824pickup+151weapon+254TXD) excludesEHuniqueextras.
+
+Currentacceptedunchanged textdraw-preview-linked/proof,173531bytes. No commitacceptedcoverage thisturn. Needpreserveactivependingedits and allfailedsnapshots. Agenttextdraw querytrial2proposal ready170potential; agentpickupsecond419proposalready. Limitnewresearchuntilintegrationqueueclears. Fullgoalactive.
+
+
+## Pickup/TXD combined lot1271 accepted
+
+Coverage174802/930756=18.780647%,+1271unique. PrincipalpickupNew236/PickedUp217/Process334=787 direct025credit,total2435. FindNetworkId37/CreateWeapon151/TXD254/EH42 notdirect025. Codeallimplemented, actualBitStream/ScriptCommand/model/textureproviders verified; no missingprovidercredit.2107 complete regions,10negativecontrols and actorABI PASS;8 oldpendingunchanged.
+
+Descriptorplacement fixedwithoutcompile: narrowSCRIPT_COMMAND rule addedto draftandgate specificallyclosure_pickup_weapon and4names, eachcomplete18-bytetypedobject. Existingmodelcommands samehandling; noinstructiontruncation, paddingnotclaimed. Old3descriptors aliasesdedup, newcreateammoEC74C18. Review boundlocalidentities toselecteddataobjectoffsetrange (notallsectionmembers). FullnewRPCbytes2/strings6,11,10/twoEHmaps36 eachverified.
+
+Latestaccepted cp32-pickup-texture-linked2; Ob1 cp32-pickup-texture-ob1b,Ob2 cp32-gui-overwrite-ob2,units build/pickup-texture-units.txt. Contract/seeds/acceptance/integration pickup-texture; review build/review_pickup_texture.py. LongunitCLI use shortPS1 launcher readingunitsfile (build/run_pickup_texture.ps1) toavoidParallelsdispatchhang. Allrootprocessesterminal. Accepted changes include closure_pickup_more/weapon/closure_textdraw_txd; previousunmatchedweaponbodyremovedfromclosure_models/generator. Throughputbaseline173141 at20:11:21Z; total1661since3agentstart, allcoordination/waits included; exactrateinintegrationjson.
+
+Nexttrials cp32-parallel-next-trial1: CreatePickup209exactA11F0,IsPickupModelValid34exactB4570; poolNew176fails (agent2diagnosing). All3queries58D150/53D190/59D280 exactfromeval_custom_model_queries2.cpp; helperGetAtChecked22 emitsbutmaybeinline atactualcalls, mustresolvebeforecredit. Agent1 auditeffects/callersviewsready inbuild/agent-textdraw/custom-model-views-audit.md. Agent2 secondidentityaudit readybuild/agent-independent/pickup-second-identity-audit.json. Candidatefiles eval_pickup_create.cpp,eval_pickup_model_valid.cpp,eval_custom_model_queries2.cpp untrackedpreserve. No nextlotcreditedyet. Agentsremainisolated,nocompile/writebase. Fullgoalactive, no push/deployment.
+
+
+## Second pickup/model query lot589 accepted
+
+Coverage175391/930756=18.843929%,+589unique.025adaptedpoolNew176+CreatePickup209=385 directcredit,total2820; helpervalidity34 andqueries170 R5reconstruction. Newcorrection useslocalnetworkIndex preservingoriginalslot insteadofoutputoverwrite. Exactfullfunctions; descriptorcreatepickupEC73818 and narrow5symbolSCRIPT_COMMANDrule closure_pickup_create. Threequeries58D150/53D190/59D280 rawexact nofixups, emittedGetAtChecked22 notcredited/exported.2118regions,10negativecontrols and actorABI PASS;8 pendingunchanged.
+
+Latestaccepted run cp32-pickup-model-linked;Ob1 cp32-pickup-model-ob1,Ob2 cp32-gui-overwrite-ob2; units build/pickup-model-units.txt; shortlauncher build/run_pickup_model.ps1. Contract/seeds/acceptance/integration pickup-model; review build/review_pickup_model.py. Allrootprocessesterminal,nopush/deployment. Throughputsincebaseline173141 savedinintegration.
+
+Nexttrial cp32-parallel-rpc-model-trial1: eval_pickup_rpc.cpp three181/160/159exact F080/F140/F1E0 (500 principalbytes). Needsfullexceptiontable/providerclosure; agent2 nowresearchingnextRPCfamily. SourcefullviewscloneCPickupPoolCreate exactlysameclassasaccepted, includes main, netgameviewpools3DE->pool8 pointeractual.
+
+Modeltrial1: IsSupportedCustomModelInfo58 exactB44E0,CloneCustomModelInfo91 exactA7AD0,LoadCustomModelTexture100 exactA7B60;setterB4660/29nonmatch. Activeevalsources eval_custom_model_kind/clone/texture/texture_slot.cpp untrackedpreserve. Agent1diagnosticsetter andactualcalloc/fullstores; nextlargerC770281 proposaldependsA7C30 stillunimplemented. Noextra modelcreditbeforeclosure. Agentproposalsisolated inbuild/agent-textdraw; userauthorized2agents only, integratorsoleVM/sourcewriter. Goalactive.
+
+
+## Pickup RPC/model clone lot712 accepted
+
+Coverage176103/930756=18.920426%,+712unique (RPC500 +modelhelpers149 +EH63). Direct025credit500,total3320.2129regions,10negativecontrols and actorABI PASS,8oldpendingunchanged. FullthreeEHmaps36each included. Nativevtableclassifier comparesconstants only,no vtablecontents/nativeclass reconstruction claimed. Clonecopies32bytes asactualR5,existingcallocC6982 reviewed/excludedCRT.
+
+OriginalRPCconstructoridentity corrected: source025unsignedchar*cast selected1F7C0,but R5callschar*overload1F840; bothalreadyimplemented separately. Removedcast onPCHARData in activeclosure_pickup_rpc.cpp. Firstlink cp32-pickup-rpc-linked draftfailedproviderplacement; preserved. Newcorrectlinked2 fullgatepasses, no dualmapping/masks.
+
+Currentaccepted cp32-pickup-rpc-linked2;Ob1 cp32-pickup-rpc-ob1b,Ob2 cp32-gui-overwrite-ob2; units build/pickup-rpc-units.txt; launcher build/run_pickup_rpc.ps1. Contract/seeds/acceptance/integration pickup-rpc; review build/review_pickup_rpc.py. Allrootprocessesterminal,no push/deployment. Throughputbaseline173141 at20:11:21Z,total2962new since3agentstart,exactrateinintegration.
+
+Nextcp32-rpc-game-model-trial1:6RPCgame exactprincipal1117: CameraPos20219AA0,LookAt24219B70,Money1471A500,Gravity1471ACD0,Weather168F370,TimeEx211F420. Money/Gravity identicalbodyshape mustreviewactualGivePlayerMoney vsgravityproviders; no ambiguouscredit. Sourceclient/saco/eval_rpc_game.cpp useschar*constructorfix already. Agent2identityaudit underway.
+
+SetterC++ trials2and3bothfailed; latest cp32-rpc-game-model-trial1/eval_custom_model_texture_slot3.obj,agent1diagnosing. ActualLoadCustomModelTexture100 A7B60 exacttrial1 butsetterB4660missing =>excluded. Sourceviewkind58andclone91nowaccepted; custommodelpathloader281proposalandInstallCustomModelA7C30remainunimplemented. Preservealluntrackedevals andisolatedagentsources. Fullgoalactive.
+
+
+## Game RPC / model texture lot1372 accepted
+
+Coverage177475/930756=19.067833%, +1372unique (sixRPC1117, texture100, slot29, compilerEH126). Direct025credit1117,total4437.2149whole regions, six36-byte unwind maps/FuncInfo,10negativecontrols and actorABI PASS. Eightoldpending unchanged. Actual constructorchar*1F840, MoneyA0F70 versusGravityA1400 verified; R5LookAt cutbyte and Weather/Time settings adaptations preserved.
+
+TextureSlotB4660 accepted29 with explicitly labeled source-derived symbolic field-access assembly after three C++ mismatches. Uses GetModelInfo then WORD offset0xA; no copied instruction bytes. LoadCustomModelTexture100 now has complete actual dependency closure. Other model/textdraw loaders still excluded. Failed C++ trials retained.
+
+Latest cp32-rpc-game-linked;Ob1 cp32-rpc-game-ob1,Ob2 cp32-gui-overwrite-ob2. Units build/rpc-game-units.txt; launcher build/run_rpc_game.ps1; review build/review_rpc_game.py. Contract/seeds/acceptance/integration rpc-game. Total4334unique gained since20:11:21Z baseline173141; measured throughput in integrationjson includes coordination. No push/deployment, goalactive.
+
+Next agent2proposal build/agent-independent/eval_rpc_zones_player.cpp: nineRPC1671potential bytes, awaiting compile/actualtarget review. Agent1 pursuing custommodel InstallCustomModelA7C30/entryC770/managerD320 chain in isolated directory. Root retains sole activewriter/compiler role.
+
+
+## Nine gangzone/player RPCs lot1860 accepted
+
+Coverage179335/930756=19.267671%,+1860unique principal1671+compilerEH189. Direct0251671,total6108.2176whole regions,nine36-byte unwindmaps/FuncInfo,10negativecontrols and actorABI PASS. FourzoneRPCs,health/armour,weapons/ammo,wantedlevel. Firsttrialallmatch; actualtarget identity distinguishes Remove2240/StopFlash2220 and HealthABD70/ArmourABDB0. Gettersinline verified existingR5offsets. Eightpendingunchanged.
+
+Latestcp32-rpc-zones-linked;Ob1cp32-rpc-zones-ob1,Ob2cp32-gui-overwrite-ob2;unitsbuild/rpc-zones-units.txt,launcherbuild/run_rpc_zones.ps1,reviewbuild/review_rpc_zones.py. Contract/seeds/acceptance/integration rpc-zones. Total6194newuniquesince20:11:21Z baseline173141; rateinintegrationjson, coordinationincluded. No push/deployment,fullgoalactive.
+
+Concurrentnative-modelresearch: cp32-custom-install-trial1 normalC++Clump127B1FC0 andInstall133A7C30 exact, wrappersOpen/Close20vs61/57,Read24vs32,SetRef26vs36 unaccepted. Agentdocumentedsource-derivedsymbolicexceptions inbuild/agent-textdraw/custom-native-exceptions-audit.md. Trial2compilefailedbecauseasmreservedkeywordtype, preserved. Trial3renamestreamType compiling symbolicwrappers+modelLoadFiles/EnsureReady386candidates; nonecredited. Agent2researchesnextRPCbatch; agent1customloadchain,rootsolecompiler.
+
+
+## Custom model install closure446 accepted
+
+Coverage179781/930756=19.315588%,+446unique. No direct025credit,total6108unchanged. Four native stream/refcount wrappers186 explicitlysource-derivedsymbolicasm after failednormalC++20/20/24/26; C++Clump127/Install133. AllrealGetModelInfo/TXD/chat/UnFuck/iGtaVersion providers included. Two fullBSSstoresbyte15181C andDWORD1A25B0 justifiedbyrealread/writewidths, sourceerrors36/48withpaddingverified.2186regions,10negativecontrols and actorABI PASS;8oldpendingunchanged. Preservesoriginalfailurepaths, noGTA/nativeexecution.
+
+Latestcp32-custom-install-linked;Ob1cp32-custom-install-ob1,Ob2cp32-gui-overwrite-ob2;unitsbuild/custom-install-units.txt,launcherbuild/run_custom_install.ps1,reviewbuild/review_custom_install.py. Contract/seeds/acceptance/integration custom-install. Total6640newuniquesincebaseline173141; throughputinintegrationjson. Localcommitonly,fullgoalactive.
+
+Nextcp32-model-player-trial1: EnsureReady105D320 exactafterstoreorderfix; LoadModelFiles281stillnonmatchdespitefailurelabel, agent1diagnosing. FiveRPC+helperexact: Reset28,Behind13,FindZ270,Explosion258,Widescreen174,SetStatePair23; Pos279stillnonmatchagent2diagnosing. Two SCRIPT_COMMAND objects18 atE61E4/E620C needwhole-objectselection, notwholecombined38section; sourceRadiusfloat/formatfffii preserved. No pendingcandidatecredit. Alltrialprocessesterminal, evalsourcespreserved.
+
+
+## Player position/effects RPC lot1129 accepted
+
+Coverage180910/930756=19.436888%,+1129unique principal1022+helper23+EH84. Direct0251022,total7130.2205whole regions,4EHmaps36each,2completeSCRIPT_COMMAND18,float1.5/debugstring16;10negativecontrols and actorABI PASS. Pos279 matchedusingnull-localplayer earlyreturn insteadnestedpositivebranch (prior283). Actual statepair3710 fields2DA/2DE, reset2E2; partialviewonly. Radiusfloatvarargs/fffii descriptor and Widescreendebug preserved. Narrow two-symbol SCRIPT_COMMAND rule addedtoolsdraft/gate, full18bytes notcombined38section, no codetruncation/masks. Eightoldpendingunchanged.
+
+Latestcp32-player-effects-linked;Ob1cp32-player-effects-ob1,Ob2cp32-gui-overwrite-ob2;unitsbuild/player-effects-units.txt,launcherbuild/run_player_effects.ps1,reviewbuild/review_player_effects.py. Contract/seeds/acceptance/integration player-effects. Total7769newunique sincebaseline173141 at20:11:21Z; rateinintegrationjson includescoordination. Localcommitonly,goalactive.
+
+ModelC770281temporarilydeprioritized: variants1/2same281wrongfailureblockposition,variant3=285. EnsureReady105D320exactbutdependencyC770unmatchedsoexcluded. Agent1nowresearchestextdrawDrawText727/DrawSprite272/dispatch19 independentofC770; agent2vehicle/menuRPC nextfamily. Currentcp32-rpc-vehicle-menu-trial1 liveprobe ofeval_rpc_vehicle_menu (5RPC+poolprovider1031potential); waitterminal before nextVMjob. Preserveevalsources andallfailedtrials.
+
+
+## Vehicle/menu RPC lot1136 accepted
+
+Coverage182046/930756=19.558939%,+1136unique principal995+pool36+EH105. Direct0251031,total8161; LinkToInterior36 source025previouslymissingbase genuinelytransferredwithR5viewoffsets.2221whole regions,5EHmaps36each,10negativecontrols and actorABI PASS. Netgame3DE poolsvehicle0/menu20, vehicles1134/states3074/capacity2000, Healthnullguardsverified; ShowMenu7FC0/HideMenu8020 truetargets. No newimports/constants,nofullallocatedclassclaim. Eightoldpendingunchanged.
+
+Latestcp32-vehicle-menu-linked;Ob1cp32-vehicle-menu-ob1,Ob2cp32-gui-overwrite-ob2;unitsbuild/vehicle-menu-units.txt,launcherbuild/run_vehicle_menu.ps1,reviewbuild/review_vehicle_menu.py. Contract/seeds/acceptance/integration vehicle-menu. Total8905newunique sincebaseline173141 at20:11:21Z; measuredrateinintegrationjson includescoordination. Localcommitonly,fullgoalactive.
+
+Nexttextdrawtrial cp32-textdraw-render-trial1: DrawTextA727B31A0 exact (WindowsDrawTextmacro appendsA), dispatch19B3480exact; sprite278vs272nonmatch. NativeCppfailedMSVC2003C4234__thiscallfunctionpointerkeyword; no probejson butfirsttwoobjectspreserved. Agent1fixingsprite/nativeABI, sourceviewembeddedinCPPavoidsnewsharedheaderandunrelatedrecompile. RenderState26 proposedfromexistingbase. Agent2preparing6ActorRPC1512potentialusingacceptedActorPool/ActorPed/Entity, noSpawnbecauseproviderB3DD0unimplemented.
+
+
+## Actor RPC / textdraw font lot2431 accepted
+
+Coverage184477/930756=19.820125%,+2431unique (ActorRPC1512+EH126+DrawText727+native66). Direct025727,total8888. Actoranimationserializationborrows025knowledgebutconservative0directcredit; RenderState26alreadyinbase/nodirect025credit.2244whole regions,6EHmaps36each,complete448/640 floats;10negativecontrols and actorABI PASS. Destroycorrectedearlyreturn, Rotation9C570vsHealth9C5D0 actualprovideridentity. AnimationcallsboolRead8420/charRead1FEA0 accepted. Eightoldpendingunchanged.
+
+TextDrawfont727full29fixups verified, pointerviewoffsets963/9A3/9C1/9D1 compileasserted,noallocation/fullclassclaim. R5selection/keycodes/bounds/FPUorderpreserved; WindowsmacroDrawTextA. Native40 symbolicthiscallbridge afterMSVC2003C4234functionpointerrejection,26unchangedbaseRenderState; realGTAaddressliteralsnotnativecoverage. DrawSprite278/272/272 variantsremainnonmatch(twoFIADD/storeorderingdifferences), dispatch19excludedbecauseSpriteunimplemented. NoGTAexecution.
+
+Latestcp32-actors-render-linked;Ob1cp32-actors-render-ob1,Ob2cp32-gui-overwrite-ob2;unitsbuild/actors-render-units.txt,launcherbuild/run_actors_render.ps1,reviewbuild/review_actors_render.py. Contract/seeds/acceptance/integration actors-render. Total11336newunique sincebaseline173141; exactrateinintegrationjson includescoordination. Localcommitonly,fullgoalactive.
+
+NextSpawn: cp32-actor-spawn-trial1 validation46B3DD0 exact, Spawn213vs240: aggregateinit+2byte vscontiguousmemset27; unusedpostNewreadeliminated29bytes. Trial2eval_rpc_actor_spawn2.cpp usesmemset and explicitlyqualifiedvolatileactorpointerarray toretainobservedread; uniqueRPCActorPoolSpawnViewavoidsODRcollisionwithacceptednonvolatileactorRPCview. Variantcurrentlycompiling; noSpawn/providercredityet. Agent1researchingothertextdrawselection/hittest functions; C770andSpritesboundedpaused.
+
+
+## Textdraw selection and actor validation526 accepted
+
+Coverage185003/930756=19.876638%,+526unique (selection480,actorvalid46). No direct025credit,total8888unchanged.2251whole regions,10negativecontrols and actorABI PASS. SelectionUpdateHover exactaftercounterinitbeforeselectedId andGetAt nullfallthroughbranchorder. ActualGetCursorPos/ScreenToClient/PtInRectimports unchanged andverified. GetAt17CC0/35 rawuniquezero COFF/PEfixups, structuralidentityfrom2304flags/pointeroffset2400; no directCALL/JMP/absolutePErefsfound, nocalleridentityclaimed. Fullviewpointeronly,noallocation. Actorvalidationrange0..30000 and literal85BDC0classifier, novtablecontents/nativeclassclaim. Eightoldpendingunchanged.
+
+Latestcp32-textdraw-selection-linked;Ob1cp32-textdraw-selection-ob1,Ob2cp32-gui-overwrite-ob2;unitsbuild/textdraw-selection-units.txt,launcherbuild/run_textdraw_selection.ps1,reviewbuild/review_textdraw_selection.py. Contract/seeds/acceptance/integration textdraw-selection. Total11862newunique sincebaseline173141; measuredrateinintegrationjsonincludescoordination. CorrectedpreviousPROGRESSactor-renderpercentage toactual19.820125. Localcommitonly,fullgoalactive.
+
+Spawnparkedafterthreeboundedtrials:213first,240second/thirdbutoneModRM44vs4Cdifferenceremains;0Spawncredit. Helper46acceptedseparatelynormalC++, no volatilequalificationinacceptedhelper. Diagnostics actor-spawn-trial2/3-diagnostic.json. Agent2nextRPCstates/clock808+providers239potential. Agent1textdrawSendClick151/Disable77/MsgProc41plusEH21 andRPC83scalar4 proposed, currentcp32-textdraw-click-trial1 eval_textdraw_click running; waitterminalbeforeVMnextjob. SourceclassR5TextDrawSelectorViewtokendeclarationidenticalwithowner, ClickViewdistinct. NoGTA/network/desktopexecution.
+
+
+## World state/object RPC and textdraw click lot2800 accepted
+
+Coverage187803/930756=20.177469%,+2800unique. Direct0251791 (state708+worldobjects1083),total10679; priorarithmetic808stateRPC correctedto708beforeacceptance.2301whole regions,231EHcode/11maps36each,10negativecontrols and actorABI PASS. Fullsource functions alltrueprovidersclosed, eightoldpendingunchanged.
+
+Worldstate947+EH84: RakServerStats296 completeBSS12E968 fromexisting296-byte sourceobject, fourEHmaps. ResetMoney18090actualpGame26EBAC/A20C0/RPC20; unrelatedE650pNetGame/A540excluded. Clock187/Money52frombase,nodirect025credit. MoneydescriptorEC64818alreadyacceptednowemittedwhole18-byte section, no truncation/newcredit.
+
+Worldobjects1267+EH126: firstsourcefailedincompleteCObject; nonexistentgame/object.hattemptpreserved. FinalsourceusesCEntityoffset0 pointerview, nofullobjectclaim. AudioGetAudioinline fixesPlaySound218->219evaluationorder. R5read-onlyRespawn132 preserved, notstub. Bounds227/Team233/ObjectPos272/NoCamera184 fullmatches; last184R5reconstructionnot025.
+
+Textdrawclick/update/HUD355+EH21: SendClick149directint,158WORDaliasbothfailed; realRakNetWrite<WORD>producesexact151. Disable77/MsgProc41; HUD40viaforceinlineknownradarbody,Update46. RPC83scalarE6274/4 actualregistrationreferences andsendoperandverified. Firstlinkcp32-world-state-click-linked failedmissingpCmdWindow; real4-bytezeroowner26EB84addedfrommain.cpp18, constructor693D0/allocation1AFC/storeC4923and70PErefsconfirmpointeridentity; allocationnotcredited. No native/game/networkAPIexecution.
+
+Latestcp32-world-state-click-linked2;Ob1cp32-world-state-click-ob1c,Ob2cp32-gui-overwrite-ob2;unitsbuild/world-state-click-units.txt,launcherbuild/run_world_state_click.ps1,reviewbuild/review_world_state_click.py. Contract/seeds/acceptance/integration world-state-click. Total14662uniquegainedsincebaseline173141; direct025gain9156; measuredrateinintegrationjsonincludescoordination. Localcommitonly,wholeDLLfalse/fullgoalactive.
+
+Nextcp32-input-animation-trial1live: sixanimation/cameraRPC1925potential+EH126;HideTextdraw164(char*ctorcorrectedfromagentunsignedcast); ProcessInputDisabling283+RestoreMouse70 base-sourcefoundationswiththree5-byteexistingnativeGTApatchdataarrays, noR5codecopyorcoverageforthosearrays. Agent1auditingremainingUIcontroller/editoridentities; formerguessesScoreBoard/Dialogwithdrawn,donotassertthemunproven. Agent2awaitingprobe. Preservealluntracked evalsources/failedtrials.
+
+
+## Input restoration and animation/camera RPC lot accepted
+
+190392/930756 (20.455630%), +2589 unique code: input353, HideTextDraw164, animation/camera1925, seven EH147. Direct0251434 (Hide164 + animation1270), cumulative12113. All complete linked regions/actual providers, seven full36-byte EH maps, ten negative controls and actor ABI pass. Three five-byte source GTA patch arrays receive no code credit and were never executed. Input symbolic native-call helpers labeled; no instruction blobs. Eight old pending unchanged.
+
+Run cp32-input-animation-linked; Ob1 cp32-input-animation-ob1, Ob2 cp32-gui-overwrite-ob2. Seeds/contract/acceptance/integration input-animation; review build/review_input_animation.py; units build/input-animation-units.txt. Throughput from real union and elapsed coordination recorded in integration. World-extra/object-selection trial1 compiled next, discovery under review. Full goal active, no push/deploy.
+
+
+## World RPC, editor and menu initialization lot accepted
+
+193401/930756 (20.778915%), +3009 unique code. Direct0251408 (attachment453,spawn159,menu796), cumulative13521. Twenty complete code sections including eight21-byte EH handlers, eight36-byte maps, scalar117/4, descriptor069B/18, bool1, managerpointer4 and file-backed257-byte sharedmenu buffer.2361whole regions; ten negativecontrols and actorABI PASS. Eightoldpending unchanged.
+
+Worldextra trial1/2 Attachment455 failed, trial3 source-edit error preserved, trial4 restored two025ScriptCommandbranches exact453. Editor515 corrected with threefloatlocals and direct Write1/Write0 exact513. Objectselection ctor15/toggle117 exact. MenuInit796/New188 exact firsttrial.
+
+Firstdraft rejected wrong pChatWindow identity26EB98; real pChatWindow26EB80 retained. Independent caller evidence RPC11EB0 -> ctorDE20 at11F39 -> store11F4B identifies custom model download manager. Field217 filters modelentrytype2 world+8 and flags220/221 reset. Corrected RPC descriptive name ScrSetCustomModelWorldTransfer and distinct pointerowner, no constructor/managerallocation credit. Failed linkedrun/draft and original proposals preserved.
+
+Latest cp32-world-extra-editor-linked2; Ob1 cp32-world-extra-editor-ob1b; Ob2 cp32-gui-overwrite-ob2. Seeds/contract/proofs world-extra-editor; units build/world-extra-editor-units.txt; review build/review_world_extra_editor.py; throughput inintegration includesallcoordination. Currentnext memoryreadertrial2 fullRead126 exact, ReadInt mapsBAA70 viaactualcallerBC030; ambiguousEnded4 excluded. CheckpointRPCtrial1 running. Fullgoal active; no push/deploy.
+
+
+## Memory reader and checkpoints accepted
+
+194861/930756 (20.935777%), +1460unique code: reader310, checkpointRPC608/providers500/EH42. Direct025608, cumulative14129.2384whole regions; ten negativecontrols and actorABI PASS; eightoldpendingunchanged.
+
+Reader firstRead126 same-size failed due return0 block order; explicit earlyreturn trial2exact. ReadIntBAA70 same-reader callerBC030 atBC21F/BC229 verified; homologueB3A80 not credited. Ended4 has three identical candidates/no caller and is excluded; source remainsunexported/unselected. ReadWord27 included, allwholebodies.
+
+Checkpointfive functions exactfirsttrial. Six18-byte SCRIPT_COMMAND complete sourceobjects shareCOFFdata118 withpadding, originalobjectsnoncontiguous. Extended existingtyped-object draft/gate rule onlysixnamedsymbols in closure_rpc_checkpoints; all18bytes compared,no relocations, sourcebounds checked. Fourdescriptorspreviouslycovered; onlytwonewdataobjects and no data-as-codecredit. Fullcodefunctions remainwholeCOFFonly.
+
+Latestcp32-reader-checkpoints-linked; Ob1cp32-reader-checkpoints-ob1, Ob2cp32-gui-overwrite-ob2; seeds/contract/proofsreader-checkpoints; unitsbuild/reader-checkpoints-units.txt, reviewbuild/review_reader_checkpoints.py. Total21720unique sincebaseline173141; direct025gain12606; fullcoordinationrateinintegrationjson.
+
+Next: RWframeparsertrial1 principal258/129/299 notmatched, constructor46/nestedconstructor28/dtor35 rawcandidates only; agentdiagnosing. Spectatorvehicletrial1 running. Preservealltrials. Fullgoal active; no push/deploy.
+
+
+## Spectator and vehicle closure accepted
+
+Coverage: 196090 / 930756 code bytes (21.067820%). This batch adds 1229 unique bytes: 1145 principal code and four 21-byte EH handlers. Direct contribution from adapted 0.2.5 source is 960 bytes (771 RPC, 189 spectator providers), bringing the cumulative reference contribution to 15089. ExitCurrentVehicle138 is base source and the angle provider47 is reconstructed from R5. Four complete 36-byte EH maps and both complete 18-byte command descriptors are verified without code credit. The fresh full gate, ten negative controls and actor ABI passed. Eight old pending regions remain unchanged.
+
+Seven principal functions matched in trial1. ExitCurrentVehicle had the right size and targets but different register allocation. Trial2 uses an inline member view for the first two vehicle-index reads, retaining the two real B3C00 calls and final ABC90 call. Its entire 138-byte body now matches. No global or import was introduced; pNetGame remains 26EB94. Typed-object rules were extended only to the two named complete SCRIPT_COMMAND objects in closure_rpc_spectator_vehicle.
+
+Latest run: cp32-spectator-vehicle-linked. Ob1: cp32-spectator-vehicle-ob1; Ob2: cp32-gui-overwrite-ob2. Seeds, contract and proof prefix: spectator-vehicle. Units: build/spectator-vehicle-units.txt. Review: build/review_spectator_vehicle.py. Throughput measurement includes coordination and failed trials. All commits are local; the full goal remains active.
+
+Next work: frame-parser trial2 matches ReadFrameList299 but its ReadChunk/Validate providers remain unmatched, so the principal receives zero credit. Three independent foundations (reader ctorBB20/28, chunk ctorB9570/46, dtorBB70/35) have whole-body and identity audits in build/agent-textdraw. BB20 has a unique structural identity but no direct caller found; do not invent one. Agent1 is preparing explicitly labeled symbolic helper proposals after two bounded C++ trials, preserving real allocator/reader targets without wrappers or instruction byte blobs. Agent2 is preparing object operations and RPC rotation/stop, reducing object-lifetime dependencies without claiming the missing constructor/vtable chain. No integrator VM command remains active after this batch.
+
+
+## Object operations and RenderWare frame parser accepted
+
+Coverage: 197750 / 930756 code bytes (21.246170%). This batch adds 1660 unique bytes: object operations/RPC/EH865 and parser795. Direct contribution from adapted 0.2.5 source is451, cumulative15540. Existing Entity::SetTurnSpeedVector9EE60/33 is now a linked provider but was already covered and receives no second credit. 2423 complete regions, two complete21-byte RPC EH handlers and36-byte maps, ten standard negative controls and actor ABI pass. Eight old pending regions remain unchanged.
+
+All nine object principal functions matched in trial1. Add/Remove22 are distinguished by actual WorldAddEntityB3B20/WorldRemoveEntityB3B40 providers, never by convenient homonymous bytes. GetModelReferenceCount47 preserves the existing025 symbolic implementation and its real GetModelInfo target. The rotation SCRIPT_COMMAND is a complete18-byte section.
+
+FrameList299 matches normal C++ after inline Reset restores the original pointer evaluation boundary. ReadChunk258 and ValidateFrameExtensions129 required explicitly labeled symbolic reconstruction after two bounded C++ layouts failed. Named offsetof/sizeof fields represent complete reader23, chunk35 and frame56 structures. Their aliases contain no wrappers: the actual MAP and every linked CALL resolve OperatorNew to libcpmt:newop.obj and Read to closure_memory_reader.obj. The symbolic trial matched both complete bodies on its first compilation. Reader ctor28, chunk ctor46 and destructor35 are independently matched; reader ctor has unique structural identity, with no invented caller. ReadChunkB9630 is selected through actual FrameList callers; homologues remain excluded.
+
+First link failed because unused inline constructors were not emitted after separating symbolic helpers. Both current TUs now have identical dllexport annotations on the constructors, forcing their complete capsule bodies. No dummy creator or wrapper was introduced. Link2 succeeds; original bytes and all targets remain verified.
+
+The shared alias resolver now reads undefined /alternatename source directives and resolves their canonical providers. Existing COFF weak aliases are unchanged. Duplicate aliases, aliases with local implementations and chained aliases all reject in three additional fast controls. Aliases grant no code coverage. Evidence of actual alias addresses belongs specifically to cp32-object-parser-linked2; future contracts retaining that metadata must label its originating run or regenerate it for their new MAP, rather than present old linked addresses as current.
+
+Latest run: cp32-object-parser-linked2; Ob1cp32-object-parser-ob1b; Ob2cp32-gui-overwrite-ob2. Contract/seeds/proofs: object-parser. Units: build/object-parser-units.txt. Review: build/review_object_parser.py, followed by explicit linked alias proof in the reviewed contract and integration. Source hashes, failed trials and identity captures are preserved. No push or deployment; full goal remains active.
+
+Next: cp32-release-clump-trial1 compiled object release dependencies279, clump dispatch/setters395 plus full50-byte switch tables, memory buffer/file360 and clump-file parsers301; discovery/acceptance still pending. New fread CRT provider must receive actual library identity verification and no code credit. Object destructor300/deleting30/EH18 proposal is isolated in build/agent-independent, with four globals and actual vtableECD74 ownership still to integrate; no opaque constructor/allocation claim. Preserve all proposal and trial files.
+
+
+Release/clump dependencies accepted: +1335 unique code bytes, total199085/930756 (21.389602%). Object release279, clump dispatch/setters395, buffer/file360 and clump-file301. Pool getter18 was already covered and receives no new credit. Complete dispatcher310 includes50 table bytes excluded from code credit. Empty D1D0 Release3 is a genuine whole original provider, separated to prevent compiler elimination of the original call; no missing dependency is represented by a stub. All full comparisons, ten negative controls and actor ABI pass. New fread76 has actual LIBCMT:fread.obj ownership and no source credit. Fresh alias evidence belongs to this link. No new whole-function025 contribution; cumulative15540.
+
+Run cp32-release-clump-linked; Ob1cp32-release-clump-ob1; Ob2cp32-gui-overwrite-ob2. Review and independent identity audits retained with evidence. Measured 25944 new unique bytes over 3.114h = 8331.9 bytes/hour including coordination and failed trials. Next: integrate exact object destructor348 plus full vtable/stores, consolidate existing Add/Remove identities, then player lifetime dependencies. Goal remains active; no push/deployment.
+
+
+Object destructor accepted: +348 unique bytes; total199433/930756 (21.426991%). Exact dtor300/deleting30/EH18, full vtable12/descriptor18/unwind36 and four independent4-byte globals. No complete CObject allocation or size claim. Add/Remove22+22 migrate from removed nonvirtual pointer-view implementations to the true derived virtual methods; original hashes and WorldAdd/WorldRemove targets remain identical, zero duplicate credit. Model/material release dependencies are now accepted. Ten negative controls and actor ABI pass.
+
+Run cp32-object-destructor-linked; Ob1cp32-object-destructor-ob1b (first launcher rejected appended path syntax after cache processing; preserved), Ob2cp32-gui-overwrite-ob2. No new025 whole-function credit, cumulative15540. Measured 26292 new bytes since baseline, 8240.5 bytes/hour including coordination. Agent audit confirms original textdraw125 already accepted, no re-count/recompile. Next: eight player lifetime bodies and57EH, true ED140 vtable and exact32D allocation; header method-only additions. Goal remains active.
+
+
+Player lifetime accepted: +1126 unique code, total200559/930756 (21.547967%). Seven principals matched first C++trial; RemoveAllAttachedObjects86 matched whole symbolic exception on first symbolictrial, after three C++ induction-base experiments failed. Trial3 initially used DWORD& on intfield and was corrected in separate preservedtrial3b; not an additional algorithm variant. Exact32D allocation and all layout assertions, real ED140 table B13D0/9F300/9F400 and accepted object attachment destruction. Header adds only5 methods, no fields. Five SCRIPT_COMMAND18 objects include ctorECE84 distinct from ActorPedEC280, stringNULL5, EH21+18+18 and three full36-byte maps. No fabricated complete CObject allocation or dead factory credit. Fullgate, ten negative controls and actorABI pass.
+
+Run cp32-player-lifetime-linked; Ob1cp32-player-lifetime-ob1, Ob2cp32-player-lifetime-ob2 (new common header requires fresh objects). Contracts/seeds/proofs/review: player-lifetime. Added312 direct adapted025 Destroy bytes; cumulative15852. Symbolic native GTA deletion protocol already present in025 remains explicitly labeled. Measured 27418 accepted bytes since baseline at 8137.2 bytes/hour including coordination, failed trials and header rebuild. Next ready: selection/editor639, sprite341, custom model loader386; all still candidates. Goal active, no push/deployment.
+
+
+Selection/model/motion accepted: +2131 unique bytes, total202690/930756 (21.776921%). Selection/editor639, custom loader386, five playerRPC1106. Added580 direct025 bytes (Velocity248 and Drunk166 twice); cumulative16432. Other new functions are R5. C770281 uses explicitly labeled symbolic reconstruction after three failed C++ branch layouts; true InstallCustomModelA7C30/EnsureReadyD320 fix identity, C650 homologue excluded. Three format strings are full independent source objects. Close109 requires explicit if, Shop247 full memset33, Armed174 early-return guard.
+
+Raw discovery of Shop247 initially mapped swapped source method names to the two real targets. Strict placement review rejected it before acceptance: SetShopNameAE380 must precede LoadShoppingDataSubsectionAE300. Corrected source is exact with actual targets. First link also exposed three absent interface globals26EB60/64/68; all have independently audited real DoInitStuff writers and are now separate4-byte zero-fill stores. No constructor/allocation or data bytes credited.
+
+Two repeated inline FindPlayerPed copies caused absent object-local EH MAP owners. Gate now defers only COFF selection5 associative sections with an identical accepted parent COMDAT and its actual selected source owner. All final code/data/relocation comparisons remain intact, duplicates add zero coverage. Four targeted controls reject non-associative sections, unknown selected owner, changed original parent identity and altered actual EH bytes. Standard ten negative controls and actor ABI pass. No second build required for this verifier-only fix.
+
+Run cp32-selection-model-motion-linked3, Ob1cp32-selection-model-motion-ob1c, Ob2cp32-player-lifetime-ob2. Failed links/drafts/trials preserved; review/identities/controls retained. Measured 29549 accepted bytes since baseline at 7586.4 bytes/hour, coordination and diagnostics included. Next candidates: textdraw construction1506, Vehicle/GameText831, one bounded Sprite barrier experiment. Original125textdraw bytes already accepted and never recounted. Goal active; no push/deployment.
+
+
+Textdraw/init accepted: +3158 unique bytes, total205848/930756 (22.116215%). Construction1506, Vehicle/GameText831, pregame/init821. Direct025 contribution824, cumulative17256; constructor402 hybrid qualitative contribution, existing-base pregame/init and DisplayGameText receive zero incremental025 credit. Original125textdraw bytes are already accepted and not recounted.
+
+SetText declaration order and loader align8 arrays plus explicit memset65 close the first trial differences. Full0x9D6 construction layout asserted. Actual InitGame calloc513 closes GameText pointer ownership, four-byte clear preserved. Pregame patch data remains existing source-owned GTA data, never executed. New strncmp provider is actual pinned LIBCMT:STRNCMP.OBJ; imports retain actual identities. Full31 new placements, all previous regions, relocations, ten negative controls and actor ABI pass. No redundant second build.
+
+Run cp32-textdraw-init-linked1, Ob1cp32-textdraw-init-ob1, Ob2cp32-player-lifetime-ob2. Measured 32707 unique new bytes at 7657.6 bytes/hour including coordination/trials. Sprite272 scheduling/absolute-address encoding remains parked; dispatch/pool dependents are excluded. Next: remaining high-yield textdraw and independent families. Goal active; no push/deployment.
+
+
+Textdraw/vehicle RPC accepted: +1848 unique bytes, total207696/930756 (22.314763%). Show/Edit/Info724 and appearance/interior1124, nine principal functions and five21-byte EH with full36-byte maps, three typed18-byte commands and literal41. Existing getters, FindPlayerPed copies and old125textdraw bytes add zero new credit. Direct025 contribution524, cumulative17780: TireRPC218 and Interior306; other functions receive zero strict direct source credit.
+
+Edit268 trial1 differed only in length initialization scheduling, corrected before pool retrieval. Plate279 vs280 corrected by initializing length before text buffer memset33. These motivated C++ changes preserve protocol conditions, argument identities and original boundary behavior. Show297/Info117 and five vehicle/interior bodies exact first trial. Info is real type4/color126, not Debug type8/color12A. No header change, no new globals/allocations. All full gate, ten negative controls and actor ABI pass.
+
+Run cp32-textdraw-vehicle-rpc-linked1, Ob1cp32-textdraw-vehicle-rpc-ob1, Ob2cp32-player-lifetime-ob2. Measured 34555 new unique bytes at 7795.7 bytes/hour, coordination/trials included. Preview requires >=6393 bytes before complete closure and is deferred; Sprite encoding remains unmatched. Next PlayerName/std::string and another independent family. Goal active; no push/deployment.
+
+
+Name/distance accepted: +1713 unique code bytes, total209409/930756 (22.498807%). PlayerName337+string893+EH31, Entity distances379 and independent model predicates73. Full_Copy316 includes267 primary and49-byte catch section; its final1-byte INT3 padding is fully compared but excluded from code coverage, leaving315 unique code bytes; fullEH10 and132metadata retained. True Xran/Xlen from pinned LIBCPMT:STRING.OBJ and CxxThrowException from LIBCMT:THROW.OBJ outside sourcecoverage. RPC EH21+36 map complete. Header-instantiated string code is actual source, not copied original instructions. Added337 direct adapted025 bytes, cumulative18117; other sources alreadybase or R5-only.
+
+Historical distance code-only matches were insufficient: initial linked draft rejected source10000.0f against originalEC54C100000.0f. Corrected both return literals, recompiled onlychangedTU throughcache and relinked, then reviewed actual bytes including constantidentity. Existing accepted100000constant gives no new data/codecredit. All2599 regions, old8pending excluded, full gate, ten negative controls and actor ABI pass. No exception-path native execution or redundant secondbuild.
+
+Run cp32-name-distance-linked2, Ob1cp32-name-distance-ob1b, Ob2cp32-player-lifetime-ob2. Measured 36268 unique new bytes at 7913.2 bytes/hour including coordination/trials. Next ScoreBoard209 candidate and independent std::string consumers/common wrappers. Goal active, no push/deployment.
+
+
+Screenshot/model accepted: +1546 unique code bytes, total210955/930756 (22.664909%). Filename/string988, ScoreBoard209, common model utilities349 (seven sizes sum349, initial agent449 arithmetic corrected beforeacceptance). Added255 direct025 filename bytes, cumulative18372. Fullcppstdappend/operator+/dtor/EH and originalformat24; realSAMPDir261 owner/writersidentified but SetupDirectories remains notimplemented/notcredited. No filesystem or screenshot operation executed.
+
+ScoreBoard209 constants checked including0.5, providersactual. Collision getter C++trials1 were33bytes short; trial2 gotfullsizes74/93 but EDX vsECX pointer transfer differed. Three named symbolic MOVs isolate that compiler-allocation difference; remainingC++ unchanged. RenderAtomic C++41 vs59 requires actual frame/local/cdeclcallback bridge, explicitlysymbolic59; fullactualgetter/callbackslot48 ABI reviewed, no fakevtable/rawbytes/nops. Otherfour utilityfunctions remainC++. Whole2626regions, allrelocations, tennegativecontrols and actorABI pass; old8pendingunchanged.
+
+Run cp32-screenshot-model-linked1, Ob1cp32-screenshot-model-ob1, Ob2cp32-player-lifetime-ob2. Measured 37814 unique new bytes at 7857.0 bytes/hour includingcoordination/trials. Nexttrue SetupDirectories and nativefactory81, then otherproviders; fullpreviewnotclaimed. Goalactive,no push/deployment.
+
+
+Directory/pool accepted: +1110 unique code bytes, total212065/930756 (22.784167%). Actual SetupDirectories/SetupCacheDirectories438 now close the SAMP/cache bufferwriters; sourcebase preserves registryhandle behavior,261-byte realbuffers and sixfullstrings. No filesystem/registry functions executed. Missing game/util.h declaration fixed after preservedfailedtrial. LocalPlayer ctor223/reset263 and PlayerPool ctor154 first C++trial exact, plus fullEH32/map44; allocator324h and existingwholeheaders324h/2F3Eh asserted. No destructor closure fabricated.
+
+All2644regions, actualproviders, everyCOFF/PErelocation, tenstandardnegativecontrols and actorABI pass. Direct025 new0, cumulative18372. Sourcefunctions alreadycompletebase, newlyclosed dependencies are the demonstrated accelerator.
+
+Run cp32-directory-pool-linked1, Ob1cp32-directory-pool-ob1, Ob2cp32-player-lifetime-ob2. Measured 38924 unique newbytes at 7568.3 bytes/hour includingcoordination/trials. Next actualType1 custompedchain823 and modelinstancefactory81 candidates; destruction/spectating/spawn remainexcluded. Goalactive,no push/deployment.
+
+
+Ped chain accepted: +1186 unique code bytes, total213251/930756 (22.911590%). Type1 customped chain823, factory81, Remote/Net destruction282 including EH21. GetModelInfo51 moved to a sole new TU owner with unchanged exact bytes; real EDX preservation yields clone76, explicit getter guard yields Ensure94. Factory81 symbolic after two documented C++ failures; C650281 uses accepted resolver pattern with actual PED installer A7BD0, never object homologue A7C30. Existing globalowners and formats fully verified; actual native slots16 SetClump and11 CreateInstance. Remote509/Net48 actual classes, CPlayerPed virtual deletion through real slot0 and flags1, real usedslots840. Two genuine nonvirtual declarations require fresh Ob1/Ob2.
+
+All2661regions, everyCOFF/PErelocation, tennegativecontrols and actorABI pass. Direct025 +79 adapted remote teardown, cumulative18451. Measured 40110 unique newbytes at 7429.1 bytes/hour coordination included. Eightoldpending excluded; ModelInfoLoaded extent under audit. Next objectrenderer694 and construction/clock649 candidates. Goalactive; no push/deployment.
+
+
+Construction/clock/providers accepted: +1265 unique code bytes, total214516/930756 (23.047501%). Remote ctor122/reset244/Net ctor160+EH32 and actual RakNet clocks86/155+NetGame wrapper5, shared true staticfrequency8/init1 (whole9). ColorsRPC233+setters33/21+EH21; ped modelsetter113 from025, real R5 fields44/2A4 and native audio bridge. ModelInfoLoaded original40 now fullyexact after C++16/volatile40 temporaryregister failure and bounded three-MOV field bridge; sevenpendingremain. Constructor source base/vendor and clocks firsttrialexact, true Remote allocation509 and Net layout48 preserved.
+
+All2684regions and actualprovider bindings/COFF/PErelocations pass, tencontrols/actorABI pass. CRT allmul52 and alldvrm223 full original/linkbody equality with actual LIBCMTmembers, no CRTcodecredit. Direct025 +346,cumulative18797. Measured 41375 newbytes at 7431.5 bytes/hour coordination included. Previewobject694 remains excluded after ABIcorrection and bounded C++ trials; no padding inserted. Next matrix/animation137 and source025trailers/mapicons/objectdelete. Goalactive,no push/deployment.
+
+
+Map/trailer/object/matrix accepted: +1959 unique code bytes, total216475/930756 (23.257975%). Trailers693, mapicons674, objectpoolDelete455, rotation72/animation65. RPC accessors and map helper expansion restore C++ codegen; uniquely separate true CVehicle methods from RPC avoids cross-function ECX clobber optimization and matches Attach315. Actual trailer pointer48 typed in same-size class field, three nonvirtual declarations require one fullOb1/Ob2 refresh. Real flag1517444, caller/writer/reader audit does not credit unimplemented hook. Map disableE5958 and game disableEC5BC remain distinct samecontent18-byte objects. Actual CObject deleting destructorAA100 via real slot0/flags1 accepted; views access-only never allocated.
+
+All2715regions plus all trueCOFF/PEtargets/data, fiveEH21/maps36, sourceflag and matrix40 pass; tencontrols/actorABI pass. Firstprobe terminalfailure was filename typo after eightcompiledobjects, preserved; actual full successfulrun used. Direct025 +1434,cumulative20231. Measured 43334 newbytes at 7443.6 bytes/hour coordination included. Next EntityRender138 and quaternionutilities171 candidates, broader025 RPC work. Goalactive,no push/deployment.
+
+
+Vehicle/entity/death providers accepted: +1266 unique code bytes,total217741/930756 (23.393994%). VehicleParams/RemoveComponent652 with true SetDoorStateB7840 distinct from oldSetLockedState; normalRPCGetAt and actualcomponentdescriptor18. Death name72/color55/AddMessage5 providers132, existingDeathWindow owner reused after rejectedduplicate link; RPCDeath493 remainsparked490. EntityRender138 and quaternion171, plus previouslyblocked Update82/SetMatrixAndUpdate91 nowcomplete173. Symbolic exceptions after boundedC++codegen failures, native PreRender17 vsRender18, Remove3/Add2, CMatrixUpdateRW59AD70 and EntityUpdateRwFrame532B00 verified. Matrix64 argument/ret64 forwarded to real SetMatrix177; two aliases bind soleactualmembers, no wrappers. Fivependingremain, AdvancePosition113 staysunchangedexact.
+
+All2735regions, wholedata/EH maps, everyCOFF/PErelocation and trueprovider, tencontrols/actorABI pass. Direct025 +549,cumulative20780; measured44600 newbytes at 7231.5 bytes/hour coordinationincluded. No newheaders, no native/runtime execution. NextHuffman2300+EH and remotePedctor712 candidates; goalactive,no push/deployment.
+
+
+Huffman/ped accepted: +6155 unique code bytes, total223896/930756 (24.055284%). Complete Huffman/StringCompressor source closure +4788 after all previous coverage; original ctor26760/9 has actual Huffman callers but already present in historicalCP31 union, zero duplicate credit. Complete English frequencies1024 isolated without sentinels or truncation, actual static state8; true Queue/LinkedList/Map allocations/lifetimes and every EH region. Real CPlayerPed813 remote constructor694 and ped preview634 plus EH39 =1367. First normal C++ probes exact, actual vtable/lifetime/matrix/render/model providers closed. Four whole script descriptors explicitly whitelisted. Header refresh both compiler profiles, one successful full link.
+
+All2836 whole regions, ten controls and actor ABI pass; five old pending excluded. Direct025 increment0, cumulative20780: useful remote-ped lifecycle input is hybrid reconstruction, not entire-body transfer credit. Measured50755 unique newbytes at7986.7 bytes/hour, coordinationincluded. Vehiclepreview/lifetime and independentnetwork next; goalactive,no push/deployment.
+
+
+Vehicle/statistics accepted: +5503 unique code bytes,total229399/930756 (24.646524%). Full actualCVehicleB8 constructor1308/lifetime2180, scalarB8B50/AddB8A10/RemoveB8A40 and vtableED728/12, plus vehiclepreview686/EH21 =707. Newconstructor needed bounded C++ float conditional fix retaining true float4; no symbolicbody or forceddata. Whole descriptors/separate realstores, actualtrain/carriagepaths and COMRelease retained. Existing anglecommand exposed with oneowner, no second body. Statistics2338 semanticR5levels1/2/4 and true differential counters, Entityqueries278 all firstprobeexact. Speedhistory225 trial146/235/150 excluded.
+
+All2905 whole regions, all COFF/PE targets, tencontrols and actorABI pass; fiveoldpending excluded. Direct025 numericcredit conservatively332,cumulative21112; missingvehiclelifecycle source was materially useful but hybrids notblanketcredited. Measured56258 newunique bytes at8423.4 bytes/hour coordinationincluded. Bothprofiles refreshed forheader; no push/nativeexecution/deployment. AES/MT6367 thenDataBlockEncryptor987 candidatesnext;goalactive.
+
+
+AES/DataBlock accepted: +7354 unique code bytes,total236753/930756 (25.436634%). Full Rijndael/MT199376367 plus DataBlockEncryptor/CheckSum987, 182 previouslycovered bytes deducted. Whole actual AES tables13712 contiguous, MT state/next2504 (raw296+virtual2208), ROUNDS4 and left4=-1, floating literals. Si/S5 duplicate table contents retain caller-specific identities, no invented aliases. True key282/cipher21/encryptor586/checksum10 structures, entire methods including bounds/modes, no fake providers. Ambiguous getter4 and dtor1 excluded. All sources normalvendor C++, exact first probes.
+
+All2939 complete regions, everyCOFF/PE target, tencontrols/actorABI pass. No headers changed, all unchanged objects reused. Direct025increment0/cumulative21112. Measured63612 newunique bytes at9350.9 bytes/hour coordinationincluded. Real previewowner361 and nextnetwork family follow; fivepending and object694/sprite272 unresolved, goalactive. No push/network/game/native execution.
+
+
+Reliability/preview accepted: +2203 unique code bytes,total238956/930756 (25.673324%). Reliability serialization/pool1008 and DataCompressor622/EH42=1672, true packet55/pool16 and offsets403/6F2, complete actual dynamic buffer allocation/release. Existing BitStreamRead<bool>89 reused, no duplicatecredit. Real previewowner28-byte constructor28/Initialize333 =361, all actual initialization calls and failurebehavior; startup/global notcredited. RW firstAtomic53/geometrySkin53/clumpSkin25/hierarchy39 =170, primary SDK native identities/version ABI. All normal C++ firstprobeexact.
+
+All2957 complete regions, everyCOFF/PEtarget, tencontrols/actorABI pass. No headerchange, cachedunchangedobjects. Direct025increment0/cumulative21112; measured65815 newunique bytes at9436.4 bytes/hour coordinationincluded. Fiveoldpending and Object694/Sprite272 stillunmatched, outer549 excluded. NextTEA1358 and largerinterface/renderfamily;goalactive,no push/game/network/nativeexecution.
+
+
+TEA/health accepted: +3330 unique code bytes, total 242286/930756 (26.031097%). TEA1358, seven health methods1894, actual matrix hook78. Normal C++; preserve TEA key no-op, genuine Ob2 for health Begin, actual12-byte owner and COM lifetime. Entire vertex/matrix stores and constants verified. D3DXVec3Project import thunk has true pinned library/slot identity and no source credit. DataBlock base lifetime reused with zero duplicate credit.
+
+All 2996 complete regions, every COFF/PE relocation, ten controls and actor ABI pass. Initial acceptance rejected missing import-library metadata; corrected manifest and reran without source change. Direct025 increment0/cumulative21112. Measured 69145 new unique bytes at 9413.5 bytes/hour including coordination and failed trials. Five old pending, Object694/Sprite272 and enclosing549 remain excluded. Next packet-family extraction and label785; goal active, no push/deployment/live networking.
+
+
+Reliability packet family accepted: +5919 unique code bytes, total 248205/930756 (26.667032%). Split/reassembly, queues, ordering, statistics, ping and TEA setup5901 plus EH18, complete unwind map36. Normal vendor C++ and real allocation/lifetime; failed first extraction preserved, corrected full source74/74 candidate emissions. Selected57 sections/190 bindings,558 previously covered bytes excluded. IsDataWaiting/AreAcksWaiting actual distinct callers confirmed. External alloca61 from LIBCMT chkstk.obj checked whole, zero source credit.
+
+All 3053 linked regions, every COFF/PE target, ten controls and actor ABI pass. No header change,348 cached objects reused. Direct025 increment0/cumulative21112. Measured 75064 unique bytes at 10077.5 bytes/hour, coordination included. Label757/756/755 still unmatched, not counted; old pending and parked preview unchanged. Next chat851 and independent network family. Goal active; no push, deployment or live networking.
+
+
+Lifecycle/chat accepted: +5532 unique code bytes, total 253737/930756 (27.261388%). Network lifecycle4667, chatRenderText851, independent menu14. Real1794/16/55 class sizes and all actual allocations/releases. Sole SetPing/UpdateNextActionTime146 moved without extra credit; genuine same-TU visibility restored Initialize405. Full typed selectany double8 preserves compiletime value while pooled16 and extern-only split rejected. No slicing/copied instructions. All complete EH/unwind maps, true vector CRT boundaries excluded from source coverage.
+
+All 3151 linked regions, COFF/PE targets, ten controls and actor ABI pass. Direct02514/cumulative21126; chat851 hybrid0, vendor lifecycle0. Measured 80596 unique bytes at 10441.1 bytes/hour including coordination and failed attempts. Label755 and Draw662 parked, dependent wrappers excluded. Resources536 candidate next. Goal active; no push/deploy/game/live network.
+
+
+Chat resources accepted: +536 unique bytes, total 254273/930756 (27.318975%). CreateFonts419/MeasureDimensions117 normal C++ first probe exact. Whole six strings,17 COFF/PE bindings; Y2 reused. Actual D3DXCreateTexture/CreateRenderToSurface import thunks and pinned library identities, no source credit for imports. Real CChatWindow owner/nonallocating view, original failure paths. All 3159 linked regions, ten controls and actor ABI pass.
+
+Direct0250/cumulative21126; measured 81132 unique bytes at 10342.6 bytes/hour incl coordination. Constructor279 only LEA/MOV scheduling difference, parked with full diagnostic; Draw662 and dependent wrappers excluded. Next ACK/resend trees and scoreboard actions; goal active, no push/game/network execution.
+
+
+Tree/scoreboard accepted: +2834 unique bytes, total 257107/930756 (27.623459%). BPlusTree removal/RangeList serialization2393 (EH42) +Scoreboard441 (EH21), complete unwind maps and RPC23 scalar4. Actual Serialize/Deserialize/RemoveResend callers, no duplicate666-byte credit. Insert505/SendAck22 excluded. Normal scoreboard snapshot of ListBox pointer restores Click282; no unknown owner allocated. Whole TU Ob2 for Hide, other objects unchanged. All 3190 linked regions, full COFF/PE targets, ten controls and actor ABI pass.
+
+Direct0250/cumulative21126. Measured 83966 unique bytes at 10476.0 bytes/hour including coordination. Next full item400 and datagram static3718 pending callbacks. Goal active, no push/deploy/game/live network.
+
+
+Tree insertion/items accepted: +2524 unique bytes, total 259631/930756 (27.894636%). Static insertion/queue2124 plus full ListBox item400. Real29E allocation and all fields identified/asserted, exact zero64/128 and textcapacity256 preserved; outer ListBox not allocated. Normal source actual pointer-reference identity and reload after memset, no invented padding. Whole functions/all COFF/PE targets, all 3204 linked regions, ten controls and actor ABI pass.
+
+Direct0250/cumulative21126, measured 86490 unique bytes at 10494.1 bytes/hour coordination included. Datagram remains unmatched and callbacks open; Update892 parked while queries432 match. Next logger base/file and playerqueries. Goal active; no push/game/live network.
+
+
+Logger/scoreboard accepted: +2480 unique code bytes, total 262111/930756 (28.161086%). Logger1184+real server ABI bridge8; population892+queries396 unique (GetRemote36 already accepted in base manifests). Full class tables, all original targets and relocations; IDTOString complete172 checked and only118 code counted. Actual compiler deleting aliases and server target provider qualified; unused entry alias removed after draft rejection with unchanged gate. Real row45 and scratch260, no fabricated allocation/padding. 3271 regions, ten negative controls and bounded actor ABI pass.
+
+Direct0250/cumulative21126; source025 helps scoreboard reasoning but hybrid implementation has no direct byte credit. 88970 total new unique bytes since parallel start, 10215.8 bytes/hour including coordination/failures. Next graph/Dijkstra and scoreboard Draw/request; plate renderer296/295 still excluded. Goal active, no push/GTA/live networking.
+
+
+Plate/request accepted: +402 unique code bytes, total 262513/930756 (28.204277%). Full plate owner lifecycle230 and genuine periodic request151/EH21; whole unwind36 and scalars4+4. All 3280 regions, COFF/PE bindings and actual providers, ten negative controls and actor ABI pass. Existing aliases freshly qualified at final link. Direct0250/cumulative21126 (hybrid request adaptation). PlateRender296/295 and ScoreboardDraw790 scheduling mismatches excluded; no guessed register permutations.
+
+Since parallel start 89372 new unique bytes, 10124.3 bytes/hour coordination included. Next graph context split, socket leaves and labels3D. Goal active; no push/deployment/network execution.
+
+
+Graph/labels/socket accepted: +9624 unique code bytes, total 272137/930756 (29.238275%). Graph8633 (476 EH), labels564, socket leaves427. Every selected function/COMDAT copy, all 3456 regions, original COFF/PE bindings and complete EH maps804 verified; ten controls and bounded actor ABI pass. Real compilation contexts separated, comparator44 emitted explicitly to eliminate absent fallback name without gate changes. Duplicate copies give no extra coverage. High graph algorithms and dependent SpanningTree remain excluded, as does SocketSendTo137 with extra transformation.
+
+Direct0250/cumulative21126; missing025 descriptor18 provides concrete semantic/data input to labels, not direct code credit. Since parallel start 98996 new unique bytes at 10871.4 bytes/hour coordination included. LabelPool and StringTable next; goal active. No push, deployment, native UI or live sockets.
+
+
+AVL/StringTable/label leaves accepted: +4132 unique code bytes, total 276269/930756 (29.682215%). AVL2359 (deleting60+EH18), StringTable1474 (EH36), LabelPool New270+IsActive29. Complete real objects, VFTs, state and EH; all 3526 regions/COFF/PE targets, ten controls and actor ABI pass. PlayerID sole definitions transferred into NetworkTypes comparison context restores real ECX preservation and84-byte NetworkID comparisons; no fake barriers or alias/gate changes. Old comparisons and assignment29 gain no duplicate credit.
+
+Direct0250/cumulative21126; 103128 new unique bytes since parallel start, 10870.3 bytes/hour including coordination/failures. Draw643/Transform92 and unconsumed pLabel store remain excluded. Next ListBox deliberate layout/lifetime milestone and Actor context diagnosis. Goal active; no push/deploy/native game or networking.
+
+
+ListBox/roster accepted: +1250 unique code bytes, total 277519/930756 (29.816515%). ListBox Insert195+arrayInsert92 and player roster900+EH63, all full regions and actual providers. Shared header milestone rebuilt all profiles,111 old GUI regions preserved; full gate, ten controls and Actor ABI pass. Real pScoreBoard4 storage transferred separately; prior pDeathWindow/pLabel main changes remain pending.
+
+Source025821 adapted principal bytes/cumulative21947; 104378 new unique bytes since parallel start, 10485.9 bytes/hour including coordination/failures. Ctor144/Render1014 and ServerJoin remain unmatched, their dependencies excluded. Agents reassigned after bounded trials. Goal active; no push/deploy.

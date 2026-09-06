@@ -1,0 +1,31 @@
+{
+  "status": "BOUNDED_VISIBILITY_EXPERIMENT_NOT_MATCHED",
+  "failed_trial": "cp32-reliability-lifecycle-trial1",
+  "difference": "One scheduling swap in InitializeVariables405: mov eax,ecx before rather than after store histogramStartTime.high; no other non-relocation byte differences.",
+  "hypothesis": "Restore same-TU visibility of complete SetPing and its inline-expanded UpdateNextActionTime; not a proven root cause until trial.",
+  "moved": [
+    {
+      "symbol": "?SetPing@ReliabilityLayer@@QAEXI@Z",
+      "rva": 285696,
+      "size": 91
+    },
+    {
+      "symbol": "?UpdateNextActionTime@ReliabilityLayer@@AAEXXZ",
+      "rva": 278640,
+      "size": 55
+    }
+  ],
+  "source_from": "client/saco/closure_vendor_reliability_packet_family.cpp",
+  "destination": "client/saco/closure_vendor_reliability_lifecycle.cpp",
+  "coverage_credit": 0,
+  "files": [
+    {
+      "path": "build/agent-independent/eval_vendor_reliability_packet_family3_without_ping.cpp",
+      "sha256": "8045b240ca23e22efc05a60749560e3988aadea291a68b56cfe03c729e3551ca"
+    },
+    {
+      "path": "build/agent-independent/eval_vendor_reliability_lifecycle2_with_ping.cpp",
+      "sha256": "ea94cd3c676cbdd4eca95ee0c900cd76431596a3780e545cdf488d261845d81d"
+    }
+  ]
+}

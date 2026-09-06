@@ -1,0 +1,437 @@
+{
+  "status": "ORIGINAL_DIRECT_CALLER_IDENTITIES",
+  "callers": [
+    {
+      "caller_rva": 153072,
+      "caller_inventory_name": "?SetKey@DataBlockEncryptor@@QAEXQBE@Z",
+      "site_rva": 153093,
+      "target_rva": 319680,
+      "target_symbol": "?makeKey@@YAHPAUkeyInstance@@EHPAD@Z",
+      "kind": "call"
+    },
+    {
+      "caller_rva": 153072,
+      "caller_inventory_name": "?SetKey@DataBlockEncryptor@@QAEXQBE@Z",
+      "site_rva": 153110,
+      "target_rva": 319680,
+      "target_symbol": "?makeKey@@YAHPAUkeyInstance@@EHPAD@Z",
+      "kind": "call"
+    },
+    {
+      "caller_rva": 153072,
+      "caller_inventory_name": "?SetKey@DataBlockEncryptor@@QAEXQBE@Z",
+      "site_rva": 153126,
+      "target_rva": 319968,
+      "target_symbol": "?cipherInit@@YAHPAUcipherInstance@@EPAD@Z",
+      "kind": "call"
+    },
+    {
+      "caller_rva": 153200,
+      "caller_inventory_name": "?Encrypt@DataBlockEncryptor@@QAEXPAEH0PAH@Z",
+      "site_rva": 153240,
+      "target_rva": 277504,
+      "target_symbol": "?randomMT@@YAIXZ",
+      "kind": "call"
+    },
+    {
+      "caller_rva": 153200,
+      "caller_inventory_name": "?Encrypt@DataBlockEncryptor@@QAEXPAEH0PAH@Z",
+      "site_rva": 153261,
+      "target_rva": 277504,
+      "target_symbol": "?randomMT@@YAIXZ",
+      "kind": "call"
+    },
+    {
+      "caller_rva": 153200,
+      "caller_inventory_name": "?Encrypt@DataBlockEncryptor@@QAEXPAEH0PAH@Z",
+      "site_rva": 153365,
+      "target_rva": 277504,
+      "target_symbol": "?randomMT@@YAIXZ",
+      "kind": "call"
+    },
+    {
+      "caller_rva": 153200,
+      "caller_inventory_name": "?Encrypt@DataBlockEncryptor@@QAEXPAEH0PAH@Z",
+      "site_rva": 153420,
+      "target_rva": 320064,
+      "target_symbol": "?blockEncrypt@@YAHPAUcipherInstance@@PAUkeyInstance@@PAEH2@Z",
+      "kind": "call"
+    },
+    {
+      "caller_rva": 153200,
+      "caller_inventory_name": "?Encrypt@DataBlockEncryptor@@QAEXPAEH0PAH@Z",
+      "site_rva": 153527,
+      "target_rva": 320064,
+      "target_symbol": "?blockEncrypt@@YAHPAUcipherInstance@@PAUkeyInstance@@PAEH2@Z",
+      "kind": "call"
+    },
+    {
+      "caller_rva": 153568,
+      "caller_inventory_name": "?Decrypt@DataBlockEncryptor@@QAE_NPAEH0PAH@Z",
+      "site_rva": 153718,
+      "target_rva": 320864,
+      "target_symbol": "?blockDecrypt@@YAHPAUcipherInstance@@PAUkeyInstance@@PAEH2@Z",
+      "kind": "call"
+    },
+    {
+      "caller_rva": 153568,
+      "caller_inventory_name": "?Decrypt@DataBlockEncryptor@@QAE_NPAEH0PAH@Z",
+      "site_rva": 153866,
+      "target_rva": 320864,
+      "target_symbol": "?blockDecrypt@@YAHPAUcipherInstance@@PAUkeyInstance@@PAEH2@Z",
+      "kind": "call"
+    },
+    {
+      "caller_rva": 174048,
+      "caller_inventory_name": "sub_1002A7E0",
+      "site_rva": 175115,
+      "target_rva": 277168,
+      "target_symbol": "?seedMT@@YAXI@Z",
+      "kind": "call"
+    },
+    {
+      "caller_rva": 174048,
+      "caller_inventory_name": "sub_1002A7E0",
+      "site_rva": 175125,
+      "target_rva": 277504,
+      "target_symbol": "?randomMT@@YAIXZ",
+      "kind": "call"
+    },
+    {
+      "caller_rva": 195744,
+      "caller_inventory_name": "sub_1002FCA0",
+      "site_rva": 195885,
+      "target_rva": 277504,
+      "target_symbol": "?randomMT@@YAIXZ",
+      "kind": "call"
+    },
+    {
+      "caller_rva": 195744,
+      "caller_inventory_name": "sub_1002FCA0",
+      "site_rva": 196311,
+      "target_rva": 277504,
+      "target_symbol": "?randomMT@@YAIXZ",
+      "kind": "call"
+    },
+    {
+      "caller_rva": 233072,
+      "caller_inventory_name": "sub_10038E70",
+      "site_rva": 233121,
+      "target_rva": 277504,
+      "target_symbol": "?randomMT@@YAIXZ",
+      "kind": "call"
+    },
+    {
+      "caller_rva": 262848,
+      "caller_inventory_name": "sub_100402C0",
+      "site_rva": 263168,
+      "target_rva": 277504,
+      "target_symbol": "?randomMT@@YAIXZ",
+      "kind": "call"
+    },
+    {
+      "caller_rva": 265808,
+      "caller_inventory_name": "sub_10040E50",
+      "site_rva": 265816,
+      "target_rva": 277504,
+      "target_symbol": "?randomMT@@YAIXZ",
+      "kind": "call"
+    },
+    {
+      "caller_rva": 266320,
+      "caller_inventory_name": "sub_10041050",
+      "site_rva": 266736,
+      "target_rva": 277504,
+      "target_symbol": "?randomMT@@YAIXZ",
+      "kind": "call"
+    },
+    {
+      "caller_rva": 272960,
+      "caller_inventory_name": "RakPeer::sub_10042A40",
+      "site_rva": 272984,
+      "target_rva": 277168,
+      "target_symbol": "?seedMT@@YAXI@Z",
+      "kind": "call"
+    },
+    {
+      "caller_rva": 273408,
+      "caller_inventory_name": "sub_10042C00",
+      "site_rva": 273471,
+      "target_rva": 277168,
+      "target_symbol": "?seedMT@@YAXI@Z",
+      "kind": "call"
+    },
+    {
+      "caller_rva": 273408,
+      "caller_inventory_name": "sub_10042C00",
+      "site_rva": 273479,
+      "target_rva": 277504,
+      "target_symbol": "?randomMT@@YAIXZ",
+      "kind": "call"
+    },
+    {
+      "caller_rva": 273408,
+      "caller_inventory_name": "sub_10042C00",
+      "site_rva": 273501,
+      "target_rva": 277504,
+      "target_symbol": "?randomMT@@YAIXZ",
+      "kind": "call"
+    },
+    {
+      "caller_rva": 276432,
+      "caller_inventory_name": "sub_100437D0",
+      "site_rva": 276567,
+      "target_rva": 277504,
+      "target_symbol": "?randomMT@@YAIXZ",
+      "kind": "call"
+    },
+    {
+      "caller_rva": 277216,
+      "caller_inventory_name": "?reloadMT@@YAIXZ",
+      "site_rva": 277244,
+      "target_rva": 277168,
+      "target_symbol": "?seedMT@@YAXI@Z",
+      "kind": "call"
+    },
+    {
+      "caller_rva": 277504,
+      "caller_inventory_name": "?randomMT@@YAIXZ",
+      "site_rva": 277512,
+      "target_rva": 277216,
+      "target_symbol": "?reloadMT@@YAIXZ",
+      "kind": "jmp"
+    },
+    {
+      "caller_rva": 277584,
+      "caller_inventory_name": "?frandomMT@@YAMXZ",
+      "site_rva": 277585,
+      "target_rva": 277504,
+      "target_symbol": "?randomMT@@YAIXZ",
+      "kind": "call"
+    },
+    {
+      "caller_rva": 277776,
+      "caller_inventory_name": "?SendBitStream@ReliabilityLayer@@AAEXIUPlayerID@@PAVBitStream@RakNet@@@Z",
+      "site_rva": 277817,
+      "target_rva": 277584,
+      "target_symbol": "?frandomMT@@YAMXZ",
+      "kind": "call"
+    },
+    {
+      "caller_rva": 301792,
+      "caller_inventory_name": "sub_10049AE0",
+      "site_rva": 302340,
+      "target_rva": 277504,
+      "target_symbol": "?randomMT@@YAIXZ",
+      "kind": "call"
+    },
+    {
+      "caller_rva": 315968,
+      "caller_inventory_name": "sub_1004D240",
+      "site_rva": 316078,
+      "target_rva": 315632,
+      "target_symbol": "?mul@@YAEEE@Z",
+      "kind": "call"
+    },
+    {
+      "caller_rva": 315968,
+      "caller_inventory_name": "sub_1004D240",
+      "site_rva": 316097,
+      "target_rva": 315632,
+      "target_symbol": "?mul@@YAEEE@Z",
+      "kind": "call"
+    },
+    {
+      "caller_rva": 316848,
+      "caller_inventory_name": "?rijndaelKeyEnctoDec@@YAHHQAY133E@Z",
+      "site_rva": 316874,
+      "target_rva": 316256,
+      "target_symbol": "?InvMixColumn@@YAXQAY03EE@Z",
+      "kind": "call"
+    },
+    {
+      "caller_rva": 319504,
+      "caller_inventory_name": "sub_1004E010",
+      "site_rva": 319539,
+      "target_rva": 315696,
+      "target_symbol": "?KeyAddition@@YAXQAY03E0E@Z",
+      "kind": "call"
+    },
+    {
+      "caller_rva": 319504,
+      "caller_inventory_name": "sub_1004E010",
+      "site_rva": 319552,
+      "target_rva": 315888,
+      "target_symbol": "?Substitution@@YAXQAY03EQAEE@Z",
+      "kind": "call"
+    },
+    {
+      "caller_rva": 319504,
+      "caller_inventory_name": "sub_1004E010",
+      "site_rva": 319562,
+      "target_rva": 315776,
+      "target_symbol": "?ShiftRow@@YAXQAY03EEE@Z",
+      "kind": "call"
+    },
+    {
+      "caller_rva": 319504,
+      "caller_inventory_name": "sub_1004E010",
+      "site_rva": 319596,
+      "target_rva": 315696,
+      "target_symbol": "?KeyAddition@@YAXQAY03E0E@Z",
+      "kind": "call"
+    },
+    {
+      "caller_rva": 319504,
+      "caller_inventory_name": "sub_1004E010",
+      "site_rva": 319604,
+      "target_rva": 316256,
+      "target_symbol": "?InvMixColumn@@YAXQAY03EE@Z",
+      "kind": "call"
+    },
+    {
+      "caller_rva": 319504,
+      "caller_inventory_name": "sub_1004E010",
+      "site_rva": 319617,
+      "target_rva": 315888,
+      "target_symbol": "?Substitution@@YAXQAY03EQAEE@Z",
+      "kind": "call"
+    },
+    {
+      "caller_rva": 319504,
+      "caller_inventory_name": "sub_1004E010",
+      "site_rva": 319627,
+      "target_rva": 315776,
+      "target_symbol": "?ShiftRow@@YAXQAY03EEE@Z",
+      "kind": "call"
+    },
+    {
+      "caller_rva": 319504,
+      "caller_inventory_name": "sub_1004E010",
+      "site_rva": 319654,
+      "target_rva": 315696,
+      "target_symbol": "?KeyAddition@@YAXQAY03E0E@Z",
+      "kind": "call"
+    },
+    {
+      "caller_rva": 319680,
+      "caller_inventory_name": "?makeKey@@YAHPAUkeyInstance@@EHPAD@Z",
+      "site_rva": 319915,
+      "target_rva": 316352,
+      "target_symbol": "?rijndaelKeySched@@YAHQAY03EHQAY133E@Z",
+      "kind": "call"
+    },
+    {
+      "caller_rva": 319680,
+      "caller_inventory_name": "?makeKey@@YAHPAUkeyInstance@@EHPAD@Z",
+      "site_rva": 319933,
+      "target_rva": 316848,
+      "target_symbol": "?rijndaelKeyEnctoDec@@YAHHQAY133E@Z",
+      "kind": "call"
+    },
+    {
+      "caller_rva": 319968,
+      "caller_inventory_name": "?cipherInit@@YAHPAUcipherInstance@@EPAD@Z",
+      "site_rva": 320032,
+      "target_rva": 277504,
+      "target_symbol": "?randomMT@@YAIXZ",
+      "kind": "call"
+    },
+    {
+      "caller_rva": 320064,
+      "caller_inventory_name": "?blockEncrypt@@YAHPAUcipherInstance@@PAUkeyInstance@@PAEH2@Z",
+      "site_rva": 320257,
+      "target_rva": 316912,
+      "target_symbol": "?rijndaelEncrypt@@YAHQAE0QAY133E@Z",
+      "kind": "call"
+    },
+    {
+      "caller_rva": 320064,
+      "caller_inventory_name": "?blockEncrypt@@YAHPAUcipherInstance@@PAUkeyInstance@@PAEH2@Z",
+      "site_rva": 320736,
+      "target_rva": 316912,
+      "target_symbol": "?rijndaelEncrypt@@YAHQAE0QAY133E@Z",
+      "kind": "call"
+    },
+    {
+      "caller_rva": 320064,
+      "caller_inventory_name": "?blockEncrypt@@YAHPAUcipherInstance@@PAUkeyInstance@@PAEH2@Z",
+      "site_rva": 320814,
+      "target_rva": 316912,
+      "target_symbol": "?rijndaelEncrypt@@YAHQAE0QAY133E@Z",
+      "kind": "call"
+    },
+    {
+      "caller_rva": 320864,
+      "caller_inventory_name": "?blockDecrypt@@YAHPAUcipherInstance@@PAUkeyInstance@@PAEH2@Z",
+      "site_rva": 321072,
+      "target_rva": 316912,
+      "target_symbol": "?rijndaelEncrypt@@YAHQAE0QAY133E@Z",
+      "kind": "call"
+    },
+    {
+      "caller_rva": 320864,
+      "caller_inventory_name": "?blockDecrypt@@YAHPAUcipherInstance@@PAUkeyInstance@@PAEH2@Z",
+      "site_rva": 321440,
+      "target_rva": 318592,
+      "target_symbol": "?rijndaelDecrypt@@YAHQAE0QAY133E@Z",
+      "kind": "call"
+    },
+    {
+      "caller_rva": 320864,
+      "caller_inventory_name": "?blockDecrypt@@YAHPAUcipherInstance@@PAUkeyInstance@@PAEH2@Z",
+      "site_rva": 321518,
+      "target_rva": 318592,
+      "target_symbol": "?rijndaelDecrypt@@YAHQAE0QAY133E@Z",
+      "kind": "call"
+    },
+    {
+      "caller_rva": 320864,
+      "caller_inventory_name": "?blockDecrypt@@YAHPAUcipherInstance@@PAUkeyInstance@@PAEH2@Z",
+      "site_rva": 321629,
+      "target_rva": 318592,
+      "target_symbol": "?rijndaelDecrypt@@YAHQAE0QAY133E@Z",
+      "kind": "call"
+    },
+    {
+      "caller_rva": 321680,
+      "caller_inventory_name": "sub_1004E890",
+      "site_rva": 321769,
+      "target_rva": 319504,
+      "target_symbol": "?rijndaelDecryptRound@@YAHQAY03EQAY133EH@Z",
+      "kind": "call"
+    },
+    {
+      "caller_rva": 321680,
+      "caller_inventory_name": "sub_1004E890",
+      "site_rva": 321790,
+      "target_rva": 317872,
+      "target_symbol": "?rijndaelEncryptRound@@YAHQAY03EQAY133EH@Z",
+      "kind": "call"
+    },
+    {
+      "caller_rva": 347808,
+      "caller_inventory_name": "sub_10054EA0",
+      "site_rva": 347840,
+      "target_rva": 277504,
+      "target_symbol": "?randomMT@@YAIXZ",
+      "kind": "call"
+    },
+    {
+      "caller_rva": 355536,
+      "caller_inventory_name": "?Encrypt@TEABlockEncryptor@@QAEXPAEH0PAH@Z",
+      "site_rva": 355618,
+      "target_rva": 277504,
+      "target_symbol": "?randomMT@@YAIXZ",
+      "kind": "call"
+    },
+    {
+      "caller_rva": 355536,
+      "caller_inventory_name": "?Encrypt@TEABlockEncryptor@@QAEXPAEH0PAH@Z",
+      "site_rva": 355700,
+      "target_rva": 277504,
+      "target_symbol": "?randomMT@@YAIXZ",
+      "kind": "call"
+    }
+  ]
+}

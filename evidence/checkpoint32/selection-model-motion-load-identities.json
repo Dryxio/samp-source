@@ -1,0 +1,165 @@
+{
+  "status": "PROPOSED_NOT_COMPILED",
+  "baseline": 199433,
+  "immediately_closable_if_exact": 386,
+  "regions": [
+    {
+      "rva": "0xc770",
+      "size": 281,
+      "name": "LoadModelFiles",
+      "sha256": "fe3b849174fe6e730bbce3131693565f9a125f845f9e1e3d099ec764fbebfc3d",
+      "accepted_overlap": 0,
+      "pe_fixups": [
+        {
+          "offset": 23,
+          "va": "0x100e5cc8"
+        },
+        {
+          "offset": 55,
+          "va": "0x100e5ca8"
+        },
+        {
+          "offset": 101,
+          "va": "0x100e5ca8"
+        },
+        {
+          "offset": 153,
+          "va": "0x100e5cb4"
+        },
+        {
+          "offset": 193,
+          "va": "0x100e5cb4"
+        }
+      ],
+      "calls": [
+        {
+          "offset": 30,
+          "target": "0x100c7353"
+        },
+        {
+          "offset": 60,
+          "target": "0x100c7353"
+        },
+        {
+          "offset": 73,
+          "target": "0x100b5dc0"
+        },
+        {
+          "offset": 106,
+          "target": "0x100c7353"
+        },
+        {
+          "offset": 119,
+          "target": "0x100b5dc0"
+        },
+        {
+          "offset": 158,
+          "target": "0x100c7353"
+        },
+        {
+          "offset": 168,
+          "target": "0x100b5dc0"
+        },
+        {
+          "offset": 198,
+          "target": "0x100c7353"
+        },
+        {
+          "offset": 208,
+          "target": "0x100b5dc0"
+        },
+        {
+          "offset": 254,
+          "target": "0x100a7c30"
+        }
+      ]
+    },
+    {
+      "rva": "0xd320",
+      "size": 105,
+      "name": "EnsureModelReady",
+      "sha256": "d10420da69f687c3c41fd4c69b408fcaa2addeef125767ed80c8665ac90f84d7",
+      "accepted_overlap": 0,
+      "pe_fixups": [],
+      "calls": [
+        {
+          "offset": 79,
+          "target": "0x1000c770"
+        }
+      ]
+    }
+  ],
+  "providers": {
+    "_sprintf": {
+      "va": "0x100C7353",
+      "size": 88,
+      "status": "accepted CRT provider"
+    },
+    "?IsFileOrDirectoryExists@@YAHPAD@Z": {
+      "va": "0x100B5DC0",
+      "size": 26,
+      "status": "accepted linked function"
+    },
+    "?InstallCustomModel@@YAHHHPAD00@Z": {
+      "va": "0x100A7C30",
+      "size": 133,
+      "status": "accepted linked function"
+    }
+  },
+  "data": [
+    {
+      "rva": "0xe5cc8",
+      "size": 3,
+      "name": "r5CustomModelDictionaryFormat",
+      "byte_values": [
+        37,
+        88,
+        0
+      ],
+      "sha256": "d1285331882f010ea1f336fb0fbe7d066e730837135a32eb572c29652c97d54f"
+    },
+    {
+      "rva": "0xe5ca8",
+      "size": 12,
+      "name": "r5CustomModelDffFormat",
+      "byte_values": [
+        37,
+        115,
+        92,
+        48,
+        120,
+        37,
+        88,
+        46,
+        100,
+        102,
+        102,
+        0
+      ],
+      "sha256": "e90ce8236e73372bcf284655e9e425396cc2c028c2b279b2690b0443dbcf7d39"
+    },
+    {
+      "rva": "0xe5cb4",
+      "size": 12,
+      "name": "r5CustomModelTxdFormat",
+      "byte_values": [
+        37,
+        115,
+        92,
+        48,
+        120,
+        37,
+        88,
+        46,
+        116,
+        120,
+        100,
+        0
+      ],
+      "sha256": "16e18df532d95f493ccf7e495c4b32d983f5ab84c8bd4808849daa01bd3353d4"
+    }
+  ],
+  "aliases": {},
+  "EH": [],
+  "tables": []
+}

@@ -1,0 +1,87 @@
+{
+  "status": "PROPOSAL_NOT_COMPILED_NOT_ACCEPTED",
+  "baseline": "evidence/checkpoint32/ped-chain-acceptance.json",
+  "potential_unique_code": 674,
+  "regions": [
+    {
+      "identity": "SetRPC",
+      "rva": 108432,
+      "size": 287,
+      "sha256": "ac29514b8049a7e488d9ea64a14c91d075054ef8710e020f8cb2b1082b2f1679"
+    },
+    {
+      "identity": "DisableRPC",
+      "rva": 108720,
+      "size": 147,
+      "sha256": "ec3758d7fe71806b070e477e65949490d22aad5c96696d39e4c6b7e5de18eb12"
+    },
+    {
+      "identity": "SetMapIcon",
+      "rva": 41728,
+      "size": 93,
+      "sha256": "62f76e3507d21ad70f073b1304a22647057fe11ba59110d9b5b8f15bbb6fc0d0"
+    },
+    {
+      "identity": "DisableMapIcon",
+      "rva": 36784,
+      "size": 45,
+      "sha256": "560fb68467ee5bda9cbeb8f874f9e2291dd25394f99cc5cd830ef4fbcda9c6f6"
+    },
+    {
+      "identity": "ResetMapIcons",
+      "rva": 41664,
+      "size": 60,
+      "sha256": "d69b0eea044bdc1bdaf91c077c8625fcbc10eb9d1bd1e172d683e7153022398a"
+    },
+    {
+      "identity": "RPC EH",
+      "rva": 921936,
+      "size": 21,
+      "sha256": "192b01bf422a71ad0f36c29df235bde7c112865fec99e49b97d4617c5e5151bd"
+    },
+    {
+      "identity": "RPC EH",
+      "rva": 921968,
+      "size": 21,
+      "sha256": "79f857c72acb981e6e8c3d9105cd7ec905cd7c2e2997ee20b846ff0d4230d6b6"
+    }
+  ],
+  "data": [
+    {
+      "identity": "UnwindMap",
+      "rva": 1018784,
+      "size": 8,
+      "sha256": "c1c7f298294c71a95293d3488ff8a587cbcc5eaf24821888778e86d5b1bbdf9c"
+    },
+    {
+      "identity": "FuncInfo",
+      "rva": 1018792,
+      "size": 28,
+      "sha256": "18d05bbde5377ec5eee30300f33bb738ad5d80a211979bbae06fab92fa29b01e"
+    },
+    {
+      "identity": "UnwindMap",
+      "rva": 1018820,
+      "size": 8,
+      "sha256": "c88906388f259a94d0e8b240fd795a496f047cb862130d7d97020613daac04d8"
+    },
+    {
+      "identity": "FuncInfo",
+      "rva": 1018828,
+      "size": 28,
+      "sha256": "898f0273adcf41e21a2a5ed5cd3c8f37beea6d97dee022dc1fdf6b2d1013ba3e"
+    }
+  ],
+  "provenance": "RPC434 from025; extra style BYTE read R5. Three NetGame methods198 already complete base.",
+  "source025_candidate_bytes": 434,
+  "source": "build/agent-independent/eval_rpc_map_icons.cpp",
+  "provider_identities": [
+    "BitStream1F840/1F9B0/1F8D0",
+    "CxxFrameHandlerC6526",
+    "ScriptCommandB2310,disable_markerE5958whole18",
+    "CreateRadarMarkerIconA0D90 accepted295",
+    "NetGame mapIcons field23D[100] actual existingheader"
+  ],
+  "new_headers": [],
+  "source_sha256": "ce16499b7127badf83734e19a38e5e248c08c0c12a9ecde17ff80b5e6ae6d004"
+}

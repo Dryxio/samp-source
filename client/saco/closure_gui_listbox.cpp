@@ -409,17 +409,7 @@ void CDXUTListBox::RemoveItem( int nIndex )
 
     m_pDialog->SendEvent( EVENT_LISTBOX_SELECTION, true, this );
 }
-void CDXUTListBox::RemoveAllItems()
-{
-    for( int i = 0; i < m_Items.GetSize(); ++i )
-    {
-        DXUTListBoxItem *pItem = m_Items.GetAt( i );
-        delete pItem;
-    }
-
-    m_Items.RemoveAll();
-    reinterpret_cast<R5ListBoxScrollView*>(this)->scrollbar.SetTrackRange( 0, 1 );
-}
+// RemoveAllItems moves, unchanged, to widget_lifetime with the full ListBox destructor.
 bool CDXUTScrollBar::HandleKeyboard( UINT uMsg, WPARAM wParam, LPARAM lParam )
 {
     return false;

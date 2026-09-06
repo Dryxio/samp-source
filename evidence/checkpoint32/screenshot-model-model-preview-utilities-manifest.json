@@ -1,0 +1,84 @@
+{
+  "status": "NORMAL_CPP_UNCOMPILED_PROPOSAL",
+  "baseline_proof": "evidence/checkpoint32/name-distance-acceptance.json",
+  "baseline_union": 209409,
+  "potential_new_principal": 349,
+  "functions": [
+    {
+      "rva": "0xb6360",
+      "size": 74,
+      "name": "GetModelCollisionRadius",
+      "sha256": "3b136fd2095ea32e64741fe2e852043b6ee5afdc2da9a459cc7bd05daabaa352",
+      "accepted_overlap": 0,
+      "pe_fixups": [
+        {
+          "offset": 57,
+          "reference_va": "0x100e5940"
+        }
+      ]
+    },
+    {
+      "rva": "0xb6410",
+      "size": 93,
+      "name": "GetModelCollisionCentre",
+      "sha256": "db43cf2ba936de1f353c2981e97eb5fba595bdbc76dc47207640e8a186ed51e1",
+      "accepted_overlap": 0,
+      "pe_fixups": []
+    },
+    {
+      "rva": "0xb4520",
+      "size": 9,
+      "name": "GetNativeModelVtable",
+      "sha256": "ac23dcac611dba63ddf74913b36aad48974e941f4fb0cb5b8e6d67456763c683",
+      "accepted_overlap": 0,
+      "pe_fixups": []
+    },
+    {
+      "rva": "0xb1430",
+      "size": 20,
+      "name": "GetAtomicRenderCallback",
+      "sha256": "519b8b4db5cb30beaa58efa736fc05d084cf953731ea0a2587dd2116ff9daa42",
+      "accepted_overlap": 0,
+      "pe_fixups": []
+    },
+    {
+      "rva": "0xb62f0",
+      "size": 59,
+      "name": "RenderAtomicIfValid",
+      "sha256": "b5ea5d08f3d54c2d1e247f82374840ed4d9827d2496144eec9b5d7127e172e36",
+      "accepted_overlap": 0,
+      "pe_fixups": []
+    },
+    {
+      "rva": "0xb6330",
+      "size": 37,
+      "name": "RenderRwModel",
+      "sha256": "581b7f7eff8ce894cc167839933fe27de39f4cb1a1e7cb074ceffd8e249e24ae",
+      "accepted_overlap": 0,
+      "pe_fixups": []
+    },
+    {
+      "rva": "0xb62b0",
+      "size": 57,
+      "name": "DestroyRwModel",
+      "sha256": "b8e858fc3872020ceb5e886c6364cdd2b6d15b20e2b98d70641281f2920427de",
+      "accepted_overlap": 0,
+      "pe_fixups": []
+    }
+  ],
+  "literal": {
+    "rva": "0xE5940",
+    "bytes": "00000000",
+    "value": 0.0
+  },
+  "providers": {
+    "GetModelInfo": "0x100A7A40",
+    "RpAtomicDestroy": "0x100B1800",
+    "RwFrameDestroy": "0x100B17D0",
+    "RpClumpDestroy": "0x100B1C80",
+    "RpClumpRender": "0x100B19D0"
+  },
+  "EH": [],
+  "tables": [],
+  "arithmetic_correction": "349 total, previous449 aggregate was wrong; range entries unchanged."
+}

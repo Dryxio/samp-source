@@ -1,0 +1,26 @@
+{
+  "status": "ACCEPTED_AFTER_COMPLETE_LINK_REVIEW",
+  "run": "cp32-world-extra-editor-linked2",
+  "ob1": "cp32-world-extra-editor-ob1b",
+  "ob2": "cp32-gui-overwrite-ob2",
+  "new_unique_code_bytes": 3009,
+  "direct_025_accepted_bytes": 1408,
+  "total_direct_025_accepted_bytes": 13521,
+  "verification": "2361complete regions,3009unique newcode including8EH21/maps36. Ten negativecontrols and actorABI PASS. Rejected pChatWindow26EB98 falseidentity; realpChatWindow26EB80 unchanged. Actual custommodelmanager26EB98 separatepointer4, ctorDE20/11F4Bstore verified, noctor/allocationcredit.",
+  "throughput": {
+    "start": {
+      "start_utc": "2026-09-05T20:11:21Z",
+      "accepted_code_bytes": 173141,
+      "proof": "evidence/checkpoint32/dxut-state-extra-acceptance.json",
+      "agents": 3,
+      "coordination_included": true
+    },
+    "measured_at": "2026-09-05T22:25:32.793837+00:00",
+    "elapsed_seconds": 8051.793837,
+    "new_unique_accepted_bytes": 20260,
+    "bytes_per_hour": 9058.354135303476,
+    "direct_025_baseline": 1523,
+    "new_direct_025_accepted_bytes": 11998,
+    "note": "Coordination, failed trials and integration included; not causal speedup."
+  }
+}

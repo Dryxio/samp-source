@@ -1,0 +1,17 @@
+{
+  "status": "SEMANTIC_R5_ADAPTATION_NOT_COMPILED",
+  "source": "build/agent-independent/eval_vendor_reliability_datagram2.cpp",
+  "sha256": "775d333f3cf95beed63b8ce43768092b7bbc69f52953d8b595b13bfcf5fdf375",
+  "changes": [
+    {
+      "site_rva": 295065,
+      "meaning": "TEA encrypted payload overhead8, vendor AES overhead16"
+    },
+    {
+      "site_rva": 296147,
+      "meaning": "After incrementing messagesSent[i], increment reliable count at statistics+0x20+i*4 only when isReliable. Existing _pad20[16] now identified as four uint32 counters; no allocation or global owner changed."
+    }
+  ],
+  "previous_null_guards_preserved": true,
+  "callback_closure_open": true
+}

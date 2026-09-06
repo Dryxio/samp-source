@@ -1,0 +1,18 @@
+{
+  "status": "TWO_CXX_TRIALS_DIAGNOSIS_NOT_ACCEPTED",
+  "DeathRPC": {
+    "original_size": 493,
+    "trial1_size": 490,
+    "trial2_size": 490,
+    "finding": "Explicit real CPlayerPool::GetAt call corrects provider name but does not change allocation of locals. Candidate reserves0x120 vs original0x124, carries zero inEDI rather thanEBX and swaps long-lived killer/name/color registers. All observed source branches/read widths/providers match.",
+    "recommendation": "Park493 rather than repeat ungrounded declaration permutations; no symbolic493 exception proposed."
+  },
+  "RemoveComponent": {
+    "original_size": 61,
+    "trial1_size": 61,
+    "trial2_size": 61,
+    "finding": "Both normal compound guard and positive nested if compile success block before shared false return. R5 places false return before success block; same predicates and complete provider arguments.",
+    "last_bounded_CXX": "providers3 uses semantic goto valid label after explicit false return, expressing original control-flow block order without assembly/emit. One final regularC++ trial; if optimizer still merges same order, park61 or separately authorize tiny symbolicexception."
+  },
+  "source": "build/agent-independent/eval_vehicle_params_components_providers3.cpp"
+}

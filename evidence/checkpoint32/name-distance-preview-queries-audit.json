@@ -1,0 +1,23 @@
+{
+  "status": "EXACT_DISCOVERY_CANDIDATE_NOT_ACCEPTED",
+  "rows": [
+    {
+      "symbol": "?R5PreviewModelInfoPresent@@YGHH@Z",
+      "size": 19,
+      "rva": 736688,
+      "inferred_targets": {
+        "?GetModelInfo@@YGPAEH@Z": 269122112
+      }
+    },
+    {
+      "symbol": "?HasModel@R5PreviewTypeOneManagerView@@QAE_NH@Z",
+      "size": 54,
+      "rva": 53520,
+      "inferred_targets": {}
+    }
+  ],
+  "new_potential": 73,
+  "direct025": 0,
+  "identity": "B3DB0 is BOOL stdcall predicate on actual GetModelInfoA7A40; D110 is manager type1 membership, differs from existing type2 D150. Both disassembled independently; real entry offsets7 and10, manager pointer0/count4. No allocation/global storage.",
+  "limitations": "No preview renderer or other unfinished dependency counted; helper GetAtChecked22 ambiguous and not seeded."
+}

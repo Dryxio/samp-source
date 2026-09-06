@@ -1,0 +1,24 @@
+{
+  "status": "PARKED_UNMATCHED",
+  "original_rva": 650560,
+  "original_size": 225,
+  "trials": [
+    {
+      "run": "cp32-entity-history-trial1",
+      "size": 146,
+      "source": "base scalar component sums"
+    },
+    {
+      "run": "cp32-entity-history-trial2",
+      "size": 235,
+      "source": "interleaved local VECTOR accumulation"
+    },
+    {
+      "run": "cp32-entity-history-trial3",
+      "size": 150,
+      "source": "reuse argument scalars following original spill locations"
+    }
+  ],
+  "credit": 0,
+  "reason": "Original interleaves x87 arithmetic and spills, all normal C++ trials differ. Stop bounded trial, no padding/instruction data or symbolic exception."
+}

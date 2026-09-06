@@ -1,0 +1,149 @@
+{
+  "status": "PROPOSAL_NOT_COMPILED",
+  "baseline": 253737,
+  "new_unique_potential": 441,
+  "regions": [
+    {
+      "rva": 453008,
+      "size": 66,
+      "sha256": "7cad28093e234d37ef5593d0a29afc07be68045b51322ce330ba3c2996acf18d",
+      "calls": [
+        {
+          "site_rva": 453016,
+          "operand": "0x100c7444"
+        },
+        {
+          "site_rva": 453032,
+          "operand": "0x100c7444"
+        },
+        {
+          "site_rva": 453045,
+          "operand": "0x100c7444"
+        },
+        {
+          "site_rva": 453058,
+          "operand": "0x100c7444"
+        }
+      ],
+      "relocations": []
+    },
+    {
+      "rva": 453088,
+      "size": 72,
+      "sha256": "250cb188b8806d19e6494dc26a64a66056a412816ef003a82d4265bce0f20716",
+      "calls": [
+        {
+          "site_rva": 453114,
+          "operand": "dword ptr [eax + 0x38]"
+        },
+        {
+          "site_rva": 453124,
+          "operand": "dword ptr [edx + 0x40]"
+        },
+        {
+          "site_rva": 453145,
+          "operand": "0x100a06f0"
+        }
+      ],
+      "relocations": [
+        {
+          "site_rva": 453137,
+          "target_va": 270986156
+        }
+      ]
+    },
+    {
+      "rva": 453648,
+      "size": 282,
+      "sha256": "54b7403bc07ebcaa7b130c81aab8aa6ee4d8876dae5f500073f41bdccc1c2767",
+      "calls": [
+        {
+          "site_rva": 453706,
+          "operand": "0x10088e70"
+        },
+        {
+          "site_rva": 453714,
+          "operand": "0x1008a9c0"
+        },
+        {
+          "site_rva": 453724,
+          "operand": "0x100c6d26"
+        },
+        {
+          "site_rva": 453738,
+          "operand": "0x1001f730"
+        },
+        {
+          "site_rva": 453771,
+          "operand": "0x1001ffe0"
+        },
+        {
+          "site_rva": 453794,
+          "operand": "0x1001ffe0"
+        },
+        {
+          "site_rva": 453827,
+          "operand": "dword ptr [eax + 0x64]"
+        },
+        {
+          "site_rva": 453845,
+          "operand": "0x1001f8d0"
+        },
+        {
+          "site_rva": 453874,
+          "operand": "dword ptr [eax + 0x38]"
+        },
+        {
+          "site_rva": 453884,
+          "operand": "dword ptr [edx + 0x40]"
+        },
+        {
+          "site_rva": 453897,
+          "operand": "0x100a06f0"
+        }
+      ],
+      "relocations": [
+        {
+          "site_rva": 453657,
+          "target_va": 269367819
+        },
+        {
+          "site_rva": 453801,
+          "target_va": 270986132
+        },
+        {
+          "site_rva": 453823,
+          "target_va": 269395624
+        },
+        {
+          "site_rva": 453889,
+          "target_va": 270986156
+        }
+      ]
+    },
+    {
+      "rva": 932352,
+      "size": 21,
+      "sha256": "9499e3c8b7b8cfd6a313810a83824e41968d538a789d38737677f82fabb84981",
+      "calls": [],
+      "relocations": [
+        {
+          "site_rva": 932364,
+          "target_va": 269465824
+        }
+      ]
+    }
+  ],
+  "EH_data": {
+    "rva": 1030360,
+    "size": 36
+  },
+  "new_store": {
+    "unit": "closure_store_rpc_click_player",
+    "symbol": "?r5RpcClickPlayer@@3HB",
+    "rva": 960168,
+    "size": 4,
+    "payload": "17000000"
+  },
+  "direct025_credit": 0
+}

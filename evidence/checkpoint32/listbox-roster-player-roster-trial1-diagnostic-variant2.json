@@ -1,0 +1,33 @@
+{
+  "status": "ONE_SOURCE_CONTEXT_VARIANT_NOT_COMPILED",
+  "source": {
+    "path": "build/agent-independent/eval_rpc_player_roster2.cpp",
+    "sha256": "50a134af7822995e8c7646bf28be275c32d2cac3dba9d527d0e3976b6baa26f7"
+  },
+  "failed_probe": "cp32-player-roster-trial1",
+  "grounding": [
+    "Restore source025 ServerJoin sender and declaration ordering; R5 additional NPC/color locals retain true wire reads. Frame difference8 motivates real omitted aggregate local rather than artificial padding.",
+    "Compute real number of10-byte score/ping records before retrieving pool; original computes quotient before binding pool register."
+  ],
+  "unchanged": [
+    "All provider TU source",
+    "WorldPlayerRemove212 exact source"
+  ],
+  "expected": [
+    {
+      "name": "ServerJoin",
+      "rva": 64736,
+      "size": 385
+    },
+    {
+      "name": "UpdateScoresPingsIPs",
+      "rva": 66528,
+      "size": 346
+    }
+  ],
+  "captures": [
+    "build/agent-independent/roster-ServerJoin-trial1.asm",
+    "build/agent-independent/roster-UpdateScoresPingsIPs-trial1.asm"
+  ],
+  "limits": "No register permutation loop, artificial barrier, asm, byte copy or shortened match. No acceptance claimed."
+}

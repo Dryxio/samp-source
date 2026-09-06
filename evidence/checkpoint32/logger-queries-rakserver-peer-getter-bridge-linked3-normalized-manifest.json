@@ -1,0 +1,69 @@
+{
+  "status": "FINAL_LINKED3_WHOLE8_TARGET_ALIAS_QUALIFIED",
+  "run": "build/cp32-server-peer-bridge-trial1",
+  "baseline": 259631,
+  "roots": {
+    "_r5_RakServer_InternalID_PeerBridge": 275888
+  },
+  "seeds": {
+    "closure_vendor_rakserver_internal_id_peer_bridge": {
+      "_r5_RakServer_InternalID_PeerBridge": 275888
+    }
+  },
+  "regions": [
+    {
+      "unit": "closure_vendor_rakserver_internal_id_peer_bridge",
+      "section": 3,
+      "rva": 275888,
+      "size": 8,
+      "kind": ".text",
+      "sha256": "c0fc03a60262fad2b169c4e93d3e2323ba51797a717d3d4d1f76e2d3f56fb067",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "_r5_RakServer_InternalID_target_assembly_only",
+          "site_rva": 275892,
+          "target_va": 268710512,
+          "kind": 20
+        }
+      ]
+    }
+  ],
+  "bindings_checked": 1,
+  "new_unique_code": 8,
+  "already_covered_code": 0,
+  "physical_code_compared": 8,
+  "source025_direct_bytes": 0,
+  "external_targets": {
+    "_r5_RakServer_InternalID_target_assembly_only": 268710512
+  },
+  "source_files": [
+    {
+      "path": "build/agent-independent/eval_vendor_rakserver_internal_id_peer_bridge_target_alias_only.cpp",
+      "sha256": "94c8e9b3a8708e9b907a4dfef3c535da214396afec4be47cfe1c6d9c9f104bf8"
+    }
+  ],
+  "symbolic_exception": "One real compiler this-adjusting virtual ABI thunk not emitted by isolated normal C++ getter TU. Explicitly authorized; named offset and tail provider only; no copied bytes.",
+  "abi": {
+    "incoming_this": "ECX=RakPeer base at RakServer+4",
+    "adjustment": -4,
+    "outgoing_this": "ECX=complete RakServer",
+    "hidden_return_argument": "[ESP+4] points to six-byte PlayerID storage",
+    "stack_and_return_address": "unchanged by tail bridge",
+    "result": "target returns same hidden pointer in EAX and performs ret4"
+  },
+  "actual_vtable_slot": {
+    "table_rva": 954416,
+    "slot": 39,
+    "slot_rva": 954572,
+    "target_rva": 275888
+  },
+  "actual_drectve_aliases": [
+    "/alternatename:_r5_RakServer_InternalID_target_assembly_only=?GetInternalID@RakServer@@UBE?AUPlayerID@@XZ"
+  ],
+  "source_proof": "build/agent-independent/rakserver-peer-getter-bridge-reviewed.json",
+  "reuse_existing_owners": {},
+  "final_link_alias_confirmation_pending": false,
+  "final_link_proof": "build/agent-independent/server-bridge-target-alias-qualification-cp32-logger-queries-linked3.json",
+  "retired_alias": "Entry W3 linker directive and export removed; canonical custom bridge remains identified by original VFT and full8-byte behavior. No fake undefined entry symbol."
+}

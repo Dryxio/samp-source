@@ -1,0 +1,85 @@
+{
+  "status": "REAL_LOGGER_BASE_FILE_SOURCE_PROPOSAL_NOT_COMPILED",
+  "baseline": 257107,
+  "pending_insertion_deducted": 2124,
+  "source025_direct_bytes": 0,
+  "sources": [
+    {
+      "path": "build/agent-independent/eval_vendor_plugin_interface.cpp",
+      "sha256": "bc433ba8943cdfaba3e5857dfda788dace530ae027a22b838b9a0a459ff4b901"
+    },
+    {
+      "path": "build/agent-independent/eval_vendor_packet_logger.cpp",
+      "sha256": "fa0ddd95b143e1d10ad56cb3869518c1f77944832bb2894a7a12acd83bc1b705"
+    },
+    {
+      "path": "build/agent-independent/eval_vendor_packet_file_logger.cpp",
+      "sha256": "8f8850b7332e5638d1632a17ccd27117603cc4741b24f15d45c6beaff58ebb81"
+    },
+    {
+      "path": "build/agent-independent/eval_vendor_rakpeer_internal_id.cpp",
+      "sha256": "e1f8941a0924ccaa4cb544c86868177b8295900e2aae28aa22cab857b0be767d"
+    },
+    {
+      "path": "build/agent-independent/eval_vendor_rakclient_internal_id.cpp",
+      "sha256": "6d0d6e49e0b7dd27e1c0c6defcee7b5dccb947b617e11da8220263c4811b0e67"
+    },
+    {
+      "path": "build/agent-independent/eval_vendor_rakserver_internal_id.cpp",
+      "sha256": "b6fda19cc4a06acb5d24c83beb530f7f115037f644c6d17684483276f8adf0f2"
+    }
+  ],
+  "class_sizes": {
+    "PluginInterface": 4,
+    "PacketLogger": 10,
+    "PacketFileLogger": 14
+  },
+  "vtables": [
+    {
+      "name": "PluginInterface",
+      "rva": 943496,
+      "size": 40
+    },
+    {
+      "name": "PacketLogger",
+      "rva": 946768,
+      "size": 64
+    },
+    {
+      "name": "PacketFileLogger",
+      "rva": 946680,
+      "size": 64
+    }
+  ],
+  "excluded_vtable": {
+    "name": "PacketConsoleLogger",
+    "rva": 946592,
+    "size": 68,
+    "reason": "Actual WriteLog33A20 routes through LogCommandParser and TransportInterface; not provided by base/file closure."
+  },
+  "important_identities": {
+    "PluginDefaultOnInternalPacket": 212992,
+    "PacketLoggerOnInternalPacket": 212480,
+    "PacketLoggerConstructor": 212064,
+    "PacketLoggerDestructor": 211744,
+    "PacketLoggerDeletingDestructor": 212096,
+    "FileDestructor": 211568,
+    "FileDeletingDestructor": 211600,
+    "FileOnAttach": 211632,
+    "FileWriteLog": 211712,
+    "PeerGetInternalID": 231296
+  },
+  "whole_region_requirement": "UserIDTOString33B90 has172 physical bytes including switch data; use include-attached-data and entire section, credit only inventory code. All genuine64-byte vtables and complete literals required; no truncation.",
+  "open_dependencies": [
+    "Actual RakClient/RakServer GetInternalID wrappers need true vtable and call target review (source complete proposed).",
+    "Logger console LogCommandParser/Transport dispatch remains unimplemented; no full Generate virtual closure claimed.",
+    "FILE CRT procedures exact provider identities and formatting literals require probe review."
+  ],
+  "behavior_preserved": [
+    "PacketLogger WriteLog is actually empty in release source; no fabricated noop.",
+    "OnInternalPacket calls GetInternalID before isSend early return.",
+    "Existing commented-out RPC-format branch remains untouched.",
+    "PacketFileLogger destructor calls fclose directly, preserving source behavior."
+  ],
+  "allocation": "No new allocator/wrapper or partial object. Full existing class declarations and destructors/vtables only; file constructor factory is not claimed by this proposal."
+}

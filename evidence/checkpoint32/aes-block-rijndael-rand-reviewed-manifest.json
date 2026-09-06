@@ -1,0 +1,1678 @@
+{
+  "status": "REVIEWED_MAIN_SEEDS_AND_WHOLE_DATA_PREFLIGHT",
+  "run": "build/cp32-rijndael-trial1",
+  "seeds": {
+    "closure_vendor_rijndael": {
+      "?mul@@YAEEE@Z": 315632,
+      "?KeyAddition@@YAXQAY03E0E@Z": 315696,
+      "?ShiftRow@@YAXQAY03EEE@Z": 315776,
+      "?Substitution@@YAXQAY03EQAEE@Z": 315888,
+      "?MixColumn@@YAXQAY03EE@Z": 315968,
+      "?InvMixColumn@@YAXQAY03EE@Z": 316256,
+      "?rijndaelKeySched@@YAHQAY03EHQAY133E@Z": 316352,
+      "?rijndaelKeyEnctoDec@@YAHHQAY133E@Z": 316848,
+      "?rijndaelEncrypt@@YAHQAE0QAY133E@Z": 316912,
+      "?rijndaelEncryptRound@@YAHQAY03EQAY133EH@Z": 317872,
+      "?rijndaelDecrypt@@YAHQAE0QAY133E@Z": 318592,
+      "?rijndaelDecryptRound@@YAHQAY03EQAY133EH@Z": 319504,
+      "?makeKey@@YAHPAUkeyInstance@@EHPAD@Z": 319680,
+      "?cipherInit@@YAHPAUcipherInstance@@EPAD@Z": 319968,
+      "?blockEncrypt@@YAHPAUcipherInstance@@PAUkeyInstance@@PAEH2@Z": 320064,
+      "?blockDecrypt@@YAHPAUcipherInstance@@PAUkeyInstance@@PAEH2@Z": 320864,
+      "?cipherUpdateRounds@@YAHPAUcipherInstance@@PAUkeyInstance@@PAEH2H@Z": 321680
+    },
+    "closure_vendor_rand": {
+      "?seedMT@@YAXI@Z": 277168,
+      "?reloadMT@@YAIXZ": 277216,
+      "?randomMT@@YAIXZ": 277504,
+      "?frandomMT@@YAMXZ": 277584
+    }
+  },
+  "regions": [
+    {
+      "unit": "closure_vendor_rijndael",
+      "section": 5,
+      "rva": 315632,
+      "size": 56,
+      "kind": ".text",
+      "sha256": "c3a19075c96fa59f1810ecf283d064de9c43be11dcfdeaad73046f84c8a1ebc7",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "?Logtable@@3PAEA",
+          "site_rva": 315654,
+          "target_va": 269477928,
+          "kind": 6
+        },
+        {
+          "symbol": "?Logtable@@3PAEA",
+          "site_rva": 315664,
+          "target_va": 269477928,
+          "kind": 6
+        },
+        {
+          "symbol": "?Alogtable@@3PAEA",
+          "site_rva": 315680,
+          "target_va": 269478184,
+          "kind": 6
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_rijndael",
+      "section": 7,
+      "rva": 315696,
+      "size": 66,
+      "kind": ".text",
+      "sha256": "194383fe6c7abc2c54fc1e271138847418a87d012459cecbde97efad767826f1",
+      "whole_bytes_equal": true,
+      "bindings": []
+    },
+    {
+      "unit": "closure_vendor_rijndael",
+      "section": 9,
+      "rva": 315776,
+      "size": 106,
+      "kind": ".text",
+      "sha256": "1f39ced93d7f8b87478f037d73e9d0eff8b969f605806644b7ec6ba102948329",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "_shifts",
+          "site_rva": 315819,
+          "target_va": 269491616,
+          "kind": 6
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_rijndael",
+      "section": 11,
+      "rva": 315888,
+      "size": 67,
+      "kind": ".text",
+      "sha256": "d40904258953dffefa0bd6eda9bc49a8565470890098fcbbb81bc8ac86d0922c",
+      "whole_bytes_equal": true,
+      "bindings": []
+    },
+    {
+      "unit": "closure_vendor_rijndael",
+      "section": 13,
+      "rva": 315968,
+      "size": 279,
+      "kind": ".text",
+      "sha256": "2f24eb26231d4107d5340a7c9b9bbce0e0a027a9f2f6539c62bf32e428a159cb",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "?mul@@YAEEE@Z",
+          "site_rva": 316079,
+          "target_va": 268751088,
+          "kind": 20
+        },
+        {
+          "symbol": "?mul@@YAEEE@Z",
+          "site_rva": 316098,
+          "target_va": 268751088,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_rijndael",
+      "section": 15,
+      "rva": 316256,
+      "size": 91,
+      "kind": ".text",
+      "sha256": "1d44aa09afa8ea568fd4576c67f55597e79a66f572558ad61c879c08d86546e5",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "?U2@@3PAY03EA",
+          "site_rva": 316299,
+          "target_va": 269488424,
+          "kind": 6
+        },
+        {
+          "symbol": "?U4@@3PAY03EA",
+          "site_rva": 316309,
+          "target_va": 269490472,
+          "kind": 6
+        },
+        {
+          "symbol": "?U3@@3PAY03EA",
+          "site_rva": 316318,
+          "target_va": 269489448,
+          "kind": 6
+        },
+        {
+          "symbol": "?U1@@3PAY03EA",
+          "site_rva": 316331,
+          "target_va": 269487400,
+          "kind": 6
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_rijndael",
+      "section": 17,
+      "rva": 316352,
+      "size": 489,
+      "kind": ".text",
+      "sha256": "8e5883abe0479d6a75210b59fa0b9f780a7fb46f2cd773c7f87cce4835d99759",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "?ROUNDS@@3HA",
+          "site_rva": 316354,
+          "target_va": 269588640,
+          "kind": 6
+        },
+        {
+          "symbol": "?ROUNDS@@3HA",
+          "site_rva": 316418,
+          "target_va": 269588640,
+          "kind": 6
+        },
+        {
+          "symbol": "?ROUNDS@@3HA",
+          "site_rva": 316466,
+          "target_va": 269588640,
+          "kind": 6
+        },
+        {
+          "symbol": "?rcon@@3PAIA",
+          "site_rva": 316483,
+          "target_va": 269491496,
+          "kind": 6
+        },
+        {
+          "symbol": "?S@@3PAEA",
+          "site_rva": 316507,
+          "target_va": 269478440,
+          "kind": 6
+        },
+        {
+          "symbol": "?S@@3PAEA",
+          "site_rva": 316522,
+          "target_va": 269478440,
+          "kind": 6
+        },
+        {
+          "symbol": "?S@@3PAEA",
+          "site_rva": 316537,
+          "target_va": 269478440,
+          "kind": 6
+        },
+        {
+          "symbol": "?S@@3PAEA",
+          "site_rva": 316552,
+          "target_va": 269478440,
+          "kind": 6
+        },
+        {
+          "symbol": "?S@@3PAEA",
+          "site_rva": 316651,
+          "target_va": 269478440,
+          "kind": 6
+        },
+        {
+          "symbol": "?S@@3PAEA",
+          "site_rva": 316668,
+          "target_va": 269478440,
+          "kind": 6
+        },
+        {
+          "symbol": "?S@@3PAEA",
+          "site_rva": 316689,
+          "target_va": 269478440,
+          "kind": 6
+        },
+        {
+          "symbol": "?S@@3PAEA",
+          "site_rva": 316710,
+          "target_va": 269478440,
+          "kind": 6
+        },
+        {
+          "symbol": "?ROUNDS@@3HA",
+          "site_rva": 316770,
+          "target_va": 269588640,
+          "kind": 6
+        },
+        {
+          "symbol": "?ROUNDS@@3HA",
+          "site_rva": 316818,
+          "target_va": 269588640,
+          "kind": 6
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_rijndael",
+      "section": 19,
+      "rva": 316848,
+      "size": 52,
+      "kind": ".text",
+      "sha256": "77acf5f26d0c340a732ecee802559e6ffd8a7e3ac80514284a82c24a3292627c",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "?ROUNDS@@3HA",
+          "site_rva": 316849,
+          "target_va": 269588640,
+          "kind": 6
+        },
+        {
+          "symbol": "?InvMixColumn@@YAXQAY03EE@Z",
+          "site_rva": 316875,
+          "target_va": 268751712,
+          "kind": 20
+        },
+        {
+          "symbol": "?ROUNDS@@3HA",
+          "site_rva": 316880,
+          "target_va": 269588640,
+          "kind": 6
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_rijndael",
+      "section": 21,
+      "rva": 316912,
+      "size": 953,
+      "kind": ".text",
+      "sha256": "28190bbfa9e46866fda585584637154519c475f130ba6644af13e0d3f93a515c",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "?T4@@3PAY03EA",
+          "site_rva": 316974,
+          "target_va": 269482024,
+          "kind": 6
+        },
+        {
+          "symbol": "?T3@@3PAY03EA",
+          "site_rva": 316981,
+          "target_va": 269481000,
+          "kind": 6
+        },
+        {
+          "symbol": "?T2@@3PAY03EA",
+          "site_rva": 316991,
+          "target_va": 269479976,
+          "kind": 6
+        },
+        {
+          "symbol": "?T1@@3PAY03EA",
+          "site_rva": 317001,
+          "target_va": 269478952,
+          "kind": 6
+        },
+        {
+          "symbol": "?T4@@3PAY03EA",
+          "site_rva": 317026,
+          "target_va": 269482024,
+          "kind": 6
+        },
+        {
+          "symbol": "?T3@@3PAY03EA",
+          "site_rva": 317033,
+          "target_va": 269481000,
+          "kind": 6
+        },
+        {
+          "symbol": "?T2@@3PAY03EA",
+          "site_rva": 317047,
+          "target_va": 269479976,
+          "kind": 6
+        },
+        {
+          "symbol": "?T1@@3PAY03EA",
+          "site_rva": 317057,
+          "target_va": 269478952,
+          "kind": 6
+        },
+        {
+          "symbol": "?T4@@3PAY03EA",
+          "site_rva": 317074,
+          "target_va": 269482024,
+          "kind": 6
+        },
+        {
+          "symbol": "?T3@@3PAY03EA",
+          "site_rva": 317090,
+          "target_va": 269481000,
+          "kind": 6
+        },
+        {
+          "symbol": "?T2@@3PAY03EA",
+          "site_rva": 317104,
+          "target_va": 269479976,
+          "kind": 6
+        },
+        {
+          "symbol": "?T1@@3PAY03EA",
+          "site_rva": 317114,
+          "target_va": 269478952,
+          "kind": 6
+        },
+        {
+          "symbol": "?T4@@3PAY03EA",
+          "site_rva": 317136,
+          "target_va": 269482024,
+          "kind": 6
+        },
+        {
+          "symbol": "?T3@@3PAY03EA",
+          "site_rva": 317143,
+          "target_va": 269481000,
+          "kind": 6
+        },
+        {
+          "symbol": "?T2@@3PAY03EA",
+          "site_rva": 317153,
+          "target_va": 269479976,
+          "kind": 6
+        },
+        {
+          "symbol": "?T1@@3PAY03EA",
+          "site_rva": 317163,
+          "target_va": 269478952,
+          "kind": 6
+        },
+        {
+          "symbol": "?ROUNDS@@3HA",
+          "site_rva": 317176,
+          "target_va": 269588640,
+          "kind": 6
+        },
+        {
+          "symbol": "?T4@@3PAY03EA",
+          "site_rva": 317248,
+          "target_va": 269482024,
+          "kind": 6
+        },
+        {
+          "symbol": "?T3@@3PAY03EA",
+          "site_rva": 317261,
+          "target_va": 269481000,
+          "kind": 6
+        },
+        {
+          "symbol": "?T2@@3PAY03EA",
+          "site_rva": 317278,
+          "target_va": 269479976,
+          "kind": 6
+        },
+        {
+          "symbol": "?T1@@3PAY03EA",
+          "site_rva": 317288,
+          "target_va": 269478952,
+          "kind": 6
+        },
+        {
+          "symbol": "?T4@@3PAY03EA",
+          "site_rva": 317312,
+          "target_va": 269482024,
+          "kind": 6
+        },
+        {
+          "symbol": "?T3@@3PAY03EA",
+          "site_rva": 317319,
+          "target_va": 269481000,
+          "kind": 6
+        },
+        {
+          "symbol": "?T2@@3PAY03EA",
+          "site_rva": 317336,
+          "target_va": 269479976,
+          "kind": 6
+        },
+        {
+          "symbol": "?T1@@3PAY03EA",
+          "site_rva": 317348,
+          "target_va": 269478952,
+          "kind": 6
+        },
+        {
+          "symbol": "?T4@@3PAY03EA",
+          "site_rva": 317374,
+          "target_va": 269482024,
+          "kind": 6
+        },
+        {
+          "symbol": "?T3@@3PAY03EA",
+          "site_rva": 317381,
+          "target_va": 269481000,
+          "kind": 6
+        },
+        {
+          "symbol": "?T2@@3PAY03EA",
+          "site_rva": 317398,
+          "target_va": 269479976,
+          "kind": 6
+        },
+        {
+          "symbol": "?T1@@3PAY03EA",
+          "site_rva": 317410,
+          "target_va": 269478952,
+          "kind": 6
+        },
+        {
+          "symbol": "?T4@@3PAY03EA",
+          "site_rva": 317430,
+          "target_va": 269482024,
+          "kind": 6
+        },
+        {
+          "symbol": "?T3@@3PAY03EA",
+          "site_rva": 317437,
+          "target_va": 269481000,
+          "kind": 6
+        },
+        {
+          "symbol": "?T2@@3PAY03EA",
+          "site_rva": 317447,
+          "target_va": 269479976,
+          "kind": 6
+        },
+        {
+          "symbol": "?T1@@3PAY03EA",
+          "site_rva": 317461,
+          "target_va": 269478952,
+          "kind": 6
+        },
+        {
+          "symbol": "?ROUNDS@@3HA",
+          "site_rva": 317470,
+          "target_va": 269588640,
+          "kind": 6
+        },
+        {
+          "symbol": "?T1@@3PAY03EA",
+          "site_rva": 317533,
+          "target_va": 269478953,
+          "kind": 6
+        },
+        {
+          "symbol": "?T1@@3PAY03EA",
+          "site_rva": 317552,
+          "target_va": 269478953,
+          "kind": 6
+        },
+        {
+          "symbol": "?T1@@3PAY03EA",
+          "site_rva": 317570,
+          "target_va": 269478953,
+          "kind": 6
+        },
+        {
+          "symbol": "?T1@@3PAY03EA",
+          "site_rva": 317585,
+          "target_va": 269478953,
+          "kind": 6
+        },
+        {
+          "symbol": "?T1@@3PAY03EA",
+          "site_rva": 317600,
+          "target_va": 269478953,
+          "kind": 6
+        },
+        {
+          "symbol": "?T1@@3PAY03EA",
+          "site_rva": 317613,
+          "target_va": 269478953,
+          "kind": 6
+        },
+        {
+          "symbol": "?T1@@3PAY03EA",
+          "site_rva": 317631,
+          "target_va": 269478953,
+          "kind": 6
+        },
+        {
+          "symbol": "?T1@@3PAY03EA",
+          "site_rva": 317650,
+          "target_va": 269478953,
+          "kind": 6
+        },
+        {
+          "symbol": "?T1@@3PAY03EA",
+          "site_rva": 317663,
+          "target_va": 269478953,
+          "kind": 6
+        },
+        {
+          "symbol": "?T1@@3PAY03EA",
+          "site_rva": 317686,
+          "target_va": 269478953,
+          "kind": 6
+        },
+        {
+          "symbol": "?T1@@3PAY03EA",
+          "site_rva": 317701,
+          "target_va": 269478953,
+          "kind": 6
+        },
+        {
+          "symbol": "?T1@@3PAY03EA",
+          "site_rva": 317716,
+          "target_va": 269478953,
+          "kind": 6
+        },
+        {
+          "symbol": "?T1@@3PAY03EA",
+          "site_rva": 317731,
+          "target_va": 269478953,
+          "kind": 6
+        },
+        {
+          "symbol": "?T1@@3PAY03EA",
+          "site_rva": 317744,
+          "target_va": 269478953,
+          "kind": 6
+        },
+        {
+          "symbol": "?T1@@3PAY03EA",
+          "site_rva": 317759,
+          "target_va": 269478953,
+          "kind": 6
+        },
+        {
+          "symbol": "?T1@@3PAY03EA",
+          "site_rva": 317774,
+          "target_va": 269478953,
+          "kind": 6
+        },
+        {
+          "symbol": "?ROUNDS@@3HA",
+          "site_rva": 317783,
+          "target_va": 269588640,
+          "kind": 6
+        },
+        {
+          "symbol": "?ROUNDS@@3HA",
+          "site_rva": 317799,
+          "target_va": 269588640,
+          "kind": 6
+        },
+        {
+          "symbol": "?ROUNDS@@3HA",
+          "site_rva": 317818,
+          "target_va": 269588640,
+          "kind": 6
+        },
+        {
+          "symbol": "?ROUNDS@@3HA",
+          "site_rva": 317836,
+          "target_va": 269588640,
+          "kind": 6
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_rijndael",
+      "section": 23,
+      "rva": 317872,
+      "size": 716,
+      "kind": ".text",
+      "sha256": "49f33b042e9b711c2527e340902c8576d424d6355319c9bc232afd6c9e72a574",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "?ROUNDS@@3HA",
+          "site_rva": 317873,
+          "target_va": 269588640,
+          "kind": 6
+        },
+        {
+          "symbol": "?ROUNDS@@3HA",
+          "site_rva": 317970,
+          "target_va": 269588640,
+          "kind": 6
+        },
+        {
+          "symbol": "?T4@@3PAY03EA",
+          "site_rva": 317989,
+          "target_va": 269482024,
+          "kind": 6
+        },
+        {
+          "symbol": "?T3@@3PAY03EA",
+          "site_rva": 318000,
+          "target_va": 269481000,
+          "kind": 6
+        },
+        {
+          "symbol": "?T2@@3PAY03EA",
+          "site_rva": 318011,
+          "target_va": 269479976,
+          "kind": 6
+        },
+        {
+          "symbol": "?T1@@3PAY03EA",
+          "site_rva": 318021,
+          "target_va": 269478952,
+          "kind": 6
+        },
+        {
+          "symbol": "?T3@@3PAY03EA",
+          "site_rva": 318032,
+          "target_va": 269481000,
+          "kind": 6
+        },
+        {
+          "symbol": "?T2@@3PAY03EA",
+          "site_rva": 318047,
+          "target_va": 269479976,
+          "kind": 6
+        },
+        {
+          "symbol": "?T4@@3PAY03EA",
+          "site_rva": 318060,
+          "target_va": 269482024,
+          "kind": 6
+        },
+        {
+          "symbol": "?T1@@3PAY03EA",
+          "site_rva": 318073,
+          "target_va": 269478952,
+          "kind": 6
+        },
+        {
+          "symbol": "?T2@@3PAY03EA",
+          "site_rva": 318084,
+          "target_va": 269479976,
+          "kind": 6
+        },
+        {
+          "symbol": "?T4@@3PAY03EA",
+          "site_rva": 318099,
+          "target_va": 269482024,
+          "kind": 6
+        },
+        {
+          "symbol": "?T3@@3PAY03EA",
+          "site_rva": 318112,
+          "target_va": 269481000,
+          "kind": 6
+        },
+        {
+          "symbol": "?T1@@3PAY03EA",
+          "site_rva": 318125,
+          "target_va": 269478952,
+          "kind": 6
+        },
+        {
+          "symbol": "?T4@@3PAY03EA",
+          "site_rva": 318136,
+          "target_va": 269482024,
+          "kind": 6
+        },
+        {
+          "symbol": "?T3@@3PAY03EA",
+          "site_rva": 318149,
+          "target_va": 269481000,
+          "kind": 6
+        },
+        {
+          "symbol": "?T2@@3PAY03EA",
+          "site_rva": 318160,
+          "target_va": 269479976,
+          "kind": 6
+        },
+        {
+          "symbol": "?T1@@3PAY03EA",
+          "site_rva": 318171,
+          "target_va": 269478952,
+          "kind": 6
+        },
+        {
+          "symbol": "?ROUNDS@@3HA",
+          "site_rva": 318251,
+          "target_va": 269588640,
+          "kind": 6
+        },
+        {
+          "symbol": "?T1@@3PAY03EA",
+          "site_rva": 318269,
+          "target_va": 269478953,
+          "kind": 6
+        },
+        {
+          "symbol": "?T1@@3PAY03EA",
+          "site_rva": 318284,
+          "target_va": 269478953,
+          "kind": 6
+        },
+        {
+          "symbol": "?T1@@3PAY03EA",
+          "site_rva": 318299,
+          "target_va": 269478953,
+          "kind": 6
+        },
+        {
+          "symbol": "?T1@@3PAY03EA",
+          "site_rva": 318314,
+          "target_va": 269478953,
+          "kind": 6
+        },
+        {
+          "symbol": "?T1@@3PAY03EA",
+          "site_rva": 318329,
+          "target_va": 269478953,
+          "kind": 6
+        },
+        {
+          "symbol": "?T1@@3PAY03EA",
+          "site_rva": 318344,
+          "target_va": 269478953,
+          "kind": 6
+        },
+        {
+          "symbol": "?T1@@3PAY03EA",
+          "site_rva": 318359,
+          "target_va": 269478953,
+          "kind": 6
+        },
+        {
+          "symbol": "?T1@@3PAY03EA",
+          "site_rva": 318374,
+          "target_va": 269478953,
+          "kind": 6
+        },
+        {
+          "symbol": "?T1@@3PAY03EA",
+          "site_rva": 318389,
+          "target_va": 269478953,
+          "kind": 6
+        },
+        {
+          "symbol": "?T1@@3PAY03EA",
+          "site_rva": 318404,
+          "target_va": 269478953,
+          "kind": 6
+        },
+        {
+          "symbol": "?T1@@3PAY03EA",
+          "site_rva": 318419,
+          "target_va": 269478953,
+          "kind": 6
+        },
+        {
+          "symbol": "?T1@@3PAY03EA",
+          "site_rva": 318434,
+          "target_va": 269478953,
+          "kind": 6
+        },
+        {
+          "symbol": "?T1@@3PAY03EA",
+          "site_rva": 318449,
+          "target_va": 269478953,
+          "kind": 6
+        },
+        {
+          "symbol": "?T1@@3PAY03EA",
+          "site_rva": 318464,
+          "target_va": 269478953,
+          "kind": 6
+        },
+        {
+          "symbol": "?T1@@3PAY03EA",
+          "site_rva": 318479,
+          "target_va": 269478953,
+          "kind": 6
+        },
+        {
+          "symbol": "?T1@@3PAY03EA",
+          "site_rva": 318494,
+          "target_va": 269478953,
+          "kind": 6
+        },
+        {
+          "symbol": "?ROUNDS@@3HA",
+          "site_rva": 318524,
+          "target_va": 269588640,
+          "kind": 6
+        },
+        {
+          "symbol": "?ROUNDS@@3HA",
+          "site_rva": 318542,
+          "target_va": 269588640,
+          "kind": 6
+        },
+        {
+          "symbol": "?ROUNDS@@3HA",
+          "site_rva": 318560,
+          "target_va": 269588640,
+          "kind": 6
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_rijndael",
+      "section": 25,
+      "rva": 318592,
+      "size": 899,
+      "kind": ".text",
+      "sha256": "ff6ee636d009296f614e21fb90171c59df49f5d383598b0e8f15124e61d34d98",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "?ROUNDS@@3HA",
+          "site_rva": 318596,
+          "target_va": 269588640,
+          "kind": 6
+        },
+        {
+          "symbol": "?T8@@3PAY03EA",
+          "site_rva": 318655,
+          "target_va": 269486120,
+          "kind": 6
+        },
+        {
+          "symbol": "?T7@@3PAY03EA",
+          "site_rva": 318675,
+          "target_va": 269485096,
+          "kind": 6
+        },
+        {
+          "symbol": "?T6@@3PAY03EA",
+          "site_rva": 318685,
+          "target_va": 269484072,
+          "kind": 6
+        },
+        {
+          "symbol": "?T5@@3PAY03EA",
+          "site_rva": 318695,
+          "target_va": 269483048,
+          "kind": 6
+        },
+        {
+          "symbol": "?T8@@3PAY03EA",
+          "site_rva": 318727,
+          "target_va": 269486120,
+          "kind": 6
+        },
+        {
+          "symbol": "?T7@@3PAY03EA",
+          "site_rva": 318734,
+          "target_va": 269485096,
+          "kind": 6
+        },
+        {
+          "symbol": "?T6@@3PAY03EA",
+          "site_rva": 318741,
+          "target_va": 269484072,
+          "kind": 6
+        },
+        {
+          "symbol": "?T5@@3PAY03EA",
+          "site_rva": 318753,
+          "target_va": 269483048,
+          "kind": 6
+        },
+        {
+          "symbol": "?T7@@3PAY03EA",
+          "site_rva": 318774,
+          "target_va": 269485096,
+          "kind": 6
+        },
+        {
+          "symbol": "?T8@@3PAY03EA",
+          "site_rva": 318784,
+          "target_va": 269486120,
+          "kind": 6
+        },
+        {
+          "symbol": "?T6@@3PAY03EA",
+          "site_rva": 318800,
+          "target_va": 269484072,
+          "kind": 6
+        },
+        {
+          "symbol": "?T5@@3PAY03EA",
+          "site_rva": 318810,
+          "target_va": 269483048,
+          "kind": 6
+        },
+        {
+          "symbol": "?T7@@3PAY03EA",
+          "site_rva": 318827,
+          "target_va": 269485096,
+          "kind": 6
+        },
+        {
+          "symbol": "?T8@@3PAY03EA",
+          "site_rva": 318839,
+          "target_va": 269486120,
+          "kind": 6
+        },
+        {
+          "symbol": "?T6@@3PAY03EA",
+          "site_rva": 318849,
+          "target_va": 269484072,
+          "kind": 6
+        },
+        {
+          "symbol": "?T5@@3PAY03EA",
+          "site_rva": 318861,
+          "target_va": 269483048,
+          "kind": 6
+        },
+        {
+          "symbol": "?ROUNDS@@3HA",
+          "site_rva": 318876,
+          "target_va": 269588640,
+          "kind": 6
+        },
+        {
+          "symbol": "?T8@@3PAY03EA",
+          "site_rva": 318953,
+          "target_va": 269486120,
+          "kind": 6
+        },
+        {
+          "symbol": "?T7@@3PAY03EA",
+          "site_rva": 318960,
+          "target_va": 269485096,
+          "kind": 6
+        },
+        {
+          "symbol": "?T6@@3PAY03EA",
+          "site_rva": 318970,
+          "target_va": 269484072,
+          "kind": 6
+        },
+        {
+          "symbol": "?T5@@3PAY03EA",
+          "site_rva": 318980,
+          "target_va": 269483048,
+          "kind": 6
+        },
+        {
+          "symbol": "?T8@@3PAY03EA",
+          "site_rva": 319000,
+          "target_va": 269486120,
+          "kind": 6
+        },
+        {
+          "symbol": "?T7@@3PAY03EA",
+          "site_rva": 319019,
+          "target_va": 269485096,
+          "kind": 6
+        },
+        {
+          "symbol": "?T6@@3PAY03EA",
+          "site_rva": 319026,
+          "target_va": 269484072,
+          "kind": 6
+        },
+        {
+          "symbol": "?T5@@3PAY03EA",
+          "site_rva": 319042,
+          "target_va": 269483048,
+          "kind": 6
+        },
+        {
+          "symbol": "?T8@@3PAY03EA",
+          "site_rva": 319065,
+          "target_va": 269486120,
+          "kind": 6
+        },
+        {
+          "symbol": "?T7@@3PAY03EA",
+          "site_rva": 319072,
+          "target_va": 269485096,
+          "kind": 6
+        },
+        {
+          "symbol": "?T6@@3PAY03EA",
+          "site_rva": 319079,
+          "target_va": 269484072,
+          "kind": 6
+        },
+        {
+          "symbol": "?T5@@3PAY03EA",
+          "site_rva": 319095,
+          "target_va": 269483048,
+          "kind": 6
+        },
+        {
+          "symbol": "?T8@@3PAY03EA",
+          "site_rva": 319115,
+          "target_va": 269486120,
+          "kind": 6
+        },
+        {
+          "symbol": "?T7@@3PAY03EA",
+          "site_rva": 319122,
+          "target_va": 269485096,
+          "kind": 6
+        },
+        {
+          "symbol": "?T6@@3PAY03EA",
+          "site_rva": 319132,
+          "target_va": 269484072,
+          "kind": 6
+        },
+        {
+          "symbol": "?T5@@3PAY03EA",
+          "site_rva": 319142,
+          "target_va": 269483048,
+          "kind": 6
+        },
+        {
+          "symbol": "?S5@@3PAEA",
+          "site_rva": 319215,
+          "target_va": 269487144,
+          "kind": 6
+        },
+        {
+          "symbol": "?S5@@3PAEA",
+          "site_rva": 319228,
+          "target_va": 269487144,
+          "kind": 6
+        },
+        {
+          "symbol": "?S5@@3PAEA",
+          "site_rva": 319242,
+          "target_va": 269487144,
+          "kind": 6
+        },
+        {
+          "symbol": "?S5@@3PAEA",
+          "site_rva": 319260,
+          "target_va": 269487144,
+          "kind": 6
+        },
+        {
+          "symbol": "?S5@@3PAEA",
+          "site_rva": 319272,
+          "target_va": 269487144,
+          "kind": 6
+        },
+        {
+          "symbol": "?S5@@3PAEA",
+          "site_rva": 319284,
+          "target_va": 269487144,
+          "kind": 6
+        },
+        {
+          "symbol": "?S5@@3PAEA",
+          "site_rva": 319303,
+          "target_va": 269487144,
+          "kind": 6
+        },
+        {
+          "symbol": "?S5@@3PAEA",
+          "site_rva": 319319,
+          "target_va": 269487144,
+          "kind": 6
+        },
+        {
+          "symbol": "?S5@@3PAEA",
+          "site_rva": 319339,
+          "target_va": 269487144,
+          "kind": 6
+        },
+        {
+          "symbol": "?S5@@3PAEA",
+          "site_rva": 319351,
+          "target_va": 269487144,
+          "kind": 6
+        },
+        {
+          "symbol": "?S5@@3PAEA",
+          "site_rva": 319365,
+          "target_va": 269487144,
+          "kind": 6
+        },
+        {
+          "symbol": "?S5@@3PAEA",
+          "site_rva": 319379,
+          "target_va": 269487144,
+          "kind": 6
+        },
+        {
+          "symbol": "?S5@@3PAEA",
+          "site_rva": 319395,
+          "target_va": 269487144,
+          "kind": 6
+        },
+        {
+          "symbol": "?S5@@3PAEA",
+          "site_rva": 319410,
+          "target_va": 269487144,
+          "kind": 6
+        },
+        {
+          "symbol": "?S5@@3PAEA",
+          "site_rva": 319424,
+          "target_va": 269487144,
+          "kind": 6
+        },
+        {
+          "symbol": "?S5@@3PAEA",
+          "site_rva": 319438,
+          "target_va": 269487144,
+          "kind": 6
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_rijndael",
+      "section": 27,
+      "rva": 319504,
+      "size": 164,
+      "kind": ".text",
+      "sha256": "801c8186ec6039ab89a9113bf5035bdd0fecd95914956b89bd91aba23a3de9ee",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "?ROUNDS@@3HA",
+          "site_rva": 319505,
+          "target_va": 269588640,
+          "kind": 6
+        },
+        {
+          "symbol": "?KeyAddition@@YAXQAY03E0E@Z",
+          "site_rva": 319540,
+          "target_va": 268751152,
+          "kind": 20
+        },
+        {
+          "symbol": "?Si@@3PAEA",
+          "site_rva": 319547,
+          "target_va": 269478696,
+          "kind": 6
+        },
+        {
+          "symbol": "?Substitution@@YAXQAY03EQAEE@Z",
+          "site_rva": 319553,
+          "target_va": 268751344,
+          "kind": 20
+        },
+        {
+          "symbol": "?ShiftRow@@YAXQAY03EEE@Z",
+          "site_rva": 319563,
+          "target_va": 268751232,
+          "kind": 20
+        },
+        {
+          "symbol": "?ROUNDS@@3HA",
+          "site_rva": 319568,
+          "target_va": 269588640,
+          "kind": 6
+        },
+        {
+          "symbol": "?KeyAddition@@YAXQAY03E0E@Z",
+          "site_rva": 319597,
+          "target_va": 268751152,
+          "kind": 20
+        },
+        {
+          "symbol": "?InvMixColumn@@YAXQAY03EE@Z",
+          "site_rva": 319605,
+          "target_va": 268751712,
+          "kind": 20
+        },
+        {
+          "symbol": "?Si@@3PAEA",
+          "site_rva": 319612,
+          "target_va": 269478696,
+          "kind": 6
+        },
+        {
+          "symbol": "?Substitution@@YAXQAY03EQAEE@Z",
+          "site_rva": 319618,
+          "target_va": 268751344,
+          "kind": 20
+        },
+        {
+          "symbol": "?ShiftRow@@YAXQAY03EEE@Z",
+          "site_rva": 319628,
+          "target_va": 268751232,
+          "kind": 20
+        },
+        {
+          "symbol": "?KeyAddition@@YAXQAY03E0E@Z",
+          "site_rva": 319655,
+          "target_va": 268751152,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_rijndael",
+      "section": 29,
+      "rva": 319680,
+      "size": 286,
+      "kind": ".text",
+      "sha256": "e7d59fdd0e061dddef3adceffb45d87845a89569e9babef4fe190f964a3ffd6a",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "_strncpy",
+          "site_rva": 319792,
+          "target_va": 269252592,
+          "kind": 20
+        },
+        {
+          "symbol": "?ROUNDS@@3HA",
+          "site_rva": 319811,
+          "target_va": 269588640,
+          "kind": 6
+        },
+        {
+          "symbol": "?rijndaelKeySched@@YAHQAY03EHQAY133E@Z",
+          "site_rva": 319916,
+          "target_va": 268751808,
+          "kind": 20
+        },
+        {
+          "symbol": "?rijndaelKeyEnctoDec@@YAHHQAY133E@Z",
+          "site_rva": 319934,
+          "target_va": 268752304,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_rijndael",
+      "section": 31,
+      "rva": 319968,
+      "size": 87,
+      "kind": ".text",
+      "sha256": "7ee14555f1a91d2f84d1bc761c04c9e8fa08df1a62342961172dfb88aad7cbb5",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "?randomMT@@YAIXZ",
+          "site_rva": 320033,
+          "target_va": 268712960,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_rijndael",
+      "section": 33,
+      "rva": 320064,
+      "size": 790,
+      "kind": ".text",
+      "sha256": "6789c9994d246815acea540f144facac10119ac03634894bf7080b74240dd605",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "?rijndaelEncrypt@@YAHQAE0QAY133E@Z",
+          "site_rva": 320258,
+          "target_va": 268752368,
+          "kind": 20
+        },
+        {
+          "symbol": "?rijndaelEncrypt@@YAHQAE0QAY133E@Z",
+          "site_rva": 320737,
+          "target_va": 268752368,
+          "kind": 20
+        },
+        {
+          "symbol": "?rijndaelEncrypt@@YAHQAE0QAY133E@Z",
+          "site_rva": 320815,
+          "target_va": 268752368,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_rijndael",
+      "section": 35,
+      "rva": 320864,
+      "size": 806,
+      "kind": ".text",
+      "sha256": "c0700e58f5abeecd82a7c86f651ea07e275a194504a47e8a23520212b71c0814",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "?rijndaelEncrypt@@YAHQAE0QAY133E@Z",
+          "site_rva": 321073,
+          "target_va": 268752368,
+          "kind": 20
+        },
+        {
+          "symbol": "?rijndaelDecrypt@@YAHQAE0QAY133E@Z",
+          "site_rva": 321441,
+          "target_va": 268754048,
+          "kind": 20
+        },
+        {
+          "symbol": "?rijndaelDecrypt@@YAHQAE0QAY133E@Z",
+          "site_rva": 321519,
+          "target_va": 268754048,
+          "kind": 20
+        },
+        {
+          "symbol": "?rijndaelDecrypt@@YAHQAE0QAY133E@Z",
+          "site_rva": 321630,
+          "target_va": 268754048,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_rijndael",
+      "section": 37,
+      "rva": 321680,
+      "size": 167,
+      "kind": ".text",
+      "sha256": "c35ebec2af3eb6fc424a65fa22fa6a509e3253a78fa8f830ec77cbd8d2f7c69c",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "?rijndaelDecryptRound@@YAHQAY03EQAY133EH@Z",
+          "site_rva": 321770,
+          "target_va": 268754960,
+          "kind": 20
+        },
+        {
+          "symbol": "?rijndaelEncryptRound@@YAHQAY03EQAY133EH@Z",
+          "site_rva": 321791,
+          "target_va": 268753328,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_rijndael",
+      "section": 3,
+      "rva": 1042472,
+      "size": 13712,
+      "kind": ".data",
+      "sha256": "97d762227ac2cd6b2906181b9159e08b38117835f0ae46a606cc17306c8b1549",
+      "whole_bytes_equal": true,
+      "bindings": []
+    },
+    {
+      "unit": "closure_vendor_rijndael",
+      "section": 4,
+      "rva": 1153184,
+      "size": 4,
+      "kind": ".bss",
+      "sha256": "df3f619804a92fdb4057192dc43dd748ea778adc52bc498ce80524c014b81119",
+      "whole_bytes_equal": true,
+      "bindings": [],
+      "raw_zero_bytes": 0,
+      "virtual_zero_bytes": 4
+    },
+    {
+      "unit": "closure_vendor_rand",
+      "section": 4,
+      "rva": 277168,
+      "size": 47,
+      "kind": ".text",
+      "sha256": "f426416f91c0f4c984c036c564a743b9c400bd08928efdebdd14c6e4b77e37ea",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "_left",
+          "site_rva": 277177,
+          "target_va": 269477892,
+          "kind": 6
+        },
+        {
+          "symbol": "_state",
+          "site_rva": 277186,
+          "target_va": 269586136,
+          "kind": 6
+        },
+        {
+          "symbol": "_state",
+          "site_rva": 277191,
+          "target_va": 269586140,
+          "kind": 6
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_rand",
+      "section": 7,
+      "rva": 277216,
+      "size": 281,
+      "kind": ".text",
+      "sha256": "b50812fdb9adeb37dbb1dc29247c9795b478cf04524b609683f19e704a9147cb",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "_left",
+          "site_rva": 277218,
+          "target_va": 269477892,
+          "kind": 6
+        },
+        {
+          "symbol": "_state",
+          "site_rva": 277228,
+          "target_va": 269586136,
+          "kind": 6
+        },
+        {
+          "symbol": "_state",
+          "site_rva": 277233,
+          "target_va": 269586144,
+          "kind": 6
+        },
+        {
+          "symbol": "?seedMT@@YAXI@Z",
+          "site_rva": 277245,
+          "target_va": 268712624,
+          "kind": 20
+        },
+        {
+          "symbol": "_state",
+          "site_rva": 277254,
+          "target_va": 269586136,
+          "kind": 6
+        },
+        {
+          "symbol": "_state",
+          "site_rva": 277259,
+          "target_va": 269586140,
+          "kind": 6
+        },
+        {
+          "symbol": "_left",
+          "site_rva": 277265,
+          "target_va": 269477892,
+          "kind": 6
+        },
+        {
+          "symbol": "_next",
+          "site_rva": 277275,
+          "target_va": 269588636,
+          "kind": 6
+        },
+        {
+          "symbol": "_state",
+          "site_rva": 277279,
+          "target_va": 269586140,
+          "kind": 6
+        },
+        {
+          "symbol": "_state",
+          "site_rva": 277351,
+          "target_va": 269586136,
+          "kind": 6
+        },
+        {
+          "symbol": "_state",
+          "site_rva": 277413,
+          "target_va": 269586136,
+          "kind": 6
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_rand",
+      "section": 9,
+      "rva": 277504,
+      "size": 68,
+      "kind": ".text",
+      "sha256": "f1b6156c671344f3b8206521cae789ba8e13f7590c2e22b9f56269b37a5bda7e",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "_left",
+          "site_rva": 277506,
+          "target_va": 269477892,
+          "kind": 6
+        },
+        {
+          "symbol": "?reloadMT@@YAIXZ",
+          "site_rva": 277513,
+          "target_va": 268712672,
+          "kind": 20
+        },
+        {
+          "symbol": "_next",
+          "site_rva": 277518,
+          "target_va": 269588636,
+          "kind": 6
+        },
+        {
+          "symbol": "_next",
+          "site_rva": 277528,
+          "target_va": 269588636,
+          "kind": 6
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_rand",
+      "section": 11,
+      "rva": 277584,
+      "size": 30,
+      "kind": ".text",
+      "sha256": "ea385d27b41f5c318072ad6c0af4dfd78c2c206a1c57edccb0e7e50d771ec6ec",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "?randomMT@@YAIXZ",
+          "site_rva": 277586,
+          "target_va": 268712960,
+          "kind": 20
+        },
+        {
+          "symbol": "__real@41f0000000000000",
+          "site_rva": 277602,
+          "target_va": 269387920,
+          "kind": 6
+        },
+        {
+          "symbol": "__real@3df0000000000000",
+          "site_rva": 277608,
+          "target_va": 269390440,
+          "kind": 6
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_rand",
+      "section": 3,
+      "rva": 1042436,
+      "size": 4,
+      "kind": ".data",
+      "sha256": "ad95131bc0b799c0b1af477fb14fcf26a6a9f76079e48bf090acb7e8367bfd0e",
+      "whole_bytes_equal": true,
+      "bindings": []
+    },
+    {
+      "unit": "closure_vendor_rand",
+      "section": 5,
+      "rva": 1150680,
+      "size": 2504,
+      "kind": ".bss",
+      "sha256": "b4a1781b4f9c0bf924a6d4385a2aa806cb1af3dd66c512982a88c87ff41dff5e",
+      "whole_bytes_equal": true,
+      "bindings": [],
+      "raw_zero_bytes": 296,
+      "virtual_zero_bytes": 2208
+    },
+    {
+      "unit": "closure_vendor_rand",
+      "section": 12,
+      "rva": 954984,
+      "size": 8,
+      "kind": ".rdata",
+      "sha256": "67ca64b0c3167d545dc0a90589d50bcd6258c96df61a07e7fe162cca3a8fe2e9",
+      "whole_bytes_equal": true,
+      "bindings": []
+    },
+    {
+      "unit": "closure_vendor_rand",
+      "section": 13,
+      "rva": 952464,
+      "size": 8,
+      "kind": ".rdata",
+      "sha256": "b0146a2c44e947d9076accc6ef3b65420f6d987b11eada5ce88ba6f24f2ad9ca",
+      "whole_bytes_equal": true,
+      "bindings": []
+    }
+  ],
+  "bindings_checked": 216,
+  "new_unique_code": 6367,
+  "already_covered": 133,
+  "external_targets": {
+    "_strncpy": 269252592,
+    "?mul@@YAEEE@Z": 268751088,
+    "?KeyAddition@@YAXQAY03E0E@Z": 268751152,
+    "?ShiftRow@@YAXQAY03EEE@Z": 268751232,
+    "?Substitution@@YAXQAY03EQAEE@Z": 268751344,
+    "?MixColumn@@YAXQAY03EE@Z": 268751424,
+    "?InvMixColumn@@YAXQAY03EE@Z": 268751712,
+    "?rijndaelKeySched@@YAHQAY03EHQAY133E@Z": 268751808,
+    "?rijndaelKeyEnctoDec@@YAHHQAY133E@Z": 268752304,
+    "?rijndaelEncrypt@@YAHQAE0QAY133E@Z": 268752368,
+    "?rijndaelEncryptRound@@YAHQAY03EQAY133EH@Z": 268753328,
+    "?rijndaelDecrypt@@YAHQAE0QAY133E@Z": 268754048,
+    "?rijndaelDecryptRound@@YAHQAY03EQAY133EH@Z": 268754960,
+    "?makeKey@@YAHPAUkeyInstance@@EHPAD@Z": 268755136,
+    "?cipherInit@@YAHPAUcipherInstance@@EPAD@Z": 268755424,
+    "?blockEncrypt@@YAHPAUcipherInstance@@PAUkeyInstance@@PAEH2@Z": 268755520,
+    "?blockDecrypt@@YAHPAUcipherInstance@@PAUkeyInstance@@PAEH2@Z": 268756320,
+    "?cipherUpdateRounds@@YAHPAUcipherInstance@@PAUkeyInstance@@PAEH2H@Z": 268757136,
+    "?seedMT@@YAXI@Z": 268712624,
+    "?reloadMT@@YAIXZ": 268712672,
+    "?randomMT@@YAIXZ": 268712960,
+    "?frandomMT@@YAMXZ": 268713040,
+    "_shifts": 269491616,
+    "?rcon@@3PAIA": 269491496,
+    "?U4@@3PAY03EA": 269490472,
+    "?U3@@3PAY03EA": 269489448,
+    "?U2@@3PAY03EA": 269488424,
+    "?U1@@3PAY03EA": 269487400,
+    "?S5@@3PAEA": 269487144,
+    "?T8@@3PAY03EA": 269486120,
+    "?T7@@3PAY03EA": 269485096,
+    "?T6@@3PAY03EA": 269484072,
+    "?T5@@3PAY03EA": 269483048,
+    "?T4@@3PAY03EA": 269482024,
+    "?T3@@3PAY03EA": 269481000,
+    "?T2@@3PAY03EA": 269479976,
+    "?T1@@3PAY03EA": 269478952,
+    "?Si@@3PAEA": 269478696,
+    "?S@@3PAEA": 269478440,
+    "?Alogtable@@3PAEA": 269478184,
+    "?Logtable@@3PAEA": 269477928,
+    "?ROUNDS@@3HA": 269588640,
+    "_left": 269477892,
+    "_state": 269586136,
+    "_next": 269588636,
+    "__real@3df0000000000000": 269390440,
+    "__real@41f0000000000000": 269387920
+  },
+  "EH": "none",
+  "source025_direct_bytes": 0,
+  "identity_reasons": "Named algorithm definitions match source formulas, key/cipher offsets, mode/key-length handling and full independently verified lookup tables. Every internal call is bound to that named implementation, not a raw-body homologue.",
+  "splitting_required": false
+}

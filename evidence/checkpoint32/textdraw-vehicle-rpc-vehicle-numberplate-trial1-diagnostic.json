@@ -1,0 +1,11 @@
+{
+  "status": "MISMATCH_DIAGNOSTIC_ONLY",
+  "trial": "cp32-vehicle-appearance-trial1",
+  "symbol": "?ScrVehicleNumberPlateTransfer@@YAXPAURPCParameters@@@Z",
+  "candidate_size": 279,
+  "original_size": 280,
+  "finding": "Only initialization schedule differs beforefirstReadBits: original writeslength byte via literal0 first (5bytes),thenlasttextbyte viaAL(4bytes). Candidate writeslasttextbyte viaALthenlength viaAL(4+4), making279. Reststream/providercall/body matches shape after1byteshift.",
+  "source_correction": "Move BYTE length=0 before declaration+memset(text33). No changes to protocol,conditions,providersorotherfivefunctions.",
+  "new_source": "eval_vehicle_appearance_interior2.cpp",
+  "no_accepted_credit": true
+}

@@ -16,7 +16,7 @@ class CVehicle : public CEntity
 {
 public:
 
-	char _gap48[4];
+	CVehicle *m_pTrailer;
 
 	VEHICLE_TYPE	*m_pVehicle;
 
@@ -32,12 +32,20 @@ public:
 
 	char _gap7F[57];
 
+	virtual ~CVehicle();
+	virtual void Add();
+	virtual void Remove();
+	CVehicle *GetTrailer();
+	void RemoveEveryoneFromVehicle();
 	CVehicle( int iType, float fPosX, float fPosY, float fPosZ, float fRotation = 0.0f, BOOL bKeepModelLoaded = FALSE, int a8 = 0);
 
 void SetTankRot(float X, float Y);
 float GetTankRotX();
 float GetTankRotY();
 	void  ResetPointers();
+	void AttachTrailer();
+	void DetachTrailer();
+	void SetTrailer(CVehicle *pTrailer);
 
 	void  SetLockedState(int iLocked);
 	UINT  GetVehicleSubtype();

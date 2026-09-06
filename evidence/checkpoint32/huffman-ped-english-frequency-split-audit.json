@@ -1,0 +1,18 @@
+{
+  "status": "SOURCE_SPLIT_PROPOSAL_NOT_COMPILED",
+  "replacement": "eval_vendor_string_compressor_split.cpp",
+  "store": "eval_store_english_frequencies.cpp",
+  "symbol": "?englishCharacterFrequencies@@3PAIA",
+  "type": "unsigned int[256]",
+  "linkage": "external C++ linkage, nonconst; original definition was nonconst; same decoratedname and type retained.",
+  "original_rva": 1056232,
+  "size": 1024,
+  "notes": [
+    "No header included by minimal store; no NetworkTypes sentinels emitted there.",
+    "String unit retains extern declaration; original1024 values extracted from already reviewed source, no binary byte copy.",
+    "No shared header edits.",
+    "Old unsplit source must be replaced, not linked alongside split version."
+  ],
+  "replacement_sha256": "4974c58bbcd0aa7b77b37fe48e18c827d5fbdb6d2db13bc588845ccf8d9b03cc",
+  "store_sha256": "6c0dd36d33babc7a80b2b3f50bc69fa395d4576df105ead31347c655dfa2452e"
+}

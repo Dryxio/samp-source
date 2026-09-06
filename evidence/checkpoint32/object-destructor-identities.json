@@ -1,0 +1,189 @@
+{
+  "status": "PROPOSAL_UNCOMPILED_NO_ACCEPTED_CREDIT",
+  "functions": [
+    {
+      "rva": "0xa9430",
+      "size": 300
+    },
+    {
+      "rva": "0xaa100",
+      "size": 30
+    },
+    {
+      "rva": "0xe3ed0",
+      "size": 18
+    },
+    {
+      "rva": "0x9c280",
+      "size": 7
+    }
+  ],
+  "candidate_unique_main_plus_EH": 348,
+  "base_destructor7": "Already accepted game_actorped CEntity::~CEntity at9C280, zero new bytes.",
+  "providers": {
+    "GamePool_Object_GetAt": "B3C30",
+    "CEntity::GetRwObject": "9FA60",
+    "CEntity::DeleteRwObject": "9FBB0",
+    "ScriptCommand": "B2310",
+    "GetModelReferenceCount": "B4700",
+    "RPCGameModelReleaseView::RemoveModel": "A09A0 (release279 pending)",
+    "RPCObjectMaterialReleaseView::ReleaseMaterialTextures": "A8ED0 (release279 pending)",
+    "DestroyTexture": "B3960",
+    "free": "C6A3D pinnedCRT",
+    "operator delete": "C648A pinnedCRT"
+  },
+  "globals": {
+    "bQuitGame": {
+      "rva": "26EB30",
+      "size": 4,
+      "evidence": "C3E80 = QuitGame: netgame connected check; RakClient Disconnect(500,0); store TRUE atC3EA0; GetTickCount then dwStartQuitTick26EB34. Matches main.cpp QuitGame."
+    },
+    "r5_shared_object_material_texture": {
+      "rva": "1A2600",
+      "size": 4,
+      "evidence": "A8530 model==0 branch loads shared texture atA864A, lazy B2B90/B2C60 using literal ECD68, storeA8676, alias into object slotA867B. Dtor excludes this shared texture."
+    },
+    "r5_rendering_material_object": {
+      "rva": "1A25FC",
+      "size": 4,
+      "evidence": "A8C00 render path sets this atA8C5E; A9E70 clears atA9E96; dtor compares identityA952F then clears."
+    },
+    "r5_object_material_render_active": {
+      "rva": "1A25F8",
+      "size": 4,
+      "evidence": "A8C54 stores1 alongside rendering object; A9E8C resets0; dtor clears alongside matched owner."
+    }
+  },
+  "layout": {
+    "base": "CEntity offset0 size48; no complete CObject construction",
+    "modelId": "4E int",
+    "textures": "217 DWORD[16] destroyed B3960",
+    "textBuffers": "10CB char*[16] freed C6A3D",
+    "materialPointers": "110B DWORD[16] only tested/nulled",
+    "D3Dtextures": "114B IUnknown*[16], COM Release A8ED0; actual IDirect3DTexture9 use74C29",
+    "hasMaterials": "118B DWORD",
+    "unknown_tail": "Class view stops118F, real constructor writes1193 and beyond. NO sizeof/alloc/constructor allowed."
+  },
+  "objects": {
+    "vtable": {
+      "rva": "ECD74",
+      "size": 12,
+      "targets": [
+        "AA100",
+        "A7DB0",
+        "A7E00"
+      ]
+    },
+    "descriptor": {
+      "rva": "ECD54",
+      "size": 18,
+      "hex": "080169000000000000000000000000000000"
+    },
+    "FuncInfo": {
+      "rva": "FBE24",
+      "size": 28,
+      "hex": "20059319010000001cbe0f1000000000000000000000000000000000"
+    },
+    "UnwindMap": {
+      "rva": "FBE1C",
+      "size": 8,
+      "hex": "ffffffffd03e0e10"
+    }
+  },
+  "identity_blocker": "Previous RPCObjectOpsView Add/Remove are nonvirtual pointer-view functions atA7DB0/A7E00. Derived virtual implementations compile same code expected, but consolidate identities explicitly via migrated owners/reviewed aliases. No double coverage. Do not declare old class virtual in only one TU (ODR).",
+  "source025": "Only basic destructor skeleton (pool lookup, destroy_object script). R5 model/material/native RW cleanup reconstructed from binary; no whole300 byte source025 credit.",
+  "allocated_structures": "Text buffers destroyed with free; materialD3DTextures COM; texture slots DestroyTexture. No buffer sizes inferred by destruction. No object allocations introduced.",
+  "accepted_provider_regions": [
+    {
+      "unit": "game_actorped",
+      "section": 51,
+      "rva": 639616,
+      "anchor": "??1CEntity@@UAE@XZ",
+      "length": null,
+      "size": 7
+    },
+    {
+      "unit": "game_scripting",
+      "section": 49,
+      "rva": 729872,
+      "anchor": "?ScriptCommand@@YAHPBUSCRIPT_COMMAND@@ZZ",
+      "length": null,
+      "size": 565
+    },
+    {
+      "unit": "closure_world",
+      "section": 120,
+      "rva": 653920,
+      "anchor": "?GetRwObject@CEntity@@QAEPAKXZ",
+      "length": null,
+      "size": 12
+    },
+    {
+      "unit": "closure_world",
+      "section": 124,
+      "rva": 654256,
+      "anchor": "?DeleteRwObject@CEntity@@QAEXXZ",
+      "length": null,
+      "size": 33
+    },
+    {
+      "unit": "closure_util",
+      "section": 50,
+      "rva": 736032,
+      "anchor": "?WorldAddEntity@@YGXPAK@Z",
+      "length": null,
+      "size": 20
+    },
+    {
+      "unit": "closure_util",
+      "section": 51,
+      "rva": 736064,
+      "anchor": "?WorldRemoveEntity@@YGXPAK@Z",
+      "length": null,
+      "size": 20
+    },
+    {
+      "unit": "closure_util",
+      "section": 64,
+      "rva": 736304,
+      "anchor": "?GamePool_Object_GetAt@@YGPAU_ENTITY_TYPE@@H@Z",
+      "length": null,
+      "size": 35
+    },
+    {
+      "unit": "game_textures",
+      "section": 14,
+      "rva": 735584,
+      "anchor": "?DestroyTexture@@YAXK@Z",
+      "length": null,
+      "size": 21
+    },
+    {
+      "unit": "closure_object_ops",
+      "section": 51,
+      "rva": 687536,
+      "anchor": "?Add@RPCObjectOpsView@@QAEXXZ",
+      "length": null,
+      "size": 22
+    },
+    {
+      "unit": "closure_object_ops",
+      "section": 53,
+      "rva": 687616,
+      "anchor": "?Remove@RPCObjectOpsView@@QAEXXZ",
+      "length": null,
+      "size": 22
+    },
+    {
+      "unit": "closure_object_ops",
+      "section": 63,
+      "rva": 739072,
+      "anchor": "?GetModelReferenceCount@@YGGH@Z",
+      "length": null,
+      "size": 47
+    }
+  ],
+  "baseline_proof": "evidence/checkpoint32/object-parser-acceptance.json",
+  "baseline_union": 197750,
+  "potential_unique_code": 348
+}

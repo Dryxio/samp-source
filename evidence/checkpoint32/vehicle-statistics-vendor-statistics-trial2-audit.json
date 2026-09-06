@@ -1,0 +1,80 @@
+{
+  "status": "PROPOSED_NOT_ACCEPTED",
+  "original_rva": "0x36610",
+  "size": 2338,
+  "failed_trial": "build/cp32-statistics-trial1",
+  "failed_size": 2327,
+  "diagnosis": [
+    "Original branches on verbosity 1, 2, 4, not 0, 1, fallback.",
+    "Level1 time-delta sampling state is a new R5 modification.",
+    "Levels1 and4 use unsigned32 byte-count varargs, unlike vendor uint64 fields."
+  ],
+  "state": [
+    {
+      "rva": "0x118be0",
+      "size": 4,
+      "reference_sites": [
+        "0x3664e",
+        "0x3665e",
+        "0x36704"
+      ],
+      "initial_storage": "raw",
+      "initial_hex": "00000000"
+    },
+    {
+      "rva": "0x118be8",
+      "size": 8,
+      "reference_sites": [
+        "0x36673",
+        "0x366c4",
+        "0x366d0"
+      ],
+      "initial_storage": "raw",
+      "initial_hex": "0000000000000000"
+    },
+    {
+      "rva": "0x118bf0",
+      "size": 8,
+      "reference_sites": [
+        "0x366a1",
+        "0x366e0",
+        "0x366ed"
+      ],
+      "initial_storage": "raw",
+      "initial_hex": "0000000000000000"
+    }
+  ],
+  "providers": [
+    {
+      "name": "RakNet::GetTime",
+      "rva": "0x2e7f0",
+      "sites": [
+        "0x36647",
+        "0x366f1",
+        "0x36882"
+      ]
+    },
+    {
+      "name": "sprintf",
+      "rva": "0xc7353"
+    }
+  ],
+  "source_files": [
+    {
+      "path": "build/agent-independent/eval_vendor_statistics2.cpp",
+      "sha256": "cb6c827270b4830027aa877216868a47b7ab6992b59df7d1cb32aee3b0395f62"
+    },
+    {
+      "path": "build/agent-independent/eval_store_statistics_last_sent.cpp",
+      "sha256": "a016392d34b6848e0fb9dc065cc7123d765031e5a8e2fedd9ab883748e0ccdbd"
+    },
+    {
+      "path": "build/agent-independent/eval_store_statistics_last_received.cpp",
+      "sha256": "ff9fe45cd34fd470202b413b0cf20008f7b9c0619aa693422e04e45519e2b667"
+    },
+    {
+      "path": "build/agent-independent/eval_store_statistics_last_time.cpp",
+      "sha256": "abc35ecdb930a298a180a97f5de63dcdb5924c267508a3b16d94b6030f15413a"
+    }
+  ]
+}

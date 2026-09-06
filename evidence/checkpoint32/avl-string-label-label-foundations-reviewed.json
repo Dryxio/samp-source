@@ -1,0 +1,91 @@
+{
+  "status": "SCOPED_PREFLIGHT_NOT_ACCEPTANCE",
+  "regions": [
+    {
+      "unit": "closure_label_pool_new",
+      "anchor": "?New@R5CompleteLabelPool@@QAEXGPADKMMMM_NGG@Z",
+      "section": 46,
+      "rva": 4560,
+      "size": 270,
+      "kind": ".text",
+      "sha256": "8d97b945b24c1c50001e715d6e1d018b0b9d4f8efd7e46a0d6ea3420fdcd0d55",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "_free",
+          "site_rva": 4610,
+          "symbol_va": 269249085,
+          "addend": 0,
+          "target_va": 269249085,
+          "kind": 20
+        },
+        {
+          "symbol": "_calloc",
+          "site_rva": 4686,
+          "symbol_va": 269248898,
+          "addend": 0,
+          "target_va": 269248898,
+          "kind": 20
+        },
+        {
+          "symbol": "?unnamed_100B6100@@YAKPADH@Z",
+          "site_rva": 4746,
+          "symbol_va": 269181184,
+          "addend": 0,
+          "target_va": 269181184,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "closure_label_pool_helpers",
+      "anchor": "?IsActive@R5LabelRemotePlayerView@@QAEHXZ",
+      "section": 46,
+      "rva": 4224,
+      "size": 29,
+      "kind": ".text",
+      "sha256": "de9eb20fb5780700424d469ff8e886a910ae5c9679e341492ec78c645302100d",
+      "whole_bytes_equal": true,
+      "bindings": []
+    }
+  ],
+  "code_bytes": 299,
+  "store_bytes": 0,
+  "EH": 0,
+  "direct025_code_credit": 0,
+  "source_objects": {
+    "closure_label_pool_new": "cp32-label-pool-trial1",
+    "closure_label_pool_helpers": "cp32-label-pool-trial2",
+    "closure_store_label_renderer": "cp32-label-pool-trial1"
+  },
+  "helper_trial2_identical": true,
+  "excluded_unreferenced_store": [
+    {
+      "unit": "closure_store_label_renderer",
+      "anchor": "?pLabel@@3PAVCLabel@@A",
+      "section": 3,
+      "rva": 2550620,
+      "size": 4,
+      "kind": ".bss",
+      "sha256": "df3f619804a92fdb4057192dc43dd748ea778adc52bc498ce80524c014b81119",
+      "whole_bytes_equal": true,
+      "original_zero_fill_verified": true,
+      "bindings": []
+    }
+  ],
+  "seeds": {
+    "closure_label_pool_new": {
+      "?New@R5CompleteLabelPool@@QAEXGPADKMMMM_NGG@Z": 4560
+    },
+    "closure_label_pool_helpers": {
+      "?IsActive@R5LabelRemotePlayerView@@QAEHXZ": 4224
+    }
+  },
+  "scope": "New270 and IsActive29 only. Draw643/Transform92 remain unmatched. pLabel scalar and main.cpp owner transfer remain unaccepted/pending because these two leaves do not reference it.",
+  "fresh_helper_trial2": {
+    "object_sha256": "ae613b3b194a77a4b8b26dfecfe2268c722d4145ac8bc04fe2401a375a3d5d9f",
+    "whole_IsActive_body_identical_to_preflight_trial1": true,
+    "size": 29,
+    "relocations": []
+  }
+}

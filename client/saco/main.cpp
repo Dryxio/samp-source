@@ -38,7 +38,7 @@ IDirect3DDevice9		*pD3DDevice	= NULL;
 
 HANDLE			hInstance=0;
 CNewPlayerTags			*pNewPlayerTags=NULL;
-CScoreBoard				*pScoreBoard=NULL;
+extern CScoreBoard		*pScoreBoard; // storage: closure_store_scoreboard.cpp
 CUnkClass3 *pUnkClass3=NULL;
 CUnkClass4 *pUnkClass4=NULL;
 CUnkClass5 *pUnkClass5=NULL;

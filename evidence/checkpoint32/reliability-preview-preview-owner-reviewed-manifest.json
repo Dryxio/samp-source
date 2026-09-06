@@ -1,0 +1,122 @@
+{
+  "status": "FULL_PREFLIGHT_NOT_ACCEPTANCE",
+  "regions": [
+    {
+      "unit": "closure_preview_renderer_owner",
+      "symbol": "?Initialize@R5PreviewRenderer@@QAE_NXZ",
+      "rva": 441920,
+      "size": 333,
+      "sha256": "57aec911e3af3324eb28b6a6762c83c650d1e97260d9dfc4fe4ea10fd5bba095",
+      "fixups": [
+        {
+          "offset": 9,
+          "kind": 20,
+          "symbol": "?RpLightCreate@@YAPAURpLight@@H@Z",
+          "reference_va": 269163264
+        },
+        {
+          "offset": 66,
+          "kind": 20,
+          "symbol": "?RpLightSetColor@@YAXPAURpLight@@PAURwRGBAReal@@@Z",
+          "reference_va": 269163376
+        },
+        {
+          "offset": 88,
+          "kind": 20,
+          "symbol": "?RwRasterCreate@@YAPAURwRaster@@HHHH@Z",
+          "reference_va": 269162192
+        },
+        {
+          "offset": 110,
+          "kind": 20,
+          "symbol": "?RwRasterCreate@@YAPAURwRaster@@HHHH@Z",
+          "reference_va": 269162192
+        },
+        {
+          "offset": 118,
+          "kind": 20,
+          "symbol": "?RwCameraCreate@@YAPAURwCamera@@XZ",
+          "reference_va": 269162544
+        },
+        {
+          "offset": 125,
+          "kind": 20,
+          "symbol": "?RwFrameCreate@@YAPAURwFrame@@XZ",
+          "reference_va": 269162384
+        },
+        {
+          "offset": 165,
+          "kind": 20,
+          "symbol": "?RwFrameTranslate@@YAXPAURwFrame@@PAU_VECTOR@@H@Z",
+          "reference_va": 269163760
+        },
+        {
+          "offset": 181,
+          "kind": 20,
+          "symbol": "?RwFrameRotate@@YAXPAURwFrame@@HM@Z",
+          "reference_va": 269163808
+        },
+        {
+          "offset": 223,
+          "kind": 20,
+          "symbol": "?SetCameraFrameAndZBuffer@@YAXPAURwCamera@@PAURwRaster@@1@Z",
+          "reference_va": 269162928
+        },
+        {
+          "offset": 235,
+          "kind": 20,
+          "symbol": "?RwObjectHasFrameSetFrame@@YAXPAURwCamera@@PAURwFrame@@@Z",
+          "reference_va": 269162880
+        },
+        {
+          "offset": 253,
+          "kind": 20,
+          "symbol": "?RwCameraSetClipPlane@@YAXPAURwCamera@@MM@Z",
+          "reference_va": 269163136
+        },
+        {
+          "offset": 282,
+          "kind": 20,
+          "symbol": "?RwCameraSetViewWindow@@YAXPAURwCamera@@PAU_VECTOR2D@@@Z",
+          "reference_va": 269163216
+        },
+        {
+          "offset": 292,
+          "kind": 20,
+          "symbol": "?RwCameraSetProjection@@YAXPAURwCamera@@H@Z",
+          "reference_va": 269163712
+        },
+        {
+          "offset": 300,
+          "kind": 20,
+          "symbol": "?RpWorldAddCamera@@YAXPAURwCamera@@@Z",
+          "reference_va": 269162672
+        },
+        {
+          "offset": 309,
+          "kind": 20,
+          "symbol": "?RwTextureCreate@@YAPAURwTexture@@PAURwRaster@@@Z",
+          "reference_va": 269162272
+        }
+      ]
+    },
+    {
+      "unit": "closure_preview_renderer_owner",
+      "symbol": "??0R5PreviewRenderer@@QAE@XZ",
+      "rva": 445632,
+      "size": 28,
+      "sha256": "726c7b0302145efb6ec8d02b427c58ea7493e8525a4df9b2fdbcc3d204d64c33",
+      "fixups": [
+        {
+          "offset": 20,
+          "kind": 20,
+          "symbol": "?Initialize@R5PreviewRenderer@@QAE_NXZ",
+          "reference_va": 268877376
+        }
+      ]
+    }
+  ],
+  "new_unique_potential": 361,
+  "source025_credit": 0,
+  "layout": "Actual28-byte owner, original startupnew28/ctor6CCC0/result26EBA8 established by independent owner audit. Startup not covered. No calls to unimplemented providers. Whole initialization original failure behavior retained; constructor leaves raster/zBuffer initialization to Initialize as original."
+}

@@ -1,0 +1,86 @@
+{
+  "status": "PROPOSED_NOT_COMPILED",
+  "principal": 414,
+  "EH_code": 21,
+  "total_potential": 435,
+  "regions": [
+    {
+      "rva": "0x68070",
+      "size": 117,
+      "sha256": "d129862bc5110a0dea6337c7a0d44278fade94670f0dd1d2ea6f49dfd09b52b1",
+      "pe_absolute_fixups": []
+    },
+    {
+      "rva": "0x1cd90",
+      "size": 297,
+      "sha256": "b84cebb6d290ccd07114c8404b2e2ed0aa6062a328ef576f1590cbedbbb5dd44",
+      "pe_absolute_fixups": [
+        {
+          "offset": 3,
+          "target": "0x100e14fb"
+        },
+        {
+          "offset": 64,
+          "target": "0x1026eb94"
+        },
+        {
+          "offset": 168,
+          "target": "0x1026eb80"
+        },
+        {
+          "offset": 181,
+          "target": "0x100e6404"
+        }
+      ]
+    },
+    {
+      "rva": "0xe14f0",
+      "size": 21,
+      "sha256": "1bf75a7b981754e77bcf6bf95fe1254400b11e581ccfc7bb7b14f89872a46e67",
+      "pe_absolute_fixups": [
+        {
+          "offset": 12,
+          "target": "0x100f8fbc"
+        }
+      ]
+    },
+    {
+      "rva": "0xf8fb4",
+      "size": 36,
+      "sha256": "6f5233e0b93ede0185b4a0852620fa9bb6237dfecdc6ce823891522eb15f7dd7",
+      "pe_absolute_fixups": [
+        {
+          "offset": 4,
+          "target": "0x100e14f0"
+        },
+        {
+          "offset": 16,
+          "target": "0x100f8fb4"
+        }
+      ]
+    }
+  ],
+  "bindings": {
+    "R5ChatInfoView::AddInfoMessage": "0x10068070",
+    "CChatWindow::AddEntry": "0x10067BE0",
+    "_vsprintf": "0x100CA304",
+    "pChatWindow": "0x1026EB80",
+    "pNetGame": "0x1026EB94",
+    "R5TextDrawPoolConstructionView::New": "0x1001E910",
+    "BitStream char* constructor": "0x1001F840",
+    "ReadBits": "0x1001F9B0",
+    "Read(char*,int)": "0x1001FEA0",
+    "BitStream destructor": "0x1001F8D0"
+  },
+  "new_info_field": {
+    "offset": "0x126",
+    "source_name": "CChatWindow::m_dwChatInfoColor",
+    "not_debug_offset": "0x12A"
+  },
+  "literal": {
+    "rva": "0xE6404",
+    "size": 41,
+    "text": "Warning: ignoring large TextDraw size=%u",
+    "sha256": "7cd74165e52bf9c4ea3d65d5ecc3036240b1ce9d26488c2a60138f92d17e6000"
+  }
+}

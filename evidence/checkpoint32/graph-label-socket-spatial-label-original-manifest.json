@@ -1,0 +1,116 @@
+{
+  "status": "ORIGINAL_IDENTITIES_NOT_PROBED",
+  "baseline": 262111,
+  "code_potential": 564,
+  "regions": [
+    {
+      "rva": 441264,
+      "size": 25,
+      "kind": "code",
+      "sha256": "763df9cf25c4ad559f598978f9fc01ada26088151eb4a52befafc819fddcf40f",
+      "pe_relocations": [],
+      "net_uncovered": 25
+    },
+    {
+      "rva": 441296,
+      "size": 28,
+      "kind": "code",
+      "sha256": "c426c45b951a80bc10a168c3ea54b21a7e5daea54c3c09d63db59df64ffb8ee9",
+      "pe_relocations": [],
+      "net_uncovered": 28
+    },
+    {
+      "rva": 441328,
+      "size": 14,
+      "kind": "code",
+      "sha256": "2da4a6267996137f77109214e35dd2ca95ddcbae7cad2aaecab81bb146d0bfdc",
+      "pe_relocations": [],
+      "net_uncovered": 14
+    },
+    {
+      "rva": 441344,
+      "size": 14,
+      "kind": "code",
+      "sha256": "fcb917826e47477421e9d8550f72c7d877ad8d10240760732296bde7c14631ca",
+      "pe_relocations": [],
+      "net_uncovered": 14
+    },
+    {
+      "rva": 441360,
+      "size": 96,
+      "kind": "code",
+      "sha256": "5d6ce610ff6acf2ee50213d78263a98c4f0e5c3502b66cd0254be8a6ca19be48",
+      "pe_relocations": [
+        441427
+      ],
+      "net_uncovered": 96
+    },
+    {
+      "rva": 441456,
+      "size": 16,
+      "kind": "code",
+      "sha256": "a7803934ba88042719f747b176419512ef2be4fdb4646a3b087e4c8b912aa6aa",
+      "pe_relocations": [],
+      "net_uncovered": 16
+    },
+    {
+      "rva": 441472,
+      "size": 14,
+      "kind": "code",
+      "sha256": "2524ed9b9b117228095dc688fc6e113da331e8f0022e608c2c409703448c7bc3",
+      "pe_relocations": [],
+      "net_uncovered": 14
+    },
+    {
+      "rva": 441488,
+      "size": 351,
+      "kind": "code",
+      "sha256": "4627409b9f6b8d2c27af4737d25e82c6ba13c68e06cee880008584ad9fe5d387",
+      "pe_relocations": [
+        441568,
+        441573,
+        441733,
+        441818
+      ],
+      "net_uncovered": 351
+    },
+    {
+      "rva": 641408,
+      "size": 6,
+      "kind": "code",
+      "sha256": "b6124ec7eab68a79a909cdef96813a3898759deb3de42b4467ac9911417032c2",
+      "pe_relocations": [
+        641409
+      ],
+      "net_uncovered": 6
+    },
+    {
+      "rva": 1063368,
+      "size": 4,
+      "kind": "pointer",
+      "sha256": "b78de9b8e708994e3c1e9016d4d19dba7e39eb13138a67f9f1bcf1d7e3e98f8e",
+      "pe_relocations": [],
+      "net_uncovered": 4
+    },
+    {
+      "rva": 960024,
+      "size": 18,
+      "kind": "descriptor",
+      "sha256": "ccd24ce561a9478a23cb1e73daddc46d5cdd8d6fad68076d568da169e2cc56a2",
+      "pe_relocations": [],
+      "net_uncovered": 18
+    },
+    {
+      "rva": 940844,
+      "size": 4,
+      "kind": "float",
+      "sha256": "e00e5eb9444182f352323374ef4e08ebcb784725fdd4fd612d7730540b3e0c8c",
+      "pe_relocations": [],
+      "net_uncovered": 4
+    }
+  ],
+  "owner_reconciliation": {
+    "pcaInternalAim": "reuse active closure_store_internal_aim.cpp unchanged",
+    "new_data_maximum": 18
+  }
+}

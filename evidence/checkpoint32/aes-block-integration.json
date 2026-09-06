@@ -1,0 +1,35 @@
+{
+  "status": "ACCEPTED_AFTER_COMPLETE_LINK_REVIEW",
+  "run": "cp32-aes-block-linked1",
+  "ob1": "cp32-aes-block-ob1",
+  "ob2": "cp32-vehicle-statistics-ob2",
+  "new_unique_code_bytes": 7354,
+  "direct_025_accepted_bytes": 0,
+  "total_direct_025_accepted_bytes": 21112,
+  "coverage": {
+    "previous_code_bytes": 229399,
+    "batch_code_bytes": 218201,
+    "new_unique_code_bytes": 7354,
+    "union_code_bytes": 236753,
+    "text_bytes": 930756,
+    "text_percent": 25.436634305876083,
+    "whole_dll_match": false
+  },
+  "verification": "28 complete code functions and six whole data sections preflight; all233 relocations and actual providers. AES tables13712 contiguous, MT state+next2504 spanning raw/virtual initial storage, ROUNDS4/left4 and two whole literals. Existing duplicate data region reused. Ten controls and actor ABI pass.",
+  "adaptations": "All normal vendor source functions matched first probe. True keyInstance282/cipherInstance21/DataBlockEncryptor586/CheckSum10; no fake layouts or initialization. AES table Si/S5 duplicate contents retain distinct actual caller identities. 182 previously covered code bytes excluded; CheckSum getter4/empty destructor1 not seeded. No new headers; compilation reuses all unchanged objects.",
+  "reference_credit": "Vendor source was already present in local baseline; no025 incremental credit. Full pipeline reuse is concretely successful without claiming new025 contribution.",
+  "throughput": {
+    "start_utc": "2026-09-05T20:11:21Z",
+    "measured_utc": "2026-09-06T02:59:31.054183+00:00",
+    "elapsed_seconds": 24490.054183,
+    "new_unique_bytes": 63612,
+    "bytes_per_hour": 9350.865387589249,
+    "coordination_included": true,
+    "agents": 3
+  },
+  "blockers": [
+    "Five old pending remain. Object preview694 and textdraw sprite272 still unmatched; enclosing update cannot be credited."
+  ],
+  "next": "Real preview renderer owner361 and next independent network family; continue active goal.",
+  "runtime": "No game, real network stack or native renderer executed; static comparisons and existing bounded actor ABI only."
+}

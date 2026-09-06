@@ -1,0 +1,317 @@
+{
+  "status": "PROPOSED_UNCOMPILED_NO_ACCEPTED_CREDIT",
+  "baseline_proof": "evidence/checkpoint32/textdraw-init-acceptance.json",
+  "baseline_union": 205848,
+  "rows": [
+    {
+      "name": "SetNumberPlate",
+      "rva": "0xb8150",
+      "size": 25,
+      "unique": 25,
+      "calls": [
+        {
+          "site": "0xb815e",
+          "target": "0xc77f0",
+          "true_symbol": "_strncpy",
+          "status": "accepted_provider"
+        }
+      ],
+      "EH": null,
+      "registration": null
+    },
+    {
+      "name": "SetTireStatus",
+      "rva": "0xb7940",
+      "size": 232,
+      "unique": 232,
+      "calls": [
+        {
+          "site": "0xb7955",
+          "target": "0xb61e0",
+          "true_symbol": "?GetVehicleSubtypeFromVehiclePtr@@YAIPAU_VEHICLE_TYPE@@@Z",
+          "status": "accepted_provider"
+        },
+        {
+          "site": "0xb79dd",
+          "target": "0xb61e0",
+          "true_symbol": "?GetVehicleSubtypeFromVehiclePtr@@YAIPAU_VEHICLE_TYPE@@@Z",
+          "status": "accepted_provider"
+        }
+      ],
+      "EH": null,
+      "registration": null
+    },
+    {
+      "name": "SetInterior",
+      "rva": "0xad340",
+      "size": 150,
+      "unique": 150,
+      "calls": [
+        {
+          "site": "0xad366",
+          "target": "0xb2310",
+          "true_symbol": "?ScriptCommand@@YAHPBUSCRIPT_COMMAND@@ZZ",
+          "status": "accepted_provider"
+        },
+        {
+          "site": "0xad375",
+          "target": "0xb2310",
+          "true_symbol": "?ScriptCommand@@YAHPBUSCRIPT_COMMAND@@ZZ",
+          "status": "accepted_provider"
+        },
+        {
+          "site": "0xad38d",
+          "target": "0x9eb10",
+          "true_symbol": "?GetMatrix@CEntity@@QAEXPAU_MATRIX4X4@@@Z",
+          "status": "accepted_provider"
+        },
+        {
+          "site": "0xad3a9",
+          "target": "0xb2310",
+          "true_symbol": "?ScriptCommand@@YAHPBUSCRIPT_COMMAND@@ZZ",
+          "status": "accepted_provider"
+        },
+        {
+          "site": "0xad3c7",
+          "target": "0xb2310",
+          "true_symbol": "?ScriptCommand@@YAHPBUSCRIPT_COMMAND@@ZZ",
+          "status": "accepted_provider"
+        }
+      ],
+      "EH": null,
+      "registration": null
+    },
+    {
+      "name": "RPCPlate",
+      "rva": "0x1c230",
+      "size": 280,
+      "unique": 280,
+      "calls": [
+        {
+          "site": "0x1c269",
+          "target": "0x1f840",
+          "true_symbol": "??0BitStream@RakNet@@QAE@PADI_N@Z",
+          "status": "accepted_provider"
+        },
+        {
+          "site": "0x1c2b1",
+          "target": "0x1f9b0",
+          "true_symbol": "?ReadBits@BitStream@RakNet@@QAE_NPAEH_N@Z",
+          "status": "accepted_provider"
+        },
+        {
+          "site": "0x1c2c3",
+          "target": "0x1f9b0",
+          "true_symbol": "?ReadBits@BitStream@RakNet@@QAE_NPAEH_N@Z",
+          "status": "accepted_provider"
+        },
+        {
+          "site": "0x1c2dd",
+          "target": "0x1fea0",
+          "true_symbol": "?Read@BitStream@RakNet@@QAE_NPADH@Z",
+          "status": "accepted_provider"
+        },
+        {
+          "site": "0x1c31a",
+          "target": "0xb8150",
+          "true_symbol": "RPCVehicleAppearanceView::SetNumberPlate(char*)",
+          "status": "own_proposed"
+        },
+        {
+          "site": "0x1c32e",
+          "target": "0x1f8d0",
+          "true_symbol": "??1BitStream@RakNet@@QAE@XZ",
+          "status": "accepted_provider"
+        }
+      ],
+      "EH": {
+        "cleanup": "0xe13b0",
+        "handler": "0xe13bb",
+        "size": 21,
+        "FuncInfo": {
+          "rva": "0xf8e54",
+          "size": 28
+        },
+        "UnwindMap": {
+          "rva": "0xf8e4c",
+          "size": 8
+        }
+      },
+      "registration": {
+        "rva": 115248,
+        "size": 280,
+        "potential": 280,
+        "rpc_id": 123,
+        "name": "ScrUnk7B",
+        "registration_rva": 123475
+      }
+    },
+    {
+      "name": "RPCTires",
+      "rva": "0x18b70",
+      "size": 218,
+      "unique": 218,
+      "calls": [
+        {
+          "site": "0x18ba9",
+          "target": "0x1f840",
+          "true_symbol": "??0BitStream@RakNet@@QAE@PADI_N@Z",
+          "status": "accepted_provider"
+        },
+        {
+          "site": "0x18bc6",
+          "target": "0x1f9b0",
+          "true_symbol": "?ReadBits@BitStream@RakNet@@QAE_NPAEH_N@Z",
+          "status": "accepted_provider"
+        },
+        {
+          "site": "0x18bd8",
+          "target": "0x1f9b0",
+          "true_symbol": "?ReadBits@BitStream@RakNet@@QAE_NPAEH_N@Z",
+          "status": "accepted_provider"
+        },
+        {
+          "site": "0x18c1c",
+          "target": "0xb7940",
+          "true_symbol": "RPCVehicleAppearanceView::SetTireStatus(BYTE)",
+          "status": "own_proposed"
+        },
+        {
+          "site": "0x18c30",
+          "target": "0x1f8d0",
+          "true_symbol": "??1BitStream@RakNet@@QAE@XZ",
+          "status": "accepted_provider"
+        }
+      ],
+      "EH": {
+        "cleanup": "0xe0d70",
+        "handler": "0xe0d7b",
+        "size": 21,
+        "FuncInfo": {
+          "rva": "0xf874c",
+          "size": 28
+        },
+        "UnwindMap": {
+          "rva": "0xf8744",
+          "size": 8
+        }
+      },
+      "registration": {
+        "rva": 101232,
+        "size": 218,
+        "potential": 218,
+        "rpc_id": 98,
+        "name": "ScrUnk62",
+        "registration_rva": 123883
+      }
+    },
+    {
+      "name": "RPCInterior",
+      "rva": "0x19a00",
+      "size": 156,
+      "unique": 156,
+      "calls": [
+        {
+          "site": "0x19a39",
+          "target": "0x1f840",
+          "true_symbol": "??0BitStream@RakNet@@QAE@PADI_N@Z",
+          "status": "accepted_provider"
+        },
+        {
+          "site": "0x19a56",
+          "target": "0x1f9b0",
+          "true_symbol": "?ReadBits@BitStream@RakNet@@QAE_NPAEH_N@Z",
+          "status": "accepted_provider"
+        },
+        {
+          "site": "0x19a67",
+          "target": "0x1010",
+          "true_symbol": "?FindPlayerPed@CGame@@QAEPAVCPlayerPed@@XZ",
+          "status": "accepted_provider"
+        },
+        {
+          "site": "0x19a6e",
+          "target": "0xad340",
+          "true_symbol": "RPCPedInteriorView::SetInterior(BYTE,BOOL)",
+          "status": "own_proposed"
+        },
+        {
+          "site": "0x19a82",
+          "target": "0x1f8d0",
+          "true_symbol": "??1BitStream@RakNet@@QAE@XZ",
+          "status": "accepted_provider"
+        }
+      ],
+      "EH": {
+        "cleanup": "0xe0f50",
+        "handler": "0xe0f5b",
+        "size": 21,
+        "FuncInfo": {
+          "rva": "0xf8968",
+          "size": 28
+        },
+        "UnwindMap": {
+          "rva": "0xf8960",
+          "size": 8
+        }
+      },
+      "registration": {
+        "rva": 104960,
+        "size": 156,
+        "potential": 156,
+        "rpc_id": 156,
+        "name": "ScrSetInterior",
+        "registration_rva": 124138
+      }
+    }
+  ],
+  "main_potential": 1061,
+  "EH_potential": 63,
+  "source025_principal_potential": 524,
+  "source025_provenance": {
+    "SetInterior150": "client/game/playerped.cpp1471, retain nullped guard,globalinterior selection,link andmatrix streaming refresh; R5adds remoteplayer path and BOOLrefresh arg.",
+    "RPCInterior156": "client/net/scriptrpc.cpp281, char*R5BitStream and SetInterior(interior,TRUE) insteadsinglearg.",
+    "RPCTires218": "client/net/scriptrpc.cpp1850 handler GetAt/guards useful; protocol changed WORDid+BYTEwheelid+BYTEstatus toWORDid+BYTEmask and provider SetWheelPopped becomeswholemask. Heavilyadapted, notidenticaltransfer.",
+    "SetTireStatus232": "R5reconstructed bitmask semantics.025SetWheelPopped vehicle.cpp688 onlysinglewheelsetter provided conceptualnativearraymapping; no whole232credit.",
+    "Plate305": "R5 reconstruction.025ScrNumberPlate942 reads fixed9bytes and performs no update; not counted as implementationofR5lengthprefixedhandler."
+  },
+  "source_to_target_order": {
+    "SetNumberPlate": "strncpyC77F0(this+93,text,32). No appended terminator invented.",
+    "SetTireStatus": "ifnative4C nonnull GetVehicleSubtypeFromVehiclePtrB61E0; subtype1 car bits0,1,2,3 ->indices3,2,1,0 at5A5; else rechecknative andB61E0 subtype2 bike bits0,1->indices1,0 at65C. Bothtrueaccepted UINTcdecllookup, not CVehicle virtualor otherGetSubtype.",
+    "SetInterior": "localplayer: select04BB ECdd0(id),link0860ECFEC(gtaId44,id); optionalrefresh usesCEntityGetMatrix9EB10 and04E4ECF4C(pos.X,pos.Y). Remote: only link. No otherprovider or namepermutation.",
+    "RPCPlate": "WORDid, BYTElengthzero initialized, iflength<=32 readinto33zeroedbytes, getpool, checkslotbound/active then directvehicle SetNumberPlate. Original no nonnullvehicleguard afteractive; sourcepreserves.",
+    "RPCTires": "WORDid, BYTEstatus; getpool->GetAt beforeif(pool&&vehicle), preserving observed order. Pass statusBYTE tosameproviderB7940.",
+    "RPCInterior": "ReadBYTE then pGameFindPlayerPed1010 and SetInteriorAD340(interior,TRUE) with no addednullguard."
+  },
+  "structures": {
+    "vehicle_view": "native pointer4C actualVEHICLE_TYPE; charplate32at93. No allocations/vtables.",
+    "native_tires": "Actualcommon.h VEHICLE_TYPE bCarWheelPopped5A5,bBikeWheelPopped65C, verifiedcompileassertions.",
+    "pool_view": "vehicles1134[2000],active3074[2000],boundsid>=2000. No ownerallocation.",
+    "ped_view": "gtaID44,ped2A4,playerNumber2B0,realCEntityoffset0 forGetMatrix.",
+    "netgame": "pNetGame26EB94->pools3DE->vehicles0; pGame26EBAC actualexistingglobals."
+  },
+  "data": [
+    {
+      "symbol": "rpc_select_ped_interior",
+      "rva": "ECDD0",
+      "size": 18,
+      "hex": "bb0469000000000000000000000000000000"
+    },
+    {
+      "symbol": "rpc_link_ped_interior",
+      "rva": "ECFEC",
+      "size": 18,
+      "hex": "600869690000000000000000000000000000"
+    },
+    {
+      "symbol": "rpc_refresh_ped_streaming",
+      "rva": "ECF4C",
+      "size": 18,
+      "hex": "e40466660000000000000000000000000000"
+    }
+  ],
+  "data_placement": "Threefull18descriptors are noncontiguous originaladdresses, mayneedrootseparateunits ifCOFFrdatapacks. Some identicalopcodeobjects elsewhere have distinctstaticidentities; do not remap accepted oldowners.",
+  "new_globals_or_vtables": "None",
+  "source_sha256": "3d095480e22b3df801f870c9880ae22e1c1f711f6aa07ac5de2d2abea01a19cc",
+  "total_potential": 1124
+}

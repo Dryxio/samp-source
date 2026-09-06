@@ -1,0 +1,45 @@
+{
+  "status": "SOURCE_PROPOSAL_NOT_COMPILED",
+  "source": "build/agent-independent/eval_vendor_statistics.cpp",
+  "source_sha256": "17665986416648772c12b22dfeb97d3c058727564cd1d443cb99f1c3811773fb",
+  "rva": 222736,
+  "size": 2338,
+  "source025_credit": 0,
+  "providers": [
+    "RakNet::GetTime2E7F0 accepted",
+    "sprintf C7353 pinnedCRT"
+  ],
+  "literals": [
+    {
+      "rva": 952488,
+      "size": 42,
+      "whole_source_equal": true,
+      "sha256": "dc039b0f14fb1a143edadb8d0505369222603c14283294890cfff021db0b7bf1"
+    },
+    {
+      "rva": 950544,
+      "size": 272,
+      "whole_source_equal": true,
+      "sha256": "70a0b44ca958c7b8c9ef665e93eafb3c5f2e2b1cc7d4d3f64d73f4ae5b7b8765"
+    },
+    {
+      "rva": 952096,
+      "size": 361,
+      "whole_source_equal": true,
+      "sha256": "95d6449daed7a21543d06435cecf41c3c7b11fda804c1bc9dd1689e01c155724"
+    },
+    {
+      "rva": 950816,
+      "size": 1273,
+      "whole_source_equal": true,
+      "sha256": "a78f35eee63d4a42c510d7432c2607eaea8977562e3b711d5c68b9ceee739830"
+    }
+  ],
+  "adaptations": [
+    "R5 verbosity0 includes first13 statistics of vendor medium report instead of upstream three counters. Same existing source expressions copied from medium case, no code bytes copied.",
+    "R5 medium report final two throughput labels use one space instead of tabs.",
+    "Existing R5 header size296 asserted."
+  ],
+  "ownership": "Caller-owned actual statistics296/outputbuffer; no newstorage, EH, allocations, fake providers.",
+  "original_sha256": "4b547458c27b79adf86a861a6c18a229840d7ddeba41671d12cb8d0655615e6c"
+}

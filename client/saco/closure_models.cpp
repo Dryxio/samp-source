@@ -386,3 +386,5 @@ int CGame::GetWeaponModelIDFromWeapon(int iWeaponID)
 {
 	return GameGetWeaponModelIDFromWeaponID(iWeaponID);
 }
+
+

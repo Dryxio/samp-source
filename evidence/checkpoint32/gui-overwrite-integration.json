@@ -1,0 +1,10 @@
+{
+  "status": "ACCEPTED_AFTER_COMPLETE_LINK_REVIEW",
+  "run": "cp32-gui-overwrite-linked",
+  "ob1": "cp32-gui-overwrite-ob1",
+  "ob2": "cp32-gui-overwrite-ob2",
+  "new_unique_code_bytes": 234,
+  "accepted_direct_025_credit": 0,
+  "source_adaptations": "Recovered descriptive OverwriteChar method uses original byte InsertChar DBCS branches, final this[nIndex]=WideCharStr[0] implicit CUniBuffer temporary assignment. Nonvirtual declaration added, layout unchanged.",
+  "verification": "2036 whole regions; full234 bytes at9C170, actual ctor/dtor/wide insert/import targets. Header consumers recompiled in both profiles, all old full hashes/fixup targets preserved.10 negative controls and actor ABI pass. MsgProc candidate605 bytes remains NOT ACCEPTED and excluded. No GUI/game execution, push/deployment."
+}

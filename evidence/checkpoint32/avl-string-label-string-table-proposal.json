@@ -1,0 +1,184 @@
+{
+  "status": "OLD_SOURCE_OBJECT_DISCOVERY_NOT_FRESH_NOT_ACCEPTED",
+  "source": {
+    "path": "build/agent-independent/eval_vendor_string_table.cpp",
+    "sha256": "720545741234ecba877f2a263c6b8cd66ba2f3d814168de1ee217401327cbafb",
+    "origin": "vendor/upstream/raknet/StringTable.cpp",
+    "origin_sha256": "a2c36b273e2ce7f45646423533820100e0d0cd8f17a401e08530d78dfdbfd958"
+  },
+  "roots": {
+    "?AddString@StringTable@@QAEXPBD_N@Z": 346848,
+    "?EncodeString@StringTable@@QAEXPBDHPAVBitStream@RakNet@@@Z": 346976,
+    "?DecodeString@StringTable@@QAE_NPADHPAVBitStream@RakNet@@@Z": 347104,
+    "?AddReference@StringTable@@SAXXZ": 347488,
+    "?RemoveReference@StringTable@@SAXXZ": 347584,
+    "?Instance@StringTable@@SAPAV1@XZ": 346032
+  },
+  "functions": {
+    "?Instance@StringTable@@SAPAV1@XZ": {
+      "rva": 346032,
+      "size": 6
+    },
+    "?RemoveReference@StringTable@@SAXXZ": {
+      "rva": 347584,
+      "size": 56
+    },
+    "??1StringTable@@QAE@XZ": {
+      "rva": 347360,
+      "size": 127
+    },
+    "??1?$OrderedList@PADUStrAndBool@@$1?StrAndBoolComp@@YAHABQADABU1@@Z@DataStructures@@QAE@XZ": {
+      "rva": 347264,
+      "size": 73
+    },
+    "??1?$List@UStrAndBool@@@DataStructures@@QAE@XZ": {
+      "rva": 346080,
+      "size": 17
+    },
+    "?Clear@?$OrderedList@PADUStrAndBool@@$1?StrAndBoolComp@@YAHABQADABU1@@Z@DataStructures@@QAEXXZ": {
+      "rva": 346832,
+      "size": 8
+    },
+    "?Clear@?$List@UStrAndBool@@@DataStructures@@QAEX_N@Z": {
+      "rva": 346432,
+      "size": 60
+    },
+    "??A?$OrderedList@PADUStrAndBool@@$1?StrAndBoolComp@@YAHABQADABU1@@Z@DataStructures@@QBEAAUStrAndBool@@I@Z": {
+      "rva": 346800,
+      "size": 14
+    },
+    "?Size@?$OrderedList@PADUStrAndBool@@$1?StrAndBoolComp@@YAHABQADABU1@@Z@DataStructures@@QBEIXZ": {
+      "rva": 346816,
+      "size": 4
+    },
+    "?AddReference@StringTable@@SAXXZ": {
+      "rva": 347488,
+      "size": 51
+    },
+    "??0StringTable@@IAE@XZ": {
+      "rva": 347344,
+      "size": 12
+    },
+    "??0?$OrderedList@PADUStrAndBool@@$1?StrAndBoolComp@@YAHABQADABU1@@Z@DataStructures@@QAE@XZ": {
+      "rva": 346496,
+      "size": 12
+    },
+    "??0?$List@UStrAndBool@@@DataStructures@@QAE@XZ": {
+      "rva": 346064,
+      "size": 13
+    },
+    "?DecodeString@StringTable@@QAE_NPADHPAVBitStream@RakNet@@@Z": {
+      "rva": 347104,
+      "size": 159
+    },
+    "??$Read@_N@BitStream@RakNet@@QAE_NAA_N@Z": {
+      "rva": 33824,
+      "size": 89
+    },
+    "?EncodeString@StringTable@@QAEXPBDHPAVBitStream@RakNet@@@Z": {
+      "rva": 346976,
+      "size": 113
+    },
+    "?GetIndexFromKey@?$OrderedList@PADUStrAndBool@@$1?StrAndBoolComp@@YAHABQADABU1@@Z@DataStructures@@QBEIABQADPA_N@Z": {
+      "rva": 346512,
+      "size": 145
+    },
+    "?StrAndBoolComp@@YAHABQADABUStrAndBool@@@Z": {
+      "rva": 345952,
+      "size": 65
+    },
+    "?AddString@StringTable@@QAEXPBD_N@Z": {
+      "rva": 346848,
+      "size": 125
+    },
+    "?Insert@?$OrderedList@PADUStrAndBool@@$1?StrAndBoolComp@@YAHABQADABU1@@Z@DataStructures@@QAEIABQADABUStrAndBool@@@Z": {
+      "rva": 346672,
+      "size": 115
+    },
+    "?Insert@?$List@UStrAndBool@@@DataStructures@@QAEXUStrAndBool@@I@Z": {
+      "rva": 346256,
+      "size": 147
+    },
+    "?Insert@?$List@UStrAndBool@@@DataStructures@@QAEXUStrAndBool@@@Z": {
+      "rva": 346128,
+      "size": 116
+    }
+  },
+  "external_targets": {
+    "?instance@StringTable@@1PAV1@A": 269621828,
+    "?referenceCount@StringTable@@1HA": 269621832,
+    "??3@YAXPAX@Z": 269247626,
+    "__ehhandler$??1StringTable@@QAE@XZ": 269366440,
+    "__except_list": 0,
+    "__ehhandler$??1?$OrderedList@PADUStrAndBool@@$1?StrAndBoolComp@@YAHABQADABU1@@Z@DataStructures@@QAE@XZ": 269366408,
+    "??2@YAPAXI@Z": 269247098,
+    "?Instance@StringCompressor@@SAPAV1@XZ": 268778544,
+    "?DecodeString@StringCompressor@@QAE_NPADHPAVBitStream@RakNet@@H@Z": 268780240,
+    "?ReadBits@BitStream@RakNet@@QAE_NPAEH_N@Z": 268564912,
+    "_strncpy": 269252592,
+    "?Write1@BitStream@RakNet@@QAEXXZ": 268566320,
+    "?WriteBits@BitStream@RakNet@@QAEXPBEH_N@Z": 268566496,
+    "?Write0@BitStream@RakNet@@QAEXXZ": 268566288,
+    "?EncodeString@StringCompressor@@QAEXPBDHPAVBitStream@RakNet@@H@Z": 268779936,
+    "_memmove": 269250016
+  },
+  "code_unique_after_full_accepted_union_and_graph_candidate": 1438,
+  "old_code": 89,
+  "source025_direct_bytes": 0,
+  "structures": {
+    "StringTable": 12,
+    "StrAndBool": 5,
+    "OrderedList": 12,
+    "virtual": false
+  },
+  "data": [
+    {
+      "symbol": "?instance@StringTable@@1PAV1@A",
+      "rva": 1186372,
+      "size": 4,
+      "initializer": "null",
+      "owner": "StringTable::AddReference writes real new StringTable12, RemoveReference destroys and clears"
+    },
+    {
+      "symbol": "?referenceCount@StringTable@@1HA",
+      "rva": 1186376,
+      "size": 4,
+      "initializer": 0,
+      "owner": "StringTable::AddReference/RemoveReference"
+    }
+  ],
+  "source_changes": "Only include paths and compile-time complete type size assertions; all original method bodies and real static member definitions preserved.",
+  "requirements": [
+    "Fresh probe before any acceptance.",
+    "Full EH maps and physical COMDAT duplicates checked on fresh output.",
+    "BSS instance/referenceCount contiguous original8 bytes; whole emitted object section must be reviewed, no slicing.",
+    "Existing StringCompressor/BitStream/CRT providers retain true accepted owners.",
+    "LogStringNotFound empty release method is unused and excluded unless actual caller proven."
+  ],
+  "excluded_other_candidates": "DataCompressor334+288 already entirely covered by four base manifests; RPCMap small net gain not selected.",
+  "old_object_data_layout": [
+    {
+      "symbol": "?instance@StringTable@@1PAV1@A",
+      "section": 3,
+      "symbol_offset": 0,
+      "whole_section_size": 8,
+      "section_kind": ".bss"
+    },
+    {
+      "symbol": "?referenceCount@StringTable@@1HA",
+      "section": 3,
+      "symbol_offset": 4,
+      "whole_section_size": 8,
+      "section_kind": ".bss"
+    }
+  ],
+  "original_complete_static_storage": {
+    "rva": 1186372,
+    "size": 8,
+    "zero_fill": true,
+    "section": ".data",
+    "virtual_section_rva": 1040384,
+    "raw_size": 110592,
+    "virtual_size": 1516908
+  }
+}

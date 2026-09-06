@@ -1,0 +1,116 @@
+{
+  "status": "ACTUAL_COMPILER_WEAK_ALIASES_AND_SELECTED_VFT_FIXUPS_QUALIFIED",
+  "run": "build/cp32-logger-queries-linked3",
+  "dll_sha256": "c85c702d6ab5b5e35e52802e1f5758c1341962c21589ac02b0cf6ac891ddbeb3",
+  "map_sha256": "710c620070b1967002d91c7ef9c21f88a52113b84728729c915a41c012700fd4",
+  "aliases": [
+    {
+      "unit": "closure_vendor_packet_logger",
+      "alias": "??_EPacketLogger@@UAEPAXI@Z",
+      "canonical": "??_GPacketLogger@@UAEPAXI@Z",
+      "source_alias_storage": 105,
+      "source_alias_undefined": true,
+      "weak_aux_resolves_canonical": true,
+      "canonical_defined_section": 42,
+      "alias_map": {
+        "symbol": "??_EPacketLogger@@UAEPAXI@Z",
+        "va": 268691600,
+        "owner": "f i closure_vendor_packet_logger.obj"
+      },
+      "canonical_map": {
+        "symbol": "??_GPacketLogger@@UAEPAXI@Z",
+        "va": 268691600,
+        "owner": "f i closure_vendor_packet_logger.obj"
+      },
+      "whole_linked_body30_compared": true,
+      "bindings": [
+        {
+          "symbol": "??1PacketLogger@@UAE@XZ",
+          "offset": 4,
+          "kind": 20,
+          "map_provider": {
+            "symbol": "??1PacketLogger@@UAE@XZ",
+            "va": 268691248,
+            "owner": "f   closure_vendor_packet_logger.obj"
+          }
+        },
+        {
+          "symbol": "??3@YAXPAX@Z",
+          "offset": 17,
+          "kind": 20,
+          "map_provider": {
+            "symbol": "??3@YAXPAX@Z",
+            "va": 268700719,
+            "owner": "f   LIBCMT:delete.obj"
+          }
+        }
+      ],
+      "selected_vtable_fixup": {
+        "section": 9,
+        "offset": 40,
+        "kind": 6,
+        "alias": "??_EPacketLogger@@UAEPAXI@Z",
+        "original_slot_rva": 946808,
+        "linked_slot_rva": 356896,
+        "actual_provider_va": 268691600
+      },
+      "object_sha256": "ca805cc75eba3b1d70ec268f35fecb92e0662747cb1cac4b9cbc3fce766264eb",
+      "extra_credit": 0
+    },
+    {
+      "unit": "closure_vendor_packet_file_logger",
+      "alias": "??_EPacketFileLogger@@UAEPAXI@Z",
+      "canonical": "??_GPacketFileLogger@@UAEPAXI@Z",
+      "source_alias_storage": 105,
+      "source_alias_undefined": true,
+      "weak_aux_resolves_canonical": true,
+      "canonical_defined_section": 6,
+      "alias_map": {
+        "symbol": "??_EPacketFileLogger@@UAEPAXI@Z",
+        "va": 268692384,
+        "owner": "f i closure_vendor_packet_file_logger.obj"
+      },
+      "canonical_map": {
+        "symbol": "??_GPacketFileLogger@@UAEPAXI@Z",
+        "va": 268692384,
+        "owner": "f i closure_vendor_packet_file_logger.obj"
+      },
+      "whole_linked_body30_compared": true,
+      "bindings": [
+        {
+          "symbol": "??1PacketFileLogger@@UAE@XZ",
+          "offset": 4,
+          "kind": 20,
+          "map_provider": {
+            "symbol": "??1PacketFileLogger@@UAE@XZ",
+            "va": 268692352,
+            "owner": "f   closure_vendor_packet_file_logger.obj"
+          }
+        },
+        {
+          "symbol": "??3@YAXPAX@Z",
+          "offset": 17,
+          "kind": 20,
+          "map_provider": {
+            "symbol": "??3@YAXPAX@Z",
+            "va": 268700719,
+            "owner": "f   LIBCMT:delete.obj"
+          }
+        }
+      ],
+      "selected_vtable_fixup": {
+        "section": 4,
+        "offset": 40,
+        "kind": 6,
+        "alias": "??_EPacketFileLogger@@UAEPAXI@Z",
+        "original_slot_rva": 946720,
+        "linked_slot_rva": 357560,
+        "actual_provider_va": 268692384
+      },
+      "object_sha256": "57eb1225d2374cf6fe842c2d9c2719ee248006524a5e6775ea218f168afbff6d",
+      "extra_credit": 0
+    }
+  ],
+  "correction": "These _E names are undefined COFF weak externals (storage105) targeting actual _G definitions, not duplicate defined section symbols. Fresh main manifest did not record that alias representation; this supplement supplies it.",
+  "extra_credit": 0
+}

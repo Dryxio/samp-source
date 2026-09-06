@@ -1,0 +1,5 @@
+# Preview trial1:694 bytes, real argument order correction first
+
+Original at6CB2F reads rotation pointer from current ESP+3C; trial1 uses+38. Original camera-clear background argument address6CBB3 is ESP+4C; trial1 uses+50. All stack changes before these accesses agree. Thus original signature is thiscall(int model,DWORD background,VECTOR*rotation,floatzoom), NOT initial proposed(int model,VECTOR*rotation,DWORD background,floatzoom). Four explicit arguments, ret16. Corrected proposal changes only parameter ordering, preserving behavior and real provider declarations. This is a real interface correction, not arbitrary register permutation.
+
+Other differences observed: ESI/EDI exchanged across receiver/model temporaries, and one FMUL zoom scheduled between zero stores differently. All calls and literal relocation offsets match; complete constant payload review still required. Changing signature can affect allocation/scheduling, so evaluate corrected source before prescribing another change. No assembly/padding proposed. File closure_object_preview_render_trial2_proposed.cpp.

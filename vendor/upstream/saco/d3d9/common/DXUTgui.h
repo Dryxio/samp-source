@@ -620,7 +620,7 @@ public:
     void SetScrollBarWidth( int nWidth ) { m_nSBWidth = nWidth; UpdateRects(); }
     void SetBorder( int nBorder, int nMargin ) { m_nBorder = nBorder; m_nMargin = nMargin; }
     HRESULT AddItem( const TCHAR *wszText, void *pData );
-    HRESULT InsertItem( int nIndex, const TCHAR *wszText, void *pData );
+    HRESULT InsertItem( int nIndex, const TCHAR *wszText, void *pData, DWORD color = 0 );
     void RemoveItem( int nIndex );
     void RemoveItemByText( TCHAR *wszText );
     void RemoveItemByData( void *pData );
@@ -639,9 +639,9 @@ public:
 	int field_59;
 
 protected:
+    CDXUTScrollBar m_ScrollBar;
     RECT m_rcText;      // Text rendering bound
     RECT m_rcSelection; // Selection box bound
-    CDXUTScrollBar m_ScrollBar;
     int m_nSBWidth;
     int m_nBorder;
     int m_nMargin;
@@ -798,6 +798,7 @@ public:
 
     bool InsertChar( int nIndex, WCHAR tchr ); // Inserts the char at specified index. If nIndex == -1, insert to the end.
     bool InsertChar( int nIndex, CHAR tchr );
+    bool OverwriteChar( int nIndex, CHAR tchr ); // Recovered R5 helper; no layout change.
 	bool RemoveChar( int nIndex );  // Removes the char at specified index. If nIndex == -1, remove the last char.
     bool InsertString( int nIndex, const WCHAR *pStr, int nCount = -1 );  // Inserts the first nCount characters of the string pStr at specified index.  If nCount == -1, the entire string is inserted. If nIndex == -1, insert to the end.
     bool SetText( LPCWSTR wszText );

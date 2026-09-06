@@ -1,0 +1,15 @@
+# Closed matrix update chain173: explicit symbolic proposal
+
+Source closure_entity_matrix_update_symbolic_proposed.cpp replaces both existing CEntity definitions, not separate duplicate providers. Root should transplant definitions/declarations into sole closure_world owner using its existing /Ob2 build profile. No main/header changes. Full C++89/80 failures and exact local divergences remain preserved in entity-render-and-matrix-revisit-review.md and historical closure_world.obj. This proposal is explicitly authorized after those failures; no extra C++ permutations or `_emit`/padding/raw byte data.
+
+91-byte SetMatrixAndUpdate takes real MATRIX4X4 **by value64**, thisECX, ret64. Original checks entity40 and native matrix14, preserves native vtable andentity in locals, invokes true native virtual **Remove slot3/0C**, copies all64 argument bytes to callee stack (16DWORD, direction flag clear under native ABI), calls accepted CEntity::SetMatrix9EBC0/177, calls newly proposed update9EC80/82, then true native **Add() slot2/08**. Add(CRect&) is different slot1 and is not used. Native calls take no explicitargs, ECXnativeentity; existing CEntitySetMatrix pops64 and wrapper eventually pops caller64. New symbolic aliases name those true member symbols without introducing wrapper bodies. Final MAP/fixup review must tie aliases to their actual providers, never authorize by alias name alone.
+
+82-byte update implements complete original guard including its redundant second entity-null test, then checks actual RwObject18/matrix14 locals. CPlaceablevtable863C40 invalid-object check is already present in base and frozenR5. It takes native RwObject.frame4, then frame matrix+10, calls **CMatrix::UpdateRW(RwMatrix*)59AD70** with ECX=entity.matrix and one callee-popped argument. Finally **native CEntity::UpdateRwFrame532B00** with ECXentity, noargs. No native matrixallocation/classlayout assumption: source offsets use existing ENTITY_TYPE and pointer-only frame prefixes; sizeof(MATRIX4X4)==64 enforced. No extra return value or null/frame safety check is invented.
+
+Primary native identities: Plugin-SDK CEntity.cpp documents Add()index2, Removeindex3 and UpdateRwFrame532B00:
+https://raw.githubusercontent.com/DK22Pac/plugin-sdk/master/plugin_sa/game_sa/CEntity.cpp
+CMatrix.cpp documents UpdateRW(RwMatrix*)59AD70:
+https://github.com/DK22Pac/plugin-sdk/blob/master/plugin_sa/game_sa/CMatrix.cpp
+These distinguish world removal/readdition from SetIsStatic and native matrix update from similarly named CopyToRwMatrix59B8B0.
+
+Code173 total, all unresolved member calls included or already accepted. No new data, EH, table, PE absolute relocation or no-op. Original whole hashes in manifest. Original SetMatrix calls have relocation operands+3E and+45 (targets9EBC0 and9EC80); all remaining native calls are real immediate/vtable operations. Coverage still zero until root fresh compilation, complete matching and closure gate. Existing AdvancePosition and any caller become eligible only after this complete173 chain passes; no automatic downstream coverage claim.

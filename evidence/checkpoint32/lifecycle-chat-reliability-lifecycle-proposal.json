@@ -1,0 +1,469 @@
+{
+  "status": "LIFECYCLE_EXTRACTION_SOURCE_NOT_COMPILED",
+  "baseline": 242286,
+  "pending_deducted": 5919,
+  "selected_original_functions": [
+    {
+      "symbol": "?Reset@ReliabilityLayer@@QAEX_N@Z",
+      "rva": 303856,
+      "size": 29,
+      "new_unique_potential": 29
+    },
+    {
+      "symbol": "?InitializeVariables@ReliabilityLayer@@AAEXXZ",
+      "rva": 292736,
+      "size": 405,
+      "new_unique_potential": 405
+    },
+    {
+      "symbol": "?Preallocate@?$BPlusTree@GPAUInternalPacket@@$0CA@@DataStructures@@QAEXH@Z",
+      "rva": 291168,
+      "size": 5,
+      "new_unique_potential": 5
+    },
+    {
+      "symbol": "?Preallocate@?$MemoryPool@U?$Page@GPAUInternalPacket@@$0CA@@DataStructures@@@DataStructures@@QAEXI@Z",
+      "rva": 286912,
+      "size": 49,
+      "new_unique_potential": 49
+    },
+    {
+      "symbol": "?Insert@?$List@PAU?$Page@GPAUInternalPacket@@$0CA@@DataStructures@@@DataStructures@@QAEXQAU?$Page@GPAUInternalPacket@@$0CA@@2@@Z",
+      "rva": 283168,
+      "size": 105,
+      "new_unique_potential": 105
+    },
+    {
+      "symbol": "?SetPing@ReliabilityLayer@@QAEXI@Z",
+      "rva": 285696,
+      "size": 91,
+      "new_unique_potential": 0
+    },
+    {
+      "symbol": "?UpdateNextActionTime@ReliabilityLayer@@AAEXXZ",
+      "rva": 278640,
+      "size": 55,
+      "new_unique_potential": 0
+    },
+    {
+      "symbol": "?FreeMemory@ReliabilityLayer@@AAEX_N@Z",
+      "rva": 303552,
+      "size": 36,
+      "new_unique_potential": 36
+    },
+    {
+      "symbol": "?FreeThreadSafeMemory@ReliabilityLayer@@AAEXXZ",
+      "rva": 298784,
+      "size": 804,
+      "new_unique_potential": 804
+    },
+    {
+      "symbol": "?Clear@?$RangeList@G@DataStructures@@QAEXXZ",
+      "rva": 294160,
+      "size": 5,
+      "new_unique_potential": 5
+    },
+    {
+      "symbol": "?Clear@?$OrderedList@GU?$RangeNode@G@DataStructures@@$1??$RangeNodeComp@G@2@YAHABGABU12@@Z@DataStructures@@QAEXXZ",
+      "rva": 291440,
+      "size": 8,
+      "new_unique_potential": 8
+    },
+    {
+      "symbol": "?Clear@?$List@U?$RangeNode@G@DataStructures@@@DataStructures@@QAEX_N@Z",
+      "rva": 287696,
+      "size": 86,
+      "new_unique_potential": 86
+    },
+    {
+      "symbol": "??1?$RangeNode@G@DataStructures@@QAE@XZ",
+      "rva": 280752,
+      "size": 1,
+      "new_unique_potential": 1
+    },
+    {
+      "symbol": "?Clear@?$List@PAUDataAndTime@ReliabilityLayer@@@DataStructures@@QAEX_N@Z",
+      "rva": 280336,
+      "size": 60,
+      "new_unique_potential": 60
+    },
+    {
+      "symbol": "?Clear@?$BPlusTree@GPAUInternalPacket@@$0CA@@DataStructures@@QAEXXZ",
+      "rva": 294880,
+      "size": 31,
+      "new_unique_potential": 31
+    },
+    {
+      "symbol": "?FreePages@?$BPlusTree@GPAUInternalPacket@@$0CA@@DataStructures@@IAEXXZ",
+      "rva": 291456,
+      "size": 251,
+      "new_unique_potential": 251
+    },
+    {
+      "symbol": "??1?$Queue@PAU?$Page@GPAUInternalPacket@@$0CA@@DataStructures@@@DataStructures@@QAE@XZ",
+      "rva": 282800,
+      "size": 17,
+      "new_unique_potential": 17
+    },
+    {
+      "symbol": "?Release@?$MemoryPool@U?$Page@GPAUInternalPacket@@$0CA@@DataStructures@@@DataStructures@@QAEXPAU?$Page@GPAUInternalPacket@@$0CA@@2@@Z",
+      "rva": 287008,
+      "size": 8,
+      "new_unique_potential": 8
+    },
+    {
+      "symbol": "?Push@?$Queue@PAU?$Page@GPAUInternalPacket@@$0CA@@DataStructures@@@DataStructures@@QAEXABQAU?$Page@GPAUInternalPacket@@$0CA@@2@@Z",
+      "rva": 282832,
+      "size": 189,
+      "new_unique_potential": 189
+    },
+    {
+      "symbol": "??0?$Queue@PAU?$Page@GPAUInternalPacket@@$0CA@@DataStructures@@@DataStructures@@QAE@XZ",
+      "rva": 282752,
+      "size": 34,
+      "new_unique_potential": 34
+    },
+    {
+      "symbol": "?Clear@?$List@PAV?$LinkedList@PAUInternalPacket@@@DataStructures@@@DataStructures@@QAEX_N@Z",
+      "rva": 279328,
+      "size": 60,
+      "new_unique_potential": 60
+    },
+    {
+      "symbol": "??1?$LinkedList@PAUInternalPacket@@@DataStructures@@QAE@XZ",
+      "rva": 286512,
+      "size": 73,
+      "new_unique_potential": 73
+    },
+    {
+      "symbol": "??1?$CircularLinkedList@PAUInternalPacket@@@DataStructures@@QAE@XZ",
+      "rva": 286480,
+      "size": 5,
+      "new_unique_potential": 5
+    },
+    {
+      "symbol": "?Clear@?$CircularLinkedList@PAUInternalPacket@@@DataStructures@@QAEXXZ",
+      "rva": 282128,
+      "size": 76,
+      "new_unique_potential": 76
+    },
+    {
+      "symbol": "?Pop@?$CircularLinkedList@PAUInternalPacket@@@DataStructures@@QAEPAUInternalPacket@@XZ",
+      "rva": 286496,
+      "size": 15,
+      "new_unique_potential": 15
+    },
+    {
+      "symbol": "?Del@?$CircularLinkedList@PAUInternalPacket@@@DataStructures@@QAEXXZ",
+      "rva": 282016,
+      "size": 98,
+      "new_unique_potential": 98
+    },
+    {
+      "symbol": "?ClearAndForceAllocation@?$Queue@PAUInternalPacket@@@DataStructures@@QAEXH@Z",
+      "rva": 191056,
+      "size": 50,
+      "new_unique_potential": 50
+    },
+    {
+      "symbol": "?Clear@?$OrderedList@GPAUSplitPacketChannel@@$1?SplitPacketChannelComp@@YAHABGABQAU1@@Z@DataStructures@@QAEXXZ",
+      "rva": 286448,
+      "size": 8,
+      "new_unique_potential": 8
+    },
+    {
+      "symbol": "?Clear@?$List@PAUSplitPacketChannel@@@DataStructures@@QAEX_N@Z",
+      "rva": 281952,
+      "size": 60,
+      "new_unique_potential": 60
+    },
+    {
+      "symbol": "??1SplitPacketChannel@@QAE@XZ",
+      "rva": 293152,
+      "size": 8,
+      "new_unique_potential": 0
+    },
+    {
+      "symbol": "??1?$OrderedList@IPAUInternalPacket@@$1?SplitPacketIndexComp@@YAHABIABQAU1@@Z@DataStructures@@QAE@XZ",
+      "rva": 290544,
+      "size": 73,
+      "new_unique_potential": 0
+    },
+    {
+      "symbol": "??1?$List@PAUInternalPacket@@@DataStructures@@QAE@XZ",
+      "rva": 280816,
+      "size": 17,
+      "new_unique_potential": 0
+    },
+    {
+      "symbol": "?Clear@?$OrderedList@IPAUInternalPacket@@$1?SplitPacketIndexComp@@YAHABIABQAU1@@Z@DataStructures@@QAEXXZ",
+      "rva": 286608,
+      "size": 8,
+      "new_unique_potential": 0
+    },
+    {
+      "symbol": "?Clear@?$List@PAUInternalPacket@@@DataStructures@@QAEX_N@Z",
+      "rva": 282240,
+      "size": 60,
+      "new_unique_potential": 0
+    },
+    {
+      "symbol": "??A?$OrderedList@IPAUInternalPacket@@$1?SplitPacketIndexComp@@YAHABIABQAU1@@Z@DataStructures@@QBEAAPAUInternalPacket@@I@Z",
+      "rva": 279056,
+      "size": 12,
+      "new_unique_potential": 0
+    },
+    {
+      "symbol": "?Size@?$OrderedList@IPAUInternalPacket@@$1?SplitPacketIndexComp@@YAHABIABQAU1@@Z@DataStructures@@QBEIXZ",
+      "rva": 279072,
+      "size": 4,
+      "new_unique_potential": 0
+    },
+    {
+      "symbol": "??A?$OrderedList@GPAUSplitPacketChannel@@$1?SplitPacketChannelComp@@YAHABGABQAU1@@Z@DataStructures@@QBEAAPAUSplitPacketChannel@@I@Z",
+      "rva": 286432,
+      "size": 12,
+      "new_unique_potential": 0
+    },
+    {
+      "symbol": "?Size@?$OrderedList@GPAUSplitPacketChannel@@$1?SplitPacketChannelComp@@YAHABGABQAU1@@Z@DataStructures@@QBEIXZ",
+      "rva": 286464,
+      "size": 4,
+      "new_unique_potential": 0
+    },
+    {
+      "symbol": "??1ReliabilityLayer@@QAE@XZ",
+      "rva": 303600,
+      "size": 246,
+      "new_unique_potential": 246
+    },
+    {
+      "symbol": "??1?$List@PAV?$LinkedList@PAUInternalPacket@@@DataStructures@@@DataStructures@@QAE@XZ",
+      "rva": 279104,
+      "size": 17,
+      "new_unique_potential": 17
+    },
+    {
+      "symbol": "??1?$RangeList@G@DataStructures@@QAE@XZ",
+      "rva": 298352,
+      "size": 73,
+      "new_unique_potential": 73
+    },
+    {
+      "symbol": "??1?$OrderedList@GU?$RangeNode@G@DataStructures@@$1??$RangeNodeComp@G@2@YAHABGABU12@@Z@DataStructures@@QAE@XZ",
+      "rva": 294912,
+      "size": 73,
+      "new_unique_potential": 73
+    },
+    {
+      "symbol": "??1?$List@U?$RangeNode@G@DataStructures@@@DataStructures@@QAE@XZ",
+      "rva": 287088,
+      "size": 45,
+      "new_unique_potential": 45
+    },
+    {
+      "symbol": "??1?$BPlusTree@GPAUInternalPacket@@$0CA@@DataStructures@@QAE@XZ",
+      "rva": 298432,
+      "size": 73,
+      "new_unique_potential": 73
+    },
+    {
+      "symbol": "??1?$MemoryPool@U?$Page@GPAUInternalPacket@@$0CA@@DataStructures@@@DataStructures@@QAE@XZ",
+      "rva": 286800,
+      "size": 104,
+      "new_unique_potential": 104
+    },
+    {
+      "symbol": "??1?$List@PAU?$Page@GPAUInternalPacket@@$0CA@@DataStructures@@@DataStructures@@QAE@XZ",
+      "rva": 283120,
+      "size": 17,
+      "new_unique_potential": 17
+    },
+    {
+      "symbol": "??1?$Queue@PAUInternalPacket@@@DataStructures@@QAE@XZ",
+      "rva": 190752,
+      "size": 17,
+      "new_unique_potential": 17
+    },
+    {
+      "symbol": "??1?$OrderedList@GPAUSplitPacketChannel@@$1?SplitPacketChannelComp@@YAHABGABQAU1@@Z@DataStructures@@QAE@XZ",
+      "rva": 291184,
+      "size": 73,
+      "new_unique_potential": 73
+    },
+    {
+      "symbol": "??1?$List@PAUSplitPacketChannel@@@DataStructures@@QAE@XZ",
+      "rva": 281632,
+      "size": 17,
+      "new_unique_potential": 17
+    },
+    {
+      "symbol": "??1?$Queue@_J@DataStructures@@QAE@XZ",
+      "rva": 279456,
+      "size": 17,
+      "new_unique_potential": 17
+    },
+    {
+      "symbol": "??1?$List@PAUDataAndTime@ReliabilityLayer@@@DataStructures@@QAE@XZ",
+      "rva": 280144,
+      "size": 17,
+      "new_unique_potential": 17
+    },
+    {
+      "symbol": "??0ReliabilityLayer@@QAE@XZ",
+      "rva": 298512,
+      "size": 268,
+      "new_unique_potential": 268
+    },
+    {
+      "symbol": "??0?$List@PAUDataAndTime@ReliabilityLayer@@@DataStructures@@QAE@XZ",
+      "rva": 280128,
+      "size": 13,
+      "new_unique_potential": 13
+    },
+    {
+      "symbol": "??0?$Queue@_J@DataStructures@@QAE@XZ",
+      "rva": 279408,
+      "size": 37,
+      "new_unique_potential": 37
+    },
+    {
+      "symbol": "??0?$OrderedList@GPAUSplitPacketChannel@@$1?SplitPacketChannelComp@@YAHABGABQAU1@@Z@DataStructures@@QAE@XZ",
+      "rva": 286176,
+      "size": 12,
+      "new_unique_potential": 12
+    },
+    {
+      "symbol": "??0?$List@PAUSplitPacketChannel@@@DataStructures@@QAE@XZ",
+      "rva": 281616,
+      "size": 13,
+      "new_unique_potential": 13
+    },
+    {
+      "symbol": "??0?$BPlusTree@GPAUInternalPacket@@$0CA@@DataStructures@@QAE@XZ",
+      "rva": 291136,
+      "size": 20,
+      "new_unique_potential": 20
+    },
+    {
+      "symbol": "??0?$MemoryPool@U?$Page@GPAUInternalPacket@@$0CA@@DataStructures@@@DataStructures@@QAE@XZ",
+      "rva": 286784,
+      "size": 15,
+      "new_unique_potential": 15
+    },
+    {
+      "symbol": "??0?$List@PAU?$Page@GPAUInternalPacket@@$0CA@@DataStructures@@@DataStructures@@QAE@XZ",
+      "rva": 283104,
+      "size": 13,
+      "new_unique_potential": 13
+    },
+    {
+      "symbol": "??0?$RangeList@G@DataStructures@@QAE@XZ",
+      "rva": 298304,
+      "size": 44,
+      "new_unique_potential": 44
+    },
+    {
+      "symbol": "??$RangeNodeComp@G@DataStructures@@YAHABGABU?$RangeNode@G@0@@Z",
+      "rva": 281296,
+      "size": 36,
+      "new_unique_potential": 36
+    },
+    {
+      "symbol": "??0?$OrderedList@GU?$RangeNode@G@DataStructures@@$1??$RangeNodeComp@G@2@YAHABGABU12@@Z@DataStructures@@QAE@XZ",
+      "rva": 291280,
+      "size": 12,
+      "new_unique_potential": 12
+    },
+    {
+      "symbol": "??0?$List@U?$RangeNode@G@DataStructures@@@DataStructures@@QAE@XZ",
+      "rva": 282304,
+      "size": 13,
+      "new_unique_potential": 0
+    },
+    {
+      "symbol": "??0?$Queue@PAUInternalPacket@@@DataStructures@@QAE@XZ",
+      "rva": 190704,
+      "size": 34,
+      "new_unique_potential": 34
+    },
+    {
+      "symbol": "??0?$List@PAV?$LinkedList@PAUInternalPacket@@@DataStructures@@@DataStructures@@QAE@XZ",
+      "rva": 279088,
+      "size": 13,
+      "new_unique_potential": 0
+    }
+  ],
+  "new_pool_roots": [
+    {
+      "rva": 191120,
+      "size": 112,
+      "name": "??0InternalPacketPool@@QAE@XZ",
+      "new_unique_potential": 112
+    },
+    {
+      "rva": 191232,
+      "size": 107,
+      "name": "?ClearPool@InternalPacketPool@@QAEXXZ",
+      "new_unique_potential": 107
+    },
+    {
+      "rva": 191376,
+      "size": 73,
+      "name": "??1InternalPacketPool@@QAE@XZ",
+      "new_unique_potential": 73
+    }
+  ],
+  "potential_unique_code_before_EH": 4166,
+  "roots": {
+    "??0ReliabilityLayer@@QAE@XZ": 298512,
+    "??1ReliabilityLayer@@QAE@XZ": 303600,
+    "?InitializeVariables@ReliabilityLayer@@AAEXXZ": 292736,
+    "?FreeThreadSafeMemory@ReliabilityLayer@@AAEXXZ": 298784,
+    "?FreeMemory@ReliabilityLayer@@AAEX_N@Z": 303552,
+    "?Reset@ReliabilityLayer@@QAEX_N@Z": 303856
+  },
+  "external_targets": {
+    "?GetTime@RakNet@@YAIXZ": 268625904,
+    "__real@0000000000000000": 269389272,
+    "?GetTimeNS@RakNet@@YA_JXZ": 268626000,
+    "_STARTING_SEND_BPS": 269390464,
+    "??2@YAPAXI@Z": 269247098,
+    "??3@YAXPAX@Z": 269247626,
+    "?ReleasePointer@InternalPacketPool@@QAEXPAUInternalPacket@@@Z": 268626800,
+    "?ClearPool@InternalPacketPool@@QAEXXZ": 268626688,
+    "??_M@YGXPAXIHP6EX0@Z@Z": 269254767,
+    "__ehhandler$?FreePages@?$BPlusTree@GPAUInternalPacket@@$0CA@@DataStructures@@IAEXXZ": 269364488,
+    "__except_list": 0,
+    "__ehhandler$??1?$LinkedList@PAUInternalPacket@@@DataStructures@@QAE@XZ": 269364264,
+    "__ehhandler$??1?$OrderedList@IPAUInternalPacket@@$1?SplitPacketIndexComp@@YAHABIABQAU1@@Z@DataStructures@@QAE@XZ": 269364392,
+    "__ehhandler$??1ReliabilityLayer@@QAE@XZ": 269364974,
+    "??1InternalPacketPool@@QAE@XZ": 268626832,
+    "??1TEABlockEncryptor@@QAE@XZ": 268790144,
+    "??1BitStream@RakNet@@QAE@XZ": 268564688,
+    "__ehhandler$??1?$RangeList@G@DataStructures@@QAE@XZ": 269364552,
+    "__ehhandler$??1?$OrderedList@GU?$RangeNode@G@DataStructures@@$1??$RangeNodeComp@G@2@YAHABGABU12@@Z@DataStructures@@QAE@XZ": 269364520,
+    "__ehhandler$??1?$BPlusTree@GPAUInternalPacket@@$0CA@@DataStructures@@QAE@XZ": 269364584,
+    "__ehhandler$??1?$MemoryPool@U?$Page@GPAUInternalPacket@@$0CA@@DataStructures@@@DataStructures@@QAE@XZ": 269364299,
+    "__ehhandler$??1?$OrderedList@GPAUSplitPacketChannel@@$1?SplitPacketChannelComp@@YAHABGABQAU1@@Z@DataStructures@@QAE@XZ": 269364456,
+    "__ehhandler$??0ReliabilityLayer@@QAE@XZ": 269364766,
+    "??_L@YGXPAXIHP6EX0@Z1@Z": 269254863,
+    "??0BitStream@RakNet@@QAE@H@Z": 268564320,
+    "??0TEABlockEncryptor@@QAE@XZ": 268790096,
+    "??0InternalPacketPool@@QAE@XZ": 268626576
+  },
+  "source025_direct_bytes": 0,
+  "sources": [
+    {
+      "path": "build/agent-independent/eval_vendor_reliability_lifecycle.cpp",
+      "sha256": "4dc84efc85fd2f3409bac65cb558359b0b17825123f0eabd5b399d3a87a8cb77"
+    },
+    {
+      "path": "build/agent-independent/eval_vendor_internal_packet_pool_lifecycle.cpp",
+      "sha256": "1e6f46c54cca428a47e1f3561f9780ae2a792b32f227fb15b4a4bfda6fb47ecd"
+    }
+  ],
+  "scope": "Complete ReliabilityLayer1794 constructor/destructor/reset/free initialization, full InternalPacketPool16 and real InternalPacket55 allocations; no socket/Update acceptance.",
+  "ownership": "Do not redefine SetPing45C00 or UpdateNextActionTime44070 from packet-family. FreeThreadedMemory empty body retained only to reproduce vendor same-TU optimization; do not credit uncalled empty homologue. Pool ReleasePointer remains existing active owner.",
+  "data": "STARTING_SEND_BPS source double512000 R5E9280/8; zero doubleE8DD8 existing constant; full EH and template state require trial preflight."
+}

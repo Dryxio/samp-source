@@ -1,0 +1,205 @@
+{
+  "status": "BOUNDED_PROPOSAL_REQUIRES_RUNTIME_IDENTITY_QUALIFICATION",
+  "baseline_current": 205848,
+  "baseline_future_requested": 207696,
+  "future_exclusion": "Allfivecandidate ranges disjoint pendingvehicleappearance1061 andothertextdrawpending. No821initializationbytes included.",
+  "rows": [
+    {
+      "name": "RPCname",
+      "rva": "0x1dfd0",
+      "size": 337,
+      "unique_current": 337,
+      "calls": [
+        {
+          "site": "0x1e00a",
+          "target": "0x1f840",
+          "accepted_symbol": "??0BitStream@RakNet@@QAE@PADI_N@Z",
+          "own_family": false,
+          "unresolved_runtime_identity": false
+        },
+        {
+          "site": "0x1e035",
+          "target": "0x1f9b0",
+          "accepted_symbol": "?ReadBits@BitStream@RakNet@@QAE_NPAEH_N@Z",
+          "own_family": false,
+          "unresolved_runtime_identity": false
+        },
+        {
+          "site": "0x1e047",
+          "target": "0x1f9b0",
+          "accepted_symbol": "?ReadBits@BitStream@RakNet@@QAE_NPAEH_N@Z",
+          "own_family": false,
+          "unresolved_runtime_identity": false
+        },
+        {
+          "site": "0x1e065",
+          "target": "0x1fea0",
+          "accepted_symbol": "?Read@BitStream@RakNet@@QAE_NPADH@Z",
+          "own_family": false,
+          "unresolved_runtime_identity": false
+        },
+        {
+          "site": "0x1e077",
+          "target": "0x1f9b0",
+          "accepted_symbol": "?ReadBits@BitStream@RakNet@@QAE_NPAEH_N@Z",
+          "own_family": false,
+          "unresolved_runtime_identity": false
+        },
+        {
+          "site": "0x1e0c2",
+          "target": "0xb7b0",
+          "accepted_symbol": null,
+          "own_family": true,
+          "unresolved_runtime_identity": false
+        },
+        {
+          "site": "0x1e0f2",
+          "target": "0xb7b0",
+          "accepted_symbol": null,
+          "own_family": true,
+          "unresolved_runtime_identity": false
+        },
+        {
+          "site": "0x1e106",
+          "target": "0x1f8d0",
+          "accepted_symbol": "??1BitStream@RakNet@@QAE@XZ",
+          "own_family": false,
+          "unresolved_runtime_identity": false
+        }
+      ]
+    },
+    {
+      "name": "stringassignchars",
+      "rva": "0xb7b0",
+      "size": 234,
+      "unique_current": 234,
+      "calls": [
+        {
+          "site": "0xb7f6",
+          "target": "0xb6c0",
+          "accepted_symbol": null,
+          "own_family": true,
+          "unresolved_runtime_identity": false
+        },
+        {
+          "site": "0xb80d",
+          "target": "0xc6374",
+          "accepted_symbol": null,
+          "own_family": false,
+          "unresolved_runtime_identity": true
+        },
+        {
+          "site": "0xb820",
+          "target": "0xb120",
+          "accepted_symbol": null,
+          "own_family": true,
+          "unresolved_runtime_identity": false
+        }
+      ]
+    },
+    {
+      "name": "stringassignsubstring",
+      "rva": "0xb6c0",
+      "size": 227,
+      "unique_current": 227,
+      "calls": [
+        {
+          "site": "0xb6d3",
+          "target": "0xc631c",
+          "accepted_symbol": null,
+          "own_family": false,
+          "unresolved_runtime_identity": true
+        },
+        {
+          "site": "0xb6f2",
+          "target": "0xb0a0",
+          "accepted_symbol": null,
+          "own_family": true,
+          "unresolved_runtime_identity": false
+        },
+        {
+          "site": "0xb6fc",
+          "target": "0xb0a0",
+          "accepted_symbol": null,
+          "own_family": true,
+          "unresolved_runtime_identity": false
+        },
+        {
+          "site": "0xb711",
+          "target": "0xc6374",
+          "accepted_symbol": null,
+          "own_family": false,
+          "unresolved_runtime_identity": true
+        },
+        {
+          "site": "0xb724",
+          "target": "0xb120",
+          "accepted_symbol": null,
+          "own_family": true,
+          "unresolved_runtime_identity": false
+        }
+      ]
+    },
+    {
+      "name": "stringgrow",
+      "rva": "0xb120",
+      "size": 267,
+      "unique_current": 267,
+      "calls": [
+        {
+          "site": "0xb184",
+          "target": "0xc627a",
+          "accepted_symbol": "??2@YAPAXI@Z",
+          "own_family": false,
+          "unresolved_runtime_identity": false
+        },
+        {
+          "site": "0xb1a2",
+          "target": "0xc627a",
+          "accepted_symbol": "??2@YAPAXI@Z",
+          "own_family": false,
+          "unresolved_runtime_identity": false
+        },
+        {
+          "site": "0xb1f1",
+          "target": "0xc648a",
+          "accepted_symbol": "??3@YAXPAX@Z",
+          "own_family": false,
+          "unresolved_runtime_identity": false
+        }
+      ]
+    },
+    {
+      "name": "stringerase",
+      "rva": "0xb0a0",
+      "size": 117,
+      "unique_current": 117,
+      "calls": [
+        {
+          "site": "0xb0ae",
+          "target": "0xc631c",
+          "accepted_symbol": null,
+          "own_family": false,
+          "unresolved_runtime_identity": true
+        },
+        {
+          "site": "0xb0ee",
+          "target": "0xc6de0",
+          "accepted_symbol": "_memmove",
+          "own_family": false,
+          "unresolved_runtime_identity": false
+        }
+      ]
+    }
+  ],
+  "principal_potential": 1182,
+  "source025_principal": 337,
+  "source025": "client/net/scriptrpc.cpp71 SetPlayerName, adaptonlytrueR5 char*BitStream and existingR5 pool/string owners. Reststdstringproviders come actualMSVC2003 xstring source, not025credit.",
+  "owner_layout": "Actual current CPlayerPool header: WORD localid4,std::string localname6,remoteCNetPlayer*array1F8A; CNetPlayer std::string name14. Existing inlineSetPlayerName checksid>1004, pointer only, thennameassign. No replacementsornewallocations.",
+  "R5assignment": "1E0C2 and1E0F2 bothB7B0 char*,length assign. Existing header operator=(char*) uses intrinsicstrlen followedrealassign. No functionpointeraliases or wrapper calls introduced.",
+  "MSVCproviders": "Compilation ofexisting std::string headers shouldemit allfourTUs bodies asCOMDAT; integration must seed full trueheadersymbols afterprobe, not synthetic simplelabels used in audit.",
+  "open_runtime_boundary": "C631C/C6374 look like Microsoft string range/length throw helpers, but are NOT in current pinnedexternals. Their exact SDKsymbol identities must be established from actual COFF relocation symbols/library before claimingclosed. Each63 calls CC1C0,586A0,585E0,C75C5. If not qualifiedgenuine runtimeboundary, reconstructdependencychain orpark; do not silentlydeclareaccepted.",
+  "EH": "RPC21 E1710/E171B; grow267 has C++catch EH handlerE04D0 plusowncatchfunclets, fullmaps/regions mustbediscovered beforecredit. No estimatedEH countednow.",
+  "data": "RPCnonebeyond existingnetgameglobal26EB94. stdstringEH/exceptiondata mustgetfulltypedmatching; no artificialzeroowners.",
+  "copy_name_correction": "B120267 is_Copy, not_Grow. FullCOMDAT316 addscatch49; externalhandler10,metadata132. See player-name-copy-eh-runtime-audit.json."
+}

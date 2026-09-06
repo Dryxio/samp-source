@@ -1,5 +1,5 @@
 """Draft the actor contract for review. Inferred addresses are never acceptance."""
-import json,struct
+import json,struct,re
 from pathlib import Path
 from collections import deque
 from binary import COFF,PE,need,sha,u32
@@ -15,6 +15,16 @@ def weak_aliases(obj):
             need(aux==1 and u32(d,at+22) in (2,3),'unknown weak external')
             aliases[obj.symbols[i]['name']]=obj.symbols[u32(d,at+18)]['name']
         i+=1+aux
+    # Linker fallback aliases carry no implementation. Resolve only undefined
+    # source symbols; the gate still verifies the actual canonical provider.
+    for section in obj.sections:
+        if section['name']!='.drectve':continue
+        for source,target in re.findall(rb'(?i)(?:^|\s)/alternatename:([^\s"=]+)=([^\s"]+)',section['bytes']):
+            source=source.decode('ascii');target=target.decode('ascii')
+            need(source!=target and source not in aliases,'conflicting linker alias')
+            need(source in obj.names and all(x['section']==0 for x in obj.names[source]),'alias has a source implementation')
+            aliases[source]=target
+    need(not any(target in aliases for target in aliases.values()),'unsupported chained alias')
     return aliases
 
 
@@ -34,6 +44,34 @@ def draft(run, extra_seeds=None):
         obj=objects[unit];index=symbol['section'];sec=obj.sections[index-1]
         offset=0;size=sec['size'];kind='code' if sec['flags']&0x20 else 'zero' if sec['uninitialized'] else 'data'
         if unit in ('closure_models','closure_camera','closure_audio','closure_vehicle','closure_player','game_menu','net_pickuppool') and kind=='data' and symbol['name'].startswith('_') and not symbol['name'].startswith('__'):
+            offset=symbol['value'];size=18;kind='script-command'
+        if unit=='closure_pickup_weapon' and kind=='data' and symbol['name'] in ('_request_model','_load_requested_models','_is_model_available','_create_pickup_with_ammo'):
+            offset=symbol['value'];size=18;kind='script-command'
+        if unit=='closure_pickup_create' and kind=='data' and symbol['name'] in ('_request_model','_load_requested_models','_is_model_available','_destroy_pickup','_create_pickup_r5'):
+            offset=symbol['value'];size=18;kind='script-command'
+        if unit=='closure_rpc_player_effects' and kind=='data' and symbol['name'] in ('_toggle_widescreen','_create_explosion_with_radius'):
+            offset=symbol['value'];size=18;kind='script-command'
+        if unit=='closure_rpc_checkpoints' and kind=='data' and symbol['name'] in ('_disable_marker', '_set_marker_color', '_create_radar_marker_without_sphere', '_show_on_radar', '_create_racing_checkpoint', '_destroy_racing_checkpoint'):
+            offset=symbol['value'];size=18;kind='script-command'
+        if unit=='closure_rpc_spectator_vehicle' and kind=='data' and symbol['name'] in ('_make_actor_leave_car', '_rpc_set_car_z_angle'):
+            offset=symbol['value'];size=18;kind='script-command'
+        if unit=='closure_object_release' and kind=='data' and symbol['name'] in ('_is_model_available', '_rpc_release_model'):
+            offset=symbol['value'];size=18;kind='script-command'
+        if unit=='closure_player_lifetime' and kind=='data' and symbol['name'] in ('_set_actor_weapon_droppable', '_set_actor_can_be_decapitated', '_rpc_ped_disassociate_object', '_rpc_ped_destroy_object_with_fade', '_rpc_ped_carry_object'):
+            offset=symbol['value'];size=18;kind='script-command'
+        if unit=='closure_rpc_player_motion_shop' and kind=='data' and symbol['name'] in ('_set_player_drunk_visuals', '_handling_responsiveness'):
+            offset=symbol['value'];size=18;kind='script-command'
+        if kind=='data' and ((unit=='closure_vehicle_destructor' and symbol['name']=='_disable_marker') or (unit=='closure_vehicle_lifetime_helpers' and symbol['name']=='_remove_actor_from_car_and_put_at')):
+            offset=symbol['value'];size=18;kind='script-command'
+        if unit=='closure_remote_ped_constructor' and kind=='data' and symbol['name'] in ('_set_actor_immunities','_set_actor_can_be_decapitated','_set_actor_weapon_droppable','_set_actor_money'):
+            offset=symbol['value'];size=18;kind='script-command'
+        if unit=='closure_rpc_map_icons' and kind=='data' and symbol['name']=='_disable_marker':
+            offset=symbol['value'];size=18;kind='script-command'
+        if unit=='closure_remote_player_destruction' and kind=='data' and symbol['name']=='_disable_marker':
+            offset=symbol['value'];size=18;kind='script-command'
+        if unit=='closure_rpc_game_text' and kind=='data' and symbol['name']=='_text_clear_all':
+            offset=symbol['value'];size=18;kind='script-command'
+        if unit=='closure_vehicle_appearance_interior' and kind=='data' and symbol['name'] in ('_rpc_select_ped_interior','_rpc_link_ped_interior','_rpc_refresh_ped_streaming'):
             offset=symbol['value'];size=18;kind='script-command'
         if unit=='closure_state':
             offset=symbol['value'];size=2 if symbol['name']=='?wVehicleComponentDebug@@3GA' else 4;kind='zero-object'
@@ -88,6 +126,7 @@ def draft(run, extra_seeds=None):
             if canonical in definitions:
                 for provider,symbol in definitions[canonical]:select(provider,symbol,address-ref.base)
                 continue
+            name=canonical
             need(name not in externals or externals[name]['reference_va']==address,'conflicting external '+name)
             kind='absolute-fs' if name=='__except_list' else 'import' if name.startswith('__imp_') else 'crt'
             record=dict(kind=kind,reference_va=address)

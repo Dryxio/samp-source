@@ -1,0 +1,192 @@
+{
+  "status": "READY_SOURCE_PROPOSALS_AWAIT_COMPILATION_AND_PLAYER_LIFETIME_CLOSURE",
+  "baseline_union": 199433,
+  "baseline_proof": "evidence/checkpoint32/object-destructor-acceptance.json",
+  "main": [
+    {
+      "rva": "0x1d650",
+      "size": 247,
+      "unique": 247
+    },
+    {
+      "rva": "0x72bc0",
+      "size": 109,
+      "unique": 109
+    },
+    {
+      "rva": "0x72ac0",
+      "size": 241,
+      "unique": 241
+    }
+  ],
+  "EH": [
+    {
+      "cleanup": "0xe1610",
+      "handler": "0xe161b",
+      "size": 21,
+      "FuncInfo": {
+        "rva": "0xf9100",
+        "size": 28
+      },
+      "UnwindMap": {
+        "rva": "0xf90f8",
+        "size": 8
+      }
+    },
+    {
+      "cleanup": "0xe3aa0",
+      "handler": "0xe3aab",
+      "size": 21,
+      "FuncInfo": {
+        "rva": "0xfb994",
+        "size": 28
+      },
+      "UnwindMap": {
+        "rva": "0xfb98c",
+        "size": 8
+      }
+    }
+  ],
+  "total_unique_potential": 639,
+  "providers": [
+    {
+      "rva": 431488,
+      "anchor": "?Disable@CCmdWindow@@QAEXXZ",
+      "unit": "closure_cmd_recall",
+      "size": 72
+    },
+    {
+      "rva": 431232,
+      "anchor": "?Enable@CCmdWindow@@QAEXXZ",
+      "unit": "closure_cmd_recall",
+      "size": 246
+    },
+    {
+      "rva": 33824,
+      "anchor": "??$Read@_N@BitStream@RakNet@@QAE_NAA_N@Z",
+      "unit": "closure_cmd_bitstream",
+      "size": 89
+    },
+    {
+      "rva": 128816,
+      "anchor": "??0BitStream@RakNet@@QAE@XZ",
+      "unit": "closure_cmd_bitstream",
+      "size": 33
+    },
+    {
+      "rva": 129088,
+      "anchor": "??0BitStream@RakNet@@QAE@PADI_N@Z",
+      "unit": "closure_cmd_bitstream",
+      "size": 127
+    },
+    {
+      "rva": 129232,
+      "anchor": "??1BitStream@RakNet@@QAE@XZ",
+      "unit": "closure_cmd_bitstream",
+      "size": 27
+    },
+    {
+      "rva": 129456,
+      "anchor": "?ReadBits@BitStream@RakNet@@QAE_NPAEH_N@Z",
+      "unit": "closure_cmd_bitstream",
+      "size": 185
+    },
+    {
+      "rva": 131040,
+      "anchor": "?WriteBits@BitStream@RakNet@@QAEXPBEH_N@Z",
+      "unit": "closure_cmd_bitstream",
+      "size": 163
+    },
+    {
+      "rva": 131216,
+      "anchor": "?Write@BitStream@RakNet@@QAEXPBDH@Z",
+      "unit": "closure_cmd_bitstream",
+      "size": 113
+    },
+    {
+      "rva": 463936,
+      "anchor": "?Enable@R5TextDrawSelectorView@@QAEXK@Z",
+      "unit": "closure_textdraw_selection",
+      "size": 60
+    },
+    {
+      "rva": 464160,
+      "anchor": "?Disable@R5TextDrawClickView@@QAEXXZ",
+      "unit": "closure_textdraw_click",
+      "size": 77
+    },
+    {
+      "rva": 449408,
+      "anchor": "?Toggle@R5ObjectSelectionView@@QAEXH@Z",
+      "unit": "closure_object_selection_toggle",
+      "size": 117
+    },
+    {
+      "rva": 469168,
+      "anchor": "?SendObjectEdit@R5ObjectEditorView@@QAEXH@Z",
+      "unit": "closure_object_editor_send",
+      "size": 513
+    },
+    {
+      "rva": 657136,
+      "anchor": "?ToggleKeyInputsDisabled@CGame@@QAEXHH@Z",
+      "unit": "closure_key_inputs",
+      "size": 407
+    },
+    {
+      "rva": 33824,
+      "anchor": "??$Read@_N@BitStream@RakNet@@QAE_NAA_N@Z",
+      "unit": "closure_rpc_actors",
+      "size": 89
+    },
+    {
+      "rva": 33824,
+      "anchor": "??$Read@_N@BitStream@RakNet@@QAE_NAA_N@Z",
+      "unit": "closure_rpc_world_state",
+      "size": 89
+    },
+    {
+      "rva": 33824,
+      "anchor": "??$Read@_N@BitStream@RakNet@@QAE_NAA_N@Z",
+      "unit": "closure_rpc_animation_camera",
+      "size": 89
+    }
+  ],
+  "remaining_dependency": "CGame::FindPlayerPed1010/94 and lifetime chain pending acceptance. No other missing direct code providers.",
+  "source_files": [
+    "build/agent-textdraw/closure_object_editor_attached_proposed.cpp",
+    "build/agent-textdraw/closure_object_editor_close_proposed.cpp",
+    "build/agent-textdraw/closure_rpc_select_textdraw_proposed.cpp"
+  ],
+  "source025_direct_function_credit": 0,
+  "attribution_evidence": "Recursive source025 client search SelectTextDraw/EditAttachedObject/SendAttachedEdit/ObjectEditor/EditObject found none; actual proposals explicitly reconstructed from R5, modern editor/selection protocol absent025. BitStream reused accepted providers is not new025credit.",
+  "globals": {
+    "r5ObjectSelection": "26EB64",
+    "r5ObjectEditor": "26EB60",
+    "r5TextdrawSelector": "26EB68",
+    "pGame": "26EBAC",
+    "pCmdWindow": "26EB84",
+    "pNetGame": "26EB94"
+  },
+  "data": {
+    "r5RpcEditAttachedObject": {
+      "rva": "E5EA4",
+      "size": 4,
+      "value": 116,
+      "hex": "74000000"
+    }
+  },
+  "virtual_abi": "SendAttachedEdit uses pNetGame->RakClient offset0 -> vtable+64 (slot25) RPC(char*,BitStream*,HIGH_PRIORITY=1,RELIABLE_ORDERED=9,channel0,false). Existing accepted network ABI. No new internal vtable object emitted by these partial views.",
+  "structure_checks": "All three proposals R5ObjectEditorView match existing closure_object_editor_send declaration: mode78 enabled80 id88 attachedSlot8A playerObject8E rotation92 lastUpdate9E. GetAttachedInfo checks 0<=slot<10 and active!=0 (not ==1), then ped74+52*slot. Preserve invalid ->NULL passed Write(info,52), do not invent guard.",
+  "class_declaration_comparison": {
+    "paths": [
+      "client/saco/closure_object_editor_send.cpp",
+      "build/agent-textdraw/closure_object_editor_attached_proposed.cpp",
+      "build/agent-textdraw/closure_object_editor_close_proposed.cpp",
+      "build/agent-textdraw/closure_rpc_select_textdraw_proposed.cpp"
+    ],
+    "literal_text_equal": true
+  },
+  "global_store_status": "IDENTIFIED_NOT_ACCEPTED",
+  "global_store_correction": "r5ObjectEditor26EB60/r5ObjectSelection26EB64/r5TextdrawSelector26EB68 are not in player-lifetime contract. Add three complete4byte zero-fill stores from audited real DoInitStuff pointer ownership. See selection-global-owner-audit.json."
+}

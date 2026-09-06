@@ -1,0 +1,776 @@
+{
+  "status": "UNCOMPILED_BASE_SOURCE_PROPOSAL",
+  "baseline": 238956,
+  "principal_new_unique": 1894,
+  "functions": [
+    {
+      "name": "constructor",
+      "rva": "0x6ccf0",
+      "size": 38,
+      "new_unique": 38,
+      "reference_sha256": "7df254678a0f3fb484d09fd3359a03aca327e69a24fb390ca2c449d88c24784e",
+      "direct_calls": [
+        "0x100c5c74"
+      ],
+      "PE_relocations": []
+    },
+    {
+      "name": "destructor",
+      "rva": "0x6cd20",
+      "size": 41,
+      "new_unique": 41,
+      "reference_sha256": "52a2a275ca669fdd29d4b566a5aad23198aa4d95cd4a5463436d6e699dd72bd1",
+      "direct_calls": [
+        "0x100c648a"
+      ],
+      "PE_relocations": []
+    },
+    {
+      "name": "End",
+      "rva": "0x6cd50",
+      "size": 33,
+      "new_unique": 33,
+      "reference_sha256": "fe27b66290f290fac433dba6054cca56955e9869cbf914359749ce4d46bea16d",
+      "direct_calls": [],
+      "PE_relocations": []
+    },
+    {
+      "name": "DeleteDeviceObjects",
+      "rva": "0x6d650",
+      "size": 38,
+      "new_unique": 38,
+      "reference_sha256": "6eec25c3ff6fa2d0bc4449c32319458c8627edda04961506c2c87e46c046f806",
+      "direct_calls": [],
+      "PE_relocations": []
+    },
+    {
+      "name": "RestoreDeviceObjects",
+      "rva": "0x6d680",
+      "size": 42,
+      "new_unique": 42,
+      "reference_sha256": "964034900c98f0ab372914b8a8552f6ae326a6b484d893be86730100973772f6",
+      "direct_calls": [],
+      "PE_relocations": []
+    },
+    {
+      "name": "Begin",
+      "rva": "0x6d6b0",
+      "size": 246,
+      "new_unique": 246,
+      "reference_sha256": "b549ae2dd4a3698b50ea3cd803338923d000c1c3c4c5369df59fe8154701e645",
+      "direct_calls": [],
+      "PE_relocations": []
+    },
+    {
+      "name": "DrawHealthArmor",
+      "rva": "0x6d0a0",
+      "size": 1456,
+      "new_unique": 1456,
+      "reference_sha256": "c9d1cc78cff8718d79dd27f3190a803c08ec2c535db33c569fc2de0aff316235",
+      "direct_calls": [
+        "0x100c5c80",
+        "0x100c7444",
+        "0x100c7444"
+      ],
+      "PE_relocations": [
+        {
+          "offset": 16,
+          "target_va": "0x100ea648"
+        },
+        {
+          "offset": 51,
+          "target_va": "0x100e9c90"
+        },
+        {
+          "offset": 79,
+          "target_va": "0x10140d70"
+        },
+        {
+          "offset": 84,
+          "target_va": "0x10140db0"
+        },
+        {
+          "offset": 254,
+          "target_va": "0x100e5b2c"
+        },
+        {
+          "offset": 278,
+          "target_va": "0x100e5940"
+        },
+        {
+          "offset": 337,
+          "target_va": "0x1010297c"
+        },
+        {
+          "offset": 342,
+          "target_va": "0x10102968"
+        },
+        {
+          "offset": 351,
+          "target_va": "0x10102954"
+        },
+        {
+          "offset": 360,
+          "target_va": "0x10102940"
+        },
+        {
+          "offset": 366,
+          "target_va": "0x100e5804"
+        },
+        {
+          "offset": 376,
+          "target_va": "0x1010292c"
+        },
+        {
+          "offset": 381,
+          "target_va": "0x10102918"
+        },
+        {
+          "offset": 387,
+          "target_va": "0x10102890"
+        },
+        {
+          "offset": 392,
+          "target_va": "0x10102904"
+        },
+        {
+          "offset": 401,
+          "target_va": "0x101028f0"
+        },
+        {
+          "offset": 407,
+          "target_va": "0x100ea660"
+        },
+        {
+          "offset": 413,
+          "target_va": "0x10102894"
+        },
+        {
+          "offset": 421,
+          "target_va": "0x101028a4"
+        },
+        {
+          "offset": 431,
+          "target_va": "0x100ea65c"
+        },
+        {
+          "offset": 437,
+          "target_va": "0x101028a8"
+        },
+        {
+          "offset": 447,
+          "target_va": "0x100ea658"
+        },
+        {
+          "offset": 453,
+          "target_va": "0x101028b8"
+        },
+        {
+          "offset": 461,
+          "target_va": "0x101028bc"
+        },
+        {
+          "offset": 467,
+          "target_va": "0x101028cc"
+        },
+        {
+          "offset": 473,
+          "target_va": "0x101028d0"
+        },
+        {
+          "offset": 483,
+          "target_va": "0x100ea654"
+        },
+        {
+          "offset": 491,
+          "target_va": "0x10102930"
+        },
+        {
+          "offset": 497,
+          "target_va": "0x101028e0"
+        },
+        {
+          "offset": 507,
+          "target_va": "0x100ea654"
+        },
+        {
+          "offset": 513,
+          "target_va": "0x10102934"
+        },
+        {
+          "offset": 519,
+          "target_va": "0x10102934"
+        },
+        {
+          "offset": 527,
+          "target_va": "0x101028e4"
+        },
+        {
+          "offset": 533,
+          "target_va": "0x10102944"
+        },
+        {
+          "offset": 539,
+          "target_va": "0x101028f4"
+        },
+        {
+          "offset": 549,
+          "target_va": "0x100ea650"
+        },
+        {
+          "offset": 555,
+          "target_va": "0x10102948"
+        },
+        {
+          "offset": 561,
+          "target_va": "0x10102948"
+        },
+        {
+          "offset": 571,
+          "target_va": "0x101028f8"
+        },
+        {
+          "offset": 577,
+          "target_va": "0x100ea654"
+        },
+        {
+          "offset": 583,
+          "target_va": "0x10102908"
+        },
+        {
+          "offset": 591,
+          "target_va": "0x1010295c"
+        },
+        {
+          "offset": 596,
+          "target_va": "0x1010295c"
+        },
+        {
+          "offset": 601,
+          "target_va": "0x1010290c"
+        },
+        {
+          "offset": 607,
+          "target_va": "0x1010291c"
+        },
+        {
+          "offset": 613,
+          "target_va": "0x10102970"
+        },
+        {
+          "offset": 619,
+          "target_va": "0x10102970"
+        },
+        {
+          "offset": 632,
+          "target_va": "0x10102920"
+        },
+        {
+          "offset": 638,
+          "target_va": "0x100e6114"
+        },
+        {
+          "offset": 669,
+          "target_va": "0x100ea64c"
+        },
+        {
+          "offset": 675,
+          "target_va": "0x100ea654"
+        },
+        {
+          "offset": 685,
+          "target_va": "0x10102958"
+        },
+        {
+          "offset": 691,
+          "target_va": "0x1010296c"
+        },
+        {
+          "offset": 704,
+          "target_va": "0x100e5940"
+        },
+        {
+          "offset": 721,
+          "target_va": "0x10102894"
+        },
+        {
+          "offset": 727,
+          "target_va": "0x100e590c"
+        },
+        {
+          "offset": 733,
+          "target_va": "0x10102894"
+        },
+        {
+          "offset": 739,
+          "target_va": "0x10102934"
+        },
+        {
+          "offset": 745,
+          "target_va": "0x100e590c"
+        },
+        {
+          "offset": 751,
+          "target_va": "0x101028e4"
+        },
+        {
+          "offset": 757,
+          "target_va": "0x10102934"
+        },
+        {
+          "offset": 763,
+          "target_va": "0x100e590c"
+        },
+        {
+          "offset": 769,
+          "target_va": "0x10102934"
+        },
+        {
+          "offset": 775,
+          "target_va": "0x101028a8"
+        },
+        {
+          "offset": 781,
+          "target_va": "0x100e590c"
+        },
+        {
+          "offset": 787,
+          "target_va": "0x101028a8"
+        },
+        {
+          "offset": 793,
+          "target_va": "0x10102948"
+        },
+        {
+          "offset": 799,
+          "target_va": "0x100e590c"
+        },
+        {
+          "offset": 805,
+          "target_va": "0x101028f8"
+        },
+        {
+          "offset": 811,
+          "target_va": "0x10102948"
+        },
+        {
+          "offset": 817,
+          "target_va": "0x100e590c"
+        },
+        {
+          "offset": 823,
+          "target_va": "0x10102948"
+        },
+        {
+          "offset": 829,
+          "target_va": "0x101028bc"
+        },
+        {
+          "offset": 835,
+          "target_va": "0x100e590c"
+        },
+        {
+          "offset": 841,
+          "target_va": "0x101028bc"
+        },
+        {
+          "offset": 847,
+          "target_va": "0x1010295c"
+        },
+        {
+          "offset": 853,
+          "target_va": "0x100e590c"
+        },
+        {
+          "offset": 859,
+          "target_va": "0x1010290c"
+        },
+        {
+          "offset": 865,
+          "target_va": "0x1010295c"
+        },
+        {
+          "offset": 871,
+          "target_va": "0x100e590c"
+        },
+        {
+          "offset": 877,
+          "target_va": "0x1010295c"
+        },
+        {
+          "offset": 883,
+          "target_va": "0x101028d0"
+        },
+        {
+          "offset": 889,
+          "target_va": "0x100e590c"
+        },
+        {
+          "offset": 895,
+          "target_va": "0x101028d0"
+        },
+        {
+          "offset": 901,
+          "target_va": "0x10102970"
+        },
+        {
+          "offset": 907,
+          "target_va": "0x100e590c"
+        },
+        {
+          "offset": 913,
+          "target_va": "0x10102920"
+        },
+        {
+          "offset": 919,
+          "target_va": "0x10102970"
+        },
+        {
+          "offset": 925,
+          "target_va": "0x100e590c"
+        },
+        {
+          "offset": 931,
+          "target_va": "0x10102970"
+        },
+        {
+          "offset": 955,
+          "target_va": "0x10102890"
+        },
+        {
+          "offset": 977,
+          "target_va": "0x101028e0"
+        },
+        {
+          "offset": 999,
+          "target_va": "0x10102930"
+        },
+        {
+          "offset": 1023,
+          "target_va": "0x100e5940"
+        },
+        {
+          "offset": 1040,
+          "target_va": "0x10102894"
+        },
+        {
+          "offset": 1051,
+          "target_va": "0x100e590c"
+        },
+        {
+          "offset": 1056,
+          "target_va": "0x1010297c"
+        },
+        {
+          "offset": 1061,
+          "target_va": "0x10102968"
+        },
+        {
+          "offset": 1066,
+          "target_va": "0x10102954"
+        },
+        {
+          "offset": 1072,
+          "target_va": "0x10102894"
+        },
+        {
+          "offset": 1077,
+          "target_va": "0x10102940"
+        },
+        {
+          "offset": 1083,
+          "target_va": "0x101028e4"
+        },
+        {
+          "offset": 1094,
+          "target_va": "0x100e590c"
+        },
+        {
+          "offset": 1099,
+          "target_va": "0x1010292c"
+        },
+        {
+          "offset": 1104,
+          "target_va": "0x10102918"
+        },
+        {
+          "offset": 1109,
+          "target_va": "0x10102904"
+        },
+        {
+          "offset": 1115,
+          "target_va": "0x101028e4"
+        },
+        {
+          "offset": 1120,
+          "target_va": "0x101028f0"
+        },
+        {
+          "offset": 1126,
+          "target_va": "0x10102934"
+        },
+        {
+          "offset": 1132,
+          "target_va": "0x100e590c"
+        },
+        {
+          "offset": 1138,
+          "target_va": "0x10102934"
+        },
+        {
+          "offset": 1144,
+          "target_va": "0x101028a8"
+        },
+        {
+          "offset": 1150,
+          "target_va": "0x100e590c"
+        },
+        {
+          "offset": 1156,
+          "target_va": "0x101028a8"
+        },
+        {
+          "offset": 1162,
+          "target_va": "0x101028f8"
+        },
+        {
+          "offset": 1168,
+          "target_va": "0x100e590c"
+        },
+        {
+          "offset": 1174,
+          "target_va": "0x101028f8"
+        },
+        {
+          "offset": 1180,
+          "target_va": "0x10102948"
+        },
+        {
+          "offset": 1186,
+          "target_va": "0x100e590c"
+        },
+        {
+          "offset": 1192,
+          "target_va": "0x10102948"
+        },
+        {
+          "offset": 1198,
+          "target_va": "0x101028bc"
+        },
+        {
+          "offset": 1204,
+          "target_va": "0x100e590c"
+        },
+        {
+          "offset": 1210,
+          "target_va": "0x101028bc"
+        },
+        {
+          "offset": 1216,
+          "target_va": "0x1010290c"
+        },
+        {
+          "offset": 1222,
+          "target_va": "0x100e590c"
+        },
+        {
+          "offset": 1228,
+          "target_va": "0x1010290c"
+        },
+        {
+          "offset": 1234,
+          "target_va": "0x1010295c"
+        },
+        {
+          "offset": 1240,
+          "target_va": "0x100e590c"
+        },
+        {
+          "offset": 1246,
+          "target_va": "0x1010295c"
+        },
+        {
+          "offset": 1252,
+          "target_va": "0x101028d0"
+        },
+        {
+          "offset": 1258,
+          "target_va": "0x100e590c"
+        },
+        {
+          "offset": 1264,
+          "target_va": "0x101028d0"
+        },
+        {
+          "offset": 1270,
+          "target_va": "0x10102920"
+        },
+        {
+          "offset": 1276,
+          "target_va": "0x100e590c"
+        },
+        {
+          "offset": 1282,
+          "target_va": "0x10102920"
+        },
+        {
+          "offset": 1288,
+          "target_va": "0x10102970"
+        },
+        {
+          "offset": 1294,
+          "target_va": "0x100e590c"
+        },
+        {
+          "offset": 1300,
+          "target_va": "0x10102970"
+        },
+        {
+          "offset": 1313,
+          "target_va": "0x100e6114"
+        },
+        {
+          "offset": 1346,
+          "target_va": "0x100ea64c"
+        },
+        {
+          "offset": 1352,
+          "target_va": "0x100ea654"
+        },
+        {
+          "offset": 1362,
+          "target_va": "0x10102958"
+        },
+        {
+          "offset": 1368,
+          "target_va": "0x1010296c"
+        },
+        {
+          "offset": 1390,
+          "target_va": "0x10102890"
+        },
+        {
+          "offset": 1412,
+          "target_va": "0x101028e0"
+        },
+        {
+          "offset": 1434,
+          "target_va": "0x10102930"
+        }
+      ]
+    }
+  ],
+  "vertices": [
+    {
+      "name": "HealthBarBDRVertices1",
+      "rva": "0x102890",
+      "size": 80,
+      "full_source_payload_exact": true,
+      "source_sha256": "8f88d15b5ee6d874e78d7eccb8eaa8428c20de3d2e08ebcfbe2674632bf6298b"
+    },
+    {
+      "name": "HealthBarBGVertices1",
+      "rva": "0x1028e0",
+      "size": 80,
+      "full_source_payload_exact": true,
+      "source_sha256": "31fc1917b479a298340bcc11cb8cfdbf71db01e054f248565f555f8cadbfcde0"
+    },
+    {
+      "name": "HealthBarVertices1",
+      "rva": "0x102930",
+      "size": 80,
+      "full_source_payload_exact": true,
+      "source_sha256": "233336289b6a7247cfa7d6efeaad282917662ae41e44d27012fc9949921448ba"
+    }
+  ],
+  "matrix_BSS": {
+    "matView": "0x140d70",
+    "matProj": "0x140db0",
+    "size_each": 64,
+    "references": {
+      "0x140d70": [
+        {
+          "site": "0x71c54",
+          "functions": [
+            "0x71c20"
+          ]
+        },
+        {
+          "site": "0x6bce0",
+          "functions": [
+            "0x6bc90"
+          ]
+        },
+        {
+          "site": "0x73fe7",
+          "functions": [
+            "0x73f40"
+          ]
+        },
+        {
+          "site": "0x748ab",
+          "functions": [
+            "0x74880"
+          ]
+        },
+        {
+          "site": "0x6cdfd",
+          "functions": [
+            "0x6cda0"
+          ]
+        },
+        {
+          "site": "0x6d0ef",
+          "functions": [
+            "0x6d0a0"
+          ]
+        }
+      ],
+      "0x140db0": [
+        {
+          "site": "0x71c59",
+          "functions": [
+            "0x71c20"
+          ]
+        },
+        {
+          "site": "0x6bce5",
+          "functions": [
+            "0x6bc90"
+          ]
+        },
+        {
+          "site": "0x73fc7",
+          "functions": [
+            "0x73f40"
+          ]
+        },
+        {
+          "site": "0x748a4",
+          "functions": [
+            "0x74880"
+          ]
+        },
+        {
+          "site": "0x6ce02",
+          "functions": [
+            "0x6cda0"
+          ]
+        },
+        {
+          "site": "0x6d0f4",
+          "functions": [
+            "0x6d0a0"
+          ]
+        }
+      ]
+    }
+  },
+  "D3DXVec3Project": {
+    "thunk_rva": "0xc5c80",
+    "size": 6,
+    "IAT_rva": "0xe5514",
+    "require_real_import_identity": true
+  },
+  "direct025_credit": 0
+}

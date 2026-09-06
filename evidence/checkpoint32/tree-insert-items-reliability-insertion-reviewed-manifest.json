@@ -1,0 +1,329 @@
+{
+  "status": "REVIEWED_MAIN_SEEDS_AND_WHOLE_EH_BINDINGS_PREFLIGHT",
+  "run": "build/cp32-datagram-listitems-trial1",
+  "roots": {
+    "?Insert@?$BPlusTree@GPAUInternalPacket@@$0CA@@DataStructures@@QAE_NGABQAUInternalPacket@@@Z": 294640,
+    "?PushAtHead@?$Queue@PAUInternalPacket@@@DataStructures@@QAEXABQAUInternalPacket@@I@Z": 278736
+  },
+  "seeds": {
+    "closure_vendor_reliability_datagram": {
+      "?PushAtHead@?$Queue@PAUInternalPacket@@@DataStructures@@QAEXABQAUInternalPacket@@I@Z": 278736,
+      "?Insert@?$BPlusTree@GPAUInternalPacket@@$0CA@@DataStructures@@QAE_NGABQAUInternalPacket@@@Z": 294640,
+      "?InsertBranchDown@?$BPlusTree@GPAUInternalPacket@@$0CA@@DataStructures@@IAEPAU?$Page@GPAUInternalPacket@@$0CA@@2@GABQAUInternalPacket@@PAU32@PAUReturnAction@12@PA_N@Z": 291712,
+      "?RotateRight@?$BPlusTree@GPAUInternalPacket@@$0CA@@DataStructures@@IAEXPAU?$Page@GPAUInternalPacket@@$0CA@@2@HPAUReturnAction@12@@Z": 282432,
+      "?CanRotateRight@?$BPlusTree@GPAUInternalPacket@@$0CA@@DataStructures@@IAE_NPAU?$Page@GPAUInternalPacket@@$0CA@@2@H@Z": 282384,
+      "?InsertIntoNode@?$BPlusTree@GPAUInternalPacket@@$0CA@@DataStructures@@IAEPAU?$Page@GPAUInternalPacket@@$0CA@@2@GABQAUInternalPacket@@HPAU32@1PAUReturnAction@12@@Z": 287792,
+      "?Allocate@?$MemoryPool@U?$Page@GPAUInternalPacket@@$0CA@@DataStructures@@@DataStructures@@QAEPAU?$Page@GPAUInternalPacket@@$0CA@@2@XZ": 286976,
+      "?RotateLeft@?$BPlusTree@GPAUInternalPacket@@$0CA@@DataStructures@@IAEXPAU?$Page@GPAUInternalPacket@@$0CA@@2@HPAUReturnAction@12@@Z": 282592,
+      "?CanRotateLeft@?$BPlusTree@GPAUInternalPacket@@$0CA@@DataStructures@@IAE_NPAU?$Page@GPAUInternalPacket@@$0CA@@2@H@Z": 282336
+    }
+  },
+  "regions": [
+    {
+      "unit": "closure_vendor_reliability_datagram",
+      "section": 10,
+      "rva": 278736,
+      "size": 221,
+      "kind": ".text",
+      "sha256": "ab5ed75406cbacf4a5eda4a3a804a3857cfcbc5b9783b4091b77a22eddf09169",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "??2@YAPAXI@Z",
+          "site_rva": 278749,
+          "target_va": 269247098,
+          "kind": 20
+        },
+        {
+          "symbol": "??2@YAPAXI@Z",
+          "site_rva": 278871,
+          "target_va": 269247098,
+          "kind": 20
+        },
+        {
+          "symbol": "??3@YAXPAX@Z",
+          "site_rva": 278943,
+          "target_va": 269247626,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_reliability_datagram",
+      "section": 67,
+      "rva": 294640,
+      "size": 236,
+      "kind": ".text",
+      "sha256": "41fb8592fea780e6d76d0187f89f5b4608e3d85d941d36c4aa9fcd25e94bda7f",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "?Allocate@?$MemoryPool@U?$Page@GPAUInternalPacket@@$0CA@@DataStructures@@@DataStructures@@QAEPAU?$Page@GPAUInternalPacket@@$0CA@@2@XZ",
+          "site_rva": 294655,
+          "target_va": 268722432,
+          "kind": 20
+        },
+        {
+          "symbol": "?InsertBranchDown@?$BPlusTree@GPAUInternalPacket@@$0CA@@DataStructures@@IAEPAU?$Page@GPAUInternalPacket@@$0CA@@2@GABQAUInternalPacket@@PAU32@PAUReturnAction@12@PA_N@Z",
+          "site_rva": 294775,
+          "target_va": 268727168,
+          "kind": 20
+        },
+        {
+          "symbol": "?Allocate@?$MemoryPool@U?$Page@GPAUInternalPacket@@$0CA@@DataStructures@@@DataStructures@@QAEPAU?$Page@GPAUInternalPacket@@$0CA@@2@XZ",
+          "site_rva": 294829,
+          "target_va": 268722432,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_reliability_datagram",
+      "section": 65,
+      "rva": 291712,
+      "size": 627,
+      "kind": ".text",
+      "sha256": "461a69ea993b8dec9aabe1cf775e22dd94930ab4dfe8312de8ff1b4cc866a8f0",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "?GetIndexOf@?$BPlusTree@GPAUInternalPacket@@$0CA@@DataStructures@@IBE_NGPAU?$Page@GPAUInternalPacket@@$0CA@@2@PAH@Z",
+          "site_rva": 291734,
+          "target_va": 268716960,
+          "kind": 20
+        },
+        {
+          "symbol": "?CanRotateLeft@?$BPlusTree@GPAUInternalPacket@@$0CA@@DataStructures@@IAE_NPAU?$Page@GPAUInternalPacket@@$0CA@@2@H@Z",
+          "site_rva": 291800,
+          "target_va": 268717792,
+          "kind": 20
+        },
+        {
+          "symbol": "?RotateLeft@?$BPlusTree@GPAUInternalPacket@@$0CA@@DataStructures@@IAEXPAU?$Page@GPAUInternalPacket@@$0CA@@2@HPAUReturnAction@12@@Z",
+          "site_rva": 291842,
+          "target_va": 268718048,
+          "kind": 20
+        },
+        {
+          "symbol": "?GetIndexOf@?$BPlusTree@GPAUInternalPacket@@$0CA@@DataStructures@@IBE_NGPAU?$Page@GPAUInternalPacket@@$0CA@@2@PAH@Z",
+          "site_rva": 291863,
+          "target_va": 268716960,
+          "kind": 20
+        },
+        {
+          "symbol": "?InsertIntoNode@?$BPlusTree@GPAUInternalPacket@@$0CA@@DataStructures@@IAEPAU?$Page@GPAUInternalPacket@@$0CA@@2@GABQAUInternalPacket@@HPAU32@1PAUReturnAction@12@@Z",
+          "site_rva": 291893,
+          "target_va": 268723248,
+          "kind": 20
+        },
+        {
+          "symbol": "?CanRotateRight@?$BPlusTree@GPAUInternalPacket@@$0CA@@DataStructures@@IAE_NPAU?$Page@GPAUInternalPacket@@$0CA@@2@H@Z",
+          "site_rva": 291985,
+          "target_va": 268717840,
+          "kind": 20
+        },
+        {
+          "symbol": "?RotateRight@?$BPlusTree@GPAUInternalPacket@@$0CA@@DataStructures@@IAEXPAU?$Page@GPAUInternalPacket@@$0CA@@2@HPAUReturnAction@12@@Z",
+          "site_rva": 292031,
+          "target_va": 268717888,
+          "kind": 20
+        },
+        {
+          "symbol": "?GetIndexOf@?$BPlusTree@GPAUInternalPacket@@$0CA@@DataStructures@@IBE_NGPAU?$Page@GPAUInternalPacket@@$0CA@@2@PAH@Z",
+          "site_rva": 292052,
+          "target_va": 268716960,
+          "kind": 20
+        },
+        {
+          "symbol": "?InsertIntoNode@?$BPlusTree@GPAUInternalPacket@@$0CA@@DataStructures@@IAEPAU?$Page@GPAUInternalPacket@@$0CA@@2@GABQAUInternalPacket@@HPAU32@1PAUReturnAction@12@@Z",
+          "site_rva": 292082,
+          "target_va": 268723248,
+          "kind": 20
+        },
+        {
+          "symbol": "?InsertIntoNode@?$BPlusTree@GPAUInternalPacket@@$0CA@@DataStructures@@IAEPAU?$Page@GPAUInternalPacket@@$0CA@@2@GABQAUInternalPacket@@HPAU32@1PAUReturnAction@12@@Z",
+          "site_rva": 292125,
+          "target_va": 268723248,
+          "kind": 20
+        },
+        {
+          "symbol": "?InsertBranchDown@?$BPlusTree@GPAUInternalPacket@@$0CA@@DataStructures@@IAEPAU?$Page@GPAUInternalPacket@@$0CA@@2@GABQAUInternalPacket@@PAU32@PAUReturnAction@12@PA_N@Z",
+          "site_rva": 292189,
+          "target_va": 268727168,
+          "kind": 20
+        },
+        {
+          "symbol": "?InsertIntoNode@?$BPlusTree@GPAUInternalPacket@@$0CA@@DataStructures@@IAEPAU?$Page@GPAUInternalPacket@@$0CA@@2@GABQAUInternalPacket@@HPAU32@1PAUReturnAction@12@@Z",
+          "site_rva": 292254,
+          "target_va": 268723248,
+          "kind": 20
+        },
+        {
+          "symbol": "?InsertIntoNode@?$BPlusTree@GPAUInternalPacket@@$0CA@@DataStructures@@IAEPAU?$Page@GPAUInternalPacket@@$0CA@@2@GABQAUInternalPacket@@HPAU32@1PAUReturnAction@12@@Z",
+          "site_rva": 292278,
+          "target_va": 268723248,
+          "kind": 20
+        },
+        {
+          "symbol": "?InsertIntoNode@?$BPlusTree@GPAUInternalPacket@@$0CA@@DataStructures@@IAEPAU?$Page@GPAUInternalPacket@@$0CA@@2@GABQAUInternalPacket@@HPAU32@1PAUReturnAction@12@@Z",
+          "site_rva": 292328,
+          "target_va": 268723248,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_reliability_datagram",
+      "section": 36,
+      "rva": 282432,
+      "size": 153,
+      "kind": ".text",
+      "sha256": "2e707929c1f9403eae840c2ba767d4d3dabd4bffd24934525cfdc506d372d094",
+      "whole_bytes_equal": true,
+      "bindings": []
+    },
+    {
+      "unit": "closure_vendor_reliability_datagram",
+      "section": 34,
+      "rva": 282384,
+      "size": 39,
+      "kind": ".text",
+      "sha256": "f27f31776c09bca4ec421766e897a9da8d5090412adff3941da412a69bceccf0",
+      "whole_bytes_equal": true,
+      "bindings": []
+    },
+    {
+      "unit": "closure_vendor_reliability_datagram",
+      "section": 56,
+      "rva": 287792,
+      "size": 1008,
+      "kind": ".text",
+      "sha256": "352386433310a4a81c38160a85f409f382e56e80b1fbf7c7bd313f4b080ef69d",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "?Allocate@?$MemoryPool@U?$Page@GPAUInternalPacket@@$0CA@@DataStructures@@@DataStructures@@QAEPAU?$Page@GPAUInternalPacket@@$0CA@@2@XZ",
+          "site_rva": 287978,
+          "target_va": 268722432,
+          "kind": 20
+        },
+        {
+          "symbol": "?GetIndexOf@?$BPlusTree@GPAUInternalPacket@@$0CA@@DataStructures@@IBE_NGPAU?$Page@GPAUInternalPacket@@$0CA@@2@PAH@Z",
+          "site_rva": 288750,
+          "target_va": 268716960,
+          "kind": 20
+        },
+        {
+          "symbol": "?InsertIntoNode@?$BPlusTree@GPAUInternalPacket@@$0CA@@DataStructures@@IAEPAU?$Page@GPAUInternalPacket@@$0CA@@2@GABQAUInternalPacket@@HPAU32@1PAUReturnAction@12@@Z",
+          "site_rva": 288777,
+          "target_va": 268723248,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_reliability_datagram",
+      "section": 30,
+      "rva": 281504,
+      "size": 101,
+      "kind": ".text",
+      "sha256": "4ec596879827b23863cccf03b33d95b49ad0ff1c4a38ac0094a8f8eeba153480",
+      "whole_bytes_equal": true,
+      "bindings": []
+    },
+    {
+      "unit": "closure_vendor_reliability_datagram",
+      "section": 54,
+      "rva": 286976,
+      "size": 32,
+      "kind": ".text",
+      "sha256": "45d0fb216314353fc5478f0263b39e3a3483af75d742c92fdfe545c58af64ed1",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "??2@YAPAXI@Z",
+          "site_rva": 286989,
+          "target_va": 269247098,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_reliability_datagram",
+      "section": 38,
+      "rva": 282592,
+      "size": 148,
+      "kind": ".text",
+      "sha256": "580e8e50b12328b3aa0c9db0b41d96e8df0a2cb1c3d88af5383c93e054e3b685",
+      "whole_bytes_equal": true,
+      "bindings": []
+    },
+    {
+      "unit": "closure_vendor_reliability_datagram",
+      "section": 32,
+      "rva": 282336,
+      "size": 38,
+      "kind": ".text",
+      "sha256": "301ed070d6c11843474a77937226a1f9e0a434ee322d75276d6f1a2f9faedd8d",
+      "whole_bytes_equal": true,
+      "bindings": []
+    }
+  ],
+  "bindings_checked": 24,
+  "external_targets": {
+    "??2@YAPAXI@Z": 269247098,
+    "??3@YAXPAX@Z": 269247626
+  },
+  "identity_reasons": {
+    "?Insert@?$BPlusTree@GPAUInternalPacket@@$0CA@@DataStructures@@QAE_NGABQAUInternalPacket@@@Z": "source method semantics + original call graph / allocation / table owner",
+    "?PushAtHead@?$Queue@PAUInternalPacket@@@DataStructures@@QAEXABQAUInternalPacket@@I@Z": "source method semantics + original call graph / allocation / table owner",
+    "?Allocate@?$MemoryPool@U?$Page@GPAUInternalPacket@@$0CA@@DataStructures@@@DataStructures@@QAEPAU?$Page@GPAUInternalPacket@@$0CA@@2@XZ": "actual relocation from ?InsertIntoNode@?$BPlusTree@GPAUInternalPacket@@$0CA@@DataStructures@@IAEPAU?$Page@GPAUInternalPacket@@$0CA@@2@GABQAUInternalPacket@@HPAU32@1PAUReturnAction@12@@Z",
+    "?InsertBranchDown@?$BPlusTree@GPAUInternalPacket@@$0CA@@DataStructures@@IAEPAU?$Page@GPAUInternalPacket@@$0CA@@2@GABQAUInternalPacket@@PAU32@PAUReturnAction@12@PA_N@Z": "actual relocation from ?Insert@?$BPlusTree@GPAUInternalPacket@@$0CA@@DataStructures@@QAE_NGABQAUInternalPacket@@@Z",
+    "?GetIndexOf@?$BPlusTree@GPAUInternalPacket@@$0CA@@DataStructures@@IBE_NGPAU?$Page@GPAUInternalPacket@@$0CA@@2@PAH@Z": "actual relocation from ?InsertIntoNode@?$BPlusTree@GPAUInternalPacket@@$0CA@@DataStructures@@IAEPAU?$Page@GPAUInternalPacket@@$0CA@@2@GABQAUInternalPacket@@HPAU32@1PAUReturnAction@12@@Z",
+    "?CanRotateLeft@?$BPlusTree@GPAUInternalPacket@@$0CA@@DataStructures@@IAE_NPAU?$Page@GPAUInternalPacket@@$0CA@@2@H@Z": "actual relocation from ?InsertBranchDown@?$BPlusTree@GPAUInternalPacket@@$0CA@@DataStructures@@IAEPAU?$Page@GPAUInternalPacket@@$0CA@@2@GABQAUInternalPacket@@PAU32@PAUReturnAction@12@PA_N@Z",
+    "?RotateLeft@?$BPlusTree@GPAUInternalPacket@@$0CA@@DataStructures@@IAEXPAU?$Page@GPAUInternalPacket@@$0CA@@2@HPAUReturnAction@12@@Z": "actual relocation from ?InsertBranchDown@?$BPlusTree@GPAUInternalPacket@@$0CA@@DataStructures@@IAEPAU?$Page@GPAUInternalPacket@@$0CA@@2@GABQAUInternalPacket@@PAU32@PAUReturnAction@12@PA_N@Z",
+    "?InsertIntoNode@?$BPlusTree@GPAUInternalPacket@@$0CA@@DataStructures@@IAEPAU?$Page@GPAUInternalPacket@@$0CA@@2@GABQAUInternalPacket@@HPAU32@1PAUReturnAction@12@@Z": "actual relocation from ?InsertBranchDown@?$BPlusTree@GPAUInternalPacket@@$0CA@@DataStructures@@IAEPAU?$Page@GPAUInternalPacket@@$0CA@@2@GABQAUInternalPacket@@PAU32@PAUReturnAction@12@PA_N@Z",
+    "?CanRotateRight@?$BPlusTree@GPAUInternalPacket@@$0CA@@DataStructures@@IAE_NPAU?$Page@GPAUInternalPacket@@$0CA@@2@H@Z": "actual relocation from ?InsertBranchDown@?$BPlusTree@GPAUInternalPacket@@$0CA@@DataStructures@@IAEPAU?$Page@GPAUInternalPacket@@$0CA@@2@GABQAUInternalPacket@@PAU32@PAUReturnAction@12@PA_N@Z",
+    "?RotateRight@?$BPlusTree@GPAUInternalPacket@@$0CA@@DataStructures@@IAEXPAU?$Page@GPAUInternalPacket@@$0CA@@2@HPAUReturnAction@12@@Z": "actual relocation from ?InsertBranchDown@?$BPlusTree@GPAUInternalPacket@@$0CA@@DataStructures@@IAEPAU?$Page@GPAUInternalPacket@@$0CA@@2@GABQAUInternalPacket@@PAU32@PAUReturnAction@12@PA_N@Z"
+  },
+  "new_unique_code": 2124,
+  "already_covered_code": 479,
+  "physical_code_compared": 2603,
+  "baseline": 257107,
+  "source025_direct_bytes": 0,
+  "reuse_existing_owners": {
+    "?GetIndexOf@?$BPlusTree@GPAUInternalPacket@@$0CA@@DataStructures@@IBE_NGPAU?$Page@GPAUInternalPacket@@$0CA@@2@PAH@Z": {
+      "unit": "closure_vendor_reliability_ack_family",
+      "rva": 281504,
+      "size": 101
+    }
+  },
+  "excluded_unmatched": [
+    "GenerateDatagram1571 candidate vs1594 original"
+  ],
+  "vector_CRT_qualification": "build/agent-independent/vector-crt-qualified-providers.json",
+  "source_files": [
+    {
+      "path": "build/agent-independent/eval_vendor_reliability_datagram.cpp",
+      "sha256": "6362473fa40a83e269c5e17a02d779ee087195921617a9e897de6875f5fef837"
+    }
+  ],
+  "root_identity": [
+    {
+      "rva": 294640,
+      "caller": 295024,
+      "site": 296439,
+      "meaning": "GenerateDatagram inserts reliable InternalPacket by messageNumber"
+    },
+    {
+      "rva": 278736,
+      "caller": 295024,
+      "sites": [
+        295840,
+        296537
+      ],
+      "meaning": "GenerateDatagram returns non-fitting resend/new packet to head of actual queue"
+    }
+  ],
+  "data_note": "No referenced data/EH sections in this exact static subtree; all 10 complete code sections checked. Real MemoryPool/Page ownership preserved from vendor headers and prior lifecycle. Two CRT allocator targets only."
+}

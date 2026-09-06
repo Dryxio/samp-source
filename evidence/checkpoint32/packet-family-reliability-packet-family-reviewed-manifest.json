@@ -1,0 +1,1941 @@
+{
+  "status": "REVIEWED_MAIN_SEEDS_AND_WHOLE_EH_BINDINGS_PREFLIGHT",
+  "run": "build/cp32-packet-family-trial2",
+  "roots": {
+    "?SetEncryptionKey@ReliabilityLayer@@QAEXPBE@Z": 277664,
+    "?Receive@ReliabilityLayer@@QAEHPAPAE@Z": 283824,
+    "?SplitPacket@ReliabilityLayer@@AAEXPAUInternalPacket@@H@Z": 284672,
+    "?CreateInternalPacketCopy@ReliabilityLayer@@AAEPAUInternalPacket@@PAU2@HH_J@Z": 285360,
+    "?InsertPacketIntoResendList@ReliabilityLayer@@AAEXPAUInternalPacket@@_J_N2@Z": 285552,
+    "?SetPing@ReliabilityLayer@@QAEXI@Z": 285696,
+    "?Send@ReliabilityLayer@@QAE_NPADHW4PacketPriority@@W4PacketReliability@@E_NH_J@Z": 289536,
+    "?DeleteSequencedPacketsInList@ReliabilityLayer@@AAEXEAAV?$List@PAUInternalPacket@@@DataStructures@@H@Z": 290160,
+    "?DeleteSequencedPacketsInList@ReliabilityLayer@@AAEXEAAV?$Queue@PAUInternalPacket@@@DataStructures@@@Z": 290272,
+    "?GetResendListDataSize@ReliabilityLayer@@ABEIXZ": 290512,
+    "?IsDataWaiting@ReliabilityLayer@@QAE_NXZ": 289968,
+    "?AreAcksWaiting@ReliabilityLayer@@QAE_NXZ": 290128,
+    "?AddToOrderingList@ReliabilityLayer@@AAEXPAUInternalPacket@@@Z": 293184,
+    "?GetStatistics@ReliabilityLayer@@QAEQAURakNetStatisticsStruct@@_N@Z": 293328,
+    "?InsertIntoSplitPacketList@ReliabilityLayer@@AAEXPAUInternalPacket@@_J@Z": 296736,
+    "?DeleteOldUnreliableSplitPackets@ReliabilityLayer@@AAEX_J@Z": 297968,
+    "?BuildPacketFromSplitPacketList@ReliabilityLayer@@AAEPAUInternalPacket@@G_J@Z": 297280
+  },
+  "seeds": {
+    "closure_vendor_reliability_packet_family": {
+      "?BuildPacketFromSplitPacketList@ReliabilityLayer@@AAEPAUInternalPacket@@G_J@Z": 297280,
+      "?RemoveAtIndex@?$OrderedList@GPAUSplitPacketChannel@@$1?SplitPacketChannelComp@@YAHABGABQAU1@@Z@DataStructures@@QAEXI@Z": 291264,
+      "?RemoveAtIndex@?$List@PAUSplitPacketChannel@@@DataStructures@@QAEXI@Z": 287024,
+      "??1SplitPacketChannel@@QAE@XZ": 293152,
+      "??1?$OrderedList@IPAUInternalPacket@@$1?SplitPacketIndexComp@@YAHABIABQAU1@@Z@DataStructures@@QAE@XZ": 290544,
+      "??1?$List@PAUInternalPacket@@@DataStructures@@QAE@XZ": 280816,
+      "?Clear@?$OrderedList@IPAUInternalPacket@@$1?SplitPacketIndexComp@@YAHABIABQAU1@@Z@DataStructures@@QAEXXZ": 286608,
+      "?Clear@?$List@PAUInternalPacket@@@DataStructures@@QAEX_N@Z": 282240,
+      "?CreateInternalPacketCopy@ReliabilityLayer@@AAEPAUInternalPacket@@PAU2@HH_J@Z": 285360,
+      "?Size@?$OrderedList@IPAUInternalPacket@@$1?SplitPacketIndexComp@@YAHABIABQAU1@@Z@DataStructures@@QBEIXZ": 279072,
+      "??A?$OrderedList@IPAUInternalPacket@@$1?SplitPacketIndexComp@@YAHABIABQAU1@@Z@DataStructures@@QBEAAPAUInternalPacket@@I@Z": 279056,
+      "??A?$OrderedList@GPAUSplitPacketChannel@@$1?SplitPacketChannelComp@@YAHABGABQAU1@@Z@DataStructures@@QBEAAPAUSplitPacketChannel@@I@Z": 286432,
+      "?GetIndexFromKey@?$OrderedList@GPAUSplitPacketChannel@@$1?SplitPacketChannelComp@@YAHABGABQAU1@@Z@DataStructures@@QBEIABGPA_N@Z": 286192,
+      "?SplitPacketChannelComp@@YAHABGABQAUSplitPacketChannel@@@Z": 283744,
+      "?DeleteOldUnreliableSplitPackets@ReliabilityLayer@@AAEX_J@Z": 297968,
+      "?Size@?$OrderedList@GPAUSplitPacketChannel@@$1?SplitPacketChannelComp@@YAHABGABQAU1@@Z@DataStructures@@QBEIXZ": 286464,
+      "?InsertIntoSplitPacketList@ReliabilityLayer@@AAEXPAUInternalPacket@@_J@Z": 296736,
+      "?Insert@?$OrderedList@IPAUInternalPacket@@$1?SplitPacketIndexComp@@YAHABIABQAU1@@Z@DataStructures@@QAEIABIABQAUInternalPacket@@@Z": 285984,
+      "?Insert@?$List@PAUInternalPacket@@@DataStructures@@QAEXQAUInternalPacket@@I@Z": 280960,
+      "?Insert@?$List@PAUInternalPacket@@@DataStructures@@QAEXQAUInternalPacket@@@Z": 280848,
+      "?GetIndexFromKey@?$OrderedList@IPAUInternalPacket@@$1?SplitPacketIndexComp@@YAHABIABQAU1@@Z@DataStructures@@QBEIABIPA_N@Z": 281120,
+      "?SplitPacketIndexComp@@YAHABIABQAUInternalPacket@@@Z": 277616,
+      "?Insert@?$OrderedList@GPAUSplitPacketChannel@@$1?SplitPacketChannelComp@@YAHABGABQAU1@@Z@DataStructures@@QAEIABGABQAUSplitPacketChannel@@@Z": 286336,
+      "?Insert@?$List@PAUSplitPacketChannel@@@DataStructures@@QAEXQAUSplitPacketChannel@@I@Z": 281792,
+      "?Insert@?$List@PAUSplitPacketChannel@@@DataStructures@@QAEXQAUSplitPacketChannel@@@Z": 281680,
+      "??0?$OrderedList@IPAUInternalPacket@@$1?SplitPacketIndexComp@@YAHABIABQAU1@@Z@DataStructures@@QAE@XZ": 285968,
+      "??0?$List@PAUInternalPacket@@@DataStructures@@QAE@XZ": 280800,
+      "?GetStatistics@ReliabilityLayer@@QAEQAURakNetStatisticsStruct@@_N@Z": 293328,
+      "?GetResendListDataSize@ReliabilityLayer@@ABEIXZ": 290512,
+      "?Size@?$BPlusTree@GPAUInternalPacket@@$0CA@@DataStructures@@QBEIXZ": 286128,
+      "?GetListHead@?$BPlusTree@GPAUInternalPacket@@$0CA@@DataStructures@@QBEPAU?$Page@GPAUInternalPacket@@$0CA@@2@XZ": 281344,
+      "?Size@?$RangeList@G@DataStructures@@QAEIXZ": 286112,
+      "?Size@?$OrderedList@GU?$RangeNode@G@DataStructures@@$1??$RangeNodeComp@G@2@YAHABGABU12@@Z@DataStructures@@QBEIXZ": 286096,
+      "?AddToOrderingList@ReliabilityLayer@@AAEXPAUInternalPacket@@@Z": 293184,
+      "?Add@?$CircularLinkedList@PAUInternalPacket@@@DataStructures@@QAEAAPAUInternalPacket@@ABQAU3@@Z": 280416,
+      "?Replace@?$List@PAV?$LinkedList@PAUInternalPacket@@@DataStructures@@@DataStructures@@QAEXQAV?$LinkedList@PAUInternalPacket@@@2@0I@Z": 279152,
+      "??0?$CircularLinkedList@PAUInternalPacket@@@DataStructures@@QAE@XZ": 280400,
+      "?GetOrderingListAtOrderingStream@ReliabilityLayer@@AAEPAV?$LinkedList@PAUInternalPacket@@@DataStructures@@E@Z": 285520,
+      "?AreAcksWaiting@ReliabilityLayer@@QAE_NXZ": 290128,
+      "?IsDataWaiting@ReliabilityLayer@@QAE_NXZ": 289968,
+      "?IsEmpty@?$BPlusTree@GPAUInternalPacket@@$0CA@@DataStructures@@QBE_NXZ": 279392,
+      "?DeleteSequencedPacketsInList@ReliabilityLayer@@AAEXEAAV?$Queue@PAUInternalPacket@@@DataStructures@@@Z": 290272,
+      "?Del@?$Queue@PAUInternalPacket@@@DataStructures@@QAEXI@Z": 285792,
+      "?DeleteSequencedPacketsInList@ReliabilityLayer@@AAEXEAAV?$List@PAUInternalPacket@@@DataStructures@@H@Z": 290160,
+      "?RemoveAtIndex@?$List@PAUInternalPacket@@@DataStructures@@QAEXI@Z": 285904,
+      "?Send@ReliabilityLayer@@QAE_NPADHW4PacketPriority@@W4PacketReliability@@E_NH_J@Z": 289536,
+      "?SplitPacket@ReliabilityLayer@@AAEXPAUInternalPacket@@H@Z": 284672,
+      "?GetBitStreamHeaderLength@ReliabilityLayer@@AAEHQBUInternalPacket@@@Z": 278208,
+      "?SetPing@ReliabilityLayer@@QAEXI@Z": 285696,
+      "?UpdateNextActionTime@ReliabilityLayer@@AAEXXZ": 278640,
+      "?InsertPacketIntoResendList@ReliabilityLayer@@AAEXPAUInternalPacket@@_J_N2@Z": 285552,
+      "?Receive@ReliabilityLayer@@QAEHPAPAE@Z": 283824,
+      "?SetEncryptionKey@ReliabilityLayer@@QAEXPBE@Z": 277664
+    }
+  },
+  "regions": [
+    {
+      "unit": "closure_vendor_reliability_packet_family",
+      "section": 152,
+      "rva": 297280,
+      "size": 677,
+      "kind": ".text",
+      "sha256": "bd252957d3e831bfb9324f5576f14f8f5ac86639aa2009c93f59f46b2fa26156",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "?GetIndexFromKey@?$OrderedList@GPAUSplitPacketChannel@@$1?SplitPacketChannelComp@@YAHABGABQAU1@@Z@DataStructures@@QBEIABGPA_N@Z",
+          "site_rva": 297312,
+          "target_va": 268721648,
+          "kind": 20
+        },
+        {
+          "symbol": "??A?$OrderedList@GPAUSplitPacketChannel@@$1?SplitPacketChannelComp@@YAHABGABQAU1@@Z@DataStructures@@QBEAAPAUSplitPacketChannel@@I@Z",
+          "site_rva": 297322,
+          "target_va": 268721888,
+          "kind": 20
+        },
+        {
+          "symbol": "??A?$OrderedList@IPAUInternalPacket@@$1?SplitPacketIndexComp@@YAHABIABQAU1@@Z@DataStructures@@QBEAAPAUInternalPacket@@I@Z",
+          "site_rva": 297334,
+          "target_va": 268714512,
+          "kind": 20
+        },
+        {
+          "symbol": "??A?$OrderedList@GPAUSplitPacketChannel@@$1?SplitPacketChannelComp@@YAHABGABQAU1@@Z@DataStructures@@QBEAAPAUSplitPacketChannel@@I@Z",
+          "site_rva": 297344,
+          "target_va": 268721888,
+          "kind": 20
+        },
+        {
+          "symbol": "?Size@?$OrderedList@IPAUInternalPacket@@$1?SplitPacketIndexComp@@YAHABIABQAU1@@Z@DataStructures@@QBEIXZ",
+          "site_rva": 297354,
+          "target_va": 268714528,
+          "kind": 20
+        },
+        {
+          "symbol": "??A?$OrderedList@GPAUSplitPacketChannel@@$1?SplitPacketChannelComp@@YAHABGABQAU1@@Z@DataStructures@@QBEAAPAUSplitPacketChannel@@I@Z",
+          "site_rva": 297373,
+          "target_va": 268721888,
+          "kind": 20
+        },
+        {
+          "symbol": "??A?$OrderedList@IPAUInternalPacket@@$1?SplitPacketIndexComp@@YAHABIABQAU1@@Z@DataStructures@@QBEAAPAUInternalPacket@@I@Z",
+          "site_rva": 297386,
+          "target_va": 268714512,
+          "kind": 20
+        },
+        {
+          "symbol": "?CreateInternalPacketCopy@ReliabilityLayer@@AAEPAUInternalPacket@@PAU2@HH_J@Z",
+          "site_rva": 297408,
+          "target_va": 268720816,
+          "kind": 20
+        },
+        {
+          "symbol": "??A?$OrderedList@GPAUSplitPacketChannel@@$1?SplitPacketChannelComp@@YAHABGABQAU1@@Z@DataStructures@@QBEAAPAUSplitPacketChannel@@I@Z",
+          "site_rva": 297429,
+          "target_va": 268721888,
+          "kind": 20
+        },
+        {
+          "symbol": "?Size@?$OrderedList@IPAUInternalPacket@@$1?SplitPacketIndexComp@@YAHABIABQAU1@@Z@DataStructures@@QBEIXZ",
+          "site_rva": 297439,
+          "target_va": 268714528,
+          "kind": 20
+        },
+        {
+          "symbol": "??A?$OrderedList@GPAUSplitPacketChannel@@$1?SplitPacketChannelComp@@YAHABGABQAU1@@Z@DataStructures@@QBEAAPAUSplitPacketChannel@@I@Z",
+          "site_rva": 297451,
+          "target_va": 268721888,
+          "kind": 20
+        },
+        {
+          "symbol": "??A?$OrderedList@IPAUInternalPacket@@$1?SplitPacketIndexComp@@YAHABIABQAU1@@Z@DataStructures@@QBEAAPAUInternalPacket@@I@Z",
+          "site_rva": 297462,
+          "target_va": 268714512,
+          "kind": 20
+        },
+        {
+          "symbol": "??A?$OrderedList@GPAUSplitPacketChannel@@$1?SplitPacketChannelComp@@YAHABGABQAU1@@Z@DataStructures@@QBEAAPAUSplitPacketChannel@@I@Z",
+          "site_rva": 297483,
+          "target_va": 268721888,
+          "kind": 20
+        },
+        {
+          "symbol": "??A?$OrderedList@IPAUInternalPacket@@$1?SplitPacketIndexComp@@YAHABIABQAU1@@Z@DataStructures@@QBEAAPAUInternalPacket@@I@Z",
+          "site_rva": 297494,
+          "target_va": 268714512,
+          "kind": 20
+        },
+        {
+          "symbol": "??A?$OrderedList@GPAUSplitPacketChannel@@$1?SplitPacketChannelComp@@YAHABGABQAU1@@Z@DataStructures@@QBEAAPAUSplitPacketChannel@@I@Z",
+          "site_rva": 297524,
+          "target_va": 268721888,
+          "kind": 20
+        },
+        {
+          "symbol": "?Size@?$OrderedList@IPAUInternalPacket@@$1?SplitPacketIndexComp@@YAHABIABQAU1@@Z@DataStructures@@QBEIXZ",
+          "site_rva": 297534,
+          "target_va": 268714528,
+          "kind": 20
+        },
+        {
+          "symbol": "??2@YAPAXI@Z",
+          "site_rva": 297548,
+          "target_va": 269247098,
+          "kind": 20
+        },
+        {
+          "symbol": "??A?$OrderedList@GPAUSplitPacketChannel@@$1?SplitPacketChannelComp@@YAHABGABQAU1@@Z@DataStructures@@QBEAAPAUSplitPacketChannel@@I@Z",
+          "site_rva": 297572,
+          "target_va": 268721888,
+          "kind": 20
+        },
+        {
+          "symbol": "?Size@?$OrderedList@IPAUInternalPacket@@$1?SplitPacketIndexComp@@YAHABIABQAU1@@Z@DataStructures@@QBEIXZ",
+          "site_rva": 297582,
+          "target_va": 268714528,
+          "kind": 20
+        },
+        {
+          "symbol": "??A?$OrderedList@GPAUSplitPacketChannel@@$1?SplitPacketChannelComp@@YAHABGABQAU1@@Z@DataStructures@@QBEAAPAUSplitPacketChannel@@I@Z",
+          "site_rva": 297604,
+          "target_va": 268721888,
+          "kind": 20
+        },
+        {
+          "symbol": "??A?$OrderedList@IPAUInternalPacket@@$1?SplitPacketIndexComp@@YAHABIABQAU1@@Z@DataStructures@@QBEAAPAUInternalPacket@@I@Z",
+          "site_rva": 297615,
+          "target_va": 268714512,
+          "kind": 20
+        },
+        {
+          "symbol": "??A?$OrderedList@GPAUSplitPacketChannel@@$1?SplitPacketChannelComp@@YAHABGABQAU1@@Z@DataStructures@@QBEAAPAUSplitPacketChannel@@I@Z",
+          "site_rva": 297627,
+          "target_va": 268721888,
+          "kind": 20
+        },
+        {
+          "symbol": "??A?$OrderedList@IPAUInternalPacket@@$1?SplitPacketIndexComp@@YAHABIABQAU1@@Z@DataStructures@@QBEAAPAUInternalPacket@@I@Z",
+          "site_rva": 297638,
+          "target_va": 268714512,
+          "kind": 20
+        },
+        {
+          "symbol": "??A?$OrderedList@GPAUSplitPacketChannel@@$1?SplitPacketChannelComp@@YAHABGABQAU1@@Z@DataStructures@@QBEAAPAUSplitPacketChannel@@I@Z",
+          "site_rva": 297689,
+          "target_va": 268721888,
+          "kind": 20
+        },
+        {
+          "symbol": "??A?$OrderedList@IPAUInternalPacket@@$1?SplitPacketIndexComp@@YAHABIABQAU1@@Z@DataStructures@@QBEAAPAUInternalPacket@@I@Z",
+          "site_rva": 297704,
+          "target_va": 268714512,
+          "kind": 20
+        },
+        {
+          "symbol": "??A?$OrderedList@GPAUSplitPacketChannel@@$1?SplitPacketChannelComp@@YAHABGABQAU1@@Z@DataStructures@@QBEAAPAUSplitPacketChannel@@I@Z",
+          "site_rva": 297738,
+          "target_va": 268721888,
+          "kind": 20
+        },
+        {
+          "symbol": "?Size@?$OrderedList@IPAUInternalPacket@@$1?SplitPacketIndexComp@@YAHABIABQAU1@@Z@DataStructures@@QBEIXZ",
+          "site_rva": 297748,
+          "target_va": 268714528,
+          "kind": 20
+        },
+        {
+          "symbol": "??A?$OrderedList@GPAUSplitPacketChannel@@$1?SplitPacketChannelComp@@YAHABGABQAU1@@Z@DataStructures@@QBEAAPAUSplitPacketChannel@@I@Z",
+          "site_rva": 297770,
+          "target_va": 268721888,
+          "kind": 20
+        },
+        {
+          "symbol": "?Size@?$OrderedList@IPAUInternalPacket@@$1?SplitPacketIndexComp@@YAHABIABQAU1@@Z@DataStructures@@QBEIXZ",
+          "site_rva": 297780,
+          "target_va": 268714528,
+          "kind": 20
+        },
+        {
+          "symbol": "??A?$OrderedList@GPAUSplitPacketChannel@@$1?SplitPacketChannelComp@@YAHABGABQAU1@@Z@DataStructures@@QBEAAPAUSplitPacketChannel@@I@Z",
+          "site_rva": 297812,
+          "target_va": 268721888,
+          "kind": 20
+        },
+        {
+          "symbol": "??A?$OrderedList@IPAUInternalPacket@@$1?SplitPacketIndexComp@@YAHABIABQAU1@@Z@DataStructures@@QBEAAPAUInternalPacket@@I@Z",
+          "site_rva": 297823,
+          "target_va": 268714512,
+          "kind": 20
+        },
+        {
+          "symbol": "??3@YAXPAX@Z",
+          "site_rva": 297834,
+          "target_va": 269247626,
+          "kind": 20
+        },
+        {
+          "symbol": "??A?$OrderedList@GPAUSplitPacketChannel@@$1?SplitPacketChannelComp@@YAHABGABQAU1@@Z@DataStructures@@QBEAAPAUSplitPacketChannel@@I@Z",
+          "site_rva": 297845,
+          "target_va": 268721888,
+          "kind": 20
+        },
+        {
+          "symbol": "??A?$OrderedList@IPAUInternalPacket@@$1?SplitPacketIndexComp@@YAHABIABQAU1@@Z@DataStructures@@QBEAAPAUInternalPacket@@I@Z",
+          "site_rva": 297856,
+          "target_va": 268714512,
+          "kind": 20
+        },
+        {
+          "symbol": "?ReleasePointer@InternalPacketPool@@QAEXPAUInternalPacket@@@Z",
+          "site_rva": 297868,
+          "target_va": 268626800,
+          "kind": 20
+        },
+        {
+          "symbol": "??A?$OrderedList@GPAUSplitPacketChannel@@$1?SplitPacketChannelComp@@YAHABGABQAU1@@Z@DataStructures@@QBEAAPAUSplitPacketChannel@@I@Z",
+          "site_rva": 297877,
+          "target_va": 268721888,
+          "kind": 20
+        },
+        {
+          "symbol": "?Size@?$OrderedList@IPAUInternalPacket@@$1?SplitPacketIndexComp@@YAHABIABQAU1@@Z@DataStructures@@QBEIXZ",
+          "site_rva": 297887,
+          "target_va": 268714528,
+          "kind": 20
+        },
+        {
+          "symbol": "??A?$OrderedList@GPAUSplitPacketChannel@@$1?SplitPacketChannelComp@@YAHABGABQAU1@@Z@DataStructures@@QBEAAPAUSplitPacketChannel@@I@Z",
+          "site_rva": 297899,
+          "target_va": 268721888,
+          "kind": 20
+        },
+        {
+          "symbol": "??1SplitPacketChannel@@QAE@XZ",
+          "site_rva": 297912,
+          "target_va": 268728608,
+          "kind": 20
+        },
+        {
+          "symbol": "??3@YAXPAX@Z",
+          "site_rva": 297918,
+          "target_va": 269247626,
+          "kind": 20
+        },
+        {
+          "symbol": "?RemoveAtIndex@?$OrderedList@GPAUSplitPacketChannel@@$1?SplitPacketChannelComp@@YAHABGABQAU1@@Z@DataStructures@@QAEXI@Z",
+          "site_rva": 297929,
+          "target_va": 268726720,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_reliability_packet_family",
+      "section": 132,
+      "rva": 291264,
+      "size": 5,
+      "kind": ".text",
+      "sha256": "54ad5dc88301550cf1a17186ca36ae16bdc6ce1ebf43c20fd56886d50ae65c67",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "?RemoveAtIndex@?$List@PAUSplitPacketChannel@@@DataStructures@@QAEXI@Z",
+          "site_rva": 291265,
+          "target_va": 268722480,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_reliability_packet_family",
+      "section": 113,
+      "rva": 287024,
+      "size": 53,
+      "kind": ".text",
+      "sha256": "bd5865d3e39b462368dd76b77a56c9a2f583514480a67ccfc89ad340ea5daa17",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "_memmove",
+          "site_rva": 287059,
+          "target_va": 269250016,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_reliability_packet_family",
+      "section": 140,
+      "rva": 293152,
+      "size": 8,
+      "kind": ".text",
+      "sha256": "502d630844f947d90679e727102c97b73c1fab02b1ca4150e09e59c0b449df81",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "??1?$OrderedList@IPAUInternalPacket@@$1?SplitPacketIndexComp@@YAHABIABQAU1@@Z@DataStructures@@QAE@XZ",
+          "site_rva": 293156,
+          "target_va": 268726000,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_reliability_packet_family",
+      "section": 125,
+      "rva": 290544,
+      "size": 73,
+      "kind": ".text",
+      "sha256": "8f540d9186266c414e2d238134fe02bfeba5a5cb884268b2320ee4c18da841ef",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "__ehhandler$??1?$OrderedList@IPAUInternalPacket@@$1?SplitPacketIndexComp@@YAHABIABQAU1@@Z@DataStructures@@QAE@XZ",
+          "site_rva": 290547,
+          "target_va": 269364392,
+          "kind": 6
+        },
+        {
+          "symbol": "__except_list",
+          "site_rva": 290553,
+          "target_va": 0,
+          "kind": 6
+        },
+        {
+          "symbol": "__except_list",
+          "site_rva": 290561,
+          "target_va": 0,
+          "kind": 6
+        },
+        {
+          "symbol": "?Clear@?$OrderedList@IPAUInternalPacket@@$1?SplitPacketIndexComp@@YAHABIABQAU1@@Z@DataStructures@@QAEXXZ",
+          "site_rva": 290582,
+          "target_va": 268722064,
+          "kind": 20
+        },
+        {
+          "symbol": "??1?$List@PAUInternalPacket@@@DataStructures@@QAE@XZ",
+          "site_rva": 290597,
+          "target_va": 268716272,
+          "kind": 20
+        },
+        {
+          "symbol": "__except_list",
+          "site_rva": 290609,
+          "target_va": 0,
+          "kind": 6
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_reliability_packet_family",
+      "section": 46,
+      "rva": 280816,
+      "size": 17,
+      "kind": ".text",
+      "sha256": "1ef0f52644026444341c945f610c36e09007f7cb5a37b41b2f4434ecbce1eb52",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "??3@YAXPAX@Z",
+          "site_rva": 280827,
+          "target_va": 269247626,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_reliability_packet_family",
+      "section": 109,
+      "rva": 286608,
+      "size": 8,
+      "kind": ".text",
+      "sha256": "377423fa3ef074544ea8b954ba066246161212ab8e9c4a660986a1cc4bbe101d",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "?Clear@?$List@PAUInternalPacket@@@DataStructures@@QAEX_N@Z",
+          "site_rva": 286611,
+          "target_va": 268717696,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_reliability_packet_family",
+      "section": 68,
+      "rva": 282240,
+      "size": 60,
+      "kind": ".text",
+      "sha256": "378747f32d7167ab172151c3982f7e84f9070012f1964f074089577e3079930d",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "??3@YAXPAX@Z",
+          "site_rva": 282269,
+          "target_va": 269247626,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_reliability_packet_family",
+      "section": 81,
+      "rva": 285360,
+      "size": 153,
+      "kind": ".text",
+      "sha256": "e4184dd03facd40179119edc8cc7b3bcf6bfb5a7fc7d84b61618d6bd1b7a3dfe",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "?GetPointer@InternalPacketPool@@QAEPAUInternalPacket@@XZ",
+          "site_rva": 285370,
+          "target_va": 268719104,
+          "kind": 20
+        },
+        {
+          "symbol": "??2@YAPAXI@Z",
+          "site_rva": 285393,
+          "target_va": 269247098,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_reliability_packet_family",
+      "section": 74,
+      "rva": 283648,
+      "size": 83,
+      "kind": ".text",
+      "sha256": "d667512dc516e4879543d765fccb09922d1f17549ab02e6875b4adf553336f7a",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "??2@YAPAXI@Z",
+          "site_rva": 283722,
+          "target_va": 269247098,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_reliability_packet_family",
+      "section": 26,
+      "rva": 279072,
+      "size": 4,
+      "kind": ".text",
+      "sha256": "f7e0208f5e988ae39c7a45dfddbd12921d02f9c3deb5695d4c534c8ab0ccdb0f",
+      "whole_bytes_equal": true,
+      "bindings": []
+    },
+    {
+      "unit": "closure_vendor_reliability_packet_family",
+      "section": 24,
+      "rva": 279056,
+      "size": 12,
+      "kind": ".text",
+      "sha256": "ad09b7da4d9eb9c08f5c1a1b1a728841aa9a79add752be59989d682de3b497bb",
+      "whole_bytes_equal": true,
+      "bindings": []
+    },
+    {
+      "unit": "closure_vendor_reliability_packet_family",
+      "section": 103,
+      "rva": 286432,
+      "size": 12,
+      "kind": ".text",
+      "sha256": "ad09b7da4d9eb9c08f5c1a1b1a728841aa9a79add752be59989d682de3b497bb",
+      "whole_bytes_equal": true,
+      "bindings": []
+    },
+    {
+      "unit": "closure_vendor_reliability_packet_family",
+      "section": 99,
+      "rva": 286192,
+      "size": 141,
+      "kind": ".text",
+      "sha256": "f4993ac0a33846cc1fe11304caed14521b9679211aebec242d62c61a88299d38",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "?SplitPacketChannelComp@@YAHABGABQAUSplitPacketChannel@@@Z",
+          "site_rva": 286242,
+          "target_va": 268719200,
+          "kind": 20
+        },
+        {
+          "symbol": "?SplitPacketChannelComp@@YAHABGABQAUSplitPacketChannel@@@Z",
+          "site_rva": 286290,
+          "target_va": 268719200,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_reliability_packet_family",
+      "section": 76,
+      "rva": 283744,
+      "size": 66,
+      "kind": ".text",
+      "sha256": "ec760741891e644b36ccc8744399bf70585662f963c5675f094759d2b9d0b6be",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "??A?$OrderedList@IPAUInternalPacket@@$1?SplitPacketIndexComp@@YAHABIABQAU1@@Z@DataStructures@@QBEAAPAUInternalPacket@@I@Z",
+          "site_rva": 283760,
+          "target_va": 268714512,
+          "kind": 20
+        },
+        {
+          "symbol": "??A?$OrderedList@IPAUInternalPacket@@$1?SplitPacketIndexComp@@YAHABIABQAU1@@Z@DataStructures@@QBEAAPAUInternalPacket@@I@Z",
+          "site_rva": 283790,
+          "target_va": 268714512,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_reliability_packet_family",
+      "section": 150,
+      "rva": 297968,
+      "size": 329,
+      "kind": ".text",
+      "sha256": "bc7c27343104b1789ac15c2867f5468a97dda11e2d9b4c2fb3e190c04105fdb0",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "?Size@?$OrderedList@GPAUSplitPacketChannel@@$1?SplitPacketChannelComp@@YAHABGABQAU1@@Z@DataStructures@@QBEIXZ",
+          "site_rva": 297989,
+          "target_va": 268721920,
+          "kind": 20
+        },
+        {
+          "symbol": "??A?$OrderedList@GPAUSplitPacketChannel@@$1?SplitPacketChannelComp@@YAHABGABQAU1@@Z@DataStructures@@QBEAAPAUSplitPacketChannel@@I@Z",
+          "site_rva": 298006,
+          "target_va": 268721888,
+          "kind": 20
+        },
+        {
+          "symbol": "??A?$OrderedList@GPAUSplitPacketChannel@@$1?SplitPacketChannelComp@@YAHABGABQAU1@@Z@DataStructures@@QBEAAPAUSplitPacketChannel@@I@Z",
+          "site_rva": 298054,
+          "target_va": 268721888,
+          "kind": 20
+        },
+        {
+          "symbol": "??A?$OrderedList@IPAUInternalPacket@@$1?SplitPacketIndexComp@@YAHABIABQAU1@@Z@DataStructures@@QBEAAPAUInternalPacket@@I@Z",
+          "site_rva": 298066,
+          "target_va": 268714512,
+          "kind": 20
+        },
+        {
+          "symbol": "??A?$OrderedList@GPAUSplitPacketChannel@@$1?SplitPacketChannelComp@@YAHABGABQAU1@@Z@DataStructures@@QBEAAPAUSplitPacketChannel@@I@Z",
+          "site_rva": 298082,
+          "target_va": 268721888,
+          "kind": 20
+        },
+        {
+          "symbol": "??A?$OrderedList@IPAUInternalPacket@@$1?SplitPacketIndexComp@@YAHABIABQAU1@@Z@DataStructures@@QBEAAPAUInternalPacket@@I@Z",
+          "site_rva": 298094,
+          "target_va": 268714512,
+          "kind": 20
+        },
+        {
+          "symbol": "??A?$OrderedList@GPAUSplitPacketChannel@@$1?SplitPacketChannelComp@@YAHABGABQAU1@@Z@DataStructures@@QBEAAPAUSplitPacketChannel@@I@Z",
+          "site_rva": 298116,
+          "target_va": 268721888,
+          "kind": 20
+        },
+        {
+          "symbol": "?Size@?$OrderedList@IPAUInternalPacket@@$1?SplitPacketIndexComp@@YAHABIABQAU1@@Z@DataStructures@@QBEIXZ",
+          "site_rva": 298126,
+          "target_va": 268714528,
+          "kind": 20
+        },
+        {
+          "symbol": "??A?$OrderedList@GPAUSplitPacketChannel@@$1?SplitPacketChannelComp@@YAHABGABQAU1@@Z@DataStructures@@QBEAAPAUSplitPacketChannel@@I@Z",
+          "site_rva": 298148,
+          "target_va": 268721888,
+          "kind": 20
+        },
+        {
+          "symbol": "??A?$OrderedList@IPAUInternalPacket@@$1?SplitPacketIndexComp@@YAHABIABQAU1@@Z@DataStructures@@QBEAAPAUInternalPacket@@I@Z",
+          "site_rva": 298159,
+          "target_va": 268714512,
+          "kind": 20
+        },
+        {
+          "symbol": "??3@YAXPAX@Z",
+          "site_rva": 298170,
+          "target_va": 269247626,
+          "kind": 20
+        },
+        {
+          "symbol": "??A?$OrderedList@GPAUSplitPacketChannel@@$1?SplitPacketChannelComp@@YAHABGABQAU1@@Z@DataStructures@@QBEAAPAUSplitPacketChannel@@I@Z",
+          "site_rva": 298181,
+          "target_va": 268721888,
+          "kind": 20
+        },
+        {
+          "symbol": "??A?$OrderedList@IPAUInternalPacket@@$1?SplitPacketIndexComp@@YAHABIABQAU1@@Z@DataStructures@@QBEAAPAUInternalPacket@@I@Z",
+          "site_rva": 298192,
+          "target_va": 268714512,
+          "kind": 20
+        },
+        {
+          "symbol": "?ReleasePointer@InternalPacketPool@@QAEXPAUInternalPacket@@@Z",
+          "site_rva": 298202,
+          "target_va": 268626800,
+          "kind": 20
+        },
+        {
+          "symbol": "??A?$OrderedList@GPAUSplitPacketChannel@@$1?SplitPacketChannelComp@@YAHABGABQAU1@@Z@DataStructures@@QBEAAPAUSplitPacketChannel@@I@Z",
+          "site_rva": 298211,
+          "target_va": 268721888,
+          "kind": 20
+        },
+        {
+          "symbol": "?Size@?$OrderedList@IPAUInternalPacket@@$1?SplitPacketIndexComp@@YAHABIABQAU1@@Z@DataStructures@@QBEIXZ",
+          "site_rva": 298221,
+          "target_va": 268714528,
+          "kind": 20
+        },
+        {
+          "symbol": "??A?$OrderedList@GPAUSplitPacketChannel@@$1?SplitPacketChannelComp@@YAHABGABQAU1@@Z@DataStructures@@QBEAAPAUSplitPacketChannel@@I@Z",
+          "site_rva": 298237,
+          "target_va": 268721888,
+          "kind": 20
+        },
+        {
+          "symbol": "??1SplitPacketChannel@@QAE@XZ",
+          "site_rva": 298250,
+          "target_va": 268728608,
+          "kind": 20
+        },
+        {
+          "symbol": "??3@YAXPAX@Z",
+          "site_rva": 298256,
+          "target_va": 269247626,
+          "kind": 20
+        },
+        {
+          "symbol": "?RemoveAtIndex@?$OrderedList@GPAUSplitPacketChannel@@$1?SplitPacketChannelComp@@YAHABGABQAU1@@Z@DataStructures@@QAEXI@Z",
+          "site_rva": 298267,
+          "target_va": 268726720,
+          "kind": 20
+        },
+        {
+          "symbol": "?Size@?$OrderedList@GPAUSplitPacketChannel@@$1?SplitPacketChannelComp@@YAHABGABQAU1@@Z@DataStructures@@QBEIXZ",
+          "site_rva": 298277,
+          "target_va": 268721920,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_reliability_packet_family",
+      "section": 105,
+      "rva": 286464,
+      "size": 4,
+      "kind": ".text",
+      "sha256": "f7e0208f5e988ae39c7a45dfddbd12921d02f9c3deb5695d4c534c8ab0ccdb0f",
+      "whole_bytes_equal": true,
+      "bindings": []
+    },
+    {
+      "unit": "closure_vendor_reliability_packet_family",
+      "section": 146,
+      "rva": 296736,
+      "size": 542,
+      "kind": ".text",
+      "sha256": "0bc801b6c026dd54d9f03485858cce61b1ce5c4be62c34435dfaac8d3fa9fb20",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "?GetIndexFromKey@?$OrderedList@GPAUSplitPacketChannel@@$1?SplitPacketChannelComp@@YAHABGABQAU1@@Z@DataStructures@@QBEIABGPA_N@Z",
+          "site_rva": 296771,
+          "target_va": 268721648,
+          "kind": 20
+        },
+        {
+          "symbol": "??2@YAPAXI@Z",
+          "site_rva": 296788,
+          "target_va": 269247098,
+          "kind": 20
+        },
+        {
+          "symbol": "??0?$OrderedList@IPAUInternalPacket@@$1?SplitPacketIndexComp@@YAHABIABQAU1@@Z@DataStructures@@QAE@XZ",
+          "site_rva": 296805,
+          "target_va": 268721424,
+          "kind": 20
+        },
+        {
+          "symbol": "?Insert@?$OrderedList@GPAUSplitPacketChannel@@$1?SplitPacketChannelComp@@YAHABGABQAU1@@Z@DataStructures@@QAEIABGABQAUSplitPacketChannel@@@Z",
+          "site_rva": 296828,
+          "target_va": 268721792,
+          "kind": 20
+        },
+        {
+          "symbol": "??A?$OrderedList@GPAUSplitPacketChannel@@$1?SplitPacketChannelComp@@YAHABGABQAU1@@Z@DataStructures@@QBEAAPAUSplitPacketChannel@@I@Z",
+          "site_rva": 296838,
+          "target_va": 268721888,
+          "kind": 20
+        },
+        {
+          "symbol": "?Insert@?$OrderedList@IPAUInternalPacket@@$1?SplitPacketIndexComp@@YAHABIABQAU1@@Z@DataStructures@@QAEIABIABQAUInternalPacket@@@Z",
+          "site_rva": 296861,
+          "target_va": 268721440,
+          "kind": 20
+        },
+        {
+          "symbol": "??A?$OrderedList@GPAUSplitPacketChannel@@$1?SplitPacketChannelComp@@YAHABGABQAU1@@Z@DataStructures@@QBEAAPAUSplitPacketChannel@@I@Z",
+          "site_rva": 296869,
+          "target_va": 268721888,
+          "kind": 20
+        },
+        {
+          "symbol": "??A?$OrderedList@GPAUSplitPacketChannel@@$1?SplitPacketChannelComp@@YAHABGABQAU1@@Z@DataStructures@@QBEAAPAUSplitPacketChannel@@I@Z",
+          "site_rva": 296903,
+          "target_va": 268721888,
+          "kind": 20
+        },
+        {
+          "symbol": "??A?$OrderedList@IPAUInternalPacket@@$1?SplitPacketIndexComp@@YAHABIABQAU1@@Z@DataStructures@@QBEAAPAUInternalPacket@@I@Z",
+          "site_rva": 296915,
+          "target_va": 268714512,
+          "kind": 20
+        },
+        {
+          "symbol": "??A?$OrderedList@GPAUSplitPacketChannel@@$1?SplitPacketChannelComp@@YAHABGABQAU1@@Z@DataStructures@@QBEAAPAUSplitPacketChannel@@I@Z",
+          "site_rva": 296936,
+          "target_va": 268721888,
+          "kind": 20
+        },
+        {
+          "symbol": "??A?$OrderedList@IPAUInternalPacket@@$1?SplitPacketIndexComp@@YAHABIABQAU1@@Z@DataStructures@@QBEAAPAUInternalPacket@@I@Z",
+          "site_rva": 296948,
+          "target_va": 268714512,
+          "kind": 20
+        },
+        {
+          "symbol": "??A?$OrderedList@GPAUSplitPacketChannel@@$1?SplitPacketChannelComp@@YAHABGABQAU1@@Z@DataStructures@@QBEAAPAUSplitPacketChannel@@I@Z",
+          "site_rva": 296960,
+          "target_va": 268721888,
+          "kind": 20
+        },
+        {
+          "symbol": "?Size@?$OrderedList@IPAUInternalPacket@@$1?SplitPacketIndexComp@@YAHABIABQAU1@@Z@DataStructures@@QBEIXZ",
+          "site_rva": 296970,
+          "target_va": 268714528,
+          "kind": 20
+        },
+        {
+          "symbol": "??A?$OrderedList@GPAUSplitPacketChannel@@$1?SplitPacketChannelComp@@YAHABGABQAU1@@Z@DataStructures@@QBEAAPAUSplitPacketChannel@@I@Z",
+          "site_rva": 296993,
+          "target_va": 268721888,
+          "kind": 20
+        },
+        {
+          "symbol": "?Size@?$OrderedList@IPAUInternalPacket@@$1?SplitPacketIndexComp@@YAHABIABQAU1@@Z@DataStructures@@QBEIXZ",
+          "site_rva": 297003,
+          "target_va": 268714528,
+          "kind": 20
+        },
+        {
+          "symbol": "?GetPointer@InternalPacketPool@@QAEPAUInternalPacket@@XZ",
+          "site_rva": 297026,
+          "target_va": 268719104,
+          "kind": 20
+        },
+        {
+          "symbol": "??A?$OrderedList@GPAUSplitPacketChannel@@$1?SplitPacketChannelComp@@YAHABGABQAU1@@Z@DataStructures@@QBEAAPAUSplitPacketChannel@@I@Z",
+          "site_rva": 297040,
+          "target_va": 268721888,
+          "kind": 20
+        },
+        {
+          "symbol": "??A?$OrderedList@IPAUInternalPacket@@$1?SplitPacketIndexComp@@YAHABIABQAU1@@Z@DataStructures@@QBEAAPAUInternalPacket@@I@Z",
+          "site_rva": 297052,
+          "target_va": 268714512,
+          "kind": 20
+        },
+        {
+          "symbol": "??2@YAPAXI@Z",
+          "site_rva": 297072,
+          "target_va": 269247098,
+          "kind": 20
+        },
+        {
+          "symbol": "??A?$OrderedList@GPAUSplitPacketChannel@@$1?SplitPacketChannelComp@@YAHABGABQAU1@@Z@DataStructures@@QBEAAPAUSplitPacketChannel@@I@Z",
+          "site_rva": 297102,
+          "target_va": 268721888,
+          "kind": 20
+        },
+        {
+          "symbol": "?Size@?$OrderedList@IPAUInternalPacket@@$1?SplitPacketIndexComp@@YAHABIABQAU1@@Z@DataStructures@@QBEIXZ",
+          "site_rva": 297112,
+          "target_va": 268714528,
+          "kind": 20
+        },
+        {
+          "symbol": "??A?$OrderedList@GPAUSplitPacketChannel@@$1?SplitPacketChannelComp@@YAHABGABQAU1@@Z@DataStructures@@QBEAAPAUSplitPacketChannel@@I@Z",
+          "site_rva": 297139,
+          "target_va": 268721888,
+          "kind": 20
+        },
+        {
+          "symbol": "??A?$OrderedList@IPAUInternalPacket@@$1?SplitPacketIndexComp@@YAHABIABQAU1@@Z@DataStructures@@QBEAAPAUInternalPacket@@I@Z",
+          "site_rva": 297151,
+          "target_va": 268714512,
+          "kind": 20
+        },
+        {
+          "symbol": "??A?$OrderedList@GPAUSplitPacketChannel@@$1?SplitPacketChannelComp@@YAHABGABQAU1@@Z@DataStructures@@QBEAAPAUSplitPacketChannel@@I@Z",
+          "site_rva": 297176,
+          "target_va": 268721888,
+          "kind": 20
+        },
+        {
+          "symbol": "??A?$OrderedList@IPAUInternalPacket@@$1?SplitPacketIndexComp@@YAHABIABQAU1@@Z@DataStructures@@QBEAAPAUInternalPacket@@I@Z",
+          "site_rva": 297188,
+          "target_va": 268714512,
+          "kind": 20
+        },
+        {
+          "symbol": "??A?$OrderedList@GPAUSplitPacketChannel@@$1?SplitPacketChannelComp@@YAHABGABQAU1@@Z@DataStructures@@QBEAAPAUSplitPacketChannel@@I@Z",
+          "site_rva": 297198,
+          "target_va": 268721888,
+          "kind": 20
+        },
+        {
+          "symbol": "??A?$OrderedList@IPAUInternalPacket@@$1?SplitPacketIndexComp@@YAHABIABQAU1@@Z@DataStructures@@QBEAAPAUInternalPacket@@I@Z",
+          "site_rva": 297210,
+          "target_va": 268714512,
+          "kind": 20
+        },
+        {
+          "symbol": "?Push@?$Queue@PAUInternalPacket@@@DataStructures@@QAEXABQAUInternalPacket@@@Z",
+          "site_rva": 297264,
+          "target_va": 268626240,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_reliability_packet_family",
+      "section": 12,
+      "rva": 190784,
+      "size": 189,
+      "kind": ".text",
+      "sha256": "189c9cf9be7d9cb227300dc33e0a824f4b01a84a094a01b7477d5ed8de9c9dd4",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "??2@YAPAXI@Z",
+          "site_rva": 190797,
+          "target_va": 269247098,
+          "kind": 20
+        },
+        {
+          "symbol": "??2@YAPAXI@Z",
+          "site_rva": 190894,
+          "target_va": 269247098,
+          "kind": 20
+        },
+        {
+          "symbol": "??3@YAXPAX@Z",
+          "site_rva": 190959,
+          "target_va": 269247626,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_reliability_packet_family",
+      "section": 95,
+      "rva": 285984,
+      "size": 91,
+      "kind": ".text",
+      "sha256": "45648c846e74968bc368663c6b6ec30b05371a4257f6f2d01448849c1337d84f",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "?GetIndexFromKey@?$OrderedList@IPAUInternalPacket@@$1?SplitPacketIndexComp@@YAHABIABQAU1@@Z@DataStructures@@QBEIABIPA_N@Z",
+          "site_rva": 286001,
+          "target_va": 268716576,
+          "kind": 20
+        },
+        {
+          "symbol": "?Insert@?$List@PAUInternalPacket@@@DataStructures@@QAEXQAUInternalPacket@@@Z",
+          "site_rva": 286040,
+          "target_va": 268716304,
+          "kind": 20
+        },
+        {
+          "symbol": "?Insert@?$List@PAUInternalPacket@@@DataStructures@@QAEXQAUInternalPacket@@I@Z",
+          "site_rva": 286064,
+          "target_va": 268716416,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_reliability_packet_family",
+      "section": 50,
+      "rva": 280960,
+      "size": 137,
+      "kind": ".text",
+      "sha256": "4aaa0cff1d7000fed464e9b01452ec33d8944c495826f0f199676766112b0019",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "??2@YAPAXI@Z",
+          "site_rva": 281000,
+          "target_va": 269247098,
+          "kind": 20
+        },
+        {
+          "symbol": "??3@YAXPAX@Z",
+          "site_rva": 281034,
+          "target_va": 269247626,
+          "kind": 20
+        },
+        {
+          "symbol": "_memmove",
+          "site_rva": 281069,
+          "target_va": 269250016,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_reliability_packet_family",
+      "section": 48,
+      "rva": 280848,
+      "size": 105,
+      "kind": ".text",
+      "sha256": "d4281c3185be378f3f629f134805be5f5b72b3128791ddfc4b58265bec117f1d",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "??2@YAPAXI@Z",
+          "site_rva": 280888,
+          "target_va": 269247098,
+          "kind": 20
+        },
+        {
+          "symbol": "??3@YAXPAX@Z",
+          "site_rva": 280922,
+          "target_va": 269247626,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_reliability_packet_family",
+      "section": 54,
+      "rva": 281120,
+      "size": 141,
+      "kind": ".text",
+      "sha256": "2adc2c56600703e49666bdcb1ebe7d871040ff779083fbddeae27d1426057862",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "?SplitPacketIndexComp@@YAHABIABQAUInternalPacket@@@Z",
+          "site_rva": 281170,
+          "target_va": 268713072,
+          "kind": 20
+        },
+        {
+          "symbol": "?SplitPacketIndexComp@@YAHABIABQAUInternalPacket@@@Z",
+          "site_rva": 281218,
+          "target_va": 268713072,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_reliability_packet_family",
+      "section": 4,
+      "rva": 277616,
+      "size": 33,
+      "kind": ".text",
+      "sha256": "e0586d9b8f75d3993ea3d66790b05d986216023409892c56b66ae2ec481ef4e4",
+      "whole_bytes_equal": true,
+      "bindings": []
+    },
+    {
+      "unit": "closure_vendor_reliability_packet_family",
+      "section": 101,
+      "rva": 286336,
+      "size": 91,
+      "kind": ".text",
+      "sha256": "4aa45687d599c5cef80854aeba53c6b3893e2af861876371d60a631a9f329bec",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "?GetIndexFromKey@?$OrderedList@GPAUSplitPacketChannel@@$1?SplitPacketChannelComp@@YAHABGABQAU1@@Z@DataStructures@@QBEIABGPA_N@Z",
+          "site_rva": 286353,
+          "target_va": 268721648,
+          "kind": 20
+        },
+        {
+          "symbol": "?Insert@?$List@PAUSplitPacketChannel@@@DataStructures@@QAEXQAUSplitPacketChannel@@@Z",
+          "site_rva": 286392,
+          "target_va": 268717136,
+          "kind": 20
+        },
+        {
+          "symbol": "?Insert@?$List@PAUSplitPacketChannel@@@DataStructures@@QAEXQAUSplitPacketChannel@@I@Z",
+          "site_rva": 286416,
+          "target_va": 268717248,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_reliability_packet_family",
+      "section": 62,
+      "rva": 281792,
+      "size": 137,
+      "kind": ".text",
+      "sha256": "cc7250a6329a3b67ffd1a4a642bdcb6397eb008bc15aec22e555bb8d44bff007",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "??2@YAPAXI@Z",
+          "site_rva": 281832,
+          "target_va": 269247098,
+          "kind": 20
+        },
+        {
+          "symbol": "??3@YAXPAX@Z",
+          "site_rva": 281866,
+          "target_va": 269247626,
+          "kind": 20
+        },
+        {
+          "symbol": "_memmove",
+          "site_rva": 281901,
+          "target_va": 269250016,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_reliability_packet_family",
+      "section": 60,
+      "rva": 281680,
+      "size": 105,
+      "kind": ".text",
+      "sha256": "14d40f8c8cf0aeb2c2384a73d3eff0873e3df7ace5a7d16fbccb2eb1336fa391",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "??2@YAPAXI@Z",
+          "site_rva": 281720,
+          "target_va": 269247098,
+          "kind": 20
+        },
+        {
+          "symbol": "??3@YAXPAX@Z",
+          "site_rva": 281754,
+          "target_va": 269247626,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_reliability_packet_family",
+      "section": 93,
+      "rva": 285968,
+      "size": 12,
+      "kind": ".text",
+      "sha256": "3606d1202eb9369c4e56ffed604dfa946e1b4f9b46ee746bdf0c0c1f76a9ecd4",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "??0?$List@PAUInternalPacket@@@DataStructures@@QAE@XZ",
+          "site_rva": 285972,
+          "target_va": 268716256,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_reliability_packet_family",
+      "section": 44,
+      "rva": 280800,
+      "size": 13,
+      "kind": ".text",
+      "sha256": "efaddf6f7c64b7d0dd7d70e04563c88df5b21978a063a338954e28cc09d4e5e9",
+      "whole_bytes_equal": true,
+      "bindings": []
+    },
+    {
+      "unit": "closure_vendor_reliability_packet_family",
+      "section": 144,
+      "rva": 293328,
+      "size": 320,
+      "kind": ".text",
+      "sha256": "c96313dce8140cff6538d875faacd9f5b20f373d06429e8559b176d40fed246f",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "?Size@?$RangeList@G@DataStructures@@QAEIXZ",
+          "site_rva": 293481,
+          "target_va": 268721568,
+          "kind": 20
+        },
+        {
+          "symbol": "?Size@?$OrderedList@GPAUSplitPacketChannel@@$1?SplitPacketChannelComp@@YAHABGABQAU1@@Z@DataStructures@@QBEIXZ",
+          "site_rva": 293512,
+          "target_va": 268721920,
+          "kind": 20
+        },
+        {
+          "symbol": "??A?$OrderedList@GPAUSplitPacketChannel@@$1?SplitPacketChannelComp@@YAHABGABQAU1@@Z@DataStructures@@QBEAAPAUSplitPacketChannel@@I@Z",
+          "site_rva": 293524,
+          "target_va": 268721888,
+          "kind": 20
+        },
+        {
+          "symbol": "?Size@?$OrderedList@IPAUInternalPacket@@$1?SplitPacketIndexComp@@YAHABIABQAU1@@Z@DataStructures@@QBEIXZ",
+          "site_rva": 293534,
+          "target_va": 268714528,
+          "kind": 20
+        },
+        {
+          "symbol": "?Size@?$OrderedList@GPAUSplitPacketChannel@@$1?SplitPacketChannelComp@@YAHABGABQAU1@@Z@DataStructures@@QBEIXZ",
+          "site_rva": 293548,
+          "target_va": 268721920,
+          "kind": 20
+        },
+        {
+          "symbol": "?GetResendListDataSize@ReliabilityLayer@@ABEIXZ",
+          "site_rva": 293610,
+          "target_va": 268725968,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_reliability_packet_family",
+      "section": 121,
+      "rva": 290512,
+      "size": 8,
+      "kind": ".text",
+      "sha256": "69dc336cb70783b031107dcd1b1ee42d6477986f02d5feb45c84bdaa96fc8096",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "?Size@?$BPlusTree@GPAUInternalPacket@@$0CA@@DataStructures@@QBEIXZ",
+          "site_rva": 290516,
+          "target_va": 268721584,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_reliability_packet_family",
+      "section": 97,
+      "rva": 286128,
+      "size": 35,
+      "kind": ".text",
+      "sha256": "f7a0f2d211e2d51c43a36a5d3f17a827649c6082dfea6bf437cfb8e262d2f1e9",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "?GetListHead@?$BPlusTree@GPAUInternalPacket@@$0CA@@DataStructures@@QBEPAU?$Page@GPAUInternalPacket@@$0CA@@2@XZ",
+          "site_rva": 286132,
+          "target_va": 268716800,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_reliability_packet_family",
+      "section": 56,
+      "rva": 281344,
+      "size": 4,
+      "kind": ".text",
+      "sha256": "01d3abacb68aac3537badfe563d0e21d0244fb61db1d805bcef8f455407fad96",
+      "whole_bytes_equal": true,
+      "bindings": []
+    },
+    {
+      "unit": "closure_vendor_reliability_packet_family",
+      "section": 130,
+      "rva": 286112,
+      "size": 5,
+      "kind": ".text",
+      "sha256": "ae2b9c64587f92098803a093d047e66faaeea202f146e863635f9331d1eddfee",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "?Size@?$OrderedList@GU?$RangeNode@G@DataStructures@@$1??$RangeNodeComp@G@2@YAHABGABU12@@Z@DataStructures@@QBEIXZ",
+          "site_rva": 286113,
+          "target_va": 268721552,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_reliability_packet_family",
+      "section": 111,
+      "rva": 286096,
+      "size": 4,
+      "kind": ".text",
+      "sha256": "f7e0208f5e988ae39c7a45dfddbd12921d02f9c3deb5695d4c534c8ab0ccdb0f",
+      "whole_bytes_equal": true,
+      "bindings": []
+    },
+    {
+      "unit": "closure_vendor_reliability_packet_family",
+      "section": 142,
+      "rva": 293184,
+      "size": 135,
+      "kind": ".text",
+      "sha256": "2fd63260e28bd4c2bfbd20ec0c8ec60dd5a21b88fdf98538a41035def3362c29",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "?GetOrderingListAtOrderingStream@ReliabilityLayer@@AAEPAV?$LinkedList@PAUInternalPacket@@@DataStructures@@E@Z",
+          "site_rva": 293228,
+          "target_va": 268720976,
+          "kind": 20
+        },
+        {
+          "symbol": "??2@YAPAXI@Z",
+          "site_rva": 293238,
+          "target_va": 269247098,
+          "kind": 20
+        },
+        {
+          "symbol": "??0?$CircularLinkedList@PAUInternalPacket@@@DataStructures@@QAE@XZ",
+          "site_rva": 293254,
+          "target_va": 268715856,
+          "kind": 20
+        },
+        {
+          "symbol": "?Replace@?$List@PAV?$LinkedList@PAUInternalPacket@@@DataStructures@@@DataStructures@@QAEXQAV?$LinkedList@PAUInternalPacket@@@2@0I@Z",
+          "site_rva": 293275,
+          "target_va": 268714608,
+          "kind": 20
+        },
+        {
+          "symbol": "?Add@?$CircularLinkedList@PAUInternalPacket@@@DataStructures@@QAEAAPAUInternalPacket@@ABQAU3@@Z",
+          "site_rva": 293310,
+          "target_va": 268715872,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_reliability_packet_family",
+      "section": 38,
+      "rva": 280416,
+      "size": 189,
+      "kind": ".text",
+      "sha256": "cbb3cf424bae4d4455e27c215a81a62f3f15938415acda559d192bf289760e2d",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "??2@YAPAXI@Z",
+          "site_rva": 280428,
+          "target_va": 269247098,
+          "kind": 20
+        },
+        {
+          "symbol": "??2@YAPAXI@Z",
+          "site_rva": 280480,
+          "target_va": 269247098,
+          "kind": 20
+        },
+        {
+          "symbol": "??2@YAPAXI@Z",
+          "site_rva": 280551,
+          "target_va": 269247098,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_reliability_packet_family",
+      "section": 30,
+      "rva": 279152,
+      "size": 160,
+      "kind": ".text",
+      "sha256": "d82ff4f532ecdec4ccefaf1c5e2d45a9207615b3d075c06ab0408bb4571e1566",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "??2@YAPAXI@Z",
+          "site_rva": 279207,
+          "target_va": 269247098,
+          "kind": 20
+        },
+        {
+          "symbol": "??3@YAXPAX@Z",
+          "site_rva": 279243,
+          "target_va": 269247626,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_reliability_packet_family",
+      "section": 36,
+      "rva": 280400,
+      "size": 13,
+      "kind": ".text",
+      "sha256": "32e60104bd8ae8912bcf9632d3717bbb831f19a09c59064e672796b31159c9a4",
+      "whole_bytes_equal": true,
+      "bindings": []
+    },
+    {
+      "unit": "closure_vendor_reliability_packet_family",
+      "section": 83,
+      "rva": 285520,
+      "size": 23,
+      "kind": ".text",
+      "sha256": "8457418fb7331cea866c6a774c05598d811d85333413f005b100c0d98e76016c",
+      "whole_bytes_equal": true,
+      "bindings": []
+    },
+    {
+      "unit": "closure_vendor_reliability_packet_family",
+      "section": 136,
+      "rva": 290128,
+      "size": 17,
+      "kind": ".text",
+      "sha256": "05bdaaf3228bacb2f724c56273035485a591be9a8cb42ed57bc8e22076f603f3",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "?Size@?$RangeList@G@DataStructures@@QAEIXZ",
+          "site_rva": 290132,
+          "target_va": 268721568,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_reliability_packet_family",
+      "section": 134,
+      "rva": 289968,
+      "size": 145,
+      "kind": ".text",
+      "sha256": "5b6bf922cc37124f6dd345e5120d7e26d60c9663ada9db41bf810f0529149c2e",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "?Size@?$RangeList@G@DataStructures@@QAEIXZ",
+          "site_rva": 290023,
+          "target_va": 268721568,
+          "kind": 20
+        },
+        {
+          "symbol": "?IsEmpty@?$BPlusTree@GPAUInternalPacket@@$0CA@@DataStructures@@QBE_NXZ",
+          "site_rva": 290035,
+          "target_va": 268714848,
+          "kind": 20
+        },
+        {
+          "symbol": "?Size@?$OrderedList@GPAUSplitPacketChannel@@$1?SplitPacketChannelComp@@YAHABGABQAU1@@Z@DataStructures@@QBEIXZ",
+          "site_rva": 290090,
+          "target_va": 268721920,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_reliability_packet_family",
+      "section": 34,
+      "rva": 279392,
+      "size": 11,
+      "kind": ".text",
+      "sha256": "c71f693fefcc8cbe7ec2a767eaec65b6ddb92ec75f4c627e6eb59f690bdc6dbd",
+      "whole_bytes_equal": true,
+      "bindings": []
+    },
+    {
+      "unit": "closure_vendor_reliability_packet_family",
+      "section": 119,
+      "rva": 290272,
+      "size": 233,
+      "kind": ".text",
+      "sha256": "b7272c064b8b24a82b0e7b57eb6402ca6f7b32306a03e3e415742bf4f6d28f9b",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "?Del@?$Queue@PAUInternalPacket@@@DataStructures@@QAEXI@Z",
+          "site_rva": 290442,
+          "target_va": 268721248,
+          "kind": 20
+        },
+        {
+          "symbol": "??3@YAXPAX@Z",
+          "site_rva": 290451,
+          "target_va": 269247626,
+          "kind": 20
+        },
+        {
+          "symbol": "?ReleasePointer@InternalPacketPool@@QAEXPAUInternalPacket@@@Z",
+          "site_rva": 290470,
+          "target_va": 268626800,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_reliability_packet_family",
+      "section": 89,
+      "rva": 285792,
+      "size": 110,
+      "kind": ".text",
+      "sha256": "1dc2acf93655e7a7cebce168922ba63a924f8a5a050670cd90db01acb98e9f4b",
+      "whole_bytes_equal": true,
+      "bindings": []
+    },
+    {
+      "unit": "closure_vendor_reliability_packet_family",
+      "section": 117,
+      "rva": 290160,
+      "size": 111,
+      "kind": ".text",
+      "sha256": "30c139b77e11fdc00c327b5716606658780b9b38b078b21e3096edb995dd0ae1",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "?RemoveAtIndex@?$List@PAUInternalPacket@@@DataStructures@@QAEXI@Z",
+          "site_rva": 290228,
+          "target_va": 268721360,
+          "kind": 20
+        },
+        {
+          "symbol": "??3@YAXPAX@Z",
+          "site_rva": 290237,
+          "target_va": 269247626,
+          "kind": 20
+        },
+        {
+          "symbol": "?ReleasePointer@InternalPacketPool@@QAEXPAUInternalPacket@@@Z",
+          "site_rva": 290252,
+          "target_va": 268626800,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_reliability_packet_family",
+      "section": 91,
+      "rva": 285904,
+      "size": 53,
+      "kind": ".text",
+      "sha256": "fa875b2543f3d99013d5d6d4e195a584b89076ac292564dc5f172fc4e00bb71a",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "_memmove",
+          "site_rva": 285939,
+          "target_va": 269250016,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_reliability_packet_family",
+      "section": 115,
+      "rva": 289536,
+      "size": 417,
+      "kind": ".text",
+      "sha256": "43d08521581b87a6ab2debc91cacb1cf68952dd94c163ffcbc54de44a8a30662",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "?GetPointer@InternalPacketPool@@QAEPAUInternalPacket@@XZ",
+          "site_rva": 289635,
+          "target_va": 268719104,
+          "kind": 20
+        },
+        {
+          "symbol": "??2@YAPAXI@Z",
+          "site_rva": 289669,
+          "target_va": 269247098,
+          "kind": 20
+        },
+        {
+          "symbol": "?GetBitStreamHeaderLength@ReliabilityLayer@@AAEHQBUInternalPacket@@@Z",
+          "site_rva": 289761,
+          "target_va": 268713664,
+          "kind": 20
+        },
+        {
+          "symbol": "?IsKeySet@TEABlockEncryptor@@QBE_NXZ",
+          "site_rva": 289787,
+          "target_va": 268790160,
+          "kind": 20
+        },
+        {
+          "symbol": "?SplitPacket@ReliabilityLayer@@AAEXPAUInternalPacket@@H@Z",
+          "site_rva": 289905,
+          "target_va": 268720128,
+          "kind": 20
+        },
+        {
+          "symbol": "?Push@?$Queue@PAUInternalPacket@@@DataStructures@@QAEXABQAUInternalPacket@@@Z",
+          "site_rva": 289937,
+          "target_va": 268626240,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_reliability_packet_family",
+      "section": 80,
+      "rva": 284672,
+      "size": 677,
+      "kind": ".text",
+      "sha256": "8bda389d5466b8aa8b1f02d7cd87e04df359cb342766046968b08011355fcd8f",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "?GetBitStreamHeaderLength@ReliabilityLayer@@AAEHQBUInternalPacket@@@Z",
+          "site_rva": 284698,
+          "target_va": 268713664,
+          "kind": 20
+        },
+        {
+          "symbol": "?IsKeySet@TEABlockEncryptor@@QBE_NXZ",
+          "site_rva": 284735,
+          "target_va": 268790160,
+          "kind": 20
+        },
+        {
+          "symbol": "__alloca_probe",
+          "site_rva": 284800,
+          "target_va": 269254320,
+          "kind": 20
+        },
+        {
+          "symbol": "??2@YAPAXI@Z",
+          "site_rva": 284815,
+          "target_va": 269247098,
+          "kind": 20
+        },
+        {
+          "symbol": "??2@YAPAXI@Z",
+          "site_rva": 284956,
+          "target_va": 269247098,
+          "kind": 20
+        },
+        {
+          "symbol": "??2@YAPAXI@Z",
+          "site_rva": 285042,
+          "target_va": 269247098,
+          "kind": 20
+        },
+        {
+          "symbol": "?Push@?$Queue@PAUInternalPacket@@@DataStructures@@QAEXABQAUInternalPacket@@@Z",
+          "site_rva": 285276,
+          "target_va": 268626240,
+          "kind": 20
+        },
+        {
+          "symbol": "??3@YAXPAX@Z",
+          "site_rva": 285296,
+          "target_va": 269247626,
+          "kind": 20
+        },
+        {
+          "symbol": "?ReleasePointer@InternalPacketPool@@QAEXPAUInternalPacket@@@Z",
+          "site_rva": 285314,
+          "target_va": 268626800,
+          "kind": 20
+        },
+        {
+          "symbol": "??3@YAXPAX@Z",
+          "site_rva": 285330,
+          "target_va": 269247626,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_reliability_packet_family",
+      "section": 8,
+      "rva": 278208,
+      "size": 54,
+      "kind": ".text",
+      "sha256": "b69ee01324f8e2232c36bfd8bfd3ea2761573418102da80ba5f9e843a7c687a0",
+      "whole_bytes_equal": true,
+      "bindings": []
+    },
+    {
+      "unit": "closure_vendor_reliability_packet_family",
+      "section": 87,
+      "rva": 285696,
+      "size": 91,
+      "kind": ".text",
+      "sha256": "48348341cded892d0057a4dd693e5ca74c0756e5ca6c975112839ab3a39d82d9",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "?UpdateNextActionTime@ReliabilityLayer@@AAEXXZ",
+          "site_rva": 285780,
+          "target_va": 268714096,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_reliability_packet_family",
+      "section": 10,
+      "rva": 278640,
+      "size": 55,
+      "kind": ".text",
+      "sha256": "82755c7e37bfc62324110ccf6442db301377b11056920ef2076f0bca80213b18",
+      "whole_bytes_equal": true,
+      "bindings": []
+    },
+    {
+      "unit": "closure_vendor_reliability_packet_family",
+      "section": 85,
+      "rva": 285552,
+      "size": 134,
+      "kind": ".text",
+      "sha256": "cef67c1b821484c79b147bfb5e26d6f034efc0615bf104c55d54ee21b0e91890",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "?IsEmpty@?$BPlusTree@GPAUInternalPacket@@$0CA@@DataStructures@@QBE_NXZ",
+          "site_rva": 285581,
+          "target_va": 268714848,
+          "kind": 20
+        },
+        {
+          "symbol": "?GetPointer@InternalPacketPool@@QAEPAUInternalPacket@@XZ",
+          "site_rva": 285626,
+          "target_va": 268719104,
+          "kind": 20
+        },
+        {
+          "symbol": "?Push@?$Queue@PAUInternalPacket@@@DataStructures@@QAEXABQAUInternalPacket@@@Z",
+          "site_rva": 285659,
+          "target_va": 268626240,
+          "kind": 20
+        },
+        {
+          "symbol": "?Push@?$Queue@PAUInternalPacket@@@DataStructures@@QAEXABQAUInternalPacket@@@Z",
+          "site_rva": 285678,
+          "target_va": 268626240,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_reliability_packet_family",
+      "section": 78,
+      "rva": 283824,
+      "size": 123,
+      "kind": ".text",
+      "sha256": "5ac6072697e07fc6ff18887aaef208e34bdb73e92dc134ce5a0a3c98f187e096",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "?ReleasePointer@InternalPacketPool@@QAEXPAUInternalPacket@@@Z",
+          "site_rva": 283931,
+          "target_va": 268626800,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_reliability_packet_family",
+      "section": 6,
+      "rva": 277664,
+      "size": 31,
+      "kind": ".text",
+      "sha256": "0bb5683479a986a004b489131eaaf55dcb8db7ecd5bfae280f252113e6692819",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "?SetKey@TEABlockEncryptor@@QAEXQBE@Z",
+          "site_rva": 277683,
+          "target_va": 268790176,
+          "kind": 20
+        },
+        {
+          "symbol": "?UnsetKey@TEABlockEncryptor@@QAEXXZ",
+          "site_rva": 277688,
+          "target_va": 268790192,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_reliability_packet_family",
+      "section": 126,
+      "rva": 928928,
+      "size": 18,
+      "kind": ".text$x",
+      "sha256": "a8e8b8b5729f9490d9262f8ce4204f392fa6cafe01d97038a29c0e4cb588f63b",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "??1?$List@PAUInternalPacket@@@DataStructures@@QAE@XZ",
+          "site_rva": 928932,
+          "target_va": 268716272,
+          "kind": 20
+        },
+        {
+          "symbol": "$T62033",
+          "site_rva": 928937,
+          "target_va": 269461872,
+          "kind": 6
+        },
+        {
+          "symbol": "___CxxFrameHandler",
+          "site_rva": 928942,
+          "target_va": 269247782,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_reliability_packet_family",
+      "section": 127,
+      "rva": 1026408,
+      "size": 36,
+      "kind": ".xdata$x",
+      "sha256": "8f88cd6b3da4dc096e8d72dccc56f2e2b646a0588bd26c4e208b585264282da7",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "$L62029",
+          "site_rva": 1026412,
+          "target_va": 269364384,
+          "kind": 6
+        },
+        {
+          "symbol": "$T62036",
+          "site_rva": 1026424,
+          "target_va": 269461864,
+          "kind": 6
+        }
+      ]
+    }
+  ],
+  "bindings_checked": 190,
+  "external_targets": {
+    "??2@YAPAXI@Z": 269247098,
+    "??3@YAXPAX@Z": 269247626,
+    "?ReleasePointer@InternalPacketPool@@QAEXPAUInternalPacket@@@Z": 268626800,
+    "_memmove": 269250016,
+    "__ehhandler$??1?$OrderedList@IPAUInternalPacket@@$1?SplitPacketIndexComp@@YAHABIABQAU1@@Z@DataStructures@@QAE@XZ": 269364392,
+    "__except_list": 0,
+    "?IsKeySet@TEABlockEncryptor@@QBE_NXZ": 268790160,
+    "__alloca_probe": 269254320,
+    "?SetKey@TEABlockEncryptor@@QAEXQBE@Z": 268790176,
+    "?UnsetKey@TEABlockEncryptor@@QAEXXZ": 268790192,
+    "$T62033": 269461872,
+    "___CxxFrameHandler": 269247782,
+    "$L62029": 269364384,
+    "$T62036": 269461864
+  },
+  "identity_reasons": {
+    "?SetEncryptionKey@ReliabilityLayer@@QAEXPBE@Z": "source method semantics + original call graph / allocation / table owner",
+    "?Receive@ReliabilityLayer@@QAEHPAPAE@Z": "source method semantics + original call graph / allocation / table owner",
+    "?SplitPacket@ReliabilityLayer@@AAEXPAUInternalPacket@@H@Z": "actual relocation from ?Send@ReliabilityLayer@@QAE_NPADHW4PacketPriority@@W4PacketReliability@@E_NH_J@Z",
+    "?CreateInternalPacketCopy@ReliabilityLayer@@AAEPAUInternalPacket@@PAU2@HH_J@Z": "actual relocation from ?BuildPacketFromSplitPacketList@ReliabilityLayer@@AAEPAUInternalPacket@@G_J@Z",
+    "?InsertPacketIntoResendList@ReliabilityLayer@@AAEXPAUInternalPacket@@_J_N2@Z": "source method semantics + original call graph / allocation / table owner",
+    "?SetPing@ReliabilityLayer@@QAEXI@Z": "source method semantics + original call graph / allocation / table owner",
+    "?Send@ReliabilityLayer@@QAE_NPADHW4PacketPriority@@W4PacketReliability@@E_NH_J@Z": "source method semantics + original call graph / allocation / table owner",
+    "?DeleteSequencedPacketsInList@ReliabilityLayer@@AAEXEAAV?$List@PAUInternalPacket@@@DataStructures@@H@Z": "source method semantics + original call graph / allocation / table owner",
+    "?DeleteSequencedPacketsInList@ReliabilityLayer@@AAEXEAAV?$Queue@PAUInternalPacket@@@DataStructures@@@Z": "source method semantics + original call graph / allocation / table owner",
+    "?GetResendListDataSize@ReliabilityLayer@@ABEIXZ": "actual relocation from ?GetStatistics@ReliabilityLayer@@QAEQAURakNetStatisticsStruct@@_N@Z",
+    "?IsDataWaiting@ReliabilityLayer@@QAE_NXZ": "source method semantics + original call graph / allocation / table owner",
+    "?AreAcksWaiting@ReliabilityLayer@@QAE_NXZ": "source method semantics + original call graph / allocation / table owner",
+    "?AddToOrderingList@ReliabilityLayer@@AAEXPAUInternalPacket@@@Z": "source method semantics + original call graph / allocation / table owner",
+    "?GetStatistics@ReliabilityLayer@@QAEQAURakNetStatisticsStruct@@_N@Z": "source method semantics + original call graph / allocation / table owner",
+    "?InsertIntoSplitPacketList@ReliabilityLayer@@AAEXPAUInternalPacket@@_J@Z": "source method semantics + original call graph / allocation / table owner",
+    "?DeleteOldUnreliableSplitPackets@ReliabilityLayer@@AAEX_J@Z": "source method semantics + original call graph / allocation / table owner",
+    "?BuildPacketFromSplitPacketList@ReliabilityLayer@@AAEPAUInternalPacket@@G_J@Z": "source method semantics + original call graph / allocation / table owner",
+    "?GetIndexFromKey@?$OrderedList@GPAUSplitPacketChannel@@$1?SplitPacketChannelComp@@YAHABGABQAU1@@Z@DataStructures@@QBEIABGPA_N@Z": "actual relocation from ?BuildPacketFromSplitPacketList@ReliabilityLayer@@AAEPAUInternalPacket@@G_J@Z",
+    "??A?$OrderedList@GPAUSplitPacketChannel@@$1?SplitPacketChannelComp@@YAHABGABQAU1@@Z@DataStructures@@QBEAAPAUSplitPacketChannel@@I@Z": "actual relocation from ?BuildPacketFromSplitPacketList@ReliabilityLayer@@AAEPAUInternalPacket@@G_J@Z",
+    "??A?$OrderedList@IPAUInternalPacket@@$1?SplitPacketIndexComp@@YAHABIABQAU1@@Z@DataStructures@@QBEAAPAUInternalPacket@@I@Z": "actual relocation from ?BuildPacketFromSplitPacketList@ReliabilityLayer@@AAEPAUInternalPacket@@G_J@Z",
+    "?Size@?$OrderedList@IPAUInternalPacket@@$1?SplitPacketIndexComp@@YAHABIABQAU1@@Z@DataStructures@@QBEIXZ": "actual relocation from ?BuildPacketFromSplitPacketList@ReliabilityLayer@@AAEPAUInternalPacket@@G_J@Z",
+    "??1SplitPacketChannel@@QAE@XZ": "actual relocation from ?BuildPacketFromSplitPacketList@ReliabilityLayer@@AAEPAUInternalPacket@@G_J@Z",
+    "?RemoveAtIndex@?$OrderedList@GPAUSplitPacketChannel@@$1?SplitPacketChannelComp@@YAHABGABQAU1@@Z@DataStructures@@QAEXI@Z": "actual relocation from ?BuildPacketFromSplitPacketList@ReliabilityLayer@@AAEPAUInternalPacket@@G_J@Z",
+    "?RemoveAtIndex@?$List@PAUSplitPacketChannel@@@DataStructures@@QAEXI@Z": "actual relocation from ?RemoveAtIndex@?$OrderedList@GPAUSplitPacketChannel@@$1?SplitPacketChannelComp@@YAHABGABQAU1@@Z@DataStructures@@QAEXI@Z",
+    "??1?$OrderedList@IPAUInternalPacket@@$1?SplitPacketIndexComp@@YAHABIABQAU1@@Z@DataStructures@@QAE@XZ": "actual relocation from ??1SplitPacketChannel@@QAE@XZ",
+    "?Clear@?$OrderedList@IPAUInternalPacket@@$1?SplitPacketIndexComp@@YAHABIABQAU1@@Z@DataStructures@@QAEXXZ": "actual relocation from ??1?$OrderedList@IPAUInternalPacket@@$1?SplitPacketIndexComp@@YAHABIABQAU1@@Z@DataStructures@@QAE@XZ",
+    "??1?$List@PAUInternalPacket@@@DataStructures@@QAE@XZ": "actual relocation from ??1?$OrderedList@IPAUInternalPacket@@$1?SplitPacketIndexComp@@YAHABIABQAU1@@Z@DataStructures@@QAE@XZ",
+    "?Clear@?$List@PAUInternalPacket@@@DataStructures@@QAEX_N@Z": "actual relocation from ?Clear@?$OrderedList@IPAUInternalPacket@@$1?SplitPacketIndexComp@@YAHABIABQAU1@@Z@DataStructures@@QAEXXZ",
+    "?GetPointer@InternalPacketPool@@QAEPAUInternalPacket@@XZ": "actual relocation from ?CreateInternalPacketCopy@ReliabilityLayer@@AAEPAUInternalPacket@@PAU2@HH_J@Z",
+    "?SplitPacketChannelComp@@YAHABGABQAUSplitPacketChannel@@@Z": "actual relocation from ?GetIndexFromKey@?$OrderedList@GPAUSplitPacketChannel@@$1?SplitPacketChannelComp@@YAHABGABQAU1@@Z@DataStructures@@QBEIABGPA_N@Z",
+    "?Size@?$OrderedList@GPAUSplitPacketChannel@@$1?SplitPacketChannelComp@@YAHABGABQAU1@@Z@DataStructures@@QBEIXZ": "actual relocation from ?DeleteOldUnreliableSplitPackets@ReliabilityLayer@@AAEX_J@Z",
+    "??0?$OrderedList@IPAUInternalPacket@@$1?SplitPacketIndexComp@@YAHABIABQAU1@@Z@DataStructures@@QAE@XZ": "actual relocation from ?InsertIntoSplitPacketList@ReliabilityLayer@@AAEXPAUInternalPacket@@_J@Z",
+    "?Insert@?$OrderedList@GPAUSplitPacketChannel@@$1?SplitPacketChannelComp@@YAHABGABQAU1@@Z@DataStructures@@QAEIABGABQAUSplitPacketChannel@@@Z": "actual relocation from ?InsertIntoSplitPacketList@ReliabilityLayer@@AAEXPAUInternalPacket@@_J@Z",
+    "?Insert@?$OrderedList@IPAUInternalPacket@@$1?SplitPacketIndexComp@@YAHABIABQAU1@@Z@DataStructures@@QAEIABIABQAUInternalPacket@@@Z": "actual relocation from ?InsertIntoSplitPacketList@ReliabilityLayer@@AAEXPAUInternalPacket@@_J@Z",
+    "?Push@?$Queue@PAUInternalPacket@@@DataStructures@@QAEXABQAUInternalPacket@@@Z": "actual relocation from ?InsertIntoSplitPacketList@ReliabilityLayer@@AAEXPAUInternalPacket@@_J@Z",
+    "?GetIndexFromKey@?$OrderedList@IPAUInternalPacket@@$1?SplitPacketIndexComp@@YAHABIABQAU1@@Z@DataStructures@@QBEIABIPA_N@Z": "actual relocation from ?Insert@?$OrderedList@IPAUInternalPacket@@$1?SplitPacketIndexComp@@YAHABIABQAU1@@Z@DataStructures@@QAEIABIABQAUInternalPacket@@@Z",
+    "?Insert@?$List@PAUInternalPacket@@@DataStructures@@QAEXQAUInternalPacket@@@Z": "actual relocation from ?Insert@?$OrderedList@IPAUInternalPacket@@$1?SplitPacketIndexComp@@YAHABIABQAU1@@Z@DataStructures@@QAEIABIABQAUInternalPacket@@@Z",
+    "?Insert@?$List@PAUInternalPacket@@@DataStructures@@QAEXQAUInternalPacket@@I@Z": "actual relocation from ?Insert@?$OrderedList@IPAUInternalPacket@@$1?SplitPacketIndexComp@@YAHABIABQAU1@@Z@DataStructures@@QAEIABIABQAUInternalPacket@@@Z",
+    "?SplitPacketIndexComp@@YAHABIABQAUInternalPacket@@@Z": "actual relocation from ?GetIndexFromKey@?$OrderedList@IPAUInternalPacket@@$1?SplitPacketIndexComp@@YAHABIABQAU1@@Z@DataStructures@@QBEIABIPA_N@Z",
+    "?Insert@?$List@PAUSplitPacketChannel@@@DataStructures@@QAEXQAUSplitPacketChannel@@@Z": "actual relocation from ?Insert@?$OrderedList@GPAUSplitPacketChannel@@$1?SplitPacketChannelComp@@YAHABGABQAU1@@Z@DataStructures@@QAEIABGABQAUSplitPacketChannel@@@Z",
+    "?Insert@?$List@PAUSplitPacketChannel@@@DataStructures@@QAEXQAUSplitPacketChannel@@I@Z": "actual relocation from ?Insert@?$OrderedList@GPAUSplitPacketChannel@@$1?SplitPacketChannelComp@@YAHABGABQAU1@@Z@DataStructures@@QAEIABGABQAUSplitPacketChannel@@@Z",
+    "??0?$List@PAUInternalPacket@@@DataStructures@@QAE@XZ": "actual relocation from ??0?$OrderedList@IPAUInternalPacket@@$1?SplitPacketIndexComp@@YAHABIABQAU1@@Z@DataStructures@@QAE@XZ",
+    "?Size@?$RangeList@G@DataStructures@@QAEIXZ": "actual relocation from ?GetStatistics@ReliabilityLayer@@QAEQAURakNetStatisticsStruct@@_N@Z",
+    "?Size@?$BPlusTree@GPAUInternalPacket@@$0CA@@DataStructures@@QBEIXZ": "actual relocation from ?GetResendListDataSize@ReliabilityLayer@@ABEIXZ",
+    "?GetListHead@?$BPlusTree@GPAUInternalPacket@@$0CA@@DataStructures@@QBEPAU?$Page@GPAUInternalPacket@@$0CA@@2@XZ": "actual relocation from ?Size@?$BPlusTree@GPAUInternalPacket@@$0CA@@DataStructures@@QBEIXZ",
+    "?Size@?$OrderedList@GU?$RangeNode@G@DataStructures@@$1??$RangeNodeComp@G@2@YAHABGABU12@@Z@DataStructures@@QBEIXZ": "actual relocation from ?Size@?$RangeList@G@DataStructures@@QAEIXZ",
+    "?GetOrderingListAtOrderingStream@ReliabilityLayer@@AAEPAV?$LinkedList@PAUInternalPacket@@@DataStructures@@E@Z": "actual relocation from ?AddToOrderingList@ReliabilityLayer@@AAEXPAUInternalPacket@@@Z",
+    "??0?$CircularLinkedList@PAUInternalPacket@@@DataStructures@@QAE@XZ": "actual relocation from ?AddToOrderingList@ReliabilityLayer@@AAEXPAUInternalPacket@@@Z",
+    "?Replace@?$List@PAV?$LinkedList@PAUInternalPacket@@@DataStructures@@@DataStructures@@QAEXQAV?$LinkedList@PAUInternalPacket@@@2@0I@Z": "actual relocation from ?AddToOrderingList@ReliabilityLayer@@AAEXPAUInternalPacket@@@Z",
+    "?Add@?$CircularLinkedList@PAUInternalPacket@@@DataStructures@@QAEAAPAUInternalPacket@@ABQAU3@@Z": "actual relocation from ?AddToOrderingList@ReliabilityLayer@@AAEXPAUInternalPacket@@@Z",
+    "?IsEmpty@?$BPlusTree@GPAUInternalPacket@@$0CA@@DataStructures@@QBE_NXZ": "actual relocation from ?IsDataWaiting@ReliabilityLayer@@QAE_NXZ",
+    "?Del@?$Queue@PAUInternalPacket@@@DataStructures@@QAEXI@Z": "actual relocation from ?DeleteSequencedPacketsInList@ReliabilityLayer@@AAEXEAAV?$Queue@PAUInternalPacket@@@DataStructures@@@Z",
+    "?RemoveAtIndex@?$List@PAUInternalPacket@@@DataStructures@@QAEXI@Z": "actual relocation from ?DeleteSequencedPacketsInList@ReliabilityLayer@@AAEXEAAV?$List@PAUInternalPacket@@@DataStructures@@H@Z",
+    "?GetBitStreamHeaderLength@ReliabilityLayer@@AAEHQBUInternalPacket@@@Z": "actual relocation from ?SplitPacket@ReliabilityLayer@@AAEXPAUInternalPacket@@H@Z",
+    "?UpdateNextActionTime@ReliabilityLayer@@AAEXXZ": "actual relocation from ?SetPing@ReliabilityLayer@@QAEXI@Z"
+  },
+  "special_case": "Only helpers called by the selected roots are followed. Existing QueuePush2E940/189 and GetPointer45400/83 COMDATs reuse their active owners; CP31 comparators and tiny helpers receive zero new credit. All class allocations use complete vendor declarations.",
+  "physical_code_compared": 6477,
+  "new_unique_code": 5919,
+  "already_covered_code": 558,
+  "source025_direct_bytes": 0,
+  "baseline": 242286,
+  "reused_existing_owners": {
+    "?GetPointer@InternalPacketPool@@QAEPAUInternalPacket@@XZ": {
+      "unit": "closure_vendor_reliability_serialization",
+      "rva": 283648,
+      "size": 83
+    },
+    "?Push@?$Queue@PAUInternalPacket@@@DataStructures@@QAEXABQAUInternalPacket@@@Z": {
+      "unit": "closure_vendor_internal_packet_release",
+      "rva": 190784,
+      "size": 189
+    }
+  },
+  "tiny_method_identity_audit": "build/agent-independent/reliability-waiting-original-callers.json; RakPeer.cpp4164/4165 disconnect-mode checks call IsDataWaiting46CB0 and AreAcksWaiting46D50 respectively. Distinct underlying complete methods145/17, both unique discovery candidates.",
+  "alloca_provider_qualification": {
+    "original_rva": 818864,
+    "size": 61,
+    "SDK_member": "LIBCMT:chkstk.obj",
+    "actual_symbol": "__alloca_probe",
+    "existing_provider": "build/cp32-reliability-preview-linked1/closure.dll",
+    "existing_provider_rva": 250128,
+    "whole61bytes_equal": true,
+    "extra_credit": 0
+  },
+  "proposed_source": "build/agent-independent/eval_vendor_reliability_packet_family2.cpp",
+  "proposed_source_sha256": "a232b0884aa09fd19a97fead01a24477950daefb4e20c20fff0f9dceae0410b3",
+  "static_data": "No static data referenced by selected methods. Only entire EH36-byte metadata section is needed; unreferenced header sentinel objects are excluded."
+}

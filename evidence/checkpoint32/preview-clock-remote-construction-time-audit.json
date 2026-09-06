@@ -1,0 +1,129 @@
+{
+  "status": "SOURCE_PROPOSAL_PENDING_CRT_QUALIFICATION",
+  "baseline_accepted": 212065,
+  "pending_destructor_bytes_deducted": 282,
+  "potential_unique_bytes": 649,
+  "regions": [
+    {
+      "identity": "RemotePlayer ctor",
+      "rva": 91616,
+      "size": 122,
+      "original_sha256": "69719ce10e65c5e87c4417dd21cce3afc8af342bde41ceb2a2fab8d25332ed6a"
+    },
+    {
+      "identity": "RemotePlayer reset",
+      "rva": 90016,
+      "size": 244,
+      "original_sha256": "e9a43fab5a4ad7a7e2d38d6d117171c6b4eabd875e2cd8ce60fcdf168617a57e"
+    },
+    {
+      "identity": "NetPlayer ctor",
+      "rva": 82352,
+      "size": 160,
+      "original_sha256": "075af7448c02b26dbb75ea284a8acaf079663ef821417a7a0ef57fad0c3fd482"
+    },
+    {
+      "identity": "NetGame GetTime",
+      "rva": 35040,
+      "size": 5,
+      "original_sha256": "75022aee9bda846df8d901ecbedbb06da4675c57107dc5af42802626a883199f"
+    },
+    {
+      "identity": "RakNet GetTime",
+      "rva": 190448,
+      "size": 86,
+      "original_sha256": "55a4fadf2a557222602567a63a3d0027b65ccf295fda3d5953e40cd18067eb54"
+    },
+    {
+      "identity": "Net ctor EH string cleanup",
+      "rva": 920560,
+      "size": 11,
+      "original_sha256": "2f7ead5f092d7cf0cc3b4d656f819447d1bd853230b8e7601423e8772dead5b9"
+    },
+    {
+      "identity": "Net ctor EH allocation cleanup",
+      "rva": 920571,
+      "size": 11,
+      "original_sha256": "9b2d499ad31d6443a8c01b34e6aa63fc3b9ad286d95e6f5f16c79948e7d7e1b9"
+    },
+    {
+      "identity": "Net ctor handler",
+      "rva": 920582,
+      "size": 10,
+      "original_sha256": "627d89cdf208ad72d989f02370c4253cafad858bb071862fb87d66e46eb3d481"
+    }
+  ],
+  "source025_new_credit": 0,
+  "sources": [
+    {
+      "path": "build/agent-independent/eval_remote_player_construction.cpp",
+      "sha256": "2e17406ea93b31117952357645ac71f44d846db148e868ee674adb054eaa51e8"
+    },
+    {
+      "path": "build/agent-independent/eval_netgame_time.cpp",
+      "sha256": "31c59af70f430061dfd6b3f76db22efc17f3add811e0947c01a068f1695f9989"
+    },
+    {
+      "path": "build/agent-independent/eval_raknet_time.cpp",
+      "sha256": "d06b56351d4e396e73c9bde0b46f20b716d765eb747d6529eea78b4c25b5c16c"
+    }
+  ],
+  "providers": {
+    "Remote ctor": [
+      "GetTickCount E5238",
+      "Reset15FA0"
+    ],
+    "Remote reset": [
+      "DisableMarkerA0EC0 preceding282",
+      "GetTime88E0"
+    ],
+    "Net ctor": [
+      "string assignB7B0",
+      "newC627A size1FD",
+      "Remote ctor165E0"
+    ],
+    "NetGame time": [
+      "RakNet time2E7F0"
+    ],
+    "RakNet time": [
+      "QueryPerformanceFrequency E525C",
+      "QueryPerformanceCounter E5258",
+      "__allmul C88B0 requires actual CRT member qualification",
+      "__alldiv C8800 already pinned"
+    ],
+    "EH": [
+      "string dtor13F30",
+      "deleteC648A",
+      "CxxFrameHandlerC6526"
+    ]
+  },
+  "data": [
+    {
+      "identity": "Net ctor UnwindMap",
+      "rva": 1017228,
+      "size": 16,
+      "original_sha256": "9ca8fe4220babca0c0b0f7c3f2b77a9a96645d5302ee17ea3170ef4f5a77ef6f"
+    },
+    {
+      "identity": "Net ctor FuncInfo",
+      "rva": 1017244,
+      "size": 28,
+      "original_sha256": "1d68d5635f0f990008559cac1f262de1c6d18263ff864e470b78637e3cd44326"
+    },
+    {
+      "identity": "RakNet static LARGE_INTEGER yo",
+      "rva": 1149832,
+      "size": 8,
+      "original_sha256": "af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc"
+    },
+    {
+      "identity": "RakNet static bool initialized",
+      "rva": 1149840,
+      "size": 1,
+      "original_sha256": "6e340b9cffb37a989ca544e6bb780a2c78901d3fb33738768511a30617afa01d"
+    }
+  ],
+  "provenance": "Complete base net/remoteplayer.cpp, net/netplayer.cpp, net/netgame.cpp and vendor/upstream/raknet/GetTime.cpp Windows branch. No new025 source needed.",
+  "ownership": "Actual headers sizeRemote1FD/Net30, exact allocation1FD. No fake virtual classes or memory layouts; normal std::string14 unwind.",
+  "risk": "allmul C88B0 requires actual CRT library member complete qualification before acceptance; never substitute simulated clock."
+}
