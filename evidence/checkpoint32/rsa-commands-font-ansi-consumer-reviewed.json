@@ -1,0 +1,170 @@
+{
+  "status": "WHOLE_ANSI201_AND_UNIQUE_VFT_CONSTRUCTOR9_PREFLIGHT_PASS",
+  "regions": [
+    {
+      "unit": "closure_font_ansi_consumer",
+      "anchor": "?R5FontConsumeAnsiColorEmbeds@@YAXXZ",
+      "section": 3,
+      "rva": 473616,
+      "size": 201,
+      "kind": "code",
+      "sha256": "4ba6053b13c83c92df40dc288d13007c6cf99d2621e74c67dc63514903b048bd",
+      "object_sha256": "04665c1cb76f9da79da61af530c9d7ac81f6d95b9862a309267f2b147ab22ec3",
+      "bindings": [
+        {
+          "symbol": "?r5FontCharacterIndex@@3HA",
+          "site_rva": 473618,
+          "symbol_va": 269708964,
+          "addend": 0,
+          "target_va": 269708964,
+          "kind": 6
+        },
+        {
+          "symbol": "?r5FontOriginalText@@3PADA",
+          "site_rva": 473624,
+          "symbol_va": 269748972,
+          "addend": 0,
+          "target_va": 269748972,
+          "kind": 6
+        },
+        {
+          "symbol": "?r5FontCharacterIndex@@3HA",
+          "site_rva": 473654,
+          "symbol_va": 269708964,
+          "addend": 0,
+          "target_va": 269708964,
+          "kind": 6
+        },
+        {
+          "symbol": "?GetColorFromEmbedCode@@YAKPAD@Z",
+          "site_rva": 473669,
+          "symbol_va": 269180544,
+          "addend": 0,
+          "target_va": 269180544,
+          "kind": 20
+        },
+        {
+          "symbol": "?r5FontCharacterIndex@@3HA",
+          "site_rva": 473683,
+          "symbol_va": 269708964,
+          "addend": 0,
+          "target_va": 269708964,
+          "kind": 6
+        },
+        {
+          "symbol": "?r5FontOriginalText@@3PADA",
+          "site_rva": 473689,
+          "symbol_va": 269748972,
+          "addend": 0,
+          "target_va": 269748972,
+          "kind": 6
+        },
+        {
+          "symbol": "?r5FontEmbeddedColor@@3KA",
+          "site_rva": 473702,
+          "symbol_va": 269708944,
+          "addend": 0,
+          "target_va": 269708944,
+          "kind": 6
+        },
+        {
+          "symbol": "?r5FontCharacterIndex@@3HA",
+          "site_rva": 473708,
+          "symbol_va": 269708964,
+          "addend": 0,
+          "target_va": 269708964,
+          "kind": 6
+        },
+        {
+          "symbol": "?r5FontCharacterIndex@@3HA",
+          "site_rva": 473738,
+          "symbol_va": 269708964,
+          "addend": 0,
+          "target_va": 269708964,
+          "kind": 6
+        },
+        {
+          "symbol": "?GetColorFromEmbedCode@@YAKPAD@Z",
+          "site_rva": 473753,
+          "symbol_va": 269180544,
+          "addend": 0,
+          "target_va": 269180544,
+          "kind": 20
+        },
+        {
+          "symbol": "?r5FontCharacterIndex@@3HA",
+          "site_rva": 473767,
+          "symbol_va": 269708964,
+          "addend": 0,
+          "target_va": 269708964,
+          "kind": 6
+        },
+        {
+          "symbol": "?r5FontOriginalText@@3PADA",
+          "site_rva": 473772,
+          "symbol_va": 269748972,
+          "addend": 0,
+          "target_va": 269748972,
+          "kind": 6
+        },
+        {
+          "symbol": "___mb_cur_max",
+          "site_rva": 473785,
+          "symbol_va": 269579880,
+          "addend": 0,
+          "target_va": 269579880,
+          "kind": 6
+        },
+        {
+          "symbol": "_mblen",
+          "site_rva": 473792,
+          "symbol_va": 269263807,
+          "addend": 0,
+          "target_va": 269263807,
+          "kind": 20
+        },
+        {
+          "symbol": "?r5FontCharacterIndex@@3HA",
+          "site_rva": 473805,
+          "symbol_va": 269708964,
+          "addend": 0,
+          "target_va": 269708964,
+          "kind": 6
+        },
+        {
+          "symbol": "?r5FontCharacterIndex@@3HA",
+          "site_rva": 473812,
+          "symbol_va": 269708964,
+          "addend": 0,
+          "target_va": 269708964,
+          "kind": 6
+        }
+      ]
+    },
+    {
+      "unit": "closure_font_sprite_proxy",
+      "anchor": "??0R5FontSpriteProxy@@QAE@XZ",
+      "section": 35,
+      "rva": 474816,
+      "size": 9,
+      "kind": "code",
+      "sha256": "67d73dd3fac9e0fd3f62693a2fe8222e8322382e1d6bf1552e147188c577f80f",
+      "object_sha256": "e4c0a4e7829f1c2500ac93b1c8f127914d8b9306dfdca86f51a0ea645ce59a0a",
+      "bindings": [
+        {
+          "symbol": "??_7R5FontSpriteProxy@@6B@",
+          "site_rva": 474820,
+          "symbol_va": 269395780,
+          "addend": 0,
+          "target_va": 269395780,
+          "kind": 6
+        }
+      ]
+    }
+  ],
+  "new_code_expected": 210,
+  "new_direct025": 0,
+  "constructor_identity": "All raw candidate bodies tested with fixed previously accepted VFT EA744, only73EC0 survives. C4780 targets another VFT ED8F0. No caller/lifetime allocation claim.",
+  "CRT_data_scope": "Entire real nlsdata1.obj12 block qualified separately; mblen137 pinned CRT needs link qualification; both receive zero credit.",
+  "runtime_limit": "Original font heap buffers startup allocation remains unimplemented and excluded."
+}

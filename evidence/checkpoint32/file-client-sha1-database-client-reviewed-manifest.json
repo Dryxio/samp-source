@@ -1,0 +1,830 @@
+{
+  "status": "REVIEWED_MAIN_SEEDS_AND_WHOLE_EH_BINDINGS_PREFLIGHT",
+  "run": "build/cp32-database-client-trial1",
+  "roots": {
+    "??0LightweightDatabaseClient@@QAE@XZ": 191536,
+    "??1LightweightDatabaseClient@@QAE@XZ": 191456,
+    "?OnAttach@LightweightDatabaseClient@@UAEXPAVRakPeerInterface@@@Z": 191488,
+    "?OnReceive@LightweightDatabaseClient@@UAE?AW4PluginReceiveResult@@PAVRakPeerInterface@@PAUPacket@@@Z": 191472,
+    "?QueryTable@LightweightDatabaseClient@@QAEXPBD0PAPBDEPAUDatabaseFilter@@EPAIEUPlayerID@@_N@Z": 191552,
+    "?RemoveRow@LightweightDatabaseClient@@QAEXPBD0IUPlayerID@@_N@Z": 192080,
+    "?UpdateRow@LightweightDatabaseClient@@QAEXPBD0W4RowUpdateMode@@_NIPAUDatabaseCellUpdate@@EUPlayerID@@2@Z": 192400
+  },
+  "seeds": {
+    "closure_vendor_database_client": {
+      "?UpdateRow@LightweightDatabaseClient@@QAEXPBD0W4RowUpdateMode@@_NIPAUDatabaseCellUpdate@@EUPlayerID@@2@Z": 192400,
+      "??$Write@_N@BitStream@RakNet@@QAEX_N@Z": 11600,
+      "?RemoveRow@LightweightDatabaseClient@@QAEXPBD0IUPlayerID@@_N@Z": 192080,
+      "?QueryTable@LightweightDatabaseClient@@QAEXPBD0PAPBDEPAUDatabaseFilter@@EPAIEUPlayerID@@_N@Z": 191552,
+      "?OnReceive@LightweightDatabaseClient@@UAE?AW4PluginReceiveResult@@PAVRakPeerInterface@@PAUPacket@@@Z": 191472,
+      "?OnAttach@LightweightDatabaseClient@@UAEXPAVRakPeerInterface@@@Z": 191488,
+      "??1LightweightDatabaseClient@@QAE@XZ": 191456,
+      "??0LightweightDatabaseClient@@QAE@XZ": 191536
+    },
+    "closure_vendor_database_common": {
+      "?Serialize@DatabaseCellUpdate@@QAEXPAVBitStream@RakNet@@@Z": 193104,
+      "?Serialize@DatabaseFilter@@QAEXPAVBitStream@RakNet@@@Z": 192864
+    }
+  },
+  "regions": [
+    {
+      "unit": "closure_vendor_database_client",
+      "section": 32,
+      "rva": 192400,
+      "size": 456,
+      "kind": ".text",
+      "sha256": "c69a9bf3d21323d462b6c1828ad3495659d45e60b683726848ec9d3c4f1a749e",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "__except_list",
+          "site_rva": 192404,
+          "target_va": 0,
+          "kind": 6
+        },
+        {
+          "symbol": "__ehhandler$?UpdateRow@LightweightDatabaseClient@@QAEXPBD0W4RowUpdateMode@@_NIPAUDatabaseCellUpdate@@EUPlayerID@@2@Z",
+          "site_rva": 192409,
+          "target_va": 269361275,
+          "kind": 6
+        },
+        {
+          "symbol": "__except_list",
+          "site_rva": 192417,
+          "target_va": 0,
+          "kind": 6
+        },
+        {
+          "symbol": "??0BitStream@RakNet@@QAE@XZ",
+          "site_rva": 192503,
+          "target_va": 268564272,
+          "kind": 20
+        },
+        {
+          "symbol": "?WriteBits@BitStream@RakNet@@QAEXPBEH_N@Z",
+          "site_rva": 192537,
+          "target_va": 268566496,
+          "kind": 20
+        },
+        {
+          "symbol": "?Instance@StringCompressor@@SAPAV1@XZ",
+          "site_rva": 192552,
+          "target_va": 268778544,
+          "kind": 20
+        },
+        {
+          "symbol": "?EncodeString@StringCompressor@@QAEXPBDHPAVBitStream@RakNet@@H@Z",
+          "site_rva": 192559,
+          "target_va": 268779936,
+          "kind": 20
+        },
+        {
+          "symbol": "?Write1@BitStream@RakNet@@QAEXXZ",
+          "site_rva": 192584,
+          "target_va": 268566320,
+          "kind": 20
+        },
+        {
+          "symbol": "?Instance@StringCompressor@@SAPAV1@XZ",
+          "site_rva": 192599,
+          "target_va": 268778544,
+          "kind": 20
+        },
+        {
+          "symbol": "?EncodeString@StringCompressor@@QAEXPBDHPAVBitStream@RakNet@@H@Z",
+          "site_rva": 192606,
+          "target_va": 268779936,
+          "kind": 20
+        },
+        {
+          "symbol": "?Write0@BitStream@RakNet@@QAEXXZ",
+          "site_rva": 192617,
+          "target_va": 268566288,
+          "kind": 20
+        },
+        {
+          "symbol": "?WriteBits@BitStream@RakNet@@QAEXPBEH_N@Z",
+          "site_rva": 192646,
+          "target_va": 268566496,
+          "kind": 20
+        },
+        {
+          "symbol": "??$Write@_N@BitStream@RakNet@@QAEX_N@Z",
+          "site_rva": 192663,
+          "target_va": 268447056,
+          "kind": 20
+        },
+        {
+          "symbol": "?WriteBits@BitStream@RakNet@@QAEXPBEH_N@Z",
+          "site_rva": 192696,
+          "target_va": 268566496,
+          "kind": 20
+        },
+        {
+          "symbol": "?WriteBits@BitStream@RakNet@@QAEXPBEH_N@Z",
+          "site_rva": 192725,
+          "target_va": 268566496,
+          "kind": 20
+        },
+        {
+          "symbol": "?Serialize@DatabaseCellUpdate@@QAEXPAVBitStream@RakNet@@@Z",
+          "site_rva": 192746,
+          "target_va": 268628560,
+          "kind": 20
+        },
+        {
+          "symbol": "??1BitStream@RakNet@@QAE@XZ",
+          "site_rva": 192825,
+          "target_va": 268564688,
+          "kind": 20
+        },
+        {
+          "symbol": "__except_list",
+          "site_rva": 192842,
+          "target_va": 0,
+          "kind": 6
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_database_client",
+      "section": 3,
+      "rva": 11600,
+      "size": 24,
+      "kind": ".text",
+      "sha256": "24e27745335b03b94cf2cbad3c5dff30bf0d18495b6b9fee02711b43c9361fa6",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "?Write1@BitStream@RakNet@@QAEXXZ",
+          "site_rva": 11609,
+          "target_va": 268566320,
+          "kind": 20
+        },
+        {
+          "symbol": "?Write0@BitStream@RakNet@@QAEXXZ",
+          "site_rva": 11617,
+          "target_va": 268566288,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_database_client",
+      "section": 28,
+      "rva": 192080,
+      "size": 316,
+      "kind": ".text",
+      "sha256": "56b8666445e4e7e00a42017587038718394c0bc9d701cb15261082d667be2769",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "__except_list",
+          "site_rva": 192082,
+          "target_va": 0,
+          "kind": 6
+        },
+        {
+          "symbol": "__ehhandler$?RemoveRow@LightweightDatabaseClient@@QAEXPBD0IUPlayerID@@_N@Z",
+          "site_rva": 192089,
+          "target_va": 269361243,
+          "kind": 6
+        },
+        {
+          "symbol": "__except_list",
+          "site_rva": 192097,
+          "target_va": 0,
+          "kind": 6
+        },
+        {
+          "symbol": "??0BitStream@RakNet@@QAE@XZ",
+          "site_rva": 192151,
+          "target_va": 268564272,
+          "kind": 20
+        },
+        {
+          "symbol": "?WriteBits@BitStream@RakNet@@QAEXPBEH_N@Z",
+          "site_rva": 192185,
+          "target_va": 268566496,
+          "kind": 20
+        },
+        {
+          "symbol": "?Instance@StringCompressor@@SAPAV1@XZ",
+          "site_rva": 192200,
+          "target_va": 268778544,
+          "kind": 20
+        },
+        {
+          "symbol": "?EncodeString@StringCompressor@@QAEXPBDHPAVBitStream@RakNet@@H@Z",
+          "site_rva": 192207,
+          "target_va": 268779936,
+          "kind": 20
+        },
+        {
+          "symbol": "?Write1@BitStream@RakNet@@QAEXXZ",
+          "site_rva": 192232,
+          "target_va": 268566320,
+          "kind": 20
+        },
+        {
+          "symbol": "?Instance@StringCompressor@@SAPAV1@XZ",
+          "site_rva": 192247,
+          "target_va": 268778544,
+          "kind": 20
+        },
+        {
+          "symbol": "?EncodeString@StringCompressor@@QAEXPBDHPAVBitStream@RakNet@@H@Z",
+          "site_rva": 192254,
+          "target_va": 268779936,
+          "kind": 20
+        },
+        {
+          "symbol": "?Write0@BitStream@RakNet@@QAEXXZ",
+          "site_rva": 192265,
+          "target_va": 268566288,
+          "kind": 20
+        },
+        {
+          "symbol": "?WriteBits@BitStream@RakNet@@QAEXPBEH_N@Z",
+          "site_rva": 192294,
+          "target_va": 268566496,
+          "kind": 20
+        },
+        {
+          "symbol": "??1BitStream@RakNet@@QAE@XZ",
+          "site_rva": 192367,
+          "target_va": 268564688,
+          "kind": 20
+        },
+        {
+          "symbol": "__except_list",
+          "site_rva": 192382,
+          "target_va": 0,
+          "kind": 6
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_database_client",
+      "section": 23,
+      "rva": 191552,
+      "size": 514,
+      "kind": ".text",
+      "sha256": "aefa252c0c3d89a8123dd77397646a471e9e23a9e6914e9a3337402d81875c90",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "__except_list",
+          "site_rva": 191556,
+          "target_va": 0,
+          "kind": 6
+        },
+        {
+          "symbol": "__ehhandler$?QueryTable@LightweightDatabaseClient@@QAEXPBD0PAPBDEPAUDatabaseFilter@@EPAIEUPlayerID@@_N@Z",
+          "site_rva": 191561,
+          "target_va": 269361211,
+          "kind": 6
+        },
+        {
+          "symbol": "__except_list",
+          "site_rva": 191569,
+          "target_va": 0,
+          "kind": 6
+        },
+        {
+          "symbol": "??0BitStream@RakNet@@QAE@XZ",
+          "site_rva": 191625,
+          "target_va": 268564272,
+          "kind": 20
+        },
+        {
+          "symbol": "?WriteBits@BitStream@RakNet@@QAEXPBEH_N@Z",
+          "site_rva": 191659,
+          "target_va": 268566496,
+          "kind": 20
+        },
+        {
+          "symbol": "?Instance@StringCompressor@@SAPAV1@XZ",
+          "site_rva": 191674,
+          "target_va": 268778544,
+          "kind": 20
+        },
+        {
+          "symbol": "?EncodeString@StringCompressor@@QAEXPBDHPAVBitStream@RakNet@@H@Z",
+          "site_rva": 191681,
+          "target_va": 268779936,
+          "kind": 20
+        },
+        {
+          "symbol": "?Write1@BitStream@RakNet@@QAEXXZ",
+          "site_rva": 191706,
+          "target_va": 268566320,
+          "kind": 20
+        },
+        {
+          "symbol": "?Instance@StringCompressor@@SAPAV1@XZ",
+          "site_rva": 191721,
+          "target_va": 268778544,
+          "kind": 20
+        },
+        {
+          "symbol": "?EncodeString@StringCompressor@@QAEXPBDHPAVBitStream@RakNet@@H@Z",
+          "site_rva": 191728,
+          "target_va": 268779936,
+          "kind": 20
+        },
+        {
+          "symbol": "?Write0@BitStream@RakNet@@QAEXXZ",
+          "site_rva": 191739,
+          "target_va": 268566288,
+          "kind": 20
+        },
+        {
+          "symbol": "?WriteBits@BitStream@RakNet@@QAEXPBEH_N@Z",
+          "site_rva": 191768,
+          "target_va": 268566496,
+          "kind": 20
+        },
+        {
+          "symbol": "?WriteBits@BitStream@RakNet@@QAEXPBEH_N@Z",
+          "site_rva": 191813,
+          "target_va": 268566496,
+          "kind": 20
+        },
+        {
+          "symbol": "?WriteBits@BitStream@RakNet@@QAEXPBEH_N@Z",
+          "site_rva": 191847,
+          "target_va": 268566496,
+          "kind": 20
+        },
+        {
+          "symbol": "?Serialize@DatabaseFilter@@QAEXPAVBitStream@RakNet@@@Z",
+          "site_rva": 191880,
+          "target_va": 268628320,
+          "kind": 20
+        },
+        {
+          "symbol": "?WriteBits@BitStream@RakNet@@QAEXPBEH_N@Z",
+          "site_rva": 191915,
+          "target_va": 268566496,
+          "kind": 20
+        },
+        {
+          "symbol": "?WriteBits@BitStream@RakNet@@QAEXPBEH_N@Z",
+          "site_rva": 191957,
+          "target_va": 268566496,
+          "kind": 20
+        },
+        {
+          "symbol": "??1BitStream@RakNet@@QAE@XZ",
+          "site_rva": 192035,
+          "target_va": 268564688,
+          "kind": 20
+        },
+        {
+          "symbol": "__except_list",
+          "site_rva": 192052,
+          "target_va": 0,
+          "kind": 6
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_database_client",
+      "section": 11,
+      "rva": 191472,
+      "size": 8,
+      "kind": ".text",
+      "sha256": "a37f20f22731fa44d5fe0925ce76fbfb5bf2c8a56f260e67aa2f887a08d7f326",
+      "whole_bytes_equal": true,
+      "bindings": []
+    },
+    {
+      "unit": "closure_vendor_database_client",
+      "section": 13,
+      "rva": 191488,
+      "size": 10,
+      "kind": ".text",
+      "sha256": "01caaa228fe4f4c7fe4269994a79702b290762107c5e6b67c17e8d8525fc7585",
+      "whole_bytes_equal": true,
+      "bindings": []
+    },
+    {
+      "unit": "closure_vendor_database_client",
+      "section": 8,
+      "rva": 191456,
+      "size": 7,
+      "kind": ".text",
+      "sha256": "d255f87bf110ae8aa75357133322e479636f376fd04e5bdb57c98ddbcadb65ae",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "??_7LightweightDatabaseClient@@6B@",
+          "site_rva": 191458,
+          "target_va": 269381096,
+          "kind": 6
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_database_client",
+      "section": 21,
+      "rva": 191536,
+      "size": 16,
+      "kind": ".text",
+      "sha256": "6e519affe031878072c389cefca122f2d0a5495f836e33f6e403c84d3de1f038",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "??_7LightweightDatabaseClient@@6B@",
+          "site_rva": 191540,
+          "target_va": 269381096,
+          "kind": 6
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_database_client",
+      "section": 33,
+      "rva": 925808,
+      "size": 21,
+      "kind": ".text$x",
+      "sha256": "7640b337c267fb62414b1a0baf08908c2a4dfcd904ab5a7be43a9c530d6d1009",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "??1BitStream@RakNet@@QAE@XZ",
+          "site_rva": 925815,
+          "target_va": 268564688,
+          "kind": 20
+        },
+        {
+          "symbol": "$T4457",
+          "site_rva": 925820,
+          "target_va": 269458688,
+          "kind": 6
+        },
+        {
+          "symbol": "___CxxFrameHandler",
+          "site_rva": 925825,
+          "target_va": 269247782,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_database_client",
+      "section": 29,
+      "rva": 925776,
+      "size": 21,
+      "kind": ".text$x",
+      "sha256": "f40c4f149d35f0fe4e43629680e5552a99439f7ee95513c9ad6df0ec352d9be4",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "??1BitStream@RakNet@@QAE@XZ",
+          "site_rva": 925783,
+          "target_va": 268564688,
+          "kind": 20
+        },
+        {
+          "symbol": "$T4414",
+          "site_rva": 925788,
+          "target_va": 269458652,
+          "kind": 6
+        },
+        {
+          "symbol": "___CxxFrameHandler",
+          "site_rva": 925793,
+          "target_va": 269247782,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_database_client",
+      "section": 24,
+      "rva": 925744,
+      "size": 21,
+      "kind": ".text$x",
+      "sha256": "a97d17e6af641309525c64d73352e7289a58abca354f78c1e6645c484ed2b749",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "??1BitStream@RakNet@@QAE@XZ",
+          "site_rva": 925751,
+          "target_va": 268564688,
+          "kind": 20
+        },
+        {
+          "symbol": "$T4375",
+          "site_rva": 925756,
+          "target_va": 269458616,
+          "kind": 6
+        },
+        {
+          "symbol": "___CxxFrameHandler",
+          "site_rva": 925761,
+          "target_va": 269247782,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_database_client",
+      "section": 9,
+      "rva": 945640,
+      "size": 40,
+      "kind": ".rdata",
+      "sha256": "a8f73b28b9c7c8f50b1fe62c45d83c1af31d7db54004f2fd47be0530b3982238",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "?OnAttach@LightweightDatabaseClient@@UAEXPAVRakPeerInterface@@@Z",
+          "site_rva": 945640,
+          "target_va": 268626944,
+          "kind": 6
+        },
+        {
+          "symbol": "?OnDetach@PluginInterface@@UAEXPAVRakPeerInterface@@@Z",
+          "site_rva": 945644,
+          "target_va": 268648320,
+          "kind": 6
+        },
+        {
+          "symbol": "?OnInitialize@PluginInterface@@UAEXPAVRakPeerInterface@@@Z",
+          "site_rva": 945648,
+          "target_va": 268648336,
+          "kind": 6
+        },
+        {
+          "symbol": "?Update@PluginInterface@@UAEXPAVRakPeerInterface@@@Z",
+          "site_rva": 945652,
+          "target_va": 268648352,
+          "kind": 6
+        },
+        {
+          "symbol": "?OnReceive@LightweightDatabaseClient@@UAE?AW4PluginReceiveResult@@PAVRakPeerInterface@@PAUPacket@@@Z",
+          "site_rva": 945656,
+          "target_va": 268626928,
+          "kind": 6
+        },
+        {
+          "symbol": "?OnDisconnect@PluginInterface@@UAEXPAVRakPeerInterface@@@Z",
+          "site_rva": 945660,
+          "target_va": 268648384,
+          "kind": 6
+        },
+        {
+          "symbol": "?OnCloseConnection@PluginInterface@@UAEXPAVRakPeerInterface@@UPlayerID@@@Z",
+          "site_rva": 945664,
+          "target_va": 268648400,
+          "kind": 6
+        },
+        {
+          "symbol": "?OnDirectSocketSend@PluginInterface@@UAEXPBDIUPlayerID@@@Z",
+          "site_rva": 945668,
+          "target_va": 268648416,
+          "kind": 6
+        },
+        {
+          "symbol": "?OnDirectSocketReceive@PluginInterface@@UAEXPBDIUPlayerID@@@Z",
+          "site_rva": 945672,
+          "target_va": 268648432,
+          "kind": 6
+        },
+        {
+          "symbol": "?OnInternalPacket@PluginInterface@@UAEXPAUInternalPacket@@IUPlayerID@@I_N@Z",
+          "site_rva": 945676,
+          "target_va": 268648448,
+          "kind": 6
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_database_client",
+      "section": 34,
+      "rva": 1023224,
+      "size": 36,
+      "kind": ".xdata$x",
+      "sha256": "9b1c92b18f9ff0c59cbf7d34877474bb88ab574ea58b56f1e4c44bd90f137e13",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "$L4421",
+          "site_rva": 1023228,
+          "target_va": 269361264,
+          "kind": 6
+        },
+        {
+          "symbol": "$T4462",
+          "site_rva": 1023240,
+          "target_va": 269458680,
+          "kind": 6
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_database_client",
+      "section": 30,
+      "rva": 1023188,
+      "size": 36,
+      "kind": ".xdata$x",
+      "sha256": "ff89c7c20232f0a84e73143a9367da7ffd1a308aa8502d29c523c9675a6b1511",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "$L4390",
+          "site_rva": 1023192,
+          "target_va": 269361232,
+          "kind": 6
+        },
+        {
+          "symbol": "$T4416",
+          "site_rva": 1023204,
+          "target_va": 269458644,
+          "kind": 6
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_database_client",
+      "section": 25,
+      "rva": 1023152,
+      "size": 36,
+      "kind": ".xdata$x",
+      "sha256": "7bb96463b44aeaee23703ac9a346f66aafd0f49cd0c81e3c38c1326031081859",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "$L4325",
+          "site_rva": 1023156,
+          "target_va": 269361200,
+          "kind": 6
+        },
+        {
+          "symbol": "$T4384",
+          "site_rva": 1023168,
+          "target_va": 269458608,
+          "kind": 6
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_database_common",
+      "section": 11,
+      "rva": 193104,
+      "size": 71,
+      "kind": ".text",
+      "sha256": "f1194d4fd1324b6b588d0d1e2df758c7505ebcb87549628f43ab6ddd8ceb2085",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "?Instance@StringCompressor@@SAPAV1@XZ",
+          "site_rva": 193122,
+          "target_va": 268778544,
+          "kind": 20
+        },
+        {
+          "symbol": "?EncodeString@StringCompressor@@QAEXPBDHPAVBitStream@RakNet@@H@Z",
+          "site_rva": 193129,
+          "target_va": 268779936,
+          "kind": 20
+        },
+        {
+          "symbol": "?WriteBits@BitStream@RakNet@@QAEXPBEH_N@Z",
+          "site_rva": 193152,
+          "target_va": 268566496,
+          "kind": 20
+        },
+        {
+          "symbol": "?SerializeCell@TableSerializer@@SAXPAVBitStream@RakNet@@PAUCell@Table@DataStructures@@W4ColumnType@56@@Z",
+          "site_rva": 193163,
+          "target_va": 268784272,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_database_common",
+      "section": 7,
+      "rva": 192864,
+      "size": 107,
+      "kind": ".text",
+      "sha256": "8297ec0189b3026a7f9bd5ebcf82beeb814396f17fa20e44992ae79c7f0e77e6",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "?Instance@StringCompressor@@SAPAV1@XZ",
+          "site_rva": 192882,
+          "target_va": 268778544,
+          "kind": 20
+        },
+        {
+          "symbol": "?EncodeString@StringCompressor@@QAEXPBDHPAVBitStream@RakNet@@H@Z",
+          "site_rva": 192889,
+          "target_va": 268779936,
+          "kind": 20
+        },
+        {
+          "symbol": "?WriteBits@BitStream@RakNet@@QAEXPBEH_N@Z",
+          "site_rva": 192912,
+          "target_va": 268566496,
+          "kind": 20
+        },
+        {
+          "symbol": "?WriteBits@BitStream@RakNet@@QAEXPBEH_N@Z",
+          "site_rva": 192935,
+          "target_va": 268566496,
+          "kind": 20
+        },
+        {
+          "symbol": "?SerializeCell@TableSerializer@@SAXPAVBitStream@RakNet@@PAUCell@Table@DataStructures@@W4ColumnType@56@@Z",
+          "site_rva": 192959,
+          "target_va": 268784272,
+          "kind": 20
+        }
+      ]
+    }
+  ],
+  "bindings_checked": 89,
+  "external_targets": {
+    "__except_list": 0,
+    "__ehhandler$?UpdateRow@LightweightDatabaseClient@@QAEXPBD0W4RowUpdateMode@@_NIPAUDatabaseCellUpdate@@EUPlayerID@@2@Z": 269361275,
+    "??0BitStream@RakNet@@QAE@XZ": 268564272,
+    "?WriteBits@BitStream@RakNet@@QAEXPBEH_N@Z": 268566496,
+    "?Instance@StringCompressor@@SAPAV1@XZ": 268778544,
+    "?EncodeString@StringCompressor@@QAEXPBDHPAVBitStream@RakNet@@H@Z": 268779936,
+    "?Write1@BitStream@RakNet@@QAEXXZ": 268566320,
+    "?Write0@BitStream@RakNet@@QAEXXZ": 268566288,
+    "??1BitStream@RakNet@@QAE@XZ": 268564688,
+    "?SerializeCell@TableSerializer@@SAXPAVBitStream@RakNet@@PAUCell@Table@DataStructures@@W4ColumnType@56@@Z": 268784272,
+    "__ehhandler$?RemoveRow@LightweightDatabaseClient@@QAEXPBD0IUPlayerID@@_N@Z": 269361243,
+    "__ehhandler$?QueryTable@LightweightDatabaseClient@@QAEXPBD0PAPBDEPAUDatabaseFilter@@EPAIEUPlayerID@@_N@Z": 269361211,
+    "??_7LightweightDatabaseClient@@6B@": 269381096,
+    "closure_vendor_database_client::$T4457": 269458688,
+    "___CxxFrameHandler": 269247782,
+    "closure_vendor_database_client::$T4414": 269458652,
+    "closure_vendor_database_client::$T4375": 269458616,
+    "?OnDetach@PluginInterface@@UAEXPAVRakPeerInterface@@@Z": 268648320,
+    "?OnInitialize@PluginInterface@@UAEXPAVRakPeerInterface@@@Z": 268648336,
+    "?Update@PluginInterface@@UAEXPAVRakPeerInterface@@@Z": 268648352,
+    "?OnDisconnect@PluginInterface@@UAEXPAVRakPeerInterface@@@Z": 268648384,
+    "?OnCloseConnection@PluginInterface@@UAEXPAVRakPeerInterface@@UPlayerID@@@Z": 268648400,
+    "?OnDirectSocketSend@PluginInterface@@UAEXPBDIUPlayerID@@@Z": 268648416,
+    "?OnDirectSocketReceive@PluginInterface@@UAEXPBDIUPlayerID@@@Z": 268648432,
+    "?OnInternalPacket@PluginInterface@@UAEXPAUInternalPacket@@IUPlayerID@@I_N@Z": 268648448,
+    "closure_vendor_database_client::$L4421": 269361264,
+    "closure_vendor_database_client::$T4462": 269458680,
+    "closure_vendor_database_client::$L4390": 269361232,
+    "closure_vendor_database_client::$T4416": 269458644,
+    "closure_vendor_database_client::$L4325": 269361200,
+    "closure_vendor_database_client::$T4384": 269458608
+  },
+  "identity_reasons": {
+    "??0LightweightDatabaseClient@@QAE@XZ": "source method semantics + original call graph / allocation / table owner",
+    "??1LightweightDatabaseClient@@QAE@XZ": "source method semantics + original call graph / allocation / table owner",
+    "?OnAttach@LightweightDatabaseClient@@UAEXPAVRakPeerInterface@@@Z": "source method semantics + original call graph / allocation / table owner",
+    "?OnReceive@LightweightDatabaseClient@@UAE?AW4PluginReceiveResult@@PAVRakPeerInterface@@PAUPacket@@@Z": "source method semantics + original call graph / allocation / table owner",
+    "?QueryTable@LightweightDatabaseClient@@QAEXPBD0PAPBDEPAUDatabaseFilter@@EPAIEUPlayerID@@_N@Z": "source method semantics + original call graph / allocation / table owner",
+    "?RemoveRow@LightweightDatabaseClient@@QAEXPBD0IUPlayerID@@_N@Z": "source method semantics + original call graph / allocation / table owner",
+    "?UpdateRow@LightweightDatabaseClient@@QAEXPBD0W4RowUpdateMode@@_NIPAUDatabaseCellUpdate@@EUPlayerID@@2@Z": "source method semantics + original call graph / allocation / table owner",
+    "??$Write@_N@BitStream@RakNet@@QAEX_N@Z": "actual relocation from ?UpdateRow@LightweightDatabaseClient@@QAEXPBD0W4RowUpdateMode@@_NIPAUDatabaseCellUpdate@@EUPlayerID@@2@Z",
+    "?Serialize@DatabaseCellUpdate@@QAEXPAVBitStream@RakNet@@@Z": "actual relocation from ?UpdateRow@LightweightDatabaseClient@@QAEXPBD0W4RowUpdateMode@@_NIPAUDatabaseCellUpdate@@EUPlayerID@@2@Z",
+    "?Serialize@DatabaseFilter@@QAEXPAVBitStream@RakNet@@@Z": "actual relocation from ?QueryTable@LightweightDatabaseClient@@QAEXPBD0PAPBDEPAUDatabaseFilter@@EPAIEUPlayerID@@_N@Z"
+  },
+  "new_unique_code": 1592,
+  "already_covered_code": 0,
+  "physical_code_compared": 1592,
+  "baseline": 300692,
+  "source025_direct_bytes": 0,
+  "reuse_existing_owners": {},
+  "excluded_unmatched": [],
+  "unselected_method": "No arbitrary homologue assigned to unused PluginInterface constructor or scalar/pointer BitStream helpers. Their source templates remain emitted but are not credited.",
+  "source_files": [
+    {
+      "path": "client/saco/closure_vendor_database_client.cpp",
+      "sha256": "5374922c8b085927819d50f3c7f3a54d0096727a6fe2d9e91501a642d5f77124"
+    },
+    {
+      "path": "client/saco/closure_vendor_database_common.cpp",
+      "sha256": "409bf080a70010c77a26a6c8283db4cd00a7bb580a0227cd710cf43f972678ed"
+    }
+  ],
+  "objects": {
+    "closure_vendor_database_client": {
+      "path": "build/cp32-database-client-trial1/closure_vendor_database_client.obj",
+      "sha256": "421dcd25870277e8f411c97e3250b8bcf117c7aad9c0561f81b6e00e8adcb01b"
+    },
+    "closure_vendor_database_common": {
+      "path": "build/cp32-database-ime-ob1-v2/closure_vendor_database_common.obj",
+      "sha256": "7ebd80698c679d97ac2a32cbcd5e3ee133a221558247be27399809e5159795a9"
+    }
+  },
+  "identity_scope": "build/agent-independent/database-client-proposal.json",
+  "dynamic_dispatch": "Three true primary-interface Send(BitStream) calls at2EE10/2EF5C/2F126 use VFTslot12 byteoffset48; no concrete implementation or live network coverage credited.",
+  "actual_weak_aliases": {
+    "closure_vendor_database_client": {},
+    "closure_vendor_database_common": {}
+  }
+}

@@ -149,8 +149,45 @@ class Gate:
         if not a['accepted'] or not b['accepted'] or a['kind']!='code' or (a['rva'],a['size'],a['sha256'])!=(b['rva'],b['size'],b['sha256']):return None
         return dict(unit=r['unit'],anchor=r['anchor'],section=r['section'],parent=funcs[0]['name'],selected_owner=owner,parent_linked_va=entries[0][0])
 
+    def bind_crt_initializer(self,r):
+        """Locate a whole compiler initializer block inside the pinned CRT array."""
+        obj=self.objects[r['unit']];sec=obj.sections[r['section']-1]
+        if sec['name']!='.CRT$XCU':return False
+        size=r['size']
+        need(r['accepted'] and r['kind']=='data' and r['offset']==0 and size==sec['size'] and size>0 and size%4==0 and r['rva']%4==0 and not sec['uninitialized'],'invalid complete CRT initializer section')
+        fixes=sorted(relocs(obj,r['section']),key=lambda f:f['offset'])
+        offsets=list(range(0,size,4))
+        need([f['offset'] for f in fixes]==offsets and all(f['kind']==6 and u32(sec['bytes'],f['offset'])==0 for f in fixes),'invalid CRT initializer relocation')
+        targets=[]
+        for f in fixes:
+            target,offset=self.provider(r['unit'],f['symbol'])
+            need(not isinstance(target,str) and target['unit']==r['unit'] and target['accepted'] and target['kind']=='code' and offset==0,'CRT initializer lacks a complete local provider')
+            need(u32(self.reference.read(r['rva']+f['offset'],4),0)==self.reference.base+target['rva'],'wrong original CRT initializer target or relocation')
+            targets.append(target)
+        need({a-r['rva'] for a in self.reference.relocations if r['rva']<=a<r['rva']+size}==set(offsets),'wrong original CRT initializer target or relocation')
+        if any('linked_va' not in target for target in targets):return False
+        bounds=[]
+        for name in ('___xc_a','___xc_z'):
+            hits=self.maps.get(name,[])
+            need(len(hits)==1 and hits[0][1].upper()=='LIBCMT:CRT0INIT.OBJ','invalid pinned CRT sentinel owner')
+            bounds.append(hits[0][0]-self.linked.base)
+        begin,end=bounds
+        need(begin%4==0 and end%4==0 and begin+size<end,'invalid CRT initializer bounds')
+        containers=[x for x in self.linked.sections if x['rva']<=begin and end+4<=x['rva']+x['size']]
+        need(len(containers)==1 and self.linked.read(begin,4)==bytes(4) and self.linked.read(end,4)==bytes(4),'invalid CRT sentinel section or contents')
+        expected=b''.join(struct.pack('<I',target['linked_va']) for target in targets)
+        hits=[a for a in range(begin+4,end-size+1,4) if self.linked.read(a,size)==expected]
+        need(len(hits)==1,'missing or ambiguous CRT initializer slot block')
+        need({a-hits[0] for a in self.linked.relocations if hits[0]<=a<hits[0]+size}==set(offsets),'missing linked CRT initializer PE relocation')
+        self.locate(r,self.linked.base+hits[0])
+        proof=dict(unit=r['unit'],section=r['section'],original_rva=r['rva'],linked_rva=hits[0],size=size,providers=[dict(offset=off,provider=target['anchor'],provider_linked_va=target['linked_va']) for off,target in zip(offsets,targets)],sentinels=bounds,owner='LIBCMT:crt0init.obj')
+        if len(targets)==1:proof.update(provider=targets[0]['anchor'],provider_linked_va=targets[0]['linked_va'])
+        if proof not in self.crt_initializer_bindings:self.crt_initializer_bindings.append(proof)
+        return True
+
     def bind(self):
         self.associative_bindings=[]
+        self.crt_initializer_bindings=[]
         for r in self.regions:
             if r['anchor'] in self.maps:
                 association=self.discarded_associative_owner(r)
@@ -161,6 +198,9 @@ class Gate:
         progress=True
         while progress:
             progress=False
+            for r in self.regions:
+                was_bound='linked_va' in r
+                if self.bind_crt_initializer(r) and not was_bound:progress=True
             for r in self.regions:
                 if 'linked_va' not in r or not r['accepted']:continue
                 obj=self.objects[r['unit']];sec=obj.sections[r['section']-1]
@@ -197,6 +237,19 @@ class Gate:
             need(e['library'] in self.contract['sdk'],'unreviewed import library')
             owner=e['library'].removesuffix('.lib').upper()+':'
             need(any(owner in provider.upper() for _,provider in self.maps[name]),'import thunk has a non-vendor provider')
+        elif e['kind']=='crt-data':
+            # No source credit: this is the entire pinned archive data block,
+            # not a surrogate definition of one of its runtime variables.
+            need(name=='___mb_cur_max' and e['size']==12 and e['reference_va']==self.reference.base+0x117668,'unreviewed CRT data extent')
+            need(e['library']=='libcmt.lib' and e['member']=='nlsdata1.obj' and e['library'] in self.contract['sdk'],'unreviewed CRT data archive')
+            for symbol,offset in ((name,0),('___decimal_point',4),('___decimal_point_length',8)):
+                need(self.maps.get(symbol)==[(actual+offset,'LIBCMT:nlsdata1.obj')],'wrong CRT data provider or layout')
+            expected=struct.pack('<III',1,0x2e,1)
+            need(e['sha256']==sha(expected),'wrong CRT data manifest')
+            for pe,va in ((self.reference,e['reference_va']),(self.linked,actual)):
+                rva=va-pe.base
+                need(rva%4==0 and pe.read(rva,12)==expected,'wrong complete CRT data bytes')
+                need(not any(rva<=x<rva+12 for x in pe.relocations),'unexpected CRT data relocation')
         else:
             need(e['kind']=='crt','unsupported external kind')
             if 'chunks' in e:

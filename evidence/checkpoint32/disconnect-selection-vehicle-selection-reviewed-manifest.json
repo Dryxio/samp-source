@@ -1,0 +1,1005 @@
+{
+  "status": "PASS_FULL_CODE_EH_DATA_RELOCATIONS",
+  "run": "cp32-vehicle-selection-trial1",
+  "baseline": 393482,
+  "new_unique_code": 965,
+  "source025_direct": 20,
+  "direct025_definition_sha256": "1afbde25ab631353d2f800646fa6439abe5d12415d095448d54c58315c39f9d3",
+  "source025_reference_sha256": "7c556128182776b99b34a081321dae9e10a8dab31978e508d9232016ba7d34d6",
+  "regions": [
+    {
+      "unit": "closure_vehicle_selection",
+      "anchor": "?GameBuildRecreateVehicle@@YAXXZ",
+      "anchor_offset": 0,
+      "rva": 647376,
+      "size": 59,
+      "section": 53,
+      "kind": "code",
+      "duplicate_previous": false,
+      "bindings": [
+        {
+          "symbol": "?r5SelectionVehicle@@3PAVCVehicle@@A",
+          "site_rva": 647378,
+          "symbol_va": 269811612,
+          "addend": 0,
+          "target_va": 269811612,
+          "kind": 6
+        },
+        {
+          "symbol": "?r5SelectionModel@@3HA",
+          "site_rva": 647394,
+          "symbol_va": 269564140,
+          "addend": 0,
+          "target_va": 269564140,
+          "kind": 6
+        },
+        {
+          "symbol": "?pGame@@3PAVCGame@@A",
+          "site_rva": 647420,
+          "symbol_va": 270986156,
+          "addend": 0,
+          "target_va": 270986156,
+          "kind": 6
+        },
+        {
+          "symbol": "?NewVehicle@R5GameVehicleCreationView@@QAEPAVCVehicle@@HMMMMH@Z",
+          "site_rva": 647425,
+          "symbol_va": 269091408,
+          "addend": 0,
+          "target_va": 269091408,
+          "kind": 20
+        },
+        {
+          "symbol": "?r5SelectionVehicle@@3PAVCVehicle@@A",
+          "site_rva": 647430,
+          "symbol_va": 269811612,
+          "addend": 0,
+          "target_va": 269811612,
+          "kind": 6
+        }
+      ],
+      "sha256": "089de8f0ff65e44c83f99b121990496b0f2a44c1c0add1155cfbcf15d17870bb",
+      "object_sha256": "f8d71fa22f83dd864440a7f0aedfd776c815136dfdedd8bad045ee3e1b410ef8",
+      "whole_section": true
+    },
+    {
+      "unit": "closure_vehicle_selection",
+      "anchor": "?GameBuildSelectVehicle@@YAXXZ",
+      "anchor_offset": 0,
+      "rva": 647440,
+      "size": 886,
+      "section": 55,
+      "kind": "code",
+      "duplicate_previous": false,
+      "bindings": [
+        {
+          "symbol": "?r5SelectionInitialized@@3HA",
+          "site_rva": 647441,
+          "symbol_va": 269811608,
+          "addend": 0,
+          "target_va": 269811608,
+          "kind": 6
+        },
+        {
+          "symbol": "?GameGetInternalKeys@@YAPAU_GTA_CONTROLSET@@XZ",
+          "site_rva": 647462,
+          "symbol_va": 269120432,
+          "addend": 0,
+          "target_va": 269120432,
+          "kind": 20
+        },
+        {
+          "symbol": "?r5SelectionControls@@3PAU_GTA_CONTROLSET@@A",
+          "site_rva": 647470,
+          "symbol_va": 269811376,
+          "addend": 0,
+          "target_va": 269811376,
+          "kind": 6
+        },
+        {
+          "symbol": "?pGame@@3PAVCGame@@A",
+          "site_rva": 647475,
+          "symbol_va": 270986156,
+          "addend": 0,
+          "target_va": 270986156,
+          "kind": 6
+        },
+        {
+          "symbol": "?r5SelectionCamera@@3PAVCCamera@@A",
+          "site_rva": 647499,
+          "symbol_va": 269811380,
+          "addend": 0,
+          "target_va": 269811380,
+          "kind": 6
+        },
+        {
+          "symbol": "?SetPosition@CCamera@@QAEXMMMMMM@Z",
+          "site_rva": 647504,
+          "symbol_va": 269080448,
+          "addend": 0,
+          "target_va": 269080448,
+          "kind": 20
+        },
+        {
+          "symbol": "?r5SelectionCamera@@3PAVCCamera@@A",
+          "site_rva": 647510,
+          "symbol_va": 269811380,
+          "addend": 0,
+          "target_va": 269811380,
+          "kind": 6
+        },
+        {
+          "symbol": "?LookAtPoint@CCamera@@QAEXMMMH@Z",
+          "site_rva": 647532,
+          "symbol_va": 269080544,
+          "addend": 0,
+          "target_va": 269080544,
+          "kind": 20
+        },
+        {
+          "symbol": "?pGame@@3PAVCGame@@A",
+          "site_rva": 647538,
+          "symbol_va": 270986156,
+          "addend": 0,
+          "target_va": 270986156,
+          "kind": 6
+        },
+        {
+          "symbol": "?FindPlayerPed@CGame@@QAEPAVCPlayerPed@@XZ",
+          "site_rva": 647544,
+          "symbol_va": 268439568,
+          "addend": 0,
+          "target_va": 268439568,
+          "kind": 20
+        },
+        {
+          "symbol": "?TogglePlayerControllable@CPlayerPed@@QAEXH@Z",
+          "site_rva": 647551,
+          "symbol_va": 269141904,
+          "addend": 0,
+          "target_va": 269141904,
+          "kind": 20
+        },
+        {
+          "symbol": "?pGame@@3PAVCGame@@A",
+          "site_rva": 647557,
+          "symbol_va": 270986156,
+          "addend": 0,
+          "target_va": 270986156,
+          "kind": 6
+        },
+        {
+          "symbol": "??_C@_0P@JLKJPJHJ@Vehicle?5Select?$AA@",
+          "site_rva": 647569,
+          "symbol_va": 269403192,
+          "addend": 0,
+          "target_va": 269403192,
+          "kind": 6
+        },
+        {
+          "symbol": "?DisplayGameText@CGame@@QAEXPADHH@Z",
+          "site_rva": 647574,
+          "symbol_va": 269094112,
+          "addend": 0,
+          "target_va": 269094112,
+          "kind": 20
+        },
+        {
+          "symbol": "?r5SelectionVehicle@@3PAVCVehicle@@A",
+          "site_rva": 647580,
+          "symbol_va": 269811612,
+          "addend": 0,
+          "target_va": 269811612,
+          "kind": 6
+        },
+        {
+          "symbol": "?r5SelectionModel@@3HA",
+          "site_rva": 647595,
+          "symbol_va": 269564140,
+          "addend": 0,
+          "target_va": 269564140,
+          "kind": 6
+        },
+        {
+          "symbol": "?pGame@@3PAVCGame@@A",
+          "site_rva": 647601,
+          "symbol_va": 270986156,
+          "addend": 0,
+          "target_va": 270986156,
+          "kind": 6
+        },
+        {
+          "symbol": "?NewVehicle@R5GameVehicleCreationView@@QAEPAVCVehicle@@HMMMMH@Z",
+          "site_rva": 647624,
+          "symbol_va": 269091408,
+          "addend": 0,
+          "target_va": 269091408,
+          "kind": 20
+        },
+        {
+          "symbol": "?r5SelectionVehicle@@3PAVCVehicle@@A",
+          "site_rva": 647629,
+          "symbol_va": 269811612,
+          "addend": 0,
+          "target_va": 269811612,
+          "kind": 6
+        },
+        {
+          "symbol": "?r5SelectionInitialized@@3HA",
+          "site_rva": 647635,
+          "symbol_va": 269811608,
+          "addend": 0,
+          "target_va": 269811608,
+          "kind": 6
+        },
+        {
+          "symbol": "?pGame@@3PAVCGame@@A",
+          "site_rva": 647645,
+          "symbol_va": 270986156,
+          "addend": 0,
+          "target_va": 270986156,
+          "kind": 6
+        },
+        {
+          "symbol": "?DisplayHud@CGame@@QAEXH@Z",
+          "site_rva": 647651,
+          "symbol_va": 269098416,
+          "addend": 0,
+          "target_va": 269098416,
+          "kind": 20
+        },
+        {
+          "symbol": "?r5SelectionVehicle@@3PAVCVehicle@@A",
+          "site_rva": 647657,
+          "symbol_va": 269811612,
+          "addend": 0,
+          "target_va": 269811612,
+          "kind": 6
+        },
+        {
+          "symbol": "?SetTurnSpeedVector@CEntity@@QAEXU_VECTOR@@@Z",
+          "site_rva": 647752,
+          "symbol_va": 269086304,
+          "addend": 0,
+          "target_va": 269086304,
+          "kind": 20
+        },
+        {
+          "symbol": "?r5SelectionVehicle@@3PAVCVehicle@@A",
+          "site_rva": 647783,
+          "symbol_va": 269811612,
+          "addend": 0,
+          "target_va": 269811612,
+          "kind": 6
+        },
+        {
+          "symbol": "?SetMoveSpeedVector@CEntity@@QAEXU_VECTOR@@@Z",
+          "site_rva": 647788,
+          "symbol_va": 269085968,
+          "addend": 0,
+          "target_va": 269085968,
+          "kind": 20
+        },
+        {
+          "symbol": "?r5SelectionVehicle@@3PAVCVehicle@@A",
+          "site_rva": 647794,
+          "symbol_va": 269811612,
+          "addend": 0,
+          "target_va": 269811612,
+          "kind": 6
+        },
+        {
+          "symbol": "?GetMatrix@CEntity@@QAEXPAU_MATRIX4X4@@@Z",
+          "site_rva": 647804,
+          "symbol_va": 269085456,
+          "addend": 0,
+          "target_va": 269085456,
+          "kind": 20
+        },
+        {
+          "symbol": "?r5SelectionVehicle@@3PAVCVehicle@@A",
+          "site_rva": 647859,
+          "symbol_va": 269811612,
+          "addend": 0,
+          "target_va": 269811612,
+          "kind": 6
+        },
+        {
+          "symbol": "?SetMatrix@CEntity@@QAEXU_MATRIX4X4@@@Z",
+          "site_rva": 647864,
+          "symbol_va": 269085632,
+          "addend": 0,
+          "target_va": 269085632,
+          "kind": 20
+        },
+        {
+          "symbol": "?r5SelectionVehicle@@3PAVCVehicle@@A",
+          "site_rva": 647870,
+          "symbol_va": 269811612,
+          "addend": 0,
+          "target_va": 269811612,
+          "kind": 6
+        },
+        {
+          "symbol": "?r5SelectionControls@@3PAU_GTA_CONTROLSET@@A",
+          "site_rva": 647875,
+          "symbol_va": 269811376,
+          "addend": 0,
+          "target_va": 269811376,
+          "kind": 6
+        },
+        {
+          "symbol": "?r5SelectionModel@@3HA",
+          "site_rva": 647892,
+          "symbol_va": 269564140,
+          "addend": 0,
+          "target_va": 269564140,
+          "kind": 6
+        },
+        {
+          "symbol": "?r5SelectionModel@@3HA",
+          "site_rva": 647903,
+          "symbol_va": 269564140,
+          "addend": 0,
+          "target_va": 269564140,
+          "kind": 6
+        },
+        {
+          "symbol": "?r5SelectionModel@@3HA",
+          "site_rva": 647911,
+          "symbol_va": 269564140,
+          "addend": 0,
+          "target_va": 269564140,
+          "kind": 6
+        },
+        {
+          "symbol": "?GameBuildRecreateVehicle@@YAXXZ",
+          "site_rva": 647920,
+          "symbol_va": 269082832,
+          "addend": 0,
+          "target_va": 269082832,
+          "kind": 20
+        },
+        {
+          "symbol": "?r5SelectionModel@@3HA",
+          "site_rva": 647940,
+          "symbol_va": 269564140,
+          "addend": 0,
+          "target_va": 269564140,
+          "kind": 6
+        },
+        {
+          "symbol": "?GameBuildRecreateVehicle@@YAXXZ",
+          "site_rva": 647949,
+          "symbol_va": 269082832,
+          "addend": 0,
+          "target_va": 269082832,
+          "kind": 20
+        },
+        {
+          "symbol": "?r5SelectionModel@@3HA",
+          "site_rva": 647973,
+          "symbol_va": 269564140,
+          "addend": 0,
+          "target_va": 269564140,
+          "kind": 6
+        },
+        {
+          "symbol": "?r5SelectionModel@@3HA",
+          "site_rva": 647984,
+          "symbol_va": 269564140,
+          "addend": 0,
+          "target_va": 269564140,
+          "kind": 6
+        },
+        {
+          "symbol": "?r5SelectionModel@@3HA",
+          "site_rva": 647992,
+          "symbol_va": 269564140,
+          "addend": 0,
+          "target_va": 269564140,
+          "kind": 6
+        },
+        {
+          "symbol": "?GameBuildRecreateVehicle@@YAXXZ",
+          "site_rva": 648001,
+          "symbol_va": 269082832,
+          "addend": 0,
+          "target_va": 269082832,
+          "kind": 20
+        },
+        {
+          "symbol": "?r5SelectionModel@@3HA",
+          "site_rva": 648021,
+          "symbol_va": 269564140,
+          "addend": 0,
+          "target_va": 269564140,
+          "kind": 6
+        },
+        {
+          "symbol": "?GameBuildRecreateVehicle@@YAXXZ",
+          "site_rva": 648030,
+          "symbol_va": 269082832,
+          "addend": 0,
+          "target_va": 269082832,
+          "kind": 20
+        },
+        {
+          "symbol": "?r5SelectionCamera@@3PAVCCamera@@A",
+          "site_rva": 648073,
+          "symbol_va": 269811380,
+          "addend": 0,
+          "target_va": 269811380,
+          "kind": 6
+        },
+        {
+          "symbol": "?r5SelectionVehicle@@3PAVCVehicle@@A",
+          "site_rva": 648079,
+          "symbol_va": 269811612,
+          "addend": 0,
+          "target_va": 269811612,
+          "kind": 6
+        },
+        {
+          "symbol": "?SetBehindPlayer@CCamera@@QAEXXZ",
+          "site_rva": 648084,
+          "symbol_va": 269080384,
+          "addend": 0,
+          "target_va": 269080384,
+          "kind": 20
+        },
+        {
+          "symbol": "?pGame@@3PAVCGame@@A",
+          "site_rva": 648090,
+          "symbol_va": 270986156,
+          "addend": 0,
+          "target_va": 270986156,
+          "kind": 6
+        },
+        {
+          "symbol": "?iGameDebugType@@3HA",
+          "site_rva": 648096,
+          "symbol_va": 269811536,
+          "addend": 0,
+          "target_va": 269811536,
+          "kind": 6
+        },
+        {
+          "symbol": "?dwDebugEntity1@@3KA",
+          "site_rva": 648102,
+          "symbol_va": 269811540,
+          "addend": 0,
+          "target_va": 269811540,
+          "kind": 6
+        },
+        {
+          "symbol": "?dwDebugEntity2@@3KA",
+          "site_rva": 648108,
+          "symbol_va": 269811544,
+          "addend": 0,
+          "target_va": 269811544,
+          "kind": 6
+        },
+        {
+          "symbol": "?FindPlayerPed@CGame@@QAEPAVCPlayerPed@@XZ",
+          "site_rva": 648113,
+          "symbol_va": 268439568,
+          "addend": 0,
+          "target_va": 268439568,
+          "kind": 20
+        },
+        {
+          "symbol": "?GetMatrix@CEntity@@QAEXPAU_MATRIX4X4@@@Z",
+          "site_rva": 648135,
+          "symbol_va": 269085456,
+          "addend": 0,
+          "target_va": 269085456,
+          "kind": 20
+        },
+        {
+          "symbol": "?r5SelectionModel@@3HA",
+          "site_rva": 648141,
+          "symbol_va": 269564140,
+          "addend": 0,
+          "target_va": 269564140,
+          "kind": 6
+        },
+        {
+          "symbol": "??_C@_07MNBIJLFM@TYPE_?$CFd?$AA@",
+          "site_rva": 648157,
+          "symbol_va": 269394288,
+          "addend": 0,
+          "target_va": 269394288,
+          "kind": 6
+        },
+        {
+          "symbol": "_sprintf",
+          "site_rva": 648171,
+          "symbol_va": 269251411,
+          "addend": 0,
+          "target_va": 269251411,
+          "kind": 20
+        },
+        {
+          "symbol": "__real@3f800000",
+          "site_rva": 648181,
+          "symbol_va": 269376300,
+          "addend": 0,
+          "target_va": 269376300,
+          "kind": 6
+        },
+        {
+          "symbol": "?r5SelectionModel@@3HA",
+          "site_rva": 648187,
+          "symbol_va": 269564140,
+          "addend": 0,
+          "target_va": 269564140,
+          "kind": 6
+        },
+        {
+          "symbol": "__real@40a00000",
+          "site_rva": 648209,
+          "symbol_va": 269394284,
+          "addend": 0,
+          "target_va": 269394284,
+          "kind": 6
+        },
+        {
+          "symbol": "__real@40a00000",
+          "site_rva": 648223,
+          "symbol_va": 269394284,
+          "addend": 0,
+          "target_va": 269394284,
+          "kind": 6
+        },
+        {
+          "symbol": "?pGame@@3PAVCGame@@A",
+          "site_rva": 648233,
+          "symbol_va": 270986156,
+          "addend": 0,
+          "target_va": 270986156,
+          "kind": 6
+        },
+        {
+          "symbol": "?NewVehicle@R5GameVehicleCreationView@@QAEPAVCVehicle@@HMMMMH@Z",
+          "site_rva": 648238,
+          "symbol_va": 269091408,
+          "addend": 0,
+          "target_va": 269091408,
+          "kind": 20
+        },
+        {
+          "symbol": "?PutDirectlyInVehicle@CPlayerPed@@QAEXHH@Z",
+          "site_rva": 648254,
+          "symbol_va": 269140624,
+          "addend": 0,
+          "target_va": 269140624,
+          "kind": 20
+        },
+        {
+          "symbol": "?r5SelectionCamera@@3PAVCCamera@@A",
+          "site_rva": 648260,
+          "symbol_va": 269811380,
+          "addend": 0,
+          "target_va": 269811380,
+          "kind": 6
+        },
+        {
+          "symbol": "?Restore@CCamera@@QAEXXZ",
+          "site_rva": 648265,
+          "symbol_va": 269080624,
+          "addend": 0,
+          "target_va": 269080624,
+          "kind": 20
+        },
+        {
+          "symbol": "?r5SelectionCamera@@3PAVCCamera@@A",
+          "site_rva": 648271,
+          "symbol_va": 269811380,
+          "addend": 0,
+          "target_va": 269811380,
+          "kind": 6
+        },
+        {
+          "symbol": "?SetBehindPlayer@CCamera@@QAEXXZ",
+          "site_rva": 648276,
+          "symbol_va": 269080384,
+          "addend": 0,
+          "target_va": 269080384,
+          "kind": 20
+        },
+        {
+          "symbol": "?pGame@@3PAVCGame@@A",
+          "site_rva": 648282,
+          "symbol_va": 270986156,
+          "addend": 0,
+          "target_va": 270986156,
+          "kind": 6
+        },
+        {
+          "symbol": "?FindPlayerPed@CGame@@QAEPAVCPlayerPed@@XZ",
+          "site_rva": 648289,
+          "symbol_va": 268439568,
+          "addend": 0,
+          "target_va": 268439568,
+          "kind": 20
+        },
+        {
+          "symbol": "?TogglePlayerControllable@CPlayerPed@@QAEXH@Z",
+          "site_rva": 648296,
+          "symbol_va": 269141904,
+          "addend": 0,
+          "target_va": 269141904,
+          "kind": 20
+        },
+        {
+          "symbol": "?pGame@@3PAVCGame@@A",
+          "site_rva": 648302,
+          "symbol_va": 270986156,
+          "addend": 0,
+          "target_va": 270986156,
+          "kind": 6
+        },
+        {
+          "symbol": "?DisplayHud@CGame@@QAEXH@Z",
+          "site_rva": 648309,
+          "symbol_va": 269098416,
+          "addend": 0,
+          "target_va": 269098416,
+          "kind": 20
+        },
+        {
+          "symbol": "?r5SelectionInitialized@@3HA",
+          "site_rva": 648315,
+          "symbol_va": 269811608,
+          "addend": 0,
+          "target_va": 269811608,
+          "kind": 6
+        }
+      ],
+      "sha256": "3b1235168a2a28281bb46f22d21f8334fa67b365706c585cad4261463de4db58",
+      "object_sha256": "f8d71fa22f83dd864440a7f0aedfd776c815136dfdedd8bad045ee3e1b410ef8",
+      "whole_section": true
+    },
+    {
+      "unit": "closure_vehicle_selection",
+      "anchor": "?GameDebugDrawDebugScreens@@YAXXZ",
+      "anchor_offset": 0,
+      "rva": 648336,
+      "size": 20,
+      "section": 61,
+      "kind": "code",
+      "duplicate_previous": false,
+      "bindings": [
+        {
+          "symbol": "?iGameDebugType@@3HA",
+          "site_rva": 648337,
+          "symbol_va": 269811536,
+          "addend": 0,
+          "target_va": 269811536,
+          "kind": 6
+        },
+        {
+          "symbol": "?GameBuildSelectVehicle@@YAXXZ",
+          "site_rva": 648351,
+          "symbol_va": 269082896,
+          "addend": 0,
+          "target_va": 269082896,
+          "kind": 20
+        }
+      ],
+      "sha256": "4b6f3361e3eccb8b1ad9818b3393ccd5d62a61a088d12c9abe2e28e3a64749ce",
+      "object_sha256": "f8d71fa22f83dd864440a7f0aedfd776c815136dfdedd8bad045ee3e1b410ef8",
+      "whole_section": true
+    },
+    {
+      "unit": "closure_vehicle_selection",
+      "anchor": "?FindPlayerPed@CGame@@QAEPAVCPlayerPed@@XZ",
+      "anchor_offset": 0,
+      "rva": 4112,
+      "size": 94,
+      "section": 48,
+      "kind": "code",
+      "duplicate_previous": true,
+      "bindings": [
+        {
+          "symbol": "__ehhandler$?FindPlayerPed@CGame@@QAEPAVCPlayerPed@@XZ",
+          "site_rva": 4115,
+          "symbol_va": 269352587,
+          "addend": 0,
+          "target_va": 269352587,
+          "kind": 6
+        },
+        {
+          "symbol": "__except_list",
+          "site_rva": 4121,
+          "symbol_va": 0,
+          "addend": 0,
+          "target_va": 0,
+          "kind": 6
+        },
+        {
+          "symbol": "__except_list",
+          "site_rva": 4129,
+          "symbol_va": 0,
+          "addend": 0,
+          "target_va": 0,
+          "kind": 6
+        },
+        {
+          "symbol": "??2@YAPAXI@Z",
+          "site_rva": 4150,
+          "symbol_va": 269247098,
+          "addend": 0,
+          "target_va": 269247098,
+          "kind": 20
+        },
+        {
+          "symbol": "??0CPlayerPed@@QAE@XZ",
+          "site_rva": 4176,
+          "symbol_va": 269138544,
+          "addend": 0,
+          "target_va": 269138544,
+          "kind": 20
+        },
+        {
+          "symbol": "__except_list",
+          "site_rva": 4198,
+          "symbol_va": 0,
+          "addend": 0,
+          "target_va": 0,
+          "kind": 6
+        }
+      ],
+      "sha256": "c68912916b6df6feb35b20db4e7b421d654238152cff390567881edf7dc6dc63",
+      "object_sha256": "f8d71fa22f83dd864440a7f0aedfd776c815136dfdedd8bad045ee3e1b410ef8",
+      "whole_section": true,
+      "previous_identical_owners": [
+        "closure_player_lifetime",
+        "closure_object_editor_attached",
+        "closure_rpc_player_motion_shop",
+        "closure_rpc_vehicle_motion",
+        "closure_vehicle_appearance_interior",
+        "closure_entity_local_distances",
+        "closure_local_player_construction",
+        "closure_cmd_save_positions",
+        "closure_cmd_player_skin",
+        "closure_cmd_create_vehicle"
+      ]
+    },
+    {
+      "unit": "closure_vehicle_selection",
+      "anchor": "$L95107",
+      "anchor_offset": 0,
+      "rva": 917120,
+      "size": 21,
+      "section": 49,
+      "kind": "code",
+      "duplicate_previous": true,
+      "bindings": [
+        {
+          "symbol": "??3@YAXPAX@Z",
+          "site_rva": 917125,
+          "symbol_va": 269247626,
+          "addend": 0,
+          "target_va": 269247626,
+          "kind": 20
+        },
+        {
+          "symbol": "$T95111",
+          "site_rva": 917132,
+          "symbol_va": 269448728,
+          "addend": 0,
+          "target_va": 269448728,
+          "kind": 6
+        },
+        {
+          "symbol": "___CxxFrameHandler",
+          "site_rva": 917137,
+          "symbol_va": 269247782,
+          "addend": 0,
+          "target_va": 269247782,
+          "kind": 20
+        }
+      ],
+      "sha256": "9319808924bf8500b1410f9cb245444680ef7a3fe4e84b7ca09480967e1426d7",
+      "object_sha256": "f8d71fa22f83dd864440a7f0aedfd776c815136dfdedd8bad045ee3e1b410ef8",
+      "whole_section": true,
+      "previous_identical_owners": [
+        "closure_player_lifetime",
+        "closure_object_editor_attached",
+        "closure_rpc_player_motion_shop",
+        "closure_rpc_vehicle_motion",
+        "closure_vehicle_appearance_interior",
+        "closure_entity_local_distances",
+        "closure_local_player_construction",
+        "closure_cmd_save_positions",
+        "closure_cmd_player_skin",
+        "closure_cmd_create_vehicle"
+      ]
+    },
+    {
+      "unit": "closure_vehicle_selection",
+      "anchor": "$T95111",
+      "anchor_offset": 8,
+      "rva": 1013264,
+      "size": 36,
+      "section": 50,
+      "kind": "data",
+      "duplicate_previous": true,
+      "bindings": [
+        {
+          "symbol": "$L95107",
+          "site_rva": 1013268,
+          "symbol_va": 269352576,
+          "addend": 0,
+          "target_va": 269352576,
+          "kind": 6
+        },
+        {
+          "symbol": "$T95115",
+          "site_rva": 1013280,
+          "symbol_va": 269448720,
+          "addend": 0,
+          "target_va": 269448720,
+          "kind": 6
+        }
+      ],
+      "sha256": "18eebed3494c03a403490a6f95494d9ce9fb81d4042f17a3cba066f92675eb8c",
+      "object_sha256": "f8d71fa22f83dd864440a7f0aedfd776c815136dfdedd8bad045ee3e1b410ef8",
+      "whole_section": true,
+      "previous_identical_owners": [
+        "closure_player_lifetime",
+        "closure_object_editor_attached",
+        "closure_rpc_player_motion_shop",
+        "closure_rpc_vehicle_motion",
+        "closure_vehicle_appearance_interior",
+        "closure_entity_local_distances",
+        "closure_local_player_construction",
+        "closure_cmd_save_positions",
+        "closure_cmd_player_skin",
+        "closure_cmd_create_vehicle"
+      ]
+    },
+    {
+      "unit": "closure_store_vehicle_selection_initialized",
+      "anchor": "?r5SelectionInitialized@@3HA",
+      "anchor_offset": 0,
+      "rva": 1376152,
+      "size": 4,
+      "section": 3,
+      "kind": "data",
+      "duplicate_previous": false,
+      "bindings": [],
+      "sha256": "df3f619804a92fdb4057192dc43dd748ea778adc52bc498ce80524c014b81119",
+      "object_sha256": "9c4f37351d10f343f89e684d4981d7ee5c4eb148aa10bf04cbe83fe93bddf68b",
+      "whole_section": true
+    },
+    {
+      "unit": "closure_store_vehicle_selection_vehicle",
+      "anchor": "?r5SelectionVehicle@@3PAVCVehicle@@A",
+      "anchor_offset": 0,
+      "rva": 1376156,
+      "size": 4,
+      "section": 3,
+      "kind": "data",
+      "duplicate_previous": false,
+      "bindings": [],
+      "sha256": "df3f619804a92fdb4057192dc43dd748ea778adc52bc498ce80524c014b81119",
+      "object_sha256": "df13e43894b06bfdfff4665c16777ecbbb4f0c4d10aa40a5ff0c9be8d7276719",
+      "whole_section": true
+    },
+    {
+      "unit": "closure_store_vehicle_selection_model",
+      "anchor": "?r5SelectionModel@@3HA",
+      "anchor_offset": 0,
+      "rva": 1128684,
+      "size": 4,
+      "section": 3,
+      "kind": "data",
+      "duplicate_previous": false,
+      "bindings": [],
+      "sha256": "67f3b78be1abcf789ba8e3b174a41e54b417c8b3c1041dadd5e3db19d01730fb",
+      "object_sha256": "b0793a270e2ba6685bfcf69fdd7b6e108e2062d0d2908b902a38c3e2ea349d92",
+      "whole_section": true
+    },
+    {
+      "unit": "closure_store_vehicle_selection_controls",
+      "anchor": "?r5SelectionControls@@3PAU_GTA_CONTROLSET@@A",
+      "anchor_offset": 0,
+      "rva": 1375920,
+      "size": 4,
+      "section": 3,
+      "kind": "data",
+      "duplicate_previous": false,
+      "bindings": [],
+      "sha256": "df3f619804a92fdb4057192dc43dd748ea778adc52bc498ce80524c014b81119",
+      "object_sha256": "5f23dab3bbc8f00ec4b40c458e30302de7b779f7ff5e8de3910d93f134cdec02",
+      "whole_section": true
+    },
+    {
+      "unit": "closure_store_vehicle_selection_camera",
+      "anchor": "?r5SelectionCamera@@3PAVCCamera@@A",
+      "anchor_offset": 0,
+      "rva": 1375924,
+      "size": 4,
+      "section": 3,
+      "kind": "data",
+      "duplicate_previous": false,
+      "bindings": [],
+      "sha256": "df3f619804a92fdb4057192dc43dd748ea778adc52bc498ce80524c014b81119",
+      "object_sha256": "9c04913787239bd4cae021951cc627ddbce03536a194c9ae4cb9c8f428ef0c3b",
+      "whole_section": true
+    },
+    {
+      "unit": "closure_vehicle_selection",
+      "anchor": "??_C@_0P@JLKJPJHJ@Vehicle?5Select?$AA@",
+      "anchor_offset": 0,
+      "rva": 967736,
+      "size": 15,
+      "section": 59,
+      "kind": "data",
+      "duplicate_previous": false,
+      "bindings": [],
+      "sha256": "78e09a36971f294ed5b44b21846061e8e3e0b9ddc5df08f90e48e00315dd9c85",
+      "object_sha256": "f8d71fa22f83dd864440a7f0aedfd776c815136dfdedd8bad045ee3e1b410ef8",
+      "whole_section": true
+    },
+    {
+      "unit": "closure_vehicle_selection",
+      "anchor": "??_C@_07MNBIJLFM@TYPE_?$CFd?$AA@",
+      "anchor_offset": 0,
+      "rva": 958832,
+      "size": 8,
+      "section": 58,
+      "kind": "data",
+      "duplicate_previous": false,
+      "bindings": [],
+      "sha256": "dff10567d216cc3b2df92237f23c8c30b805fc8adb8b45c8c2431896037e3111",
+      "object_sha256": "f8d71fa22f83dd864440a7f0aedfd776c815136dfdedd8bad045ee3e1b410ef8",
+      "whole_section": true
+    },
+    {
+      "unit": "closure_vehicle_selection",
+      "anchor": "__real@3f800000",
+      "anchor_offset": 0,
+      "rva": 940844,
+      "size": 4,
+      "section": 57,
+      "kind": "data",
+      "duplicate_previous": false,
+      "bindings": [],
+      "sha256": "e00e5eb9444182f352323374ef4e08ebcb784725fdd4fd612d7730540b3e0c8c",
+      "object_sha256": "f8d71fa22f83dd864440a7f0aedfd776c815136dfdedd8bad045ee3e1b410ef8",
+      "whole_section": true
+    },
+    {
+      "unit": "closure_vehicle_selection",
+      "anchor": "__real@40a00000",
+      "anchor_offset": 0,
+      "rva": 958828,
+      "size": 4,
+      "section": 56,
+      "kind": "data",
+      "duplicate_previous": false,
+      "bindings": [],
+      "sha256": "fca31f1667a6aa1bba12fca4e4ea1becd503379d80da3213af07f6cc5702828d",
+      "object_sha256": "f8d71fa22f83dd864440a7f0aedfd776c815136dfdedd8bad045ee3e1b410ef8",
+      "whole_section": true
+    }
+  ],
+  "source_files": {
+    "client/saco/closure_vehicle_selection.cpp": "8a4bfb0013056ccb268b78dac92465588c970c81181736ef2eed742649731f3a",
+    "client/saco/closure_store_vehicle_selection_initialized.cpp": "5842cb24958bf2fad9d6ebff4f7c299ffd2ec85a12db581f873d28fb2d1deccb",
+    "client/saco/closure_store_vehicle_selection_vehicle.cpp": "721d1117688bb2b6e13d48105482f23630dba0f65bd86cac962a3dc704ec0d1d",
+    "client/saco/closure_store_vehicle_selection_model.cpp": "0d7e2ec3099db21732515a664b79c8a96869d8af70cb542a7f4009ae66256160",
+    "client/saco/closure_store_vehicle_selection_controls.cpp": "8e94ba715cb3cdb514fb054ac15dbbdd5da091badcfd5a000b9ff3f208c0a77b",
+    "client/saco/closure_store_vehicle_selection_camera.cpp": "6781850f5daafc0610006cf43ebadcbb1ebe4f1f095cb14ed6c0e5a5181e9ec1"
+  },
+  "profile": "Ob2 originalfirstRecreateinline and fourothercalls preserved, entire886 verified.",
+  "real_types": "OriginalGTA_CONTROLSET previous/current offsets1C/4C,20/50,1E/4E; actualfullCVehicle nativeentity40 andGTAid44; destructorvirtualslot0 uses completeacceptedVFT. Factory view identical to acceptedowner, neverallocated.",
+  "new_ped_dependency": "ToggleControllable178+PutDirectly381 exact reviewed separately, not included965.",
+  "duplicates": "FindPlayer94/EH21/FuncInfo36 wholephysicalcopies reviewed againstpreviousacceptedowners, zero newcredit. UnusedGetCamera4 excluded.",
+  "floating": "Fulloriginal code includes inline5.0,500.0,502.0,-4.0,0.03F; allstaticliteral5.0/1.0 full4-byte objects verified, no reinterpret-double error.",
+  "native_behavior": "Control and camera pointers captured from actualproviders; no runtimegameoperationexecuted."
+}

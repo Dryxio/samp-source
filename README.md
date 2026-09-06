@@ -20,7 +20,7 @@ Functions are checked in full, including their references, call targets and jump
 
 ## Progress
 
-**277,519 / 930,756 code bytes verified — 29.82% of the original code section.**
+**402,825 / 930,756 code bytes verified — 43.28% of the original code section.**
 
 Latest accepted checkpoint: **September 6, 2026 · CP3.2**. Coverage counts unique accepted code bytes; overlapping matches and unimplemented dependencies receive no extra credit.
 
@@ -28,11 +28,12 @@ Accepted coverage includes parts of:
 
 - **Game and client code:** actor lifecycle, entity geometry, camera/audio wrappers, native pools, player state, weapon skills, commands, menus, RenderWare and shared utilities.
 - **Interface:** dialog lifecycle, drawing and message routing, control rendering and input, text editing, IME composition and resource lookup.
+- **Networking:** accepted portions of RakPeer, RakClient, Router, RPC handling, reliability, connection graphs and shared containers.
 - **DXUT framework:** timers, resource-cache lifecycle and creation, framework state and shutdown, adapter enumeration, device-settings construction, command-line parsing, camera helpers and render-loop handling.
 
-The latest batch added **1,250 unique exact code bytes**. Its complete-region and relocation/target checks passed, together with **10 negative controls** and the existing ABI checks. See the linked acceptance evidence for scope and limitations.
+The latest batch added **5,957 unique exact code bytes**. Its complete-region and relocation/target checks passed, together with **10 negative controls** and the existing ABI checks. See the linked acceptance evidence for scope and limitations.
 
-The local 0.2.5 reference has contributed **21,947 accepted reconstructed code bytes**, including adaptations to R5. Shared source already present in our base is tracked separately from that contribution.
+The local 0.2.5 reference has contributed source and algorithms used in accepted reconstructions. The latest integration report records **22,342 cumulative directly attributed code bytes**; adapted implementations and shared source are tracked separately.
 
 | Milestone | Status |
 | --- | --- |
@@ -43,7 +44,7 @@ The local 0.2.5 reference has contributed **21,947 accepted reconstructed code b
 
 This is an early reconstruction, not a playable replacement DLL. Matching individual functions is progress toward full-file identity, not proof of it.
 
-[Verified coverage](evidence/checkpoint32/coverage-current.json) · [Latest accepted batch](evidence/checkpoint32/listbox-roster-acceptance.json) · [Development log](evidence/checkpoint32/PROGRESS.md)
+[Verified coverage](evidence/checkpoint32/coverage-current.json) · [Latest accepted batch](evidence/checkpoint32/client-router-rpc-acceptance.json) · [Development log](evidence/checkpoint32/PROGRESS.md)
 
 ## Explore or contribute
 

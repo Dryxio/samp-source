@@ -1,0 +1,1730 @@
+{
+  "status": "REVIEWED_MAIN_SEEDS_AND_WHOLE_EH_BINDINGS_PREFLIGHT",
+  "run": "build/cp32-tcp-font-trial1",
+  "roots": {
+    "?DeleteRemoteClient@TCPInterface@@IAEXPAURemoteClient@@PAUfd_set@@@Z": 350192,
+    "??0TCPInterface@@QAE@XZ": 351840,
+    "?Stop@TCPInterface@@QAEXXZ": 352048,
+    "?Connect@TCPInterface@@QAE?AUPlayerID@@PBDG@Z": 352240,
+    "?Send@TCPInterface@@QAEXPBDIUPlayerID@@@Z": 352560,
+    "?Receive@TCPInterface@@QAEPAUPacket@@XZ": 352672,
+    "?CloseConnection@TCPInterface@@QAEXUPlayerID@@@Z": 352704,
+    "?DeallocatePacket@TCPInterface@@QAEXPAUPacket@@@Z": 352768,
+    "?HasNewConnection@TCPInterface@@QAE?AUPlayerID@@XZ": 352800,
+    "?HasLostConnection@TCPInterface@@QAE?AUPlayerID@@XZ": 352880,
+    "??1TCPInterface@@QAE@XZ": 353024,
+    "?UpdateTCPInterfaceLoop@@YGIPAX@Z": 353184,
+    "?Start@TCPInterface@@QAE_NGG@Z": 354432,
+    "?RakSleep@@YAXI@Z": 277152
+  },
+  "seeds": {
+    "eval_vendor_tcp_interface": {
+      "?Start@TCPInterface@@QAE_NGG@Z": 354432,
+      "?UpdateTCPInterfaceLoop@@YGIPAX@Z": 353184,
+      "?WriteUnlock@?$SingleProducerConsumer@UPacket@@@DataStructures@@QAEXXZ": 350720,
+      "?WriteLock@?$SingleProducerConsumer@UPacket@@@DataStructures@@QAEPAUPacket@@XZ": 350656,
+      "?ReadUnlock@?$SingleProducerConsumer@UPlayerID@@@DataStructures@@QAEXXZ": 351232,
+      "?RemoveAtIndex@?$List@PAURemoteClient@@@DataStructures@@QAEXI@Z": 352960,
+      "?DeleteRemoteClient@TCPInterface@@IAEXPAURemoteClient@@PAUfd_set@@@Z": 350192,
+      "?WriteUnlock@?$SingleProducerConsumer@UPlayerID@@@DataStructures@@QAEXXZ": 351168,
+      "?WriteLock@?$SingleProducerConsumer@UPlayerID@@@DataStructures@@QAEPAUPlayerID@@XZ": 351104,
+      "?ReadLock@?$SingleProducerConsumer@UPlayerID@@@DataStructures@@QAEPAUPlayerID@@XZ": 351200,
+      "?ReadUnlock@?$SingleProducerConsumer@PAURemoteClient@@@DataStructures@@QAEXXZ": 351680,
+      "?Insert@?$List@PAURemoteClient@@@DataStructures@@QAEXQAURemoteClient@@@Z": 350288,
+      "?ReadLock@?$SingleProducerConsumer@PAURemoteClient@@@DataStructures@@QAEPAPAURemoteClient@@XZ": 351648,
+      "?ReadUnlock@?$SingleProducerConsumer@UPacket@@@DataStructures@@QAEXXZ": 350784,
+      "?ReadLock@?$SingleProducerConsumer@UPacket@@@DataStructures@@QAEPAUPacket@@XZ": 350752,
+      "??1TCPInterface@@QAE@XZ": 353024,
+      "??1?$List@PAURemoteClient@@@DataStructures@@QAE@XZ": 350240,
+      "??1?$SingleProducerConsumer@UPacket@@@DataStructures@@QAE@XZ": 350592,
+      "??1?$SingleProducerConsumer@UPlayerID@@@DataStructures@@QAE@XZ": 351040,
+      "??1?$SingleProducerConsumer@PAURemoteClient@@@DataStructures@@QAE@XZ": 351488,
+      "?Stop@TCPInterface@@QAEXXZ": 352048,
+      "?Clear@?$SingleProducerConsumer@PAURemoteClient@@@DataStructures@@QAEXXZ": 351712,
+      "?Clear@?$SingleProducerConsumer@UPlayerID@@@DataStructures@@QAEXXZ": 351264,
+      "?Clear@?$SingleProducerConsumer@UPacket@@@DataStructures@@QAEXXZ": 350816,
+      "?Clear@?$List@PAURemoteClient@@@DataStructures@@QAEX_N@Z": 350416,
+      "?HasLostConnection@TCPInterface@@QAE?AUPlayerID@@XZ": 352880,
+      "?HasNewConnection@TCPInterface@@QAE?AUPlayerID@@XZ": 352800,
+      "?DeallocatePacket@TCPInterface@@QAEXPAUPacket@@@Z": 352768,
+      "?CloseConnection@TCPInterface@@QAEXUPlayerID@@@Z": 352704,
+      "?Receive@TCPInterface@@QAEPAUPacket@@XZ": 352672,
+      "?Send@TCPInterface@@QAEXPBDIUPlayerID@@@Z": 352560,
+      "?Connect@TCPInterface@@QAE?AUPlayerID@@PBDG@Z": 352240,
+      "?WriteUnlock@?$SingleProducerConsumer@PAURemoteClient@@@DataStructures@@QAEXXZ": 351616,
+      "?WriteLock@?$SingleProducerConsumer@PAURemoteClient@@@DataStructures@@QAEPAPAURemoteClient@@XZ": 351552,
+      "??0TCPInterface@@QAE@XZ": 351840,
+      "??0?$SingleProducerConsumer@PAURemoteClient@@@DataStructures@@QAE@XZ": 351376,
+      "??0?$SingleProducerConsumer@UPlayerID@@@DataStructures@@QAE@XZ": 350928,
+      "??0?$SingleProducerConsumer@UPacket@@@DataStructures@@QAE@XZ": 350480,
+      "??0?$List@PAURemoteClient@@@DataStructures@@QAE@XZ": 350224
+    },
+    "eval_vendor_rak_sleep": {
+      "?RakSleep@@YAXI@Z": 277152
+    }
+  },
+  "regions": [
+    {
+      "unit": "eval_vendor_tcp_interface",
+      "section": 92,
+      "rva": 354432,
+      "size": 206,
+      "kind": ".text",
+      "sha256": "98b3a38685efd7c42c6fbdc59afa0acfaefdeb8406dc31cf08ae16e588e9edd5",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "__imp__socket@12",
+          "site_rva": 354477,
+          "target_va": 269374544,
+          "kind": 6
+        },
+        {
+          "symbol": "__imp__htonl@4",
+          "site_rva": 354509,
+          "target_va": 269374472,
+          "kind": 6
+        },
+        {
+          "symbol": "__imp__htons@4",
+          "site_rva": 354524,
+          "target_va": 269374540,
+          "kind": 6
+        },
+        {
+          "symbol": "__imp__bind@12",
+          "site_rva": 354546,
+          "target_va": 269374524,
+          "kind": 6
+        },
+        {
+          "symbol": "__imp__listen@8",
+          "site_rva": 354564,
+          "target_va": 269374476,
+          "kind": 6
+        },
+        {
+          "symbol": "?UpdateTCPInterfaceLoop@@YGIPAX@Z",
+          "site_rva": 354577,
+          "target_va": 268788640,
+          "kind": 6
+        },
+        {
+          "symbol": "__beginthreadex",
+          "site_rva": 354594,
+          "target_va": 269258216,
+          "kind": 20
+        },
+        {
+          "symbol": "__imp__CloseHandle@4",
+          "site_rva": 354614,
+          "target_va": 269374048,
+          "kind": 6
+        }
+      ]
+    },
+    {
+      "unit": "eval_vendor_tcp_interface",
+      "section": 90,
+      "rva": 353184,
+      "size": 1238,
+      "kind": ".text",
+      "sha256": "deb241f2fcf6bff2fdf975e3ae7b6b35e02bc916677b3e4556ecff455d93eba5",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "__chkstk",
+          "site_rva": 353190,
+          "target_va": 269254320,
+          "kind": 20
+        },
+        {
+          "symbol": "?ReadLock@?$SingleProducerConsumer@UPacket@@@DataStructures@@QAEPAUPacket@@XZ",
+          "site_rva": 353252,
+          "target_va": 268786208,
+          "kind": 20
+        },
+        {
+          "symbol": "_UNASSIGNED_PLAYER_ID",
+          "site_rva": 353270,
+          "target_va": 269492776,
+          "kind": 6
+        },
+        {
+          "symbol": "??8PlayerID@@QBE_NABU0@@Z",
+          "site_rva": 353277,
+          "target_va": 268646112,
+          "kind": 20
+        },
+        {
+          "symbol": "__imp__send@16",
+          "site_rva": 353317,
+          "target_va": 269374556,
+          "kind": 6
+        },
+        {
+          "symbol": "??8PlayerID@@QBE_NABU0@@Z",
+          "site_rva": 353346,
+          "target_va": 268646112,
+          "kind": 20
+        },
+        {
+          "symbol": "__imp__send@16",
+          "site_rva": 353375,
+          "target_va": 269374556,
+          "kind": 6
+        },
+        {
+          "symbol": "?ReadUnlock@?$SingleProducerConsumer@UPacket@@@DataStructures@@QAEXXZ",
+          "site_rva": 353393,
+          "target_va": 268786240,
+          "kind": 20
+        },
+        {
+          "symbol": "?ReadLock@?$SingleProducerConsumer@UPacket@@@DataStructures@@QAEPAUPacket@@XZ",
+          "site_rva": 353400,
+          "target_va": 268786208,
+          "kind": 20
+        },
+        {
+          "symbol": "?ReadLock@?$SingleProducerConsumer@PAURemoteClient@@@DataStructures@@QAEPAPAURemoteClient@@XZ",
+          "site_rva": 353423,
+          "target_va": 268787104,
+          "kind": 20
+        },
+        {
+          "symbol": "?Insert@?$List@PAURemoteClient@@@DataStructures@@QAEXQAURemoteClient@@@Z",
+          "site_rva": 353438,
+          "target_va": 268785744,
+          "kind": 20
+        },
+        {
+          "symbol": "?ReadUnlock@?$SingleProducerConsumer@PAURemoteClient@@@DataStructures@@QAEXXZ",
+          "site_rva": 353445,
+          "target_va": 268787136,
+          "kind": 20
+        },
+        {
+          "symbol": "?ReadLock@?$SingleProducerConsumer@UPlayerID@@@DataStructures@@QAEPAUPlayerID@@XZ",
+          "site_rva": 353457,
+          "target_va": 268786656,
+          "kind": 20
+        },
+        {
+          "symbol": "??8PlayerID@@QBE_NABU0@@Z",
+          "site_rva": 353489,
+          "target_va": 268646112,
+          "kind": 20
+        },
+        {
+          "symbol": "?WriteLock@?$SingleProducerConsumer@UPlayerID@@@DataStructures@@QAEPAUPlayerID@@XZ",
+          "site_rva": 353513,
+          "target_va": 268786560,
+          "kind": 20
+        },
+        {
+          "symbol": "?WriteUnlock@?$SingleProducerConsumer@UPlayerID@@@DataStructures@@QAEXXZ",
+          "site_rva": 353541,
+          "target_va": 268786624,
+          "kind": 20
+        },
+        {
+          "symbol": "?DeleteRemoteClient@TCPInterface@@IAEXPAURemoteClient@@PAUfd_set@@@Z",
+          "site_rva": 353559,
+          "target_va": 268785648,
+          "kind": 20
+        },
+        {
+          "symbol": "?RemoveAtIndex@?$List@PAURemoteClient@@@DataStructures@@QAEXI@Z",
+          "site_rva": 353567,
+          "target_va": 268788416,
+          "kind": 20
+        },
+        {
+          "symbol": "?ReadUnlock@?$SingleProducerConsumer@UPlayerID@@@DataStructures@@QAEXXZ",
+          "site_rva": 353575,
+          "target_va": 268786688,
+          "kind": 20
+        },
+        {
+          "symbol": "__imp__select@20",
+          "site_rva": 353805,
+          "target_va": 269374480,
+          "kind": 6
+        },
+        {
+          "symbol": "___WSAFDIsSet@8",
+          "site_rva": 353839,
+          "target_va": 269246948,
+          "kind": 20
+        },
+        {
+          "symbol": "__imp__accept@12",
+          "site_rva": 353867,
+          "target_va": 269374488,
+          "kind": 6
+        },
+        {
+          "symbol": "??2@YAPAXI@Z",
+          "site_rva": 353885,
+          "target_va": 269247098,
+          "kind": 20
+        },
+        {
+          "symbol": "__imp__ntohs@4",
+          "site_rva": 353910,
+          "target_va": 269374512,
+          "kind": 6
+        },
+        {
+          "symbol": "?Insert@?$List@PAURemoteClient@@@DataStructures@@QAEXQAURemoteClient@@@Z",
+          "site_rva": 353923,
+          "target_va": 268785744,
+          "kind": 20
+        },
+        {
+          "symbol": "?WriteLock@?$SingleProducerConsumer@UPlayerID@@@DataStructures@@QAEPAUPlayerID@@XZ",
+          "site_rva": 353933,
+          "target_va": 268786560,
+          "kind": 20
+        },
+        {
+          "symbol": "?WriteUnlock@?$SingleProducerConsumer@UPlayerID@@@DataStructures@@QAEXXZ",
+          "site_rva": 353953,
+          "target_va": 268786624,
+          "kind": 20
+        },
+        {
+          "symbol": "___WSAFDIsSet@8",
+          "site_rva": 354073,
+          "target_va": 269246948,
+          "kind": 20
+        },
+        {
+          "symbol": "___WSAFDIsSet@8",
+          "site_rva": 354116,
+          "target_va": 269246948,
+          "kind": 20
+        },
+        {
+          "symbol": "?WriteLock@?$SingleProducerConsumer@UPlayerID@@@DataStructures@@QAEPAUPlayerID@@XZ",
+          "site_rva": 354130,
+          "target_va": 268786560,
+          "kind": 20
+        },
+        {
+          "symbol": "?WriteUnlock@?$SingleProducerConsumer@UPlayerID@@@DataStructures@@QAEXXZ",
+          "site_rva": 354158,
+          "target_va": 268786624,
+          "kind": 20
+        },
+        {
+          "symbol": "?DeleteRemoteClient@TCPInterface@@IAEXPAURemoteClient@@PAUfd_set@@@Z",
+          "site_rva": 354176,
+          "target_va": 268785648,
+          "kind": 20
+        },
+        {
+          "symbol": "?RemoveAtIndex@?$List@PAURemoteClient@@@DataStructures@@QAEXI@Z",
+          "site_rva": 354184,
+          "target_va": 268788416,
+          "kind": 20
+        },
+        {
+          "symbol": "___WSAFDIsSet@8",
+          "site_rva": 354210,
+          "target_va": 269246948,
+          "kind": 20
+        },
+        {
+          "symbol": "__imp__recv@16",
+          "site_rva": 354247,
+          "target_va": 269374552,
+          "kind": 6
+        },
+        {
+          "symbol": "?WriteLock@?$SingleProducerConsumer@UPacket@@@DataStructures@@QAEPAUPacket@@XZ",
+          "site_rva": 354269,
+          "target_va": 268786112,
+          "kind": 20
+        },
+        {
+          "symbol": "??2@YAPAXI@Z",
+          "site_rva": 354284,
+          "target_va": 269247098,
+          "kind": 20
+        },
+        {
+          "symbol": "?WriteUnlock@?$SingleProducerConsumer@UPacket@@@DataStructures@@QAEXXZ",
+          "site_rva": 354364,
+          "target_va": 268786176,
+          "kind": 20
+        },
+        {
+          "symbol": "?RakSleep@@YAXI@Z",
+          "site_rva": 354385,
+          "target_va": 268712608,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "eval_vendor_tcp_interface",
+      "section": 25,
+      "rva": 350720,
+      "size": 20,
+      "kind": ".text",
+      "sha256": "625525eed007b954a1a78fe70d04e77fd4a9c3479aca595ad46f8edeae487680",
+      "whole_bytes_equal": true,
+      "bindings": []
+    },
+    {
+      "unit": "eval_vendor_tcp_interface",
+      "section": 23,
+      "rva": 350656,
+      "size": 64,
+      "kind": ".text",
+      "sha256": "05e5e1e58b9816c032dd8f7304d7f54c75b583438b2641ea2a88bbd59dd7596c",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "??2@YAPAXI@Z",
+          "site_rva": 350686,
+          "target_va": 269247098,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "eval_vendor_tcp_interface",
+      "section": 43,
+      "rva": 351232,
+      "size": 20,
+      "kind": ".text",
+      "sha256": "5751dc135d3c75b51384643ba30b53887fe5a065b56d18819885125387d35757",
+      "whole_bytes_equal": true,
+      "bindings": []
+    },
+    {
+      "unit": "eval_vendor_tcp_interface",
+      "section": 84,
+      "rva": 352960,
+      "size": 53,
+      "kind": ".text",
+      "sha256": "4579b9e9e9e48bde1d0b1f8426a857259d95dbb7d1466d9df8c4a3ad0ce5697f",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "_memmove",
+          "site_rva": 352995,
+          "target_va": 269250016,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "eval_vendor_tcp_interface",
+      "section": 5,
+      "rva": 350192,
+      "size": 27,
+      "kind": ".text",
+      "sha256": "327ffce5d8bc0891e118e483b7c07f61664b89ca958a81e3b9d4f009ce3895fb",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "__imp__closesocket@4",
+          "site_rva": 350202,
+          "target_va": 269374560,
+          "kind": 6
+        },
+        {
+          "symbol": "??3@YAXPAX@Z",
+          "site_rva": 350208,
+          "target_va": 269247626,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "eval_vendor_tcp_interface",
+      "section": 39,
+      "rva": 351168,
+      "size": 20,
+      "kind": ".text",
+      "sha256": "bc349243505451988ec9bb6f9b12ce8aa1622445acf430a9443e88a423d165d3",
+      "whole_bytes_equal": true,
+      "bindings": []
+    },
+    {
+      "unit": "eval_vendor_tcp_interface",
+      "section": 37,
+      "rva": 351104,
+      "size": 64,
+      "kind": ".text",
+      "sha256": "fc408a314ff06cca0a48b1f01e628dfce0ff1eff45d4f98ab63f6ca4e843c4cd",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "??2@YAPAXI@Z",
+          "site_rva": 351134,
+          "target_va": 269247098,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "eval_vendor_tcp_interface",
+      "section": 41,
+      "rva": 351200,
+      "size": 23,
+      "kind": ".text",
+      "sha256": "da78b47e62510d0abe24ca126d1bfcc12bb3196f043e82323aa789b66e5d3aa8",
+      "whole_bytes_equal": true,
+      "bindings": []
+    },
+    {
+      "unit": "eval_vendor_tcp_interface",
+      "section": 57,
+      "rva": 351680,
+      "size": 20,
+      "kind": ".text",
+      "sha256": "676a106aed53894a85ced0c54d12c5b3548bfc08cc66b9bdfb07cfd1f26bb489",
+      "whole_bytes_equal": true,
+      "bindings": []
+    },
+    {
+      "unit": "eval_vendor_tcp_interface",
+      "section": 13,
+      "rva": 350288,
+      "size": 105,
+      "kind": ".text",
+      "sha256": "d815b89b6acdbfdacc0958cc5f0d18a72eb1cfcf613cf89540817b2a3b07ea26",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "??2@YAPAXI@Z",
+          "site_rva": 350328,
+          "target_va": 269247098,
+          "kind": 20
+        },
+        {
+          "symbol": "??3@YAXPAX@Z",
+          "site_rva": 350362,
+          "target_va": 269247626,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "eval_vendor_tcp_interface",
+      "section": 55,
+      "rva": 351648,
+      "size": 23,
+      "kind": ".text",
+      "sha256": "427faa08aff2fbeb9cb550584989f8aaec8e30e587b281e1172cef123a1fee8d",
+      "whole_bytes_equal": true,
+      "bindings": []
+    },
+    {
+      "unit": "eval_vendor_tcp_interface",
+      "section": 29,
+      "rva": 350784,
+      "size": 20,
+      "kind": ".text",
+      "sha256": "b8c3308073a83f9063171920884857942c6201348555e4c46d41896de9661692",
+      "whole_bytes_equal": true,
+      "bindings": []
+    },
+    {
+      "unit": "eval_vendor_tcp_interface",
+      "section": 27,
+      "rva": 350752,
+      "size": 23,
+      "kind": ".text",
+      "sha256": "b6345f6ae9f6fa48c1d5807fb3804cfab76370441f38d1e35471b603de66221a",
+      "whole_bytes_equal": true,
+      "bindings": []
+    },
+    {
+      "unit": "eval_vendor_tcp_interface",
+      "section": 86,
+      "rva": 353024,
+      "size": 155,
+      "kind": ".text",
+      "sha256": "113850d4751b53b47bf501d9530170ea4e685741c469abb51c5c9c568cb2356a",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "__ehhandler$??1TCPInterface@@QAE@XZ",
+          "site_rva": 353027,
+          "target_va": 269366768,
+          "kind": 6
+        },
+        {
+          "symbol": "__except_list",
+          "site_rva": 353033,
+          "target_va": 0,
+          "kind": 6
+        },
+        {
+          "symbol": "__except_list",
+          "site_rva": 353041,
+          "target_va": 0,
+          "kind": 6
+        },
+        {
+          "symbol": "?Stop@TCPInterface@@QAEXXZ",
+          "site_rva": 353062,
+          "target_va": 268787504,
+          "kind": 20
+        },
+        {
+          "symbol": "??1?$SingleProducerConsumer@PAURemoteClient@@@DataStructures@@QAE@XZ",
+          "site_rva": 353078,
+          "target_va": 268786944,
+          "kind": 20
+        },
+        {
+          "symbol": "??1?$SingleProducerConsumer@UPlayerID@@@DataStructures@@QAE@XZ",
+          "site_rva": 353091,
+          "target_va": 268786496,
+          "kind": 20
+        },
+        {
+          "symbol": "??1?$SingleProducerConsumer@UPlayerID@@@DataStructures@@QAE@XZ",
+          "site_rva": 353104,
+          "target_va": 268786496,
+          "kind": 20
+        },
+        {
+          "symbol": "??1?$SingleProducerConsumer@UPlayerID@@@DataStructures@@QAE@XZ",
+          "site_rva": 353117,
+          "target_va": 268786496,
+          "kind": 20
+        },
+        {
+          "symbol": "??1?$SingleProducerConsumer@UPacket@@@DataStructures@@QAE@XZ",
+          "site_rva": 353130,
+          "target_va": 268786048,
+          "kind": 20
+        },
+        {
+          "symbol": "??1?$SingleProducerConsumer@UPacket@@@DataStructures@@QAE@XZ",
+          "site_rva": 353143,
+          "target_va": 268786048,
+          "kind": 20
+        },
+        {
+          "symbol": "??1?$List@PAURemoteClient@@@DataStructures@@QAE@XZ",
+          "site_rva": 353159,
+          "target_va": 268785696,
+          "kind": 20
+        },
+        {
+          "symbol": "__except_list",
+          "site_rva": 353171,
+          "target_va": 0,
+          "kind": 6
+        }
+      ]
+    },
+    {
+      "unit": "eval_vendor_tcp_interface",
+      "section": 9,
+      "rva": 350240,
+      "size": 17,
+      "kind": ".text",
+      "sha256": "f06b36641e0873288b3a65e23545c86f0596ba3e2a6a2ab8d7f74016b1e2b19e",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "??3@YAXPAX@Z",
+          "site_rva": 350251,
+          "target_va": 269247626,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "eval_vendor_tcp_interface",
+      "section": 21,
+      "rva": 350592,
+      "size": 59,
+      "kind": ".text",
+      "sha256": "f05b9e1421790e4d1c5de116ac538b38189c056945651e3b326b3a138762339b",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "??3@YAXPAX@Z",
+          "site_rva": 350617,
+          "target_va": 269247626,
+          "kind": 20
+        },
+        {
+          "symbol": "??3@YAXPAX@Z",
+          "site_rva": 350642,
+          "target_va": 269247626,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "eval_vendor_tcp_interface",
+      "section": 35,
+      "rva": 351040,
+      "size": 59,
+      "kind": ".text",
+      "sha256": "c749e312ccdfbea58ffae2a1d975e263fb701a295b58d4dffdf8ff7311062dd2",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "??3@YAXPAX@Z",
+          "site_rva": 351065,
+          "target_va": 269247626,
+          "kind": 20
+        },
+        {
+          "symbol": "??3@YAXPAX@Z",
+          "site_rva": 351090,
+          "target_va": 269247626,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "eval_vendor_tcp_interface",
+      "section": 49,
+      "rva": 351488,
+      "size": 59,
+      "kind": ".text",
+      "sha256": "7fc25c2745ed353490e1ead2843126c7f3bae7f432e2dbec5b2829ed802a28b8",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "??3@YAXPAX@Z",
+          "site_rva": 351513,
+          "target_va": 269247626,
+          "kind": 20
+        },
+        {
+          "symbol": "??3@YAXPAX@Z",
+          "site_rva": 351538,
+          "target_va": 269247626,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "eval_vendor_tcp_interface",
+      "section": 68,
+      "rva": 352048,
+      "size": 180,
+      "kind": ".text",
+      "sha256": "868dd30b9ec9645ab520dfeed776cd480e7037dad22bc841006167b196279a76",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "__imp__closesocket@4",
+          "site_rva": 352071,
+          "target_va": 269374560,
+          "kind": 6
+        },
+        {
+          "symbol": "?RakSleep@@YAXI@Z",
+          "site_rva": 352102,
+          "target_va": 268712608,
+          "kind": 20
+        },
+        {
+          "symbol": "??3@YAXPAX@Z",
+          "site_rva": 352147,
+          "target_va": 269247626,
+          "kind": 20
+        },
+        {
+          "symbol": "?Clear@?$List@PAURemoteClient@@@DataStructures@@QAEX_N@Z",
+          "site_rva": 352168,
+          "target_va": 268785872,
+          "kind": 20
+        },
+        {
+          "symbol": "?Clear@?$SingleProducerConsumer@UPacket@@@DataStructures@@QAEXXZ",
+          "site_rva": 352176,
+          "target_va": 268786272,
+          "kind": 20
+        },
+        {
+          "symbol": "?Clear@?$SingleProducerConsumer@UPacket@@@DataStructures@@QAEXXZ",
+          "site_rva": 352184,
+          "target_va": 268786272,
+          "kind": 20
+        },
+        {
+          "symbol": "?Clear@?$SingleProducerConsumer@UPlayerID@@@DataStructures@@QAEXXZ",
+          "site_rva": 352192,
+          "target_va": 268786720,
+          "kind": 20
+        },
+        {
+          "symbol": "?Clear@?$SingleProducerConsumer@PAURemoteClient@@@DataStructures@@QAEXXZ",
+          "site_rva": 352203,
+          "target_va": 268787168,
+          "kind": 20
+        },
+        {
+          "symbol": "?Clear@?$SingleProducerConsumer@UPlayerID@@@DataStructures@@QAEXXZ",
+          "site_rva": 352211,
+          "target_va": 268786720,
+          "kind": 20
+        },
+        {
+          "symbol": "?Clear@?$SingleProducerConsumer@UPlayerID@@@DataStructures@@QAEXXZ",
+          "site_rva": 352222,
+          "target_va": 268786720,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "eval_vendor_tcp_interface",
+      "section": 59,
+      "rva": 351712,
+      "size": 101,
+      "kind": ".text",
+      "sha256": "343aaed414490b66e4248d5028354473cc31aaa2e07d24218e78ef9268df76b4",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "??3@YAXPAX@Z",
+          "site_rva": 351768,
+          "target_va": 269247626,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "eval_vendor_tcp_interface",
+      "section": 45,
+      "rva": 351264,
+      "size": 101,
+      "kind": ".text",
+      "sha256": "f61d2382ced770e3509eec2dd5b4f85e576e06d34dc7fad56aa2c79af6e50613",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "??3@YAXPAX@Z",
+          "site_rva": 351320,
+          "target_va": 269247626,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "eval_vendor_tcp_interface",
+      "section": 31,
+      "rva": 350816,
+      "size": 101,
+      "kind": ".text",
+      "sha256": "5bbc2025dc24e74ed15864998bc507d1f11bab89809450932421ee4ae2c2d1f3",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "??3@YAXPAX@Z",
+          "site_rva": 350872,
+          "target_va": 269247626,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "eval_vendor_tcp_interface",
+      "section": 17,
+      "rva": 350416,
+      "size": 60,
+      "kind": ".text",
+      "sha256": "494edd22e111735a859c42b15b1049cdbd7f73a26f0e3c77875dffad5970af5f",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "??3@YAXPAX@Z",
+          "site_rva": 350445,
+          "target_va": 269247626,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "eval_vendor_tcp_interface",
+      "section": 82,
+      "rva": 352880,
+      "size": 78,
+      "kind": ".text",
+      "sha256": "fad9f83773126655af4d517cc7d2f854749ed3f12bff81cf3e0b2973aafe703f",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "?ReadLock@?$SingleProducerConsumer@UPlayerID@@@DataStructures@@QAEPAUPlayerID@@XZ",
+          "site_rva": 352888,
+          "target_va": 268786656,
+          "kind": 20
+        },
+        {
+          "symbol": "?ReadUnlock@?$SingleProducerConsumer@UPlayerID@@@DataStructures@@QAEXXZ",
+          "site_rva": 352901,
+          "target_va": 268786688,
+          "kind": 20
+        },
+        {
+          "symbol": "_UNASSIGNED_PLAYER_ID",
+          "site_rva": 352934,
+          "target_va": 269492776,
+          "kind": 6
+        },
+        {
+          "symbol": "_UNASSIGNED_PLAYER_ID",
+          "site_rva": 352945,
+          "target_va": 269492780,
+          "kind": 6
+        }
+      ]
+    },
+    {
+      "unit": "eval_vendor_tcp_interface",
+      "section": 80,
+      "rva": 352800,
+      "size": 78,
+      "kind": ".text",
+      "sha256": "89772a86534a67ac4f88751149932a75644429f403f2f83ad415a5ee76da8845",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "?ReadLock@?$SingleProducerConsumer@UPlayerID@@@DataStructures@@QAEPAUPlayerID@@XZ",
+          "site_rva": 352808,
+          "target_va": 268786656,
+          "kind": 20
+        },
+        {
+          "symbol": "?ReadUnlock@?$SingleProducerConsumer@UPlayerID@@@DataStructures@@QAEXXZ",
+          "site_rva": 352821,
+          "target_va": 268786688,
+          "kind": 20
+        },
+        {
+          "symbol": "_UNASSIGNED_PLAYER_ID",
+          "site_rva": 352854,
+          "target_va": 269492776,
+          "kind": 6
+        },
+        {
+          "symbol": "_UNASSIGNED_PLAYER_ID",
+          "site_rva": 352865,
+          "target_va": 269492780,
+          "kind": 6
+        }
+      ]
+    },
+    {
+      "unit": "eval_vendor_tcp_interface",
+      "section": 78,
+      "rva": 352768,
+      "size": 31,
+      "kind": ".text",
+      "sha256": "92d884fe0287ac39a8f72d1d15f1460c13ff6a6acb9c95ecdfd55a51a2862948",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "??3@YAXPAX@Z",
+          "site_rva": 352780,
+          "target_va": 269247626,
+          "kind": 20
+        },
+        {
+          "symbol": "?ReadUnlock@?$SingleProducerConsumer@UPacket@@@DataStructures@@QAEXXZ",
+          "site_rva": 352791,
+          "target_va": 268786240,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "eval_vendor_tcp_interface",
+      "section": 76,
+      "rva": 352704,
+      "size": 64,
+      "kind": ".text",
+      "sha256": "568059139330f61e346a70c3f2a1a23c7380d6ce585e5fa2679ce56fe301ee99",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "_UNASSIGNED_PLAYER_ID",
+          "site_rva": 352715,
+          "target_va": 269492776,
+          "kind": 6
+        },
+        {
+          "symbol": "??8PlayerID@@QBE_NABU0@@Z",
+          "site_rva": 352724,
+          "target_va": 268646112,
+          "kind": 20
+        },
+        {
+          "symbol": "?WriteLock@?$SingleProducerConsumer@UPlayerID@@@DataStructures@@QAEPAUPlayerID@@XZ",
+          "site_rva": 352738,
+          "target_va": 268786560,
+          "kind": 20
+        },
+        {
+          "symbol": "?WriteUnlock@?$SingleProducerConsumer@UPlayerID@@@DataStructures@@QAEXXZ",
+          "site_rva": 352760,
+          "target_va": 268786624,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "eval_vendor_tcp_interface",
+      "section": 74,
+      "rva": 352672,
+      "size": 18,
+      "kind": ".text",
+      "sha256": "caee302b9844f90ffd98ca15e3ac0ea6d92f9436865a4c5f30c77a0614e16d4b",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "?ReadLock@?$SingleProducerConsumer@UPacket@@@DataStructures@@QAEPAUPacket@@XZ",
+          "site_rva": 352686,
+          "target_va": 268786208,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "eval_vendor_tcp_interface",
+      "section": 72,
+      "rva": 352560,
+      "size": 106,
+      "kind": ".text",
+      "sha256": "54ff3d80e0ef856646fb4f557de599403f0905d0b0b68204c89c09f8a8af74f5",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "?WriteLock@?$SingleProducerConsumer@UPacket@@@DataStructures@@QAEPAUPacket@@XZ",
+          "site_rva": 352592,
+          "target_va": 268786112,
+          "kind": 20
+        },
+        {
+          "symbol": "??2@YAPAXI@Z",
+          "site_rva": 352607,
+          "target_va": 269247098,
+          "kind": 20
+        },
+        {
+          "symbol": "?WriteUnlock@?$SingleProducerConsumer@UPacket@@@DataStructures@@QAEXXZ",
+          "site_rva": 352655,
+          "target_va": 268786176,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "eval_vendor_tcp_interface",
+      "section": 70,
+      "rva": 352240,
+      "size": 315,
+      "kind": ".text",
+      "sha256": "d574aec3194e77bbaccb788ddaca55c171c09091ad62e2a969250374bca27f6f",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "__imp__gethostbyname@4",
+          "site_rva": 352254,
+          "target_va": 269374536,
+          "kind": 6
+        },
+        {
+          "symbol": "_UNASSIGNED_PLAYER_ID",
+          "site_rva": 352270,
+          "target_va": 269492776,
+          "kind": 6
+        },
+        {
+          "symbol": "_UNASSIGNED_PLAYER_ID",
+          "site_rva": 352281,
+          "target_va": 269492780,
+          "kind": 6
+        },
+        {
+          "symbol": "__imp__socket@12",
+          "site_rva": 352307,
+          "target_va": 269374544,
+          "kind": 6
+        },
+        {
+          "symbol": "__imp__htons@4",
+          "site_rva": 352345,
+          "target_va": 269374540,
+          "kind": 6
+        },
+        {
+          "symbol": "__imp__connect@12",
+          "site_rva": 352391,
+          "target_va": 269374548,
+          "kind": 6
+        },
+        {
+          "symbol": "__imp__closesocket@4",
+          "site_rva": 352402,
+          "target_va": 269374560,
+          "kind": 6
+        },
+        {
+          "symbol": "_UNASSIGNED_PLAYER_ID",
+          "site_rva": 352412,
+          "target_va": 269492776,
+          "kind": 6
+        },
+        {
+          "symbol": "_UNASSIGNED_PLAYER_ID",
+          "site_rva": 352425,
+          "target_va": 269492780,
+          "kind": 6
+        },
+        {
+          "symbol": "??2@YAPAXI@Z",
+          "site_rva": 352447,
+          "target_va": 269247098,
+          "kind": 20
+        },
+        {
+          "symbol": "__imp__inet_addr@4",
+          "site_rva": 352468,
+          "target_va": 269374528,
+          "kind": 6
+        },
+        {
+          "symbol": "?WriteLock@?$SingleProducerConsumer@PAURemoteClient@@@DataStructures@@QAEPAPAURemoteClient@@XZ",
+          "site_rva": 352493,
+          "target_va": 268787008,
+          "kind": 20
+        },
+        {
+          "symbol": "?WriteUnlock@?$SingleProducerConsumer@PAURemoteClient@@@DataStructures@@QAEXXZ",
+          "site_rva": 352502,
+          "target_va": 268787072,
+          "kind": 20
+        },
+        {
+          "symbol": "?RakSleep@@YAXI@Z",
+          "site_rva": 352519,
+          "target_va": 268712608,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "eval_vendor_tcp_interface",
+      "section": 53,
+      "rva": 351616,
+      "size": 20,
+      "kind": ".text",
+      "sha256": "4639bed77d09681abca93b54434571603fc2257298c14e75e3fd70123ce67867",
+      "whole_bytes_equal": true,
+      "bindings": []
+    },
+    {
+      "unit": "eval_vendor_tcp_interface",
+      "section": 51,
+      "rva": 351552,
+      "size": 64,
+      "kind": ".text",
+      "sha256": "06da15ed334facd47f2862d3685d3914813f98fdc6b078178a68ef28583ca466",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "??2@YAPAXI@Z",
+          "site_rva": 351582,
+          "target_va": 269247098,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "eval_vendor_tcp_interface",
+      "section": 63,
+      "rva": 351840,
+      "size": 199,
+      "kind": ".text",
+      "sha256": "636603eca7e1da4b77ea8cd44c44206ee4a95a2de20e84f3b46b56f89bb0917f",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "__ehhandler$??0TCPInterface@@QAE@XZ",
+          "site_rva": 351843,
+          "target_va": 269366676,
+          "kind": 6
+        },
+        {
+          "symbol": "__except_list",
+          "site_rva": 351849,
+          "target_va": 0,
+          "kind": 6
+        },
+        {
+          "symbol": "__except_list",
+          "site_rva": 351857,
+          "target_va": 0,
+          "kind": 6
+        },
+        {
+          "symbol": "??0?$List@PAURemoteClient@@@DataStructures@@QAE@XZ",
+          "site_rva": 351878,
+          "target_va": 268785680,
+          "kind": 20
+        },
+        {
+          "symbol": "??0?$SingleProducerConsumer@UPacket@@@DataStructures@@QAE@XZ",
+          "site_rva": 351897,
+          "target_va": 268785936,
+          "kind": 20
+        },
+        {
+          "symbol": "??0?$SingleProducerConsumer@UPacket@@@DataStructures@@QAE@XZ",
+          "site_rva": 351913,
+          "target_va": 268785936,
+          "kind": 20
+        },
+        {
+          "symbol": "??0?$SingleProducerConsumer@UPlayerID@@@DataStructures@@QAE@XZ",
+          "site_rva": 351929,
+          "target_va": 268786384,
+          "kind": 20
+        },
+        {
+          "symbol": "??0?$SingleProducerConsumer@UPlayerID@@@DataStructures@@QAE@XZ",
+          "site_rva": 351945,
+          "target_va": 268786384,
+          "kind": 20
+        },
+        {
+          "symbol": "??0?$SingleProducerConsumer@UPlayerID@@@DataStructures@@QAE@XZ",
+          "site_rva": 351961,
+          "target_va": 268786384,
+          "kind": 20
+        },
+        {
+          "symbol": "??0?$SingleProducerConsumer@PAURemoteClient@@@DataStructures@@QAE@XZ",
+          "site_rva": 351980,
+          "target_va": 268786832,
+          "kind": 20
+        },
+        {
+          "symbol": "__imp__WSAStartup@8",
+          "site_rva": 352011,
+          "target_va": 269374568,
+          "kind": 6
+        },
+        {
+          "symbol": "__except_list",
+          "site_rva": 352028,
+          "target_va": 0,
+          "kind": 6
+        }
+      ]
+    },
+    {
+      "unit": "eval_vendor_tcp_interface",
+      "section": 47,
+      "rva": 351376,
+      "size": 102,
+      "kind": ".text",
+      "sha256": "0d4fb05f61b60be096e3e6ad7d6b62b9a9fc603f7588ce5bbf5225b6a33a18f5",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "??2@YAPAXI@Z",
+          "site_rva": 351383,
+          "target_va": 269247098,
+          "kind": 20
+        },
+        {
+          "symbol": "??2@YAPAXI@Z",
+          "site_rva": 351396,
+          "target_va": 269247098,
+          "kind": 20
+        },
+        {
+          "symbol": "??2@YAPAXI@Z",
+          "site_rva": 351426,
+          "target_va": 269247098,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "eval_vendor_tcp_interface",
+      "section": 33,
+      "rva": 350928,
+      "size": 102,
+      "kind": ".text",
+      "sha256": "83971445ac64b89373ab3bdb3d9d8c2fd4c249b8b45850963ddf6bf01a05ae6d",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "??2@YAPAXI@Z",
+          "site_rva": 350935,
+          "target_va": 269247098,
+          "kind": 20
+        },
+        {
+          "symbol": "??2@YAPAXI@Z",
+          "site_rva": 350948,
+          "target_va": 269247098,
+          "kind": 20
+        },
+        {
+          "symbol": "??2@YAPAXI@Z",
+          "site_rva": 350978,
+          "target_va": 269247098,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "eval_vendor_tcp_interface",
+      "section": 19,
+      "rva": 350480,
+      "size": 102,
+      "kind": ".text",
+      "sha256": "507dd676e788cc6a27cb5d200468ddbdd7717c71953919e41bb09747852ffee5",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "??2@YAPAXI@Z",
+          "site_rva": 350487,
+          "target_va": 269247098,
+          "kind": 20
+        },
+        {
+          "symbol": "??2@YAPAXI@Z",
+          "site_rva": 350500,
+          "target_va": 269247098,
+          "kind": 20
+        },
+        {
+          "symbol": "??2@YAPAXI@Z",
+          "site_rva": 350530,
+          "target_va": 269247098,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "eval_vendor_tcp_interface",
+      "section": 7,
+      "rva": 350224,
+      "size": 13,
+      "kind": ".text",
+      "sha256": "efaddf6f7c64b7d0dd7d70e04563c88df5b21978a063a338954e28cc09d4e5e9",
+      "whole_bytes_equal": true,
+      "bindings": []
+    },
+    {
+      "unit": "eval_vendor_tcp_interface",
+      "section": 94,
+      "rva": 1057320,
+      "size": 16,
+      "kind": ".data",
+      "sha256": "44774f987c1b2569c171277ac704deed6fa979e51c12bc30dc3b0defaf92ede9",
+      "whole_bytes_equal": true,
+      "bindings": []
+    },
+    {
+      "unit": "eval_vendor_tcp_interface",
+      "section": 87,
+      "rva": 931232,
+      "size": 90,
+      "kind": ".text$x",
+      "sha256": "b4e87ebeae28bb116adf01aa8867fa1f4dd691a1e788c5770d7e2d2cb3e1282f",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "??1?$List@PAURemoteClient@@@DataStructures@@QAE@XZ",
+          "site_rva": 931239,
+          "target_va": 268785696,
+          "kind": 20
+        },
+        {
+          "symbol": "??1?$SingleProducerConsumer@UPacket@@@DataStructures@@QAE@XZ",
+          "site_rva": 931250,
+          "target_va": 268786048,
+          "kind": 20
+        },
+        {
+          "symbol": "??1?$SingleProducerConsumer@UPacket@@@DataStructures@@QAE@XZ",
+          "site_rva": 931261,
+          "target_va": 268786048,
+          "kind": 20
+        },
+        {
+          "symbol": "??1?$SingleProducerConsumer@UPlayerID@@@DataStructures@@QAE@XZ",
+          "site_rva": 931272,
+          "target_va": 268786496,
+          "kind": 20
+        },
+        {
+          "symbol": "??1?$SingleProducerConsumer@UPlayerID@@@DataStructures@@QAE@XZ",
+          "site_rva": 931283,
+          "target_va": 268786496,
+          "kind": 20
+        },
+        {
+          "symbol": "??1?$SingleProducerConsumer@UPlayerID@@@DataStructures@@QAE@XZ",
+          "site_rva": 931294,
+          "target_va": 268786496,
+          "kind": 20
+        },
+        {
+          "symbol": "??1?$SingleProducerConsumer@PAURemoteClient@@@DataStructures@@QAE@XZ",
+          "site_rva": 931308,
+          "target_va": 268786944,
+          "kind": 20
+        },
+        {
+          "symbol": "$T58510",
+          "site_rva": 931313,
+          "target_va": 269464348,
+          "kind": 6
+        },
+        {
+          "symbol": "___CxxFrameHandler",
+          "site_rva": 931318,
+          "target_va": 269247782,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "eval_vendor_tcp_interface",
+      "section": 64,
+      "rva": 931136,
+      "size": 94,
+      "kind": ".text$x",
+      "sha256": "77a4a2f60ed247b159134ec98165b91cf3fd54bd3a144139c110952fd56f3c1b",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "??1?$List@PAURemoteClient@@@DataStructures@@QAE@XZ",
+          "site_rva": 931146,
+          "target_va": 268785696,
+          "kind": 20
+        },
+        {
+          "symbol": "??1?$SingleProducerConsumer@UPacket@@@DataStructures@@QAE@XZ",
+          "site_rva": 931160,
+          "target_va": 268786048,
+          "kind": 20
+        },
+        {
+          "symbol": "??1?$SingleProducerConsumer@UPacket@@@DataStructures@@QAE@XZ",
+          "site_rva": 931174,
+          "target_va": 268786048,
+          "kind": 20
+        },
+        {
+          "symbol": "??1?$SingleProducerConsumer@UPlayerID@@@DataStructures@@QAE@XZ",
+          "site_rva": 931188,
+          "target_va": 268786496,
+          "kind": 20
+        },
+        {
+          "symbol": "??1?$SingleProducerConsumer@UPlayerID@@@DataStructures@@QAE@XZ",
+          "site_rva": 931202,
+          "target_va": 268786496,
+          "kind": 20
+        },
+        {
+          "symbol": "??1?$SingleProducerConsumer@UPlayerID@@@DataStructures@@QAE@XZ",
+          "site_rva": 931216,
+          "target_va": 268786496,
+          "kind": 20
+        },
+        {
+          "symbol": "$T58436",
+          "site_rva": 931221,
+          "target_va": 269464264,
+          "kind": 6
+        },
+        {
+          "symbol": "___CxxFrameHandler",
+          "site_rva": 931226,
+          "target_va": 269247782,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "eval_vendor_tcp_interface",
+      "section": 88,
+      "rva": 1028836,
+      "size": 84,
+      "kind": ".xdata$x",
+      "sha256": "d1aa68034ce14a77e9e68399d224b252840d37715e78e2642a9d71e6d7f33021",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "$L58502",
+          "site_rva": 1028840,
+          "target_va": 269366688,
+          "kind": 6
+        },
+        {
+          "symbol": "$L58503",
+          "site_rva": 1028848,
+          "target_va": 269366699,
+          "kind": 6
+        },
+        {
+          "symbol": "$L58504",
+          "site_rva": 1028856,
+          "target_va": 269366710,
+          "kind": 6
+        },
+        {
+          "symbol": "$L58505",
+          "site_rva": 1028864,
+          "target_va": 269366721,
+          "kind": 6
+        },
+        {
+          "symbol": "$L58506",
+          "site_rva": 1028872,
+          "target_va": 269366732,
+          "kind": 6
+        },
+        {
+          "symbol": "$L58507",
+          "site_rva": 1028880,
+          "target_va": 269366743,
+          "kind": 6
+        },
+        {
+          "symbol": "$L58508",
+          "site_rva": 1028888,
+          "target_va": 269366754,
+          "kind": 6
+        },
+        {
+          "symbol": "$T58512",
+          "site_rva": 1028900,
+          "target_va": 269464292,
+          "kind": 6
+        }
+      ]
+    },
+    {
+      "unit": "eval_vendor_tcp_interface",
+      "section": 65,
+      "rva": 1028760,
+      "size": 76,
+      "kind": ".xdata$x",
+      "sha256": "6095cc83d7cda71cc2893351295b7a0a599a65b73a6f802e5d0dbb89e88b4ba9",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "$L58426",
+          "site_rva": 1028764,
+          "target_va": 269366592,
+          "kind": 6
+        },
+        {
+          "symbol": "$L58427",
+          "site_rva": 1028772,
+          "target_va": 269366606,
+          "kind": 6
+        },
+        {
+          "symbol": "$L58428",
+          "site_rva": 1028780,
+          "target_va": 269366620,
+          "kind": 6
+        },
+        {
+          "symbol": "$L58429",
+          "site_rva": 1028788,
+          "target_va": 269366634,
+          "kind": 6
+        },
+        {
+          "symbol": "$L58430",
+          "site_rva": 1028796,
+          "target_va": 269366648,
+          "kind": 6
+        },
+        {
+          "symbol": "$L58431",
+          "site_rva": 1028804,
+          "target_va": 269366662,
+          "kind": 6
+        },
+        {
+          "symbol": "$T58439",
+          "site_rva": 1028816,
+          "target_va": 269464216,
+          "kind": 6
+        }
+      ]
+    },
+    {
+      "unit": "eval_vendor_rak_sleep",
+      "section": 3,
+      "rva": 277152,
+      "size": 12,
+      "kind": ".text",
+      "sha256": "ece3df090a7e115a03734e57c5e673f4b6576b1fe1287e2125867ebd78e01145",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "__imp__Sleep@4",
+          "site_rva": 277159,
+          "target_va": 269374036,
+          "kind": 6
+        }
+      ]
+    }
+  ],
+  "bindings_checked": 174,
+  "external_targets": {
+    "__imp__Sleep@4": 269374036,
+    "__imp__socket@12": 269374544,
+    "__imp__htonl@4": 269374472,
+    "__imp__htons@4": 269374540,
+    "__imp__bind@12": 269374524,
+    "__imp__listen@8": 269374476,
+    "__beginthreadex": 269258216,
+    "__imp__CloseHandle@4": 269374048,
+    "__chkstk": 269254320,
+    "eval_vendor_tcp_interface::_UNASSIGNED_PLAYER_ID": 269492776,
+    "??8PlayerID@@QBE_NABU0@@Z": 268646112,
+    "__imp__send@16": 269374556,
+    "__imp__select@20": 269374480,
+    "___WSAFDIsSet@8": 269246948,
+    "__imp__accept@12": 269374488,
+    "??2@YAPAXI@Z": 269247098,
+    "__imp__ntohs@4": 269374512,
+    "__imp__recv@16": 269374552,
+    "_memmove": 269250016,
+    "__imp__closesocket@4": 269374560,
+    "??3@YAXPAX@Z": 269247626,
+    "__ehhandler$??1TCPInterface@@QAE@XZ": 269366768,
+    "__except_list": 0,
+    "__imp__gethostbyname@4": 269374536,
+    "__imp__connect@12": 269374548,
+    "__imp__inet_addr@4": 269374528,
+    "__ehhandler$??0TCPInterface@@QAE@XZ": 269366676,
+    "__imp__WSAStartup@8": 269374568,
+    "eval_vendor_tcp_interface::$T58510": 269464348,
+    "___CxxFrameHandler": 269247782,
+    "eval_vendor_tcp_interface::$T58436": 269464264,
+    "eval_vendor_tcp_interface::$L58502": 269366688,
+    "eval_vendor_tcp_interface::$L58503": 269366699,
+    "eval_vendor_tcp_interface::$L58504": 269366710,
+    "eval_vendor_tcp_interface::$L58505": 269366721,
+    "eval_vendor_tcp_interface::$L58506": 269366732,
+    "eval_vendor_tcp_interface::$L58507": 269366743,
+    "eval_vendor_tcp_interface::$L58508": 269366754,
+    "eval_vendor_tcp_interface::$T58512": 269464292,
+    "eval_vendor_tcp_interface::$L58426": 269366592,
+    "eval_vendor_tcp_interface::$L58427": 269366606,
+    "eval_vendor_tcp_interface::$L58428": 269366620,
+    "eval_vendor_tcp_interface::$L58429": 269366634,
+    "eval_vendor_tcp_interface::$L58430": 269366648,
+    "eval_vendor_tcp_interface::$L58431": 269366662,
+    "eval_vendor_tcp_interface::$T58439": 269464216
+  },
+  "identity_reasons": {
+    "?DeleteRemoteClient@TCPInterface@@IAEXPAURemoteClient@@PAUfd_set@@@Z": "actual relocation from ?UpdateTCPInterfaceLoop@@YGIPAX@Z",
+    "??0TCPInterface@@QAE@XZ": "source method semantics + original call graph / allocation / table owner",
+    "?Stop@TCPInterface@@QAEXXZ": "actual relocation from ??1TCPInterface@@QAE@XZ",
+    "?Connect@TCPInterface@@QAE?AUPlayerID@@PBDG@Z": "source method semantics + original call graph / allocation / table owner",
+    "?Send@TCPInterface@@QAEXPBDIUPlayerID@@@Z": "source method semantics + original call graph / allocation / table owner",
+    "?Receive@TCPInterface@@QAEPAUPacket@@XZ": "source method semantics + original call graph / allocation / table owner",
+    "?CloseConnection@TCPInterface@@QAEXUPlayerID@@@Z": "source method semantics + original call graph / allocation / table owner",
+    "?DeallocatePacket@TCPInterface@@QAEXPAUPacket@@@Z": "source method semantics + original call graph / allocation / table owner",
+    "?HasNewConnection@TCPInterface@@QAE?AUPlayerID@@XZ": "source method semantics + original call graph / allocation / table owner",
+    "?HasLostConnection@TCPInterface@@QAE?AUPlayerID@@XZ": "source method semantics + original call graph / allocation / table owner",
+    "??1TCPInterface@@QAE@XZ": "source method semantics + original call graph / allocation / table owner",
+    "?UpdateTCPInterfaceLoop@@YGIPAX@Z": "actual relocation from ?Start@TCPInterface@@QAE_NGG@Z",
+    "?Start@TCPInterface@@QAE_NGG@Z": "source method semantics + original call graph / allocation / table owner",
+    "?RakSleep@@YAXI@Z": "source method semantics + original call graph / allocation / table owner",
+    "?ReadLock@?$SingleProducerConsumer@UPacket@@@DataStructures@@QAEPAUPacket@@XZ": "actual relocation from ?UpdateTCPInterfaceLoop@@YGIPAX@Z",
+    "?ReadUnlock@?$SingleProducerConsumer@UPacket@@@DataStructures@@QAEXXZ": "actual relocation from ?UpdateTCPInterfaceLoop@@YGIPAX@Z",
+    "?ReadLock@?$SingleProducerConsumer@PAURemoteClient@@@DataStructures@@QAEPAPAURemoteClient@@XZ": "actual relocation from ?UpdateTCPInterfaceLoop@@YGIPAX@Z",
+    "?Insert@?$List@PAURemoteClient@@@DataStructures@@QAEXQAURemoteClient@@@Z": "actual relocation from ?UpdateTCPInterfaceLoop@@YGIPAX@Z",
+    "?ReadUnlock@?$SingleProducerConsumer@PAURemoteClient@@@DataStructures@@QAEXXZ": "actual relocation from ?UpdateTCPInterfaceLoop@@YGIPAX@Z",
+    "?ReadLock@?$SingleProducerConsumer@UPlayerID@@@DataStructures@@QAEPAUPlayerID@@XZ": "actual relocation from ?UpdateTCPInterfaceLoop@@YGIPAX@Z",
+    "?WriteLock@?$SingleProducerConsumer@UPlayerID@@@DataStructures@@QAEPAUPlayerID@@XZ": "actual relocation from ?UpdateTCPInterfaceLoop@@YGIPAX@Z",
+    "?WriteUnlock@?$SingleProducerConsumer@UPlayerID@@@DataStructures@@QAEXXZ": "actual relocation from ?UpdateTCPInterfaceLoop@@YGIPAX@Z",
+    "?RemoveAtIndex@?$List@PAURemoteClient@@@DataStructures@@QAEXI@Z": "actual relocation from ?UpdateTCPInterfaceLoop@@YGIPAX@Z",
+    "?ReadUnlock@?$SingleProducerConsumer@UPlayerID@@@DataStructures@@QAEXXZ": "actual relocation from ?UpdateTCPInterfaceLoop@@YGIPAX@Z",
+    "?WriteLock@?$SingleProducerConsumer@UPacket@@@DataStructures@@QAEPAUPacket@@XZ": "actual relocation from ?UpdateTCPInterfaceLoop@@YGIPAX@Z",
+    "?WriteUnlock@?$SingleProducerConsumer@UPacket@@@DataStructures@@QAEXXZ": "actual relocation from ?UpdateTCPInterfaceLoop@@YGIPAX@Z",
+    "??1?$SingleProducerConsumer@PAURemoteClient@@@DataStructures@@QAE@XZ": "actual relocation from ??1TCPInterface@@QAE@XZ",
+    "??1?$SingleProducerConsumer@UPlayerID@@@DataStructures@@QAE@XZ": "actual relocation from ??1TCPInterface@@QAE@XZ",
+    "??1?$SingleProducerConsumer@UPacket@@@DataStructures@@QAE@XZ": "actual relocation from ??1TCPInterface@@QAE@XZ",
+    "??1?$List@PAURemoteClient@@@DataStructures@@QAE@XZ": "actual relocation from ??1TCPInterface@@QAE@XZ",
+    "?Clear@?$List@PAURemoteClient@@@DataStructures@@QAEX_N@Z": "actual relocation from ?Stop@TCPInterface@@QAEXXZ",
+    "?Clear@?$SingleProducerConsumer@UPacket@@@DataStructures@@QAEXXZ": "actual relocation from ?Stop@TCPInterface@@QAEXXZ",
+    "?Clear@?$SingleProducerConsumer@UPlayerID@@@DataStructures@@QAEXXZ": "actual relocation from ?Stop@TCPInterface@@QAEXXZ",
+    "?Clear@?$SingleProducerConsumer@PAURemoteClient@@@DataStructures@@QAEXXZ": "actual relocation from ?Stop@TCPInterface@@QAEXXZ",
+    "?WriteLock@?$SingleProducerConsumer@PAURemoteClient@@@DataStructures@@QAEPAPAURemoteClient@@XZ": "actual relocation from ?Connect@TCPInterface@@QAE?AUPlayerID@@PBDG@Z",
+    "?WriteUnlock@?$SingleProducerConsumer@PAURemoteClient@@@DataStructures@@QAEXXZ": "actual relocation from ?Connect@TCPInterface@@QAE?AUPlayerID@@PBDG@Z",
+    "??0?$List@PAURemoteClient@@@DataStructures@@QAE@XZ": "actual relocation from ??0TCPInterface@@QAE@XZ",
+    "??0?$SingleProducerConsumer@UPacket@@@DataStructures@@QAE@XZ": "actual relocation from ??0TCPInterface@@QAE@XZ",
+    "??0?$SingleProducerConsumer@UPlayerID@@@DataStructures@@QAE@XZ": "actual relocation from ??0TCPInterface@@QAE@XZ",
+    "??0?$SingleProducerConsumer@PAURemoteClient@@@DataStructures@@QAE@XZ": "actual relocation from ??0TCPInterface@@QAE@XZ"
+  },
+  "new_unique_code": 4306,
+  "already_covered_code": 0,
+  "physical_code_compared": 4306,
+  "baseline": 346586,
+  "source025_direct_bytes": 0,
+  "reuse_existing_owners": {},
+  "excluded_unmatched": [],
+  "explicit_owner_transfer": "None; new TCP/RakSleep sole owners.",
+  "unselected_method": "Unreferenced homologues are excluded; all Nat roots linked to actual calls, data, allocation, and VFT.",
+  "source_files": [
+    {
+      "path": "client/saco/eval_vendor_tcp_interface.cpp",
+      "sha256": "12029fe1ece4966a23ed7239ce0391e382a73faf4293e4aec34893d35e9b8e2d"
+    },
+    {
+      "path": "client/saco/eval_vendor_rak_sleep.cpp",
+      "sha256": "08f077237851840ac9c9b39dfa1b9848f5b9217f534fe092fcc3e34c5d71d661"
+    },
+    {
+      "path": "vendor/upstream/raknet/TCPInterface.cpp",
+      "sha256": "f2fa789d5a3a53f92c3f1727ae17d98fe9dd2edad87878b6cb887bc06ea4930a"
+    },
+    {
+      "path": "vendor/upstream/raknet/TCPInterface.h",
+      "sha256": "ea34ff472f5e575f24a6042e1c9749fe34f22c4100bd8bbbbed344340e97fd8c"
+    },
+    {
+      "path": "vendor/upstream/raknet/SingleProducerConsumer.h",
+      "sha256": "4ec3e22b6b50fcd05dfdf419aebd69b891990de949f88079f9bd17f5ea1e5421"
+    },
+    {
+      "path": "vendor/upstream/raknet/RakSleep.cpp",
+      "sha256": "5e398acf57476be031c68f60187f6428a2b8264ce74f2ddca79914c8231eb7e2"
+    }
+  ],
+  "objects": {
+    "eval_vendor_tcp_interface": "a245b22bd3c6f4d4c0ce485556efa8b4d27453fc341b623a1e124013ae1676dc",
+    "eval_vendor_rak_sleep": "d374d2d0df5701ee74efe2a3497324d7e2298ec1dfa95fd244a549fe28248448"
+  },
+  "actual_weak_aliases": {
+    "eval_vendor_tcp_interface": {},
+    "eval_vendor_rak_sleep": {}
+  }
+}

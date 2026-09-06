@@ -1,0 +1,62 @@
+{
+  "status": "PASS_SOLE_REAL_STORES_AND_LINKED_INITIALIZATION",
+  "run": "cp32-packet-registration-linked1",
+  "owners": [
+    {
+      "symbol": "?bQuitGame@@3HA",
+      "sole_owner": "closure_store_object_quit",
+      "linked_va": 269567600,
+      "whole_size": 4,
+      "initial_byte": 0,
+      "object_sha256": "b95de0e5564907fd5513297b3e3bf10d54ff82aea371750f4da493c91d3f0138"
+    },
+    {
+      "symbol": "?dwStartQuitTick@@3KA",
+      "sole_owner": "closure_store_quit_start_tick",
+      "linked_va": 269618968,
+      "whole_size": 4,
+      "initial_byte": 0,
+      "object_sha256": "8e2c88e91c23bd28a5fcda46e4683b966a9afc77a12013328c5d07a41875cc47"
+    },
+    {
+      "symbol": "?pDeathWindow@@3PAVCDeathWindow@@A",
+      "sole_owner": "closure_store_death_window",
+      "linked_va": 269618984,
+      "whole_size": 4,
+      "initial_byte": 0,
+      "object_sha256": "0c1a7082bb4ce838b5522dc25ce3fd467b0b96b1d8595ce3d672dd32155a9caf"
+    },
+    {
+      "symbol": "?iGameDebugType@@3HA",
+      "sole_owner": "closure_store_game_debug_type",
+      "linked_va": 269618972,
+      "whole_size": 4,
+      "initial_byte": 0,
+      "object_sha256": "d256865a4a9f1fa7c6a9ca8610267a041a5b008311acdd1b7ed061f0bf071122"
+    },
+    {
+      "symbol": "?dwDebugEntity1@@3KA",
+      "sole_owner": "closure_store_game_debug_entity1",
+      "linked_va": 269618976,
+      "whole_size": 4,
+      "initial_byte": 0,
+      "object_sha256": "e2d9ca921ea65829908dfb1f0be6f24321783658e63633302ad2b3e5987a974f"
+    },
+    {
+      "symbol": "?dwDebugEntity2@@3KA",
+      "sole_owner": "closure_store_game_debug_entity2",
+      "linked_va": 269618980,
+      "whole_size": 4,
+      "initial_byte": 0,
+      "object_sha256": "bcb37594bf507aff1b882c29e682a9b6e5de7c9074582883b08adf1102f74fdd"
+    },
+    {
+      "symbol": "?r5RpcChat@@3HB",
+      "sole_owner": "closure_store_rpc_chat",
+      "linked_va": 268947968,
+      "whole_size": 4,
+      "initial_byte": 101,
+      "object_sha256": "43ce7b94ca96cda933b14a58d9bf4c9449f43316251e50d8bd7de3a844b6ce7c"
+    }
+  ]
+}

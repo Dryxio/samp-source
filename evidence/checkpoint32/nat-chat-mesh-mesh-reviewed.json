@@ -1,0 +1,418 @@
+{
+  "status": "REVIEWED_MAIN_SEEDS_AND_WHOLE_EH_BINDINGS_PREFLIGHT",
+  "run": "build/cp32-mesh-trial1",
+  "roots": {
+    "??1FullyConnectedMesh@@UAE@XZ": 189792,
+    "?Initialize@FullyConnectedMesh@@QAEXPBD@Z": 189824,
+    "?OnReceive@FullyConnectedMesh@@UAE?AW4PluginReceiveResult@@PAVRakPeerInterface@@PAUPacket@@@Z": 190000,
+    "??0FullyConnectedMesh@@QAE@XZ": 189952,
+    "?Update@FullyConnectedMesh@@UAEXPAVRakPeerInterface@@@Z": 189936,
+    "?OnDisconnect@FullyConnectedMesh@@UAEXPAVRakPeerInterface@@@Z": 189920,
+    "??_GFullyConnectedMesh@@UAEPAXI@Z": 189968
+  },
+  "seeds": {
+    "closure_vendor_fully_connected_mesh": {
+      "??_GFullyConnectedMesh@@UAEPAXI@Z": 189968,
+      "??1FullyConnectedMesh@@UAE@XZ": 189792,
+      "?OnDisconnect@FullyConnectedMesh@@UAEXPAVRakPeerInterface@@@Z": 189920,
+      "?Update@FullyConnectedMesh@@UAEXPAVRakPeerInterface@@@Z": 189936,
+      "??0FullyConnectedMesh@@QAE@XZ": 189952,
+      "?OnReceive@FullyConnectedMesh@@UAE?AW4PluginReceiveResult@@PAVRakPeerInterface@@PAUPacket@@@Z": 190000,
+      "?Initialize@FullyConnectedMesh@@QAEXPBD@Z": 189824
+    }
+  },
+  "regions": [
+    {
+      "unit": "closure_vendor_fully_connected_mesh",
+      "section": 25,
+      "rva": 189968,
+      "size": 30,
+      "kind": ".text",
+      "sha256": "3f7e5e7dcdc1c0a40ece6c1a6cda52132c06f4605a61ec527ba4abc0999b270d",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "??1FullyConnectedMesh@@UAE@XZ",
+          "site_rva": 189972,
+          "target_va": 268625248,
+          "kind": 20
+        },
+        {
+          "symbol": "??3@YAXPAX@Z",
+          "site_rva": 189985,
+          "target_va": 269247626,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_fully_connected_mesh",
+      "section": 6,
+      "rva": 189792,
+      "size": 21,
+      "kind": ".text",
+      "sha256": "57b695659d46d5ce347afa4b85f30674fd154b00983585b02171f23cb5718557",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "??_7FullyConnectedMesh@@6B@",
+          "site_rva": 189794,
+          "target_va": 269381052,
+          "kind": 6
+        },
+        {
+          "symbol": "??3@YAXPAX@Z",
+          "site_rva": 189807,
+          "target_va": 269247626,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_fully_connected_mesh",
+      "section": 11,
+      "rva": 189920,
+      "size": 3,
+      "kind": ".text",
+      "sha256": "e598d0c3ba86d917b177d7adde0556aa99bc355543c57aee0a3e50b684dd7e99",
+      "whole_bytes_equal": true,
+      "bindings": []
+    },
+    {
+      "unit": "closure_vendor_fully_connected_mesh",
+      "section": 13,
+      "rva": 189936,
+      "size": 3,
+      "kind": ".text",
+      "sha256": "e598d0c3ba86d917b177d7adde0556aa99bc355543c57aee0a3e50b684dd7e99",
+      "whole_bytes_equal": true,
+      "bindings": []
+    },
+    {
+      "unit": "closure_vendor_fully_connected_mesh",
+      "section": 23,
+      "rva": 189952,
+      "size": 16,
+      "kind": ".text",
+      "sha256": "de2b7c01ebc4835072a4724f6da2eef92c0f622c9b1a69a478f3e3e24d78e73d",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "??_7FullyConnectedMesh@@6B@",
+          "site_rva": 189956,
+          "target_va": 269381052,
+          "kind": 6
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_fully_connected_mesh",
+      "section": 27,
+      "rva": 190000,
+      "size": 445,
+      "kind": ".text",
+      "sha256": "d8c3e5096ae79201895ebb2cfb333a4a07d2e29c93f0bc6dd33f4213d33d74a5",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "__except_list",
+          "site_rva": 190002,
+          "target_va": 0,
+          "kind": 6
+        },
+        {
+          "symbol": "__ehhandler$?OnReceive@FullyConnectedMesh@@UAE?AW4PluginReceiveResult@@PAVRakPeerInterface@@PAUPacket@@@Z",
+          "site_rva": 190009,
+          "target_va": 269361115,
+          "kind": 6
+        },
+        {
+          "symbol": "__except_list",
+          "site_rva": 190017,
+          "target_va": 0,
+          "kind": 6
+        },
+        {
+          "symbol": "??0BitStream@RakNet@@QAE@PAEI_N@Z",
+          "site_rva": 190063,
+          "target_va": 268564416,
+          "kind": 20
+        },
+        {
+          "symbol": "?IgnoreBits@BitStream@RakNet@@QAEXH@Z",
+          "site_rva": 190085,
+          "target_va": 268565744,
+          "kind": 20
+        },
+        {
+          "symbol": "?ReadBits@BitStream@RakNet@@QAE_NPAEH_N@Z",
+          "site_rva": 190103,
+          "target_va": 268564912,
+          "kind": 20
+        },
+        {
+          "symbol": "?ReadBits@BitStream@RakNet@@QAE_NPAEH_N@Z",
+          "site_rva": 190121,
+          "target_va": 268564912,
+          "kind": 20
+        },
+        {
+          "symbol": "?ReadBits@BitStream@RakNet@@QAE_NPAEH_N@Z",
+          "site_rva": 190139,
+          "target_va": 268564912,
+          "kind": 20
+        },
+        {
+          "symbol": "?ReadBits@BitStream@RakNet@@QAE_NPAEH_N@Z",
+          "site_rva": 190259,
+          "target_va": 268564912,
+          "kind": 20
+        },
+        {
+          "symbol": "?ReadBits@BitStream@RakNet@@QAE_NPAEH_N@Z",
+          "site_rva": 190277,
+          "target_va": 268564912,
+          "kind": 20
+        },
+        {
+          "symbol": "?ReadBits@BitStream@RakNet@@QAE_NPAEH_N@Z",
+          "site_rva": 190295,
+          "target_va": 268564912,
+          "kind": 20
+        },
+        {
+          "symbol": "??1BitStream@RakNet@@QAE@XZ",
+          "site_rva": 190410,
+          "target_va": 268564688,
+          "kind": 20
+        },
+        {
+          "symbol": "__except_list",
+          "site_rva": 190431,
+          "target_va": 0,
+          "kind": 6
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_fully_connected_mesh",
+      "section": 9,
+      "rva": 189824,
+      "size": 91,
+      "kind": ".text",
+      "sha256": "b671e4b8d7bcf955ff4193827dcede8b733789ebc769a1c99059db9e3db20ec6",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "??3@YAXPAX@Z",
+          "site_rva": 189837,
+          "target_va": 269247626,
+          "kind": 20
+        },
+        {
+          "symbol": "??2@YAPAXI@Z",
+          "site_rva": 189874,
+          "target_va": 269247098,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_fully_connected_mesh",
+      "section": 7,
+      "rva": 945596,
+      "size": 44,
+      "kind": ".rdata",
+      "sha256": "9043cd3c9f7671fddc3d35898d1335762e80083d2456df253696cc10b7b729db",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "?OnAttach@PluginInterface@@UAEXPAVRakPeerInterface@@@Z",
+          "site_rva": 945596,
+          "target_va": 268648304,
+          "kind": 6
+        },
+        {
+          "symbol": "?OnDetach@PluginInterface@@UAEXPAVRakPeerInterface@@@Z",
+          "site_rva": 945600,
+          "target_va": 268648320,
+          "kind": 6
+        },
+        {
+          "symbol": "?OnInitialize@PluginInterface@@UAEXPAVRakPeerInterface@@@Z",
+          "site_rva": 945604,
+          "target_va": 268648336,
+          "kind": 6
+        },
+        {
+          "symbol": "?Update@FullyConnectedMesh@@UAEXPAVRakPeerInterface@@@Z",
+          "site_rva": 945608,
+          "target_va": 268625392,
+          "kind": 6
+        },
+        {
+          "symbol": "?OnReceive@FullyConnectedMesh@@UAE?AW4PluginReceiveResult@@PAVRakPeerInterface@@PAUPacket@@@Z",
+          "site_rva": 945612,
+          "target_va": 268625456,
+          "kind": 6
+        },
+        {
+          "symbol": "?OnDisconnect@FullyConnectedMesh@@UAEXPAVRakPeerInterface@@@Z",
+          "site_rva": 945616,
+          "target_va": 268625376,
+          "kind": 6
+        },
+        {
+          "symbol": "?OnCloseConnection@PluginInterface@@UAEXPAVRakPeerInterface@@UPlayerID@@@Z",
+          "site_rva": 945620,
+          "target_va": 268648400,
+          "kind": 6
+        },
+        {
+          "symbol": "?OnDirectSocketSend@PluginInterface@@UAEXPBDIUPlayerID@@@Z",
+          "site_rva": 945624,
+          "target_va": 268648416,
+          "kind": 6
+        },
+        {
+          "symbol": "?OnDirectSocketReceive@PluginInterface@@UAEXPBDIUPlayerID@@@Z",
+          "site_rva": 945628,
+          "target_va": 268648432,
+          "kind": 6
+        },
+        {
+          "symbol": "?OnInternalPacket@PluginInterface@@UAEXPAUInternalPacket@@IUPlayerID@@I_N@Z",
+          "site_rva": 945632,
+          "target_va": 268648448,
+          "kind": 6
+        },
+        {
+          "symbol": "??_EFullyConnectedMesh@@UAEPAXI@Z",
+          "site_rva": 945636,
+          "target_va": 268625424,
+          "kind": 6
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_fully_connected_mesh",
+      "section": 28,
+      "rva": 925648,
+      "size": 21,
+      "kind": ".text$x",
+      "sha256": "50f9f1c2db72fe1463890ce1c348a1e6cc7cdbbccc53ccba338a20ab6d889ef9",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "??1BitStream@RakNet@@QAE@XZ",
+          "site_rva": 925655,
+          "target_va": 268564688,
+          "kind": 20
+        },
+        {
+          "symbol": "$T3950",
+          "site_rva": 925660,
+          "target_va": 269458508,
+          "kind": 6
+        },
+        {
+          "symbol": "___CxxFrameHandler",
+          "site_rva": 925665,
+          "target_va": 269247782,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_fully_connected_mesh",
+      "section": 29,
+      "rva": 1023044,
+      "size": 36,
+      "kind": ".xdata$x",
+      "sha256": "05d79b7e5561e4a443af0c41bc6335d5eb0f6537845e97025c4db8592950e6b4",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "$L3890",
+          "site_rva": 1023048,
+          "target_va": 269361104,
+          "kind": 6
+        },
+        {
+          "symbol": "$T3956",
+          "site_rva": 1023060,
+          "target_va": 269458500,
+          "kind": 6
+        }
+      ]
+    }
+  ],
+  "bindings_checked": 36,
+  "external_targets": {
+    "??3@YAXPAX@Z": 269247626,
+    "??_7FullyConnectedMesh@@6B@": 269381052,
+    "__except_list": 0,
+    "__ehhandler$?OnReceive@FullyConnectedMesh@@UAE?AW4PluginReceiveResult@@PAVRakPeerInterface@@PAUPacket@@@Z": 269361115,
+    "??0BitStream@RakNet@@QAE@PAEI_N@Z": 268564416,
+    "?IgnoreBits@BitStream@RakNet@@QAEXH@Z": 268565744,
+    "?ReadBits@BitStream@RakNet@@QAE_NPAEH_N@Z": 268564912,
+    "??1BitStream@RakNet@@QAE@XZ": 268564688,
+    "??2@YAPAXI@Z": 269247098,
+    "?OnAttach@PluginInterface@@UAEXPAVRakPeerInterface@@@Z": 268648304,
+    "?OnDetach@PluginInterface@@UAEXPAVRakPeerInterface@@@Z": 268648320,
+    "?OnInitialize@PluginInterface@@UAEXPAVRakPeerInterface@@@Z": 268648336,
+    "?OnCloseConnection@PluginInterface@@UAEXPAVRakPeerInterface@@UPlayerID@@@Z": 268648400,
+    "?OnDirectSocketSend@PluginInterface@@UAEXPBDIUPlayerID@@@Z": 268648416,
+    "?OnDirectSocketReceive@PluginInterface@@UAEXPBDIUPlayerID@@@Z": 268648432,
+    "?OnInternalPacket@PluginInterface@@UAEXPAUInternalPacket@@IUPlayerID@@I_N@Z": 268648448,
+    "??_EFullyConnectedMesh@@UAEPAXI@Z": 268625424,
+    "closure_vendor_fully_connected_mesh::$T3950": 269458508,
+    "___CxxFrameHandler": 269247782,
+    "closure_vendor_fully_connected_mesh::$L3890": 269361104,
+    "closure_vendor_fully_connected_mesh::$T3956": 269458500
+  },
+  "identity_reasons": {
+    "??1FullyConnectedMesh@@UAE@XZ": "actual relocation from ??_GFullyConnectedMesh@@UAEPAXI@Z",
+    "?Initialize@FullyConnectedMesh@@QAEXPBD@Z": "source method semantics + original call graph / allocation / table owner",
+    "?OnReceive@FullyConnectedMesh@@UAE?AW4PluginReceiveResult@@PAVRakPeerInterface@@PAUPacket@@@Z": "source method semantics + original call graph / allocation / table owner",
+    "??0FullyConnectedMesh@@QAE@XZ": "source method semantics + original call graph / allocation / table owner",
+    "?Update@FullyConnectedMesh@@UAEXPAVRakPeerInterface@@@Z": "source method semantics + original call graph / allocation / table owner",
+    "?OnDisconnect@FullyConnectedMesh@@UAEXPAVRakPeerInterface@@@Z": "source method semantics + original call graph / allocation / table owner",
+    "??_GFullyConnectedMesh@@UAEPAXI@Z": "source method semantics + original call graph / allocation / table owner"
+  },
+  "new_unique_code": 630,
+  "already_covered_code": 0,
+  "physical_code_compared": 630,
+  "baseline": 318918,
+  "source025_direct_bytes": 0,
+  "reuse_existing_owners": {},
+  "excluded_unmatched": [],
+  "source_files": [
+    {
+      "path": "client/saco/closure_vendor_fully_connected_mesh.cpp",
+      "sha256": "f5443f0a20baecf747057ea8f71da019e480627cfe89a6b294eb3809d913981a"
+    },
+    {
+      "path": "vendor/upstream/raknet/FullyConnectedMesh.cpp",
+      "sha256": "85072fc699b7d076cb748b390d719b732a8145c836286e2b23f01182de2e8923"
+    },
+    {
+      "path": "vendor/upstream/raknet/FullyConnectedMesh.h",
+      "sha256": "26111b58ac64460da171418872a2db6bc9da5ae6acada0ca36e648c371cd28bc"
+    }
+  ],
+  "objects": {
+    "closure_vendor_fully_connected_mesh": "8fa0df070c0db2ea2276114dc6ba1bff92e907d54182c70079c8a90ee70dcb88"
+  },
+  "actual_weak_aliases": {
+    "closure_vendor_fully_connected_mesh": {
+      "??_EFullyConnectedMesh@@UAEPAXI@Z": "??_GFullyConnectedMesh@@UAEPAXI@Z"
+    }
+  },
+  "identity_details": {
+    "ctor": "2E600 whole body references E6DBC, whose OnReceive slot points to unique445-byte2E630. Other candidate2EC30 references DatabaseClient VFT and is rejected.",
+    "layout": "FullyConnectedMesh8 = primary vptr4 + actual password pointer4. Ctor zeroes pointer; dtor and Initialize free actual array.",
+    "virtual_boundaries": "OnReceive invokes actual RakPeer GetIndexFromPlayerID/+5C, PlayerIDToDottedIP and Connect with two actual PlayerID reads. No concrete transport implementation credit.",
+    "vft": "Whole11-slot44-byte E6DBC immediately precedes DatabaseClient E6DE8; weak deleting slot10 maps actual G2E610."
+  }
+}

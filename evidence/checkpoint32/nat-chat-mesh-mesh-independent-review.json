@@ -1,0 +1,453 @@
+{
+  "status": "INDEPENDENT_PREFLIGHT_AND_ACTUAL_LINK_ALIAS_PASS",
+  "run": "build/cp32-mesh-trial1",
+  "baseline": 318918,
+  "new_unique_code": 630,
+  "code_including_EH": 630,
+  "data_bytes": 80,
+  "sections": 10,
+  "bindings": 36,
+  "unowned_dependencies": [],
+  "actual_weak_aliases": {
+    "??_EFullyConnectedMesh@@UAEPAXI@Z": "??_GFullyConnectedMesh@@UAEPAXI@Z"
+  },
+  "rejected_ctor2EC30": "0x100e6de8",
+  "vft_slots": [
+    "0x10033f70",
+    "0x10033f80",
+    "0x10033f90",
+    "0x1002e5f0",
+    "0x1002e630",
+    "0x1002e5e0",
+    "0x10033fd0",
+    "0x10033fe0",
+    "0x10033ff0",
+    "0x10034000",
+    "0x1002e610"
+  ],
+  "regions": [
+    {
+      "unit": "closure_vendor_fully_connected_mesh",
+      "section": 25,
+      "rva": 189968,
+      "size": 30,
+      "kind": ".text",
+      "sha256": "3f7e5e7dcdc1c0a40ece6c1a6cda52132c06f4605a61ec527ba4abc0999b270d",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "??1FullyConnectedMesh@@UAE@XZ",
+          "symbol_va": 268625248,
+          "addend": 0,
+          "target_va": 268625248,
+          "site_rva": 189972,
+          "kind": 20
+        },
+        {
+          "symbol": "??3@YAXPAX@Z",
+          "symbol_va": 269247626,
+          "addend": 0,
+          "target_va": 269247626,
+          "site_rva": 189985,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_fully_connected_mesh",
+      "section": 6,
+      "rva": 189792,
+      "size": 21,
+      "kind": ".text",
+      "sha256": "57b695659d46d5ce347afa4b85f30674fd154b00983585b02171f23cb5718557",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "??_7FullyConnectedMesh@@6B@",
+          "symbol_va": 269381052,
+          "addend": 0,
+          "target_va": 269381052,
+          "site_rva": 189794,
+          "kind": 6
+        },
+        {
+          "symbol": "??3@YAXPAX@Z",
+          "symbol_va": 269247626,
+          "addend": 0,
+          "target_va": 269247626,
+          "site_rva": 189807,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_fully_connected_mesh",
+      "section": 11,
+      "rva": 189920,
+      "size": 3,
+      "kind": ".text",
+      "sha256": "e598d0c3ba86d917b177d7adde0556aa99bc355543c57aee0a3e50b684dd7e99",
+      "whole_bytes_equal": true,
+      "bindings": []
+    },
+    {
+      "unit": "closure_vendor_fully_connected_mesh",
+      "section": 13,
+      "rva": 189936,
+      "size": 3,
+      "kind": ".text",
+      "sha256": "e598d0c3ba86d917b177d7adde0556aa99bc355543c57aee0a3e50b684dd7e99",
+      "whole_bytes_equal": true,
+      "bindings": []
+    },
+    {
+      "unit": "closure_vendor_fully_connected_mesh",
+      "section": 23,
+      "rva": 189952,
+      "size": 16,
+      "kind": ".text",
+      "sha256": "de2b7c01ebc4835072a4724f6da2eef92c0f622c9b1a69a478f3e3e24d78e73d",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "??_7FullyConnectedMesh@@6B@",
+          "symbol_va": 269381052,
+          "addend": 0,
+          "target_va": 269381052,
+          "site_rva": 189956,
+          "kind": 6
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_fully_connected_mesh",
+      "section": 27,
+      "rva": 190000,
+      "size": 445,
+      "kind": ".text",
+      "sha256": "d8c3e5096ae79201895ebb2cfb333a4a07d2e29c93f0bc6dd33f4213d33d74a5",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "__except_list",
+          "symbol_va": 0,
+          "addend": 0,
+          "target_va": 0,
+          "site_rva": 190002,
+          "kind": 6
+        },
+        {
+          "symbol": "__ehhandler$?OnReceive@FullyConnectedMesh@@UAE?AW4PluginReceiveResult@@PAVRakPeerInterface@@PAUPacket@@@Z",
+          "symbol_va": 269361115,
+          "addend": 0,
+          "target_va": 269361115,
+          "site_rva": 190009,
+          "kind": 6
+        },
+        {
+          "symbol": "__except_list",
+          "symbol_va": 0,
+          "addend": 0,
+          "target_va": 0,
+          "site_rva": 190017,
+          "kind": 6
+        },
+        {
+          "symbol": "??0BitStream@RakNet@@QAE@PAEI_N@Z",
+          "symbol_va": 268564416,
+          "addend": 0,
+          "target_va": 268564416,
+          "site_rva": 190063,
+          "kind": 20
+        },
+        {
+          "symbol": "?IgnoreBits@BitStream@RakNet@@QAEXH@Z",
+          "symbol_va": 268565744,
+          "addend": 0,
+          "target_va": 268565744,
+          "site_rva": 190085,
+          "kind": 20
+        },
+        {
+          "symbol": "?ReadBits@BitStream@RakNet@@QAE_NPAEH_N@Z",
+          "symbol_va": 268564912,
+          "addend": 0,
+          "target_va": 268564912,
+          "site_rva": 190103,
+          "kind": 20
+        },
+        {
+          "symbol": "?ReadBits@BitStream@RakNet@@QAE_NPAEH_N@Z",
+          "symbol_va": 268564912,
+          "addend": 0,
+          "target_va": 268564912,
+          "site_rva": 190121,
+          "kind": 20
+        },
+        {
+          "symbol": "?ReadBits@BitStream@RakNet@@QAE_NPAEH_N@Z",
+          "symbol_va": 268564912,
+          "addend": 0,
+          "target_va": 268564912,
+          "site_rva": 190139,
+          "kind": 20
+        },
+        {
+          "symbol": "?ReadBits@BitStream@RakNet@@QAE_NPAEH_N@Z",
+          "symbol_va": 268564912,
+          "addend": 0,
+          "target_va": 268564912,
+          "site_rva": 190259,
+          "kind": 20
+        },
+        {
+          "symbol": "?ReadBits@BitStream@RakNet@@QAE_NPAEH_N@Z",
+          "symbol_va": 268564912,
+          "addend": 0,
+          "target_va": 268564912,
+          "site_rva": 190277,
+          "kind": 20
+        },
+        {
+          "symbol": "?ReadBits@BitStream@RakNet@@QAE_NPAEH_N@Z",
+          "symbol_va": 268564912,
+          "addend": 0,
+          "target_va": 268564912,
+          "site_rva": 190295,
+          "kind": 20
+        },
+        {
+          "symbol": "??1BitStream@RakNet@@QAE@XZ",
+          "symbol_va": 268564688,
+          "addend": 0,
+          "target_va": 268564688,
+          "site_rva": 190410,
+          "kind": 20
+        },
+        {
+          "symbol": "__except_list",
+          "symbol_va": 0,
+          "addend": 0,
+          "target_va": 0,
+          "site_rva": 190431,
+          "kind": 6
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_fully_connected_mesh",
+      "section": 9,
+      "rva": 189824,
+      "size": 91,
+      "kind": ".text",
+      "sha256": "b671e4b8d7bcf955ff4193827dcede8b733789ebc769a1c99059db9e3db20ec6",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "??3@YAXPAX@Z",
+          "symbol_va": 269247626,
+          "addend": 0,
+          "target_va": 269247626,
+          "site_rva": 189837,
+          "kind": 20
+        },
+        {
+          "symbol": "??2@YAPAXI@Z",
+          "symbol_va": 269247098,
+          "addend": 0,
+          "target_va": 269247098,
+          "site_rva": 189874,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_fully_connected_mesh",
+      "section": 7,
+      "rva": 945596,
+      "size": 44,
+      "kind": ".rdata",
+      "sha256": "9043cd3c9f7671fddc3d35898d1335762e80083d2456df253696cc10b7b729db",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "?OnAttach@PluginInterface@@UAEXPAVRakPeerInterface@@@Z",
+          "symbol_va": 268648304,
+          "addend": 0,
+          "target_va": 268648304,
+          "site_rva": 945596,
+          "kind": 6
+        },
+        {
+          "symbol": "?OnDetach@PluginInterface@@UAEXPAVRakPeerInterface@@@Z",
+          "symbol_va": 268648320,
+          "addend": 0,
+          "target_va": 268648320,
+          "site_rva": 945600,
+          "kind": 6
+        },
+        {
+          "symbol": "?OnInitialize@PluginInterface@@UAEXPAVRakPeerInterface@@@Z",
+          "symbol_va": 268648336,
+          "addend": 0,
+          "target_va": 268648336,
+          "site_rva": 945604,
+          "kind": 6
+        },
+        {
+          "symbol": "?Update@FullyConnectedMesh@@UAEXPAVRakPeerInterface@@@Z",
+          "symbol_va": 268625392,
+          "addend": 0,
+          "target_va": 268625392,
+          "site_rva": 945608,
+          "kind": 6
+        },
+        {
+          "symbol": "?OnReceive@FullyConnectedMesh@@UAE?AW4PluginReceiveResult@@PAVRakPeerInterface@@PAUPacket@@@Z",
+          "symbol_va": 268625456,
+          "addend": 0,
+          "target_va": 268625456,
+          "site_rva": 945612,
+          "kind": 6
+        },
+        {
+          "symbol": "?OnDisconnect@FullyConnectedMesh@@UAEXPAVRakPeerInterface@@@Z",
+          "symbol_va": 268625376,
+          "addend": 0,
+          "target_va": 268625376,
+          "site_rva": 945616,
+          "kind": 6
+        },
+        {
+          "symbol": "?OnCloseConnection@PluginInterface@@UAEXPAVRakPeerInterface@@UPlayerID@@@Z",
+          "symbol_va": 268648400,
+          "addend": 0,
+          "target_va": 268648400,
+          "site_rva": 945620,
+          "kind": 6
+        },
+        {
+          "symbol": "?OnDirectSocketSend@PluginInterface@@UAEXPBDIUPlayerID@@@Z",
+          "symbol_va": 268648416,
+          "addend": 0,
+          "target_va": 268648416,
+          "site_rva": 945624,
+          "kind": 6
+        },
+        {
+          "symbol": "?OnDirectSocketReceive@PluginInterface@@UAEXPBDIUPlayerID@@@Z",
+          "symbol_va": 268648432,
+          "addend": 0,
+          "target_va": 268648432,
+          "site_rva": 945628,
+          "kind": 6
+        },
+        {
+          "symbol": "?OnInternalPacket@PluginInterface@@UAEXPAUInternalPacket@@IUPlayerID@@I_N@Z",
+          "symbol_va": 268648448,
+          "addend": 0,
+          "target_va": 268648448,
+          "site_rva": 945632,
+          "kind": 6
+        },
+        {
+          "symbol": "??_EFullyConnectedMesh@@UAEPAXI@Z",
+          "symbol_va": 268625424,
+          "addend": 0,
+          "target_va": 268625424,
+          "site_rva": 945636,
+          "kind": 6
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_fully_connected_mesh",
+      "section": 28,
+      "rva": 925648,
+      "size": 21,
+      "kind": ".text$x",
+      "sha256": "50f9f1c2db72fe1463890ce1c348a1e6cc7cdbbccc53ccba338a20ab6d889ef9",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "??1BitStream@RakNet@@QAE@XZ",
+          "symbol_va": 268564688,
+          "addend": 0,
+          "target_va": 268564688,
+          "site_rva": 925655,
+          "kind": 20
+        },
+        {
+          "symbol": "$T3950",
+          "symbol_va": 269458508,
+          "addend": 0,
+          "target_va": 269458508,
+          "site_rva": 925660,
+          "kind": 6
+        },
+        {
+          "symbol": "___CxxFrameHandler",
+          "symbol_va": 269247782,
+          "addend": 0,
+          "target_va": 269247782,
+          "site_rva": 925665,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_fully_connected_mesh",
+      "section": 29,
+      "rva": 1023044,
+      "size": 36,
+      "kind": ".xdata$x",
+      "sha256": "05d79b7e5561e4a443af0c41bc6335d5eb0f6537845e97025c4db8592950e6b4",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "$L3890",
+          "symbol_va": 269361104,
+          "addend": 0,
+          "target_va": 269361104,
+          "site_rva": 1023048,
+          "kind": 6
+        },
+        {
+          "symbol": "$T3956",
+          "symbol_va": 269458500,
+          "addend": 0,
+          "target_va": 269458500,
+          "site_rva": 1023060,
+          "kind": 6
+        }
+      ]
+    }
+  ],
+  "linked_alias_review": {
+    "run": "build/cp32-nat-chat-mesh-linked1",
+    "object_sha256": "8fa0df070c0db2ea2276114dc6ba1bff92e907d54182c70079c8a90ee70dcb88",
+    "map_E": 268762880,
+    "map_G": 268762880,
+    "vft_last_slot": 268762880,
+    "whole_linked_regions": [
+      {
+        "symbol": "??_7FullyConnectedMesh@@6B@",
+        "linked_va": 268867212,
+        "size": 44,
+        "full_bytes_equal": true
+      },
+      {
+        "symbol": "??_GFullyConnectedMesh@@UAEPAXI@Z",
+        "linked_va": 268762880,
+        "size": 30,
+        "full_bytes_equal": true
+      },
+      {
+        "symbol": "??0FullyConnectedMesh@@QAE@XZ",
+        "linked_va": 268762864,
+        "size": 16,
+        "full_bytes_equal": true
+      }
+    ]
+  }
+}

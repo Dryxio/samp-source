@@ -1,0 +1,711 @@
+{
+  "status": "SCOPED_PREFLIGHT_NOT_ACCEPTANCE",
+  "run": "cp32-database-ime-ob1-v2",
+  "baseline": 277519,
+  "code_bytes": 1620,
+  "unique_new_code": 1620,
+  "EH": 0,
+  "data_bytes": 5248,
+  "reused_float_bytes": 4,
+  "direct025_code_credit": 0,
+  "regions": [
+    {
+      "unit": "closure_gui_ime_candidate_render",
+      "anchor": "?RenderCandidateReadingWindow@CDXUTIMEEditBox@@UAEXPAUIDirect3DDevice9@@M_N@Z",
+      "rva": 588288,
+      "size": 1557,
+      "section": 59,
+      "kind": "code",
+      "object_sha256": "7a4bcec69107e79bd87af2c08c617e65d0487b90b3159a16b875351914b4d9a2",
+      "sha256": "c9ef11e4d923407ccdaed977f8b02a7af89150915900a8602eb389f6eef92176",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "?CPtoX@CUniBuffer@@QAEJHHPAH@Z",
+          "site_rva": 588339,
+          "symbol_va": 269073648,
+          "addend": 0,
+          "target_va": 269073648,
+          "kind": 20
+        },
+        {
+          "symbol": "?CPtoX@CUniBuffer@@QAEJHHPAH@Z",
+          "site_rva": 588360,
+          "symbol_va": 269073648,
+          "addend": 0,
+          "target_va": 269073648,
+          "kind": 20
+        },
+        {
+          "symbol": "?s_hklCurrent@CDXUTIMEEditBox@@1PAUHKL__@@A",
+          "site_rva": 588423,
+          "symbol_va": 269756272,
+          "addend": 0,
+          "target_va": 269756272,
+          "kind": 6
+        },
+        {
+          "symbol": "?GetImeId@CDXUTIMEEditBox@@KAKI@Z",
+          "site_rva": 588444,
+          "symbol_va": 268982912,
+          "addend": 0,
+          "target_va": 268982912,
+          "kind": 20
+        },
+        {
+          "symbol": "?s_hklCurrent@CDXUTIMEEditBox@@1PAUHKL__@@A",
+          "site_rva": 588462,
+          "symbol_va": 269756272,
+          "addend": 0,
+          "target_va": 269756272,
+          "kind": 6
+        },
+        {
+          "symbol": "?s_nFirstTargetConv@CDXUTIMEEditBox@@1HA",
+          "site_rva": 588477,
+          "symbol_va": 269752348,
+          "addend": 0,
+          "target_va": 269752348,
+          "kind": 6
+        },
+        {
+          "symbol": "?s_nCompCaret@CDXUTIMEEditBox@@1HA",
+          "site_rva": 588493,
+          "symbol_va": 269752320,
+          "addend": 0,
+          "target_va": 269752320,
+          "kind": 6
+        },
+        {
+          "symbol": "?s_CompString@CDXUTIMEEditBox@@1VCUniBuffer@@A",
+          "site_rva": 588506,
+          "symbol_va": 269756316,
+          "addend": 0,
+          "target_va": 269756316,
+          "kind": 6
+        },
+        {
+          "symbol": "?CPtoX@CUniBuffer@@QAEJHHPAH@Z",
+          "site_rva": 588511,
+          "symbol_va": 269073648,
+          "addend": 0,
+          "target_va": 269073648,
+          "kind": 20
+        },
+        {
+          "symbol": "?s_bVerticalCand@CDXUTIMEEditBox@@1_NA",
+          "site_rva": 588517,
+          "symbol_va": 269752353,
+          "addend": 0,
+          "target_va": 269752353,
+          "kind": 6
+        },
+        {
+          "symbol": "?s_bHorizontalReading@CDXUTIMEEditBox@@1_NA",
+          "site_rva": 588543,
+          "symbol_va": 269755690,
+          "addend": 0,
+          "target_va": 269755690,
+          "kind": 6
+        },
+        {
+          "symbol": "?r5ImeCandidateState@@3UR5ImeCandidateListState@@A",
+          "site_rva": 588576,
+          "symbol_va": 269756336,
+          "addend": 0,
+          "target_va": 269756336,
+          "kind": 6
+        },
+        {
+          "symbol": "__imp__SetRect@20",
+          "site_rva": 588602,
+          "symbol_va": 269374208,
+          "addend": 0,
+          "target_va": 269374208,
+          "kind": 6
+        },
+        {
+          "symbol": "?CalcTextRect@CDXUTDialog@@QAEJPBGPAVCDXUTElement@@PAUtagRECT@@H@Z",
+          "site_rva": 588625,
+          "symbol_va": 268990432,
+          "addend": 0,
+          "target_va": 268990432,
+          "kind": 20
+        },
+        {
+          "symbol": "__imp__SetRect@20",
+          "site_rva": 588712,
+          "symbol_va": 269374208,
+          "addend": 0,
+          "target_va": 269374208,
+          "kind": 6
+        },
+        {
+          "symbol": "?r5ImeReadingString@@3PAGA",
+          "site_rva": 588742,
+          "symbol_va": 269755696,
+          "addend": 0,
+          "target_va": 269755696,
+          "kind": 6
+        },
+        {
+          "symbol": "?r5ImeCandidateState@@3UR5ImeCandidateListState@@A",
+          "site_rva": 588750,
+          "symbol_va": 269756336,
+          "addend": 5120,
+          "target_va": 269761456,
+          "kind": 6
+        },
+        {
+          "symbol": "?CalcTextRect@CDXUTDialog@@QAEJPBGPAVCDXUTElement@@PAUtagRECT@@H@Z",
+          "site_rva": 588756,
+          "symbol_va": 268990432,
+          "addend": 0,
+          "target_va": 268990432,
+          "kind": 20
+        },
+        {
+          "symbol": "?s_ptCompString@CDXUTIMEEditBox@@1UtagPOINT@@A",
+          "site_rva": 588794,
+          "symbol_va": 269752332,
+          "addend": 4,
+          "target_va": 269752336,
+          "kind": 6
+        },
+        {
+          "symbol": "?s_ptCompString@CDXUTIMEEditBox@@1UtagPOINT@@A",
+          "site_rva": 588808,
+          "symbol_va": 269752332,
+          "addend": 0,
+          "target_va": 269752332,
+          "kind": 6
+        },
+        {
+          "symbol": "__imp__SetRect@20",
+          "site_rva": 588828,
+          "symbol_va": 269374208,
+          "addend": 0,
+          "target_va": 269374208,
+          "kind": 6
+        },
+        {
+          "symbol": "?r5ImeCandidateState@@3UR5ImeCandidateListState@@A",
+          "site_rva": 588888,
+          "symbol_va": 269756336,
+          "addend": 5172,
+          "target_va": 269761508,
+          "kind": 6
+        },
+        {
+          "symbol": "?r5ImeCandidateState@@3UR5ImeCandidateListState@@A",
+          "site_rva": 588898,
+          "symbol_va": 269756336,
+          "addend": 5164,
+          "target_va": 269761500,
+          "kind": 6
+        },
+        {
+          "symbol": "?r5ImeCandidateState@@3UR5ImeCandidateListState@@A",
+          "site_rva": 588904,
+          "symbol_va": 269756336,
+          "addend": 5168,
+          "target_va": 269761504,
+          "kind": 6
+        },
+        {
+          "symbol": "?r5ImeCandidateState@@3UR5ImeCandidateListState@@A",
+          "site_rva": 588909,
+          "symbol_va": 269756336,
+          "addend": 5176,
+          "target_va": 269761512,
+          "kind": 6
+        },
+        {
+          "symbol": "?DrawRect@CDXUTDialog@@QAEJPAUtagRECT@@K@Z",
+          "site_rva": 588927,
+          "symbol_va": 268978800,
+          "addend": 0,
+          "target_va": 268978800,
+          "kind": 20
+        },
+        {
+          "symbol": "?s_bVerticalCand@CDXUTIMEEditBox@@1_NA",
+          "site_rva": 588932,
+          "symbol_va": 269752353,
+          "addend": 0,
+          "target_va": 269752353,
+          "kind": 6
+        },
+        {
+          "symbol": "?s_bHorizontalReading@CDXUTIMEEditBox@@1_NA",
+          "site_rva": 588949,
+          "symbol_va": 269755690,
+          "addend": 0,
+          "target_va": 269755690,
+          "kind": 6
+        },
+        {
+          "symbol": "?r5ImeCandidateState@@3UR5ImeCandidateListState@@A",
+          "site_rva": 588980,
+          "symbol_va": 269756336,
+          "addend": 0,
+          "target_va": 269756336,
+          "kind": 6
+        },
+        {
+          "symbol": "?r5ImeCandidateState@@3UR5ImeCandidateListState@@A",
+          "site_rva": 589004,
+          "symbol_va": 269756336,
+          "addend": 5151,
+          "target_va": 269761487,
+          "kind": 6
+        },
+        {
+          "symbol": "?DrawRect@CDXUTDialog@@QAEJPAUtagRECT@@K@Z",
+          "site_rva": 589032,
+          "symbol_va": 268978800,
+          "addend": 0,
+          "target_va": 268978800,
+          "kind": 20
+        },
+        {
+          "symbol": "__real@3b808081",
+          "site_rva": 589062,
+          "symbol_va": 269377852,
+          "addend": 0,
+          "target_va": 269377852,
+          "kind": 6
+        },
+        {
+          "symbol": "__real@3b808081",
+          "site_rva": 589090,
+          "symbol_va": 269377852,
+          "addend": 0,
+          "target_va": 269377852,
+          "kind": 6
+        },
+        {
+          "symbol": "__real@3b808081",
+          "site_rva": 589127,
+          "symbol_va": 269377852,
+          "addend": 0,
+          "target_va": 269377852,
+          "kind": 6
+        },
+        {
+          "symbol": "__real@3b808081",
+          "site_rva": 589153,
+          "symbol_va": 269377852,
+          "addend": 0,
+          "target_va": 269377852,
+          "kind": 6
+        },
+        {
+          "symbol": "__real@3b808081",
+          "site_rva": 589203,
+          "symbol_va": 269377852,
+          "addend": 0,
+          "target_va": 269377852,
+          "kind": 6
+        },
+        {
+          "symbol": "__real@3b808081",
+          "site_rva": 589232,
+          "symbol_va": 269377852,
+          "addend": 0,
+          "target_va": 269377852,
+          "kind": 6
+        },
+        {
+          "symbol": "__real@3b808081",
+          "site_rva": 589259,
+          "symbol_va": 269377852,
+          "addend": 0,
+          "target_va": 269377852,
+          "kind": 6
+        },
+        {
+          "symbol": "__real@3b808081",
+          "site_rva": 589292,
+          "symbol_va": 269377852,
+          "addend": 0,
+          "target_va": 269377852,
+          "kind": 6
+        },
+        {
+          "symbol": "?DrawTextA@CDXUTDialog@@QAEJPBGPAVCDXUTElement@@PAUtagRECT@@_NH@Z",
+          "site_rva": 589328,
+          "symbol_va": 269013968,
+          "addend": 0,
+          "target_va": 269013968,
+          "kind": 20
+        },
+        {
+          "symbol": "__real@3b808081",
+          "site_rva": 589405,
+          "symbol_va": 269377852,
+          "addend": 0,
+          "target_va": 269377852,
+          "kind": 6
+        },
+        {
+          "symbol": "__real@3b808081",
+          "site_rva": 589433,
+          "symbol_va": 269377852,
+          "addend": 0,
+          "target_va": 269377852,
+          "kind": 6
+        },
+        {
+          "symbol": "__real@3b808081",
+          "site_rva": 589461,
+          "symbol_va": 269377852,
+          "addend": 0,
+          "target_va": 269377852,
+          "kind": 6
+        },
+        {
+          "symbol": "__real@3b808081",
+          "site_rva": 589498,
+          "symbol_va": 269377852,
+          "addend": 0,
+          "target_va": 269377852,
+          "kind": 6
+        },
+        {
+          "symbol": "?r5ImeReadingString@@3PAGA",
+          "site_rva": 589533,
+          "symbol_va": 269755696,
+          "addend": 0,
+          "target_va": 269755696,
+          "kind": 6
+        },
+        {
+          "symbol": "?DrawTextA@CDXUTDialog@@QAEJPBGPAVCDXUTElement@@PAUtagRECT@@_NH@Z",
+          "site_rva": 589538,
+          "symbol_va": 269013968,
+          "addend": 0,
+          "target_va": 269013968,
+          "kind": 20
+        },
+        {
+          "symbol": "?r5ImeCandidateState@@3UR5ImeCandidateListState@@A",
+          "site_rva": 589554,
+          "symbol_va": 269756336,
+          "addend": 5120,
+          "target_va": 269761456,
+          "kind": 6
+        },
+        {
+          "symbol": "?DrawTextA@CDXUTDialog@@QAEJPBGPAVCDXUTElement@@PAUtagRECT@@_NH@Z",
+          "site_rva": 589563,
+          "symbol_va": 269013968,
+          "addend": 0,
+          "target_va": 269013968,
+          "kind": 20
+        },
+        {
+          "symbol": "?r5ImeCandidateState@@3UR5ImeCandidateListState@@A",
+          "site_rva": 589568,
+          "symbol_va": 269756336,
+          "addend": 5139,
+          "target_va": 269761475,
+          "kind": 6
+        },
+        {
+          "symbol": "?r5ImeCandidateState@@3UR5ImeCandidateListState@@A",
+          "site_rva": 589581,
+          "symbol_va": 269756336,
+          "addend": 5120,
+          "target_va": 269761456,
+          "kind": 6
+        },
+        {
+          "symbol": "?CPtoX@CUniBuffer@@QAEJHHPAH@Z",
+          "site_rva": 589586,
+          "symbol_va": 269073648,
+          "addend": 0,
+          "target_va": 269073648,
+          "kind": 20
+        },
+        {
+          "symbol": "?r5ImeCandidateState@@3UR5ImeCandidateListState@@A",
+          "site_rva": 589592,
+          "symbol_va": 269756336,
+          "addend": 5139,
+          "target_va": 269761475,
+          "kind": 6
+        },
+        {
+          "symbol": "?r5ImeCandidateState@@3UR5ImeCandidateListState@@A",
+          "site_rva": 589597,
+          "symbol_va": 269756336,
+          "addend": 5143,
+          "target_va": 269761479,
+          "kind": 6
+        },
+        {
+          "symbol": "?r5ImeCandidateState@@3UR5ImeCandidateListState@@A",
+          "site_rva": 589612,
+          "symbol_va": 269756336,
+          "addend": 5120,
+          "target_va": 269761456,
+          "kind": 6
+        },
+        {
+          "symbol": "?CPtoX@CUniBuffer@@QAEJHHPAH@Z",
+          "site_rva": 589617,
+          "symbol_va": 269073648,
+          "addend": 0,
+          "target_va": 269073648,
+          "kind": 20
+        },
+        {
+          "symbol": "?DrawRect@CDXUTDialog@@QAEJPAUtagRECT@@K@Z",
+          "site_rva": 589657,
+          "symbol_va": 268978800,
+          "addend": 0,
+          "target_va": 268978800,
+          "kind": 20
+        },
+        {
+          "symbol": "__real@3b808081",
+          "site_rva": 589687,
+          "symbol_va": 269377852,
+          "addend": 0,
+          "target_va": 269377852,
+          "kind": 6
+        },
+        {
+          "symbol": "__real@3b808081",
+          "site_rva": 589718,
+          "symbol_va": 269377852,
+          "addend": 0,
+          "target_va": 269377852,
+          "kind": 6
+        },
+        {
+          "symbol": "__real@3b808081",
+          "site_rva": 589755,
+          "symbol_va": 269377852,
+          "addend": 0,
+          "target_va": 269377852,
+          "kind": 6
+        },
+        {
+          "symbol": "__real@3b808081",
+          "site_rva": 589780,
+          "symbol_va": 269377852,
+          "addend": 0,
+          "target_va": 269377852,
+          "kind": 6
+        },
+        {
+          "symbol": "?r5ImeCandidateState@@3UR5ImeCandidateListState@@A",
+          "site_rva": 589797,
+          "symbol_va": 269756336,
+          "addend": 5143,
+          "target_va": 269761479,
+          "kind": 6
+        },
+        {
+          "symbol": "?r5ImeCandidateState@@3UR5ImeCandidateListState@@A",
+          "site_rva": 589809,
+          "symbol_va": 269756336,
+          "addend": 5139,
+          "target_va": 269761475,
+          "kind": 6
+        },
+        {
+          "symbol": "?r5ImeCandidateState@@3UR5ImeCandidateListState@@A",
+          "site_rva": 589818,
+          "symbol_va": 269756336,
+          "addend": 5120,
+          "target_va": 269761456,
+          "kind": 6
+        },
+        {
+          "symbol": "?DrawTextA@CDXUTDialog@@QAEJPBGPAVCDXUTElement@@PAUtagRECT@@_NH@Z",
+          "site_rva": 589831,
+          "symbol_va": 269013968,
+          "addend": 0,
+          "target_va": 269013968,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "closure_store_ime_candidate_state",
+      "anchor": "??0R5ImeCandidateListState@@QAE@XZ",
+      "rva": 547200,
+      "size": 20,
+      "section": 46,
+      "kind": "code",
+      "object_sha256": "94d5ff763fd1b5ef92b009ac2d43ffc237830b39fbc2cee28a4bdaa2cdb08a2b",
+      "sha256": "05b9fb205b7b101228388e9a9bba84c492010f77d01aa02bc51f4822a8dc3251",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "??0CUniBuffer@@QAE@H@Z",
+          "site_rva": 547212,
+          "symbol_va": 269074736,
+          "addend": 0,
+          "target_va": 269074736,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "closure_store_ime_candidate_state",
+      "anchor": "??1R5ImeCandidateListState@@QAE@XZ",
+      "rva": 547232,
+      "size": 11,
+      "section": 48,
+      "kind": "code",
+      "object_sha256": "94d5ff763fd1b5ef92b009ac2d43ffc237830b39fbc2cee28a4bdaa2cdb08a2b",
+      "sha256": "b06092821c42547ea05add5cc629bb22156d3d8f3eb9e0a26a035616fad7ad28",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "??1CUniBuffer@@QAE@XZ",
+          "site_rva": 547239,
+          "symbol_va": 269072832,
+          "addend": 0,
+          "target_va": 269072832,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "closure_store_ime_candidate_state",
+      "anchor": "_$E5",
+      "rva": 934640,
+      "size": 22,
+      "section": 51,
+      "kind": "code",
+      "object_sha256": "94d5ff763fd1b5ef92b009ac2d43ffc237830b39fbc2cee28a4bdaa2cdb08a2b",
+      "sha256": "65fc5dc7828fcb17744ee42efd8145fdb77fe16098597bce1d06a055dd989fa7",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "?r5ImeCandidateState@@3UR5ImeCandidateListState@@A",
+          "site_rva": 934641,
+          "symbol_va": 269756336,
+          "addend": 0,
+          "target_va": 269756336,
+          "kind": 6
+        },
+        {
+          "symbol": "??0R5ImeCandidateListState@@QAE@XZ",
+          "site_rva": 934646,
+          "symbol_va": 268982656,
+          "addend": 0,
+          "target_va": 268982656,
+          "kind": 20
+        },
+        {
+          "symbol": "_$E6",
+          "site_rva": 934651,
+          "symbol_va": 269370240,
+          "addend": 0,
+          "target_va": 269370240,
+          "kind": 6
+        },
+        {
+          "symbol": "_atexit",
+          "site_rva": 934656,
+          "symbol_va": 269257477,
+          "addend": 0,
+          "target_va": 269257477,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "closure_store_ime_candidate_state",
+      "anchor": "_$E6",
+      "rva": 934784,
+      "size": 10,
+      "section": 54,
+      "kind": "code",
+      "object_sha256": "94d5ff763fd1b5ef92b009ac2d43ffc237830b39fbc2cee28a4bdaa2cdb08a2b",
+      "sha256": "8678eb2145efd73e55d55604da89a9e9644117fb35c4138801353746a553dc45",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "?r5ImeCandidateState@@3UR5ImeCandidateListState@@A",
+          "site_rva": 934785,
+          "symbol_va": 269756336,
+          "addend": 0,
+          "target_va": 269756336,
+          "kind": 6
+        },
+        {
+          "symbol": "??1R5ImeCandidateListState@@QAE@XZ",
+          "site_rva": 934790,
+          "symbol_va": 268982688,
+          "addend": 0,
+          "target_va": 268982688,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "closure_store_ime_candidate_state",
+      "anchor": "_$S7",
+      "rva": 1040408,
+      "size": 4,
+      "section": 52,
+      "kind": "crt_initializer_pointer",
+      "object_sha256": "94d5ff763fd1b5ef92b009ac2d43ffc237830b39fbc2cee28a4bdaa2cdb08a2b",
+      "sha256": "a314d540244ee26f29cc5b67292212210ade3628faaa95f766e25a499edf1487",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "_$E5",
+          "site_rva": 1040408,
+          "symbol_va": 269370096,
+          "addend": 0,
+          "target_va": 269370096,
+          "kind": 6
+        }
+      ]
+    },
+    {
+      "unit": "closure_store_ime_candidate_state",
+      "anchor": "?r5ImeCandidateState@@3UR5ImeCandidateListState@@A",
+      "rva": 1320880,
+      "size": 5180,
+      "section": 56,
+      "kind": "bss",
+      "object_sha256": "94d5ff763fd1b5ef92b009ac2d43ffc237830b39fbc2cee28a4bdaa2cdb08a2b",
+      "sha256": "61de2c242630d7cea8173c1544fd2c003a7377d10597e68127637e816188af3a",
+      "whole_bytes_equal": true,
+      "bindings": []
+    },
+    {
+      "unit": "closure_store_ime_reading_string",
+      "anchor": "?r5ImeReadingString@@3PAGA",
+      "rva": 1320240,
+      "size": 64,
+      "section": 3,
+      "kind": "bss",
+      "object_sha256": "480ee2a310d7851157ea775b0e82c9cb787a85e3ef1796e317a76a309ed42ebc",
+      "sha256": "f5a5fd42d16a20302798ef6ed309979b43003d2320d9f0e8ea9831a92759fb4b",
+      "whole_bytes_equal": true,
+      "bindings": []
+    },
+    {
+      "unit": "closure_gui_ime_candidate_render",
+      "anchor": "__real@3b808081",
+      "rva": 942396,
+      "size": 4,
+      "section": 47,
+      "kind": "reused_float",
+      "object_sha256": "7a4bcec69107e79bd87af2c08c617e65d0487b90b3159a16b875351914b4d9a2",
+      "sha256": "52c37b242f7ae8185a2b223b5b9d0b8772d97180a46b1d6a4d6c8b018c803d64",
+      "whole_bytes_equal": true,
+      "bindings": []
+    }
+  ]
+}

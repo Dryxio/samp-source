@@ -1,0 +1,97 @@
+{
+  "status": "PASS_WHOLE_CODE_AND_STORES",
+  "run": "cp32-final-toggles-trial1",
+  "baseline": 387041,
+  "new_unique_code": 36,
+  "source025_direct": 0,
+  "regions": [
+    {
+      "unit": "closure_cmd_final_toggles",
+      "section": 50,
+      "anchor": "?cmdDebugLabels@@YAXPAD@Z",
+      "rva": 430112,
+      "size": 16,
+      "kind": "code",
+      "sha256": "848357274913345bf875cfda643c48486c29abe2609cfb920f3b2757a477db17",
+      "bindings": [
+        {
+          "symbol": "?bShowDebugLabels@@3_NA",
+          "site_rva": 430113,
+          "kind": 6,
+          "target_va": 270986168
+        },
+        {
+          "symbol": "?bShowDebugLabels@@3_NA",
+          "site_rva": 430123,
+          "kind": 6,
+          "target_va": 270986168
+        }
+      ]
+    },
+    {
+      "unit": "closure_store_debug_labels_flag",
+      "section": 3,
+      "anchor": "?bShowDebugLabels@@3_NA",
+      "rva": 2550712,
+      "size": 1,
+      "kind": "data",
+      "sha256": "6e340b9cffb37a989ca544e6bb780a2c78901d3fb33738768511a30617afa01d",
+      "bindings": []
+    },
+    {
+      "unit": "closure_cmd_final_toggles",
+      "section": 48,
+      "anchor": "?cmdToggleObjectLight@@YAXPAD@Z",
+      "rva": 430080,
+      "size": 19,
+      "kind": "code",
+      "sha256": "108348349778d5b49474cebfd2ccd57e6995316a5d48bf9c84675b11142ca68e",
+      "bindings": [
+        {
+          "symbol": "?r5ObjectLightingToggle@@3HA",
+          "site_rva": 430082,
+          "kind": 6,
+          "target_va": 269575872
+        },
+        {
+          "symbol": "?r5ObjectLightingToggle@@3HA",
+          "site_rva": 430094,
+          "kind": 6,
+          "target_va": 269575872
+        }
+      ]
+    },
+    {
+      "unit": "closure_store_object_lighting_toggle",
+      "section": 3,
+      "anchor": "?r5ObjectLightingToggle@@3HA",
+      "rva": 1140416,
+      "size": 4,
+      "kind": "data",
+      "sha256": "67abdd721024f0ff4e0b3f4c2fc13bc5bad42d0b7851d456d88d203d15aaa450",
+      "bindings": []
+    },
+    {
+      "unit": "closure_cmd_final_toggles",
+      "section": 46,
+      "anchor": "?cmdCmpStat@@YAXPAD@Z",
+      "rva": 428528,
+      "size": 1,
+      "kind": "code",
+      "sha256": "ae3f4619b0413d70d3004b9131c3752153074e45725be13b9a148978895e359e",
+      "bindings": []
+    }
+  ],
+  "original_registration_sites": {
+    "?cmdCmpStat@@YAXPAD@Z": 430845,
+    "?cmdToggleObjectLight@@YAXPAD@Z": 430824,
+    "?cmdDebugLabels@@YAXPAD@Z": 430866
+  },
+  "identity": "Actual SetupCommands pushes each original function. Debug bool real main global; object BOOL initialized1, no stronger inferred state semantics.",
+  "owner_transfer": "Debug bool main definition must become extern before integrating store; no new allocation.",
+  "sources": {
+    "client/saco/closure_cmd_final_toggles.cpp": "aacfdadd2cb8829dd8e1e13c8b3d2b8b3bd6592ffb6ee1fb70dbd8577c868798",
+    "client/saco/closure_store_object_lighting_toggle.cpp": "85af2355b8b1612cefaf0d3e08c75ab7bab5284b41dc9c959b03154acf2c7c21",
+    "client/saco/closure_store_debug_labels_flag.cpp": "51cdb45edccc0041f24062b02af5ce9d811b769a718d00ef0e29ca1cd6d5d0e8"
+  }
+}

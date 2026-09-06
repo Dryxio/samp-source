@@ -1,0 +1,317 @@
+{
+  "status": "PASS_FRESH_SCOPE_AND_PROVIDER_AUDIT",
+  "baseline": 360128,
+  "class": "big::RSACrypt<big::u256>",
+  "size": 305,
+  "allocation": "No dynamic allocation or virtual table in this specialization; all operands and temporaries are genuine fixed-width word arrays.",
+  "layout": {
+    "e": 0,
+    "n": 32,
+    "np": 64,
+    "xp": 96,
+    "factorsAvailable": 128,
+    "d": 129,
+    "phi": 161,
+    "p": 193,
+    "pnp": 209,
+    "pxp": 225,
+    "q": 241,
+    "qnp": 257,
+    "qxp": 273,
+    "pInverse": 289
+  },
+  "source_assembly": {
+    "provenance": "Original vendor BigTypes.h symbolic assembly, unchanged.",
+    "selected_macro": "ASSEMBLY_INTEL_SYNTAX + ASSEMBLY_BLOCK=__asm under _MSC_VER",
+    "routines": [
+      {
+        "name": "big::add<T>",
+        "line": 657
+      },
+      {
+        "name": "big::subtract<T>",
+        "line": 779
+      }
+    ],
+    "not_used": "BorlandAdd/BorlandSubtract NO_TEMPLATE_INLINE_ASSEMBLY branches are not selected by MSVC.",
+    "reconstructed_instruction_bytes": false,
+    "compiler_macro_correction": "Macro is ASSEMBLY_INTEL_SYNTAX, not historical comment USEASSEMBLY."
+  },
+  "source025_direct_credit": 0,
+  "dependencies_expected": [
+    "randomMT from accepted closure_vendor_rand owner; fresh actual target must agree",
+    "CRT memory/arithmetic helpers only if fresh relocation requires, no speculative boundaries"
+  ],
+  "identity_notes": [
+    "Ctor12 at3CC60 calls reset3B0D0; homologue3B130 calls39A50 and is a different class.",
+    "RakPeer own ctor inlines RSA ctor and calls reset3B0D0 directly. No credit granted to RakPeer ctor.",
+    "InitializeSecurity42A40 direct targets42740 generateKeys and40CC0 setPrivateKey.",
+    "SecuredConnectionConfirmation41050 direct encrypt40BF0.",
+    "No live security keys or network execution was used."
+  ],
+  "source_files": [
+    {
+      "path": "vendor/upstream/raknet/RSACrypt.h",
+      "sha256": "1dc479a8b012592fa1ce673d0e8417ca06e170a680815b68bf2da555c178f7bf"
+    },
+    {
+      "path": "vendor/upstream/raknet/BigTypes.h",
+      "sha256": "274390cd1f9d61e9d8b3db1e3870ca7eb52118fd6a4fe88fa6cb18fada496257"
+    },
+    {
+      "path": "vendor/upstream/raknet/Types.h",
+      "sha256": "2cec6a84344c9a74be4058805392713a316c329878aa5ba4142ab6590e1f88d4"
+    }
+  ],
+  "fresh_run": "cp32-rakpeer-rsa-trial2",
+  "original_prime_table": {
+    "rva": 953032,
+    "size": 512,
+    "type": "const u16[256]",
+    "whole_region_compared": true
+  },
+  "new_unique_code": 11013,
+  "already_covered_base_code": 1833,
+  "base_provider_manifest": "config/checkpoint31/regions.json",
+  "base_overlap_regions": [
+    {
+      "object": "raknet_RakPeer.obj",
+      "symbol": "??$ugreater@$$BY03I@big@@YA_NAAY03I0@Z",
+      "rva": 236272,
+      "size": 49,
+      "sha256": "7d4f442c2a4e206879945218b035f0937f5ea86e0061d6c7bf25c325226a16b2",
+      "identity": "unique full body including exact IDA boundaries",
+      "ida_name": "sub_10039AF0"
+    },
+    {
+      "object": "raknet_RakPeer.obj",
+      "symbol": "??$decrement@$$BY03I@big@@YAXAAY03I@Z",
+      "rva": 236368,
+      "size": 28,
+      "sha256": "a4d7c1ca060dfda8ddfc0b4d9fa0ae4e68d50a80e9718409ac0137b5e358964b",
+      "identity": "unique full body including exact IDA boundaries",
+      "ida_name": "sub_10039B50"
+    },
+    {
+      "object": "raknet_RakPeer.obj",
+      "symbol": "??$decrement@$$BY0BA@I@big@@YAXAAY0BA@I@Z",
+      "rva": 236448,
+      "size": 79,
+      "sha256": "855f3e9b5642a35b4310266a0ecad2365e6f209c5cfe8a7338c7ca5abf09c0f3",
+      "identity": "unique full body including exact IDA boundaries",
+      "ida_name": "sub_10039BA0"
+    },
+    {
+      "object": "raknet_RakPeer.obj",
+      "symbol": "??$decrement@$$BY07I@big@@YAXAAY07I@Z",
+      "rva": 236688,
+      "size": 28,
+      "sha256": "271635fa23dcb470462644635a75e303de8d1267e9416940a9670caef259465e",
+      "identity": "unique full body including exact IDA boundaries",
+      "ida_name": "sub_10039C90"
+    },
+    {
+      "object": "raknet_RakPeer.obj",
+      "symbol": "??$subtract@$$BY03I@big@@YAXAAY03I0@Z",
+      "rva": 236752,
+      "size": 88,
+      "sha256": "b4c22bfaa06112009e21f5b63a1005cf5a0013fca0db02c35993638a8304bf91",
+      "identity": "unique full body including exact IDA boundaries",
+      "ida_name": "sub_10039CD0"
+    },
+    {
+      "object": "raknet_RakPeer.obj",
+      "symbol": "??$add@$$BY03I@big@@YAXAAY03I0@Z",
+      "rva": 236848,
+      "size": 88,
+      "sha256": "fb04586548aa3004a57cb57a211ae1c9680f433398b4670ee066fd4377c903b8",
+      "identity": "unique full body including exact IDA boundaries",
+      "ida_name": "sub_10039D30"
+    },
+    {
+      "object": "raknet_RakPeer.obj",
+      "symbol": "??$add@$$BY07I@big@@YAXAAY07I0@Z",
+      "rva": 236944,
+      "size": 88,
+      "sha256": "23bfe72bdc426350977b1182ca28359ff43054b154568b8185231b7ac287edc1",
+      "identity": "unique full body including exact IDA boundaries",
+      "ida_name": "sub_10039D90"
+    },
+    {
+      "object": "raknet_RakPeer.obj",
+      "symbol": "??$shiftLeft@$$BY07I@big@@YAXAAY07II@Z",
+      "rva": 237120,
+      "size": 212,
+      "sha256": "743d99cdb8d6dd4caa3c7a70b9a53553d994f7ea572662186724116887a9acc3",
+      "identity": "unique full body including exact IDA boundaries",
+      "ida_name": "sub_10039E40"
+    },
+    {
+      "object": "raknet_RakPeer.obj",
+      "symbol": "??$ugreater@$$BY07I@big@@YA_NAAY07I0@Z",
+      "rva": 237344,
+      "size": 49,
+      "sha256": "0ccd42063f7036d94a5e19bc1d8c8f990c7e7f85c82acef799ffe78fe7be10c9",
+      "identity": "unique full body including exact IDA boundaries",
+      "ida_name": "sub_10039F20"
+    },
+    {
+      "object": "raknet_RakPeer.obj",
+      "symbol": "??$ushiftRight1@$$BY03I@big@@YAXAAY03I@Z",
+      "rva": 237568,
+      "size": 58,
+      "sha256": "5571ad327e6920c4b4786ff2e2de046c1a9774c18c5669f2fe475e6813c85257",
+      "identity": "unique full body including exact IDA boundaries",
+      "ida_name": "sub_1003A000"
+    },
+    {
+      "object": "raknet_RakPeer.obj",
+      "symbol": "??$subtract@$$BY07I@big@@YAXAAY07I0@Z",
+      "rva": 237696,
+      "size": 88,
+      "sha256": "2278d3d31556ad1ccf7dca8848b9a1a03de54117d79e4c1cf27cf3330166e336",
+      "identity": "unique full body including exact IDA boundaries",
+      "ida_name": "sub_1003A080"
+    },
+    {
+      "object": "raknet_RakPeer.obj",
+      "symbol": "??$ugreater@$$BY0BA@I@big@@YA_NAAY0BA@I0@Z",
+      "rva": 237840,
+      "size": 49,
+      "sha256": "e4c68fa593675c5993b2f228481c222ca4b07f8adc7b7bc501e42cd436982258",
+      "identity": "unique full body including exact IDA boundaries",
+      "ida_name": "sub_1003A110"
+    },
+    {
+      "object": "raknet_RakPeer.obj",
+      "symbol": "??$shiftLeft@$$BY0BA@I@big@@YAXAAY0BA@II@Z",
+      "rva": 237904,
+      "size": 134,
+      "sha256": "c664bd926d68ae42508ee779223c6685a7312b45563f2a0270a559a8a1d581b2",
+      "identity": "unique full body including exact IDA boundaries",
+      "ida_name": "sub_1003A150"
+    },
+    {
+      "object": "raknet_RakPeer.obj",
+      "symbol": "??$shiftLeft1@$$BY0BA@I@big@@YAXAAY0BA@I@Z",
+      "rva": 238048,
+      "size": 41,
+      "sha256": "18c3aa88fc7f1a98c94e011c5131db072f7974e26db03c91fb203c436ff55fc7",
+      "identity": "unique full body including exact IDA boundaries",
+      "ida_name": "sub_1003A1E0"
+    },
+    {
+      "object": "raknet_RakPeer.obj",
+      "symbol": "??$ushiftRight1@$$BY0BA@I@big@@YAXAAY0BA@I@Z",
+      "rva": 238096,
+      "size": 40,
+      "sha256": "1986fcf846f79a645f145e2474c5424aaa63120c8e9f015d4cf680678e82d4d5",
+      "identity": "unique full body including exact IDA boundaries",
+      "ida_name": "sub_1003A210"
+    },
+    {
+      "object": "raknet_RakPeer.obj",
+      "symbol": "??$subtract@$$BY0BA@I@big@@YAXAAY0BA@I0@Z",
+      "rva": 238144,
+      "size": 88,
+      "sha256": "d8f6fcf5ff17fb21a77e3f98d21f0d10d4e00648d664ccbab108f7d60cbf2116",
+      "identity": "unique full body including exact IDA boundaries",
+      "ida_name": "sub_1003A240"
+    },
+    {
+      "object": "raknet_RakPeer.obj",
+      "symbol": "??$shiftLeft1@$$BY07I@big@@YAXAAY07I@Z",
+      "rva": 238240,
+      "size": 111,
+      "sha256": "b8f04960d01a51331124d7f30a966ecd9af095dc78a9e09aa60bd4cfe8197ee5",
+      "identity": "unique full body including exact IDA boundaries",
+      "ida_name": "sub_1003A2A0"
+    },
+    {
+      "object": "raknet_RakPeer.obj",
+      "symbol": "??$ushiftRight1@$$BY07I@big@@YAXAAY07I@Z",
+      "rva": 238352,
+      "size": 118,
+      "sha256": "17772d79eece33cf424c8be96335e2bd03eddbed5a7831bd38238bbc70f4a612",
+      "identity": "unique full body including exact IDA boundaries",
+      "ida_name": "sub_1003A310"
+    },
+    {
+      "object": "raknet_RakPeer.obj",
+      "symbol": "??$add@$$BY0BA@I@big@@YAXAAY0BA@I0@Z",
+      "rva": 238640,
+      "size": 88,
+      "sha256": "688a8d9ae1c1d1a745caf524153c739d2f8990be0ea08842580d5a9d9935b396",
+      "identity": "unique full body including exact IDA boundaries",
+      "ida_name": "sub_1003A430"
+    },
+    {
+      "object": "raknet_RakPeer.obj",
+      "symbol": "??$shiftLeft@$$BY03I@big@@YAXAAY03II@Z",
+      "rva": 238768,
+      "size": 136,
+      "sha256": "62f68065e3f379415254f47584095c60605046e49bf667cb9a7bf9bf7e1dbbe6",
+      "identity": "unique full body including exact IDA boundaries",
+      "ida_name": "sub_1003A4B0"
+    },
+    {
+      "object": "raknet_RakPeer.obj",
+      "symbol": "??$shiftLeft1@$$BY03I@big@@YAXAAY03I@Z",
+      "rva": 238912,
+      "size": 55,
+      "sha256": "7d1134e3e92462aa3f95497256271dec8bee7ef3391c5da6d26636e5e9f4f700",
+      "identity": "unique full body including exact IDA boundaries",
+      "ida_name": "sub_1003A540"
+    },
+    {
+      "object": "raknet_RakPeer.obj",
+      "symbol": "?getPublicKey@?$RSACrypt@$$BY07I@big@@QAEXAAIAAY07I@Z",
+      "rva": 241840,
+      "size": 29,
+      "sha256": "1df4487669c710831ecc49440c283bf03ac813641423de5168f863902d0cc4c8",
+      "identity": "unique full body including exact IDA boundaries",
+      "ida_name": "sub_1003B0B0"
+    },
+    {
+      "object": "raknet_RakPeer.obj",
+      "symbol": "?reset@?$RSACrypt@$$BY07I@big@@QAEXXZ",
+      "rva": 241872,
+      "size": 89,
+      "sha256": "453c38fe2e73595e734e7ea0032c385c26b770c5ea76d6ac415fed73c9943127",
+      "identity": "unique full body including exact IDA boundaries",
+      "ida_name": "sub_1003B0D0"
+    }
+  ],
+  "active_owner_scan": {
+    "run": "cp32-console-font-linked1",
+    "duplicate_definitions": []
+  },
+  "external_provider": {
+    "symbol": "?randomMT@@YAIXZ",
+    "rva": 277504,
+    "unit": "closure_vendor_rand",
+    "accepted_contract": "config/checkpoint32/console-font-contract.json"
+  },
+  "source_snapshots": [
+    {
+      "path": "build/cp32-rakpeer-rsa-trial2/vendor/upstream/raknet/RSACrypt.h",
+      "sha256": "1dc479a8b012592fa1ce673d0e8417ca06e170a680815b68bf2da555c178f7bf",
+      "same_active_vendor": true
+    },
+    {
+      "path": "build/cp32-rakpeer-rsa-trial2/vendor/upstream/raknet/BigTypes.h",
+      "sha256": "274390cd1f9d61e9d8b3db1e3870ca7eb52118fd6a4fe88fa6cb18fada496257",
+      "same_active_vendor": true
+    },
+    {
+      "path": "build/cp32-rakpeer-rsa-trial2/vendor/upstream/raknet/Types.h",
+      "sha256": "2cec6a84344c9a74be4058805392713a316c329878aa5ba4142ab6590e1f88d4",
+      "same_active_vendor": true
+    },
+    {
+      "path": "build/cp32-rakpeer-rsa-trial2/vendor/upstream/raknet/Rand.h",
+      "sha256": "270f595ecca05db2c7505ef47302b1ab26d4feb6e268ca4b75f3b846a30b096f",
+      "same_active_vendor": true
+    }
+  ]
+}

@@ -1,0 +1,152 @@
+{
+  "status": "SOURCE_PROPOSAL_NOT_COMPILED_NOT_ACCEPTED",
+  "baseline": 384120,
+  "baseline_proof": "evidence/checkpoint32/remote-state-acceptance.json",
+  "source025_direct_credit": 0,
+  "source": "build/agent-independent/eval_vendor_rakpeer_packet_api.cpp",
+  "old_unambiguous_roots": [
+    {
+      "symbol": "?DeallocatePacket@RakPeer@@UAEXPAUPacket@@@Z",
+      "rva": 230832,
+      "size": 45,
+      "potential": 45
+    },
+    {
+      "symbol": "?RegisterAsRemoteProcedureCall@RakPeer@@UAEXPADP6AXPAURPCParameters@@@Z@Z",
+      "rva": 230896,
+      "size": 41,
+      "potential": 41
+    },
+    {
+      "symbol": "?RegisterClassMemberRPC@RakPeer@@UAEXPADPAX@Z",
+      "rva": 230944,
+      "size": 41,
+      "potential": 41
+    },
+    {
+      "symbol": "?HandleRPCReplyPacket@RakPeer@@IAEXPBDHUPlayerID@@@Z",
+      "rva": 232960,
+      "size": 102,
+      "potential": 102
+    },
+    {
+      "symbol": "?PushBackPacket@RakPeer@@UAEXPAUPacket@@_N@Z",
+      "rva": 241072,
+      "size": 42,
+      "potential": 42
+    },
+    {
+      "symbol": "?HandleRPCPacket@RakPeer@@IAE_NPBDHUPlayerID@@@Z",
+      "rva": 241120,
+      "size": 404,
+      "potential": 404
+    },
+    {
+      "symbol": "?SendBuffered@RakPeer@@IAEXPBDHW4PacketPriority@@W4PacketReliability@@DUPlayerID@@_NW4ConnectMode@RemoteSystemStruct@1@@Z",
+      "rva": 241536,
+      "size": 141,
+      "potential": 141
+    },
+    {
+      "symbol": "?Send@RakPeer@@UAE_NPBDHW4PacketPriority@@W4PacketReliability@@DUPlayerID@@_N@Z",
+      "rva": 246464,
+      "size": 259,
+      "potential": 259
+    },
+    {
+      "symbol": "?Send@RakPeer@@UAE_NPAVBitStream@RakNet@@W4PacketPriority@@W4PacketReliability@@DUPlayerID@@_N@Z",
+      "rva": 246736,
+      "size": 247,
+      "potential": 247
+    },
+    {
+      "symbol": "?ReceiveIgnoreRPC@RakPeer@@IAEPAUPacket@@XZ",
+      "rva": 264336,
+      "size": 362,
+      "potential": 362
+    },
+    {
+      "symbol": "?Receive@RakPeer@@UAEPAUPacket@@XZ",
+      "rva": 266192,
+      "size": 120,
+      "potential": 120
+    }
+  ],
+  "unique_old_roots": 1804,
+  "extractions": [
+    {
+      "source": "vendor/upstream/raknet/RakPeer.cpp",
+      "line": 841,
+      "sha256": "d81acc2c1f5d818ce43c2f2c7f16e51a0404d6f6e235b056657fec4d61a572a7"
+    },
+    {
+      "source": "vendor/upstream/raknet/RakPeer.cpp",
+      "line": 868,
+      "sha256": "c347dc66525c399bd8988b6106978a1ceccf542a80f7f07c6de511a41d4f29a7"
+    },
+    {
+      "source": "vendor/upstream/raknet/RakPeer.cpp",
+      "line": 907,
+      "sha256": "61dfe60228b6a50c6c099d3dc6f77444851cfd7c0b739d63f96cade328fd1220"
+    },
+    {
+      "source": "vendor/upstream/raknet/RakPeer.cpp",
+      "line": 933,
+      "sha256": "601734b8780827f140de7a4eeb4cce9ee7fa7371fa8057c1fe5871dfd531b732"
+    },
+    {
+      "source": "vendor/upstream/raknet/RakPeer.cpp",
+      "line": 1031,
+      "sha256": "f51e40e8dfecced1fc4c5e85f9ffef7eeb86ccc109e7df80047085358a04438e"
+    },
+    {
+      "source": "vendor/upstream/raknet/RakPeer.cpp",
+      "line": 1062,
+      "sha256": "3a762bbbbfd2c6aa30a102dee40986af0dd1eaf067450e183b6c562c80847dce"
+    },
+    {
+      "source": "vendor/upstream/raknet/RakPeer.cpp",
+      "line": 1094,
+      "sha256": "05f2768de5d7285ddfb68b19eb328b3700642d6f46439907d0f50c5cbe56cba2"
+    },
+    {
+      "source": "vendor/upstream/raknet/RakPeer.cpp",
+      "line": 2265,
+      "sha256": "1f75f51239feeaa5bbd69341549f5280a470b3532d5520e1c1ca3c8dee96321c"
+    },
+    {
+      "source": "vendor/upstream/raknet/RakPeer.cpp",
+      "line": 2791,
+      "sha256": "0fec07ac6ef92a7abc89f75711b4262125a8ce2f2f433cf9572794e045f7ef7b"
+    },
+    {
+      "source": "vendor/upstream/raknet/RakPeer.cpp",
+      "line": 2909,
+      "sha256": "bc4bfce6124f5124162d8fd71c483fd66e6d49688c0adfab7a97314c463a8b4a"
+    },
+    {
+      "source": "vendor/upstream/raknet/RakPeer.cpp",
+      "line": 3244,
+      "sha256": "dd15fc3b888bcb618a25405c298ba6d0f5a5f0b5510cbf3374773b7ae7c59921"
+    }
+  ],
+  "direct_dependency_scope": [
+    "Existing ShiftIncomingTimestamp and real RPCMap getters/AddIdentifier now accepted.",
+    "Fresh SingleProducerConsumer<Packet*>/Queue<Packet*> and SingleProducerConsumer<BufferedCommandStruct> are genuine source types; owner conflicts must be checked per fresh instance.",
+    "No direct SendImmediate, Reliability::Update, socket, RakPeer factory or networking worker required.",
+    "CRT alloca may be emitted by HandleRPCPacket; boundary already qualified, zero codecredit."
+  ],
+  "dynamic_boundaries": [
+    "PluginInterface::Update and OnReceive on registered borrowed plugin pointers.",
+    "RPCNode::staticFunctionPointer cdecl with actual RPCParameters pointer.",
+    "RouterInterface::Send if router exists and index lookup fails.",
+    "RakPeerInterface::IsActive/GetIndexFromPlayerID/DeallocatePacket true virtual slots.",
+    "No unimplemented callback body is counted as covered."
+  ],
+  "lifetime": [
+    "Caller packets are whole Packet21, data ownership controlled by original deleteData.",
+    "SendBuffered owns copied bit payload plus existing complete BufferedCommandStruct node.",
+    "HandleRPCPacket retains original stack-vs-heap threshold and original failure-path behavior.",
+    "No functions executed, packets sent, or callbacks invoked."
+  ]
+}

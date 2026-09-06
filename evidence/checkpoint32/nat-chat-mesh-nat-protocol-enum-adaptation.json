@@ -1,0 +1,28 @@
+{
+  "status": "BOUNDED_R5_PROTOCOL_ENUM_ADAPTATION",
+  "proposal": "build/agent-independent/eval_vendor_nat_punchthrough2.cpp",
+  "sha256": "2dcf54167b605f0460b4cc148f64c08bfa6783e0e9377cafd923dcf8fe3a56a7",
+  "trial_preserved": "build/cp32-nat-trial1",
+  "differences": [
+    {
+      "function": "OnPunchthroughRequest",
+      "rva": 204016,
+      "size": 537,
+      "offset": 212,
+      "compiled_immediate": 83,
+      "original_immediate": 82,
+      "meaning": "Target not connected: result GetIndexFromPlayerID == -1"
+    },
+    {
+      "function": "OnCloseConnection",
+      "rva": 206400,
+      "size": 421,
+      "offset": 203,
+      "compiled_immediate": 82,
+      "original_immediate": 83,
+      "meaning": "Target connection lost: callback for closing existing facilitated connection"
+    }
+  ],
+  "scope": "Two named R5 message ID assignments scoped to one source TU. Shared enum/header untouched. Both case labels occur in the same grouped OnReceive branch, so their swap preserves its behavior.",
+  "source025_direct_bytes": 0
+}

@@ -1,0 +1,51 @@
+{
+  "status": "NORMAL_CPP_PROPOSAL_NOT_MATCHED",
+  "baseline_after_pending": 318918,
+  "potential_unique": 381,
+  "functions": [
+    {
+      "name": "ConfigureScrollBar",
+      "rva": 422400,
+      "size": 153,
+      "sha256": "19940a5e76cf52d8e6ce7ea12801efa26328b0e636f45b2164d96e42f4fb2c3c"
+    },
+    {
+      "name": "SetPageSize",
+      "rva": 422560,
+      "size": 38,
+      "sha256": "bdc7b9c727dd774530cc64bb716074389d3824d55fba9f0eb4e5e81b7091930b"
+    },
+    {
+      "name": "ScrollWheel",
+      "rva": 422848,
+      "size": 66,
+      "sha256": "d5e54c2586dc0d676159e89f67c9aed828af1b10bc65c3865e8693f6cb34bfb4"
+    },
+    {
+      "name": "ReleaseSurfaces",
+      "rva": 422304,
+      "size": 83,
+      "sha256": "b0a2882ab670aeee0e472895f56f356aaef72be6b2776f5ebba6b3e787c5c732"
+    },
+    {
+      "name": "FilterInvalidChars",
+      "rva": 422944,
+      "size": 41,
+      "sha256": "74c3a3d211354792431091df5e29e6dcf008a6482eca89e95e35de9f41aa3546"
+    }
+  ],
+  "direct025_potential": 41,
+  "source025_scope": "FilterInvalidChars only, missing in base. Othermethods R5 reconstructions/base, no025 direct claim.",
+  "layout": {
+    "complete_pointer_only_view_size": 25578,
+    "pageSize": 0,
+    "displayMode": 8,
+    "scrollbar": 286,
+    "renderToSurface": 25526,
+    "texture": 25530,
+    "surface": 25534,
+    "cacheDirty": 25562,
+    "fontHeight": 25570
+  },
+  "providers": "C++ real scrollbar methods and COM Release; all already owned. No allocations or new globals. SystemParametersInfoA import original E53CC, genuine SPI_GETWHEELSCROLLLINES0x68."
+}

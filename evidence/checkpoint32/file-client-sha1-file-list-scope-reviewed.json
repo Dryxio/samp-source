@@ -1,0 +1,344 @@
+{
+  "status": "WHOLE_SOURCE_AND_ABI_PREFLIGHT_NOT_ACCEPTED",
+  "baseline": 300692,
+  "new_unique_after_Client_and_SHA_pending": 12324,
+  "already_baseline": 137,
+  "overlap_pending": 0,
+  "primary_roots": {
+    "?Clear@FileList@@QAEXXZ": 177360,
+    "?Serialize@FileList@@QAEXPAVBitStream@RakNet@@@Z": 177440,
+    "?Deserialize@FileList@@QAE_NPAVBitStream@RakNet@@@Z": 177712,
+    "?WriteDataToDisk@FileList@@QAEXPBD@Z": 178112,
+    "?DeleteFiles@FileList@@QAEXPBD@Z": 178464,
+    "?AddFile@FileList@@QAEXPBD0IIE@Z": 178848,
+    "?AddFilesFromDirectory@FileList@@QAEXPBD0_N11E@Z": 179200,
+    "?GetDeltaToCurrent@FileList@@QAEXPAV1@0PBD1@Z": 180736,
+    "?ListMissingOrChangedFiles@FileList@@QAEXPBDPAV1@_N2@Z": 181248,
+    "?PopulateDataFromDisk@FileList@@QAEXPBD_N11@Z": 181888,
+    "?AddFile@FileList@@QAEXPBD0E@Z": 182720,
+    "?OnAttach@FileListTransfer@@UAEXPAVRakPeerInterface@@@Z": 182960,
+    "?Send@FileListTransfer@@QAEXPAVFileList@@PAVRakPeerInterface@@UPlayerID@@GW4PacketPriority@@D_N@Z": 183888,
+    "?DecodeSetHeader@FileListTransfer@@IAE_NPAUPacket@@@Z": 186592,
+    "?Clear@FileListTransfer@@IAEXXZ": 187104,
+    "??0FileListTransfer@@QAE@XZ": 187600,
+    "?SetupReceive@FileListTransfer@@QAEGPAVFileListTransferCBInterface@@_NUPlayerID@@@Z": 187744,
+    "?DecodeFile@FileListTransfer@@IAE_NPAUPacket@@_N@Z": 188048,
+    "?RemoveReceiver@FileListTransfer@@QAEXUPlayerID@@@Z": 188848,
+    "?OnReceive@FileListTransfer@@UAE?AW4PluginReceiveResult@@PAVRakPeerInterface@@PAUPacket@@@Z": 189008,
+    "?WriteFileWithDirectories@@YA_NPBDPADI@Z": 189248,
+    "?IsSlash@@YA_NE@Z": 189488,
+    "?AddSlash@@YAXPAD@Z": 189520,
+    "?DirectoryExists@@YA_NPBD@Z": 189584,
+    "?QuoteIfSpaces@@YAXPAD@Z": 189712,
+    "??1FileList@@QAE@XZ": 178768,
+    "??1FileListTransfer@@QAE@XZ": 187664,
+    "?OnDisconnect@FileListTransfer@@UAEXPAVRakPeerInterface@@@Z": 188832,
+    "?OnCloseConnection@FileListTransfer@@UAEXPAVRakPeerInterface@@UPlayerID@@@Z": 189216
+  },
+  "whole_receiver_allocation": [
+    {
+      "function": "SetupReceive",
+      "site_rva": 187905,
+      "size": 1567,
+      "identity": "Real complete FileListTransfer::FileListReceiver"
+    }
+  ],
+  "actual_dynamic_dispatch": [
+    {
+      "function": "SetupReceive",
+      "site_rva": 187797,
+      "vtable_byte_offset": 92,
+      "identity": "RakPeerInterface::GetIndexFromPlayerID",
+      "credit": "dynamic ABI boundary only; no implementation credited"
+    },
+    {
+      "function": "Send",
+      "site_rva": 184581,
+      "vtable_byte_offset": 48,
+      "identity": "RakPeerInterface::Send(BitStream)",
+      "credit": "dynamic ABI boundary only; no implementation credited"
+    },
+    {
+      "function": "Send",
+      "site_rva": 184799,
+      "vtable_byte_offset": 48,
+      "identity": "RakPeerInterface::Send(BitStream)",
+      "credit": "dynamic ABI boundary only; no implementation credited"
+    },
+    {
+      "function": "Send",
+      "site_rva": 185359,
+      "vtable_byte_offset": 48,
+      "identity": "RakPeerInterface::Send(BitStream)",
+      "credit": "dynamic ABI boundary only; no implementation credited"
+    },
+    {
+      "function": "DecodeSetHeader",
+      "site_rva": 187041,
+      "vtable_byte_offset": 0,
+      "identity": "FileListTransferCBInterface::OnFile",
+      "credit": "dynamic ABI boundary only; no implementation credited"
+    },
+    {
+      "function": "DecodeFile",
+      "site_rva": 188628,
+      "vtable_byte_offset": 0,
+      "identity": "FileListTransferCBInterface::OnFile",
+      "credit": "dynamic ABI boundary only; no implementation credited"
+    },
+    {
+      "function": "DecodeFile",
+      "site_rva": 188775,
+      "vtable_byte_offset": 4,
+      "identity": "FileListTransferCBInterface::OnFileProgress",
+      "credit": "dynamic ABI boundary only; no implementation credited"
+    }
+  ],
+  "known_ABI": {
+    "PeerSend": "primary interface slot12, byteoffset48; static body and call encoding only, no concrete network implementation.",
+    "OnFile": "callback slot0, ten32-bit stack slots including promoted ushort/uchar scalars; caller-owned interface pointer.",
+    "OnFileProgress": "callback slot1/offset4, twelve32-bit stack slots; caller-owned interface.",
+    "callback_destruction": "Original header has no virtual destructor; source delete does not fabricate a dynamic destructor provider."
+  },
+  "full_types": {
+    "FileList": 12,
+    "FileListNode": 17,
+    "FileListTransfer": 29,
+    "FileListReceiver": 1567,
+    "HuffmanSubobjectOffset": 10,
+    "HuffmanSubobjectSize": 1540
+  },
+  "initialization": "Receiver constructor builds genuine Huffman only; other members are initialized by original SetupReceive/DecodeSetHeader statements. No artificial zero initialization added.",
+  "provider_identity_checks": [
+    {
+      "symbol": "??8PlayerID@@QBE_NABU0@@Z",
+      "rva": 210656,
+      "unit": "closure_vendor_network_id_comparisons",
+      "status": "accepted identity"
+    },
+    {
+      "symbol": "??1HuffmanEncodingTree@@QAE@XZ",
+      "rva": 159648,
+      "unit": "closure_vendor_huffman",
+      "status": "accepted identity"
+    },
+    {
+      "symbol": "??0BitStream@RakNet@@QAE@PAEI_N@Z",
+      "rva": 128960,
+      "unit": "closure_cmd_bitstream",
+      "status": "accepted identity"
+    },
+    {
+      "symbol": "?IgnoreBits@BitStream@RakNet@@QAEXH@Z",
+      "rva": 130288,
+      "unit": "closure_cmd_bitstream",
+      "status": "accepted identity"
+    },
+    {
+      "symbol": "?ReadBits@BitStream@RakNet@@QAE_NPAEH_N@Z",
+      "rva": 129456,
+      "unit": "closure_cmd_bitstream",
+      "status": "accepted identity"
+    },
+    {
+      "symbol": "??1BitStream@RakNet@@QAE@XZ",
+      "rva": 129232,
+      "unit": "closure_cmd_bitstream",
+      "status": "accepted identity"
+    },
+    {
+      "symbol": "??9PlayerID@@QBE_NABU0@@Z",
+      "rva": 210704,
+      "unit": "closure_vendor_network_id_comparisons",
+      "status": "accepted identity"
+    },
+    {
+      "symbol": "?ReadCompressed@BitStream@RakNet@@AAE_NPAEH_N@Z",
+      "rva": 129648,
+      "unit": "closure_cmd_bitstream",
+      "status": "accepted identity"
+    },
+    {
+      "symbol": "?Instance@StringCompressor@@SAPAV1@XZ",
+      "rva": 343088,
+      "unit": "closure_vendor_string_compressor",
+      "status": "accepted identity"
+    },
+    {
+      "symbol": "?DecodeString@StringCompressor@@QAE_NPADHPAVBitStream@RakNet@@H@Z",
+      "rva": 344784,
+      "unit": "closure_vendor_string_compressor",
+      "status": "accepted identity"
+    },
+    {
+      "symbol": "?DecodeArray@HuffmanEncodingTree@@QAEIPAVBitStream@RakNet@@IIPAE@Z",
+      "rva": 157552,
+      "unit": "closure_vendor_huffman",
+      "status": "accepted identity"
+    },
+    {
+      "symbol": "?Read@BitStream@RakNet@@QAE_NPADH@Z",
+      "rva": 130720,
+      "unit": "closure_cmd_bitstream",
+      "status": "accepted identity"
+    },
+    {
+      "symbol": "?GenerateFromFrequencyTable@HuffmanEncodingTree@@QAEXQAI@Z",
+      "rva": 159680,
+      "unit": "closure_vendor_huffman",
+      "status": "accepted identity"
+    },
+    {
+      "symbol": "??0HuffmanEncodingTree@@QAE@XZ",
+      "rva": 157536,
+      "unit": "closure_vendor_huffman",
+      "status": "accepted identity"
+    },
+    {
+      "symbol": "??0BitStream@RakNet@@QAE@XZ",
+      "rva": 128816,
+      "unit": "closure_cmd_bitstream",
+      "status": "accepted identity"
+    },
+    {
+      "symbol": "?Reset@BitStream@RakNet@@QAEXXZ",
+      "rva": 129264,
+      "unit": "closure_cmd_bitstream",
+      "status": "accepted identity"
+    },
+    {
+      "symbol": "?EncodeArray@HuffmanEncodingTree@@QAEXPAEIPAVBitStream@RakNet@@@Z",
+      "rva": 159232,
+      "unit": "closure_vendor_huffman",
+      "status": "accepted identity"
+    },
+    {
+      "symbol": "?WriteBits@BitStream@RakNet@@QAEXPBEH_N@Z",
+      "rva": 131040,
+      "unit": "closure_cmd_bitstream",
+      "status": "accepted identity"
+    },
+    {
+      "symbol": "?Write1@BitStream@RakNet@@QAEXXZ",
+      "rva": 130864,
+      "unit": "closure_cmd_bitstream",
+      "status": "accepted identity"
+    },
+    {
+      "symbol": "?WriteCompressed@BitStream@RakNet@@AAEXPBEH_N@Z",
+      "rva": 131376,
+      "unit": "closure_cmd_bitstream",
+      "status": "accepted identity"
+    },
+    {
+      "symbol": "?Write0@BitStream@RakNet@@QAEXXZ",
+      "rva": 130832,
+      "unit": "closure_cmd_bitstream",
+      "status": "accepted identity"
+    },
+    {
+      "symbol": "?EncodeString@StringCompressor@@QAEXPBDHPAVBitStream@RakNet@@H@Z",
+      "rva": 344480,
+      "unit": "closure_vendor_string_compressor",
+      "status": "accepted identity"
+    },
+    {
+      "symbol": "??_C@_02JDPG@rb?$AA@",
+      "rva": 945548,
+      "unit": "closure_memory_buffer_file",
+      "status": "accepted identity"
+    },
+    {
+      "symbol": "??0CSHA1@@QAE@XZ",
+      "rva": 341920,
+      "unit": "closure_vendor_sha1",
+      "status": "parent pending identity; no duplicate credit here"
+    },
+    {
+      "symbol": "??_C@_01KMDKNFGN@?1?$AA@",
+      "rva": 939556,
+      "unit": "deathwindow",
+      "status": "accepted identity"
+    },
+    {
+      "symbol": "?Reset@CSHA1@@QAEXXZ",
+      "rva": 333552,
+      "unit": "closure_vendor_sha1",
+      "status": "parent pending identity; no duplicate credit here"
+    },
+    {
+      "symbol": "?Update@CSHA1@@QAEXPAEI@Z",
+      "rva": 340800,
+      "unit": "closure_vendor_sha1",
+      "status": "parent pending identity; no duplicate credit here"
+    },
+    {
+      "symbol": "?Final@CSHA1@@QAEXXZ",
+      "rva": 341232,
+      "unit": "closure_vendor_sha1",
+      "status": "parent pending identity; no duplicate credit here"
+    },
+    {
+      "symbol": "?GetHash@CSHA1@@QBEPAEXZ",
+      "rva": 341904,
+      "unit": "closure_vendor_sha1",
+      "status": "parent pending identity; no duplicate credit here"
+    },
+    {
+      "symbol": "??1CSHA1@@UAE@XZ",
+      "rva": 341936,
+      "unit": "closure_vendor_sha1",
+      "status": "parent pending identity; no duplicate credit here"
+    },
+    {
+      "symbol": "?Write@BitStream@RakNet@@QAEXPBDH@Z",
+      "rva": 131216,
+      "unit": "closure_cmd_bitstream",
+      "status": "accepted identity"
+    },
+    {
+      "symbol": "?OnDetach@PluginInterface@@UAEXPAVRakPeerInterface@@@Z",
+      "rva": 212864,
+      "unit": "closure_vendor_plugin_interface",
+      "status": "accepted identity"
+    },
+    {
+      "symbol": "?OnInitialize@PluginInterface@@UAEXPAVRakPeerInterface@@@Z",
+      "rva": 212880,
+      "unit": "closure_vendor_plugin_interface",
+      "status": "accepted identity"
+    },
+    {
+      "symbol": "?Update@PluginInterface@@UAEXPAVRakPeerInterface@@@Z",
+      "rva": 212896,
+      "unit": "closure_vendor_plugin_interface",
+      "status": "accepted identity"
+    },
+    {
+      "symbol": "?OnDirectSocketSend@PluginInterface@@UAEXPBDIUPlayerID@@@Z",
+      "rva": 212960,
+      "unit": "closure_vendor_plugin_interface",
+      "status": "accepted identity"
+    },
+    {
+      "symbol": "?OnDirectSocketReceive@PluginInterface@@UAEXPBDIUPlayerID@@@Z",
+      "rva": 212976,
+      "unit": "closure_vendor_plugin_interface",
+      "status": "accepted identity"
+    },
+    {
+      "symbol": "?OnInternalPacket@PluginInterface@@UAEXPAUInternalPacket@@IUPlayerID@@I_N@Z",
+      "rva": 212992,
+      "unit": "closure_vendor_plugin_interface",
+      "status": "accepted identity"
+    }
+  ],
+  "crt_boundaries": "New CRT file APIs require integrator final linked provider qualification; remain zero source credit. All whole source code and original calltargets have passed preflight.",
+  "source025_direct_bytes": 0,
+  "original_capture": {
+    "path": "build/agent-independent/file-list-allocation-dispatch-original.asm",
+    "sha256": "e224f128edd3091ea6c06757b96c4cc18fe8b9c8d5bcd165a2298ef6306b260d"
+  },
+  "excluded": "Unreferenced FileList constructor12 and unused emitted getters/templates not identified by arbitrary homologues. Transform7195 remains parent baseline and is never added.",
+  "full_manifest_sha256": "2938841c2a5f885a5de9a630ba99e16f273a090f4bda71bc38a45f6138681e74"
+}

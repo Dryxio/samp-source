@@ -1,0 +1,508 @@
+{
+  "status": "SCOPED_FULL_PREFLIGHT_NOT_ACCEPTANCE",
+  "run": "cp32-ime-render-focus-trial2",
+  "baseline": 300692,
+  "code_bytes": 711,
+  "new_unique_code": 711,
+  "unique_after_pending_File14988": 711,
+  "EH": 0,
+  "data_bytes": 2,
+  "direct025_code_credit": 0,
+  "regions": [
+    {
+      "unit": "closure_gui_ime_render_outer",
+      "anchor": "?UpdateRects@CDXUTIMEEditBox@@UAEXXZ",
+      "rva": 547344,
+      "size": 99,
+      "section": 48,
+      "kind": "code",
+      "object_sha256": "9220b4b25823fbc7b2a20ca225c27c118af7d6d77789792545194ecc8c549245",
+      "sha256": "9d9c1d60a984da45c0657211e4fc0889a442f646c0ed5bc1e984ec19f9fd5f08",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "?s_bEnableImeSystem@CDXUTIMEEditBox@@1_NA",
+          "site_rva": 547345,
+          "symbol_va": 269752352,
+          "addend": 0,
+          "target_va": 269752352,
+          "kind": 6
+        },
+        {
+          "symbol": "?UpdateRects@CDXUTEditBox@@UAEXXZ",
+          "site_rva": 547385,
+          "symbol_va": 268981936,
+          "addend": 0,
+          "target_va": 268981936,
+          "kind": 20
+        },
+        {
+          "symbol": "__imp__SetRect@20",
+          "site_rva": 547419,
+          "symbol_va": 269374208,
+          "addend": 0,
+          "target_va": 269374208,
+          "kind": 6
+        },
+        {
+          "symbol": "?UpdateRects@CDXUTEditBox@@UAEXXZ",
+          "site_rva": 547439,
+          "symbol_va": 268981936,
+          "addend": 0,
+          "target_va": 268981936,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "closure_gui_ime_render_outer",
+      "anchor": "?Render@CDXUTIMEEditBox@@UAEXPAUIDirect3DDevice9@@M@Z",
+      "rva": 591792,
+      "size": 270,
+      "section": 54,
+      "kind": "code",
+      "object_sha256": "9220b4b25823fbc7b2a20ca225c27c118af7d6d77789792545194ecc8c549245",
+      "sha256": "ce2aec3188742bec0fb535be48e49adc55fceca62cdd807b49b2a21940ecc5de",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "?s_aszIndicator@CDXUTIMEEditBox@@1PAY02GA",
+          "site_rva": 591825,
+          "symbol_va": 269495444,
+          "addend": 0,
+          "target_va": 269495444,
+          "kind": 6
+        },
+        {
+          "symbol": "?CalcTextRect@CDXUTDialog@@QAEJPBGPAVCDXUTElement@@PAUtagRECT@@H@Z",
+          "site_rva": 591864,
+          "symbol_va": 268990432,
+          "addend": 0,
+          "target_va": 268990432,
+          "kind": 20
+        },
+        {
+          "symbol": "?s_aszIndicator@CDXUTIMEEditBox@@1PAY02GA",
+          "site_rva": 591895,
+          "symbol_va": 269495444,
+          "addend": 30,
+          "target_va": 269495474,
+          "kind": 6
+        },
+        {
+          "symbol": "?Render@CDXUTEditBox@@UAEXPAUIDirect3DDevice9@@M@Z",
+          "site_rva": 591927,
+          "symbol_va": 269022208,
+          "addend": 0,
+          "target_va": 269022208,
+          "kind": 20
+        },
+        {
+          "symbol": "?GetFont@CDXUTDialog@@QAEPAUDXUTFontNode@@I@Z",
+          "site_rva": 591949,
+          "symbol_va": 268988608,
+          "addend": 0,
+          "target_va": 268988608,
+          "kind": 20
+        },
+        {
+          "symbol": "?s_CompString@CDXUTIMEEditBox@@1VCUniBuffer@@A",
+          "site_rva": 591954,
+          "symbol_va": 269756316,
+          "addend": 9,
+          "target_va": 269756325,
+          "kind": 6
+        },
+        {
+          "symbol": "?GetFont@CDXUTDialog@@QAEPAUDXUTFontNode@@I@Z",
+          "site_rva": 591966,
+          "symbol_va": 268988608,
+          "addend": 0,
+          "target_va": 268988608,
+          "kind": 20
+        },
+        {
+          "symbol": "?r5ImeCandidateState@@3UR5ImeCandidateListState@@A",
+          "site_rva": 591971,
+          "symbol_va": 269756336,
+          "addend": 5129,
+          "target_va": 269761465,
+          "kind": 6
+        },
+        {
+          "symbol": "?s_bEnableImeSystem@CDXUTIMEEditBox@@1_NA",
+          "site_rva": 591976,
+          "symbol_va": 269752352,
+          "addend": 0,
+          "target_va": 269752352,
+          "kind": 6
+        },
+        {
+          "symbol": "?s_bShowReadingWindow@CDXUTIMEEditBox@@1_NA",
+          "site_rva": 592003,
+          "symbol_va": 269752326,
+          "addend": 0,
+          "target_va": 269752326,
+          "kind": 6
+        },
+        {
+          "symbol": "?r5ImeCandidateState@@3UR5ImeCandidateListState@@A",
+          "site_rva": 592033,
+          "symbol_va": 269756336,
+          "addend": 5163,
+          "target_va": 269761499,
+          "kind": 6
+        }
+      ]
+    },
+    {
+      "unit": "closure_gui_ime_finalize_focus",
+      "anchor": "?OnFocusIn@CDXUTEditBox@@UAEXXZ",
+      "rva": 561936,
+      "size": 9,
+      "section": 56,
+      "kind": "code",
+      "object_sha256": "de1cf1b9f3cf811dc1328bac9cd6cab10041d63ad7d828707255302ad54819fe",
+      "sha256": "bc135adaac2c5157135e261580b7f3a07353bc876e5f1c2e6c69099241661f55",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "?ResetCaretBlink@CDXUTEditBox@@IAEXXZ",
+          "site_rva": 561941,
+          "symbol_va": 268984944,
+          "addend": 0,
+          "target_va": 268984944,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "closure_gui_ime_finalize_focus",
+      "anchor": "?FinalizeString@CDXUTIMEEditBox@@IAEX_N@Z",
+      "rva": 549104,
+      "size": 204,
+      "section": 58,
+      "kind": "code",
+      "object_sha256": "de1cf1b9f3cf811dc1328bac9cd6cab10041d63ad7d828707255302ad54819fe",
+      "sha256": "b314186e5d5abc7465a8b8f4e2ab3529a339116a5129758a432aea9dce9461d7",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "?_ImmGetContext@CDXUTIMEEditBox@@1P6GPAUHIMC__@@PAUHWND__@@@ZA",
+          "site_rva": 549116,
+          "symbol_va": 269495372,
+          "addend": 0,
+          "target_va": 269495372,
+          "kind": 6
+        },
+        {
+          "symbol": "?bProcessing@?3??FinalizeString@CDXUTIMEEditBox@@IAEX_N@Z@4_NA",
+          "site_rva": 549131,
+          "symbol_va": 269761532,
+          "addend": 0,
+          "target_va": 269761532,
+          "kind": 6
+        },
+        {
+          "symbol": "?_ImmReleaseContext@CDXUTIMEEditBox@@1P6GHPAUHWND__@@PAUHIMC__@@@ZA",
+          "site_rva": 549148,
+          "symbol_va": 269495376,
+          "addend": 0,
+          "target_va": 269495376,
+          "kind": 6
+        },
+        {
+          "symbol": "?s_bInsertOnType@CDXUTIMEEditBox@@1_NA",
+          "site_rva": 549158,
+          "symbol_va": 269752325,
+          "addend": 0,
+          "target_va": 269752325,
+          "kind": 6
+        },
+        {
+          "symbol": "?bProcessing@?3??FinalizeString@CDXUTIMEEditBox@@IAEX_N@Z@4_NA",
+          "site_rva": 549166,
+          "symbol_va": 269761532,
+          "addend": 0,
+          "target_va": 269761532,
+          "kind": 6
+        },
+        {
+          "symbol": "?s_CompString@CDXUTIMEEditBox@@1VCUniBuffer@@A",
+          "site_rva": 549183,
+          "symbol_va": 269756316,
+          "addend": 0,
+          "target_va": 269756316,
+          "kind": 6
+        },
+        {
+          "symbol": "__imp__lstrlenW@4",
+          "site_rva": 549190,
+          "symbol_va": 269373888,
+          "addend": 0,
+          "target_va": 269373888,
+          "kind": 6
+        },
+        {
+          "symbol": "?s_hklCurrent@CDXUTIMEEditBox@@1PAUHKL__@@A",
+          "site_rva": 549197,
+          "symbol_va": 269756272,
+          "addend": 0,
+          "target_va": 269756272,
+          "kind": 6
+        },
+        {
+          "symbol": "?s_CompString@CDXUTIMEEditBox@@1VCUniBuffer@@A",
+          "site_rva": 549211,
+          "symbol_va": 269756316,
+          "addend": 0,
+          "target_va": 269756316,
+          "kind": 6
+        },
+        {
+          "symbol": "??ACUniBuffer@@QAEAAGH@Z",
+          "site_rva": 549216,
+          "symbol_va": 269072880,
+          "addend": 0,
+          "target_va": 269072880,
+          "kind": 20
+        },
+        {
+          "symbol": "?s_CompString@CDXUTIMEEditBox@@1VCUniBuffer@@A",
+          "site_rva": 549229,
+          "symbol_va": 269756316,
+          "addend": 0,
+          "target_va": 269756316,
+          "kind": 6
+        },
+        {
+          "symbol": "??ACUniBuffer@@QAEAAGH@Z",
+          "site_rva": 549234,
+          "symbol_va": 269072880,
+          "addend": 0,
+          "target_va": 269072880,
+          "kind": 20
+        },
+        {
+          "symbol": "?SendCompString@CDXUTIMEEditBox@@IAEXXZ",
+          "site_rva": 549247,
+          "symbol_va": 268984480,
+          "addend": 0,
+          "target_va": 268984480,
+          "kind": 20
+        },
+        {
+          "symbol": "?ResetCompositionString@CDXUTIMEEditBox@@KAXXZ",
+          "site_rva": 549252,
+          "symbol_va": 268984160,
+          "addend": 0,
+          "target_va": 268984160,
+          "kind": 20
+        },
+        {
+          "symbol": "?_ImmNotifyIME@CDXUTIMEEditBox@@1P6GHPAUHIMC__@@KKK@ZA",
+          "site_rva": 549265,
+          "symbol_va": 269495408,
+          "addend": 0,
+          "target_va": 269495408,
+          "kind": 6
+        },
+        {
+          "symbol": "?_ImmNotifyIME@CDXUTIMEEditBox@@1P6GHPAUHIMC__@@KKK@ZA",
+          "site_rva": 549278,
+          "symbol_va": 269495408,
+          "addend": 0,
+          "target_va": 269495408,
+          "kind": 6
+        },
+        {
+          "symbol": "?_ImmReleaseContext@CDXUTIMEEditBox@@1P6GHPAUHWND__@@PAUHIMC__@@@ZA",
+          "site_rva": 549292,
+          "symbol_va": 269495376,
+          "addend": 0,
+          "target_va": 269495376,
+          "kind": 6
+        },
+        {
+          "symbol": "?bProcessing@?3??FinalizeString@CDXUTIMEEditBox@@IAEX_N@Z@4_NA",
+          "site_rva": 549298,
+          "symbol_va": 269761532,
+          "addend": 0,
+          "target_va": 269761532,
+          "kind": 6
+        }
+      ]
+    },
+    {
+      "unit": "closure_gui_ime_finalize_focus",
+      "anchor": "?OnFocusIn@CDXUTIMEEditBox@@UAEXXZ",
+      "rva": 562736,
+      "size": 94,
+      "section": 61,
+      "kind": "code",
+      "object_sha256": "de1cf1b9f3cf811dc1328bac9cd6cab10041d63ad7d828707255302ad54819fe",
+      "sha256": "5c7b2f2f0806e0edccdc499cadec79a4f6be5d5a5e2d5bb4c843754d5f658c1e",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "?OnFocusIn@CDXUTEditBox@@UAEXXZ",
+          "site_rva": 562737,
+          "symbol_va": 268997392,
+          "addend": 0,
+          "target_va": 268997392,
+          "kind": 20
+        },
+        {
+          "symbol": "?s_bEnableImeSystem@CDXUTIMEEditBox@@1_NA",
+          "site_rva": 562742,
+          "symbol_va": 269752352,
+          "addend": 0,
+          "target_va": 269752352,
+          "kind": 6
+        },
+        {
+          "symbol": "?s_hImcDef@CDXUTIMEEditBox@@1PAUHIMC__@@A",
+          "site_rva": 562751,
+          "symbol_va": 269752344,
+          "addend": 0,
+          "target_va": 269752344,
+          "kind": 6
+        },
+        {
+          "symbol": "?_ImmAssociateContext@CDXUTIMEEditBox@@1P6GPAUHIMC__@@PAUHWND__@@PAU2@@ZA",
+          "site_rva": 562765,
+          "symbol_va": 269495380,
+          "addend": 0,
+          "target_va": 269495380,
+          "kind": 6
+        },
+        {
+          "symbol": "?CheckToggleState@CDXUTIMEEditBox@@KAXXZ",
+          "site_rva": 562770,
+          "symbol_va": 268983776,
+          "addend": 0,
+          "target_va": 268983776,
+          "kind": 20
+        },
+        {
+          "symbol": "?_ImmGetContext@CDXUTIMEEditBox@@1P6GPAUHIMC__@@PAUHWND__@@@ZA",
+          "site_rva": 562782,
+          "symbol_va": 269495372,
+          "addend": 0,
+          "target_va": 269495372,
+          "kind": 6
+        },
+        {
+          "symbol": "?s_bEnableImeSystem@CDXUTIMEEditBox@@1_NA",
+          "site_rva": 562792,
+          "symbol_va": 269752352,
+          "addend": 0,
+          "target_va": 269752352,
+          "kind": 6
+        },
+        {
+          "symbol": "?s_ImeState@CDXUTIMEEditBox@@1W4IMESTATE@1@A",
+          "site_rva": 562802,
+          "symbol_va": 269756300,
+          "addend": 0,
+          "target_va": 269756300,
+          "kind": 6
+        },
+        {
+          "symbol": "?_ImmReleaseContext@CDXUTIMEEditBox@@1P6GHPAUHWND__@@PAUHIMC__@@@ZA",
+          "site_rva": 562820,
+          "symbol_va": 269495376,
+          "addend": 0,
+          "target_va": 269495376,
+          "kind": 6
+        },
+        {
+          "symbol": "?CheckToggleState@CDXUTIMEEditBox@@KAXXZ",
+          "site_rva": 562825,
+          "symbol_va": 268983776,
+          "addend": 0,
+          "target_va": 268983776,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "closure_gui_ime_finalize_focus",
+      "anchor": "?OnFocusOut@CDXUTIMEEditBox@@UAEXXZ",
+      "rva": 549440,
+      "size": 35,
+      "section": 63,
+      "kind": "code",
+      "object_sha256": "de1cf1b9f3cf811dc1328bac9cd6cab10041d63ad7d828707255302ad54819fe",
+      "sha256": "f4fa1678fe7e8fd0b48168fba5644f75abd048012007dadbdfbe54d9b013c558",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "?s_bEnableImeSystem@CDXUTIMEEditBox@@1_NA",
+          "site_rva": 549445,
+          "symbol_va": 269752352,
+          "addend": 0,
+          "target_va": 269752352,
+          "kind": 6
+        },
+        {
+          "symbol": "?FinalizeString@CDXUTIMEEditBox@@IAEX_N@Z",
+          "site_rva": 549456,
+          "symbol_va": 268984560,
+          "addend": 0,
+          "target_va": 268984560,
+          "kind": 20
+        },
+        {
+          "symbol": "?_ImmAssociateContext@CDXUTIMEEditBox@@1P6GPAUHIMC__@@PAUHWND__@@PAU2@@ZA",
+          "site_rva": 549470,
+          "symbol_va": 269495380,
+          "addend": 0,
+          "target_va": 269495380,
+          "kind": 6
+        }
+      ]
+    },
+    {
+      "unit": "closure_gui_ime_finalize_focus",
+      "anchor": "?bProcessing@?3??FinalizeString@CDXUTIMEEditBox@@IAEX_N@Z@4_NA",
+      "rva": 1326076,
+      "size": 1,
+      "section": 59,
+      "kind": "bss",
+      "object_sha256": "de1cf1b9f3cf811dc1328bac9cd6cab10041d63ad7d828707255302ad54819fe",
+      "sha256": "6e340b9cffb37a989ca544e6bb780a2c78901d3fb33738768511a30617afa01d",
+      "whole_bytes_equal": true,
+      "bindings": []
+    },
+    {
+      "unit": "closure_ime_store_show_reading",
+      "anchor": "?s_bShowReadingWindow@CDXUTIMEEditBox@@1_NA",
+      "rva": 1316870,
+      "size": 1,
+      "section": 3,
+      "kind": "bss",
+      "object_sha256": "951a0078481217aebf7a1042f17d25f1b4cb193ea31171e58c145fa42c01f51f",
+      "sha256": "6e340b9cffb37a989ca544e6bb780a2c78901d3fb33738768511a30617afa01d",
+      "whole_bytes_equal": true,
+      "bindings": []
+    }
+  ],
+  "new_imports": {},
+  "excluded": [
+    "Unused GetAt12/GetElement13 and OnFocusControl5 helpers: inline or previously covered, no homologue credit."
+  ],
+  "source_files": {
+    "closure_gui_ime_render_outer": "03c102d9ced705c8b3819e54fabb9d0da5d87f918aedfa577663e208bac0a8ac",
+    "closure_gui_ime_finalize_focus": "85687599b4fc9ab1a22a7ec90ff0e27f30d14cacfd1ee1f0fb2b738e6bb9a0ed",
+    "closure_ime_store_show_reading": "b8f89226055a009224e9b665b00f5d920b6047e30736c9ed4eab94d2527652e0"
+  },
+  "identity_notes": [
+    "True existing complete CDXUTIMEEditBox type, no allocation, fake VFT or new shared header.",
+    "Original VFT EB618 slots0C/4C/20/24 point at Render907B0/Update85A10/Focus89630/FocusOut86240.",
+    "Parent OnFocus89310 is directly called by original child89630; Finalize860F0 directly called by original FocusOut86240.",
+    "Render virtual calls58/54/50 are true IME indicator/composition/candidate methods already accepted. Full VFT/lifetime not credited here.",
+    "Render reuses whole30-byte WCHAR indicator owner102C94, accepted CompString14279C and candidate1427B0 including interior FontNode stores+9 and+1409; full owner identity verified.",
+    "Two independent bool BSS owners141806 and143BFC proved wholly zero-fill; no RakNet sentinel data selected."
+  ]
+}

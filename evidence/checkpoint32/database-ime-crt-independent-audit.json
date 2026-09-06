@@ -1,0 +1,53 @@
+{
+  "status": "PASS_INDEPENDENT_CRT_POINTER_AND_INITIALIZER_QUALIFICATION",
+  "run": "build/cp32-database-ime-linked2",
+  "source_object_sha256": "94d5ff763fd1b5ef92b009ac2d43ffc237830b39fbc2cee28a4bdaa2cdb08a2b",
+  "linked_sha256": "7baa09645f0eec61f5fb2d14e0a83e0fd7543140bae40d522a6e1e766e0248aa",
+  "whole_CRT_section": {
+    "unit": "closure_store_ime_candidate_state",
+    "section": 52,
+    "name": ".CRT$XCU",
+    "size": 4,
+    "source_addend": 0,
+    "source_fixup": "one DIR32 to local genuine initializer code",
+    "original_rva": 1040408,
+    "original_has_PE_relocation": true
+  },
+  "sentinels": {
+    "start_va": 269004800,
+    "end_va": 269004820,
+    "owner": "LIBCMT:crt0init.obj",
+    "both_null": true,
+    "same_non_executable_section": ".data",
+    "scan_domain": "strictly start+4 through end-4, aligned4 only"
+  },
+  "actual_unique_pointer": {
+    "linked_va": 269004816,
+    "target_va": 268817392,
+    "has_PE_relocation": true
+  },
+  "initializer": [
+    {
+      "image": "original",
+      "rva": 934640,
+      "size": 22,
+      "whole_bytes_equal": true,
+      "all_relocations_exact": true
+    },
+    {
+      "image": "linked",
+      "rva": 381936,
+      "size": 22,
+      "whole_bytes_equal": true,
+      "all_relocations_exact": true
+    }
+  ],
+  "new_code_credit": 0,
+  "recommended_negative_controls": [
+    "Duplicate true target at another aligned table slot must fail uniqueness; never choose one.",
+    "Wrong target or pointer outside sentinel interval must not bind.",
+    "Missing linked PE relocation must fail despite identical pointer bytes.",
+    "Wrong sentinel CRT owner or non-null sentinel must fail boundary qualification."
+  ],
+  "limit": "This only proves address identification; retain standard full-region comparison and every original/linked relocation gate. No broader raw-pointer search."
+}

@@ -1,0 +1,38 @@
+{
+  "status": "PASS_ACTUAL_EXISTING_NETWORK_ID_INEQUALITY_PROVIDER",
+  "run": "build/cp32-replica-navigation-ob1",
+  "seeds": {
+    "closure_vendor_network_id_comparisons": {
+      "??9NetworkID@@QBE_NABU0@@Z": 211120
+    }
+  },
+  "regions": [
+    {
+      "unit": "closure_vendor_network_id_comparisons",
+      "section": 18,
+      "rva": 211120,
+      "size": 75,
+      "kind": ".text",
+      "sha256": "acd08934e84af0b9edf4cab14bf9f009d5697138fca5aa58a7d83d38d085d5a5",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "?peerToPeerMode@NetworkID@@2_NA",
+          "site_rva": 211121,
+          "target_va": 269585344,
+          "kind": 6
+        },
+        {
+          "symbol": "??9PlayerID@@QBE_NABU0@@Z",
+          "site_rva": 211139,
+          "target_va": 268646160,
+          "kind": 20
+        }
+      ]
+    }
+  ],
+  "new_unique": 75,
+  "object_sha256": "8cc59dfaf3fea1dbdc014ba95b79c97a6327fcb4f036cca414e2bfc9f18f1443",
+  "identity": "Generator destructor and GetNetworkID require real operator!=. Existing sole comparison owner; not yet accepted. Exact peerToPeerMode and PlayerID::operator!= targets.",
+  "source025_direct_bytes": 0
+}

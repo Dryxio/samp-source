@@ -1,0 +1,476 @@
+{
+  "status": "PASS_STATIC_SOURCE_AND_ORIGINAL_ABI_SCOPE",
+  "run": "build/cp32-send-handshake-trial2",
+  "new_unique_candidate_bytes": 5328,
+  "baseline": 387041,
+  "source025_direct_bytes": 0,
+  "providers": {
+    "?reset@?$RSACrypt@$$BY07I@big@@QAEXXZ": {
+      "unit": "eval_vendor_rakpeer_rsa",
+      "rva": 241872,
+      "size": 89
+    },
+    "??$computeNRinverse@$$BY07I@big@@YAXAAY07I0@Z": {
+      "unit": "eval_vendor_rakpeer_policy",
+      "rva": 261616,
+      "size": 202
+    },
+    "??$rModn@$$BY07I@big@@YAXAAY07I0@Z": {
+      "unit": "eval_vendor_rakpeer_policy",
+      "rva": 249248,
+      "size": 203
+    },
+    "??$umodulo@$$BY0BA@I@big@@YAXAAY0BA@I00@Z": {
+      "unit": "eval_vendor_rakpeer_policy",
+      "rva": 243200,
+      "size": 323
+    },
+    "??$ugreater@$$BY0BA@I@big@@YA_NAAY0BA@I0@Z": {
+      "unit": "eval_vendor_rakpeer_policy",
+      "rva": 237840,
+      "size": 49
+    },
+    "??$shiftLeft@$$BY0BA@I@big@@YAXAAY0BA@II@Z": {
+      "unit": "eval_vendor_rakpeer_policy",
+      "rva": 237904,
+      "size": 134
+    },
+    "??$shiftLeft1@$$BY0BA@I@big@@YAXAAY0BA@I@Z": {
+      "unit": "eval_vendor_rakpeer_policy",
+      "rva": 238048,
+      "size": 41
+    },
+    "??$ushiftRight1@$$BY0BA@I@big@@YAXAAY0BA@I@Z": {
+      "unit": "eval_vendor_rakpeer_policy",
+      "rva": 238096,
+      "size": 40
+    },
+    "??$subtract@$$BY0BA@I@big@@YAXAAY0BA@I0@Z": {
+      "unit": "eval_vendor_rakpeer_policy",
+      "rva": 238144,
+      "size": 88
+    },
+    "??$computeRinverse@$$BY07I@big@@YAXAAY07I0@Z": {
+      "unit": "eval_vendor_rakpeer_policy",
+      "rva": 250928,
+      "size": 759
+    },
+    "??$decrement@$$BY0BA@I@big@@YAXAAY0BA@I@Z": {
+      "unit": "eval_vendor_rakpeer_policy",
+      "rva": 236448,
+      "size": 79
+    },
+    "??$udivide@$$BY0BA@I@big@@YAXAAY0BA@I000@Z": {
+      "unit": "eval_vendor_rakpeer_policy",
+      "rva": 242816,
+      "size": 379
+    },
+    "??$udivide@$$BY07I@big@@YAXAAY07I000@Z": {
+      "unit": "eval_vendor_rakpeer_policy",
+      "rva": 245232,
+      "size": 395
+    },
+    "??$subtract@$$BY07I@big@@YAXAAY07I0@Z": {
+      "unit": "eval_vendor_rakpeer_policy",
+      "rva": 237696,
+      "size": 88
+    },
+    "??$SubMulMod@$$BY07I@big@@YAXAAY07I0000@Z": {
+      "unit": "eval_vendor_rakpeer_policy",
+      "rva": 246000,
+      "size": 297
+    },
+    "??$umultiply@$$BY07I$$BY0BA@I@big@@YAXAAY0BA@IAAY07I@Z": {
+      "unit": "eval_vendor_rakpeer_policy",
+      "rva": 239120,
+      "size": 130
+    },
+    "??$ugreater@$$BY07I@big@@YA_NAAY07I0@Z": {
+      "unit": "eval_vendor_rakpeer_policy",
+      "rva": 237344,
+      "size": 49
+    },
+    "??$add@$$BY07I@big@@YAXAAY07I0@Z": {
+      "unit": "eval_vendor_rakpeer_policy",
+      "rva": 236944,
+      "size": 88
+    },
+    "??$add@$$BY0BA@I@big@@YAXAAY0BA@I0@Z": {
+      "unit": "eval_vendor_rakpeer_policy",
+      "rva": 238640,
+      "size": 88
+    },
+    "??$shiftLeft@$$BY07I@big@@YAXAAY07II@Z": {
+      "unit": "eval_vendor_rakpeer_policy",
+      "rva": 237120,
+      "size": 212
+    },
+    "??$shiftLeft1@$$BY07I@big@@YAXAAY07I@Z": {
+      "unit": "eval_vendor_rakpeer_policy",
+      "rva": 238240,
+      "size": 111
+    },
+    "??$ushiftRight1@$$BY07I@big@@YAXAAY07I@Z": {
+      "unit": "eval_vendor_rakpeer_policy",
+      "rva": 238352,
+      "size": 118
+    },
+    "?AllocPacket@@YAPAUPacket@@I@Z": {
+      "unit": "closure_vendor_alloc_packet",
+      "rva": 230096,
+      "size": 32
+    },
+    "?GetIndexFromPlayerID@RakPeer@@IAEHUPlayerID@@_N@Z": {
+      "unit": "eval_vendor_rakpeer_remote_state",
+      "rva": 247600,
+      "size": 161
+    },
+    "?randomMT@@YAIXZ": {
+      "unit": "closure_vendor_rand",
+      "rva": 277504,
+      "size": 68
+    },
+    "?encrypt@?$RSACrypt@$$BY07I@big@@QAEXAAY07I0@Z": {
+      "unit": "eval_vendor_rakpeer_rsa",
+      "rva": 265200,
+      "size": 107
+    },
+    "?GetTime@RakNet@@YAIXZ": {
+      "unit": "closure_raknet_time",
+      "rva": 190448,
+      "size": 86
+    },
+    "??0BitStream@RakNet@@QAE@H@Z": {
+      "unit": "closure_cmd_bitstream",
+      "rva": 128864,
+      "size": 86
+    },
+    "?EncodeArray@HuffmanEncodingTree@@QAEXPAEIPAVBitStream@RakNet@@@Z": {
+      "unit": "closure_vendor_huffman",
+      "rva": 159232,
+      "size": 145
+    },
+    "?Send@ReliabilityLayer@@QAE_NPADHW4PacketPriority@@W4PacketReliability@@E_NH_J@Z": {
+      "unit": "closure_vendor_reliability_packet_family",
+      "rva": 289536,
+      "size": 417
+    },
+    "??1BitStream@RakNet@@QAE@XZ": {
+      "unit": "closure_cmd_bitstream",
+      "rva": 129232,
+      "size": 27
+    },
+    "??9PlayerID@@QBE_NABU0@@Z": {
+      "unit": "closure_vendor_network_id_comparisons",
+      "rva": 210704,
+      "size": 33
+    },
+    "??$CRTModExp@$$BY03I$$BY07I@big@@YAXAAY07I00AAY03I111111@Z": {
+      "unit": "eval_vendor_rakpeer_rsa",
+      "rva": 261824,
+      "size": 816
+    },
+    "??$simpleModExp@$$BY07I@big@@YAXAAY07I000@Z": {
+      "unit": "eval_vendor_rakpeer_rsa",
+      "rva": 249456,
+      "size": 415
+    },
+    "??$usquare@$$BY0BA@I@big@@YAXAAY0BA@I@Z": {
+      "unit": "eval_vendor_rakpeer_rsa",
+      "rva": 244016,
+      "size": 161
+    },
+    "??$umultiply@$$BY0BA@I$$BY0BA@I@big@@YAXAAY0BA@I00@Z": {
+      "unit": "eval_vendor_rakpeer_rsa",
+      "rva": 244192,
+      "size": 139
+    },
+    "??$decrement@$$BY07I@big@@YAXAAY07I@Z": {
+      "unit": "eval_vendor_rakpeer_policy",
+      "rva": 236688,
+      "size": 28
+    },
+    "??$umodulo@$$BY07I@big@@YAXAAY07I00@Z": {
+      "unit": "eval_vendor_rakpeer_policy",
+      "rva": 243536,
+      "size": 323
+    },
+    "??$simpleModExp@$$BY03I@big@@YAXAAY03I000@Z": {
+      "unit": "eval_vendor_rakpeer_policy",
+      "rva": 251696,
+      "size": 406
+    },
+    "??$ugreater@$$BY03I@big@@YA_NAAY03I0@Z": {
+      "unit": "eval_vendor_rakpeer_policy",
+      "rva": 236272,
+      "size": 49
+    },
+    "??$subtract@$$BY03I@big@@YAXAAY03I0@Z": {
+      "unit": "eval_vendor_rakpeer_policy",
+      "rva": 236752,
+      "size": 88
+    },
+    "??$add@$$BY03I@big@@YAXAAY03I0@Z": {
+      "unit": "eval_vendor_rakpeer_policy",
+      "rva": 236848,
+      "size": 88
+    },
+    "??$umultiply@$$BY03I$$BY07I@big@@YAXAAY03I0AAY07I@Z": {
+      "unit": "eval_vendor_rakpeer_policy",
+      "rva": 242624,
+      "size": 187
+    },
+    "??$umultiply@$$BY07I$$BY07I@big@@YAXAAY07I0@Z": {
+      "unit": "eval_vendor_rakpeer_rsa",
+      "rva": 243872,
+      "size": 144
+    },
+    "??$usquare@$$BY07I@big@@YAXAAY07I@Z": {
+      "unit": "eval_vendor_rakpeer_policy",
+      "rva": 238480,
+      "size": 155
+    },
+    "??$umultiply@$$BY07I$$BY07I@big@@YAXAAY07I00@Z": {
+      "unit": "eval_vendor_rakpeer_policy",
+      "rva": 246304,
+      "size": 155
+    },
+    "??0CSHA1@@QAE@XZ": {
+      "unit": "closure_vendor_sha1",
+      "rva": 341920,
+      "size": 14
+    },
+    "?GenerateSYNCookieRandomNumber@RakPeer@@IAEXXZ": {
+      "unit": "eval_vendor_rakpeer_policy",
+      "rva": 233072,
+      "size": 85
+    },
+    "?Reset@CSHA1@@QAEXXZ": {
+      "unit": "closure_vendor_sha1",
+      "rva": 333552,
+      "size": 44
+    },
+    "?Update@CSHA1@@QAEXPAEI@Z": {
+      "unit": "closure_vendor_sha1",
+      "rva": 340800,
+      "size": 194
+    },
+    "?Final@CSHA1@@QAEXXZ": {
+      "unit": "closure_vendor_sha1",
+      "rva": 341232,
+      "size": 252
+    },
+    "?GetHash@CSHA1@@QBEPAEXZ": {
+      "unit": "closure_vendor_sha1",
+      "rva": 341904,
+      "size": 4
+    },
+    "??1CSHA1@@UAE@XZ": {
+      "unit": "closure_vendor_sha1",
+      "rva": 341936,
+      "size": 11
+    },
+    "?WriteBits@BitStream@RakNet@@QAEXPBEH_N@Z": {
+      "unit": "closure_cmd_bitstream",
+      "rva": 131040,
+      "size": 163
+    },
+    "?AllowIncomingConnections@RakPeer@@IBE_NXZ": {
+      "unit": "eval_vendor_rakpeer_remote_state",
+      "rva": 233168,
+      "size": 29
+    },
+    "?Write@BitStream@RakNet@@QAEXPBDH@Z": {
+      "unit": "closure_cmd_bitstream",
+      "rva": 131216,
+      "size": 113
+    },
+    "??8PlayerID@@QBE_NABU0@@Z": {
+      "unit": "closure_vendor_network_id_comparisons",
+      "rva": 210656,
+      "size": 33
+    },
+    "?GetTimeNS@RakNet@@YA_JXZ": {
+      "unit": "closure_raknet_time",
+      "rva": 190544,
+      "size": 155
+    },
+    "?Reset@ReliabilityLayer@@QAEX_N@Z": {
+      "unit": "closure_vendor_reliability_lifecycle",
+      "rva": 303856,
+      "size": 29
+    },
+    "?WriteLock@?$SingleProducerConsumer@UBufferedCommandStruct@RakPeer@@@DataStructures@@QAEPAUBufferedCommandStruct@RakPeer@@XZ": {
+      "unit": "eval_vendor_rakpeer_packet_api",
+      "rva": 234560,
+      "size": 64
+    },
+    "?WriteUnlock@?$SingleProducerConsumer@UBufferedCommandStruct@RakPeer@@@DataStructures@@QAEXXZ": {
+      "unit": "eval_vendor_rakpeer_packet_api",
+      "rva": 234624,
+      "size": 20
+    },
+    "?GetIndexFromKey@?$OrderedList@UPlayerID@@UPlayerIDAndIndex@@$1?PlayerIDAndIndexComp@@YAHABU1@ABU2@@Z@DataStructures@@QBEIABUPlayerID@@PA_N@Z": {
+      "unit": "eval_vendor_rakpeer_remote_state",
+      "rva": 241984,
+      "size": 152
+    },
+    "?PlayerIDAndIndexComp@@YAHABUPlayerID@@ABUPlayerIDAndIndex@@@Z": {
+      "unit": "eval_vendor_rakpeer_remote_state",
+      "rva": 230048,
+      "size": 44
+    },
+    "?GetRemoteSystemFromPlayerID@RakPeer@@IBEPAURemoteSystemStruct@1@UPlayerID@@_N1@Z": {
+      "unit": "eval_vendor_rakpeer_remote_state",
+      "rva": 247776,
+      "size": 254
+    },
+    "?SendBuffered@RakPeer@@IAEXPBDHW4PacketPriority@@W4PacketReliability@@DUPlayerID@@_NW4ConnectMode@RemoteSystemStruct@1@@Z": {
+      "unit": "eval_vendor_rakpeer_packet_api",
+      "rva": 241536,
+      "size": 141
+    },
+    "??0BitStream@RakNet@@QAE@XZ": {
+      "unit": "closure_cmd_bitstream",
+      "rva": 128816,
+      "size": 33
+    },
+    "?ResetWritePointer@BitStream@RakNet@@QAEXXZ": {
+      "unit": "closure_cmd_bitstream",
+      "rva": 129296,
+      "size": 7
+    },
+    "?WriteCompressed@BitStream@RakNet@@AAEXPBEH_N@Z": {
+      "unit": "closure_cmd_bitstream",
+      "rva": 131376,
+      "size": 163
+    },
+    "??1?$RSACrypt@$$BY07I@big@@QAE@XZ": {
+      "unit": "eval_vendor_rakpeer_rsa",
+      "rva": 248944,
+      "size": 5
+    }
+  },
+  "callbacks": [
+    {
+      "site_rva": 254626,
+      "slot_offset": 0,
+      "actual_method": "RouterInterface::Send",
+      "abi": "MSVC x86 thiscall; primary peer/interface pointer offset0; packed PlayerID6 passed in8-byte by-value slot where present",
+      "concrete_implementation_credit": 0
+    },
+    {
+      "site_rva": 254694,
+      "slot_offset": 48,
+      "actual_method": "RakPeerInterface::Send(BitStream*)",
+      "abi": "MSVC x86 thiscall; primary peer/interface pointer offset0; packed PlayerID6 passed in8-byte by-value slot where present",
+      "concrete_implementation_credit": 0
+    },
+    {
+      "site_rva": 239477,
+      "slot_offset": 84,
+      "actual_method": "RakPeerInterface::RPC(raw)",
+      "abi": "MSVC x86 thiscall; primary peer/interface pointer offset0; packed PlayerID6 passed in8-byte by-value slot where present",
+      "concrete_implementation_credit": 0
+    },
+    {
+      "site_rva": 239557,
+      "slot_offset": 84,
+      "actual_method": "RakPeerInterface::RPC(raw)",
+      "abi": "MSVC x86 thiscall; primary peer/interface pointer offset0; packed PlayerID6 passed in8-byte by-value slot where present",
+      "concrete_implementation_credit": 0
+    },
+    {
+      "site_rva": 258498,
+      "slot_offset": 40,
+      "actual_method": "RakPeerInterface::IsActive",
+      "abi": "MSVC x86 thiscall; primary peer/interface pointer offset0; packed PlayerID6 passed in8-byte by-value slot where present",
+      "concrete_implementation_credit": 0
+    },
+    {
+      "site_rva": 258694,
+      "slot_offset": 48,
+      "actual_method": "RakPeerInterface::Send(BitStream*)",
+      "abi": "MSVC x86 thiscall; primary peer/interface pointer offset0; packed PlayerID6 passed in8-byte by-value slot where present",
+      "concrete_implementation_credit": 0
+    },
+    {
+      "site_rva": 258366,
+      "slot_offset": 48,
+      "actual_method": "RakPeerInterface::Send(BitStream*)",
+      "abi": "MSVC x86 thiscall; primary peer/interface pointer offset0; packed PlayerID6 passed in8-byte by-value slot where present",
+      "concrete_implementation_credit": 0
+    },
+    {
+      "site_rva": 258414,
+      "slot_offset": 48,
+      "actual_method": "RakPeerInterface::Send(BitStream*)",
+      "abi": "MSVC x86 thiscall; primary peer/interface pointer offset0; packed PlayerID6 passed in8-byte by-value slot where present",
+      "concrete_implementation_credit": 0
+    },
+    {
+      "site_rva": 259011,
+      "slot_offset": 24,
+      "actual_method": "PluginInterface::OnCloseConnection",
+      "abi": "MSVC x86 thiscall; primary peer/interface pointer offset0; packed PlayerID6 passed in8-byte by-value slot where present",
+      "concrete_implementation_credit": 0
+    }
+  ],
+  "allocations": [
+    "No RakPeer or RemoteSystemStruct object allocated; complete existing class layouts used.",
+    "Stack sendList uses genuine alloca_probe for sizeof(unsigned)*maximumNumberOfPeers. No fixed artificial array.",
+    "SingleProducerConsumer<Packet*> producer uses actual complete9-byte node (pointer4,ready1,next4). BufferedCommandStruct complete41-byte source struct and46-byte producer node already accepted.",
+    "RSA local object full305 bytes and u25632 bytes; SHA1 actual complete class with accepted VFT/lifetime.",
+    "Secured confirmation uses actual AllocPacket(unsigned)32@382D0 accepted owner, data length1 and original PlayerIndex truncation.",
+    "Security response57 bytes, confirmation53 bytes, cookie/random20 bytes and AESKey16 bytes from true source types."
+  ],
+  "semantics": [
+    "SendImmediate returns ownership-use flag; unchanged final-recipient data allocation transfer and ReliabilityLayer::Send copy flag. Compression uses full BitStream lifetime and accepted Huffman EncodeArray.",
+    "SendImmediate calls accepted ReliabilityLayer::Send417@46B00. No unimplemented update/datagram/worker code credited.",
+    "Close invokes actual plugin OnCloseConnection dynamic ABI24, resets accepted reliability object and removes original player lookup; callbacks do not get implementation credit.",
+    "RPC sends exactly one uniqueID byte; original unused networkID/replyFromTarget parameters remain.",
+    "No live network execution or functional behavioral substitutions."
+  ],
+  "source_snapshots": [
+    {
+      "path": "client/saco/eval_vendor_rakpeer_send_handshake.cpp",
+      "sha256": "0d059676d95e8ea6e296fbcd7d52851f69110c235854c8f9fcd2ee41c281b3f3"
+    },
+    {
+      "path": "vendor/upstream/raknet/RakPeer.cpp",
+      "sha256": "71b46e7918c933c5eb7a171d5c76d43833568e3193a0244b79e40bec4854c61b"
+    },
+    {
+      "path": "vendor/upstream/raknet/RakPeer.h",
+      "sha256": "3c462fd303bd7a7becc91f1b4e2752cff3656a2eec2a65afc0c15816c0902d75"
+    },
+    {
+      "path": "vendor/upstream/raknet/RakPeerInterface.h",
+      "sha256": "550ac3c7ed53e081039e62a459882f9102272399ca0ed40868d5e94b75239079"
+    },
+    {
+      "path": "vendor/upstream/raknet/PluginInterface.h",
+      "sha256": "cb6ae0bf1f71ad66e6820d5d634720f98e52955960cb87d486826f0a5ec9eb66"
+    },
+    {
+      "path": "vendor/upstream/raknet/RouterInterface.h",
+      "sha256": "bfd3de6e95b617b900f0da76f253be631f5e8f74cf2eab76dc657e8957f349a4"
+    },
+    {
+      "path": "vendor/upstream/raknet/SingleProducerConsumer.h",
+      "sha256": "4ec3e22b6b50fcd05dfdf419aebd69b891990de949f88079f9bd17f5ea1e5421"
+    },
+    {
+      "path": "vendor/upstream/raknet/NetworkTypes.h",
+      "sha256": "026005dc438fa4777babf8c0c855e1ace7323414137b147b38cd97e24daec83f"
+    },
+    {
+      "path": "vendor/upstream/raknet/RSACrypt.h",
+      "sha256": "1dc479a8b012592fa1ce673d0e8417ca06e170a680815b68bf2da555c178f7bf"
+    },
+    {
+      "path": "vendor/upstream/raknet/SHA1.h",
+      "sha256": "6b7e4887908dac65935bf760c277544b972c6546dcb65adf574a8b33884980b6"
+    }
+  ]
+}

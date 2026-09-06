@@ -1,0 +1,7 @@
+Normal C++ candidate6A760/214. This is the layout operation on the application object at26EB58, corresponding to existing base CUnkClass5: width14,height18,dialog28,list2C are the same actual fields. Its constructor's Type/ID/Progress columns identify a transfer-progress UI; the semantic class name is an inference, while the structural identity and original caller chain are concrete.
+
+Original C5620 constructs real CDXUTDialog1EA at26EC38 and calls6AAC0 on26EB58 to bind it. C5430 finishes by tail-calling6A760 on that same owner. Partial view is never allocated; does not claim a replacement full class or ctor. Its actual list pointer is CDXUTListBox according to existing full application ResetDialogControls source, not an invented vtable. SetLocation/SetSize invoke UpdateRects at the real base control slot4C.
+
+Dependencies: pDefaultFont26EB9C real owner accepted, MeasureText2 6B2B0/163 accepted, GetClientRect real USER32 IAT E5370, native GTA HWND scalarC97C1C. Caption height is actual CDXUTDialog field126, layout position116/11A and dimensions11E/122. Only literal string Y is needed, expected original E637C/2. Exact byte size and full literals await compilation. No startup object/global allocation receives any coverage from this operation.
+
+The larger FontSize chain remains waiting for the narrow friend declaration and all six actual UI-dialog pointer owners; this214-byte member itself needs none of those new globals. A bounded independent probe can precede the header milestone.

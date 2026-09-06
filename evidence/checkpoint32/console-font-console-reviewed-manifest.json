@@ -1,0 +1,3780 @@
+{
+  "status": "REVIEWED_MAIN_SEEDS_AND_WHOLE_EH_BINDINGS_PREFLIGHT",
+  "run": "build/cp32-console-trial1",
+  "roots": {
+    "??0ConsoleServer@@QAE@XZ": 150448,
+    "?AddCommandParser@ConsoleServer@@QAEXPAVCommandParserInterface@@@Z": 150496,
+    "?RemoveCommandParser@ConsoleServer@@QAEXPAVCommandParserInterface@@@Z": 150608,
+    "?ListParsers@ConsoleServer@@IAEXUPlayerID@@@Z": 150672,
+    "?SetTransportProvider@ConsoleServer@@QAEXPAVTransportInterface@@G@Z": 150800,
+    "?Update@ConsoleServer@@QAEXXZ": 150912,
+    "?ParseConsoleString@CommandParserInterface@@SAXPADDEPAIPAPADI@Z": 131792,
+    "?ReturnResult@CommandParserInterface@@MAEX_NPBDPAVTransportInterface@@UPlayerID@@@Z": 132064,
+    "?ReturnResult@CommandParserInterface@@MAEXPBDPAVTransportInterface@@UPlayerID@@@Z": 132192,
+    "?ReturnResult@CommandParserInterface@@MAEXUPlayerID@@PBDPAVTransportInterface@@0@Z": 132304,
+    "?IntegersToPlayerID@CommandParserInterface@@IAE?AUPlayerID@@HH@Z": 132384,
+    "?SendCommandList@CommandParserInterface@@UAEXPAVTransportInterface@@UPlayerID@@@Z": 133200,
+    "?RegisterCommand@CommandParserInterface@@MAEXEPBD0@Z": 133424,
+    "?GetRegisteredCommand@CommandParserInterface@@UAE_NPBDPAURegisteredCommand@@@Z": 133488,
+    "??1CommandParserInterface@@UAE@XZ": 133680,
+    "?PrintChannels@LogCommandParser@@IBEXUPlayerID@@PAVTransportInterface@@@Z": 200912,
+    "?GetChannelIndexFromName@LogCommandParser@@IAEIPBD@Z": 201136,
+    "?OnTransportChange@LogCommandParser@@UAEXPAVTransportInterface@@@Z": 201200,
+    "??0LogCommandParser@@QAE@XZ": 201456,
+    "??1LogCommandParser@@UAE@XZ": 201600,
+    "?SendHelp@LogCommandParser@@UAEXPAVTransportInterface@@UPlayerID@@@Z": 201696,
+    "?AddChannel@LogCommandParser@@QAEXPBD@Z": 201824,
+    "?WriteLog@LogCommandParser@@QAAXPBD0ZZ": 201872,
+    "?Unsubscribe@LogCommandParser@@IAEIUPlayerID@@PBD@Z": 202208,
+    "?Subscribe@LogCommandParser@@IAEIUPlayerID@@PBD@Z": 202384,
+    "?OnCommand@LogCommandParser@@UAE_NPBDIPAPADPAVTransportInterface@@UPlayerID@@0@Z": 202656,
+    "?OnConnectionLost@LogCommandParser@@UAEXUPlayerID@@PAVTransportInterface@@@Z": 203104,
+    "?Send@TelnetTransport@@UAAXUPlayerID@@PBDZZ": 356064,
+    "?CloseConnection@TelnetTransport@@UAEXUPlayerID@@@Z": 356192,
+    "?DeallocatePacket@TelnetTransport@@UAEXPAUPacket@@@Z": 356224,
+    "?AutoAllocate@TelnetTransport@@IAEXXZ": 356288,
+    "?ReassembleLine@TelnetTransport@@IAE_NPAUTelnetClient@1@E@Z": 356400,
+    "??0TelnetTransport@@QAE@XZ": 356800,
+    "?Start@TelnetTransport@@UAE_NG_N@Z": 356832,
+    "?Stop@TelnetTransport@@UAEXXZ": 356864,
+    "?Receive@TelnetTransport@@UAEPAUPacket@@XZ": 356944,
+    "?HasNewConnection@TelnetTransport@@UAE?AUPlayerID@@XZ": 357360,
+    "?HasLostConnection@TelnetTransport@@UAE?AUPlayerID@@XZ": 357616,
+    "??1TelnetTransport@@QAE@XZ": 357776,
+    "??0PacketConsoleLogger@@QAE@XZ": 211424,
+    "?SetLogCommandParser@PacketConsoleLogger@@UAEXPAVLogCommandParser@@@Z": 211456,
+    "?WriteLog@PacketConsoleLogger@@UAEXPBD@Z": 211488,
+    "??0CommandParserInterface@@QAE@XZ": 133648,
+    "??_GCommandParserInterface@@UAEPAXI@Z": 133696,
+    "?OnNewIncomingConnection@CommandParserInterface@@UAEXUPlayerID@@PAVTransportInterface@@@Z": 132032,
+    "?OnConnectionLost@CommandParserInterface@@UAEXUPlayerID@@PAVTransportInterface@@@Z": 132048,
+    "?OnTransportChange@CommandParserInterface@@UAEXPAVTransportInterface@@@Z": 132016,
+    "?ReturnResult@CommandParserInterface@@MAEXHPBDPAVTransportInterface@@UPlayerID@@@Z": 132128,
+    "?ReturnResult@CommandParserInterface@@MAEXPADPBDPAVTransportInterface@@UPlayerID@@@Z": 132240,
+    "??_GLogCommandParser@@UAEPAXI@Z": 202624,
+    "?GetName@LogCommandParser@@UBEPADXZ": 200896,
+    "?OnNewIncomingConnection@LogCommandParser@@UAEXUPlayerID@@PAVTransportInterface@@@Z": 201088,
+    "?GetCommandParser@TelnetTransport@@UAEPAVCommandParserInterface@@XZ": 356272,
+    "??_GPacketConsoleLogger@@UAEPAXI@Z": 211520
+  },
+  "seeds": {
+    "eval_vendor_log_command_parser": {
+      "?OnNewIncomingConnection@LogCommandParser@@UAEXUPlayerID@@PAVTransportInterface@@@Z": 201088,
+      "?GetName@LogCommandParser@@UBEPADXZ": 200896,
+      "??_GLogCommandParser@@UAEPAXI@Z": 202624,
+      "??1LogCommandParser@@UAE@XZ": 201600,
+      "??1?$List@UPlayerIDAndChannel@LogCommandParser@@@DataStructures@@QAE@XZ": 201232,
+      "?WriteLog@LogCommandParser@@QAAXPBD0ZZ": 201872,
+      "?AddChannel@LogCommandParser@@QAEXPBD@Z": 201824,
+      "?GetChannelIndexFromName@LogCommandParser@@IAEIPBD@Z": 201136,
+      "?OnConnectionLost@LogCommandParser@@UAEXUPlayerID@@PAVTransportInterface@@@Z": 203104,
+      "?Unsubscribe@LogCommandParser@@IAEIUPlayerID@@PBD@Z": 202208,
+      "?OnCommand@LogCommandParser@@UAE_NPBDIPAPADPAVTransportInterface@@UPlayerID@@0@Z": 202656,
+      "?PrintChannels@LogCommandParser@@IBEXUPlayerID@@PAVTransportInterface@@@Z": 200912,
+      "?Subscribe@LogCommandParser@@IAEIUPlayerID@@PBD@Z": 202384,
+      "?Insert@?$List@UPlayerIDAndChannel@LogCommandParser@@@DataStructures@@QAEXUPlayerIDAndChannel@LogCommandParser@@@Z": 201280,
+      "?SendHelp@LogCommandParser@@UAEXPAVTransportInterface@@UPlayerID@@@Z": 201696,
+      "??0LogCommandParser@@QAE@XZ": 201456,
+      "??0?$List@UPlayerIDAndChannel@LogCommandParser@@@DataStructures@@QAE@XZ": 201216,
+      "?OnTransportChange@LogCommandParser@@UAEXPAVTransportInterface@@@Z": 201200
+    },
+    "eval_vendor_telnet_transport": {
+      "?GetCommandParser@TelnetTransport@@UAEPAVCommandParserInterface@@XZ": 356272,
+      "??1TelnetTransport@@QAE@XZ": 357776,
+      "??1?$List@PAUTelnetClient@TelnetTransport@@@DataStructures@@QAE@XZ": 356544,
+      "?Stop@TelnetTransport@@UAEXXZ": 356864,
+      "?Clear@?$List@PAUTelnetClient@TelnetTransport@@@DataStructures@@QAEX_N@Z": 356736,
+      "?HasLostConnection@TelnetTransport@@UAE?AUPlayerID@@XZ": 357616,
+      "?HasNewConnection@TelnetTransport@@UAE?AUPlayerID@@XZ": 357360,
+      "?Insert@?$List@PAUTelnetClient@TelnetTransport@@@DataStructures@@QAEXQAUTelnetClient@TelnetTransport@@@Z": 356592,
+      "?Receive@TelnetTransport@@UAEPAUPacket@@XZ": 356944,
+      "?ReassembleLine@TelnetTransport@@IAE_NPAUTelnetClient@1@E@Z": 356400,
+      "?Start@TelnetTransport@@UAE_NG_N@Z": 356832,
+      "?AutoAllocate@TelnetTransport@@IAEXXZ": 356288,
+      "??0TelnetTransport@@QAE@XZ": 356800,
+      "??0?$List@PAUTelnetClient@TelnetTransport@@@DataStructures@@QAE@XZ": 356528,
+      "?DeallocatePacket@TelnetTransport@@UAEXPAUPacket@@@Z": 356224,
+      "?CloseConnection@TelnetTransport@@UAEXUPlayerID@@@Z": 356192,
+      "?Send@TelnetTransport@@UAAXUPlayerID@@PBDZZ": 356064
+    },
+    "eval_vendor_console_server": {
+      "?Update@ConsoleServer@@QAEXXZ": 150912,
+      "?ListParsers@ConsoleServer@@IAEXUPlayerID@@@Z": 150672,
+      "?SetTransportProvider@ConsoleServer@@QAEXPAVTransportInterface@@G@Z": 150800,
+      "?AddCommandParser@ConsoleServer@@QAEXPAVCommandParserInterface@@@Z": 150496,
+      "?Insert@?$List@PAVCommandParserInterface@@@DataStructures@@QAEXQAVCommandParserInterface@@@Z": 150304,
+      "?RemoveCommandParser@ConsoleServer@@QAEXPAVCommandParserInterface@@@Z": 150608,
+      "??0ConsoleServer@@QAE@XZ": 150448,
+      "??0?$List@PAVCommandParserInterface@@@DataStructures@@QAE@XZ": 150240
+    },
+    "eval_vendor_packet_console_logger": {
+      "??_GPacketConsoleLogger@@UAEPAXI@Z": 211520,
+      "??1PacketConsoleLogger@@UAE@XZ": 211552,
+      "?WriteLog@PacketConsoleLogger@@UAEXPBD@Z": 211488,
+      "?SetLogCommandParser@PacketConsoleLogger@@UAEXPAVLogCommandParser@@@Z": 211456,
+      "??0PacketConsoleLogger@@QAE@XZ": 211424
+    },
+    "eval_vendor_command_parser_interface": {
+      "??1CommandParserInterface@@UAE@XZ": 133680,
+      "??1?$OrderedList@PBDURegisteredCommand@@$1?RegisteredCommandComp@@YAHABQBDABU1@@Z@DataStructures@@QAE@XZ": 133568,
+      "??1?$List@URegisteredCommand@@@DataStructures@@QAE@XZ": 132432,
+      "?Clear@?$OrderedList@PBDURegisteredCommand@@$1?RegisteredCommandComp@@YAHABQBDABU1@@Z@DataStructures@@QAEXXZ": 133184,
+      "?Clear@?$List@URegisteredCommand@@@DataStructures@@QAEX_N@Z": 132784,
+      "?ReturnResult@CommandParserInterface@@MAEXPADPBDPAVTransportInterface@@UPlayerID@@@Z": 132240,
+      "?ReturnResult@CommandParserInterface@@MAEXHPBDPAVTransportInterface@@UPlayerID@@@Z": 132128,
+      "?OnTransportChange@CommandParserInterface@@UAEXPAVTransportInterface@@@Z": 132016,
+      "?OnConnectionLost@CommandParserInterface@@UAEXUPlayerID@@PAVTransportInterface@@@Z": 132048,
+      "?OnNewIncomingConnection@CommandParserInterface@@UAEXUPlayerID@@PAVTransportInterface@@@Z": 132032,
+      "??_GCommandParserInterface@@UAEPAXI@Z": 133696,
+      "??0CommandParserInterface@@QAE@XZ": 133648,
+      "??0?$OrderedList@PBDURegisteredCommand@@$1?RegisteredCommandComp@@YAHABQBDABU1@@Z@DataStructures@@QAE@XZ": 132848,
+      "??0?$List@URegisteredCommand@@@DataStructures@@QAE@XZ": 132416,
+      "?RegisterCommand@CommandParserInterface@@MAEXEPBD0@Z": 133424,
+      "?Insert@?$OrderedList@PBDURegisteredCommand@@$1?RegisteredCommandComp@@YAHABQBDABU1@@Z@DataStructures@@QAEIABQBDABURegisteredCommand@@@Z": 133024,
+      "?Insert@?$List@URegisteredCommand@@@DataStructures@@QAEXURegisteredCommand@@I@Z": 132608,
+      "?Insert@?$List@URegisteredCommand@@@DataStructures@@QAEXURegisteredCommand@@@Z": 132480,
+      "?GetIndexFromKey@?$OrderedList@PBDURegisteredCommand@@$1?RegisteredCommandComp@@YAHABQBDABU1@@Z@DataStructures@@QBEIABQBDPA_N@Z": 132864,
+      "?RegisteredCommandComp@@YAHABQBDABURegisteredCommand@@@Z": 131760,
+      "?GetRegisteredCommand@CommandParserInterface@@UAE_NPBDPAURegisteredCommand@@@Z": 133488,
+      "??A?$OrderedList@PBDURegisteredCommand@@$1?RegisteredCommandComp@@YAHABQBDABU1@@Z@DataStructures@@QBEAAURegisteredCommand@@I@Z": 133152,
+      "?SendCommandList@CommandParserInterface@@UAEXPAVTransportInterface@@UPlayerID@@@Z": 133200,
+      "?Size@?$OrderedList@PBDURegisteredCommand@@$1?RegisteredCommandComp@@YAHABQBDABU1@@Z@DataStructures@@QBEIXZ": 133168,
+      "?IntegersToPlayerID@CommandParserInterface@@IAE?AUPlayerID@@HH@Z": 132384,
+      "?ReturnResult@CommandParserInterface@@MAEXUPlayerID@@PBDPAVTransportInterface@@0@Z": 132304,
+      "?ReturnResult@CommandParserInterface@@MAEXPBDPAVTransportInterface@@UPlayerID@@@Z": 132192,
+      "?ReturnResult@CommandParserInterface@@MAEX_NPBDPAVTransportInterface@@UPlayerID@@@Z": 132064,
+      "?ParseConsoleString@CommandParserInterface@@SAXPADDEPAIPAPADI@Z": 131792
+    }
+  },
+  "regions": [
+    {
+      "unit": "eval_vendor_log_command_parser",
+      "section": 13,
+      "rva": 201088,
+      "size": 3,
+      "kind": ".text",
+      "sha256": "dbd1a662565b07272069f88faadf4327acaf51b7d14f236c84c0a9679d07cef3",
+      "whole_bytes_equal": true,
+      "bindings": []
+    },
+    {
+      "unit": "eval_vendor_log_command_parser",
+      "section": 5,
+      "rva": 200896,
+      "size": 6,
+      "kind": ".text",
+      "sha256": "87d09ec00e7ad6307c59a84fd2aed7ba3219b0ac3c77152172fe9364fb9a3deb",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "??_C@_06MGGMPEFL@Logger?$AA@",
+          "site_rva": 200897,
+          "target_va": 269381232,
+          "kind": 6
+        }
+      ]
+    },
+    {
+      "unit": "eval_vendor_log_command_parser",
+      "section": 61,
+      "rva": 202624,
+      "size": 30,
+      "kind": ".text",
+      "sha256": "76a260184aa8a6d7a4dece6926e1090b85ee1578f5661585a7949099f52747e9",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "??1LogCommandParser@@UAE@XZ",
+          "site_rva": 202628,
+          "target_va": 268637056,
+          "kind": 20
+        },
+        {
+          "symbol": "??3@YAXPAX@Z",
+          "site_rva": 202641,
+          "target_va": 269247626,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "eval_vendor_log_command_parser",
+      "section": 43,
+      "rva": 201600,
+      "size": 82,
+      "kind": ".text",
+      "sha256": "f62c412f20b8a9dc0a14bf9e2dcb6261a996b72e9d8bc18c37c2594dcd3dbcca",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "__ehhandler$??1LogCommandParser@@UAE@XZ",
+          "site_rva": 201603,
+          "target_va": 269361800,
+          "kind": 6
+        },
+        {
+          "symbol": "__except_list",
+          "site_rva": 201609,
+          "target_va": 0,
+          "kind": 6
+        },
+        {
+          "symbol": "__except_list",
+          "site_rva": 201617,
+          "target_va": 0,
+          "kind": 6
+        },
+        {
+          "symbol": "??_7LogCommandParser@@6B@",
+          "site_rva": 201631,
+          "target_va": 269381428,
+          "kind": 6
+        },
+        {
+          "symbol": "??1?$List@UPlayerIDAndChannel@LogCommandParser@@@DataStructures@@QAE@XZ",
+          "site_rva": 201647,
+          "target_va": 268636688,
+          "kind": 20
+        },
+        {
+          "symbol": "??1CommandParserInterface@@UAE@XZ",
+          "site_rva": 201662,
+          "target_va": 268569136,
+          "kind": 20
+        },
+        {
+          "symbol": "__except_list",
+          "site_rva": 201674,
+          "target_va": 0,
+          "kind": 6
+        }
+      ]
+    },
+    {
+      "unit": "eval_vendor_log_command_parser",
+      "section": 23,
+      "rva": 201232,
+      "size": 17,
+      "kind": ".text",
+      "sha256": "b4d3a4d6d585cb36550fcff3f0e2713fecdbc7b39ef443225a7fe6f3eebfea27",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "??3@YAXPAX@Z",
+          "site_rva": 201243,
+          "target_va": 269247626,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "eval_vendor_log_command_parser",
+      "section": 54,
+      "rva": 201872,
+      "size": 327,
+      "kind": ".text",
+      "sha256": "daf6fd27ebb4db20862bfce53dbfae87bdc2b46afa631d16638832054029b32d",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "?GetChannelIndexFromName@LogCommandParser@@IAEIPBD@Z",
+          "site_rva": 201923,
+          "target_va": 268636592,
+          "kind": 20
+        },
+        {
+          "symbol": "?AddChannel@LogCommandParser@@QAEXPBD@Z",
+          "site_rva": 201942,
+          "target_va": 268637280,
+          "kind": 20
+        },
+        {
+          "symbol": "__vsnprintf",
+          "site_rva": 201973,
+          "target_va": 269257167,
+          "kind": 20
+        },
+        {
+          "symbol": "??_C@_02PCIJFNDE@?$AN?6?$AA@",
+          "site_rva": 202058,
+          "target_va": 269378880,
+          "kind": 6
+        },
+        {
+          "symbol": "??_C@_02PCIJFNDE@?$AN?6?$AA@",
+          "site_rva": 202064,
+          "target_va": 269378882,
+          "kind": 6
+        }
+      ]
+    },
+    {
+      "unit": "eval_vendor_log_command_parser",
+      "section": 52,
+      "rva": 201824,
+      "size": 47,
+      "kind": ".text",
+      "sha256": "2c1f8ed04b9f5bf9675777839756c84927c85543ee035590967cea3aaae9d798",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "?GetChannelIndexFromName@LogCommandParser@@IAEIPBD@Z",
+          "site_rva": 201834,
+          "target_va": 268636592,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "eval_vendor_log_command_parser",
+      "section": 17,
+      "rva": 201136,
+      "size": 62,
+      "kind": ".text",
+      "sha256": "d8c1931dd430adc9d7eb7c23e6c09787f65578601fce9cb2106f18953d751d07",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "__stricmp",
+          "site_rva": 201161,
+          "target_va": 269254514,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "eval_vendor_log_command_parser",
+      "section": 72,
+      "rva": 203104,
+      "size": 30,
+      "kind": ".text",
+      "sha256": "d42b93b074e76ad717e8b8ef2222f44f866eaf3cce5f7edd830681b9f94475fa",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "?Unsubscribe@LogCommandParser@@IAEIUPlayerID@@PBD@Z",
+          "site_rva": 203127,
+          "target_va": 268637664,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "eval_vendor_log_command_parser",
+      "section": 57,
+      "rva": 202208,
+      "size": 165,
+      "kind": ".text",
+      "sha256": "403a90610e7e73a5e175b33d54154724fc359db282002d5899b746c08fbe47e8",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "??8PlayerID@@QBE_NABU0@@Z",
+          "site_rva": 202235,
+          "target_va": 268646112,
+          "kind": 20
+        },
+        {
+          "symbol": "?GetChannelIndexFromName@LogCommandParser@@IAEIPBD@Z",
+          "site_rva": 202327,
+          "target_va": 268636592,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "eval_vendor_log_command_parser",
+      "section": 63,
+      "rva": 202656,
+      "size": 445,
+      "kind": ".text",
+      "sha256": "c6af8b4bffbc6c3778fbf2da3e20afa05abd3577ae884b4efb35799cb4dbe3ac",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "??_C@_09KDKJLHFG@Subscribe?$AA@",
+          "site_rva": 202667,
+          "target_va": 269381344,
+          "kind": 6
+        },
+        {
+          "symbol": "?Subscribe@LogCommandParser@@IAEIUPlayerID@@PBD@Z",
+          "site_rva": 202720,
+          "target_va": 268637840,
+          "kind": 20
+        },
+        {
+          "symbol": "??_C@_0BO@EIGINMJK@Subscribed?5to?5all?5channels?4?$AN?6?$AA@",
+          "site_rva": 202725,
+          "target_va": 269381908,
+          "kind": 6
+        },
+        {
+          "symbol": "?Subscribe@LogCommandParser@@IAEIUPlayerID@@PBD@Z",
+          "site_rva": 202776,
+          "target_va": 268637840,
+          "kind": 20
+        },
+        {
+          "symbol": "??_C@_0CI@PBOKMBIB@You?5are?5now?5subscribed?5to?5channe@",
+          "site_rva": 202791,
+          "target_va": 269381868,
+          "kind": 6
+        },
+        {
+          "symbol": "??_C@_0BK@EHOMLJNL@Cannot?5find?5channel?5?$CFs?4?$AN?6?$AA@",
+          "site_rva": 202815,
+          "target_va": 269381840,
+          "kind": 6
+        },
+        {
+          "symbol": "?PrintChannels@LogCommandParser@@IBEXUPlayerID@@PAVTransportInterface@@@Z",
+          "site_rva": 202852,
+          "target_va": 268636368,
+          "kind": 20
+        },
+        {
+          "symbol": "??_C@_0CM@LDNFCNMD@Subscribe?5takes?5either?50?5or?51?5pa@",
+          "site_rva": 202866,
+          "target_va": 269381796,
+          "kind": 6
+        },
+        {
+          "symbol": "??_C@_0M@NCNBIKLN@Unsubscribe?$AA@",
+          "site_rva": 202878,
+          "target_va": 269381260,
+          "kind": 6
+        },
+        {
+          "symbol": "?Unsubscribe@LogCommandParser@@IAEIUPlayerID@@PBD@Z",
+          "site_rva": 202929,
+          "target_va": 268637664,
+          "kind": 20
+        },
+        {
+          "symbol": "??_C@_0CC@PMDDIFND@Unsubscribed?5from?5all?5channels?4?$AN@",
+          "site_rva": 202940,
+          "target_va": 269381760,
+          "kind": 6
+        },
+        {
+          "symbol": "?Unsubscribe@LogCommandParser@@IAEIUPlayerID@@PBD@Z",
+          "site_rva": 203002,
+          "target_va": 268637664,
+          "kind": 20
+        },
+        {
+          "symbol": "??_C@_0CM@MKPKEJAH@You?5are?5now?5unsubscribed?5from?5ch@",
+          "site_rva": 203021,
+          "target_va": 269381716,
+          "kind": 6
+        },
+        {
+          "symbol": "??_C@_0CO@GDCDOCCD@Unsubscribe?5takes?5either?50?5or?51?5@",
+          "site_rva": 203059,
+          "target_va": 269381668,
+          "kind": 6
+        }
+      ]
+    },
+    {
+      "unit": "eval_vendor_log_command_parser",
+      "section": 8,
+      "rva": 200912,
+      "size": 170,
+      "kind": ".text",
+      "sha256": "76f197c914612222a9cf1e7e284537d659a81ee82625cb27491c7ca3e753a120",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "??_C@_0M@IINIIGCA@CHANNELS?3?$AN?6?$AA@",
+          "site_rva": 200933,
+          "target_va": 269381248,
+          "kind": 6
+        },
+        {
+          "symbol": "??_C@_08EIGAEAF@?$CFi?4?5?$CFs?$AN?6?$AA@",
+          "site_rva": 200999,
+          "target_va": 269379032,
+          "kind": 6
+        },
+        {
+          "symbol": "??_C@_07KMCPJIG@None?4?$AN?6?$AA@",
+          "site_rva": 201052,
+          "target_va": 269381240,
+          "kind": 6
+        }
+      ]
+    },
+    {
+      "unit": "eval_vendor_log_command_parser",
+      "section": 59,
+      "rva": 202384,
+      "size": 235,
+      "kind": ".text",
+      "sha256": "0bb017b9af1031c6adc2708dd5e7b50bf2959cb45159cd39908e14e4a4c941cb",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "?GetChannelIndexFromName@LogCommandParser@@IAEIPBD@Z",
+          "site_rva": 202406,
+          "target_va": 268636592,
+          "kind": 20
+        },
+        {
+          "symbol": "??8PlayerID@@QBE_NABU0@@Z",
+          "site_rva": 202443,
+          "target_va": 268646112,
+          "kind": 20
+        },
+        {
+          "symbol": "?Insert@?$List@UPlayerIDAndChannel@LogCommandParser@@@DataStructures@@QAEXUPlayerIDAndChannel@LogCommandParser@@@Z",
+          "site_rva": 202603,
+          "target_va": 268636736,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "eval_vendor_log_command_parser",
+      "section": 27,
+      "rva": 201280,
+      "size": 130,
+      "kind": ".text",
+      "sha256": "9b69c00dae6bd3db67c614500a5cbce9f77af3acd289a8bee09e7b7c1ee0c5b8",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "??2@YAPAXI@Z",
+          "site_rva": 201322,
+          "target_va": 269247098,
+          "kind": 20
+        },
+        {
+          "symbol": "??3@YAXPAX@Z",
+          "site_rva": 201358,
+          "target_va": 269247626,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "eval_vendor_log_command_parser",
+      "section": 47,
+      "rva": 201696,
+      "size": 120,
+      "kind": ".text",
+      "sha256": "581b6ebadf632f04557c2f673fa323d7550ef10f1973bb541574cd3d227a6d24",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "??_C@_0EC@CBMLMKML@The?5logger?5will?5accept?5user?5log?5@",
+          "site_rva": 201716,
+          "target_va": 269381600,
+          "kind": 6
+        },
+        {
+          "symbol": "??_C@_0CP@NMOOHJHE@Each?5log?5is?5associated?5with?5a?5na@",
+          "site_rva": 201743,
+          "target_va": 269381548,
+          "kind": 6
+        },
+        {
+          "symbol": "??_C@_0DL@FJGGHGKK@You?5can?5subscribe?5to?5or?5unsubscr@",
+          "site_rva": 201768,
+          "target_va": 269381488,
+          "kind": 6
+        },
+        {
+          "symbol": "?PrintChannels@LogCommandParser@@IBEXUPlayerID@@PAVTransportInterface@@@Z",
+          "site_rva": 201805,
+          "target_va": 268636368,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "eval_vendor_log_command_parser",
+      "section": 33,
+      "rva": 201456,
+      "size": 144,
+      "kind": ".text",
+      "sha256": "b040990ce8badedd846cc613e4905246db8f8232f8203fd19a5316012a318215",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "__ehhandler$??0LogCommandParser@@QAE@XZ",
+          "site_rva": 201459,
+          "target_va": 269361779,
+          "kind": 6
+        },
+        {
+          "symbol": "__except_list",
+          "site_rva": 201465,
+          "target_va": 0,
+          "kind": 6
+        },
+        {
+          "symbol": "__except_list",
+          "site_rva": 201473,
+          "target_va": 0,
+          "kind": 6
+        },
+        {
+          "symbol": "??0CommandParserInterface@@QAE@XZ",
+          "site_rva": 201487,
+          "target_va": 268569104,
+          "kind": 20
+        },
+        {
+          "symbol": "??_7LogCommandParser@@6B@",
+          "site_rva": 201504,
+          "target_va": 269381428,
+          "kind": 6
+        },
+        {
+          "symbol": "??0?$List@UPlayerIDAndChannel@LogCommandParser@@@DataStructures@@QAE@XZ",
+          "site_rva": 201509,
+          "target_va": 268636672,
+          "kind": 20
+        },
+        {
+          "symbol": "?VARIABLE_NUMBER_OF_PARAMETERS@CommandParserInterface@@2EB",
+          "site_rva": 201516,
+          "target_va": 269378713,
+          "kind": 6
+        },
+        {
+          "symbol": "??_C@_0EB@JKKDDEMD@?$FL?$DMChannelName?$DO?$FN?5?9?5Subscribes?5to?5@",
+          "site_rva": 201521,
+          "target_va": 269381360,
+          "kind": 6
+        },
+        {
+          "symbol": "??_C@_09KDKJLHFG@Subscribe?$AA@",
+          "site_rva": 201526,
+          "target_va": 269381344,
+          "kind": 6
+        },
+        {
+          "symbol": "?RegisterCommand@CommandParserInterface@@MAEXEPBD0@Z",
+          "site_rva": 201539,
+          "target_va": 268568880,
+          "kind": 20
+        },
+        {
+          "symbol": "?VARIABLE_NUMBER_OF_PARAMETERS@CommandParserInterface@@2EB",
+          "site_rva": 201547,
+          "target_va": 269378713,
+          "kind": 6
+        },
+        {
+          "symbol": "??_C@_0EF@OBDEEMFI@?$FL?$DMChannelName?$DO?$FN?5?9?5Unsubscribes?5f@",
+          "site_rva": 201552,
+          "target_va": 269381272,
+          "kind": 6
+        },
+        {
+          "symbol": "??_C@_0M@NCNBIKLN@Unsubscribe?$AA@",
+          "site_rva": 201557,
+          "target_va": 269381260,
+          "kind": 6
+        },
+        {
+          "symbol": "?RegisterCommand@CommandParserInterface@@MAEXEPBD0@Z",
+          "site_rva": 201565,
+          "target_va": 268568880,
+          "kind": 20
+        },
+        {
+          "symbol": "__except_list",
+          "site_rva": 201592,
+          "target_va": 0,
+          "kind": 6
+        }
+      ]
+    },
+    {
+      "unit": "eval_vendor_log_command_parser",
+      "section": 21,
+      "rva": 201216,
+      "size": 13,
+      "kind": ".text",
+      "sha256": "efaddf6f7c64b7d0dd7d70e04563c88df5b21978a063a338954e28cc09d4e5e9",
+      "whole_bytes_equal": true,
+      "bindings": []
+    },
+    {
+      "unit": "eval_vendor_log_command_parser",
+      "section": 19,
+      "rva": 201200,
+      "size": 13,
+      "kind": ".text",
+      "sha256": "0f7b33146ce9ad3960eabff84add6d27012a72b89005420538aac67a62507240",
+      "whole_bytes_equal": true,
+      "bindings": []
+    },
+    {
+      "unit": "eval_vendor_log_command_parser",
+      "section": 6,
+      "rva": 945776,
+      "size": 7,
+      "kind": ".rdata",
+      "sha256": "952726a8c0318a79957e76be81e2e0eba206e7eec4256f9bdc581ab1a1370838",
+      "whole_bytes_equal": true,
+      "bindings": []
+    },
+    {
+      "unit": "eval_vendor_log_command_parser",
+      "section": 44,
+      "rva": 926336,
+      "size": 18,
+      "kind": ".text$x",
+      "sha256": "8aecabd117cadd877c0c3a454554f1c6f9c2b9f8da4974936a6325c6fe5dc7f2",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "??1CommandParserInterface@@UAE@XZ",
+          "site_rva": 926340,
+          "target_va": 268569136,
+          "kind": 20
+        },
+        {
+          "symbol": "$T1866",
+          "site_rva": 926345,
+          "target_va": 269459240,
+          "kind": 6
+        },
+        {
+          "symbol": "___CxxFrameHandler",
+          "site_rva": 926350,
+          "target_va": 269247782,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "eval_vendor_log_command_parser",
+      "section": 39,
+      "rva": 945972,
+      "size": 60,
+      "kind": ".rdata",
+      "sha256": "ed0261a1c07ec45946c3a7ff043553c551d85ac7ffa3303d776116d66f3e336c",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "??_ELogCommandParser@@UAEPAXI@Z",
+          "site_rva": 945972,
+          "target_va": 268638080,
+          "kind": 6
+        },
+        {
+          "symbol": "?GetName@LogCommandParser@@UBEPADXZ",
+          "site_rva": 945976,
+          "target_va": 268636352,
+          "kind": 6
+        },
+        {
+          "symbol": "?OnNewIncomingConnection@LogCommandParser@@UAEXUPlayerID@@PAVTransportInterface@@@Z",
+          "site_rva": 945980,
+          "target_va": 268636544,
+          "kind": 6
+        },
+        {
+          "symbol": "?OnConnectionLost@LogCommandParser@@UAEXUPlayerID@@PAVTransportInterface@@@Z",
+          "site_rva": 945984,
+          "target_va": 268638560,
+          "kind": 6
+        },
+        {
+          "symbol": "?SendHelp@LogCommandParser@@UAEXPAVTransportInterface@@UPlayerID@@@Z",
+          "site_rva": 945988,
+          "target_va": 268637152,
+          "kind": 6
+        },
+        {
+          "symbol": "?OnCommand@LogCommandParser@@UAE_NPBDIPAPADPAVTransportInterface@@UPlayerID@@0@Z",
+          "site_rva": 945992,
+          "target_va": 268638112,
+          "kind": 6
+        },
+        {
+          "symbol": "?OnTransportChange@LogCommandParser@@UAEXPAVTransportInterface@@@Z",
+          "site_rva": 945996,
+          "target_va": 268636656,
+          "kind": 6
+        },
+        {
+          "symbol": "?GetRegisteredCommand@CommandParserInterface@@UAE_NPBDPAURegisteredCommand@@@Z",
+          "site_rva": 946000,
+          "target_va": 268568944,
+          "kind": 6
+        },
+        {
+          "symbol": "?SendCommandList@CommandParserInterface@@UAEXPAVTransportInterface@@UPlayerID@@@Z",
+          "site_rva": 946004,
+          "target_va": 268568656,
+          "kind": 6
+        },
+        {
+          "symbol": "?RegisterCommand@CommandParserInterface@@MAEXEPBD0@Z",
+          "site_rva": 946008,
+          "target_va": 268568880,
+          "kind": 6
+        },
+        {
+          "symbol": "?ReturnResult@CommandParserInterface@@MAEXPBDPAVTransportInterface@@UPlayerID@@@Z",
+          "site_rva": 946012,
+          "target_va": 268567648,
+          "kind": 6
+        },
+        {
+          "symbol": "?ReturnResult@CommandParserInterface@@MAEXHPBDPAVTransportInterface@@UPlayerID@@@Z",
+          "site_rva": 946016,
+          "target_va": 268567584,
+          "kind": 6
+        },
+        {
+          "symbol": "?ReturnResult@CommandParserInterface@@MAEXUPlayerID@@PBDPAVTransportInterface@@0@Z",
+          "site_rva": 946020,
+          "target_va": 268567760,
+          "kind": 6
+        },
+        {
+          "symbol": "?ReturnResult@CommandParserInterface@@MAEXPADPBDPAVTransportInterface@@UPlayerID@@@Z",
+          "site_rva": 946024,
+          "target_va": 268567696,
+          "kind": 6
+        },
+        {
+          "symbol": "?ReturnResult@CommandParserInterface@@MAEX_NPBDPAVTransportInterface@@UPlayerID@@@Z",
+          "site_rva": 946028,
+          "target_va": 268567520,
+          "kind": 6
+        }
+      ]
+    },
+    {
+      "unit": "eval_vendor_log_command_parser",
+      "section": 55,
+      "rva": 943424,
+      "size": 3,
+      "kind": ".rdata",
+      "sha256": "426520180ee94ef36224225e32706bc9f2be242acf51bb23d69fea7e6d92a20a",
+      "whole_bytes_equal": true,
+      "bindings": []
+    },
+    {
+      "unit": "eval_vendor_log_command_parser",
+      "section": 37,
+      "rva": 945888,
+      "size": 10,
+      "kind": ".rdata",
+      "sha256": "5c62c9ee5b221f84cb50a856cf9b1cc565e0b1b5210470fe902d130c1bc12e52",
+      "whole_bytes_equal": true,
+      "bindings": []
+    },
+    {
+      "unit": "eval_vendor_log_command_parser",
+      "section": 70,
+      "rva": 946452,
+      "size": 30,
+      "kind": ".rdata",
+      "sha256": "16b5571818503c8263ae67edf8473c598ab62c8516dae0b9bb0e9c9b8f5d67d5",
+      "whole_bytes_equal": true,
+      "bindings": []
+    },
+    {
+      "unit": "eval_vendor_log_command_parser",
+      "section": 69,
+      "rva": 946412,
+      "size": 40,
+      "kind": ".rdata",
+      "sha256": "79e50b70cc47231d1faf56adde79b2110e569a5ad9295975e71c7e92f79850be",
+      "whole_bytes_equal": true,
+      "bindings": []
+    },
+    {
+      "unit": "eval_vendor_log_command_parser",
+      "section": 68,
+      "rva": 946384,
+      "size": 26,
+      "kind": ".rdata",
+      "sha256": "adfab444af0f74fa548d463cc32cb34d95dac294fcd3ce34a920befcbb76497b",
+      "whole_bytes_equal": true,
+      "bindings": []
+    },
+    {
+      "unit": "eval_vendor_log_command_parser",
+      "section": 67,
+      "rva": 946340,
+      "size": 44,
+      "kind": ".rdata",
+      "sha256": "e3cc2eaba9c2f4c5188e1691290b3eaf38d3a0bc1b9aebe52bc53e6e0d5f5938",
+      "whole_bytes_equal": true,
+      "bindings": []
+    },
+    {
+      "unit": "eval_vendor_log_command_parser",
+      "section": 35,
+      "rva": 945804,
+      "size": 12,
+      "kind": ".rdata",
+      "sha256": "bebbb86495b20c0c900e4f17ffe5bb3971af2b385fb7e0ad06c249ad1d6928a6",
+      "whole_bytes_equal": true,
+      "bindings": []
+    },
+    {
+      "unit": "eval_vendor_log_command_parser",
+      "section": 66,
+      "rva": 946304,
+      "size": 34,
+      "kind": ".rdata",
+      "sha256": "2b1cb2c27600ef0bafa10aa5f5f96358643d22c2460369a8d8f726c7f733a4e2",
+      "whole_bytes_equal": true,
+      "bindings": []
+    },
+    {
+      "unit": "eval_vendor_log_command_parser",
+      "section": 65,
+      "rva": 946260,
+      "size": 44,
+      "kind": ".rdata",
+      "sha256": "22da3f126e7c609b801460145ae4c15bec075edac60bdca4e6b8f5f81dd398c5",
+      "whole_bytes_equal": true,
+      "bindings": []
+    },
+    {
+      "unit": "eval_vendor_log_command_parser",
+      "section": 64,
+      "rva": 946212,
+      "size": 46,
+      "kind": ".rdata",
+      "sha256": "747b2c5729f3eaaeb9471f94661d17f9020ed3a6c5aad7ba80f4d579d8546db9",
+      "whole_bytes_equal": true,
+      "bindings": []
+    },
+    {
+      "unit": "eval_vendor_log_command_parser",
+      "section": 11,
+      "rva": 945792,
+      "size": 12,
+      "kind": ".rdata",
+      "sha256": "a80a575bceac82badfd02368385f3f7b46d0fb1495d84dd6bdd0f9d53509857c",
+      "whole_bytes_equal": true,
+      "bindings": []
+    },
+    {
+      "unit": "eval_vendor_log_command_parser",
+      "section": 10,
+      "rva": 943576,
+      "size": 9,
+      "kind": ".rdata",
+      "sha256": "a67854873e1a93e7b47a680f3ebb7413af57686971e3ee4527d12d128288e1bc",
+      "whole_bytes_equal": true,
+      "bindings": []
+    },
+    {
+      "unit": "eval_vendor_log_command_parser",
+      "section": 9,
+      "rva": 945784,
+      "size": 8,
+      "kind": ".rdata",
+      "sha256": "41211f7fc9558a336ee3662899e1302e5b6cb9ca27169682a4e2732e7b54acbe",
+      "whole_bytes_equal": true,
+      "bindings": []
+    },
+    {
+      "unit": "eval_vendor_log_command_parser",
+      "section": 50,
+      "rva": 946144,
+      "size": 66,
+      "kind": ".rdata",
+      "sha256": "4e54f502d086dbacd8a6950a024a7c5a3837a4d6e84d44c26c61479b6fa07e7b",
+      "whole_bytes_equal": true,
+      "bindings": []
+    },
+    {
+      "unit": "eval_vendor_log_command_parser",
+      "section": 49,
+      "rva": 946092,
+      "size": 47,
+      "kind": ".rdata",
+      "sha256": "b69a08bf9f13d036b7f7a0d94e3c4cdcf830833e371340a2b2dd9594239493db",
+      "whole_bytes_equal": true,
+      "bindings": []
+    },
+    {
+      "unit": "eval_vendor_log_command_parser",
+      "section": 48,
+      "rva": 946032,
+      "size": 59,
+      "kind": ".rdata",
+      "sha256": "5126032a519d266e48c230dda2995f6a519f50a46acffe1baec1b04deb05d85a",
+      "whole_bytes_equal": true,
+      "bindings": []
+    },
+    {
+      "unit": "eval_vendor_log_command_parser",
+      "section": 34,
+      "rva": 926304,
+      "size": 29,
+      "kind": ".text$x",
+      "sha256": "ea1799915cace100facd0d3fc1db0b2f5df16c54b87733a46860d7392558c0e1",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "??1CommandParserInterface@@UAE@XZ",
+          "site_rva": 926308,
+          "target_va": 268569136,
+          "kind": 20
+        },
+        {
+          "symbol": "??1?$List@UPlayerIDAndChannel@LogCommandParser@@@DataStructures@@QAE@XZ",
+          "site_rva": 926319,
+          "target_va": 268636688,
+          "kind": 20
+        },
+        {
+          "symbol": "$T1854",
+          "site_rva": 926324,
+          "target_va": 269459204,
+          "kind": 6
+        },
+        {
+          "symbol": "___CxxFrameHandler",
+          "site_rva": 926329,
+          "target_va": 269247782,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "eval_vendor_log_command_parser",
+      "section": 38,
+      "rva": 945904,
+      "size": 65,
+      "kind": ".rdata",
+      "sha256": "64ff5c7480ceab403f5a1af2e861e789c3c79c969e611338b976597d567d003e",
+      "whole_bytes_equal": true,
+      "bindings": []
+    },
+    {
+      "unit": "eval_vendor_log_command_parser",
+      "section": 36,
+      "rva": 945816,
+      "size": 69,
+      "kind": ".rdata",
+      "sha256": "0681cdfad540d13131c6dc52e1037e338a54c9d1c2f96419393938e86c2aeae8",
+      "whole_bytes_equal": true,
+      "bindings": []
+    },
+    {
+      "unit": "eval_vendor_log_command_parser",
+      "section": 45,
+      "rva": 1023776,
+      "size": 36,
+      "kind": ".xdata$x",
+      "sha256": "27b71a0307ec8a492d391918b576250bd0f6ee64277b19227c31757b85ee2348",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "$L1863",
+          "site_rva": 1023780,
+          "target_va": 269361792,
+          "kind": 6
+        },
+        {
+          "symbol": "$T1868",
+          "site_rva": 1023792,
+          "target_va": 269459232,
+          "kind": 6
+        }
+      ]
+    },
+    {
+      "unit": "eval_vendor_log_command_parser",
+      "section": 40,
+      "rva": 1023732,
+      "size": 44,
+      "kind": ".xdata$x",
+      "sha256": "ecc4d3e5a931cf73d768637de38f183dd5e19440a2d1dc2f7ec917d1f8199b1c",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "$L1849",
+          "site_rva": 1023736,
+          "target_va": 269361760,
+          "kind": 6
+        },
+        {
+          "symbol": "$L1850",
+          "site_rva": 1023744,
+          "target_va": 269361768,
+          "kind": 6
+        },
+        {
+          "symbol": "$T1857",
+          "site_rva": 1023756,
+          "target_va": 269459188,
+          "kind": 6
+        }
+      ]
+    },
+    {
+      "unit": "eval_vendor_telnet_transport",
+      "section": 14,
+      "rva": 356272,
+      "size": 3,
+      "kind": ".text",
+      "sha256": "4bc724f3b1d0caf4fe369c18cba3102e6c4ea057f63fe1587e3973134a7f755e",
+      "whole_bytes_equal": true,
+      "bindings": []
+    },
+    {
+      "unit": "eval_vendor_telnet_transport",
+      "section": 50,
+      "rva": 357776,
+      "size": 80,
+      "kind": ".text",
+      "sha256": "1b9d7778a4821aeaac1bc98b0827527c8d912e29de182b5028faeb550e62b3dc",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "__ehhandler$??1TelnetTransport@@QAE@XZ",
+          "site_rva": 357779,
+          "target_va": 269366827,
+          "kind": 6
+        },
+        {
+          "symbol": "__except_list",
+          "site_rva": 357785,
+          "target_va": 0,
+          "kind": 6
+        },
+        {
+          "symbol": "__except_list",
+          "site_rva": 357793,
+          "target_va": 0,
+          "kind": 6
+        },
+        {
+          "symbol": "??_7TelnetTransport@@6B@",
+          "site_rva": 357807,
+          "target_va": 269390684,
+          "kind": 6
+        },
+        {
+          "symbol": "?Stop@TelnetTransport@@UAEXXZ",
+          "site_rva": 357820,
+          "target_va": 268792320,
+          "kind": 20
+        },
+        {
+          "symbol": "??1?$List@PAUTelnetClient@TelnetTransport@@@DataStructures@@QAE@XZ",
+          "site_rva": 357836,
+          "target_va": 268792000,
+          "kind": 20
+        },
+        {
+          "symbol": "__except_list",
+          "site_rva": 357848,
+          "target_va": 0,
+          "kind": 6
+        }
+      ]
+    },
+    {
+      "unit": "eval_vendor_telnet_transport",
+      "section": 25,
+      "rva": 356544,
+      "size": 17,
+      "kind": ".text",
+      "sha256": "66089b6e0a3134ca86a77cddc0ee1cbecb6cf0ba7906672b6bff3ec4d8f6d0e9",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "??3@YAXPAX@Z",
+          "site_rva": 356555,
+          "target_va": 269247626,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "eval_vendor_telnet_transport",
+      "section": 42,
+      "rva": 356864,
+      "size": 68,
+      "kind": ".text",
+      "sha256": "f28dc50737ed5f8d3bff5e1a75df7f61b9db36d84a68ccd602448dedf1c7ae9d",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "?Stop@TCPInterface@@QAEXXZ",
+          "site_rva": 356876,
+          "target_va": 268787504,
+          "kind": 20
+        },
+        {
+          "symbol": "??3@YAXPAX@Z",
+          "site_rva": 356904,
+          "target_va": 269247626,
+          "kind": 20
+        },
+        {
+          "symbol": "?Clear@?$List@PAUTelnetClient@TelnetTransport@@@DataStructures@@QAEX_N@Z",
+          "site_rva": 356925,
+          "target_va": 268792192,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "eval_vendor_telnet_transport",
+      "section": 35,
+      "rva": 356736,
+      "size": 60,
+      "kind": ".text",
+      "sha256": "6826e27ddf1b68dd944c1908440277ebf2bc00ab2225cb82515bf05ef1041615",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "??3@YAXPAX@Z",
+          "site_rva": 356765,
+          "target_va": 269247626,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "eval_vendor_telnet_transport",
+      "section": 48,
+      "rva": 357616,
+      "size": 156,
+      "kind": ".text",
+      "sha256": "9cb41fb84986849b4bceef83d3eabca3eecfd3df635b201c1f915a18f9578975",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "?HasLostConnection@TCPInterface@@QAE?AUPlayerID@@XZ",
+          "site_rva": 357631,
+          "target_va": 268788336,
+          "kind": 20
+        },
+        {
+          "symbol": "_UNASSIGNED_PLAYER_ID",
+          "site_rva": 357646,
+          "target_va": 269492796,
+          "kind": 6
+        },
+        {
+          "symbol": "??9PlayerID@@QBE_NABU0@@Z",
+          "site_rva": 357660,
+          "target_va": 268646160,
+          "kind": 20
+        },
+        {
+          "symbol": "??8PlayerID@@QBE_NABU0@@Z",
+          "site_rva": 357692,
+          "target_va": 268646112,
+          "kind": 20
+        },
+        {
+          "symbol": "??3@YAXPAX@Z",
+          "site_rva": 357708,
+          "target_va": 269247626,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "eval_vendor_telnet_transport",
+      "section": 46,
+      "rva": 357360,
+      "size": 246,
+      "kind": ".text",
+      "sha256": "e1c19270f810bf1d4342ac6673f914379fdf67ca95e8e3cdb6a17eca9820653a",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "?HasNewConnection@TCPInterface@@QAE?AUPlayerID@@XZ",
+          "site_rva": 357377,
+          "target_va": 268788256,
+          "kind": 20
+        },
+        {
+          "symbol": "_UNASSIGNED_PLAYER_ID",
+          "site_rva": 357392,
+          "target_va": 269492796,
+          "kind": 6
+        },
+        {
+          "symbol": "??9PlayerID@@QBE_NABU0@@Z",
+          "site_rva": 357406,
+          "target_va": 268646160,
+          "kind": 20
+        },
+        {
+          "symbol": "?Send@TCPInterface@@QAEXPBDIUPlayerID@@@Z",
+          "site_rva": 357464,
+          "target_va": 268788016,
+          "kind": 20
+        },
+        {
+          "symbol": "??8PlayerID@@QBE_NABU0@@Z",
+          "site_rva": 357491,
+          "target_va": 268646112,
+          "kind": 20
+        },
+        {
+          "symbol": "??2@YAPAXI@Z",
+          "site_rva": 357533,
+          "target_va": 269247098,
+          "kind": 20
+        },
+        {
+          "symbol": "?Insert@?$List@PAUTelnetClient@TelnetTransport@@@DataStructures@@QAEXQAUTelnetClient@TelnetTransport@@@Z",
+          "site_rva": 357572,
+          "target_va": 268792048,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "eval_vendor_telnet_transport",
+      "section": 29,
+      "rva": 356592,
+      "size": 105,
+      "kind": ".text",
+      "sha256": "ecd8e9b8ebcf38e792f1c1951cc0c8dd87474d5a548976d3d482bd9c38cd4ffe",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "??2@YAPAXI@Z",
+          "site_rva": 356632,
+          "target_va": 269247098,
+          "kind": 20
+        },
+        {
+          "symbol": "??3@YAXPAX@Z",
+          "site_rva": 356666,
+          "target_va": 269247626,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "eval_vendor_telnet_transport",
+      "section": 44,
+      "rva": 356944,
+      "size": 403,
+      "kind": ".text",
+      "sha256": "a93170d601d72e673988b33b4f8b4331d8485de6690e2e28b3635af03bce9cbd",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "?Receive@TCPInterface@@QAEPAUPacket@@XZ",
+          "site_rva": 356965,
+          "target_va": 268788128,
+          "kind": 20
+        },
+        {
+          "symbol": "??8PlayerID@@QBE_NABU0@@Z",
+          "site_rva": 357038,
+          "target_va": 268646112,
+          "kind": 20
+        },
+        {
+          "symbol": "?Send@TCPInterface@@QAEXPBDIUPlayerID@@@Z",
+          "site_rva": 357100,
+          "target_va": 268788016,
+          "kind": 20
+        },
+        {
+          "symbol": "?Send@TCPInterface@@QAEXPBDIUPlayerID@@@Z",
+          "site_rva": 357170,
+          "target_va": 268788016,
+          "kind": 20
+        },
+        {
+          "symbol": "?ReassembleLine@TelnetTransport@@IAE_NPAUTelnetClient@1@E@Z",
+          "site_rva": 357187,
+          "target_va": 268791856,
+          "kind": 20
+        },
+        {
+          "symbol": "?DeallocatePacket@TCPInterface@@QAEXPAUPacket@@@Z",
+          "site_rva": 357215,
+          "target_va": 268788224,
+          "kind": 20
+        },
+        {
+          "symbol": "??2@YAPAXI@Z",
+          "site_rva": 357232,
+          "target_va": 269247098,
+          "kind": 20
+        },
+        {
+          "symbol": "??2@YAPAXI@Z",
+          "site_rva": 357264,
+          "target_va": 269247098,
+          "kind": 20
+        },
+        {
+          "symbol": "?DeallocatePacket@TCPInterface@@QAEXPAUPacket@@@Z",
+          "site_rva": 357333,
+          "target_va": 268788224,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "eval_vendor_telnet_transport",
+      "section": 21,
+      "rva": 356400,
+      "size": 116,
+      "kind": ".text",
+      "sha256": "1081614edf21c917ec668ec9e5ef275563ed46f1d371f6ccd1ade415714eeb43",
+      "whole_bytes_equal": true,
+      "bindings": []
+    },
+    {
+      "unit": "eval_vendor_telnet_transport",
+      "section": 40,
+      "rva": 356832,
+      "size": 27,
+      "kind": ".text",
+      "sha256": "54239121849cdb9594d5265641f103ca4aa78183278d925ae4cc7b338ae40b33",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "?AutoAllocate@TelnetTransport@@IAEXXZ",
+          "site_rva": 356836,
+          "target_va": 268791744,
+          "kind": 20
+        },
+        {
+          "symbol": "?Start@TCPInterface@@QAE_NGG@Z",
+          "site_rva": 356851,
+          "target_va": 268789888,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "eval_vendor_telnet_transport",
+      "section": 16,
+      "rva": 356288,
+      "size": 108,
+      "kind": ".text",
+      "sha256": "e90948753b9bd97440f2d252432df796e10f0d15edc67e0b68548d26e5b679bd",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "__ehhandler$?AutoAllocate@TelnetTransport@@IAEXXZ",
+          "site_rva": 356291,
+          "target_va": 269366795,
+          "kind": 6
+        },
+        {
+          "symbol": "__except_list",
+          "site_rva": 356297,
+          "target_va": 0,
+          "kind": 6
+        },
+        {
+          "symbol": "__except_list",
+          "site_rva": 356305,
+          "target_va": 0,
+          "kind": 6
+        },
+        {
+          "symbol": "??2@YAPAXI@Z",
+          "site_rva": 356326,
+          "target_va": 269247098,
+          "kind": 20
+        },
+        {
+          "symbol": "??0TCPInterface@@QAE@XZ",
+          "site_rva": 356352,
+          "target_va": 268787296,
+          "kind": 20
+        },
+        {
+          "symbol": "__except_list",
+          "site_rva": 356367,
+          "target_va": 0,
+          "kind": 6
+        },
+        {
+          "symbol": "__except_list",
+          "site_rva": 356388,
+          "target_va": 0,
+          "kind": 6
+        }
+      ]
+    },
+    {
+      "unit": "eval_vendor_telnet_transport",
+      "section": 37,
+      "rva": 356800,
+      "size": 28,
+      "kind": ".text",
+      "sha256": "d86501e28ec532ba73b564189941748ab11206b3597627b565ecd45153c6fd84",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "??_7TelnetTransport@@6B@",
+          "site_rva": 356808,
+          "target_va": 269390684,
+          "kind": 6
+        },
+        {
+          "symbol": "??0?$List@PAUTelnetClient@TelnetTransport@@@DataStructures@@QAE@XZ",
+          "site_rva": 356813,
+          "target_va": 268791984,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "eval_vendor_telnet_transport",
+      "section": 23,
+      "rva": 356528,
+      "size": 13,
+      "kind": ".text",
+      "sha256": "efaddf6f7c64b7d0dd7d70e04563c88df5b21978a063a338954e28cc09d4e5e9",
+      "whole_bytes_equal": true,
+      "bindings": []
+    },
+    {
+      "unit": "eval_vendor_telnet_transport",
+      "section": 12,
+      "rva": 356224,
+      "size": 34,
+      "kind": ".text",
+      "sha256": "c141d38fd8d2f489e4d38486c1e7c428a4acda422e1e1ce15ef84f2b936a0ece",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "??3@YAXPAX@Z",
+          "site_rva": 356241,
+          "target_va": 269247626,
+          "kind": 20
+        },
+        {
+          "symbol": "??3@YAXPAX@Z",
+          "site_rva": 356247,
+          "target_va": 269247626,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "eval_vendor_telnet_transport",
+      "section": 10,
+      "rva": 356192,
+      "size": 31,
+      "kind": ".text",
+      "sha256": "257cd370bd7504d107a4e3a2e52eb67278d7002e2f29e8f4ba203ded13b3c043",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "?CloseConnection@TCPInterface@@QAEXUPlayerID@@@Z",
+          "site_rva": 356216,
+          "target_va": 268788160,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "eval_vendor_telnet_transport",
+      "section": 8,
+      "rva": 356064,
+      "size": 127,
+      "kind": ".text",
+      "sha256": "ed9bf2c106008d14a5b81f601f8b8cacde0f766604cd1d376714f352a452993c",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "__vsnprintf",
+          "site_rva": 356112,
+          "target_va": 269257167,
+          "kind": 20
+        },
+        {
+          "symbol": "?Send@TCPInterface@@QAEXPBDIUPlayerID@@@Z",
+          "site_rva": 356179,
+          "target_va": 268788016,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "eval_vendor_telnet_transport",
+      "section": 51,
+      "rva": 931360,
+      "size": 21,
+      "kind": ".text$x",
+      "sha256": "1485a8e78e244b3b112e30277b7314b30bc979b094c91f3fc8bc07f571036b1a",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "??1?$List@PAUTelnetClient@TelnetTransport@@@DataStructures@@QAE@XZ",
+          "site_rva": 931367,
+          "target_va": 268792000,
+          "kind": 20
+        },
+        {
+          "symbol": "$T57910",
+          "site_rva": 931372,
+          "target_va": 269464420,
+          "kind": 6
+        },
+        {
+          "symbol": "___CxxFrameHandler",
+          "site_rva": 931377,
+          "target_va": 269247782,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "eval_vendor_telnet_transport",
+      "section": 38,
+      "rva": 955228,
+      "size": 36,
+      "kind": ".rdata",
+      "sha256": "5db65f7c630adb8d9af45803d84ccbb12fbed12f9673c41c6037f1264bf3cd2d",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "?Start@TelnetTransport@@UAE_NG_N@Z",
+          "site_rva": 955228,
+          "target_va": 268792288,
+          "kind": 6
+        },
+        {
+          "symbol": "?Stop@TelnetTransport@@UAEXXZ",
+          "site_rva": 955232,
+          "target_va": 268792320,
+          "kind": 6
+        },
+        {
+          "symbol": "?Send@TelnetTransport@@UAAXUPlayerID@@PBDZZ",
+          "site_rva": 955236,
+          "target_va": 268791520,
+          "kind": 6
+        },
+        {
+          "symbol": "?CloseConnection@TelnetTransport@@UAEXUPlayerID@@@Z",
+          "site_rva": 955240,
+          "target_va": 268791648,
+          "kind": 6
+        },
+        {
+          "symbol": "?Receive@TelnetTransport@@UAEPAUPacket@@XZ",
+          "site_rva": 955244,
+          "target_va": 268792400,
+          "kind": 6
+        },
+        {
+          "symbol": "?DeallocatePacket@TelnetTransport@@UAEXPAUPacket@@@Z",
+          "site_rva": 955248,
+          "target_va": 268791680,
+          "kind": 6
+        },
+        {
+          "symbol": "?HasNewConnection@TelnetTransport@@UAE?AUPlayerID@@XZ",
+          "site_rva": 955252,
+          "target_va": 268792816,
+          "kind": 6
+        },
+        {
+          "symbol": "?HasLostConnection@TelnetTransport@@UAE?AUPlayerID@@XZ",
+          "site_rva": 955256,
+          "target_va": 268793072,
+          "kind": 6
+        },
+        {
+          "symbol": "?GetCommandParser@TelnetTransport@@UAEPAVCommandParserInterface@@XZ",
+          "site_rva": 955260,
+          "target_va": 268791728,
+          "kind": 6
+        }
+      ]
+    },
+    {
+      "unit": "eval_vendor_telnet_transport",
+      "section": 54,
+      "rva": 1057340,
+      "size": 16,
+      "kind": ".data",
+      "sha256": "44774f987c1b2569c171277ac704deed6fa979e51c12bc30dc3b0defaf92ede9",
+      "whole_bytes_equal": true,
+      "bindings": []
+    },
+    {
+      "unit": "eval_vendor_telnet_transport",
+      "section": 17,
+      "rva": 931328,
+      "size": 21,
+      "kind": ".text$x",
+      "sha256": "641476526fee227d4335046f88871a0c77ca7d14abfd19fa5c324b124306eab3",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "??3@YAXPAX@Z",
+          "site_rva": 931333,
+          "target_va": 269247626,
+          "kind": 20
+        },
+        {
+          "symbol": "$T57773",
+          "site_rva": 931340,
+          "target_va": 269464384,
+          "kind": 6
+        },
+        {
+          "symbol": "___CxxFrameHandler",
+          "site_rva": 931345,
+          "target_va": 269247782,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "eval_vendor_telnet_transport",
+      "section": 52,
+      "rva": 1028956,
+      "size": 36,
+      "kind": ".xdata$x",
+      "sha256": "e16aa79176f5105ea1dcdd068d08433a15bc7b32429a335c0e16477fec6e9025",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "$L57908",
+          "site_rva": 1028960,
+          "target_va": 269366816,
+          "kind": 6
+        },
+        {
+          "symbol": "$T57912",
+          "site_rva": 1028972,
+          "target_va": 269464412,
+          "kind": 6
+        }
+      ]
+    },
+    {
+      "unit": "eval_vendor_telnet_transport",
+      "section": 18,
+      "rva": 1028920,
+      "size": 36,
+      "kind": ".xdata$x",
+      "sha256": "f8bc2cfe5078021f859ad4c7de84affca2c279edffcd3a3ff427625bcd2d1a6e",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "$L57769",
+          "site_rva": 1028924,
+          "target_va": 269366784,
+          "kind": 6
+        },
+        {
+          "symbol": "$T57776",
+          "site_rva": 1028936,
+          "target_va": 269464376,
+          "kind": 6
+        }
+      ]
+    },
+    {
+      "unit": "eval_vendor_console_server",
+      "section": 31,
+      "rva": 150912,
+      "size": 2056,
+      "kind": ".text",
+      "sha256": "46bc520a1283fe0f3776088b65ed750b8d0ef28567fa98563c3fe824a664decd",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "_UNASSIGNED_PLAYER_ID",
+          "site_rva": 150968,
+          "target_va": 269477424,
+          "kind": 6
+        },
+        {
+          "symbol": "??9PlayerID@@QBE_NABU0@@Z",
+          "site_rva": 150982,
+          "target_va": 268646160,
+          "kind": 20
+        },
+        {
+          "symbol": "??_C@_0DO@NLNPPNJH@Connected?5to?5remote?5command?5cons@",
+          "site_rva": 151052,
+          "target_va": 269380056,
+          "kind": 6
+        },
+        {
+          "symbol": "?ListParsers@ConsoleServer@@IAEXUPlayerID@@@Z",
+          "site_rva": 151099,
+          "target_va": 268586128,
+          "kind": 20
+        },
+        {
+          "symbol": "_UNASSIGNED_PLAYER_ID",
+          "site_rva": 151127,
+          "target_va": 269477424,
+          "kind": 6
+        },
+        {
+          "symbol": "??9PlayerID@@QBE_NABU0@@Z",
+          "site_rva": 151141,
+          "target_va": 268646160,
+          "kind": 20
+        },
+        {
+          "symbol": "?ParseConsoleString@CommandParserInterface@@SAXPADDEPAIPAPADI@Z",
+          "site_rva": 151280,
+          "target_va": 268567248,
+          "kind": 20
+        },
+        {
+          "symbol": "??_C@_04PCJFHION@help?$AA@",
+          "site_rva": 151289,
+          "target_va": 269380048,
+          "kind": 6
+        },
+        {
+          "symbol": "__stricmp",
+          "site_rva": 151295,
+          "target_va": 269254514,
+          "kind": 20
+        },
+        {
+          "symbol": "??_C@_0BC@DPPMHAOM@?$AN?6INSTRUCTIONS?3?$AN?6?$AA@",
+          "site_rva": 151341,
+          "target_va": 269380028,
+          "kind": 6
+        },
+        {
+          "symbol": "??_C@_0EJ@MPJMLFDA@Enter?5commands?5on?5your?5keyboard?0@",
+          "site_rva": 151377,
+          "target_va": 269379952,
+          "kind": 6
+        },
+        {
+          "symbol": "??_C@_0DL@EMBLIGKH@You?5can?5use?5quotation?5marks?5to?5t@",
+          "site_rva": 151413,
+          "target_va": 269379892,
+          "kind": 6
+        },
+        {
+          "symbol": "??_C@_0DJ@GOAAOJOH@You?5can?5connect?5multiple?5times?5f@",
+          "site_rva": 151449,
+          "target_va": 269379832,
+          "kind": 6
+        },
+        {
+          "symbol": "??_C@_0EO@FAGBNIJD@You?5can?5direct?5commands?5to?5a?5par@",
+          "site_rva": 151485,
+          "target_va": 269379752,
+          "kind": 6
+        },
+        {
+          "symbol": "??_C@_0M@LFCGILND@COMMANDS?3?$AN?6?$AA@",
+          "site_rva": 151521,
+          "target_va": 269379740,
+          "kind": 6
+        },
+        {
+          "symbol": "??_C@_0EB@OCHDCLHA@help?5?5?5?5?5?5?5?5?5?5?5?5?5?5?5?5?5?5?5?5?5?5?5?5?5?5?5?5@",
+          "site_rva": 151557,
+          "target_va": 269379672,
+          "kind": 6
+        },
+        {
+          "symbol": "??_C@_0FA@OHDDDFPG@help?5?$DMParserName?$DO?5?5?5?5?5?5?5?5?5?5?5?5?5?5?5@",
+          "site_rva": 151593,
+          "target_va": 269379592,
+          "kind": 6
+        },
+        {
+          "symbol": "??_C@_0FB@PENBGBMM@help?5?$DMCommandName?$DO?5?5?5?5?5?5?5?5?5?5?5?5?5?5@",
+          "site_rva": 151629,
+          "target_va": 269379504,
+          "kind": 6
+        },
+        {
+          "symbol": "??_C@_0EL@MOIDGHJB@quit?5?5?5?5?5?5?5?5?5?5?5?5?5?5?5?5?5?5?5?5?5?5?5?5?5?5?5?5@",
+          "site_rva": 151665,
+          "target_va": 269379424,
+          "kind": 6
+        },
+        {
+          "symbol": "??_C@_0EA@HBIAAPBG@?$FL?$DMParserName?$DO?$FN?5?5?5?$DMCommand?$DO?5?$FL?$DMPar@",
+          "site_rva": 151701,
+          "target_va": 269379360,
+          "kind": 6
+        },
+        {
+          "symbol": "??_C@_0EA@HIMLCLLK@?$FL?$DMParserNumber?$DO?$FN?5?$DMCommand?$DO?5?$FL?$DMPar@",
+          "site_rva": 151737,
+          "target_va": 269379296,
+          "kind": 6
+        },
+        {
+          "symbol": "?ListParsers@ConsoleServer@@IAEXUPlayerID@@@Z",
+          "site_rva": 151784,
+          "target_va": 268586128,
+          "kind": 20
+        },
+        {
+          "symbol": "__stricmp",
+          "site_rva": 151828,
+          "target_va": 269254514,
+          "kind": 20
+        },
+        {
+          "symbol": "??_C@_0BK@PMNLJFDA@Unknown?5help?5topic?3?5?$CFs?4?$AN?6?$AA@",
+          "site_rva": 151908,
+          "target_va": 269379264,
+          "kind": 6
+        },
+        {
+          "symbol": "??_C@_0BA@DJLCEDHE@COMMAND?5LIST?3?$AN?6?$AA@",
+          "site_rva": 151999,
+          "target_va": 269379248,
+          "kind": 6
+        },
+        {
+          "symbol": "??_C@_02PCIJFNDE@?$AN?6?$AA@",
+          "site_rva": 152087,
+          "target_va": 269378880,
+          "kind": 6
+        },
+        {
+          "symbol": "?VARIABLE_NUMBER_OF_PARAMETERS@CommandParserInterface@@2EB",
+          "site_rva": 152112,
+          "target_va": 269378713,
+          "kind": 6
+        },
+        {
+          "symbol": "??_C@_0BK@DPMAEHFD@?$CIVariable?5parms?$CJ?3?5?$CFs?5?$CFs?$AN?6?$AA@",
+          "site_rva": 152140,
+          "target_va": 269379220,
+          "kind": 6
+        },
+        {
+          "symbol": "??_C@_0BE@ICBGBOJB@?$CI?$CFi?5parms?$CJ?3?5?$CFs?5?$CFs?$AN?6?$AA@",
+          "site_rva": 152193,
+          "target_va": 269379200,
+          "kind": 6
+        },
+        {
+          "symbol": "??_C@_04KNNLNNGO@quit?$AA@",
+          "site_rva": 152234,
+          "target_va": 269379192,
+          "kind": 6
+        },
+        {
+          "symbol": "__stricmp",
+          "site_rva": 152240,
+          "target_va": 269254514,
+          "kind": 20
+        },
+        {
+          "symbol": "??_C@_08HDBDJBNL@Goodbye?$CB?$AA@",
+          "site_rva": 152266,
+          "target_va": 269379180,
+          "kind": 6
+        },
+        {
+          "symbol": "_atoi",
+          "site_rva": 152354,
+          "target_va": 269249830,
+          "kind": 20
+        },
+        {
+          "symbol": "??_C@_0BB@MBKMFMKD@Invalid?5index?4?$AN?6?$AA@",
+          "site_rva": 152381,
+          "target_va": 269379160,
+          "kind": 6
+        },
+        {
+          "symbol": "__stricmp",
+          "site_rva": 152450,
+          "target_va": 269254514,
+          "kind": 20
+        },
+        {
+          "symbol": "?VARIABLE_NUMBER_OF_PARAMETERS@CommandParserInterface@@2EB",
+          "site_rva": 152531,
+          "target_va": 269378713,
+          "kind": 6
+        },
+        {
+          "symbol": "??_C@_0CO@MGKEDAIC@Invalid?5parameter?5count?4?$AN?6?$CI?$CFi?5pa@",
+          "site_rva": 152579,
+          "target_va": 269379112,
+          "kind": 6
+        },
+        {
+          "symbol": "?VARIABLE_NUMBER_OF_PARAMETERS@CommandParserInterface@@2EB",
+          "site_rva": 152659,
+          "target_va": 269378713,
+          "kind": 6
+        },
+        {
+          "symbol": "??_C@_0CO@MGKEDAIC@Invalid?5parameter?5count?4?$AN?6?$CI?$CFi?5pa@",
+          "site_rva": 152696,
+          "target_va": 269379112,
+          "kind": 6
+        },
+        {
+          "symbol": "??_C@_0CK@GDAAGGHG@Unknown?5command?3?5?5Type?5?8help?8?5fo@",
+          "site_rva": 152898,
+          "target_va": 269379068,
+          "kind": 6
+        }
+      ]
+    },
+    {
+      "unit": "eval_vendor_console_server",
+      "section": 25,
+      "rva": 150672,
+      "size": 117,
+      "kind": ".text",
+      "sha256": "632c5d50608f2cf55ef5e14cabbe7942ce92146ee1adfd7d5ea0ec991216dde3",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "??_C@_0BF@JKJFFOG@INSTALLED?5PARSERS?3?$AN?6?$AA@",
+          "site_rva": 150686,
+          "target_va": 269379044,
+          "kind": 6
+        },
+        {
+          "symbol": "??_C@_08EIGAEAF@?$CFi?4?5?$CFs?$AN?6?$AA@",
+          "site_rva": 150751,
+          "target_va": 269379032,
+          "kind": 6
+        }
+      ]
+    },
+    {
+      "unit": "eval_vendor_console_server",
+      "section": 29,
+      "rva": 150800,
+      "size": 106,
+      "kind": ".text",
+      "sha256": "716ef9ab41a08f796e79e3e9be7ea2aeb6a18fa5cc3baaf36695e39574d8f416",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "?RemoveCommandParser@ConsoleServer@@QAEXPAVCommandParserInterface@@@Z",
+          "site_rva": 150827,
+          "target_va": 268586064,
+          "kind": 20
+        },
+        {
+          "symbol": "?AddCommandParser@ConsoleServer@@QAEXPAVCommandParserInterface@@@Z",
+          "site_rva": 150897,
+          "target_va": 268585952,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "eval_vendor_console_server",
+      "section": 21,
+      "rva": 150496,
+      "size": 99,
+      "kind": ".text",
+      "sha256": "b8d90f9e6cc1eb3f8a145134d0ea8d0e3eaf8218c4cff46336fba067505af9d5",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "__stricmp",
+          "site_rva": 150546,
+          "target_va": 269254514,
+          "kind": 20
+        },
+        {
+          "symbol": "?Insert@?$List@PAVCommandParserInterface@@@DataStructures@@QAEXQAVCommandParserInterface@@@Z",
+          "site_rva": 150570,
+          "target_va": 268585760,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "eval_vendor_console_server",
+      "section": 11,
+      "rva": 150304,
+      "size": 105,
+      "kind": ".text",
+      "sha256": "d168faf0f414958eb15ffe0d177317c6b314c5bc58071438199d40f35d3df60b",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "??2@YAPAXI@Z",
+          "site_rva": 150344,
+          "target_va": 269247098,
+          "kind": 20
+        },
+        {
+          "symbol": "??3@YAXPAX@Z",
+          "site_rva": 150378,
+          "target_va": 269247626,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "eval_vendor_console_server",
+      "section": 23,
+      "rva": 150608,
+      "size": 61,
+      "kind": ".text",
+      "sha256": "dd9c8466761a9d5d03346630dff52422aaf330df9b3f7f24690bb91f9cbe081d",
+      "whole_bytes_equal": true,
+      "bindings": []
+    },
+    {
+      "unit": "eval_vendor_console_server",
+      "section": 17,
+      "rva": 150448,
+      "size": 28,
+      "kind": ".text",
+      "sha256": "de58c6a675c0a3bd3ccf101f201ab8e457d0b6b70dbc92a72d69b2cb923961c1",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "??0?$List@PAVCommandParserInterface@@@DataStructures@@QAE@XZ",
+          "site_rva": 150455,
+          "target_va": 268585696,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "eval_vendor_console_server",
+      "section": 5,
+      "rva": 150240,
+      "size": 13,
+      "kind": ".text",
+      "sha256": "efaddf6f7c64b7d0dd7d70e04563c88df5b21978a063a338954e28cc09d4e5e9",
+      "whole_bytes_equal": true,
+      "bindings": []
+    },
+    {
+      "unit": "eval_vendor_console_server",
+      "section": 39,
+      "rva": 943424,
+      "size": 3,
+      "kind": ".rdata",
+      "sha256": "426520180ee94ef36224225e32706bc9f2be242acf51bb23d69fea7e6d92a20a",
+      "whole_bytes_equal": true,
+      "bindings": []
+    },
+    {
+      "unit": "eval_vendor_console_server",
+      "section": 26,
+      "rva": 943576,
+      "size": 9,
+      "kind": ".rdata",
+      "sha256": "a67854873e1a93e7b47a680f3ebb7413af57686971e3ee4527d12d128288e1bc",
+      "whole_bytes_equal": true,
+      "bindings": []
+    },
+    {
+      "unit": "eval_vendor_console_server",
+      "section": 56,
+      "rva": 1041968,
+      "size": 16,
+      "kind": ".data",
+      "sha256": "44774f987c1b2569c171277ac704deed6fa979e51c12bc30dc3b0defaf92ede9",
+      "whole_bytes_equal": true,
+      "bindings": []
+    },
+    {
+      "unit": "eval_vendor_console_server",
+      "section": 55,
+      "rva": 944600,
+      "size": 62,
+      "kind": ".rdata",
+      "sha256": "ff9e1f86ef4946e884a5c0c77ef03741edef6e04c693cf600a9fce125bcbf9eb",
+      "whole_bytes_equal": true,
+      "bindings": []
+    },
+    {
+      "unit": "eval_vendor_console_server",
+      "section": 54,
+      "rva": 944592,
+      "size": 5,
+      "kind": ".rdata",
+      "sha256": "2fb3a901c2aca099db8a96a063778fc3b5d986e665d3f7b05a7107b1d9c53595",
+      "whole_bytes_equal": true,
+      "bindings": []
+    },
+    {
+      "unit": "eval_vendor_console_server",
+      "section": 53,
+      "rva": 944572,
+      "size": 18,
+      "kind": ".rdata",
+      "sha256": "21eddfac4c42a3b6c9757e970ee398f4378427a1a7781abdf81687e9560fdccc",
+      "whole_bytes_equal": true,
+      "bindings": []
+    },
+    {
+      "unit": "eval_vendor_console_server",
+      "section": 52,
+      "rva": 944496,
+      "size": 73,
+      "kind": ".rdata",
+      "sha256": "2121a388c4ab38f44b74c065ff83d51ae7cc6bfbbf0d4543457cdb7bc6ed6366",
+      "whole_bytes_equal": true,
+      "bindings": []
+    },
+    {
+      "unit": "eval_vendor_console_server",
+      "section": 51,
+      "rva": 944436,
+      "size": 59,
+      "kind": ".rdata",
+      "sha256": "17cd837580c2090f5e4ef1e66ceb98fc7f243a487a00de7469ad5d74f1a7ca41",
+      "whole_bytes_equal": true,
+      "bindings": []
+    },
+    {
+      "unit": "eval_vendor_console_server",
+      "section": 50,
+      "rva": 944376,
+      "size": 57,
+      "kind": ".rdata",
+      "sha256": "887bcabc19a51f101afdc7623961402920ad42f1e2391b42c6fd461f956225da",
+      "whole_bytes_equal": true,
+      "bindings": []
+    },
+    {
+      "unit": "eval_vendor_console_server",
+      "section": 49,
+      "rva": 944296,
+      "size": 78,
+      "kind": ".rdata",
+      "sha256": "6a6cd2adab260eb3b090c946019c48a6c542621efa84ce70726dbe218ad3a106",
+      "whole_bytes_equal": true,
+      "bindings": []
+    },
+    {
+      "unit": "eval_vendor_console_server",
+      "section": 48,
+      "rva": 944284,
+      "size": 12,
+      "kind": ".rdata",
+      "sha256": "c7dc1eb95563eff67e5ea4c939d70f9d95a84ad8196eb42687ede986398f0f97",
+      "whole_bytes_equal": true,
+      "bindings": []
+    },
+    {
+      "unit": "eval_vendor_console_server",
+      "section": 47,
+      "rva": 944216,
+      "size": 65,
+      "kind": ".rdata",
+      "sha256": "ecbb80ebd5d1429f526dd8ff4f5e91504007819fa65a2d156ab8403881cf40e1",
+      "whole_bytes_equal": true,
+      "bindings": []
+    },
+    {
+      "unit": "eval_vendor_console_server",
+      "section": 46,
+      "rva": 944136,
+      "size": 80,
+      "kind": ".rdata",
+      "sha256": "409bd252df60d1be6c904ff0a08a6d431a067ab225639aa8742ad66b22586c8f",
+      "whole_bytes_equal": true,
+      "bindings": []
+    },
+    {
+      "unit": "eval_vendor_console_server",
+      "section": 45,
+      "rva": 944048,
+      "size": 81,
+      "kind": ".rdata",
+      "sha256": "707095a9cef8cc27112b6fb013bd41483c537743078e1265e1eafe05aeebc2bf",
+      "whole_bytes_equal": true,
+      "bindings": []
+    },
+    {
+      "unit": "eval_vendor_console_server",
+      "section": 44,
+      "rva": 943968,
+      "size": 75,
+      "kind": ".rdata",
+      "sha256": "fbfc758d1078f311c1169de98b3667894b037d65f0199aa193b5978a3c8ed3a3",
+      "whole_bytes_equal": true,
+      "bindings": []
+    },
+    {
+      "unit": "eval_vendor_console_server",
+      "section": 43,
+      "rva": 943904,
+      "size": 64,
+      "kind": ".rdata",
+      "sha256": "482dd6500ec8a4247f7ae0ac00fa13f487227c3912a38dffec19a9f16325c89f",
+      "whole_bytes_equal": true,
+      "bindings": []
+    },
+    {
+      "unit": "eval_vendor_console_server",
+      "section": 42,
+      "rva": 943840,
+      "size": 64,
+      "kind": ".rdata",
+      "sha256": "c67c3cdfc15e71ea7cff51273e49260b575ae383152ae22d9aaa5ea93e14a258",
+      "whole_bytes_equal": true,
+      "bindings": []
+    },
+    {
+      "unit": "eval_vendor_console_server",
+      "section": 41,
+      "rva": 943808,
+      "size": 26,
+      "kind": ".rdata",
+      "sha256": "f464e9e619e9a68c460acccc559f1c40cbac60cd819d3bd65c58451e6f80e57d",
+      "whole_bytes_equal": true,
+      "bindings": []
+    },
+    {
+      "unit": "eval_vendor_console_server",
+      "section": 40,
+      "rva": 943792,
+      "size": 16,
+      "kind": ".rdata",
+      "sha256": "da4ec78b2401d0ce78b08e147e86b78d60bb1cd3e1e75dcfa31f3c5fd3106761",
+      "whole_bytes_equal": true,
+      "bindings": []
+    },
+    {
+      "unit": "eval_vendor_console_server",
+      "section": 38,
+      "rva": 943764,
+      "size": 26,
+      "kind": ".rdata",
+      "sha256": "db900727da5b3a4dac8abc7a2ffdab283077d23b83d8d49624052555bc131fa6",
+      "whole_bytes_equal": true,
+      "bindings": []
+    },
+    {
+      "unit": "eval_vendor_console_server",
+      "section": 37,
+      "rva": 943744,
+      "size": 20,
+      "kind": ".rdata",
+      "sha256": "77a85b28057ddf08dd812e24a0ef3d2077e71d4d2912595ac3e06a88ac9bfd62",
+      "whole_bytes_equal": true,
+      "bindings": []
+    },
+    {
+      "unit": "eval_vendor_console_server",
+      "section": 36,
+      "rva": 943736,
+      "size": 5,
+      "kind": ".rdata",
+      "sha256": "bb412fee901685a8138db62d84dafe2952228fc52a5076853512cd93a050e569",
+      "whole_bytes_equal": true,
+      "bindings": []
+    },
+    {
+      "unit": "eval_vendor_console_server",
+      "section": 35,
+      "rva": 943724,
+      "size": 9,
+      "kind": ".rdata",
+      "sha256": "3c33af1e19d2cc5501ebf710900d49727a9c9d92aa7534a04517b2dc93f05b91",
+      "whole_bytes_equal": true,
+      "bindings": []
+    },
+    {
+      "unit": "eval_vendor_console_server",
+      "section": 34,
+      "rva": 943704,
+      "size": 17,
+      "kind": ".rdata",
+      "sha256": "54a00f563c9a6d129b11f4b1c79f07578d75e24f38eefd5fc59d51226988b548",
+      "whole_bytes_equal": true,
+      "bindings": []
+    },
+    {
+      "unit": "eval_vendor_console_server",
+      "section": 33,
+      "rva": 943656,
+      "size": 46,
+      "kind": ".rdata",
+      "sha256": "963eef8de710a992f246642e5971f81121bc7833c203581738965f28ad0ea430",
+      "whole_bytes_equal": true,
+      "bindings": []
+    },
+    {
+      "unit": "eval_vendor_console_server",
+      "section": 32,
+      "rva": 943612,
+      "size": 42,
+      "kind": ".rdata",
+      "sha256": "955ec1cd28adaa1cb8b1632c784bb144959ee876a7cf39e8834fe9b41bd0d192",
+      "whole_bytes_equal": true,
+      "bindings": []
+    },
+    {
+      "unit": "eval_vendor_console_server",
+      "section": 27,
+      "rva": 943588,
+      "size": 21,
+      "kind": ".rdata",
+      "sha256": "f99a2e53fb5347f2be10c85bfdee7ef2cb231d3d0c7584bbc5bad4078fa53cc1",
+      "whole_bytes_equal": true,
+      "bindings": []
+    },
+    {
+      "unit": "eval_vendor_packet_console_logger",
+      "section": 11,
+      "rva": 211520,
+      "size": 30,
+      "kind": ".text",
+      "sha256": "88cd01552103cceb3d52d2447625357ca2d800ef636af637e016bd9b4a8b7ec8",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "??1PacketConsoleLogger@@UAE@XZ",
+          "site_rva": 211524,
+          "target_va": 268647008,
+          "kind": 20
+        },
+        {
+          "symbol": "??3@YAXPAX@Z",
+          "site_rva": 211537,
+          "target_va": 269247626,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "eval_vendor_packet_console_logger",
+      "section": 13,
+      "rva": 211552,
+      "size": 5,
+      "kind": ".text",
+      "sha256": "d1bfbd69bdc6037791543016f1e7962bfa2d43190af15ee49ce3ca56841ad5b9",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "??1PacketLogger@@UAE@XZ",
+          "site_rva": 211553,
+          "target_va": 268647200,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "eval_vendor_packet_console_logger",
+      "section": 9,
+      "rva": 211488,
+      "size": 29,
+      "kind": ".text",
+      "sha256": "11952a93fc3fae590ee51ebbf831f75a1dceae766ab7dee5412560a5af389149",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "??_C@_0BE@IJNHMNLA@PacketConsoleLogger?$AA@",
+          "site_rva": 211501,
+          "target_va": 269382116,
+          "kind": 6
+        },
+        {
+          "symbol": "?WriteLog@LogCommandParser@@QAAXPBD0ZZ",
+          "site_rva": 211507,
+          "target_va": 268637328,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "eval_vendor_packet_console_logger",
+      "section": 6,
+      "rva": 211456,
+      "size": 29,
+      "kind": ".text",
+      "sha256": "1387af5ce72d494cb85a056eb13aca04f955553a2785c9189e47330a1f2be194",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "??_C@_0BE@IJNHMNLA@PacketConsoleLogger?$AA@",
+          "site_rva": 211471,
+          "target_va": 269382116,
+          "kind": 6
+        },
+        {
+          "symbol": "?AddChannel@LogCommandParser@@QAEXPBD@Z",
+          "site_rva": 211478,
+          "target_va": 268637280,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "eval_vendor_packet_console_logger",
+      "section": 3,
+      "rva": 211424,
+      "size": 25,
+      "kind": ".text",
+      "sha256": "0374d115d7caff948cf4a38f8bd59da8f8afb1bb790f1b3af9961ec30444d876",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "??0PacketLogger@@QAE@XZ",
+          "site_rva": 211428,
+          "target_va": 268647520,
+          "kind": 20
+        },
+        {
+          "symbol": "??_7PacketConsoleLogger@@6B@",
+          "site_rva": 211434,
+          "target_va": 269382048,
+          "kind": 6
+        }
+      ]
+    },
+    {
+      "unit": "eval_vendor_packet_console_logger",
+      "section": 7,
+      "rva": 946660,
+      "size": 20,
+      "kind": ".rdata",
+      "sha256": "8f31096aae3d1ff01320a967a73daba7bf3825b49dda7b80d1de9473da641c92",
+      "whole_bytes_equal": true,
+      "bindings": []
+    },
+    {
+      "unit": "eval_vendor_packet_console_logger",
+      "section": 4,
+      "rva": 946592,
+      "size": 68,
+      "kind": ".rdata",
+      "sha256": "4f371033169841dab98c1077a1bc35d8026620b1fbef3fa3c83f7a6ba95fd357",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "?OnAttach@PacketLogger@@UAEXPAVRakPeerInterface@@@Z",
+          "site_rva": 946592,
+          "target_va": 268647216,
+          "kind": 6
+        },
+        {
+          "symbol": "?OnDetach@PluginInterface@@UAEXPAVRakPeerInterface@@@Z",
+          "site_rva": 946596,
+          "target_va": 268648320,
+          "kind": 6
+        },
+        {
+          "symbol": "?OnInitialize@PluginInterface@@UAEXPAVRakPeerInterface@@@Z",
+          "site_rva": 946600,
+          "target_va": 268648336,
+          "kind": 6
+        },
+        {
+          "symbol": "?Update@PluginInterface@@UAEXPAVRakPeerInterface@@@Z",
+          "site_rva": 946604,
+          "target_va": 268648352,
+          "kind": 6
+        },
+        {
+          "symbol": "?OnReceive@PluginInterface@@UAE?AW4PluginReceiveResult@@PAVRakPeerInterface@@PAUPacket@@@Z",
+          "site_rva": 946608,
+          "target_va": 268648368,
+          "kind": 6
+        },
+        {
+          "symbol": "?OnDisconnect@PluginInterface@@UAEXPAVRakPeerInterface@@@Z",
+          "site_rva": 946612,
+          "target_va": 268648384,
+          "kind": 6
+        },
+        {
+          "symbol": "?OnCloseConnection@PluginInterface@@UAEXPAVRakPeerInterface@@UPlayerID@@@Z",
+          "site_rva": 946616,
+          "target_va": 268648400,
+          "kind": 6
+        },
+        {
+          "symbol": "?OnDirectSocketSend@PacketLogger@@UAEXPBDIUPlayerID@@@Z",
+          "site_rva": 946620,
+          "target_va": 268647584,
+          "kind": 6
+        },
+        {
+          "symbol": "?OnDirectSocketReceive@PacketLogger@@UAEXPBDIUPlayerID@@@Z",
+          "site_rva": 946624,
+          "target_va": 268647760,
+          "kind": 6
+        },
+        {
+          "symbol": "?OnInternalPacket@PacketLogger@@UAEXPAUInternalPacket@@IUPlayerID@@I_N@Z",
+          "site_rva": 946628,
+          "target_va": 268647936,
+          "kind": 6
+        },
+        {
+          "symbol": "??_EPacketConsoleLogger@@UAEPAXI@Z",
+          "site_rva": 946632,
+          "target_va": 268646976,
+          "kind": 6
+        },
+        {
+          "symbol": "?LogHeader@PacketLogger@@UAEXXZ",
+          "site_rva": 946636,
+          "target_va": 268647232,
+          "kind": 6
+        },
+        {
+          "symbol": "?WriteLog@PacketConsoleLogger@@UAEXPBD@Z",
+          "site_rva": 946640,
+          "target_va": 268646944,
+          "kind": 6
+        },
+        {
+          "symbol": "?SetPrintID@PacketLogger@@UAEX_N@Z",
+          "site_rva": 946644,
+          "target_va": 268647264,
+          "kind": 6
+        },
+        {
+          "symbol": "?SetPrintAcks@PacketLogger@@UAEX_N@Z",
+          "site_rva": 946648,
+          "target_va": 268647280,
+          "kind": 6
+        },
+        {
+          "symbol": "?UserIDTOString@PacketLogger@@MAEPADE@Z",
+          "site_rva": 946652,
+          "target_va": 268647312,
+          "kind": 6
+        },
+        {
+          "symbol": "?SetLogCommandParser@PacketConsoleLogger@@UAEXPAVLogCommandParser@@@Z",
+          "site_rva": 946656,
+          "target_va": 268646912,
+          "kind": 6
+        }
+      ]
+    },
+    {
+      "unit": "eval_vendor_command_parser_interface",
+      "section": 76,
+      "rva": 133680,
+      "size": 14,
+      "kind": ".text",
+      "sha256": "febe8ae189ec223804aed15e3a5242e12db58d5e2f5022eec789bab02054c1a9",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "??_7CommandParserInterface@@6B@",
+          "site_rva": 133682,
+          "target_va": 269378892,
+          "kind": 6
+        },
+        {
+          "symbol": "??1?$OrderedList@PBDURegisteredCommand@@$1?RegisteredCommandComp@@YAHABQBDABU1@@Z@DataStructures@@QAE@XZ",
+          "site_rva": 133690,
+          "target_va": 268569024,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "eval_vendor_command_parser_interface",
+      "section": 68,
+      "rva": 133568,
+      "size": 73,
+      "kind": ".text",
+      "sha256": "82a55cab70ab573f9417164cb64e8c0a6c1a87b7418de31a960d405f4f9bd588",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "__ehhandler$??1?$OrderedList@PBDURegisteredCommand@@$1?RegisteredCommandComp@@YAHABQBDABU1@@Z@DataStructures@@QAE@XZ",
+          "site_rva": 133571,
+          "target_va": 269358968,
+          "kind": 6
+        },
+        {
+          "symbol": "__except_list",
+          "site_rva": 133577,
+          "target_va": 0,
+          "kind": 6
+        },
+        {
+          "symbol": "__except_list",
+          "site_rva": 133585,
+          "target_va": 0,
+          "kind": 6
+        },
+        {
+          "symbol": "?Clear@?$OrderedList@PBDURegisteredCommand@@$1?RegisteredCommandComp@@YAHABQBDABU1@@Z@DataStructures@@QAEXXZ",
+          "site_rva": 133606,
+          "target_va": 268568640,
+          "kind": 20
+        },
+        {
+          "symbol": "??1?$List@URegisteredCommand@@@DataStructures@@QAE@XZ",
+          "site_rva": 133621,
+          "target_va": 268567888,
+          "kind": 20
+        },
+        {
+          "symbol": "__except_list",
+          "site_rva": 133633,
+          "target_va": 0,
+          "kind": 6
+        }
+      ]
+    },
+    {
+      "unit": "eval_vendor_command_parser_interface",
+      "section": 34,
+      "rva": 132432,
+      "size": 17,
+      "kind": ".text",
+      "sha256": "57ea84928db776fb6923df5e3f8988f8a83fcf5d02194f369c8429d54d270517",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "??3@YAXPAX@Z",
+          "site_rva": 132443,
+          "target_va": 269247626,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "eval_vendor_command_parser_interface",
+      "section": 56,
+      "rva": 133184,
+      "size": 8,
+      "kind": ".text",
+      "sha256": "d7d8e6a858526f1344e34624dd2214506e4a2a5cb1e39050007d205afecc7021",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "?Clear@?$List@URegisteredCommand@@@DataStructures@@QAEX_N@Z",
+          "site_rva": 133187,
+          "target_va": 268568240,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "eval_vendor_command_parser_interface",
+      "section": 44,
+      "rva": 132784,
+      "size": 60,
+      "kind": ".text",
+      "sha256": "0af06e5b968d2b9f0ec2cb7ed70704847d02cd7f3fcf04d7c16087f6e231d211",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "??3@YAXPAX@Z",
+          "site_rva": 132813,
+          "target_va": 269247626,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "eval_vendor_command_parser_interface",
+      "section": 24,
+      "rva": 132240,
+      "size": 53,
+      "kind": ".text",
+      "sha256": "5f4be3d9b2586f107215a11d35e828d9d7bc394561ad41c5ed5a558777cfadac",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "??_C@_0BC@NOAIEMOJ@?$CFs?5returned?5?$CFs?4?$AN?6?$AA@",
+          "site_rva": 132262,
+          "target_va": 269378808,
+          "kind": 6
+        }
+      ]
+    },
+    {
+      "unit": "eval_vendor_command_parser_interface",
+      "section": 18,
+      "rva": 132128,
+      "size": 53,
+      "kind": ".text",
+      "sha256": "ba4cb5d23657cd5c58065c0b65fc44ddc29a3c6f90094817d58180a3d77af6aa",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "??_C@_0BC@PEFIMDMK@?$CFs?5returned?5?$CFi?4?$AN?6?$AA@",
+          "site_rva": 132150,
+          "target_va": 269378760,
+          "kind": 6
+        }
+      ]
+    },
+    {
+      "unit": "eval_vendor_command_parser_interface",
+      "section": 8,
+      "rva": 132016,
+      "size": 3,
+      "kind": ".text",
+      "sha256": "e598d0c3ba86d917b177d7adde0556aa99bc355543c57aee0a3e50b684dd7e99",
+      "whole_bytes_equal": true,
+      "bindings": []
+    },
+    {
+      "unit": "eval_vendor_command_parser_interface",
+      "section": 12,
+      "rva": 132048,
+      "size": 3,
+      "kind": ".text",
+      "sha256": "dbd1a662565b07272069f88faadf4327acaf51b7d14f236c84c0a9679d07cef3",
+      "whole_bytes_equal": true,
+      "bindings": []
+    },
+    {
+      "unit": "eval_vendor_command_parser_interface",
+      "section": 10,
+      "rva": 132032,
+      "size": 3,
+      "kind": ".text",
+      "sha256": "dbd1a662565b07272069f88faadf4327acaf51b7d14f236c84c0a9679d07cef3",
+      "whole_bytes_equal": true,
+      "bindings": []
+    },
+    {
+      "unit": "eval_vendor_command_parser_interface",
+      "section": 78,
+      "rva": 133696,
+      "size": 30,
+      "kind": ".text",
+      "sha256": "53c3b6a3193ae8e453339a56d80a6492cf7da3f24f2c2c9a4b2ad3756f3e52d7",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "??1CommandParserInterface@@UAE@XZ",
+          "site_rva": 133700,
+          "target_va": 268569136,
+          "kind": 20
+        },
+        {
+          "symbol": "??3@YAXPAX@Z",
+          "site_rva": 133713,
+          "target_va": 269247626,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "eval_vendor_command_parser_interface",
+      "section": 73,
+      "rva": 133648,
+      "size": 21,
+      "kind": ".text",
+      "sha256": "cbd1659942bd7fc3a1ffef687828be85a38b9b74bb9f90373a1c60890d313c16",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "??_7CommandParserInterface@@6B@",
+          "site_rva": 133656,
+          "target_va": 269378892,
+          "kind": 6
+        },
+        {
+          "symbol": "??0?$OrderedList@PBDURegisteredCommand@@$1?RegisteredCommandComp@@YAHABQBDABU1@@Z@DataStructures@@QAE@XZ",
+          "site_rva": 133661,
+          "target_va": 268568304,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "eval_vendor_command_parser_interface",
+      "section": 46,
+      "rva": 132848,
+      "size": 12,
+      "kind": ".text",
+      "sha256": "9e256758985efcb4a848b81048e3543ef8e0223d6f595a4a3aa02064cce20a44",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "??0?$List@URegisteredCommand@@@DataStructures@@QAE@XZ",
+          "site_rva": 132852,
+          "target_va": 268567872,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "eval_vendor_command_parser_interface",
+      "section": 32,
+      "rva": 132416,
+      "size": 13,
+      "kind": ".text",
+      "sha256": "efaddf6f7c64b7d0dd7d70e04563c88df5b21978a063a338954e28cc09d4e5e9",
+      "whole_bytes_equal": true,
+      "bindings": []
+    },
+    {
+      "unit": "eval_vendor_command_parser_interface",
+      "section": 64,
+      "rva": 133424,
+      "size": 49,
+      "kind": ".text",
+      "sha256": "2cb0dd729af54a678e1f7ce8d69ed5bc7614379858f04295a024f9016c8c6d60",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "?Insert@?$OrderedList@PBDURegisteredCommand@@$1?RegisteredCommandComp@@YAHABQBDABU1@@Z@DataStructures@@QAEIABQBDABURegisteredCommand@@@Z",
+          "site_rva": 133463,
+          "target_va": 268568480,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "eval_vendor_command_parser_interface",
+      "section": 50,
+      "rva": 133024,
+      "size": 127,
+      "kind": ".text",
+      "sha256": "0f17c3462ae1dd7018c6328132608ea66c8a89c379994245e3458cc1ecf056a2",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "?GetIndexFromKey@?$OrderedList@PBDURegisteredCommand@@$1?RegisteredCommandComp@@YAHABQBDABU1@@Z@DataStructures@@QBEIABQBDPA_N@Z",
+          "site_rva": 133041,
+          "target_va": 268568320,
+          "kind": 20
+        },
+        {
+          "symbol": "?Insert@?$List@URegisteredCommand@@@DataStructures@@QAEXURegisteredCommand@@@Z",
+          "site_rva": 133098,
+          "target_va": 268567936,
+          "kind": 20
+        },
+        {
+          "symbol": "?Insert@?$List@URegisteredCommand@@@DataStructures@@QAEXURegisteredCommand@@I@Z",
+          "site_rva": 133140,
+          "target_va": 268568064,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "eval_vendor_command_parser_interface",
+      "section": 40,
+      "rva": 132608,
+      "size": 154,
+      "kind": ".text",
+      "sha256": "2aea6e1390b4812d94c5463a0e3df0c285a4f52657db46e925515516d7173d4b",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "??2@YAPAXI@Z",
+          "site_rva": 132648,
+          "target_va": 269247098,
+          "kind": 20
+        },
+        {
+          "symbol": "??3@YAXPAX@Z",
+          "site_rva": 132682,
+          "target_va": 269247626,
+          "kind": 20
+        },
+        {
+          "symbol": "_memmove",
+          "site_rva": 132719,
+          "target_va": 269250016,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "eval_vendor_command_parser_interface",
+      "section": 38,
+      "rva": 132480,
+      "size": 123,
+      "kind": ".text",
+      "sha256": "89749ea87c047646e2a20022745c53e28ee774ea62c2656b1fa94175f11a30aa",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "??2@YAPAXI@Z",
+          "site_rva": 132520,
+          "target_va": 269247098,
+          "kind": 20
+        },
+        {
+          "symbol": "??3@YAXPAX@Z",
+          "site_rva": 132554,
+          "target_va": 269247626,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "eval_vendor_command_parser_interface",
+      "section": 48,
+      "rva": 132864,
+      "size": 150,
+      "kind": ".text",
+      "sha256": "06b6a17ed4966be2150c31381e55b127c00c15fddaf43040db2cc2d6d49f9d4d",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "?RegisteredCommandComp@@YAHABQBDABURegisteredCommand@@@Z",
+          "site_rva": 132919,
+          "target_va": 268567216,
+          "kind": 20
+        },
+        {
+          "symbol": "?RegisteredCommandComp@@YAHABQBDABURegisteredCommand@@@Z",
+          "site_rva": 132971,
+          "target_va": 268567216,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "eval_vendor_command_parser_interface",
+      "section": 4,
+      "rva": 131760,
+      "size": 25,
+      "kind": ".text",
+      "sha256": "d6576987765926ffe5fae0e32b6c092f6cb6900b17dc9b1fee25663401ab4776",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "__stricmp",
+          "site_rva": 131781,
+          "target_va": 269254514,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "eval_vendor_command_parser_interface",
+      "section": 66,
+      "rva": 133488,
+      "size": 67,
+      "kind": ".text",
+      "sha256": "25be67aff8978471708e9b54e5adae5a20ac5fbe7dea4c59ed5c6c87237ad6e7",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "?GetIndexFromKey@?$OrderedList@PBDURegisteredCommand@@$1?RegisteredCommandComp@@YAHABQBDABU1@@Z@DataStructures@@QBEIABQBDPA_N@Z",
+          "site_rva": 133507,
+          "target_va": 268568320,
+          "kind": 20
+        },
+        {
+          "symbol": "??A?$OrderedList@PBDURegisteredCommand@@$1?RegisteredCommandComp@@YAHABQBDABU1@@Z@DataStructures@@QBEAAURegisteredCommand@@I@Z",
+          "site_rva": 133523,
+          "target_va": 268568608,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "eval_vendor_command_parser_interface",
+      "section": 52,
+      "rva": 133152,
+      "size": 14,
+      "kind": ".text",
+      "sha256": "e3854e574975ec8aeb93693745ee76fbb251b6766d54e9f87cbe13ef8f8587db",
+      "whole_bytes_equal": true,
+      "bindings": []
+    },
+    {
+      "unit": "eval_vendor_command_parser_interface",
+      "section": 58,
+      "rva": 133200,
+      "size": 222,
+      "kind": ".text",
+      "sha256": "bb42b574ab7984155d8d3fa5a1f5eaa6e6f25adccb7f5978c2389e5c95fe3d06",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "?Size@?$OrderedList@PBDURegisteredCommand@@$1?RegisteredCommandComp@@YAHABQBDABU1@@Z@DataStructures@@QBEIXZ",
+          "site_rva": 133210,
+          "target_va": 268568624,
+          "kind": 20
+        },
+        {
+          "symbol": "?Size@?$OrderedList@PBDURegisteredCommand@@$1?RegisteredCommandComp@@YAHABQBDABU1@@Z@DataStructures@@QBEIXZ",
+          "site_rva": 133227,
+          "target_va": 268568624,
+          "kind": 20
+        },
+        {
+          "symbol": "??A?$OrderedList@PBDURegisteredCommand@@$1?RegisteredCommandComp@@YAHABQBDABU1@@Z@DataStructures@@QBEAAURegisteredCommand@@I@Z",
+          "site_rva": 133252,
+          "target_va": 268568608,
+          "kind": 20
+        },
+        {
+          "symbol": "??_C@_02DKCKIIND@?$CFs?$AA@",
+          "site_rva": 133266,
+          "target_va": 269378888,
+          "kind": 6
+        },
+        {
+          "symbol": "?Size@?$OrderedList@PBDURegisteredCommand@@$1?RegisteredCommandComp@@YAHABQBDABU1@@Z@DataStructures@@QBEIXZ",
+          "site_rva": 133291,
+          "target_va": 268568624,
+          "kind": 20
+        },
+        {
+          "symbol": "??_C@_02KEGNLNML@?0?5?$AA@",
+          "site_rva": 133307,
+          "target_va": 269378884,
+          "kind": 6
+        },
+        {
+          "symbol": "?Size@?$OrderedList@PBDURegisteredCommand@@$1?RegisteredCommandComp@@YAHABQBDABU1@@Z@DataStructures@@QBEIXZ",
+          "site_rva": 133333,
+          "target_va": 268568624,
+          "kind": 20
+        },
+        {
+          "symbol": "??_C@_02PCIJFNDE@?$AN?6?$AA@",
+          "site_rva": 133348,
+          "target_va": 269378880,
+          "kind": 6
+        },
+        {
+          "symbol": "??_C@_0BJ@HDHJPLOO@No?5registered?5commands?$AN?6?$AA@",
+          "site_rva": 133388,
+          "target_va": 269378852,
+          "kind": 6
+        }
+      ]
+    },
+    {
+      "unit": "eval_vendor_command_parser_interface",
+      "section": 54,
+      "rva": 133168,
+      "size": 4,
+      "kind": ".text",
+      "sha256": "f7e0208f5e988ae39c7a45dfddbd12921d02f9c3deb5695d4c534c8ab0ccdb0f",
+      "whole_bytes_equal": true,
+      "bindings": []
+    },
+    {
+      "unit": "eval_vendor_command_parser_interface",
+      "section": 30,
+      "rva": 132384,
+      "size": 26,
+      "kind": ".text",
+      "sha256": "6c2cf90d6739a4b811d19c370ba764f7db05a925867fd2550227c716fe67da5d",
+      "whole_bytes_equal": true,
+      "bindings": []
+    },
+    {
+      "unit": "eval_vendor_command_parser_interface",
+      "section": 27,
+      "rva": 132304,
+      "size": 78,
+      "kind": ".text",
+      "sha256": "73fae9b8dbb90c30609ab99750002d59f1da9f1b9638dca451f7fc77ecafbbbd",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "__imp__inet_ntoa@4",
+          "site_rva": 132314,
+          "target_va": 269374532,
+          "kind": 6
+        },
+        {
+          "symbol": "??_C@_0BH@KFHIEIOE@?$CFs?5returned?5?$CFs?5?$CFi?3?$CFi?$AN?6?$AA@",
+          "site_rva": 132353,
+          "target_va": 269378828,
+          "kind": 6
+        }
+      ]
+    },
+    {
+      "unit": "eval_vendor_command_parser_interface",
+      "section": 21,
+      "rva": 132192,
+      "size": 48,
+      "kind": ".text",
+      "sha256": "b79b60526040c738b4581e109ca03c8a38693ad9a1b43537aef26aef6da7be37",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "??_C@_0BK@FDDMKJLH@Successfully?5called?5?$CFs?4?$AN?6?$AA@",
+          "site_rva": 132209,
+          "target_va": 269378780,
+          "kind": 6
+        }
+      ]
+    },
+    {
+      "unit": "eval_vendor_command_parser_interface",
+      "section": 14,
+      "rva": 132064,
+      "size": 63,
+      "kind": ".text",
+      "sha256": "e4c3a1683181201593899d6f4d8b7ed2446ce044027ef7ec6bd35023141a04dc",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "??_C@_0BE@NNEBOEPC@?$CFs?5returned?5true?4?$AN?6?$AA@",
+          "site_rva": 132089,
+          "target_va": 269378740,
+          "kind": 6
+        },
+        {
+          "symbol": "??_C@_0BF@GGKBCBPH@?$CFs?5returned?5false?4?$AN?6?$AA@",
+          "site_rva": 132096,
+          "target_va": 269378716,
+          "kind": 6
+        }
+      ]
+    },
+    {
+      "unit": "eval_vendor_command_parser_interface",
+      "section": 6,
+      "rva": 131792,
+      "size": 211,
+      "kind": ".text",
+      "sha256": "1652a2e638932feb7fe33f53623231b83c8cbdbc00655fe8e0f6a488eedafcd9",
+      "whole_bytes_equal": true,
+      "bindings": []
+    },
+    {
+      "unit": "eval_vendor_command_parser_interface",
+      "section": 74,
+      "rva": 943436,
+      "size": 60,
+      "kind": ".rdata",
+      "sha256": "06c137b091bbdab97b23f01bf9906e6b760460d53415b6cc532c137d58bc27c0",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "??_ECommandParserInterface@@UAEPAXI@Z",
+          "site_rva": 943436,
+          "target_va": 268569152,
+          "kind": 6
+        },
+        {
+          "symbol": "__purecall",
+          "site_rva": 943440,
+          "target_va": 269254619,
+          "kind": 6
+        },
+        {
+          "symbol": "?OnNewIncomingConnection@CommandParserInterface@@UAEXUPlayerID@@PAVTransportInterface@@@Z",
+          "site_rva": 943444,
+          "target_va": 268567488,
+          "kind": 6
+        },
+        {
+          "symbol": "?OnConnectionLost@CommandParserInterface@@UAEXUPlayerID@@PAVTransportInterface@@@Z",
+          "site_rva": 943448,
+          "target_va": 268567504,
+          "kind": 6
+        },
+        {
+          "symbol": "__purecall",
+          "site_rva": 943452,
+          "target_va": 269254619,
+          "kind": 6
+        },
+        {
+          "symbol": "__purecall",
+          "site_rva": 943456,
+          "target_va": 269254619,
+          "kind": 6
+        },
+        {
+          "symbol": "?OnTransportChange@CommandParserInterface@@UAEXPAVTransportInterface@@@Z",
+          "site_rva": 943460,
+          "target_va": 268567472,
+          "kind": 6
+        },
+        {
+          "symbol": "?GetRegisteredCommand@CommandParserInterface@@UAE_NPBDPAURegisteredCommand@@@Z",
+          "site_rva": 943464,
+          "target_va": 268568944,
+          "kind": 6
+        },
+        {
+          "symbol": "?SendCommandList@CommandParserInterface@@UAEXPAVTransportInterface@@UPlayerID@@@Z",
+          "site_rva": 943468,
+          "target_va": 268568656,
+          "kind": 6
+        },
+        {
+          "symbol": "?RegisterCommand@CommandParserInterface@@MAEXEPBD0@Z",
+          "site_rva": 943472,
+          "target_va": 268568880,
+          "kind": 6
+        },
+        {
+          "symbol": "?ReturnResult@CommandParserInterface@@MAEXPBDPAVTransportInterface@@UPlayerID@@@Z",
+          "site_rva": 943476,
+          "target_va": 268567648,
+          "kind": 6
+        },
+        {
+          "symbol": "?ReturnResult@CommandParserInterface@@MAEXHPBDPAVTransportInterface@@UPlayerID@@@Z",
+          "site_rva": 943480,
+          "target_va": 268567584,
+          "kind": 6
+        },
+        {
+          "symbol": "?ReturnResult@CommandParserInterface@@MAEXUPlayerID@@PBDPAVTransportInterface@@0@Z",
+          "site_rva": 943484,
+          "target_va": 268567760,
+          "kind": 6
+        },
+        {
+          "symbol": "?ReturnResult@CommandParserInterface@@MAEXPADPBDPAVTransportInterface@@UPlayerID@@@Z",
+          "site_rva": 943488,
+          "target_va": 268567696,
+          "kind": 6
+        },
+        {
+          "symbol": "?ReturnResult@CommandParserInterface@@MAEX_NPBDPAVTransportInterface@@UPlayerID@@@Z",
+          "site_rva": 943492,
+          "target_va": 268567520,
+          "kind": 6
+        }
+      ]
+    },
+    {
+      "unit": "eval_vendor_command_parser_interface",
+      "section": 69,
+      "rva": 923504,
+      "size": 18,
+      "kind": ".text$x",
+      "sha256": "19491f22862c1b0c502daaab690cabeed65c8150b2930f0bb61d9fe212ac09c4",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "??1?$List@URegisteredCommand@@@DataStructures@@QAE@XZ",
+          "site_rva": 923508,
+          "target_va": 268567888,
+          "kind": 20
+        },
+        {
+          "symbol": "$T57175",
+          "site_rva": 923513,
+          "target_va": 269456012,
+          "kind": 6
+        },
+        {
+          "symbol": "___CxxFrameHandler",
+          "site_rva": 923518,
+          "target_va": 269247782,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "eval_vendor_command_parser_interface",
+      "section": 25,
+      "rva": 943352,
+      "size": 18,
+      "kind": ".rdata",
+      "sha256": "86be86ba7ff556654455349f894baf3cc336334bffe650cda51e89b08458d5f3",
+      "whole_bytes_equal": true,
+      "bindings": []
+    },
+    {
+      "unit": "eval_vendor_command_parser_interface",
+      "section": 19,
+      "rva": 943304,
+      "size": 18,
+      "kind": ".rdata",
+      "sha256": "497e13c5fe787bab406b43d19a35a229684da8982c805a0dc836cab4d25c32a5",
+      "whole_bytes_equal": true,
+      "bindings": []
+    },
+    {
+      "unit": "eval_vendor_command_parser_interface",
+      "section": 60,
+      "rva": 943424,
+      "size": 3,
+      "kind": ".rdata",
+      "sha256": "426520180ee94ef36224225e32706bc9f2be242acf51bb23d69fea7e6d92a20a",
+      "whole_bytes_equal": true,
+      "bindings": []
+    },
+    {
+      "unit": "eval_vendor_command_parser_interface",
+      "section": 3,
+      "rva": 943257,
+      "size": 1,
+      "kind": ".rdata",
+      "sha256": "a8100ae6aa1940d0b663bb31cd466142ebbdbd5187131b92d93818987832eb89",
+      "whole_bytes_equal": true,
+      "bindings": []
+    },
+    {
+      "unit": "eval_vendor_command_parser_interface",
+      "section": 62,
+      "rva": 943432,
+      "size": 3,
+      "kind": ".rdata",
+      "sha256": "2f3a3f9b55f5df846abf81c7d13ff74998bdda8664df664173220675150020ff",
+      "whole_bytes_equal": true,
+      "bindings": []
+    },
+    {
+      "unit": "eval_vendor_command_parser_interface",
+      "section": 61,
+      "rva": 943428,
+      "size": 3,
+      "kind": ".rdata",
+      "sha256": "3d757ff595408954cec727b0d878225712ce19aec0114f97f903407756702d14",
+      "whole_bytes_equal": true,
+      "bindings": []
+    },
+    {
+      "unit": "eval_vendor_command_parser_interface",
+      "section": 59,
+      "rva": 943396,
+      "size": 25,
+      "kind": ".rdata",
+      "sha256": "bdfecb91bbc37a47d607202633eb5b191751e63028c1cca0e2a9456c9e43c371",
+      "whole_bytes_equal": true,
+      "bindings": []
+    },
+    {
+      "unit": "eval_vendor_command_parser_interface",
+      "section": 28,
+      "rva": 943372,
+      "size": 23,
+      "kind": ".rdata",
+      "sha256": "8aaeda57fc79e4f96dc790b1b9a8b659a8e0d2ce51b09500497e3110d440bf48",
+      "whole_bytes_equal": true,
+      "bindings": []
+    },
+    {
+      "unit": "eval_vendor_command_parser_interface",
+      "section": 22,
+      "rva": 943324,
+      "size": 26,
+      "kind": ".rdata",
+      "sha256": "82397b133a8db3d77bc61c38123ba68ada943d26ffeb04943b6dd34988038b64",
+      "whole_bytes_equal": true,
+      "bindings": []
+    },
+    {
+      "unit": "eval_vendor_command_parser_interface",
+      "section": 16,
+      "rva": 943284,
+      "size": 20,
+      "kind": ".rdata",
+      "sha256": "011bac59dea2e952a975f4721529164213054fba72fa1258f9dd64fb194b7c57",
+      "whole_bytes_equal": true,
+      "bindings": []
+    },
+    {
+      "unit": "eval_vendor_command_parser_interface",
+      "section": 15,
+      "rva": 943260,
+      "size": 21,
+      "kind": ".rdata",
+      "sha256": "cf844d2b451236c51657be131c4ba224c7d4f55ac80f6cdb55c8daa2e5fc661d",
+      "whole_bytes_equal": true,
+      "bindings": []
+    },
+    {
+      "unit": "eval_vendor_command_parser_interface",
+      "section": 70,
+      "rva": 1020548,
+      "size": 36,
+      "kind": ".xdata$x",
+      "sha256": "6395f6205e7b19ea628bcc88621ba434173a1a136efc368b9ce7044d8e9ede9f",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "$L57171",
+          "site_rva": 1020552,
+          "target_va": 269358960,
+          "kind": 6
+        },
+        {
+          "symbol": "$T57178",
+          "site_rva": 1020564,
+          "target_va": 269456004,
+          "kind": 6
+        }
+      ]
+    }
+  ],
+  "bindings_checked": 300,
+  "external_targets": {
+    "??3@YAXPAX@Z": 269247626,
+    "??1PacketLogger@@UAE@XZ": 268647200,
+    "??_C@_06MGGMPEFL@Logger?$AA@": 269381232,
+    "__ehhandler$??1LogCommandParser@@UAE@XZ": 269361800,
+    "__except_list": 0,
+    "??_7LogCommandParser@@6B@": 269381428,
+    "??_7CommandParserInterface@@6B@": 269378892,
+    "__ehhandler$??1?$OrderedList@PBDURegisteredCommand@@$1?RegisteredCommandComp@@YAHABQBDABU1@@Z@DataStructures@@QAE@XZ": 269358968,
+    "??_C@_0BC@NOAIEMOJ@?$CFs?5returned?5?$CFs?4?$AN?6?$AA@": 269378808,
+    "??_C@_0BC@PEFIMDMK@?$CFs?5returned?5?$CFi?4?$AN?6?$AA@": 269378760,
+    "??_C@_0BE@IJNHMNLA@PacketConsoleLogger?$AA@": 269382116,
+    "__vsnprintf": 269257167,
+    "??_C@_02PCIJFNDE@?$AN?6?$AA@": 269378880,
+    "__stricmp": 269254514,
+    "??0PacketLogger@@QAE@XZ": 268647520,
+    "??_7PacketConsoleLogger@@6B@": 269382048,
+    "__ehhandler$??1TelnetTransport@@QAE@XZ": 269366827,
+    "??_7TelnetTransport@@6B@": 269390684,
+    "?Stop@TCPInterface@@QAEXXZ": 268787504,
+    "?HasLostConnection@TCPInterface@@QAE?AUPlayerID@@XZ": 268788336,
+    "eval_vendor_telnet_transport::_UNASSIGNED_PLAYER_ID": 269492796,
+    "??9PlayerID@@QBE_NABU0@@Z": 268646160,
+    "??8PlayerID@@QBE_NABU0@@Z": 268646112,
+    "?HasNewConnection@TCPInterface@@QAE?AUPlayerID@@XZ": 268788256,
+    "?Send@TCPInterface@@QAEXPBDIUPlayerID@@@Z": 268788016,
+    "??2@YAPAXI@Z": 269247098,
+    "?Receive@TCPInterface@@QAEPAUPacket@@XZ": 268788128,
+    "?DeallocatePacket@TCPInterface@@QAEXPAUPacket@@@Z": 268788224,
+    "?Start@TCPInterface@@QAE_NGG@Z": 268789888,
+    "__ehhandler$?AutoAllocate@TelnetTransport@@IAEXXZ": 269366795,
+    "??0TCPInterface@@QAE@XZ": 268787296,
+    "?CloseConnection@TCPInterface@@QAEXUPlayerID@@@Z": 268788160,
+    "??_C@_09KDKJLHFG@Subscribe?$AA@": 269381344,
+    "??_C@_0BO@EIGINMJK@Subscribed?5to?5all?5channels?4?$AN?6?$AA@": 269381908,
+    "??_C@_0CI@PBOKMBIB@You?5are?5now?5subscribed?5to?5channe@": 269381868,
+    "??_C@_0BK@EHOMLJNL@Cannot?5find?5channel?5?$CFs?4?$AN?6?$AA@": 269381840,
+    "??_C@_0CM@LDNFCNMD@Subscribe?5takes?5either?50?5or?51?5pa@": 269381796,
+    "??_C@_0M@NCNBIKLN@Unsubscribe?$AA@": 269381260,
+    "??_C@_0CC@PMDDIFND@Unsubscribed?5from?5all?5channels?4?$AN@": 269381760,
+    "??_C@_0CM@MKPKEJAH@You?5are?5now?5unsubscribed?5from?5ch@": 269381716,
+    "??_C@_0CO@GDCDOCCD@Unsubscribe?5takes?5either?50?5or?51?5@": 269381668,
+    "??_C@_0M@IINIIGCA@CHANNELS?3?$AN?6?$AA@": 269381248,
+    "??_C@_08EIGAEAF@?$CFi?4?5?$CFs?$AN?6?$AA@": 269379032,
+    "??_C@_07KMCPJIG@None?4?$AN?6?$AA@": 269381240,
+    "??_C@_0EC@CBMLMKML@The?5logger?5will?5accept?5user?5log?5@": 269381600,
+    "??_C@_0CP@NMOOHJHE@Each?5log?5is?5associated?5with?5a?5na@": 269381548,
+    "??_C@_0DL@FJGGHGKK@You?5can?5subscribe?5to?5or?5unsubscr@": 269381488,
+    "__ehhandler$??0LogCommandParser@@QAE@XZ": 269361779,
+    "?VARIABLE_NUMBER_OF_PARAMETERS@CommandParserInterface@@2EB": 269378713,
+    "??_C@_0EB@JKKDDEMD@?$FL?$DMChannelName?$DO?$FN?5?9?5Subscribes?5to?5@": 269381360,
+    "??_C@_0EF@OBDEEMFI@?$FL?$DMChannelName?$DO?$FN?5?9?5Unsubscribes?5f@": 269381272,
+    "_memmove": 269250016,
+    "??_C@_02DKCKIIND@?$CFs?$AA@": 269378888,
+    "??_C@_02KEGNLNML@?0?5?$AA@": 269378884,
+    "??_C@_0BJ@HDHJPLOO@No?5registered?5commands?$AN?6?$AA@": 269378852,
+    "__imp__inet_ntoa@4": 269374532,
+    "??_C@_0BH@KFHIEIOE@?$CFs?5returned?5?$CFs?5?$CFi?3?$CFi?$AN?6?$AA@": 269378828,
+    "??_C@_0BK@FDDMKJLH@Successfully?5called?5?$CFs?4?$AN?6?$AA@": 269378780,
+    "??_C@_0BE@NNEBOEPC@?$CFs?5returned?5true?4?$AN?6?$AA@": 269378740,
+    "??_C@_0BF@GGKBCBPH@?$CFs?5returned?5false?4?$AN?6?$AA@": 269378716,
+    "eval_vendor_console_server::_UNASSIGNED_PLAYER_ID": 269477424,
+    "??_C@_0DO@NLNPPNJH@Connected?5to?5remote?5command?5cons@": 269380056,
+    "??_C@_04PCJFHION@help?$AA@": 269380048,
+    "??_C@_0BC@DPPMHAOM@?$AN?6INSTRUCTIONS?3?$AN?6?$AA@": 269380028,
+    "??_C@_0EJ@MPJMLFDA@Enter?5commands?5on?5your?5keyboard?0@": 269379952,
+    "??_C@_0DL@EMBLIGKH@You?5can?5use?5quotation?5marks?5to?5t@": 269379892,
+    "??_C@_0DJ@GOAAOJOH@You?5can?5connect?5multiple?5times?5f@": 269379832,
+    "??_C@_0EO@FAGBNIJD@You?5can?5direct?5commands?5to?5a?5par@": 269379752,
+    "??_C@_0M@LFCGILND@COMMANDS?3?$AN?6?$AA@": 269379740,
+    "??_C@_0EB@OCHDCLHA@help?5?5?5?5?5?5?5?5?5?5?5?5?5?5?5?5?5?5?5?5?5?5?5?5?5?5?5?5@": 269379672,
+    "??_C@_0FA@OHDDDFPG@help?5?$DMParserName?$DO?5?5?5?5?5?5?5?5?5?5?5?5?5?5?5@": 269379592,
+    "??_C@_0FB@PENBGBMM@help?5?$DMCommandName?$DO?5?5?5?5?5?5?5?5?5?5?5?5?5?5@": 269379504,
+    "??_C@_0EL@MOIDGHJB@quit?5?5?5?5?5?5?5?5?5?5?5?5?5?5?5?5?5?5?5?5?5?5?5?5?5?5?5?5@": 269379424,
+    "??_C@_0EA@HBIAAPBG@?$FL?$DMParserName?$DO?$FN?5?5?5?$DMCommand?$DO?5?$FL?$DMPar@": 269379360,
+    "??_C@_0EA@HIMLCLLK@?$FL?$DMParserNumber?$DO?$FN?5?$DMCommand?$DO?5?$FL?$DMPar@": 269379296,
+    "??_C@_0BK@PMNLJFDA@Unknown?5help?5topic?3?5?$CFs?4?$AN?6?$AA@": 269379264,
+    "??_C@_0BA@DJLCEDHE@COMMAND?5LIST?3?$AN?6?$AA@": 269379248,
+    "??_C@_0BK@DPMAEHFD@?$CIVariable?5parms?$CJ?3?5?$CFs?5?$CFs?$AN?6?$AA@": 269379220,
+    "??_C@_0BE@ICBGBOJB@?$CI?$CFi?5parms?$CJ?3?5?$CFs?5?$CFs?$AN?6?$AA@": 269379200,
+    "??_C@_04KNNLNNGO@quit?$AA@": 269379192,
+    "??_C@_08HDBDJBNL@Goodbye?$CB?$AA@": 269379180,
+    "_atoi": 269249830,
+    "??_C@_0BB@MBKMFMKD@Invalid?5index?4?$AN?6?$AA@": 269379160,
+    "??_C@_0CO@MGKEDAIC@Invalid?5parameter?5count?4?$AN?6?$CI?$CFi?5pa@": 269379112,
+    "??_C@_0CK@GDAAGGHG@Unknown?5command?3?5?5Type?5?8help?8?5fo@": 269379068,
+    "??_C@_0BF@JKJFFOG@INSTALLED?5PARSERS?3?$AN?6?$AA@": 269379044,
+    "eval_vendor_log_command_parser::$T1866": 269459240,
+    "___CxxFrameHandler": 269247782,
+    "??_ELogCommandParser@@UAEPAXI@Z": 268638080,
+    "eval_vendor_log_command_parser::$T1854": 269459204,
+    "eval_vendor_log_command_parser::$L1863": 269361792,
+    "eval_vendor_log_command_parser::$T1868": 269459232,
+    "eval_vendor_log_command_parser::$L1849": 269361760,
+    "eval_vendor_log_command_parser::$L1850": 269361768,
+    "eval_vendor_log_command_parser::$T1857": 269459188,
+    "eval_vendor_telnet_transport::$T57910": 269464420,
+    "eval_vendor_telnet_transport::$T57773": 269464384,
+    "eval_vendor_telnet_transport::$L57908": 269366816,
+    "eval_vendor_telnet_transport::$T57912": 269464412,
+    "eval_vendor_telnet_transport::$L57769": 269366784,
+    "eval_vendor_telnet_transport::$T57776": 269464376,
+    "?OnAttach@PacketLogger@@UAEXPAVRakPeerInterface@@@Z": 268647216,
+    "?OnDetach@PluginInterface@@UAEXPAVRakPeerInterface@@@Z": 268648320,
+    "?OnInitialize@PluginInterface@@UAEXPAVRakPeerInterface@@@Z": 268648336,
+    "?Update@PluginInterface@@UAEXPAVRakPeerInterface@@@Z": 268648352,
+    "?OnReceive@PluginInterface@@UAE?AW4PluginReceiveResult@@PAVRakPeerInterface@@PAUPacket@@@Z": 268648368,
+    "?OnDisconnect@PluginInterface@@UAEXPAVRakPeerInterface@@@Z": 268648384,
+    "?OnCloseConnection@PluginInterface@@UAEXPAVRakPeerInterface@@UPlayerID@@@Z": 268648400,
+    "?OnDirectSocketSend@PacketLogger@@UAEXPBDIUPlayerID@@@Z": 268647584,
+    "?OnDirectSocketReceive@PacketLogger@@UAEXPBDIUPlayerID@@@Z": 268647760,
+    "?OnInternalPacket@PacketLogger@@UAEXPAUInternalPacket@@IUPlayerID@@I_N@Z": 268647936,
+    "??_EPacketConsoleLogger@@UAEPAXI@Z": 268646976,
+    "?LogHeader@PacketLogger@@UAEXXZ": 268647232,
+    "?SetPrintID@PacketLogger@@UAEX_N@Z": 268647264,
+    "?SetPrintAcks@PacketLogger@@UAEX_N@Z": 268647280,
+    "?UserIDTOString@PacketLogger@@MAEPADE@Z": 268647312,
+    "??_ECommandParserInterface@@UAEPAXI@Z": 268569152,
+    "__purecall": 269254619,
+    "eval_vendor_command_parser_interface::$T57175": 269456012,
+    "eval_vendor_command_parser_interface::$L57171": 269358960,
+    "eval_vendor_command_parser_interface::$T57178": 269456004
+  },
+  "identity_reasons": {
+    "??0ConsoleServer@@QAE@XZ": "source method semantics + original call graph / allocation / table owner",
+    "?AddCommandParser@ConsoleServer@@QAEXPAVCommandParserInterface@@@Z": "actual relocation from ?SetTransportProvider@ConsoleServer@@QAEXPAVTransportInterface@@G@Z",
+    "?RemoveCommandParser@ConsoleServer@@QAEXPAVCommandParserInterface@@@Z": "actual relocation from ?SetTransportProvider@ConsoleServer@@QAEXPAVTransportInterface@@G@Z",
+    "?ListParsers@ConsoleServer@@IAEXUPlayerID@@@Z": "actual relocation from ?Update@ConsoleServer@@QAEXXZ",
+    "?SetTransportProvider@ConsoleServer@@QAEXPAVTransportInterface@@G@Z": "source method semantics + original call graph / allocation / table owner",
+    "?Update@ConsoleServer@@QAEXXZ": "source method semantics + original call graph / allocation / table owner",
+    "?ParseConsoleString@CommandParserInterface@@SAXPADDEPAIPAPADI@Z": "source method semantics + original call graph / allocation / table owner",
+    "?ReturnResult@CommandParserInterface@@MAEX_NPBDPAVTransportInterface@@UPlayerID@@@Z": "source method semantics + original call graph / allocation / table owner",
+    "?ReturnResult@CommandParserInterface@@MAEXPBDPAVTransportInterface@@UPlayerID@@@Z": "source method semantics + original call graph / allocation / table owner",
+    "?ReturnResult@CommandParserInterface@@MAEXUPlayerID@@PBDPAVTransportInterface@@0@Z": "source method semantics + original call graph / allocation / table owner",
+    "?IntegersToPlayerID@CommandParserInterface@@IAE?AUPlayerID@@HH@Z": "source method semantics + original call graph / allocation / table owner",
+    "?SendCommandList@CommandParserInterface@@UAEXPAVTransportInterface@@UPlayerID@@@Z": "source method semantics + original call graph / allocation / table owner",
+    "?RegisterCommand@CommandParserInterface@@MAEXEPBD0@Z": "actual relocation from ??0LogCommandParser@@QAE@XZ",
+    "?GetRegisteredCommand@CommandParserInterface@@UAE_NPBDPAURegisteredCommand@@@Z": "source method semantics + original call graph / allocation / table owner",
+    "??1CommandParserInterface@@UAE@XZ": "actual relocation from ??1LogCommandParser@@UAE@XZ",
+    "?PrintChannels@LogCommandParser@@IBEXUPlayerID@@PAVTransportInterface@@@Z": "actual relocation from ?OnCommand@LogCommandParser@@UAE_NPBDIPAPADPAVTransportInterface@@UPlayerID@@0@Z",
+    "?GetChannelIndexFromName@LogCommandParser@@IAEIPBD@Z": "actual relocation from ?AddChannel@LogCommandParser@@QAEXPBD@Z",
+    "?OnTransportChange@LogCommandParser@@UAEXPAVTransportInterface@@@Z": "source method semantics + original call graph / allocation / table owner",
+    "??0LogCommandParser@@QAE@XZ": "source method semantics + original call graph / allocation / table owner",
+    "??1LogCommandParser@@UAE@XZ": "actual relocation from ??_GLogCommandParser@@UAEPAXI@Z",
+    "?SendHelp@LogCommandParser@@UAEXPAVTransportInterface@@UPlayerID@@@Z": "source method semantics + original call graph / allocation / table owner",
+    "?AddChannel@LogCommandParser@@QAEXPBD@Z": "actual relocation from ?WriteLog@LogCommandParser@@QAAXPBD0ZZ",
+    "?WriteLog@LogCommandParser@@QAAXPBD0ZZ": "actual relocation from ?WriteLog@PacketConsoleLogger@@UAEXPBD@Z",
+    "?Unsubscribe@LogCommandParser@@IAEIUPlayerID@@PBD@Z": "actual relocation from ?OnConnectionLost@LogCommandParser@@UAEXUPlayerID@@PAVTransportInterface@@@Z",
+    "?Subscribe@LogCommandParser@@IAEIUPlayerID@@PBD@Z": "actual relocation from ?OnCommand@LogCommandParser@@UAE_NPBDIPAPADPAVTransportInterface@@UPlayerID@@0@Z",
+    "?OnCommand@LogCommandParser@@UAE_NPBDIPAPADPAVTransportInterface@@UPlayerID@@0@Z": "source method semantics + original call graph / allocation / table owner",
+    "?OnConnectionLost@LogCommandParser@@UAEXUPlayerID@@PAVTransportInterface@@@Z": "source method semantics + original call graph / allocation / table owner",
+    "?Send@TelnetTransport@@UAAXUPlayerID@@PBDZZ": "source method semantics + original call graph / allocation / table owner",
+    "?CloseConnection@TelnetTransport@@UAEXUPlayerID@@@Z": "source method semantics + original call graph / allocation / table owner",
+    "?DeallocatePacket@TelnetTransport@@UAEXPAUPacket@@@Z": "source method semantics + original call graph / allocation / table owner",
+    "?AutoAllocate@TelnetTransport@@IAEXXZ": "actual relocation from ?Start@TelnetTransport@@UAE_NG_N@Z",
+    "?ReassembleLine@TelnetTransport@@IAE_NPAUTelnetClient@1@E@Z": "actual relocation from ?Receive@TelnetTransport@@UAEPAUPacket@@XZ",
+    "??0TelnetTransport@@QAE@XZ": "source method semantics + original call graph / allocation / table owner",
+    "?Start@TelnetTransport@@UAE_NG_N@Z": "source method semantics + original call graph / allocation / table owner",
+    "?Stop@TelnetTransport@@UAEXXZ": "actual relocation from ??1TelnetTransport@@QAE@XZ",
+    "?Receive@TelnetTransport@@UAEPAUPacket@@XZ": "source method semantics + original call graph / allocation / table owner",
+    "?HasNewConnection@TelnetTransport@@UAE?AUPlayerID@@XZ": "source method semantics + original call graph / allocation / table owner",
+    "?HasLostConnection@TelnetTransport@@UAE?AUPlayerID@@XZ": "source method semantics + original call graph / allocation / table owner",
+    "??1TelnetTransport@@QAE@XZ": "source method semantics + original call graph / allocation / table owner",
+    "??0PacketConsoleLogger@@QAE@XZ": "source method semantics + original call graph / allocation / table owner",
+    "?SetLogCommandParser@PacketConsoleLogger@@UAEXPAVLogCommandParser@@@Z": "source method semantics + original call graph / allocation / table owner",
+    "?WriteLog@PacketConsoleLogger@@UAEXPBD@Z": "source method semantics + original call graph / allocation / table owner",
+    "??0CommandParserInterface@@QAE@XZ": "source method semantics + original call graph / allocation / table owner",
+    "??_GCommandParserInterface@@UAEPAXI@Z": "source method semantics + original call graph / allocation / table owner",
+    "?OnNewIncomingConnection@CommandParserInterface@@UAEXUPlayerID@@PAVTransportInterface@@@Z": "source method semantics + original call graph / allocation / table owner",
+    "?OnConnectionLost@CommandParserInterface@@UAEXUPlayerID@@PAVTransportInterface@@@Z": "source method semantics + original call graph / allocation / table owner",
+    "?OnTransportChange@CommandParserInterface@@UAEXPAVTransportInterface@@@Z": "source method semantics + original call graph / allocation / table owner",
+    "?ReturnResult@CommandParserInterface@@MAEXHPBDPAVTransportInterface@@UPlayerID@@@Z": "source method semantics + original call graph / allocation / table owner",
+    "?ReturnResult@CommandParserInterface@@MAEXPADPBDPAVTransportInterface@@UPlayerID@@@Z": "source method semantics + original call graph / allocation / table owner",
+    "??_GLogCommandParser@@UAEPAXI@Z": "source method semantics + original call graph / allocation / table owner",
+    "?GetName@LogCommandParser@@UBEPADXZ": "source method semantics + original call graph / allocation / table owner",
+    "?OnNewIncomingConnection@LogCommandParser@@UAEXUPlayerID@@PAVTransportInterface@@@Z": "source method semantics + original call graph / allocation / table owner",
+    "?GetCommandParser@TelnetTransport@@UAEPAVCommandParserInterface@@XZ": "source method semantics + original call graph / allocation / table owner",
+    "??_GPacketConsoleLogger@@UAEPAXI@Z": "source method semantics + original call graph / allocation / table owner",
+    "??1PacketConsoleLogger@@UAE@XZ": "actual relocation from ??_GPacketConsoleLogger@@UAEPAXI@Z",
+    "??1?$List@UPlayerIDAndChannel@LogCommandParser@@@DataStructures@@QAE@XZ": "actual relocation from ??1LogCommandParser@@UAE@XZ",
+    "??1?$OrderedList@PBDURegisteredCommand@@$1?RegisteredCommandComp@@YAHABQBDABU1@@Z@DataStructures@@QAE@XZ": "actual relocation from ??1CommandParserInterface@@UAE@XZ",
+    "?Clear@?$OrderedList@PBDURegisteredCommand@@$1?RegisteredCommandComp@@YAHABQBDABU1@@Z@DataStructures@@QAEXXZ": "actual relocation from ??1?$OrderedList@PBDURegisteredCommand@@$1?RegisteredCommandComp@@YAHABQBDABU1@@Z@DataStructures@@QAE@XZ",
+    "??1?$List@URegisteredCommand@@@DataStructures@@QAE@XZ": "actual relocation from ??1?$OrderedList@PBDURegisteredCommand@@$1?RegisteredCommandComp@@YAHABQBDABU1@@Z@DataStructures@@QAE@XZ",
+    "?Clear@?$List@URegisteredCommand@@@DataStructures@@QAEX_N@Z": "actual relocation from ?Clear@?$OrderedList@PBDURegisteredCommand@@$1?RegisteredCommandComp@@YAHABQBDABU1@@Z@DataStructures@@QAEXXZ",
+    "??0?$OrderedList@PBDURegisteredCommand@@$1?RegisteredCommandComp@@YAHABQBDABU1@@Z@DataStructures@@QAE@XZ": "actual relocation from ??0CommandParserInterface@@QAE@XZ",
+    "??0?$List@URegisteredCommand@@@DataStructures@@QAE@XZ": "actual relocation from ??0?$OrderedList@PBDURegisteredCommand@@$1?RegisteredCommandComp@@YAHABQBDABU1@@Z@DataStructures@@QAE@XZ",
+    "??1?$List@PAUTelnetClient@TelnetTransport@@@DataStructures@@QAE@XZ": "actual relocation from ??1TelnetTransport@@QAE@XZ",
+    "?Clear@?$List@PAUTelnetClient@TelnetTransport@@@DataStructures@@QAEX_N@Z": "actual relocation from ?Stop@TelnetTransport@@UAEXXZ",
+    "?Insert@?$List@PAUTelnetClient@TelnetTransport@@@DataStructures@@QAEXQAUTelnetClient@TelnetTransport@@@Z": "actual relocation from ?HasNewConnection@TelnetTransport@@UAE?AUPlayerID@@XZ",
+    "??0?$List@PAUTelnetClient@TelnetTransport@@@DataStructures@@QAE@XZ": "actual relocation from ??0TelnetTransport@@QAE@XZ",
+    "?Insert@?$List@UPlayerIDAndChannel@LogCommandParser@@@DataStructures@@QAEXUPlayerIDAndChannel@LogCommandParser@@@Z": "actual relocation from ?Subscribe@LogCommandParser@@IAEIUPlayerID@@PBD@Z",
+    "??0?$List@UPlayerIDAndChannel@LogCommandParser@@@DataStructures@@QAE@XZ": "actual relocation from ??0LogCommandParser@@QAE@XZ",
+    "?Insert@?$OrderedList@PBDURegisteredCommand@@$1?RegisteredCommandComp@@YAHABQBDABU1@@Z@DataStructures@@QAEIABQBDABURegisteredCommand@@@Z": "actual relocation from ?RegisterCommand@CommandParserInterface@@MAEXEPBD0@Z",
+    "?GetIndexFromKey@?$OrderedList@PBDURegisteredCommand@@$1?RegisteredCommandComp@@YAHABQBDABU1@@Z@DataStructures@@QBEIABQBDPA_N@Z": "actual relocation from ?Insert@?$OrderedList@PBDURegisteredCommand@@$1?RegisteredCommandComp@@YAHABQBDABU1@@Z@DataStructures@@QAEIABQBDABURegisteredCommand@@@Z",
+    "?Insert@?$List@URegisteredCommand@@@DataStructures@@QAEXURegisteredCommand@@@Z": "actual relocation from ?Insert@?$OrderedList@PBDURegisteredCommand@@$1?RegisteredCommandComp@@YAHABQBDABU1@@Z@DataStructures@@QAEIABQBDABURegisteredCommand@@@Z",
+    "?Insert@?$List@URegisteredCommand@@@DataStructures@@QAEXURegisteredCommand@@I@Z": "actual relocation from ?Insert@?$OrderedList@PBDURegisteredCommand@@$1?RegisteredCommandComp@@YAHABQBDABU1@@Z@DataStructures@@QAEIABQBDABURegisteredCommand@@@Z",
+    "?RegisteredCommandComp@@YAHABQBDABURegisteredCommand@@@Z": "actual relocation from ?GetIndexFromKey@?$OrderedList@PBDURegisteredCommand@@$1?RegisteredCommandComp@@YAHABQBDABU1@@Z@DataStructures@@QBEIABQBDPA_N@Z",
+    "??A?$OrderedList@PBDURegisteredCommand@@$1?RegisteredCommandComp@@YAHABQBDABU1@@Z@DataStructures@@QBEAAURegisteredCommand@@I@Z": "actual relocation from ?GetRegisteredCommand@CommandParserInterface@@UAE_NPBDPAURegisteredCommand@@@Z",
+    "?Size@?$OrderedList@PBDURegisteredCommand@@$1?RegisteredCommandComp@@YAHABQBDABU1@@Z@DataStructures@@QBEIXZ": "actual relocation from ?SendCommandList@CommandParserInterface@@UAEXPAVTransportInterface@@UPlayerID@@@Z",
+    "?Insert@?$List@PAVCommandParserInterface@@@DataStructures@@QAEXQAVCommandParserInterface@@@Z": "actual relocation from ?AddCommandParser@ConsoleServer@@QAEXPAVCommandParserInterface@@@Z",
+    "??0?$List@PAVCommandParserInterface@@@DataStructures@@QAE@XZ": "actual relocation from ??0ConsoleServer@@QAE@XZ"
+  },
+  "new_unique_code": 8195,
+  "already_covered_code": 0,
+  "physical_code_compared": 8195,
+  "baseline": 351223,
+  "source025_direct_bytes": 0,
+  "reuse_existing_owners": {},
+  "excluded_unmatched": [],
+  "explicit_owner_transfer": "None; new TCP/RakSleep sole owners.",
+  "unselected_method": "Unreferenced homologues are excluded; all Nat roots linked to actual calls, data, allocation, and VFT.",
+  "source_files": [
+    {
+      "path": "client/saco/eval_vendor_log_command_parser.cpp",
+      "sha256": "8c064ff1cb68d6ee8d81af2b6fba46d7677a13b4eeb077f986d729e8ea02b7dc"
+    },
+    {
+      "path": "client/saco/eval_vendor_telnet_transport.cpp",
+      "sha256": "58772797988a2b937fdae05f145aed88bbbbe7d65fbf4449437a1257df80cf38"
+    },
+    {
+      "path": "client/saco/eval_vendor_console_server.cpp",
+      "sha256": "c0206645ac1688ebf3e5bd906d1caadea636dc2042aaa513bc186809ef71b459"
+    },
+    {
+      "path": "client/saco/eval_vendor_packet_console_logger.cpp",
+      "sha256": "760e4034010a1daa14f99b3387d692927299e1c2217af22ebd1b6f752794ae10"
+    },
+    {
+      "path": "client/saco/eval_vendor_command_parser_interface.cpp",
+      "sha256": "da22d52ce8dea96f42193f77b9307a066e7df3ce86467ec7ca6b8c3ec342f579"
+    }
+  ],
+  "objects": {
+    "eval_vendor_log_command_parser": "a8036f707be4eebca0c34d4495636632e82fcca2f4ef2c809497794d36b3701c",
+    "eval_vendor_telnet_transport": "d0baeedf89d75031ed78a2983a113c6e01aadff8c1166ab227816308d64d9317",
+    "eval_vendor_console_server": "761cef675df9ae6f1e037986049bc6c00e5cca27cf96a0eda66a961c365d346e",
+    "eval_vendor_packet_console_logger": "1d9d32a6169c2aef60d9ad63b8d09ace5147079f5722db47dfa6ee96ede768ed",
+    "eval_vendor_command_parser_interface": "50ce389a2bd7ec44f44fc6782e2a8086857fd11a0b695bb8bb46e1bff9957ee0"
+  },
+  "actual_weak_aliases": {
+    "eval_vendor_log_command_parser": {
+      "??_ELogCommandParser@@UAEPAXI@Z": "??_GLogCommandParser@@UAEPAXI@Z"
+    },
+    "eval_vendor_telnet_transport": {},
+    "eval_vendor_console_server": {},
+    "eval_vendor_packet_console_logger": {
+      "??_EPacketConsoleLogger@@UAEPAXI@Z": "??_GPacketConsoleLogger@@UAEPAXI@Z"
+    },
+    "eval_vendor_command_parser_interface": {
+      "??_ECommandParserInterface@@UAEPAXI@Z": "??_GCommandParserInterface@@UAEPAXI@Z"
+    }
+  }
+}

@@ -1,0 +1,112 @@
+{
+  "status": "WHOLE_REGION_PREFLIGHT_NOT_ACCEPTED_DEPENDENCIES_OPEN",
+  "run": "cp32-player-id-string-trial1",
+  "roots": {
+    "?ToString@PlayerID@@QBEPAD_N@Z": 210848
+  },
+  "seeds": {
+    "closure_vendor_player_id_string": {
+      "?ToString@PlayerID@@QBEPAD_N@Z": 210848
+    }
+  },
+  "regions": [
+    {
+      "unit": "closure_vendor_player_id_string",
+      "section": 3,
+      "rva": 210848,
+      "size": 120,
+      "anchor": "?ToString@PlayerID@@QBEPAD_N@Z",
+      "kind": ".text",
+      "sha256": "847d50695b11196b824ca33d9658d57c97ddbfcedb12b61f5bda1adaea858064",
+      "bindings": [
+        {
+          "symbol": "__imp__inet_ntoa@4",
+          "site_rva": 210856,
+          "target_va": 269374532,
+          "kind": 6
+        },
+        {
+          "symbol": "?str@?1??ToString@PlayerID@@QBEPAD_N@Z@4PADA",
+          "site_rva": 210861,
+          "target_va": 269585348,
+          "kind": 6
+        },
+        {
+          "symbol": "?str@?1??ToString@PlayerID@@QBEPAD_N@Z@4PADA",
+          "site_rva": 210885,
+          "target_va": 269585348,
+          "kind": 6
+        },
+        {
+          "symbol": "??_C@_01JLIPDDHJ@?3?$AA@",
+          "site_rva": 210906,
+          "target_va": 269377272,
+          "kind": 6
+        },
+        {
+          "symbol": "?str@?1??ToString@PlayerID@@QBEPAD_N@Z@4PADA",
+          "site_rva": 210914,
+          "target_va": 269585348,
+          "kind": 6
+        },
+        {
+          "symbol": "?str@?1??ToString@PlayerID@@QBEPAD_N@Z@4PADA",
+          "site_rva": 210945,
+          "target_va": 269585348,
+          "kind": 6
+        },
+        {
+          "symbol": "__itoa",
+          "site_rva": 210952,
+          "target_va": 269257557,
+          "kind": 20
+        },
+        {
+          "symbol": "?str@?1??ToString@PlayerID@@QBEPAD_N@Z@4PADA",
+          "site_rva": 210960,
+          "target_va": 269585348,
+          "kind": 6
+        }
+      ],
+      "whole_bytes_equal": true
+    },
+    {
+      "unit": "closure_vendor_player_id_string",
+      "section": 4,
+      "rva": 941816,
+      "size": 2,
+      "anchor": "??_C@_01JLIPDDHJ@?3?$AA@",
+      "kind": ".rdata",
+      "sha256": "7648eb81c4e9fef7b51879c6fcd6fb4b8863eea0cb2a978c508711dc52c80041",
+      "bindings": [],
+      "whole_bytes_equal": true
+    },
+    {
+      "unit": "closure_vendor_player_id_string",
+      "section": 5,
+      "rva": 1149892,
+      "size": 22,
+      "anchor": "?str@?1??ToString@PlayerID@@QBEPAD_N@Z@4PADA",
+      "kind": ".bss",
+      "sha256": "6a4875ddaceaa91fb3369f0f6d962f77442daf1b1d97733457d12bcabdf79441",
+      "bindings": [],
+      "whole_bytes_equal": true
+    }
+  ],
+  "bindings_checked": 8,
+  "external_targets": {
+    "__imp__inet_ntoa@4": 269374532,
+    "__itoa": 269257557
+  },
+  "identity_reasons": {
+    "?ToString@PlayerID@@QBEPAD_N@Z": "original principal identity and complete source semantics",
+    "__imp__inet_ntoa@4": "actual whole-region relocation from ?ToString@PlayerID@@QBEPAD_N@Z",
+    "?str@?1??ToString@PlayerID@@QBEPAD_N@Z@4PADA": "actual whole-region relocation from ?ToString@PlayerID@@QBEPAD_N@Z",
+    "??_C@_01JLIPDDHJ@?3?$AA@": "actual whole-region relocation from ?ToString@PlayerID@@QBEPAD_N@Z",
+    "__itoa": "actual whole-region relocation from ?ToString@PlayerID@@QBEPAD_N@Z"
+  },
+  "actual_weak_aliases": {
+    "closure_vendor_player_id_string": {}
+  },
+  "notes": "No source credit until every external true provider is closed and final linked gate passes."
+}

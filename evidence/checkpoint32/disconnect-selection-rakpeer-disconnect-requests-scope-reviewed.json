@@ -1,0 +1,231 @@
+{
+  "status": "PASS_STATIC_ABI_AND_COMPLETE_OWNERSHIP",
+  "run": "build/cp32-disconnect-requests-trial1",
+  "baseline_proof": "evidence/checkpoint32/send-font-acceptance.json",
+  "provider_bindings": {
+    "?NotifyAndFlagForDisconnect@RakPeer@@IAEXUPlayerID@@_NE@Z": {
+      "unit": "eval_vendor_rakpeer_send_handshake",
+      "rva": 256240,
+      "size": 339
+    },
+    "?GetTime@RakNet@@YAIXZ": {
+      "unit": "closure_raknet_time",
+      "rva": 190448,
+      "size": 86
+    },
+    "?RakSleep@@YAXI@Z": {
+      "unit": "eval_vendor_rak_sleep",
+      "rva": 277152,
+      "size": 12
+    },
+    "?Reset@ReliabilityLayer@@QAEX_N@Z": {
+      "unit": "closure_vendor_reliability_lifecycle",
+      "rva": 303856,
+      "size": 29
+    },
+    "?ReadLock@?$SingleProducerConsumer@PAUPacket@@@DataStructures@@QAEPAPAUPacket@@XZ": {
+      "unit": "eval_vendor_rakpeer_packet_api",
+      "rva": 235104,
+      "size": 23
+    },
+    "?ReadUnlock@?$SingleProducerConsumer@PAUPacket@@@DataStructures@@QAEXXZ": {
+      "unit": "eval_vendor_rakpeer_packet_api",
+      "rva": 235136,
+      "size": 20
+    },
+    "??1RPCMap@@QAE@XZ": {
+      "unit": "eval_vendor_rpc_map",
+      "rva": 333536,
+      "size": 5
+    },
+    "??1BitStream@RakNet@@QAE@XZ": {
+      "unit": "closure_cmd_bitstream",
+      "rva": 129232,
+      "size": 27
+    },
+    "??1ReliabilityLayer@@QAE@XZ": {
+      "unit": "closure_vendor_reliability_lifecycle",
+      "rva": 303600,
+      "size": 246
+    },
+    "?GetRemoteSystemFromPlayerID@RakPeer@@IBEPAURemoteSystemStruct@1@UPlayerID@@_N1@Z": {
+      "unit": "eval_vendor_rakpeer_remote_state",
+      "rva": 247776,
+      "size": 254
+    },
+    "??8PlayerID@@QBE_NABU0@@Z": {
+      "unit": "closure_vendor_network_id_comparisons",
+      "rva": 210656,
+      "size": 33
+    },
+    "?Reset@BitStream@RakNet@@QAEXXZ": {
+      "unit": "closure_cmd_bitstream",
+      "rva": 129264,
+      "size": 14
+    },
+    "?Write@BitStream@RakNet@@QAEXPBDH@Z": {
+      "unit": "closure_cmd_bitstream",
+      "rva": 131216,
+      "size": 113
+    }
+  },
+  "callbacks": [
+    {
+      "site_rva": 255676,
+      "slot_offset": 188,
+      "method": "RakPeerInterface::IPToPlayerID",
+      "abi": "MSVC x86 thiscall; primary RakPeerInterface at offset0",
+      "concrete_callback_credit": 0
+    },
+    {
+      "site_rva": 263888,
+      "slot_offset": 20,
+      "method": "PluginInterface::OnDisconnect",
+      "abi": "MSVC x86 thiscall; primary RakPeerInterface at offset0",
+      "concrete_callback_credit": 0
+    },
+    {
+      "site_rva": 264029,
+      "slot_offset": 60,
+      "method": "RakPeerInterface::DeallocatePacket",
+      "abi": "MSVC x86 thiscall; primary RakPeerInterface at offset0",
+      "concrete_callback_credit": 0
+    },
+    {
+      "site_rva": 264139,
+      "slot_offset": 60,
+      "method": "RakPeerInterface::DeallocatePacket",
+      "abi": "MSVC x86 thiscall; primary RakPeerInterface at offset0",
+      "concrete_callback_credit": 0
+    },
+    {
+      "site_rva": 264161,
+      "slot_offset": 60,
+      "method": "RakPeerInterface::DeallocatePacket",
+      "abi": "MSVC x86 thiscall; primary RakPeerInterface at offset0",
+      "concrete_callback_credit": 0
+    }
+  ],
+  "imports": [
+    {
+      "site_rva": 232633,
+      "iat_rva": 939072,
+      "name": "inet_addr"
+    },
+    {
+      "site_rva": 264234,
+      "iat_rva": 939104,
+      "name": "closesocket"
+    }
+  ],
+  "ownership": {
+    "remote_system": {
+      "size": 3177,
+      "destructor_rva": 230304,
+      "destructor_size": 96,
+      "real_members": [
+        {
+          "offset": 2146,
+          "type": "RPCMap",
+          "destructor_rva": 333536
+        },
+        {
+          "offset": 1852,
+          "type": "RakNet::BitStream",
+          "destructor_rva": 129232
+        },
+        {
+          "offset": 13,
+          "type": "ReliabilityLayer",
+          "destructor_rva": 303600
+        }
+      ],
+      "vector_destructor_rva": 239296,
+      "vector_destructor_size": 87
+    },
+    "requested_connection": {
+      "size": 278,
+      "node_size": 283,
+      "fields": [
+        [
+          "playerId",
+          0,
+          6
+        ],
+        [
+          "nextRequestTime",
+          6,
+          4
+        ],
+        [
+          "requestsMade",
+          10,
+          1
+        ],
+        [
+          "data",
+          11,
+          4
+        ],
+        [
+          "dataLength",
+          15,
+          2
+        ],
+        [
+          "outgoingPassword",
+          17,
+          256
+        ],
+        [
+          "outgoingPasswordLength",
+          273,
+          1
+        ],
+        [
+          "actionToTake",
+          274,
+          4
+        ]
+      ]
+    }
+  },
+  "semantics": [
+    "Disconnect real array deletion uses complete header3177 and genuine vector destructor; no opaque class or fakeVFT.",
+    "Plugin callbacks have known dynamic ABI; no callback implementation inferred.",
+    "Original waiting loops and RakSleep15 retained, never executed in this task.",
+    "SendConnectionRequest original password memcpy and length uint8 truncation retained; dataLength not newly initialized.",
+    "IPToPlayerID nullhost early return preserves original caller semantics.",
+    "Old buffers and requested data delete[] operations retained; no arbitrary no-op ownership."
+  ],
+  "source_snapshots": [
+    {
+      "path": "client/saco/eval_vendor_rakpeer_disconnect_requests.cpp",
+      "sha256": "d91f621c8539014a6759bb2163f1e68447636104a72f49e03ac37eb144e0fd6e"
+    },
+    {
+      "path": "vendor/upstream/raknet/RakPeer.cpp",
+      "sha256": "71b46e7918c933c5eb7a171d5c76d43833568e3193a0244b79e40bec4854c61b"
+    },
+    {
+      "path": "vendor/upstream/raknet/RakPeer.h",
+      "sha256": "3c462fd303bd7a7becc91f1b4e2752cff3656a2eec2a65afc0c15816c0902d75"
+    },
+    {
+      "path": "vendor/upstream/raknet/RakPeerInterface.h",
+      "sha256": "550ac3c7ed53e081039e62a459882f9102272399ca0ed40868d5e94b75239079"
+    },
+    {
+      "path": "vendor/upstream/raknet/PluginInterface.h",
+      "sha256": "cb6ae0bf1f71ad66e6820d5d634720f98e52955960cb87d486826f0a5ec9eb66"
+    },
+    {
+      "path": "vendor/upstream/raknet/SingleProducerConsumer.h",
+      "sha256": "4ec3e22b6b50fcd05dfdf419aebd69b891990de949f88079f9bd17f5ea1e5421"
+    },
+    {
+      "path": "vendor/upstream/raknet/NetworkTypes.h",
+      "sha256": "026005dc438fa4777babf8c0c855e1ace7323414137b147b38cd97e24daec83f"
+    }
+  ]
+}

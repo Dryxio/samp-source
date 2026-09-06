@@ -1441,3 +1441,68 @@ Direct0250/cumulative21126; 103128 new unique bytes since parallel start, 10870.
 ListBox/roster accepted: +1250 unique code bytes, total 277519/930756 (29.816515%). ListBox Insert195+arrayInsert92 and player roster900+EH63, all full regions and actual providers. Shared header milestone rebuilt all profiles,111 old GUI regions preserved; full gate, ten controls and Actor ABI pass. Real pScoreBoard4 storage transferred separately; prior pDeathWindow/pLabel main changes remain pending.
 
 Source025821 adapted principal bytes/cumulative21947; 104378 new unique bytes since parallel start, 10485.9 bytes/hour including coordination/failures. Ctor144/Render1014 and ServerJoin remain unmatched, their dependencies excluded. Agents reassigned after bounded trials. Goal active; no push/deploy.
+
+
+Database/IME/keys accepted: +23173 unique code bytes, total 300692/930756 (32.306211%). Whole DatabaseServer/Table/Common/Serializer and extra sort/serialization operations, PlayerID string120, IME2460 and SetKeys655. All source/data/EH/COFF/PE providers, ten controls and Actor ABI pass. Actual compiler CRT initializer pointer4 now bound only inside pinned LIBCMT initializer array with null sentinels, unique local provider and PE relocations; full comparison unchanged, dedicated negative controls retained. No data or duplicate code credited.
+
+Direct0250/cumulative21947: existing vendor source produced the major gain here. 127551 new unique bytes since parallel start, 12189.7 bytes/hour coordination/failures included. Prior85 player regions remain identical after transfer77. Unmatched GetKeys and later IME message/reading candidates excluded. Goal active; no push/deploy.
+
+
+FileList/DatabaseClient/SHA1 accepted: +14988 unique code bytes, total 315680/930756 (33.916515%). Whole functions and attached data/EH, all COFF/PE targets, genuine CRT providers and weak destructor alias, ten controls and Actor ABI pass. FileList12324, Client1592, SHA11072; old SHA1 core excluded from gain. No data, duplicate or CRT code credited.
+
+Direct0250/cumulative21947: existing vendor source supplies this batch. 142539 new unique bytes since parallel start, 12945.1 bytes/hour coordination/failures included. Parked IME message/reading bodies excluded. Goal active; no push/deploy.
+
+
+DirectoryDelta/IME/menu accepted: +3238 unique code bytes, total 318918/930756 (34.264404%). Whole functions and attached data/EH, all COFF/PE targets, genuine providers and whole state, ten controls and Actor ABI pass. DirectoryDelta2164 including actual FileList/List constructors25, IME711, Menu363. No data, duplicate or CRT code credited.
+
+Direct0250/cumulative21947: existing vendor source and R5 UI adaptations supply this batch. 145777 new unique bytes since parallel start, 13067.9 bytes/hour coordination/failures included. Parked IME message/reading bodies excluded. Goal active; no push/deploy.
+
+
+NAT/chat/mesh accepted: +5027 unique code bytes, total 323945/930756 (34.804503%). Whole functions and attached data/EH, all COFF/PE targets, genuine providers and whole state, ten controls and Actor ABI pass. Nat4016, Mesh630, Chat381; local R5 failure IDs52/53, whole dispatch tables and EH included in comparison. No data, duplicate or CRT code credited.
+
+Direct02541/cumulative21988: FilterInvalidChars41 has actual missing source in025, other code uses existing vendor and R5 adaptations. 150804 new unique bytes since parallel start, 13280.1 bytes/hour coordination/failures included. Parked IME message/reading bodies excluded. Goal active; no push/deploy.
+
+
+ConnectionGraph accepted: +10510 unique code bytes, total 334455/930756 (35.933693%). Whole functions and attached data/EH, all COFF/PE targets, genuine providers and whole state, ten controls and Actor ABI pass. ConnectionGraph and actual AllocPacket32, all101 former node_identity regions conserved, graph_algorithms57 intact with four physical shared copies exact. No data, duplicate or CRT code credited.
+
+Direct0250/cumulative21988: full vendor source supplies the new code. 161314 new unique bytes since parallel start, 13998.4 bytes/hour coordination/failures included. Parked IME message/reading bodies excluded. Goal active; no push/deploy.
+
+
+Replica/NetworkID and chat navigation accepted: +12131 unique code bytes, total 346586/930756 (37.237042%). All complete functions and attached data/EH, actual COFF/PE targets, owner transfer35 unchanged, true aliases, ten inherited controls and Actor ABI pass. CRT binder now validates entire aligned initializer blocks without splitting source data; two positive cases8/4, eight new fault cases and five old scalar faults pass. Navigation helper distinct name fixes a real COMDAT conflict without forcing a wrong target. No duplicate, data, CRT or unimplemented callback code counted.
+
+Direct0250/cumulative21988. 173445 new unique bytes since parallel start, 14366.8 bytes/hour coordination/failures included. TCP and font helper candidates under review. Goal active; no push/deploy.
+
+
+TCPInterface/RakSleep4306 and font helpers331 accepted: +4637 unique code bytes, total 351223/930756 (37.735239%). Whole worker/lifetimes, EH/data, all COFF/PE targets and imports; true CRT thread wrappers and scope, ten controls and Actor ABI pass. All4266 prior regions preserved. True static font scratch/scalars40012 verified, but startup heap allocation remains unimplemented and receives no credit. No data/CRT/duplicate credit.
+
+Direct0250/cumulative21988. 178082 new unique bytes since parallel start, 14612.4 bytes/hour coordination/failures included. Font proxy/hook candidate next. Goal active; no push/deploy.
+
+
+Console/parser/Telnet/logger8195 and Font439+ANSI271 accepted: +8905 unique code bytes, total 360128/930756 (38.691988%). All4317 previous regions preserved, 170 new complete sections, all targets/COFF/PE, three true deleting aliases and whole VFTs, CRT strtoul23 to true strtoxl boundary qualified. Ten controls and Actor ABI pass. Two former pending bodies closed; three remain. ANSI source change one predicate, no header edits. Font real static object4/VFT56, no synthetic init; original startup allocator still outside coverage. No data/CRT/duplicate code credit.
+
+Direct0250/cumulative21988. 186987 new unique bytes since parallel start, 15144.5 bytes/hour coordination/failures included. Next RakPeer and newly unlocked text consumer. Goal active; no push/deploy.
+
+
+RSA11013/RakNetCommandParser5090, commands1032 and ANSI201/ctor9 accepted: +17345 unique code bytes, total 377473/930756 (40.555527%). Entire source/data/EH, all actual targets and COFF/PE, true VFT/weak alias, pinned CRT wrappers and whole locale archive12, ten controls and Actor ABI pass. One positive/seven negative CRTdata controls. Duplicate FindPlayerPed/EH and prior RSA1833 excluded from gain. Three real SCRIPT_COMMAND18 objects stored independently, no typed slicing. No data/CRT/fake-storage or virtual concrete-implementation credit.
+
+Direct025+280/cumulative22268, verified entire Weather/Time/Interior definitions; Save/Raw adapted with zero direct credit. 204332 new unique bytes since parallel start, 16026.7 bytes/hour coordination/failures included. Chat descendants and font startup remain outside coverage. Goal active; no push/deploy.
+
+
+RakPeer policy/mutex2112, UI/Rcon/Skin/CreateVehicle1556 and NewVehicle163: +3831 unique accepted code bytes, total381304/930756 (40.967128%).128 new complete regions and all4669 prior preserved. Whole typed settings1297 transferred, two bool stores verified; complete CVehicle184 allocation and existing constructor. Full original/linked COFF/PE, true providers/aliases/duplicate owners, ten negative controls and Actor ABI PASS. No duplicate/data/CRT or unimplemented dependency credit.
+
+Direct025+0/cumulative22268; adapted commands/factory are hybrid, vendor already in base. 208163 newunique bytes since parallel start, 15855.6 bytes/hour including coordination and failed trials. Remote-state trial compiled; goal active. No push or deployment.
+
+
+RakPeer remote state/RPCMap/reliability setters: +2816 unique accepted code bytes, total384120/930756 (41.269678%).38 new whole regions, all4797 previous preserved. Actual RPCNode6 allocation and full RPCMap1024, whole static POD296 statistics and original3177 remote stride. Entire original/linked COFF/PE, true providers/aliases, ten negative controls and Actor ABI PASS. Prior956 code excluded. No data/CRT/unimplemented virtual dependency credit. Direct025+0/cumulative22268; source already present in vendor base. 15934.3 bytes/hour including coordination and failures. Command leaves next; goal active, no push/deploy.
+
+
+Packet API2342 and command registration579: +2921 unique accepted code bytes, total387041/930756 (41.583508%).38 new whole regions, all4835 previous preserved. Real typed queues and callbacks, full original/linked code/data/EH and all COFF/PE targets; ten negative controls and Actor ABI PASS. Whole death/quit/debug/RPC stores, explicit main owner transfers. No duplicate/CRT/data or concrete callback implementation credit. Direct025+54/cumulative22322 via complete SelectVehicle24/GameDebugEntity30; Say191 hybrid0. 15977.8 bytes/hour including coordination/failures. FontSize/UI initialization dependencies next; goal active, no push/deploy.
+
+
+Send/handshake5328 plus FontSize/Setup/layout/toggles1113: +6441 unique accepted code bytes, total393482/930756 (42.275527%).Complete original/linked functions/data/EH and all COFF/PE targets; real vendor allocations and callbacks, duplicate RSA/BitStream excluded. Whole UI globals proved by real initialization and distinct owners, no startup allocation credit. Friend preserves actual private CreateFonts AAE; both profiles recompiled once at header milestone. Ten controls and Actor ABI PASS. Direct025+0/cumulative22322. 16164.7 bytes/hour including coordination/failures. Goal active, no push/deploy.
+
+
+Disconnect1862 and vehicle selection965/ped559: +3386 unique accepted code bytes, total396868/930756 (42.639317%).Whole original/linked code/data/EH and every COFF/PE target; true RemoteSystem3177 lifetime, complete request queues, actual vehicle184 provider, five script descriptors18 and selection state. Duplicate FindPlayer/EH fully requalified, no duplicate/CRT/data/native dependency credit. Ten controls and Actor ABI PASS. No header change. Direct025+20/cumulative22342 via complete dispatcher20; remaining selection945 hybrid. 16221.9 bytes/hour including coordination/failures. RakClient family next; goal active, no push/deploy.
+
+
+RakClient2088 +Router/SystemAddressList3378 +RPC491: +5957 unique accepted code bytes, total402825/930756 (43.279334%).Entire original/linked code/data/EH and all COFF/PE targets; true multiple inheritance ABI, virtual interfaces, complete types and original file CRT boundaries. PutPlayer261 restored via normal inline getter context; Control156 and lookup32 exact. No duplicate/CRT/data/concrete callback or unimplemented graph credit. Ten controls and Actor ABI PASS. Direct025+0/cumulative22342; missing RPC source useful as adapted reference. 16358.9 bytes/hour coordination/failures included. Goal active, no push/deploy.

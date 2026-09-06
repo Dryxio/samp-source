@@ -1,0 +1,44 @@
+{
+  "status": "PASS_REAL_GATE_METHOD_POSITIVE_AND_FIVE_NEGATIVE_CONTROLS",
+  "run": "cp32-database-ime-linked2",
+  "contract": "config/checkpoint32/database-ime-contract.json",
+  "method": "Gate.bind_crt_initializer",
+  "verifier_sha256": "5b85451f488961399af5c12ff5b12e08b0e87ffec77d15161ea231c287d67ddf",
+  "test_sha256": "695f3a73b1047eaa2255fda41be23866c4a69e8818d3428c3905465e21db994d",
+  "linked_sha256": "7baa09645f0eec61f5fb2d14e0a83e0fd7543140bae40d522a6e1e766e0248aa",
+  "controls": [
+    {
+      "name": "actual_positive",
+      "result": "PASS",
+      "linked_rva": 569360,
+      "target_va": 268817392
+    },
+    {
+      "name": "duplicate_true_target",
+      "result": "REJECTED_AS_REQUIRED",
+      "reason": "missing or ambiguous CRT initializer slot block"
+    },
+    {
+      "name": "wrong_unique_target",
+      "result": "REJECTED_AS_REQUIRED",
+      "reason": "missing or ambiguous CRT initializer slot block"
+    },
+    {
+      "name": "missing_linked_PE_relocation",
+      "result": "REJECTED_AS_REQUIRED",
+      "reason": "missing linked CRT initializer PE relocation"
+    },
+    {
+      "name": "wrong_CRT_boundary_owner",
+      "result": "REJECTED_AS_REQUIRED",
+      "reason": "invalid pinned CRT sentinel owner"
+    },
+    {
+      "name": "nonzero_null_sentinel",
+      "result": "REJECTED_AS_REQUIRED",
+      "reason": "invalid CRT sentinel section or contents"
+    }
+  ],
+  "mutation_scope": "Only shallow gate copies and in-memory PE read overlays / copied relocation sets / copied MAP entries; no artifact/source/contract files altered.",
+  "new_credit": 0
+}

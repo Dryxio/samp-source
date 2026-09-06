@@ -1,0 +1,79 @@
+{
+  "status": "BOUNDED_PROFILE_CONTEXT_PROPOSAL_NOT_COMPILED",
+  "source": {
+    "path": "build/agent-independent/eval_player_key_codec.cpp",
+    "sha256": "5d1fb3a0b2f83a29ea4667b057f766bc31a6e67f6e06bf9ee69b209bedfb2e92",
+    "origin": "client/saco/game/playerped.cpp",
+    "origin_sha256": "959a387ca66ed254b23c2a059632e89499f3fa2a5f599c9b266b4749b7b0d223"
+  },
+  "profile": "Ob2",
+  "baseline_proof": "evidence/checkpoint32/listbox-roster-acceptance.json",
+  "baseline": 277519,
+  "methods": [
+    {
+      "name": "CPlayerPed::SetKeys",
+      "rva": 717632,
+      "size": 655,
+      "new_unique": 655,
+      "original_calls": [
+        {
+          "site": 717646,
+          "target": 685008,
+          "target_covered": true
+        },
+        {
+          "site": 718272,
+          "target": 684864,
+          "target_covered": true
+        }
+      ]
+    },
+    {
+      "name": "CPlayerPed::GetKeys",
+      "rva": 718288,
+      "size": 338,
+      "new_unique": 338,
+      "original_calls": [
+        {
+          "site": 718294,
+          "target": 684976,
+          "target_covered": true
+        }
+      ]
+    },
+    {
+      "name": "CPlayerPed::IsInVehicle",
+      "rva": 704112,
+      "size": 24,
+      "new_unique": 0,
+      "original_calls": []
+    },
+    {
+      "name": "CPlayerPed::IsInJetpackMode",
+      "rva": 708032,
+      "size": 53,
+      "new_unique": 0,
+      "original_calls": []
+    }
+  ],
+  "new_unique_main": 993,
+  "source025_direct_bytes": 0,
+  "source025_note": "025 shares original key-codec implementation, but bodies already exist in dashr-derived active base, so no missing-source025 credit.",
+  "new_evidence": "Old cp32-michael-player-scan4 was Ob1 and retained calls to IsInVehicle/IsInJetpackMode (SetKeys622/GetKeys267); original SetKeys655/GetKeys338 contain their field checks inline. A real Ob2 TU context is a distinct grounded optimization profile, not a source permutation.",
+  "ownership": {
+    "old_unit": "closure_player",
+    "move_only": [
+      "?IsInVehicle@CPlayerPed@@QAEHXZ",
+      "?IsInJetpackMode@CPlayerPed@@QAEHXZ"
+    ],
+    "existing_rvas": [
+      704112,
+      708032
+    ],
+    "additional_credit": 0,
+    "condition": "Only after successful probe: parent removes exactly two original definitions from closure_player.cpp and moves seeds, then verifies all remaining accepted closure_player bodies unchanged. No concurrent duplicates linked.",
+    "same_TU_call_analysis": "Neither helper is called by any other closure_player.cpp method; rg shows only their definitions, reducing visibility-transfer risk."
+  },
+  "dependencies": "Only real already-covered keyboard helpers; no callbacks, new globals, allocations or unknown native calls.",
+  "preserve_failed": "cp32-michael-player-scan4 fullfailed bodies and profile remain unchanged; abandon this profile if no exact main candidates without new evidence."
+}

@@ -51,6 +51,7 @@ private:
 
 
 	void CreateFonts();
+	friend void cmdFontSize(PCHAR szCmd);
 
 	void FUNC_10067200();
 

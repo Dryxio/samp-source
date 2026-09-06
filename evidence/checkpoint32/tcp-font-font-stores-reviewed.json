@@ -1,0 +1,51 @@
+{
+  "status": "WHOLE_TRUE_BSS_STORES_COMPILED",
+  "regions": [
+    {
+      "unit": "closure_store_font_embedded_color",
+      "anchor": "?r5FontEmbeddedColor@@3KA",
+      "rva": 1273488,
+      "size": 4,
+      "kind": "zero",
+      "sha256": "df3f619804a92fdb4057192dc43dd748ea778adc52bc498ce80524c014b81119",
+      "bindings": [],
+      "object_sha256": "5782c8ba8686c58fb44bb4dc37429b2cae86a2a0d27cda0efb0938c38ffec1e7",
+      "source_credit": 0
+    },
+    {
+      "unit": "closure_store_font_character_index",
+      "anchor": "?r5FontCharacterIndex@@3HA",
+      "rva": 1273508,
+      "size": 4,
+      "kind": "zero",
+      "sha256": "df3f619804a92fdb4057192dc43dd748ea778adc52bc498ce80524c014b81119",
+      "bindings": [],
+      "object_sha256": "3dbfc52806569eec17e37febc033f5067a9c2b076af497a9daf1912a202d7b9c",
+      "source_credit": 0
+    },
+    {
+      "unit": "closure_store_font_wide_text",
+      "anchor": "?r5FontWideText@@3PAGA",
+      "rva": 1273512,
+      "size": 40000,
+      "kind": "zero",
+      "sha256": "e7e2dcff542de95352682dc186432e98f0188084896773f1973276b0577d5305",
+      "bindings": [],
+      "object_sha256": "9633aeb31c8aff525a663f59fe7963ee354108632aed40095ffa866c21ec10b1",
+      "source_credit": 0
+    },
+    {
+      "unit": "closure_store_font_original_text",
+      "anchor": "?r5FontOriginalText@@3PADA",
+      "rva": 1313516,
+      "size": 4,
+      "kind": "zero",
+      "sha256": "df3f619804a92fdb4057192dc43dd748ea778adc52bc498ce80524c014b81119",
+      "bindings": [],
+      "object_sha256": "5ccb66f4202e92a8f3ab0db1465b68b1b76fe1b3f43c3f13e3244e2e5fc6a96c",
+      "source_credit": 0
+    }
+  ],
+  "source_credit": 0,
+  "limitation": "Only actual static pointer/scratch state represented; startup allocator C4790 and whole heap buffer lifecycle are unimplemented and not counted."
+}

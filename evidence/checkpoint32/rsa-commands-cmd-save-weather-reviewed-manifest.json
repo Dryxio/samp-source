@@ -1,0 +1,1030 @@
+{
+  "status": "WHOLE_CODE_AND_LITERALS_PASS_SCRIPT_STORES_COMPLETE",
+  "run": "cp32-rsa-commands-ob1-v2",
+  "baseline": 360128,
+  "new_unique_code": 1032,
+  "EH_bytes": 0,
+  "source025_direct": 280,
+  "source025_reference_sha256": "1455ffbfcf67df3d203480984152128eca662a0b57a995550d14485fbddc3e7f",
+  "direct_definitions": [
+    {
+      "name": "cmdSetWeather",
+      "code_bytes": 77,
+      "definition_sha256": "eabbb3078289433bce27dbce98c5fc33da708ba75e5160714ca49a00a454b6b8",
+      "comparison": "Exact full definition text after universal newline decoding, including signature; includes/prototypes outside body excluded."
+    },
+    {
+      "name": "cmdSetTime",
+      "code_bytes": 162,
+      "definition_sha256": "d91f7a6b2b84e6f59d42483cfa94ca3e90fd581b8ae0bbbbe4254844a04ff9ca",
+      "comparison": "Exact full definition text after universal newline decoding, including signature; includes/prototypes outside body excluded."
+    },
+    {
+      "name": "cmdShowInterior",
+      "code_bytes": 41,
+      "definition_sha256": "17a8f4421e341c699a85ece7800a29c0e7d442f7bbb8a09506c2bcd80bd16ca0",
+      "comparison": "Exact full definition text after universal newline decoding, including signature; includes/prototypes outside body excluded."
+    }
+  ],
+  "hybrid_save_raw_credit": 0,
+  "regions": [
+    {
+      "unit": "closure_cmd_save_positions",
+      "anchor": "?cmdSavePos@@YAXPAD@Z",
+      "rva": 428544,
+      "size": 370,
+      "section": 51,
+      "kind": "code",
+      "sha256": "87c572f4c004bccaf1ec74542b0e2deb4586b3b7e1090f490ae84234a067d198",
+      "object_sha256": "ed1be3883e61ffa07bbd3c21f6e107d8d92baa2b2aae595d1fbe55a7762e0085",
+      "bindings": [
+        {
+          "symbol": "?pGame@@3PAVCGame@@A",
+          "site_rva": 428558,
+          "symbol_va": 270986156,
+          "addend": 0,
+          "target_va": 270986156,
+          "kind": 6
+        },
+        {
+          "symbol": "?FindPlayerPed@CGame@@QAEPAVCPlayerPed@@XZ",
+          "site_rva": 428566,
+          "symbol_va": 268439568,
+          "addend": 0,
+          "target_va": 268439568,
+          "kind": 20
+        },
+        {
+          "symbol": "?GetSAMPPath@@YAPADXZ",
+          "site_rva": 428573,
+          "symbol_va": 269236944,
+          "addend": 0,
+          "target_va": 269236944,
+          "kind": 20
+        },
+        {
+          "symbol": "??_C@_0BG@DKOKDJFI@?$CFs?2savedpositions?4txt?$AA@",
+          "site_rva": 428583,
+          "symbol_va": 269393976,
+          "addend": 0,
+          "target_va": 269393976,
+          "kind": 6
+        },
+        {
+          "symbol": "_sprintf",
+          "site_rva": 428589,
+          "symbol_va": 269251411,
+          "addend": 0,
+          "target_va": 269251411,
+          "kind": 20
+        },
+        {
+          "symbol": "??_C@_01MCMALHOG@a?$AA@",
+          "site_rva": 428598,
+          "symbol_va": 269377764,
+          "addend": 0,
+          "target_va": 269377764,
+          "kind": 6
+        },
+        {
+          "symbol": "_fopen",
+          "site_rva": 428604,
+          "symbol_va": 269254473,
+          "addend": 0,
+          "target_va": 269254473,
+          "kind": 20
+        },
+        {
+          "symbol": "?pChatWindow@@3PAVCChatWindow@@A",
+          "site_rva": 428619,
+          "symbol_va": 270986112,
+          "addend": 0,
+          "target_va": 270986112,
+          "kind": 6
+        },
+        {
+          "symbol": "??_C@_0DE@FMDHHILE@I?5can?8t?5open?5the?5savepositions?4t@",
+          "site_rva": 428624,
+          "symbol_va": 269393924,
+          "addend": 0,
+          "target_va": 269393924,
+          "kind": 6
+        },
+        {
+          "symbol": "?AddDebugMessage@CChatWindow@@QAAXPADZZ",
+          "site_rva": 428630,
+          "symbol_va": 268861680,
+          "addend": 0,
+          "target_va": 268861680,
+          "kind": 20
+        },
+        {
+          "symbol": "?IsInVehicle@CPlayerPed@@QAEHXZ",
+          "site_rva": 428647,
+          "symbol_va": 269139568,
+          "addend": 0,
+          "target_va": 269139568,
+          "kind": 20
+        },
+        {
+          "symbol": "?GetGtaVehicle@CPlayerPed@@QAEPAU_VEHICLE_TYPE@@XZ",
+          "site_rva": 428662,
+          "symbol_va": 269139968,
+          "addend": 0,
+          "target_va": 269139968,
+          "kind": 20
+        },
+        {
+          "symbol": "?GamePool_Vehicle_GetIndex@@YGKPAU_VEHICLE_TYPE@@@Z",
+          "site_rva": 428670,
+          "symbol_va": 269171712,
+          "addend": 0,
+          "target_va": 269171712,
+          "kind": 20
+        },
+        {
+          "symbol": "?r5CmdGetCarZAngle@@3USCRIPT_COMMAND@@B",
+          "site_rva": 428681,
+          "symbol_va": 269393304,
+          "addend": 0,
+          "target_va": 269393304,
+          "kind": 6
+        },
+        {
+          "symbol": "?ScriptCommand@@YAHPBUSCRIPT_COMMAND@@ZZ",
+          "site_rva": 428686,
+          "symbol_va": 269165328,
+          "addend": 0,
+          "target_va": 269165328,
+          "kind": 20
+        },
+        {
+          "symbol": "??_C@_0DH@GAFDDILH@AddStaticVehicle?$CI?$CFu?0?$CF?44f?0?$CF?44f?0?$CF?4@",
+          "site_rva": 428753,
+          "symbol_va": 269393868,
+          "addend": 0,
+          "target_va": 269393868,
+          "kind": 6
+        },
+        {
+          "symbol": "_fprintf",
+          "site_rva": 428759,
+          "symbol_va": 269259612,
+          "addend": 0,
+          "target_va": 269259612,
+          "kind": 20
+        },
+        {
+          "symbol": "_fclose",
+          "site_rva": 428765,
+          "symbol_va": 269254232,
+          "addend": 0,
+          "target_va": 269254232,
+          "kind": 20
+        },
+        {
+          "symbol": "?pChatWindow@@3PAVCChatWindow@@A",
+          "site_rva": 428771,
+          "symbol_va": 270986112,
+          "addend": 0,
+          "target_va": 270986112,
+          "kind": 6
+        },
+        {
+          "symbol": "??_C@_0BI@GLBKHNAD@?9?$DO?5InCar?5position?5saved?$AA@",
+          "site_rva": 428776,
+          "symbol_va": 269393844,
+          "addend": 0,
+          "target_va": 269393844,
+          "kind": 6
+        },
+        {
+          "symbol": "?AddInfoMessage@R5ChatInfoView@@QAAXPADZZ",
+          "site_rva": 428782,
+          "symbol_va": 268861552,
+          "addend": 0,
+          "target_va": 268861552,
+          "kind": 20
+        },
+        {
+          "symbol": "?r5CmdGetActorZAngle@@3USCRIPT_COMMAND@@B",
+          "site_rva": 428812,
+          "symbol_va": 269393344,
+          "addend": 0,
+          "target_va": 269393344,
+          "kind": 6
+        },
+        {
+          "symbol": "?ScriptCommand@@YAHPBUSCRIPT_COMMAND@@ZZ",
+          "site_rva": 428817,
+          "symbol_va": 269165328,
+          "addend": 0,
+          "target_va": 269165328,
+          "kind": 20
+        },
+        {
+          "symbol": "?GetModelIndex@CEntity@@QAEIXZ",
+          "site_rva": 428865,
+          "symbol_va": 269086768,
+          "addend": 0,
+          "target_va": 269086768,
+          "kind": 20
+        },
+        {
+          "symbol": "??_C@_0DL@HEPJGMGL@AddPlayerClass?$CI?$CFu?0?$CF?44f?0?$CF?44f?0?$CF?44f@",
+          "site_rva": 428871,
+          "symbol_va": 269393784,
+          "addend": 0,
+          "target_va": 269393784,
+          "kind": 6
+        },
+        {
+          "symbol": "_fprintf",
+          "site_rva": 428877,
+          "symbol_va": 269259612,
+          "addend": 0,
+          "target_va": 269259612,
+          "kind": 20
+        },
+        {
+          "symbol": "_fclose",
+          "site_rva": 428883,
+          "symbol_va": 269254232,
+          "addend": 0,
+          "target_va": 269254232,
+          "kind": 20
+        },
+        {
+          "symbol": "?pChatWindow@@3PAVCChatWindow@@A",
+          "site_rva": 428889,
+          "symbol_va": 270986112,
+          "addend": 0,
+          "target_va": 270986112,
+          "kind": 6
+        },
+        {
+          "symbol": "??_C@_0BJ@LHGEJALI@?9?$DO?5OnFoot?5position?5saved?$AA@",
+          "site_rva": 428894,
+          "symbol_va": 269393756,
+          "addend": 0,
+          "target_va": 269393756,
+          "kind": 6
+        },
+        {
+          "symbol": "?AddInfoMessage@R5ChatInfoView@@QAAXPADZZ",
+          "site_rva": 428900,
+          "symbol_va": 268861552,
+          "addend": 0,
+          "target_va": 268861552,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "closure_cmd_save_positions",
+      "anchor": "?cmdRawSavePos@@YAXPAD@Z",
+      "rva": 428928,
+      "size": 382,
+      "section": 59,
+      "kind": "code",
+      "sha256": "367d7c5dd4fb19af4165890e2385b954c8ae75d96a104e6469146b0cab0cce64",
+      "object_sha256": "ed1be3883e61ffa07bbd3c21f6e107d8d92baa2b2aae595d1fbe55a7762e0085",
+      "bindings": [
+        {
+          "symbol": "?pGame@@3PAVCGame@@A",
+          "site_rva": 428942,
+          "symbol_va": 270986156,
+          "addend": 0,
+          "target_va": 270986156,
+          "kind": 6
+        },
+        {
+          "symbol": "?FindPlayerPed@CGame@@QAEPAVCPlayerPed@@XZ",
+          "site_rva": 428949,
+          "symbol_va": 268439568,
+          "addend": 0,
+          "target_va": 268439568,
+          "kind": 20
+        },
+        {
+          "symbol": "?IsInVehicle@CPlayerPed@@QAEHXZ",
+          "site_rva": 428958,
+          "symbol_va": 269139568,
+          "addend": 0,
+          "target_va": 269139568,
+          "kind": 20
+        },
+        {
+          "symbol": "??_C@_01MCMALHOG@a?$AA@",
+          "site_rva": 428971,
+          "symbol_va": 269377764,
+          "addend": 0,
+          "target_va": 269377764,
+          "kind": 6
+        },
+        {
+          "symbol": "??_C@_0BA@GPGPHCNE@rawvehicles?4txt?$AA@",
+          "site_rva": 428976,
+          "symbol_va": 269394176,
+          "addend": 0,
+          "target_va": 269394176,
+          "kind": 6
+        },
+        {
+          "symbol": "_fopen",
+          "site_rva": 428981,
+          "symbol_va": 269254473,
+          "addend": 0,
+          "target_va": 269254473,
+          "kind": 20
+        },
+        {
+          "symbol": "?GetGtaVehicle@CPlayerPed@@QAEPAU_VEHICLE_TYPE@@XZ",
+          "site_rva": 429001,
+          "symbol_va": 269139968,
+          "addend": 0,
+          "target_va": 269139968,
+          "kind": 20
+        },
+        {
+          "symbol": "?GamePool_Vehicle_GetIndex@@YGKPAU_VEHICLE_TYPE@@@Z",
+          "site_rva": 429009,
+          "symbol_va": 269171712,
+          "addend": 0,
+          "target_va": 269171712,
+          "kind": 20
+        },
+        {
+          "symbol": "?r5CmdGetCarZAngle@@3USCRIPT_COMMAND@@B",
+          "site_rva": 429020,
+          "symbol_va": 269393304,
+          "addend": 0,
+          "target_va": 269393304,
+          "kind": 6
+        },
+        {
+          "symbol": "?ScriptCommand@@YAHPBUSCRIPT_COMMAND@@ZZ",
+          "site_rva": 429025,
+          "symbol_va": 269165328,
+          "addend": 0,
+          "target_va": 269165328,
+          "kind": 20
+        },
+        {
+          "symbol": "??_C@_0CD@EPPOKIME@?$CFu?0?$CF?44f?0?$CF?44f?0?$CF?44f?0?$CF?44f?0?$CFu?0?$CFu?5?$DL?5?$CF@",
+          "site_rva": 429092,
+          "symbol_va": 269394140,
+          "addend": 0,
+          "target_va": 269394140,
+          "kind": 6
+        },
+        {
+          "symbol": "_fprintf",
+          "site_rva": 429098,
+          "symbol_va": 269259612,
+          "addend": 0,
+          "target_va": 269259612,
+          "kind": 20
+        },
+        {
+          "symbol": "_fclose",
+          "site_rva": 429104,
+          "symbol_va": 269254232,
+          "addend": 0,
+          "target_va": 269254232,
+          "kind": 20
+        },
+        {
+          "symbol": "?pChatWindow@@3PAVCChatWindow@@A",
+          "site_rva": 429110,
+          "symbol_va": 270986112,
+          "addend": 0,
+          "target_va": 270986112,
+          "kind": 6
+        },
+        {
+          "symbol": "??_C@_0BD@DMOHONKH@?9?$DO?5InCar?5pos?5saved?$AA@",
+          "site_rva": 429115,
+          "symbol_va": 269394120,
+          "addend": 0,
+          "target_va": 269394120,
+          "kind": 6
+        },
+        {
+          "symbol": "?AddDebugMessage@CChatWindow@@QAAXPADZZ",
+          "site_rva": 429121,
+          "symbol_va": 268861680,
+          "addend": 0,
+          "target_va": 268861680,
+          "kind": 20
+        },
+        {
+          "symbol": "?r5CmdGetActorZAngle@@3USCRIPT_COMMAND@@B",
+          "site_rva": 429150,
+          "symbol_va": 269393344,
+          "addend": 0,
+          "target_va": 269393344,
+          "kind": 6
+        },
+        {
+          "symbol": "?ScriptCommand@@YAHPBUSCRIPT_COMMAND@@ZZ",
+          "site_rva": 429155,
+          "symbol_va": 269165328,
+          "addend": 0,
+          "target_va": 269165328,
+          "kind": 20
+        },
+        {
+          "symbol": "?GetSAMPPath@@YAPADXZ",
+          "site_rva": 429160,
+          "symbol_va": 269236944,
+          "addend": 0,
+          "target_va": 269236944,
+          "kind": 20
+        },
+        {
+          "symbol": "??_C@_0BE@EIMFINGB@?$CFs?2rawpositions?4txt?$AA@",
+          "site_rva": 429170,
+          "symbol_va": 269394100,
+          "addend": 0,
+          "target_va": 269394100,
+          "kind": 6
+        },
+        {
+          "symbol": "_sprintf",
+          "site_rva": 429176,
+          "symbol_va": 269251411,
+          "addend": 0,
+          "target_va": 269251411,
+          "kind": 20
+        },
+        {
+          "symbol": "??_C@_01MCMALHOG@a?$AA@",
+          "site_rva": 429185,
+          "symbol_va": 269377764,
+          "addend": 0,
+          "target_va": 269377764,
+          "kind": 6
+        },
+        {
+          "symbol": "_fopen",
+          "site_rva": 429191,
+          "symbol_va": 269254473,
+          "addend": 0,
+          "target_va": 269254473,
+          "kind": 20
+        },
+        {
+          "symbol": "?pChatWindow@@3PAVCChatWindow@@A",
+          "site_rva": 429205,
+          "symbol_va": 270986112,
+          "addend": 0,
+          "target_va": 270986112,
+          "kind": 6
+        },
+        {
+          "symbol": "??_C@_0DC@FFOLHOOA@I?5can?8t?5open?5the?5rawvehicles?4txt@",
+          "site_rva": 429210,
+          "symbol_va": 269394048,
+          "addend": 0,
+          "target_va": 269394048,
+          "kind": 6
+        },
+        {
+          "symbol": "?AddDebugMessage@CChatWindow@@QAAXPADZZ",
+          "site_rva": 429216,
+          "symbol_va": 268861680,
+          "addend": 0,
+          "target_va": 268861680,
+          "kind": 20
+        },
+        {
+          "symbol": "??_C@_0BK@IMCLIIFK@?$CF?44f?0?$CF?44f?0?$CF?44f?0?$CF?44f?5?$DL?5?$CFs?6?$AA@",
+          "site_rva": 429268,
+          "symbol_va": 269394020,
+          "addend": 0,
+          "target_va": 269394020,
+          "kind": 6
+        },
+        {
+          "symbol": "_fprintf",
+          "site_rva": 429274,
+          "symbol_va": 269259612,
+          "addend": 0,
+          "target_va": 269259612,
+          "kind": 20
+        },
+        {
+          "symbol": "_fclose",
+          "site_rva": 429280,
+          "symbol_va": 269254232,
+          "addend": 0,
+          "target_va": 269254232,
+          "kind": 20
+        },
+        {
+          "symbol": "?pChatWindow@@3PAVCChatWindow@@A",
+          "site_rva": 429286,
+          "symbol_va": 270986112,
+          "addend": 0,
+          "target_va": 270986112,
+          "kind": 6
+        },
+        {
+          "symbol": "??_C@_0BE@CIKKEPLO@?9?$DO?5OnFoot?5pos?5saved?$AA@",
+          "site_rva": 429291,
+          "symbol_va": 269394000,
+          "addend": 0,
+          "target_va": 269394000,
+          "kind": 6
+        },
+        {
+          "symbol": "?AddDebugMessage@CChatWindow@@QAAXPADZZ",
+          "site_rva": 429297,
+          "symbol_va": 268861680,
+          "addend": 0,
+          "target_va": 268861680,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "closure_cmd_weather_time",
+      "anchor": "?cmdSetWeather@@YAXPAD@Z",
+      "rva": 429776,
+      "size": 77,
+      "section": 46,
+      "kind": "code",
+      "sha256": "fb3fda5e2f4f7c3ac9280b8cc4c34bcb67a28538cc33b273d2e1ab020a8a5612",
+      "object_sha256": "60ac9e81d915f58786e98a2f2c5e4942796317e53f6594b120da17dae989137f",
+      "bindings": [
+        {
+          "symbol": "?pChatWindow@@3PAVCChatWindow@@A",
+          "site_rva": 429808,
+          "symbol_va": 270986112,
+          "addend": 0,
+          "target_va": 270986112,
+          "kind": 6
+        },
+        {
+          "symbol": "??_C@_0CE@MBMGEPG@Usage?3?5set_weather?5?$CIweather?5numb@",
+          "site_rva": 429813,
+          "symbol_va": 269394320,
+          "addend": 0,
+          "target_va": 269394320,
+          "kind": 6
+        },
+        {
+          "symbol": "?AddDebugMessage@CChatWindow@@QAAXPADZZ",
+          "site_rva": 429819,
+          "symbol_va": 268861680,
+          "addend": 0,
+          "target_va": 268861680,
+          "kind": 20
+        },
+        {
+          "symbol": "_atoi",
+          "site_rva": 429831,
+          "symbol_va": 269249830,
+          "addend": 0,
+          "target_va": 269249830,
+          "kind": 20
+        },
+        {
+          "symbol": "?pGame@@3PAVCGame@@A",
+          "site_rva": 429837,
+          "symbol_va": 270986156,
+          "addend": 0,
+          "target_va": 270986156,
+          "kind": 6
+        },
+        {
+          "symbol": "?SetWorldWeather@CGame@@QAEXH@Z",
+          "site_rva": 429846,
+          "symbol_va": 269093696,
+          "addend": 0,
+          "target_va": 269093696,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "closure_cmd_weather_time",
+      "anchor": "?cmdSetTime@@YAXPAD@Z",
+      "rva": 429856,
+      "size": 162,
+      "section": 49,
+      "kind": "code",
+      "sha256": "8be665f75a6c85bb572f8331ec4b45c1964bdb0b4cd0beea5b5e9e64b96bd178",
+      "object_sha256": "60ac9e81d915f58786e98a2f2c5e4942796317e53f6594b120da17dae989137f",
+      "bindings": [
+        {
+          "symbol": "?pChatWindow@@3PAVCChatWindow@@A",
+          "site_rva": 429889,
+          "symbol_va": 270986112,
+          "addend": 0,
+          "target_va": 270986112,
+          "kind": 6
+        },
+        {
+          "symbol": "??_C@_0CA@FOPIPEFN@Usage?3?5set_time?5?$CIhour?$CJ?5?$CIminute?$CJ?$AA@",
+          "site_rva": 429894,
+          "symbol_va": 269394420,
+          "addend": 0,
+          "target_va": 269394420,
+          "kind": 6
+        },
+        {
+          "symbol": "?AddDebugMessage@CChatWindow@@QAAXPADZZ",
+          "site_rva": 429900,
+          "symbol_va": 268861680,
+          "addend": 0,
+          "target_va": 268861680,
+          "kind": 20
+        },
+        {
+          "symbol": "??_C@_04LLKPOCGK@?$CFd?$CFd?$AA@",
+          "site_rva": 429922,
+          "symbol_va": 269394412,
+          "addend": 0,
+          "target_va": 269394412,
+          "kind": 6
+        },
+        {
+          "symbol": "_sscanf",
+          "site_rva": 429944,
+          "symbol_va": 269263755,
+          "addend": 0,
+          "target_va": 269263755,
+          "kind": 20
+        },
+        {
+          "symbol": "?pGame@@3PAVCGame@@A",
+          "site_rva": 429981,
+          "symbol_va": 270986156,
+          "addend": 0,
+          "target_va": 270986156,
+          "kind": 6
+        },
+        {
+          "symbol": "?SetWorldTime@CGame@@QAEXHH@Z",
+          "site_rva": 429986,
+          "symbol_va": 269093552,
+          "addend": 0,
+          "target_va": 269093552,
+          "kind": 20
+        },
+        {
+          "symbol": "?pChatWindow@@3PAVCChatWindow@@A",
+          "site_rva": 429996,
+          "symbol_va": 270986112,
+          "addend": 0,
+          "target_va": 270986112,
+          "kind": 6
+        },
+        {
+          "symbol": "??_C@_0DG@FPAFDDMN@Invalid?5Time?4?5Use?5?1set_time?5?$CIhou@",
+          "site_rva": 430001,
+          "symbol_va": 269394356,
+          "addend": 0,
+          "target_va": 269394356,
+          "kind": 6
+        },
+        {
+          "symbol": "?AddDebugMessage@CChatWindow@@QAAXPADZZ",
+          "site_rva": 430007,
+          "symbol_va": 268861680,
+          "addend": 0,
+          "target_va": 268861680,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "closure_cmd_show_interior",
+      "anchor": "?cmdShowInterior@@YAXPAD@Z",
+      "rva": 430032,
+      "size": 41,
+      "section": 47,
+      "kind": "code",
+      "sha256": "3873d3262ed3756e9383930396c47f496538bcda4826626bfd871038c37f51a6",
+      "object_sha256": "eea2126b39a3a8e3f33de32ad5ede658c5285d7b14d906353918d427d1273ec6",
+      "bindings": [
+        {
+          "symbol": "_get_active_interior",
+          "site_rva": 430038,
+          "symbol_va": 269393324,
+          "addend": 0,
+          "target_va": 269393324,
+          "kind": 6
+        },
+        {
+          "symbol": "?ScriptCommand@@YAHPBUSCRIPT_COMMAND@@ZZ",
+          "site_rva": 430043,
+          "symbol_va": 269165328,
+          "addend": 0,
+          "target_va": 269165328,
+          "kind": 20
+        },
+        {
+          "symbol": "?pChatWindow@@3PAVCChatWindow@@A",
+          "site_rva": 430053,
+          "symbol_va": 270986112,
+          "addend": 0,
+          "target_va": 270986112,
+          "kind": 6
+        },
+        {
+          "symbol": "??_C@_0BF@EFIACNEA@Current?5Interior?3?5?$CFu?$AA@",
+          "site_rva": 430059,
+          "symbol_va": 269394452,
+          "addend": 0,
+          "target_va": 269394452,
+          "kind": 6
+        },
+        {
+          "symbol": "?AddDebugMessage@CChatWindow@@QAAXPADZZ",
+          "site_rva": 430065,
+          "symbol_va": 268861680,
+          "addend": 0,
+          "target_va": 268861680,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "closure_cmd_save_positions",
+      "anchor": "??_C@_0BG@DKOKDJFI@?$CFs?2savedpositions?4txt?$AA@",
+      "section": 58,
+      "rva": 958520,
+      "size": 22,
+      "kind": "data",
+      "sha256": "dfffc3c9a1e857a48f562b183e7bb823eba9ecab1849c02cb8dbb34888bee14c",
+      "bindings": [],
+      "object_sha256": "ed1be3883e61ffa07bbd3c21f6e107d8d92baa2b2aae595d1fbe55a7762e0085"
+    },
+    {
+      "unit": "closure_cmd_save_positions",
+      "anchor": "??_C@_01MCMALHOG@a?$AA@",
+      "section": 57,
+      "rva": 942308,
+      "size": 2,
+      "kind": "data",
+      "sha256": "ffe9aaeaa2a2d5048174df0b80599ef0197ec024c4b051bc9860cff58ef7f9f3",
+      "bindings": [],
+      "object_sha256": "ed1be3883e61ffa07bbd3c21f6e107d8d92baa2b2aae595d1fbe55a7762e0085"
+    },
+    {
+      "unit": "closure_cmd_save_positions",
+      "anchor": "??_C@_0DE@FMDHHILE@I?5can?8t?5open?5the?5savepositions?4t@",
+      "section": 56,
+      "rva": 958468,
+      "size": 52,
+      "kind": "data",
+      "sha256": "571ced68739324bed2b0bed04011b4f6168f7e29c974e586e3c076ef6fae979b",
+      "bindings": [],
+      "object_sha256": "ed1be3883e61ffa07bbd3c21f6e107d8d92baa2b2aae595d1fbe55a7762e0085"
+    },
+    {
+      "unit": "closure_cmd_save_positions",
+      "anchor": "??_C@_0DH@GAFDDILH@AddStaticVehicle?$CI?$CFu?0?$CF?44f?0?$CF?44f?0?$CF?4@",
+      "section": 55,
+      "rva": 958412,
+      "size": 55,
+      "kind": "data",
+      "sha256": "60813c2163551bf9e612b15943d30e55be9a37d07b004ef6f94b2a52853a4c93",
+      "bindings": [],
+      "object_sha256": "ed1be3883e61ffa07bbd3c21f6e107d8d92baa2b2aae595d1fbe55a7762e0085"
+    },
+    {
+      "unit": "closure_cmd_save_positions",
+      "anchor": "??_C@_0BI@GLBKHNAD@?9?$DO?5InCar?5position?5saved?$AA@",
+      "section": 54,
+      "rva": 958388,
+      "size": 24,
+      "kind": "data",
+      "sha256": "8ebd9de762a3ced9a95f53ef033f52d10acd254b979f52614def5803a318d881",
+      "bindings": [],
+      "object_sha256": "ed1be3883e61ffa07bbd3c21f6e107d8d92baa2b2aae595d1fbe55a7762e0085"
+    },
+    {
+      "unit": "closure_cmd_save_positions",
+      "anchor": "??_C@_0DL@HEPJGMGL@AddPlayerClass?$CI?$CFu?0?$CF?44f?0?$CF?44f?0?$CF?44f@",
+      "section": 53,
+      "rva": 958328,
+      "size": 59,
+      "kind": "data",
+      "sha256": "c76073936759b8eee9a9fb42d2448ac35f9ce3f15082637ac9c3bd4c2b7e8028",
+      "bindings": [],
+      "object_sha256": "ed1be3883e61ffa07bbd3c21f6e107d8d92baa2b2aae595d1fbe55a7762e0085"
+    },
+    {
+      "unit": "closure_cmd_save_positions",
+      "anchor": "??_C@_0BJ@LHGEJALI@?9?$DO?5OnFoot?5position?5saved?$AA@",
+      "section": 52,
+      "rva": 958300,
+      "size": 25,
+      "kind": "data",
+      "sha256": "14af78db0defcfdd649c7b270ef2e6da04639f2e9766661bd3dbf1ec83cc212f",
+      "bindings": [],
+      "object_sha256": "ed1be3883e61ffa07bbd3c21f6e107d8d92baa2b2aae595d1fbe55a7762e0085"
+    },
+    {
+      "unit": "closure_cmd_save_positions",
+      "anchor": "??_C@_0BA@GPGPHCNE@rawvehicles?4txt?$AA@",
+      "section": 66,
+      "rva": 958720,
+      "size": 16,
+      "kind": "data",
+      "sha256": "ff0fc705e573766aef0833f4097dec416ab7b3be9c640d544e328144e8779770",
+      "bindings": [],
+      "object_sha256": "ed1be3883e61ffa07bbd3c21f6e107d8d92baa2b2aae595d1fbe55a7762e0085"
+    },
+    {
+      "unit": "closure_cmd_save_positions",
+      "anchor": "??_C@_0CD@EPPOKIME@?$CFu?0?$CF?44f?0?$CF?44f?0?$CF?44f?0?$CF?44f?0?$CFu?0?$CFu?5?$DL?5?$CF@",
+      "section": 65,
+      "rva": 958684,
+      "size": 35,
+      "kind": "data",
+      "sha256": "215335dae4bf0c5381b4cfc410a7eeadb529d2d70799e69e6b7e6ce5b1ac6fc6",
+      "bindings": [],
+      "object_sha256": "ed1be3883e61ffa07bbd3c21f6e107d8d92baa2b2aae595d1fbe55a7762e0085"
+    },
+    {
+      "unit": "closure_cmd_save_positions",
+      "anchor": "??_C@_0BD@DMOHONKH@?9?$DO?5InCar?5pos?5saved?$AA@",
+      "section": 64,
+      "rva": 958664,
+      "size": 19,
+      "kind": "data",
+      "sha256": "0c3ca6237fb1484d2c9ad00a40b27410fb5e897c1c33c5216dd37c99d6862e46",
+      "bindings": [],
+      "object_sha256": "ed1be3883e61ffa07bbd3c21f6e107d8d92baa2b2aae595d1fbe55a7762e0085"
+    },
+    {
+      "unit": "closure_cmd_save_positions",
+      "anchor": "??_C@_0BE@EIMFINGB@?$CFs?2rawpositions?4txt?$AA@",
+      "section": 63,
+      "rva": 958644,
+      "size": 20,
+      "kind": "data",
+      "sha256": "d7d532be34fe023cfe53828467203d931eb17ced2e9f0a54f043c50f3a5204a1",
+      "bindings": [],
+      "object_sha256": "ed1be3883e61ffa07bbd3c21f6e107d8d92baa2b2aae595d1fbe55a7762e0085"
+    },
+    {
+      "unit": "closure_cmd_save_positions",
+      "anchor": "??_C@_0DC@FFOLHOOA@I?5can?8t?5open?5the?5rawvehicles?4txt@",
+      "section": 62,
+      "rva": 958592,
+      "size": 50,
+      "kind": "data",
+      "sha256": "65d254b0b612cfaf6d06c198cd4a706987a100622a6333149a6760bf99769fff",
+      "bindings": [],
+      "object_sha256": "ed1be3883e61ffa07bbd3c21f6e107d8d92baa2b2aae595d1fbe55a7762e0085"
+    },
+    {
+      "unit": "closure_cmd_save_positions",
+      "anchor": "??_C@_0BK@IMCLIIFK@?$CF?44f?0?$CF?44f?0?$CF?44f?0?$CF?44f?5?$DL?5?$CFs?6?$AA@",
+      "section": 61,
+      "rva": 958564,
+      "size": 26,
+      "kind": "data",
+      "sha256": "ab57b01d6132b59221afb1545efcf1cc4de51d8b7027e47fe9f34fd0ebca4c9d",
+      "bindings": [],
+      "object_sha256": "ed1be3883e61ffa07bbd3c21f6e107d8d92baa2b2aae595d1fbe55a7762e0085"
+    },
+    {
+      "unit": "closure_cmd_save_positions",
+      "anchor": "??_C@_0BE@CIKKEPLO@?9?$DO?5OnFoot?5pos?5saved?$AA@",
+      "section": 60,
+      "rva": 958544,
+      "size": 20,
+      "kind": "data",
+      "sha256": "0495588bb14dd9f9d6fe1e6480a67baf6f60863aad9e9cea42e08cd940e425e4",
+      "bindings": [],
+      "object_sha256": "ed1be3883e61ffa07bbd3c21f6e107d8d92baa2b2aae595d1fbe55a7762e0085"
+    },
+    {
+      "unit": "closure_cmd_weather_time",
+      "anchor": "??_C@_0CE@MBMGEPG@Usage?3?5set_weather?5?$CIweather?5numb@",
+      "section": 47,
+      "rva": 958864,
+      "size": 36,
+      "kind": "data",
+      "sha256": "d066f9c64f1c3c25f18ba4ce4332d79983400cc07c5a44bca979ccead8e05f64",
+      "bindings": [],
+      "object_sha256": "60ac9e81d915f58786e98a2f2c5e4942796317e53f6594b120da17dae989137f"
+    },
+    {
+      "unit": "closure_cmd_weather_time",
+      "anchor": "??_C@_0CA@FOPIPEFN@Usage?3?5set_time?5?$CIhour?$CJ?5?$CIminute?$CJ?$AA@",
+      "section": 52,
+      "rva": 958964,
+      "size": 32,
+      "kind": "data",
+      "sha256": "59d18b65898d0e1b367c07adf83f17de7c6bde79d878d0bcdc7661023db5f6fa",
+      "bindings": [],
+      "object_sha256": "60ac9e81d915f58786e98a2f2c5e4942796317e53f6594b120da17dae989137f"
+    },
+    {
+      "unit": "closure_cmd_weather_time",
+      "anchor": "??_C@_04LLKPOCGK@?$CFd?$CFd?$AA@",
+      "section": 51,
+      "rva": 958956,
+      "size": 5,
+      "kind": "data",
+      "sha256": "2d7800ec3574682c4eb7d4a5258100ab1a74fe17b0ccc5ba75c460505ed1888e",
+      "bindings": [],
+      "object_sha256": "60ac9e81d915f58786e98a2f2c5e4942796317e53f6594b120da17dae989137f"
+    },
+    {
+      "unit": "closure_cmd_weather_time",
+      "anchor": "??_C@_0DG@FPAFDDMN@Invalid?5Time?4?5Use?5?1set_time?5?$CIhou@",
+      "section": 50,
+      "rva": 958900,
+      "size": 54,
+      "kind": "data",
+      "sha256": "dc6d73c8e98d494ab0a2b7053c9b3b829d139d1c0b0ff50912f177b529623e3c",
+      "bindings": [],
+      "object_sha256": "60ac9e81d915f58786e98a2f2c5e4942796317e53f6594b120da17dae989137f"
+    },
+    {
+      "unit": "closure_cmd_show_interior",
+      "anchor": "??_C@_0BF@EFIACNEA@Current?5Interior?3?5?$CFu?$AA@",
+      "section": 48,
+      "rva": 958996,
+      "size": 21,
+      "kind": "data",
+      "sha256": "b16c3c31a3b7b08e790b0e124a2277a227e5416986764f43bda189df49694bb7",
+      "bindings": [],
+      "object_sha256": "eea2126b39a3a8e3f33de32ad5ede658c5285d7b14d906353918d427d1273ec6"
+    }
+  ],
+  "script_objects": [
+    {
+      "unit": "closure_cmd_show_interior",
+      "anchor": "_get_active_interior",
+      "section": 46,
+      "offset": 0,
+      "rva": 957868,
+      "size": 18,
+      "source_section_size": 18,
+      "whole_section": true,
+      "sha256": "212752a897d7aa3beaf61f72606a485d941228c6a0e8f5b80cff1f1abae298b7",
+      "object_sha256": "eea2126b39a3a8e3f33de32ad5ede658c5285d7b14d906353918d427d1273ec6",
+      "kind": "data",
+      "bindings": []
+    },
+    {
+      "unit": "closure_store_cmd_car_z_angle",
+      "anchor": "?r5CmdGetCarZAngle@@3USCRIPT_COMMAND@@B",
+      "section": 3,
+      "offset": 0,
+      "rva": 957848,
+      "size": 18,
+      "source_section_size": 18,
+      "whole_section": true,
+      "sha256": "1857f6b34eb9a4600ef6a6ee66e63009e3fd7fb2ac190f52cb7dcae2c2e75483",
+      "object_sha256": "14e19fec3b5b276b262c0d2f4bc569886fd456fd7239f6e5f0359d8de4b00509",
+      "kind": "data",
+      "bindings": []
+    },
+    {
+      "unit": "closure_store_cmd_actor_z_angle",
+      "anchor": "?r5CmdGetActorZAngle@@3USCRIPT_COMMAND@@B",
+      "section": 3,
+      "offset": 0,
+      "rva": 957888,
+      "size": 18,
+      "source_section_size": 18,
+      "whole_section": true,
+      "sha256": "005041c9f1f2c4eaed418afc33636eb5676765f80eccb556a29cbc5bc5713ffb",
+      "object_sha256": "0cb5776eb7340078103ca79a27a8e85688307158cbeb19578f6de1972ac48411",
+      "kind": "data",
+      "bindings": []
+    }
+  ],
+  "data_bytes": 627,
+  "new_CRT": {
+    "_sscanf": {
+      "reference_va": 269263755,
+      "actual_archive_and_final_link_qualification_pending": true
+    }
+  },
+  "excluded": [
+    "FindPlayerPed94 is an already-covered helper, not new code.",
+    "Unused UNASSIGNED shared16 data and template constants excluded.",
+    "AddEntry/PushBack remain implemented but unmatched descendants of accepted chat providers; no credit."
+  ],
+  "real_layout": "Uses complete existing CPlayerPed, CEntity, PED_TYPE and VEHICLE_TYPE; no allocation/view-size substitution. m_pPed2A4,m_dwGTAId44, matrix14, native model22, colors434/435.",
+  "runtime": "No commands or game operations executed; source compilation and static matching only.",
+  "source_files": {
+    "client/saco/closure_store_cmd_actor_z_angle.cpp": "039df912f274f99ea42fad0bdae8b79fbca23aff3782ddefa7bcceaa1faeedf6",
+    "client/saco/closure_store_cmd_car_z_angle.cpp": "10b202771c90fc6d0d7bf93c225820db8ba38b9772415901d8381942cc53de2e",
+    "client/saco/closure_cmd_save_positions.cpp": "a014d9d720bbe576208903244db2e957c13d45787a6ad72bbc19a3f3f0cc44e3",
+    "client/saco/closure_cmd_show_interior.cpp": "efbe3aa6b4cf08bf5d558522dab6adedb04ec99a425f3f053f8106a60290ff30",
+    "client/saco/closure_cmd_weather_time.cpp": "0cea3c985da1482c9838359e8f05c704cd9aa9d04219092a1c698323a36c7fea"
+  }
+}

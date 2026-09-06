@@ -4,7 +4,7 @@
 
 int				iGtaVersion=0;
 
-GAME_SETTINGS			tSettings;
+extern GAME_SETTINGS		tSettings;
 
 CHAR					szArtworkProxy[MAX_PATH+1];
 CHAR					szConfigFile[MAX_PATH+1];
@@ -16,7 +16,7 @@ CHAR					szCacheDir[MAX_PATH+1];
 CConfig					*pConfig=0;
 CChatWindow				*pChatWindow=0;
 CCmdWindow				*pCmdWindow=0;
-CDeathWindow			*pDeathWindow=0;
+extern CDeathWindow		*pDeathWindow;
 CAudioStream			*pAudioStream=0;
 CSpawnScreen			*pSpawnScreen=0;
 CNetGame				*pNetGame=0;
@@ -28,8 +28,8 @@ CUnkClass15				*pUnkClass15=0;
 
 BOOL					bGameInited=FALSE;
 
-BOOL					bQuitGame=FALSE;
-DWORD					dwStartQuitTick=0;
+extern BOOL				bQuitGame;
+extern DWORD			dwStartQuitTick;
 
 WORD					wVehicleComponentDebug=0;
 
@@ -41,7 +41,7 @@ CNewPlayerTags			*pNewPlayerTags=NULL;
 extern CScoreBoard		*pScoreBoard; // storage: closure_store_scoreboard.cpp
 CUnkClass3 *pUnkClass3=NULL;
 CUnkClass4 *pUnkClass4=NULL;
-CUnkClass5 *pUnkClass5=NULL;
+extern CUnkClass5 *pUnkClass5;
 CLabel					*pLabel=NULL;
 CUnkClass10 *pUnkClass10=NULL;
 CUnkClass11 *pUnkClass11=NULL;
@@ -51,7 +51,7 @@ CSvrNetStats			*pSvrNetStats=NULL;
 CHelpDialog				*pHelpDialog=NULL;
 CUnkClass8 *pUnkClass8=NULL;
 
-bool					bShowDebugLabels = false;
+extern bool				bShowDebugLabels;
 
 CGame					*pGame=0;
 DWORD					dwGraphicsLoop=0;

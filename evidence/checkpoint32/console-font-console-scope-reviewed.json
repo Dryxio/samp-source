@@ -1,0 +1,293 @@
+{
+  "status": "PASS_CONSOLE_TELNET_LOGGER_SOURCES_ALLOCATIONS_AND_OWNERS",
+  "baseline": 351223,
+  "new_unique": 8195,
+  "source025_direct_bytes": 0,
+  "layouts": {
+    "ConsoleServer": {
+      "sizeof": 1040,
+      "transport": 0,
+      "commandParserList": 4,
+      "password": 16,
+      "password_type": "char* [256], 1024 bytes, original source retained"
+    },
+    "CommandParserInterface": {
+      "sizeof": 16,
+      "vptr": 0,
+      "commandList": 4
+    },
+    "RegisteredCommand": {
+      "sizeof": 9,
+      "command": 0,
+      "commandHelp": 4,
+      "parameterCount": 8
+    },
+    "LogCommandParser": {
+      "sizeof": 160,
+      "base": 0,
+      "remoteUsers": 16,
+      "channelNames": 28,
+      "channelNames_size": 128,
+      "trans": 156
+    },
+    "TelnetTransport": {
+      "sizeof": 20,
+      "vptr": 0,
+      "tcpInterface": 4,
+      "remoteClients": 8
+    },
+    "TelnetClient": {
+      "sizeof": 522,
+      "playerId": 0,
+      "textInput": 6,
+      "textInput_size": 512,
+      "cursorPosition": 518
+    },
+    "PlayerIDAndChannel": {
+      "sizeof": 10,
+      "playerId": 0,
+      "channels": 6
+    }
+  },
+  "whole_allocation_constant_sites": [
+    {
+      "region_rva": 357360,
+      "site_rva": 357527,
+      "size": 522
+    },
+    {
+      "region_rva": 356944,
+      "site_rva": 357229,
+      "size": 21
+    },
+    {
+      "region_rva": 356288,
+      "site_rva": 356320,
+      "size": 167
+    }
+  ],
+  "allocation_scope": "Telnet AutoAllocate constructs complete TCPInterface167; real TelnetClient522 and line Packet21 plus actual text length buffers. No allocated CommandParser/Transport placeholder or fake interface table.",
+  "preserved_state": "Log trans field is only assigned by OnTransportChange, constructor does not invent initialization. Console password is pointer array and first pointer0 only. Existing source allocation/leak/error behavior retained.",
+  "source_snapshots": [
+    {
+      "path": "client/saco/eval_vendor_log_command_parser.cpp",
+      "snapshot": "build/cp32-console-trial1/client/saco/eval_vendor_log_command_parser.cpp",
+      "sha256": "8c064ff1cb68d6ee8d81af2b6fba46d7677a13b4eeb077f986d729e8ea02b7dc"
+    },
+    {
+      "path": "client/saco/eval_vendor_telnet_transport.cpp",
+      "snapshot": "build/cp32-console-trial1/client/saco/eval_vendor_telnet_transport.cpp",
+      "sha256": "58772797988a2b937fdae05f145aed88bbbbe7d65fbf4449437a1257df80cf38"
+    },
+    {
+      "path": "client/saco/eval_vendor_console_server.cpp",
+      "snapshot": "build/cp32-console-trial1/client/saco/eval_vendor_console_server.cpp",
+      "sha256": "c0206645ac1688ebf3e5bd906d1caadea636dc2042aaa513bc186809ef71b459"
+    },
+    {
+      "path": "client/saco/eval_vendor_packet_console_logger.cpp",
+      "snapshot": "build/cp32-console-trial1/client/saco/eval_vendor_packet_console_logger.cpp",
+      "sha256": "760e4034010a1daa14f99b3387d692927299e1c2217af22ebd1b6f752794ae10"
+    },
+    {
+      "path": "client/saco/eval_vendor_command_parser_interface.cpp",
+      "snapshot": "build/cp32-console-trial1/client/saco/eval_vendor_command_parser_interface.cpp",
+      "sha256": "da22d52ce8dea96f42193f77b9307a066e7df3ce86467ec7ca6b8c3ec342f579"
+    },
+    {
+      "path": "vendor/upstream/raknet/ConsoleServer.cpp",
+      "snapshot": "build/cp32-console-trial1/vendor/upstream/raknet/ConsoleServer.cpp",
+      "sha256": "0718f92d5b57d5a2947f9ff1b2166fae2355936e1cf9f8a8163315908307c744"
+    },
+    {
+      "path": "vendor/upstream/raknet/ConsoleServer.h",
+      "snapshot": "build/cp32-console-trial1/vendor/upstream/raknet/ConsoleServer.h",
+      "sha256": "6f69dd1773ee50dfa94e5859eec227c13d52e2336d8885441b3a5e889a77639a"
+    },
+    {
+      "path": "vendor/upstream/raknet/CommandParserInterface.cpp",
+      "snapshot": "build/cp32-console-trial1/vendor/upstream/raknet/CommandParserInterface.cpp",
+      "sha256": "7553ffb37f580e7eba40d5e0d1bb61ea0c05f9b9604bc75eaed1b235f0939f5c"
+    },
+    {
+      "path": "vendor/upstream/raknet/CommandParserInterface.h",
+      "snapshot": "build/cp32-console-trial1/vendor/upstream/raknet/CommandParserInterface.h",
+      "sha256": "ce7ee41a46985cfbd4cf1cc480f28cc009ced9d39dea94331984952092e7a311"
+    },
+    {
+      "path": "vendor/upstream/raknet/LogCommandParser.cpp",
+      "snapshot": "build/cp32-console-trial1/vendor/upstream/raknet/LogCommandParser.cpp",
+      "sha256": "5e8c1cdcd7ad9184f83743eff8dd0f7bdc535cd9f6bdd872f09bf608d9b3836f"
+    },
+    {
+      "path": "vendor/upstream/raknet/LogCommandParser.h",
+      "snapshot": "build/cp32-console-trial1/vendor/upstream/raknet/LogCommandParser.h",
+      "sha256": "0067e80c215ed29764faccb7a16f3e941f551aca51e3fed07887d3c0d6b70d48"
+    },
+    {
+      "path": "vendor/upstream/raknet/TelnetTransport.cpp",
+      "snapshot": "build/cp32-console-trial1/vendor/upstream/raknet/TelnetTransport.cpp",
+      "sha256": "02366b85ecd03c88bdaae032e053dc98dd958140f33155cb02fd8a4740a77ab6"
+    },
+    {
+      "path": "vendor/upstream/raknet/TelnetTransport.h",
+      "snapshot": "build/cp32-console-trial1/vendor/upstream/raknet/TelnetTransport.h",
+      "sha256": "7d9b2f7259ee5881b248f2001dacf83076a35c383ec0ef93a6a42862bf094855"
+    },
+    {
+      "path": "vendor/upstream/raknet/PacketConsoleLogger.cpp",
+      "snapshot": "build/cp32-console-trial1/vendor/upstream/raknet/PacketConsoleLogger.cpp",
+      "sha256": "d9f8535e98767e238f8eaa9e4b5baa67648e7ee64ec744462c03232f26a186b7"
+    },
+    {
+      "path": "vendor/upstream/raknet/PacketConsoleLogger.h",
+      "snapshot": "build/cp32-console-trial1/vendor/upstream/raknet/PacketConsoleLogger.h",
+      "sha256": "4e4f12907df7f8f19c9a8c31e760415ef370848dc3951a2092e3caaf63f8be73"
+    }
+  ],
+  "actual_accepted_cpp_providers": [
+    {
+      "symbol": "??1PacketLogger@@UAE@XZ",
+      "rva": 211744,
+      "owner": "closure_vendor_packet_logger"
+    },
+    {
+      "symbol": "??0PacketLogger@@QAE@XZ",
+      "rva": 212064,
+      "owner": "closure_vendor_packet_logger"
+    },
+    {
+      "symbol": "?Stop@TCPInterface@@QAEXXZ",
+      "rva": 352048,
+      "owner": "eval_vendor_tcp_interface"
+    },
+    {
+      "symbol": "?HasLostConnection@TCPInterface@@QAE?AUPlayerID@@XZ",
+      "rva": 352880,
+      "owner": "eval_vendor_tcp_interface"
+    },
+    {
+      "symbol": "??9PlayerID@@QBE_NABU0@@Z",
+      "rva": 210704,
+      "owner": "closure_vendor_network_id_comparisons"
+    },
+    {
+      "symbol": "??8PlayerID@@QBE_NABU0@@Z",
+      "rva": 210656,
+      "owner": "closure_vendor_network_id_comparisons"
+    },
+    {
+      "symbol": "?HasNewConnection@TCPInterface@@QAE?AUPlayerID@@XZ",
+      "rva": 352800,
+      "owner": "eval_vendor_tcp_interface"
+    },
+    {
+      "symbol": "?Send@TCPInterface@@QAEXPBDIUPlayerID@@@Z",
+      "rva": 352560,
+      "owner": "eval_vendor_tcp_interface"
+    },
+    {
+      "symbol": "?Receive@TCPInterface@@QAEPAUPacket@@XZ",
+      "rva": 352672,
+      "owner": "eval_vendor_tcp_interface"
+    },
+    {
+      "symbol": "?DeallocatePacket@TCPInterface@@QAEXPAUPacket@@@Z",
+      "rva": 352768,
+      "owner": "eval_vendor_tcp_interface"
+    },
+    {
+      "symbol": "?Start@TCPInterface@@QAE_NGG@Z",
+      "rva": 354432,
+      "owner": "eval_vendor_tcp_interface"
+    },
+    {
+      "symbol": "??0TCPInterface@@QAE@XZ",
+      "rva": 351840,
+      "owner": "eval_vendor_tcp_interface"
+    },
+    {
+      "symbol": "?CloseConnection@TCPInterface@@QAEXUPlayerID@@@Z",
+      "rva": 352704,
+      "owner": "eval_vendor_tcp_interface"
+    },
+    {
+      "symbol": "?OnAttach@PacketLogger@@UAEXPAVRakPeerInterface@@@Z",
+      "rva": 211760,
+      "owner": "closure_vendor_packet_logger"
+    },
+    {
+      "symbol": "?OnDetach@PluginInterface@@UAEXPAVRakPeerInterface@@@Z",
+      "rva": 212864,
+      "owner": "closure_vendor_plugin_interface"
+    },
+    {
+      "symbol": "?OnInitialize@PluginInterface@@UAEXPAVRakPeerInterface@@@Z",
+      "rva": 212880,
+      "owner": "closure_vendor_plugin_interface"
+    },
+    {
+      "symbol": "?Update@PluginInterface@@UAEXPAVRakPeerInterface@@@Z",
+      "rva": 212896,
+      "owner": "closure_vendor_plugin_interface"
+    },
+    {
+      "symbol": "?OnReceive@PluginInterface@@UAE?AW4PluginReceiveResult@@PAVRakPeerInterface@@PAUPacket@@@Z",
+      "rva": 212912,
+      "owner": "closure_vendor_plugin_interface"
+    },
+    {
+      "symbol": "?OnDisconnect@PluginInterface@@UAEXPAVRakPeerInterface@@@Z",
+      "rva": 212928,
+      "owner": "closure_vendor_plugin_interface"
+    },
+    {
+      "symbol": "?OnCloseConnection@PluginInterface@@UAEXPAVRakPeerInterface@@UPlayerID@@@Z",
+      "rva": 212944,
+      "owner": "closure_vendor_plugin_interface"
+    },
+    {
+      "symbol": "?OnDirectSocketSend@PacketLogger@@UAEXPBDIUPlayerID@@@Z",
+      "rva": 212128,
+      "owner": "closure_vendor_packet_logger"
+    },
+    {
+      "symbol": "?OnDirectSocketReceive@PacketLogger@@UAEXPBDIUPlayerID@@@Z",
+      "rva": 212304,
+      "owner": "closure_vendor_packet_logger"
+    },
+    {
+      "symbol": "?OnInternalPacket@PacketLogger@@UAEXPAUInternalPacket@@IUPlayerID@@I_N@Z",
+      "rva": 212480,
+      "owner": "closure_vendor_packet_logger"
+    },
+    {
+      "symbol": "?LogHeader@PacketLogger@@UAEXXZ",
+      "rva": 211776,
+      "owner": "closure_vendor_packet_logger"
+    },
+    {
+      "symbol": "?SetPrintID@PacketLogger@@UAEX_N@Z",
+      "rva": 211808,
+      "owner": "closure_vendor_packet_logger"
+    },
+    {
+      "symbol": "?SetPrintAcks@PacketLogger@@UAEX_N@Z",
+      "rva": 211824,
+      "owner": "closure_vendor_packet_logger"
+    },
+    {
+      "symbol": "?UserIDTOString@PacketLogger@@MAEPADE@Z",
+      "rva": 211856,
+      "owner": "closure_vendor_packet_logger"
+    }
+  ],
+  "virtual_ABI": "CommandParserInterface/LogCommandParser VFT60 with virtual destructor slot0; PacketConsoleLogger VFT68 with inherited Plugin slots0..9 and deleting destructor at+40, SetLogCommandParser+64; TransportInterface has no virtual destructor and Telnet VFT36. Real declared variadic Send uses cdecl this on stack, other methods thiscall. Concrete Telnet/Log callbacks are present; other user-supplied transport/parser implementations are not credited.",
+  "unselected": "ConsoleServer destructor8 has unresolved homologue identity and is not seeded. Unused abstract interface constructors/tables excluded unless genuine constructor dependency selects them. No new CRT body code credit.",
+  "formatting_status": "Existing accepted CRT boundaries _vsnprintf86/_atoi5/_stricmp105/_purecall reused; no redundant qualification requested. Actual import inet_ntoa is WSOCK32 ordinal12.",
+  "original_capture": {
+    "path": "build/agent-independent/console-original-scope.asm",
+    "sha256": "e208db6c6eac578639ef095e9b9687f41dc594088d73f3cd114564a0fb7c41a9"
+  },
+  "manifest_sha256": "37802a02fa692961a41c8fd15c8028df8f936d21c6984db752f4ca36ab1735e3"
+}

@@ -1,0 +1,1685 @@
+{
+  "status": "REVIEWED_MAIN_SEEDS_AND_WHOLE_EH_BINDINGS_PREFLIGHT",
+  "run": "build/cp32-nat-trial2",
+  "roots": {
+    "?OnAttach@NatPunchthrough@@UAEXPAVRakPeerInterface@@@Z": 203152,
+    "?OnDisconnect@NatPunchthrough@@UAEXPAVRakPeerInterface@@@Z": 203168,
+    "??0NatPunchthrough@@QAE@XZ": 203456,
+    "?Connect@NatPunchthrough@@QAE_NUPlayerID@@PADH0@Z": 203488,
+    "?Clear@NatPunchthrough@@QAEXXZ": 203936,
+    "?OnPunchthroughRequest@NatPunchthrough@@IAEXPAVRakPeerInterface@@PAUPacket@@@Z": 204016,
+    "?OnConnectAtTime@NatPunchthrough@@IAEXPAVRakPeerInterface@@PAUPacket@@@Z": 204560,
+    "?OnSendOfflineMessageAtTime@NatPunchthrough@@IAEXPAVRakPeerInterface@@PAUPacket@@@Z": 204768,
+    "??1NatPunchthrough@@QAE@XZ": 205152,
+    "?Connect@NatPunchthrough@@QAE_NPBDGPADHUPlayerID@@@Z": 205232,
+    "?Update@NatPunchthrough@@UAEXPAVRakPeerInterface@@@Z": 205328,
+    "?OnCloseConnection@NatPunchthrough@@UAEXPAVRakPeerInterface@@UPlayerID@@@Z": 206400,
+    "?RemoveRequestByFacilitator@NatPunchthrough@@IAE?AW4PluginReceiveResult@@UPlayerID@@@Z": 206832,
+    "?OnReceive@NatPunchthrough@@UAE?AW4PluginReceiveResult@@PAVRakPeerInterface@@PAUPacket@@@Z": 206944
+  },
+  "seeds": {
+    "closure_vendor_nat_punchthrough": {
+      "?OnReceive@NatPunchthrough@@UAE?AW4PluginReceiveResult@@PAVRakPeerInterface@@PAUPacket@@@Z": 206944,
+      "?OnSendOfflineMessageAtTime@NatPunchthrough@@IAEXPAVRakPeerInterface@@PAUPacket@@@Z": 204768,
+      "?Insert@?$List@PAUConnectionRequest@NatPunchthrough@@@DataStructures@@QAEXQAUConnectionRequest@NatPunchthrough@@@Z": 203248,
+      "?OnConnectAtTime@NatPunchthrough@@IAEXPAVRakPeerInterface@@PAUPacket@@@Z": 204560,
+      "?RemoveRequestByFacilitator@NatPunchthrough@@IAE?AW4PluginReceiveResult@@UPlayerID@@@Z": 206832,
+      "?RemoveAtIndex@?$List@PAUConnectionRequest@NatPunchthrough@@@DataStructures@@QAEXI@Z": 205088,
+      "?OnPunchthroughRequest@NatPunchthrough@@IAEXPAVRakPeerInterface@@PAUPacket@@@Z": 204016,
+      "??$Write@UPlayerID@@@BitStream@RakNet@@QAEXUPlayerID@@@Z": 137216,
+      "?OnCloseConnection@NatPunchthrough@@UAEXPAVRakPeerInterface@@UPlayerID@@@Z": 206400,
+      "?Update@NatPunchthrough@@UAEXPAVRakPeerInterface@@@Z": 205328,
+      "?Connect@NatPunchthrough@@QAE_NPBDGPADHUPlayerID@@@Z": 205232,
+      "?Connect@NatPunchthrough@@QAE_NUPlayerID@@PADH0@Z": 203488,
+      "??1NatPunchthrough@@QAE@XZ": 205152,
+      "??1?$List@PAUConnectionRequest@NatPunchthrough@@@DataStructures@@QAE@XZ": 203200,
+      "?Clear@NatPunchthrough@@QAEXXZ": 203936,
+      "?Clear@?$List@PAUConnectionRequest@NatPunchthrough@@@DataStructures@@QAEX_N@Z": 203376,
+      "??0NatPunchthrough@@QAE@XZ": 203456,
+      "??0?$List@PAUConnectionRequest@NatPunchthrough@@@DataStructures@@QAE@XZ": 203184,
+      "?OnDisconnect@NatPunchthrough@@UAEXPAVRakPeerInterface@@@Z": 203168,
+      "?OnAttach@NatPunchthrough@@UAEXPAVRakPeerInterface@@@Z": 203152
+    }
+  },
+  "regions": [
+    {
+      "unit": "closure_vendor_nat_punchthrough",
+      "section": 83,
+      "rva": 206944,
+      "size": 262,
+      "kind": ".text",
+      "sha256": "a51e23774df540f47c174a8b8a863c0f8450c8f2fb79d48e06bd206129838620",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "$L3392",
+          "site_rva": 206992,
+          "target_va": 268642608,
+          "kind": 6
+        },
+        {
+          "symbol": "$L3393",
+          "site_rva": 206999,
+          "target_va": 268642584,
+          "kind": 6
+        },
+        {
+          "symbol": "?OnPunchthroughRequest@NatPunchthrough@@IAEXPAVRakPeerInterface@@PAUPacket@@@Z",
+          "site_rva": 207010,
+          "target_va": 268639472,
+          "kind": 20
+        },
+        {
+          "symbol": "?RemoveRequestByFacilitator@NatPunchthrough@@IAE?AW4PluginReceiveResult@@UPlayerID@@@Z",
+          "site_rva": 207042,
+          "target_va": 268642288,
+          "kind": 20
+        },
+        {
+          "symbol": "?OnConnectAtTime@NatPunchthrough@@IAEXPAVRakPeerInterface@@PAUPacket@@@Z",
+          "site_rva": 207058,
+          "target_va": 268640016,
+          "kind": 20
+        },
+        {
+          "symbol": "?OnSendOfflineMessageAtTime@NatPunchthrough@@IAEXPAVRakPeerInterface@@PAUPacket@@@Z",
+          "site_rva": 207076,
+          "target_va": 268640224,
+          "kind": 20
+        },
+        {
+          "symbol": "$L2489",
+          "site_rva": 207128,
+          "target_va": 268642543,
+          "kind": 6
+        },
+        {
+          "symbol": "$L2485",
+          "site_rva": 207132,
+          "target_va": 268642459,
+          "kind": 6
+        },
+        {
+          "symbol": "$L2486",
+          "site_rva": 207136,
+          "target_va": 268642477,
+          "kind": 6
+        },
+        {
+          "symbol": "$L2487",
+          "site_rva": 207140,
+          "target_va": 268642507,
+          "kind": 6
+        },
+        {
+          "symbol": "$L2488",
+          "site_rva": 207144,
+          "target_va": 268642525,
+          "kind": 6
+        },
+        {
+          "symbol": "$L2482",
+          "site_rva": 207148,
+          "target_va": 268642573,
+          "kind": 6
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_nat_punchthrough",
+      "section": 61,
+      "rva": 204768,
+      "size": 317,
+      "kind": ".text",
+      "sha256": "d369919d24c0e89082374c7fe6b04c021468f96b7453fd1deffda86df2a7ab6e",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "__ehhandler$?OnSendOfflineMessageAtTime@NatPunchthrough@@IAEXPAVRakPeerInterface@@PAUPacket@@@Z",
+          "site_rva": 204771,
+          "target_va": 269361931,
+          "kind": 6
+        },
+        {
+          "symbol": "__except_list",
+          "site_rva": 204777,
+          "target_va": 0,
+          "kind": 6
+        },
+        {
+          "symbol": "__except_list",
+          "site_rva": 204785,
+          "target_va": 0,
+          "kind": 6
+        },
+        {
+          "symbol": "??0BitStream@RakNet@@QAE@PAEI_N@Z",
+          "site_rva": 204823,
+          "target_va": 268564416,
+          "kind": 20
+        },
+        {
+          "symbol": "?IgnoreBits@BitStream@RakNet@@QAEXH@Z",
+          "site_rva": 204841,
+          "target_va": 268565744,
+          "kind": 20
+        },
+        {
+          "symbol": "?ReadBits@BitStream@RakNet@@QAE_NPAEH_N@Z",
+          "site_rva": 204859,
+          "target_va": 268564912,
+          "kind": 20
+        },
+        {
+          "symbol": "?IgnoreBits@BitStream@RakNet@@QAEXH@Z",
+          "site_rva": 204870,
+          "target_va": 268565744,
+          "kind": 20
+        },
+        {
+          "symbol": "?ReadBits@BitStream@RakNet@@QAE_NPAEH_N@Z",
+          "site_rva": 204888,
+          "target_va": 268564912,
+          "kind": 20
+        },
+        {
+          "symbol": "?ReadBits@BitStream@RakNet@@QAE_NPAEH_N@Z",
+          "site_rva": 204906,
+          "target_va": 268564912,
+          "kind": 20
+        },
+        {
+          "symbol": "??1BitStream@RakNet@@QAE@XZ",
+          "site_rva": 204930,
+          "target_va": 268564688,
+          "kind": 20
+        },
+        {
+          "symbol": "??2@YAPAXI@Z",
+          "site_rva": 204940,
+          "target_va": 269247098,
+          "kind": 20
+        },
+        {
+          "symbol": "_UNASSIGNED_PLAYER_ID",
+          "site_rva": 204946,
+          "target_va": 269477664,
+          "kind": 6
+        },
+        {
+          "symbol": "_UNASSIGNED_PLAYER_ID",
+          "site_rva": 204957,
+          "target_va": 269477668,
+          "kind": 6
+        },
+        {
+          "symbol": "?GetTime@RakNet@@YAIXZ",
+          "site_rva": 205017,
+          "target_va": 268625904,
+          "kind": 20
+        },
+        {
+          "symbol": "?Insert@?$List@PAUConnectionRequest@NatPunchthrough@@@DataStructures@@QAEXQAUConnectionRequest@NatPunchthrough@@@Z",
+          "site_rva": 205034,
+          "target_va": 268638704,
+          "kind": 20
+        },
+        {
+          "symbol": "??1BitStream@RakNet@@QAE@XZ",
+          "site_rva": 205054,
+          "target_va": 268564688,
+          "kind": 20
+        },
+        {
+          "symbol": "__except_list",
+          "site_rva": 205072,
+          "target_va": 0,
+          "kind": 6
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_nat_punchthrough",
+      "section": 21,
+      "rva": 203248,
+      "size": 105,
+      "kind": ".text",
+      "sha256": "bc2ce0bc22a543ddeddc8e4051ed6fd8d7554ecb744e9144343f622a9a9d92e8",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "??2@YAPAXI@Z",
+          "site_rva": 203288,
+          "target_va": 269247098,
+          "kind": 20
+        },
+        {
+          "symbol": "??3@YAXPAX@Z",
+          "site_rva": 203322,
+          "target_va": 269247626,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_nat_punchthrough",
+      "section": 57,
+      "rva": 204560,
+      "size": 203,
+      "kind": ".text",
+      "sha256": "c6d3d05401da24f3ae111e10b34f47c6437ddd16c07532becb480909b8dfaaac",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "__except_list",
+          "site_rva": 204562,
+          "target_va": 0,
+          "kind": 6
+        },
+        {
+          "symbol": "__ehhandler$?OnConnectAtTime@NatPunchthrough@@IAEXPAVRakPeerInterface@@PAUPacket@@@Z",
+          "site_rva": 204569,
+          "target_va": 269361899,
+          "kind": 6
+        },
+        {
+          "symbol": "__except_list",
+          "site_rva": 204577,
+          "target_va": 0,
+          "kind": 6
+        },
+        {
+          "symbol": "??8PlayerID@@QBE_NABU0@@Z",
+          "site_rva": 204638,
+          "target_va": 268646112,
+          "kind": 20
+        },
+        {
+          "symbol": "??0BitStream@RakNet@@QAE@PAEI_N@Z",
+          "site_rva": 204671,
+          "target_va": 268564416,
+          "kind": 20
+        },
+        {
+          "symbol": "?IgnoreBits@BitStream@RakNet@@QAEXH@Z",
+          "site_rva": 204693,
+          "target_va": 268565744,
+          "kind": 20
+        },
+        {
+          "symbol": "?ReadBits@BitStream@RakNet@@QAE_NPAEH_N@Z",
+          "site_rva": 204713,
+          "target_va": 268564912,
+          "kind": 20
+        },
+        {
+          "symbol": "??1BitStream@RakNet@@QAE@XZ",
+          "site_rva": 204733,
+          "target_va": 268564688,
+          "kind": 20
+        },
+        {
+          "symbol": "__except_list",
+          "site_rva": 204750,
+          "target_va": 0,
+          "kind": 6
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_nat_punchthrough",
+      "section": 81,
+      "rva": 206832,
+      "size": 102,
+      "kind": ".text",
+      "sha256": "69f90e694b9288ce64cf7bf3c26a2c57dc46f1b57e29e6fb1fcbc1823c80ae11",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "??8PlayerID@@QBE_NABU0@@Z",
+          "site_rva": 206863,
+          "target_va": 268646112,
+          "kind": 20
+        },
+        {
+          "symbol": "??3@YAXPAX@Z",
+          "site_rva": 206897,
+          "target_va": 269247626,
+          "kind": 20
+        },
+        {
+          "symbol": "??3@YAXPAX@Z",
+          "site_rva": 206908,
+          "target_va": 269247626,
+          "kind": 20
+        },
+        {
+          "symbol": "?RemoveAtIndex@?$List@PAUConnectionRequest@NatPunchthrough@@@DataStructures@@QAEXI@Z",
+          "site_rva": 206919,
+          "target_va": 268640544,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_nat_punchthrough",
+      "section": 65,
+      "rva": 205088,
+      "size": 53,
+      "kind": ".text",
+      "sha256": "822ee05ee6a90d75bb25867774f2d92e0b6928c2f8bf26801fe9ec01244ce3b1",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "_memmove",
+          "site_rva": 205123,
+          "target_va": 269250016,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_nat_punchthrough",
+      "section": 53,
+      "rva": 204016,
+      "size": 537,
+      "kind": ".text",
+      "sha256": "4f4fb405e32870de34f9a63f14ef171e342c1efecf9bb18c3844a8de429a0eb4",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "__except_list",
+          "site_rva": 204020,
+          "target_va": 0,
+          "kind": 6
+        },
+        {
+          "symbol": "__ehhandler$?OnPunchthroughRequest@NatPunchthrough@@IAEXPAVRakPeerInterface@@PAUPacket@@@Z",
+          "site_rva": 204025,
+          "target_va": 269361878,
+          "kind": 6
+        },
+        {
+          "symbol": "__except_list",
+          "site_rva": 204033,
+          "target_va": 0,
+          "kind": 6
+        },
+        {
+          "symbol": "??0BitStream@RakNet@@QAE@PAEI_N@Z",
+          "site_rva": 204086,
+          "target_va": 268564416,
+          "kind": 20
+        },
+        {
+          "symbol": "??0BitStream@RakNet@@QAE@XZ",
+          "site_rva": 204102,
+          "target_va": 268564272,
+          "kind": 20
+        },
+        {
+          "symbol": "?IgnoreBits@BitStream@RakNet@@QAEXH@Z",
+          "site_rva": 204124,
+          "target_va": 268565744,
+          "kind": 20
+        },
+        {
+          "symbol": "?ReadBits@BitStream@RakNet@@QAE_NPAEH_N@Z",
+          "site_rva": 204145,
+          "target_va": 268564912,
+          "kind": 20
+        },
+        {
+          "symbol": "?ReadBits@BitStream@RakNet@@QAE_NPAEH_N@Z",
+          "site_rva": 204166,
+          "target_va": 268564912,
+          "kind": 20
+        },
+        {
+          "symbol": "?WriteBits@BitStream@RakNet@@QAEXPBEH_N@Z",
+          "site_rva": 204230,
+          "target_va": 268566496,
+          "kind": 20
+        },
+        {
+          "symbol": "??$Write@UPlayerID@@@BitStream@RakNet@@QAEXUPlayerID@@@Z",
+          "site_rva": 204259,
+          "target_va": 268572672,
+          "kind": 20
+        },
+        {
+          "symbol": "??2@YAPAXI@Z",
+          "site_rva": 204312,
+          "target_va": 269247098,
+          "kind": 20
+        },
+        {
+          "symbol": "_UNASSIGNED_PLAYER_ID",
+          "site_rva": 204335,
+          "target_va": 269477664,
+          "kind": 6
+        },
+        {
+          "symbol": "_UNASSIGNED_PLAYER_ID",
+          "site_rva": 204348,
+          "target_va": 269477668,
+          "kind": 6
+        },
+        {
+          "symbol": "?GetTime@RakNet@@YAIXZ",
+          "site_rva": 204398,
+          "target_va": 268625904,
+          "kind": 20
+        },
+        {
+          "symbol": "?GetTime@RakNet@@YAIXZ",
+          "site_rva": 204412,
+          "target_va": 268625904,
+          "kind": 20
+        },
+        {
+          "symbol": "?Insert@?$List@PAUConnectionRequest@NatPunchthrough@@@DataStructures@@QAEXQAUConnectionRequest@NatPunchthrough@@@Z",
+          "site_rva": 204429,
+          "target_va": 268638704,
+          "kind": 20
+        },
+        {
+          "symbol": "??1BitStream@RakNet@@QAE@XZ",
+          "site_rva": 204499,
+          "target_va": 268564688,
+          "kind": 20
+        },
+        {
+          "symbol": "??1BitStream@RakNet@@QAE@XZ",
+          "site_rva": 204522,
+          "target_va": 268564688,
+          "kind": 20
+        },
+        {
+          "symbol": "__except_list",
+          "site_rva": 204539,
+          "target_va": 0,
+          "kind": 6
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_nat_punchthrough",
+      "section": 39,
+      "rva": 137216,
+      "size": 57,
+      "kind": ".text",
+      "sha256": "d91059f6b0b729ab74e79bfbc84d6e4fcb7822626f2838d1ef55bf34758af8e5",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "?WriteBits@BitStream@RakNet@@QAEXPBEH_N@Z",
+          "site_rva": 137240,
+          "target_va": 268566496,
+          "kind": 20
+        },
+        {
+          "symbol": "?WriteBits@BitStream@RakNet@@QAEXPBEH_N@Z",
+          "site_rva": 137264,
+          "target_va": 268566496,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_nat_punchthrough",
+      "section": 77,
+      "rva": 206400,
+      "size": 421,
+      "kind": ".text",
+      "sha256": "558de82048091b9e4d484421816b338d69b550f6379ab4acde24e33b9e70861c",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "__ehhandler$?OnCloseConnection@NatPunchthrough@@UAEXPAVRakPeerInterface@@UPlayerID@@@Z",
+          "site_rva": 206403,
+          "target_va": 269362027,
+          "kind": 6
+        },
+        {
+          "symbol": "__except_list",
+          "site_rva": 206409,
+          "target_va": 0,
+          "kind": 6
+        },
+        {
+          "symbol": "__except_list",
+          "site_rva": 206417,
+          "target_va": 0,
+          "kind": 6
+        },
+        {
+          "symbol": "??8PlayerID@@QBE_NABU0@@Z",
+          "site_rva": 206500,
+          "target_va": 268646112,
+          "kind": 20
+        },
+        {
+          "symbol": "??8PlayerID@@QBE_NABU0@@Z",
+          "site_rva": 206525,
+          "target_va": 268646112,
+          "kind": 20
+        },
+        {
+          "symbol": "??8PlayerID@@QBE_NABU0@@Z",
+          "site_rva": 206554,
+          "target_va": 268646112,
+          "kind": 20
+        },
+        {
+          "symbol": "??0BitStream@RakNet@@QAE@XZ",
+          "site_rva": 206571,
+          "target_va": 268564272,
+          "kind": 20
+        },
+        {
+          "symbol": "?WriteBits@BitStream@RakNet@@QAEXPBEH_N@Z",
+          "site_rva": 206605,
+          "target_va": 268566496,
+          "kind": 20
+        },
+        {
+          "symbol": "?WriteBits@BitStream@RakNet@@QAEXPBEH_N@Z",
+          "site_rva": 206646,
+          "target_va": 268566496,
+          "kind": 20
+        },
+        {
+          "symbol": "?WriteBits@BitStream@RakNet@@QAEXPBEH_N@Z",
+          "site_rva": 206672,
+          "target_va": 268566496,
+          "kind": 20
+        },
+        {
+          "symbol": "??1BitStream@RakNet@@QAE@XZ",
+          "site_rva": 206738,
+          "target_va": 268564688,
+          "kind": 20
+        },
+        {
+          "symbol": "??3@YAXPAX@Z",
+          "site_rva": 206756,
+          "target_va": 269247626,
+          "kind": 20
+        },
+        {
+          "symbol": "??3@YAXPAX@Z",
+          "site_rva": 206767,
+          "target_va": 269247626,
+          "kind": 20
+        },
+        {
+          "symbol": "?RemoveAtIndex@?$List@PAUConnectionRequest@NatPunchthrough@@@DataStructures@@QAEXI@Z",
+          "site_rva": 206778,
+          "target_va": 268640544,
+          "kind": 20
+        },
+        {
+          "symbol": "__except_list",
+          "site_rva": 206807,
+          "target_va": 0,
+          "kind": 6
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_nat_punchthrough",
+      "section": 73,
+      "rva": 205328,
+      "size": 1065,
+      "kind": ".text",
+      "sha256": "2b8200c5c74124371d3a3fd4061214d6ee6fb94e6412c888f871d8e0cc591e55",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "__ehhandler$?Update@NatPunchthrough@@UAEXPAVRakPeerInterface@@@Z",
+          "site_rva": 205331,
+          "target_va": 269361995,
+          "kind": 6
+        },
+        {
+          "symbol": "__except_list",
+          "site_rva": 205337,
+          "target_va": 0,
+          "kind": 6
+        },
+        {
+          "symbol": "__except_list",
+          "site_rva": 205345,
+          "target_va": 0,
+          "kind": 6
+        },
+        {
+          "symbol": "?GetTime@RakNet@@YAIXZ",
+          "site_rva": 205379,
+          "target_va": 268625904,
+          "kind": 20
+        },
+        {
+          "symbol": "??0BitStream@RakNet@@QAE@XZ",
+          "site_rva": 205394,
+          "target_va": 268564272,
+          "kind": 20
+        },
+        {
+          "symbol": "??3@YAXPAX@Z",
+          "site_rva": 205439,
+          "target_va": 269247626,
+          "kind": 20
+        },
+        {
+          "symbol": "??1BitStream@RakNet@@QAE@XZ",
+          "site_rva": 205600,
+          "target_va": 268564688,
+          "kind": 20
+        },
+        {
+          "symbol": "__except_list",
+          "site_rva": 205617,
+          "target_va": 0,
+          "kind": 6
+        },
+        {
+          "symbol": "_SEND_TIMESTAMP_DELAY_PING_MULTIPLE",
+          "site_rva": 205726,
+          "target_va": 269381940,
+          "kind": 6
+        },
+        {
+          "symbol": "__ftol2",
+          "site_rva": 205731,
+          "target_va": 269251652,
+          "kind": 20
+        },
+        {
+          "symbol": "_SEND_PUNCHTHROUGH_DELAY_PING_MULTIPLE",
+          "site_rva": 205843,
+          "target_va": 269381944,
+          "kind": 6
+        },
+        {
+          "symbol": "__ftol2",
+          "site_rva": 205848,
+          "target_va": 269251652,
+          "kind": 20
+        },
+        {
+          "symbol": "?Reset@BitStream@RakNet@@QAEXXZ",
+          "site_rva": 205859,
+          "target_va": 268564720,
+          "kind": 20
+        },
+        {
+          "symbol": "?WriteBits@BitStream@RakNet@@QAEXPBEH_N@Z",
+          "site_rva": 205882,
+          "target_va": 268566496,
+          "kind": 20
+        },
+        {
+          "symbol": "?WriteBits@BitStream@RakNet@@QAEXPBEH_N@Z",
+          "site_rva": 205914,
+          "target_va": 268566496,
+          "kind": 20
+        },
+        {
+          "symbol": "?WriteBits@BitStream@RakNet@@QAEXPBEH_N@Z",
+          "site_rva": 205937,
+          "target_va": 268566496,
+          "kind": 20
+        },
+        {
+          "symbol": "?Reset@BitStream@RakNet@@QAEXXZ",
+          "site_rva": 205995,
+          "target_va": 268564720,
+          "kind": 20
+        },
+        {
+          "symbol": "?WriteBits@BitStream@RakNet@@QAEXPBEH_N@Z",
+          "site_rva": 206018,
+          "target_va": 268566496,
+          "kind": 20
+        },
+        {
+          "symbol": "?WriteBits@BitStream@RakNet@@QAEXPBEH_N@Z",
+          "site_rva": 206044,
+          "target_va": 268566496,
+          "kind": 20
+        },
+        {
+          "symbol": "?WriteBits@BitStream@RakNet@@QAEXPBEH_N@Z",
+          "site_rva": 206067,
+          "target_va": 268566496,
+          "kind": 20
+        },
+        {
+          "symbol": "??$Write@UPlayerID@@@BitStream@RakNet@@QAEXUPlayerID@@@Z",
+          "site_rva": 206101,
+          "target_va": 268572672,
+          "kind": 20
+        },
+        {
+          "symbol": "??3@YAXPAX@Z",
+          "site_rva": 206164,
+          "target_va": 269247626,
+          "kind": 20
+        },
+        {
+          "symbol": "??3@YAXPAX@Z",
+          "site_rva": 206175,
+          "target_va": 269247626,
+          "kind": 20
+        },
+        {
+          "symbol": "?RemoveAtIndex@?$List@PAUConnectionRequest@NatPunchthrough@@@DataStructures@@QAEXI@Z",
+          "site_rva": 206186,
+          "target_va": 268640544,
+          "kind": 20
+        },
+        {
+          "symbol": "_UNASSIGNED_PLAYER_ID",
+          "site_rva": 206214,
+          "target_va": 269477664,
+          "kind": 6
+        },
+        {
+          "symbol": "??9PlayerID@@QBE_NABU0@@Z",
+          "site_rva": 206222,
+          "target_va": 268646160,
+          "kind": 20
+        },
+        {
+          "symbol": "??3@YAXPAX@Z",
+          "site_rva": 206362,
+          "target_va": 269247626,
+          "kind": 20
+        },
+        {
+          "symbol": "??3@YAXPAX@Z",
+          "site_rva": 206373,
+          "target_va": 269247626,
+          "kind": 20
+        },
+        {
+          "symbol": "?RemoveAtIndex@?$List@PAUConnectionRequest@NatPunchthrough@@@DataStructures@@QAEXI@Z",
+          "site_rva": 206384,
+          "target_va": 268640544,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_nat_punchthrough",
+      "section": 71,
+      "rva": 205232,
+      "size": 96,
+      "kind": ".text",
+      "sha256": "01eaef303b0d77f8b27f3e33c4fdf34541e51530ef300ea03651f189e2a28491",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "?Connect@NatPunchthrough@@QAE_NUPlayerID@@PADH0@Z",
+          "site_rva": 205317,
+          "target_va": 268638944,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_nat_punchthrough",
+      "section": 46,
+      "rva": 203488,
+      "size": 447,
+      "kind": ".text",
+      "sha256": "cd8f7133393b26941a69bdbd23a178c1b3aee9d1cc1f790d076fd9cf97bac8c8",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "__ehhandler$?Connect@NatPunchthrough@@QAE_NUPlayerID@@PADH0@Z",
+          "site_rva": 203491,
+          "target_va": 269361835,
+          "kind": 6
+        },
+        {
+          "symbol": "__except_list",
+          "site_rva": 203497,
+          "target_va": 0,
+          "kind": 6
+        },
+        {
+          "symbol": "__except_list",
+          "site_rva": 203505,
+          "target_va": 0,
+          "kind": 6
+        },
+        {
+          "symbol": "??0BitStream@RakNet@@QAE@XZ",
+          "site_rva": 203574,
+          "target_va": 268564272,
+          "kind": 20
+        },
+        {
+          "symbol": "?WriteBits@BitStream@RakNet@@QAEXPBEH_N@Z",
+          "site_rva": 203608,
+          "target_va": 268566496,
+          "kind": 20
+        },
+        {
+          "symbol": "?WriteBits@BitStream@RakNet@@QAEXPBEH_N@Z",
+          "site_rva": 203652,
+          "target_va": 268566496,
+          "kind": 20
+        },
+        {
+          "symbol": "?WriteBits@BitStream@RakNet@@QAEXPBEH_N@Z",
+          "site_rva": 203678,
+          "target_va": 268566496,
+          "kind": 20
+        },
+        {
+          "symbol": "??2@YAPAXI@Z",
+          "site_rva": 203685,
+          "target_va": 269247098,
+          "kind": 20
+        },
+        {
+          "symbol": "??2@YAPAXI@Z",
+          "site_rva": 203729,
+          "target_va": 269247098,
+          "kind": 20
+        },
+        {
+          "symbol": "_UNASSIGNED_PLAYER_ID",
+          "site_rva": 203785,
+          "target_va": 269477664,
+          "kind": 6
+        },
+        {
+          "symbol": "_UNASSIGNED_PLAYER_ID",
+          "site_rva": 203795,
+          "target_va": 269477668,
+          "kind": 6
+        },
+        {
+          "symbol": "?GetTime@RakNet@@YAIXZ",
+          "site_rva": 203825,
+          "target_va": 268625904,
+          "kind": 20
+        },
+        {
+          "symbol": "?Insert@?$List@PAUConnectionRequest@NatPunchthrough@@@DataStructures@@QAEXQAUConnectionRequest@NatPunchthrough@@@Z",
+          "site_rva": 203850,
+          "target_va": 268638704,
+          "kind": 20
+        },
+        {
+          "symbol": "??1BitStream@RakNet@@QAE@XZ",
+          "site_rva": 203902,
+          "target_va": 268564688,
+          "kind": 20
+        },
+        {
+          "symbol": "__except_list",
+          "site_rva": 203921,
+          "target_va": 0,
+          "kind": 6
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_nat_punchthrough",
+      "section": 67,
+      "rva": 205152,
+      "size": 80,
+      "kind": ".text",
+      "sha256": "becb64b29b5b6d3b83754cc3b32b219b38822a1d1ed54549005b04998c1afedb",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "__ehhandler$??1NatPunchthrough@@QAE@XZ",
+          "site_rva": 205155,
+          "target_va": 269361963,
+          "kind": 6
+        },
+        {
+          "symbol": "__except_list",
+          "site_rva": 205161,
+          "target_va": 0,
+          "kind": 6
+        },
+        {
+          "symbol": "__except_list",
+          "site_rva": 205169,
+          "target_va": 0,
+          "kind": 6
+        },
+        {
+          "symbol": "??_7NatPunchthrough@@6B@",
+          "site_rva": 205183,
+          "target_va": 269381948,
+          "kind": 6
+        },
+        {
+          "symbol": "?Clear@NatPunchthrough@@QAEXXZ",
+          "site_rva": 205196,
+          "target_va": 268639392,
+          "kind": 20
+        },
+        {
+          "symbol": "??1?$List@PAUConnectionRequest@NatPunchthrough@@@DataStructures@@QAE@XZ",
+          "site_rva": 205212,
+          "target_va": 268638656,
+          "kind": 20
+        },
+        {
+          "symbol": "__except_list",
+          "site_rva": 205224,
+          "target_va": 0,
+          "kind": 6
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_nat_punchthrough",
+      "section": 17,
+      "rva": 203200,
+      "size": 17,
+      "kind": ".text",
+      "sha256": "070f73b07414780ee0447d579628b2d60a544b027b0932687f58a40556d98713",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "??3@YAXPAX@Z",
+          "site_rva": 203211,
+          "target_va": 269247626,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_nat_punchthrough",
+      "section": 51,
+      "rva": 203936,
+      "size": 67,
+      "kind": ".text",
+      "sha256": "426bec043ce06f1d4b5bad9df483b70253787f9faeac0f377e632b8ca71c7139",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "??3@YAXPAX@Z",
+          "site_rva": 203963,
+          "target_va": 269247626,
+          "kind": 20
+        },
+        {
+          "symbol": "??3@YAXPAX@Z",
+          "site_rva": 203975,
+          "target_va": 269247626,
+          "kind": 20
+        },
+        {
+          "symbol": "?Clear@?$List@PAUConnectionRequest@NatPunchthrough@@@DataStructures@@QAEX_N@Z",
+          "site_rva": 203996,
+          "target_va": 268638832,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_nat_punchthrough",
+      "section": 25,
+      "rva": 203376,
+      "size": 60,
+      "kind": ".text",
+      "sha256": "7abcecf4db20f32af914719f47a57e6c88428acaaa97b5b5d6266647e57ba825",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "??3@YAXPAX@Z",
+          "site_rva": 203405,
+          "target_va": 269247626,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_nat_punchthrough",
+      "section": 43,
+      "rva": 203456,
+      "size": 32,
+      "kind": ".text",
+      "sha256": "84e03fd714fb13a01f16eb54d5b609b5be6d8791071793942e08cb7b74193683",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "??_7NatPunchthrough@@6B@",
+          "site_rva": 203464,
+          "target_va": 269381948,
+          "kind": 6
+        },
+        {
+          "symbol": "??0?$List@PAUConnectionRequest@NatPunchthrough@@@DataStructures@@QAE@XZ",
+          "site_rva": 203469,
+          "target_va": 268638640,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_nat_punchthrough",
+      "section": 15,
+      "rva": 203184,
+      "size": 13,
+      "kind": ".text",
+      "sha256": "efaddf6f7c64b7d0dd7d70e04563c88df5b21978a063a338954e28cc09d4e5e9",
+      "whole_bytes_equal": true,
+      "bindings": []
+    },
+    {
+      "unit": "closure_vendor_nat_punchthrough",
+      "section": 13,
+      "rva": 203168,
+      "size": 3,
+      "kind": ".text",
+      "sha256": "e598d0c3ba86d917b177d7adde0556aa99bc355543c57aee0a3e50b684dd7e99",
+      "whole_bytes_equal": true,
+      "bindings": []
+    },
+    {
+      "unit": "closure_vendor_nat_punchthrough",
+      "section": 11,
+      "rva": 203152,
+      "size": 10,
+      "kind": ".text",
+      "sha256": "20545a44425502c56f969230fed6a0069d9359aa2cbae9b2778633ce15637f00",
+      "whole_bytes_equal": true,
+      "bindings": []
+    },
+    {
+      "unit": "closure_vendor_nat_punchthrough",
+      "section": 62,
+      "rva": 926464,
+      "size": 21,
+      "kind": ".text$x",
+      "sha256": "fae2b01cd7a2879922966ed05bd3d20660c5f2e3baf3d60daef095a8b358319a",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "??1BitStream@RakNet@@QAE@XZ",
+          "site_rva": 926471,
+          "target_va": 268564688,
+          "kind": 20
+        },
+        {
+          "symbol": "$T3101",
+          "site_rva": 926476,
+          "target_va": 269459392,
+          "kind": 6
+        },
+        {
+          "symbol": "___CxxFrameHandler",
+          "site_rva": 926481,
+          "target_va": 269247782,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_nat_punchthrough",
+      "section": 85,
+      "rva": 1042208,
+      "size": 16,
+      "kind": ".data",
+      "sha256": "44774f987c1b2569c171277ac704deed6fa979e51c12bc30dc3b0defaf92ede9",
+      "whole_bytes_equal": true,
+      "bindings": []
+    },
+    {
+      "unit": "closure_vendor_nat_punchthrough",
+      "section": 58,
+      "rva": 926432,
+      "size": 21,
+      "kind": ".text$x",
+      "sha256": "039b8916abc6eec545f3828473ffaea05dc2218ffdfd69ffbda219f22b1d0a84",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "??1BitStream@RakNet@@QAE@XZ",
+          "site_rva": 926439,
+          "target_va": 268564688,
+          "kind": 20
+        },
+        {
+          "symbol": "$T3046",
+          "site_rva": 926444,
+          "target_va": 269459356,
+          "kind": 6
+        },
+        {
+          "symbol": "___CxxFrameHandler",
+          "site_rva": 926449,
+          "target_va": 269247782,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_nat_punchthrough",
+      "section": 54,
+      "rva": 926400,
+      "size": 32,
+      "kind": ".text$x",
+      "sha256": "8bb32d4f5d8f52d4d76f0eb8d240f645cd678492694fd79c67bba668081482d0",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "??1BitStream@RakNet@@QAE@XZ",
+          "site_rva": 926407,
+          "target_va": 268564688,
+          "kind": 20
+        },
+        {
+          "symbol": "??1BitStream@RakNet@@QAE@XZ",
+          "site_rva": 926418,
+          "target_va": 268564688,
+          "kind": 20
+        },
+        {
+          "symbol": "$T3015",
+          "site_rva": 926423,
+          "target_va": 269459320,
+          "kind": 6
+        },
+        {
+          "symbol": "___CxxFrameHandler",
+          "site_rva": 926428,
+          "target_va": 269247782,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_nat_punchthrough",
+      "section": 78,
+      "rva": 926560,
+      "size": 21,
+      "kind": ".text$x",
+      "sha256": "aaa29ef8668a96e21ba46d8c70f33ab2ad86c6e6dc3975402454f0bd2ef8ef2b",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "??1BitStream@RakNet@@QAE@XZ",
+          "site_rva": 926567,
+          "target_va": 268564688,
+          "kind": 20
+        },
+        {
+          "symbol": "$T3363",
+          "site_rva": 926572,
+          "target_va": 269459500,
+          "kind": 6
+        },
+        {
+          "symbol": "___CxxFrameHandler",
+          "site_rva": 926577,
+          "target_va": 269247782,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_nat_punchthrough",
+      "section": 74,
+      "rva": 926528,
+      "size": 21,
+      "kind": ".text$x",
+      "sha256": "c0660a98fa60b5a028df9ce7ba4c1955ae8a2997ddf3f3a71c61f02cf101c4fe",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "??1BitStream@RakNet@@QAE@XZ",
+          "site_rva": 926535,
+          "target_va": 268564688,
+          "kind": 20
+        },
+        {
+          "symbol": "$T3278",
+          "site_rva": 926540,
+          "target_va": 269459464,
+          "kind": 6
+        },
+        {
+          "symbol": "___CxxFrameHandler",
+          "site_rva": 926545,
+          "target_va": 269247782,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_nat_punchthrough",
+      "section": 3,
+      "rva": 946484,
+      "size": 8,
+      "kind": ".rdata",
+      "sha256": "edb395e8e1022192f7c8700aaa29519dcbc286f36be8d37cca06249c66ca70de",
+      "whole_bytes_equal": true,
+      "bindings": []
+    },
+    {
+      "unit": "closure_vendor_nat_punchthrough",
+      "section": 47,
+      "rva": 926368,
+      "size": 21,
+      "kind": ".text$x",
+      "sha256": "656824d50a25bd7239ab2c3249096260aa161e7e7b59b3465e6f43283e4eeca3",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "??1BitStream@RakNet@@QAE@XZ",
+          "site_rva": 926375,
+          "target_va": 268564688,
+          "kind": 20
+        },
+        {
+          "symbol": "$T2944",
+          "site_rva": 926380,
+          "target_va": 269459276,
+          "kind": 6
+        },
+        {
+          "symbol": "___CxxFrameHandler",
+          "site_rva": 926385,
+          "target_va": 269247782,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_nat_punchthrough",
+      "section": 68,
+      "rva": 926496,
+      "size": 21,
+      "kind": ".text$x",
+      "sha256": "01c032a26c720adbfc00aeb844d3c5f690c04b61498367a16fe9a26b4858afd1",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "??1?$List@PAUConnectionRequest@NatPunchthrough@@@DataStructures@@QAE@XZ",
+          "site_rva": 926503,
+          "target_va": 268638656,
+          "kind": 20
+        },
+        {
+          "symbol": "$T3115",
+          "site_rva": 926508,
+          "target_va": 269459428,
+          "kind": 6
+        },
+        {
+          "symbol": "___CxxFrameHandler",
+          "site_rva": 926513,
+          "target_va": 269247782,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_nat_punchthrough",
+      "section": 44,
+      "rva": 946492,
+      "size": 40,
+      "kind": ".rdata",
+      "sha256": "1b89a692ba972daa22bd2390ec8dd71721f38a6b317e39939a47f043d34bb593",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "?OnAttach@NatPunchthrough@@UAEXPAVRakPeerInterface@@@Z",
+          "site_rva": 946492,
+          "target_va": 268638608,
+          "kind": 6
+        },
+        {
+          "symbol": "?OnDetach@PluginInterface@@UAEXPAVRakPeerInterface@@@Z",
+          "site_rva": 946496,
+          "target_va": 268648320,
+          "kind": 6
+        },
+        {
+          "symbol": "?OnInitialize@PluginInterface@@UAEXPAVRakPeerInterface@@@Z",
+          "site_rva": 946500,
+          "target_va": 268648336,
+          "kind": 6
+        },
+        {
+          "symbol": "?Update@NatPunchthrough@@UAEXPAVRakPeerInterface@@@Z",
+          "site_rva": 946504,
+          "target_va": 268640784,
+          "kind": 6
+        },
+        {
+          "symbol": "?OnReceive@NatPunchthrough@@UAE?AW4PluginReceiveResult@@PAVRakPeerInterface@@PAUPacket@@@Z",
+          "site_rva": 946508,
+          "target_va": 268642400,
+          "kind": 6
+        },
+        {
+          "symbol": "?OnDisconnect@NatPunchthrough@@UAEXPAVRakPeerInterface@@@Z",
+          "site_rva": 946512,
+          "target_va": 268638624,
+          "kind": 6
+        },
+        {
+          "symbol": "?OnCloseConnection@NatPunchthrough@@UAEXPAVRakPeerInterface@@UPlayerID@@@Z",
+          "site_rva": 946516,
+          "target_va": 268641856,
+          "kind": 6
+        },
+        {
+          "symbol": "?OnDirectSocketSend@PluginInterface@@UAEXPBDIUPlayerID@@@Z",
+          "site_rva": 946520,
+          "target_va": 268648416,
+          "kind": 6
+        },
+        {
+          "symbol": "?OnDirectSocketReceive@PluginInterface@@UAEXPBDIUPlayerID@@@Z",
+          "site_rva": 946524,
+          "target_va": 268648432,
+          "kind": 6
+        },
+        {
+          "symbol": "?OnInternalPacket@PluginInterface@@UAEXPAUInternalPacket@@IUPlayerID@@I_N@Z",
+          "site_rva": 946528,
+          "target_va": 268648448,
+          "kind": 6
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_nat_punchthrough",
+      "section": 63,
+      "rva": 1023928,
+      "size": 36,
+      "kind": ".xdata$x",
+      "sha256": "74bc8eff21e2a22cb0dff88086d662e1df4c49e0ad220c562993102821f4ebc4",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "$L3058",
+          "site_rva": 1023932,
+          "target_va": 269361920,
+          "kind": 6
+        },
+        {
+          "symbol": "$T3103",
+          "site_rva": 1023944,
+          "target_va": 269459384,
+          "kind": 6
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_nat_punchthrough",
+      "section": 59,
+      "rva": 1023892,
+      "size": 36,
+      "kind": ".xdata$x",
+      "sha256": "f397115acf957560a56c7efd8a42d51fe5db5733442bdc817c04ed366047f2df",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "$L3022",
+          "site_rva": 1023896,
+          "target_va": 269361888,
+          "kind": 6
+        },
+        {
+          "symbol": "$T3052",
+          "site_rva": 1023908,
+          "target_va": 269459348,
+          "kind": 6
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_nat_punchthrough",
+      "section": 55,
+      "rva": 1023848,
+      "size": 44,
+      "kind": ".xdata$x",
+      "sha256": "8f8278cb99e691e1abe627569152ea199ad5b75dd60f93befb417a85a7a6ac0b",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "$L2970",
+          "site_rva": 1023852,
+          "target_va": 269361856,
+          "kind": 6
+        },
+        {
+          "symbol": "$L2971",
+          "site_rva": 1023860,
+          "target_va": 269361867,
+          "kind": 6
+        },
+        {
+          "symbol": "$T3017",
+          "site_rva": 1023872,
+          "target_va": 269459304,
+          "kind": 6
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_nat_punchthrough",
+      "section": 79,
+      "rva": 1024036,
+      "size": 36,
+      "kind": ".xdata$x",
+      "sha256": "eb281ef4529bb78346b968a272ece9cc1a40b4354dd2652ba7ea8a429fa4007e",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "$L3299",
+          "site_rva": 1024040,
+          "target_va": 269362016,
+          "kind": 6
+        },
+        {
+          "symbol": "$T3368",
+          "site_rva": 1024052,
+          "target_va": 269459492,
+          "kind": 6
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_nat_punchthrough",
+      "section": 75,
+      "rva": 1024000,
+      "size": 36,
+      "kind": ".xdata$x",
+      "sha256": "d073dc2c271acd16df0d8dc50716dbfa495f058a34525b3c729be59c5daf0d80",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "$L3130",
+          "site_rva": 1024004,
+          "target_va": 269361984,
+          "kind": 6
+        },
+        {
+          "symbol": "$T3292",
+          "site_rva": 1024016,
+          "target_va": 269459456,
+          "kind": 6
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_nat_punchthrough",
+      "section": 48,
+      "rva": 1023812,
+      "size": 36,
+      "kind": ".xdata$x",
+      "sha256": "02e3da7b2e427361c9a45b3fa62a44ca6f1f77b95980435db97b71b5dd4c8338",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "$L2894",
+          "site_rva": 1023816,
+          "target_va": 269361824,
+          "kind": 6
+        },
+        {
+          "symbol": "$T2947",
+          "site_rva": 1023828,
+          "target_va": 269459268,
+          "kind": 6
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_nat_punchthrough",
+      "section": 69,
+      "rva": 1023964,
+      "size": 36,
+      "kind": ".xdata$x",
+      "sha256": "ef53defafca176f9aadcb511e1dbfc0c6bc3e5480c9c98f53820a91c7017d9aa",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "$L3113",
+          "site_rva": 1023968,
+          "target_va": 269361952,
+          "kind": 6
+        },
+        {
+          "symbol": "$T3117",
+          "site_rva": 1023980,
+          "target_va": 269459420,
+          "kind": 6
+        }
+      ]
+    }
+  ],
+  "bindings_checked": 187,
+  "external_targets": {
+    "closure_vendor_nat_punchthrough::$L3392": 268642608,
+    "closure_vendor_nat_punchthrough::$L3393": 268642584,
+    "closure_vendor_nat_punchthrough::$L2489": 268642543,
+    "closure_vendor_nat_punchthrough::$L2485": 268642459,
+    "closure_vendor_nat_punchthrough::$L2486": 268642477,
+    "closure_vendor_nat_punchthrough::$L2487": 268642507,
+    "closure_vendor_nat_punchthrough::$L2488": 268642525,
+    "closure_vendor_nat_punchthrough::$L2482": 268642573,
+    "__ehhandler$?OnSendOfflineMessageAtTime@NatPunchthrough@@IAEXPAVRakPeerInterface@@PAUPacket@@@Z": 269361931,
+    "__except_list": 0,
+    "??0BitStream@RakNet@@QAE@PAEI_N@Z": 268564416,
+    "?IgnoreBits@BitStream@RakNet@@QAEXH@Z": 268565744,
+    "?ReadBits@BitStream@RakNet@@QAE_NPAEH_N@Z": 268564912,
+    "??1BitStream@RakNet@@QAE@XZ": 268564688,
+    "??2@YAPAXI@Z": 269247098,
+    "_UNASSIGNED_PLAYER_ID": 269477664,
+    "?GetTime@RakNet@@YAIXZ": 268625904,
+    "??3@YAXPAX@Z": 269247626,
+    "__ehhandler$?OnConnectAtTime@NatPunchthrough@@IAEXPAVRakPeerInterface@@PAUPacket@@@Z": 269361899,
+    "??8PlayerID@@QBE_NABU0@@Z": 268646112,
+    "_memmove": 269250016,
+    "__ehhandler$?OnPunchthroughRequest@NatPunchthrough@@IAEXPAVRakPeerInterface@@PAUPacket@@@Z": 269361878,
+    "??0BitStream@RakNet@@QAE@XZ": 268564272,
+    "?WriteBits@BitStream@RakNet@@QAEXPBEH_N@Z": 268566496,
+    "__ehhandler$?OnCloseConnection@NatPunchthrough@@UAEXPAVRakPeerInterface@@UPlayerID@@@Z": 269362027,
+    "__ehhandler$?Update@NatPunchthrough@@UAEXPAVRakPeerInterface@@@Z": 269361995,
+    "_SEND_TIMESTAMP_DELAY_PING_MULTIPLE": 269381940,
+    "__ftol2": 269251652,
+    "_SEND_PUNCHTHROUGH_DELAY_PING_MULTIPLE": 269381944,
+    "?Reset@BitStream@RakNet@@QAEXXZ": 268564720,
+    "??9PlayerID@@QBE_NABU0@@Z": 268646160,
+    "__ehhandler$?Connect@NatPunchthrough@@QAE_NUPlayerID@@PADH0@Z": 269361835,
+    "__ehhandler$??1NatPunchthrough@@QAE@XZ": 269361963,
+    "??_7NatPunchthrough@@6B@": 269381948,
+    "closure_vendor_nat_punchthrough::$T3101": 269459392,
+    "___CxxFrameHandler": 269247782,
+    "closure_vendor_nat_punchthrough::$T3046": 269459356,
+    "closure_vendor_nat_punchthrough::$T3015": 269459320,
+    "closure_vendor_nat_punchthrough::$T3363": 269459500,
+    "closure_vendor_nat_punchthrough::$T3278": 269459464,
+    "closure_vendor_nat_punchthrough::$T2944": 269459276,
+    "closure_vendor_nat_punchthrough::$T3115": 269459428,
+    "?OnDetach@PluginInterface@@UAEXPAVRakPeerInterface@@@Z": 268648320,
+    "?OnInitialize@PluginInterface@@UAEXPAVRakPeerInterface@@@Z": 268648336,
+    "?OnDirectSocketSend@PluginInterface@@UAEXPBDIUPlayerID@@@Z": 268648416,
+    "?OnDirectSocketReceive@PluginInterface@@UAEXPBDIUPlayerID@@@Z": 268648432,
+    "?OnInternalPacket@PluginInterface@@UAEXPAUInternalPacket@@IUPlayerID@@I_N@Z": 268648448,
+    "closure_vendor_nat_punchthrough::$L3058": 269361920,
+    "closure_vendor_nat_punchthrough::$T3103": 269459384,
+    "closure_vendor_nat_punchthrough::$L3022": 269361888,
+    "closure_vendor_nat_punchthrough::$T3052": 269459348,
+    "closure_vendor_nat_punchthrough::$L2970": 269361856,
+    "closure_vendor_nat_punchthrough::$L2971": 269361867,
+    "closure_vendor_nat_punchthrough::$T3017": 269459304,
+    "closure_vendor_nat_punchthrough::$L3299": 269362016,
+    "closure_vendor_nat_punchthrough::$T3368": 269459492,
+    "closure_vendor_nat_punchthrough::$L3130": 269361984,
+    "closure_vendor_nat_punchthrough::$T3292": 269459456,
+    "closure_vendor_nat_punchthrough::$L2894": 269361824,
+    "closure_vendor_nat_punchthrough::$T2947": 269459268,
+    "closure_vendor_nat_punchthrough::$L3113": 269361952,
+    "closure_vendor_nat_punchthrough::$T3117": 269459420
+  },
+  "identity_reasons": {
+    "?OnAttach@NatPunchthrough@@UAEXPAVRakPeerInterface@@@Z": "source method semantics + original call graph / allocation / table owner",
+    "?OnDisconnect@NatPunchthrough@@UAEXPAVRakPeerInterface@@@Z": "source method semantics + original call graph / allocation / table owner",
+    "??0NatPunchthrough@@QAE@XZ": "source method semantics + original call graph / allocation / table owner",
+    "?Connect@NatPunchthrough@@QAE_NUPlayerID@@PADH0@Z": "actual relocation from ?Connect@NatPunchthrough@@QAE_NPBDGPADHUPlayerID@@@Z",
+    "?Clear@NatPunchthrough@@QAEXXZ": "actual relocation from ??1NatPunchthrough@@QAE@XZ",
+    "?OnPunchthroughRequest@NatPunchthrough@@IAEXPAVRakPeerInterface@@PAUPacket@@@Z": "actual relocation from ?OnReceive@NatPunchthrough@@UAE?AW4PluginReceiveResult@@PAVRakPeerInterface@@PAUPacket@@@Z",
+    "?OnConnectAtTime@NatPunchthrough@@IAEXPAVRakPeerInterface@@PAUPacket@@@Z": "actual relocation from ?OnReceive@NatPunchthrough@@UAE?AW4PluginReceiveResult@@PAVRakPeerInterface@@PAUPacket@@@Z",
+    "?OnSendOfflineMessageAtTime@NatPunchthrough@@IAEXPAVRakPeerInterface@@PAUPacket@@@Z": "actual relocation from ?OnReceive@NatPunchthrough@@UAE?AW4PluginReceiveResult@@PAVRakPeerInterface@@PAUPacket@@@Z",
+    "??1NatPunchthrough@@QAE@XZ": "source method semantics + original call graph / allocation / table owner",
+    "?Connect@NatPunchthrough@@QAE_NPBDGPADHUPlayerID@@@Z": "source method semantics + original call graph / allocation / table owner",
+    "?Update@NatPunchthrough@@UAEXPAVRakPeerInterface@@@Z": "source method semantics + original call graph / allocation / table owner",
+    "?OnCloseConnection@NatPunchthrough@@UAEXPAVRakPeerInterface@@UPlayerID@@@Z": "source method semantics + original call graph / allocation / table owner",
+    "?RemoveRequestByFacilitator@NatPunchthrough@@IAE?AW4PluginReceiveResult@@UPlayerID@@@Z": "actual relocation from ?OnReceive@NatPunchthrough@@UAE?AW4PluginReceiveResult@@PAVRakPeerInterface@@PAUPacket@@@Z",
+    "?OnReceive@NatPunchthrough@@UAE?AW4PluginReceiveResult@@PAVRakPeerInterface@@PAUPacket@@@Z": "source method semantics + original call graph / allocation / table owner",
+    "?Insert@?$List@PAUConnectionRequest@NatPunchthrough@@@DataStructures@@QAEXQAUConnectionRequest@NatPunchthrough@@@Z": "actual relocation from ?OnSendOfflineMessageAtTime@NatPunchthrough@@IAEXPAVRakPeerInterface@@PAUPacket@@@Z",
+    "?RemoveAtIndex@?$List@PAUConnectionRequest@NatPunchthrough@@@DataStructures@@QAEXI@Z": "actual relocation from ?RemoveRequestByFacilitator@NatPunchthrough@@IAE?AW4PluginReceiveResult@@UPlayerID@@@Z",
+    "??$Write@UPlayerID@@@BitStream@RakNet@@QAEXUPlayerID@@@Z": "actual relocation from ?OnPunchthroughRequest@NatPunchthrough@@IAEXPAVRakPeerInterface@@PAUPacket@@@Z",
+    "??1?$List@PAUConnectionRequest@NatPunchthrough@@@DataStructures@@QAE@XZ": "actual relocation from ??1NatPunchthrough@@QAE@XZ",
+    "?Clear@?$List@PAUConnectionRequest@NatPunchthrough@@@DataStructures@@QAEX_N@Z": "actual relocation from ?Clear@NatPunchthrough@@QAEXXZ",
+    "??0?$List@PAUConnectionRequest@NatPunchthrough@@@DataStructures@@QAE@XZ": "actual relocation from ??0NatPunchthrough@@QAE@XZ"
+  },
+  "new_unique_code": 4016,
+  "already_covered_code": 0,
+  "physical_code_compared": 4105,
+  "baseline": 318918,
+  "source025_direct_bytes": 0,
+  "reuse_existing_owners": {},
+  "excluded_unmatched": [],
+  "unselected_method": "Unreferenced homologues are excluded; all Nat roots linked to actual calls, data, allocation, and VFT.",
+  "source_files": [
+    {
+      "path": "client/saco/closure_vendor_nat_punchthrough.cpp",
+      "sha256": "2dcf54167b605f0460b4cc148f64c08bfa6783e0e9377cafd923dcf8fe3a56a7"
+    },
+    {
+      "path": "vendor/upstream/raknet/NatPunchthrough.cpp",
+      "sha256": "10d16834dd5e936508d3d3420877a5336964250e41931df7105a12f796707643"
+    },
+    {
+      "path": "vendor/upstream/raknet/NatPunchthrough.h",
+      "sha256": "6ea9a54ae8760865a49b92dea59cc99e323d40d0b44afd7b5aea5df6900bad9b"
+    }
+  ],
+  "objects": {
+    "closure_vendor_nat_punchthrough": "4dd713deb7c0c70151fbdd06cf4ab8958bbb4cbbe0e7a00e6f00e3293e59b6a1"
+  },
+  "actual_weak_aliases": {
+    "closure_vendor_nat_punchthrough": {}
+  }
+}

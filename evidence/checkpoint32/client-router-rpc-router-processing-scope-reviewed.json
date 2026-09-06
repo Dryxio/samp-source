@@ -1,0 +1,334 @@
+{
+  "status": "PASS_STATIC_SCOPE_ABI_EXISTING_CRT",
+  "run": "build/cp32-router-processing-trial1",
+  "new_unique_candidate_bytes": 3378,
+  "source025_direct_bytes": 0,
+  "accepted_provider_bindings": {
+    "?WriteBits@BitStream@RakNet@@QAEXPBEH_N@Z": {
+      "unit": "closure_cmd_bitstream",
+      "rva": 131040,
+      "size": 163
+    },
+    "??0BitStream@RakNet@@QAE@PAEI_N@Z": {
+      "unit": "closure_cmd_bitstream",
+      "rva": 128960,
+      "size": 127
+    },
+    "??1BitStream@RakNet@@QAE@XZ": {
+      "unit": "closure_cmd_bitstream",
+      "rva": 129232,
+      "size": 27
+    },
+    "?ReadBits@BitStream@RakNet@@QAE_NPAEH_N@Z": {
+      "unit": "closure_cmd_bitstream",
+      "rva": 129456,
+      "size": 185
+    },
+    "?Clear@?$List@UPlayerID@@@DataStructures@@QAEX_N@Z": {
+      "unit": "closure_vendor_connection_graph",
+      "rva": 134912,
+      "size": 60
+    },
+    "?Insert@?$List@UPlayerID@@@DataStructures@@QAEXUPlayerID@@@Z": {
+      "unit": "closure_vendor_connection_graph",
+      "rva": 134208,
+      "size": 123
+    },
+    "??0BitStream@RakNet@@QAE@XZ": {
+      "unit": "closure_cmd_bitstream",
+      "rva": 128816,
+      "size": 33
+    },
+    "??8PlayerID@@QBE_NABU0@@Z": {
+      "unit": "closure_vendor_network_id_comparisons",
+      "rva": 210656,
+      "size": 33
+    },
+    "?randomMT@@YAIXZ": {
+      "unit": "closure_vendor_rand",
+      "rva": 277504,
+      "size": 68
+    },
+    "?Write1@BitStream@RakNet@@QAEXXZ": {
+      "unit": "closure_cmd_bitstream",
+      "rva": 130864,
+      "size": 51
+    },
+    "?Write0@BitStream@RakNet@@QAEXXZ": {
+      "unit": "closure_cmd_bitstream",
+      "rva": 130832,
+      "size": 30
+    },
+    "?IgnoreBits@BitStream@RakNet@@QAEXH@Z": {
+      "unit": "closure_cmd_bitstream",
+      "rva": 130288,
+      "size": 15
+    },
+    "?ReadCompressed@BitStream@RakNet@@AAE_NPAEH_N@Z": {
+      "unit": "closure_cmd_bitstream",
+      "rva": 129648,
+      "size": 254
+    },
+    "?WriteCompressed@BitStream@RakNet@@AAEXPBEH_N@Z": {
+      "unit": "closure_cmd_bitstream",
+      "rva": 131376,
+      "size": 163
+    },
+    "?AlignWriteToByteBoundary@BitStream@RakNet@@QAEXXZ": {
+      "unit": "closure_cmd_bitstream",
+      "rva": 129376,
+      "size": 20
+    },
+    "?AlignReadToByteBoundary@BitStream@RakNet@@QAEXXZ": {
+      "unit": "closure_cmd_bitstream",
+      "rva": 129408,
+      "size": 22
+    },
+    "?Write@BitStream@RakNet@@QAEXPAV12@H@Z": {
+      "unit": "closure_cmd_bitstream",
+      "rva": 130496,
+      "size": 218
+    },
+    "?HasData@?$OrderedList@EE$1??$defaultOrderedListComparison@EE@DataStructures@@YAHABE0@Z@DataStructures@@QBE_NABE@Z": {
+      "unit": "closure_vendor_connection_graph",
+      "rva": 141248,
+      "size": 22
+    },
+    "??$Read@_N@BitStream@RakNet@@QAE_NAA_N@Z": {
+      "unit": "closure_vendor_replica_manager",
+      "rva": 33824,
+      "size": 89
+    },
+    "?SetWriteOffset@BitStream@RakNet@@QAEXH@Z": {
+      "unit": "closure_cmd_bitstream",
+      "rva": 130304,
+      "size": 9
+    },
+    "?GetIndexFromKey@?$OrderedList@EE$1??$defaultOrderedListComparison@EE@DataStructures@@YAHABE0@Z@DataStructures@@QBEIABEPA_N@Z": {
+      "unit": "closure_vendor_connection_graph",
+      "rva": 138336,
+      "size": 141
+    },
+    "??$defaultOrderedListComparison@EE@DataStructures@@YAHABE0@Z": {
+      "unit": "closure_vendor_connection_graph",
+      "rva": 134656,
+      "size": 32
+    },
+    "?Remove@?$OrderedList@EE$1??$defaultOrderedListComparison@EE@DataStructures@@YAHABE0@Z@DataStructures@@QAEIABE@Z": {
+      "unit": "closure_vendor_connection_graph",
+      "rva": 141376,
+      "size": 53
+    },
+    "?RemoveAtIndex@?$List@E@DataStructures@@QAEXI@Z": {
+      "unit": "closure_vendor_connection_graph",
+      "rva": 138496,
+      "size": 46
+    },
+    "?Insert@?$OrderedList@EE$1??$defaultOrderedListComparison@EE@DataStructures@@YAHABE0@Z@DataStructures@@QAEIABE0@Z": {
+      "unit": "closure_vendor_connection_graph",
+      "rva": 141280,
+      "size": 95
+    },
+    "?Insert@?$List@E@DataStructures@@QAEXE@Z": {
+      "unit": "closure_vendor_connection_graph",
+      "rva": 135024,
+      "size": 99
+    },
+    "?Insert@?$List@E@DataStructures@@QAEXEI@Z": {
+      "unit": "closure_vendor_connection_graph",
+      "rva": 135136,
+      "size": 126
+    },
+    "?Write@BitStream@RakNet@@QAEXPBDH@Z": {
+      "unit": "closure_cmd_bitstream",
+      "rva": 131216,
+      "size": 113
+    }
+  },
+  "existing_external_bindings": {
+    "??3@YAXPAX@Z": {
+      "kind": "crt",
+      "reference_va": 269247626,
+      "size": 5,
+      "sha256": "7a2b09fea4ced88e49e987aef3ba5304ddbbccb1e20599a243549fdc02637f6c"
+    },
+    "__except_list": {
+      "kind": "absolute-fs",
+      "reference_va": 0
+    },
+    "_fopen": {
+      "kind": "crt",
+      "reference_va": 269254473,
+      "size": 19,
+      "sha256": "aa45455e25880e364e3e9320219a11b0abd29670a804ea6e62048615d33a2d1f"
+    },
+    "_fseek": {
+      "kind": "crt",
+      "reference_va": 269256575,
+      "size": 73,
+      "sha256": "644c10a14e468af699393830c85d6e802a64f01b5ca4ae00f1da81446e9984de"
+    },
+    "_ftell": {
+      "kind": "crt",
+      "reference_va": 269256367,
+      "size": 65,
+      "sha256": "44859f0c770c929f98d075e8929527fb4dfc85c9415a6dfbca14aac1016faa9a"
+    },
+    "_fclose": {
+      "kind": "crt",
+      "reference_va": 269254232,
+      "size": 81,
+      "sha256": "2caeab8694e4275185422cf06b0df10d459e2f82da2c330d962ca66c67e047a3"
+    },
+    "??2@YAPAXI@Z": {
+      "kind": "crt",
+      "reference_va": 269247098,
+      "size": 36,
+      "sha256": "3388fc83079652ef5506eee91c61b02421ae7a865d917631a2e6f3fe84a3de6c"
+    },
+    "_fread": {
+      "kind": "crt",
+      "reference_va": 269255810,
+      "size": 76,
+      "sha256": "b846334a79bf2723effce0ff2b8731139751c38c123fc7cb28d9b4450cb55d1c"
+    },
+    "_fwrite": {
+      "kind": "crt",
+      "reference_va": 269253234,
+      "size": 76,
+      "sha256": "49c7f07adb017d535f696fe96cdd5f2cd32a68bbcc81bbe9347a392823a8edb7"
+    },
+    "___CxxFrameHandler": {
+      "kind": "crt",
+      "reference_va": 269247782,
+      "size": 54,
+      "sha256": "f5d28314d58ce5cebdf00faf3b2b1bb25200dc2c9fe10f11eebdfd1ed41a6928"
+    },
+    "_memmove": {
+      "kind": "crt",
+      "reference_va": 269250016,
+      "size": 829,
+      "sha256": "53bcdf99d64588f181a5893007d321048f95112d1e38e5f611af0e256b9f9cbc"
+    }
+  },
+  "callbacks": [
+    {
+      "site_rva": 326292,
+      "slot_offset": 160,
+      "method": "RakPeerInterface::GetExternalID",
+      "transfer_kind": "call",
+      "concrete_implementation_credit": 0
+    },
+    {
+      "site_rva": 326426,
+      "slot_offset": 48,
+      "method": "RakPeerInterface::Send(BitStream*)",
+      "transfer_kind": "call",
+      "concrete_implementation_credit": 0
+    },
+    {
+      "site_rva": 328873,
+      "slot_offset": 48,
+      "method": "RakPeerInterface::Send(BitStream*)",
+      "transfer_kind": "call",
+      "concrete_implementation_credit": 0
+    },
+    {
+      "site_rva": 321922,
+      "slot_offset": 244,
+      "method": "RakPeerInterface::SetRouterInterface",
+      "transfer_kind": "tailcall",
+      "concrete_implementation_credit": 0
+    },
+    {
+      "site_rva": 321957,
+      "slot_offset": 248,
+      "method": "RakPeerInterface::RemoveRouterInterface",
+      "transfer_kind": "tailcall",
+      "concrete_implementation_credit": 0
+    }
+  ],
+  "layout": {
+    "Router": {
+      "size": 29,
+      "primary_PluginInterface_offset": 0,
+      "secondary_RouterInterface_offset": 4,
+      "graph_offset": 8,
+      "restrictByType_offset": 12,
+      "allowedTypes_offset": 13,
+      "rakPeer_offset": 25
+    },
+    "SystemAddressList": {
+      "size": 12,
+      "systemList_offset": 0
+    },
+    "Tree": {
+      "data_size": 7,
+      "children_offset": 7,
+      "size": 19
+    }
+  },
+  "ownership": [
+    "Router and tree objects not allocated or constructed in selected roots; complete source types only.",
+    "Actual OnAttach/OnDetach convert Router to RouterInterface at+4 before tailcalling peer244/248. The stored peer remains primary RakPeerInterface.",
+    "SystemAddressList owns actual List<PlayerID>12 data with six-byte elements; realloc/deletion use unchanged template semantics.",
+    "Load allocates original fileSize-byte array, borrows it into BitStream then frees it after Deserialize. Save uses actual BitStream temporary with complete destructor/EH.",
+    "GetSpanningTree and two Router::Send entry points remain outside this closure. No VFT/factory claim."
+  ],
+  "file_abi": [
+    "Actual MSVC FILE* CRT boundaries retained, exact original target and accepted SDK owner metadata reused.",
+    "Save: fopen(filename,wb), fwrite(data,byteCount,1,FILE*), fclose.",
+    "Load: fopen(filename,rb), fseek(end), ftell, fseek(start), fread(buffer,fileSize,1,FILE*), fclose.",
+    "No API executed. Original unchecked fread and ignored Deserialize result preserved, including zero-file return behavior."
+  ],
+  "source_snapshots": [
+    {
+      "path": "client/saco/eval_vendor_router_processing.cpp",
+      "sha256": "02c84ecdf4358d6547cb1514ec91e275133f6a9af6d53bab4651b5b6d6d5248d"
+    },
+    {
+      "path": "client/saco/eval_vendor_system_address_list.cpp",
+      "sha256": "44f5226d64c6bc9a42cd690769b16f69fc1a68f3bdeeb935867f5fced301ee02"
+    },
+    {
+      "path": "vendor/upstream/raknet/Router.cpp",
+      "sha256": "9edf74be6f009a1b8c4efe2208e5580333d1ac0391e7d8ddc8a4fe237c59d11c"
+    },
+    {
+      "path": "vendor/upstream/raknet/Router.h",
+      "sha256": "788cf03a9f6f8ac30e670521cf1f9a3f072389677c70ee1b12a53e9035243a1a"
+    },
+    {
+      "path": "vendor/upstream/raknet/RouterInterface.h",
+      "sha256": "bfd3de6e95b617b900f0da76f253be631f5e8f74cf2eab76dc657e8957f349a4"
+    },
+    {
+      "path": "vendor/upstream/raknet/PluginInterface.h",
+      "sha256": "cb6ae0bf1f71ad66e6820d5d634720f98e52955960cb87d486826f0a5ec9eb66"
+    },
+    {
+      "path": "vendor/upstream/raknet/SystemAddressList.cpp",
+      "sha256": "7a519e44fdadadaff17eaa0d34a9dc2f5e99e3f68124310b4497fbb03dfbc594"
+    },
+    {
+      "path": "vendor/upstream/raknet/SystemAddressList.h",
+      "sha256": "b2434aca0fd243fd4b20bb399ca59d5da3e4a692457f529f82c1e74f7b72b1c9"
+    },
+    {
+      "path": "vendor/upstream/raknet/DS_Tree.h",
+      "sha256": "8f8c32f607acbed823e462f99302d68cf6d011170ef5a31768bfd9423ab74477"
+    },
+    {
+      "path": "vendor/upstream/raknet/DS_List.h",
+      "sha256": "df6db1ef4a708bb13960db54f641c6ee0d90d2bbafe1520d67959f5db282a97e"
+    },
+    {
+      "path": "vendor/upstream/raknet/DS_OrderedList.h",
+      "sha256": "4862eaa08ef54cfdfc20962c6471cebc56c72744f7fb19ff5f843f569af984b3"
+    },
+    {
+      "path": "vendor/upstream/raknet/RakPeerInterface.h",
+      "sha256": "550ac3c7ed53e081039e62a459882f9102272399ca0ed40868d5e94b75239079"
+    }
+  ]
+}

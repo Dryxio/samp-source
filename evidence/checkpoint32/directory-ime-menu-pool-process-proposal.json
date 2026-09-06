@@ -1,0 +1,38 @@
+{
+  "status": "NORMAL_CPP_PROPOSAL_NOT_MATCHED",
+  "function": {
+    "symbol": "?Process@CMenuPool@@QAEXXZ",
+    "rva": 33280,
+    "size": 342,
+    "sha256": "9ffcfdf3db49257c15db998019e0574e42520bf0ef7e8fae5d5e2cd28fedced4"
+  },
+  "source025_direct_credit": 0,
+  "source025_note": "Same implementation already in base; no missing source gain.",
+  "identity": {
+    "currentMenuOffset": 1024,
+    "exitFlagOffset": 1025,
+    "menuSlots": 128,
+    "pNetGame": 2550676,
+    "GameGetInternalKeys": 684976,
+    "GetSelectedRow": 685840,
+    "HideMenu": 32800,
+    "RPC_virtual_byteoffset": 100
+  },
+  "new_data": [
+    {
+      "rva": 940368,
+      "size": 2,
+      "meaning": "RPC_MenuQuit 8C NUL"
+    },
+    {
+      "rva": 940372,
+      "size": 2,
+      "meaning": "RPC_MenuSelect84 NUL"
+    }
+  ],
+  "EH": {
+    "handler_rva": 917995,
+    "note": "Compiler EH region and complete map must be discovered and compared after probe."
+  },
+  "providers": "All direct code providers already closed: internal controls getter, menu row/hide, BitStream ctor1F730/WriteBits1FFE0/dtor1F8D0. No new concrete network body claimed."
+}

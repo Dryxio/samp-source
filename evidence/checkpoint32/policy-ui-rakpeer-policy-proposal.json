@@ -1,0 +1,162 @@
+{
+  "status": "SOURCE_PROPOSAL_NOT_COMPILED_NOT_ACCEPTED",
+  "baseline_last_accepted": 377473,
+  "source025_direct_credit": 0,
+  "roots": [
+    {
+      "symbol": "?SetCompileFrequencyTable@RakPeer@@UAEX_N@Z",
+      "rva": 231952,
+      "size": 13,
+      "potential": 0
+    },
+    {
+      "symbol": "?GetOutgoingFrequencyTable@RakPeer@@UAE_NQAI@Z",
+      "rva": 231968,
+      "size": 53,
+      "potential": 0
+    },
+    {
+      "symbol": "?GenerateCompressionLayer@RakPeer@@UAE_NQAI_N@Z",
+      "rva": 232032,
+      "size": 208,
+      "potential": 208
+    },
+    {
+      "symbol": "?GetCompressionRatio@RakPeer@@UBEMXZ",
+      "rva": 232272,
+      "size": 61,
+      "potential": 61
+    },
+    {
+      "symbol": "?GetDecompressionRatio@RakPeer@@UBEMXZ",
+      "rva": 232336,
+      "size": 61,
+      "potential": 61
+    },
+    {
+      "symbol": "?GenerateSYNCookieRandomNumber@RakPeer@@IAEXXZ",
+      "rva": 233072,
+      "size": 85,
+      "potential": 85
+    },
+    {
+      "symbol": "?AddToBanList@RakPeer@@UAEXPBDI@Z",
+      "rva": 239568,
+      "size": 386,
+      "potential": 386
+    },
+    {
+      "symbol": "?ClearBanList@RakPeer@@UAEXXZ",
+      "rva": 239968,
+      "size": 101,
+      "potential": 101
+    },
+    {
+      "symbol": "?DeleteCompressionLayer@RakPeer@@UAE_N_N@Z",
+      "rva": 240800,
+      "size": 113,
+      "potential": 113
+    },
+    {
+      "symbol": "?RemoveFromBanList@RakPeer@@UAEXPBD@Z",
+      "rva": 246992,
+      "size": 263,
+      "potential": 263
+    },
+    {
+      "symbol": "?IsBanned@RakPeer@@UAE_NPBD@Z",
+      "rva": 247264,
+      "size": 323,
+      "potential": 323
+    },
+    {
+      "symbol": "?InitializeSecurity@RakPeer@@UAEXPBD000@Z",
+      "rva": 272960,
+      "size": 245,
+      "potential": 245
+    }
+  ],
+  "root_unique_upper_bound": 1846,
+  "extraction": [
+    {
+      "method": "InitializeSecurity",
+      "source_line": 427,
+      "body_sha256": "f372abc96343a7a4bfe9daca0f4b23c9eefaad3fb74c1c656c29111d4c2cb6a0"
+    },
+    {
+      "method": "AddToBanList",
+      "source_line": 1345,
+      "body_sha256": "c60f5613e99b3dad1ba9d9be6ca72cdb59e3f760da06942ed223a0dab636a248"
+    },
+    {
+      "method": "RemoveFromBanList",
+      "source_line": 1394,
+      "body_sha256": "25bca160854b94a0f677f6d0c5815c67b98a727fa83c28bf0f2305acf53b3fd2"
+    },
+    {
+      "method": "ClearBanList",
+      "source_line": 1432,
+      "body_sha256": "6e0bbadb862bfc30c132910d6abb5356be69371f03c511cf5c0ba90e90677639"
+    },
+    {
+      "method": "IsBanned",
+      "source_line": 1460,
+      "body_sha256": "d452d09cc827c734b14a9d881d01c8dbe9cccb860b613bb875e0f882e1a2e516"
+    },
+    {
+      "method": "SetCompileFrequencyTable",
+      "source_line": 2087,
+      "body_sha256": "ea747ea10f2555364b9184a7065b9d21a3adc9b5581e03163781fdff07218c15"
+    },
+    {
+      "method": "GetOutgoingFrequencyTable",
+      "source_line": 2106,
+      "body_sha256": "8a3a945b92ecd91453b60f472a378297da8a3a9a5e21eaf0d13e74e67be56973"
+    },
+    {
+      "method": "GenerateCompressionLayer",
+      "source_line": 2135,
+      "body_sha256": "50073e98137fba1ebfbc38ba764b9d0d310a3b416b413ed150ff0fbe8c336a01"
+    },
+    {
+      "method": "DeleteCompressionLayer",
+      "source_line": 2168,
+      "body_sha256": "7ac2abac94b9d0aef9a35b153ea683d1a1c2b3dc67e479375018912c978a7b63"
+    },
+    {
+      "method": "GetCompressionRatio",
+      "source_line": 2198,
+      "body_sha256": "5f9100af7992aaa823263b512242c7caabfb69ef3035c4bffacbc64c5a81fd56"
+    },
+    {
+      "method": "GetDecompressionRatio",
+      "source_line": 2213,
+      "body_sha256": "69c8bfea844e901c62a25c2f46f6e796335409a5a543629e55869c43bae039ed"
+    },
+    {
+      "method": "GenerateSYNCookieRandomNumber",
+      "source_line": 2944,
+      "body_sha256": "6fe71285d6182b9ab2df414ff4f2be5b284e4aa5982b809a46880ede3dfc4407"
+    }
+  ],
+  "vendor_source_sha256": "47b127807181c1c14d06b2ae344ef9ca0372b35cd90e33e6add08609674f415d",
+  "source_paths": [
+    "build/agent-independent/eval_vendor_rakpeer_policy.cpp",
+    "build/agent-independent/eval_vendor_simple_mutex.cpp"
+  ],
+  "scope": [
+    "Actual RakPeer header, no class view or allocation of partial RakPeer.",
+    "BanStruct complete8 allocated with owned char16; actual list and mutex from header.",
+    "Huffman complete1540 allocated/deleted; accepted algorithms/providers reused.",
+    "RSA methods real full305 inherited field; reuse existing fresh RSA template bodies, every emitted copy must match before link.",
+    "SimpleMutex full24 critical-section object; four original vendor methods, true kernel imports.",
+    "No network socket/peer factory/worker called by these methods.",
+    "IsActive and DeleteCompressionLayer are virtual calls through actual RakPeerInterface ABI, no full concrete class VFT claimed."
+  ],
+  "preserved_behaviors": [
+    "AddToBanList strcmp(IP,127.0.0.1) happens before null check.",
+    "ClearBanList original delete[] BanStruct versus scalar removal preserved.",
+    "InitializeSecurity mutates existing keys and RNG exactly as source, not executed."
+  ],
+  "baseline_proof": "evidence/checkpoint32/rsa-commands-acceptance.json"
+}

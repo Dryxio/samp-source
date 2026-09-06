@@ -1,0 +1,4370 @@
+{
+  "status": "REVIEWED_MAIN_SEEDS_AND_WHOLE_EH_BINDINGS_PREFLIGHT",
+  "run": "build/cp32-file-list-trial1",
+  "roots": {
+    "?Clear@FileList@@QAEXXZ": 177360,
+    "?Serialize@FileList@@QAEXPAVBitStream@RakNet@@@Z": 177440,
+    "?Deserialize@FileList@@QAE_NPAVBitStream@RakNet@@@Z": 177712,
+    "?WriteDataToDisk@FileList@@QAEXPBD@Z": 178112,
+    "?DeleteFiles@FileList@@QAEXPBD@Z": 178464,
+    "?AddFile@FileList@@QAEXPBD0IIE@Z": 178848,
+    "?AddFilesFromDirectory@FileList@@QAEXPBD0_N11E@Z": 179200,
+    "?GetDeltaToCurrent@FileList@@QAEXPAV1@0PBD1@Z": 180736,
+    "?ListMissingOrChangedFiles@FileList@@QAEXPBDPAV1@_N2@Z": 181248,
+    "?PopulateDataFromDisk@FileList@@QAEXPBD_N11@Z": 181888,
+    "?AddFile@FileList@@QAEXPBD0E@Z": 182720,
+    "?OnAttach@FileListTransfer@@UAEXPAVRakPeerInterface@@@Z": 182960,
+    "?Send@FileListTransfer@@QAEXPAVFileList@@PAVRakPeerInterface@@UPlayerID@@GW4PacketPriority@@D_N@Z": 183888,
+    "?DecodeSetHeader@FileListTransfer@@IAE_NPAUPacket@@@Z": 186592,
+    "?Clear@FileListTransfer@@IAEXXZ": 187104,
+    "??0FileListTransfer@@QAE@XZ": 187600,
+    "?SetupReceive@FileListTransfer@@QAEGPAVFileListTransferCBInterface@@_NUPlayerID@@@Z": 187744,
+    "?DecodeFile@FileListTransfer@@IAE_NPAUPacket@@_N@Z": 188048,
+    "?RemoveReceiver@FileListTransfer@@QAEXUPlayerID@@@Z": 188848,
+    "?OnReceive@FileListTransfer@@UAE?AW4PluginReceiveResult@@PAVRakPeerInterface@@PAUPacket@@@Z": 189008,
+    "?WriteFileWithDirectories@@YA_NPBDPADI@Z": 189248,
+    "?IsSlash@@YA_NE@Z": 189488,
+    "?AddSlash@@YAXPAD@Z": 189520,
+    "?DirectoryExists@@YA_NPBD@Z": 189584,
+    "?QuoteIfSpaces@@YAXPAD@Z": 189712,
+    "??1FileList@@QAE@XZ": 178768,
+    "??1FileListTransfer@@QAE@XZ": 187664,
+    "?OnDisconnect@FileListTransfer@@UAEXPAVRakPeerInterface@@@Z": 188832,
+    "?OnCloseConnection@FileListTransfer@@UAEXPAVRakPeerInterface@@UPlayerID@@@Z": 189216
+  },
+  "seeds": {
+    "closure_vendor_file_list_transfer": {
+      "?OnCloseConnection@FileListTransfer@@UAEXPAVRakPeerInterface@@UPlayerID@@@Z": 189216,
+      "?RemoveReceiver@FileListTransfer@@QAEXUPlayerID@@@Z": 188848,
+      "?RemoveAtIndex@?$Map@GPAUFileListReceiver@FileListTransfer@@$1??$defaultMapKeyComparison@G@DataStructures@@YAHABG0@Z@DataStructures@@QAEXI@Z": 187568,
+      "?RemoveAtIndex@?$OrderedList@GUMapNode@?$Map@GPAUFileListReceiver@FileListTransfer@@$1??$defaultMapKeyComparison@G@DataStructures@@YAHABG0@Z@DataStructures@@$1?NodeComparisonFunc@23@SAHABGABU123@@Z@DataStructures@@QAEXI@Z": 186576,
+      "?RemoveAtIndex@?$List@UMapNode@?$Map@GPAUFileListReceiver@FileListTransfer@@$1??$defaultMapKeyComparison@G@DataStructures@@YAHABG0@Z@DataStructures@@@DataStructures@@QAEXI@Z": 186112,
+      "??1FileListReceiver@FileListTransfer@@QAE@XZ": 182944,
+      "??A?$Map@GPAUFileListReceiver@FileListTransfer@@$1??$defaultMapKeyComparison@G@DataStructures@@YAHABG0@Z@DataStructures@@QBEAAPAUFileListReceiver@FileListTransfer@@I@Z": 186320,
+      "??A?$OrderedList@GUMapNode@?$Map@GPAUFileListReceiver@FileListTransfer@@$1??$defaultMapKeyComparison@G@DataStructures@@YAHABG0@Z@DataStructures@@$1?NodeComparisonFunc@23@SAHABGABU123@@Z@DataStructures@@QBEAAUMapNode@?$Map@GPAUFileListReceiver@FileListTransfer@@$1??$defaultMapKeyComparison@G@DataStructures@@YAHABG0@Z@1@I@Z": 185616,
+      "?Size@?$Map@GPAUFileListReceiver@FileListTransfer@@$1??$defaultMapKeyComparison@G@DataStructures@@YAHABG0@Z@DataStructures@@QBEIXZ": 186352,
+      "?Size@?$OrderedList@GUMapNode@?$Map@GPAUFileListReceiver@FileListTransfer@@$1??$defaultMapKeyComparison@G@DataStructures@@YAHABG0@Z@DataStructures@@$1?NodeComparisonFunc@23@SAHABGABU123@@Z@DataStructures@@QBEIXZ": 185648,
+      "?OnDisconnect@FileListTransfer@@UAEXPAVRakPeerInterface@@@Z": 188832,
+      "?Clear@FileListTransfer@@IAEXXZ": 187104,
+      "?Clear@?$Map@GPAUFileListReceiver@FileListTransfer@@$1??$defaultMapKeyComparison@G@DataStructures@@YAHABG0@Z@DataStructures@@QAEXXZ": 186336,
+      "?Clear@?$OrderedList@GUMapNode@?$Map@GPAUFileListReceiver@FileListTransfer@@$1??$defaultMapKeyComparison@G@DataStructures@@YAHABG0@Z@DataStructures@@$1?NodeComparisonFunc@23@SAHABGABU123@@Z@DataStructures@@QAEXXZ": 185632,
+      "?Clear@?$List@UMapNode@?$Map@GPAUFileListReceiver@FileListTransfer@@$1??$defaultMapKeyComparison@G@DataStructures@@YAHABG0@Z@DataStructures@@@DataStructures@@QAEX_N@Z": 183712,
+      "??1FileListTransfer@@QAE@XZ": 187664,
+      "??1?$Map@GPAUFileListReceiver@FileListTransfer@@$1??$defaultMapKeyComparison@G@DataStructures@@YAHABG0@Z@DataStructures@@QAE@XZ": 187232,
+      "??1?$OrderedList@GUMapNode@?$Map@GPAUFileListReceiver@FileListTransfer@@$1??$defaultMapKeyComparison@G@DataStructures@@YAHABG0@Z@DataStructures@@$1?NodeComparisonFunc@23@SAHABGABU123@@Z@DataStructures@@QAE@XZ": 186368,
+      "??1?$List@UMapNode@?$Map@GPAUFileListReceiver@FileListTransfer@@$1??$defaultMapKeyComparison@G@DataStructures@@YAHABG0@Z@DataStructures@@@DataStructures@@QAE@XZ": 183648,
+      "?OnReceive@FileListTransfer@@UAE?AW4PluginReceiveResult@@PAVRakPeerInterface@@PAUPacket@@@Z": 189008,
+      "?DecodeFile@FileListTransfer@@IAE_NPAUPacket@@_N@Z": 188048,
+      "?Delete@?$Map@GPAUFileListReceiver@FileListTransfer@@$1??$defaultMapKeyComparison@G@DataStructures@@YAHABG0@Z@DataStructures@@QAE_NABG@Z": 187472,
+      "?GetIndexFromKey@?$OrderedList@GUMapNode@?$Map@GPAUFileListReceiver@FileListTransfer@@$1??$defaultMapKeyComparison@G@DataStructures@@YAHABG0@Z@DataStructures@@$1?NodeComparisonFunc@23@SAHABGABU123@@Z@DataStructures@@QBEIABGPA_N@Z": 185456,
+      "??$defaultMapKeyComparison@G@DataStructures@@YAHABG0@Z": 182976,
+      "?HasSavedSearchResult@?$Map@GPAUFileListReceiver@FileListTransfer@@$1??$defaultMapKeyComparison@G@DataStructures@@YAHABG0@Z@DataStructures@@IBE_NABG@Z": 183568,
+      "?Get@?$Map@GPAUFileListReceiver@FileListTransfer@@$1??$defaultMapKeyComparison@G@DataStructures@@YAHABG0@Z@DataStructures@@QAEAAPAUFileListReceiver@FileListTransfer@@ABG@Z": 186176,
+      "?SaveLastSearch@?$Map@GPAUFileListReceiver@FileListTransfer@@$1??$defaultMapKeyComparison@G@DataStructures@@YAHABG0@Z@DataStructures@@IAEXABGI@Z": 183536,
+      "?Has@?$Map@GPAUFileListReceiver@FileListTransfer@@$1??$defaultMapKeyComparison@G@DataStructures@@YAHABG0@Z@DataStructures@@QAE_NABG@Z": 186256,
+      "?DecodeSetHeader@FileListTransfer@@IAE_NPAUPacket@@@Z": 186592,
+      "?SetupReceive@FileListTransfer@@QAEGPAVFileListTransferCBInterface@@_NUPlayerID@@@Z": 187744,
+      "?Set@?$Map@GPAUFileListReceiver@FileListTransfer@@$1??$defaultMapKeyComparison@G@DataStructures@@YAHABG0@Z@DataStructures@@QAEXABGABQAUFileListReceiver@FileListTransfer@@@Z": 187312,
+      "?Insert@?$OrderedList@GUMapNode@?$Map@GPAUFileListReceiver@FileListTransfer@@$1??$defaultMapKeyComparison@G@DataStructures@@YAHABG0@Z@DataStructures@@$1?NodeComparisonFunc@23@SAHABGABU123@@Z@DataStructures@@QAEIABGABUMapNode@?$Map@GPAUFileListReceiver@FileListTransfer@@$1??$defaultMapKeyComparison@G@DataStructures@@YAHABG0@Z@2@@Z": 186448,
+      "?Insert@?$List@UMapNode@?$Map@GPAUFileListReceiver@FileListTransfer@@$1??$defaultMapKeyComparison@G@DataStructures@@YAHABG0@Z@DataStructures@@@DataStructures@@QAEXUMapNode@?$Map@GPAUFileListReceiver@FileListTransfer@@$1??$defaultMapKeyComparison@G@DataStructures@@YAHABG0@Z@2@I@Z": 185872,
+      "??0MapNode@?$Map@GPAUFileListReceiver@FileListTransfer@@$1??$defaultMapKeyComparison@G@DataStructures@@YAHABG0@Z@DataStructures@@QAE@XZ": 183824,
+      "?Insert@?$List@UMapNode@?$Map@GPAUFileListReceiver@FileListTransfer@@$1??$defaultMapKeyComparison@G@DataStructures@@YAHABG0@Z@DataStructures@@@DataStructures@@QAEXUMapNode@?$Map@GPAUFileListReceiver@FileListTransfer@@$1??$defaultMapKeyComparison@G@DataStructures@@YAHABG0@Z@2@@Z": 185664,
+      "??0FileListTransfer@@QAE@XZ": 187600,
+      "??0?$Map@GPAUFileListReceiver@FileListTransfer@@$1??$defaultMapKeyComparison@G@DataStructures@@YAHABG0@Z@DataStructures@@QAE@XZ": 187216,
+      "??0?$OrderedList@GUMapNode@?$Map@GPAUFileListReceiver@FileListTransfer@@$1??$defaultMapKeyComparison@G@DataStructures@@YAHABG0@Z@DataStructures@@$1?NodeComparisonFunc@23@SAHABGABU123@@Z@DataStructures@@QAE@XZ": 185440,
+      "??0?$List@UMapNode@?$Map@GPAUFileListReceiver@FileListTransfer@@$1??$defaultMapKeyComparison@G@DataStructures@@YAHABG0@Z@DataStructures@@@DataStructures@@QAE@XZ": 183632,
+      "?Send@FileListTransfer@@QAEXPAVFileList@@PAVRakPeerInterface@@UPlayerID@@GW4PacketPriority@@D_N@Z": 183888,
+      "??1?$Queue@UFileListNode@@@DataStructures@@QAE@XZ": 183072,
+      "?Push@?$Queue@UFileListNode@@@DataStructures@@QAEXABUFileListNode@@@Z": 183104,
+      "??0?$Queue@UFileListNode@@@DataStructures@@QAE@XZ": 183024,
+      "?OnAttach@FileListTransfer@@UAEXPAVRakPeerInterface@@@Z": 182960
+    },
+    "closure_vendor_file_list": {
+      "??1FileList@@QAE@XZ": 178768,
+      "??1?$List@UFileListNode@@@DataStructures@@QAE@XZ": 176608,
+      "?Clear@FileList@@QAEXXZ": 177360,
+      "?Clear@?$List@UFileListNode@@@DataStructures@@QAEX_N@Z": 176800,
+      "?AddFile@FileList@@QAEXPBD0E@Z": 182720,
+      "?AddFile@FileList@@QAEXPBD0IIE@Z": 178848,
+      "?Insert@?$List@UFileListNode@@@DataStructures@@QAEXUFileListNode@@@Z": 176640,
+      "?RemoveAtIndex@?$List@UFileListNode@@@DataStructures@@QAEXI@Z": 178704,
+      "?PopulateDataFromDisk@FileList@@QAEXPBD_N11@Z": 181888,
+      "?ListMissingOrChangedFiles@FileList@@QAEXPBDPAV1@_N2@Z": 181248,
+      "?GetDeltaToCurrent@FileList@@QAEXPAV1@0PBD1@Z": 180736,
+      "?AddFilesFromDirectory@FileList@@QAEXPBD0_N11E@Z": 179200,
+      "??1?$Queue@PAD@DataStructures@@QAE@XZ": 176912,
+      "?Push@?$Queue@PAD@DataStructures@@QAEXABQAD@Z": 176944,
+      "??0?$Queue@PAD@DataStructures@@QAE@XZ": 176864,
+      "?DeleteFiles@FileList@@QAEXPBD@Z": 178464,
+      "?WriteDataToDisk@FileList@@QAEXPBD@Z": 178112,
+      "?Deserialize@FileList@@QAE_NPAVBitStream@RakNet@@@Z": 177712,
+      "?Serialize@FileList@@QAEXPAVBitStream@RakNet@@@Z": 177440
+    },
+    "closure_vendor_file_operations": {
+      "?QuoteIfSpaces@@YAXPAD@Z": 189712,
+      "?DirectoryExists@@YA_NPBD@Z": 189584,
+      "?AddSlash@@YAXPAD@Z": 189520,
+      "?IsSlash@@YA_NE@Z": 189488,
+      "?WriteFileWithDirectories@@YA_NPBDPADI@Z": 189248
+    }
+  },
+  "regions": [
+    {
+      "unit": "closure_vendor_file_list_transfer",
+      "section": 164,
+      "rva": 189216,
+      "size": 28,
+      "kind": ".text",
+      "sha256": "e719719f7ddeb04a06c0ea194e909be846c98bc4f7ff99186b526ff7d9a8a8e1",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "?RemoveReceiver@FileListTransfer@@QAEXUPlayerID@@@Z",
+          "site_rva": 189237,
+          "target_va": 268624304,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_file_list_transfer",
+      "section": 160,
+      "rva": 188848,
+      "size": 145,
+      "kind": ".text",
+      "sha256": "279741aa12da4dc408458ab93b031f47d7e81e1a5ff64332634824fcec74ab84",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "?Size@?$Map@GPAUFileListReceiver@FileListTransfer@@$1??$defaultMapKeyComparison@G@DataStructures@@YAHABG0@Z@DataStructures@@QBEIXZ",
+          "site_rva": 188858,
+          "target_va": 268621808,
+          "kind": 20
+        },
+        {
+          "symbol": "??A?$Map@GPAUFileListReceiver@FileListTransfer@@$1??$defaultMapKeyComparison@G@DataStructures@@YAHABG0@Z@DataStructures@@QBEAAPAUFileListReceiver@FileListTransfer@@I@Z",
+          "site_rva": 188871,
+          "target_va": 268621776,
+          "kind": 20
+        },
+        {
+          "symbol": "??8PlayerID@@QBE_NABU0@@Z",
+          "site_rva": 188886,
+          "target_va": 268646112,
+          "kind": 20
+        },
+        {
+          "symbol": "??A?$Map@GPAUFileListReceiver@FileListTransfer@@$1??$defaultMapKeyComparison@G@DataStructures@@YAHABG0@Z@DataStructures@@QBEAAPAUFileListReceiver@FileListTransfer@@I@Z",
+          "site_rva": 188898,
+          "target_va": 268621776,
+          "kind": 20
+        },
+        {
+          "symbol": "??A?$Map@GPAUFileListReceiver@FileListTransfer@@$1??$defaultMapKeyComparison@G@DataStructures@@YAHABG0@Z@DataStructures@@QBEAAPAUFileListReceiver@FileListTransfer@@I@Z",
+          "site_rva": 188918,
+          "target_va": 268621776,
+          "kind": 20
+        },
+        {
+          "symbol": "??3@YAXPAX@Z",
+          "site_rva": 188928,
+          "target_va": 269247626,
+          "kind": 20
+        },
+        {
+          "symbol": "??A?$Map@GPAUFileListReceiver@FileListTransfer@@$1??$defaultMapKeyComparison@G@DataStructures@@YAHABG0@Z@DataStructures@@QBEAAPAUFileListReceiver@FileListTransfer@@I@Z",
+          "site_rva": 188939,
+          "target_va": 268621776,
+          "kind": 20
+        },
+        {
+          "symbol": "??1FileListReceiver@FileListTransfer@@QAE@XZ",
+          "site_rva": 188952,
+          "target_va": 268618400,
+          "kind": 20
+        },
+        {
+          "symbol": "??3@YAXPAX@Z",
+          "site_rva": 188958,
+          "target_va": 269247626,
+          "kind": 20
+        },
+        {
+          "symbol": "?RemoveAtIndex@?$Map@GPAUFileListReceiver@FileListTransfer@@$1??$defaultMapKeyComparison@G@DataStructures@@YAHABG0@Z@DataStructures@@QAEXI@Z",
+          "site_rva": 188969,
+          "target_va": 268623024,
+          "kind": 20
+        },
+        {
+          "symbol": "?Size@?$Map@GPAUFileListReceiver@FileListTransfer@@$1??$defaultMapKeyComparison@G@DataStructures@@YAHABG0@Z@DataStructures@@QBEIXZ",
+          "site_rva": 188979,
+          "target_va": 268621808,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_file_list_transfer",
+      "section": 141,
+      "rva": 187568,
+      "size": 21,
+      "kind": ".text",
+      "sha256": "03d0b976c4ecd076ef3315f8366c44fda8f05c51187df4e21fd5cf6771eca744",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "?RemoveAtIndex@?$OrderedList@GUMapNode@?$Map@GPAUFileListReceiver@FileListTransfer@@$1??$defaultMapKeyComparison@G@DataStructures@@YAHABG0@Z@DataStructures@@$1?NodeComparisonFunc@23@SAHABGABU123@@Z@DataStructures@@QAEXI@Z",
+          "site_rva": 187577,
+          "target_va": 268622032,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_file_list_transfer",
+      "section": 123,
+      "rva": 186576,
+      "size": 5,
+      "kind": ".text",
+      "sha256": "a872171433cca70a001dd01fe2cde5c28257bc032990360c3f80808037542d03",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "?RemoveAtIndex@?$List@UMapNode@?$Map@GPAUFileListReceiver@FileListTransfer@@$1??$defaultMapKeyComparison@G@DataStructures@@YAHABG0@Z@DataStructures@@@DataStructures@@QAEXI@Z",
+          "site_rva": 186577,
+          "target_va": 268621568,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_file_list_transfer",
+      "section": 105,
+      "rva": 186112,
+      "size": 57,
+      "kind": ".text",
+      "sha256": "48d85df4be6d3c79c0e3deaf2ddf1bf3fd87504e7468aefb20115896984f3ddc",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "_memmove",
+          "site_rva": 186150,
+          "target_va": 269250016,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_file_list_transfer",
+      "section": 18,
+      "rva": 182944,
+      "size": 8,
+      "kind": ".text",
+      "sha256": "f2636d37cc9902083c27cd6be00b27c204dd3b58089cf331f33661abc16cac30",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "??1HuffmanEncodingTree@@QAE@XZ",
+          "site_rva": 182948,
+          "target_va": 268595104,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_file_list_transfer",
+      "section": 111,
+      "rva": 186320,
+      "size": 16,
+      "kind": ".text",
+      "sha256": "290605c386b6f9644d68fbf41233ebd71c0b91ca172aedbd87b3ea521bea6608",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "??A?$OrderedList@GUMapNode@?$Map@GPAUFileListReceiver@FileListTransfer@@$1??$defaultMapKeyComparison@G@DataStructures@@YAHABG0@Z@DataStructures@@$1?NodeComparisonFunc@23@SAHABGABU123@@Z@DataStructures@@QBEAAUMapNode@?$Map@GPAUFileListReceiver@FileListTransfer@@$1??$defaultMapKeyComparison@G@DataStructures@@YAHABG0@Z@1@I@Z",
+          "site_rva": 186326,
+          "target_va": 268621072,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_file_list_transfer",
+      "section": 91,
+      "rva": 185616,
+      "size": 15,
+      "kind": ".text",
+      "sha256": "15c8590271d1466ccc322b747e8be95488d35d605480cbcd00c63c2c30c40895",
+      "whole_bytes_equal": true,
+      "bindings": []
+    },
+    {
+      "unit": "closure_vendor_file_list_transfer",
+      "section": 115,
+      "rva": 186352,
+      "size": 5,
+      "kind": ".text",
+      "sha256": "ff68dfa2fe6889e391736ca3cf38d69d79a33671a0dbd356abda2aae64bfb3c2",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "?Size@?$OrderedList@GUMapNode@?$Map@GPAUFileListReceiver@FileListTransfer@@$1??$defaultMapKeyComparison@G@DataStructures@@YAHABG0@Z@DataStructures@@$1?NodeComparisonFunc@23@SAHABGABU123@@Z@DataStructures@@QBEIXZ",
+          "site_rva": 186353,
+          "target_va": 268621104,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_file_list_transfer",
+      "section": 95,
+      "rva": 185648,
+      "size": 4,
+      "kind": ".text",
+      "sha256": "f7e0208f5e988ae39c7a45dfddbd12921d02f9c3deb5695d4c534c8ab0ccdb0f",
+      "whole_bytes_equal": true,
+      "bindings": []
+    },
+    {
+      "unit": "closure_vendor_file_list_transfer",
+      "section": 158,
+      "rva": 188832,
+      "size": 8,
+      "kind": ".text",
+      "sha256": "29df4a5f788afc4bb306d842238173925fa036247fc4edd2222113c0c1f64972",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "?Clear@FileListTransfer@@IAEXXZ",
+          "site_rva": 188833,
+          "target_va": 268622560,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_file_list_transfer",
+      "section": 129,
+      "rva": 187104,
+      "size": 112,
+      "kind": ".text",
+      "sha256": "65235b2b5cd3aaf6d321d886e4ce904aca98325808174538d1a76b7a4fa27282",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "?Size@?$Map@GPAUFileListReceiver@FileListTransfer@@$1??$defaultMapKeyComparison@G@DataStructures@@YAHABG0@Z@DataStructures@@QBEIXZ",
+          "site_rva": 187114,
+          "target_va": 268621808,
+          "kind": 20
+        },
+        {
+          "symbol": "??A?$Map@GPAUFileListReceiver@FileListTransfer@@$1??$defaultMapKeyComparison@G@DataStructures@@YAHABG0@Z@DataStructures@@QBEAAPAUFileListReceiver@FileListTransfer@@I@Z",
+          "site_rva": 187127,
+          "target_va": 268621776,
+          "kind": 20
+        },
+        {
+          "symbol": "??A?$Map@GPAUFileListReceiver@FileListTransfer@@$1??$defaultMapKeyComparison@G@DataStructures@@YAHABG0@Z@DataStructures@@QBEAAPAUFileListReceiver@FileListTransfer@@I@Z",
+          "site_rva": 187147,
+          "target_va": 268621776,
+          "kind": 20
+        },
+        {
+          "symbol": "??3@YAXPAX@Z",
+          "site_rva": 187157,
+          "target_va": 269247626,
+          "kind": 20
+        },
+        {
+          "symbol": "??A?$Map@GPAUFileListReceiver@FileListTransfer@@$1??$defaultMapKeyComparison@G@DataStructures@@YAHABG0@Z@DataStructures@@QBEAAPAUFileListReceiver@FileListTransfer@@I@Z",
+          "site_rva": 187168,
+          "target_va": 268621776,
+          "kind": 20
+        },
+        {
+          "symbol": "??1FileListReceiver@FileListTransfer@@QAE@XZ",
+          "site_rva": 187181,
+          "target_va": 268618400,
+          "kind": 20
+        },
+        {
+          "symbol": "??3@YAXPAX@Z",
+          "site_rva": 187187,
+          "target_va": 269247626,
+          "kind": 20
+        },
+        {
+          "symbol": "?Size@?$Map@GPAUFileListReceiver@FileListTransfer@@$1??$defaultMapKeyComparison@G@DataStructures@@YAHABG0@Z@DataStructures@@QBEIXZ",
+          "site_rva": 187198,
+          "target_va": 268621808,
+          "kind": 20
+        },
+        {
+          "symbol": "?Clear@?$Map@GPAUFileListReceiver@FileListTransfer@@$1??$defaultMapKeyComparison@G@DataStructures@@YAHABG0@Z@DataStructures@@QAEXXZ",
+          "site_rva": 187212,
+          "target_va": 268621792,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_file_list_transfer",
+      "section": 113,
+      "rva": 186336,
+      "size": 9,
+      "kind": ".text",
+      "sha256": "f6e55d901f63a404226933718d93af7085a79e3f298ca14684d3d3bc4265f472",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "?Clear@?$OrderedList@GUMapNode@?$Map@GPAUFileListReceiver@FileListTransfer@@$1??$defaultMapKeyComparison@G@DataStructures@@YAHABG0@Z@DataStructures@@$1?NodeComparisonFunc@23@SAHABGABU123@@Z@DataStructures@@QAEXXZ",
+          "site_rva": 186341,
+          "target_va": 268621088,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_file_list_transfer",
+      "section": 93,
+      "rva": 185632,
+      "size": 8,
+      "kind": ".text",
+      "sha256": "8b2b5f5510f696f6256b7c4a21772ff87311f6d4f4b113885210ae5b87ddbeb8",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "?Clear@?$List@UMapNode@?$Map@GPAUFileListReceiver@FileListTransfer@@$1??$defaultMapKeyComparison@G@DataStructures@@YAHABG0@Z@DataStructures@@@DataStructures@@QAEX_N@Z",
+          "site_rva": 185635,
+          "target_va": 268619168,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_file_list_transfer",
+      "section": 68,
+      "rva": 183712,
+      "size": 60,
+      "kind": ".text",
+      "sha256": "1210a4b9ae05addff8cfc2c84856868dd189122fd19d9c25136954537eaba578",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "??3@YAXPAX@Z",
+          "site_rva": 183741,
+          "target_va": 269247626,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_file_list_transfer",
+      "section": 146,
+      "rva": 187664,
+      "size": 80,
+      "kind": ".text",
+      "sha256": "61e623b429a582a7d5efe4e31d71466f0439cd0a900d8dd4b3a337b3999f462b",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "__ehhandler$??1FileListTransfer@@QAE@XZ",
+          "site_rva": 187667,
+          "target_va": 269361019,
+          "kind": 6
+        },
+        {
+          "symbol": "__except_list",
+          "site_rva": 187673,
+          "target_va": 0,
+          "kind": 6
+        },
+        {
+          "symbol": "__except_list",
+          "site_rva": 187681,
+          "target_va": 0,
+          "kind": 6
+        },
+        {
+          "symbol": "??_7FileListTransfer@@6B@",
+          "site_rva": 187695,
+          "target_va": 269381012,
+          "kind": 6
+        },
+        {
+          "symbol": "?Clear@FileListTransfer@@IAEXXZ",
+          "site_rva": 187708,
+          "target_va": 268622560,
+          "kind": 20
+        },
+        {
+          "symbol": "??1?$Map@GPAUFileListReceiver@FileListTransfer@@$1??$defaultMapKeyComparison@G@DataStructures@@YAHABG0@Z@DataStructures@@QAE@XZ",
+          "site_rva": 187724,
+          "target_va": 268622688,
+          "kind": 20
+        },
+        {
+          "symbol": "__except_list",
+          "site_rva": 187736,
+          "target_va": 0,
+          "kind": 6
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_file_list_transfer",
+      "section": 133,
+      "rva": 187232,
+      "size": 73,
+      "kind": ".text",
+      "sha256": "be0ef3ecfba54c8109f9495c81215920154e8f6e7f23a57e89843d5103884c4f",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "__ehhandler$??1?$Map@GPAUFileListReceiver@FileListTransfer@@$1??$defaultMapKeyComparison@G@DataStructures@@YAHABG0@Z@DataStructures@@QAE@XZ",
+          "site_rva": 187235,
+          "target_va": 269360984,
+          "kind": 6
+        },
+        {
+          "symbol": "__except_list",
+          "site_rva": 187241,
+          "target_va": 0,
+          "kind": 6
+        },
+        {
+          "symbol": "__except_list",
+          "site_rva": 187249,
+          "target_va": 0,
+          "kind": 6
+        },
+        {
+          "symbol": "?Clear@?$Map@GPAUFileListReceiver@FileListTransfer@@$1??$defaultMapKeyComparison@G@DataStructures@@YAHABG0@Z@DataStructures@@QAEXXZ",
+          "site_rva": 187270,
+          "target_va": 268621792,
+          "kind": 20
+        },
+        {
+          "symbol": "??1?$OrderedList@GUMapNode@?$Map@GPAUFileListReceiver@FileListTransfer@@$1??$defaultMapKeyComparison@G@DataStructures@@YAHABG0@Z@DataStructures@@$1?NodeComparisonFunc@23@SAHABGABU123@@Z@DataStructures@@QAE@XZ",
+          "site_rva": 187285,
+          "target_va": 268621824,
+          "kind": 20
+        },
+        {
+          "symbol": "__except_list",
+          "site_rva": 187297,
+          "target_va": 0,
+          "kind": 6
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_file_list_transfer",
+      "section": 117,
+      "rva": 186368,
+      "size": 73,
+      "kind": ".text",
+      "sha256": "54398ee23b2f1df96b686a115e8afd14abcb0deadb0f7340c7bfd69900d23004",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "__ehhandler$??1?$OrderedList@GUMapNode@?$Map@GPAUFileListReceiver@FileListTransfer@@$1??$defaultMapKeyComparison@G@DataStructures@@YAHABG0@Z@DataStructures@@$1?NodeComparisonFunc@23@SAHABGABU123@@Z@DataStructures@@QAE@XZ",
+          "site_rva": 186371,
+          "target_va": 269360920,
+          "kind": 6
+        },
+        {
+          "symbol": "__except_list",
+          "site_rva": 186377,
+          "target_va": 0,
+          "kind": 6
+        },
+        {
+          "symbol": "__except_list",
+          "site_rva": 186385,
+          "target_va": 0,
+          "kind": 6
+        },
+        {
+          "symbol": "?Clear@?$OrderedList@GUMapNode@?$Map@GPAUFileListReceiver@FileListTransfer@@$1??$defaultMapKeyComparison@G@DataStructures@@YAHABG0@Z@DataStructures@@$1?NodeComparisonFunc@23@SAHABGABU123@@Z@DataStructures@@QAEXXZ",
+          "site_rva": 186406,
+          "target_va": 268621088,
+          "kind": 20
+        },
+        {
+          "symbol": "??1?$List@UMapNode@?$Map@GPAUFileListReceiver@FileListTransfer@@$1??$defaultMapKeyComparison@G@DataStructures@@YAHABG0@Z@DataStructures@@@DataStructures@@QAE@XZ",
+          "site_rva": 186421,
+          "target_va": 268619104,
+          "kind": 20
+        },
+        {
+          "symbol": "__except_list",
+          "site_rva": 186433,
+          "target_va": 0,
+          "kind": 6
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_file_list_transfer",
+      "section": 62,
+      "rva": 183648,
+      "size": 17,
+      "kind": ".text",
+      "sha256": "9d4a9deddfd6bdb0cd393d6bec5559642a3bb3d398a216ae0235a77b28ae449d",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "??3@YAXPAX@Z",
+          "site_rva": 183659,
+          "target_va": 269247626,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_file_list_transfer",
+      "section": 162,
+      "rva": 189008,
+      "size": 201,
+      "kind": ".text",
+      "sha256": "82bebbd21dfd70d9b01d7a0e90252892ef9b2ed52dc626546fe1bb027cba9b9a",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "$L4937",
+          "site_rva": 189030,
+          "target_va": 268624604,
+          "kind": 6
+        },
+        {
+          "symbol": "$L4938",
+          "site_rva": 189037,
+          "target_va": 268624584,
+          "kind": 6
+        },
+        {
+          "symbol": "?RemoveReceiver@FileListTransfer@@QAEXUPlayerID@@@Z",
+          "site_rva": 189062,
+          "target_va": 268624304,
+          "kind": 20
+        },
+        {
+          "symbol": "?DecodeSetHeader@FileListTransfer@@IAE_NPAUPacket@@@Z",
+          "site_rva": 189077,
+          "target_va": 268622048,
+          "kind": 20
+        },
+        {
+          "symbol": "?DecodeFile@FileListTransfer@@IAE_NPAUPacket@@_N@Z",
+          "site_rva": 189091,
+          "target_va": 268623504,
+          "kind": 20
+        },
+        {
+          "symbol": "?DecodeFile@FileListTransfer@@IAE_NPAUPacket@@_N@Z",
+          "site_rva": 189117,
+          "target_va": 268623504,
+          "kind": 20
+        },
+        {
+          "symbol": "$L3592",
+          "site_rva": 189128,
+          "target_va": 268624497,
+          "kind": 6
+        },
+        {
+          "symbol": "$L3593",
+          "site_rva": 189132,
+          "target_va": 268624531,
+          "kind": 6
+        },
+        {
+          "symbol": "$L3594",
+          "site_rva": 189136,
+          "target_va": 268624543,
+          "kind": 6
+        },
+        {
+          "symbol": "$L3595",
+          "site_rva": 189140,
+          "target_va": 268624557,
+          "kind": 6
+        },
+        {
+          "symbol": "$L3600",
+          "site_rva": 189144,
+          "target_va": 268624522,
+          "kind": 6
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_file_list_transfer",
+      "section": 154,
+      "rva": 188048,
+      "size": 779,
+      "kind": ".text",
+      "sha256": "715bc536baf0e079b9a841e38af066aeeb82bf47e08d25fe54482657e1d15ec5",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "__ehhandler$?DecodeFile@FileListTransfer@@IAE_NPAUPacket@@_N@Z",
+          "site_rva": 188051,
+          "target_va": 269361083,
+          "kind": 6
+        },
+        {
+          "symbol": "__except_list",
+          "site_rva": 188057,
+          "target_va": 0,
+          "kind": 6
+        },
+        {
+          "symbol": "__except_list",
+          "site_rva": 188065,
+          "target_va": 0,
+          "kind": 6
+        },
+        {
+          "symbol": "??0BitStream@RakNet@@QAE@PAEI_N@Z",
+          "site_rva": 188102,
+          "target_va": 268564416,
+          "kind": 20
+        },
+        {
+          "symbol": "?IgnoreBits@BitStream@RakNet@@QAEXH@Z",
+          "site_rva": 188124,
+          "target_va": 268565744,
+          "kind": 20
+        },
+        {
+          "symbol": "?ReadBits@BitStream@RakNet@@QAE_NPAEH_N@Z",
+          "site_rva": 188153,
+          "target_va": 268564912,
+          "kind": 20
+        },
+        {
+          "symbol": "?ReadBits@BitStream@RakNet@@QAE_NPAEH_N@Z",
+          "site_rva": 188171,
+          "target_va": 268564912,
+          "kind": 20
+        },
+        {
+          "symbol": "?ReadBits@BitStream@RakNet@@QAE_NPAEH_N@Z",
+          "site_rva": 188189,
+          "target_va": 268564912,
+          "kind": 20
+        },
+        {
+          "symbol": "?IgnoreBits@BitStream@RakNet@@QAEXH@Z",
+          "site_rva": 188200,
+          "target_va": 268565744,
+          "kind": 20
+        },
+        {
+          "symbol": "?ReadBits@BitStream@RakNet@@QAE_NPAEH_N@Z",
+          "site_rva": 188218,
+          "target_va": 268564912,
+          "kind": 20
+        },
+        {
+          "symbol": "?ReadBits@BitStream@RakNet@@QAE_NPAEH_N@Z",
+          "site_rva": 188236,
+          "target_va": 268564912,
+          "kind": 20
+        },
+        {
+          "symbol": "?Has@?$Map@GPAUFileListReceiver@FileListTransfer@@$1??$defaultMapKeyComparison@G@DataStructures@@YAHABG0@Z@DataStructures@@QAE_NABG@Z",
+          "site_rva": 188251,
+          "target_va": 268621712,
+          "kind": 20
+        },
+        {
+          "symbol": "??1BitStream@RakNet@@QAE@XZ",
+          "site_rva": 188275,
+          "target_va": 268564688,
+          "kind": 20
+        },
+        {
+          "symbol": "?Get@?$Map@GPAUFileListReceiver@FileListTransfer@@$1??$defaultMapKeyComparison@G@DataStructures@@YAHABG0@Z@DataStructures@@QAEAAPAUFileListReceiver@FileListTransfer@@ABG@Z",
+          "site_rva": 188294,
+          "target_va": 268621632,
+          "kind": 20
+        },
+        {
+          "symbol": "??9PlayerID@@QBE_NABU0@@Z",
+          "site_rva": 188308,
+          "target_va": 268646160,
+          "kind": 20
+        },
+        {
+          "symbol": "??1BitStream@RakNet@@QAE@XZ",
+          "site_rva": 188332,
+          "target_va": 268564688,
+          "kind": 20
+        },
+        {
+          "symbol": "?ReadCompressed@BitStream@RakNet@@AAE_NPAEH_N@Z",
+          "site_rva": 188354,
+          "target_va": 268565104,
+          "kind": 20
+        },
+        {
+          "symbol": "?ReadCompressed@BitStream@RakNet@@AAE_NPAEH_N@Z",
+          "site_rva": 188372,
+          "target_va": 268565104,
+          "kind": 20
+        },
+        {
+          "symbol": "?ReadCompressed@BitStream@RakNet@@AAE_NPAEH_N@Z",
+          "site_rva": 188400,
+          "target_va": 268565104,
+          "kind": 20
+        },
+        {
+          "symbol": "?Instance@StringCompressor@@SAPAV1@XZ",
+          "site_rva": 188441,
+          "target_va": 268778544,
+          "kind": 20
+        },
+        {
+          "symbol": "?DecodeString@StringCompressor@@QAE_NPADHPAVBitStream@RakNet@@H@Z",
+          "site_rva": 188448,
+          "target_va": 268780240,
+          "kind": 20
+        },
+        {
+          "symbol": "??2@YAPAXI@Z",
+          "site_rva": 188477,
+          "target_va": 269247098,
+          "kind": 20
+        },
+        {
+          "symbol": "?DecodeArray@HuffmanEncodingTree@@QAEIPAVBitStream@RakNet@@IIPAE@Z",
+          "site_rva": 188516,
+          "target_va": 268593008,
+          "kind": 20
+        },
+        {
+          "symbol": "??3@YAXPAX@Z",
+          "site_rva": 188528,
+          "target_va": 269247626,
+          "kind": 20
+        },
+        {
+          "symbol": "??1BitStream@RakNet@@QAE@XZ",
+          "site_rva": 188551,
+          "target_va": 268564688,
+          "kind": 20
+        },
+        {
+          "symbol": "?Read@BitStream@RakNet@@QAE_NPADH@Z",
+          "site_rva": 188569,
+          "target_va": 268566176,
+          "kind": 20
+        },
+        {
+          "symbol": "??3@YAXPAX@Z",
+          "site_rva": 188632,
+          "target_va": 269247626,
+          "kind": 20
+        },
+        {
+          "symbol": "??3@YAXPAX@Z",
+          "site_rva": 188668,
+          "target_va": 269247626,
+          "kind": 20
+        },
+        {
+          "symbol": "??1HuffmanEncodingTree@@QAE@XZ",
+          "site_rva": 188679,
+          "target_va": 268595104,
+          "kind": 20
+        },
+        {
+          "symbol": "??3@YAXPAX@Z",
+          "site_rva": 188685,
+          "target_va": 269247626,
+          "kind": 20
+        },
+        {
+          "symbol": "?Delete@?$Map@GPAUFileListReceiver@FileListTransfer@@$1??$defaultMapKeyComparison@G@DataStructures@@YAHABG0@Z@DataStructures@@QAE_NABG@Z",
+          "site_rva": 188700,
+          "target_va": 268622928,
+          "kind": 20
+        },
+        {
+          "symbol": "??1BitStream@RakNet@@QAE@XZ",
+          "site_rva": 188794,
+          "target_va": 268564688,
+          "kind": 20
+        },
+        {
+          "symbol": "__except_list",
+          "site_rva": 188814,
+          "target_va": 0,
+          "kind": 6
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_file_list_transfer",
+      "section": 139,
+      "rva": 187472,
+      "size": 87,
+      "kind": ".text",
+      "sha256": "d6709e6b92db8c71b92f78e64e74125fe407462054d810393777c03eb8f8d955",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "?HasSavedSearchResult@?$Map@GPAUFileListReceiver@FileListTransfer@@$1??$defaultMapKeyComparison@G@DataStructures@@YAHABG0@Z@DataStructures@@IBE_NABG@Z",
+          "site_rva": 187482,
+          "target_va": 268619024,
+          "kind": 20
+        },
+        {
+          "symbol": "?RemoveAtIndex@?$OrderedList@GUMapNode@?$Map@GPAUFileListReceiver@FileListTransfer@@$1??$defaultMapKeyComparison@G@DataStructures@@YAHABG0@Z@DataStructures@@$1?NodeComparisonFunc@23@SAHABGABU123@@Z@DataStructures@@QAEXI@Z",
+          "site_rva": 187501,
+          "target_va": 268622032,
+          "kind": 20
+        },
+        {
+          "symbol": "?GetIndexFromKey@?$OrderedList@GUMapNode@?$Map@GPAUFileListReceiver@FileListTransfer@@$1??$defaultMapKeyComparison@G@DataStructures@@YAHABG0@Z@DataStructures@@$1?NodeComparisonFunc@23@SAHABGABU123@@Z@DataStructures@@QBEIABGPA_N@Z",
+          "site_rva": 187521,
+          "target_va": 268620912,
+          "kind": 20
+        },
+        {
+          "symbol": "?RemoveAtIndex@?$OrderedList@GUMapNode@?$Map@GPAUFileListReceiver@FileListTransfer@@$1??$defaultMapKeyComparison@G@DataStructures@@YAHABG0@Z@DataStructures@@$1?NodeComparisonFunc@23@SAHABGABU123@@Z@DataStructures@@QAEXI@Z",
+          "site_rva": 187541,
+          "target_va": 268622032,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_file_list_transfer",
+      "section": 89,
+      "rva": 185456,
+      "size": 147,
+      "kind": ".text",
+      "sha256": "ff247467b5bb4338e7671099227cd73dbe9fefd06207d48c41512f73b2309a68",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "??$defaultMapKeyComparison@G@DataStructures@@YAHABG0@Z",
+          "site_rva": 185509,
+          "target_va": 268618432,
+          "kind": 20
+        },
+        {
+          "symbol": "??$defaultMapKeyComparison@G@DataStructures@@YAHABG0@Z",
+          "site_rva": 185560,
+          "target_va": 268618432,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_file_list_transfer",
+      "section": 22,
+      "rva": 182976,
+      "size": 36,
+      "kind": ".text",
+      "sha256": "65f2cbcab48c373d52f317cd44badee8f0a30c7f53417e34b6088ce4430dfb96",
+      "whole_bytes_equal": true,
+      "bindings": []
+    },
+    {
+      "unit": "closure_vendor_file_list_transfer",
+      "section": 56,
+      "rva": 183568,
+      "size": 41,
+      "kind": ".text",
+      "sha256": "21979d2503bb1643001450f32c08b66c018947385e3a6d2db5cb2efa6f0eb462",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "??$defaultMapKeyComparison@G@DataStructures@@YAHABG0@Z",
+          "site_rva": 183585,
+          "target_va": 268618432,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_file_list_transfer",
+      "section": 107,
+      "rva": 186176,
+      "size": 79,
+      "kind": ".text",
+      "sha256": "66bf2857171115cca4c8f395e65ec966862db2a59104d53a199c8d116c6e26f2",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "?HasSavedSearchResult@?$Map@GPAUFileListReceiver@FileListTransfer@@$1??$defaultMapKeyComparison@G@DataStructures@@YAHABG0@Z@DataStructures@@IBE_NABG@Z",
+          "site_rva": 186186,
+          "target_va": 268619024,
+          "kind": 20
+        },
+        {
+          "symbol": "??A?$OrderedList@GUMapNode@?$Map@GPAUFileListReceiver@FileListTransfer@@$1??$defaultMapKeyComparison@G@DataStructures@@YAHABG0@Z@DataStructures@@$1?NodeComparisonFunc@23@SAHABGABU123@@Z@DataStructures@@QBEAAUMapNode@?$Map@GPAUFileListReceiver@FileListTransfer@@$1??$defaultMapKeyComparison@G@DataStructures@@YAHABG0@Z@1@I@Z",
+          "site_rva": 186201,
+          "target_va": 268621072,
+          "kind": 20
+        },
+        {
+          "symbol": "?GetIndexFromKey@?$OrderedList@GUMapNode@?$Map@GPAUFileListReceiver@FileListTransfer@@$1??$defaultMapKeyComparison@G@DataStructures@@YAHABG0@Z@DataStructures@@$1?NodeComparisonFunc@23@SAHABGABU123@@Z@DataStructures@@QBEIABGPA_N@Z",
+          "site_rva": 186223,
+          "target_va": 268620912,
+          "kind": 20
+        },
+        {
+          "symbol": "?SaveLastSearch@?$Map@GPAUFileListReceiver@FileListTransfer@@$1??$defaultMapKeyComparison@G@DataStructures@@YAHABG0@Z@DataStructures@@IAEXABGI@Z",
+          "site_rva": 186234,
+          "target_va": 268618992,
+          "kind": 20
+        },
+        {
+          "symbol": "??A?$OrderedList@GUMapNode@?$Map@GPAUFileListReceiver@FileListTransfer@@$1??$defaultMapKeyComparison@G@DataStructures@@YAHABG0@Z@DataStructures@@$1?NodeComparisonFunc@23@SAHABGABU123@@Z@DataStructures@@QBEAAUMapNode@?$Map@GPAUFileListReceiver@FileListTransfer@@$1??$defaultMapKeyComparison@G@DataStructures@@YAHABG0@Z@1@I@Z",
+          "site_rva": 186242,
+          "target_va": 268621072,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_file_list_transfer",
+      "section": 54,
+      "rva": 183536,
+      "size": 25,
+      "kind": ".text",
+      "sha256": "05cc91a1d97c8dbd8cc3966372dcf5caf70ffd943b3698c52e201302668438b6",
+      "whole_bytes_equal": true,
+      "bindings": []
+    },
+    {
+      "unit": "closure_vendor_file_list_transfer",
+      "section": 109,
+      "rva": 186256,
+      "size": 64,
+      "kind": ".text",
+      "sha256": "8715a38b7be3d38fa3bb4b29601e14a6d2cabfd276eb6ec1071f78d173538af2",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "?HasSavedSearchResult@?$Map@GPAUFileListReceiver@FileListTransfer@@$1??$defaultMapKeyComparison@G@DataStructures@@YAHABG0@Z@DataStructures@@IBE_NABG@Z",
+          "site_rva": 186266,
+          "target_va": 268619024,
+          "kind": 20
+        },
+        {
+          "symbol": "?GetIndexFromKey@?$OrderedList@GUMapNode@?$Map@GPAUFileListReceiver@FileListTransfer@@$1??$defaultMapKeyComparison@G@DataStructures@@YAHABG0@Z@DataStructures@@$1?NodeComparisonFunc@23@SAHABGABU123@@Z@DataStructures@@QBEIABGPA_N@Z",
+          "site_rva": 186291,
+          "target_va": 268620912,
+          "kind": 20
+        },
+        {
+          "symbol": "?SaveLastSearch@?$Map@GPAUFileListReceiver@FileListTransfer@@$1??$defaultMapKeyComparison@G@DataStructures@@YAHABG0@Z@DataStructures@@IAEXABGI@Z",
+          "site_rva": 186308,
+          "target_va": 268618992,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_file_list_transfer",
+      "section": 125,
+      "rva": 186592,
+      "size": 498,
+      "kind": ".text",
+      "sha256": "202832a052e38d6a7888eff1e6bce896a646212c2e6ea6bd6af06441e8d31ab8",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "__ehhandler$?DecodeSetHeader@FileListTransfer@@IAE_NPAUPacket@@@Z",
+          "site_rva": 186595,
+          "target_va": 269360955,
+          "kind": 6
+        },
+        {
+          "symbol": "__except_list",
+          "site_rva": 186601,
+          "target_va": 0,
+          "kind": 6
+        },
+        {
+          "symbol": "__except_list",
+          "site_rva": 186609,
+          "target_va": 0,
+          "kind": 6
+        },
+        {
+          "symbol": "??0BitStream@RakNet@@QAE@PAEI_N@Z",
+          "site_rva": 186645,
+          "target_va": 268564416,
+          "kind": 20
+        },
+        {
+          "symbol": "?IgnoreBits@BitStream@RakNet@@QAEXH@Z",
+          "site_rva": 186667,
+          "target_va": 268565744,
+          "kind": 20
+        },
+        {
+          "symbol": "?ReadBits@BitStream@RakNet@@QAE_NPAEH_N@Z",
+          "site_rva": 186685,
+          "target_va": 268564912,
+          "kind": 20
+        },
+        {
+          "symbol": "?Has@?$Map@GPAUFileListReceiver@FileListTransfer@@$1??$defaultMapKeyComparison@G@DataStructures@@YAHABG0@Z@DataStructures@@QAE_NABG@Z",
+          "site_rva": 186700,
+          "target_va": 268621712,
+          "kind": 20
+        },
+        {
+          "symbol": "?Get@?$Map@GPAUFileListReceiver@FileListTransfer@@$1??$defaultMapKeyComparison@G@DataStructures@@YAHABG0@Z@DataStructures@@QAEAAPAUFileListReceiver@FileListTransfer@@ABG@Z",
+          "site_rva": 186720,
+          "target_va": 268621632,
+          "kind": 20
+        },
+        {
+          "symbol": "??9PlayerID@@QBE_NABU0@@Z",
+          "site_rva": 186734,
+          "target_va": 268646160,
+          "kind": 20
+        },
+        {
+          "symbol": "??1BitStream@RakNet@@QAE@XZ",
+          "site_rva": 186758,
+          "target_va": 268564688,
+          "kind": 20
+        },
+        {
+          "symbol": "??$Read@_N@BitStream@RakNet@@QAE_NAA_N@Z",
+          "site_rva": 186775,
+          "target_va": 268469280,
+          "kind": 20
+        },
+        {
+          "symbol": "??$Read@_N@BitStream@RakNet@@QAE_NAA_N@Z",
+          "site_rva": 186803,
+          "target_va": 268469280,
+          "kind": 20
+        },
+        {
+          "symbol": "?ReadCompressed@BitStream@RakNet@@AAE_NPAEH_N@Z",
+          "site_rva": 186842,
+          "target_va": 268565104,
+          "kind": 20
+        },
+        {
+          "symbol": "?GenerateFromFrequencyTable@HuffmanEncodingTree@@QAEXQAI@Z",
+          "site_rva": 186864,
+          "target_va": 268595136,
+          "kind": 20
+        },
+        {
+          "symbol": "?ReadCompressed@BitStream@RakNet@@AAE_NPAEH_N@Z",
+          "site_rva": 186884,
+          "target_va": 268565104,
+          "kind": 20
+        },
+        {
+          "symbol": "?ReadCompressed@BitStream@RakNet@@AAE_NPAEH_N@Z",
+          "site_rva": 186904,
+          "target_va": 268565104,
+          "kind": 20
+        },
+        {
+          "symbol": "?ReadCompressed@BitStream@RakNet@@AAE_NPAEH_N@Z",
+          "site_rva": 186924,
+          "target_va": 268565104,
+          "kind": 20
+        },
+        {
+          "symbol": "?ReadCompressed@BitStream@RakNet@@AAE_NPAEH_N@Z",
+          "site_rva": 186958,
+          "target_va": 268565104,
+          "kind": 20
+        },
+        {
+          "symbol": "?ReadCompressed@BitStream@RakNet@@AAE_NPAEH_N@Z",
+          "site_rva": 186978,
+          "target_va": 268565104,
+          "kind": 20
+        },
+        {
+          "symbol": "??1BitStream@RakNet@@QAE@XZ",
+          "site_rva": 187006,
+          "target_va": 268564688,
+          "kind": 20
+        },
+        {
+          "symbol": "??1BitStream@RakNet@@QAE@XZ",
+          "site_rva": 187059,
+          "target_va": 268564688,
+          "kind": 20
+        },
+        {
+          "symbol": "__except_list",
+          "site_rva": 187077,
+          "target_va": 0,
+          "kind": 6
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_file_list_transfer",
+      "section": 11,
+      "rva": 33824,
+      "size": 89,
+      "kind": ".text",
+      "sha256": "b37034fc3b389d74b01e3aeca79066e2df1184e312ff0b4ee54a0c788b584854",
+      "whole_bytes_equal": true,
+      "bindings": []
+    },
+    {
+      "unit": "closure_vendor_file_list_transfer",
+      "section": 150,
+      "rva": 187744,
+      "size": 304,
+      "kind": ".text",
+      "sha256": "2e13da8f2b33d363ee3bf8bbe3788afb7151d8d2ff842f1f2a53c635140617ac",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "__ehhandler$?SetupReceive@FileListTransfer@@QAEGPAVFileListTransferCBInterface@@_NUPlayerID@@@Z",
+          "site_rva": 187747,
+          "target_va": 269361051,
+          "kind": 6
+        },
+        {
+          "symbol": "__except_list",
+          "site_rva": 187753,
+          "target_va": 0,
+          "kind": 6
+        },
+        {
+          "symbol": "__except_list",
+          "site_rva": 187761,
+          "target_va": 0,
+          "kind": 6
+        },
+        {
+          "symbol": "__except_list",
+          "site_rva": 187816,
+          "target_va": 0,
+          "kind": 6
+        },
+        {
+          "symbol": "?Has@?$Map@GPAUFileListReceiver@FileListTransfer@@$1??$defaultMapKeyComparison@G@DataStructures@@YAHABG0@Z@DataStructures@@QAE_NABG@Z",
+          "site_rva": 187840,
+          "target_va": 268621712,
+          "kind": 20
+        },
+        {
+          "symbol": "?Get@?$Map@GPAUFileListReceiver@FileListTransfer@@$1??$defaultMapKeyComparison@G@DataStructures@@YAHABG0@Z@DataStructures@@QAEAAPAUFileListReceiver@FileListTransfer@@ABG@Z",
+          "site_rva": 187852,
+          "target_va": 268621632,
+          "kind": 20
+        },
+        {
+          "symbol": "??3@YAXPAX@Z",
+          "site_rva": 187873,
+          "target_va": 269247626,
+          "kind": 20
+        },
+        {
+          "symbol": "??1HuffmanEncodingTree@@QAE@XZ",
+          "site_rva": 187884,
+          "target_va": 268595104,
+          "kind": 20
+        },
+        {
+          "symbol": "??3@YAXPAX@Z",
+          "site_rva": 187890,
+          "target_va": 269247626,
+          "kind": 20
+        },
+        {
+          "symbol": "?Delete@?$Map@GPAUFileListReceiver@FileListTransfer@@$1??$defaultMapKeyComparison@G@DataStructures@@YAHABG0@Z@DataStructures@@QAE_NABG@Z",
+          "site_rva": 187901,
+          "target_va": 268622928,
+          "kind": 20
+        },
+        {
+          "symbol": "??2@YAPAXI@Z",
+          "site_rva": 187911,
+          "target_va": 269247098,
+          "kind": 20
+        },
+        {
+          "symbol": "??0HuffmanEncodingTree@@QAE@XZ",
+          "site_rva": 187938,
+          "target_va": 268592992,
+          "kind": 20
+        },
+        {
+          "symbol": "?Set@?$Map@GPAUFileListReceiver@FileListTransfer@@$1??$defaultMapKeyComparison@G@DataStructures@@YAHABG0@Z@DataStructures@@QAEXABGABQAUFileListReceiver@FileListTransfer@@@Z",
+          "site_rva": 188000,
+          "target_va": 268622768,
+          "kind": 20
+        },
+        {
+          "symbol": "__except_list",
+          "site_rva": 188037,
+          "target_va": 0,
+          "kind": 6
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_file_list_transfer",
+      "section": 137,
+      "rva": 187312,
+      "size": 155,
+      "kind": ".text",
+      "sha256": "a70b17bda14963514384d40037575f363c68dd479f20e8b448efd7e9fe650127",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "?HasSavedSearchResult@?$Map@GPAUFileListReceiver@FileListTransfer@@$1??$defaultMapKeyComparison@G@DataStructures@@YAHABG0@Z@DataStructures@@IBE_NABG@Z",
+          "site_rva": 187325,
+          "target_va": 268619024,
+          "kind": 20
+        },
+        {
+          "symbol": "??A?$OrderedList@GUMapNode@?$Map@GPAUFileListReceiver@FileListTransfer@@$1??$defaultMapKeyComparison@G@DataStructures@@YAHABG0@Z@DataStructures@@$1?NodeComparisonFunc@23@SAHABGABU123@@Z@DataStructures@@QBEAAUMapNode@?$Map@GPAUFileListReceiver@FileListTransfer@@$1??$defaultMapKeyComparison@G@DataStructures@@YAHABG0@Z@1@I@Z",
+          "site_rva": 187340,
+          "target_va": 268621072,
+          "kind": 20
+        },
+        {
+          "symbol": "?GetIndexFromKey@?$OrderedList@GUMapNode@?$Map@GPAUFileListReceiver@FileListTransfer@@$1??$defaultMapKeyComparison@G@DataStructures@@YAHABG0@Z@DataStructures@@$1?NodeComparisonFunc@23@SAHABGABU123@@Z@DataStructures@@QBEIABGPA_N@Z",
+          "site_rva": 187369,
+          "target_va": 268620912,
+          "kind": 20
+        },
+        {
+          "symbol": "?SaveLastSearch@?$Map@GPAUFileListReceiver@FileListTransfer@@$1??$defaultMapKeyComparison@G@DataStructures@@YAHABG0@Z@DataStructures@@IAEXABGI@Z",
+          "site_rva": 187388,
+          "target_va": 268618992,
+          "kind": 20
+        },
+        {
+          "symbol": "??A?$OrderedList@GUMapNode@?$Map@GPAUFileListReceiver@FileListTransfer@@$1??$defaultMapKeyComparison@G@DataStructures@@YAHABG0@Z@DataStructures@@$1?NodeComparisonFunc@23@SAHABGABU123@@Z@DataStructures@@QBEAAUMapNode@?$Map@GPAUFileListReceiver@FileListTransfer@@$1??$defaultMapKeyComparison@G@DataStructures@@YAHABG0@Z@1@I@Z",
+          "site_rva": 187396,
+          "target_va": 268621072,
+          "kind": 20
+        },
+        {
+          "symbol": "?Insert@?$OrderedList@GUMapNode@?$Map@GPAUFileListReceiver@FileListTransfer@@$1??$defaultMapKeyComparison@G@DataStructures@@YAHABG0@Z@DataStructures@@$1?NodeComparisonFunc@23@SAHABGABU123@@Z@DataStructures@@QAEIABGABUMapNode@?$Map@GPAUFileListReceiver@FileListTransfer@@$1??$defaultMapKeyComparison@G@DataStructures@@YAHABG0@Z@2@@Z",
+          "site_rva": 187445,
+          "target_va": 268621904,
+          "kind": 20
+        },
+        {
+          "symbol": "?SaveLastSearch@?$Map@GPAUFileListReceiver@FileListTransfer@@$1??$defaultMapKeyComparison@G@DataStructures@@YAHABG0@Z@DataStructures@@IAEXABGI@Z",
+          "site_rva": 187454,
+          "target_va": 268618992,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_file_list_transfer",
+      "section": 121,
+      "rva": 186448,
+      "size": 119,
+      "kind": ".text",
+      "sha256": "3908082b631a0065977a3d764c475efd69eb611d65f44429fb02cfa897c6bbc9",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "?GetIndexFromKey@?$OrderedList@GUMapNode@?$Map@GPAUFileListReceiver@FileListTransfer@@$1??$defaultMapKeyComparison@G@DataStructures@@YAHABG0@Z@DataStructures@@$1?NodeComparisonFunc@23@SAHABGABU123@@Z@DataStructures@@QBEIABGPA_N@Z",
+          "site_rva": 186465,
+          "target_va": 268620912,
+          "kind": 20
+        },
+        {
+          "symbol": "?Insert@?$List@UMapNode@?$Map@GPAUFileListReceiver@FileListTransfer@@$1??$defaultMapKeyComparison@G@DataStructures@@YAHABG0@Z@DataStructures@@@DataStructures@@QAEXUMapNode@?$Map@GPAUFileListReceiver@FileListTransfer@@$1??$defaultMapKeyComparison@G@DataStructures@@YAHABG0@Z@2@@Z",
+          "site_rva": 186518,
+          "target_va": 268621120,
+          "kind": 20
+        },
+        {
+          "symbol": "?Insert@?$List@UMapNode@?$Map@GPAUFileListReceiver@FileListTransfer@@$1??$defaultMapKeyComparison@G@DataStructures@@YAHABG0@Z@DataStructures@@@DataStructures@@QAEXUMapNode@?$Map@GPAUFileListReceiver@FileListTransfer@@$1??$defaultMapKeyComparison@G@DataStructures@@YAHABG0@Z@2@I@Z",
+          "site_rva": 186556,
+          "target_va": 268621328,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_file_list_transfer",
+      "section": 101,
+      "rva": 185872,
+      "size": 234,
+      "kind": ".text",
+      "sha256": "d931da4353487b9aa6c25613407a48c961999c117c57fcbc1390b08a547a5a11",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "__ehhandler$?Insert@?$List@UMapNode@?$Map@GPAUFileListReceiver@FileListTransfer@@$1??$defaultMapKeyComparison@G@DataStructures@@YAHABG0@Z@DataStructures@@@DataStructures@@QAEXUMapNode@?$Map@GPAUFileListReceiver@FileListTransfer@@$1??$defaultMapKeyComparison@G@DataStructures@@YAHABG0@Z@2@I@Z",
+          "site_rva": 185875,
+          "target_va": 269360891,
+          "kind": 6
+        },
+        {
+          "symbol": "__except_list",
+          "site_rva": 185881,
+          "target_va": 0,
+          "kind": 6
+        },
+        {
+          "symbol": "__except_list",
+          "site_rva": 185889,
+          "target_va": 0,
+          "kind": 6
+        },
+        {
+          "symbol": "??2@YAPAXI@Z",
+          "site_rva": 185938,
+          "target_va": 269247098,
+          "kind": 20
+        },
+        {
+          "symbol": "??0MapNode@?$Map@GPAUFileListReceiver@FileListTransfer@@$1??$defaultMapKeyComparison@G@DataStructures@@YAHABG0@Z@DataStructures@@QAE@XZ",
+          "site_rva": 185960,
+          "target_va": 268619280,
+          "kind": 6
+        },
+        {
+          "symbol": "??_H@YGXPAXIHP6EPAX0@Z@Z",
+          "site_rva": 185969,
+          "target_va": 268619232,
+          "kind": 20
+        },
+        {
+          "symbol": "??3@YAXPAX@Z",
+          "site_rva": 186013,
+          "target_va": 269247626,
+          "kind": 20
+        },
+        {
+          "symbol": "_memmove",
+          "site_rva": 186054,
+          "target_va": 269250016,
+          "kind": 20
+        },
+        {
+          "symbol": "__except_list",
+          "site_rva": 186096,
+          "target_va": 0,
+          "kind": 6
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_file_list_transfer",
+      "section": 70,
+      "rva": 183776,
+      "size": 48,
+      "kind": ".text",
+      "sha256": "10326531db91f3b5a10ad875d2e6ea19bf6d71e1e1cb0cbdd0e648226c7e8480",
+      "whole_bytes_equal": true,
+      "bindings": []
+    },
+    {
+      "unit": "closure_vendor_file_list_transfer",
+      "section": 72,
+      "rva": 183824,
+      "size": 3,
+      "kind": ".text",
+      "sha256": "58367ffa2a0179375018fa0f5c26da24391e42ebe0ed8fdda35a21fc7bdc396f",
+      "whole_bytes_equal": true,
+      "bindings": []
+    },
+    {
+      "unit": "closure_vendor_file_list_transfer",
+      "section": 97,
+      "rva": 185664,
+      "size": 200,
+      "kind": ".text",
+      "sha256": "cb33474772997cef1d6662e3ed1b9f0d074be3666264935d71fcd173a3a32d99",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "__ehhandler$?Insert@?$List@UMapNode@?$Map@GPAUFileListReceiver@FileListTransfer@@$1??$defaultMapKeyComparison@G@DataStructures@@YAHABG0@Z@DataStructures@@@DataStructures@@QAEXUMapNode@?$Map@GPAUFileListReceiver@FileListTransfer@@$1??$defaultMapKeyComparison@G@DataStructures@@YAHABG0@Z@2@@Z",
+          "site_rva": 185667,
+          "target_va": 269360859,
+          "kind": 6
+        },
+        {
+          "symbol": "__except_list",
+          "site_rva": 185673,
+          "target_va": 0,
+          "kind": 6
+        },
+        {
+          "symbol": "__except_list",
+          "site_rva": 185681,
+          "target_va": 0,
+          "kind": 6
+        },
+        {
+          "symbol": "??2@YAPAXI@Z",
+          "site_rva": 185730,
+          "target_va": 269247098,
+          "kind": 20
+        },
+        {
+          "symbol": "??0MapNode@?$Map@GPAUFileListReceiver@FileListTransfer@@$1??$defaultMapKeyComparison@G@DataStructures@@YAHABG0@Z@DataStructures@@QAE@XZ",
+          "site_rva": 185752,
+          "target_va": 268619280,
+          "kind": 6
+        },
+        {
+          "symbol": "??_H@YGXPAXIHP6EPAX0@Z@Z",
+          "site_rva": 185761,
+          "target_va": 268619232,
+          "kind": 20
+        },
+        {
+          "symbol": "??3@YAXPAX@Z",
+          "site_rva": 185805,
+          "target_va": 269247626,
+          "kind": 20
+        },
+        {
+          "symbol": "__except_list",
+          "site_rva": 185854,
+          "target_va": 0,
+          "kind": 6
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_file_list_transfer",
+      "section": 143,
+      "rva": 187600,
+      "size": 62,
+      "kind": ".text",
+      "sha256": "9500b89025748040b7b2764befade9b1542976125fcea8d5e09ff2c1b4f92fca",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "??_7FileListTransfer@@6B@",
+          "site_rva": 187611,
+          "target_va": 269381012,
+          "kind": 6
+        },
+        {
+          "symbol": "??0?$Map@GPAUFileListReceiver@FileListTransfer@@$1??$defaultMapKeyComparison@G@DataStructures@@YAHABG0@Z@DataStructures@@QAE@XZ",
+          "site_rva": 187616,
+          "target_va": 268622672,
+          "kind": 20
+        },
+        {
+          "symbol": "??$defaultMapKeyComparison@G@DataStructures@@YAHABG0@Z",
+          "site_rva": 187648,
+          "target_va": 268618432,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_file_list_transfer",
+      "section": 131,
+      "rva": 187216,
+      "size": 16,
+      "kind": ".text",
+      "sha256": "4df27b2d1f952e8cedf59ee4a6ee709908f0f80c39460c11bd34cfdc8053b9d6",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "??0?$OrderedList@GUMapNode@?$Map@GPAUFileListReceiver@FileListTransfer@@$1??$defaultMapKeyComparison@G@DataStructures@@YAHABG0@Z@DataStructures@@$1?NodeComparisonFunc@23@SAHABGABU123@@Z@DataStructures@@QAE@XZ",
+          "site_rva": 187220,
+          "target_va": 268620896,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_file_list_transfer",
+      "section": 87,
+      "rva": 185440,
+      "size": 12,
+      "kind": ".text",
+      "sha256": "f1a0bd8fd80384a2cf347322041c83a49997becc2af35059e5e210dcd80a6d3a",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "??0?$List@UMapNode@?$Map@GPAUFileListReceiver@FileListTransfer@@$1??$defaultMapKeyComparison@G@DataStructures@@YAHABG0@Z@DataStructures@@@DataStructures@@QAE@XZ",
+          "site_rva": 185444,
+          "target_va": 268619088,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_file_list_transfer",
+      "section": 60,
+      "rva": 183632,
+      "size": 13,
+      "kind": ".text",
+      "sha256": "efaddf6f7c64b7d0dd7d70e04563c88df5b21978a063a338954e28cc09d4e5e9",
+      "whole_bytes_equal": true,
+      "bindings": []
+    },
+    {
+      "unit": "closure_vendor_file_list_transfer",
+      "section": 80,
+      "rva": 183888,
+      "size": 1505,
+      "kind": ".text",
+      "sha256": "575fb9ba75d68fe329819127def0f46e29a812783e90a0291eafea4364568ef4",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "__ehhandler$?Send@FileListTransfer@@QAEXPAVFileList@@PAVRakPeerInterface@@UPlayerID@@GW4PacketPriority@@D_N@Z",
+          "site_rva": 183891,
+          "target_va": 269360828,
+          "kind": 6
+        },
+        {
+          "symbol": "__except_list",
+          "site_rva": 183897,
+          "target_va": 0,
+          "kind": 6
+        },
+        {
+          "symbol": "__except_list",
+          "site_rva": 183905,
+          "target_va": 0,
+          "kind": 6
+        },
+        {
+          "symbol": "??0BitStream@RakNet@@QAE@XZ",
+          "site_rva": 183924,
+          "target_va": 268564272,
+          "kind": 20
+        },
+        {
+          "symbol": "??0BitStream@RakNet@@QAE@XZ",
+          "site_rva": 183945,
+          "target_va": 268564272,
+          "kind": 20
+        },
+        {
+          "symbol": "??0HuffmanEncodingTree@@QAE@XZ",
+          "site_rva": 183965,
+          "target_va": 268592992,
+          "kind": 20
+        },
+        {
+          "symbol": "??0?$Queue@UFileListNode@@@DataStructures@@QAE@XZ",
+          "site_rva": 183982,
+          "target_va": 268618480,
+          "kind": 20
+        },
+        {
+          "symbol": "?GenerateFromFrequencyTable@HuffmanEncodingTree@@QAEXQAI@Z",
+          "site_rva": 184116,
+          "target_va": 268595136,
+          "kind": 20
+        },
+        {
+          "symbol": "?Reset@BitStream@RakNet@@QAEXXZ",
+          "site_rva": 184152,
+          "target_va": 268564720,
+          "kind": 20
+        },
+        {
+          "symbol": "?EncodeArray@HuffmanEncodingTree@@QAEXPAEIPAVBitStream@RakNet@@@Z",
+          "site_rva": 184185,
+          "target_va": 268594688,
+          "kind": 20
+        },
+        {
+          "symbol": "??2@YAPAXI@Z",
+          "site_rva": 184230,
+          "target_va": 269247098,
+          "kind": 20
+        },
+        {
+          "symbol": "?Push@?$Queue@UFileListNode@@@DataStructures@@QAEXABUFileListNode@@@Z",
+          "site_rva": 184279,
+          "target_va": 268618560,
+          "kind": 20
+        },
+        {
+          "symbol": "?WriteBits@BitStream@RakNet@@QAEXPBEH_N@Z",
+          "site_rva": 184337,
+          "target_va": 268566496,
+          "kind": 20
+        },
+        {
+          "symbol": "?WriteBits@BitStream@RakNet@@QAEXPBEH_N@Z",
+          "site_rva": 184366,
+          "target_va": 268566496,
+          "kind": 20
+        },
+        {
+          "symbol": "?Write1@BitStream@RakNet@@QAEXXZ",
+          "site_rva": 184389,
+          "target_va": 268566320,
+          "kind": 20
+        },
+        {
+          "symbol": "?Write1@BitStream@RakNet@@QAEXXZ",
+          "site_rva": 184413,
+          "target_va": 268566320,
+          "kind": 20
+        },
+        {
+          "symbol": "?WriteCompressed@BitStream@RakNet@@AAEXPBEH_N@Z",
+          "site_rva": 184444,
+          "target_va": 268566832,
+          "kind": 20
+        },
+        {
+          "symbol": "?WriteCompressed@BitStream@RakNet@@AAEXPBEH_N@Z",
+          "site_rva": 184478,
+          "target_va": 268566832,
+          "kind": 20
+        },
+        {
+          "symbol": "?WriteCompressed@BitStream@RakNet@@AAEXPBEH_N@Z",
+          "site_rva": 184500,
+          "target_va": 268566832,
+          "kind": 20
+        },
+        {
+          "symbol": "?Write0@BitStream@RakNet@@QAEXXZ",
+          "site_rva": 184518,
+          "target_va": 268566288,
+          "kind": 20
+        },
+        {
+          "symbol": "??1?$Queue@UFileListNode@@@DataStructures@@QAE@XZ",
+          "site_rva": 184597,
+          "target_va": 268618528,
+          "kind": 20
+        },
+        {
+          "symbol": "??1HuffmanEncodingTree@@QAE@XZ",
+          "site_rva": 184617,
+          "target_va": 268595104,
+          "kind": 20
+        },
+        {
+          "symbol": "??1BitStream@RakNet@@QAE@XZ",
+          "site_rva": 184637,
+          "target_va": 268564688,
+          "kind": 20
+        },
+        {
+          "symbol": "??1BitStream@RakNet@@QAE@XZ",
+          "site_rva": 184657,
+          "target_va": 268564688,
+          "kind": 20
+        },
+        {
+          "symbol": "__except_list",
+          "site_rva": 184674,
+          "target_va": 0,
+          "kind": 6
+        },
+        {
+          "symbol": "?Write0@BitStream@RakNet@@QAEXXZ",
+          "site_rva": 184689,
+          "target_va": 268566288,
+          "kind": 20
+        },
+        {
+          "symbol": "?WriteCompressed@BitStream@RakNet@@AAEXPBEH_N@Z",
+          "site_rva": 184714,
+          "target_va": 268566832,
+          "kind": 20
+        },
+        {
+          "symbol": "?WriteCompressed@BitStream@RakNet@@AAEXPBEH_N@Z",
+          "site_rva": 184736,
+          "target_va": 268566832,
+          "kind": 20
+        },
+        {
+          "symbol": "?Reset@BitStream@RakNet@@QAEXXZ",
+          "site_rva": 184866,
+          "target_va": 268564720,
+          "kind": 20
+        },
+        {
+          "symbol": "?WriteBits@BitStream@RakNet@@QAEXPBEH_N@Z",
+          "site_rva": 184889,
+          "target_va": 268566496,
+          "kind": 20
+        },
+        {
+          "symbol": "?WriteBits@BitStream@RakNet@@QAEXPBEH_N@Z",
+          "site_rva": 184921,
+          "target_va": 268566496,
+          "kind": 20
+        },
+        {
+          "symbol": "?WriteBits@BitStream@RakNet@@QAEXPBEH_N@Z",
+          "site_rva": 184950,
+          "target_va": 268566496,
+          "kind": 20
+        },
+        {
+          "symbol": "?WriteCompressed@BitStream@RakNet@@AAEXPBEH_N@Z",
+          "site_rva": 184972,
+          "target_va": 268566832,
+          "kind": 20
+        },
+        {
+          "symbol": "?WriteCompressed@BitStream@RakNet@@AAEXPBEH_N@Z",
+          "site_rva": 185004,
+          "target_va": 268566832,
+          "kind": 20
+        },
+        {
+          "symbol": "?WriteCompressed@BitStream@RakNet@@AAEXPBEH_N@Z",
+          "site_rva": 185072,
+          "target_va": 268566832,
+          "kind": 20
+        },
+        {
+          "symbol": "?Instance@StringCompressor@@SAPAV1@XZ",
+          "site_rva": 185099,
+          "target_va": 268778544,
+          "kind": 20
+        },
+        {
+          "symbol": "?EncodeString@StringCompressor@@QAEXPBDHPAVBitStream@RakNet@@H@Z",
+          "site_rva": 185106,
+          "target_va": 268779936,
+          "kind": 20
+        },
+        {
+          "symbol": "?WriteBits@BitStream@RakNet@@QAEXPBEH_N@Z",
+          "site_rva": 185202,
+          "target_va": 268566496,
+          "kind": 20
+        },
+        {
+          "symbol": "??3@YAXPAX@Z",
+          "site_rva": 185237,
+          "target_va": 269247626,
+          "kind": 20
+        },
+        {
+          "symbol": "??3@YAXPAX@Z",
+          "site_rva": 185255,
+          "target_va": 269247626,
+          "kind": 20
+        },
+        {
+          "symbol": "?WriteBits@BitStream@RakNet@@QAEXPBEH_N@Z",
+          "site_rva": 185288,
+          "target_va": 268566496,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_file_list_transfer",
+      "section": 36,
+      "rva": 183072,
+      "size": 17,
+      "kind": ".text",
+      "sha256": "5eb30b42f89f67b87b631b95027fad8e6444f0709f51d2bdb80ff44c00a7305f",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "??3@YAXPAX@Z",
+          "site_rva": 183083,
+          "target_va": 269247626,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_file_list_transfer",
+      "section": 38,
+      "rva": 183104,
+      "size": 289,
+      "kind": ".text",
+      "sha256": "e4abb582389f65357180a73c455e637dca0b79a5ab89c9828430f0f49daaf4c6",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "??2@YAPAXI@Z",
+          "site_rva": 183123,
+          "target_va": 269247098,
+          "kind": 20
+        },
+        {
+          "symbol": "??2@YAPAXI@Z",
+          "site_rva": 183270,
+          "target_va": 269247098,
+          "kind": 20
+        },
+        {
+          "symbol": "??3@YAXPAX@Z",
+          "site_rva": 183377,
+          "target_va": 269247626,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_file_list_transfer",
+      "section": 34,
+      "rva": 183024,
+      "size": 37,
+      "kind": ".text",
+      "sha256": "e854b04969abebe0370830768814e90a678ed8aeadd10a41c2108723d5119901",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "??2@YAPAXI@Z",
+          "site_rva": 183040,
+          "target_va": 269247098,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_file_list_transfer",
+      "section": 20,
+      "rva": 182960,
+      "size": 10,
+      "kind": ".text",
+      "sha256": "bcf4611c532497fac5b005d76d80c53df16f49d8b558b3c8e4426570bd60357a",
+      "whole_bytes_equal": true,
+      "bindings": []
+    },
+    {
+      "unit": "closure_vendor_file_list_transfer",
+      "section": 147,
+      "rva": 925552,
+      "size": 21,
+      "kind": ".text$x",
+      "sha256": "6b0146b7349e62c2ef5693ef845435b38f91c38abde3d5242182e3318331682d",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "??1?$Map@GPAUFileListReceiver@FileListTransfer@@$1??$defaultMapKeyComparison@G@DataStructures@@YAHABG0@Z@DataStructures@@QAE@XZ",
+          "site_rva": 925559,
+          "target_va": 268622688,
+          "kind": 20
+        },
+        {
+          "symbol": "$T4804",
+          "site_rva": 925564,
+          "target_va": 269458400,
+          "kind": 6
+        },
+        {
+          "symbol": "___CxxFrameHandler",
+          "site_rva": 925569,
+          "target_va": 269247782,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_file_list_transfer",
+      "section": 144,
+      "rva": 945556,
+      "size": 40,
+      "kind": ".rdata",
+      "sha256": "0aacb7952a31a65cf2988b0fe4a3e787f67120b6bbfe33d2cfee0a962e7bc9fc",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "?OnAttach@FileListTransfer@@UAEXPAVRakPeerInterface@@@Z",
+          "site_rva": 945556,
+          "target_va": 268618416,
+          "kind": 6
+        },
+        {
+          "symbol": "?OnDetach@PluginInterface@@UAEXPAVRakPeerInterface@@@Z",
+          "site_rva": 945560,
+          "target_va": 268648320,
+          "kind": 6
+        },
+        {
+          "symbol": "?OnInitialize@PluginInterface@@UAEXPAVRakPeerInterface@@@Z",
+          "site_rva": 945564,
+          "target_va": 268648336,
+          "kind": 6
+        },
+        {
+          "symbol": "?Update@PluginInterface@@UAEXPAVRakPeerInterface@@@Z",
+          "site_rva": 945568,
+          "target_va": 268648352,
+          "kind": 6
+        },
+        {
+          "symbol": "?OnReceive@FileListTransfer@@UAE?AW4PluginReceiveResult@@PAVRakPeerInterface@@PAUPacket@@@Z",
+          "site_rva": 945572,
+          "target_va": 268624464,
+          "kind": 6
+        },
+        {
+          "symbol": "?OnDisconnect@FileListTransfer@@UAEXPAVRakPeerInterface@@@Z",
+          "site_rva": 945576,
+          "target_va": 268624288,
+          "kind": 6
+        },
+        {
+          "symbol": "?OnCloseConnection@FileListTransfer@@UAEXPAVRakPeerInterface@@UPlayerID@@@Z",
+          "site_rva": 945580,
+          "target_va": 268624672,
+          "kind": 6
+        },
+        {
+          "symbol": "?OnDirectSocketSend@PluginInterface@@UAEXPBDIUPlayerID@@@Z",
+          "site_rva": 945584,
+          "target_va": 268648416,
+          "kind": 6
+        },
+        {
+          "symbol": "?OnDirectSocketReceive@PluginInterface@@UAEXPBDIUPlayerID@@@Z",
+          "site_rva": 945588,
+          "target_va": 268648432,
+          "kind": 6
+        },
+        {
+          "symbol": "?OnInternalPacket@PluginInterface@@UAEXPAUInternalPacket@@IUPlayerID@@I_N@Z",
+          "site_rva": 945592,
+          "target_va": 268648448,
+          "kind": 6
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_file_list_transfer",
+      "section": 134,
+      "rva": 925520,
+      "size": 18,
+      "kind": ".text$x",
+      "sha256": "92c0d1bbc23af58b488cc0952711659e7b9da16694d957f96e60acfef8a7f33b",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "??1?$OrderedList@GUMapNode@?$Map@GPAUFileListReceiver@FileListTransfer@@$1??$defaultMapKeyComparison@G@DataStructures@@YAHABG0@Z@DataStructures@@$1?NodeComparisonFunc@23@SAHABGABU123@@Z@DataStructures@@QAE@XZ",
+          "site_rva": 925524,
+          "target_va": 268621824,
+          "kind": 20
+        },
+        {
+          "symbol": "$T4769",
+          "site_rva": 925529,
+          "target_va": 269458364,
+          "kind": 6
+        },
+        {
+          "symbol": "___CxxFrameHandler",
+          "site_rva": 925534,
+          "target_va": 269247782,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_file_list_transfer",
+      "section": 118,
+      "rva": 925456,
+      "size": 18,
+      "kind": ".text$x",
+      "sha256": "6d9d40eb3f78f2f000dc6581b766c022ca9f570b9b6d37afe26c69ddab1fcece",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "??1?$List@UMapNode@?$Map@GPAUFileListReceiver@FileListTransfer@@$1??$defaultMapKeyComparison@G@DataStructures@@YAHABG0@Z@DataStructures@@@DataStructures@@QAE@XZ",
+          "site_rva": 925460,
+          "target_va": 268619104,
+          "kind": 20
+        },
+        {
+          "symbol": "$T4672",
+          "site_rva": 925465,
+          "target_va": 269458292,
+          "kind": 6
+        },
+        {
+          "symbol": "___CxxFrameHandler",
+          "site_rva": 925470,
+          "target_va": 269247782,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_file_list_transfer",
+      "section": 155,
+      "rva": 925616,
+      "size": 21,
+      "kind": ".text$x",
+      "sha256": "116cb6983474b2ba11385c7925ae0a744d656eca1dc47e4356949c44424d76bc",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "??1BitStream@RakNet@@QAE@XZ",
+          "site_rva": 925623,
+          "target_va": 268564688,
+          "kind": 20
+        },
+        {
+          "symbol": "$T4912",
+          "site_rva": 925628,
+          "target_va": 269458472,
+          "kind": 6
+        },
+        {
+          "symbol": "___CxxFrameHandler",
+          "site_rva": 925633,
+          "target_va": 269247782,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_file_list_transfer",
+      "section": 126,
+      "rva": 925488,
+      "size": 21,
+      "kind": ".text$x",
+      "sha256": "60bc200c081faf0e74da057616d1ed5e39dd06602f097157355544b736f6c545",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "??1BitStream@RakNet@@QAE@XZ",
+          "site_rva": 925495,
+          "target_va": 268564688,
+          "kind": 20
+        },
+        {
+          "symbol": "$T4740",
+          "site_rva": 925500,
+          "target_va": 269458328,
+          "kind": 6
+        },
+        {
+          "symbol": "___CxxFrameHandler",
+          "site_rva": 925505,
+          "target_va": 269247782,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_file_list_transfer",
+      "section": 151,
+      "rva": 925584,
+      "size": 21,
+      "kind": ".text$x",
+      "sha256": "18c83b60e06da7a01786b55377580aaaba690ec8ba6d5f57e5ae63d1b661b64a",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "??3@YAXPAX@Z",
+          "site_rva": 925589,
+          "target_va": 269247626,
+          "kind": 20
+        },
+        {
+          "symbol": "$T4840",
+          "site_rva": 925596,
+          "target_va": 269458436,
+          "kind": 6
+        },
+        {
+          "symbol": "___CxxFrameHandler",
+          "site_rva": 925601,
+          "target_va": 269247782,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_file_list_transfer",
+      "section": 102,
+      "rva": 925424,
+      "size": 21,
+      "kind": ".text$x",
+      "sha256": "ad55c501b168032526701cefc5a777bfc3bf9821a49921279ee71505245f98c4",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "??3@YAXPAX@Z",
+          "site_rva": 925429,
+          "target_va": 269247626,
+          "kind": 20
+        },
+        {
+          "symbol": "$T4646",
+          "site_rva": 925436,
+          "target_va": 269458256,
+          "kind": 6
+        },
+        {
+          "symbol": "___CxxFrameHandler",
+          "site_rva": 925441,
+          "target_va": 269247782,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_file_list_transfer",
+      "section": 98,
+      "rva": 925392,
+      "size": 21,
+      "kind": ".text$x",
+      "sha256": "69e3763ce7e83208eb6a957fdd3f3e008ef5a53a0032cf1046268ba45fb3ebc1",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "??3@YAXPAX@Z",
+          "site_rva": 925397,
+          "target_va": 269247626,
+          "kind": 20
+        },
+        {
+          "symbol": "$T4631",
+          "site_rva": 925404,
+          "target_va": 269458220,
+          "kind": 6
+        },
+        {
+          "symbol": "___CxxFrameHandler",
+          "site_rva": 925409,
+          "target_va": 269247782,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_file_list_transfer",
+      "section": 81,
+      "rva": 925328,
+      "size": 54,
+      "kind": ".text$x",
+      "sha256": "e20433b4eeb4a74f0e3ed4cb0ddd2615afed6a382e4565be3e8863dc7d6a3ea6",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "??1BitStream@RakNet@@QAE@XZ",
+          "site_rva": 925335,
+          "target_va": 268564688,
+          "kind": 20
+        },
+        {
+          "symbol": "??1BitStream@RakNet@@QAE@XZ",
+          "site_rva": 925346,
+          "target_va": 268564688,
+          "kind": 20
+        },
+        {
+          "symbol": "??1HuffmanEncodingTree@@QAE@XZ",
+          "site_rva": 925357,
+          "target_va": 268595104,
+          "kind": 20
+        },
+        {
+          "symbol": "??1?$Queue@UFileListNode@@@DataStructures@@QAE@XZ",
+          "site_rva": 925368,
+          "target_va": 268618528,
+          "kind": 20
+        },
+        {
+          "symbol": "$T4551",
+          "site_rva": 925373,
+          "target_va": 269458184,
+          "kind": 6
+        },
+        {
+          "symbol": "___CxxFrameHandler",
+          "site_rva": 925378,
+          "target_va": 269247782,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_file_list_transfer",
+      "section": 148,
+      "rva": 1022936,
+      "size": 36,
+      "kind": ".xdata$x",
+      "sha256": "c637fb8a0b4e6e0ab07ab82246fe084bd8e93a04abe398e00e1da7472c5800db",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "$L4802",
+          "site_rva": 1022940,
+          "target_va": 269361008,
+          "kind": 6
+        },
+        {
+          "symbol": "$T4806",
+          "site_rva": 1022952,
+          "target_va": 269458392,
+          "kind": 6
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_file_list_transfer",
+      "section": 135,
+      "rva": 1022900,
+      "size": 36,
+      "kind": ".xdata$x",
+      "sha256": "eaa5e38f9d0cbb4739d23c2edd6643e312da0b762445005cffe685e0ad54cda8",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "$L4767",
+          "site_rva": 1022904,
+          "target_va": 269360976,
+          "kind": 6
+        },
+        {
+          "symbol": "$T4771",
+          "site_rva": 1022916,
+          "target_va": 269458356,
+          "kind": 6
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_file_list_transfer",
+      "section": 119,
+      "rva": 1022828,
+      "size": 36,
+      "kind": ".xdata$x",
+      "sha256": "a141385319c13dcf05fea68db4507e9b3692a737c5ec3ead712e8d92e04437ea",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "$L4670",
+          "site_rva": 1022832,
+          "target_va": 269360912,
+          "kind": 6
+        },
+        {
+          "symbol": "$T4674",
+          "site_rva": 1022844,
+          "target_va": 269458284,
+          "kind": 6
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_file_list_transfer",
+      "section": 156,
+      "rva": 1023008,
+      "size": 36,
+      "kind": ".xdata$x",
+      "sha256": "f3eb5d22fb31210ebeee6bbd540035b25ef563a0e2b3c1f3e9e8b3a837463ea0",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "$L4860",
+          "site_rva": 1023012,
+          "target_va": 269361072,
+          "kind": 6
+        },
+        {
+          "symbol": "$T4918",
+          "site_rva": 1023024,
+          "target_va": 269458464,
+          "kind": 6
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_file_list_transfer",
+      "section": 127,
+      "rva": 1022864,
+      "size": 36,
+      "kind": ".xdata$x",
+      "sha256": "6aa87539a4e1d13fde8bdf8f02bfc9add03d0f5e44d3a9501113a1e3d2f2eeb0",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "$L4696",
+          "site_rva": 1022868,
+          "target_va": 269360944,
+          "kind": 6
+        },
+        {
+          "symbol": "$T4745",
+          "site_rva": 1022880,
+          "target_va": 269458320,
+          "kind": 6
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_file_list_transfer",
+      "section": 152,
+      "rva": 1022972,
+      "size": 36,
+      "kind": ".xdata$x",
+      "sha256": "66adfff2c7c97e2d7c3ac6bd84acbb35d08177f071764e9cd9e66da2dabbae1b",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "$L4820",
+          "site_rva": 1022976,
+          "target_va": 269361040,
+          "kind": 6
+        },
+        {
+          "symbol": "$T4842",
+          "site_rva": 1022988,
+          "target_va": 269458428,
+          "kind": 6
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_file_list_transfer",
+      "section": 103,
+      "rva": 1022792,
+      "size": 36,
+      "kind": ".xdata$x",
+      "sha256": "d9d07329f1b4624cdaaa9a8304e42578dfe8dda712b99f8fef15087b9d883311",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "$L4644",
+          "site_rva": 1022796,
+          "target_va": 269360880,
+          "kind": 6
+        },
+        {
+          "symbol": "$T4648",
+          "site_rva": 1022808,
+          "target_va": 269458248,
+          "kind": 6
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_file_list_transfer",
+      "section": 99,
+      "rva": 1022756,
+      "size": 36,
+      "kind": ".xdata$x",
+      "sha256": "9923f7a95e572a508499f4c8bf37bf8159d2267e20e29181217864d474de920f",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "$L4629",
+          "site_rva": 1022760,
+          "target_va": 269360848,
+          "kind": 6
+        },
+        {
+          "symbol": "$T4633",
+          "site_rva": 1022772,
+          "target_va": 269458212,
+          "kind": 6
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_file_list_transfer",
+      "section": 82,
+      "rva": 1022696,
+      "size": 60,
+      "kind": ".xdata$x",
+      "sha256": "a0f4c5517fc2ee0c1b6ee48baf1503757912da5b18da965a1a28f4cb60c965dd",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "$L4353",
+          "site_rva": 1022700,
+          "target_va": 269360784,
+          "kind": 6
+        },
+        {
+          "symbol": "$L4354",
+          "site_rva": 1022708,
+          "target_va": 269360795,
+          "kind": 6
+        },
+        {
+          "symbol": "$L4355",
+          "site_rva": 1022716,
+          "target_va": 269360806,
+          "kind": 6
+        },
+        {
+          "symbol": "$L4356",
+          "site_rva": 1022724,
+          "target_va": 269360817,
+          "kind": 6
+        },
+        {
+          "symbol": "$T4567",
+          "site_rva": 1022736,
+          "target_va": 269458152,
+          "kind": 6
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_file_list",
+      "section": 56,
+      "rva": 178768,
+      "size": 73,
+      "kind": ".text",
+      "sha256": "40ce7d9a6ffc273f9cc4f0edb8d575a878d079e42b07dbe2504912a4728f18b7",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "__ehhandler$??1FileList@@QAE@XZ",
+          "site_rva": 178771,
+          "target_va": 269360664,
+          "kind": 6
+        },
+        {
+          "symbol": "__except_list",
+          "site_rva": 178777,
+          "target_va": 0,
+          "kind": 6
+        },
+        {
+          "symbol": "__except_list",
+          "site_rva": 178785,
+          "target_va": 0,
+          "kind": 6
+        },
+        {
+          "symbol": "?Clear@FileList@@QAEXXZ",
+          "site_rva": 178806,
+          "target_va": 268612816,
+          "kind": 20
+        },
+        {
+          "symbol": "??1?$List@UFileListNode@@@DataStructures@@QAE@XZ",
+          "site_rva": 178821,
+          "target_va": 268612064,
+          "kind": 20
+        },
+        {
+          "symbol": "__except_list",
+          "site_rva": 178833,
+          "target_va": 0,
+          "kind": 6
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_file_list",
+      "section": 9,
+      "rva": 176608,
+      "size": 17,
+      "kind": ".text",
+      "sha256": "4c3cd39385a198e65560a31398f8c3558cf61f3f57663397fed02e7c1f0bf089",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "??3@YAXPAX@Z",
+          "site_rva": 176619,
+          "target_va": 269247626,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_file_list",
+      "section": 43,
+      "rva": 177360,
+      "size": 66,
+      "kind": ".text",
+      "sha256": "88fa05e862966249b768ece391cb31564c17bb91830a64fdbf32c3d2139e935a",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "??3@YAXPAX@Z",
+          "site_rva": 177384,
+          "target_va": 269247626,
+          "kind": 20
+        },
+        {
+          "symbol": "??3@YAXPAX@Z",
+          "site_rva": 177395,
+          "target_va": 269247626,
+          "kind": 20
+        },
+        {
+          "symbol": "?Clear@?$List@UFileListNode@@@DataStructures@@QAEX_N@Z",
+          "site_rva": 177419,
+          "target_va": 268612256,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_file_list",
+      "section": 17,
+      "rva": 176800,
+      "size": 60,
+      "kind": ".text",
+      "sha256": "00aea8381bbfe13dd5e08a9e978269eb2c1e7489dc63d343acc0f1d3f1314c7b",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "??3@YAXPAX@Z",
+          "site_rva": 176829,
+          "target_va": 269247626,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_file_list",
+      "section": 79,
+      "rva": 182720,
+      "size": 183,
+      "kind": ".text",
+      "sha256": "c59497bcc8a5c0343ebfa818aa9744392e760a296b8e439abb122716610f3fff",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "??_C@_02JDPG@rb?$AA@",
+          "site_rva": 182753,
+          "target_va": 269381004,
+          "kind": 6
+        },
+        {
+          "symbol": "_fopen",
+          "site_rva": 182759,
+          "target_va": 269254473,
+          "kind": 20
+        },
+        {
+          "symbol": "_fseek",
+          "site_rva": 182778,
+          "target_va": 269256575,
+          "kind": 20
+        },
+        {
+          "symbol": "_ftell",
+          "site_rva": 182784,
+          "target_va": 269256367,
+          "kind": 20
+        },
+        {
+          "symbol": "_fseek",
+          "site_rva": 182796,
+          "target_va": 269256575,
+          "kind": 20
+        },
+        {
+          "symbol": "__alloca_probe",
+          "site_rva": 182824,
+          "target_va": 269254320,
+          "kind": 20
+        },
+        {
+          "symbol": "??2@YAPAXI@Z",
+          "site_rva": 182838,
+          "target_va": 269247098,
+          "kind": 20
+        },
+        {
+          "symbol": "?AddFile@FileList@@QAEXPBD0IIE@Z",
+          "site_rva": 182862,
+          "target_va": 268614304,
+          "kind": 20
+        },
+        {
+          "symbol": "_fclose",
+          "site_rva": 182868,
+          "target_va": 269254232,
+          "kind": 20
+        },
+        {
+          "symbol": "??3@YAXPAX@Z",
+          "site_rva": 182884,
+          "target_va": 269247626,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_file_list",
+      "section": 61,
+      "rva": 178848,
+      "size": 344,
+      "kind": ".text",
+      "sha256": "a351b393186e80bf1602019a61b94cfc73402c9439aad0231e0c2eadac4bddf0",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "??2@YAPAXI@Z",
+          "site_rva": 178972,
+          "target_va": 269247098,
+          "kind": 20
+        },
+        {
+          "symbol": "??2@YAPAXI@Z",
+          "site_rva": 178991,
+          "target_va": 269247098,
+          "kind": 20
+        },
+        {
+          "symbol": "??3@YAXPAX@Z",
+          "site_rva": 179087,
+          "target_va": 269247626,
+          "kind": 20
+        },
+        {
+          "symbol": "??3@YAXPAX@Z",
+          "site_rva": 179102,
+          "target_va": 269247626,
+          "kind": 20
+        },
+        {
+          "symbol": "?RemoveAtIndex@?$List@UFileListNode@@@DataStructures@@QAEXI@Z",
+          "site_rva": 179113,
+          "target_va": 268614160,
+          "kind": 20
+        },
+        {
+          "symbol": "?Insert@?$List@UFileListNode@@@DataStructures@@QAEXUFileListNode@@@Z",
+          "site_rva": 179178,
+          "target_va": 268612096,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_file_list",
+      "section": 13,
+      "rva": 176640,
+      "size": 149,
+      "kind": ".text",
+      "sha256": "ecab76cf17ec714777237a1bccf00aa7901858f4264d70dca17ca9011f5888e9",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "??2@YAPAXI@Z",
+          "site_rva": 176684,
+          "target_va": 269247098,
+          "kind": 20
+        },
+        {
+          "symbol": "??3@YAXPAX@Z",
+          "site_rva": 176722,
+          "target_va": 269247626,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_file_list",
+      "section": 54,
+      "rva": 178704,
+      "size": 62,
+      "kind": ".text",
+      "sha256": "ec94502fed25c6f7d9fca5cf49de899a096acf81cd31c019bd9c4dcf3caaebca",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "_memmove",
+          "site_rva": 178747,
+          "target_va": 269250016,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_file_list",
+      "section": 75,
+      "rva": 181888,
+      "size": 827,
+      "kind": ".text",
+      "sha256": "70ec40a310aca1ecf9ad341dc808ad0c3f3702716f29467568e70d0622544f52",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "__ehhandler$?PopulateDataFromDisk@FileList@@QAEXPBD_N11@Z",
+          "site_rva": 181891,
+          "target_va": 269360763,
+          "kind": 6
+        },
+        {
+          "symbol": "__except_list",
+          "site_rva": 181897,
+          "target_va": 0,
+          "kind": 6
+        },
+        {
+          "symbol": "__except_list",
+          "site_rva": 181905,
+          "target_va": 0,
+          "kind": 6
+        },
+        {
+          "symbol": "??0CSHA1@@QAE@XZ",
+          "site_rva": 181924,
+          "target_va": 268777376,
+          "kind": 20
+        },
+        {
+          "symbol": "??3@YAXPAX@Z",
+          "site_rva": 182008,
+          "target_va": 269247626,
+          "kind": 20
+        },
+        {
+          "symbol": "??_C@_01KMDKNFGN@?1?$AA@",
+          "site_rva": 182114,
+          "target_va": 269375012,
+          "kind": 6
+        },
+        {
+          "symbol": "??_C@_02JDPG@rb?$AA@",
+          "site_rva": 182175,
+          "target_va": 269381004,
+          "kind": 6
+        },
+        {
+          "symbol": "_fopen",
+          "site_rva": 182183,
+          "target_va": 269254473,
+          "kind": 20
+        },
+        {
+          "symbol": "_fseek",
+          "site_rva": 182246,
+          "target_va": 269256575,
+          "kind": 20
+        },
+        {
+          "symbol": "_ftell",
+          "site_rva": 182256,
+          "target_va": 269256367,
+          "kind": 20
+        },
+        {
+          "symbol": "_fseek",
+          "site_rva": 182269,
+          "target_va": 269256575,
+          "kind": 20
+        },
+        {
+          "symbol": "??2@YAPAXI@Z",
+          "site_rva": 182317,
+          "target_va": 269247098,
+          "kind": 20
+        },
+        {
+          "symbol": "_fread",
+          "site_rva": 182348,
+          "target_va": 269255810,
+          "kind": 20
+        },
+        {
+          "symbol": "?Reset@CSHA1@@QAEXXZ",
+          "site_rva": 182360,
+          "target_va": 268769008,
+          "kind": 20
+        },
+        {
+          "symbol": "?Update@CSHA1@@QAEXPAEI@Z",
+          "site_rva": 182385,
+          "target_va": 268776256,
+          "kind": 20
+        },
+        {
+          "symbol": "?Final@CSHA1@@QAEXXZ",
+          "site_rva": 182394,
+          "target_va": 268776688,
+          "kind": 20
+        },
+        {
+          "symbol": "?GetHash@CSHA1@@QBEPAEXZ",
+          "site_rva": 182407,
+          "target_va": 268777360,
+          "kind": 20
+        },
+        {
+          "symbol": "??2@YAPAXI@Z",
+          "site_rva": 182471,
+          "target_va": 269247098,
+          "kind": 20
+        },
+        {
+          "symbol": "??2@YAPAXI@Z",
+          "site_rva": 182485,
+          "target_va": 269247098,
+          "kind": 20
+        },
+        {
+          "symbol": "_fread",
+          "site_rva": 182516,
+          "target_va": 269255810,
+          "kind": 20
+        },
+        {
+          "symbol": "?Reset@CSHA1@@QAEXXZ",
+          "site_rva": 182528,
+          "target_va": 268769008,
+          "kind": 20
+        },
+        {
+          "symbol": "??2@YAPAXI@Z",
+          "site_rva": 182565,
+          "target_va": 269247098,
+          "kind": 20
+        },
+        {
+          "symbol": "_fread",
+          "site_rva": 182593,
+          "target_va": 269255810,
+          "kind": 20
+        },
+        {
+          "symbol": "_fclose",
+          "site_rva": 182602,
+          "target_va": 269254232,
+          "kind": 20
+        },
+        {
+          "symbol": "??1CSHA1@@UAE@XZ",
+          "site_rva": 182647,
+          "target_va": 268777392,
+          "kind": 20
+        },
+        {
+          "symbol": "__except_list",
+          "site_rva": 182663,
+          "target_va": 0,
+          "kind": 6
+        },
+        {
+          "symbol": "??3@YAXPAX@Z",
+          "site_rva": 182694,
+          "target_va": 269247626,
+          "kind": 20
+        },
+        {
+          "symbol": "?RemoveAtIndex@?$List@UFileListNode@@@DataStructures@@QAEXI@Z",
+          "site_rva": 182709,
+          "target_va": 268614160,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_file_list",
+      "section": 71,
+      "rva": 181248,
+      "size": 625,
+      "kind": ".text",
+      "sha256": "3b9f33096a3dae0935158b5788debdfdf2797b65cacbb8000d958d024c6ac72e",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "__ehhandler$?ListMissingOrChangedFiles@FileList@@QAEXPBDPAV1@_N2@Z",
+          "site_rva": 181251,
+          "target_va": 269360731,
+          "kind": 6
+        },
+        {
+          "symbol": "__except_list",
+          "site_rva": 181257,
+          "target_va": 0,
+          "kind": 6
+        },
+        {
+          "symbol": "__except_list",
+          "site_rva": 181265,
+          "target_va": 0,
+          "kind": 6
+        },
+        {
+          "symbol": "??0CSHA1@@QAE@XZ",
+          "site_rva": 181284,
+          "target_va": 268777376,
+          "kind": 20
+        },
+        {
+          "symbol": "??_C@_01KMDKNFGN@?1?$AA@",
+          "site_rva": 181457,
+          "target_va": 269375012,
+          "kind": 6
+        },
+        {
+          "symbol": "??_C@_02JDPG@rb?$AA@",
+          "site_rva": 181519,
+          "target_va": 269381004,
+          "kind": 6
+        },
+        {
+          "symbol": "_fopen",
+          "site_rva": 181527,
+          "target_va": 269254473,
+          "kind": 20
+        },
+        {
+          "symbol": "_fseek",
+          "site_rva": 181561,
+          "target_va": 269256575,
+          "kind": 20
+        },
+        {
+          "symbol": "_ftell",
+          "site_rva": 181567,
+          "target_va": 269256367,
+          "kind": 20
+        },
+        {
+          "symbol": "_fseek",
+          "site_rva": 181579,
+          "target_va": 269256575,
+          "kind": 20
+        },
+        {
+          "symbol": "??2@YAPAXI@Z",
+          "site_rva": 181630,
+          "target_va": 269247098,
+          "kind": 20
+        },
+        {
+          "symbol": "_fread",
+          "site_rva": 181642,
+          "target_va": 269255810,
+          "kind": 20
+        },
+        {
+          "symbol": "_fclose",
+          "site_rva": 181648,
+          "target_va": 269254232,
+          "kind": 20
+        },
+        {
+          "symbol": "?Reset@CSHA1@@QAEXXZ",
+          "site_rva": 181660,
+          "target_va": 268769008,
+          "kind": 20
+        },
+        {
+          "symbol": "?Update@CSHA1@@QAEXPAEI@Z",
+          "site_rva": 181671,
+          "target_va": 268776256,
+          "kind": 20
+        },
+        {
+          "symbol": "?Final@CSHA1@@QAEXXZ",
+          "site_rva": 181680,
+          "target_va": 268776688,
+          "kind": 20
+        },
+        {
+          "symbol": "??3@YAXPAX@Z",
+          "site_rva": 181686,
+          "target_va": 269247626,
+          "kind": 20
+        },
+        {
+          "symbol": "?GetHash@CSHA1@@QBEPAEXZ",
+          "site_rva": 181717,
+          "target_va": 268777360,
+          "kind": 20
+        },
+        {
+          "symbol": "?GetHash@CSHA1@@QBEPAEXZ",
+          "site_rva": 181763,
+          "target_va": 268777360,
+          "kind": 20
+        },
+        {
+          "symbol": "?AddFile@FileList@@QAEXPBD0IIE@Z",
+          "site_rva": 181791,
+          "target_va": 268614304,
+          "kind": 20
+        },
+        {
+          "symbol": "??1CSHA1@@UAE@XZ",
+          "site_rva": 181844,
+          "target_va": 268777392,
+          "kind": 20
+        },
+        {
+          "symbol": "__except_list",
+          "site_rva": 181860,
+          "target_va": 0,
+          "kind": 6
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_file_list",
+      "section": 69,
+      "rva": 180736,
+      "size": 509,
+      "kind": ".text",
+      "sha256": "5d76e16cd34974fcd62a384b5230e9482962cd2b24bad6c34c6dcb7b5de9fa39",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "?IsSlash@@YA_NE@Z",
+          "site_rva": 180839,
+          "target_va": 268624944,
+          "kind": 20
+        },
+        {
+          "symbol": "?IsSlash@@YA_NE@Z",
+          "site_rva": 180926,
+          "target_va": 268624944,
+          "kind": 20
+        },
+        {
+          "symbol": "__strnicmp",
+          "site_rva": 180969,
+          "target_va": 269255886,
+          "kind": 20
+        },
+        {
+          "symbol": "?IsSlash@@YA_NE@Z",
+          "site_rva": 181001,
+          "target_va": 268624944,
+          "kind": 20
+        },
+        {
+          "symbol": "__stricmp",
+          "site_rva": 181068,
+          "target_va": 269254514,
+          "kind": 20
+        },
+        {
+          "symbol": "?AddFile@FileList@@QAEXPBD0IIE@Z",
+          "site_rva": 181123,
+          "target_va": 268614304,
+          "kind": 20
+        },
+        {
+          "symbol": "?AddFile@FileList@@QAEXPBD0IIE@Z",
+          "site_rva": 181204,
+          "target_va": 268614304,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_file_list",
+      "section": 63,
+      "rva": 179200,
+      "size": 1521,
+      "kind": ".text",
+      "sha256": "7bcaa9119f080916431048aac4be1b3d91af0ece77f48bccf44c47ad2fe99638",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "__ehhandler$?AddFilesFromDirectory@FileList@@QAEXPBD0_N11E@Z",
+          "site_rva": 179203,
+          "target_va": 269360710,
+          "kind": 6
+        },
+        {
+          "symbol": "__except_list",
+          "site_rva": 179209,
+          "target_va": 0,
+          "kind": 6
+        },
+        {
+          "symbol": "__except_list",
+          "site_rva": 179217,
+          "target_va": 0,
+          "kind": 6
+        },
+        {
+          "symbol": "??0?$Queue@PAD@DataStructures@@QAE@XZ",
+          "site_rva": 179240,
+          "target_va": 268612320,
+          "kind": 20
+        },
+        {
+          "symbol": "??0CSHA1@@QAE@XZ",
+          "site_rva": 179260,
+          "target_va": 268777376,
+          "kind": 20
+        },
+        {
+          "symbol": "??2@YAPAXI@Z",
+          "site_rva": 179278,
+          "target_va": 269247098,
+          "kind": 20
+        },
+        {
+          "symbol": "??_C@_01KMDKNFGN@?1?$AA@",
+          "site_rva": 179442,
+          "target_va": 269375012,
+          "kind": 6
+        },
+        {
+          "symbol": "??_C@_01KMDKNFGN@?1?$AA@",
+          "site_rva": 179568,
+          "target_va": 269375012,
+          "kind": 6
+        },
+        {
+          "symbol": "?Push@?$Queue@PAD@DataStructures@@QAEXABQAD@Z",
+          "site_rva": 179587,
+          "target_va": 268612400,
+          "kind": 20
+        },
+        {
+          "symbol": "??_C@_03EMIMMIHL@?$CK?4?$CK?$AA@",
+          "site_rva": 179711,
+          "target_va": 269381008,
+          "kind": 6
+        },
+        {
+          "symbol": "__findfirst",
+          "site_rva": 179734,
+          "target_va": 269255140,
+          "kind": 20
+        },
+        {
+          "symbol": "__findnext",
+          "site_rva": 179766,
+          "target_va": 269255361,
+          "kind": 20
+        },
+        {
+          "symbol": "__findnext",
+          "site_rva": 179780,
+          "target_va": 269255361,
+          "kind": 20
+        },
+        {
+          "symbol": "??2@YAPAXI@Z",
+          "site_rva": 179931,
+          "target_va": 269247098,
+          "kind": 20
+        },
+        {
+          "symbol": "??_C@_02JDPG@rb?$AA@",
+          "site_rva": 179946,
+          "target_va": 269381004,
+          "kind": 6
+        },
+        {
+          "symbol": "_fopen",
+          "site_rva": 179954,
+          "target_va": 269254473,
+          "kind": 20
+        },
+        {
+          "symbol": "_fread",
+          "site_rva": 180015,
+          "target_va": 269255810,
+          "kind": 20
+        },
+        {
+          "symbol": "_fclose",
+          "site_rva": 180024,
+          "target_va": 269254232,
+          "kind": 20
+        },
+        {
+          "symbol": "?Reset@CSHA1@@QAEXXZ",
+          "site_rva": 180062,
+          "target_va": 268769008,
+          "kind": 20
+        },
+        {
+          "symbol": "?Update@CSHA1@@QAEXPAEI@Z",
+          "site_rva": 180083,
+          "target_va": 268776256,
+          "kind": 20
+        },
+        {
+          "symbol": "?Final@CSHA1@@QAEXXZ",
+          "site_rva": 180092,
+          "target_va": 268776688,
+          "kind": 20
+        },
+        {
+          "symbol": "?GetHash@CSHA1@@QBEPAEXZ",
+          "site_rva": 180101,
+          "target_va": 268777360,
+          "kind": 20
+        },
+        {
+          "symbol": "?Reset@CSHA1@@QAEXXZ",
+          "site_rva": 180170,
+          "target_va": 268769008,
+          "kind": 20
+        },
+        {
+          "symbol": "?Update@CSHA1@@QAEXPAEI@Z",
+          "site_rva": 180188,
+          "target_va": 268776256,
+          "kind": 20
+        },
+        {
+          "symbol": "?Final@CSHA1@@QAEXXZ",
+          "site_rva": 180197,
+          "target_va": 268776688,
+          "kind": 20
+        },
+        {
+          "symbol": "?GetHash@CSHA1@@QBEPAEXZ",
+          "site_rva": 180224,
+          "target_va": 268777360,
+          "kind": 20
+        },
+        {
+          "symbol": "?AddFile@FileList@@QAEXPBD0IIE@Z",
+          "site_rva": 180312,
+          "target_va": 268614304,
+          "kind": 20
+        },
+        {
+          "symbol": "??3@YAXPAX@Z",
+          "site_rva": 180318,
+          "target_va": 269247626,
+          "kind": 20
+        },
+        {
+          "symbol": "??2@YAPAXI@Z",
+          "site_rva": 180367,
+          "target_va": 269247098,
+          "kind": 20
+        },
+        {
+          "symbol": "??_C@_01KMDKNFGN@?1?$AA@",
+          "site_rva": 180459,
+          "target_va": 269375012,
+          "kind": 6
+        },
+        {
+          "symbol": "?Push@?$Queue@PAD@DataStructures@@QAEXABQAD@Z",
+          "site_rva": 180476,
+          "target_va": 268612400,
+          "kind": 20
+        },
+        {
+          "symbol": "__findnext",
+          "site_rva": 180506,
+          "target_va": 269255361,
+          "kind": 20
+        },
+        {
+          "symbol": "__findclose",
+          "site_rva": 180524,
+          "target_va": 269255008,
+          "kind": 20
+        },
+        {
+          "symbol": "??3@YAXPAX@Z",
+          "site_rva": 180534,
+          "target_va": 269247626,
+          "kind": 20
+        },
+        {
+          "symbol": "__findclose",
+          "site_rva": 180549,
+          "target_va": 269255008,
+          "kind": 20
+        },
+        {
+          "symbol": "??3@YAXPAX@Z",
+          "site_rva": 180559,
+          "target_va": 269247626,
+          "kind": 20
+        },
+        {
+          "symbol": "??3@YAXPAX@Z",
+          "site_rva": 180625,
+          "target_va": 269247626,
+          "kind": 20
+        },
+        {
+          "symbol": "??3@YAXPAX@Z",
+          "site_rva": 180644,
+          "target_va": 269247626,
+          "kind": 20
+        },
+        {
+          "symbol": "??1CSHA1@@UAE@XZ",
+          "site_rva": 180670,
+          "target_va": 268777392,
+          "kind": 20
+        },
+        {
+          "symbol": "??1?$Queue@PAD@DataStructures@@QAE@XZ",
+          "site_rva": 180690,
+          "target_va": 268612368,
+          "kind": 20
+        },
+        {
+          "symbol": "__except_list",
+          "site_rva": 180708,
+          "target_va": 0,
+          "kind": 6
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_file_list",
+      "section": 21,
+      "rva": 176912,
+      "size": 17,
+      "kind": ".text",
+      "sha256": "62ae0177ad70dc7bfa556ec9ef439f87ebb8596f18e4699eed1369c876d771bb",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "??3@YAXPAX@Z",
+          "site_rva": 176923,
+          "target_va": 269247626,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_file_list",
+      "section": 23,
+      "rva": 176944,
+      "size": 189,
+      "kind": ".text",
+      "sha256": "ebdd3871007e22b8e40e8616c03e048f3759ab4a377d7516bea5c5d8b876031a",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "??2@YAPAXI@Z",
+          "site_rva": 176957,
+          "target_va": 269247098,
+          "kind": 20
+        },
+        {
+          "symbol": "??2@YAPAXI@Z",
+          "site_rva": 177054,
+          "target_va": 269247098,
+          "kind": 20
+        },
+        {
+          "symbol": "??3@YAXPAX@Z",
+          "site_rva": 177119,
+          "target_va": 269247626,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_file_list",
+      "section": 19,
+      "rva": 176864,
+      "size": 34,
+      "kind": ".text",
+      "sha256": "1be13018b211a6661253a66c7dfc399cf7ae01c372fd957ae9777d6cd167509d",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "??2@YAPAXI@Z",
+          "site_rva": 176877,
+          "target_va": 269247098,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_file_list",
+      "section": 52,
+      "rva": 178464,
+      "size": 239,
+      "kind": ".text",
+      "sha256": "52ca70e1c464147d1eab57339d4b4f8c44131afa98aac21356468c5e0d04832c",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "__unlink",
+          "site_rva": 178652,
+          "target_va": 269255003,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_file_list",
+      "section": 49,
+      "rva": 178112,
+      "size": 338,
+      "kind": ".text",
+      "sha256": "2c70e2cdbde20b1e5c6f81f280d816d7051466daf906ac1afc5ba51e37f51a9a",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "??_C@_01KMDKNFGN@?1?$AA@",
+          "site_rva": 178254,
+          "target_va": 269375012,
+          "kind": 6
+        },
+        {
+          "symbol": "?WriteFileWithDirectories@@YA_NPBDPADI@Z",
+          "site_rva": 178395,
+          "target_va": 268624704,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_file_list",
+      "section": 47,
+      "rva": 177712,
+      "size": 395,
+      "kind": ".text",
+      "sha256": "94c4a746fd88037432a9a32071e4a0d680b76d4dce2066b749ec5af7a8fe6351",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "?ReadCompressed@BitStream@RakNet@@AAE_NPAEH_N@Z",
+          "site_rva": 177743,
+          "target_va": 268565104,
+          "kind": 20
+        },
+        {
+          "symbol": "?Clear@FileList@@QAEXXZ",
+          "site_rva": 177772,
+          "target_va": 268612816,
+          "kind": 20
+        },
+        {
+          "symbol": "?ReadCompressed@BitStream@RakNet@@AAE_NPAEH_N@Z",
+          "site_rva": 177804,
+          "target_va": 268565104,
+          "kind": 20
+        },
+        {
+          "symbol": "?Instance@StringCompressor@@SAPAV1@XZ",
+          "site_rva": 177821,
+          "target_va": 268778544,
+          "kind": 20
+        },
+        {
+          "symbol": "?DecodeString@StringCompressor@@QAE_NPADHPAVBitStream@RakNet@@H@Z",
+          "site_rva": 177828,
+          "target_va": 268780240,
+          "kind": 20
+        },
+        {
+          "symbol": "??$Read@_N@BitStream@RakNet@@QAE_NAA_N@Z",
+          "site_rva": 177840,
+          "target_va": 268469280,
+          "kind": 20
+        },
+        {
+          "symbol": "?ReadCompressed@BitStream@RakNet@@AAE_NPAEH_N@Z",
+          "site_rva": 177862,
+          "target_va": 268565104,
+          "kind": 20
+        },
+        {
+          "symbol": "??2@YAPAXI@Z",
+          "site_rva": 177883,
+          "target_va": 269247098,
+          "kind": 20
+        },
+        {
+          "symbol": "?Read@BitStream@RakNet@@QAE_NPADH@Z",
+          "site_rva": 177903,
+          "target_va": 268566176,
+          "kind": 20
+        },
+        {
+          "symbol": "??$Read@_N@BitStream@RakNet@@QAE_NAA_N@Z",
+          "site_rva": 177925,
+          "target_va": 268469280,
+          "kind": 20
+        },
+        {
+          "symbol": "?ReadCompressed@BitStream@RakNet@@AAE_NPAEH_N@Z",
+          "site_rva": 177957,
+          "target_va": 268565104,
+          "kind": 20
+        },
+        {
+          "symbol": "??2@YAPAXI@Z",
+          "site_rva": 177984,
+          "target_va": 269247098,
+          "kind": 20
+        },
+        {
+          "symbol": "?Insert@?$List@UFileListNode@@@DataStructures@@QAEXUFileListNode@@@Z",
+          "site_rva": 178053,
+          "target_va": 268612096,
+          "kind": 20
+        },
+        {
+          "symbol": "?Clear@FileList@@QAEXXZ",
+          "site_rva": 178088,
+          "target_va": 268612816,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_file_list",
+      "section": 45,
+      "rva": 177440,
+      "size": 263,
+      "kind": ".text",
+      "sha256": "d1b967cc58cb3966ab2ee29a93d6f8b4c6a6dd75c963029cbb07ba2bcaa180b5",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "?WriteCompressed@BitStream@RakNet@@AAEXPBEH_N@Z",
+          "site_rva": 177469,
+          "target_va": 268566832,
+          "kind": 20
+        },
+        {
+          "symbol": "?WriteCompressed@BitStream@RakNet@@AAEXPBEH_N@Z",
+          "site_rva": 177511,
+          "target_va": 268566832,
+          "kind": 20
+        },
+        {
+          "symbol": "?Instance@StringCompressor@@SAPAV1@XZ",
+          "site_rva": 177530,
+          "target_va": 268778544,
+          "kind": 20
+        },
+        {
+          "symbol": "?EncodeString@StringCompressor@@QAEXPBDHPAVBitStream@RakNet@@H@Z",
+          "site_rva": 177537,
+          "target_va": 268779936,
+          "kind": 20
+        },
+        {
+          "symbol": "?Write1@BitStream@RakNet@@QAEXXZ",
+          "site_rva": 177554,
+          "target_va": 268566320,
+          "kind": 20
+        },
+        {
+          "symbol": "?Write0@BitStream@RakNet@@QAEXXZ",
+          "site_rva": 177561,
+          "target_va": 268566288,
+          "kind": 20
+        },
+        {
+          "symbol": "?WriteCompressed@BitStream@RakNet@@AAEXPBEH_N@Z",
+          "site_rva": 177591,
+          "target_va": 268566832,
+          "kind": 20
+        },
+        {
+          "symbol": "?Write@BitStream@RakNet@@QAEXPBDH@Z",
+          "site_rva": 177612,
+          "target_va": 268566672,
+          "kind": 20
+        },
+        {
+          "symbol": "?Write1@BitStream@RakNet@@QAEXXZ",
+          "site_rva": 177633,
+          "target_va": 268566320,
+          "kind": 20
+        },
+        {
+          "symbol": "?Write0@BitStream@RakNet@@QAEXXZ",
+          "site_rva": 177640,
+          "target_va": 268566288,
+          "kind": 20
+        },
+        {
+          "symbol": "?WriteCompressed@BitStream@RakNet@@AAEXPBEH_N@Z",
+          "site_rva": 177676,
+          "target_va": 268566832,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_file_list",
+      "section": 5,
+      "rva": 33824,
+      "size": 89,
+      "kind": ".text",
+      "sha256": "b37034fc3b389d74b01e3aeca79066e2df1184e312ff0b4ee54a0c788b584854",
+      "whole_bytes_equal": true,
+      "bindings": []
+    },
+    {
+      "unit": "closure_vendor_file_list",
+      "section": 57,
+      "rva": 925200,
+      "size": 18,
+      "kind": ".text$x",
+      "sha256": "475751b0010d5f9c0752ea1e9b3d0d1d2c9a15164577e9f9d2db3eaaf321b141",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "??1?$List@UFileListNode@@@DataStructures@@QAE@XZ",
+          "site_rva": 925204,
+          "target_va": 268612064,
+          "kind": 20
+        },
+        {
+          "symbol": "$T4471",
+          "site_rva": 925209,
+          "target_va": 269458008,
+          "kind": 6
+        },
+        {
+          "symbol": "___CxxFrameHandler",
+          "site_rva": 925214,
+          "target_va": 269247782,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_file_list",
+      "section": 66,
+      "rva": 945552,
+      "size": 4,
+      "kind": ".rdata",
+      "sha256": "0308cdf4963fc7e0b9c1c5b3433590f8c287515b0ec53d2346d7c96eac4fd39b",
+      "whole_bytes_equal": true,
+      "bindings": []
+    },
+    {
+      "unit": "closure_vendor_file_list",
+      "section": 65,
+      "rva": 945548,
+      "size": 3,
+      "kind": ".rdata",
+      "sha256": "ef4a3d25250e72708f6f82d59e29b96880728d971ae0b4862d37c9cd927bb082",
+      "whole_bytes_equal": true,
+      "bindings": []
+    },
+    {
+      "unit": "closure_vendor_file_list",
+      "section": 76,
+      "rva": 925296,
+      "size": 21,
+      "kind": ".text$x",
+      "sha256": "8a47cdab7111a35b46ba0ef9a4d918d8596ce386e7d349ab3f2bf0e31f555f0a",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "??1CSHA1@@UAE@XZ",
+          "site_rva": 925303,
+          "target_va": 268777392,
+          "kind": 20
+        },
+        {
+          "symbol": "$T4837",
+          "site_rva": 925308,
+          "target_va": 269458124,
+          "kind": 6
+        },
+        {
+          "symbol": "___CxxFrameHandler",
+          "site_rva": 925313,
+          "target_va": 269247782,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_file_list",
+      "section": 50,
+      "rva": 939556,
+      "size": 2,
+      "kind": ".rdata",
+      "sha256": "ade0274f84b828b0980112609bb51775d0a4e39bf4728f21dcdd04a627abb92a",
+      "whole_bytes_equal": true,
+      "bindings": []
+    },
+    {
+      "unit": "closure_vendor_file_list",
+      "section": 72,
+      "rva": 925264,
+      "size": 21,
+      "kind": ".text$x",
+      "sha256": "978a41bb1901ed104ec32e6a8ff85f3bfaf52971303b941387fd7e86f118db9a",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "??1CSHA1@@UAE@XZ",
+          "site_rva": 925271,
+          "target_va": 268777392,
+          "kind": 20
+        },
+        {
+          "symbol": "$T4715",
+          "site_rva": 925276,
+          "target_va": 269458088,
+          "kind": 6
+        },
+        {
+          "symbol": "___CxxFrameHandler",
+          "site_rva": 925281,
+          "target_va": 269247782,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_file_list",
+      "section": 64,
+      "rva": 925232,
+      "size": 32,
+      "kind": ".text$x",
+      "sha256": "69501b4c2a572734b7f4a6253a28521a6e17e18f1bd7aee8e34c9506d7a09a77",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "??1?$Queue@PAD@DataStructures@@QAE@XZ",
+          "site_rva": 925239,
+          "target_va": 268612368,
+          "kind": 20
+        },
+        {
+          "symbol": "??1CSHA1@@UAE@XZ",
+          "site_rva": 925250,
+          "target_va": 268777392,
+          "kind": 20
+        },
+        {
+          "symbol": "$T4564",
+          "site_rva": 925255,
+          "target_va": 269458052,
+          "kind": 6
+        },
+        {
+          "symbol": "___CxxFrameHandler",
+          "site_rva": 925260,
+          "target_va": 269247782,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_file_list",
+      "section": 58,
+      "rva": 1022544,
+      "size": 36,
+      "kind": ".xdata$x",
+      "sha256": "fd40b33603e385b2773db2c02df9de6b65474b170319dea675d0498a986de4e2",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "$L4467",
+          "site_rva": 1022548,
+          "target_va": 269360656,
+          "kind": 6
+        },
+        {
+          "symbol": "$T4474",
+          "site_rva": 1022560,
+          "target_va": 269458000,
+          "kind": 6
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_file_list",
+      "section": 77,
+      "rva": 1022660,
+      "size": 36,
+      "kind": ".xdata$x",
+      "sha256": "1857d848d8d7da0c00e41649dae1d4d14756708a3d241cfa990f30bb868cfcd0",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "$L4741",
+          "site_rva": 1022664,
+          "target_va": 269360752,
+          "kind": 6
+        },
+        {
+          "symbol": "$T4850",
+          "site_rva": 1022676,
+          "target_va": 269458116,
+          "kind": 6
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_file_list",
+      "section": 73,
+      "rva": 1022624,
+      "size": 36,
+      "kind": ".xdata$x",
+      "sha256": "03a0ffb9a851ff91b69d50f8785eca9e6925eb92ab1630da9046593d9f7189a6",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "$L4684",
+          "site_rva": 1022628,
+          "target_va": 269360720,
+          "kind": 6
+        },
+        {
+          "symbol": "$T4729",
+          "site_rva": 1022640,
+          "target_va": 269458080,
+          "kind": 6
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_file_list",
+      "section": 67,
+      "rva": 1022580,
+      "size": 44,
+      "kind": ".xdata$x",
+      "sha256": "5e6ec9552cec9dc6e02115795486c998b0699a4cdecfafd83af495886e47d948",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "$L4537",
+          "site_rva": 1022584,
+          "target_va": 269360688,
+          "kind": 6
+        },
+        {
+          "symbol": "$L4538",
+          "site_rva": 1022592,
+          "target_va": 269360699,
+          "kind": 6
+        },
+        {
+          "symbol": "$T4599",
+          "site_rva": 1022604,
+          "target_va": 269458036,
+          "kind": 6
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_file_operations",
+      "section": 13,
+      "rva": 189712,
+      "size": 76,
+      "kind": ".text",
+      "sha256": "fc8573685d32b0058f9dbb7710de0d6fd07c7ffb1c0a3c32d1d4de1de1e53a0c",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "_memmove",
+          "site_rva": 189766,
+          "target_va": 269250016,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_file_operations",
+      "section": 10,
+      "rva": 189584,
+      "size": 118,
+      "kind": ".text",
+      "sha256": "8672d104fec48323891fd03106b58a0c7722b3ff375ce13bca2440f3b8af01c4",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "?AddSlash@@YAXPAD@Z",
+          "site_rva": 189619,
+          "target_va": 268624976,
+          "kind": 20
+        },
+        {
+          "symbol": "??_C@_03EMIMMIHL@?$CK?4?$CK?$AA@",
+          "site_rva": 189642,
+          "target_va": 269381008,
+          "kind": 6
+        },
+        {
+          "symbol": "__findfirst",
+          "site_rva": 189662,
+          "target_va": 269255140,
+          "kind": 20
+        },
+        {
+          "symbol": "__findclose",
+          "site_rva": 189686,
+          "target_va": 269255008,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_file_operations",
+      "section": 8,
+      "rva": 189520,
+      "size": 59,
+      "kind": ".text",
+      "sha256": "31afc6032c785de48f6aee737373f6d7e2917910ae9f092b9220675772c58886",
+      "whole_bytes_equal": true,
+      "bindings": []
+    },
+    {
+      "unit": "closure_vendor_file_operations",
+      "section": 6,
+      "rva": 189488,
+      "size": 21,
+      "kind": ".text",
+      "sha256": "5b78925b616db17670bd49a22055e19bc0644df1c5289907356e8c6495e468dc",
+      "whole_bytes_equal": true,
+      "bindings": []
+    },
+    {
+      "unit": "closure_vendor_file_operations",
+      "section": 3,
+      "rva": 189248,
+      "size": 236,
+      "kind": ".text",
+      "sha256": "79f8dba1839468e0430bd513bf3755ad7676102088296c1dda21093706239e9b",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "??2@YAPAXI@Z",
+          "site_rva": 189293,
+          "target_va": 269247098,
+          "kind": 20
+        },
+        {
+          "symbol": "__mkdir",
+          "site_rva": 189344,
+          "target_va": 269256648,
+          "kind": 20
+        },
+        {
+          "symbol": "??_C@_02GMLFBBN@wb?$AA@",
+          "site_rva": 189385,
+          "target_va": 269376820,
+          "kind": 6
+        },
+        {
+          "symbol": "_fopen",
+          "site_rva": 189391,
+          "target_va": 269254473,
+          "kind": 20
+        },
+        {
+          "symbol": "??3@YAXPAX@Z",
+          "site_rva": 189406,
+          "target_va": 269247626,
+          "kind": 20
+        },
+        {
+          "symbol": "_fwrite",
+          "site_rva": 189426,
+          "target_va": 269253234,
+          "kind": 20
+        },
+        {
+          "symbol": "_fclose",
+          "site_rva": 189432,
+          "target_va": 269254232,
+          "kind": 20
+        },
+        {
+          "symbol": "??3@YAXPAX@Z",
+          "site_rva": 189441,
+          "target_va": 269247626,
+          "kind": 20
+        },
+        {
+          "symbol": "__mkdir",
+          "site_rva": 189457,
+          "target_va": 269256648,
+          "kind": 20
+        },
+        {
+          "symbol": "??3@YAXPAX@Z",
+          "site_rva": 189466,
+          "target_va": 269247626,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_file_operations",
+      "section": 11,
+      "rva": 945552,
+      "size": 4,
+      "kind": ".rdata",
+      "sha256": "0308cdf4963fc7e0b9c1c5b3433590f8c287515b0ec53d2346d7c96eac4fd39b",
+      "whole_bytes_equal": true,
+      "bindings": []
+    },
+    {
+      "unit": "closure_vendor_file_operations",
+      "section": 4,
+      "rva": 941364,
+      "size": 3,
+      "kind": ".rdata",
+      "sha256": "229b7c9a4f22005ef2af2aa0e5b226b59c93e9fe97ffd2a05019cb831eaa6121",
+      "whole_bytes_equal": true,
+      "bindings": []
+    }
+  ],
+  "bindings_checked": 483,
+  "external_targets": {
+    "??8PlayerID@@QBE_NABU0@@Z": 268646112,
+    "??3@YAXPAX@Z": 269247626,
+    "_memmove": 269250016,
+    "??1HuffmanEncodingTree@@QAE@XZ": 268595104,
+    "__ehhandler$??1FileListTransfer@@QAE@XZ": 269361019,
+    "__except_list": 0,
+    "??_7FileListTransfer@@6B@": 269381012,
+    "__ehhandler$??1?$Map@GPAUFileListReceiver@FileListTransfer@@$1??$defaultMapKeyComparison@G@DataStructures@@YAHABG0@Z@DataStructures@@QAE@XZ": 269360984,
+    "__ehhandler$??1?$OrderedList@GUMapNode@?$Map@GPAUFileListReceiver@FileListTransfer@@$1??$defaultMapKeyComparison@G@DataStructures@@YAHABG0@Z@DataStructures@@$1?NodeComparisonFunc@23@SAHABGABU123@@Z@DataStructures@@QAE@XZ": 269360920,
+    "__ehhandler$??1FileList@@QAE@XZ": 269360664,
+    "??_C@_03EMIMMIHL@?$CK?4?$CK?$AA@": 269381008,
+    "__findfirst": 269255140,
+    "__findclose": 269255008,
+    "??2@YAPAXI@Z": 269247098,
+    "__mkdir": 269256648,
+    "??_C@_02GMLFBBN@wb?$AA@": 269376820,
+    "_fopen": 269254473,
+    "_fwrite": 269253234,
+    "_fclose": 269254232,
+    "closure_vendor_file_list_transfer::$L4937": 268624604,
+    "closure_vendor_file_list_transfer::$L4938": 268624584,
+    "closure_vendor_file_list_transfer::$L3592": 268624497,
+    "closure_vendor_file_list_transfer::$L3593": 268624531,
+    "closure_vendor_file_list_transfer::$L3594": 268624543,
+    "closure_vendor_file_list_transfer::$L3595": 268624557,
+    "closure_vendor_file_list_transfer::$L3600": 268624522,
+    "__ehhandler$?DecodeFile@FileListTransfer@@IAE_NPAUPacket@@_N@Z": 269361083,
+    "??0BitStream@RakNet@@QAE@PAEI_N@Z": 268564416,
+    "?IgnoreBits@BitStream@RakNet@@QAEXH@Z": 268565744,
+    "?ReadBits@BitStream@RakNet@@QAE_NPAEH_N@Z": 268564912,
+    "??1BitStream@RakNet@@QAE@XZ": 268564688,
+    "??9PlayerID@@QBE_NABU0@@Z": 268646160,
+    "?ReadCompressed@BitStream@RakNet@@AAE_NPAEH_N@Z": 268565104,
+    "?Instance@StringCompressor@@SAPAV1@XZ": 268778544,
+    "?DecodeString@StringCompressor@@QAE_NPADHPAVBitStream@RakNet@@H@Z": 268780240,
+    "?DecodeArray@HuffmanEncodingTree@@QAEIPAVBitStream@RakNet@@IIPAE@Z": 268593008,
+    "?Read@BitStream@RakNet@@QAE_NPADH@Z": 268566176,
+    "__ehhandler$?DecodeSetHeader@FileListTransfer@@IAE_NPAUPacket@@@Z": 269360955,
+    "?GenerateFromFrequencyTable@HuffmanEncodingTree@@QAEXQAI@Z": 268595136,
+    "__ehhandler$?SetupReceive@FileListTransfer@@QAEGPAVFileListTransferCBInterface@@_NUPlayerID@@@Z": 269361051,
+    "??0HuffmanEncodingTree@@QAE@XZ": 268592992,
+    "__ehhandler$?Insert@?$List@UMapNode@?$Map@GPAUFileListReceiver@FileListTransfer@@$1??$defaultMapKeyComparison@G@DataStructures@@YAHABG0@Z@DataStructures@@@DataStructures@@QAEXUMapNode@?$Map@GPAUFileListReceiver@FileListTransfer@@$1??$defaultMapKeyComparison@G@DataStructures@@YAHABG0@Z@2@I@Z": 269360891,
+    "__ehhandler$?Insert@?$List@UMapNode@?$Map@GPAUFileListReceiver@FileListTransfer@@$1??$defaultMapKeyComparison@G@DataStructures@@YAHABG0@Z@DataStructures@@@DataStructures@@QAEXUMapNode@?$Map@GPAUFileListReceiver@FileListTransfer@@$1??$defaultMapKeyComparison@G@DataStructures@@YAHABG0@Z@2@@Z": 269360859,
+    "__ehhandler$?Send@FileListTransfer@@QAEXPAVFileList@@PAVRakPeerInterface@@UPlayerID@@GW4PacketPriority@@D_N@Z": 269360828,
+    "??0BitStream@RakNet@@QAE@XZ": 268564272,
+    "?Reset@BitStream@RakNet@@QAEXXZ": 268564720,
+    "?EncodeArray@HuffmanEncodingTree@@QAEXPAEIPAVBitStream@RakNet@@@Z": 268594688,
+    "?WriteBits@BitStream@RakNet@@QAEXPBEH_N@Z": 268566496,
+    "?Write1@BitStream@RakNet@@QAEXXZ": 268566320,
+    "?WriteCompressed@BitStream@RakNet@@AAEXPBEH_N@Z": 268566832,
+    "?Write0@BitStream@RakNet@@QAEXXZ": 268566288,
+    "?EncodeString@StringCompressor@@QAEXPBDHPAVBitStream@RakNet@@H@Z": 268779936,
+    "??_C@_02JDPG@rb?$AA@": 269381004,
+    "_fseek": 269256575,
+    "_ftell": 269256367,
+    "__alloca_probe": 269254320,
+    "__ehhandler$?PopulateDataFromDisk@FileList@@QAEXPBD_N11@Z": 269360763,
+    "??0CSHA1@@QAE@XZ": 268777376,
+    "??_C@_01KMDKNFGN@?1?$AA@": 269375012,
+    "_fread": 269255810,
+    "?Reset@CSHA1@@QAEXXZ": 268769008,
+    "?Update@CSHA1@@QAEXPAEI@Z": 268776256,
+    "?Final@CSHA1@@QAEXXZ": 268776688,
+    "?GetHash@CSHA1@@QBEPAEXZ": 268777360,
+    "??1CSHA1@@UAE@XZ": 268777392,
+    "__ehhandler$?ListMissingOrChangedFiles@FileList@@QAEXPBDPAV1@_N2@Z": 269360731,
+    "__strnicmp": 269255886,
+    "__stricmp": 269254514,
+    "__ehhandler$?AddFilesFromDirectory@FileList@@QAEXPBD0_N11E@Z": 269360710,
+    "__findnext": 269255361,
+    "__unlink": 269255003,
+    "?Write@BitStream@RakNet@@QAEXPBDH@Z": 268566672,
+    "closure_vendor_file_list_transfer::$T4804": 269458400,
+    "___CxxFrameHandler": 269247782,
+    "?OnDetach@PluginInterface@@UAEXPAVRakPeerInterface@@@Z": 268648320,
+    "?OnInitialize@PluginInterface@@UAEXPAVRakPeerInterface@@@Z": 268648336,
+    "?Update@PluginInterface@@UAEXPAVRakPeerInterface@@@Z": 268648352,
+    "?OnDirectSocketSend@PluginInterface@@UAEXPBDIUPlayerID@@@Z": 268648416,
+    "?OnDirectSocketReceive@PluginInterface@@UAEXPBDIUPlayerID@@@Z": 268648432,
+    "?OnInternalPacket@PluginInterface@@UAEXPAUInternalPacket@@IUPlayerID@@I_N@Z": 268648448,
+    "closure_vendor_file_list_transfer::$T4769": 269458364,
+    "closure_vendor_file_list_transfer::$T4672": 269458292,
+    "closure_vendor_file_list_transfer::$T4912": 269458472,
+    "closure_vendor_file_list_transfer::$T4740": 269458328,
+    "closure_vendor_file_list_transfer::$T4840": 269458436,
+    "closure_vendor_file_list_transfer::$T4646": 269458256,
+    "closure_vendor_file_list_transfer::$T4631": 269458220,
+    "closure_vendor_file_list_transfer::$T4551": 269458184,
+    "closure_vendor_file_list_transfer::$L4802": 269361008,
+    "closure_vendor_file_list_transfer::$T4806": 269458392,
+    "closure_vendor_file_list_transfer::$L4767": 269360976,
+    "closure_vendor_file_list_transfer::$T4771": 269458356,
+    "closure_vendor_file_list_transfer::$L4670": 269360912,
+    "closure_vendor_file_list_transfer::$T4674": 269458284,
+    "closure_vendor_file_list_transfer::$L4860": 269361072,
+    "closure_vendor_file_list_transfer::$T4918": 269458464,
+    "closure_vendor_file_list_transfer::$L4696": 269360944,
+    "closure_vendor_file_list_transfer::$T4745": 269458320,
+    "closure_vendor_file_list_transfer::$L4820": 269361040,
+    "closure_vendor_file_list_transfer::$T4842": 269458428,
+    "closure_vendor_file_list_transfer::$L4644": 269360880,
+    "closure_vendor_file_list_transfer::$T4648": 269458248,
+    "closure_vendor_file_list_transfer::$L4629": 269360848,
+    "closure_vendor_file_list_transfer::$T4633": 269458212,
+    "closure_vendor_file_list_transfer::$L4353": 269360784,
+    "closure_vendor_file_list_transfer::$L4354": 269360795,
+    "closure_vendor_file_list_transfer::$L4355": 269360806,
+    "closure_vendor_file_list_transfer::$L4356": 269360817,
+    "closure_vendor_file_list_transfer::$T4567": 269458152,
+    "closure_vendor_file_list::$T4471": 269458008,
+    "closure_vendor_file_list::$T4837": 269458124,
+    "closure_vendor_file_list::$T4715": 269458088,
+    "closure_vendor_file_list::$T4564": 269458052,
+    "closure_vendor_file_list::$L4467": 269360656,
+    "closure_vendor_file_list::$T4474": 269458000,
+    "closure_vendor_file_list::$L4741": 269360752,
+    "closure_vendor_file_list::$T4850": 269458116,
+    "closure_vendor_file_list::$L4684": 269360720,
+    "closure_vendor_file_list::$T4729": 269458080,
+    "closure_vendor_file_list::$L4537": 269360688,
+    "closure_vendor_file_list::$L4538": 269360699,
+    "closure_vendor_file_list::$T4599": 269458036
+  },
+  "identity_reasons": {
+    "?Clear@FileList@@QAEXXZ": "actual relocation from ??1FileList@@QAE@XZ",
+    "?Serialize@FileList@@QAEXPAVBitStream@RakNet@@@Z": "source method semantics + original call graph / allocation / table owner",
+    "?Deserialize@FileList@@QAE_NPAVBitStream@RakNet@@@Z": "source method semantics + original call graph / allocation / table owner",
+    "?WriteDataToDisk@FileList@@QAEXPBD@Z": "source method semantics + original call graph / allocation / table owner",
+    "?DeleteFiles@FileList@@QAEXPBD@Z": "source method semantics + original call graph / allocation / table owner",
+    "?AddFile@FileList@@QAEXPBD0IIE@Z": "actual relocation from ?AddFile@FileList@@QAEXPBD0E@Z",
+    "?AddFilesFromDirectory@FileList@@QAEXPBD0_N11E@Z": "source method semantics + original call graph / allocation / table owner",
+    "?GetDeltaToCurrent@FileList@@QAEXPAV1@0PBD1@Z": "source method semantics + original call graph / allocation / table owner",
+    "?ListMissingOrChangedFiles@FileList@@QAEXPBDPAV1@_N2@Z": "source method semantics + original call graph / allocation / table owner",
+    "?PopulateDataFromDisk@FileList@@QAEXPBD_N11@Z": "source method semantics + original call graph / allocation / table owner",
+    "?AddFile@FileList@@QAEXPBD0E@Z": "source method semantics + original call graph / allocation / table owner",
+    "?OnAttach@FileListTransfer@@UAEXPAVRakPeerInterface@@@Z": "source method semantics + original call graph / allocation / table owner",
+    "?Send@FileListTransfer@@QAEXPAVFileList@@PAVRakPeerInterface@@UPlayerID@@GW4PacketPriority@@D_N@Z": "source method semantics + original call graph / allocation / table owner",
+    "?DecodeSetHeader@FileListTransfer@@IAE_NPAUPacket@@@Z": "actual relocation from ?OnReceive@FileListTransfer@@UAE?AW4PluginReceiveResult@@PAVRakPeerInterface@@PAUPacket@@@Z",
+    "?Clear@FileListTransfer@@IAEXXZ": "actual relocation from ?OnDisconnect@FileListTransfer@@UAEXPAVRakPeerInterface@@@Z",
+    "??0FileListTransfer@@QAE@XZ": "source method semantics + original call graph / allocation / table owner",
+    "?SetupReceive@FileListTransfer@@QAEGPAVFileListTransferCBInterface@@_NUPlayerID@@@Z": "source method semantics + original call graph / allocation / table owner",
+    "?DecodeFile@FileListTransfer@@IAE_NPAUPacket@@_N@Z": "actual relocation from ?OnReceive@FileListTransfer@@UAE?AW4PluginReceiveResult@@PAVRakPeerInterface@@PAUPacket@@@Z",
+    "?RemoveReceiver@FileListTransfer@@QAEXUPlayerID@@@Z": "actual relocation from ?OnCloseConnection@FileListTransfer@@UAEXPAVRakPeerInterface@@UPlayerID@@@Z",
+    "?OnReceive@FileListTransfer@@UAE?AW4PluginReceiveResult@@PAVRakPeerInterface@@PAUPacket@@@Z": "source method semantics + original call graph / allocation / table owner",
+    "?WriteFileWithDirectories@@YA_NPBDPADI@Z": "source method semantics + original call graph / allocation / table owner",
+    "?IsSlash@@YA_NE@Z": "source method semantics + original call graph / allocation / table owner",
+    "?AddSlash@@YAXPAD@Z": "actual relocation from ?DirectoryExists@@YA_NPBD@Z",
+    "?DirectoryExists@@YA_NPBD@Z": "source method semantics + original call graph / allocation / table owner",
+    "?QuoteIfSpaces@@YAXPAD@Z": "source method semantics + original call graph / allocation / table owner",
+    "??1FileList@@QAE@XZ": "source method semantics + original call graph / allocation / table owner",
+    "??1FileListTransfer@@QAE@XZ": "source method semantics + original call graph / allocation / table owner",
+    "?OnDisconnect@FileListTransfer@@UAEXPAVRakPeerInterface@@@Z": "source method semantics + original call graph / allocation / table owner",
+    "?OnCloseConnection@FileListTransfer@@UAEXPAVRakPeerInterface@@UPlayerID@@@Z": "source method semantics + original call graph / allocation / table owner",
+    "?Size@?$Map@GPAUFileListReceiver@FileListTransfer@@$1??$defaultMapKeyComparison@G@DataStructures@@YAHABG0@Z@DataStructures@@QBEIXZ": "actual relocation from ?RemoveReceiver@FileListTransfer@@QAEXUPlayerID@@@Z",
+    "??A?$Map@GPAUFileListReceiver@FileListTransfer@@$1??$defaultMapKeyComparison@G@DataStructures@@YAHABG0@Z@DataStructures@@QBEAAPAUFileListReceiver@FileListTransfer@@I@Z": "actual relocation from ?RemoveReceiver@FileListTransfer@@QAEXUPlayerID@@@Z",
+    "??1FileListReceiver@FileListTransfer@@QAE@XZ": "actual relocation from ?RemoveReceiver@FileListTransfer@@QAEXUPlayerID@@@Z",
+    "?RemoveAtIndex@?$Map@GPAUFileListReceiver@FileListTransfer@@$1??$defaultMapKeyComparison@G@DataStructures@@YAHABG0@Z@DataStructures@@QAEXI@Z": "actual relocation from ?RemoveReceiver@FileListTransfer@@QAEXUPlayerID@@@Z",
+    "?RemoveAtIndex@?$OrderedList@GUMapNode@?$Map@GPAUFileListReceiver@FileListTransfer@@$1??$defaultMapKeyComparison@G@DataStructures@@YAHABG0@Z@DataStructures@@$1?NodeComparisonFunc@23@SAHABGABU123@@Z@DataStructures@@QAEXI@Z": "actual relocation from ?RemoveAtIndex@?$Map@GPAUFileListReceiver@FileListTransfer@@$1??$defaultMapKeyComparison@G@DataStructures@@YAHABG0@Z@DataStructures@@QAEXI@Z",
+    "?RemoveAtIndex@?$List@UMapNode@?$Map@GPAUFileListReceiver@FileListTransfer@@$1??$defaultMapKeyComparison@G@DataStructures@@YAHABG0@Z@DataStructures@@@DataStructures@@QAEXI@Z": "actual relocation from ?RemoveAtIndex@?$OrderedList@GUMapNode@?$Map@GPAUFileListReceiver@FileListTransfer@@$1??$defaultMapKeyComparison@G@DataStructures@@YAHABG0@Z@DataStructures@@$1?NodeComparisonFunc@23@SAHABGABU123@@Z@DataStructures@@QAEXI@Z",
+    "??A?$OrderedList@GUMapNode@?$Map@GPAUFileListReceiver@FileListTransfer@@$1??$defaultMapKeyComparison@G@DataStructures@@YAHABG0@Z@DataStructures@@$1?NodeComparisonFunc@23@SAHABGABU123@@Z@DataStructures@@QBEAAUMapNode@?$Map@GPAUFileListReceiver@FileListTransfer@@$1??$defaultMapKeyComparison@G@DataStructures@@YAHABG0@Z@1@I@Z": "actual relocation from ??A?$Map@GPAUFileListReceiver@FileListTransfer@@$1??$defaultMapKeyComparison@G@DataStructures@@YAHABG0@Z@DataStructures@@QBEAAPAUFileListReceiver@FileListTransfer@@I@Z",
+    "?Size@?$OrderedList@GUMapNode@?$Map@GPAUFileListReceiver@FileListTransfer@@$1??$defaultMapKeyComparison@G@DataStructures@@YAHABG0@Z@DataStructures@@$1?NodeComparisonFunc@23@SAHABGABU123@@Z@DataStructures@@QBEIXZ": "actual relocation from ?Size@?$Map@GPAUFileListReceiver@FileListTransfer@@$1??$defaultMapKeyComparison@G@DataStructures@@YAHABG0@Z@DataStructures@@QBEIXZ",
+    "?Clear@?$Map@GPAUFileListReceiver@FileListTransfer@@$1??$defaultMapKeyComparison@G@DataStructures@@YAHABG0@Z@DataStructures@@QAEXXZ": "actual relocation from ?Clear@FileListTransfer@@IAEXXZ",
+    "?Clear@?$OrderedList@GUMapNode@?$Map@GPAUFileListReceiver@FileListTransfer@@$1??$defaultMapKeyComparison@G@DataStructures@@YAHABG0@Z@DataStructures@@$1?NodeComparisonFunc@23@SAHABGABU123@@Z@DataStructures@@QAEXXZ": "actual relocation from ?Clear@?$Map@GPAUFileListReceiver@FileListTransfer@@$1??$defaultMapKeyComparison@G@DataStructures@@YAHABG0@Z@DataStructures@@QAEXXZ",
+    "?Clear@?$List@UMapNode@?$Map@GPAUFileListReceiver@FileListTransfer@@$1??$defaultMapKeyComparison@G@DataStructures@@YAHABG0@Z@DataStructures@@@DataStructures@@QAEX_N@Z": "actual relocation from ?Clear@?$OrderedList@GUMapNode@?$Map@GPAUFileListReceiver@FileListTransfer@@$1??$defaultMapKeyComparison@G@DataStructures@@YAHABG0@Z@DataStructures@@$1?NodeComparisonFunc@23@SAHABGABU123@@Z@DataStructures@@QAEXXZ",
+    "??1?$Map@GPAUFileListReceiver@FileListTransfer@@$1??$defaultMapKeyComparison@G@DataStructures@@YAHABG0@Z@DataStructures@@QAE@XZ": "actual relocation from ??1FileListTransfer@@QAE@XZ",
+    "??1?$OrderedList@GUMapNode@?$Map@GPAUFileListReceiver@FileListTransfer@@$1??$defaultMapKeyComparison@G@DataStructures@@YAHABG0@Z@DataStructures@@$1?NodeComparisonFunc@23@SAHABGABU123@@Z@DataStructures@@QAE@XZ": "actual relocation from ??1?$Map@GPAUFileListReceiver@FileListTransfer@@$1??$defaultMapKeyComparison@G@DataStructures@@YAHABG0@Z@DataStructures@@QAE@XZ",
+    "??1?$List@UMapNode@?$Map@GPAUFileListReceiver@FileListTransfer@@$1??$defaultMapKeyComparison@G@DataStructures@@YAHABG0@Z@DataStructures@@@DataStructures@@QAE@XZ": "actual relocation from ??1?$OrderedList@GUMapNode@?$Map@GPAUFileListReceiver@FileListTransfer@@$1??$defaultMapKeyComparison@G@DataStructures@@YAHABG0@Z@DataStructures@@$1?NodeComparisonFunc@23@SAHABGABU123@@Z@DataStructures@@QAE@XZ",
+    "??1?$List@UFileListNode@@@DataStructures@@QAE@XZ": "actual relocation from ??1FileList@@QAE@XZ",
+    "?Clear@?$List@UFileListNode@@@DataStructures@@QAEX_N@Z": "actual relocation from ?Clear@FileList@@QAEXXZ",
+    "?Has@?$Map@GPAUFileListReceiver@FileListTransfer@@$1??$defaultMapKeyComparison@G@DataStructures@@YAHABG0@Z@DataStructures@@QAE_NABG@Z": "actual relocation from ?DecodeFile@FileListTransfer@@IAE_NPAUPacket@@_N@Z",
+    "?Get@?$Map@GPAUFileListReceiver@FileListTransfer@@$1??$defaultMapKeyComparison@G@DataStructures@@YAHABG0@Z@DataStructures@@QAEAAPAUFileListReceiver@FileListTransfer@@ABG@Z": "actual relocation from ?DecodeFile@FileListTransfer@@IAE_NPAUPacket@@_N@Z",
+    "?Delete@?$Map@GPAUFileListReceiver@FileListTransfer@@$1??$defaultMapKeyComparison@G@DataStructures@@YAHABG0@Z@DataStructures@@QAE_NABG@Z": "actual relocation from ?DecodeFile@FileListTransfer@@IAE_NPAUPacket@@_N@Z",
+    "?HasSavedSearchResult@?$Map@GPAUFileListReceiver@FileListTransfer@@$1??$defaultMapKeyComparison@G@DataStructures@@YAHABG0@Z@DataStructures@@IBE_NABG@Z": "actual relocation from ?Delete@?$Map@GPAUFileListReceiver@FileListTransfer@@$1??$defaultMapKeyComparison@G@DataStructures@@YAHABG0@Z@DataStructures@@QAE_NABG@Z",
+    "?GetIndexFromKey@?$OrderedList@GUMapNode@?$Map@GPAUFileListReceiver@FileListTransfer@@$1??$defaultMapKeyComparison@G@DataStructures@@YAHABG0@Z@DataStructures@@$1?NodeComparisonFunc@23@SAHABGABU123@@Z@DataStructures@@QBEIABGPA_N@Z": "actual relocation from ?Delete@?$Map@GPAUFileListReceiver@FileListTransfer@@$1??$defaultMapKeyComparison@G@DataStructures@@YAHABG0@Z@DataStructures@@QAE_NABG@Z",
+    "??$defaultMapKeyComparison@G@DataStructures@@YAHABG0@Z": "actual relocation from ?GetIndexFromKey@?$OrderedList@GUMapNode@?$Map@GPAUFileListReceiver@FileListTransfer@@$1??$defaultMapKeyComparison@G@DataStructures@@YAHABG0@Z@DataStructures@@$1?NodeComparisonFunc@23@SAHABGABU123@@Z@DataStructures@@QBEIABGPA_N@Z",
+    "?SaveLastSearch@?$Map@GPAUFileListReceiver@FileListTransfer@@$1??$defaultMapKeyComparison@G@DataStructures@@YAHABG0@Z@DataStructures@@IAEXABGI@Z": "actual relocation from ?Get@?$Map@GPAUFileListReceiver@FileListTransfer@@$1??$defaultMapKeyComparison@G@DataStructures@@YAHABG0@Z@DataStructures@@QAEAAPAUFileListReceiver@FileListTransfer@@ABG@Z",
+    "??$Read@_N@BitStream@RakNet@@QAE_NAA_N@Z": "actual relocation from ?DecodeSetHeader@FileListTransfer@@IAE_NPAUPacket@@@Z",
+    "?Set@?$Map@GPAUFileListReceiver@FileListTransfer@@$1??$defaultMapKeyComparison@G@DataStructures@@YAHABG0@Z@DataStructures@@QAEXABGABQAUFileListReceiver@FileListTransfer@@@Z": "actual relocation from ?SetupReceive@FileListTransfer@@QAEGPAVFileListTransferCBInterface@@_NUPlayerID@@@Z",
+    "?Insert@?$OrderedList@GUMapNode@?$Map@GPAUFileListReceiver@FileListTransfer@@$1??$defaultMapKeyComparison@G@DataStructures@@YAHABG0@Z@DataStructures@@$1?NodeComparisonFunc@23@SAHABGABU123@@Z@DataStructures@@QAEIABGABUMapNode@?$Map@GPAUFileListReceiver@FileListTransfer@@$1??$defaultMapKeyComparison@G@DataStructures@@YAHABG0@Z@2@@Z": "actual relocation from ?Set@?$Map@GPAUFileListReceiver@FileListTransfer@@$1??$defaultMapKeyComparison@G@DataStructures@@YAHABG0@Z@DataStructures@@QAEXABGABQAUFileListReceiver@FileListTransfer@@@Z",
+    "?Insert@?$List@UMapNode@?$Map@GPAUFileListReceiver@FileListTransfer@@$1??$defaultMapKeyComparison@G@DataStructures@@YAHABG0@Z@DataStructures@@@DataStructures@@QAEXUMapNode@?$Map@GPAUFileListReceiver@FileListTransfer@@$1??$defaultMapKeyComparison@G@DataStructures@@YAHABG0@Z@2@@Z": "actual relocation from ?Insert@?$OrderedList@GUMapNode@?$Map@GPAUFileListReceiver@FileListTransfer@@$1??$defaultMapKeyComparison@G@DataStructures@@YAHABG0@Z@DataStructures@@$1?NodeComparisonFunc@23@SAHABGABU123@@Z@DataStructures@@QAEIABGABUMapNode@?$Map@GPAUFileListReceiver@FileListTransfer@@$1??$defaultMapKeyComparison@G@DataStructures@@YAHABG0@Z@2@@Z",
+    "?Insert@?$List@UMapNode@?$Map@GPAUFileListReceiver@FileListTransfer@@$1??$defaultMapKeyComparison@G@DataStructures@@YAHABG0@Z@DataStructures@@@DataStructures@@QAEXUMapNode@?$Map@GPAUFileListReceiver@FileListTransfer@@$1??$defaultMapKeyComparison@G@DataStructures@@YAHABG0@Z@2@I@Z": "actual relocation from ?Insert@?$OrderedList@GUMapNode@?$Map@GPAUFileListReceiver@FileListTransfer@@$1??$defaultMapKeyComparison@G@DataStructures@@YAHABG0@Z@DataStructures@@$1?NodeComparisonFunc@23@SAHABGABU123@@Z@DataStructures@@QAEIABGABUMapNode@?$Map@GPAUFileListReceiver@FileListTransfer@@$1??$defaultMapKeyComparison@G@DataStructures@@YAHABG0@Z@2@@Z",
+    "??0MapNode@?$Map@GPAUFileListReceiver@FileListTransfer@@$1??$defaultMapKeyComparison@G@DataStructures@@YAHABG0@Z@DataStructures@@QAE@XZ": "actual relocation from ?Insert@?$List@UMapNode@?$Map@GPAUFileListReceiver@FileListTransfer@@$1??$defaultMapKeyComparison@G@DataStructures@@YAHABG0@Z@DataStructures@@@DataStructures@@QAEXUMapNode@?$Map@GPAUFileListReceiver@FileListTransfer@@$1??$defaultMapKeyComparison@G@DataStructures@@YAHABG0@Z@2@I@Z",
+    "??_H@YGXPAXIHP6EPAX0@Z@Z": "actual relocation from ?Insert@?$List@UMapNode@?$Map@GPAUFileListReceiver@FileListTransfer@@$1??$defaultMapKeyComparison@G@DataStructures@@YAHABG0@Z@DataStructures@@@DataStructures@@QAEXUMapNode@?$Map@GPAUFileListReceiver@FileListTransfer@@$1??$defaultMapKeyComparison@G@DataStructures@@YAHABG0@Z@2@I@Z",
+    "??0?$Map@GPAUFileListReceiver@FileListTransfer@@$1??$defaultMapKeyComparison@G@DataStructures@@YAHABG0@Z@DataStructures@@QAE@XZ": "actual relocation from ??0FileListTransfer@@QAE@XZ",
+    "??0?$OrderedList@GUMapNode@?$Map@GPAUFileListReceiver@FileListTransfer@@$1??$defaultMapKeyComparison@G@DataStructures@@YAHABG0@Z@DataStructures@@$1?NodeComparisonFunc@23@SAHABGABU123@@Z@DataStructures@@QAE@XZ": "actual relocation from ??0?$Map@GPAUFileListReceiver@FileListTransfer@@$1??$defaultMapKeyComparison@G@DataStructures@@YAHABG0@Z@DataStructures@@QAE@XZ",
+    "??0?$List@UMapNode@?$Map@GPAUFileListReceiver@FileListTransfer@@$1??$defaultMapKeyComparison@G@DataStructures@@YAHABG0@Z@DataStructures@@@DataStructures@@QAE@XZ": "actual relocation from ??0?$OrderedList@GUMapNode@?$Map@GPAUFileListReceiver@FileListTransfer@@$1??$defaultMapKeyComparison@G@DataStructures@@YAHABG0@Z@DataStructures@@$1?NodeComparisonFunc@23@SAHABGABU123@@Z@DataStructures@@QAE@XZ",
+    "??0?$Queue@UFileListNode@@@DataStructures@@QAE@XZ": "actual relocation from ?Send@FileListTransfer@@QAEXPAVFileList@@PAVRakPeerInterface@@UPlayerID@@GW4PacketPriority@@D_N@Z",
+    "?Push@?$Queue@UFileListNode@@@DataStructures@@QAEXABUFileListNode@@@Z": "actual relocation from ?Send@FileListTransfer@@QAEXPAVFileList@@PAVRakPeerInterface@@UPlayerID@@GW4PacketPriority@@D_N@Z",
+    "??1?$Queue@UFileListNode@@@DataStructures@@QAE@XZ": "actual relocation from ?Send@FileListTransfer@@QAEXPAVFileList@@PAVRakPeerInterface@@UPlayerID@@GW4PacketPriority@@D_N@Z",
+    "?RemoveAtIndex@?$List@UFileListNode@@@DataStructures@@QAEXI@Z": "actual relocation from ?AddFile@FileList@@QAEXPBD0IIE@Z",
+    "?Insert@?$List@UFileListNode@@@DataStructures@@QAEXUFileListNode@@@Z": "actual relocation from ?AddFile@FileList@@QAEXPBD0IIE@Z",
+    "??0?$Queue@PAD@DataStructures@@QAE@XZ": "actual relocation from ?AddFilesFromDirectory@FileList@@QAEXPBD0_N11E@Z",
+    "?Push@?$Queue@PAD@DataStructures@@QAEXABQAD@Z": "actual relocation from ?AddFilesFromDirectory@FileList@@QAEXPBD0_N11E@Z",
+    "??1?$Queue@PAD@DataStructures@@QAE@XZ": "actual relocation from ?AddFilesFromDirectory@FileList@@QAEXPBD0_N11E@Z"
+  },
+  "new_unique_code": 12324,
+  "already_covered_code": 137,
+  "physical_code_compared": 12543,
+  "baseline": 300692,
+  "source025_direct_bytes": 0,
+  "reuse_existing_owners": {
+    "??$Read@_N@BitStream@RakNet@@QAE_NAA_N@Z": {
+      "unit": "closure_vendor_table_serializer",
+      "rva": 33824,
+      "size": 89
+    },
+    "??_H@YGXPAXIHP6EPAX0@Z@Z": {
+      "unit": "closure_dxut_lines",
+      "rva": 183776,
+      "size": 48
+    }
+  },
+  "excluded_unmatched": [],
+  "duplicate_physical_seeds": [],
+  "new_unique_after_pending_Client_and_SHA": 12324,
+  "unselected_method": "Unused FileList constructor12 has many true homologues and no required constructor call in this closure; no arbitrary identification or credit. Unused templates excluded.",
+  "source_files": [
+    {
+      "path": "client/saco/closure_vendor_file_list_transfer.cpp",
+      "sha256": "0313dafcea67204bebc8f7aa4e0d661b08032c14f1b9130da8e344193e3187bc"
+    },
+    {
+      "path": "client/saco/closure_vendor_file_list.cpp",
+      "sha256": "df5f7d5243c4015eac7f0904408e8f0640d3adadb22081a391870361c0417b16"
+    },
+    {
+      "path": "client/saco/closure_vendor_file_operations.cpp",
+      "sha256": "ed09b3a6665aac6e193ccfa92a00bfceb9f3a2d610aedabc51e4e72cd6ad84c5"
+    }
+  ],
+  "objects": {
+    "closure_vendor_file_list_transfer": "3923e6764e7eb529ffb1a9bb47ed55055030de9ec1962ff3249d14538d1c1569",
+    "closure_vendor_file_list": "8524663f727c56a4fc2e144d946bfb74c9d0cebd6761e979f1158d8cfc332e67",
+    "closure_vendor_file_operations": "9e31d93a73adcac21259f9ad22d71c51ac447605379122078d51399dfd5851ac"
+  },
+  "identity_scope": "build/agent-independent/file-list-family-proposal.json",
+  "actual_weak_aliases": {
+    "closure_vendor_file_list_transfer": {},
+    "closure_vendor_file_list": {},
+    "closure_vendor_file_operations": {}
+  }
+}

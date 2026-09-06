@@ -1,0 +1,230 @@
+{
+  "status": "PASS_DIRECTORY_DELTA_TRUE_OWNERS_ALLOCATIONS_ABI",
+  "effective_baseline": 315680,
+  "new_unique": 2164,
+  "source025_direct_bytes": 0,
+  "full_type_layout": {
+    "DirectoryDeltaTransfer": {
+      "sizeof": 533,
+      "primary_vptr": 0,
+      "applicationDirectory": 4,
+      "applicationDirectory_size": 512,
+      "fileListTransfer": 516,
+      "availableUploads": 520,
+      "rakPeer": 524,
+      "priority": 528,
+      "orderingChannel": 532
+    },
+    "DDTCallback": {
+      "sizeof": 524,
+      "primary_vptr": 0,
+      "subdirLen": 4,
+      "outputSubdir": 8,
+      "outputSubdir_size": 512,
+      "onFileCallback": 520
+    },
+    "FileList": {
+      "sizeof": 12,
+      "list_at": 0
+    }
+  },
+  "actual_complete_allocations": [
+    {
+      "function": "DirectoryCtor",
+      "site_rva": 155020,
+      "size": 12,
+      "type": "FileList"
+    },
+    {
+      "function": "Download",
+      "site_rva": 156324,
+      "size": 524,
+      "type": "DDTCallback"
+    }
+  ],
+  "dynamic_dispatch": [
+    {
+      "function": "Download",
+      "site_rva": 156247,
+      "vtable_offset": 92,
+      "identity": "RakPeerInterface::GetIndexFromPlayerID",
+      "implementation_credit": 0
+    },
+    {
+      "function": "Download",
+      "site_rva": 156831,
+      "vtable_offset": 48,
+      "identity": "RakPeerInterface::Send(BitStream)",
+      "implementation_credit": 0
+    },
+    {
+      "function": "OnFile",
+      "site_rva": 155411,
+      "vtable_offset": 0,
+      "identity": "FileListTransferCBInterface::OnFile",
+      "implementation_credit": 0
+    },
+    {
+      "function": "OnFileProgress",
+      "site_rva": 155668,
+      "vtable_offset": 4,
+      "identity": "FileListTransferCBInterface::OnFileProgress",
+      "implementation_credit": 0
+    }
+  ],
+  "VFT_scope": "Directory40 true slots3/5 identify distinct Update25D40/OnDisconnect25D50 otherwise ambiguous three-byte overrides; callback8 contains real242/243-byte OnFile/OnFileProgress methods.",
+  "new_providers": "FileList constructor12@2B4C0 now identified by three actual source callers; its List<FileListNode> ctor13@2B1D0 is the true direct provider. Both source definitions already exist in accepted owner, only seeds added.",
+  "source_snapshot_proof": [
+    {
+      "path": "vendor/upstream/raknet/DirectoryDeltaTransfer.cpp",
+      "snapshot": "build/cp32-directory-delta-trial1/vendor/upstream/raknet/DirectoryDeltaTransfer.cpp",
+      "sha256": "444c1ba00e5f83e01a758022a9caffcfa72c8741c60380a6d36ef52c9bf920b9",
+      "identical": true
+    },
+    {
+      "path": "vendor/upstream/raknet/DirectoryDeltaTransfer.h",
+      "snapshot": "build/cp32-directory-delta-trial1/vendor/upstream/raknet/DirectoryDeltaTransfer.h",
+      "sha256": "04530cd3fc36ffb094a874c9bdffd7d132d1a05874a8ae249953f5a4a8f7afba",
+      "identical": true
+    },
+    {
+      "path": "client/saco/closure_vendor_directory_delta.cpp",
+      "snapshot": "build/cp32-directory-delta-trial1/client/saco/closure_vendor_directory_delta.cpp",
+      "sha256": "fd3cfa96861a862a9ee6ed1b90f9f734692f7731698ac48c86d167d47a52cb79",
+      "identical": true
+    }
+  ],
+  "provider_identity_checks": [
+    {
+      "symbol": "?AddFilesFromDirectory@FileList@@QAEXPBD0_N11E@Z",
+      "rva": 179200,
+      "scope": "already pending FileList closure; not counted again"
+    },
+    {
+      "symbol": "?SetupReceive@FileListTransfer@@QAEGPAVFileListTransferCBInterface@@_NUPlayerID@@@Z",
+      "rva": 187744,
+      "scope": "already pending FileList closure; not counted again"
+    },
+    {
+      "symbol": "??0BitStream@RakNet@@QAE@XZ",
+      "rva": 128816,
+      "scope": "accepted baseline"
+    },
+    {
+      "symbol": "?WriteBits@BitStream@RakNet@@QAEXPBEH_N@Z",
+      "rva": 131040,
+      "scope": "accepted baseline"
+    },
+    {
+      "symbol": "?Instance@StringCompressor@@SAPAV1@XZ",
+      "rva": 343088,
+      "scope": "accepted baseline"
+    },
+    {
+      "symbol": "?EncodeString@StringCompressor@@QAEXPBDHPAVBitStream@RakNet@@H@Z",
+      "rva": 344480,
+      "scope": "accepted baseline"
+    },
+    {
+      "symbol": "?Serialize@FileList@@QAEXPAVBitStream@RakNet@@@Z",
+      "rva": 177440,
+      "scope": "already pending FileList closure; not counted again"
+    },
+    {
+      "symbol": "??1BitStream@RakNet@@QAE@XZ",
+      "rva": 129232,
+      "scope": "accepted baseline"
+    },
+    {
+      "symbol": "??1FileList@@QAE@XZ",
+      "rva": 178768,
+      "scope": "already pending FileList closure; not counted again"
+    },
+    {
+      "symbol": "??0BitStream@RakNet@@QAE@PAEI_N@Z",
+      "rva": 128960,
+      "scope": "accepted baseline"
+    },
+    {
+      "symbol": "?IgnoreBits@BitStream@RakNet@@QAEXH@Z",
+      "rva": 130288,
+      "scope": "accepted baseline"
+    },
+    {
+      "symbol": "?ReadBits@BitStream@RakNet@@QAE_NPAEH_N@Z",
+      "rva": 129456,
+      "scope": "accepted baseline"
+    },
+    {
+      "symbol": "?DecodeString@StringCompressor@@QAE_NPADHPAVBitStream@RakNet@@H@Z",
+      "rva": 344784,
+      "scope": "accepted baseline"
+    },
+    {
+      "symbol": "?Deserialize@FileList@@QAE_NPAVBitStream@RakNet@@@Z",
+      "rva": 177712,
+      "scope": "already pending FileList closure; not counted again"
+    },
+    {
+      "symbol": "?GetDeltaToCurrent@FileList@@QAEXPAV1@0PBD1@Z",
+      "rva": 180736,
+      "scope": "already pending FileList closure; not counted again"
+    },
+    {
+      "symbol": "?PopulateDataFromDisk@FileList@@QAEXPBD_N11@Z",
+      "rva": 181888,
+      "scope": "already pending FileList closure; not counted again"
+    },
+    {
+      "symbol": "?Send@FileListTransfer@@QAEXPAVFileList@@PAVRakPeerInterface@@UPlayerID@@GW4PacketPriority@@D_N@Z",
+      "rva": 183888,
+      "scope": "already pending FileList closure; not counted again"
+    },
+    {
+      "symbol": "?WriteFileWithDirectories@@YA_NPBDPADI@Z",
+      "rva": 189248,
+      "scope": "already pending FileList closure; not counted again"
+    },
+    {
+      "symbol": "?Clear@FileList@@QAEXXZ",
+      "rva": 177360,
+      "scope": "already pending FileList closure; not counted again"
+    },
+    {
+      "symbol": "?OnDetach@PluginInterface@@UAEXPAVRakPeerInterface@@@Z",
+      "rva": 212864,
+      "scope": "accepted baseline"
+    },
+    {
+      "symbol": "?OnInitialize@PluginInterface@@UAEXPAVRakPeerInterface@@@Z",
+      "rva": 212880,
+      "scope": "accepted baseline"
+    },
+    {
+      "symbol": "?OnCloseConnection@PluginInterface@@UAEXPAVRakPeerInterface@@UPlayerID@@@Z",
+      "rva": 212944,
+      "scope": "accepted baseline"
+    },
+    {
+      "symbol": "?OnDirectSocketSend@PluginInterface@@UAEXPBDIUPlayerID@@@Z",
+      "rva": 212960,
+      "scope": "accepted baseline"
+    },
+    {
+      "symbol": "?OnDirectSocketReceive@PluginInterface@@UAEXPBDIUPlayerID@@@Z",
+      "rva": 212976,
+      "scope": "accepted baseline"
+    },
+    {
+      "symbol": "?OnInternalPacket@PluginInterface@@UAEXPAUInternalPacket@@IUPlayerID@@I_N@Z",
+      "rva": 212992,
+      "scope": "accepted baseline"
+    }
+  ],
+  "original_capture": {
+    "path": "build/agent-independent/directory-delta-owner-original.asm",
+    "sha256": "f72b126019b0aacac640ba4e02fb344b6970ece326f456975dde4e031bcd8576"
+  },
+  "excluded": "No credit for concrete peer transport or caller-supplied callback implementations, unused abstract callback constructor/purecall table, unused FileList deleting wrapper or unused templates.",
+  "full_manifest_sha256": "717c2e772138d3814f29a307ab1bcd3e686f43713e7291e06a2af2f790bbd746"
+}

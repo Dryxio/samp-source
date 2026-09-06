@@ -1,0 +1,1043 @@
+{
+  "status": "REVIEWED_MAIN_SEEDS_AND_WHOLE_EH_BINDINGS_PREFLIGHT",
+  "run": "build/cp32-remote-state-trial1",
+  "roots": {
+    "?GetConnectionList@RakPeer@@UBE_NPAUPlayerID@@PAG@Z": 230608,
+    "?GetPlayerIDFromIndex@RakPeer@@UAE?AUPlayerID@@H@Z": 231008,
+    "?GetAnyPlayerIDFromIndex@RakPeer@@QAE?AUPlayerID@@H@Z": 231104,
+    "?GetExternalID@RakPeer@@UBE?AUPlayerID@@U2@@Z": 231328,
+    "?GetNumberOfRemoteInitiatedConnections@RakPeer@@IBEGXZ": 232672,
+    "?AllowIncomingConnections@RakPeer@@IBE_NXZ": 233168,
+    "?ValidSendTarget@RakPeer@@IAE_NUPlayerID@@_N@Z": 233200,
+    "?GetIndexFromPlayerID@RakPeer@@IAEHUPlayerID@@_N@Z": 247600,
+    "?GetRemoteSystemFromPlayerID@RakPeer@@IBEPAURemoteSystemStruct@1@UPlayerID@@_N1@Z": 247776,
+    "?GetBestClockDifferential@RakPeer@@IBEIUPlayerID@@@Z": 248032,
+    "?GetAveragePing@RakPeer@@UAEHUPlayerID@@@Z": 254800,
+    "?GetLastPing@RakPeer@@UBEHUPlayerID@@@Z": 254896,
+    "?GetLowestPing@RakPeer@@UBEHUPlayerID@@@Z": 254976,
+    "?SetTimeoutTime@RakPeer@@UAEXIUPlayerID@@@Z": 255264,
+    "?GetStatistics@RakPeer@@UAEQAURakNetStatisticsStruct@@UPlayerID@@@Z": 255424,
+    "?AssignPlayerIDToRemoteSystemList@RakPeer@@IAEPAURemoteSystemStruct@1@UPlayerID@@W4ConnectMode@21@@Z": 256592,
+    "?ShiftIncomingTimestamp@RakPeer@@IBEXPAEUPlayerID@@@Z": 256944,
+    "?GetIndexFromPlayerID@RakPeer@@UAEHUPlayerID@@@Z": 254768,
+    "??0RPCMap@@QAE@XZ": 333360,
+    "?AddIdentifierWithFunction@RPCMap@@QAEXEPAX_N@Z": 333488,
+    "?GetIndexFromFunctionName@RPCMap@@QAEEE@Z": 333472,
+    "?GetNodeFromIndex@RPCMap@@QAEPAURPCNode@@E@Z": 333440,
+    "??1RPCMap@@QAE@XZ": 333536
+  },
+  "seeds": {
+    "eval_vendor_rpc_map": {
+      "??1RPCMap@@QAE@XZ": 333536,
+      "?Clear@RPCMap@@QAEXXZ": 333392,
+      "?GetNodeFromIndex@RPCMap@@QAEPAURPCNode@@E@Z": 333440,
+      "?GetIndexFromFunctionName@RPCMap@@QAEEE@Z": 333472,
+      "?AddIdentifierWithFunction@RPCMap@@QAEXEPAX_N@Z": 333488,
+      "??0RPCMap@@QAE@XZ": 333360
+    },
+    "eval_vendor_reliability_remote_settings": {
+      "?SetUnreliableTimeout@ReliabilityLayer@@QAEXI@Z": 278128,
+      "?SetSplitMessageProgressInterval@ReliabilityLayer@@QAEXH@Z": 278112,
+      "?SetTimeoutTime@ReliabilityLayer@@QAEXI@Z": 277728
+    },
+    "eval_vendor_rakpeer_remote_state": {
+      "?GetIndexFromPlayerID@RakPeer@@UAEHUPlayerID@@@Z": 254768,
+      "?GetIndexFromPlayerID@RakPeer@@IAEHUPlayerID@@_N@Z": 247600,
+      "??A?$OrderedList@UPlayerID@@UPlayerIDAndIndex@@$1?PlayerIDAndIndexComp@@YAHABU1@ABU2@@Z@DataStructures@@QBEAAUPlayerIDAndIndex@@I@Z": 242144,
+      "?GetIndexFromKey@?$OrderedList@UPlayerID@@UPlayerIDAndIndex@@$1?PlayerIDAndIndexComp@@YAHABU1@ABU2@@Z@DataStructures@@QBEIABUPlayerID@@PA_N@Z": 241984,
+      "?PlayerIDAndIndexComp@@YAHABUPlayerID@@ABUPlayerIDAndIndex@@@Z": 230048,
+      "?ShiftIncomingTimestamp@RakPeer@@IBEXPAEUPlayerID@@@Z": 256944,
+      "?GetBestClockDifferential@RakPeer@@IBEIUPlayerID@@@Z": 248032,
+      "?GetRemoteSystemFromPlayerID@RakPeer@@IBEPAURemoteSystemStruct@1@UPlayerID@@_N1@Z": 247776,
+      "?AssignPlayerIDToRemoteSystemList@RakPeer@@IAEPAURemoteSystemStruct@1@UPlayerID@@W4ConnectMode@21@@Z": 256592,
+      "?Insert@?$OrderedList@UPlayerID@@UPlayerIDAndIndex@@$1?PlayerIDAndIndexComp@@YAHABU1@ABU2@@Z@DataStructures@@QAEIABUPlayerID@@ABUPlayerIDAndIndex@@@Z": 249040,
+      "?Insert@?$List@UPlayerIDAndIndex@@@DataStructures@@QAEXUPlayerIDAndIndex@@I@Z": 242384,
+      "?Insert@?$List@UPlayerIDAndIndex@@@DataStructures@@QAEXUPlayerIDAndIndex@@@Z": 242240,
+      "?GetStatistics@RakPeer@@UAEQAURakNetStatisticsStruct@@UPlayerID@@@Z": 255424,
+      "??YRakNetStatisticsStruct@@QAEXABU0@@Z": 229472,
+      "?SetTimeoutTime@RakPeer@@UAEXIUPlayerID@@@Z": 255264,
+      "?GetLowestPing@RakPeer@@UBEHUPlayerID@@@Z": 254976,
+      "?GetLastPing@RakPeer@@UBEHUPlayerID@@@Z": 254896,
+      "?GetAveragePing@RakPeer@@UAEHUPlayerID@@@Z": 254800,
+      "?ValidSendTarget@RakPeer@@IAE_NUPlayerID@@_N@Z": 233200,
+      "?AllowIncomingConnections@RakPeer@@IBE_NXZ": 233168,
+      "?GetNumberOfRemoteInitiatedConnections@RakPeer@@IBEGXZ": 232672,
+      "?GetExternalID@RakPeer@@UBE?AUPlayerID@@U2@@Z": 231328,
+      "?GetAnyPlayerIDFromIndex@RakPeer@@QAE?AUPlayerID@@H@Z": 231104,
+      "?GetPlayerIDFromIndex@RakPeer@@UAE?AUPlayerID@@H@Z": 231008,
+      "?GetConnectionList@RakPeer@@UBE_NPAUPlayerID@@PAG@Z": 230608
+    }
+  },
+  "regions": [
+    {
+      "unit": "eval_vendor_rpc_map",
+      "section": 15,
+      "rva": 333536,
+      "size": 5,
+      "kind": ".text",
+      "sha256": "bf5cfd587b9ea2058021d387ea166107741f8ae4bfa39b85553ea5028f8b978a",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "?Clear@RPCMap@@QAEXXZ",
+          "site_rva": 333537,
+          "target_va": 268768848,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "eval_vendor_rpc_map",
+      "section": 5,
+      "rva": 333392,
+      "size": 41,
+      "kind": ".text",
+      "sha256": "ea04c8b2e9ae4fb38366afca8188a8333cad1e199edb9fe676a544b5984df65b",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "??3@YAXPAX@Z",
+          "site_rva": 333407,
+          "target_va": 269247626,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "eval_vendor_rpc_map",
+      "section": 7,
+      "rva": 333440,
+      "size": 11,
+      "kind": ".text",
+      "sha256": "f5948fc90334bdcc18894e35feac025da752ecf7b4c52a27fe42fd02b5de25ac",
+      "whole_bytes_equal": true,
+      "bindings": []
+    },
+    {
+      "unit": "eval_vendor_rpc_map",
+      "section": 11,
+      "rva": 333472,
+      "size": 7,
+      "kind": ".text",
+      "sha256": "308bf629178b3fbc0d0333ca94c2a330d4e8ea02f482bd9d430d8adeb63b9559",
+      "whole_bytes_equal": true,
+      "bindings": []
+    },
+    {
+      "unit": "eval_vendor_rpc_map",
+      "section": 13,
+      "rva": 333488,
+      "size": 43,
+      "kind": ".text",
+      "sha256": "f4f7e8afbe422c03b5392a88a0d4693cd74746f795d2bddb7ae0b9dcb1852981",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "??2@YAPAXI@Z",
+          "site_rva": 333494,
+          "target_va": 269247098,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "eval_vendor_rpc_map",
+      "section": 3,
+      "rva": 333360,
+      "size": 18,
+      "kind": ".text",
+      "sha256": "61df9f726791f26fd94e6f49817f77d7fcb297ebc72e8bdb3b46fec722083c40",
+      "whole_bytes_equal": true,
+      "bindings": []
+    },
+    {
+      "unit": "eval_vendor_reliability_remote_settings",
+      "section": 7,
+      "rva": 278128,
+      "size": 20,
+      "kind": ".text",
+      "sha256": "ee72b8acb4e07b6f7a1abd10f24e87fd21f15cba7a1019cd101b62354462036c",
+      "whole_bytes_equal": true,
+      "bindings": []
+    },
+    {
+      "unit": "eval_vendor_reliability_remote_settings",
+      "section": 5,
+      "rva": 278112,
+      "size": 10,
+      "kind": ".text",
+      "sha256": "396b31693515cb75cdf9173465c8199f0fd5acb695d04b0d980f5707d6686b6f",
+      "whole_bytes_equal": true,
+      "bindings": []
+    },
+    {
+      "unit": "eval_vendor_reliability_remote_settings",
+      "section": 3,
+      "rva": 277728,
+      "size": 13,
+      "kind": ".text",
+      "sha256": "332a9feda2217061f992d9f25239725c47e7a14802c9f316db6199c26692e581",
+      "whole_bytes_equal": true,
+      "bindings": []
+    },
+    {
+      "unit": "eval_vendor_rakpeer_remote_state",
+      "section": 49,
+      "rva": 254768,
+      "size": 30,
+      "kind": ".text",
+      "sha256": "42e24b011dc4e953fe3d223f1cf12889c7529de04cbda70cca60dabe5af3294c",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "?GetIndexFromPlayerID@RakPeer@@IAEHUPlayerID@@_N@Z",
+          "site_rva": 254791,
+          "target_va": 268683056,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "eval_vendor_rakpeer_remote_state",
+      "section": 41,
+      "rva": 247600,
+      "size": 161,
+      "kind": ".text",
+      "sha256": "eabe50ce15e5695c03da1fe524cd22cb261a0c53af2dc82e16e43a8655465e85",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "_UNASSIGNED_PLAYER_ID",
+          "site_rva": 247604,
+          "target_va": 269477860,
+          "kind": 6
+        },
+        {
+          "symbol": "??8PlayerID@@QBE_NABU0@@Z",
+          "site_rva": 247613,
+          "target_va": 268646112,
+          "kind": 20
+        },
+        {
+          "symbol": "?GetIndexFromKey@?$OrderedList@UPlayerID@@UPlayerIDAndIndex@@$1?PlayerIDAndIndexComp@@YAHABU1@ABU2@@Z@DataStructures@@QBEIABUPlayerID@@PA_N@Z",
+          "site_rva": 247648,
+          "target_va": 268677440,
+          "kind": 20
+        },
+        {
+          "symbol": "??A?$OrderedList@UPlayerID@@UPlayerIDAndIndex@@$1?PlayerIDAndIndexComp@@YAHABU1@ABU2@@Z@DataStructures@@QBEAAUPlayerIDAndIndex@@I@Z",
+          "site_rva": 247664,
+          "target_va": 268677600,
+          "kind": 20
+        },
+        {
+          "symbol": "??8PlayerID@@QBE_NABU0@@Z",
+          "site_rva": 247721,
+          "target_va": 268646112,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "eval_vendor_rakpeer_remote_state",
+      "section": 35,
+      "rva": 242144,
+      "size": 15,
+      "kind": ".text",
+      "sha256": "732025784a2c208ac3f97aedf8a8a433c1e717678a96bccc5b35827a023d4777",
+      "whole_bytes_equal": true,
+      "bindings": []
+    },
+    {
+      "unit": "eval_vendor_rakpeer_remote_state",
+      "section": 33,
+      "rva": 241984,
+      "size": 152,
+      "kind": ".text",
+      "sha256": "1fbe14cf90f174ec59fa9f02fe8b711bafb125d9a62f816682bd30cc37148660",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "?PlayerIDAndIndexComp@@YAHABUPlayerID@@ABUPlayerIDAndIndex@@@Z",
+          "site_rva": 242040,
+          "target_va": 268665504,
+          "kind": 20
+        },
+        {
+          "symbol": "?PlayerIDAndIndexComp@@YAHABUPlayerID@@ABUPlayerIDAndIndex@@@Z",
+          "site_rva": 242093,
+          "target_va": 268665504,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "eval_vendor_rakpeer_remote_state",
+      "section": 7,
+      "rva": 230048,
+      "size": 44,
+      "kind": ".text",
+      "sha256": "ab7c8c94325b931030c6e2f4eed702d4b4a9006dc89c5165d27bbe36a18a3bc8",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "??MPlayerID@@QBE_NABU0@@Z",
+          "site_rva": 230062,
+          "target_va": 268646256,
+          "kind": 20
+        },
+        {
+          "symbol": "??8PlayerID@@QBE_NABU0@@Z",
+          "site_rva": 230080,
+          "target_va": 268646112,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "eval_vendor_rakpeer_remote_state",
+      "section": 64,
+      "rva": 256944,
+      "size": 198,
+      "kind": ".text",
+      "sha256": "e85b34e90d84f6e46bfa1af518d1691624453060ead095f02c4a5c89e4278cbf",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "__ehhandler$?ShiftIncomingTimestamp@RakPeer@@IBEXPAEUPlayerID@@@Z",
+          "site_rva": 256947,
+          "target_va": 269363499,
+          "kind": 6
+        },
+        {
+          "symbol": "__except_list",
+          "site_rva": 256953,
+          "target_va": 0,
+          "kind": 6
+        },
+        {
+          "symbol": "__except_list",
+          "site_rva": 256961,
+          "target_va": 0,
+          "kind": 6
+        },
+        {
+          "symbol": "??0BitStream@RakNet@@QAE@PAEI_N@Z",
+          "site_rva": 256991,
+          "target_va": 268564416,
+          "kind": 20
+        },
+        {
+          "symbol": "?ReadBits@BitStream@RakNet@@QAE_NPAEH_N@Z",
+          "site_rva": 257020,
+          "target_va": 268564912,
+          "kind": 20
+        },
+        {
+          "symbol": "?GetBestClockDifferential@RakPeer@@IBEIUPlayerID@@@Z",
+          "site_rva": 257053,
+          "target_va": 268683488,
+          "kind": 20
+        },
+        {
+          "symbol": "?SetWriteOffset@BitStream@RakNet@@QAEXH@Z",
+          "site_rva": 257068,
+          "target_va": 268565760,
+          "kind": 20
+        },
+        {
+          "symbol": "?WriteBits@BitStream@RakNet@@QAEXPBEH_N@Z",
+          "site_rva": 257094,
+          "target_va": 268566496,
+          "kind": 20
+        },
+        {
+          "symbol": "??1BitStream@RakNet@@QAE@XZ",
+          "site_rva": 257114,
+          "target_va": 268564688,
+          "kind": 20
+        },
+        {
+          "symbol": "__except_list",
+          "site_rva": 257128,
+          "target_va": 0,
+          "kind": 6
+        }
+      ]
+    },
+    {
+      "unit": "eval_vendor_rakpeer_remote_state",
+      "section": 45,
+      "rva": 248032,
+      "size": 103,
+      "kind": ".text",
+      "sha256": "85b1a711303c903db2873565e22a4ed01ab35ec6d45c69d89128a5009087384a",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "?GetRemoteSystemFromPlayerID@RakPeer@@IBEPAURemoteSystemStruct@1@UPlayerID@@_N1@Z",
+          "site_rva": 248060,
+          "target_va": 268683232,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "eval_vendor_rakpeer_remote_state",
+      "section": 43,
+      "rva": 247776,
+      "size": 254,
+      "kind": ".text",
+      "sha256": "3391d1f9c90d1f103c9f60092dc08e38c20f0f9276d629a0068154da10749ccb",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "_UNASSIGNED_PLAYER_ID",
+          "site_rva": 247780,
+          "target_va": 269477860,
+          "kind": 6
+        },
+        {
+          "symbol": "??8PlayerID@@QBE_NABU0@@Z",
+          "site_rva": 247789,
+          "target_va": 268646112,
+          "kind": 20
+        },
+        {
+          "symbol": "?GetIndexFromKey@?$OrderedList@UPlayerID@@UPlayerIDAndIndex@@$1?PlayerIDAndIndexComp@@YAHABU1@ABU2@@Z@DataStructures@@QBEIABUPlayerID@@PA_N@Z",
+          "site_rva": 247833,
+          "target_va": 268677440,
+          "kind": 20
+        },
+        {
+          "symbol": "??A?$OrderedList@UPlayerID@@UPlayerIDAndIndex@@$1?PlayerIDAndIndexComp@@YAHABU1@ABU2@@Z@DataStructures@@QBEAAUPlayerIDAndIndex@@I@Z",
+          "site_rva": 247853,
+          "target_va": 268677600,
+          "kind": 20
+        },
+        {
+          "symbol": "??8PlayerID@@QBE_NABU0@@Z",
+          "site_rva": 247920,
+          "target_va": 268646112,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "eval_vendor_rakpeer_remote_state",
+      "section": 62,
+      "rva": 256592,
+      "size": 352,
+      "kind": ".text",
+      "sha256": "e20305e2d4b3bc891ae3704e2e0c3a960f0e617293df79f17f68accc882f4b1b",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "?GetTime@RakNet@@YAIXZ",
+          "site_rva": 256600,
+          "target_va": 268625904,
+          "kind": 20
+        },
+        {
+          "symbol": "?Clear@RPCMap@@QAEXXZ",
+          "site_rva": 256670,
+          "target_va": 268768848,
+          "kind": 20
+        },
+        {
+          "symbol": "?SetSplitMessageProgressInterval@ReliabilityLayer@@QAEXH@Z",
+          "site_rva": 256706,
+          "target_va": 268713568,
+          "kind": 20
+        },
+        {
+          "symbol": "?SetUnreliableTimeout@ReliabilityLayer@@QAEXI@Z",
+          "site_rva": 256720,
+          "target_va": 268713584,
+          "kind": 20
+        },
+        {
+          "symbol": "?SetEncryptionKey@ReliabilityLayer@@QAEXPBE@Z",
+          "site_rva": 256729,
+          "target_va": 268713120,
+          "kind": 20
+        },
+        {
+          "symbol": "?Reset@BitStream@RakNet@@QAEXXZ",
+          "site_rva": 256812,
+          "target_va": 268564720,
+          "kind": 20
+        },
+        {
+          "symbol": "_UNASSIGNED_PLAYER_ID",
+          "site_rva": 256828,
+          "target_va": 269477860,
+          "kind": 6
+        },
+        {
+          "symbol": "_UNASSIGNED_PLAYER_ID",
+          "site_rva": 256838,
+          "target_va": 269477864,
+          "kind": 6
+        },
+        {
+          "symbol": "?Reset@ReliabilityLayer@@QAEX_N@Z",
+          "site_rva": 256885,
+          "target_va": 268739312,
+          "kind": 20
+        },
+        {
+          "symbol": "?Insert@?$OrderedList@UPlayerID@@UPlayerIDAndIndex@@$1?PlayerIDAndIndexComp@@YAHABU1@ABU2@@Z@DataStructures@@QAEIABUPlayerID@@ABUPlayerIDAndIndex@@@Z",
+          "site_rva": 256928,
+          "target_va": 268684496,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "eval_vendor_rakpeer_remote_state",
+      "section": 47,
+      "rva": 249040,
+      "size": 131,
+      "kind": ".text",
+      "sha256": "fe72b7840006a3a3d7b85f4d4825b0a879c62f7c5ab9e9b8325aac43ffcef729",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "?GetIndexFromKey@?$OrderedList@UPlayerID@@UPlayerIDAndIndex@@$1?PlayerIDAndIndexComp@@YAHABU1@ABU2@@Z@DataStructures@@QBEIABUPlayerID@@PA_N@Z",
+          "site_rva": 249057,
+          "target_va": 268677440,
+          "kind": 20
+        },
+        {
+          "symbol": "?Insert@?$List@UPlayerIDAndIndex@@@DataStructures@@QAEXUPlayerIDAndIndex@@@Z",
+          "site_rva": 249116,
+          "target_va": 268677696,
+          "kind": 20
+        },
+        {
+          "symbol": "?Insert@?$List@UPlayerIDAndIndex@@@DataStructures@@QAEXUPlayerIDAndIndex@@I@Z",
+          "site_rva": 249160,
+          "target_va": 268677840,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "eval_vendor_rakpeer_remote_state",
+      "section": 39,
+      "rva": 242384,
+      "size": 164,
+      "kind": ".text",
+      "sha256": "c17ea0c26cb86975e0ebb0dc855b6bbacbccef9c508dde7ea3189f9d3d7a9edd",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "??2@YAPAXI@Z",
+          "site_rva": 242426,
+          "target_va": 269247098,
+          "kind": 20
+        },
+        {
+          "symbol": "??3@YAXPAX@Z",
+          "site_rva": 242462,
+          "target_va": 269247626,
+          "kind": 20
+        },
+        {
+          "symbol": "_memmove",
+          "site_rva": 242503,
+          "target_va": 269250016,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "eval_vendor_rakpeer_remote_state",
+      "section": 37,
+      "rva": 242240,
+      "size": 130,
+      "kind": ".text",
+      "sha256": "66757643238ddc719e64232633320c1baee0578f9ab7959139defc045f9ae28e",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "??2@YAPAXI@Z",
+          "site_rva": 242282,
+          "target_va": 269247098,
+          "kind": 20
+        },
+        {
+          "symbol": "??3@YAXPAX@Z",
+          "site_rva": 242318,
+          "target_va": 269247626,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "eval_vendor_rakpeer_remote_state",
+      "section": 59,
+      "rva": 255424,
+      "size": 212,
+      "kind": ".text",
+      "sha256": "8292213985ea9f6ed4e3e468a06627cca6392b6206745f460726ceb9720f48b0",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "_UNASSIGNED_PLAYER_ID",
+          "site_rva": 255432,
+          "target_va": 269477860,
+          "kind": 6
+        },
+        {
+          "symbol": "??8PlayerID@@QBE_NABU0@@Z",
+          "site_rva": 255441,
+          "target_va": 268646112,
+          "kind": 20
+        },
+        {
+          "symbol": "?GetStatistics@ReliabilityLayer@@QAEQAURakNetStatisticsStruct@@_N@Z",
+          "site_rva": 255500,
+          "target_va": 268728784,
+          "kind": 20
+        },
+        {
+          "symbol": "?sum@?4??GetStatistics@RakPeer@@UAEQAURakNetStatisticsStruct@@UPlayerID@@@Z@4U3@A",
+          "site_rva": 255517,
+          "target_va": 269585656,
+          "kind": 6
+        },
+        {
+          "symbol": "?sum@?4??GetStatistics@RakPeer@@UAEQAURakNetStatisticsStruct@@UPlayerID@@@Z@4U3@A",
+          "site_rva": 255533,
+          "target_va": 269585656,
+          "kind": 6
+        },
+        {
+          "symbol": "??YRakNetStatisticsStruct@@QAEXABU0@@Z",
+          "site_rva": 255538,
+          "target_va": 268664928,
+          "kind": 20
+        },
+        {
+          "symbol": "?sum@?4??GetStatistics@RakPeer@@UAEQAURakNetStatisticsStruct@@UPlayerID@@@Z@4U3@A",
+          "site_rva": 255554,
+          "target_va": 269585656,
+          "kind": 6
+        },
+        {
+          "symbol": "?GetRemoteSystemFromPlayerID@RakPeer@@IBEPAURemoteSystemStruct@1@UPlayerID@@_N1@Z",
+          "site_rva": 255593,
+          "target_va": 268683232,
+          "kind": 20
+        },
+        {
+          "symbol": "?GetStatistics@ReliabilityLayer@@QAEQAURakNetStatisticsStruct@@_N@Z",
+          "site_rva": 255614,
+          "target_va": 268728784,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "eval_vendor_rakpeer_remote_state",
+      "section": 5,
+      "rva": 229472,
+      "size": 569,
+      "kind": ".text",
+      "sha256": "80451a80fd5f16da669025048f1a8b7ddc86b98c1fb7090eebdd0041ca9ce2d2",
+      "whole_bytes_equal": true,
+      "bindings": []
+    },
+    {
+      "unit": "eval_vendor_rakpeer_remote_state",
+      "section": 57,
+      "rva": 255264,
+      "size": 49,
+      "kind": ".text",
+      "sha256": "5afeb828466e2deaa79f2654858388ef03eb338971f15cfe7f4cee53037b7afb",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "?GetRemoteSystemFromPlayerID@RakPeer@@IBEPAURemoteSystemStruct@1@UPlayerID@@_N1@Z",
+          "site_rva": 255289,
+          "target_va": 268683232,
+          "kind": 20
+        },
+        {
+          "symbol": "?SetTimeoutTime@ReliabilityLayer@@QAEXI@Z",
+          "site_rva": 255306,
+          "target_va": 268713184,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "eval_vendor_rakpeer_remote_state",
+      "section": 55,
+      "rva": 254976,
+      "size": 49,
+      "kind": ".text",
+      "sha256": "8302bacc0e55508c0edf08bfc58e72cf670c954584f859b8b2d22bca0eb5c249",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "?GetRemoteSystemFromPlayerID@RakPeer@@IBEPAURemoteSystemStruct@1@UPlayerID@@_N1@Z",
+          "site_rva": 255001,
+          "target_va": 268683232,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "eval_vendor_rakpeer_remote_state",
+      "section": 53,
+      "rva": 254896,
+      "size": 73,
+      "kind": ".text",
+      "sha256": "dd6085f232ff24eecf1b9efaafbfc2f827c490b922f0bb0360a3bd80e9d96055",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "?GetRemoteSystemFromPlayerID@RakPeer@@IBEPAURemoteSystemStruct@1@UPlayerID@@_N1@Z",
+          "site_rva": 254921,
+          "target_va": 268683232,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "eval_vendor_rakpeer_remote_state",
+      "section": 51,
+      "rva": 254800,
+      "size": 90,
+      "kind": ".text",
+      "sha256": "9f3b8f470c7c581a3408a9425a159fb0b7c7c834d56a630c182d71c217c46ffe",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "?GetRemoteSystemFromPlayerID@RakPeer@@IBEPAURemoteSystemStruct@1@UPlayerID@@_N1@Z",
+          "site_rva": 254826,
+          "target_va": 268683232,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "eval_vendor_rakpeer_remote_state",
+      "section": 21,
+      "rva": 233200,
+      "size": 118,
+      "kind": ".text",
+      "sha256": "ddcc7c0c6bd683cecc3d79cb185d31e43b879ef1522501309840cd8811f99c7c",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "??8PlayerID@@QBE_NABU0@@Z",
+          "site_rva": 233257,
+          "target_va": 268646112,
+          "kind": 20
+        },
+        {
+          "symbol": "??9PlayerID@@QBE_NABU0@@Z",
+          "site_rva": 233277,
+          "target_va": 268646160,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "eval_vendor_rakpeer_remote_state",
+      "section": 19,
+      "rva": 233168,
+      "size": 29,
+      "kind": ".text",
+      "sha256": "a16e02f6aca1a8ee59bac5feb69776e3e5a8dce56f7d56d46c16a9d075975b13",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "?GetNumberOfRemoteInitiatedConnections@RakPeer@@IBEGXZ",
+          "site_rva": 233183,
+          "target_va": 268668128,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "eval_vendor_rakpeer_remote_state",
+      "section": 17,
+      "rva": 232672,
+      "size": 80,
+      "kind": ".text",
+      "sha256": "58a3d414a4ec31dfe4ab03e024649b0939e00b3436818c5fbcb30b54c8ebd5fe",
+      "whole_bytes_equal": true,
+      "bindings": []
+    },
+    {
+      "unit": "eval_vendor_rakpeer_remote_state",
+      "section": 15,
+      "rva": 231328,
+      "size": 191,
+      "kind": ".text",
+      "sha256": "e1508847bf0a15f6262084956667035724a297c72b2e59105d6ece8d9073631f",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "_UNASSIGNED_PLAYER_ID",
+          "site_rva": 231333,
+          "target_va": 269477864,
+          "kind": 6
+        },
+        {
+          "symbol": "_UNASSIGNED_PLAYER_ID",
+          "site_rva": 231341,
+          "target_va": 269477860,
+          "kind": 6
+        },
+        {
+          "symbol": "??8PlayerID@@QBE_NABU0@@Z",
+          "site_rva": 231380,
+          "target_va": 268646112,
+          "kind": 20
+        },
+        {
+          "symbol": "_UNASSIGNED_PLAYER_ID",
+          "site_rva": 231389,
+          "target_va": 269477860,
+          "kind": 6
+        },
+        {
+          "symbol": "??8PlayerID@@QBE_NABU0@@Z",
+          "site_rva": 231398,
+          "target_va": 268646112,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "eval_vendor_rakpeer_remote_state",
+      "section": 13,
+      "rva": 231104,
+      "size": 83,
+      "kind": ".text",
+      "sha256": "7a67663a350aa5620b3397dd97d6c2df8cbf02dc9da3f8fa56631af11ab1e1c3",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "_UNASSIGNED_PLAYER_ID",
+          "site_rva": 231165,
+          "target_va": 269477860,
+          "kind": 6
+        },
+        {
+          "symbol": "_UNASSIGNED_PLAYER_ID",
+          "site_rva": 231176,
+          "target_va": 269477864,
+          "kind": 6
+        }
+      ]
+    },
+    {
+      "unit": "eval_vendor_rakpeer_remote_state",
+      "section": 11,
+      "rva": 231008,
+      "size": 93,
+      "kind": ".text",
+      "sha256": "0c7982a1d2740fcb6aec064083f763f91e45da9987bf61e6691bcde6c393951d",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "_UNASSIGNED_PLAYER_ID",
+          "site_rva": 231079,
+          "target_va": 269477860,
+          "kind": 6
+        },
+        {
+          "symbol": "_UNASSIGNED_PLAYER_ID",
+          "site_rva": 231090,
+          "target_va": 269477864,
+          "kind": 6
+        }
+      ]
+    },
+    {
+      "unit": "eval_vendor_rakpeer_remote_state",
+      "section": 9,
+      "rva": 230608,
+      "size": 213,
+      "kind": ".text",
+      "sha256": "0cd30f5f544938abb5bfc0c2640516d46d3aa527c0882ae18f9ef9afdbc60042",
+      "whole_bytes_equal": true,
+      "bindings": []
+    },
+    {
+      "unit": "eval_vendor_rakpeer_remote_state",
+      "section": 69,
+      "rva": 1042404,
+      "size": 16,
+      "kind": ".data",
+      "sha256": "44774f987c1b2569c171277ac704deed6fa979e51c12bc30dc3b0defaf92ede9",
+      "whole_bytes_equal": true,
+      "bindings": []
+    },
+    {
+      "unit": "eval_vendor_rakpeer_remote_state",
+      "section": 65,
+      "rva": 928032,
+      "size": 21,
+      "kind": ".text$x",
+      "sha256": "065ada41c8f260086cc92332855e594b368882f8fe0951ac100eff62c71af351",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "??1BitStream@RakNet@@QAE@XZ",
+          "site_rva": 928039,
+          "target_va": 268564688,
+          "kind": 20
+        },
+        {
+          "symbol": "$T62872",
+          "site_rva": 928044,
+          "target_va": 269461004,
+          "kind": 6
+        },
+        {
+          "symbol": "___CxxFrameHandler",
+          "site_rva": 928049,
+          "target_va": 269247782,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "eval_vendor_rakpeer_remote_state",
+      "section": 60,
+      "rva": 1150200,
+      "size": 296,
+      "kind": ".bss",
+      "sha256": "250f52cb2d6f1966a29f6ac771fa1cd185b8f8531396c8a4026c0fe635617e0c",
+      "whole_bytes_equal": true,
+      "bindings": []
+    },
+    {
+      "unit": "eval_vendor_rakpeer_remote_state",
+      "section": 66,
+      "rva": 1025540,
+      "size": 36,
+      "kind": ".xdata$x",
+      "sha256": "13e8133fea0da1a34d3eda624264d116e9c1138ba43b6450fbcc81f1f624569b",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "$L62857",
+          "site_rva": 1025544,
+          "target_va": 269363488,
+          "kind": 6
+        },
+        {
+          "symbol": "$T62875",
+          "site_rva": 1025556,
+          "target_va": 269460996,
+          "kind": 6
+        }
+      ]
+    }
+  ],
+  "bindings_checked": 78,
+  "external_targets": {
+    "??3@YAXPAX@Z": 269247626,
+    "??2@YAPAXI@Z": 269247098,
+    "eval_vendor_rakpeer_remote_state::_UNASSIGNED_PLAYER_ID": 269477860,
+    "??8PlayerID@@QBE_NABU0@@Z": 268646112,
+    "??MPlayerID@@QBE_NABU0@@Z": 268646256,
+    "__ehhandler$?ShiftIncomingTimestamp@RakPeer@@IBEXPAEUPlayerID@@@Z": 269363499,
+    "__except_list": 0,
+    "??0BitStream@RakNet@@QAE@PAEI_N@Z": 268564416,
+    "?ReadBits@BitStream@RakNet@@QAE_NPAEH_N@Z": 268564912,
+    "?SetWriteOffset@BitStream@RakNet@@QAEXH@Z": 268565760,
+    "?WriteBits@BitStream@RakNet@@QAEXPBEH_N@Z": 268566496,
+    "??1BitStream@RakNet@@QAE@XZ": 268564688,
+    "?GetTime@RakNet@@YAIXZ": 268625904,
+    "?SetEncryptionKey@ReliabilityLayer@@QAEXPBE@Z": 268713120,
+    "?Reset@BitStream@RakNet@@QAEXXZ": 268564720,
+    "?Reset@ReliabilityLayer@@QAEX_N@Z": 268739312,
+    "_memmove": 269250016,
+    "?GetStatistics@ReliabilityLayer@@QAEQAURakNetStatisticsStruct@@_N@Z": 268728784,
+    "eval_vendor_rakpeer_remote_state::?sum@?4??GetStatistics@RakPeer@@UAEQAURakNetStatisticsStruct@@UPlayerID@@@Z@4U3@A": 269585656,
+    "??9PlayerID@@QBE_NABU0@@Z": 268646160,
+    "eval_vendor_rakpeer_remote_state::$T62872": 269461004,
+    "___CxxFrameHandler": 269247782,
+    "eval_vendor_rakpeer_remote_state::$L62857": 269363488,
+    "eval_vendor_rakpeer_remote_state::$T62875": 269460996
+  },
+  "identity_reasons": {
+    "?GetConnectionList@RakPeer@@UBE_NPAUPlayerID@@PAG@Z": "source method semantics + original call graph / allocation / table owner",
+    "?GetPlayerIDFromIndex@RakPeer@@UAE?AUPlayerID@@H@Z": "source method semantics + original call graph / allocation / table owner",
+    "?GetAnyPlayerIDFromIndex@RakPeer@@QAE?AUPlayerID@@H@Z": "source method semantics + original call graph / allocation / table owner",
+    "?GetExternalID@RakPeer@@UBE?AUPlayerID@@U2@@Z": "source method semantics + original call graph / allocation / table owner",
+    "?GetNumberOfRemoteInitiatedConnections@RakPeer@@IBEGXZ": "actual relocation from ?AllowIncomingConnections@RakPeer@@IBE_NXZ",
+    "?AllowIncomingConnections@RakPeer@@IBE_NXZ": "source method semantics + original call graph / allocation / table owner",
+    "?ValidSendTarget@RakPeer@@IAE_NUPlayerID@@_N@Z": "source method semantics + original call graph / allocation / table owner",
+    "?GetIndexFromPlayerID@RakPeer@@IAEHUPlayerID@@_N@Z": "actual relocation from ?GetIndexFromPlayerID@RakPeer@@UAEHUPlayerID@@@Z",
+    "?GetRemoteSystemFromPlayerID@RakPeer@@IBEPAURemoteSystemStruct@1@UPlayerID@@_N1@Z": "actual relocation from ?GetBestClockDifferential@RakPeer@@IBEIUPlayerID@@@Z",
+    "?GetBestClockDifferential@RakPeer@@IBEIUPlayerID@@@Z": "actual relocation from ?ShiftIncomingTimestamp@RakPeer@@IBEXPAEUPlayerID@@@Z",
+    "?GetAveragePing@RakPeer@@UAEHUPlayerID@@@Z": "source method semantics + original call graph / allocation / table owner",
+    "?GetLastPing@RakPeer@@UBEHUPlayerID@@@Z": "source method semantics + original call graph / allocation / table owner",
+    "?GetLowestPing@RakPeer@@UBEHUPlayerID@@@Z": "source method semantics + original call graph / allocation / table owner",
+    "?SetTimeoutTime@RakPeer@@UAEXIUPlayerID@@@Z": "source method semantics + original call graph / allocation / table owner",
+    "?GetStatistics@RakPeer@@UAEQAURakNetStatisticsStruct@@UPlayerID@@@Z": "source method semantics + original call graph / allocation / table owner",
+    "?AssignPlayerIDToRemoteSystemList@RakPeer@@IAEPAURemoteSystemStruct@1@UPlayerID@@W4ConnectMode@21@@Z": "source method semantics + original call graph / allocation / table owner",
+    "?ShiftIncomingTimestamp@RakPeer@@IBEXPAEUPlayerID@@@Z": "source method semantics + original call graph / allocation / table owner",
+    "?GetIndexFromPlayerID@RakPeer@@UAEHUPlayerID@@@Z": "source method semantics + original call graph / allocation / table owner",
+    "??0RPCMap@@QAE@XZ": "source method semantics + original call graph / allocation / table owner",
+    "?AddIdentifierWithFunction@RPCMap@@QAEXEPAX_N@Z": "source method semantics + original call graph / allocation / table owner",
+    "?GetIndexFromFunctionName@RPCMap@@QAEEE@Z": "source method semantics + original call graph / allocation / table owner",
+    "?GetNodeFromIndex@RPCMap@@QAEPAURPCNode@@E@Z": "source method semantics + original call graph / allocation / table owner",
+    "??1RPCMap@@QAE@XZ": "source method semantics + original call graph / allocation / table owner",
+    "?Clear@RPCMap@@QAEXXZ": "actual relocation from ??1RPCMap@@QAE@XZ",
+    "?GetIndexFromKey@?$OrderedList@UPlayerID@@UPlayerIDAndIndex@@$1?PlayerIDAndIndexComp@@YAHABU1@ABU2@@Z@DataStructures@@QBEIABUPlayerID@@PA_N@Z": "actual relocation from ?GetIndexFromPlayerID@RakPeer@@IAEHUPlayerID@@_N@Z",
+    "??A?$OrderedList@UPlayerID@@UPlayerIDAndIndex@@$1?PlayerIDAndIndexComp@@YAHABU1@ABU2@@Z@DataStructures@@QBEAAUPlayerIDAndIndex@@I@Z": "actual relocation from ?GetIndexFromPlayerID@RakPeer@@IAEHUPlayerID@@_N@Z",
+    "?PlayerIDAndIndexComp@@YAHABUPlayerID@@ABUPlayerIDAndIndex@@@Z": "actual relocation from ?GetIndexFromKey@?$OrderedList@UPlayerID@@UPlayerIDAndIndex@@$1?PlayerIDAndIndexComp@@YAHABU1@ABU2@@Z@DataStructures@@QBEIABUPlayerID@@PA_N@Z",
+    "?SetSplitMessageProgressInterval@ReliabilityLayer@@QAEXH@Z": "actual relocation from ?AssignPlayerIDToRemoteSystemList@RakPeer@@IAEPAURemoteSystemStruct@1@UPlayerID@@W4ConnectMode@21@@Z",
+    "?SetUnreliableTimeout@ReliabilityLayer@@QAEXI@Z": "actual relocation from ?AssignPlayerIDToRemoteSystemList@RakPeer@@IAEPAURemoteSystemStruct@1@UPlayerID@@W4ConnectMode@21@@Z",
+    "?Insert@?$OrderedList@UPlayerID@@UPlayerIDAndIndex@@$1?PlayerIDAndIndexComp@@YAHABU1@ABU2@@Z@DataStructures@@QAEIABUPlayerID@@ABUPlayerIDAndIndex@@@Z": "actual relocation from ?AssignPlayerIDToRemoteSystemList@RakPeer@@IAEPAURemoteSystemStruct@1@UPlayerID@@W4ConnectMode@21@@Z",
+    "?Insert@?$List@UPlayerIDAndIndex@@@DataStructures@@QAEXUPlayerIDAndIndex@@@Z": "actual relocation from ?Insert@?$OrderedList@UPlayerID@@UPlayerIDAndIndex@@$1?PlayerIDAndIndexComp@@YAHABU1@ABU2@@Z@DataStructures@@QAEIABUPlayerID@@ABUPlayerIDAndIndex@@@Z",
+    "?Insert@?$List@UPlayerIDAndIndex@@@DataStructures@@QAEXUPlayerIDAndIndex@@I@Z": "actual relocation from ?Insert@?$OrderedList@UPlayerID@@UPlayerIDAndIndex@@$1?PlayerIDAndIndexComp@@YAHABU1@ABU2@@Z@DataStructures@@QAEIABUPlayerID@@ABUPlayerIDAndIndex@@@Z",
+    "??YRakNetStatisticsStruct@@QAEXABU0@@Z": "actual relocation from ?GetStatistics@RakPeer@@UAEQAURakNetStatisticsStruct@@UPlayerID@@@Z",
+    "?SetTimeoutTime@ReliabilityLayer@@QAEXI@Z": "actual relocation from ?SetTimeoutTime@RakPeer@@UAEXIUPlayerID@@@Z"
+  },
+  "new_unique_code": 2816,
+  "already_covered_code": 956,
+  "physical_code_compared": 3772,
+  "baseline": 381304,
+  "source025_direct_bytes": 0,
+  "reuse_existing_owners": {},
+  "excluded_unmatched": [],
+  "explicit_owner_transfer": "None; source full existing headers, new remote-state/RPCMap/providers only.",
+  "unselected_method": "RPCMap homologue getters and trivial destructor require their actual original call sites before additional roots.",
+  "source_files": [
+    {
+      "path": "client/saco/eval_vendor_rpc_map.cpp",
+      "sha256": "996765b3b91cf8f7e95bf63a21b4c4ad70ee7d53f58666229de1e2a13a9489bc"
+    },
+    {
+      "path": "client/saco/eval_vendor_reliability_remote_settings.cpp",
+      "sha256": "a133a2f823c355da602d17a288caf77b324f1b27f053f8821d32c8cab6989aab"
+    },
+    {
+      "path": "client/saco/eval_vendor_rakpeer_remote_state.cpp",
+      "sha256": "e9911b3771d51f561e109f3fe6d6758e027278bd77f683dd29d09a14ef49b88a"
+    }
+  ],
+  "objects": {
+    "eval_vendor_rpc_map": "25202141e0608203430cdb555ed699165c6e130e3766c45afa924b52d932e684",
+    "eval_vendor_reliability_remote_settings": "af207768e894ee9f4fa6bd9c1ef2ab409530fa3af3cc92e8fa73eaa6274a364e",
+    "eval_vendor_rakpeer_remote_state": "31b6ae3ae732de9d0f467579dad23bffc1238b3a25c7a78ae39215b86e6ffbc7"
+  },
+  "actual_weak_aliases": {
+    "eval_vendor_rpc_map": {},
+    "eval_vendor_reliability_remote_settings": {},
+    "eval_vendor_rakpeer_remote_state": {}
+  }
+}

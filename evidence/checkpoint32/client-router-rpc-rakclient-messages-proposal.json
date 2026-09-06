@@ -1,0 +1,220 @@
+{
+  "status": "SOURCE_PROPOSAL_NOT_ACCEPTED",
+  "source": "vendor/upstream/raknet/RakClient.cpp",
+  "source_sha256": "faa1817ad934da1b7fd15669d717b11f4ec78e0e5c40701dc9545aa6a32ba49a",
+  "proposal": "build/agent-independent/eval_vendor_rakclient_messages.cpp",
+  "proposal_sha256": "cdf937fd2a68b0192ebf9e9d1cf20b17b691dc80d9d0e8991fb3f46e90f89dca",
+  "functions": [
+    {
+      "method": "Send",
+      "source_line": 97,
+      "sha256": "30e46fcb75f646be91a8fdf8a9a44f4bf3514c819fe07a309d5de376fc292ea1"
+    },
+    {
+      "method": "Send",
+      "source_line": 105,
+      "sha256": "2cf90cd8c3affe5ec9c27ff1da9ef720135fc039f630cff41fb460988f1bf550"
+    },
+    {
+      "method": "Receive",
+      "source_line": 113,
+      "sha256": "7420edb3e20d00088ab998d7c7f78c4d978557e4e8b867968d61493aaacb902f"
+    },
+    {
+      "method": "RPC",
+      "source_line": 368,
+      "sha256": "3fc9ec79ed08a0bb9e1ea7c34fe00d4edcd414d8d5f377ec6d9f9ef8ed9fc0e7"
+    },
+    {
+      "method": "RPC",
+      "source_line": 376,
+      "sha256": "3323e99d49ce637df02664afb1d5e8fd43d3cba06edaa6e14befafd48cd16a51"
+    },
+    {
+      "method": "RPC",
+      "source_line": 385,
+      "sha256": "e9181b8bd36f584dead7b34af5e0aa129b7c9628bae871c7303fbf42b4bd2a5d"
+    },
+    {
+      "method": "GetStaticServerData",
+      "source_line": 424,
+      "sha256": "e29b94800ce0f13fea96f780412d1c6ef1c651a92bbc3143fa909f349d5fc430"
+    },
+    {
+      "method": "SetStaticServerData",
+      "source_line": 432,
+      "sha256": "b807a4542b0077ecc2c58a18b49b16336e7dc46419897be3afac9a4084803c0b"
+    },
+    {
+      "method": "GetStaticClientData",
+      "source_line": 440,
+      "sha256": "0fc8d6b0739907d5af9e2f831bed3c116b51448cb17242c6fd063e1c9d8f6bb9"
+    },
+    {
+      "method": "SetStaticClientData",
+      "source_line": 463,
+      "sha256": "984a3c7f69b86d93884ea7d9a77a7ce7c82f90e7d39b8e0ec11f64f32cd0fd35"
+    },
+    {
+      "method": "SendStaticClientDataToServer",
+      "source_line": 489,
+      "sha256": "c137c503702a35ea1ecddd9dc21bf727de5e8280a153f3e735daf40c2e42d066"
+    },
+    {
+      "method": "GetOtherClientIndexByPlayerID",
+      "source_line": 584,
+      "sha256": "a9f8d50cbaf37c8da57f96202d496343c8eb0129b8f91a2a99a77917d72b8c90"
+    },
+    {
+      "method": "GetFreeOtherClientIndex",
+      "source_line": 597,
+      "sha256": "4c6d721bed00d06d0a1844263a895b9771e85f23ae51a7a07ae6da6edc8ca9fe"
+    }
+  ],
+  "old_unambiguous_roots": [
+    {
+      "symbol": "?Send@RakClient@@UAE_NPBDHW4PacketPriority@@W4PacketReliability@@D@Z",
+      "rva": 213648,
+      "size": 77,
+      "targets": {
+        "?Send@RakPeer@@UAE_NPBDHW4PacketPriority@@W4PacketReliability@@DUPlayerID@@_N@Z": 268681920
+      },
+      "new_candidate_bytes": 77
+    },
+    {
+      "symbol": "?Send@RakClient@@UAE_NPAVBitStream@RakNet@@W4PacketPriority@@W4PacketReliability@@D@Z",
+      "rva": 213728,
+      "size": 72,
+      "targets": {
+        "?Send@RakPeer@@UAE_NPAVBitStream@RakNet@@W4PacketPriority@@W4PacketReliability@@DUPlayerID@@_N@Z": 268682192
+      },
+      "new_candidate_bytes": 72
+    },
+    {
+      "symbol": "?RPC@RakClient@@UAE_NPADPBDIW4PacketPriority@@W4PacketReliability@@D_NUNetworkID@@PAVBitStream@RakNet@@@Z",
+      "rva": 214336,
+      "size": 102,
+      "targets": {
+        "?RPC@RakPeer@@UAE_NPADPBDIW4PacketPriority@@W4PacketReliability@@DUPlayerID@@_N5UNetworkID@@PAVBitStream@RakNet@@@Z": 268689488
+      },
+      "new_candidate_bytes": 102
+    },
+    {
+      "symbol": "?RPC@RakClient@@UAE_NPADPAVBitStream@RakNet@@W4PacketPriority@@W4PacketReliability@@D_NUNetworkID@@1@Z",
+      "rva": 214448,
+      "size": 97,
+      "targets": {
+        "?RPC@RakPeer@@UAE_NPADPAVBitStream@RakNet@@W4PacketPriority@@W4PacketReliability@@DUPlayerID@@_N5UNetworkID@@1@Z": 268674848
+      },
+      "new_candidate_bytes": 97
+    },
+    {
+      "symbol": "?RPC@RakClient@@UAE_NPADPAVBitStream@RakNet@@W4PacketPriority@@W4PacketReliability@@D_N@Z",
+      "rva": 214560,
+      "size": 98,
+      "targets": {
+        "_UNASSIGNED_NETWORK_ID": 269477784,
+        "?RPC@RakPeer@@UAE_NPADPAVBitStream@RakNet@@W4PacketPriority@@W4PacketReliability@@DUPlayerID@@_N5UNetworkID@@1@Z": 268674848
+      },
+      "new_candidate_bytes": 98
+    },
+    {
+      "symbol": "?GetStaticServerData@RakClient@@UAEPAVBitStream@RakNet@@XZ",
+      "rva": 214768,
+      "size": 44,
+      "targets": {
+        "?GetRemoteStaticData@RakPeer@@UAEPAVBitStream@RakNet@@UPlayerID@@@Z": 268690496
+      },
+      "new_candidate_bytes": 44
+    },
+    {
+      "symbol": "?SetStaticServerData@RakClient@@UAEXPBDH@Z",
+      "rva": 214816,
+      "size": 54,
+      "targets": {
+        "?SetRemoteStaticData@RakPeer@@UAEXUPlayerID@@PBDH@Z": 268690576
+      },
+      "new_candidate_bytes": 54
+    },
+    {
+      "symbol": "?SendStaticClientDataToServer@RakClient@@UAEXXZ",
+      "rva": 214880,
+      "size": 42,
+      "targets": {
+        "?SendStaticData@RakPeer@@UAEXUPlayerID@@@Z": 268700240
+      },
+      "new_candidate_bytes": 42
+    },
+    {
+      "symbol": "?GetOtherClientIndexByPlayerID@RakClient@@AAEHUPlayerID@@@Z",
+      "rva": 215488,
+      "size": 59,
+      "targets": {
+        "??8PlayerID@@QBE_NABU0@@Z": 268646112
+      },
+      "new_candidate_bytes": 59
+    },
+    {
+      "symbol": "?GetFreeOtherClientIndex@RakClient@@AAEHXZ",
+      "rva": 215552,
+      "size": 29,
+      "targets": {},
+      "new_candidate_bytes": 0
+    },
+    {
+      "symbol": "?Receive@RakClient@@UAEPAUPacket@@XZ",
+      "rva": 216176,
+      "size": 1133,
+      "targets": {
+        "__except_list": 0,
+        "__ehhandler$?Receive@RakClient@@UAEPAUPacket@@XZ": 269362241,
+        "?Receive@RakPeer@@UAEPAUPacket@@XZ": 268701648,
+        "??0BitStream@RakNet@@QAE@PAEI_N@Z": 268564416,
+        "?IgnoreBits@BitStream@RakNet@@QAEXH@Z": 268565744,
+        "?ReadBits@BitStream@RakNet@@QAE_NPAEH_N@Z": 268564912,
+        "??1BitStream@RakNet@@QAE@XZ": 268564688,
+        "?GetOtherClientIndexByPlayerID@RakClient@@AAEHUPlayerID@@@Z": 268650944,
+        "?GetFreeOtherClientIndex@RakClient@@AAEHXZ": 268651008,
+        "?Reset@BitStream@RakNet@@QAEXXZ": 268564720,
+        "?Write@BitStream@RakNet@@QAEXPBDH@Z": 268566672
+      },
+      "new_candidate_bytes": 1133
+    },
+    {
+      "symbol": "?GetStaticClientData@RakClient@@UAEPAVBitStream@RakNet@@UPlayerID@@@Z",
+      "rva": 217312,
+      "size": 89,
+      "targets": {
+        "_UNASSIGNED_PLAYER_ID": 269477776,
+        "??8PlayerID@@QBE_NABU0@@Z": 268646112,
+        "?GetOtherClientIndexByPlayerID@RakClient@@AAEHUPlayerID@@@Z": 268650944
+      },
+      "new_candidate_bytes": 89
+    },
+    {
+      "symbol": "?SetStaticClientData@RakClient@@UAEXUPlayerID@@PBDH@Z",
+      "rva": 217408,
+      "size": 178,
+      "targets": {
+        "_UNASSIGNED_PLAYER_ID": 269477776,
+        "??8PlayerID@@QBE_NABU0@@Z": 268646112,
+        "?Reset@BitStream@RakNet@@QAEXXZ": 268564720,
+        "?Write@BitStream@RakNet@@QAEXPBDH@Z": 268566672,
+        "?GetOtherClientIndexByPlayerID@RakClient@@AAEHUPlayerID@@@Z": 268650944,
+        "?SetRemoteStaticData@RakPeer@@UAEXUPlayerID@@PBDH@Z": 268690576
+      },
+      "new_candidate_bytes": 178
+    }
+  ],
+  "potential_root_bytes": 2045,
+  "source025_direct_bytes": 0,
+  "baseline": "send-font393482 plus disconnect1862 candidate",
+  "scope": [
+    "Original complete RakClient : RakPeer,RakClientInterface declaration; no partial allocation or fake VFT.",
+    "Only selected class methods emitted; ctor/dtor/init/worker excluded.",
+    "Receive dispatches DeallocatePacket at primary RakPeer slot60 with this unchanged (original34F2F/35004); secondary RakClientInterface thunks are outside this caller path. No missing concrete body counted.",
+    "Private OtherClientsStruct full source array32; BitStream lifetime already real accepted implementation.",
+    "Shared existing RakPeer::Get/SetRemoteStaticData supplied by pending disconnect closure.",
+    "Every actually emitted duplicate COMDAT must match same true accepted identity."
+  ]
+}

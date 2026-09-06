@@ -1,0 +1,1406 @@
+{
+  "status": "COMPLETE_PARSER_AND_ALL_ACCEPTED_UTIL_SIBLINGS_PASS",
+  "run": "cp32-console-font-ob1-v3",
+  "new_unique_code": 271,
+  "EH_bytes": 0,
+  "direct025_code_credit": 0,
+  "parser": {
+    "unit": "closure_util",
+    "anchor": "?GetColorFromEmbedCode@@YAKPAD@Z",
+    "rva": 745088,
+    "size": 271,
+    "section": 111,
+    "kind": "code",
+    "sha256": "6427be8745652f38433f6bd5c2156d450eb5055cdfd8c89857c43e3154e24be0",
+    "bindings": [
+      {
+        "symbol": "?IsHexChar@@YAHD@Z",
+        "site_rva": 745174,
+        "symbol_va": 269180432,
+        "addend": 0,
+        "target_va": 269180432,
+        "kind": 20
+      },
+      {
+        "symbol": "?IsHexChar@@YAHD@Z",
+        "site_rva": 745204,
+        "symbol_va": 269180432,
+        "addend": 0,
+        "target_va": 269180432,
+        "kind": 20
+      },
+      {
+        "symbol": "?IsHexChar@@YAHD@Z",
+        "site_rva": 745230,
+        "symbol_va": 269180432,
+        "addend": 0,
+        "target_va": 269180432,
+        "kind": 20
+      },
+      {
+        "symbol": "?IsHexChar@@YAHD@Z",
+        "site_rva": 745252,
+        "symbol_va": 269180432,
+        "addend": 0,
+        "target_va": 269180432,
+        "kind": 20
+      },
+      {
+        "symbol": "?IsHexChar@@YAHD@Z",
+        "site_rva": 745274,
+        "symbol_va": 269180432,
+        "addend": 0,
+        "target_va": 269180432,
+        "kind": 20
+      },
+      {
+        "symbol": "_strncpy",
+        "site_rva": 745327,
+        "symbol_va": 269252592,
+        "addend": 0,
+        "target_va": 269252592,
+        "kind": 20
+      },
+      {
+        "symbol": "_strtoul",
+        "site_rva": 745341,
+        "symbol_va": 269254133,
+        "addend": 0,
+        "target_va": 269254133,
+        "kind": 20
+      }
+    ],
+    "object_sha256": "91c9b9a4128165e07d4bf722c23767ee09ff2757eea22728679acf6ee7c16cb8"
+  },
+  "accepted_sibling_count": 53,
+  "accepted_siblings": [
+    {
+      "unit": "closure_util",
+      "anchor": "?ProcessLineOfSight@@YAXPAU_VECTOR@@00PAKHHHHHHHH@Z",
+      "rva": 736016,
+      "size": 7,
+      "section": 60,
+      "kind": "code",
+      "sha256": "c20cf3563cda6e6637286784365dd622a5afd1af9947e9d414d3b0c75c2f8ccd",
+      "bindings": [],
+      "object_sha256": "91c9b9a4128165e07d4bf722c23767ee09ff2757eea22728679acf6ee7c16cb8"
+    },
+    {
+      "unit": "closure_util",
+      "anchor": "?WorldAddEntity@@YGXPAK@Z",
+      "rva": 736032,
+      "size": 20,
+      "section": 50,
+      "kind": "code",
+      "sha256": "f9599d118a0c9025cf7ded39f9efcd8c55e4d488be390dbef203921ede73aed3",
+      "bindings": [],
+      "object_sha256": "91c9b9a4128165e07d4bf722c23767ee09ff2757eea22728679acf6ee7c16cb8"
+    },
+    {
+      "unit": "closure_util",
+      "anchor": "?WorldRemoveEntity@@YGXPAK@Z",
+      "rva": 736064,
+      "size": 20,
+      "section": 51,
+      "kind": "code",
+      "sha256": "627cd8da7dc7ea6f7ac822e0d51499d234762f9c15fb3f557b4f4344b2126666",
+      "bindings": [],
+      "object_sha256": "91c9b9a4128165e07d4bf722c23767ee09ff2757eea22728679acf6ee7c16cb8"
+    },
+    {
+      "unit": "closure_util",
+      "anchor": "?GamePool_Ped_GetAt@@YGPAU_PED_TYPE@@H@Z",
+      "rva": 736112,
+      "size": 35,
+      "section": 52,
+      "kind": "code",
+      "sha256": "08b031236c3f53176a59ac12ae58318a63f7910e9649b9b8955e9cd4d64ed61b",
+      "bindings": [],
+      "object_sha256": "91c9b9a4128165e07d4bf722c23767ee09ff2757eea22728679acf6ee7c16cb8"
+    },
+    {
+      "unit": "closure_util",
+      "anchor": "?GamePool_Ped_GetIndex@@YGHPAU_PED_TYPE@@@Z",
+      "rva": 736160,
+      "size": 35,
+      "section": 61,
+      "kind": "code",
+      "sha256": "0eed8b625f006a0b005d91f249a1a8524ff5bf8626f9d4a07c8b573af81099b2",
+      "bindings": [],
+      "object_sha256": "91c9b9a4128165e07d4bf722c23767ee09ff2757eea22728679acf6ee7c16cb8"
+    },
+    {
+      "unit": "closure_util",
+      "anchor": "?GamePool_Vehicle_GetAt@@YGPAU_VEHICLE_TYPE@@H@Z",
+      "rva": 736208,
+      "size": 35,
+      "section": 62,
+      "kind": "code",
+      "sha256": "cac04d6483b1e30a1d967795ab3dd495864c8bc51275094b5c8949a940e33b4e",
+      "bindings": [],
+      "object_sha256": "91c9b9a4128165e07d4bf722c23767ee09ff2757eea22728679acf6ee7c16cb8"
+    },
+    {
+      "unit": "closure_util",
+      "anchor": "?GamePool_Vehicle_GetIndex@@YGKPAU_VEHICLE_TYPE@@@Z",
+      "rva": 736256,
+      "size": 40,
+      "section": 63,
+      "kind": "code",
+      "sha256": "bdf8c7498bbf253e21dba9fbbfade3c81dec3e94162eb175bc909782c552664c",
+      "bindings": [],
+      "object_sha256": "91c9b9a4128165e07d4bf722c23767ee09ff2757eea22728679acf6ee7c16cb8"
+    },
+    {
+      "unit": "closure_util",
+      "anchor": "?GamePool_Object_GetAt@@YGPAU_ENTITY_TYPE@@H@Z",
+      "rva": 736304,
+      "size": 35,
+      "section": 64,
+      "kind": "code",
+      "sha256": "8824474f0b4e07f190a3f2ac40d40b02655e0210e6594a825d4899890b6c3124",
+      "bindings": [],
+      "object_sha256": "91c9b9a4128165e07d4bf722c23767ee09ff2757eea22728679acf6ee7c16cb8"
+    },
+    {
+      "unit": "closure_util",
+      "anchor": "?GamePool_FindPlayerPed@@YGPAU_PED_TYPE@@XZ",
+      "rva": 736352,
+      "size": 6,
+      "section": 65,
+      "kind": "code",
+      "sha256": "a80c200c1569f52abe70b43975322baa08db1d1cd6d0f05f29ba7a90acadce00",
+      "bindings": [],
+      "object_sha256": "91c9b9a4128165e07d4bf722c23767ee09ff2757eea22728679acf6ee7c16cb8"
+    },
+    {
+      "unit": "closure_util",
+      "anchor": "?GamePool_GetBuilding@@YAPAU_BUILDING_TYPE@@XZ",
+      "rva": 736368,
+      "size": 18,
+      "section": 67,
+      "kind": "code",
+      "sha256": "a57971f6a89c622b3c5953a781923e22321a54f48d8ce6a1f1058bfb4b3916ad",
+      "bindings": [],
+      "object_sha256": "91c9b9a4128165e07d4bf722c23767ee09ff2757eea22728679acf6ee7c16cb8"
+    },
+    {
+      "unit": "closure_util",
+      "anchor": "?GamePool_GetDummy@@YAPAU_DUMMY_TYPE@@XZ",
+      "rva": 736400,
+      "size": 18,
+      "section": 69,
+      "kind": "code",
+      "sha256": "818b533e1c76f4c271f4acbc9b49f63be4e3c3c82affd61626de28e41ba0d643",
+      "bindings": [],
+      "object_sha256": "91c9b9a4128165e07d4bf722c23767ee09ff2757eea22728679acf6ee7c16cb8"
+    },
+    {
+      "unit": "closure_util",
+      "anchor": "?GamePool_GetObject@@YAPAU_OBJECT_TYPE@@XZ",
+      "rva": 736432,
+      "size": 18,
+      "section": 71,
+      "kind": "code",
+      "sha256": "d7c68820a7e0e0d96af73093ed3195dde7e65dbbc4f11f46b153573e0f8de383",
+      "bindings": [],
+      "object_sha256": "91c9b9a4128165e07d4bf722c23767ee09ff2757eea22728679acf6ee7c16cb8"
+    },
+    {
+      "unit": "closure_util",
+      "anchor": "?ReplaceBuildingModel@@YAXPAU_ENTITY_TYPE@@H@Z",
+      "rva": 736656,
+      "size": 18,
+      "section": 73,
+      "kind": "code",
+      "sha256": "4c0b6c6c1f5fa26d2d7ee0f3d14ddd7c1c115d7cd4701304eb0896477ecdfb7f",
+      "bindings": [],
+      "object_sha256": "91c9b9a4128165e07d4bf722c23767ee09ff2757eea22728679acf6ee7c16cb8"
+    },
+    {
+      "unit": "closure_util",
+      "anchor": "?GetInvalidModelInfoCount@@YAHXZ",
+      "rva": 736768,
+      "size": 25,
+      "section": 74,
+      "kind": "code",
+      "sha256": "6e31c158392c4baf0cbd33892eafbf1add3164efc7893c786e054b74c30ce795",
+      "bindings": [],
+      "object_sha256": "91c9b9a4128165e07d4bf722c23767ee09ff2757eea22728679acf6ee7c16cb8"
+    },
+    {
+      "unit": "closure_util",
+      "anchor": "?GetNextTaskFromTask@@YAPAKPAK@Z",
+      "rva": 737360,
+      "size": 74,
+      "section": 76,
+      "kind": "code",
+      "sha256": "f5a693d2aecec509e90ce42b962caa0dcb7d66142b6024367ca95f70d81f2702",
+      "bindings": [],
+      "object_sha256": "91c9b9a4128165e07d4bf722c23767ee09ff2757eea22728679acf6ee7c16cb8"
+    },
+    {
+      "unit": "closure_util",
+      "anchor": "?GetTaskTypeFromTask@@YAHPAK@Z",
+      "rva": 737440,
+      "size": 74,
+      "section": 77,
+      "kind": "code",
+      "sha256": "45c62ef94b90576676e6183b176c2fd44e79371fbdb193c9e9573574bd7222ac",
+      "bindings": [],
+      "object_sha256": "91c9b9a4128165e07d4bf722c23767ee09ff2757eea22728679acf6ee7c16cb8"
+    },
+    {
+      "unit": "closure_util",
+      "anchor": "?GameIsEntityOnScreen@@YGHPAK@Z",
+      "rva": 737728,
+      "size": 40,
+      "section": 78,
+      "kind": "code",
+      "sha256": "af6841400788d8f454aacf95767ae47bdf00c0903f1e4c6c7b86983f052f8e46",
+      "bindings": [],
+      "object_sha256": "91c9b9a4128165e07d4bf722c23767ee09ff2757eea22728679acf6ee7c16cb8"
+    },
+    {
+      "unit": "closure_util",
+      "anchor": "?CRC32FromUpcaseString@@YGKPAD@Z",
+      "rva": 738432,
+      "size": 34,
+      "section": 79,
+      "kind": "code",
+      "sha256": "acc7ab515831ff84b59af53734cfb0bafd50a1633dcd850b718b43f5bed5bd6e",
+      "bindings": [],
+      "object_sha256": "91c9b9a4128165e07d4bf722c23767ee09ff2757eea22728679acf6ee7c16cb8"
+    },
+    {
+      "unit": "closure_util",
+      "anchor": "?HasCollisionLoaded@@YA_NPAU_VECTOR@@@Z",
+      "rva": 739312,
+      "size": 32,
+      "section": 80,
+      "kind": "code",
+      "sha256": "09f2455cea01974002e6a2941081b43a8f94fc1aab8da0c92559e52f6ca31500",
+      "bindings": [],
+      "object_sha256": "91c9b9a4128165e07d4bf722c23767ee09ff2757eea22728679acf6ee7c16cb8"
+    },
+    {
+      "unit": "closure_util",
+      "anchor": "?FloatDifference@@YAMMM@Z",
+      "rva": 739488,
+      "size": 9,
+      "section": 81,
+      "kind": "code",
+      "sha256": "fdbab7e022420fb41666f4612987bc783a515ef62225ebb1b0d54175a1dcc3fb",
+      "bindings": [],
+      "object_sha256": "91c9b9a4128165e07d4bf722c23767ee09ff2757eea22728679acf6ee7c16cb8"
+    },
+    {
+      "unit": "closure_util",
+      "anchor": "?FloatOffset@@YAMMM@Z",
+      "rva": 739504,
+      "size": 33,
+      "section": 83,
+      "kind": "code",
+      "sha256": "447b0414e0bc8a72b6960aa78d451c23a84239ba08e81814a2994355feaaf967",
+      "bindings": [],
+      "object_sha256": "91c9b9a4128165e07d4bf722c23767ee09ff2757eea22728679acf6ee7c16cb8"
+    },
+    {
+      "unit": "closure_util",
+      "anchor": "?NormalizeAngle@@YAMM@Z",
+      "rva": 739552,
+      "size": 43,
+      "section": 85,
+      "kind": "code",
+      "sha256": "ed2b27835b8419962ab80f769bdb30dc80a19f31bee0ff042b200f0b0f8cef4b",
+      "bindings": [
+        {
+          "symbol": "__real@43340000",
+          "site_rva": 739558,
+          "symbol_va": 269407336,
+          "addend": 0,
+          "target_va": 269407336,
+          "kind": 6
+        },
+        {
+          "symbol": "__real@43b40000",
+          "site_rva": 739571,
+          "symbol_va": 269377828,
+          "addend": 0,
+          "target_va": 269377828,
+          "kind": 6
+        },
+        {
+          "symbol": "__real@c3340000",
+          "site_rva": 739577,
+          "symbol_va": 269407332,
+          "addend": 0,
+          "target_va": 269407332,
+          "kind": 6
+        },
+        {
+          "symbol": "__real@43b40000",
+          "site_rva": 739590,
+          "symbol_va": 269377828,
+          "addend": 0,
+          "target_va": 269377828,
+          "kind": 6
+        }
+      ],
+      "object_sha256": "91c9b9a4128165e07d4bf722c23767ee09ff2757eea22728679acf6ee7c16cb8"
+    },
+    {
+      "unit": "closure_util",
+      "anchor": "?SquaredDistanceBetweenHorizontalPoints@@YGMMMMM@Z",
+      "rva": 739600,
+      "size": 33,
+      "section": 88,
+      "kind": "code",
+      "sha256": "7f42650b0272ccd58cf7969c15126257fd5eb4d9befada7b13303ea28b70f00b",
+      "bindings": [],
+      "object_sha256": "91c9b9a4128165e07d4bf722c23767ee09ff2757eea22728679acf6ee7c16cb8"
+    },
+    {
+      "unit": "closure_util",
+      "anchor": "?DistanceBetweenHorizontalPoints@@YGMMMMM@Z",
+      "rva": 739648,
+      "size": 35,
+      "section": 90,
+      "kind": "code",
+      "sha256": "8813aaa98b2190ba53fe931042115fbfc44626ca24ea7fdcc7d36cbba7c7a26d",
+      "bindings": [],
+      "object_sha256": "91c9b9a4128165e07d4bf722c23767ee09ff2757eea22728679acf6ee7c16cb8"
+    },
+    {
+      "unit": "closure_util",
+      "anchor": "?DistanceBetweenPoints@@YGMMMMMMM@Z",
+      "rva": 739696,
+      "size": 51,
+      "section": 92,
+      "kind": "code",
+      "sha256": "40d874cf913ad4f97720796f506bcbe24b7473740d79734e4fddbc51154fa270",
+      "bindings": [],
+      "object_sha256": "91c9b9a4128165e07d4bf722c23767ee09ff2757eea22728679acf6ee7c16cb8"
+    },
+    {
+      "unit": "closure_util",
+      "anchor": "?SquaredDistanceBetweenPoints@@YGMMMMMMM@Z",
+      "rva": 739760,
+      "size": 49,
+      "section": 94,
+      "kind": "code",
+      "sha256": "281adc417508c19258b70ebd5b4dc933ef14185d95854f3f957e3c4b20ab4f86",
+      "bindings": [],
+      "object_sha256": "91c9b9a4128165e07d4bf722c23767ee09ff2757eea22728679acf6ee7c16cb8"
+    },
+    {
+      "unit": "closure_util",
+      "anchor": "?SquaredDistanceBetweenPoints@@YGMPAU_VECTOR@@0@Z",
+      "rva": 739824,
+      "size": 49,
+      "section": 96,
+      "kind": "code",
+      "sha256": "54a0454d02da1a1ef638913adfea6428b354226b529ee475332fe85cde587fd3",
+      "bindings": [],
+      "object_sha256": "91c9b9a4128165e07d4bf722c23767ee09ff2757eea22728679acf6ee7c16cb8"
+    },
+    {
+      "unit": "closure_util",
+      "anchor": "?_VectorNormalise@@YAXPAU_VECTOR@@@Z",
+      "rva": 739888,
+      "size": 15,
+      "section": 98,
+      "kind": "code",
+      "sha256": "c5957b689eaaa30b191ce4062dd128ae9797e4346df8313b4607d6de514f5fc7",
+      "bindings": [],
+      "object_sha256": "91c9b9a4128165e07d4bf722c23767ee09ff2757eea22728679acf6ee7c16cb8"
+    },
+    {
+      "unit": "closure_util",
+      "anchor": "?DegToRad@@YAMM@Z",
+      "rva": 743792,
+      "size": 102,
+      "section": 53,
+      "kind": "code",
+      "sha256": "a504b61a071e179d6ec50242db25ece5484435b494d679e25fff1b3eec5191b8",
+      "bindings": [
+        {
+          "symbol": "__real@43b40000",
+          "site_rva": 743798,
+          "symbol_va": 269377828,
+          "addend": 0,
+          "target_va": 269377828,
+          "kind": 6
+        },
+        {
+          "symbol": "__real@00000000",
+          "site_rva": 743815,
+          "symbol_va": 269375808,
+          "addend": 0,
+          "target_va": 269375808,
+          "kind": 6
+        },
+        {
+          "symbol": "__real@43340000",
+          "site_rva": 743832,
+          "symbol_va": 269407336,
+          "addend": 0,
+          "target_va": 269407336,
+          "kind": 6
+        },
+        {
+          "symbol": "__real@43340000",
+          "site_rva": 743849,
+          "symbol_va": 269407336,
+          "addend": 0,
+          "target_va": 269407336,
+          "kind": 6
+        },
+        {
+          "symbol": "__real@40490fdb",
+          "site_rva": 743855,
+          "symbol_va": 269407360,
+          "addend": 0,
+          "target_va": 269407360,
+          "kind": 6
+        },
+        {
+          "symbol": "__real@3bb60b61",
+          "site_rva": 743861,
+          "symbol_va": 269407356,
+          "addend": 0,
+          "target_va": 269407356,
+          "kind": 6
+        },
+        {
+          "symbol": "__real@40490fdb",
+          "site_rva": 743867,
+          "symbol_va": 269407360,
+          "addend": 0,
+          "target_va": 269407360,
+          "kind": 6
+        },
+        {
+          "symbol": "__real@40490fdb",
+          "site_rva": 743876,
+          "symbol_va": 269407360,
+          "addend": 0,
+          "target_va": 269407360,
+          "kind": 6
+        },
+        {
+          "symbol": "__real@3bb60b61",
+          "site_rva": 743882,
+          "symbol_va": 269407356,
+          "addend": 0,
+          "target_va": 269407356,
+          "kind": 6
+        },
+        {
+          "symbol": "__real@00000000",
+          "site_rva": 743889,
+          "symbol_va": 269375808,
+          "addend": 0,
+          "target_va": 269375808,
+          "kind": 6
+        }
+      ],
+      "object_sha256": "91c9b9a4128165e07d4bf722c23767ee09ff2757eea22728679acf6ee7c16cb8"
+    },
+    {
+      "unit": "closure_util",
+      "anchor": "?InvDegToRad@@YAMM@Z",
+      "rva": 743904,
+      "size": 114,
+      "section": 99,
+      "kind": "code",
+      "sha256": "8fb245a632f8ab3bdea501e4c2a88a13e6825f7054486c798855bfc6a405048c",
+      "bindings": [
+        {
+          "symbol": "__real@43b40000",
+          "site_rva": 743910,
+          "symbol_va": 269377828,
+          "addend": 0,
+          "target_va": 269377828,
+          "kind": 6
+        },
+        {
+          "symbol": "__real@00000000",
+          "site_rva": 743927,
+          "symbol_va": 269375808,
+          "addend": 0,
+          "target_va": 269375808,
+          "kind": 6
+        },
+        {
+          "symbol": "__real@43340000",
+          "site_rva": 743944,
+          "symbol_va": 269407336,
+          "addend": 0,
+          "target_va": 269407336,
+          "kind": 6
+        },
+        {
+          "symbol": "__real@43340000",
+          "site_rva": 743961,
+          "symbol_va": 269407336,
+          "addend": 0,
+          "target_va": 269407336,
+          "kind": 6
+        },
+        {
+          "symbol": "__real@40490fdb",
+          "site_rva": 743967,
+          "symbol_va": 269407360,
+          "addend": 0,
+          "target_va": 269407360,
+          "kind": 6
+        },
+        {
+          "symbol": "__real@3bb60b61",
+          "site_rva": 743973,
+          "symbol_va": 269407356,
+          "addend": 0,
+          "target_va": 269407356,
+          "kind": 6
+        },
+        {
+          "symbol": "__real@40490fdb",
+          "site_rva": 743979,
+          "symbol_va": 269407360,
+          "addend": 0,
+          "target_va": 269407360,
+          "kind": 6
+        },
+        {
+          "symbol": "__real@bf800000",
+          "site_rva": 743987,
+          "symbol_va": 269395512,
+          "addend": 0,
+          "target_va": 269395512,
+          "kind": 6
+        },
+        {
+          "symbol": "__real@40490fdb",
+          "site_rva": 743994,
+          "symbol_va": 269407360,
+          "addend": 0,
+          "target_va": 269407360,
+          "kind": 6
+        },
+        {
+          "symbol": "__real@3bb60b61",
+          "site_rva": 744000,
+          "symbol_va": 269407356,
+          "addend": 0,
+          "target_va": 269407356,
+          "kind": 6
+        },
+        {
+          "symbol": "__real@bf800000",
+          "site_rva": 744006,
+          "symbol_va": 269395512,
+          "addend": 0,
+          "target_va": 269395512,
+          "kind": 6
+        },
+        {
+          "symbol": "__real@00000000",
+          "site_rva": 744013,
+          "symbol_va": 269375808,
+          "addend": 0,
+          "target_va": 269375808,
+          "kind": 6
+        }
+      ],
+      "object_sha256": "91c9b9a4128165e07d4bf722c23767ee09ff2757eea22728679acf6ee7c16cb8"
+    },
+    {
+      "unit": "closure_util",
+      "anchor": "?IsNumeric@@YA_NPAD@Z",
+      "rva": 744096,
+      "size": 38,
+      "section": 102,
+      "kind": "code",
+      "sha256": "c3f61e656f2c99ddff159eaab2d138ff3c50f294089c9b239f6443d97593a938",
+      "bindings": [],
+      "object_sha256": "91c9b9a4128165e07d4bf722c23767ee09ff2757eea22728679acf6ee7c16cb8"
+    },
+    {
+      "unit": "closure_util",
+      "anchor": "?ResetLocalPad@@YAXHH@Z",
+      "rva": 744864,
+      "size": 30,
+      "section": 104,
+      "kind": "code",
+      "sha256": "3fc9367943864c9d2931321de74528089e6fc2e0f259d6dec2c6df4e1fe8445d",
+      "bindings": [],
+      "object_sha256": "91c9b9a4128165e07d4bf722c23767ee09ff2757eea22728679acf6ee7c16cb8"
+    },
+    {
+      "unit": "closure_util",
+      "anchor": "?IsFileOrDirectoryExists@@YAHPAD@Z",
+      "rva": 744896,
+      "size": 26,
+      "section": 105,
+      "kind": "code",
+      "sha256": "ac119f3dfc8436c7a2d9a0f0e5554224dc123e10c64cd408a60e2f805acf6325",
+      "bindings": [
+        {
+          "symbol": "__stat",
+          "site_rva": 744909,
+          "symbol_va": 269268837,
+          "addend": 0,
+          "target_va": 269268837,
+          "kind": 20
+        }
+      ],
+      "object_sha256": "91c9b9a4128165e07d4bf722c23767ee09ff2757eea22728679acf6ee7c16cb8"
+    },
+    {
+      "unit": "closure_util",
+      "anchor": "?IsHexChar@@YAHD@Z",
+      "rva": 744976,
+      "size": 37,
+      "section": 107,
+      "kind": "code",
+      "sha256": "dff8997fa8fd0b55597d181dbb4de4c12fbc513e84721f0d0e16c3254d016691",
+      "bindings": [],
+      "object_sha256": "91c9b9a4128165e07d4bf722c23767ee09ff2757eea22728679acf6ee7c16cb8"
+    },
+    {
+      "unit": "closure_util",
+      "anchor": "?IsHexChar@@YAHG@Z",
+      "rva": 745024,
+      "size": 50,
+      "section": 109,
+      "kind": "code",
+      "sha256": "a3d7f7d0a8ff6243efab1476d8f43dcabfc7ef3e4ea6aede190dbf46b043714a",
+      "bindings": [],
+      "object_sha256": "91c9b9a4128165e07d4bf722c23767ee09ff2757eea22728679acf6ee7c16cb8"
+    },
+    {
+      "unit": "closure_util",
+      "anchor": "?GetColorFromEmbedCode@@YAKPAG@Z",
+      "rva": 745360,
+      "size": 301,
+      "section": 113,
+      "kind": "code",
+      "sha256": "f0275c167f5e3372baef367fa3684aeeaadd920538fac5b7e782626f1a48a555",
+      "bindings": [
+        {
+          "symbol": "?IsHexChar@@YAHG@Z",
+          "site_rva": 745408,
+          "symbol_va": 269180480,
+          "addend": 0,
+          "target_va": 269180480,
+          "kind": 20
+        },
+        {
+          "symbol": "?IsHexChar@@YAHG@Z",
+          "site_rva": 745440,
+          "symbol_va": 269180480,
+          "addend": 0,
+          "target_va": 269180480,
+          "kind": 20
+        },
+        {
+          "symbol": "?IsHexChar@@YAHG@Z",
+          "site_rva": 745472,
+          "symbol_va": 269180480,
+          "addend": 0,
+          "target_va": 269180480,
+          "kind": 20
+        },
+        {
+          "symbol": "?IsHexChar@@YAHG@Z",
+          "site_rva": 745504,
+          "symbol_va": 269180480,
+          "addend": 0,
+          "target_va": 269180480,
+          "kind": 20
+        },
+        {
+          "symbol": "?IsHexChar@@YAHG@Z",
+          "site_rva": 745532,
+          "symbol_va": 269180480,
+          "addend": 0,
+          "target_va": 269180480,
+          "kind": 20
+        },
+        {
+          "symbol": "?IsHexChar@@YAHG@Z",
+          "site_rva": 745556,
+          "symbol_va": 269180480,
+          "addend": 0,
+          "target_va": 269180480,
+          "kind": 20
+        },
+        {
+          "symbol": "_wcsncpy",
+          "site_rva": 745629,
+          "symbol_va": 269269676,
+          "addend": 0,
+          "target_va": 269269676,
+          "kind": 20
+        },
+        {
+          "symbol": "_wcstoul",
+          "site_rva": 745643,
+          "symbol_va": 269266785,
+          "addend": 0,
+          "target_va": 269266785,
+          "kind": 20
+        }
+      ],
+      "object_sha256": "91c9b9a4128165e07d4bf722c23767ee09ff2757eea22728679acf6ee7c16cb8"
+    },
+    {
+      "unit": "closure_util",
+      "anchor": "?RemoveColorEmbedsFromString@@YAXPAD@Z",
+      "rva": 745664,
+      "size": 61,
+      "section": 115,
+      "kind": "code",
+      "sha256": "b7bf019fbf644c3b9e6766e704fe78b160c9129b1cbfd95934263dbd560a23a7",
+      "bindings": [
+        {
+          "symbol": "?GetColorFromEmbedCode@@YAKPAD@Z",
+          "site_rva": 745682,
+          "symbol_va": 269180544,
+          "addend": 0,
+          "target_va": 269180544,
+          "kind": 20
+        }
+      ],
+      "object_sha256": "91c9b9a4128165e07d4bf722c23767ee09ff2757eea22728679acf6ee7c16cb8"
+    },
+    {
+      "unit": "closure_util",
+      "anchor": "?GetVehicleSubtypeFromVehiclePtr@@YAIPAU_VEHICLE_TYPE@@@Z",
+      "rva": 745952,
+      "size": 106,
+      "section": 117,
+      "kind": "code",
+      "sha256": "6336b4690b5aa3ca2f8a4199dbbfda5a1d0dd435caec9cadec7b77de74166e33",
+      "bindings": [],
+      "object_sha256": "91c9b9a4128165e07d4bf722c23767ee09ff2757eea22728679acf6ee7c16cb8"
+    },
+    {
+      "unit": "closure_util",
+      "anchor": "?unnamed_100B6100@@YAKPADH@Z",
+      "rva": 745728,
+      "size": 202,
+      "section": 119,
+      "kind": "code",
+      "sha256": "dd71fd2ef6456191a1a5b55d3953c0ee3f12ffd1908e27c6ae1a986d7b029431",
+      "bindings": [
+        {
+          "symbol": "??_C@_03KAGFIHPF@?$HOk?$HO?$AA@",
+          "site_rva": 745797,
+          "symbol_va": 269407432,
+          "addend": 0,
+          "target_va": 269407432,
+          "kind": 6
+        },
+        {
+          "symbol": "_strstr",
+          "site_rva": 745803,
+          "symbol_va": 269250848,
+          "addend": 0,
+          "target_va": 269250848,
+          "kind": 20
+        }
+      ],
+      "object_sha256": "91c9b9a4128165e07d4bf722c23767ee09ff2757eea22728679acf6ee7c16cb8"
+    },
+    {
+      "unit": "closure_util",
+      "anchor": "?GameGetWeaponModelIDFromWeaponID@@YGHH@Z",
+      "rva": 736800,
+      "size": 556,
+      "section": 121,
+      "kind": "code",
+      "sha256": "ef49085c0322993f5900a4e32c9392e33deb0ab456b4f836dcf98444d9af463b",
+      "bindings": [
+        {
+          "symbol": "$L95702",
+          "site_rva": 736817,
+          "symbol_va": 269172628,
+          "addend": 0,
+          "target_va": 269172628,
+          "kind": 6
+        },
+        {
+          "symbol": "$L93950",
+          "site_rva": 737172,
+          "symbol_va": 269172277,
+          "addend": 0,
+          "target_va": 269172277,
+          "kind": 6
+        },
+        {
+          "symbol": "$L93951",
+          "site_rva": 737176,
+          "symbol_va": 269172285,
+          "addend": 0,
+          "target_va": 269172285,
+          "kind": 6
+        },
+        {
+          "symbol": "$L93952",
+          "site_rva": 737180,
+          "symbol_va": 269172293,
+          "addend": 0,
+          "target_va": 269172293,
+          "kind": 6
+        },
+        {
+          "symbol": "$L93953",
+          "site_rva": 737184,
+          "symbol_va": 269172301,
+          "addend": 0,
+          "target_va": 269172301,
+          "kind": 6
+        },
+        {
+          "symbol": "$L93954",
+          "site_rva": 737188,
+          "symbol_va": 269172309,
+          "addend": 0,
+          "target_va": 269172309,
+          "kind": 6
+        },
+        {
+          "symbol": "$L93955",
+          "site_rva": 737192,
+          "symbol_va": 269172317,
+          "addend": 0,
+          "target_va": 269172317,
+          "kind": 6
+        },
+        {
+          "symbol": "$L93956",
+          "site_rva": 737196,
+          "symbol_va": 269172325,
+          "addend": 0,
+          "target_va": 269172325,
+          "kind": 6
+        },
+        {
+          "symbol": "$L93957",
+          "site_rva": 737200,
+          "symbol_va": 269172333,
+          "addend": 0,
+          "target_va": 269172333,
+          "kind": 6
+        },
+        {
+          "symbol": "$L93958",
+          "site_rva": 737204,
+          "symbol_va": 269172341,
+          "addend": 0,
+          "target_va": 269172341,
+          "kind": 6
+        },
+        {
+          "symbol": "$L93959",
+          "site_rva": 737208,
+          "symbol_va": 269172349,
+          "addend": 0,
+          "target_va": 269172349,
+          "kind": 6
+        },
+        {
+          "symbol": "$L93960",
+          "site_rva": 737212,
+          "symbol_va": 269172357,
+          "addend": 0,
+          "target_va": 269172357,
+          "kind": 6
+        },
+        {
+          "symbol": "$L93961",
+          "site_rva": 737216,
+          "symbol_va": 269172365,
+          "addend": 0,
+          "target_va": 269172365,
+          "kind": 6
+        },
+        {
+          "symbol": "$L93962",
+          "site_rva": 737220,
+          "symbol_va": 269172373,
+          "addend": 0,
+          "target_va": 269172373,
+          "kind": 6
+        },
+        {
+          "symbol": "$L93963",
+          "site_rva": 737224,
+          "symbol_va": 269172381,
+          "addend": 0,
+          "target_va": 269172381,
+          "kind": 6
+        },
+        {
+          "symbol": "$L93964",
+          "site_rva": 737228,
+          "symbol_va": 269172389,
+          "addend": 0,
+          "target_va": 269172389,
+          "kind": 6
+        },
+        {
+          "symbol": "$L93965",
+          "site_rva": 737232,
+          "symbol_va": 269172397,
+          "addend": 0,
+          "target_va": 269172397,
+          "kind": 6
+        },
+        {
+          "symbol": "$L93966",
+          "site_rva": 737236,
+          "symbol_va": 269172405,
+          "addend": 0,
+          "target_va": 269172405,
+          "kind": 6
+        },
+        {
+          "symbol": "$L93967",
+          "site_rva": 737240,
+          "symbol_va": 269172413,
+          "addend": 0,
+          "target_va": 269172413,
+          "kind": 6
+        },
+        {
+          "symbol": "$L93947",
+          "site_rva": 737244,
+          "symbol_va": 269172621,
+          "addend": 0,
+          "target_va": 269172621,
+          "kind": 6
+        },
+        {
+          "symbol": "$L93947",
+          "site_rva": 737248,
+          "symbol_va": 269172621,
+          "addend": 0,
+          "target_va": 269172621,
+          "kind": 6
+        },
+        {
+          "symbol": "$L93947",
+          "site_rva": 737252,
+          "symbol_va": 269172621,
+          "addend": 0,
+          "target_va": 269172621,
+          "kind": 6
+        },
+        {
+          "symbol": "$L93968",
+          "site_rva": 737256,
+          "symbol_va": 269172421,
+          "addend": 0,
+          "target_va": 269172421,
+          "kind": 6
+        },
+        {
+          "symbol": "$L93969",
+          "site_rva": 737260,
+          "symbol_va": 269172429,
+          "addend": 0,
+          "target_va": 269172429,
+          "kind": 6
+        },
+        {
+          "symbol": "$L93970",
+          "site_rva": 737264,
+          "symbol_va": 269172437,
+          "addend": 0,
+          "target_va": 269172437,
+          "kind": 6
+        },
+        {
+          "symbol": "$L93971",
+          "site_rva": 737268,
+          "symbol_va": 269172445,
+          "addend": 0,
+          "target_va": 269172445,
+          "kind": 6
+        },
+        {
+          "symbol": "$L93972",
+          "site_rva": 737272,
+          "symbol_va": 269172453,
+          "addend": 0,
+          "target_va": 269172453,
+          "kind": 6
+        },
+        {
+          "symbol": "$L93973",
+          "site_rva": 737276,
+          "symbol_va": 269172461,
+          "addend": 0,
+          "target_va": 269172461,
+          "kind": 6
+        },
+        {
+          "symbol": "$L93974",
+          "site_rva": 737280,
+          "symbol_va": 269172469,
+          "addend": 0,
+          "target_va": 269172469,
+          "kind": 6
+        },
+        {
+          "symbol": "$L93975",
+          "site_rva": 737284,
+          "symbol_va": 269172477,
+          "addend": 0,
+          "target_va": 269172477,
+          "kind": 6
+        },
+        {
+          "symbol": "$L93976",
+          "site_rva": 737288,
+          "symbol_va": 269172485,
+          "addend": 0,
+          "target_va": 269172485,
+          "kind": 6
+        },
+        {
+          "symbol": "$L93977",
+          "site_rva": 737292,
+          "symbol_va": 269172493,
+          "addend": 0,
+          "target_va": 269172493,
+          "kind": 6
+        },
+        {
+          "symbol": "$L93978",
+          "site_rva": 737296,
+          "symbol_va": 269172501,
+          "addend": 0,
+          "target_va": 269172501,
+          "kind": 6
+        },
+        {
+          "symbol": "$L93979",
+          "site_rva": 737300,
+          "symbol_va": 269172509,
+          "addend": 0,
+          "target_va": 269172509,
+          "kind": 6
+        },
+        {
+          "symbol": "$L93980",
+          "site_rva": 737304,
+          "symbol_va": 269172517,
+          "addend": 0,
+          "target_va": 269172517,
+          "kind": 6
+        },
+        {
+          "symbol": "$L93981",
+          "site_rva": 737308,
+          "symbol_va": 269172525,
+          "addend": 0,
+          "target_va": 269172525,
+          "kind": 6
+        },
+        {
+          "symbol": "$L93982",
+          "site_rva": 737312,
+          "symbol_va": 269172533,
+          "addend": 0,
+          "target_va": 269172533,
+          "kind": 6
+        },
+        {
+          "symbol": "$L93983",
+          "site_rva": 737316,
+          "symbol_va": 269172541,
+          "addend": 0,
+          "target_va": 269172541,
+          "kind": 6
+        },
+        {
+          "symbol": "$L93984",
+          "site_rva": 737320,
+          "symbol_va": 269172549,
+          "addend": 0,
+          "target_va": 269172549,
+          "kind": 6
+        },
+        {
+          "symbol": "$L93985",
+          "site_rva": 737324,
+          "symbol_va": 269172557,
+          "addend": 0,
+          "target_va": 269172557,
+          "kind": 6
+        },
+        {
+          "symbol": "$L93986",
+          "site_rva": 737328,
+          "symbol_va": 269172565,
+          "addend": 0,
+          "target_va": 269172565,
+          "kind": 6
+        },
+        {
+          "symbol": "$L93987",
+          "site_rva": 737332,
+          "symbol_va": 269172573,
+          "addend": 0,
+          "target_va": 269172573,
+          "kind": 6
+        },
+        {
+          "symbol": "$L93988",
+          "site_rva": 737336,
+          "symbol_va": 269172581,
+          "addend": 0,
+          "target_va": 269172581,
+          "kind": 6
+        },
+        {
+          "symbol": "$L93989",
+          "site_rva": 737340,
+          "symbol_va": 269172589,
+          "addend": 0,
+          "target_va": 269172589,
+          "kind": 6
+        },
+        {
+          "symbol": "$L93990",
+          "site_rva": 737344,
+          "symbol_va": 269172597,
+          "addend": 0,
+          "target_va": 269172597,
+          "kind": 6
+        },
+        {
+          "symbol": "$L93991",
+          "site_rva": 737348,
+          "symbol_va": 269172605,
+          "addend": 0,
+          "target_va": 269172605,
+          "kind": 6
+        },
+        {
+          "symbol": "$L93992",
+          "site_rva": 737352,
+          "symbol_va": 269172613,
+          "addend": 0,
+          "target_va": 269172613,
+          "kind": 6
+        }
+      ],
+      "object_sha256": "91c9b9a4128165e07d4bf722c23767ee09ff2757eea22728679acf6ee7c16cb8"
+    },
+    {
+      "unit": "closure_util",
+      "anchor": "?FUNC_100B4B50@@YA_NPAU_VECTOR@@@Z",
+      "rva": 740176,
+      "size": 104,
+      "section": 123,
+      "kind": "code",
+      "sha256": "6cba662b1623b8a713a3f3d62b99c08142bfb715cd900afa3105127554ad9aaa",
+      "bindings": [
+        {
+          "symbol": "__real@469c4000",
+          "site_rva": 740184,
+          "symbol_va": 269407348,
+          "addend": 0,
+          "target_va": 269407348,
+          "kind": 6
+        },
+        {
+          "symbol": "__real@c69c4000",
+          "site_rva": 740199,
+          "symbol_va": 269407344,
+          "addend": 0,
+          "target_va": 269407344,
+          "kind": 6
+        },
+        {
+          "symbol": "__real@469c4000",
+          "site_rva": 740215,
+          "symbol_va": 269407348,
+          "addend": 0,
+          "target_va": 269407348,
+          "kind": 6
+        },
+        {
+          "symbol": "__real@c69c4000",
+          "site_rva": 740231,
+          "symbol_va": 269407344,
+          "addend": 0,
+          "target_va": 269407344,
+          "kind": 6
+        },
+        {
+          "symbol": "__real@47c35000",
+          "site_rva": 740247,
+          "symbol_va": 269403468,
+          "addend": 0,
+          "target_va": 269403468,
+          "kind": 6
+        },
+        {
+          "symbol": "__real@c61c4000",
+          "site_rva": 740263,
+          "symbol_va": 269407340,
+          "addend": 0,
+          "target_va": 269407340,
+          "kind": 6
+        }
+      ],
+      "object_sha256": "91c9b9a4128165e07d4bf722c23767ee09ff2757eea22728679acf6ee7c16cb8"
+    },
+    {
+      "unit": "closure_util",
+      "anchor": "__real@43340000",
+      "rva": 971880,
+      "size": 4,
+      "section": 56,
+      "kind": "data",
+      "sha256": "21b9ff9cf99927e92d16d0fcc3190c14680a24c02dad89f9777d5107fdeb5db1",
+      "bindings": [],
+      "object_sha256": "91c9b9a4128165e07d4bf722c23767ee09ff2757eea22728679acf6ee7c16cb8"
+    },
+    {
+      "unit": "closure_util",
+      "anchor": "__real@43b40000",
+      "rva": 942372,
+      "size": 4,
+      "section": 58,
+      "kind": "data",
+      "sha256": "82a72eeef4f720c75f627f5ccf9f2963cceb6210f66318ec6362722e29a564f9",
+      "bindings": [],
+      "object_sha256": "91c9b9a4128165e07d4bf722c23767ee09ff2757eea22728679acf6ee7c16cb8"
+    },
+    {
+      "unit": "closure_util",
+      "anchor": "__real@c3340000",
+      "rva": 971876,
+      "size": 4,
+      "section": 86,
+      "kind": "data",
+      "sha256": "d6ec10c44ac528cfd5e51a887454fbca5b534c3f9f64403c5b593ef0ab48cf2b",
+      "bindings": [],
+      "object_sha256": "91c9b9a4128165e07d4bf722c23767ee09ff2757eea22728679acf6ee7c16cb8"
+    },
+    {
+      "unit": "closure_util",
+      "anchor": "__real@00000000",
+      "rva": 940352,
+      "size": 4,
+      "section": 57,
+      "kind": "data",
+      "sha256": "df3f619804a92fdb4057192dc43dd748ea778adc52bc498ce80524c014b81119",
+      "bindings": [],
+      "object_sha256": "91c9b9a4128165e07d4bf722c23767ee09ff2757eea22728679acf6ee7c16cb8"
+    },
+    {
+      "unit": "closure_util",
+      "anchor": "__real@40490fdb",
+      "rva": 971904,
+      "size": 4,
+      "section": 55,
+      "kind": "data",
+      "sha256": "3a1d8964b4fe305b5d25d90b8ba168d95e559961da4a9b22df4558cc257e7e11",
+      "bindings": [],
+      "object_sha256": "91c9b9a4128165e07d4bf722c23767ee09ff2757eea22728679acf6ee7c16cb8"
+    },
+    {
+      "unit": "closure_util",
+      "anchor": "__real@3bb60b61",
+      "rva": 971900,
+      "size": 4,
+      "section": 54,
+      "kind": "data",
+      "sha256": "a5f6cc1ea2cd7a665e0bd95bb1d25619d3a1a9ad0c9ee0ef4fdb7c1194e7fec6",
+      "bindings": [],
+      "object_sha256": "91c9b9a4128165e07d4bf722c23767ee09ff2757eea22728679acf6ee7c16cb8"
+    },
+    {
+      "unit": "closure_util",
+      "anchor": "__real@bf800000",
+      "rva": 960056,
+      "size": 4,
+      "section": 100,
+      "kind": "data",
+      "sha256": "c68830a25204a09f8e77aada6bc5807f607cccaaa0ebb2a7122d317584478a8b",
+      "bindings": [],
+      "object_sha256": "91c9b9a4128165e07d4bf722c23767ee09ff2757eea22728679acf6ee7c16cb8"
+    },
+    {
+      "unit": "closure_util",
+      "anchor": "??_C@_03KAGFIHPF@?$HOk?$HO?$AA@",
+      "rva": 971976,
+      "size": 4,
+      "section": 120,
+      "kind": "data",
+      "sha256": "db2a61bfe79e332c09e6235d1b6408346b2d9dbb1621bd656a9f82adb968af3e",
+      "bindings": [],
+      "object_sha256": "91c9b9a4128165e07d4bf722c23767ee09ff2757eea22728679acf6ee7c16cb8"
+    },
+    {
+      "unit": "closure_util",
+      "anchor": "__real@469c4000",
+      "rva": 971892,
+      "size": 4,
+      "section": 127,
+      "kind": "data",
+      "sha256": "5a7dff4a0276206a557468bbd8726f7ec4f32fa7dde8e277feb0c00d22346ad8",
+      "bindings": [],
+      "object_sha256": "91c9b9a4128165e07d4bf722c23767ee09ff2757eea22728679acf6ee7c16cb8"
+    },
+    {
+      "unit": "closure_util",
+      "anchor": "__real@c69c4000",
+      "rva": 971888,
+      "size": 4,
+      "section": 126,
+      "kind": "data",
+      "sha256": "a9a271da957909b486ebda93d9620340e8570120a6ea7de6ab9ffbd45caaff8b",
+      "bindings": [],
+      "object_sha256": "91c9b9a4128165e07d4bf722c23767ee09ff2757eea22728679acf6ee7c16cb8"
+    },
+    {
+      "unit": "closure_util",
+      "anchor": "__real@47c35000",
+      "rva": 968012,
+      "size": 4,
+      "section": 125,
+      "kind": "data",
+      "sha256": "79570bd9722fc4a8f0f0b8db6aa3c9ed1b4e3b0f9e28e7b6a0aecc641249c31a",
+      "bindings": [],
+      "object_sha256": "91c9b9a4128165e07d4bf722c23767ee09ff2757eea22728679acf6ee7c16cb8"
+    },
+    {
+      "unit": "closure_util",
+      "anchor": "__real@c61c4000",
+      "rva": 971884,
+      "size": 4,
+      "section": 124,
+      "kind": "data",
+      "sha256": "8fc93e15d41731c6b43acf5c11babd0465d3e869ba00ac58364110274eecef16",
+      "bindings": [],
+      "object_sha256": "91c9b9a4128165e07d4bf722c23767ee09ff2757eea22728679acf6ee7c16cb8"
+    }
+  ],
+  "new_CRT_provider": {
+    "_strtoul": {
+      "reference_va": 269254133,
+      "expected_library_owner": "LIBCMT:strtol.obj",
+      "actual_archive_and_final_link_qualification_pending": true
+    }
+  },
+  "source_change": "Only first IsHexChar(char) predicate expanded in normal C++; original executes five following callsB5E10. Buffer17, strncpy6, strtoul16 and all other owner definitions unchanged."
+}

@@ -1,0 +1,688 @@
+{
+  "status": "REVIEWED_MAIN_SEEDS_AND_WHOLE_EH_BINDINGS_PREFLIGHT",
+  "run": "build/cp32-packet-api-trial1",
+  "roots": {
+    "?DeallocatePacket@RakPeer@@UAEXPAUPacket@@@Z": 230832,
+    "?RegisterAsRemoteProcedureCall@RakPeer@@UAEXPADP6AXPAURPCParameters@@@Z@Z": 230896,
+    "?RegisterClassMemberRPC@RakPeer@@UAEXPADPAX@Z": 230944,
+    "?HandleRPCReplyPacket@RakPeer@@IAEXPBDHUPlayerID@@@Z": 232960,
+    "?PushBackPacket@RakPeer@@UAEXPAUPacket@@_N@Z": 241072,
+    "?HandleRPCPacket@RakPeer@@IAE_NPBDHUPlayerID@@@Z": 241120,
+    "?SendBuffered@RakPeer@@IAEXPBDHW4PacketPriority@@W4PacketReliability@@DUPlayerID@@_NW4ConnectMode@RemoteSystemStruct@1@@Z": 241536,
+    "?Send@RakPeer@@UAE_NPBDHW4PacketPriority@@W4PacketReliability@@DUPlayerID@@_N@Z": 246464,
+    "?Send@RakPeer@@UAE_NPAVBitStream@RakNet@@W4PacketPriority@@W4PacketReliability@@DUPlayerID@@_N@Z": 246736,
+    "?ReceiveIgnoreRPC@RakPeer@@IAEPAUPacket@@XZ": 264336,
+    "?Receive@RakPeer@@UAEPAUPacket@@XZ": 266192,
+    "?GetWriteOffset@BitStream@RakNet@@QBEHXZ": 128800
+  },
+  "seeds": {
+    "eval_vendor_rakpeer_packet_api": {
+      "?Receive@RakPeer@@UAEPAUPacket@@XZ": 266192,
+      "?HandleRPCPacket@RakPeer@@IAE_NPBDHUPlayerID@@@Z": 241120,
+      "?ReceiveIgnoreRPC@RakPeer@@IAEPAUPacket@@XZ": 264336,
+      "?HandleRPCReplyPacket@RakPeer@@IAEXPBDHUPlayerID@@@Z": 232960,
+      "?Push@?$Queue@PAUPacket@@@DataStructures@@QAEXABQAUPacket@@@Z": 235360,
+      "?ReadUnlock@?$SingleProducerConsumer@PAUPacket@@@DataStructures@@QAEXXZ": 235136,
+      "?ReadLock@?$SingleProducerConsumer@PAUPacket@@@DataStructures@@QAEPAPAUPacket@@XZ": 235104,
+      "?Send@RakPeer@@UAE_NPAVBitStream@RakNet@@W4PacketPriority@@W4PacketReliability@@DUPlayerID@@_N@Z": 246736,
+      "?SendBuffered@RakPeer@@IAEXPBDHW4PacketPriority@@W4PacketReliability@@DUPlayerID@@_NW4ConnectMode@RemoteSystemStruct@1@@Z": 241536,
+      "?WriteUnlock@?$SingleProducerConsumer@UBufferedCommandStruct@RakPeer@@@DataStructures@@QAEXXZ": 234624,
+      "?WriteLock@?$SingleProducerConsumer@UBufferedCommandStruct@RakPeer@@@DataStructures@@QAEPAUBufferedCommandStruct@RakPeer@@XZ": 234560,
+      "?Send@RakPeer@@UAE_NPBDHW4PacketPriority@@W4PacketReliability@@DUPlayerID@@_N@Z": 246464,
+      "?PushBackPacket@RakPeer@@UAEXPAUPacket@@_N@Z": 241072,
+      "?PushAtHead@?$Queue@PAUPacket@@@DataStructures@@QAEXABQAUPacket@@I@Z": 235552,
+      "?RegisterClassMemberRPC@RakPeer@@UAEXPADPAX@Z": 230944,
+      "?RegisterAsRemoteProcedureCall@RakPeer@@UAEXPADP6AXPAURPCParameters@@@Z@Z": 230896,
+      "?DeallocatePacket@RakPeer@@UAEXPAUPacket@@@Z": 230832
+    }
+  },
+  "regions": [
+    {
+      "unit": "eval_vendor_rakpeer_packet_api",
+      "section": 5,
+      "rva": 128800,
+      "size": 3,
+      "kind": ".text",
+      "sha256": "19d200194d49b34530548575f37a1bb4203ee60f18d42f0084e86b7a8c899faa",
+      "whole_bytes_equal": true,
+      "bindings": []
+    },
+    {
+      "unit": "eval_vendor_rakpeer_packet_api",
+      "section": 62,
+      "rva": 266192,
+      "size": 120,
+      "kind": ".text",
+      "sha256": "8108532b3e6594a8967acb4cd3aa2a137c683da7104b81118680a2ba2e44b0bf",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "?ReceiveIgnoreRPC@RakPeer@@IAEPAUPacket@@XZ",
+          "site_rva": 266198,
+          "target_va": 268699792,
+          "kind": 20
+        },
+        {
+          "symbol": "_UNASSIGNED_PLAYER_ID",
+          "site_rva": 266237,
+          "target_va": 269477860,
+          "kind": 6
+        },
+        {
+          "symbol": "??9PlayerID@@QBE_NABU0@@Z",
+          "site_rva": 266244,
+          "target_va": 268646160,
+          "kind": 20
+        },
+        {
+          "symbol": "?HandleRPCPacket@RakPeer@@IAE_NPBDHUPlayerID@@@Z",
+          "site_rva": 266280,
+          "target_va": 268676576,
+          "kind": 20
+        },
+        {
+          "symbol": "?ReceiveIgnoreRPC@RakPeer@@IAEPAUPacket@@XZ",
+          "site_rva": 266296,
+          "target_va": 268699792,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "eval_vendor_rakpeer_packet_api",
+      "section": 51,
+      "rva": 241120,
+      "size": 404,
+      "kind": ".text",
+      "sha256": "289d15772a237d7259e2c3bd452cf36b66cf91ac6fe4cabf6ba5145ad85aa118",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "__ehhandler$?HandleRPCPacket@RakPeer@@IAE_NPBDHUPlayerID@@@Z",
+          "site_rva": 241128,
+          "target_va": 269363083,
+          "kind": 6
+        },
+        {
+          "symbol": "__except_list",
+          "site_rva": 241134,
+          "target_va": 0,
+          "kind": 6
+        },
+        {
+          "symbol": "__except_list",
+          "site_rva": 241142,
+          "target_va": 0,
+          "kind": 6
+        },
+        {
+          "symbol": "??0BitStream@RakNet@@QAE@PAEI_N@Z",
+          "site_rva": 241174,
+          "target_va": 268564416,
+          "kind": 20
+        },
+        {
+          "symbol": "?IgnoreBits@BitStream@RakNet@@QAEXH@Z",
+          "site_rva": 241211,
+          "target_va": 268565744,
+          "kind": 20
+        },
+        {
+          "symbol": "?IgnoreBits@BitStream@RakNet@@QAEXH@Z",
+          "site_rva": 241229,
+          "target_va": 268565744,
+          "kind": 20
+        },
+        {
+          "symbol": "?ReadBits@BitStream@RakNet@@QAE_NPAEH_N@Z",
+          "site_rva": 241248,
+          "target_va": 268564912,
+          "kind": 20
+        },
+        {
+          "symbol": "?GetIndexFromFunctionName@RPCMap@@QAEEE@Z",
+          "site_rva": 241265,
+          "target_va": 268768928,
+          "kind": 20
+        },
+        {
+          "symbol": "?ReadCompressed@BitStream@RakNet@@AAE_NPAEH_N@Z",
+          "site_rva": 241289,
+          "target_va": 268565104,
+          "kind": 20
+        },
+        {
+          "symbol": "?GetNodeFromIndex@RPCMap@@QAEPAURPCNode@@E@Z",
+          "site_rva": 241309,
+          "target_va": 268768896,
+          "kind": 20
+        },
+        {
+          "symbol": "__alloca_probe",
+          "site_rva": 241381,
+          "target_va": 269254320,
+          "kind": 20
+        },
+        {
+          "symbol": "??2@YAPAXI@Z",
+          "site_rva": 241393,
+          "target_va": 269247098,
+          "kind": 20
+        },
+        {
+          "symbol": "?ReadBits@BitStream@RakNet@@QAE_NPAEH_N@Z",
+          "site_rva": 241416,
+          "target_va": 268564912,
+          "kind": 20
+        },
+        {
+          "symbol": "??1BitStream@RakNet@@QAE@XZ",
+          "site_rva": 241438,
+          "target_va": 268564688,
+          "kind": 20
+        },
+        {
+          "symbol": "??3@YAXPAX@Z",
+          "site_rva": 241469,
+          "target_va": 269247626,
+          "kind": 20
+        },
+        {
+          "symbol": "??1BitStream@RakNet@@QAE@XZ",
+          "site_rva": 241490,
+          "target_va": 268564688,
+          "kind": 20
+        },
+        {
+          "symbol": "__except_list",
+          "site_rva": 241508,
+          "target_va": 0,
+          "kind": 6
+        }
+      ]
+    },
+    {
+      "unit": "eval_vendor_rakpeer_packet_api",
+      "section": 47,
+      "rva": 264336,
+      "size": 362,
+      "kind": ".text",
+      "sha256": "e94734e4f61cd86cb32e252bc2696b8e9d41952bd80c1be6dc4aec17a40848de",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "?ReadLock@?$SingleProducerConsumer@PAUPacket@@@DataStructures@@QAEPAPAUPacket@@XZ",
+          "site_rva": 264409,
+          "target_va": 268670560,
+          "kind": 20
+        },
+        {
+          "symbol": "?ReadUnlock@?$SingleProducerConsumer@PAUPacket@@@DataStructures@@QAEXXZ",
+          "site_rva": 264428,
+          "target_va": 268670592,
+          "kind": 20
+        },
+        {
+          "symbol": "?ReadLock@?$SingleProducerConsumer@PAUPacket@@@DataStructures@@QAEPAPAUPacket@@XZ",
+          "site_rva": 264435,
+          "target_va": 268670560,
+          "kind": 20
+        },
+        {
+          "symbol": "?Push@?$Queue@PAUPacket@@@DataStructures@@QAEXABQAUPacket@@@Z",
+          "site_rva": 264449,
+          "target_va": 268670816,
+          "kind": 20
+        },
+        {
+          "symbol": "?ShiftIncomingTimestamp@RakPeer@@IBEXPAEUPlayerID@@@Z",
+          "site_rva": 264573,
+          "target_va": 268692400,
+          "kind": 20
+        },
+        {
+          "symbol": "?HandleRPCReplyPacket@RakPeer@@IAEXPBDHUPlayerID@@@Z",
+          "site_rva": 264613,
+          "target_va": 268668416,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "eval_vendor_rakpeer_packet_api",
+      "section": 19,
+      "rva": 232960,
+      "size": 102,
+      "kind": ".text",
+      "sha256": "96ab8d045a11666be4fcca1a8cfc002eb18eca3feb3e3dab9634de5d73c8eab9",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "??8PlayerID@@QBE_NABU0@@Z",
+          "site_rva": 232986,
+          "target_va": 268646112,
+          "kind": 20
+        },
+        {
+          "symbol": "??9PlayerID@@QBE_NABU0@@Z",
+          "site_rva": 233010,
+          "target_va": 268646160,
+          "kind": 20
+        },
+        {
+          "symbol": "?Write@BitStream@RakNet@@QAEXPBDH@Z",
+          "site_rva": 233046,
+          "target_va": 268566672,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "eval_vendor_rakpeer_packet_api",
+      "section": 33,
+      "rva": 235360,
+      "size": 189,
+      "kind": ".text",
+      "sha256": "fcf415557ee5376bd270e3cb41a2a3fab342c2274e95ccfb3f2dd1b6f762f1b7",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "??2@YAPAXI@Z",
+          "site_rva": 235373,
+          "target_va": 269247098,
+          "kind": 20
+        },
+        {
+          "symbol": "??2@YAPAXI@Z",
+          "site_rva": 235470,
+          "target_va": 269247098,
+          "kind": 20
+        },
+        {
+          "symbol": "??3@YAXPAX@Z",
+          "site_rva": 235535,
+          "target_va": 269247626,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "eval_vendor_rakpeer_packet_api",
+      "section": 31,
+      "rva": 235136,
+      "size": 20,
+      "kind": ".text",
+      "sha256": "676a106aed53894a85ced0c54d12c5b3548bfc08cc66b9bdfb07cfd1f26bb489",
+      "whole_bytes_equal": true,
+      "bindings": []
+    },
+    {
+      "unit": "eval_vendor_rakpeer_packet_api",
+      "section": 29,
+      "rva": 235104,
+      "size": 23,
+      "kind": ".text",
+      "sha256": "427faa08aff2fbeb9cb550584989f8aaec8e30e587b281e1172cef123a1fee8d",
+      "whole_bytes_equal": true,
+      "bindings": []
+    },
+    {
+      "unit": "eval_vendor_rakpeer_packet_api",
+      "section": 60,
+      "rva": 246736,
+      "size": 247,
+      "kind": ".text",
+      "sha256": "f0f8c5594829c454c486653467814026d7ab2f611121089d0724044f28a846be",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "_UNASSIGNED_PLAYER_ID",
+          "site_rva": 246794,
+          "target_va": 269477860,
+          "kind": 6
+        },
+        {
+          "symbol": "??8PlayerID@@QBE_NABU0@@Z",
+          "site_rva": 246803,
+          "target_va": 268646112,
+          "kind": 20
+        },
+        {
+          "symbol": "?SendBuffered@RakPeer@@IAEXPBDHW4PacketPriority@@W4PacketReliability@@DUPlayerID@@_NW4ConnectMode@RemoteSystemStruct@1@@Z",
+          "site_rva": 246963,
+          "target_va": 268676992,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "eval_vendor_rakpeer_packet_api",
+      "section": 56,
+      "rva": 241536,
+      "size": 141,
+      "kind": ".text",
+      "sha256": "e6a1c7c1bef5a2da02dc386165f9d659f05101e032181eb1a1e1756e90668364",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "?WriteLock@?$SingleProducerConsumer@UBufferedCommandStruct@RakPeer@@@DataStructures@@QAEPAUBufferedCommandStruct@RakPeer@@XZ",
+          "site_rva": 241549,
+          "target_va": 268670016,
+          "kind": 20
+        },
+        {
+          "symbol": "??2@YAPAXI@Z",
+          "site_rva": 241567,
+          "target_va": 269247098,
+          "kind": 20
+        },
+        {
+          "symbol": "?WriteUnlock@?$SingleProducerConsumer@UBufferedCommandStruct@RakPeer@@@DataStructures@@QAEXXZ",
+          "site_rva": 241666,
+          "target_va": 268670080,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "eval_vendor_rakpeer_packet_api",
+      "section": 27,
+      "rva": 234624,
+      "size": 20,
+      "kind": ".text",
+      "sha256": "b73d030a37c4b80c86cb89c5c1e1b79105cd495f8cc8dfd791b653dba848de7a",
+      "whole_bytes_equal": true,
+      "bindings": []
+    },
+    {
+      "unit": "eval_vendor_rakpeer_packet_api",
+      "section": 25,
+      "rva": 234560,
+      "size": 64,
+      "kind": ".text",
+      "sha256": "e85e4fda34029419ea68d0b878e187bfd520a6921224f96931132a062d01c0f1",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "??2@YAPAXI@Z",
+          "site_rva": 234590,
+          "target_va": 269247098,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "eval_vendor_rakpeer_packet_api",
+      "section": 58,
+      "rva": 246464,
+      "size": 259,
+      "kind": ".text",
+      "sha256": "a84a71263d6afcfc137206129994d1c07486ae96b0500118c1b15192415e9256",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "_UNASSIGNED_PLAYER_ID",
+          "site_rva": 246527,
+          "target_va": 269477860,
+          "kind": 6
+        },
+        {
+          "symbol": "??8PlayerID@@QBE_NABU0@@Z",
+          "site_rva": 246536,
+          "target_va": 268646112,
+          "kind": 20
+        },
+        {
+          "symbol": "?SendBuffered@RakPeer@@IAEXPBDHW4PacketPriority@@W4PacketReliability@@DUPlayerID@@_NW4ConnectMode@RemoteSystemStruct@1@@Z",
+          "site_rva": 246701,
+          "target_va": 268676992,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "eval_vendor_rakpeer_packet_api",
+      "section": 49,
+      "rva": 241072,
+      "size": 42,
+      "kind": ".text",
+      "sha256": "c8e3c50408df9d468339f144c34dfda878ba31570acaf7695ec4bafb048e2525",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "?PushAtHead@?$Queue@PAUPacket@@@DataStructures@@QAEXABQAUPacket@@I@Z",
+          "site_rva": 241094,
+          "target_va": 268671008,
+          "kind": 20
+        },
+        {
+          "symbol": "?Push@?$Queue@PAUPacket@@@DataStructures@@QAEXABQAUPacket@@@Z",
+          "site_rva": 241107,
+          "target_va": 268670816,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "eval_vendor_rakpeer_packet_api",
+      "section": 35,
+      "rva": 235552,
+      "size": 221,
+      "kind": ".text",
+      "sha256": "f7578d2fe024e8a2e1c35ed93ec17944b6768679bfb5f73f6a94c47c53588ea3",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "??2@YAPAXI@Z",
+          "site_rva": 235565,
+          "target_va": 269247098,
+          "kind": 20
+        },
+        {
+          "symbol": "??2@YAPAXI@Z",
+          "site_rva": 235687,
+          "target_va": 269247098,
+          "kind": 20
+        },
+        {
+          "symbol": "??3@YAXPAX@Z",
+          "site_rva": 235759,
+          "target_va": 269247626,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "eval_vendor_rakpeer_packet_api",
+      "section": 17,
+      "rva": 230944,
+      "size": 41,
+      "kind": ".text",
+      "sha256": "b77110f496588a4a56fde9d5b27c35f709fdd30cd33a0ba2a7b888b65948af0a",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "?AddIdentifierWithFunction@RPCMap@@QAEXEPAX_N@Z",
+          "site_rva": 230978,
+          "target_va": 268768944,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "eval_vendor_rakpeer_packet_api",
+      "section": 15,
+      "rva": 230896,
+      "size": 41,
+      "kind": ".text",
+      "sha256": "f6a9266a92f0ff2736c74cb4c9177f0e642f9c1bcc48f93bc52b4f7addcf6912",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "?AddIdentifierWithFunction@RPCMap@@QAEXEPAX_N@Z",
+          "site_rva": 230930,
+          "target_va": 268768944,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "eval_vendor_rakpeer_packet_api",
+      "section": 13,
+      "rva": 230832,
+      "size": 45,
+      "kind": ".text",
+      "sha256": "5836305a8ca4c673a8a6eda441e58e44ea9283646bf7a18ebed4e5c9eea3e70b",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "??3@YAXPAX@Z",
+          "site_rva": 230857,
+          "target_va": 269247626,
+          "kind": 20
+        },
+        {
+          "symbol": "_free",
+          "site_rva": 230866,
+          "target_va": 269249085,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "eval_vendor_rakpeer_packet_api",
+      "section": 64,
+      "rva": 1042404,
+      "size": 16,
+      "kind": ".data",
+      "sha256": "44774f987c1b2569c171277ac704deed6fa979e51c12bc30dc3b0defaf92ede9",
+      "whole_bytes_equal": true,
+      "bindings": []
+    },
+    {
+      "unit": "eval_vendor_rakpeer_packet_api",
+      "section": 52,
+      "rva": 927616,
+      "size": 21,
+      "kind": ".text$x",
+      "sha256": "96fed352ee6e2a37ac3e10132b79cb0e12dca865a176a9153e3c981d4c968961",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "??1BitStream@RakNet@@QAE@XZ",
+          "site_rva": 927623,
+          "target_va": 268564688,
+          "kind": 20
+        },
+        {
+          "symbol": "$T62967",
+          "site_rva": 927628,
+          "target_va": 269460640,
+          "kind": 6
+        },
+        {
+          "symbol": "___CxxFrameHandler",
+          "site_rva": 927633,
+          "target_va": 269247782,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "eval_vendor_rakpeer_packet_api",
+      "section": 53,
+      "rva": 1025176,
+      "size": 36,
+      "kind": ".xdata$x",
+      "sha256": "559fafde36bc9ba5f889244d68e5bfe5f37a3e4d4ae6c614b32580375d0bf1b7",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "$L62937",
+          "site_rva": 1025180,
+          "target_va": 269363072,
+          "kind": 6
+        },
+        {
+          "symbol": "$T62973",
+          "site_rva": 1025192,
+          "target_va": 269460632,
+          "kind": 6
+        }
+      ]
+    }
+  ],
+  "bindings_checked": 58,
+  "external_targets": {
+    "eval_vendor_rakpeer_packet_api::_UNASSIGNED_PLAYER_ID": 269477860,
+    "??9PlayerID@@QBE_NABU0@@Z": 268646160,
+    "__ehhandler$?HandleRPCPacket@RakPeer@@IAE_NPBDHUPlayerID@@@Z": 269363083,
+    "__except_list": 0,
+    "??0BitStream@RakNet@@QAE@PAEI_N@Z": 268564416,
+    "?IgnoreBits@BitStream@RakNet@@QAEXH@Z": 268565744,
+    "?ReadBits@BitStream@RakNet@@QAE_NPAEH_N@Z": 268564912,
+    "?GetIndexFromFunctionName@RPCMap@@QAEEE@Z": 268768928,
+    "?ReadCompressed@BitStream@RakNet@@AAE_NPAEH_N@Z": 268565104,
+    "?GetNodeFromIndex@RPCMap@@QAEPAURPCNode@@E@Z": 268768896,
+    "__alloca_probe": 269254320,
+    "??2@YAPAXI@Z": 269247098,
+    "??1BitStream@RakNet@@QAE@XZ": 268564688,
+    "??3@YAXPAX@Z": 269247626,
+    "?ShiftIncomingTimestamp@RakPeer@@IBEXPAEUPlayerID@@@Z": 268692400,
+    "??8PlayerID@@QBE_NABU0@@Z": 268646112,
+    "?Write@BitStream@RakNet@@QAEXPBDH@Z": 268566672,
+    "?AddIdentifierWithFunction@RPCMap@@QAEXEPAX_N@Z": 268768944,
+    "_free": 269249085,
+    "eval_vendor_rakpeer_packet_api::$T62967": 269460640,
+    "___CxxFrameHandler": 269247782,
+    "eval_vendor_rakpeer_packet_api::$L62937": 269363072,
+    "eval_vendor_rakpeer_packet_api::$T62973": 269460632
+  },
+  "identity_reasons": {
+    "?DeallocatePacket@RakPeer@@UAEXPAUPacket@@@Z": "source method semantics + original call graph / allocation / table owner",
+    "?RegisterAsRemoteProcedureCall@RakPeer@@UAEXPADP6AXPAURPCParameters@@@Z@Z": "source method semantics + original call graph / allocation / table owner",
+    "?RegisterClassMemberRPC@RakPeer@@UAEXPADPAX@Z": "source method semantics + original call graph / allocation / table owner",
+    "?HandleRPCReplyPacket@RakPeer@@IAEXPBDHUPlayerID@@@Z": "actual relocation from ?ReceiveIgnoreRPC@RakPeer@@IAEPAUPacket@@XZ",
+    "?PushBackPacket@RakPeer@@UAEXPAUPacket@@_N@Z": "source method semantics + original call graph / allocation / table owner",
+    "?HandleRPCPacket@RakPeer@@IAE_NPBDHUPlayerID@@@Z": "actual relocation from ?Receive@RakPeer@@UAEPAUPacket@@XZ",
+    "?SendBuffered@RakPeer@@IAEXPBDHW4PacketPriority@@W4PacketReliability@@DUPlayerID@@_NW4ConnectMode@RemoteSystemStruct@1@@Z": "actual relocation from ?Send@RakPeer@@UAE_NPAVBitStream@RakNet@@W4PacketPriority@@W4PacketReliability@@DUPlayerID@@_N@Z",
+    "?Send@RakPeer@@UAE_NPBDHW4PacketPriority@@W4PacketReliability@@DUPlayerID@@_N@Z": "source method semantics + original call graph / allocation / table owner",
+    "?Send@RakPeer@@UAE_NPAVBitStream@RakNet@@W4PacketPriority@@W4PacketReliability@@DUPlayerID@@_N@Z": "source method semantics + original call graph / allocation / table owner",
+    "?ReceiveIgnoreRPC@RakPeer@@IAEPAUPacket@@XZ": "actual relocation from ?Receive@RakPeer@@UAEPAUPacket@@XZ",
+    "?Receive@RakPeer@@UAEPAUPacket@@XZ": "source method semantics + original call graph / allocation / table owner",
+    "?GetWriteOffset@BitStream@RakNet@@QBEHXZ": "source method semantics + original call graph / allocation / table owner",
+    "?ReadLock@?$SingleProducerConsumer@PAUPacket@@@DataStructures@@QAEPAPAUPacket@@XZ": "actual relocation from ?ReceiveIgnoreRPC@RakPeer@@IAEPAUPacket@@XZ",
+    "?ReadUnlock@?$SingleProducerConsumer@PAUPacket@@@DataStructures@@QAEXXZ": "actual relocation from ?ReceiveIgnoreRPC@RakPeer@@IAEPAUPacket@@XZ",
+    "?Push@?$Queue@PAUPacket@@@DataStructures@@QAEXABQAUPacket@@@Z": "actual relocation from ?ReceiveIgnoreRPC@RakPeer@@IAEPAUPacket@@XZ",
+    "?WriteLock@?$SingleProducerConsumer@UBufferedCommandStruct@RakPeer@@@DataStructures@@QAEPAUBufferedCommandStruct@RakPeer@@XZ": "actual relocation from ?SendBuffered@RakPeer@@IAEXPBDHW4PacketPriority@@W4PacketReliability@@DUPlayerID@@_NW4ConnectMode@RemoteSystemStruct@1@@Z",
+    "?WriteUnlock@?$SingleProducerConsumer@UBufferedCommandStruct@RakPeer@@@DataStructures@@QAEXXZ": "actual relocation from ?SendBuffered@RakPeer@@IAEXPBDHW4PacketPriority@@W4PacketReliability@@DUPlayerID@@_NW4ConnectMode@RemoteSystemStruct@1@@Z",
+    "?PushAtHead@?$Queue@PAUPacket@@@DataStructures@@QAEXABQAUPacket@@I@Z": "actual relocation from ?PushBackPacket@RakPeer@@UAEXPAUPacket@@_N@Z"
+  },
+  "new_unique_code": 2342,
+  "already_covered_code": 23,
+  "physical_code_compared": 2365,
+  "baseline": 384120,
+  "source025_direct_bytes": 0,
+  "reuse_existing_owners": {
+    "?GetWriteOffset@BitStream@RakNet@@QBEHXZ": {
+      "unit": "closure_cmd_bitstream",
+      "rva": 128800,
+      "size": 3
+    }
+  },
+  "excluded_unmatched": [],
+  "explicit_owner_transfer": "None; new packet API. Existing remote-state/RPCMap/BitStream source owners retained.",
+  "unselected_method": "Only real packet API roots and original relocation closure selected; callback implementations are never credited.",
+  "source_files": [
+    {
+      "path": "client/saco/eval_vendor_rakpeer_packet_api.cpp",
+      "sha256": "55d5c695cd708992d0570c17b6d1beaa76326301f9729c70e89d1d7f30b3dc19"
+    }
+  ],
+  "objects": {
+    "eval_vendor_rakpeer_packet_api": "30eb5d832237eecc9da1cef3f61758bc47e83252cf19b8da644c6828e8fa6cd0"
+  },
+  "actual_weak_aliases": {
+    "eval_vendor_rakpeer_packet_api": {}
+  }
+}

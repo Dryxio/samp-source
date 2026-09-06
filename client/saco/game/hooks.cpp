@@ -87,7 +87,7 @@ BYTE CWorld__ProcessVerticalLine_HookJmpCode[] = {0xFF,0x25,0xDB,0x74,0x56,0x00}
 // radar scale/shape fix
 
 
-bool bHudScaleFix = true;
+extern bool bHudScaleFix;
 DWORD dwHudScaleX = 0;
 DWORD dwHudScaleY = 0;
 float fMaximumWidth;

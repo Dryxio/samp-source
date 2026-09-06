@@ -144,15 +144,7 @@ void CPlayerPed::SetActionTrigger(BYTE byteTrigger)
 	m_pPed->dwAction = byteTrigger;
 }
 
-BOOL CPlayerPed::IsInVehicle()
-{
-	if(!m_pPed) return FALSE;
-
-	if(IN_VEHICLE(m_pPed)) {
-		return TRUE;
-	}
-	return FALSE;
-}
+// Definition moved to closure_player_key_codec.cpp for actual inlining context.
 
 float CPlayerPed::GetTargetRotation()
 {
@@ -394,17 +386,7 @@ void CPlayerPed::StopJetpack()
 	}
 }
 
-BOOL CPlayerPed::IsInJetpackMode()
-{
-	if(!m_pPed || IN_VEHICLE(m_pPed)) return FALSE;
-	if(m_pPed->Tasks->pdwJumpJetPack == NULL) return FALSE;
-
-	DWORD dwJmpVtbl = m_pPed->Tasks->pdwJumpJetPack[0];
-
-	if(dwJmpVtbl == 0x8705C4) return TRUE;
-
-	return FALSE;
-}
+// Definition moved to closure_player_key_codec.cpp for actual inlining context.
 
 BOOL CPlayerPed::HasGoggles()
 {

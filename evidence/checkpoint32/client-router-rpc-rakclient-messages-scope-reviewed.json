@@ -1,0 +1,260 @@
+{
+  "status": "PASS_STATIC_SCOPE_TRUE_MULTIPLE_INHERITANCE_ABI",
+  "run": "build/cp32-rakclient-messages-trial1",
+  "baseline_proof": "evidence/checkpoint32/disconnect-selection-acceptance.json",
+  "provider_bindings": {
+    "??8PlayerID@@QBE_NABU0@@Z": {
+      "unit": "closure_vendor_network_id_comparisons",
+      "rva": 210656,
+      "size": 33
+    },
+    "?Reset@BitStream@RakNet@@QAEXXZ": {
+      "unit": "closure_cmd_bitstream",
+      "rva": 129264,
+      "size": 14
+    },
+    "?Write@BitStream@RakNet@@QAEXPBDH@Z": {
+      "unit": "closure_cmd_bitstream",
+      "rva": 131216,
+      "size": 113
+    },
+    "?SetRemoteStaticData@RakPeer@@UAEXUPlayerID@@PBDH@Z": {
+      "unit": "eval_vendor_rakpeer_disconnect_requests",
+      "rva": 255120,
+      "size": 131
+    },
+    "?Receive@RakPeer@@UAEPAUPacket@@XZ": {
+      "unit": "eval_vendor_rakpeer_packet_api",
+      "rva": 266192,
+      "size": 120
+    },
+    "??0BitStream@RakNet@@QAE@PAEI_N@Z": {
+      "unit": "closure_cmd_bitstream",
+      "rva": 128960,
+      "size": 127
+    },
+    "?IgnoreBits@BitStream@RakNet@@QAEXH@Z": {
+      "unit": "closure_cmd_bitstream",
+      "rva": 130288,
+      "size": 15
+    },
+    "?ReadBits@BitStream@RakNet@@QAE_NPAEH_N@Z": {
+      "unit": "closure_cmd_bitstream",
+      "rva": 129456,
+      "size": 185
+    },
+    "??1BitStream@RakNet@@QAE@XZ": {
+      "unit": "closure_cmd_bitstream",
+      "rva": 129232,
+      "size": 27
+    },
+    "?SendStaticData@RakPeer@@UAEXUPlayerID@@@Z": {
+      "unit": "eval_vendor_rakpeer_send_handshake",
+      "rva": 264784,
+      "size": 30
+    },
+    "?GetRemoteStaticData@RakPeer@@UAEPAVBitStream@RakNet@@UPlayerID@@@Z": {
+      "unit": "eval_vendor_rakpeer_disconnect_requests",
+      "rva": 255040,
+      "size": 80
+    },
+    "?RPC@RakPeer@@UAE_NPADPAVBitStream@RakNet@@W4PacketPriority@@W4PacketReliability@@DUPlayerID@@_N5UNetworkID@@1@Z": {
+      "unit": "eval_vendor_rakpeer_send_handshake",
+      "rva": 239392,
+      "size": 174
+    },
+    "?RPC@RakPeer@@UAE_NPADPBDIW4PacketPriority@@W4PacketReliability@@DUPlayerID@@_N5UNetworkID@@PAVBitStream@RakNet@@@Z": {
+      "unit": "eval_vendor_rakpeer_send_handshake",
+      "rva": 254032,
+      "size": 728
+    },
+    "?Send@RakPeer@@UAE_NPAVBitStream@RakNet@@W4PacketPriority@@W4PacketReliability@@DUPlayerID@@_N@Z": {
+      "unit": "eval_vendor_rakpeer_packet_api",
+      "rva": 246736,
+      "size": 247
+    },
+    "?Send@RakPeer@@UAE_NPBDHW4PacketPriority@@W4PacketReliability@@DUPlayerID@@_N@Z": {
+      "unit": "eval_vendor_rakpeer_packet_api",
+      "rva": 246464,
+      "size": 259
+    }
+  },
+  "entry_ABI": [
+    {
+      "symbol": "?Send@RakClient@@UAE_NPBDHW4PacketPriority@@W4PacketReliability@@D@Z",
+      "rva": 213648,
+      "this_subobject": "secondary RakClientInterface",
+      "this_offset": 3550
+    },
+    {
+      "symbol": "?Send@RakClient@@UAE_NPAVBitStream@RakNet@@W4PacketPriority@@W4PacketReliability@@D@Z",
+      "rva": 213728,
+      "this_subobject": "secondary RakClientInterface",
+      "this_offset": 3550
+    },
+    {
+      "symbol": "?RPC@RakClient@@UAE_NPADPBDIW4PacketPriority@@W4PacketReliability@@D_NUNetworkID@@PAVBitStream@RakNet@@@Z",
+      "rva": 214336,
+      "this_subobject": "secondary RakClientInterface",
+      "this_offset": 3550
+    },
+    {
+      "symbol": "?RPC@RakClient@@UAE_NPADPAVBitStream@RakNet@@W4PacketPriority@@W4PacketReliability@@D_NUNetworkID@@1@Z",
+      "rva": 214448,
+      "this_subobject": "secondary RakClientInterface",
+      "this_offset": 3550
+    },
+    {
+      "symbol": "?RPC@RakClient@@UAE_NPADPAVBitStream@RakNet@@W4PacketPriority@@W4PacketReliability@@D_N@Z",
+      "rva": 214560,
+      "this_subobject": "secondary RakClientInterface",
+      "this_offset": 3550
+    },
+    {
+      "symbol": "?GetStaticServerData@RakClient@@UAEPAVBitStream@RakNet@@XZ",
+      "rva": 214768,
+      "this_subobject": "secondary RakClientInterface",
+      "this_offset": 3550
+    },
+    {
+      "symbol": "?SetStaticServerData@RakClient@@UAEXPBDH@Z",
+      "rva": 214816,
+      "this_subobject": "secondary RakClientInterface",
+      "this_offset": 3550
+    },
+    {
+      "symbol": "?SendStaticClientDataToServer@RakClient@@UAEXXZ",
+      "rva": 214880,
+      "this_subobject": "secondary RakClientInterface",
+      "this_offset": 3550
+    },
+    {
+      "symbol": "?GetOtherClientIndexByPlayerID@RakClient@@AAEHUPlayerID@@@Z",
+      "rva": 215488,
+      "this_subobject": "primary RakPeer / complete RakClient",
+      "this_offset": 0
+    },
+    {
+      "symbol": "?GetFreeOtherClientIndex@RakClient@@AAEHXZ",
+      "rva": 215552,
+      "this_subobject": "primary RakPeer / complete RakClient",
+      "this_offset": 0
+    },
+    {
+      "symbol": "?Receive@RakClient@@UAEPAUPacket@@XZ",
+      "rva": 216176,
+      "this_subobject": "primary RakPeer / complete RakClient",
+      "this_offset": 0
+    },
+    {
+      "symbol": "?GetStaticClientData@RakClient@@UAEPAVBitStream@RakNet@@UPlayerID@@@Z",
+      "rva": 217312,
+      "this_subobject": "secondary RakClientInterface",
+      "this_offset": 3550
+    },
+    {
+      "symbol": "?SetStaticClientData@RakClient@@UAEXUPlayerID@@PBDH@Z",
+      "rva": 217408,
+      "this_subobject": "secondary RakClientInterface",
+      "this_offset": 3550
+    }
+  ],
+  "callbacks": [
+    {
+      "site_rva": 216879,
+      "slot_offset": 60,
+      "method": "DeallocatePacket",
+      "this_offset": 0,
+      "interface": "RakPeer primary",
+      "concrete_implementation_credit": 0
+    },
+    {
+      "site_rva": 217092,
+      "slot_offset": 60,
+      "method": "DeallocatePacket",
+      "this_offset": 0,
+      "interface": "RakPeer primary",
+      "concrete_implementation_credit": 0
+    }
+  ],
+  "layout": {
+    "RakPeer_size": 3550,
+    "RakClientInterface_offset": 3550,
+    "RakClientInterface_size": 4,
+    "password_offset": 3554,
+    "BitStream_size": 273,
+    "otherClients_offset": 3827,
+    "otherClients_count": 32,
+    "otherClient_stride": 282,
+    "otherClient_fields": [
+      [
+        "playerId",
+        0,
+        6
+      ],
+      [
+        "ping",
+        6,
+        2
+      ],
+      [
+        "staticData",
+        8,
+        273
+      ],
+      [
+        "isActive",
+        281,
+        1
+      ]
+    ],
+    "seed_offset": 12851,
+    "nextSeed_offset": 12855,
+    "nextSeedUpdate_offset": 12859,
+    "localPlayerIndex_offset": 12863,
+    "externalPlayerID_offset": 12865,
+    "full_source_size": 12871
+  },
+  "notes": [
+    "Actual compiler canonical code for ten interface-specific methods expects secondary interface this atDDE; direct base calls adjust by-DDE. Receive and private helpers expect primary this. No manual thunk or fake VFT added.",
+    "Receive two virtual deallocation calls use primary slot60. Other secondary-interface thunks are not in this actual call chain.",
+    "Borrowed packet payload BitStream copyData=false; three true temporary lifetimes and EH complete, no buffer allocation substitution.",
+    "Full original array32 of OtherClientsStruct282; no object allocation/constructor lifetime claimed.",
+    "GetOtherClientIndexByPlayerID compares IDs without checking isActive, preserving original behavior.",
+    "Source sequence and packet parser length/read handling unchanged; no network execution."
+  ],
+  "snapshots": [
+    {
+      "path": "client/saco/eval_vendor_rakclient_messages.cpp",
+      "sha256": "cdf937fd2a68b0192ebf9e9d1cf20b17b691dc80d9d0e8991fb3f46e90f89dca"
+    },
+    {
+      "path": "vendor/upstream/raknet/RakClient.cpp",
+      "sha256": "faa1817ad934da1b7fd15669d717b11f4ec78e0e5c40701dc9545aa6a32ba49a"
+    },
+    {
+      "path": "vendor/upstream/raknet/RakClient.h",
+      "sha256": "44b74fb38314b742c8a874db60d6dceefed82ad4cad7ca6be98630c83e49543e"
+    },
+    {
+      "path": "vendor/upstream/raknet/RakClientInterface.h",
+      "sha256": "b7fb9d1cee3d261c31af91928d9f59a43d27aae00e61cc1718ca8baec12f955d"
+    },
+    {
+      "path": "vendor/upstream/raknet/RakPeer.h",
+      "sha256": "3c462fd303bd7a7becc91f1b4e2752cff3656a2eec2a65afc0c15816c0902d75"
+    },
+    {
+      "path": "vendor/upstream/raknet/RakPeerInterface.h",
+      "sha256": "550ac3c7ed53e081039e62a459882f9102272399ca0ed40868d5e94b75239079"
+    },
+    {
+      "path": "vendor/upstream/raknet/BitStream.h",
+      "sha256": "31258d2cefefc42ca5825409e115dec0ff833fa98c9f92874bf950df3f53c130"
+    },
+    {
+      "path": "vendor/upstream/raknet/NetworkTypes.h",
+      "sha256": "026005dc438fa4777babf8c0c855e1ace7323414137b147b38cd97e24daec83f"
+    }
+  ]
+}

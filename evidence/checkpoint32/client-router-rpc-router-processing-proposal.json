@@ -1,0 +1,261 @@
+{
+  "status": "SOURCE_PROPOSAL_NOT_ACCEPTED",
+  "sources": [
+    {
+      "path": "build/agent-independent/eval_vendor_router_processing.cpp",
+      "sha256": "02c84ecdf4358d6547cb1514ec91e275133f6a9af6d53bab4651b5b6d6d5248d"
+    },
+    {
+      "path": "build/agent-independent/eval_vendor_system_address_list.cpp",
+      "sha256": "44f5226d64c6bc9a42cd690769b16f69fc1a68f3bdeeb935867f5fced301ee02"
+    },
+    {
+      "path": "vendor/upstream/raknet/Router.cpp",
+      "sha256": "9edf74be6f009a1b8c4efe2208e5580333d1ac0391e7d8ddc8a4fe237c59d11c"
+    },
+    {
+      "path": "vendor/upstream/raknet/SystemAddressList.cpp",
+      "sha256": "7a519e44fdadadaff17eaa0d34a9dc2f5e99e3f68124310b4497fbb03dfbc594"
+    }
+  ],
+  "functions": [
+    {
+      "method": "SetRestrictRoutingByType",
+      "source_line": 27,
+      "sha256": "f38677a1893a35e6ffc43bf5236967ee61d26cad5654f021c80500b6d23f6753"
+    },
+    {
+      "method": "AddAllowedType",
+      "source_line": 31,
+      "sha256": "1a053013990d1b48955f2a5bfa203b744064a1d0750e98df0922310d2a426feb"
+    },
+    {
+      "method": "RemoveAllowedType",
+      "source_line": 36,
+      "sha256": "f54aa3d6cbe20c942044b58dee4ed2daa5d1c9a3d172da01ec61403d78ea94da"
+    },
+    {
+      "method": "SetConnectionGraph",
+      "source_line": 41,
+      "sha256": "429567aee4ecd8e0fc203ec6b496877244645575a4170854218e728f5ce1c758"
+    },
+    {
+      "method": "SendTree",
+      "source_line": 94,
+      "sha256": "dd3e10748c99cc87db71e35fb52df79a656b06c5f3e9d665d246738f1acf57d7"
+    },
+    {
+      "method": "OnReceive",
+      "source_line": 146,
+      "sha256": "1ed4f0122df3b3e1d2e06d198e3132d20515580997b96cd21c9aa192bf9fb870"
+    },
+    {
+      "method": "OnAttach",
+      "source_line": 295,
+      "sha256": "735aa30ce6ae42c438461417668033f2dfc5254034bbf2b4da4b7c9d6e88482d"
+    },
+    {
+      "method": "OnDetach",
+      "source_line": 300,
+      "sha256": "6341702537a8f7e818a3d0c19111da48f106f32a415646f7d374edc7a9436dba"
+    },
+    {
+      "method": "SerializePreorder",
+      "source_line": 323,
+      "sha256": "013aff1b2fc7ca7a9ffb27e62fff8d172958b40d484a854dfd23c581fb03623d"
+    }
+  ],
+  "old_unambiguous_roots": [
+    {
+      "symbol": "?SetRestrictRoutingByType@Router@@QAEX_N@Z",
+      "rva": 321872,
+      "size": 10,
+      "targets": {},
+      "new_candidate_bytes": 10
+    },
+    {
+      "symbol": "?SetConnectionGraph@Router@@QAEXPAV?$WeightedGraph@UPlayerIdAndGroupId@ConnectionGraph@@G$0A@@DataStructures@@@Z",
+      "rva": 321888,
+      "size": 10,
+      "targets": {},
+      "new_candidate_bytes": 10
+    },
+    {
+      "symbol": "?OnAttach@Router@@UAEXPAVRakPeerInterface@@@Z",
+      "rva": 321904,
+      "size": 24,
+      "targets": {},
+      "new_candidate_bytes": 24
+    },
+    {
+      "symbol": "?OnDetach@Router@@UAEXPAVRakPeerInterface@@@Z",
+      "rva": 321936,
+      "size": 27,
+      "targets": {},
+      "new_candidate_bytes": 27
+    },
+    {
+      "symbol": "?SerializePreorder@Router@@IBEXPAV?$Tree@UPlayerIdAndGroupId@ConnectionGraph@@@DataStructures@@PAVBitStream@RakNet@@PAVSystemAddressList@@@Z",
+      "rva": 324400,
+      "size": 201,
+      "targets": {
+        "?GetList@SystemAddressList@@QAEPAV?$List@UPlayerID@@@DataStructures@@XZ": 268783104,
+        "?GetIndexOf@?$List@UPlayerID@@@DataStructures@@QAEIUPlayerID@@@Z": 268757472,
+        "?Write1@BitStream@RakNet@@QAEXXZ": 268566320,
+        "?Write0@BitStream@RakNet@@QAEXXZ": 268566288,
+        "?WriteBits@BitStream@RakNet@@QAEXPBEH_N@Z": 268566496,
+        "?WriteCompressed@BitStream@RakNet@@AAEXPBEH_N@Z": 268566832,
+        "?SerializePreorder@Router@@IBEXPAV?$Tree@UPlayerIdAndGroupId@ConnectionGraph@@@DataStructures@@PAVBitStream@RakNet@@PAVSystemAddressList@@@Z": 268759856
+      },
+      "new_candidate_bytes": 201
+    },
+    {
+      "symbol": "?SendTree@Router@@IAEXW4PacketPriority@@W4PacketReliability@@DPAV?$Tree@UPlayerIdAndGroupId@ConnectionGraph@@@DataStructures@@PBDIPAVBitStream@RakNet@@PAVSystemAddressList@@@Z",
+      "rva": 326032,
+      "size": 419,
+      "targets": {
+        "?WriteBits@BitStream@RakNet@@QAEXPBEH_N@Z": 268566496,
+        "?WriteCompressed@BitStream@RakNet@@AAEXPBEH_N@Z": 268566832,
+        "?AlignWriteToByteBoundary@BitStream@RakNet@@QAEXXZ": 268564832,
+        "?Write@BitStream@RakNet@@QAEXPBDH@Z": 268566672,
+        "?SetWriteOffset@BitStream@RakNet@@QAEXH@Z": 268565760,
+        "?SerializePreorder@Router@@IBEXPAV?$Tree@UPlayerIdAndGroupId@ConnectionGraph@@@DataStructures@@PAVBitStream@RakNet@@PAVSystemAddressList@@@Z": 268759856
+      },
+      "new_candidate_bytes": 419
+    },
+    {
+      "symbol": "?AddAllowedType@Router@@QAEXE@Z",
+      "rva": 327456,
+      "size": 39,
+      "targets": {
+        "?HasData@?$OrderedList@EE$1??$defaultOrderedListComparison@EE@DataStructures@@YAHABE0@Z@DataStructures@@QBE_NABE@Z": 268576704,
+        "?Insert@?$OrderedList@EE$1??$defaultOrderedListComparison@EE@DataStructures@@YAHABE0@Z@DataStructures@@QAEIABE0@Z": 268576736
+      },
+      "new_candidate_bytes": 39
+    },
+    {
+      "symbol": "?RemoveAllowedType@Router@@QAEXE@Z",
+      "rva": 327504,
+      "size": 36,
+      "targets": {
+        "?HasData@?$OrderedList@EE$1??$defaultOrderedListComparison@EE@DataStructures@@YAHABE0@Z@DataStructures@@QBE_NABE@Z": 268576704,
+        "?Remove@?$OrderedList@EE$1??$defaultOrderedListComparison@EE@DataStructures@@YAHABE0@Z@DataStructures@@QAEIABE@Z": 268576832
+      },
+      "new_candidate_bytes": 36
+    },
+    {
+      "symbol": "?OnReceive@Router@@UAE?AW4PluginReceiveResult@@PAVRakPeerInterface@@PAUPacket@@@Z",
+      "rva": 327552,
+      "size": 1547,
+      "targets": {
+        "__ehhandler$?OnReceive@Router@@UAE?AW4PluginReceiveResult@@PAVRakPeerInterface@@PAUPacket@@@Z": 269365713,
+        "__except_list": 0,
+        "??0BitStream@RakNet@@QAE@XZ": 268564272,
+        "??0BitStream@RakNet@@QAE@PAEI_N@Z": 268564416,
+        "?IgnoreBits@BitStream@RakNet@@QAEXH@Z": 268565744,
+        "?ReadBits@BitStream@RakNet@@QAE_NPAEH_N@Z": 268564912,
+        "?WriteBits@BitStream@RakNet@@QAEXPBEH_N@Z": 268566496,
+        "?ReadCompressed@BitStream@RakNet@@AAE_NPAEH_N@Z": 268565104,
+        "?WriteCompressed@BitStream@RakNet@@AAEXPBEH_N@Z": 268566832,
+        "?AlignWriteToByteBoundary@BitStream@RakNet@@QAEXXZ": 268564832,
+        "?AlignReadToByteBoundary@BitStream@RakNet@@QAEXXZ": 268564864,
+        "?Write@BitStream@RakNet@@QAEXPAV12@H@Z": 268565952,
+        "?HasData@?$OrderedList@EE$1??$defaultOrderedListComparison@EE@DataStructures@@YAHABE0@Z@DataStructures@@QBE_NABE@Z": 268576704,
+        "??1BitStream@RakNet@@QAE@XZ": 268564688,
+        "??$Read@_N@BitStream@RakNet@@QAE_NAA_N@Z": 268469280,
+        "_UNASSIGNED_PLAYER_ID": 269491640,
+        "??8PlayerID@@QBE_NABU0@@Z": 268646112,
+        "?Write1@BitStream@RakNet@@QAEXXZ": 268566320,
+        "?Write0@BitStream@RakNet@@QAEXXZ": 268566288,
+        "?SetWriteOffset@BitStream@RakNet@@QAEXH@Z": 268565760
+      },
+      "new_candidate_bytes": 1547
+    },
+    {
+      "symbol": "?RandomizeOrder@SystemAddressList@@QAEXXZ",
+      "rva": 347808,
+      "size": 122,
+      "targets": {
+        "?randomMT@@YAIXZ": 268712960
+      },
+      "new_candidate_bytes": 122
+    },
+    {
+      "symbol": "?Serialize@SystemAddressList@@QAEXPAVBitStream@RakNet@@@Z",
+      "rva": 347936,
+      "size": 130,
+      "targets": {
+        "?WriteBits@BitStream@RakNet@@QAEXPBEH_N@Z": 268566496
+      },
+      "new_candidate_bytes": 130
+    },
+    {
+      "symbol": "?Deserialize@SystemAddressList@@QAE_NPAVBitStream@RakNet@@@Z",
+      "rva": 348080,
+      "size": 154,
+      "targets": {
+        "?ReadBits@BitStream@RakNet@@QAE_NPAEH_N@Z": 268564912,
+        "?Clear@?$List@UPlayerID@@@DataStructures@@QAEX_N@Z": 268570368,
+        "?Insert@?$List@UPlayerID@@@DataStructures@@QAEXUPlayerID@@@Z": 268569664
+      },
+      "new_candidate_bytes": 154
+    },
+    {
+      "symbol": "?RemoveSystem@SystemAddressList@@QAEXUPlayerID@@@Z",
+      "rva": 348240,
+      "size": 62,
+      "targets": {
+        "??8PlayerID@@QBE_NABU0@@Z": 268646112
+      },
+      "new_candidate_bytes": 62
+    },
+    {
+      "symbol": "?Save@SystemAddressList@@QAE_NPBD@Z",
+      "rva": 348304,
+      "size": 214,
+      "targets": {
+        "__ehhandler$?Save@SystemAddressList@@QAE_NPBD@Z": 269366507,
+        "__except_list": 0,
+        "??0BitStream@RakNet@@QAE@XZ": 268564272,
+        "?Serialize@SystemAddressList@@QAEXPAVBitStream@RakNet@@@Z": 268783392,
+        "$SG2499": 269376820,
+        "_fopen": 269254473,
+        "_fwrite": 269253234,
+        "_fclose": 269254232,
+        "??1BitStream@RakNet@@QAE@XZ": 268564688
+      },
+      "new_candidate_bytes": 214
+    },
+    {
+      "symbol": "?Load@SystemAddressList@@QAE_NPBD@Z",
+      "rva": 348528,
+      "size": 233,
+      "targets": {
+        "__except_list": 0,
+        "__ehhandler$?Load@SystemAddressList@@QAE_NPBD@Z": 269366539,
+        "$SG2510": 269381004,
+        "_fopen": 269254473,
+        "_fseek": 269256575,
+        "_ftell": 269256367,
+        "_fclose": 269254232,
+        "??2@YAPAXI@Z": 269247098,
+        "_fread": 269255810,
+        "??0BitStream@RakNet@@QAE@PAEI_N@Z": 268564416,
+        "?Deserialize@SystemAddressList@@QAE_NPAVBitStream@RakNet@@@Z": 268783536,
+        "??3@YAXPAX@Z": 269247626,
+        "??1BitStream@RakNet@@QAE@XZ": 268564688
+      },
+      "new_candidate_bytes": 233
+    }
+  ],
+  "potential_root_bytes": 3228,
+  "source025_direct_bytes": 0,
+  "scope": [
+    "Complete original Router/SystemAddressList/Tree/List class declarations; no partial allocation, constructor or fabricated VFT.",
+    "Two Router::Send entry points and graph GetSpanningTree/Dijkstra excluded; selected SendTree operates on an existing real tree only.",
+    "Actual SystemAddressList storage List<PlayerID>; selected serialization/randomization/file functions use closed BitStream/Rand/CRT. No file/network operations executed.",
+    "Small SystemAddressList helpers must be selected by actual caller targets only, never by first identical candidate.",
+    "Comparator explicit instantiation is genuine source-template implementation otherwise instantiated by unselected Router constructor.",
+    "Review every emitted accepted COMDAT copy and complete EH/data/literals."
+  ]
+}

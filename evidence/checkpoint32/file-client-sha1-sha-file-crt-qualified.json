@@ -1,0 +1,282 @@
+{
+  "status": "PINNED_CRT_FSEEK_FTELL_DIV_FWRITE_WHOLE_WRAPPERS_AND_SCOPES_QUALIFIED",
+  "run": "cp32-file-client-sha1-linked1",
+  "linked_sha256": "76684eb67d5b495b60c6fd6595304329d540988e0a59d513badb8d2862e91155",
+  "map_sha256": "07f8e294715c3ce2b36197ead31f80641ddf4f13a8e07a5d6282a4beb2110ed4",
+  "libcmt_sha256": "6e2b3742e58245de52149137f64281b73db1487a07a31e165fff269fbf9b2ee8",
+  "new_source_credit": 0,
+  "code": [
+    {
+      "symbol": "_fseek",
+      "original_rva": 821119,
+      "linked_rva": 344002,
+      "size": 73,
+      "SDK_member": "LIBCMT:fseek.obj",
+      "whole_resolved_equal": true,
+      "all_PE_relocations_equal": true,
+      "bindings": [
+        {
+          "offset": 3,
+          "kind": "HIGHLOW",
+          "original_target_rva": 984032,
+          "linked_target_va": 268859784
+        },
+        {
+          "offset": 8,
+          "kind": "REL32",
+          "original_target_rva": 844848,
+          "linked_target_va": 268790612
+        },
+        {
+          "offset": 16,
+          "kind": "REL32",
+          "original_target_rva": 851741,
+          "linked_target_va": 268790447
+        },
+        {
+          "offset": 35,
+          "kind": "REL32",
+          "original_target_rva": 820976,
+          "linked_target_va": 268779315
+        },
+        {
+          "offset": 58,
+          "kind": "REL32",
+          "original_target_rva": 844907,
+          "linked_target_va": 268790671
+        },
+        {
+          "offset": 67,
+          "kind": "REL32",
+          "original_target_rva": 851823,
+          "linked_target_va": 268790529
+        }
+      ]
+    },
+    {
+      "symbol": "_ftell",
+      "original_rva": 820911,
+      "linked_rva": 343794,
+      "size": 65,
+      "SDK_member": "LIBCMT:ftell.obj",
+      "whole_resolved_equal": true,
+      "all_PE_relocations_equal": true,
+      "bindings": [
+        {
+          "offset": 3,
+          "kind": "HIGHLOW",
+          "original_target_rva": 984016,
+          "linked_target_va": 268859768
+        },
+        {
+          "offset": 8,
+          "kind": "REL32",
+          "original_target_rva": 844848,
+          "linked_target_va": 268790612
+        },
+        {
+          "offset": 16,
+          "kind": "REL32",
+          "original_target_rva": 851741,
+          "linked_target_va": 268790447
+        },
+        {
+          "offset": 29,
+          "kind": "REL32",
+          "original_target_rva": 820557,
+          "linked_target_va": 268778896
+        },
+        {
+          "offset": 50,
+          "kind": "REL32",
+          "original_target_rva": 844907,
+          "linked_target_va": 268790671
+        },
+        {
+          "offset": 59,
+          "kind": "REL32",
+          "original_target_rva": 851823,
+          "linked_target_va": 268790529
+        }
+      ]
+    },
+    {
+      "symbol": "_div",
+      "original_rva": 822899,
+      "linked_rva": 344458,
+      "size": 26,
+      "SDK_member": "LIBCMT:div.obj",
+      "whole_resolved_equal": true,
+      "all_PE_relocations_equal": true,
+      "bindings": []
+    },
+    {
+      "symbol": "_fwrite",
+      "original_rva": 817778,
+      "linked_rva": 344338,
+      "size": 76,
+      "SDK_member": "LIBCMT:fwrite.obj",
+      "whole_resolved_equal": true,
+      "all_PE_relocations_equal": true,
+      "bindings": [
+        {
+          "offset": 3,
+          "kind": "HIGHLOW",
+          "original_target_rva": 983888,
+          "linked_target_va": 268859800
+        },
+        {
+          "offset": 8,
+          "kind": "REL32",
+          "original_target_rva": 844848,
+          "linked_target_va": 268790612
+        },
+        {
+          "offset": 16,
+          "kind": "REL32",
+          "original_target_rva": 851741,
+          "linked_target_va": 268790447
+        },
+        {
+          "offset": 38,
+          "kind": "REL32",
+          "original_target_rva": 817515,
+          "linked_target_va": 268779531
+        },
+        {
+          "offset": 61,
+          "kind": "REL32",
+          "original_target_rva": 844907,
+          "linked_target_va": 268790671
+        },
+        {
+          "offset": 70,
+          "kind": "REL32",
+          "original_target_rva": 851823,
+          "linked_target_va": 268790529
+        }
+      ]
+    },
+    {
+      "symbol": "__SEH_prolog",
+      "original_rva": 844848,
+      "linked_rva": 355156,
+      "size": 59,
+      "SDK_member": "LIBCMT:sehprolg.obj",
+      "whole_resolved_equal": true,
+      "all_PE_relocations_equal": true,
+      "bindings": [
+        {
+          "offset": 1,
+          "kind": "HIGHLOW",
+          "original_target_rva": 816324,
+          "linked_target_va": 268765012
+        }
+      ]
+    },
+    {
+      "symbol": "__SEH_epilog",
+      "original_rva": 844907,
+      "linked_rva": 355215,
+      "size": 17,
+      "SDK_member": "LIBCMT:sehprolg.obj",
+      "whole_resolved_equal": true,
+      "all_PE_relocations_equal": true,
+      "bindings": []
+    }
+  ],
+  "SEH_scopes": [
+    {
+      "original_rva": 984032,
+      "linked_rva": 424328,
+      "size": 16,
+      "scope_record_size": 12,
+      "trailing_zero_alignment_size": 4,
+      "whole_bytes_equal": true,
+      "all_PE_relocations_equal": true,
+      "bindings": [
+        {
+          "offset": 8,
+          "original_target_rva": 821182,
+          "linked_target_va": 268779521
+        }
+      ]
+    },
+    {
+      "original_rva": 984016,
+      "linked_rva": 424312,
+      "size": 16,
+      "scope_record_size": 12,
+      "trailing_zero_alignment_size": 4,
+      "whole_bytes_equal": true,
+      "all_PE_relocations_equal": true,
+      "bindings": [
+        {
+          "offset": 8,
+          "original_target_rva": 820966,
+          "linked_target_va": 268779305
+        }
+      ]
+    },
+    {
+      "original_rva": 983888,
+      "linked_rva": 424344,
+      "size": 16,
+      "scope_record_size": 12,
+      "trailing_zero_alignment_size": 4,
+      "whole_bytes_equal": true,
+      "all_PE_relocations_equal": true,
+      "bindings": [
+        {
+          "offset": 8,
+          "original_target_rva": 817844,
+          "linked_target_va": 268779860
+        }
+      ]
+    }
+  ],
+  "real_external_boundaries": [
+    {
+      "symbol": "__lock_file",
+      "original_rva": 851741,
+      "linked_rva": 354991,
+      "SDK_member": "LIBCMT:_file.obj",
+      "source_credit": 0
+    },
+    {
+      "symbol": "__unlock_file",
+      "original_rva": 851823,
+      "linked_rva": 355073,
+      "SDK_member": "LIBCMT:_file.obj",
+      "source_credit": 0
+    },
+    {
+      "symbol": "__fseek_lk",
+      "original_rva": 820976,
+      "linked_rva": 343859,
+      "SDK_member": "LIBCMT:fseek.obj",
+      "source_credit": 0
+    },
+    {
+      "symbol": "__ftell_lk",
+      "original_rva": 820557,
+      "linked_rva": 343440,
+      "SDK_member": "LIBCMT:ftell.obj",
+      "source_credit": 0
+    },
+    {
+      "symbol": "__fwrite_lk",
+      "original_rva": 817515,
+      "linked_rva": 344075,
+      "SDK_member": "LIBCMT:fwrite.obj",
+      "source_credit": 0
+    },
+    {
+      "symbol": "__except_handler3",
+      "original_rva": 816324,
+      "linked_rva": 329556,
+      "SDK_member": "LIBCMT:exsup3.obj",
+      "source_credit": 0
+    }
+  ]
+}

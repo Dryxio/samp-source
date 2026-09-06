@@ -134,6 +134,12 @@ def draft(run, extra_seeds=None):
                 thunk=ref.read(address-ref.base,6);slot=u32(thunk,2);identity=import_slots(ref).get(slot)
                 need(identity is not None,'unknown import thunk target '+name)
                 record=dict(kind='import-thunk',reference_va=address,import_slot_va=slot,import_identity=list(identity),size=6,sha256=sha(thunk))
+            elif name=='___mb_cur_max':
+                # Actual complete initialized nlsdata1.obj .data block. The
+                # reviewed gate checks all three symbols and both images.
+                record=dict(kind='crt-data',reference_va=address,size=12,
+                            sha256=sha(ref.read(address-ref.base,12)),
+                            library='libcmt.lib',member='nlsdata1.obj')
             elif kind=='crt':
                 f=hints.get(address-ref.base);need(f is not None,'unknown CRT entry boundary '+name)
                 if len(f['chunks'])==1:
