@@ -1416,3 +1416,8 @@ Direct0250/cumulative21126. Measured 83966 unique bytes at 10476.0 bytes/hour in
 Tree insertion/items accepted: +2524 unique bytes, total 259631/930756 (27.894636%). Static insertion/queue2124 plus full ListBox item400. Real29E allocation and all fields identified/asserted, exact zero64/128 and textcapacity256 preserved; outer ListBox not allocated. Normal source actual pointer-reference identity and reload after memset, no invented padding. Whole functions/all COFF/PE targets, all 3204 linked regions, ten controls and actor ABI pass.
 
 Direct0250/cumulative21126, measured 86490 unique bytes at 10494.1 bytes/hour coordination included. Datagram remains unmatched and callbacks open; Update892 parked while queries432 match. Next logger base/file and playerqueries. Goal active; no push/game/live network.
+
+
+Logger/scoreboard accepted: +2480 unique code bytes, total 262111/930756 (28.161086%). Logger1184+real server ABI bridge8; population892+queries396 unique (GetRemote36 already accepted in base manifests). Full class tables, all original targets and relocations; IDTOString complete172 checked and only118 code counted. Actual compiler deleting aliases and server target provider qualified; unused entry alias removed after draft rejection with unchanged gate. Real row45 and scratch260, no fabricated allocation/padding. 3271 regions, ten negative controls and bounded actor ABI pass.
+
+Direct0250/cumulative21126; source025 helps scoreboard reasoning but hybrid implementation has no direct byte credit. 88970 total new unique bytes since parallel start, 10215.8 bytes/hour including coordination/failures. Next graph/Dijkstra and scoreboard Draw/request; plate renderer296/295 still excluded. Goal active, no push/GTA/live networking.

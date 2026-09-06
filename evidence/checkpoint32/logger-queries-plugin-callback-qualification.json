@@ -1,0 +1,165 @@
+{
+  "status": "VIRTUAL_ABI_AND_PRESENT_IMPLEMENTATIONS_IDENTIFIED_NOT_CLOSED",
+  "abi": {
+    "calling_convention": "x86 __thiscall",
+    "this_register": "ECX",
+    "vtable_offset": 36,
+    "slot_zero_based": 9,
+    "stack_argument_bytes": 24,
+    "parameters": [
+      "InternalPacket*4",
+      "frameNumber uint32",
+      "PlayerID8 (six meaningful bytes plus ABI padding)",
+      "RakNetTime uint32",
+      "isSend bool in four-byte slot"
+    ],
+    "return_type": "void"
+  },
+  "default": {
+    "rva": 212992,
+    "size": 3,
+    "source": "PluginInterface::OnInternalPacket",
+    "unique_full_discovery_candidate": true,
+    "accepted": false
+  },
+  "override": {
+    "rva": 212480,
+    "size": 360,
+    "source": "PacketLogger::OnInternalPacket",
+    "unique_full_discovery_candidate": true,
+    "accepted": false,
+    "dependencies": [
+      "PacketLogger::IDTOString",
+      "sprintf",
+      "four full formatting literals",
+      "virtual WriteLog callback and actual logger owners"
+    ]
+  },
+  "vtable_slot_references": {
+    "0x34000": [
+      {
+        "slot_rva": 943532,
+        "table_prefix_rva": 943496,
+        "slot": 9,
+        "offset": 36,
+        "table_extent_not_yet_qualified": true
+      },
+      {
+        "slot_rva": 943572,
+        "table_prefix_rva": 943536,
+        "slot": 9,
+        "offset": 36,
+        "table_extent_not_yet_qualified": true
+      },
+      {
+        "slot_rva": 944708,
+        "table_prefix_rva": 944672,
+        "slot": 9,
+        "offset": 36,
+        "table_extent_not_yet_qualified": true
+      },
+      {
+        "slot_rva": 945592,
+        "table_prefix_rva": 945556,
+        "slot": 9,
+        "offset": 36,
+        "table_extent_not_yet_qualified": true
+      },
+      {
+        "slot_rva": 945632,
+        "table_prefix_rva": 945596,
+        "slot": 9,
+        "offset": 36,
+        "table_extent_not_yet_qualified": true
+      },
+      {
+        "slot_rva": 945676,
+        "table_prefix_rva": 945640,
+        "slot": 9,
+        "offset": 36,
+        "table_extent_not_yet_qualified": true
+      },
+      {
+        "slot_rva": 945716,
+        "table_prefix_rva": 945680,
+        "slot": 9,
+        "offset": 36,
+        "table_extent_not_yet_qualified": true
+      },
+      {
+        "slot_rva": 946528,
+        "table_prefix_rva": 946492,
+        "slot": 9,
+        "offset": 36,
+        "table_extent_not_yet_qualified": true
+      },
+      {
+        "slot_rva": 955116,
+        "table_prefix_rva": 955080,
+        "slot": 9,
+        "offset": 36,
+        "table_extent_not_yet_qualified": true
+      },
+      {
+        "slot_rva": 955164,
+        "table_prefix_rva": 955128,
+        "slot": 9,
+        "offset": 36,
+        "table_extent_not_yet_qualified": true
+      }
+    ],
+    "0x33e00": [
+      {
+        "slot_rva": 946628,
+        "table_prefix_rva": 946592,
+        "slot": 9,
+        "offset": 36,
+        "table_extent_not_yet_qualified": true
+      },
+      {
+        "slot_rva": 946716,
+        "table_prefix_rva": 946680,
+        "slot": 9,
+        "offset": 36,
+        "table_extent_not_yet_qualified": true
+      },
+      {
+        "slot_rva": 946804,
+        "table_prefix_rva": 946768,
+        "slot": 9,
+        "offset": 36,
+        "table_extent_not_yet_qualified": true
+      }
+    ]
+  },
+  "registration": {
+    "rva": 240928,
+    "size": 49,
+    "source": "RakPeer::AttachPlugin",
+    "semantics": "GetIndexOf guard then append caller-supplied PluginInterface pointer; invoke OnAttach via slot0. No allocation or ownership transfer in this method.",
+    "direct_callers": [],
+    "accepted": false,
+    "registration_reachable_via_public_virtual_API": true,
+    "closed_set_of_runtime_instances_not_proven": true
+  },
+  "source_files": [
+    {
+      "path": "vendor/upstream/raknet/PluginInterface.h",
+      "sha256": "cb6ae0bf1f71ad66e6820d5d634720f98e52955960cb87d486826f0a5ec9eb66"
+    },
+    {
+      "path": "vendor/upstream/raknet/PluginInterface.cpp",
+      "sha256": "e6c496383415750d8fe9abba586c3d313f27dab82fabb0958aea3d41e02e4dc5"
+    },
+    {
+      "path": "vendor/upstream/raknet/PacketLogger.cpp",
+      "sha256": "871efab76391145db24f4997fd85b260185552d2d48d3cf051078b0ac6fa4df1"
+    },
+    {
+      "path": "vendor/upstream/raknet/RakPeer.cpp",
+      "sha256": "71b46e7918c933c5eb7a171d5c76d43833568e3193a0244b79e40bec4854c61b"
+    }
+  ],
+  "discovery": "build/agent-independent/plugin-owner-discovery/discovery.json",
+  "limitations": "Existing full VFT ownership/extent and logger WriteLog subclass providers still require review. Do not infer empty messageHandlerList, replace virtual call with noop, or credit unimplemented plugin code. Tables listed are actual R5 slot references, not accepted full tables."
+}

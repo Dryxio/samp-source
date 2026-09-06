@@ -1,0 +1,80 @@
+{
+  "status": "ACTUAL_LOGGER_PEER_DISPATCH_PATH_IDENTIFIED",
+  "tables": [
+    {
+      "class_name": "RakPeer",
+      "table_symbol": "??_7RakPeer@@6B@",
+      "table_rva": 953840,
+      "slot39_symbol": "?GetInternalID@RakPeer@@UBE?AUPlayerID@@XZ",
+      "slot39_target_rva": 231296,
+      "reference_is_PE_relocation": true,
+      "source_object": "build/agent-independent/plugin-owner-discovery/raknet_RakPeer.obj",
+      "source_object_sha256": "989ade9ed4e8ecbf9f061680a39b57dd03448bf381a7e3f35cad6ee90b3dc505",
+      "full_table_not_accepted": true
+    },
+    {
+      "class_name": "RakClient",
+      "table_symbol": "??_7RakClient@@6BRakPeer@@@",
+      "table_rva": 947880,
+      "slot39_symbol": "?GetInternalID@RakClient@@UBE?AUPlayerID@@XZ",
+      "slot39_target_rva": 215152,
+      "reference_is_PE_relocation": true,
+      "source_object": "build/agent-independent/plugin-owner-discovery/raknet_RakClient.obj",
+      "source_object_sha256": "1fcd393006e87f444d668202a904e1bc7c194cfbe2a1e6fbd960b75b70f58afc",
+      "full_table_not_accepted": true
+    },
+    {
+      "class_name": "RakServer",
+      "table_symbol": "??_7RakServer@@6BRakPeer@@@",
+      "table_rva": 954416,
+      "slot39_symbol": "?GetInternalID@RakServer@@W3BE?AUPlayerID@@XZ",
+      "slot39_target_rva": 275888,
+      "reference_is_PE_relocation": true,
+      "source_object": "build/agent-independent/plugin-owner-discovery/raknet_RakServer.obj",
+      "source_object_sha256": "7c0d93a32c7456a6997b14ec06f2d448f713e7cdd15c263fb01ffc67bf3c0292",
+      "full_table_not_accepted": true
+    }
+  ],
+  "paths": [
+    {
+      "owner": "RakClient",
+      "attach_body": 214736,
+      "peer_this_adjustment": 0,
+      "getter_slot_target": 215152,
+      "getter_body": 215152,
+      "secondary_client_thunk": 215792,
+      "secondary_thunk_on_logger_path": false
+    },
+    {
+      "owner": "RakServer",
+      "attach_body": 274768,
+      "peer_this_adjustment": 4,
+      "getter_slot_target": 275888,
+      "thunk_adjustment": -4,
+      "getter_body": 275056,
+      "getter_body_peer_adjustment": 4,
+      "thunk_on_logger_path": true,
+      "thunk_emitted_fresh": false
+    }
+  ],
+  "common_attach": {
+    "rva": 240928,
+    "passes_own_peer_this_to_OnAttach": true,
+    "OnAttach_stores_pointer_at_logger_offset": 4
+  },
+  "remaining_internal_provider": {
+    "symbol": "?GetInternalID@RakServer@@W3BE?AUPlayerID@@XZ",
+    "rva": 275888,
+    "size": 8,
+    "old_source_object_exact": true,
+    "fresh_emitted": false,
+    "credit": 0
+  },
+  "source_files": [
+    "vendor/upstream/raknet/RakClient.h",
+    "vendor/upstream/raknet/RakServer.h",
+    "vendor/upstream/raknet/RakClient.cpp",
+    "vendor/upstream/raknet/RakServer.cpp",
+    "vendor/upstream/raknet/RakPeer.cpp"
+  ]
+}
