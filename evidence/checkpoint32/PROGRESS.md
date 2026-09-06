@@ -1476,3 +1476,8 @@ Direct0250/cumulative21988. 173445 new unique bytes since parallel start, 14366.
 TCPInterface/RakSleep4306 and font helpers331 accepted: +4637 unique code bytes, total 351223/930756 (37.735239%). Whole worker/lifetimes, EH/data, all COFF/PE targets and imports; true CRT thread wrappers and scope, ten controls and Actor ABI pass. All4266 prior regions preserved. True static font scratch/scalars40012 verified, but startup heap allocation remains unimplemented and receives no credit. No data/CRT/duplicate credit.
 
 Direct0250/cumulative21988. 178082 new unique bytes since parallel start, 14612.4 bytes/hour coordination/failures included. Font proxy/hook candidate next. Goal active; no push/deploy.
+
+
+Console/parser/Telnet/logger8195 and Font439+ANSI271 accepted: +8905 unique code bytes, total 360128/930756 (38.691988%). All4317 previous regions preserved, 170 new complete sections, all targets/COFF/PE, three true deleting aliases and whole VFTs, CRT strtoul23 to true strtoxl boundary qualified. Ten controls and Actor ABI pass. Two former pending bodies closed; three remain. ANSI source change one predicate, no header edits. Font real static object4/VFT56, no synthetic init; original startup allocator still outside coverage. No data/CRT/duplicate code credit.
+
+Direct0250/cumulative21988. 186987 new unique bytes since parallel start, 15144.5 bytes/hour coordination/failures included. Next RakPeer and newly unlocked text consumer. Goal active; no push/deploy.

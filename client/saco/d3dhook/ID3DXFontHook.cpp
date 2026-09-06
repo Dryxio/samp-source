@@ -2,11 +2,36 @@
 #include "ID3DXFontHook.h"
 #include "../main.h"
 
+// Reconstructed actual R5 globals and helpers; no new fake scratch allocation.
+extern ID3DXSprite *r5FontActualSprite;
+extern DWORD r5FontEmbeddedColor;
+extern int r5FontCharacterIndex;
+extern wchar_t r5FontWideText[20000];
+extern char *r5FontOriginalText;
+extern char *r5FontStrippedText;
+extern void R5FontConvertAnsiToWide(char *, wchar_t *, int);
+extern void RemoveColorEmbedsFromString(char *);
+class R5FontSpriteProxy;
+extern R5FontSpriteProxy r5FontSpriteProxy;
+
 INT __stdcall ID3DXFontHook::DrawTextA(LPD3DXSPRITE pSprite, LPCSTR pString, INT Count, LPRECT pRect, DWORD Format, D3DCOLOR Color)
 {
-	// TODO: ID3DXFontHook::DrawTextA
-
-	return m_pD3DFont->DrawTextA(pSprite, pString, Count, pRect, Format, Color);
+ if (pSprite)
+ {
+  r5FontActualSprite=pSprite;
+  r5FontEmbeddedColor=Color;
+  r5FontCharacterIndex=0;
+  if (strlen(pString)>100000)
+   return 0;
+  strcpy(r5FontOriginalText,pString);
+  strcpy(r5FontStrippedText,pString);
+  R5FontConvertAnsiToWide(r5FontOriginalText,r5FontWideText,20000);
+  RemoveColorEmbedsFromString(r5FontStrippedText);
+  return m_pD3DFont->DrawTextA(reinterpret_cast<ID3DXSprite *>(&r5FontSpriteProxy),
+    r5FontStrippedText,strlen(r5FontStrippedText),pRect,Format,Color);
+ }
+ else
+  return m_pD3DFont->DrawTextA(NULL,pString,Count,pRect,Format,Color);
 }
 
 HRESULT __stdcall ID3DXFontHook::QueryInterface(REFIID iid, LPVOID *ppv)

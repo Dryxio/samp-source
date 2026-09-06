@@ -1,0 +1,28 @@
+{
+  "status": "PINNED_CRT_STRTOUL_WHOLE23_REAL_STRTOXL_BOUNDARY_QUALIFIED",
+  "run": "cp32-console-font-linked1",
+  "linked_sha256": "b51bbad2225e77f892f47490a1baded2e44dea4524a09ec718f997fe10931e69",
+  "sdk_libcmt_sha256": "6e2b3742e58245de52149137f64281b73db1487a07a31e165fff269fbf9b2ee8",
+  "new_source_credit": 0,
+  "code": {
+    "symbol": "_strtoul",
+    "original_rva": 818677,
+    "size": 23,
+    "linked_va": 268812645,
+    "whole_resolved_bytes_equal": true,
+    "all_PE_relocations_equal": true,
+    "fixup": {
+      "offset": 15,
+      "kind": "REL32",
+      "original_target_rva": 818207,
+      "linked_target_va": 268812198
+    }
+  },
+  "provider": {
+    "symbol": "_strtoxl",
+    "original_rva": 818207,
+    "linked_va": 268812198,
+    "owner": "LIBCMT:strtol.obj",
+    "scope": "True pinned CRT internal boundary, not reconstructed source coverage"
+  }
+}
