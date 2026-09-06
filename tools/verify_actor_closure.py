@@ -42,7 +42,7 @@ class Gate:
             need((r['kind']=='code')==bool(s['flags']&0x20),'code/data classification differs')
             need(r['kind'].startswith('zero')==s['uninitialized'],'zero/data classification differs')
             if r['kind']=='code':need(r['offset']==0 and r['size']==s['size'],'truncated source code')
-            elif r['kind']=='script-command':need((r['unit'] in ('closure_models','closure_camera','closure_audio','closure_vehicle','closure_player','game_menu','net_pickuppool') or (r['unit']=='closure_rpc_checkpoints' and r['anchor'] in ('_disable_marker', '_set_marker_color', '_create_radar_marker_without_sphere', '_show_on_radar', '_create_racing_checkpoint', '_destroy_racing_checkpoint')) or (r['unit']=='closure_rpc_spectator_vehicle' and r['anchor'] in ('_make_actor_leave_car', '_rpc_set_car_z_angle')) or (r['unit']=='closure_player_lifetime' and r['anchor'] in ('_set_actor_weapon_droppable', '_set_actor_can_be_decapitated', '_rpc_ped_disassociate_object', '_rpc_ped_destroy_object_with_fade', '_rpc_ped_carry_object')) or (r['unit']=='closure_object_release' and r['anchor'] in ('_is_model_available', '_rpc_release_model')) or (r['unit']=='closure_rpc_player_effects' and r['anchor'] in ('_toggle_widescreen','_create_explosion_with_radius')) or (r['unit']=='closure_pickup_create' and r['anchor'] in ('_request_model','_load_requested_models','_is_model_available','_destroy_pickup','_create_pickup_r5')) or (r['unit']=='closure_pickup_weapon' and r['anchor'] in ('_request_model','_load_requested_models','_is_model_available','_create_pickup_with_ammo'))) and r['size']==18 and not s['reloc_count'],'not a complete SCRIPT_COMMAND')
+            elif r['kind']=='script-command':need((r['unit'] in ('closure_models','closure_camera','closure_audio','closure_vehicle','closure_player','game_menu','net_pickuppool') or (r['unit']=='closure_rpc_checkpoints' and r['anchor'] in ('_disable_marker', '_set_marker_color', '_create_radar_marker_without_sphere', '_show_on_radar', '_create_racing_checkpoint', '_destroy_racing_checkpoint')) or (r['unit']=='closure_rpc_spectator_vehicle' and r['anchor'] in ('_make_actor_leave_car', '_rpc_set_car_z_angle')) or (r['unit']=='closure_player_lifetime' and r['anchor'] in ('_set_actor_weapon_droppable', '_set_actor_can_be_decapitated', '_rpc_ped_disassociate_object', '_rpc_ped_destroy_object_with_fade', '_rpc_ped_carry_object')) or (r['unit']=='closure_rpc_player_motion_shop' and r['anchor'] in ('_set_player_drunk_visuals', '_handling_responsiveness')) or (r['unit']=='closure_object_release' and r['anchor'] in ('_is_model_available', '_rpc_release_model')) or (r['unit']=='closure_rpc_player_effects' and r['anchor'] in ('_toggle_widescreen','_create_explosion_with_radius')) or (r['unit']=='closure_pickup_create' and r['anchor'] in ('_request_model','_load_requested_models','_is_model_available','_destroy_pickup','_create_pickup_r5')) or (r['unit']=='closure_pickup_weapon' and r['anchor'] in ('_request_model','_load_requested_models','_is_model_available','_create_pickup_with_ammo'))) and r['size']==18 and not s['reloc_count'],'not a complete SCRIPT_COMMAND')
             elif r['kind']=='zero-object':need(r['size'] in (2,4) and s['uninitialized'],'invalid scalar zero object')
             else:need(r['offset']==0 and r['size']==s['size'],'truncated non-typed data')
             anchors=[v for v in o.names.get(r['anchor'],[]) if v['section']==r['section'] and v['value']==r['offset']+r['anchor_offset']]
@@ -116,9 +116,47 @@ class Gate:
             return hits[0]
         return symbol_address(self.maps,r['anchor'])
 
+    def discarded_associative_owner(self,r):
+        # An inline COMDAT can be selected from another source object. Its
+        # associative EH sections then have no independent MAP entry here.
+        # Defer only that COFF-proven case; actual relocations must still bind
+        # every byte to the selected parent's linked EH and unwind objects.
+        obj=self.objects[r['unit']];sec=obj.sections[r['section']-1]
+        if not sec['flags']&0x1000:return None
+        local=any(x['section']==r['section'] and x['storage']==3 for x in obj.names.get(r['anchor'],[]))
+        if not local or any(owner.lower()==r['unit'].lower()+'.obj' for _,owner in self.maps.get(r['anchor'],[])):return None
+        ptr=u32(obj.data,8);associations=[]
+        for index,symbol in obj.symbols.items():
+            if symbol['section']!=r['section'] or symbol['storage']!=3 or symbol['type']!=0 or symbol['name']!=sec['name']:continue
+            at=ptr+index*18
+            if obj.data[at+17]!=1:continue
+            aux=obj.data[at+18:at+36]
+            if aux[14]==5:associations.append(struct.unpack_from('<H',aux,12)[0])
+        if len(associations)!=1:return None
+        parent=associations[0]
+        if not 1<=parent<=len(obj.sections) or not obj.sections[parent-1]['flags']&0x1000:return None
+        funcs=[x for x in obj.symbols.values() if x['section']==parent and x['storage']==2 and x['type']==0x20]
+        if len(funcs)!=1:return None
+        entries=self.maps.get(funcs[0]['name'],[])
+        if len(entries)!=1:return None
+        owner=entries[0][1]
+        unit=next((u for u in self.objects if u.lower()+'.obj'==owner.lower()),None)
+        if unit is None or unit==r['unit']:return None
+        source=self.by_section.get((r['unit'],parent),[])
+        selected=[q for q in self.regions if q['unit']==unit and q['anchor']==funcs[0]['name']]
+        if len(source)!=1 or len(selected)!=1:return None
+        a,b=source[0],selected[0]
+        if not a['accepted'] or not b['accepted'] or a['kind']!='code' or (a['rva'],a['size'],a['sha256'])!=(b['rva'],b['size'],b['sha256']):return None
+        return dict(unit=r['unit'],anchor=r['anchor'],section=r['section'],parent=funcs[0]['name'],selected_owner=owner,parent_linked_va=entries[0][0])
+
     def bind(self):
+        self.associative_bindings=[]
         for r in self.regions:
             if r['anchor'] in self.maps:
+                association=self.discarded_associative_owner(r)
+                if association:
+                    self.associative_bindings.append(association)
+                    continue
                 self.locate(r,self.anchor_address(r)-r['anchor_offset'])
         progress=True
         while progress:

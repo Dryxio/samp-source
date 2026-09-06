@@ -1,0 +1,385 @@
+{
+  "status": "PROPOSED_UNCOMPILED_NO_ACCEPTED_CREDIT",
+  "baseline_proof": "evidence/checkpoint32/player-lifetime-acceptance.json",
+  "baseline_union": 200559,
+  "rows": [
+    {
+      "name": "Velocity",
+      "rva": "0x18850",
+      "size": 248,
+      "unique_main": 248,
+      "source025_line": 1558,
+      "registration": {
+        "rva": 100432,
+        "size": 248,
+        "potential": 248,
+        "rpc_id": 90,
+        "name": "ScrUnk5A",
+        "registration_rva": 123832
+      },
+      "calls": [
+        {
+          "at": "0x1888a",
+          "target": "0x1f840",
+          "accepted_symbol": "??0BitStream@RakNet@@QAE@PADI_N@Z",
+          "unit": "closure_cmd_bitstream"
+        },
+        {
+          "at": "0x188a7",
+          "target": "0x1f9b0",
+          "accepted_symbol": "?ReadBits@BitStream@RakNet@@QAE_NPAEH_N@Z",
+          "unit": "closure_cmd_bitstream"
+        },
+        {
+          "at": "0x188b9",
+          "target": "0x1f9b0",
+          "accepted_symbol": "?ReadBits@BitStream@RakNet@@QAE_NPAEH_N@Z",
+          "unit": "closure_cmd_bitstream"
+        },
+        {
+          "at": "0x188cb",
+          "target": "0x1f9b0",
+          "accepted_symbol": "?ReadBits@BitStream@RakNet@@QAE_NPAEH_N@Z",
+          "unit": "closure_cmd_bitstream"
+        },
+        {
+          "at": "0x188d6",
+          "target": "0x1010",
+          "accepted_symbol": "?FindPlayerPed@CGame@@QAEPAVCPlayerPed@@XZ",
+          "unit": "closure_player_lifetime"
+        },
+        {
+          "at": "0x188e3",
+          "target": "0xad860",
+          "accepted_symbol": "?IsOnGround@CPlayerPed@@QAEHXZ",
+          "unit": "closure_player"
+        },
+        {
+          "at": "0x188ee",
+          "target": "0xabdd0",
+          "accepted_symbol": "?GetStateFlags@CPlayerPed@@QAEKXZ",
+          "unit": "closure_player"
+        },
+        {
+          "at": "0x188f9",
+          "target": "0xabdf0",
+          "accepted_symbol": "?SetStateFlags@CPlayerPed@@QAEXK@Z",
+          "unit": "closure_player"
+        },
+        {
+          "at": "0x18919",
+          "target": "0x9ed10",
+          "accepted_symbol": "?SetMoveSpeedVector@CEntity@@QAEXU_VECTOR@@@Z",
+          "unit": "closure_world"
+        },
+        {
+          "at": "0x1892d",
+          "target": "0x1f8d0",
+          "accepted_symbol": "??1BitStream@RakNet@@QAE@XZ",
+          "unit": "closure_cmd_bitstream"
+        }
+      ],
+      "EH": {
+        "cleanup": "0xe0d10",
+        "handler": "0xe0d1b",
+        "size": 21,
+        "FuncInfo": {
+          "rva": "0xf86e0",
+          "size": 28
+        },
+        "UnwindMap": {
+          "rva": "0xf86d8",
+          "size": 8
+        }
+      }
+    },
+    {
+      "name": "DrunkVisuals",
+      "rva": "0x18c50",
+      "size": 166,
+      "unique_main": 166,
+      "source025_line": 1874,
+      "registration": {
+        "rva": 101456,
+        "size": 166,
+        "potential": 166,
+        "rpc_id": 92,
+        "name": "ScrSetPlayerDrunkVisuals",
+        "registration_rva": 123900
+      },
+      "calls": [
+        {
+          "at": "0x18c89",
+          "target": "0x1f840",
+          "accepted_symbol": "??0BitStream@RakNet@@QAE@PADI_N@Z",
+          "unit": "closure_cmd_bitstream"
+        },
+        {
+          "at": "0x18ca6",
+          "target": "0x1f9b0",
+          "accepted_symbol": "?ReadBits@BitStream@RakNet@@QAE_NPAEH_N@Z",
+          "unit": "closure_cmd_bitstream"
+        },
+        {
+          "at": "0x18cb1",
+          "target": "0x1010",
+          "accepted_symbol": "?FindPlayerPed@CGame@@QAEPAVCPlayerPed@@XZ",
+          "unit": "closure_player_lifetime"
+        },
+        {
+          "at": "0x18cc5",
+          "target": "0xb2310",
+          "accepted_symbol": "?ScriptCommand@@YAHPBUSCRIPT_COMMAND@@ZZ",
+          "unit": "game_scripting"
+        },
+        {
+          "at": "0x18cdc",
+          "target": "0x1f8d0",
+          "accepted_symbol": "??1BitStream@RakNet@@QAE@XZ",
+          "unit": "closure_cmd_bitstream"
+        }
+      ],
+      "EH": {
+        "cleanup": "0xe0d90",
+        "handler": "0xe0d9b",
+        "size": 21,
+        "FuncInfo": {
+          "rva": "0xf8770",
+          "size": 28
+        },
+        "UnwindMap": {
+          "rva": "0xf8768",
+          "size": 8
+        }
+      }
+    },
+    {
+      "name": "DrunkHandling",
+      "rva": "0x18d00",
+      "size": 166,
+      "unique_main": 166,
+      "source025_line": 1889,
+      "registration": {
+        "rva": 101632,
+        "size": 166,
+        "potential": 166,
+        "rpc_id": 150,
+        "name": "ScrSetPlayerDrunkHandling",
+        "registration_rva": 123917
+      },
+      "calls": [
+        {
+          "at": "0x18d39",
+          "target": "0x1f840",
+          "accepted_symbol": "??0BitStream@RakNet@@QAE@PADI_N@Z",
+          "unit": "closure_cmd_bitstream"
+        },
+        {
+          "at": "0x18d56",
+          "target": "0x1f9b0",
+          "accepted_symbol": "?ReadBits@BitStream@RakNet@@QAE_NPAEH_N@Z",
+          "unit": "closure_cmd_bitstream"
+        },
+        {
+          "at": "0x18d61",
+          "target": "0x1010",
+          "accepted_symbol": "?FindPlayerPed@CGame@@QAEPAVCPlayerPed@@XZ",
+          "unit": "closure_player_lifetime"
+        },
+        {
+          "at": "0x18d75",
+          "target": "0xb2310",
+          "accepted_symbol": "?ScriptCommand@@YAHPBUSCRIPT_COMMAND@@ZZ",
+          "unit": "game_scripting"
+        },
+        {
+          "at": "0x18d8c",
+          "target": "0x1f8d0",
+          "accepted_symbol": "??1BitStream@RakNet@@QAE@XZ",
+          "unit": "closure_cmd_bitstream"
+        }
+      ],
+      "EH": {
+        "cleanup": "0xe0db0",
+        "handler": "0xe0dbb",
+        "size": 21,
+        "FuncInfo": {
+          "rva": "0xf8794",
+          "size": 28
+        },
+        "UnwindMap": {
+          "rva": "0xf878c",
+          "size": 8
+        }
+      }
+    },
+    {
+      "name": "ShopName",
+      "rva": "0x17e50",
+      "size": 247,
+      "unique_main": 247,
+      "source025_line": null,
+      "registration": {
+        "rva": 97872,
+        "size": 247,
+        "potential": 247,
+        "rpc_id": 33,
+        "name": "ScrUnk21",
+        "registration_rva": 124461
+      },
+      "calls": [
+        {
+          "at": "0x17e8a",
+          "target": "0x1f840",
+          "accepted_symbol": "??0BitStream@RakNet@@QAE@PADI_N@Z",
+          "unit": "closure_cmd_bitstream"
+        },
+        {
+          "at": "0x17ecb",
+          "target": "0x1fea0",
+          "accepted_symbol": "?Read@BitStream@RakNet@@QAE_NPADH@Z",
+          "unit": "closure_cmd_bitstream"
+        },
+        {
+          "at": "0x17ed6",
+          "target": "0x1010",
+          "accepted_symbol": "?FindPlayerPed@CGame@@QAEPAVCPlayerPed@@XZ",
+          "unit": "closure_player_lifetime"
+        },
+        {
+          "at": "0x17efb",
+          "target": "0xae380",
+          "accepted_symbol": "?SetShopName@CPlayerPed@@QAEXPAD@Z",
+          "unit": "closure_player"
+        },
+        {
+          "at": "0x17f0c",
+          "target": "0xae380",
+          "accepted_symbol": "?SetShopName@CPlayerPed@@QAEXPAD@Z",
+          "unit": "closure_player"
+        },
+        {
+          "at": "0x17f18",
+          "target": "0xae300",
+          "accepted_symbol": "?LoadShoppingDataSubsection@CPlayerPed@@QAEXPAD@Z",
+          "unit": "closure_player"
+        },
+        {
+          "at": "0x17f2c",
+          "target": "0x1f8d0",
+          "accepted_symbol": "??1BitStream@RakNet@@QAE@XZ",
+          "unit": "closure_cmd_bitstream"
+        }
+      ],
+      "EH": {
+        "cleanup": "0xe0c50",
+        "handler": "0xe0c5b",
+        "size": 21,
+        "FuncInfo": {
+          "rva": "0xf8608",
+          "size": 28
+        },
+        "UnwindMap": {
+          "rva": "0xf8600",
+          "size": 8
+        }
+      }
+    },
+    {
+      "name": "ArmedWeapon",
+      "rva": "0x18e50",
+      "size": 174,
+      "unique_main": 174,
+      "source025_line": null,
+      "registration": {
+        "rva": 101968,
+        "size": 174,
+        "potential": 174,
+        "rpc_id": 67,
+        "name": "ScrUnk43",
+        "registration_rva": 124495
+      },
+      "calls": [
+        {
+          "at": "0x18e8a",
+          "target": "0x1f840",
+          "accepted_symbol": "??0BitStream@RakNet@@QAE@PADI_N@Z",
+          "unit": "closure_cmd_bitstream"
+        },
+        {
+          "at": "0x18ea0",
+          "target": "0x1010",
+          "accepted_symbol": "?FindPlayerPed@CGame@@QAEPAVCPlayerPed@@XZ",
+          "unit": "closure_player_lifetime"
+        },
+        {
+          "at": "0x18eb8",
+          "target": "0x1f9b0",
+          "accepted_symbol": "?ReadBits@BitStream@RakNet@@QAE_NPAEH_N@Z",
+          "unit": "closure_cmd_bitstream"
+        },
+        {
+          "at": "0x18ecf",
+          "target": "0xac060",
+          "accepted_symbol": "?SetArmedWeapon@CPlayerPed@@QAEXH_N@Z",
+          "unit": "closure_player"
+        },
+        {
+          "at": "0x18ee3",
+          "target": "0x1f8d0",
+          "accepted_symbol": "??1BitStream@RakNet@@QAE@XZ",
+          "unit": "closure_cmd_bitstream"
+        }
+      ],
+      "EH": {
+        "cleanup": "0xe0df0",
+        "handler": "0xe0dfb",
+        "size": 21,
+        "FuncInfo": {
+          "rva": "0xf87dc",
+          "size": 28
+        },
+        "UnwindMap": {
+          "rva": "0xf87d4",
+          "size": 8
+        }
+      }
+    }
+  ],
+  "potential_unique_main": 1001,
+  "potential_EH": 105,
+  "source025_principal_potential": 580,
+  "source025_path": "references/michael-fa-samp/client/net/scriptrpc.cpp",
+  "source025_adaptation": "Three direct implementations retained, local names changed, R5 BitStream char* overload1F840 replaces025 unsignedchar*1F7C0. Rest of dataflow and checks unchanged. ShopName/ArmedWeapon independently reconstructed R5, zero025credit.",
+  "data": [
+    {
+      "name": "set_player_drunk_visuals",
+      "rva": "E6220",
+      "size": 18,
+      "hex": "2c0569690000000000000000000000000000"
+    },
+    {
+      "name": "handling_responsiveness",
+      "rva": "E6234",
+      "size": 18,
+      "hex": "fd0369690000000000000000000000000000"
+    },
+    {
+      "name": "empty shop string",
+      "rva": "E59C9",
+      "size": 1,
+      "hex": "00"
+    }
+  ],
+  "ownership": "No new classes, vtables, allocations or invented providers. All true CGame/CPlayerPed/CEntity methods already accepted. Global pGame26EBAC.",
+  "rank_note": "Only580 principal bytes immediately available from three025RPC with all providers closed; completing five-function lot with421R5 principal bytes meets1000 target without false025attribution. VehicleVelocity367,PlayerName337,GameText260 remain lower priority because true code provider missing.",
+  "potential_unique_total": 1106,
+  "shop_identity_rejection": {
+    "status": "REVIEW_REJECTED_PROVIDER_INVERSION_NO_ACCEPTED_CREDIT",
+    "wrong_source": "Versions1/2 called LoadShoppingDataSubsection first then SetShopName. Equal-size raw candidate with inferredtarget substitution was insufficient and did not constitute accepted match.",
+    "actual": "17EFB/17F0C callAE380=SetShopName;17F18 callAE300=LoadShoppingDataSubsection.",
+    "correction": "Version3 calls SetShopName(NULL) then LoadShoppingDataSubsection(\"\") for empty; SetShopName(shop) then LoadShoppingDataSubsection(shop) otherwise.",
+    "accepted_provider_identity_source": "config/checkpoint32/player-lifetime-contract.json symbol anchorsAE380/AE300",
+    "gate": "Full relocations must bind exact source symbols to reviewed original identities, not infer interchangeable targets."
+  }
+}

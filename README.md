@@ -20,7 +20,7 @@ Functions are checked in full, including their references, call targets and jump
 
 ## Progress
 
-**200,559 code bytes verified — 21.55% of the original code section.**
+**202,690 code bytes verified — 21.78% of the original code section.**
 
 Already covered: parts of actor creation and deletion, entity geometry, weapon lookup, game commands, native pools, player-pointer records, raster helpers, camera/audio wrappers, player state, weapon skills, native task wrappers, menus, RenderWare and shared utilities.
 
@@ -33,7 +33,7 @@ Already covered: parts of actor creation and deletion, entity geometry, weapon l
 
 This is an early reconstruction, not a playable replacement DLL. Matching individual functions is progress toward full-file identity, not proof of it.
 
-[Verified coverage](evidence/checkpoint32/coverage-current.json) · [Latest accepted batch](evidence/checkpoint32/player-lifetime-acceptance.json) · [Development log](evidence/checkpoint32/PROGRESS.md)
+[Verified coverage](evidence/checkpoint32/coverage-current.json) · [Latest accepted batch](evidence/checkpoint32/selection-model-motion-acceptance.json) · [Development log](evidence/checkpoint32/PROGRESS.md)
 
 ## Explore or contribute
 
