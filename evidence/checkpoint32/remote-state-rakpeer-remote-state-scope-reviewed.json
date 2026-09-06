@@ -1,0 +1,287 @@
+{
+  "status": "PASS_FRESH_SCOPE_PROVIDERS_AND_WHOLE_DATA",
+  "run": "build/cp32-remote-state-trial1",
+  "baseline": 381304,
+  "new_unique_code": 2816,
+  "already_covered_code": 956,
+  "complete_types": {
+    "RemoteSystemStruct": {
+      "size": 3177,
+      "field_tail_offsets": [
+        3174,
+        3175,
+        3176
+      ],
+      "stride_evidence": [
+        {
+          "site_rva": 230734,
+          "array_element_stride": 3177
+        },
+        {
+          "site_rva": 230786,
+          "array_element_stride": 3177
+        }
+      ],
+      "allocation": "Not allocated by this batch; real complete source header used."
+    },
+    "PlayerIDAndIndex": {
+      "size": 10,
+      "playerId_offset": 0,
+      "index_offset": 6
+    },
+    "RPCMap": {
+      "size": 1024,
+      "type": "RPCNode*[256]"
+    },
+    "RPCNode": {
+      "size": 6,
+      "uniqueIdentifier_offset": 0,
+      "functionPointer_offset": 1,
+      "isPointerToMember_offset": 5
+    },
+    "RakNetStatisticsStruct": {
+      "size": 296
+    }
+  },
+  "owned_static_sum": {
+    "rva": 1150200,
+    "size": 296,
+    "section": ".bss",
+    "whole_data_compared": true,
+    "initialization": "Static POD zero initialization; no dynamic CRT initializer emitted.",
+    "writers": "GetStatistics copies full first active statistics and aggregates subsequent active systems. With none active, original prior sum is returned unchanged."
+  },
+  "local_sentinel": {
+    "rva": 1042404,
+    "size": 16,
+    "complete_source_section_compared": true
+  },
+  "crt_initializers": [],
+  "lifetime": [
+    "AssignPlayerIDToRemoteSystemList reinitializes an existing full RemoteSystem: actual RPCMap::Clear, accepted Reliability Reset/SetEncryptionKey, actual newly supplied setters, and whole BitStream Reset.",
+    "OrderedList owns real PlayerIDAndIndex10 elements; actual growth/move helpers all selected.",
+    "RPCMap AddIdentifier allocates whole6-byte RPCNode, not callable body; no RPC callbacks invoked or counted.",
+    "RPCMap GetNodeFromFunctionName11 remains excluded: no original caller identified, homologous to GetNodeFromIndex.",
+    "ConstructorRPCMap51630/18 and AddIdentifier516B0/43 are actual complete methods; dtor516E0/5 targets actualClear51650."
+  ],
+  "accepted_providers": [
+    {
+      "symbol": "??3@YAXPAX@Z",
+      "rva": 812170,
+      "kind": "crt",
+      "existing_boundary": true
+    },
+    {
+      "symbol": "??2@YAPAXI@Z",
+      "rva": 811642,
+      "kind": "crt",
+      "existing_boundary": true
+    },
+    {
+      "symbol": "??8PlayerID@@QBE_NABU0@@Z",
+      "rva": 210656,
+      "accepted_regions": [
+        {
+          "unit": "closure_vendor_network_id_comparisons",
+          "size": 33
+        }
+      ]
+    },
+    {
+      "symbol": "??MPlayerID@@QBE_NABU0@@Z",
+      "rva": 210800,
+      "accepted_regions": [
+        {
+          "unit": "closure_vendor_network_id_comparisons",
+          "size": 40
+        }
+      ]
+    },
+    {
+      "symbol": "??0BitStream@RakNet@@QAE@PAEI_N@Z",
+      "rva": 128960,
+      "accepted_regions": [
+        {
+          "unit": "closure_cmd_bitstream",
+          "size": 127
+        }
+      ]
+    },
+    {
+      "symbol": "?ReadBits@BitStream@RakNet@@QAE_NPAEH_N@Z",
+      "rva": 129456,
+      "accepted_regions": [
+        {
+          "unit": "closure_cmd_bitstream",
+          "size": 185
+        }
+      ]
+    },
+    {
+      "symbol": "?SetWriteOffset@BitStream@RakNet@@QAEXH@Z",
+      "rva": 130304,
+      "accepted_regions": [
+        {
+          "unit": "closure_cmd_bitstream",
+          "size": 9
+        }
+      ]
+    },
+    {
+      "symbol": "?WriteBits@BitStream@RakNet@@QAEXPBEH_N@Z",
+      "rva": 131040,
+      "accepted_regions": [
+        {
+          "unit": "closure_cmd_bitstream",
+          "size": 163
+        }
+      ]
+    },
+    {
+      "symbol": "??1BitStream@RakNet@@QAE@XZ",
+      "rva": 129232,
+      "accepted_regions": [
+        {
+          "unit": "closure_cmd_bitstream",
+          "size": 27
+        }
+      ]
+    },
+    {
+      "symbol": "?GetTime@RakNet@@YAIXZ",
+      "rva": 190448,
+      "accepted_regions": [
+        {
+          "unit": "closure_raknet_time",
+          "size": 86
+        }
+      ]
+    },
+    {
+      "symbol": "?SetEncryptionKey@ReliabilityLayer@@QAEXPBE@Z",
+      "rva": 277664,
+      "accepted_regions": [
+        {
+          "unit": "closure_vendor_reliability_packet_family",
+          "size": 31
+        }
+      ]
+    },
+    {
+      "symbol": "?Reset@BitStream@RakNet@@QAEXXZ",
+      "rva": 129264,
+      "accepted_regions": [
+        {
+          "unit": "closure_cmd_bitstream",
+          "size": 14
+        }
+      ]
+    },
+    {
+      "symbol": "?Reset@ReliabilityLayer@@QAEX_N@Z",
+      "rva": 303856,
+      "accepted_regions": [
+        {
+          "unit": "closure_vendor_reliability_lifecycle",
+          "size": 29
+        }
+      ]
+    },
+    {
+      "symbol": "_memmove",
+      "rva": 814560,
+      "kind": "crt",
+      "existing_boundary": true
+    },
+    {
+      "symbol": "?GetStatistics@ReliabilityLayer@@QAEQAURakNetStatisticsStruct@@_N@Z",
+      "rva": 293328,
+      "accepted_regions": [
+        {
+          "unit": "closure_vendor_reliability_packet_family",
+          "size": 320
+        }
+      ]
+    },
+    {
+      "symbol": "??9PlayerID@@QBE_NABU0@@Z",
+      "rva": 210704,
+      "accepted_regions": [
+        {
+          "unit": "closure_vendor_network_id_comparisons",
+          "size": 33
+        }
+      ]
+    },
+    {
+      "symbol": "___CxxFrameHandler",
+      "rva": 812326,
+      "kind": "crt",
+      "existing_boundary": true
+    }
+  ],
+  "source_snapshots": [
+    {
+      "path": "build/cp32-remote-state-trial1/vendor/upstream/raknet/RakPeer.h",
+      "sha256": "3c462fd303bd7a7becc91f1b4e2752cff3656a2eec2a65afc0c15816c0902d75",
+      "same_active_source": true
+    },
+    {
+      "path": "build/cp32-remote-state-trial1/vendor/upstream/raknet/RakNetDefines.h",
+      "sha256": "6455724f22403506da42e67a96d4e8f76fb5502770844f32396cf39b4f8d47a1",
+      "same_active_source": true
+    },
+    {
+      "path": "build/cp32-remote-state-trial1/vendor/upstream/raknet/ReliabilityLayer.h",
+      "sha256": "39084418637b0154f56610ef2ca6f5cff2a45a00fdc4f0dfc195c9848a266e4c",
+      "same_active_source": true
+    },
+    {
+      "path": "build/cp32-remote-state-trial1/vendor/upstream/raknet/RPCMap.cpp",
+      "sha256": "24855eece86f4583c057883b5286c84f9585f56bb2f42a6b719f177a904edaae",
+      "same_active_source": true
+    },
+    {
+      "path": "build/cp32-remote-state-trial1/vendor/upstream/raknet/RPCMap.h",
+      "sha256": "992dac901440fdc00c1455027e95d06d65068c3adcbcd66bb286c515755d4596",
+      "same_active_source": true
+    },
+    {
+      "path": "build/cp32-remote-state-trial1/vendor/upstream/raknet/RPCNode.h",
+      "sha256": "47f7f16f7c7a8da4259cc96a49e90ac121872affdd10f1ca8b9f240309e53dc3",
+      "same_active_source": true
+    },
+    {
+      "path": "build/cp32-remote-state-trial1/vendor/upstream/raknet/RakNetStatistics.h",
+      "sha256": "dc48933d1e120c2aa20ceeeea520fc6f287db70c7d4539371e6fb1f6bcf21f59",
+      "same_active_source": true
+    },
+    {
+      "path": "build/cp32-remote-state-trial1/vendor/upstream/raknet/DS_OrderedList.h",
+      "sha256": "4862eaa08ef54cfdfc20962c6471cebc56c72744f7fb19ff5f843f569af984b3",
+      "same_active_source": true
+    },
+    {
+      "path": "build/cp32-remote-state-trial1/vendor/upstream/raknet/DS_List.h",
+      "sha256": "df6db1ef4a708bb13960db54f641c6ee0d90d2bbafe1520d67959f5db282a97e",
+      "same_active_source": true
+    },
+    {
+      "path": "build/cp32-remote-state-trial1/client/saco/eval_vendor_rpc_map.cpp",
+      "sha256": "996765b3b91cf8f7e95bf63a21b4c4ad70ee7d53f58666229de1e2a13a9489bc",
+      "same_active_source": true
+    },
+    {
+      "path": "build/cp32-remote-state-trial1/client/saco/eval_vendor_reliability_remote_settings.cpp",
+      "sha256": "a133a2f823c355da602d17a288caf77b324f1b27f053f8821d32c8cab6989aab",
+      "same_active_source": true
+    },
+    {
+      "path": "build/cp32-remote-state-trial1/client/saco/eval_vendor_rakpeer_remote_state.cpp",
+      "sha256": "e9911b3771d51f561e109f3fe6d6758e027278bd77f683dd29d09a14ef49b88a",
+      "same_active_source": true
+    }
+  ],
+  "source025_direct_credit": 0,
+  "unselected_accepted_code_copies": []
+}

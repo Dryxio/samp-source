@@ -1,0 +1,238 @@
+{
+  "status": "SOURCE_PROPOSAL_NOT_COMPILED_NOT_ACCEPTED",
+  "baseline": 377473,
+  "baseline_proof": "evidence/checkpoint32/rsa-commands-acceptance.json",
+  "source025_direct_credit": 0,
+  "source_paths": [
+    "build/agent-independent/eval_vendor_rakpeer_remote_state.cpp",
+    "build/agent-independent/eval_vendor_reliability_remote_settings.cpp",
+    "build/agent-independent/eval_vendor_rpc_map.cpp"
+  ],
+  "old_unambiguous_roots": [
+    {
+      "symbol": "?GetConnectionList@RakPeer@@UBE_NPAUPlayerID@@PAG@Z",
+      "rva": 230608,
+      "size": 213,
+      "potential": 0
+    },
+    {
+      "symbol": "?GetPlayerIDFromIndex@RakPeer@@UAE?AUPlayerID@@H@Z",
+      "rva": 231008,
+      "size": 93,
+      "potential": 93
+    },
+    {
+      "symbol": "?GetAnyPlayerIDFromIndex@RakPeer@@QAE?AUPlayerID@@H@Z",
+      "rva": 231104,
+      "size": 83,
+      "potential": 83
+    },
+    {
+      "symbol": "?GetExternalID@RakPeer@@UBE?AUPlayerID@@U2@@Z",
+      "rva": 231328,
+      "size": 191,
+      "potential": 191
+    },
+    {
+      "symbol": "?GetNumberOfRemoteInitiatedConnections@RakPeer@@IBEGXZ",
+      "rva": 232672,
+      "size": 80,
+      "potential": 0
+    },
+    {
+      "symbol": "?AllowIncomingConnections@RakPeer@@IBE_NXZ",
+      "rva": 233168,
+      "size": 29,
+      "potential": 29
+    },
+    {
+      "symbol": "?ValidSendTarget@RakPeer@@IAE_NUPlayerID@@_N@Z",
+      "rva": 233200,
+      "size": 118,
+      "potential": 118
+    },
+    {
+      "symbol": "?GetIndexFromKey@?$OrderedList@UPlayerID@@UPlayerIDAndIndex@@$1?PlayerIDAndIndexComp@@YAHABU1@ABU2@@Z@DataStructures@@QBEIABUPlayerID@@PA_N@Z",
+      "rva": 241984,
+      "size": 152,
+      "potential": 152
+    },
+    {
+      "symbol": "?GetIndexFromPlayerID@RakPeer@@IAEHUPlayerID@@_N@Z",
+      "rva": 247600,
+      "size": 161,
+      "potential": 161
+    },
+    {
+      "symbol": "?GetRemoteSystemFromPlayerID@RakPeer@@IBEPAURemoteSystemStruct@1@UPlayerID@@_N1@Z",
+      "rva": 247776,
+      "size": 254,
+      "potential": 254
+    },
+    {
+      "symbol": "?GetBestClockDifferential@RakPeer@@IBEIUPlayerID@@@Z",
+      "rva": 248032,
+      "size": 103,
+      "potential": 103
+    },
+    {
+      "symbol": "?Insert@?$OrderedList@UPlayerID@@UPlayerIDAndIndex@@$1?PlayerIDAndIndexComp@@YAHABU1@ABU2@@Z@DataStructures@@QAEIABUPlayerID@@ABUPlayerIDAndIndex@@@Z",
+      "rva": 249040,
+      "size": 131,
+      "potential": 131
+    },
+    {
+      "symbol": "?GetAveragePing@RakPeer@@UAEHUPlayerID@@@Z",
+      "rva": 254800,
+      "size": 90,
+      "potential": 90
+    },
+    {
+      "symbol": "?GetLastPing@RakPeer@@UBEHUPlayerID@@@Z",
+      "rva": 254896,
+      "size": 73,
+      "potential": 73
+    },
+    {
+      "symbol": "?GetLowestPing@RakPeer@@UBEHUPlayerID@@@Z",
+      "rva": 254976,
+      "size": 49,
+      "potential": 49
+    },
+    {
+      "symbol": "?SetTimeoutTime@RakPeer@@UAEXIUPlayerID@@@Z",
+      "rva": 255264,
+      "size": 49,
+      "potential": 49
+    },
+    {
+      "symbol": "?GetStatistics@RakPeer@@UAEQAURakNetStatisticsStruct@@UPlayerID@@@Z",
+      "rva": 255424,
+      "size": 212,
+      "potential": 212
+    },
+    {
+      "symbol": "?AssignPlayerIDToRemoteSystemList@RakPeer@@IAEPAURemoteSystemStruct@1@UPlayerID@@W4ConnectMode@21@@Z",
+      "rva": 256592,
+      "size": 352,
+      "potential": 352
+    },
+    {
+      "symbol": "?ShiftIncomingTimestamp@RakPeer@@IBEXPAEUPlayerID@@@Z",
+      "rva": 256944,
+      "size": 198,
+      "potential": 198
+    }
+  ],
+  "unique_old_roots": 2338,
+  "other_expected_code": [
+    "RakNetStatisticsStruct::operator+=569 at38060",
+    "OrderedList<PlayerID,PlayerIDAndIndex> lookup/insert helpers and comparator382A0",
+    "RPCMap complete1024, RPCNode complete6 with actual owned allocations",
+    "3 actual Reliability setters; remaining Reset/SetEncryptionKey/GetStatistics providers alreadyaccepted"
+  ],
+  "scope": [
+    "No allocation of RakPeer/RemoteSystem, source complete real headers unchanged.",
+    "Assignment reinitializes existing RemoteSystem and owns no external virtual instance.",
+    "GetStatistics owns real static POD sum of whole RakNetStatisticsStruct296, initializer status to verify.",
+    "Source original order and overload definitions preserved.",
+    "No sockets/network operations executed."
+  ],
+  "extractions": [
+    {
+      "source": "vendor/upstream/raknet/RakPeer.cpp",
+      "line": 74,
+      "sha256": "3326ab7195d08e0ea10629f9c09d7f304a2bf9703d2cb934eb3c1a2760cd874b"
+    },
+    {
+      "source": "vendor/upstream/raknet/RakPeer.cpp",
+      "line": 784,
+      "sha256": "6d15bec3be4fc5c4ee0d014599d049ee69da6fc27bc28a575ca28adb91b6d11e"
+    },
+    {
+      "source": "vendor/upstream/raknet/RakPeer.cpp",
+      "line": 1298,
+      "sha256": "6004ffedbbcf8831980e0f4f343ef47034c233604bfc98857e4f93328dd30bd5"
+    },
+    {
+      "source": "vendor/upstream/raknet/RakPeer.cpp",
+      "line": 1313,
+      "sha256": "eb7f6e1497471bbe947788adf674c35d6f0eaa733590384ad82285433fb2bbc0"
+    },
+    {
+      "source": "vendor/upstream/raknet/RakPeer.cpp",
+      "line": 1326,
+      "sha256": "4ca7cefb41d4b56b6ba8e11641989d85a99a60f9b99845a5f11291cee5a29417"
+    },
+    {
+      "source": "vendor/upstream/raknet/RakPeer.cpp",
+      "line": 1615,
+      "sha256": "79c9ebd2792fd838ec5a9018072929b6251bdfce5ed83389de2f2f58b63ed6da"
+    },
+    {
+      "source": "vendor/upstream/raknet/RakPeer.cpp",
+      "line": 1644,
+      "sha256": "0681d7091c034a8b05df0568909323b61dfbf24756f2576bdfb3b2d22cd71e5b"
+    },
+    {
+      "source": "vendor/upstream/raknet/RakPeer.cpp",
+      "line": 1664,
+      "sha256": "7e6b7f34b0068a71ea386ed3f9f611878f31b6dfd86b244e13d8f5b9710936c4"
+    },
+    {
+      "source": "vendor/upstream/raknet/RakPeer.cpp",
+      "line": 1796,
+      "sha256": "433181a182ca8d59195bab1097e8b4084b10ea62ddb08f76c0ae832e914dab53"
+    },
+    {
+      "source": "vendor/upstream/raknet/RakPeer.cpp",
+      "line": 1822,
+      "sha256": "d90aaff057f801baa93e00aea5a546e41c430e0e2bbb0fb4dcd8cba02f75d782"
+    },
+    {
+      "source": "vendor/upstream/raknet/RakPeer.cpp",
+      "line": 2339,
+      "sha256": "b179606ea5018c6f9f5b3747aff390338f5ffd81870288ba7a3b936c7f00de04"
+    },
+    {
+      "source": "vendor/upstream/raknet/RakPeer.cpp",
+      "line": 2397,
+      "sha256": "9856521f521390ac43c97d3a7d0f1395fb83310e25cc76aa7749b2483169af88"
+    },
+    {
+      "source": "vendor/upstream/raknet/RakPeer.cpp",
+      "line": 2471,
+      "sha256": "cc732815b34b057629a85b958f55037cbb67aec300db8f070b0582f748fce7e6"
+    },
+    {
+      "source": "vendor/upstream/raknet/RakPeer.cpp",
+      "line": 2647,
+      "sha256": "a678d4e35b5e95b89dd722e049ec9c0d3db9c702175590f10af352bcc06ee9fe"
+    },
+    {
+      "source": "vendor/upstream/raknet/RakPeer.cpp",
+      "line": 2668,
+      "sha256": "2aae9e96cd26f339ddcc206279f32efec27a03451ada883e1d5718c245cc14f4"
+    },
+    {
+      "source": "vendor/upstream/raknet/RakPeer.cpp",
+      "line": 2731,
+      "sha256": "6c5d7647c02e4772e0f3f992f785dee14c6de6e916c8920357f88a4f235376aa"
+    },
+    {
+      "source": "vendor/upstream/raknet/RakPeer.cpp",
+      "line": 2749,
+      "sha256": "2cce4d66141d4207eaf82613cd92f289f04cb638e17caa5405674315c7e75961"
+    },
+    {
+      "source": "vendor/upstream/raknet/RakPeer.cpp",
+      "line": 3113,
+      "sha256": "b2379a61c24572d1897881086e9aad6d7fcdc13884e4cc97d8fd049215b3d609"
+    },
+    {
+      "source": "vendor/upstream/raknet/RakPeer.cpp",
+      "line": 3225,
+      "sha256": "c08ce530a638eab9944f8682496d712089d42597a3dad2041dd3580f745edb2a"
+    }
+  ]
+}
