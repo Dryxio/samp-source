@@ -4,7 +4,7 @@
 
 int				iGtaVersion=0;
 
-GAME_SETTINGS			tSettings;
+extern GAME_SETTINGS		tSettings;
 
 CHAR					szArtworkProxy[MAX_PATH+1];
 CHAR					szConfigFile[MAX_PATH+1];

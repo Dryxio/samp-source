@@ -1486,3 +1486,8 @@ Direct0250/cumulative21988. 186987 new unique bytes since parallel start, 15144.
 RSA11013/RakNetCommandParser5090, commands1032 and ANSI201/ctor9 accepted: +17345 unique code bytes, total 377473/930756 (40.555527%). Entire source/data/EH, all actual targets and COFF/PE, true VFT/weak alias, pinned CRT wrappers and whole locale archive12, ten controls and Actor ABI pass. One positive/seven negative CRTdata controls. Duplicate FindPlayerPed/EH and prior RSA1833 excluded from gain. Three real SCRIPT_COMMAND18 objects stored independently, no typed slicing. No data/CRT/fake-storage or virtual concrete-implementation credit.
 
 Direct025+280/cumulative22268, verified entire Weather/Time/Interior definitions; Save/Raw adapted with zero direct credit. 204332 new unique bytes since parallel start, 16026.7 bytes/hour coordination/failures included. Chat descendants and font startup remain outside coverage. Goal active; no push/deploy.
+
+
+RakPeer policy/mutex2112, UI/Rcon/Skin/CreateVehicle1556 and NewVehicle163: +3831 unique accepted code bytes, total381304/930756 (40.967128%).128 new complete regions and all4669 prior preserved. Whole typed settings1297 transferred, two bool stores verified; complete CVehicle184 allocation and existing constructor. Full original/linked COFF/PE, true providers/aliases/duplicate owners, ten negative controls and Actor ABI PASS. No duplicate/data/CRT or unimplemented dependency credit.
+
+Direct025+0/cumulative22268; adapted commands/factory are hybrid, vendor already in base. 208163 newunique bytes since parallel start, 15855.6 bytes/hour including coordination and failed trials. Remote-state trial compiled; goal active. No push or deployment.

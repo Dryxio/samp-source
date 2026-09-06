@@ -1,0 +1,141 @@
+{
+  "status": "WHOLE_VEHICLE_FACTORY142_EH21_DATA36_PREFLIGHT_PASS",
+  "regions": [
+    {
+      "unit": "closure_game_new_vehicle",
+      "anchor": "?NewVehicle@R5GameVehicleCreationView@@QAEPAVCVehicle@@HMMMMH@Z",
+      "section": 46,
+      "rva": 655952,
+      "size": 142,
+      "kind": "code",
+      "sha256": "21b4cc0bdc48d941fb832f8ffc35b30d5c3137df8bc10ba2604be2815563fba3",
+      "object_sha256": "4bc0b6e8b4dbdddaa911ebb52c717eef45620e7a6b9c3ec913cebd5e9b31cd87",
+      "bindings": [
+        {
+          "symbol": "__except_list",
+          "site_rva": 655954,
+          "kind": 6,
+          "target_va": 0,
+          "symbol_va": 0,
+          "addend": 0
+        },
+        {
+          "symbol": "__ehhandler$?NewVehicle@R5GameVehicleCreationView@@QAEPAVCVehicle@@HMMMMH@Z",
+          "site_rva": 655961,
+          "kind": 6,
+          "target_va": 269368923,
+          "symbol_va": 269368923,
+          "addend": 0
+        },
+        {
+          "symbol": "__except_list",
+          "site_rva": 655969,
+          "kind": 6,
+          "target_va": 0,
+          "symbol_va": 0,
+          "addend": 0
+        },
+        {
+          "symbol": "??2@YAPAXI@Z",
+          "site_rva": 656003,
+          "kind": 20,
+          "target_va": 269247098,
+          "symbol_va": 269247098,
+          "addend": 0
+        },
+        {
+          "symbol": "??0CVehicle@@QAE@HMMMMHH@Z",
+          "site_rva": 656056,
+          "kind": 20,
+          "target_va": 269190096,
+          "symbol_va": 269190096,
+          "addend": 0
+        },
+        {
+          "symbol": "__except_list",
+          "site_rva": 656083,
+          "kind": 6,
+          "target_va": 0,
+          "symbol_va": 0,
+          "addend": 0
+        }
+      ]
+    },
+    {
+      "unit": "closure_game_new_vehicle",
+      "anchor": "$L95041",
+      "section": 47,
+      "rva": 933456,
+      "size": 21,
+      "kind": "code",
+      "sha256": "707c48e1267947f00f60544be07ecee7f574566d86081682d428a2ac9ed5ed38",
+      "object_sha256": "4bc0b6e8b4dbdddaa911ebb52c717eef45620e7a6b9c3ec913cebd5e9b31cd87",
+      "bindings": [
+        {
+          "symbol": "??3@YAXPAX@Z",
+          "site_rva": 933461,
+          "kind": 20,
+          "target_va": 269247626,
+          "symbol_va": 269247626,
+          "addend": 0
+        },
+        {
+          "symbol": "$T95045",
+          "site_rva": 933468,
+          "kind": 6,
+          "target_va": 269467028,
+          "symbol_va": 269467028,
+          "addend": 0
+        },
+        {
+          "symbol": "___CxxFrameHandler",
+          "site_rva": 933473,
+          "kind": 20,
+          "target_va": 269247782,
+          "symbol_va": 269247782,
+          "addend": 0
+        }
+      ]
+    },
+    {
+      "unit": "closure_game_new_vehicle",
+      "anchor": "$T95045",
+      "section": 48,
+      "rva": 1031564,
+      "size": 36,
+      "kind": "data",
+      "sha256": "927b80d9189e050b8f47d27552a8320a48f12fab34794094ba6421d20bbbcb5d",
+      "object_sha256": "4bc0b6e8b4dbdddaa911ebb52c717eef45620e7a6b9c3ec913cebd5e9b31cd87",
+      "bindings": [
+        {
+          "symbol": "$L95041",
+          "site_rva": 1031568,
+          "kind": 6,
+          "target_va": 269368912,
+          "symbol_va": 269368912,
+          "addend": 0
+        },
+        {
+          "symbol": "$T95051",
+          "site_rva": 1031580,
+          "kind": 6,
+          "target_va": 269467020,
+          "symbol_va": 269467020,
+          "addend": 0
+        }
+      ]
+    }
+  ],
+  "expected_new_code": 163,
+  "source025_direct": 0,
+  "source025_role": "Adapted real NewVehicle model-lifetime logic; R5 adds creationFlag and native-handle result filtering, so no direct025 credit.",
+  "allocation": "Actual complete CVehicle184, verified static assertion and already accepted constructor1308. CGame pointer-only view never allocated.",
+  "state": "Real this+6E+(model-400) keep-loaded byte;212 vehicle-model slots inherited from source and R5 offset. No extra validation/null guard or cleanup added.",
+  "providers": {
+    "__except_list": 0,
+    "??2@YAPAXI@Z": 269247098,
+    "??3@YAXPAX@Z": 269247626,
+    "??0CVehicle@@QAE@HMMMMHH@Z": 269190096,
+    "___CxxFrameHandler": 269247782
+  }
+}

@@ -1,0 +1,2206 @@
+{
+  "status": "PASS_FULL_CODE_DATA_RELOCATIONS",
+  "run": "cp32-policy-ui-ob1",
+  "baseline": 377473,
+  "new_unique_code": 1556,
+  "principal_code": 1535,
+  "new_EH": 21,
+  "source025_direct": 0,
+  "duplicate_code_per_unit": 115,
+  "duplicate_data_per_unit": 36,
+  "regions": [
+    {
+      "unit": "closure_cmd_ui_settings",
+      "anchor": "?cmdCameraTargetDebug@@YAXPAD@Z",
+      "anchor_offset": 0,
+      "rva": 427488,
+      "size": 16,
+      "section": 51,
+      "kind": "code",
+      "duplicate_previous": false,
+      "bindings": [
+        {
+          "symbol": "?r5ShowCameraTarget@@3_NA",
+          "site_rva": 427489,
+          "symbol_va": 269584808,
+          "addend": 0,
+          "target_va": 269584808,
+          "kind": 6
+        },
+        {
+          "symbol": "?r5ShowCameraTarget@@3_NA",
+          "site_rva": 427499,
+          "symbol_va": 269584808,
+          "addend": 0,
+          "target_va": 269584808,
+          "kind": 6
+        }
+      ],
+      "sha256": "cad8cc45befd94618ae93af2eb689efc4bf01222e5f5baa6d41ad43735b1433b",
+      "object_sha256": "48071d75f826df745c338cfbce396953b528811acb418b54e2970e6d701efc59",
+      "whole_section": true
+    },
+    {
+      "unit": "closure_cmd_ui_settings",
+      "anchor": "?cmdPageSize@@YAXPAD@Z",
+      "anchor_offset": 0,
+      "rva": 427504,
+      "size": 120,
+      "section": 55,
+      "kind": "code",
+      "duplicate_previous": false,
+      "bindings": [
+        {
+          "symbol": "_atoi",
+          "site_rva": 427537,
+          "symbol_va": 269249830,
+          "addend": 0,
+          "target_va": 269249830,
+          "kind": 20
+        },
+        {
+          "symbol": "?pChatWindow@@3PAVCChatWindow@@A",
+          "site_rva": 427558,
+          "symbol_va": 270986112,
+          "addend": 0,
+          "target_va": 270986112,
+          "kind": 6
+        },
+        {
+          "symbol": "?SetPageSize@R5ChatPagingView@@QAEXH@Z",
+          "site_rva": 427568,
+          "symbol_va": 268858016,
+          "addend": 0,
+          "target_va": 268858016,
+          "kind": 20
+        },
+        {
+          "symbol": "?pConfig@@3PAVCConfig@@A",
+          "site_rva": 427574,
+          "symbol_va": 270986108,
+          "addend": 0,
+          "target_va": 270986108,
+          "kind": 6
+        },
+        {
+          "symbol": "??_C@_08FKIMDENB@pagesize?$AA@",
+          "site_rva": 427586,
+          "symbol_va": 269393436,
+          "addend": 0,
+          "target_va": 269393436,
+          "kind": 6
+        },
+        {
+          "symbol": "?SetIntVariable@CConfig@@QAEHPADHH@Z",
+          "site_rva": 427591,
+          "symbol_va": 268853376,
+          "addend": 0,
+          "target_va": 268853376,
+          "kind": 20
+        },
+        {
+          "symbol": "?pChatWindow@@3PAVCChatWindow@@A",
+          "site_rva": 427599,
+          "symbol_va": 270986112,
+          "addend": 0,
+          "target_va": 270986112,
+          "kind": 6
+        },
+        {
+          "symbol": "??_C@_0BJ@BPKLHBMN@pagesize?5?$FL10?920?$FN?5?$CIlines?$CJ?$AA@",
+          "site_rva": 427608,
+          "symbol_va": 269393408,
+          "addend": 0,
+          "target_va": 269393408,
+          "kind": 6
+        },
+        {
+          "symbol": "?AddDebugMessage@CChatWindow@@QAAXPADZZ",
+          "site_rva": 427614,
+          "symbol_va": 268861680,
+          "addend": 0,
+          "target_va": 268861680,
+          "kind": 20
+        }
+      ],
+      "sha256": "155e10d83cfe40d27460e89f47d901b949e5e41016eb97d673347f5b75a5aabd",
+      "object_sha256": "48071d75f826df745c338cfbce396953b528811acb418b54e2970e6d701efc59",
+      "whole_section": true
+    },
+    {
+      "unit": "closure_cmd_ui_settings",
+      "anchor": "?cmdNameTagStatus@@YAXPAD@Z",
+      "anchor_offset": 0,
+      "rva": 427808,
+      "size": 16,
+      "section": 53,
+      "kind": "code",
+      "duplicate_previous": false,
+      "bindings": [
+        {
+          "symbol": "?pNetGame@@3PAVCNetGame@@A",
+          "site_rva": 427810,
+          "symbol_va": 270986132,
+          "addend": 0,
+          "target_va": 270986132,
+          "kind": 6
+        },
+        {
+          "symbol": "?TogglePlayerStatus@R5NetworkNameTagStatusView@@QAEXXZ",
+          "site_rva": 427819,
+          "symbol_va": 268471952,
+          "addend": 0,
+          "target_va": 268471952,
+          "kind": 20
+        }
+      ],
+      "sha256": "f361069edd405ba7e4c89e76fedfd65d90a8e12e03f6387b95039918e720a575",
+      "object_sha256": "48071d75f826df745c338cfbce396953b528811acb418b54e2970e6d701efc59",
+      "whole_section": true
+    },
+    {
+      "unit": "closure_cmd_ui_settings",
+      "anchor": "?cmdTimestamp@@YAXPAD@Z",
+      "anchor_offset": 0,
+      "rva": 427824,
+      "size": 93,
+      "section": 59,
+      "kind": "code",
+      "duplicate_previous": false,
+      "bindings": [
+        {
+          "symbol": "?pChatWindow@@3PAVCChatWindow@@A",
+          "site_rva": 427825,
+          "symbol_va": 270986112,
+          "addend": 0,
+          "target_va": 270986112,
+          "kind": 6
+        },
+        {
+          "symbol": "?pConfig@@3PAVCConfig@@A",
+          "site_rva": 427856,
+          "symbol_va": 270986108,
+          "addend": 0,
+          "target_va": 270986108,
+          "kind": 6
+        },
+        {
+          "symbol": "??_C@_09OMDJNLDP@timestamp?$AA@",
+          "site_rva": 427869,
+          "symbol_va": 269393484,
+          "addend": 0,
+          "target_va": 269393484,
+          "kind": 6
+        },
+        {
+          "symbol": "?SetIntVariable@CConfig@@QAEHPADHH@Z",
+          "site_rva": 427874,
+          "symbol_va": 268853376,
+          "addend": 0,
+          "target_va": 268853376,
+          "kind": 20
+        },
+        {
+          "symbol": "?pConfig@@3PAVCConfig@@A",
+          "site_rva": 427895,
+          "symbol_va": 270986108,
+          "addend": 0,
+          "target_va": 270986108,
+          "kind": 6
+        },
+        {
+          "symbol": "??_C@_09OMDJNLDP@timestamp?$AA@",
+          "site_rva": 427907,
+          "symbol_va": 269393484,
+          "addend": 0,
+          "target_va": 269393484,
+          "kind": 6
+        },
+        {
+          "symbol": "?SetIntVariable@CConfig@@QAEHPADHH@Z",
+          "site_rva": 427912,
+          "symbol_va": 268853376,
+          "addend": 0,
+          "target_va": 268853376,
+          "kind": 20
+        }
+      ],
+      "sha256": "755076d5d40bb700d37380aa64797ef5048a0f0e92170d9d28c3d7c864014dea",
+      "object_sha256": "48071d75f826df745c338cfbce396953b528811acb418b54e2970e6d701efc59",
+      "whole_section": true
+    },
+    {
+      "unit": "closure_cmd_ui_settings",
+      "anchor": "?cmdAudioMsg@@YAXPAD@Z",
+      "anchor_offset": 0,
+      "rva": 427920,
+      "size": 101,
+      "section": 62,
+      "kind": "code",
+      "duplicate_previous": false,
+      "bindings": [
+        {
+          "symbol": "?pConfig@@3PAVCConfig@@A",
+          "site_rva": 427922,
+          "symbol_va": 270986108,
+          "addend": 0,
+          "target_va": 270986108,
+          "kind": 6
+        },
+        {
+          "symbol": "??_C@_0M@MJNCKDFF@audiomsgoff?$AA@",
+          "site_rva": 427927,
+          "symbol_va": 269392912,
+          "addend": 0,
+          "target_va": 269392912,
+          "kind": 6
+        },
+        {
+          "symbol": "?GetIntVariable@CConfig@@QAEHPAD@Z",
+          "site_rva": 427932,
+          "symbol_va": 268852752,
+          "addend": 0,
+          "target_va": 268852752,
+          "kind": 20
+        },
+        {
+          "symbol": "?pConfig@@3PAVCConfig@@A",
+          "site_rva": 427941,
+          "symbol_va": 270986108,
+          "addend": 0,
+          "target_va": 270986108,
+          "kind": 6
+        },
+        {
+          "symbol": "??_C@_0M@MJNCKDFF@audiomsgoff?$AA@",
+          "site_rva": 427952,
+          "symbol_va": 269392912,
+          "addend": 0,
+          "target_va": 269392912,
+          "kind": 6
+        },
+        {
+          "symbol": "?SetIntVariable@CConfig@@QAEHPADHH@Z",
+          "site_rva": 427957,
+          "symbol_va": 268853376,
+          "addend": 0,
+          "target_va": 268853376,
+          "kind": 20
+        },
+        {
+          "symbol": "?pChatWindow@@3PAVCChatWindow@@A",
+          "site_rva": 427962,
+          "symbol_va": 270986112,
+          "addend": 0,
+          "target_va": 270986112,
+          "kind": 6
+        },
+        {
+          "symbol": "??_C@_0BD@CAAPKKIF@Audio?5messages?3?5On?$AA@",
+          "site_rva": 427971,
+          "symbol_va": 269393516,
+          "addend": 0,
+          "target_va": 269393516,
+          "kind": 6
+        },
+        {
+          "symbol": "?AddInfoMessage@R5ChatInfoView@@QAAXPADZZ",
+          "site_rva": 427977,
+          "symbol_va": 268861552,
+          "addend": 0,
+          "target_va": 268861552,
+          "kind": 20
+        },
+        {
+          "symbol": "??_C@_0M@MJNCKDFF@audiomsgoff?$AA@",
+          "site_rva": 427988,
+          "symbol_va": 269392912,
+          "addend": 0,
+          "target_va": 269392912,
+          "kind": 6
+        },
+        {
+          "symbol": "?SetIntVariable@CConfig@@QAEHPADHH@Z",
+          "site_rva": 427993,
+          "symbol_va": 268853376,
+          "addend": 0,
+          "target_va": 268853376,
+          "kind": 20
+        },
+        {
+          "symbol": "?pChatWindow@@3PAVCChatWindow@@A",
+          "site_rva": 427998,
+          "symbol_va": 270986112,
+          "addend": 0,
+          "target_va": 270986112,
+          "kind": 6
+        },
+        {
+          "symbol": "??_C@_0BE@KAEGOFJM@Audio?5messages?3?5Off?$AA@",
+          "site_rva": 428007,
+          "symbol_va": 269393496,
+          "addend": 0,
+          "target_va": 269393496,
+          "kind": 6
+        },
+        {
+          "symbol": "?AddInfoMessage@R5ChatInfoView@@QAAXPADZZ",
+          "site_rva": 428013,
+          "symbol_va": 268861552,
+          "addend": 0,
+          "target_va": 268861552,
+          "kind": 20
+        }
+      ],
+      "sha256": "5aaf7e6239695c91467ab1f9987785c3601feddd6b4507b8d631731f4c25744e",
+      "object_sha256": "48071d75f826df745c338cfbce396953b528811acb418b54e2970e6d701efc59",
+      "whole_section": true
+    },
+    {
+      "unit": "closure_cmd_ui_settings",
+      "anchor": "?cmdLogUrls@@YAXPAD@Z",
+      "anchor_offset": 0,
+      "rva": 428032,
+      "size": 101,
+      "section": 67,
+      "kind": "code",
+      "duplicate_previous": false,
+      "bindings": [
+        {
+          "symbol": "?pConfig@@3PAVCConfig@@A",
+          "site_rva": 428034,
+          "symbol_va": 270986108,
+          "addend": 0,
+          "target_va": 270986108,
+          "kind": 6
+        },
+        {
+          "symbol": "??_C@_07MAENIJFF@logurls?$AA@",
+          "site_rva": 428039,
+          "symbol_va": 269376552,
+          "addend": 0,
+          "target_va": 269376552,
+          "kind": 6
+        },
+        {
+          "symbol": "?GetIntVariable@CConfig@@QAEHPAD@Z",
+          "site_rva": 428044,
+          "symbol_va": 268852752,
+          "addend": 0,
+          "target_va": 268852752,
+          "kind": 20
+        },
+        {
+          "symbol": "?pConfig@@3PAVCConfig@@A",
+          "site_rva": 428053,
+          "symbol_va": 270986108,
+          "addend": 0,
+          "target_va": 270986108,
+          "kind": 6
+        },
+        {
+          "symbol": "??_C@_07MAENIJFF@logurls?$AA@",
+          "site_rva": 428064,
+          "symbol_va": 269376552,
+          "addend": 0,
+          "target_va": 269376552,
+          "kind": 6
+        },
+        {
+          "symbol": "?SetIntVariable@CConfig@@QAEHPADHH@Z",
+          "site_rva": 428069,
+          "symbol_va": 268853376,
+          "addend": 0,
+          "target_va": 268853376,
+          "kind": 20
+        },
+        {
+          "symbol": "?pChatWindow@@3PAVCChatWindow@@A",
+          "site_rva": 428074,
+          "symbol_va": 270986112,
+          "addend": 0,
+          "target_va": 270986112,
+          "kind": 6
+        },
+        {
+          "symbol": "??_C@_0BC@PAGLCEFL@URL?5messages?3?5Off?$AA@",
+          "site_rva": 428083,
+          "symbol_va": 269393556,
+          "addend": 0,
+          "target_va": 269393556,
+          "kind": 6
+        },
+        {
+          "symbol": "?AddInfoMessage@R5ChatInfoView@@QAAXPADZZ",
+          "site_rva": 428089,
+          "symbol_va": 268861552,
+          "addend": 0,
+          "target_va": 268861552,
+          "kind": 20
+        },
+        {
+          "symbol": "??_C@_07MAENIJFF@logurls?$AA@",
+          "site_rva": 428100,
+          "symbol_va": 269376552,
+          "addend": 0,
+          "target_va": 269376552,
+          "kind": 6
+        },
+        {
+          "symbol": "?SetIntVariable@CConfig@@QAEHPADHH@Z",
+          "site_rva": 428105,
+          "symbol_va": 268853376,
+          "addend": 0,
+          "target_va": 268853376,
+          "kind": 20
+        },
+        {
+          "symbol": "?pChatWindow@@3PAVCChatWindow@@A",
+          "site_rva": 428110,
+          "symbol_va": 270986112,
+          "addend": 0,
+          "target_va": 270986112,
+          "kind": 6
+        },
+        {
+          "symbol": "??_C@_0BB@ILPFBPF@URL?5messages?3?5On?$AA@",
+          "site_rva": 428119,
+          "symbol_va": 269393536,
+          "addend": 0,
+          "target_va": 269393536,
+          "kind": 6
+        },
+        {
+          "symbol": "?AddInfoMessage@R5ChatInfoView@@QAAXPADZZ",
+          "site_rva": 428125,
+          "symbol_va": 268861552,
+          "addend": 0,
+          "target_va": 268861552,
+          "kind": 20
+        }
+      ],
+      "sha256": "424565c9e86db30117e46491a903a07ecd40d0759a35881bdd17af05c92304f4",
+      "object_sha256": "48071d75f826df745c338cfbce396953b528811acb418b54e2970e6d701efc59",
+      "whole_section": true
+    },
+    {
+      "unit": "closure_cmd_ui_settings",
+      "anchor": "?cmdHudScaleFix@@YAXPAD@Z",
+      "anchor_offset": 0,
+      "rva": 428144,
+      "size": 57,
+      "section": 82,
+      "kind": "code",
+      "duplicate_previous": false,
+      "bindings": [
+        {
+          "symbol": "?bHudScaleFix@@3_NA",
+          "site_rva": 428145,
+          "symbol_va": 269579376,
+          "addend": 0,
+          "target_va": 269579376,
+          "kind": 6
+        },
+        {
+          "symbol": "?pConfig@@3PAVCConfig@@A",
+          "site_rva": 428153,
+          "symbol_va": 270986108,
+          "addend": 0,
+          "target_va": 270986108,
+          "kind": 6
+        },
+        {
+          "symbol": "??_C@_0O@BDGEJADM@nohudscalefix?$AA@",
+          "site_rva": 428164,
+          "symbol_va": 269393576,
+          "addend": 0,
+          "target_va": 269393576,
+          "kind": 6
+        },
+        {
+          "symbol": "?bHudScaleFix@@3_NA",
+          "site_rva": 428170,
+          "symbol_va": 269579376,
+          "addend": 0,
+          "target_va": 269579376,
+          "kind": 6
+        },
+        {
+          "symbol": "?SetIntVariable@CConfig@@QAEHPADHH@Z",
+          "site_rva": 428176,
+          "symbol_va": 268853376,
+          "addend": 0,
+          "target_va": 268853376,
+          "kind": 20
+        },
+        {
+          "symbol": "??_C@_0O@BDGEJADM@nohudscalefix?$AA@",
+          "site_rva": 428184,
+          "symbol_va": 269393576,
+          "addend": 0,
+          "target_va": 269393576,
+          "kind": 6
+        },
+        {
+          "symbol": "?bHudScaleFix@@3_NA",
+          "site_rva": 428190,
+          "symbol_va": 269579376,
+          "addend": 0,
+          "target_va": 269579376,
+          "kind": 6
+        },
+        {
+          "symbol": "?SetIntVariable@CConfig@@QAEHPADHH@Z",
+          "site_rva": 428196,
+          "symbol_va": 268853376,
+          "addend": 0,
+          "target_va": 268853376,
+          "kind": 20
+        }
+      ],
+      "sha256": "237d65b7155cb02267ab9ee999eb73e348d2dc135eb55f0c1188a0462a286ec6",
+      "object_sha256": "48071d75f826df745c338cfbce396953b528811acb418b54e2970e6d701efc59",
+      "whole_section": true
+    },
+    {
+      "unit": "closure_cmd_ui_settings",
+      "anchor": "?cmdMem@@YAXPAD@Z",
+      "anchor_offset": 0,
+      "rva": 428208,
+      "size": 27,
+      "section": 85,
+      "kind": "code",
+      "duplicate_previous": false,
+      "bindings": [
+        {
+          "symbol": "?pChatWindow@@3PAVCChatWindow@@A",
+          "site_rva": 428215,
+          "symbol_va": 270986112,
+          "addend": 0,
+          "target_va": 270986112,
+          "kind": 6
+        },
+        {
+          "symbol": "??_C@_0L@GKDKJKIB@Memory?3?5?$CFu?$AA@",
+          "site_rva": 428221,
+          "symbol_va": 269393592,
+          "addend": 0,
+          "target_va": 269393592,
+          "kind": 6
+        },
+        {
+          "symbol": "?AddDebugMessage@CChatWindow@@QAAXPADZZ",
+          "site_rva": 428227,
+          "symbol_va": 268861680,
+          "addend": 0,
+          "target_va": 268861680,
+          "kind": 20
+        }
+      ],
+      "sha256": "7068b43cbdc8f4c3b2f0408783b70a5166d80527ad2e1208025d29b49e047a50",
+      "object_sha256": "48071d75f826df745c338cfbce396953b528811acb418b54e2970e6d701efc59",
+      "whole_section": true
+    },
+    {
+      "unit": "closure_cmd_ui_settings",
+      "anchor": "?cmdSetFrameLimit@@YAXPAD@Z",
+      "anchor_offset": 0,
+      "rva": 428240,
+      "size": 134,
+      "section": 72,
+      "kind": "code",
+      "duplicate_previous": false,
+      "bindings": [
+        {
+          "symbol": "_atoi",
+          "site_rva": 428273,
+          "symbol_va": 269249830,
+          "addend": 0,
+          "target_va": 269249830,
+          "kind": 20
+        },
+        {
+          "symbol": "?pGame@@3PAVCGame@@A",
+          "site_rva": 428294,
+          "symbol_va": 270986156,
+          "addend": 0,
+          "target_va": 270986156,
+          "kind": 6
+        },
+        {
+          "symbol": "?SetFrameLimit@CGame@@QAEXK@Z",
+          "site_rva": 428300,
+          "symbol_va": 269093808,
+          "addend": 0,
+          "target_va": 269093808,
+          "kind": 20
+        },
+        {
+          "symbol": "?pConfig@@3PAVCConfig@@A",
+          "site_rva": 428306,
+          "symbol_va": 270986108,
+          "addend": 0,
+          "target_va": 270986108,
+          "kind": 6
+        },
+        {
+          "symbol": "??_C@_08GJFCPBMH@fpslimit?$AA@",
+          "site_rva": 428318,
+          "symbol_va": 269393672,
+          "addend": 0,
+          "target_va": 269393672,
+          "kind": 6
+        },
+        {
+          "symbol": "?SetIntVariable@CConfig@@QAEHPADHH@Z",
+          "site_rva": 428323,
+          "symbol_va": 268853376,
+          "addend": 0,
+          "target_va": 268853376,
+          "kind": 20
+        },
+        {
+          "symbol": "?pChatWindow@@3PAVCChatWindow@@A",
+          "site_rva": 428328,
+          "symbol_va": 270986112,
+          "addend": 0,
+          "target_va": 270986112,
+          "kind": 6
+        },
+        {
+          "symbol": "??_C@_0BF@IIPOPIAL@?9?$DO?5Frame?5Limiter?3?5?$CFu?$AA@",
+          "site_rva": 428334,
+          "symbol_va": 269393648,
+          "addend": 0,
+          "target_va": 269393648,
+          "kind": 6
+        },
+        {
+          "symbol": "?AddInfoMessage@R5ChatInfoView@@QAAXPADZZ",
+          "site_rva": 428340,
+          "symbol_va": 268861552,
+          "addend": 0,
+          "target_va": 268861552,
+          "kind": 20
+        },
+        {
+          "symbol": "?pChatWindow@@3PAVCChatWindow@@A",
+          "site_rva": 428352,
+          "symbol_va": 270986112,
+          "addend": 0,
+          "target_va": 270986112,
+          "kind": 6
+        },
+        {
+          "symbol": "??_C@_0CK@GLEEGHIK@?9?$DO?5Frame?5Limiter?3?5valid?5amounts?5@",
+          "site_rva": 428358,
+          "symbol_va": 269393604,
+          "addend": 0,
+          "target_va": 269393604,
+          "kind": 6
+        },
+        {
+          "symbol": "?AddInfoMessage@R5ChatInfoView@@QAAXPADZZ",
+          "site_rva": 428364,
+          "symbol_va": 268861552,
+          "addend": 0,
+          "target_va": 268861552,
+          "kind": 20
+        }
+      ],
+      "sha256": "251ae6c0a23bd0376561ca4149e29532beef4a687afbe88f3024fbc911b6c230",
+      "object_sha256": "48071d75f826df745c338cfbce396953b528811acb418b54e2970e6d701efc59",
+      "whole_section": true
+    },
+    {
+      "unit": "closure_cmd_ui_settings",
+      "anchor": "?cmdHeadMove@@YAXPAD@Z",
+      "anchor_offset": 0,
+      "rva": 428384,
+      "size": 119,
+      "section": 77,
+      "kind": "code",
+      "duplicate_previous": false,
+      "bindings": [
+        {
+          "symbol": "?pGame@@3PAVCGame@@A",
+          "site_rva": 428385,
+          "symbol_va": 270986156,
+          "addend": 0,
+          "target_va": 270986156,
+          "kind": 6
+        },
+        {
+          "symbol": "?pConfig@@3PAVCConfig@@A",
+          "site_rva": 428409,
+          "symbol_va": 270986108,
+          "addend": 0,
+          "target_va": 270986108,
+          "kind": 6
+        },
+        {
+          "symbol": "??_C@_0BA@KNHPNDOI@disableheadmove?$AA@",
+          "site_rva": 428422,
+          "symbol_va": 269393740,
+          "addend": 0,
+          "target_va": 269393740,
+          "kind": 6
+        },
+        {
+          "symbol": "?SetIntVariable@CConfig@@QAEHPADHH@Z",
+          "site_rva": 428427,
+          "symbol_va": 268853376,
+          "addend": 0,
+          "target_va": 268853376,
+          "kind": 20
+        },
+        {
+          "symbol": "?pChatWindow@@3PAVCChatWindow@@A",
+          "site_rva": 428432,
+          "symbol_va": 270986112,
+          "addend": 0,
+          "target_va": 270986112,
+          "kind": 6
+        },
+        {
+          "symbol": "??_C@_0BL@LAPEANHL@?9?$DO?5Head?5movements?5disabled?$AA@",
+          "site_rva": 428437,
+          "symbol_va": 269393712,
+          "addend": 0,
+          "target_va": 269393712,
+          "kind": 6
+        },
+        {
+          "symbol": "?AddInfoMessage@R5ChatInfoView@@QAAXPADZZ",
+          "site_rva": 428443,
+          "symbol_va": 268861552,
+          "addend": 0,
+          "target_va": 268861552,
+          "kind": 20
+        },
+        {
+          "symbol": "?pConfig@@3PAVCConfig@@A",
+          "site_rva": 428460,
+          "symbol_va": 270986108,
+          "addend": 0,
+          "target_va": 270986108,
+          "kind": 6
+        },
+        {
+          "symbol": "??_C@_0BA@KNHPNDOI@disableheadmove?$AA@",
+          "site_rva": 428473,
+          "symbol_va": 269393740,
+          "addend": 0,
+          "target_va": 269393740,
+          "kind": 6
+        },
+        {
+          "symbol": "?SetIntVariable@CConfig@@QAEHPADHH@Z",
+          "site_rva": 428478,
+          "symbol_va": 268853376,
+          "addend": 0,
+          "target_va": 268853376,
+          "kind": 20
+        },
+        {
+          "symbol": "?pChatWindow@@3PAVCChatWindow@@A",
+          "site_rva": 428484,
+          "symbol_va": 270986112,
+          "addend": 0,
+          "target_va": 270986112,
+          "kind": 6
+        },
+        {
+          "symbol": "??_C@_0BK@JIOMGGJG@?9?$DO?5Head?5movements?5enabled?$AA@",
+          "site_rva": 428489,
+          "symbol_va": 269393684,
+          "addend": 0,
+          "target_va": 269393684,
+          "kind": 6
+        },
+        {
+          "symbol": "?AddInfoMessage@R5ChatInfoView@@QAAXPADZZ",
+          "site_rva": 428495,
+          "symbol_va": 268861552,
+          "addend": 0,
+          "target_va": 268861552,
+          "kind": 20
+        }
+      ],
+      "sha256": "31570e4a8150ec4a5e1da6f8ac63db9e6cc546d3125d49bae8a29ee5170a6c0f",
+      "object_sha256": "48071d75f826df745c338cfbce396953b528811acb418b54e2970e6d701efc59",
+      "whole_section": true
+    },
+    {
+      "unit": "closure_cmd_rcon",
+      "anchor": "?cmdRcon@@YAXPAD@Z",
+      "anchor_offset": 0,
+      "rva": 430128,
+      "size": 216,
+      "section": 52,
+      "kind": "code",
+      "duplicate_previous": false,
+      "bindings": [
+        {
+          "symbol": "__except_list",
+          "site_rva": 430130,
+          "symbol_va": 0,
+          "addend": 0,
+          "target_va": 0,
+          "kind": 6
+        },
+        {
+          "symbol": "__ehhandler$?cmdRcon@@YAXPAD@Z",
+          "site_rva": 430137,
+          "symbol_va": 269367499,
+          "addend": 0,
+          "target_va": 269367499,
+          "kind": 6
+        },
+        {
+          "symbol": "__except_list",
+          "site_rva": 430145,
+          "symbol_va": 0,
+          "addend": 0,
+          "target_va": 0,
+          "kind": 6
+        },
+        {
+          "symbol": "?pNetGame@@3PAVCNetGame@@A",
+          "site_rva": 430172,
+          "symbol_va": 270986132,
+          "addend": 0,
+          "target_va": 270986132,
+          "kind": 6
+        },
+        {
+          "symbol": "??0BitStream@RakNet@@QAE@XZ",
+          "site_rva": 430189,
+          "symbol_va": 268564272,
+          "addend": 0,
+          "target_va": 268564272,
+          "kind": 20
+        },
+        {
+          "symbol": "?WriteBits@BitStream@RakNet@@QAEXPBEH_N@Z",
+          "site_rva": 430223,
+          "symbol_va": 268566496,
+          "addend": 0,
+          "target_va": 268566496,
+          "kind": 20
+        },
+        {
+          "symbol": "?WriteBits@BitStream@RakNet@@QAEXPBEH_N@Z",
+          "site_rva": 430262,
+          "symbol_va": 268566496,
+          "addend": 0,
+          "target_va": 268566496,
+          "kind": 20
+        },
+        {
+          "symbol": "?Write@BitStream@RakNet@@QAEXPBDH@Z",
+          "site_rva": 430273,
+          "symbol_va": 268566672,
+          "addend": 0,
+          "target_va": 268566672,
+          "kind": 20
+        },
+        {
+          "symbol": "?pNetGame@@3PAVCNetGame@@A",
+          "site_rva": 430279,
+          "symbol_va": 270986132,
+          "addend": 0,
+          "target_va": 270986132,
+          "kind": 6
+        },
+        {
+          "symbol": "??1BitStream@RakNet@@QAE@XZ",
+          "site_rva": 430317,
+          "symbol_va": 268564688,
+          "addend": 0,
+          "target_va": 268564688,
+          "kind": 20
+        },
+        {
+          "symbol": "__except_list",
+          "site_rva": 430333,
+          "symbol_va": 0,
+          "addend": 0,
+          "target_va": 0,
+          "kind": 6
+        }
+      ],
+      "sha256": "d5e0a108e040a0cd14998636ecbb7e48f434f4fc747b507841713c9952c36871",
+      "object_sha256": "af8700679e98b8f24e15eb4bea64eacca2fa061af87c5fab934bdfaf38086587",
+      "whole_section": true
+    },
+    {
+      "unit": "closure_cmd_player_skin",
+      "anchor": "?cmdPlayerSkin@@YAXPAD@Z",
+      "anchor_offset": 0,
+      "rva": 429312,
+      "size": 109,
+      "section": 51,
+      "kind": "code",
+      "duplicate_previous": false,
+      "bindings": [
+        {
+          "symbol": "?tSettings@@3U_GAME_SETTINGS@@A",
+          "site_rva": 429314,
+          "symbol_va": 270983144,
+          "addend": 0,
+          "target_va": 270983144,
+          "kind": 6
+        },
+        {
+          "symbol": "?pChatWindow@@3PAVCChatWindow@@A",
+          "site_rva": 429348,
+          "symbol_va": 270986112,
+          "addend": 0,
+          "target_va": 270986112,
+          "kind": 6
+        },
+        {
+          "symbol": "??_C@_0CC@IIEMIINO@Usage?3?5player_skin?5?$CIskin?5number?$CJ@",
+          "site_rva": 429353,
+          "symbol_va": 269394192,
+          "addend": 0,
+          "target_va": 269394192,
+          "kind": 6
+        },
+        {
+          "symbol": "?AddDebugMessage@CChatWindow@@QAAXPADZZ",
+          "site_rva": 429359,
+          "symbol_va": 268861680,
+          "addend": 0,
+          "target_va": 268861680,
+          "kind": 20
+        },
+        {
+          "symbol": "_atoi",
+          "site_rva": 429371,
+          "symbol_va": 269249830,
+          "addend": 0,
+          "target_va": 269249830,
+          "kind": 20
+        },
+        {
+          "symbol": "?pGame@@3PAVCGame@@A",
+          "site_rva": 429377,
+          "symbol_va": 270986156,
+          "addend": 0,
+          "target_va": 270986156,
+          "kind": 6
+        },
+        {
+          "symbol": "?IsGameLoaded@CGame@@QAEHXZ",
+          "site_rva": 429387,
+          "symbol_va": 269093168,
+          "addend": 0,
+          "target_va": 269093168,
+          "kind": 20
+        },
+        {
+          "symbol": "?pGame@@3PAVCGame@@A",
+          "site_rva": 429397,
+          "symbol_va": 270986156,
+          "addend": 0,
+          "target_va": 270986156,
+          "kind": 6
+        },
+        {
+          "symbol": "?FindPlayerPed@CGame@@QAEPAVCPlayerPed@@XZ",
+          "site_rva": 429402,
+          "symbol_va": 268439568,
+          "addend": 0,
+          "target_va": 268439568,
+          "kind": 20
+        },
+        {
+          "symbol": "?SetModelIndex@R5PreviewPedModelView@@QAEXI@Z",
+          "site_rva": 429414,
+          "symbol_va": 269156176,
+          "addend": 0,
+          "target_va": 269156176,
+          "kind": 20
+        }
+      ],
+      "sha256": "cf8abbbf26d6a13eb994c8d40652a73c009415f2917447a7867f9e36270a3747",
+      "object_sha256": "3859e22bbe0010b90126ce3ce2b3e0fc5be792c0970f970592041b77abf60460",
+      "whole_section": true
+    },
+    {
+      "unit": "closure_cmd_create_vehicle",
+      "anchor": "?cmdCreateVehicle@@YAXPAD@Z",
+      "anchor_offset": 0,
+      "rva": 429424,
+      "size": 308,
+      "section": 51,
+      "kind": "code",
+      "duplicate_previous": false,
+      "bindings": [
+        {
+          "symbol": "?tSettings@@3U_GAME_SETTINGS@@A",
+          "site_rva": 429425,
+          "symbol_va": 270983144,
+          "addend": 0,
+          "target_va": 270983144,
+          "kind": 6
+        },
+        {
+          "symbol": "?pChatWindow@@3PAVCChatWindow@@A",
+          "site_rva": 429472,
+          "symbol_va": 270986112,
+          "addend": 0,
+          "target_va": 270986112,
+          "kind": 6
+        },
+        {
+          "symbol": "??_C@_0BI@IMGABIPF@Usage?3?5?1v?5?$CIvehicle?5id?$CJ?4?$AA@",
+          "site_rva": 429477,
+          "symbol_va": 269394296,
+          "addend": 0,
+          "target_va": 269394296,
+          "kind": 6
+        },
+        {
+          "symbol": "?AddDebugMessage@CChatWindow@@QAAXPADZZ",
+          "site_rva": 429483,
+          "symbol_va": 268861680,
+          "addend": 0,
+          "target_va": 268861680,
+          "kind": 20
+        },
+        {
+          "symbol": "_atoi",
+          "site_rva": 429497,
+          "symbol_va": 269249830,
+          "addend": 0,
+          "target_va": 269249830,
+          "kind": 20
+        },
+        {
+          "symbol": "?pGame@@3PAVCGame@@A",
+          "site_rva": 429503,
+          "symbol_va": 270986156,
+          "addend": 0,
+          "target_va": 270986156,
+          "kind": 6
+        },
+        {
+          "symbol": "?IsGameLoaded@CGame@@QAEHXZ",
+          "site_rva": 429513,
+          "symbol_va": 269093168,
+          "addend": 0,
+          "target_va": 269093168,
+          "kind": 20
+        },
+        {
+          "symbol": "?pGame@@3PAVCGame@@A",
+          "site_rva": 429527,
+          "symbol_va": 270986156,
+          "addend": 0,
+          "target_va": 270986156,
+          "kind": 6
+        },
+        {
+          "symbol": "?RequestModel@CGame@@QAEXHH@Z",
+          "site_rva": 429535,
+          "symbol_va": 269093184,
+          "addend": 0,
+          "target_va": 269093184,
+          "kind": 20
+        },
+        {
+          "symbol": "?pGame@@3PAVCGame@@A",
+          "site_rva": 429541,
+          "symbol_va": 270986156,
+          "addend": 0,
+          "target_va": 270986156,
+          "kind": 6
+        },
+        {
+          "symbol": "?LoadRequestedModels@CGame@@QAEXXZ",
+          "site_rva": 429546,
+          "symbol_va": 269093216,
+          "addend": 0,
+          "target_va": 269093216,
+          "kind": 20
+        },
+        {
+          "symbol": "?pGame@@3PAVCGame@@A",
+          "site_rva": 429552,
+          "symbol_va": 270986156,
+          "addend": 0,
+          "target_va": 270986156,
+          "kind": 6
+        },
+        {
+          "symbol": "?FindPlayerPed@CGame@@QAEPAVCPlayerPed@@XZ",
+          "site_rva": 429557,
+          "symbol_va": 268439568,
+          "addend": 0,
+          "target_va": 268439568,
+          "kind": 20
+        },
+        {
+          "symbol": "?GetMatrix@CEntity@@QAEXPAU_MATRIX4X4@@@Z",
+          "site_rva": 429573,
+          "symbol_va": 269085456,
+          "addend": 0,
+          "target_va": 269085456,
+          "kind": 20
+        },
+        {
+          "symbol": "??_C@_07MNBIJLFM@TYPE_?$CFd?$AA@",
+          "site_rva": 429589,
+          "symbol_va": 269394288,
+          "addend": 0,
+          "target_va": 269394288,
+          "kind": 6
+        },
+        {
+          "symbol": "_sprintf",
+          "site_rva": 429604,
+          "symbol_va": 269251411,
+          "addend": 0,
+          "target_va": 269251411,
+          "kind": 20
+        },
+        {
+          "symbol": "__real@3f800000",
+          "site_rva": 429614,
+          "symbol_va": 269376300,
+          "addend": 0,
+          "target_va": 269376300,
+          "kind": 6
+        },
+        {
+          "symbol": "?pGame@@3PAVCGame@@A",
+          "site_rva": 429620,
+          "symbol_va": 270986156,
+          "addend": 0,
+          "target_va": 270986156,
+          "kind": 6
+        },
+        {
+          "symbol": "__real@40a00000",
+          "site_rva": 429644,
+          "symbol_va": 269394284,
+          "addend": 0,
+          "target_va": 269394284,
+          "kind": 6
+        },
+        {
+          "symbol": "__real@40a00000",
+          "site_rva": 429658,
+          "symbol_va": 269394284,
+          "addend": 0,
+          "target_va": 269394284,
+          "kind": 6
+        },
+        {
+          "symbol": "?NewVehicle@R5GameVehicleCreationView@@QAEPAVCVehicle@@HMMMMH@Z",
+          "site_rva": 429667,
+          "symbol_va": 269091408,
+          "addend": 0,
+          "target_va": 269091408,
+          "kind": 20
+        },
+        {
+          "symbol": "?pChatWindow@@3PAVCChatWindow@@A",
+          "site_rva": 429684,
+          "symbol_va": 270986112,
+          "addend": 0,
+          "target_va": 270986112,
+          "kind": 6
+        },
+        {
+          "symbol": "??_C@_0CC@MODFFDPO@I?5couldn?8t?5find?5the?5player?5actor@",
+          "site_rva": 429689,
+          "symbol_va": 269394248,
+          "addend": 0,
+          "target_va": 269394248,
+          "kind": 6
+        },
+        {
+          "symbol": "?AddDebugMessage@CChatWindow@@QAAXPADZZ",
+          "site_rva": 429695,
+          "symbol_va": 268861680,
+          "addend": 0,
+          "target_va": 268861680,
+          "kind": 20
+        },
+        {
+          "symbol": "?pChatWindow@@3PAVCChatWindow@@A",
+          "site_rva": 429709,
+          "symbol_va": 270986112,
+          "addend": 0,
+          "target_va": 270986112,
+          "kind": 6
+        },
+        {
+          "symbol": "??_C@_0BB@JFODDHIN@game?5not?5loaded?4?$AA@",
+          "site_rva": 429714,
+          "symbol_va": 269394228,
+          "addend": 0,
+          "target_va": 269394228,
+          "kind": 6
+        },
+        {
+          "symbol": "?AddDebugMessage@CChatWindow@@QAAXPADZZ",
+          "site_rva": 429720,
+          "symbol_va": 268861680,
+          "addend": 0,
+          "target_va": 268861680,
+          "kind": 20
+        }
+      ],
+      "sha256": "c1da57fce14ed6b8c76b7bf01148a11e5d817c52850e2215e5724a91ce9b2adf",
+      "object_sha256": "d1445a984120a3a660a896f95f53a007869c661eedb8c9ff97791a7ceb5ce1cb",
+      "whole_section": true
+    },
+    {
+      "unit": "closure_cmd_ui_settings",
+      "anchor": "?TogglePlayerStatus@R5NetworkNameTagStatusView@@QAEXXZ",
+      "anchor_offset": 0,
+      "rva": 36496,
+      "size": 118,
+      "section": 46,
+      "kind": "code",
+      "duplicate_previous": false,
+      "bindings": [
+        {
+          "symbol": "?pChatWindow@@3PAVCChatWindow@@A",
+          "site_rva": 36510,
+          "symbol_va": 270986112,
+          "addend": 0,
+          "target_va": 270986112,
+          "kind": 6
+        },
+        {
+          "symbol": "??_C@_0BK@EKALLNMC@NameTag?5Player?5Status?3?5ON?$AA@",
+          "site_rva": 36515,
+          "symbol_va": 269376268,
+          "addend": 0,
+          "target_va": 269376268,
+          "kind": 6
+        },
+        {
+          "symbol": "?AddInfoMessage@R5ChatInfoView@@QAAXPADZZ",
+          "site_rva": 36521,
+          "symbol_va": 268861552,
+          "addend": 0,
+          "target_va": 268861552,
+          "kind": 20
+        },
+        {
+          "symbol": "?pConfig@@3PAVCConfig@@A",
+          "site_rva": 36527,
+          "symbol_va": 270986108,
+          "addend": 0,
+          "target_va": 270986108,
+          "kind": 6
+        },
+        {
+          "symbol": "??_C@_0BA@CKOMLCGI@nonametagstatus?$AA@",
+          "site_rva": 36543,
+          "symbol_va": 269376252,
+          "addend": 0,
+          "target_va": 269376252,
+          "kind": 6
+        },
+        {
+          "symbol": "?SetIntVariable@CConfig@@QAEHPADHH@Z",
+          "site_rva": 36548,
+          "symbol_va": 268853376,
+          "addend": 0,
+          "target_va": 268853376,
+          "kind": 20
+        },
+        {
+          "symbol": "?pChatWindow@@3PAVCChatWindow@@A",
+          "site_rva": 36563,
+          "symbol_va": 270986112,
+          "addend": 0,
+          "target_va": 270986112,
+          "kind": 6
+        },
+        {
+          "symbol": "??_C@_0BL@NNBABBBK@NameTag?5Player?5Status?3?5OFF?$AA@",
+          "site_rva": 36568,
+          "symbol_va": 269376224,
+          "addend": 0,
+          "target_va": 269376224,
+          "kind": 6
+        },
+        {
+          "symbol": "?AddInfoMessage@R5ChatInfoView@@QAAXPADZZ",
+          "site_rva": 36574,
+          "symbol_va": 268861552,
+          "addend": 0,
+          "target_va": 268861552,
+          "kind": 20
+        },
+        {
+          "symbol": "?pConfig@@3PAVCConfig@@A",
+          "site_rva": 36580,
+          "symbol_va": 270986108,
+          "addend": 0,
+          "target_va": 270986108,
+          "kind": 6
+        },
+        {
+          "symbol": "??_C@_0BA@CKOMLCGI@nonametagstatus?$AA@",
+          "site_rva": 36596,
+          "symbol_va": 269376252,
+          "addend": 0,
+          "target_va": 269376252,
+          "kind": 6
+        },
+        {
+          "symbol": "?SetIntVariable@CConfig@@QAEHPADHH@Z",
+          "site_rva": 36601,
+          "symbol_va": 268853376,
+          "addend": 0,
+          "target_va": 268853376,
+          "kind": 20
+        }
+      ],
+      "sha256": "c1145ba88f5064e1cf0333b2bc4f3ab06c1579dd0e01fa5d1d6255fb5cb8e77f",
+      "object_sha256": "48071d75f826df745c338cfbce396953b528811acb418b54e2970e6d701efc59",
+      "whole_section": true
+    },
+    {
+      "unit": "closure_cmd_rcon",
+      "anchor": "$L95034",
+      "anchor_offset": 0,
+      "rva": 932032,
+      "size": 21,
+      "section": 53,
+      "kind": "code",
+      "duplicate_previous": false,
+      "bindings": [
+        {
+          "symbol": "??1BitStream@RakNet@@QAE@XZ",
+          "site_rva": 932039,
+          "symbol_va": 268564688,
+          "addend": 0,
+          "target_va": 268564688,
+          "kind": 20
+        },
+        {
+          "symbol": "$T95054",
+          "site_rva": 932044,
+          "symbol_va": 269465464,
+          "addend": 0,
+          "target_va": 269465464,
+          "kind": 6
+        },
+        {
+          "symbol": "___CxxFrameHandler",
+          "site_rva": 932049,
+          "symbol_va": 269247782,
+          "addend": 0,
+          "target_va": 269247782,
+          "kind": 20
+        }
+      ],
+      "sha256": "9ed657b2737d46470782538a21d4116c22a53b143ed332645357cefd1e5c7785",
+      "object_sha256": "af8700679e98b8f24e15eb4bea64eacca2fa061af87c5fab934bdfaf38086587",
+      "whole_section": true
+    },
+    {
+      "unit": "closure_cmd_rcon",
+      "anchor": "$T95054",
+      "anchor_offset": 8,
+      "rva": 1030000,
+      "size": 36,
+      "section": 54,
+      "kind": "data",
+      "duplicate_previous": false,
+      "bindings": [
+        {
+          "symbol": "$L95034",
+          "site_rva": 1030004,
+          "symbol_va": 269367488,
+          "addend": 0,
+          "target_va": 269367488,
+          "kind": 6
+        },
+        {
+          "symbol": "$T95058",
+          "site_rva": 1030016,
+          "symbol_va": 269465456,
+          "addend": 0,
+          "target_va": 269465456,
+          "kind": 6
+        }
+      ],
+      "sha256": "3f405b1ed6c633791860db2d2c169a220fff72add241517bb7a36e47b2d1c593",
+      "object_sha256": "af8700679e98b8f24e15eb4bea64eacca2fa061af87c5fab934bdfaf38086587",
+      "whole_section": true
+    },
+    {
+      "unit": "closure_cmd_player_skin",
+      "anchor": "?FindPlayerPed@CGame@@QAEPAVCPlayerPed@@XZ",
+      "anchor_offset": 0,
+      "rva": 4112,
+      "size": 94,
+      "section": 46,
+      "kind": "code",
+      "duplicate_previous": true,
+      "bindings": [
+        {
+          "symbol": "__ehhandler$?FindPlayerPed@CGame@@QAEPAVCPlayerPed@@XZ",
+          "site_rva": 4115,
+          "symbol_va": 269352587,
+          "addend": 0,
+          "target_va": 269352587,
+          "kind": 6
+        },
+        {
+          "symbol": "__except_list",
+          "site_rva": 4121,
+          "symbol_va": 0,
+          "addend": 0,
+          "target_va": 0,
+          "kind": 6
+        },
+        {
+          "symbol": "__except_list",
+          "site_rva": 4129,
+          "symbol_va": 0,
+          "addend": 0,
+          "target_va": 0,
+          "kind": 6
+        },
+        {
+          "symbol": "??2@YAPAXI@Z",
+          "site_rva": 4150,
+          "symbol_va": 269247098,
+          "addend": 0,
+          "target_va": 269247098,
+          "kind": 20
+        },
+        {
+          "symbol": "??0CPlayerPed@@QAE@XZ",
+          "site_rva": 4176,
+          "symbol_va": 269138544,
+          "addend": 0,
+          "target_va": 269138544,
+          "kind": 20
+        },
+        {
+          "symbol": "__except_list",
+          "site_rva": 4198,
+          "symbol_va": 0,
+          "addend": 0,
+          "target_va": 0,
+          "kind": 6
+        }
+      ],
+      "sha256": "c68912916b6df6feb35b20db4e7b421d654238152cff390567881edf7dc6dc63",
+      "object_sha256": "3859e22bbe0010b90126ce3ce2b3e0fc5be792c0970f970592041b77abf60460",
+      "whole_section": true,
+      "previous_identical_owners": [
+        "closure_player_lifetime",
+        "closure_object_editor_attached",
+        "closure_rpc_player_motion_shop",
+        "closure_rpc_vehicle_motion",
+        "closure_vehicle_appearance_interior",
+        "closure_entity_local_distances",
+        "closure_local_player_construction",
+        "closure_cmd_save_positions"
+      ]
+    },
+    {
+      "unit": "closure_cmd_player_skin",
+      "anchor": "$L95038",
+      "anchor_offset": 0,
+      "rva": 917120,
+      "size": 21,
+      "section": 47,
+      "kind": "code",
+      "duplicate_previous": true,
+      "bindings": [
+        {
+          "symbol": "??3@YAXPAX@Z",
+          "site_rva": 917125,
+          "symbol_va": 269247626,
+          "addend": 0,
+          "target_va": 269247626,
+          "kind": 20
+        },
+        {
+          "symbol": "$T95042",
+          "site_rva": 917132,
+          "symbol_va": 269448728,
+          "addend": 0,
+          "target_va": 269448728,
+          "kind": 6
+        },
+        {
+          "symbol": "___CxxFrameHandler",
+          "site_rva": 917137,
+          "symbol_va": 269247782,
+          "addend": 0,
+          "target_va": 269247782,
+          "kind": 20
+        }
+      ],
+      "sha256": "9319808924bf8500b1410f9cb245444680ef7a3fe4e84b7ca09480967e1426d7",
+      "object_sha256": "3859e22bbe0010b90126ce3ce2b3e0fc5be792c0970f970592041b77abf60460",
+      "whole_section": true,
+      "previous_identical_owners": [
+        "closure_player_lifetime",
+        "closure_object_editor_attached",
+        "closure_rpc_player_motion_shop",
+        "closure_rpc_vehicle_motion",
+        "closure_vehicle_appearance_interior",
+        "closure_entity_local_distances",
+        "closure_local_player_construction",
+        "closure_cmd_save_positions"
+      ]
+    },
+    {
+      "unit": "closure_cmd_player_skin",
+      "anchor": "$T95042",
+      "anchor_offset": 8,
+      "rva": 1013264,
+      "size": 36,
+      "section": 48,
+      "kind": "data",
+      "duplicate_previous": true,
+      "bindings": [
+        {
+          "symbol": "$L95038",
+          "site_rva": 1013268,
+          "symbol_va": 269352576,
+          "addend": 0,
+          "target_va": 269352576,
+          "kind": 6
+        },
+        {
+          "symbol": "$T95048",
+          "site_rva": 1013280,
+          "symbol_va": 269448720,
+          "addend": 0,
+          "target_va": 269448720,
+          "kind": 6
+        }
+      ],
+      "sha256": "18eebed3494c03a403490a6f95494d9ce9fb81d4042f17a3cba066f92675eb8c",
+      "object_sha256": "3859e22bbe0010b90126ce3ce2b3e0fc5be792c0970f970592041b77abf60460",
+      "whole_section": true,
+      "previous_identical_owners": [
+        "closure_player_lifetime",
+        "closure_object_editor_attached",
+        "closure_rpc_player_motion_shop",
+        "closure_rpc_vehicle_motion",
+        "closure_vehicle_appearance_interior",
+        "closure_entity_local_distances",
+        "closure_local_player_construction",
+        "closure_cmd_save_positions"
+      ]
+    },
+    {
+      "unit": "closure_cmd_create_vehicle",
+      "anchor": "?FindPlayerPed@CGame@@QAEPAVCPlayerPed@@XZ",
+      "anchor_offset": 0,
+      "rva": 4112,
+      "size": 94,
+      "section": 46,
+      "kind": "code",
+      "duplicate_previous": true,
+      "bindings": [
+        {
+          "symbol": "__ehhandler$?FindPlayerPed@CGame@@QAEPAVCPlayerPed@@XZ",
+          "site_rva": 4115,
+          "symbol_va": 269352587,
+          "addend": 0,
+          "target_va": 269352587,
+          "kind": 6
+        },
+        {
+          "symbol": "__except_list",
+          "site_rva": 4121,
+          "symbol_va": 0,
+          "addend": 0,
+          "target_va": 0,
+          "kind": 6
+        },
+        {
+          "symbol": "__except_list",
+          "site_rva": 4129,
+          "symbol_va": 0,
+          "addend": 0,
+          "target_va": 0,
+          "kind": 6
+        },
+        {
+          "symbol": "??2@YAPAXI@Z",
+          "site_rva": 4150,
+          "symbol_va": 269247098,
+          "addend": 0,
+          "target_va": 269247098,
+          "kind": 20
+        },
+        {
+          "symbol": "??0CPlayerPed@@QAE@XZ",
+          "site_rva": 4176,
+          "symbol_va": 269138544,
+          "addend": 0,
+          "target_va": 269138544,
+          "kind": 20
+        },
+        {
+          "symbol": "__except_list",
+          "site_rva": 4198,
+          "symbol_va": 0,
+          "addend": 0,
+          "target_va": 0,
+          "kind": 6
+        }
+      ],
+      "sha256": "c68912916b6df6feb35b20db4e7b421d654238152cff390567881edf7dc6dc63",
+      "object_sha256": "d1445a984120a3a660a896f95f53a007869c661eedb8c9ff97791a7ceb5ce1cb",
+      "whole_section": true,
+      "previous_identical_owners": [
+        "closure_player_lifetime",
+        "closure_object_editor_attached",
+        "closure_rpc_player_motion_shop",
+        "closure_rpc_vehicle_motion",
+        "closure_vehicle_appearance_interior",
+        "closure_entity_local_distances",
+        "closure_local_player_construction",
+        "closure_cmd_save_positions"
+      ]
+    },
+    {
+      "unit": "closure_cmd_create_vehicle",
+      "anchor": "$L95050",
+      "anchor_offset": 0,
+      "rva": 917120,
+      "size": 21,
+      "section": 47,
+      "kind": "code",
+      "duplicate_previous": true,
+      "bindings": [
+        {
+          "symbol": "??3@YAXPAX@Z",
+          "site_rva": 917125,
+          "symbol_va": 269247626,
+          "addend": 0,
+          "target_va": 269247626,
+          "kind": 20
+        },
+        {
+          "symbol": "$T95054",
+          "site_rva": 917132,
+          "symbol_va": 269448728,
+          "addend": 0,
+          "target_va": 269448728,
+          "kind": 6
+        },
+        {
+          "symbol": "___CxxFrameHandler",
+          "site_rva": 917137,
+          "symbol_va": 269247782,
+          "addend": 0,
+          "target_va": 269247782,
+          "kind": 20
+        }
+      ],
+      "sha256": "9319808924bf8500b1410f9cb245444680ef7a3fe4e84b7ca09480967e1426d7",
+      "object_sha256": "d1445a984120a3a660a896f95f53a007869c661eedb8c9ff97791a7ceb5ce1cb",
+      "whole_section": true,
+      "previous_identical_owners": [
+        "closure_player_lifetime",
+        "closure_object_editor_attached",
+        "closure_rpc_player_motion_shop",
+        "closure_rpc_vehicle_motion",
+        "closure_vehicle_appearance_interior",
+        "closure_entity_local_distances",
+        "closure_local_player_construction",
+        "closure_cmd_save_positions"
+      ]
+    },
+    {
+      "unit": "closure_cmd_create_vehicle",
+      "anchor": "$T95054",
+      "anchor_offset": 8,
+      "rva": 1013264,
+      "size": 36,
+      "section": 48,
+      "kind": "data",
+      "duplicate_previous": true,
+      "bindings": [
+        {
+          "symbol": "$L95050",
+          "site_rva": 1013268,
+          "symbol_va": 269352576,
+          "addend": 0,
+          "target_va": 269352576,
+          "kind": 6
+        },
+        {
+          "symbol": "$T95060",
+          "site_rva": 1013280,
+          "symbol_va": 269448720,
+          "addend": 0,
+          "target_va": 269448720,
+          "kind": 6
+        }
+      ],
+      "sha256": "18eebed3494c03a403490a6f95494d9ce9fb81d4042f17a3cba066f92675eb8c",
+      "object_sha256": "d1445a984120a3a660a896f95f53a007869c661eedb8c9ff97791a7ceb5ce1cb",
+      "whole_section": true,
+      "previous_identical_owners": [
+        "closure_player_lifetime",
+        "closure_object_editor_attached",
+        "closure_rpc_player_motion_shop",
+        "closure_rpc_vehicle_motion",
+        "closure_vehicle_appearance_interior",
+        "closure_entity_local_distances",
+        "closure_local_player_construction",
+        "closure_cmd_save_positions"
+      ]
+    },
+    {
+      "unit": "closure_store_game_settings",
+      "anchor": "?tSettings@@3U_GAME_SETTINGS@@A",
+      "anchor_offset": 0,
+      "rva": 2547688,
+      "size": 1297,
+      "section": 3,
+      "kind": "data",
+      "duplicate_previous": false,
+      "bindings": [],
+      "sha256": "a1b35282d60bd49ad5565dbc948cdef90fe23117c391c0f3d91ed7856f22d995",
+      "object_sha256": "ee84610e9c051cf8a7f61e1564095ea1bdbc7aab9551f997fa6c8a9636e9021b",
+      "whole_section": true
+    },
+    {
+      "unit": "closure_store_hud_scale_fix",
+      "anchor": "?bHudScaleFix@@3_NA",
+      "anchor_offset": 0,
+      "rva": 1143920,
+      "size": 1,
+      "section": 3,
+      "kind": "data",
+      "duplicate_previous": false,
+      "bindings": [],
+      "sha256": "4bf5122f344554c53bde2ebb8cd2b7e3d1600ad631c385a5d7cce23c7785459a",
+      "object_sha256": "1dda2a32fcac401b90e720f86f0704ae7a350538bb65b78872aca66d1e870ad3",
+      "whole_section": true
+    },
+    {
+      "unit": "closure_store_camera_target_debug",
+      "anchor": "?r5ShowCameraTarget@@3_NA",
+      "anchor_offset": 0,
+      "rva": 1149352,
+      "size": 1,
+      "section": 3,
+      "kind": "data",
+      "duplicate_previous": false,
+      "bindings": [],
+      "sha256": "6e340b9cffb37a989ca544e6bb780a2c78901d3fb33738768511a30617afa01d",
+      "object_sha256": "30475a489432111be1539adebeb75b0b12f897b9e9aa5491911d678e49994326",
+      "whole_section": true
+    },
+    {
+      "unit": "closure_cmd_ui_settings",
+      "anchor": "??_C@_08FKIMDENB@pagesize?$AA@",
+      "anchor_offset": 0,
+      "rva": 957980,
+      "size": 9,
+      "section": 57,
+      "kind": "data",
+      "duplicate_previous": false,
+      "bindings": [],
+      "sha256": "644a93e19284bf41773e34d5c3662293ea3e6ef5fc7599169f812d6c046a6ba3",
+      "object_sha256": "48071d75f826df745c338cfbce396953b528811acb418b54e2970e6d701efc59",
+      "whole_section": true
+    },
+    {
+      "unit": "closure_cmd_ui_settings",
+      "anchor": "??_C@_0BJ@BPKLHBMN@pagesize?5?$FL10?920?$FN?5?$CIlines?$CJ?$AA@",
+      "anchor_offset": 0,
+      "rva": 957952,
+      "size": 25,
+      "section": 56,
+      "kind": "data",
+      "duplicate_previous": false,
+      "bindings": [],
+      "sha256": "8f05ec8975b1915f2b8f462c30de3a30d1360b24a8915af77cf189bda42afc26",
+      "object_sha256": "48071d75f826df745c338cfbce396953b528811acb418b54e2970e6d701efc59",
+      "whole_section": true
+    },
+    {
+      "unit": "closure_cmd_ui_settings",
+      "anchor": "??_C@_09OMDJNLDP@timestamp?$AA@",
+      "anchor_offset": 0,
+      "rva": 958028,
+      "size": 10,
+      "section": 60,
+      "kind": "data",
+      "duplicate_previous": false,
+      "bindings": [],
+      "sha256": "886d376b3fd07041fb67ea399ec070ac866fe0956a17d1c1865b552a276a0ef3",
+      "object_sha256": "48071d75f826df745c338cfbce396953b528811acb418b54e2970e6d701efc59",
+      "whole_section": true
+    },
+    {
+      "unit": "closure_cmd_ui_settings",
+      "anchor": "??_C@_0M@MJNCKDFF@audiomsgoff?$AA@",
+      "anchor_offset": 0,
+      "rva": 957456,
+      "size": 12,
+      "section": 65,
+      "kind": "data",
+      "duplicate_previous": false,
+      "bindings": [],
+      "sha256": "cc0689fb7ec1c425149dd148f42c4931079708e347ebc4a67a92d7395d9747c1",
+      "object_sha256": "48071d75f826df745c338cfbce396953b528811acb418b54e2970e6d701efc59",
+      "whole_section": true
+    },
+    {
+      "unit": "closure_cmd_ui_settings",
+      "anchor": "??_C@_0BD@CAAPKKIF@Audio?5messages?3?5On?$AA@",
+      "anchor_offset": 0,
+      "rva": 958060,
+      "size": 19,
+      "section": 64,
+      "kind": "data",
+      "duplicate_previous": false,
+      "bindings": [],
+      "sha256": "4ed47e09392cbf55528e53cb0314e2ac61f7fb34f9c5f49d98c086556fb8dd66",
+      "object_sha256": "48071d75f826df745c338cfbce396953b528811acb418b54e2970e6d701efc59",
+      "whole_section": true
+    },
+    {
+      "unit": "closure_cmd_ui_settings",
+      "anchor": "??_C@_0BE@KAEGOFJM@Audio?5messages?3?5Off?$AA@",
+      "anchor_offset": 0,
+      "rva": 958040,
+      "size": 20,
+      "section": 63,
+      "kind": "data",
+      "duplicate_previous": false,
+      "bindings": [],
+      "sha256": "9431eac11299c8aaf1520f19d707d28c59238c57a1d81695c5de4341a10e1786",
+      "object_sha256": "48071d75f826df745c338cfbce396953b528811acb418b54e2970e6d701efc59",
+      "whole_section": true
+    },
+    {
+      "unit": "closure_cmd_ui_settings",
+      "anchor": "??_C@_07MAENIJFF@logurls?$AA@",
+      "anchor_offset": 0,
+      "rva": 941096,
+      "size": 8,
+      "section": 70,
+      "kind": "data",
+      "duplicate_previous": false,
+      "bindings": [],
+      "sha256": "b96638863d2c1ed0df091b936ffe6ee022fdba2244fcc899d015875c831db278",
+      "object_sha256": "48071d75f826df745c338cfbce396953b528811acb418b54e2970e6d701efc59",
+      "whole_section": true
+    },
+    {
+      "unit": "closure_cmd_ui_settings",
+      "anchor": "??_C@_0BC@PAGLCEFL@URL?5messages?3?5Off?$AA@",
+      "anchor_offset": 0,
+      "rva": 958100,
+      "size": 18,
+      "section": 69,
+      "kind": "data",
+      "duplicate_previous": false,
+      "bindings": [],
+      "sha256": "746e65659b3eacf4c3435d03dfa7bd75a6a0806ebe804547b6918b813e8cdb64",
+      "object_sha256": "48071d75f826df745c338cfbce396953b528811acb418b54e2970e6d701efc59",
+      "whole_section": true
+    },
+    {
+      "unit": "closure_cmd_ui_settings",
+      "anchor": "??_C@_0BB@ILPFBPF@URL?5messages?3?5On?$AA@",
+      "anchor_offset": 0,
+      "rva": 958080,
+      "size": 17,
+      "section": 68,
+      "kind": "data",
+      "duplicate_previous": false,
+      "bindings": [],
+      "sha256": "2c65d7c6bf27dc5940836d73183c48a10f956badb69de8cfeb33c7edd210d734",
+      "object_sha256": "48071d75f826df745c338cfbce396953b528811acb418b54e2970e6d701efc59",
+      "whole_section": true
+    },
+    {
+      "unit": "closure_cmd_ui_settings",
+      "anchor": "??_C@_0O@BDGEJADM@nohudscalefix?$AA@",
+      "anchor_offset": 0,
+      "rva": 958120,
+      "size": 14,
+      "section": 83,
+      "kind": "data",
+      "duplicate_previous": false,
+      "bindings": [],
+      "sha256": "1ce738500aefdc1cd4e1ad09190dc80733fe63b14f8207c9fc67f10c0e4d2c11",
+      "object_sha256": "48071d75f826df745c338cfbce396953b528811acb418b54e2970e6d701efc59",
+      "whole_section": true
+    },
+    {
+      "unit": "closure_cmd_ui_settings",
+      "anchor": "??_C@_0L@GKDKJKIB@Memory?3?5?$CFu?$AA@",
+      "anchor_offset": 0,
+      "rva": 958136,
+      "size": 11,
+      "section": 86,
+      "kind": "data",
+      "duplicate_previous": false,
+      "bindings": [],
+      "sha256": "e36db42ac7c232d6c37f175caab49135bcbb1b63c52e0d688e8938b08255481d",
+      "object_sha256": "48071d75f826df745c338cfbce396953b528811acb418b54e2970e6d701efc59",
+      "whole_section": true
+    },
+    {
+      "unit": "closure_cmd_ui_settings",
+      "anchor": "??_C@_08GJFCPBMH@fpslimit?$AA@",
+      "anchor_offset": 0,
+      "rva": 958216,
+      "size": 9,
+      "section": 75,
+      "kind": "data",
+      "duplicate_previous": false,
+      "bindings": [],
+      "sha256": "eaec24c078e2f98a9d7eaea4e1381a61ecfa06865b24cc25c444a63b9f3ae688",
+      "object_sha256": "48071d75f826df745c338cfbce396953b528811acb418b54e2970e6d701efc59",
+      "whole_section": true
+    },
+    {
+      "unit": "closure_cmd_ui_settings",
+      "anchor": "??_C@_0BF@IIPOPIAL@?9?$DO?5Frame?5Limiter?3?5?$CFu?$AA@",
+      "anchor_offset": 0,
+      "rva": 958192,
+      "size": 21,
+      "section": 74,
+      "kind": "data",
+      "duplicate_previous": false,
+      "bindings": [],
+      "sha256": "665bedacfda5d2b10670e223ae72593985397cf00c8f95a634c3d2dcfa9d71c4",
+      "object_sha256": "48071d75f826df745c338cfbce396953b528811acb418b54e2970e6d701efc59",
+      "whole_section": true
+    },
+    {
+      "unit": "closure_cmd_ui_settings",
+      "anchor": "??_C@_0CK@GLEEGHIK@?9?$DO?5Frame?5Limiter?3?5valid?5amounts?5@",
+      "anchor_offset": 0,
+      "rva": 958148,
+      "size": 42,
+      "section": 73,
+      "kind": "data",
+      "duplicate_previous": false,
+      "bindings": [],
+      "sha256": "cbc5b4615c2b8d079f9c13113b554d2414d462096e03b10ba7cd19548f29c0e2",
+      "object_sha256": "48071d75f826df745c338cfbce396953b528811acb418b54e2970e6d701efc59",
+      "whole_section": true
+    },
+    {
+      "unit": "closure_cmd_ui_settings",
+      "anchor": "??_C@_0BA@KNHPNDOI@disableheadmove?$AA@",
+      "anchor_offset": 0,
+      "rva": 958284,
+      "size": 16,
+      "section": 80,
+      "kind": "data",
+      "duplicate_previous": false,
+      "bindings": [],
+      "sha256": "1e36cd2e547b4844c589b788277e4bfc96a72248a8498eee6805f2ba79827d96",
+      "object_sha256": "48071d75f826df745c338cfbce396953b528811acb418b54e2970e6d701efc59",
+      "whole_section": true
+    },
+    {
+      "unit": "closure_cmd_ui_settings",
+      "anchor": "??_C@_0BL@LAPEANHL@?9?$DO?5Head?5movements?5disabled?$AA@",
+      "anchor_offset": 0,
+      "rva": 958256,
+      "size": 27,
+      "section": 79,
+      "kind": "data",
+      "duplicate_previous": false,
+      "bindings": [],
+      "sha256": "5ace4298e4980df5da1ad477283aeaf2c25b958f8c291acfd108529db8380f38",
+      "object_sha256": "48071d75f826df745c338cfbce396953b528811acb418b54e2970e6d701efc59",
+      "whole_section": true
+    },
+    {
+      "unit": "closure_cmd_ui_settings",
+      "anchor": "??_C@_0BK@JIOMGGJG@?9?$DO?5Head?5movements?5enabled?$AA@",
+      "anchor_offset": 0,
+      "rva": 958228,
+      "size": 26,
+      "section": 78,
+      "kind": "data",
+      "duplicate_previous": false,
+      "bindings": [],
+      "sha256": "a7b7e2b4675149107bed395ef5bc92daf957c9afd6edc4fa46b31b14c7089723",
+      "object_sha256": "48071d75f826df745c338cfbce396953b528811acb418b54e2970e6d701efc59",
+      "whole_section": true
+    },
+    {
+      "unit": "closure_cmd_player_skin",
+      "anchor": "??_C@_0CC@IIEMIINO@Usage?3?5player_skin?5?$CIskin?5number?$CJ@",
+      "anchor_offset": 0,
+      "rva": 958736,
+      "size": 34,
+      "section": 52,
+      "kind": "data",
+      "duplicate_previous": false,
+      "bindings": [],
+      "sha256": "f22c169176da2ae9641af47abc444d42132df07ad0f84962d8d68c7fbb4788b6",
+      "object_sha256": "3859e22bbe0010b90126ce3ce2b3e0fc5be792c0970f970592041b77abf60460",
+      "whole_section": true
+    },
+    {
+      "unit": "closure_cmd_create_vehicle",
+      "anchor": "??_C@_0BI@IMGABIPF@Usage?3?5?1v?5?$CIvehicle?5id?$CJ?4?$AA@",
+      "anchor_offset": 0,
+      "rva": 958840,
+      "size": 24,
+      "section": 57,
+      "kind": "data",
+      "duplicate_previous": false,
+      "bindings": [],
+      "sha256": "d2450f78cef14eff153416772bcda8737b117ab4bb931fd20425f92c78ebb16c",
+      "object_sha256": "d1445a984120a3a660a896f95f53a007869c661eedb8c9ff97791a7ceb5ce1cb",
+      "whole_section": true
+    },
+    {
+      "unit": "closure_cmd_create_vehicle",
+      "anchor": "??_C@_07MNBIJLFM@TYPE_?$CFd?$AA@",
+      "anchor_offset": 0,
+      "rva": 958832,
+      "size": 8,
+      "section": 56,
+      "kind": "data",
+      "duplicate_previous": false,
+      "bindings": [],
+      "sha256": "dff10567d216cc3b2df92237f23c8c30b805fc8adb8b45c8c2431896037e3111",
+      "object_sha256": "d1445a984120a3a660a896f95f53a007869c661eedb8c9ff97791a7ceb5ce1cb",
+      "whole_section": true
+    },
+    {
+      "unit": "closure_cmd_create_vehicle",
+      "anchor": "__real@3f800000",
+      "anchor_offset": 0,
+      "rva": 940844,
+      "size": 4,
+      "section": 55,
+      "kind": "data",
+      "duplicate_previous": false,
+      "bindings": [],
+      "sha256": "e00e5eb9444182f352323374ef4e08ebcb784725fdd4fd612d7730540b3e0c8c",
+      "object_sha256": "d1445a984120a3a660a896f95f53a007869c661eedb8c9ff97791a7ceb5ce1cb",
+      "whole_section": true
+    },
+    {
+      "unit": "closure_cmd_create_vehicle",
+      "anchor": "__real@40a00000",
+      "anchor_offset": 0,
+      "rva": 958828,
+      "size": 4,
+      "section": 54,
+      "kind": "data",
+      "duplicate_previous": false,
+      "bindings": [],
+      "sha256": "fca31f1667a6aa1bba12fca4e4ea1becd503379d80da3213af07f6cc5702828d",
+      "object_sha256": "d1445a984120a3a660a896f95f53a007869c661eedb8c9ff97791a7ceb5ce1cb",
+      "whole_section": true
+    },
+    {
+      "unit": "closure_cmd_create_vehicle",
+      "anchor": "??_C@_0CC@MODFFDPO@I?5couldn?8t?5find?5the?5player?5actor@",
+      "anchor_offset": 0,
+      "rva": 958792,
+      "size": 34,
+      "section": 53,
+      "kind": "data",
+      "duplicate_previous": false,
+      "bindings": [],
+      "sha256": "a785a4672c037863e4e5e8a730930471e52830aef0f8848c27e07e768e1e4e00",
+      "object_sha256": "d1445a984120a3a660a896f95f53a007869c661eedb8c9ff97791a7ceb5ce1cb",
+      "whole_section": true
+    },
+    {
+      "unit": "closure_cmd_create_vehicle",
+      "anchor": "??_C@_0BB@JFODDHIN@game?5not?5loaded?4?$AA@",
+      "anchor_offset": 0,
+      "rva": 958772,
+      "size": 17,
+      "section": 52,
+      "kind": "data",
+      "duplicate_previous": false,
+      "bindings": [],
+      "sha256": "94c05465c24e1e61abeabbdb9eda759f3331a49efb65f2758ef1174b2322fbd1",
+      "object_sha256": "d1445a984120a3a660a896f95f53a007869c661eedb8c9ff97791a7ceb5ce1cb",
+      "whole_section": true
+    },
+    {
+      "unit": "closure_cmd_ui_settings",
+      "anchor": "??_C@_0BK@EKALLNMC@NameTag?5Player?5Status?3?5ON?$AA@",
+      "anchor_offset": 0,
+      "rva": 940812,
+      "size": 26,
+      "section": 49,
+      "kind": "data",
+      "duplicate_previous": false,
+      "bindings": [],
+      "sha256": "aa4238cd178dea2fd64c8517bf89181229c95c875a4443dd094d4e40d1f311dd",
+      "object_sha256": "48071d75f826df745c338cfbce396953b528811acb418b54e2970e6d701efc59",
+      "whole_section": true
+    },
+    {
+      "unit": "closure_cmd_ui_settings",
+      "anchor": "??_C@_0BA@CKOMLCGI@nonametagstatus?$AA@",
+      "anchor_offset": 0,
+      "rva": 940796,
+      "size": 16,
+      "section": 48,
+      "kind": "data",
+      "duplicate_previous": false,
+      "bindings": [],
+      "sha256": "be2d9decfcca557457cd021348b63de230e5371c70bee8a5d5f4c3c8527ba98d",
+      "object_sha256": "48071d75f826df745c338cfbce396953b528811acb418b54e2970e6d701efc59",
+      "whole_section": true
+    },
+    {
+      "unit": "closure_cmd_ui_settings",
+      "anchor": "??_C@_0BL@NNBABBBK@NameTag?5Player?5Status?3?5OFF?$AA@",
+      "anchor_offset": 0,
+      "rva": 940768,
+      "size": 27,
+      "section": 47,
+      "kind": "data",
+      "duplicate_previous": false,
+      "bindings": [],
+      "sha256": "55665070c158423dee45ba1e1c56d3e0874e4005b17e2547a4e39180c69499cc",
+      "object_sha256": "48071d75f826df745c338cfbce396953b528811acb418b54e2970e6d701efc59",
+      "whole_section": true
+    }
+  ],
+  "source_files": {
+    "client/saco/closure_cmd_ui_settings.cpp": "63fb69b2a9e47afbe525ef0119e4d897c22ec36396e400ea3982a9ffd4dc9841",
+    "client/saco/closure_cmd_rcon.cpp": "6f5c4fef8faa9fe3be50c0f368c3c5a7bf1c1d2189d430278a7068e73fc3820a",
+    "client/saco/closure_cmd_player_skin.cpp": "c5fb677e302dc8f36766b44a4910cd0b4e9ecb2efe197783153c75fe47e7e978",
+    "client/saco/closure_cmd_create_vehicle.cpp": "9225c27a06d1cc27f20d0c469959def686d5023fe3c9a571452b81b423243988",
+    "client/saco/closure_store_game_settings.cpp": "ddc747f1f9bd306bb2d1d8ca14c61af78b3f7cd27cfac662fc05505720ae9e11",
+    "client/saco/closure_store_hud_scale_fix.cpp": "0b96033f7a595984def1186284c49e7f839cbb21c7b657b72ddd5dd76da41fa0",
+    "client/saco/closure_store_camera_target_debug.cpp": "ca17d882bbaee28c37b35326f63e1336dd6a7390ccc86d9ccbdb89470294bcf0"
+  },
+  "excluded": [
+    "Unused template/getter bodies and RakNet sentinel16 unreferenced; not seeded.",
+    "AddEntry538/PushBack24 are implemented unmatched downstream chat bodies, zero credit.",
+    "NewVehicle142 plus EH21 covered by separate root preflight, not included1556."
+  ],
+  "provenance025": "HudScale/Mem already in base; Rcon and Skin adapt R5 semantics; CreateVehicle changes final factory argument from source025 string to R5 flag0. All hybrid/base bodies receive0 direct025."
+}

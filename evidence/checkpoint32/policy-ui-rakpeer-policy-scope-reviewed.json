@@ -1,0 +1,468 @@
+{
+  "status": "PASS_SCOPE_OWNERS_AND_ORIGINAL_ALLOCATION_AUDIT",
+  "baseline": 377473,
+  "run": "build/cp32-rakpeer-policy-trial1",
+  "new_unique_code": 2112,
+  "old_code_compared_no_credit": 10820,
+  "complete_types": {
+    "BanStruct": {
+      "size": 8,
+      "IP_pointer": 0,
+      "timeout": 4
+    },
+    "SimpleMutex": {
+      "size": 24,
+      "field": "whole Win32 CRITICAL_SECTION"
+    },
+    "HuffmanEncodingTree": {
+      "size": 1540,
+      "owner": "accepted full vendor class"
+    },
+    "RSACrypt256": {
+      "size": 305,
+      "owner": "accepted full vendor class"
+    }
+  },
+  "lifetime_rules": [
+    "Only whole BanStruct8 and char16 allocated; original scalar/array deletion forms preserved.",
+    "Whole Huffman1540 allocation and accepted ctor/dtor/GenerateFromFrequencyTable; no opaque allocation.",
+    "Existing RakPeer object uses complete original header; no allocation, ctor, or VFT reconstruction claimed here.",
+    "SimpleMutex Lock/Unlock operate on existing typed fields. Unreferenced SimpleMutex ctor/dtor excluded."
+  ],
+  "virtual_calls": [
+    {
+      "caller": "?GetOutgoingFrequencyTable@RakPeer@@UAE_NQAI@Z",
+      "site_rva": 231973,
+      "slot_offset": 40,
+      "method": "IsActive",
+      "abi": "RakPeerInterface thiscall on actual this; no VFT allocation or implementation credit implied"
+    },
+    {
+      "caller": "?GenerateCompressionLayer@RakPeer@@UAE_NQAI_N@Z",
+      "site_rva": 232059,
+      "slot_offset": 40,
+      "method": "IsActive",
+      "abi": "RakPeerInterface thiscall on actual this; no VFT allocation or implementation credit implied"
+    },
+    {
+      "caller": "?GenerateCompressionLayer@RakPeer@@UAE_NQAI_N@Z",
+      "site_rva": 232096,
+      "slot_offset": 220,
+      "method": "DeleteCompressionLayer",
+      "abi": "RakPeerInterface thiscall on actual this; no VFT allocation or implementation credit implied"
+    },
+    {
+      "caller": "?DeleteCompressionLayer@RakPeer@@UAE_N_N@Z",
+      "site_rva": 240805,
+      "slot_offset": 40,
+      "method": "IsActive",
+      "abi": "RakPeerInterface thiscall on actual this; no VFT allocation or implementation credit implied"
+    }
+  ],
+  "allocation_sites": [
+    {
+      "caller": "?GenerateCompressionLayer@RakPeer@@UAE_NQAI_N@Z",
+      "site_rva": 232107,
+      "last_immediate_push": 1540
+    },
+    {
+      "caller": "?AddToBanList@RakPeer@@UAEXPBDI@Z",
+      "site_rva": 239782,
+      "last_immediate_push": 8
+    },
+    {
+      "caller": "?AddToBanList@RakPeer@@UAEXPBDI@Z",
+      "site_rva": 239791,
+      "last_immediate_push": 16
+    }
+  ],
+  "accepted_providers": [
+    {
+      "symbol": "?GetTime@RakNet@@YAIXZ",
+      "rva": 190448,
+      "accepted_regions": [
+        {
+          "unit": "closure_raknet_time",
+          "size": 86
+        }
+      ]
+    },
+    {
+      "symbol": "?seedMT@@YAXI@Z",
+      "rva": 277168,
+      "accepted_regions": [
+        {
+          "unit": "closure_vendor_rand",
+          "size": 47
+        }
+      ]
+    },
+    {
+      "symbol": "?randomMT@@YAIXZ",
+      "rva": 277504,
+      "accepted_regions": [
+        {
+          "unit": "closure_vendor_rand",
+          "size": 68
+        }
+      ]
+    },
+    {
+      "symbol": "??3@YAXPAX@Z",
+      "rva": 812170,
+      "kind": "crt",
+      "existing_boundary": true
+    },
+    {
+      "symbol": "__imp__LeaveCriticalSection@4",
+      "rva": 938608,
+      "kind": "import",
+      "existing_boundary": true
+    },
+    {
+      "symbol": "_memmove",
+      "rva": 814560,
+      "kind": "crt",
+      "existing_boundary": true
+    },
+    {
+      "symbol": "__imp__EnterCriticalSection@4",
+      "rva": 938604,
+      "kind": "import",
+      "existing_boundary": true
+    },
+    {
+      "symbol": "??1HuffmanEncodingTree@@QAE@XZ",
+      "rva": 159648,
+      "accepted_regions": [
+        {
+          "unit": "closure_vendor_huffman",
+          "size": 5
+        }
+      ]
+    },
+    {
+      "symbol": "??2@YAPAXI@Z",
+      "rva": 811642,
+      "kind": "crt",
+      "existing_boundary": true
+    },
+    {
+      "symbol": "??0HuffmanEncodingTree@@QAE@XZ",
+      "rva": 157536,
+      "accepted_regions": [
+        {
+          "unit": "closure_vendor_huffman",
+          "size": 9
+        }
+      ]
+    },
+    {
+      "symbol": "?GenerateFromFrequencyTable@HuffmanEncodingTree@@QAEXQAI@Z",
+      "rva": 159680,
+      "accepted_regions": [
+        {
+          "unit": "closure_vendor_huffman",
+          "size": 478
+        }
+      ]
+    },
+    {
+      "symbol": "___CxxFrameHandler",
+      "rva": 812326,
+      "kind": "crt",
+      "existing_boundary": true
+    }
+  ],
+  "existing_source_owners_preserved": {
+    "??$setPrivateKey@$$BY03I@?$RSACrypt@$$BY07I@big@@QAEXAAY03I0@Z": {
+      "unit": "eval_vendor_rakpeer_rsa",
+      "rva": 265408,
+      "size": 394
+    },
+    "??$rModn@$$BY03I@big@@YAXAAY03I0@Z": {
+      "unit": "eval_vendor_rakpeer_rsa",
+      "rva": 250768,
+      "size": 147
+    },
+    "??$umodulo@$$BY07I@big@@YAXAAY07I00@Z": {
+      "unit": "eval_vendor_rakpeer_rsa",
+      "rva": 243536,
+      "size": 323
+    },
+    "??$subtract@$$BY07I@big@@YAXAAY07I0@Z": {
+      "unit": "eval_vendor_rakpeer_rsa",
+      "rva": 237696,
+      "size": 88
+    },
+    "??$ushiftRight1@$$BY07I@big@@YAXAAY07I@Z": {
+      "unit": "eval_vendor_rakpeer_rsa",
+      "rva": 238352,
+      "size": 118
+    },
+    "??$shiftLeft1@$$BY07I@big@@YAXAAY07I@Z": {
+      "unit": "eval_vendor_rakpeer_rsa",
+      "rva": 238240,
+      "size": 111
+    },
+    "??$shiftLeft@$$BY07I@big@@YAXAAY07II@Z": {
+      "unit": "eval_vendor_rakpeer_rsa",
+      "rva": 237120,
+      "size": 212
+    },
+    "??$ugreater@$$BY07I@big@@YA_NAAY07I0@Z": {
+      "unit": "eval_vendor_rakpeer_rsa",
+      "rva": 237344,
+      "size": 49
+    },
+    "??$computeNRinverse@$$BY03I@big@@YAXAAY03I0@Z": {
+      "unit": "eval_vendor_rakpeer_rsa",
+      "rva": 262656,
+      "size": 177
+    },
+    "??$udivide@$$BY07I@big@@YAXAAY07I000@Z": {
+      "unit": "eval_vendor_rakpeer_rsa",
+      "rva": 245232,
+      "size": 395
+    },
+    "??$decrement@$$BY07I@big@@YAXAAY07I@Z": {
+      "unit": "eval_vendor_rakpeer_rsa",
+      "rva": 236688,
+      "size": 28
+    },
+    "??$computeRinverse@$$BY03I@big@@YAXAAY03I0@Z": {
+      "unit": "eval_vendor_rakpeer_rsa",
+      "rva": 252800,
+      "size": 711
+    },
+    "??$SubMulMod@$$BY03I@big@@YAXAAY03I0000@Z": {
+      "unit": "eval_vendor_rakpeer_rsa",
+      "rva": 244944,
+      "size": 275
+    },
+    "??$add@$$BY03I@big@@YAXAAY03I0@Z": {
+      "unit": "eval_vendor_rakpeer_rsa",
+      "rva": 236848,
+      "size": 88
+    },
+    "??$subtract@$$BY03I@big@@YAXAAY03I0@Z": {
+      "unit": "eval_vendor_rakpeer_rsa",
+      "rva": 236752,
+      "size": 88
+    },
+    "??$ugreater@$$BY03I@big@@YA_NAAY03I0@Z": {
+      "unit": "eval_vendor_rakpeer_rsa",
+      "rva": 236272,
+      "size": 49
+    },
+    "??$umultiply@$$BY03I$$BY07I@big@@YAXAAY07IAAY03I@Z": {
+      "unit": "eval_vendor_rakpeer_rsa",
+      "rva": 238976,
+      "size": 144
+    },
+    "??$add@$$BY07I@big@@YAXAAY07I0@Z": {
+      "unit": "eval_vendor_rakpeer_rsa",
+      "rva": 236944,
+      "size": 88
+    },
+    "??$udivide@$$BY03I@big@@YAXAAY03I000@Z": {
+      "unit": "eval_vendor_rakpeer_rsa",
+      "rva": 244528,
+      "size": 411
+    },
+    "??$ushiftRight1@$$BY03I@big@@YAXAAY03I@Z": {
+      "unit": "eval_vendor_rakpeer_rsa",
+      "rva": 237568,
+      "size": 58
+    },
+    "??$shiftLeft1@$$BY03I@big@@YAXAAY03I@Z": {
+      "unit": "eval_vendor_rakpeer_rsa",
+      "rva": 238912,
+      "size": 55
+    },
+    "??$shiftLeft@$$BY03I@big@@YAXAAY03II@Z": {
+      "unit": "eval_vendor_rakpeer_rsa",
+      "rva": 238768,
+      "size": 136
+    },
+    "??$rModn@$$BY07I@big@@YAXAAY07I0@Z": {
+      "unit": "eval_vendor_rakpeer_rsa",
+      "rva": 249248,
+      "size": 203
+    },
+    "??$umodulo@$$BY0BA@I@big@@YAXAAY0BA@I00@Z": {
+      "unit": "eval_vendor_rakpeer_rsa",
+      "rva": 243200,
+      "size": 323
+    },
+    "??$subtract@$$BY0BA@I@big@@YAXAAY0BA@I0@Z": {
+      "unit": "eval_vendor_rakpeer_rsa",
+      "rva": 238144,
+      "size": 88
+    },
+    "??$ushiftRight1@$$BY0BA@I@big@@YAXAAY0BA@I@Z": {
+      "unit": "eval_vendor_rakpeer_rsa",
+      "rva": 238096,
+      "size": 40
+    },
+    "??$shiftLeft1@$$BY0BA@I@big@@YAXAAY0BA@I@Z": {
+      "unit": "eval_vendor_rakpeer_rsa",
+      "rva": 238048,
+      "size": 41
+    },
+    "??$shiftLeft@$$BY0BA@I@big@@YAXAAY0BA@II@Z": {
+      "unit": "eval_vendor_rakpeer_rsa",
+      "rva": 237904,
+      "size": 134
+    },
+    "??$ugreater@$$BY0BA@I@big@@YA_NAAY0BA@I0@Z": {
+      "unit": "eval_vendor_rakpeer_rsa",
+      "rva": 237840,
+      "size": 49
+    },
+    "??$computeNRinverse@$$BY07I@big@@YAXAAY07I0@Z": {
+      "unit": "eval_vendor_rakpeer_rsa",
+      "rva": 261616,
+      "size": 202
+    },
+    "??$udivide@$$BY0BA@I@big@@YAXAAY0BA@I000@Z": {
+      "unit": "eval_vendor_rakpeer_rsa",
+      "rva": 242816,
+      "size": 379
+    },
+    "??$decrement@$$BY0BA@I@big@@YAXAAY0BA@I@Z": {
+      "unit": "eval_vendor_rakpeer_rsa",
+      "rva": 236448,
+      "size": 79
+    },
+    "??$computeRinverse@$$BY07I@big@@YAXAAY07I0@Z": {
+      "unit": "eval_vendor_rakpeer_rsa",
+      "rva": 250928,
+      "size": 759
+    },
+    "??$SubMulMod@$$BY07I@big@@YAXAAY07I0000@Z": {
+      "unit": "eval_vendor_rakpeer_rsa",
+      "rva": 246000,
+      "size": 297
+    },
+    "??$umultiply@$$BY07I$$BY0BA@I@big@@YAXAAY0BA@IAAY07I@Z": {
+      "unit": "eval_vendor_rakpeer_rsa",
+      "rva": 239120,
+      "size": 130
+    },
+    "??$add@$$BY0BA@I@big@@YAXAAY0BA@I0@Z": {
+      "unit": "eval_vendor_rakpeer_rsa",
+      "rva": 238640,
+      "size": 88
+    },
+    "??$computeModularInverse@$$BY03I@big@@YAXAAY03I00@Z": {
+      "unit": "eval_vendor_rakpeer_rsa",
+      "rva": 250096,
+      "size": 668
+    },
+    "??$computePrivateExponent@$$BY07I@big@@YAXAAY07I00@Z": {
+      "unit": "eval_vendor_rakpeer_rsa",
+      "rva": 262640,
+      "size": 5
+    },
+    "??$computeModularInverse@$$BY07I@big@@YAXAAY07I00@Z": {
+      "unit": "eval_vendor_rakpeer_rsa",
+      "rva": 252112,
+      "size": 674
+    },
+    "??$computePublicExponent@$$BY07I@big@@YAXAAY07I0@Z": {
+      "unit": "eval_vendor_rakpeer_rsa",
+      "rva": 249872,
+      "size": 219
+    },
+    "??$GCD@$$BY07I@big@@YAXAAY07I00@Z": {
+      "unit": "eval_vendor_rakpeer_rsa",
+      "rva": 244336,
+      "size": 185
+    },
+    "??$umultiply@$$BY03I$$BY07I@big@@YAXAAY03I0AAY07I@Z": {
+      "unit": "eval_vendor_rakpeer_rsa",
+      "rva": 242624,
+      "size": 187
+    },
+    "??$decrement@$$BY03I@big@@YAXAAY03I@Z": {
+      "unit": "eval_vendor_rakpeer_rsa",
+      "rva": 236368,
+      "size": 28
+    },
+    "?generateKeys@?$RSACrypt@$$BY07I@big@@QAEXXZ": {
+      "unit": "eval_vendor_rakpeer_rsa",
+      "rva": 272192,
+      "size": 51
+    },
+    "??$generateStrongPseudoPrime@$$BY03I@big@@YAXAAY03I@Z": {
+      "unit": "eval_vendor_rakpeer_rsa",
+      "rva": 265808,
+      "size": 59
+    },
+    "??$RabinMillerPrimalityTest@$$BY03I@big@@YA_NAAY03II@Z": {
+      "unit": "eval_vendor_rakpeer_rsa",
+      "rva": 262848,
+      "size": 652
+    },
+    "??$simpleModExp@$$BY03I@big@@YAXAAY03I000@Z": {
+      "unit": "eval_vendor_rakpeer_rsa",
+      "rva": 251696,
+      "size": 406
+    },
+    "??$umultiply@$$BY07I$$BY07I@big@@YAXAAY07I00@Z": {
+      "unit": "eval_vendor_rakpeer_rsa",
+      "rva": 246304,
+      "size": 155
+    },
+    "??$usquare@$$BY07I@big@@YAXAAY07I@Z": {
+      "unit": "eval_vendor_rakpeer_rsa",
+      "rva": 238480,
+      "size": 155
+    },
+    "??$umodulo@$$BY03I@big@@YAXAAY03I00@Z": {
+      "unit": "eval_vendor_rakpeer_rsa",
+      "rva": 245632,
+      "size": 353
+    }
+  },
+  "unselected_accepted_copies": [],
+  "source025_direct_credit": 0,
+  "source_snapshots": [
+    {
+      "path": "build/cp32-rakpeer-policy-trial1/vendor/upstream/raknet/RakPeer.h",
+      "sha256": "3c462fd303bd7a7becc91f1b4e2752cff3656a2eec2a65afc0c15816c0902d75",
+      "same_source": true
+    },
+    {
+      "path": "build/cp32-rakpeer-policy-trial1/vendor/upstream/raknet/RakNetDefines.h",
+      "sha256": "6455724f22403506da42e67a96d4e8f76fb5502770844f32396cf39b4f8d47a1",
+      "same_source": true
+    },
+    {
+      "path": "build/cp32-rakpeer-policy-trial1/vendor/upstream/raknet/RSACrypt.h",
+      "sha256": "1dc479a8b012592fa1ce673d0e8417ca06e170a680815b68bf2da555c178f7bf",
+      "same_source": true
+    },
+    {
+      "path": "build/cp32-rakpeer-policy-trial1/vendor/upstream/raknet/BigTypes.h",
+      "sha256": "274390cd1f9d61e9d8b3db1e3870ca7eb52118fd6a4fe88fa6cb18fada496257",
+      "same_source": true
+    },
+    {
+      "path": "build/cp32-rakpeer-policy-trial1/vendor/upstream/raknet/SimpleMutex.cpp",
+      "sha256": "2b1a8eb69da134c24ef65adf9d7dc96cfd4305ee982e972d9ddde2b8a11ebd50",
+      "same_source": true
+    },
+    {
+      "path": "build/cp32-rakpeer-policy-trial1/vendor/upstream/raknet/SimpleMutex.h",
+      "sha256": "280fc4e2452fd8ccce73a169b254f0b26d81054785f9a21a434fb9621b14b5f9",
+      "same_source": true
+    },
+    {
+      "path": "build/cp32-rakpeer-policy-trial1/vendor/upstream/raknet/DS_HuffmanEncodingTree.h",
+      "sha256": "8e4486be1945ebeeb693a97653d2fdc86536be78c7c15c369c8e394ce486f4a7",
+      "same_source": true
+    }
+  ]
+}
