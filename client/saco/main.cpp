@@ -41,7 +41,7 @@ CNewPlayerTags			*pNewPlayerTags=NULL;
 extern CScoreBoard		*pScoreBoard; // storage: closure_store_scoreboard.cpp
 CUnkClass3 *pUnkClass3=NULL;
 CUnkClass4 *pUnkClass4=NULL;
-CUnkClass5 *pUnkClass5=NULL;
+extern CUnkClass5 *pUnkClass5;
 CLabel					*pLabel=NULL;
 CUnkClass10 *pUnkClass10=NULL;
 CUnkClass11 *pUnkClass11=NULL;
@@ -51,7 +51,7 @@ CSvrNetStats			*pSvrNetStats=NULL;
 CHelpDialog				*pHelpDialog=NULL;
 CUnkClass8 *pUnkClass8=NULL;
 
-bool					bShowDebugLabels = false;
+extern bool				bShowDebugLabels;
 
 CGame					*pGame=0;
 DWORD					dwGraphicsLoop=0;

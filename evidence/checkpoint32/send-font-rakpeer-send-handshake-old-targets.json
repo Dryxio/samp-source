@@ -1,0 +1,472 @@
+{
+  "status": "OLD_DISCOVERY_STATIC_HINTS_NOT_FRESH_ACCEPTANCE",
+  "roots": [
+    {
+      "symbol": "?RPC@RakPeer@@UAE_NPADPBDIW4PacketPriority@@W4PacketReliability@@DUPlayerID@@_N5UNetworkID@@PAVBitStream@RakNet@@@Z",
+      "rva": 254032,
+      "size": 728,
+      "targets": {
+        "__ehhandler$?RPC@RakPeer@@UAE_NPADPBDIW4PacketPriority@@W4PacketReliability@@DUPlayerID@@_N5UNetworkID@@PAVBitStream@RakNet@@@Z": 269363403,
+        "__except_list": 0,
+        "__alloca_probe": 269254320,
+        "?GetIndexFromPlayerID@RakPeer@@IAEHUPlayerID@@_N@Z": 268683056,
+        "??0BitStream@RakNet@@QAE@XZ": 268564272,
+        "?ResetWritePointer@BitStream@RakNet@@QAEXXZ": 268564752,
+        "?WriteBits@BitStream@RakNet@@QAEXPBEH_N@Z": 268566496,
+        "?GetTime@RakNet@@YAIXZ": 268625904,
+        "?Write@BitStream@RakNet@@QAEXPBDH@Z": 268566672,
+        "?WriteCompressed@BitStream@RakNet@@AAEXPBEH_N@Z": 268566832,
+        "??9PlayerID@@QBE_NABU0@@Z": 268646160,
+        "??1BitStream@RakNet@@QAE@XZ": 268564688
+      }
+    },
+    {
+      "symbol": "?RPC@RakPeer@@UAE_NPADPAVBitStream@RakNet@@W4PacketPriority@@W4PacketReliability@@DUPlayerID@@_N5UNetworkID@@1@Z",
+      "rva": 239392,
+      "size": 174,
+      "targets": {}
+    },
+    {
+      "symbol": "?SendImmediate@RakPeer@@IAE_NPADHW4PacketPriority@@W4PacketReliability@@DUPlayerID@@_N4_J@Z",
+      "rva": 248144,
+      "size": 772,
+      "targets": {
+        "__ehhandler$?SendImmediate@RakPeer@@IAE_NPADHW4PacketPriority@@W4PacketReliability@@DUPlayerID@@_N4_J@Z": 269363115,
+        "__except_list": 0,
+        "__alloca_probe": 269254320,
+        "?GetIndexFromPlayerID@RakPeer@@IAEHUPlayerID@@_N@Z": 268683056,
+        "??0BitStream@RakNet@@QAE@H@Z": 268564320,
+        "?EncodeArray@HuffmanEncodingTree@@QAEXPAEIPAVBitStream@RakNet@@@Z": 268594688,
+        "?Send@ReliabilityLayer@@QAE_NPADHW4PacketPriority@@W4PacketReliability@@E_NH_J@Z": 268724992,
+        "??1BitStream@RakNet@@QAE@XZ": 268564688,
+        "??9PlayerID@@QBE_NABU0@@Z": 268646160,
+        "_UNASSIGNED_PLAYER_ID": 269477860,
+        "__alldiv": 269256704
+      }
+    },
+    {
+      "symbol": "?NotifyAndFlagForDisconnect@RakPeer@@IAEXUPlayerID@@_NE@Z",
+      "rva": 256240,
+      "size": 339,
+      "targets": {
+        "__except_list": 0,
+        "__ehhandler$?NotifyAndFlagForDisconnect@RakPeer@@IAEXUPlayerID@@_NE@Z": 269363467,
+        "_UNASSIGNED_PLAYER_ID": 269477860,
+        "??8PlayerID@@QBE_NABU0@@Z": 268646112,
+        "??0BitStream@RakNet@@QAE@H@Z": 268564320,
+        "?WriteBits@BitStream@RakNet@@QAEXPBEH_N@Z": 268566496,
+        "?GetRemoteSystemFromPlayerID@RakPeer@@IBEPAURemoteSystemStruct@1@UPlayerID@@_N1@Z": 268683232,
+        "?GetTime@RakNet@@YAIXZ": 268625904,
+        "?SendImmediate@RakPeer@@IAE_NPADHW4PacketPriority@@W4PacketReliability@@DUPlayerID@@_N4_J@Z": 268683600,
+        "?SendBuffered@RakPeer@@IAEXPBDHW4PacketPriority@@W4PacketReliability@@DUPlayerID@@_NW4ConnectMode@RemoteSystemStruct@1@@Z": 268676992,
+        "??1BitStream@RakNet@@QAE@XZ": 268564688
+      }
+    },
+    {
+      "symbol": "?PingInternal@RakPeer@@IAEXUPlayerID@@_N@Z",
+      "rva": 258464,
+      "size": 279,
+      "targets": {
+        "__except_list": 0,
+        "__ehhandler$?PingInternal@RakPeer@@IAEXUPlayerID@@_N@Z": 269363627,
+        "??0BitStream@RakNet@@QAE@H@Z": 268564320,
+        "?WriteBits@BitStream@RakNet@@QAEXPBEH_N@Z": 268566496,
+        "?GetTimeNS@RakNet@@YA_JXZ": 268626000,
+        "?GetTime@RakNet@@YAIXZ": 268625904,
+        "?SendImmediate@RakPeer@@IAE_NPADHW4PacketPriority@@W4PacketReliability@@DUPlayerID@@_N4_J@Z": 268683600,
+        "??1BitStream@RakNet@@QAE@XZ": 268564688
+      }
+    },
+    {
+      "symbol": "?SendStaticDataInternal@RakPeer@@IAEXUPlayerID@@_N@Z",
+      "rva": 258096,
+      "size": 367,
+      "targets": {
+        "__ehhandler$?SendStaticDataInternal@RakPeer@@IAEXUPlayerID@@_N@Z": 269363595,
+        "__except_list": 0,
+        "??0BitStream@RakNet@@QAE@H@Z": 268564320,
+        "?WriteBits@BitStream@RakNet@@QAEXPBEH_N@Z": 268566496,
+        "?Write@BitStream@RakNet@@QAEXPBDH@Z": 268566672,
+        "_UNASSIGNED_PLAYER_ID": 269477860,
+        "??8PlayerID@@QBE_NABU0@@Z": 268646112,
+        "?GetTime@RakNet@@YAIXZ": 268625904,
+        "?SendImmediate@RakPeer@@IAE_NPADHW4PacketPriority@@W4PacketReliability@@DUPlayerID@@_N4_J@Z": 268683600,
+        "??1BitStream@RakNet@@QAE@XZ": 268564688
+      }
+    },
+    {
+      "symbol": "?CloseConnectionInternal@RakPeer@@IAEXUPlayerID@@_N1E@Z",
+      "rva": 258752,
+      "size": 373,
+      "targets": {
+        "_UNASSIGNED_PLAYER_ID": 269477860,
+        "??8PlayerID@@QBE_NABU0@@Z": 268646112,
+        "?NotifyAndFlagForDisconnect@RakPeer@@IAEXUPlayerID@@_NE@Z": 268691696,
+        "?Reset@ReliabilityLayer@@QAEX_N@Z": 268739312,
+        "?Remove@?$OrderedList@UPlayerID@@UPlayerIDAndIndex@@$1?PlayerIDAndIndexComp@@YAHABU1@ABU2@@Z@DataStructures@@QAEIABUPlayerID@@@Z": 268684640,
+        "?WriteLock@?$SingleProducerConsumer@UBufferedCommandStruct@RakPeer@@@DataStructures@@QAEPAUBufferedCommandStruct@RakPeer@@XZ": 268670016,
+        "?WriteUnlock@?$SingleProducerConsumer@UBufferedCommandStruct@RakPeer@@@DataStructures@@QAEXXZ": 268670080
+      }
+    },
+    {
+      "symbol": "?CloseConnection@RakPeer@@UAEXUPlayerID@@_NE@Z",
+      "rva": 264704,
+      "size": 40,
+      "targets": {
+        "?CloseConnectionInternal@RakPeer@@IAEXUPlayerID@@_N1E@Z": 268694208
+      }
+    },
+    {
+      "symbol": "?Ping@RakPeer@@UAEXUPlayerID@@@Z",
+      "rva": 264752,
+      "size": 30,
+      "targets": {
+        "?PingInternal@RakPeer@@IAEXUPlayerID@@_N@Z": 268693920
+      }
+    },
+    {
+      "symbol": "?SendStaticData@RakPeer@@UAEXUPlayerID@@@Z",
+      "rva": 264784,
+      "size": 30,
+      "targets": {
+        "?SendStaticDataInternal@RakPeer@@IAEXUPlayerID@@_N@Z": 268693552
+      }
+    },
+    {
+      "symbol": "?ParseConnectionRequestPacket@RakPeer@@IAEXPAURemoteSystemStruct@1@UPlayerID@@PBDH@Z",
+      "rva": 264816,
+      "size": 276,
+      "targets": {
+        "?AllowIncomingConnections@RakPeer@@IBE_NXZ": 268668624,
+        "?GetTime@RakNet@@YAIXZ": 268625904,
+        "?SendImmediate@RakPeer@@IAE_NPADHW4PacketPriority@@W4PacketReliability@@DUPlayerID@@_N4_J@Z": 268683600,
+        "?OnConnectionRequest@RakPeer@@IAEXPAURemoteSystemStruct@1@PAE_N@Z": 268691312,
+        "?SecuredConnectionResponse@RakPeer@@IAEXUPlayerID@@@Z": 268693216
+      }
+    },
+    {
+      "symbol": "?OnConnectionRequest@RakPeer@@IAEXPAURemoteSystemStruct@1@PAE_N@Z",
+      "rva": 255856,
+      "size": 380,
+      "targets": {
+        "__ehhandler$?OnConnectionRequest@RakPeer@@IAEXPAURemoteSystemStruct@1@PAE_N@Z": 269363435,
+        "__except_list": 0,
+        "??0BitStream@RakNet@@QAE@H@Z": 268564320,
+        "?WriteBits@BitStream@RakNet@@QAEXPBEH_N@Z": 268566496,
+        "?GetIndexFromPlayerID@RakPeer@@IAEHUPlayerID@@_N@Z": 268683056,
+        "?GetTime@RakNet@@YAIXZ": 268625904,
+        "?SendImmediate@RakPeer@@IAE_NPADHW4PacketPriority@@W4PacketReliability@@DUPlayerID@@_N4_J@Z": 268683600,
+        "??1BitStream@RakNet@@QAE@XZ": 268564688
+      }
+    },
+    {
+      "symbol": "?SecuredConnectionResponse@RakPeer@@IAEXUPlayerID@@@Z",
+      "rva": 257760,
+      "size": 328,
+      "targets": {
+        "__ehhandler$?SecuredConnectionResponse@RakPeer@@IAEXUPlayerID@@@Z": 269363563,
+        "__except_list": 0,
+        "??0CSHA1@@QAE@XZ": 268777376,
+        "?GetTime@RakNet@@YAIXZ": 268625904,
+        "?GenerateSYNCookieRandomNumber@RakPeer@@IAEXXZ": 268668528,
+        "?Reset@CSHA1@@QAEXXZ": 268769008,
+        "?Update@CSHA1@@QAEXPAEI@Z": 268776256,
+        "?Final@CSHA1@@QAEXXZ": 268776688,
+        "?GetHash@CSHA1@@QBEPAEXZ": 268777360,
+        "?SendImmediate@RakPeer@@IAE_NPADHW4PacketPriority@@W4PacketReliability@@DUPlayerID@@_N4_J@Z": 268683600,
+        "??1CSHA1@@UAE@XZ": 268777392
+      }
+    },
+    {
+      "symbol": "?SecuredConnectionConfirmation@RakPeer@@IAEXPAURemoteSystemStruct@1@PAD@Z",
+      "rva": 266320,
+      "size": 1024,
+      "targets": {
+        "__ehhandler$?SecuredConnectionConfirmation@RakPeer@@IAEXPAURemoteSystemStruct@1@PAD@Z": 269363931,
+        "__except_list": 0,
+        "?AllocPacket@@YAPAUPacket@@I@Z": 268665552,
+        "?GetIndexFromPlayerID@RakPeer@@IAEHUPlayerID@@_N@Z": 268683056,
+        "?WriteLock@?$SingleProducerConsumer@PAUPacket@@@DataStructures@@QAEPAPAUPacket@@XZ": 268670464,
+        "?WriteUnlock@?$SingleProducerConsumer@PAUPacket@@@DataStructures@@QAEXXZ": 268670528,
+        "?randomMT@@YAIXZ": 268712960,
+        "??$computeNRinverse@$$BY07I@big@@YAXAAY07I0@Z": 268697072,
+        "??$rModn@$$BY07I@big@@YAXAAY07I0@Z": 268684704,
+        "?encrypt@?$RSACrypt@$$BY07I@big@@QAEXAAY07I0@Z": 268700656,
+        "?GetTime@RakNet@@YAIXZ": 268625904,
+        "?SendImmediate@RakPeer@@IAE_NPADHW4PacketPriority@@W4PacketReliability@@DUPlayerID@@_N4_J@Z": 268683600
+      }
+    }
+  ],
+  "providers": {
+    "__ehhandler$?RPC@RakPeer@@UAE_NPADPBDIW4PacketPriority@@W4PacketReliability@@DUPlayerID@@_N5UNetworkID@@PAVBitStream@RakNet@@@Z": {
+      "target_va": 269363403,
+      "status": "NEW_ROOT_OR_TEMPLATE_DATA_CRT_TO_REVIEW",
+      "accepted_owner": null
+    },
+    "__except_list": {
+      "target_va": 0,
+      "status": "NEW_ROOT_OR_TEMPLATE_DATA_CRT_TO_REVIEW",
+      "accepted_owner": null
+    },
+    "__alloca_probe": {
+      "target_va": 269254320,
+      "status": "NEW_ROOT_OR_TEMPLATE_DATA_CRT_TO_REVIEW",
+      "accepted_owner": null
+    },
+    "?GetIndexFromPlayerID@RakPeer@@IAEHUPlayerID@@_N@Z": {
+      "target_va": 268683056,
+      "status": "ACCEPTED_TRUE_PROVIDER",
+      "accepted_owner": "eval_vendor_rakpeer_remote_state"
+    },
+    "??0BitStream@RakNet@@QAE@XZ": {
+      "target_va": 268564272,
+      "status": "ACCEPTED_TRUE_PROVIDER",
+      "accepted_owner": "closure_cmd_bitstream"
+    },
+    "?ResetWritePointer@BitStream@RakNet@@QAEXXZ": {
+      "target_va": 268564752,
+      "status": "ACCEPTED_TRUE_PROVIDER",
+      "accepted_owner": "closure_cmd_bitstream"
+    },
+    "?WriteBits@BitStream@RakNet@@QAEXPBEH_N@Z": {
+      "target_va": 268566496,
+      "status": "ACCEPTED_TRUE_PROVIDER",
+      "accepted_owner": "closure_cmd_bitstream"
+    },
+    "?GetTime@RakNet@@YAIXZ": {
+      "target_va": 268625904,
+      "status": "ACCEPTED_TRUE_PROVIDER",
+      "accepted_owner": "closure_raknet_time"
+    },
+    "?Write@BitStream@RakNet@@QAEXPBDH@Z": {
+      "target_va": 268566672,
+      "status": "ACCEPTED_TRUE_PROVIDER",
+      "accepted_owner": "closure_cmd_bitstream"
+    },
+    "?WriteCompressed@BitStream@RakNet@@AAEXPBEH_N@Z": {
+      "target_va": 268566832,
+      "status": "ACCEPTED_TRUE_PROVIDER",
+      "accepted_owner": "closure_cmd_bitstream"
+    },
+    "??9PlayerID@@QBE_NABU0@@Z": {
+      "target_va": 268646160,
+      "status": "ACCEPTED_TRUE_PROVIDER",
+      "accepted_owner": "closure_vendor_network_id_comparisons"
+    },
+    "??1BitStream@RakNet@@QAE@XZ": {
+      "target_va": 268564688,
+      "status": "ACCEPTED_TRUE_PROVIDER",
+      "accepted_owner": "closure_cmd_bitstream"
+    },
+    "__ehhandler$?SendImmediate@RakPeer@@IAE_NPADHW4PacketPriority@@W4PacketReliability@@DUPlayerID@@_N4_J@Z": {
+      "target_va": 269363115,
+      "status": "NEW_ROOT_OR_TEMPLATE_DATA_CRT_TO_REVIEW",
+      "accepted_owner": null
+    },
+    "??0BitStream@RakNet@@QAE@H@Z": {
+      "target_va": 268564320,
+      "status": "ACCEPTED_TRUE_PROVIDER",
+      "accepted_owner": "closure_cmd_bitstream"
+    },
+    "?EncodeArray@HuffmanEncodingTree@@QAEXPAEIPAVBitStream@RakNet@@@Z": {
+      "target_va": 268594688,
+      "status": "ACCEPTED_TRUE_PROVIDER",
+      "accepted_owner": "closure_vendor_huffman"
+    },
+    "?Send@ReliabilityLayer@@QAE_NPADHW4PacketPriority@@W4PacketReliability@@E_NH_J@Z": {
+      "target_va": 268724992,
+      "status": "ACCEPTED_TRUE_PROVIDER",
+      "accepted_owner": "closure_vendor_reliability_packet_family"
+    },
+    "_UNASSIGNED_PLAYER_ID": {
+      "target_va": 269477860,
+      "status": "NEW_ROOT_OR_TEMPLATE_DATA_CRT_TO_REVIEW",
+      "accepted_owner": null
+    },
+    "__alldiv": {
+      "target_va": 269256704,
+      "status": "NEW_ROOT_OR_TEMPLATE_DATA_CRT_TO_REVIEW",
+      "accepted_owner": null
+    },
+    "__ehhandler$?NotifyAndFlagForDisconnect@RakPeer@@IAEXUPlayerID@@_NE@Z": {
+      "target_va": 269363467,
+      "status": "NEW_ROOT_OR_TEMPLATE_DATA_CRT_TO_REVIEW",
+      "accepted_owner": null
+    },
+    "??8PlayerID@@QBE_NABU0@@Z": {
+      "target_va": 268646112,
+      "status": "ACCEPTED_TRUE_PROVIDER",
+      "accepted_owner": "closure_vendor_network_id_comparisons"
+    },
+    "?GetRemoteSystemFromPlayerID@RakPeer@@IBEPAURemoteSystemStruct@1@UPlayerID@@_N1@Z": {
+      "target_va": 268683232,
+      "status": "ACCEPTED_TRUE_PROVIDER",
+      "accepted_owner": "eval_vendor_rakpeer_remote_state"
+    },
+    "?SendImmediate@RakPeer@@IAE_NPADHW4PacketPriority@@W4PacketReliability@@DUPlayerID@@_N4_J@Z": {
+      "target_va": 268683600,
+      "status": "NEW_ROOT_OR_TEMPLATE_DATA_CRT_TO_REVIEW",
+      "accepted_owner": null
+    },
+    "?SendBuffered@RakPeer@@IAEXPBDHW4PacketPriority@@W4PacketReliability@@DUPlayerID@@_NW4ConnectMode@RemoteSystemStruct@1@@Z": {
+      "target_va": 268676992,
+      "status": "ACCEPTED_TRUE_PROVIDER",
+      "accepted_owner": "eval_vendor_rakpeer_packet_api"
+    },
+    "__ehhandler$?PingInternal@RakPeer@@IAEXUPlayerID@@_N@Z": {
+      "target_va": 269363627,
+      "status": "NEW_ROOT_OR_TEMPLATE_DATA_CRT_TO_REVIEW",
+      "accepted_owner": null
+    },
+    "?GetTimeNS@RakNet@@YA_JXZ": {
+      "target_va": 268626000,
+      "status": "ACCEPTED_TRUE_PROVIDER",
+      "accepted_owner": "closure_raknet_time"
+    },
+    "__ehhandler$?SendStaticDataInternal@RakPeer@@IAEXUPlayerID@@_N@Z": {
+      "target_va": 269363595,
+      "status": "NEW_ROOT_OR_TEMPLATE_DATA_CRT_TO_REVIEW",
+      "accepted_owner": null
+    },
+    "?NotifyAndFlagForDisconnect@RakPeer@@IAEXUPlayerID@@_NE@Z": {
+      "target_va": 268691696,
+      "status": "NEW_ROOT_OR_TEMPLATE_DATA_CRT_TO_REVIEW",
+      "accepted_owner": null
+    },
+    "?Reset@ReliabilityLayer@@QAEX_N@Z": {
+      "target_va": 268739312,
+      "status": "ACCEPTED_TRUE_PROVIDER",
+      "accepted_owner": "closure_vendor_reliability_lifecycle"
+    },
+    "?Remove@?$OrderedList@UPlayerID@@UPlayerIDAndIndex@@$1?PlayerIDAndIndexComp@@YAHABU1@ABU2@@Z@DataStructures@@QAEIABUPlayerID@@@Z": {
+      "target_va": 268684640,
+      "status": "NEW_ROOT_OR_TEMPLATE_DATA_CRT_TO_REVIEW",
+      "accepted_owner": null
+    },
+    "?WriteLock@?$SingleProducerConsumer@UBufferedCommandStruct@RakPeer@@@DataStructures@@QAEPAUBufferedCommandStruct@RakPeer@@XZ": {
+      "target_va": 268670016,
+      "status": "ACCEPTED_TRUE_PROVIDER",
+      "accepted_owner": "eval_vendor_rakpeer_packet_api"
+    },
+    "?WriteUnlock@?$SingleProducerConsumer@UBufferedCommandStruct@RakPeer@@@DataStructures@@QAEXXZ": {
+      "target_va": 268670080,
+      "status": "ACCEPTED_TRUE_PROVIDER",
+      "accepted_owner": "eval_vendor_rakpeer_packet_api"
+    },
+    "?CloseConnectionInternal@RakPeer@@IAEXUPlayerID@@_N1E@Z": {
+      "target_va": 268694208,
+      "status": "NEW_ROOT_OR_TEMPLATE_DATA_CRT_TO_REVIEW",
+      "accepted_owner": null
+    },
+    "?PingInternal@RakPeer@@IAEXUPlayerID@@_N@Z": {
+      "target_va": 268693920,
+      "status": "NEW_ROOT_OR_TEMPLATE_DATA_CRT_TO_REVIEW",
+      "accepted_owner": null
+    },
+    "?SendStaticDataInternal@RakPeer@@IAEXUPlayerID@@_N@Z": {
+      "target_va": 268693552,
+      "status": "NEW_ROOT_OR_TEMPLATE_DATA_CRT_TO_REVIEW",
+      "accepted_owner": null
+    },
+    "?AllowIncomingConnections@RakPeer@@IBE_NXZ": {
+      "target_va": 268668624,
+      "status": "ACCEPTED_TRUE_PROVIDER",
+      "accepted_owner": "eval_vendor_rakpeer_remote_state"
+    },
+    "?OnConnectionRequest@RakPeer@@IAEXPAURemoteSystemStruct@1@PAE_N@Z": {
+      "target_va": 268691312,
+      "status": "NEW_ROOT_OR_TEMPLATE_DATA_CRT_TO_REVIEW",
+      "accepted_owner": null
+    },
+    "?SecuredConnectionResponse@RakPeer@@IAEXUPlayerID@@@Z": {
+      "target_va": 268693216,
+      "status": "NEW_ROOT_OR_TEMPLATE_DATA_CRT_TO_REVIEW",
+      "accepted_owner": null
+    },
+    "__ehhandler$?OnConnectionRequest@RakPeer@@IAEXPAURemoteSystemStruct@1@PAE_N@Z": {
+      "target_va": 269363435,
+      "status": "NEW_ROOT_OR_TEMPLATE_DATA_CRT_TO_REVIEW",
+      "accepted_owner": null
+    },
+    "__ehhandler$?SecuredConnectionResponse@RakPeer@@IAEXUPlayerID@@@Z": {
+      "target_va": 269363563,
+      "status": "NEW_ROOT_OR_TEMPLATE_DATA_CRT_TO_REVIEW",
+      "accepted_owner": null
+    },
+    "??0CSHA1@@QAE@XZ": {
+      "target_va": 268777376,
+      "status": "ACCEPTED_TRUE_PROVIDER",
+      "accepted_owner": "closure_vendor_sha1"
+    },
+    "?GenerateSYNCookieRandomNumber@RakPeer@@IAEXXZ": {
+      "target_va": 268668528,
+      "status": "ACCEPTED_TRUE_PROVIDER",
+      "accepted_owner": "eval_vendor_rakpeer_policy"
+    },
+    "?Reset@CSHA1@@QAEXXZ": {
+      "target_va": 268769008,
+      "status": "ACCEPTED_TRUE_PROVIDER",
+      "accepted_owner": "closure_vendor_sha1"
+    },
+    "?Update@CSHA1@@QAEXPAEI@Z": {
+      "target_va": 268776256,
+      "status": "ACCEPTED_TRUE_PROVIDER",
+      "accepted_owner": "closure_vendor_sha1"
+    },
+    "?Final@CSHA1@@QAEXXZ": {
+      "target_va": 268776688,
+      "status": "ACCEPTED_TRUE_PROVIDER",
+      "accepted_owner": "closure_vendor_sha1"
+    },
+    "?GetHash@CSHA1@@QBEPAEXZ": {
+      "target_va": 268777360,
+      "status": "ACCEPTED_TRUE_PROVIDER",
+      "accepted_owner": "closure_vendor_sha1"
+    },
+    "??1CSHA1@@UAE@XZ": {
+      "target_va": 268777392,
+      "status": "ACCEPTED_TRUE_PROVIDER",
+      "accepted_owner": "closure_vendor_sha1"
+    },
+    "__ehhandler$?SecuredConnectionConfirmation@RakPeer@@IAEXPAURemoteSystemStruct@1@PAD@Z": {
+      "target_va": 269363931,
+      "status": "NEW_ROOT_OR_TEMPLATE_DATA_CRT_TO_REVIEW",
+      "accepted_owner": null
+    },
+    "?AllocPacket@@YAPAUPacket@@I@Z": {
+      "target_va": 268665552,
+      "status": "ACCEPTED_TRUE_PROVIDER",
+      "accepted_owner": "closure_vendor_alloc_packet"
+    },
+    "?WriteLock@?$SingleProducerConsumer@PAUPacket@@@DataStructures@@QAEPAPAUPacket@@XZ": {
+      "target_va": 268670464,
+      "status": "NEW_ROOT_OR_TEMPLATE_DATA_CRT_TO_REVIEW",
+      "accepted_owner": null
+    },
+    "?WriteUnlock@?$SingleProducerConsumer@PAUPacket@@@DataStructures@@QAEXXZ": {
+      "target_va": 268670528,
+      "status": "NEW_ROOT_OR_TEMPLATE_DATA_CRT_TO_REVIEW",
+      "accepted_owner": null
+    },
+    "?randomMT@@YAIXZ": {
+      "target_va": 268712960,
+      "status": "ACCEPTED_TRUE_PROVIDER",
+      "accepted_owner": "closure_vendor_rand"
+    },
+    "??$computeNRinverse@$$BY07I@big@@YAXAAY07I0@Z": {
+      "target_va": 268697072,
+      "status": "ACCEPTED_TRUE_PROVIDER",
+      "accepted_owner": "eval_vendor_rakpeer_policy"
+    },
+    "??$rModn@$$BY07I@big@@YAXAAY07I0@Z": {
+      "target_va": 268684704,
+      "status": "ACCEPTED_TRUE_PROVIDER",
+      "accepted_owner": "eval_vendor_rakpeer_policy"
+    },
+    "?encrypt@?$RSACrypt@$$BY07I@big@@QAEXAAY07I0@Z": {
+      "target_va": 268700656,
+      "status": "ACCEPTED_TRUE_PROVIDER",
+      "accepted_owner": "eval_vendor_rakpeer_rsa"
+    }
+  }
+}

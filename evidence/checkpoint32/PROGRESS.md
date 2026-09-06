@@ -1497,3 +1497,6 @@ RakPeer remote state/RPCMap/reliability setters: +2816 unique accepted code byte
 
 
 Packet API2342 and command registration579: +2921 unique accepted code bytes, total387041/930756 (41.583508%).38 new whole regions, all4835 previous preserved. Real typed queues and callbacks, full original/linked code/data/EH and all COFF/PE targets; ten negative controls and Actor ABI PASS. Whole death/quit/debug/RPC stores, explicit main owner transfers. No duplicate/CRT/data or concrete callback implementation credit. Direct025+54/cumulative22322 via complete SelectVehicle24/GameDebugEntity30; Say191 hybrid0. 15977.8 bytes/hour including coordination/failures. FontSize/UI initialization dependencies next; goal active, no push/deploy.
+
+
+Send/handshake5328 plus FontSize/Setup/layout/toggles1113: +6441 unique accepted code bytes, total393482/930756 (42.275527%).Complete original/linked functions/data/EH and all COFF/PE targets; real vendor allocations and callbacks, duplicate RSA/BitStream excluded. Whole UI globals proved by real initialization and distinct owners, no startup allocation credit. Friend preserves actual private CreateFonts AAE; both profiles recompiled once at header milestone. Ten controls and Actor ABI PASS. Direct025+0/cumulative22322. 16164.7 bytes/hour including coordination/failures. Goal active, no push/deploy.

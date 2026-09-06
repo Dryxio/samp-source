@@ -2481,3 +2481,28 @@ EXPORTS
     ?QuitGame@@YAXXZ
     ?Say@CLocalPlayer@@QAEXPAD@Z
     ?GameDebugEntity@@YAXKKH@Z
+    ?SecuredConnectionConfirmation@RakPeer@@IAEXPAURemoteSystemStruct@1@PAD@Z
+    ?SendImmediate@RakPeer@@IAE_NPADHW4PacketPriority@@W4PacketReliability@@DUPlayerID@@_N4_J@Z
+    ?WriteUnlock@?$SingleProducerConsumer@PAUPacket@@@DataStructures@@QAEXXZ
+    ?WriteLock@?$SingleProducerConsumer@PAUPacket@@@DataStructures@@QAEPAPAUPacket@@XZ
+    ?SecuredConnectionResponse@RakPeer@@IAEXUPlayerID@@@Z
+    ?OnConnectionRequest@RakPeer@@IAEXPAURemoteSystemStruct@1@PAE_N@Z
+    ?ParseConnectionRequestPacket@RakPeer@@IAEXPAURemoteSystemStruct@1@UPlayerID@@PBDH@Z
+    ?SendStaticData@RakPeer@@UAEXUPlayerID@@@Z
+    ?SendStaticDataInternal@RakPeer@@IAEXUPlayerID@@_N@Z
+    ?Ping@RakPeer@@UAEXUPlayerID@@@Z
+    ?PingInternal@RakPeer@@IAEXUPlayerID@@_N@Z
+    ?CloseConnection@RakPeer@@UAEXUPlayerID@@_NE@Z
+    ?CloseConnectionInternal@RakPeer@@IAEXUPlayerID@@_N1E@Z
+    ?Remove@?$OrderedList@UPlayerID@@UPlayerIDAndIndex@@$1?PlayerIDAndIndexComp@@YAHABU1@ABU2@@Z@DataStructures@@QAEIABUPlayerID@@@Z
+    ?RemoveAtIndex@?$List@UPlayerIDAndIndex@@@DataStructures@@QAEXI@Z
+    ?NotifyAndFlagForDisconnect@RakPeer@@IAEXUPlayerID@@_NE@Z
+    ?RPC@RakPeer@@UAE_NPADPAVBitStream@RakNet@@W4PacketPriority@@W4PacketReliability@@DUPlayerID@@_N5UNetworkID@@1@Z
+    ?RPC@RakPeer@@UAE_NPADPBDIW4PacketPriority@@W4PacketReliability@@DUPlayerID@@_N5UNetworkID@@PAVBitStream@RakNet@@@Z
+    ?cmdCmpStat@@YAXPAD@Z
+    ?cmdToggleObjectLight@@YAXPAD@Z
+    ?cmdDebugLabels@@YAXPAD@Z
+    ?cmdFontSize@@YAXPAD@Z
+    ?RefreshApplicationUiFonts@@YAXXZ
+    ?SetupCommands@@YAXXZ
+    ?UpdateLayout@R5TransferDialogLayoutView@@QAEXXZ

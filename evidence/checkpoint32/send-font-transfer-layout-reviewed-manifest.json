@@ -1,0 +1,75 @@
+{
+  "status": "PASS_WHOLE_CODE_DATA_RELOCATIONS",
+  "run": "cp32-transfer-layout-trial1",
+  "baseline": 384120,
+  "new_unique_code": 214,
+  "source025_direct": 0,
+  "regions": [
+    {
+      "unit": "closure_transfer_dialog_layout",
+      "anchor": "?UpdateLayout@R5TransferDialogLayoutView@@QAEXXZ",
+      "section": 56,
+      "rva": 436064,
+      "size": 214,
+      "kind": "code",
+      "bindings": [
+        {
+          "symbol": "__imp__GetClientRect@8",
+          "site_rva": 436106,
+          "symbol_va": 269374320,
+          "addend": 0,
+          "target_va": 269374320,
+          "kind": 6
+        },
+        {
+          "symbol": "??_C@_01NFFPALBN@Y?$AA@",
+          "site_rva": 436192,
+          "symbol_va": 269378428,
+          "addend": 0,
+          "target_va": 269378428,
+          "kind": 6
+        },
+        {
+          "symbol": "?pDefaultFont@@3PAVCFontRender@@A",
+          "site_rva": 436206,
+          "symbol_va": 270986140,
+          "addend": 0,
+          "target_va": 270986140,
+          "kind": 6
+        },
+        {
+          "symbol": "?MeasureText2@CFontRender@@QAE?AUtagSIZE@@PADK@Z",
+          "site_rva": 436211,
+          "symbol_va": 268874416,
+          "addend": 0,
+          "target_va": 268874416,
+          "kind": 20
+        }
+      ],
+      "whole_section": true,
+      "sha256": "9cf3204638fd4656eb4f8135f3e649465265a8063fa6735e46318b36f07e01b2",
+      "object_sha256": "edae0f6e67e7428807608df3efe9a3ee834c902d7215da49131cd80e1b08a3c1"
+    },
+    {
+      "unit": "closure_transfer_dialog_layout",
+      "anchor": "??_C@_01NFFPALBN@Y?$AA@",
+      "section": 57,
+      "rva": 942972,
+      "size": 2,
+      "kind": "data",
+      "bindings": [],
+      "whole_section": true,
+      "sha256": "fb5642a8912a446bd56e6be6fcf18913a24b8b681959a9c7b9e00546f181c386",
+      "object_sha256": "edae0f6e67e7428807608df3efe9a3ee834c902d7215da49131cd80e1b08a3c1"
+    }
+  ],
+  "source_files": {
+    "client/saco/closure_transfer_dialog_layout.cpp": "5a608f54cad3bb1206e57ed06bad7917308ff42a980e12de5c687560e0276be6"
+  },
+  "native_abi": "GetClientRect HWND nativeGTA C97C1C; realCDXUTListBox pointer SetLocation/SetSize eachinvoke UpdateRects slot4C; no synthetic VFT.",
+  "identity": "Application owner26EB58 dialog28/list2C from real CUnkClass5 header and original C5620\u21926AAC0; called C5430\u21926A760. Partial view never allocated.",
+  "outside_credit": [
+    "Constructor/allocation of this application owner or contained list/dialog.",
+    "FontSize164 and UI font refresh106 remain unimplemented in this lot."
+  ]
+}

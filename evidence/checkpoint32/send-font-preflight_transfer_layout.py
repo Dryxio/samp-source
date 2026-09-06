@@ -1,0 +1,15 @@
+import sys,struct,json,hashlib
+from pathlib import Path
+sys.path.insert(0,'tools');from binary import PE,COFF
+D=Path('build/cp32-transfer-layout-trial1');u='closure_transfer_dialog_layout';p=PE(Path('private/samp.dll'));o=COFF(D/(u+'.obj'));c=json.loads(Path('config/checkpoint32/remote-state-contract.json').read_text());providers={r['anchor']:p.base+r['rva']+r.get('anchor_offset',0) for r in c['regions']};providers.update({n:v['reference_va'] for n,v in c['externals'].items()});n='?UpdateLayout@R5TransferDialogLayoutView@@QAEXXZ';s=next(x for x in o.names[n] if x['section']>0);sec=o.sections[s['section']-1];assert sec['size']==214 and s['value']==0;r=0x6a760;raw=bytearray(sec['bytes']);bindings=[];rows=[]
+for i in range(sec['reloc_count']):
+ off,idx,k=struct.unpack_from('<IIH',o.data,sec['reloc_ptr']+10*i);sym=o.symbols[idx];name=sym['name'];add=struct.unpack_from('<I',raw,off)[0]
+ if name.startswith('??_C@'):
+  ds=o.sections[sym['section']-1];assert sym['value']==0 and ds['size']==2 and ds['reloc_count']==0 and ds['bytes']==p.read(0xe637c,2)==b'Y\0';sv=p.base+0xe637c;rows.append(dict(unit=u,anchor=name,section=sym['section'],rva=0xe637c,size=2,kind='data',bindings=[],whole_section=True,sha256=hashlib.sha256(ds['bytes']).hexdigest()))
+ else:sv=providers[name]
+ target=sv+add;actual=struct.unpack('<I',p.read(r+off,4))[0];actual=actual if k==6 else (actual+p.base+r+off+4)&0xffffffff;assert target==actual;struct.pack_into('<I',raw,off,(target-(p.base+r+off+4 if k==20 else 0))&0xffffffff);bindings.append(dict(symbol=name,site_rva=r+off,symbol_va=sv,addend=add,target_va=target,kind=k))
+assert raw==p.read(r,214);assert {b['site_rva'] for b in bindings if b['kind']==6}=={a for a in p.relocations if r<=a<r+214};assert not any(0xe637c<=a<0xe637e for a in p.relocations)
+rows.insert(0,dict(unit=u,anchor=n,section=s['section'],rva=r,size=214,kind='code',bindings=bindings,whole_section=True,sha256=hashlib.sha256(raw).hexdigest()))
+for row in rows:row['object_sha256']=hashlib.sha256((D/(u+'.obj')).read_bytes()).hexdigest()
+out=dict(status='PASS_WHOLE_CODE_DATA_RELOCATIONS',run=D.name,baseline=384120,new_unique_code=214,source025_direct=0,regions=rows,source_files={'client/saco/'+u+'.cpp':hashlib.sha256((D/'client/saco'/(u+'.cpp')).read_bytes()).hexdigest()},native_abi='GetClientRect HWND nativeGTA C97C1C; realCDXUTListBox pointer SetLocation/SetSize eachinvoke UpdateRects slot4C; no synthetic VFT.',identity='Application owner26EB58 dialog28/list2C from real CUnkClass5 header and original C5620→6AAC0; called C5430→6A760. Partial view never allocated.',outside_credit=['Constructor/allocation of this application owner or contained list/dialog.','FontSize164 and UI font refresh106 remain unimplemented in this lot.'])
+Path('build/agent-textdraw/transfer-layout-reviewed-manifest.json').write_text(json.dumps(out,indent=2)+'\n');Path('build/agent-textdraw/transfer-layout-seeds.json').write_text(json.dumps([dict(unit=u,symbol=n,rva=r,size=214)],indent=2)+'\n');print(out['status'],'214code+2literal,4fixups')
