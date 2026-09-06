@@ -1,0 +1,38 @@
+{
+  "status": "NORMAL_CPP_PROPOSAL_NOT_COMPILED",
+  "unit": "closure_remote_driver_update",
+  "profile": "Ob1",
+  "functions": [
+    {
+      "symbol": "?StateChange@R5RemoteDriverUpdateView@@QAEXEE@Z",
+      "rva": 90736,
+      "size": 182
+    },
+    {
+      "symbol": "?StoreDriverSync@R5RemoteDriverUpdateView@@QAEXPAUR5RemoteDriverSync@@K@Z",
+      "rva": 95040,
+      "size": 242
+    }
+  ],
+  "new_unique_potential": 424,
+  "source025_direct": 0,
+  "data": [
+    {
+      "rva": 940844,
+      "size": 4,
+      "value": "1.0f"
+    },
+    {
+      "rva": 942424,
+      "size": 18,
+      "value": "~r~Car Jacked~w~!\\0"
+    }
+  ],
+  "source025": "StateChange and StoreInCarFullSyncData supply core algorithm. R5 late pool fetch/no nullable guard,63-byte record, timestamp handling and entry immediate differ; adaptations direct0.",
+  "types": "All remote and pool views pointer-only. Complete63-byte packet represented without omissions; unconsumed payload explicitly opaque, never separately allocated or credited. All consumed offsets compile-asserted.",
+  "semantics": "Timestamp0 always accepted and stored; nonzero rejected only if signed subtraction negative. Driver state19/update17; sourceHealth/Armour byte conversions; whole63 copy; original state transition removes local driver from identical vehicle then displays exact message.",
+  "dependent_candidates": [
+    "EnsureVehicleEntry14800/238"
+  ],
+  "duplicates": "Possible FindPlayerPed94 +EH21 +FuncInfo36 emission; whole previous copies zero new code. Any other helper emissions not independently credited."
+}

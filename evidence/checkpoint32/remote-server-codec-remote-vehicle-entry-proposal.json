@@ -1,0 +1,27 @@
+{
+  "status": "NORMAL_CPP_PROPOSAL_NOT_COMPILED",
+  "unit": "closure_remote_vehicle_entry",
+  "profile": "Ob1",
+  "symbol": "?EnsureVehicleEntry@R5RemoteVehicleEntryView@@QAEXXZ",
+  "rva": 83968,
+  "size": 238,
+  "original_sha256": "8730f3c0d8d7b752a145e7a106435cb7713298dc554c7347205763cb224e4a83",
+  "new_unique_potential": 238,
+  "source025_direct": 0,
+  "providers": {
+    "pNetGame": 2550676,
+    "CPlayerPed::IsInVehicle": 704112,
+    "CPlayerPed::GetCurrentWeapon": 703568,
+    "CPlayerPed::SetArmedWeapon": 704608,
+    "CPlayerPed::GiveWeapon": 718736,
+    "R5VehicleGtaIdPoolView::FindGtaIDFromID": 125888,
+    "CPlayerPed::PutDirectlyInVehicle": 705168
+  },
+  "new_data": [],
+  "eh": [],
+  "layout": "All views pointer-only, offsets asserted; no fake allocation. Both pool/net views copied identically from accepted-candidate RPC owners. Remote fields inferred from original reads, not claimed full source class.",
+  "semantics": "Seat0 selects driver byte4F, other seats passenger byteB0; low6bits represent weapon; set first, give9999 only if still not active; then unconditionally call PutDirectly using native lookup.",
+  "source025": "HandleVehicleEntryExit provides conceptual vehicle-check/lookup/PutDirectly chain, but R5 split lacks outer state logic and adds weapon correction; hybrid0direct.",
+  "unknown_transitive_dependencies": [],
+  "matching_requirement": "Whole238 only. New lookup32 must be accepted with current lot; no masked targets, unused inline emit credit or helpers assumed accepted."
+}

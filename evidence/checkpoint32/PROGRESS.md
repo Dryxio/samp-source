@@ -1506,3 +1506,6 @@ Disconnect1862 and vehicle selection965/ped559: +3386 unique accepted code bytes
 
 
 RakClient2088 +Router/SystemAddressList3378 +RPC491: +5957 unique accepted code bytes, total402825/930756 (43.279334%).Entire original/linked code/data/EH and all COFF/PE targets; true multiple inheritance ABI, virtual interfaces, complete types and original file CRT boundaries. PutPlayer261 restored via normal inline getter context; Control156 and lookup32 exact. No duplicate/CRT/data/concrete callback or unimplemented graph credit. Ten controls and Actor ABI PASS. Direct025+0/cumulative22342; missing RPC source useful as adapted reference. 16358.9 bytes/hour coordination/failures included. Goal active, no push/deploy.
+
+
+Remote899 +codec210 +RakServer1138 +IsActive11 provider (zero new credit): +2247 unique exact accepted bytes, total405072/930756 (43.520751%). Entire original/linked code/data/EH, all COFF/PE and actual providers; first link exposed absent IsActive, true original predicate emitted11, no alias substitution. Ten controls and Actor ABI PASS. Direct0250/cumulative22342, codec194 assisted/adapted; whole table256 verified without code credit. Remote getter preserves actual source context. SendTo137 excluded due unresolved outputextent. 30min experiment ongoing; all2247 candidate work predates experiment. No push/deploy.

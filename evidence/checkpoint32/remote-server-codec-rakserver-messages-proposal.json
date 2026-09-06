@@ -1,0 +1,260 @@
+{
+  "status": "SOURCE_PROPOSAL_REQUIRES_FRESH_PROBE",
+  "source": "vendor/upstream/raknet/RakServer.cpp",
+  "source_sha256": "16b91c9aab897f9be9e03d962b8a9f3c53f17d384636a8dd6d89fedda8f26a4d",
+  "proposal": "build/agent-independent/eval_vendor_rakserver_messages.cpp",
+  "proposal_sha256": "148d3151df0ec162312ee73b611bdcdd3713df083d295bb11a24a0712c64eb06",
+  "functions": [
+    {
+      "method": "InitializeSecurity",
+      "source_line": 37,
+      "adaptation": "unchanged vendor body",
+      "sha256": "1ed238840782104411aea629a65eb787a0847c3d38570cef0fcd782d2fbfbdf8"
+    },
+    {
+      "method": "HasPassword",
+      "source_line": 88,
+      "adaptation": "unchanged vendor body",
+      "sha256": "423e79f9a3e0eb11b9679a4e98c24df7e8fd80fe23e298124413bde31f9ba5bc"
+    },
+    {
+      "method": "Send",
+      "source_line": 100,
+      "adaptation": "unchanged vendor body",
+      "sha256": "e021ac840f4a1bdb40c243dbdbbf6548fd10f367862130d63f6b618b2dd0f99c"
+    },
+    {
+      "method": "Send",
+      "source_line": 105,
+      "adaptation": "unchanged vendor body",
+      "sha256": "55eddf98ba5d40b6777b0cb50be30706be9c963fad6f189222847ed5d2d74a0c"
+    },
+    {
+      "method": "Receive",
+      "source_line": 110,
+      "adaptation": "R5 independently verified only synchronized-random update block; original lacks occasional-ping broadcast and packet-relay blocks present in vendor",
+      "sha256": "95d30e7ebb59841a85736f42436ee82d425a0ddded365e2836890d79e96d710e"
+    },
+    {
+      "method": "Kick",
+      "source_line": 281,
+      "adaptation": "unchanged vendor body",
+      "sha256": "fb806f01a7752b565b75634fb076050c3313ded39dcb138f2c3f2908cf3bb824"
+    },
+    {
+      "method": "GetConnectedPlayers",
+      "source_line": 301,
+      "adaptation": "unchanged vendor body",
+      "sha256": "3fddbe5d03c6bbbc46f426c7d236c59f92cd733242462e826a32a9e8305a4458"
+    },
+    {
+      "method": "RPC",
+      "source_line": 390,
+      "adaptation": "unchanged vendor body",
+      "sha256": "8a0aa03aaeaaa6cdeadbeb3fb633a3f5d2244a93f9055915f7f67d349b6d9374"
+    },
+    {
+      "method": "RPC",
+      "source_line": 395,
+      "adaptation": "unchanged vendor body",
+      "sha256": "00b18167541bd0aaed07c02481481f03bfb907f4ccf0d43c6483bf4b1b3a3776"
+    },
+    {
+      "method": "RPC",
+      "source_line": 400,
+      "adaptation": "unchanged vendor body",
+      "sha256": "acd341998859b795f6deab4b63611f45af6d0bc70da5db74f61bdd48d1e72b0c"
+    },
+    {
+      "method": "GetStaticServerData",
+      "source_line": 435,
+      "adaptation": "unchanged vendor body",
+      "sha256": "d618eaa01754101ab7d5023c214efff84e126218b21886ce738e4a5f5f4d4382"
+    },
+    {
+      "method": "SetStaticServerData",
+      "source_line": 440,
+      "adaptation": "unchanged vendor body",
+      "sha256": "34fee3ef6573d2c9417b68886786fcb1015a4c10dcaf0dcbff70bac0c42994c5"
+    },
+    {
+      "method": "SetStaticClientData",
+      "source_line": 465,
+      "adaptation": "unchanged vendor body",
+      "sha256": "7649b5a482bffb7901b98ee64c9ba8b9cc8eba011a903b89fd6d33851d16dc47"
+    },
+    {
+      "method": "IsActivePlayerID",
+      "source_line": 552,
+      "adaptation": "unchanged vendor body",
+      "sha256": "fabfad8d1057f479db6f90c6509f6ca2a726b3285fab11665fff278ce22eefe1"
+    },
+    {
+      "method": "SetTimeoutTime",
+      "source_line": 557,
+      "adaptation": "unchanged vendor body",
+      "sha256": "4ccbd489f777a76ee246a51ab07abe6d1dd8a315197e673b1e611896f34e5687"
+    }
+  ],
+  "old_unambiguous_roots": [
+    {
+      "symbol": "?InitializeSecurity@RakServer@@UAEXPBD0@Z",
+      "rva": 273360,
+      "size": 25,
+      "targets": {
+        "?InitializeSecurity@RakPeer@@UAEXPBD000@Z": 268708416
+      },
+      "new_candidate_bytes": 25
+    },
+    {
+      "symbol": "?HasPassword@RakServer@@UAE_NXZ",
+      "rva": 273600,
+      "size": 28,
+      "targets": {},
+      "new_candidate_bytes": 28
+    },
+    {
+      "symbol": "?Send@RakServer@@UAE_NPBDHW4PacketPriority@@W4PacketReliability@@DUPlayerID@@_N@Z",
+      "rva": 273648,
+      "size": 61,
+      "targets": {
+        "?Send@RakPeer@@UAE_NPBDHW4PacketPriority@@W4PacketReliability@@DUPlayerID@@_N@Z": 268681920
+      },
+      "new_candidate_bytes": 61
+    },
+    {
+      "symbol": "?Send@RakServer@@UAE_NPAVBitStream@RakNet@@W4PacketPriority@@W4PacketReliability@@DUPlayerID@@_N@Z",
+      "rva": 273712,
+      "size": 56,
+      "targets": {
+        "?Send@RakPeer@@UAE_NPAVBitStream@RakNet@@W4PacketPriority@@W4PacketReliability@@DUPlayerID@@_N@Z": 268682192
+      },
+      "new_candidate_bytes": 56
+    },
+    {
+      "symbol": "?Kick@RakServer@@UAEXUPlayerID@@@Z",
+      "rva": 273776,
+      "size": 35,
+      "targets": {
+        "?NotifyAndFlagForDisconnect@RakPeer@@IAEXUPlayerID@@_NE@Z": 268691696
+      },
+      "new_candidate_bytes": 35
+    },
+    {
+      "symbol": "?GetConnectedPlayers@RakServer@@UAEGXZ",
+      "rva": 273872,
+      "size": 21,
+      "targets": {
+        "?GetConnectionList@RakPeer@@UBE_NPAUPlayerID@@PAG@Z": 268666064
+      },
+      "new_candidate_bytes": 21
+    },
+    {
+      "symbol": "?RPC@RakServer@@UAE_NPADPBDIW4PacketPriority@@W4PacketReliability@@DUPlayerID@@_N5UNetworkID@@PAVBitStream@RakNet@@@Z",
+      "rva": 274272,
+      "size": 86,
+      "targets": {
+        "?RPC@RakPeer@@UAE_NPADPBDIW4PacketPriority@@W4PacketReliability@@DUPlayerID@@_N5UNetworkID@@PAVBitStream@RakNet@@@Z": 268689488
+      },
+      "new_candidate_bytes": 86
+    },
+    {
+      "symbol": "?RPC@RakServer@@UAE_NPADPAVBitStream@RakNet@@W4PacketPriority@@W4PacketReliability@@DUPlayerID@@_N5UNetworkID@@1@Z",
+      "rva": 274368,
+      "size": 81,
+      "targets": {
+        "?RPC@RakPeer@@UAE_NPADPAVBitStream@RakNet@@W4PacketPriority@@W4PacketReliability@@DUPlayerID@@_N5UNetworkID@@1@Z": 268674848
+      },
+      "new_candidate_bytes": 81
+    },
+    {
+      "symbol": "?RPC@RakServer@@UAE_NPADPAVBitStream@RakNet@@W4PacketPriority@@W4PacketReliability@@DUPlayerID@@_N5@Z",
+      "rva": 274560,
+      "size": 81,
+      "targets": {
+        "_UNASSIGNED_NETWORK_ID": 269477884,
+        "?RPC@RakPeer@@UAE_NPADPAVBitStream@RakNet@@W4PacketPriority@@W4PacketReliability@@DUPlayerID@@_N5UNetworkID@@1@Z": 268674848
+      },
+      "new_candidate_bytes": 81
+    },
+    {
+      "symbol": "?GetStaticServerData@RakServer@@UAEPAVBitStream@RakNet@@XZ",
+      "rva": 274800,
+      "size": 34,
+      "targets": {
+        "?GetRemoteStaticData@RakPeer@@UAEPAVBitStream@RakNet@@UPlayerID@@@Z": 268690496
+      },
+      "new_candidate_bytes": 34
+    },
+    {
+      "symbol": "?SetStaticServerData@RakServer@@UAEXPBDH@Z",
+      "rva": 274848,
+      "size": 46,
+      "targets": {
+        "?SetRemoteStaticData@RakPeer@@UAEXUPlayerID@@PBDH@Z": 268690576
+      },
+      "new_candidate_bytes": 46
+    },
+    {
+      "symbol": "?SetStaticClientData@RakServer@@UAEXUPlayerID@@PBDH@Z",
+      "rva": 274992,
+      "size": 41,
+      "targets": {
+        "?SetRemoteStaticData@RakPeer@@UAEXUPlayerID@@PBDH@Z": 268690576
+      },
+      "new_candidate_bytes": 41
+    },
+    {
+      "symbol": "?IsActivePlayerID@RakServer@@UAE_NUPlayerID@@@Z",
+      "rva": 275312,
+      "size": 41,
+      "targets": {
+        "?GetRemoteSystemFromPlayerID@RakPeer@@IBEPAURemoteSystemStruct@1@UPlayerID@@_N1@Z": 268683232
+      },
+      "new_candidate_bytes": 41
+    },
+    {
+      "symbol": "?SetTimeoutTime@RakServer@@UAEXIUPlayerID@@@Z",
+      "rva": 275360,
+      "size": 36,
+      "targets": {
+        "?SetTimeoutTime@RakPeer@@UAEXIUPlayerID@@@Z": 268690720
+      },
+      "new_candidate_bytes": 36
+    },
+    {
+      "symbol": "?Receive@RakServer@@UAEPAUPacket@@XZ",
+      "rva": 276432,
+      "size": 445,
+      "targets": {},
+      "new_candidate_bytes": 445
+    }
+  ],
+  "potential_root_bytes": 1117,
+  "source025_direct_bytes": 0,
+  "receive_original_scope": {
+    "rva": 276432,
+    "size": 445,
+    "RakPeer_this_offset": 4,
+    "RakPeer_Receive": 266192,
+    "RakPeer_IsActive": 254016,
+    "GetTime": 190448,
+    "randomMT": 277504,
+    "BitStream_ctor": 128864,
+    "BitStream_WriteBits": 131040,
+    "BitStream_dtor": 129232,
+    "synchronized_flag_offset": 3570,
+    "seed_offset": 3554,
+    "nextSeed_offset": 3558,
+    "nextSeedUpdate_offset": 3566,
+    "virtual_send_site": 276828,
+    "virtual_send_slot": 28,
+    "statement": "Whole445 body has only active+synchronized guard, time/new-connection update, five serialized fields and single virtual send; no ping broadcast/relay loop or postprocessing."
+  },
+  "scope": [
+    "Complete actual RakServer : RakServerInterface,RakPeer header, base offset4 source ABI. No partial allocation/constructor/fake VFT.",
+    "Two ambiguous old RPC overload candidates disambiguated by true RakPeer::RPC BitStream target3A720: use42FC0, not43020 calling3EE30.",
+    "All direct providers closed; virtual dispatch scope must be qualified without inferred concrete implementation coverage.",
+    "Save previous source1926 old mismatch; this first proposed normalCPP differs semantically only where R5 body proves omission."
+  ]
+}

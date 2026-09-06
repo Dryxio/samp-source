@@ -1,0 +1,314 @@
+{
+  "status": "PASS_FULL_SOURCE_REGIONS_ALL_COFF_PE_TARGETS",
+  "run": "cp32-remote-server-trial1",
+  "baseline": 402825,
+  "new_unique_code": 424,
+  "regions": [
+    {
+      "unit": "closure_remote_driver_update",
+      "section": 59,
+      "anchor": "?StoreDriverSync@R5RemoteDriverUpdateView@@QAEXPAUR5RemoteDriverSync@@K@Z",
+      "anchor_offset": 0,
+      "rva": 95040,
+      "size": 242,
+      "kind": "code",
+      "sha256": "7cff3310e3dc4fdf5f153d0d1698dd045a11d6b75f9f4251dc27e15904489872",
+      "bindings": [
+        {
+          "symbol": "?pNetGame@@3PAVCNetGame@@A",
+          "site_rva": 95110,
+          "kind": 6,
+          "target_va": 270986132
+        },
+        {
+          "symbol": "__imp__GetTickCount@0",
+          "site_rva": 95207,
+          "kind": 6,
+          "target_va": 269374008
+        },
+        {
+          "symbol": "?IsInVehicle@CPlayerPed@@QAEHXZ",
+          "site_rva": 95234,
+          "kind": 20,
+          "target_va": 269139568
+        },
+        {
+          "symbol": "?EnsureVehicleEntry@R5RemoteVehicleEntryView@@QAEXXZ",
+          "site_rva": 95245,
+          "kind": 20,
+          "target_va": 268519424
+        },
+        {
+          "symbol": "?StateChange@R5RemoteDriverUpdateView@@QAEXEE@Z",
+          "site_rva": 95267,
+          "kind": 20,
+          "target_va": 268526192
+        }
+      ]
+    },
+    {
+      "unit": "closure_remote_driver_update",
+      "section": 55,
+      "anchor": "?StateChange@R5RemoteDriverUpdateView@@QAEXEE@Z",
+      "anchor_offset": 0,
+      "rva": 90736,
+      "size": 182,
+      "kind": "code",
+      "sha256": "fda323a4845a734f83eb936a4aecd6bb0310fdd4899748d1370d8ffb6e54b9e9",
+      "bindings": [
+        {
+          "symbol": "?pGame@@3PAVCGame@@A",
+          "site_rva": 90767,
+          "kind": 6,
+          "target_va": 270986156
+        },
+        {
+          "symbol": "?FindPlayerPed@CGame@@QAEPAVCPlayerPed@@XZ",
+          "site_rva": 90773,
+          "kind": 20,
+          "target_va": 268439568
+        },
+        {
+          "symbol": "?IsInVehicle@CPlayerPed@@QAEHXZ",
+          "site_rva": 90786,
+          "kind": 20,
+          "target_va": 269139568
+        },
+        {
+          "symbol": "?IsAPassenger@CPlayerPed@@QAEHXZ",
+          "site_rva": 90797,
+          "kind": 20,
+          "target_va": 269139904
+        },
+        {
+          "symbol": "?pNetGame@@3PAVCNetGame@@A",
+          "site_rva": 90806,
+          "kind": 6,
+          "target_va": 270986132
+        },
+        {
+          "symbol": "?GetGtaVehicle@CPlayerPed@@QAEPAU_VEHICLE_TYPE@@XZ",
+          "site_rva": 90822,
+          "kind": 20,
+          "target_va": 269139968
+        },
+        {
+          "symbol": "?FindIDFromGtaPtr@RPCVehicleMotionPoolView@@QAEGPAU_VEHICLE_TYPE@@@Z",
+          "site_rva": 90830,
+          "kind": 20,
+          "target_va": 268561296
+        },
+        {
+          "symbol": "?GetMatrix@CEntity@@QAEXPAU_MATRIX4X4@@@Z",
+          "site_rva": 90852,
+          "kind": 20,
+          "target_va": 269085456
+        },
+        {
+          "symbol": "__real@3f800000",
+          "site_rva": 90862,
+          "kind": 6,
+          "target_va": 269376300
+        },
+        {
+          "symbol": "?RemoveFromVehicleAndPutAt@CPlayerPed@@QAEXMMM@Z",
+          "site_rva": 90883,
+          "kind": 20,
+          "target_va": 269141360
+        },
+        {
+          "symbol": "?pGame@@3PAVCGame@@A",
+          "site_rva": 90889,
+          "kind": 6,
+          "target_va": 270986156
+        },
+        {
+          "symbol": "??_C@_0BC@MFLMFHIM@?$HOr?$HOCar?5Jacked?$HOw?$HO?$CB?$AA@",
+          "site_rva": 90901,
+          "kind": 6,
+          "target_va": 269377880
+        },
+        {
+          "symbol": "?DisplayGameText@CGame@@QAEXPADHH@Z",
+          "site_rva": 90906,
+          "kind": 20,
+          "target_va": 269094112
+        }
+      ]
+    },
+    {
+      "unit": "closure_remote_driver_update",
+      "section": 56,
+      "anchor": "??_C@_0BC@MFLMFHIM@?$HOr?$HOCar?5Jacked?$HOw?$HO?$CB?$AA@",
+      "anchor_offset": 0,
+      "rva": 942424,
+      "size": 18,
+      "kind": "data",
+      "sha256": "3a1a97b3dd71e16b81f4914ec3bf7edfd944c9dfecd399d277c2a3d1273846d4",
+      "bindings": []
+    },
+    {
+      "unit": "closure_remote_driver_update",
+      "section": 57,
+      "anchor": "__real@3f800000",
+      "anchor_offset": 0,
+      "rva": 940844,
+      "size": 4,
+      "kind": "data",
+      "sha256": "e00e5eb9444182f352323374ef4e08ebcb784725fdd4fd612d7730540b3e0c8c",
+      "bindings": []
+    },
+    {
+      "unit": "closure_remote_driver_update",
+      "section": 46,
+      "anchor": "?FindPlayerPed@CGame@@QAEPAVCPlayerPed@@XZ",
+      "anchor_offset": 0,
+      "rva": 4112,
+      "size": 94,
+      "kind": "code",
+      "sha256": "c68912916b6df6feb35b20db4e7b421d654238152cff390567881edf7dc6dc63",
+      "bindings": [
+        {
+          "symbol": "__ehhandler$?FindPlayerPed@CGame@@QAEPAVCPlayerPed@@XZ",
+          "site_rva": 4115,
+          "kind": 6,
+          "target_va": 269352587
+        },
+        {
+          "symbol": "__except_list",
+          "site_rva": 4121,
+          "kind": 6,
+          "target_va": 0
+        },
+        {
+          "symbol": "__except_list",
+          "site_rva": 4129,
+          "kind": 6,
+          "target_va": 0
+        },
+        {
+          "symbol": "??2@YAPAXI@Z",
+          "site_rva": 4150,
+          "kind": 20,
+          "target_va": 269247098
+        },
+        {
+          "symbol": "??0CPlayerPed@@QAE@XZ",
+          "site_rva": 4176,
+          "kind": 20,
+          "target_va": 269138544
+        },
+        {
+          "symbol": "__except_list",
+          "site_rva": 4198,
+          "kind": 6,
+          "target_va": 0
+        }
+      ],
+      "duplicate_previous": true,
+      "previous_identical_owners": [
+        "closure_player_lifetime",
+        "closure_object_editor_attached",
+        "closure_rpc_player_motion_shop",
+        "closure_rpc_vehicle_motion",
+        "closure_vehicle_appearance_interior",
+        "closure_entity_local_distances",
+        "closure_local_player_construction",
+        "closure_cmd_save_positions",
+        "closure_cmd_player_skin",
+        "closure_cmd_create_vehicle",
+        "closure_vehicle_selection",
+        "closure_rpc_ped_vehicle_control"
+      ]
+    },
+    {
+      "unit": "closure_remote_driver_update",
+      "section": 47,
+      "anchor": "$L95188",
+      "anchor_offset": 0,
+      "rva": 917120,
+      "size": 21,
+      "kind": "code",
+      "sha256": "9319808924bf8500b1410f9cb245444680ef7a3fe4e84b7ca09480967e1426d7",
+      "bindings": [
+        {
+          "symbol": "??3@YAXPAX@Z",
+          "site_rva": 917125,
+          "kind": 20,
+          "target_va": 269247626
+        },
+        {
+          "symbol": "$T95192",
+          "site_rva": 917132,
+          "kind": 6,
+          "target_va": 269448728
+        },
+        {
+          "symbol": "___CxxFrameHandler",
+          "site_rva": 917137,
+          "kind": 20,
+          "target_va": 269247782
+        }
+      ],
+      "duplicate_previous": true,
+      "previous_identical_owners": [
+        "closure_player_lifetime",
+        "closure_object_editor_attached",
+        "closure_rpc_player_motion_shop",
+        "closure_rpc_vehicle_motion",
+        "closure_vehicle_appearance_interior",
+        "closure_entity_local_distances",
+        "closure_local_player_construction",
+        "closure_cmd_save_positions",
+        "closure_cmd_player_skin",
+        "closure_cmd_create_vehicle",
+        "closure_vehicle_selection",
+        "closure_rpc_ped_vehicle_control"
+      ]
+    },
+    {
+      "unit": "closure_remote_driver_update",
+      "section": 48,
+      "anchor": "$T95192",
+      "anchor_offset": 8,
+      "rva": 1013264,
+      "size": 36,
+      "kind": "data",
+      "sha256": "18eebed3494c03a403490a6f95494d9ce9fb81d4042f17a3cba066f92675eb8c",
+      "bindings": [
+        {
+          "symbol": "$L95188",
+          "site_rva": 1013268,
+          "kind": 6,
+          "target_va": 269352576
+        },
+        {
+          "symbol": "$T95198",
+          "site_rva": 1013280,
+          "kind": 6,
+          "target_va": 269448720
+        }
+      ],
+      "duplicate_previous": true,
+      "previous_identical_owners": [
+        "closure_player_lifetime",
+        "closure_object_editor_attached",
+        "closure_rpc_player_motion_shop",
+        "closure_rpc_vehicle_motion",
+        "closure_vehicle_appearance_interior",
+        "closure_entity_local_distances",
+        "closure_local_player_construction",
+        "closure_cmd_save_positions",
+        "closure_cmd_player_skin",
+        "closure_cmd_create_vehicle",
+        "closure_vehicle_selection",
+        "closure_rpc_ped_vehicle_control"
+      ]
+    }
+  ],
+  "source025_direct": 0,
+  "object_sha256": "30ac20dc0fdd0d062bef5a8d1a9486b79b54db75d2777d446a13ee9ad7833e7b",
+  "source_sha256": "002631aab57cf02023dc309d04fcd528db4fe5c59c27a1298cee7791cb969d6c",
+  "identity": "StateChange16270 and StoreDriverSync17340 actual body pair",
+  "typed_layout_note": "Complete packet63 copied, unconsumed bytes explicitly opaque; all consumed offsets asserted. No view allocation. FindPlayer physical copies receive zero new credit."
+}

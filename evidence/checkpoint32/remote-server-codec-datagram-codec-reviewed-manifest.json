@@ -1,0 +1,160 @@
+{
+  "status": "REVIEWED_MAIN_SEEDS_AND_WHOLE_EH_BINDINGS_PREFLIGHT",
+  "run": "build/cp32-datagram-codec-trial2",
+  "roots": {
+    "?R5DatagramChecksum@@YAEPBEI@Z": 128560,
+    "?R5DatagramSubstitute@@YAXEEPAEI@Z": 128608,
+    "?R5DatagramEncode@@YAXPAEPBEPAI@Z": 128688,
+    "?R5SetDatagramPort@@YAXI@Z": 128784
+  },
+  "seeds": {
+    "eval_datagram_codec": {
+      "?R5SetDatagramPort@@YAXI@Z": 128784,
+      "?R5DatagramEncode@@YAXPAEPBEPAI@Z": 128688,
+      "?R5DatagramSubstitute@@YAXEEPAEI@Z": 128608,
+      "?R5DatagramChecksum@@YAEPBEI@Z": 128560
+    },
+    "eval_store_datagram_key": {},
+    "eval_store_datagram_table": {}
+  },
+  "regions": [
+    {
+      "unit": "eval_datagram_codec",
+      "section": 9,
+      "rva": 128784,
+      "size": 16,
+      "kind": ".text",
+      "sha256": "8a4702e485ada29e44e621896d4187c8160550a5f6eea119ea136f90f1802237",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "?r5DatagramKey@@3GA",
+          "site_rva": 128795,
+          "target_va": 269585268,
+          "kind": 6
+        }
+      ]
+    },
+    {
+      "unit": "eval_datagram_codec",
+      "section": 7,
+      "rva": 128688,
+      "size": 86,
+      "kind": ".text",
+      "sha256": "ee5d523c8dc68c5cec75e8746363e0a150174615501fa67b55c23876d6c7bba8",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "?r5DatagramKey@@3GA",
+          "site_rva": 128690,
+          "target_va": 269585268,
+          "kind": 6
+        },
+        {
+          "symbol": "?R5DatagramChecksum@@YAEPBEI@Z",
+          "site_rva": 128714,
+          "target_va": 268564016,
+          "kind": 20
+        },
+        {
+          "symbol": "?R5DatagramSubstitute@@YAXEEPAEI@Z",
+          "site_rva": 128757,
+          "target_va": 268564064,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "eval_datagram_codec",
+      "section": 5,
+      "rva": 128608,
+      "size": 74,
+      "kind": ".text",
+      "sha256": "853349c830dbd48d40fb0924617dbec7e57a96391e39598b5a75022163ce7fd9",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "?r5DatagramSubstitution@@3PAEA",
+          "site_rva": 128648,
+          "target_va": 269477120,
+          "kind": 6
+        }
+      ]
+    },
+    {
+      "unit": "eval_datagram_codec",
+      "section": 3,
+      "rva": 128560,
+      "size": 34,
+      "kind": ".text",
+      "sha256": "b7c3932c862004bbb165fb9f5bf9775a5a255367a5ad642c0b43e8e6e52b8a15",
+      "whole_bytes_equal": true,
+      "bindings": []
+    },
+    {
+      "unit": "eval_store_datagram_key",
+      "section": 3,
+      "rva": 1149812,
+      "size": 2,
+      "kind": ".bss",
+      "sha256": "96a296d224f285c67bee93c30f8a309157f0daa35dc5b87e410b78630a09cfc7",
+      "whole_bytes_equal": true,
+      "bindings": []
+    },
+    {
+      "unit": "eval_store_datagram_table",
+      "section": 3,
+      "rva": 1041664,
+      "size": 256,
+      "kind": ".data",
+      "sha256": "76c2d10769fe41a4ab9dc2bfe60fcc316d266f52daf659e23dc97a1c702efa81",
+      "whole_bytes_equal": true,
+      "bindings": []
+    }
+  ],
+  "bindings_checked": 5,
+  "external_targets": {
+    "?r5DatagramKey@@3GA": 269585268,
+    "?r5DatagramSubstitution@@3PAEA": 269477120
+  },
+  "identity_reasons": {
+    "?R5DatagramChecksum@@YAEPBEI@Z": "actual relocation from ?R5DatagramEncode@@YAXPAEPBEPAI@Z",
+    "?R5DatagramSubstitute@@YAXEEPAEI@Z": "actual relocation from ?R5DatagramEncode@@YAXPAEPBEPAI@Z",
+    "?R5DatagramEncode@@YAXPAEPBEPAI@Z": "source method semantics + original call graph / allocation / table owner",
+    "?R5SetDatagramPort@@YAXI@Z": "source method semantics + original call graph / allocation / table owner"
+  },
+  "new_unique_code": 210,
+  "already_covered_code": 0,
+  "physical_code_compared": 210,
+  "baseline": 402825,
+  "source025_direct_bytes": 0,
+  "source025_assisted_adapted_bytes": 194,
+  "reuse_existing_owners": {},
+  "excluded_unmatched": [],
+  "explicit_owner_transfer": "None; new R5 datagram codec helper chain only.",
+  "unselected_method": "Only four real codec roots and original relocation closure selected; callback implementations are never credited.",
+  "source_files": [
+    {
+      "path": "client/saco/eval_datagram_codec.cpp",
+      "sha256": "ecd8468a104babda9e9bb98c83c4114c2189208851541b07e358a12aa3e746fe"
+    },
+    {
+      "path": "client/saco/eval_store_datagram_key.cpp",
+      "sha256": "d21f29edc45845bd25b5f0775ac2b09822eb327bc2ccb19ed58a22b603764016"
+    },
+    {
+      "path": "client/saco/eval_store_datagram_table.cpp",
+      "sha256": "b65d40b92289e1e04b35b6d8786a0b593c3e82d430ceccf9f1956bd89861b49d"
+    }
+  ],
+  "objects": {
+    "eval_datagram_codec": "d859bde3e6bdc997df819f6f88b1cbb1703d8c9057deb3b74b0f8a985a88e423",
+    "eval_store_datagram_key": "d2640bd3bc61127d84d08c098301aede618166c24d829a1afb7b9329c624b07f",
+    "eval_store_datagram_table": "606543d97e9f6b6a97a45a7cd17479e79dc22c731abe0c39a82b6f770ae5951f"
+  },
+  "actual_weak_aliases": {
+    "eval_datagram_codec": {},
+    "eval_store_datagram_key": {},
+    "eval_store_datagram_table": {}
+  }
+}

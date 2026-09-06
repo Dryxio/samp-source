@@ -2564,3 +2564,27 @@ EXPORTS
     ?ScrPutPlayerInVehicleTransfer@@YAXPAURPCParameters@@@Z
     ?ScrTogglePlayerControllableTransfer@@YAXPAURPCParameters@@@Z
     ?FindGtaIDFromID@R5VehicleGtaIdPoolView@@QAEHH@Z
+    ?R5SetDatagramPort@@YAXI@Z
+    ?R5DatagramEncode@@YAXPAEPBEPAI@Z
+    ?R5DatagramSubstitute@@YAXEEPAEI@Z
+    ?R5DatagramChecksum@@YAEPBEI@Z
+    ?Receive@RakServer@@UAEPAUPacket@@XZ
+    ?SetTimeoutTime@RakServer@@UAEXIUPlayerID@@@Z
+    ?IsActivePlayerID@RakServer@@UAE_NUPlayerID@@@Z
+    ?SetStaticClientData@RakServer@@UAEXUPlayerID@@PBDH@Z
+    ?SetStaticServerData@RakServer@@UAEXPBDH@Z
+    ?GetStaticServerData@RakServer@@UAEPAVBitStream@RakNet@@XZ
+    ?RPC@RakServer@@UAE_NPADPAVBitStream@RakNet@@W4PacketPriority@@W4PacketReliability@@DUPlayerID@@_N5@Z
+    ?RPC@RakServer@@UAE_NPADPAVBitStream@RakNet@@W4PacketPriority@@W4PacketReliability@@DUPlayerID@@_N5UNetworkID@@1@Z
+    ?RPC@RakServer@@UAE_NPADPBDIW4PacketPriority@@W4PacketReliability@@DUPlayerID@@_N5UNetworkID@@PAVBitStream@RakNet@@@Z
+    ?GetConnectedPlayers@RakServer@@UAEGXZ
+    ?Kick@RakServer@@UAEXUPlayerID@@@Z
+    ?Send@RakServer@@UAE_NPAVBitStream@RakNet@@W4PacketPriority@@W4PacketReliability@@DUPlayerID@@_N@Z
+    ?Send@RakServer@@UAE_NPBDHW4PacketPriority@@W4PacketReliability@@DUPlayerID@@_N@Z
+    ?HasPassword@RakServer@@UAE_NXZ
+    ?InitializeSecurity@RakServer@@UAEXPBD0@Z
+    ?EnsureVehicleEntry@R5RemoteVehicleEntryView@@QAEXXZ
+    ?StorePassengerSync@R5RemotePassengerUpdateView@@QAEXPAUR5RemotePassengerSync@@@Z
+    ?StateChange@R5RemoteDriverUpdateView@@QAEXEE@Z
+    ?StoreDriverSync@R5RemoteDriverUpdateView@@QAEXPAUR5RemoteDriverSync@@K@Z
+    ?IsActive@RakPeer@@UBE_NXZ

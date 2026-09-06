@@ -1,0 +1,107 @@
+{
+  "status": "PROPOSAL_NOT_ACCEPTED",
+  "roots": [
+    {
+      "name": "R5DatagramChecksum",
+      "rva": 128560,
+      "size": 34
+    },
+    {
+      "name": "R5DatagramSubstitute",
+      "rva": 128608,
+      "size": 74
+    },
+    {
+      "name": "R5DatagramEncode",
+      "rva": 128688,
+      "size": 86
+    },
+    {
+      "name": "R5SetDatagramPort",
+      "rva": 128784,
+      "size": 16
+    },
+    {
+      "name": "SocketLayer::SendTo(unsigned)",
+      "rva": 342704,
+      "size": 137
+    }
+  ],
+  "source025": {
+    "path": "/Users/salimtrouve/Documents/GitHub/samp-r5-preservation/references/michael-fa-samp/raknet/SAMP/samp_netencr.cpp",
+    "sha256": "9aad59d92133ef906c2eaf75a627f2ba1ffeeb194e77a68d78c601453a933e18",
+    "table_exact_bytes": 256,
+    "adaptations": [
+      "Original025 single checksum/memcpy/substitution routine split into actual R5 helpers34/74/86.",
+      "R5 uses two alternating byte keys; first0, second low byte of globalWORD set(port XOR CCCC). 025 uses direct port XOR CC and parity.",
+      "R5 output and length pointer arguments replace025 globalbuffer+length value."
+    ]
+  },
+  "owners": {
+    "table": {
+      "rva": 1041664,
+      "size": 256,
+      "source_backed": true,
+      "whole_sha256": "76c2d10769fe41a4ab9dc2bfe60fcc316d266f52daf659e23dc97a1c702efa81"
+    },
+    "key": {
+      "rva": 1149812,
+      "size": 2,
+      "writer_rva": 128784,
+      "reader_rva": 128688,
+      "initial_zero": true
+    },
+    "buffer": {
+      "rva": 1153592,
+      "status": "IDENTIFIED_ADDRESS_BUT_R5_FULL_EXTENT_UNPROVEN",
+      "source025_declared_size": 4092,
+      "warning": "No buffer storage unit supplied. Do not accept SendTo until actual whole R5 owner extent established; codec210 can be accepted independently."
+    }
+  },
+  "scope": [
+    "Normal C++ only; data table from fullsource reference, no instruction-byte source.",
+    "No runtime network execution; source-only proposal.",
+    "Key setter callerB930/siteB9CD independently identified.",
+    "Source buffer4092 is a reference hint, not a proven R5 allocation."
+  ],
+  "files": [
+    {
+      "path": "build/agent-independent/eval_datagram_codec.cpp",
+      "sha256": "1f4aa2298d0d2f429076f1c6505bd378a00e9fecacbf2d0d96cf281c81e7d72c"
+    },
+    {
+      "path": "build/agent-independent/eval_store_datagram_key.cpp",
+      "sha256": "d21f29edc45845bd25b5f0775ac2b09822eb327bc2ccb19ed58a22b603764016"
+    },
+    {
+      "path": "build/agent-independent/eval_store_datagram_table.cpp",
+      "sha256": "b65d40b92289e1e04b35b6d8786a0b593c3e82d430ceccf9f1956bd89861b49d"
+    },
+    {
+      "path": "build/agent-independent/eval_socket_datagram_send.cpp",
+      "sha256": "f53adfc35e13d0abbf4e596769af168b524ab6fa8145c95c407ed7e88541a136"
+    }
+  ],
+  "old_unambiguous_roots": [
+    {
+      "symbol": "?R5DatagramChecksum@@YAEPBEI@Z",
+      "rva": 128560,
+      "size": 34
+    },
+    {
+      "symbol": "?R5DatagramSubstitute@@YAXEEPAEI@Z",
+      "rva": 128608,
+      "size": 74
+    },
+    {
+      "symbol": "?R5DatagramEncode@@YAXPAEPBEPAI@Z",
+      "rva": 128688,
+      "size": 86
+    },
+    {
+      "symbol": "?R5SetDatagramPort@@YAXI@Z",
+      "rva": 128784,
+      "size": 16
+    }
+  ]
+}

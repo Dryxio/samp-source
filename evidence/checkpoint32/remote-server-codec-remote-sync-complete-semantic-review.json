@@ -1,0 +1,46 @@
+{
+  "status": "PASS_SEMANTIC_COMPLETE_TYPES_AND_DUPLICATE_REVIEW",
+  "baseline": 402825,
+  "new_unique_code": 899,
+  "source025_direct": 0,
+  "functions": [
+    {
+      "rva": 83968,
+      "size": 238,
+      "anchor": "?EnsureVehicleEntry@R5RemoteVehicleEntryView@@QAEXXZ"
+    },
+    {
+      "rva": 95296,
+      "size": 237,
+      "anchor": "?StorePassengerSync@R5RemotePassengerUpdateView@@QAEXPAUR5RemotePassengerSync@@@Z"
+    },
+    {
+      "rva": 95040,
+      "size": 242,
+      "anchor": "?StoreDriverSync@R5RemoteDriverUpdateView@@QAEXPAUR5RemoteDriverSync@@K@Z"
+    },
+    {
+      "rva": 90736,
+      "size": 182,
+      "anchor": "?StateChange@R5RemoteDriverUpdateView@@QAEXEE@Z"
+    }
+  ],
+  "data": [
+    {
+      "rva": 942424,
+      "size": 18,
+      "value": "~r~Car Jacked~w~! plus NUL"
+    },
+    {
+      "rva": 940844,
+      "size": 4,
+      "value": "1.0f",
+      "bytes": "0000803f"
+    }
+  ],
+  "duplicates": "Driver TU FindPlayer94+EH21+FuncInfo36: all original whole hashes equal prior accepted copies. Zero new code; selected actual MAP owner audit on final link pending. FuncInfo anchor_offset8 explicitly recorded.",
+  "packet_provenance": "Passenger24 source025 field sequence matches wire layout, including health4/armour5/position12. R5 mask6 instead025seat7 applied. Driver63 size from actual15MOVSD+MOVSW+MOVSB; vehicleid0/health52/armour53/weapon54 extracted by actual receivers and entry. Unconsumed bytes remain explicit wire payload; no allocated fabricated object.",
+  "state_semantics": "Driver timestamp0 accepted and stored, otherwise signed subtraction rejects older; state19 update17 vs passenger state18 update18. StateChange only new19/old17, actual local driver in same vehicle removed at z+1 with GameText exact18.",
+  "source_context_correction": "Passenger trial1 three differing ModRM bytes resolved by genuine025 combined bounds-or-inactive rejection then success return. Zero-field derived view retains accepted base declaration ODR; no standalone helper region credited.",
+  "scope": "Nine whole code/data sections and42fixups. New899 =238+237+182+242. No new globals; all callbacks/native providers accepted except chain-to238 in same batch. No synthetic VFT/allocation/EH coverage."
+}

@@ -1,0 +1,82 @@
+{
+  "status": "PASS_FULL_SOURCE_REGIONS_ALL_COFF_PE_TARGETS",
+  "run": "cp32-remote-vehicle-entry-trial1",
+  "baseline": 402825,
+  "new_unique_code": 238,
+  "regions": [
+    {
+      "unit": "closure_remote_vehicle_entry",
+      "section": 50,
+      "anchor": "?EnsureVehicleEntry@R5RemoteVehicleEntryView@@QAEXXZ",
+      "anchor_offset": 0,
+      "rva": 83968,
+      "size": 238,
+      "kind": "code",
+      "sha256": "8730f3c0d8d7b752a145e7a106435cb7713298dc554c7347205763cb224e4a83",
+      "bindings": [
+        {
+          "symbol": "?pNetGame@@3PAVCNetGame@@A",
+          "site_rva": 83969,
+          "kind": 6,
+          "target_va": 270986132
+        },
+        {
+          "symbol": "?IsInVehicle@CPlayerPed@@QAEHXZ",
+          "site_rva": 84000,
+          "kind": 20,
+          "target_va": 269139568
+        },
+        {
+          "symbol": "?GetCurrentWeapon@CPlayerPed@@QAEEXZ",
+          "site_rva": 84094,
+          "kind": 20,
+          "target_va": 269139024
+        },
+        {
+          "symbol": "?SetArmedWeapon@CPlayerPed@@QAEXH_N@Z",
+          "site_rva": 84116,
+          "kind": 20,
+          "target_va": 269140064
+        },
+        {
+          "symbol": "?GetCurrentWeapon@CPlayerPed@@QAEEXZ",
+          "site_rva": 84127,
+          "kind": 20,
+          "target_va": 269139024
+        },
+        {
+          "symbol": "?GiveWeapon@CPlayerPed@@QAEXHH@Z",
+          "site_rva": 84148,
+          "kind": 20,
+          "target_va": 269154192
+        },
+        {
+          "symbol": "?SetArmedWeapon@CPlayerPed@@QAEXH_N@Z",
+          "site_rva": 84162,
+          "kind": 20,
+          "target_va": 269140064
+        },
+        {
+          "symbol": "?FindGtaIDFromID@R5VehicleGtaIdPoolView@@QAEHH@Z",
+          "site_rva": 84178,
+          "kind": 20,
+          "target_va": 268561344
+        },
+        {
+          "symbol": "?PutDirectlyInVehicle@CPlayerPed@@QAEXHH@Z",
+          "site_rva": 84198,
+          "kind": 20,
+          "target_va": 269140624
+        }
+      ]
+    }
+  ],
+  "source025_direct": 0,
+  "object_sha256": "0944bd54f8a634b3f8d2129c094e08a527739ef158c0a16238a976cf3b728a4c",
+  "source_sha256": "c73dbce3873787a9e2bc72d8ac212b3d967328596cebfbf0fb760a1656b9b84d",
+  "identity_callers": [
+    95040,
+    95296
+  ],
+  "typed_layout_note": "Pointer-only partial view, no allocation; offsets asserted4F/B0/10B/1DD/1E7; same pool and net views as accepted RPC owners; no standalone inline-helper credit."
+}

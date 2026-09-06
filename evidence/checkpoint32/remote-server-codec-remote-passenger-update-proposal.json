@@ -1,0 +1,22 @@
+{
+  "status": "NORMAL_CPP_PROPOSAL_NOT_COMPILED",
+  "unit": "closure_remote_passenger_update",
+  "profile": "Ob1",
+  "symbol": "?StorePassengerSync@R5RemotePassengerUpdateView@@QAEXPAUR5RemotePassengerSync@@@Z",
+  "rva": 95296,
+  "size": 237,
+  "new_unique_potential": 237,
+  "original_sha256": "48b4a94f26930b96f78af9bafb615f11c6ba9c20fa10d72ed07fe63ee03ee1cb",
+  "source025_direct": 0,
+  "providers": {
+    "GetTickCount_IAT": 938552,
+    "IsInVehicle": 704112,
+    "EnsureVehicleEntry": 83968,
+    "pNetGame": 2550676
+  },
+  "new_data": [],
+  "eh": [],
+  "source025": "StorePassengerFullSyncData is actual source starting point, but R5 removes animation wait guard and nullable pool check, uses six-bit seat and adds received tick/AFK/EnsureVehicleEntry; hybrid direct0.",
+  "types": "Complete packet24 fields/offsets asserted; pointer-only remote view never allocated; R5RemoteVehicleEntryView declaration copied identically from provider. Copy exactly24, no unknown allocation coverage.",
+  "closure": "Requires candidate EnsureVehicleEntry238; all other providers accepted402825; inline GetAt/shared views copied exactly."
+}

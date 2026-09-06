@@ -1,0 +1,15 @@
+{
+  "status": "BOUNDED_NORMAL_CPP_CORRECTION",
+  "first_trial": "cp32-datagram-codec-trial1",
+  "matches": [
+    "Encode86",
+    "SetPort16",
+    "SendTo137"
+  ],
+  "mismatch": [
+    "Checksum34 and Substitute74 same size; only unsigned loop branch predicates differ after real table relocation"
+  ],
+  "correction": "Use original count-termination i!=length instead of relational i<length in two loops; starts at0 and increments by1, matching zero/neq branches.",
+  "proposal": "build/agent-independent/eval_datagram_codec2.cpp",
+  "sha256": "ecd8468a104babda9e9bb98c83c4114c2189208851541b07e358a12aa3e746fe"
+}
