@@ -1,0 +1,24 @@
+{
+  "status": "ACCEPTED",
+  "run": "cp32-trial30c-three-linked1",
+  "ob1": "cp32-trial30c-three-ob1",
+  "ob2": "cp32-disconnect-selection-ob2",
+  "coverage": {
+    "previous_code_bytes": 416760,
+    "batch_code_bytes": 412525,
+    "new_unique_code_bytes": 2310,
+    "union_code_bytes": 419070,
+    "text_bytes": 930756,
+    "text_percent": 45.02468960715805,
+    "whole_dll_match": false
+  },
+  "review": {
+    "scope": "Complete shortest path and spanning tree with EH2215 beyond previouslyacceptedDijkstra; network flag95. Expected2310 new unique.",
+    "adaptations": "Explicit instantiations restore original real Queue::Size and Map::Size inline/compiler clobber knowledge, retaining old accepted providers and full EH. No fake callee.",
+    "reference_credit": "Fresh matching fixes in existing vendor source; flag from original R5.",
+    "verification": "Whole source/linked code,data,EH and actual COFF/PE targets, previouslyacceptedregionspreserved; strict negativecontrols and ActorABI."
+  },
+  "checkpoint_complete": false,
+  "pushed": false,
+  "deployed": false
+}

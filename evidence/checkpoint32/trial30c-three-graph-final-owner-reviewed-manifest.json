@@ -1,0 +1,3395 @@
+{
+  "status": "REVIEWED_MAIN_SEEDS_AND_WHOLE_EH_BINDINGS_PREFLIGHT",
+  "run": "build/trial30c/network-agent/graph-final-owner-discovery",
+  "roots": {
+    "?GenerateDisjktraMatrix@?$WeightedGraph@UPlayerIdAndGroupId@ConnectionGraph@@G$0A@@DataStructures@@IAEXUPlayerIdAndGroupId@ConnectionGraph@@G@Z": 329184,
+    "?GetShortestPath@?$WeightedGraph@UPlayerIdAndGroupId@ConnectionGraph@@G$0A@@DataStructures@@QAE_NAAV?$List@UPlayerIdAndGroupId@ConnectionGraph@@@2@UPlayerIdAndGroupId@ConnectionGraph@@1G@Z": 330368,
+    "?GetSpanningTree@?$WeightedGraph@UPlayerIdAndGroupId@ConnectionGraph@@G$0A@@DataStructures@@QAE_NAAV?$Tree@UPlayerIdAndGroupId@ConnectionGraph@@@2@PAV?$List@UPlayerIdAndGroupId@ConnectionGraph@@@2@UPlayerIdAndGroupId@ConnectionGraph@@G@Z": 331408
+  },
+  "seeds": {
+    "closure_vendor_graph_algorithms": {
+      "?GetSpanningTree@?$WeightedGraph@UPlayerIdAndGroupId@ConnectionGraph@@G$0A@@DataStructures@@QAE_NAAV?$Tree@UPlayerIdAndGroupId@ConnectionGraph@@@2@PAV?$List@UPlayerIdAndGroupId@ConnectionGraph@@@2@UPlayerIdAndGroupId@ConnectionGraph@@G@Z": 331408,
+      "?GetShortestPath@?$WeightedGraph@UPlayerIdAndGroupId@ConnectionGraph@@G$0A@@DataStructures@@QAE_NAAV?$List@UPlayerIdAndGroupId@ConnectionGraph@@@2@UPlayerIdAndGroupId@ConnectionGraph@@1G@Z": 330368,
+      "?GenerateDisjktraMatrix@?$WeightedGraph@UPlayerIdAndGroupId@ConnectionGraph@@G$0A@@DataStructures@@IAEXUPlayerIdAndGroupId@ConnectionGraph@@G@Z": 329184
+    }
+  },
+  "regions": [
+    {
+      "unit": "closure_vendor_graph_algorithms",
+      "section": 152,
+      "rva": 331408,
+      "size": 1059,
+      "kind": ".text",
+      "sha256": "f5ed06393162a99c71a16c60be3783c12010b7109c4f350543cf0f72fb5b2dbf",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "__ehhandler$?GetSpanningTree@?$WeightedGraph@UPlayerIdAndGroupId@ConnectionGraph@@G$0A@@DataStructures@@QAE_NAAV?$Tree@UPlayerIdAndGroupId@ConnectionGraph@@@2@PAV?$List@UPlayerIdAndGroupId@ConnectionGraph@@@2@UPlayerIdAndGroupId@ConnectionGraph@@G@Z",
+          "site_rva": 331411,
+          "target_va": 269365982,
+          "kind": 6
+        },
+        {
+          "symbol": "__except_list",
+          "site_rva": 331417,
+          "target_va": 0,
+          "kind": 6
+        },
+        {
+          "symbol": "__except_list",
+          "site_rva": 331425,
+          "target_va": 0,
+          "kind": 6
+        },
+        {
+          "symbol": "??0?$List@UPlayerIdAndGroupId@ConnectionGraph@@@DataStructures@@QAE@XZ",
+          "site_rva": 331454,
+          "target_va": 268571808,
+          "kind": 20
+        },
+        {
+          "symbol": "??0?$WeightedGraph@UPlayerIdAndGroupId@ConnectionGraph@@G$0A@@DataStructures@@QAE@XZ",
+          "site_rva": 331471,
+          "target_va": 268580800,
+          "kind": 20
+        },
+        {
+          "symbol": "?GetShortestPath@?$WeightedGraph@UPlayerIdAndGroupId@ConnectionGraph@@G$0A@@DataStructures@@QAE_NAAV?$List@UPlayerIdAndGroupId@ConnectionGraph@@@2@UPlayerIdAndGroupId@ConnectionGraph@@1G@Z",
+          "site_rva": 331597,
+          "target_va": 268765824,
+          "kind": 20
+        },
+        {
+          "symbol": "?AddConnection@?$WeightedGraph@UPlayerIdAndGroupId@ConnectionGraph@@G$0A@@DataStructures@@QAEXABUPlayerIdAndGroupId@ConnectionGraph@@0G@Z",
+          "site_rva": 331627,
+          "target_va": 268580832,
+          "kind": 20
+        },
+        {
+          "symbol": "??0?$Queue@UNodeAndParent@?$WeightedGraph@UPlayerIdAndGroupId@ConnectionGraph@@G$0A@@DataStructures@@@DataStructures@@QAE@XZ",
+          "site_rva": 331674,
+          "target_va": 268757600,
+          "kind": 20
+        },
+        {
+          "symbol": "??0PlayerIdAndGroupId@ConnectionGraph@@QAE@XZ",
+          "site_rva": 331691,
+          "target_va": 268569216,
+          "kind": 20
+        },
+        {
+          "symbol": "?DeleteDecendants@?$Tree@UPlayerIdAndGroupId@ConnectionGraph@@@DataStructures@@QAEXXZ",
+          "site_rva": 331713,
+          "target_va": 268761920,
+          "kind": 20
+        },
+        {
+          "symbol": "?Has@?$Map@UPlayerIdAndGroupId@ConnectionGraph@@PAV?$Map@UPlayerIdAndGroupId@ConnectionGraph@@G$1??$defaultMapKeyComparison@UPlayerIdAndGroupId@ConnectionGraph@@@DataStructures@@YAHABU12@0@Z@DataStructures@@$1??$defaultMapKeyComparison@UPlayerIdAndGroupId@ConnectionGraph@@@4@YAHABU12@0@Z@DataStructures@@QAE_NABUPlayerIdAndGroupId@ConnectionGraph@@@Z",
+          "site_rva": 331761,
+          "target_va": 268577056,
+          "kind": 20
+        },
+        {
+          "symbol": "??1PlayerIdAndGroupId@ConnectionGraph@@QAE@XZ",
+          "site_rva": 331782,
+          "target_va": 268569232,
+          "kind": 20
+        },
+        {
+          "symbol": "??1?$Queue@UNodeAndParent@?$WeightedGraph@UPlayerIdAndGroupId@ConnectionGraph@@G$0A@@DataStructures@@@DataStructures@@QAE@XZ",
+          "site_rva": 331799,
+          "target_va": 268757648,
+          "kind": 20
+        },
+        {
+          "symbol": "??1?$WeightedGraph@UPlayerIdAndGroupId@ConnectionGraph@@G$0A@@DataStructures@@QAE@XZ",
+          "site_rva": 331816,
+          "target_va": 268582624,
+          "kind": 20
+        },
+        {
+          "symbol": "??1?$List@UPlayerIdAndGroupId@ConnectionGraph@@@DataStructures@@QAE@XZ",
+          "site_rva": 331833,
+          "target_va": 268571824,
+          "kind": 20
+        },
+        {
+          "symbol": "??1PlayerIdAndGroupId@ConnectionGraph@@QAE@XZ",
+          "site_rva": 331856,
+          "target_va": 268569232,
+          "kind": 20
+        },
+        {
+          "symbol": "?Get@?$Map@UPlayerIdAndGroupId@ConnectionGraph@@PAV?$Map@UPlayerIdAndGroupId@ConnectionGraph@@G$1??$defaultMapKeyComparison@UPlayerIdAndGroupId@ConnectionGraph@@@DataStructures@@YAHABU12@0@Z@DataStructures@@$1??$defaultMapKeyComparison@UPlayerIdAndGroupId@ConnectionGraph@@@4@YAHABU12@0@Z@DataStructures@@QAEAAPAV?$Map@UPlayerIdAndGroupId@ConnectionGraph@@G$1??$defaultMapKeyComparison@UPlayerIdAndGroupId@ConnectionGraph@@@DataStructures@@YAHABU12@0@Z@2@ABUPlayerIdAndGroupId@ConnectionGraph@@@Z",
+          "site_rva": 331880,
+          "target_va": 268576976,
+          "kind": 20
+        },
+        {
+          "symbol": "?Size@?$Map@UPlayerIdAndGroupId@ConnectionGraph@@G$1??$defaultMapKeyComparison@UPlayerIdAndGroupId@ConnectionGraph@@@DataStructures@@YAHABU12@0@Z@DataStructures@@QBEIXZ",
+          "site_rva": 331889,
+          "target_va": 268577408,
+          "kind": 20
+        },
+        {
+          "symbol": "??2@YAPAXI@Z",
+          "site_rva": 331911,
+          "target_va": 269247098,
+          "kind": 20
+        },
+        {
+          "symbol": "??0?$Tree@UPlayerIdAndGroupId@ConnectionGraph@@@DataStructures@@QAE@XZ",
+          "site_rva": 331937,
+          "target_va": 268760336,
+          "kind": 20
+        },
+        {
+          "symbol": "?GetKeyAtIndex@?$Map@UPlayerIdAndGroupId@ConnectionGraph@@G$1??$defaultMapKeyComparison@UPlayerIdAndGroupId@ConnectionGraph@@@DataStructures@@YAHABU12@0@Z@DataStructures@@QBE?AUPlayerIdAndGroupId@ConnectionGraph@@I@Z",
+          "site_rva": 331968,
+          "target_va": 268577360,
+          "kind": 20
+        },
+        {
+          "symbol": "??1PlayerIdAndGroupId@ConnectionGraph@@QAE@XZ",
+          "site_rva": 331995,
+          "target_va": 268569232,
+          "kind": 20
+        },
+        {
+          "symbol": "?Push@?$Queue@UNodeAndParent@?$WeightedGraph@UPlayerIdAndGroupId@ConnectionGraph@@G$0A@@DataStructures@@@DataStructures@@QAEXABUNodeAndParent@?$WeightedGraph@UPlayerIdAndGroupId@ConnectionGraph@@G$0A@@2@@Z",
+          "site_rva": 332009,
+          "target_va": 268757680,
+          "kind": 20
+        },
+        {
+          "symbol": "?Insert@?$List@PAV?$Tree@UPlayerIdAndGroupId@ConnectionGraph@@@DataStructures@@@DataStructures@@QAEXQAV?$Tree@UPlayerIdAndGroupId@ConnectionGraph@@@2@@Z",
+          "site_rva": 332017,
+          "target_va": 268758064,
+          "kind": 20
+        },
+        {
+          "symbol": "?Size@?$Map@UPlayerIdAndGroupId@ConnectionGraph@@G$1??$defaultMapKeyComparison@UPlayerIdAndGroupId@ConnectionGraph@@@DataStructures@@YAHABU12@0@Z@DataStructures@@QBEIXZ",
+          "site_rva": 332025,
+          "target_va": 268577408,
+          "kind": 20
+        },
+        {
+          "symbol": "?Get@?$Map@UPlayerIdAndGroupId@ConnectionGraph@@PAV?$Map@UPlayerIdAndGroupId@ConnectionGraph@@G$1??$defaultMapKeyComparison@UPlayerIdAndGroupId@ConnectionGraph@@@DataStructures@@YAHABU12@0@Z@DataStructures@@$1??$defaultMapKeyComparison@UPlayerIdAndGroupId@ConnectionGraph@@@4@YAHABU12@0@Z@DataStructures@@QAEAAPAV?$Map@UPlayerIdAndGroupId@ConnectionGraph@@G$1??$defaultMapKeyComparison@UPlayerIdAndGroupId@ConnectionGraph@@@DataStructures@@YAHABU12@0@Z@2@ABUPlayerIdAndGroupId@ConnectionGraph@@@Z",
+          "site_rva": 332138,
+          "target_va": 268576976,
+          "kind": 20
+        },
+        {
+          "symbol": "?Size@?$Map@UPlayerIdAndGroupId@ConnectionGraph@@G$1??$defaultMapKeyComparison@UPlayerIdAndGroupId@ConnectionGraph@@@DataStructures@@YAHABU12@0@Z@DataStructures@@QBEIXZ",
+          "site_rva": 332149,
+          "target_va": 268577408,
+          "kind": 20
+        },
+        {
+          "symbol": "?GetKeyAtIndex@?$Map@UPlayerIdAndGroupId@ConnectionGraph@@G$1??$defaultMapKeyComparison@UPlayerIdAndGroupId@ConnectionGraph@@@DataStructures@@YAHABU12@0@Z@DataStructures@@QBE?AUPlayerIdAndGroupId@ConnectionGraph@@I@Z",
+          "site_rva": 332169,
+          "target_va": 268577360,
+          "kind": 20
+        },
+        {
+          "symbol": "??1PlayerIdAndGroupId@ConnectionGraph@@QAE@XZ",
+          "site_rva": 332200,
+          "target_va": 268569232,
+          "kind": 20
+        },
+        {
+          "symbol": "??9PlayerIdAndGroupId@ConnectionGraph@@QBE_NABU01@@Z",
+          "site_rva": 332214,
+          "target_va": 268569296,
+          "kind": 20
+        },
+        {
+          "symbol": "??2@YAPAXI@Z",
+          "site_rva": 332225,
+          "target_va": 269247098,
+          "kind": 20
+        },
+        {
+          "symbol": "??0?$Tree@UPlayerIdAndGroupId@ConnectionGraph@@@DataStructures@@QAE@XZ",
+          "site_rva": 332251,
+          "target_va": 268760336,
+          "kind": 20
+        },
+        {
+          "symbol": "?Push@?$Queue@UNodeAndParent@?$WeightedGraph@UPlayerIdAndGroupId@ConnectionGraph@@G$0A@@DataStructures@@@DataStructures@@QAEXABUNodeAndParent@?$WeightedGraph@UPlayerIdAndGroupId@ConnectionGraph@@G$0A@@2@@Z",
+          "site_rva": 332309,
+          "target_va": 268757680,
+          "kind": 20
+        },
+        {
+          "symbol": "?Insert@?$List@PAV?$Tree@UPlayerIdAndGroupId@ConnectionGraph@@@DataStructures@@@DataStructures@@QAEXQAV?$Tree@UPlayerIdAndGroupId@ConnectionGraph@@@2@@Z",
+          "site_rva": 332318,
+          "target_va": 268758064,
+          "kind": 20
+        },
+        {
+          "symbol": "?Size@?$Map@UPlayerIdAndGroupId@ConnectionGraph@@G$1??$defaultMapKeyComparison@UPlayerIdAndGroupId@ConnectionGraph@@@DataStructures@@YAHABU12@0@Z@DataStructures@@QBEIXZ",
+          "site_rva": 332330,
+          "target_va": 268577408,
+          "kind": 20
+        },
+        {
+          "symbol": "??1PlayerIdAndGroupId@ConnectionGraph@@QAE@XZ",
+          "site_rva": 332360,
+          "target_va": 268569232,
+          "kind": 20
+        },
+        {
+          "symbol": "??1?$Queue@UNodeAndParent@?$WeightedGraph@UPlayerIdAndGroupId@ConnectionGraph@@G$0A@@DataStructures@@@DataStructures@@QAE@XZ",
+          "site_rva": 332377,
+          "target_va": 268757648,
+          "kind": 20
+        },
+        {
+          "symbol": "??1?$WeightedGraph@UPlayerIdAndGroupId@ConnectionGraph@@G$0A@@DataStructures@@QAE@XZ",
+          "site_rva": 332394,
+          "target_va": 268582624,
+          "kind": 20
+        },
+        {
+          "symbol": "??1?$List@UPlayerIdAndGroupId@ConnectionGraph@@@DataStructures@@QAE@XZ",
+          "site_rva": 332411,
+          "target_va": 268571824,
+          "kind": 20
+        },
+        {
+          "symbol": "??1PlayerIdAndGroupId@ConnectionGraph@@QAE@XZ",
+          "site_rva": 332434,
+          "target_va": 268569232,
+          "kind": 20
+        },
+        {
+          "symbol": "__except_list",
+          "site_rva": 332453,
+          "target_va": 0,
+          "kind": 6
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_graph_algorithms",
+      "section": 42,
+      "rva": 322608,
+      "size": 105,
+      "kind": ".text",
+      "sha256": "19936416783de2d600a13ea051bea99f6d695ce9f946a15b0e41ad1bd62d92c5",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "??2@YAPAXI@Z",
+          "site_rva": 322648,
+          "target_va": 269247098,
+          "kind": 20
+        },
+        {
+          "symbol": "??3@YAXPAX@Z",
+          "site_rva": 322682,
+          "target_va": 269247626,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_graph_algorithms",
+      "section": 36,
+      "rva": 322224,
+      "size": 214,
+      "kind": ".text",
+      "sha256": "73a3f82275ef07352d47e29d5f87357d9b4d04b73303c448b52ca95eb13a0b09",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "??2@YAPAXI@Z",
+          "site_rva": 322243,
+          "target_va": 269247098,
+          "kind": 20
+        },
+        {
+          "symbol": "??2@YAPAXI@Z",
+          "site_rva": 322342,
+          "target_va": 269247098,
+          "kind": 20
+        },
+        {
+          "symbol": "??3@YAXPAX@Z",
+          "site_rva": 322423,
+          "target_va": 269247626,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_graph_algorithms",
+      "section": 96,
+      "rva": 324880,
+      "size": 20,
+      "kind": ".text",
+      "sha256": "514512ba4a903fff9fcfa63f8642de1265214c26978a4082677b4d542cb8d2e2",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "??0PlayerIdAndGroupId@ConnectionGraph@@QAE@XZ",
+          "site_rva": 324884,
+          "target_va": 268569216,
+          "kind": 20
+        },
+        {
+          "symbol": "??0?$List@PAV?$Tree@UPlayerIdAndGroupId@ConnectionGraph@@@DataStructures@@@DataStructures@@QAE@XZ",
+          "site_rva": 324892,
+          "target_va": 268758016,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_graph_algorithms",
+      "section": 56,
+      "rva": 322560,
+      "size": 13,
+      "kind": ".text",
+      "sha256": "efaddf6f7c64b7d0dd7d70e04563c88df5b21978a063a338954e28cc09d4e5e9",
+      "whole_bytes_equal": true,
+      "bindings": []
+    },
+    {
+      "unit": "closure_vendor_graph_algorithms",
+      "section": 15,
+      "rva": 136368,
+      "size": 45,
+      "kind": ".text",
+      "sha256": "eee75fa02d4b57e81f3612d45bd6078621d35104c4b765402aa2ae993740f4eb",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "??1PlayerIdAndGroupId@ConnectionGraph@@QAE@XZ",
+          "site_rva": 136389,
+          "target_va": 268569232,
+          "kind": 6
+        },
+        {
+          "symbol": "??_M@YGXPAXIHP6EX0@Z@Z",
+          "site_rva": 136398,
+          "target_va": 269254767,
+          "kind": 20
+        },
+        {
+          "symbol": "??3@YAXPAX@Z",
+          "site_rva": 136404,
+          "target_va": 269247626,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_graph_algorithms",
+      "section": 34,
+      "rva": 322192,
+      "size": 17,
+      "kind": ".text",
+      "sha256": "5b2b5e5924576fefb1655e3650659a7946ac08cbf8556f06309d8ac827ec4372",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "??3@YAXPAX@Z",
+          "site_rva": 322203,
+          "target_va": 269247626,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_graph_algorithms",
+      "section": 136,
+      "rva": 326464,
+      "size": 133,
+      "kind": ".text",
+      "sha256": "98b6c6f6bb7a27a552217ef4b3ab26d7d10e284351d2fdf778495dfed4b84429",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "__ehhandler$?DeleteDecendants@?$Tree@UPlayerIdAndGroupId@ConnectionGraph@@@DataStructures@@QAEXXZ",
+          "site_rva": 326467,
+          "target_va": 269365576,
+          "kind": 6
+        },
+        {
+          "symbol": "__except_list",
+          "site_rva": 326473,
+          "target_va": 0,
+          "kind": 6
+        },
+        {
+          "symbol": "__except_list",
+          "site_rva": 326481,
+          "target_va": 0,
+          "kind": 6
+        },
+        {
+          "symbol": "??0?$List@PAV?$Tree@UPlayerIdAndGroupId@ConnectionGraph@@@DataStructures@@@DataStructures@@QAE@XZ",
+          "site_rva": 326498,
+          "target_va": 268758016,
+          "kind": 20
+        },
+        {
+          "symbol": "?LevelOrderTraversal@?$Tree@UPlayerIdAndGroupId@ConnectionGraph@@@DataStructures@@QAEXAAV?$List@PAV?$Tree@UPlayerIdAndGroupId@ConnectionGraph@@@DataStructures@@@2@@Z",
+          "site_rva": 326516,
+          "target_va": 268760480,
+          "kind": 20
+        },
+        {
+          "symbol": "??1?$Tree@UPlayerIdAndGroupId@ConnectionGraph@@@DataStructures@@QAE@XZ",
+          "site_rva": 326543,
+          "target_va": 268760368,
+          "kind": 20
+        },
+        {
+          "symbol": "??3@YAXPAX@Z",
+          "site_rva": 326549,
+          "target_va": 269247626,
+          "kind": 20
+        },
+        {
+          "symbol": "??1?$List@PAV?$Tree@UPlayerIdAndGroupId@ConnectionGraph@@@DataStructures@@@DataStructures@@QAE@XZ",
+          "site_rva": 326575,
+          "target_va": 268758032,
+          "kind": 20
+        },
+        {
+          "symbol": "__except_list",
+          "site_rva": 326589,
+          "target_va": 0,
+          "kind": 6
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_graph_algorithms",
+      "section": 58,
+      "rva": 322576,
+      "size": 17,
+      "kind": ".text",
+      "sha256": "fc14e1e982c6b99b15ee36870f5f1884b57ddb4542fecb04a8e940ff358c886f",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "??3@YAXPAX@Z",
+          "site_rva": 322587,
+          "target_va": 269247626,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_graph_algorithms",
+      "section": 102,
+      "rva": 324912,
+      "size": 76,
+      "kind": ".text",
+      "sha256": "763648c0742f2ba546cdd9a8869fdd11a67a25dc48be591937b757a7cd1fd790",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "__ehhandler$??1?$Tree@UPlayerIdAndGroupId@ConnectionGraph@@@DataStructures@@QAE@XZ",
+          "site_rva": 324915,
+          "target_va": 269365480,
+          "kind": 6
+        },
+        {
+          "symbol": "__except_list",
+          "site_rva": 324921,
+          "target_va": 0,
+          "kind": 6
+        },
+        {
+          "symbol": "__except_list",
+          "site_rva": 324929,
+          "target_va": 0,
+          "kind": 6
+        },
+        {
+          "symbol": "??1?$List@PAV?$Tree@UPlayerIdAndGroupId@ConnectionGraph@@@DataStructures@@@DataStructures@@QAE@XZ",
+          "site_rva": 324953,
+          "target_va": 268758032,
+          "kind": 20
+        },
+        {
+          "symbol": "??1PlayerIdAndGroupId@ConnectionGraph@@QAE@XZ",
+          "site_rva": 324968,
+          "target_va": 268569232,
+          "kind": 20
+        },
+        {
+          "symbol": "__except_list",
+          "site_rva": 324980,
+          "target_va": 0,
+          "kind": 6
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_graph_algorithms",
+      "section": 106,
+      "rva": 325024,
+      "size": 240,
+      "kind": ".text",
+      "sha256": "338754fce3d1f9459d40249ecbdf3f81cdc824af0629bac3d843c3f045195779",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "__ehhandler$?LevelOrderTraversal@?$Tree@UPlayerIdAndGroupId@ConnectionGraph@@@DataStructures@@QAEXAAV?$List@PAV?$Tree@UPlayerIdAndGroupId@ConnectionGraph@@@DataStructures@@@2@@Z",
+          "site_rva": 325027,
+          "target_va": 269365512,
+          "kind": 6
+        },
+        {
+          "symbol": "__except_list",
+          "site_rva": 325033,
+          "target_va": 0,
+          "kind": 6
+        },
+        {
+          "symbol": "__except_list",
+          "site_rva": 325041,
+          "target_va": 0,
+          "kind": 6
+        },
+        {
+          "symbol": "??0?$Queue@PAV?$Tree@UPlayerIdAndGroupId@ConnectionGraph@@@DataStructures@@@DataStructures@@QAE@XZ",
+          "site_rva": 325059,
+          "target_va": 268758848,
+          "kind": 20
+        },
+        {
+          "symbol": "?Push@?$Queue@PAV?$Tree@UPlayerIdAndGroupId@ConnectionGraph@@@DataStructures@@@DataStructures@@QAEXABQAV?$Tree@UPlayerIdAndGroupId@ConnectionGraph@@@2@@Z",
+          "site_rva": 325088,
+          "target_va": 268758928,
+          "kind": 20
+        },
+        {
+          "symbol": "?Insert@?$List@PAV?$Tree@UPlayerIdAndGroupId@ConnectionGraph@@@DataStructures@@@DataStructures@@QAEXQAV?$Tree@UPlayerIdAndGroupId@ConnectionGraph@@@2@@Z",
+          "site_rva": 325185,
+          "target_va": 268758064,
+          "kind": 20
+        },
+        {
+          "symbol": "?Push@?$Queue@PAV?$Tree@UPlayerIdAndGroupId@ConnectionGraph@@@DataStructures@@@DataStructures@@QAEXABQAV?$Tree@UPlayerIdAndGroupId@ConnectionGraph@@@2@@Z",
+          "site_rva": 325212,
+          "target_va": 268758928,
+          "kind": 20
+        },
+        {
+          "symbol": "??1?$Queue@PAV?$Tree@UPlayerIdAndGroupId@ConnectionGraph@@@DataStructures@@@DataStructures@@QAE@XZ",
+          "site_rva": 325239,
+          "target_va": 268758896,
+          "kind": 20
+        },
+        {
+          "symbol": "__except_list",
+          "site_rva": 325254,
+          "target_va": 0,
+          "kind": 6
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_graph_algorithms",
+      "section": 84,
+      "rva": 323440,
+      "size": 17,
+      "kind": ".text",
+      "sha256": "fc7ad8260b23070516518ed5a509708e8afa6918c3c7bf535320f0484798c964",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "??3@YAXPAX@Z",
+          "site_rva": 323451,
+          "target_va": 269247626,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_graph_algorithms",
+      "section": 86,
+      "rva": 323472,
+      "size": 189,
+      "kind": ".text",
+      "sha256": "dbbb4c7948ff53d2ad441d806c11739aae9eb1f53ac9882a46af704c667f7e2d",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "??2@YAPAXI@Z",
+          "site_rva": 323485,
+          "target_va": 269247098,
+          "kind": 20
+        },
+        {
+          "symbol": "??2@YAPAXI@Z",
+          "site_rva": 323582,
+          "target_va": 269247098,
+          "kind": 20
+        },
+        {
+          "symbol": "??3@YAXPAX@Z",
+          "site_rva": 323647,
+          "target_va": 269247626,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_graph_algorithms",
+      "section": 82,
+      "rva": 323392,
+      "size": 34,
+      "kind": ".text",
+      "sha256": "c272f4009d7c8f5fcdb3eb49b17dbc3fccdb72eeeb1bbd58b0831103cde0ec5e",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "??2@YAPAXI@Z",
+          "site_rva": 323405,
+          "target_va": 269247098,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_graph_algorithms",
+      "section": 32,
+      "rva": 322144,
+      "size": 37,
+      "kind": ".text",
+      "sha256": "6f62c36d68e8590ffd9cde7e60d60b65dd858d637f65de1a713f595c5ddb3c83",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "??2@YAPAXI@Z",
+          "site_rva": 322160,
+          "target_va": 269247098,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_graph_algorithms",
+      "section": 148,
+      "rva": 330368,
+      "size": 1026,
+      "kind": ".text",
+      "sha256": "ac8fee685d9aea29576dc5ac8368bdf124fcf8b980759ce8678f353489b985e8",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "__ehhandler$?GetShortestPath@?$WeightedGraph@UPlayerIdAndGroupId@ConnectionGraph@@G$0A@@DataStructures@@QAE_NAAV?$List@UPlayerIdAndGroupId@ConnectionGraph@@@2@UPlayerIdAndGroupId@ConnectionGraph@@1G@Z",
+          "site_rva": 330371,
+          "target_va": 269365904,
+          "kind": 6
+        },
+        {
+          "symbol": "__except_list",
+          "site_rva": 330377,
+          "target_va": 0,
+          "kind": 6
+        },
+        {
+          "symbol": "__except_list",
+          "site_rva": 330385,
+          "target_va": 0,
+          "kind": 6
+        },
+        {
+          "symbol": "?Clear@?$List@UPlayerIdAndGroupId@ConnectionGraph@@@DataStructures@@QAEX_N@Z",
+          "site_rva": 330415,
+          "target_va": 268572064,
+          "kind": 20
+        },
+        {
+          "symbol": "??8PlayerIdAndGroupId@ConnectionGraph@@QBE_NABU01@@Z",
+          "site_rva": 330429,
+          "target_va": 268569280,
+          "kind": 20
+        },
+        {
+          "symbol": "?Insert@?$List@UPlayerIdAndGroupId@ConnectionGraph@@@DataStructures@@QAEXUPlayerIdAndGroupId@ConnectionGraph@@@Z",
+          "site_rva": 330467,
+          "target_va": 268760064,
+          "kind": 20
+        },
+        {
+          "symbol": "?Insert@?$List@UPlayerIdAndGroupId@ConnectionGraph@@@DataStructures@@QAEXUPlayerIdAndGroupId@ConnectionGraph@@@Z",
+          "site_rva": 330501,
+          "target_va": 268760064,
+          "kind": 20
+        },
+        {
+          "symbol": "??9PlayerIdAndGroupId@ConnectionGraph@@QBE_NABU01@@Z",
+          "site_rva": 330526,
+          "target_va": 268569296,
+          "kind": 20
+        },
+        {
+          "symbol": "?ClearDijkstra@?$WeightedGraph@UPlayerIdAndGroupId@ConnectionGraph@@G$0A@@DataStructures@@IAEXXZ",
+          "site_rva": 330537,
+          "target_va": 268576896,
+          "kind": 20
+        },
+        {
+          "symbol": "?GenerateDisjktraMatrix@?$WeightedGraph@UPlayerIdAndGroupId@ConnectionGraph@@G$0A@@DataStructures@@IAEXUPlayerIdAndGroupId@ConnectionGraph@@G@Z",
+          "site_rva": 330576,
+          "target_va": 268764640,
+          "kind": 20
+        },
+        {
+          "symbol": "??0?$Queue@UPlayerIdAndGroupId@ConnectionGraph@@@DataStructures@@QAE@XZ",
+          "site_rva": 330585,
+          "target_va": 268571088,
+          "kind": 20
+        },
+        {
+          "symbol": "?GetIndexFromKey@?$OrderedList@UPlayerIdAndGroupId@ConnectionGraph@@U12@$1??$defaultOrderedListComparison@UPlayerIdAndGroupId@ConnectionGraph@@U12@@DataStructures@@YAHABU12@0@Z@DataStructures@@QBEIABUPlayerIdAndGroupId@ConnectionGraph@@PA_N@Z",
+          "site_rva": 330610,
+          "target_va": 268758176,
+          "kind": 20
+        },
+        {
+          "symbol": "?Size@?$OrderedList@UPlayerIdAndGroupId@ConnectionGraph@@U12@$1??$defaultOrderedListComparison@UPlayerIdAndGroupId@ConnectionGraph@@U12@@DataStructures@@YAHABU12@0@Z@DataStructures@@QBEIXZ",
+          "site_rva": 330619,
+          "target_va": 268758336,
+          "kind": 20
+        },
+        {
+          "symbol": "??1?$Queue@UPlayerIdAndGroupId@ConnectionGraph@@@DataStructures@@QAE@XZ",
+          "site_rva": 330646,
+          "target_va": 268571216,
+          "kind": 20
+        },
+        {
+          "symbol": "??1PlayerIdAndGroupId@ConnectionGraph@@QAE@XZ",
+          "site_rva": 330660,
+          "target_va": 268569232,
+          "kind": 20
+        },
+        {
+          "symbol": "??1PlayerIdAndGroupId@ConnectionGraph@@QAE@XZ",
+          "site_rva": 330677,
+          "target_va": 268569232,
+          "kind": 20
+        },
+        {
+          "symbol": "__except_list",
+          "site_rva": 330690,
+          "target_va": 0,
+          "kind": 6
+        },
+        {
+          "symbol": "??0PlayerIdAndGroupId@ConnectionGraph@@QAE@XZ",
+          "site_rva": 330709,
+          "target_va": 268569216,
+          "kind": 20
+        },
+        {
+          "symbol": "?Size@?$OrderedList@UPlayerIdAndGroupId@ConnectionGraph@@U12@$1??$defaultOrderedListComparison@UPlayerIdAndGroupId@ConnectionGraph@@U12@@DataStructures@@YAHABU12@0@Z@DataStructures@@QBEIXZ",
+          "site_rva": 330721,
+          "target_va": 268758336,
+          "kind": 20
+        },
+        {
+          "symbol": "?Insert@?$List@UPlayerIdAndGroupId@ConnectionGraph@@@DataStructures@@QAEXUPlayerIdAndGroupId@ConnectionGraph@@@Z",
+          "site_rva": 330766,
+          "target_va": 268760064,
+          "kind": 20
+        },
+        {
+          "symbol": "?Insert@?$List@UPlayerIdAndGroupId@ConnectionGraph@@@DataStructures@@QAEXUPlayerIdAndGroupId@ConnectionGraph@@@Z",
+          "site_rva": 330800,
+          "target_va": 268760064,
+          "kind": 20
+        },
+        {
+          "symbol": "??1PlayerIdAndGroupId@ConnectionGraph@@QAE@XZ",
+          "site_rva": 330814,
+          "target_va": 268569232,
+          "kind": 20
+        },
+        {
+          "symbol": "??1?$Queue@UPlayerIdAndGroupId@ConnectionGraph@@@DataStructures@@QAE@XZ",
+          "site_rva": 330828,
+          "target_va": 268571216,
+          "kind": 20
+        },
+        {
+          "symbol": "??1PlayerIdAndGroupId@ConnectionGraph@@QAE@XZ",
+          "site_rva": 330842,
+          "target_va": 268569232,
+          "kind": 20
+        },
+        {
+          "symbol": "??1PlayerIdAndGroupId@ConnectionGraph@@QAE@XZ",
+          "site_rva": 330859,
+          "target_va": 268569232,
+          "kind": 20
+        },
+        {
+          "symbol": "__except_list",
+          "site_rva": 330875,
+          "target_va": 0,
+          "kind": 6
+        },
+        {
+          "symbol": "?Size@?$Map@UPlayerIdAndGroupId@ConnectionGraph@@PAV?$Map@UPlayerIdAndGroupId@ConnectionGraph@@G$1??$defaultMapKeyComparison@UPlayerIdAndGroupId@ConnectionGraph@@@DataStructures@@YAHABU12@0@Z@DataStructures@@$1??$defaultMapKeyComparison@UPlayerIdAndGroupId@ConnectionGraph@@@4@YAHABU12@0@Z@DataStructures@@QBEIXZ",
+          "site_rva": 330889,
+          "target_va": 268577184,
+          "kind": 20
+        },
+        {
+          "symbol": "?PushAtHead@?$Queue@UPlayerIdAndGroupId@ConnectionGraph@@@DataStructures@@QAEXABUPlayerIdAndGroupId@ConnectionGraph@@I@Z",
+          "site_rva": 330950,
+          "target_va": 268758352,
+          "kind": 20
+        },
+        {
+          "symbol": "?Size@?$Map@UPlayerIdAndGroupId@ConnectionGraph@@PAV?$Map@UPlayerIdAndGroupId@ConnectionGraph@@G$1??$defaultMapKeyComparison@UPlayerIdAndGroupId@ConnectionGraph@@@DataStructures@@YAHABU12@0@Z@DataStructures@@$1??$defaultMapKeyComparison@UPlayerIdAndGroupId@ConnectionGraph@@@4@YAHABU12@0@Z@DataStructures@@QBEIXZ",
+          "site_rva": 330963,
+          "target_va": 268577184,
+          "kind": 20
+        },
+        {
+          "symbol": "?Size@?$Map@UPlayerIdAndGroupId@ConnectionGraph@@PAV?$Map@UPlayerIdAndGroupId@ConnectionGraph@@G$1??$defaultMapKeyComparison@UPlayerIdAndGroupId@ConnectionGraph@@@DataStructures@@YAHABU12@0@Z@DataStructures@@$1??$defaultMapKeyComparison@UPlayerIdAndGroupId@ConnectionGraph@@@4@YAHABU12@0@Z@DataStructures@@QBEIXZ",
+          "site_rva": 330991,
+          "target_va": 268577184,
+          "kind": 20
+        },
+        {
+          "symbol": "?PushAtHead@?$Queue@UPlayerIdAndGroupId@ConnectionGraph@@@DataStructures@@QAEXABUPlayerIdAndGroupId@ConnectionGraph@@I@Z",
+          "site_rva": 331056,
+          "target_va": 268758352,
+          "kind": 20
+        },
+        {
+          "symbol": "?GetIndexFromKey@?$OrderedList@UPlayerIdAndGroupId@ConnectionGraph@@U12@$1??$defaultOrderedListComparison@UPlayerIdAndGroupId@ConnectionGraph@@U12@@DataStructures@@YAHABU12@0@Z@DataStructures@@QBEIABUPlayerIdAndGroupId@ConnectionGraph@@PA_N@Z",
+          "site_rva": 331082,
+          "target_va": 268758176,
+          "kind": 20
+        },
+        {
+          "symbol": "?Size@?$Map@UPlayerIdAndGroupId@ConnectionGraph@@PAV?$Map@UPlayerIdAndGroupId@ConnectionGraph@@G$1??$defaultMapKeyComparison@UPlayerIdAndGroupId@ConnectionGraph@@@DataStructures@@YAHABU12@0@Z@DataStructures@@$1??$defaultMapKeyComparison@UPlayerIdAndGroupId@ConnectionGraph@@@4@YAHABU12@0@Z@DataStructures@@QBEIXZ",
+          "site_rva": 331091,
+          "target_va": 268577184,
+          "kind": 20
+        },
+        {
+          "symbol": "?Insert@?$List@UPlayerIdAndGroupId@ConnectionGraph@@@DataStructures@@QAEXUPlayerIdAndGroupId@ConnectionGraph@@@Z",
+          "site_rva": 331146,
+          "target_va": 268760064,
+          "kind": 20
+        },
+        {
+          "symbol": "?Pop@?$Queue@UPlayerIdAndGroupId@ConnectionGraph@@@DataStructures@@QAE?AUPlayerIdAndGroupId@ConnectionGraph@@XZ",
+          "site_rva": 331196,
+          "target_va": 268571696,
+          "kind": 20
+        },
+        {
+          "symbol": "?Insert@?$List@UPlayerIdAndGroupId@ConnectionGraph@@@DataStructures@@QAEXUPlayerIdAndGroupId@ConnectionGraph@@@Z",
+          "site_rva": 331230,
+          "target_va": 268760064,
+          "kind": 20
+        },
+        {
+          "symbol": "??1PlayerIdAndGroupId@ConnectionGraph@@QAE@XZ",
+          "site_rva": 331244,
+          "target_va": 268569232,
+          "kind": 20
+        },
+        {
+          "symbol": "?Insert@?$List@UPlayerIdAndGroupId@ConnectionGraph@@@DataStructures@@QAEXUPlayerIdAndGroupId@ConnectionGraph@@@Z",
+          "site_rva": 331284,
+          "target_va": 268760064,
+          "kind": 20
+        },
+        {
+          "symbol": "?Pop@?$Queue@UPlayerIdAndGroupId@ConnectionGraph@@@DataStructures@@QAE?AUPlayerIdAndGroupId@ConnectionGraph@@XZ",
+          "site_rva": 331340,
+          "target_va": 268571696,
+          "kind": 20
+        },
+        {
+          "symbol": "?Insert@?$List@UPlayerIdAndGroupId@ConnectionGraph@@@DataStructures@@QAEXUPlayerIdAndGroupId@ConnectionGraph@@@Z",
+          "site_rva": 331374,
+          "target_va": 268760064,
+          "kind": 20
+        },
+        {
+          "symbol": "??1PlayerIdAndGroupId@ConnectionGraph@@QAE@XZ",
+          "site_rva": 331388,
+          "target_va": 268569232,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_graph_algorithms",
+      "section": 120,
+      "rva": 141728,
+      "size": 5,
+      "kind": ".text",
+      "sha256": "23c37eba625e20036847a0621698e382dbc577d4b3fc3cdd5f1bd50935f9ed64",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "?Size@?$OrderedList@UPlayerIdAndGroupId@ConnectionGraph@@UMapNode@?$Map@UPlayerIdAndGroupId@ConnectionGraph@@PAV?$Map@UPlayerIdAndGroupId@ConnectionGraph@@G$1??$defaultMapKeyComparison@UPlayerIdAndGroupId@ConnectionGraph@@@DataStructures@@YAHABU12@0@Z@DataStructures@@$1??$defaultMapKeyComparison@UPlayerIdAndGroupId@ConnectionGraph@@@4@YAHABU12@0@Z@DataStructures@@$1?NodeComparisonFunc@45@SAHABU12@ABU345@@Z@DataStructures@@QBEIXZ",
+          "site_rva": 141729,
+          "target_va": 268574192,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_graph_algorithms",
+      "section": 92,
+      "rva": 138736,
+      "size": 4,
+      "kind": ".text",
+      "sha256": "f7e0208f5e988ae39c7a45dfddbd12921d02f9c3deb5695d4c534c8ab0ccdb0f",
+      "whole_bytes_equal": true,
+      "bindings": []
+    },
+    {
+      "unit": "closure_vendor_graph_algorithms",
+      "section": 30,
+      "rva": 322880,
+      "size": 4,
+      "kind": ".text",
+      "sha256": "f7e0208f5e988ae39c7a45dfddbd12921d02f9c3deb5695d4c534c8ab0ccdb0f",
+      "whole_bytes_equal": true,
+      "bindings": []
+    },
+    {
+      "unit": "closure_vendor_graph_algorithms",
+      "section": 28,
+      "rva": 322720,
+      "size": 154,
+      "kind": ".text",
+      "sha256": "0e2ed5294ccd94bab3eae2aaf67646420e6bc686dba5cf5e7387a2d3504b2d0b",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "??$defaultOrderedListComparison@UPlayerIdAndGroupId@ConnectionGraph@@U12@@DataStructures@@YAHABUPlayerIdAndGroupId@ConnectionGraph@@0@Z",
+          "site_rva": 322777,
+          "target_va": 268570064,
+          "kind": 20
+        },
+        {
+          "symbol": "??$defaultOrderedListComparison@UPlayerIdAndGroupId@ConnectionGraph@@U12@@DataStructures@@YAHABUPlayerIdAndGroupId@ConnectionGraph@@0@Z",
+          "site_rva": 322831,
+          "target_va": 268570064,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_graph_algorithms",
+      "section": 5,
+      "rva": 134608,
+      "size": 44,
+      "kind": ".text",
+      "sha256": "054118361fd1245f65853bc1dd53a1526efefc550acbc865d832e2bcbb1ea153",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "??MPlayerIdAndGroupId@ConnectionGraph@@QBE_NABU01@@Z",
+          "site_rva": 134622,
+          "target_va": 268569328,
+          "kind": 20
+        },
+        {
+          "symbol": "??8PlayerIdAndGroupId@ConnectionGraph@@QBE_NABU01@@Z",
+          "site_rva": 134640,
+          "target_va": 268569280,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_graph_algorithms",
+      "section": 144,
+      "rva": 329184,
+      "size": 1170,
+      "kind": ".text",
+      "sha256": "4a8178735490057528dc353b293b667b6b138989f666a57fe3a6ba3a4c279dcb",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "__ehhandler$?GenerateDisjktraMatrix@?$WeightedGraph@UPlayerIdAndGroupId@ConnectionGraph@@G$0A@@DataStructures@@IAEXUPlayerIdAndGroupId@ConnectionGraph@@G@Z",
+          "site_rva": 329187,
+          "target_va": 269365835,
+          "kind": 6
+        },
+        {
+          "symbol": "__except_list",
+          "site_rva": 329193,
+          "target_va": 0,
+          "kind": 6
+        },
+        {
+          "symbol": "__except_list",
+          "site_rva": 329201,
+          "target_va": 0,
+          "kind": 6
+        },
+        {
+          "symbol": "?Size@?$Map@UPlayerIdAndGroupId@ConnectionGraph@@PAV?$Map@UPlayerIdAndGroupId@ConnectionGraph@@G$1??$defaultMapKeyComparison@UPlayerIdAndGroupId@ConnectionGraph@@@DataStructures@@YAHABU12@0@Z@DataStructures@@$1??$defaultMapKeyComparison@UPlayerIdAndGroupId@ConnectionGraph@@@4@YAHABU12@0@Z@DataStructures@@QBEIXZ",
+          "site_rva": 329226,
+          "target_va": 268577184,
+          "kind": 20
+        },
+        {
+          "symbol": "?Size@?$Map@UPlayerIdAndGroupId@ConnectionGraph@@PAV?$Map@UPlayerIdAndGroupId@ConnectionGraph@@G$1??$defaultMapKeyComparison@UPlayerIdAndGroupId@ConnectionGraph@@@DataStructures@@YAHABU12@0@Z@DataStructures@@$1??$defaultMapKeyComparison@UPlayerIdAndGroupId@ConnectionGraph@@@4@YAHABU12@0@Z@DataStructures@@QBEIXZ",
+          "site_rva": 329235,
+          "target_va": 268577184,
+          "kind": 20
+        },
+        {
+          "symbol": "??2@YAPAXI@Z",
+          "site_rva": 329246,
+          "target_va": 269247098,
+          "kind": 20
+        },
+        {
+          "symbol": "?Size@?$Map@UPlayerIdAndGroupId@ConnectionGraph@@PAV?$Map@UPlayerIdAndGroupId@ConnectionGraph@@G$1??$defaultMapKeyComparison@UPlayerIdAndGroupId@ConnectionGraph@@@DataStructures@@YAHABU12@0@Z@DataStructures@@$1??$defaultMapKeyComparison@UPlayerIdAndGroupId@ConnectionGraph@@@4@YAHABU12@0@Z@DataStructures@@QBEIXZ",
+          "site_rva": 329259,
+          "target_va": 268577184,
+          "kind": 20
+        },
+        {
+          "symbol": "??2@YAPAXI@Z",
+          "site_rva": 329273,
+          "target_va": 269247098,
+          "kind": 20
+        },
+        {
+          "symbol": "??1PlayerIdAndGroupId@ConnectionGraph@@QAE@XZ",
+          "site_rva": 329297,
+          "target_va": 268569232,
+          "kind": 6
+        },
+        {
+          "symbol": "??0PlayerIdAndGroupId@ConnectionGraph@@QAE@XZ",
+          "site_rva": 329302,
+          "target_va": 268569216,
+          "kind": 6
+        },
+        {
+          "symbol": "??_L@YGXPAXIHP6EX0@Z1@Z",
+          "site_rva": 329316,
+          "target_va": 269254863,
+          "kind": 20
+        },
+        {
+          "symbol": "??0PlayerIdAndGroupId@ConnectionGraph@@QAE@XZ",
+          "site_rva": 329340,
+          "target_va": 268569216,
+          "kind": 20
+        },
+        {
+          "symbol": "??0PlayerIdAndGroupId@ConnectionGraph@@QAE@XZ",
+          "site_rva": 329357,
+          "target_va": 268569216,
+          "kind": 20
+        },
+        {
+          "symbol": "??0?$Heap@GUPlayerIdAndGroupId@ConnectionGraph@@$0A@@DataStructures@@QAE@XZ",
+          "site_rva": 329366,
+          "target_va": 268762128,
+          "kind": 20
+        },
+        {
+          "symbol": "??0?$Map@UPlayerIdAndGroupId@ConnectionGraph@@G$1??$defaultMapKeyComparison@UPlayerIdAndGroupId@ConnectionGraph@@@DataStructures@@YAHABU12@0@Z@DataStructures@@QAE@XZ",
+          "site_rva": 329383,
+          "target_va": 268578768,
+          "kind": 20
+        },
+        {
+          "symbol": "?Size@?$Map@UPlayerIdAndGroupId@ConnectionGraph@@PAV?$Map@UPlayerIdAndGroupId@ConnectionGraph@@G$1??$defaultMapKeyComparison@UPlayerIdAndGroupId@ConnectionGraph@@@DataStructures@@YAHABU12@0@Z@DataStructures@@$1??$defaultMapKeyComparison@UPlayerIdAndGroupId@ConnectionGraph@@@4@YAHABU12@0@Z@DataStructures@@QBEIXZ",
+          "site_rva": 329400,
+          "target_va": 268577184,
+          "kind": 20
+        },
+        {
+          "symbol": "?GetKeyAtIndex@?$Map@UPlayerIdAndGroupId@ConnectionGraph@@PAV?$Map@UPlayerIdAndGroupId@ConnectionGraph@@G$1??$defaultMapKeyComparison@UPlayerIdAndGroupId@ConnectionGraph@@@DataStructures@@YAHABU12@0@Z@DataStructures@@$1??$defaultMapKeyComparison@UPlayerIdAndGroupId@ConnectionGraph@@@4@YAHABU12@0@Z@DataStructures@@QBE?AUPlayerIdAndGroupId@ConnectionGraph@@I@Z",
+          "site_rva": 329420,
+          "target_va": 268577136,
+          "kind": 20
+        },
+        {
+          "symbol": "?GetKeyAtIndex@?$Map@UPlayerIdAndGroupId@ConnectionGraph@@PAV?$Map@UPlayerIdAndGroupId@ConnectionGraph@@G$1??$defaultMapKeyComparison@UPlayerIdAndGroupId@ConnectionGraph@@@DataStructures@@YAHABU12@0@Z@DataStructures@@$1??$defaultMapKeyComparison@UPlayerIdAndGroupId@ConnectionGraph@@@4@YAHABU12@0@Z@DataStructures@@QBE?AUPlayerIdAndGroupId@ConnectionGraph@@I@Z",
+          "site_rva": 329435,
+          "target_va": 268577136,
+          "kind": 20
+        },
+        {
+          "symbol": "?Insert@?$OrderedList@UPlayerIdAndGroupId@ConnectionGraph@@U12@$1??$defaultOrderedListComparison@UPlayerIdAndGroupId@ConnectionGraph@@U12@@DataStructures@@YAHABU12@0@Z@DataStructures@@QAEIABUPlayerIdAndGroupId@ConnectionGraph@@0@Z",
+          "site_rva": 329452,
+          "target_va": 268760720,
+          "kind": 20
+        },
+        {
+          "symbol": "??1PlayerIdAndGroupId@ConnectionGraph@@QAE@XZ",
+          "site_rva": 329469,
+          "target_va": 268569232,
+          "kind": 20
+        },
+        {
+          "symbol": "??1PlayerIdAndGroupId@ConnectionGraph@@QAE@XZ",
+          "site_rva": 329486,
+          "target_va": 268569232,
+          "kind": 20
+        },
+        {
+          "symbol": "?Size@?$Map@UPlayerIdAndGroupId@ConnectionGraph@@PAV?$Map@UPlayerIdAndGroupId@ConnectionGraph@@G$1??$defaultMapKeyComparison@UPlayerIdAndGroupId@ConnectionGraph@@@DataStructures@@YAHABU12@0@Z@DataStructures@@$1??$defaultMapKeyComparison@UPlayerIdAndGroupId@ConnectionGraph@@@4@YAHABU12@0@Z@DataStructures@@QBEIXZ",
+          "site_rva": 329494,
+          "target_va": 268577184,
+          "kind": 20
+        },
+        {
+          "symbol": "?Size@?$Map@UPlayerIdAndGroupId@ConnectionGraph@@PAV?$Map@UPlayerIdAndGroupId@ConnectionGraph@@G$1??$defaultMapKeyComparison@UPlayerIdAndGroupId@ConnectionGraph@@@DataStructures@@YAHABU12@0@Z@DataStructures@@$1??$defaultMapKeyComparison@UPlayerIdAndGroupId@ConnectionGraph@@@4@YAHABU12@0@Z@DataStructures@@QBEIXZ",
+          "site_rva": 329507,
+          "target_va": 268577184,
+          "kind": 20
+        },
+        {
+          "symbol": "?Size@?$Map@UPlayerIdAndGroupId@ConnectionGraph@@PAV?$Map@UPlayerIdAndGroupId@ConnectionGraph@@G$1??$defaultMapKeyComparison@UPlayerIdAndGroupId@ConnectionGraph@@@DataStructures@@YAHABU12@0@Z@DataStructures@@$1??$defaultMapKeyComparison@UPlayerIdAndGroupId@ConnectionGraph@@@4@YAHABU12@0@Z@DataStructures@@QBEIXZ",
+          "site_rva": 329516,
+          "target_va": 268577184,
+          "kind": 20
+        },
+        {
+          "symbol": "?Size@?$Map@UPlayerIdAndGroupId@ConnectionGraph@@PAV?$Map@UPlayerIdAndGroupId@ConnectionGraph@@G$1??$defaultMapKeyComparison@UPlayerIdAndGroupId@ConnectionGraph@@@DataStructures@@YAHABU12@0@Z@DataStructures@@$1??$defaultMapKeyComparison@UPlayerIdAndGroupId@ConnectionGraph@@@4@YAHABU12@0@Z@DataStructures@@QBEIXZ",
+          "site_rva": 329547,
+          "target_va": 268577184,
+          "kind": 20
+        },
+        {
+          "symbol": "?Size@?$Map@UPlayerIdAndGroupId@ConnectionGraph@@PAV?$Map@UPlayerIdAndGroupId@ConnectionGraph@@G$1??$defaultMapKeyComparison@UPlayerIdAndGroupId@ConnectionGraph@@@DataStructures@@YAHABU12@0@Z@DataStructures@@$1??$defaultMapKeyComparison@UPlayerIdAndGroupId@ConnectionGraph@@@4@YAHABU12@0@Z@DataStructures@@QBEIXZ",
+          "site_rva": 329556,
+          "target_va": 268577184,
+          "kind": 20
+        },
+        {
+          "symbol": "?GetIndexAtKey@?$Map@UPlayerIdAndGroupId@ConnectionGraph@@PAV?$Map@UPlayerIdAndGroupId@ConnectionGraph@@G$1??$defaultMapKeyComparison@UPlayerIdAndGroupId@ConnectionGraph@@@DataStructures@@YAHABU12@0@Z@DataStructures@@$1??$defaultMapKeyComparison@UPlayerIdAndGroupId@ConnectionGraph@@@4@YAHABU12@0@Z@DataStructures@@QAEIABUPlayerIdAndGroupId@ConnectionGraph@@@Z",
+          "site_rva": 329636,
+          "target_va": 268762064,
+          "kind": 20
+        },
+        {
+          "symbol": "?Size@?$Map@UPlayerIdAndGroupId@ConnectionGraph@@PAV?$Map@UPlayerIdAndGroupId@ConnectionGraph@@G$1??$defaultMapKeyComparison@UPlayerIdAndGroupId@ConnectionGraph@@@DataStructures@@YAHABU12@0@Z@DataStructures@@$1??$defaultMapKeyComparison@UPlayerIdAndGroupId@ConnectionGraph@@@4@YAHABU12@0@Z@DataStructures@@QBEIXZ",
+          "site_rva": 329647,
+          "target_va": 268577184,
+          "kind": 20
+        },
+        {
+          "symbol": "?Size@?$Map@UPlayerIdAndGroupId@ConnectionGraph@@PAV?$Map@UPlayerIdAndGroupId@ConnectionGraph@@G$1??$defaultMapKeyComparison@UPlayerIdAndGroupId@ConnectionGraph@@@DataStructures@@YAHABU12@0@Z@DataStructures@@$1??$defaultMapKeyComparison@UPlayerIdAndGroupId@ConnectionGraph@@@4@YAHABU12@0@Z@DataStructures@@QBEIXZ",
+          "site_rva": 329658,
+          "target_va": 268577184,
+          "kind": 20
+        },
+        {
+          "symbol": "?Size@?$Map@UPlayerIdAndGroupId@ConnectionGraph@@PAV?$Map@UPlayerIdAndGroupId@ConnectionGraph@@G$1??$defaultMapKeyComparison@UPlayerIdAndGroupId@ConnectionGraph@@@DataStructures@@YAHABU12@0@Z@DataStructures@@$1??$defaultMapKeyComparison@UPlayerIdAndGroupId@ConnectionGraph@@@4@YAHABU12@0@Z@DataStructures@@QBEIXZ",
+          "site_rva": 329678,
+          "target_va": 268577184,
+          "kind": 20
+        },
+        {
+          "symbol": "?Size@?$Map@UPlayerIdAndGroupId@ConnectionGraph@@PAV?$Map@UPlayerIdAndGroupId@ConnectionGraph@@G$1??$defaultMapKeyComparison@UPlayerIdAndGroupId@ConnectionGraph@@@DataStructures@@YAHABU12@0@Z@DataStructures@@$1??$defaultMapKeyComparison@UPlayerIdAndGroupId@ConnectionGraph@@@4@YAHABU12@0@Z@DataStructures@@QBEIXZ",
+          "site_rva": 329689,
+          "target_va": 268577184,
+          "kind": 20
+        },
+        {
+          "symbol": "?Get@?$Map@UPlayerIdAndGroupId@ConnectionGraph@@PAV?$Map@UPlayerIdAndGroupId@ConnectionGraph@@G$1??$defaultMapKeyComparison@UPlayerIdAndGroupId@ConnectionGraph@@@DataStructures@@YAHABU12@0@Z@DataStructures@@$1??$defaultMapKeyComparison@UPlayerIdAndGroupId@ConnectionGraph@@@4@YAHABU12@0@Z@DataStructures@@QAEAAPAV?$Map@UPlayerIdAndGroupId@ConnectionGraph@@G$1??$defaultMapKeyComparison@UPlayerIdAndGroupId@ConnectionGraph@@@DataStructures@@YAHABU12@0@Z@2@ABUPlayerIdAndGroupId@ConnectionGraph@@@Z",
+          "site_rva": 329712,
+          "target_va": 268576976,
+          "kind": 20
+        },
+        {
+          "symbol": "?Size@?$Map@UPlayerIdAndGroupId@ConnectionGraph@@G$1??$defaultMapKeyComparison@UPlayerIdAndGroupId@ConnectionGraph@@@DataStructures@@YAHABU12@0@Z@DataStructures@@QBEIXZ",
+          "site_rva": 329731,
+          "target_va": 268577408,
+          "kind": 20
+        },
+        {
+          "symbol": "??A?$Map@UPlayerIdAndGroupId@ConnectionGraph@@G$1??$defaultMapKeyComparison@UPlayerIdAndGroupId@ConnectionGraph@@@DataStructures@@YAHABU12@0@Z@DataStructures@@QBEAAGI@Z",
+          "site_rva": 329753,
+          "target_va": 268577344,
+          "kind": 20
+        },
+        {
+          "symbol": "?GetKeyAtIndex@?$Map@UPlayerIdAndGroupId@ConnectionGraph@@G$1??$defaultMapKeyComparison@UPlayerIdAndGroupId@ConnectionGraph@@@DataStructures@@YAHABU12@0@Z@DataStructures@@QBE?AUPlayerIdAndGroupId@ConnectionGraph@@I@Z",
+          "site_rva": 329769,
+          "target_va": 268577360,
+          "kind": 20
+        },
+        {
+          "symbol": "??1PlayerIdAndGroupId@ConnectionGraph@@QAE@XZ",
+          "site_rva": 329800,
+          "target_va": 268569232,
+          "kind": 20
+        },
+        {
+          "symbol": "?GetIndexAtKey@?$Map@UPlayerIdAndGroupId@ConnectionGraph@@PAV?$Map@UPlayerIdAndGroupId@ConnectionGraph@@G$1??$defaultMapKeyComparison@UPlayerIdAndGroupId@ConnectionGraph@@@DataStructures@@YAHABU12@0@Z@DataStructures@@$1??$defaultMapKeyComparison@UPlayerIdAndGroupId@ConnectionGraph@@@4@YAHABU12@0@Z@DataStructures@@QAEIABUPlayerIdAndGroupId@ConnectionGraph@@@Z",
+          "site_rva": 329812,
+          "target_va": 268762064,
+          "kind": 20
+        },
+        {
+          "symbol": "?Size@?$Map@UPlayerIdAndGroupId@ConnectionGraph@@PAV?$Map@UPlayerIdAndGroupId@ConnectionGraph@@G$1??$defaultMapKeyComparison@UPlayerIdAndGroupId@ConnectionGraph@@@DataStructures@@YAHABU12@0@Z@DataStructures@@$1??$defaultMapKeyComparison@UPlayerIdAndGroupId@ConnectionGraph@@@4@YAHABU12@0@Z@DataStructures@@QBEIXZ",
+          "site_rva": 329821,
+          "target_va": 268577184,
+          "kind": 20
+        },
+        {
+          "symbol": "?Size@?$Map@UPlayerIdAndGroupId@ConnectionGraph@@PAV?$Map@UPlayerIdAndGroupId@ConnectionGraph@@G$1??$defaultMapKeyComparison@UPlayerIdAndGroupId@ConnectionGraph@@@DataStructures@@YAHABU12@0@Z@DataStructures@@$1??$defaultMapKeyComparison@UPlayerIdAndGroupId@ConnectionGraph@@@4@YAHABU12@0@Z@DataStructures@@QBEIXZ",
+          "site_rva": 329869,
+          "target_va": 268577184,
+          "kind": 20
+        },
+        {
+          "symbol": "?Size@?$Map@UPlayerIdAndGroupId@ConnectionGraph@@PAV?$Map@UPlayerIdAndGroupId@ConnectionGraph@@G$1??$defaultMapKeyComparison@UPlayerIdAndGroupId@ConnectionGraph@@@DataStructures@@YAHABU12@0@Z@DataStructures@@$1??$defaultMapKeyComparison@UPlayerIdAndGroupId@ConnectionGraph@@@4@YAHABU12@0@Z@DataStructures@@QBEIXZ",
+          "site_rva": 329882,
+          "target_va": 268577184,
+          "kind": 20
+        },
+        {
+          "symbol": "?Size@?$Map@UPlayerIdAndGroupId@ConnectionGraph@@PAV?$Map@UPlayerIdAndGroupId@ConnectionGraph@@G$1??$defaultMapKeyComparison@UPlayerIdAndGroupId@ConnectionGraph@@@DataStructures@@YAHABU12@0@Z@DataStructures@@$1??$defaultMapKeyComparison@UPlayerIdAndGroupId@ConnectionGraph@@@4@YAHABU12@0@Z@DataStructures@@QBEIXZ",
+          "site_rva": 329910,
+          "target_va": 268577184,
+          "kind": 20
+        },
+        {
+          "symbol": "?Set@?$Map@UPlayerIdAndGroupId@ConnectionGraph@@G$1??$defaultMapKeyComparison@UPlayerIdAndGroupId@ConnectionGraph@@@DataStructures@@YAHABU12@0@Z@DataStructures@@QAEXABUPlayerIdAndGroupId@ConnectionGraph@@ABG@Z",
+          "site_rva": 329943,
+          "target_va": 268578320,
+          "kind": 20
+        },
+        {
+          "symbol": "?Size@?$Map@UPlayerIdAndGroupId@ConnectionGraph@@G$1??$defaultMapKeyComparison@UPlayerIdAndGroupId@ConnectionGraph@@@DataStructures@@YAHABU12@0@Z@DataStructures@@QBEIXZ",
+          "site_rva": 329963,
+          "target_va": 268577408,
+          "kind": 20
+        },
+        {
+          "symbol": "?Clear@?$Heap@GUPlayerIdAndGroupId@ConnectionGraph@@$0A@@DataStructures@@QAEXXZ",
+          "site_rva": 329984,
+          "target_va": 268762784,
+          "kind": 20
+        },
+        {
+          "symbol": "?Size@?$Map@UPlayerIdAndGroupId@ConnectionGraph@@G$1??$defaultMapKeyComparison@UPlayerIdAndGroupId@ConnectionGraph@@@DataStructures@@YAHABU12@0@Z@DataStructures@@QBEIXZ",
+          "site_rva": 329995,
+          "target_va": 268577408,
+          "kind": 20
+        },
+        {
+          "symbol": "?GetKeyAtIndex@?$Map@UPlayerIdAndGroupId@ConnectionGraph@@G$1??$defaultMapKeyComparison@UPlayerIdAndGroupId@ConnectionGraph@@@DataStructures@@YAHABU12@0@Z@DataStructures@@QBE?AUPlayerIdAndGroupId@ConnectionGraph@@I@Z",
+          "site_rva": 330014,
+          "target_va": 268577360,
+          "kind": 20
+        },
+        {
+          "symbol": "??A?$Map@UPlayerIdAndGroupId@ConnectionGraph@@G$1??$defaultMapKeyComparison@UPlayerIdAndGroupId@ConnectionGraph@@@DataStructures@@YAHABU12@0@Z@DataStructures@@QBEAAGI@Z",
+          "site_rva": 330033,
+          "target_va": 268577344,
+          "kind": 20
+        },
+        {
+          "symbol": "?Push@?$Heap@GUPlayerIdAndGroupId@ConnectionGraph@@$0A@@DataStructures@@QAEXABGABUPlayerIdAndGroupId@ConnectionGraph@@@Z",
+          "site_rva": 330043,
+          "target_va": 268762144,
+          "kind": 20
+        },
+        {
+          "symbol": "??1PlayerIdAndGroupId@ConnectionGraph@@QAE@XZ",
+          "site_rva": 330060,
+          "target_va": 268569232,
+          "kind": 20
+        },
+        {
+          "symbol": "?Size@?$Map@UPlayerIdAndGroupId@ConnectionGraph@@G$1??$defaultMapKeyComparison@UPlayerIdAndGroupId@ConnectionGraph@@@DataStructures@@YAHABU12@0@Z@DataStructures@@QBEIXZ",
+          "site_rva": 330070,
+          "target_va": 268577408,
+          "kind": 20
+        },
+        {
+          "symbol": "?Size@?$Heap@GUPlayerIdAndGroupId@ConnectionGraph@@$0A@@DataStructures@@QBEIXZ",
+          "site_rva": 330083,
+          "target_va": 268760880,
+          "kind": 20
+        },
+        {
+          "symbol": "?PeekWeight@?$Heap@GUPlayerIdAndGroupId@ConnectionGraph@@$0A@@DataStructures@@QBEGI@Z",
+          "site_rva": 330102,
+          "target_va": 268760864,
+          "kind": 20
+        },
+        {
+          "symbol": "?Pop@?$Heap@GUPlayerIdAndGroupId@ConnectionGraph@@$0A@@DataStructures@@QAE?AUPlayerIdAndGroupId@ConnectionGraph@@I@Z",
+          "site_rva": 330122,
+          "target_va": 268762336,
+          "kind": 20
+        },
+        {
+          "symbol": "??1PlayerIdAndGroupId@ConnectionGraph@@QAE@XZ",
+          "site_rva": 330154,
+          "target_va": 268569232,
+          "kind": 20
+        },
+        {
+          "symbol": "?Delete@?$Map@UPlayerIdAndGroupId@ConnectionGraph@@G$1??$defaultMapKeyComparison@UPlayerIdAndGroupId@ConnectionGraph@@@DataStructures@@YAHABU12@0@Z@DataStructures@@QAE_NABUPlayerIdAndGroupId@ConnectionGraph@@@Z",
+          "site_rva": 330196,
+          "target_va": 268578512,
+          "kind": 20
+        },
+        {
+          "symbol": "?Size@?$Map@UPlayerIdAndGroupId@ConnectionGraph@@PAV?$Map@UPlayerIdAndGroupId@ConnectionGraph@@G$1??$defaultMapKeyComparison@UPlayerIdAndGroupId@ConnectionGraph@@@DataStructures@@YAHABU12@0@Z@DataStructures@@$1??$defaultMapKeyComparison@UPlayerIdAndGroupId@ConnectionGraph@@@4@YAHABU12@0@Z@DataStructures@@QBEIXZ",
+          "site_rva": 330225,
+          "target_va": 268577184,
+          "kind": 20
+        },
+        {
+          "symbol": "??1?$Map@UPlayerIdAndGroupId@ConnectionGraph@@G$1??$defaultMapKeyComparison@UPlayerIdAndGroupId@ConnectionGraph@@@DataStructures@@YAHABU12@0@Z@DataStructures@@QAE@XZ",
+          "site_rva": 330255,
+          "target_va": 268578240,
+          "kind": 20
+        },
+        {
+          "symbol": "??1?$Heap@GUPlayerIdAndGroupId@ConnectionGraph@@$0A@@DataStructures@@QAE@XZ",
+          "site_rva": 330272,
+          "target_va": 268764560,
+          "kind": 20
+        },
+        {
+          "symbol": "??1PlayerIdAndGroupId@ConnectionGraph@@QAE@XZ",
+          "site_rva": 330289,
+          "target_va": 268569232,
+          "kind": 20
+        },
+        {
+          "symbol": "??1PlayerIdAndGroupId@ConnectionGraph@@QAE@XZ",
+          "site_rva": 330306,
+          "target_va": 268569232,
+          "kind": 20
+        },
+        {
+          "symbol": "??1PlayerIdAndGroupId@ConnectionGraph@@QAE@XZ",
+          "site_rva": 330329,
+          "target_va": 268569232,
+          "kind": 20
+        },
+        {
+          "symbol": "__except_list",
+          "site_rva": 330344,
+          "target_va": 0,
+          "kind": 6
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_graph_algorithms",
+      "section": 140,
+      "rva": 329104,
+      "size": 73,
+      "kind": ".text",
+      "sha256": "eaf5f118934335c0e1616b101731c8be4760aabb209fd94b5fe5fc7c7615a82e",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "__ehhandler$??1?$Heap@GUPlayerIdAndGroupId@ConnectionGraph@@$0A@@DataStructures@@QAE@XZ",
+          "site_rva": 329107,
+          "target_va": 269365736,
+          "kind": 6
+        },
+        {
+          "symbol": "__except_list",
+          "site_rva": 329113,
+          "target_va": 0,
+          "kind": 6
+        },
+        {
+          "symbol": "__except_list",
+          "site_rva": 329121,
+          "target_va": 0,
+          "kind": 6
+        },
+        {
+          "symbol": "?Clear@?$Heap@GUPlayerIdAndGroupId@ConnectionGraph@@$0A@@DataStructures@@QAEXXZ",
+          "site_rva": 329142,
+          "target_va": 268762784,
+          "kind": 20
+        },
+        {
+          "symbol": "??1?$List@UHeapNode@?$Heap@GUPlayerIdAndGroupId@ConnectionGraph@@$0A@@DataStructures@@@DataStructures@@QAE@XZ",
+          "site_rva": 329157,
+          "target_va": 268761056,
+          "kind": 20
+        },
+        {
+          "symbol": "__except_list",
+          "site_rva": 329169,
+          "target_va": 0,
+          "kind": 6
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_graph_algorithms",
+      "section": 112,
+      "rva": 325600,
+      "size": 45,
+      "kind": ".text",
+      "sha256": "00d9c0b35a7657eb04002e066220f15b6d0e35190d43377a4ce9d50323dd913a",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "??1HeapNode@?$Heap@GUPlayerIdAndGroupId@ConnectionGraph@@$0A@@DataStructures@@QAE@XZ",
+          "site_rva": 325621,
+          "target_va": 268759200,
+          "kind": 6
+        },
+        {
+          "symbol": "??_M@YGXPAXIHP6EX0@Z@Z",
+          "site_rva": 325630,
+          "target_va": 269254767,
+          "kind": 20
+        },
+        {
+          "symbol": "??3@YAXPAX@Z",
+          "site_rva": 325636,
+          "target_va": 269247626,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_graph_algorithms",
+      "section": 44,
+      "rva": 323744,
+      "size": 8,
+      "kind": ".text",
+      "sha256": "64d67c69eacc236511134f520a80862c458d39865877926ad9f44a9394246c13",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "??1PlayerIdAndGroupId@ConnectionGraph@@QAE@XZ",
+          "site_rva": 323748,
+          "target_va": 268569232,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_graph_algorithms",
+      "section": 132,
+      "rva": 327328,
+      "size": 8,
+      "kind": ".text",
+      "sha256": "aecba36a4e425714651162e7b7aa0229b265a6e4191225192c3a627389ee84cd",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "?Clear@?$List@UHeapNode@?$Heap@GUPlayerIdAndGroupId@ConnectionGraph@@$0A@@DataStructures@@@DataStructures@@QAEX_N@Z",
+          "site_rva": 327331,
+          "target_va": 268761392,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_graph_algorithms",
+      "section": 118,
+      "rva": 325936,
+      "size": 86,
+      "kind": ".text",
+      "sha256": "0f41248fa1b5e1260531409958c94981db7a4a78a21134a132ea9966b12562e2",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "??1HeapNode@?$Heap@GUPlayerIdAndGroupId@ConnectionGraph@@$0A@@DataStructures@@QAE@XZ",
+          "site_rva": 325975,
+          "target_va": 268759200,
+          "kind": 6
+        },
+        {
+          "symbol": "??_M@YGXPAXIHP6EX0@Z@Z",
+          "site_rva": 325984,
+          "target_va": 269254767,
+          "kind": 20
+        },
+        {
+          "symbol": "??3@YAXPAX@Z",
+          "site_rva": 325990,
+          "target_va": 269247626,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_graph_algorithms",
+      "section": 128,
+      "rva": 326880,
+      "size": 433,
+      "kind": ".text",
+      "sha256": "1e42b115731c7ea418fe157cce0db4b9a0ea4fc5a9c40a7e2e4eb52418deef19",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "__ehhandler$?Pop@?$Heap@GUPlayerIdAndGroupId@ConnectionGraph@@$0A@@DataStructures@@QAE?AUPlayerIdAndGroupId@ConnectionGraph@@I@Z",
+          "site_rva": 326883,
+          "target_va": 269365665,
+          "kind": 6
+        },
+        {
+          "symbol": "__except_list",
+          "site_rva": 326889,
+          "target_va": 0,
+          "kind": 6
+        },
+        {
+          "symbol": "__except_list",
+          "site_rva": 326897,
+          "target_va": 0,
+          "kind": 6
+        },
+        {
+          "symbol": "?LeftChild@?$Heap@GUPlayerIdAndGroupId@ConnectionGraph@@$0A@@DataStructures@@IBEII@Z",
+          "site_rva": 327029,
+          "target_va": 268759616,
+          "kind": 20
+        },
+        {
+          "symbol": "?RightChild@?$Heap@GUPlayerIdAndGroupId@ConnectionGraph@@$0A@@DataStructures@@IBEII@Z",
+          "site_rva": 327039,
+          "target_va": 268759632,
+          "kind": 20
+        },
+        {
+          "symbol": "?Swap@?$Heap@GUPlayerIdAndGroupId@ConnectionGraph@@$0A@@DataStructures@@IAEXII@Z",
+          "site_rva": 327116,
+          "target_va": 268760896,
+          "kind": 20
+        },
+        {
+          "symbol": "?Swap@?$Heap@GUPlayerIdAndGroupId@ConnectionGraph@@$0A@@DataStructures@@IAEXII@Z",
+          "site_rva": 327126,
+          "target_va": 268760896,
+          "kind": 20
+        },
+        {
+          "symbol": "?LeftChild@?$Heap@GUPlayerIdAndGroupId@ConnectionGraph@@$0A@@DataStructures@@IBEII@Z",
+          "site_rva": 327136,
+          "target_va": 268759616,
+          "kind": 20
+        },
+        {
+          "symbol": "?RightChild@?$Heap@GUPlayerIdAndGroupId@ConnectionGraph@@$0A@@DataStructures@@IBEII@Z",
+          "site_rva": 327146,
+          "target_va": 268759632,
+          "kind": 20
+        },
+        {
+          "symbol": "?Swap@?$Heap@GUPlayerIdAndGroupId@ConnectionGraph@@$0A@@DataStructures@@IAEXII@Z",
+          "site_rva": 327206,
+          "target_va": 268760896,
+          "kind": 20
+        },
+        {
+          "symbol": "??1PlayerIdAndGroupId@ConnectionGraph@@QAE@XZ",
+          "site_rva": 327286,
+          "target_va": 268569232,
+          "kind": 20
+        },
+        {
+          "symbol": "__except_list",
+          "site_rva": 327303,
+          "target_va": 0,
+          "kind": 6
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_graph_algorithms",
+      "section": 110,
+      "rva": 325440,
+      "size": 147,
+      "kind": ".text",
+      "sha256": "08bced561e195619da0ccfed83c2709e7bcaf43e895815f6a96c8acaeaf1182e",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "??0PlayerIdAndGroupId@ConnectionGraph@@QAE@XZ",
+          "site_rva": 325452,
+          "target_va": 268569216,
+          "kind": 20
+        },
+        {
+          "symbol": "??1PlayerIdAndGroupId@ConnectionGraph@@QAE@XZ",
+          "site_rva": 325575,
+          "target_va": 268569232,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_graph_algorithms",
+      "section": 66,
+      "rva": 324176,
+      "size": 11,
+      "kind": ".text",
+      "sha256": "1569bab9b8896eb8645f5d0c084d1746c10402a83a299841c4ee82520446cdc1",
+      "whole_bytes_equal": true,
+      "bindings": []
+    },
+    {
+      "unit": "closure_vendor_graph_algorithms",
+      "section": 64,
+      "rva": 324160,
+      "size": 11,
+      "kind": ".text",
+      "sha256": "a2aa493c1db27010d4af0e64ef5967c3901de9af2ae5e123bd10211b1e0511cb",
+      "whole_bytes_equal": true,
+      "bindings": []
+    },
+    {
+      "unit": "closure_vendor_graph_algorithms",
+      "section": 98,
+      "rva": 325408,
+      "size": 16,
+      "kind": ".text",
+      "sha256": "b07ae379ca391bf082024af50885d120737162d492d283a1c594cbd691e9313c",
+      "whole_bytes_equal": true,
+      "bindings": []
+    },
+    {
+      "unit": "closure_vendor_graph_algorithms",
+      "section": 100,
+      "rva": 325424,
+      "size": 4,
+      "kind": ".text",
+      "sha256": "f7e0208f5e988ae39c7a45dfddbd12921d02f9c3deb5695d4c534c8ab0ccdb0f",
+      "whole_bytes_equal": true,
+      "bindings": []
+    },
+    {
+      "unit": "closure_vendor_graph_algorithms",
+      "section": 124,
+      "rva": 326688,
+      "size": 190,
+      "kind": ".text",
+      "sha256": "8142edaefda3939a44c1aec51e5c10a3bf061e29f5d6a8d4f60536590a564d5f",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "__ehhandler$?Push@?$Heap@GUPlayerIdAndGroupId@ConnectionGraph@@$0A@@DataStructures@@QAEXABGABUPlayerIdAndGroupId@ConnectionGraph@@@Z",
+          "site_rva": 326691,
+          "target_va": 269365608,
+          "kind": 6
+        },
+        {
+          "symbol": "__except_list",
+          "site_rva": 326697,
+          "target_va": 0,
+          "kind": 6
+        },
+        {
+          "symbol": "__except_list",
+          "site_rva": 326705,
+          "target_va": 0,
+          "kind": 6
+        },
+        {
+          "symbol": "?Insert@?$List@UHeapNode@?$Heap@GUPlayerIdAndGroupId@ConnectionGraph@@$0A@@DataStructures@@@DataStructures@@QAEXUHeapNode@?$Heap@GUPlayerIdAndGroupId@ConnectionGraph@@$0A@@2@@Z",
+          "site_rva": 326792,
+          "target_va": 268761104,
+          "kind": 20
+        },
+        {
+          "symbol": "??1PlayerIdAndGroupId@ConnectionGraph@@QAE@XZ",
+          "site_rva": 326809,
+          "target_va": 268569232,
+          "kind": 20
+        },
+        {
+          "symbol": "?Parent@?$Heap@GUPlayerIdAndGroupId@ConnectionGraph@@$0A@@DataStructures@@IBEII@Z",
+          "site_rva": 326821,
+          "target_va": 268759648,
+          "kind": 20
+        },
+        {
+          "symbol": "?Swap@?$Heap@GUPlayerIdAndGroupId@ConnectionGraph@@$0A@@DataStructures@@IAEXII@Z",
+          "site_rva": 326847,
+          "target_va": 268760896,
+          "kind": 20
+        },
+        {
+          "symbol": "__except_list",
+          "site_rva": 326867,
+          "target_va": 0,
+          "kind": 6
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_graph_algorithms",
+      "section": 68,
+      "rva": 324192,
+      "size": 10,
+      "kind": ".text",
+      "sha256": "90d19fb1fb5451bed0ba03950080ae3a214133db87afd7f795ebd125cb6e83f5",
+      "whole_bytes_equal": true,
+      "bindings": []
+    },
+    {
+      "unit": "closure_vendor_graph_algorithms",
+      "section": 114,
+      "rva": 325648,
+      "size": 277,
+      "kind": ".text",
+      "sha256": "b4eab7598314d123b29930c11427a68b803a1e63a02272263152c928346bacb8",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "__ehhandler$?Insert@?$List@UHeapNode@?$Heap@GUPlayerIdAndGroupId@ConnectionGraph@@$0A@@DataStructures@@@DataStructures@@QAEXUHeapNode@?$Heap@GUPlayerIdAndGroupId@ConnectionGraph@@$0A@@2@@Z",
+          "site_rva": 325651,
+          "target_va": 269365555,
+          "kind": 6
+        },
+        {
+          "symbol": "__except_list",
+          "site_rva": 325657,
+          "target_va": 0,
+          "kind": 6
+        },
+        {
+          "symbol": "__except_list",
+          "site_rva": 325665,
+          "target_va": 0,
+          "kind": 6
+        },
+        {
+          "symbol": "??2@YAPAXI@Z",
+          "site_rva": 325723,
+          "target_va": 269247098,
+          "kind": 20
+        },
+        {
+          "symbol": "??1HeapNode@?$Heap@GUPlayerIdAndGroupId@ConnectionGraph@@$0A@@DataStructures@@QAE@XZ",
+          "site_rva": 325744,
+          "target_va": 268759200,
+          "kind": 6
+        },
+        {
+          "symbol": "??0HeapNode@?$Heap@GUPlayerIdAndGroupId@ConnectionGraph@@$0A@@DataStructures@@QAE@XZ",
+          "site_rva": 325749,
+          "target_va": 268759824,
+          "kind": 6
+        },
+        {
+          "symbol": "??_L@YGXPAXIHP6EX0@Z1@Z",
+          "site_rva": 325763,
+          "target_va": 269254863,
+          "kind": 20
+        },
+        {
+          "symbol": "??1HeapNode@?$Heap@GUPlayerIdAndGroupId@ConnectionGraph@@$0A@@DataStructures@@QAE@XZ",
+          "site_rva": 325813,
+          "target_va": 268759200,
+          "kind": 6
+        },
+        {
+          "symbol": "??_M@YGXPAXIHP6EX0@Z@Z",
+          "site_rva": 325822,
+          "target_va": 269254767,
+          "kind": 20
+        },
+        {
+          "symbol": "??3@YAXPAX@Z",
+          "site_rva": 325828,
+          "target_va": 269247626,
+          "kind": 20
+        },
+        {
+          "symbol": "??1PlayerIdAndGroupId@ConnectionGraph@@QAE@XZ",
+          "site_rva": 325902,
+          "target_va": 268569232,
+          "kind": 20
+        },
+        {
+          "symbol": "__except_list",
+          "site_rva": 325915,
+          "target_va": 0,
+          "kind": 6
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_graph_algorithms",
+      "section": 80,
+      "rva": 324368,
+      "size": 15,
+      "kind": ".text",
+      "sha256": "8bb3b6151145cda74dea88ab376ef5bec45899be216bb1c6868fa935ffffd250",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "??0PlayerIdAndGroupId@ConnectionGraph@@QAE@XZ",
+          "site_rva": 324375,
+          "target_va": 268569216,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_graph_algorithms",
+      "section": 94,
+      "rva": 325264,
+      "size": 131,
+      "kind": ".text",
+      "sha256": "867d375459e4ed0cc0e8c5695ee48c8099691b6b29bce615c1ef0b97cf9ea20c",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "?GetIndexFromKey@?$OrderedList@UPlayerIdAndGroupId@ConnectionGraph@@U12@$1??$defaultOrderedListComparison@UPlayerIdAndGroupId@ConnectionGraph@@U12@@DataStructures@@YAHABU12@0@Z@DataStructures@@QBEIABUPlayerIdAndGroupId@ConnectionGraph@@PA_N@Z",
+          "site_rva": 325281,
+          "target_va": 268758176,
+          "kind": 20
+        },
+        {
+          "symbol": "?Insert@?$List@UPlayerIdAndGroupId@ConnectionGraph@@@DataStructures@@QAEXUPlayerIdAndGroupId@ConnectionGraph@@@Z",
+          "site_rva": 325340,
+          "target_va": 268760064,
+          "kind": 20
+        },
+        {
+          "symbol": "?Insert@?$List@UPlayerIdAndGroupId@ConnectionGraph@@@DataStructures@@QAEXUPlayerIdAndGroupId@ConnectionGraph@@I@Z",
+          "site_rva": 325384,
+          "target_va": 268759312,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_graph_algorithms",
+      "section": 52,
+      "rva": 323856,
+      "size": 303,
+      "kind": ".text",
+      "sha256": "4a12c5b051067d09c7eabf88a14bf19a6727a86ed22317422b65a6a1991c9e9f",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "__ehhandler$?Insert@?$List@UPlayerIdAndGroupId@ConnectionGraph@@@DataStructures@@QAEXUPlayerIdAndGroupId@ConnectionGraph@@I@Z",
+          "site_rva": 323859,
+          "target_va": 269365427,
+          "kind": 6
+        },
+        {
+          "symbol": "__except_list",
+          "site_rva": 323865,
+          "target_va": 0,
+          "kind": 6
+        },
+        {
+          "symbol": "__except_list",
+          "site_rva": 323873,
+          "target_va": 0,
+          "kind": 6
+        },
+        {
+          "symbol": "??2@YAPAXI@Z",
+          "site_rva": 323935,
+          "target_va": 269247098,
+          "kind": 20
+        },
+        {
+          "symbol": "??1PlayerIdAndGroupId@ConnectionGraph@@QAE@XZ",
+          "site_rva": 323956,
+          "target_va": 268569232,
+          "kind": 6
+        },
+        {
+          "symbol": "??0PlayerIdAndGroupId@ConnectionGraph@@QAE@XZ",
+          "site_rva": 323961,
+          "target_va": 268569216,
+          "kind": 6
+        },
+        {
+          "symbol": "??_L@YGXPAXIHP6EX0@Z1@Z",
+          "site_rva": 323975,
+          "target_va": 269254863,
+          "kind": 20
+        },
+        {
+          "symbol": "??1PlayerIdAndGroupId@ConnectionGraph@@QAE@XZ",
+          "site_rva": 324026,
+          "target_va": 268569232,
+          "kind": 6
+        },
+        {
+          "symbol": "??_M@YGXPAXIHP6EX0@Z@Z",
+          "site_rva": 324035,
+          "target_va": 269254767,
+          "kind": 20
+        },
+        {
+          "symbol": "??3@YAXPAX@Z",
+          "site_rva": 324041,
+          "target_va": 269247626,
+          "kind": 20
+        },
+        {
+          "symbol": "_memmove",
+          "site_rva": 324081,
+          "target_va": 269250016,
+          "kind": 20
+        },
+        {
+          "symbol": "??1PlayerIdAndGroupId@ConnectionGraph@@QAE@XZ",
+          "site_rva": 324135,
+          "target_va": 268569232,
+          "kind": 20
+        },
+        {
+          "symbol": "__except_list",
+          "site_rva": 324149,
+          "target_va": 0,
+          "kind": 6
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_graph_algorithms",
+      "section": 19,
+      "rva": 324608,
+      "size": 272,
+      "kind": ".text",
+      "sha256": "6467dad75b6d398f1ca8c39cce37cb9a27cc2e2dca42259863641fb84bc82da8",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "__ehhandler$?Insert@?$List@UPlayerIdAndGroupId@ConnectionGraph@@@DataStructures@@QAEXUPlayerIdAndGroupId@ConnectionGraph@@@Z",
+          "site_rva": 324611,
+          "target_va": 269365459,
+          "kind": 6
+        },
+        {
+          "symbol": "__except_list",
+          "site_rva": 324617,
+          "target_va": 0,
+          "kind": 6
+        },
+        {
+          "symbol": "__except_list",
+          "site_rva": 324625,
+          "target_va": 0,
+          "kind": 6
+        },
+        {
+          "symbol": "??2@YAPAXI@Z",
+          "site_rva": 324687,
+          "target_va": 269247098,
+          "kind": 20
+        },
+        {
+          "symbol": "??1PlayerIdAndGroupId@ConnectionGraph@@QAE@XZ",
+          "site_rva": 324708,
+          "target_va": 268569232,
+          "kind": 6
+        },
+        {
+          "symbol": "??0PlayerIdAndGroupId@ConnectionGraph@@QAE@XZ",
+          "site_rva": 324713,
+          "target_va": 268569216,
+          "kind": 6
+        },
+        {
+          "symbol": "??_L@YGXPAXIHP6EX0@Z1@Z",
+          "site_rva": 324727,
+          "target_va": 269254863,
+          "kind": 20
+        },
+        {
+          "symbol": "??1PlayerIdAndGroupId@ConnectionGraph@@QAE@XZ",
+          "site_rva": 324777,
+          "target_va": 268569232,
+          "kind": 6
+        },
+        {
+          "symbol": "??_M@YGXPAXIHP6EX0@Z@Z",
+          "site_rva": 324786,
+          "target_va": 269254767,
+          "kind": 20
+        },
+        {
+          "symbol": "??3@YAXPAX@Z",
+          "site_rva": 324792,
+          "target_va": 269247626,
+          "kind": 20
+        },
+        {
+          "symbol": "??1PlayerIdAndGroupId@ConnectionGraph@@QAE@XZ",
+          "site_rva": 324857,
+          "target_va": 268569232,
+          "kind": 20
+        },
+        {
+          "symbol": "__except_list",
+          "site_rva": 324870,
+          "target_va": 0,
+          "kind": 6
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_graph_algorithms",
+      "section": 122,
+      "rva": 326672,
+      "size": 12,
+      "kind": ".text",
+      "sha256": "b0e2f10368b2beb2ed4263b842018f0452ef8179f6994d980a9b298ac05e66e8",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "??0?$List@UHeapNode@?$Heap@GUPlayerIdAndGroupId@ConnectionGraph@@$0A@@DataStructures@@@DataStructures@@QAE@XZ",
+          "site_rva": 326676,
+          "target_va": 268759664,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_graph_algorithms",
+      "section": 70,
+      "rva": 324208,
+      "size": 13,
+      "kind": ".text",
+      "sha256": "efaddf6f7c64b7d0dd7d70e04563c88df5b21978a063a338954e28cc09d4e5e9",
+      "whole_bytes_equal": true,
+      "bindings": []
+    },
+    {
+      "unit": "closure_vendor_graph_algorithms",
+      "section": 26,
+      "rva": 136608,
+      "size": 86,
+      "kind": ".text",
+      "sha256": "edecfce0f4c8ad0bd87f7cd7f14a1fd99df7ac81480dc83d807fcbba3b88c461",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "??1PlayerIdAndGroupId@ConnectionGraph@@QAE@XZ",
+          "site_rva": 136647,
+          "target_va": 268569232,
+          "kind": 6
+        },
+        {
+          "symbol": "??_M@YGXPAXIHP6EX0@Z@Z",
+          "site_rva": 136656,
+          "target_va": 269254767,
+          "kind": 20
+        },
+        {
+          "symbol": "??3@YAXPAX@Z",
+          "site_rva": 136662,
+          "target_va": 269247626,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_graph_algorithms",
+      "section": 13,
+      "rva": 136352,
+      "size": 13,
+      "kind": ".text",
+      "sha256": "efaddf6f7c64b7d0dd7d70e04563c88df5b21978a063a338954e28cc09d4e5e9",
+      "whole_bytes_equal": true,
+      "bindings": []
+    },
+    {
+      "unit": "closure_vendor_graph_algorithms",
+      "section": 153,
+      "rva": 930464,
+      "size": 72,
+      "kind": ".text$x",
+      "sha256": "beb0f5ffcdca1826db76066b702beaec51f5637a4a2afbec74d6214e97269f37",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "??1PlayerIdAndGroupId@ConnectionGraph@@QAE@XZ",
+          "site_rva": 930468,
+          "target_va": 268569232,
+          "kind": 20
+        },
+        {
+          "symbol": "??1?$List@UPlayerIdAndGroupId@ConnectionGraph@@@DataStructures@@QAE@XZ",
+          "site_rva": 930476,
+          "target_va": 268571824,
+          "kind": 20
+        },
+        {
+          "symbol": "??1?$WeightedGraph@UPlayerIdAndGroupId@ConnectionGraph@@G$0A@@DataStructures@@QAE@XZ",
+          "site_rva": 930484,
+          "target_va": 268582624,
+          "kind": 20
+        },
+        {
+          "symbol": "??1?$Queue@UNodeAndParent@?$WeightedGraph@UPlayerIdAndGroupId@ConnectionGraph@@G$0A@@DataStructures@@@DataStructures@@QAE@XZ",
+          "site_rva": 930492,
+          "target_va": 268757648,
+          "kind": 20
+        },
+        {
+          "symbol": "??1PlayerIdAndGroupId@ConnectionGraph@@QAE@XZ",
+          "site_rva": 930500,
+          "target_va": 268569232,
+          "kind": 20
+        },
+        {
+          "symbol": "??3@YAXPAX@Z",
+          "site_rva": 930509,
+          "target_va": 269247626,
+          "kind": 20
+        },
+        {
+          "symbol": "??3@YAXPAX@Z",
+          "site_rva": 930520,
+          "target_va": 269247626,
+          "kind": 20
+        },
+        {
+          "symbol": "$T4269",
+          "site_rva": 930527,
+          "target_va": 269463536,
+          "kind": 6
+        },
+        {
+          "symbol": "___CxxFrameHandler",
+          "site_rva": 930532,
+          "target_va": 269247782,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_graph_algorithms",
+      "section": 137,
+      "rva": 930112,
+      "size": 18,
+      "kind": ".text$x",
+      "sha256": "7c9650eef630ca2bb04976ed00b7b9967765f07ffb0ea68c28e4789798127da8",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "??1?$List@PAV?$Tree@UPlayerIdAndGroupId@ConnectionGraph@@@DataStructures@@@DataStructures@@QAE@XZ",
+          "site_rva": 930116,
+          "target_va": 268758032,
+          "kind": 20
+        },
+        {
+          "symbol": "$T4003",
+          "site_rva": 930121,
+          "target_va": 269463108,
+          "kind": 6
+        },
+        {
+          "symbol": "___CxxFrameHandler",
+          "site_rva": 930126,
+          "target_va": 269247782,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_graph_algorithms",
+      "section": 103,
+      "rva": 930016,
+      "size": 18,
+      "kind": ".text$x",
+      "sha256": "0a27e59b4e565adb8e68c9c2c2aea07635876f8564951df4d0e11c60afccf52a",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "??1PlayerIdAndGroupId@ConnectionGraph@@QAE@XZ",
+          "site_rva": 930020,
+          "target_va": 268569232,
+          "kind": 20
+        },
+        {
+          "symbol": "$T3647",
+          "site_rva": 930025,
+          "target_va": 269462992,
+          "kind": 6
+        },
+        {
+          "symbol": "___CxxFrameHandler",
+          "site_rva": 930030,
+          "target_va": 269247782,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_graph_algorithms",
+      "section": 107,
+      "rva": 930048,
+      "size": 18,
+      "kind": ".text$x",
+      "sha256": "12d7ff76833a5edad61791fdd2d7b20ae3990345bebc81ff03ddb5a467f903ca",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "??1?$Queue@PAV?$Tree@UPlayerIdAndGroupId@ConnectionGraph@@@DataStructures@@@DataStructures@@QAE@XZ",
+          "site_rva": 930052,
+          "target_va": 268758896,
+          "kind": 20
+        },
+        {
+          "symbol": "$T3681",
+          "site_rva": 930057,
+          "target_va": 269463028,
+          "kind": 6
+        },
+        {
+          "symbol": "___CxxFrameHandler",
+          "site_rva": 930062,
+          "target_va": 269247782,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_graph_algorithms",
+      "section": 149,
+      "rva": 930400,
+      "size": 58,
+      "kind": ".text$x",
+      "sha256": "236a6ff122667735b19bfe0847525fb42baa5c28fef565cb75fa908a527c2033",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "??1PlayerIdAndGroupId@ConnectionGraph@@QAE@XZ",
+          "site_rva": 930404,
+          "target_va": 268569232,
+          "kind": 20
+        },
+        {
+          "symbol": "??1PlayerIdAndGroupId@ConnectionGraph@@QAE@XZ",
+          "site_rva": 930412,
+          "target_va": 268569232,
+          "kind": 20
+        },
+        {
+          "symbol": "??1?$Queue@UPlayerIdAndGroupId@ConnectionGraph@@@DataStructures@@QAE@XZ",
+          "site_rva": 930420,
+          "target_va": 268571216,
+          "kind": 20
+        },
+        {
+          "symbol": "??1PlayerIdAndGroupId@ConnectionGraph@@QAE@XZ",
+          "site_rva": 930428,
+          "target_va": 268569232,
+          "kind": 20
+        },
+        {
+          "symbol": "??1PlayerIdAndGroupId@ConnectionGraph@@QAE@XZ",
+          "site_rva": 930436,
+          "target_va": 268569232,
+          "kind": 20
+        },
+        {
+          "symbol": "??1PlayerIdAndGroupId@ConnectionGraph@@QAE@XZ",
+          "site_rva": 930444,
+          "target_va": 268569232,
+          "kind": 20
+        },
+        {
+          "symbol": "$T4160",
+          "site_rva": 930449,
+          "target_va": 269463452,
+          "kind": 6
+        },
+        {
+          "symbol": "___CxxFrameHandler",
+          "site_rva": 930454,
+          "target_va": 269247782,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_graph_algorithms",
+      "section": 145,
+      "rva": 930304,
+      "size": 85,
+      "kind": ".text$x",
+      "sha256": "e9d3d31ef40f93775445e7508664ad8e729988ac6f5b4238704a30599b7df934",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "??1PlayerIdAndGroupId@ConnectionGraph@@QAE@XZ",
+          "site_rva": 930308,
+          "target_va": 268569232,
+          "kind": 20
+        },
+        {
+          "symbol": "??3@YAXPAX@Z",
+          "site_rva": 930317,
+          "target_va": 269247626,
+          "kind": 20
+        },
+        {
+          "symbol": "??1PlayerIdAndGroupId@ConnectionGraph@@QAE@XZ",
+          "site_rva": 930327,
+          "target_va": 268569232,
+          "kind": 20
+        },
+        {
+          "symbol": "??1PlayerIdAndGroupId@ConnectionGraph@@QAE@XZ",
+          "site_rva": 930335,
+          "target_va": 268569232,
+          "kind": 20
+        },
+        {
+          "symbol": "??1?$Heap@GUPlayerIdAndGroupId@ConnectionGraph@@$0A@@DataStructures@@QAE@XZ",
+          "site_rva": 930343,
+          "target_va": 268764560,
+          "kind": 20
+        },
+        {
+          "symbol": "??1?$Map@UPlayerIdAndGroupId@ConnectionGraph@@G$1??$defaultMapKeyComparison@UPlayerIdAndGroupId@ConnectionGraph@@@DataStructures@@YAHABU12@0@Z@DataStructures@@QAE@XZ",
+          "site_rva": 930351,
+          "target_va": 268578240,
+          "kind": 20
+        },
+        {
+          "symbol": "??1PlayerIdAndGroupId@ConnectionGraph@@QAE@XZ",
+          "site_rva": 930359,
+          "target_va": 268569232,
+          "kind": 20
+        },
+        {
+          "symbol": "??1PlayerIdAndGroupId@ConnectionGraph@@QAE@XZ",
+          "site_rva": 930367,
+          "target_va": 268569232,
+          "kind": 20
+        },
+        {
+          "symbol": "??1PlayerIdAndGroupId@ConnectionGraph@@QAE@XZ",
+          "site_rva": 930375,
+          "target_va": 268569232,
+          "kind": 20
+        },
+        {
+          "symbol": "$T4090",
+          "site_rva": 930380,
+          "target_va": 269463376,
+          "kind": 6
+        },
+        {
+          "symbol": "___CxxFrameHandler",
+          "site_rva": 930385,
+          "target_va": 269247782,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_graph_algorithms",
+      "section": 141,
+      "rva": 930272,
+      "size": 18,
+      "kind": ".text$x",
+      "sha256": "9b3d346b97e0a8a7930d4fc7fb45d5d766e90f4dcef8967ebe56056e5decf4b0",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "??1?$List@UHeapNode@?$Heap@GUPlayerIdAndGroupId@ConnectionGraph@@$0A@@DataStructures@@@DataStructures@@QAE@XZ",
+          "site_rva": 930276,
+          "target_va": 268761056,
+          "kind": 20
+        },
+        {
+          "symbol": "$T4014",
+          "site_rva": 930281,
+          "target_va": 269463276,
+          "kind": 6
+        },
+        {
+          "symbol": "___CxxFrameHandler",
+          "site_rva": 930286,
+          "target_va": 269247782,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_graph_algorithms",
+      "section": 129,
+      "rva": 930176,
+      "size": 43,
+      "kind": ".text$x",
+      "sha256": "4521a0d9ffe6ef49f19dae9d257cdfae047464da1bcc1329cb02c10dc55850e5",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "??1PlayerIdAndGroupId@ConnectionGraph@@QAE@XZ",
+          "site_rva": 930180,
+          "target_va": 268569232,
+          "kind": 20
+        },
+        {
+          "symbol": "??1PlayerIdAndGroupId@ConnectionGraph@@QAE@XZ",
+          "site_rva": 930204,
+          "target_va": 268569232,
+          "kind": 20
+        },
+        {
+          "symbol": "$T3968",
+          "site_rva": 930210,
+          "target_va": 269463188,
+          "kind": 6
+        },
+        {
+          "symbol": "___CxxFrameHandler",
+          "site_rva": 930215,
+          "target_va": 269247782,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_graph_algorithms",
+      "section": 125,
+      "rva": 930144,
+      "size": 18,
+      "kind": ".text$x",
+      "sha256": "ad4106badc503f7c0984cc5104ccf103c13bbb3a38a9556b1c106c01e6cc2119",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "??1HeapNode@?$Heap@GUPlayerIdAndGroupId@ConnectionGraph@@$0A@@DataStructures@@QAE@XZ",
+          "site_rva": 930148,
+          "target_va": 268759200,
+          "kind": 20
+        },
+        {
+          "symbol": "$T3882",
+          "site_rva": 930153,
+          "target_va": 269463144,
+          "kind": 6
+        },
+        {
+          "symbol": "___CxxFrameHandler",
+          "site_rva": 930158,
+          "target_va": 269247782,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_graph_algorithms",
+      "section": 115,
+      "rva": 930080,
+      "size": 29,
+      "kind": ".text$x",
+      "sha256": "71497ac03ca607897e5fc5eae9ff5e75d092e9b6b6edbdfd7a214b31f4162b7d",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "??1HeapNode@?$Heap@GUPlayerIdAndGroupId@ConnectionGraph@@$0A@@DataStructures@@QAE@XZ",
+          "site_rva": 930084,
+          "target_va": 268759200,
+          "kind": 20
+        },
+        {
+          "symbol": "??3@YAXPAX@Z",
+          "site_rva": 930093,
+          "target_va": 269247626,
+          "kind": 20
+        },
+        {
+          "symbol": "$T3837",
+          "site_rva": 930100,
+          "target_va": 269463072,
+          "kind": 6
+        },
+        {
+          "symbol": "___CxxFrameHandler",
+          "site_rva": 930105,
+          "target_va": 269247782,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_graph_algorithms",
+      "section": 53,
+      "rva": 929952,
+      "size": 29,
+      "kind": ".text$x",
+      "sha256": "427081f50fd24181b9e5d34e8817e1442b9c8c1c15fad8c650ce52a006ffe2b6",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "??1PlayerIdAndGroupId@ConnectionGraph@@QAE@XZ",
+          "site_rva": 929956,
+          "target_va": 268569232,
+          "kind": 20
+        },
+        {
+          "symbol": "??3@YAXPAX@Z",
+          "site_rva": 929965,
+          "target_va": 269247626,
+          "kind": 20
+        },
+        {
+          "symbol": "$T3560",
+          "site_rva": 929972,
+          "target_va": 269462912,
+          "kind": 6
+        },
+        {
+          "symbol": "___CxxFrameHandler",
+          "site_rva": 929977,
+          "target_va": 269247782,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_graph_algorithms",
+      "section": 20,
+      "rva": 929984,
+      "size": 29,
+      "kind": ".text$x",
+      "sha256": "5d0d793340f2003d477623f05589f51c529bfb9a215319a9afd587cfd147c54e",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "??1PlayerIdAndGroupId@ConnectionGraph@@QAE@XZ",
+          "site_rva": 929988,
+          "target_va": 268569232,
+          "kind": 20
+        },
+        {
+          "symbol": "??3@YAXPAX@Z",
+          "site_rva": 929997,
+          "target_va": 269247626,
+          "kind": 20
+        },
+        {
+          "symbol": "$T3432",
+          "site_rva": 930004,
+          "target_va": 269462956,
+          "kind": 6
+        },
+        {
+          "symbol": "___CxxFrameHandler",
+          "site_rva": 930009,
+          "target_va": 269247782,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_graph_algorithms",
+      "section": 154,
+      "rva": 1028024,
+      "size": 84,
+      "kind": ".xdata$x",
+      "sha256": "72f815a814f782b886ed3d616ccd41602b5d8077d17867974f3248c0080e2f10",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "$L4190",
+          "site_rva": 1028028,
+          "target_va": 269365920,
+          "kind": 6
+        },
+        {
+          "symbol": "$L4191",
+          "site_rva": 1028036,
+          "target_va": 269365928,
+          "kind": 6
+        },
+        {
+          "symbol": "$L4192",
+          "site_rva": 1028044,
+          "target_va": 269365936,
+          "kind": 6
+        },
+        {
+          "symbol": "$L4193",
+          "site_rva": 1028052,
+          "target_va": 269365944,
+          "kind": 6
+        },
+        {
+          "symbol": "$L4194",
+          "site_rva": 1028060,
+          "target_va": 269365952,
+          "kind": 6
+        },
+        {
+          "symbol": "$L4195",
+          "site_rva": 1028068,
+          "target_va": 269365960,
+          "kind": 6
+        },
+        {
+          "symbol": "$L4198",
+          "site_rva": 1028076,
+          "target_va": 269365971,
+          "kind": 6
+        },
+        {
+          "symbol": "$T4288",
+          "site_rva": 1028088,
+          "target_va": 269463480,
+          "kind": 6
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_graph_algorithms",
+      "section": 138,
+      "rva": 1027644,
+      "size": 36,
+      "kind": ".xdata$x",
+      "sha256": "f05665ea8eb84e0fb225fc5a8ef9c6db1dd3ba459ff1d18e03d0de0393830a5b",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "$L3990",
+          "site_rva": 1027648,
+          "target_va": 269365568,
+          "kind": 6
+        },
+        {
+          "symbol": "$T4007",
+          "site_rva": 1027660,
+          "target_va": 269463100,
+          "kind": 6
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_graph_algorithms",
+      "section": 104,
+      "rva": 1027528,
+      "size": 36,
+      "kind": ".xdata$x",
+      "sha256": "0d9d4b7fcbaaea74fc96a3eeb7607dac5f79367395b5e9882690cf98e1b43c27",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "$L3644",
+          "site_rva": 1027532,
+          "target_va": 269365472,
+          "kind": 6
+        },
+        {
+          "symbol": "$T3649",
+          "site_rva": 1027544,
+          "target_va": 269462984,
+          "kind": 6
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_graph_algorithms",
+      "section": 108,
+      "rva": 1027564,
+      "size": 36,
+      "kind": ".xdata$x",
+      "sha256": "92ad8ba49bd2c0c62ecfac2ac7d22557728f3fb4053bf17fba3f929883d306f6",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "$L3654",
+          "site_rva": 1027568,
+          "target_va": 269365504,
+          "kind": 6
+        },
+        {
+          "symbol": "$T3694",
+          "site_rva": 1027580,
+          "target_va": 269463020,
+          "kind": 6
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_graph_algorithms",
+      "section": 150,
+      "rva": 1027948,
+      "size": 76,
+      "kind": ".xdata$x",
+      "sha256": "436396e36983f2402a2a9ac3f2db12af11d02ab194d448fd423490711904de79",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "$L4124",
+          "site_rva": 1027952,
+          "target_va": 269365856,
+          "kind": 6
+        },
+        {
+          "symbol": "$L4125",
+          "site_rva": 1027960,
+          "target_va": 269365864,
+          "kind": 6
+        },
+        {
+          "symbol": "$L4126",
+          "site_rva": 1027968,
+          "target_va": 269365872,
+          "kind": 6
+        },
+        {
+          "symbol": "$L4127",
+          "site_rva": 1027976,
+          "target_va": 269365880,
+          "kind": 6
+        },
+        {
+          "symbol": "$L4128",
+          "site_rva": 1027984,
+          "target_va": 269365888,
+          "kind": 6
+        },
+        {
+          "symbol": "$L4129",
+          "site_rva": 1027992,
+          "target_va": 269365896,
+          "kind": 6
+        },
+        {
+          "symbol": "$T4172",
+          "site_rva": 1028004,
+          "target_va": 269463404,
+          "kind": 6
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_graph_algorithms",
+      "section": 146,
+      "rva": 1027848,
+      "size": 100,
+      "kind": ".xdata$x",
+      "sha256": "75a5177e63780345c07e9bd59a65388a26ca0fe3329471bdff198871a6c74146",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "$L4033",
+          "site_rva": 1027852,
+          "target_va": 269365760,
+          "kind": 6
+        },
+        {
+          "symbol": "$L4034",
+          "site_rva": 1027860,
+          "target_va": 269365768,
+          "kind": 6
+        },
+        {
+          "symbol": "$L4035",
+          "site_rva": 1027868,
+          "target_va": 269365779,
+          "kind": 6
+        },
+        {
+          "symbol": "$L4036",
+          "site_rva": 1027876,
+          "target_va": 269365787,
+          "kind": 6
+        },
+        {
+          "symbol": "$L4037",
+          "site_rva": 1027884,
+          "target_va": 269365795,
+          "kind": 6
+        },
+        {
+          "symbol": "$L4038",
+          "site_rva": 1027892,
+          "target_va": 269365803,
+          "kind": 6
+        },
+        {
+          "symbol": "$L4039",
+          "site_rva": 1027900,
+          "target_va": 269365811,
+          "kind": 6
+        },
+        {
+          "symbol": "$L4040",
+          "site_rva": 1027908,
+          "target_va": 269365819,
+          "kind": 6
+        },
+        {
+          "symbol": "$L4042",
+          "site_rva": 1027916,
+          "target_va": 269365827,
+          "kind": 6
+        },
+        {
+          "symbol": "$T4110",
+          "site_rva": 1027928,
+          "target_va": 269463304,
+          "kind": 6
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_graph_algorithms",
+      "section": 142,
+      "rva": 1027812,
+      "size": 36,
+      "kind": ".xdata$x",
+      "sha256": "f5dc9c69325f55c2a532952e8008645ceddbe12a8d528d11080d42c81e83eb99",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "$L4012",
+          "site_rva": 1027816,
+          "target_va": 269365728,
+          "kind": 6
+        },
+        {
+          "symbol": "$T4016",
+          "site_rva": 1027828,
+          "target_va": 269463268,
+          "kind": 6
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_graph_algorithms",
+      "section": 130,
+      "rva": 1027716,
+      "size": 44,
+      "kind": ".xdata$x",
+      "sha256": "4d6fe9095bac279e1a9e3699252098ebd9ff0c7a542f1e5979057c3b77978e12",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "$L3891",
+          "site_rva": 1027720,
+          "target_va": 269365640,
+          "kind": 6
+        },
+        {
+          "symbol": "$L3890",
+          "site_rva": 1027728,
+          "target_va": 269365632,
+          "kind": 6
+        },
+        {
+          "symbol": "$T3976",
+          "site_rva": 1027740,
+          "target_va": 269463172,
+          "kind": 6
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_graph_algorithms",
+      "section": 126,
+      "rva": 1027680,
+      "size": 36,
+      "kind": ".xdata$x",
+      "sha256": "261d298e2bb67566f4409bb1adee3c67020c17ea8e3c7bade4b6de6f549539b7",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "$L3864",
+          "site_rva": 1027684,
+          "target_va": 269365600,
+          "kind": 6
+        },
+        {
+          "symbol": "$T3885",
+          "site_rva": 1027696,
+          "target_va": 269463136,
+          "kind": 6
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_graph_algorithms",
+      "section": 116,
+      "rva": 1027600,
+      "size": 44,
+      "kind": ".xdata$x",
+      "sha256": "d7f8c0954cd7719533ea7bbe3a134c2ad2fb5f0e4d5b35fff28360f81bb33616",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "$L3799",
+          "site_rva": 1027604,
+          "target_va": 269365536,
+          "kind": 6
+        },
+        {
+          "symbol": "$L3800",
+          "site_rva": 1027612,
+          "target_va": 269365544,
+          "kind": 6
+        },
+        {
+          "symbol": "$T3839",
+          "site_rva": 1027624,
+          "target_va": 269463056,
+          "kind": 6
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_graph_algorithms",
+      "section": 54,
+      "rva": 1027440,
+      "size": 44,
+      "kind": ".xdata$x",
+      "sha256": "5588ed5d0e230d78e7a18fa25fed4d211c831e98bdc9ab60c215ca36de8b2b86",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "$L3541",
+          "site_rva": 1027444,
+          "target_va": 269365408,
+          "kind": 6
+        },
+        {
+          "symbol": "$L3542",
+          "site_rva": 1027452,
+          "target_va": 269365416,
+          "kind": 6
+        },
+        {
+          "symbol": "$T3562",
+          "site_rva": 1027464,
+          "target_va": 269462896,
+          "kind": 6
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_graph_algorithms",
+      "section": 21,
+      "rva": 1027484,
+      "size": 44,
+      "kind": ".xdata$x",
+      "sha256": "00270c6777a0f9bd0513c7b1db016afee11038219415f130bc84ff1f5b461c43",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "$L3411",
+          "site_rva": 1027488,
+          "target_va": 269365440,
+          "kind": 6
+        },
+        {
+          "symbol": "$L3412",
+          "site_rva": 1027496,
+          "target_va": 269365448,
+          "kind": 6
+        },
+        {
+          "symbol": "$T3435",
+          "site_rva": 1027508,
+          "target_va": 269462940,
+          "kind": 6
+        }
+      ]
+    }
+  ],
+  "bindings_checked": 378,
+  "external_targets": {
+    "__ehhandler$?GetSpanningTree@?$WeightedGraph@UPlayerIdAndGroupId@ConnectionGraph@@G$0A@@DataStructures@@QAE_NAAV?$Tree@UPlayerIdAndGroupId@ConnectionGraph@@@2@PAV?$List@UPlayerIdAndGroupId@ConnectionGraph@@@2@UPlayerIdAndGroupId@ConnectionGraph@@G@Z": 269365982,
+    "__except_list": 0,
+    "??0?$WeightedGraph@UPlayerIdAndGroupId@ConnectionGraph@@G$0A@@DataStructures@@QAE@XZ": 268580800,
+    "?AddConnection@?$WeightedGraph@UPlayerIdAndGroupId@ConnectionGraph@@G$0A@@DataStructures@@QAEXABUPlayerIdAndGroupId@ConnectionGraph@@0G@Z": 268580832,
+    "??0PlayerIdAndGroupId@ConnectionGraph@@QAE@XZ": 268569216,
+    "?Has@?$Map@UPlayerIdAndGroupId@ConnectionGraph@@PAV?$Map@UPlayerIdAndGroupId@ConnectionGraph@@G$1??$defaultMapKeyComparison@UPlayerIdAndGroupId@ConnectionGraph@@@DataStructures@@YAHABU12@0@Z@DataStructures@@$1??$defaultMapKeyComparison@UPlayerIdAndGroupId@ConnectionGraph@@@4@YAHABU12@0@Z@DataStructures@@QAE_NABUPlayerIdAndGroupId@ConnectionGraph@@@Z": 268577056,
+    "??1PlayerIdAndGroupId@ConnectionGraph@@QAE@XZ": 268569232,
+    "??1?$WeightedGraph@UPlayerIdAndGroupId@ConnectionGraph@@G$0A@@DataStructures@@QAE@XZ": 268582624,
+    "?Get@?$Map@UPlayerIdAndGroupId@ConnectionGraph@@PAV?$Map@UPlayerIdAndGroupId@ConnectionGraph@@G$1??$defaultMapKeyComparison@UPlayerIdAndGroupId@ConnectionGraph@@@DataStructures@@YAHABU12@0@Z@DataStructures@@$1??$defaultMapKeyComparison@UPlayerIdAndGroupId@ConnectionGraph@@@4@YAHABU12@0@Z@DataStructures@@QAEAAPAV?$Map@UPlayerIdAndGroupId@ConnectionGraph@@G$1??$defaultMapKeyComparison@UPlayerIdAndGroupId@ConnectionGraph@@@DataStructures@@YAHABU12@0@Z@2@ABUPlayerIdAndGroupId@ConnectionGraph@@@Z": 268576976,
+    "?Size@?$Map@UPlayerIdAndGroupId@ConnectionGraph@@G$1??$defaultMapKeyComparison@UPlayerIdAndGroupId@ConnectionGraph@@@DataStructures@@YAHABU12@0@Z@DataStructures@@QBEIXZ": 268577408,
+    "??2@YAPAXI@Z": 269247098,
+    "?GetKeyAtIndex@?$Map@UPlayerIdAndGroupId@ConnectionGraph@@G$1??$defaultMapKeyComparison@UPlayerIdAndGroupId@ConnectionGraph@@@DataStructures@@YAHABU12@0@Z@DataStructures@@QBE?AUPlayerIdAndGroupId@ConnectionGraph@@I@Z": 268577360,
+    "??9PlayerIdAndGroupId@ConnectionGraph@@QBE_NABU01@@Z": 268569296,
+    "??3@YAXPAX@Z": 269247626,
+    "??_M@YGXPAXIHP6EX0@Z@Z": 269254767,
+    "__ehhandler$?DeleteDecendants@?$Tree@UPlayerIdAndGroupId@ConnectionGraph@@@DataStructures@@QAEXXZ": 269365576,
+    "__ehhandler$??1?$Tree@UPlayerIdAndGroupId@ConnectionGraph@@@DataStructures@@QAE@XZ": 269365480,
+    "__ehhandler$?LevelOrderTraversal@?$Tree@UPlayerIdAndGroupId@ConnectionGraph@@@DataStructures@@QAEXAAV?$List@PAV?$Tree@UPlayerIdAndGroupId@ConnectionGraph@@@DataStructures@@@2@@Z": 269365512,
+    "__ehhandler$?GetShortestPath@?$WeightedGraph@UPlayerIdAndGroupId@ConnectionGraph@@G$0A@@DataStructures@@QAE_NAAV?$List@UPlayerIdAndGroupId@ConnectionGraph@@@2@UPlayerIdAndGroupId@ConnectionGraph@@1G@Z": 269365904,
+    "??8PlayerIdAndGroupId@ConnectionGraph@@QBE_NABU01@@Z": 268569280,
+    "?ClearDijkstra@?$WeightedGraph@UPlayerIdAndGroupId@ConnectionGraph@@G$0A@@DataStructures@@IAEXXZ": 268576896,
+    "??0?$Queue@UPlayerIdAndGroupId@ConnectionGraph@@@DataStructures@@QAE@XZ": 268571088,
+    "??1?$Queue@UPlayerIdAndGroupId@ConnectionGraph@@@DataStructures@@QAE@XZ": 268571216,
+    "?PushAtHead@?$Queue@UPlayerIdAndGroupId@ConnectionGraph@@@DataStructures@@QAEXABUPlayerIdAndGroupId@ConnectionGraph@@I@Z": 268758352,
+    "?Pop@?$Queue@UPlayerIdAndGroupId@ConnectionGraph@@@DataStructures@@QAE?AUPlayerIdAndGroupId@ConnectionGraph@@XZ": 268571696,
+    "??MPlayerIdAndGroupId@ConnectionGraph@@QBE_NABU01@@Z": 268569328,
+    "__ehhandler$?GenerateDisjktraMatrix@?$WeightedGraph@UPlayerIdAndGroupId@ConnectionGraph@@G$0A@@DataStructures@@IAEXUPlayerIdAndGroupId@ConnectionGraph@@G@Z": 269365835,
+    "??_L@YGXPAXIHP6EX0@Z1@Z": 269254863,
+    "??0?$Map@UPlayerIdAndGroupId@ConnectionGraph@@G$1??$defaultMapKeyComparison@UPlayerIdAndGroupId@ConnectionGraph@@@DataStructures@@YAHABU12@0@Z@DataStructures@@QAE@XZ": 268578768,
+    "?GetKeyAtIndex@?$Map@UPlayerIdAndGroupId@ConnectionGraph@@PAV?$Map@UPlayerIdAndGroupId@ConnectionGraph@@G$1??$defaultMapKeyComparison@UPlayerIdAndGroupId@ConnectionGraph@@@DataStructures@@YAHABU12@0@Z@DataStructures@@$1??$defaultMapKeyComparison@UPlayerIdAndGroupId@ConnectionGraph@@@4@YAHABU12@0@Z@DataStructures@@QBE?AUPlayerIdAndGroupId@ConnectionGraph@@I@Z": 268577136,
+    "?GetIndexAtKey@?$Map@UPlayerIdAndGroupId@ConnectionGraph@@PAV?$Map@UPlayerIdAndGroupId@ConnectionGraph@@G$1??$defaultMapKeyComparison@UPlayerIdAndGroupId@ConnectionGraph@@@DataStructures@@YAHABU12@0@Z@DataStructures@@$1??$defaultMapKeyComparison@UPlayerIdAndGroupId@ConnectionGraph@@@4@YAHABU12@0@Z@DataStructures@@QAEIABUPlayerIdAndGroupId@ConnectionGraph@@@Z": 268762064,
+    "??A?$Map@UPlayerIdAndGroupId@ConnectionGraph@@G$1??$defaultMapKeyComparison@UPlayerIdAndGroupId@ConnectionGraph@@@DataStructures@@YAHABU12@0@Z@DataStructures@@QBEAAGI@Z": 268577344,
+    "?Set@?$Map@UPlayerIdAndGroupId@ConnectionGraph@@G$1??$defaultMapKeyComparison@UPlayerIdAndGroupId@ConnectionGraph@@@DataStructures@@YAHABU12@0@Z@DataStructures@@QAEXABUPlayerIdAndGroupId@ConnectionGraph@@ABG@Z": 268578320,
+    "?Delete@?$Map@UPlayerIdAndGroupId@ConnectionGraph@@G$1??$defaultMapKeyComparison@UPlayerIdAndGroupId@ConnectionGraph@@@DataStructures@@YAHABU12@0@Z@DataStructures@@QAE_NABUPlayerIdAndGroupId@ConnectionGraph@@@Z": 268578512,
+    "??1?$Map@UPlayerIdAndGroupId@ConnectionGraph@@G$1??$defaultMapKeyComparison@UPlayerIdAndGroupId@ConnectionGraph@@@DataStructures@@YAHABU12@0@Z@DataStructures@@QAE@XZ": 268578240,
+    "__ehhandler$??1?$Heap@GUPlayerIdAndGroupId@ConnectionGraph@@$0A@@DataStructures@@QAE@XZ": 269365736,
+    "__ehhandler$?Pop@?$Heap@GUPlayerIdAndGroupId@ConnectionGraph@@$0A@@DataStructures@@QAE?AUPlayerIdAndGroupId@ConnectionGraph@@I@Z": 269365665,
+    "__ehhandler$?Push@?$Heap@GUPlayerIdAndGroupId@ConnectionGraph@@$0A@@DataStructures@@QAEXABGABUPlayerIdAndGroupId@ConnectionGraph@@@Z": 269365608,
+    "__ehhandler$?Insert@?$List@UHeapNode@?$Heap@GUPlayerIdAndGroupId@ConnectionGraph@@$0A@@DataStructures@@@DataStructures@@QAEXUHeapNode@?$Heap@GUPlayerIdAndGroupId@ConnectionGraph@@$0A@@2@@Z": 269365555,
+    "__ehhandler$?Insert@?$List@UPlayerIdAndGroupId@ConnectionGraph@@@DataStructures@@QAEXUPlayerIdAndGroupId@ConnectionGraph@@I@Z": 269365427,
+    "_memmove": 269250016,
+    "__ehhandler$?Insert@?$List@UPlayerIdAndGroupId@ConnectionGraph@@@DataStructures@@QAEXUPlayerIdAndGroupId@ConnectionGraph@@@Z": 269365459,
+    "$T4269": 269463536,
+    "___CxxFrameHandler": 269247782,
+    "$T4003": 269463108,
+    "$T3647": 269462992,
+    "$T3681": 269463028,
+    "$T4160": 269463452,
+    "$T4090": 269463376,
+    "$T4014": 269463276,
+    "$T3968": 269463188,
+    "$T3882": 269463144,
+    "$T3837": 269463072,
+    "$T3560": 269462912,
+    "$T3432": 269462956,
+    "$L4190": 269365920,
+    "$L4191": 269365928,
+    "$L4192": 269365936,
+    "$L4193": 269365944,
+    "$L4194": 269365952,
+    "$L4195": 269365960,
+    "$L4198": 269365971,
+    "$T4288": 269463480,
+    "$L3990": 269365568,
+    "$T4007": 269463100,
+    "$L3644": 269365472,
+    "$T3649": 269462984,
+    "$L3654": 269365504,
+    "$T3694": 269463020,
+    "$L4124": 269365856,
+    "$L4125": 269365864,
+    "$L4126": 269365872,
+    "$L4127": 269365880,
+    "$L4128": 269365888,
+    "$L4129": 269365896,
+    "$T4172": 269463404,
+    "$L4033": 269365760,
+    "$L4034": 269365768,
+    "$L4035": 269365779,
+    "$L4036": 269365787,
+    "$L4037": 269365795,
+    "$L4038": 269365803,
+    "$L4039": 269365811,
+    "$L4040": 269365819,
+    "$L4042": 269365827,
+    "$T4110": 269463304,
+    "$L4012": 269365728,
+    "$T4016": 269463268,
+    "$L3891": 269365640,
+    "$L3890": 269365632,
+    "$T3976": 269463172,
+    "$L3864": 269365600,
+    "$T3885": 269463136,
+    "$L3799": 269365536,
+    "$L3800": 269365544,
+    "$T3839": 269463056,
+    "$L3541": 269365408,
+    "$L3542": 269365416,
+    "$T3562": 269462896,
+    "$L3411": 269365440,
+    "$L3412": 269365448,
+    "$T3435": 269462940
+  },
+  "identity_reasons": {
+    "?GenerateDisjktraMatrix@?$WeightedGraph@UPlayerIdAndGroupId@ConnectionGraph@@G$0A@@DataStructures@@IAEXUPlayerIdAndGroupId@ConnectionGraph@@G@Z": "actual relocation from ?GetShortestPath@?$WeightedGraph@UPlayerIdAndGroupId@ConnectionGraph@@G$0A@@DataStructures@@QAE_NAAV?$List@UPlayerIdAndGroupId@ConnectionGraph@@@2@UPlayerIdAndGroupId@ConnectionGraph@@1G@Z",
+    "?GetShortestPath@?$WeightedGraph@UPlayerIdAndGroupId@ConnectionGraph@@G$0A@@DataStructures@@QAE_NAAV?$List@UPlayerIdAndGroupId@ConnectionGraph@@@2@UPlayerIdAndGroupId@ConnectionGraph@@1G@Z": "actual relocation from ?GetSpanningTree@?$WeightedGraph@UPlayerIdAndGroupId@ConnectionGraph@@G$0A@@DataStructures@@QAE_NAAV?$Tree@UPlayerIdAndGroupId@ConnectionGraph@@@2@PAV?$List@UPlayerIdAndGroupId@ConnectionGraph@@@2@UPlayerIdAndGroupId@ConnectionGraph@@G@Z",
+    "?GetSpanningTree@?$WeightedGraph@UPlayerIdAndGroupId@ConnectionGraph@@G$0A@@DataStructures@@QAE_NAAV?$Tree@UPlayerIdAndGroupId@ConnectionGraph@@@2@PAV?$List@UPlayerIdAndGroupId@ConnectionGraph@@@2@UPlayerIdAndGroupId@ConnectionGraph@@G@Z": "source method semantics + original call graph / allocation / table owner",
+    "??0?$List@UPlayerIdAndGroupId@ConnectionGraph@@@DataStructures@@QAE@XZ": "actual relocation from ?GetSpanningTree@?$WeightedGraph@UPlayerIdAndGroupId@ConnectionGraph@@G$0A@@DataStructures@@QAE_NAAV?$Tree@UPlayerIdAndGroupId@ConnectionGraph@@@2@PAV?$List@UPlayerIdAndGroupId@ConnectionGraph@@@2@UPlayerIdAndGroupId@ConnectionGraph@@G@Z",
+    "??0?$Queue@UNodeAndParent@?$WeightedGraph@UPlayerIdAndGroupId@ConnectionGraph@@G$0A@@DataStructures@@@DataStructures@@QAE@XZ": "actual relocation from ?GetSpanningTree@?$WeightedGraph@UPlayerIdAndGroupId@ConnectionGraph@@G$0A@@DataStructures@@QAE_NAAV?$Tree@UPlayerIdAndGroupId@ConnectionGraph@@@2@PAV?$List@UPlayerIdAndGroupId@ConnectionGraph@@@2@UPlayerIdAndGroupId@ConnectionGraph@@G@Z",
+    "?DeleteDecendants@?$Tree@UPlayerIdAndGroupId@ConnectionGraph@@@DataStructures@@QAEXXZ": "actual relocation from ?GetSpanningTree@?$WeightedGraph@UPlayerIdAndGroupId@ConnectionGraph@@G$0A@@DataStructures@@QAE_NAAV?$Tree@UPlayerIdAndGroupId@ConnectionGraph@@@2@PAV?$List@UPlayerIdAndGroupId@ConnectionGraph@@@2@UPlayerIdAndGroupId@ConnectionGraph@@G@Z",
+    "??1?$Queue@UNodeAndParent@?$WeightedGraph@UPlayerIdAndGroupId@ConnectionGraph@@G$0A@@DataStructures@@@DataStructures@@QAE@XZ": "actual relocation from ?GetSpanningTree@?$WeightedGraph@UPlayerIdAndGroupId@ConnectionGraph@@G$0A@@DataStructures@@QAE_NAAV?$Tree@UPlayerIdAndGroupId@ConnectionGraph@@@2@PAV?$List@UPlayerIdAndGroupId@ConnectionGraph@@@2@UPlayerIdAndGroupId@ConnectionGraph@@G@Z",
+    "??1?$List@UPlayerIdAndGroupId@ConnectionGraph@@@DataStructures@@QAE@XZ": "actual relocation from ?GetSpanningTree@?$WeightedGraph@UPlayerIdAndGroupId@ConnectionGraph@@G$0A@@DataStructures@@QAE_NAAV?$Tree@UPlayerIdAndGroupId@ConnectionGraph@@@2@PAV?$List@UPlayerIdAndGroupId@ConnectionGraph@@@2@UPlayerIdAndGroupId@ConnectionGraph@@G@Z",
+    "??0?$Tree@UPlayerIdAndGroupId@ConnectionGraph@@@DataStructures@@QAE@XZ": "actual relocation from ?GetSpanningTree@?$WeightedGraph@UPlayerIdAndGroupId@ConnectionGraph@@G$0A@@DataStructures@@QAE_NAAV?$Tree@UPlayerIdAndGroupId@ConnectionGraph@@@2@PAV?$List@UPlayerIdAndGroupId@ConnectionGraph@@@2@UPlayerIdAndGroupId@ConnectionGraph@@G@Z",
+    "?Push@?$Queue@UNodeAndParent@?$WeightedGraph@UPlayerIdAndGroupId@ConnectionGraph@@G$0A@@DataStructures@@@DataStructures@@QAEXABUNodeAndParent@?$WeightedGraph@UPlayerIdAndGroupId@ConnectionGraph@@G$0A@@2@@Z": "actual relocation from ?GetSpanningTree@?$WeightedGraph@UPlayerIdAndGroupId@ConnectionGraph@@G$0A@@DataStructures@@QAE_NAAV?$Tree@UPlayerIdAndGroupId@ConnectionGraph@@@2@PAV?$List@UPlayerIdAndGroupId@ConnectionGraph@@@2@UPlayerIdAndGroupId@ConnectionGraph@@G@Z",
+    "?Insert@?$List@PAV?$Tree@UPlayerIdAndGroupId@ConnectionGraph@@@DataStructures@@@DataStructures@@QAEXQAV?$Tree@UPlayerIdAndGroupId@ConnectionGraph@@@2@@Z": "actual relocation from ?GetSpanningTree@?$WeightedGraph@UPlayerIdAndGroupId@ConnectionGraph@@G$0A@@DataStructures@@QAE_NAAV?$Tree@UPlayerIdAndGroupId@ConnectionGraph@@@2@PAV?$List@UPlayerIdAndGroupId@ConnectionGraph@@@2@UPlayerIdAndGroupId@ConnectionGraph@@G@Z",
+    "??0?$List@PAV?$Tree@UPlayerIdAndGroupId@ConnectionGraph@@@DataStructures@@@DataStructures@@QAE@XZ": "actual relocation from ??0?$Tree@UPlayerIdAndGroupId@ConnectionGraph@@@DataStructures@@QAE@XZ",
+    "?LevelOrderTraversal@?$Tree@UPlayerIdAndGroupId@ConnectionGraph@@@DataStructures@@QAEXAAV?$List@PAV?$Tree@UPlayerIdAndGroupId@ConnectionGraph@@@DataStructures@@@2@@Z": "actual relocation from ?DeleteDecendants@?$Tree@UPlayerIdAndGroupId@ConnectionGraph@@@DataStructures@@QAEXXZ",
+    "??1?$Tree@UPlayerIdAndGroupId@ConnectionGraph@@@DataStructures@@QAE@XZ": "actual relocation from ?DeleteDecendants@?$Tree@UPlayerIdAndGroupId@ConnectionGraph@@@DataStructures@@QAEXXZ",
+    "??1?$List@PAV?$Tree@UPlayerIdAndGroupId@ConnectionGraph@@@DataStructures@@@DataStructures@@QAE@XZ": "actual relocation from ?DeleteDecendants@?$Tree@UPlayerIdAndGroupId@ConnectionGraph@@@DataStructures@@QAEXXZ",
+    "??0?$Queue@PAV?$Tree@UPlayerIdAndGroupId@ConnectionGraph@@@DataStructures@@@DataStructures@@QAE@XZ": "actual relocation from ?LevelOrderTraversal@?$Tree@UPlayerIdAndGroupId@ConnectionGraph@@@DataStructures@@QAEXAAV?$List@PAV?$Tree@UPlayerIdAndGroupId@ConnectionGraph@@@DataStructures@@@2@@Z",
+    "?Push@?$Queue@PAV?$Tree@UPlayerIdAndGroupId@ConnectionGraph@@@DataStructures@@@DataStructures@@QAEXABQAV?$Tree@UPlayerIdAndGroupId@ConnectionGraph@@@2@@Z": "actual relocation from ?LevelOrderTraversal@?$Tree@UPlayerIdAndGroupId@ConnectionGraph@@@DataStructures@@QAEXAAV?$List@PAV?$Tree@UPlayerIdAndGroupId@ConnectionGraph@@@DataStructures@@@2@@Z",
+    "??1?$Queue@PAV?$Tree@UPlayerIdAndGroupId@ConnectionGraph@@@DataStructures@@@DataStructures@@QAE@XZ": "actual relocation from ?LevelOrderTraversal@?$Tree@UPlayerIdAndGroupId@ConnectionGraph@@@DataStructures@@QAEXAAV?$List@PAV?$Tree@UPlayerIdAndGroupId@ConnectionGraph@@@DataStructures@@@2@@Z",
+    "?Clear@?$List@UPlayerIdAndGroupId@ConnectionGraph@@@DataStructures@@QAEX_N@Z": "actual relocation from ?GetShortestPath@?$WeightedGraph@UPlayerIdAndGroupId@ConnectionGraph@@G$0A@@DataStructures@@QAE_NAAV?$List@UPlayerIdAndGroupId@ConnectionGraph@@@2@UPlayerIdAndGroupId@ConnectionGraph@@1G@Z",
+    "?Insert@?$List@UPlayerIdAndGroupId@ConnectionGraph@@@DataStructures@@QAEXUPlayerIdAndGroupId@ConnectionGraph@@@Z": "actual relocation from ?Insert@?$OrderedList@UPlayerIdAndGroupId@ConnectionGraph@@U12@$1??$defaultOrderedListComparison@UPlayerIdAndGroupId@ConnectionGraph@@U12@@DataStructures@@YAHABU12@0@Z@DataStructures@@QAEIABUPlayerIdAndGroupId@ConnectionGraph@@0@Z",
+    "?GetIndexFromKey@?$OrderedList@UPlayerIdAndGroupId@ConnectionGraph@@U12@$1??$defaultOrderedListComparison@UPlayerIdAndGroupId@ConnectionGraph@@U12@@DataStructures@@YAHABU12@0@Z@DataStructures@@QBEIABUPlayerIdAndGroupId@ConnectionGraph@@PA_N@Z": "actual relocation from ?GetShortestPath@?$WeightedGraph@UPlayerIdAndGroupId@ConnectionGraph@@G$0A@@DataStructures@@QAE_NAAV?$List@UPlayerIdAndGroupId@ConnectionGraph@@@2@UPlayerIdAndGroupId@ConnectionGraph@@1G@Z",
+    "?Size@?$OrderedList@UPlayerIdAndGroupId@ConnectionGraph@@U12@$1??$defaultOrderedListComparison@UPlayerIdAndGroupId@ConnectionGraph@@U12@@DataStructures@@YAHABU12@0@Z@DataStructures@@QBEIXZ": "actual relocation from ?GetShortestPath@?$WeightedGraph@UPlayerIdAndGroupId@ConnectionGraph@@G$0A@@DataStructures@@QAE_NAAV?$List@UPlayerIdAndGroupId@ConnectionGraph@@@2@UPlayerIdAndGroupId@ConnectionGraph@@1G@Z",
+    "?Size@?$Map@UPlayerIdAndGroupId@ConnectionGraph@@PAV?$Map@UPlayerIdAndGroupId@ConnectionGraph@@G$1??$defaultMapKeyComparison@UPlayerIdAndGroupId@ConnectionGraph@@@DataStructures@@YAHABU12@0@Z@DataStructures@@$1??$defaultMapKeyComparison@UPlayerIdAndGroupId@ConnectionGraph@@@4@YAHABU12@0@Z@DataStructures@@QBEIXZ": "actual relocation from ?GetShortestPath@?$WeightedGraph@UPlayerIdAndGroupId@ConnectionGraph@@G$0A@@DataStructures@@QAE_NAAV?$List@UPlayerIdAndGroupId@ConnectionGraph@@@2@UPlayerIdAndGroupId@ConnectionGraph@@1G@Z",
+    "?Size@?$OrderedList@UPlayerIdAndGroupId@ConnectionGraph@@UMapNode@?$Map@UPlayerIdAndGroupId@ConnectionGraph@@PAV?$Map@UPlayerIdAndGroupId@ConnectionGraph@@G$1??$defaultMapKeyComparison@UPlayerIdAndGroupId@ConnectionGraph@@@DataStructures@@YAHABU12@0@Z@DataStructures@@$1??$defaultMapKeyComparison@UPlayerIdAndGroupId@ConnectionGraph@@@4@YAHABU12@0@Z@DataStructures@@$1?NodeComparisonFunc@45@SAHABU12@ABU345@@Z@DataStructures@@QBEIXZ": "actual relocation from ?Size@?$Map@UPlayerIdAndGroupId@ConnectionGraph@@PAV?$Map@UPlayerIdAndGroupId@ConnectionGraph@@G$1??$defaultMapKeyComparison@UPlayerIdAndGroupId@ConnectionGraph@@@DataStructures@@YAHABU12@0@Z@DataStructures@@$1??$defaultMapKeyComparison@UPlayerIdAndGroupId@ConnectionGraph@@@4@YAHABU12@0@Z@DataStructures@@QBEIXZ",
+    "??$defaultOrderedListComparison@UPlayerIdAndGroupId@ConnectionGraph@@U12@@DataStructures@@YAHABUPlayerIdAndGroupId@ConnectionGraph@@0@Z": "actual relocation from ?GetIndexFromKey@?$OrderedList@UPlayerIdAndGroupId@ConnectionGraph@@U12@$1??$defaultOrderedListComparison@UPlayerIdAndGroupId@ConnectionGraph@@U12@@DataStructures@@YAHABU12@0@Z@DataStructures@@QBEIABUPlayerIdAndGroupId@ConnectionGraph@@PA_N@Z",
+    "??0?$Heap@GUPlayerIdAndGroupId@ConnectionGraph@@$0A@@DataStructures@@QAE@XZ": "actual relocation from ?GenerateDisjktraMatrix@?$WeightedGraph@UPlayerIdAndGroupId@ConnectionGraph@@G$0A@@DataStructures@@IAEXUPlayerIdAndGroupId@ConnectionGraph@@G@Z",
+    "?Insert@?$OrderedList@UPlayerIdAndGroupId@ConnectionGraph@@U12@$1??$defaultOrderedListComparison@UPlayerIdAndGroupId@ConnectionGraph@@U12@@DataStructures@@YAHABU12@0@Z@DataStructures@@QAEIABUPlayerIdAndGroupId@ConnectionGraph@@0@Z": "actual relocation from ?GenerateDisjktraMatrix@?$WeightedGraph@UPlayerIdAndGroupId@ConnectionGraph@@G$0A@@DataStructures@@IAEXUPlayerIdAndGroupId@ConnectionGraph@@G@Z",
+    "?Clear@?$Heap@GUPlayerIdAndGroupId@ConnectionGraph@@$0A@@DataStructures@@QAEXXZ": "actual relocation from ??1?$Heap@GUPlayerIdAndGroupId@ConnectionGraph@@$0A@@DataStructures@@QAE@XZ",
+    "?Push@?$Heap@GUPlayerIdAndGroupId@ConnectionGraph@@$0A@@DataStructures@@QAEXABGABUPlayerIdAndGroupId@ConnectionGraph@@@Z": "actual relocation from ?GenerateDisjktraMatrix@?$WeightedGraph@UPlayerIdAndGroupId@ConnectionGraph@@G$0A@@DataStructures@@IAEXUPlayerIdAndGroupId@ConnectionGraph@@G@Z",
+    "?Size@?$Heap@GUPlayerIdAndGroupId@ConnectionGraph@@$0A@@DataStructures@@QBEIXZ": "actual relocation from ?GenerateDisjktraMatrix@?$WeightedGraph@UPlayerIdAndGroupId@ConnectionGraph@@G$0A@@DataStructures@@IAEXUPlayerIdAndGroupId@ConnectionGraph@@G@Z",
+    "?PeekWeight@?$Heap@GUPlayerIdAndGroupId@ConnectionGraph@@$0A@@DataStructures@@QBEGI@Z": "actual relocation from ?GenerateDisjktraMatrix@?$WeightedGraph@UPlayerIdAndGroupId@ConnectionGraph@@G$0A@@DataStructures@@IAEXUPlayerIdAndGroupId@ConnectionGraph@@G@Z",
+    "?Pop@?$Heap@GUPlayerIdAndGroupId@ConnectionGraph@@$0A@@DataStructures@@QAE?AUPlayerIdAndGroupId@ConnectionGraph@@I@Z": "actual relocation from ?GenerateDisjktraMatrix@?$WeightedGraph@UPlayerIdAndGroupId@ConnectionGraph@@G$0A@@DataStructures@@IAEXUPlayerIdAndGroupId@ConnectionGraph@@G@Z",
+    "??1?$Heap@GUPlayerIdAndGroupId@ConnectionGraph@@$0A@@DataStructures@@QAE@XZ": "actual relocation from ?GenerateDisjktraMatrix@?$WeightedGraph@UPlayerIdAndGroupId@ConnectionGraph@@G$0A@@DataStructures@@IAEXUPlayerIdAndGroupId@ConnectionGraph@@G@Z",
+    "??1?$List@UHeapNode@?$Heap@GUPlayerIdAndGroupId@ConnectionGraph@@$0A@@DataStructures@@@DataStructures@@QAE@XZ": "actual relocation from ??1?$Heap@GUPlayerIdAndGroupId@ConnectionGraph@@$0A@@DataStructures@@QAE@XZ",
+    "??1HeapNode@?$Heap@GUPlayerIdAndGroupId@ConnectionGraph@@$0A@@DataStructures@@QAE@XZ": "actual relocation from ??1?$List@UHeapNode@?$Heap@GUPlayerIdAndGroupId@ConnectionGraph@@$0A@@DataStructures@@@DataStructures@@QAE@XZ",
+    "?Clear@?$List@UHeapNode@?$Heap@GUPlayerIdAndGroupId@ConnectionGraph@@$0A@@DataStructures@@@DataStructures@@QAEX_N@Z": "actual relocation from ?Clear@?$Heap@GUPlayerIdAndGroupId@ConnectionGraph@@$0A@@DataStructures@@QAEXXZ",
+    "?LeftChild@?$Heap@GUPlayerIdAndGroupId@ConnectionGraph@@$0A@@DataStructures@@IBEII@Z": "actual relocation from ?Pop@?$Heap@GUPlayerIdAndGroupId@ConnectionGraph@@$0A@@DataStructures@@QAE?AUPlayerIdAndGroupId@ConnectionGraph@@I@Z",
+    "?RightChild@?$Heap@GUPlayerIdAndGroupId@ConnectionGraph@@$0A@@DataStructures@@IBEII@Z": "actual relocation from ?Pop@?$Heap@GUPlayerIdAndGroupId@ConnectionGraph@@$0A@@DataStructures@@QAE?AUPlayerIdAndGroupId@ConnectionGraph@@I@Z",
+    "?Swap@?$Heap@GUPlayerIdAndGroupId@ConnectionGraph@@$0A@@DataStructures@@IAEXII@Z": "actual relocation from ?Pop@?$Heap@GUPlayerIdAndGroupId@ConnectionGraph@@$0A@@DataStructures@@QAE?AUPlayerIdAndGroupId@ConnectionGraph@@I@Z",
+    "?Insert@?$List@UHeapNode@?$Heap@GUPlayerIdAndGroupId@ConnectionGraph@@$0A@@DataStructures@@@DataStructures@@QAEXUHeapNode@?$Heap@GUPlayerIdAndGroupId@ConnectionGraph@@$0A@@2@@Z": "actual relocation from ?Push@?$Heap@GUPlayerIdAndGroupId@ConnectionGraph@@$0A@@DataStructures@@QAEXABGABUPlayerIdAndGroupId@ConnectionGraph@@@Z",
+    "?Parent@?$Heap@GUPlayerIdAndGroupId@ConnectionGraph@@$0A@@DataStructures@@IBEII@Z": "actual relocation from ?Push@?$Heap@GUPlayerIdAndGroupId@ConnectionGraph@@$0A@@DataStructures@@QAEXABGABUPlayerIdAndGroupId@ConnectionGraph@@@Z",
+    "??0HeapNode@?$Heap@GUPlayerIdAndGroupId@ConnectionGraph@@$0A@@DataStructures@@QAE@XZ": "actual relocation from ?Insert@?$List@UHeapNode@?$Heap@GUPlayerIdAndGroupId@ConnectionGraph@@$0A@@DataStructures@@@DataStructures@@QAEXUHeapNode@?$Heap@GUPlayerIdAndGroupId@ConnectionGraph@@$0A@@2@@Z",
+    "?Insert@?$List@UPlayerIdAndGroupId@ConnectionGraph@@@DataStructures@@QAEXUPlayerIdAndGroupId@ConnectionGraph@@I@Z": "actual relocation from ?Insert@?$OrderedList@UPlayerIdAndGroupId@ConnectionGraph@@U12@$1??$defaultOrderedListComparison@UPlayerIdAndGroupId@ConnectionGraph@@U12@@DataStructures@@YAHABU12@0@Z@DataStructures@@QAEIABUPlayerIdAndGroupId@ConnectionGraph@@0@Z",
+    "??0?$List@UHeapNode@?$Heap@GUPlayerIdAndGroupId@ConnectionGraph@@$0A@@DataStructures@@@DataStructures@@QAE@XZ": "actual relocation from ??0?$Heap@GUPlayerIdAndGroupId@ConnectionGraph@@$0A@@DataStructures@@QAE@XZ"
+  },
+  "new_unique_code": 3470,
+  "already_covered_code": 3752,
+  "physical_code_compared": 7222,
+  "baseline": 412480,
+  "source025_direct_bytes": 0,
+  "reuse_existing_owners": {
+    "?Insert@?$List@PAV?$Tree@UPlayerIdAndGroupId@ConnectionGraph@@@DataStructures@@@DataStructures@@QAEXQAV?$Tree@UPlayerIdAndGroupId@ConnectionGraph@@@2@@Z": {
+      "unit": "closure_vendor_graph_algorithms",
+      "rva": 322608,
+      "size": 105
+    },
+    "?Push@?$Queue@UNodeAndParent@?$WeightedGraph@UPlayerIdAndGroupId@ConnectionGraph@@G$0A@@DataStructures@@@DataStructures@@QAEXABUNodeAndParent@?$WeightedGraph@UPlayerIdAndGroupId@ConnectionGraph@@G$0A@@2@@Z": {
+      "unit": "closure_vendor_graph_algorithms",
+      "rva": 322224,
+      "size": 214
+    },
+    "??0?$Tree@UPlayerIdAndGroupId@ConnectionGraph@@@DataStructures@@QAE@XZ": {
+      "unit": "closure_vendor_graph_algorithms",
+      "rva": 324880,
+      "size": 20
+    },
+    "??0?$List@PAV?$Tree@UPlayerIdAndGroupId@ConnectionGraph@@@DataStructures@@@DataStructures@@QAE@XZ": {
+      "unit": "closure_vendor_graph_algorithms",
+      "rva": 322560,
+      "size": 13
+    },
+    "??1?$List@UPlayerIdAndGroupId@ConnectionGraph@@@DataStructures@@QAE@XZ": {
+      "unit": "closure_vendor_connection_graph",
+      "rva": 136368,
+      "size": 45
+    },
+    "??1?$Queue@UNodeAndParent@?$WeightedGraph@UPlayerIdAndGroupId@ConnectionGraph@@G$0A@@DataStructures@@@DataStructures@@QAE@XZ": {
+      "unit": "closure_vendor_graph_algorithms",
+      "rva": 322192,
+      "size": 17
+    },
+    "?DeleteDecendants@?$Tree@UPlayerIdAndGroupId@ConnectionGraph@@@DataStructures@@QAEXXZ": {
+      "unit": "closure_vendor_graph_algorithms",
+      "rva": 326464,
+      "size": 133
+    },
+    "??1?$List@PAV?$Tree@UPlayerIdAndGroupId@ConnectionGraph@@@DataStructures@@@DataStructures@@QAE@XZ": {
+      "unit": "closure_vendor_graph_algorithms",
+      "rva": 322576,
+      "size": 17
+    },
+    "??1?$Tree@UPlayerIdAndGroupId@ConnectionGraph@@@DataStructures@@QAE@XZ": {
+      "unit": "closure_vendor_graph_algorithms",
+      "rva": 324912,
+      "size": 76
+    },
+    "?LevelOrderTraversal@?$Tree@UPlayerIdAndGroupId@ConnectionGraph@@@DataStructures@@QAEXAAV?$List@PAV?$Tree@UPlayerIdAndGroupId@ConnectionGraph@@@DataStructures@@@2@@Z": {
+      "unit": "closure_vendor_graph_algorithms",
+      "rva": 325024,
+      "size": 240
+    },
+    "??1?$Queue@PAV?$Tree@UPlayerIdAndGroupId@ConnectionGraph@@@DataStructures@@@DataStructures@@QAE@XZ": {
+      "unit": "closure_vendor_graph_algorithms",
+      "rva": 323440,
+      "size": 17
+    },
+    "?Push@?$Queue@PAV?$Tree@UPlayerIdAndGroupId@ConnectionGraph@@@DataStructures@@@DataStructures@@QAEXABQAV?$Tree@UPlayerIdAndGroupId@ConnectionGraph@@@2@@Z": {
+      "unit": "closure_vendor_graph_algorithms",
+      "rva": 323472,
+      "size": 189
+    },
+    "??0?$Queue@PAV?$Tree@UPlayerIdAndGroupId@ConnectionGraph@@@DataStructures@@@DataStructures@@QAE@XZ": {
+      "unit": "closure_vendor_graph_algorithms",
+      "rva": 323392,
+      "size": 34
+    },
+    "??0?$Queue@UNodeAndParent@?$WeightedGraph@UPlayerIdAndGroupId@ConnectionGraph@@G$0A@@DataStructures@@@DataStructures@@QAE@XZ": {
+      "unit": "closure_vendor_graph_algorithms",
+      "rva": 322144,
+      "size": 37
+    },
+    "?Size@?$Map@UPlayerIdAndGroupId@ConnectionGraph@@PAV?$Map@UPlayerIdAndGroupId@ConnectionGraph@@G$1??$defaultMapKeyComparison@UPlayerIdAndGroupId@ConnectionGraph@@@DataStructures@@YAHABU12@0@Z@DataStructures@@$1??$defaultMapKeyComparison@UPlayerIdAndGroupId@ConnectionGraph@@@4@YAHABU12@0@Z@DataStructures@@QBEIXZ": {
+      "unit": "closure_vendor_connection_graph",
+      "rva": 141728,
+      "size": 5
+    },
+    "?Size@?$OrderedList@UPlayerIdAndGroupId@ConnectionGraph@@UMapNode@?$Map@UPlayerIdAndGroupId@ConnectionGraph@@PAV?$Map@UPlayerIdAndGroupId@ConnectionGraph@@G$1??$defaultMapKeyComparison@UPlayerIdAndGroupId@ConnectionGraph@@@DataStructures@@YAHABU12@0@Z@DataStructures@@$1??$defaultMapKeyComparison@UPlayerIdAndGroupId@ConnectionGraph@@@4@YAHABU12@0@Z@DataStructures@@$1?NodeComparisonFunc@45@SAHABU12@ABU345@@Z@DataStructures@@QBEIXZ": {
+      "unit": "closure_vendor_connection_graph",
+      "rva": 138736,
+      "size": 4
+    },
+    "?Size@?$OrderedList@UPlayerIdAndGroupId@ConnectionGraph@@U12@$1??$defaultOrderedListComparison@UPlayerIdAndGroupId@ConnectionGraph@@U12@@DataStructures@@YAHABU12@0@Z@DataStructures@@QBEIXZ": {
+      "unit": "closure_vendor_graph_algorithms",
+      "rva": 322880,
+      "size": 4
+    },
+    "?GetIndexFromKey@?$OrderedList@UPlayerIdAndGroupId@ConnectionGraph@@U12@$1??$defaultOrderedListComparison@UPlayerIdAndGroupId@ConnectionGraph@@U12@@DataStructures@@YAHABU12@0@Z@DataStructures@@QBEIABUPlayerIdAndGroupId@ConnectionGraph@@PA_N@Z": {
+      "unit": "closure_vendor_graph_algorithms",
+      "rva": 322720,
+      "size": 154
+    },
+    "??$defaultOrderedListComparison@UPlayerIdAndGroupId@ConnectionGraph@@U12@@DataStructures@@YAHABUPlayerIdAndGroupId@ConnectionGraph@@0@Z": {
+      "unit": "closure_vendor_connection_graph",
+      "rva": 134608,
+      "size": 44
+    },
+    "??1?$Heap@GUPlayerIdAndGroupId@ConnectionGraph@@$0A@@DataStructures@@QAE@XZ": {
+      "unit": "closure_vendor_graph_algorithms",
+      "rva": 329104,
+      "size": 73
+    },
+    "??1?$List@UHeapNode@?$Heap@GUPlayerIdAndGroupId@ConnectionGraph@@$0A@@DataStructures@@@DataStructures@@QAE@XZ": {
+      "unit": "closure_vendor_graph_algorithms",
+      "rva": 325600,
+      "size": 45
+    },
+    "??1HeapNode@?$Heap@GUPlayerIdAndGroupId@ConnectionGraph@@$0A@@DataStructures@@QAE@XZ": {
+      "unit": "closure_vendor_graph_algorithms",
+      "rva": 323744,
+      "size": 8
+    },
+    "?Clear@?$Heap@GUPlayerIdAndGroupId@ConnectionGraph@@$0A@@DataStructures@@QAEXXZ": {
+      "unit": "closure_vendor_graph_algorithms",
+      "rva": 327328,
+      "size": 8
+    },
+    "?Clear@?$List@UHeapNode@?$Heap@GUPlayerIdAndGroupId@ConnectionGraph@@$0A@@DataStructures@@@DataStructures@@QAEX_N@Z": {
+      "unit": "closure_vendor_graph_algorithms",
+      "rva": 325936,
+      "size": 86
+    },
+    "?Pop@?$Heap@GUPlayerIdAndGroupId@ConnectionGraph@@$0A@@DataStructures@@QAE?AUPlayerIdAndGroupId@ConnectionGraph@@I@Z": {
+      "unit": "closure_vendor_graph_algorithms",
+      "rva": 326880,
+      "size": 433
+    },
+    "?Swap@?$Heap@GUPlayerIdAndGroupId@ConnectionGraph@@$0A@@DataStructures@@IAEXII@Z": {
+      "unit": "closure_vendor_graph_algorithms",
+      "rva": 325440,
+      "size": 147
+    },
+    "?RightChild@?$Heap@GUPlayerIdAndGroupId@ConnectionGraph@@$0A@@DataStructures@@IBEII@Z": {
+      "unit": "closure_vendor_graph_algorithms",
+      "rva": 324176,
+      "size": 11
+    },
+    "?LeftChild@?$Heap@GUPlayerIdAndGroupId@ConnectionGraph@@$0A@@DataStructures@@IBEII@Z": {
+      "unit": "closure_vendor_graph_algorithms",
+      "rva": 324160,
+      "size": 11
+    },
+    "?PeekWeight@?$Heap@GUPlayerIdAndGroupId@ConnectionGraph@@$0A@@DataStructures@@QBEGI@Z": {
+      "unit": "closure_vendor_graph_algorithms",
+      "rva": 325408,
+      "size": 16
+    },
+    "?Size@?$Heap@GUPlayerIdAndGroupId@ConnectionGraph@@$0A@@DataStructures@@QBEIXZ": {
+      "unit": "closure_vendor_graph_algorithms",
+      "rva": 325424,
+      "size": 4
+    },
+    "?Push@?$Heap@GUPlayerIdAndGroupId@ConnectionGraph@@$0A@@DataStructures@@QAEXABGABUPlayerIdAndGroupId@ConnectionGraph@@@Z": {
+      "unit": "closure_vendor_graph_algorithms",
+      "rva": 326688,
+      "size": 190
+    },
+    "?Parent@?$Heap@GUPlayerIdAndGroupId@ConnectionGraph@@$0A@@DataStructures@@IBEII@Z": {
+      "unit": "closure_vendor_graph_algorithms",
+      "rva": 324192,
+      "size": 10
+    },
+    "?Insert@?$List@UHeapNode@?$Heap@GUPlayerIdAndGroupId@ConnectionGraph@@$0A@@DataStructures@@@DataStructures@@QAEXUHeapNode@?$Heap@GUPlayerIdAndGroupId@ConnectionGraph@@$0A@@2@@Z": {
+      "unit": "closure_vendor_graph_algorithms",
+      "rva": 325648,
+      "size": 277
+    },
+    "??0HeapNode@?$Heap@GUPlayerIdAndGroupId@ConnectionGraph@@$0A@@DataStructures@@QAE@XZ": {
+      "unit": "closure_vendor_graph_algorithms",
+      "rva": 324368,
+      "size": 15
+    },
+    "?Insert@?$OrderedList@UPlayerIdAndGroupId@ConnectionGraph@@U12@$1??$defaultOrderedListComparison@UPlayerIdAndGroupId@ConnectionGraph@@U12@@DataStructures@@YAHABU12@0@Z@DataStructures@@QAEIABUPlayerIdAndGroupId@ConnectionGraph@@0@Z": {
+      "unit": "closure_vendor_graph_algorithms",
+      "rva": 325264,
+      "size": 131
+    },
+    "?Insert@?$List@UPlayerIdAndGroupId@ConnectionGraph@@@DataStructures@@QAEXUPlayerIdAndGroupId@ConnectionGraph@@I@Z": {
+      "unit": "closure_vendor_graph_algorithms",
+      "rva": 323856,
+      "size": 303
+    },
+    "?Insert@?$List@UPlayerIdAndGroupId@ConnectionGraph@@@DataStructures@@QAEXUPlayerIdAndGroupId@ConnectionGraph@@@Z": {
+      "unit": "closure_vendor_graph_algorithms",
+      "rva": 324608,
+      "size": 272
+    },
+    "??0?$Heap@GUPlayerIdAndGroupId@ConnectionGraph@@$0A@@DataStructures@@QAE@XZ": {
+      "unit": "closure_vendor_graph_algorithms",
+      "rva": 326672,
+      "size": 12
+    },
+    "??0?$List@UHeapNode@?$Heap@GUPlayerIdAndGroupId@ConnectionGraph@@$0A@@DataStructures@@@DataStructures@@QAE@XZ": {
+      "unit": "closure_vendor_graph_algorithms",
+      "rva": 324208,
+      "size": 13
+    },
+    "?Clear@?$List@UPlayerIdAndGroupId@ConnectionGraph@@@DataStructures@@QAEX_N@Z": {
+      "unit": "closure_vendor_connection_graph",
+      "rva": 136608,
+      "size": 86
+    },
+    "??0?$List@UPlayerIdAndGroupId@ConnectionGraph@@@DataStructures@@QAE@XZ": {
+      "unit": "closure_vendor_connection_graph",
+      "rva": 136352,
+      "size": 13
+    }
+  },
+  "excluded_unmatched": [],
+  "vector_CRT_qualification": "build/agent-independent/vector-crt-qualified-providers.json",
+  "source_files": [
+    {
+      "path": "build/cp32-trial30c-final-probe/client/saco/closure_vendor_graph_algorithms.cpp",
+      "sha256": "a9383d984126c3bd6b50ff99c8fca6a5b1f776b45db51a5a55354834504762d2"
+    }
+  ]
+}

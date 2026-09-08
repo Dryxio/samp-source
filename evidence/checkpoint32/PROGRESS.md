@@ -1527,3 +1527,6 @@ trial30c-one: +1930 unique accepted R5 code bytes, total 414410/930756 (44.52402
 
 
 trial30c-two: +2350 unique accepted R5 code bytes, total 416760/930756 (44.776504%). Dijkstra1255 including completeEH; player facing rotation271, drunk level192 and death537:2350 unique proposed including vehicle collision RPC95. Complete source/linked code,data,EH, actual COFF/PE targets, no unimplemented provider credit; required negative controls and Actor ABI PASS. Trial C continues until 2026-09-08T13:25:51Z; no push/deployment.
+
+
+trial30c-three: +2310 unique accepted R5 code bytes, total 419070/930756 (45.024690%). Complete shortest path and spanning tree with EH2215 beyond previouslyacceptedDijkstra; network flag95. Expected2310 new unique. Complete source/linked code,data,EH, actual COFF/PE targets, no unimplemented provider credit; required negative controls and Actor ABI PASS. Trial C continues until 2026-09-08T13:25:51Z; no push/deployment.

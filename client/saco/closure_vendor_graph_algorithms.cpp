@@ -19,6 +19,10 @@ template <> ConnectionGraph::PlayerIdAndGroupId DataStructures::Map<ConnectionGr
 template <> ConnectionGraph::PlayerIdAndGroupId DataStructures::Map<ConnectionGraph::PlayerIdAndGroupId, DataStructures::Map<ConnectionGraph::PlayerIdAndGroupId, unsigned short> *>::GetKeyAtIndex(unsigned) const throw();
 template <> ConnectionGraph::PlayerIdAndGroupId DataStructures::Queue<ConnectionGraph::PlayerIdAndGroupId>::Pop() throw();
 
+template unsigned DataStructures::Map<ConnectionGraph::PlayerIdAndGroupId, DataStructures::Map<ConnectionGraph::PlayerIdAndGroupId, unsigned short> *>::Size(void) const;
+
+template unsigned DataStructures::Queue<ConnectionGraph::PlayerIdAndGroupId>::Size(void) const;
+
 template void DataStructures::WeightedGraph<ConnectionGraph::PlayerIdAndGroupId, unsigned short, false>::GenerateDisjktraMatrix(ConnectionGraph::PlayerIdAndGroupId, unsigned short);
 template bool DataStructures::WeightedGraph<ConnectionGraph::PlayerIdAndGroupId, unsigned short, false>::GetShortestPath(DataStructures::List<ConnectionGraph::PlayerIdAndGroupId> &, ConnectionGraph::PlayerIdAndGroupId, ConnectionGraph::PlayerIdAndGroupId, unsigned short);
 

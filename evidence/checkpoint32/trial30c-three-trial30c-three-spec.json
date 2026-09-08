@@ -1,0 +1,42 @@
+{
+  "prefix": "trial30c-three",
+  "previous": "trial30c-two",
+  "baseline": 416760,
+  "expected_gain": 2310,
+  "run": "cp32-trial30c-three-linked1",
+  "ob1": "cp32-trial30c-three-ob1",
+  "ob2": "cp32-disconnect-selection-ob2",
+  "manifests": [
+    "build/trial30c/network-agent/graph-final-owner-reviewed-manifest.json",
+    "build/trial30c/client-agent/net-flag232-reviewed-manifest.json"
+  ],
+  "seed_files": [
+    "build/trial30c/network-agent/graph-final-owner-seeds.json",
+    "build/trial30c/client-agent/net-flag232-seeds.json"
+  ],
+  "evidence_files": [
+    "build/trial30c/network-agent/preflight_graph_final_owner.py",
+    "build/trial30c/network-agent/audit_graph_final_owner.py",
+    "build/trial30c/network-agent/graph-final-actual-owner-scope-audit.json",
+    "build/trial30c/client-agent/preflight_flag232.py",
+    "build/trial30c/network-agent/graph-final-source-identity.json"
+  ],
+  "linked_reviews": {
+    "itoa_qualification": "build/trial30c-three-itoa-qualified.json",
+    "linker_alias_provider_evidence": "build/cp32-trial30c-three-linked1-aliases.json",
+    "server_bridge_final": "build/agent-independent/server-bridge-target-alias-qualification-cp32-trial30c-three-linked1.json",
+    "logger_deleting_aliases": "build/agent-independent/logger-deleting-aliases-cp32-trial30c-three-linked1.json",
+    "network_tree_deleting_aliases": "build/agent-independent/replica-network-id-aliases-qualified.json",
+    "sha1_deleting_alias_qualification": "build/trial30c-three-sha1-deleting-alias-qualified.json",
+    "mesh_deleting_alias_qualification": "build/agent-independent/mesh-deleting-aliases-cp32-trial30c-three-linked1.json",
+    "chat_navigation_alias": "build/agent-textdraw/chat-navigation-linked-alias-review.json",
+    "console_aliases": "build/agent-independent/console-aliases-qualified.json",
+    "raknet_command_alias": "build/agent-independent/raknet-command-parser-alias-qualified.json"
+  },
+  "review": {
+    "scope": "Complete shortest path and spanning tree with EH2215 beyond previouslyacceptedDijkstra; network flag95. Expected2310 new unique.",
+    "adaptations": "Explicit instantiations restore original real Queue::Size and Map::Size inline/compiler clobber knowledge, retaining old accepted providers and full EH. No fake callee.",
+    "reference_credit": "Fresh matching fixes in existing vendor source; flag from original R5.",
+    "verification": "Whole source/linked code,data,EH and actual COFF/PE targets, previouslyacceptedregionspreserved; strict negativecontrols and ActorABI."
+  }
+}
