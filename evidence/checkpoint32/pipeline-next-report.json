@@ -1,0 +1,262 @@
+{
+  "status": "COMPLETE_TWO_POSITIVE_BATCHES",
+  "start_utc": "2026-09-08T23:06:19.202Z",
+  "end_utc": "2026-09-08T23:28:21.704431+00:00",
+  "elapsed_seconds": 1322.502431,
+  "baseline": 424823,
+  "accepted": 428758,
+  "gain": 3935,
+  "bytes_per_hour": 10711.511501183775,
+  "models": "Two native gpt-6-astra medium researchers; root integrator",
+  "prepared_before_restart_accepted_bytes": 0,
+  "source025_exclusive_gain": 0,
+  "token_usage": {
+    "root": {
+      "configuration": {
+        "model": "gpt-6-astra",
+        "effort": "medium"
+      },
+      "usage": {
+        "input_tokens": 6513819,
+        "cached_input_tokens": 6415360,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 21387,
+        "reasoning_output_tokens": 9952,
+        "total_tokens": 6535206,
+        "uncached_input_tokens": 98459
+      },
+      "as_of": "2026-09-08T23:27:26.308Z"
+    },
+    "/root/client_next": {
+      "configuration": {
+        "model": "gpt-6-astra",
+        "effort": "medium"
+      },
+      "usage": {
+        "input_tokens": 3125924,
+        "cached_input_tokens": 3053184,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 11783,
+        "reasoning_output_tokens": 1036,
+        "total_tokens": 3137707,
+        "uncached_input_tokens": 72740
+      },
+      "as_of": "2026-09-08T23:19:43.783Z"
+    },
+    "/root/network_next": {
+      "configuration": {
+        "model": "gpt-6-astra",
+        "effort": "medium"
+      },
+      "usage": {
+        "input_tokens": 3571227,
+        "cached_input_tokens": 3488128,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 14646,
+        "reasoning_output_tokens": 1519,
+        "total_tokens": 3585873,
+        "uncached_input_tokens": 83099
+      },
+      "as_of": "2026-09-08T23:20:50.054Z"
+    }
+  },
+  "token_totals": {
+    "input_tokens": 13210970,
+    "cached_input_tokens": 12956672,
+    "output_tokens": 47816,
+    "reasoning_output_tokens": 12507,
+    "uncached_input_tokens": 254298
+  },
+  "uncached_plus_output_per_accepted_byte": 76.77611181702669,
+  "pipeline_seconds": {
+    "vm-idle": 3.5632924170058686,
+    "compile": 74.31256320897955,
+    "audit": 8.214293625991559,
+    "link": 39.895339959010016,
+    "qualify": 3.1290779589908198,
+    "spec": 0.12110745799145661,
+    "review": 43.83136841698433,
+    "accept": 392.03939304099185
+  },
+  "events": {
+    "one": [
+      {
+        "utc": "2026-09-08T23:12:47.834368+00:00",
+        "stage": "plan",
+        "potential_root_bytes": 409
+      },
+      {
+        "utc": "2026-09-08T23:12:49.672228+00:00",
+        "stage": "vm-idle",
+        "seconds": 1.449195791996317,
+        "exit_code": 0,
+        "log": "build/integration-pipeline/pipeline-next-one/vm-idle-1788909168222611000.log"
+      },
+      {
+        "utc": "2026-09-08T23:12:49.706898+00:00",
+        "stage": "plan",
+        "potential_root_bytes": 409
+      },
+      {
+        "utc": "2026-09-08T23:13:22.767158+00:00",
+        "stage": "compile",
+        "seconds": 32.7357162089902,
+        "exit_code": 0,
+        "log": "build/integration-pipeline/pipeline-next-one/compile-1788909170030466000.log"
+      },
+      {
+        "utc": "2026-09-08T23:13:26.633610+00:00",
+        "stage": "audit",
+        "seconds": 3.5825279589917045,
+        "status": "CLOSURE_REVIEWED_NOT_ACCEPTED",
+        "pending": 0,
+        "unreviewed": 0,
+        "collisions": 0
+      },
+      {
+        "utc": "2026-09-08T23:13:46.203309+00:00",
+        "stage": "link",
+        "seconds": 19.55497891700361,
+        "exit_code": 0,
+        "log": "build/integration-pipeline/pipeline-next-one/link-1788909206646597000.log"
+      },
+      {
+        "utc": "2026-09-08T23:13:48.210639+00:00",
+        "stage": "qualify",
+        "seconds": 1.503795791999437,
+        "exit_code": 0,
+        "log": "build/integration-pipeline/pipeline-next-one/qualify-1788909226706417000.log"
+      },
+      {
+        "utc": "2026-09-08T23:13:48.288400+00:00",
+        "stage": "spec",
+        "seconds": 0.07696599999326281,
+        "exit_code": 0,
+        "log": "build/integration-pipeline/pipeline-next-one/spec-1788909228211088000.log"
+      },
+      {
+        "utc": "2026-09-08T23:14:16.808432+00:00",
+        "stage": "review",
+        "seconds": 24.291521791979903,
+        "exit_code": 0,
+        "log": "build/integration-pipeline/pipeline-next-one/review-1788909232515471000.log"
+      },
+      {
+        "utc": "2026-09-08T23:17:35.967566+00:00",
+        "stage": "accept",
+        "seconds": 198.68125741599943,
+        "exit_code": 0,
+        "log": "build/integration-pipeline/pipeline-next-one/accept-1788909257282109000.log"
+      },
+      {
+        "utc": "2026-09-08T23:17:35.981693+00:00",
+        "stage": "accepted",
+        "coverage": {
+          "previous_code_bytes": 424823,
+          "batch_code_bytes": 418842,
+          "new_unique_code_bytes": 409,
+          "union_code_bytes": 425232,
+          "text_bytes": 930756,
+          "text_percent": 45.68673207586091,
+          "whole_dll_match": false
+        }
+      }
+    ],
+    "two": [
+      {
+        "utc": "2026-09-08T23:21:56.084487+00:00",
+        "stage": "vm-idle",
+        "seconds": 2.1140966250095516,
+        "exit_code": 0,
+        "log": "build/integration-pipeline/pipeline-next-two/vm-idle-1788909713969074000.log"
+      },
+      {
+        "utc": "2026-09-08T23:21:56.145556+00:00",
+        "stage": "plan",
+        "potential_root_bytes": 3505
+      },
+      {
+        "utc": "2026-09-08T23:22:38.272142+00:00",
+        "stage": "compile",
+        "seconds": 41.57684699998936,
+        "exit_code": 0,
+        "log": "build/integration-pipeline/pipeline-next-two/compile-1788909716694026000.log"
+      },
+      {
+        "utc": "2026-09-08T23:22:43.374724+00:00",
+        "stage": "audit",
+        "seconds": 4.631765666999854,
+        "status": "CLOSURE_REVIEWED_NOT_ACCEPTED",
+        "pending": 0,
+        "unreviewed": 0,
+        "collisions": 0
+      },
+      {
+        "utc": "2026-09-08T23:23:03.733026+00:00",
+        "stage": "link",
+        "seconds": 20.340361042006407,
+        "exit_code": 0,
+        "log": "build/integration-pipeline/pipeline-next-two/link-1788909763391294000.log"
+      },
+      {
+        "utc": "2026-09-08T23:23:05.833144+00:00",
+        "stage": "qualify",
+        "seconds": 1.6252821669913828,
+        "exit_code": 0,
+        "log": "build/integration-pipeline/pipeline-next-two/qualify-1788909784207476000.log"
+      },
+      {
+        "utc": "2026-09-08T23:23:05.877888+00:00",
+        "stage": "spec",
+        "seconds": 0.0441414579981938,
+        "exit_code": 0,
+        "log": "build/integration-pipeline/pipeline-next-two/spec-1788909785833452000.log"
+      },
+      {
+        "utc": "2026-09-08T23:23:28.989144+00:00",
+        "stage": "review",
+        "seconds": 19.53984662500443,
+        "exit_code": 0,
+        "log": "build/integration-pipeline/pipeline-next-two/review-1788909789448710000.log"
+      },
+      {
+        "utc": "2026-09-08T23:26:42.739868+00:00",
+        "stage": "accept",
+        "seconds": 193.35813562499243,
+        "exit_code": 0,
+        "log": "build/integration-pipeline/pipeline-next-two/accept-1788909809380305000.log"
+      },
+      {
+        "utc": "2026-09-08T23:26:42.756058+00:00",
+        "stage": "accepted",
+        "coverage": {
+          "previous_code_bytes": 425232,
+          "batch_code_bytes": 422368,
+          "new_unique_code_bytes": 3526,
+          "union_code_bytes": 428758,
+          "text_bytes": 930756,
+          "text_percent": 46.06556390718942,
+          "whole_dll_match": false
+        }
+      }
+    ]
+  },
+  "limitations": [
+    "Token counters sampled before final response; counters may lag latest reasoning/output. Reasoning output is a subset, not added again.",
+    "Uncached input plus output is a comparison proxy, not billed cost. Cached input reported separately.",
+    "No fixed 30-minute duration requested. Wall time includes initial checks, agent dispatch, failed candidates and integration.",
+    "Pipeline timings exclude initial isolated candidate probes and researcher preflights, but wall time and token totals include their work.",
+    "Workload differs from historical trials: EmailSender3395 is direct available vendor source; no causal speedup attribution."
+  ],
+  "rejected": [
+    "Entity precision/local-optimization variants289/398 vs225; unaccepted.",
+    "Dialog first104 vs95; fixed with inline setter evaluation, complete95 subsequently accepted.",
+    "Cell174 mapping ambiguous; no attempted arbitrary RVA credit."
+  ],
+  "next": "IME4324 requires true missing dependency reconstruction; see isolated NEXT-FAMILY.md. No VM process should be left active.",
+  "code_commits": [
+    "5f1da1f",
+    "6c4f531"
+  ],
+  "preserved_preexisting_main_sha256": "b277de8b0305e3169600165aba9165aeb678f73de20d5593bfb6969fe3d1a370"
+}
