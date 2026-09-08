@@ -1,0 +1,38 @@
+{
+  "status": "PASS_FULL_SOURCE_REGIONS_ALL_COFF_PE_TARGETS",
+  "run": "cp32-trial30f-eleventh1",
+  "baseline": 420576,
+  "new_unique_code": 83,
+  "regions": [
+    {
+      "unit": "closure_object_editor_rect",
+      "section": 48,
+      "anchor": "?ResetRect@R5ObjectEditorRectView@@QAEXPAUtagRECT@@@Z",
+      "anchor_offset": 0,
+      "rva": 467072,
+      "size": 20,
+      "kind": "code",
+      "sha256": "a7b3852fca73e0e218f886cfafa785ea781fd82b10a060a64b1ea8253c3da834",
+      "bindings": []
+    },
+    {
+      "unit": "closure_object_editor_rect",
+      "section": 46,
+      "anchor": "?CenterRect@R5ObjectEditorRectView@@QAEXPAUtagRECT@@PAUtagPOINT@@@Z",
+      "anchor_offset": 0,
+      "rva": 467008,
+      "size": 63,
+      "kind": "code",
+      "sha256": "229a0a5ecf3921ba389e1abe154fe3c0528b28de30721aa923bc4f3bebf4a98d",
+      "bindings": []
+    }
+  ],
+  "source025_direct": 0,
+  "object_sha256": {
+    "closure_object_editor_rect": "753497b8034464ce0b5b0aaa6108b184241a0a9ec08539a867f772cf00a1ee99"
+  },
+  "source_sha256": {
+    "closure_object_editor_rect": "80e7e9b32047fd9cadd8d4df04b8428923fdfb80443a496541e2cbe1cf3a1749"
+  },
+  "typed_layout_note": "Editor width0/height4 pointer view, ordinary RECT/POINT pointer parameter ABI with observed ordering and alias reads. No relocation providers, no storage or CRT."
+}

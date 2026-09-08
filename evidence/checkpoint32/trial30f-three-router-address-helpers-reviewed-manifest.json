@@ -1,0 +1,80 @@
+{
+  "status": "PASS_FULL_SOURCE_REGIONS_ALL_COFF_PE_TARGETS",
+  "regions": [
+    {
+      "unit": "eval_vendor_system_address_list",
+      "section": 64,
+      "anchor": "?Size@SystemAddressList@@QBEIXZ",
+      "anchor_offset": 0,
+      "rva": 348768,
+      "size": 4,
+      "kind": "code",
+      "sha256": "f7e0208f5e988ae39c7a45dfddbd12921d02f9c3deb5695d4c534c8ab0ccdb0f",
+      "bindings": []
+    },
+    {
+      "unit": "eval_vendor_system_address_list",
+      "section": 37,
+      "anchor": "??0SystemAddressList@@QAE@XZ",
+      "anchor_offset": 0,
+      "rva": 347664,
+      "size": 12,
+      "kind": "code",
+      "sha256": "0823489f51749748d6be2594cfb46fcd89560856e31ae45276f09d2af4045acb",
+      "bindings": [
+        {
+          "symbol": "??0?$List@UPlayerID@@@DataStructures@@QAE@XZ",
+          "site_rva": 347668,
+          "kind": 20,
+          "target_va": 268569600
+        }
+      ]
+    },
+    {
+      "unit": "eval_vendor_system_address_list",
+      "section": 44,
+      "anchor": "?AddSystem@SystemAddressList@@QAEXUPlayerID@@@Z",
+      "anchor_offset": 0,
+      "rva": 347776,
+      "size": 28,
+      "kind": "code",
+      "sha256": "c7961e250a3e351a492cac9641af09fc6a0fb241f61168d313e8eca39b11e48c",
+      "bindings": [
+        {
+          "symbol": "?Insert@?$List@UPlayerID@@@DataStructures@@QAEXUPlayerID@@@Z",
+          "site_rva": 347797,
+          "kind": 20,
+          "target_va": 268569664
+        }
+      ]
+    }
+  ],
+  "seeds": [
+    {
+      "unit": "eval_vendor_system_address_list",
+      "symbol": "?Size@SystemAddressList@@QBEIXZ",
+      "rva": 348768,
+      "size": 4
+    },
+    {
+      "unit": "eval_vendor_system_address_list",
+      "symbol": "??0SystemAddressList@@QAE@XZ",
+      "rva": 347664,
+      "size": 12
+    },
+    {
+      "unit": "eval_vendor_system_address_list",
+      "symbol": "?AddSystem@SystemAddressList@@QAEXUPlayerID@@@Z",
+      "rva": 347776,
+      "size": 28
+    }
+  ],
+  "new_unique_code": 44,
+  "object_sha256": {
+    "eval_vendor_system_address_list": "a21c1250a6f191d6b1980d3fd326b21df7a88110fa96e28e08cdb5b8f668d4c0"
+  },
+  "source_sha256": {
+    "eval_vendor_system_address_list": "44f5226d64c6bc9a42cd690769b16f69fc1a68f3bdeeb935867f5fced301ee02"
+  },
+  "storage": "No storage or CRT initializers. Full functions, all real accepted external targets; no aliases."
+}
