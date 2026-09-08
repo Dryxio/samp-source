@@ -1,0 +1,40 @@
+{
+  "prefix": "trial30e-two",
+  "previous": "trial30e-one",
+  "baseline": 420079,
+  "expected_gain": 497,
+  "run": "cp32-trial30e-two-linked2",
+  "ob1": "cp32-trial30e-two-ob1b",
+  "ob2": "cp32-disconnect-selection-ob2",
+  "manifests": [
+    "build/trial30e/queries-reviewed-manifest.json",
+    "build/trial30e/network-agent/networktypes-reviewed-manifest.json"
+  ],
+  "seed_files": [
+    "build/trial30e/queries-seeds.json",
+    "build/trial30e/network-agent/networktypes-seeds.json"
+  ],
+  "evidence_files": [
+    "build/trial30e/preflight_queries.py",
+    "build/trial30e/network-agent/preflight_networktypes.py"
+  ],
+  "linked_reviews": {
+    "itoa_qualification": "build/trial30e-two-itoa-qualified.json",
+    "linker_alias_provider_evidence": "build/cp32-trial30e-two-linked2-aliases.json",
+    "server_bridge_final": "build/agent-independent/server-bridge-target-alias-qualification-cp32-trial30e-two-linked2.json",
+    "logger_deleting_aliases": "build/agent-independent/logger-deleting-aliases-cp32-trial30e-two-linked2.json",
+    "network_tree_deleting_aliases": "build/agent-independent/replica-network-id-aliases-qualified.json",
+    "sha1_deleting_alias_qualification": "build/trial30e-two-sha1-deleting-alias-qualified.json",
+    "mesh_deleting_alias_qualification": "build/agent-independent/mesh-deleting-aliases-cp32-trial30e-two-linked2.json",
+    "chat_navigation_alias": "build/agent-textdraw/chat-navigation-linked-alias-review.json",
+    "console_aliases": "build/agent-independent/console-aliases-qualified.json",
+    "raknet_command_alias": "build/agent-independent/raknet-command-parser-alias-qualified.json"
+  },
+  "review": {
+    "scope": "Six complete vehiclequeries357 andthreeNetworkTypes helpers140 pluscomplete17-byte literal;497 unique new code.",
+    "adaptations": "025 damagequeries117 andlastDriven47 plusR5 localvehicle52/tiremask141. NetworkTypes source extracted withoutduplicating activepeerToPeerMode storage/comparisons. All actualproviders active, wholeliteral17.",
+    "reference_credit": "025 contributed164 vehiclebytes; network140 existingvendor, R5 vehicle193 originalbinaryreconstruction. All prepared duringtrial.",
+    "verification": "Wholefunctions/data/EH and allCOFF/PE actualtargets, no unimplementedowner/CRT/doublecredit. ScoresRPC346 differs despiteequal size andisnotaccepted.",
+    "implementation": "Normal C++ with completeactualnative-pool/subtype/import providers; no symbolicadapter additions."
+  }
+}

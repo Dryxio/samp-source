@@ -1,0 +1,32 @@
+{
+  "status": "PINNED_CRT_PROVIDER_FULL_BYTES_QUALIFIED",
+  "run": "cp32-trial30e-two-linked2",
+  "linked_sha256": "7f95cd4c49c3e766df216f0ea497a1519a6a4adca0df3635aa796ba7f316aed5",
+  "new_source_credit": 0,
+  "code": [
+    {
+      "symbol": "__itoa",
+      "original_rva": 822101,
+      "linked_rva": 454542,
+      "size": 42,
+      "SDK_member": "LIBCMT:xtoa.obj",
+      "whole_resolved_equal": true,
+      "bindings": [
+        {
+          "offset": 31,
+          "original_target_rva": 822039,
+          "linked_target_rva": 454480
+        }
+      ]
+    },
+    {
+      "symbol": "_xtoa",
+      "original_rva": 822039,
+      "linked_rva": 454480,
+      "size": 62,
+      "SDK_member": "LIBCMT:xtoa.obj",
+      "whole_resolved_equal": true,
+      "bindings": []
+    }
+  ]
+}

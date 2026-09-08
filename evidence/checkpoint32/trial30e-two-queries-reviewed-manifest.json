@@ -1,0 +1,132 @@
+{
+  "status": "PASS_FULL_SOURCE_REGIONS_ALL_COFF_PE_TARGETS",
+  "run": "cp32-trial30e-queries1",
+  "baseline": 420079,
+  "new_unique_code": 357,
+  "regions": [
+    {
+      "unit": "closure_vehicle_drive_queries",
+      "section": 50,
+      "anchor": "?GetTireStatus@R5VehicleDriveQueriesView@@QAEEXZ",
+      "anchor_offset": 0,
+      "rva": 752176,
+      "size": 141,
+      "kind": "code",
+      "sha256": "e620796d349ce89f28bceaccea527072fa3957adabef4da0832154a9927b5322",
+      "bindings": [
+        {
+          "symbol": "?GetVehicleSubtypeFromVehiclePtr@@YAIPAU_VEHICLE_TYPE@@@Z",
+          "site_rva": 752196,
+          "kind": 20,
+          "target_va": 269181408
+        },
+        {
+          "symbol": "?GetVehicleSubtypeFromVehiclePtr@@YAIPAU_VEHICLE_TYPE@@@Z",
+          "site_rva": 752270,
+          "kind": 20,
+          "target_va": 269181408
+        }
+      ]
+    },
+    {
+      "unit": "closure_vehicle_drive_queries",
+      "section": 48,
+      "anchor": "?UpdateLastDrivenTime@R5VehicleDriveQueriesView@@QAEHXZ",
+      "anchor_offset": 0,
+      "rva": 751728,
+      "size": 47,
+      "kind": "code",
+      "sha256": "e6b0134842050b85929ae3efd563f4b0d22387f5e24a5d93628ab2c302912362",
+      "bindings": [
+        {
+          "symbol": "__imp__GetTickCount@0",
+          "site_rva": 751757,
+          "kind": 6,
+          "target_va": 269374008
+        }
+      ]
+    },
+    {
+      "unit": "closure_vehicle_drive_queries",
+      "section": 46,
+      "anchor": "?IsLocalPlayerVehicle@R5VehicleDriveQueriesView@@QAEHXZ",
+      "anchor_offset": 0,
+      "rva": 750624,
+      "size": 52,
+      "kind": "code",
+      "sha256": "9bf14eac7e831d894ae70886d38e927bd210600473d7b32d2dbc2ede533cccd5",
+      "bindings": [
+        {
+          "symbol": "?GamePool_FindPlayerPed@@YGPAU_PED_TYPE@@XZ",
+          "site_rva": 750635,
+          "kind": 20,
+          "target_va": 269171808
+        }
+      ]
+    },
+    {
+      "unit": "closure_vehicle_damage_queries",
+      "section": 50,
+      "anchor": "?GetLightDamageStatus@R5VehicleDamageQueriesView@@QAEEXZ",
+      "anchor_offset": 0,
+      "rva": 752608,
+      "size": 39,
+      "kind": "code",
+      "sha256": "0717c6a754eadeb2783e1f3939c4bb6e0249bb502642cf5b37c3c05e9cf13428",
+      "bindings": [
+        {
+          "symbol": "?GetVehicleSubtypeFromVehiclePtr@@YAIPAU_VEHICLE_TYPE@@@Z",
+          "site_rva": 752620,
+          "kind": 20,
+          "target_va": 269181408
+        }
+      ]
+    },
+    {
+      "unit": "closure_vehicle_damage_queries",
+      "section": 48,
+      "anchor": "?GetDoorDamageStatus@R5VehicleDamageQueriesView@@QAEKXZ",
+      "anchor_offset": 0,
+      "rva": 752560,
+      "size": 39,
+      "kind": "code",
+      "sha256": "28a3d1c7921125c6a38983f7cc6761ab9cdb3c18e28f751c817b6754de3e8cd6",
+      "bindings": [
+        {
+          "symbol": "?GetVehicleSubtypeFromVehiclePtr@@YAIPAU_VEHICLE_TYPE@@@Z",
+          "site_rva": 752572,
+          "kind": 20,
+          "target_va": 269181408
+        }
+      ]
+    },
+    {
+      "unit": "closure_vehicle_damage_queries",
+      "section": 46,
+      "anchor": "?GetPanelDamageStatus@R5VehicleDamageQueriesView@@QAEKXZ",
+      "anchor_offset": 0,
+      "rva": 752512,
+      "size": 39,
+      "kind": "code",
+      "sha256": "e649f1ccd9fcd5bcaf3aea95f8cbeab987cb3faf360887c96c1d1a720a5feba9",
+      "bindings": [
+        {
+          "symbol": "?GetVehicleSubtypeFromVehiclePtr@@YAIPAU_VEHICLE_TYPE@@@Z",
+          "site_rva": 752524,
+          "kind": 20,
+          "target_va": 269181408
+        }
+      ]
+    }
+  ],
+  "source025_direct": 0,
+  "object_sha256": {
+    "closure_vehicle_damage_queries": "7913996099702578b2356ebdca07e5528ab13d8cf6ae5f97c821b946b5ee3c39",
+    "closure_vehicle_drive_queries": "71d265afe28fadd39a2d062e821ee545f5aba7c781e3bedf6da0419eb9a06fe7"
+  },
+  "source_sha256": {
+    "closure_vehicle_damage_queries": "b32b2bcc4c8707bc007b7040dfe972552a65e09a9d7e4203d3e11a103a6aeb52",
+    "closure_vehicle_drive_queries": "4132ce4dff76267947ce9cf0076c6e9c0c8a1c70794a1b55b04192b704c82c4b"
+  },
+  "typed_layout_note": "Three025 damagequeries117 and025 last-driven47 plusR5 localvehicle52/tiremask141. Pointer4c, timestamp69/flag6d, actualexisting engine-pool/subtype/import targets. No newstorageCRT."
+}

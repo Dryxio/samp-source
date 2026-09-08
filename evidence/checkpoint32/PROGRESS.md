@@ -1542,3 +1542,6 @@ trial30d-two: +197 unique accepted R5 code bytes, total 419583/930756 (45.079806
 
 
 trial30e-one: +496 unique accepted R5 code bytes, total 420079/930756 (45.133096%). R5 UpdateDamageStatus185 and DamageVehicleRPC290+EH21,496 unique bytes newly reconstructed this trial. Complete source/linked code,data,EH, actual COFF/PE targets, no unimplemented provider credit; required negative controls and Actor ABI PASS. Trial E continues until 2026-09-08T14:43:37Z; no push/deployment.
+
+
+trial30e-two: +497 unique accepted R5 code bytes, total 420576/930756 (45.186494%). Six complete vehiclequeries357 andthreeNetworkTypes helpers140 pluscomplete17-byte literal;497 unique new code. Complete source/linked code,data,EH, actual COFF/PE targets, no unimplemented provider credit; required negative controls and Actor ABI PASS. Trial E continues until 2026-09-08T14:43:37Z; no push/deployment.

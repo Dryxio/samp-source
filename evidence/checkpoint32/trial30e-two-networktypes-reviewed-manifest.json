@@ -1,0 +1,109 @@
+{
+  "status": "PASS_FULL_SOURCE_REGIONS_ALL_COFF_PE_TARGETS",
+  "run": "cp32-trial30e-network1",
+  "baseline": 419583,
+  "new_unique_code": 140,
+  "already_covered_code": 0,
+  "regions": [
+    {
+      "unit": "closure_vendor_networktypes_helpers",
+      "section": 3,
+      "anchor": "?my_itoa@@YAPADHPADH@Z",
+      "anchor_offset": 0,
+      "rva": 210544,
+      "size": 110,
+      "kind": "code",
+      "sha256": "244b948fc7e70594344bcc29617f3967f8205edd9b5dd19cbe4bd917af04fbf5",
+      "bindings": [
+        {
+          "symbol": "??_C@_0BB@JCEFLFJE@0123456789abcdef?$AA@",
+          "site_rva": 210587,
+          "kind": 6,
+          "target_va": 269382024
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_networktypes_helpers",
+      "section": 4,
+      "anchor": "??_C@_0BB@JCEFLFJE@0123456789abcdef?$AA@",
+      "anchor_offset": 0,
+      "rva": 946568,
+      "size": 17,
+      "kind": "data",
+      "sha256": "70ca616894848c45de4e2792711f36c998413e0eab1c6621fe9761118b8fd51a",
+      "bindings": []
+    },
+    {
+      "unit": "closure_vendor_networktypes_helpers",
+      "section": 6,
+      "anchor": "?SetBinaryAddress@PlayerID@@QAEXPBD@Z",
+      "anchor_offset": 0,
+      "rva": 210976,
+      "size": 20,
+      "kind": "code",
+      "sha256": "305524bc24eb35747bf35d819943b2f07604dbbec8c960d1c9862aea221769f0",
+      "bindings": [
+        {
+          "symbol": "__imp__inet_addr@4",
+          "site_rva": 210986,
+          "kind": 6,
+          "target_va": 269374528
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_networktypes_helpers",
+      "section": 8,
+      "anchor": "?SetPeerToPeerMode@NetworkID@@SAX_N@Z",
+      "anchor_offset": 0,
+      "rva": 211408,
+      "size": 10,
+      "kind": "code",
+      "sha256": "7b5d72ed5f0e6e6961b67ec01792c5e0b0ecc64060f67f49bdb8780f72336b40",
+      "bindings": [
+        {
+          "symbol": "?peerToPeerMode@NetworkID@@2_NA",
+          "site_rva": 211413,
+          "kind": 6,
+          "target_va": 269585344
+        }
+      ]
+    }
+  ],
+  "seeds": [
+    {
+      "unit": "closure_vendor_networktypes_helpers",
+      "symbol": "?my_itoa@@YAPADHPADH@Z",
+      "rva": 210544,
+      "size": 110
+    },
+    {
+      "unit": "closure_vendor_networktypes_helpers",
+      "symbol": "?SetBinaryAddress@PlayerID@@QAEXPBD@Z",
+      "rva": 210976,
+      "size": 20
+    },
+    {
+      "unit": "closure_vendor_networktypes_helpers",
+      "symbol": "?SetPeerToPeerMode@NetworkID@@SAX_N@Z",
+      "rva": 211408,
+      "size": 10
+    }
+  ],
+  "bindings_checked": 3,
+  "source025_direct": 0,
+  "object_sha256": {
+    "closure_vendor_networktypes_helpers": "bfe8d7af4e626d359d48d4e76146a3545d31858ef8ffd24ec8cd0a6f6d1988e4"
+  },
+  "source_sha256": {
+    "closure_vendor_networktypes_helpers": "47b130343fde51f0662f379d6350ef4ab0427aa80811964f003987b48254fced"
+  },
+  "external_targets": {
+    "?peerToPeerMode@NetworkID@@2_NA": 269585344,
+    "__imp__inet_addr@4": 269374528,
+    "??_C@_0BB@JCEFLFJE@0123456789abcdef?$AA@": 269382024
+  },
+  "literal_extent": "0123456789abcdef\\0 is 17 bytes including NUL",
+  "crt_initialization": "object .drectve requests LIBCMT/OLDNAMES; no CRT initializer section is in the selected closure"
+}
