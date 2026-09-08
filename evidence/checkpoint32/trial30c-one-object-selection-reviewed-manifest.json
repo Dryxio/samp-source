@@ -1,0 +1,280 @@
+{
+  "status": "PASS_FULL_SOURCE_REGIONS_ALL_COFF_PE_TARGETS",
+  "run": "cp32-trial30c-selection-ack",
+  "baseline": 412480,
+  "new_unique_code": 381,
+  "regions": [
+    {
+      "unit": "closure_rpc_object_selection",
+      "section": 51,
+      "anchor": "?CancelObjectSelectionRPCTransfer@@YAXPAURPCParameters@@@Z",
+      "anchor_offset": 0,
+      "rva": 59760,
+      "size": 162,
+      "kind": "code",
+      "sha256": "c5cbc4708b9b363f5845c3c52bbefee48c48bd10ede2cda03dae232837793afc",
+      "bindings": [
+        {
+          "symbol": "__ehhandler$?CancelObjectSelectionRPCTransfer@@YAXPAURPCParameters@@@Z",
+          "site_rva": 59763,
+          "kind": 6,
+          "target_va": 269354443
+        },
+        {
+          "symbol": "__except_list",
+          "site_rva": 59769,
+          "kind": 6,
+          "target_va": 0
+        },
+        {
+          "symbol": "__except_list",
+          "site_rva": 59777,
+          "kind": 6,
+          "target_va": 0
+        },
+        {
+          "symbol": "??0BitStream@RakNet@@QAE@PADI_N@Z",
+          "site_rva": 59818,
+          "kind": 20,
+          "target_va": 268564544
+        },
+        {
+          "symbol": "?r5ObjectEditor@@3PAVR5ObjectEditorView@@A",
+          "site_rva": 59824,
+          "kind": 6,
+          "target_va": 270986080
+        },
+        {
+          "symbol": "?Close@R5ObjectEditorView@@QAEXH@Z",
+          "site_rva": 59856,
+          "kind": 20,
+          "target_va": 268905408
+        },
+        {
+          "symbol": "?r5ObjectSelection@@3PAVR5ObjectSelectionView@@A",
+          "site_rva": 59862,
+          "kind": 6,
+          "target_va": 270986084
+        },
+        {
+          "symbol": "?Toggle@R5ObjectSelectionView@@QAEXH@Z",
+          "site_rva": 59878,
+          "kind": 20,
+          "target_va": 268884864
+        },
+        {
+          "symbol": "??1BitStream@RakNet@@QAE@XZ",
+          "site_rva": 59897,
+          "kind": 20,
+          "target_va": 268564688
+        },
+        {
+          "symbol": "__except_list",
+          "site_rva": 59911,
+          "kind": 6,
+          "target_va": 0
+        }
+      ]
+    },
+    {
+      "unit": "closure_rpc_object_selection",
+      "section": 52,
+      "anchor": "$L95121",
+      "anchor_offset": 0,
+      "rva": 918976,
+      "size": 21,
+      "kind": "code",
+      "sha256": "c04cc8fd59c406aceb7158be6ba59bfc1e0690719d8a162a690efcf24834e91a",
+      "bindings": [
+        {
+          "symbol": "??1BitStream@RakNet@@QAE@XZ",
+          "site_rva": 918983,
+          "kind": 20,
+          "target_va": 268564688
+        },
+        {
+          "symbol": "$T95123",
+          "site_rva": 918988,
+          "kind": 6,
+          "target_va": 269450912
+        },
+        {
+          "symbol": "___CxxFrameHandler",
+          "site_rva": 918993,
+          "kind": 20,
+          "target_va": 269247782
+        }
+      ]
+    },
+    {
+      "unit": "closure_rpc_object_selection",
+      "section": 53,
+      "anchor": "$T95123",
+      "anchor_offset": 8,
+      "rva": 1015448,
+      "size": 36,
+      "kind": "data",
+      "sha256": "ec21e3e8adb9e3f73a39354275576497c1130b16ee97847d08dfd7567904b1f2",
+      "bindings": [
+        {
+          "symbol": "$L95121",
+          "site_rva": 1015452,
+          "kind": 6,
+          "target_va": 269354432
+        },
+        {
+          "symbol": "$T95125",
+          "site_rva": 1015464,
+          "kind": 6,
+          "target_va": 269450904
+        }
+      ]
+    },
+    {
+      "unit": "closure_rpc_object_selection",
+      "section": 46,
+      "anchor": "?SelectObjectRPCTransfer@@YAXPAURPCParameters@@@Z",
+      "anchor_offset": 0,
+      "rva": 59568,
+      "size": 177,
+      "kind": "code",
+      "sha256": "b9287b1f8c528a581ef02f9824a30f4ac06cd2f0e0302f7e5535c45e92fec8a0",
+      "bindings": [
+        {
+          "symbol": "__ehhandler$?SelectObjectRPCTransfer@@YAXPAURPCParameters@@@Z",
+          "site_rva": 59571,
+          "kind": 6,
+          "target_va": 269354411
+        },
+        {
+          "symbol": "__except_list",
+          "site_rva": 59577,
+          "kind": 6,
+          "target_va": 0
+        },
+        {
+          "symbol": "__except_list",
+          "site_rva": 59585,
+          "kind": 6,
+          "target_va": 0
+        },
+        {
+          "symbol": "??0BitStream@RakNet@@QAE@PADI_N@Z",
+          "site_rva": 59626,
+          "kind": 20,
+          "target_va": 268564544
+        },
+        {
+          "symbol": "?r5TextdrawSelector@@3PAVR5TextDrawSelectorView@@A",
+          "site_rva": 59632,
+          "kind": 6,
+          "target_va": 270986088
+        },
+        {
+          "symbol": "?Disable@R5TextDrawClickView@@QAEXXZ",
+          "site_rva": 59657,
+          "kind": 20,
+          "target_va": 268899616
+        },
+        {
+          "symbol": "?r5ObjectEditor@@3PAVR5ObjectEditorView@@A",
+          "site_rva": 59663,
+          "kind": 6,
+          "target_va": 270986080
+        },
+        {
+          "symbol": "?Close@R5ObjectEditorView@@QAEXH@Z",
+          "site_rva": 59684,
+          "kind": 20,
+          "target_va": 268905408
+        },
+        {
+          "symbol": "?r5ObjectSelection@@3PAVR5ObjectSelectionView@@A",
+          "site_rva": 59690,
+          "kind": 6,
+          "target_va": 270986084
+        },
+        {
+          "symbol": "?Toggle@R5ObjectSelectionView@@QAEXH@Z",
+          "site_rva": 59701,
+          "kind": 20,
+          "target_va": 268884864
+        },
+        {
+          "symbol": "??1BitStream@RakNet@@QAE@XZ",
+          "site_rva": 59720,
+          "kind": 20,
+          "target_va": 268564688
+        },
+        {
+          "symbol": "__except_list",
+          "site_rva": 59734,
+          "kind": 6,
+          "target_va": 0
+        }
+      ]
+    },
+    {
+      "unit": "closure_rpc_object_selection",
+      "section": 47,
+      "anchor": "$L95106",
+      "anchor_offset": 0,
+      "rva": 918944,
+      "size": 21,
+      "kind": "code",
+      "sha256": "caa6b41d5f229c7d7b3657027276586a0f01003f4671b9db40bac0876d7ae322",
+      "bindings": [
+        {
+          "symbol": "??1BitStream@RakNet@@QAE@XZ",
+          "site_rva": 918951,
+          "kind": 20,
+          "target_va": 268564688
+        },
+        {
+          "symbol": "$T95110",
+          "site_rva": 918956,
+          "kind": 6,
+          "target_va": 269450876
+        },
+        {
+          "symbol": "___CxxFrameHandler",
+          "site_rva": 918961,
+          "kind": 20,
+          "target_va": 269247782
+        }
+      ]
+    },
+    {
+      "unit": "closure_rpc_object_selection",
+      "section": 48,
+      "anchor": "$T95110",
+      "anchor_offset": 8,
+      "rva": 1015412,
+      "size": 36,
+      "kind": "data",
+      "sha256": "5e631c9b040df9bffe0a19c13d0269eb6c205aa0dc91999aabda3eef1eb5bc1f",
+      "bindings": [
+        {
+          "symbol": "$L95106",
+          "site_rva": 1015416,
+          "kind": 6,
+          "target_va": 269354400
+        },
+        {
+          "symbol": "$T95115",
+          "site_rva": 1015428,
+          "kind": 6,
+          "target_va": 269450868
+        }
+      ]
+    }
+  ],
+  "source025_direct": 0,
+  "object_sha256": {
+    "closure_rpc_object_selection": "f4b268be996f62ae71ca4df907f61431d7eb39f1e3327fb307624c09a94334da"
+  },
+  "source_sha256": {
+    "closure_rpc_object_selection": "39f54ca541657b1b57b1360c8ef4a2777759dd472d0af4a51152949487f5ad04"
+  },
+  "typed_layout_note": "Uses exact declarations from accepted closure_rpc_select_textdraw; pointer-only views; no new stores or CRT initialization."
+}

@@ -1,0 +1,63 @@
+{
+  "status": "ACTUAL_COMPILER_WEAK_ALIASES_AND_SELECTED_VFT_FIXUPS_QUALIFIED",
+  "run": "build/cp32-trial30c-one-linked1",
+  "dll_sha256": "90776906b335454b670dd5ae951ec41c4f32efe3218dec78e5f5cdac7bfa5cb9",
+  "map_sha256": "e98adb84e0cb15f517147d6d4c81e46d0d367c50bbf19aa5308828bbe5d841a6",
+  "aliases": [
+    {
+      "unit": "closure_vendor_fully_connected_mesh",
+      "alias": "??_EFullyConnectedMesh@@UAEPAXI@Z",
+      "canonical": "??_GFullyConnectedMesh@@UAEPAXI@Z",
+      "source_alias_storage": 105,
+      "source_alias_undefined": true,
+      "weak_aux_resolves_canonical": true,
+      "canonical_defined_section": 25,
+      "alias_map": {
+        "symbol": "??_EFullyConnectedMesh@@UAEPAXI@Z",
+        "va": 268756864,
+        "owner": "f i closure_vendor_fully_connected_mesh.obj"
+      },
+      "canonical_map": {
+        "symbol": "??_GFullyConnectedMesh@@UAEPAXI@Z",
+        "va": 268756864,
+        "owner": "f i closure_vendor_fully_connected_mesh.obj"
+      },
+      "whole_linked_body30_compared": true,
+      "bindings": [
+        {
+          "symbol": "??1FullyConnectedMesh@@UAE@XZ",
+          "offset": 4,
+          "kind": 20,
+          "map_provider": {
+            "symbol": "??1FullyConnectedMesh@@UAE@XZ",
+            "va": 268756688,
+            "owner": "f   closure_vendor_fully_connected_mesh.obj"
+          }
+        },
+        {
+          "symbol": "??3@YAXPAX@Z",
+          "offset": 17,
+          "kind": 20,
+          "map_provider": {
+            "symbol": "??3@YAXPAX@Z",
+            "va": 268869199,
+            "owner": "f   LIBCMT:delete.obj"
+          }
+        }
+      ],
+      "selected_vtable_fixup": {
+        "section": 7,
+        "offset": 40,
+        "kind": 6,
+        "alias": "??_EFullyConnectedMesh@@UAEPAXI@Z",
+        "original_slot_rva": 945636,
+        "linked_slot_rva": 534220,
+        "actual_provider_va": 268756864
+      },
+      "object_sha256": "18f55359ecada5592bd7c70466d55741e9728484f5f6fc957ee0eb3cdfef276c",
+      "extra_credit": 0
+    }
+  ],
+  "correction": "These _E names are undefined COFF weak externals (storage105) targeting actual _G definitions, not duplicate defined section symbols. Fresh main manifest did not record that alias representation; this supplement supplies it.",
+  "extra_credit": 0
+}

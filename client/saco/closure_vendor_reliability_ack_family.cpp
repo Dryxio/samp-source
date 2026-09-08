@@ -2,6 +2,8 @@
 #include "../raknet/ReliabilityLayer.h"
 #include "../raknet/RakAssert.h"
 
+template int DataStructures::RangeNodeComp<unsigned short>(const unsigned short &, const DataStructures::RangeNode<unsigned short> &);
+
 // Explicit instantiation of the real wire-range methods in their original TU use order.
 // These are complete existing templates, not forwarding wrappers.
 template bool DataStructures::RangeList<unsigned short>::Deserialize(RakNet::BitStream *);

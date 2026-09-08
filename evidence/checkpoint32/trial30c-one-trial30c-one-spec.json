@@ -1,0 +1,53 @@
+{
+  "prefix": "trial30c-one",
+  "previous": "trial30b-two",
+  "baseline": 412480,
+  "expected_gain": 1930,
+  "run": "cp32-trial30c-one-linked1",
+  "ob1": "cp32-trial30c-one-ob1",
+  "ob2": "cp32-disconnect-selection-ob2",
+  "manifests": [
+    "build/trial30c/client-agent/object-selection-reviewed-manifest.json",
+    "build/trial30c/client-agent/text-label-create-reviewed-manifest.json",
+    "build/trial30c/network-agent/ack-owner-reviewed-manifest.json"
+  ],
+  "seed_files": [
+    "build/trial30c/client-agent/object-selection-seeds.json",
+    "build/trial30c/client-agent/text-label-create-seeds.json",
+    "build/trial30c/network-agent/ack-owner-seeds.json"
+  ],
+  "evidence_files": [
+    "build/trial30c/client-agent/preflight_selection.py",
+    "build/trial30c/client-agent/preflight_label.py",
+    "build/trial30c/network-agent/preflight_ack_owner.py",
+    "build/trial30c/network-agent/audit_ack_owner_scope.py",
+    "build/trial30c/network-agent/ack-actual-owner-scope-audit.json",
+    "build/trial30c/ack-alias-change.json"
+  ],
+  "linked_reviews": {
+    "itoa_qualification": "build/trial30c-one-itoa-qualified.json",
+    "linker_alias_provider_evidence": "build/cp32-trial30c-one-linked1-aliases.json",
+    "server_bridge_final": "build/agent-independent/server-bridge-target-alias-qualification-cp32-trial30c-one-linked1.json",
+    "logger_deleting_aliases": "build/agent-independent/logger-deleting-aliases-cp32-trial30c-one-linked1.json",
+    "network_tree_deleting_aliases": "build/agent-independent/replica-network-id-aliases-qualified.json",
+    "sha1_deleting_alias_qualification": "build/trial30c-one-sha1-deleting-alias-qualified.json",
+    "mesh_deleting_alias_qualification": "build/agent-independent/mesh-deleting-aliases-cp32-trial30c-one-linked1.json",
+    "chat_navigation_alias": "build/agent-textdraw/chat-navigation-linked-alias-review.json",
+    "console_aliases": "build/agent-independent/console-aliases-qualified.json",
+    "raknet_command_alias": "build/agent-independent/raknet-command-parser-alias-qualified.json"
+  },
+  "review": {
+    "scope": "Selection RPC381, text-label creation442, ACK template closure1107:1930 unique proposed.",
+    "adaptations": "RPC normal C++ reconstruction; single real comparator explicit instantiation added in sole existing ACK owner. Existing25 accepted ACK regions preserved; complete pointers/EH/data and all targets.",
+    "reference_credit": "Fresh RPC implementations; new compiler visibility adaptation of existing vendor source. Source025 direct0.",
+    "verification": "Whole source/linked code,data,EH,actual COFF/PE providers; required negative controls and Actor ABI."
+  },
+  "reviewed_alias_changes": {
+    "closure_vendor_reliability_ack_family": {
+      "old": {
+        "??$RangeNodeComp@G@DataStructures@@YAHABGABU?$RangeNode@G@0@@Z": "?RangeNodeComp@DataStructures@@YAHABGABU?$RangeNode@G@1@@Z"
+      },
+      "new": {}
+    }
+  }
+}

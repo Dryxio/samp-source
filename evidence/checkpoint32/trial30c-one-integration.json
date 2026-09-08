@@ -1,0 +1,24 @@
+{
+  "status": "ACCEPTED",
+  "run": "cp32-trial30c-one-linked1",
+  "ob1": "cp32-trial30c-one-ob1",
+  "ob2": "cp32-disconnect-selection-ob2",
+  "coverage": {
+    "previous_code_bytes": 412480,
+    "batch_code_bytes": 407865,
+    "new_unique_code_bytes": 1930,
+    "union_code_bytes": 414410,
+    "text_bytes": 930756,
+    "text_percent": 44.52402133319581,
+    "whole_dll_match": false
+  },
+  "review": {
+    "scope": "Selection RPC381, text-label creation442, ACK template closure1107:1930 unique proposed.",
+    "adaptations": "RPC normal C++ reconstruction; single real comparator explicit instantiation added in sole existing ACK owner. Existing25 accepted ACK regions preserved; complete pointers/EH/data and all targets.",
+    "reference_credit": "Fresh RPC implementations; new compiler visibility adaptation of existing vendor source. Source025 direct0.",
+    "verification": "Whole source/linked code,data,EH,actual COFF/PE providers; required negative controls and Actor ABI."
+  },
+  "checkpoint_complete": false,
+  "pushed": false,
+  "deployed": false
+}

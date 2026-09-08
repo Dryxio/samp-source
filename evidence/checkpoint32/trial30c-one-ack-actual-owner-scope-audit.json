@@ -1,0 +1,519 @@
+{
+  "status": "PASS_OWNER_AND_COMPLETE_SCOPE_AUDIT_NOT_ACCEPTANCE",
+  "baseline_unique": 412480,
+  "new_unique_proposed": 1107,
+  "existing_owner": "closure_vendor_reliability_ack_family",
+  "source_change": "Explicit instantiate real RangeNodeComp<unsigned short> before Deserialize/Serialize/ACK uses; restores comparator visibility in compiler as original full ReliabilityLayer constructor TU.",
+  "old_accepted_regions": 25,
+  "all_old_regions_preserved": true,
+  "roots": {
+    "?SendAcknowledgementPacket@ReliabilityLayer@@AAEXG_J@Z": {
+      "rva": 296704,
+      "owners": [
+        {
+          "unit": "closure_vendor_reliability_ack_family",
+          "section": 92,
+          "value": 0,
+          "size": 22,
+          "comdat": true,
+          "section_hash": "afd517f57140104ccebdf7595d1584715ae4ea0ffca99fb9b7af8df9e58c3645",
+          "relocations": [
+            [
+              15,
+              20,
+              "?Insert@?$RangeList@G@DataStructures@@QAEXG@Z"
+            ]
+          ],
+          "accepted": []
+        }
+      ],
+      "action": "replace existing original owner TU, never add competing TU"
+    },
+    "?Insert@?$RangeList@G@DataStructures@@QAEXG@Z": {
+      "rva": 293648,
+      "owners": [
+        {
+          "unit": "closure_vendor_reliability_ack_family",
+          "section": 84,
+          "value": 0,
+          "size": 505,
+          "comdat": true,
+          "section_hash": "51e6f8aa1ac24e03aabd446aa77c8f8714ca06adb2aba0f8241476ca213ec98c",
+          "relocations": [
+            [
+              7,
+              20,
+              "?Size@?$OrderedList@GU?$RangeNode@G@DataStructures@@$1??$RangeNodeComp@G@2@YAHABGABU12@@Z@DataStructures@@QBEIXZ"
+            ],
+            [
+              43,
+              20,
+              "?Insert@?$OrderedList@GU?$RangeNode@G@DataStructures@@$1??$RangeNodeComp@G@2@YAHABGABU12@@Z@DataStructures@@QAEIABGABU?$RangeNode@G@2@@Z"
+            ],
+            [
+              70,
+              20,
+              "?GetIndexFromKey@?$OrderedList@GU?$RangeNode@G@DataStructures@@$1??$RangeNodeComp@G@2@YAHABGABU12@@Z@DataStructures@@QBEIABGPA_N@Z"
+            ],
+            [
+              79,
+              20,
+              "?Size@?$OrderedList@GU?$RangeNode@G@DataStructures@@$1??$RangeNodeComp@G@2@YAHABGABU12@@Z@DataStructures@@QBEIXZ"
+            ],
+            [
+              100,
+              20,
+              "??A?$OrderedList@GU?$RangeNode@G@DataStructures@@$1??$RangeNodeComp@G@2@YAHABGABU12@@Z@DataStructures@@QBEAAU?$RangeNode@G@1@I@Z"
+            ],
+            [
+              117,
+              20,
+              "??A?$OrderedList@GU?$RangeNode@G@DataStructures@@$1??$RangeNodeComp@G@2@YAHABGABU12@@Z@DataStructures@@QBEAAU?$RangeNode@G@1@I@Z"
+            ],
+            [
+              138,
+              20,
+              "??A?$OrderedList@GU?$RangeNode@G@DataStructures@@$1??$RangeNodeComp@G@2@YAHABGABU12@@Z@DataStructures@@QBEAAU?$RangeNode@G@1@I@Z"
+            ],
+            [
+              178,
+              20,
+              "?Insert@?$OrderedList@GU?$RangeNode@G@DataStructures@@$1??$RangeNodeComp@G@2@YAHABGABU12@@Z@DataStructures@@QAEIABGABU?$RangeNode@G@2@@Z"
+            ],
+            [
+              194,
+              20,
+              "??A?$OrderedList@GU?$RangeNode@G@DataStructures@@$1??$RangeNodeComp@G@2@YAHABGABU12@@Z@DataStructures@@QBEAAU?$RangeNode@G@1@I@Z"
+            ],
+            [
+              233,
+              20,
+              "?InsertAtIndex@?$OrderedList@GU?$RangeNode@G@DataStructures@@$1??$RangeNodeComp@G@2@YAHABGABU12@@Z@DataStructures@@QAEXABU?$RangeNode@G@2@I@Z"
+            ],
+            [
+              248,
+              20,
+              "??A?$OrderedList@GU?$RangeNode@G@DataStructures@@$1??$RangeNodeComp@G@2@YAHABGABU12@@Z@DataStructures@@QBEAAU?$RangeNode@G@1@I@Z"
+            ],
+            [
+              264,
+              20,
+              "??A?$OrderedList@GU?$RangeNode@G@DataStructures@@$1??$RangeNodeComp@G@2@YAHABGABU12@@Z@DataStructures@@QBEAAU?$RangeNode@G@1@I@Z"
+            ],
+            [
+              286,
+              20,
+              "??A?$OrderedList@GU?$RangeNode@G@DataStructures@@$1??$RangeNodeComp@G@2@YAHABGABU12@@Z@DataStructures@@QBEAAU?$RangeNode@G@1@I@Z"
+            ],
+            [
+              296,
+              20,
+              "??A?$OrderedList@GU?$RangeNode@G@DataStructures@@$1??$RangeNodeComp@G@2@YAHABGABU12@@Z@DataStructures@@QBEAAU?$RangeNode@G@1@I@Z"
+            ],
+            [
+              321,
+              20,
+              "??A?$OrderedList@GU?$RangeNode@G@DataStructures@@$1??$RangeNodeComp@G@2@YAHABGABU12@@Z@DataStructures@@QBEAAU?$RangeNode@G@1@I@Z"
+            ],
+            [
+              331,
+              20,
+              "??A?$OrderedList@GU?$RangeNode@G@DataStructures@@$1??$RangeNodeComp@G@2@YAHABGABU12@@Z@DataStructures@@QBEAAU?$RangeNode@G@1@I@Z"
+            ],
+            [
+              347,
+              20,
+              "?RemoveAtIndex@?$OrderedList@GU?$RangeNode@G@DataStructures@@$1??$RangeNodeComp@G@2@YAHABGABU12@@Z@DataStructures@@QAEXI@Z"
+            ],
+            [
+              362,
+              20,
+              "??A?$OrderedList@GU?$RangeNode@G@DataStructures@@$1??$RangeNodeComp@G@2@YAHABGABU12@@Z@DataStructures@@QBEAAU?$RangeNode@G@1@I@Z"
+            ],
+            [
+              375,
+              20,
+              "??A?$OrderedList@GU?$RangeNode@G@DataStructures@@$1??$RangeNodeComp@G@2@YAHABGABU12@@Z@DataStructures@@QBEAAU?$RangeNode@G@1@I@Z"
+            ],
+            [
+              389,
+              20,
+              "??A?$OrderedList@GU?$RangeNode@G@DataStructures@@$1??$RangeNodeComp@G@2@YAHABGABU12@@Z@DataStructures@@QBEAAU?$RangeNode@G@1@I@Z"
+            ],
+            [
+              406,
+              20,
+              "??A?$OrderedList@GU?$RangeNode@G@DataStructures@@$1??$RangeNodeComp@G@2@YAHABGABU12@@Z@DataStructures@@QBEAAU?$RangeNode@G@1@I@Z"
+            ],
+            [
+              419,
+              20,
+              "?Size@?$OrderedList@GU?$RangeNode@G@DataStructures@@$1??$RangeNodeComp@G@2@YAHABGABU12@@Z@DataStructures@@QBEIXZ"
+            ],
+            [
+              435,
+              20,
+              "??A?$OrderedList@GU?$RangeNode@G@DataStructures@@$1??$RangeNodeComp@G@2@YAHABGABU12@@Z@DataStructures@@QBEAAU?$RangeNode@G@1@I@Z"
+            ],
+            [
+              445,
+              20,
+              "??A?$OrderedList@GU?$RangeNode@G@DataStructures@@$1??$RangeNodeComp@G@2@YAHABGABU12@@Z@DataStructures@@QBEAAU?$RangeNode@G@1@I@Z"
+            ],
+            [
+              466,
+              20,
+              "??A?$OrderedList@GU?$RangeNode@G@DataStructures@@$1??$RangeNodeComp@G@2@YAHABGABU12@@Z@DataStructures@@QBEAAU?$RangeNode@G@1@I@Z"
+            ],
+            [
+              476,
+              20,
+              "??A?$OrderedList@GU?$RangeNode@G@DataStructures@@$1??$RangeNodeComp@G@2@YAHABGABU12@@Z@DataStructures@@QBEAAU?$RangeNode@G@1@I@Z"
+            ],
+            [
+              491,
+              20,
+              "?RemoveAtIndex@?$OrderedList@GU?$RangeNode@G@DataStructures@@$1??$RangeNodeComp@G@2@YAHABGABU12@@Z@DataStructures@@QAEXI@Z"
+            ]
+          ],
+          "accepted": []
+        }
+      ],
+      "action": "replace existing original owner TU, never add competing TU"
+    },
+    "?RemoveAtIndex@?$OrderedList@GU?$RangeNode@G@DataStructures@@$1??$RangeNodeComp@G@2@YAHABGABU12@@Z@DataStructures@@QAEXI@Z": {
+      "rva": 291392,
+      "owners": [
+        {
+          "unit": "closure_vendor_reliability_ack_family",
+          "section": 74,
+          "value": 0,
+          "size": 5,
+          "comdat": true,
+          "section_hash": "e8ebd827d1f36d7cfa5e5220610aa6370284d1589989363f48ac40166362d449",
+          "relocations": [
+            [
+              1,
+              20,
+              "?RemoveAtIndex@?$List@U?$RangeNode@G@DataStructures@@@DataStructures@@QAEXI@Z"
+            ]
+          ],
+          "accepted": []
+        }
+      ],
+      "action": "replace existing original owner TU, never add competing TU"
+    },
+    "?RemoveAtIndex@?$List@U?$RangeNode@G@DataStructures@@@DataStructures@@QAEXI@Z": {
+      "rva": 287632,
+      "owners": [
+        {
+          "unit": "closure_vendor_reliability_ack_family",
+          "section": 62,
+          "value": 0,
+          "size": 53,
+          "comdat": true,
+          "section_hash": "87947ff176a31194558fd34662d929154a99463d85c712b33eb6052f8d0edf55",
+          "relocations": [
+            [
+              35,
+              20,
+              "_memmove"
+            ]
+          ],
+          "accepted": []
+        }
+      ],
+      "action": "replace existing original owner TU, never add competing TU"
+    },
+    "?InsertAtIndex@?$OrderedList@GU?$RangeNode@G@DataStructures@@$1??$RangeNodeComp@G@2@YAHABGABU12@@Z@DataStructures@@QAEXABU?$RangeNode@G@2@I@Z": {
+      "rva": 291408,
+      "owners": [
+        {
+          "unit": "closure_vendor_reliability_ack_family",
+          "section": 76,
+          "value": 0,
+          "size": 15,
+          "comdat": true,
+          "section_hash": "52e2d2f4dac00e31080ad1b630e3868e74c57d4b55cdb3b858f35744f347a7fb",
+          "relocations": [
+            [
+              11,
+              20,
+              "?Insert@?$List@U?$RangeNode@G@DataStructures@@@DataStructures@@QAEXU?$RangeNode@G@2@I@Z"
+            ]
+          ],
+          "accepted": []
+        }
+      ],
+      "action": "replace existing original owner TU, never add competing TU"
+    },
+    "?Insert@?$List@U?$RangeNode@G@DataStructures@@@DataStructures@@QAEXU?$RangeNode@G@2@I@Z": {
+      "rva": 287376,
+      "owners": [
+        {
+          "unit": "closure_vendor_reliability_ack_family",
+          "section": 58,
+          "value": 0,
+          "size": 254,
+          "comdat": true,
+          "section_hash": "cda47c5e745568848a0ee762d617ba2ff488aa7c6e6adc76e46db43b147cca5d",
+          "relocations": [
+            [
+              3,
+              6,
+              "__ehhandler$?Insert@?$List@U?$RangeNode@G@DataStructures@@@DataStructures@@QAEXU?$RangeNode@G@2@I@Z"
+            ],
+            [
+              9,
+              6,
+              "__except_list"
+            ],
+            [
+              17,
+              6,
+              "__except_list"
+            ],
+            [
+              72,
+              20,
+              "??2@YAPAXI@Z"
+            ],
+            [
+              92,
+              6,
+              "??1?$RangeNode@G@DataStructures@@QAE@XZ"
+            ],
+            [
+              97,
+              6,
+              "??0?$RangeNode@G@DataStructures@@QAE@XZ"
+            ],
+            [
+              111,
+              20,
+              "??_L@YGXPAXIHP6EX0@Z1@Z"
+            ],
+            [
+              163,
+              6,
+              "??1?$RangeNode@G@DataStructures@@QAE@XZ"
+            ],
+            [
+              172,
+              20,
+              "??_M@YGXPAXIHP6EX0@Z@Z"
+            ],
+            [
+              178,
+              20,
+              "??3@YAXPAX@Z"
+            ],
+            [
+              212,
+              20,
+              "_memmove"
+            ],
+            [
+              244,
+              6,
+              "__except_list"
+            ]
+          ],
+          "accepted": []
+        }
+      ],
+      "action": "replace existing original owner TU, never add competing TU"
+    },
+    "?GetIndexFromKey@?$OrderedList@GU?$RangeNode@G@DataStructures@@$1??$RangeNodeComp@G@2@YAHABGABU12@@Z@DataStructures@@QBEIABGPA_N@Z": {
+      "rva": 286624,
+      "owners": [
+        {
+          "unit": "closure_vendor_reliability_ack_family",
+          "section": 43,
+          "value": 0,
+          "size": 146,
+          "comdat": true,
+          "section_hash": "f9806e9b81bfa2f1798b2bf15646dac675ff22e849f191e6a0559f4220f71f2d",
+          "relocations": [
+            [
+              53,
+              20,
+              "??$RangeNodeComp@G@DataStructures@@YAHABGABU?$RangeNode@G@0@@Z"
+            ],
+            [
+              103,
+              20,
+              "??$RangeNodeComp@G@DataStructures@@YAHABGABU?$RangeNode@G@0@@Z"
+            ]
+          ],
+          "accepted": []
+        }
+      ],
+      "action": "replace existing original owner TU, never add competing TU"
+    },
+    "?Insert@?$OrderedList@GU?$RangeNode@G@DataStructures@@$1??$RangeNodeComp@G@2@YAHABGABU12@@Z@DataStructures@@QAEIABGABU?$RangeNode@G@2@@Z": {
+      "rva": 291296,
+      "owners": [
+        {
+          "unit": "closure_vendor_reliability_ack_family",
+          "section": 72,
+          "value": 0,
+          "size": 91,
+          "comdat": true,
+          "section_hash": "7867152c7c5228306c405940bd487fc557ea9ae2d9b392e97b2ac26d1afdeee5",
+          "relocations": [
+            [
+              17,
+              20,
+              "?GetIndexFromKey@?$OrderedList@GU?$RangeNode@G@DataStructures@@$1??$RangeNodeComp@G@2@YAHABGABU12@@Z@DataStructures@@QBEIABGPA_N@Z"
+            ],
+            [
+              56,
+              20,
+              "?Insert@?$List@U?$RangeNode@G@DataStructures@@@DataStructures@@QAEXU?$RangeNode@G@2@@Z"
+            ],
+            [
+              80,
+              20,
+              "?Insert@?$List@U?$RangeNode@G@DataStructures@@@DataStructures@@QAEXU?$RangeNode@G@2@I@Z"
+            ]
+          ],
+          "accepted": []
+        }
+      ],
+      "action": "replace existing original owner TU, never add competing TU"
+    }
+  },
+  "reviewed_externals": {
+    "?ReadCompressed@BitStream@RakNet@@AAE_NPAEH_N@Z": {
+      "va": 268565104,
+      "kind": "accepted real code",
+      "owner": "closure_cmd_bitstream"
+    },
+    "?ReadBits@BitStream@RakNet@@QAE_NPAEH_N@Z": {
+      "va": 268564912,
+      "kind": "accepted real code",
+      "owner": "closure_cmd_bitstream"
+    },
+    "__except_list": {
+      "va": 0,
+      "kind": "existing reviewed external",
+      "evidence": {
+        "kind": "absolute-fs",
+        "reference_va": 0
+      }
+    },
+    "??2@YAPAXI@Z": {
+      "va": 269247098,
+      "kind": "existing reviewed external",
+      "evidence": {
+        "kind": "crt",
+        "reference_va": 269247098,
+        "size": 36,
+        "sha256": "3388fc83079652ef5506eee91c61b02421ae7a865d917631a2e6f3fe84a3de6c"
+      }
+    },
+    "??_L@YGXPAXIHP6EX0@Z1@Z": {
+      "va": 269254863,
+      "kind": "existing reviewed external",
+      "evidence": {
+        "kind": "crt",
+        "reference_va": 269254863,
+        "size": 98,
+        "sha256": "7c0fe899d5806f80d44287b06641b1844222b1fc9421556f04f03072e26574ce"
+      }
+    },
+    "??_M@YGXPAXIHP6EX0@Z@Z": {
+      "va": 269254767,
+      "kind": "existing reviewed external",
+      "evidence": {
+        "kind": "crt",
+        "reference_va": 269254767,
+        "size": 96,
+        "sha256": "950eecc421e833d0fb384db3f99ddfaed4b3afc0245285ee89ef580a8fcbd8ae"
+      }
+    },
+    "??3@YAXPAX@Z": {
+      "va": 269247626,
+      "kind": "existing reviewed external",
+      "evidence": {
+        "kind": "crt",
+        "reference_va": 269247626,
+        "size": 5,
+        "sha256": "7a2b09fea4ced88e49e987aef3ba5304ddbbccb1e20599a243549fdc02637f6c"
+      }
+    },
+    "??0BitStream@RakNet@@QAE@XZ": {
+      "va": 268564272,
+      "kind": "accepted real code",
+      "owner": "closure_cmd_bitstream"
+    },
+    "?Write1@BitStream@RakNet@@QAEXXZ": {
+      "va": 268566320,
+      "kind": "accepted real code",
+      "owner": "closure_cmd_bitstream"
+    },
+    "?Write0@BitStream@RakNet@@QAEXXZ": {
+      "va": 268566288,
+      "kind": "accepted real code",
+      "owner": "closure_cmd_bitstream"
+    },
+    "?WriteBits@BitStream@RakNet@@QAEXPBEH_N@Z": {
+      "va": 268566496,
+      "kind": "accepted real code",
+      "owner": "closure_cmd_bitstream"
+    },
+    "?WriteCompressed@BitStream@RakNet@@AAEXPBEH_N@Z": {
+      "va": 268566832,
+      "kind": "accepted real code",
+      "owner": "closure_cmd_bitstream"
+    },
+    "?Write@BitStream@RakNet@@QAEXPAV12@H@Z": {
+      "va": 268565952,
+      "kind": "accepted real code",
+      "owner": "closure_cmd_bitstream"
+    },
+    "??1BitStream@RakNet@@QAE@XZ": {
+      "va": 268564688,
+      "kind": "accepted real code",
+      "owner": "closure_cmd_bitstream"
+    },
+    "_memmove": {
+      "va": 269250016,
+      "kind": "existing reviewed external",
+      "evidence": {
+        "kind": "crt",
+        "reference_va": 269250016,
+        "size": 829,
+        "sha256": "53bcdf99d64588f181a5893007d321048f95112d1e38e5f611af0e256b9f9cbc"
+      }
+    },
+    "___CxxFrameHandler": {
+      "va": 269247782,
+      "kind": "existing reviewed external",
+      "evidence": {
+        "kind": "crt",
+        "reference_va": 269247782,
+        "size": 54,
+        "sha256": "f5d28314d58ce5cebdf00faf3b2b1bb25200dc2c9fe10f11eebdfd1ed41a6928"
+      }
+    }
+  },
+  "weak_aliases": {},
+  "layout": "Unchanged actual ReliabilityLayer1794 and InternalPacket55 static asserts; RangeNode two real ushort fields; all vendor templates unchanged.",
+  "crt": "No new CRT initializer or global storage; selected functions have full existing vector lifetime CRT providers and all EH audited.",
+  "source025": "0 direct new bytes; vendor already sufficient.",
+  "provenance": "Prior prepared ACK source was blocked; fresh comparator visibility adaptation at trialC closes known source family. New evidence and source adaptation generated during trialC.",
+  "dependencies": "Existing BitStream real owners and existing CRT imports; no plugin callback or missing dependency.",
+  "new_functions": [
+    "?SendAcknowledgementPacket@ReliabilityLayer@@AAEXG_J@Z",
+    "?Insert@?$RangeList@G@DataStructures@@QAEXG@Z",
+    "?RemoveAtIndex@?$OrderedList@GU?$RangeNode@G@DataStructures@@$1??$RangeNodeComp@G@2@YAHABGABU12@@Z@DataStructures@@QAEXI@Z",
+    "?RemoveAtIndex@?$List@U?$RangeNode@G@DataStructures@@@DataStructures@@QAEXI@Z",
+    "?InsertAtIndex@?$OrderedList@GU?$RangeNode@G@DataStructures@@$1??$RangeNodeComp@G@2@YAHABGABU12@@Z@DataStructures@@QAEXABU?$RangeNode@G@2@I@Z",
+    "?Insert@?$List@U?$RangeNode@G@DataStructures@@@DataStructures@@QAEXU?$RangeNode@G@2@I@Z",
+    "?GetIndexFromKey@?$OrderedList@GU?$RangeNode@G@DataStructures@@$1??$RangeNodeComp@G@2@YAHABGABU12@@Z@DataStructures@@QBEIABGPA_N@Z",
+    "?Insert@?$OrderedList@GU?$RangeNode@G@DataStructures@@$1??$RangeNodeComp@G@2@YAHABGABU12@@Z@DataStructures@@QAEIABGABU?$RangeNode@G@2@@Z"
+  ],
+  "excluded_graph": "Trial explicit ordering did not change1183/1010 mismatches; no accepted gain."
+}

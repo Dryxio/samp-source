@@ -1521,3 +1521,6 @@ trial30b-one: +3335 unique accepted R5 code bytes, total411842/930756 (44.248117
 
 
 trial30b-two: +638 unique accepted R5 code bytes, total412480/930756 (44.316663%). Remote exit/RPC308 +skill RPC330, expected638 unique. Complete original/linked code/data/EH, all COFF/PE targets, true providers and full frozenbase dedup. Ten negative controls and Actor ABI PASS. No push/deploy. Timed trialB continues until13:27:35Z.
+
+
+trial30c-one: +1930 unique accepted R5 code bytes, total 414410/930756 (44.524021%). Selection RPC381, text-label creation442, ACK template closure1107:1930 unique proposed. Complete source/linked code,data,EH, actual COFF/PE targets, no unimplemented provider credit; required negative controls and Actor ABI PASS. Trial C continues until 2026-09-08T13:25:51Z; no push/deployment.
