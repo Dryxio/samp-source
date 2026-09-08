@@ -1,0 +1,512 @@
+{
+  "status": "PASS_FULL_SOURCE_REGIONS_ALL_COFF_PE_TARGETS",
+  "regions": [
+    {
+      "unit": "closure_vendor_connection_graph",
+      "section": 161,
+      "anchor": "??_EMapNode@?$Map@UPlayerIdAndGroupId@ConnectionGraph@@G$1??$defaultMapKeyComparison@UPlayerIdAndGroupId@ConnectionGraph@@@DataStructures@@YAHABU12@0@Z@DataStructures@@QAEPAXI@Z",
+      "anchor_offset": 0,
+      "rva": 136864,
+      "size": 77,
+      "kind": "code",
+      "sha256": "f09317f33d18d10ccfda6a441ac67afe0543604bab5b3b98a816da62a7d29bc8",
+      "bindings": [
+        {
+          "symbol": "??1MapNode@?$Map@UPlayerIdAndGroupId@ConnectionGraph@@G$1??$defaultMapKeyComparison@UPlayerIdAndGroupId@ConnectionGraph@@@DataStructures@@YAHABU12@0@Z@DataStructures@@QAE@XZ",
+          "site_rva": 136882,
+          "kind": 6,
+          "target_va": 268570816
+        },
+        {
+          "symbol": "??_M@YGXPAXIHP6EX0@Z@Z",
+          "site_rva": 136894,
+          "kind": 20,
+          "target_va": 269254767
+        },
+        {
+          "symbol": "??3@YAXPAX@Z",
+          "site_rva": 136905,
+          "kind": 20,
+          "target_va": 269247626
+        },
+        {
+          "symbol": "??3@YAXPAX@Z",
+          "site_rva": 136927,
+          "kind": 20,
+          "target_va": 269247626
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_connection_graph",
+      "section": 145,
+      "anchor": "??A?$List@E@DataStructures@@QBEAAEI@Z",
+      "anchor_offset": 0,
+      "rva": 136416,
+      "size": 9,
+      "kind": "code",
+      "sha256": "5ca2053a7bc001d12c98638251738ae3941744baee3a1bafd4ce8b6c6ed39166",
+      "bindings": []
+    },
+    {
+      "unit": "closure_vendor_connection_graph",
+      "section": 173,
+      "anchor": "??$Read@UPlayerID@@@BitStream@RakNet@@QAE_NAAUPlayerID@@@Z",
+      "anchor_offset": 0,
+      "rva": 137280,
+      "size": 38,
+      "kind": "code",
+      "sha256": "71d0aebe3bc5b84e7b8170fabac94e3aef7e99113c9094085228268639063866",
+      "bindings": [
+        {
+          "symbol": "?ReadBits@BitStream@RakNet@@QAE_NPAEH_N@Z",
+          "site_rva": 137294,
+          "kind": 20,
+          "target_va": 268564912
+        },
+        {
+          "symbol": "?ReadBits@BitStream@RakNet@@QAE_NPAEH_N@Z",
+          "site_rva": 137309,
+          "kind": 20,
+          "target_va": 268564912
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_connection_graph",
+      "section": 183,
+      "anchor": "?IMPLEMENT_DEFAULT_COMPARISON@?$OrderedList@UPlayerID@@U1@$1??$defaultOrderedListComparison@UPlayerID@@U1@@DataStructures@@YAHABU1@0@Z@DataStructures@@SAXXZ",
+      "anchor_offset": 0,
+      "rva": 137936,
+      "size": 21,
+      "kind": "code",
+      "sha256": "3ae2e6a038dcdebb8ec9c6761f6f8b5bd337ee14578074c695a4b5e4c9a1ad8d",
+      "bindings": [
+        {
+          "symbol": "??$defaultOrderedListComparison@UPlayerID@@U1@@DataStructures@@YAHABUPlayerID@@0@Z",
+          "site_rva": 137949,
+          "kind": 20,
+          "target_va": 268569552
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_connection_graph",
+      "section": 193,
+      "anchor": "?IMPLEMENT_DEFAULT_COMPARISON@?$OrderedList@EE$1??$defaultOrderedListComparison@EE@DataStructures@@YAHABE0@Z@DataStructures@@SAXXZ",
+      "anchor_offset": 0,
+      "rva": 138032,
+      "size": 30,
+      "kind": "code",
+      "sha256": "1092cb7fbe4a868eed7c402cec93a4fd1f6ca661bbe041ad60db303eb7db35fe",
+      "bindings": [
+        {
+          "symbol": "??$defaultOrderedListComparison@EE@DataStructures@@YAHABE0@Z",
+          "site_rva": 138054,
+          "kind": 20,
+          "target_va": 268570112
+        }
+      ]
+    },
+    {
+      "unit": "eval_vendor_simple_mutex",
+      "section": 3,
+      "anchor": "??0SimpleMutex@@QAE@XZ",
+      "anchor_offset": 0,
+      "rva": 341984,
+      "size": 14,
+      "kind": "code",
+      "sha256": "88882eea08ca2998f72139bcf42c0bab2ecded74f03822aa11f7455585c93782",
+      "bindings": [
+        {
+          "symbol": "__imp__InitializeCriticalSection@4",
+          "site_rva": 341990,
+          "kind": 6,
+          "target_va": 269374052
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_database_table",
+      "section": 15,
+      "anchor": "?Get@Cell@Table@DataStructures@@QAEXPAH@Z",
+      "anchor_offset": 0,
+      "rva": 160592,
+      "size": 12,
+      "kind": "code",
+      "sha256": "9a0e84890336c5096121fc093d35efd70bd642e92fc031d678c8ee810c693986",
+      "bindings": []
+    },
+    {
+      "unit": "closure_vendor_database_table",
+      "section": 17,
+      "anchor": "?Get@Cell@Table@DataStructures@@QAEXPAD@Z",
+      "anchor_offset": 0,
+      "rva": 160608,
+      "size": 20,
+      "kind": "code",
+      "sha256": "b1e2aada86c256d84b13794bb86569b07b0b1ff1b7ad8e315baa8d7443048a08",
+      "bindings": []
+    },
+    {
+      "unit": "closure_vendor_database_server",
+      "section": 30,
+      "anchor": "??A?$List@UColumnDescriptor@Table@DataStructures@@@DataStructures@@QBEAAUColumnDescriptor@Table@1@I@Z",
+      "anchor_offset": 0,
+      "rva": 161296,
+      "size": 15,
+      "kind": "code",
+      "sha256": "221578446d236eaec2de60bb40fb42cd4b6f0f708427934a98f441179f059827",
+      "bindings": []
+    },
+    {
+      "unit": "closure_vendor_database_table",
+      "section": 77,
+      "anchor": "??_EColumnDescriptor@Table@DataStructures@@QAEPAXI@Z",
+      "anchor_offset": 0,
+      "rva": 161648,
+      "size": 77,
+      "kind": "code",
+      "sha256": "e9b460d8dbadacd6f469dfbd3589d2614d55502e2f11d6856d1a0408d959409a",
+      "bindings": [
+        {
+          "symbol": "??1ColumnDescriptor@Table@DataStructures@@QAE@XZ",
+          "site_rva": 161666,
+          "kind": 6,
+          "target_va": 268596288
+        },
+        {
+          "symbol": "??_M@YGXPAXIHP6EX0@Z@Z",
+          "site_rva": 161678,
+          "kind": 20,
+          "target_va": 269254767
+        },
+        {
+          "symbol": "??3@YAXPAX@Z",
+          "site_rva": 161689,
+          "kind": 20,
+          "target_va": 269247626
+        },
+        {
+          "symbol": "??3@YAXPAX@Z",
+          "site_rva": 161711,
+          "kind": 20,
+          "target_va": 269247626
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_database_table",
+      "section": 151,
+      "anchor": "?ColumnName@Table@DataStructures@@QAEPADI@Z",
+      "anchor_offset": 0,
+      "rva": 163920,
+      "size": 26,
+      "kind": "code",
+      "sha256": "d75f73cd8501b608c169cd525306c4c9de03de1d3c0f07db24f4a420684e41f2",
+      "bindings": []
+    },
+    {
+      "unit": "closure_vendor_database_table",
+      "section": 159,
+      "anchor": "?GetRowByIndex@Table@DataStructures@@QAEPAURow@12@I@Z",
+      "anchor_offset": 0,
+      "rva": 164016,
+      "size": 49,
+      "kind": "code",
+      "sha256": "b01645c044d6dcde02ea4f01e7291bed7975f70f1aecc1b72b3b3994fd63f1d8",
+      "bindings": [
+        {
+          "symbol": "?GetListHead@?$BPlusTree@IPAURow@Table@DataStructures@@$0BA@@DataStructures@@QBEPAU?$Page@IPAURow@Table@DataStructures@@$0BA@@2@XZ",
+          "site_rva": 164017,
+          "kind": 20,
+          "target_va": 268596640
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_database_table",
+      "section": 247,
+      "anchor": "?UpdateCell@Table@DataStructures@@QAE_NIIHPAD@Z",
+      "anchor_offset": 0,
+      "rva": 169808,
+      "size": 46,
+      "kind": "code",
+      "sha256": "26497efe0a15d52fd7c62b1d4c89f7eb95aa0284e88ce978649176136bdd5aa3",
+      "bindings": [
+        {
+          "symbol": "?GetRowByID@Table@DataStructures@@QAEPAURow@12@I@Z",
+          "site_rva": 169814,
+          "kind": 20,
+          "target_va": 268603536
+        },
+        {
+          "symbol": "?UpdateCell@Row@Table@DataStructures@@QAEXIHPAD@Z",
+          "site_rva": 169840,
+          "kind": 20,
+          "target_va": 268599232
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_reliability_serialization",
+      "section": 5,
+      "anchor": "?GetNumberOfUnreadBits@BitStream@RakNet@@QBEHXZ",
+      "anchor_offset": 0,
+      "rva": 229456,
+      "size": 6,
+      "kind": "code",
+      "sha256": "3cfcfad5a66acf2cf85e6a7523f992b40a706b83a816accd60c532959d4a7e2f",
+      "bindings": []
+    },
+    {
+      "unit": "closure_vendor_file_list_transfer",
+      "section": 16,
+      "anchor": "??0FileListReceiver@FileListTransfer@@QAE@XZ",
+      "anchor_offset": 0,
+      "rva": 182928,
+      "size": 15,
+      "kind": "code",
+      "sha256": "60d32299aa0db55fb5128ebff65a2c185a3629338b80376f1179c66e3ed2b28f",
+      "bindings": [
+        {
+          "symbol": "??0HuffmanEncodingTree@@QAE@XZ",
+          "site_rva": 182935,
+          "kind": 20,
+          "target_va": 268592992
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_file_list_transfer",
+      "section": 40,
+      "anchor": "??A?$Queue@UFileListNode@@@DataStructures@@QBEAAUFileListNode@@I@Z",
+      "anchor_offset": 0,
+      "rva": 183408,
+      "size": 55,
+      "kind": "code",
+      "sha256": "989be0e2f2d809f2c14982e94f90275ab52c02e2b3f22619eb3dc040da8e4fa3",
+      "bindings": []
+    },
+    {
+      "unit": "closure_vendor_file_list_transfer",
+      "section": 52,
+      "anchor": "??0MapNode@?$Map@GPAUFileListReceiver@FileListTransfer@@$1??$defaultMapKeyComparison@G@DataStructures@@YAHABG0@Z@DataStructures@@QAE@GPAUFileListReceiver@FileListTransfer@@@Z",
+      "anchor_offset": 0,
+      "rva": 183504,
+      "size": 20,
+      "kind": "code",
+      "sha256": "311caeeb6bd5485e3c99fd533155f48517d0c6b68b0622f309f9dd027ca1bb88",
+      "bindings": []
+    },
+    {
+      "unit": "closure_vendor_directory_delta",
+      "section": 20,
+      "anchor": "?OnFileProgress@FileListTransferCBInterface@@UAEXIPADIIGIIIEIII@Z",
+      "anchor_offset": 0,
+      "rva": 154896,
+      "size": 3,
+      "kind": "code",
+      "sha256": "97524519b8b42a3b363759043d02dc4396c16269b45e455ea1111ce13aa64a29",
+      "bindings": []
+    },
+    {
+      "unit": "closure_vendor_network_id_generator",
+      "section": 74,
+      "anchor": "?GET_OBJECT_FROM_ID@@YAPAXUNetworkID@@@Z",
+      "anchor_offset": 0,
+      "rva": 209488,
+      "size": 19,
+      "kind": "code",
+      "sha256": "1f95a983e5fc4cb44e8377adafde3f0aef433e1f3c6915660d48e071638c958b",
+      "bindings": [
+        {
+          "symbol": "?GET_OBJECT_FROM_ID@NetworkIDGenerator@@SAPAXUNetworkID@@@Z",
+          "site_rva": 209499,
+          "kind": 20,
+          "target_va": 268644880
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_database_server",
+      "section": 123,
+      "anchor": "?GetTableRows@LightweightDatabaseServer@@QAEPAU?$Page@IPAURow@Table@DataStructures@@$0BA@@DataStructures@@PAD@Z",
+      "anchor_offset": 0,
+      "rva": 195536,
+      "size": 58,
+      "kind": "code",
+      "sha256": "a7bfd3e7b97b92fd406dea2906119653a9b0cf104422f2dcab449cc6978ba9ad",
+      "bindings": [
+        {
+          "symbol": "?Has@?$Map@PADPAUDatabaseTable@LightweightDatabaseServer@@$1?DatabaseTableComp@2@SAHABQAD0@Z@DataStructures@@QAE_NABQAD@Z",
+          "site_rva": 195548,
+          "kind": 20,
+          "target_va": 268630624
+        },
+        {
+          "symbol": "?Get@?$Map@PADPAUDatabaseTable@LightweightDatabaseServer@@$1?DatabaseTableComp@2@SAHABQAD0@Z@DataStructures@@QAEAAPAUDatabaseTable@LightweightDatabaseServer@@ABQAD@Z",
+          "site_rva": 195564,
+          "kind": 20,
+          "target_va": 268630544
+        },
+        {
+          "symbol": "?GetRows@Table@DataStructures@@QAEAAV?$BPlusTree@IPAURow@Table@DataStructures@@$0BA@@2@XZ",
+          "site_rva": 195577,
+          "kind": 20,
+          "target_va": 268596432
+        },
+        {
+          "symbol": "?GetListHead@?$BPlusTree@IPAURow@Table@DataStructures@@$0BA@@DataStructures@@QBEPAU?$Page@IPAURow@Table@DataStructures@@$0BA@@2@XZ",
+          "site_rva": 195584,
+          "kind": 20,
+          "target_va": 268596640
+        }
+      ]
+    }
+  ],
+  "seeds": [
+    {
+      "unit": "closure_vendor_connection_graph",
+      "symbol": "??_EMapNode@?$Map@UPlayerIdAndGroupId@ConnectionGraph@@G$1??$defaultMapKeyComparison@UPlayerIdAndGroupId@ConnectionGraph@@@DataStructures@@YAHABU12@0@Z@DataStructures@@QAEPAXI@Z",
+      "rva": 136864,
+      "size": 77
+    },
+    {
+      "unit": "closure_vendor_connection_graph",
+      "symbol": "??A?$List@E@DataStructures@@QBEAAEI@Z",
+      "rva": 136416,
+      "size": 9
+    },
+    {
+      "unit": "closure_vendor_connection_graph",
+      "symbol": "??$Read@UPlayerID@@@BitStream@RakNet@@QAE_NAAUPlayerID@@@Z",
+      "rva": 137280,
+      "size": 38
+    },
+    {
+      "unit": "closure_vendor_connection_graph",
+      "symbol": "?IMPLEMENT_DEFAULT_COMPARISON@?$OrderedList@UPlayerID@@U1@$1??$defaultOrderedListComparison@UPlayerID@@U1@@DataStructures@@YAHABU1@0@Z@DataStructures@@SAXXZ",
+      "rva": 137936,
+      "size": 21
+    },
+    {
+      "unit": "closure_vendor_connection_graph",
+      "symbol": "?IMPLEMENT_DEFAULT_COMPARISON@?$OrderedList@EE$1??$defaultOrderedListComparison@EE@DataStructures@@YAHABE0@Z@DataStructures@@SAXXZ",
+      "rva": 138032,
+      "size": 30
+    },
+    {
+      "unit": "eval_vendor_simple_mutex",
+      "symbol": "??0SimpleMutex@@QAE@XZ",
+      "rva": 341984,
+      "size": 14
+    },
+    {
+      "unit": "closure_vendor_database_table",
+      "symbol": "?Get@Cell@Table@DataStructures@@QAEXPAH@Z",
+      "rva": 160592,
+      "size": 12
+    },
+    {
+      "unit": "closure_vendor_database_table",
+      "symbol": "?Get@Cell@Table@DataStructures@@QAEXPAD@Z",
+      "rva": 160608,
+      "size": 20
+    },
+    {
+      "unit": "closure_vendor_database_server",
+      "symbol": "??A?$List@UColumnDescriptor@Table@DataStructures@@@DataStructures@@QBEAAUColumnDescriptor@Table@1@I@Z",
+      "rva": 161296,
+      "size": 15
+    },
+    {
+      "unit": "closure_vendor_database_table",
+      "symbol": "??_EColumnDescriptor@Table@DataStructures@@QAEPAXI@Z",
+      "rva": 161648,
+      "size": 77
+    },
+    {
+      "unit": "closure_vendor_database_table",
+      "symbol": "?ColumnName@Table@DataStructures@@QAEPADI@Z",
+      "rva": 163920,
+      "size": 26
+    },
+    {
+      "unit": "closure_vendor_database_table",
+      "symbol": "?GetRowByIndex@Table@DataStructures@@QAEPAURow@12@I@Z",
+      "rva": 164016,
+      "size": 49
+    },
+    {
+      "unit": "closure_vendor_database_table",
+      "symbol": "?UpdateCell@Table@DataStructures@@QAE_NIIHPAD@Z",
+      "rva": 169808,
+      "size": 46
+    },
+    {
+      "unit": "closure_vendor_reliability_serialization",
+      "symbol": "?GetNumberOfUnreadBits@BitStream@RakNet@@QBEHXZ",
+      "rva": 229456,
+      "size": 6
+    },
+    {
+      "unit": "closure_vendor_file_list_transfer",
+      "symbol": "??0FileListReceiver@FileListTransfer@@QAE@XZ",
+      "rva": 182928,
+      "size": 15
+    },
+    {
+      "unit": "closure_vendor_file_list_transfer",
+      "symbol": "??A?$Queue@UFileListNode@@@DataStructures@@QBEAAUFileListNode@@I@Z",
+      "rva": 183408,
+      "size": 55
+    },
+    {
+      "unit": "closure_vendor_file_list_transfer",
+      "symbol": "??0MapNode@?$Map@GPAUFileListReceiver@FileListTransfer@@$1??$defaultMapKeyComparison@G@DataStructures@@YAHABG0@Z@DataStructures@@QAE@GPAUFileListReceiver@FileListTransfer@@@Z",
+      "rva": 183504,
+      "size": 20
+    },
+    {
+      "unit": "closure_vendor_directory_delta",
+      "symbol": "?OnFileProgress@FileListTransferCBInterface@@UAEXIPADIIGIIIEIII@Z",
+      "rva": 154896,
+      "size": 3
+    },
+    {
+      "unit": "closure_vendor_network_id_generator",
+      "symbol": "?GET_OBJECT_FROM_ID@@YAPAXUNetworkID@@@Z",
+      "rva": 209488,
+      "size": 19
+    },
+    {
+      "unit": "closure_vendor_database_server",
+      "symbol": "?GetTableRows@LightweightDatabaseServer@@QAEPAU?$Page@IPAURow@Table@DataStructures@@$0BA@@DataStructures@@PAD@Z",
+      "rva": 195536,
+      "size": 58
+    }
+  ],
+  "new_unique_code": 610,
+  "object_sha256": {
+    "closure_vendor_connection_graph": "d37ece28414a5c03736333b16d10bafb46c8b5eef0290dce3bd756bcf827690e",
+    "eval_vendor_simple_mutex": "2d33feab35df175d862093ffc729aa31b3273e72d2bbab8ccbab7a1b4b45a83f",
+    "closure_vendor_database_table": "ed924c09d7d647f5d58f547cf046f1c314927ab9e6b75b9f894d291e35b1cac6",
+    "closure_vendor_database_server": "7b5337e3de1f914512fabc357b45e4391134e64ef89f7f0601a2288ece2e86e4",
+    "closure_vendor_reliability_serialization": "b5756415c25324a5ba64cfafb4fa1702044ee5307fed3daaff2d5958bf22cce4",
+    "closure_vendor_file_list_transfer": "069f89bd5d9b7c01f3bbdf50c53436fc463971f02aff5f48f996090a7cb7b601",
+    "closure_vendor_directory_delta": "bd4d971f90d31858ccec3f1afeb1f8243aa264143941df458a1962796ba63e6b",
+    "closure_vendor_network_id_generator": "7ca5a1392d5bb6811c54b0a1a68aa709390ea0b1ae33c209a9b189f2b9aea981"
+  },
+  "source_sha256": {
+    "closure_vendor_connection_graph": "85ff65d15f04efd9ff694d01ceda581a5d841f8a4a562dbddb66f3f906e35573",
+    "eval_vendor_simple_mutex": "980b4931b478cf5fb805c4263921a842762c2657169f9def299801dcd695ee71",
+    "closure_vendor_database_table": "e8ee49599eed23b8b88c66995ea8ef7b70243516d888395f417718b0eb208917",
+    "closure_vendor_database_server": "877e5ac5347193f5ab2905e4c51890f6b499075bc286645f008d1c8cc6a300b6",
+    "closure_vendor_reliability_serialization": "5969311bbfb9de7a88b477331ff702a5449cb1454ec4013a2d0d8ca64a63dd19",
+    "closure_vendor_file_list_transfer": "0313dafcea67204bebc8f7aa4e0d661b08032c14f1b9130da8e344193e3187bc",
+    "closure_vendor_directory_delta": "fd3cfa96861a862a9ee6ed1b90f9f734692f7731698ac48c86d167d47a52cb79",
+    "closure_vendor_network_id_generator": "e9cd90fcea9017805d02ee2afcbaa43b74984e2f952c0e0e2fa33c57c3aee046"
+  },
+  "storage": "No storage or CRT initializers. Full functions, all real accepted external targets; no aliases."
+}

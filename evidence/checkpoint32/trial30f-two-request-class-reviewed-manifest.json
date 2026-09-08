@@ -1,0 +1,172 @@
+{
+  "status": "PASS_FULL_SOURCE_REGIONS_ALL_COFF_PE_TARGETS",
+  "run": "cp32-trial30f-fifth1",
+  "baseline": 420576,
+  "new_unique_code": 284,
+  "regions": [
+    {
+      "unit": "closure_rpc_request_class",
+      "section": 48,
+      "anchor": "?HandleClassSelectionOutcome@R5ClassOutcomeLocalView@@QAEXH@Z",
+      "anchor_offset": 0,
+      "rva": 16608,
+      "size": 58,
+      "kind": "code",
+      "sha256": "f38b2da65fefc341a608fb48fae0b7ea97f0c868b08dfa16d50884e3788fce5b",
+      "bindings": [
+        {
+          "symbol": "?ClearAllWeapons@CPlayerPed@@QAEXXZ",
+          "site_rva": 16630,
+          "kind": 20,
+          "target_va": 269139984
+        },
+        {
+          "symbol": "?SetModelIndex@R5PreviewPedModelView@@QAEXI@Z",
+          "site_rva": 16648,
+          "kind": 20,
+          "target_va": 269156176
+        }
+      ]
+    },
+    {
+      "unit": "closure_rpc_request_class",
+      "section": 52,
+      "anchor": "?RequestClassRPCTransfer@@YAXPAURPCParameters@@@Z",
+      "anchor_offset": 0,
+      "rva": 65488,
+      "size": 205,
+      "kind": "code",
+      "sha256": "d536ee7cdd5854d91ba3d87aa1bbfe1b7a6638aa2d9a3a0fafbdd5f18c883798",
+      "bindings": [
+        {
+          "symbol": "__ehhandler$?RequestClassRPCTransfer@@YAXPAURPCParameters@@@Z",
+          "site_rva": 65491,
+          "kind": 6,
+          "target_va": 269355115
+        },
+        {
+          "symbol": "__except_list",
+          "site_rva": 65497,
+          "kind": 6,
+          "target_va": 0
+        },
+        {
+          "symbol": "__except_list",
+          "site_rva": 65505,
+          "kind": 6,
+          "target_va": 0
+        },
+        {
+          "symbol": "??0BitStream@RakNet@@QAE@PADI_N@Z",
+          "site_rva": 65547,
+          "kind": 20,
+          "target_va": 268564544
+        },
+        {
+          "symbol": "?pNetGame@@3PAVCNetGame@@A",
+          "site_rva": 65552,
+          "kind": 6,
+          "target_va": 270986132
+        },
+        {
+          "symbol": "?ReadBits@BitStream@RakNet@@QAE_NPAEH_N@Z",
+          "site_rva": 65598,
+          "kind": 20,
+          "target_va": 268564912
+        },
+        {
+          "symbol": "?Read@BitStream@RakNet@@QAE_NPADH@Z",
+          "site_rva": 65614,
+          "kind": 20,
+          "target_va": 268566176
+        },
+        {
+          "symbol": "?SetSpawnInfo@RPCSpawnLocalView@@QAEXPAURPCSpawnInfoView@@@Z",
+          "site_rva": 65634,
+          "kind": 20,
+          "target_va": 268450784
+        },
+        {
+          "symbol": "?HandleClassSelectionOutcome@R5ClassOutcomeLocalView@@QAEXH@Z",
+          "site_rva": 65647,
+          "kind": 20,
+          "target_va": 268452064
+        },
+        {
+          "symbol": "??1BitStream@RakNet@@QAE@XZ",
+          "site_rva": 65667,
+          "kind": 20,
+          "target_va": 268564688
+        },
+        {
+          "symbol": "__except_list",
+          "site_rva": 65682,
+          "kind": 6,
+          "target_va": 0
+        }
+      ]
+    },
+    {
+      "unit": "closure_rpc_request_class",
+      "section": 53,
+      "anchor": "$L95116",
+      "anchor_offset": 0,
+      "rva": 919648,
+      "size": 21,
+      "kind": "code",
+      "sha256": "8bfbe67b451e9b7ff795f06d1b48e6cef18a63004582fe15ceed1dcc643b2d37",
+      "bindings": [
+        {
+          "symbol": "??1BitStream@RakNet@@QAE@XZ",
+          "site_rva": 919655,
+          "kind": 20,
+          "target_va": 268564688
+        },
+        {
+          "symbol": "$T95128",
+          "site_rva": 919660,
+          "kind": 6,
+          "target_va": 269451668
+        },
+        {
+          "symbol": "___CxxFrameHandler",
+          "site_rva": 919665,
+          "kind": 20,
+          "target_va": 269247782
+        }
+      ]
+    },
+    {
+      "unit": "closure_rpc_request_class",
+      "section": 54,
+      "anchor": "$T95128",
+      "anchor_offset": 8,
+      "rva": 1016204,
+      "size": 36,
+      "kind": "data",
+      "sha256": "7ce08a3f7b43df95c1a760e72e9bde8f20abc4b4ba1e2990233b53ae81e7a63f",
+      "bindings": [
+        {
+          "symbol": "$L95116",
+          "site_rva": 1016208,
+          "kind": 6,
+          "target_va": 269355104
+        },
+        {
+          "symbol": "$T95132",
+          "site_rva": 1016220,
+          "kind": 6,
+          "target_va": 269451660
+        }
+      ]
+    }
+  ],
+  "source025_direct": 0,
+  "object_sha256": {
+    "closure_rpc_request_class": "add546e18c53c1cc32ab6b49bd5cebe246fe76feb424ce39132ed30a1b121900"
+  },
+  "source_sha256": {
+    "closure_rpc_request_class": "5f5fd0d0b1b28a054583a7084bbe161162f50011d3556f55d46c88b84ddcc8d4"
+  },
+  "typed_layout_note": "Source025 requestclass/outcome adapted R5 wire46 and unconditional local player; asserted packed offsets. Existing accepted SetSpawnInfo3be0 and ped providers; no new storage or CRT."
+}

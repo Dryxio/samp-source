@@ -1,0 +1,214 @@
+{
+  "status": "PASS_FULL_SOURCE_REGIONS_ALL_COFF_PE_TARGETS",
+  "run": "cp32-trial30f-fourth1",
+  "baseline": 420576,
+  "new_unique_code": 337,
+  "regions": [
+    {
+      "unit": "closure_vehicle_marker_process",
+      "section": 50,
+      "anchor": "?ProcessMarkers@R5VehicleMarkersView@@QAEXXZ",
+      "anchor_offset": 0,
+      "rva": 751328,
+      "size": 337,
+      "kind": "code",
+      "sha256": "155b643b205ed6c0ab4fef075034d83964e4a64e6f5bd5dd23b4ecb89e27c162",
+      "bindings": [
+        {
+          "symbol": "?r5_disable_marker@@3USCRIPT_COMMAND@@B",
+          "site_rva": 751379,
+          "kind": 6,
+          "target_va": 269407544
+        },
+        {
+          "symbol": "?ScriptCommand@@YAHPBUSCRIPT_COMMAND@@ZZ",
+          "site_rva": 751384,
+          "kind": 20,
+          "target_va": 269165328
+        },
+        {
+          "symbol": "?r5_tie_marker_to_car@@3USCRIPT_COMMAND@@B",
+          "site_rva": 751407,
+          "kind": 6,
+          "target_va": 269407524
+        },
+        {
+          "symbol": "?ScriptCommand@@YAHPBUSCRIPT_COMMAND@@ZZ",
+          "site_rva": 751412,
+          "kind": 20,
+          "target_va": 269165328
+        },
+        {
+          "symbol": "?r5_set_marker_color@@3USCRIPT_COMMAND@@B",
+          "site_rva": 751425,
+          "kind": 6,
+          "target_va": 269407564
+        },
+        {
+          "symbol": "?ScriptCommand@@YAHPBUSCRIPT_COMMAND@@ZZ",
+          "site_rva": 751430,
+          "kind": 20,
+          "target_va": 269165328
+        },
+        {
+          "symbol": "?r5_show_on_radar@@3USCRIPT_COMMAND@@B",
+          "site_rva": 751440,
+          "kind": 6,
+          "target_va": 269407584
+        },
+        {
+          "symbol": "?ScriptCommand@@YAHPBUSCRIPT_COMMAND@@ZZ",
+          "site_rva": 751445,
+          "kind": 20,
+          "target_va": 269165328
+        },
+        {
+          "symbol": "?r5_disable_marker@@3USCRIPT_COMMAND@@B",
+          "site_rva": 751478,
+          "kind": 6,
+          "target_va": 269407544
+        },
+        {
+          "symbol": "?ScriptCommand@@YAHPBUSCRIPT_COMMAND@@ZZ",
+          "site_rva": 751483,
+          "kind": 20,
+          "target_va": 269165328
+        },
+        {
+          "symbol": "?GetDistanceFromLocalPlayerPed@CEntity@@QAEMXZ",
+          "site_rva": 751510,
+          "kind": 20,
+          "target_va": 269086912
+        },
+        {
+          "symbol": "__real@43480000",
+          "site_rva": 751516,
+          "kind": 6,
+          "target_va": 269377696
+        },
+        {
+          "symbol": "?IsOccupied@CVehicle@@QAEHXZ",
+          "site_rva": 751530,
+          "kind": 20,
+          "target_va": 269185328
+        },
+        {
+          "symbol": "?r5_tie_marker_to_car@@3USCRIPT_COMMAND@@B",
+          "site_rva": 751564,
+          "kind": 6,
+          "target_va": 269407524
+        },
+        {
+          "symbol": "?ScriptCommand@@YAHPBUSCRIPT_COMMAND@@ZZ",
+          "site_rva": 751569,
+          "kind": 20,
+          "target_va": 269165328
+        },
+        {
+          "symbol": "?r5_set_marker_color@@3USCRIPT_COMMAND@@B",
+          "site_rva": 751582,
+          "kind": 6,
+          "target_va": 269407564
+        },
+        {
+          "symbol": "?ScriptCommand@@YAHPBUSCRIPT_COMMAND@@ZZ",
+          "site_rva": 751587,
+          "kind": 20,
+          "target_va": 269165328
+        },
+        {
+          "symbol": "?IsOccupied@CVehicle@@QAEHXZ",
+          "site_rva": 751600,
+          "kind": 20,
+          "target_va": 269185328
+        },
+        {
+          "symbol": "?GetDistanceFromLocalPlayerPed@CEntity@@QAEMXZ",
+          "site_rva": 751611,
+          "kind": 20,
+          "target_va": 269086912
+        },
+        {
+          "symbol": "__real@43480000",
+          "site_rva": 751617,
+          "kind": 6,
+          "target_va": 269377696
+        },
+        {
+          "symbol": "?r5_disable_marker@@3USCRIPT_COMMAND@@B",
+          "site_rva": 751640,
+          "kind": 6,
+          "target_va": 269407544
+        },
+        {
+          "symbol": "?ScriptCommand@@YAHPBUSCRIPT_COMMAND@@ZZ",
+          "site_rva": 751645,
+          "kind": 20,
+          "target_va": 269165328
+        }
+      ]
+    },
+    {
+      "unit": "closure_vehicle_marker_process",
+      "section": 5,
+      "anchor": "?r5_disable_marker@@3USCRIPT_COMMAND@@B",
+      "anchor_offset": 0,
+      "rva": 972088,
+      "size": 18,
+      "kind": "data",
+      "sha256": "1ebe2aef5e9dcbef37a2e24c73e67590a006311112c6df9545b27483968481ad",
+      "bindings": []
+    },
+    {
+      "unit": "closure_vehicle_marker_process",
+      "section": 51,
+      "anchor": "__real@43480000",
+      "anchor_offset": 0,
+      "rva": 942240,
+      "size": 4,
+      "kind": "data",
+      "sha256": "531ad685bf4dd31ed89c6b99e76c2b9451d6a6d04d82de7d4b1a73217f55e551",
+      "bindings": []
+    },
+    {
+      "unit": "closure_vehicle_marker_process",
+      "section": 4,
+      "anchor": "?r5_set_marker_color@@3USCRIPT_COMMAND@@B",
+      "anchor_offset": 0,
+      "rva": 972108,
+      "size": 18,
+      "kind": "data",
+      "sha256": "e0ea9ce04b392a53ad0e780f33a32facf25a3f1862aa8b3cd093bd794af4b29a",
+      "bindings": []
+    },
+    {
+      "unit": "closure_vehicle_marker_process",
+      "section": 6,
+      "anchor": "?r5_tie_marker_to_car@@3USCRIPT_COMMAND@@B",
+      "anchor_offset": 0,
+      "rva": 972068,
+      "size": 18,
+      "kind": "data",
+      "sha256": "b190db11e307c8b69afc13ec98c08fe13b31ff522e61990daf90a52fe471ee3c",
+      "bindings": []
+    },
+    {
+      "unit": "closure_vehicle_marker_process",
+      "section": 3,
+      "anchor": "?r5_show_on_radar@@3USCRIPT_COMMAND@@B",
+      "anchor_offset": 0,
+      "rva": 972128,
+      "size": 18,
+      "kind": "data",
+      "sha256": "4c578c0ffd8e8878c3b109852458e1ac598615475e6c78d64d7e08f7f311b80c",
+      "bindings": []
+    }
+  ],
+  "object_sha256": {
+    "closure_vehicle_marker_process": "0b66e48df0fd6b7a65dcb4fd42f8fcd050a9525db21b2cda9885cd88daf5385b"
+  },
+  "source_sha256": {
+    "closure_vehicle_marker_process": "43dc9257adb3004c83e53a60b95686e32b0c619f57ce808547996cec6b7b7004"
+  },
+  "typed_layout_note": "025 ProcessMarkers with original R5 colors1006/1004 and actual entity distance/vehicle occupied providers. Pointer4c, objective64, special65, markerb4; complete SCM descriptors and200float; no new storage CRT."
+}

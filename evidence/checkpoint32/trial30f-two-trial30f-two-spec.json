@@ -1,0 +1,60 @@
+{
+  "prefix": "trial30f-two",
+  "previous": "trial30f-one",
+  "baseline": 421409,
+  "expected_gain": 2457,
+  "run": "cp32-trial30f-two-linked1",
+  "ob1": "cp32-trial30f-two-ob1",
+  "ob2": "cp32-disconnect-selection-ob2",
+  "manifests": [
+    "build/trial30f/markers-reviewed-manifest.json",
+    "build/trial30f/type-lights-reviewed-manifest.json",
+    "build/trial30f/trailer-reviewed-manifest.json",
+    "build/trial30f/network-agent/network-template-reviewed-manifest.json",
+    "build/trial30f/network-agent/graph-extra-reviewed-manifest.json",
+    "build/trial30f/existing-members-selected-reviewed-manifest.json",
+    "build/trial30f/network-agent/existing-extra-reviewed-manifest.json",
+    "build/trial30f/client-agent/request-class-reviewed-manifest.json",
+    "build/trial30f/network-agent/address-ctor-reviewed-manifest.json",
+    "build/trial30f/network-agent/address-list-deps-reviewed-manifest.json"
+  ],
+  "seed_files": [
+    "build/trial30f/markers-seeds.json",
+    "build/trial30f/type-lights-seeds.json",
+    "build/trial30f/trailer-seeds.json",
+    "build/trial30f/network-agent/network-template-seeds.json",
+    "build/trial30f/network-agent/graph-extra-seeds.json",
+    "build/trial30f/existing-members-selected-seeds.json",
+    "build/trial30f/network-agent/existing-extra-seeds.json",
+    "build/trial30f/client-agent/request-class-seeds.json",
+    "build/trial30f/network-agent/address-ctor-seeds.json"
+  ],
+  "evidence_files": [
+    "build/trial30f/preflight_markers.py",
+    "build/trial30f/preflight_type_lights.py",
+    "build/trial30f/preflight_trailer.py",
+    "build/trial30f/client-agent/preflight_request_class.py",
+    "build/trial30f/network-agent/preflight_graph_extra.py",
+    "build/trial30f/network-agent/preflight_address_ctor.py"
+  ],
+  "linked_reviews": {
+    "itoa_qualification": "build/trial30f-two-itoa-qualified.json",
+    "linker_alias_provider_evidence": "build/cp32-trial30f-two-linked1-aliases.json",
+    "server_bridge_final": "build/agent-independent/server-bridge-target-alias-qualification-cp32-trial30f-two-linked1.json",
+    "logger_deleting_aliases": "build/agent-independent/logger-deleting-aliases-cp32-trial30f-two-linked1.json",
+    "network_tree_deleting_aliases": "build/agent-independent/replica-network-id-aliases-qualified.json",
+    "sha1_deleting_alias_qualification": "build/trial30f-two-sha1-deleting-alias-qualified.json",
+    "mesh_deleting_alias_qualification": "build/agent-independent/mesh-deleting-aliases-cp32-trial30f-two-linked1.json",
+    "chat_navigation_alias": "build/agent-textdraw/chat-navigation-linked-alias-review.json",
+    "console_aliases": "build/agent-independent/console-aliases-qualified.json",
+    "raknet_command_alias": "build/agent-independent/raknet-command-parser-alias-qualified.json"
+  },
+  "review": {
+    "scope": "Vehicle markers337, model/lights258,trailer120, requestclass284, network templates139 and existing vendor members1289;2427 new unique code. SystemAddressList complete ctor89+EH18 adds107, total2534. Excludes source-exact but linked-divergent PlayerIdAndGroupId deleting dtor77; final2457.",
+    "adaptations": "Source025 adapted vehicle markers/colors337,trailer subtype guards120,RC77/toggle86,requestclass284. Full existing vendor type identities and actual CRT targets reviewed.",
+    "implementation": "Normal C++ complete functions,data,EH. Actual existing providers; no masking,truncation,unimplemented dependencies or duplicate credit.",
+    "reference_credit": "025 contributed904 adapted bytes. Existing-source vendor1289 separately credited as newly accepted, not newly reconstructed. Templates139 newly extracted from actual vendor. Existing-source subtotal1396 including SystemAddressList107.",
+    "prepared_before_trial": 1289
+  },
+  "prepared_before_trial": 1319
+}

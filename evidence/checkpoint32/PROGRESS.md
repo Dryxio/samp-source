@@ -1550,3 +1550,6 @@ Trial E complete and paused: +993 unique bytes; strict30min +496, final 36m11s a
 
 
 trial30f-one: +833 unique accepted R5 code bytes, total 421409/930756 (45.275991%). Six vehicle control queries443, two landing gear methods229, actual Packet SPC lifecycle161; 833 unique code. Complete source/linked code,data,EH, actual COFF/PE targets, no unimplemented provider credit; required negative controls and Actor ABI PASS. Trial F continues until 2026-09-08T15:23:42Z; no push/deployment.
+
+
+trial30f-two: +2457 unique accepted R5 code bytes, total 423866/930756 (45.539970%). Vehicle markers337, model/lights258,trailer120, requestclass284, network templates139 and existing vendor members1289;2427 new unique code. SystemAddressList complete ctor89+EH18 adds107, total2534. Excludes source-exact but linked-divergent PlayerIdAndGroupId deleting dtor77; final2457. Complete source/linked code,data,EH, actual COFF/PE targets, no unimplemented provider credit; required negative controls and Actor ABI PASS. Trial F continues until 2026-09-08T15:23:42Z; no push/deployment.

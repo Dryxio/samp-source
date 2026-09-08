@@ -1,0 +1,140 @@
+{
+  "status": "PASS_FULL_SOURCE_REGIONS_ALL_COFF_PE_TARGETS",
+  "run": "cp32-trial30e-two-linked2",
+  "baseline": 420576,
+  "new_unique_code": 107,
+  "already_covered_code": 0,
+  "regions": [
+    {
+      "unit": "eval_vendor_system_address_list",
+      "section": 39,
+      "anchor": "??0SystemAddressList@@QAE@UPlayerID@@@Z",
+      "anchor_offset": 0,
+      "rva": 347680,
+      "size": 89,
+      "kind": "code",
+      "sha256": "0f35d351443efdd7b5925224b2a94b7db1707e98eb2975902a9178c9dae54cc1",
+      "bindings": [
+        {
+          "symbol": "__ehhandler$??0SystemAddressList@@QAE@UPlayerID@@@Z",
+          "site_rva": 347683,
+          "kind": 6,
+          "target_va": 269366472
+        },
+        {
+          "symbol": "__except_list",
+          "site_rva": 347689,
+          "kind": 6,
+          "target_va": 0
+        },
+        {
+          "symbol": "__except_list",
+          "site_rva": 347697,
+          "kind": 6,
+          "target_va": 0
+        },
+        {
+          "symbol": "??0?$List@UPlayerID@@@DataStructures@@QAE@XZ",
+          "site_rva": 347710,
+          "kind": 20,
+          "target_va": 268569600
+        },
+        {
+          "symbol": "?Insert@?$List@UPlayerID@@@DataStructures@@QAEXUPlayerID@@@Z",
+          "site_rva": 347745,
+          "kind": 20,
+          "target_va": 268569664
+        },
+        {
+          "symbol": "__except_list",
+          "site_rva": 347758,
+          "kind": 6,
+          "target_va": 0
+        }
+      ]
+    },
+    {
+      "unit": "eval_vendor_system_address_list",
+      "section": 40,
+      "anchor": "$L2830",
+      "anchor_offset": 0,
+      "rva": 931008,
+      "size": 18,
+      "kind": "code",
+      "sha256": "408599ff522a839bf514aec3b5971f4e9701a262a0326bf9d894aada061ccf37",
+      "bindings": [
+        {
+          "symbol": "??1?$List@UPlayerID@@@DataStructures@@QAE@XZ",
+          "site_rva": 931012,
+          "kind": 20,
+          "target_va": 268569616
+        },
+        {
+          "symbol": "$T2834",
+          "site_rva": 931017,
+          "kind": 6,
+          "target_va": 269464080
+        },
+        {
+          "symbol": "___CxxFrameHandler",
+          "site_rva": 931022,
+          "kind": 20,
+          "target_va": 269247782
+        }
+      ]
+    },
+    {
+      "unit": "eval_vendor_system_address_list",
+      "section": 41,
+      "anchor": "$T2834",
+      "anchor_offset": 8,
+      "rva": 1028616,
+      "size": 36,
+      "kind": "data",
+      "sha256": "4f5b5937e45a1ae2b9d14194ee5a5af0b52319b9f063905731a5053299286ea7",
+      "bindings": [
+        {
+          "symbol": "$L2830",
+          "site_rva": 1028620,
+          "kind": 6,
+          "target_va": 269366464
+        },
+        {
+          "symbol": "$T2837",
+          "site_rva": 1028632,
+          "kind": 6,
+          "target_va": 269464072
+        }
+      ]
+    }
+  ],
+  "seeds": [
+    {
+      "unit": "eval_vendor_system_address_list",
+      "symbol": "??0SystemAddressList@@QAE@UPlayerID@@@Z",
+      "rva": 347680,
+      "size": 89
+    }
+  ],
+  "bindings_checked": 11,
+  "source025_direct": 0,
+  "object_sha256": {
+    "eval_vendor_system_address_list": "a21c1250a6f191d6b1980d3fd326b21df7a88110fa96e28e08cdb5b8f668d4c0"
+  },
+  "source_sha256": {
+    "eval_vendor_system_address_list": "44f5226d64c6bc9a42cd690769b16f69fc1a68f3bdeeb935867f5fced301ee02"
+  },
+  "external_targets": {
+    "__ehhandler$??0SystemAddressList@@QAE@UPlayerID@@@Z": 269366472,
+    "__except_list": 0,
+    "??0?$List@UPlayerID@@@DataStructures@@QAE@XZ": 268569600,
+    "?Insert@?$List@UPlayerID@@@DataStructures@@QAEXUPlayerID@@@Z": 268569664,
+    "??1?$List@UPlayerID@@@DataStructures@@QAE@XZ": 268569616,
+    "$T2834": 269464080,
+    "___CxxFrameHandler": 269247782,
+    "$L2830": 269366464,
+    "$T2837": 269464072
+  },
+  "identity": "Actual SystemAddressList constructor in existing vendor source; whole constructor89, EH handler18 and full unwind data36, all original COFF and PE targets validated.",
+  "crt_initialization": "object .drectve requests LIBCMT/OLDNAMES; no CRT initializer section is in the selected closure"
+}

@@ -1,0 +1,69 @@
+{
+  "status": "PASS_FULL_SOURCE_REGIONS_ALL_COFF_PE_TARGETS",
+  "run": "cp32-trial30f-sixth1",
+  "baseline": 420576,
+  "new_unique_code": 258,
+  "regions": [
+    {
+      "unit": "closure_vehicle_type_lights",
+      "section": 52,
+      "anchor": "?ToggleLights@R5VehicleTypeLightsView@@QAEXE@Z",
+      "anchor_offset": 0,
+      "rva": 753232,
+      "size": 86,
+      "kind": "code",
+      "sha256": "2b1aecfc85316eff5125ba8d36bff7c71cae1571c330ba432ca6b87ceeaaa59d",
+      "bindings": [
+        {
+          "symbol": "?GamePool_Vehicle_GetAt@@YGPAU_VEHICLE_TYPE@@H@Z",
+          "site_rva": 753247,
+          "kind": 20,
+          "target_va": 269171664
+        }
+      ]
+    },
+    {
+      "unit": "closure_vehicle_type_lights",
+      "section": 50,
+      "anchor": "?IsRCVehicle@R5VehicleTypeLightsView@@QAEHXZ",
+      "anchor_offset": 0,
+      "rva": 753152,
+      "size": 77,
+      "kind": "code",
+      "sha256": "bfa343048414f180c086cc64e6a5c5171aefd7708bd4d3d856834d4d01cd7eb5",
+      "bindings": [
+        {
+          "symbol": "?GamePool_Vehicle_GetAt@@YGPAU_VEHICLE_TYPE@@H@Z",
+          "site_rva": 753167,
+          "kind": 20,
+          "target_va": 269171664
+        }
+      ]
+    },
+    {
+      "unit": "closure_vehicle_type_lights",
+      "section": 46,
+      "anchor": "?IsTrailerModel@R5VehicleTypeLightsView@@QAEHXZ",
+      "anchor_offset": 0,
+      "rva": 753008,
+      "size": 95,
+      "kind": "code",
+      "sha256": "aaa2df8f8df2b9fbbfe28cd409a21679eb3100763e3f830637386d2baeb3e789",
+      "bindings": [
+        {
+          "symbol": "?GamePool_Vehicle_GetAt@@YGPAU_VEHICLE_TYPE@@H@Z",
+          "site_rva": 753023,
+          "kind": 20,
+          "target_va": 269171664
+        }
+      ]
+    }
+  ],
+  "object_sha256": {
+    "closure_vehicle_type_lights": "a7d56a2db76c668fa3bf5ce408cee7bc83c8b705c8e1549edad1a8764d8c4552"
+  },
+  "source_sha256": {
+    "closure_vehicle_type_lights": "57a71ac31aff1a647ee9e3600869a299394ab49b8f19ce865835de84e8ef3908"
+  },
+  "typed_layout_note": "Vehicle model and light predicates: original model16 at native22, flags4a8 and428, gtaId44 pointer4c. Source025 RC77/lights43 and adapted toggle86; trailer95/tow43 R5. No new data/CRT."
+}

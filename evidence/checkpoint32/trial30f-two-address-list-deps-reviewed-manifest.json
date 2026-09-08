@@ -1,0 +1,43 @@
+{
+  "status": "PASS_FULL_SOURCE_REGIONS_ALL_COFF_PE_TARGETS",
+  "regions": [
+    {
+      "unit": "eval_vendor_system_address_list",
+      "section": 11,
+      "anchor": "??0?$List@UPlayerID@@@DataStructures@@QAE@XZ",
+      "anchor_offset": 0,
+      "rva": 134144,
+      "size": 13,
+      "kind": "code",
+      "sha256": "efaddf6f7c64b7d0dd7d70e04563c88df5b21978a063a338954e28cc09d4e5e9",
+      "bindings": []
+    },
+    {
+      "unit": "eval_vendor_system_address_list",
+      "section": 13,
+      "anchor": "??1?$List@UPlayerID@@@DataStructures@@QAE@XZ",
+      "anchor_offset": 0,
+      "rva": 134160,
+      "size": 17,
+      "kind": "code",
+      "sha256": "3677b09f196c3410cb7763290e5a9ba789af14c29e041ad3904c38c62fc9838f",
+      "bindings": [
+        {
+          "symbol": "??3@YAXPAX@Z",
+          "site_rva": 134171,
+          "kind": 20,
+          "target_va": 269247626
+        }
+      ]
+    }
+  ],
+  "new_unique_code": 0,
+  "already_covered_code": 30,
+  "object_sha256": {
+    "eval_vendor_system_address_list": "a21c1250a6f191d6b1980d3fd326b21df7a88110fa96e28e08cdb5b8f668d4c0"
+  },
+  "source_sha256": {
+    "eval_vendor_system_address_list": "44f5226d64c6bc9a42cd690769b16f69fc1a68f3bdeeb935867f5fced301ee02"
+  },
+  "provenance": "Same-unit real template definitions selected by linker from existing complete vendor SystemAddressList source; previously accepted physical List<PlayerID> roots, no new credit."
+}

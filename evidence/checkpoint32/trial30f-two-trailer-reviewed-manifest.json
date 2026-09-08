@@ -1,0 +1,57 @@
+{
+  "status": "PASS_FULL_SOURCE_REGIONS_ALL_COFF_PE_TARGETS",
+  "run": "cp32-trial30f-sixth1",
+  "baseline": 420576,
+  "new_unique_code": 120,
+  "regions": [
+    {
+      "unit": "closure_vehicle_trailer_lookup",
+      "section": 46,
+      "anchor": "?GetTrailer@R5VehicleTrailerLookupView@@QAEPAVCVehicle@@XZ",
+      "anchor_offset": 0,
+      "rva": 752880,
+      "size": 120,
+      "kind": "code",
+      "sha256": "2c4ac41d300f5b4d143d815e004cfb9294c0f3a64135f794510153571c70e622",
+      "bindings": [
+        {
+          "symbol": "?GetVehicleSubtypeFromVehiclePtr@@YAIPAU_VEHICLE_TYPE@@@Z",
+          "site_rva": 752892,
+          "kind": 20,
+          "target_va": 269181408
+        },
+        {
+          "symbol": "?pNetGame@@3PAVCNetGame@@A",
+          "site_rva": 752935,
+          "kind": 6,
+          "target_va": 270986132
+        },
+        {
+          "symbol": "?FindIDFromGtaPtr@RPCVehicleMotionPoolView@@QAEGPAU_VEHICLE_TYPE@@@Z",
+          "site_rva": 752955,
+          "kind": 20,
+          "target_va": 268561296
+        },
+        {
+          "symbol": "?GetSlotState@R5VehicleTrailerPoolView@@QAEHG@Z",
+          "site_rva": 752972,
+          "kind": 20,
+          "target_va": 268439888
+        },
+        {
+          "symbol": "?GetAt@R5VehicleTrailerPoolView@@QAEPAVCVehicle@@G@Z",
+          "site_rva": 752984,
+          "kind": 20,
+          "target_va": 268439840
+        }
+      ]
+    }
+  ],
+  "object_sha256": {
+    "closure_vehicle_trailer_lookup": "56a62e4097d9cbfc24d2e5dae7cdf3f83da295907bed4265813d25c704e563af"
+  },
+  "source_sha256": {
+    "closure_vehicle_trailer_lookup": "b82c0639dd1eafc4031335d724b8e4199cfaf10371f6739ff2d9d05a7a247545"
+  },
+  "typed_layout_note": "025 GetTrailer adapted R5 subtype exclusions2/4/7/6, native trailer4c4, invalidFFFF. Actual active FindIDFromGtaPtr/GetSlotState/GetAt and pNetGame targets. No storage/CRT."
+}
