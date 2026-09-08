@@ -1,0 +1,34 @@
+{
+  "status": "PASS_FULL_SOURCE_REGIONS_ALL_COFF_PE_TARGETS",
+  "run": "cp32-pipeline-next-candidates4",
+  "baseline": 425232,
+  "new_unique_code": 95,
+  "regions": [
+    {
+      "unit": "closure_ui_dialog_position",
+      "section": 50,
+      "anchor": "?PositionDialog@R5ApplicationDialogPositionView@@QAEXXZ",
+      "anchor_offset": 0,
+      "rva": 464928,
+      "size": 95,
+      "kind": "code",
+      "sha256": "772c4d3bee296dba341d44e7ae830707eca9ccc0d52144b4f8bf7c0d8a0b2dcc",
+      "bindings": [
+        {
+          "symbol": "__imp__GetClientRect@8",
+          "site_rva": 464969,
+          "kind": 6,
+          "target_va": 269374320
+        }
+      ]
+    }
+  ],
+  "source025_direct": 0,
+  "object_sha256": {
+    "closure_ui_dialog_position": "ec753d87276a51c6b67b29b4126b4f3a80ce5fc4b8e7e69b80489998aa5f2f23"
+  },
+  "source_sha256": {
+    "closure_ui_dialog_position": "e58344839ce0abafac3cb68f26d471bf6548243ffd782add3b644b80786eef34"
+  },
+  "typed_layout_note": "Typed packed application dialog geometry: x4/y8/widthC/height10/dialog20; dialog x116/y11A/width11E/height122. HWND fixed GTA slot C97C1C. Original GetClientRect import and complete95 bytes."
+}

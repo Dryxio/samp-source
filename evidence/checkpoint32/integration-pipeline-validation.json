@@ -1,5 +1,5 @@
 {
-  "status": "PREFLIGHT_AND_VM_COMPONENTS_VALIDATED",
+  "status": "TWO_FRESH_POSITIVE_BATCHES_ACCEPTED",
   "accepted_unique_bytes_before": 424823,
   "accepted_unique_bytes_after": 424823,
   "new_accepted_bytes": 0,
@@ -79,9 +79,12 @@
     "deployed": false
   },
   "limitations": [
-    "Fresh positive proposal has not yet traversed the complete run-to-accept path; final acceptance gate was not altered.",
     "Qualification scripts and manifests still depend on retained ignored build artifacts.",
-    "No new model or throughput/token benchmark run; savings are unmeasured.",
-    "Header, profile and Ob2 ownership changes need explicit integration outside v1."
+    "Header, profile and Ob2 ownership changes need explicit integration outside v1.",
+    "Measured restart report: pipeline-next-report.json. Different workload prevents causal throughput attribution."
+  ],
+  "production_acceptance": [
+    "evidence/checkpoint32/pipeline-next-one-acceptance.json",
+    "evidence/checkpoint32/pipeline-next-two-acceptance.json"
   ]
 }

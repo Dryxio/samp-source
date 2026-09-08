@@ -1,0 +1,287 @@
+{
+  "status": "PASS_FULL_SOURCE_REGIONS_ALL_COFF_PE_TARGETS",
+  "baseline": "evidence/checkpoint32/trial30f-three-acceptance.json",
+  "run": "build/cp32-pipeline-next-candidates1",
+  "regions": [
+    {
+      "unit": "closure_vendor_rakserver_control_leaves",
+      "section": 3,
+      "anchor": "?SetPassword@RakServer@@UAEXPBD@Z",
+      "anchor_offset": 0,
+      "rva": 273536,
+      "size": 57,
+      "kind": "code",
+      "sha256": "61b18129932ebc182191fa84b6afc67bd3744d3cc1ac11ca114e94f87dbc1ecf",
+      "bindings": [
+        {
+          "symbol": "?SetIncomingPassword@RakPeer@@UAEXPBDH@Z",
+          "site_rva": 273568,
+          "kind": 20,
+          "target_va": 268665904
+        },
+        {
+          "symbol": "?SetIncomingPassword@RakPeer@@UAEXPBDH@Z",
+          "site_rva": 273585,
+          "kind": 20,
+          "target_va": 268665904
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_rakserver_control_leaves",
+      "section": 5,
+      "anchor": "?StartOccasionalPing@RakServer@@UAEXXZ",
+      "anchor_offset": 0,
+      "rva": 274096,
+      "size": 11,
+      "kind": "code",
+      "sha256": "013932c78087edfc80f8bcac868c83bdc00ebef2fd8fbf80c519da2a5aa9b6e3",
+      "bindings": [
+        {
+          "symbol": "?SetOccasionalPing@RakPeer@@UAEX_N@Z",
+          "site_rva": 274102,
+          "kind": 20,
+          "target_va": 268666656
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_rakserver_control_leaves",
+      "section": 7,
+      "anchor": "?StopOccasionalPing@RakServer@@UAEXXZ",
+      "anchor_offset": 0,
+      "rva": 274112,
+      "size": 11,
+      "kind": "code",
+      "sha256": "d69e416674bce3d6945069f33342f1c0c4896a24ea0b3796c07e50b1bd854338",
+      "bindings": [
+        {
+          "symbol": "?SetOccasionalPing@RakPeer@@UAEX_N@Z",
+          "site_rva": 274118,
+          "kind": 20,
+          "target_va": 268666656
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_rakserver_control_leaves",
+      "section": 9,
+      "anchor": "?GetSynchronizedRandomInteger@RakServer@@UBEIXZ",
+      "anchor_offset": 0,
+      "rva": 274144,
+      "size": 7,
+      "kind": "code",
+      "sha256": "8dbc2c91a18c5a74c29b37171df5ee391f024c0255233027db4efd40d0f30ca5",
+      "bindings": []
+    },
+    {
+      "unit": "closure_vendor_rakserver_control_leaves",
+      "section": 11,
+      "anchor": "?StartSynchronizedRandomInteger@RakServer@@UAEXXZ",
+      "anchor_offset": 0,
+      "rva": 274160,
+      "size": 8,
+      "kind": "code",
+      "sha256": "ecfe78fe4aba6a4e44384cb47c6347edecfb8af86ec4bc5e8fcd673bff34b065",
+      "bindings": []
+    },
+    {
+      "unit": "closure_vendor_rakserver_control_leaves",
+      "section": 13,
+      "anchor": "?StopSynchronizedRandomInteger@RakServer@@UAEXXZ",
+      "anchor_offset": 0,
+      "rva": 274176,
+      "size": 8,
+      "kind": "code",
+      "sha256": "89b039aa795def07cb9866803e66ece59e6405cbc82769e668a800f3d5132b25",
+      "bindings": []
+    },
+    {
+      "unit": "closure_vendor_rakserver_control_leaves",
+      "section": 15,
+      "anchor": "?SetRelayStaticClientData@RakServer@@UAEX_N@Z",
+      "anchor_offset": 0,
+      "rva": 274896,
+      "size": 13,
+      "kind": "code",
+      "sha256": "1d8459487c7a4b5beb0ee879f0848e1cbe97acc1e47ad9a740a999580d44be34",
+      "bindings": []
+    },
+    {
+      "unit": "closure_vendor_rakclient_ping_control",
+      "section": 3,
+      "anchor": "?StartOccasionalPing@RakClient@@UAEXXZ",
+      "anchor_offset": 0,
+      "rva": 214160,
+      "size": 14,
+      "kind": "code",
+      "sha256": "0bb4dd944c050ad7cbcdc36cb6fdd48f5dee633dbfd3992b76d70297b9cb0b62",
+      "bindings": [
+        {
+          "symbol": "?SetOccasionalPing@RakPeer@@UAEX_N@Z",
+          "site_rva": 214169,
+          "kind": 20,
+          "target_va": 268666656
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_rakclient_ping_control",
+      "section": 5,
+      "anchor": "?StopOccasionalPing@RakClient@@UAEXXZ",
+      "anchor_offset": 0,
+      "rva": 214176,
+      "size": 14,
+      "kind": "code",
+      "sha256": "b8af82bf618e337aafca0faab5bbfa9b09c05b6335aaaa161021283e70f178b5",
+      "bindings": [
+        {
+          "symbol": "?SetOccasionalPing@RakPeer@@UAEX_N@Z",
+          "site_rva": 214185,
+          "kind": 20,
+          "target_va": 268666656
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_rakpeer_control_providers",
+      "section": 3,
+      "anchor": "?SetIncomingPassword@RakPeer@@UAEXPBDH@Z",
+      "anchor_offset": 0,
+      "rva": 230448,
+      "size": 79,
+      "kind": "code",
+      "sha256": "2eb67438640e2daab7448e1322a5fefd57d2365ee52de04e72fff77cc5451dd0",
+      "bindings": []
+    },
+    {
+      "unit": "closure_vendor_rakpeer_control_providers",
+      "section": 5,
+      "anchor": "?SetOccasionalPing@RakPeer@@UAEX_N@Z",
+      "anchor_offset": 0,
+      "rva": 231200,
+      "size": 10,
+      "kind": "code",
+      "sha256": "ae15ec81867cdc1e0e40122763e368f0413106a1640493a574e95c1965b87352",
+      "bindings": []
+    }
+  ],
+  "seeds": [
+    {
+      "unit": "closure_vendor_rakserver_control_leaves",
+      "symbol": "?SetPassword@RakServer@@UAEXPBD@Z",
+      "rva": 273536,
+      "size": 57
+    },
+    {
+      "unit": "closure_vendor_rakserver_control_leaves",
+      "symbol": "?StartOccasionalPing@RakServer@@UAEXXZ",
+      "rva": 274096,
+      "size": 11
+    },
+    {
+      "unit": "closure_vendor_rakserver_control_leaves",
+      "symbol": "?StopOccasionalPing@RakServer@@UAEXXZ",
+      "rva": 274112,
+      "size": 11
+    },
+    {
+      "unit": "closure_vendor_rakserver_control_leaves",
+      "symbol": "?GetSynchronizedRandomInteger@RakServer@@UBEIXZ",
+      "rva": 274144,
+      "size": 7
+    },
+    {
+      "unit": "closure_vendor_rakserver_control_leaves",
+      "symbol": "?StartSynchronizedRandomInteger@RakServer@@UAEXXZ",
+      "rva": 274160,
+      "size": 8
+    },
+    {
+      "unit": "closure_vendor_rakserver_control_leaves",
+      "symbol": "?StopSynchronizedRandomInteger@RakServer@@UAEXXZ",
+      "rva": 274176,
+      "size": 8
+    },
+    {
+      "unit": "closure_vendor_rakserver_control_leaves",
+      "symbol": "?SetRelayStaticClientData@RakServer@@UAEX_N@Z",
+      "rva": 274896,
+      "size": 13
+    },
+    {
+      "unit": "closure_vendor_rakclient_ping_control",
+      "symbol": "?StartOccasionalPing@RakClient@@UAEXXZ",
+      "rva": 214160,
+      "size": 14
+    },
+    {
+      "unit": "closure_vendor_rakclient_ping_control",
+      "symbol": "?StopOccasionalPing@RakClient@@UAEXXZ",
+      "rva": 214176,
+      "size": 14
+    },
+    {
+      "unit": "closure_vendor_rakpeer_control_providers",
+      "symbol": "?SetIncomingPassword@RakPeer@@UAEXPBDH@Z",
+      "rva": 230448,
+      "size": 79
+    },
+    {
+      "unit": "closure_vendor_rakpeer_control_providers",
+      "symbol": "?SetOccasionalPing@RakPeer@@UAEX_N@Z",
+      "rva": 231200,
+      "size": 10
+    }
+  ],
+  "new_unique_code": 143,
+  "object_sha256": {
+    "closure_vendor_rakserver_control_leaves": "19026e2430aab3c727a2a637528e490a5611a5fdfa5f7252c48857856a068af1",
+    "closure_vendor_rakclient_ping_control": "0e1bc4b8344e346095d1df517323b6c737d407205a935caee32b8e2cba8026fd",
+    "closure_vendor_rakpeer_control_providers": "3f2b88d4d77c7db971159472fdf0044fef10421d693b1d1edf93056fcaff6cf8"
+  },
+  "source_sha256": {
+    "closure_vendor_rakserver_control_leaves": "06b4b39bf5a1051f4586bd0417a411062b0c44b24373d4014951d4ab5eafded2",
+    "closure_vendor_rakclient_ping_control": "b3099b960b413119ac094d6933a2db5f8fc429b53bbface6b0747970f3aaffcf",
+    "closure_vendor_rakpeer_control_providers": "00720936a408cf471ee90eddd1f5f39e183871e630898271b8e8e038f563422a"
+  },
+  "dependencies": [
+    {
+      "caller": "?SetPassword@RakServer@@UAEXPBD@Z",
+      "symbol": "?SetIncomingPassword@RakPeer@@UAEXPBDH@Z",
+      "target_va": 268665904,
+      "actual_source_section": 0
+    },
+    {
+      "caller": "?SetPassword@RakServer@@UAEXPBD@Z",
+      "symbol": "?SetIncomingPassword@RakPeer@@UAEXPBDH@Z",
+      "target_va": 268665904,
+      "actual_source_section": 0
+    },
+    {
+      "caller": "?StartOccasionalPing@RakServer@@UAEXXZ",
+      "symbol": "?SetOccasionalPing@RakPeer@@UAEX_N@Z",
+      "target_va": 268666656,
+      "actual_source_section": 0
+    },
+    {
+      "caller": "?StopOccasionalPing@RakServer@@UAEXXZ",
+      "symbol": "?SetOccasionalPing@RakPeer@@UAEX_N@Z",
+      "target_va": 268666656,
+      "actual_source_section": 0
+    },
+    {
+      "caller": "?StartOccasionalPing@RakClient@@UAEXXZ",
+      "symbol": "?SetOccasionalPing@RakPeer@@UAEX_N@Z",
+      "target_va": 268666656,
+      "actual_source_section": 0
+    },
+    {
+      "caller": "?StopOccasionalPing@RakClient@@UAEXXZ",
+      "symbol": "?SetOccasionalPing@RakPeer@@UAEX_N@Z",
+      "target_va": 268666656,
+      "actual_source_section": 0
+    }
+  ],
+  "storage": "No referenced storage or CRT initializers. Every complete method, all COFF fixups and PE relocations checked. Source result is not linked acceptance."
+}

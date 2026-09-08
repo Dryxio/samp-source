@@ -1561,3 +1561,6 @@ Trial F complete, checkpoint paused: +4,247, total424,823. Strict30min +3,290; f
 
 
 pipeline-next-one: +409 unique code bytes, total425232/930756 (45.686732%). UI text120, axis glyph146, network control143. Real providers89 and UniBufferClear12 earn no duplicate credit. First fresh pinned-proposal pipeline acceptance; full byte/COFF/PE targets, negative controls and ABI PASS. Acceptance198.681s; no push/deployment.
+
+
+pipeline-next-two: +3526 unique R5 code bytes, total428758/930756 (46.065564%). EmailSender3395 (3374 methods+21 EH code), dialog95, attachment slot36. Full source/linked regions, actual COFF/PE targets, negative controls and ABI PASS. Two-batch run +3935; 11527 bytes/hour including coordination. See pipeline-next-report.json; no push/deployment.

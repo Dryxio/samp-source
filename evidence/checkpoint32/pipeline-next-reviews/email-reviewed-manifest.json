@@ -1,0 +1,1240 @@
+{
+  "status": "PASS_FULL_SOURCE_REGIONS_ALL_COFF_PE_TARGETS",
+  "run": "cp32-pipeline-next-candidates3",
+  "baseline": 425232,
+  "new_unique_code": 3395,
+  "already_covered_code": 0,
+  "regions": [
+    {
+      "unit": "closure_vendor_email_sender",
+      "section": 5,
+      "anchor": "?GetResponse@EmailSender@@IAEPADPAVTCPInterface@@ABUPlayerID@@_N@Z",
+      "anchor_offset": 0,
+      "rva": 173184,
+      "size": 297,
+      "kind": "code",
+      "sha256": "da05b00bcd9979be79be156a59ff27b6c33f7c1a26347db99e5b1a6e5d14e1e7",
+      "bindings": [
+        {
+          "symbol": "?GetTime@RakNet@@YAIXZ",
+          "site_rva": 173192,
+          "kind": 20,
+          "target_va": 268625904
+        },
+        {
+          "symbol": "?HasLostConnection@TCPInterface@@QAE?AUPlayerID@@XZ",
+          "site_rva": 173221,
+          "kind": 20,
+          "target_va": 268788336
+        },
+        {
+          "symbol": "??8PlayerID@@QBE_NABU0@@Z",
+          "site_rva": 173228,
+          "kind": 20,
+          "target_va": 268646112
+        },
+        {
+          "symbol": "?Receive@TCPInterface@@QAEPAUPacket@@XZ",
+          "site_rva": 173243,
+          "kind": 20,
+          "target_va": 268788128
+        },
+        {
+          "symbol": "??_C@_02DKCKIIND@?$CFs?$AA@",
+          "site_rva": 173266,
+          "kind": 6,
+          "target_va": 269378888
+        },
+        {
+          "symbol": "_printf",
+          "site_rva": 173271,
+          "kind": 20,
+          "target_va": 269251548
+        },
+        {
+          "symbol": "??_C@_03HJHPABEB@250?$AA@",
+          "site_rva": 173282,
+          "kind": 6,
+          "target_va": 269380340
+        },
+        {
+          "symbol": "_strstr",
+          "site_rva": 173288,
+          "kind": 20,
+          "target_va": 269250848
+        },
+        {
+          "symbol": "??_C@_03KFKPKDCA@354?$AA@",
+          "site_rva": 173303,
+          "kind": 6,
+          "target_va": 269380336
+        },
+        {
+          "symbol": "_strstr",
+          "site_rva": 173309,
+          "kind": 20,
+          "target_va": 269250848
+        },
+        {
+          "symbol": "??_C@_03OEKIDJPI@550?$AA@",
+          "site_rva": 173324,
+          "kind": 6,
+          "target_va": 269380332
+        },
+        {
+          "symbol": "_strstr",
+          "site_rva": 173330,
+          "kind": 20,
+          "target_va": 269250848
+        },
+        {
+          "symbol": "??_C@_03MPIFGKDL@553?$AA@",
+          "site_rva": 173345,
+          "kind": 6,
+          "target_va": 269380328
+        },
+        {
+          "symbol": "_strstr",
+          "site_rva": 173351,
+          "kind": 20,
+          "target_va": 269250848
+        },
+        {
+          "symbol": "?GetTime@RakNet@@YAIXZ",
+          "site_rva": 173363,
+          "kind": 20,
+          "target_va": 268625904
+        },
+        {
+          "symbol": "?RakSleep@@YAXI@Z",
+          "site_rva": 173374,
+          "kind": 20,
+          "target_va": 268712608
+        },
+        {
+          "symbol": "?HasLostConnection@TCPInterface@@QAE?AUPlayerID@@XZ",
+          "site_rva": 173390,
+          "kind": 20,
+          "target_va": 268788336
+        },
+        {
+          "symbol": "??8PlayerID@@QBE_NABU0@@Z",
+          "site_rva": 173397,
+          "kind": 20,
+          "target_va": 268646112
+        },
+        {
+          "symbol": "??_C@_0BL@HOIDLJBI@Connection?5to?5server?5lost?4?$AA@",
+          "site_rva": 173413,
+          "kind": 6,
+          "target_va": 269380300
+        },
+        {
+          "symbol": "??_C@_0BJ@JKOAHELK@Failed?5on?5error?5code?5550?$AA@",
+          "site_rva": 173440,
+          "kind": 6,
+          "target_va": 269380272
+        },
+        {
+          "symbol": "??_C@_0BJ@LBMNCHHJ@Failed?5on?5error?5code?5553?$AA@",
+          "site_rva": 173455,
+          "kind": 6,
+          "target_va": 269380244
+        },
+        {
+          "symbol": "??_C@_09OGKCMDDI@Timed?5out?$AA@",
+          "site_rva": 173470,
+          "kind": 6,
+          "target_va": 269380232
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_email_sender",
+      "section": 6,
+      "anchor": "??_C@_09OGKCMDDI@Timed?5out?$AA@",
+      "anchor_offset": 0,
+      "rva": 944776,
+      "size": 10,
+      "kind": "data",
+      "sha256": "f14a5c3501e38cf3247444d7bc8c87831e9b8e8ed7658035e0ed66843b16f9c9",
+      "bindings": []
+    },
+    {
+      "unit": "closure_vendor_email_sender",
+      "section": 7,
+      "anchor": "??_C@_0BJ@LBMNCHHJ@Failed?5on?5error?5code?5553?$AA@",
+      "anchor_offset": 0,
+      "rva": 944788,
+      "size": 25,
+      "kind": "data",
+      "sha256": "2f146375c20f6bdffd561540eac60d24168d72c3c98d1d6825ac95f892da8cb3",
+      "bindings": []
+    },
+    {
+      "unit": "closure_vendor_email_sender",
+      "section": 8,
+      "anchor": "??_C@_0BJ@JKOAHELK@Failed?5on?5error?5code?5550?$AA@",
+      "anchor_offset": 0,
+      "rva": 944816,
+      "size": 25,
+      "kind": "data",
+      "sha256": "8ba7dc7f3018644bbf3869760a2d5bb8f84590cf9405f09f0e65b53fb72c76de",
+      "bindings": []
+    },
+    {
+      "unit": "closure_vendor_email_sender",
+      "section": 9,
+      "anchor": "??_C@_0BL@HOIDLJBI@Connection?5to?5server?5lost?4?$AA@",
+      "anchor_offset": 0,
+      "rva": 944844,
+      "size": 27,
+      "kind": "data",
+      "sha256": "a65244665383a37131318e9582a6ba4505d7336959fdb84d0b79c411e5217eef",
+      "bindings": []
+    },
+    {
+      "unit": "closure_vendor_email_sender",
+      "section": 10,
+      "anchor": "??_C@_03MPIFGKDL@553?$AA@",
+      "anchor_offset": 0,
+      "rva": 944872,
+      "size": 4,
+      "kind": "data",
+      "sha256": "83c224252222fd0e623f7fd190926876f7abc1a5d5c17e715a541ba8385b9eb8",
+      "bindings": []
+    },
+    {
+      "unit": "closure_vendor_email_sender",
+      "section": 11,
+      "anchor": "??_C@_03OEKIDJPI@550?$AA@",
+      "anchor_offset": 0,
+      "rva": 944876,
+      "size": 4,
+      "kind": "data",
+      "sha256": "da3a192920050f6f67f887409995c5e6c2b653d70a765214762d55bbdf110882",
+      "bindings": []
+    },
+    {
+      "unit": "closure_vendor_email_sender",
+      "section": 12,
+      "anchor": "??_C@_03KFKPKDCA@354?$AA@",
+      "anchor_offset": 0,
+      "rva": 944880,
+      "size": 4,
+      "kind": "data",
+      "sha256": "38a7c2a13bee03edad992ce7f75fdfe73a52811e1160d9ffa4295781bb25eeda",
+      "bindings": []
+    },
+    {
+      "unit": "closure_vendor_email_sender",
+      "section": 13,
+      "anchor": "??_C@_03HJHPABEB@250?$AA@",
+      "anchor_offset": 0,
+      "rva": 944884,
+      "size": 4,
+      "kind": "data",
+      "sha256": "7f5c3799ba51f3e25873e71cac19f5323a183f14b7d9e13ca9f0ab88b1d3cea2",
+      "bindings": []
+    },
+    {
+      "unit": "closure_vendor_email_sender",
+      "section": 14,
+      "anchor": "??_C@_02DKCKIIND@?$CFs?$AA@",
+      "anchor_offset": 0,
+      "rva": 943432,
+      "size": 3,
+      "kind": "data",
+      "sha256": "2f3a3f9b55f5df846abf81c7d13ff74998bdda8664df664173220675150020ff",
+      "bindings": []
+    },
+    {
+      "unit": "closure_vendor_email_sender",
+      "section": 16,
+      "anchor": "?Base64Encoding@EmailSender@@QAEHPBDHPAD0@Z",
+      "anchor_offset": 0,
+      "rva": 173488,
+      "size": 541,
+      "kind": "code",
+      "sha256": "631e52cb53e3c1a1b2818da8cb1ab97978c9e5afca86190fe723d06d4dcef9f5",
+      "bindings": []
+    },
+    {
+      "unit": "closure_vendor_email_sender",
+      "section": 22,
+      "anchor": "?Send@EmailSender@@QAEPADPBDG000000PAVFileList@@_N@Z",
+      "anchor_offset": 0,
+      "rva": 174048,
+      "size": 2536,
+      "kind": "code",
+      "sha256": "373ec0963382b300478800c562795a36d28e9456f46f3a554728a6cf728c1297",
+      "bindings": [
+        {
+          "symbol": "__ehhandler$?Send@EmailSender@@QAEPADPBDG000000PAVFileList@@_N@Z",
+          "site_rva": 174051,
+          "kind": 6,
+          "target_va": 269360635
+        },
+        {
+          "symbol": "__except_list",
+          "site_rva": 174057,
+          "kind": 6,
+          "target_va": 0
+        },
+        {
+          "symbol": "__except_list",
+          "site_rva": 174065,
+          "kind": 6,
+          "target_va": 0
+        },
+        {
+          "symbol": "??0TCPInterface@@QAE@XZ",
+          "site_rva": 174090,
+          "kind": 20,
+          "target_va": 268787296
+        },
+        {
+          "symbol": "?Start@TCPInterface@@QAE_NGG@Z",
+          "site_rva": 174114,
+          "kind": 20,
+          "target_va": 268789888
+        },
+        {
+          "symbol": "??1TCPInterface@@QAE@XZ",
+          "site_rva": 174138,
+          "kind": 20,
+          "target_va": 268788480
+        },
+        {
+          "symbol": "??_C@_0BL@JFJLFONC@Unknown?5error?5starting?5TCP?$AA@",
+          "site_rva": 174143,
+          "kind": 6,
+          "target_va": 269380976
+        },
+        {
+          "symbol": "?Connect@TCPInterface@@QAE?AUPlayerID@@PBDG@Z",
+          "site_rva": 174181,
+          "kind": 20,
+          "target_va": 268787696
+        },
+        {
+          "symbol": "_UNASSIGNED_PLAYER_ID",
+          "site_rva": 174196,
+          "kind": 6,
+          "target_va": 269477504
+        },
+        {
+          "symbol": "??8PlayerID@@QBE_NABU0@@Z",
+          "site_rva": 174210,
+          "kind": 20,
+          "target_va": 268646112
+        },
+        {
+          "symbol": "??1TCPInterface@@QAE@XZ",
+          "site_rva": 174234,
+          "kind": 20,
+          "target_va": 268788480
+        },
+        {
+          "symbol": "??_C@_0BK@HBOBHECK@Failed?5to?5connect?5to?5host?$AA@",
+          "site_rva": 174239,
+          "kind": 6,
+          "target_va": 269380948
+        },
+        {
+          "symbol": "?GetTime@RakNet@@YAIXZ",
+          "site_rva": 174249,
+          "kind": 20,
+          "target_va": 268625904
+        },
+        {
+          "symbol": "?GetTime@RakNet@@YAIXZ",
+          "site_rva": 174262,
+          "kind": 20,
+          "target_va": 268625904
+        },
+        {
+          "symbol": "?Receive@TCPInterface@@QAEPAUPacket@@XZ",
+          "site_rva": 174277,
+          "kind": 20,
+          "target_va": 268788128
+        },
+        {
+          "symbol": "?RakSleep@@YAXI@Z",
+          "site_rva": 174293,
+          "kind": 20,
+          "target_va": 268712608
+        },
+        {
+          "symbol": "?GetTime@RakNet@@YAIXZ",
+          "site_rva": 174301,
+          "kind": 20,
+          "target_va": 268625904
+        },
+        {
+          "symbol": "??_C@_02DKCKIIND@?$CFs?$AA@",
+          "site_rva": 174334,
+          "kind": 6,
+          "target_va": 269378888
+        },
+        {
+          "symbol": "_printf",
+          "site_rva": 174339,
+          "kind": 20,
+          "target_va": 269251548
+        },
+        {
+          "symbol": "??1TCPInterface@@QAE@XZ",
+          "site_rva": 174366,
+          "kind": 20,
+          "target_va": 268788480
+        },
+        {
+          "symbol": "??_C@_0DE@IJKMDCLC@Timeout?5while?5waiting?5for?5initia@",
+          "site_rva": 174371,
+          "kind": 6,
+          "target_va": 269380896
+        },
+        {
+          "symbol": "??_C@_06OGKBAGLK@HELO?$AN?6?$AA@",
+          "site_rva": 174403,
+          "kind": 6,
+          "target_va": 269380888
+        },
+        {
+          "symbol": "?Send@TCPInterface@@QAEXPBDIUPlayerID@@@Z",
+          "site_rva": 174412,
+          "kind": 20,
+          "target_va": 268788016
+        },
+        {
+          "symbol": "?GetResponse@EmailSender@@IAEPADPAVTCPInterface@@ABUPlayerID@@_N@Z",
+          "site_rva": 174430,
+          "kind": 20,
+          "target_va": 268608640
+        },
+        {
+          "symbol": "??_C@_0BC@KOBLNCCF@MAIL?5From?3?5?$DM?$CFs?$DO?$AN?6?$AA@",
+          "site_rva": 174464,
+          "kind": 6,
+          "target_va": 269380868
+        },
+        {
+          "symbol": "_sprintf",
+          "site_rva": 174470,
+          "kind": 20,
+          "target_va": 269251411
+        },
+        {
+          "symbol": "??_C@_0BA@BOEBHIHF@MAIL?5From?3?5?$DM?$DO?$AN?6?$AA@",
+          "site_rva": 174487,
+          "kind": 6,
+          "target_va": 269380852
+        },
+        {
+          "symbol": "_sprintf",
+          "site_rva": 174493,
+          "kind": 20,
+          "target_va": 269251411
+        },
+        {
+          "symbol": "?Send@TCPInterface@@QAEXPBDIUPlayerID@@@Z",
+          "site_rva": 174555,
+          "kind": 20,
+          "target_va": 268788016
+        },
+        {
+          "symbol": "?GetResponse@EmailSender@@IAEPADPAVTCPInterface@@ABUPlayerID@@_N@Z",
+          "site_rva": 174573,
+          "kind": 20,
+          "target_va": 268608640
+        },
+        {
+          "symbol": "??_C@_0BA@PAJOOKEN@RCPT?5TO?3?5?$DM?$CFs?$DO?$AN?6?$AA@",
+          "site_rva": 174607,
+          "kind": 6,
+          "target_va": 269380836
+        },
+        {
+          "symbol": "_sprintf",
+          "site_rva": 174613,
+          "kind": 20,
+          "target_va": 269251411
+        },
+        {
+          "symbol": "??_C@_0O@BIJBNMK@RCPT?5TO?3?5?$DM?$DO?$AN?6?$AA@",
+          "site_rva": 174630,
+          "kind": 6,
+          "target_va": 269380820
+        },
+        {
+          "symbol": "_sprintf",
+          "site_rva": 174636,
+          "kind": 20,
+          "target_va": 269251411
+        },
+        {
+          "symbol": "?Send@TCPInterface@@QAEXPBDIUPlayerID@@@Z",
+          "site_rva": 174699,
+          "kind": 20,
+          "target_va": 268788016
+        },
+        {
+          "symbol": "?GetResponse@EmailSender@@IAEPADPAVTCPInterface@@ABUPlayerID@@_N@Z",
+          "site_rva": 174717,
+          "kind": 20,
+          "target_va": 268608640
+        },
+        {
+          "symbol": "??_C@_06KNPIFKI@DATA?$AN?6?$AA@",
+          "site_rva": 174750,
+          "kind": 6,
+          "target_va": 269380812
+        },
+        {
+          "symbol": "?Send@TCPInterface@@QAEXPBDIUPlayerID@@@Z",
+          "site_rva": 174763,
+          "kind": 20,
+          "target_va": 268788016
+        },
+        {
+          "symbol": "?GetResponse@EmailSender@@IAEPADPAVTCPInterface@@ABUPlayerID@@_N@Z",
+          "site_rva": 174781,
+          "kind": 20,
+          "target_va": 268608640
+        },
+        {
+          "symbol": "??_C@_0O@FHPOFNAI@Subject?3?5?$CFs?$AN?6?$AA@",
+          "site_rva": 174815,
+          "kind": 6,
+          "target_va": 269380796
+        },
+        {
+          "symbol": "_sprintf",
+          "site_rva": 174821,
+          "kind": 20,
+          "target_va": 269251411
+        },
+        {
+          "symbol": "?Send@TCPInterface@@QAEXPBDIUPlayerID@@@Z",
+          "site_rva": 174881,
+          "kind": 20,
+          "target_va": 268788016
+        },
+        {
+          "symbol": "??_C@_0L@BJCOBIPA@From?3?5?$CFs?$AN?6?$AA@",
+          "site_rva": 174905,
+          "kind": 6,
+          "target_va": 269380784
+        },
+        {
+          "symbol": "_sprintf",
+          "site_rva": 174911,
+          "kind": 20,
+          "target_va": 269251411
+        },
+        {
+          "symbol": "?Send@TCPInterface@@QAEXPBDIUPlayerID@@@Z",
+          "site_rva": 174971,
+          "kind": 20,
+          "target_va": 268788016
+        },
+        {
+          "symbol": "??_C@_08LGKAGCMJ@To?3?5?$CFs?$AN?6?$AA@",
+          "site_rva": 174995,
+          "kind": 6,
+          "target_va": 269380772
+        },
+        {
+          "symbol": "_sprintf",
+          "site_rva": 175001,
+          "kind": 20,
+          "target_va": 269251411
+        },
+        {
+          "symbol": "?Send@TCPInterface@@QAEXPBDIUPlayerID@@@Z",
+          "site_rva": 175067,
+          "kind": 20,
+          "target_va": 268788016
+        },
+        {
+          "symbol": "??_C@_0EB@NFPJKBDG@ABCDEFGHIJKLMNOPQRSTUVWXYZabcdef@",
+          "site_rva": 175086,
+          "kind": 6,
+          "target_va": 269380704
+        },
+        {
+          "symbol": "?GetTime@RakNet@@YAIXZ",
+          "site_rva": 175110,
+          "kind": 20,
+          "target_va": 268625904
+        },
+        {
+          "symbol": "?seedMT@@YAXI@Z",
+          "site_rva": 175116,
+          "kind": 20,
+          "target_va": 268712624
+        },
+        {
+          "symbol": "?randomMT@@YAIXZ",
+          "site_rva": 175126,
+          "kind": 20,
+          "target_va": 268712960
+        },
+        {
+          "symbol": "??_C@_0BE@EMHINEHA@MIME?9version?3?51?40?$AN?6?$AA@",
+          "site_rva": 175169,
+          "kind": 6,
+          "target_va": 269380680
+        },
+        {
+          "symbol": "_sprintf",
+          "site_rva": 175175,
+          "kind": 20,
+          "target_va": 269251411
+        },
+        {
+          "symbol": "?Send@TCPInterface@@QAEXPBDIUPlayerID@@@Z",
+          "site_rva": 175235,
+          "kind": 20,
+          "target_va": 268788016
+        },
+        {
+          "symbol": "??_C@_0DB@ECCABOFN@Content?9type?3?5multipart?1mixed?$DL?5B@",
+          "site_rva": 175274,
+          "kind": 6,
+          "target_va": 269380628
+        },
+        {
+          "symbol": "_sprintf",
+          "site_rva": 175280,
+          "kind": 20,
+          "target_va": 269251411
+        },
+        {
+          "symbol": "?Send@TCPInterface@@QAEXPBDIUPlayerID@@@Z",
+          "site_rva": 175340,
+          "kind": 20,
+          "target_va": 268788016
+        },
+        {
+          "symbol": "??_C@_0DH@NEAHFABD@This?5is?5a?5multi?9part?5message?5in?5@",
+          "site_rva": 175360,
+          "kind": 6,
+          "target_va": 269380572
+        },
+        {
+          "symbol": "_sprintf",
+          "site_rva": 175366,
+          "kind": 20,
+          "target_va": 269251411
+        },
+        {
+          "symbol": "?Send@TCPInterface@@QAEXPBDIUPlayerID@@@Z",
+          "site_rva": 175426,
+          "kind": 20,
+          "target_va": 268788016
+        },
+        {
+          "symbol": "??_C@_0DB@FKLLMGFB@Content?9Type?3?5text?1plain?$DL?5charse@",
+          "site_rva": 175438,
+          "kind": 6,
+          "target_va": 269380520
+        },
+        {
+          "symbol": "_sprintf",
+          "site_rva": 175444,
+          "kind": 20,
+          "target_va": 269251411
+        },
+        {
+          "symbol": "?Send@TCPInterface@@QAEXPBDIUPlayerID@@@Z",
+          "site_rva": 175504,
+          "kind": 20,
+          "target_va": 268788016
+        },
+        {
+          "symbol": "??2@YAPAXI@Z",
+          "site_rva": 175541,
+          "kind": 20,
+          "target_va": 269247098
+        },
+        {
+          "symbol": "?Send@TCPInterface@@QAEXPBDIUPlayerID@@@Z",
+          "site_rva": 175874,
+          "kind": 20,
+          "target_va": 268788016
+        },
+        {
+          "symbol": "??3@YAXPAX@Z",
+          "site_rva": 175880,
+          "kind": 20,
+          "target_va": 269247626
+        },
+        {
+          "symbol": "??_C@_08OOLNIKKF@?$AN?6?9?9?$CFs?$AN?6?$AA@",
+          "site_rva": 175936,
+          "kind": 6,
+          "target_va": 269380508
+        },
+        {
+          "symbol": "_sprintf",
+          "site_rva": 175942,
+          "kind": 20,
+          "target_va": 269251411
+        },
+        {
+          "symbol": "?Send@TCPInterface@@QAEXPBDIUPlayerID@@@Z",
+          "site_rva": 176002,
+          "kind": 20,
+          "target_va": 268788016
+        },
+        {
+          "symbol": "??_C@_0IB@POOHHMMF@Content?9Type?3?5APPLICATION?1Octet?9@",
+          "site_rva": 176028,
+          "kind": 6,
+          "target_va": 269380376
+        },
+        {
+          "symbol": "_sprintf",
+          "site_rva": 176034,
+          "kind": 20,
+          "target_va": 269251411
+        },
+        {
+          "symbol": "?Send@TCPInterface@@QAEXPBDIUPlayerID@@@Z",
+          "site_rva": 176094,
+          "kind": 20,
+          "target_va": 268788016
+        },
+        {
+          "symbol": "??2@YAPAXI@Z",
+          "site_rva": 176111,
+          "kind": 20,
+          "target_va": 269247098
+        },
+        {
+          "symbol": "?Base64Encoding@EmailSender@@QAEHPBDHPAD0@Z",
+          "site_rva": 176147,
+          "kind": 20,
+          "target_va": 268608944
+        },
+        {
+          "symbol": "?Send@TCPInterface@@QAEXPBDIUPlayerID@@@Z",
+          "site_rva": 176178,
+          "kind": 20,
+          "target_va": 268788016
+        },
+        {
+          "symbol": "??3@YAXPAX@Z",
+          "site_rva": 176184,
+          "kind": 20,
+          "target_va": 269247626
+        },
+        {
+          "symbol": "??_C@_0L@NAAOAPHF@?$AN?6?9?9?$CFs?9?9?$AN?6?$AA@",
+          "site_rva": 176222,
+          "kind": 6,
+          "target_va": 269380360
+        },
+        {
+          "symbol": "_sprintf",
+          "site_rva": 176228,
+          "kind": 20,
+          "target_va": 269251411
+        },
+        {
+          "symbol": "?Send@TCPInterface@@QAEXPBDIUPlayerID@@@Z",
+          "site_rva": 176288,
+          "kind": 20,
+          "target_va": 268788016
+        },
+        {
+          "symbol": "??_C@_05KMJPGPH@?$AN?6?4?$AN?6?$AA@",
+          "site_rva": 176300,
+          "kind": 6,
+          "target_va": 269380352
+        },
+        {
+          "symbol": "_sprintf",
+          "site_rva": 176306,
+          "kind": 20,
+          "target_va": 269251411
+        },
+        {
+          "symbol": "?Send@TCPInterface@@QAEXPBDIUPlayerID@@@Z",
+          "site_rva": 176366,
+          "kind": 20,
+          "target_va": 268788016
+        },
+        {
+          "symbol": "?GetResponse@EmailSender@@IAEPADPAVTCPInterface@@ABUPlayerID@@_N@Z",
+          "site_rva": 176393,
+          "kind": 20,
+          "target_va": 268608640
+        },
+        {
+          "symbol": "??1TCPInterface@@QAE@XZ",
+          "site_rva": 176419,
+          "kind": 20,
+          "target_va": 268788480
+        },
+        {
+          "symbol": "??_C@_06FIMJICNC@QUIT?$AN?6?$AA@",
+          "site_rva": 176449,
+          "kind": 6,
+          "target_va": 269380344
+        },
+        {
+          "symbol": "?Send@TCPInterface@@QAEXPBDIUPlayerID@@@Z",
+          "site_rva": 176462,
+          "kind": 20,
+          "target_va": 268788016
+        },
+        {
+          "symbol": "?RakSleep@@YAXI@Z",
+          "site_rva": 176469,
+          "kind": 20,
+          "target_va": 268712608
+        },
+        {
+          "symbol": "?Receive@TCPInterface@@QAEPAUPacket@@XZ",
+          "site_rva": 176485,
+          "kind": 20,
+          "target_va": 268788128
+        },
+        {
+          "symbol": "??_C@_02DKCKIIND@?$CFs?$AA@",
+          "site_rva": 176501,
+          "kind": 6,
+          "target_va": 269378888
+        },
+        {
+          "symbol": "_printf",
+          "site_rva": 176506,
+          "kind": 20,
+          "target_va": 269251548
+        },
+        {
+          "symbol": "?Receive@TCPInterface@@QAEPAUPacket@@XZ",
+          "site_rva": 176518,
+          "kind": 20,
+          "target_va": 268788128
+        },
+        {
+          "symbol": "?Stop@TCPInterface@@QAEXXZ",
+          "site_rva": 176531,
+          "kind": 20,
+          "target_va": 268787504
+        },
+        {
+          "symbol": "??1TCPInterface@@QAE@XZ",
+          "site_rva": 176551,
+          "kind": 20,
+          "target_va": 268788480
+        },
+        {
+          "symbol": "__except_list",
+          "site_rva": 176570,
+          "kind": 6,
+          "target_va": 0
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_email_sender",
+      "section": 23,
+      "anchor": "$L57833",
+      "anchor_offset": 0,
+      "rva": 925168,
+      "size": 21,
+      "kind": "code",
+      "sha256": "240bea141b843c4ce8c6f59112d58a936e21153d9ebcd80706c750aa641a276b",
+      "bindings": [
+        {
+          "symbol": "??1TCPInterface@@QAE@XZ",
+          "site_rva": 925175,
+          "kind": 20,
+          "target_va": 268788480
+        },
+        {
+          "symbol": "$T57875",
+          "site_rva": 925180,
+          "kind": 6,
+          "target_va": 269457972
+        },
+        {
+          "symbol": "___CxxFrameHandler",
+          "site_rva": 925185,
+          "kind": 20,
+          "target_va": 269247782
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_email_sender",
+      "section": 24,
+      "anchor": "??_C@_06FIMJICNC@QUIT?$AN?6?$AA@",
+      "anchor_offset": 0,
+      "rva": 944888,
+      "size": 7,
+      "kind": "data",
+      "sha256": "28f8bdd05d5a1fb192f8d42b804e81946420c922de25cef467ab1cd8dcacec56",
+      "bindings": []
+    },
+    {
+      "unit": "closure_vendor_email_sender",
+      "section": 25,
+      "anchor": "??_C@_05KMJPGPH@?$AN?6?4?$AN?6?$AA@",
+      "anchor_offset": 0,
+      "rva": 944896,
+      "size": 6,
+      "kind": "data",
+      "sha256": "ebb63ca616b685524f102b6cfb6b682ea9df80eb4957c6f49e650a48516d72f1",
+      "bindings": []
+    },
+    {
+      "unit": "closure_vendor_email_sender",
+      "section": 26,
+      "anchor": "??_C@_0L@NAAOAPHF@?$AN?6?9?9?$CFs?9?9?$AN?6?$AA@",
+      "anchor_offset": 0,
+      "rva": 944904,
+      "size": 11,
+      "kind": "data",
+      "sha256": "eaa369ab38e4fbcc223e2d17f1b23474711581d7f134e3121585aae056ecef51",
+      "bindings": []
+    },
+    {
+      "unit": "closure_vendor_email_sender",
+      "section": 27,
+      "anchor": "??_C@_0IB@POOHHMMF@Content?9Type?3?5APPLICATION?1Octet?9@",
+      "anchor_offset": 0,
+      "rva": 944920,
+      "size": 129,
+      "kind": "data",
+      "sha256": "72c56a3046476fe14792431e2a7cc72e43764fe2ecceb975eea491a346a50bf7",
+      "bindings": []
+    },
+    {
+      "unit": "closure_vendor_email_sender",
+      "section": 28,
+      "anchor": "??_C@_08OOLNIKKF@?$AN?6?9?9?$CFs?$AN?6?$AA@",
+      "anchor_offset": 0,
+      "rva": 945052,
+      "size": 9,
+      "kind": "data",
+      "sha256": "d89385a9868c8faa34b7a925c43027a8e0bac41ad201f62ae5f0825a821b9fb1",
+      "bindings": []
+    },
+    {
+      "unit": "closure_vendor_email_sender",
+      "section": 29,
+      "anchor": "??_C@_0DB@FKLLMGFB@Content?9Type?3?5text?1plain?$DL?5charse@",
+      "anchor_offset": 0,
+      "rva": 945064,
+      "size": 49,
+      "kind": "data",
+      "sha256": "7e943431738c69dd769f224b966c08ea61fb5371a3e6158294dd52650ad1b087",
+      "bindings": []
+    },
+    {
+      "unit": "closure_vendor_email_sender",
+      "section": 30,
+      "anchor": "??_C@_0DH@NEAHFABD@This?5is?5a?5multi?9part?5message?5in?5@",
+      "anchor_offset": 0,
+      "rva": 945116,
+      "size": 55,
+      "kind": "data",
+      "sha256": "87264864b9304f377c45e8e374b664bdeb654f0f52895687b85bd1495e30c797",
+      "bindings": []
+    },
+    {
+      "unit": "closure_vendor_email_sender",
+      "section": 31,
+      "anchor": "??_C@_0DB@ECCABOFN@Content?9type?3?5multipart?1mixed?$DL?5B@",
+      "anchor_offset": 0,
+      "rva": 945172,
+      "size": 49,
+      "kind": "data",
+      "sha256": "1169b585a9f854edf75a465e65206ce238fc51b077c3ca15d764a2da4c178c0d",
+      "bindings": []
+    },
+    {
+      "unit": "closure_vendor_email_sender",
+      "section": 32,
+      "anchor": "??_C@_0BE@EMHINEHA@MIME?9version?3?51?40?$AN?6?$AA@",
+      "anchor_offset": 0,
+      "rva": 945224,
+      "size": 20,
+      "kind": "data",
+      "sha256": "ddabb205ad3170dda94e89a81b541b9758eb4b0aef2eadb0cb2bf62a42ae9af7",
+      "bindings": []
+    },
+    {
+      "unit": "closure_vendor_email_sender",
+      "section": 33,
+      "anchor": "??_C@_0EB@NFPJKBDG@ABCDEFGHIJKLMNOPQRSTUVWXYZabcdef@",
+      "anchor_offset": 0,
+      "rva": 945248,
+      "size": 65,
+      "kind": "data",
+      "sha256": "b549d027496b9c80494809966f74ebf09c8a21512d7f2152230a26ac65016653",
+      "bindings": []
+    },
+    {
+      "unit": "closure_vendor_email_sender",
+      "section": 34,
+      "anchor": "??_C@_08LGKAGCMJ@To?3?5?$CFs?$AN?6?$AA@",
+      "anchor_offset": 0,
+      "rva": 945316,
+      "size": 9,
+      "kind": "data",
+      "sha256": "3ce5e16c8e337314c92778e37070d5d227655ce43e97fdc41effbc70c2012c0c",
+      "bindings": []
+    },
+    {
+      "unit": "closure_vendor_email_sender",
+      "section": 35,
+      "anchor": "??_C@_0L@BJCOBIPA@From?3?5?$CFs?$AN?6?$AA@",
+      "anchor_offset": 0,
+      "rva": 945328,
+      "size": 11,
+      "kind": "data",
+      "sha256": "c4204ee09ebf719a4c2b442724739607882226195d55ae29f8299e9b0e2ea241",
+      "bindings": []
+    },
+    {
+      "unit": "closure_vendor_email_sender",
+      "section": 36,
+      "anchor": "??_C@_0O@FHPOFNAI@Subject?3?5?$CFs?$AN?6?$AA@",
+      "anchor_offset": 0,
+      "rva": 945340,
+      "size": 14,
+      "kind": "data",
+      "sha256": "1278cf2b7c0368225e9d91b4b1af430594d95fcce1d7de3021acc3da68a34e0d",
+      "bindings": []
+    },
+    {
+      "unit": "closure_vendor_email_sender",
+      "section": 37,
+      "anchor": "??_C@_06KNPIFKI@DATA?$AN?6?$AA@",
+      "anchor_offset": 0,
+      "rva": 945356,
+      "size": 7,
+      "kind": "data",
+      "sha256": "6c11329acdfa90cb6939eb8175f594d5c7cc704c34a289e70019ce8fdedcbf7e",
+      "bindings": []
+    },
+    {
+      "unit": "closure_vendor_email_sender",
+      "section": 38,
+      "anchor": "??_C@_0O@BIJBNMK@RCPT?5TO?3?5?$DM?$DO?$AN?6?$AA@",
+      "anchor_offset": 0,
+      "rva": 945364,
+      "size": 14,
+      "kind": "data",
+      "sha256": "9a7de7d8b80bac5a8eb2d5ace7de77a29c09300c0196efc73fe402f7eb52f112",
+      "bindings": []
+    },
+    {
+      "unit": "closure_vendor_email_sender",
+      "section": 39,
+      "anchor": "??_C@_0BA@PAJOOKEN@RCPT?5TO?3?5?$DM?$CFs?$DO?$AN?6?$AA@",
+      "anchor_offset": 0,
+      "rva": 945380,
+      "size": 16,
+      "kind": "data",
+      "sha256": "86846797d8f16337a92204090e938e80ad0a96769a7d7242581b55d142b119db",
+      "bindings": []
+    },
+    {
+      "unit": "closure_vendor_email_sender",
+      "section": 40,
+      "anchor": "??_C@_0BA@BOEBHIHF@MAIL?5From?3?5?$DM?$DO?$AN?6?$AA@",
+      "anchor_offset": 0,
+      "rva": 945396,
+      "size": 16,
+      "kind": "data",
+      "sha256": "0c7cf6cb3117a12db1089bab02e48b50aebde342290818eee583385cac9d76ce",
+      "bindings": []
+    },
+    {
+      "unit": "closure_vendor_email_sender",
+      "section": 41,
+      "anchor": "??_C@_0BC@KOBLNCCF@MAIL?5From?3?5?$DM?$CFs?$DO?$AN?6?$AA@",
+      "anchor_offset": 0,
+      "rva": 945412,
+      "size": 18,
+      "kind": "data",
+      "sha256": "6d0d4c89732ed44f8f5ba93ddf50b97775e90cfe9e9d80f61901e281385ee8de",
+      "bindings": []
+    },
+    {
+      "unit": "closure_vendor_email_sender",
+      "section": 42,
+      "anchor": "??_C@_06OGKBAGLK@HELO?$AN?6?$AA@",
+      "anchor_offset": 0,
+      "rva": 945432,
+      "size": 7,
+      "kind": "data",
+      "sha256": "1f209a7304c3bb4c0754bd11f2411bb9c8738deb722d5ecda97f19b83462b5bd",
+      "bindings": []
+    },
+    {
+      "unit": "closure_vendor_email_sender",
+      "section": 43,
+      "anchor": "??_C@_0DE@IJKMDCLC@Timeout?5while?5waiting?5for?5initia@",
+      "anchor_offset": 0,
+      "rva": 945440,
+      "size": 52,
+      "kind": "data",
+      "sha256": "7cc7a17eb37c5f3a34ded473290748ac3d41699b72427d69812d892edd9d221e",
+      "bindings": []
+    },
+    {
+      "unit": "closure_vendor_email_sender",
+      "section": 44,
+      "anchor": "??_C@_0BK@HBOBHECK@Failed?5to?5connect?5to?5host?$AA@",
+      "anchor_offset": 0,
+      "rva": 945492,
+      "size": 26,
+      "kind": "data",
+      "sha256": "3284eb883653faa006e587691e88ea5b98df69e7649b93ad7a5b83972ae18388",
+      "bindings": []
+    },
+    {
+      "unit": "closure_vendor_email_sender",
+      "section": 45,
+      "anchor": "??_C@_0BL@JFJLFONC@Unknown?5error?5starting?5TCP?$AA@",
+      "anchor_offset": 0,
+      "rva": 945520,
+      "size": 27,
+      "kind": "data",
+      "sha256": "5b93d9aa23ae28991ed18a21138beb1b5da1919d3a0be5410ef0272ab231ec3d",
+      "bindings": []
+    },
+    {
+      "unit": "closure_vendor_email_sender",
+      "section": 46,
+      "anchor": "$T57875",
+      "anchor_offset": 8,
+      "rva": 1022508,
+      "size": 36,
+      "kind": "data",
+      "sha256": "acc36420b08629586313bec49be77975807f784823a249a8541bc72eac4e684e",
+      "bindings": [
+        {
+          "symbol": "$L57833",
+          "site_rva": 1022512,
+          "kind": 6,
+          "target_va": 269360624
+        },
+        {
+          "symbol": "$T57906",
+          "site_rva": 1022524,
+          "kind": 6,
+          "target_va": 269457964
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_email_sender",
+      "section": 49,
+      "anchor": "_UNASSIGNED_PLAYER_ID",
+      "anchor_offset": 0,
+      "rva": 1042048,
+      "size": 16,
+      "kind": "data",
+      "sha256": "44774f987c1b2569c171277ac704deed6fa979e51c12bc30dc3b0defaf92ede9",
+      "bindings": []
+    }
+  ],
+  "seeds": [
+    {
+      "unit": "closure_vendor_email_sender",
+      "symbol": "?GetResponse@EmailSender@@IAEPADPAVTCPInterface@@ABUPlayerID@@_N@Z",
+      "rva": 173184,
+      "size": 297
+    },
+    {
+      "unit": "closure_vendor_email_sender",
+      "symbol": "?Base64Encoding@EmailSender@@QAEHPBDHPAD0@Z",
+      "rva": 173488,
+      "size": 541
+    },
+    {
+      "unit": "closure_vendor_email_sender",
+      "symbol": "?Send@EmailSender@@QAEPADPBDG000000PAVFileList@@_N@Z",
+      "rva": 174048,
+      "size": 2536
+    }
+  ],
+  "bindings_checked": 122,
+  "source025_direct": 0,
+  "object_sha256": {
+    "closure_vendor_email_sender": "1149fd2dd3752064ab8db39dd3164314a42a9044d5d46cc6da4784dac91ded1e"
+  },
+  "source_sha256": {
+    "closure_vendor_email_sender": "8635ae378f399689e84e4c0c1b7a49dcce107e7ea9e17bee025a2c6efa2349b4"
+  },
+  "external_targets": {
+    "__ehhandler$?Send@EmailSender@@QAEPADPBDG000000PAVFileList@@_N@Z": 269360635,
+    "__except_list": 0,
+    "??0TCPInterface@@QAE@XZ": 268787296,
+    "?Start@TCPInterface@@QAE_NGG@Z": 268789888,
+    "??1TCPInterface@@QAE@XZ": 268788480,
+    "??_C@_0BL@JFJLFONC@Unknown?5error?5starting?5TCP?$AA@": 269380976,
+    "?Connect@TCPInterface@@QAE?AUPlayerID@@PBDG@Z": 268787696,
+    "_UNASSIGNED_PLAYER_ID": 269477504,
+    "??8PlayerID@@QBE_NABU0@@Z": 268646112,
+    "??_C@_0BK@HBOBHECK@Failed?5to?5connect?5to?5host?$AA@": 269380948,
+    "?GetTime@RakNet@@YAIXZ": 268625904,
+    "?Receive@TCPInterface@@QAEPAUPacket@@XZ": 268788128,
+    "?RakSleep@@YAXI@Z": 268712608,
+    "??_C@_02DKCKIIND@?$CFs?$AA@": 269378888,
+    "_printf": 269251548,
+    "??_C@_0DE@IJKMDCLC@Timeout?5while?5waiting?5for?5initia@": 269380896,
+    "??_C@_06OGKBAGLK@HELO?$AN?6?$AA@": 269380888,
+    "?Send@TCPInterface@@QAEXPBDIUPlayerID@@@Z": 268788016,
+    "??_C@_0BC@KOBLNCCF@MAIL?5From?3?5?$DM?$CFs?$DO?$AN?6?$AA@": 269380868,
+    "_sprintf": 269251411,
+    "??_C@_0BA@BOEBHIHF@MAIL?5From?3?5?$DM?$DO?$AN?6?$AA@": 269380852,
+    "??_C@_0BA@PAJOOKEN@RCPT?5TO?3?5?$DM?$CFs?$DO?$AN?6?$AA@": 269380836,
+    "??_C@_0O@BIJBNMK@RCPT?5TO?3?5?$DM?$DO?$AN?6?$AA@": 269380820,
+    "??_C@_06KNPIFKI@DATA?$AN?6?$AA@": 269380812,
+    "??_C@_0O@FHPOFNAI@Subject?3?5?$CFs?$AN?6?$AA@": 269380796,
+    "??_C@_0L@BJCOBIPA@From?3?5?$CFs?$AN?6?$AA@": 269380784,
+    "??_C@_08LGKAGCMJ@To?3?5?$CFs?$AN?6?$AA@": 269380772,
+    "??_C@_0EB@NFPJKBDG@ABCDEFGHIJKLMNOPQRSTUVWXYZabcdef@": 269380704,
+    "?seedMT@@YAXI@Z": 268712624,
+    "?randomMT@@YAIXZ": 268712960,
+    "??_C@_0BE@EMHINEHA@MIME?9version?3?51?40?$AN?6?$AA@": 269380680,
+    "??_C@_0DB@ECCABOFN@Content?9type?3?5multipart?1mixed?$DL?5B@": 269380628,
+    "??_C@_0DH@NEAHFABD@This?5is?5a?5multi?9part?5message?5in?5@": 269380572,
+    "??_C@_0DB@FKLLMGFB@Content?9Type?3?5text?1plain?$DL?5charse@": 269380520,
+    "??2@YAPAXI@Z": 269247098,
+    "??3@YAXPAX@Z": 269247626,
+    "??_C@_08OOLNIKKF@?$AN?6?9?9?$CFs?$AN?6?$AA@": 269380508,
+    "??_C@_0IB@POOHHMMF@Content?9Type?3?5APPLICATION?1Octet?9@": 269380376,
+    "??_C@_0L@NAAOAPHF@?$AN?6?9?9?$CFs?9?9?$AN?6?$AA@": 269380360,
+    "??_C@_05KMJPGPH@?$AN?6?4?$AN?6?$AA@": 269380352,
+    "??_C@_06FIMJICNC@QUIT?$AN?6?$AA@": 269380344,
+    "?Stop@TCPInterface@@QAEXXZ": 268787504,
+    "?HasLostConnection@TCPInterface@@QAE?AUPlayerID@@XZ": 268788336,
+    "??_C@_03HJHPABEB@250?$AA@": 269380340,
+    "_strstr": 269250848,
+    "??_C@_03KFKPKDCA@354?$AA@": 269380336,
+    "??_C@_03OEKIDJPI@550?$AA@": 269380332,
+    "??_C@_03MPIFGKDL@553?$AA@": 269380328,
+    "??_C@_0BL@HOIDLJBI@Connection?5to?5server?5lost?4?$AA@": 269380300,
+    "??_C@_0BJ@JKOAHELK@Failed?5on?5error?5code?5550?$AA@": 269380272,
+    "??_C@_0BJ@LBMNCHHJ@Failed?5on?5error?5code?5553?$AA@": 269380244,
+    "??_C@_09OGKCMDDI@Timed?5out?$AA@": 269380232,
+    "$T57875": 269457972,
+    "___CxxFrameHandler": 269247782,
+    "$L57833": 269360624,
+    "$T57906": 269457964
+  },
+  "identity": "Original SMTP sequence, response literals and Base64 transformation match direct vendor EmailSender methods. Full literal sections, entire16-byte constants section and complete EH code/data traversed from original fixup sites. No external aliases; linked acceptance still required.",
+  "crt_initialization": "object .drectve requests LIBCMT/OLDNAMES; no CRT initializer section is in the selected closure"
+}

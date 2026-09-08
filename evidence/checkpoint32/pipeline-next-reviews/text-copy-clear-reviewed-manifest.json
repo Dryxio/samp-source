@@ -1,0 +1,109 @@
+{
+  "status": "PASS_FULL_SOURCE_REGIONS_ALL_COFF_PE_TARGETS",
+  "run": "cp32-pipeline-next-candidates1",
+  "baseline": 424823,
+  "new_unique_code": 120,
+  "regions": [
+    {
+      "unit": "closure_gui_text_copy_clear",
+      "section": 19,
+      "anchor": "?ClearText@CDXUTEditBox@@QAEXXZ",
+      "anchor_offset": 0,
+      "rva": 546128,
+      "size": 42,
+      "kind": "code",
+      "sha256": "c2d7905a91b6e8dcc6bae106b5b96d93a864306f72cb1e810a3c06bf5c5f3388",
+      "bindings": [
+        {
+          "symbol": "?Clear@CUniBuffer@@QAEXXZ",
+          "site_rva": 546135,
+          "kind": 20,
+          "target_va": 269072896
+        },
+        {
+          "symbol": "?PlaceCaret@CDXUTEditBox@@IAEXH@Z",
+          "site_rva": 546154,
+          "kind": 20,
+          "target_va": 268981360
+        }
+      ]
+    },
+    {
+      "unit": "closure_gui_text_copy_clear",
+      "section": 9,
+      "anchor": "?Clear@CUniBuffer@@QAEXXZ",
+      "anchor_offset": 0,
+      "rva": 637440,
+      "size": 12,
+      "kind": "code",
+      "sha256": "b1aee9c44f8da4bf4c8fc2833c37e7c067ceead00b530e546c6a2fe42a86931e",
+      "bindings": []
+    },
+    {
+      "unit": "closure_gui_text_copy_clear",
+      "section": 17,
+      "anchor": "?GetTextCopy@CDXUTEditBox@@QAEJPAGI@Z",
+      "anchor_offset": 0,
+      "rva": 560848,
+      "size": 31,
+      "kind": "code",
+      "sha256": "c7850c4dc3642ba2c830d4d7ddc5a41d89cc0cd96af1787c5ada551933f416c8",
+      "bindings": [
+        {
+          "symbol": "?StringCopyWorkerW@@YGJPAGIPBG@Z",
+          "site_rva": 560870,
+          "kind": 20,
+          "target_va": 268977440
+        }
+      ]
+    },
+    {
+      "unit": "closure_gui_text_copy_clear",
+      "section": 5,
+      "anchor": "?StringCopyWorkerW@@YGJPAGIPBG@Z",
+      "anchor_offset": 0,
+      "rva": 541984,
+      "size": 92,
+      "kind": "code",
+      "sha256": "922a1e80b04e4b9f927f67b0ec5a58ca9506a1595ead48b676a7af17b557f9ef",
+      "bindings": []
+    },
+    {
+      "unit": "closure_gui_text_copy_clear",
+      "section": 15,
+      "anchor": "?GetTextCopy@CDXUTStatic@@QAEJPADI@Z",
+      "anchor_offset": 0,
+      "rva": 555792,
+      "size": 47,
+      "kind": "code",
+      "sha256": "e5f65e8d95ab9f7424c97f2801ee2c7a3789e834a7867dc48e23fb16d90f45b6",
+      "bindings": [
+        {
+          "symbol": "?StringCopyWorkerA@@YGJPADIPBD@Z",
+          "site_rva": 555822,
+          "kind": 20,
+          "target_va": 268927248
+        }
+      ]
+    },
+    {
+      "unit": "closure_gui_text_copy_clear",
+      "section": 3,
+      "anchor": "?StringCopyWorkerA@@YGJPADIPBD@Z",
+      "anchor_offset": 0,
+      "rva": 491792,
+      "size": 77,
+      "kind": "code",
+      "sha256": "dc6c242780cc30028c085c85db462a8f09328a3adcf7ef332d3fa4cc89aceb72",
+      "bindings": []
+    }
+  ],
+  "source025_direct": 0,
+  "object_sha256": {
+    "closure_gui_text_copy_clear": "581cb7c22a7287172e01a3bf443cb12709431bd9c67adcd9815edfbb56723e97"
+  },
+  "source_sha256": {
+    "closure_gui_text_copy_clear": "2a5be66ee4a753709c4f591ca0c12ebac8aabca3f29253b03ccdccc56f57ff6b"
+  },
+  "typed_layout_note": "Original DXUT Static/EditBox text-copy and clear methods; CUniBuffer::Clear complete ordinary source. Typed current DXUT layouts, StringCopyWorker A/W and PlaceCaret providers from pinned trial30f-three contract. All internal sections and COFF/PE relocations traversed."
+}
