@@ -1,0 +1,152 @@
+{
+  "status": "PASS_THREE_TRUE_NETWORK_ID_DELETING_ALIASES",
+  "run": "build/cp32-trial30c-two-linked1",
+  "new_owner": "closure_vendor_network_id_generator",
+  "object_sha256": "7ca5a1392d5bb6811c54b0a1a68aa709390ea0b1ae33c209a9b189f2b9aea981",
+  "dll_sha256": "79e38ee2f1e4ed3078d1a20f664609e3b27e5a2133e95470acb00a60b1c42358",
+  "map_sha256": "c3f61890d1bb32147bafaf6e72b76d241fcdb637fc88c67867f5bb3052e05278",
+  "aliases": [
+    {
+      "weak": "??_ENetworkIDGenerator@@UAEPAXI@Z",
+      "canonical": "??_GNetworkIDGenerator@@UAEPAXI@Z",
+      "table": "??_7NetworkIDGenerator@@6B@",
+      "source_storage": 105,
+      "source_undefined": true,
+      "actual_aux_fallback": true,
+      "canonical_va": 268788976,
+      "alias_va": 268788976,
+      "owner": "closure_vendor_network_id_generator.obj",
+      "full_code": [
+        {
+          "image": "original",
+          "rva": 210448,
+          "size": 30,
+          "sha256": "68931e4c5f7070954c0d8cdf1bbe91f74ff37c3cfda60a6d6b0eaec38bf04e7a",
+          "whole_bytes_equal": true,
+          "all_fixups_and_PE_relocations_equal": true
+        },
+        {
+          "image": "linked",
+          "rva": 353520,
+          "size": 30,
+          "sha256": "1945c07bee62406eb5505fcaa2bcc1550074c836f23735c2469163a7997b033b",
+          "whole_bytes_equal": true,
+          "all_fixups_and_PE_relocations_equal": true
+        }
+      ],
+      "full_vft": [
+        {
+          "image": "original",
+          "rva": 946532,
+          "size": 28,
+          "sha256": "7f02f40d79fe7501a2a2bec4a632408e099405b5e3e680125a2b47d0b2f61b69",
+          "whole_bytes_equal": true,
+          "all_fixups_and_PE_relocations_equal": true
+        },
+        {
+          "image": "linked",
+          "rva": 538400,
+          "size": 28,
+          "sha256": "96de7db0236054a95067f085567a7e9b0a1e17c3a21ef21a83a6ac13d18c94ee",
+          "whole_bytes_equal": true,
+          "all_fixups_and_PE_relocations_equal": true
+        }
+      ]
+    },
+    {
+      "weak": "??_E?$BinarySearchTree@UNetworkIDNode@@@DataStructures@@UAEPAXI@Z",
+      "canonical": "??_G?$BinarySearchTree@UNetworkIDNode@@@DataStructures@@UAEPAXI@Z",
+      "table": "??_7?$BinarySearchTree@UNetworkIDNode@@@DataStructures@@6B@",
+      "source_storage": 105,
+      "source_undefined": true,
+      "actual_aux_fallback": true,
+      "canonical_va": 268788144,
+      "alias_va": 268788144,
+      "owner": "closure_vendor_network_id_generator.obj",
+      "full_code": [
+        {
+          "image": "original",
+          "rva": 209616,
+          "size": 30,
+          "sha256": "9cb22504bda1f964238d11fcd8a4dd3a423b10b5be2c1cbcb98cd97f7f9465b5",
+          "whole_bytes_equal": true,
+          "all_fixups_and_PE_relocations_equal": true
+        },
+        {
+          "image": "linked",
+          "rva": 352688,
+          "size": 30,
+          "sha256": "9f674f25e2a133a550e6381f7e7676dbdaeb204ef0a9aab52cfc37ebb88406cc",
+          "whole_bytes_equal": true,
+          "all_fixups_and_PE_relocations_equal": true
+        }
+      ],
+      "full_vft": [
+        {
+          "image": "original",
+          "rva": 946560,
+          "size": 4,
+          "sha256": "7808c964f0f35d628d7bff364ecbcc2bfe794846e9e98cb402ed299a95bbaa07",
+          "whole_bytes_equal": true,
+          "all_fixups_and_PE_relocations_equal": true
+        },
+        {
+          "image": "linked",
+          "rva": 538428,
+          "size": 4,
+          "sha256": "f7d0bd1f249a1ff5a7c73ec51c9954e828bcc940fe955c49a2916a981c4929e7",
+          "whole_bytes_equal": true,
+          "all_fixups_and_PE_relocations_equal": true
+        }
+      ]
+    },
+    {
+      "weak": "??_E?$AVLBalancedBinarySearchTree@UNetworkIDNode@@@DataStructures@@UAEPAXI@Z",
+      "canonical": "??_G?$AVLBalancedBinarySearchTree@UNetworkIDNode@@@DataStructures@@UAEPAXI@Z",
+      "table": "??_7?$AVLBalancedBinarySearchTree@UNetworkIDNode@@@DataStructures@@6B@",
+      "source_storage": 105,
+      "source_undefined": true,
+      "actual_aux_fallback": true,
+      "canonical_va": 268788384,
+      "alias_va": 268788384,
+      "owner": "closure_vendor_network_id_generator.obj",
+      "full_code": [
+        {
+          "image": "original",
+          "rva": 209856,
+          "size": 30,
+          "sha256": "da4d27858be6b85e42a1f1e466306a5ff3d18be795b7a55ed60b7cd4b0fb5c07",
+          "whole_bytes_equal": true,
+          "all_fixups_and_PE_relocations_equal": true
+        },
+        {
+          "image": "linked",
+          "rva": 352928,
+          "size": 30,
+          "sha256": "14dd47c0de7245a1162539d998fcb70dda4d8b21647d6a72b479cc5701b26c29",
+          "whole_bytes_equal": true,
+          "all_fixups_and_PE_relocations_equal": true
+        }
+      ],
+      "full_vft": [
+        {
+          "image": "original",
+          "rva": 946564,
+          "size": 4,
+          "sha256": "e54d14ba5cea58146443895b2dfcda303eaf8befcdfb4453d87d91d026168168",
+          "whole_bytes_equal": true,
+          "all_fixups_and_PE_relocations_equal": true
+        },
+        {
+          "image": "linked",
+          "rva": 538432,
+          "size": 4,
+          "sha256": "1f4a90e644382866279fd9747e43073f18c10e8ad0dcadeb1363c39564e69908",
+          "whole_bytes_equal": true,
+          "all_fixups_and_PE_relocations_equal": true
+        }
+      ]
+    }
+  ],
+  "extra_code_credit": 0
+}

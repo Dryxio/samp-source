@@ -1,0 +1,299 @@
+{
+  "status": "PASS_FULL_SOURCE_REGIONS_ALL_COFF_PE_TARGETS",
+  "run": "cp32-trial30c-game-batch",
+  "baseline": 412480,
+  "new_unique_code": 271,
+  "regions": [
+    {
+      "unit": "closure_rpc_facing_angle",
+      "section": 53,
+      "anchor": "?SetPlayerFacingAngleRPCTransfer@@YAXPAURPCParameters@@@Z",
+      "anchor_offset": 0,
+      "rva": 107936,
+      "size": 154,
+      "kind": "code",
+      "sha256": "8d49f7f32713609da169d92038a536d77c5f7c3985b49bb346d4b8659482a52c",
+      "bindings": [
+        {
+          "symbol": "__ehhandler$?SetPlayerFacingAngleRPCTransfer@@YAXPAURPCParameters@@@Z",
+          "site_rva": 107939,
+          "kind": 6,
+          "target_va": 269357307
+        },
+        {
+          "symbol": "__except_list",
+          "site_rva": 107945,
+          "kind": 6,
+          "target_va": 0
+        },
+        {
+          "symbol": "__except_list",
+          "site_rva": 107953,
+          "kind": 6,
+          "target_va": 0
+        },
+        {
+          "symbol": "??0BitStream@RakNet@@QAE@PADI_N@Z",
+          "site_rva": 107994,
+          "kind": 20,
+          "target_va": 268564544
+        },
+        {
+          "symbol": "?ReadBits@BitStream@RakNet@@QAE_NPAEH_N@Z",
+          "site_rva": 108023,
+          "kind": 20,
+          "target_va": 268564912
+        },
+        {
+          "symbol": "?pGame@@3PAVCGame@@A",
+          "site_rva": 108033,
+          "kind": 6,
+          "target_va": 270986156
+        },
+        {
+          "symbol": "?FindPlayerPed@CGame@@QAEPAVCPlayerPed@@XZ",
+          "site_rva": 108038,
+          "kind": 20,
+          "target_va": 268439568
+        },
+        {
+          "symbol": "?ForceTargetRotation@CPlayerPed@@QAEXM@Z",
+          "site_rva": 108045,
+          "kind": 20,
+          "target_va": 269139808
+        },
+        {
+          "symbol": "??1BitStream@RakNet@@QAE@XZ",
+          "site_rva": 108065,
+          "kind": 20,
+          "target_va": 268564688
+        },
+        {
+          "symbol": "__except_list",
+          "site_rva": 108079,
+          "kind": 6,
+          "target_va": 0
+        }
+      ]
+    },
+    {
+      "unit": "closure_rpc_facing_angle",
+      "section": 46,
+      "anchor": "?FindPlayerPed@CGame@@QAEPAVCPlayerPed@@XZ",
+      "anchor_offset": 0,
+      "rva": 4112,
+      "size": 94,
+      "kind": "code",
+      "sha256": "c68912916b6df6feb35b20db4e7b421d654238152cff390567881edf7dc6dc63",
+      "bindings": [
+        {
+          "symbol": "__ehhandler$?FindPlayerPed@CGame@@QAEPAVCPlayerPed@@XZ",
+          "site_rva": 4115,
+          "kind": 6,
+          "target_va": 269352587
+        },
+        {
+          "symbol": "__except_list",
+          "site_rva": 4121,
+          "kind": 6,
+          "target_va": 0
+        },
+        {
+          "symbol": "__except_list",
+          "site_rva": 4129,
+          "kind": 6,
+          "target_va": 0
+        },
+        {
+          "symbol": "??2@YAPAXI@Z",
+          "site_rva": 4150,
+          "kind": 20,
+          "target_va": 269247098
+        },
+        {
+          "symbol": "??0CPlayerPed@@QAE@XZ",
+          "site_rva": 4176,
+          "kind": 20,
+          "target_va": 269138544
+        },
+        {
+          "symbol": "__except_list",
+          "site_rva": 4198,
+          "kind": 6,
+          "target_va": 0
+        }
+      ]
+    },
+    {
+      "unit": "closure_rpc_facing_angle",
+      "section": 47,
+      "anchor": "$L95031",
+      "anchor_offset": 0,
+      "rva": 917120,
+      "size": 21,
+      "kind": "code",
+      "sha256": "9319808924bf8500b1410f9cb245444680ef7a3fe4e84b7ca09480967e1426d7",
+      "bindings": [
+        {
+          "symbol": "??3@YAXPAX@Z",
+          "site_rva": 917125,
+          "kind": 20,
+          "target_va": 269247626
+        },
+        {
+          "symbol": "$T95035",
+          "site_rva": 917132,
+          "kind": 6,
+          "target_va": 269448728
+        },
+        {
+          "symbol": "___CxxFrameHandler",
+          "site_rva": 917137,
+          "kind": 20,
+          "target_va": 269247782
+        }
+      ]
+    },
+    {
+      "unit": "closure_rpc_facing_angle",
+      "section": 48,
+      "anchor": "$T95035",
+      "anchor_offset": 8,
+      "rva": 1013264,
+      "size": 36,
+      "kind": "data",
+      "sha256": "18eebed3494c03a403490a6f95494d9ce9fb81d4042f17a3cba066f92675eb8c",
+      "bindings": [
+        {
+          "symbol": "$L95031",
+          "site_rva": 1013268,
+          "kind": 6,
+          "target_va": 269352576
+        },
+        {
+          "symbol": "$T95041",
+          "site_rva": 1013280,
+          "kind": 6,
+          "target_va": 269448720
+        }
+      ]
+    },
+    {
+      "unit": "closure_rpc_facing_angle",
+      "section": 54,
+      "anchor": "$L95049",
+      "anchor_offset": 0,
+      "rva": 921840,
+      "size": 21,
+      "kind": "code",
+      "sha256": "54e0f9ad5a7fe1f2d66717c5b33a27fc9b0b9385f5771c9c86bf2c32a6616132",
+      "bindings": [
+        {
+          "symbol": "??1BitStream@RakNet@@QAE@XZ",
+          "site_rva": 921847,
+          "kind": 20,
+          "target_va": 268564688
+        },
+        {
+          "symbol": "$T95056",
+          "site_rva": 921852,
+          "kind": 6,
+          "target_va": 269454140
+        },
+        {
+          "symbol": "___CxxFrameHandler",
+          "site_rva": 921857,
+          "kind": 20,
+          "target_va": 269247782
+        }
+      ]
+    },
+    {
+      "unit": "closure_rpc_facing_angle",
+      "section": 55,
+      "anchor": "$T95056",
+      "anchor_offset": 8,
+      "rva": 1018676,
+      "size": 36,
+      "kind": "data",
+      "sha256": "642139599fed638a218bbf4743f930485e65388487a2c18bff0af330397448f9",
+      "bindings": [
+        {
+          "symbol": "$L95049",
+          "site_rva": 1018680,
+          "kind": 6,
+          "target_va": 269357296
+        },
+        {
+          "symbol": "$T95059",
+          "site_rva": 1018692,
+          "kind": 6,
+          "target_va": 269454132
+        }
+      ]
+    },
+    {
+      "unit": "closure_ped_force_rotation",
+      "section": 47,
+      "anchor": "?ForceTargetRotation@CPlayerPed@@QAEXM@Z",
+      "anchor_offset": 0,
+      "rva": 704352,
+      "size": 96,
+      "kind": "code",
+      "sha256": "460d144b6a679425faa8a37c837ec3e5c98f9093312c3807f73fee2aa75e3542",
+      "bindings": [
+        {
+          "symbol": "?GamePool_Ped_GetAt@@YGPAU_PED_TYPE@@H@Z",
+          "site_rva": 704370,
+          "kind": 20,
+          "target_va": 269171568
+        },
+        {
+          "symbol": "?DegToRad@@YAMM@Z",
+          "site_rva": 704385,
+          "kind": 20,
+          "target_va": 269179248
+        },
+        {
+          "symbol": "?DegToRad@@YAMM@Z",
+          "site_rva": 704403,
+          "kind": 20,
+          "target_va": 269179248
+        },
+        {
+          "symbol": "_set_actor_z_angle",
+          "site_rva": 704431,
+          "kind": 6,
+          "target_va": 269405968
+        },
+        {
+          "symbol": "?ScriptCommand@@YAHPBUSCRIPT_COMMAND@@ZZ",
+          "site_rva": 704436,
+          "kind": 20,
+          "target_va": 269165328
+        }
+      ]
+    },
+    {
+      "unit": "closure_ped_force_rotation",
+      "section": 46,
+      "anchor": "_set_actor_z_angle",
+      "anchor_offset": 0,
+      "rva": 970512,
+      "size": 18,
+      "kind": "data",
+      "sha256": "6e7f71fb111a62fbe050a04753d6c4e60d954b23f56e31a3fbdb0ad7a159be02",
+      "bindings": []
+    }
+  ],
+  "source025_direct": 250,
+  "object_sha256": {
+    "closure_ped_force_rotation": "74c7bdb873b28ba37567419765ade6cbab37484908dfb524aa93effcb12cc7fd",
+    "closure_rpc_facing_angle": "f13fa15bf24cb3ddac15821b73d7486315c6bd901bab118aafae49371924c805"
+  },
+  "source_sha256": {
+    "closure_ped_force_rotation": "12d75822fbdd0a62774a66bb8d4912a89df13d4904c6877794cdfc83636bd0f7",
+    "closure_rpc_facing_angle": "b4ad31307c93dd9c1a0bcca2b1c5aebf2db78c1cb554528daf4feab2d3247a29"
+  },
+  "typed_layout_note": "ForceTargetRotation source025 swaps the two fieldwrites to match R5 55C then558. Existing CPlayerPed/CEntity/nativePED definitions, GTAid44 and ped2A4. SCRIPT_COMMAND set_actor_z_angle full18-byte region matched; no new dynamicstorage."
+}

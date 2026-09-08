@@ -1,0 +1,132 @@
+{
+  "status": "REVIEWED_CANDIDATES_WAIT_ROOT_ACCEPTANCE",
+  "baseline_proof": "evidence/checkpoint32/trial30b-two-acceptance.json",
+  "source_prepared_during_trial": true,
+  "no_vm_access": true,
+  "shared_files_modified": false,
+  "family_checks": {
+    "selection": {
+      "new_unique": 381,
+      "main": [
+        [
+          59568,
+          177
+        ],
+        [
+          59760,
+          162
+        ]
+      ],
+      "EH": [
+        918944,
+        918976
+      ],
+      "source025_direct": false,
+      "providers": "Same class declarations and existing r5ObjectSelection/r5ObjectEditor/r5TextdrawSelector pointer stores as closure_rpc_select_textdraw; Disable71520 Close72bc0 Toggle6db80 already accepted. No fake owner."
+    },
+    "text_label_create": {
+      "new_unique": 442,
+      "main": [
+        [
+          63264,
+          421
+        ]
+      ],
+      "source025_direct": false,
+      "providers": "Existing complete29-byte labelrecord,0x10800-byte pool, sizeassertions copied from accepted closure_label_pool_new. New11d0 Instance53c30 DecodeString542d0 accepted. Eight-bit stream boolean stored directly through BYTE reference to the bool object, reproducing the original eight-bit read and later argument forwarding."
+    },
+    "rotation": {
+      "new_unique": 271,
+      "main": [
+        [
+          704352,
+          96
+        ],
+        [
+          107936,
+          154
+        ]
+      ],
+      "source025_direct": true,
+      "adaptations": "ForceTargetRotation source025 swaps the two fieldwrites to match R5 55C then558. Existing CPlayerPed/CEntity/nativePED definitions, GTAid44 and ped2A4. SCRIPT_COMMAND set_actor_z_angle full18-byte region matched; no new dynamicstorage."
+    },
+    "drunk": {
+      "new_unique": 192,
+      "main": [
+        [
+          712624,
+          13
+        ],
+        [
+          101808,
+          158
+        ]
+      ],
+      "source025_direct": false,
+      "providers": "Real CPlayerPed.field_2C9 confirms four-byte setter field. Pointer view only, separate TU so observed genuine call retained. FindPlayerPed and BitStream dependencies accepted."
+    },
+    "death": {
+      "new_unique": 537,
+      "main": [
+        [
+          708848,
+          95
+        ],
+        [
+          720848,
+          171
+        ],
+        [
+          95600,
+          61
+        ],
+        [
+          68928,
+          189
+        ]
+      ],
+      "source025_direct": true,
+      "adaptations": "Source025 ExtinguishFire/SetDead/HandleDeath/RPC control flow adapted to R5: vehiclepointer guard, remove try/catch, set health0, omit deadweapon/local spectating code. R5 nativeped fire offset730 and nativevehicle fire490; nativeped entity flags46C, tasks47C, vehicle58C, health540. Remote state10A,ped1DD; player pool players1F8A. None of views allocates or owns storage.",
+      "symbolic_assembly_exception": "Source025 CFire::Extinguish uses asm mov ecx, fire; mov eax, 0x5393F0; call eax at the pinned GTA-native thiscall address. R5 has precisely two such calls, full function95 bytes matches with zero reference PE relocations. No _emit/incbin/copied machine bytes. Original stackframe and this-pointer setup preserved."
+    },
+    "vehicle_collision": {
+      "new_unique": 95,
+      "main": [
+        [
+          59936,
+          95
+        ]
+      ],
+      "providers": "Existing pNetGame pointer; owned bool233; BitStream boolRead shared75 accepted. No CRT initializer or novel storage."
+    },
+    "net_flag232": {
+      "new_unique": 95,
+      "main": [
+        [
+          97760,
+          95
+        ]
+      ],
+      "providers": "Existing pNetGame pointer; owned bool232; BitStream boolRead shared75 accepted. No CRT initializer or novel storage."
+    }
+  },
+  "total_unique_proposed_passed": 2013,
+  "CRT_initialization": "No new static constructors or globalownedstate. Existing globalpointer providers reused. Only read-only command/literal/EH data follows fullyverified COFF sections.",
+  "skin_parked": {
+    "rva": 102800,
+    "original_size": 389,
+    "compiled_sizes": [
+      324,
+      349,
+      390
+    ],
+    "progress": "Snapshot skin after Read, then snapshot playerID after validation reproduces original retention across calls. Trial3 differs in scheduling of playerID copy versus localID compare and register allocation, not accepted. No further source permutations.",
+    "source025": "client/net/scriptrpc.cpp ScrSetPlayerSkin103; R5 validation/info-message/activecheck adaptations needed."
+  },
+  "connection_rejected_blocked": {
+    "rva": 66880,
+    "whole_main": 284,
+    "EH": 21,
+    "reason": "Exact compiled handler but real interfaceDisconnect adjustor34A40/11 unimplemented. VtableE75C8+8 target10034A40. No defined compiler-generated thunk in activeCOFF index or6uniquehistoricalrakclientobjects. Zero acceptedbytes; flag232 split."
+  }
+}

@@ -1,0 +1,254 @@
+{
+  "status": "PASS_FULL_SOURCE_REGIONS_ALL_COFF_PE_TARGETS",
+  "run": "cp32-trial30c-death",
+  "baseline": 412480,
+  "new_unique_code": 537,
+  "regions": [
+    {
+      "unit": "closure_rpc_player_death",
+      "section": 50,
+      "anchor": "?WorldPlayerDeathRPCTransfer@@YAXPAURPCParameters@@@Z",
+      "anchor_offset": 0,
+      "rva": 68928,
+      "size": 189,
+      "kind": "code",
+      "sha256": "207214b4dead05d84ea3c2c578abfd10b6a308f29b859b710a2c109f374fd537",
+      "bindings": [
+        {
+          "symbol": "__ehhandler$?WorldPlayerDeathRPCTransfer@@YAXPAURPCParameters@@@Z",
+          "site_rva": 68931,
+          "kind": 6,
+          "target_va": 269355371
+        },
+        {
+          "symbol": "__except_list",
+          "site_rva": 68937,
+          "kind": 6,
+          "target_va": 0
+        },
+        {
+          "symbol": "__except_list",
+          "site_rva": 68945,
+          "kind": 6,
+          "target_va": 0
+        },
+        {
+          "symbol": "??0BitStream@RakNet@@QAE@PADI_N@Z",
+          "site_rva": 68987,
+          "kind": 20,
+          "target_va": 268564544
+        },
+        {
+          "symbol": "?pNetGame@@3PAVCNetGame@@A",
+          "site_rva": 68992,
+          "kind": 6,
+          "target_va": 270986132
+        },
+        {
+          "symbol": "?ReadBits@BitStream@RakNet@@QAE_NPAEH_N@Z",
+          "site_rva": 69030,
+          "kind": 20,
+          "target_va": 268564912
+        },
+        {
+          "symbol": "?HandleDeath@R5RemoteDeathView@@QAEXXZ",
+          "site_rva": 69071,
+          "kind": 20,
+          "target_va": 268531056
+        },
+        {
+          "symbol": "??1BitStream@RakNet@@QAE@XZ",
+          "site_rva": 69091,
+          "kind": 20,
+          "target_va": 268564688
+        },
+        {
+          "symbol": "__except_list",
+          "site_rva": 69106,
+          "kind": 6,
+          "target_va": 0
+        }
+      ]
+    },
+    {
+      "unit": "closure_rpc_player_death",
+      "section": 51,
+      "anchor": "$L95256",
+      "anchor_offset": 0,
+      "rva": 919904,
+      "size": 21,
+      "kind": "code",
+      "sha256": "7d0a5733b9018c4fd5af342b498795b679d4d738920950202841a296b53022d9",
+      "bindings": [
+        {
+          "symbol": "??1BitStream@RakNet@@QAE@XZ",
+          "site_rva": 919911,
+          "kind": 20,
+          "target_va": 268564688
+        },
+        {
+          "symbol": "$T95271",
+          "site_rva": 919916,
+          "kind": 6,
+          "target_va": 269451956
+        },
+        {
+          "symbol": "___CxxFrameHandler",
+          "site_rva": 919921,
+          "kind": 20,
+          "target_va": 269247782
+        }
+      ]
+    },
+    {
+      "unit": "closure_rpc_player_death",
+      "section": 52,
+      "anchor": "$T95271",
+      "anchor_offset": 8,
+      "rva": 1016492,
+      "size": 36,
+      "kind": "data",
+      "sha256": "cd6dbdbf29ba0f152d376129c44158bd81e4647d0f25c252da4480eeeaddcfd3",
+      "bindings": [
+        {
+          "symbol": "$L95256",
+          "site_rva": 1016496,
+          "kind": 6,
+          "target_va": 269355360
+        },
+        {
+          "symbol": "$T95274",
+          "site_rva": 1016508,
+          "kind": 6,
+          "target_va": 269451948
+        }
+      ]
+    },
+    {
+      "unit": "closure_remote_handle_death",
+      "section": 46,
+      "anchor": "?HandleDeath@R5RemoteDeathView@@QAEXXZ",
+      "anchor_offset": 0,
+      "rva": 95600,
+      "size": 61,
+      "kind": "code",
+      "sha256": "ce3f98a46626db946b58eb75fb4c25c2d8e68ebba29f9177d102a74fd4e4d966",
+      "bindings": [
+        {
+          "symbol": "?SetKeys@CPlayerPed@@QAEXGGG@Z",
+          "site_rva": 95620,
+          "kind": 20,
+          "target_va": 269153088
+        },
+        {
+          "symbol": "?SetDead@R5DeathPedView@@QAEXXZ",
+          "site_rva": 95631,
+          "kind": 20,
+          "target_va": 269156304
+        },
+        {
+          "symbol": "?ResetAllSyncAttributes@CRemotePlayer@@QAEXXZ",
+          "site_rva": 95657,
+          "kind": 20,
+          "target_va": 268525472
+        }
+      ]
+    },
+    {
+      "unit": "closure_ped_set_dead",
+      "section": 47,
+      "anchor": "?SetDead@R5DeathPedView@@QAEXXZ",
+      "anchor_offset": 0,
+      "rva": 720848,
+      "size": 171,
+      "kind": "code",
+      "sha256": "a78a40f906781b050e693126baf4a64e69f74a9a84acc39c12c369ca6bd049c1",
+      "bindings": [
+        {
+          "symbol": "?StopJetpack@CPlayerPed@@QAEXXZ",
+          "site_rva": 720914,
+          "kind": 20,
+          "target_va": 269143392
+        },
+        {
+          "symbol": "?ExtinguishFire@R5DeathPedView@@QAEXXZ",
+          "site_rva": 720921,
+          "kind": 20,
+          "target_va": 269144304
+        },
+        {
+          "symbol": "?GetMatrix@CEntity@@QAEXPAU_MATRIX4X4@@@Z",
+          "site_rva": 720933,
+          "kind": 20,
+          "target_va": 269085456
+        },
+        {
+          "symbol": "?TeleportTo@CEntity@@QAEXMMM@Z",
+          "site_rva": 720955,
+          "kind": 20,
+          "target_va": 269086784
+        },
+        {
+          "symbol": "?pbyteCurrentPlayer@@3PAEA",
+          "site_rva": 720983,
+          "kind": 6,
+          "target_va": 269564280
+        },
+        {
+          "symbol": "_kill_actor",
+          "site_rva": 720994,
+          "kind": 6,
+          "target_va": 269406068
+        },
+        {
+          "symbol": "?ScriptCommand@@YAHPBUSCRIPT_COMMAND@@ZZ",
+          "site_rva": 720999,
+          "kind": 20,
+          "target_va": 269165328
+        },
+        {
+          "symbol": "?pbyteCurrentPlayer@@3PAEA",
+          "site_rva": 721004,
+          "kind": 6,
+          "target_va": 269564280
+        }
+      ]
+    },
+    {
+      "unit": "closure_ped_set_dead",
+      "section": 46,
+      "anchor": "_kill_actor",
+      "anchor_offset": 0,
+      "rva": 970612,
+      "size": 18,
+      "kind": "data",
+      "sha256": "cbd257cae10e25428a0baefd097f8cd239940e581f993ad536901b347f2383e1",
+      "bindings": []
+    },
+    {
+      "unit": "closure_ped_extinguish_fire",
+      "section": 46,
+      "anchor": "?ExtinguishFire@R5DeathPedView@@QAEXXZ",
+      "anchor_offset": 0,
+      "rva": 708848,
+      "size": 95,
+      "kind": "code",
+      "sha256": "6809128119156a3252d10b67f91fcebe34774084fd0aec9030d3b93d419d701f",
+      "bindings": []
+    }
+  ],
+  "source025_direct": 516,
+  "object_sha256": {
+    "closure_ped_extinguish_fire": "8e6a5fa65289833f24184543e73b39dfce2dcc243af14ffb00f5b284f9552c0e",
+    "closure_ped_set_dead": "3e86b2933223d96c6c4bbfb484756916b142fefa09317ad656fa9482d1dcaada",
+    "closure_remote_handle_death": "9e964d3b35f5d66be7a7b93bf039819f4afabe1276f923f54f7c32a82526a627",
+    "closure_rpc_player_death": "130c8faeb86254538d16c3bea33a9d57a998674659bb0c8b155876e6041b01d6"
+  },
+  "source_sha256": {
+    "closure_ped_extinguish_fire": "ff0dfb057d449be519ceace1786cbfa7f7028edf5e209807ec5d33492b97bc37",
+    "closure_ped_set_dead": "49c03eee007587022812dbe027820162271cb405a95bb4c5576175c1fcd3a37a",
+    "closure_remote_handle_death": "78bc340da0e8e7198090d7d4049cc3d7493803497c5aaa805ce7877f2a8cc533",
+    "closure_rpc_player_death": "5e612ad527f901af619c289dae81404b3ac55f818b123ed85e0e0ae763a5c4c3"
+  },
+  "typed_layout_note": "Source025 ExtinguishFire/SetDead/HandleDeath/RPC control flow adapted to R5: vehiclepointer guard, remove try/catch, set health0, omit deadweapon/local spectating code. R5 nativeped fire offset730 and nativevehicle fire490; nativeped entity flags46C, tasks47C, vehicle58C, health540. Remote state10A,ped1DD; player pool players1F8A. None of views allocates or owns storage."
+}

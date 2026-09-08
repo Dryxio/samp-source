@@ -1,0 +1,257 @@
+{
+  "status": "PASS_FULL_SOURCE_REGIONS_ALL_COFF_PE_TARGETS",
+  "run": "cp32-trial30c-game-batch",
+  "baseline": 412480,
+  "new_unique_code": 192,
+  "regions": [
+    {
+      "unit": "closure_rpc_drunk_level",
+      "section": 53,
+      "anchor": "?SetPlayerDrunkLevelRPCTransfer@@YAXPAURPCParameters@@@Z",
+      "anchor_offset": 0,
+      "rva": 101808,
+      "size": 158,
+      "kind": "code",
+      "sha256": "360cbade5604ab01c1c95f9d9620f6cc3a7a6fa13e4d5e5f6ae21b8947725ff1",
+      "bindings": [
+        {
+          "symbol": "__ehhandler$?SetPlayerDrunkLevelRPCTransfer@@YAXPAURPCParameters@@@Z",
+          "site_rva": 101811,
+          "kind": 6,
+          "target_va": 269356507
+        },
+        {
+          "symbol": "__except_list",
+          "site_rva": 101817,
+          "kind": 6,
+          "target_va": 0
+        },
+        {
+          "symbol": "__except_list",
+          "site_rva": 101825,
+          "kind": 6,
+          "target_va": 0
+        },
+        {
+          "symbol": "??0BitStream@RakNet@@QAE@PADI_N@Z",
+          "site_rva": 101866,
+          "kind": 20,
+          "target_va": 268564544
+        },
+        {
+          "symbol": "?ReadBits@BitStream@RakNet@@QAE_NPAEH_N@Z",
+          "site_rva": 101895,
+          "kind": 20,
+          "target_va": 268564912
+        },
+        {
+          "symbol": "?pGame@@3PAVCGame@@A",
+          "site_rva": 101901,
+          "kind": 6,
+          "target_va": 270986156
+        },
+        {
+          "symbol": "?FindPlayerPed@CGame@@QAEPAVCPlayerPed@@XZ",
+          "site_rva": 101906,
+          "kind": 20,
+          "target_va": 268439568
+        },
+        {
+          "symbol": "?SetDrunkLevel@R5DrunkLevelPedView@@QAEXH@Z",
+          "site_rva": 101921,
+          "kind": 20,
+          "target_va": 269148080
+        },
+        {
+          "symbol": "??1BitStream@RakNet@@QAE@XZ",
+          "site_rva": 101941,
+          "kind": 20,
+          "target_va": 268564688
+        },
+        {
+          "symbol": "__except_list",
+          "site_rva": 101955,
+          "kind": 6,
+          "target_va": 0
+        }
+      ]
+    },
+    {
+      "unit": "closure_rpc_drunk_level",
+      "section": 46,
+      "anchor": "?FindPlayerPed@CGame@@QAEPAVCPlayerPed@@XZ",
+      "anchor_offset": 0,
+      "rva": 4112,
+      "size": 94,
+      "kind": "code",
+      "sha256": "c68912916b6df6feb35b20db4e7b421d654238152cff390567881edf7dc6dc63",
+      "bindings": [
+        {
+          "symbol": "__ehhandler$?FindPlayerPed@CGame@@QAEPAVCPlayerPed@@XZ",
+          "site_rva": 4115,
+          "kind": 6,
+          "target_va": 269352587
+        },
+        {
+          "symbol": "__except_list",
+          "site_rva": 4121,
+          "kind": 6,
+          "target_va": 0
+        },
+        {
+          "symbol": "__except_list",
+          "site_rva": 4129,
+          "kind": 6,
+          "target_va": 0
+        },
+        {
+          "symbol": "??2@YAPAXI@Z",
+          "site_rva": 4150,
+          "kind": 20,
+          "target_va": 269247098
+        },
+        {
+          "symbol": "??0CPlayerPed@@QAE@XZ",
+          "site_rva": 4176,
+          "kind": 20,
+          "target_va": 269138544
+        },
+        {
+          "symbol": "__except_list",
+          "site_rva": 4198,
+          "kind": 6,
+          "target_va": 0
+        }
+      ]
+    },
+    {
+      "unit": "closure_rpc_drunk_level",
+      "section": 47,
+      "anchor": "$L95045",
+      "anchor_offset": 0,
+      "rva": 917120,
+      "size": 21,
+      "kind": "code",
+      "sha256": "9319808924bf8500b1410f9cb245444680ef7a3fe4e84b7ca09480967e1426d7",
+      "bindings": [
+        {
+          "symbol": "??3@YAXPAX@Z",
+          "site_rva": 917125,
+          "kind": 20,
+          "target_va": 269247626
+        },
+        {
+          "symbol": "$T95049",
+          "site_rva": 917132,
+          "kind": 6,
+          "target_va": 269448728
+        },
+        {
+          "symbol": "___CxxFrameHandler",
+          "site_rva": 917137,
+          "kind": 20,
+          "target_va": 269247782
+        }
+      ]
+    },
+    {
+      "unit": "closure_rpc_drunk_level",
+      "section": 48,
+      "anchor": "$T95049",
+      "anchor_offset": 8,
+      "rva": 1013264,
+      "size": 36,
+      "kind": "data",
+      "sha256": "18eebed3494c03a403490a6f95494d9ce9fb81d4042f17a3cba066f92675eb8c",
+      "bindings": [
+        {
+          "symbol": "$L95045",
+          "site_rva": 1013268,
+          "kind": 6,
+          "target_va": 269352576
+        },
+        {
+          "symbol": "$T95055",
+          "site_rva": 1013280,
+          "kind": 6,
+          "target_va": 269448720
+        }
+      ]
+    },
+    {
+      "unit": "closure_rpc_drunk_level",
+      "section": 54,
+      "anchor": "$L95063",
+      "anchor_offset": 0,
+      "rva": 921040,
+      "size": 21,
+      "kind": "code",
+      "sha256": "e0c79572d768787760c6dbe63ee94c93bea6e5b951c25f9f441528dfe431d285",
+      "bindings": [
+        {
+          "symbol": "??1BitStream@RakNet@@QAE@XZ",
+          "site_rva": 921047,
+          "kind": 20,
+          "target_va": 268564688
+        },
+        {
+          "symbol": "$T95070",
+          "site_rva": 921052,
+          "kind": 6,
+          "target_va": 269453240
+        },
+        {
+          "symbol": "___CxxFrameHandler",
+          "site_rva": 921057,
+          "kind": 20,
+          "target_va": 269247782
+        }
+      ]
+    },
+    {
+      "unit": "closure_rpc_drunk_level",
+      "section": 55,
+      "anchor": "$T95070",
+      "anchor_offset": 8,
+      "rva": 1017776,
+      "size": 36,
+      "kind": "data",
+      "sha256": "f0f85f89339c7ffb3f851262b8179fb191b6c9dc9c76fc266bbf76d05499ce0f",
+      "bindings": [
+        {
+          "symbol": "$L95063",
+          "site_rva": 1017780,
+          "kind": 6,
+          "target_va": 269356496
+        },
+        {
+          "symbol": "$T95072",
+          "site_rva": 1017792,
+          "kind": 6,
+          "target_va": 269453232
+        }
+      ]
+    },
+    {
+      "unit": "closure_ped_drunk_level",
+      "section": 46,
+      "anchor": "?SetDrunkLevel@R5DrunkLevelPedView@@QAEXH@Z",
+      "anchor_offset": 0,
+      "rva": 712624,
+      "size": 13,
+      "kind": "code",
+      "sha256": "1d7f089526a533db8248abb83c21dfddfbe286b28abc440929fc6889af251565",
+      "bindings": []
+    }
+  ],
+  "source025_direct": 0,
+  "object_sha256": {
+    "closure_ped_drunk_level": "bef8f880ae0de3ac778abe94fad99406ff3489143e889dcff635ff1a95166f0c",
+    "closure_rpc_drunk_level": "dc71b0f22e25180c818fbcac6801454b8eec6917b8990f8e4e14298386071ba4"
+  },
+  "source_sha256": {
+    "closure_ped_drunk_level": "f8ad4acae26fc78e82150b2b014ee866ce602329e84f5351c292488d2356fef2",
+    "closure_rpc_drunk_level": "a1c900f2d980cd01a6c1cc89ba057c3f9f6cfee107b93e497e40b413dc414594"
+  },
+  "typed_layout_note": "Real CPlayerPed.field_2C9 confirms four-byte setter field. Pointer view only, separate TU so observed genuine call retained. FindPlayerPed and BitStream dependencies accepted."
+}

@@ -1,0 +1,63 @@
+{
+  "status": "PASS_FULL_SOURCE_REGIONS_ALL_COFF_PE_TARGETS",
+  "run": "cp32-trial30c-vehicle-collision",
+  "baseline": 412480,
+  "new_unique_code": 95,
+  "regions": [
+    {
+      "unit": "closure_rpc_vehicle_collision",
+      "section": 48,
+      "anchor": "?SetVehicleCollisionRPCTransfer@@YAXPAURPCParameters@@@Z",
+      "anchor_offset": 0,
+      "rva": 59936,
+      "size": 95,
+      "kind": "code",
+      "sha256": "de2a05c0f9e242950dc6c456023ea23d2266a2f6986ae80d5f97b0330e4468fd",
+      "bindings": [
+        {
+          "symbol": "??0BitStream@RakNet@@QAE@PADI_N@Z",
+          "site_rva": 59973,
+          "kind": 20,
+          "target_va": 268564544
+        },
+        {
+          "symbol": "??$Read@_N@BitStream@RakNet@@QAE_NAA_N@Z",
+          "site_rva": 59992,
+          "kind": 20,
+          "target_va": 268469280
+        },
+        {
+          "symbol": "?pNetGame@@3PAVCNetGame@@A",
+          "site_rva": 59997,
+          "kind": 6,
+          "target_va": 270986132
+        },
+        {
+          "symbol": "??1BitStream@RakNet@@QAE@XZ",
+          "site_rva": 60020,
+          "kind": 20,
+          "target_va": 268564688
+        }
+      ]
+    },
+    {
+      "unit": "closure_rpc_vehicle_collision",
+      "section": 46,
+      "anchor": "??$Read@_N@BitStream@RakNet@@QAE_NAA_N@Z",
+      "anchor_offset": 0,
+      "rva": 33824,
+      "size": 89,
+      "kind": "code",
+      "sha256": "b37034fc3b389d74b01e3aeca79066e2df1184e312ff0b4ee54a0c788b584854",
+      "bindings": []
+    }
+  ],
+  "source025_direct": 0,
+  "object_sha256": {
+    "closure_rpc_vehicle_collision": "ae9b8338faa5bd8f24ca2cb84af266bd1d73deedfe5e20374cfe59a08d5bf67b"
+  },
+  "source_sha256": {
+    "closure_rpc_vehicle_collision": "54bd0dcc2a37be5963bae22e850b702f21da85c66412e03b563496b91eb9cc7a"
+  },
+  "typed_layout_note": "Uses exact declarations from accepted closure_rpc_select_textdraw; pointer-only views; no new stores or CRT initialization."
+}

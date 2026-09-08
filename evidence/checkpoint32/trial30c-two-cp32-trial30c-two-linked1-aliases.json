@@ -1,0 +1,87 @@
+{
+  "run": "cp32-trial30c-two-linked1",
+  "aliases": [
+    {
+      "alias": "_r5_rw_OperatorNew",
+      "canonical": "??2@YAPAXI@Z",
+      "actual_va": 268870752,
+      "owner": "libcpmt:newop.obj",
+      "reference_rva": "0xc627a",
+      "wrapper_bytes": 0
+    },
+    {
+      "alias": "_r5_rw_Read_thiscall_assembly_only",
+      "canonical": "?Read@R5MemoryReaderView@@QAEIPAXI@Z",
+      "actual_va": 268624112,
+      "owner": "closure_memory_reader.obj",
+      "reference_rva": "0xba7d0",
+      "wrapper_bytes": 0
+    },
+    {
+      "alias": "_r5_EntitySetMatrix_thiscall_assembly_only",
+      "canonical": "?SetMatrix@CEntity@@QAEXU_MATRIX4X4@@@Z",
+      "actual_va": 268862208,
+      "owner": "closure_world.obj",
+      "reference_rva": "0x9ebc0",
+      "wrapper_bytes": 0
+    },
+    {
+      "alias": "_r5_EntityUpdateRw_thiscall_assembly_only",
+      "canonical": "?FUNC_1009EC80@CEntity@@QAEXXZ",
+      "actual_va": 268862112,
+      "owner": "closure_world.obj",
+      "reference_rva": "0x9ec80",
+      "wrapper_bytes": 0
+    }
+  ],
+  "calls": [
+    {
+      "function": "?ReadChunk@R5RwFrameParserView@@QAEPAUR5RwChunk@@PAUR5RwReaderStorage@@@Z",
+      "offset": 31,
+      "alias": "_r5_rw_OperatorNew",
+      "actual_target": 268870752
+    },
+    {
+      "function": "?ReadChunk@R5RwFrameParserView@@QAEPAUR5RwChunk@@PAUR5RwReaderStorage@@@Z",
+      "offset": 103,
+      "alias": "_r5_rw_Read_thiscall_assembly_only",
+      "actual_target": 268624112
+    },
+    {
+      "function": "?ReadChunk@R5RwFrameParserView@@QAEPAUR5RwChunk@@PAUR5RwReaderStorage@@@Z",
+      "offset": 127,
+      "alias": "_r5_rw_Read_thiscall_assembly_only",
+      "actual_target": 268624112
+    },
+    {
+      "function": "?ReadChunk@R5RwFrameParserView@@QAEPAUR5RwChunk@@PAUR5RwReaderStorage@@@Z",
+      "offset": 152,
+      "alias": "_r5_rw_Read_thiscall_assembly_only",
+      "actual_target": 268624112
+    },
+    {
+      "function": "?ReadChunk@R5RwFrameParserView@@QAEPAUR5RwChunk@@PAUR5RwReaderStorage@@@Z",
+      "offset": 179,
+      "alias": "_r5_rw_Read_thiscall_assembly_only",
+      "actual_target": 268624112
+    },
+    {
+      "function": "?ValidateFrameExtensions@R5RwFrameParserView@@QAEHPAUR5RwChunk@@@Z",
+      "offset": 42,
+      "alias": "_r5_rw_Read_thiscall_assembly_only",
+      "actual_target": 268624112
+    },
+    {
+      "function": "?SetMatrixAndUpdate@CEntity@@QAEXU_MATRIX4X4@@@Z",
+      "offset": 62,
+      "alias": "_r5_EntitySetMatrix_thiscall_assembly_only",
+      "actual_target": 268862208
+    },
+    {
+      "function": "?SetMatrixAndUpdate@CEntity@@QAEXU_MATRIX4X4@@@Z",
+      "offset": 69,
+      "alias": "_r5_EntityUpdateRw_thiscall_assembly_only",
+      "actual_target": 268862112
+    }
+  ]
+}

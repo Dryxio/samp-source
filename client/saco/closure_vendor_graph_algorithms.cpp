@@ -12,6 +12,13 @@ extern template class DataStructures::Map<ConnectionGraph::PlayerIdAndGroupId, D
 extern template class DataStructures::Queue<ConnectionGraph::PlayerIdAndGroupId>;
 extern template class DataStructures::WeightedGraph<ConnectionGraph::PlayerIdAndGroupId, unsigned short, false>;
 
+// Actual lower providers copy value types whose real destructors are empty.
+// Their original Node-definition TU is non-throwing; declarations restore that
+// information without emitting a competing provider in this algorithm TU.
+template <> ConnectionGraph::PlayerIdAndGroupId DataStructures::Map<ConnectionGraph::PlayerIdAndGroupId, unsigned short>::GetKeyAtIndex(unsigned) const throw();
+template <> ConnectionGraph::PlayerIdAndGroupId DataStructures::Map<ConnectionGraph::PlayerIdAndGroupId, DataStructures::Map<ConnectionGraph::PlayerIdAndGroupId, unsigned short> *>::GetKeyAtIndex(unsigned) const throw();
+template <> ConnectionGraph::PlayerIdAndGroupId DataStructures::Queue<ConnectionGraph::PlayerIdAndGroupId>::Pop() throw();
+
 template void DataStructures::WeightedGraph<ConnectionGraph::PlayerIdAndGroupId, unsigned short, false>::GenerateDisjktraMatrix(ConnectionGraph::PlayerIdAndGroupId, unsigned short);
 template bool DataStructures::WeightedGraph<ConnectionGraph::PlayerIdAndGroupId, unsigned short, false>::GetShortestPath(DataStructures::List<ConnectionGraph::PlayerIdAndGroupId> &, ConnectionGraph::PlayerIdAndGroupId, ConnectionGraph::PlayerIdAndGroupId, unsigned short);
 

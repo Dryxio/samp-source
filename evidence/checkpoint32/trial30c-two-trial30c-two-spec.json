@@ -1,0 +1,53 @@
+{
+  "prefix": "trial30c-two",
+  "previous": "trial30c-one",
+  "baseline": 414410,
+  "expected_gain": 2350,
+  "run": "cp32-trial30c-two-linked1",
+  "ob1": "cp32-trial30c-two-ob1-v2",
+  "ob2": "cp32-disconnect-selection-ob2",
+  "manifests": [
+    "build/trial30c/network-agent/graph-owner-reviewed-manifest.json",
+    "build/trial30c/client-agent/rotation-reviewed-manifest.json",
+    "build/trial30c/client-agent/drunk-reviewed-manifest.json",
+    "build/trial30c/client-agent/death-reviewed-manifest.json",
+    "build/trial30c/client-agent/vehicle-collision-reviewed-manifest.json"
+  ],
+  "seed_files": [
+    "build/trial30c/network-agent/graph-owner-seeds.json",
+    "build/trial30c/client-agent/rotation-seeds.json",
+    "build/trial30c/client-agent/drunk-seeds.json",
+    "build/trial30c/client-agent/death-seeds.json",
+    "build/trial30c/client-agent/vehicle-collision-seeds.json"
+  ],
+  "evidence_files": [
+    "build/trial30c/network-agent/preflight_graph_owner.py",
+    "build/trial30c/network-agent/audit_graph_owner.py",
+    "build/trial30c/network-agent/graph-actual-owner-scope-audit.json",
+    "build/trial30c/client-agent/preflight_rotation.py",
+    "build/trial30c/client-agent/preflight_drunk.py",
+    "build/trial30c/client-agent/preflight_death.py",
+    "build/trial30c/client-agent/semantic-review.json",
+    "build/trial30c/client-agent/preflight_collision.py",
+    "build/trial30c/client-agent/source025-provenance.json"
+  ],
+  "linked_reviews": {
+    "itoa_qualification": "build/trial30c-two-itoa-qualified.json",
+    "linker_alias_provider_evidence": "build/cp32-trial30c-two-linked1-aliases.json",
+    "server_bridge_final": "build/agent-independent/server-bridge-target-alias-qualification-cp32-trial30c-two-linked1.json",
+    "logger_deleting_aliases": "build/agent-independent/logger-deleting-aliases-cp32-trial30c-two-linked1.json",
+    "network_tree_deleting_aliases": "build/agent-independent/replica-network-id-aliases-qualified.json",
+    "sha1_deleting_alias_qualification": "build/trial30c-two-sha1-deleting-alias-qualified.json",
+    "mesh_deleting_alias_qualification": "build/agent-independent/mesh-deleting-aliases-cp32-trial30c-two-linked1.json",
+    "chat_navigation_alias": "build/agent-textdraw/chat-navigation-linked-alias-review.json",
+    "console_aliases": "build/agent-independent/console-aliases-qualified.json",
+    "raknet_command_alias": "build/agent-independent/raknet-command-parser-alias-qualified.json"
+  },
+  "review": {
+    "scope": "Dijkstra1255 including completeEH; player facing rotation271, drunk level192 and death537:2350 unique proposed including vehicle collision RPC95.",
+    "adaptations": "Actual sole graph owner retains accepted lower providers and restores compiler nothrow information backed by real no-throw call trees. Player protocol/provider adaptations from source025 and binary.",
+    "reference_credit": "New graph codegen fix to existing vendor implementation; fresh player chains assisted by025 rotation/death.",
+    "verification": "Whole source/linked code,data,EH and actual COFF/PE targets; unchanged baseline regions; required negative controls and Actor ABI.",
+    "implementation": "Normal C++ except labeled source025 native CFire::Extinguish symbolic assembly bridge at GTA5393F0, no original instruction bytes copied."
+  }
+}

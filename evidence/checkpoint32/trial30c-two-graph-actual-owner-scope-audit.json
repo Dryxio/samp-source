@@ -1,0 +1,618 @@
+{
+  "status": "PASS_SCOPE_AND_OWNER_AUDIT_NOT_ACCEPTANCE",
+  "source_proposal": "eval_vendor_graph_nothrow_trial.cpp",
+  "real_owner": "closure_vendor_graph_algorithms",
+  "new_unique": 1255,
+  "old_owner_regions": [
+    {
+      "anchor": "??0?$List@UHeapNode@?$Heap@GUPlayerIdAndGroupId@ConnectionGraph@@$0A@@DataStructures@@@DataStructures@@QAE@XZ",
+      "rva": 324208,
+      "size": 13,
+      "whole_equal": true
+    },
+    {
+      "anchor": "??0?$Heap@GUPlayerIdAndGroupId@ConnectionGraph@@$0A@@DataStructures@@QAE@XZ",
+      "rva": 326672,
+      "size": 12,
+      "whole_equal": true
+    },
+    {
+      "anchor": "?Insert@?$List@UPlayerIdAndGroupId@ConnectionGraph@@@DataStructures@@QAEXUPlayerIdAndGroupId@ConnectionGraph@@@Z",
+      "rva": 324608,
+      "size": 272,
+      "whole_equal": true
+    },
+    {
+      "anchor": "?Insert@?$List@UPlayerIdAndGroupId@ConnectionGraph@@@DataStructures@@QAEXUPlayerIdAndGroupId@ConnectionGraph@@I@Z",
+      "rva": 323856,
+      "size": 303,
+      "whole_equal": true
+    },
+    {
+      "anchor": "?Insert@?$OrderedList@UPlayerIdAndGroupId@ConnectionGraph@@U12@$1??$defaultOrderedListComparison@UPlayerIdAndGroupId@ConnectionGraph@@U12@@DataStructures@@YAHABU12@0@Z@DataStructures@@QAEIABUPlayerIdAndGroupId@ConnectionGraph@@0@Z",
+      "rva": 325264,
+      "size": 131,
+      "whole_equal": true
+    },
+    {
+      "anchor": "?GetIndexFromKey@?$OrderedList@UPlayerIdAndGroupId@ConnectionGraph@@U12@$1??$defaultOrderedListComparison@UPlayerIdAndGroupId@ConnectionGraph@@U12@@DataStructures@@YAHABU12@0@Z@DataStructures@@QBEIABUPlayerIdAndGroupId@ConnectionGraph@@PA_N@Z",
+      "rva": 322720,
+      "size": 154,
+      "whole_equal": true
+    },
+    {
+      "anchor": "??0HeapNode@?$Heap@GUPlayerIdAndGroupId@ConnectionGraph@@$0A@@DataStructures@@QAE@XZ",
+      "rva": 324368,
+      "size": 15,
+      "whole_equal": true
+    },
+    {
+      "anchor": "?Insert@?$List@UHeapNode@?$Heap@GUPlayerIdAndGroupId@ConnectionGraph@@$0A@@DataStructures@@@DataStructures@@QAEXUHeapNode@?$Heap@GUPlayerIdAndGroupId@ConnectionGraph@@$0A@@2@@Z",
+      "rva": 325648,
+      "size": 277,
+      "whole_equal": true
+    },
+    {
+      "anchor": "??1HeapNode@?$Heap@GUPlayerIdAndGroupId@ConnectionGraph@@$0A@@DataStructures@@QAE@XZ",
+      "rva": 323744,
+      "size": 8,
+      "whole_equal": true
+    },
+    {
+      "anchor": "?Parent@?$Heap@GUPlayerIdAndGroupId@ConnectionGraph@@$0A@@DataStructures@@IBEII@Z",
+      "rva": 324192,
+      "size": 10,
+      "whole_equal": true
+    },
+    {
+      "anchor": "?Push@?$Heap@GUPlayerIdAndGroupId@ConnectionGraph@@$0A@@DataStructures@@QAEXABGABUPlayerIdAndGroupId@ConnectionGraph@@@Z",
+      "rva": 326688,
+      "size": 190,
+      "whole_equal": true
+    },
+    {
+      "anchor": "?Swap@?$Heap@GUPlayerIdAndGroupId@ConnectionGraph@@$0A@@DataStructures@@IAEXII@Z",
+      "rva": 325440,
+      "size": 147,
+      "whole_equal": true
+    },
+    {
+      "anchor": "?Size@?$Heap@GUPlayerIdAndGroupId@ConnectionGraph@@$0A@@DataStructures@@QBEIXZ",
+      "rva": 325424,
+      "size": 4,
+      "whole_equal": true
+    },
+    {
+      "anchor": "?PeekWeight@?$Heap@GUPlayerIdAndGroupId@ConnectionGraph@@$0A@@DataStructures@@QBEGI@Z",
+      "rva": 325408,
+      "size": 16,
+      "whole_equal": true
+    },
+    {
+      "anchor": "?LeftChild@?$Heap@GUPlayerIdAndGroupId@ConnectionGraph@@$0A@@DataStructures@@IBEII@Z",
+      "rva": 324160,
+      "size": 11,
+      "whole_equal": true
+    },
+    {
+      "anchor": "?RightChild@?$Heap@GUPlayerIdAndGroupId@ConnectionGraph@@$0A@@DataStructures@@IBEII@Z",
+      "rva": 324176,
+      "size": 11,
+      "whole_equal": true
+    },
+    {
+      "anchor": "?Pop@?$Heap@GUPlayerIdAndGroupId@ConnectionGraph@@$0A@@DataStructures@@QAE?AUPlayerIdAndGroupId@ConnectionGraph@@I@Z",
+      "rva": 326880,
+      "size": 433,
+      "whole_equal": true
+    },
+    {
+      "anchor": "?Clear@?$List@UHeapNode@?$Heap@GUPlayerIdAndGroupId@ConnectionGraph@@$0A@@DataStructures@@@DataStructures@@QAEX_N@Z",
+      "rva": 325936,
+      "size": 86,
+      "whole_equal": true
+    },
+    {
+      "anchor": "?Clear@?$Heap@GUPlayerIdAndGroupId@ConnectionGraph@@$0A@@DataStructures@@QAEXXZ",
+      "rva": 327328,
+      "size": 8,
+      "whole_equal": true
+    },
+    {
+      "anchor": "??1?$List@UHeapNode@?$Heap@GUPlayerIdAndGroupId@ConnectionGraph@@$0A@@DataStructures@@@DataStructures@@QAE@XZ",
+      "rva": 325600,
+      "size": 45,
+      "whole_equal": true
+    },
+    {
+      "anchor": "??1?$Heap@GUPlayerIdAndGroupId@ConnectionGraph@@$0A@@DataStructures@@QAE@XZ",
+      "rva": 329104,
+      "size": 73,
+      "whole_equal": true
+    },
+    {
+      "anchor": "?Size@?$OrderedList@UPlayerIdAndGroupId@ConnectionGraph@@U12@$1??$defaultOrderedListComparison@UPlayerIdAndGroupId@ConnectionGraph@@U12@@DataStructures@@YAHABU12@0@Z@DataStructures@@QBEIXZ",
+      "rva": 322880,
+      "size": 4,
+      "whole_equal": true
+    },
+    {
+      "anchor": "??0?$Queue@UNodeAndParent@?$WeightedGraph@UPlayerIdAndGroupId@ConnectionGraph@@G$0A@@DataStructures@@@DataStructures@@QAE@XZ",
+      "rva": 322144,
+      "size": 37,
+      "whole_equal": true
+    },
+    {
+      "anchor": "??0?$Queue@PAV?$Tree@UPlayerIdAndGroupId@ConnectionGraph@@@DataStructures@@@DataStructures@@QAE@XZ",
+      "rva": 323392,
+      "size": 34,
+      "whole_equal": true
+    },
+    {
+      "anchor": "?Push@?$Queue@PAV?$Tree@UPlayerIdAndGroupId@ConnectionGraph@@@DataStructures@@@DataStructures@@QAEXABQAV?$Tree@UPlayerIdAndGroupId@ConnectionGraph@@@2@@Z",
+      "rva": 323472,
+      "size": 189,
+      "whole_equal": true
+    },
+    {
+      "anchor": "??1?$Queue@PAV?$Tree@UPlayerIdAndGroupId@ConnectionGraph@@@DataStructures@@@DataStructures@@QAE@XZ",
+      "rva": 323440,
+      "size": 17,
+      "whole_equal": true
+    },
+    {
+      "anchor": "?LevelOrderTraversal@?$Tree@UPlayerIdAndGroupId@ConnectionGraph@@@DataStructures@@QAEXAAV?$List@PAV?$Tree@UPlayerIdAndGroupId@ConnectionGraph@@@DataStructures@@@2@@Z",
+      "rva": 325024,
+      "size": 240,
+      "whole_equal": true
+    },
+    {
+      "anchor": "?Insert@?$List@PAV?$Tree@UPlayerIdAndGroupId@ConnectionGraph@@@DataStructures@@@DataStructures@@QAEXQAV?$Tree@UPlayerIdAndGroupId@ConnectionGraph@@@2@@Z",
+      "rva": 322608,
+      "size": 105,
+      "whole_equal": true
+    },
+    {
+      "anchor": "??1?$Tree@UPlayerIdAndGroupId@ConnectionGraph@@@DataStructures@@QAE@XZ",
+      "rva": 324912,
+      "size": 76,
+      "whole_equal": true
+    },
+    {
+      "anchor": "??1?$List@PAV?$Tree@UPlayerIdAndGroupId@ConnectionGraph@@@DataStructures@@@DataStructures@@QAE@XZ",
+      "rva": 322576,
+      "size": 17,
+      "whole_equal": true
+    },
+    {
+      "anchor": "?DeleteDecendants@?$Tree@UPlayerIdAndGroupId@ConnectionGraph@@@DataStructures@@QAEXXZ",
+      "rva": 326464,
+      "size": 133,
+      "whole_equal": true
+    },
+    {
+      "anchor": "??0?$List@PAV?$Tree@UPlayerIdAndGroupId@ConnectionGraph@@@DataStructures@@@DataStructures@@QAE@XZ",
+      "rva": 322560,
+      "size": 13,
+      "whole_equal": true
+    },
+    {
+      "anchor": "??1?$Queue@UNodeAndParent@?$WeightedGraph@UPlayerIdAndGroupId@ConnectionGraph@@G$0A@@DataStructures@@@DataStructures@@QAE@XZ",
+      "rva": 322192,
+      "size": 17,
+      "whole_equal": true
+    },
+    {
+      "anchor": "??0?$Tree@UPlayerIdAndGroupId@ConnectionGraph@@@DataStructures@@QAE@XZ",
+      "rva": 324880,
+      "size": 20,
+      "whole_equal": true
+    },
+    {
+      "anchor": "?Push@?$Queue@UNodeAndParent@?$WeightedGraph@UPlayerIdAndGroupId@ConnectionGraph@@G$0A@@DataStructures@@@DataStructures@@QAEXABUNodeAndParent@?$WeightedGraph@UPlayerIdAndGroupId@ConnectionGraph@@G$0A@@2@@Z",
+      "rva": 322224,
+      "size": 214,
+      "whole_equal": true
+    },
+    {
+      "anchor": "??0?$List@UPlayerIdAndGroupId@ConnectionGraph@@@DataStructures@@QAE@XZ",
+      "rva": 136352,
+      "size": 13,
+      "whole_equal": true
+    },
+    {
+      "anchor": "?Clear@?$List@UPlayerIdAndGroupId@ConnectionGraph@@@DataStructures@@QAEX_N@Z",
+      "rva": 136608,
+      "size": 86,
+      "whole_equal": true
+    },
+    {
+      "anchor": "??1?$List@UPlayerIdAndGroupId@ConnectionGraph@@@DataStructures@@QAE@XZ",
+      "rva": 136368,
+      "size": 45,
+      "whole_equal": true
+    },
+    {
+      "anchor": "??$defaultOrderedListComparison@UPlayerIdAndGroupId@ConnectionGraph@@U12@@DataStructures@@YAHABUPlayerIdAndGroupId@ConnectionGraph@@0@Z",
+      "rva": 134608,
+      "size": 44,
+      "whole_equal": true
+    },
+    {
+      "anchor": "__ehhandler$?Insert@?$List@UPlayerIdAndGroupId@ConnectionGraph@@@DataStructures@@QAEXUPlayerIdAndGroupId@ConnectionGraph@@@Z",
+      "rva": 929984,
+      "size": 29,
+      "whole_equal": true
+    },
+    {
+      "anchor": "__ehhandler$?Insert@?$List@UPlayerIdAndGroupId@ConnectionGraph@@@DataStructures@@QAEXUPlayerIdAndGroupId@ConnectionGraph@@I@Z",
+      "rva": 929952,
+      "size": 29,
+      "whole_equal": true
+    },
+    {
+      "anchor": "__ehhandler$?Insert@?$List@UHeapNode@?$Heap@GUPlayerIdAndGroupId@ConnectionGraph@@$0A@@DataStructures@@@DataStructures@@QAEXUHeapNode@?$Heap@GUPlayerIdAndGroupId@ConnectionGraph@@$0A@@2@@Z",
+      "rva": 930080,
+      "size": 29,
+      "whole_equal": true
+    },
+    {
+      "anchor": "__ehhandler$?Push@?$Heap@GUPlayerIdAndGroupId@ConnectionGraph@@$0A@@DataStructures@@QAEXABGABUPlayerIdAndGroupId@ConnectionGraph@@@Z",
+      "rva": 930144,
+      "size": 18,
+      "whole_equal": true
+    },
+    {
+      "anchor": "__ehhandler$?Pop@?$Heap@GUPlayerIdAndGroupId@ConnectionGraph@@$0A@@DataStructures@@QAE?AUPlayerIdAndGroupId@ConnectionGraph@@I@Z",
+      "rva": 930176,
+      "size": 43,
+      "whole_equal": true
+    },
+    {
+      "anchor": "__ehhandler$??1?$Heap@GUPlayerIdAndGroupId@ConnectionGraph@@$0A@@DataStructures@@QAE@XZ",
+      "rva": 930272,
+      "size": 18,
+      "whole_equal": true
+    },
+    {
+      "anchor": "__ehhandler$?LevelOrderTraversal@?$Tree@UPlayerIdAndGroupId@ConnectionGraph@@@DataStructures@@QAEXAAV?$List@PAV?$Tree@UPlayerIdAndGroupId@ConnectionGraph@@@DataStructures@@@2@@Z",
+      "rva": 930048,
+      "size": 18,
+      "whole_equal": true
+    },
+    {
+      "anchor": "__ehhandler$??1?$Tree@UPlayerIdAndGroupId@ConnectionGraph@@@DataStructures@@QAE@XZ",
+      "rva": 930016,
+      "size": 18,
+      "whole_equal": true
+    },
+    {
+      "anchor": "__ehhandler$?DeleteDecendants@?$Tree@UPlayerIdAndGroupId@ConnectionGraph@@@DataStructures@@QAEXXZ",
+      "rva": 930112,
+      "size": 18,
+      "whole_equal": true
+    },
+    {
+      "anchor": "$T3361",
+      "rva": 1027484,
+      "size": 44,
+      "whole_equal": true
+    },
+    {
+      "anchor": "$T3487",
+      "rva": 1027440,
+      "size": 44,
+      "whole_equal": true
+    },
+    {
+      "anchor": "$T3758",
+      "rva": 1027600,
+      "size": 44,
+      "whole_equal": true
+    },
+    {
+      "anchor": "$T3800",
+      "rva": 1027680,
+      "size": 36,
+      "whole_equal": true
+    },
+    {
+      "anchor": "$T3886",
+      "rva": 1027716,
+      "size": 44,
+      "whole_equal": true
+    },
+    {
+      "anchor": "$T3932",
+      "rva": 1027812,
+      "size": 36,
+      "whole_equal": true
+    },
+    {
+      "anchor": "$T3602",
+      "rva": 1027564,
+      "size": 36,
+      "whole_equal": true
+    },
+    {
+      "anchor": "$T3568",
+      "rva": 1027528,
+      "size": 36,
+      "whole_equal": true
+    },
+    {
+      "anchor": "$T3921",
+      "rva": 1027644,
+      "size": 36,
+      "whole_equal": true
+    }
+  ],
+  "throw_declaration_evidence": {
+    "?Pop@?$Queue@UPlayerIdAndGroupId@ConnectionGraph@@@DataStructures@@QAE?AUPlayerIdAndGroupId@ConnectionGraph@@XZ": {
+      "owner": "closure_vendor_connection_graph",
+      "rva": 136240,
+      "size": 79,
+      "complete_call_tree": {
+        "rva": 136240,
+        "size": 79,
+        "disassembly": [
+          "mov eax, dword ptr [ecx + 4]",
+          "mov edx, dword ptr [ecx + 0xc]",
+          "inc eax",
+          "cmp eax, edx",
+          "mov dword ptr [ecx + 4], eax",
+          "jne 0x10021445",
+          "mov dword ptr [ecx + 4], 0",
+          "mov eax, dword ptr [ecx + 4]",
+          "test eax, eax",
+          "push esi",
+          "jne 0x10021458",
+          "mov eax, dword ptr [ecx]",
+          "imul edx, edx, 7",
+          "lea ecx, [edx + eax - 7]",
+          "jmp 0x10021463",
+          "mov edx, dword ptr [ecx]",
+          "imul eax, eax, 7",
+          "lea eax, [eax + edx - 7]",
+          "mov ecx, eax",
+          "mov esi, dword ptr [ecx]",
+          "mov eax, dword ptr [esp + 8]",
+          "mov edx, eax",
+          "mov dword ptr [edx], esi",
+          "mov si, word ptr [ecx + 4]",
+          "mov word ptr [edx + 4], si",
+          "mov cl, byte ptr [ecx + 6]",
+          "mov byte ptr [edx + 6], cl",
+          "pop esi",
+          "ret 4"
+        ],
+        "accepted_direct_children": {}
+      }
+    },
+    "?GetKeyAtIndex@?$Map@UPlayerIdAndGroupId@ConnectionGraph@@PAV?$Map@UPlayerIdAndGroupId@ConnectionGraph@@G$1??$defaultMapKeyComparison@UPlayerIdAndGroupId@ConnectionGraph@@@DataStructures@@YAHABU12@0@Z@DataStructures@@$1??$defaultMapKeyComparison@UPlayerIdAndGroupId@ConnectionGraph@@@4@YAHABU12@0@Z@DataStructures@@QBE?AUPlayerIdAndGroupId@ConnectionGraph@@I@Z": {
+      "owner": "closure_vendor_connection_graph",
+      "rva": 141680,
+      "size": 41,
+      "complete_call_tree": {
+        "rva": 141680,
+        "size": 41,
+        "disassembly": [
+          "mov eax, dword ptr [esp + 8]",
+          "push esi",
+          "push eax",
+          "call 0x10021de0",
+          "mov esi, dword ptr [eax]",
+          "mov ecx, dword ptr [esp + 8]",
+          "mov edx, ecx",
+          "mov dword ptr [edx], esi",
+          "mov si, word ptr [eax + 4]",
+          "mov word ptr [edx + 4], si",
+          "mov al, byte ptr [eax + 6]",
+          "mov byte ptr [edx + 6], al",
+          "mov eax, ecx",
+          "pop esi",
+          "ret 8"
+        ],
+        "accepted_direct_children": {
+          "??A?$OrderedList@UPlayerIdAndGroupId@ConnectionGraph@@UMapNode@?$Map@UPlayerIdAndGroupId@ConnectionGraph@@PAV?$Map@UPlayerIdAndGroupId@ConnectionGraph@@G$1??$defaultMapKeyComparison@UPlayerIdAndGroupId@ConnectionGraph@@@DataStructures@@YAHABU12@0@Z@DataStructures@@$1??$defaultMapKeyComparison@UPlayerIdAndGroupId@ConnectionGraph@@@4@YAHABU12@0@Z@DataStructures@@$1?NodeComparisonFunc@45@SAHABU12@ABU345@@Z@DataStructures@@QBEAAUMapNode@?$Map@UPlayerIdAndGroupId@ConnectionGraph@@PAV?$Map@UPlayerIdAndGroupId@ConnectionGraph@@G$1??$defaultMapKeyComparison@UPlayerIdAndGroupId@ConnectionGraph@@@DataStructures@@YAHABU12@0@Z@DataStructures@@$1??$defaultMapKeyComparison@UPlayerIdAndGroupId@ConnectionGraph@@@4@YAHABU12@0@Z@1@I@Z": {
+            "rva": 138720,
+            "size": 14,
+            "disassembly": [
+              "mov eax, dword ptr [esp + 4]",
+              "mov edx, dword ptr [ecx]",
+              "imul eax, eax, 0xb",
+              "add eax, edx",
+              "ret 4"
+            ],
+            "accepted_direct_children": {}
+          }
+        }
+      }
+    },
+    "?GetKeyAtIndex@?$Map@UPlayerIdAndGroupId@ConnectionGraph@@G$1??$defaultMapKeyComparison@UPlayerIdAndGroupId@ConnectionGraph@@@DataStructures@@YAHABU12@0@Z@DataStructures@@QBE?AUPlayerIdAndGroupId@ConnectionGraph@@I@Z": {
+      "owner": "closure_vendor_connection_graph",
+      "rva": 141904,
+      "size": 41,
+      "complete_call_tree": {
+        "rva": 141904,
+        "size": 41,
+        "disassembly": [
+          "mov eax, dword ptr [esp + 8]",
+          "push esi",
+          "push eax",
+          "call 0x10021ea0",
+          "mov esi, dword ptr [eax]",
+          "mov ecx, dword ptr [esp + 8]",
+          "mov edx, ecx",
+          "mov dword ptr [edx], esi",
+          "mov si, word ptr [eax + 4]",
+          "mov word ptr [edx + 4], si",
+          "mov al, byte ptr [eax + 6]",
+          "mov byte ptr [edx + 6], al",
+          "mov eax, ecx",
+          "pop esi",
+          "ret 8"
+        ],
+        "accepted_direct_children": {
+          "??A?$OrderedList@UPlayerIdAndGroupId@ConnectionGraph@@UMapNode@?$Map@UPlayerIdAndGroupId@ConnectionGraph@@G$1??$defaultMapKeyComparison@UPlayerIdAndGroupId@ConnectionGraph@@@DataStructures@@YAHABU12@0@Z@DataStructures@@$1?NodeComparisonFunc@45@SAHABU12@ABU345@@Z@DataStructures@@QBEAAUMapNode@?$Map@UPlayerIdAndGroupId@ConnectionGraph@@G$1??$defaultMapKeyComparison@UPlayerIdAndGroupId@ConnectionGraph@@@DataStructures@@YAHABU12@0@Z@1@I@Z": {
+            "rva": 138912,
+            "size": 14,
+            "disassembly": [
+              "mov eax, dword ptr [esp + 4]",
+              "mov edx, dword ptr [ecx]",
+              "lea eax, [eax + eax*8]",
+              "add eax, edx",
+              "ret 4"
+            ],
+            "accepted_direct_children": {}
+          }
+        }
+      }
+    }
+  },
+  "external_target_identity": {
+    "__except_list": {
+      "kind": "existing reviewed external",
+      "provider": {
+        "kind": "absolute-fs",
+        "reference_va": 0
+      }
+    },
+    "?Size@?$Map@UPlayerIdAndGroupId@ConnectionGraph@@PAV?$Map@UPlayerIdAndGroupId@ConnectionGraph@@G$1??$defaultMapKeyComparison@UPlayerIdAndGroupId@ConnectionGraph@@@DataStructures@@YAHABU12@0@Z@DataStructures@@$1??$defaultMapKeyComparison@UPlayerIdAndGroupId@ConnectionGraph@@@4@YAHABU12@0@Z@DataStructures@@QBEIXZ": {
+      "kind": "accepted provider",
+      "owner": "closure_vendor_connection_graph",
+      "rva": 141728
+    },
+    "??2@YAPAXI@Z": {
+      "kind": "existing reviewed external",
+      "provider": {
+        "kind": "crt",
+        "reference_va": 269247098,
+        "size": 36,
+        "sha256": "3388fc83079652ef5506eee91c61b02421ae7a865d917631a2e6f3fe84a3de6c"
+      }
+    },
+    "??1PlayerIdAndGroupId@ConnectionGraph@@QAE@XZ": {
+      "kind": "accepted provider",
+      "owner": "closure_vendor_connection_graph",
+      "rva": 133776
+    },
+    "??0PlayerIdAndGroupId@ConnectionGraph@@QAE@XZ": {
+      "kind": "accepted provider",
+      "owner": "closure_vendor_connection_graph",
+      "rva": 133760
+    },
+    "??_L@YGXPAXIHP6EX0@Z1@Z": {
+      "kind": "existing reviewed external",
+      "provider": {
+        "kind": "crt",
+        "reference_va": 269254863,
+        "size": 98,
+        "sha256": "7c0fe899d5806f80d44287b06641b1844222b1fc9421556f04f03072e26574ce"
+      }
+    },
+    "??0?$Map@UPlayerIdAndGroupId@ConnectionGraph@@G$1??$defaultMapKeyComparison@UPlayerIdAndGroupId@ConnectionGraph@@@DataStructures@@YAHABU12@0@Z@DataStructures@@QAE@XZ": {
+      "kind": "accepted provider",
+      "owner": "closure_vendor_connection_graph",
+      "rva": 143312
+    },
+    "?GetKeyAtIndex@?$Map@UPlayerIdAndGroupId@ConnectionGraph@@PAV?$Map@UPlayerIdAndGroupId@ConnectionGraph@@G$1??$defaultMapKeyComparison@UPlayerIdAndGroupId@ConnectionGraph@@@DataStructures@@YAHABU12@0@Z@DataStructures@@$1??$defaultMapKeyComparison@UPlayerIdAndGroupId@ConnectionGraph@@@4@YAHABU12@0@Z@DataStructures@@QBE?AUPlayerIdAndGroupId@ConnectionGraph@@I@Z": {
+      "kind": "accepted provider",
+      "owner": "closure_vendor_connection_graph",
+      "rva": 141680
+    },
+    "?GetIndexAtKey@?$Map@UPlayerIdAndGroupId@ConnectionGraph@@PAV?$Map@UPlayerIdAndGroupId@ConnectionGraph@@G$1??$defaultMapKeyComparison@UPlayerIdAndGroupId@ConnectionGraph@@@DataStructures@@YAHABU12@0@Z@DataStructures@@$1??$defaultMapKeyComparison@UPlayerIdAndGroupId@ConnectionGraph@@@4@YAHABU12@0@Z@DataStructures@@QAEIABUPlayerIdAndGroupId@ConnectionGraph@@@Z": {
+      "kind": "accepted provider",
+      "owner": "closure_vendor_connection_graph",
+      "rva": 326608
+    },
+    "?Get@?$Map@UPlayerIdAndGroupId@ConnectionGraph@@PAV?$Map@UPlayerIdAndGroupId@ConnectionGraph@@G$1??$defaultMapKeyComparison@UPlayerIdAndGroupId@ConnectionGraph@@@DataStructures@@YAHABU12@0@Z@DataStructures@@$1??$defaultMapKeyComparison@UPlayerIdAndGroupId@ConnectionGraph@@@4@YAHABU12@0@Z@DataStructures@@QAEAAPAV?$Map@UPlayerIdAndGroupId@ConnectionGraph@@G$1??$defaultMapKeyComparison@UPlayerIdAndGroupId@ConnectionGraph@@@DataStructures@@YAHABU12@0@Z@2@ABUPlayerIdAndGroupId@ConnectionGraph@@@Z": {
+      "kind": "accepted provider",
+      "owner": "closure_vendor_connection_graph",
+      "rva": 141520
+    },
+    "?Size@?$Map@UPlayerIdAndGroupId@ConnectionGraph@@G$1??$defaultMapKeyComparison@UPlayerIdAndGroupId@ConnectionGraph@@@DataStructures@@YAHABU12@0@Z@DataStructures@@QBEIXZ": {
+      "kind": "accepted provider",
+      "owner": "closure_vendor_connection_graph",
+      "rva": 141952
+    },
+    "??A?$Map@UPlayerIdAndGroupId@ConnectionGraph@@G$1??$defaultMapKeyComparison@UPlayerIdAndGroupId@ConnectionGraph@@@DataStructures@@YAHABU12@0@Z@DataStructures@@QBEAAGI@Z": {
+      "kind": "accepted provider",
+      "owner": "closure_vendor_connection_graph",
+      "rva": 141888
+    },
+    "?GetKeyAtIndex@?$Map@UPlayerIdAndGroupId@ConnectionGraph@@G$1??$defaultMapKeyComparison@UPlayerIdAndGroupId@ConnectionGraph@@@DataStructures@@YAHABU12@0@Z@DataStructures@@QBE?AUPlayerIdAndGroupId@ConnectionGraph@@I@Z": {
+      "kind": "accepted provider",
+      "owner": "closure_vendor_connection_graph",
+      "rva": 141904
+    },
+    "?Set@?$Map@UPlayerIdAndGroupId@ConnectionGraph@@G$1??$defaultMapKeyComparison@UPlayerIdAndGroupId@ConnectionGraph@@@DataStructures@@YAHABU12@0@Z@DataStructures@@QAEXABUPlayerIdAndGroupId@ConnectionGraph@@ABG@Z": {
+      "kind": "accepted provider",
+      "owner": "closure_vendor_connection_graph",
+      "rva": 142864
+    },
+    "?Delete@?$Map@UPlayerIdAndGroupId@ConnectionGraph@@G$1??$defaultMapKeyComparison@UPlayerIdAndGroupId@ConnectionGraph@@@DataStructures@@YAHABU12@0@Z@DataStructures@@QAE_NABUPlayerIdAndGroupId@ConnectionGraph@@@Z": {
+      "kind": "accepted provider",
+      "owner": "closure_vendor_connection_graph",
+      "rva": 143056
+    },
+    "??1?$Map@UPlayerIdAndGroupId@ConnectionGraph@@G$1??$defaultMapKeyComparison@UPlayerIdAndGroupId@ConnectionGraph@@@DataStructures@@YAHABU12@0@Z@DataStructures@@QAE@XZ": {
+      "kind": "accepted provider",
+      "owner": "closure_vendor_connection_graph",
+      "rva": 142784
+    },
+    "??_M@YGXPAXIHP6EX0@Z@Z": {
+      "kind": "existing reviewed external",
+      "provider": {
+        "kind": "crt",
+        "reference_va": 269254767,
+        "size": 96,
+        "sha256": "950eecc421e833d0fb384db3f99ddfaed4b3afc0245285ee89ef580a8fcbd8ae"
+      }
+    },
+    "??3@YAXPAX@Z": {
+      "kind": "existing reviewed external",
+      "provider": {
+        "kind": "crt",
+        "reference_va": 269247626,
+        "size": 5,
+        "sha256": "7a2b09fea4ced88e49e987aef3ba5304ddbbccb1e20599a243549fdc02637f6c"
+      }
+    },
+    "_memmove": {
+      "kind": "existing reviewed external",
+      "provider": {
+        "kind": "crt",
+        "reference_va": 269250016,
+        "size": 829,
+        "sha256": "53bcdf99d64588f181a5893007d321048f95112d1e38e5f611af0e256b9f9cbc"
+      }
+    },
+    "??MPlayerIdAndGroupId@ConnectionGraph@@QBE_NABU01@@Z": {
+      "kind": "accepted provider",
+      "owner": "closure_vendor_connection_graph",
+      "rva": 133872
+    },
+    "??8PlayerIdAndGroupId@ConnectionGraph@@QBE_NABU01@@Z": {
+      "kind": "accepted provider",
+      "owner": "closure_vendor_connection_graph",
+      "rva": 133824
+    },
+    "___CxxFrameHandler": {
+      "kind": "existing reviewed external",
+      "provider": {
+        "kind": "crt",
+        "reference_va": 269247782,
+        "size": 54,
+        "sha256": "f5d28314d58ce5cebdf00faf3b2b1bb25200dc2c9fe10f11eebdfd1ed41a6928"
+      }
+    }
+  },
+  "weak_aliases": {},
+  "layout": "Real Node7,WeightedGraph52,GraphAdjacency24,GraphTree19,GraphHeap12 unchanged static asserts; no storage/global/CRT additions.",
+  "identity_source": "Old source graph-algorithms-proposal matched three high Router algorithms, full call graph remains; only Dijkstra1255 including85EH selected now. Each used real helper is already accepted and agrees originaltarget.",
+  "source025_direct_bytes": 0,
+  "prepared_before_trial": false,
+  "adaptation": "Fresh accurate throw() specialization declarations recover original optimizer knowledge for three real nonthrowing providers without emitting duplicate definitions.",
+  "excluded": "ShortestPath1010 vs1026 remains mismatched; SpanningTree1059 depends on it. Neither counted."
+}

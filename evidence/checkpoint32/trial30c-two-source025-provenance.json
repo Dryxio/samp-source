@@ -1,0 +1,34 @@
+{
+  "status": "SOURCE_PROVENANCE_NOT_CREDIT_FOR_UNMATCHED_WORK",
+  "meaning": "0.2.5 accelerated reconstruction by supplying algorithms/member-call intent. All acceptance rests on full R5 compiled byte matching, never source resemblance. Bytes below are matched R5 family gains, not claims of unchanged 0.2.5 source bytes.",
+  "families": [
+    {
+      "name": "force rotation and facing RPC",
+      "accepted_candidate_gain": 271,
+      "implementation_functions": 2,
+      "source": "client/game/playerped.cpp:655 ForceTargetRotation and client/net/scriptrpc.cpp ScrSetPlayerFacingAngle",
+      "adaptation": "R5 native rotation field write order55C then558; real R5 char* BitStream ctor. Existing accepted providers reused."
+    },
+    {
+      "name": "fire/death chain",
+      "accepted_candidate_gain": 537,
+      "implementation_functions": 4,
+      "source": "client/game/playerped.cpp:1296 SetDead and1320 ExtinguishFire, client/net/remoteplayer.cpp:970 HandleDeath, client/net/netrpc.cpp WorldPlayerDeath",
+      "adaptation": "R5 null vehicle check beforevehiclefire; omit025 catch; explicit health=0; remote R5 death only keys/dead/state32/reset. Native fire bridge asm same symboliccall as source025, not copiedbytes."
+    },
+    {
+      "name": "skin",
+      "accepted_candidate_gain": 0,
+      "implementation_functions": 1,
+      "source": "client/net/scriptrpc.cpp:103 ScrSetPlayerSkin",
+      "adaptation": "R5 validitytest, diagnosticstring, activecheck; data snapshots yielded324\u2192349\u2192390 vs389 original. Parked and not counted."
+    }
+  ],
+  "other_families": "Selection381, label442, drunk192, vehiclecollision95 were reconstructed from R5 and reused accepted declaration/provider index; no direct025 implementation contribution.",
+  "source_hashes": {
+    "client/game/playerped.cpp": "e6725371ec66f0f881870eb46b11a4b913e754ab9a37873394e3acc71a02fc76",
+    "client/net/remoteplayer.cpp": "6b12419ba1b2cb3b21e6dc873b85ddf4f93bc1a38431667db30e08d17d7cc374",
+    "client/net/netrpc.cpp": "aa66f76560ea1a59a9bd5a657873405a151db02c4fe8b277dc410c24faa5fcda",
+    "client/net/scriptrpc.cpp": "bf5c3ed80366862778ea8a44659c29548bb01553db9cd9832e265551916fb2cd"
+  }
+}
