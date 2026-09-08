@@ -1,0 +1,193 @@
+{
+  "status": "PASS_FULL_SOURCE_REGIONS_ALL_COFF_PE_TARGETS",
+  "run": "cp32-trial30e-damage2",
+  "baseline": 419583,
+  "new_unique_code": 496,
+  "regions": [
+    {
+      "unit": "closure_rpc_vehicle_damage",
+      "section": 54,
+      "anchor": "?DamageVehicleRPCTransfer@@YAXPAURPCParameters@@@Z",
+      "anchor_offset": 0,
+      "rva": 70080,
+      "size": 290,
+      "kind": "code",
+      "sha256": "7b563c6ff7977a2a484b3b84fa1d62e7002f5c77a63b71e1667f3137f47fb465",
+      "bindings": [
+        {
+          "symbol": "__ehhandler$?DamageVehicleRPCTransfer@@YAXPAURPCParameters@@@Z",
+          "site_rva": 70083,
+          "kind": 6,
+          "target_va": 269355467
+        },
+        {
+          "symbol": "__except_list",
+          "site_rva": 70089,
+          "kind": 6,
+          "target_va": 0
+        },
+        {
+          "symbol": "__except_list",
+          "site_rva": 70097,
+          "kind": 6,
+          "target_va": 0
+        },
+        {
+          "symbol": "??0BitStream@RakNet@@QAE@PADI_N@Z",
+          "site_rva": 70138,
+          "kind": 20,
+          "target_va": 268564544
+        },
+        {
+          "symbol": "?ReadBits@BitStream@RakNet@@QAE_NPAEH_N@Z",
+          "site_rva": 70167,
+          "kind": 20,
+          "target_va": 268564912
+        },
+        {
+          "symbol": "?ReadBits@BitStream@RakNet@@QAE_NPAEH_N@Z",
+          "site_rva": 70185,
+          "kind": 20,
+          "target_va": 268564912
+        },
+        {
+          "symbol": "?ReadBits@BitStream@RakNet@@QAE_NPAEH_N@Z",
+          "site_rva": 70203,
+          "kind": 20,
+          "target_va": 268564912
+        },
+        {
+          "symbol": "?ReadBits@BitStream@RakNet@@QAE_NPAEH_N@Z",
+          "site_rva": 70221,
+          "kind": 20,
+          "target_va": 268564912
+        },
+        {
+          "symbol": "?ReadBits@BitStream@RakNet@@QAE_NPAEH_N@Z",
+          "site_rva": 70239,
+          "kind": 20,
+          "target_va": 268564912
+        },
+        {
+          "symbol": "?pNetGame@@3PAVCNetGame@@A",
+          "site_rva": 70245,
+          "kind": 6,
+          "target_va": 270986132
+        },
+        {
+          "symbol": "?UpdateDamageStatus@R5VehicleDamageView@@QAEXKKE@Z",
+          "site_rva": 70312,
+          "kind": 20,
+          "target_va": 269187776
+        },
+        {
+          "symbol": "?SetTireStatus@RPCVehicleAppearanceView@@QAEXE@Z",
+          "site_rva": 70324,
+          "kind": 20,
+          "target_va": 269187392
+        },
+        {
+          "symbol": "??1BitStream@RakNet@@QAE@XZ",
+          "site_rva": 70345,
+          "kind": 20,
+          "target_va": 268564688
+        },
+        {
+          "symbol": "__except_list",
+          "site_rva": 70359,
+          "kind": 6,
+          "target_va": 0
+        }
+      ]
+    },
+    {
+      "unit": "closure_rpc_vehicle_damage",
+      "section": 55,
+      "anchor": "$L95106",
+      "anchor_offset": 0,
+      "rva": 920000,
+      "size": 21,
+      "kind": "code",
+      "sha256": "37c3933aac96de4ae8424c4e988a6f3a6cc1781e52071394a8a9f5deeec51933",
+      "bindings": [
+        {
+          "symbol": "??1BitStream@RakNet@@QAE@XZ",
+          "site_rva": 920007,
+          "kind": 20,
+          "target_va": 268564688
+        },
+        {
+          "symbol": "$T95141",
+          "site_rva": 920012,
+          "kind": 6,
+          "target_va": 269452064
+        },
+        {
+          "symbol": "___CxxFrameHandler",
+          "site_rva": 920017,
+          "kind": 20,
+          "target_va": 269247782
+        }
+      ]
+    },
+    {
+      "unit": "closure_rpc_vehicle_damage",
+      "section": 56,
+      "anchor": "$T95141",
+      "anchor_offset": 8,
+      "rva": 1016600,
+      "size": 36,
+      "kind": "data",
+      "sha256": "15995d697b45c842e560863910bf23b7ea1c61712488a000edfb791699c2e340",
+      "bindings": [
+        {
+          "symbol": "$L95106",
+          "site_rva": 1016604,
+          "kind": 6,
+          "target_va": 269355456
+        },
+        {
+          "symbol": "$T95145",
+          "site_rva": 1016616,
+          "kind": 6,
+          "target_va": 269452056
+        }
+      ]
+    },
+    {
+      "unit": "closure_vehicle_damage_update",
+      "section": 46,
+      "anchor": "?UpdateDamageStatus@R5VehicleDamageView@@QAEXKKE@Z",
+      "anchor_offset": 0,
+      "rva": 752320,
+      "size": 185,
+      "kind": "code",
+      "sha256": "8b9e0bd66d1b813a51517ae56bd443181d5fa2c49c53982241583ad4bb1b792d",
+      "bindings": [
+        {
+          "symbol": "?GetVehicleSubtypeFromVehiclePtr@@YAIPAU_VEHICLE_TYPE@@@Z",
+          "site_rva": 752341,
+          "kind": 20,
+          "target_va": 269181408
+        },
+        {
+          "symbol": "?GetVehicleSubtypeFromVehiclePtr@@YAIPAU_VEHICLE_TYPE@@@Z",
+          "site_rva": 752366,
+          "kind": 20,
+          "target_va": 269181408
+        }
+      ]
+    }
+  ],
+  "source025_direct": 0,
+  "object_sha256": {
+    "closure_vehicle_damage_update": "7162453706de798b669e70d90297ed9da8ae556d62a337fca8552d8654f5e589",
+    "closure_rpc_vehicle_damage": "8ead012c9705b269fc7137e1b5a729094f938e207765b624545845617953d214"
+  },
+  "source_sha256": {
+    "closure_vehicle_damage_update": "6f77f6fc7340c01fee11ce3508efcee51d02d042620030c50af49b37647686d4",
+    "closure_rpc_vehicle_damage": "8c603d5c48230494d3f77c1bf39362f853c3cfe5ca994c7c0c2c3e54a296f181"
+  },
+  "typed_layout_note": "025 damage update plus RPC adapted to R5 car-or-plane outerguard and fifth tirebyte. Actual accepted subtype106/tire232 callees, vehicle pointer4c/poolvehicles1134/poolactive3074, no newstorage orCRT. Native GTA ECXvehicle calls6a3440 and6b3e90 retained from025 and checked against original completebody.",
+  "source025_contributed_code": 496
+}

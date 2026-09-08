@@ -1,0 +1,25 @@
+{
+  "status": "ACCEPTED",
+  "run": "cp32-trial30e-one-linked1",
+  "ob1": "cp32-trial30e-one-ob1",
+  "ob2": "cp32-disconnect-selection-ob2",
+  "coverage": {
+    "previous_code_bytes": 419583,
+    "batch_code_bytes": 413588,
+    "new_unique_code_bytes": 496,
+    "union_code_bytes": 420079,
+    "text_bytes": 930756,
+    "text_percent": 45.133096106820695,
+    "whole_dll_match": false
+  },
+  "review": {
+    "scope": "R5 UpdateDamageStatus185 and DamageVehicleRPC290+EH21,496 unique bytes newly reconstructed this trial.",
+    "adaptations": "Source025 car damage logic extended to car-or-plane with observed outer nonnullguard/re-read aftersubtypecall; RPC reads fifth tirebyte and calls actualaccepted SetTireStatus provider.",
+    "reference_credit": "025 contributed completebodylogic forbothfunctions, adapted to R5;496 unique includingEH. No pretrialcandidate credit.",
+    "verification": "Whole functions/EH/data and actualCOFF/PE targets. Native GTA calls6a3440 and6b3e90 confirmed in025source and originalbody; existingvehicle4c/fields5a9,5b0,5b4 andpool1134/3074 layout; no newstorageCRT.",
+    "implementation": "Normal C++ with explicitly retained source025 inline-assembly native GTA thiscall bridges; wholeR5 functions verified, no originalbytecopy."
+  },
+  "checkpoint_complete": false,
+  "pushed": false,
+  "deployed": false
+}
