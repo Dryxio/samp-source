@@ -1,0 +1,139 @@
+{
+  "status": "TRIAL_COMPLETE_CHECKPOINT_PAUSED",
+  "start_utc": "2026-09-08T13:37:46+00:00",
+  "deadline_utc": "2026-09-08T14:07:46+00:00",
+  "end_utc": "2026-09-08T14:10:30.113928+00:00",
+  "elapsed_seconds": 1964.113928,
+  "baseline": 419070,
+  "final_accepted": 419583,
+  "gain": 513,
+  "bytes_per_hour": 940.2713221837099,
+  "at_30_minutes": {
+    "accepted": 419386,
+    "gain": 316,
+    "bytes_per_hour": 632
+  },
+  "accepted_after_cutoff": 197,
+  "prepared_before_trial_code": 305,
+  "newly_prepared_code": 208,
+  "implementation": {
+    "normal_cpp_unique": 337,
+    "symbolic_abi_adjustors_unique": 176
+  },
+  "phases": {
+    "compilation": {
+      "seconds": 220.4178764599783,
+      "count": 11
+    },
+    "integration": {
+      "seconds": 53.66348516699509,
+      "count": 4
+    },
+    "verification": {
+      "seconds": 203.76400295901112,
+      "count": 2
+    }
+  },
+  "workers": {
+    "workers": {
+      "client": {
+        "thread_id": "01a08141-6522-7fc2-a651-af9e031108f6",
+        "model": "gpt-5.6-luna",
+        "effort": "high",
+        "configured_service_tier": "priority",
+        "usage": {
+          "totalTokens": 12636023,
+          "inputTokens": 12588232,
+          "cachedInputTokens": 12328960,
+          "cacheWriteInputTokens": 0,
+          "outputTokens": 47791,
+          "reasoningOutputTokens": 20443
+        },
+        "completion": {
+          "time_utc": "2026-09-08T13:58:45.892885+00:00",
+          "duration_ms": 941222,
+          "status": "completed"
+        }
+      },
+      "network": {
+        "thread_id": "01a08141-6522-7fc2-a651-afa8b05d4a40",
+        "model": "gpt-5.6-luna",
+        "effort": "high",
+        "configured_service_tier": "priority",
+        "usage": {
+          "totalTokens": 14197513,
+          "inputTokens": 14135071,
+          "cachedInputTokens": 13705216,
+          "cacheWriteInputTokens": 0,
+          "outputTokens": 62442,
+          "reasoningOutputTokens": 16273
+        },
+        "completion": {
+          "time_utc": "2026-09-08T14:04:32.366480+00:00",
+          "duration_ms": 1287599,
+          "status": "completed"
+        }
+      }
+    },
+    "rpc_errors": [
+      {
+        "id": "client-steer8",
+        "error": {
+          "code": -32600,
+          "message": "no active turn to steer"
+        },
+        "utc": "2026-09-08T13:58:51.279708+00:00"
+      },
+      {
+        "id": "client-steer10",
+        "error": {
+          "code": -32600,
+          "message": "no active turn to steer"
+        },
+        "utc": "2026-09-08T14:00:00.924366+00:00"
+      },
+      {
+        "id": "client-steer11",
+        "error": {
+          "code": -32600,
+          "message": "no active turn to steer"
+        },
+        "utc": "2026-09-08T14:03:59.227936+00:00"
+      },
+      {
+        "id": "network-interrupt",
+        "error": {
+          "code": -32600,
+          "message": "no active turn to interrupt"
+        },
+        "utc": "2026-09-08T14:05:24.994700+00:00"
+      },
+      {
+        "id": "client-interrupt",
+        "error": {
+          "code": -32600,
+          "message": "no active turn to interrupt"
+        },
+        "utc": "2026-09-08T14:05:24.994921+00:00"
+      }
+    ],
+    "fast_note": "Explicit serviceTier fast normalized by CLI0.153.2 to priority in thread/start result; no independent backend latency tier guarantee."
+  },
+  "prior_trial_c_bytes_per_hour": 12517.766834511254,
+  "code_commits": [
+    "c1ed199",
+    "ad69f78"
+  ],
+  "whole_dll_match": false,
+  "pushed": false,
+  "deployed": false,
+  "root_goal_tokens_snapshot": 141727,
+  "limitations": [
+    "This is an end-to-end workflow result, not an isolated model or Fast on/off comparison. Candidate difficulty and historical prepared work differ.",
+    "CLI setup took approximately5minutes. Root failed to restart client after completed turn; three turn/steer requests were rejected and not acted on promptly.",
+    "Historical accepted RVA coverage was confused with actual implemented providers in active capsule by workers; root corrected before acceptance.",
+    "Five normal vendor wrappers needed real leaf providers and separate translation units to retain original tailcall codegen.",
+    "CLI token usage includes repeated cached input; not monetary cost and not directly comparable with previous goal tokens.",
+    "Timed phases cover compiler/probe,link,and acceptance commands; root preparation/review/coordination is included in elapsed residual, which overlaps worker work."
+  ]
+}

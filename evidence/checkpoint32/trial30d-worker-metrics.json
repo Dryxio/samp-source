@@ -1,0 +1,85 @@
+{
+  "workers": {
+    "client": {
+      "thread_id": "01a08141-6522-7fc2-a651-af9e031108f6",
+      "model": "gpt-5.6-luna",
+      "effort": "high",
+      "configured_service_tier": "priority",
+      "usage": {
+        "totalTokens": 12636023,
+        "inputTokens": 12588232,
+        "cachedInputTokens": 12328960,
+        "cacheWriteInputTokens": 0,
+        "outputTokens": 47791,
+        "reasoningOutputTokens": 20443
+      },
+      "completion": {
+        "time_utc": "2026-09-08T13:58:45.892885+00:00",
+        "duration_ms": 941222,
+        "status": "completed"
+      }
+    },
+    "network": {
+      "thread_id": "01a08141-6522-7fc2-a651-afa8b05d4a40",
+      "model": "gpt-5.6-luna",
+      "effort": "high",
+      "configured_service_tier": "priority",
+      "usage": {
+        "totalTokens": 14197513,
+        "inputTokens": 14135071,
+        "cachedInputTokens": 13705216,
+        "cacheWriteInputTokens": 0,
+        "outputTokens": 62442,
+        "reasoningOutputTokens": 16273
+      },
+      "completion": {
+        "time_utc": "2026-09-08T14:04:32.366480+00:00",
+        "duration_ms": 1287599,
+        "status": "completed"
+      }
+    }
+  },
+  "rpc_errors": [
+    {
+      "id": "client-steer8",
+      "error": {
+        "code": -32600,
+        "message": "no active turn to steer"
+      },
+      "utc": "2026-09-08T13:58:51.279708+00:00"
+    },
+    {
+      "id": "client-steer10",
+      "error": {
+        "code": -32600,
+        "message": "no active turn to steer"
+      },
+      "utc": "2026-09-08T14:00:00.924366+00:00"
+    },
+    {
+      "id": "client-steer11",
+      "error": {
+        "code": -32600,
+        "message": "no active turn to steer"
+      },
+      "utc": "2026-09-08T14:03:59.227936+00:00"
+    },
+    {
+      "id": "network-interrupt",
+      "error": {
+        "code": -32600,
+        "message": "no active turn to interrupt"
+      },
+      "utc": "2026-09-08T14:05:24.994700+00:00"
+    },
+    {
+      "id": "client-interrupt",
+      "error": {
+        "code": -32600,
+        "message": "no active turn to interrupt"
+      },
+      "utc": "2026-09-08T14:05:24.994921+00:00"
+    }
+  ],
+  "fast_note": "Explicit serviceTier fast normalized by CLI0.153.2 to priority in thread/start result; no independent backend latency tier guarantee."
+}
