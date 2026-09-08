@@ -1,0 +1,148 @@
+{
+  "status": "TRIAL_COMPLETE_CHECKPOINT_PAUSED",
+  "start_utc": "2026-09-08T14:53:42+00:00",
+  "deadline_utc": "2026-09-08T15:23:42+00:00",
+  "end_utc": "2026-09-08T15:28:40.021744+00:00",
+  "elapsed_seconds": 2098.021744,
+  "baseline": 420576,
+  "final_accepted": 424823,
+  "text_percent": 45.642789302459505,
+  "gain": 4247,
+  "bytes_per_hour": 7287.436387980543,
+  "at_30_minutes": {
+    "gain": 3290,
+    "accepted": 423866,
+    "bytes_per_hour": 6580
+  },
+  "accepted_after_cutoff": 957,
+  "prepared_before_trial_code": 1363,
+  "newly_prepared_code": 2884,
+  "new_binary_or_adapted_source_code": 2584,
+  "newly_extracted_vendor_code": 300,
+  "source025_contributed_code": 1058,
+  "accepted_authorship": {
+    "root": 1387,
+    "client_worker": 1197,
+    "network_worker": 1663
+  },
+  "workers": {
+    "model": "gpt-6-astra",
+    "reasoning_effort": "medium",
+    "count": 2,
+    "orchestration": "native",
+    "fast_guaranteed": false
+  },
+  "phases": {
+    "compilation": {
+      "seconds": 207.1196800409234,
+      "count": 17,
+      "failures": 2
+    },
+    "integration": {
+      "seconds": 34.364305416005664,
+      "count": 5,
+      "failures": 1
+    },
+    "verification": {
+      "seconds": 385.7702887910127,
+      "count": 4,
+      "failures": 1
+    }
+  },
+  "usage": {
+    "root": {
+      "configuration": {
+        "model": "gpt-6-astra",
+        "effort": "medium"
+      },
+      "usage": {
+        "input_tokens": 16068158,
+        "cached_input_tokens": 15953536,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 38731,
+        "reasoning_output_tokens": 6101,
+        "total_tokens": 16106889,
+        "uncached_input_tokens": 114622
+      },
+      "as_of": "2026-09-08T15:28:25.060Z"
+    },
+    "/root/network_trial_f": {
+      "configuration": {
+        "model": "gpt-6-astra",
+        "effort": "medium"
+      },
+      "usage": {
+        "input_tokens": 6951646,
+        "cached_input_tokens": 6828160,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 26172,
+        "reasoning_output_tokens": 5923,
+        "total_tokens": 6977818,
+        "uncached_input_tokens": 123486
+      },
+      "as_of": "2026-09-08T15:19:49.547Z"
+    },
+    "/root/client_trial_f": {
+      "configuration": {
+        "model": "gpt-6-astra",
+        "effort": "medium"
+      },
+      "usage": {
+        "input_tokens": 7933730,
+        "cached_input_tokens": 7818752,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 26591,
+        "reasoning_output_tokens": 5989,
+        "total_tokens": 7960321,
+        "uncached_input_tokens": 114978
+      },
+      "as_of": "2026-09-08T15:19:58.623Z"
+    }
+  },
+  "usage_totals": {
+    "uncached_input_tokens": 353086,
+    "cached_input_tokens": 30600448,
+    "output_tokens": 91494,
+    "reasoning_output_tokens": 18013,
+    "total_tokens": 31045028
+  },
+  "prior_trial_c_usage": {
+    "uncached_input_tokens": 426075,
+    "cached_input_tokens": 33100544,
+    "output_tokens": 88943,
+    "reasoning_output_tokens": 20049,
+    "total_tokens": 33615562
+  },
+  "prior_trial_e_usage": {
+    "uncached_input_tokens": 1059958,
+    "cached_input_tokens": 45320448,
+    "output_tokens": 131381,
+    "reasoning_output_tokens": 51550,
+    "total_tokens": 46511787
+  },
+  "prior_trial_c_bytes_per_hour": 12517.766843375122,
+  "prior_trial_e_bytes_per_hour": 1646.3505301099951,
+  "token_metrics_note": "Session token_count counter deltas; cached inputs separate. Reasoning_output_tokens are a subset of output_tokens, not added again. Not monetary billing or subscription quota. Last telemetry timestamp per agent retained; final report/commit overhead after snapshot not included.",
+  "code_commits": [
+    "8a66194",
+    "69aeeb4",
+    "5468541"
+  ],
+  "pushed": false,
+  "deployed": false,
+  "whole_dll_match": false,
+  "limitations": [
+    "Different remaining candidates; not a controlled model or optimization A/B.",
+    "1363 accepted bytes already emitted by existing source before trial; newly extracted vendor300 uses preexisting vendor implementations.",
+    "Full acceptance rejected PlayerIdAndGroupId77 due selected linker COMDAT84; excluded.",
+    "Router963 source exact but complete emitted dependency closure includes95 extra regions and9 divergent pending functions; excluded.",
+    "Avoidable private nested type and missed pNetGame declaration compiler errors; stale Router exports caused one failed link. Costs retained.",
+    "Actor,skin,join,hover,tow/lights43 hypotheses failed; zero credit.",
+    "No whole DLL match or runtime deployment."
+  ],
+  "noncached_plus_output_tokens_per_accepted_byte": 104.68095125971274,
+  "prior_c_noncached_plus_output_tokens_per_accepted_byte": 78.1514415781487,
+  "raw_token_reduction_vs_c": 0.07646857131229878,
+  "uncached_input_reduction_vs_c": 0.1713055213284046,
+  "output_reduction_vs_c": -0.028681290264551462
+}

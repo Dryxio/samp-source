@@ -1556,3 +1556,5 @@ trial30f-two: +2457 unique accepted R5 code bytes, total 423866/930756 (45.53997
 
 
 trial30f-three: +957 unique accepted R5 code bytes, total 424823/930756 (45.642789%). Object editor749,cursor81,rect83 and existing addresshelpers44;957 unique. Router963 excluded:95 extra emitted regions and9 divergent pending dependencies. Complete source/linked code,data,EH, actual COFF/PE targets, no unimplemented provider credit; required negative controls and Actor ABI PASS. Trial F continues until 2026-09-08T15:23:42Z; no push/deployment.
+
+Trial F complete, checkpoint paused: +4,247, total424,823. Strict30min +3,290; finalized 34m 58s at 7287 bytes/hour. See trial30f-report.md for measured token comparison and rejected Router closure.

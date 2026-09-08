@@ -1,0 +1,26 @@
+{
+  "status": "REJECTED_CANDIDATES_NO_CREDIT",
+  "failures": [
+    {
+      "candidate": "PlayerIdAndGroupId vector deleting destructor",
+      "bytes": 77,
+      "cause": "Source77 exact but linked selected competing84-byte COMDAT; full linked equality failed",
+      "receipt": "build/trial30f/two-linked-failures.json"
+    },
+    {
+      "candidate": "Router Send closure",
+      "bytes": 963,
+      "cause": "Full dependency draft expanded95 extra local regions and9 divergent pending functions",
+      "receipt": "build/trial30f/missing-three-regions.json"
+    },
+    {
+      "candidate": "Actor/Skin/Join/Hover and two vehicle guard queries",
+      "cause": "Whole-body or target mismatch; preserved fresh snapshots under build/trial30f"
+    }
+  ],
+  "integration_errors": [
+    "Network DataAndTime private access compilation rejected; corrected only declaration visibility.",
+    "Combined editor lacked existing pNetGame extern; declared actual provider.",
+    "Router export removal raced an already engaged link; fresh link after frozen export list succeeded."
+  ]
+}
