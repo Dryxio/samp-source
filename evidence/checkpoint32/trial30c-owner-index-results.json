@@ -1,0 +1,24 @@
+{
+  "status": "DIAGNOSTIC_ONLY_MATCHING_GATE_DECIDES_ACCEPTANCE",
+  "batches": [
+    {
+      "batch": "one",
+      "symbols": 4937,
+      "identical_comdat_pairs": 17723,
+      "nonidentical_or_strong_collisions": 0
+    },
+    {
+      "batch": "two",
+      "symbols": 4940,
+      "identical_comdat_pairs": 80222,
+      "nonidentical_or_strong_collisions": 0
+    },
+    {
+      "batch": "three",
+      "symbols": 4950,
+      "identical_comdat_pairs": 9309,
+      "nonidentical_or_strong_collisions": 0
+    }
+  ],
+  "note": "Repeated emitted CRT/template COMDAT copies still require actual-target binding; identical bytes alone not sufficient. RVA union check excludes renamed-source duplicates."
+}

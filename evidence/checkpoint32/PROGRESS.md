@@ -1530,3 +1530,6 @@ trial30c-two: +2350 unique accepted R5 code bytes, total 416760/930756 (44.77650
 
 
 trial30c-three: +2310 unique accepted R5 code bytes, total 419070/930756 (45.024690%). Complete shortest path and spanning tree with EH2215 beyond previouslyacceptedDijkstra; network flag95. Expected2310 new unique. Complete source/linked code,data,EH, actual COFF/PE targets, no unimplemented provider credit; required negative controls and Actor ABI PASS. Trial C continues until 2026-09-08T13:25:51Z; no push/deployment.
+
+
+Trial C finished: +6590 unique bytes, 419070/930756 (45.024690%). Current cp32-trial30c-three-linked1, Ob1 cp32-trial30c-three-ob1, Ob2 cp32-disconnect-selection-ob2; units build/trial30c-three-units.txt. Latest proof trial30c-three-acceptance.json. Three coherent code commits, no push/deployment. Checkpoint incomplete and PAUSED; failed sources and real unimplemented Disconnect interface-thunk blocker preserved. Resume from build/continuation-20260908-current.json and regenerate actual owner/RVA index before compilation.
