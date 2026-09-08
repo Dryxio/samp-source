@@ -1,0 +1,71 @@
+{
+  "status": "TRIAL_COMPLETE_CHECKPOINT_PAUSED",
+  "start_utc": "2026-09-08T14:13:37+00:00",
+  "deadline_utc": "2026-09-08T14:43:37+00:00",
+  "end_utc": "2026-09-08T14:49:48.348042+00:00",
+  "elapsed_seconds": 2171.348042,
+  "baseline": 419583,
+  "final_accepted": 420576,
+  "gain": 993,
+  "bytes_per_hour": 1646.3505301099951,
+  "text_percent": 45.18649356007375,
+  "at_30_minutes": {
+    "accepted": 420079,
+    "gain": 496,
+    "bytes_per_hour": 992
+  },
+  "accepted_after_cutoff": 497,
+  "prepared_before_trial_code": 0,
+  "newly_prepared_code": 993,
+  "source025_contributed_code": 660,
+  "existing_vendor_code": 140,
+  "r5_reconstructed_code": 193,
+  "accepted_proposal_authorship": {
+    "root": 853,
+    "network_worker": 140,
+    "client_worker": 0
+  },
+  "phases": {
+    "compilation": {
+      "seconds": 266.6230687920179,
+      "count": 14,
+      "failures": 0
+    },
+    "integration": {
+      "seconds": 34.28005895804381,
+      "count": 3,
+      "failures": 1
+    },
+    "verification": {
+      "seconds": 250.4722980419756,
+      "count": 2,
+      "failures": 0
+    }
+  },
+  "workers": {
+    "model": "gpt-5.6-luna",
+    "reasoning_effort": "high",
+    "count": 2,
+    "orchestration": "native collaboration tools",
+    "fast_guaranteed": false,
+    "token_cost_measured": false
+  },
+  "prior_trial_d_bytes_per_hour": 940.2713221837099,
+  "prior_trial_c_bytes_per_hour": 12517.766834511254,
+  "code_commits": [
+    "14da58d",
+    "f376349"
+  ],
+  "whole_dll_match": false,
+  "pushed": false,
+  "deployed": false,
+  "limitations": [
+    "Not a controlled model comparison: candidate difficulty and prepared work differ.",
+    "Native workers were followed up successfully; no CLI lost-steer failure this trial.",
+    "Root compiled already accepted RPC regions after trusting stale ranking: zero credit.",
+    "Root left the rejected scores unit in the full build despite an existing owner, causing one failed link; removed before acceptance.",
+    "Four death RPC variants and scores RPC did not match; zero credit.",
+    "Measured phase times cover compilation/probes, linking and acceptance commands, not all manual preparation/reviews; elapsed includes all coordination and finalization.",
+    "Fast acceleration and per-worker token costs were not verified."
+  ]
+}

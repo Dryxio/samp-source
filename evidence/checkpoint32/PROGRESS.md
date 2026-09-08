@@ -1545,3 +1545,5 @@ trial30e-one: +496 unique accepted R5 code bytes, total 420079/930756 (45.133096
 
 
 trial30e-two: +497 unique accepted R5 code bytes, total 420576/930756 (45.186494%). Six complete vehiclequeries357 andthreeNetworkTypes helpers140 pluscomplete17-byte literal;497 unique new code. Complete source/linked code,data,EH, actual COFF/PE targets, no unimplemented provider credit; required negative controls and Actor ABI PASS. Trial E continues until 2026-09-08T14:43:37Z; no push/deployment.
+
+Trial E complete and paused: +993 unique bytes; strict30min +496, final 36m11s at 1646 bytes/hour. See trial30e-report.md. Global checkpoint remains incomplete.
