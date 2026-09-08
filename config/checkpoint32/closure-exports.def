@@ -2726,3 +2726,28 @@ EXPORTS
     ?SetNetGameFlag232RPCTransfer@@YAXPAURPCParameters@@@Z
     ?ConnectionRejectedRPCTransfer@@YAXPAURPCParameters@@@Z
     ?Disconnect@R5RakClientDisconnectInterfaceView@@QAEXIE@Z
+    ?Receive@R5RakClientInterfaceAdjustors@@QAEPAUPacket@@XZ
+    ?DeallocatePacket@R5RakClientInterfaceAdjustors@@QAEXPAUPacket@@@Z
+    ?GenerateCompressionLayer@R5RakClientInterfaceAdjustors@@QAE_NQAI_N@Z
+    ?DeleteCompressionLayer@R5RakClientInterfaceAdjustors@@QAE_N_N@Z
+    ?RegisterAsRemoteProcedureCall@R5RakClientInterfaceAdjustors@@QAEXPADP6AXPAURPCParameters@@@Z@Z
+    ?RegisterClassMemberRPC@R5RakClientInterfaceAdjustors@@QAEXPADPAX@Z
+    ?GetCompressionRatio@R5RakClientInterfaceAdjustors@@QBEMXZ
+    ?GetDecompressionRatio@R5RakClientInterfaceAdjustors@@QBEMXZ
+    ?AttachPlugin@R5RakClientInterfaceAdjustors@@QAEXPAVPluginInterface@@@Z
+    ?DetachPlugin@R5RakClientInterfaceAdjustors@@QAEXPAVPluginInterface@@@Z
+    ?GetInternalID@R5RakClientInterfaceAdjustors@@QBE?AUPlayerID@@XZ
+    ?PlayerIDToDottedIP@R5RakClientInterfaceAdjustors@@QBEPBDUPlayerID@@@Z
+    ?PushBackPacket@R5RakClientInterfaceAdjustors@@QAEXPAUPacket@@_N@Z
+    ?ApplyNetworkSimulator@R5RakClientInterfaceAdjustors@@QAEXNGG@Z
+    ?IsNetworkSimulatorActive@R5RakClientInterfaceAdjustors@@QAE_NXZ
+    ?UnregisterAsRemoteProcedureCall@RakClient@@UAEXPAD@Z
+    ?SetRouterInterface@RakClient@@UAEXPAVRouterInterface@@@Z
+    ?RemoveRouterInterface@RakClient@@UAEXPAVRouterInterface@@@Z
+    ?AllowConnectionResponseIPMigration@RakClient@@UAEX_N@Z
+    ?GetMTUSize@RakClient@@UBEHXZ
+    ?UnregisterAsRemoteProcedureCall@RakPeer@@UAEXPAD@Z
+    ?SetRouterInterface@RakPeer@@UAEXPAVRouterInterface@@@Z
+    ?RemoveRouterInterface@RakPeer@@UAEXPAVRouterInterface@@@Z
+    ?AllowConnectionResponseIPMigration@RakPeer@@UAEX_N@Z
+    ?GetMTUSize@RakPeer@@UBEHXZ

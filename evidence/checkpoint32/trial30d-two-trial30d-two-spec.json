@@ -1,0 +1,41 @@
+{
+  "prefix": "trial30d-two",
+  "previous": "trial30d-one",
+  "baseline": 419386,
+  "expected_gain": 197,
+  "run": "cp32-trial30d-two-linked2",
+  "ob1": "cp32-trial30d-two-ob1b",
+  "ob2": "cp32-disconnect-selection-ob2",
+  "manifests": [
+    "build/trial30d/other-adjustors-reviewed-manifest.json",
+    "build/trial30d/closed-wrappers-reviewed-manifest.json"
+  ],
+  "seed_files": [
+    "build/trial30d/other-adjustors-seeds.json",
+    "build/trial30d/closed-wrappers-seeds.json"
+  ],
+  "evidence_files": [
+    "build/trial30d/preflight_other_adjustors.py",
+    "build/trial30d/preflight_closed_wrappers.py",
+    "build/trial30d/other-thunk-candidates.json"
+  ],
+  "linked_reviews": {
+    "itoa_qualification": "build/trial30d-two-itoa-qualified.json",
+    "linker_alias_provider_evidence": "build/cp32-trial30d-two-linked2-aliases.json",
+    "server_bridge_final": "build/agent-independent/server-bridge-target-alias-qualification-cp32-trial30d-two-linked2.json",
+    "logger_deleting_aliases": "build/agent-independent/logger-deleting-aliases-cp32-trial30d-two-linked2.json",
+    "network_tree_deleting_aliases": "build/agent-independent/replica-network-id-aliases-qualified.json",
+    "sha1_deleting_alias_qualification": "build/trial30d-two-sha1-deleting-alias-qualified.json",
+    "mesh_deleting_alias_qualification": "build/agent-independent/mesh-deleting-aliases-cp32-trial30d-two-linked2.json",
+    "chat_navigation_alias": "build/agent-textdraw/chat-navigation-linked-alias-review.json",
+    "console_aliases": "build/agent-independent/console-aliases-qualified.json",
+    "raknet_command_alias": "build/agent-independent/raknet-command-parser-alias-qualified.json"
+  },
+  "review": {
+    "scope": "15 complete real-callee interface adjustors165 and5 normal vendor client wrappers25 plusrealMTUgetter7;54 historical providerbytes deduplicated.",
+    "adaptations": "Standalone symbolic ABI adapters independently compiler-confirmed. Luna wrappers required integrator to supply real missing RakPeer leaf bodies; no fake provider or historicalcoverage-only assumption.",
+    "reference_credit": "Existing vendor source; no025 source contribution to this batch.",
+    "verification": "Whole functions/data/EH and all realCOFF/PEtargets; requirednegativecontrols and ActorABI.",
+    "implementation": "Normal vendor C++ wrapper/provider functions;15 explicitly labeled symbolic ABI adapters independently confirmed against compiler output and realinterface slots."
+  }
+}

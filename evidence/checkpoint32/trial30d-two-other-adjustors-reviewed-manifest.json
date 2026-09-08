@@ -1,0 +1,417 @@
+{
+  "status": "PASS_COMPLETE_SYMBOLIC_ADAPTERS_INDEPENDENT_COMPILER_ABI",
+  "run": "cp32-trial30d-two-ob1b",
+  "new_unique_code": 165,
+  "regions": [
+    {
+      "unit": "closure_rakclient_interface_adjustors",
+      "section": 3,
+      "anchor": "?Receive@R5RakClientInterfaceAdjustors@@QAEPAUPacket@@XZ",
+      "anchor_offset": 0,
+      "rva": 217600,
+      "size": 11,
+      "kind": "code",
+      "sha256": "3e5884c9db8951930a5ce08ddf9f1cbb1d3f3e89517ee40ba0acc7532be7d009",
+      "bindings": [
+        {
+          "symbol": "?Receive@RakClient@@UAEPAUPacket@@XZ",
+          "site_rva": 217607,
+          "kind": 20,
+          "target_va": 268651632
+        }
+      ]
+    },
+    {
+      "unit": "closure_rakclient_interface_adjustors",
+      "section": 4,
+      "anchor": "?DeallocatePacket@R5RakClientInterfaceAdjustors@@QAEXPAUPacket@@@Z",
+      "anchor_offset": 0,
+      "rva": 215632,
+      "size": 11,
+      "kind": "code",
+      "sha256": "779eed799b21b4b339bf530d6fc1872d74d790e4bbd967b194a463838a9c43a1",
+      "bindings": [
+        {
+          "symbol": "?DeallocatePacket@RakClient@@UAEXPAUPacket@@@Z",
+          "site_rva": 215639,
+          "kind": 20,
+          "target_va": 268649264
+        }
+      ]
+    },
+    {
+      "unit": "closure_rakclient_interface_adjustors",
+      "section": 5,
+      "anchor": "?GenerateCompressionLayer@R5RakClientInterfaceAdjustors@@QAE_NQAI_N@Z",
+      "anchor_offset": 0,
+      "rva": 215648,
+      "size": 11,
+      "kind": "code",
+      "sha256": "bc2303640c0b3284d1832fd764f1dd8ca2d70fcbb29b9b7c85e04ea010d74c23",
+      "bindings": [
+        {
+          "symbol": "?GenerateCompressionLayer@RakClient@@UAE_NQAI_N@Z",
+          "site_rva": 215655,
+          "kind": 20,
+          "target_va": 268649712
+        }
+      ]
+    },
+    {
+      "unit": "closure_rakclient_interface_adjustors",
+      "section": 6,
+      "anchor": "?DeleteCompressionLayer@R5RakClientInterfaceAdjustors@@QAE_N_N@Z",
+      "anchor_offset": 0,
+      "rva": 215664,
+      "size": 11,
+      "kind": "code",
+      "sha256": "bc2303640c0b3284d1832fd764f1dd8ca2d70fcbb29b9b7c85e04ea010d74c23",
+      "bindings": [
+        {
+          "symbol": "?DeleteCompressionLayer@RakClient@@UAE_N_N@Z",
+          "site_rva": 215671,
+          "kind": 20,
+          "target_va": 268649728
+        }
+      ]
+    },
+    {
+      "unit": "closure_rakclient_interface_adjustors",
+      "section": 7,
+      "anchor": "?RegisterAsRemoteProcedureCall@R5RakClientInterfaceAdjustors@@QAEXPADP6AXPAURPCParameters@@@Z@Z",
+      "anchor_offset": 0,
+      "rva": 215680,
+      "size": 11,
+      "kind": "code",
+      "sha256": "bc2303640c0b3284d1832fd764f1dd8ca2d70fcbb29b9b7c85e04ea010d74c23",
+      "bindings": [
+        {
+          "symbol": "?RegisterAsRemoteProcedureCall@RakClient@@UAEXPADP6AXPAURPCParameters@@@Z@Z",
+          "site_rva": 215687,
+          "kind": 20,
+          "target_va": 268649744
+        }
+      ]
+    },
+    {
+      "unit": "closure_rakclient_interface_adjustors",
+      "section": 8,
+      "anchor": "?RegisterClassMemberRPC@R5RakClientInterfaceAdjustors@@QAEXPADPAX@Z",
+      "anchor_offset": 0,
+      "rva": 215696,
+      "size": 11,
+      "kind": "code",
+      "sha256": "bc2303640c0b3284d1832fd764f1dd8ca2d70fcbb29b9b7c85e04ea010d74c23",
+      "bindings": [
+        {
+          "symbol": "?RegisterClassMemberRPC@RakClient@@UAEXPADPAX@Z",
+          "site_rva": 215703,
+          "kind": 20,
+          "target_va": 268649760
+        }
+      ]
+    },
+    {
+      "unit": "closure_rakclient_interface_adjustors",
+      "section": 9,
+      "anchor": "?GetCompressionRatio@R5RakClientInterfaceAdjustors@@QBEMXZ",
+      "anchor_offset": 0,
+      "rva": 215728,
+      "size": 11,
+      "kind": "code",
+      "sha256": "15ab3f36529f88ea25bd9fe46a33b7dd9aa3754e31acb201d912be43cd59ea6f",
+      "bindings": [
+        {
+          "symbol": "?GetCompressionRatio@RakClient@@UBEMXZ",
+          "site_rva": 215735,
+          "kind": 20,
+          "target_va": 268650160
+        }
+      ]
+    },
+    {
+      "unit": "closure_rakclient_interface_adjustors",
+      "section": 10,
+      "anchor": "?GetDecompressionRatio@R5RakClientInterfaceAdjustors@@QBEMXZ",
+      "anchor_offset": 0,
+      "rva": 215744,
+      "size": 11,
+      "kind": "code",
+      "sha256": "15ab3f36529f88ea25bd9fe46a33b7dd9aa3754e31acb201d912be43cd59ea6f",
+      "bindings": [
+        {
+          "symbol": "?GetDecompressionRatio@RakClient@@UBEMXZ",
+          "site_rva": 215751,
+          "kind": 20,
+          "target_va": 268650176
+        }
+      ]
+    },
+    {
+      "unit": "closure_rakclient_interface_adjustors",
+      "section": 11,
+      "anchor": "?AttachPlugin@R5RakClientInterfaceAdjustors@@QAEXPAVPluginInterface@@@Z",
+      "anchor_offset": 0,
+      "rva": 215760,
+      "size": 11,
+      "kind": "code",
+      "sha256": "15ab3f36529f88ea25bd9fe46a33b7dd9aa3754e31acb201d912be43cd59ea6f",
+      "bindings": [
+        {
+          "symbol": "?AttachPlugin@RakClient@@UAEXPAVPluginInterface@@@Z",
+          "site_rva": 215767,
+          "kind": 20,
+          "target_va": 268650192
+        }
+      ]
+    },
+    {
+      "unit": "closure_rakclient_interface_adjustors",
+      "section": 12,
+      "anchor": "?DetachPlugin@R5RakClientInterfaceAdjustors@@QAEXPAVPluginInterface@@@Z",
+      "anchor_offset": 0,
+      "rva": 215776,
+      "size": 11,
+      "kind": "code",
+      "sha256": "15ab3f36529f88ea25bd9fe46a33b7dd9aa3754e31acb201d912be43cd59ea6f",
+      "bindings": [
+        {
+          "symbol": "?DetachPlugin@RakClient@@UAEXPAVPluginInterface@@@Z",
+          "site_rva": 215783,
+          "kind": 20,
+          "target_va": 268650208
+        }
+      ]
+    },
+    {
+      "unit": "closure_rakclient_interface_adjustors",
+      "section": 13,
+      "anchor": "?GetInternalID@R5RakClientInterfaceAdjustors@@QBE?AUPlayerID@@XZ",
+      "anchor_offset": 0,
+      "rva": 215792,
+      "size": 11,
+      "kind": "code",
+      "sha256": "5f0be7bf38ec8a6441e02d6d3f94a3c74d2bff7ac6a42cc5b34e86cb8ca75d43",
+      "bindings": [
+        {
+          "symbol": "?GetInternalID@RakClient@@UBE?AUPlayerID@@XZ",
+          "site_rva": 215799,
+          "kind": 20,
+          "target_va": 268650608
+        }
+      ]
+    },
+    {
+      "unit": "closure_rakclient_interface_adjustors",
+      "section": 14,
+      "anchor": "?PlayerIDToDottedIP@R5RakClientInterfaceAdjustors@@QBEPBDUPlayerID@@@Z",
+      "anchor_offset": 0,
+      "rva": 215808,
+      "size": 11,
+      "kind": "code",
+      "sha256": "65268a4cd9c2a437241e07d21dc2a1640572ae9ff8b7ef01683671b409510a05",
+      "bindings": [
+        {
+          "symbol": "?PlayerIDToDottedIP@RakClient@@UBEPBDUPlayerID@@@Z",
+          "site_rva": 215815,
+          "kind": 20,
+          "target_va": 268650640
+        }
+      ]
+    },
+    {
+      "unit": "closure_rakclient_interface_adjustors",
+      "section": 15,
+      "anchor": "?PushBackPacket@R5RakClientInterfaceAdjustors@@QAEXPAUPacket@@_N@Z",
+      "anchor_offset": 0,
+      "rva": 215824,
+      "size": 11,
+      "kind": "code",
+      "sha256": "c065457d3d2b5c0d79d7cc744b3f89db1d5244f08c94060582b328a1128a38d5",
+      "bindings": [
+        {
+          "symbol": "?PushBackPacket@RakClient@@UAEXPAUPacket@@_N@Z",
+          "site_rva": 215831,
+          "kind": 20,
+          "target_va": 268650672
+        }
+      ]
+    },
+    {
+      "unit": "closure_rakclient_interface_adjustors",
+      "section": 16,
+      "anchor": "?ApplyNetworkSimulator@R5RakClientInterfaceAdjustors@@QAEXNGG@Z",
+      "anchor_offset": 0,
+      "rva": 215936,
+      "size": 11,
+      "kind": "code",
+      "sha256": "81dabe052312efe89443a990325ecb33f58b3382d7dd86a7c57781e9b663298f",
+      "bindings": [
+        {
+          "symbol": "?ApplyNetworkSimulator@RakClient@@UAEXNGG@Z",
+          "site_rva": 215943,
+          "kind": 20,
+          "target_va": 268650896
+        }
+      ]
+    },
+    {
+      "unit": "closure_rakclient_interface_adjustors",
+      "section": 17,
+      "anchor": "?IsNetworkSimulatorActive@R5RakClientInterfaceAdjustors@@QAE_NXZ",
+      "anchor_offset": 0,
+      "rva": 215952,
+      "size": 11,
+      "kind": "code",
+      "sha256": "8eee410f737d0f12abfcf952eced2b6b333958ae47a05415f1c643c92ecd0a76",
+      "bindings": [
+        {
+          "symbol": "?IsNetworkSimulatorActive@RakClient@@UAE_NXZ",
+          "site_rva": 215959,
+          "kind": 20,
+          "target_va": 268650928
+        }
+      ]
+    }
+  ],
+  "independent_compiler_audit": [
+    {
+      "compiler_symbol": "?Receive@RakClient@@WNNO@AEPAUPacket@@XZ",
+      "target": "?Receive@RakClient@@UAEPAUPacket@@XZ",
+      "rva": 217600,
+      "slot": 8,
+      "compiled_symbol": "?Receive@R5RakClientInterfaceAdjustors@@QAEPAUPacket@@XZ",
+      "independent_compiler_section": 25,
+      "actual_target": 268651632
+    },
+    {
+      "compiler_symbol": "?DeallocatePacket@RakClient@@WNNO@AEXPAUPacket@@@Z",
+      "target": "?DeallocatePacket@RakClient@@UAEXPAUPacket@@@Z",
+      "rva": 215632,
+      "slot": 9,
+      "compiled_symbol": "?DeallocatePacket@R5RakClientInterfaceAdjustors@@QAEXPAUPacket@@@Z",
+      "independent_compiler_section": 26,
+      "actual_target": 268649264
+    },
+    {
+      "compiler_symbol": "?GenerateCompressionLayer@RakClient@@WNNO@AE_NQAI_N@Z",
+      "target": "?GenerateCompressionLayer@RakClient@@UAE_NQAI_N@Z",
+      "rva": 215648,
+      "slot": 20,
+      "compiled_symbol": "?GenerateCompressionLayer@R5RakClientInterfaceAdjustors@@QAE_NQAI_N@Z",
+      "independent_compiler_section": 27,
+      "actual_target": 268649712
+    },
+    {
+      "compiler_symbol": "?DeleteCompressionLayer@RakClient@@WNNO@AE_N_N@Z",
+      "target": "?DeleteCompressionLayer@RakClient@@UAE_N_N@Z",
+      "rva": 215664,
+      "slot": 21,
+      "compiled_symbol": "?DeleteCompressionLayer@R5RakClientInterfaceAdjustors@@QAE_N_N@Z",
+      "independent_compiler_section": 28,
+      "actual_target": 268649728
+    },
+    {
+      "compiler_symbol": "?RegisterAsRemoteProcedureCall@RakClient@@WNNO@AEXPADP6AXPAURPCParameters@@@Z@Z",
+      "target": "?RegisterAsRemoteProcedureCall@RakClient@@UAEXPADP6AXPAURPCParameters@@@Z@Z",
+      "rva": 215680,
+      "slot": 22,
+      "compiled_symbol": "?RegisterAsRemoteProcedureCall@R5RakClientInterfaceAdjustors@@QAEXPADP6AXPAURPCParameters@@@Z@Z",
+      "independent_compiler_section": 29,
+      "actual_target": 268649744
+    },
+    {
+      "compiler_symbol": "?RegisterClassMemberRPC@RakClient@@WNNO@AEXPADPAX@Z",
+      "target": "?RegisterClassMemberRPC@RakClient@@UAEXPADPAX@Z",
+      "rva": 215696,
+      "slot": 23,
+      "compiled_symbol": "?RegisterClassMemberRPC@R5RakClientInterfaceAdjustors@@QAEXPADPAX@Z",
+      "independent_compiler_section": 30,
+      "actual_target": 268649760
+    },
+    {
+      "compiler_symbol": "?GetCompressionRatio@RakClient@@WNNO@BEMXZ",
+      "target": "?GetCompressionRatio@RakClient@@UBEMXZ",
+      "rva": 215728,
+      "slot": 30,
+      "compiled_symbol": "?GetCompressionRatio@R5RakClientInterfaceAdjustors@@QBEMXZ",
+      "independent_compiler_section": 32,
+      "actual_target": 268650160
+    },
+    {
+      "compiler_symbol": "?GetDecompressionRatio@RakClient@@WNNO@BEMXZ",
+      "target": "?GetDecompressionRatio@RakClient@@UBEMXZ",
+      "rva": 215744,
+      "slot": 31,
+      "compiled_symbol": "?GetDecompressionRatio@R5RakClientInterfaceAdjustors@@QBEMXZ",
+      "independent_compiler_section": 33,
+      "actual_target": 268650176
+    },
+    {
+      "compiler_symbol": "?AttachPlugin@RakClient@@WNNO@AEXPAVPluginInterface@@@Z",
+      "target": "?AttachPlugin@RakClient@@UAEXPAVPluginInterface@@@Z",
+      "rva": 215760,
+      "slot": 32,
+      "compiled_symbol": "?AttachPlugin@R5RakClientInterfaceAdjustors@@QAEXPAVPluginInterface@@@Z",
+      "independent_compiler_section": 34,
+      "actual_target": 268650192
+    },
+    {
+      "compiler_symbol": "?DetachPlugin@RakClient@@WNNO@AEXPAVPluginInterface@@@Z",
+      "target": "?DetachPlugin@RakClient@@UAEXPAVPluginInterface@@@Z",
+      "rva": 215776,
+      "slot": 33,
+      "compiled_symbol": "?DetachPlugin@R5RakClientInterfaceAdjustors@@QAEXPAVPluginInterface@@@Z",
+      "independent_compiler_section": 35,
+      "actual_target": 268650208
+    },
+    {
+      "compiler_symbol": "?GetInternalID@RakClient@@WNNO@BE?AUPlayerID@@XZ",
+      "target": "?GetInternalID@RakClient@@UBE?AUPlayerID@@XZ",
+      "rva": 215792,
+      "slot": 41,
+      "compiled_symbol": "?GetInternalID@R5RakClientInterfaceAdjustors@@QBE?AUPlayerID@@XZ",
+      "independent_compiler_section": 36,
+      "actual_target": 268650608
+    },
+    {
+      "compiler_symbol": "?PlayerIDToDottedIP@RakClient@@WNNO@BEPBDUPlayerID@@@Z",
+      "target": "?PlayerIDToDottedIP@RakClient@@UBEPBDUPlayerID@@@Z",
+      "rva": 215808,
+      "slot": 42,
+      "compiled_symbol": "?PlayerIDToDottedIP@R5RakClientInterfaceAdjustors@@QBEPBDUPlayerID@@@Z",
+      "independent_compiler_section": 37,
+      "actual_target": 268650640
+    },
+    {
+      "compiler_symbol": "?PushBackPacket@RakClient@@WNNO@AEXPAUPacket@@_N@Z",
+      "target": "?PushBackPacket@RakClient@@UAEXPAUPacket@@_N@Z",
+      "rva": 215824,
+      "slot": 43,
+      "compiled_symbol": "?PushBackPacket@R5RakClientInterfaceAdjustors@@QAEXPAUPacket@@_N@Z",
+      "independent_compiler_section": 38,
+      "actual_target": 268650672
+    },
+    {
+      "compiler_symbol": "?ApplyNetworkSimulator@RakClient@@WNNO@AEXNGG@Z",
+      "target": "?ApplyNetworkSimulator@RakClient@@UAEXNGG@Z",
+      "rva": 215936,
+      "slot": 52,
+      "compiled_symbol": "?ApplyNetworkSimulator@R5RakClientInterfaceAdjustors@@QAEXNGG@Z",
+      "independent_compiler_section": 45,
+      "actual_target": 268650896
+    },
+    {
+      "compiler_symbol": "?IsNetworkSimulatorActive@RakClient@@WNNO@AE_NXZ",
+      "target": "?IsNetworkSimulatorActive@RakClient@@UAE_NXZ",
+      "rva": 215952,
+      "slot": 53,
+      "compiled_symbol": "?IsNetworkSimulatorActive@R5RakClientInterfaceAdjustors@@QAE_NXZ",
+      "independent_compiler_section": 46,
+      "actual_target": 268650928
+    }
+  ],
+  "source_sha256": "f8336a35850598fa8ba5c17128587e40f46e3bec30bbf322aa0de380474869fe",
+  "object_sha256": "f294860b675699e3f513e9b056f12ab20dfb349647275a1c6f74b53005122d09",
+  "scope": "15 whole symbolic this-adjustors for accepted real callees; no constructor/vtable/unimplemented callee credit."
+}

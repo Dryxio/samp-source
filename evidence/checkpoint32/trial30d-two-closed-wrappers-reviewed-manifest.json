@@ -1,0 +1,155 @@
+{
+  "status": "PASS_WHOLE_REAL_PROVIDERS_CLOSED",
+  "run": "cp32-trial30d-two-ob1b",
+  "new_unique_code": 32,
+  "regions": [
+    {
+      "unit": "eval_vendor_rakclient_small_wrappers",
+      "section": 3,
+      "anchor": "?UnregisterAsRemoteProcedureCall@RakClient@@UAEXPAD@Z",
+      "anchor_offset": 0,
+      "rva": 214320,
+      "size": 5,
+      "kind": "code",
+      "sha256": "d1ac7520a60992695a4bd1fc630d6a15d9260db9cc444b63f6ce53dfbd1be0a8",
+      "bindings": [
+        {
+          "symbol": "?UnregisterAsRemoteProcedureCall@RakPeer@@UAEXPAD@Z",
+          "site_rva": 214321,
+          "kind": 20,
+          "target_va": 268666448
+        }
+      ]
+    },
+    {
+      "unit": "eval_vendor_rakpeer_small_provider_leaves",
+      "section": 3,
+      "anchor": "?UnregisterAsRemoteProcedureCall@RakPeer@@UAEXPAD@Z",
+      "anchor_offset": 0,
+      "rva": 230992,
+      "size": 3,
+      "kind": "code",
+      "sha256": "e598d0c3ba86d917b177d7adde0556aa99bc355543c57aee0a3e50b684dd7e99",
+      "bindings": []
+    },
+    {
+      "unit": "eval_vendor_rakclient_small_wrappers",
+      "section": 5,
+      "anchor": "?SetRouterInterface@RakClient@@UAEXPAVRouterInterface@@@Z",
+      "anchor_offset": 0,
+      "rva": 215232,
+      "size": 5,
+      "kind": "code",
+      "sha256": "1691b3b6e5f38b78441b661646f9b25c08852bd26a549f0f5df1ba6a71590bab",
+      "bindings": [
+        {
+          "symbol": "?SetRouterInterface@RakPeer@@UAEXPAVRouterInterface@@@Z",
+          "site_rva": 215233,
+          "kind": 20,
+          "target_va": 268667856
+        }
+      ]
+    },
+    {
+      "unit": "eval_vendor_rakpeer_small_provider_leaves",
+      "section": 5,
+      "anchor": "?SetRouterInterface@RakPeer@@UAEXPAVRouterInterface@@@Z",
+      "anchor_offset": 0,
+      "rva": 232400,
+      "size": 13,
+      "kind": "code",
+      "sha256": "105b471d41ad181755be925cd42a084448c639c6e801860c93c5804027db4ef4",
+      "bindings": []
+    },
+    {
+      "unit": "eval_vendor_rakclient_small_wrappers",
+      "section": 7,
+      "anchor": "?RemoveRouterInterface@RakClient@@UAEXPAVRouterInterface@@@Z",
+      "anchor_offset": 0,
+      "rva": 215248,
+      "size": 5,
+      "kind": "code",
+      "sha256": "1691b3b6e5f38b78441b661646f9b25c08852bd26a549f0f5df1ba6a71590bab",
+      "bindings": [
+        {
+          "symbol": "?RemoveRouterInterface@RakPeer@@UAEXPAVRouterInterface@@@Z",
+          "site_rva": 215249,
+          "kind": 20,
+          "target_va": 268667872
+        }
+      ]
+    },
+    {
+      "unit": "eval_vendor_rakpeer_small_provider_leaves",
+      "section": 7,
+      "anchor": "?RemoveRouterInterface@RakPeer@@UAEXPAVRouterInterface@@@Z",
+      "anchor_offset": 0,
+      "rva": 232416,
+      "size": 25,
+      "kind": "code",
+      "sha256": "b69833b515c6845e9ed241b587fd234255e80bbc8f08f00157fa15d8ec711f53",
+      "bindings": []
+    },
+    {
+      "unit": "eval_vendor_rakclient_small_wrappers",
+      "section": 11,
+      "anchor": "?AllowConnectionResponseIPMigration@RakClient@@UAEX_N@Z",
+      "anchor_offset": 0,
+      "rva": 215360,
+      "size": 5,
+      "kind": "code",
+      "sha256": "25b9ed05035b070a4a0aa6122e94f438174b7c7c7cf425b8ad5c35b4cfa06e9d",
+      "bindings": [
+        {
+          "symbol": "?AllowConnectionResponseIPMigration@RakPeer@@UAEX_N@Z",
+          "site_rva": 215361,
+          "kind": 20,
+          "target_va": 268667232
+        }
+      ]
+    },
+    {
+      "unit": "eval_vendor_rakpeer_small_provider_leaves",
+      "section": 9,
+      "anchor": "?AllowConnectionResponseIPMigration@RakPeer@@UAEX_N@Z",
+      "anchor_offset": 0,
+      "rva": 231776,
+      "size": 13,
+      "kind": "code",
+      "sha256": "6238659147f5c35980c119a9bf0831071d2cf3d7bdd3596eb3e420a54e0e3bfe",
+      "bindings": []
+    },
+    {
+      "unit": "eval_vendor_rakclient_small_wrappers",
+      "section": 9,
+      "anchor": "?GetMTUSize@RakClient@@UBEHXZ",
+      "anchor_offset": 0,
+      "rva": 215344,
+      "size": 5,
+      "kind": "code",
+      "sha256": "b694fc71073c3feeb20923bd66f6965288926d8deff00a823557b650464ff823",
+      "bindings": [
+        {
+          "symbol": "?GetMTUSize@RakPeer@@UBEHXZ",
+          "site_rva": 215345,
+          "kind": 20,
+          "target_va": 268667056
+        }
+      ]
+    },
+    {
+      "unit": "eval_vendor_rakpeer_small_provider_leaves",
+      "section": 11,
+      "anchor": "?GetMTUSize@RakPeer@@UBEHXZ",
+      "anchor_offset": 0,
+      "rva": 231600,
+      "size": 7,
+      "kind": "code",
+      "sha256": "6fc65c1918b938027998dc5f476cb804149bfbdb77225d0b20aab82e2149bab0",
+      "bindings": []
+    }
+  ],
+  "object_sha256": "8e4a2c4226b0d4a4e6bcdbcc3588d8e7afb60a376dca15ba68844c4b382ebe5c",
+  "source_sha256": "bd116bfac5e356b40846e8f879713325ab79cdb8346700fbcd8efe5e3824372a",
+  "scope": "5 vendor client wrappers plus5 genuine vendor peer leaves.54 historicallyaccepted providerbytes receivezeroadditionalcredit; newwrapper25+MTUgetter7."
+}

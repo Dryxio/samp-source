@@ -1536,3 +1536,6 @@ Trial C finished: +6590 unique bytes, 419070/930756 (45.024690%). Current cp32-t
 
 
 trial30d-one: +316 unique accepted R5 code bytes, total 419386/930756 (45.058641%). ConnectionRejected complete284+EH21 and genuine MSVC interface adjustment thunk11; total316 unique. Complete source/linked code,data,EH, actual COFF/PE targets, no unimplemented provider credit; required negative controls and Actor ABI PASS. Trial D continues until 2026-09-08T14:07:46Z; no push/deployment.
+
+
+trial30d-two: +197 unique accepted R5 code bytes, total 419583/930756 (45.079806%). 15 complete real-callee interface adjustors165 and5 normal vendor client wrappers25 plusrealMTUgetter7;54 historical providerbytes deduplicated. Complete source/linked code,data,EH, actual COFF/PE targets, no unimplemented provider credit; required negative controls and Actor ABI PASS. Trial D continues until 2026-09-08T14:07:46Z; no push/deployment.
