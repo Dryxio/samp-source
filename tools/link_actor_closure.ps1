@@ -1,4 +1,4 @@
-param([string]$Run='cp32-closure-linked1',[string]$Ob1='cp32-closure-link-ob1',[string]$Ob2='cp32-closure-link-ob2')
+param([string]$Run='cp32-closure-linked1',[string]$Ob1='cp32-closure-link-ob1',[string]$Ob2='cp32-closure-link-ob2',[string]$ExportsFile='')
 $ErrorActionPreference='Stop'
 $Root=Split-Path $PSScriptRoot -Parent
 foreach($Value in @($Run,$Ob1,$Ob2)) {if($Value -notmatch '^cp32-[a-z0-9-]+$') {throw 'Invalid run'}}
@@ -14,7 +14,8 @@ foreach($Source in @($Ob1,$Ob2)) {
  foreach($Unit in $Probe.units) {Copy-Item (Join-Path $Directory $Unit.object) $Out; $Objects+=$Unit.object}
  Copy-Item (Join-Path $Directory 'probe.json') (Join-Path $Out "$Source.json")
 }
-Copy-Item (Join-Path $Root 'config\checkpoint32\closure-exports.def') $Out
+if(!$ExportsFile) {$ExportsFile=Join-Path $Root 'config\checkpoint32\closure-exports.def'}
+Copy-Item $ExportsFile (Join-Path $Out 'closure-exports.def')
 Push-Location $Out
 try {
  & link.exe /nologo /dll /incremental:no /opt:ref /opt:noicf /base:0x10000000 /map:closure.map /out:closure.dll /def:closure-exports.def @Objects kernel32.lib user32.lib wsock32.lib d3dx9.lib comctl32.lib gdi32.lib shell32.lib advapi32.lib

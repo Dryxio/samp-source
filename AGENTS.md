@@ -17,3 +17,16 @@
   full-byte comparison, negative controls and relevant boundary/ABI checks.
 - Do not alter legacy repositories or deploy candidates to GTA during static
   matching work. A test capsule is not a complete replacement DLL.
+
+## Checkpoint 3.2 integration handoff
+
+- For supported Ob1 batches, use a pinned proposal with
+  `tools/integration_pipeline.py`; see `docs/integration-pipeline.md`.
+  Coverage, actual symbol owners and emitted dependency closure must be checked
+  before linking. Researchers hand off isolated sources and complete reviews;
+  only the integrator runs the shared VM or changes the active source tree.
+- Do not bypass a rejected proposal by reverting to accumulated global exports.
+  Resolve the reported issue and preserve the attempt under its original ID.
+- V1 does not support header/profile/Ob2 owner changes. When a batch needs those,
+  record the limitation and apply the same prelink controls explicitly through
+  the existing workflow; all final acceptance requirements above still apply.

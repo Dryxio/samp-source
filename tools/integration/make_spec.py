@@ -1,0 +1,7 @@
+# Assemble actual reviewed inputs; caller supplies only confirmed selected sources.
+import sys,json
+from pathlib import Path
+prefix=sys.argv[1];previous=sys.argv[2];baseline=int(sys.argv[3]);gain=int(sys.argv[4]);run='cp32-'+prefix+'-linked1'
+s=dict(prefix=prefix,previous=previous,baseline=baseline,expected_gain=gain,run=run,ob1='cp32-'+prefix+'-ob1',ob2='cp32-disconnect-selection-ob2',manifests=[],seed_files=[],evidence_files=[],linked_reviews={},review={})
+paths={'itoa_qualification':'build/'+prefix+'-itoa-qualified.json','linker_alias_provider_evidence':'build/'+run+'-aliases.json','server_bridge_final':'build/agent-independent/server-bridge-target-alias-qualification-'+run+'.json','logger_deleting_aliases':'build/agent-independent/logger-deleting-aliases-'+run+'.json','network_tree_deleting_aliases':'build/agent-independent/replica-network-id-aliases-qualified.json','sha1_deleting_alias_qualification':'build/'+prefix+'-sha1-deleting-alias-qualified.json','mesh_deleting_alias_qualification':'build/agent-independent/mesh-deleting-aliases-'+run+'.json','chat_navigation_alias':'build/agent-textdraw/chat-navigation-linked-alias-review.json','console_aliases':'build/agent-independent/console-aliases-qualified.json','raknet_command_alias':'build/agent-independent/raknet-command-parser-alias-qualified.json'}
+s['linked_reviews']=paths;Path('build/'+prefix+'-spec.json').write_text(json.dumps(s,indent=2)+'\n')

@@ -1,0 +1,87 @@
+{
+  "status": "PREFLIGHT_AND_VM_COMPONENTS_VALIDATED",
+  "accepted_unique_bytes_before": 424823,
+  "accepted_unique_bytes_after": 424823,
+  "new_accepted_bytes": 0,
+  "tests": {
+    "passed": 11,
+    "log": "build/integration-pipeline/tests.log",
+    "sha256": "d6aadd25b9aa86e5ba3630fc4e015c6f3a878dc7bcb5bc31ae9c2aa17ce6abae"
+  },
+  "historical_positive": {
+    "baseline": "trial30f-two",
+    "lot": "trial30f-three",
+    "potential_root_bytes": 915,
+    "previously_accepted_unique_gain": 957,
+    "result": "CLOSURE_REVIEWED_NOT_ACCEPTED",
+    "new_credit": 0
+  },
+  "router_live": {
+    "proposal": "build/integration-pipeline/router-live2-proposal.json",
+    "result": "BLOCKED",
+    "unreviewed_regions": 95,
+    "new_pending": 9,
+    "collisions": 24,
+    "phases": [
+      {
+        "utc": "2026-09-08T23:02:04.266222+00:00",
+        "stage": "vm-idle",
+        "seconds": 1.1414285410137381,
+        "exit_code": 0,
+        "log": "build/integration-pipeline/pipeline-router-live2/vm-idle-1788908523124271000.log"
+      },
+      {
+        "utc": "2026-09-08T23:02:22.981515+00:00",
+        "stage": "compile",
+        "seconds": 18.22907616602606,
+        "exit_code": 0,
+        "log": "build/integration-pipeline/pipeline-router-live2/compile-1788908524751744000.log"
+      },
+      {
+        "utc": "2026-09-08T23:02:26.340153+00:00",
+        "stage": "audit",
+        "seconds": 3.0859931250161026,
+        "status": "BLOCKED",
+        "pending": 9,
+        "unreviewed": 95,
+        "collisions": 24
+      }
+    ],
+    "linked": false,
+    "accepted": false
+  },
+  "exports_rebuild": {
+    "status": "EXPORT_SNAPSHOT_PASS",
+    "run": "cp32-pipeline-exports-smoke",
+    "exports_sha256": "6404a8a30d12b82aab611a8f0153b42c3a615bca1de10c6102bc1949dbc6c460",
+    "whole_text_bytes_equal": true,
+    "text_raw_size": 528384,
+    "text_sha256": "a0a7e94720396035d5645336bbb8321a95a38e21492958a2bb6d2b1f2329254a",
+    "scope": "Rebuild comparison against accepted capsule only; no additional R5 coverage."
+  },
+  "recovered_failure": {
+    "attempt": "pipeline-router-live",
+    "description": "15374-character Units argument did not create an output directory. Host command terminated; subsequent guest idle check passed. Retry via unit file completed in 18.229 seconds. Long command transport is the suspected cause, not independently proven."
+  },
+  "tools": {
+    "tools/integration_pipeline.py": "48b1e764cb8df5e560166fec1b4fe94b9250f5f24da63288bf9201df5e01b42d",
+    "tools/integration/probe_proposal.ps1": "dcb5e073f7f08d2d0a9cf3cfe113dca88cda656c8039427d79dac1371b8b8ba3",
+    "tools/integration/make_spec.py": "3976e0f0cdc4369c1e21aee2ec935b7479dc3e8fa4cd2ce2f195314c34be2a54",
+    "tools/integration/review_contract.py": "2ba375b2e1a3e82151abd9db5ae635adb3eef52930ea3dd748fe1abe29d49564",
+    "tools/check_integration_idle.ps1": "ef77707c28b64a59ff77dbecc6ab1fa989eb5a729994bc57a0d3cff997253dfd",
+    "tools/link_actor_closure.ps1": "6a3541684a20a5536fb57b5b4abe405aa3e8995def02f6fbbeedb16bd264f990",
+    "tests/integration/test_pipeline.py": "f595a36442a6e2b69bad6520e2beb09db09e02a2874933267c96a4e8f4938767"
+  },
+  "preservation": {
+    "preexisting_main_cpp_sha256": "b277de8b0305e3169600165aba9165aeb678f73de20d5593bfb6969fe3d1a370",
+    "coverage_unchanged": true,
+    "pushed": false,
+    "deployed": false
+  },
+  "limitations": [
+    "Fresh positive proposal has not yet traversed the complete run-to-accept path; final acceptance gate was not altered.",
+    "Qualification scripts and manifests still depend on retained ignored build artifacts.",
+    "No new model or throughput/token benchmark run; savings are unmeasured.",
+    "Header, profile and Ob2 ownership changes need explicit integration outside v1."
+  ]
+}
