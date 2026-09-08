@@ -1,0 +1,279 @@
+{
+  "status": "PASS_FULL_SOURCE_REGIONS_ALL_COFF_PE_TARGETS",
+  "run": "cp32-trial30f-controls2",
+  "baseline": 420576,
+  "new_unique_code": 443,
+  "regions": [
+    {
+      "unit": "closure_vehicle_control_queries",
+      "section": 60,
+      "anchor": "?SetTrainSpeed@R5VehicleControlQueriesView@@QAEXM@Z",
+      "anchor_offset": 0,
+      "rva": 751872,
+      "size": 54,
+      "kind": "code",
+      "sha256": "521fec8372a16854e8d8199a342ced4e8fce681d00cbadf15f92b437849fce6c",
+      "bindings": [
+        {
+          "symbol": "__real@42c80000",
+          "site_rva": 751878,
+          "kind": 6,
+          "target_va": 269377812
+        },
+        {
+          "symbol": "__real@c2c80000",
+          "site_rva": 751895,
+          "kind": 6,
+          "target_va": 269377808
+        }
+      ]
+    },
+    {
+      "unit": "closure_vehicle_control_queries",
+      "section": 61,
+      "anchor": "__real@c2c80000",
+      "anchor_offset": 0,
+      "rva": 942352,
+      "size": 4,
+      "kind": "data",
+      "sha256": "a48bed9ee2950cc60ca91386a6c64a241a9ffd24bdc321bb15424ac7a7d3baed",
+      "bindings": []
+    },
+    {
+      "unit": "closure_vehicle_control_queries",
+      "section": 62,
+      "anchor": "__real@42c80000",
+      "anchor_offset": 0,
+      "rva": 942356,
+      "size": 4,
+      "kind": "data",
+      "sha256": "2238f30df488055daf5e8f362cf904e370011a172d20df193c1b7ae8e5db8e01",
+      "bindings": []
+    },
+    {
+      "unit": "closure_vehicle_control_queries",
+      "section": 57,
+      "anchor": "?GetTrainSpeed@R5VehicleControlQueriesView@@QAEMXZ",
+      "anchor_offset": 0,
+      "rva": 751840,
+      "size": 30,
+      "kind": "code",
+      "sha256": "bfcf163fa099c6919a58eae6cc661d2b53362894c94108e94d61148917287d06",
+      "bindings": [
+        {
+          "symbol": "__real@00000000",
+          "site_rva": 751850,
+          "kind": 6,
+          "target_va": 269375808
+        }
+      ]
+    },
+    {
+      "unit": "closure_vehicle_control_queries",
+      "section": 58,
+      "anchor": "__real@00000000",
+      "anchor_offset": 0,
+      "rva": 940352,
+      "size": 4,
+      "kind": "data",
+      "sha256": "df3f619804a92fdb4057192dc43dd748ea778adc52bc498ce80524c014b81119",
+      "bindings": []
+    },
+    {
+      "unit": "closure_vehicle_control_queries",
+      "section": 55,
+      "anchor": "?IsValid@R5VehicleControlQueriesView@@QAEHXZ",
+      "anchor_offset": 0,
+      "rva": 753984,
+      "size": 16,
+      "kind": "code",
+      "sha256": "fb22203b717a8f2f64ecc9148820d5e40a0f70590b38e17fcf8de1ad0c2fff3a",
+      "bindings": [
+        {
+          "symbol": "?GamePool_Vehicle_GetAt@@YGPAU_VEHICLE_TYPE@@H@Z",
+          "site_rva": 753989,
+          "kind": 20,
+          "target_va": 269171664
+        }
+      ]
+    },
+    {
+      "unit": "closure_vehicle_control_queries",
+      "section": 53,
+      "anchor": "?SetWindow@R5VehicleControlQueriesView@@QAEXE@Z",
+      "anchor_offset": 0,
+      "rva": 753904,
+      "size": 77,
+      "kind": "code",
+      "sha256": "5cc65908389e8cf14a2fde23c44a89f31b55f9e3dae4d141c849588409bd11c6",
+      "bindings": [
+        {
+          "symbol": "?GamePool_Vehicle_GetAt@@YGPAU_VEHICLE_TYPE@@H@Z",
+          "site_rva": 753919,
+          "kind": 20,
+          "target_va": 269171664
+        },
+        {
+          "symbol": "?GetVehicleSubtypeFromVehiclePtr@@YAIPAU_VEHICLE_TYPE@@@Z",
+          "site_rva": 753936,
+          "kind": 20,
+          "target_va": 269181408
+        },
+        {
+          "symbol": "?r5_car_window@@3USCRIPT_COMMAND@@B",
+          "site_rva": 753965,
+          "kind": 6,
+          "target_va": 269407784
+        },
+        {
+          "symbol": "?ScriptCommand@@YAHPBUSCRIPT_COMMAND@@ZZ",
+          "site_rva": 753970,
+          "kind": 20,
+          "target_va": 269165328
+        }
+      ]
+    },
+    {
+      "unit": "closure_vehicle_control_queries",
+      "section": 3,
+      "anchor": "?r5_car_window@@3USCRIPT_COMMAND@@B",
+      "anchor_offset": 0,
+      "rva": 972328,
+      "size": 18,
+      "kind": "data",
+      "sha256": "b8979881508123f5b20ca569a4aeda6a9c183ceffa6eaf8588af7f91feaaa130",
+      "bindings": []
+    },
+    {
+      "unit": "closure_vehicle_control_queries",
+      "section": 51,
+      "anchor": "?SetHornState@R5VehicleControlQueriesView@@QAEXE@Z",
+      "anchor_offset": 0,
+      "rva": 750800,
+      "size": 112,
+      "kind": "code",
+      "sha256": "6db5721a1d6c949d48a235b0b740604a369d37788ac9b26591300efe9ae3938e",
+      "bindings": [
+        {
+          "symbol": "?GamePool_Vehicle_GetAt@@YGPAU_VEHICLE_TYPE@@H@Z",
+          "site_rva": 750815,
+          "kind": 20,
+          "target_va": 269171664
+        },
+        {
+          "symbol": "?GetVehicleSubtypeFromVehiclePtr@@YAIPAU_VEHICLE_TYPE@@@Z",
+          "site_rva": 750832,
+          "kind": 20,
+          "target_va": 269181408
+        },
+        {
+          "symbol": "?GetVehicleSubtypeFromVehiclePtr@@YAIPAU_VEHICLE_TYPE@@@Z",
+          "site_rva": 750853,
+          "kind": 20,
+          "target_va": 269181408
+        },
+        {
+          "symbol": "?GetVehicleSubtypeFromVehiclePtr@@YAIPAU_VEHICLE_TYPE@@@Z",
+          "site_rva": 750874,
+          "kind": 20,
+          "target_va": 269181408
+        }
+      ]
+    },
+    {
+      "unit": "closure_vehicle_control_queries",
+      "section": 49,
+      "anchor": "?SetInvulnerable@R5VehicleControlQueriesView@@QAEXH@Z",
+      "anchor_offset": 0,
+      "rva": 749968,
+      "size": 154,
+      "kind": "code",
+      "sha256": "2961935e62912e458e206ab12a203950f0fa3f3dcea001f829f392c799fab767",
+      "bindings": [
+        {
+          "symbol": "?GamePool_Vehicle_GetAt@@YGPAU_VEHICLE_TYPE@@H@Z",
+          "site_rva": 749987,
+          "kind": 20,
+          "target_va": 269171664
+        },
+        {
+          "symbol": "?r5_car_immunities@@3USCRIPT_COMMAND@@B",
+          "site_rva": 750029,
+          "kind": 6,
+          "target_va": 269407644
+        },
+        {
+          "symbol": "?ScriptCommand@@YAHPBUSCRIPT_COMMAND@@ZZ",
+          "site_rva": 750034,
+          "kind": 20,
+          "target_va": 269165328
+        },
+        {
+          "symbol": "?r5_tires_vulnerable@@3USCRIPT_COMMAND@@B",
+          "site_rva": 750045,
+          "kind": 6,
+          "target_va": 269407884
+        },
+        {
+          "symbol": "?ScriptCommand@@YAHPBUSCRIPT_COMMAND@@ZZ",
+          "site_rva": 750050,
+          "kind": 20,
+          "target_va": 269165328
+        },
+        {
+          "symbol": "?r5_car_immunities@@3USCRIPT_COMMAND@@B",
+          "site_rva": 750083,
+          "kind": 6,
+          "target_va": 269407644
+        },
+        {
+          "symbol": "?ScriptCommand@@YAHPBUSCRIPT_COMMAND@@ZZ",
+          "site_rva": 750088,
+          "kind": 20,
+          "target_va": 269165328
+        },
+        {
+          "symbol": "?r5_tires_vulnerable@@3USCRIPT_COMMAND@@B",
+          "site_rva": 750099,
+          "kind": 6,
+          "target_va": 269407884
+        },
+        {
+          "symbol": "?ScriptCommand@@YAHPBUSCRIPT_COMMAND@@ZZ",
+          "site_rva": 750104,
+          "kind": 20,
+          "target_va": 269165328
+        }
+      ]
+    },
+    {
+      "unit": "closure_vehicle_control_queries",
+      "section": 4,
+      "anchor": "?r5_tires_vulnerable@@3USCRIPT_COMMAND@@B",
+      "anchor_offset": 0,
+      "rva": 972428,
+      "size": 18,
+      "kind": "data",
+      "sha256": "2900304c728ea626166de61f777e3c0420a65234bd903fa972ca0c2fc81e9750",
+      "bindings": []
+    },
+    {
+      "unit": "closure_vehicle_control_queries",
+      "section": 5,
+      "anchor": "?r5_car_immunities@@3USCRIPT_COMMAND@@B",
+      "anchor_offset": 0,
+      "rva": 972188,
+      "size": 18,
+      "kind": "data",
+      "sha256": "e6e83a3ba2e24799444ed2657c80389ab5578a953913274b7413f6a8be56954b",
+      "bindings": []
+    }
+  ],
+  "object_sha256": {
+    "closure_vehicle_control_queries": "05abd2d916f853b735a6068458186221dc074c072b10c500357738cea602b1d2"
+  },
+  "source_sha256": {
+    "closure_vehicle_control_queries": "5e5d5b83d42606bf85b34d7b41582bf6b9f950ee7fcc3d0ec6b8bd35c75175f9"
+  },
+  "typed_layout_note": "Partial vehicle view gtaId44, vehicle4c, invulnerable58; actual native pool/subtype and scripting provider. Complete command descriptors and floats. No new storage CRT."
+}

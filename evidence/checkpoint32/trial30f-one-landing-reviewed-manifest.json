@@ -1,0 +1,91 @@
+{
+  "status": "PASS_FULL_SOURCE_REGIONS_ALL_COFF_PE_TARGETS",
+  "run": "cp32-trial30f-second1",
+  "baseline": 420576,
+  "new_unique_code": 229,
+  "regions": [
+    {
+      "unit": "closure_vehicle_landing_gear",
+      "section": 51,
+      "anchor": "?GetLandingGearState@R5VehicleLandingGearView@@QAE?AW4eLandingGearState@@XZ",
+      "anchor_offset": 0,
+      "rva": 751152,
+      "size": 92,
+      "kind": "code",
+      "sha256": "d7ff3c205068d8f9a81fd395e42a9eac38c2562670c649cca962a117bced5f26",
+      "bindings": [
+        {
+          "symbol": "?GetVehicleSubtypeFromVehiclePtr@@YAIPAU_VEHICLE_TYPE@@@Z",
+          "site_rva": 751167,
+          "kind": 20,
+          "target_va": 269181408
+        },
+        {
+          "symbol": "__real@00000000",
+          "site_rva": 751210,
+          "kind": 6,
+          "target_va": 269375808
+        }
+      ]
+    },
+    {
+      "unit": "closure_vehicle_landing_gear",
+      "section": 50,
+      "anchor": "__real@00000000",
+      "anchor_offset": 0,
+      "rva": 940352,
+      "size": 4,
+      "kind": "data",
+      "sha256": "df3f619804a92fdb4057192dc43dd748ea778adc52bc498ce80524c014b81119",
+      "bindings": []
+    },
+    {
+      "unit": "closure_vehicle_landing_gear",
+      "section": 48,
+      "anchor": "?SetLandingGearState@R5VehicleLandingGearView@@QAEXW4eLandingGearState@@@Z",
+      "anchor_offset": 0,
+      "rva": 751008,
+      "size": 137,
+      "kind": "code",
+      "sha256": "e2e0685c4c0ea2f99680dcc4e29d3b35e3e3dccca4bc8c926b772e5bb9da4a7b",
+      "bindings": [
+        {
+          "symbol": "?GetVehicleSubtypeFromVehiclePtr@@YAIPAU_VEHICLE_TYPE@@@Z",
+          "site_rva": 751026,
+          "kind": 20,
+          "target_va": 269181408
+        },
+        {
+          "symbol": "__real@00000000",
+          "site_rva": 751073,
+          "kind": 6,
+          "target_va": 269375808
+        },
+        {
+          "symbol": "__real@3f800000",
+          "site_rva": 751112,
+          "kind": 6,
+          "target_va": 269376300
+        }
+      ]
+    },
+    {
+      "unit": "closure_vehicle_landing_gear",
+      "section": 49,
+      "anchor": "__real@3f800000",
+      "anchor_offset": 0,
+      "rva": 940844,
+      "size": 4,
+      "kind": "data",
+      "sha256": "e00e5eb9444182f352323374ef4e08ebcb784725fdd4fd612d7730540b3e0c8c",
+      "bindings": []
+    }
+  ],
+  "object_sha256": {
+    "closure_vehicle_landing_gear": "44672f67533214f08a9f4dcb4413aa955599747156209617d3069b70ad8befc3"
+  },
+  "source_sha256": {
+    "closure_vehicle_landing_gear": "3cb3a0d45795f428c8ff067e9db91f2cfec4d614b4f7f641cd8f15432de0abfc"
+  },
+  "typed_layout_note": "Base source landing-gear methods with original symbolic native GTA bridge at 6CAC20/6CAC70; pointer4c, native landing float9cc, complete constants, real subtype provider. No new storage CRT."
+}

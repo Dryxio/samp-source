@@ -1,0 +1,41 @@
+{
+  "prefix": "trial30f-one",
+  "previous": "trial30e-two",
+  "baseline": 420576,
+  "expected_gain": 833,
+  "run": "cp32-trial30f-one-linked1",
+  "ob1": "cp32-trial30f-one-ob1",
+  "ob2": "cp32-disconnect-selection-ob2",
+  "manifests": [
+    "build/trial30f/controls-reviewed-manifest.json",
+    "build/trial30f/landing-reviewed-manifest.json",
+    "build/trial30f/network-agent/packet-spc-reviewed-manifest.json"
+  ],
+  "seed_files": [
+    "build/trial30f/controls-seeds.json",
+    "build/trial30f/landing-seeds.json",
+    "build/trial30f/network-agent/packet-spc-seeds.json"
+  ],
+  "evidence_files": [
+    "build/trial30f/preflight_controls.py",
+    "build/trial30f/preflight_landing.py"
+  ],
+  "linked_reviews": {
+    "itoa_qualification": "build/trial30f-one-itoa-qualified.json",
+    "linker_alias_provider_evidence": "build/cp32-trial30f-one-linked1-aliases.json",
+    "server_bridge_final": "build/agent-independent/server-bridge-target-alias-qualification-cp32-trial30f-one-linked1.json",
+    "logger_deleting_aliases": "build/agent-independent/logger-deleting-aliases-cp32-trial30f-one-linked1.json",
+    "network_tree_deleting_aliases": "build/agent-independent/replica-network-id-aliases-qualified.json",
+    "sha1_deleting_alias_qualification": "build/trial30f-one-sha1-deleting-alias-qualified.json",
+    "mesh_deleting_alias_qualification": "build/agent-independent/mesh-deleting-aliases-cp32-trial30f-one-linked1.json",
+    "chat_navigation_alias": "build/agent-textdraw/chat-navigation-linked-alias-review.json",
+    "console_aliases": "build/agent-independent/console-aliases-qualified.json",
+    "raknet_command_alias": "build/agent-independent/raknet-command-parser-alias-qualified.json"
+  },
+  "review": {
+    "scope": "Six vehicle control queries443, two landing gear methods229, actual Packet SPC lifecycle161; 833 unique code.",
+    "adaptations": "025 invulnerability154 plus native R5 exclusions, base horn112/landing229, train constraints84/window77/poolvalid16 reconstructed. Vendor SPC161 type confirmed at real RakPeer callsites.",
+    "implementation": "Normal C++ except explicitly retained base source symbolic GTA landing-gear bridge, no original instruction copying. Whole code/data/EH and actual targets.",
+    "reference_credit": "025 contributes invulnerability154; other base/vendor or original reconstruction. All new except historical SPC161 source body rediscovered this trial; provenance reported separately."
+  }
+}
