@@ -1,0 +1,25 @@
+{
+  "status": "ACCEPTED",
+  "run": "cp32-trial30d-one-linked2",
+  "ob1": "cp32-trial30d-one-ob1b",
+  "ob2": "cp32-disconnect-selection-ob2",
+  "coverage": {
+    "previous_code_bytes": 419070,
+    "batch_code_bytes": 412841,
+    "new_unique_code_bytes": 316,
+    "union_code_bytes": 419386,
+    "text_bytes": 930756,
+    "text_percent": 45.058640502988965,
+    "whole_dll_match": false
+  },
+  "review": {
+    "scope": "ConnectionRejected complete284+EH21 and genuine MSVC interface adjustment thunk11; total316 unique.",
+    "adaptations": "Original vendor constructor forces real RakClient multiple-inheritance thunk; actual interface slot8 target0x34a40 and accepted Disconnect0x341f0 verified. Constructor and vtables unaccepted and uncounted. Standalone symbolic adapter used because unrelated constructor references prevent closed linking; full adapter compared with original and independently compiler-produced vendor thunk. No constructor dependencies credited.",
+    "reference_credit": "025 handler candidate305 prepared before trial; current workflow resolves real missing thunk11.",
+    "verification": "Whole source/linked code data EH and all real relocation targets; strict acceptance negative controls and Actor ABI.",
+    "implementation": "Normal C++ RPC; explicitly labeled symbolic this-adjustor ABI adapter independently confirmed by genuine MSVC vendor constructor thunk."
+  },
+  "checkpoint_complete": false,
+  "pushed": false,
+  "deployed": false
+}

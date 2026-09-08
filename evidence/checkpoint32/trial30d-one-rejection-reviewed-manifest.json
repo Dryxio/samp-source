@@ -1,0 +1,335 @@
+{
+  "status": "PASS_FULL_SOURCE_REGIONS_ALL_COFF_PE_TARGETS",
+  "run": "cp32-trial30d-one-ob1b",
+  "baseline": 419070,
+  "new_unique_code": 316,
+  "regions": [
+    {
+      "unit": "closure_rakclient_disconnect_adjustor",
+      "section": 3,
+      "anchor": "?Disconnect@R5RakClientDisconnectInterfaceView@@QAEXIE@Z",
+      "anchor_offset": 0,
+      "rva": 215616,
+      "size": 11,
+      "kind": "code",
+      "sha256": "d7a75893f38c31dfd307edbaba7d029ef1fbe929bbccbd51f31a4ac7d6bdbe1d",
+      "bindings": [
+        {
+          "symbol": "?Disconnect@RakClient@@UAEXIE@Z",
+          "site_rva": 215623,
+          "kind": 20,
+          "target_va": 268648944
+        }
+      ]
+    },
+    {
+      "unit": "closure_rpc_connection_rejected",
+      "section": 50,
+      "anchor": "?ConnectionRejectedRPCTransfer@@YAXPAURPCParameters@@@Z",
+      "anchor_offset": 0,
+      "rva": 66880,
+      "size": 284,
+      "kind": "code",
+      "sha256": "679d9e0daf11318f8ea7a398e8fbe84f8c208c709cfec5c0e1828545344c7b9b",
+      "bindings": [
+        {
+          "symbol": "__ehhandler$?ConnectionRejectedRPCTransfer@@YAXPAURPCParameters@@@Z",
+          "site_rva": 66883,
+          "kind": 6,
+          "target_va": 269355275
+        },
+        {
+          "symbol": "__except_list",
+          "site_rva": 66889,
+          "kind": 6,
+          "target_va": 0
+        },
+        {
+          "symbol": "__except_list",
+          "site_rva": 66897,
+          "kind": 6,
+          "target_va": 0
+        },
+        {
+          "symbol": "??0BitStream@RakNet@@QAE@PADI_N@Z",
+          "site_rva": 66938,
+          "kind": 20,
+          "target_va": 268564544
+        },
+        {
+          "symbol": "?ReadBits@BitStream@RakNet@@QAE_NPAEH_N@Z",
+          "site_rva": 66967,
+          "kind": 20,
+          "target_va": 268564912
+        },
+        {
+          "symbol": "??_C@_0CI@EAMJKMEN@CONNECTION?5REJECTED?3?5Incorrect?5V@",
+          "site_rva": 66980,
+          "kind": 6,
+          "target_va": 269377592
+        },
+        {
+          "symbol": "?pChatWindow@@3PAVCChatWindow@@A",
+          "site_rva": 66992,
+          "kind": 6,
+          "target_va": 270986112
+        },
+        {
+          "symbol": "??_C@_0CL@DNHEHAJD@CONNECTION?5REJECTED?3?5Unacceptabl@",
+          "site_rva": 66997,
+          "kind": 6,
+          "target_va": 269377548
+        },
+        {
+          "symbol": "?AddInfoMessage@R5ChatInfoView@@QAAXPADZZ",
+          "site_rva": 67003,
+          "kind": 20,
+          "target_va": 268861552
+        },
+        {
+          "symbol": "?pChatWindow@@3PAVCChatWindow@@A",
+          "site_rva": 67008,
+          "kind": 6,
+          "target_va": 270986112
+        },
+        {
+          "symbol": "??_C@_0DH@EBEBHIIB@Please?5choose?5another?5nick?5betwe@",
+          "site_rva": 67013,
+          "kind": 6,
+          "target_va": 269377492
+        },
+        {
+          "symbol": "?AddInfoMessage@R5ChatInfoView@@QAAXPADZZ",
+          "site_rva": 67019,
+          "kind": 20,
+          "target_va": 268861552
+        },
+        {
+          "symbol": "?pChatWindow@@3PAVCChatWindow@@A",
+          "site_rva": 67025,
+          "kind": 6,
+          "target_va": 270986112
+        },
+        {
+          "symbol": "??_C@_0BO@OADOOAPH@Please?5use?5only?5a?9z?0?5A?9Z?0?50?99?$AA@",
+          "site_rva": 67030,
+          "kind": 6,
+          "target_va": 269377460
+        },
+        {
+          "symbol": "?AddInfoMessage@R5ChatInfoView@@QAAXPADZZ",
+          "site_rva": 67036,
+          "kind": 20,
+          "target_va": 268861552
+        },
+        {
+          "symbol": "?pChatWindow@@3PAVCChatWindow@@A",
+          "site_rva": 67042,
+          "kind": 6,
+          "target_va": 270986112
+        },
+        {
+          "symbol": "??_C@_0DE@JENICEMD@Use?5?1quit?5to?5exit?5or?5press?5ESC?5a@",
+          "site_rva": 67047,
+          "kind": 6,
+          "target_va": 269377408
+        },
+        {
+          "symbol": "?AddInfoMessage@R5ChatInfoView@@QAAXPADZZ",
+          "site_rva": 67053,
+          "kind": 20,
+          "target_va": 268861552
+        },
+        {
+          "symbol": "?pChatWindow@@3PAVCChatWindow@@A",
+          "site_rva": 67067,
+          "kind": 6,
+          "target_va": 270986112
+        },
+        {
+          "symbol": "??_C@_0CG@CDEFBOHO@CONNECTION?5REJECTED?3?5Bad?5mod?5ver@",
+          "site_rva": 67072,
+          "kind": 6,
+          "target_va": 269377368
+        },
+        {
+          "symbol": "??_C@_0DH@EGDPOPLL@CONNECTION?5REJECTED?3?5Unable?5to?5a@",
+          "site_rva": 67084,
+          "kind": 6,
+          "target_va": 269377312
+        },
+        {
+          "symbol": "?pChatWindow@@3PAVCChatWindow@@A",
+          "site_rva": 67090,
+          "kind": 6,
+          "target_va": 270986112
+        },
+        {
+          "symbol": "?AddInfoMessage@R5ChatInfoView@@QAAXPADZZ",
+          "site_rva": 67096,
+          "kind": 20,
+          "target_va": 268861552
+        },
+        {
+          "symbol": "?pNetGame@@3PAVCNetGame@@A",
+          "site_rva": 67105,
+          "kind": 6,
+          "target_va": 270986132
+        },
+        {
+          "symbol": "??1BitStream@RakNet@@QAE@XZ",
+          "site_rva": 67139,
+          "kind": 20,
+          "target_va": 268564688
+        },
+        {
+          "symbol": "__except_list",
+          "site_rva": 67153,
+          "kind": 6,
+          "target_va": 0
+        }
+      ]
+    },
+    {
+      "unit": "closure_rpc_connection_rejected",
+      "section": 52,
+      "anchor": "??_C@_0DH@EGDPOPLL@CONNECTION?5REJECTED?3?5Unable?5to?5a@",
+      "anchor_offset": 0,
+      "rva": 941856,
+      "size": 55,
+      "kind": "data",
+      "sha256": "35544d386651185b13b3766f788a84dfe8beb703ffba143ddefd2ed5c3f74d23",
+      "bindings": []
+    },
+    {
+      "unit": "closure_rpc_connection_rejected",
+      "section": 53,
+      "anchor": "??_C@_0CG@CDEFBOHO@CONNECTION?5REJECTED?3?5Bad?5mod?5ver@",
+      "anchor_offset": 0,
+      "rva": 941912,
+      "size": 38,
+      "kind": "data",
+      "sha256": "b766dc20a4f1ebb77bce4d1530376c91380422c7309cc654357d18c83c666174",
+      "bindings": []
+    },
+    {
+      "unit": "closure_rpc_connection_rejected",
+      "section": 54,
+      "anchor": "??_C@_0DE@JENICEMD@Use?5?1quit?5to?5exit?5or?5press?5ESC?5a@",
+      "anchor_offset": 0,
+      "rva": 941952,
+      "size": 52,
+      "kind": "data",
+      "sha256": "2500a4ee6fb23a26dfc725d5fb65d1dae98a58f9dc1b3cdbf0ea1265b2678780",
+      "bindings": []
+    },
+    {
+      "unit": "closure_rpc_connection_rejected",
+      "section": 55,
+      "anchor": "??_C@_0BO@OADOOAPH@Please?5use?5only?5a?9z?0?5A?9Z?0?50?99?$AA@",
+      "anchor_offset": 0,
+      "rva": 942004,
+      "size": 30,
+      "kind": "data",
+      "sha256": "8c444afb7c8aa720c327cfb3fd0bba81355fcf0de367d1a8cc1bdb8fd4759fae",
+      "bindings": []
+    },
+    {
+      "unit": "closure_rpc_connection_rejected",
+      "section": 56,
+      "anchor": "??_C@_0DH@EBEBHIIB@Please?5choose?5another?5nick?5betwe@",
+      "anchor_offset": 0,
+      "rva": 942036,
+      "size": 55,
+      "kind": "data",
+      "sha256": "b9d5383548a42930e4d4ec42757441fb66a0c034d626323cb4df7213cfee461f",
+      "bindings": []
+    },
+    {
+      "unit": "closure_rpc_connection_rejected",
+      "section": 57,
+      "anchor": "??_C@_0CL@DNHEHAJD@CONNECTION?5REJECTED?3?5Unacceptabl@",
+      "anchor_offset": 0,
+      "rva": 942092,
+      "size": 43,
+      "kind": "data",
+      "sha256": "cc8718c61d2f83a50e4c5d85d21f9e3c84a730961ab99e0a5767731040095417",
+      "bindings": []
+    },
+    {
+      "unit": "closure_rpc_connection_rejected",
+      "section": 58,
+      "anchor": "??_C@_0CI@EAMJKMEN@CONNECTION?5REJECTED?3?5Incorrect?5V@",
+      "anchor_offset": 0,
+      "rva": 942136,
+      "size": 40,
+      "kind": "data",
+      "sha256": "54d03df7443581e7d659d577fea3568faf736fbee04d5808b0363131c79265cf",
+      "bindings": []
+    },
+    {
+      "unit": "closure_rpc_connection_rejected",
+      "section": 51,
+      "anchor": "$L95073",
+      "anchor_offset": 0,
+      "rva": 919808,
+      "size": 21,
+      "kind": "code",
+      "sha256": "cdc0657ffaf7653978cc0bb3c420de08e7dab0b195c6f2fd8612881ad8ccf33e",
+      "bindings": [
+        {
+          "symbol": "??1BitStream@RakNet@@QAE@XZ",
+          "site_rva": 919815,
+          "kind": 20,
+          "target_va": 268564688
+        },
+        {
+          "symbol": "$T95086",
+          "site_rva": 919820,
+          "kind": 6,
+          "target_va": 269451848
+        },
+        {
+          "symbol": "___CxxFrameHandler",
+          "site_rva": 919825,
+          "kind": 20,
+          "target_va": 269247782
+        }
+      ]
+    },
+    {
+      "unit": "closure_rpc_connection_rejected",
+      "section": 59,
+      "anchor": "$T95086",
+      "anchor_offset": 8,
+      "rva": 1016384,
+      "size": 36,
+      "kind": "data",
+      "sha256": "3e6bca56f6beb6540a8939138d678384496ed75d34588c0e8f4942d7cf984ecb",
+      "bindings": [
+        {
+          "symbol": "$L95073",
+          "site_rva": 1016388,
+          "kind": 6,
+          "target_va": 269355264
+        },
+        {
+          "symbol": "$T95091",
+          "site_rva": 1016400,
+          "kind": 6,
+          "target_va": 269451840
+        }
+      ]
+    }
+  ],
+  "source025_direct": 305,
+  "object_sha256": {
+    "closure_rpc_connection_rejected": "fa7fd2eb599319c27bd3e888c830bd725f6ac0acc4c72463e328c4b61ccf79d9",
+    "closure_rakclient_disconnect_adjustor": "9e2a58e6d095289d847d7fc1983031b10ce2c262c9db2c9c3758d40da9a03dd4"
+  },
+  "source_sha256": {
+    "closure_rpc_connection_rejected": "5cbd7ca0e331dee10fb6e0e051280cd575e742d3a714637620dafc86a566dec6",
+    "closure_rakclient_disconnect_adjustor": "b3dc0200528778c3e3c6cd1d758921d878b14177e9234cca80963b9752dd3928"
+  },
+  "typed_layout_note": "Vendor original RakClient constructor emits genuine MSVC WNNO thunk for interface offset0xDDE. Full 11 bytes and actual Disconnect target verified. Original slot8 RVAe75d0 selects this thunk. Constructor/vtables not accepted or counted. RPC from025 adapted R5 exact messages."
+}

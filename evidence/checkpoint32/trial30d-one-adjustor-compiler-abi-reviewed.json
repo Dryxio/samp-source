@@ -1,0 +1,34 @@
+{
+  "status": "PASS_INDEPENDENT_COMPILER_ABI_CONFIRMATION",
+  "regions": [
+    {
+      "run": "cp32-trial30d-thunks1",
+      "unit": "eval_vendor_rakclient_ctor_thunks",
+      "symbol": "?Disconnect@RakClient@@WNNO@AEXIE@Z",
+      "size": 11,
+      "object_section_sha256": "8777d7a0d611d0a8d47002f99b3403b43f9021735b7b2f640294ede93400fb81",
+      "relocations": [
+        {
+          "offset": 7,
+          "kind": 20,
+          "symbol": "?Disconnect@RakClient@@UAEXIE@Z"
+        }
+      ]
+    },
+    {
+      "run": "cp32-trial30d-one-ob1b",
+      "unit": "closure_rakclient_disconnect_adjustor",
+      "symbol": "?Disconnect@R5RakClientDisconnectInterfaceView@@QAEXIE@Z",
+      "size": 11,
+      "object_section_sha256": "8777d7a0d611d0a8d47002f99b3403b43f9021735b7b2f640294ede93400fb81",
+      "relocations": [
+        {
+          "offset": 7,
+          "kind": 20,
+          "symbol": "?Disconnect@RakClient@@UAEXIE@Z"
+        }
+      ]
+    }
+  ],
+  "scope": "Complete 11-byte this adjustment+tailcall; slot0xe75d0 selects original0x34a40. Actual main provider0x341f0 accepted. No constructor/vtable/unimplemented callee counted."
+}

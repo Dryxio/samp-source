@@ -1,0 +1,39 @@
+{
+  "prefix": "trial30d-one",
+  "previous": "trial30c-three",
+  "baseline": 419070,
+  "expected_gain": 316,
+  "run": "cp32-trial30d-one-linked2",
+  "ob1": "cp32-trial30d-one-ob1b",
+  "ob2": "cp32-disconnect-selection-ob2",
+  "manifests": [
+    "build/trial30d/rejection-reviewed-manifest.json"
+  ],
+  "seed_files": [
+    "build/trial30d/rejection-seeds.json"
+  ],
+  "evidence_files": [
+    "build/trial30d/preflight_rejection.py",
+    "build/trial30d/adjustor-compiler-abi-reviewed.json"
+  ],
+  "linked_reviews": {
+    "itoa_qualification": "build/trial30d-one-itoa-qualified.json",
+    "linker_alias_provider_evidence": "build/cp32-trial30d-one-linked2-aliases.json",
+    "server_bridge_final": "build/agent-independent/server-bridge-target-alias-qualification-cp32-trial30d-one-linked2.json",
+    "logger_deleting_aliases": "build/agent-independent/logger-deleting-aliases-cp32-trial30d-one-linked2.json",
+    "network_tree_deleting_aliases": "build/agent-independent/replica-network-id-aliases-qualified.json",
+    "sha1_deleting_alias_qualification": "build/trial30d-one-sha1-deleting-alias-qualified.json",
+    "mesh_deleting_alias_qualification": "build/agent-independent/mesh-deleting-aliases-cp32-trial30d-one-linked2.json",
+    "chat_navigation_alias": "build/agent-textdraw/chat-navigation-linked-alias-review.json",
+    "console_aliases": "build/agent-independent/console-aliases-qualified.json",
+    "raknet_command_alias": "build/agent-independent/raknet-command-parser-alias-qualified.json"
+  },
+  "review": {
+    "scope": "ConnectionRejected complete284+EH21 and genuine MSVC interface adjustment thunk11; total316 unique.",
+    "adaptations": "Original vendor constructor forces real RakClient multiple-inheritance thunk; actual interface slot8 target0x34a40 and accepted Disconnect0x341f0 verified. Constructor and vtables unaccepted and uncounted. Standalone symbolic adapter used because unrelated constructor references prevent closed linking; full adapter compared with original and independently compiler-produced vendor thunk. No constructor dependencies credited.",
+    "reference_credit": "025 handler candidate305 prepared before trial; current workflow resolves real missing thunk11.",
+    "verification": "Whole source/linked code data EH and all real relocation targets; strict acceptance negative controls and Actor ABI.",
+    "implementation": "Normal C++ RPC; explicitly labeled symbolic this-adjustor ABI adapter independently confirmed by genuine MSVC vendor constructor thunk."
+  },
+  "prepared_before_trial": 305
+}

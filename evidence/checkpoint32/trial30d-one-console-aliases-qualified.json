@@ -1,0 +1,155 @@
+{
+  "status": "PASS_THREE_TRUE_CONSOLE_DELETING_ALIASES",
+  "run": "build/cp32-trial30d-one-linked2",
+  "object_sha256": {
+    "eval_vendor_command_parser_interface": "4c8d840ae3cab2d0db2d2c491260ae58315b17465130e57d35c95ea428c26ac4",
+    "eval_vendor_log_command_parser": "57bb75f0a27b033b4557978702cd81ad150a7f678ab49b1c0488589e7a7fb7dc",
+    "eval_vendor_packet_console_logger": "a711d2af0c296a4b41d78d655d618061247ce5c80fea5245e46f53e914040bd4"
+  },
+  "dll_sha256": "5b24930c9a81d89f73037457e03f4dbf33b1533f26081d640e5a6b90dc694e50",
+  "map_sha256": "31d76e8aa36de3596f27d3a591286f67be7528adc9c923ea2d422801eb1c18e4",
+  "aliases": [
+    {
+      "weak": "??_ECommandParserInterface@@UAEPAXI@Z",
+      "canonical": "??_GCommandParserInterface@@UAEPAXI@Z",
+      "table": "??_7CommandParserInterface@@6B@",
+      "source_storage": 105,
+      "source_undefined": true,
+      "actual_aux_fallback": true,
+      "canonical_va": 268800784,
+      "alias_va": 268800784,
+      "owner": "eval_vendor_command_parser_interface.obj",
+      "full_code": [
+        {
+          "image": "original",
+          "rva": 133696,
+          "size": 30,
+          "sha256": "53c3b6a3193ae8e453339a56d80a6492cf7da3f24f2c2c9a4b2ad3756f3e52d7",
+          "whole_bytes_equal": true,
+          "all_fixups_and_PE_relocations_equal": true
+        },
+        {
+          "image": "linked",
+          "rva": 365328,
+          "size": 30,
+          "sha256": "3c8385e4417e22facd4cdc7e7f863fd09374c15f8ad7471d2eb79110183b4836",
+          "whole_bytes_equal": true,
+          "all_fixups_and_PE_relocations_equal": true
+        }
+      ],
+      "full_vft": [
+        {
+          "image": "original",
+          "rva": 943436,
+          "size": 60,
+          "sha256": "06c137b091bbdab97b23f01bf9906e6b760460d53415b6cc532c137d58bc27c0",
+          "whole_bytes_equal": true,
+          "all_fixups_and_PE_relocations_equal": true
+        },
+        {
+          "image": "linked",
+          "rva": 543796,
+          "size": 60,
+          "sha256": "5f481b7b682581bfcb5e82f03d30c3c11789c64c73acc3b7733120d1b0fa2d23",
+          "whole_bytes_equal": true,
+          "all_fixups_and_PE_relocations_equal": true
+        }
+      ]
+    },
+    {
+      "weak": "??_ELogCommandParser@@UAEPAXI@Z",
+      "canonical": "??_GLogCommandParser@@UAEPAXI@Z",
+      "table": "??_7LogCommandParser@@6B@",
+      "source_storage": 105,
+      "source_undefined": true,
+      "actual_aux_fallback": true,
+      "canonical_va": 268802464,
+      "alias_va": 268802464,
+      "owner": "eval_vendor_log_command_parser.obj",
+      "full_code": [
+        {
+          "image": "original",
+          "rva": 202624,
+          "size": 30,
+          "sha256": "76a260184aa8a6d7a4dece6926e1090b85ee1578f5661585a7949099f52747e9",
+          "whole_bytes_equal": true,
+          "all_fixups_and_PE_relocations_equal": true
+        },
+        {
+          "image": "linked",
+          "rva": 367008,
+          "size": 30,
+          "sha256": "6dd178432ba430df6e5583ee952c3b48eb6c7aadfa5075c560d984e17aec4b4d",
+          "whole_bytes_equal": true,
+          "all_fixups_and_PE_relocations_equal": true
+        }
+      ],
+      "full_vft": [
+        {
+          "image": "original",
+          "rva": 945972,
+          "size": 60,
+          "sha256": "ed0261a1c07ec45946c3a7ff043553c551d85ac7ffa3303d776116d66f3e336c",
+          "whole_bytes_equal": true,
+          "all_fixups_and_PE_relocations_equal": true
+        },
+        {
+          "image": "linked",
+          "rva": 544052,
+          "size": 60,
+          "sha256": "ea07880bced4c776e026869f3eb54450f4f0ffa22e8ab8be15887447f5187062",
+          "whole_bytes_equal": true,
+          "all_fixups_and_PE_relocations_equal": true
+        }
+      ]
+    },
+    {
+      "weak": "??_EPacketConsoleLogger@@UAEPAXI@Z",
+      "canonical": "??_GPacketConsoleLogger@@UAEPAXI@Z",
+      "table": "??_7PacketConsoleLogger@@6B@",
+      "source_storage": 105,
+      "source_undefined": true,
+      "actual_aux_fallback": true,
+      "canonical_va": 268804816,
+      "alias_va": 268804816,
+      "owner": "eval_vendor_packet_console_logger.obj",
+      "full_code": [
+        {
+          "image": "original",
+          "rva": 211520,
+          "size": 30,
+          "sha256": "88cd01552103cceb3d52d2447625357ca2d800ef636af637e016bd9b4a8b7ec8",
+          "whole_bytes_equal": true,
+          "all_fixups_and_PE_relocations_equal": true
+        },
+        {
+          "image": "linked",
+          "rva": 369360,
+          "size": 30,
+          "sha256": "eebbde48543086421613c3be6e3e9b43a21c715ac5bd5761899bf12fa21eebc9",
+          "whole_bytes_equal": true,
+          "all_fixups_and_PE_relocations_equal": true
+        }
+      ],
+      "full_vft": [
+        {
+          "image": "original",
+          "rva": 946592,
+          "size": 68,
+          "sha256": "4f371033169841dab98c1077a1bc35d8026620b1fbef3fa3c83f7a6ba95fd357",
+          "whole_bytes_equal": true,
+          "all_fixups_and_PE_relocations_equal": true
+        },
+        {
+          "image": "linked",
+          "rva": 544600,
+          "size": 68,
+          "sha256": "b1568c1e90d65b8b90c004d3dc68e3a2b4c1737d3e660c03a7d6396b3726b0cd",
+          "whole_bytes_equal": true,
+          "all_fixups_and_PE_relocations_equal": true
+        }
+      ]
+    }
+  ],
+  "extra_code_credit": 0
+}

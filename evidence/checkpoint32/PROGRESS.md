@@ -1533,3 +1533,6 @@ trial30c-three: +2310 unique accepted R5 code bytes, total 419070/930756 (45.024
 
 
 Trial C finished: +6590 unique bytes, 419070/930756 (45.024690%). Current cp32-trial30c-three-linked1, Ob1 cp32-trial30c-three-ob1, Ob2 cp32-disconnect-selection-ob2; units build/trial30c-three-units.txt. Latest proof trial30c-three-acceptance.json. Three coherent code commits, no push/deployment. Checkpoint incomplete and PAUSED; failed sources and real unimplemented Disconnect interface-thunk blocker preserved. Resume from build/continuation-20260908-current.json and regenerate actual owner/RVA index before compilation.
+
+
+trial30d-one: +316 unique accepted R5 code bytes, total 419386/930756 (45.058641%). ConnectionRejected complete284+EH21 and genuine MSVC interface adjustment thunk11; total316 unique. Complete source/linked code,data,EH, actual COFF/PE targets, no unimplemented provider credit; required negative controls and Actor ABI PASS. Trial D continues until 2026-09-08T14:07:46Z; no push/deployment.
