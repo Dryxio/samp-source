@@ -1,0 +1,112 @@
+{
+  "prefix": "astra40-ten",
+  "utc": "2026-09-09T21:29:34.763182+00:00",
+  "coverage": {
+    "previous_code_bytes": 434468,
+    "batch_code_bytes": 429742,
+    "new_unique_code_bytes": 1427,
+    "union_code_bytes": 435895,
+    "text_bytes": 930756,
+    "text_percent": 46.83235993106679,
+    "whole_dll_match": false
+  },
+  "measurement": {
+    "utc": "2026-09-09T21:29:52.648350+00:00",
+    "elapsed_seconds": 2944.64835,
+    "baseline": 431298,
+    "accepted": 435895,
+    "gain": 4597,
+    "global_bytes_per_hour": 5620.093822068771,
+    "token_usage": {
+      "root": {
+        "configuration": {
+          "model": "gpt-6-astra",
+          "effort": "xhigh"
+        },
+        "usage": {
+          "input_tokens": 16529701,
+          "cached_input_tokens": 16121216,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 49410,
+          "reasoning_output_tokens": 16072,
+          "total_tokens": 16579111,
+          "uncached_input_tokens": 408485
+        },
+        "as_of": "2026-09-09T21:29:35.046Z",
+        "session": "/Users/salimtrouve/.codex/sessions/2026/09/09/rollout-2026-09-09T16-37-43-01a086d1-5f3f-7423-ad5c-a0064ea3c163.jsonl",
+        "observed_counter_resets": 1
+      },
+      "/root/client_game_ui": {
+        "configuration": {
+          "model": "gpt-6-astra",
+          "effort": "xhigh"
+        },
+        "usage": {
+          "input_tokens": 13275120,
+          "cached_input_tokens": 12871040,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 45709,
+          "reasoning_output_tokens": 15138,
+          "total_tokens": 13320829,
+          "uncached_input_tokens": 404080
+        },
+        "as_of": "2026-09-09T21:20:52.269Z",
+        "session": "/Users/salimtrouve/.codex/sessions/2026/09/09/rollout-2026-09-09T16-39-26-01a086d2-f295-7d80-8d32-257f38a08fe4.jsonl",
+        "observed_counter_resets": 1
+      },
+      "/root/network_common": {
+        "configuration": {
+          "model": "gpt-6-astra",
+          "effort": "xhigh"
+        },
+        "usage": {
+          "input_tokens": 15651887,
+          "cached_input_tokens": 15259136,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 59959,
+          "reasoning_output_tokens": 20609,
+          "total_tokens": 15711846,
+          "uncached_input_tokens": 392751
+        },
+        "as_of": "2026-09-09T21:28:14.465Z",
+        "session": "/Users/salimtrouve/.codex/sessions/2026/09/09/rollout-2026-09-09T16-39-43-01a086d3-33a6-7c61-9e94-6313eddfe902.jsonl",
+        "observed_counter_resets": 0
+      }
+    },
+    "pipeline_seconds": {
+      "vm-idle": 7.707003873994836,
+      "compile": 88.38716575000944,
+      "audit": 16.79740720699556,
+      "link": 29.36353666600189,
+      "qualify": 2.8325712500009104,
+      "spec": 0.11341854099737247,
+      "review": 22.777935708007135,
+      "accept": 205.90155462499752
+    },
+    "token_note": "Observed cumulative counters reset on continuation; sum monotonic increments within the requested window and restart from zero on a verified decrease. Earlier negative raw differences are invalid and retained in history. Counters may lag; reasoning is a subset of output; cached input is separate; no billed cost inferred.",
+    "recent_bytes_per_hour": 4536.818732048714
+  },
+  "proposal": "build/astra40/proposal-ten.json",
+  "reviews": [
+    "evidence/checkpoint32/astra-resume-reviews/astra40-ten-five-selected-sdk-string-all-owners-astra40-three-reviewed-manifest.json",
+    "evidence/checkpoint32/astra-resume-reviews/astra40-ten-router-lifecycle-v2-reviewed-manifest.json",
+    "evidence/checkpoint32/astra-resume-reviews/astra40-ten-factory-router-v2-reviewed-manifest.json",
+    "evidence/checkpoint32/astra-resume-reviews/astra40-ten-player-id-queue-v2-reviewed-manifest.json",
+    "evidence/checkpoint32/astra-resume-reviews/astra40-ten-player-id-queue-dtor-reviewed-manifest.json",
+    "evidence/checkpoint32/astra-resume-reviews/astra40-ten-factory-peer-delete-reviewed-manifest.json",
+    "evidence/checkpoint32/astra-resume-reviews/astra40-ten-rakpeer-vft-leaves-reviewed-manifest.json",
+    "evidence/checkpoint32/astra-resume-reviews/astra40-ten-six-selected-five-selected-sdk-dxut460-all-owners-reviewed-manifest.json",
+    "evidence/checkpoint32/astra-resume-reviews/astra40-ten-sdk-ui134-selected-reviewed-manifest.json"
+  ],
+  "review_note": {
+    "scope": "Router/factory/queue304, std::string543, DXUT/math446 and UI134:1427 potential unique R5 code bytes. Real RakPeer173 and StringLengthWorker64 providers already covered, zero new credit.",
+    "implementation": "Normal vendor/SDK/source definitions; complete function/data/EH regions and real COFF/PE targets. All alternative owners remain separately verified and frozen. New weak alias declarations use actual unit-keyed COFF mappings. No truncation, byte masking, fake dependency or duplicate credit. GenerateDatagram1594 is explicitly excluded: body source exact but canonical COMDAT/linkage remains unresolved. All canonical sources affected by its late trials are restored byte-for-byte from pre-trial backups; every trial remains preserved. _powf14 remains excluded for unresolved DEF export spelling.",
+    "reference_credit": "UI267 was newly reconstructed in previousacceptedlot. This batch SDK/UI1123 uses entirely preexisting source and baseline objects, newly selected after closure review. Router/factory/queue304 directly use true existing vendor definitions reconstructed during continuation. Root RakPeer173 and StringLengthWorker64 provide real existing implementations at zero additional coverage. No exclusive0.2.5 credit."
+  },
+  "preserved_main": true,
+  "changed_preexisting_with_backup": [
+    "client/saco/closure_vendor_raknet_transport_methods.cpp",
+    "client/saco/closure_vendor_router_send.cpp"
+  ],
+  "status": "ACCEPTED_CHECKPOINT_STILL_IN_PROGRESS"
+}

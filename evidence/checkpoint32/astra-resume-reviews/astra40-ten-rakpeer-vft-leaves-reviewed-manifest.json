@@ -1,0 +1,123 @@
+{
+  "status": "PASS_FULL_SOURCE_REGIONS_ALL_COFF_PE_TARGETS",
+  "baseline": "evidence/checkpoint32/astra40-three-acceptance.json",
+  "run": "build/cp32-astra40-probe-six",
+  "regions": [
+    {
+      "unit": "closure_vendor_rakpeer_vft_leaves",
+      "section": 3,
+      "anchor": "?DisableSecurity@RakPeer@@UAEXXZ",
+      "anchor_offset": 0,
+      "rva": 230400,
+      "size": 15,
+      "kind": "code",
+      "sha256": "1bd55e0497138b3443627c181eef1a9663b0006bf2c2f47d1157d3dcf591caba",
+      "bindings": []
+    },
+    {
+      "unit": "closure_vendor_rakpeer_vft_leaves",
+      "section": 5,
+      "anchor": "?SetMaximumIncomingConnections@RakPeer@@UAEXG@Z",
+      "anchor_offset": 0,
+      "rva": 230416,
+      "size": 12,
+      "kind": "code",
+      "sha256": "90cdbe11deac3474a62c67139a7c4a3f6f66b12662b1775511a6e27286407181",
+      "bindings": []
+    },
+    {
+      "unit": "closure_vendor_rakpeer_vft_leaves",
+      "section": 7,
+      "anchor": "?GetMaximumIncomingConnections@RakPeer@@UBEGXZ",
+      "anchor_offset": 0,
+      "rva": 230432,
+      "size": 5,
+      "kind": "code",
+      "sha256": "64990f1d8c50f658cbd739970bac46650459aa57c772f76696b59bba2c16647c",
+      "bindings": []
+    },
+    {
+      "unit": "closure_vendor_rakpeer_vft_leaves",
+      "section": 9,
+      "anchor": "?GetIncomingPassword@RakPeer@@UAEXPADPAH@Z",
+      "anchor_offset": 0,
+      "rva": 230528,
+      "size": 66,
+      "kind": "code",
+      "sha256": "462d94e1350927c0ad35a81493b88d64493aabc01ca827bd032bf637833be7d8",
+      "bindings": []
+    },
+    {
+      "unit": "closure_vendor_rakpeer_vft_leaves",
+      "section": 11,
+      "anchor": "?GetMaximumNumberOfPeers@RakPeer@@UBEGXZ",
+      "anchor_offset": 0,
+      "rva": 230880,
+      "size": 5,
+      "kind": "code",
+      "sha256": "ea248a2080e4b927a7939f4a34aaba204dfe210849ca13ffd92f951b4f39659f",
+      "bindings": []
+    },
+    {
+      "unit": "closure_vendor_rakpeer_vft_leaves",
+      "section": 13,
+      "anchor": "?SetMTUSize@RakPeer@@UAE_NH@Z",
+      "anchor_offset": 0,
+      "rva": 231520,
+      "size": 70,
+      "kind": "code",
+      "sha256": "9d59ec3db3c200ea51a3f92dd70d7e9e3cd9a3abe950b21a39e4aedeb2499663",
+      "bindings": []
+    }
+  ],
+  "seeds": [
+    {
+      "unit": "closure_vendor_rakpeer_vft_leaves",
+      "symbol": "?DisableSecurity@RakPeer@@UAEXXZ",
+      "rva": 230400,
+      "size": 15
+    },
+    {
+      "unit": "closure_vendor_rakpeer_vft_leaves",
+      "symbol": "?SetMaximumIncomingConnections@RakPeer@@UAEXG@Z",
+      "rva": 230416,
+      "size": 12
+    },
+    {
+      "unit": "closure_vendor_rakpeer_vft_leaves",
+      "symbol": "?GetMaximumIncomingConnections@RakPeer@@UBEGXZ",
+      "rva": 230432,
+      "size": 5
+    },
+    {
+      "unit": "closure_vendor_rakpeer_vft_leaves",
+      "symbol": "?GetIncomingPassword@RakPeer@@UAEXPADPAH@Z",
+      "rva": 230528,
+      "size": 66
+    },
+    {
+      "unit": "closure_vendor_rakpeer_vft_leaves",
+      "symbol": "?GetMaximumNumberOfPeers@RakPeer@@UBEGXZ",
+      "rva": 230880,
+      "size": 5
+    },
+    {
+      "unit": "closure_vendor_rakpeer_vft_leaves",
+      "symbol": "?SetMTUSize@RakPeer@@UAE_NH@Z",
+      "rva": 231520,
+      "size": 70
+    }
+  ],
+  "new_unique_code": 0,
+  "object_sha256": {
+    "closure_vendor_rakpeer_vft_leaves": "88196ec7f5e768e61edb390970169cb708b4b174d377431f739a26e3a71eb8ab"
+  },
+  "source_sha256": {
+    "closure_vendor_rakpeer_vft_leaves": "a383ba160ad78ed2327f0145cca989c68e6f0b39a79a426b54ea5b1c1ca56c0a"
+  },
+  "storage": "All reachable complete source code/data/EH sections traversed, every actual COFF and PE target compared. Genuine vendor types/layouts and already accepted external owners. Emitted unreferenced sections remain outside coverage. Source exactness only; linked selection remains to be verified.",
+  "actual_weak_aliases": {
+    "closure_vendor_rakpeer_vft_leaves": {}
+  },
+  "scope": "Fresh whole source sections, all real COFF/PE targets, local canonical providers followed through actual COFF weak aliases; linked acceptance remains mandatory."
+}

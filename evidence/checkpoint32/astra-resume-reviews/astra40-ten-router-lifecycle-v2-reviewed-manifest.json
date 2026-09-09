@@ -1,0 +1,460 @@
+{
+  "status": "PASS_FULL_SOURCE_REGIONS_ALL_COFF_PE_TARGETS",
+  "baseline": "evidence/checkpoint32/astra40-three-acceptance.json",
+  "run": "build/cp32-astra40-probe-four",
+  "regions": [
+    {
+      "unit": "closure_vendor_router_lifecycle",
+      "section": 34,
+      "anchor": "??0Router@@QAE@XZ",
+      "anchor_offset": 0,
+      "rva": 327344,
+      "size": 74,
+      "kind": "code",
+      "sha256": "f8c3d3a0812d6366b4bae9c16f20f59c0bb9bd35fcb17fd961692cc24415292f",
+      "bindings": [
+        {
+          "symbol": "??_7RouterInterface@@6B@",
+          "site_rva": 327351,
+          "kind": 6,
+          "target_va": 269390576
+        },
+        {
+          "symbol": "??_7Router@@6BPluginInterface@@@",
+          "site_rva": 327360,
+          "kind": 6,
+          "target_va": 269390584
+        },
+        {
+          "symbol": "??_7Router@@6BRouterInterface@@@",
+          "site_rva": 327367,
+          "kind": 6,
+          "target_va": 269390580
+        },
+        {
+          "symbol": "??0?$OrderedList@EE$1??$defaultOrderedListComparison@EE@DataStructures@@YAHABE0@Z@DataStructures@@QAE@XZ",
+          "site_rva": 327372,
+          "kind": 20,
+          "target_va": 268573696
+        },
+        {
+          "symbol": "??$defaultOrderedListComparison@EE@DataStructures@@YAHABE0@Z",
+          "site_rva": 327406,
+          "kind": 20,
+          "target_va": 268570112
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_router_lifecycle",
+      "section": 38,
+      "anchor": "??1Router@@QAE@XZ",
+      "anchor_offset": 0,
+      "rva": 327424,
+      "size": 21,
+      "kind": "code",
+      "sha256": "a3aa23a0dbe039f303cd7195588fe2774f3a25bc93f6cc4131edb32c0ead4cef",
+      "bindings": [
+        {
+          "symbol": "??_7Router@@6BPluginInterface@@@",
+          "site_rva": 327426,
+          "kind": 6,
+          "target_va": 269390584
+        },
+        {
+          "symbol": "??_7Router@@6BRouterInterface@@@",
+          "site_rva": 327433,
+          "kind": 6,
+          "target_va": 269390580
+        },
+        {
+          "symbol": "??1?$OrderedList@EE$1??$defaultOrderedListComparison@EE@DataStructures@@YAHABE0@Z@DataStructures@@QAE@XZ",
+          "site_rva": 327441,
+          "kind": 20,
+          "target_va": 268576624
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_router_lifecycle",
+      "section": 9,
+      "anchor": "?OnDisconnect@Router@@UAEXPAVRakPeerInterface@@@Z",
+      "anchor_offset": 0,
+      "rva": 321968,
+      "size": 3,
+      "kind": "code",
+      "sha256": "e598d0c3ba86d917b177d7adde0556aa99bc355543c57aee0a3e50b684dd7e99",
+      "bindings": []
+    },
+    {
+      "unit": "closure_vendor_router_lifecycle",
+      "section": 11,
+      "anchor": "?Update@Router@@UAEXPAVRakPeerInterface@@@Z",
+      "anchor_offset": 0,
+      "rva": 321984,
+      "size": 3,
+      "kind": "code",
+      "sha256": "e598d0c3ba86d917b177d7adde0556aa99bc355543c57aee0a3e50b684dd7e99",
+      "bindings": []
+    },
+    {
+      "unit": "closure_vendor_router_lifecycle",
+      "section": 13,
+      "anchor": "?OnCloseConnection@Router@@UAEXPAVRakPeerInterface@@UPlayerID@@@Z",
+      "anchor_offset": 0,
+      "rva": 322000,
+      "size": 3,
+      "kind": "code",
+      "sha256": "dbd1a662565b07272069f88faadf4327acaf51b7d14f236c84c0a9679d07cef3",
+      "bindings": []
+    },
+    {
+      "unit": "closure_vendor_router_lifecycle",
+      "section": 7,
+      "anchor": "??_7RouterInterface@@6B@",
+      "anchor_offset": 0,
+      "rva": 955120,
+      "size": 4,
+      "kind": "data",
+      "sha256": "dc4d6e719f580befe69c9523ab04f839b0a0f8b2b88b95063b9ccc759044df27",
+      "bindings": [
+        {
+          "symbol": "__purecall",
+          "site_rva": 955120,
+          "kind": 6,
+          "target_va": 269254619
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_router_lifecycle",
+      "section": 36,
+      "anchor": "??_7Router@@6BPluginInterface@@@",
+      "anchor_offset": 0,
+      "rva": 955128,
+      "size": 40,
+      "kind": "data",
+      "sha256": "33fe3847a584e2fe40310770e452dede52a88da411d6ccc2f7374b47b44e87e8",
+      "bindings": [
+        {
+          "symbol": "?OnAttach@Router@@UAEXPAVRakPeerInterface@@@Z",
+          "site_rva": 955128,
+          "kind": 6,
+          "target_va": 268757360
+        },
+        {
+          "symbol": "?OnDetach@Router@@UAEXPAVRakPeerInterface@@@Z",
+          "site_rva": 955132,
+          "kind": 6,
+          "target_va": 268757392
+        },
+        {
+          "symbol": "?OnInitialize@PluginInterface@@UAEXPAVRakPeerInterface@@@Z",
+          "site_rva": 955136,
+          "kind": 6,
+          "target_va": 268648336
+        },
+        {
+          "symbol": "?Update@Router@@UAEXPAVRakPeerInterface@@@Z",
+          "site_rva": 955140,
+          "kind": 6,
+          "target_va": 268757440
+        },
+        {
+          "symbol": "?OnReceive@Router@@UAE?AW4PluginReceiveResult@@PAVRakPeerInterface@@PAUPacket@@@Z",
+          "site_rva": 955144,
+          "kind": 6,
+          "target_va": 268763008
+        },
+        {
+          "symbol": "?OnDisconnect@Router@@UAEXPAVRakPeerInterface@@@Z",
+          "site_rva": 955148,
+          "kind": 6,
+          "target_va": 268757424
+        },
+        {
+          "symbol": "?OnCloseConnection@Router@@UAEXPAVRakPeerInterface@@UPlayerID@@@Z",
+          "site_rva": 955152,
+          "kind": 6,
+          "target_va": 268757456
+        },
+        {
+          "symbol": "?OnDirectSocketSend@PluginInterface@@UAEXPBDIUPlayerID@@@Z",
+          "site_rva": 955156,
+          "kind": 6,
+          "target_va": 268648416
+        },
+        {
+          "symbol": "?OnDirectSocketReceive@PluginInterface@@UAEXPBDIUPlayerID@@@Z",
+          "site_rva": 955160,
+          "kind": 6,
+          "target_va": 268648432
+        },
+        {
+          "symbol": "?OnInternalPacket@PluginInterface@@UAEXPAUInternalPacket@@IUPlayerID@@I_N@Z",
+          "site_rva": 955164,
+          "kind": 6,
+          "target_va": 268648448
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_router_lifecycle",
+      "section": 35,
+      "anchor": "??_7Router@@6BRouterInterface@@@",
+      "anchor_offset": 0,
+      "rva": 955124,
+      "size": 4,
+      "kind": "data",
+      "sha256": "91566797eca1a7ad223cb7731cd065e996258c2346687925e4e100a0a09d29b4",
+      "bindings": [
+        {
+          "symbol": "?Send@Router@@UAE_NPBDIW4PacketPriority@@W4PacketReliability@@DUPlayerID@@@Z",
+          "site_rva": 955124,
+          "kind": 6,
+          "target_va": 268768608
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_router_lifecycle",
+      "section": 25,
+      "anchor": "??0?$OrderedList@EE$1??$defaultOrderedListComparison@EE@DataStructures@@YAHABE0@Z@DataStructures@@QAE@XZ",
+      "anchor_offset": 0,
+      "rva": 138240,
+      "size": 12,
+      "kind": "code",
+      "sha256": "239c5c8ccab7935abfe90918410eab71075283c6c7005adc8c3c2dd4cff0e823",
+      "bindings": [
+        {
+          "symbol": "??0?$List@E@DataStructures@@QAE@XZ",
+          "site_rva": 138244,
+          "kind": 20,
+          "target_va": 268570432
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_router_lifecycle",
+      "section": 15,
+      "anchor": "??$defaultOrderedListComparison@EE@DataStructures@@YAHABE0@Z",
+      "anchor_offset": 0,
+      "rva": 134656,
+      "size": 32,
+      "kind": "code",
+      "sha256": "ac3b0da585169419a7477f1289f0ea0bd38eb644ecbc5f330124cc9c6f70393c",
+      "bindings": []
+    },
+    {
+      "unit": "closure_vendor_router_lifecycle",
+      "section": 29,
+      "anchor": "??1?$OrderedList@EE$1??$defaultOrderedListComparison@EE@DataStructures@@YAHABE0@Z@DataStructures@@QAE@XZ",
+      "anchor_offset": 0,
+      "rva": 141168,
+      "size": 73,
+      "kind": "code",
+      "sha256": "f447ae61ec7ec5944ea621c7cfbf27dd20320f820a465c01dba369de7041b402",
+      "bindings": [
+        {
+          "symbol": "__ehhandler$??1?$OrderedList@EE$1??$defaultOrderedListComparison@EE@DataStructures@@YAHABE0@Z@DataStructures@@QAE@XZ",
+          "site_rva": 141171,
+          "kind": 6,
+          "target_va": 269359320
+        },
+        {
+          "symbol": "__except_list",
+          "site_rva": 141177,
+          "kind": 6,
+          "target_va": 0
+        },
+        {
+          "symbol": "__except_list",
+          "site_rva": 141185,
+          "kind": 6,
+          "target_va": 0
+        },
+        {
+          "symbol": "?Clear@?$OrderedList@EE$1??$defaultOrderedListComparison@EE@DataStructures@@YAHABE0@Z@DataStructures@@QAEXXZ",
+          "site_rva": 141206,
+          "kind": 20,
+          "target_va": 268573936
+        },
+        {
+          "symbol": "??1?$List@E@DataStructures@@QAE@XZ",
+          "site_rva": 141221,
+          "kind": 20,
+          "target_va": 268570448
+        },
+        {
+          "symbol": "__except_list",
+          "site_rva": 141233,
+          "kind": 6,
+          "target_va": 0
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_router_lifecycle",
+      "section": 17,
+      "anchor": "??0?$List@E@DataStructures@@QAE@XZ",
+      "anchor_offset": 0,
+      "rva": 134976,
+      "size": 13,
+      "kind": "code",
+      "sha256": "efaddf6f7c64b7d0dd7d70e04563c88df5b21978a063a338954e28cc09d4e5e9",
+      "bindings": []
+    },
+    {
+      "unit": "closure_vendor_router_lifecycle",
+      "section": 30,
+      "anchor": "__ehhandler$??1?$OrderedList@EE$1??$defaultOrderedListComparison@EE@DataStructures@@YAHABE0@Z@DataStructures@@QAE@XZ",
+      "anchor_offset": 8,
+      "rva": 923856,
+      "size": 18,
+      "kind": "code",
+      "sha256": "b32d0c81c160a9be68281a469c244cb0ef9493b0f43b2d741df91d86c64f817b",
+      "bindings": [
+        {
+          "symbol": "??1?$List@E@DataStructures@@QAE@XZ",
+          "site_rva": 923860,
+          "kind": 20,
+          "target_va": 268570448
+        },
+        {
+          "symbol": "$T2370",
+          "site_rva": 923865,
+          "kind": 6,
+          "target_va": 269456416
+        },
+        {
+          "symbol": "___CxxFrameHandler",
+          "site_rva": 923870,
+          "kind": 20,
+          "target_va": 269247782
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_router_lifecycle",
+      "section": 27,
+      "anchor": "?Clear@?$OrderedList@EE$1??$defaultOrderedListComparison@EE@DataStructures@@YAHABE0@Z@DataStructures@@QAEXXZ",
+      "anchor_offset": 0,
+      "rva": 138480,
+      "size": 8,
+      "kind": "code",
+      "sha256": "98d95b61ff617373ca80eb190eeb3a0416388084c48d16d3b4d7eebebd94431a",
+      "bindings": [
+        {
+          "symbol": "?Clear@?$List@E@DataStructures@@QAEX_N@Z",
+          "site_rva": 138483,
+          "kind": 20,
+          "target_va": 268571904
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_router_lifecycle",
+      "section": 19,
+      "anchor": "??1?$List@E@DataStructures@@QAE@XZ",
+      "anchor_offset": 0,
+      "rva": 134992,
+      "size": 17,
+      "kind": "code",
+      "sha256": "be21bc4b4057447c9566d60a6ed1a1acac2837a568aaaaa5300c159e65cd6d76",
+      "bindings": [
+        {
+          "symbol": "??3@YAXPAX@Z",
+          "site_rva": 135003,
+          "kind": 20,
+          "target_va": 269247626
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_router_lifecycle",
+      "section": 31,
+      "anchor": "$T2370",
+      "anchor_offset": 8,
+      "rva": 1020952,
+      "size": 36,
+      "kind": "data",
+      "sha256": "811df4589794e2aed704c2a953a93e1df3e12eaae791329b7ea2933afcd9f24e",
+      "bindings": [
+        {
+          "symbol": "$L2366",
+          "site_rva": 1020956,
+          "kind": 6,
+          "target_va": 269359312
+        },
+        {
+          "symbol": "$T2373",
+          "site_rva": 1020968,
+          "kind": 6,
+          "target_va": 269456408
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_router_lifecycle",
+      "section": 21,
+      "anchor": "?Clear@?$List@E@DataStructures@@QAEX_N@Z",
+      "anchor_offset": 0,
+      "rva": 136448,
+      "size": 60,
+      "kind": "code",
+      "sha256": "281a423eb5ecc0520075e68d532d7cc3f2ef01fc9a8560e44dd247cf9d7c4823",
+      "bindings": [
+        {
+          "symbol": "??3@YAXPAX@Z",
+          "site_rva": 136477,
+          "kind": 20,
+          "target_va": 269247626
+        }
+      ]
+    }
+  ],
+  "seeds": [
+    {
+      "unit": "closure_vendor_router_lifecycle",
+      "symbol": "??0Router@@QAE@XZ",
+      "rva": 327344,
+      "size": 74
+    },
+    {
+      "unit": "closure_vendor_router_lifecycle",
+      "symbol": "??1Router@@QAE@XZ",
+      "rva": 327424,
+      "size": 21
+    },
+    {
+      "unit": "closure_vendor_router_lifecycle",
+      "symbol": "?OnDisconnect@Router@@UAEXPAVRakPeerInterface@@@Z",
+      "rva": 321968,
+      "size": 3
+    },
+    {
+      "unit": "closure_vendor_router_lifecycle",
+      "symbol": "?Update@Router@@UAEXPAVRakPeerInterface@@@Z",
+      "rva": 321984,
+      "size": 3
+    },
+    {
+      "unit": "closure_vendor_router_lifecycle",
+      "symbol": "?OnCloseConnection@Router@@UAEXPAVRakPeerInterface@@UPlayerID@@@Z",
+      "rva": 322000,
+      "size": 3
+    }
+  ],
+  "new_unique_code": 104,
+  "object_sha256": {
+    "closure_vendor_router_lifecycle": "fba9418b34ee09398d83e09bdc3064241f1c25132bc027cfef5612f600ef7bac"
+  },
+  "source_sha256": {
+    "closure_vendor_router_lifecycle": "560447c7c6c7e4dc7c1e68dde73dcc20c2bcc23f75851c870f6a97c8df6939a1"
+  },
+  "storage": "All reachable complete source code/data/EH sections traversed, every actual COFF and PE target compared. Genuine vendor types/layouts and already accepted external owners. Emitted unreferenced sections remain outside coverage. Source exactness only; linked selection remains to be verified.",
+  "actual_weak_aliases": {
+    "closure_vendor_router_lifecycle": {}
+  },
+  "scope": "Fresh whole source sections, all real COFF/PE targets, local canonical providers followed through actual COFF weak aliases; linked acceptance remains mandatory."
+}

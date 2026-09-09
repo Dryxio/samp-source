@@ -1,0 +1,165 @@
+{
+  "status": "PASS_FULL_SOURCE_REGIONS_ALL_COFF_PE_TARGETS",
+  "baseline": "evidence/checkpoint32/astra40-three-acceptance.json",
+  "run": "build/cp32-astra40-probe-four",
+  "regions": [
+    {
+      "unit": "closure_vendor_factory_router",
+      "section": 3,
+      "anchor": "?GetRouter@RakNetworkFactory@@SAPAVRouter@@XZ",
+      "anchor_offset": 0,
+      "rva": 228608,
+      "size": 86,
+      "kind": "code",
+      "sha256": "6948c09741ae6caf5123fd04d946b4328de918c3e415697649e22e49bbe01543",
+      "bindings": [
+        {
+          "symbol": "__ehhandler$?GetRouter@RakNetworkFactory@@SAPAVRouter@@XZ",
+          "site_rva": 228611,
+          "kind": 6,
+          "target_va": 269362795
+        },
+        {
+          "symbol": "__except_list",
+          "site_rva": 228617,
+          "kind": 6,
+          "target_va": 0
+        },
+        {
+          "symbol": "__except_list",
+          "site_rva": 228625,
+          "kind": 6,
+          "target_va": 0
+        },
+        {
+          "symbol": "??2@YAPAXI@Z",
+          "site_rva": 228633,
+          "kind": 20,
+          "target_va": 269247098
+        },
+        {
+          "symbol": "??0Router@@QAE@XZ",
+          "site_rva": 228658,
+          "kind": 20,
+          "target_va": 268762800
+        },
+        {
+          "symbol": "__except_list",
+          "site_rva": 228669,
+          "kind": 6,
+          "target_va": 0
+        },
+        {
+          "symbol": "__except_list",
+          "site_rva": 228686,
+          "kind": 6,
+          "target_va": 0
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_factory_router",
+      "section": 10,
+      "anchor": "?DestroyRouter@RakNetworkFactory@@SAXPAVRouter@@@Z",
+      "anchor_offset": 0,
+      "rva": 229344,
+      "size": 27,
+      "kind": "code",
+      "sha256": "30ccc7ee7ed8cb310a4a26b8d0150bdc2aecd91da60dab69644c2e3337a9a940",
+      "bindings": [
+        {
+          "symbol": "??1Router@@QAE@XZ",
+          "site_rva": 229356,
+          "kind": 20,
+          "target_va": 268762880
+        },
+        {
+          "symbol": "??3@YAXPAX@Z",
+          "site_rva": 229362,
+          "kind": 20,
+          "target_va": 269247626
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_factory_router",
+      "section": 4,
+      "anchor": "__ehhandler$?GetRouter@RakNetworkFactory@@SAPAVRouter@@XZ",
+      "anchor_offset": 11,
+      "rva": 927328,
+      "size": 21,
+      "kind": "code",
+      "sha256": "13e26e6181d66d20e74eef25cf46ffc1b8322163a9301e670f78ec538fda7bfe",
+      "bindings": [
+        {
+          "symbol": "??3@YAXPAX@Z",
+          "site_rva": 927333,
+          "kind": 20,
+          "target_va": 269247626
+        },
+        {
+          "symbol": "$T2347",
+          "site_rva": 927340,
+          "kind": 6,
+          "target_va": 269460328
+        },
+        {
+          "symbol": "___CxxFrameHandler",
+          "site_rva": 927345,
+          "kind": 20,
+          "target_va": 269247782
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_factory_router",
+      "section": 5,
+      "anchor": "$T2347",
+      "anchor_offset": 8,
+      "rva": 1024864,
+      "size": 36,
+      "kind": "data",
+      "sha256": "34b3230d407ef97f75111c38340e82edc8eab9252b89a5a2ae32af3fa508bd12",
+      "bindings": [
+        {
+          "symbol": "$L2343",
+          "site_rva": 1024868,
+          "kind": 6,
+          "target_va": 269362784
+        },
+        {
+          "symbol": "$T2352",
+          "site_rva": 1024880,
+          "kind": 6,
+          "target_va": 269460320
+        }
+      ]
+    }
+  ],
+  "seeds": [
+    {
+      "unit": "closure_vendor_factory_router",
+      "symbol": "?GetRouter@RakNetworkFactory@@SAPAVRouter@@XZ",
+      "rva": 228608,
+      "size": 86
+    },
+    {
+      "unit": "closure_vendor_factory_router",
+      "symbol": "?DestroyRouter@RakNetworkFactory@@SAXPAVRouter@@@Z",
+      "rva": 229344,
+      "size": 27
+    }
+  ],
+  "new_unique_code": 134,
+  "object_sha256": {
+    "closure_vendor_factory_router": "31386e49d00872b3a7c45e40671818923c3a34171442169611e4bf9a94a6a0ee"
+  },
+  "source_sha256": {
+    "closure_vendor_factory_router": "c11ff273e8e3b62bbe85630a6a4aa7bd5353994873d817b866a1b7c8c4bdb117"
+  },
+  "storage": "All reachable complete source code/data/EH sections traversed, every actual COFF and PE target compared. Genuine vendor types/layouts and already accepted external owners. Emitted unreferenced sections remain outside coverage. Source exactness only; linked selection remains to be verified.",
+  "actual_weak_aliases": {
+    "closure_vendor_factory_router": {}
+  },
+  "scope": "Fresh whole source sections, all real COFF/PE targets, local canonical providers followed through actual COFF weak aliases; linked acceptance remains mandatory."
+}

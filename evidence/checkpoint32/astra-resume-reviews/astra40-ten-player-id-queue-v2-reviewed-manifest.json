@@ -1,0 +1,45 @@
+{
+  "status": "PASS_FULL_SOURCE_REGIONS_ALL_COFF_PE_TARGETS",
+  "baseline": "evidence/checkpoint32/astra40-three-acceptance.json",
+  "run": "build/cp32-astra40-probe-four",
+  "regions": [
+    {
+      "unit": "closure_vendor_player_id_queue_leaves",
+      "section": 3,
+      "anchor": "??0?$Queue@UPlayerID@@@DataStructures@@QAE@XZ",
+      "anchor_offset": 0,
+      "rva": 225584,
+      "size": 34,
+      "kind": "code",
+      "sha256": "b04f35fa4e4810b4badb9909aec5f763b82c4ca8635679f1f7e0a99ead5de8d6",
+      "bindings": [
+        {
+          "symbol": "??2@YAPAXI@Z",
+          "site_rva": 225597,
+          "kind": 20,
+          "target_va": 269247098
+        }
+      ]
+    }
+  ],
+  "seeds": [
+    {
+      "unit": "closure_vendor_player_id_queue_leaves",
+      "symbol": "??0?$Queue@UPlayerID@@@DataStructures@@QAE@XZ",
+      "rva": 225584,
+      "size": 34
+    }
+  ],
+  "new_unique_code": 34,
+  "object_sha256": {
+    "closure_vendor_player_id_queue_leaves": "2cd29f72995030a579b227287f28692060d0e886212c95407fb268098efd1670"
+  },
+  "source_sha256": {
+    "closure_vendor_player_id_queue_leaves": "6b4399d65b201bc48a3d75c2e22d57a9c381b996f7517cf3269f036a4be461e6"
+  },
+  "storage": "All reachable complete source code/data/EH sections traversed, every actual COFF and PE target compared. Genuine vendor types/layouts and already accepted external owners. Emitted unreferenced sections remain outside coverage. Source exactness only; linked selection remains to be verified.",
+  "actual_weak_aliases": {
+    "closure_vendor_player_id_queue_leaves": {}
+  },
+  "scope": "Fresh whole source sections, all real COFF/PE targets, local canonical providers followed through actual COFF weak aliases; linked acceptance remains mandatory."
+}

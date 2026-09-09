@@ -1,0 +1,2183 @@
+{
+  "status": "PASS_FULL_SOURCE_REGIONS_ALL_COFF_PE_TARGETS",
+  "run": "cp32-astra40-three-linked1",
+  "base_prefix": "astra40-three",
+  "baseline": 434468,
+  "new_unique_code": 134,
+  "roots": [
+    {
+      "symbol": "?StringCchLengthA@@YGJPBDIPAI@Z",
+      "rva": 615296,
+      "size": 40,
+      "unit": "closure_gui_media"
+    },
+    {
+      "symbol": "?GetAt@RPCObjectStatePoolView@@QAEPAVCObject@@G@Z",
+      "rva": 11744,
+      "size": 37,
+      "unit": "closure_rpc_world_objects"
+    },
+    {
+      "symbol": "?GetSlotState@RPCInitMenuPoolView@@QAEHE@Z",
+      "rva": 97440,
+      "size": 26,
+      "unit": "closure_rpc_init_menu"
+    },
+    {
+      "symbol": "?ShowNameTag@RPCAnimationRemoteView@@QAEXE@Z",
+      "rva": 97408,
+      "size": 17,
+      "unit": "closure_rpc_animation_camera"
+    },
+    {
+      "symbol": "?GetLocalPlayerName@RPCDeathPlayerPoolView@@QAEPADXZ",
+      "rva": 42208,
+      "size": 14,
+      "unit": "closure_scoreboard_update"
+    },
+    {
+      "unit": "closure_gui_media",
+      "symbol": "?StringLengthWorkerA@@YGJPBDIPAI@Z",
+      "rva": 491968,
+      "size": 64
+    }
+  ],
+  "regions": [
+    {
+      "unit": "closure_gui_media",
+      "section": 7,
+      "anchor": "?StringLengthWorkerA@@YGJPBDIPAI@Z",
+      "anchor_offset": 0,
+      "rva": 491968,
+      "size": 64,
+      "kind": "code",
+      "sha256": "7395d9eb5c831f0e6335c78527d8f3fbbd0197066ac50ca03c1e448455a2aa74",
+      "bindings": []
+    },
+    {
+      "unit": "closure_scoreboard_update",
+      "section": 58,
+      "anchor": "?GetLocalPlayerName@RPCDeathPlayerPoolView@@QAEPADXZ",
+      "anchor_offset": 0,
+      "rva": 42208,
+      "size": 14,
+      "kind": "code",
+      "sha256": "062f624251b4eb817ded03703596306e89b6d13563ec73f31af1858bc422171e",
+      "bindings": []
+    },
+    {
+      "unit": "closure_rpc_animation_camera",
+      "section": 58,
+      "anchor": "?ShowNameTag@RPCAnimationRemoteView@@QAEXE@Z",
+      "anchor_offset": 0,
+      "rva": 97408,
+      "size": 17,
+      "kind": "code",
+      "sha256": "c3c1fc2f19b1cd70bed84edcaba9900002e9c52f87b0e5de87900dec8135bc1a",
+      "bindings": []
+    },
+    {
+      "unit": "closure_rpc_init_menu",
+      "section": 46,
+      "anchor": "?GetSlotState@RPCInitMenuPoolView@@QAEHE@Z",
+      "anchor_offset": 0,
+      "rva": 97440,
+      "size": 26,
+      "kind": "code",
+      "sha256": "1310839c777d770d509830fc18ddbf22fdf1e32dfc8866c72c4a669b2640ee00",
+      "bindings": []
+    },
+    {
+      "unit": "closure_rpc_world_objects",
+      "section": 56,
+      "anchor": "?GetAt@RPCObjectStatePoolView@@QAEPAVCObject@@G@Z",
+      "anchor_offset": 0,
+      "rva": 11744,
+      "size": 37,
+      "kind": "code",
+      "sha256": "cf406c95f60b56bef30f5cdedb53d8db3120034fa15861ea8686d535c392f693",
+      "bindings": []
+    },
+    {
+      "unit": "closure_gui_media",
+      "section": 18,
+      "anchor": "?StringCchLengthA@@YGJPBDIPAI@Z",
+      "anchor_offset": 0,
+      "rva": 615296,
+      "size": 40,
+      "kind": "code",
+      "sha256": "dfaba9ac90a71fa0935624018c6cdaca7bf59f3de52a1bd4dc6e2ba857ef4440",
+      "bindings": [
+        {
+          "symbol": "?StringLengthWorkerA@@YGJPBDIPAI@Z",
+          "site_rva": 615324,
+          "symbol_va": 268927424,
+          "addend": 0,
+          "target_va": 268927424,
+          "kind": 20
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "source025_direct": 0,
+  "object_sha256": {
+    "closure_scoreboard_update": "6321cd2865cfaafe7f0b8ee128a0f84cd96318be8cfb74f7ec849dc1bde423df",
+    "closure_rpc_animation_camera": "82763c3a5070a6d7dfa518abea9a71a6e5d870396737fb1d1492b11f2d13e6d0",
+    "closure_gui_media": "4fcf7a8c72d42972770cfcd1dd6faae228faccbf8653d131ba63c3bf7c37e861",
+    "closure_rpc_world_objects": "6a33a6000e31e694a7d14bd1430e5faf9c5e1e8bc5347eecf17d5d60fbb1567d",
+    "closure_rpc_init_menu": "620b351ab83bf7aca1670c3899750b4b004bc1901eaf15bcc203ca600057cc77"
+  },
+  "source_sha256": {
+    "closure_scoreboard_update": "2c6cfbed98e5070309a9e26620fc06d20ed4260790e54190219902274f55581e",
+    "closure_rpc_animation_camera": "5fbc5fac02503da1bbe89bb33b7600c02d0c9ff221ad17b7f0032f9a7b971647",
+    "closure_gui_media": "c91ed2dd8ea79a9fd80bac6394b7a060a966de180527745546b6cdf4ebb0eee0",
+    "closure_rpc_world_objects": "0f89ea12c214e85689241891c80813acf89132c730388ed12614cf0648f52ec3",
+    "closure_rpc_init_menu": "f4afa204a205ec4f465ba405b0c2a8a230449bbf10e2e505ae905b93e8bf8f9b"
+  },
+  "emitted_definitions": [
+    {
+      "unit": "closure_scoreboard_update",
+      "symbol": "?end@?$_Iosb@H@std@@2W4_Seekdir@12@B",
+      "section": 3,
+      "size": 4,
+      "kind": "data",
+      "selected": false
+    },
+    {
+      "unit": "closure_scoreboard_update",
+      "symbol": "?cur@?$_Iosb@H@std@@2W4_Seekdir@12@B",
+      "section": 4,
+      "size": 4,
+      "kind": "data",
+      "selected": false
+    },
+    {
+      "unit": "closure_scoreboard_update",
+      "symbol": "?beg@?$_Iosb@H@std@@2W4_Seekdir@12@B",
+      "section": 5,
+      "size": 4,
+      "kind": "data",
+      "selected": false
+    },
+    {
+      "unit": "closure_scoreboard_update",
+      "symbol": "?binary@?$_Iosb@H@std@@2W4_Openmode@12@B",
+      "section": 6,
+      "size": 4,
+      "kind": "data",
+      "selected": false
+    },
+    {
+      "unit": "closure_scoreboard_update",
+      "symbol": "?_Noreplace@?$_Iosb@H@std@@2W4_Openmode@12@B",
+      "section": 7,
+      "size": 4,
+      "kind": "data",
+      "selected": false
+    },
+    {
+      "unit": "closure_scoreboard_update",
+      "symbol": "?_Nocreate@?$_Iosb@H@std@@2W4_Openmode@12@B",
+      "section": 8,
+      "size": 4,
+      "kind": "data",
+      "selected": false
+    },
+    {
+      "unit": "closure_scoreboard_update",
+      "symbol": "?trunc@?$_Iosb@H@std@@2W4_Openmode@12@B",
+      "section": 9,
+      "size": 4,
+      "kind": "data",
+      "selected": false
+    },
+    {
+      "unit": "closure_scoreboard_update",
+      "symbol": "?app@?$_Iosb@H@std@@2W4_Openmode@12@B",
+      "section": 10,
+      "size": 4,
+      "kind": "data",
+      "selected": false
+    },
+    {
+      "unit": "closure_scoreboard_update",
+      "symbol": "?ate@?$_Iosb@H@std@@2W4_Openmode@12@B",
+      "section": 11,
+      "size": 4,
+      "kind": "data",
+      "selected": false
+    },
+    {
+      "unit": "closure_scoreboard_update",
+      "symbol": "?out@?$_Iosb@H@std@@2W4_Openmode@12@B",
+      "section": 12,
+      "size": 4,
+      "kind": "data",
+      "selected": false
+    },
+    {
+      "unit": "closure_scoreboard_update",
+      "symbol": "?in@?$_Iosb@H@std@@2W4_Openmode@12@B",
+      "section": 13,
+      "size": 4,
+      "kind": "data",
+      "selected": false
+    },
+    {
+      "unit": "closure_scoreboard_update",
+      "symbol": "?_Hardfail@?$_Iosb@H@std@@2W4_Iostate@12@B",
+      "section": 14,
+      "size": 4,
+      "kind": "data",
+      "selected": false
+    },
+    {
+      "unit": "closure_scoreboard_update",
+      "symbol": "?badbit@?$_Iosb@H@std@@2W4_Iostate@12@B",
+      "section": 15,
+      "size": 4,
+      "kind": "data",
+      "selected": false
+    },
+    {
+      "unit": "closure_scoreboard_update",
+      "symbol": "?failbit@?$_Iosb@H@std@@2W4_Iostate@12@B",
+      "section": 16,
+      "size": 4,
+      "kind": "data",
+      "selected": false
+    },
+    {
+      "unit": "closure_scoreboard_update",
+      "symbol": "?eofbit@?$_Iosb@H@std@@2W4_Iostate@12@B",
+      "section": 17,
+      "size": 4,
+      "kind": "data",
+      "selected": false
+    },
+    {
+      "unit": "closure_scoreboard_update",
+      "symbol": "?goodbit@?$_Iosb@H@std@@2W4_Iostate@12@B",
+      "section": 18,
+      "size": 4,
+      "kind": "data",
+      "selected": false
+    },
+    {
+      "unit": "closure_scoreboard_update",
+      "symbol": "?floatfield@?$_Iosb@H@std@@2W4_Fmtflags@12@B",
+      "section": 19,
+      "size": 4,
+      "kind": "data",
+      "selected": false
+    },
+    {
+      "unit": "closure_scoreboard_update",
+      "symbol": "?basefield@?$_Iosb@H@std@@2W4_Fmtflags@12@B",
+      "section": 20,
+      "size": 4,
+      "kind": "data",
+      "selected": false
+    },
+    {
+      "unit": "closure_scoreboard_update",
+      "symbol": "?adjustfield@?$_Iosb@H@std@@2W4_Fmtflags@12@B",
+      "section": 21,
+      "size": 4,
+      "kind": "data",
+      "selected": false
+    },
+    {
+      "unit": "closure_scoreboard_update",
+      "symbol": "?_Stdio@?$_Iosb@H@std@@2W4_Fmtflags@12@B",
+      "section": 22,
+      "size": 4,
+      "kind": "data",
+      "selected": false
+    },
+    {
+      "unit": "closure_scoreboard_update",
+      "symbol": "?boolalpha@?$_Iosb@H@std@@2W4_Fmtflags@12@B",
+      "section": 23,
+      "size": 4,
+      "kind": "data",
+      "selected": false
+    },
+    {
+      "unit": "closure_scoreboard_update",
+      "symbol": "?fixed@?$_Iosb@H@std@@2W4_Fmtflags@12@B",
+      "section": 24,
+      "size": 4,
+      "kind": "data",
+      "selected": false
+    },
+    {
+      "unit": "closure_scoreboard_update",
+      "symbol": "?scientific@?$_Iosb@H@std@@2W4_Fmtflags@12@B",
+      "section": 25,
+      "size": 4,
+      "kind": "data",
+      "selected": false
+    },
+    {
+      "unit": "closure_scoreboard_update",
+      "symbol": "?hex@?$_Iosb@H@std@@2W4_Fmtflags@12@B",
+      "section": 26,
+      "size": 4,
+      "kind": "data",
+      "selected": false
+    },
+    {
+      "unit": "closure_scoreboard_update",
+      "symbol": "?oct@?$_Iosb@H@std@@2W4_Fmtflags@12@B",
+      "section": 27,
+      "size": 4,
+      "kind": "data",
+      "selected": false
+    },
+    {
+      "unit": "closure_scoreboard_update",
+      "symbol": "?dec@?$_Iosb@H@std@@2W4_Fmtflags@12@B",
+      "section": 28,
+      "size": 4,
+      "kind": "data",
+      "selected": false
+    },
+    {
+      "unit": "closure_scoreboard_update",
+      "symbol": "?internal@?$_Iosb@H@std@@2W4_Fmtflags@12@B",
+      "section": 29,
+      "size": 4,
+      "kind": "data",
+      "selected": false
+    },
+    {
+      "unit": "closure_scoreboard_update",
+      "symbol": "?right@?$_Iosb@H@std@@2W4_Fmtflags@12@B",
+      "section": 30,
+      "size": 4,
+      "kind": "data",
+      "selected": false
+    },
+    {
+      "unit": "closure_scoreboard_update",
+      "symbol": "?left@?$_Iosb@H@std@@2W4_Fmtflags@12@B",
+      "section": 31,
+      "size": 4,
+      "kind": "data",
+      "selected": false
+    },
+    {
+      "unit": "closure_scoreboard_update",
+      "symbol": "?showpos@?$_Iosb@H@std@@2W4_Fmtflags@12@B",
+      "section": 32,
+      "size": 4,
+      "kind": "data",
+      "selected": false
+    },
+    {
+      "unit": "closure_scoreboard_update",
+      "symbol": "?showpoint@?$_Iosb@H@std@@2W4_Fmtflags@12@B",
+      "section": 33,
+      "size": 4,
+      "kind": "data",
+      "selected": false
+    },
+    {
+      "unit": "closure_scoreboard_update",
+      "symbol": "?showbase@?$_Iosb@H@std@@2W4_Fmtflags@12@B",
+      "section": 34,
+      "size": 4,
+      "kind": "data",
+      "selected": false
+    },
+    {
+      "unit": "closure_scoreboard_update",
+      "symbol": "?uppercase@?$_Iosb@H@std@@2W4_Fmtflags@12@B",
+      "section": 35,
+      "size": 4,
+      "kind": "data",
+      "selected": false
+    },
+    {
+      "unit": "closure_scoreboard_update",
+      "symbol": "?unitbuf@?$_Iosb@H@std@@2W4_Fmtflags@12@B",
+      "section": 36,
+      "size": 4,
+      "kind": "data",
+      "selected": false
+    },
+    {
+      "unit": "closure_scoreboard_update",
+      "symbol": "?skipws@?$_Iosb@H@std@@2W4_Fmtflags@12@B",
+      "section": 37,
+      "size": 4,
+      "kind": "data",
+      "selected": false
+    },
+    {
+      "unit": "closure_scoreboard_update",
+      "symbol": "?none@?$_Locbase@H@std@@2HB",
+      "section": 38,
+      "size": 4,
+      "kind": "data",
+      "selected": false
+    },
+    {
+      "unit": "closure_scoreboard_update",
+      "symbol": "?all@?$_Locbase@H@std@@2HB",
+      "section": 39,
+      "size": 4,
+      "kind": "data",
+      "selected": false
+    },
+    {
+      "unit": "closure_scoreboard_update",
+      "symbol": "?messages@?$_Locbase@H@std@@2HB",
+      "section": 40,
+      "size": 4,
+      "kind": "data",
+      "selected": false
+    },
+    {
+      "unit": "closure_scoreboard_update",
+      "symbol": "?time@?$_Locbase@H@std@@2HB",
+      "section": 41,
+      "size": 4,
+      "kind": "data",
+      "selected": false
+    },
+    {
+      "unit": "closure_scoreboard_update",
+      "symbol": "?numeric@?$_Locbase@H@std@@2HB",
+      "section": 42,
+      "size": 4,
+      "kind": "data",
+      "selected": false
+    },
+    {
+      "unit": "closure_scoreboard_update",
+      "symbol": "?monetary@?$_Locbase@H@std@@2HB",
+      "section": 43,
+      "size": 4,
+      "kind": "data",
+      "selected": false
+    },
+    {
+      "unit": "closure_scoreboard_update",
+      "symbol": "?ctype@?$_Locbase@H@std@@2HB",
+      "section": 44,
+      "size": 4,
+      "kind": "data",
+      "selected": false
+    },
+    {
+      "unit": "closure_scoreboard_update",
+      "symbol": "?collate@?$_Locbase@H@std@@2HB",
+      "section": 45,
+      "size": 4,
+      "kind": "data",
+      "selected": false
+    },
+    {
+      "unit": "closure_scoreboard_update",
+      "symbol": "?GetTrackPos@CDXUTScrollBar@@QAEHXZ",
+      "section": 46,
+      "size": 7,
+      "kind": "code",
+      "selected": false
+    },
+    {
+      "unit": "closure_scoreboard_update",
+      "symbol": "?SetTrackPos@CDXUTScrollBar@@QAEXH@Z",
+      "section": 48,
+      "size": 29,
+      "kind": "code",
+      "selected": false
+    },
+    {
+      "unit": "closure_scoreboard_update",
+      "symbol": "?GetPlayerPool@CNetGame@@QAEPAVCPlayerPool@@XZ",
+      "section": 50,
+      "size": 10,
+      "kind": "code",
+      "selected": false
+    },
+    {
+      "unit": "closure_scoreboard_update",
+      "symbol": "?GetSlotState@RPCDeathPlayerPoolView@@QAEHG@Z",
+      "section": 52,
+      "size": 26,
+      "kind": "code",
+      "selected": false
+    },
+    {
+      "unit": "closure_scoreboard_update",
+      "symbol": "?_Myptr@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QBEPBDXZ",
+      "section": 54,
+      "size": 14,
+      "kind": "code",
+      "selected": false
+    },
+    {
+      "unit": "closure_scoreboard_update",
+      "symbol": "?c_str@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QBEPBDXZ",
+      "section": 56,
+      "size": 14,
+      "kind": "code",
+      "selected": false
+    },
+    {
+      "unit": "closure_scoreboard_update",
+      "symbol": "?GetLocalPlayerName@RPCDeathPlayerPoolView@@QAEPADXZ",
+      "section": 58,
+      "size": 14,
+      "kind": "code",
+      "selected": true
+    },
+    {
+      "unit": "closure_scoreboard_update",
+      "symbol": "?UpdatePlayers@R5ScoreboardUpdateView@@QAEXXZ",
+      "section": 60,
+      "size": 892,
+      "kind": "code",
+      "selected": false
+    },
+    {
+      "unit": "closure_scoreboard_update",
+      "symbol": "??_C@_02DPKJAMEF@?$CFd?$AA@",
+      "section": 61,
+      "size": 3,
+      "kind": "data",
+      "selected": false
+    },
+    {
+      "unit": "closure_scoreboard_update",
+      "symbol": "??_C@_02GMHACPFF@?$CFu?$AA@",
+      "section": 62,
+      "size": 3,
+      "kind": "data",
+      "selected": false
+    },
+    {
+      "unit": "closure_rpc_animation_camera",
+      "symbol": "?end@?$_Iosb@H@std@@2W4_Seekdir@12@B",
+      "section": 3,
+      "size": 4,
+      "kind": "data",
+      "selected": false
+    },
+    {
+      "unit": "closure_rpc_animation_camera",
+      "symbol": "?cur@?$_Iosb@H@std@@2W4_Seekdir@12@B",
+      "section": 4,
+      "size": 4,
+      "kind": "data",
+      "selected": false
+    },
+    {
+      "unit": "closure_rpc_animation_camera",
+      "symbol": "?beg@?$_Iosb@H@std@@2W4_Seekdir@12@B",
+      "section": 5,
+      "size": 4,
+      "kind": "data",
+      "selected": false
+    },
+    {
+      "unit": "closure_rpc_animation_camera",
+      "symbol": "?binary@?$_Iosb@H@std@@2W4_Openmode@12@B",
+      "section": 6,
+      "size": 4,
+      "kind": "data",
+      "selected": false
+    },
+    {
+      "unit": "closure_rpc_animation_camera",
+      "symbol": "?_Noreplace@?$_Iosb@H@std@@2W4_Openmode@12@B",
+      "section": 7,
+      "size": 4,
+      "kind": "data",
+      "selected": false
+    },
+    {
+      "unit": "closure_rpc_animation_camera",
+      "symbol": "?_Nocreate@?$_Iosb@H@std@@2W4_Openmode@12@B",
+      "section": 8,
+      "size": 4,
+      "kind": "data",
+      "selected": false
+    },
+    {
+      "unit": "closure_rpc_animation_camera",
+      "symbol": "?trunc@?$_Iosb@H@std@@2W4_Openmode@12@B",
+      "section": 9,
+      "size": 4,
+      "kind": "data",
+      "selected": false
+    },
+    {
+      "unit": "closure_rpc_animation_camera",
+      "symbol": "?app@?$_Iosb@H@std@@2W4_Openmode@12@B",
+      "section": 10,
+      "size": 4,
+      "kind": "data",
+      "selected": false
+    },
+    {
+      "unit": "closure_rpc_animation_camera",
+      "symbol": "?ate@?$_Iosb@H@std@@2W4_Openmode@12@B",
+      "section": 11,
+      "size": 4,
+      "kind": "data",
+      "selected": false
+    },
+    {
+      "unit": "closure_rpc_animation_camera",
+      "symbol": "?out@?$_Iosb@H@std@@2W4_Openmode@12@B",
+      "section": 12,
+      "size": 4,
+      "kind": "data",
+      "selected": false
+    },
+    {
+      "unit": "closure_rpc_animation_camera",
+      "symbol": "?in@?$_Iosb@H@std@@2W4_Openmode@12@B",
+      "section": 13,
+      "size": 4,
+      "kind": "data",
+      "selected": false
+    },
+    {
+      "unit": "closure_rpc_animation_camera",
+      "symbol": "?_Hardfail@?$_Iosb@H@std@@2W4_Iostate@12@B",
+      "section": 14,
+      "size": 4,
+      "kind": "data",
+      "selected": false
+    },
+    {
+      "unit": "closure_rpc_animation_camera",
+      "symbol": "?badbit@?$_Iosb@H@std@@2W4_Iostate@12@B",
+      "section": 15,
+      "size": 4,
+      "kind": "data",
+      "selected": false
+    },
+    {
+      "unit": "closure_rpc_animation_camera",
+      "symbol": "?failbit@?$_Iosb@H@std@@2W4_Iostate@12@B",
+      "section": 16,
+      "size": 4,
+      "kind": "data",
+      "selected": false
+    },
+    {
+      "unit": "closure_rpc_animation_camera",
+      "symbol": "?eofbit@?$_Iosb@H@std@@2W4_Iostate@12@B",
+      "section": 17,
+      "size": 4,
+      "kind": "data",
+      "selected": false
+    },
+    {
+      "unit": "closure_rpc_animation_camera",
+      "symbol": "?goodbit@?$_Iosb@H@std@@2W4_Iostate@12@B",
+      "section": 18,
+      "size": 4,
+      "kind": "data",
+      "selected": false
+    },
+    {
+      "unit": "closure_rpc_animation_camera",
+      "symbol": "?floatfield@?$_Iosb@H@std@@2W4_Fmtflags@12@B",
+      "section": 19,
+      "size": 4,
+      "kind": "data",
+      "selected": false
+    },
+    {
+      "unit": "closure_rpc_animation_camera",
+      "symbol": "?basefield@?$_Iosb@H@std@@2W4_Fmtflags@12@B",
+      "section": 20,
+      "size": 4,
+      "kind": "data",
+      "selected": false
+    },
+    {
+      "unit": "closure_rpc_animation_camera",
+      "symbol": "?adjustfield@?$_Iosb@H@std@@2W4_Fmtflags@12@B",
+      "section": 21,
+      "size": 4,
+      "kind": "data",
+      "selected": false
+    },
+    {
+      "unit": "closure_rpc_animation_camera",
+      "symbol": "?_Stdio@?$_Iosb@H@std@@2W4_Fmtflags@12@B",
+      "section": 22,
+      "size": 4,
+      "kind": "data",
+      "selected": false
+    },
+    {
+      "unit": "closure_rpc_animation_camera",
+      "symbol": "?boolalpha@?$_Iosb@H@std@@2W4_Fmtflags@12@B",
+      "section": 23,
+      "size": 4,
+      "kind": "data",
+      "selected": false
+    },
+    {
+      "unit": "closure_rpc_animation_camera",
+      "symbol": "?fixed@?$_Iosb@H@std@@2W4_Fmtflags@12@B",
+      "section": 24,
+      "size": 4,
+      "kind": "data",
+      "selected": false
+    },
+    {
+      "unit": "closure_rpc_animation_camera",
+      "symbol": "?scientific@?$_Iosb@H@std@@2W4_Fmtflags@12@B",
+      "section": 25,
+      "size": 4,
+      "kind": "data",
+      "selected": false
+    },
+    {
+      "unit": "closure_rpc_animation_camera",
+      "symbol": "?hex@?$_Iosb@H@std@@2W4_Fmtflags@12@B",
+      "section": 26,
+      "size": 4,
+      "kind": "data",
+      "selected": false
+    },
+    {
+      "unit": "closure_rpc_animation_camera",
+      "symbol": "?oct@?$_Iosb@H@std@@2W4_Fmtflags@12@B",
+      "section": 27,
+      "size": 4,
+      "kind": "data",
+      "selected": false
+    },
+    {
+      "unit": "closure_rpc_animation_camera",
+      "symbol": "?dec@?$_Iosb@H@std@@2W4_Fmtflags@12@B",
+      "section": 28,
+      "size": 4,
+      "kind": "data",
+      "selected": false
+    },
+    {
+      "unit": "closure_rpc_animation_camera",
+      "symbol": "?internal@?$_Iosb@H@std@@2W4_Fmtflags@12@B",
+      "section": 29,
+      "size": 4,
+      "kind": "data",
+      "selected": false
+    },
+    {
+      "unit": "closure_rpc_animation_camera",
+      "symbol": "?right@?$_Iosb@H@std@@2W4_Fmtflags@12@B",
+      "section": 30,
+      "size": 4,
+      "kind": "data",
+      "selected": false
+    },
+    {
+      "unit": "closure_rpc_animation_camera",
+      "symbol": "?left@?$_Iosb@H@std@@2W4_Fmtflags@12@B",
+      "section": 31,
+      "size": 4,
+      "kind": "data",
+      "selected": false
+    },
+    {
+      "unit": "closure_rpc_animation_camera",
+      "symbol": "?showpos@?$_Iosb@H@std@@2W4_Fmtflags@12@B",
+      "section": 32,
+      "size": 4,
+      "kind": "data",
+      "selected": false
+    },
+    {
+      "unit": "closure_rpc_animation_camera",
+      "symbol": "?showpoint@?$_Iosb@H@std@@2W4_Fmtflags@12@B",
+      "section": 33,
+      "size": 4,
+      "kind": "data",
+      "selected": false
+    },
+    {
+      "unit": "closure_rpc_animation_camera",
+      "symbol": "?showbase@?$_Iosb@H@std@@2W4_Fmtflags@12@B",
+      "section": 34,
+      "size": 4,
+      "kind": "data",
+      "selected": false
+    },
+    {
+      "unit": "closure_rpc_animation_camera",
+      "symbol": "?uppercase@?$_Iosb@H@std@@2W4_Fmtflags@12@B",
+      "section": 35,
+      "size": 4,
+      "kind": "data",
+      "selected": false
+    },
+    {
+      "unit": "closure_rpc_animation_camera",
+      "symbol": "?unitbuf@?$_Iosb@H@std@@2W4_Fmtflags@12@B",
+      "section": 36,
+      "size": 4,
+      "kind": "data",
+      "selected": false
+    },
+    {
+      "unit": "closure_rpc_animation_camera",
+      "symbol": "?skipws@?$_Iosb@H@std@@2W4_Fmtflags@12@B",
+      "section": 37,
+      "size": 4,
+      "kind": "data",
+      "selected": false
+    },
+    {
+      "unit": "closure_rpc_animation_camera",
+      "symbol": "?none@?$_Locbase@H@std@@2HB",
+      "section": 38,
+      "size": 4,
+      "kind": "data",
+      "selected": false
+    },
+    {
+      "unit": "closure_rpc_animation_camera",
+      "symbol": "?all@?$_Locbase@H@std@@2HB",
+      "section": 39,
+      "size": 4,
+      "kind": "data",
+      "selected": false
+    },
+    {
+      "unit": "closure_rpc_animation_camera",
+      "symbol": "?messages@?$_Locbase@H@std@@2HB",
+      "section": 40,
+      "size": 4,
+      "kind": "data",
+      "selected": false
+    },
+    {
+      "unit": "closure_rpc_animation_camera",
+      "symbol": "?time@?$_Locbase@H@std@@2HB",
+      "section": 41,
+      "size": 4,
+      "kind": "data",
+      "selected": false
+    },
+    {
+      "unit": "closure_rpc_animation_camera",
+      "symbol": "?numeric@?$_Locbase@H@std@@2HB",
+      "section": 42,
+      "size": 4,
+      "kind": "data",
+      "selected": false
+    },
+    {
+      "unit": "closure_rpc_animation_camera",
+      "symbol": "?monetary@?$_Locbase@H@std@@2HB",
+      "section": 43,
+      "size": 4,
+      "kind": "data",
+      "selected": false
+    },
+    {
+      "unit": "closure_rpc_animation_camera",
+      "symbol": "?ctype@?$_Locbase@H@std@@2HB",
+      "section": 44,
+      "size": 4,
+      "kind": "data",
+      "selected": false
+    },
+    {
+      "unit": "closure_rpc_animation_camera",
+      "symbol": "?collate@?$_Locbase@H@std@@2HB",
+      "section": 45,
+      "size": 4,
+      "kind": "data",
+      "selected": false
+    },
+    {
+      "unit": "closure_rpc_animation_camera",
+      "symbol": "?GetCamera@CGame@@QAEPAVCCamera@@XZ",
+      "section": 46,
+      "size": 4,
+      "kind": "code",
+      "selected": false
+    },
+    {
+      "unit": "closure_rpc_animation_camera",
+      "symbol": "??$Read@_N@BitStream@RakNet@@QAE_NAA_N@Z",
+      "section": 48,
+      "size": 89,
+      "kind": "code",
+      "selected": false
+    },
+    {
+      "unit": "closure_rpc_animation_camera",
+      "symbol": "?GetPlayerPed@CLocalPlayer@@QAEPAVCPlayerPed@@XZ",
+      "section": 50,
+      "size": 7,
+      "kind": "code",
+      "selected": false
+    },
+    {
+      "unit": "closure_rpc_animation_camera",
+      "symbol": "?GetLocalPlayer@CPlayerPool@@QAEPAVCLocalPlayer@@XZ",
+      "section": 52,
+      "size": 4,
+      "kind": "code",
+      "selected": false
+    },
+    {
+      "unit": "closure_rpc_animation_camera",
+      "symbol": "?GetPlayerPool@CNetGame@@QAEPAVCPlayerPool@@XZ",
+      "section": 54,
+      "size": 10,
+      "kind": "code",
+      "selected": false
+    },
+    {
+      "unit": "closure_rpc_animation_camera",
+      "symbol": "?GetPlayerPed@RPCAnimationRemoteView@@QAEPAVCPlayerPed@@XZ",
+      "section": 56,
+      "size": 7,
+      "kind": "code",
+      "selected": false
+    },
+    {
+      "unit": "closure_rpc_animation_camera",
+      "symbol": "?ShowNameTag@RPCAnimationRemoteView@@QAEXE@Z",
+      "section": 58,
+      "size": 17,
+      "kind": "code",
+      "selected": true
+    },
+    {
+      "unit": "closure_rpc_animation_camera",
+      "symbol": "?GetLocalPlayerID@RPCAnimationPlayerPoolView@@QAEGXZ",
+      "section": 60,
+      "size": 5,
+      "kind": "code",
+      "selected": false
+    },
+    {
+      "unit": "closure_rpc_animation_camera",
+      "symbol": "?GetLocalPlayer@RPCAnimationPlayerPoolView@@QAEPAVCLocalPlayer@@XZ",
+      "section": 62,
+      "size": 4,
+      "kind": "code",
+      "selected": false
+    },
+    {
+      "unit": "closure_rpc_animation_camera",
+      "symbol": "?GetSlotState@RPCAnimationPlayerPoolView@@QAEHG@Z",
+      "section": 64,
+      "size": 26,
+      "kind": "code",
+      "selected": false
+    },
+    {
+      "unit": "closure_rpc_animation_camera",
+      "symbol": "?GetAt@RPCAnimationPlayerPoolView@@QAEPAURPCAnimationRemoteView@@G@Z",
+      "section": 66,
+      "size": 36,
+      "kind": "code",
+      "selected": false
+    },
+    {
+      "unit": "closure_rpc_animation_camera",
+      "symbol": "?RPCAnimationPlayers@@YAPAURPCAnimationPlayerPoolView@@XZ",
+      "section": 68,
+      "size": 15,
+      "kind": "code",
+      "selected": false
+    },
+    {
+      "unit": "closure_rpc_animation_camera",
+      "symbol": "?GetAt@RPCCameraObjectPoolView@@QAEPAVCEntity@@G@Z",
+      "section": 70,
+      "size": 37,
+      "kind": "code",
+      "selected": false
+    },
+    {
+      "unit": "closure_rpc_animation_camera",
+      "symbol": "?GetSlotState@RPCCameraObjectPoolView@@QAEHG@Z",
+      "section": 72,
+      "size": 26,
+      "kind": "code",
+      "selected": false
+    },
+    {
+      "unit": "closure_rpc_animation_camera",
+      "symbol": "?RPCCameraObjects@@YAPAURPCCameraObjectPoolView@@XZ",
+      "section": 74,
+      "size": 15,
+      "kind": "code",
+      "selected": false
+    },
+    {
+      "unit": "closure_rpc_animation_camera",
+      "symbol": "??$Read@G@BitStream@RakNet@@QAE_NAAG@Z",
+      "section": 76,
+      "size": 17,
+      "kind": "code",
+      "selected": false
+    },
+    {
+      "unit": "closure_rpc_animation_camera",
+      "symbol": "??$Read@E@BitStream@RakNet@@QAE_NAAE@Z",
+      "section": 78,
+      "size": 17,
+      "kind": "code",
+      "selected": false
+    },
+    {
+      "unit": "closure_rpc_animation_camera",
+      "symbol": "??$Read@M@BitStream@RakNet@@QAE_NAAM@Z",
+      "section": 80,
+      "size": 17,
+      "kind": "code",
+      "selected": false
+    },
+    {
+      "unit": "closure_rpc_animation_camera",
+      "symbol": "??$Read@H@BitStream@RakNet@@QAE_NAAH@Z",
+      "section": 82,
+      "size": 17,
+      "kind": "code",
+      "selected": false
+    },
+    {
+      "unit": "closure_rpc_animation_camera",
+      "symbol": "?ScrApplyAnimationTransfer@@YAXPAURPCParameters@@@Z",
+      "section": 84,
+      "size": 523,
+      "kind": "code",
+      "selected": false
+    },
+    {
+      "unit": "closure_rpc_animation_camera",
+      "symbol": "?ScrClearAnimationsTransfer@@YAXPAURPCParameters@@@Z",
+      "section": 88,
+      "size": 268,
+      "kind": "code",
+      "selected": false
+    },
+    {
+      "unit": "closure_rpc_animation_camera",
+      "symbol": "?ScrSetFightingStyleTransfer@@YAXPAURPCParameters@@@Z",
+      "section": 92,
+      "size": 257,
+      "kind": "code",
+      "selected": false
+    },
+    {
+      "unit": "closure_rpc_animation_camera",
+      "symbol": "?ScrShowNameTagTransfer@@YAXPAURPCParameters@@@Z",
+      "section": 96,
+      "size": 222,
+      "kind": "code",
+      "selected": false
+    },
+    {
+      "unit": "closure_rpc_animation_camera",
+      "symbol": "?ScrAttachCameraToObjectTransfer@@YAXPAURPCParameters@@@Z",
+      "section": 100,
+      "size": 249,
+      "kind": "code",
+      "selected": false
+    },
+    {
+      "unit": "closure_rpc_animation_camera",
+      "symbol": "?ScrInterpolateCameraTransfer@@YAXPAURPCParameters@@@Z",
+      "section": 104,
+      "size": 406,
+      "kind": "code",
+      "selected": false
+    },
+    {
+      "unit": "closure_gui_media",
+      "symbol": "?StringCopyWorkerA@@YGJPADIPBD@Z",
+      "section": 3,
+      "size": 77,
+      "kind": "code",
+      "selected": false
+    },
+    {
+      "unit": "closure_gui_media",
+      "symbol": "?StringVPrintfWorkerA@@YGJPADIPBD0@Z",
+      "section": 5,
+      "size": 86,
+      "kind": "code",
+      "selected": false
+    },
+    {
+      "unit": "closure_gui_media",
+      "symbol": "?StringLengthWorkerA@@YGJPBDIPAI@Z",
+      "section": 7,
+      "size": 64,
+      "kind": "code",
+      "selected": true
+    },
+    {
+      "unit": "closure_gui_media",
+      "symbol": "?DXUTMediaSearchPath@@YAPADXZ",
+      "section": 9,
+      "size": 6,
+      "kind": "code",
+      "selected": false
+    },
+    {
+      "unit": "closure_gui_media",
+      "symbol": "?DXUTGetMediaSearchPath@@YAPBDXZ",
+      "section": 12,
+      "size": 5,
+      "kind": "code",
+      "selected": false
+    },
+    {
+      "unit": "closure_gui_media",
+      "symbol": "?StringCchCopyA@@YGJPADIPBD@Z",
+      "section": 14,
+      "size": 28,
+      "kind": "code",
+      "selected": false
+    },
+    {
+      "unit": "closure_gui_media",
+      "symbol": "?StringCchPrintfA@@YAJPADIPBDZZ",
+      "section": 16,
+      "size": 39,
+      "kind": "code",
+      "selected": false
+    },
+    {
+      "unit": "closure_gui_media",
+      "symbol": "?StringCchLengthA@@YGJPBDIPAI@Z",
+      "section": 18,
+      "size": 40,
+      "kind": "code",
+      "selected": true
+    },
+    {
+      "unit": "closure_gui_media",
+      "symbol": "?StringCatWorkerA@@YGJPADIPBD@Z",
+      "section": 20,
+      "size": 84,
+      "kind": "code",
+      "selected": false
+    },
+    {
+      "unit": "closure_gui_media",
+      "symbol": "?DXUTFindMediaSearchTypicalDirs@@YA_NPADHPBD00@Z",
+      "section": 22,
+      "size": 346,
+      "kind": "code",
+      "selected": false
+    },
+    {
+      "unit": "closure_gui_media",
+      "symbol": "??_C@_04HDOCAJNK@?$CFs?$CFs?$AA@",
+      "section": 23,
+      "size": 5,
+      "kind": "data",
+      "selected": false
+    },
+    {
+      "unit": "closure_gui_media",
+      "symbol": "??_C@_0P@HEBEMA@?$CFs?2?4?4?2?4?4?2?$CFs?2?$CFs?$AA@",
+      "section": 24,
+      "size": 15,
+      "kind": "data",
+      "selected": false
+    },
+    {
+      "unit": "closure_gui_media",
+      "symbol": "??_C@_0M@NALGHNGE@?$CFs?2?4?4?2?$CFs?2?$CFs?$AA@",
+      "section": 25,
+      "size": 12,
+      "kind": "data",
+      "selected": false
+    },
+    {
+      "unit": "closure_gui_media",
+      "symbol": "??_C@_0M@HKPCIGNN@?$CFs?2?4?4?2?4?4?2?$CFs?$AA@",
+      "section": 26,
+      "size": 12,
+      "kind": "data",
+      "selected": false
+    },
+    {
+      "unit": "closure_gui_media",
+      "symbol": "??_C@_08OPCCNCAK@?$CFs?2?4?4?2?$CFs?$AA@",
+      "section": 27,
+      "size": 9,
+      "kind": "data",
+      "selected": false
+    },
+    {
+      "unit": "closure_gui_media",
+      "symbol": "??_C@_05BMGBEOOC@?$CFs?2?$CFs?$AA@",
+      "section": 28,
+      "size": 6,
+      "kind": "data",
+      "selected": false
+    },
+    {
+      "unit": "closure_gui_media",
+      "symbol": "??_C@_08KDFEKKMA@?4?4?2?4?4?2?$CFs?$AA@",
+      "section": 29,
+      "size": 9,
+      "kind": "data",
+      "selected": false
+    },
+    {
+      "unit": "closure_gui_media",
+      "symbol": "??_C@_05LGCFLFFL@?4?4?2?$CFs?$AA@",
+      "section": 30,
+      "size": 6,
+      "kind": "data",
+      "selected": false
+    },
+    {
+      "unit": "closure_gui_media",
+      "symbol": "?DXUTFindMediaSearchParentDirs@@YA_NPADH00@Z",
+      "section": 32,
+      "size": 306,
+      "kind": "code",
+      "selected": false
+    },
+    {
+      "unit": "closure_gui_media",
+      "symbol": "??_C@_05BPCBICBK@?$CFs?2?4?4?$AA@",
+      "section": 33,
+      "size": 6,
+      "kind": "data",
+      "selected": false
+    },
+    {
+      "unit": "closure_gui_media",
+      "symbol": "?StringCchCatA@@YGJPADIPBD@Z",
+      "section": 34,
+      "size": 28,
+      "kind": "code",
+      "selected": false
+    },
+    {
+      "unit": "closure_gui_media",
+      "symbol": "?DXUTSetMediaSearchPath@@YAJPBD@Z",
+      "section": 36,
+      "size": 205,
+      "kind": "code",
+      "selected": false
+    },
+    {
+      "unit": "closure_gui_media",
+      "symbol": "??_C@_01KICIPPFI@?2?$AA@",
+      "section": 37,
+      "size": 2,
+      "kind": "data",
+      "selected": false
+    },
+    {
+      "unit": "closure_gui_media",
+      "symbol": "?DXUTFindDXSDKMediaFileCch@@YAJPADHPBD@Z",
+      "section": 39,
+      "size": 567,
+      "kind": "code",
+      "selected": false
+    },
+    {
+      "unit": "closure_gui_media",
+      "symbol": "??_C@_01LFCBOECM@?4?$AA@",
+      "section": 40,
+      "size": 2,
+      "kind": "data",
+      "selected": false
+    },
+    {
+      "unit": "closure_gui_media",
+      "symbol": "??_C@_08GDMOFFMA@media?2?$CFs?$AA@",
+      "section": 41,
+      "size": 9,
+      "kind": "data",
+      "selected": false
+    },
+    {
+      "unit": "closure_rpc_world_objects",
+      "symbol": "?end@?$_Iosb@H@std@@2W4_Seekdir@12@B",
+      "section": 3,
+      "size": 4,
+      "kind": "data",
+      "selected": false
+    },
+    {
+      "unit": "closure_rpc_world_objects",
+      "symbol": "?cur@?$_Iosb@H@std@@2W4_Seekdir@12@B",
+      "section": 4,
+      "size": 4,
+      "kind": "data",
+      "selected": false
+    },
+    {
+      "unit": "closure_rpc_world_objects",
+      "symbol": "?beg@?$_Iosb@H@std@@2W4_Seekdir@12@B",
+      "section": 5,
+      "size": 4,
+      "kind": "data",
+      "selected": false
+    },
+    {
+      "unit": "closure_rpc_world_objects",
+      "symbol": "?binary@?$_Iosb@H@std@@2W4_Openmode@12@B",
+      "section": 6,
+      "size": 4,
+      "kind": "data",
+      "selected": false
+    },
+    {
+      "unit": "closure_rpc_world_objects",
+      "symbol": "?_Noreplace@?$_Iosb@H@std@@2W4_Openmode@12@B",
+      "section": 7,
+      "size": 4,
+      "kind": "data",
+      "selected": false
+    },
+    {
+      "unit": "closure_rpc_world_objects",
+      "symbol": "?_Nocreate@?$_Iosb@H@std@@2W4_Openmode@12@B",
+      "section": 8,
+      "size": 4,
+      "kind": "data",
+      "selected": false
+    },
+    {
+      "unit": "closure_rpc_world_objects",
+      "symbol": "?trunc@?$_Iosb@H@std@@2W4_Openmode@12@B",
+      "section": 9,
+      "size": 4,
+      "kind": "data",
+      "selected": false
+    },
+    {
+      "unit": "closure_rpc_world_objects",
+      "symbol": "?app@?$_Iosb@H@std@@2W4_Openmode@12@B",
+      "section": 10,
+      "size": 4,
+      "kind": "data",
+      "selected": false
+    },
+    {
+      "unit": "closure_rpc_world_objects",
+      "symbol": "?ate@?$_Iosb@H@std@@2W4_Openmode@12@B",
+      "section": 11,
+      "size": 4,
+      "kind": "data",
+      "selected": false
+    },
+    {
+      "unit": "closure_rpc_world_objects",
+      "symbol": "?out@?$_Iosb@H@std@@2W4_Openmode@12@B",
+      "section": 12,
+      "size": 4,
+      "kind": "data",
+      "selected": false
+    },
+    {
+      "unit": "closure_rpc_world_objects",
+      "symbol": "?in@?$_Iosb@H@std@@2W4_Openmode@12@B",
+      "section": 13,
+      "size": 4,
+      "kind": "data",
+      "selected": false
+    },
+    {
+      "unit": "closure_rpc_world_objects",
+      "symbol": "?_Hardfail@?$_Iosb@H@std@@2W4_Iostate@12@B",
+      "section": 14,
+      "size": 4,
+      "kind": "data",
+      "selected": false
+    },
+    {
+      "unit": "closure_rpc_world_objects",
+      "symbol": "?badbit@?$_Iosb@H@std@@2W4_Iostate@12@B",
+      "section": 15,
+      "size": 4,
+      "kind": "data",
+      "selected": false
+    },
+    {
+      "unit": "closure_rpc_world_objects",
+      "symbol": "?failbit@?$_Iosb@H@std@@2W4_Iostate@12@B",
+      "section": 16,
+      "size": 4,
+      "kind": "data",
+      "selected": false
+    },
+    {
+      "unit": "closure_rpc_world_objects",
+      "symbol": "?eofbit@?$_Iosb@H@std@@2W4_Iostate@12@B",
+      "section": 17,
+      "size": 4,
+      "kind": "data",
+      "selected": false
+    },
+    {
+      "unit": "closure_rpc_world_objects",
+      "symbol": "?goodbit@?$_Iosb@H@std@@2W4_Iostate@12@B",
+      "section": 18,
+      "size": 4,
+      "kind": "data",
+      "selected": false
+    },
+    {
+      "unit": "closure_rpc_world_objects",
+      "symbol": "?floatfield@?$_Iosb@H@std@@2W4_Fmtflags@12@B",
+      "section": 19,
+      "size": 4,
+      "kind": "data",
+      "selected": false
+    },
+    {
+      "unit": "closure_rpc_world_objects",
+      "symbol": "?basefield@?$_Iosb@H@std@@2W4_Fmtflags@12@B",
+      "section": 20,
+      "size": 4,
+      "kind": "data",
+      "selected": false
+    },
+    {
+      "unit": "closure_rpc_world_objects",
+      "symbol": "?adjustfield@?$_Iosb@H@std@@2W4_Fmtflags@12@B",
+      "section": 21,
+      "size": 4,
+      "kind": "data",
+      "selected": false
+    },
+    {
+      "unit": "closure_rpc_world_objects",
+      "symbol": "?_Stdio@?$_Iosb@H@std@@2W4_Fmtflags@12@B",
+      "section": 22,
+      "size": 4,
+      "kind": "data",
+      "selected": false
+    },
+    {
+      "unit": "closure_rpc_world_objects",
+      "symbol": "?boolalpha@?$_Iosb@H@std@@2W4_Fmtflags@12@B",
+      "section": 23,
+      "size": 4,
+      "kind": "data",
+      "selected": false
+    },
+    {
+      "unit": "closure_rpc_world_objects",
+      "symbol": "?fixed@?$_Iosb@H@std@@2W4_Fmtflags@12@B",
+      "section": 24,
+      "size": 4,
+      "kind": "data",
+      "selected": false
+    },
+    {
+      "unit": "closure_rpc_world_objects",
+      "symbol": "?scientific@?$_Iosb@H@std@@2W4_Fmtflags@12@B",
+      "section": 25,
+      "size": 4,
+      "kind": "data",
+      "selected": false
+    },
+    {
+      "unit": "closure_rpc_world_objects",
+      "symbol": "?hex@?$_Iosb@H@std@@2W4_Fmtflags@12@B",
+      "section": 26,
+      "size": 4,
+      "kind": "data",
+      "selected": false
+    },
+    {
+      "unit": "closure_rpc_world_objects",
+      "symbol": "?oct@?$_Iosb@H@std@@2W4_Fmtflags@12@B",
+      "section": 27,
+      "size": 4,
+      "kind": "data",
+      "selected": false
+    },
+    {
+      "unit": "closure_rpc_world_objects",
+      "symbol": "?dec@?$_Iosb@H@std@@2W4_Fmtflags@12@B",
+      "section": 28,
+      "size": 4,
+      "kind": "data",
+      "selected": false
+    },
+    {
+      "unit": "closure_rpc_world_objects",
+      "symbol": "?internal@?$_Iosb@H@std@@2W4_Fmtflags@12@B",
+      "section": 29,
+      "size": 4,
+      "kind": "data",
+      "selected": false
+    },
+    {
+      "unit": "closure_rpc_world_objects",
+      "symbol": "?right@?$_Iosb@H@std@@2W4_Fmtflags@12@B",
+      "section": 30,
+      "size": 4,
+      "kind": "data",
+      "selected": false
+    },
+    {
+      "unit": "closure_rpc_world_objects",
+      "symbol": "?left@?$_Iosb@H@std@@2W4_Fmtflags@12@B",
+      "section": 31,
+      "size": 4,
+      "kind": "data",
+      "selected": false
+    },
+    {
+      "unit": "closure_rpc_world_objects",
+      "symbol": "?showpos@?$_Iosb@H@std@@2W4_Fmtflags@12@B",
+      "section": 32,
+      "size": 4,
+      "kind": "data",
+      "selected": false
+    },
+    {
+      "unit": "closure_rpc_world_objects",
+      "symbol": "?showpoint@?$_Iosb@H@std@@2W4_Fmtflags@12@B",
+      "section": 33,
+      "size": 4,
+      "kind": "data",
+      "selected": false
+    },
+    {
+      "unit": "closure_rpc_world_objects",
+      "symbol": "?showbase@?$_Iosb@H@std@@2W4_Fmtflags@12@B",
+      "section": 34,
+      "size": 4,
+      "kind": "data",
+      "selected": false
+    },
+    {
+      "unit": "closure_rpc_world_objects",
+      "symbol": "?uppercase@?$_Iosb@H@std@@2W4_Fmtflags@12@B",
+      "section": 35,
+      "size": 4,
+      "kind": "data",
+      "selected": false
+    },
+    {
+      "unit": "closure_rpc_world_objects",
+      "symbol": "?unitbuf@?$_Iosb@H@std@@2W4_Fmtflags@12@B",
+      "section": 36,
+      "size": 4,
+      "kind": "data",
+      "selected": false
+    },
+    {
+      "unit": "closure_rpc_world_objects",
+      "symbol": "?skipws@?$_Iosb@H@std@@2W4_Fmtflags@12@B",
+      "section": 37,
+      "size": 4,
+      "kind": "data",
+      "selected": false
+    },
+    {
+      "unit": "closure_rpc_world_objects",
+      "symbol": "?none@?$_Locbase@H@std@@2HB",
+      "section": 38,
+      "size": 4,
+      "kind": "data",
+      "selected": false
+    },
+    {
+      "unit": "closure_rpc_world_objects",
+      "symbol": "?all@?$_Locbase@H@std@@2HB",
+      "section": 39,
+      "size": 4,
+      "kind": "data",
+      "selected": false
+    },
+    {
+      "unit": "closure_rpc_world_objects",
+      "symbol": "?messages@?$_Locbase@H@std@@2HB",
+      "section": 40,
+      "size": 4,
+      "kind": "data",
+      "selected": false
+    },
+    {
+      "unit": "closure_rpc_world_objects",
+      "symbol": "?time@?$_Locbase@H@std@@2HB",
+      "section": 41,
+      "size": 4,
+      "kind": "data",
+      "selected": false
+    },
+    {
+      "unit": "closure_rpc_world_objects",
+      "symbol": "?numeric@?$_Locbase@H@std@@2HB",
+      "section": 42,
+      "size": 4,
+      "kind": "data",
+      "selected": false
+    },
+    {
+      "unit": "closure_rpc_world_objects",
+      "symbol": "?monetary@?$_Locbase@H@std@@2HB",
+      "section": 43,
+      "size": 4,
+      "kind": "data",
+      "selected": false
+    },
+    {
+      "unit": "closure_rpc_world_objects",
+      "symbol": "?ctype@?$_Locbase@H@std@@2HB",
+      "section": 44,
+      "size": 4,
+      "kind": "data",
+      "selected": false
+    },
+    {
+      "unit": "closure_rpc_world_objects",
+      "symbol": "?collate@?$_Locbase@H@std@@2HB",
+      "section": 45,
+      "size": 4,
+      "kind": "data",
+      "selected": false
+    },
+    {
+      "unit": "closure_rpc_world_objects",
+      "symbol": "?GetLocalPlayer@CPlayerPool@@QAEPAVCLocalPlayer@@XZ",
+      "section": 46,
+      "size": 4,
+      "kind": "code",
+      "selected": false
+    },
+    {
+      "unit": "closure_rpc_world_objects",
+      "symbol": "?GetAt@CPlayerPool@@QAEPAVCRemotePlayer@@G@Z",
+      "section": 48,
+      "size": 36,
+      "kind": "code",
+      "selected": false
+    },
+    {
+      "unit": "closure_rpc_world_objects",
+      "symbol": "?GetLocalPlayerID@CPlayerPool@@QAEGXZ",
+      "section": 50,
+      "size": 5,
+      "kind": "code",
+      "selected": false
+    },
+    {
+      "unit": "closure_rpc_world_objects",
+      "symbol": "?GetPlayerPool@CNetGame@@QAEPAVCPlayerPool@@XZ",
+      "section": 52,
+      "size": 10,
+      "kind": "code",
+      "selected": false
+    },
+    {
+      "unit": "closure_rpc_world_objects",
+      "symbol": "?GetAudio@RPCSoundGameView@@QAEPAVCAudio@@XZ",
+      "section": 54,
+      "size": 3,
+      "kind": "code",
+      "selected": false
+    },
+    {
+      "unit": "closure_rpc_world_objects",
+      "symbol": "?GetAt@RPCObjectStatePoolView@@QAEPAVCObject@@G@Z",
+      "section": 56,
+      "size": 37,
+      "kind": "code",
+      "selected": true
+    },
+    {
+      "unit": "closure_rpc_world_objects",
+      "symbol": "??$Read@G@BitStream@RakNet@@QAE_NAAG@Z",
+      "section": 58,
+      "size": 17,
+      "kind": "code",
+      "selected": false
+    },
+    {
+      "unit": "closure_rpc_world_objects",
+      "symbol": "??$Read@H@BitStream@RakNet@@QAE_NAAH@Z",
+      "section": 60,
+      "size": 17,
+      "kind": "code",
+      "selected": false
+    },
+    {
+      "unit": "closure_rpc_world_objects",
+      "symbol": "??$Read@M@BitStream@RakNet@@QAE_NAAM@Z",
+      "section": 62,
+      "size": 17,
+      "kind": "code",
+      "selected": false
+    },
+    {
+      "unit": "closure_rpc_world_objects",
+      "symbol": "??$Read@E@BitStream@RakNet@@QAE_NAAE@Z",
+      "section": 64,
+      "size": 17,
+      "kind": "code",
+      "selected": false
+    },
+    {
+      "unit": "closure_rpc_world_objects",
+      "symbol": "?ScrPlaySoundTransfer@@YAXPAURPCParameters@@@Z",
+      "section": 66,
+      "size": 219,
+      "kind": "code",
+      "selected": false
+    },
+    {
+      "unit": "closure_rpc_world_objects",
+      "symbol": "?ScrSetWorldBoundsTransfer@@YAXPAURPCParameters@@@Z",
+      "section": 71,
+      "size": 227,
+      "kind": "code",
+      "selected": false
+    },
+    {
+      "unit": "closure_rpc_world_objects",
+      "symbol": "?ScrSetPlayerTeamTransfer@@YAXPAURPCParameters@@@Z",
+      "section": 75,
+      "size": 233,
+      "kind": "code",
+      "selected": false
+    },
+    {
+      "unit": "closure_rpc_world_objects",
+      "symbol": "?ScrSetObjectPosTransfer@@YAXPAURPCParameters@@@Z",
+      "section": 79,
+      "size": 272,
+      "kind": "code",
+      "selected": false
+    },
+    {
+      "unit": "closure_rpc_world_objects",
+      "symbol": "?ScrRespawnVehicleTransfer@@YAXPAURPCParameters@@@Z",
+      "section": 83,
+      "size": 132,
+      "kind": "code",
+      "selected": false
+    },
+    {
+      "unit": "closure_rpc_world_objects",
+      "symbol": "?ScrSetObjectNoCameraCollisionTransfer@@YAXPAURPCParameters@@@Z",
+      "section": 87,
+      "size": 184,
+      "kind": "code",
+      "selected": false
+    },
+    {
+      "unit": "closure_rpc_init_menu",
+      "symbol": "?end@?$_Iosb@H@std@@2W4_Seekdir@12@B",
+      "section": 3,
+      "size": 4,
+      "kind": "data",
+      "selected": false
+    },
+    {
+      "unit": "closure_rpc_init_menu",
+      "symbol": "?cur@?$_Iosb@H@std@@2W4_Seekdir@12@B",
+      "section": 4,
+      "size": 4,
+      "kind": "data",
+      "selected": false
+    },
+    {
+      "unit": "closure_rpc_init_menu",
+      "symbol": "?beg@?$_Iosb@H@std@@2W4_Seekdir@12@B",
+      "section": 5,
+      "size": 4,
+      "kind": "data",
+      "selected": false
+    },
+    {
+      "unit": "closure_rpc_init_menu",
+      "symbol": "?binary@?$_Iosb@H@std@@2W4_Openmode@12@B",
+      "section": 6,
+      "size": 4,
+      "kind": "data",
+      "selected": false
+    },
+    {
+      "unit": "closure_rpc_init_menu",
+      "symbol": "?_Noreplace@?$_Iosb@H@std@@2W4_Openmode@12@B",
+      "section": 7,
+      "size": 4,
+      "kind": "data",
+      "selected": false
+    },
+    {
+      "unit": "closure_rpc_init_menu",
+      "symbol": "?_Nocreate@?$_Iosb@H@std@@2W4_Openmode@12@B",
+      "section": 8,
+      "size": 4,
+      "kind": "data",
+      "selected": false
+    },
+    {
+      "unit": "closure_rpc_init_menu",
+      "symbol": "?trunc@?$_Iosb@H@std@@2W4_Openmode@12@B",
+      "section": 9,
+      "size": 4,
+      "kind": "data",
+      "selected": false
+    },
+    {
+      "unit": "closure_rpc_init_menu",
+      "symbol": "?app@?$_Iosb@H@std@@2W4_Openmode@12@B",
+      "section": 10,
+      "size": 4,
+      "kind": "data",
+      "selected": false
+    },
+    {
+      "unit": "closure_rpc_init_menu",
+      "symbol": "?ate@?$_Iosb@H@std@@2W4_Openmode@12@B",
+      "section": 11,
+      "size": 4,
+      "kind": "data",
+      "selected": false
+    },
+    {
+      "unit": "closure_rpc_init_menu",
+      "symbol": "?out@?$_Iosb@H@std@@2W4_Openmode@12@B",
+      "section": 12,
+      "size": 4,
+      "kind": "data",
+      "selected": false
+    },
+    {
+      "unit": "closure_rpc_init_menu",
+      "symbol": "?in@?$_Iosb@H@std@@2W4_Openmode@12@B",
+      "section": 13,
+      "size": 4,
+      "kind": "data",
+      "selected": false
+    },
+    {
+      "unit": "closure_rpc_init_menu",
+      "symbol": "?_Hardfail@?$_Iosb@H@std@@2W4_Iostate@12@B",
+      "section": 14,
+      "size": 4,
+      "kind": "data",
+      "selected": false
+    },
+    {
+      "unit": "closure_rpc_init_menu",
+      "symbol": "?badbit@?$_Iosb@H@std@@2W4_Iostate@12@B",
+      "section": 15,
+      "size": 4,
+      "kind": "data",
+      "selected": false
+    },
+    {
+      "unit": "closure_rpc_init_menu",
+      "symbol": "?failbit@?$_Iosb@H@std@@2W4_Iostate@12@B",
+      "section": 16,
+      "size": 4,
+      "kind": "data",
+      "selected": false
+    },
+    {
+      "unit": "closure_rpc_init_menu",
+      "symbol": "?eofbit@?$_Iosb@H@std@@2W4_Iostate@12@B",
+      "section": 17,
+      "size": 4,
+      "kind": "data",
+      "selected": false
+    },
+    {
+      "unit": "closure_rpc_init_menu",
+      "symbol": "?goodbit@?$_Iosb@H@std@@2W4_Iostate@12@B",
+      "section": 18,
+      "size": 4,
+      "kind": "data",
+      "selected": false
+    },
+    {
+      "unit": "closure_rpc_init_menu",
+      "symbol": "?floatfield@?$_Iosb@H@std@@2W4_Fmtflags@12@B",
+      "section": 19,
+      "size": 4,
+      "kind": "data",
+      "selected": false
+    },
+    {
+      "unit": "closure_rpc_init_menu",
+      "symbol": "?basefield@?$_Iosb@H@std@@2W4_Fmtflags@12@B",
+      "section": 20,
+      "size": 4,
+      "kind": "data",
+      "selected": false
+    },
+    {
+      "unit": "closure_rpc_init_menu",
+      "symbol": "?adjustfield@?$_Iosb@H@std@@2W4_Fmtflags@12@B",
+      "section": 21,
+      "size": 4,
+      "kind": "data",
+      "selected": false
+    },
+    {
+      "unit": "closure_rpc_init_menu",
+      "symbol": "?_Stdio@?$_Iosb@H@std@@2W4_Fmtflags@12@B",
+      "section": 22,
+      "size": 4,
+      "kind": "data",
+      "selected": false
+    },
+    {
+      "unit": "closure_rpc_init_menu",
+      "symbol": "?boolalpha@?$_Iosb@H@std@@2W4_Fmtflags@12@B",
+      "section": 23,
+      "size": 4,
+      "kind": "data",
+      "selected": false
+    },
+    {
+      "unit": "closure_rpc_init_menu",
+      "symbol": "?fixed@?$_Iosb@H@std@@2W4_Fmtflags@12@B",
+      "section": 24,
+      "size": 4,
+      "kind": "data",
+      "selected": false
+    },
+    {
+      "unit": "closure_rpc_init_menu",
+      "symbol": "?scientific@?$_Iosb@H@std@@2W4_Fmtflags@12@B",
+      "section": 25,
+      "size": 4,
+      "kind": "data",
+      "selected": false
+    },
+    {
+      "unit": "closure_rpc_init_menu",
+      "symbol": "?hex@?$_Iosb@H@std@@2W4_Fmtflags@12@B",
+      "section": 26,
+      "size": 4,
+      "kind": "data",
+      "selected": false
+    },
+    {
+      "unit": "closure_rpc_init_menu",
+      "symbol": "?oct@?$_Iosb@H@std@@2W4_Fmtflags@12@B",
+      "section": 27,
+      "size": 4,
+      "kind": "data",
+      "selected": false
+    },
+    {
+      "unit": "closure_rpc_init_menu",
+      "symbol": "?dec@?$_Iosb@H@std@@2W4_Fmtflags@12@B",
+      "section": 28,
+      "size": 4,
+      "kind": "data",
+      "selected": false
+    },
+    {
+      "unit": "closure_rpc_init_menu",
+      "symbol": "?internal@?$_Iosb@H@std@@2W4_Fmtflags@12@B",
+      "section": 29,
+      "size": 4,
+      "kind": "data",
+      "selected": false
+    },
+    {
+      "unit": "closure_rpc_init_menu",
+      "symbol": "?right@?$_Iosb@H@std@@2W4_Fmtflags@12@B",
+      "section": 30,
+      "size": 4,
+      "kind": "data",
+      "selected": false
+    },
+    {
+      "unit": "closure_rpc_init_menu",
+      "symbol": "?left@?$_Iosb@H@std@@2W4_Fmtflags@12@B",
+      "section": 31,
+      "size": 4,
+      "kind": "data",
+      "selected": false
+    },
+    {
+      "unit": "closure_rpc_init_menu",
+      "symbol": "?showpos@?$_Iosb@H@std@@2W4_Fmtflags@12@B",
+      "section": 32,
+      "size": 4,
+      "kind": "data",
+      "selected": false
+    },
+    {
+      "unit": "closure_rpc_init_menu",
+      "symbol": "?showpoint@?$_Iosb@H@std@@2W4_Fmtflags@12@B",
+      "section": 33,
+      "size": 4,
+      "kind": "data",
+      "selected": false
+    },
+    {
+      "unit": "closure_rpc_init_menu",
+      "symbol": "?showbase@?$_Iosb@H@std@@2W4_Fmtflags@12@B",
+      "section": 34,
+      "size": 4,
+      "kind": "data",
+      "selected": false
+    },
+    {
+      "unit": "closure_rpc_init_menu",
+      "symbol": "?uppercase@?$_Iosb@H@std@@2W4_Fmtflags@12@B",
+      "section": 35,
+      "size": 4,
+      "kind": "data",
+      "selected": false
+    },
+    {
+      "unit": "closure_rpc_init_menu",
+      "symbol": "?unitbuf@?$_Iosb@H@std@@2W4_Fmtflags@12@B",
+      "section": 36,
+      "size": 4,
+      "kind": "data",
+      "selected": false
+    },
+    {
+      "unit": "closure_rpc_init_menu",
+      "symbol": "?skipws@?$_Iosb@H@std@@2W4_Fmtflags@12@B",
+      "section": 37,
+      "size": 4,
+      "kind": "data",
+      "selected": false
+    },
+    {
+      "unit": "closure_rpc_init_menu",
+      "symbol": "?none@?$_Locbase@H@std@@2HB",
+      "section": 38,
+      "size": 4,
+      "kind": "data",
+      "selected": false
+    },
+    {
+      "unit": "closure_rpc_init_menu",
+      "symbol": "?all@?$_Locbase@H@std@@2HB",
+      "section": 39,
+      "size": 4,
+      "kind": "data",
+      "selected": false
+    },
+    {
+      "unit": "closure_rpc_init_menu",
+      "symbol": "?messages@?$_Locbase@H@std@@2HB",
+      "section": 40,
+      "size": 4,
+      "kind": "data",
+      "selected": false
+    },
+    {
+      "unit": "closure_rpc_init_menu",
+      "symbol": "?time@?$_Locbase@H@std@@2HB",
+      "section": 41,
+      "size": 4,
+      "kind": "data",
+      "selected": false
+    },
+    {
+      "unit": "closure_rpc_init_menu",
+      "symbol": "?numeric@?$_Locbase@H@std@@2HB",
+      "section": 42,
+      "size": 4,
+      "kind": "data",
+      "selected": false
+    },
+    {
+      "unit": "closure_rpc_init_menu",
+      "symbol": "?monetary@?$_Locbase@H@std@@2HB",
+      "section": 43,
+      "size": 4,
+      "kind": "data",
+      "selected": false
+    },
+    {
+      "unit": "closure_rpc_init_menu",
+      "symbol": "?ctype@?$_Locbase@H@std@@2HB",
+      "section": 44,
+      "size": 4,
+      "kind": "data",
+      "selected": false
+    },
+    {
+      "unit": "closure_rpc_init_menu",
+      "symbol": "?collate@?$_Locbase@H@std@@2HB",
+      "section": 45,
+      "size": 4,
+      "kind": "data",
+      "selected": false
+    },
+    {
+      "unit": "closure_rpc_init_menu",
+      "symbol": "?GetSlotState@RPCInitMenuPoolView@@QAEHE@Z",
+      "section": 46,
+      "size": 26,
+      "kind": "code",
+      "selected": true
+    },
+    {
+      "unit": "closure_rpc_init_menu",
+      "symbol": "?New@CMenuPool@@QAEPAVCMenu@@EMMEMMPAUMENU_INT@@@Z",
+      "section": 48,
+      "size": 188,
+      "kind": "code",
+      "selected": false
+    },
+    {
+      "unit": "closure_rpc_init_menu",
+      "symbol": "??$Read@E@BitStream@RakNet@@QAE_NAAE@Z",
+      "section": 53,
+      "size": 17,
+      "kind": "code",
+      "selected": false
+    },
+    {
+      "unit": "closure_rpc_init_menu",
+      "symbol": "??$Read@H@BitStream@RakNet@@QAE_NAAH@Z",
+      "section": 55,
+      "size": 17,
+      "kind": "code",
+      "selected": false
+    },
+    {
+      "unit": "closure_rpc_init_menu",
+      "symbol": "??$Read@M@BitStream@RakNet@@QAE_NAAM@Z",
+      "section": 57,
+      "size": 17,
+      "kind": "code",
+      "selected": false
+    },
+    {
+      "unit": "closure_rpc_init_menu",
+      "symbol": "?ScrInitMenuTransfer@@YAXPAURPCParameters@@@Z",
+      "section": 59,
+      "size": 796,
+      "kind": "code",
+      "selected": false
+    }
+  ],
+  "new_external_limitations": {},
+  "typed_layout_note": "Preexisting normal source. StringCchLengthA40 real ANSI checked-length wrapper calls StringLengthWorkerA64 at781C0 (actual REL32 at9639C), already covered by checkpoint31 but not yet represented as SDK provider;64 earns zero new coverage. Exact complete ObjectPool GetAt37 at2DE0 returns real CObject*, preserves the original inclusive WORD id<=1000 guard, including the original boundary1000 behavior and BOOL slot states then actual object pointer field. Existing pool prefix/layout verified by accepted RPC source. Menu GetSlotState26 preserves the actual inclusive BYTE id<=128 guard, including original boundary128 behavior and state storage. Remote ShowNameTag17 normalizes actual BYTE argument with show!=0 into original BOOL field. PlayerPool local-name14 returns actual std::string28 buffer/SSO at offset6, preserving native capacity threshold. No allocation of partial views, no new data/import/CRT/EH, no source/header/profile changes or aliases. Baseline emitted definitions and accepted callers supply identities; no pure pattern match alone.",
+  "provenance": "Entirely preexisting source and current baseline objects; six complete selected code regions198, only134 new unique bytes because real StringLengthWorkerA64 was previously covered in checkpoint31. No new code/data/EH, no imports, no source/header/profile or alias changes. Source/metadata/object hashes and actual owners checked. Complete COFF/PE comparison PASS; final linked gate pending. Original inclusive boundary behavior retained without added guards."
+}

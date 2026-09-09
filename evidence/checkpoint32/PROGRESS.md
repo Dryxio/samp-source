@@ -1573,3 +1573,6 @@ astra-resume-four: +2199 unique R5 code bytes, total 431298/930756 (46.338460%).
 
 
 astra40-three: +3170 unique R5 code bytes, total 434468/930756 (46.679044%). Transport1542, Router963, factory/ConsoleServer151, transport parser182, PlayerID Queue Pop65, stats149 and attachments118:3170 potential unique R5 code bytes. Complete source/linked code, data, EH and actual COFF/PE targets; required negative controls and ABI PASS. No duplicate/data/CRT/unimplemented-provider credit. Checkpoint remains active, no push/deployment. See astra-resume-reports/astra40-three.json.
+
+
+astra40-ten: +1427 unique R5 code bytes, total 435895/930756 (46.832360%). Router/factory/queue304, std::string543, DXUT/math446 and UI134:1427 potential unique R5 code bytes. Real RakPeer173 and StringLengthWorker64 providers already covered, zero new credit. Complete source/linked code, data, EH and actual COFF/PE targets; required negative controls and ABI PASS. No duplicate/data/CRT/unimplemented-provider credit. Checkpoint remains active, no push/deployment. See astra-resume-reports/astra40-ten.json.
