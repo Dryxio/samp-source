@@ -1,0 +1,59 @@
+{
+  "status": "PASS_FULL_SOURCE_REGIONS_ALL_COFF_PE_TARGETS",
+  "run": "build/cp32-pipeline-next-two-linked1",
+  "baseline": 428758,
+  "new_unique_code": 63,
+  "source_policy": "CURRENT_LINKED_OBJECTS_REVIEWED; SOURCES_UNCHANGED",
+  "reference_sha256": "b72b5dbe725f81864ca3f78bc7063bda56cc05fc7188af822fa7a754432553a2",
+  "roots": [
+    {"unit": "closure_rpc_actors", "symbol": "?GetAt@RPCActorPoolView@@QAEPAVCActorPed@@G@Z", "rva": 5648, "size": 37},
+    {"unit": "closure_rpc_animation_camera", "symbol": "?GetSlotState@RPCCameraObjectPoolView@@QAEHG@Z", "rva": 75648, "size": 26}
+  ],
+  "objects": {
+    "closure_rpc_actors": {
+      "path": "build/cp32-pipeline-next-two-linked1/closure_rpc_actors.obj",
+      "sha256": "4d013dec8ab2d9be2401d1a55af42d45d6fdfde2e73a624c60311928f83c5b8f"
+    },
+    "closure_rpc_animation_camera": {
+      "path": "build/cp32-pipeline-next-two-linked1/closure_rpc_animation_camera.obj",
+      "sha256": "82763c3a5070a6d7dfa518abea9a71a6e5d870396737fb1d1492b11f2d13e6d0"
+    }
+  },
+  "regions": [
+    {
+      "unit": "closure_rpc_actors",
+      "section": 48,
+      "anchor": "?GetAt@RPCActorPoolView@@QAEPAVCActorPed@@G@Z",
+      "anchor_offset": 0,
+      "rva": 5648,
+      "size": 37,
+      "kind": "code",
+      "sha256": "b2b6c1eb5b62678408645162a95d16daa9f5aa4740e21b07bc6caef470bfc2db",
+      "whole_bytes_equal": true,
+      "bindings": [],
+      "coff_relocations": [],
+      "pe_relocations": []
+    },
+    {
+      "unit": "closure_rpc_animation_camera",
+      "section": 72,
+      "anchor": "?GetSlotState@RPCCameraObjectPoolView@@QAEHG@Z",
+      "anchor_offset": 0,
+      "rva": 75648,
+      "size": 26,
+      "kind": "code",
+      "sha256": "99deeec1957ce557057766a37072b56111692f87e14c899ba3bf23ee8035dd6d",
+      "whole_bytes_equal": true,
+      "bindings": [],
+      "coff_relocations": [],
+      "pe_relocations": []
+    }
+  ],
+  "review": {
+    "coff_complete_sections": true,
+    "eh_data_targets": "none in selected sections",
+    "target_resolution": "no targets; direct full-byte equality",
+    "owner_check": "tools/index_symbol_owners.py: one unique owner per root; zero cross-owner collisions",
+    "negative_control": "current linked object hashes are pinned; no prior source snapshot reused"
+  }
+}

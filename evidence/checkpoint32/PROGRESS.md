@@ -1564,3 +1564,6 @@ pipeline-next-one: +409 unique code bytes, total425232/930756 (45.686732%). UI t
 
 
 pipeline-next-two: +3526 unique R5 code bytes, total428758/930756 (46.065564%). EmailSender3395 (3374 methods+21 EH code), dialog95, attachment slot36. Full source/linked regions, actual COFF/PE targets, negative controls and ABI PASS. Two-batch run +3935; 11527 bytes/hour including coordination. See pipeline-next-report.json; no push/deployment.
+
+
+luna30-three: +341 unique accepted R5 code bytes, total429099/930756 (46.102201%). Roster101,names100,actor/camera63,GUI31,math46. Full closure/bytes/COFF/PE targets, required negative controls and ABI PASS. Luna trial paused;682 bytes/h over planned30min window. See luna30-report.md. No push/deployment.

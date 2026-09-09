@@ -1,0 +1,69 @@
+{
+  "status": "PASS_FULL_SOURCE_REGIONS_ALL_COFF_PE_TARGETS",
+  "run": "build/cp32-pipeline-next-two-linked1",
+  "baseline": 428758,
+  "new_unique_code": 100,
+  "source_policy": "CURRENT_LINKED_OBJECT_REVIEWED; SOURCES_UNCHANGED",
+  "reference_sha256": "b72b5dbe725f81864ca3f78bc7063bda56cc05fc7188af822fa7a754432553a2",
+  "objects": {
+    "closure_rpc_player_name": {
+      "path": "build/cp32-pipeline-next-two-linked1/closure_rpc_player_name.obj",
+      "sha256": "097bccbd6a4bf61c2dc8e3e3d7d373dc728114722eb246c2beef77cc4b8e2cf9"
+    }
+  },
+  "regions": [
+    {
+      "unit": "closure_rpc_player_name",
+      "section": 102,
+      "anchor": "?SetPlayerName@CPlayerPool@@QAEXGPAD@Z",
+      "anchor_offset": 0,
+      "rva": 122768,
+      "size": 60,
+      "kind": "code",
+      "sha256": "e45bae7acba07e41d481d8b561660a374e436a1ca4b7334fe43a1378cf2265de",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "?assign@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAEAAV12@PBDI@Z",
+          "site_rva": 122819,
+          "kind": 20,
+          "target_rva": 47024,
+          "target_owner": "closure_remote_player_construction",
+          "target_va": 268482480
+        }
+      ],
+      "coff_relocations": 1,
+      "pe_relocations": []
+    },
+    {
+      "unit": "closure_rpc_player_name",
+      "section": 100,
+      "anchor": "?SetLocalPlayerName@CPlayerPool@@QAEXPAD@Z",
+      "anchor_offset": 0,
+      "rva": 47360,
+      "size": 40,
+      "kind": "code",
+      "sha256": "8707c832816ed043841c74f53290c1191db855b45ba899e781d0e499f29aa6f6",
+      "whole_bytes_equal": true,
+      "bindings": [
+        {
+          "symbol": "?assign@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAEAAV12@PBDI@Z",
+          "site_rva": 47391,
+          "kind": 20,
+          "target_rva": 47024,
+          "target_owner": "closure_remote_player_construction",
+          "target_va": 268482480
+        }
+      ],
+      "coff_relocations": 1,
+      "pe_relocations": []
+    }
+  ],
+  "review": {
+    "coff_complete_sections": true,
+    "eh_data_targets": "none in selected member sections",
+    "target_resolution": "REL32 calls resolve to the accepted assign provider; full resolved bytes equal R5",
+    "owner_check": "tools/index_symbol_owners.py: closure_rpc_player_name owns both roots; zero cross-owner collisions",
+    "negative_control": "the previous trial object was not used; current linked object hash is pinned above"
+  }
+}

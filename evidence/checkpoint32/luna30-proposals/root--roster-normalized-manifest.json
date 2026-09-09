@@ -1,0 +1,63 @@
+{
+  "status": "PASS_FULL_SOURCE_REGIONS_ALL_COFF_PE_TARGETS",
+  "run": "build/cp32-pipeline-next-two-linked1",
+  "baseline": 428758,
+  "new_unique_code": 101,
+  "source_policy": "CURRENT_LINKED_OBJECT_REVIEWED; SOURCES_UNCHANGED",
+  "reference_sha256": "b72b5dbe725f81864ca3f78bc7063bda56cc05fc7188af822fa7a754432553a2",
+  "objects": {
+    "closure_rpc_player_roster": {
+      "path": "build/cp32-pipeline-next-two-linked1/closure_rpc_player_roster.obj",
+      "sha256": "ef9b1368b152b7737ee7db4a71c825ee28204896f3f670bce5c01f189620d03d"
+    }
+  },
+  "regions": [
+    {
+      "unit": "closure_rpc_player_roster",
+      "section": 54,
+      "anchor": "?UpdateScore@R5RosterPlayerPoolView@@QAEXGH@Z",
+      "rva": 58544,
+      "size": 50,
+      "kind": "code",
+      "sha256": "97e0a280f15fee5bab2cd48235556e9aac6fa96bc94f64f5b1d88bfed7f86d77",
+      "whole_bytes_equal": true,
+      "coff_relocations": [],
+      "pe_relocations": [],
+      "bindings": [],
+      "anchor_offset": 0
+    },
+    {
+      "unit": "closure_rpc_player_roster",
+      "section": 56,
+      "anchor": "?UpdatePing@R5RosterPlayerPoolView@@QAEXGK@Z",
+      "rva": 58608,
+      "size": 51,
+      "kind": "code",
+      "sha256": "9831aac6cb8f596b3dc8f0fceed9f12e46f7e52ef737a73e4171cf27335c205c",
+      "whole_bytes_equal": true,
+      "coff_relocations": [],
+      "pe_relocations": [],
+      "bindings": [],
+      "anchor_offset": 0
+    }
+  ],
+  "review": {
+    "coff_complete_sections": true,
+    "coff_function_boundaries": [
+      {
+        "symbol": "?UpdateScore@R5RosterPlayerPoolView@@QAEXGH@Z",
+        "value": 0,
+        "section_size": 50
+      },
+      {
+        "symbol": "?UpdatePing@R5RosterPlayerPoolView@@QAEXGK@Z",
+        "value": 0,
+        "section_size": 51
+      }
+    ],
+    "pe_target_bytes": "full 50/51-byte reads equal the COFF section bytes",
+    "pe_relocation_set": "empty for both complete ranges",
+    "eh_data_targets": "none in either selected section",
+    "negative_control": "old candidate source/object was not used; current linked object hash is pinned above"
+  }
+}

@@ -1,0 +1,10 @@
+{"utc": "2026-09-08T23:56:26.942705+00:00", "stage": "vm-idle", "seconds": 1.0358684169768821, "exit_code": 0, "log": "build/integration-pipeline/luna30-three/vm-idle-1788911785906245000.log"}
+{"utc": "2026-09-08T23:56:26.988601+00:00", "stage": "plan", "potential_root_bytes": 341}
+{"utc": "2026-09-08T23:56:36.188031+00:00", "stage": "compile", "seconds": 8.920029917004285, "exit_code": 0, "log": "build/integration-pipeline/luna30-three/compile-1788911787267455000.log"}
+{"utc": "2026-09-08T23:56:38.143993+00:00", "stage": "audit", "seconds": 1.8721204169851262, "status": "CLOSURE_REVIEWED_NOT_ACCEPTED", "pending": 0, "unreviewed": 0, "collisions": 0}
+{"utc": "2026-09-08T23:56:43.612227+00:00", "stage": "link", "seconds": 5.460182667011395, "exit_code": 0, "log": "build/integration-pipeline/luna30-three/link-1788911798151464000.log"}
+{"utc": "2026-09-08T23:56:44.693664+00:00", "stage": "qualify", "seconds": 0.9847764589940198, "exit_code": 0, "log": "build/integration-pipeline/luna30-three/qualify-1788911803708647000.log"}
+{"utc": "2026-09-08T23:56:44.732304+00:00", "stage": "spec", "seconds": 0.03826441697310656, "exit_code": 0, "log": "build/integration-pipeline/luna30-three/spec-1788911804693829000.log"}
+{"utc": "2026-09-08T23:56:56.880551+00:00", "stage": "review", "seconds": 10.554636125016259, "exit_code": 0, "log": "build/integration-pipeline/luna30-three/review-1788911806325626000.log"}
+{"utc": "2026-09-08T23:58:41.358398+00:00", "stage": "accept", "seconds": 104.31740962498588, "exit_code": 0, "log": "build/integration-pipeline/luna30-three/accept-1788911817039792000.log"}
+{"utc": "2026-09-08T23:58:41.368323+00:00", "stage": "accepted", "coverage": {"previous_code_bytes": 428758, "batch_code_bytes": 422709, "new_unique_code_bytes": 341, "union_code_bytes": 429099, "text_bytes": 930756, "text_percent": 46.10220079161456, "whole_dll_match": false}}

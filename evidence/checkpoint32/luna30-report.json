@@ -1,0 +1,179 @@
+{
+  "status": "PAUSED_AFTER_ACCEPTANCE",
+  "baseline": 428758,
+  "gain": 341,
+  "total": 429099,
+  "start_utc": "2026-09-08T23:31:36.305Z",
+  "accepted_utc": "2026-09-08T23:58:41.368323+00:00",
+  "scheduled_deadline_utc": "2026-09-09T00:01:36.305Z",
+  "bytes_per_hour_30min_window": 682,
+  "usage": {
+    "root": {
+      "configuration": {
+        "model": "gpt-6-astra",
+        "effort": "medium"
+      },
+      "usage": {
+        "input_tokens": 8530007,
+        "cached_input_tokens": 8378240,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 25487,
+        "reasoning_output_tokens": 11938,
+        "total_tokens": 8555494,
+        "uncached_input_tokens": 151767
+      },
+      "as_of": "2026-09-09T00:00:17.648Z"
+    },
+    "01a0835f-53ee-7cd0-8d83-5294d36416b3": {
+      "configuration": {
+        "model": "gpt-5.6-luna",
+        "effort": "high"
+      },
+      "usage": {
+        "uncached_input_tokens": 0
+      },
+      "as_of": null
+    },
+    "01a08360-e535-7ef0-9c78-1f78e87c3bcb": {
+      "configuration": {
+        "model": "gpt-5.6-luna",
+        "effort": "high"
+      },
+      "usage": {
+        "input_tokens": 939784,
+        "cached_input_tokens": 884736,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 9341,
+        "reasoning_output_tokens": 2224,
+        "total_tokens": 949125,
+        "uncached_input_tokens": 55048
+      },
+      "as_of": "2026-09-08T23:55:35.221Z"
+    },
+    "01a0835f-5054-7cf2-9d7c-b7d46c8a098f": {
+      "configuration": {
+        "model": "gpt-5.6-luna",
+        "effort": "high"
+      },
+      "usage": {
+        "uncached_input_tokens": 0
+      },
+      "as_of": null
+    },
+    "/root/luna_client": {
+      "configuration": {
+        "model": "gpt-5.6-luna",
+        "effort": "high"
+      },
+      "usage": {
+        "input_tokens": 9687109,
+        "cached_input_tokens": 9452032,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 30874,
+        "reasoning_output_tokens": 7165,
+        "total_tokens": 9717983,
+        "uncached_input_tokens": 235077
+      },
+      "as_of": "2026-09-08T23:52:21.371Z"
+    },
+    "01a08360-e10c-7440-9ece-0c9a983a2f5a": {
+      "configuration": {
+        "model": "gpt-5.6-luna",
+        "effort": "high"
+      },
+      "usage": {
+        "input_tokens": 902931,
+        "cached_input_tokens": 890624,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 4216,
+        "reasoning_output_tokens": 1621,
+        "total_tokens": 907147,
+        "uncached_input_tokens": 12307
+      },
+      "as_of": "2026-09-08T23:52:56.954Z"
+    }
+  },
+  "pipeline_stages": [
+    {
+      "utc": "2026-09-08T23:56:26.942705+00:00",
+      "stage": "vm-idle",
+      "seconds": 1.0358684169768821,
+      "exit_code": 0,
+      "log": "build/integration-pipeline/luna30-three/vm-idle-1788911785906245000.log"
+    },
+    {
+      "utc": "2026-09-08T23:56:26.988601+00:00",
+      "stage": "plan",
+      "potential_root_bytes": 341
+    },
+    {
+      "utc": "2026-09-08T23:56:36.188031+00:00",
+      "stage": "compile",
+      "seconds": 8.920029917004285,
+      "exit_code": 0,
+      "log": "build/integration-pipeline/luna30-three/compile-1788911787267455000.log"
+    },
+    {
+      "utc": "2026-09-08T23:56:38.143993+00:00",
+      "stage": "audit",
+      "seconds": 1.8721204169851262,
+      "status": "CLOSURE_REVIEWED_NOT_ACCEPTED",
+      "pending": 0,
+      "unreviewed": 0,
+      "collisions": 0
+    },
+    {
+      "utc": "2026-09-08T23:56:43.612227+00:00",
+      "stage": "link",
+      "seconds": 5.460182667011395,
+      "exit_code": 0,
+      "log": "build/integration-pipeline/luna30-three/link-1788911798151464000.log"
+    },
+    {
+      "utc": "2026-09-08T23:56:44.693664+00:00",
+      "stage": "qualify",
+      "seconds": 0.9847764589940198,
+      "exit_code": 0,
+      "log": "build/integration-pipeline/luna30-three/qualify-1788911803708647000.log"
+    },
+    {
+      "utc": "2026-09-08T23:56:44.732304+00:00",
+      "stage": "spec",
+      "seconds": 0.03826441697310656,
+      "exit_code": 0,
+      "log": "build/integration-pipeline/luna30-three/spec-1788911804693829000.log"
+    },
+    {
+      "utc": "2026-09-08T23:56:56.880551+00:00",
+      "stage": "review",
+      "seconds": 10.554636125016259,
+      "exit_code": 0,
+      "log": "build/integration-pipeline/luna30-three/review-1788911806325626000.log"
+    },
+    {
+      "utc": "2026-09-08T23:58:41.358398+00:00",
+      "stage": "accept",
+      "seconds": 104.31740962498588,
+      "exit_code": 0,
+      "log": "build/integration-pipeline/luna30-three/accept-1788911817039792000.log"
+    },
+    {
+      "utc": "2026-09-08T23:58:41.368323+00:00",
+      "stage": "accepted",
+      "coverage": {
+        "previous_code_bytes": 428758,
+        "batch_code_bytes": 422709,
+        "new_unique_code_bytes": 341,
+        "union_code_bytes": 429099,
+        "text_bytes": 930756,
+        "text_percent": 46.10220079161456,
+        "whole_dll_match": false
+      }
+    }
+  ],
+  "launch": "One native Luna high plus two CLI Luna high; Astra medium integrator. CLI startup problems included. Not a controlled model comparison.",
+  "source_025_exclusive_gain": 0,
+  "accepted_existing_source_bytes": 310,
+  "accepted_new_source_bytes": 31,
+  "network_uncompiled_potential": 141
+}

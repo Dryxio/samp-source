@@ -1,0 +1,85 @@
+{
+  "status": "PASS_FULL_SOURCE_REGIONS_ALL_COFF_PE_TARGETS",
+  "reference_sha256": "b72b5dbe725f81864ca3f78bc7063bda56cc05fc7188af822fa7a754432553a2",
+  "baseline_proof": "evidence/checkpoint32/pipeline-next-two-acceptance.json",
+  "baseline_run": "cp32-pipeline-next-two-linked1",
+  "candidate_runs": {
+    "gui": "cp32-luna30-candidates1",
+    "math": "cp32-pipeline-next-two-linked1"
+  },
+  "verification": {
+    "complete_roots": "PASS",
+    "coff_relocations": "PASS",
+    "absolute_coff_pe_targets": "PASS",
+    "math_replacement_compiled_or_installed": false
+  },
+  "objects": [
+    {
+      "unit": "closure_gui_resource_msgproc",
+      "path": "build/cp32-luna30-candidates1/closure_gui_resource_msgproc.obj",
+      "sha256": "9299ddf0c25b90731c3e3a46c7dbda98ff23fb3caa4b33e673576f85d20d9dc5"
+    },
+    {
+      "unit": "closure_dxut_direction",
+      "path": "build/cp32-pipeline-next-two-linked1/closure_dxut_direction.obj",
+      "sha256": "ec1bb1359e71c4947209209e064ba96c866f9e85b98865c943b7bfd718934fb9"
+    }
+  ],
+  "regions": [
+    {
+      "unit": "closure_gui_resource_msgproc",
+      "section": 3,
+      "anchor": "?MsgProc@CDXUTDialogResourceManager@@QAE_NPAUHWND__@@IIJ@Z",
+      "anchor_offset": 0,
+      "rva": 577104,
+      "size": 31,
+      "kind": "code",
+      "sha256": "80c82dd8a9b5d038d4ca342cf17c99ebf81bee4e36fce0ff4dfb6f7ed141c74a",
+      "bindings": [
+        {
+          "symbol": "?StaticMsgProc@CDXUTIMEEditBox@@SA_NIIJ@Z",
+          "site_rva": 577120,
+          "kind": 20,
+          "target_va": 269011008
+        }
+      ]
+    },
+    {
+      "unit": "closure_dxut_direction",
+      "section": 18,
+      "anchor": "??DD3DXMATRIX@@QBE?AU0@ABU0@@Z",
+      "anchor_offset": 0,
+      "rva": 474864,
+      "size": 46,
+      "kind": "code",
+      "sha256": "7c9874cda24741597c64d3473c60db3787d71bae15c16a79ca7274de06104ce3",
+      "bindings": [
+        {
+          "symbol": "_D3DXMatrixMultiply@12",
+          "site_rva": 474881,
+          "kind": 20,
+          "target_va": 269245598
+        }
+      ]
+    }
+  ],
+  "target_owners": [
+    {
+      "symbol": "?StaticMsgProc@CDXUTIMEEditBox@@SA_NIIJ@Z",
+      "owner_unit": "closure_gui_ime",
+      "owner_section": 94,
+      "owner_rva": 575552,
+      "owner_size": 659,
+      "target_va": 269011008,
+      "kind": "accepted-code-owner"
+    },
+    {
+      "symbol": "_D3DXMatrixMultiply@12",
+      "target_va": 269245598,
+      "import_slot_va": 269374720,
+      "kind": "import-thunk",
+      "library": "d3dx9_25.dll",
+      "export": "D3DXMatrixMultiply"
+    }
+  ]
+}

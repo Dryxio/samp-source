@@ -1,0 +1,170 @@
+{
+  "version": 1,
+  "id": "luna30-three",
+  "base": {
+    "prefix": "pipeline-next-two",
+    "proof": {
+      "path": "evidence/checkpoint32/pipeline-next-two-acceptance.json",
+      "sha256": "57b7ffa20a4212ada90b83e6398d6a14bb042c5bc67c782f12d62f1700099408"
+    },
+    "contract": {
+      "path": "config/checkpoint32/pipeline-next-two-contract.json",
+      "sha256": "3c0b5b62ffe490efe2eaa4ab5043a785bd02f1eb5ff6825e831a7ea8dde180c1"
+    },
+    "seeds": {
+      "path": "config/checkpoint32/pipeline-next-two-seeds.json",
+      "sha256": "bfab3801a4f15f2960416c358f9a0c94889e3b0877fc0d477e99655dc03013f5"
+    }
+  },
+  "roots": [
+    {
+      "unit": "closure_rpc_player_roster",
+      "symbol": "?UpdateScore@R5RosterPlayerPoolView@@QAEXGH@Z",
+      "rva": 58544,
+      "size": 50
+    },
+    {
+      "unit": "closure_rpc_player_roster",
+      "symbol": "?UpdatePing@R5RosterPlayerPoolView@@QAEXGK@Z",
+      "rva": 58608,
+      "size": 51
+    },
+    {
+      "unit": "closure_rpc_player_name",
+      "symbol": "?SetPlayerName@CPlayerPool@@QAEXGPAD@Z",
+      "rva": 122768,
+      "size": 60
+    },
+    {
+      "unit": "closure_rpc_player_name",
+      "symbol": "?SetLocalPlayerName@CPlayerPool@@QAEXPAD@Z",
+      "rva": 47360,
+      "size": 40
+    },
+    {
+      "unit": "closure_rpc_actors",
+      "symbol": "?GetAt@RPCActorPoolView@@QAEPAVCActorPed@@G@Z",
+      "rva": 5648,
+      "size": 37
+    },
+    {
+      "unit": "closure_rpc_animation_camera",
+      "symbol": "?GetSlotState@RPCCameraObjectPoolView@@QAEHG@Z",
+      "rva": 75648,
+      "size": 26
+    },
+    {
+      "unit": "closure_gui_resource_msgproc",
+      "symbol": "?MsgProc@CDXUTDialogResourceManager@@QAE_NPAUHWND__@@IIJ@Z",
+      "rva": 577104,
+      "size": 31
+    },
+    {
+      "unit": "closure_dxut_direction",
+      "symbol": "??DD3DXMATRIX@@QBE?AU0@ABU0@@Z",
+      "rva": 474864,
+      "size": 46
+    }
+  ],
+  "reviews": [
+    {
+      "path": "build/luna30/root/roster-normalized-manifest.json",
+      "sha256": "db2e39d87ef828d5a8b2439ca72ab1bdbe3118c7fee54d1b64506889b1ff56b9"
+    },
+    {
+      "path": "build/luna30/root/name-normalized-manifest.json",
+      "sha256": "065f06e1bf9ba266f7ff9b63af91d9deed904c1cba608180b355cfc263a7ecbb"
+    },
+    {
+      "path": "build/luna30/client/rpc-actor-camera-current-reviewed-manifest.json",
+      "sha256": "f7c4df9b50a2e5ccd96015665aff1f8258fb4b3da51641d792d8f70483aae7be"
+    },
+    {
+      "path": "build/luna30/root/common-normalized-manifest.json",
+      "sha256": "e1b27b3c0fc185266d1ca6e008093a475d3fd9893bbc34900b032818b3e6af97"
+    }
+  ],
+  "qualification_recipe": {
+    "path": "build/qualify_trial30b_link.py",
+    "sha256": "f0e5bc1b07acfc1e1394461a2fb7456315b2a73d4557a1129462332ccc026433"
+  },
+  "qualification_inputs": [
+    {
+      "path": "build/prove_linker_aliases.py",
+      "sha256": "d0c094edb2ba55d12b75762bed9d7947b6b32721c17ad7e80f04ed8174dca1b0"
+    },
+    {
+      "path": "build/qualify_trial30_final_itoa.py",
+      "sha256": "34149dd356511875d1bf2e2a17cef2778bdeb09c1fa0294093c03da39d2f2267"
+    },
+    {
+      "path": "build/qualify_trial30_final_sha1_alias.py",
+      "sha256": "05991da322719f4633935ef51cbc1e1d4012493fbda8f15ce07bc59e181f4033"
+    },
+    {
+      "path": "build/agent-independent/qualify_server_bridge_target_alias.py",
+      "sha256": "c066e8d45ef385e83cee20c71ef85af8a501b3d739169549d3efbadf730f679d"
+    },
+    {
+      "path": "build/agent-independent/qualify_logger_deleting_aliases.py",
+      "sha256": "52a8eb1aa30e230ce6c366be463eadf9dedfe57ede96c7426130a2248cad16c5"
+    },
+    {
+      "path": "build/agent-independent/qualify_replica_network_id_aliases.py",
+      "sha256": "fc1404e0e7d9b7f8deeac9986a377bcb682a85210cd5611d12ff446d7ba48875"
+    },
+    {
+      "path": "build/qualify_mesh_deleting_alias.py",
+      "sha256": "ec688d1750f164f993eafbf2705b076d908c1728e5eb0aa6e5f83824881f0dcf"
+    },
+    {
+      "path": "build/agent-independent/qualify_console_aliases.py",
+      "sha256": "028b9d7f656cf57632ac8f37cecdc231ec2cb2053ed2b8bc8e015af815d59400"
+    },
+    {
+      "path": "build/agent-independent/qualify_raknet_command_parser_alias.py",
+      "sha256": "319bf51844d224302073abf18c031481cefa2be4d0916f83edb0bf8e9a87b881"
+    },
+    {
+      "path": "build/agent-textdraw/qualify_chat_navigation_alias.py",
+      "sha256": "952a05baf531ef53ae99d9ed5639dd748e8761882699fccf3700b0f5db6e79c1"
+    },
+    {
+      "path": "build/sha1-reviewed-manifest.json",
+      "sha256": "eeeaa1dd31bbc126b54eaddefc734d8d0e730328e32ea918fd54e5f757ae3b8f"
+    },
+    {
+      "path": "build/agent-independent/replica-network-id-reviewed-manifest.json",
+      "sha256": "8ead1f2f16ac36ecb8d6723c0b58720aa1e8a5204b7e2b54918085d19b7841b0"
+    },
+    {
+      "path": "build/agent-independent/console-reviewed-manifest.json",
+      "sha256": "37802a02fa692961a41c8fd15c8028df8f936d21c6984db752f4ca36ab1735e3"
+    },
+    {
+      "path": "build/agent-independent/raknet-command-parser-reviewed-manifest.json",
+      "sha256": "7b4a7b4fd4f992ee9a1a24ecc2b75c6b48404febccd8ff88a820a205b7e4f3ba"
+    },
+    {
+      "path": "build/agent-textdraw/rw-parser-symbolic-aliases.json",
+      "sha256": "cd64e262581bd4b7d6ef371063ce0cc5f1924a800eed4c63c49f0e1e4df39826"
+    },
+    {
+      "path": "build/associative-binding-controls.json",
+      "sha256": "b627ea1c0b462103b10edb5bff16fd574d8f20563f524391561939bd30833100"
+    },
+    {
+      "path": "private/samp.dll",
+      "sha256": "b72b5dbe725f81864ca3f78bc7063bda56cc05fc7188af822fa7a754432553a2"
+    },
+    {
+      "path": "config/checkpoint31/inventory.json",
+      "sha256": "e70f0fee02550002ce322cf85a225aee38c1132b9778fe254d242f4443357a49"
+    }
+  ],
+  "review_note": {
+    "scope": "Luna30 combined batch: 341 potential unique code bytes across eight full functions.",
+    "implementation": "Current roster, player-name, actor, camera and math owners reused; new normal C++ GUI forwarding function compiled. All targets reviewed; pipeline performs final full closure acceptance. Network salvage remains uncompiled and excluded.",
+    "reference_credit": "No source 0.2.5 exclusive credit; candidates discovered during this benchmark."
+  }
+}
