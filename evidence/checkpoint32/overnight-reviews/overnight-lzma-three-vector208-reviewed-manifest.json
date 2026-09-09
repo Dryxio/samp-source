@@ -1,0 +1,193 @@
+{
+  "status": "PASS_FULL_SOURCE_REGIONS_ALL_COFF_PE_TARGETS",
+  "run": "cp32-overnight-probe-vector-two",
+  "roots": [
+    {
+      "unit": "closure_game_vector_pure_v2",
+      "symbol": "?R5GameUnitVectorBounds@@YA_NPBUR5GameVector@@@Z",
+      "rva": 739952,
+      "size": 104
+    },
+    {
+      "unit": "closure_game_vector_pure_v2",
+      "symbol": "?R5GameVelocityBounds@@YA_NPBUR5GameVector@@@Z",
+      "rva": 740064,
+      "size": 104
+    }
+  ],
+  "regions": [
+    {
+      "unit": "closure_game_vector_pure_v2",
+      "section": 7,
+      "anchor": "?R5GameUnitVectorBounds@@YA_NPBUR5GameVector@@@Z",
+      "anchor_offset": 0,
+      "rva": 739952,
+      "size": 104,
+      "kind": "code",
+      "sha256": "8ed93c429b38fa257369d9cc20503f905f3d1713ccaef54b5d7e40b67f023998",
+      "bindings": [
+        {
+          "symbol": "__real@3f800000",
+          "site_rva": 739960,
+          "symbol_va": 269376300,
+          "addend": 0,
+          "target_va": 269376300,
+          "kind": 6
+        },
+        {
+          "symbol": "__real@bf800000",
+          "site_rva": 739975,
+          "symbol_va": 269395512,
+          "addend": 0,
+          "target_va": 269395512,
+          "kind": 6
+        },
+        {
+          "symbol": "__real@3f800000",
+          "site_rva": 739991,
+          "symbol_va": 269376300,
+          "addend": 0,
+          "target_va": 269376300,
+          "kind": 6
+        },
+        {
+          "symbol": "__real@bf800000",
+          "site_rva": 740007,
+          "symbol_va": 269395512,
+          "addend": 0,
+          "target_va": 269395512,
+          "kind": 6
+        },
+        {
+          "symbol": "__real@3f800000",
+          "site_rva": 740023,
+          "symbol_va": 269376300,
+          "addend": 0,
+          "target_va": 269376300,
+          "kind": 6
+        },
+        {
+          "symbol": "__real@bf800000",
+          "site_rva": 740039,
+          "symbol_va": 269395512,
+          "addend": 0,
+          "target_va": 269395512,
+          "kind": 6
+        }
+      ]
+    },
+    {
+      "unit": "closure_game_vector_pure_v2",
+      "section": 8,
+      "anchor": "__real@bf800000",
+      "anchor_offset": 0,
+      "rva": 960056,
+      "size": 4,
+      "kind": "data",
+      "sha256": "c68830a25204a09f8e77aada6bc5807f607cccaaa0ebb2a7122d317584478a8b",
+      "bindings": []
+    },
+    {
+      "unit": "closure_game_vector_pure_v2",
+      "section": 9,
+      "anchor": "__real@3f800000",
+      "anchor_offset": 0,
+      "rva": 940844,
+      "size": 4,
+      "kind": "data",
+      "sha256": "e00e5eb9444182f352323374ef4e08ebcb784725fdd4fd612d7730540b3e0c8c",
+      "bindings": []
+    },
+    {
+      "unit": "closure_game_vector_pure_v2",
+      "section": 11,
+      "anchor": "?R5GameVelocityBounds@@YA_NPBUR5GameVector@@@Z",
+      "anchor_offset": 0,
+      "rva": 740064,
+      "size": 104,
+      "kind": "code",
+      "sha256": "c3dc9cf5b8f4b1ef478798ecdba32cba0aee84613cc7d410114a916acd9cc256",
+      "bindings": [
+        {
+          "symbol": "__real@42c80000",
+          "site_rva": 740072,
+          "symbol_va": 269377812,
+          "addend": 0,
+          "target_va": 269377812,
+          "kind": 6
+        },
+        {
+          "symbol": "__real@c2c80000",
+          "site_rva": 740087,
+          "symbol_va": 269377808,
+          "addend": 0,
+          "target_va": 269377808,
+          "kind": 6
+        },
+        {
+          "symbol": "__real@42c80000",
+          "site_rva": 740103,
+          "symbol_va": 269377812,
+          "addend": 0,
+          "target_va": 269377812,
+          "kind": 6
+        },
+        {
+          "symbol": "__real@c2c80000",
+          "site_rva": 740119,
+          "symbol_va": 269377808,
+          "addend": 0,
+          "target_va": 269377808,
+          "kind": 6
+        },
+        {
+          "symbol": "__real@42c80000",
+          "site_rva": 740135,
+          "symbol_va": 269377812,
+          "addend": 0,
+          "target_va": 269377812,
+          "kind": 6
+        },
+        {
+          "symbol": "__real@c2c80000",
+          "site_rva": 740151,
+          "symbol_va": 269377808,
+          "addend": 0,
+          "target_va": 269377808,
+          "kind": 6
+        }
+      ]
+    },
+    {
+      "unit": "closure_game_vector_pure_v2",
+      "section": 12,
+      "anchor": "__real@c2c80000",
+      "anchor_offset": 0,
+      "rva": 942352,
+      "size": 4,
+      "kind": "data",
+      "sha256": "a48bed9ee2950cc60ca91386a6c64a241a9ffd24bdc321bb15424ac7a7d3baed",
+      "bindings": []
+    },
+    {
+      "unit": "closure_game_vector_pure_v2",
+      "section": 13,
+      "anchor": "__real@42c80000",
+      "anchor_offset": 0,
+      "rva": 942356,
+      "size": 4,
+      "kind": "data",
+      "sha256": "2238f30df488055daf5e8f362cf904e370011a172d20df193c1b7ae8e5db8e01",
+      "bindings": []
+    }
+  ],
+  "errors": [],
+  "source_sha256": {
+    "closure_game_vector_pure_v2": "0c64cb2edffb7609bfaf8fa99624bb9b120f763771f80c9c3b81bf3f64872f63"
+  },
+  "object_sha256": {
+    "closure_game_vector_pure_v2": "77321a1e018a143939b813a052374ac065d9960d426eb5e10b5d9d340f29b7b5"
+  },
+  "new_unique_code": 208,
+  "typed_layout_note": "Pointer-only vector12, no allocations. Unit bounds accept each component in closed[-1,1], velocity bounds require open(-100,100). Short-circuit order X,Y,Z matches all x87 comparisons; NaN rejected. Separate explicit true/false returns restore original AL bool ABI. Whole functions104+104 and four float constants4 each; all COFF and PE targets verified. Normalize67/Transform92 emitted in same unit are rejected and unselected, no binding/coverage claim; preserved full diagnostics."
+}

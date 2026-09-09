@@ -1,0 +1,60 @@
+{
+  "status": "REVIEWED_R5_SOURCE_ADAPTATIONS_PENDING_FULL_BYTES",
+  "function": {
+    "rva": 299600,
+    "size": 2192,
+    "name": "ReliabilityLayer::HandleSocketReceiveFromConnectedPlayer"
+  },
+  "reference_sha256": "b72b5dbe725f81864ca3f78bc7063bda56cc05fc7188af822fa7a754432553a2",
+  "changes": [
+    {
+      "kind": "ABI",
+      "sites": [
+        299614,
+        299633,
+        301789
+      ],
+      "description": "After three pushes, read original stack+28 as pointer; store byte zero. ret0x1c confirms 28 bytes parameters: buffer4,length4,PlayerID8,listref4,MTU4,additional pointer4. Original vendor declaration consumes24. Added last bool* initialized false. This method is nonvirtual; class object layout and vtable unchanged."
+    },
+    {
+      "kind": "timing",
+      "sites": [
+        299676,
+        301022
+      ],
+      "description": "GetTime before UpdateThreadedMemory stores a 32-bit local. messagesReceived increment is followed by field114 increment; if unsigned currentTime-field110>1000, assign field110=currentTime, field118=field114, field114=0. Field identities independently follow accepted InitializeVariables stores0x477da/477e0/477e6."
+    },
+    {
+      "kind": "ack statistics",
+      "sites": [
+        300021,
+        300035,
+        300100
+      ],
+      "description": "Before inner messageNumber loop: acknowlegementsReceived += maxIndex-minIndex. Inside before RemovePacket...: increment field120. Exact width16 fields promote to int for subtraction; same unsigned accumulating destination."
+    },
+    {
+      "kind": "packet release",
+      "description": "The initial guard hypothesis was rejected by successive complete probes: R5 coalesces all five deletion branches into the same unconditional delete[] block. Preserve all five original vendor delete[] without added guard. Probe-v4 alignment obscured this due optimizer block sharing; v5 exposed direct reference jumps at0x4967d and0x499b8 to0x49a55. v6 removes all initial guard adaptations."
+    },
+    {
+      "kind": "context",
+      "description": "Three original vendor member definitions in same isolated translation unit: empty UpdateWindowFromAck, IsOlderOrderedPacket, UpdateThreadedMemory. No canonical active accepted definitions replaced. Root and emitted dependency closure must pass current ownership preflight."
+    }
+  ],
+  "header_strategy": "Amalgamated original ReliabilityLayer.h in staged cpp with only additional nonvirtual method argument. All included type headers unchanged. No active header modification. Every byte of alternate declaration is pinned in source hash.",
+  "exclusions": [
+    "No gain assigned to helper64 and18 already accepted_code-covered.",
+    "No claim that compile success proves match.",
+    "No networking runtime, VM, deployment or active tree edit by researcher."
+  ],
+  "caller_abi": {
+    "caller_rva": 259136,
+    "site": 260312,
+    "first_push_site": 260278,
+    "pointer_source": "stack local byte at esp+0x1f before arguments",
+    "remaining_parameter_bytes": 24,
+    "this": "remote system pointer+0xd",
+    "evidence": "build/overnight-network/receive-caller-abi.json"
+  }
+}

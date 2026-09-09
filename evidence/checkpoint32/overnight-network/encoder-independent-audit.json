@@ -1,0 +1,44 @@
+{
+  "status": "PASS_INDEPENDENT_SOURCE_AND_REVIEW_REPLAY",
+  "source_reconstruction": [
+    {
+      "unit": "closure_vendor_lzma_encoder",
+      "source_sha256": "f94f7134e4bc5e536e1422f6094fcb01d14c6b51c61c17df3495ec010b3f15cc",
+      "inputs": {
+        "/Users/salimtrouve/Documents/GitHub/samp-r5-matching/build/overnight/lzma/v1604/C/7zTypes.h": "b3a6dd443273a3dc68176ad27f59db6dd68f6b0b78d6e3186dc1edfc6907b9f6",
+        "/Users/salimtrouve/Documents/GitHub/samp-r5-matching/build/overnight/lzma/v1604/C/Compiler.h": "a73756e40d93584ce0746cff660068c8f6b7f796b7c020b89b43cc2816452518",
+        "/Users/salimtrouve/Documents/GitHub/samp-r5-matching/build/overnight/lzma/v1604/C/LzFind.h": "42a24560766fad290cb4c9b611c64a5a02fee1e401762e155b4f7d5aa6ccf138",
+        "/Users/salimtrouve/Documents/GitHub/samp-r5-matching/build/overnight/lzma/v1604/C/LzFindMt.h": "241594ada9f9dad6524cacbea764125c8a5caa9b5658c79b2e882c1106162155",
+        "/Users/salimtrouve/Documents/GitHub/samp-r5-matching/build/overnight/lzma/v1604/C/LzmaEnc.c": "bf9ad8f260908926261e231a6df75281096782bd0bb0ddb4ac5e3e96957ea66c",
+        "/Users/salimtrouve/Documents/GitHub/samp-r5-matching/build/overnight/lzma/v1604/C/LzmaEnc.h": "7865a7a91214e97b5b50348ff17b5422538a47f35ce70c4c9d5a2c258e5cb073",
+        "/Users/salimtrouve/Documents/GitHub/samp-r5-matching/build/overnight/lzma/v1604/C/Precomp.h": "3850ffe13cb2207dba1c037fe41a803303883aaeec1407052f6038c4e6722ace",
+        "/Users/salimtrouve/Documents/GitHub/samp-r5-matching/build/overnight/lzma/v1604/C/Threads.h": "faa182a0387ab7f263ad19f16e55cc07ed4fe44ecca77357ae10565bb742e740"
+      },
+      "result": "EXACT_AMALGAMATION_UNALTERED_SDK16_04"
+    },
+    {
+      "unit": "closure_vendor_lzma_matchfinder",
+      "source_sha256": "4993d8af2769a786dc125c13fc887f6a1aa64f7fc3bd3e4964bd0640376b8eda",
+      "inputs": {
+        "/Users/salimtrouve/Documents/GitHub/samp-r5-matching/build/overnight/lzma/v1604/C/7zTypes.h": "b3a6dd443273a3dc68176ad27f59db6dd68f6b0b78d6e3186dc1edfc6907b9f6",
+        "/Users/salimtrouve/Documents/GitHub/samp-r5-matching/build/overnight/lzma/v1604/C/Compiler.h": "a73756e40d93584ce0746cff660068c8f6b7f796b7c020b89b43cc2816452518",
+        "/Users/salimtrouve/Documents/GitHub/samp-r5-matching/build/overnight/lzma/v1604/C/LzFind.c": "799c60d1af671754bab5b89f30ec7ac74b638d7ed9a16d3a18d64d00b7eb7773",
+        "/Users/salimtrouve/Documents/GitHub/samp-r5-matching/build/overnight/lzma/v1604/C/LzFind.h": "42a24560766fad290cb4c9b611c64a5a02fee1e401762e155b4f7d5aa6ccf138",
+        "/Users/salimtrouve/Documents/GitHub/samp-r5-matching/build/overnight/lzma/v1604/C/LzHash.h": "8303c1c37c1bb07cc91a1300b7b7e7d89070981e030549d63126453194b477b6",
+        "/Users/salimtrouve/Documents/GitHub/samp-r5-matching/build/overnight/lzma/v1604/C/Precomp.h": "3850ffe13cb2207dba1c037fe41a803303883aaeec1407052f6038c4e6722ace"
+      },
+      "result": "EXACT_AMALGAMATION_UNALTERED_SDK16_04"
+    }
+  ],
+  "regions": 108,
+  "new_code_potential": 18910,
+  "data_extent": "The sole192-byte data section is exactly four original int[12] tables, located at offsets0,48,96,144 with no unbacked allocation inference. All192 bytes checked.",
+  "closure": "All108 complete source sections and every emitted COFF target/PE relocation reproduced from immutable snapshot. Unique whole-function candidates anchor initial roots; local/cross-unit dependencies selected from actual fixed targets. Finish1 is excluded.",
+  "limits": [
+    "__aullshr@0x100cbaf0 is a manually added reviewed external binding; parent must qualify actual linked CRT31 owner, no new code credit.",
+    "Independent replay does not replace final linked gate/negative controls.",
+    "Archive provenance URL is recorded by parent; this review regenerates exactly from locally extracted SDK inputs and hashes them."
+  ],
+  "review_script_sha256": "190e9cd2e16d954a9f3389aee2722a28df62e818b0d55d8395f9ceaa15a0cb7e",
+  "manifest_sha256": "3147fdabc0d91ad0cba28aae5dce324904a70aaab7473934c1112b7328efffbf"
+}

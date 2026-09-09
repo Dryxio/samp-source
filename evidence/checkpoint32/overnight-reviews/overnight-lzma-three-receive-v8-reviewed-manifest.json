@@ -1,0 +1,1261 @@
+{
+  "status": "PASS_FULL_SOURCE_REGIONS_ALL_COFF_PE_TARGETS",
+  "baseline": "evidence/checkpoint32/overnight-network-one-acceptance.json",
+  "run": "build/cp32-overnight-probe-network-receive8",
+  "regions": [
+    {
+      "unit": "closure_vendor_reliability_receive",
+      "section": 102,
+      "anchor": "?HandleSocketReceiveFromConnectedPlayer@ReliabilityLayer@@QAE_NPBDHUPlayerID@@AAV?$List@PAVPluginInterface@@@DataStructures@@HPA_N@Z",
+      "anchor_offset": 0,
+      "rva": 299600,
+      "size": 2192,
+      "kind": "code",
+      "sha256": "70d5ea47852c3a752e927218bc57b1e9eba679861aac2883a1237fc2e76ce7a2",
+      "bindings": [
+        {
+          "symbol": "__except_list",
+          "site_rva": 299604,
+          "kind": 6,
+          "target_va": 0
+        },
+        {
+          "symbol": "__ehhandler$?HandleSocketReceiveFromConnectedPlayer@ReliabilityLayer@@QAE_NPBDHUPlayerID@@AAV?$List@PAVPluginInterface@@@DataStructures@@HPA_N@Z",
+          "site_rva": 299609,
+          "kind": 6,
+          "target_va": 269364806
+        },
+        {
+          "symbol": "__except_list",
+          "site_rva": 299621,
+          "kind": 6,
+          "target_va": 0
+        },
+        {
+          "symbol": "?GetTime@RakNet@@YAIXZ",
+          "site_rva": 299677,
+          "kind": 20,
+          "target_va": 268625904
+        },
+        {
+          "symbol": "?UpdateThreadedMemory@ReliabilityLayer@@AAEXXZ",
+          "site_rva": 299688,
+          "kind": 20,
+          "target_va": 268714160
+        },
+        {
+          "symbol": "?IsKeySet@TEABlockEncryptor@@QBE_NXZ",
+          "site_rva": 299701,
+          "kind": 20,
+          "target_va": 268790160
+        },
+        {
+          "symbol": "?Decrypt@TEABlockEncryptor@@QAE_NPAEH0PAH@Z",
+          "site_rva": 299730,
+          "kind": 20,
+          "target_va": 268791264
+        },
+        {
+          "symbol": "??0BitStream@RakNet@@QAE@PAEI_N@Z",
+          "site_rva": 299861,
+          "kind": 20,
+          "target_va": 268564416
+        },
+        {
+          "symbol": "?GetTimeNS@RakNet@@YA_JXZ",
+          "site_rva": 299873,
+          "kind": 20,
+          "target_va": 268626000
+        },
+        {
+          "symbol": "??0?$RangeList@G@DataStructures@@QAE@XZ",
+          "site_rva": 299892,
+          "kind": 20,
+          "target_va": 268733760
+        },
+        {
+          "symbol": "??$Read@_N@BitStream@RakNet@@QAE_NAA_N@Z",
+          "site_rva": 299914,
+          "kind": 20,
+          "target_va": 268469280
+        },
+        {
+          "symbol": "?Deserialize@?$RangeList@G@DataStructures@@QAE_NPAVBitStream@RakNet@@@Z",
+          "site_rva": 299940,
+          "kind": 20,
+          "target_va": 268729632
+        },
+        {
+          "symbol": "?Size@?$OrderedList@GU?$RangeNode@G@DataStructures@@$1??$RangeNodeComp@G@2@YAHABGABU12@@Z@DataStructures@@QBEIXZ",
+          "site_rva": 299957,
+          "kind": 20,
+          "target_va": 268721552
+        },
+        {
+          "symbol": "??A?$OrderedList@GU?$RangeNode@G@DataStructures@@$1??$RangeNodeComp@G@2@YAHABGABU12@@Z@DataStructures@@QBEAAU?$RangeNode@G@1@I@Z",
+          "site_rva": 299975,
+          "kind": 20,
+          "target_va": 268721536
+        },
+        {
+          "symbol": "??A?$OrderedList@GU?$RangeNode@G@DataStructures@@$1??$RangeNodeComp@G@2@YAHABGABU12@@Z@DataStructures@@QBEAAU?$RangeNode@G@1@I@Z",
+          "site_rva": 299987,
+          "kind": 20,
+          "target_va": 268721536
+        },
+        {
+          "symbol": "??A?$OrderedList@GU?$RangeNode@G@DataStructures@@$1??$RangeNodeComp@G@2@YAHABGABU12@@Z@DataStructures@@QBEAAU?$RangeNode@G@1@I@Z",
+          "site_rva": 300010,
+          "kind": 20,
+          "target_va": 268721536
+        },
+        {
+          "symbol": "??A?$OrderedList@GU?$RangeNode@G@DataStructures@@$1??$RangeNodeComp@G@2@YAHABGABU12@@Z@DataStructures@@QBEAAU?$RangeNode@G@1@I@Z",
+          "site_rva": 300022,
+          "kind": 20,
+          "target_va": 268721536
+        },
+        {
+          "symbol": "??A?$OrderedList@GU?$RangeNode@G@DataStructures@@$1??$RangeNodeComp@G@2@YAHABGABU12@@Z@DataStructures@@QBEAAU?$RangeNode@G@1@I@Z",
+          "site_rva": 300047,
+          "kind": 20,
+          "target_va": 268721536
+        },
+        {
+          "symbol": "??A?$OrderedList@GU?$RangeNode@G@DataStructures@@$1??$RangeNodeComp@G@2@YAHABGABU12@@Z@DataStructures@@QBEAAU?$RangeNode@G@1@I@Z",
+          "site_rva": 300060,
+          "kind": 20,
+          "target_va": 268721536
+        },
+        {
+          "symbol": "??A?$OrderedList@GU?$RangeNode@G@DataStructures@@$1??$RangeNodeComp@G@2@YAHABGABU12@@Z@DataStructures@@QBEAAU?$RangeNode@G@1@I@Z",
+          "site_rva": 300086,
+          "kind": 20,
+          "target_va": 268721536
+        },
+        {
+          "symbol": "?RemovePacketFromResendListAndDeleteOlderReliableSequenced@ReliabilityLayer@@AAEIG_J@Z",
+          "site_rva": 300121,
+          "kind": 20,
+          "target_va": 268732080
+        },
+        {
+          "symbol": "?IsEmpty@?$BPlusTree@GPAUInternalPacket@@$0CA@@DataStructures@@QBE_NXZ",
+          "site_rva": 300170,
+          "kind": 20,
+          "target_va": 268714848
+        },
+        {
+          "symbol": "??A?$OrderedList@GU?$RangeNode@G@DataStructures@@$1??$RangeNodeComp@G@2@YAHABGABU12@@Z@DataStructures@@QBEAAU?$RangeNode@G@1@I@Z",
+          "site_rva": 300217,
+          "kind": 20,
+          "target_va": 268721536
+        },
+        {
+          "symbol": "?Size@?$OrderedList@GU?$RangeNode@G@DataStructures@@$1??$RangeNodeComp@G@2@YAHABGABU12@@Z@DataStructures@@QBEIXZ",
+          "site_rva": 300236,
+          "kind": 20,
+          "target_va": 268721552
+        },
+        {
+          "symbol": "?CreateInternalPacketFromBitStream@ReliabilityLayer@@AAEPAUInternalPacket@@PAVBitStream@RakNet@@_J@Z",
+          "site_rva": 300262,
+          "kind": 20,
+          "target_va": 268719696
+        },
+        {
+          "symbol": "??1?$RangeList@G@DataStructures@@QAE@XZ",
+          "site_rva": 300288,
+          "kind": 20,
+          "target_va": 268733808
+        },
+        {
+          "symbol": "??1BitStream@RakNet@@QAE@XZ",
+          "site_rva": 300308,
+          "kind": 20,
+          "target_va": 268564688
+        },
+        {
+          "symbol": "??1?$RangeList@G@DataStructures@@QAE@XZ",
+          "site_rva": 300330,
+          "kind": 20,
+          "target_va": 268733808
+        },
+        {
+          "symbol": "??1BitStream@RakNet@@QAE@XZ",
+          "site_rva": 300350,
+          "kind": 20,
+          "target_va": 268564688
+        },
+        {
+          "symbol": "__alldiv",
+          "site_rva": 300401,
+          "kind": 20,
+          "target_va": 269256704
+        },
+        {
+          "symbol": "?SendAcknowledgementPacket@ReliabilityLayer@@AAEXG_J@Z",
+          "site_rva": 300520,
+          "kind": 20,
+          "target_va": 268732160
+        },
+        {
+          "symbol": "?ClearAndForceAllocation@?$Queue@_J@DataStructures@@QAEXH@Z",
+          "site_rva": 300546,
+          "kind": 20,
+          "target_va": 268715520
+        },
+        {
+          "symbol": "?Push@?$Queue@_J@DataStructures@@QAEXAB_J@Z",
+          "site_rva": 300884,
+          "kind": 20,
+          "target_va": 268714944
+        },
+        {
+          "symbol": "?Push@?$Queue@_J@DataStructures@@QAEXAB_J@Z",
+          "site_rva": 300908,
+          "kind": 20,
+          "target_va": 268714944
+        },
+        {
+          "symbol": "?Compress@?$Queue@_J@DataStructures@@QAEXXZ",
+          "site_rva": 301114,
+          "kind": 20,
+          "target_va": 268715344
+        },
+        {
+          "symbol": "?DeleteOldUnreliableSplitPackets@ReliabilityLayer@@AAEX_J@Z",
+          "site_rva": 301138,
+          "kind": 20,
+          "target_va": 268733424
+        },
+        {
+          "symbol": "?InsertIntoSplitPacketList@ReliabilityLayer@@AAEXPAUInternalPacket@@_J@Z",
+          "site_rva": 301185,
+          "kind": 20,
+          "target_va": 268732192
+        },
+        {
+          "symbol": "?BuildPacketFromSplitPacketList@ReliabilityLayer@@AAEPAUInternalPacket@@G_J@Z",
+          "site_rva": 301201,
+          "kind": 20,
+          "target_va": 268732736
+        },
+        {
+          "symbol": "?Push@?$Queue@PAUInternalPacket@@@DataStructures@@QAEXABQAUInternalPacket@@@Z",
+          "site_rva": 301289,
+          "kind": 20,
+          "target_va": 268626240
+        },
+        {
+          "symbol": "?GetOrderingListAtOrderingStream@ReliabilityLayer@@AAEPAV?$LinkedList@PAUInternalPacket@@@DataStructures@@E@Z",
+          "site_rva": 301319,
+          "kind": 20,
+          "target_va": 268720976
+        },
+        {
+          "symbol": "?Pop@?$CircularLinkedList@PAUInternalPacket@@@DataStructures@@QAEPAUInternalPacket@@XZ",
+          "site_rva": 301394,
+          "kind": 20,
+          "target_va": 268721952
+        },
+        {
+          "symbol": "?Push@?$Queue@PAUInternalPacket@@@DataStructures@@QAEXABQAUInternalPacket@@@Z",
+          "site_rva": 301411,
+          "kind": 20,
+          "target_va": 268626240
+        },
+        {
+          "symbol": "??E?$LinkedList@PAUInternalPacket@@@DataStructures@@QAEAAV01@H@Z",
+          "site_rva": 301426,
+          "kind": 20,
+          "target_va": 268722048
+        },
+        {
+          "symbol": "?AddToOrderingList@ReliabilityLayer@@AAEXPAUInternalPacket@@@Z",
+          "site_rva": 301464,
+          "kind": 20,
+          "target_va": 268728640
+        },
+        {
+          "symbol": "?Push@?$Queue@PAUInternalPacket@@@DataStructures@@QAEXABQAUInternalPacket@@@Z",
+          "site_rva": 301482,
+          "kind": 20,
+          "target_va": 268626240
+        },
+        {
+          "symbol": "?IsOlderOrderedPacket@ReliabilityLayer@@AAE_NGG@Z",
+          "site_rva": 301526,
+          "kind": 20,
+          "target_va": 268713984
+        },
+        {
+          "symbol": "?InsertIntoSplitPacketList@ReliabilityLayer@@AAEXPAUInternalPacket@@_J@Z",
+          "site_rva": 301553,
+          "kind": 20,
+          "target_va": 268732192
+        },
+        {
+          "symbol": "?BuildPacketFromSplitPacketList@ReliabilityLayer@@AAEPAUInternalPacket@@G_J@Z",
+          "site_rva": 301569,
+          "kind": 20,
+          "target_va": 268732736
+        },
+        {
+          "symbol": "?Push@?$Queue@PAUInternalPacket@@@DataStructures@@QAEXABQAUInternalPacket@@@Z",
+          "site_rva": 301608,
+          "kind": 20,
+          "target_va": 268626240
+        },
+        {
+          "symbol": "?Push@?$Queue@PAUInternalPacket@@@DataStructures@@QAEXABQAUInternalPacket@@@Z",
+          "site_rva": 301641,
+          "kind": 20,
+          "target_va": 268626240
+        },
+        {
+          "symbol": "??3@YAXPAX@Z",
+          "site_rva": 301658,
+          "kind": 20,
+          "target_va": 269247626
+        },
+        {
+          "symbol": "?ReleasePointer@InternalPacketPool@@QAEXPAUInternalPacket@@@Z",
+          "site_rva": 301673,
+          "kind": 20,
+          "target_va": 268626800
+        },
+        {
+          "symbol": "?CreateInternalPacketFromBitStream@ReliabilityLayer@@AAEPAUInternalPacket@@PAVBitStream@RakNet@@_J@Z",
+          "site_rva": 301695,
+          "kind": 20,
+          "target_va": 268719696
+        },
+        {
+          "symbol": "??1?$RangeList@G@DataStructures@@QAE@XZ",
+          "site_rva": 301739,
+          "kind": 20,
+          "target_va": 268733808
+        },
+        {
+          "symbol": "??1BitStream@RakNet@@QAE@XZ",
+          "site_rva": 301759,
+          "kind": 20,
+          "target_va": 268564688
+        },
+        {
+          "symbol": "__except_list",
+          "site_rva": 301778,
+          "kind": 6,
+          "target_va": 0
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_reliability_receive",
+      "section": 103,
+      "anchor": "__ehhandler$?HandleSocketReceiveFromConnectedPlayer@ReliabilityLayer@@QAE_NPBDHUPlayerID@@AAV?$List@PAVPluginInterface@@@DataStructures@@HPA_N@Z",
+      "anchor_offset": 22,
+      "rva": 929328,
+      "size": 32,
+      "kind": "code",
+      "sha256": "96bb8791c5795dd0b655e6096625e68dba0edbb5834b7daabc67754cd58e2818",
+      "bindings": [
+        {
+          "symbol": "??1BitStream@RakNet@@QAE@XZ",
+          "site_rva": 929335,
+          "kind": 20,
+          "target_va": 268564688
+        },
+        {
+          "symbol": "??1?$RangeList@G@DataStructures@@QAE@XZ",
+          "site_rva": 929346,
+          "kind": 20,
+          "target_va": 268733808
+        },
+        {
+          "symbol": "$T61668",
+          "site_rva": 929351,
+          "kind": 6,
+          "target_va": 269462256
+        },
+        {
+          "symbol": "___CxxFrameHandler",
+          "site_rva": 929356,
+          "kind": 20,
+          "target_va": 269247782
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_reliability_receive",
+      "section": 9,
+      "anchor": "?UpdateThreadedMemory@ReliabilityLayer@@AAEXXZ",
+      "anchor_offset": 0,
+      "rva": 278704,
+      "size": 18,
+      "kind": "code",
+      "sha256": "2ed063667eec87899a3b72d4cd74b9c542bfce0c30bb99e57ad521ef1a4af55b",
+      "bindings": []
+    },
+    {
+      "unit": "closure_vendor_reliability_receive",
+      "section": 96,
+      "anchor": "??0?$RangeList@G@DataStructures@@QAE@XZ",
+      "anchor_offset": 0,
+      "rva": 298304,
+      "size": 44,
+      "kind": "code",
+      "sha256": "06838990a7607c9ce532ab5efb34400d00a687a66f6726800731923b289c65f2",
+      "bindings": [
+        {
+          "symbol": "??0?$OrderedList@GU?$RangeNode@G@DataStructures@@$1??$RangeNodeComp@G@2@YAHABGABU12@@Z@DataStructures@@QAE@XZ",
+          "site_rva": 298311,
+          "kind": 20,
+          "target_va": 268726736
+        },
+        {
+          "symbol": "??$RangeNodeComp@G@DataStructures@@YAHABGABU?$RangeNode@G@0@@Z",
+          "site_rva": 298334,
+          "kind": 20,
+          "target_va": 268716752
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_reliability_receive",
+      "section": 3,
+      "anchor": "??$Read@_N@BitStream@RakNet@@QAE_NAA_N@Z",
+      "anchor_offset": 0,
+      "rva": 33824,
+      "size": 89,
+      "kind": "code",
+      "sha256": "b37034fc3b389d74b01e3aeca79066e2df1184e312ff0b4ee54a0c788b584854",
+      "bindings": []
+    },
+    {
+      "unit": "closure_vendor_reliability_receive",
+      "section": 90,
+      "anchor": "?Deserialize@?$RangeList@G@DataStructures@@QAE_NPAVBitStream@RakNet@@@Z",
+      "anchor_offset": 0,
+      "rva": 294176,
+      "size": 239,
+      "kind": "code",
+      "sha256": "1a84774435d1f4ac89fe660e8b4fc8fb1831b7200d2375b001f222165abe3c7b",
+      "bindings": [
+        {
+          "symbol": "?Clear@?$OrderedList@GU?$RangeNode@G@DataStructures@@$1??$RangeNodeComp@G@2@YAHABGABU12@@Z@DataStructures@@QAEXXZ",
+          "site_rva": 294187,
+          "kind": 20,
+          "target_va": 268726896
+        },
+        {
+          "symbol": "?ReadCompressed@BitStream@RakNet@@AAE_NPAEH_N@Z",
+          "site_rva": 294207,
+          "kind": 20,
+          "target_va": 268565104
+        },
+        {
+          "symbol": "?ReadBits@BitStream@RakNet@@QAE_NPAEH_N@Z",
+          "site_rva": 294302,
+          "kind": 20,
+          "target_va": 268564912
+        },
+        {
+          "symbol": "?ReadBits@BitStream@RakNet@@QAE_NPAEH_N@Z",
+          "site_rva": 294326,
+          "kind": 20,
+          "target_va": 268564912
+        },
+        {
+          "symbol": "?InsertAtEnd@?$OrderedList@GU?$RangeNode@G@DataStructures@@$1??$RangeNodeComp@G@2@YAHABGABU12@@Z@DataStructures@@QAEXABU?$RangeNode@G@2@@Z",
+          "site_rva": 294388,
+          "kind": 20,
+          "target_va": 268726880
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_reliability_receive",
+      "section": 67,
+      "anchor": "?Size@?$OrderedList@GU?$RangeNode@G@DataStructures@@$1??$RangeNodeComp@G@2@YAHABGABU12@@Z@DataStructures@@QBEIXZ",
+      "anchor_offset": 0,
+      "rva": 286096,
+      "size": 4,
+      "kind": "code",
+      "sha256": "f7e0208f5e988ae39c7a45dfddbd12921d02f9c3deb5695d4c534c8ab0ccdb0f",
+      "bindings": []
+    },
+    {
+      "unit": "closure_vendor_reliability_receive",
+      "section": 65,
+      "anchor": "??A?$OrderedList@GU?$RangeNode@G@DataStructures@@$1??$RangeNodeComp@G@2@YAHABGABU12@@Z@DataStructures@@QBEAAU?$RangeNode@G@1@I@Z",
+      "anchor_offset": 0,
+      "rva": 286080,
+      "size": 12,
+      "kind": "code",
+      "sha256": "ad09b7da4d9eb9c08f5c1a1b1a728841aa9a79add752be59989d682de3b497bb",
+      "bindings": []
+    },
+    {
+      "unit": "closure_vendor_reliability_receive",
+      "section": 15,
+      "anchor": "?IsEmpty@?$BPlusTree@GPAUInternalPacket@@$0CA@@DataStructures@@QBE_NXZ",
+      "anchor_offset": 0,
+      "rva": 279392,
+      "size": 11,
+      "kind": "code",
+      "sha256": "c71f693fefcc8cbe7ec2a767eaec65b6ddb92ec75f4c627e6eb59f690bdc6dbd",
+      "bindings": []
+    },
+    {
+      "unit": "closure_vendor_reliability_receive",
+      "section": 98,
+      "anchor": "??1?$RangeList@G@DataStructures@@QAE@XZ",
+      "anchor_offset": 0,
+      "rva": 298352,
+      "size": 73,
+      "kind": "code",
+      "sha256": "9da60df00b48df7ff200752023011079d71655c256075b02a0d0aaec742905fc",
+      "bindings": [
+        {
+          "symbol": "__ehhandler$??1?$RangeList@G@DataStructures@@QAE@XZ",
+          "site_rva": 298355,
+          "kind": 6,
+          "target_va": 269364552
+        },
+        {
+          "symbol": "__except_list",
+          "site_rva": 298361,
+          "kind": 6,
+          "target_va": 0
+        },
+        {
+          "symbol": "__except_list",
+          "site_rva": 298369,
+          "kind": 6,
+          "target_va": 0
+        },
+        {
+          "symbol": "?Clear@?$RangeList@G@DataStructures@@QAEXXZ",
+          "site_rva": 298390,
+          "kind": 20,
+          "target_va": 268729616
+        },
+        {
+          "symbol": "??1?$OrderedList@GU?$RangeNode@G@DataStructures@@$1??$RangeNodeComp@G@2@YAHABGABU12@@Z@DataStructures@@QAE@XZ",
+          "site_rva": 298405,
+          "kind": 20,
+          "target_va": 268730368
+        },
+        {
+          "symbol": "__except_list",
+          "site_rva": 298417,
+          "kind": 6,
+          "target_va": 0
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_reliability_receive",
+      "section": 31,
+      "anchor": "?ClearAndForceAllocation@?$Queue@_J@DataStructures@@QAEXH@Z",
+      "anchor_offset": 0,
+      "rva": 280064,
+      "size": 50,
+      "kind": "code",
+      "sha256": "9ac9aa779b0fdc9ddf0ad8d4725568a882bc79f40f762a90c4c5b9b6499fe58e",
+      "bindings": [
+        {
+          "symbol": "??3@YAXPAX@Z",
+          "site_rva": 280072,
+          "kind": 20,
+          "target_va": 269247626
+        },
+        {
+          "symbol": "??2@YAPAXI@Z",
+          "site_rva": 280089,
+          "kind": 20,
+          "target_va": 269247098
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_reliability_receive",
+      "section": 17,
+      "anchor": "?Push@?$Queue@_J@DataStructures@@QAEXAB_J@Z",
+      "anchor_offset": 0,
+      "rva": 279488,
+      "size": 214,
+      "kind": "code",
+      "sha256": "2abc87c5a85cbc515f3739f0dd512ba1a446b8eb3c7a7f86a4b72d8c715d80f0",
+      "bindings": [
+        {
+          "symbol": "??2@YAPAXI@Z",
+          "site_rva": 279504,
+          "kind": 20,
+          "target_va": 269247098
+        },
+        {
+          "symbol": "??2@YAPAXI@Z",
+          "site_rva": 279610,
+          "kind": 20,
+          "target_va": 269247098
+        },
+        {
+          "symbol": "??3@YAXPAX@Z",
+          "site_rva": 279688,
+          "kind": 20,
+          "target_va": 269247626
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_reliability_receive",
+      "section": 29,
+      "anchor": "?Compress@?$Queue@_J@DataStructures@@QAEXXZ",
+      "anchor_offset": 0,
+      "rva": 279888,
+      "size": 173,
+      "kind": "code",
+      "sha256": "4770f2e9404002e43b8832710e771da289afd4635e859cdd22167c3561105b80",
+      "bindings": [
+        {
+          "symbol": "??2@YAPAXI@Z",
+          "site_rva": 279947,
+          "kind": 20,
+          "target_va": 269247098
+        },
+        {
+          "symbol": "??3@YAXPAX@Z",
+          "site_rva": 280047,
+          "kind": 20,
+          "target_va": 269247626
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_reliability_receive",
+      "section": 13,
+      "anchor": "?Push@?$Queue@PAUInternalPacket@@@DataStructures@@QAEXABQAUInternalPacket@@@Z",
+      "anchor_offset": 0,
+      "rva": 190784,
+      "size": 189,
+      "kind": "code",
+      "sha256": "189c9cf9be7d9cb227300dc33e0a824f4b01a84a094a01b7477d5ed8de9c9dd4",
+      "bindings": [
+        {
+          "symbol": "??2@YAPAXI@Z",
+          "site_rva": 190797,
+          "kind": 20,
+          "target_va": 269247098
+        },
+        {
+          "symbol": "??2@YAPAXI@Z",
+          "site_rva": 190894,
+          "kind": 20,
+          "target_va": 269247098
+        },
+        {
+          "symbol": "??3@YAXPAX@Z",
+          "site_rva": 190959,
+          "kind": 20,
+          "target_va": 269247626
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_reliability_receive",
+      "section": 69,
+      "anchor": "?Pop@?$CircularLinkedList@PAUInternalPacket@@@DataStructures@@QAEPAUInternalPacket@@XZ",
+      "anchor_offset": 0,
+      "rva": 286496,
+      "size": 15,
+      "kind": "code",
+      "sha256": "5af2317dbb2dc04b43b133b847cf30d4f9b373aef89983afd667fc01be8fcee2",
+      "bindings": [
+        {
+          "symbol": "?Del@?$CircularLinkedList@PAUInternalPacket@@@DataStructures@@QAEXXZ",
+          "site_rva": 286503,
+          "kind": 20,
+          "target_va": 268717472
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_reliability_receive",
+      "section": 71,
+      "anchor": "??E?$LinkedList@PAUInternalPacket@@@DataStructures@@QAEAAV01@H@Z",
+      "anchor_offset": 0,
+      "rva": 286592,
+      "size": 8,
+      "kind": "code",
+      "sha256": "d01d5f6e32d38736010455ebe495df6c2ef2e79a1685eb3c0b0b5faafd2415af",
+      "bindings": [
+        {
+          "symbol": "??E?$LinkedList@PAUInternalPacket@@@DataStructures@@QAEAAV01@XZ",
+          "site_rva": 286593,
+          "kind": 20,
+          "target_va": 268717664
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_reliability_receive",
+      "section": 7,
+      "anchor": "?IsOlderOrderedPacket@ReliabilityLayer@@AAE_NGG@Z",
+      "anchor_offset": 0,
+      "rva": 278528,
+      "size": 64,
+      "kind": "code",
+      "sha256": "f9497c762073b4a271d6110a6de52580014f0961fbfc82a0ec8ccb13cac8d428",
+      "bindings": []
+    },
+    {
+      "unit": "closure_vendor_reliability_receive",
+      "section": 104,
+      "anchor": "$T61668",
+      "anchor_offset": 16,
+      "rva": 1026784,
+      "size": 44,
+      "kind": "data",
+      "sha256": "85588f82fe1fa2083acd35fb4d5f383a82c749b9d603814a722d5d43a9bb8360",
+      "bindings": [
+        {
+          "symbol": "$L61566",
+          "site_rva": 1026788,
+          "kind": 6,
+          "target_va": 269364784
+        },
+        {
+          "symbol": "$L61567",
+          "site_rva": 1026796,
+          "kind": 6,
+          "target_va": 269364795
+        },
+        {
+          "symbol": "$T61723",
+          "site_rva": 1026808,
+          "kind": 6,
+          "target_va": 269462240
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_reliability_receive",
+      "section": 82,
+      "anchor": "??0?$OrderedList@GU?$RangeNode@G@DataStructures@@$1??$RangeNodeComp@G@2@YAHABGABU12@@Z@DataStructures@@QAE@XZ",
+      "anchor_offset": 0,
+      "rva": 291280,
+      "size": 12,
+      "kind": "code",
+      "sha256": "f09d53032d95db61e5696a630b20d057418292b328a34f94887af565fb5c3202",
+      "bindings": [
+        {
+          "symbol": "??0?$List@U?$RangeNode@G@DataStructures@@@DataStructures@@QAE@XZ",
+          "site_rva": 291284,
+          "kind": 20,
+          "target_va": 268717760
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_reliability_receive",
+      "section": 53,
+      "anchor": "??$RangeNodeComp@G@DataStructures@@YAHABGABU?$RangeNode@G@0@@Z",
+      "anchor_offset": 0,
+      "rva": 281296,
+      "size": 36,
+      "kind": "code",
+      "sha256": "65f2cbcab48c373d52f317cd44badee8f0a30c7f53417e34b6088ce4430dfb96",
+      "bindings": []
+    },
+    {
+      "unit": "closure_vendor_reliability_receive",
+      "section": 86,
+      "anchor": "?Clear@?$OrderedList@GU?$RangeNode@G@DataStructures@@$1??$RangeNodeComp@G@2@YAHABGABU12@@Z@DataStructures@@QAEXXZ",
+      "anchor_offset": 0,
+      "rva": 291440,
+      "size": 8,
+      "kind": "code",
+      "sha256": "de4f2325d9a4afdad4bebe3a29903bb83622b03ec568ebc251b820f0ef294b4a",
+      "bindings": [
+        {
+          "symbol": "?Clear@?$List@U?$RangeNode@G@DataStructures@@@DataStructures@@QAEX_N@Z",
+          "site_rva": 291443,
+          "kind": 20,
+          "target_va": 268723152
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_reliability_receive",
+      "section": 84,
+      "anchor": "?InsertAtEnd@?$OrderedList@GU?$RangeNode@G@DataStructures@@$1??$RangeNodeComp@G@2@YAHABGABU12@@Z@DataStructures@@QAEXABU?$RangeNode@G@2@@Z",
+      "anchor_offset": 0,
+      "rva": 291424,
+      "size": 15,
+      "kind": "code",
+      "sha256": "0988bff7ec75557acbd3b6d72089b4aaec70634d96e3b2005f11f71b49a7c00b",
+      "bindings": [
+        {
+          "symbol": "?Insert@?$List@U?$RangeNode@G@DataStructures@@@DataStructures@@QAEXU?$RangeNode@G@2@@Z",
+          "site_rva": 291435,
+          "kind": 20,
+          "target_va": 268722592
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_reliability_receive",
+      "section": 99,
+      "anchor": "__ehhandler$??1?$RangeList@G@DataStructures@@QAE@XZ",
+      "anchor_offset": 8,
+      "rva": 929088,
+      "size": 18,
+      "kind": "code",
+      "sha256": "23affb97cda1dddbd6b79e340a8d8e9c3edf756c602b2bccdd07a397333d5145",
+      "bindings": [
+        {
+          "symbol": "??1?$OrderedList@GU?$RangeNode@G@DataStructures@@$1??$RangeNodeComp@G@2@YAHABGABU12@@Z@DataStructures@@QAE@XZ",
+          "site_rva": 929092,
+          "kind": 20,
+          "target_va": 268730368
+        },
+        {
+          "symbol": "$T61547",
+          "site_rva": 929097,
+          "kind": 6,
+          "target_va": 269462052
+        },
+        {
+          "symbol": "___CxxFrameHandler",
+          "site_rva": 929102,
+          "kind": 20,
+          "target_va": 269247782
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_reliability_receive",
+      "section": 88,
+      "anchor": "?Clear@?$RangeList@G@DataStructures@@QAEXXZ",
+      "anchor_offset": 0,
+      "rva": 294160,
+      "size": 5,
+      "kind": "code",
+      "sha256": "fb940a3e84c28d02186fc5ce38d78be4eac783544c3ef9859dff975d50b1371e",
+      "bindings": [
+        {
+          "symbol": "?Clear@?$OrderedList@GU?$RangeNode@G@DataStructures@@$1??$RangeNodeComp@G@2@YAHABGABU12@@Z@DataStructures@@QAEXXZ",
+          "site_rva": 294161,
+          "kind": 20,
+          "target_va": 268726896
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_reliability_receive",
+      "section": 92,
+      "anchor": "??1?$OrderedList@GU?$RangeNode@G@DataStructures@@$1??$RangeNodeComp@G@2@YAHABGABU12@@Z@DataStructures@@QAE@XZ",
+      "anchor_offset": 0,
+      "rva": 294912,
+      "size": 73,
+      "kind": "code",
+      "sha256": "8859e236f1c882a427e4a879c4798521fdf2de2586ca44619221eda01d8f9359",
+      "bindings": [
+        {
+          "symbol": "__ehhandler$??1?$OrderedList@GU?$RangeNode@G@DataStructures@@$1??$RangeNodeComp@G@2@YAHABGABU12@@Z@DataStructures@@QAE@XZ",
+          "site_rva": 294915,
+          "kind": 6,
+          "target_va": 269364520
+        },
+        {
+          "symbol": "__except_list",
+          "site_rva": 294921,
+          "kind": 6,
+          "target_va": 0
+        },
+        {
+          "symbol": "__except_list",
+          "site_rva": 294929,
+          "kind": 6,
+          "target_va": 0
+        },
+        {
+          "symbol": "?Clear@?$OrderedList@GU?$RangeNode@G@DataStructures@@$1??$RangeNodeComp@G@2@YAHABGABU12@@Z@DataStructures@@QAEXXZ",
+          "site_rva": 294950,
+          "kind": 20,
+          "target_va": 268726896
+        },
+        {
+          "symbol": "??1?$List@U?$RangeNode@G@DataStructures@@@DataStructures@@QAE@XZ",
+          "site_rva": 294965,
+          "kind": 20,
+          "target_va": 268722544
+        },
+        {
+          "symbol": "__except_list",
+          "site_rva": 294977,
+          "kind": 6,
+          "target_va": 0
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_reliability_receive",
+      "section": 57,
+      "anchor": "?Del@?$CircularLinkedList@PAUInternalPacket@@@DataStructures@@QAEXXZ",
+      "anchor_offset": 0,
+      "rva": 282016,
+      "size": 98,
+      "kind": "code",
+      "sha256": "143302e547219b5fa6932cd5f9340fc10bb63db6236e218c4d0bd6a79fd9db1c",
+      "bindings": [
+        {
+          "symbol": "??3@YAXPAX@Z",
+          "site_rva": 282038,
+          "kind": 20,
+          "target_va": 269247626
+        },
+        {
+          "symbol": "??3@YAXPAX@Z",
+          "site_rva": 282096,
+          "kind": 20,
+          "target_va": 269247626
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_reliability_receive",
+      "section": 59,
+      "anchor": "??E?$LinkedList@PAUInternalPacket@@@DataStructures@@QAEAAV01@XZ",
+      "anchor_offset": 0,
+      "rva": 282208,
+      "size": 22,
+      "kind": "code",
+      "sha256": "d678ca3a798b1b818b9f821a7ff41d83b2e9e80d08743cfc44f3d0acbbdc775a",
+      "bindings": []
+    },
+    {
+      "unit": "closure_vendor_reliability_receive",
+      "section": 61,
+      "anchor": "??0?$List@U?$RangeNode@G@DataStructures@@@DataStructures@@QAE@XZ",
+      "anchor_offset": 0,
+      "rva": 282304,
+      "size": 13,
+      "kind": "code",
+      "sha256": "efaddf6f7c64b7d0dd7d70e04563c88df5b21978a063a338954e28cc09d4e5e9",
+      "bindings": []
+    },
+    {
+      "unit": "closure_vendor_reliability_receive",
+      "section": 80,
+      "anchor": "?Clear@?$List@U?$RangeNode@G@DataStructures@@@DataStructures@@QAEX_N@Z",
+      "anchor_offset": 0,
+      "rva": 287696,
+      "size": 86,
+      "kind": "code",
+      "sha256": "94bec39b17e84efa73d235ce9d1b4522db1a17b99b2033bb344af5d28e4ee7f8",
+      "bindings": [
+        {
+          "symbol": "??1?$RangeNode@G@DataStructures@@QAE@XZ",
+          "site_rva": 287735,
+          "kind": 6,
+          "target_va": 268716208
+        },
+        {
+          "symbol": "??_M@YGXPAXIHP6EX0@Z@Z",
+          "site_rva": 287744,
+          "kind": 20,
+          "target_va": 269254767
+        },
+        {
+          "symbol": "??3@YAXPAX@Z",
+          "site_rva": 287750,
+          "kind": 20,
+          "target_va": 269247626
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_reliability_receive",
+      "section": 75,
+      "anchor": "?Insert@?$List@U?$RangeNode@G@DataStructures@@@DataStructures@@QAEXU?$RangeNode@G@2@@Z",
+      "anchor_offset": 0,
+      "rva": 287136,
+      "size": 226,
+      "kind": "code",
+      "sha256": "4841526ec6af7e83fca46aad97c3f187e8ba44299d3c0cc0afc846ec2ca7b098",
+      "bindings": [
+        {
+          "symbol": "__ehhandler$?Insert@?$List@U?$RangeNode@G@DataStructures@@@DataStructures@@QAEXU?$RangeNode@G@2@@Z",
+          "site_rva": 287139,
+          "kind": 6,
+          "target_va": 269364331
+        },
+        {
+          "symbol": "__except_list",
+          "site_rva": 287145,
+          "kind": 6,
+          "target_va": 0
+        },
+        {
+          "symbol": "__except_list",
+          "site_rva": 287153,
+          "kind": 6,
+          "target_va": 0
+        },
+        {
+          "symbol": "??2@YAPAXI@Z",
+          "site_rva": 287208,
+          "kind": 20,
+          "target_va": 269247098
+        },
+        {
+          "symbol": "??1?$RangeNode@G@DataStructures@@QAE@XZ",
+          "site_rva": 287228,
+          "kind": 6,
+          "target_va": 268716208
+        },
+        {
+          "symbol": "??0?$RangeNode@G@DataStructures@@QAE@XZ",
+          "site_rva": 287233,
+          "kind": 6,
+          "target_va": 268716192
+        },
+        {
+          "symbol": "??_L@YGXPAXIHP6EX0@Z1@Z",
+          "site_rva": 287247,
+          "kind": 20,
+          "target_va": 269254863
+        },
+        {
+          "symbol": "??1?$RangeNode@G@DataStructures@@QAE@XZ",
+          "site_rva": 287299,
+          "kind": 6,
+          "target_va": 268716208
+        },
+        {
+          "symbol": "??_M@YGXPAXIHP6EX0@Z@Z",
+          "site_rva": 287308,
+          "kind": 20,
+          "target_va": 269254767
+        },
+        {
+          "symbol": "??3@YAXPAX@Z",
+          "site_rva": 287314,
+          "kind": 20,
+          "target_va": 269247626
+        },
+        {
+          "symbol": "__except_list",
+          "site_rva": 287352,
+          "kind": 6,
+          "target_va": 0
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_reliability_receive",
+      "section": 100,
+      "anchor": "$T61547",
+      "anchor_offset": 8,
+      "rva": 1026588,
+      "size": 36,
+      "kind": "data",
+      "sha256": "618e8244484e6e0c039efab61e3a9cfc1b556e074ad7713883fcbd4b58fb59d9",
+      "bindings": [
+        {
+          "symbol": "$L61545",
+          "site_rva": 1026592,
+          "kind": 6,
+          "target_va": 269364544
+        },
+        {
+          "symbol": "$T61549",
+          "site_rva": 1026604,
+          "kind": 6,
+          "target_va": 269462044
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_reliability_receive",
+      "section": 93,
+      "anchor": "__ehhandler$??1?$OrderedList@GU?$RangeNode@G@DataStructures@@$1??$RangeNodeComp@G@2@YAHABGABU12@@Z@DataStructures@@QAE@XZ",
+      "anchor_offset": 8,
+      "rva": 929056,
+      "size": 18,
+      "kind": "code",
+      "sha256": "44a8c5e26366f99562a3a4b0936eb87c9e92a15b8a589f941c4dc41b1ac47355",
+      "bindings": [
+        {
+          "symbol": "??1?$List@U?$RangeNode@G@DataStructures@@@DataStructures@@QAE@XZ",
+          "site_rva": 929060,
+          "kind": 20,
+          "target_va": 268722544
+        },
+        {
+          "symbol": "$T61527",
+          "site_rva": 929065,
+          "kind": 6,
+          "target_va": 269462016
+        },
+        {
+          "symbol": "___CxxFrameHandler",
+          "site_rva": 929070,
+          "kind": 20,
+          "target_va": 269247782
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_reliability_receive",
+      "section": 73,
+      "anchor": "??1?$List@U?$RangeNode@G@DataStructures@@@DataStructures@@QAE@XZ",
+      "anchor_offset": 0,
+      "rva": 287088,
+      "size": 45,
+      "kind": "code",
+      "sha256": "334f3cc21d5f72a24d834b531762f249d72718c242835875589f2e8aeadaff02",
+      "bindings": [
+        {
+          "symbol": "??1?$RangeNode@G@DataStructures@@QAE@XZ",
+          "site_rva": 287109,
+          "kind": 6,
+          "target_va": 268716208
+        },
+        {
+          "symbol": "??_M@YGXPAXIHP6EX0@Z@Z",
+          "site_rva": 287118,
+          "kind": 20,
+          "target_va": 269254767
+        },
+        {
+          "symbol": "??3@YAXPAX@Z",
+          "site_rva": 287124,
+          "kind": 20,
+          "target_va": 269247626
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_reliability_receive",
+      "section": 45,
+      "anchor": "??1?$RangeNode@G@DataStructures@@QAE@XZ",
+      "anchor_offset": 0,
+      "rva": 280752,
+      "size": 1,
+      "kind": "code",
+      "sha256": "ae3f4619b0413d70d3004b9131c3752153074e45725be13b9a148978895e359e",
+      "bindings": []
+    },
+    {
+      "unit": "closure_vendor_reliability_receive",
+      "section": 76,
+      "anchor": "__ehhandler$?Insert@?$List@U?$RangeNode@G@DataStructures@@@DataStructures@@QAEXU?$RangeNode@G@2@@Z",
+      "anchor_offset": 11,
+      "rva": 928864,
+      "size": 21,
+      "kind": "code",
+      "sha256": "307c8cff3fbed0dcf5dc9a5956bc0ea64d1927cbfdaa6911765774bb867d992b",
+      "bindings": [
+        {
+          "symbol": "??3@YAXPAX@Z",
+          "site_rva": 928869,
+          "kind": 20,
+          "target_va": 269247626
+        },
+        {
+          "symbol": "$T61449",
+          "site_rva": 928876,
+          "kind": 6,
+          "target_va": 269461800
+        },
+        {
+          "symbol": "___CxxFrameHandler",
+          "site_rva": 928881,
+          "kind": 20,
+          "target_va": 269247782
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_reliability_receive",
+      "section": 43,
+      "anchor": "??0?$RangeNode@G@DataStructures@@QAE@XZ",
+      "anchor_offset": 0,
+      "rva": 280736,
+      "size": 3,
+      "kind": "code",
+      "sha256": "58367ffa2a0179375018fa0f5c26da24391e42ebe0ed8fdda35a21fc7bdc396f",
+      "bindings": []
+    },
+    {
+      "unit": "closure_vendor_reliability_receive",
+      "section": 94,
+      "anchor": "$T61527",
+      "anchor_offset": 8,
+      "rva": 1026552,
+      "size": 36,
+      "kind": "data",
+      "sha256": "96c942eab52096d0a7bfbf8c1da1560686293138f41c3d40cff6e73a70ac7400",
+      "bindings": [
+        {
+          "symbol": "$L61525",
+          "site_rva": 1026556,
+          "kind": 6,
+          "target_va": 269364512
+        },
+        {
+          "symbol": "$T61529",
+          "site_rva": 1026568,
+          "kind": 6,
+          "target_va": 269462008
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_reliability_receive",
+      "section": 77,
+      "anchor": "$T61449",
+      "anchor_offset": 8,
+      "rva": 1026336,
+      "size": 36,
+      "kind": "data",
+      "sha256": "cec34a7dd66edddf6a4983c8ff4e22e89474683bc9b59da3a000972045f08e1a",
+      "bindings": [
+        {
+          "symbol": "$L61430",
+          "site_rva": 1026340,
+          "kind": 6,
+          "target_va": 269364320
+        },
+        {
+          "symbol": "$T61452",
+          "site_rva": 1026352,
+          "kind": 6,
+          "target_va": 269461792
+        }
+      ]
+    }
+  ],
+  "seeds": [
+    {
+      "unit": "closure_vendor_reliability_receive",
+      "symbol": "?HandleSocketReceiveFromConnectedPlayer@ReliabilityLayer@@QAE_NPBDHUPlayerID@@AAV?$List@PAVPluginInterface@@@DataStructures@@HPA_N@Z",
+      "rva": 299600,
+      "size": 2192
+    }
+  ],
+  "new_unique_code": 2254,
+  "object_sha256": {
+    "closure_vendor_reliability_receive": "1ee0f3a62f8869849ba2eafea4d0f9d6401eced5c2df5bde7afbc6d219585136"
+  },
+  "source_sha256": {
+    "closure_vendor_reliability_receive": "2727a92075057a37a9fb7baba6d9bd913277b96e0bd20d03dc955441755a1d5d"
+  },
+  "storage": "All reachable complete source code/data/EH sections traversed, every actual COFF and PE target compared. Genuine vendor types/layouts and already accepted external owners. Emitted unreferenced sections remain outside coverage. Source exactness only; linked selection remains to be verified.",
+  "scope": "Fresh whole source sections, all real COFF/PE targets; linked acceptance remains mandatory."
+}

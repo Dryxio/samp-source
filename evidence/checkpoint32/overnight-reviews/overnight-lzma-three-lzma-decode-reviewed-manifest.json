@@ -1,0 +1,661 @@
+{
+  "status": "PASS_FULL_SOURCE_REGIONS_ALL_COFF_PE_TARGETS",
+  "run": "cp32-overnight-probe-lzma-decode-canonical",
+  "base_prefix": "overnight-network-one",
+  "baseline": 437489,
+  "new_unique_code": 9033,
+  "roots": [
+    {
+      "unit": "closure_vendor_lzma_decode",
+      "symbol": "_LzmaDec_InitDicAndState",
+      "rva": 784784,
+      "size": 45
+    },
+    {
+      "unit": "closure_vendor_lzma_decode",
+      "symbol": "_LzmaDec_Init",
+      "rva": 784832,
+      "size": 25
+    },
+    {
+      "unit": "closure_vendor_lzma_decode",
+      "symbol": "_LzmaDec_DecodeToDic",
+      "rva": 784944,
+      "size": 816
+    },
+    {
+      "unit": "closure_vendor_lzma_decode",
+      "symbol": "_LzmaDec_DecodeToBuf",
+      "rva": 785760,
+      "size": 236
+    },
+    {
+      "unit": "closure_vendor_lzma_decode",
+      "symbol": "_LzmaDec_FreeProbs",
+      "rva": 786000,
+      "size": 29
+    },
+    {
+      "unit": "closure_vendor_lzma_decode",
+      "symbol": "_LzmaDec_Free",
+      "rva": 786064,
+      "size": 30
+    },
+    {
+      "unit": "closure_vendor_lzma_decode",
+      "symbol": "_LzmaProps_Decode",
+      "rva": 786096,
+      "size": 104
+    },
+    {
+      "unit": "closure_vendor_lzma_decode",
+      "symbol": "_LzmaDec_AllocateProbs",
+      "rva": 786288,
+      "size": 88
+    },
+    {
+      "unit": "closure_vendor_lzma_decode",
+      "symbol": "_LzmaDec_Allocate",
+      "rva": 786384,
+      "size": 207
+    },
+    {
+      "unit": "closure_vendor_lzma_decode",
+      "symbol": "_LzmaDecode",
+      "rva": 786592,
+      "size": 221
+    }
+  ],
+  "regions": [
+    {
+      "unit": "closure_vendor_lzma_decode",
+      "section": 3,
+      "anchor": "@LzmaDec_DecodeReal@12",
+      "anchor_offset": 0,
+      "rva": 777696,
+      "size": 5278,
+      "kind": "code",
+      "sha256": "63dfdf7dc4c69ca7ede69ea1aab3f963e75e5fab1f683f0c01df0ab19a67116c",
+      "bindings": []
+    },
+    {
+      "unit": "closure_vendor_lzma_decode",
+      "section": 5,
+      "anchor": "@LzmaDec_WriteRem@8",
+      "anchor_offset": 0,
+      "rva": 782976,
+      "size": 125,
+      "kind": "code",
+      "sha256": "dd1e65f15e36f42bffe78df28135c17d71b3ff2a84f082cf7aa874c0a5f510d8",
+      "bindings": []
+    },
+    {
+      "unit": "closure_vendor_lzma_decode",
+      "section": 7,
+      "anchor": "@LzmaDec_DecodeReal2@12",
+      "anchor_offset": 0,
+      "rva": 783104,
+      "size": 112,
+      "kind": "code",
+      "sha256": "e38803f5201a913390084884f59fe400681fd1b2f464d3ec02392febd94fb106",
+      "bindings": [
+        {
+          "symbol": "@LzmaDec_DecodeReal@12",
+          "site_rva": 783140,
+          "symbol_va": 269213152,
+          "addend": 0,
+          "target_va": 269213152,
+          "kind": 20
+        },
+        {
+          "symbol": "@LzmaDec_WriteRem@8",
+          "site_rva": 783171,
+          "symbol_va": 269218432,
+          "addend": 0,
+          "target_va": 269218432,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_lzma_decode",
+      "section": 9,
+      "anchor": "_LzmaDec_TryDummy",
+      "anchor_offset": 0,
+      "rva": 783216,
+      "size": 1559,
+      "kind": "code",
+      "sha256": "9b21f7ff2d80f36c48ba7dbd6df9650f38baab91b7c7327025842197f9273466",
+      "bindings": []
+    },
+    {
+      "unit": "closure_vendor_lzma_decode",
+      "section": 11,
+      "anchor": "_LzmaDec_InitDicAndState",
+      "anchor_offset": 0,
+      "rva": 784784,
+      "size": 45,
+      "kind": "code",
+      "sha256": "d9fc47f349e034a6891525d4e159a7b9b53d0a5b09f8edfe71a4cc536446b85b",
+      "bindings": []
+    },
+    {
+      "unit": "closure_vendor_lzma_decode",
+      "section": 13,
+      "anchor": "_LzmaDec_Init",
+      "anchor_offset": 0,
+      "rva": 784832,
+      "size": 25,
+      "kind": "code",
+      "sha256": "ac29cd9eb07be416f6b80f1f7f5c07639be2a6de1b84d8aa8d65f313e3f94410",
+      "bindings": [
+        {
+          "symbol": "_LzmaDec_InitDicAndState",
+          "site_rva": 784849,
+          "symbol_va": 269220240,
+          "addend": 0,
+          "target_va": 269220240,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_lzma_decode",
+      "section": 15,
+      "anchor": "_LzmaDec_InitStateReal",
+      "anchor_offset": 0,
+      "rva": 784864,
+      "size": 68,
+      "kind": "code",
+      "sha256": "92696fe4319bbf0fd6a61e0109c7faeff51fb3af384fe6fe258350f7668d250b",
+      "bindings": []
+    },
+    {
+      "unit": "closure_vendor_lzma_decode",
+      "section": 17,
+      "anchor": "_LzmaDec_DecodeToDic",
+      "anchor_offset": 0,
+      "rva": 784944,
+      "size": 816,
+      "kind": "code",
+      "sha256": "606974ee5caea3f24b9a25efd8d8170bc20a46e77b0ac116054a60011d62260f",
+      "bindings": [
+        {
+          "symbol": "@LzmaDec_WriteRem@8",
+          "site_rva": 784978,
+          "symbol_va": 269218432,
+          "addend": 0,
+          "target_va": 269218432,
+          "kind": 20
+        },
+        {
+          "symbol": "_LzmaDec_InitStateReal",
+          "site_rva": 785227,
+          "symbol_va": 269220320,
+          "addend": 0,
+          "target_va": 269220320,
+          "kind": 20
+        },
+        {
+          "symbol": "_LzmaDec_TryDummy",
+          "site_rva": 785267,
+          "symbol_va": 269218672,
+          "addend": 0,
+          "target_va": 269218672,
+          "kind": 20
+        },
+        {
+          "symbol": "@LzmaDec_DecodeReal2@12",
+          "site_rva": 785311,
+          "symbol_va": 269218560,
+          "addend": 0,
+          "target_va": 269218560,
+          "kind": 20
+        },
+        {
+          "symbol": "_LzmaDec_TryDummy",
+          "site_rva": 785415,
+          "symbol_va": 269218672,
+          "addend": 0,
+          "target_va": 269218672,
+          "kind": 20
+        },
+        {
+          "symbol": "@LzmaDec_DecodeReal2@12",
+          "site_rva": 785456,
+          "symbol_va": 269218560,
+          "addend": 0,
+          "target_va": 269218560,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_lzma_decode",
+      "section": 19,
+      "anchor": "_LzmaDec_DecodeToBuf",
+      "anchor_offset": 0,
+      "rva": 785760,
+      "size": 236,
+      "kind": "code",
+      "sha256": "c0bb37fe4360a16151a2de0d48ad9c233322e49023ea2bfd315f612b724b71f5",
+      "bindings": [
+        {
+          "symbol": "_LzmaDec_DecodeToDic",
+          "site_rva": 785872,
+          "symbol_va": 269220400,
+          "addend": 0,
+          "target_va": 269220400,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_lzma_decode",
+      "section": 21,
+      "anchor": "_LzmaDec_FreeProbs",
+      "anchor_offset": 0,
+      "rva": 786000,
+      "size": 29,
+      "kind": "code",
+      "sha256": "3aa3388debc1a88efba66c8bbbc9e7658c20dcad647101749ebcfeb4dc08b498",
+      "bindings": []
+    },
+    {
+      "unit": "closure_vendor_lzma_decode",
+      "section": 23,
+      "anchor": "_LzmaDec_FreeDict",
+      "anchor_offset": 0,
+      "rva": 786032,
+      "size": 19,
+      "kind": "code",
+      "sha256": "e88ecf7ac40bf923ffc50f351bed06203c20c3c4b066aa9076eb3a3cdcac2b73",
+      "bindings": []
+    },
+    {
+      "unit": "closure_vendor_lzma_decode",
+      "section": 25,
+      "anchor": "_LzmaDec_Free",
+      "anchor_offset": 0,
+      "rva": 786064,
+      "size": 30,
+      "kind": "code",
+      "sha256": "f9fb5d8fb107e70064968b244809767ecc11f74e56041bd06402ab3e35fcee73",
+      "bindings": [
+        {
+          "symbol": "_LzmaDec_FreeProbs",
+          "site_rva": 786077,
+          "symbol_va": 269221456,
+          "addend": 0,
+          "target_va": 269221456,
+          "kind": 20
+        },
+        {
+          "symbol": "_LzmaDec_FreeDict",
+          "site_rva": 786087,
+          "symbol_va": 269221488,
+          "addend": 0,
+          "target_va": 269221488,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_lzma_decode",
+      "section": 27,
+      "anchor": "_LzmaProps_Decode",
+      "anchor_offset": 0,
+      "rva": 786096,
+      "size": 104,
+      "kind": "code",
+      "sha256": "4c480234eb118ce871553ee4389b91d32c10201ca77d51cd854c2a1cd09c29b8",
+      "bindings": []
+    },
+    {
+      "unit": "closure_vendor_lzma_decode",
+      "section": 29,
+      "anchor": "_LzmaDec_AllocateProbs2",
+      "anchor_offset": 0,
+      "rva": 786208,
+      "size": 71,
+      "kind": "code",
+      "sha256": "1ed6f5cbc6dcc41b8f5614569d5da22da2ccc943f993632fd4434c1dd45c753e",
+      "bindings": [
+        {
+          "symbol": "_LzmaDec_FreeProbs",
+          "site_rva": 786244,
+          "symbol_va": 269221456,
+          "addend": 0,
+          "target_va": 269221456,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_lzma_decode",
+      "section": 31,
+      "anchor": "_LzmaDec_AllocateProbs",
+      "anchor_offset": 0,
+      "rva": 786288,
+      "size": 88,
+      "kind": "code",
+      "sha256": "366d8d3bd31c8ccfc6d6f679d42672e1ce2036065d969eec5a1267885777398a",
+      "bindings": [
+        {
+          "symbol": "_LzmaProps_Decode",
+          "site_rva": 786307,
+          "symbol_va": 269221552,
+          "addend": 0,
+          "target_va": 269221552,
+          "kind": 20
+        },
+        {
+          "symbol": "_LzmaDec_AllocateProbs2",
+          "site_rva": 786333,
+          "symbol_va": 269221664,
+          "addend": 0,
+          "target_va": 269221664,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_lzma_decode",
+      "section": 33,
+      "anchor": "_LzmaDec_Allocate",
+      "anchor_offset": 0,
+      "rva": 786384,
+      "size": 207,
+      "kind": "code",
+      "sha256": "530db6c5467e1ef0c94dbe0625c5b1b865892023c0b1569792efc4a2c0e4389d",
+      "bindings": [
+        {
+          "symbol": "_LzmaProps_Decode",
+          "site_rva": 786403,
+          "symbol_va": 269221552,
+          "addend": 0,
+          "target_va": 269221552,
+          "kind": 20
+        },
+        {
+          "symbol": "_LzmaDec_AllocateProbs2",
+          "site_rva": 786436,
+          "symbol_va": 269221664,
+          "addend": 0,
+          "target_va": 269221664,
+          "kind": 20
+        },
+        {
+          "symbol": "_LzmaDec_FreeDict",
+          "site_rva": 786514,
+          "symbol_va": 269221488,
+          "addend": 0,
+          "target_va": 269221488,
+          "kind": 20
+        },
+        {
+          "symbol": "_LzmaDec_FreeProbs",
+          "site_rva": 786535,
+          "symbol_va": 269221456,
+          "addend": 0,
+          "target_va": 269221456,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_lzma_decode",
+      "section": 35,
+      "anchor": "_LzmaDecode",
+      "anchor_offset": 0,
+      "rva": 786592,
+      "size": 221,
+      "kind": "code",
+      "sha256": "07c6b0ddccc929a381223dd421d3c2f2773326088a9849350d03e4c9c5b10045",
+      "bindings": [
+        {
+          "symbol": "_LzmaDec_AllocateProbs",
+          "site_rva": 786682,
+          "symbol_va": 269221744,
+          "addend": 0,
+          "target_va": 269221744,
+          "kind": 20
+        },
+        {
+          "symbol": "_LzmaDec_Init",
+          "site_rva": 786714,
+          "symbol_va": 269220288,
+          "addend": 0,
+          "target_va": 269220288,
+          "kind": 20
+        },
+        {
+          "symbol": "_LzmaDec_DecodeToDic",
+          "site_rva": 786752,
+          "symbol_va": 269220400,
+          "addend": 0,
+          "target_va": 269220400,
+          "kind": 20
+        },
+        {
+          "symbol": "_LzmaDec_FreeProbs",
+          "site_rva": 786796,
+          "symbol_va": 269221456,
+          "addend": 0,
+          "target_va": 269221456,
+          "kind": 20
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "object_sha256": {
+    "closure_vendor_lzma_decode": "d454557864c506b33e5c2605c3adf7ad6ad4a12f2753821644de959d1820b66c"
+  },
+  "source_sha256": {
+    "closure_vendor_lzma_decode": "687068d777cb9255b9d728366205e08630aa7c4677f0172bf453dfb21be1861b"
+  },
+  "emitted_definitions": [
+    {
+      "symbol": "@LzmaDec_DecodeReal@12",
+      "section": 3,
+      "storage": 3,
+      "rva": 777696,
+      "size": 5278,
+      "selected": true
+    },
+    {
+      "symbol": "@LzmaDec_WriteRem@8",
+      "section": 5,
+      "storage": 3,
+      "rva": 782976,
+      "size": 125,
+      "selected": true
+    },
+    {
+      "symbol": "@LzmaDec_DecodeReal2@12",
+      "section": 7,
+      "storage": 3,
+      "rva": 783104,
+      "size": 112,
+      "selected": true
+    },
+    {
+      "symbol": "_LzmaDec_TryDummy",
+      "section": 9,
+      "storage": 3,
+      "rva": 783216,
+      "size": 1559,
+      "selected": true
+    },
+    {
+      "symbol": "_LzmaDec_InitDicAndState",
+      "section": 11,
+      "storage": 2,
+      "rva": 784784,
+      "size": 45,
+      "selected": true
+    },
+    {
+      "symbol": "_LzmaDec_Init",
+      "section": 13,
+      "storage": 2,
+      "rva": 784832,
+      "size": 25,
+      "selected": true
+    },
+    {
+      "symbol": "_LzmaDec_InitStateReal",
+      "section": 15,
+      "storage": 3,
+      "rva": 784864,
+      "size": 68,
+      "selected": true
+    },
+    {
+      "symbol": "_LzmaDec_DecodeToDic",
+      "section": 17,
+      "storage": 2,
+      "rva": 784944,
+      "size": 816,
+      "selected": true
+    },
+    {
+      "symbol": "_LzmaDec_DecodeToBuf",
+      "section": 19,
+      "storage": 2,
+      "rva": 785760,
+      "size": 236,
+      "selected": true
+    },
+    {
+      "symbol": "_LzmaDec_FreeProbs",
+      "section": 21,
+      "storage": 2,
+      "rva": 786000,
+      "size": 29,
+      "selected": true
+    },
+    {
+      "symbol": "_LzmaDec_FreeDict",
+      "section": 23,
+      "storage": 3,
+      "rva": 786032,
+      "size": 19,
+      "selected": true
+    },
+    {
+      "symbol": "_LzmaDec_Free",
+      "section": 25,
+      "storage": 2,
+      "rva": 786064,
+      "size": 30,
+      "selected": true
+    },
+    {
+      "symbol": "_LzmaProps_Decode",
+      "section": 27,
+      "storage": 2,
+      "rva": 786096,
+      "size": 104,
+      "selected": true
+    },
+    {
+      "symbol": "_LzmaDec_AllocateProbs2",
+      "section": 29,
+      "storage": 3,
+      "rva": 786208,
+      "size": 71,
+      "selected": true
+    },
+    {
+      "symbol": "_LzmaDec_AllocateProbs",
+      "section": 31,
+      "storage": 2,
+      "rva": 786288,
+      "size": 88,
+      "selected": true
+    },
+    {
+      "symbol": "_LzmaDec_Allocate",
+      "section": 33,
+      "storage": 2,
+      "rva": 786384,
+      "size": 207,
+      "selected": true
+    },
+    {
+      "symbol": "_LzmaDecode",
+      "section": 35,
+      "storage": 2,
+      "rva": 786592,
+      "size": 221,
+      "selected": true
+    }
+  ],
+  "dependency_edges": {
+    "@LzmaDec_DecodeReal@12": [],
+    "@LzmaDec_WriteRem@8": [],
+    "@LzmaDec_DecodeReal2@12": [
+      "@LzmaDec_DecodeReal@12",
+      "@LzmaDec_WriteRem@8"
+    ],
+    "_LzmaDec_TryDummy": [],
+    "_LzmaDec_InitDicAndState": [],
+    "_LzmaDec_Init": [
+      "_LzmaDec_InitDicAndState"
+    ],
+    "_LzmaDec_InitStateReal": [],
+    "_LzmaDec_DecodeToDic": [
+      "@LzmaDec_WriteRem@8",
+      "_LzmaDec_InitStateReal",
+      "_LzmaDec_TryDummy",
+      "@LzmaDec_DecodeReal2@12",
+      "_LzmaDec_TryDummy",
+      "@LzmaDec_DecodeReal2@12"
+    ],
+    "_LzmaDec_DecodeToBuf": [
+      "_LzmaDec_DecodeToDic"
+    ],
+    "_LzmaDec_FreeProbs": [],
+    "_LzmaDec_FreeDict": [],
+    "_LzmaDec_Free": [
+      "_LzmaDec_FreeProbs",
+      "_LzmaDec_FreeDict"
+    ],
+    "_LzmaProps_Decode": [],
+    "_LzmaDec_AllocateProbs2": [
+      "_LzmaDec_FreeProbs"
+    ],
+    "_LzmaDec_AllocateProbs": [
+      "_LzmaProps_Decode",
+      "_LzmaDec_AllocateProbs2"
+    ],
+    "_LzmaDec_Allocate": [
+      "_LzmaProps_Decode",
+      "_LzmaDec_AllocateProbs2",
+      "_LzmaDec_FreeDict",
+      "_LzmaDec_FreeProbs"
+    ],
+    "_LzmaDecode": [
+      "_LzmaDec_AllocateProbs",
+      "_LzmaDec_Init",
+      "_LzmaDec_DecodeToDic",
+      "_LzmaDec_FreeProbs"
+    ]
+  },
+  "source025_direct": 0,
+  "provenance": {
+    "url": "https://www.7-zip.org/a/lzma1604.7z",
+    "archive_sha256": "edf8690e9d5ae0dbe80751e3df247bb4e1b497b100c4af5b95fc50a5c2e5b04f",
+    "amalgamation_verified": true,
+    "upstream_files": {
+      "build/overnight/lzma/v1604/C/LzmaDec.c": "67b7fbe87f42df55f56d4a6c859196a58345b0b9bf99d5bb6afa263b6c6f915d",
+      "build/overnight/lzma/v1604/C/Precomp.h": "3850ffe13cb2207dba1c037fe41a803303883aaeec1407052f6038c4e6722ace",
+      "build/overnight/lzma/v1604/C/Compiler.h": "a73756e40d93584ce0746cff660068c8f6b7f796b7c020b89b43cc2816452518",
+      "build/overnight/lzma/v1604/C/LzmaDec.h": "fe98bfdc892fae1af9113fd1418e387040c32e3e44184c9e6a54b8d8ee8f4180",
+      "build/overnight/lzma/v1604/C/7zTypes.h": "b3a6dd443273a3dc68176ad27f59db6dd68f6b0b78d6e3186dc1edfc6907b9f6"
+    }
+  },
+  "typed_layout_note": "Unmodified official public-domain LZMA SDK16.04 decoder compiled as C linkage C++ with original static MY_FAST_CALL/noinline declarations. All17 complete code functions and all internal relative calls resolved by unique full functions and source call graph; no externals/data/EH. Ten public roots close seven private helpers without exporting storage3 statics. Actual uint16 probabilities, uint32/size_t32 and112-byte CLzmaDec remain original. Allocator callbacks use real ISzAlloc8 (Alloc,Free); allocated probability/dictionary extents and streaming status/error boundary behavior unchanged. No copied instruction bytes, symbolic assembly or fake dependency. Full linked owner/ABI/negative controls remain required."
+}

@@ -1,0 +1,105 @@
+{
+  "prefix": "overnight-lzma-three",
+  "utc": "2026-09-09T23:55:05.944892+00:00",
+  "coverage": {
+    "previous_code_bytes": 437489,
+    "batch_code_bytes": 461963,
+    "new_unique_code_bytes": 30545,
+    "union_code_bytes": 468034,
+    "text_bytes": 930756,
+    "text_percent": 50.28535942824973,
+    "whole_dll_match": false
+  },
+  "measurement": {
+    "utc": "2026-09-09T23:56:26.597554+00:00",
+    "elapsed_seconds": 1710.597554,
+    "baseline": 435895,
+    "accepted": 468034,
+    "gain": 32139,
+    "global_bytes_per_hour": 67637.4169537717,
+    "token_usage": {
+      "root": {
+        "configuration": {
+          "model": "gpt-6-astra",
+          "effort": "low"
+        },
+        "usage": {
+          "input_tokens": 16845257,
+          "cached_input_tokens": 16654080,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 37170,
+          "reasoning_output_tokens": 7625,
+          "total_tokens": 16882427,
+          "uncached_input_tokens": 191177
+        },
+        "as_of": "2026-09-09T23:56:13.121Z",
+        "session": "/Users/salimtrouve/.codex/sessions/2026/09/10/rollout-2026-09-10T00-26-29-01a0887e-8a17-7c33-90e9-dcf660740fb9.jsonl",
+        "observed_counter_resets": 0
+      },
+      "/root/client": {
+        "configuration": {
+          "model": "gpt-6-astra",
+          "effort": "low"
+        },
+        "usage": {
+          "input_tokens": 12056901,
+          "cached_input_tokens": 11900544,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 40730,
+          "reasoning_output_tokens": 10297,
+          "total_tokens": 12097631,
+          "uncached_input_tokens": 156357
+        },
+        "as_of": "2026-09-09T23:56:10.211Z",
+        "session": "/Users/salimtrouve/.codex/sessions/2026/09/10/rollout-2026-09-10T00-28-42-01a08880-90d2-7b61-95d9-80335d3475ae.jsonl",
+        "observed_counter_resets": 0
+      },
+      "/root/network": {
+        "configuration": {
+          "model": "gpt-6-astra",
+          "effort": "low"
+        },
+        "usage": {
+          "input_tokens": 12349174,
+          "cached_input_tokens": 12199808,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 33991,
+          "reasoning_output_tokens": 7711,
+          "total_tokens": 12383165,
+          "uncached_input_tokens": 149366
+        },
+        "as_of": "2026-09-09T23:56:17.870Z",
+        "session": "/Users/salimtrouve/.codex/sessions/2026/09/10/rollout-2026-09-10T00-28-32-01a08880-6cd4-7172-a004-119c842bab14.jsonl",
+        "observed_counter_resets": 0
+      }
+    },
+    "pipeline_seconds": {
+      "vm-idle": 2.933902875993226,
+      "compile": 32.765771415994095,
+      "audit": 13.397065290999308,
+      "link": 20.683772873991984,
+      "qualify": 2.8485596680038725,
+      "spec": 0.11277408400928834,
+      "review": 23.1161314580022,
+      "accept": 207.30914787499933
+    },
+    "token_note": "Observed cumulative counters reset on continuation; sum monotonic increments within the requested window and restart from zero on a verified decrease. Earlier negative raw differences are invalid and retained in history. Counters may lag; reasoning is a subset of output; cached input is separate; no billed cost inferred.",
+    "recent_bytes_per_hour": 363713.3098716275
+  },
+  "proposal": "build/overnight/proposal-lzma-three.json",
+  "reviews": [
+    "evidence/checkpoint32/overnight-reviews/overnight-lzma-three-lzma-decode-reviewed-manifest.json",
+    "evidence/checkpoint32/overnight-reviews/overnight-lzma-three-entity140-reviewed-manifest.json",
+    "evidence/checkpoint32/overnight-reviews/overnight-lzma-three-vector208-reviewed-manifest.json",
+    "evidence/checkpoint32/overnight-reviews/overnight-lzma-three-encoder-reviewed-manifest.json",
+    "evidence/checkpoint32/overnight-reviews/overnight-lzma-three-receive-v8-reviewed-manifest.json"
+  ],
+  "review_note": {
+    "scope": "LZMA decoder9033, encoder/matchfinder18910, vector/entity348 and Receive2254:30545 unique potential reconstructed code bytes.",
+    "implementation": "Normal C/C++ source: untouched LZMA SDK16.04 source/header amalgamations, original single-thread encoder build; client math reconstructed in C++. Complete source and linked code/data, actual COFF/PE targets. SDK thunks and CRT unsigned-shift helper independently qualified and zero credited bytes.",
+    "reference_credit": "LZMA SDK16.04 public domain Igor Pavlov source from https://www.7-zip.org/a/lzma1604.7z identified afresh by source fingerprints and call graph. No copied machine bytes, no truncation, no fake provider. All earlier failed version probes retained."
+  },
+  "preserved_main": true,
+  "changed_preexisting_with_backup": [],
+  "status": "ACCEPTED_CHECKPOINT_STILL_IN_PROGRESS"
+}

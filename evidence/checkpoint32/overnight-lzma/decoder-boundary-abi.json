@@ -1,0 +1,109 @@
+{
+  "result": "PASS",
+  "run": "cp32-overnight-lzma-three-linked1",
+  "reference_sha256": "b72b5dbe725f81864ca3f78bc7063bda56cc05fc7188af822fa7a754432553a2",
+  "linked_sha256": "eafb876343225639b67d7f0503ebb2dffaa5d4baa14e6e972af4461dc04f8f99",
+  "cases": [
+    {
+      "case": "full",
+      "result": "PASS",
+      "observed": {
+        "return_code": 0,
+        "dest_len": 1120,
+        "src_len": 270,
+        "status": 1,
+        "output_sha256": "e3792a74a8cfe7badc7cf561cff189c391d1d58168509ad5aa43b3c58c4237dd",
+        "allocation_sizes": [
+          15980
+        ],
+        "free_count": 2
+      },
+      "stack_and_nonvolatile_preserved": true,
+      "output_guard_preserved": true
+    },
+    {
+      "case": "empty",
+      "result": "PASS",
+      "observed": {
+        "return_code": 0,
+        "dest_len": 0,
+        "src_len": 10,
+        "status": 1,
+        "output_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "allocation_sizes": [
+          15980
+        ],
+        "free_count": 2
+      },
+      "stack_and_nonvolatile_preserved": true,
+      "output_guard_preserved": true
+    },
+    {
+      "case": "partial_output",
+      "result": "PASS",
+      "observed": {
+        "return_code": 0,
+        "dest_len": 560,
+        "src_len": 261,
+        "status": 2,
+        "output_sha256": "6b5962afdc1933d0b0b4f4d2feb0a6a9aeb7e661f0a4790955d4ffd54d552474",
+        "allocation_sizes": [
+          15980
+        ],
+        "free_count": 2
+      },
+      "stack_and_nonvolatile_preserved": true,
+      "output_guard_preserved": true
+    },
+    {
+      "case": "truncated_input",
+      "result": "PASS",
+      "observed": {
+        "return_code": 6,
+        "dest_len": 141,
+        "src_len": 135,
+        "status": 3,
+        "output_sha256": "9b293d748d30240d3ddc496b722fc92d57f665271b060e82410d8de18970dc1d",
+        "allocation_sizes": [
+          15980
+        ],
+        "free_count": 2
+      },
+      "stack_and_nonvolatile_preserved": true,
+      "output_guard_preserved": true
+    },
+    {
+      "case": "bad_properties",
+      "result": "PASS",
+      "observed": {
+        "return_code": 4,
+        "dest_len": 0,
+        "src_len": 0,
+        "status": 0,
+        "output_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "allocation_sizes": [],
+        "free_count": 0
+      },
+      "stack_and_nonvolatile_preserved": true,
+      "output_guard_preserved": true
+    },
+    {
+      "case": "allocation_failure",
+      "result": "PASS",
+      "observed": {
+        "return_code": 2,
+        "dest_len": 0,
+        "src_len": 0,
+        "status": 0,
+        "output_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "allocation_sizes": [
+          15980
+        ],
+        "free_count": 1
+      },
+      "stack_and_nonvolatile_preserved": true,
+      "output_guard_preserved": true
+    }
+  ],
+  "scope": "Real complete LzmaDecode and internal routines run in both PEs. Only caller-supplied ISzAlloc allocation/free callbacks intercepted. Known raw LZMA stream plus empty, output limit, truncated input, invalid properties and allocation failure. No claim of exhaustive codec validation."
+}

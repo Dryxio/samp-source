@@ -1,0 +1,109 @@
+{
+  "status": "PASS_FULL_SOURCE_REGIONS_ALL_COFF_PE_TARGETS",
+  "regions": [
+    {
+      "unit": "closure_game_entity_transform_v2",
+      "section": 7,
+      "anchor": "?R5GameGetEntityTransform@@YAXPAUR5GamePlaceableView@@PAUR5GameVector@@PAM@Z",
+      "anchor_offset": 0,
+      "rva": 747296,
+      "size": 140,
+      "kind": "code",
+      "sha256": "74255c5e4ddec5123e89c02ce6ec7ebcdcc0280e771afa623d2fb829bd020312",
+      "bindings": [
+        {
+          "symbol": "__real@42652ee0",
+          "site_rva": 747349,
+          "symbol_va": 269377832,
+          "addend": 0,
+          "target_va": 269377832,
+          "kind": 6
+        },
+        {
+          "symbol": "__real@00000000",
+          "site_rva": 747355,
+          "symbol_va": 269375808,
+          "addend": 0,
+          "target_va": 269375808,
+          "kind": 6
+        },
+        {
+          "symbol": "__real@43b40000",
+          "site_rva": 747368,
+          "symbol_va": 269377828,
+          "addend": 0,
+          "target_va": 269377828,
+          "kind": 6
+        },
+        {
+          "symbol": "__real@43b40000",
+          "site_rva": 747381,
+          "symbol_va": 269377828,
+          "addend": 0,
+          "target_va": 269377828,
+          "kind": 6
+        },
+        {
+          "symbol": "__real@43b40000",
+          "site_rva": 747394,
+          "symbol_va": 269377828,
+          "addend": 0,
+          "target_va": 269377828,
+          "kind": 6
+        }
+      ]
+    },
+    {
+      "unit": "closure_game_entity_transform_v2",
+      "section": 8,
+      "anchor": "__real@43b40000",
+      "anchor_offset": 0,
+      "rva": 942372,
+      "size": 4,
+      "kind": "data",
+      "sha256": "82a72eeef4f720c75f627f5ccf9f2963cceb6210f66318ec6362722e29a564f9",
+      "bindings": []
+    },
+    {
+      "unit": "closure_game_entity_transform_v2",
+      "section": 9,
+      "anchor": "__real@00000000",
+      "anchor_offset": 0,
+      "rva": 940352,
+      "size": 4,
+      "kind": "data",
+      "sha256": "df3f619804a92fdb4057192dc43dd748ea778adc52bc498ce80524c014b81119",
+      "bindings": []
+    },
+    {
+      "unit": "closure_game_entity_transform_v2",
+      "section": 10,
+      "anchor": "__real@42652ee0",
+      "anchor_offset": 0,
+      "rva": 942376,
+      "size": 4,
+      "kind": "data",
+      "sha256": "7b7fb542bc7a640001d150facc7e8affb20ed83acd8232693299cbdbe53f1d28",
+      "bindings": []
+    }
+  ],
+  "errors": [],
+  "object_sha256": {
+    "closure_game_entity_transform_v2": "d39aad6835e4ff3a6f8298bd92a655795af73e6148ec99a42796e303678c9153"
+  },
+  "source_sha256": {
+    "closure_game_entity_transform_v2": "75904c56eec9f8fb48a2daa9ebb1d81bfaa80694e40a7f063a91f08e46d98bc5"
+  },
+  "run": "cp32-overnight-probe-math-three",
+  "source025_direct": 0,
+  "notes": "Pointer-only native CPlaceable prefix uses real24 bytes (vtable4, position12, heading4, matrix pointer4); no allocation, matrix read only when nonnull. Copies XYZ in original order so aliasing unchanged; heading from atan2(-up.X,up.Y), real float57.295776, strictly angle<0 adds360, >=360 subtracts360; exactly0 stays0. NaN follows observed x87 branches. All constants4 fully mapped. C++ function140 and data12; sqrt/atan wrapper COMDATs emitted but unreferenced from closure and zero credit.",
+  "roots": [
+    {
+      "unit": "closure_game_entity_transform_v2",
+      "symbol": "?R5GameGetEntityTransform@@YAXPAUR5GamePlaceableView@@PAUR5GameVector@@PAM@Z",
+      "rva": 747296,
+      "size": 140
+    }
+  ],
+  "typed_layout_note": "Pointer-only native CPlaceable prefix uses real24 bytes (vtable4, position12, heading4, matrix pointer4); no allocation, matrix read only when nonnull. Copies XYZ in original order so aliasing unchanged; heading from atan2(-up.X,up.Y), real float57.295776, strictly angle<0 adds360, >=360 subtracts360; exactly0 stays0. NaN follows observed x87 branches. All constants4 fully mapped. C++ function140 and data12; sqrt/atan wrapper COMDATs emitted but unreferenced from closure and zero credit."
+}

@@ -1,0 +1,2907 @@
+{
+  "status": "PASS_FULL_SOURCE_REGIONS_ALL_COFF_PE_TARGETS",
+  "baseline": "overnight-network-one",
+  "run": "build/cp32-overnight-probe-lzma-encoder",
+  "roots": [
+    {
+      "unit": "closure_vendor_lzma_encoder",
+      "symbol": "_LzmaEncProps_Init",
+      "rva": 786816,
+      "size": 55
+    },
+    {
+      "unit": "closure_vendor_lzma_encoder",
+      "symbol": "_LzmaEncProps_Normalize",
+      "rva": 786880,
+      "size": 309
+    },
+    {
+      "unit": "closure_vendor_lzma_encoder",
+      "symbol": "_LzmaEncProps_GetDictSize",
+      "rva": 787200,
+      "size": 43
+    },
+    {
+      "unit": "closure_vendor_lzma_encoder",
+      "symbol": "_LzmaEnc_SaveState",
+      "rva": 787360,
+      "size": 490
+    },
+    {
+      "unit": "closure_vendor_lzma_encoder",
+      "symbol": "_LzmaEnc_RestoreState",
+      "rva": 787856,
+      "size": 490
+    },
+    {
+      "unit": "closure_vendor_lzma_encoder",
+      "symbol": "_LzmaEnc_SetProps",
+      "rva": 788352,
+      "size": 254
+    },
+    {
+      "unit": "closure_vendor_lzma_encoder",
+      "symbol": "_LzmaEnc_Construct",
+      "rva": 797360,
+      "size": 96
+    },
+    {
+      "unit": "closure_vendor_lzma_encoder",
+      "symbol": "_LzmaEnc_Create",
+      "rva": 797456,
+      "size": 35
+    },
+    {
+      "unit": "closure_vendor_lzma_encoder",
+      "symbol": "_LzmaEnc_FreeLits",
+      "rva": 797504,
+      "size": 46
+    },
+    {
+      "unit": "closure_vendor_lzma_encoder",
+      "symbol": "_LzmaEnc_Destruct",
+      "rva": 797552,
+      "size": 53
+    },
+    {
+      "unit": "closure_vendor_lzma_encoder",
+      "symbol": "_LzmaEnc_Destroy",
+      "rva": 797616,
+      "size": 33
+    },
+    {
+      "unit": "closure_vendor_lzma_encoder",
+      "symbol": "_LzmaEnc_Init",
+      "rva": 799376,
+      "size": 303
+    },
+    {
+      "unit": "closure_vendor_lzma_encoder",
+      "symbol": "_LzmaEnc_InitPrices",
+      "rva": 799680,
+      "size": 102
+    },
+    {
+      "unit": "closure_vendor_lzma_encoder",
+      "symbol": "_LzmaEnc_PrepareForLzma2",
+      "rva": 800000,
+      "size": 47
+    },
+    {
+      "unit": "closure_vendor_lzma_encoder",
+      "symbol": "_LzmaEnc_MemPrepare",
+      "rva": 800080,
+      "size": 52
+    },
+    {
+      "unit": "closure_vendor_lzma_encoder",
+      "symbol": "_LzmaEnc_GetNumAvailableBytes",
+      "rva": 800240,
+      "size": 13
+    },
+    {
+      "unit": "closure_vendor_lzma_encoder",
+      "symbol": "_LzmaEnc_GetCurBuf",
+      "rva": 800256,
+      "size": 21
+    },
+    {
+      "unit": "closure_vendor_lzma_encoder",
+      "symbol": "_LzmaEnc_CodeOneMemBlock",
+      "rva": 800288,
+      "size": 170
+    },
+    {
+      "unit": "closure_vendor_lzma_encoder",
+      "symbol": "_LzmaEnc_Encode",
+      "rva": 800592,
+      "size": 48
+    },
+    {
+      "unit": "closure_vendor_lzma_encoder",
+      "symbol": "_LzmaEnc_WriteProperties",
+      "rva": 800640,
+      "size": 169
+    },
+    {
+      "unit": "closure_vendor_lzma_encoder",
+      "symbol": "_LzmaEnc_MemEncode",
+      "rva": 800816,
+      "size": 165
+    },
+    {
+      "unit": "closure_vendor_lzma_encoder",
+      "symbol": "_LzmaEncode",
+      "rva": 800992,
+      "size": 141
+    },
+    {
+      "unit": "closure_vendor_lzma_matchfinder",
+      "symbol": "_MatchFinder_GetPointerToCurrentPos",
+      "rva": 772400,
+      "size": 7
+    },
+    {
+      "unit": "closure_vendor_lzma_matchfinder",
+      "symbol": "_MatchFinder_ReduceOffsets",
+      "rva": 772432,
+      "size": 18
+    },
+    {
+      "unit": "closure_vendor_lzma_matchfinder",
+      "symbol": "_MatchFinder_MoveBlock",
+      "rva": 772640,
+      "size": 46
+    },
+    {
+      "unit": "closure_vendor_lzma_matchfinder",
+      "symbol": "_MatchFinder_NeedMove",
+      "rva": 772688,
+      "size": 31
+    },
+    {
+      "unit": "closure_vendor_lzma_matchfinder",
+      "symbol": "_MatchFinder_ReadIfRequired",
+      "rva": 772720,
+      "size": 34
+    },
+    {
+      "unit": "closure_vendor_lzma_matchfinder",
+      "symbol": "_MatchFinder_Construct",
+      "rva": 772832,
+      "size": 186
+    },
+    {
+      "unit": "closure_vendor_lzma_matchfinder",
+      "symbol": "_MatchFinder_Free",
+      "rva": 773056,
+      "size": 27
+    },
+    {
+      "unit": "closure_vendor_lzma_matchfinder",
+      "symbol": "_MatchFinder_Create",
+      "rva": 773120,
+      "size": 374
+    },
+    {
+      "unit": "closure_vendor_lzma_matchfinder",
+      "symbol": "_MatchFinder_Init_2",
+      "rva": 773584,
+      "size": 65
+    },
+    {
+      "unit": "closure_vendor_lzma_matchfinder",
+      "symbol": "_MatchFinder_Init",
+      "rva": 773664,
+      "size": 16
+    },
+    {
+      "unit": "closure_vendor_lzma_matchfinder",
+      "symbol": "_MatchFinder_Normalize3",
+      "rva": 773696,
+      "size": 44
+    },
+    {
+      "unit": "closure_vendor_lzma_matchfinder",
+      "symbol": "_GetMatchesSpec1",
+      "rva": 774112,
+      "size": 373
+    },
+    {
+      "unit": "closure_vendor_lzma_matchfinder",
+      "symbol": "_Bt3Zip_MatchFinder_GetMatches",
+      "rva": 774976,
+      "size": 152
+    },
+    {
+      "unit": "closure_vendor_lzma_matchfinder",
+      "symbol": "_Hc3Zip_MatchFinder_GetMatches",
+      "rva": 776416,
+      "size": 155
+    },
+    {
+      "unit": "closure_vendor_lzma_matchfinder",
+      "symbol": "_Bt3Zip_MatchFinder_Skip",
+      "rva": 776720,
+      "size": 146
+    },
+    {
+      "unit": "closure_vendor_lzma_matchfinder",
+      "symbol": "_Hc3Zip_MatchFinder_Skip",
+      "rva": 777456,
+      "size": 121
+    },
+    {
+      "unit": "closure_vendor_lzma_matchfinder",
+      "symbol": "_MatchFinder_CreateVTable",
+      "rva": 777584,
+      "size": 108
+    }
+  ],
+  "regions": [
+    {
+      "unit": "closure_vendor_lzma_encoder",
+      "section": 4,
+      "anchor": "_LzmaEncProps_Init",
+      "anchor_offset": 0,
+      "rva": 786816,
+      "size": 55,
+      "kind": "code",
+      "sha256": "762b4dc133163d97fb80ea551fe1a92b84d01bb870eabd395ae71eb72626e7c6",
+      "bindings": []
+    },
+    {
+      "unit": "closure_vendor_lzma_encoder",
+      "section": 6,
+      "anchor": "_LzmaEncProps_Normalize",
+      "anchor_offset": 0,
+      "rva": 786880,
+      "size": 309,
+      "kind": "code",
+      "sha256": "40187b1b15ab0741af112e5fd27a58f9942bd7ea00c1ebd891257d7080237533",
+      "bindings": []
+    },
+    {
+      "unit": "closure_vendor_lzma_encoder",
+      "section": 8,
+      "anchor": "_LzmaEncProps_GetDictSize",
+      "anchor_offset": 0,
+      "rva": 787200,
+      "size": 43,
+      "kind": "code",
+      "sha256": "166833731ad998e7f47ef5fcbc1f0f38c03a0d2311d573f41b2ae8f43831c20c",
+      "bindings": [
+        {
+          "symbol": "_LzmaEncProps_Normalize",
+          "site_rva": 787226,
+          "kind": 20,
+          "target_va": 269222336
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_lzma_encoder",
+      "section": 12,
+      "anchor": "_LzmaEnc_SaveState",
+      "anchor_offset": 0,
+      "rva": 787360,
+      "size": 490,
+      "kind": "code",
+      "sha256": "26dd1b1b35f7acda9c6acec252b966f0b929ba89fb68b24056d287f475c00d22",
+      "bindings": []
+    },
+    {
+      "unit": "closure_vendor_lzma_encoder",
+      "section": 14,
+      "anchor": "_LzmaEnc_RestoreState",
+      "anchor_offset": 0,
+      "rva": 787856,
+      "size": 490,
+      "kind": "code",
+      "sha256": "c689cbe888beebab59df5697132d87c43efe6333e3065e725aeea166076c8050",
+      "bindings": []
+    },
+    {
+      "unit": "closure_vendor_lzma_encoder",
+      "section": 16,
+      "anchor": "_LzmaEnc_SetProps",
+      "anchor_offset": 0,
+      "rva": 788352,
+      "size": 254,
+      "kind": "code",
+      "sha256": "9af768d11f2c802ff3c52ee16d70604af0a2e95f186bb75820834563cba2e422",
+      "bindings": [
+        {
+          "symbol": "_LzmaEncProps_Normalize",
+          "site_rva": 788378,
+          "kind": 20,
+          "target_va": 269222336
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_lzma_encoder",
+      "section": 92,
+      "anchor": "_LzmaEnc_Construct",
+      "anchor_offset": 0,
+      "rva": 797360,
+      "size": 96,
+      "kind": "code",
+      "sha256": "8c6ee19fb10416d8f30188ad1aa514827b1a03a53516943952e5cec703864af5",
+      "bindings": [
+        {
+          "symbol": "_RangeEnc_Construct",
+          "site_rva": 797376,
+          "kind": 20,
+          "target_va": 269224064
+        },
+        {
+          "symbol": "_MatchFinder_Construct",
+          "site_rva": 797388,
+          "kind": 20,
+          "target_va": 269208288
+        },
+        {
+          "symbol": "_LzmaEncProps_Init",
+          "site_rva": 797398,
+          "kind": 20,
+          "target_va": 269222272
+        },
+        {
+          "symbol": "_LzmaEnc_SetProps",
+          "site_rva": 797409,
+          "kind": 20,
+          "target_va": 269223808
+        },
+        {
+          "symbol": "_LzmaEnc_FastPosInit",
+          "site_rva": 797421,
+          "kind": 20,
+          "target_va": 269222704
+        },
+        {
+          "symbol": "_LzmaEnc_InitPriceTables",
+          "site_rva": 797435,
+          "kind": 20,
+          "target_va": 269224800
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_lzma_encoder",
+      "section": 94,
+      "anchor": "_LzmaEnc_Create",
+      "anchor_offset": 0,
+      "rva": 797456,
+      "size": 35,
+      "kind": "code",
+      "sha256": "2055714a8e0e9302737a544e5f7e4509a443d733bc5f2106ec6f8905ce98110b",
+      "bindings": [
+        {
+          "symbol": "_LzmaEnc_Construct",
+          "site_rva": 797480,
+          "kind": 20,
+          "target_va": 269232816
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_lzma_encoder",
+      "section": 96,
+      "anchor": "_LzmaEnc_FreeLits",
+      "anchor_offset": 0,
+      "rva": 797504,
+      "size": 46,
+      "kind": "code",
+      "sha256": "3d9da3595c30848f3470ea252b1f66d8ac6739e070bcc355654b4f78b794909e",
+      "bindings": []
+    },
+    {
+      "unit": "closure_vendor_lzma_encoder",
+      "section": 98,
+      "anchor": "_LzmaEnc_Destruct",
+      "anchor_offset": 0,
+      "rva": 797552,
+      "size": 53,
+      "kind": "code",
+      "sha256": "ee521a3c6fa1b7103d36949f0e5ace17d7830ccca9549b0b3d30ea1899d81a28",
+      "bindings": [
+        {
+          "symbol": "_MatchFinder_Free",
+          "site_rva": 797571,
+          "kind": 20,
+          "target_va": 269208512
+        },
+        {
+          "symbol": "_LzmaEnc_FreeLits",
+          "site_rva": 797582,
+          "kind": 20,
+          "target_va": 269232960
+        },
+        {
+          "symbol": "_RangeEnc_Free",
+          "site_rva": 797598,
+          "kind": 20,
+          "target_va": 269224128
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_lzma_encoder",
+      "section": 100,
+      "anchor": "_LzmaEnc_Destroy",
+      "anchor_offset": 0,
+      "rva": 797616,
+      "size": 33,
+      "kind": "code",
+      "sha256": "a7d89f40af3414d6fe788bd23564bb7f7be3ebe11d07c3613bdbcf4675442fc5",
+      "bindings": [
+        {
+          "symbol": "_LzmaEnc_Destruct",
+          "site_rva": 797634,
+          "kind": 20,
+          "target_va": 269233008
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_lzma_encoder",
+      "section": 106,
+      "anchor": "_LzmaEnc_Init",
+      "anchor_offset": 0,
+      "rva": 799376,
+      "size": 303,
+      "kind": "code",
+      "sha256": "7b8aa5ff72476526f819c4f87c4d6d747b9695ce14e0e259285dc597a44f87ab",
+      "bindings": [
+        {
+          "symbol": "_RangeEnc_Init",
+          "site_rva": 799408,
+          "kind": 20,
+          "target_va": 269224160
+        },
+        {
+          "symbol": "_LenEnc_Init",
+          "site_rva": 799569,
+          "kind": 20,
+          "target_va": 269225328
+        },
+        {
+          "symbol": "_LenEnc_Init",
+          "site_rva": 799580,
+          "kind": 20,
+          "target_va": 269225328
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_lzma_encoder",
+      "section": 108,
+      "anchor": "_LzmaEnc_InitPrices",
+      "anchor_offset": 0,
+      "rva": 799680,
+      "size": 102,
+      "kind": "code",
+      "sha256": "619fdbddf9b3d7bcd56e220f0062e4452478b13fadc89193622ac48a5cdc1873",
+      "bindings": [
+        {
+          "symbol": "_FillDistancesPrices",
+          "site_rva": 799696,
+          "kind": 20,
+          "target_va": 269232400
+        },
+        {
+          "symbol": "_FillAlignPrices",
+          "site_rva": 799702,
+          "kind": 20,
+          "target_va": 269232320
+        },
+        {
+          "symbol": "_LenPriceEnc_UpdateTables",
+          "site_rva": 799749,
+          "kind": 20,
+          "target_va": 269225904
+        },
+        {
+          "symbol": "_LenPriceEnc_UpdateTables",
+          "site_rva": 799771,
+          "kind": 20,
+          "target_va": 269225904
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_lzma_encoder",
+      "section": 114,
+      "anchor": "_LzmaEnc_PrepareForLzma2",
+      "anchor_offset": 0,
+      "rva": 800000,
+      "size": 47,
+      "kind": "code",
+      "sha256": "967dbeb7c1ac8e7fa8a1b52e67ff9f003cdda8d1f9e184467f19bdfce9c8658f",
+      "bindings": [
+        {
+          "symbol": "_LzmaEnc_AllocAndInit",
+          "site_rva": 800038,
+          "kind": 20,
+          "target_va": 269235248
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_lzma_encoder",
+      "section": 118,
+      "anchor": "_LzmaEnc_MemPrepare",
+      "anchor_offset": 0,
+      "rva": 800080,
+      "size": 52,
+      "kind": "code",
+      "sha256": "b61c4d244d558b17114b26deb53e1d4a06416ed4eced8559ad916facdc567779",
+      "bindings": [
+        {
+          "symbol": "_LzmaEnc_SetInputBuf",
+          "site_rva": 800094,
+          "kind": 20,
+          "target_va": 269235504
+        },
+        {
+          "symbol": "_LzmaEnc_AllocAndInit",
+          "site_rva": 800123,
+          "kind": 20,
+          "target_va": 269235248
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_lzma_encoder",
+      "section": 124,
+      "anchor": "_LzmaEnc_GetNumAvailableBytes",
+      "anchor_offset": 0,
+      "rva": 800240,
+      "size": 13,
+      "kind": "code",
+      "sha256": "12f50078f304d32db839d8a3285b65e82461f80c9609743c751229f28cce10f9",
+      "bindings": []
+    },
+    {
+      "unit": "closure_vendor_lzma_encoder",
+      "section": 126,
+      "anchor": "_LzmaEnc_GetCurBuf",
+      "anchor_offset": 0,
+      "rva": 800256,
+      "size": 21,
+      "kind": "code",
+      "sha256": "a65b96a399fc618aa55f8e43efede2a3b305f3af3576139b859878ca2680f60f",
+      "bindings": []
+    },
+    {
+      "unit": "closure_vendor_lzma_encoder",
+      "section": 128,
+      "anchor": "_LzmaEnc_CodeOneMemBlock",
+      "anchor_offset": 0,
+      "rva": 800288,
+      "size": 170,
+      "kind": "code",
+      "sha256": "3e5fdb712dc37aebb14176f79d6b1df1f4af3d8cea5d816e970c9be0ca680497",
+      "bindings": [
+        {
+          "symbol": "_MyWrite",
+          "site_rva": 800327,
+          "kind": 6,
+          "target_va": 269235616
+        },
+        {
+          "symbol": "_LzmaEnc_Init",
+          "site_rva": 800351,
+          "kind": 20,
+          "target_va": 269234832
+        },
+        {
+          "symbol": "_LzmaEnc_InitPrices",
+          "site_rva": 800360,
+          "kind": 20,
+          "target_va": 269235136
+        },
+        {
+          "symbol": "_RangeEnc_Init",
+          "site_rva": 800381,
+          "kind": 20,
+          "target_va": 269224160
+        },
+        {
+          "symbol": "_LzmaEnc_CodeOneBlock",
+          "site_rva": 800412,
+          "kind": 20,
+          "target_va": 269233120
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_lzma_encoder",
+      "section": 132,
+      "anchor": "_LzmaEnc_Encode",
+      "anchor_offset": 0,
+      "rva": 800592,
+      "size": 48,
+      "kind": "code",
+      "sha256": "7cc960eace21170f6f72b50f96a71b5d45cea5388b6333ed9d5a39c0411cb2f0",
+      "bindings": [
+        {
+          "symbol": "_LzmaEnc_Prepare",
+          "site_rva": 800616,
+          "kind": 20,
+          "target_va": 269235408
+        },
+        {
+          "symbol": "_LzmaEnc_Encode2",
+          "site_rva": 800633,
+          "kind": 20,
+          "target_va": 269235920
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_lzma_encoder",
+      "section": 134,
+      "anchor": "_LzmaEnc_WriteProperties",
+      "anchor_offset": 0,
+      "rva": 800640,
+      "size": 169,
+      "kind": "code",
+      "sha256": "b0765998ae0ea6be0b377a8f172fc0e9df87dc86f99d0cd6b75e3e08e7d68fca",
+      "bindings": []
+    },
+    {
+      "unit": "closure_vendor_lzma_encoder",
+      "section": 136,
+      "anchor": "_LzmaEnc_MemEncode",
+      "anchor_offset": 0,
+      "rva": 800816,
+      "size": 165,
+      "kind": "code",
+      "sha256": "24d655c7fd0b28449f53c11b5909ed3332b7c36ef004b611ef7acf8631daff0e",
+      "bindings": [
+        {
+          "symbol": "_MyWrite",
+          "site_rva": 800889,
+          "kind": 6,
+          "target_va": 269235616
+        },
+        {
+          "symbol": "_LzmaEnc_MemPrepare",
+          "site_rva": 800902,
+          "kind": 20,
+          "target_va": 269235536
+        },
+        {
+          "symbol": "_LzmaEnc_Encode2",
+          "site_rva": 800919,
+          "kind": 20,
+          "target_va": 269235920
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_lzma_encoder",
+      "section": 138,
+      "anchor": "_LzmaEncode",
+      "anchor_offset": 0,
+      "rva": 800992,
+      "size": 141,
+      "kind": "code",
+      "sha256": "e6017e175f8858743bd96981b2d4c482fdaa932c54ba993e82915047936fa622",
+      "bindings": [
+        {
+          "symbol": "_LzmaEnc_Create",
+          "site_rva": 801000,
+          "kind": 20,
+          "target_va": 269232912
+        },
+        {
+          "symbol": "_LzmaEnc_SetProps",
+          "site_rva": 801030,
+          "kind": 20,
+          "target_va": 269223808
+        },
+        {
+          "symbol": "_LzmaEnc_WriteProperties",
+          "site_rva": 801059,
+          "kind": 20,
+          "target_va": 269236096
+        },
+        {
+          "symbol": "_LzmaEnc_MemEncode",
+          "site_rva": 801106,
+          "kind": 20,
+          "target_va": 269236272
+        },
+        {
+          "symbol": "_LzmaEnc_Destroy",
+          "site_rva": 801119,
+          "kind": 20,
+          "target_va": 269233072
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_lzma_matchfinder",
+      "section": 7,
+      "anchor": "_MatchFinder_GetPointerToCurrentPos",
+      "anchor_offset": 0,
+      "rva": 772400,
+      "size": 7,
+      "kind": "code",
+      "sha256": "70d1bff2376999b64365e947e0c0a8bab942f981962111fc8728487516761fc8",
+      "bindings": []
+    },
+    {
+      "unit": "closure_vendor_lzma_matchfinder",
+      "section": 11,
+      "anchor": "_MatchFinder_ReduceOffsets",
+      "anchor_offset": 0,
+      "rva": 772432,
+      "size": 18,
+      "kind": "code",
+      "sha256": "52fa3005a93655904a47983ad9af03f4345172b76028f12e0fb23aee8da3bfda",
+      "bindings": []
+    },
+    {
+      "unit": "closure_vendor_lzma_matchfinder",
+      "section": 15,
+      "anchor": "_MatchFinder_MoveBlock",
+      "anchor_offset": 0,
+      "rva": 772640,
+      "size": 46,
+      "kind": "code",
+      "sha256": "e85d3ee6efc227fdeadc429e7bbfe2edf92b7d7aaf0050d6f20c2b5f2afa88a5",
+      "bindings": [
+        {
+          "symbol": "_memmove",
+          "site_rva": 772669,
+          "kind": 20,
+          "target_va": 269250016
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_lzma_matchfinder",
+      "section": 17,
+      "anchor": "_MatchFinder_NeedMove",
+      "anchor_offset": 0,
+      "rva": 772688,
+      "size": 31,
+      "kind": "code",
+      "sha256": "e876439396780f3c0b79a64c1b278f5be577dce1a0e09c9c0c71427658401411",
+      "bindings": []
+    },
+    {
+      "unit": "closure_vendor_lzma_matchfinder",
+      "section": 19,
+      "anchor": "_MatchFinder_ReadIfRequired",
+      "anchor_offset": 0,
+      "rva": 772720,
+      "size": 34,
+      "kind": "code",
+      "sha256": "ebab2ee000ea3adc029c3f6518f26561795a4a0535b1253b6023e12a2dcda43a",
+      "bindings": [
+        {
+          "symbol": "_MatchFinder_ReadBlock",
+          "site_rva": 772748,
+          "kind": 20,
+          "target_va": 269207920
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_lzma_matchfinder",
+      "section": 25,
+      "anchor": "_MatchFinder_Construct",
+      "anchor_offset": 0,
+      "rva": 772832,
+      "size": 186,
+      "kind": "code",
+      "sha256": "a3d70259742563eda9f88ce9a7ed9f4a982e191446cb7f307f904f51dc9d7df4",
+      "bindings": [
+        {
+          "symbol": "_MatchFinder_SetDefaultSettings",
+          "site_rva": 772849,
+          "kind": 20,
+          "target_va": 269208256
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_lzma_matchfinder",
+      "section": 29,
+      "anchor": "_MatchFinder_Free",
+      "anchor_offset": 0,
+      "rva": 773056,
+      "size": 27,
+      "kind": "code",
+      "sha256": "357f7374fa34c896ae3188345cd99368634935b7cbef9975557f131bbb79560d",
+      "bindings": [
+        {
+          "symbol": "_MatchFinder_FreeThisClassMemory",
+          "site_rva": 773069,
+          "kind": 20,
+          "target_va": 269208480
+        },
+        {
+          "symbol": "_LzInWindow_Free",
+          "site_rva": 773076,
+          "kind": 20,
+          "target_va": 269207744
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_lzma_matchfinder",
+      "section": 33,
+      "anchor": "_MatchFinder_Create",
+      "anchor_offset": 0,
+      "rva": 773120,
+      "size": 374,
+      "kind": "code",
+      "sha256": "0cc92864ef3ebcd82789388791a7dbb7ccb5b0fa1126f981a15bccefad505940",
+      "bindings": [
+        {
+          "symbol": "_MatchFinder_Free",
+          "site_rva": 773144,
+          "kind": 20,
+          "target_va": 269208512
+        },
+        {
+          "symbol": "_LzInWindow_Create",
+          "site_rva": 773239,
+          "kind": 20,
+          "target_va": 269207776
+        },
+        {
+          "symbol": "_MatchFinder_FreeThisClassMemory",
+          "site_rva": 773428,
+          "kind": 20,
+          "target_va": 269208480
+        },
+        {
+          "symbol": "_AllocRefs",
+          "site_rva": 773443,
+          "kind": 20,
+          "target_va": 269208544
+        },
+        {
+          "symbol": "_MatchFinder_Free",
+          "site_rva": 773480,
+          "kind": 20,
+          "target_va": 269208512
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_lzma_matchfinder",
+      "section": 37,
+      "anchor": "_MatchFinder_Init_2",
+      "anchor_offset": 0,
+      "rva": 773584,
+      "size": 65,
+      "kind": "code",
+      "sha256": "d265f64d4effacbd6886ff5587acca2dae22574afcea820374df6426699e5749",
+      "bindings": [
+        {
+          "symbol": "_MatchFinder_ReadBlock",
+          "site_rva": 773636,
+          "kind": 20,
+          "target_va": 269207920
+        },
+        {
+          "symbol": "_MatchFinder_SetLimits",
+          "site_rva": 773645,
+          "kind": 20,
+          "target_va": 269208960
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_lzma_matchfinder",
+      "section": 39,
+      "anchor": "_MatchFinder_Init",
+      "anchor_offset": 0,
+      "rva": 773664,
+      "size": 16,
+      "kind": "code",
+      "sha256": "b7c13e6bcd7d268152ccac34467e1e90f420ce793147d09708b44aedafc73b15",
+      "bindings": [
+        {
+          "symbol": "_MatchFinder_Init_2",
+          "site_rva": 773672,
+          "kind": 20,
+          "target_va": 269209040
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_lzma_matchfinder",
+      "section": 43,
+      "anchor": "_MatchFinder_Normalize3",
+      "anchor_offset": 0,
+      "rva": 773696,
+      "size": 44,
+      "kind": "code",
+      "sha256": "18421b99b5919d7b31bad9c5fa16a57a9dfbf4f1797e392b35e01f3fa58694bf",
+      "bindings": []
+    },
+    {
+      "unit": "closure_vendor_lzma_matchfinder",
+      "section": 51,
+      "anchor": "_GetMatchesSpec1",
+      "anchor_offset": 0,
+      "rva": 774112,
+      "size": 373,
+      "kind": "code",
+      "sha256": "1e06d2f93e583e1f15db95d7fb3235c79427cacb4dd2ed652d1f55e35d3da70d",
+      "bindings": []
+    },
+    {
+      "unit": "closure_vendor_lzma_matchfinder",
+      "section": 59,
+      "anchor": "_Bt3Zip_MatchFinder_GetMatches",
+      "anchor_offset": 0,
+      "rva": 774976,
+      "size": 152,
+      "kind": "code",
+      "sha256": "abc848ba74a4b674d8651de529c175c9e65f12dc236d13e60550ebb2be57f292",
+      "bindings": [
+        {
+          "symbol": "_MatchFinder_MovePos",
+          "site_rva": 774992,
+          "kind": 20,
+          "target_va": 269210256
+        },
+        {
+          "symbol": "_GetMatchesSpec1",
+          "site_rva": 775073,
+          "kind": 20,
+          "target_va": 269209568
+        },
+        {
+          "symbol": "_MatchFinder_CheckLimits",
+          "site_rva": 775118,
+          "kind": 20,
+          "target_va": 269209248
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_lzma_matchfinder",
+      "section": 67,
+      "anchor": "_Hc3Zip_MatchFinder_GetMatches",
+      "anchor_offset": 0,
+      "rva": 776416,
+      "size": 155,
+      "kind": "code",
+      "sha256": "86b2356c3f759c86ceaf82534f6249cd2befaefe6ce5a9be098bbb3ead5f33d7",
+      "bindings": [
+        {
+          "symbol": "_MatchFinder_MovePos",
+          "site_rva": 776432,
+          "kind": 20,
+          "target_va": 269210256
+        },
+        {
+          "symbol": "_Hc_GetMatchesSpec",
+          "site_rva": 776516,
+          "kind": 20,
+          "target_va": 269209328
+        },
+        {
+          "symbol": "_MatchFinder_CheckLimits",
+          "site_rva": 776561,
+          "kind": 20,
+          "target_va": 269209248
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_lzma_matchfinder",
+      "section": 71,
+      "anchor": "_Bt3Zip_MatchFinder_Skip",
+      "anchor_offset": 0,
+      "rva": 776720,
+      "size": 146,
+      "kind": "code",
+      "sha256": "98fd743d0722c84b4a93bbb78308e6314860d77e7708b9a18bb1785ede42b254",
+      "bindings": [
+        {
+          "symbol": "_MatchFinder_MovePos",
+          "site_rva": 776747,
+          "kind": 20,
+          "target_va": 269210256
+        },
+        {
+          "symbol": "_SkipMatchesSpec",
+          "site_rva": 776817,
+          "kind": 20,
+          "target_va": 269209952
+        },
+        {
+          "symbol": "_MatchFinder_CheckLimits",
+          "site_rva": 776855,
+          "kind": 20,
+          "target_va": 269209248
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_lzma_matchfinder",
+      "section": 79,
+      "anchor": "_Hc3Zip_MatchFinder_Skip",
+      "anchor_offset": 0,
+      "rva": 777456,
+      "size": 121,
+      "kind": "code",
+      "sha256": "1312d91b97eb3480b35305b9771ed0d24dbd98d6f31a9e5dd4734d412627bbbb",
+      "bindings": [
+        {
+          "symbol": "_MatchFinder_MovePos",
+          "site_rva": 777481,
+          "kind": 20,
+          "target_va": 269210256
+        },
+        {
+          "symbol": "_MatchFinder_CheckLimits",
+          "site_rva": 777567,
+          "kind": 20,
+          "target_va": 269209248
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_lzma_matchfinder",
+      "section": 81,
+      "anchor": "_MatchFinder_CreateVTable",
+      "anchor_offset": 0,
+      "rva": 777584,
+      "size": 108,
+      "kind": "code",
+      "sha256": "ee2198595ecc45750c38a1eb3b7379d7bbd60dd64575b1a919f0f8fc47a019e2",
+      "bindings": [
+        {
+          "symbol": "_MatchFinder_Init",
+          "site_rva": 777594,
+          "kind": 6,
+          "target_va": 269209120
+        },
+        {
+          "symbol": "_MatchFinder_GetNumAvailableBytes",
+          "site_rva": 777601,
+          "kind": 6,
+          "target_va": 269207872
+        },
+        {
+          "symbol": "_MatchFinder_GetPointerToCurrentPos",
+          "site_rva": 777608,
+          "kind": 6,
+          "target_va": 269207856
+        },
+        {
+          "symbol": "_Hc4_MatchFinder_GetMatches",
+          "site_rva": 777622,
+          "kind": 6,
+          "target_va": 269211440
+        },
+        {
+          "symbol": "_Hc4_MatchFinder_Skip",
+          "site_rva": 777629,
+          "kind": 6,
+          "target_va": 269212736
+        },
+        {
+          "symbol": "_Bt2_MatchFinder_GetMatches",
+          "site_rva": 777645,
+          "kind": 6,
+          "target_va": 269210288
+        },
+        {
+          "symbol": "_Bt2_MatchFinder_Skip",
+          "site_rva": 777652,
+          "kind": 6,
+          "target_va": 269212032
+        },
+        {
+          "symbol": "_Bt3_MatchFinder_GetMatches",
+          "site_rva": 777665,
+          "kind": 6,
+          "target_va": 269210592
+        },
+        {
+          "symbol": "_Bt3_MatchFinder_Skip",
+          "site_rva": 777672,
+          "kind": 6,
+          "target_va": 269212336
+        },
+        {
+          "symbol": "_Bt4_MatchFinder_GetMatches",
+          "site_rva": 777680,
+          "kind": 6,
+          "target_va": 269210992
+        },
+        {
+          "symbol": "_Bt4_MatchFinder_Skip",
+          "site_rva": 777687,
+          "kind": 6,
+          "target_va": 269212512
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_lzma_encoder",
+      "section": 18,
+      "anchor": "_RangeEnc_Construct",
+      "anchor_offset": 0,
+      "rva": 788608,
+      "size": 9,
+      "kind": "code",
+      "sha256": "1abf50096e5eaa74b5d313ca1988a033d71831fc4b1feb60e755d4baaf122f32",
+      "bindings": []
+    },
+    {
+      "unit": "closure_vendor_lzma_encoder",
+      "section": 10,
+      "anchor": "_LzmaEnc_FastPosInit",
+      "anchor_offset": 0,
+      "rva": 787248,
+      "size": 105,
+      "kind": "code",
+      "sha256": "ac51669787ce2fd88d243e991153f89dd8dd6fc3b4bb3c5190e82d4ccd34f79d",
+      "bindings": []
+    },
+    {
+      "unit": "closure_vendor_lzma_encoder",
+      "section": 40,
+      "anchor": "_LzmaEnc_InitPriceTables",
+      "anchor_offset": 0,
+      "rva": 789344,
+      "size": 74,
+      "kind": "code",
+      "sha256": "b6224d84bbb1d6b6e5082fc66c2737da612cdc029005af9c22099abca23d08b3",
+      "bindings": []
+    },
+    {
+      "unit": "closure_vendor_lzma_encoder",
+      "section": 22,
+      "anchor": "_RangeEnc_Free",
+      "anchor_offset": 0,
+      "rva": 788672,
+      "size": 19,
+      "kind": "code",
+      "sha256": "1b3343561525f15179ddfd55b24d936a3fadaa046c5af0994a9989a9fb0c7735",
+      "bindings": []
+    },
+    {
+      "unit": "closure_vendor_lzma_encoder",
+      "section": 24,
+      "anchor": "_RangeEnc_Init",
+      "anchor_offset": 0,
+      "rva": 788704,
+      "size": 43,
+      "kind": "code",
+      "sha256": "3583b49b090320db83ecaedea01c444dc1cb6dd29efed52bd1347fdcd62b9cf7",
+      "bindings": []
+    },
+    {
+      "unit": "closure_vendor_lzma_encoder",
+      "section": 54,
+      "anchor": "_LenEnc_Init",
+      "anchor_offset": 0,
+      "rva": 789872,
+      "size": 55,
+      "kind": "code",
+      "sha256": "81bb9dfd5ac063ebdf727ef766373493aa2bb7e79395ee1963b9e4a712a8f115",
+      "bindings": []
+    },
+    {
+      "unit": "closure_vendor_lzma_encoder",
+      "section": 90,
+      "anchor": "_FillDistancesPrices",
+      "anchor_offset": 0,
+      "rva": 796944,
+      "size": 407,
+      "kind": "code",
+      "sha256": "a2f2daa720f2b8377286472ff09fbcd10488186b03dbc819e6951b82f5adbf17",
+      "bindings": [
+        {
+          "symbol": "_RcTree_ReverseGetPrice",
+          "site_rva": 797015,
+          "kind": 20,
+          "target_va": 269225248
+        },
+        {
+          "symbol": "_RcTree_GetPrice",
+          "site_rva": 797136,
+          "kind": 20,
+          "target_va": 269225184
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_lzma_encoder",
+      "section": 88,
+      "anchor": "_FillAlignPrices",
+      "anchor_offset": 0,
+      "rva": 796864,
+      "size": 79,
+      "kind": "code",
+      "sha256": "2a58b0b20fe3cc80641cb6cef546df7ff3d02734a2d381d7dbf43b64c55d0771",
+      "bindings": [
+        {
+          "symbol": "_RcTree_ReverseGetPrice",
+          "site_rva": 796906,
+          "kind": 20,
+          "target_va": 269225248
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_lzma_encoder",
+      "section": 62,
+      "anchor": "_LenPriceEnc_UpdateTables",
+      "anchor_offset": 0,
+      "rva": 790448,
+      "size": 31,
+      "kind": "code",
+      "sha256": "aba68575539ea73360b9cf623dd0f1564081acc0ed298bc19956e09e24e10f5b",
+      "bindings": [
+        {
+          "symbol": "@LenPriceEnc_UpdateTable@12",
+          "site_rva": 790466,
+          "kind": 20,
+          "target_va": 269225840
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_lzma_encoder",
+      "section": 110,
+      "anchor": "_LzmaEnc_AllocAndInit",
+      "anchor_offset": 0,
+      "rva": 799792,
+      "size": 147,
+      "kind": "code",
+      "sha256": "982ab18bcfdb27353be684cd7d92ae36b061664a9bd9be7ec44b9f1e46f40675",
+      "bindings": [
+        {
+          "symbol": "_LzmaEnc_Alloc",
+          "site_rva": 799901,
+          "kind": 20,
+          "target_va": 269234576
+        },
+        {
+          "symbol": "_LzmaEnc_Init",
+          "site_rva": 799916,
+          "kind": 20,
+          "target_va": 269234832
+        },
+        {
+          "symbol": "_LzmaEnc_InitPrices",
+          "site_rva": 799922,
+          "kind": 20,
+          "target_va": 269235136
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_lzma_encoder",
+      "section": 116,
+      "anchor": "_LzmaEnc_SetInputBuf",
+      "anchor_offset": 0,
+      "rva": 800048,
+      "size": 20,
+      "kind": "code",
+      "sha256": "310c4a2a2024cd5fdb631c60cadee6fe0892b238edb08d84e464540f810eec07",
+      "bindings": []
+    },
+    {
+      "unit": "closure_vendor_lzma_encoder",
+      "section": 122,
+      "anchor": "_MyWrite",
+      "anchor_offset": 0,
+      "rva": 800160,
+      "size": 70,
+      "kind": "code",
+      "sha256": "dd93cd16d0e367013ea98585c095e804aecb176ce6f47dbe7db28d9cae47ad65",
+      "bindings": []
+    },
+    {
+      "unit": "closure_vendor_lzma_encoder",
+      "section": 102,
+      "anchor": "_LzmaEnc_CodeOneBlock",
+      "anchor_offset": 0,
+      "rva": 797664,
+      "size": 1452,
+      "kind": "code",
+      "sha256": "09b567f4efd0e6f3a029bf8923ead3eb73db2ead9f987990dc77992312f7a5dd",
+      "bindings": [
+        {
+          "symbol": "_CheckErrors",
+          "site_rva": 797717,
+          "kind": 20,
+          "target_va": 269232176
+        },
+        {
+          "symbol": "_ReadMatchDistances",
+          "site_rva": 797778,
+          "kind": 20,
+          "target_va": 269226032
+        },
+        {
+          "symbol": "_RangeEnc_EncodeBit",
+          "site_rva": 797806,
+          "kind": 20,
+          "target_va": 269224544
+        },
+        {
+          "symbol": "_kLiteralNextStates",
+          "site_rva": 797819,
+          "kind": 6,
+          "target_va": 269408216
+        },
+        {
+          "symbol": "_LitEnc_Encode",
+          "site_rva": 797841,
+          "kind": 20,
+          "target_va": 269224640
+        },
+        {
+          "symbol": "_GetOptimumFast",
+          "site_rva": 797905,
+          "kind": 20,
+          "target_va": 269231232
+        },
+        {
+          "symbol": "_GetOptimum",
+          "site_rva": 797922,
+          "kind": 20,
+          "target_va": 269226672
+        },
+        {
+          "symbol": "_RangeEnc_EncodeBit",
+          "site_rva": 797988,
+          "kind": 20,
+          "target_va": 269224544
+        },
+        {
+          "symbol": "_LitEnc_Encode",
+          "site_rva": 798069,
+          "kind": 20,
+          "target_va": 269224640
+        },
+        {
+          "symbol": "_kLiteralNextStates",
+          "site_rva": 798079,
+          "kind": 6,
+          "target_va": 269408216
+        },
+        {
+          "symbol": "_LitEnc_EncodeMatched",
+          "site_rva": 798110,
+          "kind": 20,
+          "target_va": 269224704
+        },
+        {
+          "symbol": "_kLiteralNextStates",
+          "site_rva": 798120,
+          "kind": 6,
+          "target_va": 269408216
+        },
+        {
+          "symbol": "_RangeEnc_EncodeBit",
+          "site_rva": 798161,
+          "kind": 20,
+          "target_va": 269224544
+        },
+        {
+          "symbol": "_RangeEnc_EncodeBit",
+          "site_rva": 798196,
+          "kind": 20,
+          "target_va": 269224544
+        },
+        {
+          "symbol": "_RangeEnc_EncodeBit",
+          "site_rva": 798225,
+          "kind": 20,
+          "target_va": 269224544
+        },
+        {
+          "symbol": "_RangeEnc_EncodeBit",
+          "site_rva": 798260,
+          "kind": 20,
+          "target_va": 269224544
+        },
+        {
+          "symbol": "_RangeEnc_EncodeBit",
+          "site_rva": 798295,
+          "kind": 20,
+          "target_va": 269224544
+        },
+        {
+          "symbol": "_RangeEnc_EncodeBit",
+          "site_rva": 798326,
+          "kind": 20,
+          "target_va": 269224544
+        },
+        {
+          "symbol": "_RangeEnc_EncodeBit",
+          "site_rva": 798350,
+          "kind": 20,
+          "target_va": 269224544
+        },
+        {
+          "symbol": "_RangeEnc_EncodeBit",
+          "site_rva": 798371,
+          "kind": 20,
+          "target_va": 269224544
+        },
+        {
+          "symbol": "_kShortRepNextStates",
+          "site_rva": 798423,
+          "kind": 6,
+          "target_va": 269408360
+        },
+        {
+          "symbol": "_LenEnc_Encode2",
+          "site_rva": 798468,
+          "kind": 20,
+          "target_va": 269225936
+        },
+        {
+          "symbol": "_kRepNextStates",
+          "site_rva": 798478,
+          "kind": 6,
+          "target_va": 269408312
+        },
+        {
+          "symbol": "_RangeEnc_EncodeBit",
+          "site_rva": 798508,
+          "kind": 20,
+          "target_va": 269224544
+        },
+        {
+          "symbol": "_kMatchNextStates",
+          "site_rva": 798518,
+          "kind": 6,
+          "target_va": 269408264
+        },
+        {
+          "symbol": "_LenEnc_Encode2",
+          "site_rva": 798566,
+          "kind": 20,
+          "target_va": 269225936
+        },
+        {
+          "symbol": "_RcTree_Encode",
+          "site_rva": 798666,
+          "kind": 20,
+          "target_va": 269225040
+        },
+        {
+          "symbol": "_RcTree_ReverseEncode",
+          "site_rva": 798715,
+          "kind": 20,
+          "target_va": 269225104
+        },
+        {
+          "symbol": "_RangeEnc_EncodeDirectBits",
+          "site_rva": 798733,
+          "kind": 20,
+          "target_va": 269224464
+        },
+        {
+          "symbol": "_RcTree_ReverseEncode",
+          "site_rva": 798755,
+          "kind": 20,
+          "target_va": 269225104
+        },
+        {
+          "symbol": "_FillDistancesPrices",
+          "site_rva": 798866,
+          "kind": 20,
+          "target_va": 269232400
+        },
+        {
+          "symbol": "_FillAlignPrices",
+          "site_rva": 798884,
+          "kind": 20,
+          "target_va": 269232320
+        },
+        {
+          "symbol": "_Flush",
+          "site_rva": 799051,
+          "kind": 20,
+          "target_va": 269232256
+        },
+        {
+          "symbol": "_CheckErrors",
+          "site_rva": 799104,
+          "kind": 20,
+          "target_va": 269232176
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_lzma_encoder",
+      "section": 112,
+      "anchor": "_LzmaEnc_Prepare",
+      "anchor_offset": 0,
+      "rva": 799952,
+      "size": 42,
+      "kind": "code",
+      "sha256": "07ed2d70a19cdc2bd162cbd42b174dfe47779f25d453d6ad342297515d05f97a",
+      "bindings": [
+        {
+          "symbol": "_LzmaEnc_AllocAndInit",
+          "site_rva": 799985,
+          "kind": 20,
+          "target_va": 269235248
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_lzma_encoder",
+      "section": 130,
+      "anchor": "_LzmaEnc_Encode2",
+      "anchor_offset": 0,
+      "rva": 800464,
+      "size": 117,
+      "kind": "code",
+      "sha256": "4190901cbc16f24b60b33528fda4811e45cc94420db99f746667e071d72b7ce4",
+      "bindings": [
+        {
+          "symbol": "_LzmaEnc_CodeOneBlock",
+          "site_rva": 800472,
+          "kind": 20,
+          "target_va": 269233120
+        },
+        {
+          "symbol": "_LzmaEnc_CodeOneBlock",
+          "site_rva": 800563,
+          "kind": 20,
+          "target_va": 269233120
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_lzma_matchfinder",
+      "section": 13,
+      "anchor": "_MatchFinder_ReadBlock",
+      "anchor_offset": 0,
+      "rva": 772464,
+      "size": 172,
+      "kind": "code",
+      "sha256": "d52e2fcb84924f6c6389905cc01fcda4bc31b55a03a78f30428497b3d4104c72",
+      "bindings": []
+    },
+    {
+      "unit": "closure_vendor_lzma_matchfinder",
+      "section": 23,
+      "anchor": "_MatchFinder_SetDefaultSettings",
+      "anchor_offset": 0,
+      "rva": 772800,
+      "size": 23,
+      "kind": "code",
+      "sha256": "c39c127920ecb80722c0ff2c9b42ceb82cc8bba078d9c71f2a4bc32244a3f03b",
+      "bindings": []
+    },
+    {
+      "unit": "closure_vendor_lzma_matchfinder",
+      "section": 27,
+      "anchor": "_MatchFinder_FreeThisClassMemory",
+      "anchor_offset": 0,
+      "rva": 773024,
+      "size": 19,
+      "kind": "code",
+      "sha256": "ea43c2abad8810bbb9ce9ace5c3e1b82dc81fb955c94e43b49f3e6a91a3e123f",
+      "bindings": []
+    },
+    {
+      "unit": "closure_vendor_lzma_matchfinder",
+      "section": 3,
+      "anchor": "_LzInWindow_Free",
+      "anchor_offset": 0,
+      "rva": 772288,
+      "size": 26,
+      "kind": "code",
+      "sha256": "dea5f94a8aedcc9a3ab368ab6778c38a58072967c805dc1d00796e67275e8730",
+      "bindings": []
+    },
+    {
+      "unit": "closure_vendor_lzma_matchfinder",
+      "section": 5,
+      "anchor": "_LzInWindow_Create",
+      "anchor_offset": 0,
+      "rva": 772320,
+      "size": 77,
+      "kind": "code",
+      "sha256": "f7790155bb9060bd079d1c09a9f70a6b12c953d9fa29a7231ca66d081b8f2fbf",
+      "bindings": [
+        {
+          "symbol": "_LzInWindow_Free",
+          "site_rva": 772367,
+          "kind": 20,
+          "target_va": 269207744
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_lzma_matchfinder",
+      "section": 31,
+      "anchor": "_AllocRefs",
+      "anchor_offset": 0,
+      "rva": 773088,
+      "size": 29,
+      "kind": "code",
+      "sha256": "7265e7bb3a4786b580b89bf0f529c424d1a11fc9af91996c8f50c82033d9ad49",
+      "bindings": []
+    },
+    {
+      "unit": "closure_vendor_lzma_matchfinder",
+      "section": 35,
+      "anchor": "_MatchFinder_SetLimits",
+      "anchor_offset": 0,
+      "rva": 773504,
+      "size": 79,
+      "kind": "code",
+      "sha256": "75b013010eb485ab127d99d0c928bf6d9f107d80384801317a3f7c5b4cc8e5e1",
+      "bindings": []
+    },
+    {
+      "unit": "closure_vendor_lzma_matchfinder",
+      "section": 55,
+      "anchor": "_MatchFinder_MovePos",
+      "anchor_offset": 0,
+      "rva": 774800,
+      "size": 32,
+      "kind": "code",
+      "sha256": "7b199d4a7a2c039e3ce75b6225c11567323086ea725567ef0f4213a56e75dc91",
+      "bindings": [
+        {
+          "symbol": "_MatchFinder_CheckLimits",
+          "site_rva": 774827,
+          "kind": 20,
+          "target_va": 269209248
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_lzma_matchfinder",
+      "section": 47,
+      "anchor": "_MatchFinder_CheckLimits",
+      "anchor_offset": 0,
+      "rva": 773792,
+      "size": 66,
+      "kind": "code",
+      "sha256": "8dc7d5690dfdd51f4e93e06a107c2b1a0d1405d5460f3f74f73162569aff400e",
+      "bindings": [
+        {
+          "symbol": "_MatchFinder_Normalize",
+          "site_rva": 773802,
+          "kind": 20,
+          "target_va": 269209200
+        },
+        {
+          "symbol": "_MatchFinder_CheckAndMoveAndRead",
+          "site_rva": 773831,
+          "kind": 20,
+          "target_va": 269208224
+        },
+        {
+          "symbol": "_MatchFinder_SetLimits",
+          "site_rva": 773854,
+          "kind": 20,
+          "target_va": 269208960
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_lzma_matchfinder",
+      "section": 49,
+      "anchor": "_Hc_GetMatchesSpec",
+      "anchor_offset": 0,
+      "rva": 773872,
+      "size": 227,
+      "kind": "code",
+      "sha256": "94692405a359eb4d5ad470c1ebde2b3fa33a8347751e5f9f317cceda8d75b934",
+      "bindings": []
+    },
+    {
+      "unit": "closure_vendor_lzma_matchfinder",
+      "section": 53,
+      "anchor": "_SkipMatchesSpec",
+      "anchor_offset": 0,
+      "rva": 774496,
+      "size": 301,
+      "kind": "code",
+      "sha256": "ea8250b463972806f4c35b563b3e8941556a8650927ff94c11220c5099c8ecc1",
+      "bindings": []
+    },
+    {
+      "unit": "closure_vendor_lzma_matchfinder",
+      "section": 9,
+      "anchor": "_MatchFinder_GetNumAvailableBytes",
+      "anchor_offset": 0,
+      "rva": 772416,
+      "size": 11,
+      "kind": "code",
+      "sha256": "a96d7b367da965bc0397834c05167a55e4c45c06a60f116fec0b2a431dce9a2b",
+      "bindings": []
+    },
+    {
+      "unit": "closure_vendor_lzma_matchfinder",
+      "section": 65,
+      "anchor": "_Hc4_MatchFinder_GetMatches",
+      "anchor_offset": 0,
+      "rva": 775984,
+      "size": 425,
+      "kind": "code",
+      "sha256": "8552d487f5b31c2e51fa1c5fbd59e5ffd58737f2f2f3bfed294dfb010d2b3b91",
+      "bindings": [
+        {
+          "symbol": "_MatchFinder_MovePos",
+          "site_rva": 776007,
+          "kind": 20,
+          "target_va": 269210256
+        },
+        {
+          "symbol": "_Hc_GetMatchesSpec",
+          "site_rva": 776350,
+          "kind": 20,
+          "target_va": 269209328
+        },
+        {
+          "symbol": "_MatchFinder_CheckLimits",
+          "site_rva": 776395,
+          "kind": 20,
+          "target_va": 269209248
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_lzma_matchfinder",
+      "section": 77,
+      "anchor": "_Hc4_MatchFinder_Skip",
+      "anchor_offset": 0,
+      "rva": 777280,
+      "size": 171,
+      "kind": "code",
+      "sha256": "f086238cfa565f228848e40eaacea77efa52d2c84f55f5d2bd681f65e991c445",
+      "bindings": [
+        {
+          "symbol": "_MatchFinder_MovePos",
+          "site_rva": 777297,
+          "kind": 20,
+          "target_va": 269210256
+        },
+        {
+          "symbol": "_MatchFinder_CheckLimits",
+          "site_rva": 777432,
+          "kind": 20,
+          "target_va": 269209248
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_lzma_matchfinder",
+      "section": 57,
+      "anchor": "_Bt2_MatchFinder_GetMatches",
+      "anchor_offset": 0,
+      "rva": 774832,
+      "size": 138,
+      "kind": "code",
+      "sha256": "17570030f5cc2bb875934322eff0f4086e12b5227538e4a041bb38006c53fde5",
+      "bindings": [
+        {
+          "symbol": "_MatchFinder_MovePos",
+          "site_rva": 774848,
+          "kind": 20,
+          "target_va": 269210256
+        },
+        {
+          "symbol": "_GetMatchesSpec1",
+          "site_rva": 774915,
+          "kind": 20,
+          "target_va": 269209568
+        },
+        {
+          "symbol": "_MatchFinder_CheckLimits",
+          "site_rva": 774960,
+          "kind": 20,
+          "target_va": 269209248
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_lzma_matchfinder",
+      "section": 69,
+      "anchor": "_Bt2_MatchFinder_Skip",
+      "anchor_offset": 0,
+      "rva": 776576,
+      "size": 132,
+      "kind": "code",
+      "sha256": "e72aef2efe1bf4ae084c2f4c1ee8903a6f806fbdcf52ca5c0750208383002086",
+      "bindings": [
+        {
+          "symbol": "_MatchFinder_MovePos",
+          "site_rva": 776603,
+          "kind": 20,
+          "target_va": 269210256
+        },
+        {
+          "symbol": "_SkipMatchesSpec",
+          "site_rva": 776659,
+          "kind": 20,
+          "target_va": 269209952
+        },
+        {
+          "symbol": "_MatchFinder_CheckLimits",
+          "site_rva": 776697,
+          "kind": 20,
+          "target_va": 269209248
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_lzma_matchfinder",
+      "section": 61,
+      "anchor": "_Bt3_MatchFinder_GetMatches",
+      "anchor_offset": 0,
+      "rva": 775136,
+      "size": 396,
+      "kind": "code",
+      "sha256": "3a40e76189324a0a287b860e0b321c1f80f3cdc654e2b2e764315ce6fa342bff",
+      "bindings": [
+        {
+          "symbol": "_MatchFinder_MovePos",
+          "site_rva": 775159,
+          "kind": 20,
+          "target_va": 269210256
+        },
+        {
+          "symbol": "_SkipMatchesSpec",
+          "site_rva": 775379,
+          "kind": 20,
+          "target_va": 269209952
+        },
+        {
+          "symbol": "_MatchFinder_CheckLimits",
+          "site_rva": 775417,
+          "kind": 20,
+          "target_va": 269209248
+        },
+        {
+          "symbol": "_GetMatchesSpec1",
+          "site_rva": 775473,
+          "kind": 20,
+          "target_va": 269209568
+        },
+        {
+          "symbol": "_MatchFinder_CheckLimits",
+          "site_rva": 775518,
+          "kind": 20,
+          "target_va": 269209248
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_lzma_matchfinder",
+      "section": 73,
+      "anchor": "_Bt3_MatchFinder_Skip",
+      "anchor_offset": 0,
+      "rva": 776880,
+      "size": 163,
+      "kind": "code",
+      "sha256": "b38a7ce5a45933883e87b9ed454ca88215818ec436ef817b2c9e4ed78865f904",
+      "bindings": [
+        {
+          "symbol": "_MatchFinder_MovePos",
+          "site_rva": 776899,
+          "kind": 20,
+          "target_va": 269210256
+        },
+        {
+          "symbol": "_SkipMatchesSpec",
+          "site_rva": 776986,
+          "kind": 20,
+          "target_va": 269209952
+        },
+        {
+          "symbol": "_MatchFinder_CheckLimits",
+          "site_rva": 777024,
+          "kind": 20,
+          "target_va": 269209248
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_lzma_matchfinder",
+      "section": 63,
+      "anchor": "_Bt4_MatchFinder_GetMatches",
+      "anchor_offset": 0,
+      "rva": 775536,
+      "size": 446,
+      "kind": "code",
+      "sha256": "6961c8730b5dc5cf868d2e45a9356f7d07befd2d342cb118f1de1a94f0663c63",
+      "bindings": [
+        {
+          "symbol": "_MatchFinder_MovePos",
+          "site_rva": 775559,
+          "kind": 20,
+          "target_va": 269210256
+        },
+        {
+          "symbol": "_SkipMatchesSpec",
+          "site_rva": 775868,
+          "kind": 20,
+          "target_va": 269209952
+        },
+        {
+          "symbol": "_GetMatchesSpec1",
+          "site_rva": 775923,
+          "kind": 20,
+          "target_va": 269209568
+        },
+        {
+          "symbol": "_MatchFinder_CheckLimits",
+          "site_rva": 775968,
+          "kind": 20,
+          "target_va": 269209248
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_lzma_matchfinder",
+      "section": 75,
+      "anchor": "_Bt4_MatchFinder_Skip",
+      "anchor_offset": 0,
+      "rva": 777056,
+      "size": 213,
+      "kind": "code",
+      "sha256": "d4c991d014d8dccf8fcbc61db2d3942c6058750f7b88f476c947a61a1f24c54e",
+      "bindings": [
+        {
+          "symbol": "_MatchFinder_MovePos",
+          "site_rva": 777087,
+          "kind": 20,
+          "target_va": 269210256
+        },
+        {
+          "symbol": "_SkipMatchesSpec",
+          "site_rva": 777212,
+          "kind": 20,
+          "target_va": 269209952
+        },
+        {
+          "symbol": "_MatchFinder_CheckLimits",
+          "site_rva": 777250,
+          "kind": 20,
+          "target_va": 269209248
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_lzma_encoder",
+      "section": 52,
+      "anchor": "_RcTree_ReverseGetPrice",
+      "anchor_offset": 0,
+      "rva": 789792,
+      "size": 69,
+      "kind": "code",
+      "sha256": "af08d5ca70375c0b93d41b04b62b73ce19fb20b353c58a9b3e8c8605219def02",
+      "bindings": []
+    },
+    {
+      "unit": "closure_vendor_lzma_encoder",
+      "section": 50,
+      "anchor": "_RcTree_GetPrice",
+      "anchor_offset": 0,
+      "rva": 789728,
+      "size": 53,
+      "kind": "code",
+      "sha256": "3d9621390bb9cbd8e34c045dd4fb8fc61ea0f132e1aa2e7d3891686ef0387600",
+      "bindings": []
+    },
+    {
+      "unit": "closure_vendor_lzma_encoder",
+      "section": 60,
+      "anchor": "@LenPriceEnc_UpdateTable@12",
+      "anchor_offset": 0,
+      "rva": 790384,
+      "size": 53,
+      "kind": "code",
+      "sha256": "044440159ff70f35ded96a8306a177b1d87c86e8343378c2ff2a7279dd836098",
+      "bindings": [
+        {
+          "symbol": "_LenEnc_SetPrices",
+          "site_rva": 790414,
+          "kind": 20,
+          "target_va": 269225568
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_lzma_encoder",
+      "section": 104,
+      "anchor": "_LzmaEnc_Alloc",
+      "anchor_offset": 0,
+      "rva": 799120,
+      "size": 241,
+      "kind": "code",
+      "sha256": "041f386a53a88ca315d01c0516c52949b9cac5065b6b66efae538c50e335cff4",
+      "bindings": [
+        {
+          "symbol": "_RangeEnc_Alloc",
+          "site_rva": 799142,
+          "kind": 20,
+          "target_va": 269224080
+        },
+        {
+          "symbol": "_LzmaEnc_FreeLits",
+          "site_rva": 799193,
+          "kind": 20,
+          "target_va": 269232960
+        },
+        {
+          "symbol": "_MatchFinder_Create",
+          "site_rva": 799308,
+          "kind": 20,
+          "target_va": 269208576
+        },
+        {
+          "symbol": "_MatchFinder_CreateVTable",
+          "site_rva": 799327,
+          "kind": 20,
+          "target_va": 269213040
+        },
+        {
+          "symbol": "_LzmaEnc_FreeLits",
+          "site_rva": 799344,
+          "kind": 20,
+          "target_va": 269232960
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_lzma_encoder",
+      "section": 84,
+      "anchor": "_CheckErrors",
+      "anchor_offset": 0,
+      "rva": 796720,
+      "size": 68,
+      "kind": "code",
+      "sha256": "3ec17c772c03df750759f08e8c08c398165d77d6135a3b3b0768956b36d62b92",
+      "bindings": []
+    },
+    {
+      "unit": "closure_vendor_lzma_encoder",
+      "section": 68,
+      "anchor": "_ReadMatchDistances",
+      "anchor_offset": 0,
+      "rva": 790576,
+      "size": 127,
+      "kind": "code",
+      "sha256": "f6dbd060526438fbe5c0fd5d95af9698cff699186477c9804aaa9f3530b2bd21",
+      "bindings": []
+    },
+    {
+      "unit": "closure_vendor_lzma_encoder",
+      "section": 34,
+      "anchor": "_RangeEnc_EncodeBit",
+      "anchor_offset": 0,
+      "rva": 789088,
+      "size": 88,
+      "kind": "code",
+      "sha256": "6d8e7eb33a03592b279081da61b4e10173b96935841e913b4651e806dbe2f406",
+      "bindings": [
+        {
+          "symbol": "@RangeEnc_ShiftLow@4",
+          "site_rva": 789171,
+          "kind": 20,
+          "target_va": 269224272
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_lzma_encoder",
+      "section": 3,
+      "anchor": "_kLiteralNextStates",
+      "anchor_offset": 0,
+      "rva": 972760,
+      "size": 192,
+      "kind": "data",
+      "sha256": "ce9b797c08522fdc54f8bb30225042fb2b0f8ab5c7fac97658548d3491547f44",
+      "bindings": []
+    },
+    {
+      "unit": "closure_vendor_lzma_encoder",
+      "section": 36,
+      "anchor": "_LitEnc_Encode",
+      "anchor_offset": 0,
+      "rva": 789184,
+      "size": 57,
+      "kind": "code",
+      "sha256": "fb97c4d88d5ac6a7de7e134b182eb605962861f6ff1c2a39add0217d83e5f5bb",
+      "bindings": [
+        {
+          "symbol": "_RangeEnc_EncodeBit",
+          "site_rva": 789220,
+          "kind": 20,
+          "target_va": 269224544
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_lzma_encoder",
+      "section": 80,
+      "anchor": "_GetOptimumFast",
+      "anchor_offset": 0,
+      "rva": 795776,
+      "size": 762,
+      "kind": "code",
+      "sha256": "723eb9456ebc0f38475374f9e56a7b41e8e78ca47db3f35c4d3a33fe4f734dfd",
+      "bindings": [
+        {
+          "symbol": "_ReadMatchDistances",
+          "site_rva": 795798,
+          "kind": 20,
+          "target_va": 269226032
+        },
+        {
+          "symbol": "_MovePos",
+          "site_rva": 796040,
+          "kind": 20,
+          "target_va": 269226000
+        },
+        {
+          "symbol": "_MovePos",
+          "site_rva": 796065,
+          "kind": 20,
+          "target_va": 269226000
+        },
+        {
+          "symbol": "_MovePos",
+          "site_rva": 796254,
+          "kind": 20,
+          "target_va": 269226000
+        },
+        {
+          "symbol": "_ReadMatchDistances",
+          "site_rva": 796294,
+          "kind": 20,
+          "target_va": 269226032
+        },
+        {
+          "symbol": "_MovePos",
+          "site_rva": 796525,
+          "kind": 20,
+          "target_va": 269226000
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_lzma_encoder",
+      "section": 78,
+      "anchor": "_GetOptimum",
+      "anchor_offset": 0,
+      "rva": 791216,
+      "size": 4548,
+      "kind": "code",
+      "sha256": "932c95daa47cdda974682373675e991546038f70307a68adf2763156f85a79b7",
+      "bindings": [
+        {
+          "symbol": "_ReadMatchDistances",
+          "site_rva": 791300,
+          "kind": 20,
+          "target_va": 269226032
+        },
+        {
+          "symbol": "_MovePos",
+          "site_rva": 791598,
+          "kind": 20,
+          "target_va": 269226000
+        },
+        {
+          "symbol": "_MovePos",
+          "site_rva": 791653,
+          "kind": 20,
+          "target_va": 269226000
+        },
+        {
+          "symbol": "_LitEnc_GetPriceMatched",
+          "site_rva": 791812,
+          "kind": 20,
+          "target_va": 269224944
+        },
+        {
+          "symbol": "_LitEnc_GetPrice",
+          "site_rva": 791828,
+          "kind": 20,
+          "target_va": 269224880
+        },
+        {
+          "symbol": "_GetRepLen1Price",
+          "site_rva": 791967,
+          "kind": 20,
+          "target_va": 269226160
+        },
+        {
+          "symbol": "_GetPureRepPrice",
+          "site_rva": 792167,
+          "kind": 20,
+          "target_va": 269226224
+        },
+        {
+          "symbol": "_ReadMatchDistances",
+          "site_rva": 792616,
+          "kind": 20,
+          "target_va": 269226032
+        },
+        {
+          "symbol": "_kRepNextStates",
+          "site_rva": 792728,
+          "kind": 6,
+          "target_va": 269408312
+        },
+        {
+          "symbol": "_kLiteralNextStates",
+          "site_rva": 792735,
+          "kind": 6,
+          "target_va": 269408216
+        },
+        {
+          "symbol": "_kMatchNextStates",
+          "site_rva": 792744,
+          "kind": 6,
+          "target_va": 269408264
+        },
+        {
+          "symbol": "_kLiteralNextStates",
+          "site_rva": 792751,
+          "kind": 6,
+          "target_va": 269408216
+        },
+        {
+          "symbol": "_kLiteralNextStates",
+          "site_rva": 792773,
+          "kind": 6,
+          "target_va": 269408216
+        },
+        {
+          "symbol": "_kShortRepNextStates",
+          "site_rva": 792810,
+          "kind": 6,
+          "target_va": 269408360
+        },
+        {
+          "symbol": "_kLiteralNextStates",
+          "site_rva": 792826,
+          "kind": 6,
+          "target_va": 269408216
+        },
+        {
+          "symbol": "_kRepNextStates",
+          "site_rva": 792868,
+          "kind": 6,
+          "target_va": 269408312
+        },
+        {
+          "symbol": "_kRepNextStates",
+          "site_rva": 792902,
+          "kind": 6,
+          "target_va": 269408312
+        },
+        {
+          "symbol": "_kMatchNextStates",
+          "site_rva": 792922,
+          "kind": 6,
+          "target_va": 269408264
+        },
+        {
+          "symbol": "_LitEnc_GetPriceMatched",
+          "site_rva": 793285,
+          "kind": 20,
+          "target_va": 269224944
+        },
+        {
+          "symbol": "_LitEnc_GetPrice",
+          "site_rva": 793303,
+          "kind": 20,
+          "target_va": 269224880
+        },
+        {
+          "symbol": "_GetRepLen1Price",
+          "site_rva": 793478,
+          "kind": 20,
+          "target_va": 269226160
+        },
+        {
+          "symbol": "_kLiteralNextStates",
+          "site_rva": 793682,
+          "kind": 6,
+          "target_va": 269408216
+        },
+        {
+          "symbol": "_GetRepPrice",
+          "site_rva": 793834,
+          "kind": 20,
+          "target_va": 269226416
+        },
+        {
+          "symbol": "_GetPureRepPrice",
+          "site_rva": 794088,
+          "kind": 20,
+          "target_va": 269226224
+        },
+        {
+          "symbol": "_LitEnc_GetPriceMatched",
+          "site_rva": 794371,
+          "kind": 20,
+          "target_va": 269224944
+        },
+        {
+          "symbol": "_kRepNextStates",
+          "site_rva": 794382,
+          "kind": 6,
+          "target_va": 269408312
+        },
+        {
+          "symbol": "_kLiteralNextStates",
+          "site_rva": 794430,
+          "kind": 6,
+          "target_va": 269408216
+        },
+        {
+          "symbol": "_GetRepPrice",
+          "site_rva": 794607,
+          "kind": 20,
+          "target_va": 269226416
+        },
+        {
+          "symbol": "_LitEnc_GetPriceMatched",
+          "site_rva": 795302,
+          "kind": 20,
+          "target_va": 269224944
+        },
+        {
+          "symbol": "_kMatchNextStates",
+          "site_rva": 795313,
+          "kind": 6,
+          "target_va": 269408264
+        },
+        {
+          "symbol": "_kLiteralNextStates",
+          "site_rva": 795353,
+          "kind": 6,
+          "target_va": 269408216
+        },
+        {
+          "symbol": "_GetRepPrice",
+          "site_rva": 795521,
+          "kind": 20,
+          "target_va": 269226416
+        },
+        {
+          "symbol": "_Backward",
+          "site_rva": 795749,
+          "kind": 20,
+          "target_va": 269226464
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_lzma_encoder",
+      "section": 38,
+      "anchor": "_LitEnc_EncodeMatched",
+      "anchor_offset": 0,
+      "rva": 789248,
+      "size": 83,
+      "kind": "code",
+      "sha256": "1c306b7ac79823afd01fb018c5349ad1adcc8bf60434d5138dd1d3fa512bbfd1",
+      "bindings": [
+        {
+          "symbol": "_RangeEnc_EncodeBit",
+          "site_rva": 789301,
+          "kind": 20,
+          "target_va": 269224544
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_lzma_encoder",
+      "section": 64,
+      "anchor": "_LenEnc_Encode2",
+      "anchor_offset": 0,
+      "rva": 790480,
+      "size": 52,
+      "kind": "code",
+      "sha256": "42a195aff7997cee96e7f682a65bb5f2a4de5e99b1063a89e3e2efe9e1bd7106",
+      "bindings": [
+        {
+          "symbol": "_LenEnc_Encode",
+          "site_rva": 790493,
+          "kind": 20,
+          "target_va": 269225392
+        },
+        {
+          "symbol": "@LenPriceEnc_UpdateTable@12",
+          "site_rva": 790525,
+          "kind": 20,
+          "target_va": 269225840
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_lzma_encoder",
+      "section": 46,
+      "anchor": "_RcTree_Encode",
+      "anchor_offset": 0,
+      "rva": 789584,
+      "size": 61,
+      "kind": "code",
+      "sha256": "2bfd6be3d647da92fd57cc8310746990de762716dcdb36d0f80d8746de433209",
+      "bindings": [
+        {
+          "symbol": "_RangeEnc_EncodeBit",
+          "site_rva": 789625,
+          "kind": 20,
+          "target_va": 269224544
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_lzma_encoder",
+      "section": 48,
+      "anchor": "_RcTree_ReverseEncode",
+      "anchor_offset": 0,
+      "rva": 789648,
+      "size": 70,
+      "kind": "code",
+      "sha256": "1ee696a125acaa7459588e1fdf12f9496bb4e86753c7dfc1b71026ca3ed9ea86",
+      "bindings": [
+        {
+          "symbol": "_RangeEnc_EncodeBit",
+          "site_rva": 789688,
+          "kind": 20,
+          "target_va": 269224544
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_lzma_encoder",
+      "section": 32,
+      "anchor": "_RangeEnc_EncodeDirectBits",
+      "anchor_offset": 0,
+      "rva": 789008,
+      "size": 65,
+      "kind": "code",
+      "sha256": "355f6ff244b0b477123942f357f82845fe1b423110deb9b0ac14367dd43198fb",
+      "bindings": [
+        {
+          "symbol": "@RangeEnc_ShiftLow@4",
+          "site_rva": 789063,
+          "kind": 20,
+          "target_va": 269224272
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_lzma_encoder",
+      "section": 86,
+      "anchor": "_Flush",
+      "anchor_offset": 0,
+      "rva": 796800,
+      "size": 58,
+      "kind": "code",
+      "sha256": "c2c90ec73904dad254f18acbb34919d2db9776572ff5cfeeb947e944d264be67",
+      "bindings": [
+        {
+          "symbol": "_WriteEndMarker",
+          "site_rva": 796824,
+          "kind": 20,
+          "target_va": 269232000
+        },
+        {
+          "symbol": "_RangeEnc_FlushData",
+          "site_rva": 796840,
+          "kind": 20,
+          "target_va": 269224432
+        },
+        {
+          "symbol": "_RangeEnc_FlushStream",
+          "site_rva": 796845,
+          "kind": 20,
+          "target_va": 269224208
+        },
+        {
+          "symbol": "_CheckErrors",
+          "site_rva": 796854,
+          "kind": 20,
+          "target_va": 269232176
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_lzma_matchfinder",
+      "section": 45,
+      "anchor": "_MatchFinder_Normalize",
+      "anchor_offset": 0,
+      "rva": 773744,
+      "size": 39,
+      "kind": "code",
+      "sha256": "9617bc9ba8369a94dda0906aa4f4e742f206acb435cc1693fccdc836744c793a",
+      "bindings": [
+        {
+          "symbol": "_MatchFinder_GetSubValue",
+          "site_rva": 773748,
+          "kind": 20,
+          "target_va": 269209136
+        },
+        {
+          "symbol": "_MatchFinder_Normalize3",
+          "site_rva": 773767,
+          "kind": 20,
+          "target_va": 269209152
+        },
+        {
+          "symbol": "_MatchFinder_ReduceOffsets",
+          "site_rva": 773774,
+          "kind": 20,
+          "target_va": 269207888
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_lzma_matchfinder",
+      "section": 21,
+      "anchor": "_MatchFinder_CheckAndMoveAndRead",
+      "anchor_offset": 0,
+      "rva": 772768,
+      "size": 32,
+      "kind": "code",
+      "sha256": "8ed606a617d5938f63ae738274ac618cea5d3ee553a73043dfe08502f05d2eea",
+      "bindings": [
+        {
+          "symbol": "_MatchFinder_NeedMove",
+          "site_rva": 772773,
+          "kind": 20,
+          "target_va": 269208144
+        },
+        {
+          "symbol": "_MatchFinder_MoveBlock",
+          "site_rva": 772786,
+          "kind": 20,
+          "target_va": 269208096
+        },
+        {
+          "symbol": "_MatchFinder_ReadBlock",
+          "site_rva": 772794,
+          "kind": 20,
+          "target_va": 269207920
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_lzma_encoder",
+      "section": 58,
+      "anchor": "_LenEnc_SetPrices",
+      "anchor_offset": 0,
+      "rva": 790112,
+      "size": 261,
+      "kind": "code",
+      "sha256": "6106339391745508e88195d1a0ceb4e3c100dea72750056854e6f1ac7c542633",
+      "bindings": [
+        {
+          "symbol": "_RcTree_GetPrice",
+          "site_rva": 790221,
+          "kind": 20,
+          "target_va": 269225184
+        },
+        {
+          "symbol": "_RcTree_GetPrice",
+          "site_rva": 790297,
+          "kind": 20,
+          "target_va": 269225184
+        },
+        {
+          "symbol": "_RcTree_GetPrice",
+          "site_rva": 790345,
+          "kind": 20,
+          "target_va": 269225184
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_lzma_encoder",
+      "section": 20,
+      "anchor": "_RangeEnc_Alloc",
+      "anchor_offset": 0,
+      "rva": 788624,
+      "size": 40,
+      "kind": "code",
+      "sha256": "2c00d251acd206dbd59c8e16a0f8bf768c0acf806a5313cf6672bf3efd423091",
+      "bindings": []
+    },
+    {
+      "unit": "closure_vendor_lzma_encoder",
+      "section": 28,
+      "anchor": "@RangeEnc_ShiftLow@4",
+      "anchor_offset": 0,
+      "rva": 788816,
+      "size": 149,
+      "kind": "code",
+      "sha256": "9889c74efc6b551ceb4cdc9062871b57c4eedb03635bbd4ff2d9d61508c0dfc2",
+      "bindings": [
+        {
+          "symbol": "__aullshr",
+          "site_rva": 788840,
+          "kind": 20,
+          "target_va": 269269744
+        },
+        {
+          "symbol": "__aullshr",
+          "site_rva": 788867,
+          "kind": 20,
+          "target_va": 269269744
+        },
+        {
+          "symbol": "_RangeEnc_FlushStream",
+          "site_rva": 788887,
+          "kind": 20,
+          "target_va": 269224208
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_lzma_encoder",
+      "section": 66,
+      "anchor": "_MovePos",
+      "anchor_offset": 0,
+      "rva": 790544,
+      "size": 23,
+      "kind": "code",
+      "sha256": "b97323c6defeae44a940647f6b4312b54905c8f37cdcb97df5c74900cee37259",
+      "bindings": []
+    },
+    {
+      "unit": "closure_vendor_lzma_encoder",
+      "section": 44,
+      "anchor": "_LitEnc_GetPriceMatched",
+      "anchor_offset": 0,
+      "rva": 789488,
+      "size": 87,
+      "kind": "code",
+      "sha256": "64ff4d9fea5e52b55c5f648704e669d592507b450cd96630243ee6c2d36ac661",
+      "bindings": []
+    },
+    {
+      "unit": "closure_vendor_lzma_encoder",
+      "section": 42,
+      "anchor": "_LitEnc_GetPrice",
+      "anchor_offset": 0,
+      "rva": 789424,
+      "size": 64,
+      "kind": "code",
+      "sha256": "22cdf5eb38ae42d8c379b74edf2c25e202db3845710c0fa383b2bc2c51019b4a",
+      "bindings": []
+    },
+    {
+      "unit": "closure_vendor_lzma_encoder",
+      "section": 70,
+      "anchor": "_GetRepLen1Price",
+      "anchor_offset": 0,
+      "rva": 790704,
+      "size": 50,
+      "kind": "code",
+      "sha256": "2ad624b61bf4dbe2e44e2cb3fe07a9825ab59145e14e554567e3d1b642f38213",
+      "bindings": []
+    },
+    {
+      "unit": "closure_vendor_lzma_encoder",
+      "section": 72,
+      "anchor": "_GetPureRepPrice",
+      "anchor_offset": 0,
+      "rva": 790768,
+      "size": 180,
+      "kind": "code",
+      "sha256": "02b910698b0087acb850f4d6e01abaad8302cf96fd6c7e5fc1983efc88f8e212",
+      "bindings": []
+    },
+    {
+      "unit": "closure_vendor_lzma_encoder",
+      "section": 74,
+      "anchor": "_GetRepPrice",
+      "anchor_offset": 0,
+      "rva": 790960,
+      "size": 35,
+      "kind": "code",
+      "sha256": "8e82c950409a2177d65387aa15d8d03bd6cb7aa7528c92a8c5b4f07b28471a29",
+      "bindings": [
+        {
+          "symbol": "_GetPureRepPrice",
+          "site_rva": 790967,
+          "kind": 20,
+          "target_va": 269226224
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_lzma_encoder",
+      "section": 76,
+      "anchor": "_Backward",
+      "anchor_offset": 0,
+      "rva": 791008,
+      "size": 206,
+      "kind": "code",
+      "sha256": "6bfb37d88446fe889ad8cd90fba7ac0a5c1ca85ab79e68934c8d143f4d8dac5e",
+      "bindings": []
+    },
+    {
+      "unit": "closure_vendor_lzma_encoder",
+      "section": 56,
+      "anchor": "_LenEnc_Encode",
+      "anchor_offset": 0,
+      "rva": 789936,
+      "size": 168,
+      "kind": "code",
+      "sha256": "25546dc15264217898104a5f5cc0d0123eca0c39fe8a6195f7c744cc6e6e0618",
+      "bindings": [
+        {
+          "symbol": "_RangeEnc_EncodeBit",
+          "site_rva": 789961,
+          "kind": 20,
+          "target_va": 269224544
+        },
+        {
+          "symbol": "_RcTree_Encode",
+          "site_rva": 789985,
+          "kind": 20,
+          "target_va": 269225040
+        },
+        {
+          "symbol": "_RangeEnc_EncodeBit",
+          "site_rva": 789999,
+          "kind": 20,
+          "target_va": 269224544
+        },
+        {
+          "symbol": "_RangeEnc_EncodeBit",
+          "site_rva": 790023,
+          "kind": 20,
+          "target_va": 269224544
+        },
+        {
+          "symbol": "_RcTree_Encode",
+          "site_rva": 790053,
+          "kind": 20,
+          "target_va": 269225040
+        },
+        {
+          "symbol": "_RangeEnc_EncodeBit",
+          "site_rva": 790067,
+          "kind": 20,
+          "target_va": 269224544
+        },
+        {
+          "symbol": "_RcTree_Encode",
+          "site_rva": 790093,
+          "kind": 20,
+          "target_va": 269225040
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_lzma_encoder",
+      "section": 82,
+      "anchor": "_WriteEndMarker",
+      "anchor_offset": 0,
+      "rva": 796544,
+      "size": 173,
+      "kind": "code",
+      "sha256": "9de3ca307b661a616a28e3f90d3eb5d7b8e9eb8b28469805ad428f51ea23bd39",
+      "bindings": [
+        {
+          "symbol": "_RangeEnc_EncodeBit",
+          "site_rva": 796582,
+          "kind": 20,
+          "target_va": 269224544
+        },
+        {
+          "symbol": "_RangeEnc_EncodeBit",
+          "site_rva": 796601,
+          "kind": 20,
+          "target_va": 269224544
+        },
+        {
+          "symbol": "_kMatchNextStates",
+          "site_rva": 796611,
+          "kind": 6,
+          "target_va": 269408264
+        },
+        {
+          "symbol": "_LenEnc_Encode2",
+          "site_rva": 796650,
+          "kind": 20,
+          "target_va": 269225936
+        },
+        {
+          "symbol": "_RcTree_Encode",
+          "site_rva": 796670,
+          "kind": 20,
+          "target_va": 269225040
+        },
+        {
+          "symbol": "_RangeEnc_EncodeDirectBits",
+          "site_rva": 796685,
+          "kind": 20,
+          "target_va": 269224464
+        },
+        {
+          "symbol": "_RcTree_ReverseEncode",
+          "site_rva": 796705,
+          "kind": 20,
+          "target_va": 269225104
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_lzma_encoder",
+      "section": 30,
+      "anchor": "_RangeEnc_FlushData",
+      "anchor_offset": 0,
+      "rva": 788976,
+      "size": 18,
+      "kind": "code",
+      "sha256": "8048f5994a30e4e71d194105c9e8e973c4e2c57ef7b4ec2e58681901dfe23df3",
+      "bindings": [
+        {
+          "symbol": "@RangeEnc_ShiftLow@4",
+          "site_rva": 788985,
+          "kind": 20,
+          "target_va": 269224272
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_lzma_encoder",
+      "section": 26,
+      "anchor": "_RangeEnc_FlushStream",
+      "anchor_offset": 0,
+      "rva": 788752,
+      "size": 63,
+      "kind": "code",
+      "sha256": "e561ba8b9a5b9f41a3c2f5d6da1372deecde533d4b0d1e9469b252ef05c82bfe",
+      "bindings": []
+    },
+    {
+      "unit": "closure_vendor_lzma_matchfinder",
+      "section": 41,
+      "anchor": "_MatchFinder_GetSubValue",
+      "anchor_offset": 0,
+      "rva": 773680,
+      "size": 13,
+      "kind": "code",
+      "sha256": "138860197e2694e201b4d190a8eb3320743281def271a679b308a938c6983d55",
+      "bindings": []
+    }
+  ],
+  "new_unique_code": 18910,
+  "object_sha256": {
+    "closure_vendor_lzma_encoder": "a000b830c6e2130d9bccc1fca742db4820de63c84fe37ae5907f04b76122d93d",
+    "closure_vendor_lzma_matchfinder": "b21376cae314c94053ba2239dbdc9e6fcf191fa5d20e2f9e33da70584af13350"
+  },
+  "source_sha256": {
+    "closure_vendor_lzma_encoder": "f94f7134e4bc5e536e1422f6094fcb01d14c6b51c61c17df3495ec010b3f15cc",
+    "closure_vendor_lzma_matchfinder": "4993d8af2769a786dc125c13fc887f6a1aa64f7fc3bd3e4964bd0640376b8eda"
+  },
+  "actual_weak_aliases": {
+    "closure_vendor_lzma_encoder": {},
+    "closure_vendor_lzma_matchfinder": {}
+  },
+  "provenance": "Igor Pavlov LZMA SDK16.04 public domain source from https://www.7-zip.org/a/lzma1604.7z. Canonical units are unchanged source/header amalgamations, _7ZIP_ST selects original single-thread layout. Full unique fingerprints and actual cross-calls anchor every code region; Ambiguous unreferenced Finish no-op remains outside coverage. No original instruction copying, masking, or fake providers. All constants and actual targets checked. Link and acceptance remain required."
+}

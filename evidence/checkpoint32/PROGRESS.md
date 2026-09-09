@@ -1579,3 +1579,6 @@ astra40-ten: +1427 unique R5 code bytes, total 435895/930756 (46.832360%). Route
 
 
 overnight-network-one: +1594 unique R5 code bytes, total 437489/930756 (47.003619%). GenerateDatagram1594 unique potential code bytes; three existing methods migrate to one real owner, zero duplicate credit. Complete source/linked code, data, EH and actual COFF/PE targets; required negative controls and ABI PASS. No duplicate/data/CRT/unimplemented-provider credit. Checkpoint remains active, no push/deployment. See overnight-reports/overnight-network-one.json.
+
+
+overnight-lzma-three: +30545 unique R5 code bytes, total 468034/930756 (50.285359%). LZMA decoder9033, encoder/matchfinder18910, vector/entity348 and Receive2254:30545 unique potential reconstructed code bytes. Complete source/linked code, data, EH and actual COFF/PE targets; required negative controls and ABI PASS. No duplicate/data/CRT/unimplemented-provider credit. Checkpoint remains active, no push/deployment. See overnight-reports/overnight-lzma-three.json.
