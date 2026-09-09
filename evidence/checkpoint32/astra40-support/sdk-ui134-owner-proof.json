@@ -1,0 +1,168 @@
+{
+  "status": "PASS_ALL_ACTUAL_COFF_OWNER_IDENTITIES",
+  "baseline": "astra40-three",
+  "checks": [
+    {
+      "root": {
+        "symbol": "?StringCchLengthA@@YGJPBDIPAI@Z",
+        "rva": 615296,
+        "size": 40,
+        "unit": "closure_gui_media"
+      },
+      "owners": [
+        {
+          "unit": "closure_gui_media",
+          "section": 18,
+          "value": 0,
+          "size": 40,
+          "sha256": "b7e70c5915f7d41cf0d7a9ec7b81aaf003b2718d525afe0014db39afe739071b",
+          "relocations": [
+            [
+              28,
+              20,
+              "?StringLengthWorkerA@@YGJPBDIPAI@Z"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "root": {
+        "symbol": "?GetAt@RPCObjectStatePoolView@@QAEPAVCObject@@G@Z",
+        "rva": 11744,
+        "size": 37,
+        "unit": "closure_rpc_world_objects"
+      },
+      "owners": [
+        {
+          "unit": "closure_rpc_world_objects",
+          "section": 56,
+          "value": 0,
+          "size": 37,
+          "sha256": "cf406c95f60b56bef30f5cdedb53d8db3120034fa15861ea8686d535c392f693",
+          "relocations": []
+        }
+      ]
+    },
+    {
+      "root": {
+        "symbol": "?GetSlotState@RPCInitMenuPoolView@@QAEHE@Z",
+        "rva": 97440,
+        "size": 26,
+        "unit": "closure_rpc_init_menu"
+      },
+      "owners": [
+        {
+          "unit": "closure_rpc_init_menu",
+          "section": 46,
+          "value": 0,
+          "size": 26,
+          "sha256": "1310839c777d770d509830fc18ddbf22fdf1e32dfc8866c72c4a669b2640ee00",
+          "relocations": []
+        }
+      ]
+    },
+    {
+      "root": {
+        "symbol": "?ShowNameTag@RPCAnimationRemoteView@@QAEXE@Z",
+        "rva": 97408,
+        "size": 17,
+        "unit": "closure_rpc_animation_camera"
+      },
+      "owners": [
+        {
+          "unit": "closure_rpc_animation_camera",
+          "section": 58,
+          "value": 0,
+          "size": 17,
+          "sha256": "c3c1fc2f19b1cd70bed84edcaba9900002e9c52f87b0e5de87900dec8135bc1a",
+          "relocations": []
+        }
+      ]
+    },
+    {
+      "root": {
+        "symbol": "?GetLocalPlayerName@RPCDeathPlayerPoolView@@QAEPADXZ",
+        "rva": 42208,
+        "size": 14,
+        "unit": "closure_scoreboard_update"
+      },
+      "owners": [
+        {
+          "unit": "closure_scoreboard_update",
+          "section": 58,
+          "value": 0,
+          "size": 14,
+          "sha256": "062f624251b4eb817ded03703596306e89b6d13563ec73f31af1858bc422171e",
+          "relocations": []
+        }
+      ]
+    },
+    {
+      "root": {
+        "unit": "closure_gui_media",
+        "symbol": "?StringLengthWorkerA@@YGJPBDIPAI@Z",
+        "rva": 491968,
+        "size": 64
+      },
+      "owners": [
+        {
+          "unit": "closure_dxut_dynamic",
+          "section": 6,
+          "value": 0,
+          "size": 64,
+          "sha256": "7395d9eb5c831f0e6335c78527d8f3fbbd0197066ac50ca03c1e448455a2aa74",
+          "relocations": []
+        },
+        {
+          "unit": "closure_dxut_enumeration",
+          "section": 9,
+          "value": 0,
+          "size": 64,
+          "sha256": "7395d9eb5c831f0e6335c78527d8f3fbbd0197066ac50ca03c1e448455a2aa74",
+          "relocations": []
+        },
+        {
+          "unit": "closure_dxut_state",
+          "section": 13,
+          "value": 0,
+          "size": 64,
+          "sha256": "7395d9eb5c831f0e6335c78527d8f3fbbd0197066ac50ca03c1e448455a2aa74",
+          "relocations": []
+        },
+        {
+          "unit": "closure_gui_elements",
+          "section": 11,
+          "value": 0,
+          "size": 64,
+          "sha256": "7395d9eb5c831f0e6335c78527d8f3fbbd0197066ac50ca03c1e448455a2aa74",
+          "relocations": []
+        },
+        {
+          "unit": "closure_gui_ime_render",
+          "section": 51,
+          "value": 0,
+          "size": 64,
+          "sha256": "7395d9eb5c831f0e6335c78527d8f3fbbd0197066ac50ca03c1e448455a2aa74",
+          "relocations": []
+        },
+        {
+          "unit": "closure_gui_media",
+          "section": 7,
+          "value": 0,
+          "size": 64,
+          "sha256": "7395d9eb5c831f0e6335c78527d8f3fbbd0197066ac50ca03c1e448455a2aa74",
+          "relocations": []
+        },
+        {
+          "unit": "closure_gui_unibuffer_lifetime",
+          "section": 48,
+          "value": 0,
+          "size": 64,
+          "sha256": "7395d9eb5c831f0e6335c78527d8f3fbbd0197066ac50ca03c1e448455a2aa74",
+          "relocations": []
+        }
+      ]
+    }
+  ]
+}

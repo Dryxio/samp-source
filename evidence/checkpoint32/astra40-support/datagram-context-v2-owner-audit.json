@@ -1,0 +1,29 @@
+{
+  "status": "OWNER_AND_REAL_COMDAT_SELECTION_PREFLIGHT_NOT_ACCEPTANCE",
+  "base": "evidence/checkpoint32/astra40-three-acceptance.json",
+  "errors": [],
+  "actual_comdat_selections": [
+    {
+      "symbol": "?GetBitStreamHeaderLength@ReliabilityLayer@@AAEHQBUInternalPacket@@@Z",
+      "section": 8,
+      "size": 54,
+      "selection": 2,
+      "meaning": "IMAGE_COMDAT_SELECT_ANY"
+    },
+    {
+      "symbol": "?WriteToBitStreamFromInternalPacket@ReliabilityLayer@@AAEHPAVBitStream@RakNet@@QBUInternalPacket@@@Z",
+      "section": 58,
+      "size": 288,
+      "selection": 2,
+      "meaning": "IMAGE_COMDAT_SELECT_ANY"
+    },
+    {
+      "symbol": "?InsertPacketIntoResendList@ReliabilityLayer@@AAEXPAUInternalPacket@@_J_N2@Z",
+      "section": 60,
+      "size": 134,
+      "selection": 2,
+      "meaning": "IMAGE_COMDAT_SELECT_ANY"
+    }
+  ],
+  "new_unique_code": 1594
+}

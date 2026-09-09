@@ -1,0 +1,43 @@
+{
+  "status": "SOURCE_EXACT_ALREADY_COVERED_PROVIDERS_PENDING_LINK_ZERO_NEW_CREDIT",
+  "new_code_bytes": 0,
+  "reason": "All six RVAs already covered by config/checkpoint31/regions.json, genuine raknet_RakPeer.obj methods. Their actual definitions were absent from the current sparse linked contract; astra40-four selects them as real providers with zero additional code credit.",
+  "roots": [
+    {
+      "unit": "closure_vendor_rakpeer_vft_leaves",
+      "symbol": "?DisableSecurity@RakPeer@@UAEXXZ",
+      "rva": 230400,
+      "size": 15
+    },
+    {
+      "unit": "closure_vendor_rakpeer_vft_leaves",
+      "symbol": "?SetMaximumIncomingConnections@RakPeer@@UAEXG@Z",
+      "rva": 230416,
+      "size": 12
+    },
+    {
+      "unit": "closure_vendor_rakpeer_vft_leaves",
+      "symbol": "?GetMaximumIncomingConnections@RakPeer@@UBEGXZ",
+      "rva": 230432,
+      "size": 5
+    },
+    {
+      "unit": "closure_vendor_rakpeer_vft_leaves",
+      "symbol": "?GetIncomingPassword@RakPeer@@UAEXPADPAH@Z",
+      "rva": 230528,
+      "size": 66
+    },
+    {
+      "unit": "closure_vendor_rakpeer_vft_leaves",
+      "symbol": "?GetMaximumNumberOfPeers@RakPeer@@UBEGXZ",
+      "rva": 230880,
+      "size": 5
+    },
+    {
+      "unit": "closure_vendor_rakpeer_vft_leaves",
+      "symbol": "?SetMTUSize@RakPeer@@UAE_NH@Z",
+      "rva": 231520,
+      "size": 70
+    }
+  ]
+}

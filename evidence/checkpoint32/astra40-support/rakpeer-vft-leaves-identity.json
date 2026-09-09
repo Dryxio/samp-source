@@ -1,0 +1,122 @@
+[
+  {
+    "symbol": "?DisableSecurity@RakPeer@@UAEXXZ",
+    "vft_rva": 953840,
+    "slot": 3,
+    "target_rva": 230400,
+    "original_pe_relocation": true,
+    "inventory": {
+      "rva": 230400,
+      "name": "?DisableSecurity@RakPeer@@UAEXXZ",
+      "classification": "network",
+      "status": "IDENTIFIED_ONLY",
+      "chunks": [
+        {
+          "rva": 230400,
+          "size": 15,
+          "sha256": "1bd55e0497138b3443627c181eef1a9663b0006bf2c2f47d1157d3dcf591caba"
+        }
+      ]
+    }
+  },
+  {
+    "symbol": "?SetMaximumIncomingConnections@RakPeer@@UAEXG@Z",
+    "vft_rva": 953840,
+    "slot": 4,
+    "target_rva": 230416,
+    "original_pe_relocation": true,
+    "inventory": {
+      "rva": 230416,
+      "name": "?SetMaximumIncomingConnections@RakPeer@@UAEXG@Z",
+      "classification": "network",
+      "status": "IDENTIFIED_ONLY",
+      "chunks": [
+        {
+          "rva": 230416,
+          "size": 12,
+          "sha256": "90cdbe11deac3474a62c67139a7c4a3f6f66b12662b1775511a6e27286407181"
+        }
+      ]
+    }
+  },
+  {
+    "symbol": "?GetMaximumIncomingConnections@RakPeer@@UBEGXZ",
+    "vft_rva": 953840,
+    "slot": 5,
+    "target_rva": 230432,
+    "original_pe_relocation": true,
+    "inventory": {
+      "rva": 230432,
+      "name": "?GetMaximumIncomingConnections@RakPeer@@UBEGXZ",
+      "classification": "network",
+      "status": "IDENTIFIED_ONLY",
+      "chunks": [
+        {
+          "rva": 230432,
+          "size": 5,
+          "sha256": "64990f1d8c50f658cbd739970bac46650459aa57c772f76696b59bba2c16647c"
+        }
+      ]
+    }
+  },
+  {
+    "symbol": "?GetIncomingPassword@RakPeer@@UAEXPADPAH@Z",
+    "vft_rva": 953840,
+    "slot": 7,
+    "target_rva": 230528,
+    "original_pe_relocation": true,
+    "inventory": {
+      "rva": 230528,
+      "name": "RakPeer::sub_10038480",
+      "classification": "network",
+      "status": "IDENTIFIED_ONLY",
+      "chunks": [
+        {
+          "rva": 230528,
+          "size": 66,
+          "sha256": "462d94e1350927c0ad35a81493b88d64493aabc01ca827bd032bf637833be7d8"
+        }
+      ]
+    }
+  },
+  {
+    "symbol": "?GetMaximumNumberOfPeers@RakPeer@@UBEGXZ",
+    "vft_rva": 953840,
+    "slot": 16,
+    "target_rva": 230880,
+    "original_pe_relocation": true,
+    "inventory": {
+      "rva": 230880,
+      "name": "?GetMaximumNumberOfPeers@RakPeer@@UBEGXZ",
+      "classification": "network",
+      "status": "IDENTIFIED_ONLY",
+      "chunks": [
+        {
+          "rva": 230880,
+          "size": 5,
+          "sha256": "ea248a2080e4b927a7939f4a34aaba204dfe210849ca13ffd92f951b4f39659f"
+        }
+      ]
+    }
+  },
+  {
+    "symbol": "?SetMTUSize@RakPeer@@UAE_NH@Z",
+    "vft_rva": 953840,
+    "slot": 42,
+    "target_rva": 231520,
+    "original_pe_relocation": true,
+    "inventory": {
+      "rva": 231520,
+      "name": "RakPeer::sub_10038860",
+      "classification": "network",
+      "status": "IDENTIFIED_ONLY",
+      "chunks": [
+        {
+          "rva": 231520,
+          "size": 70,
+          "sha256": "9d59ec3db3c200ea51a3f92dd70d7e9e3cd9a3abe950b21a39e4aedeb2499663"
+        }
+      ]
+    }
+  }
+]

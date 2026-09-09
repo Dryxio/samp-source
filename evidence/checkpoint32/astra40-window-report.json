@@ -1,0 +1,784 @@
+{
+  "status": "REQUESTED_WINDOW_FINISHED_CHECKPOINT_INCOMPLETE",
+  "requested_minutes": 40,
+  "accepted_at_requested_deadline": 434468,
+  "gain_accepted_by_requested_deadline": 3170,
+  "additional_gain_during_finalization": 1427,
+  "start": {
+    "start_utc": "2026-09-09T20:40:48Z",
+    "deadline_utc": "2026-09-09T21:20:48Z",
+    "baseline": 431298,
+    "proof": "evidence/checkpoint32/astra-resume-four-acceptance.json",
+    "quota_used_percent": 50,
+    "status": "RUNNING",
+    "scope": "40-minute user-requested continuation; previous interruption time excluded"
+  },
+  "actual_elapsed_minutes": 49.747970450000004,
+  "finalization_overrun_minutes": 9.747970450000004,
+  "overrun_reason": "Finish the already engaged integration, resolve real COFF ownership/emission, run unchanged acceptance and preserve evidence. All overrun time is included in throughput.",
+  "final_proof": "evidence/checkpoint32/astra40-ten-acceptance.json",
+  "coverage": {
+    "previous_code_bytes": 434468,
+    "batch_code_bytes": 429742,
+    "new_unique_code_bytes": 1427,
+    "union_code_bytes": 435895,
+    "text_bytes": 930756,
+    "text_percent": 46.83235993106679,
+    "whole_dll_match": false
+  },
+  "measurement": {
+    "utc": "2026-09-09T21:30:32.878227+00:00",
+    "elapsed_seconds": 2984.878227,
+    "baseline": 431298,
+    "accepted": 435895,
+    "gain": 4597,
+    "global_bytes_per_hour": 5544.346784502844,
+    "token_usage": {
+      "root": {
+        "configuration": {
+          "model": "gpt-6-astra",
+          "effort": "xhigh"
+        },
+        "usage": {
+          "input_tokens": 16689112,
+          "cached_input_tokens": 16279808,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 49898,
+          "reasoning_output_tokens": 16221,
+          "total_tokens": 16739010,
+          "uncached_input_tokens": 409304
+        },
+        "as_of": "2026-09-09T21:29:53.781Z",
+        "session": "/Users/salimtrouve/.codex/sessions/2026/09/09/rollout-2026-09-09T16-37-43-01a086d1-5f3f-7423-ad5c-a0064ea3c163.jsonl",
+        "observed_counter_resets": 1
+      },
+      "/root/client_game_ui": {
+        "configuration": {
+          "model": "gpt-6-astra",
+          "effort": "xhigh"
+        },
+        "usage": {
+          "input_tokens": 13275120,
+          "cached_input_tokens": 12871040,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 45709,
+          "reasoning_output_tokens": 15138,
+          "total_tokens": 13320829,
+          "uncached_input_tokens": 404080
+        },
+        "as_of": "2026-09-09T21:20:52.269Z",
+        "session": "/Users/salimtrouve/.codex/sessions/2026/09/09/rollout-2026-09-09T16-39-26-01a086d2-f295-7d80-8d32-257f38a08fe4.jsonl",
+        "observed_counter_resets": 1
+      },
+      "/root/network_common": {
+        "configuration": {
+          "model": "gpt-6-astra",
+          "effort": "xhigh"
+        },
+        "usage": {
+          "input_tokens": 15651887,
+          "cached_input_tokens": 15259136,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 59959,
+          "reasoning_output_tokens": 20609,
+          "total_tokens": 15711846,
+          "uncached_input_tokens": 392751
+        },
+        "as_of": "2026-09-09T21:28:14.465Z",
+        "session": "/Users/salimtrouve/.codex/sessions/2026/09/09/rollout-2026-09-09T16-39-43-01a086d3-33a6-7c61-9e94-6313eddfe902.jsonl",
+        "observed_counter_resets": 0
+      }
+    },
+    "pipeline_seconds": {
+      "vm-idle": 7.707003873994836,
+      "compile": 88.38716575000944,
+      "audit": 16.79740720699556,
+      "link": 29.36353666600189,
+      "qualify": 2.8325712500009104,
+      "spec": 0.11341854099737247,
+      "review": 22.777935708007135,
+      "accept": 205.90155462499752
+    },
+    "token_note": "Observed cumulative counters reset on continuation; sum monotonic increments within the requested window and restart from zero on a verified decrease. Earlier negative raw differences are invalid and retained in history. Counters may lag; reasoning is a subset of output; cached input is separate; no billed cost inferred.",
+    "recent_bytes_per_hour": 0.0
+  },
+  "quota": {
+    "utc": "2026-09-09T21:29:53Z",
+    "used_percent": 56,
+    "remaining_percent": 44,
+    "window_minutes": 10080,
+    "resets_at": 1789437432,
+    "scope": "Shared Codex account; observed after accepted final batch"
+  },
+  "quota_delta_percentage_points": 6,
+  "remaining_minutes_at_observed_shared_account_rate": 364.8184499666667,
+  "quota_note": "Shared account quota, rounded percentages; this extrapolation is indicative only. No reset used and no billing cost inferred.",
+  "attempts": [
+    {
+      "id": "astra40-eight",
+      "events": [
+        {
+          "utc": "2026-09-09T21:21:55.125221+00:00",
+          "stage": "plan",
+          "potential_root_bytes": 3000
+        },
+        {
+          "utc": "2026-09-09T21:22:26.420315+00:00",
+          "stage": "vm-idle",
+          "seconds": 0.7951169590014615,
+          "exit_code": 0,
+          "log": "build/integration-pipeline/astra40-eight/vm-idle-1788988945624590000.log"
+        },
+        {
+          "utc": "2026-09-09T21:22:26.470452+00:00",
+          "stage": "plan",
+          "potential_root_bytes": 3000
+        },
+        {
+          "utc": "2026-09-09T21:22:34.929997+00:00",
+          "stage": "compile",
+          "seconds": 8.164932625000802,
+          "exit_code": 0,
+          "log": "build/integration-pipeline/astra40-eight/compile-1788988946764710000.log"
+        },
+        {
+          "utc": "2026-09-09T21:22:35.490332+00:00",
+          "stage": "rejected",
+          "reason": "'?WriteToBitStreamFromInternalPacket@ReliabilityLayer@@AAEHPAVBitStream@RakNet@@QBUInternalPacket@@@Z'"
+        }
+      ]
+    },
+    {
+      "id": "astra40-five",
+      "events": [
+        {
+          "utc": "2026-09-09T21:10:46.143736+00:00",
+          "stage": "plan",
+          "potential_root_bytes": 1286
+        },
+        {
+          "utc": "2026-09-09T21:10:47.373012+00:00",
+          "stage": "vm-idle",
+          "seconds": 0.8675407909977366,
+          "exit_code": 0,
+          "log": "build/integration-pipeline/astra40-five/vm-idle-1788988246504797000.log"
+        },
+        {
+          "utc": "2026-09-09T21:10:47.426536+00:00",
+          "stage": "plan",
+          "potential_root_bytes": 1286
+        },
+        {
+          "utc": "2026-09-09T21:10:56.980542+00:00",
+          "stage": "compile",
+          "seconds": 9.297514792000584,
+          "exit_code": 0,
+          "log": "build/integration-pipeline/astra40-five/compile-1788988247681814000.log"
+        },
+        {
+          "utc": "2026-09-09T21:10:59.166929+00:00",
+          "stage": "audit",
+          "seconds": 2.0708170830002928,
+          "status": "CLOSURE_REVIEWED_NOT_ACCEPTED",
+          "pending": 0,
+          "unreviewed": 0,
+          "collisions": 0
+        },
+        {
+          "utc": "2026-09-09T21:11:03.588284+00:00",
+          "stage": "link",
+          "seconds": 4.413092582999525,
+          "exit_code": 1,
+          "log": "build/integration-pipeline/astra40-five/link-1788988259174374000.log"
+        },
+        {
+          "utc": "2026-09-09T21:11:03.589130+00:00",
+          "stage": "rejected",
+          "reason": "link failed; see build/integration-pipeline/astra40-five/link-1788988259174374000.log"
+        }
+      ]
+    },
+    {
+      "id": "astra40-four",
+      "events": [
+        {
+          "utc": "2026-09-09T21:08:05.946470+00:00",
+          "stage": "plan",
+          "potential_root_bytes": 826
+        },
+        {
+          "utc": "2026-09-09T21:08:07.124544+00:00",
+          "stage": "vm-idle",
+          "seconds": 0.8176383749996603,
+          "exit_code": 0,
+          "log": "build/integration-pipeline/astra40-four/vm-idle-1788988086306302000.log"
+        },
+        {
+          "utc": "2026-09-09T21:08:07.165908+00:00",
+          "stage": "plan",
+          "potential_root_bytes": 826
+        },
+        {
+          "utc": "2026-09-09T21:08:15.828574+00:00",
+          "stage": "compile",
+          "seconds": 8.410889958002372,
+          "exit_code": 0,
+          "log": "build/integration-pipeline/astra40-four/compile-1788988087417237000.log"
+        },
+        {
+          "utc": "2026-09-09T21:08:17.851730+00:00",
+          "stage": "audit",
+          "seconds": 1.9308107500000915,
+          "status": "BLOCKED",
+          "pending": 0,
+          "unreviewed": 0,
+          "collisions": 0
+        },
+        {
+          "utc": "2026-09-09T21:08:17.851859+00:00",
+          "stage": "rejected",
+          "reason": "Emitted closure blocked: /Users/salimtrouve/Documents/GitHub/samp-r5-matching/build/integration-pipeline/astra40-four/closure-audit.json"
+        }
+      ]
+    },
+    {
+      "id": "astra40-one",
+      "events": [
+        {
+          "utc": "2026-09-09T20:48:44.190369+00:00",
+          "stage": "plan",
+          "potential_root_bytes": 2305
+        },
+        {
+          "utc": "2026-09-09T20:48:45.700911+00:00",
+          "stage": "vm-idle",
+          "seconds": 1.0788672499984386,
+          "exit_code": 0,
+          "log": "build/integration-pipeline/astra40-one/vm-idle-1788986924621407000.log"
+        },
+        {
+          "utc": "2026-09-09T20:48:45.745449+00:00",
+          "stage": "plan",
+          "potential_root_bytes": 2305
+        },
+        {
+          "utc": "2026-09-09T20:49:05.016240+00:00",
+          "stage": "compile",
+          "seconds": 18.964166624999052,
+          "exit_code": 0,
+          "log": "build/integration-pipeline/astra40-one/compile-1788986926051509000.log"
+        },
+        {
+          "utc": "2026-09-09T20:49:07.744864+00:00",
+          "stage": "audit",
+          "seconds": 2.409448832997441,
+          "status": "BLOCKED",
+          "pending": 0,
+          "unreviewed": 0,
+          "collisions": 0
+        },
+        {
+          "utc": "2026-09-09T20:49:07.744960+00:00",
+          "stage": "rejected",
+          "reason": "Emitted closure blocked: /Users/salimtrouve/Documents/GitHub/samp-r5-matching/build/integration-pipeline/astra40-one/closure-audit.json"
+        }
+      ]
+    },
+    {
+      "id": "astra40-seven",
+      "events": [
+        {
+          "utc": "2026-09-09T21:18:51.691468+00:00",
+          "stage": "plan",
+          "potential_root_bytes": 3000
+        },
+        {
+          "utc": "2026-09-09T21:18:52.875303+00:00",
+          "stage": "vm-idle",
+          "seconds": 0.8196683749993099,
+          "exit_code": 0,
+          "log": "build/integration-pipeline/astra40-seven/vm-idle-1788988732055256000.log"
+        },
+        {
+          "utc": "2026-09-09T21:18:52.916223+00:00",
+          "stage": "plan",
+          "potential_root_bytes": 3000
+        },
+        {
+          "utc": "2026-09-09T21:19:01.877987+00:00",
+          "stage": "compile",
+          "seconds": 8.704441333000432,
+          "exit_code": 0,
+          "log": "build/integration-pipeline/astra40-seven/compile-1788988733172805000.log"
+        },
+        {
+          "utc": "2026-09-09T21:19:04.103547+00:00",
+          "stage": "audit",
+          "seconds": 2.136783750000177,
+          "status": "CLOSURE_REVIEWED_NOT_ACCEPTED",
+          "pending": 0,
+          "unreviewed": 0,
+          "collisions": 0
+        },
+        {
+          "utc": "2026-09-09T21:19:08.536421+00:00",
+          "stage": "link",
+          "seconds": 4.424499417000334,
+          "exit_code": 1,
+          "log": "build/integration-pipeline/astra40-seven/link-1788988744111333000.log"
+        },
+        {
+          "utc": "2026-09-09T21:19:08.537273+00:00",
+          "stage": "rejected",
+          "reason": "link failed; see build/integration-pipeline/astra40-seven/link-1788988744111333000.log"
+        }
+      ]
+    },
+    {
+      "id": "astra40-six",
+      "events": [
+        {
+          "utc": "2026-09-09T21:14:44.670094+00:00",
+          "stage": "plan",
+          "potential_root_bytes": 3000
+        },
+        {
+          "utc": "2026-09-09T21:14:45.854449+00:00",
+          "stage": "vm-idle",
+          "seconds": 0.8192707909984165,
+          "exit_code": 0,
+          "log": "build/integration-pipeline/astra40-six/vm-idle-1788988485034755000.log"
+        },
+        {
+          "utc": "2026-09-09T21:14:45.900468+00:00",
+          "stage": "plan",
+          "potential_root_bytes": 3000
+        },
+        {
+          "utc": "2026-09-09T21:14:56.382776+00:00",
+          "stage": "compile",
+          "seconds": 10.188576625001588,
+          "exit_code": 0,
+          "log": "build/integration-pipeline/astra40-six/compile-1788988486193341000.log"
+        },
+        {
+          "utc": "2026-09-09T21:14:58.697500+00:00",
+          "stage": "audit",
+          "seconds": 2.1634998330009694,
+          "status": "CLOSURE_REVIEWED_NOT_ACCEPTED",
+          "pending": 0,
+          "unreviewed": 0,
+          "collisions": 0
+        },
+        {
+          "utc": "2026-09-09T21:15:02.608699+00:00",
+          "stage": "link",
+          "seconds": 3.902602375001152,
+          "exit_code": 1,
+          "log": "build/integration-pipeline/astra40-six/link-1788988498705626000.log"
+        },
+        {
+          "utc": "2026-09-09T21:15:02.609533+00:00",
+          "stage": "rejected",
+          "reason": "link failed; see build/integration-pipeline/astra40-six/link-1788988498705626000.log"
+        }
+      ]
+    },
+    {
+      "id": "astra40-ten",
+      "events": [
+        {
+          "utc": "2026-09-09T21:27:19.187894+00:00",
+          "stage": "plan",
+          "potential_root_bytes": 1406
+        },
+        {
+          "utc": "2026-09-09T21:27:20.486415+00:00",
+          "stage": "vm-idle",
+          "seconds": 0.9370108330003859,
+          "exit_code": 0,
+          "log": "build/integration-pipeline/astra40-ten/vm-idle-1788989239548108000.log"
+        },
+        {
+          "utc": "2026-09-09T21:27:20.542294+00:00",
+          "stage": "plan",
+          "potential_root_bytes": 1406
+        },
+        {
+          "utc": "2026-09-09T21:27:28.552276+00:00",
+          "stage": "compile",
+          "seconds": 7.749341167000239,
+          "exit_code": 0,
+          "log": "build/integration-pipeline/astra40-ten/compile-1788989240802451000.log"
+        },
+        {
+          "utc": "2026-09-09T21:27:30.694731+00:00",
+          "stage": "audit",
+          "seconds": 2.0593000419976306,
+          "status": "CLOSURE_REVIEWED_NOT_ACCEPTED",
+          "pending": 0,
+          "unreviewed": 0,
+          "collisions": 0
+        },
+        {
+          "utc": "2026-09-09T21:27:35.781529+00:00",
+          "stage": "link",
+          "seconds": 5.078743875001237,
+          "exit_code": 0,
+          "log": "build/integration-pipeline/astra40-ten/link-1788989250702345000.log"
+        },
+        {
+          "utc": "2026-09-09T21:27:36.924737+00:00",
+          "stage": "qualify",
+          "seconds": 0.9872212919981393,
+          "exit_code": 0,
+          "log": "build/integration-pipeline/astra40-ten/qualify-1788989255937263000.log"
+        },
+        {
+          "utc": "2026-09-09T21:27:36.949807+00:00",
+          "stage": "spec",
+          "seconds": 0.024691708000318613,
+          "exit_code": 0,
+          "log": "build/integration-pipeline/astra40-ten/spec-1788989256924899000.log"
+        },
+        {
+          "utc": "2026-09-09T21:27:49.820957+00:00",
+          "stage": "review",
+          "seconds": 11.326270167002804,
+          "exit_code": 0,
+          "log": "build/integration-pipeline/astra40-ten/review-1788989258494287000.log"
+        },
+        {
+          "utc": "2026-09-09T21:29:34.864816+00:00",
+          "stage": "accept",
+          "seconds": 104.76313691699761,
+          "exit_code": 0,
+          "log": "build/integration-pipeline/astra40-ten/accept-1788989270100735000.log"
+        },
+        {
+          "utc": "2026-09-09T21:29:34.873978+00:00",
+          "stage": "accepted",
+          "coverage": {
+            "previous_code_bytes": 434468,
+            "batch_code_bytes": 429742,
+            "new_unique_code_bytes": 1427,
+            "union_code_bytes": 435895,
+            "text_bytes": 930756,
+            "text_percent": 46.83235993106679,
+            "whole_dll_match": false
+          }
+        }
+      ]
+    },
+    {
+      "id": "astra40-three",
+      "events": [
+        {
+          "utc": "2026-09-09T21:01:27.992871+00:00",
+          "stage": "plan",
+          "potential_root_bytes": 2801
+        },
+        {
+          "utc": "2026-09-09T21:01:29.101895+00:00",
+          "stage": "vm-idle",
+          "seconds": 0.752165416997741,
+          "exit_code": 0,
+          "log": "build/integration-pipeline/astra40-three/vm-idle-1788987688349123000.log"
+        },
+        {
+          "utc": "2026-09-09T21:01:29.136032+00:00",
+          "stage": "plan",
+          "potential_root_bytes": 2801
+        },
+        {
+          "utc": "2026-09-09T21:01:37.782726+00:00",
+          "stage": "compile",
+          "seconds": 8.400776500002394,
+          "exit_code": 0,
+          "log": "build/integration-pipeline/astra40-three/compile-1788987689381391000.log"
+        },
+        {
+          "utc": "2026-09-09T21:01:39.869678+00:00",
+          "stage": "audit",
+          "seconds": 1.986813457999233,
+          "status": "CLOSURE_REVIEWED_NOT_ACCEPTED",
+          "pending": 0,
+          "unreviewed": 0,
+          "collisions": 0
+        },
+        {
+          "utc": "2026-09-09T21:01:45.495635+00:00",
+          "stage": "link",
+          "seconds": 5.616772583001875,
+          "exit_code": 0,
+          "log": "build/integration-pipeline/astra40-three/link-1788987699877620000.log"
+        },
+        {
+          "utc": "2026-09-09T21:01:46.538910+00:00",
+          "stage": "qualify",
+          "seconds": 0.8795000410027569,
+          "exit_code": 0,
+          "log": "build/integration-pipeline/astra40-three/qualify-1788987705659194000.log"
+        },
+        {
+          "utc": "2026-09-09T21:01:46.587551+00:00",
+          "stage": "spec",
+          "seconds": 0.048291999999491964,
+          "exit_code": 0,
+          "log": "build/integration-pipeline/astra40-three/spec-1788987706539039000.log"
+        },
+        {
+          "utc": "2026-09-09T21:01:59.515449+00:00",
+          "stage": "review",
+          "seconds": 11.187074125002255,
+          "exit_code": 0,
+          "log": "build/integration-pipeline/astra40-three/review-1788987708328060000.log"
+        },
+        {
+          "utc": "2026-09-09T21:03:40.863577+00:00",
+          "stage": "accept",
+          "seconds": 101.1384177079999,
+          "exit_code": 0,
+          "log": "build/integration-pipeline/astra40-three/accept-1788987719724050000.log"
+        },
+        {
+          "utc": "2026-09-09T21:03:40.872659+00:00",
+          "stage": "accepted",
+          "coverage": {
+            "previous_code_bytes": 431298,
+            "batch_code_bytes": 428078,
+            "new_unique_code_bytes": 3170,
+            "union_code_bytes": 434468,
+            "text_bytes": 930756,
+            "text_percent": 46.67904370210882,
+            "whole_dll_match": false
+          }
+        }
+      ]
+    },
+    {
+      "id": "astra40-two",
+      "events": [
+        {
+          "utc": "2026-09-09T20:59:36.709145+00:00",
+          "stage": "plan",
+          "potential_root_bytes": 2801
+        },
+        {
+          "utc": "2026-09-09T20:59:38.003757+00:00",
+          "stage": "vm-idle",
+          "seconds": 0.8197250830016856,
+          "exit_code": 0,
+          "log": "build/integration-pipeline/astra40-two/vm-idle-1788987577183544000.log"
+        },
+        {
+          "utc": "2026-09-09T20:59:38.049382+00:00",
+          "stage": "plan",
+          "potential_root_bytes": 2801
+        },
+        {
+          "utc": "2026-09-09T20:59:46.812570+00:00",
+          "stage": "compile",
+          "seconds": 8.506526125001983,
+          "exit_code": 0,
+          "log": "build/integration-pipeline/astra40-two/compile-1788987578305455000.log"
+        },
+        {
+          "utc": "2026-09-09T20:59:48.944927+00:00",
+          "stage": "audit",
+          "seconds": 2.039933457999723,
+          "status": "CLOSURE_REVIEWED_NOT_ACCEPTED",
+          "pending": 0,
+          "unreviewed": 0,
+          "collisions": 0
+        },
+        {
+          "utc": "2026-09-09T20:59:54.881615+00:00",
+          "stage": "link",
+          "seconds": 5.927825832997769,
+          "exit_code": 0,
+          "log": "build/integration-pipeline/astra40-two/link-1788987588953162000.log"
+        },
+        {
+          "utc": "2026-09-09T20:59:56.020887+00:00",
+          "stage": "qualify",
+          "seconds": 0.9658499170000141,
+          "exit_code": 0,
+          "log": "build/integration-pipeline/astra40-two/qualify-1788987595054796000.log"
+        },
+        {
+          "utc": "2026-09-09T20:59:56.061667+00:00",
+          "stage": "spec",
+          "seconds": 0.0404348329975619,
+          "exit_code": 0,
+          "log": "build/integration-pipeline/astra40-two/spec-1788987596021047000.log"
+        },
+        {
+          "utc": "2026-09-09T20:59:57.926203+00:00",
+          "stage": "review",
+          "seconds": 0.2645914160020766,
+          "exit_code": 1,
+          "log": "build/integration-pipeline/astra40-two/review-1788987597661409000.log"
+        },
+        {
+          "utc": "2026-09-09T20:59:57.926403+00:00",
+          "stage": "rejected",
+          "reason": "review failed; see build/integration-pipeline/astra40-two/review-1788987597661409000.log"
+        }
+      ]
+    }
+  ],
+  "probes": [
+    {
+      "stage": "probe-one",
+      "seconds": 0.11597954100216157,
+      "exit_code": 255,
+      "run": "cp32-astra40-probe-one",
+      "log": "build/astra40/probe-one.log"
+    },
+    {
+      "stage": "probe-two",
+      "seconds": 16.421988666999823,
+      "exit_code": 0,
+      "run": "cp32-astra40-probe-two",
+      "log": "build/astra40/probe-two.log"
+    },
+    {
+      "stage": "probe-three",
+      "seconds": 9.116156333999243,
+      "exit_code": 0,
+      "run": "cp32-astra40-probe-three",
+      "log": "build/astra40/probe-three.log"
+    },
+    {
+      "stage": "probe-four",
+      "seconds": 7.919180917000631,
+      "exit_code": 0,
+      "run": "cp32-astra40-probe-four",
+      "log": "build/astra40/probe-four.log"
+    },
+    {
+      "stage": "probe-five",
+      "seconds": 7.452807334000681,
+      "exit_code": 0,
+      "run": "cp32-astra40-probe-five",
+      "log": "build/astra40/probe-five.log"
+    },
+    {
+      "stage": "probe-six",
+      "seconds": 7.2337508339987835,
+      "exit_code": 0,
+      "run": "cp32-astra40-probe-six",
+      "log": "build/astra40/probe-six.log"
+    },
+    {
+      "stage": "probe-seven",
+      "seconds": 7.305832250000094,
+      "exit_code": 0,
+      "run": "cp32-astra40-probe-seven",
+      "log": "build/astra40/probe-seven.log"
+    },
+    {
+      "stage": "probe-eight",
+      "seconds": 7.066156417000457,
+      "exit_code": 0,
+      "run": "cp32-astra40-probe-eight",
+      "log": "build/astra40/probe-eight.log"
+    },
+    {
+      "stage": "probe-nine",
+      "seconds": 7.499266749997332,
+      "exit_code": 0,
+      "run": "cp32-astra40-probe-nine",
+      "log": "build/astra40/probe-nine.log"
+    },
+    {
+      "stage": "probe-ten",
+      "seconds": 5.160636250002426,
+      "exit_code": 1,
+      "run": "cp32-astra40-probe-ten",
+      "log": "build/astra40/probe-ten.log"
+    }
+  ],
+  "support": [
+    {
+      "path": "evidence/checkpoint32/astra40-support/CLIENT40-REPORT.md",
+      "source": "build/astra-resume/client/CLIENT40-REPORT.md",
+      "sha256": "38c67050ffd8e7393b6c0913b093b2f9c6de799605c432a9b7770f51bcbcfa09"
+    },
+    {
+      "path": "evidence/checkpoint32/astra40-support/astra40-network-final-handoff-report.md",
+      "source": "build/astra-resume/network/astra40-network-final-handoff-report.md",
+      "sha256": "fae03d8be90e9d41f8341ac3c3a795b6093b959257fab48028dd2a4eee8be88d"
+    },
+    {
+      "path": "evidence/checkpoint32/astra40-support/datagram-final-rejected-status.json",
+      "source": "build/astra-resume/network/datagram-final-rejected-status.json",
+      "sha256": "0e64847ddb46860860954c7811f51740bf1296454786790666cfe842461db077"
+    },
+    {
+      "path": "evidence/checkpoint32/astra40-support/sdk-string-all-owners-astra40-three-reviewed-manifest.json",
+      "source": "build/astra-resume/client/sdk-string-all-owners-astra40-three-reviewed-manifest.json",
+      "sha256": "436fce17f7a106ae5c2c9b660063cc0a8e84d0f0723b978f3a26ecb76153d69b"
+    },
+    {
+      "path": "evidence/checkpoint32/astra40-support/sdk-dxut460-all-owners-reviewed-manifest.json",
+      "source": "build/astra-resume/client/sdk-dxut460-all-owners-reviewed-manifest.json",
+      "sha256": "ba3c5d6778c3dbf6692edfeada8132d2fc1b867c12bf60ea25c8b1421844f14a"
+    },
+    {
+      "path": "evidence/checkpoint32/astra40-support/sdk-ui134-owner-proof.json",
+      "source": "build/astra-resume/client/sdk-ui134-owner-proof.json",
+      "sha256": "f492d92a76eb0e8832daba0385fb9c43b83e1b1cd068e7b9517e74581612a07b"
+    },
+    {
+      "path": "evidence/checkpoint32/astra40-support/rakpeer-vft-leaves-identity.json",
+      "source": "build/astra40/root/rakpeer-vft-leaves-identity.json",
+      "sha256": "9948ce6d171bc290a7a3f58fb0bc30aada41e99d76962a4d4fc23a0a1951759d"
+    },
+    {
+      "path": "evidence/checkpoint32/astra40-support/rakpeer-vft-leaves-no-credit.json",
+      "source": "build/astra40/root/rakpeer-vft-leaves-no-credit.json",
+      "sha256": "e4cf4274c51d6d93c5e89e12234ecb07712825649f15988445a24920672b67f7"
+    },
+    {
+      "path": "evidence/checkpoint32/astra40-support/start.json",
+      "source": "build/astra40/start.json",
+      "sha256": "07d96fd3b7c81908e15f0ae57fa44dd20b1c9981b2f6ca7f7107034ec7ca4736"
+    },
+    {
+      "path": "evidence/checkpoint32/astra40-support/quota-30min.json",
+      "source": "build/astra40/quota-30min.json",
+      "sha256": "db3f250724edc7b6c2ac373364d63fdb820be9514e442f17fa7c77cbe0e89952"
+    },
+    {
+      "path": "evidence/checkpoint32/astra40-support/quota-final.json",
+      "source": "build/astra40/quota-final.json",
+      "sha256": "f57dac6283bb044054655a91dfb392c12b45c0d5126e01e9d114a56feb235c23"
+    },
+    {
+      "path": "evidence/checkpoint32/astra40-support/datagram-context-v2-owner-audit.json",
+      "source": "build/astra-resume/network/datagram-context-v2-owner-audit.json",
+      "sha256": "f92f1cfc9a233f1a69b0018d34a583e7d2fff8174f034c5ed14caa5e8be00041"
+    },
+    {
+      "path": "evidence/checkpoint32/astra40-support/datagram-context-owner-audit.json",
+      "source": "build/astra-resume/network/datagram-context-owner-audit.json",
+      "sha256": "a8773b9dc167f92606634de62fbff4d333d967a45f38da345b2b246ac4dc2b69"
+    }
+  ],
+  "preserved_main": true,
+  "no_push": true,
+  "no_deployment": true,
+  "provenance": "UI267 newly reconstructed during the window; SDK/UI1123 preexisting source/objects newly selected and reviewed. Transport/Router candidates partly prepared before interruption; their closure corrections and parser/queue/factory reviews progressed here. GenerateDatagram1594 is full source exact but NOT accepted: COMDAT/linkage and canonical emission remain unresolved. Its attempted changes were restored from pre-trial backups, and its code earns zero credit. No exclusive0.2.5 credit. Previously covered RakPeer173 and StringLengthWorker64 earn zero new bytes.",
+  "open_work": [
+    "Full samp.dll reconstruction remains incomplete.",
+    "GenerateDatagram1594 source exact remains unaccepted: genuine canonical ownership/COMDAT/header linkage must be resolved in a separate controlled change.",
+    "Stats Draw1310 remains divergent after1327/1323/1326; real PSAPI import qualification staged, not accepted.",
+    "IME EditMsgProc597 still has21 register-byte differences.",
+    "_powf14 source exact and COFF global; DEF cdecl export spelling needs separate qualification.",
+    "Pipeline preflight should check COFF selection values as well as flags, and detect unreachable alternative-owner review rows before linking. Final linker/gate rejected every invalid attempt."
+  ],
+  "recent_accepted_batch_bytes_per_hour": 3305.749139446679,
+  "recent_batch_interval_seconds": 1554.019916
+}
