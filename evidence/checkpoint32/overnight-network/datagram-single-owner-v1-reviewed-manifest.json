@@ -1,0 +1,3190 @@
+{
+  "status": "PASS_FULL_SOURCE_REGIONS_ALL_COFF_PE_TARGETS",
+  "baseline": "config/checkpoint32/astra40-ten-contract.json",
+  "run": "build/cp32-overnight-probe-network-owner1",
+  "regions": [
+    {
+      "unit": "closure_vendor_reliability_packet_family",
+      "section": 143,
+      "anchor": "?BuildPacketFromSplitPacketList@ReliabilityLayer@@AAEPAUInternalPacket@@G_J@Z",
+      "anchor_offset": 0,
+      "rva": 297280,
+      "size": 677,
+      "kind": "code",
+      "sha256": "bd252957d3e831bfb9324f5576f14f8f5ac86639aa2009c93f59f46b2fa26156",
+      "bindings": [
+        {
+          "symbol": "?GetIndexFromKey@?$OrderedList@GPAUSplitPacketChannel@@$1?SplitPacketChannelComp@@YAHABGABQAU1@@Z@DataStructures@@QBEIABGPA_N@Z",
+          "site_rva": 297312,
+          "kind": 20,
+          "target_va": 268721648
+        },
+        {
+          "symbol": "??A?$OrderedList@GPAUSplitPacketChannel@@$1?SplitPacketChannelComp@@YAHABGABQAU1@@Z@DataStructures@@QBEAAPAUSplitPacketChannel@@I@Z",
+          "site_rva": 297322,
+          "kind": 20,
+          "target_va": 268721888
+        },
+        {
+          "symbol": "??A?$OrderedList@IPAUInternalPacket@@$1?SplitPacketIndexComp@@YAHABIABQAU1@@Z@DataStructures@@QBEAAPAUInternalPacket@@I@Z",
+          "site_rva": 297334,
+          "kind": 20,
+          "target_va": 268714512
+        },
+        {
+          "symbol": "??A?$OrderedList@GPAUSplitPacketChannel@@$1?SplitPacketChannelComp@@YAHABGABQAU1@@Z@DataStructures@@QBEAAPAUSplitPacketChannel@@I@Z",
+          "site_rva": 297344,
+          "kind": 20,
+          "target_va": 268721888
+        },
+        {
+          "symbol": "?Size@?$OrderedList@IPAUInternalPacket@@$1?SplitPacketIndexComp@@YAHABIABQAU1@@Z@DataStructures@@QBEIXZ",
+          "site_rva": 297354,
+          "kind": 20,
+          "target_va": 268714528
+        },
+        {
+          "symbol": "??A?$OrderedList@GPAUSplitPacketChannel@@$1?SplitPacketChannelComp@@YAHABGABQAU1@@Z@DataStructures@@QBEAAPAUSplitPacketChannel@@I@Z",
+          "site_rva": 297373,
+          "kind": 20,
+          "target_va": 268721888
+        },
+        {
+          "symbol": "??A?$OrderedList@IPAUInternalPacket@@$1?SplitPacketIndexComp@@YAHABIABQAU1@@Z@DataStructures@@QBEAAPAUInternalPacket@@I@Z",
+          "site_rva": 297386,
+          "kind": 20,
+          "target_va": 268714512
+        },
+        {
+          "symbol": "?CreateInternalPacketCopy@ReliabilityLayer@@AAEPAUInternalPacket@@PAU2@HH_J@Z",
+          "site_rva": 297408,
+          "kind": 20,
+          "target_va": 268720816
+        },
+        {
+          "symbol": "??A?$OrderedList@GPAUSplitPacketChannel@@$1?SplitPacketChannelComp@@YAHABGABQAU1@@Z@DataStructures@@QBEAAPAUSplitPacketChannel@@I@Z",
+          "site_rva": 297429,
+          "kind": 20,
+          "target_va": 268721888
+        },
+        {
+          "symbol": "?Size@?$OrderedList@IPAUInternalPacket@@$1?SplitPacketIndexComp@@YAHABIABQAU1@@Z@DataStructures@@QBEIXZ",
+          "site_rva": 297439,
+          "kind": 20,
+          "target_va": 268714528
+        },
+        {
+          "symbol": "??A?$OrderedList@GPAUSplitPacketChannel@@$1?SplitPacketChannelComp@@YAHABGABQAU1@@Z@DataStructures@@QBEAAPAUSplitPacketChannel@@I@Z",
+          "site_rva": 297451,
+          "kind": 20,
+          "target_va": 268721888
+        },
+        {
+          "symbol": "??A?$OrderedList@IPAUInternalPacket@@$1?SplitPacketIndexComp@@YAHABIABQAU1@@Z@DataStructures@@QBEAAPAUInternalPacket@@I@Z",
+          "site_rva": 297462,
+          "kind": 20,
+          "target_va": 268714512
+        },
+        {
+          "symbol": "??A?$OrderedList@GPAUSplitPacketChannel@@$1?SplitPacketChannelComp@@YAHABGABQAU1@@Z@DataStructures@@QBEAAPAUSplitPacketChannel@@I@Z",
+          "site_rva": 297483,
+          "kind": 20,
+          "target_va": 268721888
+        },
+        {
+          "symbol": "??A?$OrderedList@IPAUInternalPacket@@$1?SplitPacketIndexComp@@YAHABIABQAU1@@Z@DataStructures@@QBEAAPAUInternalPacket@@I@Z",
+          "site_rva": 297494,
+          "kind": 20,
+          "target_va": 268714512
+        },
+        {
+          "symbol": "??A?$OrderedList@GPAUSplitPacketChannel@@$1?SplitPacketChannelComp@@YAHABGABQAU1@@Z@DataStructures@@QBEAAPAUSplitPacketChannel@@I@Z",
+          "site_rva": 297524,
+          "kind": 20,
+          "target_va": 268721888
+        },
+        {
+          "symbol": "?Size@?$OrderedList@IPAUInternalPacket@@$1?SplitPacketIndexComp@@YAHABIABQAU1@@Z@DataStructures@@QBEIXZ",
+          "site_rva": 297534,
+          "kind": 20,
+          "target_va": 268714528
+        },
+        {
+          "symbol": "??2@YAPAXI@Z",
+          "site_rva": 297548,
+          "kind": 20,
+          "target_va": 269247098
+        },
+        {
+          "symbol": "??A?$OrderedList@GPAUSplitPacketChannel@@$1?SplitPacketChannelComp@@YAHABGABQAU1@@Z@DataStructures@@QBEAAPAUSplitPacketChannel@@I@Z",
+          "site_rva": 297572,
+          "kind": 20,
+          "target_va": 268721888
+        },
+        {
+          "symbol": "?Size@?$OrderedList@IPAUInternalPacket@@$1?SplitPacketIndexComp@@YAHABIABQAU1@@Z@DataStructures@@QBEIXZ",
+          "site_rva": 297582,
+          "kind": 20,
+          "target_va": 268714528
+        },
+        {
+          "symbol": "??A?$OrderedList@GPAUSplitPacketChannel@@$1?SplitPacketChannelComp@@YAHABGABQAU1@@Z@DataStructures@@QBEAAPAUSplitPacketChannel@@I@Z",
+          "site_rva": 297604,
+          "kind": 20,
+          "target_va": 268721888
+        },
+        {
+          "symbol": "??A?$OrderedList@IPAUInternalPacket@@$1?SplitPacketIndexComp@@YAHABIABQAU1@@Z@DataStructures@@QBEAAPAUInternalPacket@@I@Z",
+          "site_rva": 297615,
+          "kind": 20,
+          "target_va": 268714512
+        },
+        {
+          "symbol": "??A?$OrderedList@GPAUSplitPacketChannel@@$1?SplitPacketChannelComp@@YAHABGABQAU1@@Z@DataStructures@@QBEAAPAUSplitPacketChannel@@I@Z",
+          "site_rva": 297627,
+          "kind": 20,
+          "target_va": 268721888
+        },
+        {
+          "symbol": "??A?$OrderedList@IPAUInternalPacket@@$1?SplitPacketIndexComp@@YAHABIABQAU1@@Z@DataStructures@@QBEAAPAUInternalPacket@@I@Z",
+          "site_rva": 297638,
+          "kind": 20,
+          "target_va": 268714512
+        },
+        {
+          "symbol": "??A?$OrderedList@GPAUSplitPacketChannel@@$1?SplitPacketChannelComp@@YAHABGABQAU1@@Z@DataStructures@@QBEAAPAUSplitPacketChannel@@I@Z",
+          "site_rva": 297689,
+          "kind": 20,
+          "target_va": 268721888
+        },
+        {
+          "symbol": "??A?$OrderedList@IPAUInternalPacket@@$1?SplitPacketIndexComp@@YAHABIABQAU1@@Z@DataStructures@@QBEAAPAUInternalPacket@@I@Z",
+          "site_rva": 297704,
+          "kind": 20,
+          "target_va": 268714512
+        },
+        {
+          "symbol": "??A?$OrderedList@GPAUSplitPacketChannel@@$1?SplitPacketChannelComp@@YAHABGABQAU1@@Z@DataStructures@@QBEAAPAUSplitPacketChannel@@I@Z",
+          "site_rva": 297738,
+          "kind": 20,
+          "target_va": 268721888
+        },
+        {
+          "symbol": "?Size@?$OrderedList@IPAUInternalPacket@@$1?SplitPacketIndexComp@@YAHABIABQAU1@@Z@DataStructures@@QBEIXZ",
+          "site_rva": 297748,
+          "kind": 20,
+          "target_va": 268714528
+        },
+        {
+          "symbol": "??A?$OrderedList@GPAUSplitPacketChannel@@$1?SplitPacketChannelComp@@YAHABGABQAU1@@Z@DataStructures@@QBEAAPAUSplitPacketChannel@@I@Z",
+          "site_rva": 297770,
+          "kind": 20,
+          "target_va": 268721888
+        },
+        {
+          "symbol": "?Size@?$OrderedList@IPAUInternalPacket@@$1?SplitPacketIndexComp@@YAHABIABQAU1@@Z@DataStructures@@QBEIXZ",
+          "site_rva": 297780,
+          "kind": 20,
+          "target_va": 268714528
+        },
+        {
+          "symbol": "??A?$OrderedList@GPAUSplitPacketChannel@@$1?SplitPacketChannelComp@@YAHABGABQAU1@@Z@DataStructures@@QBEAAPAUSplitPacketChannel@@I@Z",
+          "site_rva": 297812,
+          "kind": 20,
+          "target_va": 268721888
+        },
+        {
+          "symbol": "??A?$OrderedList@IPAUInternalPacket@@$1?SplitPacketIndexComp@@YAHABIABQAU1@@Z@DataStructures@@QBEAAPAUInternalPacket@@I@Z",
+          "site_rva": 297823,
+          "kind": 20,
+          "target_va": 268714512
+        },
+        {
+          "symbol": "??3@YAXPAX@Z",
+          "site_rva": 297834,
+          "kind": 20,
+          "target_va": 269247626
+        },
+        {
+          "symbol": "??A?$OrderedList@GPAUSplitPacketChannel@@$1?SplitPacketChannelComp@@YAHABGABQAU1@@Z@DataStructures@@QBEAAPAUSplitPacketChannel@@I@Z",
+          "site_rva": 297845,
+          "kind": 20,
+          "target_va": 268721888
+        },
+        {
+          "symbol": "??A?$OrderedList@IPAUInternalPacket@@$1?SplitPacketIndexComp@@YAHABIABQAU1@@Z@DataStructures@@QBEAAPAUInternalPacket@@I@Z",
+          "site_rva": 297856,
+          "kind": 20,
+          "target_va": 268714512
+        },
+        {
+          "symbol": "?ReleasePointer@InternalPacketPool@@QAEXPAUInternalPacket@@@Z",
+          "site_rva": 297868,
+          "kind": 20,
+          "target_va": 268626800
+        },
+        {
+          "symbol": "??A?$OrderedList@GPAUSplitPacketChannel@@$1?SplitPacketChannelComp@@YAHABGABQAU1@@Z@DataStructures@@QBEAAPAUSplitPacketChannel@@I@Z",
+          "site_rva": 297877,
+          "kind": 20,
+          "target_va": 268721888
+        },
+        {
+          "symbol": "?Size@?$OrderedList@IPAUInternalPacket@@$1?SplitPacketIndexComp@@YAHABIABQAU1@@Z@DataStructures@@QBEIXZ",
+          "site_rva": 297887,
+          "kind": 20,
+          "target_va": 268714528
+        },
+        {
+          "symbol": "??A?$OrderedList@GPAUSplitPacketChannel@@$1?SplitPacketChannelComp@@YAHABGABQAU1@@Z@DataStructures@@QBEAAPAUSplitPacketChannel@@I@Z",
+          "site_rva": 297899,
+          "kind": 20,
+          "target_va": 268721888
+        },
+        {
+          "symbol": "??1SplitPacketChannel@@QAE@XZ",
+          "site_rva": 297912,
+          "kind": 20,
+          "target_va": 268728608
+        },
+        {
+          "symbol": "??3@YAXPAX@Z",
+          "site_rva": 297918,
+          "kind": 20,
+          "target_va": 269247626
+        },
+        {
+          "symbol": "?RemoveAtIndex@?$OrderedList@GPAUSplitPacketChannel@@$1?SplitPacketChannelComp@@YAHABGABQAU1@@Z@DataStructures@@QAEXI@Z",
+          "site_rva": 297929,
+          "kind": 20,
+          "target_va": 268726720
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_reliability_packet_family",
+      "section": 123,
+      "anchor": "?RemoveAtIndex@?$OrderedList@GPAUSplitPacketChannel@@$1?SplitPacketChannelComp@@YAHABGABQAU1@@Z@DataStructures@@QAEXI@Z",
+      "anchor_offset": 0,
+      "rva": 291264,
+      "size": 5,
+      "kind": "code",
+      "sha256": "54ad5dc88301550cf1a17186ca36ae16bdc6ce1ebf43c20fd56886d50ae65c67",
+      "bindings": [
+        {
+          "symbol": "?RemoveAtIndex@?$List@PAUSplitPacketChannel@@@DataStructures@@QAEXI@Z",
+          "site_rva": 291265,
+          "kind": 20,
+          "target_va": 268722480
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_reliability_packet_family",
+      "section": 104,
+      "anchor": "?RemoveAtIndex@?$List@PAUSplitPacketChannel@@@DataStructures@@QAEXI@Z",
+      "anchor_offset": 0,
+      "rva": 287024,
+      "size": 53,
+      "kind": "code",
+      "sha256": "bd5865d3e39b462368dd76b77a56c9a2f583514480a67ccfc89ad340ea5daa17",
+      "bindings": [
+        {
+          "symbol": "_memmove",
+          "site_rva": 287059,
+          "kind": 20,
+          "target_va": 269250016
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_reliability_packet_family",
+      "section": 131,
+      "anchor": "??1SplitPacketChannel@@QAE@XZ",
+      "anchor_offset": 0,
+      "rva": 293152,
+      "size": 8,
+      "kind": "code",
+      "sha256": "502d630844f947d90679e727102c97b73c1fab02b1ca4150e09e59c0b449df81",
+      "bindings": [
+        {
+          "symbol": "??1?$OrderedList@IPAUInternalPacket@@$1?SplitPacketIndexComp@@YAHABIABQAU1@@Z@DataStructures@@QAE@XZ",
+          "site_rva": 293156,
+          "kind": 20,
+          "target_va": 268726000
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_reliability_packet_family",
+      "section": 116,
+      "anchor": "??1?$OrderedList@IPAUInternalPacket@@$1?SplitPacketIndexComp@@YAHABIABQAU1@@Z@DataStructures@@QAE@XZ",
+      "anchor_offset": 0,
+      "rva": 290544,
+      "size": 73,
+      "kind": "code",
+      "sha256": "8f540d9186266c414e2d238134fe02bfeba5a5cb884268b2320ee4c18da841ef",
+      "bindings": [
+        {
+          "symbol": "__ehhandler$??1?$OrderedList@IPAUInternalPacket@@$1?SplitPacketIndexComp@@YAHABIABQAU1@@Z@DataStructures@@QAE@XZ",
+          "site_rva": 290547,
+          "kind": 6,
+          "target_va": 269364392
+        },
+        {
+          "symbol": "__except_list",
+          "site_rva": 290553,
+          "kind": 6,
+          "target_va": 0
+        },
+        {
+          "symbol": "__except_list",
+          "site_rva": 290561,
+          "kind": 6,
+          "target_va": 0
+        },
+        {
+          "symbol": "?Clear@?$OrderedList@IPAUInternalPacket@@$1?SplitPacketIndexComp@@YAHABIABQAU1@@Z@DataStructures@@QAEXXZ",
+          "site_rva": 290582,
+          "kind": 20,
+          "target_va": 268722064
+        },
+        {
+          "symbol": "??1?$List@PAUInternalPacket@@@DataStructures@@QAE@XZ",
+          "site_rva": 290597,
+          "kind": 20,
+          "target_va": 268716272
+        },
+        {
+          "symbol": "__except_list",
+          "site_rva": 290609,
+          "kind": 6,
+          "target_va": 0
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_reliability_packet_family",
+      "section": 41,
+      "anchor": "??1?$List@PAUInternalPacket@@@DataStructures@@QAE@XZ",
+      "anchor_offset": 0,
+      "rva": 280816,
+      "size": 17,
+      "kind": "code",
+      "sha256": "1ef0f52644026444341c945f610c36e09007f7cb5a37b41b2f4434ecbce1eb52",
+      "bindings": [
+        {
+          "symbol": "??3@YAXPAX@Z",
+          "site_rva": 280827,
+          "kind": 20,
+          "target_va": 269247626
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_reliability_packet_family",
+      "section": 100,
+      "anchor": "?Clear@?$OrderedList@IPAUInternalPacket@@$1?SplitPacketIndexComp@@YAHABIABQAU1@@Z@DataStructures@@QAEXXZ",
+      "anchor_offset": 0,
+      "rva": 286608,
+      "size": 8,
+      "kind": "code",
+      "sha256": "377423fa3ef074544ea8b954ba066246161212ab8e9c4a660986a1cc4bbe101d",
+      "bindings": [
+        {
+          "symbol": "?Clear@?$List@PAUInternalPacket@@@DataStructures@@QAEX_N@Z",
+          "site_rva": 286611,
+          "kind": 20,
+          "target_va": 268717696
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_reliability_packet_family",
+      "section": 63,
+      "anchor": "?Clear@?$List@PAUInternalPacket@@@DataStructures@@QAEX_N@Z",
+      "anchor_offset": 0,
+      "rva": 282240,
+      "size": 60,
+      "kind": "code",
+      "sha256": "378747f32d7167ab172151c3982f7e84f9070012f1964f074089577e3079930d",
+      "bindings": [
+        {
+          "symbol": "??3@YAXPAX@Z",
+          "site_rva": 282269,
+          "kind": 20,
+          "target_va": 269247626
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_reliability_packet_family",
+      "section": 76,
+      "anchor": "?CreateInternalPacketCopy@ReliabilityLayer@@AAEPAUInternalPacket@@PAU2@HH_J@Z",
+      "anchor_offset": 0,
+      "rva": 285360,
+      "size": 153,
+      "kind": "code",
+      "sha256": "e4184dd03facd40179119edc8cc7b3bcf6bfb5a7fc7d84b61618d6bd1b7a3dfe",
+      "bindings": [
+        {
+          "symbol": "?GetPointer@InternalPacketPool@@QAEPAUInternalPacket@@XZ",
+          "site_rva": 285370,
+          "kind": 20,
+          "target_va": 268719104
+        },
+        {
+          "symbol": "??2@YAPAXI@Z",
+          "site_rva": 285393,
+          "kind": 20,
+          "target_va": 269247098
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_reliability_packet_family",
+      "section": 21,
+      "anchor": "?Size@?$OrderedList@IPAUInternalPacket@@$1?SplitPacketIndexComp@@YAHABIABQAU1@@Z@DataStructures@@QBEIXZ",
+      "anchor_offset": 0,
+      "rva": 279072,
+      "size": 4,
+      "kind": "code",
+      "sha256": "f7e0208f5e988ae39c7a45dfddbd12921d02f9c3deb5695d4c534c8ab0ccdb0f",
+      "bindings": []
+    },
+    {
+      "unit": "closure_vendor_reliability_packet_family",
+      "section": 19,
+      "anchor": "??A?$OrderedList@IPAUInternalPacket@@$1?SplitPacketIndexComp@@YAHABIABQAU1@@Z@DataStructures@@QBEAAPAUInternalPacket@@I@Z",
+      "anchor_offset": 0,
+      "rva": 279056,
+      "size": 12,
+      "kind": "code",
+      "sha256": "ad09b7da4d9eb9c08f5c1a1b1a728841aa9a79add752be59989d682de3b497bb",
+      "bindings": []
+    },
+    {
+      "unit": "closure_vendor_reliability_packet_family",
+      "section": 94,
+      "anchor": "??A?$OrderedList@GPAUSplitPacketChannel@@$1?SplitPacketChannelComp@@YAHABGABQAU1@@Z@DataStructures@@QBEAAPAUSplitPacketChannel@@I@Z",
+      "anchor_offset": 0,
+      "rva": 286432,
+      "size": 12,
+      "kind": "code",
+      "sha256": "ad09b7da4d9eb9c08f5c1a1b1a728841aa9a79add752be59989d682de3b497bb",
+      "bindings": []
+    },
+    {
+      "unit": "closure_vendor_reliability_packet_family",
+      "section": 90,
+      "anchor": "?GetIndexFromKey@?$OrderedList@GPAUSplitPacketChannel@@$1?SplitPacketChannelComp@@YAHABGABQAU1@@Z@DataStructures@@QBEIABGPA_N@Z",
+      "anchor_offset": 0,
+      "rva": 286192,
+      "size": 141,
+      "kind": "code",
+      "sha256": "f4993ac0a33846cc1fe11304caed14521b9679211aebec242d62c61a88299d38",
+      "bindings": [
+        {
+          "symbol": "?SplitPacketChannelComp@@YAHABGABQAUSplitPacketChannel@@@Z",
+          "site_rva": 286242,
+          "kind": 20,
+          "target_va": 268719200
+        },
+        {
+          "symbol": "?SplitPacketChannelComp@@YAHABGABQAUSplitPacketChannel@@@Z",
+          "site_rva": 286290,
+          "kind": 20,
+          "target_va": 268719200
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_reliability_packet_family",
+      "section": 71,
+      "anchor": "?SplitPacketChannelComp@@YAHABGABQAUSplitPacketChannel@@@Z",
+      "anchor_offset": 0,
+      "rva": 283744,
+      "size": 66,
+      "kind": "code",
+      "sha256": "ec760741891e644b36ccc8744399bf70585662f963c5675f094759d2b9d0b6be",
+      "bindings": [
+        {
+          "symbol": "??A?$OrderedList@IPAUInternalPacket@@$1?SplitPacketIndexComp@@YAHABIABQAU1@@Z@DataStructures@@QBEAAPAUInternalPacket@@I@Z",
+          "site_rva": 283760,
+          "kind": 20,
+          "target_va": 268714512
+        },
+        {
+          "symbol": "??A?$OrderedList@IPAUInternalPacket@@$1?SplitPacketIndexComp@@YAHABIABQAU1@@Z@DataStructures@@QBEAAPAUInternalPacket@@I@Z",
+          "site_rva": 283790,
+          "kind": 20,
+          "target_va": 268714512
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_reliability_packet_family",
+      "section": 141,
+      "anchor": "?DeleteOldUnreliableSplitPackets@ReliabilityLayer@@AAEX_J@Z",
+      "anchor_offset": 0,
+      "rva": 297968,
+      "size": 329,
+      "kind": "code",
+      "sha256": "bc7c27343104b1789ac15c2867f5468a97dda11e2d9b4c2fb3e190c04105fdb0",
+      "bindings": [
+        {
+          "symbol": "?Size@?$OrderedList@GPAUSplitPacketChannel@@$1?SplitPacketChannelComp@@YAHABGABQAU1@@Z@DataStructures@@QBEIXZ",
+          "site_rva": 297989,
+          "kind": 20,
+          "target_va": 268721920
+        },
+        {
+          "symbol": "??A?$OrderedList@GPAUSplitPacketChannel@@$1?SplitPacketChannelComp@@YAHABGABQAU1@@Z@DataStructures@@QBEAAPAUSplitPacketChannel@@I@Z",
+          "site_rva": 298006,
+          "kind": 20,
+          "target_va": 268721888
+        },
+        {
+          "symbol": "??A?$OrderedList@GPAUSplitPacketChannel@@$1?SplitPacketChannelComp@@YAHABGABQAU1@@Z@DataStructures@@QBEAAPAUSplitPacketChannel@@I@Z",
+          "site_rva": 298054,
+          "kind": 20,
+          "target_va": 268721888
+        },
+        {
+          "symbol": "??A?$OrderedList@IPAUInternalPacket@@$1?SplitPacketIndexComp@@YAHABIABQAU1@@Z@DataStructures@@QBEAAPAUInternalPacket@@I@Z",
+          "site_rva": 298066,
+          "kind": 20,
+          "target_va": 268714512
+        },
+        {
+          "symbol": "??A?$OrderedList@GPAUSplitPacketChannel@@$1?SplitPacketChannelComp@@YAHABGABQAU1@@Z@DataStructures@@QBEAAPAUSplitPacketChannel@@I@Z",
+          "site_rva": 298082,
+          "kind": 20,
+          "target_va": 268721888
+        },
+        {
+          "symbol": "??A?$OrderedList@IPAUInternalPacket@@$1?SplitPacketIndexComp@@YAHABIABQAU1@@Z@DataStructures@@QBEAAPAUInternalPacket@@I@Z",
+          "site_rva": 298094,
+          "kind": 20,
+          "target_va": 268714512
+        },
+        {
+          "symbol": "??A?$OrderedList@GPAUSplitPacketChannel@@$1?SplitPacketChannelComp@@YAHABGABQAU1@@Z@DataStructures@@QBEAAPAUSplitPacketChannel@@I@Z",
+          "site_rva": 298116,
+          "kind": 20,
+          "target_va": 268721888
+        },
+        {
+          "symbol": "?Size@?$OrderedList@IPAUInternalPacket@@$1?SplitPacketIndexComp@@YAHABIABQAU1@@Z@DataStructures@@QBEIXZ",
+          "site_rva": 298126,
+          "kind": 20,
+          "target_va": 268714528
+        },
+        {
+          "symbol": "??A?$OrderedList@GPAUSplitPacketChannel@@$1?SplitPacketChannelComp@@YAHABGABQAU1@@Z@DataStructures@@QBEAAPAUSplitPacketChannel@@I@Z",
+          "site_rva": 298148,
+          "kind": 20,
+          "target_va": 268721888
+        },
+        {
+          "symbol": "??A?$OrderedList@IPAUInternalPacket@@$1?SplitPacketIndexComp@@YAHABIABQAU1@@Z@DataStructures@@QBEAAPAUInternalPacket@@I@Z",
+          "site_rva": 298159,
+          "kind": 20,
+          "target_va": 268714512
+        },
+        {
+          "symbol": "??3@YAXPAX@Z",
+          "site_rva": 298170,
+          "kind": 20,
+          "target_va": 269247626
+        },
+        {
+          "symbol": "??A?$OrderedList@GPAUSplitPacketChannel@@$1?SplitPacketChannelComp@@YAHABGABQAU1@@Z@DataStructures@@QBEAAPAUSplitPacketChannel@@I@Z",
+          "site_rva": 298181,
+          "kind": 20,
+          "target_va": 268721888
+        },
+        {
+          "symbol": "??A?$OrderedList@IPAUInternalPacket@@$1?SplitPacketIndexComp@@YAHABIABQAU1@@Z@DataStructures@@QBEAAPAUInternalPacket@@I@Z",
+          "site_rva": 298192,
+          "kind": 20,
+          "target_va": 268714512
+        },
+        {
+          "symbol": "?ReleasePointer@InternalPacketPool@@QAEXPAUInternalPacket@@@Z",
+          "site_rva": 298202,
+          "kind": 20,
+          "target_va": 268626800
+        },
+        {
+          "symbol": "??A?$OrderedList@GPAUSplitPacketChannel@@$1?SplitPacketChannelComp@@YAHABGABQAU1@@Z@DataStructures@@QBEAAPAUSplitPacketChannel@@I@Z",
+          "site_rva": 298211,
+          "kind": 20,
+          "target_va": 268721888
+        },
+        {
+          "symbol": "?Size@?$OrderedList@IPAUInternalPacket@@$1?SplitPacketIndexComp@@YAHABIABQAU1@@Z@DataStructures@@QBEIXZ",
+          "site_rva": 298221,
+          "kind": 20,
+          "target_va": 268714528
+        },
+        {
+          "symbol": "??A?$OrderedList@GPAUSplitPacketChannel@@$1?SplitPacketChannelComp@@YAHABGABQAU1@@Z@DataStructures@@QBEAAPAUSplitPacketChannel@@I@Z",
+          "site_rva": 298237,
+          "kind": 20,
+          "target_va": 268721888
+        },
+        {
+          "symbol": "??1SplitPacketChannel@@QAE@XZ",
+          "site_rva": 298250,
+          "kind": 20,
+          "target_va": 268728608
+        },
+        {
+          "symbol": "??3@YAXPAX@Z",
+          "site_rva": 298256,
+          "kind": 20,
+          "target_va": 269247626
+        },
+        {
+          "symbol": "?RemoveAtIndex@?$OrderedList@GPAUSplitPacketChannel@@$1?SplitPacketChannelComp@@YAHABGABQAU1@@Z@DataStructures@@QAEXI@Z",
+          "site_rva": 298267,
+          "kind": 20,
+          "target_va": 268726720
+        },
+        {
+          "symbol": "?Size@?$OrderedList@GPAUSplitPacketChannel@@$1?SplitPacketChannelComp@@YAHABGABQAU1@@Z@DataStructures@@QBEIXZ",
+          "site_rva": 298277,
+          "kind": 20,
+          "target_va": 268721920
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_reliability_packet_family",
+      "section": 96,
+      "anchor": "?Size@?$OrderedList@GPAUSplitPacketChannel@@$1?SplitPacketChannelComp@@YAHABGABQAU1@@Z@DataStructures@@QBEIXZ",
+      "anchor_offset": 0,
+      "rva": 286464,
+      "size": 4,
+      "kind": "code",
+      "sha256": "f7e0208f5e988ae39c7a45dfddbd12921d02f9c3deb5695d4c534c8ab0ccdb0f",
+      "bindings": []
+    },
+    {
+      "unit": "closure_vendor_reliability_packet_family",
+      "section": 137,
+      "anchor": "?InsertIntoSplitPacketList@ReliabilityLayer@@AAEXPAUInternalPacket@@_J@Z",
+      "anchor_offset": 0,
+      "rva": 296736,
+      "size": 542,
+      "kind": "code",
+      "sha256": "0bc801b6c026dd54d9f03485858cce61b1ce5c4be62c34435dfaac8d3fa9fb20",
+      "bindings": [
+        {
+          "symbol": "?GetIndexFromKey@?$OrderedList@GPAUSplitPacketChannel@@$1?SplitPacketChannelComp@@YAHABGABQAU1@@Z@DataStructures@@QBEIABGPA_N@Z",
+          "site_rva": 296771,
+          "kind": 20,
+          "target_va": 268721648
+        },
+        {
+          "symbol": "??2@YAPAXI@Z",
+          "site_rva": 296788,
+          "kind": 20,
+          "target_va": 269247098
+        },
+        {
+          "symbol": "??0?$OrderedList@IPAUInternalPacket@@$1?SplitPacketIndexComp@@YAHABIABQAU1@@Z@DataStructures@@QAE@XZ",
+          "site_rva": 296805,
+          "kind": 20,
+          "target_va": 268721424
+        },
+        {
+          "symbol": "?Insert@?$OrderedList@GPAUSplitPacketChannel@@$1?SplitPacketChannelComp@@YAHABGABQAU1@@Z@DataStructures@@QAEIABGABQAUSplitPacketChannel@@@Z",
+          "site_rva": 296828,
+          "kind": 20,
+          "target_va": 268721792
+        },
+        {
+          "symbol": "??A?$OrderedList@GPAUSplitPacketChannel@@$1?SplitPacketChannelComp@@YAHABGABQAU1@@Z@DataStructures@@QBEAAPAUSplitPacketChannel@@I@Z",
+          "site_rva": 296838,
+          "kind": 20,
+          "target_va": 268721888
+        },
+        {
+          "symbol": "?Insert@?$OrderedList@IPAUInternalPacket@@$1?SplitPacketIndexComp@@YAHABIABQAU1@@Z@DataStructures@@QAEIABIABQAUInternalPacket@@@Z",
+          "site_rva": 296861,
+          "kind": 20,
+          "target_va": 268721440
+        },
+        {
+          "symbol": "??A?$OrderedList@GPAUSplitPacketChannel@@$1?SplitPacketChannelComp@@YAHABGABQAU1@@Z@DataStructures@@QBEAAPAUSplitPacketChannel@@I@Z",
+          "site_rva": 296869,
+          "kind": 20,
+          "target_va": 268721888
+        },
+        {
+          "symbol": "??A?$OrderedList@GPAUSplitPacketChannel@@$1?SplitPacketChannelComp@@YAHABGABQAU1@@Z@DataStructures@@QBEAAPAUSplitPacketChannel@@I@Z",
+          "site_rva": 296903,
+          "kind": 20,
+          "target_va": 268721888
+        },
+        {
+          "symbol": "??A?$OrderedList@IPAUInternalPacket@@$1?SplitPacketIndexComp@@YAHABIABQAU1@@Z@DataStructures@@QBEAAPAUInternalPacket@@I@Z",
+          "site_rva": 296915,
+          "kind": 20,
+          "target_va": 268714512
+        },
+        {
+          "symbol": "??A?$OrderedList@GPAUSplitPacketChannel@@$1?SplitPacketChannelComp@@YAHABGABQAU1@@Z@DataStructures@@QBEAAPAUSplitPacketChannel@@I@Z",
+          "site_rva": 296936,
+          "kind": 20,
+          "target_va": 268721888
+        },
+        {
+          "symbol": "??A?$OrderedList@IPAUInternalPacket@@$1?SplitPacketIndexComp@@YAHABIABQAU1@@Z@DataStructures@@QBEAAPAUInternalPacket@@I@Z",
+          "site_rva": 296948,
+          "kind": 20,
+          "target_va": 268714512
+        },
+        {
+          "symbol": "??A?$OrderedList@GPAUSplitPacketChannel@@$1?SplitPacketChannelComp@@YAHABGABQAU1@@Z@DataStructures@@QBEAAPAUSplitPacketChannel@@I@Z",
+          "site_rva": 296960,
+          "kind": 20,
+          "target_va": 268721888
+        },
+        {
+          "symbol": "?Size@?$OrderedList@IPAUInternalPacket@@$1?SplitPacketIndexComp@@YAHABIABQAU1@@Z@DataStructures@@QBEIXZ",
+          "site_rva": 296970,
+          "kind": 20,
+          "target_va": 268714528
+        },
+        {
+          "symbol": "??A?$OrderedList@GPAUSplitPacketChannel@@$1?SplitPacketChannelComp@@YAHABGABQAU1@@Z@DataStructures@@QBEAAPAUSplitPacketChannel@@I@Z",
+          "site_rva": 296993,
+          "kind": 20,
+          "target_va": 268721888
+        },
+        {
+          "symbol": "?Size@?$OrderedList@IPAUInternalPacket@@$1?SplitPacketIndexComp@@YAHABIABQAU1@@Z@DataStructures@@QBEIXZ",
+          "site_rva": 297003,
+          "kind": 20,
+          "target_va": 268714528
+        },
+        {
+          "symbol": "?GetPointer@InternalPacketPool@@QAEPAUInternalPacket@@XZ",
+          "site_rva": 297026,
+          "kind": 20,
+          "target_va": 268719104
+        },
+        {
+          "symbol": "??A?$OrderedList@GPAUSplitPacketChannel@@$1?SplitPacketChannelComp@@YAHABGABQAU1@@Z@DataStructures@@QBEAAPAUSplitPacketChannel@@I@Z",
+          "site_rva": 297040,
+          "kind": 20,
+          "target_va": 268721888
+        },
+        {
+          "symbol": "??A?$OrderedList@IPAUInternalPacket@@$1?SplitPacketIndexComp@@YAHABIABQAU1@@Z@DataStructures@@QBEAAPAUInternalPacket@@I@Z",
+          "site_rva": 297052,
+          "kind": 20,
+          "target_va": 268714512
+        },
+        {
+          "symbol": "??2@YAPAXI@Z",
+          "site_rva": 297072,
+          "kind": 20,
+          "target_va": 269247098
+        },
+        {
+          "symbol": "??A?$OrderedList@GPAUSplitPacketChannel@@$1?SplitPacketChannelComp@@YAHABGABQAU1@@Z@DataStructures@@QBEAAPAUSplitPacketChannel@@I@Z",
+          "site_rva": 297102,
+          "kind": 20,
+          "target_va": 268721888
+        },
+        {
+          "symbol": "?Size@?$OrderedList@IPAUInternalPacket@@$1?SplitPacketIndexComp@@YAHABIABQAU1@@Z@DataStructures@@QBEIXZ",
+          "site_rva": 297112,
+          "kind": 20,
+          "target_va": 268714528
+        },
+        {
+          "symbol": "??A?$OrderedList@GPAUSplitPacketChannel@@$1?SplitPacketChannelComp@@YAHABGABQAU1@@Z@DataStructures@@QBEAAPAUSplitPacketChannel@@I@Z",
+          "site_rva": 297139,
+          "kind": 20,
+          "target_va": 268721888
+        },
+        {
+          "symbol": "??A?$OrderedList@IPAUInternalPacket@@$1?SplitPacketIndexComp@@YAHABIABQAU1@@Z@DataStructures@@QBEAAPAUInternalPacket@@I@Z",
+          "site_rva": 297151,
+          "kind": 20,
+          "target_va": 268714512
+        },
+        {
+          "symbol": "??A?$OrderedList@GPAUSplitPacketChannel@@$1?SplitPacketChannelComp@@YAHABGABQAU1@@Z@DataStructures@@QBEAAPAUSplitPacketChannel@@I@Z",
+          "site_rva": 297176,
+          "kind": 20,
+          "target_va": 268721888
+        },
+        {
+          "symbol": "??A?$OrderedList@IPAUInternalPacket@@$1?SplitPacketIndexComp@@YAHABIABQAU1@@Z@DataStructures@@QBEAAPAUInternalPacket@@I@Z",
+          "site_rva": 297188,
+          "kind": 20,
+          "target_va": 268714512
+        },
+        {
+          "symbol": "??A?$OrderedList@GPAUSplitPacketChannel@@$1?SplitPacketChannelComp@@YAHABGABQAU1@@Z@DataStructures@@QBEAAPAUSplitPacketChannel@@I@Z",
+          "site_rva": 297198,
+          "kind": 20,
+          "target_va": 268721888
+        },
+        {
+          "symbol": "??A?$OrderedList@IPAUInternalPacket@@$1?SplitPacketIndexComp@@YAHABIABQAU1@@Z@DataStructures@@QBEAAPAUInternalPacket@@I@Z",
+          "site_rva": 297210,
+          "kind": 20,
+          "target_va": 268714512
+        },
+        {
+          "symbol": "?Push@?$Queue@PAUInternalPacket@@@DataStructures@@QAEXABQAUInternalPacket@@@Z",
+          "site_rva": 297264,
+          "kind": 20,
+          "target_va": 268626240
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_reliability_packet_family",
+      "section": 86,
+      "anchor": "?Insert@?$OrderedList@IPAUInternalPacket@@$1?SplitPacketIndexComp@@YAHABIABQAU1@@Z@DataStructures@@QAEIABIABQAUInternalPacket@@@Z",
+      "anchor_offset": 0,
+      "rva": 285984,
+      "size": 91,
+      "kind": "code",
+      "sha256": "45648c846e74968bc368663c6b6ec30b05371a4257f6f2d01448849c1337d84f",
+      "bindings": [
+        {
+          "symbol": "?GetIndexFromKey@?$OrderedList@IPAUInternalPacket@@$1?SplitPacketIndexComp@@YAHABIABQAU1@@Z@DataStructures@@QBEIABIPA_N@Z",
+          "site_rva": 286001,
+          "kind": 20,
+          "target_va": 268716576
+        },
+        {
+          "symbol": "?Insert@?$List@PAUInternalPacket@@@DataStructures@@QAEXQAUInternalPacket@@@Z",
+          "site_rva": 286040,
+          "kind": 20,
+          "target_va": 268716304
+        },
+        {
+          "symbol": "?Insert@?$List@PAUInternalPacket@@@DataStructures@@QAEXQAUInternalPacket@@I@Z",
+          "site_rva": 286064,
+          "kind": 20,
+          "target_va": 268716416
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_reliability_packet_family",
+      "section": 45,
+      "anchor": "?Insert@?$List@PAUInternalPacket@@@DataStructures@@QAEXQAUInternalPacket@@I@Z",
+      "anchor_offset": 0,
+      "rva": 280960,
+      "size": 137,
+      "kind": "code",
+      "sha256": "4aaa0cff1d7000fed464e9b01452ec33d8944c495826f0f199676766112b0019",
+      "bindings": [
+        {
+          "symbol": "??2@YAPAXI@Z",
+          "site_rva": 281000,
+          "kind": 20,
+          "target_va": 269247098
+        },
+        {
+          "symbol": "??3@YAXPAX@Z",
+          "site_rva": 281034,
+          "kind": 20,
+          "target_va": 269247626
+        },
+        {
+          "symbol": "_memmove",
+          "site_rva": 281069,
+          "kind": 20,
+          "target_va": 269250016
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_reliability_packet_family",
+      "section": 43,
+      "anchor": "?Insert@?$List@PAUInternalPacket@@@DataStructures@@QAEXQAUInternalPacket@@@Z",
+      "anchor_offset": 0,
+      "rva": 280848,
+      "size": 105,
+      "kind": "code",
+      "sha256": "d4281c3185be378f3f629f134805be5f5b72b3128791ddfc4b58265bec117f1d",
+      "bindings": [
+        {
+          "symbol": "??2@YAPAXI@Z",
+          "site_rva": 280888,
+          "kind": 20,
+          "target_va": 269247098
+        },
+        {
+          "symbol": "??3@YAXPAX@Z",
+          "site_rva": 280922,
+          "kind": 20,
+          "target_va": 269247626
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_reliability_packet_family",
+      "section": 49,
+      "anchor": "?GetIndexFromKey@?$OrderedList@IPAUInternalPacket@@$1?SplitPacketIndexComp@@YAHABIABQAU1@@Z@DataStructures@@QBEIABIPA_N@Z",
+      "anchor_offset": 0,
+      "rva": 281120,
+      "size": 141,
+      "kind": "code",
+      "sha256": "2adc2c56600703e49666bdcb1ebe7d871040ff779083fbddeae27d1426057862",
+      "bindings": [
+        {
+          "symbol": "?SplitPacketIndexComp@@YAHABIABQAUInternalPacket@@@Z",
+          "site_rva": 281170,
+          "kind": 20,
+          "target_va": 268713072
+        },
+        {
+          "symbol": "?SplitPacketIndexComp@@YAHABIABQAUInternalPacket@@@Z",
+          "site_rva": 281218,
+          "kind": 20,
+          "target_va": 268713072
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_reliability_packet_family",
+      "section": 3,
+      "anchor": "?SplitPacketIndexComp@@YAHABIABQAUInternalPacket@@@Z",
+      "anchor_offset": 0,
+      "rva": 277616,
+      "size": 33,
+      "kind": "code",
+      "sha256": "e0586d9b8f75d3993ea3d66790b05d986216023409892c56b66ae2ec481ef4e4",
+      "bindings": []
+    },
+    {
+      "unit": "closure_vendor_reliability_packet_family",
+      "section": 92,
+      "anchor": "?Insert@?$OrderedList@GPAUSplitPacketChannel@@$1?SplitPacketChannelComp@@YAHABGABQAU1@@Z@DataStructures@@QAEIABGABQAUSplitPacketChannel@@@Z",
+      "anchor_offset": 0,
+      "rva": 286336,
+      "size": 91,
+      "kind": "code",
+      "sha256": "4aa45687d599c5cef80854aeba53c6b3893e2af861876371d60a631a9f329bec",
+      "bindings": [
+        {
+          "symbol": "?GetIndexFromKey@?$OrderedList@GPAUSplitPacketChannel@@$1?SplitPacketChannelComp@@YAHABGABQAU1@@Z@DataStructures@@QBEIABGPA_N@Z",
+          "site_rva": 286353,
+          "kind": 20,
+          "target_va": 268721648
+        },
+        {
+          "symbol": "?Insert@?$List@PAUSplitPacketChannel@@@DataStructures@@QAEXQAUSplitPacketChannel@@@Z",
+          "site_rva": 286392,
+          "kind": 20,
+          "target_va": 268717136
+        },
+        {
+          "symbol": "?Insert@?$List@PAUSplitPacketChannel@@@DataStructures@@QAEXQAUSplitPacketChannel@@I@Z",
+          "site_rva": 286416,
+          "kind": 20,
+          "target_va": 268717248
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_reliability_packet_family",
+      "section": 57,
+      "anchor": "?Insert@?$List@PAUSplitPacketChannel@@@DataStructures@@QAEXQAUSplitPacketChannel@@I@Z",
+      "anchor_offset": 0,
+      "rva": 281792,
+      "size": 137,
+      "kind": "code",
+      "sha256": "cc7250a6329a3b67ffd1a4a642bdcb6397eb008bc15aec22e555bb8d44bff007",
+      "bindings": [
+        {
+          "symbol": "??2@YAPAXI@Z",
+          "site_rva": 281832,
+          "kind": 20,
+          "target_va": 269247098
+        },
+        {
+          "symbol": "??3@YAXPAX@Z",
+          "site_rva": 281866,
+          "kind": 20,
+          "target_va": 269247626
+        },
+        {
+          "symbol": "_memmove",
+          "site_rva": 281901,
+          "kind": 20,
+          "target_va": 269250016
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_reliability_packet_family",
+      "section": 55,
+      "anchor": "?Insert@?$List@PAUSplitPacketChannel@@@DataStructures@@QAEXQAUSplitPacketChannel@@@Z",
+      "anchor_offset": 0,
+      "rva": 281680,
+      "size": 105,
+      "kind": "code",
+      "sha256": "14d40f8c8cf0aeb2c2384a73d3eff0873e3df7ace5a7d16fbccb2eb1336fa391",
+      "bindings": [
+        {
+          "symbol": "??2@YAPAXI@Z",
+          "site_rva": 281720,
+          "kind": 20,
+          "target_va": 269247098
+        },
+        {
+          "symbol": "??3@YAXPAX@Z",
+          "site_rva": 281754,
+          "kind": 20,
+          "target_va": 269247626
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_reliability_packet_family",
+      "section": 84,
+      "anchor": "??0?$OrderedList@IPAUInternalPacket@@$1?SplitPacketIndexComp@@YAHABIABQAU1@@Z@DataStructures@@QAE@XZ",
+      "anchor_offset": 0,
+      "rva": 285968,
+      "size": 12,
+      "kind": "code",
+      "sha256": "3606d1202eb9369c4e56ffed604dfa946e1b4f9b46ee746bdf0c0c1f76a9ecd4",
+      "bindings": [
+        {
+          "symbol": "??0?$List@PAUInternalPacket@@@DataStructures@@QAE@XZ",
+          "site_rva": 285972,
+          "kind": 20,
+          "target_va": 268716256
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_reliability_packet_family",
+      "section": 39,
+      "anchor": "??0?$List@PAUInternalPacket@@@DataStructures@@QAE@XZ",
+      "anchor_offset": 0,
+      "rva": 280800,
+      "size": 13,
+      "kind": "code",
+      "sha256": "efaddf6f7c64b7d0dd7d70e04563c88df5b21978a063a338954e28cc09d4e5e9",
+      "bindings": []
+    },
+    {
+      "unit": "closure_vendor_reliability_packet_family",
+      "section": 135,
+      "anchor": "?GetStatistics@ReliabilityLayer@@QAEQAURakNetStatisticsStruct@@_N@Z",
+      "anchor_offset": 0,
+      "rva": 293328,
+      "size": 320,
+      "kind": "code",
+      "sha256": "c96313dce8140cff6538d875faacd9f5b20f373d06429e8559b176d40fed246f",
+      "bindings": [
+        {
+          "symbol": "?Size@?$RangeList@G@DataStructures@@QAEIXZ",
+          "site_rva": 293481,
+          "kind": 20,
+          "target_va": 268721568
+        },
+        {
+          "symbol": "?Size@?$OrderedList@GPAUSplitPacketChannel@@$1?SplitPacketChannelComp@@YAHABGABQAU1@@Z@DataStructures@@QBEIXZ",
+          "site_rva": 293512,
+          "kind": 20,
+          "target_va": 268721920
+        },
+        {
+          "symbol": "??A?$OrderedList@GPAUSplitPacketChannel@@$1?SplitPacketChannelComp@@YAHABGABQAU1@@Z@DataStructures@@QBEAAPAUSplitPacketChannel@@I@Z",
+          "site_rva": 293524,
+          "kind": 20,
+          "target_va": 268721888
+        },
+        {
+          "symbol": "?Size@?$OrderedList@IPAUInternalPacket@@$1?SplitPacketIndexComp@@YAHABIABQAU1@@Z@DataStructures@@QBEIXZ",
+          "site_rva": 293534,
+          "kind": 20,
+          "target_va": 268714528
+        },
+        {
+          "symbol": "?Size@?$OrderedList@GPAUSplitPacketChannel@@$1?SplitPacketChannelComp@@YAHABGABQAU1@@Z@DataStructures@@QBEIXZ",
+          "site_rva": 293548,
+          "kind": 20,
+          "target_va": 268721920
+        },
+        {
+          "symbol": "?GetResendListDataSize@ReliabilityLayer@@ABEIXZ",
+          "site_rva": 293610,
+          "kind": 20,
+          "target_va": 268725968
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_reliability_packet_family",
+      "section": 112,
+      "anchor": "?GetResendListDataSize@ReliabilityLayer@@ABEIXZ",
+      "anchor_offset": 0,
+      "rva": 290512,
+      "size": 8,
+      "kind": "code",
+      "sha256": "69dc336cb70783b031107dcd1b1ee42d6477986f02d5feb45c84bdaa96fc8096",
+      "bindings": [
+        {
+          "symbol": "?Size@?$BPlusTree@GPAUInternalPacket@@$0CA@@DataStructures@@QBEIXZ",
+          "site_rva": 290516,
+          "kind": 20,
+          "target_va": 268721584
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_reliability_packet_family",
+      "section": 88,
+      "anchor": "?Size@?$BPlusTree@GPAUInternalPacket@@$0CA@@DataStructures@@QBEIXZ",
+      "anchor_offset": 0,
+      "rva": 286128,
+      "size": 35,
+      "kind": "code",
+      "sha256": "f7a0f2d211e2d51c43a36a5d3f17a827649c6082dfea6bf437cfb8e262d2f1e9",
+      "bindings": [
+        {
+          "symbol": "?GetListHead@?$BPlusTree@GPAUInternalPacket@@$0CA@@DataStructures@@QBEPAU?$Page@GPAUInternalPacket@@$0CA@@2@XZ",
+          "site_rva": 286132,
+          "kind": 20,
+          "target_va": 268716800
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_reliability_packet_family",
+      "section": 51,
+      "anchor": "?GetListHead@?$BPlusTree@GPAUInternalPacket@@$0CA@@DataStructures@@QBEPAU?$Page@GPAUInternalPacket@@$0CA@@2@XZ",
+      "anchor_offset": 0,
+      "rva": 281344,
+      "size": 4,
+      "kind": "code",
+      "sha256": "01d3abacb68aac3537badfe563d0e21d0244fb61db1d805bcef8f455407fad96",
+      "bindings": []
+    },
+    {
+      "unit": "closure_vendor_reliability_packet_family",
+      "section": 121,
+      "anchor": "?Size@?$RangeList@G@DataStructures@@QAEIXZ",
+      "anchor_offset": 0,
+      "rva": 286112,
+      "size": 5,
+      "kind": "code",
+      "sha256": "ae2b9c64587f92098803a093d047e66faaeea202f146e863635f9331d1eddfee",
+      "bindings": [
+        {
+          "symbol": "?Size@?$OrderedList@GU?$RangeNode@G@DataStructures@@$1??$RangeNodeComp@G@2@YAHABGABU12@@Z@DataStructures@@QBEIXZ",
+          "site_rva": 286113,
+          "kind": 20,
+          "target_va": 268721552
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_reliability_packet_family",
+      "section": 102,
+      "anchor": "?Size@?$OrderedList@GU?$RangeNode@G@DataStructures@@$1??$RangeNodeComp@G@2@YAHABGABU12@@Z@DataStructures@@QBEIXZ",
+      "anchor_offset": 0,
+      "rva": 286096,
+      "size": 4,
+      "kind": "code",
+      "sha256": "f7e0208f5e988ae39c7a45dfddbd12921d02f9c3deb5695d4c534c8ab0ccdb0f",
+      "bindings": []
+    },
+    {
+      "unit": "closure_vendor_reliability_packet_family",
+      "section": 133,
+      "anchor": "?AddToOrderingList@ReliabilityLayer@@AAEXPAUInternalPacket@@@Z",
+      "anchor_offset": 0,
+      "rva": 293184,
+      "size": 135,
+      "kind": "code",
+      "sha256": "2fd63260e28bd4c2bfbd20ec0c8ec60dd5a21b88fdf98538a41035def3362c29",
+      "bindings": [
+        {
+          "symbol": "?GetOrderingListAtOrderingStream@ReliabilityLayer@@AAEPAV?$LinkedList@PAUInternalPacket@@@DataStructures@@E@Z",
+          "site_rva": 293228,
+          "kind": 20,
+          "target_va": 268720976
+        },
+        {
+          "symbol": "??2@YAPAXI@Z",
+          "site_rva": 293238,
+          "kind": 20,
+          "target_va": 269247098
+        },
+        {
+          "symbol": "??0?$CircularLinkedList@PAUInternalPacket@@@DataStructures@@QAE@XZ",
+          "site_rva": 293254,
+          "kind": 20,
+          "target_va": 268715856
+        },
+        {
+          "symbol": "?Replace@?$List@PAV?$LinkedList@PAUInternalPacket@@@DataStructures@@@DataStructures@@QAEXQAV?$LinkedList@PAUInternalPacket@@@2@0I@Z",
+          "site_rva": 293275,
+          "kind": 20,
+          "target_va": 268714608
+        },
+        {
+          "symbol": "?Add@?$CircularLinkedList@PAUInternalPacket@@@DataStructures@@QAEAAPAUInternalPacket@@ABQAU3@@Z",
+          "site_rva": 293310,
+          "kind": 20,
+          "target_va": 268715872
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_reliability_packet_family",
+      "section": 33,
+      "anchor": "?Add@?$CircularLinkedList@PAUInternalPacket@@@DataStructures@@QAEAAPAUInternalPacket@@ABQAU3@@Z",
+      "anchor_offset": 0,
+      "rva": 280416,
+      "size": 189,
+      "kind": "code",
+      "sha256": "cbb3cf424bae4d4455e27c215a81a62f3f15938415acda559d192bf289760e2d",
+      "bindings": [
+        {
+          "symbol": "??2@YAPAXI@Z",
+          "site_rva": 280428,
+          "kind": 20,
+          "target_va": 269247098
+        },
+        {
+          "symbol": "??2@YAPAXI@Z",
+          "site_rva": 280480,
+          "kind": 20,
+          "target_va": 269247098
+        },
+        {
+          "symbol": "??2@YAPAXI@Z",
+          "site_rva": 280551,
+          "kind": 20,
+          "target_va": 269247098
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_reliability_packet_family",
+      "section": 25,
+      "anchor": "?Replace@?$List@PAV?$LinkedList@PAUInternalPacket@@@DataStructures@@@DataStructures@@QAEXQAV?$LinkedList@PAUInternalPacket@@@2@0I@Z",
+      "anchor_offset": 0,
+      "rva": 279152,
+      "size": 160,
+      "kind": "code",
+      "sha256": "d82ff4f532ecdec4ccefaf1c5e2d45a9207615b3d075c06ab0408bb4571e1566",
+      "bindings": [
+        {
+          "symbol": "??2@YAPAXI@Z",
+          "site_rva": 279207,
+          "kind": 20,
+          "target_va": 269247098
+        },
+        {
+          "symbol": "??3@YAXPAX@Z",
+          "site_rva": 279243,
+          "kind": 20,
+          "target_va": 269247626
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_reliability_packet_family",
+      "section": 31,
+      "anchor": "??0?$CircularLinkedList@PAUInternalPacket@@@DataStructures@@QAE@XZ",
+      "anchor_offset": 0,
+      "rva": 280400,
+      "size": 13,
+      "kind": "code",
+      "sha256": "32e60104bd8ae8912bcf9632d3717bbb831f19a09c59064e672796b31159c9a4",
+      "bindings": []
+    },
+    {
+      "unit": "closure_vendor_reliability_packet_family",
+      "section": 78,
+      "anchor": "?GetOrderingListAtOrderingStream@ReliabilityLayer@@AAEPAV?$LinkedList@PAUInternalPacket@@@DataStructures@@E@Z",
+      "anchor_offset": 0,
+      "rva": 285520,
+      "size": 23,
+      "kind": "code",
+      "sha256": "8457418fb7331cea866c6a774c05598d811d85333413f005b100c0d98e76016c",
+      "bindings": []
+    },
+    {
+      "unit": "closure_vendor_reliability_packet_family",
+      "section": 127,
+      "anchor": "?AreAcksWaiting@ReliabilityLayer@@QAE_NXZ",
+      "anchor_offset": 0,
+      "rva": 290128,
+      "size": 17,
+      "kind": "code",
+      "sha256": "05bdaaf3228bacb2f724c56273035485a591be9a8cb42ed57bc8e22076f603f3",
+      "bindings": [
+        {
+          "symbol": "?Size@?$RangeList@G@DataStructures@@QAEIXZ",
+          "site_rva": 290132,
+          "kind": 20,
+          "target_va": 268721568
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_reliability_packet_family",
+      "section": 125,
+      "anchor": "?IsDataWaiting@ReliabilityLayer@@QAE_NXZ",
+      "anchor_offset": 0,
+      "rva": 289968,
+      "size": 145,
+      "kind": "code",
+      "sha256": "5b6bf922cc37124f6dd345e5120d7e26d60c9663ada9db41bf810f0529149c2e",
+      "bindings": [
+        {
+          "symbol": "?Size@?$RangeList@G@DataStructures@@QAEIXZ",
+          "site_rva": 290023,
+          "kind": 20,
+          "target_va": 268721568
+        },
+        {
+          "symbol": "?IsEmpty@?$BPlusTree@GPAUInternalPacket@@$0CA@@DataStructures@@QBE_NXZ",
+          "site_rva": 290035,
+          "kind": 20,
+          "target_va": 268714848
+        },
+        {
+          "symbol": "?Size@?$OrderedList@GPAUSplitPacketChannel@@$1?SplitPacketChannelComp@@YAHABGABQAU1@@Z@DataStructures@@QBEIXZ",
+          "site_rva": 290090,
+          "kind": 20,
+          "target_va": 268721920
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_reliability_packet_family",
+      "section": 29,
+      "anchor": "?IsEmpty@?$BPlusTree@GPAUInternalPacket@@$0CA@@DataStructures@@QBE_NXZ",
+      "anchor_offset": 0,
+      "rva": 279392,
+      "size": 11,
+      "kind": "code",
+      "sha256": "c71f693fefcc8cbe7ec2a767eaec65b6ddb92ec75f4c627e6eb59f690bdc6dbd",
+      "bindings": []
+    },
+    {
+      "unit": "closure_vendor_reliability_packet_family",
+      "section": 110,
+      "anchor": "?DeleteSequencedPacketsInList@ReliabilityLayer@@AAEXEAAV?$Queue@PAUInternalPacket@@@DataStructures@@@Z",
+      "anchor_offset": 0,
+      "rva": 290272,
+      "size": 233,
+      "kind": "code",
+      "sha256": "b7272c064b8b24a82b0e7b57eb6402ca6f7b32306a03e3e415742bf4f6d28f9b",
+      "bindings": [
+        {
+          "symbol": "?Del@?$Queue@PAUInternalPacket@@@DataStructures@@QAEXI@Z",
+          "site_rva": 290442,
+          "kind": 20,
+          "target_va": 268721248
+        },
+        {
+          "symbol": "??3@YAXPAX@Z",
+          "site_rva": 290451,
+          "kind": 20,
+          "target_va": 269247626
+        },
+        {
+          "symbol": "?ReleasePointer@InternalPacketPool@@QAEXPAUInternalPacket@@@Z",
+          "site_rva": 290470,
+          "kind": 20,
+          "target_va": 268626800
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_reliability_packet_family",
+      "section": 80,
+      "anchor": "?Del@?$Queue@PAUInternalPacket@@@DataStructures@@QAEXI@Z",
+      "anchor_offset": 0,
+      "rva": 285792,
+      "size": 110,
+      "kind": "code",
+      "sha256": "1dc2acf93655e7a7cebce168922ba63a924f8a5a050670cd90db01acb98e9f4b",
+      "bindings": []
+    },
+    {
+      "unit": "closure_vendor_reliability_packet_family",
+      "section": 108,
+      "anchor": "?DeleteSequencedPacketsInList@ReliabilityLayer@@AAEXEAAV?$List@PAUInternalPacket@@@DataStructures@@H@Z",
+      "anchor_offset": 0,
+      "rva": 290160,
+      "size": 111,
+      "kind": "code",
+      "sha256": "30c139b77e11fdc00c327b5716606658780b9b38b078b21e3096edb995dd0ae1",
+      "bindings": [
+        {
+          "symbol": "?RemoveAtIndex@?$List@PAUInternalPacket@@@DataStructures@@QAEXI@Z",
+          "site_rva": 290228,
+          "kind": 20,
+          "target_va": 268721360
+        },
+        {
+          "symbol": "??3@YAXPAX@Z",
+          "site_rva": 290237,
+          "kind": 20,
+          "target_va": 269247626
+        },
+        {
+          "symbol": "?ReleasePointer@InternalPacketPool@@QAEXPAUInternalPacket@@@Z",
+          "site_rva": 290252,
+          "kind": 20,
+          "target_va": 268626800
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_reliability_packet_family",
+      "section": 82,
+      "anchor": "?RemoveAtIndex@?$List@PAUInternalPacket@@@DataStructures@@QAEXI@Z",
+      "anchor_offset": 0,
+      "rva": 285904,
+      "size": 53,
+      "kind": "code",
+      "sha256": "fa875b2543f3d99013d5d6d4e195a584b89076ac292564dc5f172fc4e00bb71a",
+      "bindings": [
+        {
+          "symbol": "_memmove",
+          "site_rva": 285939,
+          "kind": 20,
+          "target_va": 269250016
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_reliability_packet_family",
+      "section": 106,
+      "anchor": "?Send@ReliabilityLayer@@QAE_NPADHW4PacketPriority@@W4PacketReliability@@E_NH_J@Z",
+      "anchor_offset": 0,
+      "rva": 289536,
+      "size": 417,
+      "kind": "code",
+      "sha256": "43d08521581b87a6ab2debc91cacb1cf68952dd94c163ffcbc54de44a8a30662",
+      "bindings": [
+        {
+          "symbol": "?GetPointer@InternalPacketPool@@QAEPAUInternalPacket@@XZ",
+          "site_rva": 289635,
+          "kind": 20,
+          "target_va": 268719104
+        },
+        {
+          "symbol": "??2@YAPAXI@Z",
+          "site_rva": 289669,
+          "kind": 20,
+          "target_va": 269247098
+        },
+        {
+          "symbol": "?GetBitStreamHeaderLength@ReliabilityLayer@@AAEHQBUInternalPacket@@@Z",
+          "site_rva": 289761,
+          "kind": 20,
+          "target_va": 268713664
+        },
+        {
+          "symbol": "?IsKeySet@TEABlockEncryptor@@QBE_NXZ",
+          "site_rva": 289787,
+          "kind": 20,
+          "target_va": 268790160
+        },
+        {
+          "symbol": "?SplitPacket@ReliabilityLayer@@AAEXPAUInternalPacket@@H@Z",
+          "site_rva": 289905,
+          "kind": 20,
+          "target_va": 268720128
+        },
+        {
+          "symbol": "?Push@?$Queue@PAUInternalPacket@@@DataStructures@@QAEXABQAUInternalPacket@@@Z",
+          "site_rva": 289937,
+          "kind": 20,
+          "target_va": 268626240
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_reliability_packet_family",
+      "section": 75,
+      "anchor": "?SplitPacket@ReliabilityLayer@@AAEXPAUInternalPacket@@H@Z",
+      "anchor_offset": 0,
+      "rva": 284672,
+      "size": 677,
+      "kind": "code",
+      "sha256": "8bda389d5466b8aa8b1f02d7cd87e04df359cb342766046968b08011355fcd8f",
+      "bindings": [
+        {
+          "symbol": "?GetBitStreamHeaderLength@ReliabilityLayer@@AAEHQBUInternalPacket@@@Z",
+          "site_rva": 284698,
+          "kind": 20,
+          "target_va": 268713664
+        },
+        {
+          "symbol": "?IsKeySet@TEABlockEncryptor@@QBE_NXZ",
+          "site_rva": 284735,
+          "kind": 20,
+          "target_va": 268790160
+        },
+        {
+          "symbol": "__alloca_probe",
+          "site_rva": 284800,
+          "kind": 20,
+          "target_va": 269254320
+        },
+        {
+          "symbol": "??2@YAPAXI@Z",
+          "site_rva": 284815,
+          "kind": 20,
+          "target_va": 269247098
+        },
+        {
+          "symbol": "??2@YAPAXI@Z",
+          "site_rva": 284956,
+          "kind": 20,
+          "target_va": 269247098
+        },
+        {
+          "symbol": "??2@YAPAXI@Z",
+          "site_rva": 285042,
+          "kind": 20,
+          "target_va": 269247098
+        },
+        {
+          "symbol": "?Push@?$Queue@PAUInternalPacket@@@DataStructures@@QAEXABQAUInternalPacket@@@Z",
+          "site_rva": 285276,
+          "kind": 20,
+          "target_va": 268626240
+        },
+        {
+          "symbol": "??3@YAXPAX@Z",
+          "site_rva": 285296,
+          "kind": 20,
+          "target_va": 269247626
+        },
+        {
+          "symbol": "?ReleasePointer@InternalPacketPool@@QAEXPAUInternalPacket@@@Z",
+          "site_rva": 285314,
+          "kind": 20,
+          "target_va": 268626800
+        },
+        {
+          "symbol": "??3@YAXPAX@Z",
+          "site_rva": 285330,
+          "kind": 20,
+          "target_va": 269247626
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_reliability_packet_family",
+      "section": 73,
+      "anchor": "?Receive@ReliabilityLayer@@QAEHPAPAE@Z",
+      "anchor_offset": 0,
+      "rva": 283824,
+      "size": 123,
+      "kind": "code",
+      "sha256": "5ac6072697e07fc6ff18887aaef208e34bdb73e92dc134ce5a0a3c98f187e096",
+      "bindings": [
+        {
+          "symbol": "?ReleasePointer@InternalPacketPool@@QAEXPAUInternalPacket@@@Z",
+          "site_rva": 283931,
+          "kind": 20,
+          "target_va": 268626800
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_reliability_packet_family",
+      "section": 5,
+      "anchor": "?SetEncryptionKey@ReliabilityLayer@@QAEXPBE@Z",
+      "anchor_offset": 0,
+      "rva": 277664,
+      "size": 31,
+      "kind": "code",
+      "sha256": "0bb5683479a986a004b489131eaaf55dcb8db7ecd5bfae280f252113e6692819",
+      "bindings": [
+        {
+          "symbol": "?SetKey@TEABlockEncryptor@@QAEXQBE@Z",
+          "site_rva": 277683,
+          "kind": 20,
+          "target_va": 268790176
+        },
+        {
+          "symbol": "?UnsetKey@TEABlockEncryptor@@QAEXXZ",
+          "site_rva": 277688,
+          "kind": 20,
+          "target_va": 268790192
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_reliability_packet_family",
+      "section": 117,
+      "anchor": "__ehhandler$??1?$OrderedList@IPAUInternalPacket@@$1?SplitPacketIndexComp@@YAHABIABQAU1@@Z@DataStructures@@QAE@XZ",
+      "anchor_offset": 8,
+      "rva": 928928,
+      "size": 18,
+      "kind": "code",
+      "sha256": "a8e8b8b5729f9490d9262f8ce4204f392fa6cafe01d97038a29c0e4cb588f63b",
+      "bindings": [
+        {
+          "symbol": "??1?$List@PAUInternalPacket@@@DataStructures@@QAE@XZ",
+          "site_rva": 928932,
+          "kind": 20,
+          "target_va": 268716272
+        },
+        {
+          "symbol": "$T61975",
+          "site_rva": 928937,
+          "kind": 6,
+          "target_va": 269461872
+        },
+        {
+          "symbol": "___CxxFrameHandler",
+          "site_rva": 928942,
+          "kind": 20,
+          "target_va": 269247782
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_reliability_packet_family",
+      "section": 69,
+      "anchor": "?GetPointer@InternalPacketPool@@QAEPAUInternalPacket@@XZ",
+      "anchor_offset": 0,
+      "rva": 283648,
+      "size": 83,
+      "kind": "code",
+      "sha256": "d667512dc516e4879543d765fccb09922d1f17549ab02e6875b4adf553336f7a",
+      "bindings": [
+        {
+          "symbol": "??2@YAPAXI@Z",
+          "site_rva": 283722,
+          "kind": 20,
+          "target_va": 269247098
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_reliability_packet_family",
+      "section": 7,
+      "anchor": "?Push@?$Queue@PAUInternalPacket@@@DataStructures@@QAEXABQAUInternalPacket@@@Z",
+      "anchor_offset": 0,
+      "rva": 190784,
+      "size": 189,
+      "kind": "code",
+      "sha256": "189c9cf9be7d9cb227300dc33e0a824f4b01a84a094a01b7477d5ed8de9c9dd4",
+      "bindings": [
+        {
+          "symbol": "??2@YAPAXI@Z",
+          "site_rva": 190797,
+          "kind": 20,
+          "target_va": 269247098
+        },
+        {
+          "symbol": "??2@YAPAXI@Z",
+          "site_rva": 190894,
+          "kind": 20,
+          "target_va": 269247098
+        },
+        {
+          "symbol": "??3@YAXPAX@Z",
+          "site_rva": 190959,
+          "kind": 20,
+          "target_va": 269247626
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_reliability_packet_family",
+      "section": 118,
+      "anchor": "$T61975",
+      "anchor_offset": 8,
+      "rva": 1026408,
+      "size": 36,
+      "kind": "data",
+      "sha256": "8f88cd6b3da4dc096e8d72dccc56f2e2b646a0588bd26c4e208b585264282da7",
+      "bindings": [
+        {
+          "symbol": "$L61971",
+          "site_rva": 1026412,
+          "kind": 6,
+          "target_va": 269364384
+        },
+        {
+          "symbol": "$T61978",
+          "site_rva": 1026424,
+          "kind": 6,
+          "target_va": 269461864
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_reliability_serialization",
+      "section": 19,
+      "anchor": "?CreateInternalPacketFromBitStream@ReliabilityLayer@@AAEPAUInternalPacket@@PAVBitStream@RakNet@@_J@Z",
+      "anchor_offset": 0,
+      "rva": 284240,
+      "size": 427,
+      "kind": "code",
+      "sha256": "c1e50ad2a640731dbf9460fffd11ff11e51c93bd6bfaae94fabf1c6c4983140f",
+      "bindings": [
+        {
+          "symbol": "?GetPointer@InternalPacketPool@@QAEPAUInternalPacket@@XZ",
+          "site_rva": 284278,
+          "kind": 20,
+          "target_va": 268719104
+        },
+        {
+          "symbol": "?ReadBits@BitStream@RakNet@@QAE_NPAEH_N@Z",
+          "site_rva": 284306,
+          "kind": 20,
+          "target_va": 268564912
+        },
+        {
+          "symbol": "?ReadBits@BitStream@RakNet@@QAE_NPAEH_N@Z",
+          "site_rva": 284335,
+          "kind": 20,
+          "target_va": 268564912
+        },
+        {
+          "symbol": "?ReadBits@BitStream@RakNet@@QAE_NPAEH_N@Z",
+          "site_rva": 284392,
+          "kind": 20,
+          "target_va": 268564912
+        },
+        {
+          "symbol": "?ReadBits@BitStream@RakNet@@QAE_NPAEH_N@Z",
+          "site_rva": 284411,
+          "kind": 20,
+          "target_va": 268564912
+        },
+        {
+          "symbol": "??$Read@_N@BitStream@RakNet@@QAE_NAA_N@Z",
+          "site_rva": 284432,
+          "kind": 20,
+          "target_va": 268469280
+        },
+        {
+          "symbol": "?ReadBits@BitStream@RakNet@@QAE_NPAEH_N@Z",
+          "site_rva": 284459,
+          "kind": 20,
+          "target_va": 268564912
+        },
+        {
+          "symbol": "?ReadCompressed@BitStream@RakNet@@AAE_NPAEH_N@Z",
+          "site_rva": 284478,
+          "kind": 20,
+          "target_va": 268565104
+        },
+        {
+          "symbol": "?ReadCompressed@BitStream@RakNet@@AAE_NPAEH_N@Z",
+          "site_rva": 284497,
+          "kind": 20,
+          "target_va": 268565104
+        },
+        {
+          "symbol": "?ReleasePointer@InternalPacketPool@@QAEXPAUInternalPacket@@@Z",
+          "site_rva": 284509,
+          "kind": 20,
+          "target_va": 268626800
+        },
+        {
+          "symbol": "?ReadCompressed@BitStream@RakNet@@AAE_NPAEH_N@Z",
+          "site_rva": 284543,
+          "kind": 20,
+          "target_va": 268565104
+        },
+        {
+          "symbol": "??2@YAPAXI@Z",
+          "site_rva": 284578,
+          "kind": 20,
+          "target_va": 269247098
+        },
+        {
+          "symbol": "?ReadAlignedBytes@BitStream@RakNet@@QAE_NPAEH@Z",
+          "site_rva": 284619,
+          "kind": 20,
+          "target_va": 268566384
+        },
+        {
+          "symbol": "??3@YAXPAX@Z",
+          "site_rva": 284632,
+          "kind": 20,
+          "target_va": 269247626
+        },
+        {
+          "symbol": "?ReleasePointer@InternalPacketPool@@QAEXPAUInternalPacket@@@Z",
+          "site_rva": 284643,
+          "kind": 20,
+          "target_va": 268626800
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_reliability_serialization",
+      "section": 5,
+      "anchor": "??$Read@_N@BitStream@RakNet@@QAE_NAA_N@Z",
+      "anchor_offset": 0,
+      "rva": 33824,
+      "size": 89,
+      "kind": "code",
+      "sha256": "b37034fc3b389d74b01e3aeca79066e2df1184e312ff0b4ee54a0c788b584854",
+      "bindings": []
+    },
+    {
+      "unit": "closure_vendor_reliability_serialization",
+      "section": 17,
+      "anchor": "?GetPointer@InternalPacketPool@@QAEPAUInternalPacket@@XZ",
+      "anchor_offset": 0,
+      "rva": 283648,
+      "size": 83,
+      "kind": "code",
+      "sha256": "d667512dc516e4879543d765fccb09922d1f17549ab02e6875b4adf553336f7a",
+      "bindings": [
+        {
+          "symbol": "??2@YAPAXI@Z",
+          "site_rva": 283722,
+          "kind": 20,
+          "target_va": 269247098
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_reliability_serialization",
+      "section": 3,
+      "anchor": "?GetNumberOfUnreadBits@BitStream@RakNet@@QBEHXZ",
+      "anchor_offset": 0,
+      "rva": 229456,
+      "size": 6,
+      "kind": "code",
+      "sha256": "3cfcfad5a66acf2cf85e6a7523f992b40a706b83a816accd60c532959d4a7e2f",
+      "bindings": []
+    },
+    {
+      "unit": "closure_vendor_reliability_datagram",
+      "section": 83,
+      "anchor": "?GenerateDatagram@ReliabilityLayer@@AAEIPAVBitStream@RakNet@@HPA_N_JUPlayerID@@AAV?$List@PAVPluginInterface@@@DataStructures@@@Z",
+      "anchor_offset": 0,
+      "rva": 295024,
+      "size": 1594,
+      "kind": "code",
+      "sha256": "415ba7bc4a4c23a19d788ed36184814a13e21699f65bc41494d503635163e921",
+      "bindings": [
+        {
+          "symbol": "?IsKeySet@TEABlockEncryptor@@QBE_NXZ",
+          "site_rva": 295057,
+          "kind": 20,
+          "target_va": 268790160
+        },
+        {
+          "symbol": "?Size@?$RangeList@G@DataStructures@@QAEIXZ",
+          "site_rva": 295114,
+          "kind": 20,
+          "target_va": 268721568
+        },
+        {
+          "symbol": "?Write1@BitStream@RakNet@@QAEXXZ",
+          "site_rva": 295127,
+          "kind": 20,
+          "target_va": 268566320
+        },
+        {
+          "symbol": "?Serialize@?$RangeList@G@DataStructures@@QAEIPAVBitStream@RakNet@@H_N@Z",
+          "site_rva": 295157,
+          "kind": 20,
+          "target_va": 268726080
+        },
+        {
+          "symbol": "?Size@?$RangeList@G@DataStructures@@QAEIXZ",
+          "site_rva": 295197,
+          "kind": 20,
+          "target_va": 268721568
+        },
+        {
+          "symbol": "??3@YAXPAX@Z",
+          "site_rva": 295319,
+          "kind": 20,
+          "target_va": 269247626
+        },
+        {
+          "symbol": "?ReleasePointer@InternalPacketPool@@QAEXPAUInternalPacket@@@Z",
+          "site_rva": 295338,
+          "kind": 20,
+          "target_va": 268626800
+        },
+        {
+          "symbol": "?GetBitStreamHeaderLength@ReliabilityLayer@@AAEHQBUInternalPacket@@@Z",
+          "site_rva": 295426,
+          "kind": 20,
+          "target_va": 268713664
+        },
+        {
+          "symbol": "__alldiv",
+          "site_rva": 295486,
+          "kind": 20,
+          "target_va": 269256704
+        },
+        {
+          "symbol": "?Write0@BitStream@RakNet@@QAEXXZ",
+          "site_rva": 295625,
+          "kind": 20,
+          "target_va": 268566288
+        },
+        {
+          "symbol": "?WriteToBitStreamFromInternalPacket@ReliabilityLayer@@AAEHPAVBitStream@RakNet@@QBUInternalPacket@@@Z",
+          "site_rva": 295643,
+          "kind": 20,
+          "target_va": 268719408
+        },
+        {
+          "symbol": "?InsertPacketIntoResendList@ReliabilityLayer@@AAEXPAUInternalPacket@@_J_N2@Z",
+          "site_rva": 295818,
+          "kind": 20,
+          "target_va": 268721008
+        },
+        {
+          "symbol": "?PushAtHead@?$Queue@PAUInternalPacket@@@DataStructures@@QAEXABQAUInternalPacket@@I@Z",
+          "site_rva": 295841,
+          "kind": 20,
+          "target_va": 268714192
+        },
+        {
+          "symbol": "?GetBitStreamHeaderLength@ReliabilityLayer@@AAEHQBUInternalPacket@@@Z",
+          "site_rva": 295977,
+          "kind": 20,
+          "target_va": 268713664
+        },
+        {
+          "symbol": "??3@YAXPAX@Z",
+          "site_rva": 296046,
+          "kind": 20,
+          "target_va": 269247626
+        },
+        {
+          "symbol": "?ReleasePointer@InternalPacketPool@@QAEXPAUInternalPacket@@@Z",
+          "site_rva": 296065,
+          "kind": 20,
+          "target_va": 268626800
+        },
+        {
+          "symbol": "__alldiv",
+          "site_rva": 296195,
+          "kind": 20,
+          "target_va": 269256704
+        },
+        {
+          "symbol": "?Write0@BitStream@RakNet@@QAEXXZ",
+          "site_rva": 296290,
+          "kind": 20,
+          "target_va": 268566288
+        },
+        {
+          "symbol": "?WriteToBitStreamFromInternalPacket@ReliabilityLayer@@AAEHPAVBitStream@RakNet@@QBUInternalPacket@@@Z",
+          "site_rva": 296312,
+          "kind": 20,
+          "target_va": 268719408
+        },
+        {
+          "symbol": "?Insert@?$BPlusTree@GPAUInternalPacket@@$0CA@@DataStructures@@QAE_NGABQAUInternalPacket@@@Z",
+          "site_rva": 296440,
+          "kind": 20,
+          "target_va": 268730096
+        },
+        {
+          "symbol": "?InsertPacketIntoResendList@ReliabilityLayer@@AAEXPAUInternalPacket@@_J_N2@Z",
+          "site_rva": 296458,
+          "kind": 20,
+          "target_va": 268721008
+        },
+        {
+          "symbol": "??3@YAXPAX@Z",
+          "site_rva": 296491,
+          "kind": 20,
+          "target_va": 269247626
+        },
+        {
+          "symbol": "?ReleasePointer@InternalPacketPool@@QAEXPAUInternalPacket@@@Z",
+          "site_rva": 296510,
+          "kind": 20,
+          "target_va": 268626800
+        },
+        {
+          "symbol": "?PushAtHead@?$Queue@PAUInternalPacket@@@DataStructures@@QAEXABQAUInternalPacket@@I@Z",
+          "site_rva": 296538,
+          "kind": 20,
+          "target_va": 268714192
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_reliability_datagram",
+      "section": 58,
+      "anchor": "?WriteToBitStreamFromInternalPacket@ReliabilityLayer@@AAEHPAVBitStream@RakNet@@QBUInternalPacket@@@Z",
+      "anchor_offset": 0,
+      "rva": 283952,
+      "size": 288,
+      "kind": "code",
+      "sha256": "0f7f1dd6dd7426d4b89d2b99bb1ac811dd40c3fbf2bc7c16c4fd88f691f3404d",
+      "bindings": [
+        {
+          "symbol": "?WriteBits@BitStream@RakNet@@QAEXPBEH_N@Z",
+          "site_rva": 283996,
+          "kind": 20,
+          "target_va": 268566496
+        },
+        {
+          "symbol": "?WriteBits@BitStream@RakNet@@QAEXPBEH_N@Z",
+          "site_rva": 284017,
+          "kind": 20,
+          "target_va": 268566496
+        },
+        {
+          "symbol": "?WriteBits@BitStream@RakNet@@QAEXPBEH_N@Z",
+          "site_rva": 284050,
+          "kind": 20,
+          "target_va": 268566496
+        },
+        {
+          "symbol": "?WriteBits@BitStream@RakNet@@QAEXPBEH_N@Z",
+          "site_rva": 284076,
+          "kind": 20,
+          "target_va": 268566496
+        },
+        {
+          "symbol": "?Write1@BitStream@RakNet@@QAEXXZ",
+          "site_rva": 284099,
+          "kind": 20,
+          "target_va": 268566320
+        },
+        {
+          "symbol": "?WriteBits@BitStream@RakNet@@QAEXPBEH_N@Z",
+          "site_rva": 284125,
+          "kind": 20,
+          "target_va": 268566496
+        },
+        {
+          "symbol": "?WriteCompressed@BitStream@RakNet@@AAEXPBEH_N@Z",
+          "site_rva": 284148,
+          "kind": 20,
+          "target_va": 268566832
+        },
+        {
+          "symbol": "?WriteCompressed@BitStream@RakNet@@AAEXPBEH_N@Z",
+          "site_rva": 284171,
+          "kind": 20,
+          "target_va": 268566832
+        },
+        {
+          "symbol": "?WriteCompressed@BitStream@RakNet@@AAEXPBEH_N@Z",
+          "site_rva": 284197,
+          "kind": 20,
+          "target_va": 268566832
+        },
+        {
+          "symbol": "?WriteAlignedBytes@BitStream@RakNet@@QAEXPBEH@Z",
+          "site_rva": 284218,
+          "kind": 20,
+          "target_va": 268566816
+        },
+        {
+          "symbol": "?Write0@BitStream@RakNet@@QAEXXZ",
+          "site_rva": 284234,
+          "kind": 20,
+          "target_va": 268566288
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_reliability_datagram",
+      "section": 8,
+      "anchor": "?GetBitStreamHeaderLength@ReliabilityLayer@@AAEHQBUInternalPacket@@@Z",
+      "anchor_offset": 0,
+      "rva": 278208,
+      "size": 54,
+      "kind": "code",
+      "sha256": "b69ee01324f8e2232c36bfd8bfd3ea2761573418102da80ba5f9e843a7c687a0",
+      "bindings": []
+    },
+    {
+      "unit": "closure_vendor_reliability_datagram",
+      "section": 60,
+      "anchor": "?InsertPacketIntoResendList@ReliabilityLayer@@AAEXPAUInternalPacket@@_J_N2@Z",
+      "anchor_offset": 0,
+      "rva": 285552,
+      "size": 134,
+      "kind": "code",
+      "sha256": "cef67c1b821484c79b147bfb5e26d6f034efc0615bf104c55d54ee21b0e91890",
+      "bindings": [
+        {
+          "symbol": "?IsEmpty@?$BPlusTree@GPAUInternalPacket@@$0CA@@DataStructures@@QBE_NXZ",
+          "site_rva": 285581,
+          "kind": 20,
+          "target_va": 268714848
+        },
+        {
+          "symbol": "?GetPointer@InternalPacketPool@@QAEPAUInternalPacket@@XZ",
+          "site_rva": 285626,
+          "kind": 20,
+          "target_va": 268719104
+        },
+        {
+          "symbol": "?Push@?$Queue@PAUInternalPacket@@@DataStructures@@QAEXABQAUInternalPacket@@@Z",
+          "site_rva": 285659,
+          "kind": 20,
+          "target_va": 268626240
+        },
+        {
+          "symbol": "?Push@?$Queue@PAUInternalPacket@@@DataStructures@@QAEXABQAUInternalPacket@@@Z",
+          "site_rva": 285678,
+          "kind": 20,
+          "target_va": 268626240
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_reliability_datagram",
+      "section": 72,
+      "anchor": "?Size@?$RangeList@G@DataStructures@@QAEIXZ",
+      "anchor_offset": 0,
+      "rva": 286112,
+      "size": 5,
+      "kind": "code",
+      "sha256": "ae2b9c64587f92098803a093d047e66faaeea202f146e863635f9331d1eddfee",
+      "bindings": [
+        {
+          "symbol": "?Size@?$OrderedList@GU?$RangeNode@G@DataStructures@@$1??$RangeNodeComp@G@2@YAHABGABU12@@Z@DataStructures@@QBEIXZ",
+          "site_rva": 286113,
+          "kind": 20,
+          "target_va": 268721552
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_reliability_datagram",
+      "section": 74,
+      "anchor": "?Serialize@?$RangeList@G@DataStructures@@QAEIPAVBitStream@RakNet@@H_N@Z",
+      "anchor_offset": 0,
+      "rva": 290624,
+      "size": 497,
+      "kind": "code",
+      "sha256": "7d35306b66c9b18daea8ca80b7f1598e22da5833d377ebcea4373cee099cb205",
+      "bindings": [
+        {
+          "symbol": "__ehhandler$?Serialize@?$RangeList@G@DataStructures@@QAEIPAVBitStream@RakNet@@H_N@Z",
+          "site_rva": 290627,
+          "kind": 6,
+          "target_va": 269364427
+        },
+        {
+          "symbol": "__except_list",
+          "site_rva": 290633,
+          "kind": 6,
+          "target_va": 0
+        },
+        {
+          "symbol": "__except_list",
+          "site_rva": 290641,
+          "kind": 6,
+          "target_va": 0
+        },
+        {
+          "symbol": "??0BitStream@RakNet@@QAE@XZ",
+          "site_rva": 290662,
+          "kind": 20,
+          "target_va": 268564272
+        },
+        {
+          "symbol": "?Size@?$OrderedList@GU?$RangeNode@G@DataStructures@@$1??$RangeNodeComp@G@2@YAHABGABU12@@Z@DataStructures@@QBEIXZ",
+          "site_rva": 290684,
+          "kind": 20,
+          "target_va": 268721552
+        },
+        {
+          "symbol": "??A?$OrderedList@GU?$RangeNode@G@DataStructures@@$1??$RangeNodeComp@G@2@YAHABGABU12@@Z@DataStructures@@QBEAAU?$RangeNode@G@1@I@Z",
+          "site_rva": 290725,
+          "kind": 20,
+          "target_va": 268721536
+        },
+        {
+          "symbol": "??A?$OrderedList@GU?$RangeNode@G@DataStructures@@$1??$RangeNodeComp@G@2@YAHABGABU12@@Z@DataStructures@@QBEAAU?$RangeNode@G@1@I@Z",
+          "site_rva": 290735,
+          "kind": 20,
+          "target_va": 268721536
+        },
+        {
+          "symbol": "?Write1@BitStream@RakNet@@QAEXXZ",
+          "site_rva": 290758,
+          "kind": 20,
+          "target_va": 268566320
+        },
+        {
+          "symbol": "?Write0@BitStream@RakNet@@QAEXXZ",
+          "site_rva": 290765,
+          "kind": 20,
+          "target_va": 268566288
+        },
+        {
+          "symbol": "??A?$OrderedList@GU?$RangeNode@G@DataStructures@@$1??$RangeNodeComp@G@2@YAHABGABU12@@Z@DataStructures@@QBEAAU?$RangeNode@G@1@I@Z",
+          "site_rva": 290773,
+          "kind": 20,
+          "target_va": 268721536
+        },
+        {
+          "symbol": "?WriteBits@BitStream@RakNet@@QAEXPBEH_N@Z",
+          "site_rva": 290800,
+          "kind": 20,
+          "target_va": 268566496
+        },
+        {
+          "symbol": "??A?$OrderedList@GU?$RangeNode@G@DataStructures@@$1??$RangeNodeComp@G@2@YAHABGABU12@@Z@DataStructures@@QBEAAU?$RangeNode@G@1@I@Z",
+          "site_rva": 290822,
+          "kind": 20,
+          "target_va": 268721536
+        },
+        {
+          "symbol": "??A?$OrderedList@GU?$RangeNode@G@DataStructures@@$1??$RangeNodeComp@G@2@YAHABGABU12@@Z@DataStructures@@QBEAAU?$RangeNode@G@1@I@Z",
+          "site_rva": 290832,
+          "kind": 20,
+          "target_va": 268721536
+        },
+        {
+          "symbol": "??A?$OrderedList@GU?$RangeNode@G@DataStructures@@$1??$RangeNodeComp@G@2@YAHABGABU12@@Z@DataStructures@@QBEAAU?$RangeNode@G@1@I@Z",
+          "site_rva": 290849,
+          "kind": 20,
+          "target_va": 268721536
+        },
+        {
+          "symbol": "?WriteBits@BitStream@RakNet@@QAEXPBEH_N@Z",
+          "site_rva": 290877,
+          "kind": 20,
+          "target_va": 268566496
+        },
+        {
+          "symbol": "?Size@?$OrderedList@GU?$RangeNode@G@DataStructures@@$1??$RangeNodeComp@G@2@YAHABGABU12@@Z@DataStructures@@QBEIXZ",
+          "site_rva": 290908,
+          "kind": 20,
+          "target_va": 268721552
+        },
+        {
+          "symbol": "?WriteCompressed@BitStream@RakNet@@AAEXPBEH_N@Z",
+          "site_rva": 290949,
+          "kind": 20,
+          "target_va": 268566832
+        },
+        {
+          "symbol": "?Write@BitStream@RakNet@@QAEXPAV12@H@Z",
+          "site_rva": 290976,
+          "kind": 20,
+          "target_va": 268565952
+        },
+        {
+          "symbol": "?Size@?$OrderedList@GU?$RangeNode@G@DataStructures@@$1??$RangeNodeComp@G@2@YAHABGABU12@@Z@DataStructures@@QBEIXZ",
+          "site_rva": 291003,
+          "kind": 20,
+          "target_va": 268721552
+        },
+        {
+          "symbol": "??A?$OrderedList@GU?$RangeNode@G@DataStructures@@$1??$RangeNodeComp@G@2@YAHABGABU12@@Z@DataStructures@@QBEAAU?$RangeNode@G@1@I@Z",
+          "site_rva": 291031,
+          "kind": 20,
+          "target_va": 268721536
+        },
+        {
+          "symbol": "??A?$OrderedList@GU?$RangeNode@G@DataStructures@@$1??$RangeNodeComp@G@2@YAHABGABU12@@Z@DataStructures@@QBEAAU?$RangeNode@G@1@I@Z",
+          "site_rva": 291043,
+          "kind": 20,
+          "target_va": 268721536
+        },
+        {
+          "symbol": "?Del@?$OrderedList@GU?$RangeNode@G@DataStructures@@$1??$RangeNodeComp@G@2@YAHABGABU12@@Z@DataStructures@@QAEXI@Z",
+          "site_rva": 291064,
+          "kind": 20,
+          "target_va": 268722224
+        },
+        {
+          "symbol": "??1BitStream@RakNet@@QAE@XZ",
+          "site_rva": 291088,
+          "kind": 20,
+          "target_va": 268564688
+        },
+        {
+          "symbol": "__except_list",
+          "site_rva": 291108,
+          "kind": 6,
+          "target_va": 0
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_reliability_datagram",
+      "section": 14,
+      "anchor": "?PushAtHead@?$Queue@PAUInternalPacket@@@DataStructures@@QAEXABQAUInternalPacket@@I@Z",
+      "anchor_offset": 0,
+      "rva": 278736,
+      "size": 221,
+      "kind": "code",
+      "sha256": "ab5ed75406cbacf4a5eda4a3a804a3857cfcbc5b9783b4091b77a22eddf09169",
+      "bindings": [
+        {
+          "symbol": "??2@YAPAXI@Z",
+          "site_rva": 278749,
+          "kind": 20,
+          "target_va": 269247098
+        },
+        {
+          "symbol": "??2@YAPAXI@Z",
+          "site_rva": 278871,
+          "kind": 20,
+          "target_va": 269247098
+        },
+        {
+          "symbol": "??3@YAXPAX@Z",
+          "site_rva": 278943,
+          "kind": 20,
+          "target_va": 269247626
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_reliability_datagram",
+      "section": 81,
+      "anchor": "?Insert@?$BPlusTree@GPAUInternalPacket@@$0CA@@DataStructures@@QAE_NGABQAUInternalPacket@@@Z",
+      "anchor_offset": 0,
+      "rva": 294640,
+      "size": 236,
+      "kind": "code",
+      "sha256": "41fb8592fea780e6d76d0187f89f5b4608e3d85d941d36c4aa9fcd25e94bda7f",
+      "bindings": [
+        {
+          "symbol": "?Allocate@?$MemoryPool@U?$Page@GPAUInternalPacket@@$0CA@@DataStructures@@@DataStructures@@QAEPAU?$Page@GPAUInternalPacket@@$0CA@@2@XZ",
+          "site_rva": 294655,
+          "kind": 20,
+          "target_va": 268722432
+        },
+        {
+          "symbol": "?InsertBranchDown@?$BPlusTree@GPAUInternalPacket@@$0CA@@DataStructures@@IAEPAU?$Page@GPAUInternalPacket@@$0CA@@2@GABQAUInternalPacket@@PAU32@PAUReturnAction@12@PA_N@Z",
+          "site_rva": 294775,
+          "kind": 20,
+          "target_va": 268727168
+        },
+        {
+          "symbol": "?Allocate@?$MemoryPool@U?$Page@GPAUInternalPacket@@$0CA@@DataStructures@@@DataStructures@@QAEPAU?$Page@GPAUInternalPacket@@$0CA@@2@XZ",
+          "site_rva": 294829,
+          "kind": 20,
+          "target_va": 268722432
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_reliability_datagram",
+      "section": 22,
+      "anchor": "?IsEmpty@?$BPlusTree@GPAUInternalPacket@@$0CA@@DataStructures@@QBE_NXZ",
+      "anchor_offset": 0,
+      "rva": 279392,
+      "size": 11,
+      "kind": "code",
+      "sha256": "c71f693fefcc8cbe7ec2a767eaec65b6ddb92ec75f4c627e6eb59f690bdc6dbd",
+      "bindings": []
+    },
+    {
+      "unit": "closure_vendor_reliability_datagram",
+      "section": 56,
+      "anchor": "?GetPointer@InternalPacketPool@@QAEPAUInternalPacket@@XZ",
+      "anchor_offset": 0,
+      "rva": 283648,
+      "size": 83,
+      "kind": "code",
+      "sha256": "d667512dc516e4879543d765fccb09922d1f17549ab02e6875b4adf553336f7a",
+      "bindings": [
+        {
+          "symbol": "??2@YAPAXI@Z",
+          "site_rva": 283722,
+          "kind": 20,
+          "target_va": 269247098
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_reliability_datagram",
+      "section": 12,
+      "anchor": "?Push@?$Queue@PAUInternalPacket@@@DataStructures@@QAEXABQAUInternalPacket@@@Z",
+      "anchor_offset": 0,
+      "rva": 190784,
+      "size": 189,
+      "kind": "code",
+      "sha256": "189c9cf9be7d9cb227300dc33e0a824f4b01a84a094a01b7477d5ed8de9c9dd4",
+      "bindings": [
+        {
+          "symbol": "??2@YAPAXI@Z",
+          "site_rva": 190797,
+          "kind": 20,
+          "target_va": 269247098
+        },
+        {
+          "symbol": "??2@YAPAXI@Z",
+          "site_rva": 190894,
+          "kind": 20,
+          "target_va": 269247098
+        },
+        {
+          "symbol": "??3@YAXPAX@Z",
+          "site_rva": 190959,
+          "kind": 20,
+          "target_va": 269247626
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_reliability_datagram",
+      "section": 66,
+      "anchor": "?Size@?$OrderedList@GU?$RangeNode@G@DataStructures@@$1??$RangeNodeComp@G@2@YAHABGABU12@@Z@DataStructures@@QBEIXZ",
+      "anchor_offset": 0,
+      "rva": 286096,
+      "size": 4,
+      "kind": "code",
+      "sha256": "f7e0208f5e988ae39c7a45dfddbd12921d02f9c3deb5695d4c534c8ab0ccdb0f",
+      "bindings": []
+    },
+    {
+      "unit": "closure_vendor_reliability_datagram",
+      "section": 75,
+      "anchor": "__ehhandler$?Serialize@?$RangeList@G@DataStructures@@QAEIPAVBitStream@RakNet@@H_N@Z",
+      "anchor_offset": 11,
+      "rva": 928960,
+      "size": 21,
+      "kind": "code",
+      "sha256": "06ed6211c2d0b3bdbcacf39817821e537af83bcefb75fe8ed4df78a827ae0bca",
+      "bindings": [
+        {
+          "symbol": "??1BitStream@RakNet@@QAE@XZ",
+          "site_rva": 928967,
+          "kind": 20,
+          "target_va": 268564688
+        },
+        {
+          "symbol": "$T61546",
+          "site_rva": 928972,
+          "kind": 6,
+          "target_va": 269461908
+        },
+        {
+          "symbol": "___CxxFrameHandler",
+          "site_rva": 928977,
+          "kind": 20,
+          "target_va": 269247782
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_reliability_datagram",
+      "section": 62,
+      "anchor": "??A?$OrderedList@GU?$RangeNode@G@DataStructures@@$1??$RangeNodeComp@G@2@YAHABGABU12@@Z@DataStructures@@QBEAAU?$RangeNode@G@1@I@Z",
+      "anchor_offset": 0,
+      "rva": 286080,
+      "size": 12,
+      "kind": "code",
+      "sha256": "ad09b7da4d9eb9c08f5c1a1b1a728841aa9a79add752be59989d682de3b497bb",
+      "bindings": []
+    },
+    {
+      "unit": "closure_vendor_reliability_datagram",
+      "section": 64,
+      "anchor": "?Del@?$OrderedList@GU?$RangeNode@G@DataStructures@@$1??$RangeNodeComp@G@2@YAHABGABU12@@Z@DataStructures@@QAEXI@Z",
+      "anchor_offset": 0,
+      "rva": 286768,
+      "size": 15,
+      "kind": "code",
+      "sha256": "69c8d5d6d0ec5e0f73207acf685e40ac7b7bd0b2f94a90c5581333ddbe3e7ab6",
+      "bindings": []
+    },
+    {
+      "unit": "closure_vendor_reliability_datagram",
+      "section": 68,
+      "anchor": "?Allocate@?$MemoryPool@U?$Page@GPAUInternalPacket@@$0CA@@DataStructures@@@DataStructures@@QAEPAU?$Page@GPAUInternalPacket@@$0CA@@2@XZ",
+      "anchor_offset": 0,
+      "rva": 286976,
+      "size": 32,
+      "kind": "code",
+      "sha256": "45d0fb216314353fc5478f0263b39e3a3483af75d742c92fdfe545c58af64ed1",
+      "bindings": [
+        {
+          "symbol": "??2@YAPAXI@Z",
+          "site_rva": 286989,
+          "kind": 20,
+          "target_va": 269247098
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_reliability_datagram",
+      "section": 79,
+      "anchor": "?InsertBranchDown@?$BPlusTree@GPAUInternalPacket@@$0CA@@DataStructures@@IAEPAU?$Page@GPAUInternalPacket@@$0CA@@2@GABQAUInternalPacket@@PAU32@PAUReturnAction@12@PA_N@Z",
+      "anchor_offset": 0,
+      "rva": 291712,
+      "size": 627,
+      "kind": "code",
+      "sha256": "461a69ea993b8dec9aabe1cf775e22dd94930ab4dfe8312de8ff1b4cc866a8f0",
+      "bindings": [
+        {
+          "symbol": "?GetIndexOf@?$BPlusTree@GPAUInternalPacket@@$0CA@@DataStructures@@IBE_NGPAU?$Page@GPAUInternalPacket@@$0CA@@2@PAH@Z",
+          "site_rva": 291734,
+          "kind": 20,
+          "target_va": 268716960
+        },
+        {
+          "symbol": "?CanRotateLeft@?$BPlusTree@GPAUInternalPacket@@$0CA@@DataStructures@@IAE_NPAU?$Page@GPAUInternalPacket@@$0CA@@2@H@Z",
+          "site_rva": 291800,
+          "kind": 20,
+          "target_va": 268717792
+        },
+        {
+          "symbol": "?RotateLeft@?$BPlusTree@GPAUInternalPacket@@$0CA@@DataStructures@@IAEXPAU?$Page@GPAUInternalPacket@@$0CA@@2@HPAUReturnAction@12@@Z",
+          "site_rva": 291842,
+          "kind": 20,
+          "target_va": 268718048
+        },
+        {
+          "symbol": "?GetIndexOf@?$BPlusTree@GPAUInternalPacket@@$0CA@@DataStructures@@IBE_NGPAU?$Page@GPAUInternalPacket@@$0CA@@2@PAH@Z",
+          "site_rva": 291863,
+          "kind": 20,
+          "target_va": 268716960
+        },
+        {
+          "symbol": "?InsertIntoNode@?$BPlusTree@GPAUInternalPacket@@$0CA@@DataStructures@@IAEPAU?$Page@GPAUInternalPacket@@$0CA@@2@GABQAUInternalPacket@@HPAU32@1PAUReturnAction@12@@Z",
+          "site_rva": 291893,
+          "kind": 20,
+          "target_va": 268723248
+        },
+        {
+          "symbol": "?CanRotateRight@?$BPlusTree@GPAUInternalPacket@@$0CA@@DataStructures@@IAE_NPAU?$Page@GPAUInternalPacket@@$0CA@@2@H@Z",
+          "site_rva": 291985,
+          "kind": 20,
+          "target_va": 268717840
+        },
+        {
+          "symbol": "?RotateRight@?$BPlusTree@GPAUInternalPacket@@$0CA@@DataStructures@@IAEXPAU?$Page@GPAUInternalPacket@@$0CA@@2@HPAUReturnAction@12@@Z",
+          "site_rva": 292031,
+          "kind": 20,
+          "target_va": 268717888
+        },
+        {
+          "symbol": "?GetIndexOf@?$BPlusTree@GPAUInternalPacket@@$0CA@@DataStructures@@IBE_NGPAU?$Page@GPAUInternalPacket@@$0CA@@2@PAH@Z",
+          "site_rva": 292052,
+          "kind": 20,
+          "target_va": 268716960
+        },
+        {
+          "symbol": "?InsertIntoNode@?$BPlusTree@GPAUInternalPacket@@$0CA@@DataStructures@@IAEPAU?$Page@GPAUInternalPacket@@$0CA@@2@GABQAUInternalPacket@@HPAU32@1PAUReturnAction@12@@Z",
+          "site_rva": 292082,
+          "kind": 20,
+          "target_va": 268723248
+        },
+        {
+          "symbol": "?InsertIntoNode@?$BPlusTree@GPAUInternalPacket@@$0CA@@DataStructures@@IAEPAU?$Page@GPAUInternalPacket@@$0CA@@2@GABQAUInternalPacket@@HPAU32@1PAUReturnAction@12@@Z",
+          "site_rva": 292125,
+          "kind": 20,
+          "target_va": 268723248
+        },
+        {
+          "symbol": "?InsertBranchDown@?$BPlusTree@GPAUInternalPacket@@$0CA@@DataStructures@@IAEPAU?$Page@GPAUInternalPacket@@$0CA@@2@GABQAUInternalPacket@@PAU32@PAUReturnAction@12@PA_N@Z",
+          "site_rva": 292189,
+          "kind": 20,
+          "target_va": 268727168
+        },
+        {
+          "symbol": "?InsertIntoNode@?$BPlusTree@GPAUInternalPacket@@$0CA@@DataStructures@@IAEPAU?$Page@GPAUInternalPacket@@$0CA@@2@GABQAUInternalPacket@@HPAU32@1PAUReturnAction@12@@Z",
+          "site_rva": 292254,
+          "kind": 20,
+          "target_va": 268723248
+        },
+        {
+          "symbol": "?InsertIntoNode@?$BPlusTree@GPAUInternalPacket@@$0CA@@DataStructures@@IAEPAU?$Page@GPAUInternalPacket@@$0CA@@2@GABQAUInternalPacket@@HPAU32@1PAUReturnAction@12@@Z",
+          "site_rva": 292278,
+          "kind": 20,
+          "target_va": 268723248
+        },
+        {
+          "symbol": "?InsertIntoNode@?$BPlusTree@GPAUInternalPacket@@$0CA@@DataStructures@@IAEPAU?$Page@GPAUInternalPacket@@$0CA@@2@GABQAUInternalPacket@@HPAU32@1PAUReturnAction@12@@Z",
+          "site_rva": 292328,
+          "kind": 20,
+          "target_va": 268723248
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_reliability_datagram",
+      "section": 76,
+      "anchor": "$T61546",
+      "anchor_offset": 8,
+      "rva": 1026444,
+      "size": 36,
+      "kind": "data",
+      "sha256": "ee6f9c6b1b7deaa88b6189fd244ce304952b2acfbf8616fa7927c58c949af98e",
+      "bindings": [
+        {
+          "symbol": "$L61503",
+          "site_rva": 1026448,
+          "kind": 6,
+          "target_va": 269364416
+        },
+        {
+          "symbol": "$T61555",
+          "site_rva": 1026460,
+          "kind": 6,
+          "target_va": 269461900
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_reliability_datagram",
+      "section": 38,
+      "anchor": "?GetIndexOf@?$BPlusTree@GPAUInternalPacket@@$0CA@@DataStructures@@IBE_NGPAU?$Page@GPAUInternalPacket@@$0CA@@2@PAH@Z",
+      "anchor_offset": 0,
+      "rva": 281504,
+      "size": 101,
+      "kind": "code",
+      "sha256": "4ec596879827b23863cccf03b33d95b49ad0ff1c4a38ac0094a8f8eeba153480",
+      "bindings": []
+    },
+    {
+      "unit": "closure_vendor_reliability_datagram",
+      "section": 40,
+      "anchor": "?CanRotateLeft@?$BPlusTree@GPAUInternalPacket@@$0CA@@DataStructures@@IAE_NPAU?$Page@GPAUInternalPacket@@$0CA@@2@H@Z",
+      "anchor_offset": 0,
+      "rva": 282336,
+      "size": 38,
+      "kind": "code",
+      "sha256": "301ed070d6c11843474a77937226a1f9e0a434ee322d75276d6f1a2f9faedd8d",
+      "bindings": []
+    },
+    {
+      "unit": "closure_vendor_reliability_datagram",
+      "section": 46,
+      "anchor": "?RotateLeft@?$BPlusTree@GPAUInternalPacket@@$0CA@@DataStructures@@IAEXPAU?$Page@GPAUInternalPacket@@$0CA@@2@HPAUReturnAction@12@@Z",
+      "anchor_offset": 0,
+      "rva": 282592,
+      "size": 148,
+      "kind": "code",
+      "sha256": "580e8e50b12328b3aa0c9db0b41d96e8df0a2cb1c3d88af5383c93e054e3b685",
+      "bindings": []
+    },
+    {
+      "unit": "closure_vendor_reliability_datagram",
+      "section": 70,
+      "anchor": "?InsertIntoNode@?$BPlusTree@GPAUInternalPacket@@$0CA@@DataStructures@@IAEPAU?$Page@GPAUInternalPacket@@$0CA@@2@GABQAUInternalPacket@@HPAU32@1PAUReturnAction@12@@Z",
+      "anchor_offset": 0,
+      "rva": 287792,
+      "size": 1008,
+      "kind": "code",
+      "sha256": "352386433310a4a81c38160a85f409f382e56e80b1fbf7c7bd313f4b080ef69d",
+      "bindings": [
+        {
+          "symbol": "?Allocate@?$MemoryPool@U?$Page@GPAUInternalPacket@@$0CA@@DataStructures@@@DataStructures@@QAEPAU?$Page@GPAUInternalPacket@@$0CA@@2@XZ",
+          "site_rva": 287978,
+          "kind": 20,
+          "target_va": 268722432
+        },
+        {
+          "symbol": "?GetIndexOf@?$BPlusTree@GPAUInternalPacket@@$0CA@@DataStructures@@IBE_NGPAU?$Page@GPAUInternalPacket@@$0CA@@2@PAH@Z",
+          "site_rva": 288750,
+          "kind": 20,
+          "target_va": 268716960
+        },
+        {
+          "symbol": "?InsertIntoNode@?$BPlusTree@GPAUInternalPacket@@$0CA@@DataStructures@@IAEPAU?$Page@GPAUInternalPacket@@$0CA@@2@GABQAUInternalPacket@@HPAU32@1PAUReturnAction@12@@Z",
+          "site_rva": 288777,
+          "kind": 20,
+          "target_va": 268723248
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_reliability_datagram",
+      "section": 42,
+      "anchor": "?CanRotateRight@?$BPlusTree@GPAUInternalPacket@@$0CA@@DataStructures@@IAE_NPAU?$Page@GPAUInternalPacket@@$0CA@@2@H@Z",
+      "anchor_offset": 0,
+      "rva": 282384,
+      "size": 39,
+      "kind": "code",
+      "sha256": "f27f31776c09bca4ec421766e897a9da8d5090412adff3941da412a69bceccf0",
+      "bindings": []
+    },
+    {
+      "unit": "closure_vendor_reliability_datagram",
+      "section": 44,
+      "anchor": "?RotateRight@?$BPlusTree@GPAUInternalPacket@@$0CA@@DataStructures@@IAEXPAU?$Page@GPAUInternalPacket@@$0CA@@2@HPAUReturnAction@12@@Z",
+      "anchor_offset": 0,
+      "rva": 282432,
+      "size": 153,
+      "kind": "code",
+      "sha256": "2e707929c1f9403eae840c2ba767d4d3dabd4bffd24934525cfdc506d372d094",
+      "bindings": []
+    }
+  ],
+  "seeds": [
+    {
+      "unit": "closure_vendor_reliability_datagram",
+      "symbol": "?GenerateDatagram@ReliabilityLayer@@AAEIPAVBitStream@RakNet@@HPA_N_JUPlayerID@@AAV?$List@PAVPluginInterface@@@DataStructures@@@Z",
+      "rva": 295024,
+      "size": 1594
+    },
+    {
+      "unit": "closure_vendor_reliability_serialization",
+      "symbol": "?CreateInternalPacketFromBitStream@ReliabilityLayer@@AAEPAUInternalPacket@@PAVBitStream@RakNet@@_J@Z",
+      "rva": 284240,
+      "size": 427,
+      "anchor_offset": 0
+    },
+    {
+      "unit": "closure_vendor_reliability_serialization",
+      "symbol": "??$Read@_N@BitStream@RakNet@@QAE_NAA_N@Z",
+      "rva": 33824,
+      "size": 89,
+      "anchor_offset": 0
+    },
+    {
+      "unit": "closure_vendor_reliability_serialization",
+      "symbol": "?GetPointer@InternalPacketPool@@QAEPAUInternalPacket@@XZ",
+      "rva": 283648,
+      "size": 83,
+      "anchor_offset": 0
+    },
+    {
+      "unit": "closure_vendor_reliability_datagram",
+      "symbol": "?WriteToBitStreamFromInternalPacket@ReliabilityLayer@@AAEHPAVBitStream@RakNet@@QBUInternalPacket@@@Z",
+      "rva": 283952,
+      "size": 288,
+      "anchor_offset": 0
+    },
+    {
+      "unit": "closure_vendor_reliability_serialization",
+      "symbol": "?GetNumberOfUnreadBits@BitStream@RakNet@@QBEHXZ",
+      "rva": 229456,
+      "size": 6,
+      "anchor_offset": 0
+    },
+    {
+      "unit": "closure_vendor_reliability_packet_family",
+      "symbol": "?BuildPacketFromSplitPacketList@ReliabilityLayer@@AAEPAUInternalPacket@@G_J@Z",
+      "rva": 297280,
+      "size": 677,
+      "anchor_offset": 0
+    },
+    {
+      "unit": "closure_vendor_reliability_packet_family",
+      "symbol": "?RemoveAtIndex@?$OrderedList@GPAUSplitPacketChannel@@$1?SplitPacketChannelComp@@YAHABGABQAU1@@Z@DataStructures@@QAEXI@Z",
+      "rva": 291264,
+      "size": 5,
+      "anchor_offset": 0
+    },
+    {
+      "unit": "closure_vendor_reliability_packet_family",
+      "symbol": "?RemoveAtIndex@?$List@PAUSplitPacketChannel@@@DataStructures@@QAEXI@Z",
+      "rva": 287024,
+      "size": 53,
+      "anchor_offset": 0
+    },
+    {
+      "unit": "closure_vendor_reliability_packet_family",
+      "symbol": "??1SplitPacketChannel@@QAE@XZ",
+      "rva": 293152,
+      "size": 8,
+      "anchor_offset": 0
+    },
+    {
+      "unit": "closure_vendor_reliability_packet_family",
+      "symbol": "??1?$OrderedList@IPAUInternalPacket@@$1?SplitPacketIndexComp@@YAHABIABQAU1@@Z@DataStructures@@QAE@XZ",
+      "rva": 290544,
+      "size": 73,
+      "anchor_offset": 0
+    },
+    {
+      "unit": "closure_vendor_reliability_packet_family",
+      "symbol": "??1?$List@PAUInternalPacket@@@DataStructures@@QAE@XZ",
+      "rva": 280816,
+      "size": 17,
+      "anchor_offset": 0
+    },
+    {
+      "unit": "closure_vendor_reliability_packet_family",
+      "symbol": "?Clear@?$OrderedList@IPAUInternalPacket@@$1?SplitPacketIndexComp@@YAHABIABQAU1@@Z@DataStructures@@QAEXXZ",
+      "rva": 286608,
+      "size": 8,
+      "anchor_offset": 0
+    },
+    {
+      "unit": "closure_vendor_reliability_packet_family",
+      "symbol": "?Clear@?$List@PAUInternalPacket@@@DataStructures@@QAEX_N@Z",
+      "rva": 282240,
+      "size": 60,
+      "anchor_offset": 0
+    },
+    {
+      "unit": "closure_vendor_reliability_packet_family",
+      "symbol": "?CreateInternalPacketCopy@ReliabilityLayer@@AAEPAUInternalPacket@@PAU2@HH_J@Z",
+      "rva": 285360,
+      "size": 153,
+      "anchor_offset": 0
+    },
+    {
+      "unit": "closure_vendor_reliability_packet_family",
+      "symbol": "?Size@?$OrderedList@IPAUInternalPacket@@$1?SplitPacketIndexComp@@YAHABIABQAU1@@Z@DataStructures@@QBEIXZ",
+      "rva": 279072,
+      "size": 4,
+      "anchor_offset": 0
+    },
+    {
+      "unit": "closure_vendor_reliability_packet_family",
+      "symbol": "??A?$OrderedList@IPAUInternalPacket@@$1?SplitPacketIndexComp@@YAHABIABQAU1@@Z@DataStructures@@QBEAAPAUInternalPacket@@I@Z",
+      "rva": 279056,
+      "size": 12,
+      "anchor_offset": 0
+    },
+    {
+      "unit": "closure_vendor_reliability_packet_family",
+      "symbol": "??A?$OrderedList@GPAUSplitPacketChannel@@$1?SplitPacketChannelComp@@YAHABGABQAU1@@Z@DataStructures@@QBEAAPAUSplitPacketChannel@@I@Z",
+      "rva": 286432,
+      "size": 12,
+      "anchor_offset": 0
+    },
+    {
+      "unit": "closure_vendor_reliability_packet_family",
+      "symbol": "?GetIndexFromKey@?$OrderedList@GPAUSplitPacketChannel@@$1?SplitPacketChannelComp@@YAHABGABQAU1@@Z@DataStructures@@QBEIABGPA_N@Z",
+      "rva": 286192,
+      "size": 141,
+      "anchor_offset": 0
+    },
+    {
+      "unit": "closure_vendor_reliability_packet_family",
+      "symbol": "?SplitPacketChannelComp@@YAHABGABQAUSplitPacketChannel@@@Z",
+      "rva": 283744,
+      "size": 66,
+      "anchor_offset": 0
+    },
+    {
+      "unit": "closure_vendor_reliability_packet_family",
+      "symbol": "?DeleteOldUnreliableSplitPackets@ReliabilityLayer@@AAEX_J@Z",
+      "rva": 297968,
+      "size": 329,
+      "anchor_offset": 0
+    },
+    {
+      "unit": "closure_vendor_reliability_packet_family",
+      "symbol": "?Size@?$OrderedList@GPAUSplitPacketChannel@@$1?SplitPacketChannelComp@@YAHABGABQAU1@@Z@DataStructures@@QBEIXZ",
+      "rva": 286464,
+      "size": 4,
+      "anchor_offset": 0
+    },
+    {
+      "unit": "closure_vendor_reliability_packet_family",
+      "symbol": "?InsertIntoSplitPacketList@ReliabilityLayer@@AAEXPAUInternalPacket@@_J@Z",
+      "rva": 296736,
+      "size": 542,
+      "anchor_offset": 0
+    },
+    {
+      "unit": "closure_vendor_reliability_packet_family",
+      "symbol": "?Insert@?$OrderedList@IPAUInternalPacket@@$1?SplitPacketIndexComp@@YAHABIABQAU1@@Z@DataStructures@@QAEIABIABQAUInternalPacket@@@Z",
+      "rva": 285984,
+      "size": 91,
+      "anchor_offset": 0
+    },
+    {
+      "unit": "closure_vendor_reliability_packet_family",
+      "symbol": "?Insert@?$List@PAUInternalPacket@@@DataStructures@@QAEXQAUInternalPacket@@I@Z",
+      "rva": 280960,
+      "size": 137,
+      "anchor_offset": 0
+    },
+    {
+      "unit": "closure_vendor_reliability_packet_family",
+      "symbol": "?Insert@?$List@PAUInternalPacket@@@DataStructures@@QAEXQAUInternalPacket@@@Z",
+      "rva": 280848,
+      "size": 105,
+      "anchor_offset": 0
+    },
+    {
+      "unit": "closure_vendor_reliability_packet_family",
+      "symbol": "?GetIndexFromKey@?$OrderedList@IPAUInternalPacket@@$1?SplitPacketIndexComp@@YAHABIABQAU1@@Z@DataStructures@@QBEIABIPA_N@Z",
+      "rva": 281120,
+      "size": 141,
+      "anchor_offset": 0
+    },
+    {
+      "unit": "closure_vendor_reliability_packet_family",
+      "symbol": "?SplitPacketIndexComp@@YAHABIABQAUInternalPacket@@@Z",
+      "rva": 277616,
+      "size": 33,
+      "anchor_offset": 0
+    },
+    {
+      "unit": "closure_vendor_reliability_packet_family",
+      "symbol": "?Insert@?$OrderedList@GPAUSplitPacketChannel@@$1?SplitPacketChannelComp@@YAHABGABQAU1@@Z@DataStructures@@QAEIABGABQAUSplitPacketChannel@@@Z",
+      "rva": 286336,
+      "size": 91,
+      "anchor_offset": 0
+    },
+    {
+      "unit": "closure_vendor_reliability_packet_family",
+      "symbol": "?Insert@?$List@PAUSplitPacketChannel@@@DataStructures@@QAEXQAUSplitPacketChannel@@I@Z",
+      "rva": 281792,
+      "size": 137,
+      "anchor_offset": 0
+    },
+    {
+      "unit": "closure_vendor_reliability_packet_family",
+      "symbol": "?Insert@?$List@PAUSplitPacketChannel@@@DataStructures@@QAEXQAUSplitPacketChannel@@@Z",
+      "rva": 281680,
+      "size": 105,
+      "anchor_offset": 0
+    },
+    {
+      "unit": "closure_vendor_reliability_packet_family",
+      "symbol": "??0?$OrderedList@IPAUInternalPacket@@$1?SplitPacketIndexComp@@YAHABIABQAU1@@Z@DataStructures@@QAE@XZ",
+      "rva": 285968,
+      "size": 12,
+      "anchor_offset": 0
+    },
+    {
+      "unit": "closure_vendor_reliability_packet_family",
+      "symbol": "??0?$List@PAUInternalPacket@@@DataStructures@@QAE@XZ",
+      "rva": 280800,
+      "size": 13,
+      "anchor_offset": 0
+    },
+    {
+      "unit": "closure_vendor_reliability_packet_family",
+      "symbol": "?GetStatistics@ReliabilityLayer@@QAEQAURakNetStatisticsStruct@@_N@Z",
+      "rva": 293328,
+      "size": 320,
+      "anchor_offset": 0
+    },
+    {
+      "unit": "closure_vendor_reliability_packet_family",
+      "symbol": "?GetResendListDataSize@ReliabilityLayer@@ABEIXZ",
+      "rva": 290512,
+      "size": 8,
+      "anchor_offset": 0
+    },
+    {
+      "unit": "closure_vendor_reliability_packet_family",
+      "symbol": "?Size@?$BPlusTree@GPAUInternalPacket@@$0CA@@DataStructures@@QBEIXZ",
+      "rva": 286128,
+      "size": 35,
+      "anchor_offset": 0
+    },
+    {
+      "unit": "closure_vendor_reliability_packet_family",
+      "symbol": "?GetListHead@?$BPlusTree@GPAUInternalPacket@@$0CA@@DataStructures@@QBEPAU?$Page@GPAUInternalPacket@@$0CA@@2@XZ",
+      "rva": 281344,
+      "size": 4,
+      "anchor_offset": 0
+    },
+    {
+      "unit": "closure_vendor_reliability_packet_family",
+      "symbol": "?Size@?$RangeList@G@DataStructures@@QAEIXZ",
+      "rva": 286112,
+      "size": 5,
+      "anchor_offset": 0
+    },
+    {
+      "unit": "closure_vendor_reliability_packet_family",
+      "symbol": "?Size@?$OrderedList@GU?$RangeNode@G@DataStructures@@$1??$RangeNodeComp@G@2@YAHABGABU12@@Z@DataStructures@@QBEIXZ",
+      "rva": 286096,
+      "size": 4,
+      "anchor_offset": 0
+    },
+    {
+      "unit": "closure_vendor_reliability_packet_family",
+      "symbol": "?AddToOrderingList@ReliabilityLayer@@AAEXPAUInternalPacket@@@Z",
+      "rva": 293184,
+      "size": 135,
+      "anchor_offset": 0
+    },
+    {
+      "unit": "closure_vendor_reliability_packet_family",
+      "symbol": "?Add@?$CircularLinkedList@PAUInternalPacket@@@DataStructures@@QAEAAPAUInternalPacket@@ABQAU3@@Z",
+      "rva": 280416,
+      "size": 189,
+      "anchor_offset": 0
+    },
+    {
+      "unit": "closure_vendor_reliability_packet_family",
+      "symbol": "?Replace@?$List@PAV?$LinkedList@PAUInternalPacket@@@DataStructures@@@DataStructures@@QAEXQAV?$LinkedList@PAUInternalPacket@@@2@0I@Z",
+      "rva": 279152,
+      "size": 160,
+      "anchor_offset": 0
+    },
+    {
+      "unit": "closure_vendor_reliability_packet_family",
+      "symbol": "??0?$CircularLinkedList@PAUInternalPacket@@@DataStructures@@QAE@XZ",
+      "rva": 280400,
+      "size": 13,
+      "anchor_offset": 0
+    },
+    {
+      "unit": "closure_vendor_reliability_packet_family",
+      "symbol": "?GetOrderingListAtOrderingStream@ReliabilityLayer@@AAEPAV?$LinkedList@PAUInternalPacket@@@DataStructures@@E@Z",
+      "rva": 285520,
+      "size": 23,
+      "anchor_offset": 0
+    },
+    {
+      "unit": "closure_vendor_reliability_packet_family",
+      "symbol": "?AreAcksWaiting@ReliabilityLayer@@QAE_NXZ",
+      "rva": 290128,
+      "size": 17,
+      "anchor_offset": 0
+    },
+    {
+      "unit": "closure_vendor_reliability_packet_family",
+      "symbol": "?IsDataWaiting@ReliabilityLayer@@QAE_NXZ",
+      "rva": 289968,
+      "size": 145,
+      "anchor_offset": 0
+    },
+    {
+      "unit": "closure_vendor_reliability_packet_family",
+      "symbol": "?IsEmpty@?$BPlusTree@GPAUInternalPacket@@$0CA@@DataStructures@@QBE_NXZ",
+      "rva": 279392,
+      "size": 11,
+      "anchor_offset": 0
+    },
+    {
+      "unit": "closure_vendor_reliability_packet_family",
+      "symbol": "?DeleteSequencedPacketsInList@ReliabilityLayer@@AAEXEAAV?$Queue@PAUInternalPacket@@@DataStructures@@@Z",
+      "rva": 290272,
+      "size": 233,
+      "anchor_offset": 0
+    },
+    {
+      "unit": "closure_vendor_reliability_packet_family",
+      "symbol": "?Del@?$Queue@PAUInternalPacket@@@DataStructures@@QAEXI@Z",
+      "rva": 285792,
+      "size": 110,
+      "anchor_offset": 0
+    },
+    {
+      "unit": "closure_vendor_reliability_packet_family",
+      "symbol": "?DeleteSequencedPacketsInList@ReliabilityLayer@@AAEXEAAV?$List@PAUInternalPacket@@@DataStructures@@H@Z",
+      "rva": 290160,
+      "size": 111,
+      "anchor_offset": 0
+    },
+    {
+      "unit": "closure_vendor_reliability_packet_family",
+      "symbol": "?RemoveAtIndex@?$List@PAUInternalPacket@@@DataStructures@@QAEXI@Z",
+      "rva": 285904,
+      "size": 53,
+      "anchor_offset": 0
+    },
+    {
+      "unit": "closure_vendor_reliability_packet_family",
+      "symbol": "?Send@ReliabilityLayer@@QAE_NPADHW4PacketPriority@@W4PacketReliability@@E_NH_J@Z",
+      "rva": 289536,
+      "size": 417,
+      "anchor_offset": 0
+    },
+    {
+      "unit": "closure_vendor_reliability_packet_family",
+      "symbol": "?SplitPacket@ReliabilityLayer@@AAEXPAUInternalPacket@@H@Z",
+      "rva": 284672,
+      "size": 677,
+      "anchor_offset": 0
+    },
+    {
+      "unit": "closure_vendor_reliability_datagram",
+      "symbol": "?GetBitStreamHeaderLength@ReliabilityLayer@@AAEHQBUInternalPacket@@@Z",
+      "rva": 278208,
+      "size": 54,
+      "anchor_offset": 0
+    },
+    {
+      "unit": "closure_vendor_reliability_datagram",
+      "symbol": "?InsertPacketIntoResendList@ReliabilityLayer@@AAEXPAUInternalPacket@@_J_N2@Z",
+      "rva": 285552,
+      "size": 134,
+      "anchor_offset": 0
+    },
+    {
+      "unit": "closure_vendor_reliability_packet_family",
+      "symbol": "?Receive@ReliabilityLayer@@QAEHPAPAE@Z",
+      "rva": 283824,
+      "size": 123,
+      "anchor_offset": 0
+    },
+    {
+      "unit": "closure_vendor_reliability_packet_family",
+      "symbol": "?SetEncryptionKey@ReliabilityLayer@@QAEXPBE@Z",
+      "rva": 277664,
+      "size": 31,
+      "anchor_offset": 0
+    },
+    {
+      "unit": "closure_vendor_reliability_packet_family",
+      "symbol": "__ehhandler$??1?$OrderedList@IPAUInternalPacket@@$1?SplitPacketIndexComp@@YAHABIABQAU1@@Z@DataStructures@@QAE@XZ",
+      "rva": 928928,
+      "size": 18,
+      "anchor_offset": 8
+    },
+    {
+      "unit": "closure_vendor_reliability_packet_family",
+      "symbol": "?GetPointer@InternalPacketPool@@QAEPAUInternalPacket@@XZ",
+      "rva": 283648,
+      "size": 83,
+      "anchor_offset": 0
+    },
+    {
+      "unit": "closure_vendor_reliability_packet_family",
+      "symbol": "?Push@?$Queue@PAUInternalPacket@@@DataStructures@@QAEXABQAUInternalPacket@@@Z",
+      "rva": 190784,
+      "size": 189,
+      "anchor_offset": 0
+    }
+  ],
+  "new_unique_code": 1594,
+  "source_sha256": {
+    "closure_vendor_reliability_packet_family": "73d5c92320f30166805db0acd7171ca93d9835ef608af0d991ff5dde20aab273",
+    "closure_vendor_reliability_serialization": "0f8e6130d6e2e413d4eb68fbd32aac8ddb42550a957e2f0102d4985a64e1453e",
+    "closure_vendor_reliability_datagram": "084873045cebb0693858858c972b3fd3b98016486cfac9516c0dc9857411fb75"
+  },
+  "object_sha256": {
+    "closure_vendor_reliability_packet_family": "fca2aaa7acb13d3ff7fe16ae991c0f2692a92e03282281de145bcd9afe042abe",
+    "closure_vendor_reliability_serialization": "82494a8fdbfd28b21db29419890d8821a02d2d49a93c3b614e130e14b05476b3",
+    "closure_vendor_reliability_datagram": "c68ba22223bb6459d0a15668e198dfe919815f2d061749abf339971a28ce38b7"
+  },
+  "owner_migrations": [
+    {
+      "symbol": "?GetBitStreamHeaderLength@ReliabilityLayer@@AAEHQBUInternalPacket@@@Z",
+      "unit": "closure_vendor_reliability_datagram"
+    },
+    {
+      "symbol": "?WriteToBitStreamFromInternalPacket@ReliabilityLayer@@AAEHPAVBitStream@RakNet@@QBUInternalPacket@@@Z",
+      "unit": "closure_vendor_reliability_datagram"
+    },
+    {
+      "symbol": "?InsertPacketIntoResendList@ReliabilityLayer@@AAEXPAUInternalPacket@@_J_N2@Z",
+      "unit": "closure_vendor_reliability_datagram"
+    }
+  ],
+  "scope": "Source exactness with actual single provider for migrated methods; whole linked ownership, acceptance and negative controls remain integrator responsibility."
+}

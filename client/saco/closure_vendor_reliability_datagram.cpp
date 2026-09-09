@@ -232,3 +232,157 @@ typedef char R5PacketComplete[(sizeof(InternalPacket)==55)?1:-1];
 
 typedef char R5ReliableCountersOffset[(offsetof(RakNetStatisticsStruct,_pad20)==0x20)?1:-1];
 typedef char R5ReliableCounterWidth[(sizeof(unsigned)==4)?1:-1];
+
+// Original same-TU ReliabilityLayer callees, copied verbatim from accepted owners.
+int ReliabilityLayer::GetBitStreamHeaderLength( const InternalPacket *const internalPacket )
+{
+#ifdef _DEBUG
+	assert( internalPacket );
+#endif
+
+	int bitLength;
+
+	bitLength=sizeof(MessageNumberType)*2*8;
+
+	// Write the PacketReliability.  This is encoded in 3 bits
+	//bitStream->WriteBits((unsigned char*)&(internalPacket->reliability), 3, true);
+	bitLength += reliabilitySizeInBits;
+
+	// If the reliability requires an ordering channel and ordering index, we Write those.
+	if ( internalPacket->reliability == UNRELIABLE_SEQUENCED || internalPacket->reliability == RELIABLE_SEQUENCED || internalPacket->reliability == RELIABLE_ORDERED )
+	{
+		// ordering channel encoded in 5 bits (from 0 to 31)
+		//bitStream->WriteBits((unsigned char*)&(internalPacket->orderingChannel), 5, true);
+		bitLength+=5;
+
+		// ordering index is one byte
+		//bitStream->WriteCompressed(internalPacket->orderingIndex);
+		bitLength+=sizeof(OrderingIndexType)*8;
+	}
+
+	// Write if this is a split packet (1 bit)
+	bool isSplitPacket = internalPacket->splitPacketCount > 0;
+
+	//bitStream->Write(isSplitPacket);
+	bitLength += 1;
+
+	if ( isSplitPacket )
+	{
+		// split packet indices are two bytes (so one packet can be split up to 65535
+		// times - maximum packet size would be about 500 * 65535)
+		//bitStream->Write(internalPacket->splitPacketId);
+		//bitStream->WriteCompressed(internalPacket->splitPacketIndex);
+		//bitStream->WriteCompressed(internalPacket->splitPacketCount);
+		bitLength += (sizeof(SplitPacketIdType) + sizeof(SplitPacketIndexType) * 2) * 8;
+	}
+
+	// Write how many bits the packet data is. Stored in an unsigned short and
+	// read from 16 bits
+	//bitStream->WriteBits((unsigned char*)&(internalPacket->dataBitLength), 16, true);
+
+	// Read how many bits the packet data is.  Stored in 16 bits
+	bitLength += 16;
+
+	// Byte alignment
+	//bitLength += 8 - ((bitLength -1) %8 + 1);
+
+	return bitLength;
+}
+
+int ReliabilityLayer::WriteToBitStreamFromInternalPacket( RakNet::BitStream *bitStream, const InternalPacket *const internalPacket )
+{
+    typedef char R5ReliabilityBitsOffset[(offsetof(ReliabilityLayer,reliabilitySizeInBits)==0x403)?1:-1];
+    typedef char R5InternalPoolOffset[(offsetof(ReliabilityLayer,internalPacketPool)==0x6F2)?1:-1];
+
+#ifdef _DEBUG
+	assert( bitStream && internalPacket );
+#endif
+
+	int start = bitStream->GetNumberOfBitsUsed();
+	const unsigned char c = (unsigned char) internalPacket->reliability;
+
+	// testing
+	//if (internalPacket->reliability==UNRELIABLE)
+	//  printf("Sending unreliable packet %i\n", internalPacket->messageNumber);
+	//else if (internalPacket->reliability==RELIABLE_SEQUENCED || internalPacket->reliability==RELIABLE_ORDERED || internalPacket->reliability==RELIABLE)
+	//	  printf("Sending reliable packet number %i\n", internalPacket->messageNumber);
+
+	//bitStream->AlignWriteToByteBoundary();
+
+	// Write the message number (2 bytes)
+	bitStream->Write( internalPacket->messageNumber );
+
+	// Acknowledgment packets have no more data than the messageNumber and whether it is anacknowledgment
+
+
+#ifdef _DEBUG
+	assert( internalPacket->dataBitLength > 0 );
+#endif
+
+	// Write the PacketReliability.  This is encoded in 3 bits
+	bitStream->WriteBits( (const unsigned char *)&c, reliabilitySizeInBits, true );
+
+	// If the reliability requires an ordering channel and ordering index, we Write those.
+	if ( internalPacket->reliability == UNRELIABLE_SEQUENCED || internalPacket->reliability == RELIABLE_SEQUENCED || internalPacket->reliability == RELIABLE_ORDERED )
+	{
+		// ordering channel encoded in 5 bits (from 0 to 31)
+		bitStream->WriteBits( ( unsigned char* ) & ( internalPacket->orderingChannel ), 5, true );
+
+		// One or two bytes
+		bitStream->Write( internalPacket->orderingIndex );
+	}
+
+	// Write if this is a split packet (1 bit)
+	bool isSplitPacket = internalPacket->splitPacketCount > 0;
+
+	bitStream->Write( isSplitPacket );
+
+	if ( isSplitPacket )
+	{
+		bitStream->Write( internalPacket->splitPacketId );
+		bitStream->WriteCompressed( internalPacket->splitPacketIndex );
+		bitStream->WriteCompressed( internalPacket->splitPacketCount );
+	}
+
+	// Write how many bits the packet data is. Stored in 13 bits
+#ifdef _DEBUG
+	assert( BITS_TO_BYTES( internalPacket->dataBitLength ) < MAXIMUM_MTU_SIZE ); // I never send more than MTU_SIZE bytes
+
+#endif
+
+	unsigned short length = ( unsigned short ) internalPacket->dataBitLength; // Ignore the 2 high bytes for WriteBits
+
+	bitStream->WriteCompressed( length );
+
+	// Write the actual data.
+	bitStream->WriteAlignedBytes( ( unsigned char* ) internalPacket->data, BITS_TO_BYTES( internalPacket->dataBitLength ) );
+
+	//bitStream->WriteBits((unsigned char*)internalPacket->data, internalPacket->dataBitLength);
+
+	return bitStream->GetNumberOfBitsUsed() - start;
+}
+
+void ReliabilityLayer::InsertPacketIntoResendList( InternalPacket *internalPacket, RakNetTimeNS time, bool makeCopyOfInternalPacket, bool firstResend )
+{
+	// lastAckTime is the time we last got an acknowledgment - however we also initialize the value if this is the first resend and
+	// either we never got an ack before or we are inserting into an empty resend queue
+	if ( firstResend && (lastAckTime == 0 || resendList.IsEmpty()))
+	{
+		lastAckTime = time; // Start the timer for the ack of this packet if we aren't already waiting for an ack
+	}
+
+	if (makeCopyOfInternalPacket)
+	{
+		InternalPacket *pool=internalPacketPool.GetPointer();
+		//printf("Adding %i\n", internalPacket->data);
+		memcpy(pool, internalPacket, sizeof(InternalPacket));
+		resendQueue.Push( pool );
+	}
+	else
+	{
+		RakAssert(internalPacket->nextActionTime!=0);
+
+		resendQueue.Push( internalPacket );
+	}
+
+}

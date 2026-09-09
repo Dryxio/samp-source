@@ -1576,3 +1576,6 @@ astra40-three: +3170 unique R5 code bytes, total 434468/930756 (46.679044%). Tra
 
 
 astra40-ten: +1427 unique R5 code bytes, total 435895/930756 (46.832360%). Router/factory/queue304, std::string543, DXUT/math446 and UI134:1427 potential unique R5 code bytes. Real RakPeer173 and StringLengthWorker64 providers already covered, zero new credit. Complete source/linked code, data, EH and actual COFF/PE targets; required negative controls and ABI PASS. No duplicate/data/CRT/unimplemented-provider credit. Checkpoint remains active, no push/deployment. See astra-resume-reports/astra40-ten.json.
+
+
+overnight-network-one: +1594 unique R5 code bytes, total 437489/930756 (47.003619%). GenerateDatagram1594 unique potential code bytes; three existing methods migrate to one real owner, zero duplicate credit. Complete source/linked code, data, EH and actual COFF/PE targets; required negative controls and ABI PASS. No duplicate/data/CRT/unimplemented-provider credit. Checkpoint remains active, no push/deployment. See overnight-reports/overnight-network-one.json.
