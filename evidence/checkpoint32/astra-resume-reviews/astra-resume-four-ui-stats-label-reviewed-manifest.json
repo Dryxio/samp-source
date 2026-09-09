@@ -1,0 +1,1195 @@
+{
+  "status": "PASS_FULL_SOURCE_REGIONS_ALL_COFF_PE_TARGETS",
+  "run": "cp32-astra-resume-probe-four",
+  "baseline": 429099,
+  "new_unique_code": 252,
+  "regions": [
+    {
+      "unit": "closure_player_label_lifecycle",
+      "section": 48,
+      "anchor": "?EndLabel@R5PlayerTagLabelView@@QAEXXZ",
+      "anchor_offset": 0,
+      "rva": 445840,
+      "size": 14,
+      "kind": "code",
+      "sha256": "1a07b4357414144e624e783e523608ee31c01026c3cfa985aa36981a3daec3fb",
+      "bindings": []
+    },
+    {
+      "unit": "closure_player_label_lifecycle",
+      "section": 46,
+      "anchor": "?BeginLabel@R5PlayerTagLabelView@@QAEXXZ",
+      "anchor_offset": 0,
+      "rva": 445824,
+      "size": 16,
+      "kind": "code",
+      "sha256": "d1b42f8d5a1fe6f492f9d2be400e464180b171a6532bf6c353958311821dd849",
+      "bindings": []
+    },
+    {
+      "unit": "closure_stats_lifetime",
+      "section": 48,
+      "anchor": "??0CSvrNetStats@@QAE@PAUIDirect3DDevice9@@@Z",
+      "anchor_offset": 0,
+      "rva": 463392,
+      "size": 54,
+      "kind": "code",
+      "sha256": "ef5779e2467f4b978aa2fbe5af237fc380786df1d663dbf567abb92e0bff840f",
+      "bindings": [
+        {
+          "symbol": "__imp__GetTickCount@0",
+          "site_rva": 463398,
+          "symbol_va": 269374008,
+          "addend": 0,
+          "kind": 6,
+          "target_va": 269374008
+        },
+        {
+          "symbol": "?RakServerStats@@3URakNetStatisticsStruct@@A",
+          "site_rva": 463433,
+          "symbol_va": 269674856,
+          "addend": 0,
+          "kind": 6,
+          "target_va": 269674856
+        }
+      ]
+    },
+    {
+      "unit": "closure_stats_lifetime",
+      "section": 46,
+      "anchor": "??0CNetStats@@QAE@PAUIDirect3DDevice9@@@Z",
+      "anchor_offset": 0,
+      "rva": 396608,
+      "size": 38,
+      "kind": "code",
+      "sha256": "23e033f49c1ebce75eaae855e6c388cefe2584c97af81ea70958671681a41501",
+      "bindings": [
+        {
+          "symbol": "__imp__GetTickCount@0",
+          "site_rva": 396613,
+          "symbol_va": 269374008,
+          "addend": 0,
+          "kind": 6,
+          "target_va": 269374008
+        }
+      ]
+    },
+    {
+      "unit": "closure_gui_dialog_control_helpers",
+      "section": 52,
+      "anchor": "?OnMouseUp@CDXUTDialog@@AAEXUtagPOINT@@@Z",
+      "anchor_offset": 0,
+      "rva": 543264,
+      "size": 13,
+      "kind": "code",
+      "sha256": "bacb258992d62278167d2f238770416d8bf78fbb6615e6fdec6a79ba8384b80c",
+      "bindings": [
+        {
+          "symbol": "?s_pControlPressed@CDXUTDialog@@0PAVCDXUTControl@@A",
+          "site_rva": 543267,
+          "symbol_va": 269756292,
+          "addend": 0,
+          "kind": 6,
+          "target_va": 269756292
+        }
+      ]
+    },
+    {
+      "unit": "closure_gui_dialog_control_helpers",
+      "section": 56,
+      "anchor": "?Init@CDXUTDialog@@QAEXPAVCDXUTDialogResourceManager@@@Z",
+      "anchor_offset": 0,
+      "rva": 592064,
+      "size": 18,
+      "kind": "code",
+      "sha256": "5605d74ccb87cae7648c9195be762db66396727ed059985b1cd95d365b79dbc1",
+      "bindings": [
+        {
+          "symbol": "?InitDefaultElements@CDXUTDialog@@AAEXXZ",
+          "site_rva": 592075,
+          "symbol_va": 269014912,
+          "addend": 0,
+          "kind": 20,
+          "target_va": 269014912
+        }
+      ]
+    },
+    {
+      "unit": "closure_gui_dialog_control_helpers",
+      "section": 46,
+      "anchor": "?GetComboBox@CDXUTDialog@@QAEPAVCDXUTComboBox@@H@Z",
+      "anchor_offset": 0,
+      "rva": 564416,
+      "size": 15,
+      "kind": "code",
+      "sha256": "ec2839b6fc84b2d54d37244aa72b7f891f2e24b7f5c49b0a262b6a8521de264b",
+      "bindings": [
+        {
+          "symbol": "?GetControl@CDXUTDialog@@QAEPAVCDXUTControl@@HI@Z",
+          "site_rva": 564424,
+          "symbol_va": 268989040,
+          "addend": 0,
+          "kind": 20,
+          "target_va": 268989040
+        }
+      ]
+    },
+    {
+      "unit": "closure_gui_dialog_control_helpers",
+      "section": 54,
+      "anchor": "?ClearComboBox@CDXUTDialog@@QAEXH@Z",
+      "anchor_offset": 0,
+      "rva": 577600,
+      "size": 26,
+      "kind": "code",
+      "sha256": "f81098cfbab48f354a2ba91170705a34f4508aabfdd6cd0e36ad5cb5e8ec0183",
+      "bindings": [
+        {
+          "symbol": "?GetControl@CDXUTDialog@@QAEPAVCDXUTControl@@HI@Z",
+          "site_rva": 577608,
+          "symbol_va": 268989040,
+          "addend": 0,
+          "kind": 20,
+          "target_va": 268989040
+        },
+        {
+          "symbol": "?RemoveAllItems@CDXUTComboBox@@QAEXXZ",
+          "site_rva": 577619,
+          "symbol_va": 269010832,
+          "addend": 0,
+          "kind": 20,
+          "target_va": 269010832
+        }
+      ]
+    },
+    {
+      "unit": "closure_gui_dialog_control_helpers",
+      "section": 50,
+      "anchor": "?SetControlEnabled@CDXUTDialog@@QAEXH_N@Z",
+      "anchor_offset": 0,
+      "rva": 565776,
+      "size": 29,
+      "kind": "code",
+      "sha256": "75e1d2b9837ffd8899eb4b450ef8112abbbe01691d0bc094f90b79e997c6b5dd",
+      "bindings": [
+        {
+          "symbol": "?GetControl@CDXUTDialog@@QAEPAVCDXUTControl@@H@Z",
+          "site_rva": 565782,
+          "symbol_va": 268988992,
+          "addend": 0,
+          "kind": 20,
+          "target_va": 268988992
+        }
+      ]
+    },
+    {
+      "unit": "closure_gui_dialog_control_helpers",
+      "section": 48,
+      "anchor": "?GetControlEnabled@CDXUTDialog@@QAE_NH@Z",
+      "anchor_offset": 0,
+      "rva": 565744,
+      "size": 29,
+      "kind": "code",
+      "sha256": "bd66fc2efaf8315bf4a44c1a50bb5e87ffff5abe2498494437c9a386e7d8a42e",
+      "bindings": [
+        {
+          "symbol": "?GetControl@CDXUTDialog@@QAEPAVCDXUTControl@@H@Z",
+          "site_rva": 565750,
+          "symbol_va": 268988992,
+          "addend": 0,
+          "kind": 20,
+          "target_va": 268988992
+        }
+      ]
+    }
+  ],
+  "source025_direct": 0,
+  "errors": [],
+  "emitted_definitions": [
+    {
+      "unit": "closure_stats_lifetime",
+      "symbol": "?end@?$_Iosb@H@std@@2W4_Seekdir@12@B",
+      "section": 3,
+      "size": 4,
+      "selected": false
+    },
+    {
+      "unit": "closure_stats_lifetime",
+      "symbol": "?cur@?$_Iosb@H@std@@2W4_Seekdir@12@B",
+      "section": 4,
+      "size": 4,
+      "selected": false
+    },
+    {
+      "unit": "closure_stats_lifetime",
+      "symbol": "?beg@?$_Iosb@H@std@@2W4_Seekdir@12@B",
+      "section": 5,
+      "size": 4,
+      "selected": false
+    },
+    {
+      "unit": "closure_stats_lifetime",
+      "symbol": "?binary@?$_Iosb@H@std@@2W4_Openmode@12@B",
+      "section": 6,
+      "size": 4,
+      "selected": false
+    },
+    {
+      "unit": "closure_stats_lifetime",
+      "symbol": "?_Noreplace@?$_Iosb@H@std@@2W4_Openmode@12@B",
+      "section": 7,
+      "size": 4,
+      "selected": false
+    },
+    {
+      "unit": "closure_stats_lifetime",
+      "symbol": "?_Nocreate@?$_Iosb@H@std@@2W4_Openmode@12@B",
+      "section": 8,
+      "size": 4,
+      "selected": false
+    },
+    {
+      "unit": "closure_stats_lifetime",
+      "symbol": "?trunc@?$_Iosb@H@std@@2W4_Openmode@12@B",
+      "section": 9,
+      "size": 4,
+      "selected": false
+    },
+    {
+      "unit": "closure_stats_lifetime",
+      "symbol": "?app@?$_Iosb@H@std@@2W4_Openmode@12@B",
+      "section": 10,
+      "size": 4,
+      "selected": false
+    },
+    {
+      "unit": "closure_stats_lifetime",
+      "symbol": "?ate@?$_Iosb@H@std@@2W4_Openmode@12@B",
+      "section": 11,
+      "size": 4,
+      "selected": false
+    },
+    {
+      "unit": "closure_stats_lifetime",
+      "symbol": "?out@?$_Iosb@H@std@@2W4_Openmode@12@B",
+      "section": 12,
+      "size": 4,
+      "selected": false
+    },
+    {
+      "unit": "closure_stats_lifetime",
+      "symbol": "?in@?$_Iosb@H@std@@2W4_Openmode@12@B",
+      "section": 13,
+      "size": 4,
+      "selected": false
+    },
+    {
+      "unit": "closure_stats_lifetime",
+      "symbol": "?_Hardfail@?$_Iosb@H@std@@2W4_Iostate@12@B",
+      "section": 14,
+      "size": 4,
+      "selected": false
+    },
+    {
+      "unit": "closure_stats_lifetime",
+      "symbol": "?badbit@?$_Iosb@H@std@@2W4_Iostate@12@B",
+      "section": 15,
+      "size": 4,
+      "selected": false
+    },
+    {
+      "unit": "closure_stats_lifetime",
+      "symbol": "?failbit@?$_Iosb@H@std@@2W4_Iostate@12@B",
+      "section": 16,
+      "size": 4,
+      "selected": false
+    },
+    {
+      "unit": "closure_stats_lifetime",
+      "symbol": "?eofbit@?$_Iosb@H@std@@2W4_Iostate@12@B",
+      "section": 17,
+      "size": 4,
+      "selected": false
+    },
+    {
+      "unit": "closure_stats_lifetime",
+      "symbol": "?goodbit@?$_Iosb@H@std@@2W4_Iostate@12@B",
+      "section": 18,
+      "size": 4,
+      "selected": false
+    },
+    {
+      "unit": "closure_stats_lifetime",
+      "symbol": "?floatfield@?$_Iosb@H@std@@2W4_Fmtflags@12@B",
+      "section": 19,
+      "size": 4,
+      "selected": false
+    },
+    {
+      "unit": "closure_stats_lifetime",
+      "symbol": "?basefield@?$_Iosb@H@std@@2W4_Fmtflags@12@B",
+      "section": 20,
+      "size": 4,
+      "selected": false
+    },
+    {
+      "unit": "closure_stats_lifetime",
+      "symbol": "?adjustfield@?$_Iosb@H@std@@2W4_Fmtflags@12@B",
+      "section": 21,
+      "size": 4,
+      "selected": false
+    },
+    {
+      "unit": "closure_stats_lifetime",
+      "symbol": "?_Stdio@?$_Iosb@H@std@@2W4_Fmtflags@12@B",
+      "section": 22,
+      "size": 4,
+      "selected": false
+    },
+    {
+      "unit": "closure_stats_lifetime",
+      "symbol": "?boolalpha@?$_Iosb@H@std@@2W4_Fmtflags@12@B",
+      "section": 23,
+      "size": 4,
+      "selected": false
+    },
+    {
+      "unit": "closure_stats_lifetime",
+      "symbol": "?fixed@?$_Iosb@H@std@@2W4_Fmtflags@12@B",
+      "section": 24,
+      "size": 4,
+      "selected": false
+    },
+    {
+      "unit": "closure_stats_lifetime",
+      "symbol": "?scientific@?$_Iosb@H@std@@2W4_Fmtflags@12@B",
+      "section": 25,
+      "size": 4,
+      "selected": false
+    },
+    {
+      "unit": "closure_stats_lifetime",
+      "symbol": "?hex@?$_Iosb@H@std@@2W4_Fmtflags@12@B",
+      "section": 26,
+      "size": 4,
+      "selected": false
+    },
+    {
+      "unit": "closure_stats_lifetime",
+      "symbol": "?oct@?$_Iosb@H@std@@2W4_Fmtflags@12@B",
+      "section": 27,
+      "size": 4,
+      "selected": false
+    },
+    {
+      "unit": "closure_stats_lifetime",
+      "symbol": "?dec@?$_Iosb@H@std@@2W4_Fmtflags@12@B",
+      "section": 28,
+      "size": 4,
+      "selected": false
+    },
+    {
+      "unit": "closure_stats_lifetime",
+      "symbol": "?internal@?$_Iosb@H@std@@2W4_Fmtflags@12@B",
+      "section": 29,
+      "size": 4,
+      "selected": false
+    },
+    {
+      "unit": "closure_stats_lifetime",
+      "symbol": "?right@?$_Iosb@H@std@@2W4_Fmtflags@12@B",
+      "section": 30,
+      "size": 4,
+      "selected": false
+    },
+    {
+      "unit": "closure_stats_lifetime",
+      "symbol": "?left@?$_Iosb@H@std@@2W4_Fmtflags@12@B",
+      "section": 31,
+      "size": 4,
+      "selected": false
+    },
+    {
+      "unit": "closure_stats_lifetime",
+      "symbol": "?showpos@?$_Iosb@H@std@@2W4_Fmtflags@12@B",
+      "section": 32,
+      "size": 4,
+      "selected": false
+    },
+    {
+      "unit": "closure_stats_lifetime",
+      "symbol": "?showpoint@?$_Iosb@H@std@@2W4_Fmtflags@12@B",
+      "section": 33,
+      "size": 4,
+      "selected": false
+    },
+    {
+      "unit": "closure_stats_lifetime",
+      "symbol": "?showbase@?$_Iosb@H@std@@2W4_Fmtflags@12@B",
+      "section": 34,
+      "size": 4,
+      "selected": false
+    },
+    {
+      "unit": "closure_stats_lifetime",
+      "symbol": "?uppercase@?$_Iosb@H@std@@2W4_Fmtflags@12@B",
+      "section": 35,
+      "size": 4,
+      "selected": false
+    },
+    {
+      "unit": "closure_stats_lifetime",
+      "symbol": "?unitbuf@?$_Iosb@H@std@@2W4_Fmtflags@12@B",
+      "section": 36,
+      "size": 4,
+      "selected": false
+    },
+    {
+      "unit": "closure_stats_lifetime",
+      "symbol": "?skipws@?$_Iosb@H@std@@2W4_Fmtflags@12@B",
+      "section": 37,
+      "size": 4,
+      "selected": false
+    },
+    {
+      "unit": "closure_stats_lifetime",
+      "symbol": "?none@?$_Locbase@H@std@@2HB",
+      "section": 38,
+      "size": 4,
+      "selected": false
+    },
+    {
+      "unit": "closure_stats_lifetime",
+      "symbol": "?all@?$_Locbase@H@std@@2HB",
+      "section": 39,
+      "size": 4,
+      "selected": false
+    },
+    {
+      "unit": "closure_stats_lifetime",
+      "symbol": "?messages@?$_Locbase@H@std@@2HB",
+      "section": 40,
+      "size": 4,
+      "selected": false
+    },
+    {
+      "unit": "closure_stats_lifetime",
+      "symbol": "?time@?$_Locbase@H@std@@2HB",
+      "section": 41,
+      "size": 4,
+      "selected": false
+    },
+    {
+      "unit": "closure_stats_lifetime",
+      "symbol": "?numeric@?$_Locbase@H@std@@2HB",
+      "section": 42,
+      "size": 4,
+      "selected": false
+    },
+    {
+      "unit": "closure_stats_lifetime",
+      "symbol": "?monetary@?$_Locbase@H@std@@2HB",
+      "section": 43,
+      "size": 4,
+      "selected": false
+    },
+    {
+      "unit": "closure_stats_lifetime",
+      "symbol": "?ctype@?$_Locbase@H@std@@2HB",
+      "section": 44,
+      "size": 4,
+      "selected": false
+    },
+    {
+      "unit": "closure_stats_lifetime",
+      "symbol": "?collate@?$_Locbase@H@std@@2HB",
+      "section": 45,
+      "size": 4,
+      "selected": false
+    },
+    {
+      "unit": "closure_stats_lifetime",
+      "symbol": "??0CNetStats@@QAE@PAUIDirect3DDevice9@@@Z",
+      "section": 46,
+      "size": 38,
+      "selected": true
+    },
+    {
+      "unit": "closure_stats_lifetime",
+      "symbol": "??0CSvrNetStats@@QAE@PAUIDirect3DDevice9@@@Z",
+      "section": 48,
+      "size": 54,
+      "selected": true
+    },
+    {
+      "unit": "closure_gui_dialog_control_helpers",
+      "symbol": "?end@?$_Iosb@H@std@@2W4_Seekdir@12@B",
+      "section": 3,
+      "size": 4,
+      "selected": false
+    },
+    {
+      "unit": "closure_gui_dialog_control_helpers",
+      "symbol": "?cur@?$_Iosb@H@std@@2W4_Seekdir@12@B",
+      "section": 4,
+      "size": 4,
+      "selected": false
+    },
+    {
+      "unit": "closure_gui_dialog_control_helpers",
+      "symbol": "?beg@?$_Iosb@H@std@@2W4_Seekdir@12@B",
+      "section": 5,
+      "size": 4,
+      "selected": false
+    },
+    {
+      "unit": "closure_gui_dialog_control_helpers",
+      "symbol": "?binary@?$_Iosb@H@std@@2W4_Openmode@12@B",
+      "section": 6,
+      "size": 4,
+      "selected": false
+    },
+    {
+      "unit": "closure_gui_dialog_control_helpers",
+      "symbol": "?_Noreplace@?$_Iosb@H@std@@2W4_Openmode@12@B",
+      "section": 7,
+      "size": 4,
+      "selected": false
+    },
+    {
+      "unit": "closure_gui_dialog_control_helpers",
+      "symbol": "?_Nocreate@?$_Iosb@H@std@@2W4_Openmode@12@B",
+      "section": 8,
+      "size": 4,
+      "selected": false
+    },
+    {
+      "unit": "closure_gui_dialog_control_helpers",
+      "symbol": "?trunc@?$_Iosb@H@std@@2W4_Openmode@12@B",
+      "section": 9,
+      "size": 4,
+      "selected": false
+    },
+    {
+      "unit": "closure_gui_dialog_control_helpers",
+      "symbol": "?app@?$_Iosb@H@std@@2W4_Openmode@12@B",
+      "section": 10,
+      "size": 4,
+      "selected": false
+    },
+    {
+      "unit": "closure_gui_dialog_control_helpers",
+      "symbol": "?ate@?$_Iosb@H@std@@2W4_Openmode@12@B",
+      "section": 11,
+      "size": 4,
+      "selected": false
+    },
+    {
+      "unit": "closure_gui_dialog_control_helpers",
+      "symbol": "?out@?$_Iosb@H@std@@2W4_Openmode@12@B",
+      "section": 12,
+      "size": 4,
+      "selected": false
+    },
+    {
+      "unit": "closure_gui_dialog_control_helpers",
+      "symbol": "?in@?$_Iosb@H@std@@2W4_Openmode@12@B",
+      "section": 13,
+      "size": 4,
+      "selected": false
+    },
+    {
+      "unit": "closure_gui_dialog_control_helpers",
+      "symbol": "?_Hardfail@?$_Iosb@H@std@@2W4_Iostate@12@B",
+      "section": 14,
+      "size": 4,
+      "selected": false
+    },
+    {
+      "unit": "closure_gui_dialog_control_helpers",
+      "symbol": "?badbit@?$_Iosb@H@std@@2W4_Iostate@12@B",
+      "section": 15,
+      "size": 4,
+      "selected": false
+    },
+    {
+      "unit": "closure_gui_dialog_control_helpers",
+      "symbol": "?failbit@?$_Iosb@H@std@@2W4_Iostate@12@B",
+      "section": 16,
+      "size": 4,
+      "selected": false
+    },
+    {
+      "unit": "closure_gui_dialog_control_helpers",
+      "symbol": "?eofbit@?$_Iosb@H@std@@2W4_Iostate@12@B",
+      "section": 17,
+      "size": 4,
+      "selected": false
+    },
+    {
+      "unit": "closure_gui_dialog_control_helpers",
+      "symbol": "?goodbit@?$_Iosb@H@std@@2W4_Iostate@12@B",
+      "section": 18,
+      "size": 4,
+      "selected": false
+    },
+    {
+      "unit": "closure_gui_dialog_control_helpers",
+      "symbol": "?floatfield@?$_Iosb@H@std@@2W4_Fmtflags@12@B",
+      "section": 19,
+      "size": 4,
+      "selected": false
+    },
+    {
+      "unit": "closure_gui_dialog_control_helpers",
+      "symbol": "?basefield@?$_Iosb@H@std@@2W4_Fmtflags@12@B",
+      "section": 20,
+      "size": 4,
+      "selected": false
+    },
+    {
+      "unit": "closure_gui_dialog_control_helpers",
+      "symbol": "?adjustfield@?$_Iosb@H@std@@2W4_Fmtflags@12@B",
+      "section": 21,
+      "size": 4,
+      "selected": false
+    },
+    {
+      "unit": "closure_gui_dialog_control_helpers",
+      "symbol": "?_Stdio@?$_Iosb@H@std@@2W4_Fmtflags@12@B",
+      "section": 22,
+      "size": 4,
+      "selected": false
+    },
+    {
+      "unit": "closure_gui_dialog_control_helpers",
+      "symbol": "?boolalpha@?$_Iosb@H@std@@2W4_Fmtflags@12@B",
+      "section": 23,
+      "size": 4,
+      "selected": false
+    },
+    {
+      "unit": "closure_gui_dialog_control_helpers",
+      "symbol": "?fixed@?$_Iosb@H@std@@2W4_Fmtflags@12@B",
+      "section": 24,
+      "size": 4,
+      "selected": false
+    },
+    {
+      "unit": "closure_gui_dialog_control_helpers",
+      "symbol": "?scientific@?$_Iosb@H@std@@2W4_Fmtflags@12@B",
+      "section": 25,
+      "size": 4,
+      "selected": false
+    },
+    {
+      "unit": "closure_gui_dialog_control_helpers",
+      "symbol": "?hex@?$_Iosb@H@std@@2W4_Fmtflags@12@B",
+      "section": 26,
+      "size": 4,
+      "selected": false
+    },
+    {
+      "unit": "closure_gui_dialog_control_helpers",
+      "symbol": "?oct@?$_Iosb@H@std@@2W4_Fmtflags@12@B",
+      "section": 27,
+      "size": 4,
+      "selected": false
+    },
+    {
+      "unit": "closure_gui_dialog_control_helpers",
+      "symbol": "?dec@?$_Iosb@H@std@@2W4_Fmtflags@12@B",
+      "section": 28,
+      "size": 4,
+      "selected": false
+    },
+    {
+      "unit": "closure_gui_dialog_control_helpers",
+      "symbol": "?internal@?$_Iosb@H@std@@2W4_Fmtflags@12@B",
+      "section": 29,
+      "size": 4,
+      "selected": false
+    },
+    {
+      "unit": "closure_gui_dialog_control_helpers",
+      "symbol": "?right@?$_Iosb@H@std@@2W4_Fmtflags@12@B",
+      "section": 30,
+      "size": 4,
+      "selected": false
+    },
+    {
+      "unit": "closure_gui_dialog_control_helpers",
+      "symbol": "?left@?$_Iosb@H@std@@2W4_Fmtflags@12@B",
+      "section": 31,
+      "size": 4,
+      "selected": false
+    },
+    {
+      "unit": "closure_gui_dialog_control_helpers",
+      "symbol": "?showpos@?$_Iosb@H@std@@2W4_Fmtflags@12@B",
+      "section": 32,
+      "size": 4,
+      "selected": false
+    },
+    {
+      "unit": "closure_gui_dialog_control_helpers",
+      "symbol": "?showpoint@?$_Iosb@H@std@@2W4_Fmtflags@12@B",
+      "section": 33,
+      "size": 4,
+      "selected": false
+    },
+    {
+      "unit": "closure_gui_dialog_control_helpers",
+      "symbol": "?showbase@?$_Iosb@H@std@@2W4_Fmtflags@12@B",
+      "section": 34,
+      "size": 4,
+      "selected": false
+    },
+    {
+      "unit": "closure_gui_dialog_control_helpers",
+      "symbol": "?uppercase@?$_Iosb@H@std@@2W4_Fmtflags@12@B",
+      "section": 35,
+      "size": 4,
+      "selected": false
+    },
+    {
+      "unit": "closure_gui_dialog_control_helpers",
+      "symbol": "?unitbuf@?$_Iosb@H@std@@2W4_Fmtflags@12@B",
+      "section": 36,
+      "size": 4,
+      "selected": false
+    },
+    {
+      "unit": "closure_gui_dialog_control_helpers",
+      "symbol": "?skipws@?$_Iosb@H@std@@2W4_Fmtflags@12@B",
+      "section": 37,
+      "size": 4,
+      "selected": false
+    },
+    {
+      "unit": "closure_gui_dialog_control_helpers",
+      "symbol": "?none@?$_Locbase@H@std@@2HB",
+      "section": 38,
+      "size": 4,
+      "selected": false
+    },
+    {
+      "unit": "closure_gui_dialog_control_helpers",
+      "symbol": "?all@?$_Locbase@H@std@@2HB",
+      "section": 39,
+      "size": 4,
+      "selected": false
+    },
+    {
+      "unit": "closure_gui_dialog_control_helpers",
+      "symbol": "?messages@?$_Locbase@H@std@@2HB",
+      "section": 40,
+      "size": 4,
+      "selected": false
+    },
+    {
+      "unit": "closure_gui_dialog_control_helpers",
+      "symbol": "?time@?$_Locbase@H@std@@2HB",
+      "section": 41,
+      "size": 4,
+      "selected": false
+    },
+    {
+      "unit": "closure_gui_dialog_control_helpers",
+      "symbol": "?numeric@?$_Locbase@H@std@@2HB",
+      "section": 42,
+      "size": 4,
+      "selected": false
+    },
+    {
+      "unit": "closure_gui_dialog_control_helpers",
+      "symbol": "?monetary@?$_Locbase@H@std@@2HB",
+      "section": 43,
+      "size": 4,
+      "selected": false
+    },
+    {
+      "unit": "closure_gui_dialog_control_helpers",
+      "symbol": "?ctype@?$_Locbase@H@std@@2HB",
+      "section": 44,
+      "size": 4,
+      "selected": false
+    },
+    {
+      "unit": "closure_gui_dialog_control_helpers",
+      "symbol": "?collate@?$_Locbase@H@std@@2HB",
+      "section": 45,
+      "size": 4,
+      "selected": false
+    },
+    {
+      "unit": "closure_gui_dialog_control_helpers",
+      "symbol": "?GetComboBox@CDXUTDialog@@QAEPAVCDXUTComboBox@@H@Z",
+      "section": 46,
+      "size": 15,
+      "selected": true
+    },
+    {
+      "unit": "closure_gui_dialog_control_helpers",
+      "symbol": "?GetControlEnabled@CDXUTDialog@@QAE_NH@Z",
+      "section": 48,
+      "size": 29,
+      "selected": true
+    },
+    {
+      "unit": "closure_gui_dialog_control_helpers",
+      "symbol": "?SetControlEnabled@CDXUTDialog@@QAEXH_N@Z",
+      "section": 50,
+      "size": 29,
+      "selected": true
+    },
+    {
+      "unit": "closure_gui_dialog_control_helpers",
+      "symbol": "?OnMouseUp@CDXUTDialog@@AAEXUtagPOINT@@@Z",
+      "section": 52,
+      "size": 13,
+      "selected": true
+    },
+    {
+      "unit": "closure_gui_dialog_control_helpers",
+      "symbol": "?ClearComboBox@CDXUTDialog@@QAEXH@Z",
+      "section": 54,
+      "size": 26,
+      "selected": true
+    },
+    {
+      "unit": "closure_gui_dialog_control_helpers",
+      "symbol": "?Init@CDXUTDialog@@QAEXPAVCDXUTDialogResourceManager@@@Z",
+      "section": 56,
+      "size": 18,
+      "selected": true
+    },
+    {
+      "unit": "closure_player_label_lifecycle",
+      "symbol": "?end@?$_Iosb@H@std@@2W4_Seekdir@12@B",
+      "section": 3,
+      "size": 4,
+      "selected": false
+    },
+    {
+      "unit": "closure_player_label_lifecycle",
+      "symbol": "?cur@?$_Iosb@H@std@@2W4_Seekdir@12@B",
+      "section": 4,
+      "size": 4,
+      "selected": false
+    },
+    {
+      "unit": "closure_player_label_lifecycle",
+      "symbol": "?beg@?$_Iosb@H@std@@2W4_Seekdir@12@B",
+      "section": 5,
+      "size": 4,
+      "selected": false
+    },
+    {
+      "unit": "closure_player_label_lifecycle",
+      "symbol": "?binary@?$_Iosb@H@std@@2W4_Openmode@12@B",
+      "section": 6,
+      "size": 4,
+      "selected": false
+    },
+    {
+      "unit": "closure_player_label_lifecycle",
+      "symbol": "?_Noreplace@?$_Iosb@H@std@@2W4_Openmode@12@B",
+      "section": 7,
+      "size": 4,
+      "selected": false
+    },
+    {
+      "unit": "closure_player_label_lifecycle",
+      "symbol": "?_Nocreate@?$_Iosb@H@std@@2W4_Openmode@12@B",
+      "section": 8,
+      "size": 4,
+      "selected": false
+    },
+    {
+      "unit": "closure_player_label_lifecycle",
+      "symbol": "?trunc@?$_Iosb@H@std@@2W4_Openmode@12@B",
+      "section": 9,
+      "size": 4,
+      "selected": false
+    },
+    {
+      "unit": "closure_player_label_lifecycle",
+      "symbol": "?app@?$_Iosb@H@std@@2W4_Openmode@12@B",
+      "section": 10,
+      "size": 4,
+      "selected": false
+    },
+    {
+      "unit": "closure_player_label_lifecycle",
+      "symbol": "?ate@?$_Iosb@H@std@@2W4_Openmode@12@B",
+      "section": 11,
+      "size": 4,
+      "selected": false
+    },
+    {
+      "unit": "closure_player_label_lifecycle",
+      "symbol": "?out@?$_Iosb@H@std@@2W4_Openmode@12@B",
+      "section": 12,
+      "size": 4,
+      "selected": false
+    },
+    {
+      "unit": "closure_player_label_lifecycle",
+      "symbol": "?in@?$_Iosb@H@std@@2W4_Openmode@12@B",
+      "section": 13,
+      "size": 4,
+      "selected": false
+    },
+    {
+      "unit": "closure_player_label_lifecycle",
+      "symbol": "?_Hardfail@?$_Iosb@H@std@@2W4_Iostate@12@B",
+      "section": 14,
+      "size": 4,
+      "selected": false
+    },
+    {
+      "unit": "closure_player_label_lifecycle",
+      "symbol": "?badbit@?$_Iosb@H@std@@2W4_Iostate@12@B",
+      "section": 15,
+      "size": 4,
+      "selected": false
+    },
+    {
+      "unit": "closure_player_label_lifecycle",
+      "symbol": "?failbit@?$_Iosb@H@std@@2W4_Iostate@12@B",
+      "section": 16,
+      "size": 4,
+      "selected": false
+    },
+    {
+      "unit": "closure_player_label_lifecycle",
+      "symbol": "?eofbit@?$_Iosb@H@std@@2W4_Iostate@12@B",
+      "section": 17,
+      "size": 4,
+      "selected": false
+    },
+    {
+      "unit": "closure_player_label_lifecycle",
+      "symbol": "?goodbit@?$_Iosb@H@std@@2W4_Iostate@12@B",
+      "section": 18,
+      "size": 4,
+      "selected": false
+    },
+    {
+      "unit": "closure_player_label_lifecycle",
+      "symbol": "?floatfield@?$_Iosb@H@std@@2W4_Fmtflags@12@B",
+      "section": 19,
+      "size": 4,
+      "selected": false
+    },
+    {
+      "unit": "closure_player_label_lifecycle",
+      "symbol": "?basefield@?$_Iosb@H@std@@2W4_Fmtflags@12@B",
+      "section": 20,
+      "size": 4,
+      "selected": false
+    },
+    {
+      "unit": "closure_player_label_lifecycle",
+      "symbol": "?adjustfield@?$_Iosb@H@std@@2W4_Fmtflags@12@B",
+      "section": 21,
+      "size": 4,
+      "selected": false
+    },
+    {
+      "unit": "closure_player_label_lifecycle",
+      "symbol": "?_Stdio@?$_Iosb@H@std@@2W4_Fmtflags@12@B",
+      "section": 22,
+      "size": 4,
+      "selected": false
+    },
+    {
+      "unit": "closure_player_label_lifecycle",
+      "symbol": "?boolalpha@?$_Iosb@H@std@@2W4_Fmtflags@12@B",
+      "section": 23,
+      "size": 4,
+      "selected": false
+    },
+    {
+      "unit": "closure_player_label_lifecycle",
+      "symbol": "?fixed@?$_Iosb@H@std@@2W4_Fmtflags@12@B",
+      "section": 24,
+      "size": 4,
+      "selected": false
+    },
+    {
+      "unit": "closure_player_label_lifecycle",
+      "symbol": "?scientific@?$_Iosb@H@std@@2W4_Fmtflags@12@B",
+      "section": 25,
+      "size": 4,
+      "selected": false
+    },
+    {
+      "unit": "closure_player_label_lifecycle",
+      "symbol": "?hex@?$_Iosb@H@std@@2W4_Fmtflags@12@B",
+      "section": 26,
+      "size": 4,
+      "selected": false
+    },
+    {
+      "unit": "closure_player_label_lifecycle",
+      "symbol": "?oct@?$_Iosb@H@std@@2W4_Fmtflags@12@B",
+      "section": 27,
+      "size": 4,
+      "selected": false
+    },
+    {
+      "unit": "closure_player_label_lifecycle",
+      "symbol": "?dec@?$_Iosb@H@std@@2W4_Fmtflags@12@B",
+      "section": 28,
+      "size": 4,
+      "selected": false
+    },
+    {
+      "unit": "closure_player_label_lifecycle",
+      "symbol": "?internal@?$_Iosb@H@std@@2W4_Fmtflags@12@B",
+      "section": 29,
+      "size": 4,
+      "selected": false
+    },
+    {
+      "unit": "closure_player_label_lifecycle",
+      "symbol": "?right@?$_Iosb@H@std@@2W4_Fmtflags@12@B",
+      "section": 30,
+      "size": 4,
+      "selected": false
+    },
+    {
+      "unit": "closure_player_label_lifecycle",
+      "symbol": "?left@?$_Iosb@H@std@@2W4_Fmtflags@12@B",
+      "section": 31,
+      "size": 4,
+      "selected": false
+    },
+    {
+      "unit": "closure_player_label_lifecycle",
+      "symbol": "?showpos@?$_Iosb@H@std@@2W4_Fmtflags@12@B",
+      "section": 32,
+      "size": 4,
+      "selected": false
+    },
+    {
+      "unit": "closure_player_label_lifecycle",
+      "symbol": "?showpoint@?$_Iosb@H@std@@2W4_Fmtflags@12@B",
+      "section": 33,
+      "size": 4,
+      "selected": false
+    },
+    {
+      "unit": "closure_player_label_lifecycle",
+      "symbol": "?showbase@?$_Iosb@H@std@@2W4_Fmtflags@12@B",
+      "section": 34,
+      "size": 4,
+      "selected": false
+    },
+    {
+      "unit": "closure_player_label_lifecycle",
+      "symbol": "?uppercase@?$_Iosb@H@std@@2W4_Fmtflags@12@B",
+      "section": 35,
+      "size": 4,
+      "selected": false
+    },
+    {
+      "unit": "closure_player_label_lifecycle",
+      "symbol": "?unitbuf@?$_Iosb@H@std@@2W4_Fmtflags@12@B",
+      "section": 36,
+      "size": 4,
+      "selected": false
+    },
+    {
+      "unit": "closure_player_label_lifecycle",
+      "symbol": "?skipws@?$_Iosb@H@std@@2W4_Fmtflags@12@B",
+      "section": 37,
+      "size": 4,
+      "selected": false
+    },
+    {
+      "unit": "closure_player_label_lifecycle",
+      "symbol": "?none@?$_Locbase@H@std@@2HB",
+      "section": 38,
+      "size": 4,
+      "selected": false
+    },
+    {
+      "unit": "closure_player_label_lifecycle",
+      "symbol": "?all@?$_Locbase@H@std@@2HB",
+      "section": 39,
+      "size": 4,
+      "selected": false
+    },
+    {
+      "unit": "closure_player_label_lifecycle",
+      "symbol": "?messages@?$_Locbase@H@std@@2HB",
+      "section": 40,
+      "size": 4,
+      "selected": false
+    },
+    {
+      "unit": "closure_player_label_lifecycle",
+      "symbol": "?time@?$_Locbase@H@std@@2HB",
+      "section": 41,
+      "size": 4,
+      "selected": false
+    },
+    {
+      "unit": "closure_player_label_lifecycle",
+      "symbol": "?numeric@?$_Locbase@H@std@@2HB",
+      "section": 42,
+      "size": 4,
+      "selected": false
+    },
+    {
+      "unit": "closure_player_label_lifecycle",
+      "symbol": "?monetary@?$_Locbase@H@std@@2HB",
+      "section": 43,
+      "size": 4,
+      "selected": false
+    },
+    {
+      "unit": "closure_player_label_lifecycle",
+      "symbol": "?ctype@?$_Locbase@H@std@@2HB",
+      "section": 44,
+      "size": 4,
+      "selected": false
+    },
+    {
+      "unit": "closure_player_label_lifecycle",
+      "symbol": "?collate@?$_Locbase@H@std@@2HB",
+      "section": 45,
+      "size": 4,
+      "selected": false
+    },
+    {
+      "unit": "closure_player_label_lifecycle",
+      "symbol": "?BeginLabel@R5PlayerTagLabelView@@QAEXXZ",
+      "section": 46,
+      "size": 16,
+      "selected": true
+    },
+    {
+      "unit": "closure_player_label_lifecycle",
+      "symbol": "?EndLabel@R5PlayerTagLabelView@@QAEXXZ",
+      "section": 48,
+      "size": 14,
+      "selected": true
+    }
+  ],
+  "object_sha256": {
+    "closure_stats_lifetime": "6b87af487990e9c4548420670c2f45caf46c3ee99d45bee26a80ba546d456b02",
+    "closure_gui_dialog_control_helpers": "b2092099638a102741b46ea550c8b2baad1511d8f067369610e5ae91c5c05472",
+    "closure_player_label_lifecycle": "1dd3593429197e7285ccc22f19d1323af7d580f0b0024c61192be4751c7db598"
+  },
+  "source_sha256": {
+    "closure_stats_lifetime": "027e456bc59f25fd6fba07123dd9155dcb6f97a433fb47a853677903cd68d0a3",
+    "closure_gui_dialog_control_helpers": "c5601881c4856a9741afafe35fc6f16e724a6d28151cb20735fb5e669fd0f62c",
+    "closure_player_label_lifecycle": "4f3769fa62735af6e8a56b35f28eb519c657f158fe0083e4ec5a04b492b1e8d0"
+  },
+  "typed_layout_note": "Existing DXUT bool enabled getters/setters use actual virtual GetEnabled/SetEnabled after GetControl(ID); ClearComboBox/GetComboBox use typed GetControl(ID,6) and true existing RemoveAllItems. Dialog Init stores actual resource manager then existing InitDefaultElements. Mouse-up clears canonical pressed-control4 storage and the instance hover pointer. CNetStats/CSvrNetStats constructors preserve DWORD tick/counters and device pointers; only server constructor zeroes complete canonical RakServerStats296 (existing closure_store_rpc_server_stats), no parallel storage. Label pointer-only view has real device0/states4/sprite8, never allocated, Begin uses D3DXSPRITE_ALPHABLEND16 and End uses actual COM slots. All ten complete code sections252, ten COFF/PE bindings (see actual count); no selected data/EH, no new CRT/import or unresolved dependencies. Remaining main.h constants are unreferenced existing COMDATs; every emitted code definition is selected.",
+  "provenance": "Source bodies preexisting. Isolated TU files newly prepared this run; freshly compiled in integrator probe. Complete source byte/target preflight PASS, not linked acceptance. No exclusive0.2.5 gain."
+}

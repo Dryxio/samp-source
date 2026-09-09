@@ -1,0 +1,106 @@
+{
+  "prefix": "astra-resume-four",
+  "utc": "2026-09-09T16:01:43.229654+00:00",
+  "coverage": {
+    "previous_code_bytes": 429099,
+    "batch_code_bytes": 424908,
+    "new_unique_code_bytes": 2199,
+    "union_code_bytes": 431298,
+    "text_bytes": 930756,
+    "text_percent": 46.33846034836198,
+    "whole_dll_match": false
+  },
+  "measurement": {
+    "utc": "2026-09-09T16:02:39.448019+00:00",
+    "elapsed_seconds": 1480.448019,
+    "baseline": 429099,
+    "accepted": 431298,
+    "gain": 2199,
+    "global_bytes_per_hour": 5347.300208046008,
+    "token_usage": {
+      "root": {
+        "configuration": {
+          "model": "gpt-6-astra",
+          "effort": "xhigh"
+        },
+        "usage": {
+          "input_tokens": 7938126,
+          "cached_input_tokens": 7778816,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 25528,
+          "reasoning_output_tokens": 5469,
+          "total_tokens": 7963654,
+          "uncached_input_tokens": 159310
+        },
+        "as_of": "2026-09-09T16:02:28.303Z",
+        "session": "/Users/salimtrouve/.codex/sessions/2026/09/09/rollout-2026-09-09T16-37-43-01a086d1-5f3f-7423-ad5c-a0064ea3c163.jsonl"
+      },
+      "/root/client_game_ui": {
+        "configuration": {
+          "model": "gpt-6-astra",
+          "effort": "xhigh"
+        },
+        "usage": {
+          "input_tokens": 8208217,
+          "cached_input_tokens": 8033920,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 30004,
+          "reasoning_output_tokens": 7244,
+          "total_tokens": 8238221,
+          "uncached_input_tokens": 174297
+        },
+        "as_of": "2026-09-09T16:01:06.162Z",
+        "session": "/Users/salimtrouve/.codex/sessions/2026/09/09/rollout-2026-09-09T16-39-26-01a086d2-f295-7d80-8d32-257f38a08fe4.jsonl"
+      },
+      "/root/network_common": {
+        "configuration": {
+          "model": "gpt-6-astra",
+          "effort": "xhigh"
+        },
+        "usage": {
+          "input_tokens": 9490332,
+          "cached_input_tokens": 9282048,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 33567,
+          "reasoning_output_tokens": 11804,
+          "total_tokens": 9523899,
+          "uncached_input_tokens": 208284
+        },
+        "as_of": "2026-09-09T16:02:33.784Z",
+        "session": "/Users/salimtrouve/.codex/sessions/2026/09/09/rollout-2026-09-09T16-39-43-01a086d3-33a6-7c61-9e94-6313eddfe902.jsonl"
+      }
+    },
+    "pipeline_seconds": {
+      "vm-idle": 6.180145750999145,
+      "compile": 49.04254195899921,
+      "audit": 9.629803165998965,
+      "link": 26.073781248999694,
+      "qualify": 1.9685732500011,
+      "spec": 0.08084920900000725,
+      "review": 10.197323167000832,
+      "accept": 100.15471058399999
+    },
+    "token_note": "Observed counters may lag; reasoning is a subset of output; cached input is separate; no billed cost inferred.",
+    "recent_bytes_per_hour": 6549.893179171884
+  },
+  "proposal": "build/astra-resume/proposal-four.json",
+  "reviews": [
+    "evidence/checkpoint32/astra-resume-reviews/astra-resume-four-ui-stats-label-reviewed-manifest.json",
+    "evidence/checkpoint32/astra-resume-reviews/astra-resume-four-nested-reviewed-manifest.json",
+    "evidence/checkpoint32/astra-resume-reviews/astra-resume-four-queue-reviewed-manifest.json",
+    "evidence/checkpoint32/astra-resume-reviews/astra-resume-four-bytequeue-reviewed-manifest.json",
+    "evidence/checkpoint32/astra-resume-reviews/astra-resume-four-factory-reviewed-manifest.json",
+    "evidence/checkpoint32/astra-resume-reviews/astra-resume-four-wide-external-reviewed-manifest.json",
+    "evidence/checkpoint32/astra-resume-reviews/astra-resume-four-factory-scalar-alias-reviewed-manifest.json"
+  ],
+  "review_note": {
+    "scope": "Closed batch of vendor ByteQueue570, factories963, nested constructors/EH176, queue allocation50, GUI/stats/label252 and wide helpers188:2199 potential unique code bytes.",
+    "implementation": "Normal C++ using genuine vendor classes, complete allocations and real existing constructors/VFTs; no duplicate storage or fake providers. Whole source regions, EH/data and every target reviewed. Source exactness remains conditional on final link and unchanged acceptance gate. Explicitly reviewed additional emitted PacketFileLogger scalar deleting destructor30 at existing original RVA, zero extra code credit.",
+    "reference_credit": "Existing vendor and client source; isolated candidate preparation during this restart except preexisting Luna nested source176. Factory candidate bodies already present in retained historical full-factory objects. No exclusive0.2.5 gain. Wide188 has retained pre-restart full matches; its isolated source unit was rebuilt now after original oversized TU failed link. Force-emission holders are excluded."
+  },
+  "preserved_main": true,
+  "changed_preexisting_with_backup": [
+    "client/saco/closure_vendor_router_send.cpp"
+  ],
+  "status": "ACCEPTED_CHECKPOINT_STILL_IN_PROGRESS"
+}

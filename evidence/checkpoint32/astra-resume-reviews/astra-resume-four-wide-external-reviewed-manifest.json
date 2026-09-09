@@ -1,0 +1,147 @@
+{
+  "status": "PASS_FULL_SOURCE_REGIONS_ALL_COFF_PE_TARGETS",
+  "run": "cp32-astra-resume-probe-five",
+  "baseline": 429099,
+  "new_unique_code": 188,
+  "regions": [
+    {
+      "unit": "closure_gui_wide_helpers_external",
+      "section": 10,
+      "anchor": "?StringCchCatW@@YGJPAGIPBG@Z",
+      "anchor_offset": 0,
+      "rva": 564336,
+      "size": 69,
+      "kind": "code",
+      "sha256": "1878b30da8c598192a38f74deb8cf7945a1bda0987b9dc5600d2da08e2947355",
+      "bindings": [
+        {
+          "symbol": "?StringLengthWorkerW@@YGJPBGIPAI@Z",
+          "site_rva": 564371,
+          "symbol_va": 268977632,
+          "addend": 0,
+          "kind": 20,
+          "target_va": 268977632
+        },
+        {
+          "symbol": "?StringCopyWorkerW@@YGJPAGIPBG@Z",
+          "site_rva": 564396,
+          "symbol_va": 268977440,
+          "addend": 0,
+          "kind": 20,
+          "target_va": 268977440
+        }
+      ]
+    },
+    {
+      "unit": "closure_gui_wide_helpers_external",
+      "section": 4,
+      "anchor": "?StringCopyWorkerW@@YGJPAGIPBG@Z",
+      "anchor_offset": 0,
+      "rva": 541984,
+      "size": 92,
+      "kind": "code",
+      "sha256": "922a1e80b04e4b9f927f67b0ec5a58ca9506a1595ead48b676a7af17b557f9ef",
+      "bindings": []
+    },
+    {
+      "unit": "closure_gui_wide_helpers_external",
+      "section": 6,
+      "anchor": "?StringLengthWorkerW@@YGJPBGIPAI@Z",
+      "anchor_offset": 0,
+      "rva": 542176,
+      "size": 67,
+      "kind": "code",
+      "sha256": "b384c7caa5f9903b5c05bd350318aed231942f0e3b9365563aa685fd824b7892",
+      "bindings": []
+    },
+    {
+      "unit": "closure_gui_wide_helpers_external",
+      "section": 8,
+      "anchor": "?StringCatWorkerW@@YGJPAGIPBG@Z",
+      "anchor_offset": 0,
+      "rva": 552544,
+      "size": 52,
+      "kind": "code",
+      "sha256": "ec6230273b3f1566571dcb60d72f5002ea866acebc8a7c3d79fb98cf0676620e",
+      "bindings": [
+        {
+          "symbol": "?StringLengthWorkerW@@YGJPBGIPAI@Z",
+          "site_rva": 552562,
+          "symbol_va": 268977632,
+          "addend": 0,
+          "kind": 20,
+          "target_va": 268977632
+        },
+        {
+          "symbol": "?StringCopyWorkerW@@YGJPAGIPBG@Z",
+          "site_rva": 552587,
+          "symbol_va": 268977440,
+          "addend": 0,
+          "kind": 20,
+          "target_va": 268977440
+        }
+      ]
+    }
+  ],
+  "source025_direct": 0,
+  "errors": [],
+  "emitted_definitions": [
+    {
+      "unit": "closure_gui_wide_helpers_external",
+      "symbol": "?r5EmitStringCchCatW@@3Q6GJPAGIPBG@ZA",
+      "section": 3,
+      "size": 12,
+      "selected": false
+    },
+    {
+      "unit": "closure_gui_wide_helpers_external",
+      "symbol": "?r5EmitStringCatWorkerW@@3Q6GJPAGIPBG@ZA",
+      "section": 3,
+      "size": 12,
+      "selected": false
+    },
+    {
+      "unit": "closure_gui_wide_helpers_external",
+      "symbol": "?r5EmitStringLengthWorkerW@@3Q6GJPBGIPAI@ZA",
+      "section": 3,
+      "size": 12,
+      "selected": false
+    },
+    {
+      "unit": "closure_gui_wide_helpers_external",
+      "symbol": "?StringCopyWorkerW@@YGJPAGIPBG@Z",
+      "section": 4,
+      "size": 92,
+      "selected": true
+    },
+    {
+      "unit": "closure_gui_wide_helpers_external",
+      "symbol": "?StringLengthWorkerW@@YGJPBGIPAI@Z",
+      "section": 6,
+      "size": 67,
+      "selected": true
+    },
+    {
+      "unit": "closure_gui_wide_helpers_external",
+      "symbol": "?StringCatWorkerW@@YGJPAGIPBG@Z",
+      "section": 8,
+      "size": 52,
+      "selected": true
+    },
+    {
+      "unit": "closure_gui_wide_helpers_external",
+      "symbol": "?StringCchCatW@@YGJPAGIPBG@Z",
+      "section": 10,
+      "size": 69,
+      "selected": true
+    }
+  ],
+  "object_sha256": {
+    "closure_gui_wide_helpers_external": "ec2469a42eab40e956faed608394acf1e5f0ba4a87f32aa61bebec846c143b6c"
+  },
+  "source_sha256": {
+    "closure_gui_wide_helpers_external": "ef5bcef5a0679d3b5d8114619d210564bb8dd42e766ae341d6a334374b2422fc"
+  },
+  "typed_layout_note": "Complete ordinary C++ root functions and all locally emitted reachable dependencies, compared as entire code/data/EH sections. Every COFF target bound to explicit root or accepted baseline provider, full PE relocation set checked. Unselected compile scaffolding excluded and disclosed. Fresh compiled-object proof only, final linked qualification/acceptance pending.",
+  "provenance": "Source bodies preexisting. Isolated TU files newly prepared this run; freshly compiled in integrator probe. Complete source byte/target preflight PASS, not linked acceptance. No exclusive0.2.5 gain."
+}

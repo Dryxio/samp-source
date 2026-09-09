@@ -1,0 +1,48 @@
+{
+  "status": "PASS_FULL_SOURCE_REGIONS_ALL_COFF_PE_TARGETS",
+  "baseline": "evidence/checkpoint32/luna30-three-acceptance.json",
+  "run": "build/cp32-astra-resume-probe-three",
+  "regions": [
+    {
+      "unit": "closure_vendor_reliability_queue_allocation",
+      "section": 3,
+      "anchor": "?ClearAndForceAllocation@?$Queue@_J@DataStructures@@QAEXH@Z",
+      "anchor_offset": 0,
+      "rva": 280064,
+      "size": 50,
+      "kind": "code",
+      "sha256": "9ac9aa779b0fdc9ddf0ad8d4725568a882bc79f40f762a90c4c5b9b6499fe58e",
+      "bindings": [
+        {
+          "symbol": "??3@YAXPAX@Z",
+          "site_rva": 280072,
+          "kind": 20,
+          "target_va": 269247626
+        },
+        {
+          "symbol": "??2@YAPAXI@Z",
+          "site_rva": 280089,
+          "kind": 20,
+          "target_va": 269247098
+        }
+      ]
+    }
+  ],
+  "seeds": [
+    {
+      "unit": "closure_vendor_reliability_queue_allocation",
+      "symbol": "?ClearAndForceAllocation@?$Queue@_J@DataStructures@@QAEXH@Z",
+      "rva": 280064,
+      "size": 50
+    }
+  ],
+  "new_unique_code": 50,
+  "object_sha256": {
+    "closure_vendor_reliability_queue_allocation": "d9516a9debd942fcf22f48264aaa60940992d84156272799ed0fbd8827722726"
+  },
+  "source_sha256": {
+    "closure_vendor_reliability_queue_allocation": "a0b0e37beccdaef85052471d2269b9928ef87c7e7b9e8165ec2952ff8f62ef8e"
+  },
+  "storage": "All reachable complete source code/data/EH sections traversed, every actual COFF and PE target compared. Genuine vendor types/layouts and already accepted external owners. Emitted unreferenced sections remain outside coverage. Source exactness only; linked selection remains to be verified.",
+  "scope": "Fresh whole source sections, all real COFF/PE targets; linked acceptance remains mandatory."
+}

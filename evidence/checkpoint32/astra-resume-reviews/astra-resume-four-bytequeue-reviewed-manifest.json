@@ -1,0 +1,247 @@
+{
+  "status": "PASS_FULL_SOURCE_REGIONS_ALL_COFF_PE_TARGETS",
+  "baseline": "evidence/checkpoint32/luna30-three-acceptance.json",
+  "run": "build/cp32-astra-resume-probe-four",
+  "regions": [
+    {
+      "unit": "closure_vendor_byte_queue",
+      "section": 3,
+      "anchor": "??0ByteQueue@DataStructures@@QAE@XZ",
+      "anchor_offset": 0,
+      "rva": 156912,
+      "size": 16,
+      "kind": "code",
+      "sha256": "41e257fb8e2cacbb3bf1c2e5af0b69014be24adda6ff9e564324bdf036d81345",
+      "bindings": []
+    },
+    {
+      "unit": "closure_vendor_byte_queue",
+      "section": 5,
+      "anchor": "?Clear@ByteQueue@DataStructures@@QAEXXZ",
+      "anchor_offset": 0,
+      "rva": 156928,
+      "size": 50,
+      "kind": "code",
+      "sha256": "765515d88dbdb4586aa1ec0a105a684a71c4a4fc789a582738822a6dd4df0376",
+      "bindings": [
+        {
+          "symbol": "_free",
+          "site_rva": 156942,
+          "kind": 20,
+          "target_va": 269249085
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_byte_queue",
+      "section": 7,
+      "anchor": "?GetBytesWritten@ByteQueue@DataStructures@@QBEIXZ",
+      "anchor_offset": 0,
+      "rva": 156992,
+      "size": 23,
+      "kind": "code",
+      "sha256": "1486d896f803bc082251fae078d15a2b8152f32512ee987833bac62c7e5b361b",
+      "bindings": []
+    },
+    {
+      "unit": "closure_vendor_byte_queue",
+      "section": 9,
+      "anchor": "?IncrementReadOffset@ByteQueue@DataStructures@@QAEXI@Z",
+      "anchor_offset": 0,
+      "rva": 157024,
+      "size": 18,
+      "kind": "code",
+      "sha256": "4f42d5fbd727eb88c22a0c8cd36ab802c4cf30f4d82ab9a8a24f07682bee6493",
+      "bindings": []
+    },
+    {
+      "unit": "closure_vendor_byte_queue",
+      "section": 11,
+      "anchor": "?Print@ByteQueue@DataStructures@@QAEXXZ",
+      "anchor_offset": 0,
+      "rva": 157056,
+      "size": 60,
+      "kind": "code",
+      "sha256": "a56c72016daa00fa1bfd890ca12ec1c2dd3dd15942456f021635dcc1ee82428a",
+      "bindings": [
+        {
+          "symbol": "??_C@_03JLNFKLOC@?$CFi?5?$AA@",
+          "site_rva": 157080,
+          "kind": 6,
+          "target_va": 269380180
+        },
+        {
+          "symbol": "_printf",
+          "site_rva": 157085,
+          "kind": 20,
+          "target_va": 269251548
+        },
+        {
+          "symbol": "??_C@_01EEMJAFIK@?6?$AA@",
+          "site_rva": 157101,
+          "kind": 6,
+          "target_va": 269380176
+        },
+        {
+          "symbol": "_printf",
+          "site_rva": 157106,
+          "kind": 20,
+          "target_va": 269251548
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_byte_queue",
+      "section": 15,
+      "anchor": "??1ByteQueue@DataStructures@@QAE@XZ",
+      "anchor_offset": 0,
+      "rva": 157120,
+      "size": 5,
+      "kind": "code",
+      "sha256": "0873af1117bd7228ee29e0b904b306310d0b12e225a6dd1bb9836b1a2e9ddb6c",
+      "bindings": [
+        {
+          "symbol": "?Clear@ByteQueue@DataStructures@@QAEXXZ",
+          "site_rva": 157121,
+          "kind": 20,
+          "target_va": 268592384
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_byte_queue",
+      "section": 17,
+      "anchor": "?WriteBytes@ByteQueue@DataStructures@@QAEXPBDI@Z",
+      "anchor_offset": 0,
+      "rva": 157136,
+      "size": 272,
+      "kind": "code",
+      "sha256": "2707aa08ace48d37a36f18c59b3640626c43403fedbf039c5e1ce7ea8ca66a2f",
+      "bindings": [
+        {
+          "symbol": "?GetBytesWritten@ByteQueue@DataStructures@@QBEIXZ",
+          "site_rva": 157144,
+          "kind": 20,
+          "target_va": 268592448
+        },
+        {
+          "symbol": "_realloc",
+          "site_rva": 157207,
+          "kind": 20,
+          "target_va": 269250982
+        },
+        {
+          "symbol": "_memmove",
+          "site_rva": 157292,
+          "kind": 20,
+          "target_va": 269250016
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_byte_queue",
+      "section": 19,
+      "anchor": "?ReadBytes@ByteQueue@DataStructures@@QAE_NPADI_N@Z",
+      "anchor_offset": 0,
+      "rva": 157408,
+      "size": 126,
+      "kind": "code",
+      "sha256": "cd81656d5ce07dd5b34e89ac30d62fe1443a698ab25cab8904928bbbaebed5ec",
+      "bindings": [
+        {
+          "symbol": "?GetBytesWritten@ByteQueue@DataStructures@@QBEIXZ",
+          "site_rva": 157412,
+          "kind": 20,
+          "target_va": 268592448
+        },
+        {
+          "symbol": "?IncrementReadOffset@ByteQueue@DataStructures@@QAEXI@Z",
+          "site_rva": 157524,
+          "kind": 20,
+          "target_va": 268592480
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_byte_queue",
+      "section": 13,
+      "anchor": "??_C@_03JLNFKLOC@?$CFi?5?$AA@",
+      "anchor_offset": 0,
+      "rva": 944724,
+      "size": 4,
+      "kind": "data",
+      "sha256": "664120853a6eaf9ebedf55a44f943bd2048b29f045fc9dcf62778728c4ab9248",
+      "bindings": []
+    },
+    {
+      "unit": "closure_vendor_byte_queue",
+      "section": 12,
+      "anchor": "??_C@_01EEMJAFIK@?6?$AA@",
+      "anchor_offset": 0,
+      "rva": 944720,
+      "size": 2,
+      "kind": "data",
+      "sha256": "102b51b9765a56a3e899f7cf0ee38e5251f9c503b357b330a49183eb7b155604",
+      "bindings": []
+    }
+  ],
+  "seeds": [
+    {
+      "unit": "closure_vendor_byte_queue",
+      "symbol": "??0ByteQueue@DataStructures@@QAE@XZ",
+      "rva": 156912,
+      "size": 16
+    },
+    {
+      "unit": "closure_vendor_byte_queue",
+      "symbol": "?Clear@ByteQueue@DataStructures@@QAEXXZ",
+      "rva": 156928,
+      "size": 50
+    },
+    {
+      "unit": "closure_vendor_byte_queue",
+      "symbol": "?GetBytesWritten@ByteQueue@DataStructures@@QBEIXZ",
+      "rva": 156992,
+      "size": 23
+    },
+    {
+      "unit": "closure_vendor_byte_queue",
+      "symbol": "?IncrementReadOffset@ByteQueue@DataStructures@@QAEXI@Z",
+      "rva": 157024,
+      "size": 18
+    },
+    {
+      "unit": "closure_vendor_byte_queue",
+      "symbol": "?Print@ByteQueue@DataStructures@@QAEXXZ",
+      "rva": 157056,
+      "size": 60
+    },
+    {
+      "unit": "closure_vendor_byte_queue",
+      "symbol": "??1ByteQueue@DataStructures@@QAE@XZ",
+      "rva": 157120,
+      "size": 5
+    },
+    {
+      "unit": "closure_vendor_byte_queue",
+      "symbol": "?WriteBytes@ByteQueue@DataStructures@@QAEXPBDI@Z",
+      "rva": 157136,
+      "size": 272
+    },
+    {
+      "unit": "closure_vendor_byte_queue",
+      "symbol": "?ReadBytes@ByteQueue@DataStructures@@QAE_NPADI_N@Z",
+      "rva": 157408,
+      "size": 126
+    }
+  ],
+  "new_unique_code": 570,
+  "object_sha256": {
+    "closure_vendor_byte_queue": "15bc6ed1f26dcaddd076e73f77976d15cb39f877368dfb261cf39d4e5155ca26"
+  },
+  "source_sha256": {
+    "closure_vendor_byte_queue": "ce82d85a307c2473f42ef18e1366441e6e08318ee293d57c44654dad428dd13a"
+  },
+  "storage": "All reachable complete source code/data/EH sections traversed, every actual COFF and PE target compared. Genuine vendor types/layouts and already accepted external owners. Emitted unreferenced sections remain outside coverage. Source exactness only; linked selection remains to be verified.",
+  "scope": "Fresh whole source sections, all real COFF/PE targets; linked acceptance remains mandatory."
+}

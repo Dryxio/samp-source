@@ -1,0 +1,1152 @@
+{
+  "status": "PASS_FULL_SOURCE_REGIONS_ALL_COFF_PE_TARGETS",
+  "baseline": "evidence/checkpoint32/luna30-three-acceptance.json",
+  "run": "build/cp32-astra-resume-probe-four",
+  "regions": [
+    {
+      "unit": "closure_vendor_network_factory_closed",
+      "section": 3,
+      "anchor": "?GetConsoleServer@RakNetworkFactory@@SAPAVConsoleServer@@XZ",
+      "anchor_offset": 0,
+      "rva": 227808,
+      "size": 89,
+      "kind": "code",
+      "sha256": "3e2d246658b323295f5b86d6e6d22350c30c4cb9f701f2d9d8ada4bd80b7a59b",
+      "bindings": [
+        {
+          "symbol": "__ehhandler$?GetConsoleServer@RakNetworkFactory@@SAPAVConsoleServer@@XZ",
+          "site_rva": 227811,
+          "kind": 6,
+          "target_va": 269362539
+        },
+        {
+          "symbol": "__except_list",
+          "site_rva": 227817,
+          "kind": 6,
+          "target_va": 0
+        },
+        {
+          "symbol": "__except_list",
+          "site_rva": 227825,
+          "kind": 6,
+          "target_va": 0
+        },
+        {
+          "symbol": "??2@YAPAXI@Z",
+          "site_rva": 227836,
+          "kind": 20,
+          "target_va": 269247098
+        },
+        {
+          "symbol": "??0ConsoleServer@@QAE@XZ",
+          "site_rva": 227861,
+          "kind": 20,
+          "target_va": 268585904
+        },
+        {
+          "symbol": "__except_list",
+          "site_rva": 227872,
+          "kind": 6,
+          "target_va": 0
+        },
+        {
+          "symbol": "__except_list",
+          "site_rva": 227889,
+          "kind": 6,
+          "target_va": 0
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_network_factory_closed",
+      "section": 8,
+      "anchor": "?GetReplicaManager@RakNetworkFactory@@SAPAVReplicaManager@@XZ",
+      "anchor_offset": 0,
+      "rva": 227904,
+      "size": 86,
+      "kind": "code",
+      "sha256": "7cb5e82d6ce0f427351e6885c4881fa70bb759867acdf68e7d8458b65ee61b4b",
+      "bindings": [
+        {
+          "symbol": "__ehhandler$?GetReplicaManager@RakNetworkFactory@@SAPAVReplicaManager@@XZ",
+          "site_rva": 227907,
+          "kind": 6,
+          "target_va": 269362571
+        },
+        {
+          "symbol": "__except_list",
+          "site_rva": 227913,
+          "kind": 6,
+          "target_va": 0
+        },
+        {
+          "symbol": "__except_list",
+          "site_rva": 227921,
+          "kind": 6,
+          "target_va": 0
+        },
+        {
+          "symbol": "??2@YAPAXI@Z",
+          "site_rva": 227929,
+          "kind": 20,
+          "target_va": 269247098
+        },
+        {
+          "symbol": "??0ReplicaManager@@QAE@XZ",
+          "site_rva": 227954,
+          "kind": 20,
+          "target_va": 268744864
+        },
+        {
+          "symbol": "__except_list",
+          "site_rva": 227965,
+          "kind": 6,
+          "target_va": 0
+        },
+        {
+          "symbol": "__except_list",
+          "site_rva": 227982,
+          "kind": 6,
+          "target_va": 0
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_network_factory_closed",
+      "section": 12,
+      "anchor": "?GetLogCommandParser@RakNetworkFactory@@SAPAVLogCommandParser@@XZ",
+      "anchor_offset": 0,
+      "rva": 228000,
+      "size": 89,
+      "kind": "code",
+      "sha256": "6813a4f00f943dda5cebb7a63de31b060bc3576f361230de5639288d4094eb4c",
+      "bindings": [
+        {
+          "symbol": "__ehhandler$?GetLogCommandParser@RakNetworkFactory@@SAPAVLogCommandParser@@XZ",
+          "site_rva": 228003,
+          "kind": 6,
+          "target_va": 269362603
+        },
+        {
+          "symbol": "__except_list",
+          "site_rva": 228009,
+          "kind": 6,
+          "target_va": 0
+        },
+        {
+          "symbol": "__except_list",
+          "site_rva": 228017,
+          "kind": 6,
+          "target_va": 0
+        },
+        {
+          "symbol": "??2@YAPAXI@Z",
+          "site_rva": 228028,
+          "kind": 20,
+          "target_va": 269247098
+        },
+        {
+          "symbol": "??0LogCommandParser@@QAE@XZ",
+          "site_rva": 228053,
+          "kind": 20,
+          "target_va": 268636912
+        },
+        {
+          "symbol": "__except_list",
+          "site_rva": 228064,
+          "kind": 6,
+          "target_va": 0
+        },
+        {
+          "symbol": "__except_list",
+          "site_rva": 228081,
+          "kind": 6,
+          "target_va": 0
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_network_factory_closed",
+      "section": 16,
+      "anchor": "?GetPacketLogger@RakNetworkFactory@@SAPAVPacketLogger@@XZ",
+      "anchor_offset": 0,
+      "rva": 228096,
+      "size": 86,
+      "kind": "code",
+      "sha256": "48a4e02eac038f3621da6654df106f7ec64620972343b7dbaefb5ea891e99f97",
+      "bindings": [
+        {
+          "symbol": "__ehhandler$?GetPacketLogger@RakNetworkFactory@@SAPAVPacketLogger@@XZ",
+          "site_rva": 228099,
+          "kind": 6,
+          "target_va": 269362635
+        },
+        {
+          "symbol": "__except_list",
+          "site_rva": 228105,
+          "kind": 6,
+          "target_va": 0
+        },
+        {
+          "symbol": "__except_list",
+          "site_rva": 228113,
+          "kind": 6,
+          "target_va": 0
+        },
+        {
+          "symbol": "??2@YAPAXI@Z",
+          "site_rva": 228121,
+          "kind": 20,
+          "target_va": 269247098
+        },
+        {
+          "symbol": "??0PacketLogger@@QAE@XZ",
+          "site_rva": 228146,
+          "kind": 20,
+          "target_va": 268647520
+        },
+        {
+          "symbol": "__except_list",
+          "site_rva": 228157,
+          "kind": 6,
+          "target_va": 0
+        },
+        {
+          "symbol": "__except_list",
+          "site_rva": 228174,
+          "kind": 6,
+          "target_va": 0
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_network_factory_closed",
+      "section": 20,
+      "anchor": "?GetRakNetCommandParser@RakNetworkFactory@@SAPAVRakNetCommandParser@@XZ",
+      "anchor_offset": 0,
+      "rva": 228192,
+      "size": 86,
+      "kind": "code",
+      "sha256": "e9696ecd3b19a619443d3fd3c6fecc50cc4f1d691416e429f6d28bb7eed55605",
+      "bindings": [
+        {
+          "symbol": "__ehhandler$?GetRakNetCommandParser@RakNetworkFactory@@SAPAVRakNetCommandParser@@XZ",
+          "site_rva": 228195,
+          "kind": 6,
+          "target_va": 269362667
+        },
+        {
+          "symbol": "__except_list",
+          "site_rva": 228201,
+          "kind": 6,
+          "target_va": 0
+        },
+        {
+          "symbol": "__except_list",
+          "site_rva": 228209,
+          "kind": 6,
+          "target_va": 0
+        },
+        {
+          "symbol": "??2@YAPAXI@Z",
+          "site_rva": 228217,
+          "kind": 20,
+          "target_va": 269247098
+        },
+        {
+          "symbol": "??0RakNetCommandParser@@QAE@XZ",
+          "site_rva": 228242,
+          "kind": 20,
+          "target_va": 268653072
+        },
+        {
+          "symbol": "__except_list",
+          "site_rva": 228253,
+          "kind": 6,
+          "target_va": 0
+        },
+        {
+          "symbol": "__except_list",
+          "site_rva": 228270,
+          "kind": 6,
+          "target_va": 0
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_network_factory_closed",
+      "section": 24,
+      "anchor": "?GetTelnetTransport@RakNetworkFactory@@SAPAVTelnetTransport@@XZ",
+      "anchor_offset": 0,
+      "rva": 228384,
+      "size": 86,
+      "kind": "code",
+      "sha256": "a1c5878b3b30db3dca726f0c3741297bfe9acc10d7232f8101eda3691e0526a5",
+      "bindings": [
+        {
+          "symbol": "__ehhandler$?GetTelnetTransport@RakNetworkFactory@@SAPAVTelnetTransport@@XZ",
+          "site_rva": 228387,
+          "kind": 6,
+          "target_va": 269362731
+        },
+        {
+          "symbol": "__except_list",
+          "site_rva": 228393,
+          "kind": 6,
+          "target_va": 0
+        },
+        {
+          "symbol": "__except_list",
+          "site_rva": 228401,
+          "kind": 6,
+          "target_va": 0
+        },
+        {
+          "symbol": "??2@YAPAXI@Z",
+          "site_rva": 228409,
+          "kind": 20,
+          "target_va": 269247098
+        },
+        {
+          "symbol": "??0TelnetTransport@@QAE@XZ",
+          "site_rva": 228434,
+          "kind": 20,
+          "target_va": 268792256
+        },
+        {
+          "symbol": "__except_list",
+          "site_rva": 228445,
+          "kind": 6,
+          "target_va": 0
+        },
+        {
+          "symbol": "__except_list",
+          "site_rva": 228462,
+          "kind": 6,
+          "target_va": 0
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_network_factory_closed",
+      "section": 28,
+      "anchor": "?GetPacketConsoleLogger@RakNetworkFactory@@SAPAVPacketConsoleLogger@@XZ",
+      "anchor_offset": 0,
+      "rva": 228480,
+      "size": 86,
+      "kind": "code",
+      "sha256": "bb30e11fcfc19ce0f4ce731f07c77ba6577516f55e63c653367695f4eea004ab",
+      "bindings": [
+        {
+          "symbol": "__ehhandler$?GetPacketConsoleLogger@RakNetworkFactory@@SAPAVPacketConsoleLogger@@XZ",
+          "site_rva": 228483,
+          "kind": 6,
+          "target_va": 269362763
+        },
+        {
+          "symbol": "__except_list",
+          "site_rva": 228489,
+          "kind": 6,
+          "target_va": 0
+        },
+        {
+          "symbol": "__except_list",
+          "site_rva": 228497,
+          "kind": 6,
+          "target_va": 0
+        },
+        {
+          "symbol": "??2@YAPAXI@Z",
+          "site_rva": 228505,
+          "kind": 20,
+          "target_va": 269247098
+        },
+        {
+          "symbol": "??0PacketConsoleLogger@@QAE@XZ",
+          "site_rva": 228530,
+          "kind": 20,
+          "target_va": 268646880
+        },
+        {
+          "symbol": "__except_list",
+          "site_rva": 228541,
+          "kind": 6,
+          "target_va": 0
+        },
+        {
+          "symbol": "__except_list",
+          "site_rva": 228558,
+          "kind": 6,
+          "target_va": 0
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_network_factory_closed",
+      "section": 41,
+      "anchor": "?GetPacketFileLogger@RakNetworkFactory@@SAPAVPacketFileLogger@@XZ",
+      "anchor_offset": 0,
+      "rva": 229136,
+      "size": 80,
+      "kind": "code",
+      "sha256": "169485723925ae38b7585b2d79a1822269c1ebb38500fb1e98e2eed2a16b0d87",
+      "bindings": [
+        {
+          "symbol": "__ehhandler$?GetPacketFileLogger@RakNetworkFactory@@SAPAVPacketFileLogger@@XZ",
+          "site_rva": 229139,
+          "kind": 6,
+          "target_va": 269362859
+        },
+        {
+          "symbol": "__except_list",
+          "site_rva": 229145,
+          "kind": 6,
+          "target_va": 0
+        },
+        {
+          "symbol": "__except_list",
+          "site_rva": 229153,
+          "kind": 6,
+          "target_va": 0
+        },
+        {
+          "symbol": "??2@YAPAXI@Z",
+          "site_rva": 229162,
+          "kind": 20,
+          "target_va": 269247098
+        },
+        {
+          "symbol": "??0PacketLogger@@QAE@XZ",
+          "site_rva": 229188,
+          "kind": 20,
+          "target_va": 268647520
+        },
+        {
+          "symbol": "??_7PacketFileLogger@@6B@",
+          "site_rva": 229194,
+          "kind": 6,
+          "target_va": 269382136
+        },
+        {
+          "symbol": "__except_list",
+          "site_rva": 229208,
+          "kind": 6,
+          "target_va": 0
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_network_factory_closed",
+      "section": 37,
+      "anchor": "?GetConnectionGraph@RakNetworkFactory@@SAPAVConnectionGraph@@XZ",
+      "anchor_offset": 0,
+      "rva": 228704,
+      "size": 86,
+      "kind": "code",
+      "sha256": "1bce7d0a4c3f7559c2eea473d17ce0327c8348d6b24eacdff7a838a6d81c6075",
+      "bindings": [
+        {
+          "symbol": "__ehhandler$?GetConnectionGraph@RakNetworkFactory@@SAPAVConnectionGraph@@XZ",
+          "site_rva": 228707,
+          "kind": 6,
+          "target_va": 269362827
+        },
+        {
+          "symbol": "__except_list",
+          "site_rva": 228713,
+          "kind": 6,
+          "target_va": 0
+        },
+        {
+          "symbol": "__except_list",
+          "site_rva": 228721,
+          "kind": 6,
+          "target_va": 0
+        },
+        {
+          "symbol": "??2@YAPAXI@Z",
+          "site_rva": 228729,
+          "kind": 20,
+          "target_va": 269247098
+        },
+        {
+          "symbol": "??0ConnectionGraph@@QAE@XZ",
+          "site_rva": 228754,
+          "kind": 20,
+          "target_va": 268582720
+        },
+        {
+          "symbol": "__except_list",
+          "site_rva": 228765,
+          "kind": 6,
+          "target_va": 0
+        },
+        {
+          "symbol": "__except_list",
+          "site_rva": 228782,
+          "kind": 6,
+          "target_va": 0
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_network_factory_closed",
+      "section": 4,
+      "anchor": "__ehhandler$?GetConsoleServer@RakNetworkFactory@@SAPAVConsoleServer@@XZ",
+      "anchor_offset": 11,
+      "rva": 927072,
+      "size": 21,
+      "kind": "code",
+      "sha256": "1e17bc815956f9f502877fb975411b2cea2fc3103ec611bd26a0608f5940429d",
+      "bindings": [
+        {
+          "symbol": "??3@YAXPAX@Z",
+          "site_rva": 927077,
+          "kind": 20,
+          "target_va": 269247626
+        },
+        {
+          "symbol": "$T4343",
+          "site_rva": 927084,
+          "kind": 6,
+          "target_va": 269460040
+        },
+        {
+          "symbol": "___CxxFrameHandler",
+          "site_rva": 927089,
+          "kind": 20,
+          "target_va": 269247782
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_network_factory_closed",
+      "section": 9,
+      "anchor": "__ehhandler$?GetReplicaManager@RakNetworkFactory@@SAPAVReplicaManager@@XZ",
+      "anchor_offset": 11,
+      "rva": 927104,
+      "size": 21,
+      "kind": "code",
+      "sha256": "c64c8cc086aca49cf64880cb11cce547cdc392dbe26630f9404875b852e406ae",
+      "bindings": [
+        {
+          "symbol": "??3@YAXPAX@Z",
+          "site_rva": 927109,
+          "kind": 20,
+          "target_va": 269247626
+        },
+        {
+          "symbol": "$T4360",
+          "site_rva": 927116,
+          "kind": 6,
+          "target_va": 269460076
+        },
+        {
+          "symbol": "___CxxFrameHandler",
+          "site_rva": 927121,
+          "kind": 20,
+          "target_va": 269247782
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_network_factory_closed",
+      "section": 13,
+      "anchor": "__ehhandler$?GetLogCommandParser@RakNetworkFactory@@SAPAVLogCommandParser@@XZ",
+      "anchor_offset": 11,
+      "rva": 927136,
+      "size": 21,
+      "kind": "code",
+      "sha256": "d8700c8a7833660848a8984552beb2f9c9d44f79b2b869562ff2a404652b41ef",
+      "bindings": [
+        {
+          "symbol": "??3@YAXPAX@Z",
+          "site_rva": 927141,
+          "kind": 20,
+          "target_va": 269247626
+        },
+        {
+          "symbol": "$T4373",
+          "site_rva": 927148,
+          "kind": 6,
+          "target_va": 269460112
+        },
+        {
+          "symbol": "___CxxFrameHandler",
+          "site_rva": 927153,
+          "kind": 20,
+          "target_va": 269247782
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_network_factory_closed",
+      "section": 17,
+      "anchor": "__ehhandler$?GetPacketLogger@RakNetworkFactory@@SAPAVPacketLogger@@XZ",
+      "anchor_offset": 11,
+      "rva": 927168,
+      "size": 21,
+      "kind": "code",
+      "sha256": "124fe12aa565df6e828ca9e414f8bd2762112efa71befdd8ea3873989ef15658",
+      "bindings": [
+        {
+          "symbol": "??3@YAXPAX@Z",
+          "site_rva": 927173,
+          "kind": 20,
+          "target_va": 269247626
+        },
+        {
+          "symbol": "$T4386",
+          "site_rva": 927180,
+          "kind": 6,
+          "target_va": 269460148
+        },
+        {
+          "symbol": "___CxxFrameHandler",
+          "site_rva": 927185,
+          "kind": 20,
+          "target_va": 269247782
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_network_factory_closed",
+      "section": 21,
+      "anchor": "__ehhandler$?GetRakNetCommandParser@RakNetworkFactory@@SAPAVRakNetCommandParser@@XZ",
+      "anchor_offset": 11,
+      "rva": 927200,
+      "size": 21,
+      "kind": "code",
+      "sha256": "86e4bd3799728c89306788f4d19e9e8c93413c1c4c06f78a053069f4dd314bc4",
+      "bindings": [
+        {
+          "symbol": "??3@YAXPAX@Z",
+          "site_rva": 927205,
+          "kind": 20,
+          "target_va": 269247626
+        },
+        {
+          "symbol": "$T4399",
+          "site_rva": 927212,
+          "kind": 6,
+          "target_va": 269460184
+        },
+        {
+          "symbol": "___CxxFrameHandler",
+          "site_rva": 927217,
+          "kind": 20,
+          "target_va": 269247782
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_network_factory_closed",
+      "section": 25,
+      "anchor": "__ehhandler$?GetTelnetTransport@RakNetworkFactory@@SAPAVTelnetTransport@@XZ",
+      "anchor_offset": 11,
+      "rva": 927264,
+      "size": 21,
+      "kind": "code",
+      "sha256": "59e1a267be4f686bbb3ee99db955ae1be0c2c34f6dc5ba13ae07c1ea08b7be99",
+      "bindings": [
+        {
+          "symbol": "??3@YAXPAX@Z",
+          "site_rva": 927269,
+          "kind": 20,
+          "target_va": 269247626
+        },
+        {
+          "symbol": "$T4412",
+          "site_rva": 927276,
+          "kind": 6,
+          "target_va": 269460256
+        },
+        {
+          "symbol": "___CxxFrameHandler",
+          "site_rva": 927281,
+          "kind": 20,
+          "target_va": 269247782
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_network_factory_closed",
+      "section": 29,
+      "anchor": "__ehhandler$?GetPacketConsoleLogger@RakNetworkFactory@@SAPAVPacketConsoleLogger@@XZ",
+      "anchor_offset": 11,
+      "rva": 927296,
+      "size": 21,
+      "kind": "code",
+      "sha256": "d66b70ede1bd78fdc5bb00abfb6f5f479a71ba47a93baacbf5916ccccb6fb7fa",
+      "bindings": [
+        {
+          "symbol": "??3@YAXPAX@Z",
+          "site_rva": 927301,
+          "kind": 20,
+          "target_va": 269247626
+        },
+        {
+          "symbol": "$T4425",
+          "site_rva": 927308,
+          "kind": 6,
+          "target_va": 269460292
+        },
+        {
+          "symbol": "___CxxFrameHandler",
+          "site_rva": 927313,
+          "kind": 20,
+          "target_va": 269247782
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_network_factory_closed",
+      "section": 42,
+      "anchor": "__ehhandler$?GetPacketFileLogger@RakNetworkFactory@@SAPAVPacketFileLogger@@XZ",
+      "anchor_offset": 11,
+      "rva": 927392,
+      "size": 21,
+      "kind": "code",
+      "sha256": "6fcf22db602b6eefb8ba920e2d2bfcb448c276bda8cf44103aa0385c3f11948f",
+      "bindings": [
+        {
+          "symbol": "??3@YAXPAX@Z",
+          "site_rva": 927397,
+          "kind": 20,
+          "target_va": 269247626
+        },
+        {
+          "symbol": "$T4461",
+          "site_rva": 927404,
+          "kind": 6,
+          "target_va": 269460400
+        },
+        {
+          "symbol": "___CxxFrameHandler",
+          "site_rva": 927409,
+          "kind": 20,
+          "target_va": 269247782
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_network_factory_closed",
+      "section": 33,
+      "anchor": "??_7PacketFileLogger@@6B@",
+      "anchor_offset": 0,
+      "rva": 946680,
+      "size": 64,
+      "kind": "data",
+      "sha256": "dbbd56bc52f772c773467c0638409bfee93b0ac3930a3cdb126b2f849a7756e7",
+      "bindings": [
+        {
+          "symbol": "?OnAttach@PacketFileLogger@@UAEXPAVRakPeerInterface@@@Z",
+          "site_rva": 946680,
+          "kind": 6,
+          "target_va": 268647088
+        },
+        {
+          "symbol": "?OnDetach@PluginInterface@@UAEXPAVRakPeerInterface@@@Z",
+          "site_rva": 946684,
+          "kind": 6,
+          "target_va": 268648320
+        },
+        {
+          "symbol": "?OnInitialize@PluginInterface@@UAEXPAVRakPeerInterface@@@Z",
+          "site_rva": 946688,
+          "kind": 6,
+          "target_va": 268648336
+        },
+        {
+          "symbol": "?Update@PluginInterface@@UAEXPAVRakPeerInterface@@@Z",
+          "site_rva": 946692,
+          "kind": 6,
+          "target_va": 268648352
+        },
+        {
+          "symbol": "?OnReceive@PluginInterface@@UAE?AW4PluginReceiveResult@@PAVRakPeerInterface@@PAUPacket@@@Z",
+          "site_rva": 946696,
+          "kind": 6,
+          "target_va": 268648368
+        },
+        {
+          "symbol": "?OnDisconnect@PluginInterface@@UAEXPAVRakPeerInterface@@@Z",
+          "site_rva": 946700,
+          "kind": 6,
+          "target_va": 268648384
+        },
+        {
+          "symbol": "?OnCloseConnection@PluginInterface@@UAEXPAVRakPeerInterface@@UPlayerID@@@Z",
+          "site_rva": 946704,
+          "kind": 6,
+          "target_va": 268648400
+        },
+        {
+          "symbol": "?OnDirectSocketSend@PacketLogger@@UAEXPBDIUPlayerID@@@Z",
+          "site_rva": 946708,
+          "kind": 6,
+          "target_va": 268647584
+        },
+        {
+          "symbol": "?OnDirectSocketReceive@PacketLogger@@UAEXPBDIUPlayerID@@@Z",
+          "site_rva": 946712,
+          "kind": 6,
+          "target_va": 268647760
+        },
+        {
+          "symbol": "?OnInternalPacket@PacketLogger@@UAEXPAUInternalPacket@@IUPlayerID@@I_N@Z",
+          "site_rva": 946716,
+          "kind": 6,
+          "target_va": 268647936
+        },
+        {
+          "symbol": "??_EPacketFileLogger@@UAEPAXI@Z",
+          "site_rva": 946720,
+          "kind": 6,
+          "target_va": 268647056
+        },
+        {
+          "symbol": "?LogHeader@PacketLogger@@UAEXXZ",
+          "site_rva": 946724,
+          "kind": 6,
+          "target_va": 268647232
+        },
+        {
+          "symbol": "?WriteLog@PacketFileLogger@@UAEXPBD@Z",
+          "site_rva": 946728,
+          "kind": 6,
+          "target_va": 268647168
+        },
+        {
+          "symbol": "?SetPrintID@PacketLogger@@UAEX_N@Z",
+          "site_rva": 946732,
+          "kind": 6,
+          "target_va": 268647264
+        },
+        {
+          "symbol": "?SetPrintAcks@PacketLogger@@UAEX_N@Z",
+          "site_rva": 946736,
+          "kind": 6,
+          "target_va": 268647280
+        },
+        {
+          "symbol": "?UserIDTOString@PacketLogger@@MAEPADE@Z",
+          "site_rva": 946740,
+          "kind": 6,
+          "target_va": 268647312
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_network_factory_closed",
+      "section": 38,
+      "anchor": "__ehhandler$?GetConnectionGraph@RakNetworkFactory@@SAPAVConnectionGraph@@XZ",
+      "anchor_offset": 11,
+      "rva": 927360,
+      "size": 21,
+      "kind": "code",
+      "sha256": "4718ef4f7a16dc133174e76ecf4acb86824c73909fc803767db872735ca2f5da",
+      "bindings": [
+        {
+          "symbol": "??3@YAXPAX@Z",
+          "site_rva": 927365,
+          "kind": 20,
+          "target_va": 269247626
+        },
+        {
+          "symbol": "$T4444",
+          "site_rva": 927372,
+          "kind": 6,
+          "target_va": 269460364
+        },
+        {
+          "symbol": "___CxxFrameHandler",
+          "site_rva": 927377,
+          "kind": 20,
+          "target_va": 269247782
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_network_factory_closed",
+      "section": 5,
+      "anchor": "$T4343",
+      "anchor_offset": 8,
+      "rva": 1024576,
+      "size": 36,
+      "kind": "data",
+      "sha256": "d3c4d4b572c59a975df4db3f34edea7381fc4561d2f0918346fd65a1cfcdba28",
+      "bindings": [
+        {
+          "symbol": "$L4339",
+          "site_rva": 1024580,
+          "kind": 6,
+          "target_va": 269362528
+        },
+        {
+          "symbol": "$T4348",
+          "site_rva": 1024592,
+          "kind": 6,
+          "target_va": 269460032
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_network_factory_closed",
+      "section": 10,
+      "anchor": "$T4360",
+      "anchor_offset": 8,
+      "rva": 1024612,
+      "size": 36,
+      "kind": "data",
+      "sha256": "fbce5dca87eacbbb4e7e7f9faadca704f01a0bdd05b27136ed654f9d700ddfbe",
+      "bindings": [
+        {
+          "symbol": "$L4358",
+          "site_rva": 1024616,
+          "kind": 6,
+          "target_va": 269362560
+        },
+        {
+          "symbol": "$T4362",
+          "site_rva": 1024628,
+          "kind": 6,
+          "target_va": 269460068
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_network_factory_closed",
+      "section": 14,
+      "anchor": "$T4373",
+      "anchor_offset": 8,
+      "rva": 1024648,
+      "size": 36,
+      "kind": "data",
+      "sha256": "041341ba1d58442c1483dc15b305cfb72a36c23c35996c3a5b6cbcdd7b8f4756",
+      "bindings": [
+        {
+          "symbol": "$L4371",
+          "site_rva": 1024652,
+          "kind": 6,
+          "target_va": 269362592
+        },
+        {
+          "symbol": "$T4375",
+          "site_rva": 1024664,
+          "kind": 6,
+          "target_va": 269460104
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_network_factory_closed",
+      "section": 18,
+      "anchor": "$T4386",
+      "anchor_offset": 8,
+      "rva": 1024684,
+      "size": 36,
+      "kind": "data",
+      "sha256": "45b8a1bbfdcf399d199dc9f5104bc36669e3f17379f8d8b27f5fb816260baf5a",
+      "bindings": [
+        {
+          "symbol": "$L4384",
+          "site_rva": 1024688,
+          "kind": 6,
+          "target_va": 269362624
+        },
+        {
+          "symbol": "$T4388",
+          "site_rva": 1024700,
+          "kind": 6,
+          "target_va": 269460140
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_network_factory_closed",
+      "section": 22,
+      "anchor": "$T4399",
+      "anchor_offset": 8,
+      "rva": 1024720,
+      "size": 36,
+      "kind": "data",
+      "sha256": "a75e795bc941e7fb9e85ce1c781ddf4ea0ca522f279811715cbbd09bf728980f",
+      "bindings": [
+        {
+          "symbol": "$L4397",
+          "site_rva": 1024724,
+          "kind": 6,
+          "target_va": 269362656
+        },
+        {
+          "symbol": "$T4401",
+          "site_rva": 1024736,
+          "kind": 6,
+          "target_va": 269460176
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_network_factory_closed",
+      "section": 26,
+      "anchor": "$T4412",
+      "anchor_offset": 8,
+      "rva": 1024792,
+      "size": 36,
+      "kind": "data",
+      "sha256": "73ecd28df75066ee409c0f211b014e4464a5148612f166dbff6a8e8b20797998",
+      "bindings": [
+        {
+          "symbol": "$L4410",
+          "site_rva": 1024796,
+          "kind": 6,
+          "target_va": 269362720
+        },
+        {
+          "symbol": "$T4414",
+          "site_rva": 1024808,
+          "kind": 6,
+          "target_va": 269460248
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_network_factory_closed",
+      "section": 30,
+      "anchor": "$T4425",
+      "anchor_offset": 8,
+      "rva": 1024828,
+      "size": 36,
+      "kind": "data",
+      "sha256": "c6d618222a386596aa85eb555d13c45d018290e7611aaedcad18a0956cccc496",
+      "bindings": [
+        {
+          "symbol": "$L4423",
+          "site_rva": 1024832,
+          "kind": 6,
+          "target_va": 269362752
+        },
+        {
+          "symbol": "$T4427",
+          "site_rva": 1024844,
+          "kind": 6,
+          "target_va": 269460284
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_network_factory_closed",
+      "section": 43,
+      "anchor": "$T4461",
+      "anchor_offset": 8,
+      "rva": 1024936,
+      "size": 36,
+      "kind": "data",
+      "sha256": "103fddaa3c8243226692673a5ab508b858a3f8322cbe77cd46ef3f06e8f0cb29",
+      "bindings": [
+        {
+          "symbol": "$L4455",
+          "site_rva": 1024940,
+          "kind": 6,
+          "target_va": 269362848
+        },
+        {
+          "symbol": "$T4463",
+          "site_rva": 1024952,
+          "kind": 6,
+          "target_va": 269460392
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_network_factory_closed",
+      "section": 39,
+      "anchor": "$T4444",
+      "anchor_offset": 8,
+      "rva": 1024900,
+      "size": 36,
+      "kind": "data",
+      "sha256": "b45204edc6e5ff828234a0b044c47d40bcf82e163ef8af182a919c7255743e80",
+      "bindings": [
+        {
+          "symbol": "$L4442",
+          "site_rva": 1024904,
+          "kind": 6,
+          "target_va": 269362816
+        },
+        {
+          "symbol": "$T4446",
+          "site_rva": 1024916,
+          "kind": 6,
+          "target_va": 269460356
+        }
+      ]
+    }
+  ],
+  "seeds": [
+    {
+      "unit": "closure_vendor_network_factory_closed",
+      "symbol": "?GetConsoleServer@RakNetworkFactory@@SAPAVConsoleServer@@XZ",
+      "rva": 227808,
+      "size": 89
+    },
+    {
+      "unit": "closure_vendor_network_factory_closed",
+      "symbol": "?GetReplicaManager@RakNetworkFactory@@SAPAVReplicaManager@@XZ",
+      "rva": 227904,
+      "size": 86
+    },
+    {
+      "unit": "closure_vendor_network_factory_closed",
+      "symbol": "?GetLogCommandParser@RakNetworkFactory@@SAPAVLogCommandParser@@XZ",
+      "rva": 228000,
+      "size": 89
+    },
+    {
+      "unit": "closure_vendor_network_factory_closed",
+      "symbol": "?GetPacketLogger@RakNetworkFactory@@SAPAVPacketLogger@@XZ",
+      "rva": 228096,
+      "size": 86
+    },
+    {
+      "unit": "closure_vendor_network_factory_closed",
+      "symbol": "?GetRakNetCommandParser@RakNetworkFactory@@SAPAVRakNetCommandParser@@XZ",
+      "rva": 228192,
+      "size": 86
+    },
+    {
+      "unit": "closure_vendor_network_factory_closed",
+      "symbol": "?GetTelnetTransport@RakNetworkFactory@@SAPAVTelnetTransport@@XZ",
+      "rva": 228384,
+      "size": 86
+    },
+    {
+      "unit": "closure_vendor_network_factory_closed",
+      "symbol": "?GetPacketConsoleLogger@RakNetworkFactory@@SAPAVPacketConsoleLogger@@XZ",
+      "rva": 228480,
+      "size": 86
+    },
+    {
+      "unit": "closure_vendor_network_factory_closed",
+      "symbol": "?GetPacketFileLogger@RakNetworkFactory@@SAPAVPacketFileLogger@@XZ",
+      "rva": 229136,
+      "size": 80
+    },
+    {
+      "unit": "closure_vendor_network_factory_closed",
+      "symbol": "?GetConnectionGraph@RakNetworkFactory@@SAPAVConnectionGraph@@XZ",
+      "rva": 228704,
+      "size": 86
+    }
+  ],
+  "new_unique_code": 963,
+  "object_sha256": {
+    "closure_vendor_network_factory_closed": "9b975cdc8160ee11bea4c88c289085e20bf5156bca5d6d95800be60d3a30f0f3"
+  },
+  "source_sha256": {
+    "closure_vendor_network_factory_closed": "b4b05ccc0caa06ad6ebb365524fe80396256a52bfc4d6a59274bdb9809eaf3e8"
+  },
+  "storage": "All reachable complete source code/data/EH sections traversed, every actual COFF and PE target compared. Genuine vendor types/layouts and already accepted external owners. Emitted unreferenced sections remain outside coverage. Source exactness only; linked selection remains to be verified.",
+  "scope": "Fresh whole source sections, all real COFF/PE targets; linked acceptance remains mandatory."
+}

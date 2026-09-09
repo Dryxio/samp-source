@@ -1,0 +1,42 @@
+{
+  "status": "PASS_FULL_SOURCE_REGIONS_ALL_COFF_PE_TARGETS",
+  "regions": [
+    {
+      "unit": "closure_vendor_network_factory_closed",
+      "section": 35,
+      "anchor": "??_GPacketFileLogger@@UAEPAXI@Z",
+      "anchor_offset": 0,
+      "rva": 211600,
+      "size": 30,
+      "kind": "code",
+      "sha256": "e8534d95807e52b8de3547cbb033bb724bdae2b02b4a7db37ae0adfa502b24a4",
+      "bindings": [
+        {
+          "symbol": "??1PacketFileLogger@@UAE@XZ",
+          "site_rva": 211604,
+          "kind": 20,
+          "symbol_va": 268647024,
+          "addend": 0,
+          "target_va": 268647024
+        },
+        {
+          "symbol": "??3@YAXPAX@Z",
+          "site_rva": 211617,
+          "kind": 20,
+          "symbol_va": 269247626,
+          "addend": 0,
+          "target_va": 269247626
+        }
+      ]
+    }
+  ],
+  "new_unique_code": 0,
+  "object_sha256": "9b975cdc8160ee11bea4c88c289085e20bf5156bca5d6d95800be60d3a30f0f3",
+  "source_sha256": "b4b05ccc0caa06ad6ebb365524fe80396256a52bfc4d6a59274bdb9809eaf3e8",
+  "review": "Actual compiler-generated scalar deleting destructor: invokes genuine PacketFileLogger destructor; flag bit1 conditionally invokes accepted operator delete; returns this. Complete30 bytes and both actual targets verified. Already accepted original range gives zero duplicate credit. Required alongside reviewed E-to-G alias/VFT definition in newly selected factory owner. Actual COFF weak alias E-to-G independently parsed and explicitly declared; reviewed VFT slot binds this actual local scalar implementation, same accepted original destructor address.",
+  "actual_weak_aliases": {
+    "closure_vendor_network_factory_closed": {
+      "??_EPacketFileLogger@@UAEPAXI@Z": "??_GPacketFileLogger@@UAEPAXI@Z"
+    }
+  }
+}

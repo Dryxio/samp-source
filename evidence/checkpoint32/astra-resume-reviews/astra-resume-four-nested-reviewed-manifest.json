@@ -1,0 +1,219 @@
+{
+  "status": "PASS_FULL_SOURCE_REGIONS_ALL_COFF_PE_TARGETS",
+  "baseline": "evidence/checkpoint32/luna30-three-acceptance.json",
+  "run": "build/cp32-astra-resume-probe-one",
+  "regions": [
+    {
+      "unit": "closure_vendor_rakpeer_nested",
+      "section": 7,
+      "anchor": "??0RemoteSystemStruct@RakPeer@@QAE@XZ",
+      "anchor_offset": 0,
+      "rva": 230208,
+      "size": 90,
+      "kind": "code",
+      "sha256": "094e1a6fbe4a382e1324048c58b3946ec3623fc3289b30bdfb98a2ee075c2000",
+      "bindings": [
+        {
+          "symbol": "__ehhandler$??0RemoteSystemStruct@RakPeer@@QAE@XZ",
+          "site_rva": 230211,
+          "kind": 6,
+          "target_va": 269362905
+        },
+        {
+          "symbol": "__except_list",
+          "site_rva": 230217,
+          "kind": 6,
+          "target_va": 0
+        },
+        {
+          "symbol": "__except_list",
+          "site_rva": 230225,
+          "kind": 6,
+          "target_va": 0
+        },
+        {
+          "symbol": "??0ReliabilityLayer@@QAE@XZ",
+          "site_rva": 230241,
+          "kind": 20,
+          "target_va": 268733968
+        },
+        {
+          "symbol": "??0BitStream@RakNet@@QAE@XZ",
+          "site_rva": 230260,
+          "kind": 20,
+          "target_va": 268564272
+        },
+        {
+          "symbol": "??0RPCMap@@QAE@XZ",
+          "site_rva": 230276,
+          "kind": 20,
+          "target_va": 268768816
+        },
+        {
+          "symbol": "__except_list",
+          "site_rva": 230290,
+          "kind": 6,
+          "target_va": 0
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_rakpeer_nested",
+      "section": 14,
+      "anchor": "??0?$List@PAUBanStruct@RakPeer@@@DataStructures@@QAE@XZ",
+      "anchor_offset": 0,
+      "rva": 233344,
+      "size": 13,
+      "kind": "code",
+      "sha256": "efaddf6f7c64b7d0dd7d70e04563c88df5b21978a063a338954e28cc09d4e5e9",
+      "bindings": []
+    },
+    {
+      "unit": "closure_vendor_rakpeer_nested",
+      "section": 16,
+      "anchor": "??0?$List@PAVPluginInterface@@@DataStructures@@QAE@XZ",
+      "anchor_offset": 0,
+      "rva": 233600,
+      "size": 13,
+      "kind": "code",
+      "sha256": "efaddf6f7c64b7d0dd7d70e04563c88df5b21978a063a338954e28cc09d4e5e9",
+      "bindings": []
+    },
+    {
+      "unit": "closure_vendor_rakpeer_nested",
+      "section": 12,
+      "anchor": "??0?$List@UPlayerIDAndIndex@@@DataStructures@@QAE@XZ",
+      "anchor_offset": 0,
+      "rva": 236112,
+      "size": 13,
+      "kind": "code",
+      "sha256": "efaddf6f7c64b7d0dd7d70e04563c88df5b21978a063a338954e28cc09d4e5e9",
+      "bindings": []
+    },
+    {
+      "unit": "closure_vendor_rakpeer_nested",
+      "section": 24,
+      "anchor": "??0?$OrderedList@UPlayerID@@UPlayerIDAndIndex@@$1?PlayerIDAndIndexComp@@YAHABU1@ABU2@@Z@DataStructures@@QAE@XZ",
+      "anchor_offset": 0,
+      "rva": 241968,
+      "size": 12,
+      "kind": "code",
+      "sha256": "1ec3f5afe62fd1739218f0b42e8db4c6ab1fa8d7de01d59c26482ff1ba585a29",
+      "bindings": [
+        {
+          "symbol": "??0?$List@UPlayerIDAndIndex@@@DataStructures@@QAE@XZ",
+          "site_rva": 241972,
+          "kind": 20,
+          "target_va": 268671568
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_rakpeer_nested",
+      "section": 8,
+      "anchor": "__ehhandler$??0RemoteSystemStruct@RakPeer@@QAE@XZ",
+      "anchor_offset": 25,
+      "rva": 927424,
+      "size": 35,
+      "kind": "code",
+      "sha256": "1d710aadc65139d639f4089ba1698f6dbb4cc30e898a9f21429cf5d78e2c22d4",
+      "bindings": [
+        {
+          "symbol": "??1ReliabilityLayer@@QAE@XZ",
+          "site_rva": 927431,
+          "kind": 20,
+          "target_va": 268739056
+        },
+        {
+          "symbol": "??1BitStream@RakNet@@QAE@XZ",
+          "site_rva": 927445,
+          "kind": 20,
+          "target_va": 268564688
+        },
+        {
+          "symbol": "$T62596",
+          "site_rva": 927450,
+          "kind": 6,
+          "target_va": 269460444
+        },
+        {
+          "symbol": "___CxxFrameHandler",
+          "site_rva": 927455,
+          "kind": 20,
+          "target_va": 269247782
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_rakpeer_nested",
+      "section": 9,
+      "anchor": "$T62596",
+      "anchor_offset": 16,
+      "rva": 1024972,
+      "size": 44,
+      "kind": "data",
+      "sha256": "58b1d2edecd91d6a83574eb9e9ca3354caa6b7a6249e55f649e06cf82d7b2ed9",
+      "bindings": [
+        {
+          "symbol": "$L62590",
+          "site_rva": 1024976,
+          "kind": 6,
+          "target_va": 269362880
+        },
+        {
+          "symbol": "$L62591",
+          "site_rva": 1024984,
+          "kind": 6,
+          "target_va": 269362891
+        },
+        {
+          "symbol": "$T62599",
+          "site_rva": 1024996,
+          "kind": 6,
+          "target_va": 269460428
+        }
+      ]
+    }
+  ],
+  "seeds": [
+    {
+      "unit": "closure_vendor_rakpeer_nested",
+      "symbol": "??0RemoteSystemStruct@RakPeer@@QAE@XZ",
+      "rva": 230208,
+      "size": 90
+    },
+    {
+      "unit": "closure_vendor_rakpeer_nested",
+      "symbol": "??0?$List@PAUBanStruct@RakPeer@@@DataStructures@@QAE@XZ",
+      "rva": 233344,
+      "size": 13
+    },
+    {
+      "unit": "closure_vendor_rakpeer_nested",
+      "symbol": "??0?$List@PAVPluginInterface@@@DataStructures@@QAE@XZ",
+      "rva": 233600,
+      "size": 13
+    },
+    {
+      "unit": "closure_vendor_rakpeer_nested",
+      "symbol": "??0?$List@UPlayerIDAndIndex@@@DataStructures@@QAE@XZ",
+      "rva": 236112,
+      "size": 13
+    },
+    {
+      "unit": "closure_vendor_rakpeer_nested",
+      "symbol": "??0?$OrderedList@UPlayerID@@UPlayerIDAndIndex@@$1?PlayerIDAndIndexComp@@YAHABU1@ABU2@@Z@DataStructures@@QAE@XZ",
+      "rva": 241968,
+      "size": 12
+    }
+  ],
+  "new_unique_code": 176,
+  "object_sha256": {
+    "closure_vendor_rakpeer_nested": "db6a0ee7c8ff4ea601266e45bceab309e8d6044504961bf72d18715638e6ee75"
+  },
+  "source_sha256": {
+    "closure_vendor_rakpeer_nested": "cb01f3f696bee16186266579428af7102f5e6f5c7d430c63d497f76a19946c5e"
+  },
+  "storage": "RemoteSystemStruct uses the unchanged vendor layout and genuine accepted ReliabilityLayer, BitStream and RPCMap providers. Full constructor EH code and unwind metadata included. Force-emission wrapper61 and its EH, placement-new/delete helpers, unreferenced constants16 and unreferenced List destructor17 are emitted but unreachable from selected roots; no coverage claimed. No VFT, CRT initializer, static storage or novel external binding reachable.",
+  "scope": "Fresh whole source sections, all real COFF/PE targets; linked acceptance remains mandatory."
+}

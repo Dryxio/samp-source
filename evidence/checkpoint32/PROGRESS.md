@@ -1567,3 +1567,6 @@ pipeline-next-two: +3526 unique R5 code bytes, total428758/930756 (46.065564%). 
 
 
 luna30-three: +341 unique accepted R5 code bytes, total429099/930756 (46.102201%). Roster101,names100,actor/camera63,GUI31,math46. Full closure/bytes/COFF/PE targets, required negative controls and ABI PASS. Luna trial paused;682 bytes/h over planned30min window. See luna30-report.md. No push/deployment.
+
+
+astra-resume-four: +2199 unique R5 code bytes, total 431298/930756 (46.338460%). Closed batch of vendor ByteQueue570, factories963, nested constructors/EH176, queue allocation50, GUI/stats/label252 and wide helpers188:2199 potential unique code bytes. Complete source/linked code, data, EH and actual COFF/PE targets; required negative controls and ABI PASS. No duplicate/data/CRT/unimplemented-provider credit. Checkpoint remains active, no push/deployment. See astra-resume-reports/astra-resume-four.json.
