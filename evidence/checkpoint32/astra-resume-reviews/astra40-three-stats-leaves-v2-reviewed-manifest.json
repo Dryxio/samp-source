@@ -1,0 +1,882 @@
+{
+  "status": "PASS_FULL_SOURCE_REGIONS_ALL_COFF_PE_TARGETS",
+  "run": "cp32-astra40-probe-three",
+  "base_prefix": "astra-resume-four",
+  "baseline": 431298,
+  "new_unique_code": 149,
+  "roots": [
+    {
+      "unit": "closure_stats_object_count_v2",
+      "symbol": "?GetCount@R5StatisticsObjectPoolView@@QAEHXZ",
+      "rva": 75824,
+      "size": 29
+    },
+    {
+      "unit": "closure_stats_send_rates_v2",
+      "symbol": "?GetInCarSendRate@R5StatisticsLocalPlayerView@@QAEHXZ",
+      "rva": 15024,
+      "size": 60
+    },
+    {
+      "unit": "closure_stats_send_rates_v2",
+      "symbol": "?GetOnFootSendRate@R5StatisticsLocalPlayerView@@QAEHXZ",
+      "rva": 15088,
+      "size": 60
+    }
+  ],
+  "regions": [
+    {
+      "unit": "closure_stats_send_rates_v2",
+      "section": 49,
+      "anchor": "?GetOnFootSendRate@R5StatisticsLocalPlayerView@@QAEHXZ",
+      "anchor_offset": 0,
+      "rva": 15088,
+      "size": 60,
+      "kind": "code",
+      "sha256": "6f911aa759c3c38761158a27b1c3eecaba92dcb27ccd93f741dff5b52c246fca",
+      "bindings": [
+        {
+          "symbol": "?pNetGame@@3PAVCNetGame@@A",
+          "site_rva": 15099,
+          "symbol_va": 270986132,
+          "addend": 0,
+          "target_va": 270986132,
+          "kind": 6
+        },
+        {
+          "symbol": "?pGame@@3PAVCGame@@A",
+          "site_rva": 15121,
+          "symbol_va": 270986156,
+          "addend": 0,
+          "target_va": 270986156,
+          "kind": 6
+        },
+        {
+          "symbol": "?FUNC_100A00F0@CGame@@QAEEXZ",
+          "site_rva": 15126,
+          "symbol_va": 269091056,
+          "addend": 0,
+          "target_va": 269091056,
+          "kind": 20
+        },
+        {
+          "symbol": "?r5NormalOnfootSendRate@@3HA",
+          "site_rva": 15132,
+          "symbol_va": 269476008,
+          "addend": 0,
+          "target_va": 269476008,
+          "kind": 6
+        }
+      ]
+    },
+    {
+      "unit": "closure_stats_send_rates_v2",
+      "section": 3,
+      "anchor": "?r5NormalIncarSendRate@@3HA",
+      "anchor_offset": 4,
+      "rva": 1040552,
+      "size": 8,
+      "kind": "data",
+      "sha256": "e78f2b6884dd42491250a4f8d0be2826f2f292ec4edc4486dd29541aa7ed35b2",
+      "bindings": []
+    },
+    {
+      "unit": "closure_stats_send_rates_v2",
+      "section": 47,
+      "anchor": "?GetInCarSendRate@R5StatisticsLocalPlayerView@@QAEHXZ",
+      "anchor_offset": 0,
+      "rva": 15024,
+      "size": 60,
+      "kind": "code",
+      "sha256": "7ca3a5d75dd47eae00c0cb750e069340837d6b5067cb7939e73286559b45afaa",
+      "bindings": [
+        {
+          "symbol": "?pNetGame@@3PAVCNetGame@@A",
+          "site_rva": 15035,
+          "symbol_va": 270986132,
+          "addend": 0,
+          "target_va": 270986132,
+          "kind": 6
+        },
+        {
+          "symbol": "?pGame@@3PAVCGame@@A",
+          "site_rva": 15057,
+          "symbol_va": 270986156,
+          "addend": 0,
+          "target_va": 270986156,
+          "kind": 6
+        },
+        {
+          "symbol": "?FUNC_100A00F0@CGame@@QAEEXZ",
+          "site_rva": 15062,
+          "symbol_va": 269091056,
+          "addend": 0,
+          "target_va": 269091056,
+          "kind": 20
+        },
+        {
+          "symbol": "?r5NormalIncarSendRate@@3HA",
+          "site_rva": 15068,
+          "symbol_va": 269476012,
+          "addend": 0,
+          "target_va": 269476012,
+          "kind": 6
+        }
+      ]
+    },
+    {
+      "unit": "closure_stats_object_count_v2",
+      "section": 46,
+      "anchor": "?GetCount@R5StatisticsObjectPoolView@@QAEHXZ",
+      "anchor_offset": 0,
+      "rva": 75824,
+      "size": 29,
+      "kind": "code",
+      "sha256": "a73da81bb75a21bb12cbbb2c6313cdca2482529a127b824f6a8392be489f16ab",
+      "bindings": []
+    }
+  ],
+  "errors": [],
+  "source025_direct": 0,
+  "object_sha256": {
+    "closure_stats_send_rates_v2": "2ef74d53584ddbff6ea208acca54ca1f48e3185f290c0e22e22a16ab6b00ab99",
+    "closure_stats_object_count_v2": "1f264c447f3969f9423e47f1993258cad833b22c90c1a470a19ce9b327a2bdd4"
+  },
+  "source_sha256": {
+    "closure_stats_send_rates_v2": "2599fd3c3bfb219b09577f0a02845854cf5d8a15eab3c806f15b8c05fad98b62",
+    "closure_stats_object_count_v2": "b5f1131877fda3868e02d42f947c07c38af0db9708822c95994ed0a7195aff02"
+  },
+  "emitted_definitions": [
+    {
+      "unit": "closure_stats_send_rates_v2",
+      "symbol": "?r5NormalIncarSendRate@@3HA",
+      "section": 3,
+      "size": 8,
+      "kind": "data",
+      "selected": true
+    },
+    {
+      "unit": "closure_stats_send_rates_v2",
+      "symbol": "?r5NormalOnfootSendRate@@3HA",
+      "section": 3,
+      "size": 8,
+      "kind": "data",
+      "selected": true
+    },
+    {
+      "unit": "closure_stats_send_rates_v2",
+      "symbol": "?end@?$_Iosb@H@std@@2W4_Seekdir@12@B",
+      "section": 4,
+      "size": 4,
+      "kind": "data",
+      "selected": false
+    },
+    {
+      "unit": "closure_stats_send_rates_v2",
+      "symbol": "?cur@?$_Iosb@H@std@@2W4_Seekdir@12@B",
+      "section": 5,
+      "size": 4,
+      "kind": "data",
+      "selected": false
+    },
+    {
+      "unit": "closure_stats_send_rates_v2",
+      "symbol": "?beg@?$_Iosb@H@std@@2W4_Seekdir@12@B",
+      "section": 6,
+      "size": 4,
+      "kind": "data",
+      "selected": false
+    },
+    {
+      "unit": "closure_stats_send_rates_v2",
+      "symbol": "?binary@?$_Iosb@H@std@@2W4_Openmode@12@B",
+      "section": 7,
+      "size": 4,
+      "kind": "data",
+      "selected": false
+    },
+    {
+      "unit": "closure_stats_send_rates_v2",
+      "symbol": "?_Noreplace@?$_Iosb@H@std@@2W4_Openmode@12@B",
+      "section": 8,
+      "size": 4,
+      "kind": "data",
+      "selected": false
+    },
+    {
+      "unit": "closure_stats_send_rates_v2",
+      "symbol": "?_Nocreate@?$_Iosb@H@std@@2W4_Openmode@12@B",
+      "section": 9,
+      "size": 4,
+      "kind": "data",
+      "selected": false
+    },
+    {
+      "unit": "closure_stats_send_rates_v2",
+      "symbol": "?trunc@?$_Iosb@H@std@@2W4_Openmode@12@B",
+      "section": 10,
+      "size": 4,
+      "kind": "data",
+      "selected": false
+    },
+    {
+      "unit": "closure_stats_send_rates_v2",
+      "symbol": "?app@?$_Iosb@H@std@@2W4_Openmode@12@B",
+      "section": 11,
+      "size": 4,
+      "kind": "data",
+      "selected": false
+    },
+    {
+      "unit": "closure_stats_send_rates_v2",
+      "symbol": "?ate@?$_Iosb@H@std@@2W4_Openmode@12@B",
+      "section": 12,
+      "size": 4,
+      "kind": "data",
+      "selected": false
+    },
+    {
+      "unit": "closure_stats_send_rates_v2",
+      "symbol": "?out@?$_Iosb@H@std@@2W4_Openmode@12@B",
+      "section": 13,
+      "size": 4,
+      "kind": "data",
+      "selected": false
+    },
+    {
+      "unit": "closure_stats_send_rates_v2",
+      "symbol": "?in@?$_Iosb@H@std@@2W4_Openmode@12@B",
+      "section": 14,
+      "size": 4,
+      "kind": "data",
+      "selected": false
+    },
+    {
+      "unit": "closure_stats_send_rates_v2",
+      "symbol": "?_Hardfail@?$_Iosb@H@std@@2W4_Iostate@12@B",
+      "section": 15,
+      "size": 4,
+      "kind": "data",
+      "selected": false
+    },
+    {
+      "unit": "closure_stats_send_rates_v2",
+      "symbol": "?badbit@?$_Iosb@H@std@@2W4_Iostate@12@B",
+      "section": 16,
+      "size": 4,
+      "kind": "data",
+      "selected": false
+    },
+    {
+      "unit": "closure_stats_send_rates_v2",
+      "symbol": "?failbit@?$_Iosb@H@std@@2W4_Iostate@12@B",
+      "section": 17,
+      "size": 4,
+      "kind": "data",
+      "selected": false
+    },
+    {
+      "unit": "closure_stats_send_rates_v2",
+      "symbol": "?eofbit@?$_Iosb@H@std@@2W4_Iostate@12@B",
+      "section": 18,
+      "size": 4,
+      "kind": "data",
+      "selected": false
+    },
+    {
+      "unit": "closure_stats_send_rates_v2",
+      "symbol": "?goodbit@?$_Iosb@H@std@@2W4_Iostate@12@B",
+      "section": 19,
+      "size": 4,
+      "kind": "data",
+      "selected": false
+    },
+    {
+      "unit": "closure_stats_send_rates_v2",
+      "symbol": "?floatfield@?$_Iosb@H@std@@2W4_Fmtflags@12@B",
+      "section": 20,
+      "size": 4,
+      "kind": "data",
+      "selected": false
+    },
+    {
+      "unit": "closure_stats_send_rates_v2",
+      "symbol": "?basefield@?$_Iosb@H@std@@2W4_Fmtflags@12@B",
+      "section": 21,
+      "size": 4,
+      "kind": "data",
+      "selected": false
+    },
+    {
+      "unit": "closure_stats_send_rates_v2",
+      "symbol": "?adjustfield@?$_Iosb@H@std@@2W4_Fmtflags@12@B",
+      "section": 22,
+      "size": 4,
+      "kind": "data",
+      "selected": false
+    },
+    {
+      "unit": "closure_stats_send_rates_v2",
+      "symbol": "?_Stdio@?$_Iosb@H@std@@2W4_Fmtflags@12@B",
+      "section": 23,
+      "size": 4,
+      "kind": "data",
+      "selected": false
+    },
+    {
+      "unit": "closure_stats_send_rates_v2",
+      "symbol": "?boolalpha@?$_Iosb@H@std@@2W4_Fmtflags@12@B",
+      "section": 24,
+      "size": 4,
+      "kind": "data",
+      "selected": false
+    },
+    {
+      "unit": "closure_stats_send_rates_v2",
+      "symbol": "?fixed@?$_Iosb@H@std@@2W4_Fmtflags@12@B",
+      "section": 25,
+      "size": 4,
+      "kind": "data",
+      "selected": false
+    },
+    {
+      "unit": "closure_stats_send_rates_v2",
+      "symbol": "?scientific@?$_Iosb@H@std@@2W4_Fmtflags@12@B",
+      "section": 26,
+      "size": 4,
+      "kind": "data",
+      "selected": false
+    },
+    {
+      "unit": "closure_stats_send_rates_v2",
+      "symbol": "?hex@?$_Iosb@H@std@@2W4_Fmtflags@12@B",
+      "section": 27,
+      "size": 4,
+      "kind": "data",
+      "selected": false
+    },
+    {
+      "unit": "closure_stats_send_rates_v2",
+      "symbol": "?oct@?$_Iosb@H@std@@2W4_Fmtflags@12@B",
+      "section": 28,
+      "size": 4,
+      "kind": "data",
+      "selected": false
+    },
+    {
+      "unit": "closure_stats_send_rates_v2",
+      "symbol": "?dec@?$_Iosb@H@std@@2W4_Fmtflags@12@B",
+      "section": 29,
+      "size": 4,
+      "kind": "data",
+      "selected": false
+    },
+    {
+      "unit": "closure_stats_send_rates_v2",
+      "symbol": "?internal@?$_Iosb@H@std@@2W4_Fmtflags@12@B",
+      "section": 30,
+      "size": 4,
+      "kind": "data",
+      "selected": false
+    },
+    {
+      "unit": "closure_stats_send_rates_v2",
+      "symbol": "?right@?$_Iosb@H@std@@2W4_Fmtflags@12@B",
+      "section": 31,
+      "size": 4,
+      "kind": "data",
+      "selected": false
+    },
+    {
+      "unit": "closure_stats_send_rates_v2",
+      "symbol": "?left@?$_Iosb@H@std@@2W4_Fmtflags@12@B",
+      "section": 32,
+      "size": 4,
+      "kind": "data",
+      "selected": false
+    },
+    {
+      "unit": "closure_stats_send_rates_v2",
+      "symbol": "?showpos@?$_Iosb@H@std@@2W4_Fmtflags@12@B",
+      "section": 33,
+      "size": 4,
+      "kind": "data",
+      "selected": false
+    },
+    {
+      "unit": "closure_stats_send_rates_v2",
+      "symbol": "?showpoint@?$_Iosb@H@std@@2W4_Fmtflags@12@B",
+      "section": 34,
+      "size": 4,
+      "kind": "data",
+      "selected": false
+    },
+    {
+      "unit": "closure_stats_send_rates_v2",
+      "symbol": "?showbase@?$_Iosb@H@std@@2W4_Fmtflags@12@B",
+      "section": 35,
+      "size": 4,
+      "kind": "data",
+      "selected": false
+    },
+    {
+      "unit": "closure_stats_send_rates_v2",
+      "symbol": "?uppercase@?$_Iosb@H@std@@2W4_Fmtflags@12@B",
+      "section": 36,
+      "size": 4,
+      "kind": "data",
+      "selected": false
+    },
+    {
+      "unit": "closure_stats_send_rates_v2",
+      "symbol": "?unitbuf@?$_Iosb@H@std@@2W4_Fmtflags@12@B",
+      "section": 37,
+      "size": 4,
+      "kind": "data",
+      "selected": false
+    },
+    {
+      "unit": "closure_stats_send_rates_v2",
+      "symbol": "?skipws@?$_Iosb@H@std@@2W4_Fmtflags@12@B",
+      "section": 38,
+      "size": 4,
+      "kind": "data",
+      "selected": false
+    },
+    {
+      "unit": "closure_stats_send_rates_v2",
+      "symbol": "?none@?$_Locbase@H@std@@2HB",
+      "section": 39,
+      "size": 4,
+      "kind": "data",
+      "selected": false
+    },
+    {
+      "unit": "closure_stats_send_rates_v2",
+      "symbol": "?all@?$_Locbase@H@std@@2HB",
+      "section": 40,
+      "size": 4,
+      "kind": "data",
+      "selected": false
+    },
+    {
+      "unit": "closure_stats_send_rates_v2",
+      "symbol": "?messages@?$_Locbase@H@std@@2HB",
+      "section": 41,
+      "size": 4,
+      "kind": "data",
+      "selected": false
+    },
+    {
+      "unit": "closure_stats_send_rates_v2",
+      "symbol": "?time@?$_Locbase@H@std@@2HB",
+      "section": 42,
+      "size": 4,
+      "kind": "data",
+      "selected": false
+    },
+    {
+      "unit": "closure_stats_send_rates_v2",
+      "symbol": "?numeric@?$_Locbase@H@std@@2HB",
+      "section": 43,
+      "size": 4,
+      "kind": "data",
+      "selected": false
+    },
+    {
+      "unit": "closure_stats_send_rates_v2",
+      "symbol": "?monetary@?$_Locbase@H@std@@2HB",
+      "section": 44,
+      "size": 4,
+      "kind": "data",
+      "selected": false
+    },
+    {
+      "unit": "closure_stats_send_rates_v2",
+      "symbol": "?ctype@?$_Locbase@H@std@@2HB",
+      "section": 45,
+      "size": 4,
+      "kind": "data",
+      "selected": false
+    },
+    {
+      "unit": "closure_stats_send_rates_v2",
+      "symbol": "?collate@?$_Locbase@H@std@@2HB",
+      "section": 46,
+      "size": 4,
+      "kind": "data",
+      "selected": false
+    },
+    {
+      "unit": "closure_stats_send_rates_v2",
+      "symbol": "?GetInCarSendRate@R5StatisticsLocalPlayerView@@QAEHXZ",
+      "section": 47,
+      "size": 60,
+      "kind": "code",
+      "selected": true
+    },
+    {
+      "unit": "closure_stats_send_rates_v2",
+      "symbol": "?GetOnFootSendRate@R5StatisticsLocalPlayerView@@QAEHXZ",
+      "section": 49,
+      "size": 60,
+      "kind": "code",
+      "selected": true
+    },
+    {
+      "unit": "closure_stats_object_count_v2",
+      "symbol": "?end@?$_Iosb@H@std@@2W4_Seekdir@12@B",
+      "section": 3,
+      "size": 4,
+      "kind": "data",
+      "selected": false
+    },
+    {
+      "unit": "closure_stats_object_count_v2",
+      "symbol": "?cur@?$_Iosb@H@std@@2W4_Seekdir@12@B",
+      "section": 4,
+      "size": 4,
+      "kind": "data",
+      "selected": false
+    },
+    {
+      "unit": "closure_stats_object_count_v2",
+      "symbol": "?beg@?$_Iosb@H@std@@2W4_Seekdir@12@B",
+      "section": 5,
+      "size": 4,
+      "kind": "data",
+      "selected": false
+    },
+    {
+      "unit": "closure_stats_object_count_v2",
+      "symbol": "?binary@?$_Iosb@H@std@@2W4_Openmode@12@B",
+      "section": 6,
+      "size": 4,
+      "kind": "data",
+      "selected": false
+    },
+    {
+      "unit": "closure_stats_object_count_v2",
+      "symbol": "?_Noreplace@?$_Iosb@H@std@@2W4_Openmode@12@B",
+      "section": 7,
+      "size": 4,
+      "kind": "data",
+      "selected": false
+    },
+    {
+      "unit": "closure_stats_object_count_v2",
+      "symbol": "?_Nocreate@?$_Iosb@H@std@@2W4_Openmode@12@B",
+      "section": 8,
+      "size": 4,
+      "kind": "data",
+      "selected": false
+    },
+    {
+      "unit": "closure_stats_object_count_v2",
+      "symbol": "?trunc@?$_Iosb@H@std@@2W4_Openmode@12@B",
+      "section": 9,
+      "size": 4,
+      "kind": "data",
+      "selected": false
+    },
+    {
+      "unit": "closure_stats_object_count_v2",
+      "symbol": "?app@?$_Iosb@H@std@@2W4_Openmode@12@B",
+      "section": 10,
+      "size": 4,
+      "kind": "data",
+      "selected": false
+    },
+    {
+      "unit": "closure_stats_object_count_v2",
+      "symbol": "?ate@?$_Iosb@H@std@@2W4_Openmode@12@B",
+      "section": 11,
+      "size": 4,
+      "kind": "data",
+      "selected": false
+    },
+    {
+      "unit": "closure_stats_object_count_v2",
+      "symbol": "?out@?$_Iosb@H@std@@2W4_Openmode@12@B",
+      "section": 12,
+      "size": 4,
+      "kind": "data",
+      "selected": false
+    },
+    {
+      "unit": "closure_stats_object_count_v2",
+      "symbol": "?in@?$_Iosb@H@std@@2W4_Openmode@12@B",
+      "section": 13,
+      "size": 4,
+      "kind": "data",
+      "selected": false
+    },
+    {
+      "unit": "closure_stats_object_count_v2",
+      "symbol": "?_Hardfail@?$_Iosb@H@std@@2W4_Iostate@12@B",
+      "section": 14,
+      "size": 4,
+      "kind": "data",
+      "selected": false
+    },
+    {
+      "unit": "closure_stats_object_count_v2",
+      "symbol": "?badbit@?$_Iosb@H@std@@2W4_Iostate@12@B",
+      "section": 15,
+      "size": 4,
+      "kind": "data",
+      "selected": false
+    },
+    {
+      "unit": "closure_stats_object_count_v2",
+      "symbol": "?failbit@?$_Iosb@H@std@@2W4_Iostate@12@B",
+      "section": 16,
+      "size": 4,
+      "kind": "data",
+      "selected": false
+    },
+    {
+      "unit": "closure_stats_object_count_v2",
+      "symbol": "?eofbit@?$_Iosb@H@std@@2W4_Iostate@12@B",
+      "section": 17,
+      "size": 4,
+      "kind": "data",
+      "selected": false
+    },
+    {
+      "unit": "closure_stats_object_count_v2",
+      "symbol": "?goodbit@?$_Iosb@H@std@@2W4_Iostate@12@B",
+      "section": 18,
+      "size": 4,
+      "kind": "data",
+      "selected": false
+    },
+    {
+      "unit": "closure_stats_object_count_v2",
+      "symbol": "?floatfield@?$_Iosb@H@std@@2W4_Fmtflags@12@B",
+      "section": 19,
+      "size": 4,
+      "kind": "data",
+      "selected": false
+    },
+    {
+      "unit": "closure_stats_object_count_v2",
+      "symbol": "?basefield@?$_Iosb@H@std@@2W4_Fmtflags@12@B",
+      "section": 20,
+      "size": 4,
+      "kind": "data",
+      "selected": false
+    },
+    {
+      "unit": "closure_stats_object_count_v2",
+      "symbol": "?adjustfield@?$_Iosb@H@std@@2W4_Fmtflags@12@B",
+      "section": 21,
+      "size": 4,
+      "kind": "data",
+      "selected": false
+    },
+    {
+      "unit": "closure_stats_object_count_v2",
+      "symbol": "?_Stdio@?$_Iosb@H@std@@2W4_Fmtflags@12@B",
+      "section": 22,
+      "size": 4,
+      "kind": "data",
+      "selected": false
+    },
+    {
+      "unit": "closure_stats_object_count_v2",
+      "symbol": "?boolalpha@?$_Iosb@H@std@@2W4_Fmtflags@12@B",
+      "section": 23,
+      "size": 4,
+      "kind": "data",
+      "selected": false
+    },
+    {
+      "unit": "closure_stats_object_count_v2",
+      "symbol": "?fixed@?$_Iosb@H@std@@2W4_Fmtflags@12@B",
+      "section": 24,
+      "size": 4,
+      "kind": "data",
+      "selected": false
+    },
+    {
+      "unit": "closure_stats_object_count_v2",
+      "symbol": "?scientific@?$_Iosb@H@std@@2W4_Fmtflags@12@B",
+      "section": 25,
+      "size": 4,
+      "kind": "data",
+      "selected": false
+    },
+    {
+      "unit": "closure_stats_object_count_v2",
+      "symbol": "?hex@?$_Iosb@H@std@@2W4_Fmtflags@12@B",
+      "section": 26,
+      "size": 4,
+      "kind": "data",
+      "selected": false
+    },
+    {
+      "unit": "closure_stats_object_count_v2",
+      "symbol": "?oct@?$_Iosb@H@std@@2W4_Fmtflags@12@B",
+      "section": 27,
+      "size": 4,
+      "kind": "data",
+      "selected": false
+    },
+    {
+      "unit": "closure_stats_object_count_v2",
+      "symbol": "?dec@?$_Iosb@H@std@@2W4_Fmtflags@12@B",
+      "section": 28,
+      "size": 4,
+      "kind": "data",
+      "selected": false
+    },
+    {
+      "unit": "closure_stats_object_count_v2",
+      "symbol": "?internal@?$_Iosb@H@std@@2W4_Fmtflags@12@B",
+      "section": 29,
+      "size": 4,
+      "kind": "data",
+      "selected": false
+    },
+    {
+      "unit": "closure_stats_object_count_v2",
+      "symbol": "?right@?$_Iosb@H@std@@2W4_Fmtflags@12@B",
+      "section": 30,
+      "size": 4,
+      "kind": "data",
+      "selected": false
+    },
+    {
+      "unit": "closure_stats_object_count_v2",
+      "symbol": "?left@?$_Iosb@H@std@@2W4_Fmtflags@12@B",
+      "section": 31,
+      "size": 4,
+      "kind": "data",
+      "selected": false
+    },
+    {
+      "unit": "closure_stats_object_count_v2",
+      "symbol": "?showpos@?$_Iosb@H@std@@2W4_Fmtflags@12@B",
+      "section": 32,
+      "size": 4,
+      "kind": "data",
+      "selected": false
+    },
+    {
+      "unit": "closure_stats_object_count_v2",
+      "symbol": "?showpoint@?$_Iosb@H@std@@2W4_Fmtflags@12@B",
+      "section": 33,
+      "size": 4,
+      "kind": "data",
+      "selected": false
+    },
+    {
+      "unit": "closure_stats_object_count_v2",
+      "symbol": "?showbase@?$_Iosb@H@std@@2W4_Fmtflags@12@B",
+      "section": 34,
+      "size": 4,
+      "kind": "data",
+      "selected": false
+    },
+    {
+      "unit": "closure_stats_object_count_v2",
+      "symbol": "?uppercase@?$_Iosb@H@std@@2W4_Fmtflags@12@B",
+      "section": 35,
+      "size": 4,
+      "kind": "data",
+      "selected": false
+    },
+    {
+      "unit": "closure_stats_object_count_v2",
+      "symbol": "?unitbuf@?$_Iosb@H@std@@2W4_Fmtflags@12@B",
+      "section": 36,
+      "size": 4,
+      "kind": "data",
+      "selected": false
+    },
+    {
+      "unit": "closure_stats_object_count_v2",
+      "symbol": "?skipws@?$_Iosb@H@std@@2W4_Fmtflags@12@B",
+      "section": 37,
+      "size": 4,
+      "kind": "data",
+      "selected": false
+    },
+    {
+      "unit": "closure_stats_object_count_v2",
+      "symbol": "?none@?$_Locbase@H@std@@2HB",
+      "section": 38,
+      "size": 4,
+      "kind": "data",
+      "selected": false
+    },
+    {
+      "unit": "closure_stats_object_count_v2",
+      "symbol": "?all@?$_Locbase@H@std@@2HB",
+      "section": 39,
+      "size": 4,
+      "kind": "data",
+      "selected": false
+    },
+    {
+      "unit": "closure_stats_object_count_v2",
+      "symbol": "?messages@?$_Locbase@H@std@@2HB",
+      "section": 40,
+      "size": 4,
+      "kind": "data",
+      "selected": false
+    },
+    {
+      "unit": "closure_stats_object_count_v2",
+      "symbol": "?time@?$_Locbase@H@std@@2HB",
+      "section": 41,
+      "size": 4,
+      "kind": "data",
+      "selected": false
+    },
+    {
+      "unit": "closure_stats_object_count_v2",
+      "symbol": "?numeric@?$_Locbase@H@std@@2HB",
+      "section": 42,
+      "size": 4,
+      "kind": "data",
+      "selected": false
+    },
+    {
+      "unit": "closure_stats_object_count_v2",
+      "symbol": "?monetary@?$_Locbase@H@std@@2HB",
+      "section": 43,
+      "size": 4,
+      "kind": "data",
+      "selected": false
+    },
+    {
+      "unit": "closure_stats_object_count_v2",
+      "symbol": "?ctype@?$_Locbase@H@std@@2HB",
+      "section": 44,
+      "size": 4,
+      "kind": "data",
+      "selected": false
+    },
+    {
+      "unit": "closure_stats_object_count_v2",
+      "symbol": "?collate@?$_Locbase@H@std@@2HB",
+      "section": 45,
+      "size": 4,
+      "kind": "data",
+      "selected": false
+    },
+    {
+      "unit": "closure_stats_object_count_v2",
+      "symbol": "?GetCount@R5StatisticsObjectPoolView@@QAEHXZ",
+      "section": 46,
+      "size": 29,
+      "kind": "code",
+      "selected": true
+    }
+  ],
+  "new_external_limitations": {},
+  "typed_layout_note": "New normal C++ definitions for complete ObjectPool GetCount29 scanning1000 BOOL slots at4 in full8004-byte pointer-only layout; while index!=1000 matches original single loop. Both60-byte noarg LocalPlayer rate functions preserve ped104, LAN BOOL239, all original branches (15/1000), actual BYTE player count providerA00F0 and true signed int30 rate globalsFE0A8/FE0AC adjacent whole8-byte .r5rates. No allocation or header/profile change, no new imports/CRT/EH. Other main.h constants unreferenced. Source reconstructed this run, current149 unique code, first source divergences preserved.",
+  "provenance": "New normal C++ source this run, fully compared complete reachable code/data/EH sections and independently reviewed symbol targets with exact whole PE relocation sets. Fresh integrator probe only; final linked acceptance and true SDK import qualification remain required. All nonselected emitted definitions disclosed; no arbitrary code/data masks and no accepted code duplication counted."
+}

@@ -1,0 +1,418 @@
+{
+  "status": "PASS_FULL_SOURCE_REGIONS_ALL_COFF_PE_TARGETS",
+  "run": "cp32-astra40-probe-three",
+  "base_prefix": "astra-resume-four",
+  "baseline": 431298,
+  "new_unique_code": 118,
+  "roots": [
+    {
+      "unit": "closure_player_attachment_single",
+      "symbol": "?RemoveAttachedObject@R5AttachedObjectsPedView@@QAEXH@Z",
+      "rva": 716368,
+      "size": 81
+    },
+    {
+      "unit": "closure_player_attachment_single",
+      "symbol": "?GetAttachedObjectSlotState@R5AttachedObjectsPedView@@QAEHH@Z",
+      "rva": 716464,
+      "size": 37
+    }
+  ],
+  "regions": [
+    {
+      "unit": "closure_player_attachment_single",
+      "section": 48,
+      "anchor": "?GetAttachedObjectSlotState@R5AttachedObjectsPedView@@QAEHH@Z",
+      "anchor_offset": 0,
+      "rva": 716464,
+      "size": 37,
+      "kind": "code",
+      "sha256": "b8072884ca621fec4c9354248f43a20ff8b55cd88608736a255d03bd587bcb42",
+      "bindings": []
+    },
+    {
+      "unit": "closure_player_attachment_single",
+      "section": 46,
+      "anchor": "?RemoveAttachedObject@R5AttachedObjectsPedView@@QAEXH@Z",
+      "anchor_offset": 0,
+      "rva": 716368,
+      "size": 81,
+      "kind": "code",
+      "sha256": "77f86738f6f5a536c0e1198da3d7f0ae7f9a10d83600ae33d7961bdc76504897",
+      "bindings": []
+    }
+  ],
+  "errors": [],
+  "source025_direct": 0,
+  "object_sha256": {
+    "closure_player_attachment_single": "f0feaf1dd565615eb2504afc60a3441fd1d9e602956e97aafa653418046cdc41"
+  },
+  "source_sha256": {
+    "closure_player_attachment_single": "6b9b5e729efaaf4dbd5d8b67f306225ed5240b97e8fb3a4df15029de70c69978"
+  },
+  "emitted_definitions": [
+    {
+      "unit": "closure_player_attachment_single",
+      "symbol": "?end@?$_Iosb@H@std@@2W4_Seekdir@12@B",
+      "section": 3,
+      "size": 4,
+      "kind": "data",
+      "selected": false
+    },
+    {
+      "unit": "closure_player_attachment_single",
+      "symbol": "?cur@?$_Iosb@H@std@@2W4_Seekdir@12@B",
+      "section": 4,
+      "size": 4,
+      "kind": "data",
+      "selected": false
+    },
+    {
+      "unit": "closure_player_attachment_single",
+      "symbol": "?beg@?$_Iosb@H@std@@2W4_Seekdir@12@B",
+      "section": 5,
+      "size": 4,
+      "kind": "data",
+      "selected": false
+    },
+    {
+      "unit": "closure_player_attachment_single",
+      "symbol": "?binary@?$_Iosb@H@std@@2W4_Openmode@12@B",
+      "section": 6,
+      "size": 4,
+      "kind": "data",
+      "selected": false
+    },
+    {
+      "unit": "closure_player_attachment_single",
+      "symbol": "?_Noreplace@?$_Iosb@H@std@@2W4_Openmode@12@B",
+      "section": 7,
+      "size": 4,
+      "kind": "data",
+      "selected": false
+    },
+    {
+      "unit": "closure_player_attachment_single",
+      "symbol": "?_Nocreate@?$_Iosb@H@std@@2W4_Openmode@12@B",
+      "section": 8,
+      "size": 4,
+      "kind": "data",
+      "selected": false
+    },
+    {
+      "unit": "closure_player_attachment_single",
+      "symbol": "?trunc@?$_Iosb@H@std@@2W4_Openmode@12@B",
+      "section": 9,
+      "size": 4,
+      "kind": "data",
+      "selected": false
+    },
+    {
+      "unit": "closure_player_attachment_single",
+      "symbol": "?app@?$_Iosb@H@std@@2W4_Openmode@12@B",
+      "section": 10,
+      "size": 4,
+      "kind": "data",
+      "selected": false
+    },
+    {
+      "unit": "closure_player_attachment_single",
+      "symbol": "?ate@?$_Iosb@H@std@@2W4_Openmode@12@B",
+      "section": 11,
+      "size": 4,
+      "kind": "data",
+      "selected": false
+    },
+    {
+      "unit": "closure_player_attachment_single",
+      "symbol": "?out@?$_Iosb@H@std@@2W4_Openmode@12@B",
+      "section": 12,
+      "size": 4,
+      "kind": "data",
+      "selected": false
+    },
+    {
+      "unit": "closure_player_attachment_single",
+      "symbol": "?in@?$_Iosb@H@std@@2W4_Openmode@12@B",
+      "section": 13,
+      "size": 4,
+      "kind": "data",
+      "selected": false
+    },
+    {
+      "unit": "closure_player_attachment_single",
+      "symbol": "?_Hardfail@?$_Iosb@H@std@@2W4_Iostate@12@B",
+      "section": 14,
+      "size": 4,
+      "kind": "data",
+      "selected": false
+    },
+    {
+      "unit": "closure_player_attachment_single",
+      "symbol": "?badbit@?$_Iosb@H@std@@2W4_Iostate@12@B",
+      "section": 15,
+      "size": 4,
+      "kind": "data",
+      "selected": false
+    },
+    {
+      "unit": "closure_player_attachment_single",
+      "symbol": "?failbit@?$_Iosb@H@std@@2W4_Iostate@12@B",
+      "section": 16,
+      "size": 4,
+      "kind": "data",
+      "selected": false
+    },
+    {
+      "unit": "closure_player_attachment_single",
+      "symbol": "?eofbit@?$_Iosb@H@std@@2W4_Iostate@12@B",
+      "section": 17,
+      "size": 4,
+      "kind": "data",
+      "selected": false
+    },
+    {
+      "unit": "closure_player_attachment_single",
+      "symbol": "?goodbit@?$_Iosb@H@std@@2W4_Iostate@12@B",
+      "section": 18,
+      "size": 4,
+      "kind": "data",
+      "selected": false
+    },
+    {
+      "unit": "closure_player_attachment_single",
+      "symbol": "?floatfield@?$_Iosb@H@std@@2W4_Fmtflags@12@B",
+      "section": 19,
+      "size": 4,
+      "kind": "data",
+      "selected": false
+    },
+    {
+      "unit": "closure_player_attachment_single",
+      "symbol": "?basefield@?$_Iosb@H@std@@2W4_Fmtflags@12@B",
+      "section": 20,
+      "size": 4,
+      "kind": "data",
+      "selected": false
+    },
+    {
+      "unit": "closure_player_attachment_single",
+      "symbol": "?adjustfield@?$_Iosb@H@std@@2W4_Fmtflags@12@B",
+      "section": 21,
+      "size": 4,
+      "kind": "data",
+      "selected": false
+    },
+    {
+      "unit": "closure_player_attachment_single",
+      "symbol": "?_Stdio@?$_Iosb@H@std@@2W4_Fmtflags@12@B",
+      "section": 22,
+      "size": 4,
+      "kind": "data",
+      "selected": false
+    },
+    {
+      "unit": "closure_player_attachment_single",
+      "symbol": "?boolalpha@?$_Iosb@H@std@@2W4_Fmtflags@12@B",
+      "section": 23,
+      "size": 4,
+      "kind": "data",
+      "selected": false
+    },
+    {
+      "unit": "closure_player_attachment_single",
+      "symbol": "?fixed@?$_Iosb@H@std@@2W4_Fmtflags@12@B",
+      "section": 24,
+      "size": 4,
+      "kind": "data",
+      "selected": false
+    },
+    {
+      "unit": "closure_player_attachment_single",
+      "symbol": "?scientific@?$_Iosb@H@std@@2W4_Fmtflags@12@B",
+      "section": 25,
+      "size": 4,
+      "kind": "data",
+      "selected": false
+    },
+    {
+      "unit": "closure_player_attachment_single",
+      "symbol": "?hex@?$_Iosb@H@std@@2W4_Fmtflags@12@B",
+      "section": 26,
+      "size": 4,
+      "kind": "data",
+      "selected": false
+    },
+    {
+      "unit": "closure_player_attachment_single",
+      "symbol": "?oct@?$_Iosb@H@std@@2W4_Fmtflags@12@B",
+      "section": 27,
+      "size": 4,
+      "kind": "data",
+      "selected": false
+    },
+    {
+      "unit": "closure_player_attachment_single",
+      "symbol": "?dec@?$_Iosb@H@std@@2W4_Fmtflags@12@B",
+      "section": 28,
+      "size": 4,
+      "kind": "data",
+      "selected": false
+    },
+    {
+      "unit": "closure_player_attachment_single",
+      "symbol": "?internal@?$_Iosb@H@std@@2W4_Fmtflags@12@B",
+      "section": 29,
+      "size": 4,
+      "kind": "data",
+      "selected": false
+    },
+    {
+      "unit": "closure_player_attachment_single",
+      "symbol": "?right@?$_Iosb@H@std@@2W4_Fmtflags@12@B",
+      "section": 30,
+      "size": 4,
+      "kind": "data",
+      "selected": false
+    },
+    {
+      "unit": "closure_player_attachment_single",
+      "symbol": "?left@?$_Iosb@H@std@@2W4_Fmtflags@12@B",
+      "section": 31,
+      "size": 4,
+      "kind": "data",
+      "selected": false
+    },
+    {
+      "unit": "closure_player_attachment_single",
+      "symbol": "?showpos@?$_Iosb@H@std@@2W4_Fmtflags@12@B",
+      "section": 32,
+      "size": 4,
+      "kind": "data",
+      "selected": false
+    },
+    {
+      "unit": "closure_player_attachment_single",
+      "symbol": "?showpoint@?$_Iosb@H@std@@2W4_Fmtflags@12@B",
+      "section": 33,
+      "size": 4,
+      "kind": "data",
+      "selected": false
+    },
+    {
+      "unit": "closure_player_attachment_single",
+      "symbol": "?showbase@?$_Iosb@H@std@@2W4_Fmtflags@12@B",
+      "section": 34,
+      "size": 4,
+      "kind": "data",
+      "selected": false
+    },
+    {
+      "unit": "closure_player_attachment_single",
+      "symbol": "?uppercase@?$_Iosb@H@std@@2W4_Fmtflags@12@B",
+      "section": 35,
+      "size": 4,
+      "kind": "data",
+      "selected": false
+    },
+    {
+      "unit": "closure_player_attachment_single",
+      "symbol": "?unitbuf@?$_Iosb@H@std@@2W4_Fmtflags@12@B",
+      "section": 36,
+      "size": 4,
+      "kind": "data",
+      "selected": false
+    },
+    {
+      "unit": "closure_player_attachment_single",
+      "symbol": "?skipws@?$_Iosb@H@std@@2W4_Fmtflags@12@B",
+      "section": 37,
+      "size": 4,
+      "kind": "data",
+      "selected": false
+    },
+    {
+      "unit": "closure_player_attachment_single",
+      "symbol": "?none@?$_Locbase@H@std@@2HB",
+      "section": 38,
+      "size": 4,
+      "kind": "data",
+      "selected": false
+    },
+    {
+      "unit": "closure_player_attachment_single",
+      "symbol": "?all@?$_Locbase@H@std@@2HB",
+      "section": 39,
+      "size": 4,
+      "kind": "data",
+      "selected": false
+    },
+    {
+      "unit": "closure_player_attachment_single",
+      "symbol": "?messages@?$_Locbase@H@std@@2HB",
+      "section": 40,
+      "size": 4,
+      "kind": "data",
+      "selected": false
+    },
+    {
+      "unit": "closure_player_attachment_single",
+      "symbol": "?time@?$_Locbase@H@std@@2HB",
+      "section": 41,
+      "size": 4,
+      "kind": "data",
+      "selected": false
+    },
+    {
+      "unit": "closure_player_attachment_single",
+      "symbol": "?numeric@?$_Locbase@H@std@@2HB",
+      "section": 42,
+      "size": 4,
+      "kind": "data",
+      "selected": false
+    },
+    {
+      "unit": "closure_player_attachment_single",
+      "symbol": "?monetary@?$_Locbase@H@std@@2HB",
+      "section": 43,
+      "size": 4,
+      "kind": "data",
+      "selected": false
+    },
+    {
+      "unit": "closure_player_attachment_single",
+      "symbol": "?ctype@?$_Locbase@H@std@@2HB",
+      "section": 44,
+      "size": 4,
+      "kind": "data",
+      "selected": false
+    },
+    {
+      "unit": "closure_player_attachment_single",
+      "symbol": "?collate@?$_Locbase@H@std@@2HB",
+      "section": 45,
+      "size": 4,
+      "kind": "data",
+      "selected": false
+    },
+    {
+      "unit": "closure_player_attachment_single",
+      "symbol": "?RemoveAttachedObject@R5AttachedObjectsPedView@@QAEXH@Z",
+      "section": 46,
+      "size": 81,
+      "kind": "code",
+      "selected": true
+    },
+    {
+      "unit": "closure_player_attachment_single",
+      "symbol": "?GetAttachedObjectSlotState@R5AttachedObjectsPedView@@QAEHH@Z",
+      "section": 48,
+      "size": 37,
+      "kind": "code",
+      "selected": true
+    }
+  ],
+  "new_external_limitations": {},
+  "typed_layout_note": "Actual complete CPlayerPed size preserved as pointer-only view never allocated, active BOOL10 at4C, actual52-byte struc_97[10] at74, CObject owner pointers at27C viewed through actual zero-offset CEntity base. B0C58 calls CObject ctorA9110, B0C69 stores return in27C, real vftECD74 slot0 deletingAA100 -> destructorA9430. Whole view offsets asserted against active CPlayerPed. Equality toTRUE is intentional: active values other than1 leave objects unchanged and reportFALSE. Bounded signed index0..9; clear52 bytes only when active1; original null object branch preserves already-null pointer. No new data, imports, CRT or EH expected.",
+  "provenance": "New normal C++ source this run, fully compared complete reachable code/data/EH sections and independently reviewed symbol targets with exact whole PE relocation sets. Fresh integrator probe only; final linked acceptance and true SDK import qualification remain required. All nonselected emitted definitions disclosed; no arbitrary code/data masks and no accepted code duplication counted."
+}

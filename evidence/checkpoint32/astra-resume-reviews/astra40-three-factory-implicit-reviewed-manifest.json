@@ -1,0 +1,156 @@
+{
+  "status": "PASS_FULL_SOURCE_REGIONS_ALL_COFF_PE_TARGETS",
+  "baseline": "evidence/checkpoint32/astra-resume-four-acceptance.json",
+  "run": "build/cp32-astra-resume-four-ob1",
+  "regions": [
+    {
+      "unit": "closure_vendor_network_factory_closed",
+      "section": 32,
+      "anchor": "??0PacketFileLogger@@QAE@XZ",
+      "anchor_offset": 0,
+      "rva": 228576,
+      "size": 18,
+      "kind": "code",
+      "sha256": "23895a92555b298ed6536fd2f6ac8b74dbd4f9d4e574825898fb1118f31395e7",
+      "bindings": [
+        {
+          "symbol": "??0PacketLogger@@QAE@XZ",
+          "site_rva": 228580,
+          "kind": 20,
+          "target_va": 268647520
+        },
+        {
+          "symbol": "??_7PacketFileLogger@@6B@",
+          "site_rva": 228586,
+          "kind": 6,
+          "target_va": 269382136
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_network_factory_closed",
+      "section": 33,
+      "anchor": "??_7PacketFileLogger@@6B@",
+      "anchor_offset": 0,
+      "rva": 946680,
+      "size": 64,
+      "kind": "data",
+      "sha256": "dbbd56bc52f772c773467c0638409bfee93b0ac3930a3cdb126b2f849a7756e7",
+      "bindings": [
+        {
+          "symbol": "?OnAttach@PacketFileLogger@@UAEXPAVRakPeerInterface@@@Z",
+          "site_rva": 946680,
+          "kind": 6,
+          "target_va": 268647088
+        },
+        {
+          "symbol": "?OnDetach@PluginInterface@@UAEXPAVRakPeerInterface@@@Z",
+          "site_rva": 946684,
+          "kind": 6,
+          "target_va": 268648320
+        },
+        {
+          "symbol": "?OnInitialize@PluginInterface@@UAEXPAVRakPeerInterface@@@Z",
+          "site_rva": 946688,
+          "kind": 6,
+          "target_va": 268648336
+        },
+        {
+          "symbol": "?Update@PluginInterface@@UAEXPAVRakPeerInterface@@@Z",
+          "site_rva": 946692,
+          "kind": 6,
+          "target_va": 268648352
+        },
+        {
+          "symbol": "?OnReceive@PluginInterface@@UAE?AW4PluginReceiveResult@@PAVRakPeerInterface@@PAUPacket@@@Z",
+          "site_rva": 946696,
+          "kind": 6,
+          "target_va": 268648368
+        },
+        {
+          "symbol": "?OnDisconnect@PluginInterface@@UAEXPAVRakPeerInterface@@@Z",
+          "site_rva": 946700,
+          "kind": 6,
+          "target_va": 268648384
+        },
+        {
+          "symbol": "?OnCloseConnection@PluginInterface@@UAEXPAVRakPeerInterface@@UPlayerID@@@Z",
+          "site_rva": 946704,
+          "kind": 6,
+          "target_va": 268648400
+        },
+        {
+          "symbol": "?OnDirectSocketSend@PacketLogger@@UAEXPBDIUPlayerID@@@Z",
+          "site_rva": 946708,
+          "kind": 6,
+          "target_va": 268647584
+        },
+        {
+          "symbol": "?OnDirectSocketReceive@PacketLogger@@UAEXPBDIUPlayerID@@@Z",
+          "site_rva": 946712,
+          "kind": 6,
+          "target_va": 268647760
+        },
+        {
+          "symbol": "?OnInternalPacket@PacketLogger@@UAEXPAUInternalPacket@@IUPlayerID@@I_N@Z",
+          "site_rva": 946716,
+          "kind": 6,
+          "target_va": 268647936
+        },
+        {
+          "symbol": "??_EPacketFileLogger@@UAEPAXI@Z",
+          "site_rva": 946720,
+          "kind": 6,
+          "target_va": 268647056
+        },
+        {
+          "symbol": "?LogHeader@PacketLogger@@UAEXXZ",
+          "site_rva": 946724,
+          "kind": 6,
+          "target_va": 268647232
+        },
+        {
+          "symbol": "?WriteLog@PacketFileLogger@@UAEXPBD@Z",
+          "site_rva": 946728,
+          "kind": 6,
+          "target_va": 268647168
+        },
+        {
+          "symbol": "?SetPrintID@PacketLogger@@UAEX_N@Z",
+          "site_rva": 946732,
+          "kind": 6,
+          "target_va": 268647264
+        },
+        {
+          "symbol": "?SetPrintAcks@PacketLogger@@UAEX_N@Z",
+          "site_rva": 946736,
+          "kind": 6,
+          "target_va": 268647280
+        },
+        {
+          "symbol": "?UserIDTOString@PacketLogger@@MAEPADE@Z",
+          "site_rva": 946740,
+          "kind": 6,
+          "target_va": 268647312
+        }
+      ]
+    }
+  ],
+  "seeds": [
+    {
+      "unit": "closure_vendor_network_factory_closed",
+      "symbol": "??0PacketFileLogger@@QAE@XZ",
+      "rva": 228576,
+      "size": 18
+    }
+  ],
+  "new_unique_code": 18,
+  "object_sha256": {
+    "closure_vendor_network_factory_closed": "9b975cdc8160ee11bea4c88c289085e20bf5156bca5d6d95800be60d3a30f0f3"
+  },
+  "source_sha256": {
+    "closure_vendor_network_factory_closed": "b4b05ccc0caa06ad6ebb365524fe80396256a52bfc4d6a59274bdb9809eaf3e8"
+  },
+  "storage": "All reachable complete source code/data/EH sections traversed, every actual COFF and PE target compared. Genuine vendor types/layouts and already accepted external owners. Emitted unreferenced sections remain outside coverage. Source exactness only; linked selection remains to be verified.",
+  "scope": "Fresh whole source sections, all real COFF/PE targets; linked acceptance remains mandatory."
+}

@@ -1570,3 +1570,6 @@ luna30-three: +341 unique accepted R5 code bytes, total429099/930756 (46.102201%
 
 
 astra-resume-four: +2199 unique R5 code bytes, total 431298/930756 (46.338460%). Closed batch of vendor ByteQueue570, factories963, nested constructors/EH176, queue allocation50, GUI/stats/label252 and wide helpers188:2199 potential unique code bytes. Complete source/linked code, data, EH and actual COFF/PE targets; required negative controls and ABI PASS. No duplicate/data/CRT/unimplemented-provider credit. Checkpoint remains active, no push/deployment. See astra-resume-reports/astra-resume-four.json.
+
+
+astra40-three: +3170 unique R5 code bytes, total 434468/930756 (46.679044%). Transport1542, Router963, factory/ConsoleServer151, transport parser182, PlayerID Queue Pop65, stats149 and attachments118:3170 potential unique R5 code bytes. Complete source/linked code, data, EH and actual COFF/PE targets; required negative controls and ABI PASS. No duplicate/data/CRT/unimplemented-provider credit. Checkpoint remains active, no push/deployment. See astra-resume-reports/astra40-three.json.

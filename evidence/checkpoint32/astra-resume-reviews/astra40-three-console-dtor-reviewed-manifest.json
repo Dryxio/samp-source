@@ -1,0 +1,60 @@
+{
+  "status": "PASS_FULL_SOURCE_REGIONS_ALL_COFF_PE_TARGETS",
+  "baseline": "evidence/checkpoint32/luna30-three-acceptance.json",
+  "run": "build/cp32-luna30-three-ob1",
+  "regions": [
+    {
+      "unit": "eval_vendor_console_server",
+      "section": 19,
+      "anchor": "??1ConsoleServer@@QAE@XZ",
+      "anchor_offset": 0,
+      "rva": 150480,
+      "size": 8,
+      "kind": "code",
+      "sha256": "0021934be821774ad1ccde4980bfb7565d59e81916d3f3e4191b7d29bad0d78a",
+      "bindings": [
+        {
+          "symbol": "??1?$List@PAVCommandParserInterface@@@DataStructures@@QAE@XZ",
+          "site_rva": 150484,
+          "kind": 20,
+          "target_va": 268585712
+        }
+      ]
+    },
+    {
+      "unit": "eval_vendor_console_server",
+      "section": 7,
+      "anchor": "??1?$List@PAVCommandParserInterface@@@DataStructures@@QAE@XZ",
+      "anchor_offset": 0,
+      "rva": 150256,
+      "size": 17,
+      "kind": "code",
+      "sha256": "7368c1b25a95507411b08cf9becaac7fb8d2b408f4ac30357ba501c98ced2792",
+      "bindings": [
+        {
+          "symbol": "??3@YAXPAX@Z",
+          "site_rva": 150267,
+          "kind": 20,
+          "target_va": 269247626
+        }
+      ]
+    }
+  ],
+  "seeds": [
+    {
+      "unit": "eval_vendor_console_server",
+      "symbol": "??1ConsoleServer@@QAE@XZ",
+      "rva": 150480,
+      "size": 8
+    }
+  ],
+  "new_unique_code": 25,
+  "object_sha256": {
+    "eval_vendor_console_server": "c4a4f32075922244563d3fb29f35168d00be1deaf871b375157c4740262c8385"
+  },
+  "source_sha256": {
+    "eval_vendor_console_server": "c0206645ac1688ebf3e5bd906d1caadea636dc2042aaa513bc186809ef71b459"
+  },
+  "storage": "All reachable complete source code/data/EH sections traversed, every actual COFF and PE target compared. Genuine vendor types/layouts and already accepted external owners. Emitted unreferenced sections remain outside coverage. Source exactness only; linked selection remains to be verified.",
+  "scope": "Fresh whole source sections, all real COFF/PE targets; linked acceptance remains mandatory."
+}

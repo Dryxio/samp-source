@@ -1,0 +1,113 @@
+{
+  "prefix": "astra40-three",
+  "utc": "2026-09-09T21:03:40.743266+00:00",
+  "coverage": {
+    "previous_code_bytes": 431298,
+    "batch_code_bytes": 428078,
+    "new_unique_code_bytes": 3170,
+    "union_code_bytes": 434468,
+    "text_bytes": 930756,
+    "text_percent": 46.67904370210882,
+    "whole_dll_match": false
+  },
+  "measurement": {
+    "utc": "2026-09-09T21:03:59.280325+00:00",
+    "elapsed_seconds": 1391.280325,
+    "baseline": 431298,
+    "accepted": 434468,
+    "gain": 3170,
+    "global_bytes_per_hour": 8202.51662798437,
+    "token_usage": {
+      "root": {
+        "configuration": {
+          "model": "gpt-6-astra",
+          "effort": "xhigh"
+        },
+        "usage": {
+          "input_tokens": 8278354,
+          "cached_input_tokens": 8006016,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 19680,
+          "reasoning_output_tokens": 5934,
+          "total_tokens": 8298034,
+          "uncached_input_tokens": 272338
+        },
+        "as_of": "2026-09-09T21:03:41.259Z",
+        "session": "/Users/salimtrouve/.codex/sessions/2026/09/09/rollout-2026-09-09T16-37-43-01a086d1-5f3f-7423-ad5c-a0064ea3c163.jsonl",
+        "observed_counter_resets": 1
+      },
+      "/root/client_game_ui": {
+        "configuration": {
+          "model": "gpt-6-astra",
+          "effort": "xhigh"
+        },
+        "usage": {
+          "input_tokens": 7610526,
+          "cached_input_tokens": 7261952,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 27717,
+          "reasoning_output_tokens": 8291,
+          "total_tokens": 7638243,
+          "uncached_input_tokens": 348574
+        },
+        "as_of": "2026-09-09T21:03:58.133Z",
+        "session": "/Users/salimtrouve/.codex/sessions/2026/09/09/rollout-2026-09-09T16-39-26-01a086d2-f295-7d80-8d32-257f38a08fe4.jsonl",
+        "observed_counter_resets": 1
+      },
+      "/root/network_common": {
+        "configuration": {
+          "model": "gpt-6-astra",
+          "effort": "xhigh"
+        },
+        "usage": {
+          "input_tokens": 6716904,
+          "cached_input_tokens": 6424064,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 26809,
+          "reasoning_output_tokens": 8668,
+          "total_tokens": 6743713,
+          "uncached_input_tokens": 292840
+        },
+        "as_of": "2026-09-09T21:03:49.785Z",
+        "session": "/Users/salimtrouve/.codex/sessions/2026/09/09/rollout-2026-09-09T16-39-43-01a086d3-33a6-7c61-9e94-6313eddfe902.jsonl",
+        "observed_counter_resets": 0
+      }
+    },
+    "pipeline_seconds": {
+      "vm-idle": 2.650757749997865,
+      "compile": 35.87146925000343,
+      "audit": 6.436195748996397,
+      "link": 11.544598415999644,
+      "qualify": 1.845349958002771,
+      "spec": 0.08872683299705386,
+      "review": 11.451665541004331,
+      "accept": 101.1384177079999
+    },
+    "token_note": "Observed cumulative counters reset on continuation; sum monotonic increments within the requested window and restart from zero on a verified decrease. Earlier negative raw differences are invalid and retained in history. Counters may lag; reasoning is a subset of output; cached input is separate; no billed cost inferred.",
+    "recent_bytes_per_hour": 58994.9048604802
+  },
+  "proposal": "build/astra40/proposal-three.json",
+  "reviews": [
+    "evidence/checkpoint32/astra-resume-reviews/astra40-three-transport-reviewed-manifest.json",
+    "evidence/checkpoint32/astra-resume-reviews/astra40-three-factory-delete-reviewed-manifest.json",
+    "evidence/checkpoint32/astra-resume-reviews/astra40-three-factory-console-delete-reviewed-manifest.json",
+    "evidence/checkpoint32/astra-resume-reviews/astra40-three-console-dtor-reviewed-manifest.json",
+    "evidence/checkpoint32/astra-resume-reviews/astra40-three-factory-implicit-reviewed-manifest.json",
+    "evidence/checkpoint32/astra-resume-reviews/astra40-three-router-v4-reviewed-manifest.json",
+    "evidence/checkpoint32/astra-resume-reviews/astra40-three-transport-parser-v2-reviewed-manifest.json",
+    "evidence/checkpoint32/astra-resume-reviews/astra40-three-transport-queue-pop-reviewed-manifest.json",
+    "evidence/checkpoint32/astra-resume-reviews/astra40-three-stats-leaves-v2-reviewed-manifest.json",
+    "evidence/checkpoint32/astra-resume-reviews/astra40-three-attachment-single-reviewed-manifest.json"
+  ],
+  "review_note": {
+    "scope": "Transport1542, Router963, factory/ConsoleServer151, transport parser182, PlayerID Queue Pop65, stats149 and attachments118:3170 potential unique R5 code bytes.",
+    "implementation": "Complete normal C++ functions and real whole data/EH regions; actual COFF/PE targets and real weak aliases reviewed. Router v4 explicitly instantiates the existing true comparator provider44 with zero new credit. No masks, truncation, fabricated provider or copied instruction bytes.",
+    "reference_credit": "Transport/factory and Router v3 source preparation predates this40-minute continuation. Real transport layout assertion corrections, Router comparator instantiation, transport parser review, stats v2 and attachments are new work during this window. Existing vendor and local0.2.5 context used; no exclusive0.2.5 credit."
+  },
+  "preserved_main": true,
+  "changed_preexisting_with_backup": [
+    "client/saco/closure_vendor_raknet_transport_methods.cpp",
+    "client/saco/closure_vendor_router_send.cpp"
+  ],
+  "status": "ACCEPTED_CHECKPOINT_STILL_IN_PROGRESS"
+}

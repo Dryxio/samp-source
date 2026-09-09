@@ -1,0 +1,3554 @@
+{
+  "status": "PASS_FULL_SOURCE_REGIONS_ALL_COFF_PE_TARGETS",
+  "baseline": "evidence/checkpoint32/astra-resume-four-acceptance.json",
+  "run": "build/cp32-astra40-probe-three",
+  "regions": [
+    {
+      "unit": "closure_vendor_router_send",
+      "section": 164,
+      "anchor": "?Send@Router@@QAE_NPADIW4PacketPriority@@W4PacketReliability@@DPAVSystemAddressList@@@Z",
+      "anchor_offset": 0,
+      "rva": 332480,
+      "size": 667,
+      "kind": "code",
+      "sha256": "118bb6293a3f8e952894409034c0ef7a9aa851458fbcdb4708c01c0b9459b576",
+      "bindings": [
+        {
+          "symbol": "__ehhandler$?Send@Router@@QAE_NPADIW4PacketPriority@@W4PacketReliability@@DPAVSystemAddressList@@@Z",
+          "site_rva": 332483,
+          "kind": 6,
+          "target_va": 269366055
+        },
+        {
+          "symbol": "__except_list",
+          "site_rva": 332489,
+          "kind": 6,
+          "target_va": 0
+        },
+        {
+          "symbol": "__except_list",
+          "site_rva": 332497,
+          "kind": 6,
+          "target_va": 0
+        },
+        {
+          "symbol": "?GetList@SystemAddressList@@QAEPAV?$List@UPlayerID@@@DataStructures@@XZ",
+          "site_rva": 332527,
+          "kind": 20,
+          "target_va": 268783104
+        },
+        {
+          "symbol": "??0?$Tree@UPlayerIdAndGroupId@ConnectionGraph@@@DataStructures@@QAE@XZ",
+          "site_rva": 332562,
+          "kind": 20,
+          "target_va": 268760336
+        },
+        {
+          "symbol": "_UNASSIGNED_PLAYER_ID",
+          "site_rva": 332634,
+          "kind": 6,
+          "target_va": 269491640
+        },
+        {
+          "symbol": "??8PlayerID@@QBE_NABU0@@Z",
+          "site_rva": 332648,
+          "kind": 20,
+          "target_va": 268646112
+        },
+        {
+          "symbol": "??0?$List@UPlayerIdAndGroupId@ConnectionGraph@@@DataStructures@@QAE@XZ",
+          "site_rva": 332665,
+          "kind": 20,
+          "target_va": 268571808
+        },
+        {
+          "symbol": "?Size@SystemAddressList@@QBEIXZ",
+          "site_rva": 332682,
+          "kind": 20,
+          "target_va": 268784224
+        },
+        {
+          "symbol": "?GetList@SystemAddressList@@QAEPAV?$List@UPlayerID@@@DataStructures@@XZ",
+          "site_rva": 332693,
+          "kind": 20,
+          "target_va": 268783104
+        },
+        {
+          "symbol": "??0PlayerIdAndGroupId@ConnectionGraph@@QAE@UPlayerID@@E@Z",
+          "site_rva": 332725,
+          "kind": 20,
+          "target_va": 268569248
+        },
+        {
+          "symbol": "?Insert@?$List@UPlayerIdAndGroupId@ConnectionGraph@@@DataStructures@@QAEXUPlayerIdAndGroupId@ConnectionGraph@@@Z",
+          "site_rva": 332765,
+          "kind": 20,
+          "target_va": 268760064
+        },
+        {
+          "symbol": "??1PlayerIdAndGroupId@ConnectionGraph@@QAE@XZ",
+          "site_rva": 332782,
+          "kind": 20,
+          "target_va": 268569232
+        },
+        {
+          "symbol": "?Size@SystemAddressList@@QBEIXZ",
+          "site_rva": 332793,
+          "kind": 20,
+          "target_va": 268784224
+        },
+        {
+          "symbol": "??0PlayerIdAndGroupId@ConnectionGraph@@QAE@UPlayerID@@E@Z",
+          "site_rva": 332828,
+          "kind": 20,
+          "target_va": 268569248
+        },
+        {
+          "symbol": "?GetSpanningTree@?$WeightedGraph@UPlayerIdAndGroupId@ConnectionGraph@@G$0A@@DataStructures@@QAE_NAAV?$Tree@UPlayerIdAndGroupId@ConnectionGraph@@@2@PAV?$List@UPlayerIdAndGroupId@ConnectionGraph@@@2@UPlayerIdAndGroupId@ConnectionGraph@@G@Z",
+          "site_rva": 332882,
+          "kind": 20,
+          "target_va": 268766864
+        },
+        {
+          "symbol": "??1PlayerIdAndGroupId@ConnectionGraph@@QAE@XZ",
+          "site_rva": 332907,
+          "kind": 20,
+          "target_va": 268569232
+        },
+        {
+          "symbol": "??1?$List@UPlayerIdAndGroupId@ConnectionGraph@@@DataStructures@@QAE@XZ",
+          "site_rva": 332928,
+          "kind": 20,
+          "target_va": 268571824
+        },
+        {
+          "symbol": "??1?$Tree@UPlayerIdAndGroupId@ConnectionGraph@@@DataStructures@@QAE@XZ",
+          "site_rva": 332948,
+          "kind": 20,
+          "target_va": 268760368
+        },
+        {
+          "symbol": "??0BitStream@RakNet@@QAE@XZ",
+          "site_rva": 332964,
+          "kind": 20,
+          "target_va": 268564272
+        },
+        {
+          "symbol": "?Write@BitStream@RakNet@@QAEXPBDH@Z",
+          "site_rva": 333008,
+          "kind": 20,
+          "target_va": 268566672
+        },
+        {
+          "symbol": "?SendTree@Router@@IAEXW4PacketPriority@@W4PacketReliability@@DPAV?$Tree@UPlayerIdAndGroupId@ConnectionGraph@@@DataStructures@@PBDIPAVBitStream@RakNet@@PAVSystemAddressList@@@Z",
+          "site_rva": 333060,
+          "kind": 20,
+          "target_va": 268761488
+        },
+        {
+          "symbol": "??1BitStream@RakNet@@QAE@XZ",
+          "site_rva": 333077,
+          "kind": 20,
+          "target_va": 268564688
+        },
+        {
+          "symbol": "??1?$List@UPlayerIdAndGroupId@ConnectionGraph@@@DataStructures@@QAE@XZ",
+          "site_rva": 333094,
+          "kind": 20,
+          "target_va": 268571824
+        },
+        {
+          "symbol": "??1?$Tree@UPlayerIdAndGroupId@ConnectionGraph@@@DataStructures@@QAE@XZ",
+          "site_rva": 333114,
+          "kind": 20,
+          "target_va": 268760368
+        },
+        {
+          "symbol": "__except_list",
+          "site_rva": 333133,
+          "kind": 6,
+          "target_va": 0
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_router_send",
+      "section": 168,
+      "anchor": "?Send@Router@@UAE_NPBDIW4PacketPriority@@W4PacketReliability@@DUPlayerID@@@Z",
+      "anchor_offset": 0,
+      "rva": 333152,
+      "size": 208,
+      "kind": "code",
+      "sha256": "5ae3ce440458a1a9e6757c7399260ec9e467be28455a2af028db8667c98a04fc",
+      "bindings": [
+        {
+          "symbol": "__except_list",
+          "site_rva": 333154,
+          "kind": 6,
+          "target_va": 0
+        },
+        {
+          "symbol": "__ehhandler$?Send@Router@@UAE_NPBDIW4PacketPriority@@W4PacketReliability@@DUPlayerID@@@Z",
+          "site_rva": 333161,
+          "kind": 6,
+          "target_va": 269366088
+        },
+        {
+          "symbol": "__except_list",
+          "site_rva": 333169,
+          "kind": 6,
+          "target_va": 0
+        },
+        {
+          "symbol": "_UNASSIGNED_PLAYER_ID",
+          "site_rva": 333182,
+          "kind": 6,
+          "target_va": 269491640
+        },
+        {
+          "symbol": "??9PlayerID@@QBE_NABU0@@Z",
+          "site_rva": 333191,
+          "kind": 20,
+          "target_va": 268646160
+        },
+        {
+          "symbol": "??0SystemAddressList@@QAE@XZ",
+          "site_rva": 333226,
+          "kind": 20,
+          "target_va": 268783120
+        },
+        {
+          "symbol": "?AddSystem@SystemAddressList@@QAEXUPlayerID@@@Z",
+          "site_rva": 333263,
+          "kind": 20,
+          "target_va": 268783232
+        },
+        {
+          "symbol": "?Send@Router@@QAE_NPADIW4PacketPriority@@W4PacketReliability@@DPAVSystemAddressList@@@Z",
+          "site_rva": 333293,
+          "kind": 20,
+          "target_va": 268767936
+        },
+        {
+          "symbol": "??1?$List@UPlayerID@@@DataStructures@@QAE@XZ",
+          "site_rva": 333312,
+          "kind": 20,
+          "target_va": 268569616
+        },
+        {
+          "symbol": "__except_list",
+          "site_rva": 333325,
+          "kind": 6,
+          "target_va": 0
+        },
+        {
+          "symbol": "__except_list",
+          "site_rva": 333349,
+          "kind": 6,
+          "target_va": 0
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_router_send",
+      "section": 165,
+      "anchor": "__ehhandler$?Send@Router@@QAE_NPADIW4PacketPriority@@W4PacketReliability@@DPAVSystemAddressList@@@Z",
+      "anchor_offset": 55,
+      "rva": 930544,
+      "size": 65,
+      "kind": "code",
+      "sha256": "e619e3fdbcf061e5eb090b35e0b84b054641776f49638216ca549f732d55c0e8",
+      "bindings": [
+        {
+          "symbol": "??1?$Tree@UPlayerIdAndGroupId@ConnectionGraph@@@DataStructures@@QAE@XZ",
+          "site_rva": 930551,
+          "kind": 20,
+          "target_va": 268760368
+        },
+        {
+          "symbol": "??1?$List@UPlayerIdAndGroupId@ConnectionGraph@@@DataStructures@@QAE@XZ",
+          "site_rva": 930562,
+          "kind": 20,
+          "target_va": 268571824
+        },
+        {
+          "symbol": "??1PlayerIdAndGroupId@ConnectionGraph@@QAE@XZ",
+          "site_rva": 930573,
+          "kind": 20,
+          "target_va": 268569232
+        },
+        {
+          "symbol": "??1PlayerIdAndGroupId@ConnectionGraph@@QAE@XZ",
+          "site_rva": 930584,
+          "kind": 20,
+          "target_va": 268569232
+        },
+        {
+          "symbol": "??1BitStream@RakNet@@QAE@XZ",
+          "site_rva": 930595,
+          "kind": 20,
+          "target_va": 268564688
+        },
+        {
+          "symbol": "$T6155",
+          "site_rva": 930600,
+          "kind": 6,
+          "target_va": 269463604
+        },
+        {
+          "symbol": "___CxxFrameHandler",
+          "site_rva": 930605,
+          "kind": 20,
+          "target_va": 269247782
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_router_send",
+      "section": 100,
+      "anchor": "??0?$Tree@UPlayerIdAndGroupId@ConnectionGraph@@@DataStructures@@QAE@XZ",
+      "anchor_offset": 0,
+      "rva": 324880,
+      "size": 20,
+      "kind": "code",
+      "sha256": "514512ba4a903fff9fcfa63f8642de1265214c26978a4082677b4d542cb8d2e2",
+      "bindings": [
+        {
+          "symbol": "??0PlayerIdAndGroupId@ConnectionGraph@@QAE@XZ",
+          "site_rva": 324884,
+          "kind": 20,
+          "target_va": 268569216
+        },
+        {
+          "symbol": "??0?$List@PAV?$Tree@UPlayerIdAndGroupId@ConnectionGraph@@@DataStructures@@@DataStructures@@QAE@XZ",
+          "site_rva": 324892,
+          "kind": 20,
+          "target_va": 268758016
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_router_send",
+      "section": 172,
+      "anchor": "_UNASSIGNED_PLAYER_ID",
+      "anchor_offset": 0,
+      "rva": 1056184,
+      "size": 16,
+      "kind": "data",
+      "sha256": "44774f987c1b2569c171277ac704deed6fa979e51c12bc30dc3b0defaf92ede9",
+      "bindings": []
+    },
+    {
+      "unit": "closure_vendor_router_send",
+      "section": 13,
+      "anchor": "??0?$List@UPlayerIdAndGroupId@ConnectionGraph@@@DataStructures@@QAE@XZ",
+      "anchor_offset": 0,
+      "rva": 136352,
+      "size": 13,
+      "kind": "code",
+      "sha256": "efaddf6f7c64b7d0dd7d70e04563c88df5b21978a063a338954e28cc09d4e5e9",
+      "bindings": []
+    },
+    {
+      "unit": "closure_vendor_router_send",
+      "section": 96,
+      "anchor": "?Insert@?$List@UPlayerIdAndGroupId@ConnectionGraph@@@DataStructures@@QAEXUPlayerIdAndGroupId@ConnectionGraph@@@Z",
+      "anchor_offset": 0,
+      "rva": 324608,
+      "size": 272,
+      "kind": "code",
+      "sha256": "6467dad75b6d398f1ca8c39cce37cb9a27cc2e2dca42259863641fb84bc82da8",
+      "bindings": [
+        {
+          "symbol": "__ehhandler$?Insert@?$List@UPlayerIdAndGroupId@ConnectionGraph@@@DataStructures@@QAEXUPlayerIdAndGroupId@ConnectionGraph@@@Z",
+          "site_rva": 324611,
+          "kind": 6,
+          "target_va": 269365459
+        },
+        {
+          "symbol": "__except_list",
+          "site_rva": 324617,
+          "kind": 6,
+          "target_va": 0
+        },
+        {
+          "symbol": "__except_list",
+          "site_rva": 324625,
+          "kind": 6,
+          "target_va": 0
+        },
+        {
+          "symbol": "??2@YAPAXI@Z",
+          "site_rva": 324687,
+          "kind": 20,
+          "target_va": 269247098
+        },
+        {
+          "symbol": "??1PlayerIdAndGroupId@ConnectionGraph@@QAE@XZ",
+          "site_rva": 324708,
+          "kind": 6,
+          "target_va": 268569232
+        },
+        {
+          "symbol": "??0PlayerIdAndGroupId@ConnectionGraph@@QAE@XZ",
+          "site_rva": 324713,
+          "kind": 6,
+          "target_va": 268569216
+        },
+        {
+          "symbol": "??_L@YGXPAXIHP6EX0@Z1@Z",
+          "site_rva": 324727,
+          "kind": 20,
+          "target_va": 269254863
+        },
+        {
+          "symbol": "??1PlayerIdAndGroupId@ConnectionGraph@@QAE@XZ",
+          "site_rva": 324777,
+          "kind": 6,
+          "target_va": 268569232
+        },
+        {
+          "symbol": "??_M@YGXPAXIHP6EX0@Z@Z",
+          "site_rva": 324786,
+          "kind": 20,
+          "target_va": 269254767
+        },
+        {
+          "symbol": "??3@YAXPAX@Z",
+          "site_rva": 324792,
+          "kind": 20,
+          "target_va": 269247626
+        },
+        {
+          "symbol": "??1PlayerIdAndGroupId@ConnectionGraph@@QAE@XZ",
+          "site_rva": 324857,
+          "kind": 20,
+          "target_va": 268569232
+        },
+        {
+          "symbol": "__except_list",
+          "site_rva": 324870,
+          "kind": 6,
+          "target_va": 0
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_router_send",
+      "section": 160,
+      "anchor": "?GetSpanningTree@?$WeightedGraph@UPlayerIdAndGroupId@ConnectionGraph@@G$0A@@DataStructures@@QAE_NAAV?$Tree@UPlayerIdAndGroupId@ConnectionGraph@@@2@PAV?$List@UPlayerIdAndGroupId@ConnectionGraph@@@2@UPlayerIdAndGroupId@ConnectionGraph@@G@Z",
+      "anchor_offset": 0,
+      "rva": 331408,
+      "size": 1059,
+      "kind": "code",
+      "sha256": "f5ed06393162a99c71a16c60be3783c12010b7109c4f350543cf0f72fb5b2dbf",
+      "bindings": [
+        {
+          "symbol": "__ehhandler$?GetSpanningTree@?$WeightedGraph@UPlayerIdAndGroupId@ConnectionGraph@@G$0A@@DataStructures@@QAE_NAAV?$Tree@UPlayerIdAndGroupId@ConnectionGraph@@@2@PAV?$List@UPlayerIdAndGroupId@ConnectionGraph@@@2@UPlayerIdAndGroupId@ConnectionGraph@@G@Z",
+          "site_rva": 331411,
+          "kind": 6,
+          "target_va": 269365982
+        },
+        {
+          "symbol": "__except_list",
+          "site_rva": 331417,
+          "kind": 6,
+          "target_va": 0
+        },
+        {
+          "symbol": "__except_list",
+          "site_rva": 331425,
+          "kind": 6,
+          "target_va": 0
+        },
+        {
+          "symbol": "??0?$List@UPlayerIdAndGroupId@ConnectionGraph@@@DataStructures@@QAE@XZ",
+          "site_rva": 331454,
+          "kind": 20,
+          "target_va": 268571808
+        },
+        {
+          "symbol": "??0?$WeightedGraph@UPlayerIdAndGroupId@ConnectionGraph@@G$0A@@DataStructures@@QAE@XZ",
+          "site_rva": 331471,
+          "kind": 20,
+          "target_va": 268580800
+        },
+        {
+          "symbol": "?GetShortestPath@?$WeightedGraph@UPlayerIdAndGroupId@ConnectionGraph@@G$0A@@DataStructures@@QAE_NAAV?$List@UPlayerIdAndGroupId@ConnectionGraph@@@2@UPlayerIdAndGroupId@ConnectionGraph@@1G@Z",
+          "site_rva": 331597,
+          "kind": 20,
+          "target_va": 268765824
+        },
+        {
+          "symbol": "?AddConnection@?$WeightedGraph@UPlayerIdAndGroupId@ConnectionGraph@@G$0A@@DataStructures@@QAEXABUPlayerIdAndGroupId@ConnectionGraph@@0G@Z",
+          "site_rva": 331627,
+          "kind": 20,
+          "target_va": 268580832
+        },
+        {
+          "symbol": "??0?$Queue@UNodeAndParent@?$WeightedGraph@UPlayerIdAndGroupId@ConnectionGraph@@G$0A@@DataStructures@@@DataStructures@@QAE@XZ",
+          "site_rva": 331674,
+          "kind": 20,
+          "target_va": 268757600
+        },
+        {
+          "symbol": "??0PlayerIdAndGroupId@ConnectionGraph@@QAE@XZ",
+          "site_rva": 331691,
+          "kind": 20,
+          "target_va": 268569216
+        },
+        {
+          "symbol": "?DeleteDecendants@?$Tree@UPlayerIdAndGroupId@ConnectionGraph@@@DataStructures@@QAEXXZ",
+          "site_rva": 331713,
+          "kind": 20,
+          "target_va": 268761920
+        },
+        {
+          "symbol": "?Has@?$Map@UPlayerIdAndGroupId@ConnectionGraph@@PAV?$Map@UPlayerIdAndGroupId@ConnectionGraph@@G$1??$defaultMapKeyComparison@UPlayerIdAndGroupId@ConnectionGraph@@@DataStructures@@YAHABU12@0@Z@DataStructures@@$1??$defaultMapKeyComparison@UPlayerIdAndGroupId@ConnectionGraph@@@4@YAHABU12@0@Z@DataStructures@@QAE_NABUPlayerIdAndGroupId@ConnectionGraph@@@Z",
+          "site_rva": 331761,
+          "kind": 20,
+          "target_va": 268577056
+        },
+        {
+          "symbol": "??1PlayerIdAndGroupId@ConnectionGraph@@QAE@XZ",
+          "site_rva": 331782,
+          "kind": 20,
+          "target_va": 268569232
+        },
+        {
+          "symbol": "??1?$Queue@UNodeAndParent@?$WeightedGraph@UPlayerIdAndGroupId@ConnectionGraph@@G$0A@@DataStructures@@@DataStructures@@QAE@XZ",
+          "site_rva": 331799,
+          "kind": 20,
+          "target_va": 268757648
+        },
+        {
+          "symbol": "??1?$WeightedGraph@UPlayerIdAndGroupId@ConnectionGraph@@G$0A@@DataStructures@@QAE@XZ",
+          "site_rva": 331816,
+          "kind": 20,
+          "target_va": 268582624
+        },
+        {
+          "symbol": "??1?$List@UPlayerIdAndGroupId@ConnectionGraph@@@DataStructures@@QAE@XZ",
+          "site_rva": 331833,
+          "kind": 20,
+          "target_va": 268571824
+        },
+        {
+          "symbol": "??1PlayerIdAndGroupId@ConnectionGraph@@QAE@XZ",
+          "site_rva": 331856,
+          "kind": 20,
+          "target_va": 268569232
+        },
+        {
+          "symbol": "?Get@?$Map@UPlayerIdAndGroupId@ConnectionGraph@@PAV?$Map@UPlayerIdAndGroupId@ConnectionGraph@@G$1??$defaultMapKeyComparison@UPlayerIdAndGroupId@ConnectionGraph@@@DataStructures@@YAHABU12@0@Z@DataStructures@@$1??$defaultMapKeyComparison@UPlayerIdAndGroupId@ConnectionGraph@@@4@YAHABU12@0@Z@DataStructures@@QAEAAPAV?$Map@UPlayerIdAndGroupId@ConnectionGraph@@G$1??$defaultMapKeyComparison@UPlayerIdAndGroupId@ConnectionGraph@@@DataStructures@@YAHABU12@0@Z@2@ABUPlayerIdAndGroupId@ConnectionGraph@@@Z",
+          "site_rva": 331880,
+          "kind": 20,
+          "target_va": 268576976
+        },
+        {
+          "symbol": "?Size@?$Map@UPlayerIdAndGroupId@ConnectionGraph@@G$1??$defaultMapKeyComparison@UPlayerIdAndGroupId@ConnectionGraph@@@DataStructures@@YAHABU12@0@Z@DataStructures@@QBEIXZ",
+          "site_rva": 331889,
+          "kind": 20,
+          "target_va": 268577408
+        },
+        {
+          "symbol": "??2@YAPAXI@Z",
+          "site_rva": 331911,
+          "kind": 20,
+          "target_va": 269247098
+        },
+        {
+          "symbol": "??0?$Tree@UPlayerIdAndGroupId@ConnectionGraph@@@DataStructures@@QAE@XZ",
+          "site_rva": 331937,
+          "kind": 20,
+          "target_va": 268760336
+        },
+        {
+          "symbol": "?GetKeyAtIndex@?$Map@UPlayerIdAndGroupId@ConnectionGraph@@G$1??$defaultMapKeyComparison@UPlayerIdAndGroupId@ConnectionGraph@@@DataStructures@@YAHABU12@0@Z@DataStructures@@QBE?AUPlayerIdAndGroupId@ConnectionGraph@@I@Z",
+          "site_rva": 331968,
+          "kind": 20,
+          "target_va": 268577360
+        },
+        {
+          "symbol": "??1PlayerIdAndGroupId@ConnectionGraph@@QAE@XZ",
+          "site_rva": 331995,
+          "kind": 20,
+          "target_va": 268569232
+        },
+        {
+          "symbol": "?Push@?$Queue@UNodeAndParent@?$WeightedGraph@UPlayerIdAndGroupId@ConnectionGraph@@G$0A@@DataStructures@@@DataStructures@@QAEXABUNodeAndParent@?$WeightedGraph@UPlayerIdAndGroupId@ConnectionGraph@@G$0A@@2@@Z",
+          "site_rva": 332009,
+          "kind": 20,
+          "target_va": 268757680
+        },
+        {
+          "symbol": "?Insert@?$List@PAV?$Tree@UPlayerIdAndGroupId@ConnectionGraph@@@DataStructures@@@DataStructures@@QAEXQAV?$Tree@UPlayerIdAndGroupId@ConnectionGraph@@@2@@Z",
+          "site_rva": 332017,
+          "kind": 20,
+          "target_va": 268758064
+        },
+        {
+          "symbol": "?Size@?$Map@UPlayerIdAndGroupId@ConnectionGraph@@G$1??$defaultMapKeyComparison@UPlayerIdAndGroupId@ConnectionGraph@@@DataStructures@@YAHABU12@0@Z@DataStructures@@QBEIXZ",
+          "site_rva": 332025,
+          "kind": 20,
+          "target_va": 268577408
+        },
+        {
+          "symbol": "?Get@?$Map@UPlayerIdAndGroupId@ConnectionGraph@@PAV?$Map@UPlayerIdAndGroupId@ConnectionGraph@@G$1??$defaultMapKeyComparison@UPlayerIdAndGroupId@ConnectionGraph@@@DataStructures@@YAHABU12@0@Z@DataStructures@@$1??$defaultMapKeyComparison@UPlayerIdAndGroupId@ConnectionGraph@@@4@YAHABU12@0@Z@DataStructures@@QAEAAPAV?$Map@UPlayerIdAndGroupId@ConnectionGraph@@G$1??$defaultMapKeyComparison@UPlayerIdAndGroupId@ConnectionGraph@@@DataStructures@@YAHABU12@0@Z@2@ABUPlayerIdAndGroupId@ConnectionGraph@@@Z",
+          "site_rva": 332138,
+          "kind": 20,
+          "target_va": 268576976
+        },
+        {
+          "symbol": "?Size@?$Map@UPlayerIdAndGroupId@ConnectionGraph@@G$1??$defaultMapKeyComparison@UPlayerIdAndGroupId@ConnectionGraph@@@DataStructures@@YAHABU12@0@Z@DataStructures@@QBEIXZ",
+          "site_rva": 332149,
+          "kind": 20,
+          "target_va": 268577408
+        },
+        {
+          "symbol": "?GetKeyAtIndex@?$Map@UPlayerIdAndGroupId@ConnectionGraph@@G$1??$defaultMapKeyComparison@UPlayerIdAndGroupId@ConnectionGraph@@@DataStructures@@YAHABU12@0@Z@DataStructures@@QBE?AUPlayerIdAndGroupId@ConnectionGraph@@I@Z",
+          "site_rva": 332169,
+          "kind": 20,
+          "target_va": 268577360
+        },
+        {
+          "symbol": "??1PlayerIdAndGroupId@ConnectionGraph@@QAE@XZ",
+          "site_rva": 332200,
+          "kind": 20,
+          "target_va": 268569232
+        },
+        {
+          "symbol": "??9PlayerIdAndGroupId@ConnectionGraph@@QBE_NABU01@@Z",
+          "site_rva": 332214,
+          "kind": 20,
+          "target_va": 268569296
+        },
+        {
+          "symbol": "??2@YAPAXI@Z",
+          "site_rva": 332225,
+          "kind": 20,
+          "target_va": 269247098
+        },
+        {
+          "symbol": "??0?$Tree@UPlayerIdAndGroupId@ConnectionGraph@@@DataStructures@@QAE@XZ",
+          "site_rva": 332251,
+          "kind": 20,
+          "target_va": 268760336
+        },
+        {
+          "symbol": "?Push@?$Queue@UNodeAndParent@?$WeightedGraph@UPlayerIdAndGroupId@ConnectionGraph@@G$0A@@DataStructures@@@DataStructures@@QAEXABUNodeAndParent@?$WeightedGraph@UPlayerIdAndGroupId@ConnectionGraph@@G$0A@@2@@Z",
+          "site_rva": 332309,
+          "kind": 20,
+          "target_va": 268757680
+        },
+        {
+          "symbol": "?Insert@?$List@PAV?$Tree@UPlayerIdAndGroupId@ConnectionGraph@@@DataStructures@@@DataStructures@@QAEXQAV?$Tree@UPlayerIdAndGroupId@ConnectionGraph@@@2@@Z",
+          "site_rva": 332318,
+          "kind": 20,
+          "target_va": 268758064
+        },
+        {
+          "symbol": "?Size@?$Map@UPlayerIdAndGroupId@ConnectionGraph@@G$1??$defaultMapKeyComparison@UPlayerIdAndGroupId@ConnectionGraph@@@DataStructures@@YAHABU12@0@Z@DataStructures@@QBEIXZ",
+          "site_rva": 332330,
+          "kind": 20,
+          "target_va": 268577408
+        },
+        {
+          "symbol": "??1PlayerIdAndGroupId@ConnectionGraph@@QAE@XZ",
+          "site_rva": 332360,
+          "kind": 20,
+          "target_va": 268569232
+        },
+        {
+          "symbol": "??1?$Queue@UNodeAndParent@?$WeightedGraph@UPlayerIdAndGroupId@ConnectionGraph@@G$0A@@DataStructures@@@DataStructures@@QAE@XZ",
+          "site_rva": 332377,
+          "kind": 20,
+          "target_va": 268757648
+        },
+        {
+          "symbol": "??1?$WeightedGraph@UPlayerIdAndGroupId@ConnectionGraph@@G$0A@@DataStructures@@QAE@XZ",
+          "site_rva": 332394,
+          "kind": 20,
+          "target_va": 268582624
+        },
+        {
+          "symbol": "??1?$List@UPlayerIdAndGroupId@ConnectionGraph@@@DataStructures@@QAE@XZ",
+          "site_rva": 332411,
+          "kind": 20,
+          "target_va": 268571824
+        },
+        {
+          "symbol": "??1PlayerIdAndGroupId@ConnectionGraph@@QAE@XZ",
+          "site_rva": 332434,
+          "kind": 20,
+          "target_va": 268569232
+        },
+        {
+          "symbol": "__except_list",
+          "site_rva": 332453,
+          "kind": 6,
+          "target_va": 0
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_router_send",
+      "section": 94,
+      "anchor": "??1?$List@UPlayerIdAndGroupId@ConnectionGraph@@@DataStructures@@QAE@XZ",
+      "anchor_offset": 0,
+      "rva": 136368,
+      "size": 45,
+      "kind": "code",
+      "sha256": "eee75fa02d4b57e81f3612d45bd6078621d35104c4b765402aa2ae993740f4eb",
+      "bindings": [
+        {
+          "symbol": "??1PlayerIdAndGroupId@ConnectionGraph@@QAE@XZ",
+          "site_rva": 136389,
+          "kind": 6,
+          "target_va": 268569232
+        },
+        {
+          "symbol": "??_M@YGXPAXIHP6EX0@Z@Z",
+          "site_rva": 136398,
+          "kind": 20,
+          "target_va": 269254767
+        },
+        {
+          "symbol": "??3@YAXPAX@Z",
+          "site_rva": 136404,
+          "kind": 20,
+          "target_va": 269247626
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_router_send",
+      "section": 102,
+      "anchor": "??1?$Tree@UPlayerIdAndGroupId@ConnectionGraph@@@DataStructures@@QAE@XZ",
+      "anchor_offset": 0,
+      "rva": 324912,
+      "size": 76,
+      "kind": "code",
+      "sha256": "763648c0742f2ba546cdd9a8869fdd11a67a25dc48be591937b757a7cd1fd790",
+      "bindings": [
+        {
+          "symbol": "__ehhandler$??1?$Tree@UPlayerIdAndGroupId@ConnectionGraph@@@DataStructures@@QAE@XZ",
+          "site_rva": 324915,
+          "kind": 6,
+          "target_va": 269365480
+        },
+        {
+          "symbol": "__except_list",
+          "site_rva": 324921,
+          "kind": 6,
+          "target_va": 0
+        },
+        {
+          "symbol": "__except_list",
+          "site_rva": 324929,
+          "kind": 6,
+          "target_va": 0
+        },
+        {
+          "symbol": "??1?$List@PAV?$Tree@UPlayerIdAndGroupId@ConnectionGraph@@@DataStructures@@@DataStructures@@QAE@XZ",
+          "site_rva": 324953,
+          "kind": 20,
+          "target_va": 268758032
+        },
+        {
+          "symbol": "??1PlayerIdAndGroupId@ConnectionGraph@@QAE@XZ",
+          "site_rva": 324968,
+          "kind": 20,
+          "target_va": 268569232
+        },
+        {
+          "symbol": "__except_list",
+          "site_rva": 324980,
+          "kind": 6,
+          "target_va": 0
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_router_send",
+      "section": 169,
+      "anchor": "__ehhandler$?Send@Router@@UAE_NPBDIW4PacketPriority@@W4PacketReliability@@DUPlayerID@@@Z",
+      "anchor_offset": 8,
+      "rva": 930624,
+      "size": 18,
+      "kind": "code",
+      "sha256": "f9c3b2f13259f7c254734e9dfdbe18dd4f81b18bde4600da22de7026d6fc2c8e",
+      "bindings": [
+        {
+          "symbol": "??1SystemAddressList@@QAE@XZ",
+          "site_rva": 930628,
+          "kind": 20,
+          "target_va": 268759840
+        },
+        {
+          "symbol": "$T6174",
+          "site_rva": 930633,
+          "kind": 6,
+          "target_va": 269463640
+        },
+        {
+          "symbol": "___CxxFrameHandler",
+          "site_rva": 930638,
+          "kind": 20,
+          "target_va": 269247782
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_router_send",
+      "section": 5,
+      "anchor": "??1?$List@UPlayerID@@@DataStructures@@QAE@XZ",
+      "anchor_offset": 0,
+      "rva": 134160,
+      "size": 17,
+      "kind": "code",
+      "sha256": "3677b09f196c3410cb7763290e5a9ba789af14c29e041ad3904c38c62fc9838f",
+      "bindings": [
+        {
+          "symbol": "??3@YAXPAX@Z",
+          "site_rva": 134171,
+          "kind": 20,
+          "target_va": 269247626
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_router_send",
+      "section": 166,
+      "anchor": "$T6155",
+      "anchor_offset": 40,
+      "rva": 1028108,
+      "size": 68,
+      "kind": "data",
+      "sha256": "169511559426cfcecc4557cf0fbf9121e62b7f5a065df32b6e2813131df55bd5",
+      "bindings": [
+        {
+          "symbol": "$L6136",
+          "site_rva": 1028112,
+          "kind": 6,
+          "target_va": 269366000
+        },
+        {
+          "symbol": "$L6137",
+          "site_rva": 1028120,
+          "kind": 6,
+          "target_va": 269366011
+        },
+        {
+          "symbol": "$L6138",
+          "site_rva": 1028128,
+          "kind": 6,
+          "target_va": 269366022
+        },
+        {
+          "symbol": "$L6139",
+          "site_rva": 1028136,
+          "kind": 6,
+          "target_va": 269366033
+        },
+        {
+          "symbol": "$L6140",
+          "site_rva": 1028144,
+          "kind": 6,
+          "target_va": 269366044
+        },
+        {
+          "symbol": "$T6162",
+          "site_rva": 1028156,
+          "kind": 6,
+          "target_va": 269463564
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_router_send",
+      "section": 41,
+      "anchor": "??0?$List@PAV?$Tree@UPlayerIdAndGroupId@ConnectionGraph@@@DataStructures@@@DataStructures@@QAE@XZ",
+      "anchor_offset": 0,
+      "rva": 322560,
+      "size": 13,
+      "kind": "code",
+      "sha256": "efaddf6f7c64b7d0dd7d70e04563c88df5b21978a063a338954e28cc09d4e5e9",
+      "bindings": []
+    },
+    {
+      "unit": "closure_vendor_router_send",
+      "section": 97,
+      "anchor": "__ehhandler$?Insert@?$List@UPlayerIdAndGroupId@ConnectionGraph@@@DataStructures@@QAEXUPlayerIdAndGroupId@ConnectionGraph@@@Z",
+      "anchor_offset": 19,
+      "rva": 929984,
+      "size": 29,
+      "kind": "code",
+      "sha256": "5d0d793340f2003d477623f05589f51c529bfb9a215319a9afd587cfd147c54e",
+      "bindings": [
+        {
+          "symbol": "??1PlayerIdAndGroupId@ConnectionGraph@@QAE@XZ",
+          "site_rva": 929988,
+          "kind": 20,
+          "target_va": 268569232
+        },
+        {
+          "symbol": "??3@YAXPAX@Z",
+          "site_rva": 929997,
+          "kind": 20,
+          "target_va": 269247626
+        },
+        {
+          "symbol": "$T5441",
+          "site_rva": 930004,
+          "kind": 6,
+          "target_va": 269462956
+        },
+        {
+          "symbol": "___CxxFrameHandler",
+          "site_rva": 930009,
+          "kind": 20,
+          "target_va": 269247782
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_router_send",
+      "section": 161,
+      "anchor": "__ehhandler$?GetSpanningTree@?$WeightedGraph@UPlayerIdAndGroupId@ConnectionGraph@@G$0A@@DataStructures@@QAE_NAAV?$Tree@UPlayerIdAndGroupId@ConnectionGraph@@@2@PAV?$List@UPlayerIdAndGroupId@ConnectionGraph@@@2@UPlayerIdAndGroupId@ConnectionGraph@@G@Z",
+      "anchor_offset": 62,
+      "rva": 930464,
+      "size": 72,
+      "kind": "code",
+      "sha256": "beb0f5ffcdca1826db76066b702beaec51f5637a4a2afbec74d6214e97269f37",
+      "bindings": [
+        {
+          "symbol": "??1PlayerIdAndGroupId@ConnectionGraph@@QAE@XZ",
+          "site_rva": 930468,
+          "kind": 20,
+          "target_va": 268569232
+        },
+        {
+          "symbol": "??1?$List@UPlayerIdAndGroupId@ConnectionGraph@@@DataStructures@@QAE@XZ",
+          "site_rva": 930476,
+          "kind": 20,
+          "target_va": 268571824
+        },
+        {
+          "symbol": "??1?$WeightedGraph@UPlayerIdAndGroupId@ConnectionGraph@@G$0A@@DataStructures@@QAE@XZ",
+          "site_rva": 930484,
+          "kind": 20,
+          "target_va": 268582624
+        },
+        {
+          "symbol": "??1?$Queue@UNodeAndParent@?$WeightedGraph@UPlayerIdAndGroupId@ConnectionGraph@@G$0A@@DataStructures@@@DataStructures@@QAE@XZ",
+          "site_rva": 930492,
+          "kind": 20,
+          "target_va": 268757648
+        },
+        {
+          "symbol": "??1PlayerIdAndGroupId@ConnectionGraph@@QAE@XZ",
+          "site_rva": 930500,
+          "kind": 20,
+          "target_va": 268569232
+        },
+        {
+          "symbol": "??3@YAXPAX@Z",
+          "site_rva": 930509,
+          "kind": 20,
+          "target_va": 269247626
+        },
+        {
+          "symbol": "??3@YAXPAX@Z",
+          "site_rva": 930520,
+          "kind": 20,
+          "target_va": 269247626
+        },
+        {
+          "symbol": "$T6104",
+          "site_rva": 930527,
+          "kind": 6,
+          "target_va": 269463536
+        },
+        {
+          "symbol": "___CxxFrameHandler",
+          "site_rva": 930532,
+          "kind": 20,
+          "target_va": 269247782
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_router_send",
+      "section": 156,
+      "anchor": "?GetShortestPath@?$WeightedGraph@UPlayerIdAndGroupId@ConnectionGraph@@G$0A@@DataStructures@@QAE_NAAV?$List@UPlayerIdAndGroupId@ConnectionGraph@@@2@UPlayerIdAndGroupId@ConnectionGraph@@1G@Z",
+      "anchor_offset": 0,
+      "rva": 330368,
+      "size": 1026,
+      "kind": "code",
+      "sha256": "ac8fee685d9aea29576dc5ac8368bdf124fcf8b980759ce8678f353489b985e8",
+      "bindings": [
+        {
+          "symbol": "__ehhandler$?GetShortestPath@?$WeightedGraph@UPlayerIdAndGroupId@ConnectionGraph@@G$0A@@DataStructures@@QAE_NAAV?$List@UPlayerIdAndGroupId@ConnectionGraph@@@2@UPlayerIdAndGroupId@ConnectionGraph@@1G@Z",
+          "site_rva": 330371,
+          "kind": 6,
+          "target_va": 269365904
+        },
+        {
+          "symbol": "__except_list",
+          "site_rva": 330377,
+          "kind": 6,
+          "target_va": 0
+        },
+        {
+          "symbol": "__except_list",
+          "site_rva": 330385,
+          "kind": 6,
+          "target_va": 0
+        },
+        {
+          "symbol": "?Clear@?$List@UPlayerIdAndGroupId@ConnectionGraph@@@DataStructures@@QAEX_N@Z",
+          "site_rva": 330415,
+          "kind": 20,
+          "target_va": 268572064
+        },
+        {
+          "symbol": "??8PlayerIdAndGroupId@ConnectionGraph@@QBE_NABU01@@Z",
+          "site_rva": 330429,
+          "kind": 20,
+          "target_va": 268569280
+        },
+        {
+          "symbol": "?Insert@?$List@UPlayerIdAndGroupId@ConnectionGraph@@@DataStructures@@QAEXUPlayerIdAndGroupId@ConnectionGraph@@@Z",
+          "site_rva": 330467,
+          "kind": 20,
+          "target_va": 268760064
+        },
+        {
+          "symbol": "?Insert@?$List@UPlayerIdAndGroupId@ConnectionGraph@@@DataStructures@@QAEXUPlayerIdAndGroupId@ConnectionGraph@@@Z",
+          "site_rva": 330501,
+          "kind": 20,
+          "target_va": 268760064
+        },
+        {
+          "symbol": "??9PlayerIdAndGroupId@ConnectionGraph@@QBE_NABU01@@Z",
+          "site_rva": 330526,
+          "kind": 20,
+          "target_va": 268569296
+        },
+        {
+          "symbol": "?ClearDijkstra@?$WeightedGraph@UPlayerIdAndGroupId@ConnectionGraph@@G$0A@@DataStructures@@IAEXXZ",
+          "site_rva": 330537,
+          "kind": 20,
+          "target_va": 268576896
+        },
+        {
+          "symbol": "?GenerateDisjktraMatrix@?$WeightedGraph@UPlayerIdAndGroupId@ConnectionGraph@@G$0A@@DataStructures@@IAEXUPlayerIdAndGroupId@ConnectionGraph@@G@Z",
+          "site_rva": 330576,
+          "kind": 20,
+          "target_va": 268764640
+        },
+        {
+          "symbol": "??0?$Queue@UPlayerIdAndGroupId@ConnectionGraph@@@DataStructures@@QAE@XZ",
+          "site_rva": 330585,
+          "kind": 20,
+          "target_va": 268571088
+        },
+        {
+          "symbol": "?GetIndexFromKey@?$OrderedList@UPlayerIdAndGroupId@ConnectionGraph@@U12@$1??$defaultOrderedListComparison@UPlayerIdAndGroupId@ConnectionGraph@@U12@@DataStructures@@YAHABU12@0@Z@DataStructures@@QBEIABUPlayerIdAndGroupId@ConnectionGraph@@PA_N@Z",
+          "site_rva": 330610,
+          "kind": 20,
+          "target_va": 268758176
+        },
+        {
+          "symbol": "?Size@?$OrderedList@UPlayerIdAndGroupId@ConnectionGraph@@U12@$1??$defaultOrderedListComparison@UPlayerIdAndGroupId@ConnectionGraph@@U12@@DataStructures@@YAHABU12@0@Z@DataStructures@@QBEIXZ",
+          "site_rva": 330619,
+          "kind": 20,
+          "target_va": 268758336
+        },
+        {
+          "symbol": "??1?$Queue@UPlayerIdAndGroupId@ConnectionGraph@@@DataStructures@@QAE@XZ",
+          "site_rva": 330646,
+          "kind": 20,
+          "target_va": 268571216
+        },
+        {
+          "symbol": "??1PlayerIdAndGroupId@ConnectionGraph@@QAE@XZ",
+          "site_rva": 330660,
+          "kind": 20,
+          "target_va": 268569232
+        },
+        {
+          "symbol": "??1PlayerIdAndGroupId@ConnectionGraph@@QAE@XZ",
+          "site_rva": 330677,
+          "kind": 20,
+          "target_va": 268569232
+        },
+        {
+          "symbol": "__except_list",
+          "site_rva": 330690,
+          "kind": 6,
+          "target_va": 0
+        },
+        {
+          "symbol": "??0PlayerIdAndGroupId@ConnectionGraph@@QAE@XZ",
+          "site_rva": 330709,
+          "kind": 20,
+          "target_va": 268569216
+        },
+        {
+          "symbol": "?Size@?$OrderedList@UPlayerIdAndGroupId@ConnectionGraph@@U12@$1??$defaultOrderedListComparison@UPlayerIdAndGroupId@ConnectionGraph@@U12@@DataStructures@@YAHABU12@0@Z@DataStructures@@QBEIXZ",
+          "site_rva": 330721,
+          "kind": 20,
+          "target_va": 268758336
+        },
+        {
+          "symbol": "?Insert@?$List@UPlayerIdAndGroupId@ConnectionGraph@@@DataStructures@@QAEXUPlayerIdAndGroupId@ConnectionGraph@@@Z",
+          "site_rva": 330766,
+          "kind": 20,
+          "target_va": 268760064
+        },
+        {
+          "symbol": "?Insert@?$List@UPlayerIdAndGroupId@ConnectionGraph@@@DataStructures@@QAEXUPlayerIdAndGroupId@ConnectionGraph@@@Z",
+          "site_rva": 330800,
+          "kind": 20,
+          "target_va": 268760064
+        },
+        {
+          "symbol": "??1PlayerIdAndGroupId@ConnectionGraph@@QAE@XZ",
+          "site_rva": 330814,
+          "kind": 20,
+          "target_va": 268569232
+        },
+        {
+          "symbol": "??1?$Queue@UPlayerIdAndGroupId@ConnectionGraph@@@DataStructures@@QAE@XZ",
+          "site_rva": 330828,
+          "kind": 20,
+          "target_va": 268571216
+        },
+        {
+          "symbol": "??1PlayerIdAndGroupId@ConnectionGraph@@QAE@XZ",
+          "site_rva": 330842,
+          "kind": 20,
+          "target_va": 268569232
+        },
+        {
+          "symbol": "??1PlayerIdAndGroupId@ConnectionGraph@@QAE@XZ",
+          "site_rva": 330859,
+          "kind": 20,
+          "target_va": 268569232
+        },
+        {
+          "symbol": "__except_list",
+          "site_rva": 330875,
+          "kind": 6,
+          "target_va": 0
+        },
+        {
+          "symbol": "?Size@?$Map@UPlayerIdAndGroupId@ConnectionGraph@@PAV?$Map@UPlayerIdAndGroupId@ConnectionGraph@@G$1??$defaultMapKeyComparison@UPlayerIdAndGroupId@ConnectionGraph@@@DataStructures@@YAHABU12@0@Z@DataStructures@@$1??$defaultMapKeyComparison@UPlayerIdAndGroupId@ConnectionGraph@@@4@YAHABU12@0@Z@DataStructures@@QBEIXZ",
+          "site_rva": 330889,
+          "kind": 20,
+          "target_va": 268577184
+        },
+        {
+          "symbol": "?PushAtHead@?$Queue@UPlayerIdAndGroupId@ConnectionGraph@@@DataStructures@@QAEXABUPlayerIdAndGroupId@ConnectionGraph@@I@Z",
+          "site_rva": 330950,
+          "kind": 20,
+          "target_va": 268758352
+        },
+        {
+          "symbol": "?Size@?$Map@UPlayerIdAndGroupId@ConnectionGraph@@PAV?$Map@UPlayerIdAndGroupId@ConnectionGraph@@G$1??$defaultMapKeyComparison@UPlayerIdAndGroupId@ConnectionGraph@@@DataStructures@@YAHABU12@0@Z@DataStructures@@$1??$defaultMapKeyComparison@UPlayerIdAndGroupId@ConnectionGraph@@@4@YAHABU12@0@Z@DataStructures@@QBEIXZ",
+          "site_rva": 330963,
+          "kind": 20,
+          "target_va": 268577184
+        },
+        {
+          "symbol": "?Size@?$Map@UPlayerIdAndGroupId@ConnectionGraph@@PAV?$Map@UPlayerIdAndGroupId@ConnectionGraph@@G$1??$defaultMapKeyComparison@UPlayerIdAndGroupId@ConnectionGraph@@@DataStructures@@YAHABU12@0@Z@DataStructures@@$1??$defaultMapKeyComparison@UPlayerIdAndGroupId@ConnectionGraph@@@4@YAHABU12@0@Z@DataStructures@@QBEIXZ",
+          "site_rva": 330991,
+          "kind": 20,
+          "target_va": 268577184
+        },
+        {
+          "symbol": "?PushAtHead@?$Queue@UPlayerIdAndGroupId@ConnectionGraph@@@DataStructures@@QAEXABUPlayerIdAndGroupId@ConnectionGraph@@I@Z",
+          "site_rva": 331056,
+          "kind": 20,
+          "target_va": 268758352
+        },
+        {
+          "symbol": "?GetIndexFromKey@?$OrderedList@UPlayerIdAndGroupId@ConnectionGraph@@U12@$1??$defaultOrderedListComparison@UPlayerIdAndGroupId@ConnectionGraph@@U12@@DataStructures@@YAHABU12@0@Z@DataStructures@@QBEIABUPlayerIdAndGroupId@ConnectionGraph@@PA_N@Z",
+          "site_rva": 331082,
+          "kind": 20,
+          "target_va": 268758176
+        },
+        {
+          "symbol": "?Size@?$Map@UPlayerIdAndGroupId@ConnectionGraph@@PAV?$Map@UPlayerIdAndGroupId@ConnectionGraph@@G$1??$defaultMapKeyComparison@UPlayerIdAndGroupId@ConnectionGraph@@@DataStructures@@YAHABU12@0@Z@DataStructures@@$1??$defaultMapKeyComparison@UPlayerIdAndGroupId@ConnectionGraph@@@4@YAHABU12@0@Z@DataStructures@@QBEIXZ",
+          "site_rva": 331091,
+          "kind": 20,
+          "target_va": 268577184
+        },
+        {
+          "symbol": "?Insert@?$List@UPlayerIdAndGroupId@ConnectionGraph@@@DataStructures@@QAEXUPlayerIdAndGroupId@ConnectionGraph@@@Z",
+          "site_rva": 331146,
+          "kind": 20,
+          "target_va": 268760064
+        },
+        {
+          "symbol": "?Pop@?$Queue@UPlayerIdAndGroupId@ConnectionGraph@@@DataStructures@@QAE?AUPlayerIdAndGroupId@ConnectionGraph@@XZ",
+          "site_rva": 331196,
+          "kind": 20,
+          "target_va": 268571696
+        },
+        {
+          "symbol": "?Insert@?$List@UPlayerIdAndGroupId@ConnectionGraph@@@DataStructures@@QAEXUPlayerIdAndGroupId@ConnectionGraph@@@Z",
+          "site_rva": 331230,
+          "kind": 20,
+          "target_va": 268760064
+        },
+        {
+          "symbol": "??1PlayerIdAndGroupId@ConnectionGraph@@QAE@XZ",
+          "site_rva": 331244,
+          "kind": 20,
+          "target_va": 268569232
+        },
+        {
+          "symbol": "?Insert@?$List@UPlayerIdAndGroupId@ConnectionGraph@@@DataStructures@@QAEXUPlayerIdAndGroupId@ConnectionGraph@@@Z",
+          "site_rva": 331284,
+          "kind": 20,
+          "target_va": 268760064
+        },
+        {
+          "symbol": "?Pop@?$Queue@UPlayerIdAndGroupId@ConnectionGraph@@@DataStructures@@QAE?AUPlayerIdAndGroupId@ConnectionGraph@@XZ",
+          "site_rva": 331340,
+          "kind": 20,
+          "target_va": 268571696
+        },
+        {
+          "symbol": "?Insert@?$List@UPlayerIdAndGroupId@ConnectionGraph@@@DataStructures@@QAEXUPlayerIdAndGroupId@ConnectionGraph@@@Z",
+          "site_rva": 331374,
+          "kind": 20,
+          "target_va": 268760064
+        },
+        {
+          "symbol": "??1PlayerIdAndGroupId@ConnectionGraph@@QAE@XZ",
+          "site_rva": 331388,
+          "kind": 20,
+          "target_va": 268569232
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_router_send",
+      "section": 31,
+      "anchor": "??0?$Queue@UNodeAndParent@?$WeightedGraph@UPlayerIdAndGroupId@ConnectionGraph@@G$0A@@DataStructures@@@DataStructures@@QAE@XZ",
+      "anchor_offset": 0,
+      "rva": 322144,
+      "size": 37,
+      "kind": "code",
+      "sha256": "6f62c36d68e8590ffd9cde7e60d60b65dd858d637f65de1a713f595c5ddb3c83",
+      "bindings": [
+        {
+          "symbol": "??2@YAPAXI@Z",
+          "site_rva": 322160,
+          "kind": 20,
+          "target_va": 269247098
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_router_send",
+      "section": 132,
+      "anchor": "?DeleteDecendants@?$Tree@UPlayerIdAndGroupId@ConnectionGraph@@@DataStructures@@QAEXXZ",
+      "anchor_offset": 0,
+      "rva": 326464,
+      "size": 133,
+      "kind": "code",
+      "sha256": "98b6c6f6bb7a27a552217ef4b3ab26d7d10e284351d2fdf778495dfed4b84429",
+      "bindings": [
+        {
+          "symbol": "__ehhandler$?DeleteDecendants@?$Tree@UPlayerIdAndGroupId@ConnectionGraph@@@DataStructures@@QAEXXZ",
+          "site_rva": 326467,
+          "kind": 6,
+          "target_va": 269365576
+        },
+        {
+          "symbol": "__except_list",
+          "site_rva": 326473,
+          "kind": 6,
+          "target_va": 0
+        },
+        {
+          "symbol": "__except_list",
+          "site_rva": 326481,
+          "kind": 6,
+          "target_va": 0
+        },
+        {
+          "symbol": "??0?$List@PAV?$Tree@UPlayerIdAndGroupId@ConnectionGraph@@@DataStructures@@@DataStructures@@QAE@XZ",
+          "site_rva": 326498,
+          "kind": 20,
+          "target_va": 268758016
+        },
+        {
+          "symbol": "?LevelOrderTraversal@?$Tree@UPlayerIdAndGroupId@ConnectionGraph@@@DataStructures@@QAEXAAV?$List@PAV?$Tree@UPlayerIdAndGroupId@ConnectionGraph@@@DataStructures@@@2@@Z",
+          "site_rva": 326516,
+          "kind": 20,
+          "target_va": 268760480
+        },
+        {
+          "symbol": "??1?$Tree@UPlayerIdAndGroupId@ConnectionGraph@@@DataStructures@@QAE@XZ",
+          "site_rva": 326543,
+          "kind": 20,
+          "target_va": 268760368
+        },
+        {
+          "symbol": "??3@YAXPAX@Z",
+          "site_rva": 326549,
+          "kind": 20,
+          "target_va": 269247626
+        },
+        {
+          "symbol": "??1?$List@PAV?$Tree@UPlayerIdAndGroupId@ConnectionGraph@@@DataStructures@@@DataStructures@@QAE@XZ",
+          "site_rva": 326575,
+          "kind": 20,
+          "target_va": 268758032
+        },
+        {
+          "symbol": "__except_list",
+          "site_rva": 326589,
+          "kind": 6,
+          "target_va": 0
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_router_send",
+      "section": 33,
+      "anchor": "??1?$Queue@UNodeAndParent@?$WeightedGraph@UPlayerIdAndGroupId@ConnectionGraph@@G$0A@@DataStructures@@@DataStructures@@QAE@XZ",
+      "anchor_offset": 0,
+      "rva": 322192,
+      "size": 17,
+      "kind": "code",
+      "sha256": "5b2b5e5924576fefb1655e3650659a7946ac08cbf8556f06309d8ac827ec4372",
+      "bindings": [
+        {
+          "symbol": "??3@YAXPAX@Z",
+          "site_rva": 322203,
+          "kind": 20,
+          "target_va": 269247626
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_router_send",
+      "section": 35,
+      "anchor": "?Push@?$Queue@UNodeAndParent@?$WeightedGraph@UPlayerIdAndGroupId@ConnectionGraph@@G$0A@@DataStructures@@@DataStructures@@QAEXABUNodeAndParent@?$WeightedGraph@UPlayerIdAndGroupId@ConnectionGraph@@G$0A@@2@@Z",
+      "anchor_offset": 0,
+      "rva": 322224,
+      "size": 214,
+      "kind": "code",
+      "sha256": "73a3f82275ef07352d47e29d5f87357d9b4d04b73303c448b52ca95eb13a0b09",
+      "bindings": [
+        {
+          "symbol": "??2@YAPAXI@Z",
+          "site_rva": 322243,
+          "kind": 20,
+          "target_va": 269247098
+        },
+        {
+          "symbol": "??2@YAPAXI@Z",
+          "site_rva": 322342,
+          "kind": 20,
+          "target_va": 269247098
+        },
+        {
+          "symbol": "??3@YAXPAX@Z",
+          "site_rva": 322423,
+          "kind": 20,
+          "target_va": 269247626
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_router_send",
+      "section": 45,
+      "anchor": "?Insert@?$List@PAV?$Tree@UPlayerIdAndGroupId@ConnectionGraph@@@DataStructures@@@DataStructures@@QAEXQAV?$Tree@UPlayerIdAndGroupId@ConnectionGraph@@@2@@Z",
+      "anchor_offset": 0,
+      "rva": 322608,
+      "size": 105,
+      "kind": "code",
+      "sha256": "19936416783de2d600a13ea051bea99f6d695ce9f946a15b0e41ad1bd62d92c5",
+      "bindings": [
+        {
+          "symbol": "??2@YAPAXI@Z",
+          "site_rva": 322648,
+          "kind": 20,
+          "target_va": 269247098
+        },
+        {
+          "symbol": "??3@YAXPAX@Z",
+          "site_rva": 322682,
+          "kind": 20,
+          "target_va": 269247626
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_router_send",
+      "section": 103,
+      "anchor": "__ehhandler$??1?$Tree@UPlayerIdAndGroupId@ConnectionGraph@@@DataStructures@@QAE@XZ",
+      "anchor_offset": 8,
+      "rva": 930016,
+      "size": 18,
+      "kind": "code",
+      "sha256": "0a27e59b4e565adb8e68c9c2c2aea07635876f8564951df4d0e11c60afccf52a",
+      "bindings": [
+        {
+          "symbol": "??1PlayerIdAndGroupId@ConnectionGraph@@QAE@XZ",
+          "site_rva": 930020,
+          "kind": 20,
+          "target_va": 268569232
+        },
+        {
+          "symbol": "$T5455",
+          "site_rva": 930025,
+          "kind": 6,
+          "target_va": 269462992
+        },
+        {
+          "symbol": "___CxxFrameHandler",
+          "site_rva": 930030,
+          "kind": 20,
+          "target_va": 269247782
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_router_send",
+      "section": 43,
+      "anchor": "??1?$List@PAV?$Tree@UPlayerIdAndGroupId@ConnectionGraph@@@DataStructures@@@DataStructures@@QAE@XZ",
+      "anchor_offset": 0,
+      "rva": 322576,
+      "size": 17,
+      "kind": "code",
+      "sha256": "fc14e1e982c6b99b15ee36870f5f1884b57ddb4542fecb04a8e940ff358c886f",
+      "bindings": [
+        {
+          "symbol": "??3@YAXPAX@Z",
+          "site_rva": 322587,
+          "kind": 20,
+          "target_va": 269247626
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_router_send",
+      "section": 92,
+      "anchor": "??1SystemAddressList@@QAE@XZ",
+      "anchor_offset": 0,
+      "rva": 324384,
+      "size": 5,
+      "kind": "code",
+      "sha256": "934edd25a885a9830a1b4eb961b5f8cc247b158a6a9f9ad057afa3b3d928c80f",
+      "bindings": [
+        {
+          "symbol": "??1?$List@UPlayerID@@@DataStructures@@QAE@XZ",
+          "site_rva": 324385,
+          "kind": 20,
+          "target_va": 268569616
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_router_send",
+      "section": 170,
+      "anchor": "$T6174",
+      "anchor_offset": 8,
+      "rva": 1028176,
+      "size": 36,
+      "kind": "data",
+      "sha256": "892b4b73eabe24428591cd5c310f4391d347ba30dedbbed3760a8d8c846ecfcc",
+      "bindings": [
+        {
+          "symbol": "$L6168",
+          "site_rva": 1028180,
+          "kind": 6,
+          "target_va": 269366080
+        },
+        {
+          "symbol": "$T6176",
+          "site_rva": 1028192,
+          "kind": 6,
+          "target_va": 269463632
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_router_send",
+      "section": 98,
+      "anchor": "$T5441",
+      "anchor_offset": 16,
+      "rva": 1027484,
+      "size": 44,
+      "kind": "data",
+      "sha256": "00270c6777a0f9bd0513c7b1db016afee11038219415f130bc84ff1f5b461c43",
+      "bindings": [
+        {
+          "symbol": "$L5422",
+          "site_rva": 1027488,
+          "kind": 6,
+          "target_va": 269365440
+        },
+        {
+          "symbol": "$L5423",
+          "site_rva": 1027496,
+          "kind": 6,
+          "target_va": 269365448
+        },
+        {
+          "symbol": "$T5443",
+          "site_rva": 1027508,
+          "kind": 6,
+          "target_va": 269462940
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_router_send",
+      "section": 162,
+      "anchor": "$T6104",
+      "anchor_offset": 56,
+      "rva": 1028024,
+      "size": 84,
+      "kind": "data",
+      "sha256": "72f815a814f782b886ed3d616ccd41602b5d8077d17867974f3248c0080e2f10",
+      "bindings": [
+        {
+          "symbol": "$L6025",
+          "site_rva": 1028028,
+          "kind": 6,
+          "target_va": 269365920
+        },
+        {
+          "symbol": "$L6026",
+          "site_rva": 1028036,
+          "kind": 6,
+          "target_va": 269365928
+        },
+        {
+          "symbol": "$L6027",
+          "site_rva": 1028044,
+          "kind": 6,
+          "target_va": 269365936
+        },
+        {
+          "symbol": "$L6028",
+          "site_rva": 1028052,
+          "kind": 6,
+          "target_va": 269365944
+        },
+        {
+          "symbol": "$L6029",
+          "site_rva": 1028060,
+          "kind": 6,
+          "target_va": 269365952
+        },
+        {
+          "symbol": "$L6030",
+          "site_rva": 1028068,
+          "kind": 6,
+          "target_va": 269365960
+        },
+        {
+          "symbol": "$L6033",
+          "site_rva": 1028076,
+          "kind": 6,
+          "target_va": 269365971
+        },
+        {
+          "symbol": "$T6123",
+          "site_rva": 1028088,
+          "kind": 6,
+          "target_va": 269463480
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_router_send",
+      "section": 157,
+      "anchor": "__ehhandler$?GetShortestPath@?$WeightedGraph@UPlayerIdAndGroupId@ConnectionGraph@@G$0A@@DataStructures@@QAE_NAAV?$List@UPlayerIdAndGroupId@ConnectionGraph@@@2@UPlayerIdAndGroupId@ConnectionGraph@@1G@Z",
+      "anchor_offset": 48,
+      "rva": 930400,
+      "size": 58,
+      "kind": "code",
+      "sha256": "236a6ff122667735b19bfe0847525fb42baa5c28fef565cb75fa908a527c2033",
+      "bindings": [
+        {
+          "symbol": "??1PlayerIdAndGroupId@ConnectionGraph@@QAE@XZ",
+          "site_rva": 930404,
+          "kind": 20,
+          "target_va": 268569232
+        },
+        {
+          "symbol": "??1PlayerIdAndGroupId@ConnectionGraph@@QAE@XZ",
+          "site_rva": 930412,
+          "kind": 20,
+          "target_va": 268569232
+        },
+        {
+          "symbol": "??1?$Queue@UPlayerIdAndGroupId@ConnectionGraph@@@DataStructures@@QAE@XZ",
+          "site_rva": 930420,
+          "kind": 20,
+          "target_va": 268571216
+        },
+        {
+          "symbol": "??1PlayerIdAndGroupId@ConnectionGraph@@QAE@XZ",
+          "site_rva": 930428,
+          "kind": 20,
+          "target_va": 268569232
+        },
+        {
+          "symbol": "??1PlayerIdAndGroupId@ConnectionGraph@@QAE@XZ",
+          "site_rva": 930436,
+          "kind": 20,
+          "target_va": 268569232
+        },
+        {
+          "symbol": "??1PlayerIdAndGroupId@ConnectionGraph@@QAE@XZ",
+          "site_rva": 930444,
+          "kind": 20,
+          "target_va": 268569232
+        },
+        {
+          "symbol": "$T5995",
+          "site_rva": 930449,
+          "kind": 6,
+          "target_va": 269463452
+        },
+        {
+          "symbol": "___CxxFrameHandler",
+          "site_rva": 930454,
+          "kind": 20,
+          "target_va": 269247782
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_router_send",
+      "section": 25,
+      "anchor": "?Clear@?$List@UPlayerIdAndGroupId@ConnectionGraph@@@DataStructures@@QAEX_N@Z",
+      "anchor_offset": 0,
+      "rva": 136608,
+      "size": 86,
+      "kind": "code",
+      "sha256": "edecfce0f4c8ad0bd87f7cd7f14a1fd99df7ac81480dc83d807fcbba3b88c461",
+      "bindings": [
+        {
+          "symbol": "??1PlayerIdAndGroupId@ConnectionGraph@@QAE@XZ",
+          "site_rva": 136647,
+          "kind": 6,
+          "target_va": 268569232
+        },
+        {
+          "symbol": "??_M@YGXPAXIHP6EX0@Z@Z",
+          "site_rva": 136656,
+          "kind": 20,
+          "target_va": 269254767
+        },
+        {
+          "symbol": "??3@YAXPAX@Z",
+          "site_rva": 136662,
+          "kind": 20,
+          "target_va": 269247626
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_router_send",
+      "section": 152,
+      "anchor": "?GenerateDisjktraMatrix@?$WeightedGraph@UPlayerIdAndGroupId@ConnectionGraph@@G$0A@@DataStructures@@IAEXUPlayerIdAndGroupId@ConnectionGraph@@G@Z",
+      "anchor_offset": 0,
+      "rva": 329184,
+      "size": 1170,
+      "kind": "code",
+      "sha256": "4a8178735490057528dc353b293b667b6b138989f666a57fe3a6ba3a4c279dcb",
+      "bindings": [
+        {
+          "symbol": "__ehhandler$?GenerateDisjktraMatrix@?$WeightedGraph@UPlayerIdAndGroupId@ConnectionGraph@@G$0A@@DataStructures@@IAEXUPlayerIdAndGroupId@ConnectionGraph@@G@Z",
+          "site_rva": 329187,
+          "kind": 6,
+          "target_va": 269365835
+        },
+        {
+          "symbol": "__except_list",
+          "site_rva": 329193,
+          "kind": 6,
+          "target_va": 0
+        },
+        {
+          "symbol": "__except_list",
+          "site_rva": 329201,
+          "kind": 6,
+          "target_va": 0
+        },
+        {
+          "symbol": "?Size@?$Map@UPlayerIdAndGroupId@ConnectionGraph@@PAV?$Map@UPlayerIdAndGroupId@ConnectionGraph@@G$1??$defaultMapKeyComparison@UPlayerIdAndGroupId@ConnectionGraph@@@DataStructures@@YAHABU12@0@Z@DataStructures@@$1??$defaultMapKeyComparison@UPlayerIdAndGroupId@ConnectionGraph@@@4@YAHABU12@0@Z@DataStructures@@QBEIXZ",
+          "site_rva": 329226,
+          "kind": 20,
+          "target_va": 268577184
+        },
+        {
+          "symbol": "?Size@?$Map@UPlayerIdAndGroupId@ConnectionGraph@@PAV?$Map@UPlayerIdAndGroupId@ConnectionGraph@@G$1??$defaultMapKeyComparison@UPlayerIdAndGroupId@ConnectionGraph@@@DataStructures@@YAHABU12@0@Z@DataStructures@@$1??$defaultMapKeyComparison@UPlayerIdAndGroupId@ConnectionGraph@@@4@YAHABU12@0@Z@DataStructures@@QBEIXZ",
+          "site_rva": 329235,
+          "kind": 20,
+          "target_va": 268577184
+        },
+        {
+          "symbol": "??2@YAPAXI@Z",
+          "site_rva": 329246,
+          "kind": 20,
+          "target_va": 269247098
+        },
+        {
+          "symbol": "?Size@?$Map@UPlayerIdAndGroupId@ConnectionGraph@@PAV?$Map@UPlayerIdAndGroupId@ConnectionGraph@@G$1??$defaultMapKeyComparison@UPlayerIdAndGroupId@ConnectionGraph@@@DataStructures@@YAHABU12@0@Z@DataStructures@@$1??$defaultMapKeyComparison@UPlayerIdAndGroupId@ConnectionGraph@@@4@YAHABU12@0@Z@DataStructures@@QBEIXZ",
+          "site_rva": 329259,
+          "kind": 20,
+          "target_va": 268577184
+        },
+        {
+          "symbol": "??2@YAPAXI@Z",
+          "site_rva": 329273,
+          "kind": 20,
+          "target_va": 269247098
+        },
+        {
+          "symbol": "??1PlayerIdAndGroupId@ConnectionGraph@@QAE@XZ",
+          "site_rva": 329297,
+          "kind": 6,
+          "target_va": 268569232
+        },
+        {
+          "symbol": "??0PlayerIdAndGroupId@ConnectionGraph@@QAE@XZ",
+          "site_rva": 329302,
+          "kind": 6,
+          "target_va": 268569216
+        },
+        {
+          "symbol": "??_L@YGXPAXIHP6EX0@Z1@Z",
+          "site_rva": 329316,
+          "kind": 20,
+          "target_va": 269254863
+        },
+        {
+          "symbol": "??0PlayerIdAndGroupId@ConnectionGraph@@QAE@XZ",
+          "site_rva": 329340,
+          "kind": 20,
+          "target_va": 268569216
+        },
+        {
+          "symbol": "??0PlayerIdAndGroupId@ConnectionGraph@@QAE@XZ",
+          "site_rva": 329357,
+          "kind": 20,
+          "target_va": 268569216
+        },
+        {
+          "symbol": "??0?$Heap@GUPlayerIdAndGroupId@ConnectionGraph@@$0A@@DataStructures@@QAE@XZ",
+          "site_rva": 329366,
+          "kind": 20,
+          "target_va": 268762128
+        },
+        {
+          "symbol": "??0?$Map@UPlayerIdAndGroupId@ConnectionGraph@@G$1??$defaultMapKeyComparison@UPlayerIdAndGroupId@ConnectionGraph@@@DataStructures@@YAHABU12@0@Z@DataStructures@@QAE@XZ",
+          "site_rva": 329383,
+          "kind": 20,
+          "target_va": 268578768
+        },
+        {
+          "symbol": "?Size@?$Map@UPlayerIdAndGroupId@ConnectionGraph@@PAV?$Map@UPlayerIdAndGroupId@ConnectionGraph@@G$1??$defaultMapKeyComparison@UPlayerIdAndGroupId@ConnectionGraph@@@DataStructures@@YAHABU12@0@Z@DataStructures@@$1??$defaultMapKeyComparison@UPlayerIdAndGroupId@ConnectionGraph@@@4@YAHABU12@0@Z@DataStructures@@QBEIXZ",
+          "site_rva": 329400,
+          "kind": 20,
+          "target_va": 268577184
+        },
+        {
+          "symbol": "?GetKeyAtIndex@?$Map@UPlayerIdAndGroupId@ConnectionGraph@@PAV?$Map@UPlayerIdAndGroupId@ConnectionGraph@@G$1??$defaultMapKeyComparison@UPlayerIdAndGroupId@ConnectionGraph@@@DataStructures@@YAHABU12@0@Z@DataStructures@@$1??$defaultMapKeyComparison@UPlayerIdAndGroupId@ConnectionGraph@@@4@YAHABU12@0@Z@DataStructures@@QBE?AUPlayerIdAndGroupId@ConnectionGraph@@I@Z",
+          "site_rva": 329420,
+          "kind": 20,
+          "target_va": 268577136
+        },
+        {
+          "symbol": "?GetKeyAtIndex@?$Map@UPlayerIdAndGroupId@ConnectionGraph@@PAV?$Map@UPlayerIdAndGroupId@ConnectionGraph@@G$1??$defaultMapKeyComparison@UPlayerIdAndGroupId@ConnectionGraph@@@DataStructures@@YAHABU12@0@Z@DataStructures@@$1??$defaultMapKeyComparison@UPlayerIdAndGroupId@ConnectionGraph@@@4@YAHABU12@0@Z@DataStructures@@QBE?AUPlayerIdAndGroupId@ConnectionGraph@@I@Z",
+          "site_rva": 329435,
+          "kind": 20,
+          "target_va": 268577136
+        },
+        {
+          "symbol": "?Insert@?$OrderedList@UPlayerIdAndGroupId@ConnectionGraph@@U12@$1??$defaultOrderedListComparison@UPlayerIdAndGroupId@ConnectionGraph@@U12@@DataStructures@@YAHABU12@0@Z@DataStructures@@QAEIABUPlayerIdAndGroupId@ConnectionGraph@@0@Z",
+          "site_rva": 329452,
+          "kind": 20,
+          "target_va": 268760720
+        },
+        {
+          "symbol": "??1PlayerIdAndGroupId@ConnectionGraph@@QAE@XZ",
+          "site_rva": 329469,
+          "kind": 20,
+          "target_va": 268569232
+        },
+        {
+          "symbol": "??1PlayerIdAndGroupId@ConnectionGraph@@QAE@XZ",
+          "site_rva": 329486,
+          "kind": 20,
+          "target_va": 268569232
+        },
+        {
+          "symbol": "?Size@?$Map@UPlayerIdAndGroupId@ConnectionGraph@@PAV?$Map@UPlayerIdAndGroupId@ConnectionGraph@@G$1??$defaultMapKeyComparison@UPlayerIdAndGroupId@ConnectionGraph@@@DataStructures@@YAHABU12@0@Z@DataStructures@@$1??$defaultMapKeyComparison@UPlayerIdAndGroupId@ConnectionGraph@@@4@YAHABU12@0@Z@DataStructures@@QBEIXZ",
+          "site_rva": 329494,
+          "kind": 20,
+          "target_va": 268577184
+        },
+        {
+          "symbol": "?Size@?$Map@UPlayerIdAndGroupId@ConnectionGraph@@PAV?$Map@UPlayerIdAndGroupId@ConnectionGraph@@G$1??$defaultMapKeyComparison@UPlayerIdAndGroupId@ConnectionGraph@@@DataStructures@@YAHABU12@0@Z@DataStructures@@$1??$defaultMapKeyComparison@UPlayerIdAndGroupId@ConnectionGraph@@@4@YAHABU12@0@Z@DataStructures@@QBEIXZ",
+          "site_rva": 329507,
+          "kind": 20,
+          "target_va": 268577184
+        },
+        {
+          "symbol": "?Size@?$Map@UPlayerIdAndGroupId@ConnectionGraph@@PAV?$Map@UPlayerIdAndGroupId@ConnectionGraph@@G$1??$defaultMapKeyComparison@UPlayerIdAndGroupId@ConnectionGraph@@@DataStructures@@YAHABU12@0@Z@DataStructures@@$1??$defaultMapKeyComparison@UPlayerIdAndGroupId@ConnectionGraph@@@4@YAHABU12@0@Z@DataStructures@@QBEIXZ",
+          "site_rva": 329516,
+          "kind": 20,
+          "target_va": 268577184
+        },
+        {
+          "symbol": "?Size@?$Map@UPlayerIdAndGroupId@ConnectionGraph@@PAV?$Map@UPlayerIdAndGroupId@ConnectionGraph@@G$1??$defaultMapKeyComparison@UPlayerIdAndGroupId@ConnectionGraph@@@DataStructures@@YAHABU12@0@Z@DataStructures@@$1??$defaultMapKeyComparison@UPlayerIdAndGroupId@ConnectionGraph@@@4@YAHABU12@0@Z@DataStructures@@QBEIXZ",
+          "site_rva": 329547,
+          "kind": 20,
+          "target_va": 268577184
+        },
+        {
+          "symbol": "?Size@?$Map@UPlayerIdAndGroupId@ConnectionGraph@@PAV?$Map@UPlayerIdAndGroupId@ConnectionGraph@@G$1??$defaultMapKeyComparison@UPlayerIdAndGroupId@ConnectionGraph@@@DataStructures@@YAHABU12@0@Z@DataStructures@@$1??$defaultMapKeyComparison@UPlayerIdAndGroupId@ConnectionGraph@@@4@YAHABU12@0@Z@DataStructures@@QBEIXZ",
+          "site_rva": 329556,
+          "kind": 20,
+          "target_va": 268577184
+        },
+        {
+          "symbol": "?GetIndexAtKey@?$Map@UPlayerIdAndGroupId@ConnectionGraph@@PAV?$Map@UPlayerIdAndGroupId@ConnectionGraph@@G$1??$defaultMapKeyComparison@UPlayerIdAndGroupId@ConnectionGraph@@@DataStructures@@YAHABU12@0@Z@DataStructures@@$1??$defaultMapKeyComparison@UPlayerIdAndGroupId@ConnectionGraph@@@4@YAHABU12@0@Z@DataStructures@@QAEIABUPlayerIdAndGroupId@ConnectionGraph@@@Z",
+          "site_rva": 329636,
+          "kind": 20,
+          "target_va": 268762064
+        },
+        {
+          "symbol": "?Size@?$Map@UPlayerIdAndGroupId@ConnectionGraph@@PAV?$Map@UPlayerIdAndGroupId@ConnectionGraph@@G$1??$defaultMapKeyComparison@UPlayerIdAndGroupId@ConnectionGraph@@@DataStructures@@YAHABU12@0@Z@DataStructures@@$1??$defaultMapKeyComparison@UPlayerIdAndGroupId@ConnectionGraph@@@4@YAHABU12@0@Z@DataStructures@@QBEIXZ",
+          "site_rva": 329647,
+          "kind": 20,
+          "target_va": 268577184
+        },
+        {
+          "symbol": "?Size@?$Map@UPlayerIdAndGroupId@ConnectionGraph@@PAV?$Map@UPlayerIdAndGroupId@ConnectionGraph@@G$1??$defaultMapKeyComparison@UPlayerIdAndGroupId@ConnectionGraph@@@DataStructures@@YAHABU12@0@Z@DataStructures@@$1??$defaultMapKeyComparison@UPlayerIdAndGroupId@ConnectionGraph@@@4@YAHABU12@0@Z@DataStructures@@QBEIXZ",
+          "site_rva": 329658,
+          "kind": 20,
+          "target_va": 268577184
+        },
+        {
+          "symbol": "?Size@?$Map@UPlayerIdAndGroupId@ConnectionGraph@@PAV?$Map@UPlayerIdAndGroupId@ConnectionGraph@@G$1??$defaultMapKeyComparison@UPlayerIdAndGroupId@ConnectionGraph@@@DataStructures@@YAHABU12@0@Z@DataStructures@@$1??$defaultMapKeyComparison@UPlayerIdAndGroupId@ConnectionGraph@@@4@YAHABU12@0@Z@DataStructures@@QBEIXZ",
+          "site_rva": 329678,
+          "kind": 20,
+          "target_va": 268577184
+        },
+        {
+          "symbol": "?Size@?$Map@UPlayerIdAndGroupId@ConnectionGraph@@PAV?$Map@UPlayerIdAndGroupId@ConnectionGraph@@G$1??$defaultMapKeyComparison@UPlayerIdAndGroupId@ConnectionGraph@@@DataStructures@@YAHABU12@0@Z@DataStructures@@$1??$defaultMapKeyComparison@UPlayerIdAndGroupId@ConnectionGraph@@@4@YAHABU12@0@Z@DataStructures@@QBEIXZ",
+          "site_rva": 329689,
+          "kind": 20,
+          "target_va": 268577184
+        },
+        {
+          "symbol": "?Get@?$Map@UPlayerIdAndGroupId@ConnectionGraph@@PAV?$Map@UPlayerIdAndGroupId@ConnectionGraph@@G$1??$defaultMapKeyComparison@UPlayerIdAndGroupId@ConnectionGraph@@@DataStructures@@YAHABU12@0@Z@DataStructures@@$1??$defaultMapKeyComparison@UPlayerIdAndGroupId@ConnectionGraph@@@4@YAHABU12@0@Z@DataStructures@@QAEAAPAV?$Map@UPlayerIdAndGroupId@ConnectionGraph@@G$1??$defaultMapKeyComparison@UPlayerIdAndGroupId@ConnectionGraph@@@DataStructures@@YAHABU12@0@Z@2@ABUPlayerIdAndGroupId@ConnectionGraph@@@Z",
+          "site_rva": 329712,
+          "kind": 20,
+          "target_va": 268576976
+        },
+        {
+          "symbol": "?Size@?$Map@UPlayerIdAndGroupId@ConnectionGraph@@G$1??$defaultMapKeyComparison@UPlayerIdAndGroupId@ConnectionGraph@@@DataStructures@@YAHABU12@0@Z@DataStructures@@QBEIXZ",
+          "site_rva": 329731,
+          "kind": 20,
+          "target_va": 268577408
+        },
+        {
+          "symbol": "??A?$Map@UPlayerIdAndGroupId@ConnectionGraph@@G$1??$defaultMapKeyComparison@UPlayerIdAndGroupId@ConnectionGraph@@@DataStructures@@YAHABU12@0@Z@DataStructures@@QBEAAGI@Z",
+          "site_rva": 329753,
+          "kind": 20,
+          "target_va": 268577344
+        },
+        {
+          "symbol": "?GetKeyAtIndex@?$Map@UPlayerIdAndGroupId@ConnectionGraph@@G$1??$defaultMapKeyComparison@UPlayerIdAndGroupId@ConnectionGraph@@@DataStructures@@YAHABU12@0@Z@DataStructures@@QBE?AUPlayerIdAndGroupId@ConnectionGraph@@I@Z",
+          "site_rva": 329769,
+          "kind": 20,
+          "target_va": 268577360
+        },
+        {
+          "symbol": "??1PlayerIdAndGroupId@ConnectionGraph@@QAE@XZ",
+          "site_rva": 329800,
+          "kind": 20,
+          "target_va": 268569232
+        },
+        {
+          "symbol": "?GetIndexAtKey@?$Map@UPlayerIdAndGroupId@ConnectionGraph@@PAV?$Map@UPlayerIdAndGroupId@ConnectionGraph@@G$1??$defaultMapKeyComparison@UPlayerIdAndGroupId@ConnectionGraph@@@DataStructures@@YAHABU12@0@Z@DataStructures@@$1??$defaultMapKeyComparison@UPlayerIdAndGroupId@ConnectionGraph@@@4@YAHABU12@0@Z@DataStructures@@QAEIABUPlayerIdAndGroupId@ConnectionGraph@@@Z",
+          "site_rva": 329812,
+          "kind": 20,
+          "target_va": 268762064
+        },
+        {
+          "symbol": "?Size@?$Map@UPlayerIdAndGroupId@ConnectionGraph@@PAV?$Map@UPlayerIdAndGroupId@ConnectionGraph@@G$1??$defaultMapKeyComparison@UPlayerIdAndGroupId@ConnectionGraph@@@DataStructures@@YAHABU12@0@Z@DataStructures@@$1??$defaultMapKeyComparison@UPlayerIdAndGroupId@ConnectionGraph@@@4@YAHABU12@0@Z@DataStructures@@QBEIXZ",
+          "site_rva": 329821,
+          "kind": 20,
+          "target_va": 268577184
+        },
+        {
+          "symbol": "?Size@?$Map@UPlayerIdAndGroupId@ConnectionGraph@@PAV?$Map@UPlayerIdAndGroupId@ConnectionGraph@@G$1??$defaultMapKeyComparison@UPlayerIdAndGroupId@ConnectionGraph@@@DataStructures@@YAHABU12@0@Z@DataStructures@@$1??$defaultMapKeyComparison@UPlayerIdAndGroupId@ConnectionGraph@@@4@YAHABU12@0@Z@DataStructures@@QBEIXZ",
+          "site_rva": 329869,
+          "kind": 20,
+          "target_va": 268577184
+        },
+        {
+          "symbol": "?Size@?$Map@UPlayerIdAndGroupId@ConnectionGraph@@PAV?$Map@UPlayerIdAndGroupId@ConnectionGraph@@G$1??$defaultMapKeyComparison@UPlayerIdAndGroupId@ConnectionGraph@@@DataStructures@@YAHABU12@0@Z@DataStructures@@$1??$defaultMapKeyComparison@UPlayerIdAndGroupId@ConnectionGraph@@@4@YAHABU12@0@Z@DataStructures@@QBEIXZ",
+          "site_rva": 329882,
+          "kind": 20,
+          "target_va": 268577184
+        },
+        {
+          "symbol": "?Size@?$Map@UPlayerIdAndGroupId@ConnectionGraph@@PAV?$Map@UPlayerIdAndGroupId@ConnectionGraph@@G$1??$defaultMapKeyComparison@UPlayerIdAndGroupId@ConnectionGraph@@@DataStructures@@YAHABU12@0@Z@DataStructures@@$1??$defaultMapKeyComparison@UPlayerIdAndGroupId@ConnectionGraph@@@4@YAHABU12@0@Z@DataStructures@@QBEIXZ",
+          "site_rva": 329910,
+          "kind": 20,
+          "target_va": 268577184
+        },
+        {
+          "symbol": "?Set@?$Map@UPlayerIdAndGroupId@ConnectionGraph@@G$1??$defaultMapKeyComparison@UPlayerIdAndGroupId@ConnectionGraph@@@DataStructures@@YAHABU12@0@Z@DataStructures@@QAEXABUPlayerIdAndGroupId@ConnectionGraph@@ABG@Z",
+          "site_rva": 329943,
+          "kind": 20,
+          "target_va": 268578320
+        },
+        {
+          "symbol": "?Size@?$Map@UPlayerIdAndGroupId@ConnectionGraph@@G$1??$defaultMapKeyComparison@UPlayerIdAndGroupId@ConnectionGraph@@@DataStructures@@YAHABU12@0@Z@DataStructures@@QBEIXZ",
+          "site_rva": 329963,
+          "kind": 20,
+          "target_va": 268577408
+        },
+        {
+          "symbol": "?Clear@?$Heap@GUPlayerIdAndGroupId@ConnectionGraph@@$0A@@DataStructures@@QAEXXZ",
+          "site_rva": 329984,
+          "kind": 20,
+          "target_va": 268762784
+        },
+        {
+          "symbol": "?Size@?$Map@UPlayerIdAndGroupId@ConnectionGraph@@G$1??$defaultMapKeyComparison@UPlayerIdAndGroupId@ConnectionGraph@@@DataStructures@@YAHABU12@0@Z@DataStructures@@QBEIXZ",
+          "site_rva": 329995,
+          "kind": 20,
+          "target_va": 268577408
+        },
+        {
+          "symbol": "?GetKeyAtIndex@?$Map@UPlayerIdAndGroupId@ConnectionGraph@@G$1??$defaultMapKeyComparison@UPlayerIdAndGroupId@ConnectionGraph@@@DataStructures@@YAHABU12@0@Z@DataStructures@@QBE?AUPlayerIdAndGroupId@ConnectionGraph@@I@Z",
+          "site_rva": 330014,
+          "kind": 20,
+          "target_va": 268577360
+        },
+        {
+          "symbol": "??A?$Map@UPlayerIdAndGroupId@ConnectionGraph@@G$1??$defaultMapKeyComparison@UPlayerIdAndGroupId@ConnectionGraph@@@DataStructures@@YAHABU12@0@Z@DataStructures@@QBEAAGI@Z",
+          "site_rva": 330033,
+          "kind": 20,
+          "target_va": 268577344
+        },
+        {
+          "symbol": "?Push@?$Heap@GUPlayerIdAndGroupId@ConnectionGraph@@$0A@@DataStructures@@QAEXABGABUPlayerIdAndGroupId@ConnectionGraph@@@Z",
+          "site_rva": 330043,
+          "kind": 20,
+          "target_va": 268762144
+        },
+        {
+          "symbol": "??1PlayerIdAndGroupId@ConnectionGraph@@QAE@XZ",
+          "site_rva": 330060,
+          "kind": 20,
+          "target_va": 268569232
+        },
+        {
+          "symbol": "?Size@?$Map@UPlayerIdAndGroupId@ConnectionGraph@@G$1??$defaultMapKeyComparison@UPlayerIdAndGroupId@ConnectionGraph@@@DataStructures@@YAHABU12@0@Z@DataStructures@@QBEIXZ",
+          "site_rva": 330070,
+          "kind": 20,
+          "target_va": 268577408
+        },
+        {
+          "symbol": "?Size@?$Heap@GUPlayerIdAndGroupId@ConnectionGraph@@$0A@@DataStructures@@QBEIXZ",
+          "site_rva": 330083,
+          "kind": 20,
+          "target_va": 268760880
+        },
+        {
+          "symbol": "?PeekWeight@?$Heap@GUPlayerIdAndGroupId@ConnectionGraph@@$0A@@DataStructures@@QBEGI@Z",
+          "site_rva": 330102,
+          "kind": 20,
+          "target_va": 268760864
+        },
+        {
+          "symbol": "?Pop@?$Heap@GUPlayerIdAndGroupId@ConnectionGraph@@$0A@@DataStructures@@QAE?AUPlayerIdAndGroupId@ConnectionGraph@@I@Z",
+          "site_rva": 330122,
+          "kind": 20,
+          "target_va": 268762336
+        },
+        {
+          "symbol": "??1PlayerIdAndGroupId@ConnectionGraph@@QAE@XZ",
+          "site_rva": 330154,
+          "kind": 20,
+          "target_va": 268569232
+        },
+        {
+          "symbol": "?Delete@?$Map@UPlayerIdAndGroupId@ConnectionGraph@@G$1??$defaultMapKeyComparison@UPlayerIdAndGroupId@ConnectionGraph@@@DataStructures@@YAHABU12@0@Z@DataStructures@@QAE_NABUPlayerIdAndGroupId@ConnectionGraph@@@Z",
+          "site_rva": 330196,
+          "kind": 20,
+          "target_va": 268578512
+        },
+        {
+          "symbol": "?Size@?$Map@UPlayerIdAndGroupId@ConnectionGraph@@PAV?$Map@UPlayerIdAndGroupId@ConnectionGraph@@G$1??$defaultMapKeyComparison@UPlayerIdAndGroupId@ConnectionGraph@@@DataStructures@@YAHABU12@0@Z@DataStructures@@$1??$defaultMapKeyComparison@UPlayerIdAndGroupId@ConnectionGraph@@@4@YAHABU12@0@Z@DataStructures@@QBEIXZ",
+          "site_rva": 330225,
+          "kind": 20,
+          "target_va": 268577184
+        },
+        {
+          "symbol": "??1?$Map@UPlayerIdAndGroupId@ConnectionGraph@@G$1??$defaultMapKeyComparison@UPlayerIdAndGroupId@ConnectionGraph@@@DataStructures@@YAHABU12@0@Z@DataStructures@@QAE@XZ",
+          "site_rva": 330255,
+          "kind": 20,
+          "target_va": 268578240
+        },
+        {
+          "symbol": "??1?$Heap@GUPlayerIdAndGroupId@ConnectionGraph@@$0A@@DataStructures@@QAE@XZ",
+          "site_rva": 330272,
+          "kind": 20,
+          "target_va": 268764560
+        },
+        {
+          "symbol": "??1PlayerIdAndGroupId@ConnectionGraph@@QAE@XZ",
+          "site_rva": 330289,
+          "kind": 20,
+          "target_va": 268569232
+        },
+        {
+          "symbol": "??1PlayerIdAndGroupId@ConnectionGraph@@QAE@XZ",
+          "site_rva": 330306,
+          "kind": 20,
+          "target_va": 268569232
+        },
+        {
+          "symbol": "??1PlayerIdAndGroupId@ConnectionGraph@@QAE@XZ",
+          "site_rva": 330329,
+          "kind": 20,
+          "target_va": 268569232
+        },
+        {
+          "symbol": "__except_list",
+          "site_rva": 330344,
+          "kind": 6,
+          "target_va": 0
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_router_send",
+      "section": 27,
+      "anchor": "?GetIndexFromKey@?$OrderedList@UPlayerIdAndGroupId@ConnectionGraph@@U12@$1??$defaultOrderedListComparison@UPlayerIdAndGroupId@ConnectionGraph@@U12@@DataStructures@@YAHABU12@0@Z@DataStructures@@QBEIABUPlayerIdAndGroupId@ConnectionGraph@@PA_N@Z",
+      "anchor_offset": 0,
+      "rva": 322720,
+      "size": 154,
+      "kind": "code",
+      "sha256": "0e2ed5294ccd94bab3eae2aaf67646420e6bc686dba5cf5e7387a2d3504b2d0b",
+      "bindings": [
+        {
+          "symbol": "??$defaultOrderedListComparison@UPlayerIdAndGroupId@ConnectionGraph@@U12@@DataStructures@@YAHABUPlayerIdAndGroupId@ConnectionGraph@@0@Z",
+          "site_rva": 322777,
+          "kind": 20,
+          "target_va": 268570064
+        },
+        {
+          "symbol": "??$defaultOrderedListComparison@UPlayerIdAndGroupId@ConnectionGraph@@U12@@DataStructures@@YAHABUPlayerIdAndGroupId@ConnectionGraph@@0@Z",
+          "site_rva": 322831,
+          "kind": 20,
+          "target_va": 268570064
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_router_send",
+      "section": 29,
+      "anchor": "?Size@?$OrderedList@UPlayerIdAndGroupId@ConnectionGraph@@U12@$1??$defaultOrderedListComparison@UPlayerIdAndGroupId@ConnectionGraph@@U12@@DataStructures@@YAHABU12@0@Z@DataStructures@@QBEIXZ",
+      "anchor_offset": 0,
+      "rva": 322880,
+      "size": 4,
+      "kind": "code",
+      "sha256": "f7e0208f5e988ae39c7a45dfddbd12921d02f9c3deb5695d4c534c8ab0ccdb0f",
+      "bindings": []
+    },
+    {
+      "unit": "closure_vendor_router_send",
+      "section": 130,
+      "anchor": "?Size@?$Map@UPlayerIdAndGroupId@ConnectionGraph@@PAV?$Map@UPlayerIdAndGroupId@ConnectionGraph@@G$1??$defaultMapKeyComparison@UPlayerIdAndGroupId@ConnectionGraph@@@DataStructures@@YAHABU12@0@Z@DataStructures@@$1??$defaultMapKeyComparison@UPlayerIdAndGroupId@ConnectionGraph@@@4@YAHABU12@0@Z@DataStructures@@QBEIXZ",
+      "anchor_offset": 0,
+      "rva": 141728,
+      "size": 5,
+      "kind": "code",
+      "sha256": "23c37eba625e20036847a0621698e382dbc577d4b3fc3cdd5f1bd50935f9ed64",
+      "bindings": [
+        {
+          "symbol": "?Size@?$OrderedList@UPlayerIdAndGroupId@ConnectionGraph@@UMapNode@?$Map@UPlayerIdAndGroupId@ConnectionGraph@@PAV?$Map@UPlayerIdAndGroupId@ConnectionGraph@@G$1??$defaultMapKeyComparison@UPlayerIdAndGroupId@ConnectionGraph@@@DataStructures@@YAHABU12@0@Z@DataStructures@@$1??$defaultMapKeyComparison@UPlayerIdAndGroupId@ConnectionGraph@@@4@YAHABU12@0@Z@DataStructures@@$1?NodeComparisonFunc@45@SAHABU12@ABU345@@Z@DataStructures@@QBEIXZ",
+          "site_rva": 141729,
+          "kind": 20,
+          "target_va": 268574192
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_router_send",
+      "section": 133,
+      "anchor": "__ehhandler$?DeleteDecendants@?$Tree@UPlayerIdAndGroupId@ConnectionGraph@@@DataStructures@@QAEXXZ",
+      "anchor_offset": 8,
+      "rva": 930112,
+      "size": 18,
+      "kind": "code",
+      "sha256": "7c9650eef630ca2bb04976ed00b7b9967765f07ffb0ea68c28e4789798127da8",
+      "bindings": [
+        {
+          "symbol": "??1?$List@PAV?$Tree@UPlayerIdAndGroupId@ConnectionGraph@@@DataStructures@@@DataStructures@@QAE@XZ",
+          "site_rva": 930116,
+          "kind": 20,
+          "target_va": 268758032
+        },
+        {
+          "symbol": "$T5715",
+          "site_rva": 930121,
+          "kind": 6,
+          "target_va": 269463108
+        },
+        {
+          "symbol": "___CxxFrameHandler",
+          "site_rva": 930126,
+          "kind": 20,
+          "target_va": 269247782
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_router_send",
+      "section": 116,
+      "anchor": "?LevelOrderTraversal@?$Tree@UPlayerIdAndGroupId@ConnectionGraph@@@DataStructures@@QAEXAAV?$List@PAV?$Tree@UPlayerIdAndGroupId@ConnectionGraph@@@DataStructures@@@2@@Z",
+      "anchor_offset": 0,
+      "rva": 325024,
+      "size": 240,
+      "kind": "code",
+      "sha256": "338754fce3d1f9459d40249ecbdf3f81cdc824af0629bac3d843c3f045195779",
+      "bindings": [
+        {
+          "symbol": "__ehhandler$?LevelOrderTraversal@?$Tree@UPlayerIdAndGroupId@ConnectionGraph@@@DataStructures@@QAEXAAV?$List@PAV?$Tree@UPlayerIdAndGroupId@ConnectionGraph@@@DataStructures@@@2@@Z",
+          "site_rva": 325027,
+          "kind": 6,
+          "target_va": 269365512
+        },
+        {
+          "symbol": "__except_list",
+          "site_rva": 325033,
+          "kind": 6,
+          "target_va": 0
+        },
+        {
+          "symbol": "__except_list",
+          "site_rva": 325041,
+          "kind": 6,
+          "target_va": 0
+        },
+        {
+          "symbol": "??0?$Queue@PAV?$Tree@UPlayerIdAndGroupId@ConnectionGraph@@@DataStructures@@@DataStructures@@QAE@XZ",
+          "site_rva": 325059,
+          "kind": 20,
+          "target_va": 268758848
+        },
+        {
+          "symbol": "?Push@?$Queue@PAV?$Tree@UPlayerIdAndGroupId@ConnectionGraph@@@DataStructures@@@DataStructures@@QAEXABQAV?$Tree@UPlayerIdAndGroupId@ConnectionGraph@@@2@@Z",
+          "site_rva": 325088,
+          "kind": 20,
+          "target_va": 268758928
+        },
+        {
+          "symbol": "?Insert@?$List@PAV?$Tree@UPlayerIdAndGroupId@ConnectionGraph@@@DataStructures@@@DataStructures@@QAEXQAV?$Tree@UPlayerIdAndGroupId@ConnectionGraph@@@2@@Z",
+          "site_rva": 325185,
+          "kind": 20,
+          "target_va": 268758064
+        },
+        {
+          "symbol": "?Push@?$Queue@PAV?$Tree@UPlayerIdAndGroupId@ConnectionGraph@@@DataStructures@@@DataStructures@@QAEXABQAV?$Tree@UPlayerIdAndGroupId@ConnectionGraph@@@2@@Z",
+          "site_rva": 325212,
+          "kind": 20,
+          "target_va": 268758928
+        },
+        {
+          "symbol": "??1?$Queue@PAV?$Tree@UPlayerIdAndGroupId@ConnectionGraph@@@DataStructures@@@DataStructures@@QAE@XZ",
+          "site_rva": 325239,
+          "kind": 20,
+          "target_va": 268758896
+        },
+        {
+          "symbol": "__except_list",
+          "site_rva": 325254,
+          "kind": 6,
+          "target_va": 0
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_router_send",
+      "section": 104,
+      "anchor": "$T5455",
+      "anchor_offset": 8,
+      "rva": 1027528,
+      "size": 36,
+      "kind": "data",
+      "sha256": "0d9d4b7fcbaaea74fc96a3eeb7607dac5f79367395b5e9882690cf98e1b43c27",
+      "bindings": [
+        {
+          "symbol": "$L5452",
+          "site_rva": 1027532,
+          "kind": 6,
+          "target_va": 269365472
+        },
+        {
+          "symbol": "$T5457",
+          "site_rva": 1027544,
+          "kind": 6,
+          "target_va": 269462984
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_router_send",
+      "section": 158,
+      "anchor": "$T5995",
+      "anchor_offset": 48,
+      "rva": 1027948,
+      "size": 76,
+      "kind": "data",
+      "sha256": "436396e36983f2402a2a9ac3f2db12af11d02ab194d448fd423490711904de79",
+      "bindings": [
+        {
+          "symbol": "$L5959",
+          "site_rva": 1027952,
+          "kind": 6,
+          "target_va": 269365856
+        },
+        {
+          "symbol": "$L5960",
+          "site_rva": 1027960,
+          "kind": 6,
+          "target_va": 269365864
+        },
+        {
+          "symbol": "$L5961",
+          "site_rva": 1027968,
+          "kind": 6,
+          "target_va": 269365872
+        },
+        {
+          "symbol": "$L5962",
+          "site_rva": 1027976,
+          "kind": 6,
+          "target_va": 269365880
+        },
+        {
+          "symbol": "$L5963",
+          "site_rva": 1027984,
+          "kind": 6,
+          "target_va": 269365888
+        },
+        {
+          "symbol": "$L5964",
+          "site_rva": 1027992,
+          "kind": 6,
+          "target_va": 269365896
+        },
+        {
+          "symbol": "$T6007",
+          "site_rva": 1028004,
+          "kind": 6,
+          "target_va": 269463404
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_router_send",
+      "section": 153,
+      "anchor": "__ehhandler$?GenerateDisjktraMatrix@?$WeightedGraph@UPlayerIdAndGroupId@ConnectionGraph@@G$0A@@DataStructures@@IAEXUPlayerIdAndGroupId@ConnectionGraph@@G@Z",
+      "anchor_offset": 75,
+      "rva": 930304,
+      "size": 85,
+      "kind": "code",
+      "sha256": "e9d3d31ef40f93775445e7508664ad8e729988ac6f5b4238704a30599b7df934",
+      "bindings": [
+        {
+          "symbol": "??1PlayerIdAndGroupId@ConnectionGraph@@QAE@XZ",
+          "site_rva": 930308,
+          "kind": 20,
+          "target_va": 268569232
+        },
+        {
+          "symbol": "??3@YAXPAX@Z",
+          "site_rva": 930317,
+          "kind": 20,
+          "target_va": 269247626
+        },
+        {
+          "symbol": "??1PlayerIdAndGroupId@ConnectionGraph@@QAE@XZ",
+          "site_rva": 930327,
+          "kind": 20,
+          "target_va": 268569232
+        },
+        {
+          "symbol": "??1PlayerIdAndGroupId@ConnectionGraph@@QAE@XZ",
+          "site_rva": 930335,
+          "kind": 20,
+          "target_va": 268569232
+        },
+        {
+          "symbol": "??1?$Heap@GUPlayerIdAndGroupId@ConnectionGraph@@$0A@@DataStructures@@QAE@XZ",
+          "site_rva": 930343,
+          "kind": 20,
+          "target_va": 268764560
+        },
+        {
+          "symbol": "??1?$Map@UPlayerIdAndGroupId@ConnectionGraph@@G$1??$defaultMapKeyComparison@UPlayerIdAndGroupId@ConnectionGraph@@@DataStructures@@YAHABU12@0@Z@DataStructures@@QAE@XZ",
+          "site_rva": 930351,
+          "kind": 20,
+          "target_va": 268578240
+        },
+        {
+          "symbol": "??1PlayerIdAndGroupId@ConnectionGraph@@QAE@XZ",
+          "site_rva": 930359,
+          "kind": 20,
+          "target_va": 268569232
+        },
+        {
+          "symbol": "??1PlayerIdAndGroupId@ConnectionGraph@@QAE@XZ",
+          "site_rva": 930367,
+          "kind": 20,
+          "target_va": 268569232
+        },
+        {
+          "symbol": "??1PlayerIdAndGroupId@ConnectionGraph@@QAE@XZ",
+          "site_rva": 930375,
+          "kind": 20,
+          "target_va": 268569232
+        },
+        {
+          "symbol": "$T5925",
+          "site_rva": 930380,
+          "kind": 6,
+          "target_va": 269463376
+        },
+        {
+          "symbol": "___CxxFrameHandler",
+          "site_rva": 930385,
+          "kind": 20,
+          "target_va": 269247782
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_router_send",
+      "section": 136,
+      "anchor": "??0?$Heap@GUPlayerIdAndGroupId@ConnectionGraph@@$0A@@DataStructures@@QAE@XZ",
+      "anchor_offset": 0,
+      "rva": 326672,
+      "size": 12,
+      "kind": "code",
+      "sha256": "b0e2f10368b2beb2ed4263b842018f0452ef8179f6994d980a9b298ac05e66e8",
+      "bindings": [
+        {
+          "symbol": "??0?$List@UHeapNode@?$Heap@GUPlayerIdAndGroupId@ConnectionGraph@@$0A@@DataStructures@@@DataStructures@@QAE@XZ",
+          "site_rva": 326676,
+          "kind": 20,
+          "target_va": 268759664
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_router_send",
+      "section": 108,
+      "anchor": "?Insert@?$OrderedList@UPlayerIdAndGroupId@ConnectionGraph@@U12@$1??$defaultOrderedListComparison@UPlayerIdAndGroupId@ConnectionGraph@@U12@@DataStructures@@YAHABU12@0@Z@DataStructures@@QAEIABUPlayerIdAndGroupId@ConnectionGraph@@0@Z",
+      "anchor_offset": 0,
+      "rva": 325264,
+      "size": 131,
+      "kind": "code",
+      "sha256": "867d375459e4ed0cc0e8c5695ee48c8099691b6b29bce615c1ef0b97cf9ea20c",
+      "bindings": [
+        {
+          "symbol": "?GetIndexFromKey@?$OrderedList@UPlayerIdAndGroupId@ConnectionGraph@@U12@$1??$defaultOrderedListComparison@UPlayerIdAndGroupId@ConnectionGraph@@U12@@DataStructures@@YAHABU12@0@Z@DataStructures@@QBEIABUPlayerIdAndGroupId@ConnectionGraph@@PA_N@Z",
+          "site_rva": 325281,
+          "kind": 20,
+          "target_va": 268758176
+        },
+        {
+          "symbol": "?Insert@?$List@UPlayerIdAndGroupId@ConnectionGraph@@@DataStructures@@QAEXUPlayerIdAndGroupId@ConnectionGraph@@@Z",
+          "site_rva": 325340,
+          "kind": 20,
+          "target_va": 268760064
+        },
+        {
+          "symbol": "?Insert@?$List@UPlayerIdAndGroupId@ConnectionGraph@@@DataStructures@@QAEXUPlayerIdAndGroupId@ConnectionGraph@@I@Z",
+          "site_rva": 325384,
+          "kind": 20,
+          "target_va": 268759312
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_router_send",
+      "section": 146,
+      "anchor": "?Clear@?$Heap@GUPlayerIdAndGroupId@ConnectionGraph@@$0A@@DataStructures@@QAEXXZ",
+      "anchor_offset": 0,
+      "rva": 327328,
+      "size": 8,
+      "kind": "code",
+      "sha256": "aecba36a4e425714651162e7b7aa0229b265a6e4191225192c3a627389ee84cd",
+      "bindings": [
+        {
+          "symbol": "?Clear@?$List@UHeapNode@?$Heap@GUPlayerIdAndGroupId@ConnectionGraph@@$0A@@DataStructures@@@DataStructures@@QAEX_N@Z",
+          "site_rva": 327331,
+          "kind": 20,
+          "target_va": 268761392
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_router_send",
+      "section": 138,
+      "anchor": "?Push@?$Heap@GUPlayerIdAndGroupId@ConnectionGraph@@$0A@@DataStructures@@QAEXABGABUPlayerIdAndGroupId@ConnectionGraph@@@Z",
+      "anchor_offset": 0,
+      "rva": 326688,
+      "size": 190,
+      "kind": "code",
+      "sha256": "8142edaefda3939a44c1aec51e5c10a3bf061e29f5d6a8d4f60536590a564d5f",
+      "bindings": [
+        {
+          "symbol": "__ehhandler$?Push@?$Heap@GUPlayerIdAndGroupId@ConnectionGraph@@$0A@@DataStructures@@QAEXABGABUPlayerIdAndGroupId@ConnectionGraph@@@Z",
+          "site_rva": 326691,
+          "kind": 6,
+          "target_va": 269365608
+        },
+        {
+          "symbol": "__except_list",
+          "site_rva": 326697,
+          "kind": 6,
+          "target_va": 0
+        },
+        {
+          "symbol": "__except_list",
+          "site_rva": 326705,
+          "kind": 6,
+          "target_va": 0
+        },
+        {
+          "symbol": "?Insert@?$List@UHeapNode@?$Heap@GUPlayerIdAndGroupId@ConnectionGraph@@$0A@@DataStructures@@@DataStructures@@QAEXUHeapNode@?$Heap@GUPlayerIdAndGroupId@ConnectionGraph@@$0A@@2@@Z",
+          "site_rva": 326792,
+          "kind": 20,
+          "target_va": 268761104
+        },
+        {
+          "symbol": "??1PlayerIdAndGroupId@ConnectionGraph@@QAE@XZ",
+          "site_rva": 326809,
+          "kind": 20,
+          "target_va": 268569232
+        },
+        {
+          "symbol": "?Parent@?$Heap@GUPlayerIdAndGroupId@ConnectionGraph@@$0A@@DataStructures@@IBEII@Z",
+          "site_rva": 326821,
+          "kind": 20,
+          "target_va": 268759648
+        },
+        {
+          "symbol": "?Swap@?$Heap@GUPlayerIdAndGroupId@ConnectionGraph@@$0A@@DataStructures@@IAEXII@Z",
+          "site_rva": 326847,
+          "kind": 20,
+          "target_va": 268760896
+        },
+        {
+          "symbol": "__except_list",
+          "site_rva": 326867,
+          "kind": 6,
+          "target_va": 0
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_router_send",
+      "section": 112,
+      "anchor": "?Size@?$Heap@GUPlayerIdAndGroupId@ConnectionGraph@@$0A@@DataStructures@@QBEIXZ",
+      "anchor_offset": 0,
+      "rva": 325424,
+      "size": 4,
+      "kind": "code",
+      "sha256": "f7e0208f5e988ae39c7a45dfddbd12921d02f9c3deb5695d4c534c8ab0ccdb0f",
+      "bindings": []
+    },
+    {
+      "unit": "closure_vendor_router_send",
+      "section": 110,
+      "anchor": "?PeekWeight@?$Heap@GUPlayerIdAndGroupId@ConnectionGraph@@$0A@@DataStructures@@QBEGI@Z",
+      "anchor_offset": 0,
+      "rva": 325408,
+      "size": 16,
+      "kind": "code",
+      "sha256": "b07ae379ca391bf082024af50885d120737162d492d283a1c594cbd691e9313c",
+      "bindings": []
+    },
+    {
+      "unit": "closure_vendor_router_send",
+      "section": 142,
+      "anchor": "?Pop@?$Heap@GUPlayerIdAndGroupId@ConnectionGraph@@$0A@@DataStructures@@QAE?AUPlayerIdAndGroupId@ConnectionGraph@@I@Z",
+      "anchor_offset": 0,
+      "rva": 326880,
+      "size": 433,
+      "kind": "code",
+      "sha256": "1e42b115731c7ea418fe157cce0db4b9a0ea4fc5a9c40a7e2e4eb52418deef19",
+      "bindings": [
+        {
+          "symbol": "__ehhandler$?Pop@?$Heap@GUPlayerIdAndGroupId@ConnectionGraph@@$0A@@DataStructures@@QAE?AUPlayerIdAndGroupId@ConnectionGraph@@I@Z",
+          "site_rva": 326883,
+          "kind": 6,
+          "target_va": 269365665
+        },
+        {
+          "symbol": "__except_list",
+          "site_rva": 326889,
+          "kind": 6,
+          "target_va": 0
+        },
+        {
+          "symbol": "__except_list",
+          "site_rva": 326897,
+          "kind": 6,
+          "target_va": 0
+        },
+        {
+          "symbol": "?LeftChild@?$Heap@GUPlayerIdAndGroupId@ConnectionGraph@@$0A@@DataStructures@@IBEII@Z",
+          "site_rva": 327029,
+          "kind": 20,
+          "target_va": 268759616
+        },
+        {
+          "symbol": "?RightChild@?$Heap@GUPlayerIdAndGroupId@ConnectionGraph@@$0A@@DataStructures@@IBEII@Z",
+          "site_rva": 327039,
+          "kind": 20,
+          "target_va": 268759632
+        },
+        {
+          "symbol": "?Swap@?$Heap@GUPlayerIdAndGroupId@ConnectionGraph@@$0A@@DataStructures@@IAEXII@Z",
+          "site_rva": 327116,
+          "kind": 20,
+          "target_va": 268760896
+        },
+        {
+          "symbol": "?Swap@?$Heap@GUPlayerIdAndGroupId@ConnectionGraph@@$0A@@DataStructures@@IAEXII@Z",
+          "site_rva": 327126,
+          "kind": 20,
+          "target_va": 268760896
+        },
+        {
+          "symbol": "?LeftChild@?$Heap@GUPlayerIdAndGroupId@ConnectionGraph@@$0A@@DataStructures@@IBEII@Z",
+          "site_rva": 327136,
+          "kind": 20,
+          "target_va": 268759616
+        },
+        {
+          "symbol": "?RightChild@?$Heap@GUPlayerIdAndGroupId@ConnectionGraph@@$0A@@DataStructures@@IBEII@Z",
+          "site_rva": 327146,
+          "kind": 20,
+          "target_va": 268759632
+        },
+        {
+          "symbol": "?Swap@?$Heap@GUPlayerIdAndGroupId@ConnectionGraph@@$0A@@DataStructures@@IAEXII@Z",
+          "site_rva": 327206,
+          "kind": 20,
+          "target_va": 268760896
+        },
+        {
+          "symbol": "??1PlayerIdAndGroupId@ConnectionGraph@@QAE@XZ",
+          "site_rva": 327286,
+          "kind": 20,
+          "target_va": 268569232
+        },
+        {
+          "symbol": "__except_list",
+          "site_rva": 327303,
+          "kind": 6,
+          "target_va": 0
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_router_send",
+      "section": 148,
+      "anchor": "??1?$Heap@GUPlayerIdAndGroupId@ConnectionGraph@@$0A@@DataStructures@@QAE@XZ",
+      "anchor_offset": 0,
+      "rva": 329104,
+      "size": 73,
+      "kind": "code",
+      "sha256": "eaf5f118934335c0e1616b101731c8be4760aabb209fd94b5fe5fc7c7615a82e",
+      "bindings": [
+        {
+          "symbol": "__ehhandler$??1?$Heap@GUPlayerIdAndGroupId@ConnectionGraph@@$0A@@DataStructures@@QAE@XZ",
+          "site_rva": 329107,
+          "kind": 6,
+          "target_va": 269365736
+        },
+        {
+          "symbol": "__except_list",
+          "site_rva": 329113,
+          "kind": 6,
+          "target_va": 0
+        },
+        {
+          "symbol": "__except_list",
+          "site_rva": 329121,
+          "kind": 6,
+          "target_va": 0
+        },
+        {
+          "symbol": "?Clear@?$Heap@GUPlayerIdAndGroupId@ConnectionGraph@@$0A@@DataStructures@@QAEXXZ",
+          "site_rva": 329142,
+          "kind": 20,
+          "target_va": 268762784
+        },
+        {
+          "symbol": "??1?$List@UHeapNode@?$Heap@GUPlayerIdAndGroupId@ConnectionGraph@@$0A@@DataStructures@@@DataStructures@@QAE@XZ",
+          "site_rva": 329157,
+          "kind": 20,
+          "target_va": 268761056
+        },
+        {
+          "symbol": "__except_list",
+          "site_rva": 329169,
+          "kind": 6,
+          "target_va": 0
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_router_send",
+      "section": 11,
+      "anchor": "??$defaultOrderedListComparison@UPlayerIdAndGroupId@ConnectionGraph@@U12@@DataStructures@@YAHABUPlayerIdAndGroupId@ConnectionGraph@@0@Z",
+      "anchor_offset": 0,
+      "rva": 134608,
+      "size": 44,
+      "kind": "code",
+      "sha256": "054118361fd1245f65853bc1dd53a1526efefc550acbc865d832e2bcbb1ea153",
+      "bindings": [
+        {
+          "symbol": "??MPlayerIdAndGroupId@ConnectionGraph@@QBE_NABU01@@Z",
+          "site_rva": 134622,
+          "kind": 20,
+          "target_va": 268569328
+        },
+        {
+          "symbol": "??8PlayerIdAndGroupId@ConnectionGraph@@QBE_NABU01@@Z",
+          "site_rva": 134640,
+          "kind": 20,
+          "target_va": 268569280
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_router_send",
+      "section": 106,
+      "anchor": "?Size@?$OrderedList@UPlayerIdAndGroupId@ConnectionGraph@@UMapNode@?$Map@UPlayerIdAndGroupId@ConnectionGraph@@PAV?$Map@UPlayerIdAndGroupId@ConnectionGraph@@G$1??$defaultMapKeyComparison@UPlayerIdAndGroupId@ConnectionGraph@@@DataStructures@@YAHABU12@0@Z@DataStructures@@$1??$defaultMapKeyComparison@UPlayerIdAndGroupId@ConnectionGraph@@@4@YAHABU12@0@Z@DataStructures@@$1?NodeComparisonFunc@45@SAHABU12@ABU345@@Z@DataStructures@@QBEIXZ",
+      "anchor_offset": 0,
+      "rva": 138736,
+      "size": 4,
+      "kind": "code",
+      "sha256": "f7e0208f5e988ae39c7a45dfddbd12921d02f9c3deb5695d4c534c8ab0ccdb0f",
+      "bindings": []
+    },
+    {
+      "unit": "closure_vendor_router_send",
+      "section": 134,
+      "anchor": "$T5715",
+      "anchor_offset": 8,
+      "rva": 1027644,
+      "size": 36,
+      "kind": "data",
+      "sha256": "f05665ea8eb84e0fb225fc5a8ef9c6db1dd3ba459ff1d18e03d0de0393830a5b",
+      "bindings": [
+        {
+          "symbol": "$L5702",
+          "site_rva": 1027648,
+          "kind": 6,
+          "target_va": 269365568
+        },
+        {
+          "symbol": "$T5719",
+          "site_rva": 1027660,
+          "kind": 6,
+          "target_va": 269463100
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_router_send",
+      "section": 117,
+      "anchor": "__ehhandler$?LevelOrderTraversal@?$Tree@UPlayerIdAndGroupId@ConnectionGraph@@@DataStructures@@QAEXAAV?$List@PAV?$Tree@UPlayerIdAndGroupId@ConnectionGraph@@@DataStructures@@@2@@Z",
+      "anchor_offset": 8,
+      "rva": 930048,
+      "size": 18,
+      "kind": "code",
+      "sha256": "12d7ff76833a5edad61791fdd2d7b20ae3990345bebc81ff03ddb5a467f903ca",
+      "bindings": [
+        {
+          "symbol": "??1?$Queue@PAV?$Tree@UPlayerIdAndGroupId@ConnectionGraph@@@DataStructures@@@DataStructures@@QAE@XZ",
+          "site_rva": 930052,
+          "kind": 20,
+          "target_va": 268758896
+        },
+        {
+          "symbol": "$T5519",
+          "site_rva": 930057,
+          "kind": 6,
+          "target_va": 269463028
+        },
+        {
+          "symbol": "___CxxFrameHandler",
+          "site_rva": 930062,
+          "kind": 20,
+          "target_va": 269247782
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_router_send",
+      "section": 82,
+      "anchor": "??0?$Queue@PAV?$Tree@UPlayerIdAndGroupId@ConnectionGraph@@@DataStructures@@@DataStructures@@QAE@XZ",
+      "anchor_offset": 0,
+      "rva": 323392,
+      "size": 34,
+      "kind": "code",
+      "sha256": "c272f4009d7c8f5fcdb3eb49b17dbc3fccdb72eeeb1bbd58b0831103cde0ec5e",
+      "bindings": [
+        {
+          "symbol": "??2@YAPAXI@Z",
+          "site_rva": 323405,
+          "kind": 20,
+          "target_va": 269247098
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_router_send",
+      "section": 86,
+      "anchor": "?Push@?$Queue@PAV?$Tree@UPlayerIdAndGroupId@ConnectionGraph@@@DataStructures@@@DataStructures@@QAEXABQAV?$Tree@UPlayerIdAndGroupId@ConnectionGraph@@@2@@Z",
+      "anchor_offset": 0,
+      "rva": 323472,
+      "size": 189,
+      "kind": "code",
+      "sha256": "dbbb4c7948ff53d2ad441d806c11739aae9eb1f53ac9882a46af704c667f7e2d",
+      "bindings": [
+        {
+          "symbol": "??2@YAPAXI@Z",
+          "site_rva": 323485,
+          "kind": 20,
+          "target_va": 269247098
+        },
+        {
+          "symbol": "??2@YAPAXI@Z",
+          "site_rva": 323582,
+          "kind": 20,
+          "target_va": 269247098
+        },
+        {
+          "symbol": "??3@YAXPAX@Z",
+          "site_rva": 323647,
+          "kind": 20,
+          "target_va": 269247626
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_router_send",
+      "section": 84,
+      "anchor": "??1?$Queue@PAV?$Tree@UPlayerIdAndGroupId@ConnectionGraph@@@DataStructures@@@DataStructures@@QAE@XZ",
+      "anchor_offset": 0,
+      "rva": 323440,
+      "size": 17,
+      "kind": "code",
+      "sha256": "fc7ad8260b23070516518ed5a509708e8afa6918c3c7bf535320f0484798c964",
+      "bindings": [
+        {
+          "symbol": "??3@YAXPAX@Z",
+          "site_rva": 323451,
+          "kind": 20,
+          "target_va": 269247626
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_router_send",
+      "section": 154,
+      "anchor": "$T5925",
+      "anchor_offset": 72,
+      "rva": 1027848,
+      "size": 100,
+      "kind": "data",
+      "sha256": "75a5177e63780345c07e9bd59a65388a26ca0fe3329471bdff198871a6c74146",
+      "bindings": [
+        {
+          "symbol": "$L5868",
+          "site_rva": 1027852,
+          "kind": 6,
+          "target_va": 269365760
+        },
+        {
+          "symbol": "$L5869",
+          "site_rva": 1027860,
+          "kind": 6,
+          "target_va": 269365768
+        },
+        {
+          "symbol": "$L5870",
+          "site_rva": 1027868,
+          "kind": 6,
+          "target_va": 269365779
+        },
+        {
+          "symbol": "$L5871",
+          "site_rva": 1027876,
+          "kind": 6,
+          "target_va": 269365787
+        },
+        {
+          "symbol": "$L5872",
+          "site_rva": 1027884,
+          "kind": 6,
+          "target_va": 269365795
+        },
+        {
+          "symbol": "$L5873",
+          "site_rva": 1027892,
+          "kind": 6,
+          "target_va": 269365803
+        },
+        {
+          "symbol": "$L5874",
+          "site_rva": 1027900,
+          "kind": 6,
+          "target_va": 269365811
+        },
+        {
+          "symbol": "$L5875",
+          "site_rva": 1027908,
+          "kind": 6,
+          "target_va": 269365819
+        },
+        {
+          "symbol": "$L5877",
+          "site_rva": 1027916,
+          "kind": 6,
+          "target_va": 269365827
+        },
+        {
+          "symbol": "$T5945",
+          "site_rva": 1027928,
+          "kind": 6,
+          "target_va": 269463304
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_router_send",
+      "section": 70,
+      "anchor": "??0?$List@UHeapNode@?$Heap@GUPlayerIdAndGroupId@ConnectionGraph@@$0A@@DataStructures@@@DataStructures@@QAE@XZ",
+      "anchor_offset": 0,
+      "rva": 324208,
+      "size": 13,
+      "kind": "code",
+      "sha256": "efaddf6f7c64b7d0dd7d70e04563c88df5b21978a063a338954e28cc09d4e5e9",
+      "bindings": []
+    },
+    {
+      "unit": "closure_vendor_router_send",
+      "section": 55,
+      "anchor": "?Insert@?$List@UPlayerIdAndGroupId@ConnectionGraph@@@DataStructures@@QAEXUPlayerIdAndGroupId@ConnectionGraph@@I@Z",
+      "anchor_offset": 0,
+      "rva": 323856,
+      "size": 303,
+      "kind": "code",
+      "sha256": "4a12c5b051067d09c7eabf88a14bf19a6727a86ed22317422b65a6a1991c9e9f",
+      "bindings": [
+        {
+          "symbol": "__ehhandler$?Insert@?$List@UPlayerIdAndGroupId@ConnectionGraph@@@DataStructures@@QAEXUPlayerIdAndGroupId@ConnectionGraph@@I@Z",
+          "site_rva": 323859,
+          "kind": 6,
+          "target_va": 269365427
+        },
+        {
+          "symbol": "__except_list",
+          "site_rva": 323865,
+          "kind": 6,
+          "target_va": 0
+        },
+        {
+          "symbol": "__except_list",
+          "site_rva": 323873,
+          "kind": 6,
+          "target_va": 0
+        },
+        {
+          "symbol": "??2@YAPAXI@Z",
+          "site_rva": 323935,
+          "kind": 20,
+          "target_va": 269247098
+        },
+        {
+          "symbol": "??1PlayerIdAndGroupId@ConnectionGraph@@QAE@XZ",
+          "site_rva": 323956,
+          "kind": 6,
+          "target_va": 268569232
+        },
+        {
+          "symbol": "??0PlayerIdAndGroupId@ConnectionGraph@@QAE@XZ",
+          "site_rva": 323961,
+          "kind": 6,
+          "target_va": 268569216
+        },
+        {
+          "symbol": "??_L@YGXPAXIHP6EX0@Z1@Z",
+          "site_rva": 323975,
+          "kind": 20,
+          "target_va": 269254863
+        },
+        {
+          "symbol": "??1PlayerIdAndGroupId@ConnectionGraph@@QAE@XZ",
+          "site_rva": 324026,
+          "kind": 6,
+          "target_va": 268569232
+        },
+        {
+          "symbol": "??_M@YGXPAXIHP6EX0@Z@Z",
+          "site_rva": 324035,
+          "kind": 20,
+          "target_va": 269254767
+        },
+        {
+          "symbol": "??3@YAXPAX@Z",
+          "site_rva": 324041,
+          "kind": 20,
+          "target_va": 269247626
+        },
+        {
+          "symbol": "_memmove",
+          "site_rva": 324081,
+          "kind": 20,
+          "target_va": 269250016
+        },
+        {
+          "symbol": "??1PlayerIdAndGroupId@ConnectionGraph@@QAE@XZ",
+          "site_rva": 324135,
+          "kind": 20,
+          "target_va": 268569232
+        },
+        {
+          "symbol": "__except_list",
+          "site_rva": 324149,
+          "kind": 6,
+          "target_va": 0
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_router_send",
+      "section": 128,
+      "anchor": "?Clear@?$List@UHeapNode@?$Heap@GUPlayerIdAndGroupId@ConnectionGraph@@$0A@@DataStructures@@@DataStructures@@QAEX_N@Z",
+      "anchor_offset": 0,
+      "rva": 325936,
+      "size": 86,
+      "kind": "code",
+      "sha256": "0f41248fa1b5e1260531409958c94981db7a4a78a21134a132ea9966b12562e2",
+      "bindings": [
+        {
+          "symbol": "??1HeapNode@?$Heap@GUPlayerIdAndGroupId@ConnectionGraph@@$0A@@DataStructures@@QAE@XZ",
+          "site_rva": 325975,
+          "kind": 6,
+          "target_va": 268759200
+        },
+        {
+          "symbol": "??_M@YGXPAXIHP6EX0@Z@Z",
+          "site_rva": 325984,
+          "kind": 20,
+          "target_va": 269254767
+        },
+        {
+          "symbol": "??3@YAXPAX@Z",
+          "site_rva": 325990,
+          "kind": 20,
+          "target_va": 269247626
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_router_send",
+      "section": 139,
+      "anchor": "__ehhandler$?Push@?$Heap@GUPlayerIdAndGroupId@ConnectionGraph@@$0A@@DataStructures@@QAEXABGABUPlayerIdAndGroupId@ConnectionGraph@@@Z",
+      "anchor_offset": 8,
+      "rva": 930144,
+      "size": 18,
+      "kind": "code",
+      "sha256": "ad4106badc503f7c0984cc5104ccf103c13bbb3a38a9556b1c106c01e6cc2119",
+      "bindings": [
+        {
+          "symbol": "??1HeapNode@?$Heap@GUPlayerIdAndGroupId@ConnectionGraph@@$0A@@DataStructures@@QAE@XZ",
+          "site_rva": 930148,
+          "kind": 20,
+          "target_va": 268759200
+        },
+        {
+          "symbol": "$T5746",
+          "site_rva": 930153,
+          "kind": 6,
+          "target_va": 269463144
+        },
+        {
+          "symbol": "___CxxFrameHandler",
+          "site_rva": 930158,
+          "kind": 20,
+          "target_va": 269247782
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_router_send",
+      "section": 124,
+      "anchor": "?Insert@?$List@UHeapNode@?$Heap@GUPlayerIdAndGroupId@ConnectionGraph@@$0A@@DataStructures@@@DataStructures@@QAEXUHeapNode@?$Heap@GUPlayerIdAndGroupId@ConnectionGraph@@$0A@@2@@Z",
+      "anchor_offset": 0,
+      "rva": 325648,
+      "size": 277,
+      "kind": "code",
+      "sha256": "b4eab7598314d123b29930c11427a68b803a1e63a02272263152c928346bacb8",
+      "bindings": [
+        {
+          "symbol": "__ehhandler$?Insert@?$List@UHeapNode@?$Heap@GUPlayerIdAndGroupId@ConnectionGraph@@$0A@@DataStructures@@@DataStructures@@QAEXUHeapNode@?$Heap@GUPlayerIdAndGroupId@ConnectionGraph@@$0A@@2@@Z",
+          "site_rva": 325651,
+          "kind": 6,
+          "target_va": 269365555
+        },
+        {
+          "symbol": "__except_list",
+          "site_rva": 325657,
+          "kind": 6,
+          "target_va": 0
+        },
+        {
+          "symbol": "__except_list",
+          "site_rva": 325665,
+          "kind": 6,
+          "target_va": 0
+        },
+        {
+          "symbol": "??2@YAPAXI@Z",
+          "site_rva": 325723,
+          "kind": 20,
+          "target_va": 269247098
+        },
+        {
+          "symbol": "??1HeapNode@?$Heap@GUPlayerIdAndGroupId@ConnectionGraph@@$0A@@DataStructures@@QAE@XZ",
+          "site_rva": 325744,
+          "kind": 6,
+          "target_va": 268759200
+        },
+        {
+          "symbol": "??0HeapNode@?$Heap@GUPlayerIdAndGroupId@ConnectionGraph@@$0A@@DataStructures@@QAE@XZ",
+          "site_rva": 325749,
+          "kind": 6,
+          "target_va": 268759824
+        },
+        {
+          "symbol": "??_L@YGXPAXIHP6EX0@Z1@Z",
+          "site_rva": 325763,
+          "kind": 20,
+          "target_va": 269254863
+        },
+        {
+          "symbol": "??1HeapNode@?$Heap@GUPlayerIdAndGroupId@ConnectionGraph@@$0A@@DataStructures@@QAE@XZ",
+          "site_rva": 325813,
+          "kind": 6,
+          "target_va": 268759200
+        },
+        {
+          "symbol": "??_M@YGXPAXIHP6EX0@Z@Z",
+          "site_rva": 325822,
+          "kind": 20,
+          "target_va": 269254767
+        },
+        {
+          "symbol": "??3@YAXPAX@Z",
+          "site_rva": 325828,
+          "kind": 20,
+          "target_va": 269247626
+        },
+        {
+          "symbol": "??1PlayerIdAndGroupId@ConnectionGraph@@QAE@XZ",
+          "site_rva": 325902,
+          "kind": 20,
+          "target_va": 268569232
+        },
+        {
+          "symbol": "__except_list",
+          "site_rva": 325915,
+          "kind": 6,
+          "target_va": 0
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_router_send",
+      "section": 68,
+      "anchor": "?Parent@?$Heap@GUPlayerIdAndGroupId@ConnectionGraph@@$0A@@DataStructures@@IBEII@Z",
+      "anchor_offset": 0,
+      "rva": 324192,
+      "size": 10,
+      "kind": "code",
+      "sha256": "90d19fb1fb5451bed0ba03950080ae3a214133db87afd7f795ebd125cb6e83f5",
+      "bindings": []
+    },
+    {
+      "unit": "closure_vendor_router_send",
+      "section": 120,
+      "anchor": "?Swap@?$Heap@GUPlayerIdAndGroupId@ConnectionGraph@@$0A@@DataStructures@@IAEXII@Z",
+      "anchor_offset": 0,
+      "rva": 325440,
+      "size": 147,
+      "kind": "code",
+      "sha256": "08bced561e195619da0ccfed83c2709e7bcaf43e895815f6a96c8acaeaf1182e",
+      "bindings": [
+        {
+          "symbol": "??0PlayerIdAndGroupId@ConnectionGraph@@QAE@XZ",
+          "site_rva": 325452,
+          "kind": 20,
+          "target_va": 268569216
+        },
+        {
+          "symbol": "??1PlayerIdAndGroupId@ConnectionGraph@@QAE@XZ",
+          "site_rva": 325575,
+          "kind": 20,
+          "target_va": 268569232
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_router_send",
+      "section": 143,
+      "anchor": "__ehhandler$?Pop@?$Heap@GUPlayerIdAndGroupId@ConnectionGraph@@$0A@@DataStructures@@QAE?AUPlayerIdAndGroupId@ConnectionGraph@@I@Z",
+      "anchor_offset": 33,
+      "rva": 930176,
+      "size": 43,
+      "kind": "code",
+      "sha256": "4521a0d9ffe6ef49f19dae9d257cdfae047464da1bcc1329cb02c10dc55850e5",
+      "bindings": [
+        {
+          "symbol": "??1PlayerIdAndGroupId@ConnectionGraph@@QAE@XZ",
+          "site_rva": 930180,
+          "kind": 20,
+          "target_va": 268569232
+        },
+        {
+          "symbol": "??1PlayerIdAndGroupId@ConnectionGraph@@QAE@XZ",
+          "site_rva": 930204,
+          "kind": 20,
+          "target_va": 268569232
+        },
+        {
+          "symbol": "$T5832",
+          "site_rva": 930210,
+          "kind": 6,
+          "target_va": 269463188
+        },
+        {
+          "symbol": "___CxxFrameHandler",
+          "site_rva": 930215,
+          "kind": 20,
+          "target_va": 269247782
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_router_send",
+      "section": 64,
+      "anchor": "?LeftChild@?$Heap@GUPlayerIdAndGroupId@ConnectionGraph@@$0A@@DataStructures@@IBEII@Z",
+      "anchor_offset": 0,
+      "rva": 324160,
+      "size": 11,
+      "kind": "code",
+      "sha256": "a2aa493c1db27010d4af0e64ef5967c3901de9af2ae5e123bd10211b1e0511cb",
+      "bindings": []
+    },
+    {
+      "unit": "closure_vendor_router_send",
+      "section": 66,
+      "anchor": "?RightChild@?$Heap@GUPlayerIdAndGroupId@ConnectionGraph@@$0A@@DataStructures@@IBEII@Z",
+      "anchor_offset": 0,
+      "rva": 324176,
+      "size": 11,
+      "kind": "code",
+      "sha256": "1569bab9b8896eb8645f5d0c084d1746c10402a83a299841c4ee82520446cdc1",
+      "bindings": []
+    },
+    {
+      "unit": "closure_vendor_router_send",
+      "section": 149,
+      "anchor": "__ehhandler$??1?$Heap@GUPlayerIdAndGroupId@ConnectionGraph@@$0A@@DataStructures@@QAE@XZ",
+      "anchor_offset": 8,
+      "rva": 930272,
+      "size": 18,
+      "kind": "code",
+      "sha256": "9b3d346b97e0a8a7930d4fc7fb45d5d766e90f4dcef8967ebe56056e5decf4b0",
+      "bindings": [
+        {
+          "symbol": "??1?$List@UHeapNode@?$Heap@GUPlayerIdAndGroupId@ConnectionGraph@@$0A@@DataStructures@@@DataStructures@@QAE@XZ",
+          "site_rva": 930276,
+          "kind": 20,
+          "target_va": 268761056
+        },
+        {
+          "symbol": "$T5849",
+          "site_rva": 930281,
+          "kind": 6,
+          "target_va": 269463276
+        },
+        {
+          "symbol": "___CxxFrameHandler",
+          "site_rva": 930286,
+          "kind": 20,
+          "target_va": 269247782
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_router_send",
+      "section": 122,
+      "anchor": "??1?$List@UHeapNode@?$Heap@GUPlayerIdAndGroupId@ConnectionGraph@@$0A@@DataStructures@@@DataStructures@@QAE@XZ",
+      "anchor_offset": 0,
+      "rva": 325600,
+      "size": 45,
+      "kind": "code",
+      "sha256": "00d9c0b35a7657eb04002e066220f15b6d0e35190d43377a4ce9d50323dd913a",
+      "bindings": [
+        {
+          "symbol": "??1HeapNode@?$Heap@GUPlayerIdAndGroupId@ConnectionGraph@@$0A@@DataStructures@@QAE@XZ",
+          "site_rva": 325621,
+          "kind": 6,
+          "target_va": 268759200
+        },
+        {
+          "symbol": "??_M@YGXPAXIHP6EX0@Z@Z",
+          "site_rva": 325630,
+          "kind": 20,
+          "target_va": 269254767
+        },
+        {
+          "symbol": "??3@YAXPAX@Z",
+          "site_rva": 325636,
+          "kind": 20,
+          "target_va": 269247626
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_router_send",
+      "section": 118,
+      "anchor": "$T5519",
+      "anchor_offset": 8,
+      "rva": 1027564,
+      "size": 36,
+      "kind": "data",
+      "sha256": "92ad8ba49bd2c0c62ecfac2ac7d22557728f3fb4053bf17fba3f929883d306f6",
+      "bindings": [
+        {
+          "symbol": "$L5492",
+          "site_rva": 1027568,
+          "kind": 6,
+          "target_va": 269365504
+        },
+        {
+          "symbol": "$T5532",
+          "site_rva": 1027580,
+          "kind": 6,
+          "target_va": 269463020
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_router_send",
+      "section": 56,
+      "anchor": "__ehhandler$?Insert@?$List@UPlayerIdAndGroupId@ConnectionGraph@@@DataStructures@@QAEXUPlayerIdAndGroupId@ConnectionGraph@@I@Z",
+      "anchor_offset": 19,
+      "rva": 929952,
+      "size": 29,
+      "kind": "code",
+      "sha256": "427081f50fd24181b9e5d34e8817e1442b9c8c1c15fad8c650ce52a006ffe2b6",
+      "bindings": [
+        {
+          "symbol": "??1PlayerIdAndGroupId@ConnectionGraph@@QAE@XZ",
+          "site_rva": 929956,
+          "kind": 20,
+          "target_va": 268569232
+        },
+        {
+          "symbol": "??3@YAXPAX@Z",
+          "site_rva": 929965,
+          "kind": 20,
+          "target_va": 269247626
+        },
+        {
+          "symbol": "$T5347",
+          "site_rva": 929972,
+          "kind": 6,
+          "target_va": 269462912
+        },
+        {
+          "symbol": "___CxxFrameHandler",
+          "site_rva": 929977,
+          "kind": 20,
+          "target_va": 269247782
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_router_send",
+      "section": 47,
+      "anchor": "??1HeapNode@?$Heap@GUPlayerIdAndGroupId@ConnectionGraph@@$0A@@DataStructures@@QAE@XZ",
+      "anchor_offset": 0,
+      "rva": 323744,
+      "size": 8,
+      "kind": "code",
+      "sha256": "64d67c69eacc236511134f520a80862c458d39865877926ad9f44a9394246c13",
+      "bindings": [
+        {
+          "symbol": "??1PlayerIdAndGroupId@ConnectionGraph@@QAE@XZ",
+          "site_rva": 323748,
+          "kind": 20,
+          "target_va": 268569232
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_router_send",
+      "section": 140,
+      "anchor": "$T5746",
+      "anchor_offset": 8,
+      "rva": 1027680,
+      "size": 36,
+      "kind": "data",
+      "sha256": "261d298e2bb67566f4409bb1adee3c67020c17ea8e3c7bade4b6de6f549539b7",
+      "bindings": [
+        {
+          "symbol": "$L5728",
+          "site_rva": 1027684,
+          "kind": 6,
+          "target_va": 269365600
+        },
+        {
+          "symbol": "$T5749",
+          "site_rva": 1027696,
+          "kind": 6,
+          "target_va": 269463136
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_router_send",
+      "section": 125,
+      "anchor": "__ehhandler$?Insert@?$List@UHeapNode@?$Heap@GUPlayerIdAndGroupId@ConnectionGraph@@$0A@@DataStructures@@@DataStructures@@QAEXUHeapNode@?$Heap@GUPlayerIdAndGroupId@ConnectionGraph@@$0A@@2@@Z",
+      "anchor_offset": 19,
+      "rva": 930080,
+      "size": 29,
+      "kind": "code",
+      "sha256": "71497ac03ca607897e5fc5eae9ff5e75d092e9b6b6edbdfd7a214b31f4162b7d",
+      "bindings": [
+        {
+          "symbol": "??1HeapNode@?$Heap@GUPlayerIdAndGroupId@ConnectionGraph@@$0A@@DataStructures@@QAE@XZ",
+          "site_rva": 930084,
+          "kind": 20,
+          "target_va": 268759200
+        },
+        {
+          "symbol": "??3@YAXPAX@Z",
+          "site_rva": 930093,
+          "kind": 20,
+          "target_va": 269247626
+        },
+        {
+          "symbol": "$T5675",
+          "site_rva": 930100,
+          "kind": 6,
+          "target_va": 269463072
+        },
+        {
+          "symbol": "___CxxFrameHandler",
+          "site_rva": 930105,
+          "kind": 20,
+          "target_va": 269247782
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_router_send",
+      "section": 80,
+      "anchor": "??0HeapNode@?$Heap@GUPlayerIdAndGroupId@ConnectionGraph@@$0A@@DataStructures@@QAE@XZ",
+      "anchor_offset": 0,
+      "rva": 324368,
+      "size": 15,
+      "kind": "code",
+      "sha256": "8bb3b6151145cda74dea88ab376ef5bec45899be216bb1c6868fa935ffffd250",
+      "bindings": [
+        {
+          "symbol": "??0PlayerIdAndGroupId@ConnectionGraph@@QAE@XZ",
+          "site_rva": 324375,
+          "kind": 20,
+          "target_va": 268569216
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_router_send",
+      "section": 144,
+      "anchor": "$T5832",
+      "anchor_offset": 16,
+      "rva": 1027716,
+      "size": 44,
+      "kind": "data",
+      "sha256": "4d6fe9095bac279e1a9e3699252098ebd9ff0c7a542f1e5979057c3b77978e12",
+      "bindings": [
+        {
+          "symbol": "$L5755",
+          "site_rva": 1027720,
+          "kind": 6,
+          "target_va": 269365640
+        },
+        {
+          "symbol": "$L5754",
+          "site_rva": 1027728,
+          "kind": 6,
+          "target_va": 269365632
+        },
+        {
+          "symbol": "$T5840",
+          "site_rva": 1027740,
+          "kind": 6,
+          "target_va": 269463172
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_router_send",
+      "section": 150,
+      "anchor": "$T5849",
+      "anchor_offset": 8,
+      "rva": 1027812,
+      "size": 36,
+      "kind": "data",
+      "sha256": "f5dc9c69325f55c2a532952e8008645ceddbe12a8d528d11080d42c81e83eb99",
+      "bindings": [
+        {
+          "symbol": "$L5847",
+          "site_rva": 1027816,
+          "kind": 6,
+          "target_va": 269365728
+        },
+        {
+          "symbol": "$T5851",
+          "site_rva": 1027828,
+          "kind": 6,
+          "target_va": 269463268
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_router_send",
+      "section": 57,
+      "anchor": "$T5347",
+      "anchor_offset": 16,
+      "rva": 1027440,
+      "size": 44,
+      "kind": "data",
+      "sha256": "5588ed5d0e230d78e7a18fa25fed4d211c831e98bdc9ab60c215ca36de8b2b86",
+      "bindings": [
+        {
+          "symbol": "$L5326",
+          "site_rva": 1027444,
+          "kind": 6,
+          "target_va": 269365408
+        },
+        {
+          "symbol": "$L5327",
+          "site_rva": 1027452,
+          "kind": 6,
+          "target_va": 269365416
+        },
+        {
+          "symbol": "$T5350",
+          "site_rva": 1027464,
+          "kind": 6,
+          "target_va": 269462896
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_router_send",
+      "section": 126,
+      "anchor": "$T5675",
+      "anchor_offset": 16,
+      "rva": 1027600,
+      "size": 44,
+      "kind": "data",
+      "sha256": "d7f8c0954cd7719533ea7bbe3a134c2ad2fb5f0e4d5b35fff28360f81bb33616",
+      "bindings": [
+        {
+          "symbol": "$L5637",
+          "site_rva": 1027604,
+          "kind": 6,
+          "target_va": 269365536
+        },
+        {
+          "symbol": "$L5638",
+          "site_rva": 1027612,
+          "kind": 6,
+          "target_va": 269365544
+        },
+        {
+          "symbol": "$T5677",
+          "site_rva": 1027624,
+          "kind": 6,
+          "target_va": 269463056
+        }
+      ]
+    }
+  ],
+  "seeds": [
+    {
+      "unit": "closure_vendor_router_send",
+      "symbol": "?Send@Router@@QAE_NPADIW4PacketPriority@@W4PacketReliability@@DPAVSystemAddressList@@@Z",
+      "rva": 332480,
+      "size": 667
+    },
+    {
+      "unit": "closure_vendor_router_send",
+      "symbol": "?Send@Router@@UAE_NPBDIW4PacketPriority@@W4PacketReliability@@DUPlayerID@@@Z",
+      "rva": 333152,
+      "size": 208
+    }
+  ],
+  "new_unique_code": 963,
+  "object_sha256": {
+    "closure_vendor_router_send": "f394cc4116b7cd22a797179cb90c3938df743d95822b8786cda27986ef5d9c8e"
+  },
+  "source_sha256": {
+    "closure_vendor_router_send": "ff3b4b48bee79eb853d47192177318d5352b3d613fb37c2106a3db50b29afb6e"
+  },
+  "storage": "All reachable complete source code/data/EH sections traversed, every actual COFF and PE target compared. Genuine vendor types/layouts and already accepted external owners. Emitted unreferenced sections remain outside coverage. Source exactness only; linked selection remains to be verified.",
+  "weak_aliases": {},
+  "scope": "Fresh whole source sections, all real COFF/PE targets, local canonical providers followed through actual COFF weak aliases; linked acceptance remains mandatory."
+}

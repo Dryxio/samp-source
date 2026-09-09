@@ -1,0 +1,417 @@
+{
+  "status": "PASS_FULL_SOURCE_REGIONS_ALL_COFF_PE_TARGETS",
+  "baseline": "evidence/checkpoint32/astra-resume-four-acceptance.json",
+  "run": "build/cp32-astra40-probe-three",
+  "regions": [
+    {
+      "unit": "closure_vendor_raknet_transport_parser_lifecycle",
+      "section": 3,
+      "anchor": "??0RakNetTransportCommandParser@@QAE@XZ",
+      "anchor_offset": 0,
+      "rva": 225088,
+      "size": 123,
+      "kind": "code",
+      "sha256": "f107538dde8a118bb5234e002759d60c27f80ed6848054e487b1a977dc81d309",
+      "bindings": [
+        {
+          "symbol": "__ehhandler$??0RakNetTransportCommandParser@@QAE@XZ",
+          "site_rva": 225091,
+          "kind": 6,
+          "target_va": 269362296
+        },
+        {
+          "symbol": "__except_list",
+          "site_rva": 225097,
+          "kind": 6,
+          "target_va": 0
+        },
+        {
+          "symbol": "__except_list",
+          "site_rva": 225105,
+          "kind": 6,
+          "target_va": 0
+        },
+        {
+          "symbol": "??0CommandParserInterface@@QAE@XZ",
+          "site_rva": 225118,
+          "kind": 20,
+          "target_va": 268569104
+        },
+        {
+          "symbol": "??_C@_0CK@NKBOGLPO@Changes?5the?5console?5password?5to?5@",
+          "site_rva": 225123,
+          "kind": 6,
+          "target_va": 269388148
+        },
+        {
+          "symbol": "??_C@_0M@FBJIDDGJ@SetPassword?$AA@",
+          "site_rva": 225128,
+          "kind": 6,
+          "target_va": 269388136
+        },
+        {
+          "symbol": "??_7RakNetTransportCommandParser@@6B@",
+          "site_rva": 225146,
+          "kind": 6,
+          "target_va": 269388076
+        },
+        {
+          "symbol": "?RegisterCommand@CommandParserInterface@@MAEXEPBD0@Z",
+          "site_rva": 225151,
+          "kind": 20,
+          "target_va": 268568880
+        },
+        {
+          "symbol": "??_C@_0BP@OKIDMABB@Removes?5the?5console?5passwords?4?$AA@",
+          "site_rva": 225156,
+          "kind": 6,
+          "target_va": 269388044
+        },
+        {
+          "symbol": "??_C@_0O@BELEKNGP@ClearPassword?$AA@",
+          "site_rva": 225161,
+          "kind": 6,
+          "target_va": 269388028
+        },
+        {
+          "symbol": "?RegisterCommand@CommandParserInterface@@MAEXEPBD0@Z",
+          "site_rva": 225170,
+          "kind": 20,
+          "target_va": 268568880
+        },
+        {
+          "symbol": "??_C@_0BL@JBBBHLMH@Gets?5the?5console?5password?4?$AA@",
+          "site_rva": 225175,
+          "kind": 6,
+          "target_va": 269388000
+        },
+        {
+          "symbol": "??_C@_0M@FOIGOFOK@GetPassword?$AA@",
+          "site_rva": 225180,
+          "kind": 6,
+          "target_va": 269387988
+        },
+        {
+          "symbol": "?RegisterCommand@CommandParserInterface@@MAEXEPBD0@Z",
+          "site_rva": 225189,
+          "kind": 20,
+          "target_va": 268568880
+        },
+        {
+          "symbol": "__except_list",
+          "site_rva": 225203,
+          "kind": 6,
+          "target_va": 0
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_raknet_transport_parser_lifecycle",
+      "section": 15,
+      "anchor": "??1RakNetTransportCommandParser@@UAE@XZ",
+      "anchor_offset": 0,
+      "rva": 225216,
+      "size": 11,
+      "kind": "code",
+      "sha256": "10eaa3a5c7d23e9bbae164ba28f194611be4aace590472dc9e2537a1ea7849fb",
+      "bindings": [
+        {
+          "symbol": "??_7RakNetTransportCommandParser@@6B@",
+          "site_rva": 225218,
+          "kind": 6,
+          "target_va": 269388076
+        },
+        {
+          "symbol": "??1CommandParserInterface@@UAE@XZ",
+          "site_rva": 225223,
+          "kind": 20,
+          "target_va": 268569136
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_raknet_transport_parser_lifecycle",
+      "section": 17,
+      "anchor": "??_GRakNetTransportCommandParser@@UAEPAXI@Z",
+      "anchor_offset": 0,
+      "rva": 226080,
+      "size": 30,
+      "kind": "code",
+      "sha256": "feba5c419dfc51db85354882907a3c108a2f2b4f7f7cadf13b5875c64866d6e9",
+      "bindings": [
+        {
+          "symbol": "??1RakNetTransportCommandParser@@UAE@XZ",
+          "site_rva": 226084,
+          "kind": 20,
+          "target_va": 268660672
+        },
+        {
+          "symbol": "??3@YAXPAX@Z",
+          "site_rva": 226097,
+          "kind": 20,
+          "target_va": 269247626
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_raknet_transport_parser_lifecycle",
+      "section": 4,
+      "anchor": "__ehhandler$??0RakNetTransportCommandParser@@QAE@XZ",
+      "anchor_offset": 8,
+      "rva": 926832,
+      "size": 18,
+      "kind": "code",
+      "sha256": "13e68f582146e23e3b0d0d6fe1f71027615bc1c18b484e24cbb9690b88181bf1",
+      "bindings": [
+        {
+          "symbol": "??1CommandParserInterface@@UAE@XZ",
+          "site_rva": 926836,
+          "kind": 20,
+          "target_va": 268569136
+        },
+        {
+          "symbol": "$T1273",
+          "site_rva": 926841,
+          "kind": 6,
+          "target_va": 269459764
+        },
+        {
+          "symbol": "___CxxFrameHandler",
+          "site_rva": 926846,
+          "kind": 20,
+          "target_va": 269247782
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_raknet_transport_parser_lifecycle",
+      "section": 11,
+      "anchor": "??_C@_0CK@NKBOGLPO@Changes?5the?5console?5password?5to?5@",
+      "anchor_offset": 0,
+      "rva": 952692,
+      "size": 42,
+      "kind": "data",
+      "sha256": "fd0d02c78163a6e8df8289b439247ab2b1433e67f066ca2c35d24bd1151854e0",
+      "bindings": []
+    },
+    {
+      "unit": "closure_vendor_raknet_transport_parser_lifecycle",
+      "section": 10,
+      "anchor": "??_C@_0M@FBJIDDGJ@SetPassword?$AA@",
+      "anchor_offset": 0,
+      "rva": 952680,
+      "size": 12,
+      "kind": "data",
+      "sha256": "9cca24fd11176ebb2481ccafa532799ec59ca6d80eac02c9b7bcbd9b3f0f523c",
+      "bindings": []
+    },
+    {
+      "unit": "closure_vendor_raknet_transport_parser_lifecycle",
+      "section": 9,
+      "anchor": "??_7RakNetTransportCommandParser@@6B@",
+      "anchor_offset": 0,
+      "rva": 952620,
+      "size": 60,
+      "kind": "data",
+      "sha256": "0460ffb3525751ded8a6484b06e997b1193e939a89c47380d044885fa94b56f4",
+      "bindings": [
+        {
+          "symbol": "??_ERakNetTransportCommandParser@@UAEPAXI@Z",
+          "site_rva": 952620,
+          "kind": 6,
+          "target_va": 268661536
+        },
+        {
+          "symbol": "?GetName@RakNetTransportCommandParser@@UBEPADXZ",
+          "site_rva": 952624,
+          "kind": 6,
+          "target_va": 268660688
+        },
+        {
+          "symbol": "?OnNewIncomingConnection@CommandParserInterface@@UAEXUPlayerID@@PAVTransportInterface@@@Z",
+          "site_rva": 952628,
+          "kind": 6,
+          "target_va": 268567488
+        },
+        {
+          "symbol": "?OnConnectionLost@CommandParserInterface@@UAEXUPlayerID@@PAVTransportInterface@@@Z",
+          "site_rva": 952632,
+          "kind": 6,
+          "target_va": 268567504
+        },
+        {
+          "symbol": "?SendHelp@RakNetTransportCommandParser@@UAEXPAVTransportInterface@@UPlayerID@@@Z",
+          "site_rva": 952636,
+          "kind": 6,
+          "target_va": 268660704
+        },
+        {
+          "symbol": "?OnCommand@RakNetTransportCommandParser@@UAE_NPBDIPAPADPAVTransportInterface@@UPlayerID@@0@Z",
+          "site_rva": 952640,
+          "kind": 6,
+          "target_va": 268661568
+        },
+        {
+          "symbol": "?OnTransportChange@CommandParserInterface@@UAEXPAVTransportInterface@@@Z",
+          "site_rva": 952644,
+          "kind": 6,
+          "target_va": 268567472
+        },
+        {
+          "symbol": "?GetRegisteredCommand@CommandParserInterface@@UAE_NPBDPAURegisteredCommand@@@Z",
+          "site_rva": 952648,
+          "kind": 6,
+          "target_va": 268568944
+        },
+        {
+          "symbol": "?SendCommandList@CommandParserInterface@@UAEXPAVTransportInterface@@UPlayerID@@@Z",
+          "site_rva": 952652,
+          "kind": 6,
+          "target_va": 268568656
+        },
+        {
+          "symbol": "?RegisterCommand@CommandParserInterface@@MAEXEPBD0@Z",
+          "site_rva": 952656,
+          "kind": 6,
+          "target_va": 268568880
+        },
+        {
+          "symbol": "?ReturnResult@CommandParserInterface@@MAEXPBDPAVTransportInterface@@UPlayerID@@@Z",
+          "site_rva": 952660,
+          "kind": 6,
+          "target_va": 268567648
+        },
+        {
+          "symbol": "?ReturnResult@CommandParserInterface@@MAEXHPBDPAVTransportInterface@@UPlayerID@@@Z",
+          "site_rva": 952664,
+          "kind": 6,
+          "target_va": 268567584
+        },
+        {
+          "symbol": "?ReturnResult@CommandParserInterface@@MAEXUPlayerID@@PBDPAVTransportInterface@@0@Z",
+          "site_rva": 952668,
+          "kind": 6,
+          "target_va": 268567760
+        },
+        {
+          "symbol": "?ReturnResult@CommandParserInterface@@MAEXPADPBDPAVTransportInterface@@UPlayerID@@@Z",
+          "site_rva": 952672,
+          "kind": 6,
+          "target_va": 268567696
+        },
+        {
+          "symbol": "?ReturnResult@CommandParserInterface@@MAEX_NPBDPAVTransportInterface@@UPlayerID@@@Z",
+          "site_rva": 952676,
+          "kind": 6,
+          "target_va": 268567520
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_raknet_transport_parser_lifecycle",
+      "section": 8,
+      "anchor": "??_C@_0BP@OKIDMABB@Removes?5the?5console?5passwords?4?$AA@",
+      "anchor_offset": 0,
+      "rva": 952588,
+      "size": 31,
+      "kind": "data",
+      "sha256": "bf73fab903d94fff99672fe706cd86d873a01ea96bda3168063f3542f7aa261f",
+      "bindings": []
+    },
+    {
+      "unit": "closure_vendor_raknet_transport_parser_lifecycle",
+      "section": 7,
+      "anchor": "??_C@_0O@BELEKNGP@ClearPassword?$AA@",
+      "anchor_offset": 0,
+      "rva": 952572,
+      "size": 14,
+      "kind": "data",
+      "sha256": "7fc19ee5a9b6f4b8bb40f8e1e02744fa220c9443877e84fc3dc7d36c804930b0",
+      "bindings": []
+    },
+    {
+      "unit": "closure_vendor_raknet_transport_parser_lifecycle",
+      "section": 6,
+      "anchor": "??_C@_0BL@JBBBHLMH@Gets?5the?5console?5password?4?$AA@",
+      "anchor_offset": 0,
+      "rva": 952544,
+      "size": 27,
+      "kind": "data",
+      "sha256": "642e61eb30df72d008bc103001e010264a49246d3ccac5fe2cb2aad024d9a48c",
+      "bindings": []
+    },
+    {
+      "unit": "closure_vendor_raknet_transport_parser_lifecycle",
+      "section": 5,
+      "anchor": "??_C@_0M@FOIGOFOK@GetPassword?$AA@",
+      "anchor_offset": 0,
+      "rva": 952532,
+      "size": 12,
+      "kind": "data",
+      "sha256": "c8954f72fb7c88a0c0fc67a62c258931a74d36d219d62d82fdaf61e4113d65f7",
+      "bindings": []
+    },
+    {
+      "unit": "closure_vendor_raknet_transport_parser_lifecycle",
+      "section": 12,
+      "anchor": "$T1273",
+      "anchor_offset": 8,
+      "rva": 1024300,
+      "size": 36,
+      "kind": "data",
+      "sha256": "29220bfaccf06e5dc19185070d5c8894c2f9469e4201dc505fedbd5d3f2a4225",
+      "bindings": [
+        {
+          "symbol": "$L1269",
+          "site_rva": 1024304,
+          "kind": 6,
+          "target_va": 269362288
+        },
+        {
+          "symbol": "$T1278",
+          "site_rva": 1024316,
+          "kind": 6,
+          "target_va": 269459756
+        }
+      ]
+    }
+  ],
+  "seeds": [
+    {
+      "unit": "closure_vendor_raknet_transport_parser_lifecycle",
+      "symbol": "??0RakNetTransportCommandParser@@QAE@XZ",
+      "rva": 225088,
+      "size": 123
+    },
+    {
+      "unit": "closure_vendor_raknet_transport_parser_lifecycle",
+      "symbol": "??1RakNetTransportCommandParser@@UAE@XZ",
+      "rva": 225216,
+      "size": 11
+    },
+    {
+      "unit": "closure_vendor_raknet_transport_parser_lifecycle",
+      "symbol": "??_GRakNetTransportCommandParser@@UAEPAXI@Z",
+      "rva": 226080,
+      "size": 30
+    }
+  ],
+  "new_unique_code": 182,
+  "object_sha256": {
+    "closure_vendor_raknet_transport_parser_lifecycle": "6130c3a0f164635cadce7a14de5b46c529f3addf71526f97084c90eb6a19adfd"
+  },
+  "source_sha256": {
+    "closure_vendor_raknet_transport_parser_lifecycle": "cd2b432d588b4ff88ad100a3cb52f12fb05e96d0ecbef5592406cb2d85978e77"
+  },
+  "storage": "All reachable complete source code/data/EH sections traversed, every actual COFF and PE target compared. Genuine vendor types/layouts and already accepted external owners. Emitted unreferenced sections remain outside coverage. Source exactness only; linked selection remains to be verified.",
+  "weak_aliases": {
+    "??_ERakNetTransportCommandParser@@UAEPAXI@Z": "??_GRakNetTransportCommandParser@@UAEPAXI@Z"
+  },
+  "scope": "Fresh whole source sections, all real COFF/PE targets, local canonical providers followed through actual COFF weak aliases; linked acceptance remains mandatory.",
+  "actual_weak_aliases": {
+    "closure_vendor_raknet_transport_parser_lifecycle": {
+      "??_ERakNetTransportCommandParser@@UAEPAXI@Z": "??_GRakNetTransportCommandParser@@UAEPAXI@Z"
+    }
+  },
+  "schema_correction": "Original flat weak_aliases retained; actual_weak_aliases keyed by unit now supplied as required by review_contract.py. Verified directly from actual object storage105 auxiliary target index. Canonical full G30 and VFT60 already compared; no byte or source change."
+}

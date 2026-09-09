@@ -1,0 +1,681 @@
+{
+  "status": "PASS_FULL_SOURCE_REGIONS_ALL_COFF_PE_TARGETS",
+  "baseline": "evidence/checkpoint32/astra-resume-four-acceptance.json",
+  "run": "build/cp32-astra40-probe-two",
+  "regions": [
+    {
+      "unit": "closure_vendor_raknet_transport_methods",
+      "section": 33,
+      "anchor": "?OnCommand@RakNetTransportCommandParser@@UAE_NPBDIPAPADPAVTransportInterface@@UPlayerID@@0@Z",
+      "anchor_offset": 0,
+      "rva": 226112,
+      "size": 272,
+      "kind": "code",
+      "sha256": "7f90a7ced6f7b1b547f6542bf73f79ca8c43e7e42174c60bb595c37d110adc26",
+      "bindings": [
+        {
+          "symbol": "??_C@_0M@FBJIDDGJ@SetPassword?$AA@",
+          "site_rva": 226119,
+          "kind": 6,
+          "target_va": 269388136
+        },
+        {
+          "symbol": "?SetIncomingPassword@RakNetTransport@@QAEXPBD@Z",
+          "site_rva": 226150,
+          "kind": 20,
+          "target_va": 268660848
+        },
+        {
+          "symbol": "??_C@_0BJ@FNFBMFGC@Password?5changed?5to?5?$CFs?$AN?6?$AA@",
+          "site_rva": 226164,
+          "kind": 6,
+          "target_va": 269388424
+        },
+        {
+          "symbol": "??_C@_0O@BELEKNGP@ClearPassword?$AA@",
+          "site_rva": 226199,
+          "kind": 6,
+          "target_va": 269388028
+        },
+        {
+          "symbol": "?SetIncomingPassword@RakNetTransport@@QAEXPBD@Z",
+          "site_rva": 226224,
+          "kind": 20,
+          "target_va": 268660848
+        },
+        {
+          "symbol": "??_C@_0BD@OGNGJJCO@Password?5cleared?$AN?6?$AA@",
+          "site_rva": 226235,
+          "kind": 6,
+          "target_va": 269388404
+        },
+        {
+          "symbol": "??_C@_0M@FOIGOFOK@GetPassword?$AA@",
+          "site_rva": 226272,
+          "kind": 6,
+          "target_va": 269387988
+        },
+        {
+          "symbol": "?GetIncomingPassword@RakNetTransport@@QAEPADXZ",
+          "site_rva": 226294,
+          "kind": 20,
+          "target_va": 268660912
+        },
+        {
+          "symbol": "??_C@_0BB@JMOHCMGH@Password?5is?5?$CFs?$AN?6?$AA@",
+          "site_rva": 226311,
+          "kind": 6,
+          "target_va": 269388384
+        },
+        {
+          "symbol": "??_C@_0BG@MENCBHLB@No?5password?5is?5set?4?$AN?6?$AA@",
+          "site_rva": 226350,
+          "kind": 6,
+          "target_va": 269388360
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_raknet_transport_methods",
+      "section": 5,
+      "anchor": "?GetName@RakNetTransportCommandParser@@UBEPADXZ",
+      "anchor_offset": 0,
+      "rva": 225232,
+      "size": 6,
+      "kind": "code",
+      "sha256": "ca80213f203e9ec623c5cb3da913b07e94146f9cfc8012203abbd2282bade641",
+      "bindings": [
+        {
+          "symbol": "??_C@_0BA@HPJJPGNF@RakNetTransport?$AA@",
+          "site_rva": 225233,
+          "kind": 6,
+          "target_va": 269388192
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_raknet_transport_methods",
+      "section": 8,
+      "anchor": "?SendHelp@RakNetTransportCommandParser@@UAEXPAVTransportInterface@@UPlayerID@@@Z",
+      "anchor_offset": 0,
+      "rva": 225248,
+      "size": 72,
+      "kind": "code",
+      "sha256": "b3c6858133c5b42b10c5f83c61618402809e3342ee5c9d85f07bd0c1609305e5",
+      "bindings": [
+        {
+          "symbol": "??_C@_0DE@FMKBCBHO@Provides?5a?5secure?5connection?5bet@",
+          "site_rva": 225267,
+          "kind": 6,
+          "target_va": 269388272
+        },
+        {
+          "symbol": "??_C@_0EA@MEMGAOBM@and?5the?5console?5server?4?5?5Used?5to@",
+          "site_rva": 225292,
+          "kind": 6,
+          "target_va": 269388208
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_raknet_transport_methods",
+      "section": 42,
+      "anchor": "?Stop@RakNetTransport@@UAEXXZ",
+      "anchor_offset": 0,
+      "rva": 226704,
+      "size": 95,
+      "kind": "code",
+      "sha256": "25b2c1923422c24bb3ec82afa2c82439abe808a26b82dd9702a9e1312103c760",
+      "bindings": [
+        {
+          "symbol": "??3@YAXPAX@Z",
+          "site_rva": 226747,
+          "kind": 20,
+          "target_va": 269247626
+        },
+        {
+          "symbol": "??3@YAXPAX@Z",
+          "site_rva": 226780,
+          "kind": 20,
+          "target_va": 269247626
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_raknet_transport_methods",
+      "section": 44,
+      "anchor": "?Send@RakNetTransport@@UAAXUPlayerID@@PBDZZ",
+      "anchor_offset": 0,
+      "rva": 226800,
+      "size": 326,
+      "kind": "code",
+      "sha256": "45f1990746d5b151957fa846ad0c4b8f44faebbe002727cb589c81b5939b22cd",
+      "bindings": [
+        {
+          "symbol": "__except_list",
+          "site_rva": 226802,
+          "kind": 6,
+          "target_va": 0
+        },
+        {
+          "symbol": "__ehhandler$?Send@RakNetTransport@@UAAXUPlayerID@@PBDZZ",
+          "site_rva": 226809,
+          "kind": 6,
+          "target_va": 269362411
+        },
+        {
+          "symbol": "__except_list",
+          "site_rva": 226817,
+          "kind": 6,
+          "target_va": 0
+        },
+        {
+          "symbol": "__vsnprintf",
+          "site_rva": 226894,
+          "kind": 20,
+          "target_va": 269257167
+        },
+        {
+          "symbol": "??0BitStream@RakNet@@QAE@XZ",
+          "site_rva": 226914,
+          "kind": 20,
+          "target_va": 268564272
+        },
+        {
+          "symbol": "?WriteBits@BitStream@RakNet@@QAEXPBEH_N@Z",
+          "site_rva": 226948,
+          "kind": 20,
+          "target_va": 268566496
+        },
+        {
+          "symbol": "?Write@BitStream@RakNet@@QAEXPBDH@Z",
+          "site_rva": 226985,
+          "kind": 20,
+          "target_va": 268566672
+        },
+        {
+          "symbol": "?WriteBits@BitStream@RakNet@@QAEXPBEH_N@Z",
+          "site_rva": 227008,
+          "kind": 20,
+          "target_va": 268566496
+        },
+        {
+          "symbol": "_UNASSIGNED_PLAYER_ID",
+          "site_rva": 227018,
+          "kind": 6,
+          "target_va": 269477824
+        },
+        {
+          "symbol": "??8PlayerID@@QBE_NABU0@@Z",
+          "site_rva": 227030,
+          "kind": 20,
+          "target_va": 268646112
+        },
+        {
+          "symbol": "??1BitStream@RakNet@@QAE@XZ",
+          "site_rva": 227099,
+          "kind": 20,
+          "target_va": 268564688
+        },
+        {
+          "symbol": "__except_list",
+          "site_rva": 227114,
+          "kind": 6,
+          "target_va": 0
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_raknet_transport_methods",
+      "section": 12,
+      "anchor": "?CloseConnection@RakNetTransport@@UAEXUPlayerID@@@Z",
+      "anchor_offset": 0,
+      "rva": 225344,
+      "size": 37,
+      "kind": "code",
+      "sha256": "db05daf0507ec8f43fae69d20a242e1e54dd69308607ce2f00ecf9267d7fec87",
+      "bindings": []
+    },
+    {
+      "unit": "closure_vendor_raknet_transport_methods",
+      "section": 49,
+      "anchor": "?Receive@RakNetTransport@@UAEPAUPacket@@XZ",
+      "anchor_offset": 0,
+      "rva": 227136,
+      "size": 111,
+      "kind": "code",
+      "sha256": "53b98e7662da0e5690e5c03bbfcf13d5bd5ff2449eb522a27a0367b5dc52e05c",
+      "bindings": [
+        {
+          "symbol": "?Push@?$Queue@UPlayerID@@@DataStructures@@QAEXABUPlayerID@@@Z",
+          "site_rva": 227195,
+          "kind": 20,
+          "target_va": 268661120
+        },
+        {
+          "symbol": "?Push@?$Queue@UPlayerID@@@DataStructures@@QAEXABUPlayerID@@@Z",
+          "site_rva": 227229,
+          "kind": 20,
+          "target_va": 268661120
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_raknet_transport_methods",
+      "section": 51,
+      "anchor": "?HasNewConnection@RakNetTransport@@UAE?AUPlayerID@@XZ",
+      "anchor_offset": 0,
+      "rva": 227248,
+      "size": 122,
+      "kind": "code",
+      "sha256": "c4edecc2b4cca3aca0fa35a0760e29f68c296faa6b84ab92addb658355627c87",
+      "bindings": [
+        {
+          "symbol": "_UNASSIGNED_PLAYER_ID",
+          "site_rva": 227347,
+          "kind": 6,
+          "target_va": 269477824
+        },
+        {
+          "symbol": "_UNASSIGNED_PLAYER_ID",
+          "site_rva": 227358,
+          "kind": 6,
+          "target_va": 269477828
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_raknet_transport_methods",
+      "section": 53,
+      "anchor": "?HasLostConnection@RakNetTransport@@UAE?AUPlayerID@@XZ",
+      "anchor_offset": 0,
+      "rva": 227376,
+      "size": 122,
+      "kind": "code",
+      "sha256": "139cd7dd969b5fb1dbcb50d7a85e0a05e26fb2706a60939f96cb3795812c568a",
+      "bindings": [
+        {
+          "symbol": "_UNASSIGNED_PLAYER_ID",
+          "site_rva": 227475,
+          "kind": 6,
+          "target_va": 269477824
+        },
+        {
+          "symbol": "_UNASSIGNED_PLAYER_ID",
+          "site_rva": 227486,
+          "kind": 6,
+          "target_va": 269477828
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_raknet_transport_methods",
+      "section": 14,
+      "anchor": "?SetIncomingPassword@RakNetTransport@@QAEXPBD@Z",
+      "anchor_offset": 0,
+      "rva": 225392,
+      "size": 57,
+      "kind": "code",
+      "sha256": "73ecad1691c0affd0409079a12a11b507a8e82aff569f30ed93114c08d868681",
+      "bindings": []
+    },
+    {
+      "unit": "closure_vendor_raknet_transport_methods",
+      "section": 16,
+      "anchor": "?GetIncomingPassword@RakNetTransport@@QAEPADXZ",
+      "anchor_offset": 0,
+      "rva": 225456,
+      "size": 43,
+      "kind": "code",
+      "sha256": "a366808c60f6efed7e8eeef1b488cf5858ee11e1769daab1193939d88ca6a70b",
+      "bindings": [
+        {
+          "symbol": "?password@?1??GetIncomingPassword@RakNetTransport@@QAEPADXZ@4PADA",
+          "site_rva": 225475,
+          "kind": 6,
+          "target_va": 269585400
+        },
+        {
+          "symbol": "?password@?1??GetIncomingPassword@RakNetTransport@@QAEPADXZ@4PADA",
+          "site_rva": 225487,
+          "kind": 6,
+          "target_va": 269585400
+        },
+        {
+          "symbol": "?password@?1??GetIncomingPassword@RakNetTransport@@QAEPADXZ@4PADA",
+          "site_rva": 225493,
+          "kind": 6,
+          "target_va": 269585400
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_raknet_transport_methods",
+      "section": 19,
+      "anchor": "?DeallocatePacket@RakNetTransport@@UAEXPAUPacket@@@Z",
+      "anchor_offset": 0,
+      "rva": 225504,
+      "size": 29,
+      "kind": "code",
+      "sha256": "333b3416f1216d9aaa2096973cad01869a211669c8298919c1c9206617d978e8",
+      "bindings": []
+    },
+    {
+      "unit": "closure_vendor_raknet_transport_methods",
+      "section": 21,
+      "anchor": "?GetCommandParser@RakNetTransport@@UAEPAVCommandParserInterface@@XZ",
+      "anchor_offset": 0,
+      "rva": 225568,
+      "size": 4,
+      "kind": "code",
+      "sha256": "84820c9f74a607947a808a1567dcf68506f79bdd5cb57fd2d8af148e5c8c05b7",
+      "bindings": []
+    },
+    {
+      "unit": "closure_vendor_raknet_transport_methods",
+      "section": 40,
+      "anchor": "??_C@_0M@FBJIDDGJ@SetPassword?$AA@",
+      "anchor_offset": 0,
+      "rva": 952680,
+      "size": 12,
+      "kind": "data",
+      "sha256": "9cca24fd11176ebb2481ccafa532799ec59ca6d80eac02c9b7bcbd9b3f0f523c",
+      "bindings": []
+    },
+    {
+      "unit": "closure_vendor_raknet_transport_methods",
+      "section": 39,
+      "anchor": "??_C@_0BJ@FNFBMFGC@Password?5changed?5to?5?$CFs?$AN?6?$AA@",
+      "anchor_offset": 0,
+      "rva": 952968,
+      "size": 25,
+      "kind": "data",
+      "sha256": "95cc47a89c15c38f2394737ace57e88073c779c127a63dd5201df1d09e02adda",
+      "bindings": []
+    },
+    {
+      "unit": "closure_vendor_raknet_transport_methods",
+      "section": 38,
+      "anchor": "??_C@_0O@BELEKNGP@ClearPassword?$AA@",
+      "anchor_offset": 0,
+      "rva": 952572,
+      "size": 14,
+      "kind": "data",
+      "sha256": "7fc19ee5a9b6f4b8bb40f8e1e02744fa220c9443877e84fc3dc7d36c804930b0",
+      "bindings": []
+    },
+    {
+      "unit": "closure_vendor_raknet_transport_methods",
+      "section": 37,
+      "anchor": "??_C@_0BD@OGNGJJCO@Password?5cleared?$AN?6?$AA@",
+      "anchor_offset": 0,
+      "rva": 952948,
+      "size": 19,
+      "kind": "data",
+      "sha256": "24b5806d95fba87cdc4152fbdaea1b6aed7a04c8b594b91a411f06c51810245b",
+      "bindings": []
+    },
+    {
+      "unit": "closure_vendor_raknet_transport_methods",
+      "section": 36,
+      "anchor": "??_C@_0M@FOIGOFOK@GetPassword?$AA@",
+      "anchor_offset": 0,
+      "rva": 952532,
+      "size": 12,
+      "kind": "data",
+      "sha256": "c8954f72fb7c88a0c0fc67a62c258931a74d36d219d62d82fdaf61e4113d65f7",
+      "bindings": []
+    },
+    {
+      "unit": "closure_vendor_raknet_transport_methods",
+      "section": 35,
+      "anchor": "??_C@_0BB@JMOHCMGH@Password?5is?5?$CFs?$AN?6?$AA@",
+      "anchor_offset": 0,
+      "rva": 952928,
+      "size": 17,
+      "kind": "data",
+      "sha256": "f1910d1ee7b4fcc09c8c4e9872e129b8f2a3a3d296a40319c1ad06d39cbdef34",
+      "bindings": []
+    },
+    {
+      "unit": "closure_vendor_raknet_transport_methods",
+      "section": 34,
+      "anchor": "??_C@_0BG@MENCBHLB@No?5password?5is?5set?4?$AN?6?$AA@",
+      "anchor_offset": 0,
+      "rva": 952904,
+      "size": 22,
+      "kind": "data",
+      "sha256": "10b384a2ac4af45389aeb0776321602e34677d27dcc600bfaea644eb9ba69502",
+      "bindings": []
+    },
+    {
+      "unit": "closure_vendor_raknet_transport_methods",
+      "section": 6,
+      "anchor": "??_C@_0BA@HPJJPGNF@RakNetTransport?$AA@",
+      "anchor_offset": 0,
+      "rva": 952736,
+      "size": 16,
+      "kind": "data",
+      "sha256": "aa3e34d348159eea776a60dbe068c26a27ba069935adbece1e9a1f869e926ba5",
+      "bindings": []
+    },
+    {
+      "unit": "closure_vendor_raknet_transport_methods",
+      "section": 10,
+      "anchor": "??_C@_0DE@FMKBCBHO@Provides?5a?5secure?5connection?5bet@",
+      "anchor_offset": 0,
+      "rva": 952816,
+      "size": 52,
+      "kind": "data",
+      "sha256": "b4ab52326b2d5f7cbc686ffba4bb5bde7808564f3501bc4a3e2c87eece8c6267",
+      "bindings": []
+    },
+    {
+      "unit": "closure_vendor_raknet_transport_methods",
+      "section": 9,
+      "anchor": "??_C@_0EA@MEMGAOBM@and?5the?5console?5server?4?5?5Used?5to@",
+      "anchor_offset": 0,
+      "rva": 952752,
+      "size": 64,
+      "kind": "data",
+      "sha256": "ea1b4eacccbea58edd06068bc795cac0299cda9fcdc0ba1f9f0951a32edd4b67",
+      "bindings": []
+    },
+    {
+      "unit": "closure_vendor_raknet_transport_methods",
+      "section": 45,
+      "anchor": "__ehhandler$?Send@RakNetTransport@@UAAXUPlayerID@@PBDZZ",
+      "anchor_offset": 11,
+      "rva": 926944,
+      "size": 21,
+      "kind": "code",
+      "sha256": "e07990d135b93b3f330f59e6604821f1e8d16d58d0fb1fe9fc7e459f8881e7b5",
+      "bindings": [
+        {
+          "symbol": "??1BitStream@RakNet@@QAE@XZ",
+          "site_rva": 926951,
+          "kind": 20,
+          "target_va": 268564688
+        },
+        {
+          "symbol": "$T3520",
+          "site_rva": 926956,
+          "kind": 6,
+          "target_va": 269459896
+        },
+        {
+          "symbol": "___CxxFrameHandler",
+          "site_rva": 926961,
+          "kind": 20,
+          "target_va": 269247782
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_raknet_transport_methods",
+      "section": 55,
+      "anchor": "_UNASSIGNED_PLAYER_ID",
+      "anchor_offset": 0,
+      "rva": 1042368,
+      "size": 16,
+      "kind": "data",
+      "sha256": "44774f987c1b2569c171277ac704deed6fa979e51c12bc30dc3b0defaf92ede9",
+      "bindings": []
+    },
+    {
+      "unit": "closure_vendor_raknet_transport_methods",
+      "section": 23,
+      "anchor": "?Push@?$Queue@UPlayerID@@@DataStructures@@QAEXABUPlayerID@@@Z",
+      "anchor_offset": 0,
+      "rva": 225664,
+      "size": 225,
+      "kind": "code",
+      "sha256": "b2d6fb323fa83e87e49ebe9f1166e829209275af196d17217580eb4f6e2f0399",
+      "bindings": [
+        {
+          "symbol": "??2@YAPAXI@Z",
+          "site_rva": 225677,
+          "kind": 20,
+          "target_va": 269247098
+        },
+        {
+          "symbol": "??2@YAPAXI@Z",
+          "site_rva": 225790,
+          "kind": 20,
+          "target_va": 269247098
+        },
+        {
+          "symbol": "??3@YAXPAX@Z",
+          "site_rva": 225875,
+          "kind": 20,
+          "target_va": 269247626
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_raknet_transport_methods",
+      "section": 17,
+      "anchor": "?password@?1??GetIncomingPassword@RakNetTransport@@QAEPADXZ@4PADA",
+      "anchor_offset": 0,
+      "rva": 1149944,
+      "size": 256,
+      "kind": "zero",
+      "sha256": "5341e6b2646979a70e57653007a1f310169421ec9bdd9f1a5648f75ade005af1",
+      "bindings": []
+    },
+    {
+      "unit": "closure_vendor_raknet_transport_methods",
+      "section": 46,
+      "anchor": "$T3520",
+      "anchor_offset": 8,
+      "rva": 1024432,
+      "size": 36,
+      "kind": "data",
+      "sha256": "6c906ea9177fe8f72baa2becc2ecfe1bd9afd281db68ad4e390cb1a40a36b3e0",
+      "bindings": [
+        {
+          "symbol": "$L3504",
+          "site_rva": 1024436,
+          "kind": 6,
+          "target_va": 269362400
+        },
+        {
+          "symbol": "$T3524",
+          "site_rva": 1024448,
+          "kind": 6,
+          "target_va": 269459888
+        }
+      ]
+    }
+  ],
+  "seeds": [
+    {
+      "unit": "closure_vendor_raknet_transport_methods",
+      "symbol": "?OnCommand@RakNetTransportCommandParser@@UAE_NPBDIPAPADPAVTransportInterface@@UPlayerID@@0@Z",
+      "rva": 226112,
+      "size": 272
+    },
+    {
+      "unit": "closure_vendor_raknet_transport_methods",
+      "symbol": "?GetName@RakNetTransportCommandParser@@UBEPADXZ",
+      "rva": 225232,
+      "size": 6
+    },
+    {
+      "unit": "closure_vendor_raknet_transport_methods",
+      "symbol": "?SendHelp@RakNetTransportCommandParser@@UAEXPAVTransportInterface@@UPlayerID@@@Z",
+      "rva": 225248,
+      "size": 72
+    },
+    {
+      "unit": "closure_vendor_raknet_transport_methods",
+      "symbol": "?Stop@RakNetTransport@@UAEXXZ",
+      "rva": 226704,
+      "size": 95
+    },
+    {
+      "unit": "closure_vendor_raknet_transport_methods",
+      "symbol": "?Send@RakNetTransport@@UAAXUPlayerID@@PBDZZ",
+      "rva": 226800,
+      "size": 326
+    },
+    {
+      "unit": "closure_vendor_raknet_transport_methods",
+      "symbol": "?CloseConnection@RakNetTransport@@UAEXUPlayerID@@@Z",
+      "rva": 225344,
+      "size": 37
+    },
+    {
+      "unit": "closure_vendor_raknet_transport_methods",
+      "symbol": "?Receive@RakNetTransport@@UAEPAUPacket@@XZ",
+      "rva": 227136,
+      "size": 111
+    },
+    {
+      "unit": "closure_vendor_raknet_transport_methods",
+      "symbol": "?HasNewConnection@RakNetTransport@@UAE?AUPlayerID@@XZ",
+      "rva": 227248,
+      "size": 122
+    },
+    {
+      "unit": "closure_vendor_raknet_transport_methods",
+      "symbol": "?HasLostConnection@RakNetTransport@@UAE?AUPlayerID@@XZ",
+      "rva": 227376,
+      "size": 122
+    },
+    {
+      "unit": "closure_vendor_raknet_transport_methods",
+      "symbol": "?SetIncomingPassword@RakNetTransport@@QAEXPBD@Z",
+      "rva": 225392,
+      "size": 57
+    },
+    {
+      "unit": "closure_vendor_raknet_transport_methods",
+      "symbol": "?GetIncomingPassword@RakNetTransport@@QAEPADXZ",
+      "rva": 225456,
+      "size": 43
+    },
+    {
+      "unit": "closure_vendor_raknet_transport_methods",
+      "symbol": "?DeallocatePacket@RakNetTransport@@UAEXPAUPacket@@@Z",
+      "rva": 225504,
+      "size": 29
+    },
+    {
+      "unit": "closure_vendor_raknet_transport_methods",
+      "symbol": "?GetCommandParser@RakNetTransport@@UAEPAVCommandParserInterface@@XZ",
+      "rva": 225568,
+      "size": 4
+    }
+  ],
+  "new_unique_code": 1542,
+  "object_sha256": {
+    "closure_vendor_raknet_transport_methods": "8b00e030852bdbfa536b75a08e9390ddfbf53b19789bf149641cc0d01423adc4"
+  },
+  "source_sha256": {
+    "closure_vendor_raknet_transport_methods": "7106f2b926ea8cc87dd0b5c4430afd181200820943ba69203f322a829b88e012"
+  },
+  "storage": "All reachable complete source code/data/EH sections traversed, every actual COFF and PE target compared. Genuine vendor types/layouts and already accepted external owners. Emitted unreferenced sections remain outside coverage. Source exactness only; linked selection remains to be verified.",
+  "weak_aliases": {},
+  "scope": "Fresh whole source sections, all real COFF/PE targets, local canonical providers followed through actual COFF weak aliases; linked acceptance remains mandatory."
+}

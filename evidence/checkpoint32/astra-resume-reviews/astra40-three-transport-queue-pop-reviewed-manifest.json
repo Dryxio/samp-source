@@ -1,0 +1,36 @@
+{
+  "status": "PASS_FULL_SOURCE_REGIONS_ALL_COFF_PE_TARGETS",
+  "baseline": "evidence/checkpoint32/astra-resume-four-acceptance.json",
+  "run": "build/cp32-astra40-probe-two",
+  "regions": [
+    {
+      "unit": "closure_vendor_raknet_transport_methods",
+      "section": 25,
+      "anchor": "?Pop@?$Queue@UPlayerID@@@DataStructures@@QAE?AUPlayerID@@XZ",
+      "anchor_offset": 0,
+      "rva": 225904,
+      "size": 65,
+      "kind": "code",
+      "sha256": "2a745830cb7a63746a9465a6cd3994f3d16d065dfc4a8e8f45a88dd80dc147d4",
+      "bindings": []
+    }
+  ],
+  "seeds": [
+    {
+      "unit": "closure_vendor_raknet_transport_methods",
+      "symbol": "?Pop@?$Queue@UPlayerID@@@DataStructures@@QAE?AUPlayerID@@XZ",
+      "rva": 225904,
+      "size": 65
+    }
+  ],
+  "new_unique_code": 65,
+  "object_sha256": {
+    "closure_vendor_raknet_transport_methods": "8b00e030852bdbfa536b75a08e9390ddfbf53b19789bf149641cc0d01423adc4"
+  },
+  "source_sha256": {
+    "closure_vendor_raknet_transport_methods": "7106f2b926ea8cc87dd0b5c4430afd181200820943ba69203f322a829b88e012"
+  },
+  "storage": "All reachable complete source code/data/EH sections traversed, every actual COFF and PE target compared. Genuine vendor types/layouts and already accepted external owners. Emitted unreferenced sections remain outside coverage. Source exactness only; linked selection remains to be verified.",
+  "weak_aliases": {},
+  "scope": "Fresh whole source sections, all real COFF/PE targets, local canonical providers followed through actual COFF weak aliases; linked acceptance remains mandatory."
+}

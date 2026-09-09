@@ -1,0 +1,109 @@
+{
+  "status": "PASS_FULL_SOURCE_REGIONS_ALL_COFF_PE_TARGETS",
+  "baseline": "evidence/checkpoint32/astra-resume-four-acceptance.json",
+  "run": "build/cp32-astra40-probe-two",
+  "regions": [
+    {
+      "unit": "closure_vendor_network_factory_delete",
+      "section": 9,
+      "anchor": "?DestroyReplicaManager@RakNetworkFactory@@SAXPAVReplicaManager@@@Z",
+      "anchor_offset": 0,
+      "rva": 229248,
+      "size": 27,
+      "kind": "code",
+      "sha256": "ef7b68db250a2b9b8c1f8fec14922a49bf108229b76b3379f30f746cb941c6c6",
+      "bindings": [
+        {
+          "symbol": "??1ReplicaManager@@QAE@XZ",
+          "site_rva": 229260,
+          "kind": 20,
+          "target_va": 268750880
+        },
+        {
+          "symbol": "??3@YAXPAX@Z",
+          "site_rva": 229266,
+          "kind": 20,
+          "target_va": 269247626
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_network_factory_delete",
+      "section": 11,
+      "anchor": "?DestroyTelnetTransport@RakNetworkFactory@@SAXPAVTelnetTransport@@@Z",
+      "anchor_offset": 0,
+      "rva": 229312,
+      "size": 27,
+      "kind": "code",
+      "sha256": "108e66ba8ec1f44d9e15a77616c95eca2c37683af11fd8031c920fe14f22cf7c",
+      "bindings": [
+        {
+          "symbol": "??1TelnetTransport@@QAE@XZ",
+          "site_rva": 229324,
+          "kind": 20,
+          "target_va": 268793232
+        },
+        {
+          "symbol": "??3@YAXPAX@Z",
+          "site_rva": 229330,
+          "kind": 20,
+          "target_va": 269247626
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_network_factory_delete",
+      "section": 13,
+      "anchor": "?DestroyConnectionGraph@RakNetworkFactory@@SAXPAVConnectionGraph@@@Z",
+      "anchor_offset": 0,
+      "rva": 229376,
+      "size": 27,
+      "kind": "code",
+      "sha256": "8e284e5b331d143f4100f843fcd437d226a0910a31670bfabc6c53c0774479c2",
+      "bindings": [
+        {
+          "symbol": "??1ConnectionGraph@@QAE@XZ",
+          "site_rva": 229388,
+          "kind": 20,
+          "target_va": 268582960
+        },
+        {
+          "symbol": "??3@YAXPAX@Z",
+          "site_rva": 229394,
+          "kind": 20,
+          "target_va": 269247626
+        }
+      ]
+    }
+  ],
+  "seeds": [
+    {
+      "unit": "closure_vendor_network_factory_delete",
+      "symbol": "?DestroyReplicaManager@RakNetworkFactory@@SAXPAVReplicaManager@@@Z",
+      "rva": 229248,
+      "size": 27
+    },
+    {
+      "unit": "closure_vendor_network_factory_delete",
+      "symbol": "?DestroyTelnetTransport@RakNetworkFactory@@SAXPAVTelnetTransport@@@Z",
+      "rva": 229312,
+      "size": 27
+    },
+    {
+      "unit": "closure_vendor_network_factory_delete",
+      "symbol": "?DestroyConnectionGraph@RakNetworkFactory@@SAXPAVConnectionGraph@@@Z",
+      "rva": 229376,
+      "size": 27
+    }
+  ],
+  "new_unique_code": 81,
+  "object_sha256": {
+    "closure_vendor_network_factory_delete": "a6dd84fffdf76383a7d957e614820807fb14baf7758a08f5ead148f3755648ad"
+  },
+  "source_sha256": {
+    "closure_vendor_network_factory_delete": "730eb1c9335b3e1588d7b78440eca26732a14a043c2b0542f00fc2fd93fbd0d4"
+  },
+  "storage": "All reachable complete source code/data/EH sections traversed, every actual COFF and PE target compared. Genuine vendor types/layouts and already accepted external owners. Emitted unreferenced sections remain outside coverage. Source exactness only; linked selection remains to be verified.",
+  "weak_aliases": {},
+  "scope": "Fresh whole source sections, all real COFF/PE targets, local canonical providers followed through actual COFF weak aliases; linked acceptance remains mandatory."
+}
