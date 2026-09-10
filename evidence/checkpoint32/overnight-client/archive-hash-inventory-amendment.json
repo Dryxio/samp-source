@@ -1,0 +1,63 @@
+{
+  "status": "PROPOSED_NOT_INSTALLED",
+  "target": "config/checkpoint31/inventory.json",
+  "before_sha256": "e70f0fee02550002ce322cf85a225aee38c1132b9778fe254d242f4443357a49",
+  "source": "build/overnight-client/inventory-archive-hash534.json",
+  "sha256": "7eac0fe0d9700527617eeb36874a9b0a0f1cacaaf4b07960deeb51ca2097ee50",
+  "changed_function_rva": 411776,
+  "before": {
+    "rva": 411776,
+    "name": "?HashString@CArchiveFS@@AAEKPAD@Z",
+    "classification": "client-or-unclassified-cpp",
+    "status": "IDENTIFIED_ONLY",
+    "chunks": [
+      {
+        "rva": 411776,
+        "size": 580,
+        "sha256": "5d8c21b164a042a53d3cf149b7a8f69d5da71c184ebf8bd00f5c5eca3c3c491b"
+      }
+    ]
+  },
+  "after": {
+    "rva": 411776,
+    "name": "?HashString@CArchiveFS@@AAEKPAD@Z",
+    "classification": "client-or-unclassified-cpp",
+    "status": "IDENTIFIED_ONLY",
+    "chunks": [
+      {
+        "rva": 411776,
+        "size": 534,
+        "sha256": "98c939e64218145e585895f014bf96f55510106861a1575dd2a126dcdc055621"
+      }
+    ],
+    "attached_non_code": [
+      {
+        "rva": 412310,
+        "size": 2,
+        "kind": "unreachable_alignment",
+        "sha256": "a904529e1b089420ec3656cc6483691fb43d23dd29a47f2fb7602832df5f2489"
+      },
+      {
+        "rva": 412312,
+        "size": 44,
+        "kind": "switch_table",
+        "entry_size": 4,
+        "entry_count": 11,
+        "sha256": "a03b20e0d62d16a5a864b798eec96074d246a994e0636f3c0eedad0216d5a147"
+      }
+    ],
+    "whole_source_region": {
+      "rva": 411776,
+      "size": 580,
+      "sha256": "5d8c21b164a042a53d3cf149b7a8f69d5da71c184ebf8bd00f5c5eca3c3c491b"
+    },
+    "code_boundary_review": "evidence/checkpoint32/overnight-client/archive-hash-code-ranges-audit.json"
+  },
+  "review": {
+    "path": "evidence/checkpoint32/overnight-client/archive-hash-code-ranges-audit.json",
+    "sha256": "d5f3ecfd405ee039cceec189026514d71939fba9961b85a77a1c77e9e9646788"
+  },
+  "code_delta": -46,
+  "whole_region_comparison_size_unchanged": 580,
+  "scope": "Exactly one function record modified; every other function and top-level inventory field byte-for-byte equal as parsed values. No active configuration changed."
+}

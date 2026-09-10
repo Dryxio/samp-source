@@ -1,0 +1,42 @@
+{
+  "source_inputs": [
+    {
+      "path": "client/saco/archive/ArchiveFS.cpp",
+      "sha256": "201b707613ec3ddbac5e944b58bbfba9cec9d279a4ed3a306d2404d389b765c0"
+    },
+    {
+      "path": "client/saco/archive/Obfuscator.h",
+      "sha256": "319487fb3255c3c525384c13b5e4a1de944e2ad6916a79621ee5968f9a5c5633"
+    },
+    {
+      "path": "client/saco/archive/TinyEncrypt.h",
+      "sha256": "022329ab0536d0d12494bb0ac01ebf27267fe53d300de56d8e9e044b47b56b5f"
+    },
+    {
+      "path": "client/saco/archive/TinyEncrypt.cpp",
+      "sha256": "bcfe8d1cc9a41ccbb8965d1bc99adf0715924b34a8813a9ed78103c52bfa5cf7"
+    }
+  ],
+  "reproducers": [
+    {
+      "path": "build/overnight-client/prepare_archive_hash.py",
+      "sha256": "1d6da5f9c815db992605ac42a3badeed0b66d95593a53f5cbb4b592f44128194"
+    },
+    {
+      "path": "build/overnight-client/prepare_archive_tiny.py",
+      "sha256": "953be0d81da7c0979ca0824b3741ddf401ac04cef2c71b5e909459ddfaec02db"
+    }
+  ],
+  "review_script": {
+    "path": "build/overnight-client/review_archive.py",
+    "sha256": "60104be7f244f949c13bd8d45c300a86436134fabbb145d2a50fa1253b58769b"
+  },
+  "data_identity": {
+    "hash_init": "DWORD@102790 loaded by HashString before inverse rotation/XOR, initialized OBFUSCATE_DATA(9e3779b9)",
+    "rounds_delta": "DWORD rounds32@1027b0 followed DWORD obfuscated delta@1027b4, both used by constructor and decrypt loop",
+    "sum_done": "DWORD sum0@12e390 followed BOOL done0@12e394. Constructor tests done, decodes delta, computes sum=delta*rounds, stores done1; decrypt loads sum."
+  },
+  "exclusions": [
+    "CTinyEncrypt empty destructor1: ambiguous and unnecessary to selected root closure"
+  ]
+}

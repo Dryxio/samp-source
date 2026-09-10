@@ -1,0 +1,73 @@
+{
+  "status": "PASS",
+  "run": "cp32-overnight-hash-archive-four-linked1",
+  "reference_sha256": "b72b5dbe725f81864ca3f78bc7063bda56cc05fc7188af822fa7a754432553a2",
+  "linked_sha256": "6643523cec533ce1a956445d98ff1e0d2184375067ae9ef3e9c8f0a33c936aac",
+  "cases": [
+    {
+      "length": 0,
+      "input_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "digests": {
+        "md5": "d41d8cd98f00b204e9800998ecf8427e",
+        "sha1": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+      }
+    },
+    {
+      "length": 3,
+      "input_sha256": "ba7816bf8f01cfea414140de5dae2223b00361a396177a9cb410ff61f20015ad",
+      "digests": {
+        "md5": "900150983cd24fb0d6963f7d28e17f72",
+        "sha1": "a9993e364706816aba3e25717850c26c9cd0d89d"
+      }
+    },
+    {
+      "length": 55,
+      "input_sha256": "9f4390f8d30c2dd92ec9f095b65e2b9ae9b0a925a5258e241c9f1e910f734318",
+      "digests": {
+        "md5": "ef1772b6dff9a122358552954ad0df65",
+        "sha1": "c1c8bbdc22796e28c0e15163d20899b65621d65a"
+      }
+    },
+    {
+      "length": 56,
+      "input_sha256": "a5fc6e203a4c2b657d0d153885932414b2ffc6a93f0f8bf8b3183315e5a7212c",
+      "digests": {
+        "md5": "b9d955696c7654cd20086bec31670b11",
+        "sha1": "049adea016c8a8e3b7a9054aeeaa8643453bebd9"
+      }
+    },
+    {
+      "length": 63,
+      "input_sha256": "93378fdea13e1d912d953fedf1155adf0c184626216bf333f9b4f50b704bff63",
+      "digests": {
+        "md5": "bc1cbc032f9b2a1fa2ae54f8576beb7e",
+        "sha1": "3f85dc2655c3426a4937d49028c01a066c535ce0"
+      }
+    },
+    {
+      "length": 64,
+      "input_sha256": "d91323a5298f3b9f814db29efaa271f24fbdccedfdd062491b8abc8e07b7fb69",
+      "digests": {
+        "md5": "e987c862fbd2f2f0ca859cb8d7806bf3",
+        "sha1": "7d4f9b6d084894fb8640dc55aab16ad0e021e4c8"
+      }
+    },
+    {
+      "length": 65,
+      "input_sha256": "4b0e2b2fdafc493130f0127810aa9247ea86a90c619146202db454d273b695a9",
+      "digests": {
+        "md5": "dc0919ac773b717f244aa471f17a4310",
+        "sha1": "00c26b97f0dceca9387928bffdc36d303e31d536"
+      }
+    },
+    {
+      "length": 4096,
+      "input_sha256": "c8f5d0341d54d951a71b136e6e2afcb14d11ed8489a7ae126a8fee0df6ecf193",
+      "digests": {
+        "md5": "2bcd3c4de20c918e19fab5c36249c70d",
+        "sha1": "e9dded8c84614e894501965af60c2525794a8c7d"
+      }
+    }
+  ],
+  "scope": "Real original and linked MD5/SHA1 plus real CRT, no shims. Empty, block/padding boundaries, 4096 bytes streamed by17; hashlib independent answers; cdecl/thiscall stack cleanup and nonvolatiles; input and output/context guards."
+}

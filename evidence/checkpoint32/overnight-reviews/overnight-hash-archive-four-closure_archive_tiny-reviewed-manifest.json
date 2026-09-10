@@ -1,0 +1,197 @@
+{
+  "status": "PASS_FULL_SOURCE_REGIONS_ALL_COFF_PE_TARGETS",
+  "roots": [
+    {
+      "unit": "closure_archive_tiny",
+      "symbol": "??0CTinyEncrypt@@QAE@XZ",
+      "rva": 416352,
+      "size": 74
+    },
+    {
+      "unit": "closure_archive_tiny",
+      "symbol": "?SetKey@CTinyEncrypt@@QAEXPAEE@Z",
+      "rva": 416448,
+      "size": 52
+    },
+    {
+      "unit": "closure_archive_tiny",
+      "symbol": "?DecryptBlock@CTinyEncrypt@@AAEXAAK0@Z",
+      "rva": 416512,
+      "size": 184
+    },
+    {
+      "unit": "closure_archive_tiny",
+      "symbol": "?DecryptData@CTinyEncrypt@@QAEXKPAE@Z",
+      "rva": 416704,
+      "size": 56
+    }
+  ],
+  "regions": [
+    {
+      "unit": "closure_archive_tiny",
+      "section": 13,
+      "anchor": "?DecryptData@CTinyEncrypt@@QAEXKPAE@Z",
+      "anchor_offset": 0,
+      "rva": 416704,
+      "size": 56,
+      "kind": "code",
+      "sha256": "73627a755b42dcda9ed7b704e76a8a9634b8c009bdbf15256dd832c99628d9b4",
+      "bindings": [
+        {
+          "symbol": "?DecryptBlock@CTinyEncrypt@@AAEXAAK0@Z",
+          "site_rva": 416744,
+          "symbol_va": 268851968,
+          "addend": 0,
+          "target_va": 268851968,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "closure_archive_tiny",
+      "section": 11,
+      "anchor": "?DecryptBlock@CTinyEncrypt@@AAEXAAK0@Z",
+      "anchor_offset": 0,
+      "rva": 416512,
+      "size": 184,
+      "kind": "code",
+      "sha256": "75f673c9c8133519f8578af10beaac20dafd8264aac72564252bbf8129bcecb1",
+      "bindings": [
+        {
+          "symbol": "?ms_dwInitSum@CTinyEncrypt@@0KA",
+          "site_rva": 416514,
+          "symbol_va": 269673360,
+          "addend": 0,
+          "target_va": 269673360,
+          "kind": 6
+        },
+        {
+          "symbol": "?ms_dwRounds@CTinyEncrypt@@0KA",
+          "site_rva": 416522,
+          "symbol_va": 269494192,
+          "addend": 0,
+          "target_va": 269494192,
+          "kind": 6
+        },
+        {
+          "symbol": "?ms_dwInitDelta@CTinyEncrypt@@0KA",
+          "site_rva": 416599,
+          "symbol_va": 269494196,
+          "addend": 0,
+          "target_va": 269494196,
+          "kind": 6
+        },
+        {
+          "symbol": "?ms_dwRounds@CTinyEncrypt@@0KA",
+          "site_rva": 416637,
+          "symbol_va": 269494192,
+          "addend": 0,
+          "target_va": 269494192,
+          "kind": 6
+        }
+      ]
+    },
+    {
+      "unit": "closure_archive_tiny",
+      "section": 4,
+      "anchor": "?ms_dwRounds@CTinyEncrypt@@0KA",
+      "anchor_offset": 0,
+      "rva": 1058736,
+      "size": 8,
+      "kind": "data",
+      "sha256": "fac7ea3b0beeaac8a969c926e5278b3bbce135b95482f4b994edda86f0b24dd2",
+      "bindings": []
+    },
+    {
+      "unit": "closure_archive_tiny",
+      "section": 3,
+      "anchor": "?ms_dwInitSum@CTinyEncrypt@@0KA",
+      "anchor_offset": 0,
+      "rva": 1237904,
+      "size": 8,
+      "kind": "data",
+      "sha256": "af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc",
+      "bindings": []
+    },
+    {
+      "unit": "closure_archive_tiny",
+      "section": 9,
+      "anchor": "?SetKey@CTinyEncrypt@@QAEXPAEE@Z",
+      "anchor_offset": 0,
+      "rva": 416448,
+      "size": 52,
+      "kind": "code",
+      "sha256": "8a325e332057d5cd68ebea36a32bcb3d062fbeab0db1d259334744627d438770",
+      "bindings": []
+    },
+    {
+      "unit": "closure_archive_tiny",
+      "section": 5,
+      "anchor": "??0CTinyEncrypt@@QAE@XZ",
+      "anchor_offset": 0,
+      "rva": 416352,
+      "size": 74,
+      "kind": "code",
+      "sha256": "3750699636b52ceb902aaf604762f4c348c17445192ddc8b8dc84f9e85796814",
+      "bindings": [
+        {
+          "symbol": "?ms_bInitDone@CTinyEncrypt@@0HA",
+          "site_rva": 416356,
+          "symbol_va": 269673364,
+          "addend": 0,
+          "target_va": 269673364,
+          "kind": 6
+        },
+        {
+          "symbol": "?ms_dwRounds@CTinyEncrypt@@0KA",
+          "site_rva": 416366,
+          "symbol_va": 269494192,
+          "addend": 0,
+          "target_va": 269494192,
+          "kind": 6
+        },
+        {
+          "symbol": "?ms_dwInitDelta@CTinyEncrypt@@0KA",
+          "site_rva": 416373,
+          "symbol_va": 269494196,
+          "addend": 0,
+          "target_va": 269494196,
+          "kind": 6
+        },
+        {
+          "symbol": "?ms_dwInitDelta@CTinyEncrypt@@0KA",
+          "site_rva": 416404,
+          "symbol_va": 269494196,
+          "addend": 0,
+          "target_va": 269494196,
+          "kind": 6
+        },
+        {
+          "symbol": "?ms_dwInitSum@CTinyEncrypt@@0KA",
+          "site_rva": 416410,
+          "symbol_va": 269673360,
+          "addend": 0,
+          "target_va": 269673360,
+          "kind": 6
+        },
+        {
+          "symbol": "?ms_bInitDone@CTinyEncrypt@@0HA",
+          "site_rva": 416416,
+          "symbol_va": 269673364,
+          "addend": 0,
+          "target_va": 269673364,
+          "kind": 6
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "source_sha256": {
+    "closure_archive_tiny": "87e4109e15c398e50b9160095207a536d5aaa962239d611da54d03b10d942f25"
+  },
+  "object_sha256": {
+    "closure_archive_tiny": "ffbc846e06a467a87d93726636247a6f701d79435fe086f737c5b8f8ebffe6af"
+  },
+  "run": "cp32-overnight-probe-next-seven",
+  "typed_layout_note": "Original upstream method definitions and macros. Hash declaration-only class never instantiated; no instance field access. TinyEncrypt original complete class key16, actual DWORD/BOOL globals4 each, entire initialized pair8 and zero-initialized pair8 retained. Empty destructor1 excluded. Jenkins580 includes complete12-entry switch table; every internal label resolved by COFF section offset. No external provider or IAT required."
+}

@@ -1,0 +1,102 @@
+{
+  "prefix": "overnight-hash-archive-four",
+  "utc": "2026-09-10T00:28:13.440991+00:00",
+  "coverage": {
+    "previous_code_bytes": 471862,
+    "batch_code_bytes": 471279,
+    "new_unique_code_bytes": 1632,
+    "union_code_bytes": 473494,
+    "text_bytes": 930756,
+    "text_percent": 50.87197933722694,
+    "whole_dll_match": false
+  },
+  "measurement": {
+    "utc": "2026-09-10T00:28:40.932384+00:00",
+    "elapsed_seconds": 3644.932384,
+    "baseline": 435895,
+    "accepted": 473494,
+    "gain": 37599,
+    "global_bytes_per_hour": 37135.50369114337,
+    "token_usage": {
+      "root": {
+        "configuration": {
+          "model": "gpt-6-astra",
+          "effort": "low"
+        },
+        "usage": {
+          "input_tokens": 30528223,
+          "cached_input_tokens": 30137856,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 72075,
+          "reasoning_output_tokens": 14605,
+          "total_tokens": 30600298,
+          "uncached_input_tokens": 390367
+        },
+        "as_of": "2026-09-10T00:28:29.799Z",
+        "session": "/Users/salimtrouve/.codex/sessions/2026/09/10/rollout-2026-09-10T00-26-29-01a0887e-8a17-7c33-90e9-dcf660740fb9.jsonl",
+        "observed_counter_resets": 0
+      },
+      "/root/client": {
+        "configuration": {
+          "model": "gpt-6-astra",
+          "effort": "low"
+        },
+        "usage": {
+          "input_tokens": 24621100,
+          "cached_input_tokens": 24333696,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 79395,
+          "reasoning_output_tokens": 21517,
+          "total_tokens": 24700495,
+          "uncached_input_tokens": 287404
+        },
+        "as_of": "2026-09-10T00:28:33.266Z",
+        "session": "/Users/salimtrouve/.codex/sessions/2026/09/10/rollout-2026-09-10T00-28-42-01a08880-90d2-7b61-95d9-80335d3475ae.jsonl",
+        "observed_counter_resets": 0
+      },
+      "/root/network": {
+        "configuration": {
+          "model": "gpt-6-astra",
+          "effort": "low"
+        },
+        "usage": {
+          "input_tokens": 25952025,
+          "cached_input_tokens": 25620480,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 72818,
+          "reasoning_output_tokens": 18663,
+          "total_tokens": 26024843,
+          "uncached_input_tokens": 331545
+        },
+        "as_of": "2026-09-10T00:28:32.970Z",
+        "session": "/Users/salimtrouve/.codex/sessions/2026/09/10/rollout-2026-09-10T00-28-32-01a08880-6cd4-7172-a004-119c842bab14.jsonl",
+        "observed_counter_resets": 0
+      }
+    },
+    "pipeline_seconds": {
+      "vm-idle": 6.542520374991,
+      "compile": 74.88192487399647,
+      "audit": 26.985308000010264,
+      "link": 49.547993707994465,
+      "qualify": 7.662727501010522,
+      "spec": 0.30648154300433816,
+      "review": 69.42816870801471,
+      "accept": 541.5131053330115
+    },
+    "token_note": "Observed cumulative counters reset on continuation; sum monotonic increments within the requested window and restart from zero on a verified decrease. Earlier negative raw differences are invalid and retained in history. Counters may lag; reasoning is a subset of output; cached input is separate; no billed cost inferred.",
+    "recent_bytes_per_hour": 23116.709855407837
+  },
+  "proposal": "build/overnight/proposal-hash-archive-four.json",
+  "reviews": [
+    "evidence/checkpoint32/overnight-reviews/overnight-hash-archive-four-closure_archive_jenkins534-reviewed-manifest.json",
+    "evidence/checkpoint32/overnight-reviews/overnight-hash-archive-four-closure_archive_tiny-reviewed-manifest.json",
+    "evidence/checkpoint32/overnight-reviews/overnight-hash-archive-four-hash-two-reviewed-manifest.json"
+  ],
+  "review_note": {
+    "scope": "MD5/SHA1 wrappers732 plus archive hashing534 and TinyEncrypt366:1632 unique code bytes.",
+    "implementation": "Normal upstream C++; full source and linked regions plus actual COFF/PE targets. Explicit independently reviewed one-record inventory correction separates HashString534 instructions from2 alignment and44 switch data, while full580 bytes and all relocation targets remain compared. Existing accepted function ranges unaffected. Historical transform bytes excluded from new credit."
+  },
+  "preserved_main": true,
+  "changed_preexisting_with_backup": [],
+  "status": "ACCEPTED_CHECKPOINT_STILL_IN_PROGRESS"
+}

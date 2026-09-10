@@ -1,0 +1,77 @@
+{
+  "status": "PASS_CFG_AND_COMPLETE_REGION",
+  "reference_sha256": "b72b5dbe725f81864ca3f78bc7063bda56cc05fc7188af822fa7a754432553a2",
+  "object_sha256": "aa9578cf26ff7e74df531f33a66e11ec7765706011472023708bb03760202020",
+  "rva": 411776,
+  "whole_region_size": 580,
+  "whole_region_sha256": "5d8c21b164a042a53d3cf149b7a8f69d5da71c184ebf8bd00f5c5eca3c3c491b",
+  "code_ranges": [
+    {
+      "offset": 0,
+      "size": 534
+    }
+  ],
+  "non_code_ranges": [
+    {
+      "offset": 534,
+      "size": 2,
+      "kind": "unreachable_alignment"
+    },
+    {
+      "offset": 536,
+      "size": 44,
+      "kind": "11_entry_switch_table"
+    }
+  ],
+  "dispatch": {
+    "offset": 328,
+    "index": "unsigned(length_remaining-1)",
+    "guard_offset": 323,
+    "max_index": 10,
+    "default_offset": 427,
+    "table_symbol": "$L55277",
+    "table_offset": 536,
+    "targets": [
+      422,
+      413,
+      404,
+      395,
+      389,
+      380,
+      371,
+      362,
+      353,
+      344,
+      335
+    ]
+  },
+  "reachable_instruction_count": 205,
+  "reachable_code_bytes": 534,
+  "negative_controls": [
+    {
+      "case": "code",
+      "offset": 0,
+      "full_region_comparison_rejects": true
+    },
+    {
+      "case": "padding",
+      "offset": 534,
+      "full_region_comparison_rejects": true
+    },
+    {
+      "case": "table",
+      "offset": 536,
+      "full_region_comparison_rejects": true
+    },
+    {
+      "case": "last_table_byte",
+      "offset": 579,
+      "full_region_comparison_rejects": true
+    }
+  ],
+  "note": "No comparison shortened. Entire580-byte COFF section and every PE relocation match; only code accounting excludes unreachable2-byte alignment and44-byte DWORD switch table. Original inventory wholechunk580 conflates data with code. Full range0..580 as executable is invalid; explicit inventory correction requires integrator approval/workflow. Prior rejected gate retained.",
+  "full_instruction_audit": {
+    "path": "build/overnight/archive-hash-code-ranges-full-audit.json",
+    "sha256": "4d7bde137213dbe4b2a680b517ca04ed51422e0882d6bfac62100cb49cc2938a"
+  }
+}

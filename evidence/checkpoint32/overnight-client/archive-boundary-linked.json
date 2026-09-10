@@ -1,0 +1,249 @@
+{
+  "result": "PASS",
+  "run": "cp32-overnight-hash-archive-four-linked1",
+  "mode": "R5_and_linked",
+  "cases": [
+    {
+      "case": "hash_empty",
+      "result": "PASS",
+      "answer": 1039548841
+    },
+    {
+      "case": "hash_embedded_nul",
+      "result": "PASS",
+      "answer": 1179180234
+    },
+    {
+      "case": "hash_high_bytes",
+      "result": "PASS",
+      "answer": 3841043253
+    },
+    {
+      "case": "hash_long",
+      "result": "PASS",
+      "answer": 2032419415
+    },
+    {
+      "case": "hash_tail_1",
+      "result": "PASS",
+      "answer": 2062731237
+    },
+    {
+      "case": "hash_tail_2",
+      "result": "PASS",
+      "answer": 42458003
+    },
+    {
+      "case": "hash_tail_3",
+      "result": "PASS",
+      "answer": 107868611
+    },
+    {
+      "case": "hash_tail_4",
+      "result": "PASS",
+      "answer": 2857502216
+    },
+    {
+      "case": "hash_tail_5",
+      "result": "PASS",
+      "answer": 4003590953
+    },
+    {
+      "case": "hash_tail_6",
+      "result": "PASS",
+      "answer": 2476647350
+    },
+    {
+      "case": "hash_tail_7",
+      "result": "PASS",
+      "answer": 4096229634
+    },
+    {
+      "case": "hash_tail_8",
+      "result": "PASS",
+      "answer": 3449638880
+    },
+    {
+      "case": "hash_tail_9",
+      "result": "PASS",
+      "answer": 280216015
+    },
+    {
+      "case": "hash_tail_10",
+      "result": "PASS",
+      "answer": 251490743
+    },
+    {
+      "case": "hash_tail_11",
+      "result": "PASS",
+      "answer": 2802004996
+    },
+    {
+      "case": "hash_tail_12",
+      "result": "PASS",
+      "answer": 1778146506
+    },
+    {
+      "case": "hash_tail_13",
+      "result": "PASS",
+      "answer": 359367694
+    },
+    {
+      "case": "hash_tail_14",
+      "result": "PASS",
+      "answer": 1534977606
+    },
+    {
+      "case": "hash_tail_15",
+      "result": "PASS",
+      "answer": 3223011645
+    },
+    {
+      "case": "hash_tail_16",
+      "result": "PASS",
+      "answer": 1819502443
+    },
+    {
+      "case": "hash_tail_17",
+      "result": "PASS",
+      "answer": 4053473892
+    },
+    {
+      "case": "hash_tail_18",
+      "result": "PASS",
+      "answer": 1679190741
+    },
+    {
+      "case": "hash_tail_19",
+      "result": "PASS",
+      "answer": 2151682551
+    },
+    {
+      "case": "hash_tail_20",
+      "result": "PASS",
+      "answer": 730501576
+    },
+    {
+      "case": "hash_tail_21",
+      "result": "PASS",
+      "answer": 1974421459
+    },
+    {
+      "case": "hash_tail_22",
+      "result": "PASS",
+      "answer": 2000173632
+    },
+    {
+      "case": "hash_tail_23",
+      "result": "PASS",
+      "answer": 915599052
+    },
+    {
+      "case": "hash_tail_24",
+      "result": "PASS",
+      "answer": 450470418
+    },
+    {
+      "case": "tiny_empty",
+      "result": "PASS",
+      "declared_length": 0,
+      "processed_extent": 0,
+      "ciphertext_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "output_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "final_key": "00000000000000000000000000000000"
+    },
+    {
+      "case": "tiny_short1",
+      "result": "PASS",
+      "declared_length": 1,
+      "processed_extent": 0,
+      "ciphertext_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "output_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "final_key": "00000000000000000000000000000000"
+    },
+    {
+      "case": "tiny_short3",
+      "result": "PASS",
+      "declared_length": 3,
+      "processed_extent": 0,
+      "ciphertext_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "output_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "final_key": "00000000000000000000000000000000"
+    },
+    {
+      "case": "tiny_padded4",
+      "result": "PASS",
+      "declared_length": 4,
+      "processed_extent": 8,
+      "ciphertext_sha256": "2cfd75ebd14d386d0b1a67a356076f4f5d86e3bff685e06cfd4c45f506b0cad6",
+      "output_sha256": "9b75dffd35d4ab45c210f55d4427b5ce3e0a700edc2b776c279f8c7ecc87c086",
+      "final_key": "bdc224eadc2a702abdc224eadc2a702a"
+    },
+    {
+      "case": "tiny_padded7",
+      "result": "PASS",
+      "declared_length": 7,
+      "processed_extent": 8,
+      "ciphertext_sha256": "f377b092f8193a62779b1b47dacfff92ab7e198df4861f2798bcfeaa27e7b29d",
+      "output_sha256": "9b75dffd35d4ab45c210f55d4427b5ce3e0a700edc2b776c279f8c7ecc87c086",
+      "final_key": "0a53ff23baa00503025bf72bb2a80d0b"
+    },
+    {
+      "case": "tiny_block",
+      "result": "PASS",
+      "declared_length": 8,
+      "processed_extent": 8,
+      "ciphertext_sha256": "2cfd75ebd14d386d0b1a67a356076f4f5d86e3bff685e06cfd4c45f506b0cad6",
+      "output_sha256": "9b75dffd35d4ab45c210f55d4427b5ce3e0a700edc2b776c279f8c7ecc87c086",
+      "final_key": "bdc224eadc2a702abdc224eadc2a702a"
+    },
+    {
+      "case": "tiny_all_max",
+      "result": "PASS",
+      "declared_length": 8,
+      "processed_extent": 8,
+      "ciphertext_sha256": "3682e4ee633190e24ffbb3199689446c75e445addacf2cc498fafd919c94e89f",
+      "output_sha256": "12a3ae445661ce5dee78d0650d33362dec29c4f82af05e7e57fb595bbbacf0ca",
+      "final_key": "6ed703d795a9dc196ed703d795a9dc19"
+    },
+    {
+      "case": "tiny_padded12",
+      "result": "PASS",
+      "declared_length": 12,
+      "processed_extent": 16,
+      "ciphertext_sha256": "1844f0870722cc9d2bc4c1db6e59255f61be99023e083d7b98a7b75df8231aa8",
+      "output_sha256": "a23d99f2cc2b11f42045500d5073b1128068fff05d23d61a8e90152099e1e647",
+      "final_key": "bc004f35fb4e47a4b408473df3464fac"
+    },
+    {
+      "case": "tiny_padded15",
+      "result": "PASS",
+      "declared_length": 15,
+      "processed_extent": 16,
+      "ciphertext_sha256": "4dc8c060896147db8f25ac245fc33bd0108770cddf2835a54cc9f33ee94d1104",
+      "output_sha256": "a23d99f2cc2b11f42045500d5073b1128068fff05d23d61a8e90152099e1e647",
+      "final_key": "7d44b6a75d00ff93754cbeaf5508f79b"
+    },
+    {
+      "case": "tiny_two_blocks",
+      "result": "PASS",
+      "declared_length": 16,
+      "processed_extent": 16,
+      "ciphertext_sha256": "1844f0870722cc9d2bc4c1db6e59255f61be99023e083d7b98a7b75df8231aa8",
+      "output_sha256": "a23d99f2cc2b11f42045500d5073b1128068fff05d23d61a8e90152099e1e647",
+      "final_key": "bc004f35fb4e47a4b408473df3464fac"
+    },
+    {
+      "case": "tiny_archive_block2048",
+      "result": "PASS",
+      "declared_length": 2048,
+      "processed_extent": 2048,
+      "ciphertext_sha256": "16f0e6714cf46c7c9e254016ccfc20a38f5e730e0eb7f8e05b24f18218c98042",
+      "output_sha256": "87d4b18dadb1b65302cf0655a322e29ebfd405da54abe689f09694aca6629d51",
+      "final_key": "9b894ddd0501a70f9b894ddd0501a70f"
+    }
+  ],
+  "reference_sha256": "b72b5dbe725f81864ca3f78bc7063bda56cc05fc7188af822fa7a754432553a2",
+  "scope": "Real functions, no instruction or call intercepts. Thiscall stack, nonvolatiles, input/output/key guards verified. Independent scalar Jenkins and modified-XTEA encryption oracles. Historical DecryptData length behavior preserved: floor(length/4) DWORDs rounded up to a pair; padded4/7/12/15 cases provide the full accessible extent. Repeated constructor exercises init-once state. No exhaustive cryptographic validation claim.",
+  "linked_sha256": "6643523cec533ce1a956445d98ff1e0d2184375067ae9ef3e9c8f0a33c936aac"
+}

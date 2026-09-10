@@ -1,0 +1,153 @@
+{
+  "status": "PASS_FULL_SOURCE_REGIONS_ALL_COFF_PE_TARGETS",
+  "roots": [
+    {
+      "unit": "closure_archive_jenkins",
+      "symbol": "?HashString@CArchiveFS@@AAEKPAD@Z",
+      "rva": 411776,
+      "size": 534
+    }
+  ],
+  "regions": [
+    {
+      "unit": "closure_archive_jenkins",
+      "section": 4,
+      "anchor": "?HashString@CArchiveFS@@AAEKPAD@Z",
+      "anchor_offset": 0,
+      "rva": 411776,
+      "size": 580,
+      "kind": "code",
+      "sha256": "5d8c21b164a042a53d3cf149b7a8f69d5da71c184ebf8bd00f5c5eca3c3c491b",
+      "bindings": [
+        {
+          "symbol": "?ms_dwHashInit@CArchiveFS@@0KA",
+          "site_rva": 411804,
+          "symbol_va": 269494160,
+          "addend": 0,
+          "target_va": 269494160,
+          "kind": 6
+        },
+        {
+          "symbol": "$L55277",
+          "site_rva": 412107,
+          "symbol_va": 268847768,
+          "addend": 0,
+          "target_va": 268847768,
+          "kind": 6
+        },
+        {
+          "symbol": "$L55260",
+          "site_rva": 412312,
+          "symbol_va": 268847654,
+          "addend": 0,
+          "target_va": 268847654,
+          "kind": 6
+        },
+        {
+          "symbol": "$L55258",
+          "site_rva": 412316,
+          "symbol_va": 268847645,
+          "addend": 0,
+          "target_va": 268847645,
+          "kind": 6
+        },
+        {
+          "symbol": "$L55256",
+          "site_rva": 412320,
+          "symbol_va": 268847636,
+          "addend": 0,
+          "target_va": 268847636,
+          "kind": 6
+        },
+        {
+          "symbol": "$L55254",
+          "site_rva": 412324,
+          "symbol_va": 268847627,
+          "addend": 0,
+          "target_va": 268847627,
+          "kind": 6
+        },
+        {
+          "symbol": "$L55253",
+          "site_rva": 412328,
+          "symbol_va": 268847621,
+          "addend": 0,
+          "target_va": 268847621,
+          "kind": 6
+        },
+        {
+          "symbol": "$L55251",
+          "site_rva": 412332,
+          "symbol_va": 268847612,
+          "addend": 0,
+          "target_va": 268847612,
+          "kind": 6
+        },
+        {
+          "symbol": "$L55249",
+          "site_rva": 412336,
+          "symbol_va": 268847603,
+          "addend": 0,
+          "target_va": 268847603,
+          "kind": 6
+        },
+        {
+          "symbol": "$L55247",
+          "site_rva": 412340,
+          "symbol_va": 268847594,
+          "addend": 0,
+          "target_va": 268847594,
+          "kind": 6
+        },
+        {
+          "symbol": "$L55245",
+          "site_rva": 412344,
+          "symbol_va": 268847585,
+          "addend": 0,
+          "target_va": 268847585,
+          "kind": 6
+        },
+        {
+          "symbol": "$L55243",
+          "site_rva": 412348,
+          "symbol_va": 268847576,
+          "addend": 0,
+          "target_va": 268847576,
+          "kind": 6
+        },
+        {
+          "symbol": "$L55241",
+          "site_rva": 412352,
+          "symbol_va": 268847567,
+          "addend": 0,
+          "target_va": 268847567,
+          "kind": 6
+        }
+      ]
+    },
+    {
+      "unit": "closure_archive_jenkins",
+      "section": 3,
+      "anchor": "?ms_dwHashInit@CArchiveFS@@0KA",
+      "anchor_offset": 0,
+      "rva": 1058704,
+      "size": 4,
+      "kind": "data",
+      "sha256": "0f5a60899a3d4d6b950655ffed1ad6a50a5e66e03d6e65d3af7463ddd2965d7b",
+      "bindings": []
+    }
+  ],
+  "errors": [],
+  "source_sha256": {
+    "closure_archive_jenkins": "54eb44ecb6beb45fa902b508e3a5ac8555c3e10a13587ff319fb5ad028189aba"
+  },
+  "object_sha256": {
+    "closure_archive_jenkins": "aa9578cf26ff7e74df531f33a66e11ec7765706011472023708bb03760202020"
+  },
+  "run": "cp32-overnight-probe-next-seven",
+  "typed_layout_note": "Original upstream method definitions and macros. Hash declaration-only class never instantiated; no instance field access. TinyEncrypt original complete class key16, actual DWORD/BOOL globals4 each, entire initialized pair8 and zero-initialized pair8 retained. Empty destructor1 excluded. Jenkins580 includes complete11-entry switch table; every internal label resolved by COFF section offset. No external provider or IAT required. Code accounting534 only, entire region580 stays compared. Trailing unreachable alignment2+table44 explicitly audited.",
+  "code_boundary_review": {
+    "path": "evidence/checkpoint32/overnight-client/archive-hash-code-ranges-audit.json",
+    "sha256": "4d7bde137213dbe4b2a680b517ca04ed51422e0882d6bfac62100cb49cc2938a"
+  }
+}

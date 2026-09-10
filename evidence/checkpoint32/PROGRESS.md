@@ -1588,3 +1588,6 @@ overnight-wrappers-one: +871 unique R5 code bytes, total 468905/930756 (50.37893
 
 
 overnight-socket-one: +2957 unique R5 code bytes, total 471862/930756 (50.696638%). Socket SendTo overloads, Reliability Update/SendBitStream, offline Ping/Advertise:2957 potential code bytes, whole source regions only. Complete source/linked code, data, EH and actual COFF/PE targets; required negative controls and ABI PASS. No duplicate/data/CRT/unimplemented-provider credit. Checkpoint remains active, no push/deployment. See overnight-reports/overnight-socket-one.json.
+
+
+overnight-hash-archive-four: +1632 unique R5 code bytes, total 473494/930756 (50.871979%). MD5/SHA1 wrappers732 plus archive hashing534 and TinyEncrypt366:1632 unique code bytes. Complete source/linked code, data, EH and actual COFF/PE targets; required negative controls and ABI PASS. No duplicate/data/CRT/unimplemented-provider credit. Checkpoint remains active, no push/deployment. See overnight-reports/overnight-hash-archive-four.json.

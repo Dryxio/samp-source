@@ -1,0 +1,248 @@
+{
+  "status": "PASS_FULL_SOURCE_REGIONS_ALL_COFF_PE_TARGETS",
+  "baseline": "overnight-socket-one",
+  "run": "build/overnight-hash-two-objects",
+  "roots": [
+    {
+      "unit": "closure_vendor_md5",
+      "symbol": "?MD5Init@@YAXPAUMD5Context@@@Z",
+      "rva": 405680,
+      "size": 40
+    },
+    {
+      "unit": "closure_vendor_md5",
+      "symbol": "?MD5Transform@@YAXQAKQBK@Z",
+      "rva": 405728,
+      "size": 2162
+    },
+    {
+      "unit": "closure_vendor_md5",
+      "symbol": "?MD5Update@@YAXPAUMD5Context@@PBEI@Z",
+      "rva": 407904,
+      "size": 208
+    },
+    {
+      "unit": "closure_vendor_md5",
+      "symbol": "?MD5Final@@YAXQAEPAUMD5Context@@@Z",
+      "rva": 408112,
+      "size": 154
+    },
+    {
+      "unit": "closure_vendor_fhicl_sha1",
+      "symbol": "?Reset@SHA1@fhicl@@QAEXXZ",
+      "rva": 408288,
+      "size": 53
+    },
+    {
+      "unit": "closure_vendor_fhicl_sha1",
+      "symbol": "?CircularShift@SHA1@fhicl@@AAEIHI@Z",
+      "rva": 408352,
+      "size": 30
+    },
+    {
+      "unit": "closure_vendor_fhicl_sha1",
+      "symbol": "?ProcessMessageBlock@SHA1@fhicl@@AAEXXZ",
+      "rva": 408432,
+      "size": 1571
+    },
+    {
+      "unit": "closure_vendor_fhicl_sha1",
+      "symbol": "?PadMessage@SHA1@fhicl@@AAEXXZ",
+      "rva": 410016,
+      "size": 187
+    },
+    {
+      "unit": "closure_vendor_fhicl_sha1",
+      "symbol": "?Result@SHA1@fhicl@@QAE_NPAI@Z",
+      "rva": 410208,
+      "size": 73
+    },
+    {
+      "unit": "closure_vendor_fhicl_sha1",
+      "symbol": "?Input@SHA1@fhicl@@QAEXPBEI@Z",
+      "rva": 410288,
+      "size": 110
+    }
+  ],
+  "regions": [
+    {
+      "unit": "closure_vendor_md5",
+      "section": 3,
+      "anchor": "?MD5Init@@YAXPAUMD5Context@@@Z",
+      "anchor_offset": 0,
+      "rva": 405680,
+      "size": 40,
+      "kind": "code",
+      "sha256": "0a3c23301ad7459ab8ca98e6c2c1af4cc46aad7dbd9dd83de2f64723f0079854",
+      "bindings": []
+    },
+    {
+      "unit": "closure_vendor_md5",
+      "section": 5,
+      "anchor": "?MD5Transform@@YAXQAKQBK@Z",
+      "anchor_offset": 0,
+      "rva": 405728,
+      "size": 2162,
+      "kind": "code",
+      "sha256": "8a58840b003bbff6d2900b71c00617b59200d7a26ab0f7da734a19f03df28525",
+      "bindings": []
+    },
+    {
+      "unit": "closure_vendor_md5",
+      "section": 7,
+      "anchor": "?MD5Update@@YAXPAUMD5Context@@PBEI@Z",
+      "anchor_offset": 0,
+      "rva": 407904,
+      "size": 208,
+      "kind": "code",
+      "sha256": "0a2ff7b4cd1e6733851a95db8d272fef6b3f67d711e0b998609d794cabda1f38",
+      "bindings": [
+        {
+          "symbol": "?MD5Transform@@YAXQAKQBK@Z",
+          "site_rva": 407996,
+          "kind": 20,
+          "target_va": 268841184
+        },
+        {
+          "symbol": "?MD5Transform@@YAXQAKQBK@Z",
+          "site_rva": 408052,
+          "kind": 20,
+          "target_va": 268841184
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_md5",
+      "section": 9,
+      "anchor": "?MD5Final@@YAXQAEPAUMD5Context@@@Z",
+      "anchor_offset": 0,
+      "rva": 408112,
+      "size": 154,
+      "kind": "code",
+      "sha256": "73eb720dfb2d48cbcbb84488513bf856f4e9e20ce5c26cceee9a76a5d7a43088",
+      "bindings": [
+        {
+          "symbol": "?MD5Transform@@YAXQAKQBK@Z",
+          "site_rva": 408169,
+          "kind": 20,
+          "target_va": 268841184
+        },
+        {
+          "symbol": "?MD5Transform@@YAXQAKQBK@Z",
+          "site_rva": 408222,
+          "kind": 20,
+          "target_va": 268841184
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_fhicl_sha1",
+      "section": 6,
+      "anchor": "?Reset@SHA1@fhicl@@QAEXXZ",
+      "anchor_offset": 0,
+      "rva": 408288,
+      "size": 53,
+      "kind": "code",
+      "sha256": "92b678aaa9b18f26355a3c01216e4f01fe3fad28d298e2612fb8d10e0e328cca",
+      "bindings": []
+    },
+    {
+      "unit": "closure_vendor_fhicl_sha1",
+      "section": 8,
+      "anchor": "?CircularShift@SHA1@fhicl@@AAEIHI@Z",
+      "anchor_offset": 0,
+      "rva": 408352,
+      "size": 30,
+      "kind": "code",
+      "sha256": "082dfcfb0d656cbe4b185be348c49de2680cc8436db99e9ac18d3a31f3e853bc",
+      "bindings": []
+    },
+    {
+      "unit": "closure_vendor_fhicl_sha1",
+      "section": 14,
+      "anchor": "?ProcessMessageBlock@SHA1@fhicl@@AAEXXZ",
+      "anchor_offset": 0,
+      "rva": 408432,
+      "size": 1571,
+      "kind": "code",
+      "sha256": "93ddb6ef751ac07cacf7d72c6701fe0e5840f4c365c71e60fe310045e583c418",
+      "bindings": []
+    },
+    {
+      "unit": "closure_vendor_fhicl_sha1",
+      "section": 16,
+      "anchor": "?PadMessage@SHA1@fhicl@@AAEXXZ",
+      "anchor_offset": 0,
+      "rva": 410016,
+      "size": 187,
+      "kind": "code",
+      "sha256": "e010e48c020bda911753e5cf502ae6ae866c9bda7863a12245e9531d39bc55f7",
+      "bindings": [
+        {
+          "symbol": "?ProcessMessageBlock@SHA1@fhicl@@AAEXXZ",
+          "site_rva": 410073,
+          "kind": 20,
+          "target_va": 268843888
+        },
+        {
+          "symbol": "?ProcessMessageBlock@SHA1@fhicl@@AAEXXZ",
+          "site_rva": 410199,
+          "kind": 20,
+          "target_va": 268843888
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_fhicl_sha1",
+      "section": 18,
+      "anchor": "?Result@SHA1@fhicl@@QAE_NPAI@Z",
+      "anchor_offset": 0,
+      "rva": 410208,
+      "size": 73,
+      "kind": "code",
+      "sha256": "5dbf9c44ce2c2e9b2d29af4633aefe774e0115064d06b3d0c585eb9173ad14d0",
+      "bindings": [
+        {
+          "symbol": "?PadMessage@SHA1@fhicl@@AAEXXZ",
+          "site_rva": 410234,
+          "kind": 20,
+          "target_va": 268845472
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_fhicl_sha1",
+      "section": 20,
+      "anchor": "?Input@SHA1@fhicl@@QAEXPBEI@Z",
+      "anchor_offset": 0,
+      "rva": 410288,
+      "size": 110,
+      "kind": "code",
+      "sha256": "ff3d8c58d335f694ca6e7663203ba53edacdbf805e8b5949e9919d964836b67d",
+      "bindings": [
+        {
+          "symbol": "?ProcessMessageBlock@SHA1@fhicl@@AAEXXZ",
+          "site_rva": 410374,
+          "kind": 20,
+          "target_va": 268843888
+        }
+      ]
+    }
+  ],
+  "new_unique_code": 732,
+  "object_sha256": {
+    "closure_vendor_md5": "9913f224b5776f7b52cfb3203f209ed251d148bfeaefe0bb296af45e8b97a90c",
+    "closure_vendor_fhicl_sha1": "5a30001fa8a5cbf98105549d4009b179865d668a8a880b878f1b2a925f99ec77"
+  },
+  "source_sha256": {
+    "closure_vendor_md5": "c06fc30ee0dca4c65a909f117c9a922a0a0d8cedd542429aaca8512609103185",
+    "closure_vendor_fhicl_sha1": "f318de0e20584c333c8b8983970a846f62273eeee86f104b4f79d4059e42a701"
+  },
+  "actual_weak_aliases": {
+    "closure_vendor_md5": {},
+    "closure_vendor_fhicl_sha1": {
+      "??_ESHA1@fhicl@@UAEPAXI@Z": "??_GSHA1@fhicl@@UAEPAXI@Z"
+    }
+  },
+  "provenance": "Existing source MD5 Colin Plumb 1993 public domain and fhicl SHA1 Paul E. Jones 1998/2009, source/header amalgamations unchanged. Unique entire function fingerprints anchor selected methods; actual original call targets and complete COFF/PE relocations independently checked. Ambiguous constructors, destructors and wrappers excluded. No byte copying, truncation or external implementation bypass."
+}
