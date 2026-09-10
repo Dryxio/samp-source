@@ -1,0 +1,58 @@
+{
+  "status": "PASS_WHOLE_BODY_ABI_COFF_PE_TARGET_EQUIVALENCE",
+  "source": "build/overnight-client/closure_vendor_lzma_wrappers.cpp",
+  "comparisons": [
+    {
+      "symbols": [
+        "_MidAlloc",
+        "_BigAlloc"
+      ],
+      "rvas": [
+        772080,
+        772160
+      ],
+      "size": 26,
+      "signature": "void* __cdecl(size_t32 size)",
+      "object_body_sha256": "daf221791e320373efb1747b2bec18760c60eea9a103ee79601f9adbbcac959d",
+      "original_body_sha256": "dfe680622af6028feab6400d66fcf09c42f0846bf728edf8b3f823c9d9e61745",
+      "coff_fixups": [
+        [
+          21,
+          6,
+          "__imp__VirtualAlloc@16"
+        ]
+      ],
+      "iat_rva": 938364,
+      "pe_relocation_offsets": [
+        21
+      ],
+      "identity_note": "Names assigned by exact official SDK source order; no direct-caller identity asserted for Mid. Both entire function bodies, ABI and actual IAT targets identical. Big callbacks independently prove allocator graph. These are same-signature implementations rather than unknown-type constructor/empty-return guesses."
+    },
+    {
+      "symbols": [
+        "_MidFree",
+        "_BigFree"
+      ],
+      "rvas": [
+        772112,
+        772192
+      ],
+      "size": 23,
+      "signature": "void __cdecl(void* address)",
+      "object_body_sha256": "db66e73c5583508d06b4703774733429f7e1bcdc2ea77ce530baf47e069fa5b6",
+      "original_body_sha256": "a364e94a9ec045cb6557adb13eac4628c02e5b5679af02cfae2f3fbcd58b4256",
+      "coff_fixups": [
+        [
+          18,
+          6,
+          "__imp__VirtualFree@12"
+        ]
+      ],
+      "iat_rva": 938360,
+      "pe_relocation_offsets": [
+        18
+      ],
+      "identity_note": "Names assigned by exact official SDK source order; no direct-caller identity asserted for Mid. Both entire function bodies, ABI and actual IAT targets identical. Big callbacks independently prove allocator graph. These are same-signature implementations rather than unknown-type constructor/empty-return guesses."
+    }
+  ]
+}

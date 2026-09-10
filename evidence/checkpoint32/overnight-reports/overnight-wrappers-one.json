@@ -1,0 +1,103 @@
+{
+  "prefix": "overnight-wrappers-one",
+  "utc": "2026-09-10T00:05:37.143996+00:00",
+  "coverage": {
+    "previous_code_bytes": 468034,
+    "batch_code_bytes": 462834,
+    "new_unique_code_bytes": 871,
+    "union_code_bytes": 468905,
+    "text_bytes": 930756,
+    "text_percent": 50.37893927087228,
+    "whole_dll_match": false
+  },
+  "measurement": {
+    "utc": "2026-09-10T00:09:24.913284+00:00",
+    "elapsed_seconds": 2488.913284,
+    "baseline": 435895,
+    "accepted": 468905,
+    "gain": 33010,
+    "global_bytes_per_hour": 47746.13915395856,
+    "token_usage": {
+      "root": {
+        "configuration": {
+          "model": "gpt-6-astra",
+          "effort": "low"
+        },
+        "usage": {
+          "input_tokens": 21433882,
+          "cached_input_tokens": 21221120,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 48220,
+          "reasoning_output_tokens": 11026,
+          "total_tokens": 21482102,
+          "uncached_input_tokens": 212762
+        },
+        "as_of": "2026-09-10T00:09:20.701Z",
+        "session": "/Users/salimtrouve/.codex/sessions/2026/09/10/rollout-2026-09-10T00-26-29-01a0887e-8a17-7c33-90e9-dcf660740fb9.jsonl",
+        "observed_counter_resets": 0
+      },
+      "/root/client": {
+        "configuration": {
+          "model": "gpt-6-astra",
+          "effort": "low"
+        },
+        "usage": {
+          "input_tokens": 18276998,
+          "cached_input_tokens": 18086016,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 55600,
+          "reasoning_output_tokens": 16581,
+          "total_tokens": 18332598,
+          "uncached_input_tokens": 190982
+        },
+        "as_of": "2026-09-10T00:08:50.631Z",
+        "session": "/Users/salimtrouve/.codex/sessions/2026/09/10/rollout-2026-09-10T00-28-42-01a08880-90d2-7b61-95d9-80335d3475ae.jsonl",
+        "observed_counter_resets": 0
+      },
+      "/root/network": {
+        "configuration": {
+          "model": "gpt-6-astra",
+          "effort": "low"
+        },
+        "usage": {
+          "input_tokens": 17915218,
+          "cached_input_tokens": 17693184,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 49326,
+          "reasoning_output_tokens": 12994,
+          "total_tokens": 17964544,
+          "uncached_input_tokens": 222034
+        },
+        "as_of": "2026-09-10T00:08:50.156Z",
+        "session": "/Users/salimtrouve/.codex/sessions/2026/09/10/rollout-2026-09-10T00-28-32-01a08880-6cd4-7172-a004-119c842bab14.jsonl",
+        "observed_counter_resets": 0
+      }
+    },
+    "pipeline_seconds": {
+      "vm-idle": 3.691135500994278,
+      "compile": 41.228739707992645,
+      "audit": 15.430906541005243,
+      "link": 26.51090374898922,
+      "qualify": 3.8954637090064352,
+      "spec": 0.16184083400730742,
+      "review": 34.769909250004275,
+      "accept": 312.0447408750042
+    },
+    "token_note": "Observed cumulative counters reset on continuation; sum monotonic increments within the requested window and restart from zero on a verified decrease. Earlier negative raw differences are invalid and retained in history. Counters may lag; reasoning is a subset of output; cached input is separate; no billed cost inferred.",
+    "recent_bytes_per_hour": 0.0
+  },
+  "proposal": "build/overnight/proposal-wrappers-one.json",
+  "reviews": [
+    "evidence/checkpoint32/overnight-reviews/overnight-wrappers-one-lzma-wrappers357-reviewed-manifest.json",
+    "evidence/checkpoint32/overnight-reviews/overnight-wrappers-one-quaternion-sdk206-reviewed-manifest.json",
+    "evidence/checkpoint32/overnight-reviews/overnight-wrappers-one-memory-lzma308-reviewed-manifest.json"
+  ],
+  "review_note": {
+    "scope": "LZMA allocator/API wrappers357, normal memory codec308 and quaternion SDK adapters206, total871 potential code bytes; all code/data closure complete.",
+    "implementation": "Official LZMA SDK16.04 Alloc.c and LzmaLib.c unchanged; whole compiled source snapshot. Eight public roots reach12 exact functions357 and complete shared data section16 (g_Alloc,g_BigAlloc, all4 function pointers). All source-relative/absolute targets and original PE relocation sets verified. malloc/free use existing accepted CRT identities; VirtualAlloc/Free match actual kernel32.dll IAT E517C/E5178, proposed external descriptors separately recorded. Allocator API null-size returns and ownership semantics unchanged; real SizeT32 and ISzAlloc8. LzmaCompress stdcall52 and LzmaUncompress stdcall24 preserve13/6 argument cleanup and output-parameter alias behavior. Empty SetLargePageSize1 is deliberately excluded without independent caller identity; unchanged source may emit it but it has no selected region or credit; no data/import/CRT credit. New external review and active LZMA encoder/decoder acceptance remain integration prerequisites. Real16-byte quaternion wxyz converted into SDK16-byte xyzw values through separate explicit assignments; D3DX normalize/slerp return values copied in original wxyz order. All inputs materialized before output stores, including aliased caller pointers. No null/zero guard added. No new data or EH. Unreferenced SDK empty constructor3 and std constants emitted but never selected; no credit. Whole6-byte real SDK imports preserved with separate PE descriptor/IAT proof; final library/name qualification outstanding. New normal C++ reconstruction of genuine23-byte memory buffer state (buffer0,position4,length8,ended12,owns13,scratch pointer14,scratchLength18,compressed22). Compression holds original length over malloc and preserves genuine LZMA13args level1/dict65536/lc3/lp0/pb2/fb32/threads1,props5 scratch. Decompression6args uses full true writable default properties byte[5]117458=5d00000100. All success/failure stores, free behavior, no-allocation guards and output-size mutation behavior preserved; original source additions do not initialize/publish a new owner. Whole code171+137, initialized data5, all9 COFF calls/data targets and original PE relocations exact. Depends on separately reviewed exact LZMA wrapper358 closure, not accepted by forwarding to unknown addresses.",
+    "limitation": "Current external_support.py supports import-thunks and __aullshr only. Integrator must explicitly support and validate genuine import slots for two kernel32 entries before running, then refresh pinned tool hashes; no unsupported action/changed tool claimed here."
+  },
+  "preserved_main": true,
+  "changed_preexisting_with_backup": [],
+  "status": "ACCEPTED_CHECKPOINT_STILL_IN_PROGRESS"
+}

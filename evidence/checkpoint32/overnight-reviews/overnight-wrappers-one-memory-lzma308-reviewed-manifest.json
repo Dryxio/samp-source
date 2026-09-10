@@ -1,0 +1,135 @@
+{
+  "status": "PASS_FULL_SOURCE_REGIONS_ALL_COFF_PE_TARGETS",
+  "roots": [
+    {
+      "unit": "closure_memory_lzma_codec_v3",
+      "symbol": "?Compress@R5MemoryLzmaCodecView@@QAEHXZ",
+      "rva": 763984,
+      "size": 171
+    },
+    {
+      "unit": "closure_memory_lzma_codec_v3",
+      "symbol": "?Uncompress@R5MemoryLzmaCodecView@@QAEHI@Z",
+      "rva": 764160,
+      "size": 137
+    }
+  ],
+  "regions": [
+    {
+      "unit": "closure_memory_lzma_codec_v3",
+      "section": 6,
+      "anchor": "?Uncompress@R5MemoryLzmaCodecView@@QAEHI@Z",
+      "anchor_offset": 0,
+      "rva": 764160,
+      "size": 137,
+      "kind": "code",
+      "sha256": "6be6709286bccc47fdb2b3cb0f255b990062cdb4a27b2eb23a9764e4d3296cc4",
+      "bindings": [
+        {
+          "symbol": "_malloc",
+          "site_rva": 764187,
+          "symbol_va": 269249468,
+          "addend": 0,
+          "target_va": 269249468,
+          "kind": 20
+        },
+        {
+          "symbol": "?r5LzmaDefaultProperties@@3PAEA",
+          "site_rva": 764199,
+          "symbol_va": 269579352,
+          "addend": 0,
+          "target_va": 269579352,
+          "kind": 6
+        },
+        {
+          "symbol": "_LzmaUncompress@24",
+          "site_rva": 764218,
+          "symbol_va": 269236736,
+          "addend": 0,
+          "target_va": 269236736,
+          "kind": 20
+        },
+        {
+          "symbol": "_free",
+          "site_rva": 764239,
+          "symbol_va": 269249085,
+          "addend": 0,
+          "target_va": 269249085,
+          "kind": 20
+        },
+        {
+          "symbol": "_free",
+          "site_rva": 764278,
+          "symbol_va": 269249085,
+          "addend": 0,
+          "target_va": 269249085,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "closure_memory_lzma_codec_v3",
+      "section": 3,
+      "anchor": "?r5LzmaDefaultProperties@@3PAEA",
+      "anchor_offset": 0,
+      "rva": 1143896,
+      "size": 5,
+      "kind": "data",
+      "sha256": "52aa5c2e3c47edce59756c7e787b26053ff3c4c7c9c43945c11b0f5cdf39f973",
+      "bindings": []
+    },
+    {
+      "unit": "closure_memory_lzma_codec_v3",
+      "section": 4,
+      "anchor": "?Compress@R5MemoryLzmaCodecView@@QAEHXZ",
+      "anchor_offset": 0,
+      "rva": 763984,
+      "size": 171,
+      "kind": "code",
+      "sha256": "65fde640fb61e0d22d2beed99eb02d349a7f02fc0c999c12893327fcb9c01208",
+      "bindings": [
+        {
+          "symbol": "_malloc",
+          "site_rva": 764030,
+          "symbol_va": 269249468,
+          "addend": 0,
+          "target_va": 269249468,
+          "kind": 20
+        },
+        {
+          "symbol": "_LzmaCompress@52",
+          "site_rva": 764074,
+          "symbol_va": 269236592,
+          "addend": 0,
+          "target_va": 269236592,
+          "kind": 20
+        },
+        {
+          "symbol": "_free",
+          "site_rva": 764095,
+          "symbol_va": 269249085,
+          "addend": 0,
+          "target_va": 269249085,
+          "kind": 20
+        },
+        {
+          "symbol": "_free",
+          "site_rva": 764135,
+          "symbol_va": 269249085,
+          "addend": 0,
+          "target_va": 269249085,
+          "kind": 20
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "source_sha256": {
+    "closure_memory_lzma_codec_v3": "7c90b4f040cc53d68c6a0d7d93a07d3acb881ef2bebc3da1e2061d126dca4293"
+  },
+  "object_sha256": {
+    "closure_memory_lzma_codec_v3": "7165742d420d42466ca15c5f24c13c13c9645f87180e61d93d3d54e314855f91"
+  },
+  "run": "cp32-overnight-probe-effects-memory",
+  "typed_layout_note": "New normal C++ reconstruction of genuine23-byte memory buffer state (buffer0,position4,length8,ended12,owns13,scratch pointer14,scratchLength18,compressed22). Compression holds original length over malloc and preserves genuine LZMA13args level1/dict65536/lc3/lp0/pb2/fb32/threads1,props5 scratch. Decompression6args uses full true writable default properties byte[5]117458=5d00000100. All success/failure stores, free behavior, no-allocation guards and output-size mutation behavior preserved; original source additions do not initialize/publish a new owner. Whole code171+137, initialized data5, all9 COFF calls/data targets and original PE relocations exact. Depends on separately reviewed exact LZMA wrapper358 closure, not accepted by forwarding to unknown addresses."
+}

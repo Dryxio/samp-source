@@ -1,0 +1,101 @@
+{
+  "status": "PASS_FULL_SOURCE_REGIONS_ALL_COFF_PE_TARGETS",
+  "run": "cp32-overnight-probe-math-three",
+  "roots": [
+    {
+      "unit": "closure_game_quaternion_sdk_v2",
+      "symbol": "?R5GameNormalizeQuaternion@@YAXPAUR5GameQuaternion@@@Z",
+      "rva": 742656,
+      "size": 82
+    },
+    {
+      "unit": "closure_game_quaternion_sdk_v2",
+      "symbol": "?R5GameSlerpQuaternion@@YAXPAUR5GameQuaternion@@PBU1@1M@Z",
+      "rva": 742528,
+      "size": 124
+    }
+  ],
+  "regions": [
+    {
+      "unit": "closure_game_quaternion_sdk_v2",
+      "section": 48,
+      "anchor": "?R5GameNormalizeQuaternion@@YAXPAUR5GameQuaternion@@@Z",
+      "anchor_offset": 0,
+      "rva": 742656,
+      "size": 82,
+      "kind": "code",
+      "sha256": "e21b9ad76a2dd9862f53b16e484d672f7746d9c8d951f89d77ce15e55255493b",
+      "bindings": [
+        {
+          "symbol": "_D3DXQuaternionNormalize@8",
+          "site_rva": 742702,
+          "symbol_va": 269245808,
+          "addend": 0,
+          "target_va": 269245808,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "closure_game_quaternion_sdk_v2",
+      "section": 50,
+      "anchor": "?R5GameSlerpQuaternion@@YAXPAUR5GameQuaternion@@PBU1@1M@Z",
+      "anchor_offset": 0,
+      "rva": 742528,
+      "size": 124,
+      "kind": "code",
+      "sha256": "d7a7650a0fdc8da7e47e1f2bce9273b4fefee4ddaa7683bab347a5e36ccec8be",
+      "bindings": [
+        {
+          "symbol": "_D3DXQuaternionSlerp@16",
+          "site_rva": 742613,
+          "symbol_va": 269245802,
+          "addend": 0,
+          "target_va": 269245802,
+          "kind": 20
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "object_sha256": {
+    "closure_game_quaternion_sdk_v2": "ea98f2f643c3963faa2fb2e88b26d87b5d3776635d593739a024fe7890a21d18"
+  },
+  "source_sha256": {
+    "closure_game_quaternion_sdk_v2": "ed65f81a4034a823b1c2bc475c258a8d456454dfa10cf4288d87c6cdbb8a46dd"
+  },
+  "new_unique_code": 206,
+  "typed_layout_note": "Real16-byte quaternion wxyz converted into SDK16-byte xyzw values through separate explicit assignments; D3DX normalize/slerp return values copied in original wxyz order. All inputs materialized before output stores, including aliased caller pointers. No null/zero guard added. No new data or EH. Unreferenced SDK empty constructor3 and std constants emitted but never selected; no credit. Whole6-byte real SDK imports preserved with separate PE descriptor/IAT proof; final library/name qualification outstanding.",
+  "sdk_imports": [
+    {
+      "symbol": "_D3DXQuaternionNormalize@8",
+      "kind": "sdk-import-thunk",
+      "rva": 810352,
+      "size": 6,
+      "sha256": "3a1197faf7dda665818d328550d5b27a4719ca53a052236d537972b0f0942bf5",
+      "import_dll": "d3dx9_25.dll",
+      "import_name": "D3DXQuaternionNormalize",
+      "iat_rva": 939124,
+      "pe_relocations": [
+        810354
+      ],
+      "note": "Original complete FF25 thunk and actual PE import descriptor. SDK library symbol qualification by integrator still required. Zero reconstructed code credit."
+    },
+    {
+      "symbol": "_D3DXQuaternionSlerp@16",
+      "kind": "sdk-import-thunk",
+      "rva": 810346,
+      "size": 6,
+      "sha256": "26b81f968a96898c4b05308144e5bc788d590032016106542d65cc993d902c17",
+      "import_dll": "d3dx9_25.dll",
+      "import_name": "D3DXQuaternionSlerp",
+      "iat_rva": 939128,
+      "pe_relocations": [
+        810348
+      ],
+      "note": "Original complete FF25 thunk and actual PE import descriptor. SDK library symbol qualification by integrator still required. Zero reconstructed code credit."
+    }
+  ],
+  "prior_status": "PASS_FULL_SOURCE_REGIONS_ALL_COFF_PE_TARGETS_PENDING_SDK_QUALIFICATION",
+  "integrator_review": "Original exact source bytes and complete named COFF/PE targets reverified; new imports independently bound to original PE descriptors with pinned library provenance. Actual linked archive providers remain mandatory through external_pipeline and unchanged final gate."
+}

@@ -1,0 +1,401 @@
+{
+  "status": "PASS_FULL_SOURCE_REGIONS_ALL_COFF_PE_TARGETS",
+  "roots": [
+    {
+      "unit": "closure_vendor_lzma_wrappers",
+      "symbol": "_MyAlloc",
+      "rva": 772032,
+      "size": 18
+    },
+    {
+      "unit": "closure_vendor_lzma_wrappers",
+      "symbol": "_MyFree",
+      "rva": 772064,
+      "size": 5
+    },
+    {
+      "unit": "closure_vendor_lzma_wrappers",
+      "symbol": "_MidAlloc",
+      "rva": 772080,
+      "size": 26
+    },
+    {
+      "unit": "closure_vendor_lzma_wrappers",
+      "symbol": "_MidFree",
+      "rva": 772112,
+      "size": 23
+    },
+    {
+      "unit": "closure_vendor_lzma_wrappers",
+      "symbol": "_BigAlloc",
+      "rva": 772160,
+      "size": 26
+    },
+    {
+      "unit": "closure_vendor_lzma_wrappers",
+      "symbol": "_BigFree",
+      "rva": 772192,
+      "size": 23
+    },
+    {
+      "unit": "closure_vendor_lzma_wrappers",
+      "symbol": "_LzmaCompress@52",
+      "rva": 801136,
+      "size": 131
+    },
+    {
+      "unit": "closure_vendor_lzma_wrappers",
+      "symbol": "_LzmaUncompress@24",
+      "rva": 801280,
+      "size": 53
+    }
+  ],
+  "regions": [
+    {
+      "unit": "closure_vendor_lzma_wrappers",
+      "section": 28,
+      "anchor": "_LzmaUncompress@24",
+      "anchor_offset": 0,
+      "rva": 801280,
+      "size": 53,
+      "kind": "code",
+      "sha256": "9c59a571d044e38f617d045e5dd72748b4c3c661848e2bd089af3447647e3108",
+      "bindings": [
+        {
+          "symbol": "_g_Alloc",
+          "site_rva": 801289,
+          "symbol_va": 269579360,
+          "addend": 0,
+          "target_va": 269579360,
+          "kind": 6
+        },
+        {
+          "symbol": "_LzmaDecode",
+          "site_rva": 801323,
+          "symbol_va": 269222048,
+          "addend": 0,
+          "target_va": 269222048,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_lzma_wrappers",
+      "section": 3,
+      "anchor": "_g_Alloc",
+      "anchor_offset": 0,
+      "rva": 1143904,
+      "size": 16,
+      "kind": "data",
+      "sha256": "9b9673d616cdf5f5b5c707dd36557d3452b81127a38f443c95f3541f7ee5ae47",
+      "bindings": [
+        {
+          "symbol": "_SzAlloc",
+          "site_rva": 1143904,
+          "symbol_va": 269207680,
+          "addend": 0,
+          "target_va": 269207680,
+          "kind": 6
+        },
+        {
+          "symbol": "_SzFree",
+          "site_rva": 1143908,
+          "symbol_va": 269207696,
+          "addend": 0,
+          "target_va": 269207696,
+          "kind": 6
+        },
+        {
+          "symbol": "_SzBigAlloc",
+          "site_rva": 1143912,
+          "symbol_va": 269207712,
+          "addend": 0,
+          "target_va": 269207712,
+          "kind": 6
+        },
+        {
+          "symbol": "_SzBigFree",
+          "site_rva": 1143916,
+          "symbol_va": 269207728,
+          "addend": 0,
+          "target_va": 269207728,
+          "kind": 6
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_lzma_wrappers",
+      "section": 24,
+      "anchor": "_SzBigFree",
+      "anchor_offset": 0,
+      "rva": 772272,
+      "size": 12,
+      "kind": "code",
+      "sha256": "babf6a6045fec4664d008466a4b6221ae2decb3a8d5e310354e7adbe8f1b33b2",
+      "bindings": [
+        {
+          "symbol": "_BigFree",
+          "site_rva": 772278,
+          "symbol_va": 269207648,
+          "addend": 0,
+          "target_va": 269207648,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_lzma_wrappers",
+      "section": 16,
+      "anchor": "_BigFree",
+      "anchor_offset": 0,
+      "rva": 772192,
+      "size": 23,
+      "kind": "code",
+      "sha256": "a364e94a9ec045cb6557adb13eac4628c02e5b5679af02cfae2f3fbcd58b4256",
+      "bindings": [
+        {
+          "symbol": "__imp__VirtualFree@12",
+          "site_rva": 772210,
+          "symbol_va": 269373816,
+          "addend": 0,
+          "target_va": 269373816,
+          "kind": 6
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_lzma_wrappers",
+      "section": 22,
+      "anchor": "_SzBigAlloc",
+      "anchor_offset": 0,
+      "rva": 772256,
+      "size": 14,
+      "kind": "code",
+      "sha256": "d384ca2807ed216a53da1102c5b0cf6637f04e7c5c057682cc99386c897594a3",
+      "bindings": [
+        {
+          "symbol": "_BigAlloc",
+          "site_rva": 772262,
+          "symbol_va": 269207616,
+          "addend": 0,
+          "target_va": 269207616,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_lzma_wrappers",
+      "section": 14,
+      "anchor": "_BigAlloc",
+      "anchor_offset": 0,
+      "rva": 772160,
+      "size": 26,
+      "kind": "code",
+      "sha256": "dfe680622af6028feab6400d66fcf09c42f0846bf728edf8b3f823c9d9e61745",
+      "bindings": [
+        {
+          "symbol": "__imp__VirtualAlloc@16",
+          "site_rva": 772181,
+          "symbol_va": 269373820,
+          "addend": 0,
+          "target_va": 269373820,
+          "kind": 6
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_lzma_wrappers",
+      "section": 20,
+      "anchor": "_SzFree",
+      "anchor_offset": 0,
+      "rva": 772240,
+      "size": 12,
+      "kind": "code",
+      "sha256": "5cb1a33a5339587460fbe95c7dab2deb0bdc9ecf4d2cb7da65ead2f2330b980e",
+      "bindings": [
+        {
+          "symbol": "_MyFree",
+          "site_rva": 772246,
+          "symbol_va": 269207520,
+          "addend": 0,
+          "target_va": 269207520,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_lzma_wrappers",
+      "section": 6,
+      "anchor": "_MyFree",
+      "anchor_offset": 0,
+      "rva": 772064,
+      "size": 5,
+      "kind": "code",
+      "sha256": "f144e4405cf77ce44819f1d9b892b22493741a602af9912fe060f452baaae328",
+      "bindings": [
+        {
+          "symbol": "_free",
+          "site_rva": 772065,
+          "symbol_va": 269249085,
+          "addend": 0,
+          "target_va": 269249085,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_lzma_wrappers",
+      "section": 18,
+      "anchor": "_SzAlloc",
+      "anchor_offset": 0,
+      "rva": 772224,
+      "size": 14,
+      "kind": "code",
+      "sha256": "9cb15390e2b68c0ff053c9cfaa79da6d07b64fd0b4b1a74e7a21431934b94acf",
+      "bindings": [
+        {
+          "symbol": "_MyAlloc",
+          "site_rva": 772230,
+          "symbol_va": 269207488,
+          "addend": 0,
+          "target_va": 269207488,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_lzma_wrappers",
+      "section": 4,
+      "anchor": "_MyAlloc",
+      "anchor_offset": 0,
+      "rva": 772032,
+      "size": 18,
+      "kind": "code",
+      "sha256": "1edb246785e4b2f5c6e245b263f1f73886cdedf7179f4460e4d8f7ff61b4e7a3",
+      "bindings": [
+        {
+          "symbol": "_malloc",
+          "site_rva": 772046,
+          "symbol_va": 269249468,
+          "addend": 0,
+          "target_va": 269249468,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_lzma_wrappers",
+      "section": 26,
+      "anchor": "_LzmaCompress@52",
+      "anchor_offset": 0,
+      "rva": 801136,
+      "size": 131,
+      "kind": "code",
+      "sha256": "6cde8133e4c6b332f9686c494750d010fcb56e6246810eab6dc3053145713820",
+      "bindings": [
+        {
+          "symbol": "_LzmaEncProps_Init",
+          "site_rva": 801144,
+          "symbol_va": 269222272,
+          "addend": 0,
+          "target_va": 269222272,
+          "kind": 20
+        },
+        {
+          "symbol": "_g_Alloc",
+          "site_rva": 801161,
+          "symbol_va": 269579360,
+          "addend": 0,
+          "target_va": 269579360,
+          "kind": 6
+        },
+        {
+          "symbol": "_g_Alloc",
+          "site_rva": 801166,
+          "symbol_va": 269579360,
+          "addend": 0,
+          "target_va": 269579360,
+          "kind": 6
+        },
+        {
+          "symbol": "_LzmaEncode",
+          "site_rva": 801257,
+          "symbol_va": 269236448,
+          "addend": 0,
+          "target_va": 269236448,
+          "kind": 20
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_lzma_wrappers",
+      "section": 10,
+      "anchor": "_MidFree",
+      "anchor_offset": 0,
+      "rva": 772112,
+      "size": 23,
+      "kind": "code",
+      "sha256": "a364e94a9ec045cb6557adb13eac4628c02e5b5679af02cfae2f3fbcd58b4256",
+      "bindings": [
+        {
+          "symbol": "__imp__VirtualFree@12",
+          "site_rva": 772130,
+          "symbol_va": 269373816,
+          "addend": 0,
+          "target_va": 269373816,
+          "kind": 6
+        }
+      ]
+    },
+    {
+      "unit": "closure_vendor_lzma_wrappers",
+      "section": 8,
+      "anchor": "_MidAlloc",
+      "anchor_offset": 0,
+      "rva": 772080,
+      "size": 26,
+      "kind": "code",
+      "sha256": "dfe680622af6028feab6400d66fcf09c42f0846bf728edf8b3f823c9d9e61745",
+      "bindings": [
+        {
+          "symbol": "__imp__VirtualAlloc@16",
+          "site_rva": 772101,
+          "symbol_va": 269373820,
+          "addend": 0,
+          "target_va": 269373820,
+          "kind": 6
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "source_sha256": {
+    "closure_vendor_lzma_wrappers": "ea98d32649578b8fdb0e7a4e0bc24a7e1f9d2159c9f23cc2ba6da731492e9c79"
+  },
+  "object_sha256": {
+    "closure_vendor_lzma_wrappers": "a037fef741bf2d1a2b7b64c049c9c660a7f5455eb0d7557d4d1fa21455bafaf5"
+  },
+  "run": "cp32-overnight-probe-lzma-wrappers",
+  "typed_layout_note": "Official LZMA SDK16.04 Alloc.c and LzmaLib.c unchanged; whole compiled source snapshot. Eight public roots reach12 exact functions357 and complete shared data section16 (g_Alloc,g_BigAlloc, all4 function pointers). All source-relative/absolute targets and original PE relocation sets verified. malloc/free use existing accepted CRT identities; VirtualAlloc/Free match actual kernel32.dll IAT E517C/E5178, proposed external descriptors separately recorded. Allocator API null-size returns and ownership semantics unchanged; real SizeT32 and ISzAlloc8. LzmaCompress stdcall52 and LzmaUncompress stdcall24 preserve13/6 argument cleanup and output-parameter alias behavior. Empty SetLargePageSize1 is deliberately excluded without independent caller identity; unchanged source may emit it but it has no selected region or credit; no data/import/CRT credit. New external review and active LZMA encoder/decoder acceptance remain integration prerequisites.",
+  "source_provenance": "evidence/checkpoint32/overnight-client/lzma-wrappers-source-provenance.json",
+  "proposed_externals": {
+    "__imp__VirtualAlloc@16": {
+      "kind": "import",
+      "reference_va": 269373820,
+      "import": [
+        "kernel32.dll",
+        "VirtualAlloc"
+      ]
+    },
+    "__imp__VirtualFree@12": {
+      "kind": "import",
+      "reference_va": 269373816,
+      "import": [
+        "kernel32.dll",
+        "VirtualFree"
+      ]
+    }
+  },
+  "prior_status": "PASS_FULL_SOURCE_REGIONS_ALL_COFF_PE_TARGETS_PENDING_EXTERNALS",
+  "integrator_review": "Original exact source bytes and complete named COFF/PE targets reverified; new imports independently bound to original PE descriptors with pinned library provenance. Actual linked archive providers remain mandatory through external_pipeline and unchanged final gate."
+}
