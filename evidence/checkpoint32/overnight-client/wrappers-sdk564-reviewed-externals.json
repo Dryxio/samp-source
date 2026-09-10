@@ -1,0 +1,48 @@
+{
+  "__imp__VirtualAlloc@16": {
+    "kind": "import",
+    "reference_va": 269373820,
+    "import": [
+      "kernel32.dll",
+      "VirtualAlloc"
+    ],
+    "library": "kernel32.lib",
+    "size": 4,
+    "sha256": "8144e8fefcb1079d127da2f2e8077df7850b0f8af9c49451fc6fe6f797807bbf"
+  },
+  "__imp__VirtualFree@12": {
+    "kind": "import",
+    "reference_va": 269373816,
+    "import": [
+      "kernel32.dll",
+      "VirtualFree"
+    ],
+    "library": "kernel32.lib",
+    "size": 4,
+    "sha256": "5df057c723ecddaaaf64ff150bda21710db0d62206439fca44c3c7cc36b40501"
+  },
+  "_D3DXQuaternionNormalize@8": {
+    "kind": "import-thunk",
+    "reference_va": 269245808,
+    "import_slot_va": 269374580,
+    "import_identity": [
+      "d3dx9_25.dll",
+      "D3DXQuaternionNormalize"
+    ],
+    "size": 6,
+    "sha256": "3a1197faf7dda665818d328550d5b27a4719ca53a052236d537972b0f0942bf5",
+    "library": "d3dx9.lib"
+  },
+  "_D3DXQuaternionSlerp@16": {
+    "kind": "import-thunk",
+    "reference_va": 269245802,
+    "import_slot_va": 269374584,
+    "import_identity": [
+      "d3dx9_25.dll",
+      "D3DXQuaternionSlerp"
+    ],
+    "size": 6,
+    "sha256": "26b81f968a96898c4b05308144e5bc788d590032016106542d65cc993d902c17",
+    "library": "d3dx9.lib"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "rva": 1143896,
+  "size": 5,
+  "bytes_hex": "5d00000100",
+  "original_section": ".data",
+  "original_section_flags": "0xc0000040",
+  "relocation_xrefs": [
+    {
+      "function_rva": 764160,
+      "role": "LzmaUncompress input properties"
+    }
+  ],
+  "decision": "v3 uses genuine writable initialized byte[5], matching original data storage. Original has only decoder-read code xref but writable provenance retained. Earlier const variants preserved; no original writes invented."
+}
