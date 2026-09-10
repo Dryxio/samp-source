@@ -1,0 +1,130 @@
+{
+  "status": "PASS_COMPLETE_BSS_LAYOUT_WITH_TWO_CAPACITY_NEGATIVE_CONTROLS",
+  "run": "build/cp32-overnight-probe-socket-layout",
+  "variants": [
+    {
+      "variant": "candidate",
+      "capacity": 32768,
+      "symbols": {
+        "?winsockInfo@SocketLayer@@0UWSAData@@A": {
+          "section": 3,
+          "offset": 0,
+          "section_size": 33170
+        },
+        "?r5DatagramOutput@@3PAEA": {
+          "section": 3,
+          "offset": 400,
+          "section_size": 33170
+        },
+        "?socketLayerStarted@SocketLayer@@0_NA": {
+          "section": 3,
+          "offset": 33168,
+          "section_size": 33170
+        },
+        "?I@SocketLayer@@0V1@A": {
+          "section": 3,
+          "offset": 33169,
+          "section_size": 33170
+        }
+      },
+      "expected_offsets": [
+        0,
+        400,
+        33168,
+        33169
+      ],
+      "actual_offsets": [
+        0,
+        400,
+        33168,
+        33169
+      ],
+      "reference_layout_matches": true,
+      "object_sha256": "c30768ed1c1c255ae8e4044ab7982e8ad6913534f243942f021bdaedbee340c4",
+      "source_sha256": "a4c58c603761f2c367fe7023d5bec6a0492c2938f450972b5fc12df0d52f22f2"
+    },
+    {
+      "variant": "minus1",
+      "capacity": 32767,
+      "symbols": {
+        "?winsockInfo@SocketLayer@@0UWSAData@@A": {
+          "section": 3,
+          "offset": 0,
+          "section_size": 33169
+        },
+        "?r5DatagramOutput@@3PAEA": {
+          "section": 3,
+          "offset": 400,
+          "section_size": 33169
+        },
+        "?socketLayerStarted@SocketLayer@@0_NA": {
+          "section": 3,
+          "offset": 33167,
+          "section_size": 33169
+        },
+        "?I@SocketLayer@@0V1@A": {
+          "section": 3,
+          "offset": 33168,
+          "section_size": 33169
+        }
+      },
+      "expected_offsets": [
+        0,
+        400,
+        33168,
+        33169
+      ],
+      "actual_offsets": [
+        0,
+        400,
+        33167,
+        33168
+      ],
+      "reference_layout_matches": false,
+      "object_sha256": "210ce105a8bae79de7cc10e7b9c9a673265dd72c4f321ef7484a33a6bed0803d",
+      "source_sha256": "352d268bb28088007e44f46d797bf51497e212c91166d879bbc396293ec6518d"
+    },
+    {
+      "variant": "plus1",
+      "capacity": 32769,
+      "symbols": {
+        "?winsockInfo@SocketLayer@@0UWSAData@@A": {
+          "section": 3,
+          "offset": 0,
+          "section_size": 33171
+        },
+        "?r5DatagramOutput@@3PAEA": {
+          "section": 3,
+          "offset": 400,
+          "section_size": 33171
+        },
+        "?socketLayerStarted@SocketLayer@@0_NA": {
+          "section": 3,
+          "offset": 33169,
+          "section_size": 33171
+        },
+        "?I@SocketLayer@@0V1@A": {
+          "section": 3,
+          "offset": 33170,
+          "section_size": 33171
+        }
+      },
+      "expected_offsets": [
+        0,
+        400,
+        33168,
+        33169
+      ],
+      "actual_offsets": [
+        0,
+        400,
+        33169,
+        33170
+      ],
+      "reference_layout_matches": false,
+      "object_sha256": "de08f79c5ac05714f3712a21ce59408718677d46cff2f6fea7437b9c3f21df67",
+      "source_sha256": "880073336af9887c2ba86242761b02c4591717037ea5c1ac6e33eb30e66fef16"
+    }
+  ],
+  "scope": "Compiler layout evidence supporting inferred source storage model; no data/code credit and final closure/migration gate remains required."
+}

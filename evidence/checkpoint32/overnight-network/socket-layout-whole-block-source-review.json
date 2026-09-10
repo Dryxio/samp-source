@@ -1,0 +1,91 @@
+{
+  "status": "PASS_FULL_PROBE_BSS_AND_EXISTING_INIT_REGIONS",
+  "unit": "eval_probe_socket_storage_candidate",
+  "run": "build/cp32-overnight-probe-socket-layout",
+  "regions": [
+    {
+      "section": 8,
+      "anchor": "_$E6",
+      "rva": 934704,
+      "size": 10,
+      "kind": "code",
+      "bindings": [
+        {
+          "symbol": "?I@SocketLayer@@0V1@A",
+          "site_rva": 934705,
+          "kind": 6,
+          "target_va": 269621817
+        },
+        {
+          "symbol": "??1SocketLayer@@QAE@XZ",
+          "site_rva": 934710,
+          "kind": 20,
+          "target_va": 268777552
+        }
+      ],
+      "sha256": "2680b708979ae89ab2973ca833a5ecbd8022d6a805dbb70b86cedc45dfbfb555"
+    },
+    {
+      "section": 5,
+      "anchor": "_$E5",
+      "rva": 934576,
+      "size": 22,
+      "kind": "code",
+      "bindings": [
+        {
+          "symbol": "?I@SocketLayer@@0V1@A",
+          "site_rva": 934577,
+          "kind": 6,
+          "target_va": 269621817
+        },
+        {
+          "symbol": "??0SocketLayer@@QAE@XZ",
+          "site_rva": 934582,
+          "kind": 20,
+          "target_va": 268777504
+        },
+        {
+          "symbol": "_$E6",
+          "site_rva": 934587,
+          "kind": 6,
+          "target_va": 269370160
+        },
+        {
+          "symbol": "_atexit",
+          "site_rva": 934592,
+          "kind": 20,
+          "target_va": 269257477
+        }
+      ],
+      "sha256": "d5ecc502b40fc16b02aa6dfa41951791419e59caae65fda1b94c59ac44d634ca"
+    },
+    {
+      "section": 6,
+      "anchor": "_$S7",
+      "rva": 1040400,
+      "size": 4,
+      "kind": "data",
+      "bindings": [
+        {
+          "symbol": "_$E5",
+          "site_rva": 1040400,
+          "kind": 6,
+          "target_va": 269370032
+        }
+      ],
+      "sha256": "9322e50e6bd2549030834df9f53ca5d939584c3d2b22a694f8c5d35d19e971c7"
+    },
+    {
+      "section": 3,
+      "anchor": "?I@SocketLayer@@0V1@A",
+      "rva": 1153192,
+      "size": 33170,
+      "kind": "zero",
+      "bindings": [],
+      "sha256": "01e9d8277891f5a993851cef86e77ec7a80e77eeacf83209918111ab11cd71f0"
+    }
+  ],
+  "object_sha256": "c30768ed1c1c255ae8e4044ab7982e8ad6913534f243942f021bdaedbee340c4",
+  "source_sha256": "a4c58c603761f2c367fe7023d5bec6a0492c2938f450972b5fc12df0d52f22f2",
+  "scope": "Supporting isolated layout experiment only, no candidate acceptance or code credit. All whole source sections, initialization code/data and COFF/PE bindings checked."
+}

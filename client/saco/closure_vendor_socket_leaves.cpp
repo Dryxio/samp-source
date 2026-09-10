@@ -1,3 +1,5 @@
+extern unsigned char r5DatagramOutput[];
+void R5DatagramEncode(unsigned char *, const unsigned char *, unsigned *);
 #include "../raknet/SocketLayer.h"
 #include <assert.h>
 #include <string.h>
@@ -215,10 +217,11 @@ int SocketLayer::SendTo( SOCKET s, const char *data, int length, unsigned int bi
 	sa.sin_addr.s_addr = binaryAddress;
 	sa.sin_family = AF_INET;
 
+	R5DatagramEncode(r5DatagramOutput, (const unsigned char *)data, (unsigned *)&length);
 	do
 	{
 		// TODO - use WSASendTo which is faster.
-		len = sendto( s, data, length, 0, ( const sockaddr* ) & sa, sizeof( struct sockaddr_in ) );
+		len = sendto( s, (const char *)r5DatagramOutput, length, 0, ( const sockaddr* ) & sa, sizeof( struct sockaddr_in ) );
 	}
 	while ( len == 0 );
 
@@ -265,4 +268,11 @@ unsigned short SocketLayer::GetLocalPort ( SOCKET s )
 	if (getsockname(s, (sockaddr*)&sa, &len)!=0)
 		return 0;
 	return ntohs(sa.sin_port);
+}
+
+int SocketLayer::SendTo( SOCKET s, const char *data, int length, char ip[ 16 ], unsigned short port )
+{
+	unsigned int binaryAddress;
+	binaryAddress = inet_addr( ip );
+	return SendTo( s, data, length, binaryAddress, port );
 }

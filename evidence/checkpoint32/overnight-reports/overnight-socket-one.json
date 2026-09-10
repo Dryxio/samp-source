@@ -1,0 +1,100 @@
+{
+  "prefix": "overnight-socket-one",
+  "utc": "2026-09-10T00:15:19.359550+00:00",
+  "coverage": {
+    "previous_code_bytes": 468905,
+    "batch_code_bytes": 465791,
+    "new_unique_code_bytes": 2957,
+    "union_code_bytes": 471862,
+    "text_bytes": 930756,
+    "text_percent": 50.69663800179639,
+    "whole_dll_match": false
+  },
+  "measurement": {
+    "utc": "2026-09-10T00:15:29.855653+00:00",
+    "elapsed_seconds": 2853.855653,
+    "baseline": 435895,
+    "accepted": 471862,
+    "gain": 35967,
+    "global_bytes_per_hour": 45370.6198713618,
+    "token_usage": {
+      "root": {
+        "configuration": {
+          "model": "gpt-6-astra",
+          "effort": "low"
+        },
+        "usage": {
+          "input_tokens": 23756786,
+          "cached_input_tokens": 23446528,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 55592,
+          "reasoning_output_tokens": 11444,
+          "total_tokens": 23812378,
+          "uncached_input_tokens": 310258
+        },
+        "as_of": "2026-09-10T00:15:24.787Z",
+        "session": "/Users/salimtrouve/.codex/sessions/2026/09/10/rollout-2026-09-10T00-26-29-01a0887e-8a17-7c33-90e9-dcf660740fb9.jsonl",
+        "observed_counter_resets": 0
+      },
+      "/root/client": {
+        "configuration": {
+          "model": "gpt-6-astra",
+          "effort": "low"
+        },
+        "usage": {
+          "input_tokens": 19821264,
+          "cached_input_tokens": 19590528,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 61066,
+          "reasoning_output_tokens": 18069,
+          "total_tokens": 19882330,
+          "uncached_input_tokens": 230736
+        },
+        "as_of": "2026-09-10T00:15:18.703Z",
+        "session": "/Users/salimtrouve/.codex/sessions/2026/09/10/rollout-2026-09-10T00-28-42-01a08880-90d2-7b61-95d9-80335d3475ae.jsonl",
+        "observed_counter_resets": 0
+      },
+      "/root/network": {
+        "configuration": {
+          "model": "gpt-6-astra",
+          "effort": "low"
+        },
+        "usage": {
+          "input_tokens": 21508170,
+          "cached_input_tokens": 21248768,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 55736,
+          "reasoning_output_tokens": 15801,
+          "total_tokens": 21563906,
+          "uncached_input_tokens": 259402
+        },
+        "as_of": "2026-09-10T00:15:13.882Z",
+        "session": "/Users/salimtrouve/.codex/sessions/2026/09/10/rollout-2026-09-10T00-28-32-01a08880-6cd4-7172-a004-119c842bab14.jsonl",
+        "observed_counter_resets": 0
+      }
+    },
+    "pipeline_seconds": {
+      "vm-idle": 4.405402916992898,
+      "compile": 49.71072958299192,
+      "audit": 19.244281958010106,
+      "link": 31.679301915995893,
+      "qualify": 4.79065625101066,
+      "spec": 0.18633629201212898,
+      "review": 45.771064084008685,
+      "accept": 416.1733203330077
+    },
+    "token_note": "Observed cumulative counters reset on continuation; sum monotonic increments within the requested window and restart from zero on a verified decrease. Earlier negative raw differences are invalid and retained in history. Counters may lag; reasoning is a subset of output; cached input is separate; no billed cost inferred.",
+    "recent_bytes_per_hour": 29169.53717697821
+  },
+  "proposal": "build/overnight/proposal-socket-one.json",
+  "reviews": [
+    "evidence/checkpoint32/overnight-reviews/overnight-socket-one-socket-batch-v1-reviewed-manifest.json"
+  ],
+  "review_note": {
+    "scope": "Socket SendTo overloads, Reliability Update/SendBitStream, offline Ping/Advertise:2957 potential code bytes, whole source regions only.",
+    "implementation": "Normal C++ with full typed datagram buffer storage inferred from compiler layout and independent original global address anchors. Existing three globals preserved byte-for-byte in complete BSS; no code credit for BSS. All original and linked bytes, relocations, imports and unique ownership verified. Explicit reviewed aggregate-owner workflow extends unsupported v1 storage owner migration with unchanged acceptance gates and adversarial layout controls."
+  },
+  "preserved_main": true,
+  "changed_preexisting_with_backup": [],
+  "status": "ACCEPTED_CHECKPOINT_STILL_IN_PROGRESS"
+}

@@ -1,0 +1,107 @@
+{
+  "status": "EXHAUSTIVE_BASELINE_STORE_MIGRATION_PLAN_PENDING_OBJECT_REVIEW",
+  "baseline": "overnight-lzma-three",
+  "regions": [
+    {
+      "old_unit": "eval_store_socket_instance",
+      "old_anchor": "_$E6",
+      "old_rva": 934704,
+      "old_size": 10,
+      "old_kind": "code",
+      "new_unit": "eval_store_socket_instance",
+      "new_section_pending_fresh_probe": true,
+      "new_section_rva": 934704,
+      "new_section_size": 10,
+      "old_bytes_offset_in_new": 0
+    },
+    {
+      "old_unit": "eval_store_socket_instance",
+      "old_anchor": "_$E5",
+      "old_rva": 934576,
+      "old_size": 22,
+      "old_kind": "code",
+      "new_unit": "eval_store_socket_instance",
+      "new_section_pending_fresh_probe": true,
+      "new_section_rva": 934576,
+      "new_section_size": 22,
+      "old_bytes_offset_in_new": 0
+    },
+    {
+      "old_unit": "eval_store_socket_instance",
+      "old_anchor": "_$S7",
+      "old_rva": 1040400,
+      "old_size": 4,
+      "old_kind": "data",
+      "new_unit": "eval_store_socket_instance",
+      "new_section_pending_fresh_probe": true,
+      "new_section_rva": 1040400,
+      "new_section_size": 4,
+      "old_bytes_offset_in_new": 0
+    },
+    {
+      "old_unit": "eval_store_socket_instance",
+      "old_anchor": "?I@SocketLayer@@0V1@A",
+      "old_rva": 1186361,
+      "old_size": 1,
+      "old_kind": "zero",
+      "new_unit": "eval_store_socket_instance",
+      "new_section_pending_fresh_probe": true,
+      "new_section_rva": 1153192,
+      "new_section_size": 33170,
+      "old_bytes_offset_in_new": 33169
+    },
+    {
+      "old_unit": "eval_store_socket_started",
+      "old_anchor": "?socketLayerStarted@SocketLayer@@0_NA",
+      "old_rva": 1186360,
+      "old_size": 1,
+      "old_kind": "zero",
+      "new_unit": "eval_store_socket_instance",
+      "new_section_pending_fresh_probe": true,
+      "new_section_rva": 1153192,
+      "new_section_size": 33170,
+      "old_bytes_offset_in_new": 33168
+    },
+    {
+      "old_unit": "eval_store_socket_winsock_info",
+      "old_anchor": "?winsockInfo@SocketLayer@@0UWSAData@@A",
+      "old_rva": 1153192,
+      "old_size": 398,
+      "old_kind": "zero",
+      "new_unit": "eval_store_socket_instance",
+      "new_section_pending_fresh_probe": true,
+      "new_section_rva": 1153192,
+      "new_section_size": 33170,
+      "old_bytes_offset_in_new": 0
+    }
+  ],
+  "aggregate_members": [
+    {
+      "symbol": "?winsockInfo@SocketLayer@@0UWSAData@@A",
+      "offset": 0,
+      "logical_size": 398
+    },
+    {
+      "role": "compiler alignment",
+      "offset": 398,
+      "size": 2
+    },
+    {
+      "symbol": "?r5DatagramOutput@@3PAEA",
+      "offset": 400,
+      "logical_size": 32768
+    },
+    {
+      "symbol": "?socketLayerStarted@SocketLayer@@0_NA",
+      "offset": 33168,
+      "logical_size": 1
+    },
+    {
+      "symbol": "?I@SocketLayer@@0V1@A",
+      "offset": 33169,
+      "logical_size": 1
+    }
+  ],
+  "whole_object_size": 33170,
+  "new_data_credit": 0
+}

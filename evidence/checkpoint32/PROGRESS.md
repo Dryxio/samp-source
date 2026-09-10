@@ -1585,3 +1585,6 @@ overnight-lzma-three: +30545 unique R5 code bytes, total 468034/930756 (50.28535
 
 
 overnight-wrappers-one: +871 unique R5 code bytes, total 468905/930756 (50.378939%). LZMA allocator/API wrappers357, normal memory codec308 and quaternion SDK adapters206, total871 potential code bytes; all code/data closure complete. Complete source/linked code, data, EH and actual COFF/PE targets; required negative controls and ABI PASS. No duplicate/data/CRT/unimplemented-provider credit. Checkpoint remains active, no push/deployment. See overnight-reports/overnight-wrappers-one.json.
+
+
+overnight-socket-one: +2957 unique R5 code bytes, total 471862/930756 (50.696638%). Socket SendTo overloads, Reliability Update/SendBitStream, offline Ping/Advertise:2957 potential code bytes, whole source regions only. Complete source/linked code, data, EH and actual COFF/PE targets; required negative controls and ABI PASS. No duplicate/data/CRT/unimplemented-provider credit. Checkpoint remains active, no push/deployment. See overnight-reports/overnight-socket-one.json.

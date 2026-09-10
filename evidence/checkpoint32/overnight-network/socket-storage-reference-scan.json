@@ -1,0 +1,94 @@
+{
+  "reference_sha256": "b72b5dbe725f81864ca3f78bc7063bda56cc05fc7188af822fa7a754432553a2",
+  "buffer_start": 1153592,
+  "next_typed_global": 1186360,
+  "gap": 32768,
+  "all_pe_references": [
+    {
+      "site": 342758,
+      "target": 1153592
+    },
+    {
+      "site": 342802,
+      "target": 1153592
+    }
+  ],
+  "all_raw_address_candidates": [
+    {
+      "site": 200822,
+      "target": 1183747,
+      "has_pe_relocation": false
+    },
+    {
+      "site": 342758,
+      "target": 1153592,
+      "has_pe_relocation": true
+    },
+    {
+      "site": 342802,
+      "target": 1153592,
+      "has_pe_relocation": true
+    },
+    {
+      "site": 660217,
+      "target": 1173520,
+      "has_pe_relocation": false
+    },
+    {
+      "site": 1059515,
+      "target": 1182735,
+      "has_pe_relocation": false
+    }
+  ],
+  "whole_interval_zero": true,
+  "neighbors": [
+    {
+      "symbol": "SocketLayer::winsockInfo",
+      "rva": 1153192,
+      "size": 398
+    },
+    {
+      "symbol": "SocketLayer::socketLayerStarted",
+      "rva": 1186360,
+      "size": 1
+    },
+    {
+      "symbol": "SocketLayer::I",
+      "rva": 1186361,
+      "size": 1
+    }
+  ],
+  "status": "FACTS_FOR_LAYOUT_INFERENCE_NOT_ACCEPTANCE",
+  "raw_false_positive_explanations": [
+    {
+      "site": 200822,
+      "reason": "Unaligned DWORD crossing ordinary jump-table entries; adjacent actual PE relocation entries listed.",
+      "neighbor_relocations": [
+        {
+          "site": 200816,
+          "target": 200790
+        },
+        {
+          "site": 200820,
+          "target": 200705
+        },
+        {
+          "site": 200824,
+          "target": 200722
+        },
+        {
+          "site": 200828,
+          "target": 200739
+        }
+      ]
+    },
+    {
+      "site": 660217,
+      "reason": "DWORD straddles final byte of PUSH address0x100ec56c at0xa12f5 and following CALL opcode/displacement at0xa12fa; not an operand address."
+    },
+    {
+      "site": 1059515,
+      "reason": "Unrelocated bytes inside initialized data lookup sequence, no code instruction or pointer relocation; byte data cannot establish a static object reference."
+    }
+  ]
+}
