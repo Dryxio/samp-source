@@ -1,0 +1,85 @@
+{
+  "result": "PASS",
+  "run": "cp32-overnight-lzma-three-linked1",
+  "reference_sha256": "b72b5dbe725f81864ca3f78bc7063bda56cc05fc7188af822fa7a754432553a2",
+  "linked_sha256": "eafb876343225639b67d7f0503ebb2dffaa5d4baa14e6e972af4461dc04f8f99",
+  "cases": [
+    {
+      "case": "full",
+      "result": "PASS",
+      "observed": {
+        "return_code": 0,
+        "output_size": 260,
+        "props": "5d00000100",
+        "output_sha256": "1d1f2ca0e6021a26f08ffb43d49b6813259bc7560d6f72903071354b9fe4bdd1",
+        "allocation_sizes": [
+          283133,
+          65536,
+          12288,
+          12288,
+          1052680
+        ],
+        "free_count": 8
+      },
+      "stack_and_nonvolatile_preserved": true,
+      "output_guard_preserved": true
+    },
+    {
+      "case": "empty",
+      "result": "PASS",
+      "observed": {
+        "return_code": 0,
+        "output_size": 10,
+        "props": "5d00000100",
+        "output_sha256": "535caa8a8e2f23f5609bffd99aad5f22f29b22d0dc6fcbf343c71ede35c28c72",
+        "allocation_sizes": [
+          283133,
+          65536,
+          12288,
+          12288,
+          1052680
+        ],
+        "free_count": 8
+      },
+      "stack_and_nonvolatile_preserved": true,
+      "output_guard_preserved": true
+    },
+    {
+      "case": "small_output",
+      "result": "PASS",
+      "observed": {
+        "return_code": 7,
+        "output_size": 2,
+        "props": "5d00000100",
+        "output_sha256": "aed9f5e8dedf580817cc0d9a2c1bba0cfffe9fc607e6caedc8011cfc80fe0dd4",
+        "allocation_sizes": [
+          283133,
+          65536,
+          12288,
+          12288,
+          1052680
+        ],
+        "free_count": 8
+      },
+      "stack_and_nonvolatile_preserved": true,
+      "output_guard_preserved": true
+    },
+    {
+      "case": "allocation_failure",
+      "result": "PASS",
+      "observed": {
+        "return_code": 2,
+        "output_size": 128,
+        "props": "0000000000",
+        "output_sha256": "39557315215be0f6922cec45d29336c8f72198032cababdc5ec0672d45e894ad",
+        "allocation_sizes": [
+          283133
+        ],
+        "free_count": 0
+      },
+      "stack_and_nonvolatile_preserved": true,
+      "output_guard_preserved": true
+    }
+  ],
+  "scope": "Real LzmaEncode, internal encoder and match finder run on original and linked PEs. Only caller-supplied allocation/free callbacks intercepted; __aullshr runtime executes normally. Successful streams independently decoded by Python liblzma. Empty, insufficient output and allocation failure included. Not exhaustive."
+}
