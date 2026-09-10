@@ -1,0 +1,269 @@
+{
+  "status": "PASS",
+  "run": "cp32-overnight-socket-one-linked1",
+  "reference_sha256": "b72b5dbe725f81864ca3f78bc7063bda56cc05fc7188af822fa7a754432553a2",
+  "linked_sha256": "cecf2b518a272f02824e45e5b78f6ae70dc91b763a3fd0d951c3cb3d40870e74",
+  "test_source_sha256": "c663953e170606bd9b64b792ba8879b90d10f824dbbe8a442a4e3f3c6b8a9532",
+  "cases": [
+    {
+      "case": "invalid_socket",
+      "result": "PASS",
+      "payload_length": 3,
+      "observed": {
+        "return_code": 4294967295,
+        "imports": [],
+        "send_calls": [],
+        "WSAGetLastError_calls": 0,
+        "encoded_bytes": 0
+      },
+      "stack_nonvolatile_input_and_buffer_guards_preserved": true
+    },
+    {
+      "case": "empty",
+      "result": "PASS",
+      "payload_length": 0,
+      "observed": {
+        "return_code": 0,
+        "imports": [
+          "htons",
+          "sendto"
+        ],
+        "send_calls": [
+          {
+            "length": 1,
+            "encoded_sha256": "6e340b9cffb37a989ca544e6bb780a2c78901d3fb33738768511a30617afa01d",
+            "sockaddr": "02001e61c000020fcccccccccccccccc"
+          }
+        ],
+        "WSAGetLastError_calls": 0,
+        "encoded_bytes": 1
+      },
+      "stack_nonvolatile_input_and_buffer_guards_preserved": true
+    },
+    {
+      "case": "all_byte_values",
+      "result": "PASS",
+      "payload_length": 256,
+      "observed": {
+        "return_code": 0,
+        "imports": [
+          "htons",
+          "sendto"
+        ],
+        "send_calls": [
+          {
+            "length": 257,
+            "encoded_sha256": "7ae1221b4cd0e3a77c38127b8c26aa2716c829c363dafcdbd91ecc130ccb7040",
+            "sockaddr": "02001e61c000020fcccccccccccccccc"
+          }
+        ],
+        "WSAGetLastError_calls": 0,
+        "encoded_bytes": 257
+      },
+      "stack_nonvolatile_input_and_buffer_guards_preserved": true
+    },
+    {
+      "case": "mtu_payload",
+      "result": "PASS",
+      "payload_length": 1490,
+      "observed": {
+        "return_code": 0,
+        "imports": [
+          "htons",
+          "sendto"
+        ],
+        "send_calls": [
+          {
+            "length": 1491,
+            "encoded_sha256": "988e0611036566b135c9418a9ffac286058ae3bd83493e332e73bc1ffad8d36b",
+            "sockaddr": "02001e61c000020fcccccccccccccccc"
+          }
+        ],
+        "WSAGetLastError_calls": 0,
+        "encoded_bytes": 1491
+      },
+      "stack_nonvolatile_input_and_buffer_guards_preserved": true
+    },
+    {
+      "case": "whole_buffer_boundary",
+      "result": "PASS",
+      "payload_length": 32767,
+      "observed": {
+        "return_code": 0,
+        "imports": [
+          "htons",
+          "sendto"
+        ],
+        "send_calls": [
+          {
+            "length": 32768,
+            "encoded_sha256": "feb14b528b256e4850bdb0a8711f2866527cf2dd9cbac1d541e8bb7855d487e1",
+            "sockaddr": "02001e61c000020fcccccccccccccccc"
+          }
+        ],
+        "WSAGetLastError_calls": 0,
+        "encoded_bytes": 32768
+      },
+      "stack_nonvolatile_input_and_buffer_guards_preserved": true
+    },
+    {
+      "case": "zero_send_retry",
+      "result": "PASS",
+      "payload_length": 5,
+      "observed": {
+        "return_code": 0,
+        "imports": [
+          "htons",
+          "sendto",
+          "sendto"
+        ],
+        "send_calls": [
+          {
+            "length": 6,
+            "encoded_sha256": "cf0978c36f79fc0004258904a6489a3396a1f831432421ce426777e22c2e402a",
+            "sockaddr": "02001e61c000020fcccccccccccccccc"
+          },
+          {
+            "length": 6,
+            "encoded_sha256": "cf0978c36f79fc0004258904a6489a3396a1f831432421ce426777e22c2e402a",
+            "sockaddr": "02001e61c000020fcccccccccccccccc"
+          }
+        ],
+        "WSAGetLastError_calls": 0,
+        "encoded_bytes": 6
+      },
+      "stack_nonvolatile_input_and_buffer_guards_preserved": true
+    },
+    {
+      "case": "connection_reset",
+      "result": "PASS",
+      "payload_length": 5,
+      "observed": {
+        "return_code": 10054,
+        "imports": [
+          "htons",
+          "sendto",
+          "WSAGetLastError"
+        ],
+        "send_calls": [
+          {
+            "length": 6,
+            "encoded_sha256": "c2cb4d3aafed0b1f6a17ea2238980ef911e49b01812c88a5a72fd712f7d6a9f6",
+            "sockaddr": "02001e61c000020fcccccccccccccccc"
+          }
+        ],
+        "WSAGetLastError_calls": 1,
+        "encoded_bytes": 6
+      },
+      "stack_nonvolatile_input_and_buffer_guards_preserved": true
+    },
+    {
+      "case": "would_block",
+      "result": "PASS",
+      "payload_length": 7,
+      "observed": {
+        "return_code": 10035,
+        "imports": [
+          "htons",
+          "sendto",
+          "WSAGetLastError"
+        ],
+        "send_calls": [
+          {
+            "length": 8,
+            "encoded_sha256": "424f818f99d188b8cc775b85cee077ee9a8a41ff661db57bbd66b48bd9e0b9c7",
+            "sockaddr": "02001e61c000020fcccccccccccccccc"
+          }
+        ],
+        "WSAGetLastError_calls": 1,
+        "encoded_bytes": 8
+      },
+      "stack_nonvolatile_input_and_buffer_guards_preserved": true
+    },
+    {
+      "case": "other_error",
+      "result": "PASS",
+      "payload_length": 5,
+      "observed": {
+        "return_code": 10022,
+        "imports": [
+          "htons",
+          "sendto",
+          "WSAGetLastError"
+        ],
+        "send_calls": [
+          {
+            "length": 6,
+            "encoded_sha256": "341a90f9b0a71e635547350e15fb65984400940ad2095654ba7f3126f9dcefff",
+            "sockaddr": "02001e61c000020fcccccccccccccccc"
+          }
+        ],
+        "WSAGetLastError_calls": 1,
+        "encoded_bytes": 6
+      },
+      "stack_nonvolatile_input_and_buffer_guards_preserved": true
+    },
+    {
+      "case": "host_overload",
+      "result": "PASS",
+      "payload_length": 9,
+      "observed": {
+        "return_code": 0,
+        "imports": [
+          "inet_addr",
+          "htons",
+          "sendto"
+        ],
+        "send_calls": [
+          {
+            "length": 10,
+            "encoded_sha256": "6709671bc1cccfd95492ef7f50af4d1be362b322a2f6f1625fdb0a6427d06b70",
+            "sockaddr": "02001e617f000001cccccccccccccccc"
+          }
+        ],
+        "WSAGetLastError_calls": 0,
+        "encoded_bytes": 10
+      },
+      "stack_nonvolatile_input_and_buffer_guards_preserved": true
+    },
+    {
+      "case": "host_invalid_address",
+      "result": "PASS",
+      "payload_length": 7,
+      "observed": {
+        "return_code": 0,
+        "imports": [
+          "inet_addr",
+          "htons",
+          "sendto"
+        ],
+        "send_calls": [
+          {
+            "length": 8,
+            "encoded_sha256": "f1d27866e81fe5f4b3d00e774e45df6e33f3849ab1eac714b81424e14b8abe9c",
+            "sockaddr": "02001e61ffffffffcccccccccccccccc"
+          }
+        ],
+        "WSAGetLastError_calls": 0,
+        "encoded_bytes": 8
+      },
+      "stack_nonvolatile_input_and_buffer_guards_preserved": true
+    },
+    {
+      "case": "host_invalid_socket",
+      "result": "PASS",
+      "payload_length": 3,
+      "observed": {
+        "return_code": 4294967295,
+        "imports": [
+          "inet_addr"
+        ],
+        "send_calls": [],
+        "WSAGetLastError_calls": 0,
+        "encoded_bytes": 0
+      },
+      "stack_nonvolatile_input_and_buffer_guards_preserved": true
+    }
+  ],
+  "scope": "Execute genuine complete SendTo numeric and host overloads, R5SetDatagramPort, datagram checksum/substitution/encoding and called CRT on original and linked PEs. Four explicitly authorized Windows API shims only: htons, inet_addr, sendto, WSAGetLastError. API stdcall cleanup validated by whole-call ABI; deterministic argument/results checked. Codec outputs additionally checked by independent Python algorithm. Boundaries include all32768 output bytes, exact canaries, input preservation, retry-on-zero and three errors. No actual OS/network execution; not exhaustive."
+}
